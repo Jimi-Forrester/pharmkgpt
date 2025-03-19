@@ -3,7 +3,7 @@
 ## 1. Model Directory
 
 Install [ollama](https://ollama.com/)
-Download llama3:8b with ollama
+Download deepseek-r1:1.5b with ollama
 
 ```sh
 ollama run deepseek-r1:1.5b
