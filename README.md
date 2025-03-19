@@ -37,6 +37,7 @@ pip install -r requirements.txt
 # 单独安装
 pip install llama-index-llms-ollama
 pip install llama-index-embeddings-ollama
+pip install llama-index-llms-gemini
 ```
 
 ## 5.Run

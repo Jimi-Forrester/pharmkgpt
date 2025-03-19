@@ -1,8 +1,10 @@
 import pickle   
 import logging
 from FlagEmbedding import FlagReranker
+
+from llama_index.llms.gemini import Gemini
 from llama_index.llms.ollama import Ollama
-from llama_index.core import Settings,VectorStoreIndex,PromptTemplate,StorageContext,load_index_from_storage
+from llama_index.core import Settings, VectorStoreIndex,PromptTemplate,StorageContext,load_index_from_storage
 from llama_index.core.schema import TextNode
 from llama_index.core.retrievers import VectorIndexRetriever
 from llama_index.core.query_engine import RetrieverQueryEngine
@@ -11,7 +13,7 @@ from llama_index.embeddings.ollama import OllamaEmbedding
 from src.util.kg_post_processor import NaivePostprocessor,KGRetrievePostProcessor,ngram_overlap,GraphFilterPostProcessor
 from src.util.kg_response_synthesizer import get_response_synthesizer
 
-DATA_PATH = "/Users/fl/Desktop/my_code/delirium-rag/Data"
+DATA_PATH = "/Users/fl/Desktop/my_code/delirium-rag/Data_v2"
 
 logging.basicConfig(
     level=logging.INFO,  # 设置日志级别 (DEBUG, INFO, WARNING, ERROR, CRITICAL)
@@ -19,12 +21,27 @@ logging.basicConfig(
 )
 
 
-def RAG(question, top_k=5, hops=1, reranker='bge-reranker-large', persist_dir = f'{DATA_PATH}/derilirum_index'):
-    Settings.llm = Ollama(
-        model="deepseek-r1:1.5b", 
-        base_url="http://127.0.0.1:11434"
-        )
-
+def RAG(
+    question, 
+    top_k=5, 
+    hops=1, 
+    model_type='gemini', # gemini or ollama
+    reranker='bge-reranker-large', 
+    persist_dir = f'{DATA_PATH}/derilirum_index'
+    ):
+    if model_type == "gemini":
+        GOOGLE_API_KEY="AIzaSyCQaHZ0YOhVMqTw7XkWVhcR6pBMfZdeArg"
+        Settings.llm = Gemini(
+            api_key=GOOGLE_API_KEY, 
+            model='models/gemini-2.0-flash'
+            )
+        
+    elif model_type == "ollama":
+        Settings.llm = Ollama(
+            model="deepseek-r1:1.5b",
+            base_url="http://127.0.0.1:11434"
+            )
+        
     Settings.embed_model = OllamaEmbedding(
         model_name="nomic-embed-text:latest", 
         base_url="http://127.0.0.1:11434"
@@ -111,5 +128,10 @@ def RAG(question, top_k=5, hops=1, reranker='bge-reranker-large', persist_dir = 
 
 if __name__ == '__main__':
     question = "how does kynurenic acid contribute to dilirium?"
-    output = RAG(question)
+    output = RAG(
+        question,
+        top_k=5, 
+        hops=1, 
+        model_type ='ollama', # gemini or ollama
+        )
     print(output)
