@@ -25,8 +25,7 @@ export HF_ENDPOINT=https://hf-mirror.com
 ## 3.Data
 
 ```sh
-tar -zxf delirium.tar.gz  # PMID对应的 abstarct文件
-tar -zxf delirium_index.tar.gz  
+ unzip Data.zip
 ```
 
 ## 4. ENV
