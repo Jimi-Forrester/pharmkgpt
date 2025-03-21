@@ -134,13 +134,13 @@ class RAGEngine:
                         text_line = f.readlines()
                         title = text_line[0].strip().split("|")[-1]
                         abstract = text_line[1].strip().split("|")[-1]
-                        context[s] = {"Title": {title}, "Abstract": {abstract}}
+                        context[s] = {"title": title, "abstract": abstract}
                 except:
                     continue
 
             output_dict = {
                 "Question": question,
-                "Answer": answer,
+                "Answer": answer + "Source: " + ", ".join(sps),
                 "Supporting literature": sps,
                 "Context": context,
             }
