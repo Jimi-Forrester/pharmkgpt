@@ -38,10 +38,15 @@ pip install -r requirements.txt
 pip install llama-index-llms-ollama
 pip install llama-index-embeddings-ollama
 pip install llama-index-llms-gemini
+
+pip install flask
 ```
 
 ## 5.Run
 
 ```sh
-python run.py  # 主函数 RAG，返回字典
+# 启动
+python app.py  
+
+curl -X POST -H "Content-Type: application/json" -d '{"question": "how does kynurenic acid contribute to dilirium?"}' http://127.0.0.1:5000/query
 ```
