@@ -134,7 +134,7 @@ class RAGEngine:
                         text_line = f.readlines()
                         title = text_line[0].strip().split("|")[-1]
                         abstract = text_line[1].strip().split("|")[-1]
-                        context[s] = f"Title: {title}\n Abstract: {abstract}"
+                        context[s] = {"Title": {title}, "Abstract": {abstract}}
                 except:
                     continue
 
