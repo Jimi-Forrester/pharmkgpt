@@ -149,7 +149,7 @@ class RAGEngine:
         try:
             response = self.engine.query(question)
             answer = response.response
-            sps = [source_node.node.id_ for source_node in response.source_nodes]
+            sps = [source_node.node.id_.upper() for source_node in response.source_nodes]
             context = {}
             for s in sps:
                 try: # 增加一个 try
