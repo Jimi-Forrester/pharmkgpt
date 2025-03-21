@@ -1,6 +1,6 @@
 import pickle
 import logging
-
+import re
 from FlagEmbedding import FlagReranker
 from llama_index.llms.gemini import Gemini
 from llama_index.llms.ollama import Ollama
@@ -16,6 +16,8 @@ from src.util.kg_post_processor import (
     GraphFilterPostProcessor,
 )
 from src.util.kg_response_synthesizer import get_response_synthesizer
+from src.kgvisual import kg_visualization
+
 from config import (
     DATA_PATH,
     DEFAULT_RERANKER,
@@ -24,6 +26,7 @@ from config import (
     OLLAMA_MODEL,
     OLLAMA_BASE_URL,
     EMBED_MODEL,
+    KG_PATH,
     )
 
 
@@ -38,19 +41,26 @@ logging.basicConfig(
 class RAGEngine:
     def __init__(
         self,
-        model_type='gemini',
-        top_k=5,
+        model_type='DeepSeek-R1',
+        topk=5,
         hops=1,
+        kg_path=KG_PATH,
         reranker=DEFAULT_RERANKER,
         persist_dir=PERSIST_DIR,
     ):
         self.model_type = model_type
+        self.top_k = topk
+        self.hops = hops
         self.reranker = reranker
         self.persist_dir = persist_dir
-        self.top_k = top_k
-        self.hops = hops
+        self.kg_path = kg_path
         self.engine = None  # 引擎将在 initialize 方法中初始化
         self.initialize()
+        self.load_kg()
+    
+    def load_kg(self):
+        with open(self.kg_path, "rb") as f:
+            self.kg_dict = pickle.load(f)
 
     def initialize(self):
         """初始化RAG引擎"""
@@ -58,13 +68,15 @@ class RAGEngine:
             if self.model_type == "gemini":
                 Settings.llm = Gemini(api_key=GOOGLE_API_KEY, model="models/gemini-2.0-flash")
 
-            elif self.model_type == "ollama":
+            elif self.model_type == "DeepSeek-R1":
                 Settings.llm = Ollama(model=OLLAMA_MODEL, base_url=OLLAMA_BASE_URL)
 
             Settings.embed_model = OllamaEmbedding(
                 model_name=EMBED_MODEL, base_url=OLLAMA_BASE_URL
             )
-
+            
+            logging.info(f"loading LLM model {self.model_type}.")
+            
             logging.info("Loading entities and doc2kg...")
             with open(f"{DATA_PATH}/entities_doc2kg.pkl", "rb") as f:
                 loaded_dict = pickle.load(f)
@@ -78,37 +90,39 @@ class RAGEngine:
             logging.info("Loading index...")
             sc = StorageContext.from_defaults(persist_dir=self.persist_dir)
             index = load_index_from_storage(sc)
-            retriever = VectorIndexRetriever(index=index, similarity_top_k=self.top_k)
-
+            
             qa_rag_template_str = (
                 "Context information is below.\n{context_str}\nQ: {query_str}\nA: "
             )
             qa_rag_prompt_template = PromptTemplate(qa_rag_template_str)
+            
             response_synthesizer = get_response_synthesizer(
                 response_mode=ResponseMode.COMPACT, text_qa_template=qa_rag_prompt_template
             )
 
-            kg_post_processor1 = KGRetrievePostProcessor(
-                ents=ents, doc2kg=doc2kg, chunks_index=chunks_index, hops=self.hops
-            )
             bge_reranker = FlagReranker(model_name_or_path=self.reranker)
+            retriever = VectorIndexRetriever(index=index, similarity_top_k=self.top_k)
+            kg_post_processor1 = KGRetrievePostProcessor(
+                    ents=ents, doc2kg=doc2kg, chunks_index=chunks_index, hops=self.hops
+                )
             kg_post_processor2 = GraphFilterPostProcessor(
-                topk=self.top_k,
-                ents=ents,
-                doc2kg=doc2kg,
-                chunks_index=chunks_index,
-                reranker=bge_reranker,
-            )
+                    topk=self.top_k,
+                    ents=ents,
+                    doc2kg=doc2kg,
+                    chunks_index=chunks_index,
+                    reranker=bge_reranker,
+                )
 
             self.engine = RetrieverQueryEngine(
-                retriever=retriever,
-                response_synthesizer=response_synthesizer,
-                node_postprocessors=[
-                    kg_post_processor1,
-                    kg_post_processor2,
-                    NaivePostprocessor(),
-                ],
-            )
+                    retriever=retriever,
+                    response_synthesizer=response_synthesizer,
+                    node_postprocessors=[
+                        kg_post_processor1,
+                        kg_post_processor2,
+                        NaivePostprocessor(),
+                    ],
+                )
+ 
             logging.info("RAG engine initialized successfully.")
 
         except FileNotFoundError as e:
@@ -117,7 +131,16 @@ class RAGEngine:
         except Exception as e:
             logging.error(f"An error occurred during initialization: {e}")
             raise
-
+    
+ 
+    def _remove_brackets(self, text: str) -> str:
+        cleaned_text = re.sub(r"[\[\]]", "", text)
+        return cleaned_text
+    
+    
+    def query_kg(self, pmid_list):
+        return kg_visualization(pmid_list, self.kg_dict)
+        
     def query(self, question):
         """执行查询"""
         if self.engine is None:
@@ -132,18 +155,22 @@ class RAGEngine:
                 try: # 增加一个 try
                     with open(f"{DATA_PATH}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
                         text_line = f.readlines()
-                        title = text_line[0].strip().split("|")[-1]
+                        title = self._remove_brackets(text_line[0].strip().split("|")[-1])
                         abstract = text_line[1].strip().split("|")[-1]
                         context[s] = {"title": title, "abstract": abstract}
+                    
                 except:
                     continue
-
+            
+            
             output_dict = {
                 "Question": question,
-                "Answer": answer + "Source: " + ", ".join(sps),
+                "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps),
                 "Supporting literature": sps,
                 "Context": context,
+                "KG": self.query_kg(sps),
             }
+            
             logging.info(f"**Question:** {question}")
             logging.info(f"**Answer:** {answer}")
             logging.info(f"**Supporting literature:** {sps}")
@@ -156,5 +183,6 @@ class RAGEngine:
                 "Answer": "An error occurred during the query.",
                 "Supporting literature": [],
                 "Context": {},
+                "KG": {},
             }
             

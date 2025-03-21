@@ -1,7 +1,10 @@
 # 数据路径
 DATA_PATH = "/Users/fl/Desktop/my_code/delirium-rag/Data_v2"  
+
 PERSIST_DIR = f"{DATA_PATH}/derilirum_index"  # 索引持久化目录
 
+# 知识图谱路径
+KG_PATH = f"{DATA_PATH}/delirium_kg.pkl"  # 知识图谱路径
 
 # 默认reranker模型
 DEFAULT_RERANKER = "bge-reranker-large"  

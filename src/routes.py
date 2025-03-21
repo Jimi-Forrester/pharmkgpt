@@ -5,8 +5,8 @@ bp = Blueprint("api", __name__)
 @bp.route("/query", methods=["POST"])
 def query_rag():
     from flask import current_app  # 使用 current_app 访问 Flask 实例
+    
     rag_engine = current_app.rag_engine
-
     data = request.get_json()
     if not data or "question" not in data:
         return jsonify({"error": "Missing question"}), 400

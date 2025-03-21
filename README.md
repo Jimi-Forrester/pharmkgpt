@@ -40,6 +40,11 @@ pip install llama-index-embeddings-ollama
 pip install llama-index-llms-gemini
 
 pip install flask
+pip install itext2kg    
+
+# 安装了itext2kg 可能需要更新
+conda uninstall numpy scipy scikit-learn
+conda install numpy scipy scikit-learn
 ```
 
 ## 5.Run
