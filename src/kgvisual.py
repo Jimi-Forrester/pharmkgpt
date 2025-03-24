@@ -47,7 +47,7 @@ cont = {
 
 def scale_entity_size_log(entity_relation_counts):
     for entity, count in entity_relation_counts.items():
-        entity_relation_counts[entity] = (count-1)*10 + 25
+        entity_relation_counts[entity] = (count-1)*8 + 25
     return entity_relation_counts
 
 
@@ -100,6 +100,7 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
     relations_set: Set[Tuple[str, str, str]] = set()  # 使用集合存储关系，避免重复
     relations_list: List[Dict] = []
 
+    entity_relation_counts = {}
     for pmid in pmid_list:
         for en in kg_dict[pmid]['entities']:
             # 如果实体名称不在 entities_dict 中, 则创建新的 Entity 对象
@@ -118,7 +119,7 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                     "title": format_dict_to_html_br(en_title)
                     }
                 
-        entity_relation_counts = {}
+        
         for rel in kg_dict[pmid]['relations']:
             relation_tuple = (rel.startEntity.name, rel.endEntity.name, rel.name)
             if relation_tuple not in relations_set:
@@ -133,21 +134,17 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                 })
             
             # 计算每个实体连接的关系的数量
-            if rel.startEntity.name not in entity_relation_counts:
-                entity_relation_counts[rel.startEntity.name] = 1
-            entity_relation_counts[rel.startEntity.name]+= 1
-            
-            if rel.endEntity.name not in entity_relation_counts:
-                entity_relation_counts[rel.endEntity.name] = 1
-            entity_relation_counts[rel.endEntity.name] += 1
+            entity_relation_counts[rel.startEntity.name] = entity_relation_counts.get(rel.startEntity.name,0) + 1
+            entity_relation_counts[rel.endEntity.name] = entity_relation_counts.get(rel.endEntity.name, 0) + 1
         
-        entity_relation_counts = scale_entity_size_log(entity_relation_counts)
-        print('entity_relation_counts', entity_relation_counts)
-        for en_name, _ in entities_dict.items():
-            if en_name in entity_relation_counts:
-                entities_dict[en_name]["size"] = entity_relation_counts[en_name]
-            else:
-                entities_dict[en_name]["size"] = 25
+    print('entity_relation_counts', entity_relation_counts)
+    entity_relation_counts = scale_entity_size_log(entity_relation_counts)
+    print('entity_relation_counts', entity_relation_counts)
+    for en_name, _ in entities_dict.items():
+        if en_name in entity_relation_counts:
+            entities_dict[en_name]["size"] = entity_relation_counts[en_name]
+        else:
+            entities_dict[en_name]["size"] = 25
                 
     output_kg = {
         'nodes': list(entities_dict.values()),
