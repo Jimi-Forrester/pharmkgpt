@@ -1,4 +1,4 @@
-from scr.rag import RAGEngine
+from src.rag import RAGEngine
 
 
 rag_engine = RAGEngine()
