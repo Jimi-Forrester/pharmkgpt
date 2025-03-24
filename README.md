@@ -50,8 +50,11 @@ conda install numpy scipy scikit-learn
 ## 5.Run
 
 ```sh
+# 测试
+# 修改config.py 里面的DATA_PATH 为 Data_test 快速跑通流程
+python run.py
 # 启动
 python app.py  
 
-curl -X POST -H "Content-Type: application/json" -d '{"question": "how does kynurenic acid contribute to dilirium?"}' http://127.0.0.1:5000/query
+curl -X POST -H "Content-Type: application/json" -d '{"question": "How does kynurenic acid contribute to dilirium?"}' http://127.0.0.1:5000/query
 ```

@@ -1,5 +1,5 @@
 # 数据路径
-DATA_PATH = "/Users/fl/Desktop/my_code/delirium-rag/Data_v2"  
+DATA_PATH = "/Users/fl/Desktop/my_code/delirium-rag/Data_test"  
 
 PERSIST_DIR = f"{DATA_PATH}/derilirum_index"  # 索引持久化目录
 
