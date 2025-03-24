@@ -1,34 +1,39 @@
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import List, Dict, Set, Tuple
-import math
 import logging
 
+# --- 日志配置 ---
+logging.basicConfig(
+    level=logging.INFO,  # 设置日志级别 (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",  # 设置日志格式
+)
+
 # 实体类型到颜色的映射 V1
-# en_color = {
-#     'abstract': {"background": '#5A98D0', "border": '#1B3B6F'},  # 赛博蓝/深海蓝
-#     'chemical': {"background": '#35A29F', "border": '#1F6F78'},  # 青绿/深青蓝
-#     'disease': {"background": '#FF3864', "border": '#A30052'},  # 霓虹红/暗紫红 (主色)
-#     'gene': {"background": '#FFCE4F', "border": '#D48C00'},  # 明亮黄/金黄
-#     'metabolite': {"background": '#E457A6', "border": '#9C1B6C'},  # 霓虹粉/暗粉紫
-#     'pathway': {"background": '#8A5CF6', "border": '#4E2A84'},  # 科技紫/深紫
-#     'processes': {"background": '#6BE3C3', "border": '#2A9D8F'},  # 赛博绿/深绿
-#     'protein': {"background": '#1E88E5', "border": '#0D47A1'},  # 电蓝/深蓝
-#     'region': {"background": '#FDCB58', "border": '#C67C00'},  # 柔和金色/深金黄
-# }
+en_color = {
+    'abstract': {"background": '#5A98D0', "border": '#1B3B6F'},  # 赛博蓝/深海蓝
+    'chemical': {"background": '#35A29F', "border": '#1F6F78'},  # 青绿/深青蓝
+    'disease': {"background": '#FF3864', "border": '#A30052'},  # 霓虹红/暗紫红 (主色)
+    'gene': {"background": '#FFCE4F', "border": '#D48C00'},  # 明亮黄/金黄
+    'metabolite': {"background": '#E457A6', "border": '#9C1B6C'},  # 霓虹粉/暗粉紫
+    'pathway': {"background": '#8A5CF6', "border": '#4E2A84'},  # 科技紫/深紫
+    'processes': {"background": '#6BE3C3', "border": '#2A9D8F'},  # 赛博绿/深绿
+    'protein': {"background": '#1E88E5', "border": '#0D47A1'},  # 电蓝/深蓝
+    'region': {"background": '#FDCB58', "border": '#C67C00'},  # 柔和金色/深金黄
+}
 
 # 实体类型到颜色的映射 V2
-en_color = {
-    'abstract': {"background": '#59A14E', "border": '#59A14E'},  
-    'chemical': {"background": '#4E79A7', "border": '#4E79A7'}, 
-    'disease': {"background": '#E15759', "border": '#E15759'},  
-    'gene': {"background": '#EDC949', "border": '#EDC949'},  
-    'metabolite': {"background": '#AF7AA1', "border": '#AF7AA1'},  
-    'pathway': {"background": '#76B7B2', "border": '#76B7B2'}, 
-    'processes': {"background": '#FF9DA7', "border": '#FF9DA7'},  
-    'protein': {"background": '#F28E2C', "border": '#F28E2C'},  
-    'region': {"background": '#9E7A65', "border": '#9E7A65'}, 
-}
+# en_color = {
+#     'abstract': {"background": '#59A14E', "border": '#59A14E'},  
+#     'chemical': {"background": '#4E79A7', "border": '#4E79A7'}, 
+#     'disease': {"background": '#E15759', "border": '#E15759'},  
+#     'gene': {"background": '#EDC949', "border": '#EDC949'},  
+#     'metabolite': {"background": '#AF7AA1', "border": '#AF7AA1'},  
+#     'pathway': {"background": '#76B7B2', "border": '#76B7B2'}, 
+#     'processes': {"background": '#FF9DA7', "border": '#FF9DA7'},  
+#     'protein': {"background": '#F28E2C', "border": '#F28E2C'},  
+#     'region': {"background": '#9E7A65', "border": '#9E7A65'}, 
+# }
 
 cont = {
 'disease': 196769,
@@ -150,8 +155,8 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                 entity_relation_counts[rel.endEntity.name] = set()
             entity_relation_counts[rel.endEntity.name].add(rel.endEntity.name)
         
-
         entity_relation_counts = scale_entity_size_log(entity_relation_counts)
+
         for en_name, _ in entities_dict.items():
             if en_name in entity_relation_counts:
                 entities_dict[en_name]["size"] = entity_relation_counts[en_name]
