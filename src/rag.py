@@ -145,44 +145,43 @@ class RAGEngine:
         """执行查询"""
         if self.engine is None:
             raise Exception("RAG engine is not initialized.")
+        # try:
+        response = self.engine.query(question)
+        answer = response.response
+        sps = [source_node.node.id_ for source_node in response.source_nodes]
+        context = {}
+        for s in sps:
+            try: # 增加一个 try
+                with open(f"{DATA_PATH}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
+                    text_line = f.readlines()
+                    title = self._remove_brackets(text_line[0].strip().split("|")[-1])
+                    abstract = text_line[1].strip().split("|")[-1]
+                    context[s] = {"title": title, "abstract": abstract}
+                
+            except:
+                continue
+        
+        
+        output_dict = {
+            "Question": question,
+            "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
+            "Supporting literature": sps,
+            "Context": context,
+            "KG": self.query_kg(sps),
+        }
+        
+        logging.info(f"**Question:** {question}")
+        logging.info(f"**Answer:** {answer}")
+        logging.info(f"**Supporting literature:** {sps}")
+        return output_dict
 
-        try:
-            response = self.engine.query(question)
-            answer = response.response
-            sps = [source_node.node.id_ for source_node in response.source_nodes]
-            context = {}
-            for s in sps:
-                try: # 增加一个 try
-                    with open(f"{DATA_PATH}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
-                        text_line = f.readlines()
-                        title = self._remove_brackets(text_line[0].strip().split("|")[-1])
-                        abstract = text_line[1].strip().split("|")[-1]
-                        context[s] = {"title": title, "abstract": abstract}
-                    
-                except:
-                    continue
-            
-            
-            output_dict = {
-                "Question": question,
-                "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
-                "Supporting literature": sps,
-                "Context": context,
-                "KG": self.query_kg(sps),
-            }
-            
-            logging.info(f"**Question:** {question}")
-            logging.info(f"**Answer:** {answer}")
-            logging.info(f"**Supporting literature:** {sps}")
-            return output_dict
-
-        except Exception as e:
-            logging.error(f"Query failed: {e}")
-            return {
-                "Question": question,
-                "Answer": "An error occurred during the query.",
-                "Supporting literature": [],
-                "Context": {},
-                "KG": {},
-            }
+        # except Exception as e:
+        #     logging.error(f"Query failed: {e}")
+        #     return {
+        #         "Question": question,
+        #         "Answer": "An error occurred during the query.",
+        #         "Supporting literature": [],
+        #         "Context": {},
+        #         "KG": {},
+        #     }
             

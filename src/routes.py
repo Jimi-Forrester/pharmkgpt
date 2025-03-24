@@ -10,7 +10,6 @@ def query_rag():
     data = request.get_json()
     if not data or "question" not in data:
         return jsonify({"error": "Missing question"}), 400
-
     question = data["question"]
     try:
         result = rag_engine.query(question)
