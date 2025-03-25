@@ -41,7 +41,7 @@ logging.basicConfig(
 class RAGEngine:
     def __init__(
         self,
-        model_type='Qwen2.5',
+        model_type='gemini',
         top_k=5,
         hops=1,
         kg_path=KG_PATH,
@@ -82,9 +82,9 @@ class RAGEngine:
                 model = "Qwen2.5:0.5b",
                 base_url = OLLAMA_BASE_URL 
                 )
-                llm.complete("hello world!")
                 
-                Settings.llm =llm
+            llm.complete("hello world!")
+            Settings.llm =llm
             
             logging.info("Initializing OllamaEmbedding...")
             emd = OllamaEmbedding(
