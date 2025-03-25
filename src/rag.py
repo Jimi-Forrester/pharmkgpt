@@ -41,7 +41,7 @@ logging.basicConfig(
 class RAGEngine:
     def __init__(
         self,
-        model_type='DeepSeek-R1',
+        model_type='Qwen2.5',
         top_k=5,
         hops=1,
         kg_path=KG_PATH,
@@ -76,6 +76,12 @@ class RAGEngine:
                 model =OLLAMA_MODEL, 
                 base_url = OLLAMA_BASE_URL
             )
+            elif self.model_type == "Qwen2.5":
+                logging.info("Initializing Qwen2.5...")
+                llm = Ollama(
+                model = "Qwen2.5:0.5b",
+                base_url = OLLAMA_BASE_URL 
+                )
                 llm.complete("hello world!")
                 
                 Settings.llm =llm

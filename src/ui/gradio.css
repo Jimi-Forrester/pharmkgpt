@@ -1,0 +1,36 @@
+footer { 
+    display: none !important; 
+}
+#styled-btn {
+    min-width: 60px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    }
+#right-column {
+    max-height: 90vh !important;  /* 容器最大高度为视窗高度的80% */
+    overflow-y: auto !important;  /* 垂直滚动条 */
+    border: 1px solid #e0e0e0;    /* 可选边框 */
+    padding: 10px;                /* 可选内边距 */
+}
+#new-conv-button {
+    height: 10px;
+}
+.progress-text, .queue-info { display: none !important; }
+/* 隐藏所有加载动画元素 */
+.gradio-container .animate-spin,
+.gradio-container .loading,
+.gradio-container .progress-bar {
+    display: none !important;
+    opacity: 0 !important;
+}
+ 
+/* 禁用过渡和动画效果 */
+.gradio-container * {
+    transition: none !important;
+    animation: none !important;
+}
+#chat-tab,
+#database-tab {
+  border: none !important;
+}
