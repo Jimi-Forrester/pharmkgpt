@@ -175,7 +175,6 @@ class RAGEngine:
         for s in response.source_nodes: 
             logging.info(f"节点分数：{s.score}") 
             logging.info(s.node)
-            
         
         answer = response.response
         sps = [source_node.node.id_ for source_node in response.source_nodes]
@@ -186,7 +185,7 @@ class RAGEngine:
                 text_line = f.readlines()
                 title = self._remove_brackets(text_line[0].strip().split("|")[-1])
                 abstract = text_line[1].strip().split("|")[-1]
-            context[s] = {"title": title, "abstract": abstract, "score": _score}
+            context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
 
         output_dict = {
             "Question": question,
