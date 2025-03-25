@@ -213,11 +213,16 @@ def load_and_display(output):
     for key, ref in output['Context'].items(): 
         title = ref['title']
         abstract = ref['abstract']
+        score = ref['score']
+        pmid = ref['pmid']
         accordion_html += f"""
         <details style='margin:10px 0; border:1px solid #FFFFFF; border-radius:5px;'>
             <summary style='cursor:pointer; padding:10px; background:#FFFFFF;'>
-                {title}
+                {title}<a href="https://pubmed.ncbi.nlm.nih.gov/{pmid}/" target="_blank">[PMID: {pmid}]</a>
             </summary>
+            <div style='padding:15px; background:white;'>
+                <b>Relevance score:</b> {round(score, 2)}
+            </div>
             <div style='padding:15px; background:white;'>
                 {abstract.replace('\n',  '<br>')}
             </div>
@@ -225,6 +230,7 @@ def load_and_display(output):
         """
     accordion_html += "</div></body></html> "
     return accordion_html 
+
 
 def respond(chat_history):
     message = chat_history[-1][0]  # 获取用户最新消息
