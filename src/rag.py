@@ -109,11 +109,19 @@ class RAGEngine:
             response_synthesizer = get_response_synthesizer(
                 response_mode=ResponseMode.COMPACT, text_qa_template=qa_rag_prompt_template
             )
-
-            kg_post_processor1 = KGRetrievePostProcessor(
-                ents=ents, doc2kg=doc2kg, chunks_index=chunks_index, hops=self.hops
-            )
+            
             bge_reranker = FlagReranker(model_name_or_path=self.reranker)
+            
+            # 基于pmid 和关系的图检索
+            kg_post_processor1 = KGRetrievePostProcessor(
+                ents=ents, 
+                doc2kg=doc2kg, 
+                chunks_index=chunks_index, 
+                hops=self.hops
+            )
+            
+            
+            # 基于节点和 query 覆盖率的图过滤
             kg_post_processor2 = GraphFilterPostProcessor(
                 topk=self.top_k,
                 ents=ents,
@@ -153,6 +161,16 @@ class RAGEngine:
             raise Exception("RAG engine is not initialized.")
 
         response = self.engine.query(question)
+        
+        num_source_nodes = len(response.source_nodes) 
+        logging.info(f"源节点数量：{num_source_nodes}") 
+
+        # 循环遍历源节点并打印元数据
+        for s in response.source_nodes: 
+            logging.info(f"节点分数：{s.score}") 
+            logging.info(s.node)
+            
+        
         answer = response.response
         sps = [source_node.node.id_ for source_node in response.source_nodes]
         context = {}

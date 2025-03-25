@@ -137,9 +137,9 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
             entity_relation_counts[rel.startEntity.name] = entity_relation_counts.get(rel.startEntity.name,0) + 1
             entity_relation_counts[rel.endEntity.name] = entity_relation_counts.get(rel.endEntity.name, 0) + 1
         
-    print('entity_relation_counts', entity_relation_counts)
+    logging.info('entity_relation_counts', entity_relation_counts)
     entity_relation_counts = scale_entity_size_log(entity_relation_counts)
-    print('entity_relation_counts', entity_relation_counts)
+    logging.info('entity_relation_counts', entity_relation_counts)
     for en_name, _ in entities_dict.items():
         if en_name in entity_relation_counts:
             entities_dict[en_name]["size"] = entity_relation_counts[en_name]
