@@ -146,7 +146,7 @@ class RAGEngine:
             raise  # 重新抛出异常，以便上层处理
         except Exception as e:
             logging.error(f"An error occurred during initialization: {e}")
-            raise
+            
         
     def _remove_brackets(self, text: str) -> str:
         cleaned_text = re.sub(r"[\[\]]", "", text)
@@ -173,13 +173,14 @@ class RAGEngine:
         
         answer = response.response
         sps = [source_node.node.id_ for source_node in response.source_nodes]
+        sps_score = [source_node.score for source_node in response.source_nodes]
         context = {}
-        for s in sps:
+        for s, _score in zip(sps, sps_score):
             with open(f"{DATA_PATH}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
                 text_line = f.readlines()
                 title = self._remove_brackets(text_line[0].strip().split("|")[-1])
                 abstract = text_line[1].strip().split("|")[-1]
-                context[s] = {"title": title, "abstract": abstract}
+            context[s] = {"title": title, "abstract": abstract, "score": _score}
 
         output_dict = {
             "Question": question,
