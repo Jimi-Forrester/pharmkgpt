@@ -85,6 +85,12 @@ def format_docs(docs):
 
 
 def highlight_segments(output_abtract, highlight_list):
+    try:
+        highlight_list = highlight_list.segment_list
+    except:
+        return output_abtract
+
+    print(highlight_list)
     if type(highlight_list) is list and len(highlight_list) > 0 and type(highlight_list[0]) == dict:
         for highlight_dict in highlight_list:
             for pmid, segments in highlight_dict.items():

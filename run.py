@@ -10,4 +10,4 @@ engine.initialize(
 )
 # output = engine.query("How does kynurenic acid contribute to dilirium?")
 output = engine.query("How about dementia assay in patients with delirium?")
-# print(output)
+print(output)

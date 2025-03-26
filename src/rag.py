@@ -23,7 +23,7 @@ from config import (
     DATA_PATH,
     DEFAULT_RERANKER,
     PERSIST_DIR,
-    OLLAMA_MODEL,
+    MODEL_DICT,
     OLLAMA_BASE_URL,
     EMBED_MODEL,
     KG_PATH
@@ -45,7 +45,11 @@ class RAGEngine:
     def __init__(
         self,
         kg_path=KG_PATH,
-        reranker=DEFAULT_RERANKER,
+        reranker=# `DEFAULT_RERANKER` is a constant variable that likely holds the default reranker model used in the
+        # system. It is used in the code snippet you provided to initialize the `RAGEngine` class. The
+        # `RAGEngine` class is responsible for initializing and managing the RAG (Retrieval-Augmented Generation)
+        # engine, which is used for querying and retrieving information from a knowledge graph.
+        DEFAULT_RERANKER,
         persist_dir=PERSIST_DIR,
     ):
         self.reranker = reranker
@@ -60,11 +64,12 @@ class RAGEngine:
             self.kg_dict = pickle.load(f)
             
     def initialize(self,         
-                   model_type='DeepSeek-R1',
-                    api_key=None,
-                    top_k=5,
-                    hops=1,
-                    ):
+                model_type='gemma3',
+                api_key=None,
+                top_k=5,
+                hops=1,
+                device="cuda:0"
+                ):
         """初始化RAG引擎"""
         try:
             if model_type == "gemini":
@@ -76,26 +81,14 @@ class RAGEngine:
                     temperature=0
                     )
 
-                
-            elif model_type == "DeepSeek-R1":
-                logging.info("Initializing DeepSeek-R1...")
+            elif model_type in MODEL_DICT:
+                logging.info("Initializing {model_type}...")
                 llm = Ollama(
-                model =OLLAMA_MODEL, 
-                base_url = OLLAMA_BASE_URL
-            )
-                self.llm = lc_Ollama(
-                model =OLLAMA_MODEL,
-                base_url = OLLAMA_BASE_URL
-            )
-                
-            elif model_type == "Qwen2.5":
-                logging.info("Initializing Qwen2.5...")
-                llm = Ollama(
-                model = "Qwen2.5:0.5b",
+                model = MODEL_DICT[model_type],
                 base_url = OLLAMA_BASE_URL 
                 )
                 self.llm = lc_Ollama(
-                model =OLLAMA_MODEL,
+                model = MODEL_DICT[model_type],
                 base_url = OLLAMA_BASE_URL
             )
             
@@ -133,7 +126,8 @@ class RAGEngine:
                 response_mode=ResponseMode.COMPACT, text_qa_template=qa_rag_prompt_template
             )
             
-            bge_reranker = FlagReranker(model_name_or_path=self.reranker)
+            bge_reranker = FlagReranker(model_name_or_path=self.reranker, device=device)
+            bge_reranker.model.to(device)
             
             # 基于pmid 和关系的图检索
             kg_post_processor1 = KGRetrievePostProcessor(
@@ -217,7 +211,7 @@ class RAGEngine:
         
         logging.info(f"HighlightDocuments_dict: {HighlightDocuments_dict}")
         context_ = highlight_segments(
-            context, HighlightDocuments_dict.segment_list
+            context, HighlightDocuments_dict
         )
         
         output_dict = {

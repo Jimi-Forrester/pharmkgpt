@@ -42,6 +42,7 @@ pip install llama-index-llms-gemini
 pip install flask
 pip install itext2kg    
 pip install -qU langchain-google-genai
+pip install langchain_community
 
 # 安装了itext2kg 可能需要更新
 conda uninstall numpy scipy scikit-learn
@@ -55,6 +56,9 @@ conda install numpy scipy scikit-learn
 # 修改config.py 里面的DATA_PATH 为 Data_test 快速跑通流程
 python run.py
 # 启动
+# 多卡 gpu 的时候，指定 GPU
+export CUDA_VISIBLE_DEVICES=0
+
 python app.py  
 
 curl -X POST -H "Content-Type: application/json" -d '{"question": "How does kynurenic acid contribute to dilirium?"}' http://127.0.0.1:5000/query
