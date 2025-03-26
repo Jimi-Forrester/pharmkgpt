@@ -1,11 +1,12 @@
 import pickle
 import logging
 import re
-
+import os
 from FlagEmbedding import FlagReranker
 from llama_index.llms.gemini import Gemini
 from llama_index.llms.ollama import Ollama
 
+from llama_index.core.postprocessor import SimilarityPostprocessor
 from langchain_community.llms import Ollama as lc_Ollama
 from langchain_google_genai import ChatGoogleGenerativeAI
 from llama_index.core import Settings, PromptTemplate, StorageContext, load_index_from_storage
@@ -13,12 +14,12 @@ from llama_index.core.retrievers import VectorIndexRetriever
 from llama_index.core.query_engine import RetrieverQueryEngine
 from llama_index.core.response_synthesizers import ResponseMode
 from llama_index.embeddings.ollama import OllamaEmbedding
-from src.util.kg_post_processor import (
+from .util.kg_post_processor import (
     NaivePostprocessor,
     KGRetrievePostProcessor,
     GraphFilterPostProcessor,
 )
-from src.util.kg_response_synthesizer import get_response_synthesizer
+from .util.kg_response_synthesizer import get_response_synthesizer
 from config import (
     DATA_PATH,
     DEFAULT_RERANKER,
@@ -32,6 +33,7 @@ from config import (
 from src.kgvisual import kg_visualization
 from src.hightlight import HightLight_context, format_docs, highlight_segments
 
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 # --- 日志配置 ---
 logging.basicConfig(
@@ -71,6 +73,10 @@ class RAGEngine:
                 device="cuda:0"
                 ):
         """初始化RAG引擎"""
+        self.model_type=model_type
+        self.api_key=api_key
+        self.top_k=top_k
+        self.hops=hops
         try:
             if model_type == "gemini":
                 logging.info("Initializing Gemini...")
@@ -82,7 +88,7 @@ class RAGEngine:
                     )
 
             elif model_type in MODEL_DICT:
-                logging.info("Initializing {model_type}...")
+                logging.info(f"Initializing {model_type}...")
                 llm = Ollama(
                 model = MODEL_DICT[model_type],
                 base_url = OLLAMA_BASE_URL 
@@ -116,6 +122,7 @@ class RAGEngine:
             logging.info("Loading index...")
             sc = StorageContext.from_defaults(persist_dir=self.persist_dir)
             index = load_index_from_storage(sc)
+            
             retriever = VectorIndexRetriever(index=index, similarity_top_k=top_k)
 
             qa_rag_template_str = (
@@ -147,12 +154,15 @@ class RAGEngine:
                 reranker=bge_reranker,
             )
 
+            postprocessor = SimilarityPostprocessor(similarity_cutoff=0.6)
+
             self.engine = RetrieverQueryEngine(
                 retriever=retriever,
                 response_synthesizer=response_synthesizer,
                 node_postprocessors=[
                     kg_post_processor1,
                     kg_post_processor2,
+                    postprocessor,
                     NaivePostprocessor(),
                 ],
             )
@@ -163,7 +173,14 @@ class RAGEngine:
             raise  # 重新抛出异常，以便上层处理
         except Exception as e:
             logging.error(f"An error occurred during initialization: {e}")
-            
+    
+    def get_parameters(self):
+        return {
+            "model_type": self.model_type,
+            "api_key_provided": bool(self.api_key),
+            "top_k": self.top_k,
+            "hops": self.hops
+        }      
         
     def _remove_brackets(self, text: str) -> str:
         cleaned_text = re.sub(r"[\[\]]", "", text)
@@ -179,52 +196,61 @@ class RAGEngine:
 
         response = self.engine.query(question)
         
-        num_source_nodes = len(response.source_nodes) 
-        logging.info(f"源节点数量：{num_source_nodes}") 
+        if len(response.source_nodes) == 0:
+            return {
+                "Question": question,
+                "Answer": "I'm sorry, I cannot answer this question based on the information currently available in the knowledge graph.",
+                "Supporting literature": None,
+                "Context":  None,
+                "KG":  None,
+            }
+        else:  
+            num_source_nodes = len(response.source_nodes) 
+            logging.info(f"源节点数量：{num_source_nodes}") 
 
-        # 循环遍历源节点并打印元数据
-        for s in response.source_nodes: 
-            logging.info(f"节点分数：{s.score}") 
-            logging.info(s.node)
-        
-        answer = response.response
-        sps = [source_node.node.id_ for source_node in response.source_nodes]
-        sps_score = [source_node.score for source_node in response.source_nodes]
-        context = {}
-        for s, _score in zip(sps, sps_score):
-            with open(f"{DATA_PATH}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
-                text_line = f.readlines()
-                title = self._remove_brackets(text_line[0].strip().split("|")[-1])
-                abstract = text_line[1].strip().split("|")[-1]
-            context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
+            # 循环遍历源节点并打印元数据
+            for s in response.source_nodes: 
+                logging.info(f"节点分数：{s.score}") 
+                logging.info(s.node)
+            
+            answer = response.response
+            sps = [source_node.node.id_ for source_node in response.source_nodes]
+            sps_score = [source_node.score for source_node in response.source_nodes]
+            context = {}
+            for s, _score in zip(sps, sps_score):
+                with open(f"{DATA_PATH}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
+                    text_line = f.readlines()
+                    title = self._remove_brackets(text_line[0].strip().split("|")[-1])
+                    abstract = text_line[1].strip().split("|")[-1]
+                context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
 
-        # 高亮
-        logging.info("Highlighting documents...")
-        HighlightDocuments_dict = HightLight_context(
-            input_data ={
-            "documents": format_docs(context),
-            "question": question,
-            "generation": answer
-                        }, 
-            llm_model=self.llm
-            ), 
-        
-        logging.info(f"HighlightDocuments_dict: {HighlightDocuments_dict}")
-        context_ = highlight_segments(
-            context, HighlightDocuments_dict
-        )
-        
-        output_dict = {
-            "Question": question,
-            "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
-            "Supporting literature": sps,
-            "Context": context_,
-            "KG": self.query_kg(sps),
-        }
-        logging.info(f"**Question:** {question}")
-        logging.info(f"**Answer:** {answer}")
-        logging.info(f"**Supporting literature:** {sps}")
-        return output_dict
+            # 高亮
+            logging.info("Highlighting documents...")
+            HighlightDocuments_dict = HightLight_context(
+                input_data ={
+                "documents": format_docs(context),
+                "question": question,
+                "generation": answer
+                            }, 
+                llm_model=self.llm
+                ), 
+            
+            logging.info(f"HighlightDocuments_dict: {HighlightDocuments_dict}")
+            context_ = highlight_segments(
+                context, HighlightDocuments_dict
+            )
+            
+            output_dict = {
+                "Question": question,
+                "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
+                "Supporting literature": sps,
+                "Context": context_,
+                "KG": self.query_kg(sps),
+            }
+            logging.info(f"**Question:** {question}")
+            logging.info(f"**Answer:** {answer}")
+            logging.info(f"**Supporting literature:** {sps}")
+            return output_dict
 
     def query(self, question):
         """查询"""

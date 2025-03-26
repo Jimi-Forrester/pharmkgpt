@@ -1,5 +1,5 @@
 # 数据路径
-DATA_PATH = "/home/mindrank/fuli/delirium-rag/Data_test"  
+DATA_PATH = "/home/mindrank/fuli/delirium-rag/Data_v3"  
 
 PERSIST_DIR = f"{DATA_PATH}/derilirum_index"  # 索引持久化目录
 

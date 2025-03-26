@@ -67,7 +67,7 @@ class NaivePostprocessor(BaseNodePostprocessor):
                 entity_order[ent] = len(entity_order)
             sorted_nodes.append((ent,ctx_seq,node))
         
-        logging.info(f"entity_order: {entity_order}")
+        # logging.info(f"entity_order: {entity_order}")
         # 按照 abstarct 的顺序对节点内容进行排序
         sorted_nodes.sort(key=lambda x:(entity_order[x[0]],x[1]))
         sorted_nodes = [node for _,_,node in sorted_nodes]
@@ -160,12 +160,12 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         additional_ents = set()
         for node in nodes:
             entity = node.node.id_
-            logging.info(f'####entity:{ entity}')
+            # logging.info(f'####entity:{ entity}')
             logging.info(entity not in self.doc2kg)
             if (entity not in self.doc2kg) or (len(self.doc2kg[entity])==0):
                 continue
             for triplet in self.doc2kg[entity]:
-                logging.info(f'####triplet: {triplet}')
+                # logging.info(f'####triplet: {triplet}')
                 h,r,t = triplet
                 triplet = [h,r,t]
                 if (h in self.ents) and (h not in retrieved_ents):
@@ -184,7 +184,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
                     ent_score[t] += node.score
 
         additional_ents = additional_ents.union(retrieved_ents)
-        logging.info(f'####additional_ents: {additional_ents}')
+        logging.info(f'additional_ents: {additional_ents}')
         
         # ----------------------多跳扩展----------------------
         
@@ -338,9 +338,9 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
             if overlap_score>=0.90:
                 mentioned_rels.add(rel)
         
-        logging.info(f'####ents:{ents}')
-        logging.info(f'####mentioned_ents:{mentioned_ents}')
-        logging.info(f'####mentioned_rels:{mentioned_rels}')
+        # logging.info(f'####ents:{ents}')
+        # logging.info(f'####mentioned_ents:{mentioned_ents}')
+        # logging.info(f'####mentioned_rels:{mentioned_rels}')
         
         # 找到与初始实体相邻切重叠度大于 0.9 的实体
         for node in nodes:
@@ -352,11 +352,11 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                 
             ents.add(ent)
             
-            logging.info(f"ent: {ent}")
+            # logging.info(f"ent: {ent}")
 
             if (ent not in self.doc2kg) or (pmid not in self.doc2kg) or (len(self.doc2kg[ent])==0):
                 continue
-            logging.info('####self.doc2kg[ent]: {self.doc2kg[ent]}')
+            # logging.info(f'####self.doc2kg[ent]: {self.doc2kg[ent]}')
             for triplet in self.doc2kg[ent]:
                 h,r,t = triplet
                 triplet = [h,r,t]
@@ -366,7 +366,7 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                     mentioned_ents.add(h)
 
         mentioned_ents_list = list(mentioned_ents)
-        logging.info(f"明确提及的实体: {mentioned_ents_list}")
+        # logging.info(f"明确提及的实体: {mentioned_ents_list}")
         
         for i in range(len(mentioned_ents_list)):
             for j in range(i+1,len(mentioned_ents_list)):
@@ -408,7 +408,6 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                     if cand_edge[2]['source']=='query':
                         continue
                     else:
-                        logging.info(f"添加了候选上下文: {cand_edge[2]['source']}")
                         if "##" in cand_edge[2]['source']:
                             cand_ctx_list.add(cand_edge[2]['source'].split('##')[1])
                         else:
@@ -421,7 +420,6 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                     if edge[2]['source']=='query':
                         continue
                     else:
-                        logging.info(f"添加了候选上下文: {[edge[2]['source'],]}")
                         if "##" in [edge[2]['source'],]:
                             cand_ctxs_list.append([edge[2]['source'],].split('##')[1])
                         else:
@@ -437,7 +435,6 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         cand_tpts = []
         cand_strs = []
         for cand_ids_list in cand_ids_lists:
-            logging.info(f"候选上下文列表: {cand_ids_list}")
             ctx_str = ''
             tpt_str = ''
             for cand_id in cand_ids_list:

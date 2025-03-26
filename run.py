@@ -3,7 +3,7 @@ from src.rag import RAGEngine
 
 engine = RAGEngine()
 engine.initialize(
-    model_type='DeepSeek-R1',
+    model_type='gemma3',
     api_key=None,
     top_k=5,
     hops=1,
