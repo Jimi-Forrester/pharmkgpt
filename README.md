@@ -41,6 +41,7 @@ pip install llama-index-llms-gemini
 
 pip install flask
 pip install itext2kg    
+pip install -qU langchain-google-genai
 
 # 安装了itext2kg 可能需要更新
 conda uninstall numpy scipy scikit-learn

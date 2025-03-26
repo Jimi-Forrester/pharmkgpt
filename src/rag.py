@@ -6,6 +6,8 @@ from FlagEmbedding import FlagReranker
 from llama_index.llms.gemini import Gemini
 from llama_index.llms.ollama import Ollama
 
+from langchain_community.llms import Ollama as lc_Ollama
+from langchain_google_genai import ChatGoogleGenerativeAI
 from llama_index.core import Settings, PromptTemplate, StorageContext, load_index_from_storage
 from llama_index.core.retrievers import VectorIndexRetriever
 from llama_index.core.query_engine import RetrieverQueryEngine
@@ -28,6 +30,8 @@ from config import (
     )
 
 from src.kgvisual import kg_visualization
+from src.hightlight import HightLight_context, format_docs, highlight_segments
+
 
 # --- 日志配置 ---
 logging.basicConfig(
@@ -40,60 +44,65 @@ logging.basicConfig(
 class RAGEngine:
     def __init__(
         self,
-        model_type='Gemini',
-        api_key=None,
-        top_k=5,
-        hops=1,
         kg_path=KG_PATH,
         reranker=DEFAULT_RERANKER,
         persist_dir=PERSIST_DIR,
     ):
-        
         self.reranker = reranker
         self.persist_dir = persist_dir
         self.kg_path = kg_path
         self.engine = None  # 引擎将在 initialize 方法中初始化
-        # self.initialize()
-        self._update_llm(model_type, api_key)
-        self._update_emd(top_k, hops)
         self.load_kg()
 
     def load_kg(self):
         logging.info("Loading KG...")
         with open(self.kg_path, "rb") as f:
             self.kg_dict = pickle.load(f)
-
-    def _update_llm(self, model_type, api_key):
-        self.model_type = model_type
-        self.api_key=api_key
+            
+    def initialize(self,         
+                   model_type='DeepSeek-R1',
+                    api_key=None,
+                    top_k=5,
+                    hops=1,
+                    ):
+        """初始化RAG引擎"""
         try:
-            if model_type == "Gemini":
+            if model_type == "gemini":
+                logging.info("Initializing Gemini...")
                 llm = Gemini(api_key=api_key, model="models/gemini-2.0-flash")
+                self.llm = ChatGoogleGenerativeAI(
+                    model="gemini-2.0-flash", 
+                    google_api_key=api_key, 
+                    temperature=0
+                    )
+
+                
             elif model_type == "DeepSeek-R1":
+                logging.info("Initializing DeepSeek-R1...")
                 llm = Ollama(
-                    model =OLLAMA_MODEL, 
-                    base_url = OLLAMA_BASE_URL
-                )
+                model =OLLAMA_MODEL, 
+                base_url = OLLAMA_BASE_URL
+            )
+                self.llm = lc_Ollama(
+                model =OLLAMA_MODEL,
+                base_url = OLLAMA_BASE_URL
+            )
+                
             elif model_type == "Qwen2.5":
+                logging.info("Initializing Qwen2.5...")
                 llm = Ollama(
-                    model = "Qwen2.5:0.5b",
-                    base_url = OLLAMA_BASE_URL 
+                model = "Qwen2.5:0.5b",
+                base_url = OLLAMA_BASE_URL 
                 )
-            logging.info("Initializing LLM...")  
+                self.llm = lc_Ollama(
+                model =OLLAMA_MODEL,
+                base_url = OLLAMA_BASE_URL
+            )
+            
+            self.llm.invoke("hello world!")
             llm.complete("hello world!")
             Settings.llm =llm
-
-        except FileNotFoundError as e:
-            logging.error(f"File not found: {e}")
-            raise  # 重新抛出异常，以便上层处理
-        except Exception as e:
-            logging.error(f"An error occurred during initialization: {e}")
-
-    def _update_emd(self, top_k, hops):
-        """初始化RAG引擎"""
-        self.top_k = top_k
-        self.hops = hops
-        try:
+            
             logging.info("Initializing OllamaEmbedding...")
             emd = OllamaEmbedding(
                 model_name=EMBED_MODEL, base_url=OLLAMA_BASE_URL)
@@ -114,7 +123,7 @@ class RAGEngine:
             logging.info("Loading index...")
             sc = StorageContext.from_defaults(persist_dir=self.persist_dir)
             index = load_index_from_storage(sc)
-            retriever = VectorIndexRetriever(index=index, similarity_top_k=self.top_k)
+            retriever = VectorIndexRetriever(index=index, similarity_top_k=top_k)
 
             qa_rag_template_str = (
                 "Context information is below.\n{context_str}\nQ: {query_str}\nA: "
@@ -131,13 +140,13 @@ class RAGEngine:
                 ents=ents, 
                 doc2kg=doc2kg, 
                 chunks_index=chunks_index, 
-                hops=self.hops
+                hops=hops
             )
             
             
             # 基于节点和 query 覆盖率的图过滤
             kg_post_processor2 = GraphFilterPostProcessor(
-                topk=self.top_k,
+                topk=top_k,
                 ents=ents,
                 doc2kg=doc2kg,
                 chunks_index=chunks_index,
@@ -161,25 +170,7 @@ class RAGEngine:
         except Exception as e:
             logging.error(f"An error occurred during initialization: {e}")
             
-    def update_config(self, model_type=None, api_key=None, top_k=None, hops=None):
-        """线程安全地更新配置"""
-        # 只更新传入的非 None 参数，或者要求全部传入
-        new_model_type = model_type if model_type != self.model_type else None
-        new_api_key = api_key # API key 可以是 None
-        if not new_model_type is None:
-            self._update_llm(new_model_type, new_api_key)
-        new_top_k = top_k if top_k != self.top_k else None
-        new_hops = hops if hops!= self.hops else None
-        if not new_top_k is None or not new_hops is None:
-            self._update_emd(top_k, hops)
-    def get_parameters(self):
-        return {
-            "model_type": self.model_type,
-            "api_key_provided": bool(self.api_key),
-            "top_k": self.top_k,
-            "hops": self.hops
-        }
-
+        
     def _remove_brackets(self, text: str) -> str:
         cleaned_text = re.sub(r"[\[\]]", "", text)
         return cleaned_text
@@ -213,11 +204,27 @@ class RAGEngine:
                 abstract = text_line[1].strip().split("|")[-1]
             context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
 
+        # 高亮
+        logging.info("Highlighting documents...")
+        HighlightDocuments_dict = HightLight_context(
+            input_data ={
+            "documents": format_docs(context),
+            "question": question,
+            "generation": answer
+                        }, 
+            llm_model=self.llm
+            ), 
+        
+        logging.info(f"HighlightDocuments_dict: {HighlightDocuments_dict}")
+        context_ = highlight_segments(
+            context, HighlightDocuments_dict.segment_list
+        )
+        
         output_dict = {
             "Question": question,
             "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
             "Supporting literature": sps,
-            "Context": context,
+            "Context": context_,
             "KG": self.query_kg(sps),
         }
         logging.info(f"**Question:** {question}")
