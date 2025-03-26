@@ -21,7 +21,6 @@ from config import (
     DATA_PATH,
     DEFAULT_RERANKER,
     PERSIST_DIR,
-    GOOGLE_API_KEY,
     OLLAMA_MODEL,
     OLLAMA_BASE_URL,
     EMBED_MODEL,
@@ -42,6 +41,7 @@ class RAGEngine:
     def __init__(
         self,
         model_type='gemini',
+        api_key=None,
         top_k=5,
         hops=1,
         kg_path=KG_PATH,
@@ -54,6 +54,7 @@ class RAGEngine:
         self.kg_path = kg_path
         self.top_k = top_k
         self.hops = hops
+        self.api_key=api_key
         self.engine = None  # 引擎将在 initialize 方法中初始化
         self.initialize()
         self.load_kg()
@@ -68,7 +69,7 @@ class RAGEngine:
         try:
             if self.model_type == "gemini":
                 logging.info("Initializing Gemini...")
-                Settings.llm = Gemini(api_key=GOOGLE_API_KEY, model="models/gemini-2.0-flash")
+                Settings.llm = Gemini(api_key=self.api_key, model="models/gemini-2.0-flash")
 
             elif self.model_type == "DeepSeek-R1":
                 logging.info("Initializing DeepSeek-R1...")
