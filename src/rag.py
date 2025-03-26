@@ -40,7 +40,7 @@ logging.basicConfig(
 class RAGEngine:
     def __init__(
         self,
-        model_type='gemini',
+        model_type='Gemini',
         api_key=None,
         top_k=5,
         hops=1,
@@ -48,45 +48,52 @@ class RAGEngine:
         reranker=DEFAULT_RERANKER,
         persist_dir=PERSIST_DIR,
     ):
-        self.model_type = model_type
+        
         self.reranker = reranker
         self.persist_dir = persist_dir
         self.kg_path = kg_path
-        self.top_k = top_k
-        self.hops = hops
-        self.api_key=api_key
         self.engine = None  # 引擎将在 initialize 方法中初始化
-        self.initialize()
+        # self.initialize()
+        self._update_llm(model_type, api_key)
+        self._update_emd(top_k, hops)
         self.load_kg()
 
     def load_kg(self):
         logging.info("Loading KG...")
         with open(self.kg_path, "rb") as f:
             self.kg_dict = pickle.load(f)
-            
-    def initialize(self):
-        """初始化RAG引擎"""
-        try:
-            if self.model_type == "gemini":
-                logging.info("Initializing Gemini...")
-                Settings.llm = Gemini(api_key=self.api_key, model="models/gemini-2.0-flash")
 
-            elif self.model_type == "DeepSeek-R1":
-                logging.info("Initializing DeepSeek-R1...")
+    def _update_llm(self, model_type, api_key):
+        self.model_type = model_type
+        self.api_key=api_key
+        try:
+            if model_type == "Gemini":
+                llm = Gemini(api_key=api_key, model="models/gemini-2.0-flash")
+            elif model_type == "DeepSeek-R1":
                 llm = Ollama(
-                model =OLLAMA_MODEL, 
-                base_url = OLLAMA_BASE_URL
-            )
-            elif self.model_type == "Qwen2.5":
-                logging.info("Initializing Qwen2.5...")
-                llm = Ollama(
-                model = "Qwen2.5:0.5b",
-                base_url = OLLAMA_BASE_URL 
+                    model =OLLAMA_MODEL, 
+                    base_url = OLLAMA_BASE_URL
                 )
-                
+            elif model_type == "Qwen2.5":
+                llm = Ollama(
+                    model = "Qwen2.5:0.5b",
+                    base_url = OLLAMA_BASE_URL 
+                )
+            logging.info("Initializing LLM...")  
             llm.complete("hello world!")
             Settings.llm =llm
-            
+
+        except FileNotFoundError as e:
+            logging.error(f"File not found: {e}")
+            raise  # 重新抛出异常，以便上层处理
+        except Exception as e:
+            logging.error(f"An error occurred during initialization: {e}")
+
+    def _update_emd(self, top_k, hops):
+        """初始化RAG引擎"""
+        self.top_k = top_k
+        self.hops = hops
+        try:
             logging.info("Initializing OllamaEmbedding...")
             emd = OllamaEmbedding(
                 model_name=EMBED_MODEL, base_url=OLLAMA_BASE_URL)
@@ -154,7 +161,25 @@ class RAGEngine:
         except Exception as e:
             logging.error(f"An error occurred during initialization: {e}")
             
-        
+    def update_config(self, model_type=None, api_key=None, top_k=None, hops=None):
+        """线程安全地更新配置"""
+        # 只更新传入的非 None 参数，或者要求全部传入
+        new_model_type = model_type if model_type != self.model_type else None
+        new_api_key = api_key # API key 可以是 None
+        if not new_model_type is None:
+            self._update_llm(new_model_type, new_api_key)
+        new_top_k = top_k if top_k != self.top_k else None
+        new_hops = hops if hops!= self.hops else None
+        if not new_top_k is None or not new_hops is None:
+            self._update_emd(top_k, hops)
+    def get_parameters(self):
+        return {
+            "model_type": self.model_type,
+            "api_key_provided": bool(self.api_key),
+            "top_k": self.top_k,
+            "hops": self.hops
+        }
+
     def _remove_brackets(self, text: str) -> str:
         cleaned_text = re.sub(r"[\[\]]", "", text)
         return cleaned_text

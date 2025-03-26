@@ -1,4 +1,4 @@
-from src.ui.utils import respond,user_msg,toggle_select_all,toggle_select_all_reverse, create_app, parameters_embedding, interaction_true, interaction_false
+from src.ui.utils import respond, user_msg, toggle_select_all,toggle_select_all_reverse, interaction_true, interaction_false, update_api_key_visibility, api_check, parameters_embedding_live_update
 from src.ui.theme import Kotaemon
 
 import gradio as gr
@@ -38,6 +38,15 @@ def ui():
                                     value=MODELS[0],  # 默认选中第一个
                                     interactive=True,
                                 )
+                    initial_visibility = MODELS[0] in MODELS_REQUIRING_KEY
+                    api_key_input = gr.Textbox(
+                        label="API Key",
+                        placeholder="Enter your API key here",
+                        type="password", # 隐藏输入内容
+                        visible=initial_visibility, # 设置初始可见性
+                        interactive=True,
+                        container=True # 让它看起来和其他组件排版一致
+                    )
                     hops = gr.Slider(minimum=1, maximum=5, value=1, step=1, label="Multi-hop expansion",interactive=True)
                     top_k = gr.Slider(minimum=1, maximum=20, value=5, step=1, label="Top N retrieval",interactive=True)
                     set_parameters = gr.Button(
@@ -129,7 +138,8 @@ def ui():
             outputs=confirm_dialog
         )
         set_parameters.click(
-            lambda: gr.update(visible=True),  # 显示弹窗
+            fn=api_check,
+            inputs=[model_selector, api_key_input],
             outputs=confirm_set_dialog
         )
         
@@ -141,9 +151,12 @@ def ui():
             fn=interaction_false,
             outputs=[new_chat, submit_btn, set_parameters, model_selector, top_k, hops]
         ).then(
-            fn=parameters_embedding,
-            inputs=[model_selector,top_k,hops],
-            outputs=[waiting_text],
+            fn=parameters_embedding_live_update,
+            inputs=[model_selector,api_key_input, top_k, hops],
+            outputs=[],
+        ).then(
+            lambda: gr.update(visible=False),
+            outputs=waiting_text
         ).then(
             fn=interaction_true,
             outputs=[new_chat, submit_btn, set_parameters, model_selector, top_k, hops]
@@ -153,6 +166,12 @@ def ui():
         cancel_set_btn.click(
             lambda: gr.update(visible=False),
             outputs=confirm_set_dialog
+        )
+
+        model_selector.change(
+            fn=update_api_key_visibility, # 当值改变时调用这个函数
+            inputs=model_selector,        # 将 model_selector 的当前值作为输入传给函数
+            outputs=api_key_input         # 函数的返回值（gr.update对象）将作用于 api_key_input 组件
         )
 
 

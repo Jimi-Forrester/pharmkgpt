@@ -1,6 +1,6 @@
 import gradio as gr
 import html
-from src.ui.config import CHOISES
+from src.ui.config import CHOICES, MODELS_REQUIRING_KEY
 import json
 from flask import Flask
 from src.rag import RAGEngine
@@ -10,44 +10,7 @@ import time
 from threading import Thread 
 
 os.environ["GRADIO_ANALYTICS"] = "False"
-def interaction_true():
-    return gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True)
-def interaction_false():
-    return gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False)
 
-def create_app(model_type='Qwen2.5', top_k=5, hops=1):
-    app = Flask(__name__)  # 创建 Flask 应用
-    app.rag_engine = RAGEngine(model_type=model_type,top_k=top_k, hops=hops)  # 绑定 RAGEngine 到 app 实例
-    # 注册路由
-    from src.routes import register_routes
-    register_routes(app)
-
-    return app
-
-def parameters_embedding(model_type,top_k,hops):
-    app = create_app(model_type=model_type,top_k=top_k, hops=hops)
-    # 启动Flask服务线程 
-    server_thread = Thread(target=app.run,  kwargs={'debug': True, 'port': 5000, 'use_reloader': False})
-    server_thread.daemon  = True  # 设置为守护线程，主线程退出时自动结束 
-    server_thread.start() 
-    
-    # 检测端口是否开放 
-    def is_port_open(port):
-        sock = socket.socket(socket.AF_INET,  socket.SOCK_STREAM)
-        try:
-            sock.connect(('127.0.0.1',  port))
-            return True 
-        except ConnectionRefusedError:
-            return False 
-        finally:
-            sock.close() 
-    
-    # 等待直到端口开放（表示服务启动完成）
-    while not is_port_open(5000):
-        time.sleep(0.5) 
-    
-    # 此处可继续执行后续操作 
-    return gr.update(visible=False) 
 
 def json_to_kg_list(json):
     nodes_list = str(json['nodes']).replace("'id'", 'id').replace("'label'", 'name').replace("'color'", 'color').replace("'name'", 'name').replace("'title'", 'title').replace("'size'", 'size')
@@ -248,3 +211,110 @@ def respond(chat_history):
 
     iframe_code += load_and_display(output)
     return chat_history, iframe_code
+
+    
+def interaction_true():
+    return gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True)
+def interaction_false():
+    return gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False)
+
+import time
+import socket
+from threading import Thread
+from flask import Flask, request, jsonify
+import threading
+
+_app_instance = None
+_server_thread = None
+# _app_lock = threading.Lock()
+
+def get_or_create_app(model_type='Qwen2.5',api_key=None, top_k=5, hops=1):
+    global _app_instance
+    if _app_instance is None:
+        print("Creating Flask app for the first time...")
+        app = Flask("kg2rag")  # 创建 Flask 应用
+        app.rag_engine = RAGEngine(model_type=model_type,api_key=api_key,top_k=top_k, hops=hops)  # 绑定 RAGEngine 到 app 实例
+        # 注册路由
+        from src.routes import register_routes
+        register_routes(app)
+        _app_instance = app
+    return _app_instance
+def is_port_open(port):
+    sock = socket.socket(socket.AF_INET,  socket.SOCK_STREAM)
+    try:
+        sock.connect(('127.0.0.1',  port))
+        return True
+    except ConnectionRefusedError:
+        return False 
+    finally:
+        sock.close()
+def start_server_if_needed(model_type, api_key, top_k, hops):
+    global _server_thread, _app_instance
+    # with _app_lock:
+    if _server_thread is None or not _server_thread.is_alive():
+        print("Starting Flask server...")
+        app = get_or_create_app(model_type=model_type,api_key=api_key,top_k=top_k, hops=hops)
+
+        # 启动Flask服务线程 
+        _server_thread = Thread(target=app.run,  kwargs={'debug': False, 'port': 5000, 'use_reloader': False})
+        _server_thread.daemon  = True  # 设置为守护线程，主线程退出时自动结束 
+        _server_thread.start()
+
+        # 等待直到端口开放（表示服务启动完成）
+        while not is_port_open(5000):
+            time.sleep(0.5)
+        print("Flask server started.")
+    else:
+        print("Flask server already running.")
+          
+def parameters_embedding_live_update(model_type, api_key, top_k, hops):
+    port=5000
+    host='127.0.0.1'
+    # 1. 确保服务器正在运行
+    start_server_if_needed(model_type, api_key, top_k, hops)
+    # 2. 构造要发送的数据
+    payload = {
+        "model_type": model_type,
+        "api_key": api_key,
+        "top_k": top_k,
+        "hops": hops
+    }
+    # 3. 发送 POST 请求到 /update_config 端点
+    update_url = f'http://{host}:{port}/update_config'
+    print(f"Sending update request to {update_url} with payload: {payload}")
+    try:
+        import requests
+        response = requests.post(update_url, json=payload, timeout=30) # 增加超时以等待可能的模型加载
+        response.raise_for_status() # 如果状态码不是 2xx，则抛出异常
+        print("Update request successful:")
+        print(response.json())
+    except requests.exceptions.RequestException as e:
+        print(f"Error sending update request: {e}")
+        if e.response is not None:
+            print("Server response:", e.response.text)
+    except Exception as e:
+        print(f"An unexpected error occurred during update: {e}")
+
+def api_check(selected_model, api_key):
+    print(f"Model: {selected_model}")
+    # 只有在需要 API Key 的模型被选中时，才处理或验证 API Key
+    if selected_model in MODELS_REQUIRING_KEY:
+        if not api_key:
+            raise gr.Error(f"API Key is required for {selected_model}")
+        else:
+            print(f"API Key Provided: {'*' * len(api_key)}")
+            return gr.update(visible=True)
+    else:
+        print("API Key: Not required for this model.")
+        return gr.update(visible=True)
+
+
+# --- 控制 API Key 输入框可见性的函数 ---
+def update_api_key_visibility(selected_model):
+    """根据选择的模型更新 API Key 输入框的可见性"""
+    if selected_model in MODELS_REQUIRING_KEY:
+        # 如果选中的模型需要 Key，则返回一个更新对象使 API Key 输入框可见
+        return gr.update(visible=True)
+    else:
+        # 否则，使其不可见
+        return gr.update(visible=False)
