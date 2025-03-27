@@ -57,15 +57,32 @@ class RAGEngine:
         self.reranker = reranker
         self.persist_dir = persist_dir
         self.kg_path = kg_path
-        self.engine = None  # 引擎将在 initialize 方法中初始化
         self.load_kg()
+        self.load_index()
+        self.engine = None  # 引擎将在 initialize 方法中初始化
 
+
+    def load_index(self):
+        logging.info("Initializing OllamaEmbedding...")
+        emd = OllamaEmbedding(
+            model_name=EMBED_MODEL, 
+            base_url=OLLAMA_BASE_URL
+            )
+        emd.get_query_embedding("hello world!")
+        Settings.embed_model = emd
+        
+        logging.info("Loading index...")
+        sc = StorageContext.from_defaults(persist_dir=self.persist_dir)
+        self.index = load_index_from_storage(sc)
+    
     def load_kg(self):
         logging.info("Loading KG...")
         with open(self.kg_path, "rb") as f:
             self.kg_dict = pickle.load(f)
-            
-    def initialize(self,         
+        
+        
+
+    def setup_query_engine(self,         
                 model_type='gemma3',
                 api_key=None,
                 top_k=5,
@@ -77,6 +94,7 @@ class RAGEngine:
         self.api_key=api_key
         self.top_k=top_k
         self.hops=hops
+        
         try:
             if model_type == "gemini":
                 logging.info("Initializing Gemini...")
@@ -102,12 +120,7 @@ class RAGEngine:
             llm.complete("hello world!")
             Settings.llm =llm
             
-            logging.info("Initializing OllamaEmbedding...")
-            emd = OllamaEmbedding(
-                model_name=EMBED_MODEL, base_url=OLLAMA_BASE_URL)
-            emd.get_query_embedding("hello world!")
-            
-            Settings.embed_model = emd
+
 
             logging.info("Loading entities and doc2kg...")
             with open(f"{DATA_PATH}/entities_doc2kg.pkl", "rb") as f:
@@ -119,11 +132,10 @@ class RAGEngine:
             ents = loaded_dict["ents"]
             doc2kg = loaded_dict["doc2kg"]
 
-            logging.info("Loading index...")
-            sc = StorageContext.from_defaults(persist_dir=self.persist_dir)
-            index = load_index_from_storage(sc)
+            # sc = StorageContext.from_defaults(persist_dir=self.persist_dir)
+            # index = load_index_from_storage(sc)
             
-            retriever = VectorIndexRetriever(index=index, similarity_top_k=top_k)
+            retriever = VectorIndexRetriever(index=self.index, similarity_top_k=top_k)
 
             qa_rag_template_str = (
                 "Context information is below.\n{context_str}\nQ: {query_str}\nA: "
@@ -132,7 +144,7 @@ class RAGEngine:
             response_synthesizer = get_response_synthesizer(
                 response_mode=ResponseMode.COMPACT, text_qa_template=qa_rag_prompt_template
             )
-            
+
             bge_reranker = FlagReranker(model_name_or_path=self.reranker, device=device)
             bge_reranker.model.to(device)
             
@@ -144,7 +156,6 @@ class RAGEngine:
                 hops=hops
             )
             
-            
             # 基于节点和 query 覆盖率的图过滤
             kg_post_processor2 = GraphFilterPostProcessor(
                 topk=top_k,
@@ -154,7 +165,9 @@ class RAGEngine:
                 reranker=bge_reranker,
             )
 
-            postprocessor = SimilarityPostprocessor(similarity_cutoff=0.6)
+            postprocessor = SimilarityPostprocessor(
+                similarity_cutoff=0.6
+                )
 
             self.engine = RetrieverQueryEngine(
                 retriever=retriever,

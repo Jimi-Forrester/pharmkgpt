@@ -7,11 +7,10 @@ def create_app():
     app = Flask(__name__)
 
     # --- Key Change 1: Initialize engine to None ---
-    app.rag_engine = None 
+    app.rag_engine = RAGEngine() 
     # --- Key Change 2: Add a lock for thread-safe initialization ---
     app.initialization_lock = threading.Lock() 
-
-    print("Flask App created. RAG Engine is NOT initialized yet.")
+    print("RAGEngine initialized successfully.")
 
     # Register routes
     app.register_blueprint(api_bp, url_prefix='/api')

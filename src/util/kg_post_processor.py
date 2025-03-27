@@ -153,15 +153,15 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         for i in range(min(2,len(sorted_ents))):
             highly_related_ents.add(sorted_ents[i])
 
-        logging.info(f'####highly_related_ents:{highly_related_ents}')
-        logging.info(f'####retrieved_ents: {retrieved_ents}')
+        logging.info(f'highly_related_ents:{highly_related_ents}')
+        logging.info(f'retrieved_ents: {retrieved_ents}')
 
         logging.info("根据相似的实体，和实体关系，找到相关的实体。")
         additional_ents = set()
         for node in nodes:
             entity = node.node.id_
             # logging.info(f'####entity:{ entity}')
-            logging.info(entity not in self.doc2kg)
+            # logging.info(entity not in self.doc2kg)
             if (entity not in self.doc2kg) or (len(self.doc2kg[entity])==0):
                 continue
             for triplet in self.doc2kg[entity]:

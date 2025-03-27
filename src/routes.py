@@ -46,7 +46,7 @@ def update_engine_config():
                 # Create the instance
                 new_engine = RAGEngine() 
                 # Call its initialize method
-                new_engine.initialize(
+                new_engine.setup_query_engine(
                     model_type=model_type,
                     api_key=api_key,
                     top_k=top_k,
@@ -54,12 +54,12 @@ def update_engine_config():
                 )
                 # Store the successfully initialized engine
                 current_app.rag_engine = new_engine 
-                print("RAGEngine initialized successfully.")
-                message = "Engine initialized successfully"
+                print("Engine setting successfully")
+                message = "Engine setting successfully"
             else:
                 # --- Update existing engine ---
                 print("Attempting to update existing RAGEngine configuration...")
-                current_app.rag_engine.initialize( # Or use an update method if available
+                current_app.rag_engine.setup_query_engine( # Or use an update method if available
                     model_type=model_type,
                     api_key=api_key,
                     top_k=top_k,
