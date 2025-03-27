@@ -18,7 +18,7 @@ def ui():
         with gr.Row():
             # 左侧设置面板 
             with gr.Column(scale=1,min_width=300,elem_id="left-column"):
-                gr.Markdown("# KG2RAG",height="10vh")
+                gr.Markdown("# MindResilience",height="15vh")
                 new_chat = gr.Button(
                         value="New chat",
                         min_width=120,
@@ -39,7 +39,7 @@ def ui():
                                     interactive=True,
                                 )
                     initial_visibility = MODELS[0] in MODELS_REQUIRING_KEY
-                    api_key_input = gr.Textbox(
+                    api_key_input = gr.Textbox(value=None,
                         label="API Key",
                         placeholder="Enter your API key here",
                         type="password", # 隐藏输入内容
@@ -62,9 +62,10 @@ def ui():
                         confirm_set_btn = gr.Button("Confirm", variant="stop")
                         cancel_set_btn = gr.Button("Cancel")
                     waiting_text = gr.Markdown(
-                        label="### Waiting for model parameters to be set...",
+                        "### Waiting for model parameters to be set...",
                         visible=False, 
                     )
+                    # file_input = gr.File(label="Upload file", file_count="single", file_types=['pdf','txt'], type="json", accept=".json",interactive=True)
             with gr.Column(scale=4):
                 chatbot = gr.Chatbot(value=[],
                                     height="80vh",label="Chat",
@@ -138,8 +139,9 @@ def ui():
             outputs=confirm_dialog
         )
         set_parameters.click(
-            fn=api_check,
-            inputs=[model_selector, api_key_input],
+            # fn=api_check,
+            # inputs=[model_selector, api_key_input],
+            lambda: gr.update(visible=True),
             outputs=confirm_set_dialog
         )
         
@@ -168,11 +170,11 @@ def ui():
             outputs=confirm_set_dialog
         )
 
-        model_selector.change(
-            fn=update_api_key_visibility, # 当值改变时调用这个函数
-            inputs=model_selector,        # 将 model_selector 的当前值作为输入传给函数
-            outputs=api_key_input         # 函数的返回值（gr.update对象）将作用于 api_key_input 组件
-        )
+        # model_selector.change(
+        #     fn=update_api_key_visibility, # 当值改变时调用这个函数
+        #     inputs=model_selector,        # 将 model_selector 的当前值作为输入传给函数
+        #     outputs=api_key_input         # 函数的返回值（gr.update对象）将作用于 api_key_input 组件
+        # )
 
 
     # select_all.change( 

@@ -18,106 +18,105 @@ def json_to_kg_list(json):
     return nodes_list, edges_list
 
 def kg_to_visjs(json):
-  nodes_list, edges_list = json_to_kg_list(json)
-  html_content = r"""
-  <!DOCTYPE html> 
-  <html> 
-  
-  <head> 
-    <meta charset="utf-8"> 
-    <title>Vis.js  Knowledge Graph (Neo4j-like Style)</title> 
-    <!-- 引入 vis.js  的 CSS 和 JS --> 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>  
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css"  rel="stylesheet" type="text/css" /> 
-    <style> 
-      /* 页面整体样式 */ 
-      body { 
-        margin: 0; 
-        padding: 0; 
-        background-color: #ffffff; /* 白色背景 */ 
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-      } 
-  
-      #network { 
-        width: 100%; 
-        height: 100vh; 
-        border: none; 
-      } 
-    </style> 
-  </head> 
-  
-  <body> 
-    <div id="network"></div> 
-    <script type="text/javascript"> 
-      window.onload  = function () { 
-        // 示例节点，分三类：粉色、绿色、蓝色 
-        // 你可以根据实际数据，为节点加上 group 或 color"""
-  html_content +=f""" 
-        var nodes = new vis.DataSet({nodes_list}); 
-        var edges = new vis.DataSet({edges_list}); 
-  """
-
-  html_content +=r"""// vis.js  配置 
-        var options = { 
-          nodes: {
-            shape: 'dot', 
-            borderWidth: 0,
-            scaling: { min: 10, max: 50 }
-          }, 
-          edges: { 
-            width: 2, 
-            color: { 
-              //color: '#999999', 
-              //highlight: '#666666' 
-              inherit: 'both'
-            }, 
-            arrows: { 
-              to: { enabled: false, scaleFactor: 0.8 }  // 在目标节点处显示箭头 
-            }, 
-            font: { 
-              color: '#333333', 
-              size: 14, 
-              align: 'horizontal' 
-            }, 
-            smooth: { 
-              enabled: false, 
-              type: 'dynamic' 
-            },
-            scaling: {
-              min:1,
-              max:3
-            }
-          }, 
-          physics: { 
-            enabled: true, 
-            stabilization: {iterations:500}, 
-            barnesHut: { 
-              gravitationalConstant: -3500, 
-              springConstant: 0.1, 
-              springLength: 120,
-              damping: 0.2,
-            } 
-          }, 
-          interaction: { 
-            hover: true, 
-            tooltipDelay: 200, 
-            dragNodes: true, 
-            zoomView: true 
-          }, 
-          layout: { 
-            improvedLayout: true,
-            hierarchical: false
+    nodes_list, edges_list = json_to_kg_list(json)
+    html_content = r"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vis.js  Knowledge Graph (Neo4j-like Style)</title>
+        <!-- 引入 vis.js  的 CSS 和 JS -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>  
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css"  rel="stylesheet" type="text/css" /> 
+        <style> 
+          /* 页面整体样式 */ 
+          body { 
+            margin: 0; 
+            padding: 0; 
+            background-color: #ffffff; /* 白色背景 */ 
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
           } 
-        }; 
-  
-        var container = document.getElementById('network');  
-        var data = { nodes: nodes, edges: edges }; 
-        var network = new vis.Network(container, data, options); 
-      }; 
-    </script> 
+    
+        #network { 
+          width: 100%; 
+          height: 100vh; 
+          border: none; 
+        } 
+      </style> 
+    </head> 
+    
+    <body> 
+      <div id="network"></div> 
+      <script type="text/javascript"> 
+        window.onload  = function () { 
+          // 示例节点，分三类：粉色、绿色、蓝色 
+          // 你可以根据实际数据，为节点加上 group 或 color"""
+    html_content +=f""" 
+          var nodes = new vis.DataSet({nodes_list}); 
+          var edges = new vis.DataSet({edges_list}); 
+    """
 
-  """
-  return html_content
+    html_content +=r"""// vis.js  配置 
+          var options = { 
+            nodes: {
+              shape: 'dot', 
+              borderWidth: 0,
+              scaling: { min: 10, max: 50 }
+            }, 
+            edges: { 
+              width: 2, 
+              color: { 
+                //color: '#999999', 
+                //highlight: '#666666' 
+                inherit: 'both'
+              }, 
+              arrows: { 
+                to: { enabled: false, scaleFactor: 0.8 }  // 在目标节点处显示箭头 
+              }, 
+              font: { 
+                color: '#333333', 
+                size: 14, 
+                align: 'horizontal' 
+              }, 
+              smooth: { 
+                enabled: false, 
+                type: 'dynamic' 
+              },
+              scaling: {
+                min:1,
+                max:3
+              }
+            }, 
+            physics: { 
+              enabled: true, 
+              stabilization: {iterations:500}, 
+              barnesHut: { 
+                gravitationalConstant: -3500, 
+                springConstant: 0.1, 
+                springLength: 120,
+                damping: 0.2,
+              } 
+            }, 
+            interaction: { 
+              hover: true, 
+              tooltipDelay: 200, 
+              dragNodes: true, 
+              zoomView: true 
+            }, 
+            layout: { 
+              improvedLayout: true,
+              hierarchical: false
+            } 
+          }; 
+    
+          var container = document.getElementById('network');  
+          var data = { nodes: nodes, edges: edges }; 
+          var network = new vis.Network(container, data, options); 
+        }; 
+      </script> 
+
+    """
+    return html_content
 def chat_reset():
     return INITIAL_CHATBOT, INITIAL_HTML, INITIAL_MESSAGE_BOX
 
@@ -133,7 +132,8 @@ def query(question):
     import json
 
     # Flask 服务器地址
-    url = "http://127.0.0.1:5000/query"
+    # url = "http://127.0.0.1:5000/query"
+    url = "http://192.168.110.64:5000/api/query"
     # 发送的 JSON 数据
     data = {"question": question}
 
@@ -175,7 +175,7 @@ def load_and_display(output):
     accordion_html = "<div style='width:100%; margin:10px 0;'>"
     for key, ref in output['Context'].items(): 
         title = ref['title']
-        abstract = ref['abstract']
+        abstract = ref['abstract'].replace('\n',  '<br>')
         score = ref['score']
         pmid = ref['pmid']
         accordion_html += f"""
@@ -187,7 +187,7 @@ def load_and_display(output):
                 <b>Relevance score:</b> {round(score, 2)}
             </div>
             <div style='padding:15px; background:white;'>
-                {abstract.replace('\n',  '<br>')}
+                {abstract}
             </div>
         </details>
         """
@@ -198,80 +198,40 @@ def load_and_display(output):
 def respond(chat_history):
     message = chat_history[-1][0]  # 获取用户最新消息
     # 调用RAG生成回复 
-    output = query(message)
+    try:
+        output = query(message)
+    except Exception as e:
+        output = {"Answer":"Busy now. Please try again later."}
     # with open("./src/ui/output.json", "r") as f:
     #     output = json.load(f)
     #将回复加入历史记录
-    html_content = kg_to_visjs(output['KG'])
     chat_history[-1][1] = output['Answer']
-    escaped_html = html.escape(html_content, quote=True)
-    iframe_code = f"""
-    <iframe srcdoc="{escaped_html}" style='width:100%; height:400px; border:none;'></iframe>
-    """
+    try:
+        html_content = kg_to_visjs(output['KG'])
+        escaped_html = html.escape(html_content, quote=True)
+        iframe_code = f"""
+        <iframe srcdoc="{escaped_html}" style='width:100%; height:400px; border:none;'></iframe>
+        """
+    except Exception as e:
+        print(e)
+        html_content = ""
+        iframe_code = ""
+      
 
     iframe_code += load_and_display(output)
     return chat_history, iframe_code
 
-    
 def interaction_true():
     return gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True)
 def interaction_false():
     return gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False)
 
-import time
-import socket
-from threading import Thread
-from flask import Flask, request, jsonify
-import threading
-
-_app_instance = None
-_server_thread = None
-# _app_lock = threading.Lock()
-
-def get_or_create_app(model_type='Qwen2.5',api_key=None, top_k=5, hops=1):
-    global _app_instance
-    if _app_instance is None:
-        print("Creating Flask app for the first time...")
-        app = Flask("kg2rag")  # 创建 Flask 应用
-        app.rag_engine = RAGEngine(model_type=model_type,api_key=api_key,top_k=top_k, hops=hops)  # 绑定 RAGEngine 到 app 实例
-        # 注册路由
-        from src.routes import register_routes
-        register_routes(app)
-        _app_instance = app
-    return _app_instance
-def is_port_open(port):
-    sock = socket.socket(socket.AF_INET,  socket.SOCK_STREAM)
-    try:
-        sock.connect(('127.0.0.1',  port))
-        return True
-    except ConnectionRefusedError:
-        return False 
-    finally:
-        sock.close()
-def start_server_if_needed(model_type, api_key, top_k, hops):
-    global _server_thread, _app_instance
-    # with _app_lock:
-    if _server_thread is None or not _server_thread.is_alive():
-        print("Starting Flask server...")
-        app = get_or_create_app(model_type=model_type,api_key=api_key,top_k=top_k, hops=hops)
-
-        # 启动Flask服务线程 
-        _server_thread = Thread(target=app.run,  kwargs={'debug': False, 'port': 5000, 'use_reloader': False})
-        _server_thread.daemon  = True  # 设置为守护线程，主线程退出时自动结束 
-        _server_thread.start()
-
-        # 等待直到端口开放（表示服务启动完成）
-        while not is_port_open(5000):
-            time.sleep(0.5)
-        print("Flask server started.")
-    else:
-        print("Flask server already running.")
-          
-def parameters_embedding_live_update(model_type, api_key, top_k, hops):
+def parameters_embedding_live_update(model_type='gemma3', api_key=None, top_k=5, hops=1):
     port=5000
-    host='127.0.0.1'
+    # host='127.0.0.1'
+    host='192.168.110.64'
     # 1. 确保服务器正在运行
-    start_server_if_needed(model_type, api_key, top_k, hops)
+    # start_server_if_needed(model_type, api_key, top_k, hops)
     # 2. 构造要发送的数据
     payload = {
         "model_type": model_type,
@@ -280,7 +240,7 @@ def parameters_embedding_live_update(model_type, api_key, top_k, hops):
         "hops": hops
     }
     # 3. 发送 POST 请求到 /update_config 端点
-    update_url = f'http://{host}:{port}/update_config'
+    update_url = f'http://{host}:{port}/api/update_config'
     print(f"Sending update request to {update_url} with payload: {payload}")
     try:
         import requests
