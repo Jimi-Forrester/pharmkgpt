@@ -63,3 +63,16 @@ python app.py
 
 curl -X POST -H "Content-Type: application/json" -d '{"question": "How does kynurenic acid contribute to dilirium?"}' http://127.0.0.1:5000/query
 ```
+
+## 6. 测试
+
+20250328测试文件Data_test_v3
+```
+pytest test/test_QA.py 
+```
+
+## 7. 数据记录
+Data_v1：初始版本为了跑通 demo
+Data_v2: 去掉一些空的abstract
+Data_v3: 重构数据结构，导致检索出错
+Data_v4: 在 v2 的基础上重构数据，对应测试数据 Data_test_v3

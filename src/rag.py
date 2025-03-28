@@ -31,7 +31,7 @@ from config import (
     )
 
 from src.kgvisual import kg_visualization
-from src.hightlight import HightLight_context, format_docs, highlight_segments
+from src.hightlight import HightLight_context, format_docs, highlight_segments, hallucination_test
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
@@ -47,11 +47,7 @@ class RAGEngine:
     def __init__(
         self,
         kg_path=KG_PATH,
-        reranker=# `DEFAULT_RERANKER` is a constant variable that likely holds the default reranker model used in the
-        # system. It is used in the code snippet you provided to initialize the `RAGEngine` class. The
-        # `RAGEngine` class is responsible for initializing and managing the RAG (Retrieval-Augmented Generation)
-        # engine, which is used for querying and retrieving information from a knowledge graph.
-        DEFAULT_RERANKER,
+        reranker=DEFAULT_RERANKER,
         persist_dir=PERSIST_DIR,
     ):
         self.reranker = reranker
@@ -79,7 +75,14 @@ class RAGEngine:
         logging.info("Loading KG...")
         with open(self.kg_path, "rb") as f:
             self.kg_dict = pickle.load(f)
-        
+        with open(f"{DATA_PATH}/entities_doc2kg.pkl", "rb") as f:
+            loaded_dict = pickle.load(f)
+
+        with open(f"{DATA_PATH}/chunk_index.pkl", "rb") as f:
+            self.chunks_index = pickle.load(f)
+
+        self.ents = loaded_dict["ents"]
+        self.doc2kg = loaded_dict["doc2kg"]
         
 
     def setup_query_engine(self,         
@@ -120,17 +123,8 @@ class RAGEngine:
             llm.complete("hello world!")
             Settings.llm =llm
             
-
-
             logging.info("Loading entities and doc2kg...")
-            with open(f"{DATA_PATH}/entities_doc2kg.pkl", "rb") as f:
-                loaded_dict = pickle.load(f)
 
-            with open(f"{DATA_PATH}/chunk_index.pkl", "rb") as f:
-                chunks_index = pickle.load(f)
-
-            ents = loaded_dict["ents"]
-            doc2kg = loaded_dict["doc2kg"]
 
             # sc = StorageContext.from_defaults(persist_dir=self.persist_dir)
             # index = load_index_from_storage(sc)
@@ -150,23 +144,23 @@ class RAGEngine:
             
             # 基于pmid 和关系的图检索
             kg_post_processor1 = KGRetrievePostProcessor(
-                ents=ents, 
-                doc2kg=doc2kg, 
-                chunks_index=chunks_index, 
+                ents=self.ents, 
+                doc2kg=self.doc2kg, 
+                chunks_index=self.chunks_index, 
                 hops=hops
             )
             
             # 基于节点和 query 覆盖率的图过滤
             kg_post_processor2 = GraphFilterPostProcessor(
                 topk=top_k,
-                ents=ents,
-                doc2kg=doc2kg,
-                chunks_index=chunks_index,
+                ents=self.ents,
+                doc2kg=self.doc2kg,
+                chunks_index=self.chunks_index,
                 reranker=bge_reranker,
             )
 
-            postprocessor = SimilarityPostprocessor(
-                similarity_cutoff=0.6
+            Simpostprocessor = SimilarityPostprocessor(
+                similarity_cutoff=0.5
                 )
 
             self.engine = RetrieverQueryEngine(
@@ -175,7 +169,7 @@ class RAGEngine:
                 node_postprocessors=[
                     kg_post_processor1,
                     kg_post_processor2,
-                    postprocessor,
+                    Simpostprocessor,
                     NaivePostprocessor(),
                 ],
             )
@@ -237,6 +231,25 @@ class RAGEngine:
                     abstract = text_line[1].strip().split("|")[-1]
                 context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
 
+            # 幻觉检测
+            logging.info(">>>hallucination detect>>>>>")
+            try:
+                if hallucination_test(
+                    llm_model=self.llm,
+                    input_data={'documents':format_docs(context), "generation": answer}
+                ).binary_score == 'yes':
+                    pass
+                else:
+                    return {
+                        "Question": question,
+                        "Answer": "I'm sorry, I cannot answer this question based on the information currently available in the knowledge graph.",
+                        "Supporting literature": None,
+                        "Context":  None,
+                        "KG":  None,
+                        }
+            except:
+                logging.info(">>>hallucination detect has some problem!")
+            
             # 高亮
             logging.info("Highlighting documents...")
             HighlightDocuments_dict = HightLight_context(
@@ -246,7 +259,7 @@ class RAGEngine:
                 "generation": answer
                             }, 
                 llm_model=self.llm
-                ), 
+                )
             
             logging.info(f"HighlightDocuments_dict: {HighlightDocuments_dict}")
             context_ = highlight_segments(
@@ -264,7 +277,7 @@ class RAGEngine:
             logging.info(f"**Answer:** {answer}")
             logging.info(f"**Supporting literature:** {sps}")
             return output_dict
-
+    
     def query(self, question):
         """查询"""
         try:
