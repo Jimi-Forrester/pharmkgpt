@@ -31,7 +31,7 @@ from config import (
     )
 
 from src.kgvisual import kg_visualization
-from src.hightlight import HightLight_context, format_docs, highlight_segments, hallucination_test
+from src.hightlight import hightLight_context, format_docs, highlight_segments, hallucination_test
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
@@ -81,6 +81,8 @@ class RAGEngine:
         with open(f"{DATA_PATH}/chunk_index.pkl", "rb") as f:
             self.chunks_index = pickle.load(f)
 
+        with open(f"{DATA_PATH}/chunk_index_nodes.pkl", "rb") as f:
+            self.chunk_index_nodes = pickle.load(f)
         self.ents = loaded_dict["ents"]
         self.doc2kg = loaded_dict["doc2kg"]
         
@@ -146,8 +148,9 @@ class RAGEngine:
             kg_post_processor1 = KGRetrievePostProcessor(
                 ents=self.ents, 
                 doc2kg=self.doc2kg, 
-                chunks_index=self.chunks_index, 
-                hops=hops
+                chunks_index=self.chunks_index,
+                chunks_index_nodes =  self.chunk_index_nodes,
+                hops=hops,
             )
             
             # 基于节点和 query 覆盖率的图过滤
@@ -155,6 +158,7 @@ class RAGEngine:
                 topk=top_k,
                 ents=self.ents,
                 doc2kg=self.doc2kg,
+                use_tpt=True,
                 chunks_index=self.chunks_index,
                 reranker=bge_reranker,
             )
@@ -234,11 +238,15 @@ class RAGEngine:
             # 幻觉检测
             logging.info(">>>hallucination detect>>>>>")
             try:
-                if hallucination_test(
+                faithfulness_score = hallucination_test(
                     llm_model=self.llm,
                     input_data={'documents':format_docs(context), "generation": answer}
-                ).binary_score == 'yes':
+                ).Faithfulness_score
+                
+                if faithfulness_score > 1:
+                    logging.info(f"Faithfulness_score: {faithfulness_score}")
                     pass
+                
                 else:
                     return {
                         "Question": question,
@@ -252,7 +260,7 @@ class RAGEngine:
             
             # 高亮
             logging.info("Highlighting documents...")
-            HighlightDocuments_dict = HightLight_context(
+            HighlightDocuments_dict = hightLight_context(
                 input_data ={
                 "documents": format_docs(context),
                 "question": question,

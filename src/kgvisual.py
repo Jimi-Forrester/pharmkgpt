@@ -19,7 +19,7 @@ en_color = {
     'pathway': {"background": '#8A5CF6', "border": '#4E2A84'},  # 科技紫/深紫
     'processes': {"background": '#6BE3C3', "border": '#2A9D8F'},  # 赛博绿/深绿
     'protein': {"background": '#1E88E5', "border": '#0D47A1'},  # 电蓝/深蓝
-    'region': {"background": '#FDCB58', "border": '#C67C00'},  # 柔和金色/深金黄
+    'region': {"background": '#9E7A65', "border": '#9E7A65'},  
 }
 
 # 实体类型到颜色的映射 V2
