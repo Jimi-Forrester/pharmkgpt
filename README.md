@@ -1,17 +1,34 @@
 # delirium-rag
-
+![alt text](image.png)
 ## 1. Model Directory
 
 Install [ollama](https://ollama.com/)
-Download deepseek-r1:1.5b with ollama
 
 ```sh
-ollama run deepseek-r1:1.5b
-ollama run nomic-embed-text:latest
+ollama pull deepseek-r1:32b
+ollama pull nomic-embed-text:latest
+ollama pull gemma3:27b
+ollama pull Qwen2.5:0.5b 
 ollama serve  #启动 ollama
 ```
+## 2 Installation
+## 2.1 Docker
 
-## 2. Download `bge-reranker-large`
+```
+docker pull deepnote/python:3.10-conda
+docker build -t mindresilience:v1 .
+
+docker run -d -p 5000:5000 \
+    -v "/home/mindrank/fuli/delirium-rag/Data_v4:/app/data" \
+    -e OLLAMA_BASE_URL="http://127.0.0.1:11434" \
+    --name mindresilience-app mindresilience:v1
+```
+
+
+
+## 2.2 Conda
+
+#### Download `bge-reranker-large`
 
 Command to download with [hf-mirror](https://hf-mirror.com/):
 
@@ -20,6 +37,12 @@ wget https://hf-mirror.com/hfd/hfd.sh
 chmod a+x hfd.sh
 export HF_ENDPOINT=https://hf-mirror.com
 ./hfd.sh BAAI/bge-reranker-large
+```
+
+```
+export OLLAMA_BASE_URL="http://127.0.0.1:11434"
+export RERANK_PATH=/home/mindrank/fuli/delirium-rag/bge-reranker-large
+export DATA_ROOT=/home/mindrank/fuli/delirium-rag/Data_v4 #数据位置
 ```
 
 ## 3.Data
@@ -38,18 +61,14 @@ pip install -r requirements.txt
 pip install llama-index-llms-ollama
 pip install llama-index-embeddings-ollama
 pip install llama-index-llms-gemini
-
-pip install flask
 pip install itext2kg    
-pip install -qU langchain-google-genai
-pip install langchain_community
 
 # 安装了itext2kg 可能需要更新
 conda uninstall numpy scipy scikit-learn
 conda install numpy scipy scikit-learn
 ```
 
-## 5.Run
+## 6.Run
 
 ```sh
 # 测试
@@ -58,6 +77,8 @@ python run.py
 # 启动
 # 多卡 gpu 的时候，指定 GPU
 export CUDA_VISIBLE_DEVICES=0
+export 
+
 
 python app.py  
 

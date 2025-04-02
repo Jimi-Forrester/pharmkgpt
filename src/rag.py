@@ -20,14 +20,13 @@ from .util.kg_post_processor import (
     GraphFilterPostProcessor,
 )
 from .util.kg_response_synthesizer import get_response_synthesizer
+from .detect import is_likely_junk_input
 from config import (
-    DATA_PATH,
-    DEFAULT_RERANKER,
-    PERSIST_DIR,
+    DATA_ROOT,
     MODEL_DICT,
     OLLAMA_BASE_URL,
-    EMBED_MODEL,
-    KG_PATH
+    EMBED_MODEL, 
+    RERANK_PATH   
     )
 
 from src.kgvisual import kg_visualization
@@ -46,13 +45,15 @@ logging.basicConfig(
 class RAGEngine:
     def __init__(
         self,
-        kg_path=KG_PATH,
-        reranker=DEFAULT_RERANKER,
-        persist_dir=PERSIST_DIR,
+        data_root=DATA_ROOT,
+        embed_model=EMBED_MODEL,
+        ollama_url=OLLAMA_BASE_URL,
+        reranker_path=RERANK_PATH,
     ):
-        self.reranker = reranker
-        self.persist_dir = persist_dir
-        self.kg_path = kg_path
+        self.embed_model=embed_model
+        self.data_root = data_root
+        self.ollama_url=ollama_url
+        self.reranker_path=reranker_path
         self.load_kg()
         self.load_index()
         self.model_type=None
@@ -65,28 +66,30 @@ class RAGEngine:
     def load_index(self):
         logging.info("Initializing OllamaEmbedding...")
         emd = OllamaEmbedding(
-            model_name=EMBED_MODEL, 
-            base_url=OLLAMA_BASE_URL
+            model_name=self.embed_model, 
+            base_url=self.ollama_url
             )
         emd.get_query_embedding("hello world!")
         Settings.embed_model = emd
         
         logging.info("Loading index...")
-        sc = StorageContext.from_defaults(persist_dir=self.persist_dir)
+        sc = StorageContext.from_defaults(persist_dir=f"{self.data_root}/derilirum_index")
         self.index = load_index_from_storage(sc)
     
     def load_kg(self):
         logging.info("Loading KG...")
-        with open(self.kg_path, "rb") as f:
+        with open(f"{self.data_root}/delirium_kg.pkl", "rb") as f:
             self.kg_dict = pickle.load(f)
-        with open(f"{DATA_PATH}/entities_doc2kg.pkl", "rb") as f:
+            
+        with open(f"{self.data_root}/entities_doc2kg.pkl", "rb") as f:
             loaded_dict = pickle.load(f)
 
-        with open(f"{DATA_PATH}/chunk_index.pkl", "rb") as f:
+        with open(f"{self.data_root}/chunk_index.pkl", "rb") as f:
             self.chunks_index = pickle.load(f)
 
-        with open(f"{DATA_PATH}/chunk_index_nodes.pkl", "rb") as f:
+        with open(f"{self.data_root}/chunk_index_nodes.pkl", "rb") as f:
             self.chunk_index_nodes = pickle.load(f)
+            
         self.ents = loaded_dict["ents"]
         self.doc2kg = loaded_dict["doc2kg"]
         
@@ -96,7 +99,8 @@ class RAGEngine:
                 api_key=None,
                 top_k=5,
                 hops=1,
-                device="cuda:0"
+                device="cuda:0",
+                model_map=MODEL_DICT
                 ):
         """初始化RAG引擎"""
         self.model_type=model_type
@@ -117,12 +121,12 @@ class RAGEngine:
             elif model_type in MODEL_DICT:
                 logging.info(f"Initializing {model_type}...")
                 llm = Ollama(
-                model = MODEL_DICT[model_type],
-                base_url = OLLAMA_BASE_URL 
+                model = model_map[model_type],
+                base_url = self.ollama_url
                 )
                 self.llm = lc_Ollama(
-                model = MODEL_DICT[model_type],
-                base_url = OLLAMA_BASE_URL
+                model = model_map[model_type],
+                base_url = self.ollama_url
             )
             
             self.llm.invoke("hello world!")
@@ -145,7 +149,7 @@ class RAGEngine:
                 response_mode=ResponseMode.COMPACT, text_qa_template=qa_rag_prompt_template
             )
 
-            bge_reranker = FlagReranker(model_name_or_path=self.reranker, device=device)
+            bge_reranker = FlagReranker(model_name_or_path=self.reranker_path, device=device)
             bge_reranker.model.to(device)
             
             # 基于pmid 和关系的图检索
@@ -209,7 +213,7 @@ class RAGEngine:
         if self.engine is None:
             raise Exception("RAG engine is not initialized.")
         
-        yield {"type": "progress", "message": "Retrieving Knowledge..."}
+        yield {"type": "progress", "message": "Retrieving Knowledge"}
         response = self.engine.query(question)
         
         if len(response.source_nodes) == 0:
@@ -238,13 +242,13 @@ class RAGEngine:
             sps_score = [source_node.score for source_node in response.source_nodes]
             context = {}
             for s, _score in zip(sps, sps_score):
-                with open(f"{DATA_PATH}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
+                with open(f"{self.data_root}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
                     text_line = f.readlines()
                     title = self._remove_brackets(text_line[0].strip().split("|")[-1])
                     abstract = text_line[1].strip().split("|")[-1]
                 context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
             # 幻觉检测
-            yield {"type": "progress", "message": "Knowledge Retrieved.\nVerifying Facts..."}
+            yield {"type": "progress", "message": "Knowledge Retrieved.\nVerifying Facts"}
             
             logging.info(">>>hallucination detect>>>>>")
             try:
@@ -252,28 +256,31 @@ class RAGEngine:
                     llm_model=self.llm,
                     input_data={'documents':format_docs(context), "generation": answer}
                 ).Faithfulness_score
-        
-                if faithfulness_score > 1:
-                    logging.info(f"Faithfulness_score: {faithfulness_score}")
+                logging.info(f"Faithfulness_score: {faithfulness_score}")
+                if faithfulness_score <= 2:
+                    
                     pass
     
+                elif faithfulness_score == 3:
+                    answer +="\n While based on relevant documents, this answer might only partially address your specific query or could include details beyond the direct scope of the provided context."
                 else:
                     yield {
-                                        "type": "result", # Keep type result, content indicates failure
-                                        "data": {
-                                            "Question": question,
-                                            "Answer": "I generated an initial answer, but it failed the fact-checking process against the retrieved documents. Cannot provide a reliable answer.",
-                                            "Supporting literature": None, # Or maybe provide sps but indicate failure?
-                                            "Context": None,
-                                            "KG": None,
-                                        }
+                            "type": "result", # Keep type result, content indicates failure
+                            "data": {
+                                "Question": question,
+                                "Answer": "I generated an initial answer, but it failed the fact-checking process against the retrieved documents. Cannot provide a reliable answer.",
+                                "Supporting literature": None, # Or maybe provide sps but indicate failure?
+                                "Context": None,
+                                "KG": None,
+                            }
                                     }
                     return # Stop the generator
+
             except:
                 logging.info(">>>hallucination detect has some problem!")
             
             # 高亮
-            yield {"type": "progress", "message": "Knowledge Retrieved.\nFacts Verified.\nGenerating Answer..."}
+            yield {"type": "progress", "message": "Knowledge Retrieved.\nFacts Verified.\nGenerating Answer"}
             logging.info("Highlighting documents...")
             HighlightDocuments_dict = hightLight_context(
                 input_data ={
@@ -304,22 +311,32 @@ class RAGEngine:
     
     def query(self, question):
         """查询"""
-        try:
-            output_dict = self._query(question)
-            yield from self._query(question)
-            
-        except Exception as e:
-            logging.info(f"the error is {e}")
-            output_dict = self._query(question)
-            yield {"type": "result", "data": output_dict}
-        except Exception as e:
-            logging.error(f"An error occurred during query: {e}")
-            yield {"type": "result", 
-                    "data":{
-                        "Question": None,
-                        "Answer": None,
-                        "Supporting literature": None,
-                        "Context":  None,
-                        "KG":  None,
+        if is_likely_junk_input(question):
+            try:
+                output_dict = self._query(question)
+                yield from self._query(question)
+            except Exception as e:
+                logging.info(f"the error is {e}")
+                output_dict = self._query(question)
+                yield {"type": "result", "data": output_dict}
+            except Exception as e:
+                logging.error(f"An error occurred during query: {e}")
+                yield {"type": "result", 
+                        "data":{
+                            "Question": None,
+                            "Answer": None,
+                            "Supporting literature": None,
+                            "Context":  None,
+                            "KG":  None,
+                            }
                         }
-                    }
+        else:
+            yield {"type": "result", 
+                        "data":{
+                            "Question": question,
+                            "Answer": "It looks like you entered some random characters:\n\n{question}\n\nThis doesn't seem to be a specific question or request.\n\nCould you please clarify what you need help with or ask your question again?",
+                            "Supporting literature": None,
+                            "Context":  None,
+                            "KG":  None,
+                            }
+                        }
