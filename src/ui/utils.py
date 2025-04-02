@@ -412,6 +412,11 @@ def get_init_parameter():
     # 解析并打印返回结果
     if response.status_code == 200:
         res = response.json()
-        return gr.State(value=res['model_type']), gr.State(value=res['top_k']), gr.State(value=res['hops'])
+        if res['model_type'] and res['top_k'] and res['hops']:
+            return gr.State(value=res['model_type']), gr.State(value=res['top_k']), gr.State(value=res['hops'])
+        else:
+            parameters_embedding_live_update()
+            return gr.State(value=MODELS[0]), gr.State(value=5), gr.State(value=1)
+        
     else:
         return gr.State(value=MODELS[0]), gr.State(value=5), gr.State(value=1)
