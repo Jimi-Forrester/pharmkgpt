@@ -1,17 +1,78 @@
 footer { 
     display: none !important; 
 }
-#styled-btn {
+mark {
+    background-color: #10B981;
+    color: #ffffff;
+}
+.message.pending[role="status"][aria-label="Loading response"] {
+    background-color: #ffffff;
+    width: 80%;
+    align-items: left;
+  }
+
+#styled-btn,
+#parameter-btn {
     min-width: 60px;
     padding: 12px 24px;
     font-size: 16px;
     border-radius: 8px;
+    display: block !important;
+    margin: 0 auto !important;  /* 水平居中 */
+    width: 100% !important;  /* 宽度为父容器的100% */;
     }
+#parameter-btn:disabled {
+    cursor: not-allowed !important;        /* 禁用鼠标点击 */
+    opacity: 0.5;
+    } 
+#parameter-btn:not(:disabled) {
+    cursor: pointer !important;        /* 启用鼠标点击 */
+    opacity: 1;
+    }
+#send-btn {
+    min-width: 60px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 10px !important;  /* 顶部间距 */;
+    height: 80px !important;  /* 高度为72px */;
+    }
+#send-btn:disabled {
+    cursor: not-allowed !important;        /* 禁用鼠标点击 */
+    opacity: 0.5;
+    background-color: #2563EB !important;   /* 启用时的颜色 */
+    color: #ffffff!important;            /* 文字颜色 */
+    }
+#send-btn:not(:disabled) {
+    background-color: #2563EB !important;   /* 启用时的颜色 */
+    color: #ffffff!important;            /* 文字颜色 */
+    cursor: pointer !important;        /* 启用鼠标点击 */
+    opacity: 1;
+}
+#left-column{
+    max-height: 95vh !important;  /* 容器最大高度为视窗高度的95% */
+    /*border: 1px solid #e0e0e0;     可选边框 */
+    flex-wrap: unset;
+    overflow-y: scroll !important;
+    position: sticky;
+    column-gap: 2px !important;
+    scrollbar-width: none;
+}
+#mid-column{
+    max-height: 95vh !important;  /* 容器最大高度为视窗高度的95% */
+    flex-wrap: unset;
+    overflow-y: scroll !important;
+    position: sticky;
+    column-gap: 2px !important;
+    scrollbar-width: none;
+}
 #right-column {
-    max-height: 90vh !important;  /* 容器最大高度为视窗高度的80% */
-    overflow-y: auto !important;  /* 垂直滚动条 */
-    border: 1px solid #e0e0e0;    /* 可选边框 */
-    padding: 10px;                /* 可选内边距 */
+    max-height: 95vh !important;  /* 容器最大高度为视窗高度的95% */
+    flex-wrap: unset;
+    overflow-y: scroll !important;
+    position: sticky;
+    column-gap: 2px !important;
+    scrollbar-width: none;
 }
 #new-conv-button {
     height: 10px;
@@ -19,17 +80,16 @@ footer {
 .progress-text, .queue-info { display: none !important; }
 /* 隐藏所有加载动画元素 */
 .gradio-container .animate-spin,
-.gradio-container .loading,
-.gradio-container .progress-bar {
+.gradio-container .loading{
     display: none !important;
     opacity: 0 !important;
 }
  
-/* 禁用过渡和动画效果 */
+/* 禁用过渡和动画效果 
 .gradio-container * {
     transition: none !important;
     animation: none !important;
-}
+}*/
 #chat-tab,
 #database-tab {
   border: none !important;
