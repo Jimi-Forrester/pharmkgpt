@@ -1,6 +1,9 @@
 from flask import Blueprint, request, jsonify, current_app
+from flask import Response, stream_with_context
 # Assuming RAGEngine class is imported if needed for type hinting or direct use
 from .rag import RAGEngine 
+
+import json
 
 bp = Blueprint("api", __name__)
 
@@ -16,12 +19,34 @@ def query_rag():
         return jsonify({"error": "Missing question"}), 400
     question = data["question"]
 
-    try:
-        result = rag_engine.query(question)
-        return jsonify(result)
-    except Exception as e:
-        current_app.logger.error(f"Error during query: {e}", exc_info=True) # Log the full error
-        return jsonify({"error": str(e)}), 500
+    # try:
+    #     result = rag_engine.query(question)
+    #     return jsonify(result)
+    # except Exception as e:
+    #     current_app.logger.error(f"Error during query: {e}", exc_info=True) # Log the full error
+    #     return jsonify({"error": str(e)}), 500
+
+
+    # --- Define the generator function for the streaming response ---
+    def generate_response():
+        try:
+            # Call the RAG engine's query method, which returns a generator
+            result_generator = rag_engine.query(question)
+            # Iterate through the items yielded by the generator
+            for item in result_generator:
+                json_data = json.dumps(item)
+                yield json_data + "\n"
+
+        except Exception as e:
+            # Log the error on the server
+            current_app.logger.error(f"Error during query stream generation: {e}", exc_info=True)
+            # Send an error event to the client through the stream
+            error_message = {"type": "error", "message": f"An error occurred during processing: {str(e)}"}
+            yield json.dumps(error_message)
+
+    # --- Return the Streaming Response ---
+    return Response(stream_with_context(generate_response()), mimetype='text/event-stream')
+
 
 
 @bp.route('/update_config', methods=['POST'])

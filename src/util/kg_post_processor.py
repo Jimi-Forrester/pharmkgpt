@@ -146,7 +146,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         self,
         nodes: List[NodeWithScore],
         query_bundle: Optional[QueryBundle] = None,
-    ) -> List[NodeWithScore]:
+    ) -> List[NodeWithScore]: 
         query_context_embedding = query_bundle.embedding 
         
         logging.info("------------KGRetrievePostProcessor------------")
@@ -463,10 +463,12 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
     ) -> List[NodeWithScore]:
         """Postprocess nodes"""
         logging.info("------------------GraphFilterPostprocessor------------------")
+        
         ents = set()
         rels = set()
 
         g = nx.MultiGraph()
+        
 
         logging.info('>> 写入初始节点')
         for node in nodes:
@@ -627,4 +629,5 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         for node in nodes:
             if node.node.id_ in wanted_ctxs:
                 wanted_nodes.append(node)
+        
         return wanted_nodes

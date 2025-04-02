@@ -55,6 +55,10 @@ class RAGEngine:
         self.kg_path = kg_path
         self.load_kg()
         self.load_index()
+        self.model_type=None
+        self.api_key=None
+        self.hops=None
+        self.top_k=None
         self.engine = None  # 引擎将在 initialize 方法中初始化
 
 
@@ -204,17 +208,22 @@ class RAGEngine:
         """执行查询"""
         if self.engine is None:
             raise Exception("RAG engine is not initialized.")
-
+        
+        yield {"type": "progress", "message": "Retrieving Knowledge..."}
         response = self.engine.query(question)
         
         if len(response.source_nodes) == 0:
-            return {
-                "Question": question,
-                "Answer": "I'm sorry, I cannot answer this question based on the information currently available in the knowledge graph.",
-                "Supporting literature": None,
-                "Context":  None,
-                "KG":  None,
+            yield {
+                "type": "result", # Keep type as result, but content indicates no answer
+                "data": {
+                    "Question": question,
+                    "Answer": "I'm sorry, I cannot answer this question based on the information currently available.",
+                    "Supporting literature": None,
+                    "Context": None,
+                    "KG": None,
+                }
             }
+            return # Stop the generator
         else:  
             num_source_nodes = len(response.source_nodes) 
             logging.info(f"源节点数量：{num_source_nodes}") 
@@ -234,31 +243,37 @@ class RAGEngine:
                     title = self._remove_brackets(text_line[0].strip().split("|")[-1])
                     abstract = text_line[1].strip().split("|")[-1]
                 context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
-
             # 幻觉检测
+            yield {"type": "progress", "message": "Knowledge Retrieved.\nVerifying Facts..."}
+            
             logging.info(">>>hallucination detect>>>>>")
             try:
                 faithfulness_score = hallucination_test(
                     llm_model=self.llm,
                     input_data={'documents':format_docs(context), "generation": answer}
                 ).Faithfulness_score
-                
+        
                 if faithfulness_score > 1:
                     logging.info(f"Faithfulness_score: {faithfulness_score}")
                     pass
-                
+    
                 else:
-                    return {
-                        "Question": question,
-                        "Answer": "I'm sorry, I cannot answer this question based on the information currently available in the knowledge graph.",
-                        "Supporting literature": None,
-                        "Context":  None,
-                        "KG":  None,
-                        }
+                    yield {
+                                        "type": "result", # Keep type result, content indicates failure
+                                        "data": {
+                                            "Question": question,
+                                            "Answer": "I generated an initial answer, but it failed the fact-checking process against the retrieved documents. Cannot provide a reliable answer.",
+                                            "Supporting literature": None, # Or maybe provide sps but indicate failure?
+                                            "Context": None,
+                                            "KG": None,
+                                        }
+                                    }
+                    return # Stop the generator
             except:
                 logging.info(">>>hallucination detect has some problem!")
             
             # 高亮
+            yield {"type": "progress", "message": "Knowledge Retrieved.\nFacts Verified.\nGenerating Answer..."}
             logging.info("Highlighting documents...")
             HighlightDocuments_dict = hightLight_context(
                 input_data ={
@@ -273,7 +288,7 @@ class RAGEngine:
             context_ = highlight_segments(
                 context, HighlightDocuments_dict
             )
-            
+    
             output_dict = {
                 "Question": question,
                 "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
@@ -284,21 +299,27 @@ class RAGEngine:
             logging.info(f"**Question:** {question}")
             logging.info(f"**Answer:** {answer}")
             logging.info(f"**Supporting literature:** {sps}")
-            return output_dict
+            yield {"type": "result", "data": output_dict}
+            return
     
     def query(self, question):
         """查询"""
         try:
-            return self._query(question)
+            output_dict = self._query(question)
+            yield from self._query(question)
+            
         except Exception as e:
             logging.info(f"the error is {e}")
-            return self._query(question)
+            output_dict = self._query(question)
+            yield {"type": "result", "data": output_dict}
         except Exception as e:
             logging.error(f"An error occurred during query: {e}")
-            return {
-            "Question": None,
-            "Answer": None,
-            "Supporting literature": None,
-            "Context":  None,
-            "KG":  None,
-        }
+            yield {"type": "result", 
+                    "data":{
+                        "Question": None,
+                        "Answer": None,
+                        "Supporting literature": None,
+                        "Context":  None,
+                        "KG":  None,
+                        }
+                    }
