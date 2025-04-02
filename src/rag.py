@@ -214,7 +214,19 @@ class RAGEngine:
             raise Exception("RAG engine is not initialized.")
         
         yield {"type": "progress", "message": "Retrieving Knowledge"}
-        response = self.engine.query(question)
+        try:
+            response = self.engine.query(question)
+        except:
+            yield {
+                "type": "result", # Keep type as result, but content indicates no answer
+                "data": {
+                    "Question": question,
+                    "Answer": "Sorry, the initial answer I generated did not fully pass verification when checked against the reference documents. To ensure accuracy, I cannot provide a reliable answer right now.",
+                    "Supporting literature": None,
+                    "Context": None,
+                    "KG": None,
+                }
+            }
         
         if len(response.source_nodes) == 0:
             yield {
@@ -312,6 +324,17 @@ class RAGEngine:
     def query(self, question):
         """查询"""
         if is_likely_junk_input(question):
+            yield {"type": "result", 
+                        "data":{
+                            "Question": question,
+                            "Answer": f"It looks like you entered some random characters:\n\n{question}\n\nThis doesn't seem to be a specific question or request.\n\nCould you please clarify what you need help with or ask your question again?",
+                            "Supporting literature": None,
+                            "Context":  None,
+                            "KG":  None,
+                            }
+                        }
+
+        else:
             try:
                 output_dict = self._query(question)
                 yield from self._query(question)
@@ -325,16 +348,6 @@ class RAGEngine:
                         "data":{
                             "Question": None,
                             "Answer": None,
-                            "Supporting literature": None,
-                            "Context":  None,
-                            "KG":  None,
-                            }
-                        }
-        else:
-            yield {"type": "result", 
-                        "data":{
-                            "Question": question,
-                            "Answer": "It looks like you entered some random characters:\n\n{question}\n\nThis doesn't seem to be a specific question or request.\n\nCould you please clarify what you need help with or ask your question again?",
                             "Supporting literature": None,
                             "Context":  None,
                             "KG":  None,

@@ -12,8 +12,18 @@ ollama pull Qwen2.5:0.5b
 ollama serve  #启动 ollama
 ```
 ## 2 Installation
-## 2.1 Docker
 
+#### Download `bge-reranker-large`
+
+Command to download with [hf-mirror](https://hf-mirror.com/):
+```sh
+wget https://hf-mirror.com/hfd/hfd.sh
+chmod a+x hfd.sh
+export HF_ENDPOINT=https://hf-mirror.com
+./hfd.sh BAAI/bge-reranker-large
+```
+
+## 2.1 Docker
 ```
 docker pull deepnote/python:3.10-conda
 docker build -t mindresilience:v1 .
@@ -28,21 +38,10 @@ docker run -d -p 5000:5000 \
 
 ## 2.2 Conda
 
-#### Download `bge-reranker-large`
-
-Command to download with [hf-mirror](https://hf-mirror.com/):
-
-```sh
-wget https://hf-mirror.com/hfd/hfd.sh
-chmod a+x hfd.sh
-export HF_ENDPOINT=https://hf-mirror.com
-./hfd.sh BAAI/bge-reranker-large
-```
-
 ```
 export OLLAMA_BASE_URL="http://127.0.0.1:11434"
-export RERANK_PATH=/home/mindrank/fuli/delirium-rag/bge-reranker-large
-export DATA_ROOT=/home/mindrank/fuli/delirium-rag/Data_v4 #数据位置
+export RERANKER_PATH=/home/mindrank/fuli/delirium-rag/bge-reranker-large
+export DATA_ROOT=/home/mindrank/fuli/delirium-rag/Data_test_v3 #数据位置
 ```
 
 ## 3.Data

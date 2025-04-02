@@ -119,7 +119,7 @@ def hallucination_test(llm_model, input_data):
     **Specific Handling Notes:**
     *   If the 'Retrieved Context' is **empty** or **completely irrelevant** to the 'Original Query', any 'Generated Answer' that provides specific, seemingly informative content should receive a **high score (4 or 5)**.
     *   If the 'Original Query' itself is **nonsensical** (e.g., random characters like "dfkj", "xxfckj"), and the 'Generated Answer' provides a seemingly coherent, specific response (i.e., not just stating inability to understand), it should also receive a **high score (4 or 5)**.
-    *   **[NEW RULE]** If the 'Generated Answer' includes phrases explicitly stating that the required information is **missing** or **not mentioned** in the 'Retrieved Context' (e.g., "The context does not say...", "No information found about...", "The provided documents do not contain details on..."), treat this as highly irrelevant or an inability to answer grounded in the context. Assign **Score 5**.
+    *   **[NEW RULE]** If the 'Generated Answer' includes phrases explicitly stating that the required information is **missing** or **not mentioned** in the 'Retrieved Context' (e.g., "The context does not say...", "Based on the provided abstracts, there is no mention of the", "The provided documents do not contain details on..."), treat this as highly irrelevant or an inability to answer grounded in the context. Assign **Score 5**.
 
     Output format:
         <format_instruction>

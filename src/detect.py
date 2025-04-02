@@ -28,10 +28,13 @@ COMMON_WORDS = {
     "is", "are", "was", "were", "has", "had", "why", "where", "help"
 }
 
+consonants = "bcdfghjklmnpqrstvwxyz"
+
+
 MIN_LENGTH_THRESHOLD = 3 # Treat inputs shorter than this as potentially junk unless a common word
 MIN_WORD_LENGTH_FOR_COMMON_CHECK = 3 # Only check words of this length or more against COMMON_WORDS
 VOWEL_RATIO_THRESHOLD = 0.1 # If vowel ratio is below this (and long enough), likely junk
-CONSONANT_ONLY_THRESHOLD = 6 # Check strings longer than this for being all consonants
+CONSONANT_ONLY_THRESHOLD = 5 # Check strings longer than this for being all consonants
 REPETITION_THRESHOLD = 5 # e.g., 'aaaaa' triggers this
 
 # --- End: Configuration ---
@@ -55,14 +58,10 @@ def is_likely_junk_input(text: str) -> bool:
     if not text:
         return True # String was only whitespace
 
-    # 1. Check length (very short strings are often junk)
-    # We'll combine this with the common word check later for more nuance
 
-    # 2. Check if it's only punctuation or symbols
-    # \w matches letters, numbers, underscore. We check if ONLY non-word/non-space chars exist.
     if re.fullmatch(r'^[^\w\s]+$', text):
-         logging.info(f"Junk detected (punctuation/symbol only): '{text}'")
-         return True
+        logging.info(f"Junk detected (punctuation/symbol only): '{text}'")
+        return True
 
     # 3. Check for excessive character repetition
     # Looks for any character repeated REPETITION_THRESHOLD or more times
@@ -118,15 +117,15 @@ def is_likely_junk_input(text: str) -> bool:
             return True
         # Check for zero vowels in slightly shorter strings
         elif vowel_count == 0 and total_alpha >= MIN_LENGTH_THRESHOLD:
-             # Double-check if it contained a common word - might be an acronym like 'rpg'
-             if not found_common_word:
+            # Double-check if it contained a common word - might be an acronym like 'rpg'
+            if not found_common_word:
                 logging.info(f"Junk detected (no vowels): '{text}'")
                 return True
 
     # 6. Final check: If we passed all heuristics but found no common words (re-check)
     if not found_common_word and len(text) >= MIN_LENGTH_THRESHOLD:
-         logging.info(f"Junk detected (no common words found after other checks): '{text}'")
-         return True
+        logging.info(f"Junk detected (no common words found after other checks): '{text}'")
+        return True
 
     # If none of the junk conditions were met
     logging.info(f"Input seems valid: '{text}'")

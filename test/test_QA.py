@@ -5,7 +5,6 @@ from src.rag import RAGEngine
 TEST_DATA_PATH = "/home/mindrank/fuli/delirium-rag/Data_test_v3"  
 
 
-
 def test_qa():
     engine = RAGEngine(
         data_root=TEST_DATA_PATH
@@ -17,24 +16,22 @@ def test_qa():
         top_k=5,
         hops=1,
     )
-    # response_generator = engine.query("How does kynurenic acid contribute to dilirium?")
-    # collected_results_loop = []
-    # for piece in response_generator:
-    #     collected_results_loop.append(piece)
+    response_generator = engine.query("How does kynurenic acid contribute to dilirium?")
+    collected_results_loop = []
+    for piece in response_generator:
+        collected_results_loop.append(piece)
 
-    # for term in response_generator:
-    #     assert 'pmid36409557' in [i for i in term['data']['Context']]
+    for term in response_generator:
+        assert 'pmid36409557' in [i for i in term['data']['Context']]
     
-    # response_generator = engine.query("xsdfdfdsdfe")
-    # collected_results_loop = []
-    # for piece in response_generator:
-    #     collected_results_loop.append(piece)
+    response_generator = engine.query("xsdfdfdsdfe")
+    collected_results_loop = []
+    for piece in response_generator:
+        collected_results_loop.append(piece)
 
-    # for term in response_generator:
-    #     assert None == term['data']['Context']
+    for term in response_generator:
+        assert None == term['data']['Context']
 
-
-    
     response_generator = engine.query("Is there research on the protein SCUBE2?")
     collected_results_loop = []
     for piece in response_generator:

@@ -11,11 +11,8 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-RUN wget https://hf-mirror.com/hfd/hfd.sh
-RUN chmod a+x hfd.sh
-ENV HF_ENDPOINT=https://hf-mirror.com
-RUN ./hfd.sh BAAI/bge-reranker-large
 
 VOLUME /app/data
+VOLUME /app/bge-reranker-large
 
 CMD ["python", "/app/app.py"]
