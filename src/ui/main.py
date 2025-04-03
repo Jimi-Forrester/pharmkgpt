@@ -17,7 +17,7 @@ def ui():
     # with gr.Tab("KG2RAG",elem_id="chat-tab"):
         with gr.Row():
             # 左侧设置面板 
-            with gr.Column(scale=1,elem_id="left-column", min_width=260):
+            with gr.Column(scale=1,elem_id="left-column", min_width=300):
                 gr.Markdown("# MindResilience",height="15vh")
                 new_chat = gr.Button(
                         value="New chat",
@@ -32,8 +32,9 @@ def ui():
                     confirm_btn = gr.Button("Confirm", variant="stop")
                     cancel_btn = gr.Button("Cancel")
                 with gr.Accordion(label="Model parameter") as model_parameter:
-                    # 定义 gr.State 组件，用于存储全局变量
                     current_model_selector, current_top_k, current_hops = get_init_parameter()
+                    query_result = gr.State(None)
+                    is_parameter_set = gr.State(False)
                     model_selector = gr.Dropdown(
                                     label="Model",
                                     choices=MODELS,
@@ -68,28 +69,42 @@ def ui():
                         "### Waiting for model parameters to be set...",
                         visible=False, 
                     )
-                with gr.Accordion(label="Knowledge base", visible=False) as knowledge_base:
+                with gr.Accordion(label="Entity counter", open=True) as entity_counter:
                     with gr.Row():
-                        select_base = gr.CheckboxGroup(choices=["PubMed", "File(s)"], value=["PubMed"], interactive=True, show_label=False)
-                        file_dropdown = gr.Dropdown(
-                            choices=['file1', 'file2', 'file3'], multiselect=True, interactive=True, show_label=False, visible=False)
-                with gr.Accordion(label="File upload", open=False, visible=False) as file_input_section:
-                    with gr.Row():
-                        file_box = gr.File(file_count="single", file_types=['pdf','txt'], type="filepath", interactive=True, show_label=False, height=140)
-                        progress_bar = gr.Textbox(label="处理状态", visible=False)
+                        plot = gr.Plot(show_label=False)
+                with gr.Accordion(label="Hint", open=True):
+                    gr.Markdown(
+                            """
+                        - Click the **Set parameters** button to set model parameters before chat.
+                        - **Max Retrieved** : Maximum number of retrieved documents. (range 1-20)
+                        - Try to ask questions like: how does kynurenic acid contribute to dilirium?
+                        - Send message by clicking the **Send** button or pressing **Shift + Enter**.
+                        - Result contain **answer**, **knowledge graph** and **references**.
+                    """  
+                        )
+                    
+                # with gr.Accordion(label="Knowledge base", visible=False) as knowledge_base:
+                #     with gr.Row():
+                #         select_base = gr.CheckboxGroup(choices=["PubMed", "File(s)"], value=["PubMed"], interactive=True, show_label=False)
+                #         file_dropdown = gr.Dropdown(
+                #             choices=['file1', 'file2', 'file3'], multiselect=True, interactive=True, show_label=False, visible=False)
+                # with gr.Accordion(label="File upload", open=False, visible=False) as file_input_section:
+                #     with gr.Row():
+                #         file_box = gr.File(file_count="single", file_types=['pdf','txt'], type="filepath", interactive=True, show_label=False, height=140)
+                #         progress_bar = gr.Textbox(label="处理状态", visible=False)
 
 
             with gr.Column(scale=4,elem_id="mid-column"):
                 chatbot = gr.Chatbot(value=[],
                                     height="85vh",label="Chat",
-                                    placeholder="You can ask questions.",
+                                    placeholder="<p style='font-size:18px; font-weight:bold'>You can ask questions.</p>",
                                     show_label=False,
                                     elem_id="main-chat-bot",
                                     show_copy_button=True,
                                     likeable=False,
                                     bubble_full_width=False)
                 with gr.Row(equal_height=True):
-                    msg = gr.Textbox(label="question",show_label=False,placeholder="Enter text and press enter, or press the send button.",scale=20, max_lines=3, lines=3)
+                    msg = gr.Textbox(label="question",show_label=False, placeholder="Input message and press shift + enter, or press the send button.",scale=20, max_lines=3, lines=3)
                     send_btn = gr.Button("Send",elem_id="send-btn",scale=1,size="sm")
         
             # 右侧面板 
@@ -114,33 +129,32 @@ def ui():
             
     
         # 事件绑定
-        # send_btn.click(fn=user_msg,
-        #                 inputs=[msg,chatbot],
-        #                 outputs=[msg,chatbot]
-        #                 ).then(
-        #                 fn=respond,
-        #                 inputs=[chatbot],
-        #                 outputs=[chatbot, image_box]
-        #                 )
+        send_btn.click(fn=user_msg,
+                        inputs=[msg,chatbot],
+                        outputs=[msg,chatbot]
+                        ).success(
+                        fn=yield_respond,
+                        inputs=[chatbot],
+                        outputs=[chatbot, query_result]
+                        ).success(
+                        fn=answer_respond,
+                        inputs=[chatbot, query_result],
+                        outputs=[chatbot, image_box]
+                        )
         
         # # 回车提交支持 
-        # msg.submit(fn=user_msg,
-        #                 inputs=[msg,chatbot],
-        #                 outputs=[msg,chatbot]
-        #                 ).then(
-        #                 fn=respond,
-        #                 inputs=[chatbot],
-        #                 outputs=[chatbot, image_box]
-        #                 )
-        send_btn.click(fn=yield_respond,
-                    inputs=[msg, chatbot],
-                    outputs=[msg, chatbot, image_box]
-                    )
-        msg.submit(fn=yield_respond,
-                    inputs=[msg, chatbot],
-                    outputs=[msg, chatbot, image_box]
-                    )
-
+        msg.submit(fn=user_msg,
+                        inputs=[msg,chatbot],
+                        outputs=[msg,chatbot]
+                        ).success(
+                        fn=yield_respond,
+                        inputs=[chatbot],
+                        outputs=[chatbot, query_result]
+                        ).success(
+                        fn=answer_respond,
+                        inputs=[chatbot, query_result],
+                        outputs=[chatbot, image_box]
+                        )
         # 重置对话
         # 显示弹窗逻辑
         new_chat.click(
@@ -172,21 +186,23 @@ def ui():
             outputs=[chatbot, image_box, msg, confirm_set_dialog, waiting_text]
         ).then(
             fn=interaction_false,
-            outputs=[new_chat, send_btn, set_parameters, model_selector, top_k, hops]
+            inputs=[new_chat, msg, send_btn, set_parameters, model_selector, top_k, hops],
+            outputs=[new_chat, msg, send_btn, set_parameters, model_selector, top_k, hops]
         ).then(
             fn=parameters_embedding_live_update,
             inputs=[model_selector,api_key_input, top_k, hops],
             outputs=[],
         ).then(
-            lambda: [gr.update(visible=False), gr.update(open=False)],
-            outputs=[waiting_text, model_parameter]
+            lambda: [gr.update(visible=False),gr.update(open=False), gr.update(value=True)],
+            outputs=[waiting_text, model_parameter, is_parameter_set]
         ).then(
             fn=update_state,
             inputs=[model_selector, top_k, hops],
             outputs=[current_model_selector, current_top_k, current_hops] # 返回更新后的状态
         ).then(
             fn=interaction_true,
-            outputs=[new_chat, send_btn, set_parameters, model_selector, top_k, hops]
+            inputs=[new_chat, msg, send_btn, set_parameters, model_selector, top_k, hops],
+            outputs=[new_chat, msg, send_btn, set_parameters, model_selector, top_k, hops]
         )
         
         # 取消操作
@@ -194,80 +210,26 @@ def ui():
             lambda: gr.update(visible=False),
             outputs=confirm_set_dialog
         )
-        file_box.change( 
-            fn=process_file,
-            inputs=[file_box, gr.State(file_dropdown.choices)],
-            outputs=[file_dropdown],
-            api_name="process"
-        ).then(
-            lambda: None,
-            outputs=file_box
-        )
 
-        select_base.change(
-            select_base_change,
-            inputs=[select_base],
-            outputs=[file_dropdown]
-        )
         demo.load(fn=None,  js="""
             () => {
                 document.getElementById("send-btn").disabled  = true;
                 return [];
             }
             """)
+        demo.load(fn=plot_interactive_hbar,  outputs=plot)
         msg.change( 
             fn=None,
             js="""
-            (text) => {
+            (text, is_parameter_set) => {
                 const btn = document.getElementById("send-btn"); 
                 btn.disabled  = (text.trim()  === "");
                 return [];
             }
             """,
-            inputs=[msg],
+            inputs=[msg, is_parameter_set],
             outputs=[]
         )
-        demo.load(fn=None,  js="""
-            () => {
-                document.getElementById("parameter-btn").disabled  = true;
-                return [];
-            }
-            """)
-        model_selector.change(
-            fn=None, # 当值改变时调用这个函数
-            inputs=[model_selector, top_k, hops, current_model_selector, current_top_k, current_hops],
-            outputs=[],
-            js="""
-            (model_selector, top_k, hops, current_model_selector, current_top_k, current_hops) => {
-                const btn = document.getElementById("parameter-btn");
-                btn.disabled  = (model_selector === current_model_selector && top_k === current_top_k && hops === current_hops);
-                return [];
-            }""")
-        top_k.change(
-            fn=None, # 当值改变时调用这个函数
-            inputs=[model_selector, top_k, hops, current_model_selector, current_top_k, current_hops],
-            outputs=[],
-            js="""
-            (model_selector, top_k, hops, current_model_selector, current_top_k, current_hops) => {
-                const btn = document.getElementById("parameter-btn");
-                btn.disabled  = (model_selector === current_model_selector && top_k === current_top_k && hops === current_hops);
-                return [];
-            }""")
-        hops.change(
-            fn=None, # 当值改变时调用这个函数
-            inputs=[model_selector, top_k, hops, current_model_selector, current_top_k, current_hops],
-            outputs=[],
-            js="""
-            (model_selector, top_k, hops, current_model_selector, current_top_k, current_hops) => {
-                const btn = document.getElementById("parameter-btn");
-                btn.disabled  = (model_selector === current_model_selector && top_k === current_top_k && hops === current_hops);
-                return [];
-            }""")
-        # model_selector.change(
-        #     fn=update_api_key_visibility, # 当值改变时调用这个函数
-        #     inputs=model_selector,        # 将 model_selector 的当前值作为输入传给函数
-        #     outputs=api_key_input         # 函数的返回值（gr.update对象）将作用于 api_key_input 组件
-        # )
 
 
     # select_all.change( 

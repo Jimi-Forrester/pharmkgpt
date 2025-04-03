@@ -1,6 +1,6 @@
 import gradio as gr
 import html
-from src.ui.config import CHOICES, MODELS_REQUIRING_KEY
+from src.ui.config import *
 import json
 from flask import Flask
 from src.rag import RAGEngine
@@ -121,42 +121,12 @@ def kg_to_visjs(json):
 def chat_reset():
     return INITIAL_CHATBOT, INITIAL_HTML, INITIAL_MESSAGE_BOX
 
-INITIAL_CHATBOT = []
-INITIAL_HTML = ""
-INITIAL_MESSAGE_BOX = ""
-LASTET_MESSAGE = ""
-MODELS = ["DeepSeek-R1","Gemini",]
-choices = ["Drugs", "Diseases", "Gene", "Protein", "Metabolite", "SNP", "Clinical"]
-
-def query(question):
-    import requests
-    import json
-
-    # Flask 服务器地址
-    # url = "http://127.0.0.1:5000/query"
-    url = "http://192.168.110.64:5000/api/query"
-    # 发送的 JSON 数据
-    data = {"question": question}
-
-    # 发送 POST 请求
-    response = requests.post(url, json=data)
-
-    # 解析并打印返回结果
-    if response.status_code == 200:
-        print("✅ 成功！返回结果：")
-        print(json.dumps(response.json(), indent=4, ensure_ascii=False))
-        return response.json()
-    else:
-        print(f"❌ 失败！错误码: {response.status_code}")
-        print(response.text)
-        return {"Answer":"Busy now. Please try again later."}
 def query_stream(question):
     import requests
     import json
 
     # Flask 服务器地址
-    # url = "http://127.0.0.1:5000/query"
-    url = "http://192.168.110.64:5000/api/query"
+    url = F"{BASE_URL}/query"
     # 发送的 JSON 数据
     data = {"question": question}
 
@@ -175,14 +145,14 @@ def query_stream(question):
 
 # 全选逻辑函数 
 def toggle_select_all(select_all, checkbox_group):
-    if select_all and len(checkbox_group) != len(choices):
-        return choices
-    elif not select_all and len(checkbox_group) == len(choices):
+    if select_all and len(checkbox_group) != len(CHOICES):
+        return CHOICES
+    elif not select_all and len(checkbox_group) == len(CHOICES):
         return []
     return checkbox_group
 
 def toggle_select_all_reverse(select_list):
-    return True if len(select_list) == len(choices) else False
+    return True if len(select_list) == len(CHOICES) else False
 
 def user_msg(message, chat_history):
     # 仅将用户消息加入历史记录，并立即清空输入框
@@ -210,7 +180,7 @@ def load_and_display(output):
                 {title}<a href="https://pubmed.ncbi.nlm.nih.gov/{pmid}/" target="_blank">[PMID: {pmid}]</a>
             </summary>
             <div style='padding:15px; background:white;'>
-                <b>Relevance score:</b> {round(score, 2)}
+                <b>Relevance score:</b> {score:.3f}
             </div>
             <div style='padding:15px; background:white;'>
                 {abstract}
@@ -220,83 +190,92 @@ def load_and_display(output):
     accordion_html += "</div></body></html> "
     return accordion_html 
 
-
-def respond(chat_history):
-    message = chat_history[-1][0]  # 获取用户最新消息
-    # 调用RAG生成回复 
+def user_msg(message, chat_history):
+    # 仅将用户消息加入历史记录，并立即清空输入框
+    if message != "":
+        chat_history.append([message,  None])  # None表示机器人未回复 
+        return "", chat_history  # 返回空字符串清空输入框
+    else:
+        gr.Warning("Please enter a message.")
+        return "", chat_history
+def yield_respond(chat_history):
     try:
-        output = query(message)
-    except Exception as e:
-        output = {"Answer":"Busy now. Please try again later."}
-    # with open("./src/ui/output.json", "r") as f:
-    #     output = json.load(f)
-    #将回复加入历史记录
-    chat_history[-1][1] = output['Answer']
-    try:
-        html_content = kg_to_visjs(output['KG'])
-        escaped_html = html.escape(html_content, quote=True)
-        iframe_code = f"""
-        <iframe srcdoc="{escaped_html}" style='width:100%; height:40vh; border:none;'></iframe>
-        """
+        msg = chat_history[-1][0]  # 更新用户消息
+    
+        chat_history[-1][1] = "<div class='loading-text'>Loading...</div>"  # 更新用户消息
+        yield chat_history, gr.State(None)
+        # 调用RAG生成回复 
+        for progress_json in query_stream(msg):
+            if progress_json['type'] == 'progress':
+                progress_msg = progress_json['message']
+                progress_list = progress_msg.split("\n")
+                if len(progress_list) > 1:
+                    progress_content = ''
+                    last_progress_msg = progress_list.pop(-1)
+                    for line in progress_list:
+                        if line != "":
+                            progress_content += f"<div class='loaded-text'>{line}</div>"
+                    progress_content += f"<div class='loading-text'>{last_progress_msg}</div>"
+                else:
+                    progress_content = ''
+                    last_progress_msg = progress_list[0]
+                    progress_content = f"<div class='loading-text'>{last_progress_msg}</div>"
+                    
+                chat_history[-1] = [msg, progress_content]  # 更新聊天记录
+                yield chat_history,  gr.State(None)# 返回更新后的聊天记录
+            elif progress_json['type'] == 'result':
+                query_result = progress_json['data']
+                yield chat_history,  gr.State(query_result)# 返回更新后的聊天记录
     except Exception as e:
         print(e)
-        html_content = ""
-        iframe_code = ""
-      
-    try:
-        iframe_code += load_and_display(output)
-    except Exception as e:
-        print(e)
-    return chat_history, iframe_code
+        yield chat_history,  gr.State(None)  # 返回更新后的聊天记录
+def answer_respond(chat_history, query_result):
+    output = query_result.value
+    if output:
+        # 将回复加入历史记录
+        chat_history[-1][1] = output['Answer']
+        try:
+            html_content = kg_to_visjs(output['KG'])
+            escaped_html = html.escape(html_content, quote=True)
+            iframe_code = f"""
+            <iframe srcdoc="{escaped_html}" style='width:100%; height:40vh; border:none;'></iframe>
+            """
+        except Exception as e:
+            print(e)
+            html_content = ""
+            iframe_code = ""
+        
+        try:
+            iframe_code += load_and_display(output)
+        except Exception as e:
+            print(e)
+        return chat_history, iframe_code
+    else:
+        # 如果没有输出，返回空值
+        return chat_history, ""
 
-def yield_respond(msg, chat_history):
-
-    chat_history.append([msg, "Loading..."])  # 更新用户消息
-    yield "", chat_history, "<p>Loading...</p>" 
-    # 调用RAG生成回复 
-    for progress_json in query_stream(msg):
-        if progress_json['type'] == 'progress':
-            chat_history[-1] = [msg, progress_json['message']]  # 更新聊天记录
-            yield "", chat_history, "<p>Loading...</p>" # 返回更新后的聊天记录
-        elif progress_json['type'] == 'result':
-            output = progress_json['data']
-            chat_history[-1][1] = output['Answer']  # 更新聊天记录
-            try:
-                html_content = kg_to_visjs(output['KG'])
-                escaped_html = html.escape(html_content, quote=True)
-                iframe_code = f"""
-                <iframe srcdoc="{escaped_html}" style='width:100%; height:40vh; border:none;'></iframe>
-                """
-            except Exception as e:
-                print(e)
-                html_content = ""
-                iframe_code = ""
-            try:
-                iframe_code += load_and_display(output)
-            except Exception as e:
-                print(e)
-            yield "", chat_history, iframe_code  # 返回更新后的聊天记录和HTML内容
-
-def interaction_true():
-    return gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True),gr.update(interactive=True)
-def interaction_false():
-    return gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False),gr.update(interactive=False)
-
+def interaction_true(*args):
+    # Create a list of updates, one for each argument passed
+    updates = [gr.update(interactive=True) for _ in args]
+    # Return as a tuple, which is standard for multiple Gradio outputs
+    return tuple(updates)
+def interaction_false(*args):
+    # Create a list of updates, one for each argument passed
+    updates = [gr.update(interactive=False) for _ in args]
+    # Return as a tuple, which is standard for multiple Gradio outputs
+    return tuple(updates)
 def parameters_embedding_live_update(model_type='gemma3', api_key=None, top_k=5, hops=1):
-    port=5000
-    # host='127.0.0.1'
-    host='192.168.110.64'
-    # 1. 确保服务器正在运行
-    # start_server_if_needed(model_type, api_key, top_k, hops)
-    # 2. 构造要发送的数据
+    # 1. 构造要发送的数据
+    if model_type == 'MindGPT':
+        model_type = 'gemma3'
     payload = {
         "model_type": model_type,
         "api_key": api_key,
         "top_k": top_k,
         "hops": hops
     }
-    # 3. 发送 POST 请求到 /update_config 端点
-    update_url = f'http://{host}:{port}/api/update_config'
+    # 2. 发送 POST 请求到 /update_config 端点
+    update_url = f'{BASE_URL}/update_config'
     print(f"Sending update request to {update_url} with payload: {payload}")
     try:
         import requests
@@ -381,8 +360,8 @@ def update_state(model_selector, top_k, hops):
     print(f"new model: {new_model_selector}")
     print(f"new top_k: {new_top_k}")
     print(f"new hops: {new_hops}")
-    return new_model_selector, new_top_k, new_hops
-def are_parameters_same(model_selector, top_k, hops, current_model_selector, current_top_k, current_hops):
+    return new_model_selector, gr.update(value = new_top_k), gr.update(value = new_hops)
+def are_parameters_same(model_selector, top_k, hops, current_model_selector, current_top_k, current_hops, is_parameters_set):
     """
     比较参数是否相同。  这个函数仅仅用于获取参数值， 不做任何更新操作。
     Args:
@@ -397,16 +376,16 @@ def are_parameters_same(model_selector, top_k, hops, current_model_selector, cur
     """
     if (model_selector == current_model_selector and
         top_k == current_top_k and
-        hops == current_hops):
-        return gr.update(disabled=True)
+        hops == current_hops) and (is_parameters_set == True):
+        return gr.update(interactive=False, value="Current parameters"), gr.update(value=current_model_selector), gr.update(current_top_k), gr.update(current_hops)
     else:
-        return gr.update(disabled=False)
+        return gr.update(interactive=True, value="Set parameters"), gr.update(value=current_model_selector), gr.update(current_top_k), gr.update(current_hops)
 def get_init_parameter():
     import requests
     import json
 
     # Flask 服务器地址
-    url = "http://192.168.110.64:5000/api/current_params"
+    url = F"{BASE_URL}/current_params"
     # 发送 GET 请求
     response = requests.get(url)
     # 解析并打印返回结果
@@ -420,3 +399,57 @@ def get_init_parameter():
         
     else:
         return gr.State(value=MODELS[0]), gr.State(value=5), gr.State(value=1)
+    # return gr.State(value=MODELS[0]), gr.State(value=5), gr.State(value=1)
+
+
+import matplotlib.pyplot  as plt 
+import pandas as pd 
+from matplotlib.colors  import LinearSegmentedColormap 
+ 
+def plot_interactive_hbar():
+    # 数据定义 
+    cont = {
+        'disease': 196769,
+        'gene': 8802,
+        'chemical': 39106,
+        'pubmed': 46835,
+        'metabolite': 156,
+        'protein': 435,
+        'processes': 225 
+    }
+    
+    # 数据处理 
+    df = pd.DataFrame(list(cont.items()),  columns=['category', 'count'])
+    df = df.sort_values('count',  ascending=True)
+    
+    # 自定义渐变颜色（参考原Plotly的绿-蓝渐变）
+    colors = [(16/255, 185/255, 129/255), (56/255, 173/255, 198/255), (59/255, 130/255, 246/255)]
+    cmap = LinearSegmentedColormap.from_list("custom_gradient",  colors, N=256)
+    norm = plt.Normalize(df['count'].min(), df['count'].max())
+    
+    # 创建图表 
+    fig, ax = plt.subplots(figsize=(8,  8))  # 增加画布高度 
+    bars = ax.barh(df['category'],  df['count'], color=cmap(norm(df['count'])))
+    
+    # 标签设置 
+    for bar in bars:
+        width = bar.get_width() 
+        ax.text(width*1.02,  bar.get_y()  + bar.get_height()/2,  
+                f'{width:,}', 
+                ha='left', va='center', 
+                fontsize=18, color='#000000')  # 灰色文字更清晰 
+    
+    # 坐标轴优化 
+    ax.set_xscale('log') 
+    ax.xaxis.set_visible(False) 
+    ax.grid(False)  # 关闭网格线 
+    ax.set_frame_on(False)  # 关闭边框 
+    # 解决标签显示问题
+    plt.subplots_adjust(left=0.2)   # 左侧留出更多空间 
+    ax.tick_params(axis='y',  labelsize=20, pad=4)  # 调整字体和间距 
+    
+    # 透明背景 
+    ax.set_facecolor('none') 
+    fig.patch.set_facecolor('none') 
+    
+    return fig

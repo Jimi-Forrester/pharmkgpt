@@ -1,6 +1,6 @@
-from src.ui.main import ui
 import os
-os.environ["GRADIO_ANALYTICS"] = "False"
+os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
+from src.ui.main import ui
 
 demo = ui()
 
