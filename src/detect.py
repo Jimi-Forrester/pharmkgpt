@@ -82,12 +82,10 @@ def is_likely_junk_input(text: str, ents_list: list) -> bool:
             break # Found a match, no need to check other patterns
 
         # 2. If no pattern matched at all, it's definitely junk
-        if not matched_a_pattern:
-            logger.info(f"Input '{original_text}' did not match any valid pattern. Treating as junk.")
-            return True # IS junk
+        # if not matched_a_pattern:
+        #     logger.info(f"Input '{original_text}' did not match any valid pattern. Treating as junk.")
+        #     return True # IS junk
 
-        # 3. At least one pattern matched. Now apply heuristics.
-        # Heuristic: Check for lack of vowels in all-letter strings
         if text.isalpha():
             vowels = "aeiou"
             contains_vowel = False

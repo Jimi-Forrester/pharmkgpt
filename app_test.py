@@ -1,6 +1,6 @@
 import uvicorn
 
-from src.routes import app
+from src.main import app
 
 
 if __name__ == "__main__":

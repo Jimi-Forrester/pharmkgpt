@@ -227,7 +227,6 @@ class RAGEngine:
         """执行查询"""
         if self.engine is None:
             raise Exception("RAG engine is not initialized.")
-        
         yield {"type": "progress", "message": "Retrieving Knowledge"}
         try:
             response = self.engine.query(question)
