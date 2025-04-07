@@ -32,6 +32,8 @@ def test_qa():
     for term in response_generator:
         assert None == term['data']['Context']
 
+
+    
     response_generator = engine.query("Is there research on the protein SCUBE2?")
     collected_results_loop = []
     for piece in response_generator:

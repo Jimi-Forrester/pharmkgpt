@@ -32,6 +32,8 @@ from config import (
 from src.kgvisual import kg_visualization
 from src.hightlight import hightLight_context, format_docs, highlight_segments, hallucination_test
 
+
+
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 # --- 日志配置 ---
@@ -108,6 +110,9 @@ class RAGEngine:
         self.top_k=top_k
         self.hops=hops
         
+        llm = None 
+        self.llm = None
+        
         try:
             if model_type == "gemini":
                 logging.info("Initializing Gemini...")
@@ -128,6 +133,17 @@ class RAGEngine:
                 model = model_map[model_type],
                 base_url = self.ollama_url
             )
+            else:
+                logging.info(f"Initializing {model_type}...")
+                llm = Ollama(
+                    model = "gemma3:27b",
+                    base_url = self.ollama_url
+                )
+                
+                self.llm = lc_Ollama(
+                    model = "gemma3:27b",
+                    base_url = self.ollama_url
+                )
             
             self.llm.invoke("hello world!")
             llm.complete("hello world!")
@@ -221,7 +237,7 @@ class RAGEngine:
                 "type": "result", # Keep type as result, but content indicates no answer
                 "data": {
                     "Question": question,
-                    "Answer": "Sorry, the initial answer I generated did not fully pass verification when checked against the reference documents. To ensure accuracy, I cannot provide a reliable answer right now.",
+                    "Answer": "I'm sorry, I cannot answer this question based on the information currently available.",
                     "Supporting literature": None,
                     "Context": None,
                     "KG": None,
@@ -280,7 +296,7 @@ class RAGEngine:
                             "type": "result", # Keep type result, content indicates failure
                             "data": {
                                 "Question": question,
-                                "Answer": "I generated an initial answer, but it failed the fact-checking process against the retrieved documents. Cannot provide a reliable answer.",
+                                "Answer": "Sorry, the initial answer I generated did not fully pass verification when checked against the reference documents. To ensure accuracy, I cannot provide a reliable answer right now.",
                                 "Supporting literature": None, # Or maybe provide sps but indicate failure?
                                 "Context": None,
                                 "KG": None,
@@ -320,10 +336,10 @@ class RAGEngine:
             logging.info(f"**Supporting literature:** {sps}")
             yield {"type": "result", "data": output_dict}
             return
-    
+
     def query(self, question):
         """查询"""
-        if is_likely_junk_input(question):
+        if is_likely_junk_input(question, self.ents):
             yield {"type": "result", 
                         "data":{
                             "Question": question,

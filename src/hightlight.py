@@ -4,10 +4,12 @@ from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
 from langchain_core.prompts import PromptTemplate
 from langchain.prompts import PromptTemplate
-from typing import List, Optional, Dict
+from typing import List
 import time
-import openai
 import logging
+
+class HighlightError(Exception):
+    pass
 
 class HighlightDocuments(BaseModel):
     """Return the specific part of a document used for answering the question."""
@@ -47,12 +49,12 @@ def hightLight_context(
     
     try:
         return chain.invoke(input_data)
-    except openai.BadRequestError as e:
+    except HighlightError as e:
         logging.info(f"Too much requests, we are sleeping! \n the error is {e}")
         time.sleep(sleep_time)
         return hightLight_context(input_data=input_data)
 
-    except openai.RateLimitError:
+    except HighlightError:
         logging.info("Too much requests exceeding rate limit, we are sleeping!")
         time.sleep(sleep_time)
         return hightLight_context(input_data=input_data)
@@ -139,12 +141,12 @@ def hallucination_test(llm_model, input_data):
     
     try:
         return chain.invoke(input_data)
-    except openai.BadRequestError as e:
+    except HighlightError as e:
         logging.info(f"Too much requests, we are sleeping! \n the error is {e}")
         time.sleep(sleep_time)
         return hallucination_test(input_data=input_data)
 
-    except openai.RateLimitError:
+    except HighlightError:
         logging.info("Too much requests exceeding rate limit, we are sleeping!")
         time.sleep(sleep_time)
         return hallucination_test(input_data=input_data)
