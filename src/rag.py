@@ -33,7 +33,7 @@ from src.kgvisual import kg_visualization
 from src.hightlight import hightLight_context, format_docs, highlight_segments, hallucination_test
 
 
-
+os.environ['OLLAMA_BASE_URL']="http://127.0.0.1:11434"
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 # --- 日志配置 ---
@@ -49,13 +49,12 @@ class RAGEngine:
         self,
         data_root=DATA_ROOT,
         embed_model=EMBED_MODEL,
-        ollama_url=OLLAMA_BASE_URL,
         reranker_path=RERANK_PATH,
     ):
         self.embed_model=embed_model
         self.data_root = data_root
-        self.ollama_url=ollama_url
         self.reranker_path=reranker_path
+        self.ollama_url="http://127.0.0.1:11434"
         self.load_kg()
         self.load_index()
         self.model_type=None

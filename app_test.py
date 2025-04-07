@@ -1,10 +1,7 @@
-from src import create_app
+import uvicorn
 
-app = create_app()
+from src.routes import app
+
 
 if __name__ == "__main__":
-    app.run(
-        host="0.0.0.0",
-        debug=True, 
-        port=5001,
-        )
+    uvicorn.run(app, host="0.0.0.0", port=5001)
