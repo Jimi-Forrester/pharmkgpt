@@ -9,11 +9,11 @@ os.environ["GRADIO_ANALYTICS"] = "False"
 
 
 def ui():
-    base_dir = os.path.dirname(os.path.abspath(__file__)) 
+    base_dir = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
     with open(f"{base_dir}/gradio.css", "r", encoding="utf-8") as f:
         custom_css = f.read()
-
-    with gr.Blocks(theme=Kotaemon(),title="MindResilience",css=custom_css,fill_width=True) as demo:
+    icon = """<link rel="icon" type="image/png" href="/file=src/ui/MindResilience.png">"""
+    with gr.Blocks(theme=Kotaemon(text_size="lg",),title="MindResilience", css=custom_css, fill_width=True, head=icon) as demo:
     # with gr.Tab("KG2RAG",elem_id="chat-tab"):
         with gr.Row():
             # 左侧设置面板 
@@ -32,7 +32,7 @@ def ui():
                     confirm_btn = gr.Button("Confirm", variant="stop")
                     cancel_btn = gr.Button("Cancel")
                 with gr.Accordion(label="Model parameter") as model_parameter:
-                    current_model_selector, current_top_k, current_hops = get_init_parameter()
+                    current_model_selector, current_top_k, current_hops = gr.State(None), gr.State(None), gr.State(None)
                     query_result = gr.State(None)
                     is_parameter_set = gr.State(False)
                     model_selector = gr.Dropdown(
@@ -77,7 +77,7 @@ def ui():
                             """
                         - Click the **Set parameters** button to set model parameters before chat.
                         - **Max Retrieved** : Maximum number of retrieved documents. (range 1-20)
-                        - Try to ask questions like: how does kynurenic acid contribute to dilirium?
+                        - Try to ask questions like: how does kynurenic acid contribute to delirium?
                         - Send message by clicking the **Send** button or pressing **Shift + Enter**.
                         - Result contain **answer**, **knowledge graph** and **references**.
                     """  
@@ -129,7 +129,10 @@ def ui():
             
     
         # 事件绑定
-        send_btn.click(fn=user_msg,
+        send_btn.click(fn=get_parameter_in_send,
+                        inputs=[],
+                        outputs=[]
+                        ).success(fn=user_msg,
                         inputs=[msg,chatbot],
                         outputs=[msg,chatbot]
                         ).success(
@@ -143,7 +146,10 @@ def ui():
                         )
         
         # # 回车提交支持 
-        msg.submit(fn=user_msg,
+        msg.submit(fn=get_parameter_in_send,
+                        inputs=[],
+                        outputs=[]
+                        ).success(fn=user_msg,
                         inputs=[msg,chatbot],
                         outputs=[msg,chatbot]
                         ).success(
@@ -193,8 +199,8 @@ def ui():
             inputs=[model_selector,api_key_input, top_k, hops],
             outputs=[],
         ).then(
-            lambda: [gr.update(visible=False),gr.update(open=False), gr.update(value=True)],
-            outputs=[waiting_text, model_parameter, is_parameter_set]
+            lambda: [gr.update(visible=False), gr.update(open=False), gr.update(value=True), gr.update(placeholder="<p style='font-size:18px; font-weight:bold'>You can ask questions.</p>")],
+            outputs=[waiting_text, model_parameter, is_parameter_set, chatbot]
         ).then(
             fn=update_state,
             inputs=[model_selector, top_k, hops],
@@ -210,7 +216,10 @@ def ui():
             lambda: gr.update(visible=False),
             outputs=confirm_set_dialog
         )
-
+        demo.load(fn=update_placeholder_in_load,
+                    inputs=[],
+                    outputs=[chatbot, is_parameter_set]
+            )
         demo.load(fn=None,  js="""
             () => {
                 document.getElementById("send-btn").disabled  = true;
@@ -218,12 +227,19 @@ def ui():
             }
             """)
         demo.load(fn=plot_interactive_hbar,  outputs=plot)
+
         msg.change( 
             fn=None,
             js="""
             (text, is_parameter_set) => {
                 const btn = document.getElementById("send-btn"); 
-                btn.disabled  = (text.trim()  === "");
+                if (params_set === false) {
+                    // 如果参数未设置 (false)，则始终禁用按钮
+                    btn.disabled = true;
+                } else {
+                    // 如果参数已设置 (true)，则根据文本框是否为空来禁用按钮
+                    btn.disabled = (text.trim() === "");
+                }
                 return [];
             }
             """,

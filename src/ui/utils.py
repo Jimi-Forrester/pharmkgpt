@@ -11,7 +11,6 @@ from threading import Thread
 
 os.environ["GRADIO_ANALYTICS"] = "False"
 
-
 def json_to_kg_list(json):
     nodes_list = str(json['nodes']).replace("'id'", 'id').replace("'label'", 'name').replace("'color'", 'color').replace("'name'", 'name').replace("'title'", 'title').replace("'size'", 'size')
     edges_list = str(json['edges']).replace("'from'", 'from').replace("'to'", 'to').replace("'label'", 'name').replace("'color'", 'color').replace("'name'", 'name').replace("'title'", 'title').replace("'size'", 'size')
@@ -202,7 +201,7 @@ def yield_respond(chat_history):
     try:
         msg = chat_history[-1][0]  # 更新用户消息
     
-        chat_history[-1][1] = "<div class='loading-text'>Loading...</div>"  # 更新用户消息
+        chat_history[-1][1] = "<div class='loading-text'>Loading</div>"  # 更新用户消息
         yield chat_history, gr.State(None)
         # 调用RAG生成回复 
         for progress_json in query_stream(msg):
@@ -380,27 +379,59 @@ def are_parameters_same(model_selector, top_k, hops, current_model_selector, cur
         return gr.update(interactive=False, value="Current parameters"), gr.update(value=current_model_selector), gr.update(current_top_k), gr.update(current_hops)
     else:
         return gr.update(interactive=True, value="Set parameters"), gr.update(value=current_model_selector), gr.update(current_top_k), gr.update(current_hops)
-def get_init_parameter():
+def get_parameter():
     import requests
-    import json
+    import json 
 
     # Flask 服务器地址
-    url = F"{BASE_URL}/current_params"
+    url = F"{BASE_URL}/status"
+    try:
     # 发送 GET 请求
-    response = requests.get(url)
-    # 解析并打印返回结果
-    if response.status_code == 200:
+        response = requests.get(url)
+        # 解析并打印返回结果
+        response.raise_for_status() # 如果状态码不是 2xx，则抛出异常
         res = response.json()
-        if res['model_type'] and res['top_k'] and res['hops']:
-            return gr.State(value=res['model_type']), gr.State(value=res['top_k']), gr.State(value=res['hops'])
-        else:
-            parameters_embedding_live_update()
-            return gr.State(value=MODELS[0]), gr.State(value=5), gr.State(value=1)
-        
-    else:
-        return gr.State(value=MODELS[0]), gr.State(value=5), gr.State(value=1)
-    # return gr.State(value=MODELS[0]), gr.State(value=5), gr.State(value=1)
+        if res['configured'] == True:
+            return res
+        elif res['configured'] == False:
+            return None
+            
+    except requests.exceptions.RequestException as e:
+         print(f"请求后端时发生错误: {e}")
+         return "REQUEST_ERROR" # 其他请求错误
+    except requests.exceptions.ConnectionError:
+         return "CONNECTION_ERROR" # 特殊标记表示连接失败
+    except Exception as e:
+        print(f"处理后端响应时发生未知错误: {e}")
+        return "UNKNOWN_ERROR" # 未知错误
 
+def update_placeholder_in_load():
+    status = get_parameter()
+    if status:
+        if status == "REQUEST_ERROR":
+            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server is not available, please check the server status.</p>"), gr.update(value=False)
+        elif status == "CONNECTION_ERROR":
+            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server is not available now, please check the server status.</p>"), gr.update(value=False)
+        elif status == "UNKNOWN_ERROR":
+            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server error, please check the server status.</p>"), gr.update(value=False)
+        else:
+            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold'>You can ask questions.</p>"), gr.update(value=True)
+    else:
+        return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Set parameters before Chat.</p>"), gr.update(value=False)
+def get_parameter_in_send():
+    res = get_parameter()
+    if res:
+        if res == "REQUEST_ERROR":
+            raise(gr.Error("Server is not available, please check the server status."))
+        elif res == "CONNECTION_ERROR":
+            raise(gr.Error("Server is not available, please check the server status."))
+        elif res == "UNKNOWN_ERROR":
+            raise(gr.Error("UNKNOWN_ERROR"))
+        else:
+            pass
+            # return gr.update(value=True)
+    else:
+        raise(gr.Error("Your parameters lost, please set parameters again"))
 
 import matplotlib.pyplot  as plt 
 import pandas as pd 
