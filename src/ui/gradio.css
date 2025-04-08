@@ -5,6 +5,12 @@ mark {
     background-color: #10B981;
     color: #ffffff;
 }
+gradio-app {
+    background: #ffffff;
+}
+#toggle-button {
+    background-color: #ffffff !important;
+}
 .loading-text::after {
     content: '...';
     animation: dotting 1.5s infinite step-end;
@@ -77,7 +83,7 @@ mark {
     flex-wrap: unset;
     overflow-y: scroll !important;
     position: sticky;
-    column-gap: 2px !important;
+    column-gap: 0px !important;
     scrollbar-width: none;
 }
 #right-column {

@@ -484,3 +484,22 @@ def plot_interactive_hbar():
     fig.patch.set_facecolor('none') 
     
     return fig
+
+def toggle_sidebar(current_visibility):
+    """
+    Updates the visibility of the sidebar column and the button text/icon.
+
+    Args:
+        current_visibility (bool): The current value of the sidebar_visible state.
+
+    Returns:
+        tuple: Updates for (sidebar_column, toggle_button, sidebar_visible_state)
+    """
+    new_visibility = not current_visibility
+    button_text = "〈 Hide" if new_visibility else "〉 Show" # Or use icons like "<", ">"
+    print(f"Toggling sidebar visibility to: {new_visibility}")
+    return (
+        gr.update(visible=new_visibility), # Update sidebar column visibility
+        gr.update(value=button_text),     # Update button text/icon
+        new_visibility                    # Update the state variable itself
+    )

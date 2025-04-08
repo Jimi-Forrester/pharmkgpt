@@ -13,11 +13,11 @@ def ui():
     with open(f"{base_dir}/gradio.css", "r", encoding="utf-8") as f:
         custom_css = f.read()
     icon = """<link rel="icon" type="image/png" href="/file=src/ui/MindResilience.png">"""
-    with gr.Blocks(theme=Kotaemon(text_size="lg",),title="MindResilience", css=custom_css, fill_width=True, head=icon) as demo:
+    with gr.Blocks(theme=Kotaemon(text_size="lg").set(body_background_fill='white',background_fill_primary='white'),title="MindResilience", css=custom_css, fill_width=True, head=icon) as demo:
     # with gr.Tab("KG2RAG",elem_id="chat-tab"):
         with gr.Row():
             # 左侧设置面板 
-            with gr.Column(scale=1,elem_id="left-column", min_width=300):
+            with gr.Column(scale=1,elem_id="left-column", min_width=300) as sidebar_column:
                 gr.Markdown("# MindResilience",height="15vh")
                 new_chat = gr.Button(
                         value="New chat",
@@ -95,6 +95,8 @@ def ui():
 
 
             with gr.Column(scale=4,elem_id="mid-column"):
+                sidebar_visible = gr.State(True)
+                toggle_button = gr.Button("〈 Hide", size="sm", scale=0, elem_id="toggle-button")
                 chatbot = gr.Chatbot(value=[],
                                     height="85vh",label="Chat",
                                     placeholder="<p style='font-size:18px; font-weight:bold'>You can ask questions.</p>",
@@ -233,20 +235,22 @@ def ui():
             js="""
             (text, is_parameter_set) => {
                 const btn = document.getElementById("send-btn"); 
-                if (params_set === false) {
-                    // 如果参数未设置 (false)，则始终禁用按钮
-                    btn.disabled = true;
-                } else {
-                    // 如果参数已设置 (true)，则根据文本框是否为空来禁用按钮
-                    btn.disabled = (text.trim() === "");
-                }
+                btn.disabled = (text.trim() === "");
                 return [];
             }
             """,
             inputs=[msg, is_parameter_set],
             outputs=[]
         )
-
+        toggle_button.click(
+                fn=toggle_sidebar,         # The function to call
+                inputs=[sidebar_visible],  # Pass the current state to the function
+                outputs=[
+                    sidebar_column,        # The component to update visibility for
+                    toggle_button,         # The button component to update its text/icon
+                    sidebar_visible        # The state variable to update
+                ]
+            )
 
     # select_all.change( 
     #     fn=toggle_select_all,
