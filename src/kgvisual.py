@@ -101,7 +101,7 @@ def scale_edge_length(head_entity, tail_entity, entity_relation_counts):
             如果无法确定计数值或所有计数值都相同，则返回中间值。
     """
     min_length = 300  # 边的最小长度
-    max_length = 500  # 边的最大长度
+    max_length = 700  # 边的最大长度
 
     # --- 基本检查 ---
     if not entity_relation_counts:
@@ -130,8 +130,6 @@ def scale_edge_length(head_entity, tail_entity, entity_relation_counts):
 
     # 处理所有原始实体计数值都相同的情况
     if input_range == 0:
-        # 如果所有实体的计数都相同，则所有边的长度应相同
-        # 返回中间长度
         return 300
 
     # --- 执行线性缩放 ---
@@ -218,6 +216,7 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                     "label": entity.name, 
                     "color": entity.color,
                     "title": format_dict_to_html_br(en_title),
+                    "group": en.label
                     }
                 
         
@@ -228,8 +227,8 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                 re_title = rel.properties_info
                 re_title['edges'] = rel.name
                 relations_list.append({
-                    "from": entities_dict[rel.startEntity.name]["id"],
-                    "to": entities_dict[rel.endEntity.name]["id"],
+                    "from": rel.startEntity.name,
+                    "to": rel.endEntity.name,
                     "label": rel.name,
                     "title": format_dict_to_html_br(re_title),
                     "length": 300 
@@ -248,16 +247,21 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
     
     # 计算边的长度
     relations_list_length = []
+
     for re in relations_list:
+        head_entity = re["from"]
+        tail_entity = re["to"]
         re["length"] = scale_edge_length(
-            relations_list["from"], 
-            relations_list["to"], 
+            head_entity, 
+            tail_entity, 
             entity_relation_counts
             )
+        re["from"] = entities_dict[head_entity]["id"]
+        re["to"] = entities_dict[tail_entity]["id"]
         relations_list_length.append(re)
     
     output_kg = {
         'nodes': list(entities_dict.values()),
-        'edges': relations_list
+        'edges': relations_list_length
     }
     return output_kg
