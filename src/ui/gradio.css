@@ -55,7 +55,7 @@ gradio-app {
     font-size: 16px;
     border-radius: 8px;
     margin-top: 10px !important;  /* 顶部间距 */;
-    height: 80px !important;  /* 高度为72px */;
+    height: 88px !important;
     }
 #send-btn:disabled {
     cursor: not-allowed !important;        /* 禁用鼠标点击 */
@@ -85,6 +85,7 @@ gradio-app {
     position: sticky;
     column-gap: 0px !important;
     scrollbar-width: none;
+    gap:0px !important;
 }
 #right-column {
     max-height: 95vh !important;  /* 容器最大高度为视窗高度的95% */

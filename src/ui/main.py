@@ -12,13 +12,13 @@ def ui():
     base_dir = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
     with open(f"{base_dir}/gradio.css", "r", encoding="utf-8") as f:
         custom_css = f.read()
-    icon = """<link rel="icon" type="image/png" href="/file=src/ui/MindResilience.png">"""
-    with gr.Blocks(theme=Kotaemon(text_size="lg").set(body_background_fill='white',background_fill_primary='white'),title="MindResilience", css=custom_css, fill_width=True, head=icon) as demo:
+    icon = """<link rel="icon" type="image/png" href="/file=src/ui/PharmKGPT.png">"""
+    with gr.Blocks(theme=Kotaemon(text_size="lg").set(body_background_fill='white',background_fill_primary='white'),title="PharmKGPT", css=custom_css, fill_width=True, head=icon) as demo:
     # with gr.Tab("KG2RAG",elem_id="chat-tab"):
         with gr.Row():
             # 左侧设置面板 
             with gr.Column(scale=1,elem_id="left-column", min_width=300) as sidebar_column:
-                gr.Markdown("# MindResilience",height="15vh")
+                gr.Markdown("# PharmKGPT",height="15vh")
                 new_chat = gr.Button(
                         value="New chat",
                         min_width=120,
@@ -75,11 +75,10 @@ def ui():
                 with gr.Accordion(label="Hint", open=True):
                     gr.Markdown(
                             """
+                        - Data updated through *March 2025*.
+                        - **Max Retrieved** : Maximum number of retrieved documents(range 1-20). 
                         - Click the **Set parameters** button to set model parameters before chat.
-                        - **Max Retrieved** : Maximum number of retrieved documents. (range 1-20)
-                        - Try to ask questions like: how does kynurenic acid contribute to delirium?
-                        - Send message by clicking the **Send** button or pressing **Shift + Enter**.
-                        - Result contain **answer**, **knowledge graph** and **references**.
+                        - Try to ask questions like: How does kynurenic acid contribute to delirium?
                     """  
                         )
                     
@@ -220,7 +219,7 @@ def ui():
         )
         demo.load(fn=update_placeholder_in_load,
                     inputs=[],
-                    outputs=[chatbot, is_parameter_set]
+                    outputs=[chatbot, is_parameter_set, model_selector, top_k]
             )
         demo.load(fn=None,  js="""
             () => {
