@@ -1,12 +1,16 @@
 import os
 from dotenv import load_dotenv
-load_dotenv()
 
-DATA_ROOT = os.getenv("DATA_ROOT", "/app/data") # 容器内数据根目录
-OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL") 
-RERANK_PATH= os.getenv("RERANKER_PATH", "/app/bge-reranker-large")
+script_dir = os.path.dirname(os.path.abspath(__file__))
+dotenv_path = os.path.join(script_dir, '.env')
+print(f"Attempting to load .env from: {dotenv_path}")
 
-RERANKER_PATH = "bge-reranker-large"
+load_dotenv(dotenv_path=dotenv_path)
+
+
+DATA_ROOT = os.getenv("DATA_ROOT") # 容器内数据根目录
+RERANK_PATH= os.getenv("RERANKER_PATH")
+
 EMBED_MODEL = "nomic-embed-text:latest"
 
 # 这个字典相对静态，可以保留在 config.py 中，但也可以通过更复杂的配置管理方式外部化

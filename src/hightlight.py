@@ -7,6 +7,7 @@ from langchain.prompts import PromptTemplate
 from typing import List
 import time
 import logging
+import re
 
 class HighlightError(Exception):
     pass
@@ -71,23 +72,42 @@ def format_docs(docs):
     return formatted_docs
 
 
-def highlight_segments(output_abtract, lookup_response):
+# def highlight_segments(output_abtract, lookup_response):
+#     keyword_list = lookup_response.keyword
+#     for keyword in keyword_list:
+#         if len(keyword) <=1:
+#             continue
+#         for source in output_abtract:
+#             highlighted_context = output_abtract[source]['abstract']
+#             if keyword in output_abtract[source]['abstract']:
+#                 logging.info(f"找到 keyword: '{keyword}', 正在执行替换...")
+#                 output_abtract[source]['abstract'] = highlighted_context.replace(keyword, f"<mark>{keyword}</mark>")
+            
+#             elif keyword.lower() in output_abtract[source]['abstract']:
+#                 output_abtract[source]['abstract'] = highlighted_context.replace(keyword.lower(), f"<mark>{keyword.lower()}</mark>")
+#             else:
+#                 # logging.info(f"警告: 在 {source} context 中未找到 segment: '{keyword}'。未执行替换。")
+#                 pass
+#     return output_abtract
+
+def highlight_segments(output_abstract, lookup_response):
     keyword_list = lookup_response.keyword
     for keyword in keyword_list:
-        if len(keyword) <=1:
+        if len(keyword) <= 1:
             continue
-        for source in output_abtract:
-            highlighted_context = output_abtract[source]['abstract']
-            if keyword in output_abtract[source]['abstract']:
+        # 构造正则，忽略大小写，匹配整词（可选）
+        pattern = re.compile(rf'(?<!<mark>)(?<!</mark>)(\b{re.escape(keyword)}\b)', re.IGNORECASE)
+
+        for source in output_abstract:
+            original_text = output_abstract[source]['abstract']
+            if re.search(pattern, original_text):
                 logging.info(f"找到 keyword: '{keyword}', 正在执行替换...")
-                output_abtract[source]['abstract'] = highlighted_context.replace(keyword, f"<mark>{keyword}</mark>")
-            
-            elif keyword.lower() in output_abtract[source]['abstract']:
-                output_abtract[source]['abstract'] = highlighted_context.replace(keyword.lower(), f"<mark>{keyword.lower()}</mark>")
-            else:
-                # logging.info(f"警告: 在 {source} context 中未找到 segment: '{keyword}'。未执行替换。")
-                pass
-    return output_abtract
+
+                # 替换匹配内容，保留原始大小写
+                highlighted = pattern.sub(r'<mark>\1</mark>', original_text)
+                output_abstract[source]['abstract'] = highlighted
+
+    return output_abstract
 
 
 def hallucination_test(llm_model, input_data):
@@ -112,17 +132,19 @@ def hallucination_test(llm_model, input_data):
     # Evaluation Criteria & Scoring Guide
     Evaluate based on the following criteria and provide an integer score from 1 to 5:
 
-    *   **Score 1 (Fully Grounded & Relevant):** All key information in the answer is explicitly supported by the 'Retrieved Context' and is highly relevant to the 'Original Query' (assuming the context itself is relevant).
-    *   **Score 2 (Mostly Grounded & Relevant):** The majority of key information is supported by the context. There might be minor, reasonable paraphrasing or synthesis, but no introduction of core facts not found in the context. Generally relevant to the query.
+    *   **Score 1 (Fully Grounded & Relevant):** All key information and logical connections presented in the answer are explicitly supported by the 'Retrieved Context'. This includes answers that accurately **synthesize multiple pieces of information explicitly present** in the context to directly address the query's core question. The answer is highly relevant to the 'Original Query'.
+    *   **Score 2 (Mostly Grounded & Relevant):** The majority of key information is supported by the context. May involve minor, **reasonable paraphrasing or logical synthesis clearly based on information stated in the context**. No introduction of core facts or strong causal claims not directly supported by the building blocks within the context. Generally relevant to the query.
     *   **Score 3 (Partially Grounded / Mild Hallucination):** The answer contains a mix of information supported by the context and details or inferences not found there. Alternatively, the answer might be based on the context but has low relevance to the 'Original Query'.
     *   **Score 4 (Largely Hallucinated / Poorly Grounded):** Most of the key information in the answer cannot be verified from the 'Retrieved Context'. It appears largely fabricated by the model. This also applies if the context is irrelevant to the query, but the answer attempts to derive meaning from it anyway.
     *   **Score 5 (Completely Hallucinated / Fabricated / Irrelevant):** The information in the answer finds almost no support in the 'Retrieved Context'. This includes cases where the context is empty, but the answer provides specific information, or the answer is completely unrelated to both the context and the query.
 
-    **Specific Handling Notes:**
-    *   If the 'Retrieved Context' is **empty** or **completely irrelevant** to the 'Original Query', any 'Generated Answer' that provides specific, seemingly informative content should receive a **high score (4 or 5)**.
-    *   If the 'Original Query' itself is **nonsensical** (e.g., random characters like "dfkj", "xxfckj"), and the 'Generated Answer' provides a seemingly coherent, specific response (i.e., not just stating inability to understand), it should also receive a **high score (4 or 5)**.
-    *   **[NEW RULE]** If the 'Generated Answer' includes phrases explicitly stating that the required information is **missing** or **not mentioned** in the 'Retrieved Context' (e.g., "The context does not say...", "Based on the provided abstracts, there is no mention of the", "The provided documents do not contain details on..."), treat this as highly irrelevant or an inability to answer grounded in the context. Assign **Score 5**.
-
+    ***Specific Handling Notes:**
+    *   If the 'Retrieved Context' is **empty** or **completely irrelevant**... **high score (4 or 5)**.
+    *   If the 'Original Query' itself is **nonsensical**... **high score (4 or 5)**.
+    *   **[REVISED RULE v4] Handling Answers Discussing Information Availability & Synthesis:**
+        *   If the 'Generated Answer' explicitly states that the **core subject** or **essential information** needed to answer the 'Original Query' is **missing** or **not mentioned** in the 'Retrieved Context', AND the answer subsequently provides **no relevant, grounded information** about the query's topic from the context, assign **Score 5**.
+        *   However, if the 'Generated Answer' accurately notes the absence of *specific details*, a *direct causal statement*, or uses cautious phrasing (e.g., "appears to be," "likely contributes," "suggests a role") reflecting the nuance or limitations of the context, **this is NOT grounds for a high score by itself.**
+        *   Furthermore, if the answer **synthesizes** information by logically connecting **multiple facts that are *each individually supported* by the provided 'Retrieved Context'** to answer the query, this should be considered **grounded (Scores 1-2)**, provided the synthesis itself is logical and doesn't introduce unsupported claims. **Do NOT assign Score 5 simply because the synthesized conclusion wasn't stated verbatim as a single sentence in the context.** Evaluate the *accuracy and grounding of the synthesis* based on the context.
     Output format:
         <format_instruction>
         {format_instructions}

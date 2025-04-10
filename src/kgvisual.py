@@ -160,7 +160,8 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                     "from": entities_dict[rel.startEntity.name]["id"],
                     "to": entities_dict[rel.endEntity.name]["id"],
                     "label": rel.name,
-                    "title": format_dict_to_html_br(re_title)
+                    "title": format_dict_to_html_br(re_title),
+                    # "length": 300 
                 })
             
             # 计算每个实体连接的关系的数量
