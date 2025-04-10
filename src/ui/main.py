@@ -51,7 +51,7 @@ def ui():
                         interactive=True,
                         container=True # 让它看起来和其他组件排版一致
                     )
-                    top_k = gr.Slider(minimum=1, maximum=20, value=5, step=1, label="Max Retrieved",interactive=True, elem_id="top-k")
+                    top_k = gr.Slider(minimum=1, maximum=15, value=5, step=1, label="Max Retrieved",interactive=True, elem_id="top-k")
                     hops = gr.Slider(minimum=1, maximum=5, value=1, step=1, label="Multi-hop expansion",interactive=True, elem_id="hops", visible=False)
                     set_parameters = gr.Button(
                         value="Set parameters",
@@ -180,9 +180,9 @@ def ui():
             outputs=confirm_dialog
         )
         set_parameters.click(
-            # fn=api_check,
-            # inputs=[model_selector, api_key_input],
-            lambda: gr.update(visible=True),
+            fn=api_check,
+            inputs=[model_selector, api_key_input],
+            # lambda: gr.update(visible=True),
             outputs=confirm_set_dialog
         )
         
@@ -249,6 +249,11 @@ def ui():
                     sidebar_visible        # The state variable to update
                 ]
             )
+        model_selector.change(
+            fn=update_api_key_visibility, # 当值改变时调用这个函数
+            inputs=model_selector,        # 将 model_selector 的当前值作为输入传给函数
+            outputs=api_key_input         # 函数的返回值（gr.update对象）将作用于 api_key_input 组件
+        )
 
     # select_all.change( 
     #     fn=toggle_select_all,

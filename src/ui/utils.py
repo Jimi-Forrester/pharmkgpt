@@ -358,9 +358,12 @@ def interaction_false(*args):
     # Return as a tuple, which is standard for multiple Gradio outputs
     return tuple(updates)
 def parameters_embedding_live_update(model_type='gemma3', api_key=None, top_k=5, hops=1):
-    # 1. 构造要发送的数据
-    if model_type == 'MindGPT':
-        model_type = 'gemma3'
+    model_type_map = {
+        'MindGPT': 'gemma3',
+        'OpenAI': 'openai',
+    }
+    if model_type in model_type_map:
+        model_type = model_type_map[model_type]
     payload = {
         "model_type": model_type,
         "api_key": api_key,
@@ -499,8 +502,13 @@ def get_parameter():
         print(f"处理后端响应时发生未知错误: {e}")
         return "UNKNOWN_ERROR" # 未知错误
 def model_type_converter(model_type):
-    if model_type == 'gemma3':
-        return 'MindGPT'
+    model_type_map = {
+        'gemma3': 'MindGPT',
+        'openai': 'OpenAI',
+    }
+    if model_type in model_type_map:
+        model_type = model_type_map[model_type]
+        return model_type
     else:
         return model_type
 def update_placeholder_in_load():
