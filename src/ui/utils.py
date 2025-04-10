@@ -1,120 +1,217 @@
 import gradio as gr
 import html
 from src.ui.config import *
-import json
-from flask import Flask
-from src.rag import RAGEngine
 import os
-import socket 
-import time 
-from threading import Thread 
 
 os.environ["GRADIO_ANALYTICS"] = "False"
 
 def json_to_kg_list(json):
-    nodes_list = str(json['nodes']).replace("'id'", 'id').replace("'label'", 'name').replace("'color'", 'color').replace("'name'", 'name').replace("'title'", 'title').replace("'size'", 'size')
-    edges_list = str(json['edges']).replace("'from'", 'from').replace("'to'", 'to').replace("'label'", 'name').replace("'color'", 'color').replace("'name'", 'name').replace("'title'", 'title').replace("'size'", 'size')
+    nodes_list = str(json['nodes']).replace("'id'", 'id').replace("'label'", 'name').replace("'color'", 'colors').replace("'name'", 'name').replace("'title'", 'title').replace("'size'", 'size').replace("'group'", 'group')
+    edges_list = str(json['edges']).replace("'from'", 'from').replace("'to'", 'to').replace("'label'", 'name').replace("'color'", 'colors').replace("'name'", 'name').replace("'title'", 'title').replace("'size'", 'size').replace("'group'", 'group')
     return nodes_list, edges_list
+en_color = {
+    'abstract': {"background": '#5A98D0', "border": '#1B3B6F'},  # 赛博蓝/深海蓝
+    'chemical': {"background": '#35A29F', "border": '#1F6F78'},  # 青绿/深青蓝
+    'disease': {"background": '#FF3864', "border": '#A30052'},  # 霓虹红/暗紫红 (主色)
+    'gene': {"background": '#FFCE4F', "border": '#D48C00'},  # 明亮黄/金黄
+    'metabolite': {"background": '#E457A6', "border": '#9C1B6C'},  # 霓虹粉/暗粉紫
+    'pathway': {"background": '#8A5CF6', "border": '#4E2A84'},  # 科技紫/深紫
+    'processes': {"background": '#6BE3C3', "border": '#2A9D8F'},  # 赛博绿/深绿
+    'protein': {"background": '#1E88E5', "border": '#0D47A1'},  # 电蓝/深蓝
+    'region': {"background": '#9E7A65', "border": '#9E7A65'},
+}
+def kg_to_visjs(json_input): # 修改函数签名以接收输入
+    nodes_list_json, edges_list_json = json_to_kg_list(json_input) # 调用转换函数
+    group_counts = {}
+    for node in json_input['nodes']:
+        group_name = node['group'] # 获取当前节点的 group 名称
+        # 使用字典的 .get(key, default) 方法
+        # 如果 group_name 已经在字典中，返回它的当前计数值，否则返回 0
+        # 然后将计数值加 1，并更新（或添加）到字典中
+        group_counts[group_name] = group_counts.get(group_name, 0) + 1
+    # --- 生成图例的 HTML ---
+    legend_html_items = ""
+    for key, colors in en_color.items():
+        background_color = colors['background']
+        border_color = colors['border']
+        # 简单的亮度计算，决定文字颜色（可选，提高可读性）
+        r = int(background_color[1:3], 16)
+        g = int(background_color[3:5], 16)
+        b = int(background_color[5:7], 16)
+        brightness = (r * 299 + g * 587 + b * 114) / 1000
+        # text_color = '#FFFFFF' if brightness < 128 else '#000000' # 深色背景用白色文字，浅色用黑色
+        text_color = '#ffffff'
+        legend_html_items += f"""
+        <div class="legend-item" style="background-color: {background_color}; border:none; color: {text_color};">
+            {key.capitalize() + "(" + str(group_counts[key]) + ")"}
+        </div>
+        """
+    # --- 图例HTML结束 ---
 
-def kg_to_visjs(json):
-    nodes_list, edges_list = json_to_kg_list(json)
-    html_content = r"""
+    html_content = rf"""
     <!DOCTYPE html>
     <html>
     <head>
         <meta charset="utf-8">
-        <title>Vis.js  Knowledge Graph (Neo4j-like Style)</title>
-        <!-- 引入 vis.js  的 CSS 和 JS -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>  
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css"  rel="stylesheet" type="text/css" /> 
-        <style> 
-          /* 页面整体样式 */ 
-          body { 
-            margin: 0; 
-            padding: 0; 
-            background-color: #ffffff; /* 白色背景 */ 
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-          } 
-        #network { 
-          width: 100%; 
-          height: 100vh; 
-          border: none; 
-        } 
-      </style> 
-    </head> 
-    
-    <body> 
-      <div id="network"></div> 
-      <script type="text/javascript"> 
-        window.onload  = function () { 
-          // 示例节点，分三类：粉色、绿色、蓝色 
-          // 你可以根据实际数据，为节点加上 group 或 color"""
-    html_content +=f""" 
-          var nodes = new vis.DataSet({nodes_list}); 
-          var edges = new vis.DataSet({edges_list}); 
-    """
+        <title>Vis.js Knowledge Graph with Legend</title>
+        <!-- 引入 vis.js 的 CSS 和 JS -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+        <style>
+          /* 页面整体样式 */
+          body {{
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* 白色背景 */
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            display: flex; /* 使用 flex布局，方便并列 */
+            height: 100vh; /* 视口高度 */
+            overflow: hidden; /* 防止滚动条 */
+          }}
+          #network {{
+            /* width: calc(100% - 200px); /* 减去图例宽度 */
+            flex-grow: 1; /* 让网络图占据剩余空间 */
+            height: 100%; /* 占满父容器高度 */
+            border: none;
+          }}
 
-    html_content +=r"""// vis.js  配置 
-          var options = { 
-            nodes: {
-              shape: 'dot', 
-              borderWidth: 0,
-              scaling: { min: 10, max: 50 }
-            }, 
-            edges: { 
-              width: 2, 
-              color: { 
-                //color: '#999999', 
-                //highlight: '#666666' 
-                inherit: 'both'
-              }, 
-              arrows: { 
-                to: { enabled: false, scaleFactor: 0.8 }  // 在目标节点处显示箭头 
-              }, 
-              font: { 
-                color: '#333333', 
-                size: 14, 
-                align: 'horizontal' 
-              }, 
-              smooth: { 
-                enabled: false, 
-                type: 'dynamic' 
-              },
-              scaling: {
+          /* 图例样式 */
+          #legend {{
+            width: 120px;   /* Keep adaptive width */
+            background-color: #fff; /* Slightly different background maybe */
+            border-left: 1px solid #ccc; /* ADD border to separate from network */
+            padding: 15px;
+            height: 100%;          /* MODIFIED: Make legend full height */
+            box-sizing: border-box; /* ADD: Include padding/border in height calculation */
+            overflow-y: auto;      /* Keep vertical scroll if needed */
+            display: flex;
+            flex-direction: column; /* MODIFIED: Stack title and items vertically */
+            flex-wrap: nowrap;      /* MODIFIED: Prevent wrapping of title/items container */
+            gap: 8px;             /* Adjust gap */
+            flex-shrink: 0;       /* ADD: Prevent legend from shrinking */
+          }}
+          /* ADD a container for the legend items to apply wrap */
+          .legend-items-container {{
+              display: flex;
+              flex-wrap: wrap;
+              gap: 8px; /* Spacing between individual legend items */
+              justify-content: center;
+          }}
+
+          #legend h3 {{
+             margin-top: 0;
+             margin-bottom: 5px; /* Adjust spacing */
+             text-align: center;
+             font-size: 16px;
+             color: #333;
+             width: 100%; /* Ensure header takes full width */
+             flex-shrink: 0; /* Prevent header from shrinking */
+          }}
+
+          .legend-item {{
+            padding: 6px 12px;
+            border-radius: 15px;
+            text-align: center;
+            font-size: 12px;
+            font-weight: bold;
+            cursor: default;
+            flex-grow: 0; /* Don't allow items to grow */
+            flex-shrink: 0; /* Don't allow items to shrink */
+             /* min-width, background-color, border, color set via inline style */
+          }}
+      </style>
+    </head>
+
+    <body>
+      <div id="network"></div>
+
+    <!-- 图例容器 -->
+      <div id="legend">
+        <!-- ADDED Wrapper Div -->
+        <div class="legend-items-container">
+            {legend_html_items}
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        window.onload = function () {{
+          // 节点和边数据从 Python 传入
+          var nodes = new vis.DataSet({nodes_list_json});
+          var edges = new vis.DataSet({edges_list_json});
+
+          // vis.js 配置 (保持不变)
+          var options = {{
+            nodes: {{
+                shape: 'dot',
+                borderWidth: 0,
+                scaling: {{ min: 25, max: 65 }}
+            }},
+            edges: {{
+              width: 2,
+              color: {{
+                inherit: 'both' // 边的颜色可以继承自节点，或设为固定颜色
+              }},
+              arrows: {{
+                to: {{ enabled: false, scaleFactor: 0.8 }} // 保持箭头不可见
+              }},
+              font: {{
+                color: '#333333',
+                size: 14, // 边标签字体大小
+                align: 'horizontal' // 标签沿边居中
+              }},
+              smooth: {{
+                enabled: false // 禁用平滑曲线可能性能更好
+              }},
+              scaling: {{
                 min:1,
                 max:3
-              }
-            }, 
-            physics: { 
-              enabled: true, 
-              stabilization: {iterations:1000}, 
-              barnesHut: { 
-                gravitationalConstant: -20000, 
-                springConstant: 0.05, 
-                springLength: 300,
+              }}
+            }},
+            groups: {{
+                    abstract: {{ color:'#5A98D0' }},
+                    chemical: {{ color:'#35A29F' }},
+                    disease:  {{ color:'#FF3864' }},
+                    gene:     {{ color:'#FFCE4F'}},
+                    metabolite:{{ color:'#E457A6'}},
+                    pathway:  {{ color:'#8A5CF6'}},
+                    processes:{{ color:'#6BE3C3'}},
+                    protein:  {{ color:'#1E88E5'}},
+                    region:   {{ color:'#9E7A65'}}
+                }},
+            physics: {{
+              enabled: true,
+              stabilization: {{iterations:1000}}, // 减少稳定迭代次数可能加快加载
+              barnesHut: {{
+                gravitationalConstant: -8000, // 增加斥力
+                springConstant: 0.05,
+                springLength: 300, // 增加弹簧长度
                 damping: 0.2,
                 centralGravity: 0.1,
-                avoidOverlap: 1
-              } 
-            },
-            interaction: { 
-              hover: true, 
-              tooltipDelay: 200, 
-              dragNodes: true, 
-              zoomView: true 
-            }, 
-            layout: { 
+                avoidOverlap: 1 // 增加避免重叠因子
+              }}
+            }},
+            interaction: {{
+              hover: true,
+              tooltipDelay: 200,
+              dragNodes: true,
+              zoomView: true,
+              navigationButtons: true, // 添加导航按钮
+              keyboard: true // 允许键盘导航
+            }},
+            layout: {{
               improvedLayout: true,
               hierarchical: false
-            } 
-          }; 
-    
-          var container = document.getElementById('network');  
-          var data = { nodes: nodes, edges: edges }; 
-          var network = new vis.Network(container, data, options); 
-        }; 
-      </script> 
+            }}
+          }};
 
+          var container = document.getElementById('network');
+          var data = {{ nodes: nodes, edges: edges }};
+          var network = new vis.Network(container, data, options);
+        }};
+      </script>
+
+    </body>
+    </html>
     """
     return html_content
 def chat_reset():
@@ -278,7 +375,7 @@ def parameters_embedding_live_update(model_type='gemma3', api_key=None, top_k=5,
     print(f"Sending update request to {update_url} with payload: {payload}")
     try:
         import requests
-        response = requests.post(update_url, json=payload, timeout=30) # 增加超时以等待可能的模型加载
+        response = requests.post(update_url, json=payload, timeout=90) # 增加超时以等待可能的模型加载
         response.raise_for_status() # 如果状态码不是 2xx，则抛出异常
         print("Update request successful:")
         print(response.json())
@@ -387,7 +484,7 @@ def get_parameter():
     url = F"{BASE_URL}/status"
     try:
     # 发送 GET 请求
-        response = requests.get(url)
+        response = requests.get(url, timeout=60)
         # 解析并打印返回结果
         response.raise_for_status() # 如果状态码不是 2xx，则抛出异常
         res = response.json()
@@ -404,20 +501,24 @@ def get_parameter():
     except Exception as e:
         print(f"处理后端响应时发生未知错误: {e}")
         return "UNKNOWN_ERROR" # 未知错误
-
+def model_type_converter(model_type):
+    if model_type == 'gemma3':
+        return 'MindGPT'
+    else:
+        return model_type
 def update_placeholder_in_load():
     status = get_parameter()
     if status:
         if status == "REQUEST_ERROR":
-            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server is not available, please check the server status.</p>"), gr.update(value=False)
+            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server is not available, please check the server status.</p>"), gr.update(value=False), gr.update(value=MODELS[0]), gr.update(value=5)
         elif status == "CONNECTION_ERROR":
-            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server is not available now, please check the server status.</p>"), gr.update(value=False)
+            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server is not available now, please check the server status.</p>"), gr.update(value=False), gr.update(value=MODELS[0]), gr.update(value=5)
         elif status == "UNKNOWN_ERROR":
-            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server error, please check the server status.</p>"), gr.update(value=False)
+            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server error, please check the server status.</p>"), gr.update(value=False), gr.update(value=MODELS[0]), gr.update(value=5)
         else:
-            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold'>You can ask questions.</p>"), gr.update(value=True)
+            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold'>You can ask questions.</p>"), gr.update(value=True), gr.update(value=model_type_converter(status['params']['model_type'])), gr.update(value=status['params']['top_k'])
     else:
-        return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Set parameters before Chat.</p>"), gr.update(value=False)
+        return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Set parameters before Chat.</p>"), gr.update(value=False), gr.update(value=MODELS[0]), gr.update(value=5)
 def get_parameter_in_send():
     res = get_parameter()
     if res:
@@ -439,15 +540,15 @@ from matplotlib.colors  import LinearSegmentedColormap
  
 def plot_interactive_hbar():
     # 数据定义 
-    cont = {
-        'disease': 196769,
-        'gene': 8802,
-        'chemical': 39106,
-        'pubmed': 46835,
-        'metabolite': 156,
-        'protein': 435,
-        'processes': 225 
-    }
+    cont = {'disease': 7895,
+            'gene': 19549,
+            'abstract': 153060,
+            'chemical': 10295,
+            'protein': 7062,
+            'region': 3419,
+            'processes': 5170,
+            'pathway': 3128,
+            'metabolite': 2170,}
     
     # 数据处理 
     df = pd.DataFrame(list(cont.items()),  columns=['category', 'count'])
