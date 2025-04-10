@@ -76,7 +76,6 @@ def ui():
                     gr.Markdown(
                             """
                         - Data updated through *March 2025*.
-                        - **Max Retrieved** : Maximum number of retrieved documents(range 1-20). 
                         - Click the **Set parameters** button to set model parameters before chat.
                         - Try to ask questions like: How does kynurenic acid contribute to delirium?
                     """  

@@ -22,30 +22,29 @@ en_color = {
 }
 def kg_to_visjs(json_input): # 修改函数签名以接收输入
     nodes_list_json, edges_list_json = json_to_kg_list(json_input) # 调用转换函数
-    group_counts = {}
-    for node in json_input['nodes']:
-        group_name = node['group'] # 获取当前节点的 group 名称
-        # 使用字典的 .get(key, default) 方法
-        # 如果 group_name 已经在字典中，返回它的当前计数值，否则返回 0
-        # 然后将计数值加 1，并更新（或添加）到字典中
-        group_counts[group_name] = group_counts.get(group_name, 0) + 1
+    try:
+        group_counts = {}
+        for node in json_input['nodes']:
+            group_name = node['group'] # 获取当前节点的 group 名称
+            # 使用字典的 .get(key, default) 方法
+            # 如果 group_name 已经在字典中，返回它的当前计数值，否则返回 0
+            # 然后将计数值加 1，并更新（或添加）到字典中
+            group_counts[group_name] = group_counts.get(group_name, 0) + 1
+    except:
+        print("Error: Unable to count nodes list.")
     # --- 生成图例的 HTML ---
     legend_html_items = ""
     for key, colors in en_color.items():
         background_color = colors['background']
-        border_color = colors['border']
-        # 简单的亮度计算，决定文字颜色（可选，提高可读性）
-        r = int(background_color[1:3], 16)
-        g = int(background_color[3:5], 16)
-        b = int(background_color[5:7], 16)
-        brightness = (r * 299 + g * 587 + b * 114) / 1000
-        # text_color = '#FFFFFF' if brightness < 128 else '#000000' # 深色背景用白色文字，浅色用黑色
         text_color = '#ffffff'
-        legend_html_items += f"""
-        <div class="legend-item" style="background-color: {background_color}; border:none; color: {text_color};">
-            {key.capitalize() + "(" + str(group_counts[key]) + ")"}
-        </div>
-        """
+        try:
+            legend_html_items += f"""
+            <div class="legend-item" style="background-color: {background_color}; border:none; color: {text_color};">
+                {key.capitalize() + " (" + str(group_counts[key]) + ")"}
+            </div>
+            """
+        except:
+            pass
     # --- 图例HTML结束 ---
 
     html_content = rf"""
@@ -79,7 +78,7 @@ def kg_to_visjs(json_input): # 修改函数签名以接收输入
           #legend {{
             width: 120px;   /* Keep adaptive width */
             background-color: #fff; /* Slightly different background maybe */
-            border-left: 1px solid #ccc; /* ADD border to separate from network */
+            border-left: none; /* No border */
             padding: 15px;
             height: 100%;          /* MODIFIED: Make legend full height */
             box-sizing: border-box; /* ADD: Include padding/border in height calculation */
@@ -195,8 +194,6 @@ def kg_to_visjs(json_input): # 修改函数签名以接收输入
               tooltipDelay: 200,
               dragNodes: true,
               zoomView: true,
-              navigationButtons: true, // 添加导航按钮
-              keyboard: true // 允许键盘导航
             }},
             layout: {{
               improvedLayout: true,
