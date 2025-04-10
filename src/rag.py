@@ -5,15 +5,19 @@ import os
 from FlagEmbedding import FlagReranker
 from llama_index.llms.gemini import Gemini
 from llama_index.llms.ollama import Ollama
-
+from llama_index.llms.openai import OpenAI
 from llama_index.core.postprocessor import SimilarityPostprocessor
 from langchain_community.llms import Ollama as lc_Ollama
-from langchain_google_genai import ChatGoogleGenerativeAI
+
 from llama_index.core import Settings, PromptTemplate, StorageContext, load_index_from_storage
 from llama_index.core.retrievers import VectorIndexRetriever
 from llama_index.core.query_engine import RetrieverQueryEngine
 from llama_index.core.response_synthesizers import ResponseMode
 from llama_index.embeddings.ollama import OllamaEmbedding
+
+from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
+
 from .util.kg_post_processor import (
     NaivePostprocessor,
     KGRetrievePostProcessor,
@@ -22,18 +26,17 @@ from .util.kg_post_processor import (
 from .util.kg_response_synthesizer import get_response_synthesizer
 from .detect import is_likely_junk_input
 from config import (
-    DATA_ROOT,
     MODEL_DICT,
-    OLLAMA_BASE_URL,
     EMBED_MODEL, 
-    RERANK_PATH   
+    DATA_ROOT,
+    RERANK_PATH
     )
 
 from src.kgvisual import kg_visualization
 from src.hightlight import hightLight_context, format_docs, highlight_segments, hallucination_test
 
 
-os.environ['OLLAMA_BASE_URL']="http://127.0.0.1:11434"
+
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 # --- 日志配置 ---
@@ -52,11 +55,14 @@ class RAGEngine:
         reranker_path=RERANK_PATH,
     ):
         self.embed_model=embed_model
+        logging.info(f"data_root: {data_root}")
         self.data_root = data_root
         self.reranker_path=reranker_path
         self.ollama_url="http://127.0.0.1:11434"
         self.load_kg()
         self.load_index()
+        
+        self._configured = False
         self.model_type=None
         self.api_key=None
         self.hops=None
@@ -89,26 +95,26 @@ class RAGEngine:
             self.chunks_index = pickle.load(f)
 
         with open(f"{self.data_root}/chunk_index_nodes.pkl", "rb") as f:
-            self.chunk_index_nodes = pickle.load(f)
+            self.chunk_index_embed = pickle.load(f)
             
         self.ents = loaded_dict["ents"]
         self.doc2kg = loaded_dict["doc2kg"]
         
 
     def setup_query_engine(self,         
-                model_type='gemma3',
-                api_key=None,
-                top_k=5,
-                hops=1,
-                device="cuda:0",
-                model_map=MODEL_DICT
+                model_type,
+                api_key,
+                top_k,
+                hops,
+                model_map=MODEL_DICT,
                 ):
         """初始化RAG引擎"""
         self.model_type=model_type
         self.api_key=api_key
         self.top_k=top_k
         self.hops=hops
-        
+        device="cuda:0"
+    
         llm = None 
         self.llm = None
         
@@ -120,6 +126,17 @@ class RAGEngine:
                     model="gemini-2.0-flash", 
                     google_api_key=api_key, 
                     temperature=0
+                    )
+                
+            elif model_type == "openai":
+                logging.info("Initializing Openai...")
+                llm = OpenAI(api_key=api_key, model="gpt-4o")
+                
+                self.llm = ChatOpenAI(
+                    api_key=api_key,
+                    model="gpt-4o", 
+                    temperature=0,
+                    max_retries=2
                     )
 
             elif model_type in MODEL_DICT:
@@ -143,19 +160,15 @@ class RAGEngine:
                     model = "gemma3:27b",
                     base_url = self.ollama_url
                 )
-            
+                
             self.llm.invoke("hello world!")
+
             llm.complete("hello world!")
+            
             Settings.llm =llm
             
             logging.info("Loading entities and doc2kg...")
-
-
-            # sc = StorageContext.from_defaults(persist_dir=self.persist_dir)
-            # index = load_index_from_storage(sc)
-            
             retriever = VectorIndexRetriever(index=self.index, similarity_top_k=top_k)
-
             qa_rag_template_str = (
                 "Context information is below.\n{context_str}\nQ: {query_str}\nA: "
             )
@@ -172,7 +185,7 @@ class RAGEngine:
                 ents=self.ents, 
                 doc2kg=self.doc2kg, 
                 chunks_index=self.chunks_index,
-                chunks_index_nodes =  self.chunk_index_nodes,
+                chunk_index_embed=self.chunk_index_embed,
                 hops=hops,
             )
             
@@ -201,20 +214,32 @@ class RAGEngine:
                 ],
             )
             logging.info("RAG engine initialized successfully.")
-
+            
+            self._configured = True
+            
         except FileNotFoundError as e:
             logging.error(f"File not found: {e}")
             raise  # 重新抛出异常，以便上层处理
         except Exception as e:
             logging.error(f"An error occurred during initialization: {e}")
     
-    def get_parameters(self):
-        return {
-            "model_type": self.model_type,
-            "api_key_provided": bool(self.api_key),
-            "top_k": self.top_k,
-            "hops": self.hops
-        }      
+    def is_configured(self):
+        return self._configured
+    
+    def get_status(self):
+        status_data = {
+            'configured': self._configured, # 使用 'configured' 字符串键
+            "params": None                 # 初始化 params 为 None
+            }
+        
+        if self._configured:
+            status_data["params"] = {
+                "model_type": self.model_type,
+                "api_key_provided": bool(self.api_key),
+                "top_k": self.top_k,
+                "hops": self.hops
+            }
+        return status_data
         
     def _remove_brackets(self, text: str) -> str:
         cleaned_text = re.sub(r"[\[\]]", "", text)
@@ -227,33 +252,43 @@ class RAGEngine:
         """执行查询"""
         if self.engine is None:
             raise Exception("RAG engine is not initialized.")
+        
         yield {"type": "progress", "message": "Retrieving Knowledge"}
+        
+        response = None
         try:
             response = self.engine.query(question)
-        except:
+
+        except Exception as e: # 捕获其他所有在 query 中可能发生的错误
+            # 记录详细错误供调试
+            logging.error(f"Unexpected error processing question '{question}': {e}", exc_info=True)
             yield {
-                "type": "result", # Keep type as result, but content indicates no answer
+                "type": "result",
                 "data": {
                     "Question": question,
-                    "Answer": "I'm sorry, I cannot answer this question based on the information currently available.",
+                    # 提供通用的、友好的用户消息
+                    "Answer": "I'm sorry, an unexpected error occurred while processing your question. Please try again later.",
                     "Supporting literature": None,
                     "Context": None,
                     "KG": None,
                 }
             }
-        
-        if len(response.source_nodes) == 0:
+            return
+
+        if not response or not getattr(response, 'response', None) or len(response.source_nodes) == 0: # 检查 response 是否存在且有实际内容
+            logging.warning(f"Engine query for '{question}' returned an empty or null response.")
             yield {
-                "type": "result", # Keep type as result, but content indicates no answer
+                "type": "result", # 或者可以考虑用 "no_answer" 类型
                 "data": {
                     "Question": question,
-                    "Answer": "I'm sorry, I cannot answer this question based on the information currently available.",
-                    "Supporting literature": None,
+                    "Answer": "I'm sorry, I cannot find a specific answer based on the information currently available.",
+                    "Supporting literature": getattr(response, 'source_nodes', None),
                     "Context": None,
                     "KG": None,
                 }
             }
-            return # Stop the generator
+            return # 如果响应为空，也退出
+
         else:  
             num_source_nodes = len(response.source_nodes) 
             logging.info(f"源节点数量：{num_source_nodes}") 
@@ -277,6 +312,7 @@ class RAGEngine:
             yield {"type": "progress", "message": "Knowledge Retrieved.\nVerifying Facts"}
             
             logging.info(">>>hallucination detect>>>>>")
+            logging.info(f"answer: {answer}")
             try:
                 faithfulness_score = hallucination_test(
                     llm_model=self.llm,
@@ -284,7 +320,6 @@ class RAGEngine:
                 ).Faithfulness_score
                 logging.info(f"Faithfulness_score: {faithfulness_score}")
                 if faithfulness_score <= 2:
-                    
                     pass
     
                 elif faithfulness_score == 3:

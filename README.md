@@ -81,6 +81,8 @@ Choose either Docker or Local setup.
 
 3.  **Configure Model (Optional, sets defaults):**
     ```sh
+    curl -X GET http://localhost:5000/
+
     curl -X POST http://localhost:5000/api/update_config \
          -H "Content-Type: application/json" \
          -d '{
@@ -89,6 +91,8 @@ Choose either Docker or Local setup.
                "top_k": 5,
                "hops": 1
              }'
+
+    curl -X GET http://localhost:5001
     ```
 
 4.  **Query:**

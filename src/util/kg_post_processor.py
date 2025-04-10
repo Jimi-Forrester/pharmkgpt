@@ -122,7 +122,7 @@ class NaivePostprocessor(BaseNodePostprocessor):
                     sorted_nodes[i].node.text += '\n'
             prev_ent = temp_ent
             
-        logging.info(f">>初始节点: {len(sorted_nodes)}")
+        logging.info(f">> NaivePostprocessor output: {len(sorted_nodes)}")
         return sorted_nodes
     
 class KGRetrievePostProcessor(BaseNodePostprocessor):
@@ -136,7 +136,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
     doc2kg: Dict[str,Dict[str, List[tuple]]] = Field
     chunks_index: Dict[str,Dict[str,str]] = Field
     hops: int = Field
-    chunks_index_nodes: Dict[str, List] = Field
+    chunk_index_embed: Dict[str, List] = Field
 
     @classmethod
     def class_name(cls) -> str:
@@ -175,7 +175,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
                 highly_related_ents.add(entity)
             
             retrieved_ents.add(entity)
- 
+
             if entity not in ent_count:
                 ent_count[entity] = 0
                 ent_score[entity] = 0.0
@@ -213,17 +213,22 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
                 # ent_score[idx_seq_str] += node.score
 
                 try:
-                    chunk_embedding = self.chunks_index_nodes[idx_seq_str] # 假设你能获取 ctx_id 的文本
+                    chunk_embedding = self.chunk_index_embed[idx_seq_str] # 假设你能获取 ctx_id 的文本
                     similarity_score = calculate_similarity(query_context_embedding, chunk_embedding) # 计算相似度 dd
                 except Exception as e:
                     similarity_score = 0.0 # 出错则给默认值
                     
                 ent_count[idx_seq_str] += 1
                 if idx_seq_str in retrieved_ents:
-                    ent_score[idx_seq_str] += ent_score[idx_seq_str]*0.9 + similarity_score * 0.1
+                    combined_score = 0.5 * ent_score[idx_seq_str] + 0.5 * similarity_score
+                    # ent_score[idx_seq_str] += ent_score[idx_seq_str]*0.8 + similarity_score * 0.1
                 else:
-                    ent_score[idx_seq_str] += node.score*0.9 + similarity_score * 0.1
-                logging.info(f"** {idx_seq_str}: {node.score*0.9} + {similarity_score * 0.1}")
+                    # ent_score[idx_seq_str] += node.score*0.8 + similarity_score * 0.1
+                    combined_score = node.score*0.5 + similarity_score * 0.5
+                    
+                ent_score[idx_seq_str] = max(ent_score.get(idx_seq_str, 0), combined_score)
+                logging.info(f"** {idx_seq_str}: {ent_score[idx_seq_str]}")
+                
                 
                 # for triplet in self.doc2kg[entity][idx_seq_str]:
                 #     logging.info(f"** 检索到triplet: {triplet}")
@@ -320,96 +325,29 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         # retrieved_ents = retrieved_ents-highly_related_ents
         
         
-        
-        # logging.info(f'{list(related_ents) + list(retrieved_ents)}')
         logging.info(">>>>>>>>>>>> calculate related score")
         
         additional_ids = set()
         similarity_score_set = []
         for node in nodes:
             ent = node.node.id_
-            logging.info(f"** {ent}: {len(self.chunks_index[ent].keys())}")
-            logging.info(f"**  {ent}: {self.chunks_index[ent].keys()}")
-            if len(self.chunks_index[ent].keys()) > 50:
-                continue
-            
-            for idx_seq_str in self.chunks_index[ent]:
-                additional_ids.add(idx_seq_str)
-                # ctx_id = idx_seq_str
-
-                # try:
-                #     chunk_embedding = self.chunks_index_nodes[idx_seq_str] # 假设你能获取 ctx_id 的文本
-
-                #     similarity_score = calculate_similarity(query_context_embedding, chunk_embedding) # 计算相似度 dd
-                # except Exception as e:
-                #     similarity_score = 0.0 # 出错则给默认值
-
-
-                if idx_seq_str in similarity_score_set:
-                    logging.info(f"similarity_score_set:{similarity_score_set}")
+            if ent in self.chunks_index:
+                logging.info(f"** {ent}: {len(self.chunks_index[ent].keys())}")
+                logging.info(f"** {ent}: {self.chunks_index[ent].keys()}")
+                
+                if len(self.chunks_index[ent].keys()) > 50:
                     continue
-                else:
-                    similarity_score_set.append(idx_seq_str)
-                    # if ent in textid2score:
-                    textid2score[idx_seq_str] = ent_score[idx_seq_str]/ent_count[idx_seq_str]
-                    logging.info(f"**{idx_seq_str} score: {ent_score[idx_seq_str]/ent_count[idx_seq_str]}")
                 
-                # else:
-                #     textid2score[ctx_id] = similarity_score
-                #     logging.info(f"**similartity {ctx_id}: {similarity_score*0.1}")
-
-
-# The above Python code snippet is iterating over a list of entities, combining related and retrieved entities. For each
-# entity, it calculates an `entity_contribution` value based on scores and counts, and then adds the entity to a set
-# called `additional_ids`.
-        # for ent in (list(related_ents) + list(retrieved_ents)):
-            
-        #     logging.info(f"ent: {ent}")
-        #     logging.info(f"self.chunks_index[ent]: {len(self.chunks_index[ent].keys())}")
-        #     # if len(self.chunks_index[ent].keys())>=10:
-        #     #     continue
-        #     # ... (实体检查和 entity_contribution 计算) ...
-        #     entity_contribution = (ent_score[ent] + avg_score) / (ent_count[ent] + 1)
-        #     additional_ids.add(ent)
-        #     for idx_seq_str in self.chunks_index[ent]:
-        #         ctx_id = idx_seq_str
-        #         try:
-        #             chunk_embedding = self.chunks_index_nodes[idx_seq_str] # 假设你能获取 ctx_id 的文本
-
-        #             similarity_score = calculate_similarity(query_context_embedding, chunk_embedding) # 计算相似度
-        #             # logging.info(f'**{ctx_id} similarity_score:{similarity_score}')
-        #         except Exception as e:
-        #             # logging.warning(f"Could not get text or similarity for {ctx_id}: {e}")
-        #             similarity_score = 0.0 # 出错则给默认值
-        #         # --- 结合分数 (示例: 加权求和) ---
-        #         weight_entity = 0.001 # 实体贡献的权重
-        #         weight_similarity = 0.002 # 相似度贡献的权重
-
-        #         final_score_contribution = (entity_contribution * weight_entity) + (similarity_score * weight_similarity)
-
-        #         # --- 累加分数 ---
-        #         current_score = textid2score.get(ctx_id, 0.0)
-        #         textid2score[ctx_id] =current_score + final_score_contribution
-        #         logging.info(f"**累计得分 {ctx_id}: {current_score} + {final_score_contribution}")
-        
-        # for ent in (related_ents-retrieved_ents):
-        #     if (ent not in self.chunks_index) or (len(self.chunks_index[ent])==0) or (ent not in self.doc2kg):
-        #         continue
-            
-        #     for idx_seq_str in self.chunks_index[ent]:
-        #         # logging.info(f"** idx_seq_str: {idx_seq_str}")
-        #         ctx_id = idx_seq_str
-                
-        #         # ctx_id = ent
-        #         if ctx_id in retrieved_ids:
-        #             continue
-                
-        #         # logging.info(f"** ctx_id: {ctx_id}")
-        #         additional_ids.add(ctx_id)
-        #         textid2score[ctx_id] = 0.0
-        #         if ent in ent_score:
-        #             logging.info(f"{ctx_id}:{(ent_score[ent]+avg_score)/(ent_count[ent]+1)}")
-        #             textid2score[ctx_id] += (ent_score[ent]+avg_score)/(ent_count[ent]+1)
+                for idx_seq_str in self.chunks_index[ent]:
+                    additional_ids.add(idx_seq_str)
+                    if idx_seq_str in similarity_score_set:
+                        logging.info(f"similarity_score_set:{similarity_score_set}")
+                        continue
+                    else:
+                        similarity_score_set.append(idx_seq_str)
+                        textid2score[idx_seq_str] = ent_score[idx_seq_str]
+                        logging.info(f"**{idx_seq_str} score: {ent_score[idx_seq_str]}")
+                    
 
         logging.info(f"** additional_ids: {len(additional_ids)}")
         
@@ -535,90 +473,128 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         sorted_wccs = sorted(wccs,key=len,reverse=True)
         cand_ctxs_lists = list()
         
-        logging.info(f"最大通量: {wccs}")
-        for i in range(len(sorted_wccs)):
-            cand_ctxs_list = []
-            wcc = sorted_wccs[i]
-            
-            for ent in wcc:
-                if ent in wanted_ents:
-                    wanted_ents.remove(ent)
-            logging.info(f"** {i}wcc:{wcc} subgraph start!")        
-            if len(wcc)>1:
-                logging.info(f"** {i}wcc: maximum_spanning_tree!")  
-                subgraph = g.subgraph(wcc)
-                mst = nx.maximum_spanning_tree(subgraph,weight='weight')
-                cand_ctx_list = []
-                for cand_edge in mst.edges(data=True):
-                    if cand_edge[2]['source']=='query':
-                        continue
-                    else:
-                        cand_ctx_list.append(cand_edge[2]['source'])
-                cand_ctxs_list.append(cand_ctx_list)
-            else:
-                logging.info(f"** {i}wcc: sorted!")     
-                sorted_edges = sorted(g.subgraph(wcc).edges(data=True),key=lambda x:x[2]['weight'],reverse=True)
-                for edge in sorted_edges:
-                    if edge[2]['source']=='query':
-                        continue
-                    else:
-                        cand_ctxs_list.append([edge[2]['source'],])
-                        break
-                    
-            logging.info(f"wcc {i} cand_ctxs_list:{cand_ctxs_list}")
-            cand_ctxs_lists.append(cand_ctxs_list)
 
+        logging.info(f"Total connected components: {len(wccs)}")
+
+        MAX_CONTEXTS_PER_WCC = 3 # 定义每个 WCC 最多贡献多少 Context
+
+        for i in range(len(sorted_wccs)):
+            wcc = sorted_wccs[i]
+            logging.info(f"** Processing WCC {i} (size {len(wcc)}): {wcc}")
+
+            cand_ctx_list_for_this_wcc = []
+
+            if len(wcc) > 1:
+                subgraph = g.subgraph(wcc)
+                try:
+                    mst = nx.maximum_spanning_tree(subgraph, weight='weight')
+                    mst_edges_with_context = []
+                    for u, v, data in mst.edges(data=True):
+                        if data.get('source') and data['source'] != 'query':
+                            mst_edges_with_context.append(data) # Store edge data
+
+                    # Sort edges by weight to select the top ones
+                    mst_edges_with_context.sort(key=lambda x: x.get('weight', 0), reverse=True)
+
+                    added_ctx_count = 0
+                    seen_ctxs_in_wcc = set()
+                    for data in mst_edges_with_context:
+                        ctx = data['source']
+                        if ctx not in seen_ctxs_in_wcc: # Add unique contexts
+                            cand_ctx_list_for_this_wcc.append(ctx)
+                            seen_ctxs_in_wcc.add(ctx)
+                            added_ctx_count += 1
+                            if added_ctx_count >= MAX_CONTEXTS_PER_WCC:
+                                break 
+
+                except nx.NetworkXException as e:
+                    logging.warning(f"Could not compute MST for WCC {i}: {e}. Skipping component.")
+                    # Optionally add logging or default behavior
+
+            else: # Single node component
+                node = list(wcc)[0]
+                sorted_edges = sorted(g.edges(node, data=True), key=lambda x: x[2].get('weight', 0), reverse=True)
+                added_ctx_count = 0
+                for u, v, data in sorted_edges:
+                    if data.get('source') and data['source'] != 'query':
+                        cand_ctx_list_for_this_wcc.append(data['source'])
+                        added_ctx_count += 1
+                        break
+ 
+
+            if cand_ctx_list_for_this_wcc: # Only add if we found contexts for this WCC
+                cand_ctxs_lists.append(cand_ctx_list_for_this_wcc)
+
+        logging.info(f"Final number of context lists: {len(cand_ctxs_lists)}")
         cand_ids_lists = list()
         for cand_ctxs_list in cand_ctxs_lists:
-            cand_ids_lists.extend(cand_ctxs_list)
+            cand_ids_lists.append(cand_ctxs_list)
         
         cand_tpts = []
         cand_strs = []
         logging.info(f"cand_ids_lists: {cand_ids_lists}")
-        for cand_ids_list in cand_ids_lists:
-            ctx_str = ''
-            tpt_str = ''
-            for cand_id in cand_ids_list:
-                cand_ent = cand_id
-                for idx_seq_str in self.chunks_index[cand_ent]:
-                    ctx_str += self.chunks_index[cand_ent][idx_seq_str]
-                    if (self.use_tpt) and (cand_ent in self.doc2kg) and (idx_seq_str in self.doc2kg[cand_ent]) and (len(self.doc2kg[cand_ent][idx_seq_str])>0):
-                        tpt_str += ', '.join([f'{h} has/is {r} {t}' for h,r,t in self.doc2kg[cand_ent][idx_seq_str][:min(len(self.doc2kg[cand_ent][idx_seq_str]),3)]])
-                        if len(tpt_str)>0:
-                            ctx_str = f'{ctx_str} Relational facts: {tpt_str}.'
-            cand_strs.append(ctx_str)
-            cand_tpts.append(tpt_str)
         
+        if len(cand_ids_lists) > 0:
+            for cand_ids_list in cand_ids_lists:
+                ctx_str = ''
+                tpt_str = ''
+                for cand_id in cand_ids_list:
+                    cand_ent = cand_id
+                    if cand_ent in self.chunks_index:
+                        for idx_seq_str in self.chunks_index[cand_ent]:
+                            ctx_str += self.chunks_index[cand_ent][idx_seq_str]
+                            if (self.use_tpt) and (cand_ent in self.doc2kg) and (idx_seq_str in self.doc2kg[cand_ent]) and (len(self.doc2kg[cand_ent][idx_seq_str])>0):
+                                tpt_str += ', '.join([f'{h} has/is {r} {t}' for h,r,t in self.doc2kg[cand_ent][idx_seq_str][:min(len(self.doc2kg[cand_ent][idx_seq_str]),3)]])
+                                if len(tpt_str)>0:
+                                    ctx_str = f'{ctx_str} Relational facts: {tpt_str}.'
+                cand_strs.append(ctx_str)
+                cand_tpts.append(tpt_str)
+            
         
-        if len(cand_strs)==0:
+        if len(cand_strs)==0 or len(cand_ids_lists)==0:
             scores = self.reranker.compute_score([(query_bundle.query_str,node.node.text) for node in nodes])
             sorted_seqs = sorted(range(len(scores)),key=lambda x:scores[x],reverse=True)
             wanted_nodes = [nodes[sorted_seqs[i]] for i in range(min(self.topk,len(sorted_seqs)))]
             return wanted_nodes
-        
         
         logging.info(">>>>>>> 根据得分reranker")
         wanted_ctxs = []
         scores = self.reranker.compute_score([(query_bundle.query_str,cand_str) for cand_str in cand_strs])
         sorted_seqs = sorted(range(len(scores)),key=lambda x:scores[x],reverse=True)
         
+        logging.info(f"** scores: {scores}")
         logging.info(f"** sorted_seqs: {sorted_seqs}")
         
         for seq in sorted_seqs:
+            logging.info(f"** seq: {seq}")
+            logging.info(f"** set(wanted_ctxs): {set(wanted_ctxs)}")
+            logging.info(f"** set(cand_ids_lists[seq]): {set(cand_ids_lists[seq])}")
             
             if len(set(wanted_ctxs)|set(cand_ids_lists[seq]))>self.topk:
-                logging.info("** len(set(wanted_ctxs)|set(cand_ids_lists[seq])) > self.topk")
+                logging.info(f"** {len(set(wanted_ctxs)|set(cand_ids_lists[seq]))} > self.topk")
                 break
             wanted_ctxs.extend(cand_ids_lists[seq])
             wanted_ctxs = list(set(wanted_ctxs))
 
+        logging.info(f"** wanted_ctxs: {wanted_ctxs}")
+        
         if len(wanted_ctxs)<self.topk//2:
+            # 
             logging.info("**len(wanted_ctxs)<self.topk//2")
             cands = [(query_bundle.query_str,node.node.text,) for node in nodes if node.node.id_ not in wanted_ctxs]
+            
+            # logging.info(f"** cands: {cands}")
+            
             if len(cands)>0:
                 scores = self.reranker.compute_score(cands)
+                
+                logging.info(f"** scores: {scores}")
                 sorted_seqs = sorted(range(len(scores)),key=lambda x:scores[x],reverse=True)
+                logging.info(f"** sorted_seqs: {sorted_seqs}")
+                
                 for seq in sorted_seqs[:self.topk]:
+                    logging.info(f"** seq: {seq}")
+                    logging.info(f"** nodes[seq].node.id_: {nodes[seq].node.id_}")
                     if nodes[seq].node.id_ not in wanted_ctxs:
                         wanted_ctxs.append(nodes[seq].node.id_)
                         if len(wanted_ctxs)>=self.topk:
@@ -629,5 +605,5 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         for node in nodes:
             if node.node.id_ in wanted_ctxs:
                 wanted_nodes.append(node)
-        
+
         return wanted_nodes

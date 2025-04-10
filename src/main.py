@@ -15,9 +15,7 @@ import asyncio
 import threading
 import json
 import logging
-import os
-import re
-import pickle
+from typing import Optional
 from contextlib import asynccontextmanager
 
 # FastAPI Imports
@@ -25,7 +23,6 @@ from fastapi import FastAPI, APIRouter, Depends, HTTPException, Request
 from fastapi.responses import StreamingResponse, JSONResponse
 from pydantic import BaseModel, Field
 import uvicorn
-
 
 
 # --- Logging Setup ---
@@ -45,10 +42,20 @@ class ConfigUpdateRequest(BaseModel):
     api_key: str | None = Field(default=None, description="API key (required only for certain models like Gemini).")
     top_k: int | None = Field(default=5, description="Number of documents to retrieve initially.")
     hops: int | None = Field(default=1, description="Number of hops for KG traversal.")
-    # Add device if you want it configurable via API?
-    # device: str | None = Field(default="cuda:0", description="Computation device (e.g., 'cuda:0', 'cpu').")
 
+class EngineParams(BaseModel):
+    model_type: Optional[str] = None
+    api_key_provided: Optional[bool] = None
+    top_k: Optional[int] = None
+    hops: Optional[int] = None
+    
 
+class EngineStatusResponse(BaseModel):
+    """定义 /api/status 响应的结构"""
+    configured: bool
+    params: Optional[EngineParams] = None # 参数部分是可选的
+    
+    
 # --- Lifespan Event Manager (Adjusted for actual RAGEngine) ---
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -121,14 +128,7 @@ async def get_configured_engine(
     engine: RAGEngine = Depends(get_engine_instance)
 ) -> RAGEngine:
     """Gets the RAGEngine instance and verifies it's configured."""
-    if not engine.get_parameters():
-        logger.warning("Request rejected: RAGEngine is not configured.")
-        raise HTTPException(
-            status_code=409, # Conflict - resource exists but is not in the right state
-            detail="RAG Engine is not configured. Please call POST /api/update_config first."
-        )
     return engine
-
 
 # --- API Router ---
 router = APIRouter(prefix="/api")
@@ -145,29 +145,29 @@ async def query_rag_endpoint(
     logger.info(f"Received API query request for: '{question}'")
 
     async def generate_response_stream():
-        try:
-            # RAGEngine.query is a SYNC generator yielding dicts
-            # We iterate over it synchronously within this async generator
-            for item in rag_engine.query(question):
-                try:
-                    json_data = json.dumps(item)
-                    yield json_data + "\n"
-                    
-                except TypeError as json_err:
-                    # Handle cases where item might not be JSON serializable
-                    logger.error(f"Failed to serialize item to JSON: {item} - Error: {json_err}")
-                    error_msg = {"type": "error", "message": f"Internal error: Could not serialize response chunk. {json_err}"}
-                    yield json.dumps(error_msg)
-
-        except HTTPException:
-            raise
-        except Exception as e:
-            logger.error(f"Error during query stream generation for '{question}': {e}", exc_info=True)
-            error_message = {"type": "error", "message": f"An error occurred during streaming: {str(e)}"}
+        # try:
+            
+        for item in rag_engine.query(question):
             try:
-                yield json.dumps(error_message)
-            except Exception as final_e:
-                logger.error(f"CRITICAL: Could not even send error message via SSE: {final_e}")
+                json_data = json.dumps(item)
+                yield json_data + "\n"
+                
+            except TypeError as json_err:
+                # Handle cases where item might not be JSON serializable
+                logger.error(f"Failed to serialize item to JSON: {item} - Error: {json_err}")
+                error_msg = {"type": "error", "message": f"Internal error: Could not serialize response chunk. {json_err}"}
+                yield json.dumps(error_msg)
+
+        # except HTTPException:
+        #     raise
+        
+        # except Exception as e:
+        #     logger.error(f"Error during query stream generation for '{question}': {e}", exc_info=True)
+        #     error_message = {"type": "error", "message": f"An error occurred during streaming: {str(e)}"}
+        #     try:
+        #         yield json.dumps(error_message)
+        #     except Exception as final_e:
+        #         logger.error(f"CRITICAL: Could not even send error message via SSE: {final_e}")
     return StreamingResponse(generate_response_stream(), media_type='text/event-stream')
 
 
@@ -216,7 +216,7 @@ async def update_engine_config_endpoint(
             status_code=status_code,
             content={
                 "message": message,
-                "new_params": rag_engine.get_parameters() # Get updated params
+                "new_params": rag_engine.get_status()['params'] # Get updated params
             }
         )
     except HTTPException:
@@ -228,39 +228,29 @@ async def update_engine_config_endpoint(
         raise HTTPException(status_code=500, detail="An unexpected error occurred processing the configuration request.")
 
 
-@router.get('/current_params')
-async def get_current_params_endpoint(
-    # Use get_engine_instance as we want params even if unconfigured
-    rag_engine: RAGEngine = Depends(get_engine_instance)
+@app.get(
+    "/api/status",
+    response_model=EngineStatusResponse, # 指定响应模型
+    summary="Get RAG Engine Status",
+    description="Retrieves the current configuration status and parameters of the RAG Engine instance."
+)
+async def get_engine_status(
+    rag_engine: RAGEngine = Depends(get_engine_instance), 
 ):
     """
-    Returns the current parameters of the RAG Engine, indicating if configured.
+    获取 RAGEngine 的当前状态。
+    前端可以在页面加载或刷新时调用此接口。
     """
-    params = rag_engine.get_parameters()
-    return JSONResponse(content=params)
+    status_data = rag_engine.get_status()
+    print(f"Sending status to frontend: {status_data}")
+    # FastAPI 会自动将返回的字典与 Pydantic 模型匹配并转换为 JSON
+    return JSONResponse(status_data) 
 
 
 # --- Include Router ---
 app.include_router(router)
 
-# --- Root Endpoint ---
-@app.get("/")
-async def read_root(request: Request):
-    engine_state = "Not Initialized (Startup Error?)"
-    current_params = {}
-    engine = getattr(request.app.state, 'rag_engine', None)
-    if engine:
-        engine_state = "Initialized, Not Configured"
-        if engine.is_configured():
-            engine_state = "Initialized and Configured"
-        current_params = engine.get_parameters() # Get params regardless of config state
 
-    return {
-        "message": "Welcome to the RAG Engine API",
-        "engine_status": engine_state,
-        "ollama_base_url_used": OLLAMA_BASE_URL,
-        "current_parameters": current_params
-        }
 
 # --- Main Execution ---
 if __name__ == "__main__":
