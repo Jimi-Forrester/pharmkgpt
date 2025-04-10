@@ -10,7 +10,7 @@ def json_to_kg_list(json):
     edges_list = str(json['edges']).replace("'from'", 'from').replace("'to'", 'to').replace("'label'", 'name').replace("'color'", 'colors').replace("'name'", 'name').replace("'title'", 'title').replace("'size'", 'size').replace("'group'", 'group')
     return nodes_list, edges_list
 en_color = {
-    'abstract': {"background": '#5A98D0', "border": '#1B3B6F'},  # 赛博蓝/深海蓝
+    'article': {"background": '#A7CBFC', "border": '#1B3B6F'},  # 赛博蓝/深海蓝
     'chemical': {"background": '#35A29F', "border": '#1F6F78'},  # 青绿/深青蓝
     'disease': {"background": '#FF3864', "border": '#A30052'},  # 霓虹红/暗紫红 (主色)
     'gene': {"background": '#FFCE4F', "border": '#D48C00'},  # 明亮黄/金黄
@@ -143,7 +143,7 @@ def kg_to_visjs(json_input): # 修改函数签名以接收输入
             nodes: {{
                 shape: 'dot',
                 borderWidth: 0,
-                scaling: {{ min: 25, max: 65 }}
+                //scaling: {{ min: 25, max: 65 }}
             }},
             edges: {{
               width: 2,
@@ -167,7 +167,7 @@ def kg_to_visjs(json_input): # 修改函数签名以接收输入
               }}
             }},
             groups: {{
-                    abstract: {{ color:'#5A98D0' }},
+                    article: {{ color:'#A7CBFC' }},
                     chemical: {{ color:'#35A29F' }},
                     disease:  {{ color:'#FF3864' }},
                     gene:     {{ color:'#FFCE4F'}},
@@ -539,7 +539,7 @@ def plot_interactive_hbar():
     # 数据定义 
     cont = {'disease': 7895,
             'gene': 19549,
-            'abstract': 153060,
+            'article': 153060,
             'chemical': 10295,
             'protein': 7062,
             'region': 3419,
