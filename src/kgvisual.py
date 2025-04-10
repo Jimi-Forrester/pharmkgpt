@@ -81,6 +81,77 @@ def scale_entity_size_log(entity_relation_counts):
     return scaled_counts
 
 
+
+def scale_edge_length(head_entity, tail_entity, entity_relation_counts):
+    """
+    根据相连实体的计数值（count）计算边的缩放后长度。
+
+    长度在 [min_length, max_length] 范围内进行线性缩放。
+    缩放基于两个连接实体（头实体或尾实体）中 *较大* 的计数值。
+    用于缩放的输入范围由 entity_relation_counts 中 *所有* 实体的最小和最大计数值确定。
+
+    Args:
+        head_entity (str): 头实体的标识符。
+        tail_entity (str): 尾实体的标识符。
+        entity_relation_counts (dict): 一个字典，键是实体标识符，值是它们关联的计数值
+        （例如，关联的关系数量）。
+
+    Returns:
+        int: 缩放后的边长度，四舍五入到最近的整数，范围在 [min_length, max_length] 内。
+            如果无法确定计数值或所有计数值都相同，则返回中间值。
+    """
+    min_length = 300  # 边的最小长度
+    max_length = 500  # 边的最大长度
+
+    # --- 基本检查 ---
+    if not entity_relation_counts:
+        # 无法确定计数或范围，返回默认的中间长度
+        logging.info("警告: entity_relation_counts 为空。返回默认长度。")
+        return 300
+    all_counts = list(entity_relation_counts.values())
+    if not all_counts:
+        # 如果 entity_relation_counts 不为空但没有值（理论上不太可能），进行安全检查
+        logging.info("警告: entity_relation_counts 有键但没有值？返回默认长度。")
+        return 300
+
+
+    actual_min_count = min(all_counts)
+    actual_max_count = max(all_counts)
+
+    head_count = entity_relation_counts.get(head_entity, 0)
+    tail_count = entity_relation_counts.get(tail_entity, 0)
+
+    # 边的长度取决于具有 *较大* 计数的实体
+    relevant_count = max(head_count, tail_count)
+
+    # --- 处理缩放 ---
+    output_range = float(max_length - min_length) 
+    input_range = float(actual_max_count - actual_min_count) # 输入范围
+
+    # 处理所有原始实体计数值都相同的情况
+    if input_range == 0:
+        # 如果所有实体的计数都相同，则所有边的长度应相同
+        # 返回中间长度
+        return 300
+
+    # --- 执行线性缩放 ---
+    clamped_count = max(actual_min_count, min(relevant_count, actual_max_count))
+
+    # 计算输入范围内的比例
+    fraction = (float(clamped_count) - actual_min_count) / input_range
+
+    # 再次确保 fraction 在 [0.0, 1.0] 范围内 (防御性编程)
+    fraction = max(0.0, min(fraction, 1.0))
+
+    # 计算缩放后的长度（浮点数）
+    scaled_length_float = min_length + fraction * output_range
+
+    # 返回四舍五入后的整数值
+    return int(round(scaled_length_float))
+
+
+
+
 def format_dict_to_html_br(input_dict: Dict) -> str:
     """
     将字典转换为带有 HTML 换行符 (<br>) 的字符串。
@@ -146,7 +217,7 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                     "id": entities_dict[en.name]["id"], 
                     "label": entity.name, 
                     "color": entity.color,
-                    "title": format_dict_to_html_br(en_title)
+                    "title": format_dict_to_html_br(en_title),
                     }
                 
         
@@ -161,21 +232,30 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                     "to": entities_dict[rel.endEntity.name]["id"],
                     "label": rel.name,
                     "title": format_dict_to_html_br(re_title),
-                    # "length": 300 
+                    "length": 300 
                 })
             
             # 计算每个实体连接的关系的数量
             entity_relation_counts[rel.startEntity.name] = entity_relation_counts.get(rel.startEntity.name,0) + 1
             entity_relation_counts[rel.endEntity.name] = entity_relation_counts.get(rel.endEntity.name, 0) + 1
         
-
     entity_relation_counts = scale_entity_size_log(entity_relation_counts)
     for en_name, _ in entities_dict.items():
         if en_name in entity_relation_counts:
             entities_dict[en_name]["size"] = entity_relation_counts[en_name]
         else:
             entities_dict[en_name]["size"] = 25
-                
+    
+    # 计算边的长度
+    relations_list_length = []
+    for re in relations_list:
+        re["length"] = scale_edge_length(
+            relations_list["from"], 
+            relations_list["to"], 
+            entity_relation_counts
+            )
+        relations_list_length.append(re)
+    
     output_kg = {
         'nodes': list(entities_dict.values()),
         'edges': relations_list
