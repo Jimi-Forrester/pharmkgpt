@@ -13,7 +13,7 @@ def ui():
     with open(f"{base_dir}/gradio.css", "r", encoding="utf-8") as f:
         custom_css = f.read()
     icon = """<link rel="icon" type="image/png" href="/file=src/ui/PharmKGPT.png">"""
-    with gr.Blocks(theme=Kotaemon(text_size="lg").set(body_background_fill='white',background_fill_primary='white'),title="PharmKGPT", css=custom_css, fill_width=True, head=icon) as demo:
+    with gr.Blocks(theme=Kotaemon(text_size="lg").set(body_background_fill='white',background_fill_primary='white', section_header_text_weight=700),title="PharmKGPT", css=custom_css, fill_width=True, head=icon) as demo:
     # with gr.Tab("KG2RAG",elem_id="chat-tab"):
         with gr.Row():
             # 左侧设置面板 
@@ -69,15 +69,23 @@ def ui():
                         "### Waiting for model parameters to be set...",
                         visible=False, 
                     )
-                with gr.Accordion(label="Entity counter", open=True) as entity_counter:
+                with gr.Accordion(label="Entity Statistics", open=True) as entity_counter:
                     with gr.Row():
                         plot = gr.Plot(show_label=False)
-                with gr.Accordion(label="Hint", open=True):
+                with gr.Accordion(label="Highlight", open=True):
+                    gr.Markdown("""                      
+                        * ✨ **Accurate Answering**: Reliable, source-backed responses specifically addressing Delirium & AD inquiries.
+                        * ✨ **Explore Complex Relationships**: Visualize links across disease concepts, proteomics, metabolomics, genetics and pathways using our knowledge graph.
+                        * ✨ **Efficient Information Synthesis**: Rapidly extract key insights and data from extensive research literature.
+                        """
+                    )
+                with gr.Accordion(label="Announcement", open=True):
                     gr.Markdown(
                             """
-                        - Data updated through *March 2025*.
-                        - Click the **Set parameters** button to set model parameters before chat.
-                        - Try to ask questions like: How does kynurenic acid contribute to delirium?
+                    * 📚 **Knowledge Base Update**: Delirium & Alzheimer's literature updated through March 2025.
+                    * 🗣️ **Example**: How does kynurenic acid contribute to delirium?
+                    * 💡 **Tip**: Search results might be better when *Max Retrieved* is set to 5 or less.
+                    * ❓ **Feedback Welcome**: Please share your thoughts or report any issues to mindrank@mindrank.ai.
                     """  
                         )
                     
