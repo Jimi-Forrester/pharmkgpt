@@ -82,6 +82,104 @@ def detect_all_entity_name(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
     return keyword_dict
 
 
+def highlight_segments_prioritized(output_abstract, keyword_dict):
+    """
+    Highlights keywords in abstract texts, robustly prioritizing longer keywords
+    over shorter ones when they overlap (e.g., 'kynurenine pathway' vs 'kynurenine').
+    Avoids nested highlighting.
+
+    Args:
+        output_abstract (dict): A dictionary where keys are source identifiers
+                                and values are dicts containing an 'abstract' string.
+                                Example: {'source1': {'abstract': 'Text here...'}, ...}
+        keyword_dict (dict): A dictionary mapping keywords to their group/class.
+                             Example: {'kynurenine pathway': 'pathway', 'kynurenine': 'chemical'}
+
+    Returns:
+        dict: The modified output_abstract dictionary with keywords highlighted correctly.
+    """
+    # Process each source abstract individually
+    for source, data in output_abstract.items():
+        original_text = data['abstract']
+        
+        # 1. Find all potential matches with their positions and info for ALL keywords
+        all_potential_matches = []
+        logging.debug(f"--- Processing source: {source} ---")
+        for keyword, group in keyword_dict.items():
+            if len(keyword) <= 1:
+                continue
+            try:
+                pattern = re.compile(rf'\b({re.escape(keyword)})\b', re.IGNORECASE)
+                for match in pattern.finditer(original_text):
+                    match_info = {
+                        'start': match.start(1), # Start index of the matched keyword
+                        'end': match.end(1),     # End index of the matched keyword
+                        'keyword': match.group(1), # The actual matched string (original case)
+                        'group': group,
+                        'length': len(match.group(1)) # Length of the keyword
+                    }
+                    all_potential_matches.append(match_info)
+                    logging.debug(f"Found potential match: {match_info}")
+            except re.error as e:
+                logging.error(f"Regex error for keyword '{keyword}' in source '{source}': {e}")
+                continue
+
+        if not all_potential_matches:
+            logging.debug(f"No potential matches found in {source}")
+            continue # No keywords found in this abstract
+
+        sorted_matches = sorted(all_potential_matches, key=lambda x: (-x['length'], x['start']))
+        logging.debug(f"\nSorted potential matches for {source}:")
+        for m in sorted_matches: logging.debug(m)
+
+
+        selected_matches = []
+        # Keep track of character indices that are already covered by a selected (longer) match
+        covered_indices = set()
+
+        logging.debug(f"\nFiltering overlaps for {source}:")
+        for match in sorted_matches:
+            match_indices = set(range(match['start'], match['end']))
+            if not match_indices.intersection(covered_indices):
+                selected_matches.append(match)
+                covered_indices.update(match_indices)
+                logging.debug(f"  -> Selecting match: {match}")
+                logging.debug(f"     Covered indices now: {covered_indices}")
+            else:
+                logging.debug(f"  -> Discarding match (overlaps with selected longer): {match}")
+
+        selected_matches.sort(key=lambda x: x['start'])
+        logging.debug(f"\nFinal selected matches for highlighting (sorted by start):")
+        for m in selected_matches: logging.debug(m)
+
+
+        highlighted_parts = []
+        last_end = 0
+        for match in selected_matches:
+            # Append text before the current match
+            highlighted_parts.append(original_text[last_end:match['start']])
+            # Append the highlighted keyword
+            highlighted_parts.append(f'<mark class="{match["group"]}">{match["keyword"]}</mark>')
+            # Update the position after the current match
+            last_end = match['end']
+
+        # Append any remaining text after the last match
+        highlighted_parts.append(original_text[last_end:])
+
+        # Join the parts to form the final highlighted abstract
+        final_highlighted_text = "".join(highlighted_parts)
+
+        if final_highlighted_text != original_text:
+             logging.info(f"在 '{source}' 中完成高亮处理 (长优先, 无重叠)")
+             output_abstract[source]['abstract'] = final_highlighted_text
+        else:
+             logging.debug(f"No changes made to {source} after highlighting logic.")
+        logging.debug(f"--- Finished processing source: {source} ---\n")
+
+
+    return output_abstract
+
+
 def highlight_segments(output_abstract, keyword_dict):
     """_summary_
 
@@ -192,3 +290,14 @@ def hallucination_test(llm_model, input_data):
         logging.error("Original OutputParserException: %s", e)
         pass
     
+def format_scientific_text_with_colon(text):
+    # List of keywords to check
+    keywords = ["BACKGROUND", "METHODS", "RESULTS", "CONCLUSION"]
+    pattern = r"(" + "|".join(keywords) + r")(?=[A-Z])"
+
+    def replace_func(m):
+        return m.group(1) + ": "
+
+    formatted_text = re.sub(pattern, replace_func, text)
+
+    return formatted_text

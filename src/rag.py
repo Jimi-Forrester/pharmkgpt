@@ -33,9 +33,8 @@ from config import (
     )
 
 from src.kgvisual import kg_visualization
-from src.hightlight import detect_all_entity_name, format_docs, highlight_segments, hallucination_test
-
-
+from src.hightlight import detect_all_entity_name, format_docs, highlight_segments_prioritized, hallucination_test
+from src.hightlight import format_scientific_text_with_colon 
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
@@ -258,6 +257,9 @@ class RAGEngine:
     def entity_dict(self,pmid_list):
         return detect_all_entity_name(pmid_list, self.kg_dict)
     
+    def format_context(self, context):
+        return format_scientific_text_with_colon(context)
+    
     def _query(self, question):
         """执行查询"""
         if self.engine is None:
@@ -317,6 +319,8 @@ class RAGEngine:
                     text_line = f.readlines()
                     title = self._remove_brackets(text_line[0].strip().split("|")[-1])
                     abstract = text_line[1].strip().split("|")[-1]
+                    if 'BACKGROUND' in abstract:
+                        abstract = self.format_context(abstract)
                 context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
             
             yield {"type": "progress", "message": "Knowledge Retrieved.\nVerifying Facts"}
@@ -366,7 +370,7 @@ class RAGEngine:
             try:
                 HighlightDocuments_dict = self.entity_dict(sps)
 
-                context_ = highlight_segments(
+                context_ = highlight_segments_prioritized(
                     context, HighlightDocuments_dict
                 )
             except:
