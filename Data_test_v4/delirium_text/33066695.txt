@@ -1,0 +1,32 @@
+33066695|t|Computational SNP Analysis and Molecular Simulation Revealed the Most Deleterious Missense Variants in the NBD1 Domain of Human ABCA1 Transporter.
+33066695|a|The ATP-binding cassette transporter A1 (ABCA1) is a membrane-bound exporter protein involved in regulating serum HDL level by exporting cholesterol and phospholipids to load up in lipid-poor ApoA-I and ApoE, which allows the formation of nascent HDL. Mutations in the ABCA1 gene, when presents in both alleles, disrupt the canonical function of ABCA1, which associates with many disorders related to lipid transport. Although many studies have reported the phenotypic effects of a large number of ABCA1 variants, the pathological effect of non-synonymous polymorphisms (nsSNPs) in ABCA1 remains elusive. Therefore, aiming at exploring the structural and functional consequences of nsSNPs in ABCA1, in this study, we employed an integrated computational approach consisting of nine well-known in silico tools to identify damaging SNPs and molecular dynamics (MD) simulation to get insights into the magnitudes of the damaging effects. In silico tools revealed four nsSNPs as being most deleterious, where the two SNPs (G1050V and S1067C) are identified as the highly conserved and functional disrupting mutations located in the NBD1 domain. MD simulation suggested that both SNPs, G1050V and S1067C, changed the overall structural flexibility and dynamics of NBD1, and induced substantial alteration in the structural organization of ATP binding site. Taken together, these findings direct future studies to get more insights into the role of these variants in the loss of the ABCA1 function.
+33066695	122	127	Human	Species	9606
+33066695	128	133	ABCA1	Gene	19
+33066695	151	186	ATP-binding cassette transporter A1	Gene	19
+33066695	188	193	ABCA1	Gene	19
+33066695	284	295	cholesterol	Chemical	MESH:D002784
+33066695	300	313	phospholipids	Chemical	MESH:D010743
+33066695	328	333	lipid	Chemical	MESH:D008055
+33066695	339	345	ApoA-I	Gene	335
+33066695	350	354	ApoE	Gene	348
+33066695	416	421	ABCA1	Gene	19
+33066695	493	498	ABCA1	Gene	19
+33066695	548	553	lipid	Chemical	MESH:D008055
+33066695	645	650	ABCA1	Gene	19
+33066695	729	734	ABCA1	Gene	19
+33066695	839	844	ABCA1	Gene	19
+33066695	1166	1172	G1050V	ProteinMutation	tmVar:p|SUB|G|1050|V;HGVS:p.G1050V;VariantGroup:0;CorrespondingGene:19;RS#:985622413;CorrespondingSpecies:9606
+33066695	1177	1183	S1067C	ProteinMutation	tmVar:p|SUB|S|1067|C;HGVS:p.S1067C;VariantGroup:1;CorrespondingGene:19;RS#:1394779021;CorrespondingSpecies:9606
+33066695	1328	1334	G1050V	ProteinMutation	tmVar:p|SUB|G|1050|V;HGVS:p.G1050V;VariantGroup:0;CorrespondingGene:19;RS#:985622413;CorrespondingSpecies:9606
+33066695	1339	1345	S1067C	ProteinMutation	tmVar:p|SUB|S|1067|C;HGVS:p.S1067C;VariantGroup:1;CorrespondingGene:19;RS#:1394779021;CorrespondingSpecies:9606
+33066695	1481	1484	ATP	Chemical	MESH:D000255
+33066695	1624	1629	ABCA1	Gene	19
+33066695	Association	MESH:D000255	RS#:1394779021;HGVS:p.S1067C;CorrespondingGene:19
+33066695	Association	19	348
+33066695	Association	MESH:D000255	RS#:985622413;HGVS:p.G1050V;CorrespondingGene:19
+33066695	Association	MESH:D008055	19
+33066695	Association	MESH:D002784	348
+33066695	Association	MESH:D010743	348
+33066695	Association	MESH:D002784	MESH:D008055
+33066695	Association	MESH:D008055	MESH:D010743
+

@@ -1,0 +1,41 @@
+19808960|t|Apolipoprotein E/C1 locus variants modify renal cell carcinoma risk.
+19808960|a|Lipid peroxidation is considered a unifying mechanistic pathway through which known risk factors induce renal cell carcinoma (RCC). We hypothesized that genes selected a priori for their role in lipid peroxidation would modify cancer risk. We genotyped 635 single nucleotide polymorphisms (SNP) in 38candidate genes in 777 Caucasian RCC cases and 1,035 controls enrolled in a large European case-control study. Top candidate SNPs were confirmed among 718 Caucasian cases and 615 controls in a second study in the United States. Two of the three SNPs (rs8106822 and rs405509) that replicated in the U.S. study were within a regulatory region of the APOE promoter. The OR for rs8106822 A>G variant was 1.22(AG) and 1.41(GG) (P(trend) = 0.01) in the European study, 1.05(AG) and 1.51(GG) (P(trend) = 0.03) in the U.S. study, and 1.15(AG) and 1.44(GG) (P(trend) = 0.001) among 1,485 cases and 1,639 controls combined. The rs405509 G>T variant was associated with risk in the European (OR, 0.87(TG); OR, 0.71(TT); P(trend) = 0.02), the U.S. (OR, 0.68(TG); OR, 0.71(TT); P(trend) = 0.02), and both studies combined (OR(TG), 0.79; OR(TT), 0.71; P(trend) = 0.001), as was the G-G haplotype (r(2) = 0.64; P= 4.7 x 10(-4)). This association is biologically plausible as SNP rs405509 was shown to modify protein binding and transcriptional activity of the APOE protein in vitro and is in linkage disequilibrium with key known variants defining the e2, e3, and e4 alleles that modify risk of atherosclerosis, Alzheimer's disease risk, and progression to AIDS. In two large case-control studies, our findings further define a functional region of interest at the APOE locus that increases RCC susceptibility.
+19808960	42	62	renal cell carcinoma	Disease	MESH:D002292
+19808960	69	74	Lipid	Chemical	MESH:D008055
+19808960	173	193	renal cell carcinoma	Disease	MESH:D002292
+19808960	195	198	RCC	Disease	MESH:D002292
+19808960	264	269	lipid	Chemical	MESH:D008055
+19808960	296	302	cancer	Disease	MESH:D009369
+19808960	402	405	RCC	Disease	MESH:D002292
+19808960	620	629	rs8106822	SNP	tmVar:rs8106822;VariantGroup:1;RS#:8106822
+19808960	634	642	rs405509	SNP	tmVar:rs405509;VariantGroup:0;CorrespondingGene:348;RS#:405509;CorrespondingSpecies:9606
+19808960	717	721	APOE	Gene	348
+19808960	743	752	rs8106822	SNP	tmVar:rs8106822;VariantGroup:1;RS#:8106822
+19808960	753	756	A>G	DNAMutation	tmVar:c|SUB|A||G;VariantGroup:2;CorrespondingGene:348;CorrespondingSpecies:9606
+19808960	987	995	rs405509	SNP	tmVar:rs405509;VariantGroup:0;CorrespondingGene:348;RS#:405509;CorrespondingSpecies:9606
+19808960	996	999	G>T	DNAMutation	tmVar:c|SUB|G||T;VariantGroup:3;CorrespondingGene:348;CorrespondingSpecies:9606
+19808960	1333	1341	rs405509	SNP	tmVar:rs405509;VariantGroup:0;CorrespondingGene:348;RS#:405509;CorrespondingSpecies:9606
+19808960	1414	1418	APOE	Gene	348
+19808960	1549	1564	atherosclerosis	Disease	MESH:D050197
+19808960	1566	1585	Alzheimer's disease	Disease	MESH:D000544
+19808960	1611	1615	AIDS	Disease	MESH:D000163
+19808960	1719	1723	APOE	Gene	348
+19808960	1745	1748	RCC	Disease	MESH:D002292
+19808960	Association	MESH:D000544	RS#:405509;CorrespondingGene:348
+19808960	Association	MESH:D000163	RS#:405509;CorrespondingGene:348
+19808960	Association	MESH:D050197	RS#:405509;CorrespondingGene:348
+19808960	Association	MESH:D002292	348
+19808960	Association	MESH:D000544	348
+19808960	Positive_Correlation	MESH:D002292	RS#:8106822
+19808960	Positive_Correlation	MESH:D002292	RS#:405509;CorrespondingGene:348
+19808960	Positive_Correlation	MESH:D008055	MESH:D002292
+19808960	Positive_Correlation	CorrespondingGene:348;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c	MESH:D002292
+19808960	Association	MESH:D050197	348
+19808960	Association	MESH:D000163	348
+19808960	Positive_Correlation	CorrespondingGene:348;CorrespondingSpecies:9606;VariantGroup:2;tmVar:c	MESH:D002292
+19808960	Association	MESH:D008055	MESH:D009369
+19808960	Association	MESH:D000544	348
+19808960	Association	MESH:D000163	348
+19808960	Association	MESH:D050197	348
+19808960	Association	MESH:D002292	348
+

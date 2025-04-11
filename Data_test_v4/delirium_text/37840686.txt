@@ -1,0 +1,17 @@
+37840686|t|Understanding the performance and reliability of NLP tools: a comparison of four NLP tools predicting stroke phenotypes in radiology reports.
+37840686|a|Background: Natural language processing (NLP) has the potential to automate the reading of radiology reports, but there is a need to demonstrate that NLP methods are adaptable and reliable for use in real-world clinical applications. Methods: We tested the F1 score, precision, and recall to compare NLP tools on a cohort from a study on delirium using images and radiology reports from NHS Fife and a population-based cohort (Generation Scotland) that spans multiple National Health Service health boards. We compared four off-the-shelf rule-based and neural NLP tools (namely, EdIE-R, ALARM+, ESPRESSO, and Sem-EHR) and reported on their performance for three cerebrovascular phenotypes, namely, ischaemic stroke, small vessel disease (SVD), and atrophy. Clinical experts from the EdIE-R team defined phenotypes using labelling techniques developed in the development of EdIE-R, in conjunction with an expert researcher who read underlying images. Results: EdIE-R obtained the highest F1 score in both cohorts for ischaemic stroke, >=93%, followed by ALARM+, >=87%. The F1 score of ESPRESSO was >=74%, whilst that of Sem-EHR is >=66%, although ESPRESSO had the highest precision in both cohorts, 90% and 98%. For F1 scores for SVD, EdIE-R scored >=98% and ALARM+ >=90%. ESPRESSO scored lowest with >=77% and Sem-EHR >=81%. In NHS Fife, F1 scores for atrophy by EdIE-R and ALARM+ were 99%, dropping in Generation Scotland to 96% for EdIE-R and 91% for ALARM+. Sem-EHR performed lowest for atrophy at 89% in NHS Fife and 73% in Generation Scotland. When comparing NLP tool output with brain image reads using F1 scores, ALARM+ scored 80%, outperforming EdIE-R at 66% in ischaemic stroke. For SVD, EdIE-R performed best, scoring 84%, with Sem-EHR 82%. For atrophy, EdIE-R and both ALARM+ versions were comparable at 80%. Conclusions: The four NLP tools show varying F1 (and precision/recall) scores across all three phenotypes, although more apparent for ischaemic stroke. If NLP tools are to be used in clinical settings, this cannot be performed "out of the box." It is essential to understand the context of their development to assess whether they are suitable for the task at hand or whether further training, re-training, or modification is required to adapt tools to the target task.
+37840686	102	108	stroke	Disease	MESH:D020521
+37840686	480	488	delirium	Disease	MESH:D003693
+37840686	840	856	ischaemic stroke	Disease	MESH:D002544
+37840686	858	878	small vessel disease	Disease	MESH:D059345
+37840686	880	883	SVD	Disease	MESH:D059345
+37840686	890	897	atrophy	Disease	MESH:D001284
+37840686	1158	1174	ischaemic stroke	Disease	MESH:D002544
+37840686	1371	1374	SVD	Disease	MESH:D059345
+37840686	1494	1501	atrophy	Disease	MESH:D001284
+37840686	1632	1639	atrophy	Disease	MESH:D001284
+37840686	1812	1828	ischaemic stroke	Disease	MESH:D002544
+37840686	1834	1837	SVD	Disease	MESH:D059345
+37840686	1897	1904	atrophy	Disease	MESH:D001284
+37840686	2096	2112	ischaemic stroke	Disease	MESH:D002544
+

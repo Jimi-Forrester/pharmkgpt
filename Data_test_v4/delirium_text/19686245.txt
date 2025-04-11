@@ -1,0 +1,45 @@
+19686245|t|Protein phosphatase 5 protects neurons against amyloid-beta toxicity.
+19686245|a|Amyloid-beta (Abeta) is thought to promote neuronal cell loss in Alzheimer's disease, in part through the generation of reactive oxygen species (ROS) and subsequent activation of mitogen-activated protein kinase (MAPK) pathways. Protein phosphatase 5 (PP5) is a ubiquitously expressed serine/threonine phosphatase which has been implicated in several cell stress response pathways and shown to inactivate MAPK pathways through key dephosphorylation events. Therefore, we examined whether PP5 protects dissociated embryonic rat cortical neurons in vitro from cell death evoked by Abeta. As predicted, neurons in which PP5 expression was decreased by small-interfering RNA treatment were more susceptible to Abeta toxicity. In contrast, over-expression of PP5, but not the inactive mutant, PP5(H304Q), prevented MAPK phosphorylation and neurotoxicity induced by Abeta. PP5 also prevented cell death caused by direct treatment with H(2)O(2), but did not prevent Abeta-induced production of ROS. Thus, the neuroprotective effect of PP5 requires its phosphatase activity and lies downstream of Abeta-induced generation of ROS. In summary, our data indicate that PP5 plays a pivotal neuroprotective role against cell death induced by Abeta and oxidative stress. Consequently, PP5 might be an effective therapeutic target in Alzheimer's disease and other neurodegenerative disorders in which oxidative stress is implicated.
+19686245	0	21	Protein phosphatase 5	Gene	65179
+19686245	84	89	Abeta	Gene	54226
+19686245	135	154	Alzheimer's disease	Disease	MESH:D000544
+19686245	190	213	reactive oxygen species	Chemical	MESH:D017382
+19686245	215	218	ROS	Chemical	MESH:D017382
+19686245	299	320	Protein phosphatase 5	Gene	65179
+19686245	322	325	PP5	Gene	65179
+19686245	355	371	serine/threonine	ProteinMutation	tmVar:p|SUB|S||T;VariantGroup:1;OriginalGene:65179;CorrespondingGene:5536;CorrespondingSpecies:10116
+19686245	558	561	PP5	Gene	65179
+19686245	593	596	rat	Species	10116
+19686245	649	654	Abeta	Gene	54226
+19686245	687	690	PP5	Gene	65179
+19686245	776	781	Abeta	Gene	54226
+19686245	782	790	toxicity	Disease	MESH:D064420
+19686245	824	827	PP5	Gene	65179
+19686245	858	861	PP5	Gene	65179
+19686245	862	867	H304Q	ProteinMutation	tmVar:p|SUB|H|304|Q;HGVS:p.H304Q;VariantGroup:0;OriginalGene:65179;CorrespondingGene:5536;RS#:375447747;CorrespondingSpecies:10116;CA#:9528188
+19686245	905	918	neurotoxicity	Disease	MESH:D020258
+19686245	930	935	Abeta	Gene	54226
+19686245	937	940	PP5	Gene	65179
+19686245	999	1007	H(2)O(2)	Chemical	MESH:D006861
+19686245	1029	1034	Abeta	Gene	54226
+19686245	1057	1060	ROS	Chemical	MESH:D017382
+19686245	1098	1101	PP5	Gene	65179
+19686245	1159	1164	Abeta	Gene	54226
+19686245	1187	1190	ROS	Chemical	MESH:D017382
+19686245	1227	1230	PP5	Gene	65179
+19686245	1298	1303	Abeta	Gene	54226
+19686245	1340	1343	PP5	Gene	65179
+19686245	1388	1407	Alzheimer's disease	Disease	MESH:D000544
+19686245	1418	1445	neurodegenerative disorders	Disease	MESH:D019636
+19686245	Association	MESH:D000544	54226
+19686245	Association	MESH:D006861	65179
+19686245	Positive_Correlation	MESH:D017382	54226
+19686245	Association	MESH:D017382	65179
+19686245	Association	MESH:D019636	65179
+19686245	Association	MESH:D064420	54226
+19686245	Positive_Correlation	MESH:D020258	54226
+19686245	Negative_Correlation	54226	65179
+19686245	Positive_Correlation	MESH:D017382	MESH:D000544
+19686245	Negative_Correlation	MESH:D020258	65179
+19686245	Association	MESH:D000544	65179
+

@@ -1,0 +1,21 @@
+36204651|t|Comparison of Intracellular Transcriptional Response of NHBE Cells to Infection with SARS-CoV-2 Washington and New York Strains.
+36204651|a|Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) was first reported in Wuhan, China in December 2019 and caused a global pandemic resulting in millions of deaths and tens of millions of patients positive tests. While studies have shown a D614G mutation in the viral spike protein are more transmissible, the effects of this and other mutations on the host response, especially at the cellular level, are yet to be fully elucidated. In this experiment we infected normal human bronchial epithelial (NHBE) cells with the Washington (D614) strain or the New York (G614) strains of SARS-CoV-2. We generated RNA sequencing data at 6, 12, and 24 hours post-infection (hpi) to improve our understanding of how the intracellular host response differs between infections with these two strains. We analyzed these data with a bioinformatics pipeline that identifies differentially expressed genes (DEGs), enriched Gene Ontology (GO) terms and dysregulated signaling pathways. We detected over 2,000 DEGs, over 600 GO terms, and 29 affected pathways between the two infections. Many of these entities play a role in immune signaling and response. A comparison between strains and time points showed a higher similarity between matched time points than across different time points with the same strain in DEGs and affected pathways, but found more similarity between strains across different time points when looking at GO terms. A comparison of the affected pathways showed that the 24hpi samples of the New York strain were more similar to the 12hpi samples of the Washington strain, with a large number of pathways related to translation being inhibited in both strains. These results suggest that the various mutations contained in the genome of these two viral isolates may cause distinct effects on the host transcriptional response in infected host cells, especially relating to how quickly translation is dysregulated after infection. This comparison of the intracellular host response to infection with these two SARS-CoV-2 isolates suggest that some of the mechanisms associated with more severe disease from these viruses could include virus replication, metal ion usage, host translation shutoff, host transcript stability, and immune inhibition.
+36204651	56	60	NHBE	CellLine	CVCL:0287
+36204651	70	79	Infection	Disease	MESH:D007239
+36204651	85	95	SARS-CoV-2	Species	2697049
+36204651	129	176	Severe acute respiratory syndrome coronavirus 2	Species	2697049
+36204651	178	188	SARS-CoV-2	Species	2697049
+36204651	296	302	deaths	Disease	MESH:D003643
+36204651	327	335	patients	Species	9606
+36204651	379	384	D614G	ProteinMutation	tmVar:p|SUB|D|614|G;HGVS:p.D614G;VariantGroup:0;CorrespondingGene:43740568;CorrespondingSpecies:2697049
+36204651	611	616	human	Species	9606
+36204651	639	643	NHBE	CellLine	CVCL:0287
+36204651	672	676	D614	ProteinMutation	tmVar:p|Allele|D|614;VariantGroup:0;CorrespondingGene:43740568;CorrespondingSpecies:2697049
+36204651	702	706	G614	ProteinMutation	tmVar:c|Allele|G|614;VariantGroup:0;CorrespondingGene:43740568;CorrespondingSpecies:2697049
+36204651	719	729	SARS-CoV-2	Species	2697049
+36204651	792	801	infection	Disease	MESH:D007239
+36204651	2062	2071	infection	Disease	MESH:D007239
+36204651	2127	2136	infection	Disease	MESH:D007239
+36204651	2152	2162	SARS-CoV-2	Species	2697049
+36204651	2296	2301	metal	Chemical	MESH:D008670
+

@@ -1,0 +1,79 @@
+32051249|t|Sulfhydration of AKT triggers Tau-phosphorylation by activating glycogen synthase kinase 3beta in Alzheimer's disease.
+32051249|a|In Alzheimer's disease (AD), human Tau is phosphorylated at S199 (hTau-S199-P) by the protein kinase glycogen synthase kinase 3beta (GSK3beta). HTau-S199-P mislocalizes to dendritic spines, which induces synaptic dysfunction at the early stage of AD. The AKT kinase, once phosphorylated, inhibits GSK3beta by phosphorylating it at S9. In AD patients, the abundance of phosphorylated AKT with active GSK3beta implies that phosphorylated AKT was unable to inactivate GSK3beta. However, the underlying mechanism of the inability of phosphorylated AKT to phosphorylate GSK3beta remains unknown. Here, we show that total AKT and phosphorylated AKT was sulfhydrated at C77 due to the induction of intracellular hydrogen sulfide (H2S). The increase in intracellular H2S levels resulted from the induction of the proinflammatory cytokine, IL-1beta, which is a pathological hallmark of AD. Sulfhydrated AKT does not interact with GSK3beta, and therefore does not phosphorylate GSK3beta. Thus, active GSK3beta phosphorylates Tau aberrantly. In a transgenic knockin mouse (AKT-KI+/+) that lacked sulfhydrated AKT, the interaction between AKT or phospho-AKT with GSK3beta was restored, and GSK3beta became phosphorylated. In AKT-KI+/+ mice, expressing the pathogenic human Tau mutant (hTau-P301L), the hTau S199 phosphorylation was ameliorated as GSK3beta phosphorylation was regained. This event leads to a decrease in dendritic spine loss by reducing dendritic localization of hTau-S199-P, which improves cognitive dysfunctions. Sulfhydration of AKT was detected in the postmortem brains from AD patients; thus, it represents a posttranslational modification of AKT, which primarily contributes to synaptic dysfunction in AD.
+32051249	17	20	AKT	Gene	207
+32051249	30	33	Tau	Gene	4137
+32051249	64	94	glycogen synthase kinase 3beta	Gene	56637
+32051249	98	117	Alzheimer's disease	Disease	MESH:D000544
+32051249	122	141	Alzheimer's disease	Disease	MESH:D000544
+32051249	143	145	AD	Disease	MESH:D000544
+32051249	148	153	human	Species	9606
+32051249	154	157	Tau	Gene	4137
+32051249	179	183	S199	ProteinMutation	tmVar:p|Allele|S|199;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+32051249	190	196	S199-P	ProteinMutation	tmVar:p|SUB|S|199|P;HGVS:p.S199P;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+32051249	220	250	glycogen synthase kinase 3beta	Gene	2932
+32051249	252	260	GSK3beta	Gene	2932
+32051249	323	343	synaptic dysfunction	Disease	MESH:C536122
+32051249	366	368	AD	Disease	MESH:D000544
+32051249	374	377	AKT	Gene	207
+32051249	416	424	GSK3beta	Gene	2932
+32051249	457	459	AD	Disease	MESH:D000544
+32051249	460	468	patients	Species	9606
+32051249	502	505	AKT	Gene	207
+32051249	518	526	GSK3beta	Gene	2932
+32051249	555	558	AKT	Gene	207
+32051249	584	592	GSK3beta	Gene	2932
+32051249	663	666	AKT	Gene	207
+32051249	684	692	GSK3beta	Gene	2932
+32051249	735	738	AKT	Gene	207
+32051249	758	761	AKT	Gene	207
+32051249	824	840	hydrogen sulfide	Chemical	MESH:D006862
+32051249	842	845	H2S	Chemical	MESH:D006862
+32051249	878	881	H2S	Chemical	MESH:D006862
+32051249	924	939	proinflammatory	Disease	
+32051249	950	958	IL-1beta	Gene	3553
+32051249	996	998	AD	Disease	MESH:D000544
+32051249	1013	1016	AKT	Gene	207
+32051249	1040	1048	GSK3beta	Gene	56637
+32051249	1087	1095	GSK3beta	Gene	56637
+32051249	1110	1118	GSK3beta	Gene	2932
+32051249	1134	1137	Tau	Gene	4137
+32051249	1174	1179	mouse	Species	10090
+32051249	1181	1184	AKT	Gene	11651
+32051249	1217	1220	AKT	Gene	11651
+32051249	1246	1249	AKT	Gene	11651
+32051249	1261	1264	AKT	Gene	11651
+32051249	1270	1278	GSK3beta	Gene	56637
+32051249	1297	1305	GSK3beta	Gene	56637
+32051249	1332	1335	AKT	Gene	11651
+32051249	1342	1346	mice	Species	10090
+32051249	1374	1379	human	Species	9606
+32051249	1380	1383	Tau	Gene	4137
+32051249	1397	1402	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:1;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+32051249	1414	1418	S199	ProteinMutation	tmVar:p|Allele|S|199;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+32051249	1454	1462	GSK3beta	Gene	56637
+32051249	1614	1636	cognitive dysfunctions	Disease	MESH:D003072
+32051249	1655	1658	AKT	Gene	207
+32051249	1702	1704	AD	Disease	MESH:D000544
+32051249	1705	1713	patients	Species	9606
+32051249	1771	1774	AKT	Gene	207
+32051249	1807	1827	synaptic dysfunction	Disease	MESH:C536122
+32051249	1831	1833	AD	Disease	MESH:D000544
+32051249	Association	MESH:D000544	CorrespondingGene:4137;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+32051249	Association	2932	4137
+32051249	Association	MESH:D000544	207
+32051249	Association	MESH:D000544	56637
+32051249	Association	MESH:D000544	3553
+32051249	Association	MESH:D000544	HGVS:p.S199P;CorrespondingGene:4137
+32051249	Association	MESH:C536122	207
+32051249	Association	207	4137
+32051249	Negative_Correlation	207	2932
+32051249	Association	11651	56637
+32051249	Association	4137	56637
+32051249	Association	MESH:D000544	4137
+32051249	Positive_Correlation	MESH:D006862	3553
+32051249	Positive_Correlation	207	56637
+32051249	Association	MESH:D000544	2932
+32051249	Positive_Correlation	MESH:D006862	207
+32051249	Positive_Correlation	MESH:D006862	MESH:D000544
+32051249	Association	MESH:D000544	4137
+

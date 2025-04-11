@@ -1,0 +1,36 @@
+21117449|t|I32E and V36K double mutation in beta2-sheet abrogates amyloid beta peptide toxicity.
+21117449|a|Alzheimer's disease (AD) is the most common cause of dementia in the elderly, wherein, the accumulation of amyloid beta (Abeta) peptide as cytotoxic oligomers leads to neuropathologic changes. Transgenic mice with brain Abeta plaques immunized with aggregated Abeta have reduced amyloid burden and improved cognitive functions. However, such active immunization in humans led to a small but significant occurrence of meningoencephalitis in 6% AD volunteers due to Abeta induced toxicity. In an attempt to develop safer alternative vaccines, the design of a highly soluble peptide homologous to Abeta (Abeta-EK), that has a reduced amyloidogenic potential while maintaining the major immunogenic epitopes of Abeta is reported. More importantly, this homologue has been shown to be non-toxic, as this peptide failed to exert any observable effect on erythrocytes. The results of the present study suggests that immunization with non-toxic Abeta derivative may offer a safer therapeutic approach to AD, instead of using toxic Abeta fibrils.
+21117449	0	4	I32E	ProteinMutation	tmVar:p|SUB|I|32|E;HGVS:p.I32E;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+21117449	9	13	V36K	ProteinMutation	tmVar:p|SUB|V|36|K;HGVS:p.V36K;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+21117449	76	84	toxicity	Disease	MESH:D064420
+21117449	86	105	Alzheimer's disease	Disease	MESH:D000544
+21117449	107	109	AD	Disease	MESH:D000544
+21117449	139	147	dementia	Disease	MESH:D003704
+21117449	207	212	Abeta	Gene	351
+21117449	290	294	mice	Species	10090
+21117449	306	311	Abeta	Gene	11820
+21117449	346	351	Abeta	Gene	11820
+21117449	365	372	amyloid	Disease	MESH:C000718787
+21117449	451	457	humans	Species	9606
+21117449	503	522	meningoencephalitis	Disease	MESH:D008590
+21117449	529	531	AD	Disease	MESH:D000544
+21117449	550	555	Abeta	Gene	351
+21117449	564	572	toxicity	Disease	MESH:D064420
+21117449	680	685	Abeta	Gene	351
+21117449	687	692	Abeta	Gene	351
+21117449	793	798	Abeta	Gene	351
+21117449	1023	1028	Abeta	Gene	351
+21117449	1082	1084	AD	Disease	MESH:D000544
+21117449	1109	1114	Abeta	Gene	351
+21117449	Negative_Correlation	MESH:D064420	HGVS:p.I32E;CorrespondingGene:351
+21117449	Negative_Correlation	MESH:C000718787	11820
+21117449	Association	HGVS:p.I32E;CorrespondingGene:351	HGVS:p.V36K;CorrespondingGene:351
+21117449	Positive_Correlation	MESH:D000544	HGVS:p.I32E;CorrespondingGene:351
+21117449	Negative_Correlation	MESH:D064420	HGVS:p.V36K;CorrespondingGene:351
+21117449	Association	MESH:D000544	351
+21117449	Association	MESH:D064420	351
+21117449	Positive_Correlation	MESH:D008590	351
+21117449	Positive_Correlation	MESH:D008590	11820
+21117449	Association	MESH:D064420	351
+21117449	Association	MESH:D000544	351
+

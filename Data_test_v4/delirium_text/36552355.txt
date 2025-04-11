@@ -1,0 +1,76 @@
+36552355|t|Human J-Domain Protein DnaJB6 Protects Yeast from [PSI+] Prion Toxicity.
+36552355|a|Human J-domain protein (JDP) DnaJB6 has a broad and potent activity that prevents formation of amyloid by polypeptides such as polyglutamine, A-beta, and alpha-synuclein, related to Huntington's, Alzheimer's, and Parkinson's diseases, respectively. In yeast, amyloid-based [PSI+] prions, which rely on the related JDP Sis1 for replication, have a latent toxicity that is exposed by reducing Sis1 function. Anti-amyloid activity of DnaJB6 is very effective against weak [PSI+] prions and the Sup35 amyloid that composes them, but ineffective against strong [PSI+] prions composed of structurally different amyloid of the same Sup35. This difference reveals limitations of DnaJB6 that have implications regarding its therapeutic use for amyloid disease. Here, we find that when Sis1 function is reduced, DnaJB6 represses toxicity of strong [PSI+] prions and inhibits their propagation. Both Sis1 and DnaJB6, which are regulators of protein chaperone Hsp70, counteract the toxicity by reducing excessive incorporation of the essential Sup35 into prion aggregates. However, while Sis1 apparently requires interaction with Hsp70 to detoxify [PSI+], DnaJB6 counteracts prion toxicity by a different, Hsp70-independent mechanism.
+36552355	0	5	Human	Species	9606
+36552355	23	29	DnaJB6	Gene	10049
+36552355	39	44	Yeast	Species	4932
+36552355	50	56	[PSI+]	Disease	
+36552355	57	71	Prion Toxicity	Disease	MESH:D017096
+36552355	73	78	Human	Species	9606
+36552355	102	108	DnaJB6	Gene	10049
+36552355	168	175	amyloid	Disease	MESH:C000718787
+36552355	200	213	polyglutamine	Chemical	MESH:C097188
+36552355	215	221	A-beta	Gene	351
+36552355	227	242	alpha-synuclein	Gene	6622
+36552355	255	267	Huntington's	Disease	MESH:D006816
+36552355	269	280	Alzheimer's	Disease	MESH:D000544
+36552355	286	306	Parkinson's diseases	Disease	MESH:D010300
+36552355	325	330	yeast	Species	4932
+36552355	332	339	amyloid	Disease	MESH:C000718787
+36552355	346	352	[PSI+]	Disease	
+36552355	391	395	Sis1	Gene	3337
+36552355	427	435	toxicity	Disease	MESH:D064420
+36552355	464	468	Sis1	Gene	3337
+36552355	484	491	amyloid	Disease	MESH:C000718787
+36552355	504	510	DnaJB6	Gene	10049
+36552355	542	548	[PSI+]	Disease	
+36552355	564	569	Sup35	Gene	851752
+36552355	570	577	amyloid	Disease	MESH:C000718787
+36552355	629	635	[PSI+]	Disease	
+36552355	678	685	amyloid	Disease	MESH:C000718787
+36552355	698	703	Sup35	Gene	851752
+36552355	744	750	DnaJB6	Gene	10049
+36552355	808	823	amyloid disease	Disease	MESH:C000718787
+36552355	849	853	Sis1	Gene	3337
+36552355	875	881	DnaJB6	Gene	10049
+36552355	892	900	toxicity	Disease	MESH:D064420
+36552355	911	917	[PSI+]	Disease	
+36552355	962	966	Sis1	Gene	3337
+36552355	971	977	DnaJB6	Gene	10049
+36552355	1021	1026	Hsp70	Gene	3308
+36552355	1043	1051	toxicity	Disease	MESH:D064420
+36552355	1105	1110	Sup35	Gene	851752
+36552355	1116	1132	prion aggregates	Disease	MESH:D017096
+36552355	1149	1153	Sis1	Gene	3337
+36552355	1191	1196	Hsp70	Gene	3308
+36552355	1209	1215	[PSI+]	Disease	
+36552355	1217	1223	DnaJB6	Gene	10049
+36552355	1236	1250	prion toxicity	Disease	MESH:D017096
+36552355	1267	1272	Hsp70	Gene	3308
+36552355	Association	MESH:D006816	351
+36552355	Negative_Correlation	MESH:C000718787	10049
+36552355	Association	MESH:C000718787	3337
+36552355	Association	MESH:D064420	3337
+36552355	Positive_Correlation	MESH:C000718787	351
+36552355	Association	MESH:C000718787	6622
+36552355	Negative_Correlation	MESH:C097188	10049
+36552355	Association	MESH:D000544	6622
+36552355	Negative_Correlation	10049	851752
+36552355	Association	MESH:D006816	6622
+36552355	Negative_Correlation	MESH:D064420	10049
+36552355	Negative_Correlation	10049	3337
+36552355	Negative_Correlation	10049	351
+36552355	Positive_Correlation	MESH:C097188	MESH:C000718787
+36552355	Association	MESH:C097188	MESH:D006816
+36552355	Negative_Correlation	3337	851752
+36552355	Association	10049	3308
+36552355	Negative_Correlation	10049	6622
+36552355	Association	MESH:D010300	10049
+36552355	Association	MESH:C000718787	851752
+36552355	Association	MESH:C097188	MESH:D010300
+36552355	Association	3308	3337
+36552355	Association	MESH:D010300	351
+36552355	Association	MESH:D010300	6622
+36552355	Association	MESH:C097188	MESH:D000544
+36552355	Association	MESH:D000544	10049
+36552355	Association	MESH:D017096	10049
+

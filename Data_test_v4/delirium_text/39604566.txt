@@ -1,0 +1,12 @@
+39604566|t|Applying a transformer architecture to intraoperative temporal dynamics improves the prediction of postoperative delirium.
+39604566|a|BACKGROUND: Patients who experienced postoperative delirium (POD) are at higher risk of poor outcomes like dementia or death. Previous machine learning models predicting POD mostly relied on time-aggregated features. We aimed to assess the potential of temporal patterns in clinical parameters during surgeries to predict POD. METHODS: Long short-term memory (LSTM) and transformer models, directly consuming time series, were compared to multi-layer perceptrons (MLPs) trained on time-aggregated features. We also fitted hybrid models, fusing either LSTM or transformer models with MLPs. Univariate Spearman's rank correlations and linear mixed-effect models establish the importance of individual features that we compared to transformers' attention weights. RESULTS: Best performance is achieved by a transformer architecture ingesting 30 min of intraoperative parameter sequences. Systolic invasive blood pressure and given opioids mark the most important input variables, in line with univariate feature importances. CONCLUSIONS: Intraoperative temporal dynamics of clinical parameters, exploited by a transformer architecture named TRAPOD, are critical for the accurate prediction of POD.
+39604566	99	121	postoperative delirium	Disease	MESH:D000071257
+39604566	135	143	Patients	Species	9606
+39604566	160	182	postoperative delirium	Disease	MESH:D000071257
+39604566	184	187	POD	Disease	MESH:D000071257
+39604566	230	238	dementia	Disease	MESH:D003704
+39604566	242	247	death	Disease	MESH:D003643
+39604566	293	296	POD	Disease	MESH:D000071257
+39604566	445	448	POD	Disease	MESH:D000071257
+39604566	1313	1316	POD	Disease	MESH:D000071257
+

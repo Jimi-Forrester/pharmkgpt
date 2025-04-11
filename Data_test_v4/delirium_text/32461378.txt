@@ -1,0 +1,59 @@
+32461378|t|Systematic metabolic analysis of potential target, therapeutic drug, diagnostic method and animal model applicability in three neurodegenerative diseases.
+32461378|a|Considerable evidence suggests that metabolic abnormalities are associated with neurodegenerative diseases. This study aimed to conduct a systematic metabolic analysis of Alzheimer's disease (AD), Parkinson's disease (PD) and Huntington's disease (HD). Human and mouse model microarray datasets were downloaded from the Gene Expression Omnibus database. The metabolic genes and pathways were collected from the Recon 3D human metabolic model. Drug and target information was obtained from the DrugBank database. This study identified ATP1A1, ATP6V1G2, GOT1, HPRT1, MAP2K1, PCMT1 and PLK2 as key metabolic genes that were downregulated in AD, PD and HD. We screened 57 drugs that target these genes, such as digoxin, ouabain and diazoxide. This study constructed multigene diagnostic models for AD, PD and HD by using metabolic gene expression profiles in blood, all models showed high accuracy (AUC > 0.8) both in the experimental and validation sets. Furthermore, analysis of animal models showed that there was almost no consistency among the metabolic changes between mouse models and human diseases. This study systematically revealed the metabolic damage among AD, PD, and HD and uncovered the differences between animal models and human diseases. This information may be helpful for understanding the metabolic mechanisms and drug development for neurodegenerative diseases.
+32461378	127	153	neurodegenerative diseases	Disease	MESH:D019636
+32461378	191	214	metabolic abnormalities	Disease	MESH:D008659
+32461378	235	261	neurodegenerative diseases	Disease	MESH:D019636
+32461378	326	345	Alzheimer's disease	Disease	MESH:D000544
+32461378	347	349	AD	Disease	MESH:D000544
+32461378	352	371	Parkinson's disease	Disease	MESH:D010300
+32461378	373	375	PD	Disease	MESH:D010300
+32461378	381	401	Huntington's disease	Disease	MESH:D006816
+32461378	403	405	HD	Disease	MESH:D006816
+32461378	408	413	Human	Species	9606
+32461378	418	423	mouse	Species	10090
+32461378	575	580	human	Species	9606
+32461378	689	695	ATP1A1	Gene	476
+32461378	697	705	ATP6V1G2	Gene	534
+32461378	707	711	GOT1	Gene	2805
+32461378	713	718	HPRT1	Gene	3251
+32461378	720	726	MAP2K1	Gene	5604
+32461378	728	733	PCMT1	Gene	5110
+32461378	738	742	PLK2	Gene	10769
+32461378	793	795	AD	Disease	MESH:D000544
+32461378	797	799	PD	Disease	MESH:D010300
+32461378	804	806	HD	Disease	MESH:D006816
+32461378	862	869	digoxin	Chemical	MESH:D004077
+32461378	871	878	ouabain	Chemical	MESH:D010042
+32461378	883	892	diazoxide	Chemical	MESH:D003981
+32461378	949	951	AD	Disease	MESH:D000544
+32461378	953	955	PD	Disease	MESH:D010300
+32461378	960	962	HD	Disease	MESH:D006816
+32461378	1226	1231	mouse	Species	10090
+32461378	1243	1248	human	Species	9606
+32461378	1321	1323	AD	Disease	MESH:D000544
+32461378	1325	1327	PD	Disease	MESH:D010300
+32461378	1333	1335	HD	Disease	MESH:D006816
+32461378	1392	1397	human	Species	9606
+32461378	1508	1534	neurodegenerative diseases	Disease	MESH:D019636
+32461378	Negative_Correlation	MESH:D006816	2805
+32461378	Negative_Correlation	MESH:D010300	10769
+32461378	Negative_Correlation	MESH:D010300	534
+32461378	Negative_Correlation	MESH:D010300	2805
+32461378	Negative_Correlation	MESH:D000544	476
+32461378	Negative_Correlation	MESH:D006816	3251
+32461378	Negative_Correlation	MESH:D010300	476
+32461378	Negative_Correlation	MESH:D006816	5110
+32461378	Negative_Correlation	MESH:D000544	3251
+32461378	Negative_Correlation	MESH:D006816	534
+32461378	Negative_Correlation	MESH:D006816	5604
+32461378	Negative_Correlation	MESH:D000544	5604
+32461378	Negative_Correlation	MESH:D010300	3251
+32461378	Negative_Correlation	MESH:D006816	476
+32461378	Negative_Correlation	MESH:D000544	10769
+32461378	Negative_Correlation	MESH:D010300	5604
+32461378	Negative_Correlation	MESH:D010300	5110
+32461378	Negative_Correlation	MESH:D000544	534
+32461378	Negative_Correlation	MESH:D000544	5110
+32461378	Negative_Correlation	MESH:D006816	10769
+32461378	Negative_Correlation	MESH:D000544	2805
+

@@ -1,0 +1,12 @@
+32439869|t|Inferring multimodal latent topics from electronic health records.
+32439869|a|Electronic health records (EHR) are rich heterogeneous collections of patient health information, whose broad adoption provides clinicians and researchers unprecedented opportunities for health informatics, disease-risk prediction, actionable clinical recommendations, and precision medicine. However, EHRs present several modeling challenges, including highly sparse data matrices, noisy irregular clinical notes, arbitrary biases in billing code assignment, diagnosis-driven lab tests, and heterogeneous data types. To address these challenges, we present MixEHR, a multi-view Bayesian topic model. We demonstrate MixEHR on MIMIC-III, Mayo Clinic Bipolar Disorder, and Quebec Congenital Heart Disease EHR datasets. Qualitatively, MixEHR disease topics reveal meaningful combinations of clinical features across heterogeneous data types. Quantitatively, we observe superior prediction accuracy of diagnostic codes and lab test imputations compared to the state-of-art methods. We leverage the inferred patient topic mixtures to classify target diseases and predict mortality of patients in critical conditions. In all comparison, MixEHR confers competitive performance and reveals meaningful disease-related topics.
+32439869	137	144	patient	Species	9606
+32439869	625	631	MixEHR	Disease	
+32439869	683	689	MixEHR	Disease	
+32439869	716	732	Bipolar Disorder	Disease	MESH:D001714
+32439869	745	769	Congenital Heart Disease	Disease	MESH:D006330
+32439869	799	805	MixEHR	Disease	
+32439869	1070	1077	patient	Species	9606
+32439869	1146	1154	patients	Species	9606
+32439869	1198	1204	MixEHR	Disease	
+

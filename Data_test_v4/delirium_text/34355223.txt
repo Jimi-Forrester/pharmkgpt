@@ -1,0 +1,12 @@
+34355223|t|Synthesizing Missing PET from MRI with Cycle-consistent Generative Adversarial Networks for Alzheimer's Disease Diagnosis.
+34355223|a|Multi-modal neuroimages (e.g., MRI and PET) have been widely used for diagnosis of brain diseases such as Alzheimer's disease (AD) by providing complementary information. However, in practice, it is unavoidable to have missing data, i.e., missing PET data for many subjects in the ADNI dataset. A straightforward strategy to tackle this challenge is to simply discard subjects with missing PET, but this will significantly reduce the number of training subjects for learning reliable diagnostic models. On the other hand, since different modalities (i.e., MRI and PET) were acquired from the same subject, there often exist underlying relevance between different modalities. Accordingly, we propose a two-stage deep learning framework for AD diagnosis using both MRI and PET data. Specifically, in the first stage, we impute missing PET data based on their corresponding MRI data by using 3D Cycle-consistent Generative Adversarial Networks (3D-cGAN) to capture their underlying relationship. In the second stage, with the complete MRI and PET (i.e., after imputation for the case of missing PET), we develop a deep multi-instance neural network for AD diagnosis and also mild cognitive impairment (MCI) conversion prediction. Experimental results on subjects from ADNI demonstrate that our synthesized PET images with 3D-cGAN are reasonable, and also our two-stage deep learning method outperforms the state-of-the-art methods in AD diagnosis.
+34355223	92	111	Alzheimer's Disease	Disease	MESH:D000544
+34355223	206	220	brain diseases	Disease	MESH:D001927
+34355223	229	248	Alzheimer's disease	Disease	MESH:D000544
+34355223	250	252	AD	Disease	MESH:D000544
+34355223	862	864	AD	Disease	MESH:D000544
+34355223	1273	1275	AD	Disease	MESH:D000544
+34355223	1295	1320	mild cognitive impairment	Disease	MESH:D060825
+34355223	1322	1325	MCI	Disease	MESH:D060825
+34355223	1554	1556	AD	Disease	MESH:D000544
+

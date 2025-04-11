@@ -1,0 +1,70 @@
+39648181|t|Neuroprotective Effects of STAT3 Inhibitor on Hydrogen Peroxide-Induced Neuronal Cell Death via the ERK/CREB Signaling Pathway.
+39648181|a|This study investigates the neuroprotective potential of STAT3 inhibition in reducing oxidative stress-induced neuronal damage and apoptosis, a major factor contributing to the onset and progression of neurodegenerative diseases, including Alzheimer's disease (AD). Our findings demonstrate that STAT3 inhibitors significantly enhance cell survival and reduce apoptosis in SH-SY5Y cells exposed to hydrogen peroxide. These protective effects are mediated through the ERK/CREB signaling pathway rather than direct suppression of STAT3 phosphorylation. Further analysis revealed that the ERK pathway is a critical mediator of CREB activation following STAT3 inhibition. The protective effects of STAT3 inhibitors were significantly reduced in the presence of the ERK inhibitor PD98059, underscoring the importance of the ERK/CREB axis in neuroprotection. We observed that STAT3 inhibitors promote CREB phosphorylation, leading to the upregulation of immediate early genes such as c-Fos, c-Jun, Arc, Egr-1, NR4A1, and Homer1a, as well as BDNF. These genes are crucial for synaptic plasticity and long-term memory formation, suggesting that STAT3 inhibition may ameliorate cognitive impairments in neurodegenerative conditions. Our results highlight the potential of STAT3 inhibitors to counteract oxidative stress and enhance cognitive functions by modulating the ERK/CREB signaling pathway. These findings provide valuable insights into the molecular mechanisms of STAT3 inhibition and support its therapeutic potential for treating neurodegenerative diseases.
+39648181	27	32	STAT3	Gene	6774
+39648181	46	63	Hydrogen Peroxide	Chemical	MESH:D006861
+39648181	72	80	Neuronal	Disease	MESH:D009410
+39648181	100	103	ERK	Gene	5594
+39648181	104	108	CREB	Gene	1385
+39648181	185	190	STAT3	Gene	6774
+39648181	239	254	neuronal damage	Disease	MESH:D009410
+39648181	330	356	neurodegenerative diseases	Disease	MESH:D019636
+39648181	368	387	Alzheimer's disease	Disease	MESH:D000544
+39648181	389	391	AD	Disease	MESH:D000544
+39648181	424	429	STAT3	Gene	6774
+39648181	501	508	SH-SY5Y	CellLine	CVCL:0019
+39648181	526	543	hydrogen peroxide	Chemical	MESH:D006861
+39648181	595	598	ERK	Gene	5594
+39648181	599	603	CREB	Gene	1385
+39648181	656	661	STAT3	Gene	6774
+39648181	714	717	ERK	Gene	5594
+39648181	752	756	CREB	Gene	1385
+39648181	778	783	STAT3	Gene	6774
+39648181	822	827	STAT3	Gene	6774
+39648181	889	892	ERK	Gene	5594
+39648181	903	910	PD98059	Chemical	MESH:C093973
+39648181	947	950	ERK	Gene	5594
+39648181	951	955	CREB	Gene	1385
+39648181	998	1003	STAT3	Gene	6774
+39648181	1023	1027	CREB	Gene	1385
+39648181	1106	1111	c-Fos	Gene	2353
+39648181	1113	1118	c-Jun	Gene	3725
+39648181	1120	1123	Arc	Gene	23237
+39648181	1125	1130	Egr-1	Gene	1958
+39648181	1132	1137	NR4A1	Gene	3164
+39648181	1143	1150	Homer1a	Gene	9456
+39648181	1163	1167	BDNF	Gene	627
+39648181	1265	1270	STAT3	Gene	6774
+39648181	1297	1318	cognitive impairments	Disease	MESH:D003072
+39648181	1322	1350	neurodegenerative conditions	Disease	MESH:D019636
+39648181	1391	1396	STAT3	Gene	6774
+39648181	1489	1492	ERK	Gene	5594
+39648181	1493	1497	CREB	Gene	1385
+39648181	1591	1596	STAT3	Gene	6774
+39648181	1659	1685	neurodegenerative diseases	Disease	MESH:D019636
+39648181	Positive_Correlation	3164	6774
+39648181	Positive_Correlation	1958	6774
+39648181	Positive_Correlation	3725	6774
+39648181	Association	MESH:D009410	6774
+39648181	Positive_Correlation	MESH:D006861	MESH:D009410
+39648181	Association	MESH:D003072	6774
+39648181	Positive_Correlation	1385	3164
+39648181	Association	MESH:D006861	6774
+39648181	Positive_Correlation	1385	5594
+39648181	Positive_Correlation	1385	3725
+39648181	Positive_Correlation	1385	23237
+39648181	Association	5594	6774
+39648181	Positive_Correlation	6774	9456
+39648181	Negative_Correlation	MESH:C093973	5594
+39648181	Positive_Correlation	1385	627
+39648181	Association	MESH:D019636	6774
+39648181	Association	MESH:D000544	6774
+39648181	Positive_Correlation	1385	9456
+39648181	Positive_Correlation	1385	2353
+39648181	Positive_Correlation	23237	6774
+39648181	Association	MESH:D009410	1385
+39648181	Positive_Correlation	1385	1958
+39648181	Association	MESH:D006861	1385
+39648181	Positive_Correlation	2353	6774
+39648181	Negative_Correlation	1385	6774
+39648181	Positive_Correlation	627	6774
+

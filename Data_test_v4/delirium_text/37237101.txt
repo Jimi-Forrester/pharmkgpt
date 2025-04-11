@@ -1,0 +1,8 @@
+37237101|t|Constructing a disease database and using natural language processing to capture and standardize free text clinical information.
+37237101|a|The ability to extract critical information about an infectious disease in a timely manner is critical for population health research. The lack of procedures for mining large amounts of health data is a major impediment. The goal of this research is to use natural language processing (NLP) to extract key information (clinical factors, social determinants of health) from free text. The proposed framework describes database construction, NLP modules for locating clinical and non-clinical (social determinants) information, and a detailed evaluation protocol for evaluating results and demonstrating the effectiveness of the proposed framework. The use of COVID-19 case reports is demonstrated for data construction and pandemic surveillance. The proposed approach outperforms benchmark methods in F1-score by about 1-3%. A thorough examination reveals the disease's presence as well as the frequency of symptoms in patients. The findings suggest that prior knowledge gained through transfer learning can be useful when researching infectious diseases with similar presentations in order to accurately predict patient outcomes.
+37237101	182	200	infectious disease	Disease	MESH:D003141
+37237101	787	795	COVID-19	Disease	MESH:D000086382
+37237101	1047	1055	patients	Species	9606
+37237101	1163	1182	infectious diseases	Disease	MESH:D003141
+37237101	1241	1248	patient	Species	9606
+

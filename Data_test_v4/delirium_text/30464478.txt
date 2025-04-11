@@ -1,0 +1,16 @@
+30464478|t|Detection of cognitive impairment using a machine-learning algorithm.
+30464478|a|PURPOSE: The Mini-Mental State Examination (MMSE) is one of the most frequently used bedside screening measures of cognition. However, the Korean Dementia Screening Questionnaire (KDSQ) is an easier and more reliable screening method. Instead, other clinical variables and raw data were used for this study without the consideration of a cutoff value. The objective of this study was to develop a machine-learning algorithm for the detection of cognitive impairment (CI) based on the KDSQ and the MMSE. PATIENTS AND METHODS: The original dataset from the Clinical Research Center for Dementia of South Korea study was obtained. In total, 9,885 and 300 patients were randomly allocated to the training and test datasets, respectively. We selected up to 24 variables including sex, age, education duration, diabetes mellitus, and hypertension. We trained a machine-learning algorithm using TensorFlow based on the training dataset and then calculated its accuracy using the test dataset. The cost was calculated by conducting a logistic regression. RESULTS: The accuracy of the model in predicting CI based on the KDSQ only, the MMSE only, and the combination of the KDSQ and MMSE was 84.3%, 88.3%, and 86.3%, respectively. For the KDSQ, the sensitivity for detecting CI was 91.50% and the specificity for detecting normal cognition (NL) was 59.60%. The sensitivity of the MMSE was 94.35%, and the specificity was 59.62%. When combining the KDSQ and the MMSE, the sensitivity for detecting CI was 91.5% and the specificity for detecting NL was 61.5%. CONCLUSION: The algorithm predicting CI based on the MMSE is superior. However, the KDSQ can be administered more easily in clinical practice and the algorithm using KDSQ is a comparable screening tool.
+30464478	13	33	cognitive impairment	Disease	MESH:D003072
+30464478	216	224	Dementia	Disease	MESH:D003704
+30464478	515	535	cognitive impairment	Disease	MESH:D003072
+30464478	537	539	CI	Disease	MESH:D003072
+30464478	573	581	PATIENTS	Species	9606
+30464478	654	662	Dementia	Disease	MESH:D003704
+30464478	722	730	patients	Species	9606
+30464478	875	892	diabetes mellitus	Disease	MESH:D003920
+30464478	898	910	hypertension	Disease	MESH:D006973
+30464478	1166	1168	CI	Disease	MESH:D003072
+30464478	1336	1338	CI	Disease	MESH:D003072
+30464478	1558	1560	CI	Disease	MESH:D003072
+30464478	1656	1658	CI	Disease	MESH:D003072
+

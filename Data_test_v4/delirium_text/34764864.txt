@@ -1,0 +1,36 @@
+34764864|t|Deep-Learning Radiomics for Discrimination Conversion of Alzheimer's Disease in Patients With Mild Cognitive Impairment: A Study Based on 18F-FDG PET Imaging.
+34764864|a|Objectives: Alzheimer's disease (AD) is the most prevalent neurodegenerative disorder and the most common form of dementia in the older people. Some types of mild cognitive impairment (MCI) are the clinical precursors of AD, while other MCI forms tend to remain stable over time and do not progress to AD. To discriminate MCI patients at risk of AD from stable MCI, we propose a novel deep-learning radiomics (DLR) model based on 18F-fluorodeoxyglucose positron emission tomography (18F-FDG PET) images and combine DLR features with clinical parameters (DLR+C) to improve diagnostic performance. Methods: 18F-fluorodeoxyglucose positron emission tomography (PET) data from the Alzheimer's disease Neuroimaging Initiative database (ADNI) were collected, including 168 patients with MCI who converted to AD within 3 years and 187 patients with MCI without conversion within 3 years. These subjects were randomly partitioned into 90 % for the training/validation group and 10 % for the independent test group. The proposed DLR approach consists of three steps: base DL model pre-training, network features extraction, and integration of DLR+C, where a convolution network serves as a feature encoder, and a support vector machine (SVM) operated as the classifier. In comparative experiments, we compared our DLR+C method with four other methods: the standard uptake value ratio (SUVR) method, Radiomics-ROI method, Clinical method, and SUVR + Clinical method. To guarantee the robustness, 10-fold cross-validation was processed 100 times. Results: Under the DLR model, our proposed DLR+C was advantageous and yielded the best classification performance in the diagnosis of conversion with the accuracy, sensitivity, and specificity of 90.62 +- 1.16, 87.50 +- 0.00, and 93.39 +- 2.19%, respectively. In contrast, the respective accuracy of the other four methods reached 68.38 +- 1.27, 73.31 +- 6.93, 81.09 +- 1.97, and 85.35 +- 0.72 %. These results suggested the DLR approach could be used successfully in the prediction of conversion to AD, and that our proposed DLR-combined clinical information was effective. Conclusions: This study showed DLR+C could provide a novel and valuable method for the computer-assisted diagnosis of conversion to AD from MCI. This DLR+C method provided a quantitative biomarker which could predict conversion to AD in MCI patients.
+34764864	57	76	Alzheimer's Disease	Disease	MESH:D000544
+34764864	80	88	Patients	Species	9606
+34764864	94	119	Mild Cognitive Impairment	Disease	MESH:D060825
+34764864	138	145	18F-FDG	Chemical	MESH:D019788
+34764864	171	190	Alzheimer's disease	Disease	MESH:D000544
+34764864	192	194	AD	Disease	MESH:D000544
+34764864	218	244	neurodegenerative disorder	Disease	MESH:D019636
+34764864	273	281	dementia	Disease	MESH:D003704
+34764864	317	342	mild cognitive impairment	Disease	MESH:D060825
+34764864	344	347	MCI	Disease	MESH:D060825
+34764864	380	382	AD	Disease	MESH:D000544
+34764864	396	399	MCI	Disease	MESH:D060825
+34764864	461	463	AD	Disease	MESH:D000544
+34764864	481	484	MCI	Disease	MESH:D060825
+34764864	485	493	patients	Species	9606
+34764864	505	507	AD	Disease	MESH:D000544
+34764864	520	523	MCI	Disease	MESH:D060825
+34764864	589	611	18F-fluorodeoxyglucose	Chemical	MESH:D019788
+34764864	642	649	18F-FDG	Chemical	MESH:D019788
+34764864	764	786	18F-fluorodeoxyglucose	Chemical	MESH:D019788
+34764864	836	855	Alzheimer's disease	Disease	MESH:D000544
+34764864	926	934	patients	Species	9606
+34764864	940	943	MCI	Disease	MESH:D060825
+34764864	961	963	AD	Disease	MESH:D000544
+34764864	987	995	patients	Species	9606
+34764864	1001	1004	MCI	Disease	MESH:D060825
+34764864	2195	2197	AD	Disease	MESH:D000544
+34764864	2402	2404	AD	Disease	MESH:D000544
+34764864	2410	2413	MCI	Disease	MESH:D060825
+34764864	2501	2503	AD	Disease	MESH:D000544
+34764864	2507	2510	MCI	Disease	MESH:D060825
+34764864	2511	2519	patients	Species	9606
+34764864	Association	MESH:D019788	MESH:D000544
+

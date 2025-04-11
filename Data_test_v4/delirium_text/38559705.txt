@@ -1,0 +1,20 @@
+38559705|t|CsAGP: Detecting Alzheimer's disease from multimodal images via dual-transformer with cross-attention and graph pooling.
+38559705|a|Alzheimer's disease (AD) is a terrible and degenerative disease commonly occurring in the elderly. Early detection can prevent patients from further damage, which is crucial in treating AD. Over the past few decades, it has been demonstrated that neuroimaging can be a critical diagnostic tool for AD, and the feature fusion of different neuroimaging modalities can enhance diagnostic performance. Most previous studies in multimodal feature fusion have only concatenated the high-level features extracted by neural networks from various neuroimaging images simply. However, a major problem of these studies is over-looking the low-level feature interactions between modalities in the feature extraction stage, resulting in suboptimal performance in AD diagnosis. In this paper, we develop a dual-branch vision transformer with cross-attention and graph pooling, namely CsAGP, which enables multi-level feature interactions between the inputs to learn a shared feature representation. Specifically, we first construct a brand-new cross-attention fusion module (CAFM), which processes MRI and PET images by two independent branches of differing computational complexity. These features are fused merely by the cross-attention mechanism to enhance each other. After that, a concise graph pooling algorithm-based Reshape-Pooling-Reshape (RPR) framework is developed for token selection to reduce token redundancy in the proposed model. Extensive experiments on the Alzheimer's Disease Neuroimaging Initiative (ADNI) database demonstrated that the suggested method obtains 99.04%, 97.43%, 98.57%, and 98.72% accuracy for the classification of AD vs. CN, AD vs. MCI, CN vs. MCI, and AD vs. CN vs. MCI, respectively.
+38559705	0	5	CsAGP	Disease	
+38559705	17	36	Alzheimer's disease	Disease	MESH:D000544
+38559705	121	140	Alzheimer's disease	Disease	MESH:D000544
+38559705	142	144	AD	Disease	MESH:D000544
+38559705	164	184	degenerative disease	Disease	MESH:D019636
+38559705	248	256	patients	Species	9606
+38559705	307	309	AD	Disease	MESH:D000544
+38559705	419	421	AD	Disease	MESH:D000544
+38559705	871	873	AD	Disease	MESH:D000544
+38559705	991	996	CsAGP	Disease	
+38559705	1583	1602	Alzheimer's Disease	Disease	MESH:D000544
+38559705	1760	1762	AD	Disease	MESH:D000544
+38559705	1771	1773	AD	Disease	MESH:D000544
+38559705	1778	1781	MCI	Disease	
+38559705	1790	1793	MCI	Disease	
+38559705	1799	1801	AD	Disease	MESH:D000544
+38559705	1813	1816	MCI	Disease	
+

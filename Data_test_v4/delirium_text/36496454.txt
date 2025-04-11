@@ -1,0 +1,32 @@
+36496454|t|Causal inference in medical records and complementary systems pharmacology for metformin drug repurposing towards dementia.
+36496454|a|Metformin, a diabetes drug with anti-aging cellular responses, has complex actions that may alter dementia onset. Mixed results are emerging from prior observational studies. To address this complexity, we deploy a causal inference approach accounting for the competing risk of death in emulated clinical trials using two distinct electronic health record systems. In intention-to-treat analyses, metformin use associates with lower hazard of all-cause mortality and lower cause-specific hazard of dementia onset, after accounting for prolonged survival, relative to sulfonylureas. In parallel systems pharmacology studies, the expression of two AD-related proteins, APOE and SPP1, was suppressed by pharmacologic concentrations of metformin in differentiated human neural cells, relative to a sulfonylurea. Together, our findings suggest that metformin might reduce the risk of dementia in diabetes patients through mechanisms beyond glycemic control, and that SPP1 is a candidate biomarker for metformin's action in the brain.
+36496454	79	88	metformin	Chemical	MESH:D008687
+36496454	114	122	dementia	Disease	MESH:D003704
+36496454	124	133	Metformin	Chemical	MESH:D008687
+36496454	137	145	diabetes	Disease	MESH:D003920
+36496454	222	230	dementia	Disease	MESH:D003704
+36496454	402	407	death	Disease	MESH:D003643
+36496454	521	530	metformin	Chemical	MESH:D008687
+36496454	622	630	dementia	Disease	MESH:D003704
+36496454	691	704	sulfonylureas	Chemical	MESH:D013453
+36496454	770	772	AD	Disease	MESH:D000544
+36496454	791	795	APOE	Gene	348
+36496454	800	804	SPP1	Gene	6696
+36496454	856	865	metformin	Chemical	MESH:D008687
+36496454	884	889	human	Species	9606
+36496454	918	930	sulfonylurea	Chemical	MESH:D013453
+36496454	968	977	metformin	Chemical	MESH:D008687
+36496454	1003	1011	dementia	Disease	MESH:D003704
+36496454	1015	1023	diabetes	Disease	MESH:D003920
+36496454	1024	1032	patients	Species	9606
+36496454	1086	1090	SPP1	Gene	6696
+36496454	1120	1129	metformin	Chemical	MESH:D008687
+36496454	Comparison	MESH:D008687	MESH:D013453
+36496454	Association	MESH:D000544	348
+36496454	Negative_Correlation	MESH:D008687	MESH:D003704
+36496454	Association	MESH:D000544	6696
+36496454	Negative_Correlation	MESH:D008687	6696
+36496454	Negative_Correlation	MESH:D008687	348
+36496454	Negative_Correlation	MESH:D008687	MESH:D003920
+36496454	Negative_Correlation	MESH:D008687	MESH:D000544
+

@@ -1,0 +1,18 @@
+37542106|t|Development of a machine learning-based prediction model for sepsis-associated delirium in the intensive care unit.
+37542106|a|Septic patients in the intensive care unit (ICU) often develop sepsis-associated delirium (SAD), which is strongly associated with poor prognosis. The aim of this study is to develop a machine learning-based model for the early prediction of SAD. Patient data were extracted from the Medical Information Mart for Intensive Care IV (MIMIC-IV) database and the eICU Collaborative Research Database (eICU-CRD). The MIMIC-IV data were divided into a training set and an internal validation set, while the eICU-CRD data served as an external validation set. Feature variables were selected using least absolute shrinkage and selection operator regression, and prediction models were built using logistic regression, support vector machines, decision trees, random forests, extreme gradient boosting (XGBoost), k-nearest neighbors and naive Bayes methods. The performance of the models was evaluated in the validation set. The model was also applied to a group of patients who were not assessed or could not be assessed for delirium. The MIMIC-IV and eICU-CRD databases included 14,620 and 1723 patients, respectively, with a median time to diagnosis of SAD of 24 and 30 h. Compared with Non-SAD patients, SAD patients had higher 28-days ICU mortality rates and longer ICU stays. Among the models compared, the XGBoost model had the best performance and was selected as the final model (internal validation area under the receiver operating characteristic curves (AUROC) = 0.793, external validation AUROC = 0.701). The XGBoost model outperformed other models in predicting SAD. The establishment of this predictive model allows for earlier prediction of SAD compared to traditional delirium assessments and is applicable to patients who are difficult to assess with traditional methods.
+37542106	61	67	sepsis	Disease	MESH:D018805
+37542106	79	87	delirium	Disease	MESH:D003693
+37542106	116	122	Septic	Disease	MESH:D001170
+37542106	179	185	sepsis	Disease	MESH:D018805
+37542106	197	205	delirium	Disease	MESH:D003693
+37542106	207	210	SAD	Disease	MESH:D065166
+37542106	358	361	SAD	Disease	MESH:D065166
+37542106	528	534	MIMIC-	CellLine	CVCL:Z366
+37542106	1134	1142	delirium	Disease	MESH:D003693
+37542106	1264	1267	SAD	Disease	MESH:D065166
+37542106	1302	1305	SAD	Disease	MESH:D065166
+37542106	1316	1319	SAD	Disease	MESH:D065166
+37542106	1684	1687	SAD	Disease	MESH:D065166
+37542106	1765	1768	SAD	Disease	MESH:D065166
+37542106	1793	1801	delirium	Disease	MESH:D003693
+

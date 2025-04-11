@@ -1,0 +1,6 @@
+8962456|t|Intent-to-treat analysis for longitudinal studies with drop-outs.
+8962456|a|We consider intent-to-treat (IT) analysis of clinical trials involving longitudinal data subject to drop-out. Common methods, such as Last Observation Carried Forward imputation or incomplete-data methods based on models that assume random dropout, have serious drawbacks in the IT setting. We propose a method that involves multiple imputation of the missing values following drop-out based on an "as treated" model, using actual dose after drop-out if this is known, or imputed doses that incorporate a variety of plausible alternative assumptions if unknown. The multiply-imputed data sets are then analyzed using IT methods, were subjects are classified by randomization group rather than by the dose actually received. Results from the multiply-imputed data sets are combined using the methods of Rubin (1987, Multiple Imputation for Nonresponse in Surveys). A novel feature of the proposed method is that the models for imputation differ from the model used for the analysis of the filled-in data. The method is applied to data on a clinical trial for Tacrine in the treatment of Alzheimer's disease.
+8962456	1124	1131	Tacrine	Chemical	MESH:D013619
+8962456	1152	1171	Alzheimer's disease	Disease	MESH:D000544
+8962456	Negative_Correlation	MESH:D013619	MESH:D000544
+

@@ -1,0 +1,17 @@
+31001320|t|DRUM: Inference of Disease-Associated m6A RNA Methylation Sites From a Multi-Layer Heterogeneous Network.
+31001320|a|Recent studies have revealed that the RNA N 6-methyladenosine (m6A) modification plays a critical role in a variety of biological processes and associated with multiple diseases including cancers. Till this day, transcriptome-wide m6A RNA methylation sites have been identified by high-throughput sequencing technique combined with computational methods, and the information is publicly available in a few bioinformatics databases; however, the association between individual m6A sites and various diseases are still largely unknown. There are yet computational approaches developed for investigating potential association between individual m6A sites and diseases, which represents a major challenge in the epitranscriptome analysis. Thus, to infer the disease-related m6A sites, we implemented a novel multi-layer heterogeneous network-based approach, which incorporates the associations among diseases, genes and m6A RNA methylation sites from gene expression, RNA methylation and disease similarities data with the Random Walk with Restart (RWR) algorithm. To evaluate the performance of the proposed approach, a ten-fold cross validation is performed, in which our approach achieved a reasonable good performance (overall AUC: 0.827, average AUC 0.867), higher than a hypergeometric test-based approach (overall AUC: 0.7333 and average AUC: 0.723) and a random predictor (overall AUC: 0.550 and average AUC: 0.486). Additionally, we show that a number of predicted cancer-associated m6A sites are supported by existing literatures, suggesting that the proposed approach can effectively uncover the underlying epitranscriptome circuits of disease mechanisms. An online database DRUM, which stands for disease-associated ribonucleic acid methylation, was built to support the query of disease-associated RNA m6A methylation sites, and is freely available at: www.xjtlu.edu.cn/biologicalsciences/drum.
+31001320	38	41	m6A	Chemical	MESH:C005955
+31001320	148	167	N 6-methyladenosine	Chemical	MESH:C010223
+31001320	169	172	m6A	Chemical	MESH:C005955
+31001320	294	301	cancers	Disease	MESH:D009369
+31001320	337	340	m6A	Chemical	MESH:C005955
+31001320	582	585	m6A	Chemical	MESH:C005955
+31001320	748	751	m6A	Chemical	MESH:C005955
+31001320	876	879	m6A	Chemical	MESH:C005955
+31001320	1022	1025	m6A	Chemical	MESH:C005955
+31001320	1576	1582	cancer	Disease	MESH:D009369
+31001320	1594	1597	m6A	Chemical	MESH:C005955
+31001320	1917	1920	m6A	Chemical	MESH:C005955
+31001320	Association	MESH:C010223	MESH:D009369
+31001320	Association	MESH:C005955	MESH:D009369
+

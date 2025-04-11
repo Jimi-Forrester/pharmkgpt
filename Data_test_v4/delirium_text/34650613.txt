@@ -1,0 +1,55 @@
+34650613|t|Network Pharmacology-Based Study of the Underlying Mechanisms of Huangqi Sijunzi Decoction for Alzheimer's Disease.
+34650613|a|BACKGROUND: Huangqi Sijunzi decoction (HQSJZD) is a commonly used conventional Chinese herbal medicine prescription for invigorating Qi, tonifying Yang, and removing dampness. Modern pharmacology and clinical applications of HQSJZD have shown that it has a certain curative effect on Alzheimer's disease (AD). METHODS: The active components and targets of HQSJZD were searched in the Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform (TCMSP). The genes corresponding to the targets were retrieved using UniProt and GeneCard database. The herb-compound-target network and protein-protein interaction (PPI) network were constructed by Cytoscape. The core targets of HQSJZD were analysed by Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG). The main active compounds of HQSJZD were docked with acetylcholinesterase (AChE). In vitro experiments were conducted to detect the inhibitory and neuroprotective effects of AChE. RESULTS: Compound-target network mainly contained 132 compounds and 255 corresponding targets. The main compounds contained quercetin, kaempferol, formononetin, isorhamnetin, hederagenin, and calycosin. Key targets contained AChE, PTGS2, PPARG, IL-1B, GSK3B, etc. There were 1708 GO items in GO enrichment analysis and 310 signalling pathways in KEGG, mainly including the cAMP signalling pathway, the vascular endothelial growth factor (VEGF) signalling pathway, serotonergic synapses, the calcium signalling pathway, type II diabetes mellitus, arginine and proline metabolism, and the longevity regulating pathway. Molecular docking showed that hederagenin and formononetin were the top 2 compounds of HQSJZD, which had a high affinity with AChE. And formononetin has a good neuroprotective effect, which can improve the oxidative damage of nerve cells. CONCLUSION: HQSJZD was found to have the potential to treat AD by targeting multiple AD-related targets. Formononetin and hederagenin in HQSJZD may regulate multiple signalling pathways through AChE, which might play a therapeutic role in AD.
+34650613	65	90	Huangqi Sijunzi Decoction	Chemical	-
+34650613	95	114	Alzheimer's Disease	Disease	MESH:D000544
+34650613	128	153	Huangqi Sijunzi decoction	Chemical	-
+34650613	155	161	HQSJZD	Chemical	-
+34650613	195	218	Chinese herbal medicine	Chemical	-
+34650613	341	347	HQSJZD	Chemical	-
+34650613	400	419	Alzheimer's disease	Disease	MESH:D000544
+34650613	421	423	AD	Disease	MESH:D000544
+34650613	472	478	HQSJZD	Chemical	-
+34650613	811	817	HQSJZD	Chemical	-
+34650613	935	941	HQSJZD	Chemical	-
+34650613	959	979	acetylcholinesterase	Gene	43
+34650613	981	985	AChE	Gene	43
+34650613	1080	1085	AChE.	Gene	43
+34650613	1210	1219	quercetin	Chemical	MESH:D011794
+34650613	1221	1231	kaempferol	Chemical	MESH:C006552
+34650613	1233	1245	formononetin	Chemical	MESH:C007768
+34650613	1247	1259	isorhamnetin	Chemical	MESH:C047368
+34650613	1261	1272	hederagenin	Chemical	MESH:C025763
+34650613	1278	1287	calycosin	Chemical	MESH:C121707
+34650613	1311	1315	AChE	Gene	43
+34650613	1317	1322	PTGS2	Gene	5743
+34650613	1324	1329	PPARG	Gene	5468
+34650613	1331	1336	IL-1B	Gene	3553
+34650613	1338	1343	GSK3B	Gene	2932
+34650613	1459	1463	cAMP	Chemical	-
+34650613	1488	1522	vascular endothelial growth factor	Gene	7422
+34650613	1524	1528	VEGF	Gene	7422
+34650613	1577	1584	calcium	Chemical	MESH:D002118
+34650613	1605	1630	type II diabetes mellitus	Disease	MESH:D003924
+34650613	1632	1640	arginine	Chemical	MESH:D001120
+34650613	1645	1652	proline	Chemical	MESH:D011392
+34650613	1733	1744	hederagenin	Chemical	MESH:C025763
+34650613	1749	1761	formononetin	Chemical	MESH:C007768
+34650613	1790	1796	HQSJZD	Chemical	-
+34650613	1829	1834	AChE.	Gene	43
+34650613	1839	1851	formononetin	Chemical	MESH:C007768
+34650613	1919	1934	damage of nerve	Disease	MESH:D000080902
+34650613	1954	1960	HQSJZD	Chemical	-
+34650613	2002	2004	AD	Disease	MESH:D000544
+34650613	2027	2029	AD	Disease	MESH:D000544
+34650613	2047	2059	Formononetin	Chemical	MESH:C007768
+34650613	2064	2075	hederagenin	Chemical	MESH:C025763
+34650613	2079	2085	HQSJZD	CellLine	
+34650613	2136	2140	AChE	Gene	43
+34650613	2181	2183	AD	Disease	MESH:D000544
+34650613	Association	MESH:C025763	43
+34650613	Positive_Correlation	MESH:D000080902	43
+34650613	Positive_Correlation	MESH:C007768	MESH:D000080902
+34650613	Negative_Correlation	MESH:D011794	MESH:D000544
+34650613	Association	MESH:C007768	43
+34650613	Negative_Correlation	MESH:C006552	MESH:D000544
+

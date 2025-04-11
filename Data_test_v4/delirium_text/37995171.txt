@@ -1,0 +1,13 @@
+37995171|t|Occluded Facial Pain Assessment in the ICU using Action Units Guided Network.
+37995171|a|Untreated pain in critically ill patients can lead to immunosuppression and increased metabolic activity, with severe clinical consequences such as tachypnea and delirium. Continuous pain assessment is challenging due to nursing shortages and intensive care unit (ICU) workload. Mechanical ventilation equipment obscures the facial features of many patients in the ICU, making previous facial pain detection methods based on full-face images inapplicable. This paper proposes a facial Action Units (AUs) guided pain assessment network for faces under occlusion. The network consists of an AU-guided (AUG) module, a texture feature extraction (TFE) module, and a pain assessment (PA) module. The AUG module automatically detects AUs in the non-occluded areas of the face. In contrast, the TFE module detects the facial landmarks and crops prior knowledge patches, a random exploration patch, and a global feature patch. Then these patches are fed into two convolutional networks to extract texture features. Afterward, the designed AU guidances and texture features are fused in the PA module to assess the pain state. Extensive validation is conducted on a public dataset and two datasets created in this work. The proposed network architecture achieves superior performance in binary classification, four-class classification, and intensity regression tasks. In addition, we have successfully applied the network to actual data collected in the laboratory environment with excellent results.
+37995171	9	20	Facial Pain	Disease	MESH:D005157
+37995171	88	92	pain	Disease	MESH:D010146
+37995171	96	110	critically ill	Disease	MESH:D016638
+37995171	226	235	tachypnea	Disease	MESH:D059246
+37995171	240	248	delirium	Disease	MESH:D003693
+37995171	261	265	pain	Disease	MESH:D010146
+37995171	464	475	facial pain	Disease	MESH:D005157
+37995171	589	593	pain	Disease	MESH:D010146
+37995171	740	744	pain	Disease	MESH:D010146
+37995171	1184	1188	pain	Disease	MESH:D010146
+

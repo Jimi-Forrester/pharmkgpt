@@ -1,0 +1,33 @@
+39426080|t|Androgen receptor pathway inhibitors and drug-drug interactions in prostate cancer.
+39426080|a|Prostate cancer represents a major global health challenge, necessitating efficacious therapeutic strategies. Androgen receptor pathway inhibitors (ARPIs) have become central to prostate cancer treatment, demonstrating significant effectiveness in both metastatic and non-metastatic contexts. Abiraterone acetate, by inhibiting androgen synthesis, deprives cancer cells androgens necessary for growth, while second-generation androgen receptor (AR) antagonists disrupt AR signaling by blocking AR binding, thereby impeding tumor progression. Given the predominance of prostate cancer in the elderly, who often present with multiple comorbidities requiring complex pharmacological regimens, the potential for drug-drug interactions with ARPIs is a critical concern. These interactions, particularly through pathways like CYP2D6 inhibition by abiraterone and CYP3A4 induction by enzalutamide and apalutamide, necessitate a thorough understanding to optimize therapeutic outcomes and minimize adverse effects. This review aims to delineate the efficacy of ARPIs in prostate cancer management and elucidate their interaction with common medications, highlighting the importance of vigilant drug management to optimize patient care.
+39426080	0	17	Androgen receptor	Gene	367
+39426080	67	82	prostate cancer	Disease	MESH:D011471
+39426080	84	99	Prostate cancer	Disease	MESH:D011471
+39426080	194	211	Androgen receptor	Gene	367
+39426080	262	277	prostate cancer	Disease	MESH:D011471
+39426080	377	396	Abiraterone acetate	Chemical	MESH:D000069501
+39426080	441	447	cancer	Disease	MESH:D009369
+39426080	510	527	androgen receptor	Gene	367
+39426080	529	531	AR	Gene	367
+39426080	553	555	AR	Gene	367
+39426080	578	580	AR	Gene	367
+39426080	607	612	tumor	Disease	MESH:D009369
+39426080	652	667	prostate cancer	Disease	MESH:D011471
+39426080	904	910	CYP2D6	Gene	1565
+39426080	925	936	abiraterone	Chemical	MESH:C089740
+39426080	941	947	CYP3A4	Gene	1576
+39426080	961	973	enzalutamide	Chemical	MESH:C540278
+39426080	978	989	apalutamide	Chemical	MESH:C572045
+39426080	1146	1161	prostate cancer	Disease	MESH:D011471
+39426080	1298	1305	patient	Species	9606
+39426080	Negative_Correlation	MESH:D000069501	MESH:D009369
+39426080	Association	MESH:D009369	367
+39426080	Positive_Correlation	MESH:C572045	1576
+39426080	Negative_Correlation	MESH:C572045	367
+39426080	Association	MESH:D011471	367
+39426080	Positive_Correlation	MESH:C540278	1576
+39426080	Negative_Correlation	MESH:D000069501	367
+39426080	Negative_Correlation	MESH:C089740	1565
+39426080	Negative_Correlation	MESH:C089740	367
+39426080	Negative_Correlation	MESH:C540278	367
+

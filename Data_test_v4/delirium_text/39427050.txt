@@ -1,0 +1,36 @@
+39427050|t|Exploration of the shared gene signatures and molecular mechanisms between Alzheimer's disease and intracranial aneurysm.
+39427050|a|Although Alzheimer's disease (AD) and intracranial aneurysm (IA) were two different types of diseases that occurred in the brain, ruptured IA (RIA) survivors may experience varying degrees of cognitive dysfunction. Neither AD nor IA is easily recognizable by an early onset so that the incidence of adverse clinical outcomes would be on the rise. Therefore, we focused on the exploration of the shared genes and molecular mechanisms between AD and IA, which would be significant for the efficiency of co-screening and co-diagnosis. Two GEO datasets were selected for the weighted gene co-expression network analysis (WGCNA) and differentially expressed gene screening, obtaining 78 overlapped genes. Next, 9 hub genes were identified by the protein-protein interaction network, including PIK3CA, GAB1, IGF1R, PLCB1, PGR, PDGFRB, PLCE1, FGFR3, and SYNJ1. The interactions among the hub genes, miRNA, and TFs were also explored. Meanwhile, we performed GO and KEGG pathway enrichment analyses for the results of WGCNA and hub genes, which showed that the Ras signaling and Rap1 signaling were the main shared pathogenesis. In conclusion, the present bioinformatics analysis revealed that AD and IA had the shared genes and molecular mechanisms, and these outcomes were associated with inflammation and calcium homeostasis, which could provide research clues for further studies.
+39427050	75	94	Alzheimer's disease	Disease	MESH:D000544
+39427050	99	120	intracranial aneurysm	Disease	MESH:D002532
+39427050	131	150	Alzheimer's disease	Disease	MESH:D000544
+39427050	152	154	AD	Disease	MESH:D000544
+39427050	160	181	intracranial aneurysm	Disease	MESH:D002532
+39427050	183	185	IA	Disease	MESH:D002532
+39427050	252	263	ruptured IA	Disease	MESH:D017542
+39427050	265	268	RIA	Disease	MESH:D017542
+39427050	314	335	cognitive dysfunction	Disease	MESH:D003072
+39427050	345	347	AD	Disease	MESH:D000544
+39427050	352	354	IA	Disease	MESH:D002532
+39427050	563	565	AD	Disease	MESH:D000544
+39427050	570	572	IA	Disease	MESH:D002532
+39427050	910	916	PIK3CA	Gene	5290
+39427050	918	922	GAB1	Gene	2549
+39427050	924	929	IGF1R	Gene	3480
+39427050	931	936	PLCB1	Gene	23236
+39427050	938	941	PGR	Gene	5241
+39427050	943	949	PDGFRB	Gene	5159
+39427050	951	956	PLCE1	Gene	51196
+39427050	958	963	FGFR3	Gene	2261
+39427050	969	974	SYNJ1	Gene	8867
+39427050	1193	1197	Rap1	Gene	5906
+39427050	1308	1310	AD	Disease	MESH:D000544
+39427050	1315	1317	IA	Disease	MESH:D002532
+39427050	1405	1417	inflammation	Disease	MESH:D007249
+39427050	1422	1429	calcium	Chemical	MESH:D002118
+39427050	Association	MESH:D000544	23236
+39427050	Association	MESH:D002118	MESH:D002532
+39427050	Association	MESH:D000544	5906
+39427050	Association	MESH:D002532	23236
+39427050	Association	MESH:D002118	MESH:D000544
+39427050	Association	MESH:D002532	5906
+

@@ -1,0 +1,34 @@
+22124704|t|Effect of activation of canonical Wnt signaling by the Wnt-3a protein on the susceptibility of PC12 cells to oxidative and apoptotic insults.
+22124704|a|Wnt proteins are involved in tissue development and their signaling pathways play an important role during embryogenesis. Wnt signaling can promote cell survival, which is beneficial for neurons, but could also lead to tumor development in different tissues. The present study investigated the effects of a Wnt protein on the susceptibility of a neural tumor cell line (PC12 cells) to the cytotoxic compounds ferrous sulfate (10 mM), staurosporine (100 and 500 nM), 3-nitropropionic acid (5 mM), and amyloid beta-peptide (Abeta25-35; 50 microM). Cells (1 x 10(6) cells/mL) were treated with the Wnt-3a recombinant peptide (200 ng/mL) for 24 h before exposure to toxic insults. The Wnt-3a protein partially protected PC12 cells, with a 6-15% increase in cell viability in the presence of toxic agents, similar to the effect measured using the MTT and lactate dehydrogenase cell viability assays. The Wnt-3a protein increased protein expression of beta-catenin by 52% compared to control. These findings suggest that Wnt signaling can protect neural cells against apoptosis induced by toxic agents, which are relevant to the pathogenesis of Alzheimer's and Huntington's diseases.
+22124704	34	37	Wnt	Gene	114487
+22124704	55	61	Wnt-3a	Gene	303181
+22124704	95	99	PC12	CellLine	CVCL:0481
+22124704	142	145	Wnt	Gene	114487
+22124704	264	267	Wnt	Gene	114487
+22124704	361	366	tumor	Disease	MESH:D009369
+22124704	449	452	Wnt	Gene	114487
+22124704	488	500	neural tumor	Disease	MESH:D009369
+22124704	512	516	PC12	CellLine	CVCL:0481
+22124704	531	540	cytotoxic	Disease	MESH:D064420
+22124704	551	566	ferrous sulfate	Chemical	MESH:C020748
+22124704	576	589	staurosporine	Chemical	MESH:D019311
+22124704	608	629	3-nitropropionic acid	Chemical	MESH:C015392
+22124704	737	743	Wnt-3a	Gene	303181
+22124704	823	829	Wnt-3a	Gene	303181
+22124704	858	862	PC12	CellLine	CVCL:0481
+22124704	984	987	MTT	Chemical	MESH:C070243
+22124704	1041	1047	Wnt-3a	Gene	303181
+22124704	1088	1100	beta-catenin	Gene	84353
+22124704	1157	1160	Wnt	Gene	114487
+22124704	1281	1292	Alzheimer's	Disease	MESH:D000544
+22124704	1297	1318	Huntington's diseases	Disease	MESH:D006816
+22124704	Association	MESH:D009369	114487
+22124704	Positive_Correlation	MESH:D019311	MESH:D064420
+22124704	Positive_Correlation	303181	84353
+22124704	Association	MESH:D000544	114487
+22124704	Positive_Correlation	MESH:C020748	MESH:D064420
+22124704	Positive_Correlation	MESH:D019311	MESH:D009369
+22124704	Association	MESH:D006816	303181
+22124704	Association	MESH:D006816	114487
+22124704	Negative_Correlation	MESH:C015392	MESH:D064420
+

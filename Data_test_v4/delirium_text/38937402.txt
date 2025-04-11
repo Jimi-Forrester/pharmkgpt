@@ -1,0 +1,20 @@
+38937402|t|Machine learning for the prediction of delirium in elderly intensive care unit patients.
+38937402|a|PURPOSE: This study aims to develop and validate a prediction model for delirium in elderly ICU patients and help clinicians identify high-risk patients at the early stage. METHODS: Patients admitted to ICU for at least 24 h and using the Confusion Assessment Method for the Intensive Care Unit (CAM-ICU) in the Medical Information Mart for Intensive Care-IV (MIMIC-IV) database (76,943 ICU stays from 2008 to 2019) were considered. Patients with a positive delirium test in the first 24 h and under 65 years of age were excluded. Two prediction models, machine learning extreme gradient boosting (XGBoost) and logistic regression (LR) model, were developed and validated to predict the onset of delirium. RESULTS: Of the 18,760 patients included in the analysis, 3463(18.5%) were delirium positive. A total of 22 significant predictors were selected by LASSO regression. The XGBoost model demonstrated superior performance over the LR model, with the Area Under the Receiver Operating Characteristic (AUC) values of 0.853 (95% confidence interval [CI] 0.846-0.861) and 0.831 (95% CI 0.815-0.847) in the training and testing datasets, respectively. Moreover, the XGBoost model outperformed the LR model in both calibration and clinical utility. The top five predictors associated with the onset of delirium were sequential organ failure assessment (SOFA), infection, minimum platelets, maximum systolic blood pressure (SBP), and maximum temperature. CONCLUSION: The XGBoost model demonstrated good predictive performance for delirium among elderly ICU patients, thus assisting clinicians in identifying high-risk patients at the early stage and implementing targeted interventions to improve outcome.
+38937402	39	47	delirium	Disease	MESH:D003693
+38937402	79	87	patients	Species	9606
+38937402	161	169	delirium	Disease	MESH:D003693
+38937402	185	193	patients	Species	9606
+38937402	233	241	patients	Species	9606
+38937402	271	279	Patients	Species	9606
+38937402	522	530	Patients	Species	9606
+38937402	547	555	delirium	Disease	MESH:D003693
+38937402	785	793	delirium	Disease	MESH:D003693
+38937402	818	826	patients	Species	9606
+38937402	870	878	delirium	Disease	MESH:D003693
+38937402	1387	1395	delirium	Disease	MESH:D003693
+38937402	1412	1425	organ failure	Disease	MESH:D009102
+38937402	1445	1454	infection	Disease	MESH:D007239
+38937402	1614	1622	delirium	Disease	MESH:D003693
+38937402	1641	1649	patients	Species	9606
+38937402	1702	1710	patients	Species	9606
+

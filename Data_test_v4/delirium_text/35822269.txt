@@ -1,0 +1,11 @@
+35822269|t|Semantic segmentation of human cell nucleus using deep U-Net and other versions of U-Net models.
+35822269|a|The deep learning models play an essential role in many areas, including medical image analysis. These models extract important features without human intervention. In this paper, we propose a deep convolution neural network, named as deep U-Net model, for the segmentation of the cell nucleus, a critical functional unit that determines the function and structure of the body. The nucleus contains all kinds of DNA, RNA, chromosomes, and genes governing all life activities, and its disorder may lead to different types of diseases such as cancer, heart disease, diabetes, Alzheimer's, etc. If the nucleus structure is known correctly, diseases due to nucleus disorder may be detected early. It may also reduce the drug discovery time if the shape and size of the nucleus are known. We evaluate the performance of the proposed models on the nucleus segmentation data set used by the Data Science Bowl 2018 competition hosted by Kaggle. We compare its performance with that of the U-Net, Attention U-Net, R2U-Net, Attention R2U-Net, and both versions of the U-Net++ with and without supervision, in terms of loss, dice coefficient, dice loss, intersection over union, and accuracy. Our model performs better than the existing models.
+35822269	25	30	human	Species	9606
+35822269	242	247	human	Species	9606
+35822269	581	589	disorder	Disease	MESH:D009358
+35822269	638	644	cancer	Disease	MESH:D009369
+35822269	646	659	heart disease	Disease	MESH:D006331
+35822269	661	669	diabetes	Disease	MESH:D003920
+35822269	671	682	Alzheimer's	Disease	MESH:D000544
+35822269	758	766	disorder	Disease	MESH:D009358
+

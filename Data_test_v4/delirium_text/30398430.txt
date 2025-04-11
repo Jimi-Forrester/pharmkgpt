@@ -1,0 +1,18 @@
+30398430|t|A Deep Learning Model to Predict a Diagnosis of Alzheimer Disease by Using 18F-FDG PET of the Brain.
+30398430|a|Purpose To develop and validate a deep learning algorithm that predicts the final diagnosis of Alzheimer disease (AD), mild cognitive impairment, or neither at fluorine 18 (18F) fluorodeoxyglucose (FDG) PET of the brain and compare its performance to that of radiologic readers. Materials and Methods Prospective 18F-FDG PET brain images from the Alzheimer's Disease Neuroimaging Initiative (ADNI) (2109 imaging studies from 2005 to 2017, 1002 patients) and retrospective independent test set (40 imaging studies from 2006 to 2016, 40 patients) were collected. Final clinical diagnosis at follow-up was recorded. Convolutional neural network of InceptionV3 architecture was trained on 90% of ADNI data set and tested on the remaining 10%, as well as the independent test set, with performance compared to radiologic readers. Model was analyzed with sensitivity, specificity, receiver operating characteristic (ROC), saliency map, and t-distributed stochastic neighbor embedding. Results The algorithm achieved area under the ROC curve of 0.98 (95% confidence interval: 0.94, 1.00) when evaluated on predicting the final clinical diagnosis of AD in the independent test set (82% specificity at 100% sensitivity), an average of 75.8 months prior to the final diagnosis, which in ROC space outperformed reader performance (57% [four of seven] sensitivity, 91% [30 of 33] specificity; P < .05). Saliency map demonstrated attention to known areas of interest but with focus on the entire brain. Conclusion By using fluorine 18 fluorodeoxyglucose PET of the brain, a deep learning algorithm developed for early prediction of Alzheimer disease achieved 82% specificity at 100% sensitivity, an average of 75.8 months prior to the final diagnosis.   RSNA, 2018 Online supplemental material is available for this article. See also the editorial by Larvie in this issue.
+30398430	48	65	Alzheimer Disease	Disease	MESH:D000544
+30398430	75	82	18F-FDG	Chemical	MESH:D019788
+30398430	196	213	Alzheimer disease	Disease	MESH:D000544
+30398430	215	217	AD	Disease	MESH:D000544
+30398430	225	245	cognitive impairment	Disease	MESH:D003072
+30398430	261	297	fluorine 18 (18F) fluorodeoxyglucose	Chemical	-
+30398430	299	302	FDG	Chemical	MESH:D019788
+30398430	414	421	18F-FDG	Chemical	MESH:D019788
+30398430	448	467	Alzheimer's Disease	Disease	MESH:D000544
+30398430	545	553	patients	Species	9606
+30398430	636	644	patients	Species	9606
+30398430	1243	1245	AD	Disease	MESH:D000544
+30398430	1611	1641	fluorine 18 fluorodeoxyglucose	Chemical	MESH:D019788
+30398430	1720	1737	Alzheimer disease	Disease	MESH:D000544
+30398430	Association	MESH:D019788	MESH:D000544
+

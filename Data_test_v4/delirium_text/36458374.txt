@@ -1,0 +1,33 @@
+36458374|t|Investigation of the enantioselectivity of acetylcholinesterase and butyrylcholinesterase upon inhibition by tacrine-iminosugar heterodimers.
+36458374|a|The copper-catalysed azide-alkyne cycloaddition was applied to prepare three enantiomeric pairs of heterodimers containing a tacrine residue and a 1,4-dideoxy-1,4-imino-D-arabinitol (DAB) or 1,4-dideoxy-1,4-imino-L-arabinitol (LAB) moiety held together via linkers of variable lengths containing a 1,2,3-triazole ring and 3, 4, or 7 CH2 groups. The heterodimers were tested as inhibitors of butyrylcholinesterase (BuChE) and acetylcholinesterase (AChE). The enantiomeric heterodimers with the longest linkers exhibited the highest inhibition potencies for AChE (IC50 = 9.7 nM and 11 nM) and BuChE (IC50 = 8.1 nM and 9.1 nM). AChE exhibited the highest enantioselectivity (ca. 4-fold). The enantiomeric pairs of the heterodimers were found to be inactive (GI50 > 100 microM), or to have weak antiproliferative properties (GI50 = 84-97 microM) against a panel of human cancer cells.
+36458374	43	63	acetylcholinesterase	Gene	43
+36458374	68	89	butyrylcholinesterase	Gene	590
+36458374	109	116	tacrine	Chemical	MESH:D013619
+36458374	117	127	iminosugar	Chemical	MESH:D050111
+36458374	146	152	copper	Chemical	MESH:D003300
+36458374	163	168	azide	Chemical	MESH:D001386
+36458374	267	274	tacrine	Chemical	MESH:D013619
+36458374	289	323	1,4-dideoxy-1,4-imino-D-arabinitol	Chemical	MESH:C058137
+36458374	325	328	DAB	Chemical	MESH:C058137
+36458374	333	367	1,4-dideoxy-1,4-imino-L-arabinitol	Chemical	MESH:C058137
+36458374	369	372	LAB	Chemical	MESH:C058137
+36458374	440	454	1,2,3-triazole	Chemical	-
+36458374	533	554	butyrylcholinesterase	Gene	590
+36458374	556	561	BuChE	Gene	590
+36458374	567	587	acetylcholinesterase	Gene	43
+36458374	589	593	AChE	Gene	43
+36458374	698	702	AChE	Gene	43
+36458374	733	738	BuChE	Gene	590
+36458374	767	771	AChE	Gene	43
+36458374	1003	1008	human	Species	9606
+36458374	1009	1015	cancer	Disease	MESH:D009369
+36458374	Negative_Correlation	MESH:D013619	43
+36458374	Association	MESH:D013619	MESH:D050111
+36458374	Negative_Correlation	MESH:C058137	43
+36458374	Cotreatment	MESH:C058137	590
+36458374	Negative_Correlation	MESH:D050111	43
+36458374	Cotreatment	MESH:C058137	MESH:D013619
+36458374	Negative_Correlation	MESH:D013619	590
+36458374	Association	MESH:D001386	MESH:D003300
+36458374	Negative_Correlation	MESH:D050111	590
+

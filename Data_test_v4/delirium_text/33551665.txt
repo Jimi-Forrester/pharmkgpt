@@ -1,0 +1,19 @@
+33551665|t|Leveraging Deep Learning for Designing Healthcare Analytics Heuristic for Diagnostics.
+33551665|a|Healthcare Informatics is a phenomenon being talked about from the early 21st century in the era in which we are living. With evolution of new computing technologies huge amount of data in healthcare is produced opening several research areas. Managing the massiveness of this data is required while extracting knowledge for decision making is the main concern of today. For this task researchers are doing explorations in big data analytics, deep learning (advanced form of machine learning known as deep neural nets), predictive analytics and various other algorithms to bring innovation in healthcare. Through all these innovations happening it is not wrong to establish that disease prediction with anticipation of its cure is no longer unrealistic. First, Dengue Fever (DF) and then Covid-19 likewise are new outbreak in infectious lethal diseases and diagnosing at all stages is crucial to decrease mortality rate. In case of Diabetes, clinicians and experts are finding challenging the timely diagnosis and analyzing the chances of developing underlying diseases. In this paper, Louvain Mani-Hierarchical Fold Learning healthcare analytics, a hybrid deep learning technique is proposed for medical diagnostics and is tested and validated using real-time dataset of 104 instances of patients with dengue fever made available by Holy Family Hospital, Pakistan and 810 instances found for infectious diseases including prognosis of; Covid-19, SARS, ARDS, Pneumocystis, Streptococcus, Chlamydophila, Klebsiella, Legionella, Lipoid, etc. on GitHub. Louvain Mani-Hierarchical Fold Learning healthcare analytics showed maximum 0.952 correlations between two clusters with Spearman when applied on 240 instances extracted from comorbidities diagnostic data model derived from 15696 endocrine records of multiple visits of 100 patients identified by a unique ID. Accuracy for induced rules is evaluated by Laplace (Fig. 8) as 0.727, 0.701 and 0.203 for 41, 18 and 24 rules, respectively. Endocrine diagnostic data is made available by Shifa International Hospital, Islamabad, Pakistan. Our results show that in future this algorithm may be tested for diagnostics on healthcare big data.
+33551665	848	860	Dengue Fever	Disease	MESH:D003715
+33551665	862	864	DF	Disease	MESH:D003715
+33551665	875	883	Covid-19	Disease	MESH:D000086382
+33551665	1019	1027	Diabetes	Disease	MESH:D003920
+33551665	1376	1384	patients	Species	9606
+33551665	1390	1402	dengue fever	Disease	MESH:D003715
+33551665	1480	1499	infectious diseases	Disease	MESH:D003141
+33551665	1524	1532	Covid-19	Disease	MESH:D000086382
+33551665	1534	1538	SARS	Disease	MESH:D045169
+33551665	1540	1544	ARDS	Disease	MESH:D012128
+33551665	1546	1558	Pneumocystis	Species	4753
+33551665	1560	1573	Streptococcus	Species	1301
+33551665	1575	1588	Chlamydophila	Species	810
+33551665	1590	1600	Klebsiella	Species	570
+33551665	1602	1612	Legionella	Species	445
+33551665	1912	1920	patients	Species	9606
+

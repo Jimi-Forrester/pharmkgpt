@@ -1,0 +1,15 @@
+32294094|t|Towards a fully automated surveillance of well-being status in laboratory mice using deep learning: Starting with facial expression analysis.
+32294094|a|Assessing the well-being of an animal is hindered by the limitations of efficient communication between humans and animals. Instead of direct communication, a variety of parameters are employed to evaluate the well-being of an animal. Especially in the field of biomedical research, scientifically sound tools to assess pain, suffering, and distress for experimental animals are highly demanded due to ethical and legal reasons. For mice, the most commonly used laboratory animals, a valuable tool is the Mouse Grimace Scale (MGS), a coding system for facial expressions of pain in mice. We aim to develop a fully automated system for the surveillance of post-surgical and post-anesthetic effects in mice. Our work introduces a semi-automated pipeline as a first step towards this goal. A new data set of images of black-furred laboratory mice that were moving freely is used and provided. Images were obtained after anesthesia (with isoflurane or ketamine/xylazine combination) and surgery (castration). We deploy two pre-trained state of the art deep convolutional neural network (CNN) architectures (ResNet50 and InceptionV3) and compare to a third CNN architecture without pre-training. Depending on the particular treatment, we achieve an accuracy of up to 99% for the recognition of the absence or presence of post-surgical and/or post-anesthetic effects on the facial expression.
+32294094	74	78	mice	Species	10090
+32294094	246	252	humans	Species	9606
+32294094	462	466	pain	Disease	MESH:D010146
+32294094	575	579	mice	Species	10090
+32294094	647	652	Mouse	Species	10090
+32294094	716	720	pain	Disease	MESH:D010146
+32294094	724	728	mice	Species	10090
+32294094	842	846	mice	Species	10090
+32294094	981	985	mice	Species	10090
+32294094	1076	1086	isoflurane	Chemical	MESH:D007530
+32294094	1090	1098	ketamine	Chemical	-
+32294094	1099	1107	xylazine	Chemical	MESH:D014991
+

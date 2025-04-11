@@ -1,0 +1,20 @@
+37546764|t|A Natural Language Processing Algorithm for Classifying Suicidal Behaviors in Alzheimer's Disease and Related Dementia Patients: Development and Validation Using Electronic Health Records Data.
+37546764|a|This study aimed to develop a natural language processing algorithm (NLP) using machine learning (ML) and Deep Learning (DL) techniques to identify and classify documentation of suicidal behaviors in patients with Alzheimer's disease and related dementia (ADRD). We utilized MIMIC-III and MIMIC-IV datasets and identified ADRD patients and subsequently those with suicide ideation using relevant International Classification of Diseases (ICD) codes. We used cosine similarity with ScAN (Suicide Attempt and Ideation Events Dataset) to calculate semantic similarity scores of ScAN with extracted notes from MIMIC for the clinical notes. The notes were sorted based on these scores, and manual review and categorization into eight suicidal behavior categories were performed. The data were further analyzed using conventional ML and DL models, with manual annotation as a reference. The tested classifiers achieved classification results close to human performance with up to 98% precision and 98% recall of suicidal ideation in the ADRD patient population. Our NLP model effectively reproduced human annotation of suicidal ideation within the MIMIC dataset. These results establish a foundation for identifying and categorizing documentation related to suicidal ideation within ADRD population, contributing to the advancement of NLP techniques in healthcare for extracting and classifying clinical concepts, particularly focusing on suicidal ideation among patients with ADRD. Our study showcased the capability of a robust NLP algorithm to accurately identify and classify documentation of suicidal behaviors in ADRD patients.
+37546764	56	74	Suicidal Behaviors	Disease	MESH:D001523
+37546764	78	118	Alzheimer's Disease and Related Dementia	Disease	MESH:D000544
+37546764	372	390	suicidal behaviors	Disease	MESH:D001523
+37546764	408	448	Alzheimer's disease and related dementia	Disease	MESH:D000544
+37546764	450	454	ADRD	Disease	MESH:D000544
+37546764	516	520	ADRD	Disease	MESH:D000544
+37546764	558	574	suicide ideation	Disease	MESH:D001072
+37546764	923	940	suicidal behavior	Disease	MESH:D001523
+37546764	1200	1217	suicidal ideation	Disease	MESH:D001072
+37546764	1225	1229	ADRD	Disease	MESH:D000544
+37546764	1307	1324	suicidal ideation	Disease	MESH:D001072
+37546764	1446	1463	suicidal ideation	Disease	MESH:D001072
+37546764	1471	1475	ADRD	Disease	MESH:D000544
+37546764	1627	1644	suicidal ideation	Disease	MESH:D001072
+37546764	1665	1669	ADRD	Disease	MESH:D000544
+37546764	1785	1803	suicidal behaviors	Disease	MESH:D001523
+37546764	1807	1811	ADRD	Disease	MESH:D000544
+

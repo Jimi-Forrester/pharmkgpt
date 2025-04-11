@@ -1,0 +1,21 @@
+24743338|t|Connecting the dots: potential of data integration to identify regulatory SNPs in late-onset Alzheimer's disease GWAS findings.
+24743338|a|Late-onset Alzheimer's disease (LOAD) is a multifactorial disorder with over twenty loci associated with disease risk. Given the number of genome-wide significant variants that fall outside of coding regions, it is possible that some of these variants alter some function of gene expression rather than tagging coding variants that alter protein structure and/or function. RegulomeDB is a database that annotates regulatory functions of genetic variants. In this study, we utilized RegulomeDB to investigate potential regulatory functions of lead single nucleotide polymorphisms (SNPs) identified in five genome-wide association studies (GWAS) of risk and age-at onset (AAO) of LOAD, as well as SNPs in LD (r2>=0.80) with the lead GWAS SNPs. Of a total 614 SNPs examined, 394 returned RegulomeDB scores of 1-6. Of those 394 variants, 34 showed strong evidence of regulatory function (RegulomeDB score <3), and only 3 of them were genome-wide significant SNPs (ZCWPW1/rs1476679, CLU/rs1532278 and ABCA7/rs3764650). This study further supports the assumption that some of the non-coding GWAS SNPs are true associations rather than tagged associations and demonstrates the application of RegulomeDB to GWAS data. 
+24743338	82	112	late-onset Alzheimer's disease	Disease	MESH:D000544
+24743338	128	158	Late-onset Alzheimer's disease	Disease	MESH:D000544
+24743338	160	164	LOAD	Disease	MESH:D000544
+24743338	806	810	LOAD	Disease	MESH:D000544
+24743338	1088	1094	ZCWPW1	Gene	55063
+24743338	1095	1104	rs1476679	SNP	tmVar:rs1476679;VariantGroup:2;CorrespondingGene:55063;RS#:1476679;CorrespondingSpecies:9606
+24743338	1106	1109	CLU	Gene	1191
+24743338	1110	1119	rs1532278	SNP	tmVar:rs1532278;VariantGroup:1;CorrespondingGene:1191;RS#:1532278;CorrespondingSpecies:9606
+24743338	1124	1129	ABCA7	Gene	10347
+24743338	1130	1139	rs3764650	SNP	tmVar:rs3764650;VariantGroup:0;CorrespondingGene:10347;RS#:3764650;CorrespondingSpecies:9606
+24743338	Association	MESH:D000544	55063
+24743338	Positive_Correlation	MESH:D000544	RS#:3764650;CorrespondingGene:10347
+24743338	Positive_Correlation	MESH:D000544	RS#:1476679;CorrespondingGene:55063
+24743338	Positive_Correlation	MESH:D000544	RS#:1532278;CorrespondingGene:1191
+24743338	Association	MESH:D000544	10347
+24743338	Association	MESH:D000544	10347
+24743338	Association	MESH:D000544	55063
+24743338	Association	MESH:D000544	1191
+

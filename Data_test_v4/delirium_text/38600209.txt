@@ -1,0 +1,26 @@
+38600209|t|A decision support system based on recurrent neural networks to predict medication dosage for patients with Parkinson's disease.
+38600209|a|Using deep learning has demonstrated significant potential in making informed decisions based on clinical evidence. In this study, we deal with optimizing medication and quantitatively present the role of deep learning in predicting the medication dosage for patients with Parkinson's disease (PD). The proposed method is based on recurrent neural networks (RNNs) and tries to predict the dosage of five critical medication types for PD, including levodopa, dopamine agonists, monoamine oxidase-B inhibitors, catechol-O-methyltransferase inhibitors, and amantadine. Recurrent neural networks have memory blocks that retain crucial information from previous patient visits. This feature is helpful for patients with PD, as the neurologist can refer to the patient's previous state and the prescribed medication to make informed decisions. We employed data from the Parkinson's Progression Markers Initiative. The dataset included information on the Unified Parkinson's Disease Rating Scale, Activities of Daily Living, Hoehn and Yahr scale, demographic details, and medication use logs for each patient. We evaluated several models, such as multi-layer perceptron (MLP), Simple-RNN, long short-term memory (LSTM), and gated recurrent units (GRU). Our analysis found that recurrent neural networks (LSTM and GRU) performed the best. More specifically, when using LSTM, we were able to predict levodopa and dopamine agonist dosage with a mean squared error of 0.009 and 0.003, mean absolute error of 0.062 and 0.030, root mean square error of 0.099 and 0.053, and R-squared of 0.514 and 0.711, respectively.
+38600209	94	102	patients	Species	9606
+38600209	108	127	Parkinson's disease	Disease	MESH:D010300
+38600209	388	396	patients	Species	9606
+38600209	402	421	Parkinson's disease	Disease	MESH:D010300
+38600209	423	425	PD	Disease	MESH:D010300
+38600209	563	565	PD	Disease	MESH:D010300
+38600209	577	585	levodopa	Chemical	MESH:D007980
+38600209	587	595	dopamine	Chemical	MESH:D004298
+38600209	606	625	monoamine oxidase-B	Gene	4129
+38600209	683	693	amantadine	Chemical	MESH:D000547
+38600209	786	793	patient	Species	9606
+38600209	830	838	patients	Species	9606
+38600209	844	846	PD	Disease	MESH:D010300
+38600209	884	891	patient	Species	9606
+38600209	993	1004	Parkinson's	Disease	MESH:D010300
+38600209	1085	1104	Parkinson's Disease	Disease	MESH:D010300
+38600209	1223	1230	patient	Species	9606
+38600209	1520	1528	levodopa	Chemical	MESH:D007980
+38600209	1533	1541	dopamine	Chemical	MESH:D004298
+38600209	Negative_Correlation	MESH:D004298	MESH:D010300
+38600209	Negative_Correlation	MESH:D000547	MESH:D010300
+38600209	Association	MESH:D010300	4129
+38600209	Negative_Correlation	MESH:D007980	MESH:D010300
+

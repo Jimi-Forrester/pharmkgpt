@@ -1,0 +1,31 @@
+38267405|t|Prediction models for postoperative delirium in elderly patients with machine-learning algorithms and SHapley Additive exPlanations.
+38267405|a|Postoperative delirium (POD) is a common and severe complication in elderly patients with hip fractures. Identifying high-risk patients with POD can help improve the outcome of patients with hip fractures. We conducted a retrospective study on elderly patients (>=65 years of age) who underwent orthopedic surgery with hip fracture between January 2014 and August 2019. Conventional logistic regression and five machine-learning algorithms were used to construct prediction models of POD. A nomogram for POD prediction was built with the logistic regression method. The area under the receiver operating characteristic curve (AUC-ROC), accuracy, sensitivity, and precision were calculated to evaluate different models. Feature importance of individuals was interpreted using Shapley Additive Explanations (SHAP). About 797 patients were enrolled in the study, with the incidence of POD at 9.28% (74/797). The age, renal insufficiency, chronic obstructive pulmonary disease (COPD), use of antipsychotics, lactate dehydrogenase (LDH), and C-reactive protein are used to build a nomogram for POD with an AUC of 0.71. The AUCs of five machine-learning models are 0.81 (Random Forest), 0.80 (GBM), 0.68 (AdaBoost), 0.77 (XGBoost), and 0.70 (SVM). The sensitivities of the six models range from 68.8% (logistic regression and SVM) to 91.9% (Random Forest). The precisions of the six machine-learning models range from 18.3% (logistic regression) to 67.8% (SVM). Six prediction models of POD in patients with hip fractures were constructed using logistic regression and five machine-learning algorithms. The application of machine-learning algorithms could provide convenient POD risk stratification to benefit elderly hip fracture patients.
+38267405	22	44	postoperative delirium	Disease	MESH:D000071257
+38267405	56	64	patients	Species	9606
+38267405	133	155	Postoperative delirium	Disease	MESH:D000071257
+38267405	157	160	POD	Disease	MESH:D000071257
+38267405	209	217	patients	Species	9606
+38267405	223	236	hip fractures	Disease	MESH:D006620
+38267405	260	268	patients	Species	9606
+38267405	274	277	POD	Disease	MESH:D000071257
+38267405	310	318	patients	Species	9606
+38267405	324	337	hip fractures	Disease	MESH:D006620
+38267405	385	393	patients	Species	9606
+38267405	452	464	hip fracture	Disease	MESH:D006620
+38267405	617	620	POD	Disease	MESH:D000071257
+38267405	637	640	POD	Disease	MESH:D000071257
+38267405	956	964	patients	Species	9606
+38267405	1015	1018	POD	Disease	MESH:D000071257
+38267405	1047	1066	renal insufficiency	Disease	MESH:D051437
+38267405	1068	1105	chronic obstructive pulmonary disease	Disease	MESH:D029424
+38267405	1107	1111	COPD	Disease	MESH:D029424
+38267405	1170	1188	C-reactive protein	Gene	1401
+38267405	1222	1225	POD	Disease	MESH:D000071257
+38267405	1614	1617	POD	Disease	MESH:D000071257
+38267405	1621	1629	patients	Species	9606
+38267405	1635	1648	hip fractures	Disease	MESH:D006620
+38267405	1802	1805	POD	Disease	MESH:D000071257
+38267405	1845	1857	hip fracture	Disease	MESH:D006620
+38267405	1858	1866	patients	Species	9606
+38267405	Association	MESH:D000071257	1401
+

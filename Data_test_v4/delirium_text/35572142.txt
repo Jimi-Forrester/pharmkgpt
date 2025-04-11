@@ -1,0 +1,15 @@
+35572142|t|Fusing Multimodal and Anatomical Volumes of Interest Features Using Convolutional Auto-Encoder and Convolutional Neural Networks for Alzheimer's Disease Diagnosis.
+35572142|a|Alzheimer's disease (AD) is an age-related disease that affects a large proportion of the elderly. Currently, the neuroimaging techniques [e.g., magnetic resonance imaging (MRI) and positron emission tomography (PET)] are promising modalities for AD diagnosis. Since not all brain regions are affected by AD, a common technique is to study some region-of-interests (ROIs) that are believed to be closely related to AD. Conventional methods used ROIs, identified by the handcrafted features through Automated Anatomical Labeling (AAL) atlas rather than utilizing the original images which may induce missing informative features. In addition, they learned their framework based on the discriminative patches instead of full images for AD diagnosis in multistage learning scheme. In this paper, we integrate the original image features from MRI and PET with their ROIs features in one learning process. Furthermore, we use the ROIs features for forcing the network to focus on the regions that is highly related to AD and hence, the performance of the AD diagnosis can be improved. Specifically, we first obtain the ROIs features from the AAL, then we register every ROI with its corresponding region of the original image to get a synthetic image for each modality of every subject. Then, we employ the convolutional auto-encoder network for learning the synthetic image features and the convolutional neural network (CNN) for learning the original image features. Meanwhile, we concatenate the features from both networks after each convolution layer. Finally, the highly learned features from the MRI and PET are concatenated for brain disease classification. Experiments are carried out on the ADNI datasets including ADNI-1 and ADNI-2 to evaluate our method performance. Our method demonstrates a higher performance in brain disease classification than the recent studies.
+35572142	133	152	Alzheimer's Disease	Disease	MESH:D000544
+35572142	164	183	Alzheimer's disease	Disease	MESH:D000544
+35572142	185	187	AD	Disease	MESH:D000544
+35572142	195	214	age-related disease	Disease	MESH:D010024
+35572142	411	413	AD	Disease	MESH:D000544
+35572142	469	471	AD	Disease	MESH:D000544
+35572142	579	581	AD	Disease	MESH:D000544
+35572142	898	900	AD	Disease	MESH:D000544
+35572142	1177	1179	AD	Disease	MESH:D000544
+35572142	1214	1216	AD	Disease	MESH:D000544
+35572142	1795	1808	brain disease	Disease	MESH:D001927
+35572142	1986	1999	brain disease	Disease	MESH:D001927
+

@@ -1,0 +1,17 @@
+38952479|t|Generative AI unlocks PET insights: brain amyloid dynamics and quantification.
+38952479|a|Introduction: Studying the spatiotemporal patterns of amyloid accumulation in the brain over time is crucial in understanding Alzheimer's disease (AD). Positron Emission Tomography (PET) imaging plays a pivotal role because it allows for the visualization and quantification of abnormal amyloid beta (Abeta) load in the living brain, providing a powerful tool for tracking disease progression and evaluating the efficacy of anti-amyloid therapies. Generative artificial intelligence (AI) can learn complex data distributions and generate realistic synthetic images. In this study, we demonstrate for the first time the potential of Generative Adversarial Networks (GANs) to build a low-dimensional representation space that effectively describes brain amyloid load and its dynamics. Methods: Using a cohort of 1,259 subjects with AV45 PET images from the Alzheimer's Disease Neuroimaging Initiative (ADNI), we develop a 3D GAN model to project images into a latent representation space and generate back synthetic images. Then, we build a progression model on the representation space based on non-parametric ordinary differential equations to study brain amyloid evolution. Results: We found that global SUVR can be accurately predicted with a linear regression model only from the latent representation space (RMSE = 0.08 +- 0.01). We generated synthetic PET trajectories and illustrated predicted Abeta change in four years compared with actual progression. Discussion: Generative AI can generate rich representations for statistical prediction and progression modeling and simulate evolution in synthetic patients, providing an invaluable tool for understanding AD, assisting in diagnosis, and designing clinical trials. The aim of this study was to illustrate the huge potential that generative AI has in brain amyloid imaging and to encourage its advancement by providing use cases and ideas for future research tracks.
+38952479	42	49	amyloid	Disease	MESH:C000718787
+38952479	133	140	amyloid	Disease	MESH:C000718787
+38952479	205	224	Alzheimer's disease	Disease	MESH:D000544
+38952479	226	228	AD	Disease	MESH:D000544
+38952479	366	378	amyloid beta	Gene	351
+38952479	380	385	Abeta	Gene	351
+38952479	508	515	amyloid	Disease	MESH:C000718787
+38952479	831	838	amyloid	Disease	MESH:C000718787
+38952479	934	953	Alzheimer's Disease	Disease	MESH:D000544
+38952479	1235	1242	amyloid	Disease	MESH:C000718787
+38952479	1479	1484	Abeta	Gene	351
+38952479	1688	1696	patients	Species	9606
+38952479	1745	1747	AD	Disease	MESH:D000544
+38952479	1895	1902	amyloid	Disease	MESH:C000718787
+

@@ -1,0 +1,14 @@
+36650439|t|PDA-PRGCN: identification of Piwi-interacting RNA-disease associations through subgraph projection and residual scaling-based feature augmentation.
+36650439|a|BACKGROUND: Emerging evidences show that Piwi-interacting RNAs (piRNAs) play a pivotal role in numerous complex human diseases. Identifying potential piRNA-disease associations (PDAs) is crucial for understanding disease pathogenesis at molecular level. Compared to the biological wet experiments, the computational methods provide a cost-effective strategy. However, few computational methods have been developed so far. RESULTS: Here, we proposed an end-to-end model, referred to as PDA-PRGCN (PDA prediction using subgraph Projection and Residual scaling-based feature augmentation through Graph Convolutional Network). Specifically, starting with the known piRNA-disease associations represented as a graph, we applied subgraph projection to construct piRNA-piRNA and disease-disease subgraphs for the first time, followed by a residual scaling-based feature augmentation algorithm for node initial representation. Then, we adopted graph convolutional network (GCN) to learn and identify potential PDAs as a link prediction task on the constructed heterogeneous graph. Comprehensive experiments, including the performance comparison of individual components in PDA-PRGCN, indicated the significant improvement of integrating subgraph projection, node feature augmentation and dual-loss mechanism into GCN for PDA prediction. Compared with state-of-the-art approaches, PDA-PRGCN gave more accurate and robust predictions. Finally, the case studies further corroborated that PDA-PRGCN can reliably detect PDAs. CONCLUSION: PDA-PRGCN provides a powerful method for PDA prediction, which can also serve as a screening tool for studies of complex diseases.
+36650439	0	3	PDA	Disease	MESH:D004374
+36650439	29	33	Piwi	Gene	9271
+36650439	260	265	human	Species	9606
+36650439	633	636	PDA	Disease	MESH:D004374
+36650439	644	647	PDA	Disease	MESH:D004374
+36650439	1313	1316	PDA	Disease	MESH:D004374
+36650439	1461	1464	PDA	Disease	MESH:D004374
+36650439	1520	1523	PDA	Disease	MESH:D004374
+36650439	1625	1628	PDA	Disease	MESH:D004374
+36650439	1673	1676	PDA	Disease	MESH:D004374
+36650439	1714	1717	PDA	Disease	MESH:D004374
+

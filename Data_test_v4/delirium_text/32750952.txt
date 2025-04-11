@@ -1,0 +1,10 @@
+32750952|t|Prediction of Alzheimer's Disease Progression with Multi-Information Generative Adversarial Network.
+32750952|a|Alzheimer's disease (AD) is a chronic neurodegenerative disease, and its long-term progression prediction is definitely important. The structural Magnetic Resonance Imaging (sMRI) can be used to characterize the cortical atrophy that is closely coupled with clinical symptoms in AD and its prodromal stages. Many existing methods have focused on predicting the cognitive scores at future time-points using a set of morphological features derived from sMRI. The 3D sMRI can provide more massive information than the cognitive scores. However, very few works consider to predict an individual brain MRI image at future time-points. In this article, we propose a disease progression prediction framework that comprises a 3D multi-information generative adversarial network (mi-GAN) to predict what one's whole brain will look like with an interval, and a 3D DenseNet based multi-class classification network optimized with a focal loss to determine the clinical stage of the estimated brain. The mi-GAN can generate high-quality individual 3D brain MRI image conditioning on the individual 3D brain sMRI and multi-information at the baseline time-point. Experiments are implemented on the Alzheimer's Disease Neuroimaging Initiative (ADNI). Our mi-GAN shows the state-of-the-art performance with the structural similarity index (SSIM) of 0.943 between the real MRI images at the fourth year and the generated ones. With mi-GAN and focal loss, the pMCI vs. sMCI accuracy achieves 6.04% improvement in comparison with conditional GAN and cross entropy loss.
+32750952	14	33	Alzheimer's Disease	Disease	MESH:D000544
+32750952	101	120	Alzheimer's disease	Disease	MESH:D000544
+32750952	122	124	AD	Disease	MESH:D000544
+32750952	139	164	neurodegenerative disease	Disease	MESH:D019636
+32750952	322	329	atrophy	Disease	MESH:D001284
+32750952	380	382	AD	Disease	MESH:D000544
+32750952	1287	1306	Alzheimer's Disease	Disease	MESH:D000544
+

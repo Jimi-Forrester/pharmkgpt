@@ -1,0 +1,23 @@
+33395960|t|Automated detection of cerebral microbleeds in MR images: A two-stage deep learning approach.
+33395960|a|Cerebral Microbleeds (CMBs) are small chronic brain hemorrhages, which have been considered as diagnostic indicators for different cerebrovascular diseases including stroke, dysfunction, dementia, and cognitive impairment. However, automated detection and identification of CMBs in Magnetic Resonance (MR) images is a very challenging task due to their wide distribution throughout the brain, small sizes, and the high degree of visual similarity between CMBs and CMB mimics such as calcifications, irons, and veins. In this paper, we propose a fully automated two-stage integrated deep learning approach for efficient CMBs detection, which combines a regional-based You Only Look Once (YOLO) stage for potential CMBs candidate detection and three-dimensional convolutional neural networks (3D-CNN) stage for false positives reduction. Both stages are conducted using the 3D contextual information of microbleeds from the MR susceptibility-weighted imaging (SWI) and phase images. However, we average the adjacent slices of SWI and complement the phase images independently and utilize them as a two-channel input for the regional-based YOLO method. This enables YOLO to learn more reliable and representative hierarchal features and hence achieve better detection performance. The proposed work was independently trained and evaluated using high and low in-plane resolution data, which contained 72 subjects with 188 CMBs and 107 subjects with 572 CMBs, respectively. The results in the first stage show that the proposed regional-based YOLO efficiently detected the CMBs with an overall sensitivity of 93.62% and 78.85% and an average number of false positives per subject (FPavg) of 52.18 and 155.50 throughout the five-folds cross-validation for both the high and low in-plane resolution data, respectively. These findings outperformed results by previously utilized techniques such as 3D fast radial symmetry transform, producing fewer FPavg and lower computational cost. The 3D-CNN based second stage further improved the detection performance by reducing the FPavg to 1.42 and 1.89 for the high and low in-plane resolution data, respectively. The outcomes of this work might provide useful guidelines towards applying deep learning algorithms for automatic CMBs detection.
+33395960	23	43	cerebral microbleeds	Disease	MESH:D002547
+33395960	94	114	Cerebral Microbleeds	Disease	MESH:D002547
+33395960	116	120	CMBs	Disease	MESH:D002547
+33395960	140	157	brain hemorrhages	Disease	MESH:D020300
+33395960	225	249	cerebrovascular diseases	Disease	MESH:D002561
+33395960	260	266	stroke	Disease	MESH:D020521
+33395960	281	289	dementia	Disease	MESH:D003704
+33395960	295	315	cognitive impairment	Disease	MESH:D003072
+33395960	368	372	CMBs	Disease	MESH:D002547
+33395960	549	553	CMBs	Disease	MESH:D002547
+33395960	558	561	CMB	Disease	
+33395960	577	591	calcifications	Disease	MESH:D002114
+33395960	593	598	irons	Disease	MESH:D000090463
+33395960	713	717	CMBs	Disease	MESH:D002547
+33395960	807	811	CMBs	Disease	MESH:D002547
+33395960	995	1006	microbleeds	Disease	
+33395960	1512	1516	CMBs	Disease	MESH:D002547
+33395960	1543	1547	CMBs	Disease	MESH:D002547
+33395960	1662	1666	CMBs	Disease	MESH:D002547
+33395960	2358	2362	CMBs	Disease	MESH:D002547
+

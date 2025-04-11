@@ -1,0 +1,26 @@
+36769713|t|Development of a Machine-Learning Model for Prediction of Extubation Failure in Patients with Difficult Airways after General Anesthesia of Head, Neck, and Maxillofacial Surgeries.
+36769713|a|(1) Background: Extubation failure after general anesthesia is significantly associated with morbidity and mortality. The risk of a difficult airway after the general anesthesia of head, neck, and maxillofacial surgeries is significantly higher than that after general surgery, increasing the incidence of extubation failure. This study aimed to develop a multivariable prediction model based on a supervised machine-learning algorithm to predict extubation failure in adult patients after head, neck, and maxillofacial surgeries. (2) Methods: A single-center retrospective study was conducted in adult patients who underwent head, neck, and maxillofacial general anesthesia between July 2015 and July 2022 at the Shanghai Ninth People's Hospital. The primary outcome was extubation failure after general anesthesia. The dataset was divided into training (70%) and final test sets (30%). A five-fold cross-validation was conducted in the training set to reduce bias caused by the randomly divided dataset. Clinical data related to extubation failure were collected and a stepwise logistic regression was performed to screen out the key features. Six machine-learning methods were introduced for modeling, including random forest (RF), k-nearest neighbor (KNN), logistic regression (LOG), support vector machine (SVM), extreme gradient boosting (XGB), and optical gradient boosting machine (GBM). The best performance model in the first cross-validation dataset was further optimized and the final performance was assessed using the final test set. (3) Results: In total, 89,279 patients over seven years were reviewed. Extubation failure occurred in 77 patients. Next, 186 patients with a successful extubation were screened as the control group according to the surgery type for patients with extubation failure. Based on the stepwise regression, seven variables were screened for subsequent analysis. After training, SVM and LOG models showed better prediction ability. In the k-fold dataset, the area under the curve using SVM and LOG were 0.74 (95% confidence interval, 0.55-0.93) and 0.71 (95% confidence interval, 0.59-0.82), respectively, in the k-fold dataset. (4) Conclusion: Applying our machine-learning model to predict extubation failure after general anesthesia in clinical practice might help to reduce morbidity and mortality of patients with difficult airways after head, neck, and maxillofacial surgeries.
+36769713	58	76	Extubation Failure	Disease	MESH:D051437
+36769713	80	88	Patients	Species	9606
+36769713	140	155	Head, Neck, and	Disease	MESH:D006258
+36769713	197	215	Extubation failure	Disease	MESH:D051437
+36769713	362	377	head, neck, and	Disease	MESH:D006258
+36769713	487	505	extubation failure	Disease	MESH:D051437
+36769713	628	646	extubation failure	Disease	MESH:D051437
+36769713	656	664	patients	Species	9606
+36769713	671	686	head, neck, and	Disease	MESH:D006258
+36769713	784	792	patients	Species	9606
+36769713	807	822	head, neck, and	Disease	MESH:D006258
+36769713	953	971	extubation failure	Disease	MESH:D051437
+36769713	1212	1230	extubation failure	Disease	MESH:D051437
+36769713	1759	1767	patients	Species	9606
+36769713	1800	1818	Extubation failure	Disease	MESH:D051437
+36769713	1834	1842	patients	Species	9606
+36769713	1854	1862	patients	Species	9606
+36769713	1881	1891	extubation	Disease	
+36769713	1961	1969	patients	Species	9606
+36769713	1975	1993	extubation failure	Disease	MESH:D051437
+36769713	2413	2431	extubation failure	Disease	MESH:D051437
+36769713	2526	2534	patients	Species	9606
+36769713	2564	2579	head, neck, and	Disease	MESH:D006258
+

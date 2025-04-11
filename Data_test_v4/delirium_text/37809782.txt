@@ -1,0 +1,34 @@
+37809782|t|Helicobacter pylori infection increases the risk of carotid plaque formation: Clinical samples combined with bioinformatics analysis.
+37809782|a|Objective: Infection with Helicobacter pylori (H. pylori) may increase atherosclerosis, which can lead to carotid plaque formation. Our study examined the relationship between H. pylori infection and carotid plaque formation, and its underlying mechanisms. Methods: A total of 36,470 people who underwent physical examination in Taizhou Hospital Health Examination Center from June 2017 to June 2022 were included in this study. All people participated in the urease test, neck ultrasound, blood pressure detection, anthropometric measurement and biochemical laboratory examination. In addition, the GSE27411 and GSE28829 datasets in the Gene Expression Omnibus (GEO) database were used to analyze the mechanism of H. pylori infection and atherosclerosis progression. Results: H. pylori infection, sex, age, blood lipids, blood pressure, fasting blood glucose, glycated hemoglobin and body mass index were risk factors for carotid plaque formation. An independent risk factor was still evident in the multivariate logistic regression analysis, indicating H. pylori infection. Furthermore, after weighted gene coexpression network analysis (WGCNA), we discovered 555 genes linked to both H. pylori infection and the advancement of atherosclerosis. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses revealed a strong correlation between these genes and immunity, infection, and immune disorders. SsGSEA analysis showed that H. pylori infection and atherosclerosis included changes in the immune microenvironment. Finally, three genes MS4A6A, ADAMDEC1 and AQP9 were identified to be involved in the formation of atherosclerosis after H. pylori infection. Conclusion: Our research affirms that H. pylori is a unique contributor to the formation of carotid plaque, examines the immune microenvironment associated with H. pylori infection and advanced carotid atherosclerosis, and offers fresh perspectives on how H. pylori infection leads to atherosclerosis.
+37809782	0	29	Helicobacter pylori infection	Disease	MESH:D016481
+37809782	52	76	carotid plaque formation	Disease	MESH:D016893
+37809782	145	154	Infection	Disease	MESH:D007239
+37809782	205	220	atherosclerosis	Disease	MESH:D050197
+37809782	240	264	carotid plaque formation	Disease	MESH:D016893
+37809782	310	329	H. pylori infection	Disease	MESH:D016481
+37809782	334	358	carotid plaque formation	Disease	MESH:D016893
+37809782	849	868	H. pylori infection	Disease	MESH:D016481
+37809782	873	888	atherosclerosis	Disease	MESH:D050197
+37809782	911	930	H. pylori infection	Disease	MESH:D016481
+37809782	948	954	lipids	Chemical	MESH:D008055
+37809782	986	993	glucose	Chemical	MESH:D005947
+37809782	1057	1081	carotid plaque formation	Disease	MESH:D016893
+37809782	1189	1208	H. pylori infection	Disease	MESH:D016481
+37809782	1321	1340	H. pylori infection	Disease	MESH:D016481
+37809782	1364	1379	atherosclerosis	Disease	MESH:D050197
+37809782	1535	1544	infection	Disease	MESH:D007239
+37809782	1550	1566	immune disorders	Disease	MESH:D007154
+37809782	1596	1615	H. pylori infection	Disease	MESH:D016481
+37809782	1620	1635	atherosclerosis	Disease	MESH:D050197
+37809782	1706	1712	MS4A6A	Gene	64231
+37809782	1714	1722	ADAMDEC1	Gene	27299
+37809782	1727	1731	AQP9	Gene	366
+37809782	1783	1798	atherosclerosis	Disease	MESH:D050197
+37809782	1918	1932	carotid plaque	Disease	MESH:D016893
+37809782	2020	2043	carotid atherosclerosis	Disease	MESH:D002340
+37809782	2111	2126	atherosclerosis	Disease	MESH:D050197
+37809782	Association	MESH:D050197	64231
+37809782	Association	MESH:D050197	366
+37809782	Positive_Correlation	MESH:D005947	MESH:D016893
+37809782	Association	MESH:D050197	27299
+

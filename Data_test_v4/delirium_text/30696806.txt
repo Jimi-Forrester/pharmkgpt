@@ -1,0 +1,19 @@
+30696806|t|Using phenome-wide association to investigate the function of a schizophrenia risk locus at SLC39A8.
+30696806|a|While nearly all common genomic variants associated with schizophrenia have no known function, one corresponds to a missense variant associated with change in efficiency of a metal ion transporter, ZIP8, coded by SLC39A8. This variant has been linked to a range of phenotypes and is believed to be under recent selection pressure, but its impact on health is poorly understood. We sought to understand phenotypic implications of this variant in a large genomic biobank using an unbiased phenome-wide approach. Specifically, we generated 50 topics based on diagnostic codes using latent Dirichlet allocation, and examined them for association with the risk variant. Then, any significant topics were further characterized by examining association with individual diagnostic codes contributing to the topic. Among 50 topics, 1 was associated at an experiment-wide significance threshold (beta = 0.003, uncorrected p = 0.00049), comprising predominantly brain-related codes, including intracranial hemorrhage, cerebrovascular disease, and delirium/dementia. These results suggest that a functional variant previously associated with schizophrenia risk also increases liability to cerebrovascular disease. They further illustrate the utility of a topic-based approach to phenome-wide association.
+30696806	64	77	schizophrenia	Disease	MESH:D012559
+30696806	92	99	SLC39A8	Gene	64116
+30696806	158	171	schizophrenia	Disease	MESH:D012559
+30696806	299	303	ZIP8	Gene	64116
+30696806	314	321	SLC39A8	Gene	64116
+30696806	1083	1106	intracranial hemorrhage	Disease	MESH:D020300
+30696806	1108	1131	cerebrovascular disease	Disease	MESH:D002561
+30696806	1137	1145	delirium	Disease	MESH:D003693
+30696806	1146	1154	dementia	Disease	MESH:D003704
+30696806	1231	1244	schizophrenia	Disease	MESH:D012559
+30696806	1278	1301	cerebrovascular disease	Disease	MESH:D002561
+30696806	Association	MESH:D002561	64116
+30696806	Association	MESH:D003704	64116
+30696806	Association	MESH:D003693	64116
+30696806	Association	MESH:D012559	64116
+30696806	Association	MESH:D020300	64116
+

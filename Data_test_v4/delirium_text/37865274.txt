@@ -1,0 +1,55 @@
+37865274|t|Over-representation analysis of angiogenic factors in immunosuppressive mechanisms in neoplasms and neurological conditions during COVID-19.
+37865274|a|BACKGROUND: Recent studies emphasized the necessity to identify key (human) biological processes and pathways targeted by the Coronaviridae family of viruses, especially Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Coronavirus Disease (COVID-19) caused up to 33-55 % death rates in COVID-19 patients with malignant neoplasms and Alzheimer's disease. Given this scenario, we identified biological processes and pathways involved in various diseases which are most likely affected by COVID-19. METHODS: The COVID-19 DisGeNET data set (v4.0) contains the associations between various diseases and human genes known to interact with viruses from Coronaviridae family and were obtained from the IntAct Coronavirus data set annotated with DisGeNET data. We constructed the disease-gene network to identify genes that are involved in various comorbid diseased states. Communities from the disease-gene network were identified using Louvain method and functional enrichment through over-representation analysis methodology was used to discover significant biological processes and pathways shared between COVID-19 and other diseases. RESULT: The COVID-19 DisGeNET data set (v4.0) comprised of 828 human genes and 10,473 diseases (including various phenotypes) that together constituted nodes in the disease-gene network. Each of the 70,210 edges connects a human gene with an associated disease. The top 10 genes linked to most number of diseases were VEGFA, BCL2, CTNNB1, ALB, COX2, AGT, HLA-A, HMOX1, FGF2 and COMT. The most vulnerable group of patients thus discovered had comorbid conditions such as carcinomas, malignant neoplasms and Alzheimer's disease. Finally, we identified 15 potentially useful biological processes and pathways for improved therapies. Vascular endothelial growth factor (VEGF) is the key mediator of angiogenesis in cancer. It is widely distributed in the brain and plays a crucial role in brain inflammation regulating the level of angiopoietins. With a degree of 1899, VEGFA was associated with maximum number of diseases in the disease-gene network. Previous studies have indicated that increased levels of VEGFA in the blood results in dyspnea, Pulmonary Edema (PE), Acute Lung Injury (ALI) and Acute Respiratory Distress Syndrome (ARDS). In case of COVID-19 patients with neoplasms and other neurological symptoms, our results indicate VEGFA as a therapeutic target for inflammation suppression. As VEGFs are known to disproportionately affect cancer patients, improving endothelial permeability and vasodilation with anti-VEGF therapy could lead to suppression of inflammation and also improve oxygenation. As an outcome of our study, we make case for clinical investigations towards anti-VEGF therapies for such comorbid conditions affected by COVID-19 for better therapeutic outcomes.
+37865274	86	95	neoplasms	Disease	MESH:D009369
+37865274	100	123	neurological conditions	Disease	MESH:D019636
+37865274	131	139	COVID-19	Disease	MESH:D000086382
+37865274	373	392	Coronavirus Disease	Disease	MESH:D018352
+37865274	394	402	COVID-19	Disease	MESH:D000086382
+37865274	425	430	death	Disease	MESH:D003643
+37865274	440	448	COVID-19	Disease	MESH:D000086382
+37865274	463	482	malignant neoplasms	Disease	MESH:D009369
+37865274	487	506	Alzheimer's disease	Disease	MESH:D000544
+37865274	640	648	COVID-19	Disease	MESH:D000086382
+37865274	663	671	COVID-19	Disease	MESH:D000086382
+37865274	855	866	Coronavirus	Disease	MESH:D018352
+37865274	1255	1263	COVID-19	Disease	MESH:D000086382
+37865274	1296	1304	COVID-19	Disease	MESH:D000086382
+37865274	1602	1607	VEGFA	Gene	7422
+37865274	1609	1613	BCL2	Gene	596
+37865274	1615	1621	CTNNB1	Gene	1499
+37865274	1623	1626	ALB	Gene	213
+37865274	1628	1632	COX2	Gene	4513
+37865274	1634	1637	AGT	Gene	183
+37865274	1639	1644	HLA-A	Gene	3105
+37865274	1646	1651	HMOX1	Gene	3162
+37865274	1653	1657	FGF2	Gene	2247
+37865274	1662	1666	COMT	Gene	1312
+37865274	1754	1764	carcinomas	Disease	MESH:D009369
+37865274	1766	1785	malignant neoplasms	Disease	MESH:D009369
+37865274	1790	1809	Alzheimer's disease	Disease	MESH:D000544
+37865274	1914	1948	Vascular endothelial growth factor	Gene	7422
+37865274	1950	1954	VEGF	Gene	7422
+37865274	1995	2001	cancer	Disease	MESH:D009369
+37865274	2069	2087	brain inflammation	Disease	MESH:D004660
+37865274	2150	2155	VEGFA	Gene	7422
+37865274	2289	2294	VEGFA	Gene	7422
+37865274	2319	2326	dyspnea	Disease	MESH:D004417
+37865274	2328	2343	Pulmonary Edema	Disease	MESH:D011654
+37865274	2345	2347	PE	Disease	MESH:D011654
+37865274	2350	2367	Acute Lung Injury	Disease	MESH:D055371
+37865274	2369	2372	ALI	Disease	MESH:D055371
+37865274	2378	2413	Acute Respiratory Distress Syndrome	Disease	MESH:D012128
+37865274	2415	2419	ARDS	Disease	MESH:D012128
+37865274	2433	2441	COVID-19	Disease	MESH:D000086382
+37865274	2456	2465	neoplasms	Disease	MESH:D009369
+37865274	2476	2497	neurological symptoms	Disease	MESH:D009461
+37865274	2520	2525	VEGFA	Gene	7422
+37865274	2554	2566	inflammation	Disease	MESH:D007249
+37865274	2628	2634	cancer	Disease	MESH:D009369
+37865274	2707	2711	VEGF	Gene	7422
+37865274	2749	2761	inflammation	Disease	MESH:D007249
+37865274	2874	2878	VEGF	Gene	7422
+37865274	2930	2938	COVID-19	Disease	MESH:D000086382
+37865274	Association	MESH:D009369	7422
+37865274	Association	MESH:D004660	7422
+

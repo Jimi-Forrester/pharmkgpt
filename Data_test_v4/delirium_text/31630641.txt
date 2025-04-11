@@ -1,0 +1,58 @@
+31630641|t|An in silico analysis of deleterious single nucleotide polymorphisms and molecular dynamics simulation of disease linked mutations in genes responsible for neurodegenerative disorder.
+31630641|a|Mutation in two genes deglycase gene (DJ-1) and retromer complex component gene (VPS35) are linked with neurodegenerative disorder such as Parkinson's disease, Huntington's disease, and Alzheimer's disease. DJ-1 gene located at 1p36 chromosomal position and involved in PD pathogenesis through many pathways including mitochondrial dysfunction and oxidative injury. VPS35 gene located at 16q13-q21 chromosomal position and the two pathways, the Wnt signaling pathway, and retromer-mediated DMT1 missorting are proposed for basis of VPS35 related PD. The study focuses on identifying most deleterious SNPs through computational analysis. Result obtained from various bioinformatics tools shows that D149A is most deleterious in DJ-1 and A54W, R365H, and V717M are most deleterious in VPS35. To understand the functionality of protein comparative modeling of DJ-1 and VPS35 native and mutants was done by MODELLER. The generated structures are validated by two web servers-ProSa and RAMPAGE. Molecular dynamic simulation (MDS) analysis done for the most validated structures to know the functional and structural nature of native and mutants protein of DJ-1 and VPS35. Native structure of DJ-1 and VPS35 show more flexibility through MDS analysis. DJ-1 D149A mutant structures become more compact which shows the structural perturbation and loss of DJ-1 protein function which in turn are probable cause for PD. A54W, R365H, and V717M mutant protein of VPS35 also shows compactness which cause structure perturbation and absence of retromer function which likely to be linked to PD pathogenesis. This in silico study may provide a new insight for fundamental molecular mechanism involved in Parkinson's disease. Communicated by Ramaswamy H. Sarma.
+31630641	156	182	neurodegenerative disorder	Disease	MESH:D019636
+31630641	222	226	DJ-1	Gene	11315
+31630641	265	270	VPS35	Gene	55737
+31630641	288	314	neurodegenerative disorder	Disease	MESH:D019636
+31630641	323	342	Parkinson's disease	Disease	MESH:D010300
+31630641	344	364	Huntington's disease	Disease	MESH:D006816
+31630641	370	389	Alzheimer's disease	Disease	MESH:D000544
+31630641	391	395	DJ-1	Gene	11315
+31630641	412	416	1p36	Chromosome	1
+31630641	454	456	PD	Disease	MESH:D010300
+31630641	502	527	mitochondrial dysfunction	Disease	MESH:D028361
+31630641	550	555	VPS35	Gene	55737
+31630641	572	577	16q13	Chromosome	16
+31630641	674	678	DMT1	Gene	1761
+31630641	716	721	VPS35	Gene	55737
+31630641	730	732	PD	Disease	MESH:D010300
+31630641	882	887	D149A	ProteinMutation	tmVar:p|SUB|D|149|A;HGVS:p.D149A;VariantGroup:0;CorrespondingGene:11315;RS#:74315352;CorrespondingSpecies:9606;CA#:254094
+31630641	911	915	DJ-1	Gene	11315
+31630641	920	924	A54W	ProteinMutation	tmVar:p|SUB|A|54|W;HGVS:p.A54W;VariantGroup:4;CorrespondingGene:11315;CorrespondingSpecies:9606
+31630641	926	931	R365H	ProteinMutation	tmVar:p|SUB|R|365|H;HGVS:p.R365H;VariantGroup:1;CorrespondingGene:55737;RS#:201593831;CorrespondingSpecies:9606;CA#:8036888
+31630641	937	942	V717M	ProteinMutation	tmVar:p|SUB|V|717|M;HGVS:p.V717M;VariantGroup:2;CorrespondingGene:55737;RS#:184960717;CorrespondingSpecies:9606;CA#:280202559
+31630641	967	972	VPS35	Gene	55737
+31630641	1041	1045	DJ-1	Gene	11315
+31630641	1050	1055	VPS35	Gene	55737
+31630641	1335	1339	DJ-1	Gene	11315
+31630641	1344	1349	VPS35	Gene	55737
+31630641	1371	1375	DJ-1	Gene	11315
+31630641	1380	1385	VPS35	Gene	55737
+31630641	1430	1434	DJ-1	Gene	11315
+31630641	1435	1440	D149A	ProteinMutation	tmVar:p|SUB|D|149|A;HGVS:p.D149A;VariantGroup:0;CorrespondingGene:11315;RS#:74315352;CorrespondingSpecies:9606;CA#:254094
+31630641	1531	1535	DJ-1	Gene	11315
+31630641	1590	1592	PD	Disease	MESH:D010300
+31630641	1594	1598	A54W	ProteinMutation	tmVar:p|SUB|A|54|W;HGVS:p.A54W;VariantGroup:4;CorrespondingGene:11315;CorrespondingSpecies:9606
+31630641	1600	1605	R365H	ProteinMutation	tmVar:p|SUB|R|365|H;HGVS:p.R365H;VariantGroup:1;CorrespondingGene:55737;RS#:201593831;CorrespondingSpecies:9606;CA#:8036888
+31630641	1611	1616	V717M	ProteinMutation	tmVar:p|SUB|V|717|M;HGVS:p.V717M;VariantGroup:2;CorrespondingGene:55737;RS#:184960717;CorrespondingSpecies:9606;CA#:280202559
+31630641	1635	1640	VPS35	Gene	55737
+31630641	1761	1763	PD	Disease	MESH:D010300
+31630641	1873	1892	Parkinson's disease	Disease	MESH:D010300
+31630641	Association	MESH:D010300	RS#:184960717;HGVS:p.V717M;CorrespondingGene:55737
+31630641	Association	MESH:D010300	HGVS:p.A54W;CorrespondingGene:11315
+31630641	Association	MESH:D010300	RS#:201593831;HGVS:p.R365H;CorrespondingGene:55737
+31630641	Association	MESH:D010300	55737
+31630641	Positive_Correlation	MESH:D010300	RS#:74315352;HGVS:p.D149A;CorrespondingGene:11315
+31630641	Association	MESH:D006816	11315
+31630641	Association	MESH:D028361	11315
+31630641	Association	MESH:D000544	11315
+31630641	Association	1761	55737
+31630641	Association	MESH:D010300	11315
+31630641	Association	MESH:D010300	1761
+31630641	Association	MESH:D019636	11315
+31630641	Association	MESH:D000544	55737
+31630641	Association	MESH:D019636	55737
+31630641	Association	MESH:D006816	55737
+31630641	Association	MESH:D010300	55737
+31630641	Association	MESH:D010300	11315
+

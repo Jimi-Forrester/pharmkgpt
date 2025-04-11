@@ -1,0 +1,41 @@
+39557900|t|BCL3, GBP1, IFI16, and CCR1 as potential brain-derived biomarkers for parietal grey matter lesions in multiple sclerosis.
+39557900|a|Multiple Sclerosis (MS) is a chronic autoimmune disease of the central nervous system, progressing from Relapsing-Remitting MS (RRMS) to Secondary Progressive MS (SPMS) in many cases. The transition involves complex biological changes. Our study aims to identify potential biomarkers for distinguishing SPMS by analyzing gene expression differences between normal-appearing and lesioned parietal grey matter, which may also contribute to understand the pathogenesis of SPMS. We utilized public datasets from the Gene Expression Omnibus (GEO), applying bioinformatics and machine learning techniques including Weighted Gene Co-expression Network Analysis (WGCNA), Kyoto Encyclopedia of Genes and Genomes (KEGG), Gene Ontology (GO) enrichment analysis, protein-protein interaction (PPI) networks, the Least Absolute Shrinkage and Selection Operator (LASSO), and Random Forest (RF) for predictive model construction. Our study also included analyses of immune cell infiltration. The study identified 359 DEGs, with 105 up-regulated and 254 down-regulated. WGCNA identified 264 common genes, which were subjected to KEGG and GO enrichment analyses, highlighting their role in immune response and viral infection pathways. Four genes (BCL3, GBP1, IFI16, and CCR1) were identified as key biomarkers for SPMS, supported by LASSO regression and RF analyses. These genes were further validated through receiver operating characteristic (ROC) curves, demonstrating significant predictive potential for SPMS. Our study provides a novel set of biomarkers for SPMS from lesioned grey matter of SPMS cases, offering potential for diagnosis and targeted therapeutic strategies. The identified biomarkers link closely with SPMS pathology, especially regarding immune system modulation.
+39557900	0	4	BCL3	Gene	602
+39557900	6	10	GBP1	Gene	2633
+39557900	12	17	IFI16	Gene	3428
+39557900	23	27	CCR1	Gene	1230
+39557900	79	98	grey matter lesions	Disease	MESH:D055652
+39557900	102	120	multiple sclerosis	Disease	MESH:D009103
+39557900	122	140	Multiple Sclerosis	Disease	MESH:D009103
+39557900	142	144	MS	Disease	MESH:D009103
+39557900	159	177	autoimmune disease	Disease	MESH:D001327
+39557900	193	207	nervous system	Disease	MESH:D009422
+39557900	226	248	Relapsing-Remitting MS	Disease	MESH:D020529
+39557900	250	254	RRMS	Disease	MESH:D020529
+39557900	259	283	Secondary Progressive MS	Disease	MESH:D020528
+39557900	285	289	SPMS	Disease	MESH:D020528
+39557900	425	429	SPMS	Disease	MESH:D020528
+39557900	591	595	SPMS	Disease	MESH:D020528
+39557900	1314	1319	viral	Disease	MESH:D014777
+39557900	1352	1356	BCL3	Gene	602
+39557900	1358	1362	GBP1	Gene	2633
+39557900	1364	1369	IFI16	Gene	3428
+39557900	1375	1379	CCR1	Gene	1230
+39557900	1419	1423	SPMS	Disease	MESH:D020528
+39557900	1614	1618	SPMS	Disease	MESH:D020528
+39557900	1669	1673	SPMS	Disease	MESH:D020528
+39557900	1703	1707	SPMS	Disease	MESH:D020528
+39557900	1829	1833	SPMS	Disease	MESH:D020528
+39557900	Association	MESH:D009103	602
+39557900	Association	MESH:D009103	3428
+39557900	Association	MESH:D055652	2633
+39557900	Association	MESH:D009103	2633
+39557900	Association	MESH:D020528	3428
+39557900	Association	MESH:D055652	1230
+39557900	Association	MESH:D020528	602
+39557900	Association	MESH:D020528	1230
+39557900	Association	MESH:D020528	2633
+39557900	Association	MESH:D009103	1230
+39557900	Association	MESH:D055652	602
+39557900	Association	MESH:D055652	3428
+

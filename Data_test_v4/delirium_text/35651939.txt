@@ -1,0 +1,64 @@
+35651939|t|Case Report: Novel Biallelic Null Variants of SMPD4 Confirm Its Involvement in Neurodevelopmental Disorder With Microcephaly, Arthrogryposis, and Structural Brain Anomalies.
+35651939|a|The SMPD4 gene encodes sphingomyelin phosphodiesterase 4, which preferentially hydrolyzes sphingomyelin over other phospholipids. The biallelic loss-of-function variants of SMPD4 have been identified in a group of children with neurodevelopmental disorder with microcephaly, arthrogryposis, and structural brain anomalies (NEDMABA). Here, we report a girl of Chinese ancestry with intrauterine growth restriction, microcephaly, postnatal developmental delay, arthrogryposis, hypertonicity, seizure, and hypomyelination on brain magnetic resonance imaging; biallelic null variants (c.1347C > G [p.Tyr449*]; Chr2 [GRCh37]: g.130877574_131221737del [whole-gene deletion]) were detected by whole-exome sequencing. Our case is the first report of NEDMABA of Chinese ancestry, confirming the involvement of SMPD4 in NEDMABA and expanding the mutation spectrum of this syndrome.
+35651939	46	51	SMPD4	Gene	55627
+35651939	79	106	Neurodevelopmental Disorder	Disease	MESH:D002658
+35651939	112	124	Microcephaly	Disease	MESH:D008831
+35651939	126	140	Arthrogryposis	Disease	MESH:D001176
+35651939	146	172	Structural Brain Anomalies	Disease	MESH:C536503
+35651939	178	183	SMPD4	Gene	55627
+35651939	197	230	sphingomyelin phosphodiesterase 4	Gene	55627
+35651939	264	277	sphingomyelin	Chemical	MESH:D013109
+35651939	289	302	phospholipids	Chemical	MESH:D010743
+35651939	347	352	SMPD4	Gene	55627
+35651939	402	429	neurodevelopmental disorder	Disease	MESH:D002658
+35651939	435	447	microcephaly	Disease	MESH:D008831
+35651939	449	463	arthrogryposis	Disease	MESH:D001176
+35651939	469	495	structural brain anomalies	Disease	MESH:C536503
+35651939	497	504	NEDMABA	Disease	MESH:C567101
+35651939	555	586	intrauterine growth restriction	Disease	MESH:D005317
+35651939	588	600	microcephaly	Disease	MESH:D008831
+35651939	602	631	postnatal developmental delay	Disease	MESH:D019052
+35651939	633	647	arthrogryposis	Disease	MESH:D001176
+35651939	649	662	hypertonicity	Disease	MESH:D009122
+35651939	664	671	seizure	Disease	MESH:D012640
+35651939	677	692	hypomyelination	Disease	MESH:D003711
+35651939	755	766	c.1347C > G	DNAMutation	tmVar:c|SUB|C|1347|G;HGVS:c.1347C>G;VariantGroup:0;CorrespondingGene:55627;RS#:919289248;CorrespondingSpecies:9606
+35651939	768	777	p.Tyr449*	ProteinMutation	tmVar:p|SUB|Y|449|*;HGVS:p.Y449*;VariantGroup:1;CorrespondingGene:55627;CorrespondingSpecies:9606
+35651939	795	819	g.130877574_131221737del	DNAMutation	tmVar:g|DEL|130877574_131221737|;HGVS:g.130877574_131221737del;VariantGroup:2;CorrespondingGene:55627;CorrespondingSpecies:9606
+35651939	916	923	NEDMABA	Disease	MESH:C567101
+35651939	975	980	SMPD4	Gene	55627
+35651939	984	991	NEDMABA	Disease	MESH:C567101
+35651939	Association	RS#:919289248;HGVS:c.1347C>G;CorrespondingGene:55627	MESH:D009122
+35651939	Association	MESH:D001176	HGVS:p.Y449*;CorrespondingGene:55627
+35651939	Association	MESH:D009122	55627
+35651939	Positive_Correlation	MESH:C567101	HGVS:p.Y449*;CorrespondingGene:55627
+35651939	Association	MESH:D008831	HGVS:p.Y449*;CorrespondingGene:55627
+35651939	Association	MESH:D002658	55627
+35651939	Positive_Correlation	RS#:919289248;HGVS:c.1347C>G;CorrespondingGene:55627	MESH:C567101
+35651939	Association	RS#:919289248;HGVS:c.1347C>G;CorrespondingGene:55627	MESH:D008831
+35651939	Association	RS#:919289248;HGVS:c.1347C>G;CorrespondingGene:55627	MESH:D001176
+35651939	Positive_Correlation	HGVS:g.130877574_131221737del;CorrespondingGene:55627	MESH:C567101
+35651939	Association	HGVS:g.130877574_131221737del;CorrespondingGene:55627	MESH:D009122
+35651939	Association	MESH:D013109	55627
+35651939	Association	HGVS:g.130877574_131221737del;CorrespondingGene:55627	MESH:D001176
+35651939	Association	MESH:D003711	55627
+35651939	Association	MESH:C536503	55627
+35651939	Positive_Correlation	RS#:919289248;HGVS:c.1347C>G;CorrespondingGene:55627	MESH:D003711
+35651939	Positive_Correlation	MESH:D003711	HGVS:p.Y449*;CorrespondingGene:55627
+35651939	Positive_Correlation	HGVS:g.130877574_131221737del;CorrespondingGene:55627	MESH:D003711
+35651939	Association	HGVS:g.130877574_131221737del;CorrespondingGene:55627	MESH:D012640
+35651939	Association	MESH:D012640	55627
+35651939	Association	MESH:D001176	55627
+35651939	Association	MESH:D019052	55627
+35651939	Association	HGVS:g.130877574_131221737del;CorrespondingGene:55627	MESH:D008831
+35651939	Association	MESH:D005317	55627
+35651939	Association	MESH:D008831	55627
+35651939	Association	RS#:919289248;HGVS:c.1347C>G;CorrespondingGene:55627	MESH:D012640
+35651939	Association	MESH:C567101	55627
+35651939	Association	MESH:D009122	55627
+35651939	Association	MESH:D001176	55627
+35651939	Association	MESH:C567101	55627
+35651939	Association	MESH:D008831	55627
+35651939	Association	MESH:D003711	55627
+35651939	Association	MESH:D012640	55627
+

@@ -1,0 +1,29 @@
+38626069|t|Identification of cuproptosis-realated key genes and pathways in Parkinson's disease via bioinformatics analysis.
+38626069|a|INTRODUCTION: Parkinson's disease (PD) is the second most common worldwide age-related neurodegenerative disorder without effective treatments. Cuproptosis is a newly proposed conception of cell death extensively studied in oncological diseases. Currently, whether cuproptosis contributes to PD remains largely unclear. METHODS: The dataset GSE22491 was studied as the training dataset, and GSE100054 was the validation dataset. According to the expression levels of cuproptosis-related genes (CRGs) and differentially expressed genes (DEGs) between PD patients and normal samples, we obtained the differentially expressed CRGs. The protein-protein interaction (PPI) network was achieved through the Search Tool for the Retrieval of Interacting Genes. Meanwhile, the disease-associated module genes were screened from the weighted gene co-expression network analysis (WGCNA). Afterward, the intersection genes of WGCNA and PPI were obtained and enriched using the Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG). Subsequently, the key genes were identified from the datasets. The receiver operating characteristic curves were plotted and a PPI network was constructed, and the PD-related miRNAs and key genes-related miRNAs were intersected and enriched. Finally, the 2 hub genes were verified via qRT-PCR in the cell model of the PD and the control group. RESULTS: 525 DEGs in the dataset GSE22491 were identified, including 128 upregulated genes and 397 downregulated genes. Based on the PPI network, 41 genes were obtained. Additionally, the dataset was integrated into 34 modules by WGCNA. 36 intersection genes found from WGCNA and PPI were significantly abundant in 7 pathways. The expression levels of the genes were validated, and 2 key genes were obtained, namely peptidase inhibitor 3 (PI3) and neuroserpin family I member 1 (SERPINI1). PD-related miRNAs and key genes-related miRNAs were intersected into 29 miRNAs including hsa-miR-30c-2-3p. At last, the qRT-PCR results of 2 hub genes showed that the expressions of mRNA were up-regulated in PD. CONCLUSION: Taken together, this study demonstrates the coordination of cuproptosis in PD. The key genes and miRNAs offer novel perspectives in the pathogenesis and molecular targeting treatment for PD.
+38626069	18	29	cuproptosis	Disease	
+38626069	65	84	Parkinson's disease	Disease	MESH:D010300
+38626069	128	147	Parkinson's disease	Disease	MESH:D010300
+38626069	149	151	PD	Disease	MESH:D010300
+38626069	189	227	age-related neurodegenerative disorder	Disease	MESH:D019636
+38626069	258	269	Cuproptosis	Disease	
+38626069	338	358	oncological diseases	Disease	MESH:D000072716
+38626069	379	390	cuproptosis	Disease	
+38626069	406	408	PD	Disease	MESH:D010300
+38626069	581	592	cuproptosis	Disease	
+38626069	664	666	PD	Disease	MESH:D010300
+38626069	667	675	patients	Species	9606
+38626069	1313	1315	PD	Disease	MESH:D010300
+38626069	1467	1469	PD	Disease	MESH:D010300
+38626069	1909	1930	peptidase inhibitor 3	Gene	5266
+38626069	1932	1935	PI3	Gene	5266
+38626069	1972	1980	SERPINI1	Gene	5274
+38626069	1983	1985	PD	Disease	MESH:D010300
+38626069	2072	2086	hsa-miR-30c-2-	Gene	407032
+38626069	2086	2088	3p	Chromosome	3
+38626069	2191	2193	PD	Disease	MESH:D010300
+38626069	2267	2278	cuproptosis	Disease	
+38626069	2282	2284	PD	Disease	MESH:D010300
+38626069	2394	2396	PD	Disease	MESH:D010300
+38626069	Association	MESH:D010300	5274
+38626069	Association	MESH:D010300	407032
+

@@ -1,0 +1,34 @@
+35601322|t|Understanding the Link between Inflammasome and Apoptosis through the Response of THP-1 Cells against Drugs Using Droplet-Based Microfluidics.
+35601322|a|Droplet-based microfluidic devices are used to investigate monocytic THP-1 cells in response to drug administration. Consistent and reproducible droplets are created, each of which acts as a bioreactor to carry out single cell experiments with minimized contamination and live cell tracking under an inverted fluorescence microscope for more than 2 days. Here, the effects of three different drugs (temsirolimus, rifabutin, and BAY 11-7082) on THP-1 are examined and the results are analyzed in the context of the inflammasome and apoptosis relationship. The ASC adaptor gene tagged with GFP is monitored as the inflammasome reporter. Thus, a systematic way is presented for deciphering cell-to-cell heterogeneity, which is an important issue in cancer treatment. The drug temsirolimus, which has effects of disrupting the mTOR pathway and triggering apoptosis in tumor cells, causes THP-1 cells to express ASC and to be involved in apoptosis. Treatment with rifabutin, which inhibits proliferation and initiates apoptosis in cells, affects ASC expression by first increasing and then decreasing it. CASP-3, which has a role in apoptosis and is directly related to ASC, has an increasing level in inflammasome conditioning. Thus, the cell under the effect of rifabutin might be faced with programmed cell death faster. The drug BAY 11-7082, which is responsible for NFkappaB inhibition, shows similar results to temsirolimus with more than 60% of cells having high fluorescence intensity (ASC expression). The microfluidic platform presented here offers strong potential for studying newly developed small-molecule inhibitors for personalized/precision medicine.
+35601322	82	87	THP-1	CellLine	CVCL:0006
+35601322	212	217	THP-1	CellLine	CVCL:0006
+35601322	542	554	temsirolimus	Chemical	MESH:C401859
+35601322	556	565	rifabutin	Chemical	MESH:D017828
+35601322	571	582	BAY 11-7082	Chemical	MESH:C434003
+35601322	587	592	THP-1	CellLine	CVCL:0006
+35601322	702	705	ASC	Gene	29108
+35601322	889	895	cancer	Disease	MESH:D009369
+35601322	916	928	temsirolimus	Chemical	MESH:C401859
+35601322	966	970	mTOR	Gene	2475
+35601322	1007	1012	tumor	Disease	MESH:D009369
+35601322	1027	1032	THP-1	CellLine	CVCL:0006
+35601322	1050	1053	ASC	Gene	29108
+35601322	1102	1111	rifabutin	Chemical	MESH:D017828
+35601322	1184	1187	ASC	Gene	29108
+35601322	1243	1249	CASP-3	Gene	836
+35601322	1308	1311	ASC	Gene	29108
+35601322	1402	1411	rifabutin	Chemical	MESH:D017828
+35601322	1471	1482	BAY 11-7082	Chemical	MESH:C434003
+35601322	1509	1517	NFkappaB	Gene	4790
+35601322	1555	1567	temsirolimus	Chemical	MESH:C401859
+35601322	1632	1635	ASC	Gene	29108
+35601322	Positive_Correlation	MESH:C401859	29108
+35601322	Positive_Correlation	MESH:C434003	29108
+35601322	Association	29108	836
+35601322	Comparison	MESH:C401859	MESH:C434003
+35601322	Negative_Correlation	MESH:C401859	2475
+35601322	Negative_Correlation	MESH:C434003	4790
+35601322	Negative_Correlation	MESH:C401859	MESH:D009369
+35601322	Positive_Correlation	MESH:D017828	836
+35601322	Negative_Correlation	MESH:D017828	29108
+

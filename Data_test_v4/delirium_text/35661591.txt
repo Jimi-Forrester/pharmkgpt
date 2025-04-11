@@ -1,0 +1,18 @@
+35661591|t|Searching for AChE inhibitors from natural compounds by using machine learning and atomistic simulations.
+35661591|a|Acetylcholinesterase (AChE) is one of the most important drug targets for Alzheimer's disease treatment. In this work, a combined approach involving machine-learning (ML) model and atomistic simulations was established to predict the ligand-binding affinity to AChE of the natural compounds from VIETHERB database. The trained ML model was first utilized to rapidly and accurately screen the natural compound database for potential AChE inhibitors. Atomistic simulations including molecular docking and steered-molecular dynamics simulations were then used to confirm the ML outcome. Good agreement between ML and atomistic simulations was observed. Twenty compounds were suggested to be able to inhibit AChE. Especially, four of them including geranylgeranyl diphosphate, 2-phosphoglyceric acid, and 2-carboxy-d-arabinitol 1-phosphate, and farnesyl diphosphate are highly potent inhibitors with sub-nanomolar affinities.
+35661591	14	18	AChE	Gene	43
+35661591	106	126	Acetylcholinesterase	Gene	43
+35661591	128	132	AChE	Gene	43
+35661591	180	199	Alzheimer's disease	Disease	MESH:D000544
+35661591	367	371	AChE	Gene	43
+35661591	538	542	AChE	Gene	43
+35661591	810	815	AChE.	Gene	43
+35661591	851	877	geranylgeranyl diphosphate	Chemical	MESH:C002963
+35661591	879	901	2-phosphoglyceric acid	Chemical	-
+35661591	907	941	2-carboxy-d-arabinitol 1-phosphate	Chemical	MESH:C054549
+35661591	947	967	farnesyl diphosphate	Chemical	MESH:C004808
+35661591	Negative_Correlation	MESH:C002963	43
+35661591	Association	MESH:D000544	43
+35661591	Negative_Correlation	MESH:C004808	43
+35661591	Negative_Correlation	MESH:C054549	43
+

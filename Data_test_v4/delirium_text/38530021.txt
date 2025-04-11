@@ -1,0 +1,19 @@
+38530021|t|Enhancing predictions with a stacking ensemble model for ICU mortality risk in patients with sepsis-associated encephalopathy.
+38530021|a|OBJECTIVE: We identified predictive factors and developed a novel machine learning (ML) model for predicting mortality risk in patients with sepsis-associated encephalopathy (SAE). METHODS: In this retrospective cohort study, data from the Medical Information Mart for Intensive Care IV (MIMIC-IV) and eICU Collaborative Research Database were used for model development and external validation. The primary outcome was the in-hospital mortality rate among patients with SAE; the observed in-hospital mortality rate was 14.74% (MIMIC IV: 1112, eICU: 594). Using the least absolute shrinkage and selection operator (LASSO), we built nine ML models and a stacking ensemble model and determined the optimal model based on the area under the receiver operating characteristic curve (AUC). We used the Shapley additive explanations (SHAP) algorithm to determine the optimal model. RESULTS: The study included 9943 patients. LASSO identified 15 variables. The stacking ensemble model achieved the highest AUC on the test set (0.807) and 0.671 on external validation. SHAP analysis highlighted Glasgow Coma Scale (GCS) and age as key variables. The model (https://sic1.shinyapps.io/SSAAEE/) can predict in-hospital mortality risk for patients with SAE. CONCLUSIONS: We developed a stacked ensemble model with enhanced generalization capabilities using novel data to predict mortality risk in patients with SAE.
+38530021	79	87	patients	Species	9606
+38530021	93	125	sepsis-associated encephalopathy	Disease	MESH:D065166
+38530021	254	262	patients	Species	9606
+38530021	268	300	sepsis-associated encephalopathy	Disease	MESH:D065166
+38530021	302	305	SAE	Disease	MESH:D065166
+38530021	429	433	eICU	Disease	
+38530021	584	592	patients	Species	9606
+38530021	598	601	SAE	Disease	MESH:D065166
+38530021	655	663	MIMIC IV	Disease	MESH:D006011
+38530021	671	675	eICU	Disease	
+38530021	1036	1044	patients	Species	9606
+38530021	1222	1226	Coma	Disease	MESH:D003128
+38530021	1354	1362	patients	Species	9606
+38530021	1368	1371	SAE	Disease	MESH:D065166
+38530021	1512	1520	patients	Species	9606
+38530021	1526	1529	SAE	Disease	MESH:D065166
+

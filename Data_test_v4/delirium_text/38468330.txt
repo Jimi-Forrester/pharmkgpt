@@ -1,0 +1,16 @@
+38468330|t|Development and validation of 'Patient Optimizer' (POP) algorithms for predicting surgical risk with machine learning.
+38468330|a|BACKGROUND: Pre-operative risk assessment can help clinicians prepare patients for surgery, reducing the risk of perioperative complications, length of hospital stay, readmission and mortality. Further, it can facilitate collaborative decision-making and operational planning. OBJECTIVE: To develop effective pre-operative risk assessment algorithms (referred to as Patient Optimizer or POP) using Machine Learning (ML) that predict the development of post-operative complications and provide pilot data to inform the design of a larger prospective study. METHODS: After institutional ethics approval, we developed a base model that encapsulates the standard manual approach of combining patient-risk and procedure-risk. In an automated process, additional variables were included and tested with 10-fold cross-validation, and the best performing features were selected. The models were evaluated and confidence intervals calculated using bootstrapping. Clinical expertise was used to restrict the cardinality of categorical variables (e.g. pathology results) by including the most clinically relevant values. The models were created with logistic regression (LR) and extreme gradient-boosted trees using XGBoost (Chen and Guestrin, 2016). We evaluated performance using the area under the receiver operating characteristic curve (AUROC) and the area under the precision-recall curve (AUPRC). Data was obtained from a metropolitan university teaching hospital from January 2015 to July 2020. Data collection was restricted to adult patients undergoing elective surgery. RESULTS: A total of 11,475 adult admissions were included. The performance of XGBoost and LR was very similar across endpoints and metrics. For predicting the risk of any post-operative complication, kidney failure and length-of-stay (LOS), POP with XGBoost achieved an AUROC (95%CI) of 0.755 (0.744, 0.767), 0.869 (0.846, 0.891) and 0.841 (0.833, 0.847) respectively and AUPRC of 0.651 (0.632, 0.669), 0.336 (0.282, 0.390) and 0.741 (0.729, 0.753) respectively. For 30-day readmission and in-patient mortality, POP with XGBoost achieved an AUROC (95%CI) of 0.610 (0.587, 0.635) and 0.866 (0.777, 0.943) respectively and AUPRC of 0.116 (0.104, 0.132) and 0.031 (0.015, 0.072) respectively. CONCLUSION: The POP algorithms effectively predicted any post-operative complication, kidney failure and LOS in the sample population. A larger study is justified to improve the algorithm to better predict complications and length of hospital stay. A larger dataset may also improve the prediction of additional specific complications, readmission and mortality.
+38468330	31	38	Patient	Species	9606
+38468330	51	54	POP	Disease	
+38468330	189	197	patients	Species	9606
+38468330	485	492	Patient	Species	9606
+38468330	506	509	POP	Disease	
+38468330	807	814	patient	Species	9606
+38468330	1651	1659	patients	Species	9606
+38468330	1889	1903	kidney failure	Disease	MESH:D051437
+38468330	1930	1933	POP	Disease	
+38468330	2182	2189	patient	Species	9606
+38468330	2201	2204	POP	Disease	
+38468330	2395	2398	POP	Disease	
+38468330	2465	2479	kidney failure	Disease	MESH:D051437
+

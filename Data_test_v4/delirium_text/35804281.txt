@@ -1,0 +1,80 @@
+35804281|t|DHCR24 Knockdown Induces Tau Hyperphosphorylation at Thr181, Ser199, Ser262, and Ser396 Sites via Activation of the Lipid Raft-Dependent Ras/MEK/ERK Signaling Pathway in C8D1A Astrocytes.
+35804281|a|The synthetase 3beta-hydroxysterol-Delta24 reductase (DHCR24) is a key regulator involved in cholesterol synthesis and homeostasis. A growing body of evidence indicates that DHCR24 is downregulated in the brain of various models of Alzheimer's disease (AD), such as astrocytes isolated from AD mice. For the past decades, astrocytic tau pathology has been found in AD patients, while the origin of phosphorylated tau in astrocytes remains unknown. A previous study suggests that downregulation of DHCR24 is associated with neuronal tau hyperphosphorylation. Herein, the present study is to explore whether DHCR24 deficiency can also affect tau phosphorylation in astrocytes. Here, we showed that DHCR24 knockdown could induce tau hyperphosphorylation at Thr181, Ser199, Thr231, Ser262, and Ser396 sites in C8D1A astrocytes. Meanwhile, we found that DHCR24-silencing cells had reduced the level of free cholesterol in the plasma membrane and intracellular organelles, as well as cholesterol esters. Furthermore, reduced cellular cholesterol level caused a decreased level of the caveolae-associated protein, cavin1, which disrupted lipid rafts/caveolae and activated rafts/caveolae-dependent Ras/MEK/ERK signaling pathway. In contrast, overexpression of DHCR24 prevented the overactivation of Ras/MEK/ERK signaling by increasing cellular cholesterol content, therefore decreasing tau hyperphosphorylation in C8D1A astrocytes. Herein, we firstly found that DHCR24 knockdown can lead to tau hyperphosphorylation in the astrocyte itself by activating lipid raft-dependent Ras/MEK/ERK signaling, which might contribute to the pathogenesis of AD and other degenerative tauopathies.
+35804281	0	6	DHCR24	Gene	74754
+35804281	25	28	Tau	Gene	4137
+35804281	116	121	Lipid	Chemical	MESH:D008055
+35804281	141	144	MEK	Gene	17242
+35804281	145	148	ERK	Gene	26413
+35804281	170	175	C8D1A	CellLine	CVCL:6379
+35804281	203	240	3beta-hydroxysterol-Delta24 reductase	Gene	74754
+35804281	242	248	DHCR24	Gene	74754
+35804281	281	292	cholesterol	Chemical	MESH:D002784
+35804281	362	368	DHCR24	Gene	74754
+35804281	420	439	Alzheimer's disease	Disease	MESH:D000544
+35804281	441	443	AD	Disease	MESH:D000544
+35804281	479	481	AD	Disease	MESH:D000544
+35804281	482	486	mice	Species	10090
+35804281	521	524	tau	Gene	4137
+35804281	553	555	AD	Disease	MESH:D000544
+35804281	556	564	patients	Species	9606
+35804281	601	604	tau	Gene	4137
+35804281	685	691	DHCR24	Gene	74754
+35804281	711	744	neuronal tau hyperphosphorylation	Disease	MESH:C536599
+35804281	794	800	DHCR24	Gene	74754
+35804281	828	831	tau	Gene	4137
+35804281	884	890	DHCR24	Gene	1718
+35804281	914	917	tau	Gene	4137
+35804281	994	999	C8D1A	CellLine	CVCL:6379
+35804281	1037	1043	DHCR24	Gene	1718
+35804281	1090	1101	cholesterol	Chemical	MESH:D002784
+35804281	1166	1184	cholesterol esters	Chemical	MESH:D002788
+35804281	1216	1227	cholesterol	Chemical	MESH:D002784
+35804281	1295	1301	cavin1	Gene	284119
+35804281	1319	1324	lipid	Chemical	MESH:D008055
+35804281	1383	1386	MEK	Gene	5609
+35804281	1387	1390	ERK	Gene	5594
+35804281	1441	1447	DHCR24	Gene	74754
+35804281	1484	1487	MEK	Gene	17242
+35804281	1488	1491	ERK	Gene	5594
+35804281	1525	1536	cholesterol	Chemical	MESH:D002784
+35804281	1567	1570	tau	Gene	4137
+35804281	1595	1600	C8D1A	CellLine	CVCL:6379
+35804281	1643	1649	DHCR24	Gene	74754
+35804281	1672	1675	tau	Gene	4137
+35804281	1735	1740	lipid	Chemical	MESH:D008055
+35804281	1760	1763	MEK	Gene	17242
+35804281	1764	1767	ERK	Gene	26413
+35804281	1825	1827	AD	Disease	MESH:D000544
+35804281	1838	1862	degenerative tauopathies	Disease	MESH:D024801
+35804281	Negative_Correlation	17242	74754
+35804281	Positive_Correlation	5594	74754
+35804281	Positive_Correlation	MESH:D002784	5594
+35804281	Association	MESH:D008055	MESH:D000544
+35804281	Negative_Correlation	MESH:D002784	284119
+35804281	Negative_Correlation	MESH:C536599	74754
+35804281	Association	MESH:D002788	1718
+35804281	Positive_Correlation	MESH:D002784	17242
+35804281	Association	MESH:D000544	4137
+35804281	Association	17242	26413
+35804281	Association	MESH:D002784	5609
+35804281	Association	MESH:D024801	4137
+35804281	Association	MESH:D008055	MESH:D024801
+35804281	Association	MESH:D024801	74754
+35804281	Association	MESH:D008055	17242
+35804281	Association	MESH:D024801	26413
+35804281	Association	17242	4137
+35804281	Positive_Correlation	MESH:D002784	1718
+35804281	Negative_Correlation	MESH:D008055	284119
+35804281	Positive_Correlation	1718	4137
+35804281	Negative_Correlation	4137	74754
+35804281	Association	MESH:D002784	4137
+35804281	Negative_Correlation	26413	74754
+35804281	Positive_Correlation	MESH:D002784	74754
+35804281	Association	MESH:D000544	17242
+35804281	Negative_Correlation	MESH:D000544	74754
+35804281	Association	MESH:D000544	26413
+35804281	Association	MESH:D024801	17242
+35804281	Association	MESH:D008055	74754
+35804281	Association	MESH:D008055	26413
+35804281	Association	26413	4137
+

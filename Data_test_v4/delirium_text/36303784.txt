@@ -1,0 +1,49 @@
+36303784|t|Diagnostic AI Modeling and Pseudo Time Series Profiling of AD and PD Based on Individualized Serum Proteome Data.
+36303784|a|Background: Parkinson's disease (PD), Alzheimer's disease (AD) are common neurodegenerative disease, while mild cognitive impairment (MCI) may be happened in the early stage of AD or PD. Blood biomarkers are considered to be less invasive, less cost and more convenient, and there is tremendous potential for the diagnosis and prediction of neurodegenerative diseases. As a recently mentioned field, artificial intelligence (AI) is often applied in biology and shows excellent results. In this article, we use AI to model PD, AD, MCI data and analyze the possible connections between them. Method: Human blood protein microarray profiles including 156 CT, 50 MCI, 132 PD, 50 AD samples are collected from Gene Expression Omnibus (GEO). First, we used bioinformatics methods and feature engineering in machine learning to screen important features, constructed artificial neural network (ANN) classifier models based on these features to distinguish samples, and evaluated the model's performance with classification accuracy and Area Under Curve (AUC). Second, we used Ingenuity Pathway Analysis (IPA) methods to analyse the pathways and functions in early stage and late stage samples of different diseases, and potential targets for drug intervention by predicting upstream regulators. Result: We used different classifier to construct the model and finally found that ANN model would outperform the traditional machine learning model. In summary, three different classifiers were constructed to be used in different application scenarios, First, we incorporated 6 indicators, including EPHA2, MRPL19, SGK2, to build a diagnostic model for AD with a test set accuracy of up to 98.07%. Secondly, incorporated 15 indicators such as ERO1LB, FAM73B, IL1RN to build a diagnostic model for PD, with a test set accuracy of 97.05%. Then, 15 indicators such as XG, FGFR3 and CDC37 were incorporated to establish a four-category diagnostic model for both AD and PD, with a test set accuracy of 98.71%. All classifier models have an auc value greater than 0.95. Then, we verified that the constructed feature engineering filtered out fewer important features but contained more information, which helped to build a better model. In addition, by classifying the disease types more carefully into early and late stages of AD, MCI, and PD, respectively, we found that early PD may occur earlier than early MCI. Finally, there are 24 proteins that are both differentially expressed proteins and upstream regulators in the disease group versus the normal group, and these proteins may serve as potential therapeutic targets and targets for subsequent studies. Conclusion: The feature engineering we build allows better extraction of information while reducing the number of features, which may help in subsequent applications. Building a classifier based on blood protein profiles using deep learning methods can achieve better classification performance, and it can help us to diagnose the disease early. Overall, it is important for us to study neurodegenerative diseases from both diagnostic and interventional aspects.
+36303784	59	61	AD	Disease	MESH:D000544
+36303784	66	68	PD	Disease	MESH:D010300
+36303784	126	145	Parkinson's disease	Disease	MESH:D010300
+36303784	147	149	PD	Disease	MESH:D010300
+36303784	152	171	Alzheimer's disease	Disease	MESH:D000544
+36303784	173	175	AD	Disease	MESH:D000544
+36303784	188	213	neurodegenerative disease	Disease	MESH:D019636
+36303784	226	246	cognitive impairment	Disease	MESH:D003072
+36303784	248	251	MCI	Disease	MESH:D060825
+36303784	291	293	AD	Disease	MESH:D000544
+36303784	297	299	PD	Disease	MESH:D010300
+36303784	455	481	neurodegenerative diseases	Disease	MESH:D019636
+36303784	636	638	PD	Disease	MESH:D010300
+36303784	640	642	AD	Disease	MESH:D000544
+36303784	644	647	MCI	Disease	MESH:D060825
+36303784	712	717	Human	Species	9606
+36303784	766	768	CT	Disease	
+36303784	773	776	MCI	Disease	MESH:D060825
+36303784	782	784	PD	Disease	MESH:D010300
+36303784	789	791	AD	Disease	MESH:D000544
+36303784	1703	1708	EPHA2	Gene	1969
+36303784	1710	1716	MRPL19	Gene	9801
+36303784	1718	1722	SGK2	Gene	10110
+36303784	1756	1758	AD	Disease	MESH:D000544
+36303784	1846	1852	ERO1LB	Gene	56605
+36303784	1854	1860	FAM73B	Gene	84895
+36303784	1862	1867	IL1RN	Gene	3557
+36303784	1900	1902	PD	Disease	MESH:D010300
+36303784	1972	1977	FGFR3	Gene	2261
+36303784	1982	1987	CDC37	Gene	11140
+36303784	2061	2063	AD	Disease	MESH:D000544
+36303784	2068	2070	PD	Disease	MESH:D010300
+36303784	2425	2427	AD	Disease	MESH:D000544
+36303784	2429	2432	MCI	Disease	MESH:D060825
+36303784	2438	2440	PD	Disease	MESH:D010300
+36303784	2476	2478	PD	Disease	MESH:D010300
+36303784	2508	2511	MCI	Disease	MESH:D060825
+36303784	3147	3173	neurodegenerative diseases	Disease	MESH:D019636
+36303784	Association	MESH:D010300	2261
+36303784	Association	MESH:D010300	84895
+36303784	Association	MESH:D000544	1969
+36303784	Association	MESH:D010300	11140
+36303784	Association	MESH:D000544	9801
+36303784	Association	MESH:D000544	10110
+36303784	Association	MESH:D010300	56605
+36303784	Association	MESH:D010300	3557
+

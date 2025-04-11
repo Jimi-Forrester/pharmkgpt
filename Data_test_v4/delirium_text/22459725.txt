@@ -1,0 +1,26 @@
+22459725|t|Communication among neurons.
+22459725|a|The communication among neurons is the prerequisite for the working brain. To understand the cellular, neurochemical, and structural basis of this communication, and the impacts of aging and disease on brain function, quantitative measures are necessary. This thesis evaluates several quantitative neurobiological methods with respect to possible bias and methodological issues.   Stereological methods are suited for the unbiased estimation of number, length, and volumes of components of the nervous system. Stereological estimates of the total length of myelinated nerve fibers were made in white matter of post mortem brains, and the impact of aging and diseases as Schizophrenia and Alzheimer's disease were evaluated. Although stereological methods are in principle unbiased, shrinkage artifacts are difficult to account for.   Positron emission tomography (PET) recordings, in conjunction with kinetic modeling, permit the quantitation of radioligand binding in brain. The novel serotonin 5-HT4 antagonist [11C]SB207145 was used as an example of the validation process for quantitative PET receptor imaging. Methods based on reference tissue as well as methods based on an arterial plasma input function were evaluated with respect to precision and accuracy. It was shown that [11C]SB207145 binding had high sensitivity to occupancy by unlabeled ligand, necessitating high specific activity in the radiosynthesis to avoid bias. The established serotonin 5-HT2A ligand [18F]altanersin was evaluated in a two-year follow-up study in elderly subjects. Application of partial volume correction of the PET data diminished the reliability of the measures, but allowed for the correct distinction between changes due to brain atrophy and receptor availability. Furthermore, a PET study of patients with Alzheimer's disease with the serotonin transporter ligand [11C]DASB showed relatively preserved serotonergic projections, despite a marked decrease in 5-HT2A receptor binding. Possible confounders are considered and the relation to the prevailing beta-amyloid hypothesis is discussed.
+22459725	699	712	Schizophrenia	Disease	MESH:D012559
+22459725	717	736	Alzheimer's disease	Disease	MESH:D000544
+22459725	1015	1024	serotonin	Chemical	MESH:D012701
+22459725	1025	1030	5-HT4	Gene	3360
+22459725	1043	1055	11C]SB207145	Chemical	MESH:C534709
+22459725	1314	1326	11C]SB207145	Chemical	MESH:C534709
+22459725	1480	1489	serotonin	Chemical	MESH:D012701
+22459725	1490	1496	5-HT2A	Gene	3356
+22459725	1504	1519	[18F]altanersin	Chemical	-
+22459725	1749	1762	brain atrophy	Disease	MESH:C566985
+22459725	1818	1826	patients	Species	9606
+22459725	1832	1851	Alzheimer's disease	Disease	MESH:D000544
+22459725	1861	1882	serotonin transporter	Gene	6532
+22459725	1891	1899	11C]DASB	Chemical	MESH:C412822
+22459725	1983	1998	5-HT2A receptor	Gene	3356
+22459725	Negative_Correlation	MESH:D012701	3360
+22459725	Bind	MESH:D012701	3356
+22459725	Association	MESH:C412822	6532
+22459725	Negative_Correlation	MESH:C534709	3360
+22459725	Association	MESH:D000544	6532
+22459725	Association	MESH:D000544	3356
+22459725	Negative_Correlation	MESH:C534709	MESH:D012701
+22459725	Association	MESH:C412822	MESH:D000544
+

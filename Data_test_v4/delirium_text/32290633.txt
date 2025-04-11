@@ -1,0 +1,16 @@
+32290633|t|Assessment of the Status of Patients with Parkinson's Disease Using Neural Networks and Mobile Phone Sensors.
+32290633|a|Parkinson's disease (PD) is one of the most common chronic neurological diseases and one of the significant causes of disability for middle-aged and elderly people. Monitoring the patient's condition and its compliance is the key to the success of the correction of the main clinical manifestations of PD, including the almost inevitable modification of the clinical picture of the disease against the background of prolonged dopaminergic therapy. In this article, we proposed an approach to assessing the condition of patients with PD using deep recurrent neural networks, trained on data measured using mobile phones. The data was received in two modes: background (data from the phone's sensors) and interactive (data directly entered by the user). For the classification of the patient's condition, we built various models of the neural network. Testing of these models showed that the most efficient was a recurrent network with two layers. The results of the experiment show that with a sufficient amount of the training sample, it is possible to build a neural network that determines the condition of the patient according to the data from the mobile phone sensors with a high probability.
+32290633	28	36	Patients	Species	9606
+32290633	42	61	Parkinson's Disease	Disease	MESH:D010300
+32290633	110	129	Parkinson's disease	Disease	MESH:D010300
+32290633	131	133	PD	Disease	MESH:D010300
+32290633	169	190	neurological diseases	Disease	MESH:D020271
+32290633	290	297	patient	Species	9606
+32290633	412	414	PD	Disease	MESH:D010300
+32290633	536	548	dopaminergic	Chemical	MESH:D004298
+32290633	629	637	patients	Species	9606
+32290633	643	645	PD	Disease	MESH:D010300
+32290633	892	899	patient	Species	9606
+32290633	1223	1230	patient	Species	9606
+32290633	Negative_Correlation	MESH:D004298	MESH:D010300
+

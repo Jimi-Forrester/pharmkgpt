@@ -1,0 +1,48 @@
+32444684|t|KLOTHO polymorphisms and age-related outcomes in community-dwelling older subjects: The Sao Paulo Ageing & Health (SPAH) Study.
+32444684|a|Defective KLOTHO gene expression in mice led to a syndrome resembling human ageing. This study evaluated three KLOTHO polymorphisms, namely G395A, C1818T, and C370S, in an elderly population (mean age of 73 years) and their associations with ageing-related outcomes (cardiovascular events, kidney function, osteoporosis, sarcopenia) and mortality. Estimated glomerular filtration rates (eGFR) was lower in subjects with 1818TT (P = 0.047) and 370SS (P = 0.046) genotypes. The 1818TT genotype (P = 0.006) and 1818T allele were associated with higher frequency of myocardial infarction (MI) (CC:1.7% vs. CT + TT:7.0%; P = 0.002). The 370SS genotype was associated with lower stroke frequency (P = 0.001). MI (OR 3.35 [95% CI: 1.29-8.74]) and stroke (OR 3.64 [95% CI: 1.48-8.97]) were associated with mortality. Regarding MI, logistic regression showed 1818T allele was a risk factor for death-related MI (OR 4.29 [95% CI: 1.60-11.52]; P = 0.003), while 370C was protective (OR 0.03 [95% CI: 0.01-0.08]; P < 0.001). Regarding stroke, the 395A and 370C alleles were protective factors (respectively: OR 0.28 [95% CI: 0.20-0.80]; P = 0.018; OR 0.10 [95% CI: 0.05-0.18]; P < 0.001). This is the first study to determine potential associations between common ageing-related outcomes/mortality and KLOTHO polymorphisms. The 1818T allele was a risk factor for MI-related death. The 395A and 370C alleles were protective factors for stroke-related death in elderly from community.
+32444684	0	6	KLOTHO	Gene	16591
+32444684	138	144	KLOTHO	Gene	16591
+32444684	164	168	mice	Species	10090
+32444684	198	203	human	Species	9606
+32444684	239	245	KLOTHO	Gene	16591
+32444684	268	273	G395A	DNAMutation	tmVar:c|SUB|G|395|A;HGVS:c.395G>A;VariantGroup:1;OriginalGene:16591;CorrespondingGene:9365;CorrespondingSpecies:10090
+32444684	275	281	C1818T	DNAMutation	tmVar:c|SUB|C|1818|T;HGVS:c.1818C>T;VariantGroup:2;OriginalGene:16591;CorrespondingGene:9365;CorrespondingSpecies:10090
+32444684	287	292	C370S	ProteinMutation	tmVar:p|SUB|C|370|S;HGVS:p.C370S;VariantGroup:0;OriginalGene:16591;CorrespondingGene:9365;RS#:9527025;CorrespondingSpecies:10090;CA#:6944034
+32444684	435	447	osteoporosis	Disease	MESH:D010024
+32444684	449	459	sarcopenia	Disease	MESH:D055948
+32444684	548	554	1818TT	DNAMutation	tmVar:c|Allele|TT|1818;VariantGroup:2;OriginalGene:16591;CorrespondingGene:9365;CorrespondingSpecies:10090
+32444684	604	610	1818TT	DNAMutation	tmVar:c|Allele|TT|1818;VariantGroup:2;OriginalGene:16591;CorrespondingGene:9365;CorrespondingSpecies:10090
+32444684	636	641	1818T	DNAMutation	tmVar:c|Allele|T|1818;VariantGroup:2;OriginalGene:16591;CorrespondingGene:9365;CorrespondingSpecies:10090
+32444684	690	711	myocardial infarction	Disease	MESH:D009203
+32444684	801	807	stroke	Disease	MESH:D020521
+32444684	868	874	stroke	Disease	MESH:D020521
+32444684	978	983	1818T	DNAMutation	tmVar:c|Allele|T|1818;VariantGroup:2;OriginalGene:16591;CorrespondingGene:9365;CorrespondingSpecies:10090
+32444684	1013	1018	death	Disease	MESH:D003643
+32444684	1079	1083	370C	ProteinMutation	tmVar:c|Allele|C|370;VariantGroup:0;OriginalGene:16591;CorrespondingGene:9365;RS#:9527025;CorrespondingSpecies:10090
+32444684	1151	1157	stroke	Disease	MESH:D020521
+32444684	1163	1167	395A	DNAMutation	tmVar:c|Allele|A|395;VariantGroup:1;OriginalGene:16591;CorrespondingGene:9365;CorrespondingSpecies:10090
+32444684	1172	1176	370C	ProteinMutation	tmVar:c|Allele|C|370;VariantGroup:0;OriginalGene:16591;CorrespondingGene:9365;RS#:9527025;CorrespondingSpecies:10090
+32444684	1418	1424	KLOTHO	Gene	16591
+32444684	1444	1449	1818T	DNAMutation	tmVar:c|Allele|T|1818;VariantGroup:2;OriginalGene:16591;CorrespondingGene:9365;CorrespondingSpecies:10090
+32444684	1490	1495	death	Disease	MESH:D003643
+32444684	1501	1505	395A	DNAMutation	tmVar:c|Allele|A|395;VariantGroup:1;OriginalGene:16591;CorrespondingGene:9365;CorrespondingSpecies:10090
+32444684	1510	1514	370C	ProteinMutation	tmVar:c|Allele|C|370;VariantGroup:0;OriginalGene:16591;CorrespondingGene:9365;RS#:9527025;CorrespondingSpecies:10090
+32444684	1551	1571	stroke-related death	Disease	MESH:D003643
+32444684	Negative_Correlation	MESH:D020521	HGVS:c.395G>A;CorrespondingGene:9365
+32444684	Positive_Correlation	CorrespondingGene:9365;CorrespondingSpecies:10090;OriginalGene:16591;VariantGroup:2;tmVar:c	MESH:D009203
+32444684	Association	MESH:D055948	16591
+32444684	Negative_Correlation	HGVS:c.395G>A;CorrespondingGene:9365	MESH:D020521
+32444684	Positive_Correlation	HGVS:c.1818C>T;CorrespondingGene:9365	MESH:D009203
+32444684	Positive_Correlation	CorrespondingGene:9365;CorrespondingSpecies:10090;OriginalGene:16591;VariantGroup:2;tmVar:c	MESH:D009203
+32444684	Negative_Correlation	MESH:D020521	RS#:9527025;HGVS:p.C370S;CorrespondingGene:9365
+32444684	Association	MESH:D009203	16591
+32444684	Association	MESH:D020521	16591
+32444684	Negative_Correlation	CorrespondingGene:9365;CorrespondingSpecies:10090;OriginalGene:16591;VariantGroup:1;tmVar:c	MESH:D020521
+32444684	Association	MESH:D010024	16591
+32444684	Negative_Correlation	MESH:D020521	RS#:9527025;CorrespondingGene:9365
+32444684	Positive_Correlation	HGVS:c.1818C>T;CorrespondingGene:9365	MESH:D003643
+32444684	Positive_Correlation	CorrespondingGene:9365;CorrespondingSpecies:10090;OriginalGene:16591;VariantGroup:2;tmVar:c	MESH:D003643
+32444684	Association	MESH:D020521	9365
+32444684	Association	MESH:D009203	9365
+32444684	Association	MESH:D003643	9365
+

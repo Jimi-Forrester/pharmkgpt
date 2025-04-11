@@ -1,0 +1,48 @@
+33417599|t|Identifying drug targets for neurological and psychiatric disease via genetics and the brain transcriptome.
+33417599|a|Discovering drugs that efficiently treat brain diseases has been challenging. Genetic variants that modulate the expression of potential drug targets can be utilized to assess the efficacy of therapeutic interventions. We therefore employed Mendelian Randomization (MR) on gene expression measured in brain tissue to identify drug targets involved in neurological and psychiatric diseases. We conducted a two-sample MR using cis-acting brain-derived expression quantitative trait loci (eQTLs) from the Accelerating Medicines Partnership for Alzheimer's Disease consortium (AMP-AD) and the CommonMind Consortium (CMC) meta-analysis study (n = 1,286) as genetic instruments to predict the effects of 7,137 genes on 12 neurological and psychiatric disorders. We conducted Bayesian colocalization analysis on the top MR findings (using P<6x10-7 as evidence threshold, Bonferroni-corrected for 80,557 MR tests) to confirm sharing of the same causal variants between gene expression and trait in each genomic region. We then intersected the colocalized genes with known monogenic disease genes recorded in Online Mendelian Inheritance in Man (OMIM) and with genes annotated as drug targets in the Open Targets platform to identify promising drug targets. 80 eQTLs showed MR evidence of a causal effect, from which we prioritised 47 genes based on colocalization with the trait. We causally linked the expression of 23 genes with schizophrenia and a single gene each with anorexia, bipolar disorder and major depressive disorder within the psychiatric diseases and 9 genes with Alzheimer's disease, 6 genes with Parkinson's disease, 4 genes with multiple sclerosis and two genes with amyotrophic lateral sclerosis within the neurological diseases we tested. From these we identified five genes (ACE, GPNMB, KCNQ5, RERE and SUOX) as attractive drug targets that may warrant follow-up in functional studies and clinical trials, demonstrating the value of this study design for discovering drug targets in neuropsychiatric diseases.
+33417599	29	65	neurological and psychiatric disease	Disease	MESH:D001523
+33417599	149	163	brain diseases	Disease	MESH:D001927
+33417599	459	496	neurological and psychiatric diseases	Disease	MESH:D001523
+33417599	649	668	Alzheimer's Disease	Disease	MESH:D000544
+33417599	685	687	AD	Disease	MESH:D000544
+33417599	824	862	neurological and psychiatric disorders	Disease	MESH:D001523
+33417599	1208	1243	Online Mendelian Inheritance in Man	Disease	MESH:D030342
+33417599	1245	1249	OMIM	Disease	MESH:D030342
+33417599	1531	1544	schizophrenia	Disease	MESH:D012559
+33417599	1573	1581	anorexia	Disease	MESH:D000855
+33417599	1583	1599	bipolar disorder	Disease	MESH:D001714
+33417599	1604	1629	major depressive disorder	Disease	MESH:D003865
+33417599	1641	1661	psychiatric diseases	Disease	MESH:D001523
+33417599	1679	1698	Alzheimer's disease	Disease	MESH:D000544
+33417599	1713	1732	Parkinson's disease	Disease	MESH:D010300
+33417599	1747	1765	multiple sclerosis	Disease	MESH:D009103
+33417599	1785	1814	amyotrophic lateral sclerosis	Disease	MESH:D000690
+33417599	1826	1847	neurological diseases	Disease	MESH:D020271
+33417599	1896	1899	ACE	Gene	163
+33417599	1901	1906	GPNMB	Gene	10457
+33417599	1908	1913	KCNQ5	Gene	56479
+33417599	1915	1919	RERE	Gene	473
+33417599	1924	1928	SUOX	Gene	6821
+33417599	2104	2129	neuropsychiatric diseases	Disease	MESH:D004194
+33417599	Association	MESH:D010300	6821
+33417599	Association	MESH:D012559	6821
+33417599	Association	MESH:D000690	473
+33417599	Association	MESH:D004194	10457
+33417599	Association	MESH:D000690	6821
+33417599	Association	MESH:D009103	163
+33417599	Association	MESH:D009103	10457
+33417599	Association	MESH:D003865	6821
+33417599	Association	MESH:D009103	56479
+33417599	Association	MESH:D020271	6821
+33417599	Association	MESH:D004194	473
+33417599	Association	MESH:D012559	163
+33417599	Association	MESH:D004194	6821
+33417599	Association	MESH:D000855	163
+33417599	Association	MESH:D000855	6821
+33417599	Association	MESH:D000690	56479
+33417599	Association	MESH:D000690	163
+33417599	Association	MESH:D004194	163
+33417599	Association	MESH:D004194	56479
+33417599	Association	MESH:D009103	6821
+33417599	Association	MESH:D000690	10457
+

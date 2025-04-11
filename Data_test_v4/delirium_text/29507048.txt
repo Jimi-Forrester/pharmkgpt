@@ -1,0 +1,17 @@
+29507048|t|A Bayesian Framework for Generalized Linear Mixed Modeling Identifies New Candidate Loci for Late-Onset Alzheimer's Disease.
+29507048|a|Recent technical and methodological advances have greatly enhanced genome-wide association studies (GWAS). The advent of low-cost, whole-genome sequencing facilitates high-resolution variant identification, and the development of linear mixed models (LMM) allows improved identification of putatively causal variants. While essential for correcting false positive associations due to sample relatedness and population stratification, LMMs have commonly been restricted to quantitative variables. However, phenotypic traits in association studies are often categorical, coded as binary case-control or ordered variables describing disease stages. To address these issues, we have devised a method for genomic association studies that implements a generalized LMM (GLMM) in a Bayesian framework, called Bayes-GLMM Bayes-GLMM has four major features: (1) support of categorical, binary, and quantitative variables; (2) cohesive integration of previous GWAS results for related traits; (3) correction for sample relatedness by mixed modeling; and (4) model estimation by both Markov chain Monte Carlo sampling and maximal likelihood estimation. We applied Bayes-GLMM to the whole-genome sequencing cohort of the Alzheimer's Disease Sequencing Project. This study contains 570 individuals from 111 families, each with Alzheimer's disease diagnosed at one of four confidence levels. Using Bayes-GLMM we identified four variants in three loci significantly associated with Alzheimer's disease. Two variants, rs140233081 and rs149372995, lie between PRKAR1B and PDGFA The coded proteins are localized to the glial-vascular unit, and PDGFA transcript levels are associated with Alzheimer's disease-related neuropathology. In summary, this work provides implementation of a flexible, generalized mixed-model approach in a Bayesian framework for association studies.
+29507048	104	123	Alzheimer's Disease	Disease	MESH:D000544
+29507048	1333	1352	Alzheimer's Disease	Disease	MESH:D000544
+29507048	1438	1457	Alzheimer's disease	Disease	MESH:D000544
+29507048	1591	1610	Alzheimer's disease	Disease	MESH:D000544
+29507048	1626	1637	rs140233081	SNP	tmVar:rs140233081;VariantGroup:0;RS#:140233081
+29507048	1642	1653	rs149372995	SNP	tmVar:rs149372995;VariantGroup:1;RS#:149372995
+29507048	1667	1674	PRKAR1B	Gene	5575
+29507048	1679	1684	PDGFA	Gene	5154
+29507048	1750	1755	PDGFA	Gene	5154
+29507048	1794	1813	Alzheimer's disease	Disease	MESH:D000544
+29507048	Association	MESH:D000544	5575
+29507048	Positive_Correlation	MESH:D000544	RS#:149372995
+29507048	Positive_Correlation	MESH:D000544	RS#:140233081
+29507048	Association	MESH:D000544	5154
+

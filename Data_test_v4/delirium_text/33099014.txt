@@ -1,0 +1,27 @@
+33099014|t|A computer-simulated mechanism of familial Alzheimer's disease: Mutations enhance thermal dynamics and favor looser substrate-binding to gamma-secretase.
+33099014|a|The 4-subunit intramembrane protease complex gamma-secretase cleaves many substrates including fragments of the beta-amyloid precursor protein (APP), leading to formation of Abeta peptides, and Notch. Mutations in APP and the catalytic subunit of gamma-secretase, presenilin, cause familial Alzheimer's disease (fAD). Mutations are assumed to change the substrate-binding and cleavage and thereby the Abeta formed. Whereas a wild-type structure of substrate-bound gamma-secretase became recently available from cryogenic electron microscopy (6IYC), the structure and dynamics of mutant proteins remain obscure. Here, we studied five prominent mutants of substrate-bound gamma-secretase by explicit all-atom molecular dynamics in a phospholipid membrane model at physiological temperature using the experimental structure as template: The presenilin 1 mutants E280A, G384A, A434C, and L435F and the V717I mutant of APP. Our structures and dynamics provide the first atomic detail into how fAD-causing mutations affect substrate binding to gamma-secretase. The pathogenic mutations tend to increase the space and variability in the substrate binding site, as seen e.g. from the distance from catalytic aspartate to substrate cleavage sites. We suggest that we have identified the molecular cause of the "imprecise cleavage" that leads to two trimming pathways in gamma-secretase, consistent with the FIST model, which may rationalize the experimental Abeta42/Abeta40 ratios as a molecular basis for fAD.
+33099014	34	62	familial Alzheimer's disease	Disease	MESH:D000544
+33099014	266	296	beta-amyloid precursor protein	Gene	351
+33099014	328	333	Abeta	Gene	351
+33099014	436	464	familial Alzheimer's disease	Disease	MESH:D000544
+33099014	466	469	fAD	Disease	MESH:D000544
+33099014	555	560	Abeta	Gene	351
+33099014	885	897	phospholipid	Chemical	MESH:D010743
+33099014	992	1004	presenilin 1	Gene	5663
+33099014	1013	1018	E280A	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:2;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+33099014	1020	1025	G384A	ProteinMutation	tmVar:p|SUB|G|384|A;HGVS:p.G384A;VariantGroup:0;CorrespondingGene:5663;RS#:63750646(Expired);CorrespondingSpecies:9606;CA#:225161
+33099014	1027	1032	A434C	ProteinMutation	tmVar:p|SUB|A|434|C;HGVS:p.A434C;VariantGroup:1;CorrespondingGene:5663;RS#:281875357(Expired);CorrespondingSpecies:9606;CA#:225525
+33099014	1038	1043	L435F	ProteinMutation	tmVar:p|SUB|L|435|F;HGVS:p.L435F;VariantGroup:4;CorrespondingGene:351;RS#:1038162399;CorrespondingSpecies:9606;CA#:319118550
+33099014	1052	1057	V717I	ProteinMutation	tmVar:p|SUB|V|717|I;HGVS:p.V717I;VariantGroup:3;CorrespondingGene:351;RS#:63750264;CorrespondingSpecies:9606;CA#:127791
+33099014	1142	1145	fAD	Disease	MESH:D000544
+33099014	1603	1610	Abeta42	Gene	351
+33099014	1651	1654	fAD	Disease	MESH:D000544
+33099014	Positive_Correlation	MESH:D000544	RS#:1038162399;HGVS:p.L435F;CorrespondingGene:351
+33099014	Positive_Correlation	MESH:D000544	RS#:281875357(Expired);HGVS:p.A434C;CorrespondingGene:5663
+33099014	Positive_Correlation	MESH:D000544	RS#:63750231;HGVS:p.E280A;CorrespondingGene:5663
+33099014	Positive_Correlation	MESH:D000544	RS#:63750264;HGVS:p.V717I;CorrespondingGene:351
+33099014	Association	MESH:D000544	351
+33099014	Positive_Correlation	MESH:D000544	RS#:63750646(Expired);HGVS:p.G384A;CorrespondingGene:5663
+33099014	Association	MESH:D000544	351
+33099014	Association	MESH:D000544	5663
+

@@ -1,0 +1,42 @@
+36232882|t|An Integrative Analysis of Identified Schizophrenia-Associated Brain Cell Types and Gene Expression Changes.
+36232882|a|Schizophrenia (SCZ) is a severe mental disorder that may result in hallucinations, delusions, and extremely disordered thinking. How each cell type in the brain contributes to SCZ occurrence is still unclear. Here, we leveraged the human dorsolateral prefrontal cortex bulk RNA-seq data, then used the RNA-seq deconvolution algorithm CIBERSORTx to generate SCZ brain single-cell RNA-seq data for a comprehensive analysis to understand SCZ-associated brain cell types and gene expression changes. Firstly, we observed that the proportions of brain cell types in SCZ differed from normal samples. Among these cell types, astrocyte, pericyte, and PAX6 cells were found to have a higher proportion in SCZ patients (astrocyte: SCZ = 0.163, control = 0.145, P.adj = 4.9 x 10-4, effect size = 0.478; pericyte: SCZ = 0.057, control = 0.066, P.adj = 1.1 x 10-4, effect size = 0.519; PAX6: SCZ = 0.014, control = 0.011, P.adj = 0.014, effect size = 0.377), while the L5/6_IT_CAR3 cells and LAMP5 cells are the exact opposite (L5/6_IT_Car3: SCZ = 0.102, control = 0.108, P.adj = 0.016, effect size = 0.369; LAMP5: SCZ = 0.057, control = 0.066, P.adj = 2.2 x 10-6, effect size = 0.617). Next, we investigated gene expression in cell types and functional pathways in SCZ. We observed chemical synaptic transmission dysregulation in two types of GABAergic neurons (PVALB and LAMP5), and immune reaction involvement in GABAergic neurons (SST) and non-neuronal cell types (endothelial and oligodendrocyte). Furthermore, we observed that some differential expression genes from bulk RNA-seq displayed cell-type-specific abnormalities in the expression of molecules in SCZ. Finally, the cell types with the SCZ-related transcriptomic changes could be considered to belong to the same module since we observed two major similar coordinated transcriptomic changes across these cell types. Together, our results offer novel insights into cellular heterogeneity and the molecular mechanisms underlying SCZ.
+36232882	38	51	Schizophrenia	Disease	MESH:D012559
+36232882	109	122	Schizophrenia	Disease	MESH:D012559
+36232882	124	127	SCZ	Disease	MESH:D012559
+36232882	141	156	mental disorder	Disease	MESH:D001523
+36232882	176	190	hallucinations	Disease	MESH:D006212
+36232882	192	201	delusions	Disease	MESH:D063726
+36232882	217	236	disordered thinking	Disease	MESH:D009358
+36232882	285	288	SCZ	Disease	MESH:D012559
+36232882	341	346	human	Species	9606
+36232882	466	469	SCZ	Disease	MESH:D012559
+36232882	544	547	SCZ	Disease	MESH:D012559
+36232882	670	673	SCZ	Disease	MESH:D012559
+36232882	753	757	PAX6	Gene	5080
+36232882	806	809	SCZ	Disease	MESH:D012559
+36232882	810	818	patients	Species	9606
+36232882	831	834	SCZ	Disease	MESH:D012559
+36232882	912	915	SCZ	Disease	MESH:D012559
+36232882	983	987	PAX6	Gene	5080
+36232882	989	992	SCZ	Disease	MESH:D012559
+36232882	1066	1068	L5	CellLine	CVCL:F951
+36232882	1074	1078	CAR3	Gene	761
+36232882	1089	1094	LAMP5	Gene	24141
+36232882	1125	1127	L5	CellLine	CVCL:F951
+36232882	1133	1137	Car3	Gene	761
+36232882	1139	1142	SCZ	Disease	MESH:D012559
+36232882	1205	1210	LAMP5	Gene	24141
+36232882	1212	1215	SCZ	Disease	MESH:D012559
+36232882	1363	1366	SCZ	Disease	MESH:D012559
+36232882	1460	1465	PVALB	Gene	5816
+36232882	1470	1475	LAMP5	Gene	24141
+36232882	1532	1535	SST	Gene	6750
+36232882	1760	1763	SCZ	Disease	MESH:D012559
+36232882	1798	1801	SCZ	Disease	MESH:D012559
+36232882	2089	2092	SCZ	Disease	MESH:D012559
+36232882	Association	MESH:D012559	24141
+36232882	Association	MESH:D012559	6750
+36232882	Association	MESH:D012559	5816
+36232882	Association	MESH:D012559	761
+36232882	Association	MESH:D012559	5080
+

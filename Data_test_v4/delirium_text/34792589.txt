@@ -1,0 +1,22 @@
+34792589|t|Development and Validation of a Deep Learning Model for Earlier Detection of Cognitive Decline From Clinical Notes in Electronic Health Records.
+34792589|a|Importance: Detecting cognitive decline earlier among older adults can facilitate enrollment in clinical trials and early interventions. Clinical notes in longitudinal electronic health records (EHRs) provide opportunities to detect cognitive decline earlier than it is noted in structured EHR fields as formal diagnoses. Objective: To develop and validate a deep learning model to detect evidence of cognitive decline from clinical notes in the EHR. Design, Setting, and Participants: Notes documented 4 years preceding the initial mild cognitive impairment (MCI) diagnosis were extracted from Mass General Brigham's Enterprise Data Warehouse for patients aged 50 years or older and with initial MCI diagnosis during 2019. The study was conducted from March 1, 2020, to June 30, 2021. Sections of notes for cognitive decline were labeled manually and 2 reference data sets were created. Data set I contained a random sample of 4950 note sections filtered by a list of keywords related to cognitive functions and was used for model training and testing. Data set II contained 2000 randomly selected sections without keyword filtering for assessing whether the model performance was dependent on specific keywords. Main Outcomes and Measures: A deep learning model and 4 baseline models were developed and their performance was compared using the area under the receiver operating characteristic curve (AUROC) and area under the precision recall curve (AUPRC). Results: Data set I represented 1969 patients (1046 [53.1%] women; mean [SD] age, 76.0 [13.3] years). Data set II comprised 1161 patients (619 [53.3%] women; mean [SD] age, 76.5 [10.2] years). With some overlap of patients deleted, the unique population was 2166. Cognitive decline was noted in 1453 sections (29.4%) in data set I and 69 sections (3.45%) in data set II. Compared with the 4 baseline models, the deep learning model achieved the best performance in both data sets, with AUROC of 0.971 (95% CI, 0.967-0.976) and AUPRC of 0.933 (95% CI, 0.921-0.944) for data set I and AUROC of 0.997 (95% CI, 0.994-0.999) and AUPRC of 0.929 (95% CI, 0.870-0.969) for data set II. Conclusions and Relevance: In this diagnostic study, a deep learning model accurately detected cognitive decline from clinical notes preceding MCI diagnosis and had better performance than keyword-based search and other machine learning models. These results suggest that a deep learning model could be used for earlier detection of cognitive decline in the EHRs.
+34792589	77	94	Cognitive Decline	Disease	MESH:D003072
+34792589	167	184	cognitive decline	Disease	MESH:D003072
+34792589	378	395	cognitive decline	Disease	MESH:D003072
+34792589	546	563	cognitive decline	Disease	MESH:D003072
+34792589	617	629	Participants	Species	9606
+34792589	683	703	cognitive impairment	Disease	MESH:D003072
+34792589	705	708	MCI	Disease	MESH:D060825
+34792589	793	801	patients	Species	9606
+34792589	842	845	MCI	Disease	MESH:D060825
+34792589	953	970	cognitive decline	Disease	MESH:D003072
+34792589	1642	1650	patients	Species	9606
+34792589	1665	1670	women	Species	9606
+34792589	1734	1742	patients	Species	9606
+34792589	1756	1761	women	Species	9606
+34792589	1819	1827	patients	Species	9606
+34792589	1869	1886	Cognitive decline	Disease	MESH:D003072
+34792589	2378	2395	cognitive decline	Disease	MESH:D003072
+34792589	2426	2429	MCI	Disease	MESH:D060825
+34792589	2616	2633	cognitive decline	Disease	MESH:D003072
+

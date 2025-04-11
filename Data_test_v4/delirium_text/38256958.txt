@@ -1,0 +1,42 @@
+38256958|t|Promising Effects of Montelukast for Critically Ill Asthma Patients via a Reduction in Delirium.
+38256958|a|Background: Montelukast (MTK), a potent antagonist of cysteinyl leukotriene receptor 1, has shown therapeutic promise for the treatment of neuropsychiatric disorders. Delirium, a common complication in critically ill patients, lacks effective treatment. This study aims to explore the impact of pre-intensive care unit (ICU) MTK use on in-hospital delirium incidence and, subsequent, prognosis in critically ill patients. Methods: A retrospective cohort study (n = 6344) was conducted using the MIMIC-IV database. After propensity score matching, logistic/Cox regression, E-value sensitivity analysis, and causal mediation analysis were performed to assess associations between pre-ICU MTK exposure and delirium and prognosis in critically ill patients. Results: Pre-ICU MTK use was significantly associated with reduced in-hospital delirium (OR: 0.705; 95% CI 0.497-0.999; p = 0.049) and 90-day mortality (OR: 0.554; 95% CI 0.366-0.840; p = 0.005). The association was more significant in patients without myocardial infarction (OR: 0.856; 95% CI 0.383-0.896; p = 0.014) and could be increased by extending the duration of use. Causal mediation analysis showed that the reduction in delirium partially mediated the association between MTK and 90-day mortality (ACME: -0.053; 95% CI -0.0142 to 0.0002; p = 0.020). Conclusions: In critically ill patients, MTK has shown promising therapeutic benefits by reducing the incidence of delirium and 90-day mortality. This study highlights the potential of MTK, beyond its traditional use in respiratory disease, and may contribute to the development of novel therapeutic strategies for delirium.
+38256958	21	32	Montelukast	Chemical	MESH:C093875
+38256958	37	51	Critically Ill	Disease	MESH:D016638
+38256958	52	58	Asthma	Disease	MESH:D001249
+38256958	59	67	Patients	Species	9606
+38256958	87	95	Delirium	Disease	MESH:D003693
+38256958	109	120	Montelukast	Chemical	MESH:C093875
+38256958	122	125	MTK	Chemical	MESH:C093875
+38256958	151	183	cysteinyl leukotriene receptor 1	Gene	10800
+38256958	236	262	neuropsychiatric disorders	Disease	MESH:D001523
+38256958	264	272	Delirium	Disease	MESH:D003693
+38256958	299	313	critically ill	Disease	MESH:D016638
+38256958	314	322	patients	Species	9606
+38256958	422	425	MTK	Chemical	MESH:C093875
+38256958	445	453	delirium	Disease	MESH:D003693
+38256958	494	508	critically ill	Disease	MESH:D016638
+38256958	509	517	patients	Species	9606
+38256958	783	786	MTK	Chemical	MESH:C093875
+38256958	800	808	delirium	Disease	MESH:D003693
+38256958	826	840	critically ill	Disease	MESH:D016638
+38256958	841	849	patients	Species	9606
+38256958	868	871	MTK	Chemical	MESH:C093875
+38256958	930	938	delirium	Disease	MESH:D003693
+38256958	1087	1095	patients	Species	9606
+38256958	1104	1125	myocardial infarction	Disease	MESH:D009203
+38256958	1281	1289	delirium	Disease	MESH:D003693
+38256958	1333	1336	MTK	Chemical	MESH:C093875
+38256958	1427	1441	critically ill	Disease	MESH:D016638
+38256958	1442	1450	patients	Species	9606
+38256958	1452	1455	MTK	Chemical	MESH:C093875
+38256958	1526	1534	delirium	Disease	MESH:D003693
+38256958	1596	1599	MTK	Chemical	MESH:C093875
+38256958	1631	1650	respiratory disease	Disease	MESH:D012140
+38256958	1726	1734	delirium	Disease	MESH:D003693
+38256958	Negative_Correlation	MESH:C093875	10800
+38256958	Negative_Correlation	MESH:C093875	MESH:D001523
+38256958	Negative_Correlation	MESH:C093875	MESH:D012140
+38256958	Negative_Correlation	MESH:C093875	MESH:D001249
+38256958	Negative_Correlation	MESH:C093875	MESH:D016638
+38256958	Negative_Correlation	MESH:C093875	MESH:D003693
+

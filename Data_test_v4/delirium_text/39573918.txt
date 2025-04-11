@@ -1,0 +1,68 @@
+39573918|t|Sox6 and ALDH1A1 Truncation by Asparagine Endopeptidase Defines Selective Neuronal Vulnerability in Parkinson's Disease.
+39573918|a|Dopaminergic neurons in the substantia nigra pars compacta (SNpc) demonstrate regionally selective susceptibility in Parkinson's disease (PD) compared to those in the ventral tegmental area (VTA). However, the molecular mechanism for this distinct vulnerability remains unclear. Here, it is shown that Legumain, also known as asparagine endopeptidase (AEP), is activated in a subgroup of SRY-box transcription factor 6 /Aldehyde dehydrogenase 1 family member A1, (Sox6+/ALDH1A1+) neurons in the ventral tier of the SNpc and cleaves Sox6 and ALDH1A1, leading to repression of Special AT-rich sequence binding protein 1 (Satb1) that is a dimeric/tetrameric transcription factor specifically binding to AT-rich DNA sequences, and toxic dopamine metabolite accumulation. AEP cuts Sox6 and ALDH1A1 in dopaminergic neurons that project to the locus coeruleus (LC), abolishing Sox6's transcriptive and ALDH1A1's enzymatic activities. Co-expressing AEP-truncated Sox6 and ALDH1A1 fragments in 3-month-old A53T SNCA transgenic mice accelerates dopamine degeneration, whereas expressing AEP-resistant Sox6 N336A/N446A and ALDH1A1 N220A mutants alleviates rotenone-induced PD pathologies. Hence, different circuitries and intrinsic properties of dopaminergic neurons in the SNpc and VTA render differential predispositions in PD.
+39573918	0	4	Sox6	Gene	20679
+39573918	9	16	ALDH1A1	Gene	11668
+39573918	31	55	Asparagine Endopeptidase	Gene	19141
+39573918	100	119	Parkinson's Disease	Disease	MESH:D010300
+39573918	238	257	Parkinson's disease	Disease	MESH:D010300
+39573918	259	261	PD	Disease	MESH:D010300
+39573918	423	431	Legumain	Gene	19141
+39573918	447	471	asparagine endopeptidase	Gene	19141
+39573918	473	476	AEP	Gene	19141
+39573918	585	589	Sox6	Gene	20679
+39573918	591	598	ALDH1A1	Gene	11668
+39573918	653	657	Sox6	Gene	20679
+39573918	662	669	ALDH1A1	Gene	11668
+39573918	696	738	Special AT-rich sequence binding protein 1	Gene	20230
+39573918	740	745	Satb1	Gene	20230
+39573918	854	862	dopamine	Chemical	MESH:D004298
+39573918	888	891	AEP	Gene	19141
+39573918	897	901	Sox6	Gene	20679
+39573918	906	913	ALDH1A1	Gene	11668
+39573918	991	995	Sox6	Gene	20679
+39573918	1016	1023	ALDH1A1	Gene	11668
+39573918	1062	1065	AEP	Gene	19141
+39573918	1076	1080	Sox6	Gene	20679
+39573918	1085	1092	ALDH1A1	Gene	11668
+39573918	1118	1122	A53T	ProteinMutation	tmVar:p|SUB|A|53|T;HGVS:p.A53T;VariantGroup:0;CorrespondingGene:6622;RS#:104893877;CorrespondingSpecies:9606;CA#:257068
+39573918	1123	1127	SNCA	Disease	
+39573918	1139	1143	mice	Species	10090
+39573918	1156	1177	dopamine degeneration	Disease	MESH:C567730
+39573918	1198	1201	AEP	Gene	19141
+39573918	1212	1216	Sox6	Gene	20679
+39573918	1217	1222	N336A	ProteinMutation	tmVar:p|SUB|N|336|A;HGVS:p.N336A;VariantGroup:3;OriginalGene:20679;CorrespondingGene:55553;CorrespondingSpecies:10090
+39573918	1223	1228	N446A	ProteinMutation	tmVar:p|SUB|N|446|A;HGVS:p.N446A;VariantGroup:2;OriginalGene:11668;CorrespondingGene:216;CorrespondingSpecies:10090
+39573918	1233	1240	ALDH1A1	Gene	11668
+39573918	1241	1246	N220A	ProteinMutation	tmVar:p|SUB|N|220|A;HGVS:p.N220A;VariantGroup:1;OriginalGene:11668;CorrespondingGene:216;CorrespondingSpecies:10090
+39573918	1266	1274	rotenone	Chemical	MESH:D012402
+39573918	1283	1285	PD	Disease	MESH:D010300
+39573918	1436	1438	PD	Disease	MESH:D010300
+39573918	Association	MESH:D004298	20679
+39573918	Association	MESH:D012402	HGVS:p.N446A;CorrespondingGene:216
+39573918	Association	MESH:D012402	HGVS:p.N336A;CorrespondingGene:55553
+39573918	Negative_Correlation	19141	20679
+39573918	Negative_Correlation	MESH:D010300	HGVS:p.N336A;CorrespondingGene:55553
+39573918	Negative_Correlation	MESH:D012402	HGVS:p.N220A;CorrespondingGene:216
+39573918	Association	MESH:C567730	RS#:104893877;HGVS:p.A53T;CorrespondingGene:6622
+39573918	Negative_Correlation	MESH:D010300	HGVS:p.N446A;CorrespondingGene:216
+39573918	Association	MESH:C567730	20679
+39573918	Association	MESH:D012402	11668
+39573918	Association	MESH:D010300	20679
+39573918	Association	MESH:D004298	11668
+39573918	Association	19141	HGVS:p.N336A;CorrespondingGene:55553
+39573918	Negative_Correlation	MESH:D010300	HGVS:p.N220A;CorrespondingGene:216
+39573918	Association	19141	HGVS:p.N446A;CorrespondingGene:216
+39573918	Association	MESH:D004298	20230
+39573918	Negative_Correlation	11668	19141
+39573918	Association	MESH:D004298	19141
+39573918	Association	MESH:C567730	11668
+39573918	Positive_Correlation	MESH:D012402	MESH:D010300
+39573918	Negative_Correlation	19141	20230
+39573918	Association	MESH:D010300	11668
+39573918	Association	MESH:C567730	19141
+39573918	Association	19141	HGVS:p.N220A;CorrespondingGene:216
+39573918	Association	MESH:D010300	19141
+39573918	Association	MESH:D010300	55553
+39573918	Association	MESH:C567730	6622
+39573918	Association	MESH:D010300	216
+

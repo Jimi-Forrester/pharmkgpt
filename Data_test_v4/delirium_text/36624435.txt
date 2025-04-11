@@ -1,0 +1,53 @@
+36624435|t|Exploration of the mechanism by which Huangqi Guizhi Wuwu decoction inhibits Lps-induced inflammation by regulating macrophage polarization based on network pharmacology.
+36624435|a|BACKGROUND: Huangqi Guizhi Wuwu decoction (HQGZWWD) is a traditional Chinese herbal medicine formulation with significant anti-inflammatory activity. However, its underlying mechanism remains unknown. Through network pharmacology and experimental validation, this study aimed to examine the potential mechanism of HQGZWWD in regulating macrophage polarization and inflammation. METHODS: The active components were obtained from the Traditional Chinese Medicine Systems Pharmacology database and Analysis Platform (TCMSP), whereas the corresponding targets were obtained from the TCMSP and Swiss Target Prediction database. The GeneCards database identified targets associated with macrophage polarization and inflammation. Multiple networks were developed to identify the key compounds, principal biological processes, and pathways of HQGZWWD that regulate macrophage polarization and inflammation. Autodock Vina is utilized to assess the binding ability between targets and active compounds. Finally, confirm the experiment's central hypothesis. Human histiocytic lymphoma (U-937) cells were transformed into M1 macrophages following stimulation with Lipopolysaccharide (LPS) to evaluate the effect of HQGZWWD drug-containing mouse serum (HQGZWWD serum) on regulating macrophage polarization and inflammation. RESULTS: A total of 54 active components and 859 HQGZWWD targets were obtained. There were 9972 targets associated with macrophage polarization and 11,109 targets associated with inflammation. After screening, 34 overlapping targets were identified, of which 5 were identified as central targets confirmed by experiments, including the alpha7 nicotinic acetylcholine receptor (alpha7 nAchR), interleukin 6 (IL-6), Interleukin-1 beta (IL-1beta), interleukin 10 (IL-10) and growth factor beta (TGF-beta1). Pathway enrichment analysis revealed that 34 overlapping targets were enriched in multiple pathways associated with macrophage polarization and inflammation, including the TGF beta signaling pathway, NF-kappa B signaling pathway, JAK-STAT signaling pathway, and TNF signaling pathway. Molecular docking confirmed that the majority of HQGZWWD's compounds can bind to the target. In vitro experiments, HQGZWWD serum was shown to up-regulate the expression of alpha7 nAchR, reduce the number of M1 macrophages, stimulate the production of M2 macrophages, inhibit the expression of pro-inflammatory cytokines IL-6 and IL1-beta, and increase the expression of anti-inflammatory cytokines IL-10 and TGF-beta1. CONCLUSION: HQGZWWD can regulate the number of M1/M2 macrophages and the level of inflammatory cytokines, and the underlying mechanism may be related to the up-regulation of alpha7 nAchR expression.
+36624435	38	67	Huangqi Guizhi Wuwu decoction	Chemical	-
+36624435	77	80	Lps	Chemical	MESH:D008070
+36624435	89	101	inflammation	Disease	MESH:D007249
+36624435	183	212	Huangqi Guizhi Wuwu decoction	Chemical	-
+36624435	214	221	HQGZWWD	Chemical	-
+36624435	240	263	Chinese herbal medicine	Chemical	-
+36624435	298	310	inflammatory	Disease	MESH:D007249
+36624435	485	492	HQGZWWD	Chemical	-
+36624435	535	547	inflammation	Disease	MESH:D007249
+36624435	880	892	inflammation	Disease	MESH:D007249
+36624435	1006	1013	HQGZWWD	Chemical	-
+36624435	1056	1068	inflammation	Disease	MESH:D007249
+36624435	1218	1223	Human	Species	9606
+36624435	1224	1244	histiocytic lymphoma	Disease	MESH:D016403
+36624435	1246	1251	U-937	CellLine	CVCL:0007
+36624435	1323	1341	Lipopolysaccharide	Chemical	MESH:D008070
+36624435	1343	1346	LPS	Chemical	MESH:D008070
+36624435	1374	1381	HQGZWWD	Chemical	-
+36624435	1398	1403	mouse	Species	10090
+36624435	1411	1418	HQGZWWD	Chemical	-
+36624435	1468	1480	inflammation	Disease	MESH:D007249
+36624435	1531	1538	HQGZWWD	Chemical	-
+36624435	1661	1673	inflammation	Disease	MESH:D007249
+36624435	1818	1857	alpha7 nicotinic acetylcholine receptor	Gene	1139
+36624435	1874	1887	interleukin 6	Gene	3569
+36624435	1889	1893	IL-6	Gene	3569
+36624435	1896	1914	Interleukin-1 beta	Gene	3553
+36624435	1916	1924	IL-1beta	Gene	3553
+36624435	1927	1941	interleukin 10	Gene	3586
+36624435	1943	1948	IL-10	Gene	3586
+36624435	1974	1983	TGF-beta1	Gene	7040
+36624435	2130	2142	inflammation	Disease	MESH:D007249
+36624435	2158	2166	TGF beta	Gene	7040
+36624435	2186	2196	NF-kappa B	Gene	4790
+36624435	2248	2251	TNF	Gene	7124
+36624435	2320	2327	HQGZWWD	Chemical	-
+36624435	2386	2393	HQGZWWD	Chemical	-
+36624435	2568	2580	inflammatory	Disease	MESH:D007249
+36624435	2591	2595	IL-6	Gene	3569
+36624435	2600	2608	IL1-beta	Gene	3553
+36624435	2646	2658	inflammatory	Disease	MESH:D007249
+36624435	2669	2674	IL-10	Gene	3586
+36624435	2679	2688	TGF-beta1	Gene	7040
+36624435	2702	2709	HQGZWWD	Chemical	-
+36624435	2772	2784	inflammatory	Disease	MESH:D007249
+36624435	Positive_Correlation	MESH:D008070	MESH:D016403
+36624435	Positive_Correlation	MESH:D008070	MESH:D007249
+36624435	Association	MESH:D007249	3586
+36624435	Association	MESH:D007249	4790
+36624435	Association	MESH:D007249	3553
+

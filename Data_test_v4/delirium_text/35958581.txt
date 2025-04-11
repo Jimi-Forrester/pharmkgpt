@@ -1,0 +1,35 @@
+35958581|t|A genome-wide association analysis: m6A-SNP related to the onset of oral ulcers.
+35958581|a|Oral ulcers are one of the most common inflammatory diseases on oral mucosa that have obvious impacts on patients. Studies have shown that N6-methyladenosine (m6A) RNA transcription modification may be involved in the development of various inflammatory responses, and whether the pathogenesis of oral ulcers is related to m6A is unclear. This study aims to identify how m6A-related single nucleotide polymorphisms (m6A-SNPs) may affect oral ulcers. The UKBB dataset containing 10,599,054 SNPs was obtained from the GWAS database using the keyword "oral ulcer" and compared with the M6AVar database containing 13,703 m6A-SNPs.With 7,490 m6A-SNPs associated with oral ulcers identified, HaploReg and RegulomeDB were used for further functional validation and differential gene analysis was performed using the GEO database dataset GSE37265. A total of 7490 m6A-SNPs were detected in this study, 11 of which were related to oral ulcers (p<5E-08), and all of these SNPs showed eQTL signals. The SNP rs11266744 (p=2.00E-27) may regulate the expression of the local gene CCRL2, thereby participating in the pathogenesis of oral ulcers. In summary, by analyzing genome-wide association studies, this study showed that m6A modification may be involved in the pathogenesis of oral ulcers and CCRL2 may be the targeted gene.
+35958581	36	39	m6A	Chemical	MESH:C005955
+35958581	68	79	oral ulcers	Disease	MESH:D019226
+35958581	81	92	Oral ulcers	Disease	MESH:D019226
+35958581	120	141	inflammatory diseases	Disease	MESH:D007249
+35958581	186	194	patients	Species	9606
+35958581	220	238	N6-methyladenosine	Chemical	MESH:C010223
+35958581	240	243	m6A	Chemical	MESH:C005955
+35958581	322	334	inflammatory	Disease	MESH:D007249
+35958581	378	389	oral ulcers	Disease	MESH:D019226
+35958581	404	407	m6A	Chemical	MESH:C005955
+35958581	452	455	m6A	Chemical	MESH:C005955
+35958581	497	500	m6A	Chemical	MESH:C005955
+35958581	518	529	oral ulcers	Disease	MESH:D019226
+35958581	630	640	oral ulcer	Disease	MESH:D019226
+35958581	698	701	m6A	Chemical	MESH:C005955
+35958581	718	721	m6A	Chemical	MESH:C005955
+35958581	743	754	oral ulcers	Disease	MESH:D019226
+35958581	937	940	m6A	Chemical	MESH:C005955
+35958581	1003	1014	oral ulcers	Disease	MESH:D019226
+35958581	1077	1087	rs11266744	SNP	tmVar:rs11266744;VariantGroup:0;CorrespondingGene:9034;RS#:11266744;CorrespondingSpecies:9606
+35958581	1147	1152	CCRL2	Gene	9034
+35958581	1199	1210	oral ulcers	Disease	MESH:D019226
+35958581	1293	1296	m6A	Chemical	MESH:C005955
+35958581	1349	1360	oral ulcers	Disease	MESH:D019226
+35958581	1365	1370	CCRL2	Gene	9034
+35958581	Positive_Correlation	MESH:D019226	RS#:11266744;CorrespondingGene:9034
+35958581	Association	MESH:C005955	MESH:D019226
+35958581	Association	MESH:D019226	9034
+35958581	Association	MESH:C005955	9034
+35958581	Association	MESH:C010223	MESH:D007249
+35958581	Association	MESH:C005955	MESH:D007249
+35958581	Association	MESH:D019226	9034
+

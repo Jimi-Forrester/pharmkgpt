@@ -1,0 +1,60 @@
+28196122|t|Detrimental ELAVL-1/HuR-dependent GSK3beta mRNA stabilization impairs resolution in acute respiratory distress syndrome.
+28196122|a|A hallmark of acute respiratory distress syndrome (ARDS) is accumulation of protein-rich edema in the distal airspaces and its removal is critical for patient survival. Previous studies have shown a detrimental role of Glycogen Synthase Kinase (GSK) 3beta during ARDS via inhibition of alveolar epithelial protein transport. We hypothesized that post-transcriptional regulation of GSK3beta could play a functional role in ARDS resolution. To address this hypothesis, we performed an in silico analysis to identify regulatory genes whose expression correlation to GSK3beta messenger RNA utilizing two lung cancer cell line array datasets. Among potential regulatory partners of GSK3beta, these studies identified the RNA-binding protein ELAVL-1/HuR (Embryonic Lethal, Abnormal Vision, Drosophila-Like) as a central component in a likely GSK3beta signaling network. ELAVL-1/HuR is a RNA-binding protein that selectively binds to AU-rich elements of mRNA and enhances its stability thereby increasing target gene expression. Subsequent studies with siRNA suppression of ELAVL-1/HuR demonstrated deceased GSK3beta mRNA and protein expression and improved clearance of FITC-albumin in A549 cells. Conversely, stabilization of ELAVL-1/HuR with the proteasome inhibitor MG-132 resulted in induction of GSK3beta at mRNA and protein level and attenuated FITC-albumin clearance. Utilizing ventilator-induced lung injury or intra-tracheal installation of hydrochloric acid to induce ARDS in mice, we observed increased mRNA and protein expression of ELAVL-1/HuR and GSK3beta. Together, our findings indicate a previously unknown interaction between GSK3beta and ELAV-1 during ARDS, and suggest the inhibition of the ELAV-1- GSK3beta pathways as a novel ARDS treatment approach.
+28196122	12	19	ELAVL-1	Gene	15568
+28196122	20	23	HuR	Gene	15568
+28196122	34	42	GSK3beta	Gene	56637
+28196122	84	119	acute respiratory distress syndrome	Disease	MESH:D012128
+28196122	135	170	acute respiratory distress syndrome	Disease	MESH:D012128
+28196122	172	176	ARDS	Disease	MESH:D012128
+28196122	210	215	edema	Disease	MESH:D004487
+28196122	272	279	patient	Species	9606
+28196122	340	376	Glycogen Synthase Kinase (GSK) 3beta	Gene	2932
+28196122	384	388	ARDS	Disease	MESH:D012128
+28196122	502	510	GSK3beta	Gene	56637
+28196122	543	547	ARDS	Disease	MESH:D012128
+28196122	684	692	GSK3beta	Gene	56637
+28196122	721	732	lung cancer	Disease	MESH:D008175
+28196122	798	806	GSK3beta	Gene	56637
+28196122	857	864	ELAVL-1	Gene	15568
+28196122	865	868	HuR	Gene	15568
+28196122	870	886	Embryonic Lethal	Disease	MESH:D020964
+28196122	897	903	Vision	Disease	MESH:D014786
+28196122	905	915	Drosophila	Species	7227
+28196122	957	965	GSK3beta	Gene	56637
+28196122	985	992	ELAVL-1	Gene	15568
+28196122	993	996	HuR	Gene	15568
+28196122	1188	1195	ELAVL-1	Gene	15568
+28196122	1196	1199	HuR	Gene	15568
+28196122	1222	1230	GSK3beta	Gene	56637
+28196122	1285	1289	FITC	Chemical	MESH:D016650
+28196122	1290	1297	albumin	Gene	213
+28196122	1301	1305	A549	CellLine	CVCL:0023
+28196122	1342	1349	ELAVL-1	Gene	15568
+28196122	1350	1353	HuR	Gene	15568
+28196122	1384	1390	MG-132	Chemical	MESH:C072553
+28196122	1416	1424	GSK3beta	Gene	56637
+28196122	1466	1470	FITC	Chemical	MESH:D016650
+28196122	1471	1478	albumin	Gene	213
+28196122	1519	1530	lung injury	Disease	MESH:D055370
+28196122	1565	1582	hydrochloric acid	Chemical	MESH:D006851
+28196122	1593	1597	ARDS	Disease	MESH:D012128
+28196122	1601	1605	mice	Species	10090
+28196122	1660	1667	ELAVL-1	Gene	15568
+28196122	1668	1671	HuR	Gene	15568
+28196122	1676	1684	GSK3beta	Gene	56637
+28196122	1759	1767	GSK3beta	Gene	56637
+28196122	1786	1790	ARDS	Disease	MESH:D012128
+28196122	1834	1842	GSK3beta	Gene	56637
+28196122	1863	1867	ARDS	Disease	MESH:D012128
+28196122	Negative_Correlation	MESH:C072553	213
+28196122	Negative_Correlation	MESH:C072553	MESH:D016650
+28196122	Association	MESH:D012128	56637
+28196122	Positive_Correlation	15568	56637
+28196122	Association	MESH:D012128	2932
+28196122	Positive_Correlation	15568	213
+28196122	Association	MESH:C072553	15568
+28196122	Association	MESH:D012128	15568
+28196122	Positive_Correlation	MESH:C072553	56637
+28196122	Association	MESH:D020964	15568
+28196122	Positive_Correlation	MESH:D006851	MESH:D012128
+

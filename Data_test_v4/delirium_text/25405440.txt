@@ -1,0 +1,14 @@
+25405440|t|Proposal of a new tractographic feature for analysis of white matter in Alzheimer diffusion mr images.
+25405440|a|Alzheimer's disease (AD) is a leading cause of dementia in elderly adults. In this, the white matter (WM) tracts in brain are disintegrated leading to loss of important cognitive functionality. Recent analysis have shown that early diagnosis of AD is still a challenging task. Although several reports are available, tractography remains the most promising and clinically relevant method for in-vivo study of WM tracts. In tractography, continuous WM pathways are reconstructed from voxel based models of discrete fiber orientation generated using diffusion tensor images. In this work an attempt has been made to classify AD using average length of tracts, a significant feature extracted from tractographic brain maps. The diffusion weighted images for AD and matched controls were obtained from ADNI, an international open access repository for Alzheimer's study. Data from equal number of AD and controls were used for this study. Fiber tracking was performed for the whole brain using tract based spatial statistics algorithm. ICBM Mori Labels 1 atlas provided in the Network Analysis option of ExploreDTI was used to divide the WM into 48 anatomical regions. Classification was performed using random forest, random tree and decision stumps, and their performance indices were compared. The results show that all the classifiers are able to classify AD and controls using the extracted feature. An accuracy of 78.4% is obtained using decision stumps. Random forest and random tree provide an increased accuracy of 96% and 97% respectively. The precision and recall is also found to be higher for random forest and random tree as compared to decision stumps. These results suggest that random forest and random tree are suitable for classification of AD and controls using average tract length as a feature. In this paper, the introduction, objectives, materials and methods, results and discussions and conclusions are presented in detail. 
+25405440	72	81	Alzheimer	Disease	MESH:D000544
+25405440	103	122	Alzheimer's disease	Disease	MESH:D000544
+25405440	124	126	AD	Disease	MESH:D000544
+25405440	150	158	dementia	Disease	MESH:D003704
+25405440	348	350	AD	Disease	MESH:D000544
+25405440	726	728	AD	Disease	MESH:D000544
+25405440	858	860	AD	Disease	MESH:D000544
+25405440	951	962	Alzheimer's	Disease	MESH:D000544
+25405440	996	998	AD	Disease	MESH:D000544
+25405440	1459	1461	AD	Disease	MESH:D000544
+25405440	1859	1861	AD	Disease	MESH:D000544
+

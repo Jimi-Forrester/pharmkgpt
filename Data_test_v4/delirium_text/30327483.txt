@@ -1,0 +1,37 @@
+30327483|t|Phenome-wide association studies across large population cohorts support drug target validation.
+30327483|a|Phenome-wide association studies (PheWAS) have been proposed as a possible aid in drug development through elucidating mechanisms of action, identifying alternative indications, or predicting adverse drug events (ADEs). Here, we select 25 single nucleotide polymorphisms (SNPs) linked through genome-wide association studies (GWAS) to 19 candidate drug targets for common disease indications. We interrogate these SNPs by PheWAS in four large cohorts with extensive health information (23andMe, UK Biobank, FINRISK, CHOP) for association with 1683 binary endpoints in up to 697,815 individuals and conduct meta-analyses for 145 mapped disease endpoints. Our analyses replicate 75% of known GWAS associations (P < 0.05) and identify nine study-wide significant novel associations (of 71 with FDR < 0.1). We describe associations that may predict ADEs, e.g., acne, high cholesterol, gout, and gallstones with rs738409 (p.I148M) in PNPLA3 and asthma with rs1990760 (p.T946A) in IFIH1. Our results demonstrate PheWAS as a powerful addition to the toolkit for drug discovery.
+30327483	613	617	CHOP	Gene	1649
+30327483	954	958	acne	Disease	MESH:D000152
+30327483	965	976	cholesterol	Chemical	MESH:D002784
+30327483	978	982	gout	Disease	MESH:D006073
+30327483	988	998	gallstones	Disease	MESH:D042882
+30327483	1004	1012	rs738409	SNP	tmVar:rs738409;VariantGroup:1;CorrespondingGene:80339;RS#:738409;CorrespondingSpecies:9606
+30327483	1014	1021	p.I148M	ProteinMutation	tmVar:p|SUB|I|148|M;HGVS:p.I148M;VariantGroup:1;CorrespondingGene:80339;RS#:738409;CorrespondingSpecies:9606;CA#:10277926
+30327483	1026	1032	PNPLA3	Gene	80339
+30327483	1037	1043	asthma	Disease	MESH:D001249
+30327483	1049	1058	rs1990760	SNP	tmVar:rs1990760;VariantGroup:0;CorrespondingGene:64135;RS#:1990760;CorrespondingSpecies:9606
+30327483	1060	1067	p.T946A	ProteinMutation	tmVar:p|SUB|T|946|A;HGVS:p.T946A;VariantGroup:0;CorrespondingGene:64135;RS#:1990760;CorrespondingSpecies:9606;CA#:1934058
+30327483	1072	1077	IFIH1	Gene	64135
+30327483	Association	MESH:D042882	RS#:738409;HGVS:p.I148M;CorrespondingGene:80339
+30327483	Positive_Correlation	MESH:D000152	RS#:738409;CorrespondingGene:80339
+30327483	Association	MESH:D002784	80339
+30327483	Association	MESH:D002784	RS#:738409;CorrespondingGene:80339
+30327483	Association	MESH:D001249	64135
+30327483	Association	MESH:D000152	80339
+30327483	Association	MESH:D042882	RS#:738409;CorrespondingGene:80339
+30327483	Association	MESH:D042882	64135
+30327483	Association	MESH:D001249	RS#:1990760;HGVS:p.T946A;CorrespondingGene:64135
+30327483	Association	MESH:D001249	RS#:1990760;CorrespondingGene:64135
+30327483	Association	MESH:D006073	80339
+30327483	Association	MESH:D006073	RS#:738409;CorrespondingGene:80339
+30327483	Association	MESH:D001249	RS#:738409;CorrespondingGene:80339
+30327483	Association	MESH:D000152	RS#:738409;CorrespondingGene:80339
+30327483	Association	MESH:D042882	80339
+30327483	Association	MESH:D042882	RS#:738409;CorrespondingGene:80339
+30327483	Association	MESH:D001249	RS#:1990760;CorrespondingGene:64135
+30327483	Association	MESH:D042882	80339
+30327483	Association	MESH:D000152	80339
+30327483	Association	MESH:D001249	64135
+30327483	Association	MESH:D006073	80339
+30327483	Association	MESH:D001249	80339
+

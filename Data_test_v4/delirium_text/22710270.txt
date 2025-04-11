@@ -1,0 +1,39 @@
+22710270|t|Pooling/bootstrap-based GWAS (pbGWAS) identifies new loci modifying the age of onset in PSEN1 p.Glu280Ala Alzheimer's disease.
+22710270|a|The literature on GWAS (genome-wide association studies) data suggests that very large sample sizes (for example, 50,000 cases and 50,000 controls) may be required to detect significant associations of genomic regions for complex disorders such as Alzheimer's disease (AD). Because of the challenges of obtaining such large cohorts, we describe here a novel sequential strategy that combines pooling of DNA and bootstrapping (pbGWAS) in order to significantly increase the statistical power and exponentially reduce expenses. We applied this method to a very homogeneous sample of patients belonging to a unique and clinically well-characterized multigenerational pedigree with one of the most severe forms of early onset AD, carrying the PSEN1 p.Glu280Ala mutation (often referred to as E280A mutation), which originated as a consequence of a founder effect. In this cohort, we identified novel loci genome-wide significantly associated as modifiers of the age of onset of AD (CD44, rs187116, P=1.29 x 10-12; NPHP1, rs10173717, P=1.74 x 10-12; CADPS2, rs3757536, P=1.54 x 10-10; GREM2, rs12129547, P=1.69 x 10-13, among others) as well as other loci known to be associated with AD. Regions identified by pbGWAS were confirmed by subsequent individual genotyping. The pbGWAS methodology and the genes it targeted could provide important insights in determining the genetic causes of AD and other complex conditions.
+22710270	88	93	PSEN1	Gene	5663
+22710270	94	105	p.Glu280Ala	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:1;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+22710270	106	125	Alzheimer's disease	Disease	MESH:D000544
+22710270	375	394	Alzheimer's disease	Disease	MESH:D000544
+22710270	396	398	AD	Disease	MESH:D000544
+22710270	708	716	patients	Species	9606
+22710270	849	851	AD	Disease	MESH:D000544
+22710270	866	871	PSEN1	Gene	5663
+22710270	872	883	p.Glu280Ala	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:1;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+22710270	915	920	E280A	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:1;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+22710270	1101	1103	AD	Disease	MESH:D000544
+22710270	1105	1109	CD44	Gene	960
+22710270	1111	1119	rs187116	SNP	tmVar:rs187116;VariantGroup:4;CorrespondingGene:960;RS#:187116;CorrespondingSpecies:9606
+22710270	1137	1142	NPHP1	Gene	4867
+22710270	1144	1154	rs10173717	SNP	tmVar:rs10173717;VariantGroup:2;RS#:10173717
+22710270	1172	1178	CADPS2	Gene	93664
+22710270	1180	1189	rs3757536	SNP	tmVar:rs3757536;VariantGroup:0;CorrespondingGene:93664;RS#:3757536;CorrespondingSpecies:9606
+22710270	1207	1212	GREM2	Gene	64388
+22710270	1214	1224	rs12129547	SNP	tmVar:rs12129547;VariantGroup:3;CorrespondingGene:64388;RS#:12129547;CorrespondingSpecies:9606
+22710270	1306	1308	AD	Disease	MESH:D000544
+22710270	1510	1512	AD	Disease	MESH:D000544
+22710270	Association	MESH:D000544	RS#:3757536;CorrespondingGene:93664
+22710270	Association	MESH:D000544	93664
+22710270	Association	MESH:D000544	64388
+22710270	Positive_Correlation	MESH:D000544	RS#:63750231;HGVS:p.E280A;CorrespondingGene:5663
+22710270	Positive_Correlation	MESH:D000544	RS#:187116;CorrespondingGene:960
+22710270	Positive_Correlation	MESH:D000544	RS#:12129547;CorrespondingGene:64388
+22710270	Association	MESH:D000544	RS#:10173717
+22710270	Association	MESH:D000544	4867
+22710270	Association	MESH:D000544	960
+22710270	Positive_Correlation	MESH:D000544	RS#:63750231;HGVS:p.E280A;CorrespondingGene:5663
+22710270	Association	MESH:D000544	5663
+22710270	Association	MESH:D000544	93664
+22710270	Association	MESH:D000544	5663
+22710270	Association	MESH:D000544	960
+22710270	Association	MESH:D000544	64388
+

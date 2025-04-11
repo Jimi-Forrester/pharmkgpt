@@ -1,0 +1,24 @@
+32413284|t|Characterizing the Causal Pathway for Genetic Variants Associated with Neurological Phenotypes Using Human Brain-Derived Proteome Data.
+32413284|a|Leveraging high-dimensional molecular datasets can help us develop mechanistic insight into associations between genetic variants and complex traits. In this study, we integrated human proteome data derived from brain tissue to evaluate whether targeted proteins putatively mediate the effects of genetic variants on seven neurological phenotypes (Alzheimer disease, amyotrophic lateral sclerosis, depression, insomnia, intelligence, neuroticism, and schizophrenia). Applying the principles of Mendelian randomization (MR) systematically across the genome highlighted 43 effects between genetically predicted proteins derived from the dorsolateral prefrontal cortex and these outcomes. Furthermore, genetic colocalization provided evidence that the same causal variant at 12 of these loci was responsible for variation in both protein and neurological phenotype. This included genes such as DCC, which encodes the netrin-1 receptor and has an important role in the development of the nervous system (p = 4.29 x 10-11 with neuroticism), as well as SARM1, which has been previously implicated in axonal degeneration (p = 1.76 x 10-08 with amyotrophic lateral sclerosis). We additionally conducted a phenome-wide MR study for each of these 12 genes to assess potential pleiotropic effects on 700 complex traits and diseases. Our findings suggest that genes such as SNX32, which was initially associated with increased risk of Alzheimer disease, may potentially influence other complex traits in the opposite direction. In contrast, genes such as CTSH (which was also associated with Alzheimer disease) and SARM1 may make worthwhile therapeutic targets because they did not have genetically predicted effects on any of the other phenotypes after correcting for multiple testing.
+32413284	101	106	Human	Species	9606
+32413284	315	320	human	Species	9606
+32413284	484	501	Alzheimer disease	Disease	MESH:D000544
+32413284	503	532	amyotrophic lateral sclerosis	Disease	MESH:D000690
+32413284	534	544	depression	Disease	MESH:D003866
+32413284	546	554	insomnia	Disease	MESH:D007319
+32413284	587	600	schizophrenia	Disease	MESH:D012559
+32413284	1027	1030	DCC	Gene	1630
+32413284	1183	1188	SARM1	Gene	23098
+32413284	1230	1249	axonal degeneration	Disease	MESH:D009410
+32413284	1273	1302	amyotrophic lateral sclerosis	Disease	MESH:D000690
+32413284	1498	1503	SNX32	Gene	254122
+32413284	1559	1576	Alzheimer disease	Disease	MESH:D000544
+32413284	1679	1683	CTSH	Gene	1512
+32413284	1716	1733	Alzheimer disease	Disease	MESH:D000544
+32413284	1739	1744	SARM1	Gene	23098
+32413284	Association	MESH:D009410	23098
+32413284	Positive_Correlation	MESH:D000544	254122
+32413284	Association	MESH:D000544	1512
+32413284	Association	MESH:D000690	23098
+32413284	Association	MESH:D000544	23098
+

@@ -1,0 +1,60 @@
+36923118|t|Exploring the common pathogenesis of Alzheimer's disease and type 2 diabetes mellitus via microarray data analysis.
+36923118|a|Background: Alzheimer's Disease (AD) and Type 2 Diabetes Mellitus (DM) have an increased incidence in modern society. Although more and more evidence has supported that DM is prone to AD, the interrelational mechanisms remain fully elucidated. Purpose: The primary purpose of this study is to explore the shared pathophysiological mechanisms of AD and DM. Methods: Download the expression matrix of AD and DM from the Gene Expression Omnibus (GEO) database with sequence numbers GSE97760 and GSE95849, respectively. The common differentially expressed genes (DEGs) were identified by limma package analysis. Then we analyzed the six kinds of module analysis: gene functional annotation, protein-protein interaction (PPI) network, potential drug screening, immune cell infiltration, hub genes identification and validation, and prediction of transcription factors (TFs). Results: The subsequent analyses included 339 common DEGs, and the importance of immunity, hormone, cytokines, neurotransmitters, and insulin in these diseases was underscored by functional analysis. In addition, serotonergic synapse, ovarian steroidogenesis, estrogen signaling pathway, and regulation of lipolysis are closely related to both. DEGs were input into the CMap database to screen small molecule compounds with the potential to reverse AD and DM pathological functions. L-690488, exemestane, and BMS-345541 ranked top three among the screened small molecule compounds. Finally, 10 essential hub genes were identified using cytoHubba, including PTGS2, RAB10, LRRK2, SOS1, EEA1, NF1, RAB14, ADCY5, RAPGEF3, and PRKACG. For the characteristic Abeta and Tau pathology of AD, RAPGEF3 was associated significantly positively with AD and NF1 significantly negatively with AD. In addition, we also found ADCY5 and NF1 significant correlations with DM phenotypes. Other datasets verified that NF1, RAB14, ADCY5, and RAPGEF3 could be used as key markers of DM complicated with AD. Meanwhile, the immune cell infiltration score reflects the different cellular immune microenvironments of the two diseases. Conclusion: The common pathogenesis of AD and DM was revealed in our research. These common pathways and hub genes directions for further exploration of the pathogenesis or treatment of these two diseases.
+36923118	37	56	Alzheimer's disease	Disease	MESH:D000544
+36923118	61	85	type 2 diabetes mellitus	Disease	MESH:D003924
+36923118	128	147	Alzheimer's Disease	Disease	MESH:D000544
+36923118	149	151	AD	Disease	MESH:D000544
+36923118	157	181	Type 2 Diabetes Mellitus	Disease	MESH:D003924
+36923118	183	185	DM	Disease	MESH:D003920
+36923118	285	287	DM	Disease	MESH:D003920
+36923118	300	302	AD	Disease	MESH:D000544
+36923118	461	463	AD	Disease	MESH:D000544
+36923118	468	470	DM	Disease	MESH:D003920
+36923118	515	517	AD	Disease	MESH:D000544
+36923118	522	524	DM	Disease	MESH:D003920
+36923118	1120	1127	insulin	Gene	3630
+36923118	1435	1437	AD	Disease	MESH:D000544
+36923118	1442	1444	DM	Disease	MESH:D003920
+36923118	1469	1477	L-690488	Chemical	MESH:C088378
+36923118	1479	1489	exemestane	Chemical	MESH:C056516
+36923118	1495	1505	BMS-345541	Chemical	MESH:C471109
+36923118	1643	1648	PTGS2	Gene	5743
+36923118	1650	1655	RAB10	Gene	10890
+36923118	1657	1662	LRRK2	Gene	120892
+36923118	1664	1668	SOS1	Gene	6654
+36923118	1670	1674	EEA1	Gene	8411
+36923118	1676	1679	NF1	Gene	4763
+36923118	1681	1686	RAB14	Gene	51552
+36923118	1688	1693	ADCY5	Gene	111
+36923118	1695	1702	RAPGEF3	Gene	10411
+36923118	1708	1714	PRKACG	Gene	5568
+36923118	1739	1744	Abeta	Gene	351
+36923118	1749	1752	Tau	Gene	4137
+36923118	1766	1768	AD	Disease	MESH:D000544
+36923118	1770	1777	RAPGEF3	Gene	10411
+36923118	1823	1825	AD	Disease	MESH:D000544
+36923118	1830	1833	NF1	Gene	4763
+36923118	1864	1866	AD	Disease	MESH:D000544
+36923118	1895	1900	ADCY5	Gene	111
+36923118	1905	1908	NF1	Gene	4763
+36923118	1939	1941	DM	Disease	MESH:D003920
+36923118	1983	1986	NF1	Gene	4763
+36923118	1988	1993	RAB14	Gene	51552
+36923118	1995	2000	ADCY5	Gene	111
+36923118	2006	2013	RAPGEF3	Gene	10411
+36923118	2046	2048	DM	Disease	MESH:D003920
+36923118	2066	2068	AD	Disease	MESH:D000544
+36923118	2233	2235	AD	Disease	MESH:D000544
+36923118	2240	2242	DM	Disease	MESH:D003920
+36923118	Association	MESH:D000544	4137
+36923118	Negative_Correlation	MESH:C471109	MESH:D003920
+36923118	Negative_Correlation	MESH:C056516	MESH:D000544
+36923118	Negative_Correlation	MESH:C088378	MESH:D000544
+36923118	Association	MESH:D000544	351
+36923118	Negative_Correlation	MESH:C088378	MESH:D003920
+36923118	Negative_Correlation	MESH:C471109	MESH:D000544
+36923118	Association	MESH:D000544	10411
+36923118	Association	MESH:D003920	111
+36923118	Negative_Correlation	MESH:C056516	MESH:D003920
+36923118	Association	MESH:D003920	4763
+

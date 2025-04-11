@@ -1,0 +1,12 @@
+39650458|t|Normalized group activations based feature extraction technique using heterogeneous data for Alzheimer's disease classification.
+39650458|a|Several deep learning networks are developed to identify the complex atrophic patterns of Alzheimer's disease (AD). Among various activation functions used in deep neural networks, the rectifier linear unit is the most used one. Even though these functions are analyzed individually, group activations and their interpretations are still not explored for neuroimaging analysis. In this study, a unique feature extraction technique based on normalized group activations that can be applied to both structural MRI and resting-state-fMRI (rs-fMRI) is proposed. This method is split into two phases: multi-trait condensed feature extraction networks and regional association networks. The initial phase involves extracting features from various brain regions using different multi-layered convolutional networks. Then, multiple regional association networks with normalized group activations for all the regional pairs are trained and the output of these networks is given as input to a classifier. To provide an unbiased estimate, an automated diagnosis system equipped with the proposed feature extraction is designed and analyzed on multi-cohort Alzheimer's Disease Neuroimaging Initiative (ADNI) data to predict multi-stages of AD. This system is also trained/tested on heterogeneous features such as non-transformed features, curvelets, wavelets, shearlets, textures, and scattering operators. Baseline scans of 185 rs-fMRIs and 1442 MRIs from ADNI-1, ADNI-2, and ADNI-GO datasets are used for validation. For MCI (mild cognitive impairment) classifications, there is an increase of 1-4% in performance. The outcome demonstrates the good discriminatory behaviour of the proposed features and its efficiency on rs-fMRI time-series and MRI data to classify multiple stages of AD.
+39650458	93	112	Alzheimer's disease	Disease	MESH:D000544
+39650458	198	206	atrophic	Disease	MESH:D020966
+39650458	219	238	Alzheimer's disease	Disease	MESH:D000544
+39650458	240	242	AD	Disease	MESH:D000544
+39650458	1274	1293	Alzheimer's Disease	Disease	MESH:D000544
+39650458	1357	1359	AD	Disease	MESH:D000544
+39650458	1640	1643	MCI	Disease	MESH:D060825
+39650458	1645	1670	mild cognitive impairment	Disease	MESH:D060825
+39650458	1904	1906	AD	Disease	MESH:D000544
+

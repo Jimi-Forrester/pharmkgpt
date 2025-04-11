@@ -1,0 +1,65 @@
+28363601|t|Methylglyoxal-induced AMPK activation leads to autophagic degradation of thioredoxin 1 and glyoxalase 2 in HT22 nerve cells.
+28363601|a|Methylglyoxal (MGO) is a major glycating agent that reacts with basic residues of proteins and promotes the formation of advanced glycation end products which are believed to play key roles in a number of pathologies, such as diabetes, Alzheimer's disease, and inflammation. We previously showed that MGO treatment targets the thioredoxin and the glyoxalase systems, leading to a decrease in Trx1 and Glo2 proteins in immortalized mouse hippocampal HT22 nerve cells. Here, we propose that autophagy is the underlying mechanism leading to Glo2 and Trx1 loss induced by MGO. The autophagic markers p62, and the lipidated and active form of LC3, were increased by MGO (0.5mM). Autophagy inhibition with bafilomycin or chloroquine prevented the decrease in Trx1 and Glo2 at 6 and 18h after MGO treatment. Proteasome inhibition by MG132 exacerbated the effect of MGO on Trx1 and Glo2 degradation (18h), further suggesting a role for autophagy. ATG5 small interfering RNA protected Trx1 and Glo2 from MGO-induced degradation, confirming Trx1 and Glo2 loss is mediated by autophagy. In the search for the signals that control autophagy, we found that AMPK activation, a known autophagy inducer, was markedly increased by MGO treatment. AMPK activation was confirmed by increased acetyl coenzyme A carboxylase phosphorylation, a direct AMPK substrate and by decreased mTOR phosphorylation, an indirect marker of AMPK activation. To confirm that MGO-mediated Trx1 and Glo2 degradation was AMPK-dependent, AMPK-deficient mouse embryonic fibroblasts (MEFs) were treated with MGO. Wildtype MEFs presented the expected decrease in Trx1 and Glo2, while MGO was ineffective in decreasing these proteins in AMPK-deficient cells. Overall, the data indicate that MGO activates autophagy in an AMPK-dependent manner, and that autophagy was responsible for Trx1 and Glo2 degradation, confirming that Trx1 and Glo2 are molecular targets of MGO.
+28363601	0	13	Methylglyoxal	Chemical	MESH:D011765
+28363601	73	86	thioredoxin 1	Gene	22166
+28363601	107	111	HT22	CellLine	CVCL:0321
+28363601	125	138	Methylglyoxal	Chemical	MESH:D011765
+28363601	140	143	MGO	Chemical	MESH:D011765
+28363601	351	359	diabetes	Disease	MESH:D003920
+28363601	361	380	Alzheimer's disease	Disease	MESH:D000544
+28363601	386	398	inflammation	Disease	MESH:D007249
+28363601	426	429	MGO	Chemical	MESH:D011765
+28363601	452	463	thioredoxin	Gene	22166
+28363601	517	521	Trx1	Gene	22166
+28363601	526	530	Glo2	Gene	14651
+28363601	556	561	mouse	Species	10090
+28363601	574	578	HT22	CellLine	CVCL:0321
+28363601	663	667	Glo2	Gene	14651
+28363601	672	676	Trx1	Gene	22166
+28363601	693	696	MGO	Chemical	MESH:D011765
+28363601	721	724	p62	Gene	18226
+28363601	763	766	LC3	Gene	66734
+28363601	786	789	MGO	Chemical	MESH:D011765
+28363601	825	836	bafilomycin	Chemical	-
+28363601	840	851	chloroquine	Chemical	MESH:D002738
+28363601	878	882	Trx1	Gene	22166
+28363601	887	891	Glo2	Gene	14651
+28363601	911	914	MGO	Chemical	MESH:D011765
+28363601	951	956	MG132	Chemical	MESH:C072553
+28363601	983	986	MGO	Chemical	MESH:D011765
+28363601	990	994	Trx1	Gene	22166
+28363601	999	1003	Glo2	Gene	14651
+28363601	1064	1068	ATG5	Gene	11793
+28363601	1101	1105	Trx1	Gene	22166
+28363601	1110	1114	Glo2	Gene	14651
+28363601	1120	1123	MGO	Chemical	MESH:D011765
+28363601	1156	1160	Trx1	Gene	22166
+28363601	1165	1169	Glo2	Gene	14651
+28363601	1339	1342	MGO	Chemical	MESH:D011765
+28363601	1485	1489	mTOR	Gene	56717
+28363601	1562	1565	MGO	Chemical	MESH:D011765
+28363601	1575	1579	Trx1	Gene	22166
+28363601	1584	1588	Glo2	Gene	14651
+28363601	1636	1641	mouse	Species	10090
+28363601	1665	1669	MEFs	CellLine	CVCL:9115
+28363601	1689	1692	MGO	Chemical	MESH:D011765
+28363601	1703	1707	MEFs	CellLine	CVCL:9115
+28363601	1743	1747	Trx1	Gene	22166
+28363601	1752	1756	Glo2	Gene	14651
+28363601	1764	1767	MGO	Chemical	MESH:D011765
+28363601	1870	1873	MGO	Chemical	MESH:D011765
+28363601	1962	1966	Trx1	Gene	22166
+28363601	1971	1975	Glo2	Gene	14651
+28363601	2005	2009	Trx1	Gene	22166
+28363601	2014	2018	Glo2	Gene	14651
+28363601	2044	2047	MGO	Chemical	MESH:D011765
+28363601	Negative_Correlation	MESH:D011765	14651
+28363601	Negative_Correlation	MESH:D002738	14651
+28363601	Positive_Correlation	MESH:D011765	MESH:D007249
+28363601	Association	11793	22166
+28363601	Association	MESH:C072553	14651
+28363601	Negative_Correlation	MESH:D011765	22166
+28363601	Positive_Correlation	MESH:D011765	MESH:D000544
+28363601	Positive_Correlation	MESH:D011765	18226
+28363601	Positive_Correlation	MESH:D011765	66734
+

@@ -1,0 +1,65 @@
+34015428|t|TLR2- and TLR3-activated microglia induce different levels of neuronal network dysfunction in a context-dependent manner.
+34015428|a|Recognition of pathogen- or damage-associated molecular patterns (PAMPs, DAMPs) by innate Toll-like receptors (TLRs) is central to the activation of microglia (brain macrophages) in many CNS diseases. Notably, TLR-mediated microglial activation is complex and modulated by additional exogenous and endogenous immunological signals. The impact of different microglial reactive phenotypes on electrical activity and neurotransmission is widely unknown, however. We explored the effects of TLR ligands on microglia and neuronal network function in rat organotypic hippocampal slice cultures (in situ), i.e., postnatal cortical tissue lacking adaptive immunity. Single exposure of slice cultures to TLR2 or TLR3 ligands [PGN, poly(I:C)] for 2-3 days induced moderate microglial activation featuring IL-6 and TNF-alpha release and only mild alterations of fast neuronal gamma band oscillations (30-70 Hz) that are fundamental to higher cognitive functions, such as perception, memory and behavior. Paired exposure to TLR3/TLR2 or TLR3/TLR4 ligands (LPS) induced nitric oxide (NO) release, enhanced TNF-alpha release, and associated with advanced network dysfunction, including slowing to the beta frequency band (12-30 Hz) and neural bursts (hyperexcitability). Paired exposure to a TLR ligand and the leukocyte cytokine IFN-gamma enhanced NO release and associated with severe network dysfunction, albeit sensitive parvalbumin- and somatostatin-positive inhibitory interneurons were preserved. Notably, the neuronal disturbance was prevented by either microglial depletion or pharmacological inhibition of oxidant-producing enzymes, inducible NO synthase (iNOS) and NADPH oxidase. In conclusion, TLR-activated microglia can induce different levels of neuronal network dysfunction, in which severe dysfunction is mainly caused by reactive oxygen and nitrogen species rather than proinflammatory cytokines. Our findings provide a mechanistic insight into microglial activation and functional neuronal network impairment, with relevance to neuroinflammation and neurodegeneration observed in, e.g., meningoencephalitis, multiple sclerosis and Alzheimer's disease.
+34015428	0	4	TLR2	Gene	310553
+34015428	10	14	TLR3	Gene	364594
+34015428	62	90	neuronal network dysfunction	Disease	MESH:D009461
+34015428	188	193	PAMPs	Chemical	-
+34015428	195	200	DAMPs	Chemical	MESH:C116255
+34015428	309	321	CNS diseases	Disease	MESH:D002493
+34015428	667	670	rat	Species	10116
+34015428	817	821	TLR2	Gene	310553
+34015428	825	829	TLR3	Gene	364594
+34015428	839	842	PGN	Chemical	-
+34015428	844	853	poly(I:C)	Chemical	MESH:D011070
+34015428	917	921	IL-6	Gene	24498
+34015428	926	935	TNF-alpha	Gene	24835
+34015428	1134	1138	TLR3	Gene	364594
+34015428	1139	1143	TLR2	Gene	310553
+34015428	1147	1151	TLR3	Gene	364594
+34015428	1152	1156	TLR4	Gene	29260
+34015428	1166	1169	LPS	Chemical	MESH:D008070
+34015428	1179	1191	nitric oxide	Chemical	MESH:D009569
+34015428	1215	1224	TNF-alpha	Gene	24835
+34015428	1271	1282	dysfunction	Disease	MESH:D006331
+34015428	1438	1447	IFN-gamma	Gene	25712
+34015428	1503	1514	dysfunction	Disease	MESH:D006331
+34015428	1533	1544	parvalbumin	Gene	25269
+34015428	1550	1562	somatostatin	Gene	24797
+34015428	1625	1645	neuronal disturbance	Disease	MESH:D009410
+34015428	1751	1772	inducible NO synthase	Gene	24599
+34015428	1774	1778	iNOS	Gene	24599
+34015428	1869	1897	neuronal network dysfunction	Disease	MESH:D009461
+34015428	1915	1926	dysfunction	Disease	MESH:D006331
+34015428	1947	1983	reactive oxygen and nitrogen species	Chemical	-
+34015428	1996	2011	proinflammatory	Disease	
+34015428	2108	2135	neuronal network impairment	Disease	MESH:D009410
+34015428	2155	2172	neuroinflammation	Disease	MESH:D000090862
+34015428	2177	2194	neurodegeneration	Disease	MESH:D019636
+34015428	2214	2233	meningoencephalitis	Disease	MESH:D008590
+34015428	2235	2253	multiple sclerosis	Disease	MESH:D009103
+34015428	2258	2277	Alzheimer's disease	Disease	MESH:D000544
+34015428	Positive_Correlation	MESH:D008070	29260
+34015428	Association	MESH:C116255	MESH:D002493
+34015428	Positive_Correlation	24835	310553
+34015428	Positive_Correlation	24498	364594
+34015428	Positive_Correlation	MESH:D009461	310553
+34015428	Positive_Correlation	MESH:D008070	MESH:D006331
+34015428	Association	MESH:D006331	25712
+34015428	Positive_Correlation	MESH:D011070	24835
+34015428	Positive_Correlation	MESH:D008070	24835
+34015428	Positive_Correlation	MESH:D008070	364594
+34015428	Positive_Correlation	MESH:D009569	364594
+34015428	Positive_Correlation	MESH:D006331	310553
+34015428	Positive_Correlation	MESH:D006331	29260
+34015428	Bind	MESH:D011070	364594
+34015428	Positive_Correlation	24498	310553
+34015428	Positive_Correlation	MESH:D006331	364594
+34015428	Positive_Correlation	MESH:D008070	MESH:D009569
+34015428	Positive_Correlation	29260	364594
+34015428	Positive_Correlation	24835	29260
+34015428	Positive_Correlation	MESH:D009461	364594
+34015428	Positive_Correlation	24835	364594
+34015428	Negative_Correlation	MESH:D009410	24599
+34015428	Positive_Correlation	MESH:D009569	29260
+34015428	Positive_Correlation	MESH:D011070	24498
+

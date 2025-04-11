@@ -1,0 +1,23 @@
+28322337|t|Sedation of mechanically ventilated adults in intensive care unit: a network meta-analysis.
+28322337|a|Sedatives are commonly used for mechanically ventilated patients in intensive care units (ICU). However, a variety of sedatives are available and their efficacy and safety have been compared in numerous trials with inconsistent results. To resolve uncertainties regarding usefulness of these sedatives, we performed a systematic review and network meta-analysis. Randomized controlled trials comparing sedatives in mechanically ventilated ICU patients were included. Graph-theoretical methods were employed for network meta-analysis. A total of 51 citations comprising 52 RCTs were included in our analysis. Dexmedetomidine showed shorter MV duration than lorazepam (mean difference (MD): 68.7; 95% CI: 18.2-119.3 hours), midazolam (MD: 10.2; 95% CI: 7.7-12.7 hours) and propofol (MD: 3.4; 95% CI: 0.9-5.9 hours). Compared with dexmedetomidine, midazolam was associated with significantly increased risk of delirium (OR: 2.47; 95% CI: 1.17-5.19). Our study shows that dexmedetomidine has potential benefits in reducing duration of MV and lowering the risk of delirium.
+28322337	148	156	patients	Species	9606
+28322337	535	543	patients	Species	9606
+28322337	700	715	Dexmedetomidine	Chemical	MESH:D020927
+28322337	731	733	MV	Disease	
+28322337	748	757	lorazepam	Chemical	MESH:D008140
+28322337	776	778	MD	Chemical	MESH:D008573
+28322337	814	823	midazolam	Chemical	MESH:D008874
+28322337	825	827	MD	Chemical	MESH:D008573
+28322337	863	871	propofol	Chemical	MESH:D015742
+28322337	873	875	MD	Chemical	MESH:D008573
+28322337	920	935	dexmedetomidine	Chemical	MESH:D020927
+28322337	937	946	midazolam	Chemical	MESH:D008874
+28322337	999	1007	delirium	Disease	MESH:D003693
+28322337	1060	1075	dexmedetomidine	Chemical	MESH:D020927
+28322337	1123	1125	MV	Disease	
+28322337	1151	1159	delirium	Disease	MESH:D003693
+28322337	Positive_Correlation	MESH:D008874	MESH:D003693
+28322337	Comparison	MESH:D008874	MESH:D020927
+28322337	Negative_Correlation	MESH:D020927	MESH:D003693
+28322337	Comparison	MESH:D008140	MESH:D020927
+

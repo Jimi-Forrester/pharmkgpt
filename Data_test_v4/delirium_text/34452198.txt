@@ -1,0 +1,12 @@
+34452198|t|B3Pred: A Random-Forest-Based Method for Predicting and Designing Blood-Brain Barrier Penetrating Peptides.
+34452198|a|The blood-brain barrier is a major obstacle in treating brain-related disorders, as it does not allow the delivery of drugs into the brain. We developed a method for predicting blood-brain barrier penetrating peptides to facilitate drug delivery into the brain. These blood-brain barrier penetrating peptides (B3PPs) can act as therapeutics, as well as drug delivery agents. We trained, tested, and evaluated our models on blood-brain barrier peptides obtained from the B3Pdb database. First, we computed a wide range of peptide features. Then, we selected relevant peptide features. Finally, we developed numerous machine-learning-based models for predicting blood-brain barrier peptides using the selected features. The random-forest-based model performed the best with respect to the top 80 selected features and achieved a maximal 85.08% accuracy with an AUROC of 0.93. We also developed a webserver, B3pred, that implements our best models. It has three major modules that allow users to predict/design B3PPs and scan B3PPs in a protein sequence.
+34452198	98	106	Peptides	Chemical	MESH:D010455
+34452198	164	187	brain-related disorders	Disease	MESH:D001927
+34452198	317	325	peptides	Chemical	MESH:D010455
+34452198	408	416	peptides	Chemical	MESH:D010455
+34452198	418	423	B3PPs	Chemical	-
+34452198	551	559	peptides	Chemical	MESH:D010455
+34452198	788	796	peptides	Chemical	MESH:D010455
+34452198	1116	1121	B3PPs	Chemical	-
+34452198	1131	1136	B3PPs	Chemical	-
+

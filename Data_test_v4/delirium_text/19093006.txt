@@ -1,0 +1,40 @@
+19093006|t|Effect of TNF-alpha on human ARPE-19-secreted proteins.
+19093006|a|PURPOSE: To identify cytokine-induced changes in the secretome of human retinal pigment epithelial (RPE) cells and their potential implication in age-related macular degeneration pathogenesis. METHODS: Stable isotope labeling by amino in cell culture (SILAC) was used in combination with liquid chromatography tandem mass spectrometry (LC-MS/MS) to measure differential protein secretion from tumor necrosis factor-alpha (TNF-alpha) treated ARPE-19 versus untreated ARPE-19 cells. Typically, one set of cells was subcultured in a medium in which Arg and Lys were replaced by (13)C(6)-Arg and (15)N(2,) (13)C(6)-Lys while the other set of cells was grown in unlabeled medium. The fully labeled cells were then treated with TNF-alpha, while unlabeled cells were left untreated. Spent media from both treated and untreated cells were collected, mixed at 1:1 ratio, and processed for LC-MS/MS analysis. Labeled and unlabeled peptide pairs were identified and their intensities were used to determine protein ratios in TNF-alpha treated cells versus untreated cells. To validate the data, we performed a reverse experiment in which unlabeled cells were treated with TNF-alpha while labeled cells were kept untreated. RESULTS: A total of 146 proteins were identified as putatively secreted proteins in the spent medium of ARPE-19 cells and only six among these were differentially secreted following TNF-alpha treatment. Secretion of complement 3 and sulfhydryl oxidase-1 was increased by twofold, fibronectin by 1.7 fold, plasminogen activator inhibitor 1 by 1.9 fold and syndecan-4 by 4.35 fold while secretion of trans-golgi network protein-2 was decreased by twofold. CONCLUSIONS: TNF-alpha modulates secretion of specific proteins in ARPE-19 cells. These proteins are involved in pathways relevant to AMD pathogenesis (e.g., extracellular matrix remodeling, complement pathway, and angiogenesis).
+19093006	10	19	TNF-alpha	Gene	7124
+19093006	23	28	human	Species	9606
+19093006	29	36	ARPE-19	CellLine	CVCL:0145
+19093006	122	127	human	Species	9606
+19093006	128	154	retinal pigment epithelial	CellLine	CVCL:0145
+19093006	156	159	RPE	CellLine	CVCL:0145
+19093006	202	234	age-related macular degeneration	Disease	MESH:D008268
+19093006	449	476	tumor necrosis factor-alpha	Gene	7124
+19093006	478	487	TNF-alpha	Gene	7124
+19093006	497	504	ARPE-19	CellLine	CVCL:0145
+19093006	522	529	ARPE-19	CellLine	CVCL:0145
+19093006	610	613	Lys	Chemical	MESH:D008239
+19093006	631	643	(13)C(6)-Arg	Chemical	-
+19093006	649	653	15)N	Chemical	-
+19093006	659	666	13)C(6)	Chemical	-
+19093006	667	670	Lys	Chemical	MESH:D008239
+19093006	778	787	TNF-alpha	Gene	7124
+19093006	1070	1079	TNF-alpha	Gene	7124
+19093006	1217	1226	TNF-alpha	Gene	7124
+19093006	1372	1379	ARPE-19	CellLine	CVCL:0145
+19093006	1450	1459	TNF-alpha	Gene	7124
+19093006	1484	1496	complement 3	Gene	718
+19093006	1501	1521	sulfhydryl oxidase-1	Gene	5768
+19093006	1548	1559	fibronectin	Gene	2335
+19093006	1573	1606	plasminogen activator inhibitor 1	Gene	5054
+19093006	1623	1633	syndecan-4	Gene	6385
+19093006	1666	1695	trans-golgi network protein-2	Gene	10618
+19093006	1735	1744	TNF-alpha	Gene	7124
+19093006	1789	1796	ARPE-19	CellLine	CVCL:0145
+19093006	1856	1859	AMD	Disease	MESH:D006009
+19093006	Positive_Correlation	7124	718
+19093006	Negative_Correlation	10618	7124
+19093006	Positive_Correlation	6385	7124
+19093006	Positive_Correlation	5054	7124
+19093006	Positive_Correlation	2335	7124
+19093006	Positive_Correlation	5768	7124
+19093006	Association	MESH:D006009	7124
+

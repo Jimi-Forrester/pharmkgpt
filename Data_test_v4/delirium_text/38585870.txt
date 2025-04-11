@@ -1,0 +1,13 @@
+38585870|t|AI-based differential diagnosis of dementia etiologies on multimodal data.
+38585870|a|Differential diagnosis of dementia remains a challenge in neurology due to symptom overlap across etiologies, yet it is crucial for formulating early, personalized management strategies. Here, we present an AI model that harnesses a broad array of data, including demographics, individual and family medical history, medication use, neuropsychological assessments, functional evaluations, and multimodal neuroimaging, to identify the etiologies contributing to dementia in individuals. The study, drawing on 51, 269 participants across 9 independent, geographically diverse datasets, facilitated the identification of 10 distinct dementia etiologies. It aligns diagnoses with similar management strategies, ensuring robust predictions even with incomplete data. Our model achieved a micro-averaged area under the receiver operating characteristic curve (AUROC) of 0.94 in classifying individuals with normal cognition, mild cognitive impairment and dementia. Also, the micro-averaged AUROC was 0.96 in differentiating the dementia etiologies. Our model demonstrated proficiency in addressing mixed dementia cases, with a mean AUROC of 0.78 for two cooccurring pathologies. In a randomly selected subset of 100 cases, the AUROC of neurologist assessments augmented by our AI model exceeded neurologist-only evaluations by 26.25%. Furthermore, our model predictions aligned with biomarker evidence and its associations with different proteinopathies were substantiated through postmortem findings. Our framework has the potential to be integrated as a screening tool for dementia in various clinical settings and drug trials, with promising implications for person-level management.
+38585870	35	43	dementia	Disease	MESH:D003704
+38585870	101	109	dementia	Disease	MESH:D003704
+38585870	536	544	dementia	Disease	MESH:D003704
+38585870	705	713	dementia	Disease	MESH:D003704
+38585870	999	1019	cognitive impairment	Disease	MESH:D003072
+38585870	1024	1032	dementia	Disease	MESH:D003704
+38585870	1097	1105	dementia	Disease	MESH:D003704
+38585870	1173	1181	dementia	Disease	MESH:D003704
+38585870	1507	1522	proteinopathies	Disease	MESH:D057165
+38585870	1644	1652	dementia	Disease	MESH:D003704
+

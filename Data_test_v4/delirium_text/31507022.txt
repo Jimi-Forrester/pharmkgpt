@@ -1,0 +1,19 @@
+31507022|t|Quantifying brain metabolism from FDG-PET images into a probability of Alzheimer's dementia score.
+31507022|a|18 F-fluorodeoxyglucose positron emission tomography (FDG-PET) enables in-vivo capture of the topographic metabolism patterns in the brain. These images have shown great promise in revealing the altered metabolism patterns in Alzheimer's disease (AD). The AD pathology is progressive, and leads to structural and functional alterations that lie on a continuum. There is a need to quantify the altered metabolism patterns that exist on a continuum into a simple measure. This work proposes a 3D convolutional neural network with residual connections that generates a probability score useful for interpreting the FDG-PET images along the continuum of AD. This network is trained and tested on images of stable normal control and stable Dementia of the Alzheimer's type (sDAT) subjects, achieving an AUC of 0.976 via repeated fivefold cross-validation. An independent test set consisting of images in between the two extreme ends of the DAT spectrum is used to further test the generalization performance of the network. Classification performance of 0.811 AUC is achieved in the task of predicting conversion of mild cognitive impairment to DAT for conversion time of 0-3 years. The saliency and class activation maps, which highlight the regions of the brain that are most important to the classification task, implicate many known regions affected by DAT including the posterior cingulate cortex, precuneus, and hippocampus.
+31507022	34	37	FDG	Chemical	MESH:D019788
+31507022	71	91	Alzheimer's dementia	Disease	MESH:D000544
+31507022	99	122	18 F-fluorodeoxyglucose	Chemical	MESH:D019788
+31507022	153	156	FDG	Chemical	MESH:D019788
+31507022	325	344	Alzheimer's disease	Disease	MESH:D000544
+31507022	346	348	AD	Disease	MESH:D000544
+31507022	355	357	AD	Disease	MESH:D000544
+31507022	711	714	FDG	Chemical	MESH:D019788
+31507022	749	751	AD	Disease	MESH:D000544
+31507022	834	861	Dementia of the Alzheimer's	Disease	MESH:D000544
+31507022	1034	1037	DAT	Gene	6531
+31507022	1215	1235	cognitive impairment	Disease	MESH:D003072
+31507022	1239	1242	DAT	Gene	6531
+31507022	1451	1454	DAT	Gene	6531
+31507022	Association	MESH:D019788	MESH:D000544
+31507022	Association	MESH:D003072	6531
+

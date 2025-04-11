@@ -1,0 +1,15 @@
+39056881|t|Innovation through Artificial Intelligence in Triage Systems for Resource Optimization in Future Pandemics.
+39056881|a|Artificial intelligence (AI) systems are already being used in various healthcare areas. Similarly, they can offer many advantages in hospital emergency services. The objective of this work is to demonstrate that through the novel use of AI, a trained system can be developed to detect patients at potential risk of infection in a new pandemic more quickly than standardized triage systems. This identification would occur in the emergency department, thus allowing for the early implementation of organizational preventive measures to block the chain of transmission. MATERIALS AND METHODS: In this study, we propose the use of a machine learning system in emergency department triage during pandemics to detect patients at the highest risk of death and infection using the COVID-19 era as an example, where rapid decision making and comprehensive support have becoming increasingly crucial. All patients who consecutively presented to the emergency department were included, and more than 89 variables were automatically analyzed using the extreme gradient boosting (XGB) algorithm. RESULTS: The XGB system demonstrated the highest balanced accuracy at 91.61%. Additionally, it obtained results more quickly than traditional triage systems. The variables that most influenced mortality prediction were procalcitonin level, age, and oxygen saturation, followed by lactate dehydrogenase (LDH) level, C-reactive protein, the presence of interstitial infiltrates on chest X-ray, and D-dimer. Our system also identified the importance of oxygen therapy in these patients. CONCLUSIONS: These results highlight that XGB is a useful and novel tool in triage systems for guiding the care pathway in future pandemics, thus following the example set by the well-known COVID-19 pandemic.
+39056881	394	402	patients	Species	9606
+39056881	424	433	infection	Disease	MESH:D007239
+39056881	821	829	patients	Species	9606
+39056881	853	862	death and	Disease	MESH:D003643
+39056881	863	872	infection	Disease	MESH:D007239
+39056881	883	891	COVID-19	Disease	MESH:D000086382
+39056881	1005	1013	patients	Species	9606
+39056881	1442	1448	oxygen	Chemical	MESH:D010100
+39056881	1508	1526	C-reactive protein	Gene	1401
+39056881	1643	1649	oxygen	Chemical	MESH:D010100
+39056881	1667	1675	patients	Species	9606
+39056881	1867	1875	COVID-19	Disease	MESH:D000086382
+

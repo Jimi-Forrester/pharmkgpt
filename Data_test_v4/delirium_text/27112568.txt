@@ -1,0 +1,23 @@
+27112568|t|A fast and powerful W-test for pairwise epistasis testing.
+27112568|a|Epistasis plays an essential role in the development of complex diseases. Interaction methods face common challenge of seeking a balance between persistent power, model complexity, computation efficiency, and validity of identified bio-markers. We introduce a novel W-test to identify pairwise epistasis effect, which measures the distributional difference between cases and controls through a combined log odds ratio. The test is model-free, fast, and inherits a Chi-squared distribution with data adaptive degrees of freedom. No permutation is needed to obtain the P-values. Simulation studies demonstrated that the W-test is more powerful in low frequency variants environment than alternative methods, which are the Chi-squared test, logistic regression and multifactor-dimensionality reduction (MDR). In two independent real bipolar disorder genome-wide associations (GWAS) datasets, the W-test identified significant interactions pairs that can be replicated, including SLIT3-CENPN, SLIT3-TMEM132D, CNTNAP2-NDST4 and CNTCAP2-RTN4R The genes in the pairs play central roles in neurotransmission and synapse formation. A majority of the identified loci are undiscoverable by main effect and are low frequency variants. The proposed method offers a powerful alternative tool for mapping the genetic puzzle underlying complex disorders.
+27112568	40	49	epistasis	Disease	
+27112568	59	68	Epistasis	Disease	
+27112568	353	362	epistasis	Disease	
+27112568	889	905	bipolar disorder	Disease	MESH:D001714
+27112568	1035	1040	SLIT3	Gene	6586
+27112568	1041	1046	CENPN	Gene	55839
+27112568	1048	1053	SLIT3	Gene	6586
+27112568	1054	1062	TMEM132D	Gene	121256
+27112568	1064	1071	CNTNAP2	Gene	26047
+27112568	1072	1077	NDST4	Gene	64579
+27112568	1090	1095	RTN4R	Gene	65078
+27112568	Association	121256	6586
+27112568	Association	26047	64579
+27112568	Association	MESH:D001714	6586
+27112568	Association	MESH:D001714	55839
+27112568	Association	55839	6586
+27112568	Association	MESH:D001714	64579
+27112568	Association	MESH:D001714	121256
+27112568	Association	MESH:D001714	65078
+27112568	Association	MESH:D001714	26047
+

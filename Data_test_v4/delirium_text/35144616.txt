@@ -1,0 +1,38 @@
+35144616|t|Identification of recurrent genetic patterns from targeted sequencing panels with advanced data science: a case-study on sporadic and genetic neurodegenerative diseases.
+35144616|a|BACKGROUND: Targeted Next Generation Sequencing is a common and powerful approach used in both clinical and research settings. However, at present, a large fraction of the acquired genetic information is not used since pathogenicity cannot be assessed for most variants. Further complicating this scenario is the increasingly frequent description of a poli/oligogenic pattern of inheritance showing the contribution of multiple variants in increasing disease risk. We present an approach in which the entire genetic information provided by target sequencing is transformed into binary data on which we performed statistical, machine learning, and network analyses to extract all valuable information from the entire genetic profile. To test this approach and unbiasedly explore the presence of recurrent genetic patterns, we studied a cohort of 112 patients affected either by genetic Creutzfeldt-Jakob (CJD) disease caused by two mutations in the PRNP gene (p.E200K and p.V210I) with different penetrance or by sporadic Alzheimer disease (sAD). RESULTS: Unsupervised methods can identify functionally relevant sources of variation in the data, like haplogroups and polymorphisms that do not follow Hardy-Weinberg equilibrium, such as the NOTCH3 rs11670823 (c.3837 + 21 T > A). Supervised classifiers can recognize clinical phenotypes with high accuracy based on the mutational profile of patients. In addition, we found a similar alteration of allele frequencies compared the European population in sporadic patients and in V210I-CJD, a poorly penetrant PRNP mutation, and sAD, suggesting shared oligogenic patterns in different types of dementia. Pathway enrichment and protein-protein interaction network revealed different altered pathways between the two PRNP mutations. CONCLUSIONS: We propose this workflow as a possible approach to gain deeper insights into the genetic information derived from target sequencing, to identify recurrent genetic patterns and improve the understanding of complex diseases. This work could also represent a possible starting point of a predictive tool for personalized medicine and advanced diagnostic applications.
+35144616	142	168	neurodegenerative diseases	Disease	MESH:D019636
+35144616	1019	1027	patients	Species	9606
+35144616	1055	1086	Creutzfeldt-Jakob (CJD) disease	Disease	MESH:D007562
+35144616	1118	1122	PRNP	Gene	5621
+35144616	1129	1136	p.E200K	ProteinMutation	tmVar:p|SUB|E|200|K;HGVS:p.E200K;VariantGroup:0;CorrespondingGene:5621;RS#:28933385;CorrespondingSpecies:9606;CA#:256778
+35144616	1141	1148	p.V210I	ProteinMutation	tmVar:p|SUB|V|210|I;HGVS:p.V210I;VariantGroup:1;CorrespondingGene:5621;RS#:74315407;CorrespondingSpecies:9606;CA#:256781
+35144616	1182	1208	sporadic Alzheimer disease	Disease	MESH:D000544
+35144616	1210	1213	sAD	Disease	MESH:D000544
+35144616	1409	1415	NOTCH3	Gene	4854
+35144616	1416	1426	rs11670823	SNP	tmVar:rs11670823;VariantGroup:2;CorrespondingGene:4854;RS#:11670823;CorrespondingSpecies:9606
+35144616	1428	1445	c.3837 + 21 T > A	DNAMutation	tmVar:c|SUB|T|3837+21|A;HGVS:c.3837+21T>A;VariantGroup:2;CorrespondingGene:4854;RS#:11670823;CorrespondingSpecies:9606
+35144616	1559	1567	patients	Species	9606
+35144616	1679	1687	patients	Species	9606
+35144616	1695	1700	V210I	ProteinMutation	tmVar:p|SUB|V|210|I;HGVS:p.V210I;VariantGroup:1;CorrespondingGene:5621;RS#:74315407;CorrespondingSpecies:9606;CA#:256781
+35144616	1701	1704	CJD	Disease	MESH:D007562
+35144616	1725	1729	PRNP	Gene	5621
+35144616	1744	1747	sAD	Disease	MESH:D000544
+35144616	1809	1817	dementia	Disease	MESH:D003704
+35144616	1930	1934	PRNP	Gene	5621
+35144616	Positive_Correlation	MESH:D007562	RS#:28933385;HGVS:p.E200K;CorrespondingGene:5621
+35144616	Association	MESH:D007562	RS#:74315407;HGVS:p.V210I;CorrespondingGene:5621
+35144616	Association	MESH:D007562	5621
+35144616	Positive_Correlation	RS#:11670823;CorrespondingGene:4854	MESH:D003704
+35144616	Association	MESH:D003704	RS#:74315407;HGVS:p.V210I;CorrespondingGene:5621
+35144616	Positive_Correlation	MESH:D000544	RS#:11670823;CorrespondingGene:4854
+35144616	Association	MESH:D000544	RS#:74315407;HGVS:p.V210I;CorrespondingGene:5621
+35144616	Positive_Correlation	MESH:D000544	RS#:28933385;HGVS:p.E200K;CorrespondingGene:5621
+35144616	Association	MESH:D003704	RS#:28933385;HGVS:p.E200K;CorrespondingGene:5621
+35144616	Association	MESH:D000544	5621
+35144616	Association	MESH:D003704	5621
+35144616	Association	MESH:D007562	5621
+35144616	Association	MESH:D003704	4854
+35144616	Association	MESH:D003704	5621
+35144616	Association	MESH:D000544	4854
+35144616	Association	MESH:D000544	5621
+

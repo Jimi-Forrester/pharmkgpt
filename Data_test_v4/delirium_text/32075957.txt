@@ -1,0 +1,80 @@
+32075957|t|Inhibition of keratinocyte necroptosis mediated by RIPK1/RIPK3/MLKL provides a protective effect against psoriatic inflammation.
+32075957|a|Psoriasis is a common autoimmune and chronic inflammatory skin disorder globally affecting 0.51-11.43% of adults. Inflammation-associated cell death in keratinocytes plays a key role in the process of integrate inflammatory cascade in psoriasis. Necroptosis is a regulated necrotic cell death mediated by receptor interacting protein kinase 1 (RIPK1), RIPK3, and mixed lineage kinase domain-like pseudokinase (MLKL), which participates in many human inflammatory diseases. However, the mechanism and function of programmed necrosis in psoriasis is not well-illustrated. In the current study, we provide evidence for the involvement of necroptosis in psoriasis. RIPK1 and MLKL were significantly upregulated and localized in all layers of the epidermis in human psoriatic lesions, while RIPK3 and phosphorylated MLKL were mainly expressed in keratinocytes, which located in the upper layers. Increased tendency of necroptosis was also found in IMQ-induced psoriasiform skin of mice. Further, we discovered that both the inhibitor of RIPK1 R-7-Cl-O-Necrostatin-1 (Nec-1s) and MLKL-inhibitor necrosulfonamide (NSA) suppressed necroptosis in HaCaT cells and IMQ mouse models, powerfully blocked IMQ-induced inflammatory responses in vivo, and significantly downregulated the production of inflammatory factors like IL-1beta, IL-6, IL-17A, IL-23a, CXCL1, and CCL20. These findings promote the development of new therapies for the treatment of necroptosis-activated pathologies for psoriasis.
+32075957	27	38	necroptosis	Disease	
+32075957	51	56	RIPK1	Gene	8737
+32075957	57	62	RIPK3	Gene	11035
+32075957	63	67	MLKL	Gene	197259
+32075957	105	127	psoriatic inflammation	Disease	MESH:D007249
+32075957	129	138	Psoriasis	Disease	MESH:D011565
+32075957	151	200	autoimmune and chronic inflammatory skin disorder	Disease	MESH:D019693
+32075957	243	255	Inflammation	Disease	MESH:D007249
+32075957	340	352	inflammatory	Disease	MESH:D007249
+32075957	364	373	psoriasis	Disease	MESH:D011565
+32075957	375	386	Necroptosis	Disease	
+32075957	402	410	necrotic	Disease	MESH:D009336
+32075957	434	471	receptor interacting protein kinase 1	Gene	8737
+32075957	473	478	RIPK1	Gene	8737
+32075957	481	486	RIPK3	Gene	11035
+32075957	492	537	mixed lineage kinase domain-like pseudokinase	Gene	197259
+32075957	539	543	MLKL	Gene	197259
+32075957	573	578	human	Species	9606
+32075957	579	600	inflammatory diseases	Disease	MESH:D007249
+32075957	641	660	programmed necrosis	Disease	MESH:D009336
+32075957	664	673	psoriasis	Disease	MESH:D011565
+32075957	764	775	necroptosis	Disease	
+32075957	779	788	psoriasis	Disease	MESH:D011565
+32075957	790	795	RIPK1	Gene	8737
+32075957	800	804	MLKL	Gene	197259
+32075957	884	889	human	Species	9606
+32075957	890	907	psoriatic lesions	Disease	MESH:D015535
+32075957	915	920	RIPK3	Gene	11035
+32075957	940	944	MLKL	Gene	197259
+32075957	1042	1053	necroptosis	Disease	
+32075957	1072	1075	IMQ	Chemical	MESH:D000077271
+32075957	1097	1101	skin	Disease	MESH:D012871
+32075957	1105	1109	mice	Species	10090
+32075957	1161	1166	RIPK1	Gene	8737
+32075957	1167	1189	R-7-Cl-O-Necrostatin-1	Chemical	-
+32075957	1203	1207	MLKL	Gene	197259
+32075957	1218	1234	necrosulfonamide	Chemical	MESH:C570695
+32075957	1236	1239	NSA	Chemical	MESH:C570695
+32075957	1252	1263	necroptosis	Disease	
+32075957	1267	1272	HaCaT	CellLine	CVCL:0038
+32075957	1283	1286	IMQ	Chemical	MESH:D000077271
+32075957	1287	1292	mouse	Species	10090
+32075957	1320	1323	IMQ	Chemical	MESH:D000077271
+32075957	1332	1344	inflammatory	Disease	MESH:D007249
+32075957	1414	1426	inflammatory	Disease	MESH:D007249
+32075957	1440	1448	IL-1beta	Gene	16176
+32075957	1450	1454	IL-6	Gene	16193
+32075957	1456	1462	IL-17A	Gene	16171
+32075957	1464	1470	IL-23a	Gene	83430
+32075957	1472	1477	CXCL1	Gene	14825
+32075957	1483	1488	CCL20	Gene	20297
+32075957	1567	1578	necroptosis	Disease	
+32075957	1605	1614	psoriasis	Disease	MESH:D011565
+32075957	Negative_Correlation	MESH:C570695	83430
+32075957	Negative_Correlation	MESH:C570695	16171
+32075957	Association	MESH:D007249	197259
+32075957	Negative_Correlation	MESH:C570695	MESH:D007249
+32075957	Negative_Correlation	MESH:C570695	20297
+32075957	Association	MESH:D007249	16176
+32075957	Association	MESH:D007249	16193
+32075957	Negative_Correlation	MESH:C570695	16176
+32075957	Negative_Correlation	MESH:C570695	16193
+32075957	Association	MESH:D007249	16171
+32075957	Positive_Correlation	MESH:D009336	11035
+32075957	Negative_Correlation	MESH:C570695	197259
+32075957	Association	MESH:D009336	8737
+32075957	Positive_Correlation	MESH:D000077271	MESH:D012871
+32075957	Association	MESH:D007249	20297
+32075957	Association	MESH:D007249	8737
+32075957	Association	MESH:D007249	11035
+32075957	Positive_Correlation	MESH:D015535	197259
+32075957	Negative_Correlation	MESH:C570695	MESH:D000077271
+32075957	Positive_Correlation	MESH:D000077271	MESH:D007249
+32075957	Negative_Correlation	MESH:C570695	14825
+32075957	Association	MESH:D007249	14825
+32075957	Positive_Correlation	MESH:D015535	8737
+32075957	Association	MESH:D007249	83430
+

@@ -1,0 +1,16 @@
+32678846|t|Protein-Protein interactions uncover candidate 'core genes' within omnigenic disease networks.
+32678846|a|Genome wide association studies (GWAS) of human diseases have generally identified many loci associated with risk with relatively small effect sizes. The omnigenic model attempts to explain this observation by suggesting that diseases can be thought of as networks, where genes with direct involvement in disease-relevant biological pathways are named 'core genes', while peripheral genes influence disease risk via their interactions or regulatory effects on core genes. Here, we demonstrate a method for identifying candidate core genes solely from genes in or near disease-associated SNPs (GWAS hits) in conjunction with protein-protein interaction network data. Applied to 1,381 GWAS studies from 5 ancestries, we identify a total of 1,865 candidate core genes in 343 GWAS studies. Our analysis identifies several well-known disease-related genes that are not identified by GWAS, including BRCA1 in Breast Cancer, Amyloid Precursor Protein (APP) in Alzheimer's Disease, INS in A1C measurement and Type 2 Diabetes, and PCSK9 in LDL cholesterol, amongst others. Notably candidate core genes are preferentially enriched for disease relevance over GWAS hits and are enriched for both Clinvar pathogenic variants and known drug targets-consistent with the predictions of the omnigenic model. We subsequently use parent term annotations provided by the GWAS catalog, to merge related GWAS studies and identify candidate core genes in over-arching disease processes such as cancer-where we identify 109 candidate core genes.
+32678846	137	142	human	Species	9606
+32678846	989	994	BRCA1	Gene	672
+32678846	998	1011	Breast Cancer	Disease	MESH:D001943
+32678846	1013	1038	Amyloid Precursor Protein	Gene	351
+32678846	1048	1067	Alzheimer's Disease	Disease	MESH:D000544
+32678846	1076	1079	A1C	DNAMutation	tmVar:c|SUB|A|1|C;HGVS:c.1A>C;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+32678846	1096	1111	Type 2 Diabetes	Disease	MESH:D003924
+32678846	1117	1122	PCSK9	Gene	255738
+32678846	1130	1141	cholesterol	Chemical	MESH:D002784
+32678846	1566	1572	cancer	Disease	MESH:D009369
+32678846	Association	MESH:D002784	255738
+32678846	Association	MESH:D000544	351
+32678846	Association	MESH:D001943	672
+

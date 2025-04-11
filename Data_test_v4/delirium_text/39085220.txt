@@ -1,0 +1,37 @@
+39085220|t|Depression clinical trials worldwide: a systematic analysis of the ICTRP and comparison with ClinicalTrials.gov.
+39085220|a|Major depressive disorder (MDD), commonly known as depression, affects over 300 million people worldwide as of 2018 and presents a wide range of clinical symptoms. The international clinical trials registry platform (ICTRP) introduced by WHO includes aggregated data from ClinicalTrials.gov and 17 other national registers, making it the largest clinical trial platform. Here we analysed data in ICTRP with the aim of providing comprehensive insights into clinical trials on depression. Applying a novel hidden duplicate identification method, 10,606 depression trials were identified in ICTRP, with ANZCTR being the largest non- ClinicalTrials.gov database at 1031 trials, followed by IRCT with 576 trials, ISRCTN with 501 trials, CHiCTR with 489 trials, and EUCTR with 351 trials. The top four most studied drugs, ketamine, sertraline, duloxetine, and fluoxetine, were consistent in both groups, but ClinicalTrials.gov had more trials for each drug compared to the non-ClinicalTrials.gov group. Out of 9229 interventional trials, 663 unique agents were identified, including approved drugs (74.5%), investigational drugs (23.2%), withdrawn drugs (1.8%), nutraceuticals (0.3%), and illicit substances (0.2%). Both ClinicalTrials.gov and non-ClinicalTrials.gov databases revealed that the largest categories were antidepressive agents (1172 in ClinicalTrials.gov and 659 in non-ClinicalTrials.gov) and nutrients, amino acids, and chemical elements (250 in ClinicalTrials.gov and 659 in non-ClinicalTrials.gov), indicating a focus on alternative treatments involving dietary supplements and nutrients. Additionally, 26 investigational antidepressive agents targeting 16 different drug targets were identified, with buprenorphine (opioid agonist), saredutant (NK2 antagonist), and seltorexant (OX2 antagonist) being the most frequently studied. This analysis addresses 40 approved drugs for depression treatment including new drug classes like GABA modulators and NMDA antagonists that are offering new prospects for treating MDD, including drug-resistant depression and postpartum depression subtypes.
+39085220	0	10	Depression	Disease	MESH:D003866
+39085220	113	138	Major depressive disorder	Disease	MESH:D003865
+39085220	140	143	MDD	Disease	MESH:D003865
+39085220	164	174	depression	Disease	MESH:D003866
+39085220	201	207	people	Species	9606
+39085220	588	598	depression	Disease	MESH:D003866
+39085220	664	674	depression	Disease	MESH:D003866
+39085220	929	937	ketamine	Chemical	-
+39085220	939	949	sertraline	Chemical	MESH:D020280
+39085220	951	961	duloxetine	Chemical	MESH:D000068736
+39085220	967	977	fluoxetine	Chemical	MESH:D005473
+39085220	1526	1537	amino acids	Chemical	MESH:D000596
+39085220	1827	1840	buprenorphine	Chemical	MESH:D002047
+39085220	1859	1869	saredutant	Chemical	MESH:C073839
+39085220	1871	1874	NK2	Gene	7080
+39085220	1892	1903	seltorexant	Chemical	MESH:C000655226
+39085220	1905	1908	OX2	Gene	4345
+39085220	2002	2012	depression	Disease	MESH:D003866
+39085220	2055	2059	GABA	Chemical	MESH:D005680
+39085220	2075	2091	NMDA antagonists	Chemical	-
+39085220	2137	2140	MDD	Disease	MESH:D003865
+39085220	2152	2177	drug-resistant depression	Disease	MESH:D000069279
+39085220	2182	2203	postpartum depression	Disease	MESH:D019052
+39085220	Negative_Correlation	MESH:C000655226	4345
+39085220	Negative_Correlation	MESH:D005473	MESH:D003866
+39085220	Negative_Correlation	MESH:C073839	MESH:D003866
+39085220	Association	MESH:D005680	MESH:D000069279
+39085220	Association	MESH:D005680	MESH:D019052
+39085220	Negative_Correlation	MESH:C073839	7080
+39085220	Association	MESH:D005680	MESH:D003866
+39085220	Negative_Correlation	MESH:C000655226	MESH:D003866
+39085220	Negative_Correlation	MESH:D000068736	MESH:D003866
+39085220	Association	MESH:D005680	MESH:D003865
+39085220	Negative_Correlation	MESH:D020280	MESH:D003866
+

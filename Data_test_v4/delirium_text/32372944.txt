@@ -1,0 +1,19 @@
+32372944|t|Gaussian Graphical Models Reveal Inter-Modal and Inter-Regional Conditional Dependencies of Brain Alterations in Alzheimer's Disease.
+32372944|a|Alzheimer's disease (AD) is characterized by a sequence of pathological changes, which are commonly assessed in vivo using various brain imaging modalities such as magnetic resonance imaging (MRI) and positron emission tomography (PET). Currently, the most approaches to analyze statistical associations between regions and imaging modalities rely on Pearson correlation or linear regression models. However, these models are prone to spurious correlations arising from uninformative shared variance and multicollinearity. Notably, there are no appropriate multivariate statistical models available that can easily integrate dozens of multicollinear variables derived from such data, being able to utilize the additional information provided from the combination of data sources. Gaussian graphical models (GGMs) can estimate the conditional dependency from given data, which is conceptually expected to closely reflect the underlying causal relationships between various variables. Hence, we applied GGMs to assess multimodal regional brain alterations in AD. We obtained data from N = 972 subjects from the Alzheimer's Disease Neuroimaging Initiative. The mean amyloid load (AV45-PET), glucose metabolism (FDG-PET), and gray matter volume (MRI) were calculated for each of the 108 cortical and subcortical brain regions. GGMs were estimated using a Bayesian framework for the combined multimodal data and the resulted conditional dependency networks were compared to classical covariance networks based on Pearson correlation. Additionally, graph-theoretical network statistics were calculated to determine network alterations associated with disease status. The resulting conditional dependency matrices were much sparser ( 10% density) than Pearson correlation matrices ( 50% density). Within imaging modalities, conditional dependency networks yielded clusters connecting anatomically adjacent regions. For the associations between different modalities, only few region-specific connections were detected. Network measures such as small-world coefficient were significantly altered across diagnostic groups, with a biphasic u-shape trajectory, i.e., increased small-world coefficient in early mild cognitive impairment (MCI), similar values in late MCI, and decreased values in AD dementia patients compared to cognitively normal controls. In conclusion, GGMs removed commonly shared variance among multimodal measures of regional brain alterations in MCI and AD, and yielded sparser matrices compared to correlation networks based on the Pearson coefficient. Therefore, GGMs may be used as alternative to thresholding-approaches typically applied to correlation networks to obtain the most informative relations between variables.
+32372944	113	132	Alzheimer's Disease	Disease	MESH:D000544
+32372944	134	153	Alzheimer's disease	Disease	MESH:D000544
+32372944	155	157	AD	Disease	MESH:D000544
+32372944	1191	1193	AD	Disease	MESH:D000544
+32372944	1243	1262	Alzheimer's Disease	Disease	MESH:D000544
+32372944	1297	1304	amyloid	Disease	MESH:C000718787
+32372944	1322	1329	glucose	Chemical	MESH:D005947
+32372944	1342	1345	FDG	Chemical	MESH:D019788
+32372944	2337	2357	cognitive impairment	Disease	MESH:D003072
+32372944	2359	2362	MCI	Disease	MESH:D060825
+32372944	2388	2391	MCI	Disease	MESH:D060825
+32372944	2417	2428	AD dementia	Disease	MESH:D000544
+32372944	2429	2437	patients	Species	9606
+32372944	2591	2594	MCI	Disease	MESH:D060825
+32372944	2599	2601	AD	Disease	MESH:D000544
+32372944	Association	MESH:D005947	MESH:D019788
+

@@ -1,0 +1,29 @@
+34258749|t|FRET-Based Screening Identifies p38 MAPK and PKC Inhibition as Targets for Prevention of Seeded alpha-Synuclein Aggregation.
+34258749|a|Aggregation of alpha-synuclein is associated with neurodegeneration and a hallmark pathology in synucleinopathies. These aggregates are thought to function as prion-like particles where the conformation of misfolded alpha-synuclein determines the traits of the induced pathology, similar to prion diseases. Still, little is known about the molecular targets facilitating the conformation-specific biological effects, but their identification could form the basis for new therapeutic interventions. High-throughput screening of annotated compound libraries could facilitate mechanistic investigation by identifying targets with impact on alpha-synuclein aggregation. To this end, we developed a FRET-based cellular reporter in HEK293T cells, with sensitivity down to 6.5 nM alpha-synuclein seeds. Using this model system, we identified GF109203X, SB202190, and SB203580 as inhibitors capable of preventing induction of alpha-synuclein aggregation via inhibition of p38 MAPK and PKC, respectively. We further investigated the mechanisms underlying the protective effects and found alterations in the endo-lysosomal system to be likely candidates of the protection. We found the changes did not stem from a reduction in uptake but rather alteration of lysosomal abundance and degradative capacity. Our findings highlight the value high-throughput screening brings to the mechanistic investigation of alpha-synuclein aggregation while simultaneously identifying novel therapeutic compounds.
+34258749	45	48	PKC	Gene	112476
+34258749	96	111	alpha-Synuclein	Gene	6622
+34258749	140	155	alpha-synuclein	Gene	6622
+34258749	175	192	neurodegeneration	Disease	MESH:D019636
+34258749	221	238	synucleinopathies	Disease	MESH:D000080874
+34258749	341	356	alpha-synuclein	Gene	6622
+34258749	416	430	prion diseases	Disease	MESH:D017096
+34258749	762	777	alpha-synuclein	Gene	6622
+34258749	851	858	HEK293T	CellLine	CVCL:0063
+34258749	898	913	alpha-synuclein	Gene	6622
+34258749	960	969	GF109203X	Chemical	MESH:C070515
+34258749	971	979	SB202190	Chemical	MESH:C090942
+34258749	985	993	SB203580	Chemical	MESH:C093642
+34258749	1043	1058	alpha-synuclein	Gene	6622
+34258749	1102	1105	PKC	Gene	112476
+34258749	1522	1537	alpha-synuclein	Gene	6622
+34258749	Association	MESH:D019636	6622
+34258749	Negative_Correlation	MESH:C093642	112476
+34258749	Association	MESH:D000080874	6622
+34258749	Association	MESH:D017096	6622
+34258749	Negative_Correlation	MESH:C070515	112476
+34258749	Negative_Correlation	MESH:C090942	112476
+34258749	Negative_Correlation	MESH:C093642	6622
+34258749	Negative_Correlation	MESH:C070515	6622
+34258749	Association	112476	6622
+34258749	Negative_Correlation	MESH:C090942	6622
+

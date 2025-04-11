@@ -1,0 +1,56 @@
+32214004|t|A Novel WAC Loss of Function Mutation in an Individual Presenting with Encephalopathy Related to Status Epilepticus during Sleep (ESES).
+32214004|a|WAC (WW Domain Containing Adaptor With Coiled-Coil) mutations have been reported in only 20 individuals presenting a neurodevelopmental disorder characterized by intellectual disability, neonatal hypotonia, behavioral problems, and mildly dysmorphic features. Using targeted deep sequencing, we screened a cohort of 630 individuals with variable degrees of intellectual disability and identified five WAC rare variants: two variants were inherited from healthy parents; two previously reported de novo mutations, c.1661_1664del (p.Ser554*) and c.374C>A (p.Ser125*); and a novel c.381+2T>C variant causing the skipping of exon 4 of the gene, inherited from a reportedly asymptomatic father with somatic mosaicism. A phenotypic evaluation of this individual evidenced areas of cognitive and behavioral deficits. The patient carrying the novel splicing mutation had a clinical history of encephalopathy related to status epilepticus during slow sleep (ESES), recently reported in another WAC individual. This first report of a WAC somatic mosaic remarks the contribution of mosaicism in the etiology of neurodevelopmental and neuropsychiatric disorders. We summarized the clinical data of reported individuals with WAC pathogenic mutations, which together with our findings, allowed for the expansion of the phenotypic spectrum of WAC-related disorders.
+32214004	8	11	WAC	Gene	51322
+32214004	71	85	Encephalopathy	Disease	MESH:D001927
+32214004	97	115	Status Epilepticus	Disease	MESH:D013226
+32214004	130	134	ESES	Disease	
+32214004	137	140	WAC	Gene	51322
+32214004	142	187	WW Domain Containing Adaptor With Coiled-Coil	Gene	51322
+32214004	254	281	neurodevelopmental disorder	Disease	MESH:D002658
+32214004	299	322	intellectual disability	Disease	MESH:D008607
+32214004	324	342	neonatal hypotonia	Disease	MESH:D009123
+32214004	344	363	behavioral problems	Disease	MESH:D001523
+32214004	376	395	dysmorphic features	Disease	MESH:D000013
+32214004	494	517	intellectual disability	Disease	MESH:D008607
+32214004	538	541	WAC	Gene	51322
+32214004	650	664	c.1661_1664del	DNAMutation	tmVar:c|DEL|1661_1664|;HGVS:c.1661_1664del;VariantGroup:4;CorrespondingGene:51322;CorrespondingSpecies:9606
+32214004	666	675	p.Ser554*	ProteinMutation	tmVar:p|SUB|S|554|*;HGVS:p.S554*;VariantGroup:3;CorrespondingGene:51322;CorrespondingSpecies:9606
+32214004	681	689	c.374C>A	DNAMutation	tmVar:c|SUB|C|374|A;HGVS:c.374C>A;VariantGroup:0;CorrespondingGene:51322;RS#:864321692;CorrespondingSpecies:9606;CA#:347922
+32214004	691	700	p.Ser125*	ProteinMutation	tmVar:p|SUB|S|125|*;HGVS:p.S125*;VariantGroup:1;CorrespondingGene:51322;CorrespondingSpecies:9606
+32214004	715	725	c.381+2T>C	DNAMutation	tmVar:c|SUB|T|381+2|C;HGVS:c.381+2T>C;VariantGroup:2;CorrespondingGene:51322;CorrespondingSpecies:9606
+32214004	912	945	cognitive and behavioral deficits	Disease	MESH:D003072
+32214004	951	958	patient	Species	9606
+32214004	1022	1036	encephalopathy	Disease	MESH:D001927
+32214004	1048	1084	status epilepticus during slow sleep	Disease	MESH:D013226
+32214004	1086	1090	ESES	Disease	
+32214004	1122	1125	WAC	Gene	51322
+32214004	1161	1164	WAC	Gene	51322
+32214004	1237	1286	neurodevelopmental and neuropsychiatric disorders	Disease	MESH:D001523
+32214004	1349	1352	WAC	Gene	51322
+32214004	1465	1486	WAC-related disorders	Disease	MESH:D019973
+32214004	Positive_Correlation	HGVS:c.1661_1664del;CorrespondingGene:51322	MESH:D001927
+32214004	Positive_Correlation	MESH:D001927	HGVS:p.S554*;CorrespondingGene:51322
+32214004	Positive_Correlation	HGVS:c.1661_1664del;CorrespondingGene:51322	MESH:D003072
+32214004	Positive_Correlation	HGVS:c.1661_1664del;CorrespondingGene:51322	MESH:D019973
+32214004	Positive_Correlation	MESH:D019973	HGVS:p.S554*;CorrespondingGene:51322
+32214004	Positive_Correlation	MESH:D003072	HGVS:p.S125*;CorrespondingGene:51322
+32214004	Positive_Correlation	HGVS:c.381+2T>C;CorrespondingGene:51322	MESH:D001927
+32214004	Association	MESH:D000013	51322
+32214004	Positive_Correlation	RS#:864321692;HGVS:c.374C>A;CorrespondingGene:51322	MESH:D019973
+32214004	Association	MESH:D009123	51322
+32214004	Positive_Correlation	HGVS:c.381+2T>C;CorrespondingGene:51322	MESH:D019973
+32214004	Positive_Correlation	MESH:D019973	HGVS:p.S125*;CorrespondingGene:51322
+32214004	Positive_Correlation	RS#:864321692;HGVS:c.374C>A;CorrespondingGene:51322	MESH:D003072
+32214004	Positive_Correlation	MESH:D003072	HGVS:p.S554*;CorrespondingGene:51322
+32214004	Association	MESH:D001927	51322
+32214004	Positive_Correlation	HGVS:c.381+2T>C;CorrespondingGene:51322	MESH:D003072
+32214004	Association	MESH:D019973	51322
+32214004	Association	MESH:D013226	51322
+32214004	Association	MESH:D008607	51322
+32214004	Association	MESH:D003072	51322
+32214004	Association	MESH:D002658	51322
+32214004	Association	MESH:D001523	51322
+32214004	Association	MESH:D001927	51322
+32214004	Association	MESH:D003072	51322
+32214004	Association	MESH:D019973	51322
+

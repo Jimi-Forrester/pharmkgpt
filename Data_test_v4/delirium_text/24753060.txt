@@ -1,0 +1,18 @@
+24753060|t|Multi-atlas based representations for Alzheimer's disease diagnosis.
+24753060|a|Brain morphometry based classification from magnetic resonance (MR) acquisitions has been widely investigated in the diagnosis of Alzheimer's disease (AD) and its prodromal stage, i.e., mild cognitive impairment (MCI). In the literature, a morphometric representation of brain structures is obtained by spatial normalization of each image into a common space (i.e., a pre-defined atlas) via non-linear registration, thus the corresponding regions in different brains can be compared. However, representations generated from one single atlas may not be sufficient to reveal the underlying anatomical differences between the groups of disease-affected patients and normal controls (NC). In this article, we propose a different methodology, namely the multi-atlas based morphometry, which measures morphometric representations of the same image in different spaces of multiple atlases. Representations generated from different atlases can thus provide the complementary information to discriminate different groups, and also reduce the negative impacts from registration errors. Specifically, each studied subject is registered to multiple atlases, where adaptive regional features are extracted. Then, all features from different atlases are jointly selected by a correlation and relevance based scheme, followed by final classification with the support vector machine (SVM). We have evaluated the proposed method on 459 subjects (97 AD, 117 progressive-MCI (p-MCI), 117 stable-MCI (s-MCI), and 128 NC) from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database, and achieved 91.64% for AD/NC classification and 72.41% for p-MCI/s-MCI classification. Our results clearly demonstrate that the proposed multi-atlas based method can significantly outperform the previous single-atlas based methods.
+24753060	38	57	Alzheimer's disease	Disease	MESH:D000544
+24753060	199	218	Alzheimer's disease	Disease	MESH:D000544
+24753060	220	222	AD	Disease	MESH:D000544
+24753060	260	280	cognitive impairment	Disease	MESH:D003072
+24753060	282	285	MCI	Disease	MESH:D060825
+24753060	719	727	patients	Species	9606
+24753060	1501	1503	AD	Disease	MESH:D000544
+24753060	1521	1524	MCI	Disease	MESH:D060825
+24753060	1528	1531	MCI	Disease	MESH:D060825
+24753060	1545	1548	MCI	Disease	MESH:D060825
+24753060	1552	1555	MCI	Disease	MESH:D060825
+24753060	1579	1598	Alzheimer's Disease	Disease	MESH:D000544
+24753060	1664	1666	AD	Disease	MESH:D000544
+24753060	1702	1705	MCI	Disease	MESH:D060825
+24753060	1708	1711	MCI	Disease	MESH:D060825
+

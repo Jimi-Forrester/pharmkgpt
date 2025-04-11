@@ -33,7 +33,7 @@ from config import (
     )
 
 from src.kgvisual import kg_visualization
-from src.hightlight import hightLight_context, format_docs, highlight_segments, hallucination_test
+from src.hightlight import detect_all_entity_name, format_docs, highlight_segments, hallucination_test
 
 
 
@@ -69,6 +69,23 @@ class RAGEngine:
         self.top_k=None
         self.engine = None  # 引擎将在 initialize 方法中初始化
 
+    def load_kg(self):
+        logging.info("Loading KG...")
+        with open(f"{self.data_root}/delirium_kg.pkl", "rb") as f:
+            self.kg_dict = pickle.load(f)
+        
+        logging.info("Loading entities and doc2kg...")
+        with open(f"{self.data_root}/entities_doc2kg.pkl", "rb") as f:
+            loaded_dict = pickle.load(f)
+
+        with open(f"{self.data_root}/chunk_index.pkl", "rb") as f:
+            self.chunks_index = pickle.load(f)
+
+        with open(f"{self.data_root}/chunk_index_nodes.pkl", "rb") as f:
+            self.chunk_index_embed = pickle.load(f)
+            
+        self.ents = loaded_dict["ents"]
+        self.doc2kg = loaded_dict["doc2kg"]
 
     def load_index(self):
         logging.info("Initializing OllamaEmbedding...")
@@ -82,25 +99,21 @@ class RAGEngine:
         logging.info("Loading index...")
         sc = StorageContext.from_defaults(persist_dir=f"{self.data_root}/derilirum_index")
         self.index = load_index_from_storage(sc)
-    
-    def load_kg(self):
-        logging.info("Loading KG...")
-        with open(f"{self.data_root}/delirium_kg.pkl", "rb") as f:
-            self.kg_dict = pickle.load(f)
-            
-        with open(f"{self.data_root}/entities_doc2kg.pkl", "rb") as f:
-            loaded_dict = pickle.load(f)
-
-        with open(f"{self.data_root}/chunk_index.pkl", "rb") as f:
-            self.chunks_index = pickle.load(f)
-
-        with open(f"{self.data_root}/chunk_index_nodes.pkl", "rb") as f:
-            self.chunk_index_embed = pickle.load(f)
-            
-        self.ents = loaded_dict["ents"]
-        self.doc2kg = loaded_dict["doc2kg"]
         
+        self.retriever = VectorIndexRetriever(
+            index=self.index, 
+            similarity_top_k=20)
 
+        qa_rag_template_str = (
+            "Context information is below.\n{context_str}\nQ: {query_str}\nA: "
+        )
+        self.qa_rag_prompt_template = PromptTemplate(qa_rag_template_str)
+
+        device="cuda:0"
+        self.bge_reranker = FlagReranker(model_name_or_path=self.reranker_path, device=device)
+        self.bge_reranker.model.to(device)
+
+        
     def setup_query_engine(self,         
                 model_type,
                 api_key,
@@ -113,7 +126,6 @@ class RAGEngine:
         self.api_key=api_key
         self.top_k=top_k
         self.hops=hops
-        device="cuda:0"
     
         llm = None 
         self.llm = None
@@ -166,20 +178,12 @@ class RAGEngine:
             llm.complete("hello world!")
             
             Settings.llm =llm
-            
-            logging.info("Loading entities and doc2kg...")
-            retriever = VectorIndexRetriever(index=self.index, similarity_top_k=top_k)
-            qa_rag_template_str = (
-                "Context information is below.\n{context_str}\nQ: {query_str}\nA: "
-            )
-            qa_rag_prompt_template = PromptTemplate(qa_rag_template_str)
-            response_synthesizer = get_response_synthesizer(
-                response_mode=ResponseMode.COMPACT, text_qa_template=qa_rag_prompt_template
-            )
 
-            bge_reranker = FlagReranker(model_name_or_path=self.reranker_path, device=device)
-            bge_reranker.model.to(device)
-            
+
+            self.response_synthesizer = get_response_synthesizer(
+                response_mode=ResponseMode.COMPACT, text_qa_template=self.qa_rag_prompt_template
+            )
+        
             # 基于pmid 和关系的图检索
             kg_post_processor1 = KGRetrievePostProcessor(
                 ents=self.ents, 
@@ -187,6 +191,7 @@ class RAGEngine:
                 chunks_index=self.chunks_index,
                 chunk_index_embed=self.chunk_index_embed,
                 hops=hops,
+                top_k=top_k,
             )
             
             # 基于节点和 query 覆盖率的图过滤
@@ -196,7 +201,7 @@ class RAGEngine:
                 doc2kg=self.doc2kg,
                 use_tpt=True,
                 chunks_index=self.chunks_index,
-                reranker=bge_reranker,
+                reranker=self.bge_reranker,
             )
 
             Simpostprocessor = SimilarityPostprocessor(
@@ -204,8 +209,8 @@ class RAGEngine:
                 )
 
             self.engine = RetrieverQueryEngine(
-                retriever=retriever,
-                response_synthesizer=response_synthesizer,
+                retriever=self.retriever,
+                response_synthesizer=self.response_synthesizer,
                 node_postprocessors=[
                     kg_post_processor1,
                     kg_post_processor2,
@@ -213,9 +218,10 @@ class RAGEngine:
                     NaivePostprocessor(),
                 ],
             )
-            logging.info("RAG engine initialized successfully.")
             
             self._configured = True
+            logging.info("RAG engine initialized successfully.")
+            
             
         except FileNotFoundError as e:
             logging.error(f"File not found: {e}")
@@ -247,6 +253,10 @@ class RAGEngine:
     
     def query_kg(self, pmid_list):
         return kg_visualization(pmid_list, self.kg_dict)
+    
+    
+    def entity_dict(self,pmid_list):
+        return detect_all_entity_name(pmid_list, self.kg_dict)
     
     def _query(self, question):
         """执行查询"""
@@ -308,9 +318,10 @@ class RAGEngine:
                     title = self._remove_brackets(text_line[0].strip().split("|")[-1])
                     abstract = text_line[1].strip().split("|")[-1]
                 context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
-            # 幻觉检测
+            
             yield {"type": "progress", "message": "Knowledge Retrieved.\nVerifying Facts"}
             
+            # 幻觉检测
             logging.info(">>>hallucination detect>>>>>")
             logging.info(f"answer: {answer}")
             try:
@@ -342,21 +353,26 @@ class RAGEngine:
             
             # 高亮
             yield {"type": "progress", "message": "Knowledge Retrieved.\nFacts Verified.\nGenerating Answer"}
-            logging.info("Highlighting documents...")
-            HighlightDocuments_dict = hightLight_context(
-                input_data ={
-                "documents": format_docs(context),
-                "question": question,
-                "generation": answer
-                            }, 
-                llm_model=self.llm
-                )
             
-            logging.info(f"HighlightDocuments_dict: {HighlightDocuments_dict}")
-            context_ = highlight_segments(
-                context, HighlightDocuments_dict
-            )
-    
+            logging.info(">>>>>Highlighting documents...>>>>>")
+            # HighlightDocuments_dict = hightLight_context(
+            #     input_data ={
+            #     "documents": format_docs(context),
+            #     "question": question,
+            #     "generation": answer
+            #                 }, 
+            #     llm_model=self.llm
+            #     )
+            try:
+                HighlightDocuments_dict = self.entity_dict(sps)
+
+                context_ = highlight_segments(
+                    context, HighlightDocuments_dict
+                )
+            except:
+                logging.error(">>>Highlighting has some problem!")
+                context_ = context
+                
             output_dict = {
                 "Question": question,
                 "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),

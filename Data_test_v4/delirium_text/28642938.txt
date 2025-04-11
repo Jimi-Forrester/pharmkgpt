@@ -1,0 +1,11 @@
+28642938|t|Correlation-Weighted Sparse Group Representation for Brain Network Construction in MCI Classification.
+28642938|a|Analysis of brain functional connectivity network (BFCN) has shown great potential in understanding brain functions and identifying biomarkers for neurological and psychiatric disorders, such as Alzheimer's disease and its early stage, mild cognitive impairment (MCI). In all these applications, the accurate construction of biologically meaningful brain network is critical. Due to the sparse nature of the brain network, sparse learning has been widely used for complex BFCN construction. However, the conventional l1-norm penalty in the sparse learning equally penalizes each edge (or link) of the brain network, which ignores the link strength and could remove strong links in the brain network. Besides, the conventional sparse regularization often overlooks group structure in the brain network, i.e., a set of links (or connections) sharing similar attribute. To address these issues, we propose to construct BFCN by integrating both link strength and group structure information. Specifically, a novel correlation-weighted sparse group constraint is devised to account for and balance among (1) sparsity, (2) link strength, and (3) group structure, in a unified framework. The proposed method is applied to MCI classification using the resting-state fMRI from ADNI-2 dataset. Experimental results show that our method is effective in modeling human brain connectomics, as demonstrated by superior MCI classification accuracy of 81.8%. Moreover, our method is promising for its capability in modeling more biologically meaningful sparse brain networks, which will benefit both basic and clinical neuroscience studies.
+28642938	83	86	MCI	Disease	MESH:D060825
+28642938	250	288	neurological and psychiatric disorders	Disease	MESH:D001523
+28642938	298	317	Alzheimer's disease	Disease	MESH:D000544
+28642938	344	364	cognitive impairment	Disease	MESH:D003072
+28642938	366	369	MCI	Disease	MESH:D060825
+28642938	1318	1321	MCI	Disease	MESH:D060825
+28642938	1454	1459	human	Species	9606
+28642938	1508	1511	MCI	Disease	MESH:D060825
+

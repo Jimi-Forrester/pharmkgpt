@@ -1,0 +1,9 @@
+35234904|t|TransposonUltimate: software for transposon classification, annotation and detection.
+35234904|a|Most genomes harbor a large number of transposons, and they play an important role in evolution and gene regulation. They are also of interest to clinicians as they are involved in several diseases, including cancer and neurodegeneration. Although several methods for transposon identification are available, they are often highly specialised towards specific tasks or classes of transposons, and they lack common standards such as a unified taxonomy scheme and output file format. We present TransposonUltimate, a powerful bundle of three modules for transposon classification, annotation, and detection of transposition events. TransposonUltimate comes as a Conda package under the GPL-3.0 licence, is well documented and it is easy to install through https://github.com/DerKevinRiehl/TransposonUltimate. We benchmark the classification module on the large TransposonDB covering 891,051 sequences to demonstrate that it outperforms the currently best existing solutions. The annotation and detection modules combine sixteen existing softwares, and we illustrate its use by annotating Caenorhabditis elegans, Rhizophagus irregularis and Oryza sativa subs. japonica genomes. Finally, we use the detection module to discover 29 554 transposition events in the genomes of 20 wild type strains of C. elegans. Databases, assemblies, annotations and further findings can be downloaded from (https://doi.org/10.5281/zenodo.5518085).
+35234904	295	301	cancer	Disease	MESH:D009369
+35234904	306	323	neurodegeneration	Disease	MESH:D019636
+35234904	1172	1194	Caenorhabditis elegans	Species	6239
+35234904	1196	1219	Rhizophagus irregularis	Species	588596
+35234904	1224	1236	Oryza sativa	Species	4530
+35234904	1380	1390	C. elegans	Species	328850
+

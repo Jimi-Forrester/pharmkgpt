@@ -1,0 +1,45 @@
+39430855|t|The m5C/m6A/m7G-related non-apoptotic regulatory cell death genes for the prediction of the prognosis and immune infiltration status in hepatocellular carcinoma.
+39430855|a|Background: 5-methylcytosine/N6-methyladenosine/N7-methylguanosine (m5C/m6A/m7G)-related genes play a critical role in tumor occurrence and progression, and non-apoptotic regulatory cell death (NARCD) is closely linked to tumor development and immunity. However, the role of m5C/m6A/m7G-related NARCD genes in hepatocellular carcinoma (HCC) remains unclear. We used m5C/m6A/m7G-related NARCD genes to construct a prognostic model of HCC for prognostic prediction and clinical treatment of patients. Methods: We obtained transcriptome data for HCC from The Cancer Genome Atlas (TCGA) and the International Cancer Genome Consortium (ICGC). Using the least absolute shrinkage and selection operator (LASSO) regression, we identified m5C/m6A/m7G-related NARCD genes and constructed a prognostic model through multivariate Cox regression. Model performance was assessed using Kaplan-Meier and receiver operating characteristic (ROC) curves, with external validation using the ICGC. Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) analyses were used to study differentially expressed genes between high- and low-risk groups. We also examined immune cell infiltration, drug response, and cell communication between tumor cells and immune cells in high-risk groups. Results: We identified 140 m5C/m6A/m7G-related NARCD genes, using five of them to build the prognostic model. Functional enrichment analysis revealed enrichment in tumor and immune-related pathways for risk genes. The high-risk group displayed increased immune cell infiltration and better responses to immune checkpoint inhibitors (ICIs). High-risk patients were more responsive to cisplatin, doxorubicin, and mitomycin C, while low-risk patients were more sensitive to erlotinib. Cell communication analysis indicated that high-risk tumor cells used insulin-like growth factor (IGF) and macrophage migration inhibitory factor (MIF) signaling pathways to send signals to immune cells and received signals through the bone morphogenetic protein (BMP) and lymphotoxin-related inducible ligand (LIGHT) pathways. Conclusions: We have developed a prognostic model with m5C/m6A/m7G-related NARCD genes to predict the prognosis of HCC patients. This model can offer insights into the effectiveness of immunotherapy and chemotherapy for HCC patients.
+39430855	8	11	m6A	Gene	2823
+39430855	136	160	hepatocellular carcinoma	Disease	MESH:D006528
+39430855	191	209	N6-methyladenosine	Chemical	MESH:C010223
+39430855	234	237	m6A	Gene	2823
+39430855	281	286	tumor	Disease	MESH:D009369
+39430855	384	389	tumor	Disease	MESH:D009369
+39430855	441	444	m6A	Gene	2823
+39430855	472	496	hepatocellular carcinoma	Disease	MESH:D006528
+39430855	498	501	HCC	Disease	MESH:D006528
+39430855	532	535	m6A	Gene	2823
+39430855	595	598	HCC	Disease	MESH:D006528
+39430855	651	659	patients	Species	9606
+39430855	705	708	HCC	Disease	MESH:D006528
+39430855	718	724	Cancer	Disease	MESH:D009369
+39430855	767	773	Cancer	Disease	MESH:D009369
+39430855	896	899	m6A	Gene	2823
+39430855	1392	1397	tumor	Disease	MESH:D009369
+39430855	1473	1476	m6A	Gene	2823
+39430855	1606	1611	tumor	Disease	MESH:D009369
+39430855	1792	1800	patients	Species	9606
+39430855	1825	1834	cisplatin	Chemical	MESH:D002945
+39430855	1836	1847	doxorubicin	Chemical	MESH:D004317
+39430855	1853	1864	mitomycin C	Chemical	MESH:D016685
+39430855	1881	1889	patients	Species	9606
+39430855	1913	1922	erlotinib	Chemical	MESH:D000069347
+39430855	1977	1982	tumor	Disease	MESH:D009369
+39430855	2031	2069	macrophage migration inhibitory factor	Gene	4282
+39430855	2071	2074	MIF	Gene	4282
+39430855	2160	2186	bone morphogenetic protein	Gene	649
+39430855	2188	2191	BMP	Gene	649
+39430855	2311	2314	m6A	Gene	2823
+39430855	2367	2370	HCC	Disease	MESH:D006528
+39430855	2371	2379	patients	Species	9606
+39430855	2472	2475	HCC	Disease	MESH:D006528
+39430855	2476	2484	patients	Species	9606
+39430855	Association	MESH:C010223	MESH:D009369
+39430855	Association	MESH:D006528	2823
+39430855	Negative_Correlation	MESH:D004317	MESH:D009369
+39430855	Association	MESH:D009369	2823
+39430855	Association	MESH:D006528	4282
+39430855	Negative_Correlation	MESH:D004317	MESH:D006528
+39430855	Association	MESH:D006528	649
+

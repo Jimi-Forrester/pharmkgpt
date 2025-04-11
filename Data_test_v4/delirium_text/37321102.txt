@@ -1,0 +1,12 @@
+37321102|t|End-to-end automatic pathology localization for Alzheimer's disease diagnosis using structural MRI.
+37321102|a|Structural magnetic resonance imaging (sMRI) is an essential part of the clinical assessment of patients at risk of Alzheimer dementia. One key challenge in sMRI-based computer-aided dementia diagnosis is to localize local pathological regions for discriminative feature learning. Existing solutions predominantly depend on generating saliency maps for pathology localization and handle the localization task independently of the dementia diagnosis task, leading to a complex multi-stage training pipeline that is hard to optimize with weakly-supervised sMRI-level annotations. In this work, we aim to simplify the pathology localization task and construct an end-to-end automatic localization framework (AutoLoc) for Alzheimer's disease diagnosis. To this end, we first present an efficient pathology localization paradigm that directly predicts the coordinate of the most disease-related region in each sMRI slice. Then, we approximate the non-differentiable patch-cropping operation with the bilinear interpolation technique, which eliminates the barrier to gradient backpropagation and thus enables the joint optimization of localization and diagnosis tasks. Extensive experiments on commonly used ADNI and AIBL datasets demonstrate the superiority of our method. Especially, we achieve 93.38% and 81.12% accuracy on Alzheimer's disease classification and mild cognitive impairment conversion prediction tasks, respectively. Several important brain regions, such as rostral hippocampus and globus pallidus, are identified to be highly associated with Alzheimer's disease.
+37321102	48	67	Alzheimer's disease	Disease	MESH:D000544
+37321102	196	204	patients	Species	9606
+37321102	216	234	Alzheimer dementia	Disease	MESH:D000544
+37321102	283	291	dementia	Disease	MESH:D003704
+37321102	530	538	dementia	Disease	MESH:D003704
+37321102	818	837	Alzheimer's disease	Disease	MESH:D000544
+37321102	1421	1440	Alzheimer's disease	Disease	MESH:D000544
+37321102	1465	1485	cognitive impairment	Disease	MESH:D003072
+37321102	1655	1674	Alzheimer's disease	Disease	MESH:D000544
+

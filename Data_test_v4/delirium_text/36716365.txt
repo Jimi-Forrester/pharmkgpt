@@ -1,0 +1,9 @@
+36716365|t|Bias in machine learning models can be significantly mitigated by careful training: Evidence from neuroimaging studies.
+36716365|a|Despite the great promise that machine learning has offered in many fields of medicine, it has also raised concerns about potential biases and poor generalization across genders, age distributions, races and ethnicities, hospitals, and data acquisition equipment and protocols. In the current study, and in the context of three brain diseases, we provide evidence which suggests that when properly trained, machine learning models can generalize well across diverse conditions and do not necessarily suffer from bias. Specifically, by using multistudy magnetic resonance imaging consortia for diagnosing Alzheimer's disease, schizophrenia, and autism spectrum disorder, we find that well-trained models have a high area-under-the-curve (AUC) on subjects across different subgroups pertaining to attributes such as gender, age, racial groups and different clinical studies and are unbiased under multiple fairness metrics such as demographic parity difference, equalized odds difference, equal opportunity difference, etc. We find that models that incorporate multisource data from demographic, clinical, genetic factors, and cognitive scores are also unbiased. These models have a better predictive AUC across subgroups than those trained only with imaging features, but there are also situations when these additional features do not help.
+36716365	0	4	Bias	Disease	
+36716365	448	462	brain diseases	Disease	MESH:D001927
+36716365	632	636	bias	Disease	
+36716365	724	743	Alzheimer's disease	Disease	MESH:D000544
+36716365	745	758	schizophrenia	Disease	MESH:D012559
+36716365	764	788	autism spectrum disorder	Disease	MESH:D000067877
+

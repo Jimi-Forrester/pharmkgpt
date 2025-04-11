@@ -1,0 +1,41 @@
+27050105|t|Brain in situ hybridization maps as a source for reverse-engineering transcriptional regulatory networks: Alzheimer's disease insights.
+27050105|a|Microarray data have been a valuable resource for identifying transcriptional regulatory relationships among genes. As an example, brain region-specific transcriptional regulatory events have the potential of providing etiological insights into Alzheimer Disease (AD). However, there is often a paucity of suitable brain-region specific expression data obtained via microarrays or other high throughput means. The Allen Brain Atlas in situ hybridization (ISH) data sets (Jones et al., 2009) represent a potentially valuable alternative source of high-throughput brain region-specific gene expression data for such purposes. In this study, Allen Brain Atlas mouse ISH data in the hippocampal fields were extracted, focusing on 508 genes relevant to neurodegeneration. Transcriptional regulatory networks were learned using three high-performing network inference algorithms. Only 17% of regulatory edges from a network reverse-engineered based on brain region-specific ISH data were also found in a network constructed upon gene expression correlations in mouse whole brain microarrays, thus showing the specificity of gene expression within brain sub-regions. Furthermore, the ISH data-based networks were used to identify instructive transcriptional regulatory relationships. Ncor2, Sp3 and Usf2 form a unique three-party regulatory motif, potentially affecting memory formation pathways. Nfe2l1, Egr1 and Usf2 emerge among regulators of genes involved in AD (e.g. Dhcr24, Aplp2, Tia1, Pdrx1, Vdac1, and Syn2). Further, Nfe2l1, Egr1 and Usf2 are sensitive to dietary factors and could be among links between dietary influences and genes in the AD etiology. Thus, this approach of harnessing brain region-specific ISH data represents a rare opportunity for gleaning unique etiological insights for diseases such as AD. 
+27050105	106	125	Alzheimer's disease	Disease	MESH:D000544
+27050105	381	398	Alzheimer Disease	Disease	MESH:D000544
+27050105	400	402	AD	Disease	MESH:D000544
+27050105	793	798	mouse	Species	10090
+27050105	884	901	neurodegeneration	Disease	MESH:D019636
+27050105	1191	1196	mouse	Species	10090
+27050105	1413	1418	Ncor2	Gene	20602
+27050105	1428	1432	Usf2	Gene	22282
+27050105	1526	1532	Nfe2l1	Gene	18023
+27050105	1534	1538	Egr1	Gene	13653
+27050105	1543	1547	Usf2	Gene	22282
+27050105	1593	1595	AD	Disease	MESH:D000544
+27050105	1602	1608	Dhcr24	Gene	74754
+27050105	1610	1615	Aplp2	Gene	11804
+27050105	1617	1621	Tia1	Gene	21841
+27050105	1630	1635	Vdac1	Gene	22333
+27050105	1641	1645	Syn2	Gene	20965
+27050105	1657	1663	Nfe2l1	Gene	18023
+27050105	1665	1669	Egr1	Gene	13653
+27050105	1674	1678	Usf2	Gene	22282
+27050105	1781	1783	AD	Disease	MESH:D000544
+27050105	1951	1953	AD	Disease	MESH:D000544
+27050105	Association	20965	22282
+27050105	Association	MESH:D000544	22282
+27050105	Association	22282	22333
+27050105	Association	21841	22282
+27050105	Association	MESH:D000544	13653
+27050105	Association	MESH:D000544	20965
+27050105	Association	11804	22282
+27050105	Association	13653	20965
+27050105	Association	MESH:D000544	22333
+27050105	Association	13653	22333
+27050105	Association	MESH:D000544	11804
+27050105	Association	MESH:D000544	21841
+27050105	Association	22282	74754
+27050105	Association	MESH:D000544	74754
+27050105	Association	18023	22333
+27050105	Association	MESH:D000544	18023
+

@@ -1,0 +1,30 @@
+22204418|t|Heterogeneity reduces sensitivity of cell death for TNF-stimuli.
+22204418|a|BACKGROUND: Apoptosis is a form of programmed cell death essential for the maintenance of homeostasis and the removal of potentially damaged cells in multicellular organisms. By binding its cognate membrane receptor, TNF receptor type 1 (TNF-R1), the proinflammatory cytokine Tumor Necrosis Factor (TNF) activates pro-apoptotic signaling via caspase activation, but at the same time also stimulates nuclear factor kappaB (NF-kappaB)-mediated survival pathways. Differential dose-response relationships of these two major TNF signaling pathways have been described experimentally and using mathematical modeling. However, the quantitative analysis of the complex interplay between pro- and anti-apoptotic signaling pathways is an open question as it is challenging for several reasons: the overall signaling network is complex, various time scales are present, and cells respond quantitatively and qualitatively in a heterogeneous manner. RESULTS: This study analyzes the complex interplay of the crosstalk of TNF-R1 induced pro- and anti-apoptotic signaling pathways based on an experimentally validated mathematical model. The mathematical model describes the temporal responses on both the single cell level as well as the level of a heterogeneous cell population, as observed in the respective quantitative experiments using TNF-R1 stimuli of different strengths and durations. Global sensitivity of the heterogeneous population was quantified by measuring the average gradient of time of death versus each population parameter. This global sensitivity analysis uncovers the concentrations of Caspase-8 and Caspase-3, and their respective inhibitors BAR and XIAP, as key elements for deciding the cell's fate. A simulated knockout of the NF-kappaB-mediated anti-apoptotic signaling reveals the importance of this pathway for delaying the time of death, reducing the death rate in the case of pulse stimulation and significantly increasing cell-to-cell variability. CONCLUSIONS: Cell ensemble modeling of a heterogeneous cell population including a global sensitivity analysis presented here allowed us to illuminate the role of the different elements and parameters on apoptotic signaling. The receptors serve to transmit the external stimulus; procaspases and their inhibitors control the switching from life to death, while NF-kappaB enhances the heterogeneity of the cell population. The global sensitivity analysis of the cell population model further revealed an unexpected impact of heterogeneity, i.e. the reduction of parametric sensitivity.
+22204418	42	47	death	Disease	MESH:D003643
+22204418	52	55	TNF	Gene	7124
+22204418	116	121	death	Disease	MESH:D003643
+22204418	282	301	TNF receptor type 1	Gene	7132
+22204418	303	309	TNF-R1	Gene	7132
+22204418	341	362	Tumor Necrosis Factor	Gene	7124
+22204418	364	367	TNF	Gene	7124
+22204418	487	496	NF-kappaB	Gene	4790
+22204418	586	589	TNF	Gene	7124
+22204418	1074	1080	TNF-R1	Gene	7132
+22204418	1393	1399	TNF-R1	Gene	7132
+22204418	1557	1562	death	Disease	MESH:D003643
+22204418	1661	1670	Caspase-8	Gene	841
+22204418	1675	1684	Caspase-3	Gene	836
+22204418	1718	1721	BAR	Gene	9971
+22204418	1726	1730	XIAP	Gene	331
+22204418	1806	1815	NF-kappaB	Gene	4790
+22204418	1914	1919	death	Disease	MESH:D003643
+22204418	1934	1939	death	Disease	MESH:D003643
+22204418	2381	2386	death	Disease	MESH:D003643
+22204418	2394	2403	NF-kappaB	Gene	4790
+22204418	Negative_Correlation	836	9971
+22204418	Association	MESH:D003643	7124
+22204418	Positive_Correlation	4790	7124
+22204418	Association	MESH:D003643	4790
+22204418	Bind	7124	7132
+22204418	Negative_Correlation	331	836
+

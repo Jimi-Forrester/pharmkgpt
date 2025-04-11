@@ -1,0 +1,21 @@
+35453136|t|An EEG-based systematic explainable detection framework for probing and localizing abnormal patterns in Alzheimer's disease.
+35453136|a|Objective.Electroencephalography (EEG) is a potential source of downstream biomarkers for the early diagnosis of Alzheimer's disease (AD) due to its low-cost, noninvasive, and portable advantages. Accurately detecting AD-induced patterns from EEG signals is essential for understanding AD-related neurodegeneration at the EEG level and further evaluating the risk of AD at an early stage. This paper proposes a deep learning-based, functional explanatory framework that probes AD abnormalities from short-sequence EEG data.Approach.The framework is a learning-based automatic detection system consisting of three encoding pathways that analyze EEG signals in frequency, complexity, and synchronous domains. We integrated the proposed EEG descriptors with the neural network components into one learning system to detect AD patterns. A transfer learning-based model was used to learn the deep representations, and a modified generative adversarial module was attached to the model to overcome feature sparsity. Furthermore, we utilized activation mapping to obtain the AD-related neurodegeneration at brain rhythm, dynamic complexity, and functional connectivity levels.Main results.The proposed framework can accurately (100%) detect AD patterns based on our raw EEG recordings without delicate preprocessing. Meanwhile, the system indicates that (a) the power of different brain rhythms exhibits abnormal in the frontal lobes of AD patients, and such abnormality spreads to central lobes in the alpha and beta rhythms, (b) the difference in nonlinear complexity varies with the temporal scales, and (c) all the connections of pair-wise brain regions except bilateral temporal connectivity are weak in AD patterns. The proposed method outperforms other related methods in detection performance.Significance.We provide a new method for revealing abnormalities and corresponding localizations in different feature domains of EEG from AD patients. This study is a significant foundation for our future work on identifying individuals at high risk of AD at an early stage.
+35453136	104	123	Alzheimer's disease	Disease	MESH:D000544
+35453136	238	257	Alzheimer's disease	Disease	MESH:D000544
+35453136	259	261	AD	Disease	MESH:D000544
+35453136	343	345	AD	Disease	MESH:D000544
+35453136	411	413	AD	Disease	MESH:D000544
+35453136	422	439	neurodegeneration	Disease	MESH:D019636
+35453136	492	494	AD	Disease	MESH:D000544
+35453136	602	618	AD abnormalities	Disease	MESH:D000544
+35453136	945	947	AD	Disease	MESH:D000544
+35453136	1193	1195	AD	Disease	MESH:D000544
+35453136	1204	1221	neurodegeneration	Disease	MESH:D019636
+35453136	1359	1361	AD	Disease	MESH:D000544
+35453136	1555	1557	AD	Disease	MESH:D000544
+35453136	1558	1566	patients	Species	9606
+35453136	1827	1829	AD	Disease	MESH:D000544
+35453136	2057	2059	AD	Disease	MESH:D000544
+35453136	2060	2068	patients	Species	9606
+35453136	2172	2174	AD	Disease	MESH:D000544
+

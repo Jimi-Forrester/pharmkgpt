@@ -1,0 +1,37 @@
+38645989|t|Network Pharmacology and Molecular Docking Identify the Potential Mechanism and Therapeutic Role of Scutellaria baicalensis in Alzheimer's Disease.
+38645989|a|Aim: Scutellaria baicalensis, a traditional Chinese medicinal herb renowned for its anti-inflammatory, antioxidant, and anti-tumor properties, has shown promise in alleviating cognitive impairment associated with Alzheimer's disease. Nonetheless, the exact neuroprotective mechanism of Scutellaria baicalensis against Alzheimer's disease remains unclear. In this study, network pharmacology was employed to explore the possible mechanisms by which Scutellaria baicalensis protects against Alzheimer's disease. Methods: The active compounds of Scutellaria baicalensis were retrieved from the TCMSP database, and their corresponding targets were identified. Alzheimer's disease-related targets were obtained through searches in the GeneCards and OMIM databases. Cytoscape 3.6.0 software was utilized to construct a regulatory network illustrating the "active ingredient-target" relationships. Subsequently, the target genes affected by Scutellaria baicalensis in the context of Alzheimer's disease were input into the String database to establish a PPI network. GO analysis and KEGG analysis were conducted using the DAVID database to predict the potential pathways associated with these key targets. Following this, the capacity of these active ingredients to bind to core targets was confirmed through molecular docking. In vitro experiments were then carried out for further validation. Results: A total of 36 active ingredients from Scutellaria baicalensis were screened out, which corresponded to 365 targets. Molecular docking results demonstrated the robust binding abilities of Baicalein, Wogonin, and 5,2'-Dihydroxy-6,7,8-trimethoxyflavone to key target proteins (SRC, PIK3R1, and STAT3). In vitro experiments showed that the active components of Scutellaria baicalensis can inhibit STAT3 expression by downregulating the PIK3R1/SRC pathway in Neuro 2A cells. Conclusion: In summary, these findings collectively suggest that Scutellaria baicalensis holds promise as a viable treatment option for Alzheimer's disease.
+38645989	100	123	Scutellaria baicalensis	Species	65409
+38645989	127	146	Alzheimer's Disease	Disease	MESH:D000544
+38645989	237	249	inflammatory	Disease	MESH:D007249
+38645989	273	278	tumor	Disease	MESH:D009369
+38645989	324	344	cognitive impairment	Disease	MESH:D003072
+38645989	361	380	Alzheimer's disease	Disease	MESH:D000544
+38645989	434	457	Scutellaria baicalensis	Species	65409
+38645989	466	485	Alzheimer's disease	Disease	MESH:D000544
+38645989	596	619	Scutellaria baicalensis	Species	65409
+38645989	637	656	Alzheimer's disease	Disease	MESH:D000544
+38645989	691	714	Scutellaria baicalensis	Species	65409
+38645989	804	823	Alzheimer's disease	Disease	MESH:D000544
+38645989	1082	1105	Scutellaria baicalensis	Species	65409
+38645989	1124	1143	Alzheimer's disease	Disease	MESH:D000544
+38645989	1583	1606	Scutellaria baicalensis	Species	65409
+38645989	1732	1741	Baicalein	Chemical	MESH:C006680
+38645989	1743	1750	Wogonin	Chemical	MESH:C085514
+38645989	1756	1794	5,2'-Dihydroxy-6,7,8-trimethoxyflavone	Chemical	-
+38645989	1819	1822	SRC	Gene	20779
+38645989	1824	1830	PIK3R1	Gene	18708
+38645989	1836	1841	STAT3	Gene	20848
+38645989	1902	1925	Scutellaria baicalensis	Species	65409
+38645989	1938	1943	STAT3	Gene	20848
+38645989	1977	1983	PIK3R1	Gene	18708
+38645989	1984	1987	SRC	Gene	20779
+38645989	1999	2007	Neuro 2A	CellLine	CVCL:0470
+38645989	2080	2103	Scutellaria baicalensis	Species	65409
+38645989	2151	2170	Alzheimer's disease	Disease	MESH:D000544
+38645989	Bind	MESH:C085514	20848
+38645989	Bind	MESH:C006680	18708
+38645989	Bind	MESH:C085514	18708
+38645989	Association	MESH:C006680	20779
+38645989	Association	MESH:C006680	20848
+38645989	Association	MESH:C085514	20779
+

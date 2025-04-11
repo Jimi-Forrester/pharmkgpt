@@ -1,0 +1,74 @@
+28485728|t|Adenosine A2A receptor inactivation alleviates early-onset cognitive dysfunction after traumatic brain injury involving an inhibition of tau hyperphosphorylation.
+28485728|a|Tau is a microtubule-associated protein, and the oligomeric and hyperphosphorylated forms of tau are increased significantly after neurotrauma and considered important factors in mediating cognitive dysfunction. Blockade of adenosine A2A receptors, either by caffeine or gene knockout (KO), alleviates cognitive dysfunction after traumatic brain injury (TBI). We postulated that A2AR activation exacerbates cognitive impairment via promoting tau hyperphosphorylation. Using a mouse model of moderate controlled cortical impact, we showed that TBI induced hyperphosphorylated tau (p-tau) in the hippocampal dentate gyrus and spatial memory deficiency in the Morris water maze test at 7 days and 4 weeks after TBI. Importantly, pharmacological blockade (A2AR antagonist ZM241385 or non-selective adenosine receptor antagonist caffeine) or genetic inactivation of A2ARs reduced the level of tau phosphorylation at Ser404 and alleviated spatial memory dysfunction. The A2AR control of p-tau is further supported by the observations that a KO of A2AR decreased the activity of the tau phosphorylation kinases, glycogen synthase kinase-3beta (GSK-3beta) and protein kinase A (PKA) after TBI, and by that CGS21680 (A2AR agonist) exacerbated okadaic acid-induced tau hyperphosphorylation in cultured primary hippocampal neurons. Lastly, CGS21680-induced neuronal tau hyperphosphorylation and axonal injury were effectively alleviated by individual treatments with ZM241385 (A2AR antagonist), H89 (PKA antagonist) and SB216763 (GSK-3beta antagonist), or by the combined treatment with H89 and SB216763. Our findings suggest a novel mechanism whereby A2AR activation triggers cognitive dysfunction by increasing the phosphorylation level of tau protein after TBI and suggest a promising therapeutic and prophylactic strategy by targeting aberrant A2AR signaling via tau phosphorylation.
+28485728	13	22	 receptor	Gene	11540
+28485728	10	13	A2A	DNAMutation	tmVar:c|SUB|A|2|A;HGVS:c.2A>A;VariantGroup:0;OriginalGene:54141;CorrespondingGene:10615;CorrespondingSpecies:10090
+28485728	59	80	cognitive dysfunction	Disease	MESH:D003072
+28485728	87	109	traumatic brain injury	Disease	MESH:D000070642
+28485728	172	202	microtubule-associated protein	Gene	54141
+28485728	294	305	neurotrauma	Disease	
+28485728	352	373	cognitive dysfunction	Disease	MESH:D003072
+28485728	397	400	A2A	DNAMutation	tmVar:c|SUB|A|2|A;HGVS:c.2A>A;VariantGroup:0;OriginalGene:54141;CorrespondingGene:10615;CorrespondingSpecies:10090
+28485728	422	430	caffeine	Chemical	MESH:D002110
+28485728	465	486	cognitive dysfunction	Disease	MESH:D003072
+28485728	493	515	traumatic brain injury	Disease	MESH:D000070642
+28485728	517	520	TBI	Disease	MESH:D000070642
+28485728	542	546	A2AR	Gene	11540
+28485728	570	590	cognitive impairment	Disease	MESH:D003072
+28485728	639	644	mouse	Species	10090
+28485728	706	709	TBI	Disease	MESH:D000070642
+28485728	795	812	memory deficiency	Disease	MESH:D008569
+28485728	871	874	TBI	Disease	MESH:D000070642
+28485728	915	919	A2AR	Gene	11540
+28485728	931	939	ZM241385	Chemical	MESH:C097270
+28485728	987	995	caffeine	Chemical	MESH:D002110
+28485728	1104	1122	memory dysfunction	Disease	MESH:D008569
+28485728	1128	1132	A2AR	Gene	11540
+28485728	1204	1208	A2AR	Gene	11540
+28485728	1268	1298	glycogen synthase kinase-3beta	Gene	56637
+28485728	1300	1309	GSK-3beta	Gene	56637
+28485728	1344	1347	TBI	Disease	MESH:D000070642
+28485728	1361	1369	CGS21680	Chemical	MESH:C061282
+28485728	1371	1375	A2AR	Gene	11540
+28485728	1397	1409	okadaic acid	Chemical	MESH:D019319
+28485728	1492	1500	CGS21680	Chemical	MESH:C061282
+28485728	1547	1560	axonal injury	Disease	MESH:D001480
+28485728	1619	1627	ZM241385	Chemical	MESH:C097270
+28485728	1629	1633	A2AR	Gene	11540
+28485728	1647	1650	H89	Chemical	MESH:C063509
+28485728	1672	1680	SB216763	Chemical	MESH:C417521
+28485728	1682	1691	GSK-3beta	Gene	56637
+28485728	1739	1742	H89	Chemical	MESH:C063509
+28485728	1747	1755	SB216763	Chemical	MESH:C417521
+28485728	1804	1808	A2AR	Gene	11540
+28485728	1829	1850	cognitive dysfunction	Disease	MESH:D003072
+28485728	1912	1915	TBI	Disease	MESH:D000070642
+28485728	2000	2004	A2AR	Gene	11540
+28485728	Positive_Correlation	11540	56637
+28485728	Association	MESH:D003072	11540
+28485728	Negative_Correlation	MESH:C061282	MESH:C417521
+28485728	Association	HGVS:c.2A>A;CorrespondingGene:10615	MESH:D000070642
+28485728	Negative_Correlation	MESH:D002110	HGVS:c.2A>A;CorrespondingGene:10615
+28485728	Positive_Correlation	MESH:C061282	11540
+28485728	Association	MESH:D000070642	56637
+28485728	Negative_Correlation	MESH:D002110	MESH:D003072
+28485728	Negative_Correlation	MESH:C417521	56637
+28485728	Association	MESH:D001480	56637
+28485728	Negative_Correlation	MESH:C097270	11540
+28485728	Cotreatment	MESH:C063509	MESH:C417521
+28485728	Association	HGVS:c.2A>A;CorrespondingGene:10615	MESH:D003072
+28485728	Association	MESH:D000070642	11540
+28485728	Association	MESH:D008569	11540
+28485728	Negative_Correlation	MESH:C417521	MESH:D001480
+28485728	Negative_Correlation	MESH:C061282	MESH:C063509
+28485728	Positive_Correlation	MESH:C061282	MESH:D019319
+28485728	Negative_Correlation	MESH:C097270	MESH:D001480
+28485728	Negative_Correlation	MESH:C097270	MESH:D008569
+28485728	Negative_Correlation	MESH:D002110	MESH:D000070642
+28485728	Association	MESH:D001480	11540
+28485728	Negative_Correlation	MESH:C063509	MESH:D001480
+28485728	Negative_Correlation	MESH:C061282	MESH:C097270
+28485728	Association	MESH:D019319	11540
+28485728	Positive_Correlation	MESH:C061282	MESH:D001480
+28485728	Association	MESH:D000070642	10615
+28485728	Association	MESH:D003072	10615
+

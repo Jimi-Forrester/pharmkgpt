@@ -1,0 +1,62 @@
+23720291|t|Porphyrin and heme metabolism and the porphyrias.
+23720291|a|Porphyrins and metalloporphyrins are the key pigments of life on earth as we know it, because they include chlorophyll (a magnesium-containing metalloporphyrin) and heme (iron protoporphyrin). In eukaryotes, porphyrins and heme are synthesized by a multistep pathway that involves eight enzymes. The first and rate-controlling step is the formation of delta-aminolevulinic acid (ALA) from glycine plus succinyl CoA, catalyzed by ALA synthase. Intermediate steps occur in the cytoplasm, with formation of the monopyrrole porphobilinogen and the tetrapyrroles hydroxymethylbilane and a series of porphyrinogens, which are serially decarboxylated. Heme is utilized chiefly for the formation of hemoglobin in erythrocytes, myoglobin in muscle cells, cytochromes P-450 and mitochondrial cytochromes, and other hemoproteins in hepatocytes. The rate-controlling step of heme breakdown is catalyzed by heme oxygenase (HMOX), of which there are two isoforms, called HMOX1 and HMOX2. HMOX breaks down heme to form biliverdin, carbon monoxide, and iron. The porphyrias are a group of disorders, mainly inherited, in which there are defects in normal porphyrin and heme synthesis. The cardinal clinical features are cutaneous (due to the skin-damaging effects of excess deposited porphyrins) or neurovisceral attacks of pain, sometimes with weakness, delirium, seizures, and the like (probably due mainly to neurotoxic effects of ALA). The treatment of choice for the acute hepatic porphyrias is intravenous heme therapy, which repletes a critical regulatory heme pool in hepatocytes and leads to downregulation of hepatic ALA synthase, which is a biochemical hallmark of all forms of acute porphyria in relapse.
+23720291	14	18	heme	Chemical	MESH:D006418
+23720291	38	48	porphyrias	Disease	MESH:D011164
+23720291	50	60	Porphyrins	Chemical	MESH:D011166
+23720291	65	82	metalloporphyrins	Chemical	MESH:D008665
+23720291	157	168	chlorophyll	Chemical	MESH:D002734
+23720291	172	181	magnesium	Chemical	MESH:D008274
+23720291	193	209	metalloporphyrin	Chemical	MESH:D008665
+23720291	215	219	heme	Chemical	MESH:D006418
+23720291	221	240	iron protoporphyrin	Chemical	-
+23720291	258	268	porphyrins	Chemical	MESH:D011166
+23720291	273	277	heme	Chemical	MESH:D006418
+23720291	402	427	delta-aminolevulinic acid	Chemical	MESH:D000622
+23720291	429	432	ALA	Chemical	MESH:D000622
+23720291	439	446	glycine	Chemical	MESH:D005998
+23720291	452	464	succinyl CoA	Chemical	MESH:C012046
+23720291	558	569	monopyrrole	Chemical	-
+23720291	570	585	porphobilinogen	Chemical	MESH:D011162
+23720291	594	607	tetrapyrroles	Chemical	MESH:D045725
+23720291	608	627	hydroxymethylbilane	Chemical	MESH:C024393
+23720291	644	658	porphyrinogens	Chemical	MESH:D011165
+23720291	695	699	Heme	Chemical	MESH:D006418
+23720291	769	778	myoglobin	Gene	4151
+23720291	913	917	heme	Chemical	MESH:D006418
+23720291	1007	1012	HMOX1	Gene	3162
+23720291	1017	1022	HMOX2	Gene	3163
+23720291	1041	1045	heme	Chemical	MESH:D006418
+23720291	1054	1064	biliverdin	Chemical	MESH:D001664
+23720291	1066	1081	carbon monoxide	Chemical	MESH:D002248
+23720291	1087	1091	iron	Chemical	MESH:D007501
+23720291	1097	1107	porphyrias	Disease	MESH:D011164
+23720291	1189	1198	porphyrin	Chemical	MESH:D011166
+23720291	1203	1207	heme	Chemical	MESH:D006418
+23720291	1318	1328	porphyrins	Chemical	MESH:D011166
+23720291	1358	1362	pain	Disease	MESH:D010146
+23720291	1379	1387	weakness	Disease	MESH:D018908
+23720291	1389	1397	delirium	Disease	MESH:D003693
+23720291	1399	1407	seizures	Disease	MESH:D012640
+23720291	1446	1456	neurotoxic	Disease	MESH:D020258
+23720291	1468	1471	ALA	Chemical	MESH:D000622
+23720291	1512	1530	hepatic porphyrias	Disease	MESH:D017094
+23720291	1546	1550	heme	Chemical	MESH:D006418
+23720291	1597	1601	heme	Chemical	MESH:D006418
+23720291	1723	1738	acute porphyria	Disease	MESH:D017118
+23720291	Positive_Correlation	MESH:C012046	MESH:D000622
+23720291	Positive_Correlation	MESH:D001664	MESH:D006418
+23720291	Positive_Correlation	MESH:D006418	MESH:D017094
+23720291	Association	MESH:D000622	MESH:D006418
+23720291	Negative_Correlation	MESH:D006418	3162
+23720291	Association	MESH:D011166	MESH:D011164
+23720291	Negative_Correlation	MESH:D006418	3163
+23720291	Positive_Correlation	MESH:D000622	MESH:D020258
+23720291	Positive_Correlation	MESH:D000622	MESH:D003693
+23720291	Positive_Correlation	MESH:D000622	MESH:D010146
+23720291	Association	MESH:D006418	MESH:D007501
+23720291	Positive_Correlation	MESH:D000622	MESH:D012640
+23720291	Positive_Correlation	MESH:D000622	MESH:D018908
+23720291	Positive_Correlation	MESH:D006418	MESH:D017118
+23720291	Association	MESH:D006418	MESH:D011164
+23720291	Association	MESH:D002248	MESH:D006418
+

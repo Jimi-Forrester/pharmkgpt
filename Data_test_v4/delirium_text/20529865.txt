@@ -1,0 +1,43 @@
+20529865|t|Uncoating of human immunodeficiency virus type 1 requires prolyl isomerase Pin1.
+20529865|a|The process by which the human immunodeficiency virus type 1 (HIV-1) conical core dissociates is called uncoating, but not much is known about this process. Here, we show that the uncoating process requires the interaction of the capsid (CA) protein with the peptidyl-prolyl isomerase Pin1 that specifically recognizes the phosphorylated serine/threonine residue followed by proline. We found that the HIV-1 core is composed of some isoforms of the CA protein with different isoelectric points, and one isoform is preferentially phosphorylated in the Ser(16)-Pro(17) motif. The mutant virus S16A/P17A shows a severely attenuated HIV-1 replication and an impaired reverse transcription. The S16A/P17A change increased the amount of particulate CA cores in the cytosol of target cells and correlated with the restriction of HIV-1 infection. Glutathione S-transferase pulldown assays demonstrated a direct interaction between Pin1 and the HIV-1 core via the Ser(16)-Pro(17) motif. Suppression of Pin1 expression by RNA interference in a target cell results in an attenuated HIV-1 replication and increases the amount of particulate CA cores in the cytosol of target cells. Furthermore, heat-inactivated, inhibitor-treated, or W34A/K63A Pin1 causes an attenuated in vitro uncoating of the HIV-1 core. The Pin1-dependent uncoating is inhibited by antisera raised against a CA peptide phosphorylated at Ser(16) or treatment of the HIV-1 core with alkaline phosphatase. These findings provide insights into this obscure uncoating process in the HIV-1 life cycle and a new cellular target for HIV-1 drug development.
+20529865	13	48	human immunodeficiency virus type 1	Species	11676
+20529865	58	74	prolyl isomerase	Gene	
+20529865	75	79	Pin1	Gene	5300
+20529865	106	141	human immunodeficiency virus type 1	Species	11676
+20529865	143	148	HIV-1	Species	11676
+20529865	340	348	peptidyl	Gene	
+20529865	349	365	prolyl isomerase	Gene	
+20529865	366	370	Pin1	Gene	5300
+20529865	419	435	serine/threonine	ProteinMutation	tmVar:p|SUB|S||T;VariantGroup:3;CorrespondingGene:5300;CorrespondingSpecies:9606
+20529865	456	463	proline	Chemical	MESH:D011392
+20529865	483	488	HIV-1	Species	11676
+20529865	632	643	Ser(16)-Pro	ProteinMutation	tmVar:p|SUB|S|16|P;HGVS:p.S16P;VariantGroup:0;CorrespondingGene:5300;CorrespondingSpecies:9606
+20529865	672	676	S16A	ProteinMutation	tmVar:p|SUB|S|16|A;HGVS:p.S16A;VariantGroup:0;CorrespondingGene:5300;CorrespondingSpecies:9606
+20529865	677	681	P17A	ProteinMutation	tmVar:p|SUB|P|17|A;HGVS:p.P17A;VariantGroup:1;CorrespondingGene:373156;CorrespondingSpecies:9606
+20529865	710	715	HIV-1	Species	11676
+20529865	771	775	S16A	ProteinMutation	tmVar:p|SUB|S|16|A;HGVS:p.S16A;VariantGroup:0;CorrespondingGene:5300;CorrespondingSpecies:9606
+20529865	776	780	P17A	ProteinMutation	tmVar:p|SUB|P|17|A;HGVS:p.P17A;VariantGroup:1;CorrespondingGene:373156;CorrespondingSpecies:9606
+20529865	903	918	HIV-1 infection	Disease	MESH:D015490
+20529865	920	945	Glutathione S-transferase	Gene	373156
+20529865	1004	1008	Pin1	Gene	5300
+20529865	1017	1022	HIV-1	Species	11676
+20529865	1036	1047	Ser(16)-Pro	ProteinMutation	tmVar:p|SUB|S|16|P;HGVS:p.S16P;VariantGroup:0;CorrespondingGene:5300;CorrespondingSpecies:9606
+20529865	1074	1078	Pin1	Gene	5300
+20529865	1152	1157	HIV-1	Species	11676
+20529865	1304	1308	W34A	ProteinMutation	tmVar:p|SUB|W|34|A;HGVS:p.W34A;VariantGroup:2;CorrespondingGene:5300;CorrespondingSpecies:9606
+20529865	1309	1313	K63A	ProteinMutation	tmVar:p|SUB|K|63|A;HGVS:p.K63A;VariantGroup:4;CorrespondingGene:5300;CorrespondingSpecies:9606
+20529865	1314	1318	Pin1	Gene	5300
+20529865	1366	1371	HIV-1	Species	11676
+20529865	1382	1386	Pin1	Gene	5300
+20529865	1506	1511	HIV-1	Species	11676
+20529865	1619	1624	HIV-1	Species	11676
+20529865	1666	1671	HIV-1	Species	11676
+20529865	Association	MESH:D015490	HGVS:p.P17A;CorrespondingGene:373156
+20529865	Association	HGVS:p.K63A;CorrespondingGene:5300	HGVS:p.W34A;CorrespondingGene:5300
+20529865	Association	MESH:D015490	HGVS:p.S16A;CorrespondingGene:5300
+20529865	Association	MESH:D015490	HGVS:p.S16P;CorrespondingGene:5300
+20529865	Negative_Correlation	MESH:D015490	CorrespondingGene:5300;CorrespondingSpecies:9606;VariantGroup:3;tmVar:p
+20529865	Association	MESH:D011392	5300
+20529865	Association	MESH:D015490	373156
+20529865	Association	MESH:D015490	5300
+

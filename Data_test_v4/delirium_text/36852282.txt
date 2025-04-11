@@ -1,0 +1,9 @@
+36852282|t|Using biological constraints to improve prediction in precision oncology.
+36852282|a|Many gene signatures have been developed by applying machine learning (ML) on omics profiles, however, their clinical utility is often hindered by limited interpretability and unstable performance. Here, we show the importance of embedding prior biological knowledge in the decision rules yielded by ML approaches to build robust classifiers. We tested this by applying different ML algorithms on gene expression data to predict three difficult cancer phenotypes: bladder cancer progression to muscle-invasive disease, response to neoadjuvant chemotherapy in triple-negative breast cancer, and prostate cancer metastatic progression. We developed two sets of classifiers: mechanistic, by restricting the training to features capturing specific biological mechanisms; and agnostic, in which the training did not use any a priori biological information. Mechanistic models had a similar or better testing performance than their agnostic counterparts, with enhanced interpretability. Our findings support the use of biological constraints to develop robust gene signatures with high translational potential.
+36852282	519	525	cancer	Disease	MESH:D009369
+36852282	538	552	bladder cancer	Disease	MESH:D001749
+36852282	568	574	muscle	Disease	MESH:D019042
+36852282	575	583	invasive	Disease	MESH:D009361
+36852282	649	662	breast cancer	Disease	MESH:D001943
+36852282	668	683	prostate cancer	Disease	MESH:D011471
+

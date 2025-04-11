@@ -1,0 +1,20 @@
+33071930|t|Medical Informatics Platform (MIP): A Pilot Study Across Clinical Italian Cohorts.
+33071930|a|Introduction: With the shift of research focus to personalized medicine in Alzheimer's Dementia (AD), there is an urgent need for tools that are capable of quantifying a patient's risk using diagnostic biomarkers. The Medical Informatics Platform (MIP) is a distributed e-infrastructure federating large amounts of data coupled with machine-learning (ML) algorithms and statistical models to define the biological signature of the disease. The present study assessed (i) the accuracy of two ML algorithms, i.e., supervised Gradient Boosting (GB) and semi-unsupervised 3C strategy (Categorize, Cluster, Classify-CCC) implemented in the MIP and (ii) their contribution over the standard diagnostic workup. Methods: We examined individuals coming from the MIP installed across 3 Italian memory clinics, including subjects with Normal Cognition (CN, n = 432), Mild Cognitive Impairment (MCI, n = 456), and AD (n = 451). The GB classifier was applied to best discriminate the three diagnostic classes in 1,339 subjects, and the CCC strategy was used to refine the classical disease categories. Four dementia experts provided their diagnostic confidence (DC) of MCI conversion on an independent cohort of 38 patients. DC was based on clinical, neuropsychological, CSF, and structural MRI information and again with addition of the outcome from the MIP tools. Results: The GB algorithm provided a classification accuracy of 85% in a nested 10-fold cross-validation for CN vs. MCI vs. AD discrimination. Accuracy increased to 95% in the holdout validation, with the omission of each Italian clinical cohort out in turn. CCC identified five homogeneous clusters of subjects and 36 biomarkers that represented the disease fingerprint. In the DC assessment, CCC defined six clusters in the MCI population used to train the algorithm and 29 biomarkers to improve patients staging. GB and CCC showed a significant impact, evaluated as +5.99% of increment on physicians' DC. The influence of MIP on DC was rated from "slight" to "significant" in 80% of the cases. Discussion: GB provided fair results in classification of CN, MCI, and AD. CCC identified homogeneous and promising classes of subjects via its semi-unsupervised approach. We measured the effect of the MIP on the physician's DC. Our results pave the way for the establishment of a new paradigm for ML discrimination of patients who will or will not convert to AD, a clinical priority for neurology.
+33071930	158	178	Alzheimer's Dementia	Disease	MESH:D000544
+33071930	180	182	AD	Disease	MESH:D000544
+33071930	253	260	patient	Species	9606
+33071930	944	964	Cognitive Impairment	Disease	MESH:D003072
+33071930	966	969	MCI	Disease	MESH:D060825
+33071930	985	987	AD	Disease	MESH:D000544
+33071930	1177	1185	dementia	Disease	MESH:D003704
+33071930	1239	1242	MCI	Disease	MESH:D060825
+33071930	1285	1293	patients	Species	9606
+33071930	1552	1555	MCI	Disease	MESH:D060825
+33071930	1560	1562	AD	Disease	MESH:D000544
+33071930	1862	1865	MCI	Disease	MESH:D060825
+33071930	1934	1942	patients	Species	9606
+33071930	2195	2198	MCI	Disease	MESH:D060825
+33071930	2204	2206	AD	Disease	MESH:D000544
+33071930	2452	2460	patients	Species	9606
+33071930	2493	2495	AD	Disease	MESH:D000544
+

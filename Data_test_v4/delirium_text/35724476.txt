@@ -1,0 +1,32 @@
+35724476|t|Articulating target-mining techniques to disinter Alzheimer's specific targets for drug repurposing.
+35724476|a|BACKGROUND AND OBJECTIVES: Alzheimer's Disease (AD), an extremely progressive neurodegenerative disorder is an amalgamation of numerous intricate pathological networks. This century old disease is still an unmet medical condition owing to the modest efficacy of existing therapeutic agents in antagonizing the multi-targeted pathological pathways underlying AD. Given the paucity in AD specific drugs, fabricating comprehensive research strategies to envision disease specific targets to channelize and expedite drug discovery are mandated. However, the dwindling approval rates and stringent regulatory constraints concerning the approval of a new chemical entity is daunting the pharmaceutical industries from effectuating de novo research. To bridge the existing gaps in AD drug research, a promising contemporary way out could be drug repurposing. This drug repurposing investigation is intended to envisage AD specific targets and create drug libraries pertinent to the shortlisted targets via a series of avant-garde bioinformatics and computational strategies. METHODS: Transcriptomic analysis of three AD specific datasets viz., GSE122063, GSE15222 and GSE5281 revealed significant Differentially Expressed Genes (DEGs) and subsequent Protein-Protein Interactions (PPI) network analysis captured crucial AD targets. Later, homology model was constructed through I-TASSER for a shortlisted target protein which lacked X-ray crystallographic structure and the built protein model was validated by molecular dynamic simulations. Further, drug library was created for the shortlisted target based on structural and side effect similarity with respective standard drugs. Finally, molecular docking, binding energy calculations and molecular dynamics studies were carried out to unravel the interactions exhibited by drugs from the created library with amino acids in active binding pocket of RGS4. RESULTS: SST and RGS4 were shortlisted as potentially significant AD specific targets, however, the less explored target RGS4 was considered for further sequential analysis. Homology model constructed for RGS4 displayed best quality when validated through Ramachandran plot and ERRAT plot. Subsequent docking and molecular dynamics studies showcased substantial affinity demonstrated by three drugs viz., Ziprasidone, Melfoquine and Metaxalone from the created drug libraries, towards RGS4. CONCLUSION: This virtual analysis forecasted the repurposable potential of Ziprasidone, Melfoquine and Metaxalone against AD based on their affinity towards RGS4, a key AD-specific target.
+35724476	50	61	Alzheimer's	Disease	MESH:D000544
+35724476	128	147	Alzheimer's Disease	Disease	MESH:D000544
+35724476	149	151	AD	Disease	MESH:D000544
+35724476	179	205	neurodegenerative disorder	Disease	MESH:D019636
+35724476	459	461	AD	Disease	MESH:D000544
+35724476	484	486	AD	Disease	MESH:D000544
+35724476	875	877	AD	Disease	MESH:D000544
+35724476	1013	1015	AD	Disease	MESH:D000544
+35724476	1211	1213	AD	Disease	MESH:D000544
+35724476	1413	1415	AD	Disease	MESH:D000544
+35724476	1996	2000	RGS4	Gene	5999
+35724476	2011	2014	SST	Gene	6750
+35724476	2019	2023	RGS4	Gene	5999
+35724476	2068	2070	AD	Disease	MESH:D000544
+35724476	2123	2127	RGS4	Gene	5999
+35724476	2207	2211	RGS4	Gene	5999
+35724476	2407	2418	Ziprasidone	Chemical	MESH:C092292
+35724476	2420	2430	Melfoquine	Chemical	-
+35724476	2435	2445	Metaxalone	Chemical	MESH:C011301
+35724476	2487	2491	RGS4	Gene	5999
+35724476	2568	2579	Ziprasidone	Chemical	MESH:C092292
+35724476	2581	2591	Melfoquine	Chemical	-
+35724476	2596	2606	Metaxalone	Chemical	MESH:C011301
+35724476	2615	2617	AD	Disease	MESH:D000544
+35724476	2650	2654	RGS4	Gene	5999
+35724476	2662	2664	AD	Disease	MESH:D000544
+35724476	Negative_Correlation	MESH:C092292	MESH:D000544
+35724476	Association	MESH:D000544	6750
+35724476	Negative_Correlation	MESH:C011301	MESH:D000544
+

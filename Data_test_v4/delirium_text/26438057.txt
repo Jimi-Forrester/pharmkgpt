@@ -1,0 +1,67 @@
+26438057|t|Core domain mutant Y220C of p53 protein has a key role in copper homeostasis in case of free fatty acids overload.
+26438057|a|Nonalcoholic fatty liver disease (NAFLD) is a pathology that includes a wide variety of clinical conditions ranging from simple steatosis to end-stage liver diseases. Despite the huge amount of researches, the molecular basis of NAFLD are still not fully understood. Recently, it was suggested a role for p53 in NAFLD pathogenesis. Among its targets there is Synthesis of Cytochrome c Oxidase 2 (SCO2), a copper chaperone, involved in both aerobic respiration and metal cellular excretion. Copper seems to play a role in NAFLD. It was demonstrated a low hepatic copper content in NAFLD patients, which correlates with metabolic syndrome parameters. Copper homeostasis deregulation, in fact, seems to be related to lipid metabolism alteration and insulin resistance. Here we provide evidence on the role of p53 in the modulation of copper homeostasis, in an experimental model of NAFLD. We used two different hepatoma cell lines, HepG2 and Huh 7.5.1, characterized by the presence of wt p53 and its Y220C mutant, respectively, treated with a free fatty acids (FFAs) solution. Interestingly, p53 activation correlated with the intracellular copper level maintenance. We demonstrated that, in hepatoma cell lines, core domain mutant Y220C of p53 affects the modulation of SCO2 and Copper transporter 1 (CTR1), influencing, in this way, intracellular copper homeostasis in presence of FFAs accumulation, and that the 220 residue of the protein is crucial for such control. The role of p53 we highlighted may have deep implications in clinical conditions where copper homeostasis is deregulated. 
+26438057	19	24	Y220C	ProteinMutation	tmVar:p|SUB|Y|220|C;HGVS:p.Y220C;VariantGroup:0;CorrespondingGene:7157;RS#:121912666;CorrespondingSpecies:9606;CA#:315
+26438057	28	31	p53	Gene	7157
+26438057	58	64	copper	Chemical	MESH:D003300
+26438057	88	104	free fatty acids	Chemical	MESH:D005230
+26438057	115	147	Nonalcoholic fatty liver disease	Disease	MESH:D065626
+26438057	149	154	NAFLD	Disease	MESH:D065626
+26438057	243	252	steatosis	Disease	MESH:D005234
+26438057	256	280	end-stage liver diseases	Disease	MESH:D058625
+26438057	344	349	NAFLD	Disease	MESH:D065626
+26438057	420	423	p53	Gene	7157
+26438057	427	432	NAFLD	Disease	MESH:D065626
+26438057	511	515	SCO2	Gene	9997
+26438057	520	526	copper	Chemical	MESH:D003300
+26438057	605	611	Copper	Chemical	MESH:D003300
+26438057	636	641	NAFLD	Disease	MESH:D065626
+26438057	677	683	copper	Chemical	MESH:D003300
+26438057	695	700	NAFLD	Disease	MESH:D065626
+26438057	701	709	patients	Species	9606
+26438057	733	751	metabolic syndrome	Disease	MESH:D024821
+26438057	764	770	Copper	Chemical	MESH:D003300
+26438057	829	834	lipid	Chemical	MESH:D008055
+26438057	861	879	insulin resistance	Disease	MESH:D007333
+26438057	921	924	p53	Gene	7157
+26438057	946	952	copper	Chemical	MESH:D003300
+26438057	994	999	NAFLD	Disease	MESH:D065626
+26438057	1023	1031	hepatoma	Disease	MESH:D006528
+26438057	1044	1049	HepG2	CellLine	CVCL:0027
+26438057	1054	1063	Huh 7.5.1	CellLine	CVCL:E049
+26438057	1101	1104	p53	Gene	7157
+26438057	1113	1118	Y220C	ProteinMutation	tmVar:p|SUB|Y|220|C;HGVS:p.Y220C;VariantGroup:0;CorrespondingGene:7157;RS#:121912666;CorrespondingSpecies:9606;CA#:315
+26438057	1156	1172	free fatty acids	Chemical	MESH:D005230
+26438057	1174	1178	FFAs	Chemical	MESH:D005230
+26438057	1205	1208	p53	Gene	7157
+26438057	1254	1260	copper	Chemical	MESH:D003300
+26438057	1305	1313	hepatoma	Disease	MESH:D006528
+26438057	1345	1350	Y220C	ProteinMutation	tmVar:p|SUB|Y|220|C;HGVS:p.Y220C;VariantGroup:0;CorrespondingGene:7157;RS#:121912666;CorrespondingSpecies:9606;CA#:315
+26438057	1354	1357	p53	Gene	7157
+26438057	1384	1388	SCO2	Gene	9997
+26438057	1393	1413	Copper transporter 1	Gene	1317
+26438057	1415	1419	CTR1	Gene	1317
+26438057	1462	1468	copper	Chemical	MESH:D003300
+26438057	1496	1500	FFAs	Chemical	MESH:D005230
+26438057	1596	1599	p53	Gene	7157
+26438057	1671	1677	copper	Chemical	MESH:D003300
+26438057	Association	MESH:D005230	RS#:121912666;HGVS:p.Y220C;CorrespondingGene:7157
+26438057	Association	MESH:D003300	RS#:121912666;HGVS:p.Y220C;CorrespondingGene:7157
+26438057	Association	MESH:D006528	RS#:121912666;HGVS:p.Y220C;CorrespondingGene:7157
+26438057	Association	1317	7157
+26438057	Positive_Correlation	MESH:D003300	MESH:D005230
+26438057	Association	MESH:D005230	9997
+26438057	Association	MESH:D065626	7157
+26438057	Association	MESH:D005230	7157
+26438057	Association	MESH:D003300	7157
+26438057	Negative_Correlation	MESH:D003300	MESH:D024821
+26438057	Association	7157	9997
+26438057	Association	MESH:D003300	MESH:D008055
+26438057	Association	MESH:D006528	7157
+26438057	Association	MESH:D005230	1317
+26438057	Association	MESH:D005230	MESH:D006528
+26438057	Association	MESH:D003300	MESH:D007333
+26438057	Negative_Correlation	MESH:D003300	MESH:D065626
+26438057	Association	MESH:D003300	1317
+26438057	Association	MESH:D003300	9997
+26438057	Association	MESH:D006528	7157
+

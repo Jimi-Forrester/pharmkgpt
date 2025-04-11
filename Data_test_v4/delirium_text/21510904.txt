@@ -1,0 +1,16 @@
+21510904|t|Detection of recurrent rearrangement breakpoints from copy number data.
+21510904|a|BACKGROUND: Copy number variants (CNVs), including deletions, amplifications, and other rearrangements, are common in human and cancer genomes. Copy number data from array comparative genome hybridization (aCGH) and next-generation DNA sequencing is widely used to measure copy number variants. Comparison of copy number data from multiple individuals reveals recurrent variants. Typically, the interior of a recurrent CNV is examined for genes or other loci associated with a phenotype. However, in some cases, such as gene truncations and fusion genes, the target of variant lies at the boundary of the variant. RESULTS: We introduce Neighborhood Breakpoint Conservation (NBC), an algorithm for identifying rearrangement breakpoints that are highly conserved at the same locus in multiple individuals. NBC detects recurrent breakpoints at varying levels of resolution, including breakpoints whose location is exactly conserved and breakpoints whose location varies within a gene. NBC also identifies pairs of recurrent breakpoints such as those that result from fusion genes. We apply NBC to aCGH data from 36 primary prostate tumors and identify 12 novel rearrangements, one of which is the well-known TMPRSS2-ERG fusion gene. We also apply NBC to 227 glioblastoma tumors and predict 93 novel rearrangements which we further classify as gene truncations, germline structural variants, and fusion genes. A number of these variants involve the protein phosphatase PTPN12 suggesting that deregulation of PTPN12, via a variety of rearrangements, is common in glioblastoma. CONCLUSIONS: We demonstrate that NBC is useful for detection of recurrent breakpoints resulting from copy number variants or other structural variants, and in particular identifies recurrent breakpoints that result in gene truncations or fusion genes. Software is available at http://http.//cs.brown.edu/people/braphael/software.html.
+21510904	190	195	human	Species	9606
+21510904	200	206	cancer	Disease	MESH:D009369
+21510904	1192	1207	prostate tumors	Disease	MESH:D011472
+21510904	1277	1284	TMPRSS2	Gene	7113
+21510904	1285	1288	ERG	Gene	2078
+21510904	1327	1346	glioblastoma tumors	Disease	MESH:D005909
+21510904	1537	1543	PTPN12	Gene	5782
+21510904	1576	1582	PTPN12	Gene	5782
+21510904	1630	1642	glioblastoma	Disease	MESH:D005909
+21510904	1948	1954	people	Species	9606
+21510904	Association	MESH:D005909	5782
+21510904	Association	2078	7113
+21510904	Association	MESH:D011472	7113
+

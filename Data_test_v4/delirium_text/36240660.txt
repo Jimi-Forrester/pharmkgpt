@@ -1,0 +1,15 @@
+36240660|t|Machine Learning Model to Predict Diagnosis of Mild Cognitive Impairment by Using Radiomic and Amyloid Brain PET.
+36240660|a|PURPOSE: The study aimed to develop a deep learning model for predicting amnestic mild cognitive impairment (aMCI) diagnosis using radiomic features and amyloid brain PET. PATIENTS AND METHODS: Subjects (n = 328) from the Alzheimer's Disease Neuroimaging Initiative database and the EudraCT 2015-001184-39 trial (159 males, 169 females), with a mean age of 72 +- 7.4 years, underwent PET/CT with 18 F-florbetaben. The study cohort consisted of normal controls (n = 149) and subjects with aMCI (n = 179). Thirteen gray-level run-length matrix radiomic features and amyloid loads were extracted from 27 cortical brain areas. The least absolute shrinkage and selection operator regression was used to select features with the highest predictive value. A feed-forward neural multilayer network was trained, validated, and tested on 70%, 15%, and 15% of the sample, respectively. Accuracy, precision, F1-score, and area under the curve were used to assess model performance. SUV performance in predicting the diagnosis of aMCI was also assessed and compared with that obtained from the machine learning model. RESULTS: The machine learning model achieved an area under the receiver operating characteristic curve of 90% (95% confidence interval, 89.4-90.4) on the test set, with 80% and 78% for accuracy and F1-score, respectively. The deep learning model outperformed SUV performance (area under the curve, 71%; 95% confidence interval, 69.7-71.4; 57% accuracy, 48% F1-score). CONCLUSIONS: Using radiomic and amyloid PET load, the machine learning model identified MCI subjects with 84% specificity at 81% sensitivity. These findings show that a deep learning algorithm based on radiomic data and amyloid load obtained from brain PET images improves the prediction of MCI diagnosis compared with SUV alone.
+36240660	52	72	Cognitive Impairment	Disease	MESH:D003072
+36240660	187	221	amnestic mild cognitive impairment	Disease	MESH:D060825
+36240660	223	227	aMCI	Disease	MESH:D060825
+36240660	267	274	amyloid	Disease	MESH:C000718787
+36240660	286	294	PATIENTS	Species	9606
+36240660	336	355	Alzheimer's Disease	Disease	MESH:D000544
+36240660	510	526	18 F-florbetaben	Chemical	MESH:C527756
+36240660	602	606	aMCI	Disease	MESH:D060825
+36240660	678	685	amyloid	Disease	MESH:C000718787
+36240660	1131	1135	aMCI	Disease	MESH:D060825
+36240660	1675	1678	MCI	Disease	
+36240660	1878	1881	MCI	Disease	
+

@@ -1,0 +1,78 @@
+37205388|t|Asparagine synthetase and G-protein coupled estrogen receptor are critical responders to nutrient supply in KRAS mutant colorectal cancer.
+37205388|a|The nutrient status of the tumor microenvironment has major impacts on cell growth. Under nutrient depletion, asparagine synthetase (ASNS)-mediated asparagine production increases to sustain cell survival. G protein-coupled estrogen receptor-1 (GPER1) signaling converges via cAMP/PI3K/AKT with KRAS signaling to regulate ASNS expression. However, the role of GPER1 in CRC progression is still debated, and the effect of nutrient supply on both ASNS and GPER1 relative to KRAS genotype is not well understood. Here, we modeled a restricted nutrient supply by eliminating glutamine from growing cancer cells in a 3D spheroid model of human female SW48 KRAS wild-type (WT) and KRAS G12A mutant (MT) CRC cells, to examine effects on ASNS and GPER1 expression. Glutamine depletion significantly inhibited cell growth in both KRAS MT and WT cells; however, ASNS and GPER1 were upregulated in KRAS MT compared to WT cells. When nutrient supply was adequate, ASNS and GPER1 were not altered between cell lines. The impact of estradiol, a ligand for GPER1, was examined for any additional effects on cell growth. Under glutamine deplete conditions, estradiol decreased the growth of KRAS WT cells but had no effect on KRAS MT cells; estradiol had no additive or diminutive effect on the upregulation of ASNS or GPER1 between the cell lines. We further examined the association of GPER1 and ASNS levels with overall survival in a clinical colon cancer cohort of The Cancer Genome Atlas. Both high GPER1 and ASNS expression associated with poorer overall survival for females only in advanced stage tumors. These findings suggest that KRAS MT cells have mechanisms in place that respond to decreased nutrient supply, typically observed in advanced tumors, by increasing the expression of ASNS and GPER1 to drive cell growth. Furthermore, KRAS MT cells are resistant to the protective effects of estradiol under nutrient deplete conditions. ASNS and GPER1 may therefore be potential therapeutic targets that can be exploited to manage and control KRAS MT CRC.
+37205388	0	21	Asparagine synthetase	Gene	440
+37205388	108	112	KRAS	Gene	3845
+37205388	120	137	colorectal cancer	Disease	MESH:D015179
+37205388	166	171	tumor	Disease	MESH:D009369
+37205388	249	270	asparagine synthetase	Gene	440
+37205388	272	276	ASNS	Gene	440
+37205388	287	297	asparagine	Chemical	MESH:D001216
+37205388	345	382	G protein-coupled estrogen receptor-1	Gene	2852
+37205388	384	389	GPER1	Gene	2852
+37205388	415	419	cAMP	Chemical	-
+37205388	425	428	AKT	Gene	207
+37205388	434	438	KRAS	Gene	3845
+37205388	461	465	ASNS	Gene	440
+37205388	499	504	GPER1	Gene	2852
+37205388	508	511	CRC	Disease	MESH:D015179
+37205388	584	588	ASNS	Gene	440
+37205388	593	598	GPER1	Gene	2852
+37205388	611	615	KRAS	Gene	3845
+37205388	710	719	glutamine	Chemical	MESH:D005973
+37205388	733	739	cancer	Disease	MESH:D009369
+37205388	772	777	human	Species	9606
+37205388	785	789	SW48	CellLine	CVCL:1724
+37205388	790	794	KRAS	Gene	3845
+37205388	814	818	KRAS	Gene	3845
+37205388	819	823	G12A	ProteinMutation	tmVar:p|SUB|G|12|A;HGVS:p.G12A;VariantGroup:0;CorrespondingGene:3845;RS#:121913529;CorrespondingSpecies:9606;CA#:135567
+37205388	836	839	CRC	Disease	MESH:D015179
+37205388	869	873	ASNS	Gene	440
+37205388	878	883	GPER1	Gene	2852
+37205388	896	905	Glutamine	Chemical	MESH:D005973
+37205388	960	964	KRAS	Gene	3845
+37205388	991	995	ASNS	Gene	440
+37205388	1000	1005	GPER1	Gene	2852
+37205388	1026	1030	KRAS	Gene	3845
+37205388	1091	1095	ASNS	Gene	440
+37205388	1100	1105	GPER1	Gene	2852
+37205388	1157	1166	estradiol	Chemical	MESH:D004958
+37205388	1181	1186	GPER1	Gene	2852
+37205388	1250	1259	glutamine	Chemical	MESH:D005973
+37205388	1280	1289	estradiol	Chemical	MESH:D004958
+37205388	1314	1318	KRAS	Gene	3845
+37205388	1349	1353	KRAS	Gene	3845
+37205388	1364	1373	estradiol	Chemical	MESH:D004958
+37205388	1434	1438	ASNS	Gene	440
+37205388	1442	1447	GPER1	Gene	2852
+37205388	1511	1516	GPER1	Gene	2852
+37205388	1521	1525	ASNS	Gene	440
+37205388	1569	1581	colon cancer	Disease	MESH:D015179
+37205388	1596	1602	Cancer	Disease	MESH:D009369
+37205388	1627	1632	GPER1	Gene	2852
+37205388	1637	1641	ASNS	Gene	440
+37205388	1728	1734	tumors	Disease	MESH:D009369
+37205388	1764	1768	KRAS	Gene	3845
+37205388	1877	1883	tumors	Disease	MESH:D009369
+37205388	1917	1921	ASNS	Gene	440
+37205388	1926	1931	GPER1	Gene	2852
+37205388	1967	1971	KRAS	Gene	3845
+37205388	2024	2033	estradiol	Chemical	MESH:D004958
+37205388	2069	2073	ASNS	Gene	440
+37205388	2078	2083	GPER1	Gene	2852
+37205388	2175	2179	KRAS	Gene	3845
+37205388	2183	2186	CRC	Disease	MESH:D015179
+37205388	Association	MESH:D015179	RS#:121913529;HGVS:p.G12A;CorrespondingGene:3845
+37205388	Association	MESH:D015179	2852
+37205388	Negative_Correlation	MESH:D005973	2852
+37205388	Association	MESH:D015179	3845
+37205388	Association	3845	440
+37205388	Association	207	2852
+37205388	Negative_Correlation	MESH:D004958	MESH:D005973
+37205388	Association	MESH:D015179	440
+37205388	Association	MESH:D001216	440
+37205388	Association	MESH:D005973	3845
+37205388	Association	MESH:D004958	2852
+37205388	Association	MESH:D005973	MESH:D009369
+37205388	Negative_Correlation	MESH:D005973	440
+37205388	Positive_Correlation	2852	3845
+

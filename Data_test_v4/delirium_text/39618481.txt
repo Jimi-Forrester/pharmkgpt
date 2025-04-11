@@ -1,0 +1,32 @@
+39618481|t|Bioinformatics and Machine Learning-Based Identification of Critical Biomarkers and Immune Infiltration in Venous Thromboembolism.
+39618481|a|Objective: This study aims to use bioinformatics and machine learning algorithms to screen and analyze the key genes involved in venous thromboembolism (VTE) and explore the relationship between these biomarkers and immune cell infiltration. Methods: The gene expression profile with the identifier GSE19151 was downloaded from the GEO database. Differential expression analysis using the limma package was conducted to identify genes that were differentially expressed between VTE and normal samples. Biological activities of these genes were then investigated through GO analysis utilizing the R language package. KEGG and GSEA were also performed to identify key signaling pathways. Furthermore, machine learning techniques were employed to determine hub gene signatures related to VTE, and ROC curves were used to validate the findings. To compare the immune infiltration of healthy and VTE samples, single sample gene set enrichment analysis (ssGSEA) was applied. Lastly, the Spearman correlation coefficient was used to assess the relationship between the expression of hub genes and immune cell infiltration. Results: A total of 628 differentially expressed genes (DEGs) were discovered between the VTE samples and normal samples. GO analysis identified protein polyubiquitination, lysosomal lumen acidification, organellar ribosome, mitochondrial ribosome, ammonium transmembrane transporter activity, and immunoglobulin binding as the processes with the highest abundance of DEGs. KEGG pathway analysis revealed that DEGs were enriched in ribosome, COVID-19, viral infection, oxidative phosphorylation, Parkinson's disease, nonalcoholic fatty liver disease, apoptosis, and cancer. The most prominent KEGG pathways associated with VTE were ribosome, Parkinson's disease, oxidative phosphorylation, Alzheimer's disease, and Huntington's disease according to GSEA findings. DLST and LSP1 were identified as hub gene signatures in VTE by machine learning integrative analysis, and ROC curves confirmed their diagnostic value. Results from ssGSEA indicated a significant difference in the degree of immune cell infiltration between VTE and normal samples, with the expression of DLST and LSP1 positively correlated with the content of some immune cells. The R package, code, and analysis results used in this paper are available on https://github.com/doctorlaby/my-project. Conclusion: Our research is the first to utilize machine learning techniques in identifying DLST and LSP1 as significant biomarkers of VTE. With our findings, we have uncovered new insights into the underlying causes of VTE and potential treatments for affected patients.
+39618481	107	129	Venous Thromboembolism	Disease	MESH:D054556
+39618481	260	282	venous thromboembolism	Disease	MESH:D054556
+39618481	284	287	VTE	Disease	MESH:D054556
+39618481	609	612	VTE	Disease	MESH:D054556
+39618481	916	919	VTE	Disease	MESH:D054556
+39618481	1022	1025	VTE	Disease	MESH:D054556
+39618481	1337	1340	VTE	Disease	MESH:D054556
+39618481	1689	1697	COVID-19	Disease	MESH:D000086382
+39618481	1699	1714	viral infection	Disease	MESH:D014777
+39618481	1743	1762	Parkinson's disease	Disease	MESH:D010300
+39618481	1764	1796	nonalcoholic fatty liver disease	Disease	MESH:D065626
+39618481	1813	1819	cancer	Disease	MESH:D009369
+39618481	1870	1873	VTE	Disease	MESH:D054556
+39618481	1889	1908	Parkinson's disease	Disease	MESH:D010300
+39618481	1937	1956	Alzheimer's disease	Disease	MESH:D000544
+39618481	1962	1982	Huntington's disease	Disease	MESH:D006816
+39618481	2011	2015	DLST	Gene	1743
+39618481	2020	2024	LSP1	Gene	4046
+39618481	2067	2070	VTE	Disease	MESH:D054556
+39618481	2267	2270	VTE	Disease	MESH:D054556
+39618481	2314	2318	DLST	Gene	1743
+39618481	2323	2327	LSP1	Gene	4046
+39618481	2601	2605	DLST	Gene	1743
+39618481	2610	2614	LSP1	Gene	4046
+39618481	2644	2647	VTE	Disease	MESH:D054556
+39618481	2729	2732	VTE	Disease	MESH:D054556
+39618481	2771	2779	patients	Species	9606
+39618481	Association	MESH:D054556	1743
+39618481	Association	MESH:D054556	4046
+

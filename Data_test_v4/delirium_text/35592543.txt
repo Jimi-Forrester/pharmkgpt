@@ -1,0 +1,33 @@
+35592543|t|Inflammation-Related Gene Signature for Predicting the Prognosis of Head and Neck Squamous Cell Carcinoma.
+35592543|a|Purpose: The inflammatory response was associated with the prognosis of head and neck squamous cell carcinoma (HNSCC). This study aimed to perform a novel prognostic signature based on inflammation-related genes (IRGs) for a better understanding of the prognosis of HNSCC. Patients and Methods: IRGs were obtained from The Cancer Genome Atlas (TCGA) database and the Gene Expression Omnibus (GEO) database. Functional enrichment analysis was performed to explore potential pathways. Univariate and multivariate Cox regression as well as the Least Absolute Shrinkage and Selection Operator (LASSO) were utilized to construct an IRGs-based prognostic model on TCGA database and the GEO database was utilized for outcome validation. The nomogram model was constructed based on independent prognostic factors after univariate and multivariate Cox regression. The immune cell infiltration level was analyzed via the Tumor Immune Estimation Resource (TIMER) database. Results: In this study, we confirmed that 60% IRGs were abnormally expressed in HNSCC samples, and these were associated with important oncobiology. Then, a prognostic signature comprising 7 hub genes was generated based on TCGA database. The results were validated in 97 patients from GSE41613. A nomogram comprising risk score, age, M stage and N stage was generated to improve the accuracy of prognosis evaluation. The immune cell infiltration analysis suggested that 5 hub genes (ADGRE1, OLR1, TIMP1, GPR132 and CCR7) were negatively correlated with tumor purity and positively correlated with the infiltration of immune cells. Conclusion: Our study established a novel signature consisting of 7 hub genes for the prognostic prediction in patients with HNSCC.
+35592543	0	12	Inflammation	Disease	MESH:D007249
+35592543	68	105	Head and Neck Squamous Cell Carcinoma	Disease	MESH:D000077195
+35592543	120	132	inflammatory	Disease	MESH:D007249
+35592543	179	216	head and neck squamous cell carcinoma	Disease	MESH:D000077195
+35592543	218	223	HNSCC	Disease	MESH:D000077195
+35592543	292	304	inflammation	Disease	MESH:D007249
+35592543	373	378	HNSCC	Disease	MESH:D000077195
+35592543	380	388	Patients	Species	9606
+35592543	430	436	Cancer	Disease	MESH:D009369
+35592543	1018	1023	Tumor	Disease	MESH:D009369
+35592543	1149	1154	HNSCC	Disease	MESH:D000077195
+35592543	1341	1349	patients	Species	9606
+35592543	1553	1559	ADGRE1	Gene	2015
+35592543	1561	1565	OLR1	Gene	4973
+35592543	1567	1572	TIMP1	Gene	7076
+35592543	1574	1580	GPR132	Gene	29933
+35592543	1585	1589	CCR7	Gene	1236
+35592543	1623	1628	tumor	Disease	MESH:D009369
+35592543	1812	1820	patients	Species	9606
+35592543	1826	1831	HNSCC	Disease	MESH:D000077195
+35592543	Association	MESH:D000077195	2015
+35592543	Association	MESH:D009369	2015
+35592543	Association	MESH:D009369	4973
+35592543	Association	MESH:D009369	7076
+35592543	Association	MESH:D000077195	29933
+35592543	Association	MESH:D000077195	1236
+35592543	Association	MESH:D000077195	4973
+35592543	Association	MESH:D000077195	7076
+35592543	Association	MESH:D009369	29933
+35592543	Association	MESH:D009369	1236
+

@@ -1,0 +1,19 @@
+28837592|t|Development and validation of a set of six adaptable prognosis prediction (SAP) models based on time-series real-world big data analysis for patients with cancer receiving chemotherapy: A multicenter case crossover study.
+28837592|a|BACKGROUND: We aimed to develop an adaptable prognosis prediction model that could be applied at any time point during the treatment course for patients with cancer receiving chemotherapy, by applying time-series real-world big data. METHODS: Between April 2004 and September 2014, 4,997 patients with cancer who had received systemic chemotherapy were registered in a prospective cohort database at the Kyoto University Hospital. Of these, 2,693 patients with a death record were eligible for inclusion and divided into training (n = 1,341) and test (n = 1,352) cohorts. In total, 3,471,521 laboratory data at 115,738 time points, representing 40 laboratory items [e.g., white blood cell counts and albumin (Alb) levels] that were monitored for 1 year before the death event were applied for constructing prognosis prediction models. All possible prediction models comprising three different items from 40 laboratory items (40C3 = 9,880) were generated in the training cohort, and the model selection was performed in the test cohort. The fitness of the selected models was externally validated in the validation cohort from three independent settings. RESULTS: A prognosis prediction model utilizing Alb, lactate dehydrogenase, and neutrophils was selected based on a strong ability to predict death events within 1-6 months and a set of six prediction models corresponding to 1,2, 3, 4, 5, and 6 months was developed. The area under the curve (AUC) ranged from 0.852 for the 1 month model to 0.713 for the 6 month model. External validation supported the performance of these models. CONCLUSION: By applying time-series real-world big data, we successfully developed a set of six adaptable prognosis prediction models for patients with cancer receiving chemotherapy.
+28837592	141	149	patients	Species	9606
+28837592	155	161	cancer	Disease	MESH:D009369
+28837592	366	374	patients	Species	9606
+28837592	380	386	cancer	Disease	MESH:D009369
+28837592	510	518	patients	Species	9606
+28837592	524	530	cancer	Disease	MESH:D009369
+28837592	669	677	patients	Species	9606
+28837592	685	690	death	Disease	MESH:D003643
+28837592	922	929	albumin	Gene	213
+28837592	931	934	Alb	Gene	213
+28837592	986	991	death	Disease	MESH:D003643
+28837592	1424	1427	Alb	Gene	213
+28837592	1518	1523	death	Disease	MESH:D003643
+28837592	1947	1955	patients	Species	9606
+28837592	1961	1967	cancer	Disease	MESH:D009369
+28837592	Association	MESH:D003643	213
+

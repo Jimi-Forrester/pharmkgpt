@@ -1,0 +1,19 @@
+20066028|t|Modeling of environmental effects in genome-wide association studies identifies SLC2A2 and HP as novel loci influencing serum cholesterol levels.
+20066028|a|Genome-wide association studies (GWAS) have identified 38 larger genetic regions affecting classical blood lipid levels without adjusting for important environmental influences. We modeled diet and physical activity in a GWAS in order to identify novel loci affecting total cholesterol, LDL cholesterol, HDL cholesterol, and triglyceride levels. The Swedish (SE) EUROSPAN cohort (N(SE) = 656) was screened for candidate genes and the non-Swedish (NS) EUROSPAN cohorts (N(NS) = 3,282) were used for replication. In total, 3 SNPs were associated in the Swedish sample and were replicated in the non-Swedish cohorts. While SNP rs1532624 was a replication of the previously published association between CETP and HDL cholesterol, the other two were novel findings. For the latter SNPs, the p-value for association was substantially improved by inclusion of environmental covariates: SNP rs5400 (p(SE,unadjusted) = 3.6 x 10(-5), p(SE,adjusted) = 2.2 x 10(-6), p(NS,unadjusted) = 0.047) in the SLC2A2 (Glucose transporter type 2) and rs2000999 (p(SE,unadjusted) = 1.1 x 10(-3), p(SE,adjusted) = 3.8 x 10(-4), p(NS,unadjusted) = 0.035) in the HP gene (Haptoglobin-related protein precursor). Both showed evidence of association with total cholesterol. These results demonstrate that inclusion of important environmental factors in the analysis model can reveal new genetic susceptibility loci.
+20066028	80	86	SLC2A2	Gene	6514
+20066028	126	137	cholesterol	Chemical	MESH:D002784
+20066028	253	258	lipid	Chemical	MESH:D008055
+20066028	420	431	cholesterol	Chemical	MESH:D002784
+20066028	437	448	cholesterol	Chemical	MESH:D002784
+20066028	471	483	triglyceride	Chemical	MESH:D014280
+20066028	770	779	rs1532624	SNP	tmVar:rs1532624;VariantGroup:0;CorrespondingGene:1071;RS#:1532624;CorrespondingSpecies:9606
+20066028	846	850	CETP	Gene	1071
+20066028	1029	1035	rs5400	SNP	tmVar:rs5400;VariantGroup:2;CorrespondingGene:6514;RS#:5400;CorrespondingSpecies:9606
+20066028	1134	1140	SLC2A2	Gene	6514
+20066028	1174	1183	rs2000999	SNP	tmVar:rs2000999;VariantGroup:1;CorrespondingGene:3250;RS#:2000999;CorrespondingSpecies:9606
+20066028	1291	1318	Haptoglobin-related protein	Gene	3250
+20066028	1378	1389	cholesterol	Chemical	MESH:D002784
+20066028	Association	MESH:D002784	3250
+20066028	Association	MESH:D002784	RS#:5400;CorrespondingGene:6514
+20066028	Association	MESH:D002784	6514
+

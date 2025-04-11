@@ -1,0 +1,12 @@
+25542565|t|Standardized processing of MALDI imaging raw data for enhancement of weak analyte signals in mouse models of gastric cancer and Alzheimer's disease.
+25542565|a|Conventional mass spectrometry image preprocessing methods used for denoising, such as the Savitzky-Golay smoothing or discrete wavelet transformation, typically do not only remove noise but also weak signals. Recently, memory-efficient principal component analysis (PCA) in conjunction with random projections (RP) has been proposed for reversible compression and analysis of large mass spectrometry imaging datasets. It considers single-pixel spectra in their local context and consequently offers the prospect of using information from the spectra of adjacent pixels for denoising or signal enhancement. However, little systematic analysis of key RP-PCA parameters has been reported so far, and the utility and validity of this method for context-dependent enhancement of known medically or pharmacologically relevant weak analyte signals in linear-mode matrix-assisted laser desorption/ionization (MALDI) mass spectra has not been explored yet. Here, we investigate MALDI imaging datasets from mouse models of Alzheimer's disease and gastric cancer to systematically assess the importance of selecting the right number of random projections k and of principal components (PCs) L for reconstructing reproducibly denoised images after compression. We provide detailed quantitative data for comparison of RP-PCA-denoising with the Savitzky-Golay and wavelet-based denoising in these mouse models as a resource for the mass spectrometry imaging community. Most importantly, we demonstrate that RP-PCA preprocessing can enhance signals of low-intensity amyloid-beta peptide isoforms such as Abeta1-26 even in sparsely distributed Alzheimer's beta-amyloid plaques and that it enables enhanced imaging of multiply acetylated histone H4 isoforms in response to pharmacological histone deacetylase inhibition in vivo. We conclude that RP-PCA denoising may be a useful preprocessing step in biomarker discovery workflows. 
+25542565	93	98	mouse	Species	10090
+25542565	109	123	gastric cancer	Disease	MESH:D013274
+25542565	128	147	Alzheimer's disease	Disease	MESH:D000544
+25542565	1147	1152	mouse	Species	10090
+25542565	1163	1182	Alzheimer's disease	Disease	MESH:D000544
+25542565	1187	1201	gastric cancer	Disease	MESH:D013274
+25542565	1533	1538	mouse	Species	10090
+25542565	1778	1802	Alzheimer's beta-amyloid	Disease	MESH:D000544
+25542565	1871	1881	histone H4	Gene	102641229
+

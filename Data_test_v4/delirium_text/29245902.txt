@@ -1,0 +1,73 @@
+29245902|t|COX-2 metabolic products, the prostaglandin I2 and F2alpha, mediate the effects of TNF-alpha and Zn2+ in stimulating the phosphorylation of Tau.
+29245902|a|Although the roles of cyclooxygenase-2 (COX-2) and prostaglandins (PGs) in regulating amyloid precursor protein (APP) cleavage and beta-amyloid protein (Abeta) production have been the subjects of numerous investigations, their effects on tau phosphorylation have been largely overlooked. Using human TauP301S transgenic (Tg) mice as in vivo model, our results demonstrated that PGI2 and PGF2alpha mediated the effects of tumor necrosis factor alpha (TNF-alpha) and Zinc ions (Zn2+) on upregulating the phosphorylation of tau via the PI3-K/AKT, ERK1/2 and JNK/c-Jun signaling pathways. Specifically, we initially found that high level of Zn2+ upregulates the expression of COX-2 via stimulating the activity of TNF-alpha in a zinc transporter 3 (ZnT3)-dependent mechanism. COX-2 upregulation then stimulates the phosphorylation of tau at both Ser 202 and Ser 400/Thr 403/Ser 404 via PGI2 and F2alpha treatment either in i.c.v.-injected mice or in n2a cells. Using n2a cells as in vitro model, we further revealed critical roles for the PI3-K/AKT, ERK1/2 and JNK/c-Jun pathways in mediating the effects of PGI2 and F2alpha in the phosphorylation of tau. Finally, NS398 treatment delayed the onset of cognitive decline in TauP301S Tg mice according to the nest construction or limb clasping test.
+29245902	0	5	COX-2	Gene	5743
+29245902	30	58	prostaglandin I2 and F2alpha	Chemical	-
+29245902	83	92	TNF-alpha	Gene	7124
+29245902	97	101	Zn2+	Chemical	-
+29245902	140	143	Tau	Gene	4137
+29245902	167	183	cyclooxygenase-2	Gene	5743
+29245902	185	190	COX-2	Gene	5743
+29245902	196	210	prostaglandins	Chemical	MESH:D011453
+29245902	212	215	PGs	Chemical	MESH:D011453
+29245902	231	256	amyloid precursor protein	Gene	11820
+29245902	298	303	Abeta	Gene	11820
+29245902	384	387	tau	Gene	4137
+29245902	440	445	human	Species	9606
+29245902	471	475	mice	Species	10090
+29245902	524	528	PGI2	Chemical	MESH:D011464
+29245902	533	542	PGF2alpha	Chemical	MESH:D015237
+29245902	567	594	tumor necrosis factor alpha	Gene	7124
+29245902	596	605	TNF-alpha	Gene	7124
+29245902	622	626	Zn2+	Chemical	-
+29245902	667	670	tau	Gene	4137
+29245902	685	688	AKT	Gene	11651
+29245902	690	696	ERK1/2	Gene	26417;26413
+29245902	701	704	JNK	Gene	26419
+29245902	705	710	c-Jun	Gene	16476
+29245902	783	787	Zn2+	Chemical	-
+29245902	818	823	COX-2	Gene	5743
+29245902	856	865	TNF-alpha	Gene	7124
+29245902	871	889	zinc transporter 3	Gene	7781
+29245902	891	895	ZnT3	Gene	7781
+29245902	918	923	COX-2	Gene	5743
+29245902	976	979	tau	Gene	4137
+29245902	1008	1019	Thr 403/Ser	ProteinMutation	tmVar:p|SUB|T|403|S;HGVS:p.T403S;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+29245902	1028	1032	PGI2	Chemical	MESH:D011464
+29245902	1037	1044	F2alpha	Chemical	-
+29245902	1081	1085	mice	Species	10090
+29245902	1092	1095	n2a	CellLine	CVCL:VM32
+29245902	1109	1112	n2a	CellLine	CVCL:VM32
+29245902	1187	1190	AKT	Gene	11651
+29245902	1192	1198	ERK1/2	Gene	26417;26413
+29245902	1203	1206	JNK	Gene	26419
+29245902	1207	1212	c-Jun	Gene	16476
+29245902	1250	1254	PGI2	Chemical	MESH:D011464
+29245902	1259	1266	F2alpha	Chemical	-
+29245902	1293	1296	tau	Gene	4137
+29245902	1307	1312	NS398	Chemical	MESH:C080955
+29245902	1344	1361	cognitive decline	Disease	MESH:D003072
+29245902	1377	1381	mice	Species	10090
+29245902	Association	11820	5743
+29245902	Positive_Correlation	4137	7124
+29245902	Positive_Correlation	MESH:D015237	4137
+29245902	Positive_Correlation	MESH:D011464	4137
+29245902	Association	MESH:D011464	26417
+29245902	Association	MESH:D015237	16476
+29245902	Association	MESH:D011464	16476
+29245902	Positive_Correlation	4137	5743
+29245902	Association	26413	4137
+29245902	Association	MESH:D011464	HGVS:p.T403S;CorrespondingGene:4137
+29245902	Positive_Correlation	MESH:D011464	5743
+29245902	Association	11651	4137
+29245902	Association	MESH:D015237	7124
+29245902	Association	MESH:D011464	7124
+29245902	Association	MESH:D011464	26413
+29245902	Negative_Correlation	MESH:C080955	MESH:D003072
+29245902	Association	16476	4137
+29245902	Association	MESH:D011464	11651
+29245902	Association	26419	4137
+29245902	Association	MESH:D011453	11820
+29245902	Association	26417	4137
+29245902	Association	5743	7124
+29245902	Association	MESH:D011464	26419
+

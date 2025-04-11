@@ -1,0 +1,25 @@
+38860897|t|AmyloidPETNet: Classification of Amyloid Positivity in Brain PET Imaging Using End-to-End Deep Learning.
+38860897|a|Background Visual assessment of amyloid PET scans relies on the availability of radiologist expertise, whereas quantification of amyloid burden typically involves MRI for processing and analysis, which can be computationally expensive. Purpose To develop a deep learning model to classify minimally processed brain PET scans as amyloid positive or negative, evaluate its performance on independent data sets and different tracers, and compare it with human visual reads. Materials and Methods This retrospective study used 8476 PET scans (6722 patients) obtained from late 2004 to early 2023 that were analyzed across five different data sets. A deep learning model, AmyloidPETNet, was trained on 1538 scans from 766 patients, validated on 205 scans from 95 patients, and internally tested on 184 scans from 95 patients in the Alzheimer's Disease Neuroimaging Initiative (ADNI) fluorine 18 (18F) florbetapir (FBP) data set. It was tested on ADNI scans using different tracers and scans from independent data sets. Scan amyloid positivity was based on mean cortical standardized uptake value ratio cutoffs. To compare with model performance, each scan from both the Centiloid Project and a subset of the Anti-Amyloid Treatment in Asymptomatic Alzheimer's Disease (A4) study were visually interpreted with a confidence level (low, intermediate, high) of amyloid positivity/negativity. The area under the receiver operating characteristic curve (AUC) and other performance metrics were calculated, and Cohen kappa was used to measure physician-model agreement. Results The model achieved an AUC of 0.97 (95% CI: 0.95, 0.99) on test ADNI 18F-FBP scans, which generalized well to 18F-FBP scans from the Open Access Series of Imaging Studies (AUC, 0.95; 95% CI: 0.93, 0.97) and the A4 study (AUC, 0.98; 95% CI: 0.98, 0.98). Model performance was high when applied to data sets with different tracers (AUC >= 0.97). Other performance metrics provided converging evidence. Physician-model agreement ranged from fair (Cohen kappa = 0.39; 95% CI: 0.16, 0.60) on a sample of mostly equivocal cases from the A4 study to almost perfect (Cohen kappa = 0.93; 95% CI: 0.86, 1.0) on the Centiloid Project. Conclusion The developed model was capable of automatically and accurately classifying brain PET scans as amyloid positive or negative without relying on experienced readers or requiring structural MRI. Clinical trial registration no. NCT00106899   RSNA, 2024 Supplemental material is available for this article. See also the editorial by Bryan and Forghani in this issue.
+38860897	0	13	AmyloidPETNet	Disease	
+38860897	33	40	Amyloid	Disease	MESH:C000718787
+38860897	137	144	amyloid	Disease	MESH:C000718787
+38860897	234	241	amyloid	Disease	MESH:C000718787
+38860897	433	440	amyloid	Disease	MESH:C000718787
+38860897	556	561	human	Species	9606
+38860897	649	657	patients	Species	9606
+38860897	772	785	AmyloidPETNet	Disease	
+38860897	822	830	patients	Species	9606
+38860897	863	871	patients	Species	9606
+38860897	916	924	patients	Species	9606
+38860897	932	951	Alzheimer's Disease	Disease	MESH:D000544
+38860897	983	1012	fluorine 18 (18F) florbetapir	Chemical	-
+38860897	1014	1017	FBP	Chemical	MESH:C545186
+38860897	1124	1131	amyloid	Disease	MESH:C000718787
+38860897	1347	1366	Alzheimer's Disease	Disease	MESH:D000544
+38860897	1457	1464	amyloid	Disease	MESH:C000718787
+38860897	1739	1742	18F	Chemical	MESH:C000615276
+38860897	1743	1746	FBP	Chemical	MESH:C545186
+38860897	1780	1783	18F	Chemical	MESH:C000615276
+38860897	1784	1787	FBP	Chemical	MESH:C545186
+38860897	2400	2407	amyloid	Disease	MESH:C000718787
+

@@ -1,0 +1,11 @@
+29990218|t|Disease Gene Prediction by Integrating PPI Networks, Clinical RNA-Seq Data and OMIM Data.
+29990218|a|Disease gene prediction is a challenging task that has a variety of applications such as early diagnosis and drug development. The existing machine learning methods suffer from the imbalanced sample issue because the number of known disease genes (positive samples) is much less than that of unknown genes which are typically considered to be negative samples. In addition, most methods have not utilized clinical data from patients with a specific disease to predict disease genes. In this study, we propose a disease gene prediction algorithm (called dgSeq) by combining protein-protein interaction (PPI) network, clinical RNA-Seq data, and Online Mendelian Inheritance in Man (OMIN) data. Our dgSeq constructs differential networks based on rewiring information calculated from clinical RNA-Seq data. To select balanced sets of non-disease genes (negative samples), a disease-gene network is also constructed from OMIM data. After features are extracted from the PPI networks and differential networks, the logistic regression classifiers are trained. Our dgSeq obtains AUC values of 0.88, 0.83, and 0.80 for identifying breast cancer genes, thyroid cancer genes, and Alzheimer's disease genes, respectively, which indicates its superiority to other three competing methods. Both gene set enrichment analysis and predicted results demonstrate that dgSeq can effectively predict new disease genes.
+29990218	79	83	OMIM	Disease	
+29990218	514	522	patients	Species	9606
+29990218	733	768	Online Mendelian Inheritance in Man	Disease	MESH:D030342
+29990218	770	774	OMIN	Disease	MESH:D030342
+29990218	1007	1011	OMIM	Disease	
+29990218	1214	1227	breast cancer	Disease	MESH:D001943
+29990218	1235	1249	thyroid cancer	Disease	MESH:D013964
+29990218	1261	1280	Alzheimer's disease	Disease	MESH:D000544
+

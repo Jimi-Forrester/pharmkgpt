@@ -1,0 +1,10 @@
+34884102|t|Detection of Collaterals from Cone-Beam CT Images in Stroke.
+34884102|a|Collateral vessels play an important role in the restoration of blood flow to the ischemic tissues of stroke patients, and the quality of collateral flow has major impact on reducing treatment delay and increasing the success rate of reperfusion. Due to high spatial resolution and rapid scan time, advance imaging using the cone-beam computed tomography (CBCT) is gaining more attention over the conventional angiography in acute stroke diagnosis. Detecting collateral vessels from CBCT images is a challenging task due to the presence of noises and artifacts, small-size and non-uniform structure of vessels. This paper presents a technique to objectively identify collateral vessels from non-collateral vessels. In our technique, several filters are used on the CBCT images of stroke patients to remove noises and artifacts, then multiscale top-hat transformation method is implemented on the pre-processed images to further enhance the vessels. Next, we applied three types of feature extraction methods which are gray level co-occurrence matrix (GLCM), moment invariant, and shape to explore which feature is best to classify the collateral vessels. These features are then used by the support vector machine (SVM), random forest, decision tree, and K-nearest neighbors (KNN) classifiers to classify vessels. Finally, the performance of these classifiers is evaluated in terms of accuracy, sensitivity, precision, recall, F-Measure, and area under the receiver operating characteristics curve. Our results show that all classifiers achieve promising classification accuracy above 90% and able to detect the collateral and non-collateral vessels from images.
+34884102	53	59	Stroke	Disease	MESH:D020521
+34884102	143	151	ischemic	Disease	MESH:D002545
+34884102	163	169	stroke	Disease	MESH:D020521
+34884102	170	178	patients	Species	9606
+34884102	486	498	acute stroke	Disease	MESH:D020521
+34884102	841	847	stroke	Disease	MESH:D020521
+34884102	848	856	patients	Species	9606
+

@@ -1,0 +1,80 @@
+31470105|t|KCa3.1 deficiency attenuates neuroinflammation by regulating an astrocyte phenotype switch involving the PI3K/AKT/GSK3beta pathway.
+31470105|a|Neuroinflammation may induce a phenotype switch to reactive astrogliosis in neurodegenerative disorders. The calcium-activated potassium channel (KCa3.1) is active in the phenotypic switch that occurs during astrogliosis in Alzheimer's disease and ischemic stroke. Here, transcriptome sequencing (RNA-Seq), immunohistochemistry, western blotting, pharmacological blockade, and calcium imaging were used to investigate astrocyte KCa3.1 activity in neuroinflammation, Tau accumulation, and insulin signaling deficits in male wild-type C57BL/6 and KCa3.1-/- knockout (KO) mice, and in primary astrocyte cultures. KCa3.1 deficiency in KO mice decreased lipopolysaccharide (LPS)-induced memory deficits, neuronal loss, glial activation, Tau phosphorylation, and insulin signaling deficits in vivo. KCa3.1 expression in astrocytes was associated with LPS-induced upregulation of the Orai1 store-operated Ca2+ channel protein. The KCa3.1 channel was found to regulate store-operated Ca2+ overload through an interaction with Orai1 in LPS-induced reactive astrocytes. The LPS-induced effects on KCa3.1 and Orai1 indirectly promoted astrogliosis-related changes via the PI3K/AKT/GSK3beta and NF-kappaB signaling pathways in vitro. Unbiased evaluation of RNA-Seq results for actively translated RNAs confirmed that substantial astrocyte diversity was associated with KCa3.1 deficiency. Our results suggest that KCa3.1 regulated astrogliosis-mediated neuroinflammation, Tau accumulation, and insulin signaling deficiency via PI3K/AKT/GSK3beta and NF-kappaB signaling pathways, and contributing to neuronal loss and memory deficits in this neuroinflammation mouse model.
+31470105	0	6	KCa3.1	Gene	16534
+31470105	29	46	neuroinflammation	Disease	MESH:D000090862
+31470105	110	113	AKT	Gene	11651
+31470105	114	122	GSK3beta	Gene	56637
+31470105	132	149	Neuroinflammation	Disease	MESH:D000090862
+31470105	183	204	reactive astrogliosis	Disease	MESH:D005911
+31470105	208	235	neurodegenerative disorders	Disease	MESH:D019636
+31470105	278	284	KCa3.1	Gene	16534
+31470105	340	352	astrogliosis	Disease	MESH:D005911
+31470105	356	375	Alzheimer's disease	Disease	MESH:D000544
+31470105	380	395	ischemic stroke	Disease	MESH:D002544
+31470105	509	516	calcium	Chemical	MESH:D002118
+31470105	560	566	KCa3.1	Gene	16534
+31470105	579	596	neuroinflammation	Disease	MESH:D000090862
+31470105	665	672	C57BL/6	CellLine	CVCL:C0MU
+31470105	677	683	KCa3.1	Gene	16534
+31470105	701	705	mice	Species	10090
+31470105	742	748	KCa3.1	Gene	16534
+31470105	766	770	mice	Species	10090
+31470105	781	799	lipopolysaccharide	Chemical	MESH:D008070
+31470105	801	804	LPS	Chemical	MESH:D008070
+31470105	814	829	memory deficits	Disease	MESH:D008569
+31470105	831	844	neuronal loss	Disease	MESH:D009410
+31470105	925	931	KCa3.1	Gene	16534
+31470105	977	980	LPS	Chemical	MESH:D008070
+31470105	1009	1014	Orai1	Gene	109305
+31470105	1030	1034	Ca2+	Chemical	-
+31470105	1056	1062	KCa3.1	Gene	16534
+31470105	1108	1112	Ca2+	Chemical	-
+31470105	1150	1155	Orai1	Gene	109305
+31470105	1159	1162	LPS	Chemical	MESH:D008070
+31470105	1196	1199	LPS	Chemical	MESH:D008070
+31470105	1219	1225	KCa3.1	Gene	16534
+31470105	1230	1235	Orai1	Gene	109305
+31470105	1256	1268	astrogliosis	Disease	MESH:D005911
+31470105	1298	1301	AKT	Gene	11651
+31470105	1302	1310	GSK3beta	Gene	56637
+31470105	1315	1324	NF-kappaB	Gene	18033
+31470105	1489	1495	KCa3.1	Gene	16534
+31470105	1533	1539	KCa3.1	Gene	16534
+31470105	1550	1562	astrogliosis	Disease	MESH:D005911
+31470105	1572	1589	neuroinflammation	Disease	MESH:D000090862
+31470105	1651	1654	AKT	Gene	11651
+31470105	1655	1663	GSK3beta	Gene	56637
+31470105	1668	1677	NF-kappaB	Gene	18033
+31470105	1718	1731	neuronal loss	Disease	MESH:D009410
+31470105	1736	1751	memory deficits	Disease	MESH:D008569
+31470105	1760	1777	neuroinflammation	Disease	MESH:D000090862
+31470105	1778	1783	mouse	Species	10090
+31470105	Association	MESH:D005911	18033
+31470105	Association	MESH:D009410	16534
+31470105	Association	MESH:D008070	11651
+31470105	Association	MESH:D008569	16534
+31470105	Association	109305	11651
+31470105	Association	MESH:D000090862	18033
+31470105	Association	109305	56637
+31470105	Positive_Correlation	MESH:D008070	MESH:D008569
+31470105	Association	11651	16534
+31470105	Association	MESH:D000090862	16534
+31470105	Association	MESH:D008070	18033
+31470105	Positive_Correlation	109305	16534
+31470105	Association	MESH:D005911	56637
+31470105	Association	16534	56637
+31470105	Association	MESH:D000090862	56637
+31470105	Association	MESH:D008070	MESH:D005911
+31470105	Positive_Correlation	MESH:D008070	MESH:D009410
+31470105	Association	MESH:D002544	16534
+31470105	Association	MESH:D005911	11651
+31470105	Association	MESH:D008070	16534
+31470105	Positive_Correlation	MESH:D008070	109305
+31470105	Association	109305	18033
+31470105	Association	MESH:D000090862	11651
+31470105	Association	MESH:D005911	16534
+31470105	Association	16534	18033
+31470105	Association	MESH:D005911	109305
+31470105	Association	MESH:D008070	56637
+31470105	Association	MESH:D000544	16534
+

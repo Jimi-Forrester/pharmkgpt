@@ -1,0 +1,16 @@
+36312858|t|A Breast Cancer Prediction Model Based on a Panel from Circulating Exosomal miRNAs.
+36312858|a|Breast cancer (BC) has been a serious threat to women's health. Exosomes contain a variety of biomolecules, which is an excellent choice as disease diagnostic markers, but whether it could be applied as a noninvasive biomarker for BC diagnosis demands to be additional studied. In this study, we aimed at creating a predictive model and reveal the value of plasma exosomal miRNA (exo-miRNA) in early diagnosis of BC. Firstly, exosomes isolated from plasma were identified by Nanoparticle Tracking Analysis (NTA), Transmission Electron Microscope (TEM), and Western Blot. miRNA expression in plasma samples from 56 BC patients and 40 normal controls was analyzed by high-throughput sequencing. miRNAs with strong correlation characteristics were selected by Lasso logistic regression. Then, we built the training set and test set, evaluated the Lasso regression accuracy, and evaluated the performance of different models in the training set and test set. Finally, GO analysis, KEGG, and Reactome pathway enrichment analysis were used to understand the biological significance of 16 characteristic miRNAs. The successful separation of exosomes in serum was identified by NTA, TEM, and Western Blot. The training set data matrix containing 1962 miRNAs was obtained by sequencing for model construction, and 16 strongly correlated miRNAs were selected by Lasso logistic regression. The accuracy of Lasso regression in training set and test set were 97.22% and 95.83%, respectively. We built different models and evaluated the performance of each model in the training set and test set. The results showed that the AUC values of Lasso, SVM, GBDT, and Random Forest model in the training set were 1, and the AUC values in the test set were 0.979, 0.936, 0.971, and 0.979, respectively. Bioinformatics analysis showed that 16 signature miRNAs were significantly enriched in cancer-related pathways such as herpes simplex virus 1 infection, TGF-beta signaling, and Toll-like receptor family. The results of this study suggest that the 16 characteristic miRNAs screened from plasma exosomes can be used as a group of biomarkers, and the prediction model constructed based on this set of markers is expected to be used in the early diagnosis of BC.
+36312858	2	15	Breast Cancer	Disease	MESH:D001943
+36312858	84	97	Breast cancer	Disease	MESH:D001943
+36312858	99	101	BC	Disease	MESH:D001943
+36312858	132	137	women	Species	9606
+36312858	315	317	BC	Disease	MESH:D001943
+36312858	497	499	BC	Disease	MESH:D001943
+36312858	698	700	BC	Disease	MESH:D001943
+36312858	701	709	patients	Species	9606
+36312858	1952	1958	cancer	Disease	MESH:D009369
+36312858	1984	2016	herpes simplex virus 1 infection	Disease	MESH:D006561
+36312858	2018	2026	TGF-beta	Gene	7040
+36312858	2320	2322	BC	Disease	MESH:D001943
+36312858	Association	MESH:D009369	7040
+

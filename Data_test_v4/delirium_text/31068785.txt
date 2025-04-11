@@ -1,0 +1,28 @@
+31068785|t|Data-Driven Analysis of Age, Sex, and Tissue Effects on Gene Expression Variability in Alzheimer's Disease.
+31068785|a|Alzheimer's disease (AD) has been categorized by the Centers for Disease Control and Prevention (CDC) as the 6th leading cause of death in the United States. AD is a significant health-care burden because of its increased occurrence (specifically in the elderly population), and the lack of effective treatments and preventive methods. With an increase in life expectancy, the CDC expects AD cases to rise to 15 million by 2060. Aging has been previously associated with susceptibility to AD, and there are ongoing efforts to effectively differentiate between normal and AD age-related brain degeneration and memory loss. AD targets neuronal function and can cause neuronal loss due to the buildup of amyloid-beta plaques and intracellular neurofibrillary tangles. Our study aims to identify temporal changes within gene expression profiles of healthy controls and AD subjects. We conducted a meta-analysis using publicly available microarray expression data from AD and healthy cohorts. For our meta-analysis, we selected datasets that reported donor age and gender, and used Affymetrix and Illumina microarray platforms (8 datasets, 2,088 samples). Raw microarray expression data were re-analyzed, and normalized across arrays. We then performed an analysis of variance, using a linear model that incorporated age, tissue type, sex, and disease state as effects, as well as study to account for batch effects, and included binary interactions between factors. Our results identified 3,735 statistically significant (Bonferroni adjusted p < 0.05) gene expression differences between AD and healthy controls, which we filtered for biological effect (10% two-tailed quantiles of mean differences between groups) to obtain 352 genes. Interesting pathways identified as enriched comprised of neurodegenerative diseases pathways (including AD), and also mitochondrial translation and dysfunction, synaptic vesicle cycle and GABAergic synapse, and gene ontology terms enrichment in neuronal system, transmission across chemical synapses and mitochondrial translation. Overall our approach allowed us to effectively combine multiple available microarray datasets and identify gene expression differences between AD and healthy individuals including full age and tissue type considerations. Our findings provide potential gene and pathway associations that can be targeted to improve AD diagnostics and potentially treatment or prevention.
+31068785	87	106	Alzheimer's Disease	Disease	MESH:D000544
+31068785	108	127	Alzheimer's disease	Disease	MESH:D000544
+31068785	129	131	AD	Disease	MESH:D000544
+31068785	238	243	death	Disease	MESH:D003643
+31068785	266	268	AD	Disease	MESH:D000544
+31068785	497	499	AD	Disease	MESH:D000544
+31068785	597	599	AD	Disease	MESH:D000544
+31068785	679	681	AD	Disease	MESH:D000544
+31068785	694	712	brain degeneration	Disease	MESH:D001927
+31068785	717	728	memory loss	Disease	MESH:D008569
+31068785	730	732	AD	Disease	MESH:D000544
+31068785	773	786	neuronal loss	Disease	MESH:D009410
+31068785	809	821	amyloid-beta	Gene	351
+31068785	973	975	AD	Disease	MESH:D000544
+31068785	1072	1074	AD	Disease	MESH:D000544
+31068785	1692	1694	AD	Disease	MESH:D000544
+31068785	1897	1923	neurodegenerative diseases	Disease	MESH:D019636
+31068785	1944	1946	AD	Disease	MESH:D000544
+31068785	1958	1971	mitochondrial	Disease	MESH:D028361
+31068785	1984	1999	and dysfunction	Disease	MESH:D006331
+31068785	2144	2157	mitochondrial	Disease	MESH:D028361
+31068785	2314	2316	AD	Disease	MESH:D000544
+31068785	2485	2487	AD	Disease	MESH:D000544
+31068785	Positive_Correlation	MESH:D000544	351
+31068785	Positive_Correlation	MESH:D009410	351
+

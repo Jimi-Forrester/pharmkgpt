@@ -1,0 +1,55 @@
+26936111|t|Integrated microRNA-gene analysis of coronary artery disease based on miRNA and gene expression profiles.
+26936111|a|The present study aimed to investigate the key genes and microRNAs (miRNA/miRs) associated with coronary artery disease (CAD) progression. The gene expression profile of GSE20680 and GSE12288, and the miRNA expression profile of GSE28858 were downloaded from the gene expression omnibus database. The differentially expressed genes (DEGs) in GSE20680 and GSE12288, and the differentially expressed miRNAs in GSE28858 were screened using the limma package in R software. Common DEGs between GSE20680 and GSE12288 were selected. Functions and pathways of DEGs and miRNAs were enriched using the DAVID tool from the GO and KEGG databases. The regulatory network of miRNA and selected CAD-associated DEGs was constructed. A total of 270 DEGs (167 upregulated and 103 downregulated) based on the GSE20680 dataset, and 2,268 DEGs (534 upregulated and 1,734 downregulated) based on the GSE12288 dataset, were screened. For the differentially expressed miRNAs, 214 were identified (102 upregulated and 112 downregulated) in CAD samples and were screened. Interferon regulatory factor 2 (IRF2) and cell death-inducing DFFA-like effector b (CIDEB), which are regulated by signal transducer and activator of transcription 3 and myc-associated factor X, were identified as common DEGs for CAD. miR-455-5p, miR-455-3p and miR-1257, which are involved in the major histocompatibility complex (MHC)protein assembly pathway and peptide antigen assembly with MHC class I protein complex pathway, may regulate various miRNAs and target genes, including pro-opiomelancortin (POMC), toll-like receptor 4 (TLR4), interleukin 10 (IL10), activating transcription factor 6 (ATF6) and calreticulin (CALR). The current study identified IRF2 and CIDEB as crucial genes, and miRNA-455-5p, miRNA-455-3p and miR-1257 along with their target genes POMC, TLR4 and CALR, as miRNAs involved in CAD progression. Thus, the present study may provide a basis for future research into the progression mechanism of CAD.
+26936111	37	60	coronary artery disease	Disease	MESH:D003324
+26936111	202	225	coronary artery disease	Disease	MESH:D003324
+26936111	227	230	CAD	Disease	MESH:D003324
+26936111	787	790	CAD	Disease	MESH:D003324
+26936111	1122	1125	CAD	Disease	MESH:D003324
+26936111	1153	1183	Interferon regulatory factor 2	Gene	3660
+26936111	1185	1189	IRF2	Gene	3660
+26936111	1195	1235	cell death-inducing DFFA-like effector b	Gene	27141
+26936111	1237	1242	CIDEB	Gene	27141
+26936111	1268	1318	signal transducer and activator of transcription 3	Gene	6774
+26936111	1323	1346	myc-associated factor X	Gene	4149
+26936111	1383	1386	CAD	Disease	MESH:D003324
+26936111	1388	1396	miR-455-	Gene	619556
+26936111	1400	1408	miR-455-	Gene	619556
+26936111	1415	1423	miR-1257	Gene	100302168
+26936111	1485	1488	MHC	Gene	3107
+26936111	1641	1660	pro-opiomelancortin	Gene	5443
+26936111	1662	1666	POMC	Gene	5443
+26936111	1669	1689	toll-like receptor 4	Gene	7099
+26936111	1691	1695	TLR4	Gene	7099
+26936111	1698	1712	interleukin 10	Gene	3586
+26936111	1714	1718	IL10	Gene	3586
+26936111	1721	1754	activating transcription factor 6	Gene	22926
+26936111	1756	1760	ATF6	Gene	22926
+26936111	1766	1778	calreticulin	Gene	811
+26936111	1780	1784	CALR	Gene	811
+26936111	1816	1820	IRF2	Gene	3660
+26936111	1825	1830	CIDEB	Gene	27141
+26936111	1884	1892	miR-1257	Gene	100302168
+26936111	1923	1927	POMC	Gene	5443
+26936111	1929	1933	TLR4	Gene	7099
+26936111	1938	1942	CALR	Gene	811
+26936111	1966	1969	CAD	Disease	MESH:D003324
+26936111	2081	2084	CAD	Disease	MESH:D003324
+26936111	Association	MESH:D003324	27141
+26936111	Association	100302168	5443
+26936111	Association	22926	619556
+26936111	Association	27141	4149
+26936111	Association	619556	7099
+26936111	Association	27141	6774
+26936111	Association	3586	619556
+26936111	Association	100302168	811
+26936111	Association	100302168	3586
+26936111	Association	MESH:D003324	6774
+26936111	Association	MESH:D003324	3660
+26936111	Association	100302168	7099
+26936111	Association	619556	811
+26936111	Association	100302168	22926
+26936111	Association	5443	619556
+26936111	Association	MESH:D003324	100302168
+26936111	Association	MESH:D003324	4149
+26936111	Association	MESH:D003324	619556
+

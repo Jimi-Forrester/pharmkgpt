@@ -1,0 +1,69 @@
+30071029|t|Evaluation of serum sphingolipids and the influence of genetic risk factors in age-related macular degeneration.
+30071029|a|Sphingolipids are bioactive molecules associated with oxidative stress, inflammation, and neurodegenerative diseases, but poorly studied in the context of age-related macular degeneration (AMD), a prevalent sight-threatening disease of the ageing retina. Here, we found higher serum levels of hexosylceramide (HexCer) d18:1/16:0 in patients with choroidal neovascularization (CNV) and geographic atrophy (GA), two manifestations of late stage AMD, and higher ceramide (Cer) d18:1/16:0 levels in GA patients. A sensitivity analysis of genetic variants known to be associated with late stage AMD showed that rs1061170 (p.Y402H) in the complement factor H (CFH) gene influences the association of Cer d18:1/16:0 with GA. To understand the possible influence of this genetic variant on ceramide levels, we established a cell-based assay to test the modulation of genes in the ceramide metabolism by factor H-like protein 1 (FHL-1), an alternative splicing variant of CFH that also harbors the 402 residue. We first showed that malondialdehyde-acetaldehyde adducts, an oxidation product commonly found in AMD retinas, induces an increase in ceramide levels in WERI-Rb1 cells in accordance with an increased expression of ceramide synthesis genes. Then, we observed that cells exposed to the non-risk FHL-1:Y402, but not the risk associated variant FHL-1:H402 or full-length CFH, downregulated ceramide synthase 2 and ceramide glucosyltransferase gene expression. Together, our findings show that serum ceramide and hexosylceramide species are altered in AMD patients and that ceramide levels may be influenced by AMD associated risk variants.
+30071029	20	33	sphingolipids	Chemical	MESH:D013107
+30071029	79	111	age-related macular degeneration	Disease	MESH:D008268
+30071029	113	126	Sphingolipids	Chemical	MESH:D013107
+30071029	185	197	inflammation	Disease	MESH:D007249
+30071029	203	229	neurodegenerative diseases	Disease	MESH:D019636
+30071029	268	300	age-related macular degeneration	Disease	MESH:D008268
+30071029	302	305	AMD	Disease	MESH:D008268
+30071029	406	421	hexosylceramide	Chemical	-
+30071029	423	429	HexCer	Chemical	-
+30071029	445	453	patients	Species	9606
+30071029	459	487	choroidal neovascularization	Disease	MESH:D020256
+30071029	489	492	CNV	Disease	MESH:D020256
+30071029	498	516	geographic atrophy	Disease	MESH:D057092
+30071029	518	520	GA	Disease	MESH:D057092
+30071029	556	559	AMD	Disease	MESH:D008268
+30071029	572	580	ceramide	Chemical	MESH:D002518
+30071029	582	585	Cer	Chemical	MESH:D002518
+30071029	608	610	GA	Disease	MESH:D057092
+30071029	611	619	patients	Species	9606
+30071029	703	706	AMD	Disease	MESH:D008268
+30071029	719	728	rs1061170	SNP	tmVar:rs1061170;VariantGroup:0;CorrespondingGene:3075;RS#:1061170;CorrespondingSpecies:9606
+30071029	730	737	p.Y402H	ProteinMutation	tmVar:p|SUB|Y|402|H;HGVS:p.Y402H;VariantGroup:0;CorrespondingGene:3075;RS#:1061170;CorrespondingSpecies:9606;CA#:1305284
+30071029	746	765	complement factor H	Gene	3075
+30071029	767	770	CFH	Gene	3075
+30071029	807	810	Cer	Chemical	MESH:D002518
+30071029	827	829	GA	Disease	MESH:D057092
+30071029	895	903	ceramide	Chemical	MESH:D002518
+30071029	985	993	ceramide	Chemical	MESH:D002518
+30071029	1008	1031	factor H-like protein 1	Gene	2273
+30071029	1033	1038	FHL-1	Gene	2273
+30071029	1076	1079	CFH	Gene	3075
+30071029	1136	1151	malondialdehyde	Chemical	MESH:D008315
+30071029	1152	1164	acetaldehyde	Chemical	MESH:D000079
+30071029	1213	1216	AMD	Disease	MESH:D008268
+30071029	1249	1257	ceramide	Chemical	MESH:D002518
+30071029	1268	1276	WERI-Rb1	CellLine	CVCL:1792
+30071029	1329	1337	ceramide	Chemical	MESH:D002518
+30071029	1408	1413	FHL-1	Gene	2273
+30071029	1456	1461	FHL-1	Gene	2273
+30071029	1482	1485	CFH	Gene	3075
+30071029	1501	1520	ceramide synthase 2	Gene	29956
+30071029	1525	1553	ceramide glucosyltransferase	Gene	7357
+30071029	1610	1618	ceramide	Chemical	MESH:D002518
+30071029	1623	1638	hexosylceramide	Chemical	-
+30071029	1662	1665	AMD	Disease	MESH:D008268
+30071029	1666	1674	patients	Species	9606
+30071029	1684	1692	ceramide	Chemical	MESH:D002518
+30071029	1721	1724	AMD	Disease	MESH:D008268
+30071029	Association	MESH:D057092	RS#:1061170;CorrespondingGene:3075
+30071029	Association	MESH:D002518	RS#:1061170;HGVS:p.Y402H;CorrespondingGene:3075
+30071029	Association	MESH:D057092	RS#:1061170;HGVS:p.Y402H;CorrespondingGene:3075
+30071029	Association	MESH:D057092	RS#:1061170;CorrespondingGene:3075
+30071029	Association	MESH:D002518	3075
+30071029	Positive_Correlation	MESH:D002518	MESH:D008268
+30071029	Association	MESH:D002518	RS#:1061170;CorrespondingGene:3075
+30071029	Positive_Correlation	MESH:D002518	MESH:D008315
+30071029	Positive_Correlation	MESH:D002518	MESH:D057092
+30071029	Association	MESH:D008315	MESH:D008268
+30071029	Association	MESH:D013107	MESH:D007249
+30071029	Positive_Correlation	MESH:D000079	MESH:D002518
+30071029	Positive_Correlation	MESH:D000079	MESH:D008268
+30071029	Association	MESH:D000079	MESH:D008315
+30071029	Association	MESH:D013107	MESH:D019636
+30071029	Association	MESH:D002518	RS#:1061170;CorrespondingGene:3075
+30071029	Association	MESH:D002518	2273
+30071029	Association	MESH:D057092	3075
+

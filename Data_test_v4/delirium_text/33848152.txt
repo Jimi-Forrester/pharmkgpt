@@ -1,0 +1,50 @@
+33848152|t|Mechanistic Differences of Activation of Rac1P29S and Rac1A159V.
+33848152|a|Rac1 is a small GTPase that plays key roles in actin reorganization, cell motility, and cell survival/growth as well as in various cancer types and neurodegenerative diseases. Similar to other Ras superfamily GTPases, Rac1 switches between active GTP-bound and inactive GDP-bound states. Switch I and II regions open and close during GDP/GTP exchange. P29S and A159V (paralogous to K-RasA146) mutations are the two most common somatic mutations of Rac1. Rac1P29S is a known hotspot for melanoma, whereas Rac1A159V most commonly occurs in head and neck cancer. To investigate how these substitutions induce the Rac1 dynamics, we used atomistic molecular dynamics simulations on the wild-type Rac1 and two mutant systems (P29S and A159V) in the GTP bound state, and on the wild-type Rac1 and P29S mutated system in the GDP bound state. Here, we show that P29S and A159V mutations activate Rac1 with different mechanisms. In Rac1P29S-GTP, the substitution increases the flexibility of Switch I based on RMSF and dihedral angle calculations and leads to an open conformation. We propose that the open Switch I conformation is one of the underlying reasons for rapid GDP/GTP exchange of Rac1P29S. On the other hand, in Rac1A159V-GTP, some of the contacts of the guanosine ring of GTP with Rac1 are temporarily lost, enabling the guanosine ring to move toward Switch I and subsequently close the switch. Rac1A159V-GTP adopts a Ras state 2 like conformation, where both switch regions are in closed conformation and Thr35 forms a hydrogen bond with the nucleotide.
+33848152	65	69	Rac1	Gene	5879
+33848152	196	202	cancer	Disease	MESH:D009369
+33848152	213	239	neurodegenerative diseases	Disease	MESH:D019636
+33848152	283	287	Rac1	Gene	5879
+33848152	312	315	GTP	Chemical	MESH:D006160
+33848152	335	338	GDP	Chemical	MESH:D006153
+33848152	399	402	GDP	Chemical	MESH:D006153
+33848152	403	406	GTP	Chemical	MESH:D006160
+33848152	417	421	P29S	ProteinMutation	tmVar:p|SUB|P|29|S;HGVS:p.P29S;VariantGroup:0;CorrespondingGene:5879;RS#:1057519874;CorrespondingSpecies:9606
+33848152	426	431	A159V	ProteinMutation	tmVar:p|SUB|A|159|V;HGVS:p.A159V;VariantGroup:1;CorrespondingGene:5879;CorrespondingSpecies:9606
+33848152	513	517	Rac1	Gene	5879
+33848152	551	559	melanoma	Disease	MESH:D008545
+33848152	603	623	head and neck cancer	Disease	MESH:D006258
+33848152	675	679	Rac1	Gene	5879
+33848152	756	760	Rac1	Gene	5879
+33848152	785	789	P29S	ProteinMutation	tmVar:p|SUB|P|29|S;HGVS:p.P29S;VariantGroup:0;CorrespondingGene:5879;RS#:1057519874;CorrespondingSpecies:9606
+33848152	794	799	A159V	ProteinMutation	tmVar:p|SUB|A|159|V;HGVS:p.A159V;VariantGroup:1;CorrespondingGene:5879;CorrespondingSpecies:9606
+33848152	808	811	GTP	Chemical	MESH:D006160
+33848152	846	850	Rac1	Gene	5879
+33848152	855	859	P29S	ProteinMutation	tmVar:p|SUB|P|29|S;HGVS:p.P29S;VariantGroup:0;CorrespondingGene:5879;RS#:1057519874;CorrespondingSpecies:9606
+33848152	882	885	GDP	Chemical	MESH:D006153
+33848152	918	922	P29S	ProteinMutation	tmVar:p|SUB|P|29|S;HGVS:p.P29S;VariantGroup:0;CorrespondingGene:5879;RS#:1057519874;CorrespondingSpecies:9606
+33848152	927	932	A159V	ProteinMutation	tmVar:p|SUB|A|159|V;HGVS:p.A159V;VariantGroup:1;CorrespondingGene:5879;CorrespondingSpecies:9606
+33848152	952	956	Rac1	Gene	5879
+33848152	996	999	GTP	Chemical	MESH:D006160
+33848152	1227	1230	GDP	Chemical	MESH:D006153
+33848152	1231	1234	GTP	Chemical	MESH:D006160
+33848152	1289	1292	GTP	Chemical	MESH:D006160
+33848152	1322	1331	guanosine	Chemical	MESH:D006151
+33848152	1340	1343	GTP	Chemical	MESH:D006160
+33848152	1349	1353	Rac1	Gene	5879
+33848152	1389	1398	guanosine	Chemical	MESH:D006151
+33848152	1473	1476	GTP	Chemical	MESH:D006160
+33848152	Association	MESH:D006258	HGVS:p.A159V;CorrespondingGene:5879
+33848152	Positive_Correlation	MESH:D006258	RS#:1057519874;HGVS:p.P29S;CorrespondingGene:5879
+33848152	Bind	MESH:D006160	5879
+33848152	Bind	MESH:D006151	5879
+33848152	Comparison	MESH:D006153	MESH:D006160
+33848152	Positive_Correlation	MESH:D008545	RS#:1057519874;HGVS:p.P29S;CorrespondingGene:5879
+33848152	Association	MESH:D006153	5879
+33848152	Association	MESH:D019636	5879
+33848152	Association	MESH:D009369	5879
+33848152	Association	MESH:D006151	MESH:D006160
+33848152	Association	MESH:D006258	5879
+33848152	Association	MESH:D008545	5879
+33848152	Association	MESH:D006258	5879
+33848152	Association	MESH:D008545	5879
+

@@ -1,0 +1,26 @@
+39240351|t|Implicating type 2 diabetes effector genes in relevant metabolic cellular models using promoter-focused Capture-C.
+39240351|a|AIMS/HYPOTHESIS: Genome-wide association studies (GWAS) have identified hundreds of type 2 diabetes loci, with the vast majority of signals located in non-coding regions; as a consequence, it remains largely unclear which 'effector' genes these variants influence. Determining these effector genes has been hampered by the relatively challenging cellular settings in which they are hypothesised to confer their effects. METHODS: To implicate such effector genes, we elected to generate and integrate high-resolution promoter-focused Capture-C, assay for transposase-accessible chromatin with sequencing (ATAC-seq) and RNA-seq datasets to characterise chromatin and expression profiles in multiple cell lines relevant to type 2 diabetes for subsequent functional follow-up analyses: EndoC-BH1 (pancreatic beta cell), HepG2 (hepatocyte) and Simpson-Golabi-Behmel syndrome (SGBS; adipocyte). RESULTS: The subsequent variant-to-gene analysis implicated 810 candidate effector genes at 370 type 2 diabetes risk loci. Using partitioned linkage disequilibrium score regression, we observed enrichment for type 2 diabetes and fasting glucose GWAS loci in promoter-connected putative cis-regulatory elements in EndoC-BH1 cells as well as fasting insulin GWAS loci in SGBS cells. Moreover, as a proof of principle, when we knocked down expression of the SMCO4 gene in EndoC-BH1 cells, we observed a statistically significant increase in insulin secretion. CONCLUSIONS/INTERPRETATION: These results provide a resource for comparing tissue-specific data in tractable cellular models as opposed to relatively challenging primary cell settings. DATA AVAILABILITY: Raw and processed next-generation sequencing data for EndoC-BH1, HepG2, SGBS_undiff and SGBS_diff cells are deposited in GEO under the Superseries accession GSE262484. Promoter-focused Capture-C data are deposited under accession GSE262496. Hi-C data are deposited under accession GSE262481. Bulk ATAC-seq data are deposited under accession GSE262479. Bulk RNA-seq data are deposited under accession GSE262480.
+39240351	12	27	type 2 diabetes	Disease	MESH:D003924
+39240351	199	214	type 2 diabetes	Disease	MESH:D003924
+39240351	835	850	type 2 diabetes	Disease	MESH:D003924
+39240351	897	906	EndoC-BH1	CellLine	CVCL:L909
+39240351	919	923	beta	CellLine	CVCL:R799
+39240351	931	936	HepG2	CellLine	CVCL:0027
+39240351	954	984	Simpson-Golabi-Behmel syndrome	Disease	MESH:C537340
+39240351	986	990	SGBS	Disease	MESH:C537340
+39240351	1100	1115	type 2 diabetes	Disease	MESH:D003924
+39240351	1213	1228	type 2 diabetes	Disease	MESH:D003924
+39240351	1241	1248	glucose	Chemical	MESH:D005947
+39240351	1317	1326	EndoC-BH1	CellLine	CVCL:L909
+39240351	1352	1359	insulin	Gene	3630
+39240351	1373	1377	SGBS	CellLine	CVCL:GS28
+39240351	1459	1464	SMCO4	Gene	56935
+39240351	1473	1482	EndoC-BH1	CellLine	CVCL:L909
+39240351	1542	1549	insulin	Gene	3630
+39240351	1819	1828	EndoC-BH1	CellLine	CVCL:L909
+39240351	1830	1835	HepG2	CellLine	CVCL:0027
+39240351	1837	1841	SGBS	CellLine	CVCL:GS28
+39240351	1853	1857	SGBS	CellLine	CVCL:GS28
+39240351	Association	3630	56935
+39240351	Association	MESH:C537340	56935
+

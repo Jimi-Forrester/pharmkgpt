@@ -1,0 +1,22 @@
+22589709|t|Prediction of drug-target interactions and drug repositioning via network-based inference.
+22589709|a|Drug-target interaction (DTI) is the basis of drug discovery and design. It is time consuming and costly to determine DTI experimentally. Hence, it is necessary to develop computational methods for the prediction of potential DTI. Based on complex network theory, three supervised inference methods were developed here to predict DTI and used for drug repositioning, namely drug-based similarity inference (DBSI), target-based similarity inference (TBSI) and network-based inference (NBI). Among them, NBI performed best on four benchmark data sets. Then a drug-target network was created with NBI based on 12,483 FDA-approved and experimental drug-target binary links, and some new DTIs were further predicted. In vitro assays confirmed that five old drugs, namely montelukast, diclofenac, simvastatin, ketoconazole, and itraconazole, showed polypharmacological features on estrogen receptors or dipeptidyl peptidase-IV with half maximal inhibitory or effective concentration ranged from 0.2 to 10 microM. Moreover, simvastatin and ketoconazole showed potent antiproliferative activities on human MDA-MB-231 breast cancer cell line in MTT assays. The results indicated that these methods could be powerful tools in prediction of DTIs and drug repositioning.
+22589709	857	868	montelukast	Chemical	MESH:C093875
+22589709	870	880	diclofenac	Chemical	MESH:D004008
+22589709	882	893	simvastatin	Chemical	MESH:D019821
+22589709	895	907	ketoconazole	Chemical	MESH:D007654
+22589709	913	925	itraconazole	Chemical	MESH:D017964
+22589709	988	1011	dipeptidyl peptidase-IV	Gene	1803
+22589709	1108	1119	simvastatin	Chemical	MESH:D019821
+22589709	1124	1136	ketoconazole	Chemical	MESH:D007654
+22589709	1183	1188	human	Species	9606
+22589709	1189	1199	MDA-MB-231	CellLine	CVCL:0062
+22589709	1200	1213	breast cancer	Disease	MESH:D001943
+22589709	1227	1230	MTT	Chemical	MESH:C070243
+22589709	Negative_Correlation	MESH:D004008	1803
+22589709	Negative_Correlation	MESH:D019821	1803
+22589709	Negative_Correlation	MESH:C093875	1803
+22589709	Negative_Correlation	MESH:D007654	1803
+22589709	Negative_Correlation	MESH:D019821	MESH:D001943
+22589709	Negative_Correlation	MESH:D007654	MESH:D001943
+22589709	Negative_Correlation	MESH:D017964	1803
+

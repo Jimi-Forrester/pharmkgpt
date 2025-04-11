@@ -1,0 +1,13 @@
+36383528|t|Machine learning based multi-modal prediction of future decline toward Alzheimer's disease: An empirical study.
+36383528|a|Alzheimer's disease (AD) is a neurodegenerative condition that progresses over decades. Early detection of individuals at high risk of future progression toward AD is likely to be of critical significance for the successful treatment and/or prevention of this devastating disease. In this paper, we present an empirical study to characterize how predictable an individual subjects' future AD trajectory is, several years in advance, based on rich multi-modal data, and using modern deep learning methods. Crucially, the machine learning strategy we propose can handle different future time horizons and can be trained with heterogeneous data that exhibit missingness and non-uniform follow-up visit times. Our experiments demonstrate that our strategy yields predictions that are more accurate than a model trained on a single time horizon (e.g. 3 years), which is common practice in prior literature. We also provide a comparison between linear and nonlinear models, verifying the well-established insight that the latter can offer a boost in performance. Our results also confirm that predicting future decline for cognitively normal (CN) individuals is more challenging than for individuals with mild cognitive impairment (MCI). Intriguingly, however, we discover that prediction accuracy decreases with increasing time horizon for CN subjects, but the trend is in the opposite direction for MCI subjects. Additionally, we quantify the contribution of different data types in prediction, which yields novel insights into the utility of different biomarkers. We find that molecular biomarkers are not as helpful for CN individuals as they are for MCI individuals, whereas magnetic resonance imaging biomarkers (hippocampus volume, specifically) offer a significant boost in prediction accuracy for CN individuals. Finally, we show how our model's prediction reveals the evolution of individual-level progression risk over a five-year time horizon. Our code is available at https://github.com/batuhankmkaraman/mlbasedad.
+36383528	71	90	Alzheimer's disease	Disease	MESH:D000544
+36383528	112	131	Alzheimer's disease	Disease	MESH:D000544
+36383528	133	135	AD	Disease	MESH:D000544
+36383528	142	169	neurodegenerative condition	Disease	MESH:D019636
+36383528	273	275	AD	Disease	MESH:D000544
+36383528	501	503	AD	Disease	MESH:D000544
+36383528	1316	1336	cognitive impairment	Disease	MESH:D003072
+36383528	1338	1341	MCI	Disease	MESH:D060825
+36383528	1507	1510	MCI	Disease	MESH:D060825
+36383528	1761	1764	MCI	Disease	MESH:D060825
+

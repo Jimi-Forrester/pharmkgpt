@@ -1,0 +1,39 @@
+39553489|t|Exploring the Therapeutic Mechanism of Pingxin Dingzhi Decoction Through Network Pharmacology and Molecular Docking.
+39553489|a|Objective: Studies have demonstrated that the combination of antipsychotics and Pingxin Dingzhi Decoction (PXDZD) can effectively enhance treatment efficacy for schizophrenia (SCZ), while simultaneously reducing the adverse reactions associated with antipsychotic treatment. However, the exact mechanism by which PXDZD exerts its therapeutic effects is still unknown. The aim of this study is to investigate the action mechanism of PXDZD using network pharmacology and molecular docking techniques. Methods: The primary components and their protein targets of PXDZD were extracted from TCMSP, SYMMAP, and HERB databases. The targets related to SCZ were acquired from OMIM and DisGeNET databases. The overlapping targets between composite targets and disease targets were used to construct a protein-protein interaction (PPI) network in the STRING database. The identified targets underwent GO and KEGG enrichment analysis, followed by molecular docking studies of the core target proteins and active compounds. Result: The screening process yielded 285 PXDZD component targets and 1982 disease targets, ultimately leading to the identification of 120 shared targets. The Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis revealed that PXDZD treatment for SCZ engages a diverse range of biological mechanisms, including inflammatory responses and apoptotic processes, while also modulating various signaling pathways such as the PI3K-Akt, mitogen-activated protein kinase (MAPK), and tumor necrosis factor (TNF) signaling pathways. The molecular docking results revealed a strong affinity of Estrogen Receptor 1 (ER1) toward both beta-sitosterol and stigmasterol, while kaempferol, beta-sitosterol, and stigmasterol demonstrated significant binding potential against TNF-alpha. Conclusion: Pingxin Dingzhi Decoction can play a role in treating SCZ through its multi-component, multi-target, and multi-pathway approach.
+39553489	39	64	Pingxin Dingzhi Decoction	Chemical	-
+39553489	197	222	Pingxin Dingzhi Decoction	Chemical	-
+39553489	224	229	PXDZD	Chemical	-
+39553489	278	291	schizophrenia	Disease	MESH:D012559
+39553489	293	296	SCZ	Disease	MESH:D012559
+39553489	430	435	PXDZD	Chemical	-
+39553489	549	554	PXDZD	Chemical	-
+39553489	677	682	PXDZD	Chemical	-
+39553489	761	764	SCZ	Disease	MESH:D012559
+39553489	784	788	OMIM	Disease	
+39553489	1170	1175	PXDZD	Chemical	-
+39553489	1381	1386	PXDZD	Chemical	-
+39553489	1401	1404	SCZ	Disease	MESH:D012559
+39553489	1465	1477	inflammatory	Disease	MESH:D007249
+39553489	1574	1578	PI3K	Gene	5293
+39553489	1579	1582	Akt	Gene	207
+39553489	1629	1650	tumor necrosis factor	Gene	7124
+39553489	1652	1655	TNF	Gene	7124
+39553489	1737	1756	Estrogen Receptor 1	Gene	2099
+39553489	1758	1761	ER1	Gene	2099
+39553489	1775	1790	beta-sitosterol	Chemical	MESH:C025473
+39553489	1795	1807	stigmasterol	Chemical	MESH:D013265
+39553489	1815	1825	kaempferol	Chemical	MESH:C006552
+39553489	1827	1842	beta-sitosterol	Chemical	MESH:C025473
+39553489	1848	1860	stigmasterol	Chemical	MESH:D013265
+39553489	1912	1921	TNF-alpha	Gene	7124
+39553489	1935	1960	Pingxin Dingzhi Decoction	Chemical	-
+39553489	1989	1992	SCZ	Disease	MESH:D012559
+39553489	Association	MESH:D013265	7124
+39553489	Association	MESH:D012559	5293
+39553489	Association	MESH:C025473	2099
+39553489	Association	MESH:C025473	7124
+39553489	Association	MESH:D013265	2099
+39553489	Association	MESH:D012559	7124
+39553489	Association	MESH:C006552	7124
+39553489	Association	MESH:D012559	207
+

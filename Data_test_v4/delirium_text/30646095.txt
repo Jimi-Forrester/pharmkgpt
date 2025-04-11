@@ -1,0 +1,25 @@
+30646095|t|Development and Validation of an Electronic Health Record-Based Machine Learning Model to Estimate Delirium Risk in Newly Hospitalized Patients Without Known Cognitive Impairment.
+30646095|a|Importance: Current methods for identifying hospitalized patients at increased risk of delirium require nurse-administered questionnaires with moderate accuracy. Objective: To develop and validate a machine learning model that predicts incident delirium risk based on electronic health data available on admission. Design, Setting, and Participants: Retrospective cohort study evaluating 5 machine learning algorithms to predict delirium using 796 clinical variables identified by an expert panel as relevant to delirium prediction and consistently available in electronic health records within 24 hours of admission. The training set comprised 14 227 adult patients with non-intensive care unit hospital stays and no delirium on admission who were discharged between January 1, 2016, and August 31, 2017, from UCSF Health, a large academic health institution. The test set comprised 3996 patients with hospital stays who were discharged between August 1, 2017, and November 30, 2017. Exposures: Patient demographic characteristics, diagnoses, nursing records, laboratory results, and medications available in electronic health records during hospitalization. Main Outcomes and Measures: Delirium was defined as a positive Nursing Delirium Screening Scale or Confusion Assessment Method for the Intensive Care Unit score. Models were assessed using the area under the receiver operating characteristic curve (AUC) and compared against the 4-point scoring system AWOL (age >79 years, failure to spell world backward, disorientation to place, and higher nurse-rated illness severity), a validated delirium risk-assessment tool routinely administered in this cohort. Results: The training set included 14 227 patients (5113 [35.9%] aged >64 years; 7335 [51.6%] female; 687 [4.8%] with delirium), and the test set included 3996 patients (1491 [37.3%] aged >64 years; 1966 [49.2%] female; 191 [4.8%] with delirium). In total, the analysis included 18 223 hospital admissions (6604 [36.2%] aged >64 years; 9301 [51.0%] female; 878 [4.8%] with delirium). The AWOL system achieved a baseline AUC of 0.678. The gradient boosting machine model performed best, with an AUC of 0.855. Setting specificity at 90%, the model had a 59.7% (95% CI, 52.4%-66.7%) sensitivity, 23.1% (95% CI, 20.5%-25.9%) positive predictive value, 97.8% (95% CI, 97.4%-98.1%) negative predictive value, and a number needed to screen of 4.8. Penalized logistic regression and random forest models also performed well, with AUCs of 0.854 and 0.848, respectively. Conclusions and Relevance: Machine learning can be used to estimate hospital-acquired delirium risk using electronic health record data available within 24 hours of hospital admission. Such a model may allow more precise targeting of delirium prevention resources without increasing the burden on health care professionals.
+30646095	99	107	Delirium	Disease	MESH:D003693
+30646095	135	143	Patients	Species	9606
+30646095	158	178	Cognitive Impairment	Disease	MESH:D003072
+30646095	237	245	patients	Species	9606
+30646095	267	275	delirium	Disease	MESH:D003693
+30646095	425	433	delirium	Disease	MESH:D003693
+30646095	609	617	delirium	Disease	MESH:D003693
+30646095	692	700	delirium	Disease	MESH:D003693
+30646095	838	846	patients	Species	9606
+30646095	898	906	delirium	Disease	MESH:D003693
+30646095	1069	1077	patients	Species	9606
+30646095	1176	1183	Patient	Species	9606
+30646095	1368	1376	Delirium	Disease	MESH:D003693
+30646095	1411	1419	Delirium	Disease	MESH:D003693
+30646095	1775	1783	delirium	Disease	MESH:D003693
+30646095	1886	1894	patients	Species	9606
+30646095	1962	1970	delirium	Disease	MESH:D003693
+30646095	2004	2012	patients	Species	9606
+30646095	2080	2088	delirium	Disease	MESH:D003693
+30646095	2217	2225	delirium	Disease	MESH:D003693
+30646095	2791	2799	delirium	Disease	MESH:D003693
+30646095	2939	2947	delirium	Disease	MESH:D003693
+

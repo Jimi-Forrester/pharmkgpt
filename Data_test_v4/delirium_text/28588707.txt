@@ -1,0 +1,37 @@
+28588707|t|Identification of potential target genes associated with the effect of propranolol on angiosarcoma via microarray analysis.
+28588707|a|The purpose of the present study was to explore the effect of propranolol on angiosarcoma, and the potential target genes involved in the processes of proliferation and differentiation of angiosarcoma tumor cells. The mRNA expression profile (GSE42534) was downloaded from the Gene Expressed Omnibus database, including three samples without propranolol treatment (control), three samples with propranolol treatment for 4 h and three samples with propranolol treatment for 24 h. The differentially expressed genes (DEGs) in angiosarcoma tumor cells with or without propranolol treatment were obtained via the limma package of R and designated DEGs-4 h and DEGs-24 h. The DEGs-24 h group was divided into two sets. Set 1 contained the DEGs also contained in the DEGs-4 h group. Set 2 contained the remainder of the DEGs. Functional and pathway enrichment analysis of sets 1 and 2 was performed. The protein-protein interaction (PPI) networks of sets 1 and 2 were constructed, termed PPI 1 and PPI 2, and visualized using Cytoscape software. Modules of the two PPI networks were analyzed, and their topological structures were simulated using the tYNA platform. A total of 543 and 2,025 DEGs were identified in angiosarcoma tumor cells treated with propranolol for 4 and 24 h, respectively, compared with the control group. A total of 401 DEGs were involved in DEGs-4 h and DEGs-24 h, including metallothionein 1, heme oxygenase 1, WW domain-binding protein 2 and sequestosome 1. Certain significantly enriched gene ontology (GO) terms and pathways of sets 1 and 2 were identified, containing 28 overlapping GO terms. Furthermore, 121 nodes and 700 associated pairs were involved in PPI 1, whereas 1,324 nodes and 11,839 associated pairs were involved in PPI 2. A total of 45 and 593 potential target genes were obtained according to the node degrees of PPI 1 and PPI 2. The results of the present study indicated that a number of potential target genes, including AXL receptor tyrosine kinase, coatomer subunit alpha, DR1-associated protein 1 and ERBB receptor feedback inhibitor 1 may be involved in the effect of propranolol on angiosarcoma.
+28588707	71	82	propranolol	Chemical	MESH:D011433
+28588707	86	98	angiosarcoma	Disease	MESH:D006394
+28588707	186	197	propranolol	Chemical	MESH:D011433
+28588707	201	213	angiosarcoma	Disease	MESH:D006394
+28588707	312	330	angiosarcoma tumor	Disease	MESH:D006394
+28588707	466	477	propranolol	Chemical	MESH:D011433
+28588707	518	529	propranolol	Chemical	MESH:D011433
+28588707	571	582	propranolol	Chemical	MESH:D011433
+28588707	648	666	angiosarcoma tumor	Disease	MESH:D006394
+28588707	689	700	propranolol	Chemical	MESH:D011433
+28588707	1333	1351	angiosarcoma tumor	Disease	MESH:D006394
+28588707	1371	1382	propranolol	Chemical	MESH:D011433
+28588707	1536	1552	heme oxygenase 1	Gene	3162
+28588707	1554	1581	WW domain-binding protein 2	Gene	23558
+28588707	1586	1600	sequestosome 1	Gene	8878
+28588707	2087	2090	AXL	Gene	558
+28588707	2091	2115	receptor tyrosine kinase	Gene	5979
+28588707	2117	2139	coatomer subunit alpha	Gene	1314
+28588707	2141	2165	DR1-associated protein 1	Gene	10589
+28588707	2170	2204	ERBB receptor feedback inhibitor 1	Gene	54206
+28588707	2238	2249	propranolol	Chemical	MESH:D011433
+28588707	2253	2265	angiosarcoma	Disease	MESH:D006394
+28588707	Association	MESH:D011433	1314
+28588707	Association	MESH:D006394	54206
+28588707	Association	MESH:D006394	23558
+28588707	Association	MESH:D011433	10589
+28588707	Negative_Correlation	MESH:D011433	558
+28588707	Association	MESH:D006394	8878
+28588707	Association	MESH:D006394	1314
+28588707	Association	MESH:D011433	54206
+28588707	Negative_Correlation	MESH:D011433	MESH:D006394
+28588707	Association	MESH:D006394	10589
+28588707	Association	MESH:D006394	558
+28588707	Association	MESH:D006394	5979
+

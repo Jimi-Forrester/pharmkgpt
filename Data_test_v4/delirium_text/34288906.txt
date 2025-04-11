@@ -1,0 +1,38 @@
+34288906|t|PEDF, a pleiotropic WTC-LI biomarker: Machine learning biomarker identification and validation.
+34288906|a|Biomarkers predict World Trade Center-Lung Injury (WTC-LI); however, there remains unaddressed multicollinearity in our serum cytokines, chemokines, and high-throughput platform datasets used to phenotype WTC-disease. To address this concern, we used automated, machine-learning, high-dimensional data pruning, and validated identified biomarkers. The parent cohort consisted of male, never-smoking firefighters with WTC-LI (FEV1, %Pred< lower limit of normal (LLN); n = 100) and controls (n = 127) and had their biomarkers assessed. Cases and controls (n = 15/group) underwent untargeted metabolomics, then feature selection performed on metabolites, cytokines, chemokines, and clinical data. Cytokines, chemokines, and clinical biomarkers were validated in the non-overlapping parent-cohort via binary logistic regression with 5-fold cross validation. Random forests of metabolites (n = 580), clinical biomarkers (n = 5), and previously assayed cytokines, chemokines (n = 106) identified that the top 5% of biomarkers important to class separation included pigment epithelium-derived factor (PEDF), macrophage derived chemokine (MDC), systolic blood pressure, macrophage inflammatory protein-4 (MIP-4), growth-regulated oncogene protein (GRO), monocyte chemoattractant protein-1 (MCP-1), apolipoprotein-AII (Apo-AII), cell membrane metabolites (sphingolipids, phospholipids), and branched-chain amino acids. Validated models via confounder-adjusted (age on 9/11, BMI, exposure, and pre-9/11 FEV1, %Pred) binary logistic regression had AUCROC [0.90(0.84-0.96)]. Decreased PEDF and MIP-4, and increased Apo-AII were associated with increased odds of WTC-LI. Increased GRO, MCP-1, and simultaneously decreased MDC were associated with decreased odds of WTC-LI. In conclusion, automated data pruning identified novel WTC-LI biomarkers; performance was validated in an independent cohort. One biomarker-PEDF, an antiangiogenic agent-is a novel, predictive biomarker of particulate-matter-related lung disease. Other biomarkers-GRO, MCP-1, MDC, MIP-4-reveal immune cell involvement in WTC-LI pathogenesis. Findings of our automated biomarker identification warrant further investigation into these potential pharmacotherapy targets.
+34288906	0	4	PEDF	Gene	20317
+34288906	20	26	WTC-LI	Disease	MESH:D055370
+34288906	115	145	World Trade Center-Lung Injury	Disease	MESH:D055370
+34288906	147	153	WTC-LI	Disease	MESH:D055370
+34288906	301	312	WTC-disease	Disease	MESH:D004194
+34288906	513	519	WTC-LI	Disease	MESH:D055370
+34288906	528	532	Pred	Chemical	MESH:C036266
+34288906	1155	1188	pigment epithelium-derived factor	Gene	20317
+34288906	1190	1194	PEDF	Gene	20317
+34288906	1197	1225	macrophage derived chemokine	Gene	20299
+34288906	1227	1230	MDC	Gene	20299
+34288906	1301	1334	growth-regulated oncogene protein	Gene	14825
+34288906	1336	1339	GRO	Gene	14825
+34288906	1342	1376	monocyte chemoattractant protein-1	Gene	20296
+34288906	1386	1404	apolipoprotein-AII	Gene	11807
+34288906	1406	1413	Apo-AII	Gene	11807
+34288906	1443	1456	sphingolipids	Chemical	MESH:D013107
+34288906	1458	1471	phospholipids	Chemical	MESH:D010743
+34288906	1478	1504	branched-chain amino acids	Chemical	MESH:D000597
+34288906	1596	1600	Pred	Chemical	MESH:C036266
+34288906	1669	1673	PEDF	Gene	20317
+34288906	1699	1706	Apo-AII	Gene	11807
+34288906	1746	1752	WTC-LI	Disease	MESH:D055370
+34288906	1764	1767	GRO	Gene	14825
+34288906	1805	1808	MDC	Gene	20299
+34288906	1848	1854	WTC-LI	Disease	MESH:D055370
+34288906	1911	1917	WTC-LI	Disease	MESH:D055370
+34288906	1996	2000	PEDF	Gene	20317
+34288906	2089	2101	lung disease	Disease	MESH:D008171
+34288906	2120	2123	GRO	Gene	14825
+34288906	2132	2135	MDC	Gene	20299
+34288906	2177	2183	WTC-LI	Disease	MESH:D055370
+34288906	Association	MESH:D055370	20317
+34288906	Association	MESH:D055370	14825
+34288906	Association	MESH:D055370	11807
+

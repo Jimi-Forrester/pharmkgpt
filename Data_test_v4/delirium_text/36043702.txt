@@ -1,0 +1,18 @@
+36043702|t|Identifying Medicare Beneficiaries With Delirium.
+36043702|a|BACKGROUND: Each year, thousands of older adults develop delirium, a serious, preventable condition. At present, there is no well-validated method to identify patients with delirium when using Medicare claims data or other large datasets. We developed and assessed the performance of classification algorithms based on longitudinal Medicare administrative data that included International Classification of Diseases, 10th Edition diagnostic codes. METHODS: Using a linked electronic health record (EHR)-Medicare claims dataset, 2 neurologists and 2 psychiatrists performed a standardized review of EHR records between 2016 and 2018 for a stratified random sample of 1002 patients among 40,690 eligible subjects. Reviewers adjudicated delirium status (reference standard) during this 3-year window using a structured protocol. We calculated the probability that each patient had delirium as a function of classification algorithms based on longitudinal Medicare claims data. We compared the performance of various algorithms against the reference standard, computing calibration-in-the-large, calibration slope, and the area-under-receiver-operating-curve using 10-fold cross-validation (CV). RESULTS: Beneficiaries had a mean age of 75 years, were predominately female (59%), and non-Hispanic Whites (93%); a review of the EHR indicated that 6% of patients had delirium during the 3 years. Although several classification algorithms performed well, a relatively simple model containing counts of delirium-related diagnoses combined with patient age, dementia status, and receipt of antipsychotic medications had the best overall performance [CV- calibration-in-the-large <0.001, CV-slope 0.94, and CV-area under the receiver operating characteristic curve (0.88 95% confidence interval: 0.84-0.91)]. CONCLUSIONS: A delirium classification model using Medicare administrative data and International Classification of Diseases, 10th Edition diagnosis codes can identify beneficiaries with delirium in large datasets.
+36043702	40	48	Delirium	Disease	MESH:D003693
+36043702	107	115	delirium	Disease	MESH:D003693
+36043702	209	217	patients	Species	9606
+36043702	223	231	delirium	Disease	MESH:D003693
+36043702	721	729	patients	Species	9606
+36043702	784	792	delirium	Disease	MESH:D003693
+36043702	916	923	patient	Species	9606
+36043702	928	936	delirium	Disease	MESH:D003693
+36043702	1398	1406	patients	Species	9606
+36043702	1411	1419	delirium	Disease	MESH:D003693
+36043702	1546	1554	delirium	Disease	MESH:D003693
+36043702	1587	1594	patient	Species	9606
+36043702	1600	1608	dementia	Disease	MESH:D003704
+36043702	1865	1873	delirium	Disease	MESH:D003693
+36043702	2037	2045	delirium	Disease	MESH:D003693
+

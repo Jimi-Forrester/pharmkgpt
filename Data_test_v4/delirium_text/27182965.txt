@@ -1,0 +1,15 @@
+27182965|t|Detection and interpretation of shared genetic influences on 42 human traits.
+27182965|a|We performed a scan for genetic variants associated with multiple phenotypes by comparing large genome-wide association studies (GWAS) of 42 traits or diseases. We identified 341 loci (at a false discovery rate of 10%) associated with multiple traits. Several loci are associated with multiple phenotypes; for example, a nonsynonymous variant in the zinc transporter SLC39A8 influences seven of the traits, including risk of schizophrenia (rs13107325: log-transformed odds ratio (log OR) = 0.15, P = 2 x 10(-12)) and Parkinson disease (log OR = -0.15, P = 1.6 x 10(-7)), among others. Second, we used these loci to identify traits that have multiple genetic causes in common. For example, variants associated with increased risk of schizophrenia also tended to be associated with increased risk of inflammatory bowel disease. Finally, we developed a method to identify pairs of traits that show evidence of a causal relationship. For example, we show evidence that increased body mass index causally increases triglyceride levels.
+27182965	64	69	human	Species	9606
+27182965	445	452	SLC39A8	Gene	64116
+27182965	503	516	schizophrenia	Disease	MESH:D012559
+27182965	518	528	rs13107325	SNP	tmVar:rs13107325;VariantGroup:0;CorrespondingGene:64116;RS#:13107325;CorrespondingSpecies:9606
+27182965	595	612	Parkinson disease	Disease	MESH:D010300
+27182965	810	823	schizophrenia	Disease	MESH:D012559
+27182965	876	902	inflammatory bowel disease	Disease	MESH:D015212
+27182965	1088	1100	triglyceride	Chemical	MESH:D014280
+27182965	Positive_Correlation	MESH:D012559	RS#:13107325;CorrespondingGene:64116
+27182965	Association	MESH:D012559	64116
+27182965	Association	MESH:D010300	64116
+27182965	Association	MESH:D012559	64116
+

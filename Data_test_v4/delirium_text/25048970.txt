@@ -1,0 +1,75 @@
+25048970|t|Oxidized LDL lipids increase beta-amyloid production by SH-SY5Y cells through glutathione depletion and lipid raft formation.
+25048970|a|Elevated total cholesterol in midlife has been associated with increased risk of dementia in later life. We have previously shown that low-density lipoprotein (LDL) is more oxidized in the plasma of dementia patients, although total cholesterol levels are not different from those of age-matched controls. beta-Amyloid (Abeta) peptide, which accumulates in Alzheimer disease (AD), arises from the initial cleavage of amyloid precursor protein by beta-secretase-1 (BACE1). BACE1 activity is regulated by membrane lipids and raft formation. Given the evidence for altered lipid metabolism in AD, we have investigated a mechanism for enhanced Abeta production by SH-SY5Y neuronal-like cells exposed to oxidized LDL (oxLDL). The viability of SH-SY5Y cells exposed to 4mug oxLDL and 25microM 27-hydroxycholesterol (27OH-C) was decreased significantly. Lipids, but not proteins, extracted from oxLDL were more cytotoxic than oxLDL. In parallel, the ratio of reduced glutathione (GSH) to oxidized glutathione was decreased at sublethal concentrations of lipids extracted from native and oxLDL. GSH loss was associated with an increase in acid sphingomyelinase (ASMase) activity and lipid raft formation, which could be inhibited by the ASMase inhibitor desipramine. 27OH-C and total lipids from LDL and oxLDL independently increased Abeta production by SH-SY5Y cells, and Abeta accumulation could be inhibited by desipramine and by N-acetylcysteine. These data suggest a mechanism whereby oxLDL lipids and 27OH-C can drive Abeta production by GSH depletion, ASMase-driven membrane remodeling, and BACE1 activation in neuronal cells.
+25048970	0	19	Oxidized LDL lipids	Chemical	-
+25048970	56	63	SH-SY5Y	CellLine	CVCL:0019
+25048970	78	89	glutathione	Chemical	MESH:D005978
+25048970	104	109	lipid	Chemical	MESH:D008055
+25048970	141	152	cholesterol	Chemical	MESH:D002784
+25048970	207	215	dementia	Disease	MESH:D003704
+25048970	325	333	dementia	Disease	MESH:D003704
+25048970	334	342	patients	Species	9606
+25048970	359	370	cholesterol	Chemical	MESH:D002784
+25048970	446	451	Abeta	Gene	351
+25048970	483	500	Alzheimer disease	Disease	MESH:D000544
+25048970	502	504	AD	Disease	MESH:D000544
+25048970	543	568	amyloid precursor protein	Gene	351
+25048970	572	588	beta-secretase-1	Gene	23621
+25048970	590	595	BACE1	Gene	23621
+25048970	598	603	BACE1	Gene	23621
+25048970	638	644	lipids	Chemical	MESH:D008055
+25048970	696	701	lipid	Chemical	MESH:D008055
+25048970	716	718	AD	Disease	MESH:D000544
+25048970	766	771	Abeta	Gene	351
+25048970	786	793	SH-SY5Y	CellLine	CVCL:0019
+25048970	864	871	SH-SY5Y	CellLine	CVCL:0019
+25048970	913	934	27-hydroxycholesterol	Chemical	MESH:C076996
+25048970	936	942	27OH-C	Chemical	MESH:C076996
+25048970	973	979	Lipids	Chemical	MESH:D008055
+25048970	1086	1097	glutathione	Chemical	MESH:D005978
+25048970	1099	1102	GSH	Chemical	MESH:D005978
+25048970	1107	1127	oxidized glutathione	Chemical	MESH:D019803
+25048970	1173	1179	lipids	Chemical	MESH:D008055
+25048970	1213	1216	GSH	Chemical	MESH:D005978
+25048970	1257	1278	acid sphingomyelinase	Gene	6609
+25048970	1280	1286	ASMase	Gene	6609
+25048970	1301	1306	lipid	Chemical	MESH:D008055
+25048970	1355	1361	ASMase	Gene	6609
+25048970	1372	1383	desipramine	Chemical	MESH:D003891
+25048970	1385	1391	27OH-C	Chemical	MESH:C076996
+25048970	1402	1408	lipids	Chemical	MESH:D008055
+25048970	1452	1457	Abeta	Gene	351
+25048970	1472	1479	SH-SY5Y	CellLine	CVCL:0019
+25048970	1491	1496	Abeta	Gene	351
+25048970	1532	1543	desipramine	Chemical	MESH:D003891
+25048970	1551	1567	N-acetylcysteine	Chemical	MESH:D000111
+25048970	1614	1620	lipids	Chemical	MESH:D008055
+25048970	1625	1631	27OH-C	Chemical	MESH:C076996
+25048970	1642	1647	Abeta	Gene	351
+25048970	1662	1665	GSH	Chemical	MESH:D005978
+25048970	1677	1683	ASMase	Gene	6609
+25048970	1716	1721	BACE1	Gene	23621
+25048970	Association	MESH:D008055	23621
+25048970	Negative_Correlation	MESH:C076996	MESH:D003891
+25048970	Association	MESH:D008055	6609
+25048970	Negative_Correlation	MESH:C076996	MESH:D000111
+25048970	Association	23621	351
+25048970	Positive_Correlation	MESH:C076996	351
+25048970	Positive_Correlation	MESH:D000544	351
+25048970	Negative_Correlation	MESH:C076996	MESH:D005978
+25048970	Positive_Correlation	MESH:D002784	MESH:D003704
+25048970	Negative_Correlation	MESH:D005978	6609
+25048970	Negative_Correlation	MESH:D005978	MESH:D008055
+25048970	Association	MESH:D000544	23621
+25048970	Positive_Correlation	MESH:C076996	23621
+25048970	Negative_Correlation	MESH:D000111	MESH:D008055
+25048970	Negative_Correlation	MESH:D003891	MESH:D008055
+25048970	Positive_Correlation	MESH:D008055	351
+25048970	Negative_Correlation	MESH:D003891	6609
+25048970	Negative_Correlation	MESH:D005978	351
+25048970	Association	MESH:C076996	6609
+25048970	Negative_Correlation	MESH:D000111	351
+25048970	Association	MESH:D008055	MESH:D000544
+25048970	Association	351	6609
+25048970	Negative_Correlation	MESH:D003891	351
+25048970	Negative_Correlation	MESH:D008055	MESH:D019803
+

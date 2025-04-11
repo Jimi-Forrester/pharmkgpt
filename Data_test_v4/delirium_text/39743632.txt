@@ -1,0 +1,33 @@
+39743632|t|Tau is a receptor with low affinity for glucocorticoids and is required for glucocorticoid-induced bone loss.
+39743632|a|Glucocorticoids (GCs) are the most prescribed anti-inflammatory and immunosuppressive drugs. However, their use is often limited by substantial side effects, such as GC-induced osteoporosis (GIO) with the underlying mechanisms still not fully understood. In this study, we identify Tau as a low-affinity binding receptor for GCs that plays a crucial role in GIO. Tau deficiency largely abolished bone loss induced by high-dose dexamethasone, a synthetic GC, in both inflammatory arthritis and GIO models. Furthermore, TRx0237, a Tau inhibitor identified from an FDA-approved drug library, effectively prevented GIO. Notably, combinatorial administration of TRx0237 and dexamethasone completely overcame the osteoporosis adverse effect of dexamethasone in treating inflammatory arthritis. These findings present Tau as a previously unrecognized GC receptor with low affinity, and provide potential strategies to mitigate a spectrum of GC-related adverse effects, particularly osteoporosis.
+39743632	0	3	Tau	Gene	4137
+39743632	99	108	bone loss	Disease	MESH:D001847
+39743632	287	299	osteoporosis	Disease	MESH:D010024
+39743632	301	304	GIO	Disease	MESH:D010024
+39743632	392	395	Tau	Gene	4137
+39743632	468	471	GIO	Disease	MESH:D010024
+39743632	473	487	Tau deficiency	Disease	MESH:C536599
+39743632	506	515	bone loss	Disease	MESH:D001847
+39743632	537	550	dexamethasone	Chemical	MESH:D003907
+39743632	576	598	inflammatory arthritis	Disease	MESH:D001168
+39743632	603	606	GIO	Disease	MESH:D010024
+39743632	628	635	TRx0237	Chemical	MESH:C011010
+39743632	639	642	Tau	Gene	4137
+39743632	721	724	GIO	Disease	MESH:D010024
+39743632	767	774	TRx0237	Chemical	MESH:C011010
+39743632	779	792	dexamethasone	Chemical	MESH:D003907
+39743632	817	829	osteoporosis	Disease	MESH:D010024
+39743632	848	861	dexamethasone	Chemical	MESH:D003907
+39743632	874	896	inflammatory arthritis	Disease	MESH:D001168
+39743632	921	924	Tau	Gene	4137
+39743632	1085	1097	osteoporosis	Disease	MESH:D010024
+39743632	Negative_Correlation	MESH:C011010	4137
+39743632	Positive_Correlation	MESH:D003907	MESH:D010024
+39743632	Positive_Correlation	MESH:D003907	MESH:D001847
+39743632	Negative_Correlation	MESH:C011010	MESH:D003907
+39743632	Association	MESH:D001847	4137
+39743632	Negative_Correlation	MESH:D003907	MESH:D001168
+39743632	Association	MESH:D010024	4137
+39743632	Negative_Correlation	MESH:C011010	MESH:D010024
+39743632	Association	MESH:D003907	MESH:C536599
+

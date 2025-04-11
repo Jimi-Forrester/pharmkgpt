@@ -1,0 +1,29 @@
+23285538|t|Domain transfer learning for MCI conversion prediction.
+23285538|a|In recent studies of Alzheimer's disease (AD), it has increasing attentions in identifying mild cognitive impairment (MCI) converters (MCI-C) from MCI non-converters (MCI-NC). Note that MCI is a prodromal stage of AD, with possibility to convert to AD. Most traditional methods for MCI conversion prediction learn information only from MCI subjects (including MCI-C and MCI-NC), not from other related subjects, e.g., AD and normal controls (NC), which can actually aid the classification between MCI-C and MCI-NC. In this paper, we propose a novel domain-transfer learning method for MCI conversion prediction. Different from most existing methods, we classify MCI-C and MCI-NC with aid from the domain knowledge learned with AD and NC subjects as auxiliary domain to further improve the classification performance. Our method contains two key components: (1) the cross-domain kernel learning for transferring auxiliary domain knowledge, and (2) the adapted support vector machine (SVM) decision function construction for cross-domain and auxiliary domain knowledge fusion. Experimental results on the Alzheimer's Disease neuroimaging initiative (ADNI) database show that the proposed method can significantly improve the classification performance between MCI-C and MCI-NC, with aid of domain knowledge learned from AD and NC subjects.
+23285538	29	32	MCI	Disease	MESH:D060825
+23285538	77	96	Alzheimer's disease	Disease	MESH:D000544
+23285538	98	100	AD	Disease	MESH:D000544
+23285538	152	172	cognitive impairment	Disease	MESH:D003072
+23285538	174	177	MCI	Disease	MESH:D060825
+23285538	191	196	MCI-C	Disease	MESH:D060825
+23285538	203	206	MCI	Disease	MESH:D060825
+23285538	223	226	MCI	Disease	MESH:D060825
+23285538	242	245	MCI	Disease	MESH:D060825
+23285538	270	272	AD	Disease	MESH:D000544
+23285538	305	307	AD	Disease	MESH:D000544
+23285538	338	341	MCI	Disease	MESH:D060825
+23285538	392	395	MCI	Disease	MESH:D060825
+23285538	416	421	MCI-C	Disease	MESH:D060825
+23285538	426	429	MCI	Disease	MESH:D060825
+23285538	474	476	AD	Disease	MESH:D000544
+23285538	553	558	MCI-C	Disease	MESH:D060825
+23285538	563	566	MCI	Disease	MESH:D060825
+23285538	641	644	MCI	Disease	MESH:D060825
+23285538	718	723	MCI-C	Disease	MESH:D060825
+23285538	728	731	MCI	Disease	MESH:D060825
+23285538	783	785	AD	Disease	MESH:D000544
+23285538	1159	1178	Alzheimer's Disease	Disease	MESH:D000544
+23285538	1314	1319	MCI-C	Disease	MESH:D060825
+23285538	1324	1327	MCI	Disease	MESH:D060825
+23285538	1374	1376	AD	Disease	MESH:D000544
+

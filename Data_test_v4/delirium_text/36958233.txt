@@ -1,0 +1,21 @@
+36958233|t|Multimodal cross enhanced fusion network for diagnosis of Alzheimer's disease and subjective memory complaints.
+36958233|a|Deep learning methods using multimodal imagings have been proposed for the diagnosis of Alzheimer's disease (AD) and its early stages (SMC, subjective memory complaints), which may help to slow the progression of the disease through early intervention. However, current fusion methods for multimodal imagings are generally coarse and may lead to suboptimal results through the use of shared extractors or simple downscaling stitching. Another issue with diagnosing brain diseases is that they often affect multiple areas of the brain, making it important to consider potential connections throughout the brain. However, traditional convolutional neural networks (CNNs) may struggle with this issue due to their limited local receptive fields. To address this, many researchers have turned to transformer networks, which can provide global information about the brain but can be computationally intensive and perform poorly on small datasets. In this work, we propose a novel lightweight network called MENet that adaptively recalibrates the multiscale long-range receptive field to localize discriminative brain regions in a computationally efficient manner. Based on this, the network extracts the intensity and location responses between structural magnetic resonance imagings (sMRI) and 18-Fluoro-Deoxy-Glucose Positron Emission computed Tomography (FDG-PET) as an enhancement fusion for AD and SMC diagnosis. Our method is evaluated on the publicly available ADNI datasets and achieves 97.67% accuracy in AD diagnosis tasks and 81.63% accuracy in SMC diagnosis tasks using sMRI and FDG-PET. These results achieve state-of-the-art (SOTA) performance in both tasks. To the best of our knowledge, this is one of the first deep learning research methods for SMC diagnosis with FDG-PET.
+36958233	58	77	Alzheimer's disease	Disease	MESH:D000544
+36958233	93	110	memory complaints	Disease	MESH:D008569
+36958233	200	219	Alzheimer's disease	Disease	MESH:D000544
+36958233	221	223	AD	Disease	MESH:D000544
+36958233	247	250	SMC	Disease	MESH:C564589
+36958233	263	280	memory complaints	Disease	MESH:D008569
+36958233	577	591	brain diseases	Disease	MESH:D001927
+36958233	1402	1425	18-Fluoro-Deoxy-Glucose	Chemical	-
+36958233	1465	1468	FDG	Chemical	MESH:D019788
+36958233	1503	1505	AD	Disease	MESH:D000544
+36958233	1510	1513	SMC	Disease	MESH:C564589
+36958233	1621	1623	AD	Disease	MESH:D000544
+36958233	1663	1666	SMC	Disease	MESH:C564589
+36958233	1698	1701	FDG	Chemical	MESH:D019788
+36958233	1870	1873	SMC	Disease	MESH:C564589
+36958233	1889	1892	FDG	Chemical	MESH:D019788
+36958233	Negative_Correlation	MESH:D019788	MESH:C564589
+36958233	Association	MESH:D019788	MESH:D000544
+

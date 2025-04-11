@@ -1,0 +1,42 @@
+10512094|t|Postoperative delirium indicating an adverse drug interaction involving the selective serotonin reuptake inhibitor, paroxetine?
+10512094|a|We report a postoperative delirium expressed by a 49-year-old female patient during recovery from anaesthesia. Prominent features of the delirium, which lasted for nearly 2 days, included agitation, confusion, uncontrolled limb movements, abnormal ocular function, hypertension, pyrexia, brisk reflexes, ankle clonus and raised creatine kinase. The delirium did not respond to naloxone, diazepam or flumazenil. The patient had not been prescribed neuroleptics but, before surgery, she had been taking the selective serotonin reuptake inhibitor, paroxetine, to relieve her depression. During surgery, she was given morphine, which increases release of the neurotransmitter, serotonin, and ondansetron, which blunts neuronal release of dopamine. Although there is no clear explanation for the delirium, it had many features in common with problems associated with paroxetine withdrawal, the serotonin syndrome and the malignant neuroleptic syndrome. We offer several alternative explanations for this event, all of which rest on disruption of serotonergic and/or dopaminergic transmission and which could also involve inhibition by paroxetine of the P450 enzyme, CYP2D6, which metabolizes ondansetron.
+10512094	0	22	Postoperative delirium	Disease	MESH:D000071257
+10512094	116	126	paroxetine	Chemical	MESH:D017374
+10512094	140	162	postoperative delirium	Disease	MESH:D000071257
+10512094	197	204	patient	Species	9606
+10512094	265	273	delirium	Disease	MESH:D003693
+10512094	316	325	agitation	Disease	MESH:D011595
+10512094	338	365	uncontrolled limb movements	Disease	MESH:D001259
+10512094	367	391	abnormal ocular function	Disease	MESH:D000014
+10512094	393	405	hypertension	Disease	MESH:D006973
+10512094	407	414	pyrexia	Disease	MESH:D005334
+10512094	416	430	brisk reflexes	Disease	MESH:D020195
+10512094	432	444	ankle clonus	Disease	MESH:D016512
+10512094	477	485	delirium	Disease	MESH:D003693
+10512094	505	513	naloxone	Chemical	MESH:D009270
+10512094	515	523	diazepam	Chemical	MESH:D003975
+10512094	527	537	flumazenil	Chemical	MESH:D005442
+10512094	543	550	patient	Species	9606
+10512094	673	683	paroxetine	Chemical	MESH:D017374
+10512094	700	710	depression	Disease	MESH:D003866
+10512094	742	750	morphine	Chemical	MESH:D009020
+10512094	801	810	serotonin	Chemical	MESH:D012701
+10512094	816	827	ondansetron	Chemical	MESH:D017294
+10512094	862	870	dopamine	Chemical	MESH:D004298
+10512094	919	927	delirium	Disease	MESH:D003693
+10512094	990	1000	paroxetine	Chemical	MESH:D017374
+10512094	1017	1035	serotonin syndrome	Disease	MESH:D020230
+10512094	1044	1074	malignant neuroleptic syndrome	Disease	MESH:D009459
+10512094	1258	1268	paroxetine	Chemical	MESH:D017374
+10512094	1289	1295	CYP2D6	Gene	1565
+10512094	1315	1326	ondansetron	Chemical	MESH:D017294
+10512094	Association	MESH:D017294	1565
+10512094	Positive_Correlation	MESH:D017374	MESH:D000071257
+10512094	Positive_Correlation	MESH:D017374	MESH:D003693
+10512094	Negative_Correlation	MESH:D017374	1565
+10512094	Positive_Correlation	MESH:D009020	MESH:D012701
+10512094	Negative_Correlation	MESH:D004298	MESH:D017294
+10512094	Negative_Correlation	MESH:D004298	MESH:D009020
+10512094	Negative_Correlation	MESH:D017374	MESH:D003866
+10512094	Association	MESH:D017294	MESH:D017374
+

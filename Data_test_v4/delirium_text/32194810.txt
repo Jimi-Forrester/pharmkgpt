@@ -1,0 +1,42 @@
+32194810|t|Systematic analysis of genetic variants in cancer-testis genes identified two novel lung cancer susceptibility loci in Chinese population.
+32194810|a|Cancer-testis (CT) genes played important roles in the progression of malignant tumors and were recognized as promising therapeutic targets. However, the roles of genetic variants in CT genes in lung cancer susceptibility have not been well depicted. This study aimed to evaluate the associations between genetic variants in CT genes and lung cancer risk in Chinese population. A total of 22,556 qualified SNPs from 268 lung cancer associated CT genes were initially evaluated based on our previous lung cancer GWAS (Genome-wide association studies) with 2,331 cases and 3,077 controls. As a result, 17 candidate SNPs were further genotyped in 1,056 cases and 1,053 controls using Sequenom platform. Two variants (rs6941653, OPRM1, T > C, screening: OR = 1.24, 95%CI: 1.12-1.38, P = 2.40x10-5; validation: OR = 1.18, 95%CI: 1.01-1.37, P = 0.039 and rs402969, NLRP8, C > T, screening: OR = 1.15, 95%CI: 1.04-1.26, P = 0.006; validation: OR = 1.16, 95%CI: 1.02-1.33, P = 0.028) were identified as novel lung cancer susceptibility variants. Stratification analysis indicated that the effect of rs6941653 was stronger in lung squamous cell carcinoma (OR = 1.36) than that in lung adenocarcinoma (OR = 1.15, I2 = 77%, P = 0.04). Finally, functional annotations, differential gene expression analysis, pathway and gene ontology analyses were performed to suggest the potential functions of our identified variants and genes. In conclusion, this study identified two novel lung cancer risk variants in Chinese population and provided deeper insight into the roles of CT genes in lung tumorigenesis.
+32194810	43	56	cancer-testis	Disease	MESH:D013736
+32194810	84	95	lung cancer	Disease	MESH:D008175
+32194810	209	225	malignant tumors	Disease	MESH:D009369
+32194810	334	345	lung cancer	Disease	MESH:D008175
+32194810	477	488	lung cancer	Disease	MESH:D008175
+32194810	559	570	lung cancer	Disease	MESH:D008175
+32194810	638	649	lung cancer	Disease	MESH:D008175
+32194810	853	862	rs6941653	SNP	tmVar:rs6941653;VariantGroup:1;CorrespondingGene:4988;RS#:6941653;CorrespondingSpecies:9606
+32194810	864	869	OPRM1	Gene	4988
+32194810	871	876	T > C	DNAMutation	tmVar:c|SUB|T||C;VariantGroup:3;CorrespondingGene:4988;CorrespondingSpecies:9606
+32194810	988	996	rs402969	SNP	tmVar:rs402969;VariantGroup:0;RS#:402969
+32194810	998	1003	NLRP8	Gene	126205
+32194810	1005	1010	C > T	DNAMutation	tmVar:c|SUB|C||T;VariantGroup:2;CorrespondingGene:126205;CorrespondingSpecies:9606
+32194810	1140	1151	lung cancer	Disease	MESH:D008175
+32194810	1230	1239	rs6941653	SNP	tmVar:rs6941653;VariantGroup:1;CorrespondingGene:4988;RS#:6941653;CorrespondingSpecies:9606
+32194810	1256	1284	lung squamous cell carcinoma	Disease	MESH:D002294
+32194810	1310	1329	lung adenocarcinoma	Disease	MESH:D000077192
+32194810	1605	1616	lung cancer	Disease	MESH:D008175
+32194810	1711	1729	lung tumorigenesis	Disease	MESH:D063646
+32194810	Positive_Correlation	CorrespondingGene:4988;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c	MESH:D008175
+32194810	Positive_Correlation	MESH:D000077192	RS#:6941653;CorrespondingGene:4988
+32194810	Positive_Correlation	CorrespondingGene:4988;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c	MESH:D002294
+32194810	Positive_Correlation	MESH:D008175	RS#:6941653;CorrespondingGene:4988
+32194810	Association	MESH:D008175	126205
+32194810	Association	CorrespondingGene:126205;CorrespondingSpecies:9606;VariantGroup:2;tmVar:c	MESH:D063646
+32194810	Association	MESH:D008175	4988
+32194810	Positive_Correlation	MESH:D002294	RS#:6941653;CorrespondingGene:4988
+32194810	Association	CorrespondingGene:4988;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c	MESH:D063646
+32194810	Positive_Correlation	CorrespondingGene:126205;CorrespondingSpecies:9606;VariantGroup:2;tmVar:c	MESH:D008175
+32194810	Association	MESH:D063646	126205
+32194810	Association	MESH:D063646	4988
+32194810	Positive_Correlation	MESH:D008175	RS#:402969
+32194810	Positive_Correlation	MESH:D002294	4988
+32194810	Association	MESH:D008175	4988
+32194810	Association	MESH:D000077192	4988
+32194810	Association	MESH:D002294	4988
+32194810	Association	MESH:D063646	126205
+32194810	Association	MESH:D063646	4988
+32194810	Association	MESH:D008175	126205
+

@@ -1,0 +1,14 @@
+38176576|t|Lightweight neural network for Alzheimer's disease classification using multi-slice sMRI.
+38176576|a|Alzheimer's disease (AD) is a progressive neurodegenerative disease. Early detection and intervention are crucial in preventing the progression of AD. To achieve efficient and scalable AD auto-detection based on structural Magnetic Resonance Imaging (sMRI), a lightweight neural network using multi-slice sMRI is proposed in this paper. The backbone for feature extraction is based on ShuffleNet V1 architecture, which is effective for overcoming the limitations posed by limited sMRI data and resource-restricted devices. In addition, we incorporate Efficient Channel Attention (ECA) to capture cross-channel interaction information, enabling us to effectively enhance features of disease associated brain regions. To optimize the model, we employ both cross entropy loss and triplet loss functions to constrain the predicted probabilities to the ground-truth labels, and to ensure appropriate representation of distances between different classes in the learned features. Experimental results show that the classification accuracies of our method for AD vs. CN, AD vs. MCI, and MCI vs. CN classification tasks are 95.00%, 87.50%, and 85.62% respectively. Our method utilizes only 3.42 M parameters and 6.08G FLOPs, while maintaining a comparable level of performance compared to the other 5 latest lightweight methods. This model design is computationally efficient, allowing it to process large amounts of data quickly and accurately in a timely manner. Additionally, it has the potential to advance the intelligent detection of Alzheimer's disease on devices with limited computing capabilities.
+38176576	31	50	Alzheimer's disease	Disease	MESH:D000544
+38176576	90	109	Alzheimer's disease	Disease	MESH:D000544
+38176576	111	113	AD	Disease	MESH:D000544
+38176576	132	157	neurodegenerative disease	Disease	MESH:D019636
+38176576	237	239	AD	Disease	MESH:D000544
+38176576	275	277	AD	Disease	MESH:D000544
+38176576	1143	1145	AD	Disease	MESH:D000544
+38176576	1154	1156	AD	Disease	MESH:D000544
+38176576	1161	1164	MCI	Disease	
+38176576	1170	1173	MCI	Disease	
+38176576	1622	1641	Alzheimer's disease	Disease	MESH:D000544
+

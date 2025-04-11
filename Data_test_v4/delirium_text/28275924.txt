@@ -1,0 +1,15 @@
+28275924|t|2D-SAR and 3D-QSAR analyses for acetylcholinesterase inhibitors.
+28275924|a|Alzheimer's disease (AD) accounts for almost three quarters of dementia patients and interferes people's normal life. Great progress has been made recently in the study of Acetylcholinesterase (AChE), known as one of AD's biomarkers. In this study, acetylcholinesterase inhibitors (AChEI) were collected to build a two-dimensional structure-activity relationship (2D-SAR) model and three-dimensional quantitative structure-activity relationship (3D-QSAR) model based on feature selection method combined with random forest. After calculation, the prediction accuracy of the 2D-SAR model was 89.63% by using the tenfold cross-validation test and 87.27% for the independent test set. Three cutting ways were employed to build 3D-QSAR models. A model with the highest [Formula: see text] (cross-validated correlation coefficient) and [Formula: see text](non-cross-validated correlation coefficient) was obtained to predict AChEI activity. The mean absolute error (MAE) of the training set and the test set was 0.0689 and 0.5273, respectively. In addition, molecular docking was also employed to reveal that the ionization state of the compounds had an impact upon their interaction with AChE. Molecular docking results indicate that Ser124 might be one of the active site residues.
+28275924	32	52	acetylcholinesterase	Gene	43
+28275924	65	84	Alzheimer's disease	Disease	MESH:D000544
+28275924	86	88	AD	Disease	MESH:D000544
+28275924	128	136	dementia	Disease	MESH:D003704
+28275924	137	145	patients	Species	9606
+28275924	237	257	Acetylcholinesterase	Gene	43
+28275924	259	263	AChE	Gene	43
+28275924	282	284	AD	Disease	MESH:D000544
+28275924	314	334	acetylcholinesterase	Gene	43
+28275924	1249	1254	AChE.	Gene	43
+28275924	1295	1301	Ser124	Chemical	-
+28275924	Association	MESH:D000544	43
+

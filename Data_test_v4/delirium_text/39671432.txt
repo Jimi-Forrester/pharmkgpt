@@ -1,0 +1,17 @@
+39671432|t|Random survival forest model for early prediction of Alzheimer's disease conversion in early and late Mild cognitive impairment stages.
+39671432|a|With a clinical trial failure rate of 99.6% for Alzheimer's Disease (AD), early diagnosis is critical. Machine learning (ML) models have shown promising results in early AD prediction, with survival ML models outperforming typical classifiers by providing probabilities of disease progression over time. This study utilized various ML survival models to predict the time-to-conversion to AD for early (eMCI) and late (lMCI) Mild Cognitive Impairment stages, considering their different progression rates. ADNI data, consisting of 291 eMCI and 546 lMCI cases, was preprocessed to handle missing values and data imbalance. The models used included Random Survival Forest (RSF), Extra Survival Trees (XST), Gradient Boosting (GB), Survival Tree (ST), Cox-net, and Cox Proportional Hazard (CoxPH). We evaluated cognitive, cerebrospinal fluid (CSF) biomarkers, and neuroimaging modalities, both individually and combined, to identify the most influential features. Our results indicate that RSF outperformed traditional CoxPH and other ML models. For eMCI, RSF trained on multimodal data achieved a C-Index of 0.90 and an IBS of 0.10. For lMCI, the C-Index was 0.82 and the IBS was 0.16. Cognitive tests showed a statistically significant improvement over other modalities, underscoring their reliability in early prediction. Furthermore, RSF-generated individual survival curves from baseline data facilitate clinical decision-making, aiding clinicians in developing personalized treatment plans and implementing preventive measures to slow or prevent AD progression in prodromal stages.
+39671432	53	72	Alzheimer's disease	Disease	MESH:D000544
+39671432	107	127	cognitive impairment	Disease	MESH:D003072
+39671432	184	203	Alzheimer's Disease	Disease	MESH:D000544
+39671432	205	207	AD	Disease	MESH:D000544
+39671432	306	308	AD	Disease	MESH:D000544
+39671432	524	526	AD	Disease	MESH:D000544
+39671432	538	542	eMCI	Disease	
+39671432	554	558	lMCI	Disease	
+39671432	565	585	Cognitive Impairment	Disease	MESH:D003072
+39671432	670	674	eMCI	Disease	
+39671432	683	687	lMCI	Disease	
+39671432	1182	1186	eMCI	Disease	
+39671432	1270	1274	lMCI	Disease	
+39671432	1684	1686	AD	Disease	MESH:D000544
+

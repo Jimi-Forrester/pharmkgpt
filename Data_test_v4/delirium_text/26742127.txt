@@ -1,0 +1,19 @@
+26742127|t|Relationship Induced Multi-Template Learning for Diagnosis of Alzheimer's Disease and Mild Cognitive Impairment.
+26742127|a|As shown in the literature, methods based on multiple templates usually achieve better performance, compared with those using only a single template for processing medical images. However, most existing multi-template based methods simply average or concatenate multiple sets of features extracted from different templates, which potentially ignores important structural information contained in the multi-template data. Accordingly, in this paper, we propose a novel relationship induced multi-template learning method for automatic diagnosis of Alzheimer's disease (AD) and its prodromal stage, i.e., mild cognitive impairment (MCI), by explicitly modeling structural information in the multi-template data. Specifically, we first nonlinearly register each brain's magnetic resonance (MR) image separately onto multiple pre-selected templates, and then extract multiple sets of features for this MR image. Next, we develop a novel feature selection algorithm by introducing two regularization terms to model the relationships among templates and among individual subjects. Using these selected features corresponding to multiple templates, we then construct multiple support vector machine (SVM) classifiers. Finally, an ensemble classification is used to combine outputs of all SVM classifiers, for achieving the final result. We evaluate our proposed method on 459 subjects from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database, including 97 AD patients, 128 normal controls (NC), 117 progressive MCI (pMCI) patients, and 117 stable MCI (sMCI) patients. The experimental results demonstrate promising classification performance, compared with several state-of-the-art methods for multi-template based AD/MCI classification.
+26742127	62	81	Alzheimer's Disease	Disease	MESH:D000544
+26742127	91	111	Cognitive Impairment	Disease	MESH:D003072
+26742127	660	679	Alzheimer's disease	Disease	MESH:D000544
+26742127	681	683	AD	Disease	MESH:D000544
+26742127	721	741	cognitive impairment	Disease	MESH:D003072
+26742127	743	746	MCI	Disease	MESH:D060825
+26742127	1500	1519	Alzheimer's Disease	Disease	MESH:D000544
+26742127	1574	1576	AD	Disease	MESH:D000544
+26742127	1577	1585	patients	Species	9606
+26742127	1629	1632	MCI	Disease	MESH:D060825
+26742127	1640	1648	patients	Species	9606
+26742127	1665	1668	MCI	Disease	MESH:D060825
+26742127	1670	1674	sMCI	Disease	MESH:D060825
+26742127	1676	1684	patients	Species	9606
+26742127	1833	1835	AD	Disease	MESH:D000544
+26742127	1836	1839	MCI	Disease	MESH:D060825
+

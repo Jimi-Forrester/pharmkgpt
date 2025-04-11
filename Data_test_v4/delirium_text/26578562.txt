@@ -1,0 +1,8 @@
+26578562|t|Discover hidden splicing variations by mapping personal transcriptomes to personal genomes.
+26578562|a|RNA-seq has become a popular technology for studying genetic variation of pre-mRNA alternative splicing. Commonly used RNA-seq aligners rely on the consensus splice site dinucleotide motifs to map reads across splice junctions. Consequently, genomic variants that create novel splice site dinucleotides may produce splice junction RNA-seq reads that cannot be mapped to the reference genome. We developed and evaluated an approach to identify 'hidden' splicing variations in personal transcriptomes, by mapping personal RNA-seq data to personal genomes. Computational analysis and experimental validation indicate that this approach identifies personal specific splice junctions at a low false positive rate. Applying this approach to an RNA-seq data set of 75 individuals, we identified 506 personal specific splice junctions, among which 437 were novel splice junctions not documented in current human transcript annotations. 94 splice junctions had splice site SNPs associated with GWAS signals of human traits and diseases. These involve genes whose splicing variations have been implicated in diseases (such as OAS1), as well as novel associations between alternative splicing and diseases (such as ICA1). Collectively, our work demonstrates that the personal genome approach to RNA-seq read alignment enables the discovery of a large but previously unknown catalog of splicing variations in human populations. 
+26578562	990	995	human	Species	9606
+26578562	1093	1098	human	Species	9606
+26578562	1208	1212	OAS1	Gene	4938
+26578562	1296	1300	ICA1	Gene	3382
+26578562	1489	1494	human	Species	9606
+

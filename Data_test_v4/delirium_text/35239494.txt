@@ -1,0 +1,19 @@
+35239494|t|A Multi-Stream Convolutional Neural Network for Classification of Progressive MCI in Alzheimer's Disease Using Structural MRI Images.
+35239494|a|Early diagnosis of Alzheimer's disease and its prodromal stage, also known as mild cognitive impairment (MCI), is critical since some patients with progressive MCI will develop the disease. We propose a multi-stream deep convolutional neural network fed with patch-based imaging data to classify stable MCI and progressive MCI. First, we compare MRI images of Alzheimer's disease with cognitively normal subjects to identify distinct anatomical landmarks using a multivariate statistical test. These landmarks are then used to extract patches that are fed into the proposed multi-stream convolutional neural network to classify MRI images. Next, we train the architecture in a separate scenario using samples from Alzheimer's disease images, which are anatomically similar to the progressive MCI ones and cognitively normal images to compensate for the lack of progressive MCI training data. Finally, we transfer the trained model weights to the proposed architecture in order to fine-tune the model using progressive MCI and stable MCI data. Experimental results on the ADNI-1 dataset indicate that our method outperforms existing methods for MCI classification, with an F1-score of 85.96%.
+35239494	78	81	MCI	Disease	MESH:D060825
+35239494	85	104	Alzheimer's Disease	Disease	MESH:D000544
+35239494	153	172	Alzheimer's disease	Disease	MESH:D000544
+35239494	212	237	mild cognitive impairment	Disease	MESH:D060825
+35239494	239	242	MCI	Disease	MESH:D060825
+35239494	268	276	patients	Species	9606
+35239494	294	297	MCI	Disease	MESH:D060825
+35239494	437	440	MCI	Disease	MESH:D060825
+35239494	457	460	MCI	Disease	MESH:D060825
+35239494	494	513	Alzheimer's disease	Disease	MESH:D000544
+35239494	848	867	Alzheimer's disease	Disease	MESH:D000544
+35239494	926	929	MCI	Disease	MESH:D060825
+35239494	1007	1010	MCI	Disease	MESH:D060825
+35239494	1152	1155	MCI	Disease	MESH:D060825
+35239494	1167	1170	MCI	Disease	MESH:D060825
+35239494	1278	1281	MCI	Disease	MESH:D060825
+

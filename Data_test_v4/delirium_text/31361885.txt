@@ -1,0 +1,27 @@
+31361885|t|Predicting medication-associated altered mental status in hospitalized patients: Development and validation of a risk model.
+31361885|a|PURPOSE: This study presents a medication-associated altered mental status (AMS) risk model for real-time implementation in inpatient electronic health record (EHR) systems. METHODS: We utilized a retrospective cohort of patients admitted to 2 large hospitals between January 2012 and October 2013. The study population included admitted patients aged >=18 years with exposure to an AMS risk-inducing medication within the first 5 hospitalization days. AMS events were identified by a measurable mental status change documented in the EHR in conjunction with the administration of an atypical antipsychotic or haloperidol. AMS risk factors and AMS risk-inducing medications were identified from the literature, drug information databases, and expert opinion. We used multivariate logistic regression with a full and backward eliminated set of risk factors to predict AMS. The final model was validated with 100 bootstrap samples. RESULTS: During 194,156 at-risk days for 66,875 admissions, 262 medication-associated AMS events occurred (an event rate of 0.13%). The strongest predictors included a history of AMS (odds ratio [OR], 9.55; 95% confidence interval [CI], 5.64-16.17), alcohol withdrawal (OR, 3.34; 95% CI, 2.18-5.13), history of delirium or psychosis (OR, 3.25; 95% CI, 2.39-4.40), presence in the intensive care unit (OR, 2.53; 95% CI, 1.89-3.39), and hypernatremia (OR, 2.40; 95% CI, 1.61-3.56). With a C statistic of 0.85, among patients scoring in the 90th percentile, our model captured 159 AMS events (60.7%). CONCLUSION: The risk model was demonstrated to have good predictive ability, with all risk factors operationalized from discrete EHR fields. The real-time identification of higher-risk patients would allow pharmacists to prioritize surveillance, thus allowing early management of precipitating factors.
+31361885	33	54	altered mental status	Disease	MESH:D013226
+31361885	71	79	patients	Species	9606
+31361885	178	199	altered mental status	Disease	MESH:D013226
+31361885	201	204	AMS	Disease	MESH:D013226
+31361885	249	258	inpatient	Species	
+31361885	346	354	patients	Species	9606
+31361885	463	471	patients	Species	9606
+31361885	508	511	AMS	Disease	MESH:D013226
+31361885	578	581	AMS	Disease	MESH:D013226
+31361885	735	746	haloperidol	Chemical	MESH:D006220
+31361885	748	751	AMS	Disease	MESH:D013226
+31361885	769	772	AMS	Disease	MESH:D013226
+31361885	992	995	AMS	Disease	MESH:D013226
+31361885	1141	1144	AMS	Disease	MESH:D013226
+31361885	1234	1237	AMS	Disease	MESH:D013226
+31361885	1305	1312	alcohol	Chemical	MESH:D000438
+31361885	1366	1374	delirium	Disease	MESH:D003693
+31361885	1378	1387	psychosis	Disease	MESH:D011618
+31361885	1490	1503	hypernatremia	Disease	MESH:D006955
+31361885	1569	1577	patients	Species	9606
+31361885	1633	1636	AMS	Disease	MESH:D013226
+31361885	1838	1846	patients	Species	9606
+31361885	Association	MESH:D000438	MESH:D013226
+31361885	Positive_Correlation	MESH:D006220	MESH:D013226
+

@@ -1,0 +1,19 @@
+35387180|t|The Systematic Analysis of Exercise Mechanism in Human Diseases.
+35387180|a|Background: As a part of a healthy lifestyle, exercise has been proven to be beneficial for the treatment of diseases and the prognosis of patients. Based on this, our research focuses on the impact of exercise on human health. Methods: To study and analyze the samples in the GSE18966 gene expression profile, we first performed an analysis on the differential expressed genes (DEGs) through GEO2R, and then the DEGs enrichment in Gene Ontology functions and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways through the Database for Annotation, Visualization and Integrated Discovery database was conducted. Then, we delved into the gene set enrichment in KEGG through gene set enrichment analysis. After that, we achieved the construction of the protein-protein interaction (PPI) network of DEGs based on the Search Tool for the Retrieval of Interacting Genes online database, and the hub genes were screened and identified. Results: We identified 433 upregulated DEGs and 186 downregulated DEGs from the samples before and after exercise in GSE18966. Through analysis, it was found that these DEGs-enriched pathways, such as the VEGF signaling pathway, the Wnt signaling pathway, and the insulin signaling pathway, were all involved in the regulation of various diseases. Then, GSEA analysis revealed that glycosaminoglycan biosynthesis chondroitin sulfate, type II diabetes mellitus, and basal cell carcinoma were related with exercise samples. The effects of these pathways on various diseases could be improved through exercise. Finally, 3 upregulated hub genes (VEGFA, POMC, and NRAS) and 3 downregulated hub genes (HRAS, NCOR1, and CAV1) were identified through the PPI network. Conclusions: The bioinformatic analysis of samples before and after exercise provides key pathways and genes related to exercise to regulate various diseases, which confirms that exercise has an important influence on the treatment of many diseases.
+35387180	49	63	Human Diseases	Species	
+35387180	204	212	patients	Species	9606
+35387180	279	284	human	Species	9606
+35387180	1204	1208	VEGF	Gene	7422
+35387180	1263	1270	insulin	Gene	3630
+35387180	1381	1398	glycosaminoglycan	Chemical	MESH:D006025
+35387180	1412	1431	chondroitin sulfate	Chemical	MESH:D002809
+35387180	1433	1458	type II diabetes mellitus	Disease	MESH:D003924
+35387180	1464	1484	basal cell carcinoma	Disease	MESH:D002280
+35387180	1641	1646	VEGFA	Gene	7422
+35387180	1648	1652	POMC	Gene	5443
+35387180	1658	1662	NRAS	Gene	4893
+35387180	1695	1699	HRAS	Gene	3265
+35387180	1701	1706	NCOR1	Gene	9611
+35387180	1712	1716	CAV1	Gene	857
+35387180	Association	MESH:D006025	MESH:D002280
+

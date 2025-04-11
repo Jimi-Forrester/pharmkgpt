@@ -1,0 +1,56 @@
+16403216|t|Common angiotensin receptor blockers may directly modulate the immune system via VDR, PPAR and CCR2b.
+16403216|a|BACKGROUND: There have been indications that common Angiotensin Receptor Blockers (ARBs) may be exerting anti-inflammatory actions by directly modulating the immune system. We decided to use molecular modelling to rapidly assess which of the potential targets might justify the expense of detailed laboratory validation. We first studied the VDR nuclear receptor, which is activated by the secosteroid hormone 1,25-dihydroxyvitamin-D. This receptor mediates the expression of regulators as ubiquitous as GnRH (Gonadatrophin hormone releasing hormone) and the Parathyroid Hormone (PTH). Additionally we examined Peroxisome Proliferator-Activated Receptor Gamma (PPARgamma), which affects the function of phagocytic cells, and the C-CChemokine Receptor, type 2b, (CCR2b), which recruits monocytes to the site of inflammatory immune challenge. RESULTS: Telmisartan was predicted to strongly antagonize (Ki asymptotically equal to 0.04 nmol) the VDR. The ARBs Olmesartan, Irbesartan and Valsartan (Ki asymptotically equal to10 nmol) are likely to be useful VDR antagonists at typical in-vivo concentrations. Candesartan (Ki asymptotically equal to 30 nmol) and Losartan (Ki asymptotically equal to 70 nmol) may also usefully inhibit the VDR. Telmisartan is a strong modulator of PPARgamma (Ki asymptotically equal to 0.3 nmol), while Losartan (Ki asymptotically equal to 3 nmol), Irbesartan (Ki asymptotically equal to 6 nmol), Olmesartan and Valsartan (Ki asymptotically equal to 12 nmol) also seem likely to have significant PPAR modulatory activity. Olmesartan and Irbesartan (Ki asymptotically equal to 9 nmol) additionally act as antagonists of a theoretical model of CCR2b. Initial validation of this CCR2b model was performed, and a proposed model for the Angiotensin II Type1 receptor (AT2R1) has been presented. CONCLUSION: Molecular modeling has proven valuable to generate testable hypotheses concerning receptor/ligand binding and is an important tool in drug design. ARBs were designed to act as antagonists for AT2R1, and it was not surprising to discover their affinity for the structurally similar CCR2b. However, this study also found evidence that ARBs modulate the activation of two key nuclear receptors-VDR and PPARgamma. If our simulations are confirmed by experiment, it is possible that ARBs may become useful as potent anti-inflammatory agents, in addition to their current indication as cardiovascular drugs.
+16403216	81	84	VDR	Gene	7421
+16403216	86	90	PPAR	Gene	5465
+16403216	212	224	inflammatory	Disease	MESH:D007249
+16403216	444	447	VDR	Gene	7421
+16403216	492	511	secosteroid hormone	Chemical	-
+16403216	512	536	1,25-dihydroxyvitamin-D.	Chemical	MESH:C097949
+16403216	606	610	GnRH	Gene	2796
+16403216	612	651	Gonadatrophin hormone releasing hormone	Gene	2796
+16403216	661	680	Parathyroid Hormone	Gene	5741
+16403216	682	685	PTH	Gene	5741
+16403216	713	761	Peroxisome Proliferator-Activated Receptor Gamma	Gene	5468
+16403216	763	772	PPARgamma	Gene	5468
+16403216	912	924	inflammatory	Disease	MESH:D007249
+16403216	952	963	Telmisartan	Chemical	MESH:D000077333
+16403216	1044	1047	VDR	Gene	7421
+16403216	1058	1068	Olmesartan	Chemical	MESH:C437965
+16403216	1070	1080	Irbesartan	Chemical	MESH:D000077405
+16403216	1085	1094	Valsartan	Chemical	MESH:D000068756
+16403216	1155	1158	VDR	Gene	7421
+16403216	1206	1217	Candesartan	Chemical	MESH:C081643
+16403216	1259	1267	Losartan	Chemical	MESH:D019808
+16403216	1335	1338	VDR	Gene	7421
+16403216	1340	1351	Telmisartan	Chemical	MESH:D000077333
+16403216	1377	1386	PPARgamma	Gene	5468
+16403216	1432	1440	Losartan	Chemical	MESH:D019808
+16403216	1478	1488	Irbesartan	Chemical	MESH:D000077405
+16403216	1526	1536	Olmesartan	Chemical	MESH:C437965
+16403216	1541	1550	Valsartan	Chemical	MESH:D000068756
+16403216	1625	1629	PPAR	Gene	5465
+16403216	1651	1661	Olmesartan	Chemical	MESH:C437965
+16403216	1666	1676	Irbesartan	Chemical	MESH:D000077405
+16403216	1861	1890	Angiotensin II Type1 receptor	Gene	185
+16403216	1892	1897	AT2R1	Gene	185
+16403216	2123	2128	AT2R1	Gene	185
+16403216	2322	2325	VDR	Gene	7421
+16403216	2330	2339	PPARgamma	Gene	5468
+16403216	2447	2459	inflammatory	Disease	MESH:D007249
+16403216	Negative_Correlation	MESH:D000077405	7421
+16403216	Negative_Correlation	MESH:D000077333	7421
+16403216	Association	MESH:C097949	2796
+16403216	Negative_Correlation	MESH:C081643	7421
+16403216	Association	MESH:C437965	5465
+16403216	Association	5741	7421
+16403216	Negative_Correlation	MESH:D000068756	7421
+16403216	Negative_Correlation	MESH:C437965	7421
+16403216	Association	MESH:D000077333	5468
+16403216	Association	MESH:D019808	5465
+16403216	Negative_Correlation	MESH:D019808	7421
+16403216	Association	MESH:C097949	5741
+16403216	Association	MESH:D000077405	5465
+16403216	Association	2796	7421
+16403216	Association	MESH:D000068756	5465
+16403216	Positive_Correlation	MESH:C097949	7421
+

@@ -1,0 +1,25 @@
+21625630|t|Is attentional blink a byproduct of neocortical attractors?
+21625630|a|This study proposes a computational model for attentional blink or "blink of the mind," a phenomenon where a human subject misses perception of a later expected visual pattern as two expected visual patterns are presented less than 500 ms apart. A neocortical patch modeled as an attractor network is stimulated with a sequence of 14 patterns 100 ms apart, two of which are expected targets. Patterns that become active attractors are considered recognized. A neocortical patch is represented as a square matrix of hypercolumns, each containing a set of minicolumns with synaptic connections within and across both minicolumns and hypercolumns. Each minicolumn consists of locally connected layer 2/3 pyramidal cells with interacting basket cells and layer 4 pyramidal cells for input stimulation. All neurons are implemented using the Hodgkin-Huxley multi-compartmental cell formalism and include calcium dynamics, and they interact via saturating and depressing AMPA/NMDA and GABA(A) synapses. Stored patterns are encoded with global connectivity of minicolumns across hypercolumns and active patterns compete as the result of lateral inhibition in the network. Stored patterns were stimulated over time intervals to create attractor interference measurable with synthetic spike traces. This setup corresponds with item presentations in human visual attentional blink studies. Stored target patterns were depolarized while distractor patterns where hyperpolarized to represent expectation of items in working memory. Simulations replicated the basic attentional blink phenomena and showed a reduced blink when targets were more salient. Studies on the inhibitory effect of benzodiazepines on attentional blink in human subjects were compared with neocortical simulations where the GABA(A) receptor conductance and decay time were increased. Simulations showed increases in the attentional blink duration, agreeing with observations in human studies. In addition, sensitivity analysis was performed on key parameters of the model, including Ca(2+)-gated K(+) channel conductance, synaptic depression, GABA(A) channel conductance and the NMDA/AMPA ratio of charge entry.
+21625630	3	20	attentional blink	Disease	MESH:D000092164
+21625630	106	123	attentional blink	Disease	MESH:D000092164
+21625630	128	145	blink of the mind	Disease	MESH:D000092164
+21625630	169	174	human	Species	9606
+21625630	958	965	calcium	Chemical	MESH:D002118
+21625630	1029	1033	NMDA	Chemical	MESH:D016202
+21625630	1038	1045	GABA(A)	Chemical	-
+21625630	1399	1404	human	Species	9606
+21625630	1412	1429	attentional blink	Disease	MESH:D000092164
+21625630	1612	1629	attentional blink	Disease	MESH:D000092164
+21625630	1661	1666	blink	Disease	MESH:D000092164
+21625630	1735	1750	benzodiazepines	Chemical	MESH:D001569
+21625630	1754	1771	attentional blink	Disease	MESH:D000092164
+21625630	1775	1780	human	Species	9606
+21625630	1939	1956	attentional blink	Disease	MESH:D000092164
+21625630	1997	2002	human	Species	9606
+21625630	2102	2108	Ca(2+)	Chemical	-
+21625630	2141	2160	synaptic depression	Disease	MESH:D003866
+21625630	2162	2169	GABA(A)	Chemical	-
+21625630	2198	2202	NMDA	Chemical	MESH:D016202
+21625630	2203	2207	AMPA	Chemical	MESH:D018350
+21625630	Negative_Correlation	MESH:D001569	MESH:D000092164
+

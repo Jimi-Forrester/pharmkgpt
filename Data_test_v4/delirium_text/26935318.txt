@@ -1,0 +1,35 @@
+26935318|t|In silico analyses for molecular genetic mechanism and candidate genes in patients with Alzheimer's disease.
+26935318|a|This study aimed to identify candidate genes and explore the molecular pathogenesis of Alzheimer's disease (AD). Exon microarray data composed by of three human entorhinal cortex samples of AD patients and three non-demented controls (NDC) were analyzed, then expression profile data were preprocessed with the Oligo package and differentially expressed genes (DEGs) were identified by limma package in R/Bioconductor. In addition, protein-protein interaction (PPI) network was predicted and constructed using the STRING database. Finally, gene ontology (GO)-biological processes (BP) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways enriched by DEGs were recognized. A total of 124 up-regulated and 218 down-regulated genes were identified. TGF-beta-activated kinase 1/MAP3K7 binding protein 2 (TAB 2) and chromogranin B (secretogranin 1) (CHGB) were the significantly up- and down-regulated genes, respectively. In addition, DEGs of DnaJ (Hsp40) homolog, subfamily B, member 1 (DNAJB1) and heat shock 70 kDa protein 1A (HSPA1A) were in the up-regulated network, while synaptophysin (SYP) and somatostatin (SST) were in the down-regulated network. Furthermore, the up-regulated genes were enriched in GO-BP terms of protein stimulus, unfolding and organic substance, etc., and pathways of ECM-receptor interaction, etc. The down-regulated genes were mainly associated with nerve-related transmission and neuroactive substances transportation. Protein folding abnormality and altered synaptic transmission could have a synergistic effect on the pathomechanism of AD. DEGs including DNAJB1 and HSPA1A may be involved in both the processes, while CHGB, SYP and SST may be important for the regulation of synaptic transmission to contribute to the progress and development of AD.
+26935318	74	82	patients	Species	9606
+26935318	88	107	Alzheimer's disease	Disease	MESH:D000544
+26935318	196	215	Alzheimer's disease	Disease	MESH:D000544
+26935318	217	219	AD	Disease	MESH:D000544
+26935318	264	269	human	Species	9606
+26935318	299	301	AD	Disease	MESH:D000544
+26935318	302	310	patients	Species	9606
+26935318	862	889	TGF-beta-activated kinase 1	Gene	6885
+26935318	916	921	TAB 2	Gene	23118
+26935318	927	941	chromogranin B	Gene	1114
+26935318	943	958	secretogranin 1	Gene	1114
+26935318	1055	1098	DnaJ (Hsp40) homolog, subfamily B, member 1	Gene	3337;11080
+26935318	1100	1106	DNAJB1	Gene	3337
+26935318	1112	1140	heat shock 70 kDa protein 1A	Gene	3303
+26935318	1142	1148	HSPA1A	Gene	3303
+26935318	1190	1203	synaptophysin	Gene	6855
+26935318	1205	1208	SYP	Gene	6855
+26935318	1214	1226	somatostatin	Gene	6750
+26935318	1228	1231	SST	Gene	6750
+26935318	1410	1413	ECM	Gene	22915
+26935318	1525	1547	neuroactive substances	Chemical	-
+26935318	1683	1685	AD	Disease	MESH:D000544
+26935318	1702	1708	DNAJB1	Gene	3337
+26935318	1713	1719	HSPA1A	Gene	3303
+26935318	1771	1774	SYP	Gene	6855
+26935318	1779	1782	SST	Gene	6750
+26935318	1893	1895	AD	Disease	MESH:D000544
+26935318	Association	MESH:D000544	3303
+26935318	Negative_Correlation	MESH:D000544	6855
+26935318	Association	MESH:D000544	6750
+26935318	Association	MESH:D000544	3337
+26935318	Association	MESH:D000544	11080
+

@@ -1,0 +1,16 @@
+34260593|t|Dementia risks identified by vocal features via telephone conversations: A novel machine learning prediction model.
+34260593|a|Due to difficulty in early diagnosis of Alzheimer's disease (AD) related to cost and differentiated capability, it is necessary to identify low-cost, accessible, and reliable tools for identifying AD risk in the preclinical stage. We hypothesized that cognitive ability, as expressed in the vocal features in daily conversation, is associated with AD progression. Thus, we have developed a novel machine learning prediction model to identify AD risk by using the rich voice data collected from daily conversations, and evaluated its predictive performance in comparison with a classification method based on the Japanese version of the Telephone Interview for Cognitive Status (TICS-J). We used 1,465 audio data files from 99 Healthy controls (HC) and 151 audio data files recorded from 24 AD patients derived from a dementia prevention program conducted by Hachioji City, Tokyo, between March and May 2020. After extracting vocal features from each audio file, we developed machine-learning models based on extreme gradient boosting (XGBoost), random forest (RF), and logistic regression (LR), using each audio file as one observation. We evaluated the predictive performance of the developed models by describing the receiver operating characteristic (ROC) curve, calculating the areas under the curve (AUCs), sensitivity, and specificity. Further, we conducted classifications by considering each participant as one observation, computing the average of their audio files' predictive value, and making comparisons with the predictive performance of the TICS-J based questionnaire. Of 1,616 audio files in total, 1,308 (81.0%) were randomly allocated to the training data and 308 (19.1%) to the validation data. For audio file-based prediction, the AUCs for XGboost, RF, and LR were 0.863 (95% confidence interval [CI]: 0.794-0.931), 0.882 (95% CI: 0.840-0.924), and 0.893 (95%CI: 0.832-0.954), respectively. For participant-based prediction, the AUC for XGboost, RF, LR, and TICS-J were 1.000 (95%CI: 1.000-1.000), 1.000 (95%CI: 1.000-1.000), 0.972 (95%CI: 0.918-1.000) and 0.917 (95%CI: 0.918-1.000), respectively. There was difference in predictive accuracy of XGBoost and TICS-J with almost approached significance (p = 0.065). Our novel prediction model using the vocal features of daily conversations demonstrated the potential to be useful for the AD risk assessment.
+34260593	0	8	Dementia	Disease	MESH:D003704
+34260593	156	175	Alzheimer's disease	Disease	MESH:D000544
+34260593	177	179	AD	Disease	MESH:D000544
+34260593	313	315	AD	Disease	MESH:D000544
+34260593	464	466	AD	Disease	MESH:D000544
+34260593	558	560	AD	Disease	MESH:D000544
+34260593	786	792	Status	Disease	MESH:D013226
+34260593	906	908	AD	Disease	MESH:D000544
+34260593	909	917	patients	Species	9606
+34260593	933	941	dementia	Disease	MESH:D003704
+34260593	1516	1527	participant	Species	9606
+34260593	2031	2042	participant	Species	9606
+34260593	2473	2475	AD	Disease	MESH:D000544
+

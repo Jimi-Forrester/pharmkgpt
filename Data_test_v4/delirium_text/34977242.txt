@@ -1,0 +1,26 @@
+34977242|t|Study on the Mechanism of Acori Graminei Rhizoma in the Treatment of Alzheimer's Disease Based on Network Pharmacology and Molecular Docking.
+34977242|a|Alzheimer's disease is a common neurodegenerative disease in the elderly. This study explored the curative effect and possible mechanism of Acori graminei rhizoma on Alzheimer's disease. In this paper, 8 active components of Acori graminei rhizoma were collected by consulting literature and using the TCMSP database, and 272 targets were screened using the PubChem and Swiss Target Prediction databases. Introduce it into the software of Cytoscape 3.7.2 and establish the graph of "drug-active ingredient-ingredient target." A total of 276 AD targets were obtained from OMIM, Gene Cards, and DisGeNET databases. Import the intersection targets of drugs and diseases into STRING database for enrichment analysis, and build PPI network in the Cytoscape 3.7.2 software, whose core targets involve APP, AMPK, NOS3, etc. GO analysis and KEGG analysis showed that there were 195 GO items and 30 AD-related pathways, including Alzheimer's disease pathway, serotonin synapse, estrogen signaling pathway, dopaminergic synapse, and PI3K-Akt signaling pathway. Finally, molecular docking was carried out to verify the binding ability between Acori graminei rhizoma and core genes. Our results predict that Acori graminei rhizoma can treat AD mainly by mediating Alzheimer's signal pathway, thus reducing the production of Abeta, inhibiting the hyperphosphorylation of tau protein, regulating neurotrophic factors, and regulating the activity of kinase to change the function of the receptor.
+34977242	26	48	Acori Graminei Rhizoma	Species	
+34977242	69	88	Alzheimer's Disease	Disease	MESH:D000544
+34977242	142	161	Alzheimer's disease	Disease	MESH:D000544
+34977242	174	199	neurodegenerative disease	Disease	MESH:D019636
+34977242	282	304	Acori graminei rhizoma	Species	
+34977242	308	327	Alzheimer's disease	Disease	MESH:D000544
+34977242	367	389	Acori graminei rhizoma	Species	
+34977242	683	685	AD	Disease	MESH:D000544
+34977242	942	946	AMPK	Gene	5562
+34977242	948	952	NOS3	Gene	4846
+34977242	1032	1034	AD	Disease	MESH:D000544
+34977242	1063	1082	Alzheimer's disease	Disease	MESH:D000544
+34977242	1092	1101	serotonin	Chemical	MESH:D012701
+34977242	1170	1173	Akt	Gene	207
+34977242	1274	1296	Acori graminei rhizoma	Species	
+34977242	1371	1373	AD	Disease	MESH:D000544
+34977242	1394	1405	Alzheimer's	Disease	MESH:D000544
+34977242	1454	1459	Abeta	Gene	351
+34977242	1500	1503	tau	Gene	4137
+34977242	Association	MESH:D000544	4137
+34977242	Association	MESH:D000544	207
+34977242	Association	MESH:D000544	351
+34977242	Association	MESH:D012701	MESH:D000544
+

@@ -1,0 +1,31 @@
+35109872|t|Cyclic multiplex fluorescent immunohistochemistry and machine learning reveal distinct states of astrocytes and microglia in normal aging and Alzheimer's disease.
+35109872|a|BACKGROUND: Astrocytes and microglia react to Abeta plaques, neurofibrillary tangles, and neurodegeneration in the Alzheimer's disease (AD) brain. Single-nuclei and single-cell RNA-seq have revealed multiple states or subpopulations of these glial cells but lack spatial information. We have developed a methodology of cyclic multiplex fluorescent immunohistochemistry on human postmortem brains and image analysis that enables a comprehensive morphological quantitative characterization of astrocytes and microglia in the context of their spatial relationships with plaques and tangles. METHODS: Single FFPE sections from the temporal association cortex of control and AD subjects were subjected to 8 cycles of multiplex fluorescent immunohistochemistry, including 7 astroglial, 6 microglial, 1 neuronal, Abeta, and phospho-tau markers. Our analysis pipeline consisted of: (1) image alignment across cycles; (2) background subtraction; (3) manual annotation of 5172 ALDH1L1+ astrocytic and 6226 IBA1+ microglial profiles; (4) local thresholding and segmentation of profiles; (5) machine learning on marker intensity data; and (6) deep learning on image features. RESULTS: Spectral clustering identified three phenotypes of astrocytes and microglia, which we termed "homeostatic," "intermediate," and "reactive." Reactive and, to a lesser extent, intermediate astrocytes and microglia were closely associated with AD pathology (<= 50 microm). Compared to homeostatic, reactive astrocytes contained substantially higher GFAP and YKL-40, modestly elevated vimentin and TSPO as well as EAAT1, and reduced GS. Intermediate astrocytes had markedly increased EAAT2, moderately increased GS, and intermediate GFAP and YKL-40 levels. Relative to homeostatic, reactive microglia showed increased expression of all markers (CD68, ferritin, MHC2, TMEM119, TSPO), whereas intermediate microglia exhibited increased ferritin and TMEM119 as well as intermediate CD68 levels. Machine learning models applied on either high-plex signal intensity data (gradient boosting machines) or directly on image features (convolutional neural networks) accurately discriminated control vs. AD diagnoses at the single-cell level. CONCLUSIONS: Cyclic multiplex fluorescent immunohistochemistry combined with machine learning models holds promise to advance our understanding of the complexity and heterogeneity of glial responses as well as inform transcriptomics studies. Three distinct phenotypes emerged with our combination of markers, thus expanding the classic binary "homeostatic vs. reactive" classification to a third state, which could represent "transitional" or "resilient" glia.
+35109872	142	161	Alzheimer's disease	Disease	MESH:D000544
+35109872	209	214	Abeta	Gene	351
+35109872	224	247	neurofibrillary tangles	Disease	MESH:D055956
+35109872	253	270	neurodegeneration	Disease	MESH:D019636
+35109872	278	297	Alzheimer's disease	Disease	MESH:D000544
+35109872	299	301	AD	Disease	MESH:D000544
+35109872	535	540	human	Species	9606
+35109872	833	835	AD	Disease	MESH:D000544
+35109872	969	974	Abeta	Gene	351
+35109872	988	991	tau	Gene	4137
+35109872	1130	1137	ALDH1L1	Gene	10840
+35109872	1159	1163	IBA1	Gene	199
+35109872	1577	1579	AD	Disease	MESH:D000544
+35109872	1682	1686	GFAP	Gene	2670
+35109872	1691	1697	YKL-40	Gene	1116
+35109872	1717	1725	vimentin	Gene	7431
+35109872	1730	1734	TSPO	Gene	706
+35109872	1746	1751	EAAT1	Gene	6507
+35109872	1816	1821	EAAT2	Gene	6506
+35109872	1865	1869	GFAP	Gene	2670
+35109872	1874	1880	YKL-40	Gene	1116
+35109872	1977	1981	CD68	Gene	968
+35109872	1999	2006	TMEM119	Gene	338773
+35109872	2008	2012	TSPO	Gene	706
+35109872	2079	2086	TMEM119	Gene	338773
+35109872	2111	2115	CD68	Gene	968
+35109872	2326	2328	AD	Disease	MESH:D000544
+35109872	Association	MESH:D000544	351
+

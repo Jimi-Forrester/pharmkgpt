@@ -1,0 +1,47 @@
+38020758|t|Development of a diagnostic and risk prediction model for Alzheimer's disease through integration of single-cell and bulk transcriptomic analysis of glutamine metabolism.
+38020758|a|Background: In this study, we present a novel system for quantifying glutamine metabolism (GM) to enhance the effectiveness of Alzheimer's disease (AD) diagnosis and risk prediction. Methods: Single-cell RNA sequencing (scRNA-seq) analysis was utilized to comprehensively assess the expression patterns of GM. The WGCNA algorithm was applied to investigate the most significant genes related to GM. Subsequently, three machine learning algorithms (Boruta, LASSO, and SVM-RFE) were employed to identify GM-associated characteristic genes and develop a risk model. Patients were divided into high- and low-risk groups based on this model. Moreover, we explored biological properties, distinct signaling pathways, and immunological characteristics of AD patients at different risk levels. Finally, in vitro and in vivo models of AD were constructed to validate the characteristics of the feature genes. Results: Both scRNA-seq and bulk transcriptomic analyses revealed increased GM activity in AD patients, specifically in certain cell subsets (pDC, Tem/Effector helper T cells (LTB), and plasma cells). Cells with higher GM scores demonstrated more significant numbers and strengths of interactions with other cell types. The WGCNA algorithm identified 360 genes related to GM, and a risk score was constructed based on nine characteristic genes (ATP13A4, PIK3C2A, CD164, PHF1, CES2, PDGFB, LCOR, TMEM30A, and PLXNA1) identified through multiple machine learning algorithms displayed reliable diagnostic efficacy for AD onset. Nomograms, calibration curves, and decision curve analysis (DCA) based on these characteristic genes provided significant clinical benefits for AD patients. High-risk AD patients exhibited higher levels of immune-related functions and pathways, increased immune cell infiltration, and elevated expressions of immune modulators. RT-qPCR analysis revealed that the majority of the nine characteristic genes were differentially expressed in AD-induced rat neurons. Knocking down PHF1 could protect against neurite loss and alleviate cell injury in AD neurons. In vivo, down-regulation of PHF1 in AD models decreases GM metabolism levels and modulates the immunoinflammatory response in the brain. Conclusion: This comprehensive identification of gene expression patterns contributes to a deeper understanding of the underlying pathological mechanisms driving AD pathogenesis. Furthermore, the risk model based on the nine-gene signature offers a promising theoretical foundation for developing individualized treatments for AD patients.
+38020758	58	77	Alzheimer's disease	Disease	MESH:D000544
+38020758	149	158	glutamine	Chemical	MESH:D005973
+38020758	240	249	glutamine	Chemical	MESH:D005973
+38020758	298	317	Alzheimer's disease	Disease	MESH:D000544
+38020758	319	321	AD	Disease	MESH:D000544
+38020758	919	921	AD	Disease	MESH:D000544
+38020758	997	999	AD	Disease	MESH:D000544
+38020758	1162	1164	AD	Disease	MESH:D000544
+38020758	1516	1523	ATP13A4	Gene	84239
+38020758	1525	1532	PIK3C2A	Gene	5286
+38020758	1534	1539	CD164	Gene	8763
+38020758	1541	1545	PHF1	Gene	5252
+38020758	1547	1551	CES2	Gene	8824
+38020758	1553	1558	PDGFB	Gene	5155
+38020758	1560	1564	LCOR	Gene	84458
+38020758	1566	1573	TMEM30A	Gene	55754
+38020758	1579	1585	PLXNA1	Gene	5361
+38020758	1686	1688	AD	Disease	MESH:D000544
+38020758	1840	1842	AD	Disease	MESH:D000544
+38020758	1863	1865	AD	Disease	MESH:D000544
+38020758	2134	2136	AD	Disease	MESH:D000544
+38020758	2172	2176	PHF1	Gene	294287
+38020758	2199	2211	neurite loss	Disease	MESH:D058225
+38020758	2241	2243	AD	Disease	MESH:D000544
+38020758	2281	2285	PHF1	Gene	5252
+38020758	2289	2291	AD	Disease	MESH:D000544
+38020758	2348	2366	immunoinflammatory	Disease	
+38020758	2552	2554	AD	Disease	MESH:D000544
+38020758	2717	2719	AD	Disease	MESH:D000544
+38020758	Association	MESH:D000544	5286
+38020758	Association	MESH:D005973	MESH:D000544
+38020758	Association	MESH:D005973	5361
+38020758	Association	MESH:D000544	84458
+38020758	Association	MESH:D000544	8763
+38020758	Association	MESH:D000544	84239
+38020758	Association	MESH:D000544	294287
+38020758	Association	MESH:D000544	55754
+38020758	Association	MESH:D005973	55754
+38020758	Association	MESH:D000544	8824
+38020758	Association	MESH:D005973	84239
+38020758	Association	MESH:D000544	5361
+38020758	Association	MESH:D000544	5252
+38020758	Association	MESH:D058225	294287
+38020758	Association	MESH:D000544	5155
+

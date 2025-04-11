@@ -1,0 +1,42 @@
+38777823|t|KAT8 compound inhibition inhibits the initial steps of PINK1-dependant mitophagy.
+38777823|a|It has recently been shown that KAT8, a genome-wide association study candidate risk gene for Parkinson's Disease, is involved in PINK1/Parkin-dependant mitophagy. The KAT8 gene encodes a lysine acetyltransferase and represents the catalytically active subunit of the non-specific lethal epigenetic remodelling complex. In the current study, we show that contrary to KAT5 inhibition, dual inhibition of KAT5 and KAT8 via the MG149 compound inhibits the initial steps of the PINK1-dependant mitophagy process. More specifically, our study shows that following mitochondrial depolarisation induced by mitochondrial toxins, MG149 treatment inhibits PINK1-dependant mitophagy initiation by impairing PINK1 activation, and subsequent phosphorylation of Parkin and ubiquitin. While this inhibitory effect of MG149 on PINK1-activation is potent, MG149 treatment in the absence of mitochondrial toxins is sufficient to depolarise the mitochondrial membrane, recruit PINK1 and promote partial downstream recruitment of the autophagy receptor p62, leading to an increase in mitochondrial delivery to the lysosomes. Altogether, our study provides additional support for KAT8 as a regulator of mitophagy and autophagy processes.
+38777823	0	4	KAT8	Gene	84148
+38777823	55	60	PINK1	Gene	65018
+38777823	114	118	KAT8	Gene	84148
+38777823	176	195	Parkinson's Disease	Disease	MESH:D010300
+38777823	212	217	PINK1	Gene	65018
+38777823	218	224	Parkin	Gene	5071
+38777823	250	254	KAT8	Gene	84148
+38777823	449	453	KAT5	Gene	10524
+38777823	485	489	KAT5	Gene	10524
+38777823	494	498	KAT8	Gene	84148
+38777823	507	512	MG149	Chemical	MESH:C000626478
+38777823	556	561	PINK1	Gene	65018
+38777823	641	669	mitochondrial depolarisation	Disease	MESH:D028361
+38777823	681	701	mitochondrial toxins	Disease	MESH:D028361
+38777823	703	708	MG149	Chemical	MESH:C000626478
+38777823	728	733	PINK1	Gene	65018
+38777823	778	783	PINK1	Gene	65018
+38777823	830	836	Parkin	Gene	5071
+38777823	884	889	MG149	Chemical	MESH:C000626478
+38777823	893	898	PINK1	Gene	65018
+38777823	921	926	MG149	Chemical	MESH:C000626478
+38777823	955	975	mitochondrial toxins	Disease	MESH:D028361
+38777823	1040	1045	PINK1	Gene	65018
+38777823	1115	1118	p62	Gene	23636
+38777823	1241	1245	KAT8	Gene	84148
+38777823	Negative_Correlation	MESH:C000626478	84148
+38777823	Association	MESH:D010300	84148
+38777823	Association	MESH:D028361	84148
+38777823	Association	65018	84148
+38777823	Association	MESH:D010300	5071
+38777823	Association	5071	65018
+38777823	Association	5071	84148
+38777823	Negative_Correlation	MESH:C000626478	65018
+38777823	Positive_Correlation	MESH:D028361	65018
+38777823	Positive_Correlation	MESH:C000626478	23636
+38777823	Negative_Correlation	MESH:C000626478	5071
+38777823	Bind	10524	84148
+38777823	Negative_Correlation	MESH:C000626478	MESH:D028361
+38777823	Negative_Correlation	MESH:C000626478	10524
+

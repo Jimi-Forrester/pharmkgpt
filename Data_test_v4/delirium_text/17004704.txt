@@ -1,0 +1,11 @@
+17004704|t|A method for induced-fit docking, scoring, and ranking of flexible ligands. Application to peptidic and pseudopeptidic beta-secretase (BACE 1) inhibitors.
+17004704|a|Inhibition of beta-secretase (BACE 1) has recently been investigated as a promising therapeutic approach in the treatment of Alzheimer's disease, and a growing number of BACE 1 inhibitors and crystal structures of BACE 1/inhibitors complexes have been reported. We report herein a predictive computational method and its application to potential BACE 1 inhibitors. Using a training set of 50 known highly flexible inhibitors, we developed a docking method that accounts for the flexibility of both the protein and the inhibitors. Protein flexibility is accounted for using a specifically designed genetic algorithm. We next developed a scoring function consisting of force field evaluation of the inhibitor/protein interactions and two additional terms for hydrogen bonding and entropy change upon binding. Discarding three outliers from the training set, our protocol was found to perform well with an rmsd of 1.19 kcal/mol. Evaluation of the predictive power was next carried out by virtual screening of 80 synthetic compounds. The significant enrichment at the top of the ranking list in active compounds demonstrated the ability of the docking and scoring protocol to rank the compounds relative to their activities.
+17004704	135	141	BACE 1	Gene	23621
+17004704	185	191	BACE 1	Gene	23621
+17004704	280	299	Alzheimer's disease	Disease	MESH:D000544
+17004704	325	331	BACE 1	Gene	23621
+17004704	369	375	BACE 1	Gene	23621
+17004704	501	507	BACE 1	Gene	23621
+17004704	912	920	hydrogen	Chemical	MESH:D006859
+17004704	Association	MESH:D000544	23621
+

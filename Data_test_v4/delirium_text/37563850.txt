@@ -1,0 +1,53 @@
+37563850|t|Molecular and immune signatures, and pathological trajectories of fatal COVID-19 lungs defined by in situ spatial single-cell transcriptome analysis.
+37563850|a|Despite intensive studies during the last 3 years, the pathology and underlying molecular mechanism of coronavirus disease 2019 (COVID-19) remain poorly defined. In this study, we investigated the spatial single-cell molecular and cellular features of postmortem COVID-19 lung tissues using in situ sequencing (ISS). We detected 10 414 863 transcripts of 221 genes in whole-slide tissues and segmented them into 1 719 459 cells that were mapped to 18 major parenchymal and immune cell types, all of which were infected by SARS-CoV-2. Compared with the non-COVID-19 control, COVID-19 lungs exhibited reduced alveolar cells (ACs) and increased innate and adaptive immune cells. We also identified 19 differentially expressed genes in both infected and uninfected cells across the tissues, which reflected the altered cellular compositions. Spatial analysis of local infection rates revealed regions with high infection rates that were correlated with high cell densities (HIHD). The HIHD regions expressed high levels of SARS-CoV-2 entry-related factors including ACE2, FURIN, TMPRSS2 and NRP1, and co-localized with organizing pneumonia (OP) and lymphocytic and immune infiltration, which exhibited increased ACs and fibroblasts but decreased vascular endothelial cells and epithelial cells, mirroring the tissue damage and wound healing processes. Sparse nonnegative matrix factorization (SNMF) analysis of niche features identified seven signatures that captured structure and immune niches in COVID-19 tissues. Trajectory inference based on immune niche signatures defined two pathological routes. Trajectory A primarily progressed with increased NK cells and granulocytes, likely reflecting the complication of microbial infections. Trajectory B was marked by increased HIHD and OP, possibly accounting for the increased immune infiltration. The OP regions were marked by high numbers of fibroblasts expressing extremely high levels of COL1A1 and COL1A2. Examination of single-cell RNA-seq data (scRNA-seq) from COVID-19 lung tissues and idiopathic pulmonary fibrosis (IPF) identified similar cell populations consisting mainly of myofibroblasts. Immunofluorescence staining revealed the activation of IL6-STAT3 and TGF-beta-SMAD2/3 pathways in these cells, likely mediating the upregulation of COL1A1 and COL1A2 and excessive fibrosis in the lung tissues. Together, this study provides a spatial single-cell atlas of cellular and molecular signatures of fatal COVID-19 lungs, which reveals the complex spatial cellular heterogeneity, organization, and interactions that characterized the COVID-19 lung pathology.
+37563850	72	80	COVID-19	Disease	MESH:D000086382
+37563850	253	277	coronavirus disease 2019	Disease	MESH:D000086382
+37563850	279	287	COVID-19	Disease	MESH:D000086382
+37563850	413	421	COVID-19	Disease	MESH:D000086382
+37563850	706	714	COVID-19	Disease	MESH:D000086382
+37563850	724	732	COVID-19	Disease	MESH:D000086382
+37563850	1014	1023	infection	Disease	MESH:D007239
+37563850	1057	1066	infection	Disease	MESH:D007239
+37563850	1212	1216	ACE2	Gene	59272
+37563850	1218	1223	FURIN	Gene	5045
+37563850	1225	1232	TMPRSS2	Gene	7113
+37563850	1237	1241	NRP1	Gene	8829
+37563850	1265	1285	organizing pneumonia	Disease	MESH:D000092124
+37563850	1287	1289	OP	Disease	MESH:D000092124
+37563850	1645	1653	COVID-19	Disease	MESH:D000086382
+37563850	1864	1884	microbial infections	Disease	MESH:D015163
+37563850	1932	1934	OP	Disease	MESH:D000092124
+37563850	1999	2001	OP	Disease	MESH:D000092124
+37563850	2089	2095	COL1A1	Gene	1277
+37563850	2100	2106	COL1A2	Gene	1278
+37563850	2165	2173	COVID-19	Disease	MESH:D000086382
+37563850	2191	2220	idiopathic pulmonary fibrosis	Disease	MESH:D054990
+37563850	2222	2225	IPF	Disease	MESH:D054990
+37563850	2355	2358	IL6	Gene	3569
+37563850	2359	2364	STAT3	Gene	6774
+37563850	2369	2377	TGF-beta	Gene	7040
+37563850	2378	2385	SMAD2/3	Gene	4087;4088
+37563850	2448	2454	COL1A1	Gene	1277
+37563850	2459	2465	COL1A2	Gene	1278
+37563850	2480	2488	fibrosis	Disease	MESH:D005355
+37563850	2614	2622	COVID-19	Disease	MESH:D000086382
+37563850	2742	2750	COVID-19	Disease	MESH:D000086382
+37563850	Association	4088	7040
+37563850	Association	MESH:D005355	4088
+37563850	Association	1277	4087
+37563850	Association	MESH:D005355	7040
+37563850	Association	1277	4088
+37563850	Association	MESH:D000086382	7040
+37563850	Association	1277	6774
+37563850	Association	MESH:D005355	4087
+37563850	Association	1277	3569
+37563850	Association	1278	6774
+37563850	Association	MESH:D005355	3569
+37563850	Association	4087	7040
+37563850	Association	MESH:D000092124	1278
+37563850	Association	1278	3569
+37563850	Association	MESH:D000092124	1277
+37563850	Association	MESH:D000086382	4087
+37563850	Association	MESH:D000086382	4088
+37563850	Association	1277	7040
+

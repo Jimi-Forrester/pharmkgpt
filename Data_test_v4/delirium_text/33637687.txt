@@ -1,0 +1,50 @@
+33637687|t|Transcriptional network constituted of CBP, Ku70, NOX2, and BAX prevents the cell death of necrosis, paraptosis, and apoptosis in human melanoma.
+33637687|a|CREB-binding protein (CBP) is an acetyltransferase known to play multiple roles in the transcriptions of genes involving oxidative metabolism, cell cycle, DNA damage checkpoints, and cell death. In this study, CBP was found to positively regulate the expression of Ku70, and both CBP and Ku70 were found to negatively regulate the expression of NOX2, therefore, mitigating the intracellular ROS in human melanoma. Knocking down CBP or Ku70 induced necrotic and paraptotic cell death as indicated by high-level intracellular ROS, cytoplasmic vacuolization, and cell cycle arrest in the S phase. In addition, chromosomal condensations were also observed in the cells proceeding necrotic and paraptotic cell death, which was found to be related to the BAX-associated intrinsic pathway of apoptotic cell death, when Ku70 was decreased either by CBP depletion or by Ku70 depletion directly. Our results, therefore, supported the idea that CBP, Ku70, BAX, and NOX2 have formed a transcriptional network in the prevention of cell death of necrosis, paraptosis, and apoptosis in human melanoma.
+33637687	39	42	CBP	Gene	1387
+33637687	44	48	Ku70	Gene	2547
+33637687	50	54	NOX2	Gene	1536
+33637687	60	63	BAX	Gene	581
+33637687	91	99	necrosis	Disease	MESH:D009336
+33637687	101	111	paraptosis	Disease	
+33637687	130	135	human	Species	9606
+33637687	136	144	melanoma	Disease	MESH:D008545
+33637687	146	166	CREB-binding protein	Gene	1387
+33637687	168	171	CBP	Gene	1387
+33637687	356	359	CBP	Gene	1387
+33637687	411	415	Ku70	Gene	2547
+33637687	426	429	CBP	Gene	1387
+33637687	434	438	Ku70	Gene	2547
+33637687	491	495	NOX2	Gene	1536
+33637687	537	540	ROS	Chemical	-
+33637687	544	549	human	Species	9606
+33637687	550	558	melanoma	Disease	MESH:D008545
+33637687	574	577	CBP	Gene	1387
+33637687	581	585	Ku70	Gene	2547
+33637687	594	602	necrotic	Disease	MESH:D009336
+33637687	670	673	ROS	Chemical	-
+33637687	822	830	necrotic	Disease	MESH:D009336
+33637687	895	898	BAX	Gene	581
+33637687	958	962	Ku70	Gene	2547
+33637687	987	990	CBP	Gene	1387
+33637687	1007	1011	Ku70	Gene	2547
+33637687	1080	1083	CBP	Gene	1387
+33637687	1085	1089	Ku70	Gene	2547
+33637687	1091	1094	BAX	Gene	581
+33637687	1100	1104	NOX2	Gene	1536
+33637687	1178	1186	necrosis	Disease	MESH:D009336
+33637687	1188	1198	paraptosis	Disease	
+33637687	1217	1222	human	Species	9606
+33637687	1223	1231	melanoma	Disease	MESH:D008545
+33637687	Association	2547	581
+33637687	Association	MESH:D008545	1387
+33637687	Negative_Correlation	MESH:D009336	2547
+33637687	Association	MESH:D009336	581
+33637687	Negative_Correlation	MESH:D009336	1387
+33637687	Association	MESH:D008545	581
+33637687	Negative_Correlation	1387	1536
+33637687	Negative_Correlation	1536	2547
+33637687	Association	MESH:D008545	2547
+33637687	Association	MESH:D008545	1536
+33637687	Positive_Correlation	1387	2547
+33637687	Association	MESH:D009336	1536
+

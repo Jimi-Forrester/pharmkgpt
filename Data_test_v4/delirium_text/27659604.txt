@@ -1,0 +1,23 @@
+27659604|t|Automatic classification of registered clinical trials towards the Global Burden of Diseases taxonomy of diseases and injuries.
+27659604|a|BACKGROUND: Clinical trial registries may allow for producing a global mapping of health research. However, health conditions are not described with standardized taxonomies in registries. Previous work analyzed clinical trial registries to improve the retrieval of relevant clinical trials for patients. However, no previous work has classified clinical trials across diseases using a standardized taxonomy allowing a comparison between global health research and global burden across diseases. We developed a knowledge-based classifier of health conditions studied in registered clinical trials towards categories of diseases and injuries from the Global Burden of Diseases (GBD) 2010 study. The classifier relies on the UMLS  knowledge source (Unified Medical Language System ) and on heuristic algorithms for parsing data. It maps trial records to a 28-class grouping of the GBD categories by automatically extracting UMLS concepts from text fields and by projecting concepts between medical terminologies. The classifier allows deriving pathways between the clinical trial record and candidate GBD categories using natural language processing and links between knowledge sources, and selects the relevant GBD classification based on rules of prioritization across the pathways found. We compared automatic and manual classifications for an external test set of 2,763 trials. We automatically classified 109,603 interventional trials registered before February 2014 at WHO ICTRP. RESULTS: In the external test set, the classifier identified the exact GBD categories for 78 % of the trials. It had very good performance for most of the 28 categories, especially "Neoplasms" (sensitivity 97.4 %, specificity 97.5 %). The sensitivity was moderate for trials not relevant to any GBD category (53 %) and low for trials of injuries (16 %). For the 109,603 trials registered at WHO ICTRP, the classifier did not assign any GBD category to 20.5 % of trials while the most common GBD categories were "Neoplasms" (22.8 %) and "Diabetes" (8.9 %). CONCLUSIONS: We developed and validated a knowledge-based classifier allowing for automatically identifying the diseases studied in registered trials by using the taxonomy from the GBD 2010 study. This tool is freely available to the research community and can be used for large-scale public health studies.
+27659604	81	92	of Diseases	Disease	MESH:D004194
+27659604	102	113	of diseases	Disease	MESH:D004194
+27659604	118	126	injuries	Disease	MESH:D014947
+27659604	422	430	patients	Species	9606
+27659604	743	754	of diseases	Disease	MESH:D004194
+27659604	759	767	injuries	Disease	MESH:D014947
+27659604	791	802	of Diseases	Disease	MESH:D004194
+27659604	804	807	GBD	Disease	MESH:D001037
+27659604	1006	1009	GBD	Disease	MESH:D001037
+27659604	1226	1229	GBD	Disease	MESH:D001037
+27659604	1337	1340	GBD	Disease	MESH:D001037
+27659604	1682	1685	GBD	Disease	MESH:D001037
+27659604	1793	1802	Neoplasms	Disease	MESH:D009369
+27659604	1906	1909	GBD	Disease	MESH:D001037
+27659604	1948	1956	injuries	Disease	MESH:D014947
+27659604	2047	2050	GBD	Disease	MESH:D001037
+27659604	2102	2105	GBD	Disease	MESH:D001037
+27659604	2123	2132	Neoplasms	Disease	MESH:D009369
+27659604	2148	2156	Diabetes	Disease	MESH:D003920
+27659604	2348	2351	GBD	Disease	MESH:D001037
+

@@ -1,0 +1,13 @@
+38798082|t|Disease-driven domain generalization for neuroimaging-based assessment of Alzheimer's disease.
+38798082|a|Development of deep learning models to evaluate structural brain changes caused by cognitive impairment in MRI scans holds significant translational value. The efficacy of these models often encounters challenges due to variabilities arising from different data generation protocols, imaging equipment, radiological artifacts, and shifts in demographic distributions. Domain generalization (DG) techniques show promise in addressing these challenges by enabling the model to learn from one or more source domains and apply this knowledge to new, unseen target domains. Here we present a framework that utilizes model interpretability to enhance the generalizability of classification models across various cohorts. We used MRI scans and clinical diagnoses from four independent cohorts: Alzheimer's Disease Neuroimaging Initiative (ADNI, n = 1821), the Framingham Heart Study (FHS, n = 304), the Australian Imaging Biomarkers & Lifestyle Study of Ageing (AIBL, n = 661), and the National Alzheimer's Coordinating Center (NACC, n = 4647). With this data, we trained a deep neural network to focus on areas of the brain identified as relevant to the disease for model training. Our approach involved training a classifier to differentiate between structural neurodegeneration in individuals with normal cognition (NC), mild cognitive impairment (MCI), and dementia due to Alzheimer's disease (AD). This was achieved by aligning class-wise attention with a unified visual saliency prior, which was computed offline for each class using all the training data. Our method not only competes with state-of-the-art approaches but also shows improved correlation with postmortem histology. This alignment with the gold standard evidence is a significant step towards validating the effectiveness of DG frameworks, paving the way for their broader application in the field.
+38798082	74	93	Alzheimer's disease	Disease	MESH:D000544
+38798082	178	198	cognitive impairment	Disease	MESH:D003072
+38798082	882	901	Alzheimer's Disease	Disease	MESH:D000544
+38798082	1083	1092	Alzheimer	Disease	MESH:D000544
+38798082	1351	1368	neurodegeneration	Disease	MESH:D019636
+38798082	1417	1437	cognitive impairment	Disease	MESH:D003072
+38798082	1439	1442	MCI	Disease	MESH:D060825
+38798082	1449	1457	dementia	Disease	MESH:D003704
+38798082	1465	1484	Alzheimer's disease	Disease	MESH:D000544
+38798082	1486	1488	AD	Disease	MESH:D000544
+

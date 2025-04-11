@@ -1,0 +1,10 @@
+38105786|t|Simulation of neuroplasticity in a CNN-based in-silico model of neurodegeneration of the visual system.
+38105786|a|The aim of this work was to enhance the biological feasibility of a deep convolutional neural network-based in-silico model of neurodegeneration of the visual system by equipping it with a mechanism to simulate neuroplasticity. Therefore, deep convolutional networks of multiple sizes were trained for object recognition tasks and progressively lesioned to simulate neurodegeneration of the visual cortex. More specifically, the injured parts of the network remained injured while we investigated how the added retraining steps were able to recover some of the model's object recognition baseline performance. The results showed with retraining, model object recognition abilities are subject to a smoother and more gradual decline with increasing injury levels than without retraining and, therefore, more similar to the longitudinal cognition impairments of patients diagnosed with Alzheimer's disease (AD). Moreover, with retraining, the injured model exhibits internal activation patterns similar to those of the healthy baseline model when compared to the injured model without retraining. Furthermore, we conducted this analysis on a network that had been extensively pruned, resulting in an optimized number of parameters or synapses. Our findings show that this network exhibited remarkably similar capability to recover task performance with decreasingly viable pathways through the network. In conclusion, adding a retraining step to the in-silico setup that simulates neuroplasticity improves the model's biological feasibility considerably and could prove valuable to test different rehabilitation approaches in-silico.
+38105786	64	81	neurodegeneration	Disease	MESH:D019636
+38105786	231	248	neurodegeneration	Disease	MESH:D019636
+38105786	470	508	neurodegeneration of the visual cortex	Disease	MESH:D014786
+38105786	939	960	cognition impairments	Disease	MESH:D003072
+38105786	964	972	patients	Species	9606
+38105786	988	1007	Alzheimer's disease	Disease	MESH:D000544
+38105786	1009	1011	AD	Disease	MESH:D000544
+

@@ -1,0 +1,63 @@
+31888677|t|TNF-alpha mediated upregulation of NaV1.7 currents in rat dorsal root ganglion neurons is independent of CRMP2 SUMOylation.
+31888677|a|Clinical and preclinical studies have shown that patients with Diabetic Neuropathy Pain (DNP) present with increased tumor necrosis factor alpha (TNF-alpha) serum concentration, whereas studies with diabetic animals have shown that TNF-alpha induces an increase in NaV1.7 sodium channel expression. This is expected to result in sensitization of nociceptor neuron terminals, and therefore the development of DNP. For further study of this mechanism, dissociated dorsal root ganglion (DRG) neurons were exposed to TNF-alpha for 6 h, at a concentration equivalent to that measured in STZ-induced diabetic rats that developed hyperalgesia. Tetrodotoxin sensitive (TTXs), resistant (TTXr) and total sodium current was studied in these DRG neurons. Total sodium current was also studied in DRG neurons expressing the collapsin response mediator protein 2 (CRMP2) SUMO-incompetent mutant protein (CRMP2-K374A), which causes a significant reduction in NaV1.7 membrane cell expression levels. Our results show that TNF-alpha exposure increased the density of the total, TTXs and TTXr sodium current in DRG neurons. Furthermore, TNF-alpha shifted the steady state activation and inactivation curves of the total and TTXs sodium current. DRG neurons expressing the CRMP2-K374A mutant also exhibited total sodium current increases after exposure to TNF-alpha, indicating that these effects were independent of SUMOylation of CRMP2. In conclusion, TNF-alpha sensitizes DRG neurons via augmentation of whole cell sodium current. This may underlie the pronociceptive effects of TNF-alpha and suggests a molecular mechanism responsible for pain hypersensitivity in diabetic neuropathy patients.
+31888677	0	9	TNF-alpha	Gene	7124
+31888677	35	41	NaV1.7	Gene	78956
+31888677	54	57	rat	Species	10116
+31888677	105	110	CRMP2	Gene	25416
+31888677	173	181	patients	Species	9606
+31888677	187	211	Diabetic Neuropathy Pain	Disease	MESH:D003929
+31888677	213	216	DNP	Disease	MESH:D003929
+31888677	241	268	tumor necrosis factor alpha	Gene	7124
+31888677	270	279	TNF-alpha	Gene	7124
+31888677	323	331	diabetic	Disease	MESH:D003920
+31888677	356	365	TNF-alpha	Gene	7124
+31888677	389	395	NaV1.7	Gene	78956
+31888677	396	402	sodium	Chemical	MESH:D012964
+31888677	532	535	DNP	Disease	MESH:D003929
+31888677	637	646	TNF-alpha	Gene	7124
+31888677	706	709	STZ	Chemical	MESH:D013311
+31888677	718	726	diabetic	Disease	MESH:D003920
+31888677	727	731	rats	Species	10116
+31888677	747	759	hyperalgesia	Disease	MESH:D006930
+31888677	761	773	Tetrodotoxin	Chemical	MESH:D013779
+31888677	803	807	TTXr	Chemical	-
+31888677	819	825	sodium	Chemical	MESH:D012964
+31888677	855	866	DRG neurons	CellLine	CVCL:U378
+31888677	874	880	sodium	Chemical	MESH:D012964
+31888677	909	920	DRG neurons	CellLine	CVCL:U378
+31888677	936	973	collapsin response mediator protein 2	Gene	25416
+31888677	975	980	CRMP2	Gene	25416
+31888677	1015	1020	CRMP2	Gene	25416
+31888677	1021	1026	K374A	ProteinMutation	tmVar:p|SUB|K|374|A;HGVS:p.K374A;VariantGroup:0;OriginalGene:25416;CorrespondingGene:1808;CorrespondingSpecies:10116
+31888677	1069	1075	NaV1.7	Gene	78956
+31888677	1131	1140	TNF-alpha	Gene	7124
+31888677	1195	1206	TTXr sodium	Chemical	-
+31888677	1218	1229	DRG neurons	CellLine	CVCL:U378
+31888677	1244	1253	TNF-alpha	Gene	7124
+31888677	1331	1342	TTXs sodium	Chemical	-
+31888677	1352	1363	DRG neurons	CellLine	CVCL:U378
+31888677	1379	1384	CRMP2	Gene	25416
+31888677	1385	1390	K374A	ProteinMutation	tmVar:p|SUB|K|374|A;HGVS:p.K374A;VariantGroup:0;OriginalGene:25416;CorrespondingGene:1808;CorrespondingSpecies:10116
+31888677	1419	1425	sodium	Chemical	MESH:D012964
+31888677	1462	1471	TNF-alpha	Gene	7124
+31888677	1538	1543	CRMP2	Gene	25416
+31888677	1560	1569	TNF-alpha	Gene	7124
+31888677	1581	1592	DRG neurons	CellLine	CVCL:U378
+31888677	1624	1630	sodium	Chemical	MESH:D012964
+31888677	1688	1697	TNF-alpha	Gene	7124
+31888677	1749	1770	pain hypersensitivity	Disease	MESH:D010146
+31888677	1774	1793	diabetic neuropathy	Disease	MESH:D003929
+31888677	1794	1802	patients	Species	9606
+31888677	Association	25416	7124
+31888677	Association	MESH:D012964	HGVS:p.K374A;CorrespondingGene:1808
+31888677	Positive_Correlation	MESH:D012964	7124
+31888677	Positive_Correlation	MESH:D013311	MESH:D003920
+31888677	Association	MESH:D003929	7124
+31888677	Association	MESH:D012964	MESH:D013779
+31888677	Positive_Correlation	MESH:D013311	MESH:D006930
+31888677	Association	MESH:D012964	25416
+31888677	Association	MESH:D003929	78956
+31888677	Association	MESH:D006930	7124
+31888677	Positive_Correlation	7124	78956
+31888677	Association	MESH:D010146	7124
+

@@ -1,0 +1,44 @@
+22666365|t|Intranasal "painless" human Nerve Growth Factor [corrected] slows amyloid neurodegeneration and prevents memory deficits in App X PS1 mice.
+22666365|a|Nerve Growth Factor (NGF) is being considered as a therapeutic candidate for Alzheimer's disease (AD) treatment but the clinical application is hindered by its potent pro-nociceptive activity. Thus, to reduce systemic exposure that would induce pain, in recent clinical studies NGF was administered through an invasive intracerebral gene-therapy approach. Our group demonstrated the feasibility of a non-invasive intranasal delivery of NGF in a mouse model of neurodegeneration. NGF therapeutic window could be further increased if its nociceptive effects could be avoided altogether. In this study we exploit forms of NGF, mutated at residue R100, inspired by the human genetic disease HSAN V (Hereditary Sensory Autonomic Neuropathy Type V), which would allow increasing the dose of NGF without triggering pain. We show that "painless" hNGF displays full neurotrophic and anti-amyloidogenic activities in neuronal cultures, and a reduced nociceptive activity in vivo. When administered intranasally to APPxPS1 mice ( n = 8), hNGFP61S/R100E prevents the progress of neurodegeneration and of behavioral deficits. These results demonstrate the in vivo neuroprotective and anti-amyloidogenic properties of hNGFR100 mutants and provide a rational basis for the development of "painless" hNGF variants as a new generation of therapeutics for neurodegenerative diseases.
+22666365	22	27	human	Species	9606
+22666365	28	47	Nerve Growth Factor	Gene	4803
+22666365	66	91	amyloid neurodegeneration	Disease	MESH:C000718787
+22666365	105	120	memory deficits	Disease	MESH:D008569
+22666365	130	133	PS1	Gene	19164
+22666365	134	138	mice	Species	10090
+22666365	140	159	Nerve Growth Factor	Gene	18049
+22666365	161	164	NGF	Gene	18049
+22666365	217	236	Alzheimer's disease	Disease	MESH:D000544
+22666365	238	240	AD	Disease	MESH:D000544
+22666365	385	389	pain	Disease	MESH:D010146
+22666365	418	421	NGF	Gene	4803
+22666365	576	579	NGF	Gene	4803
+22666365	585	590	mouse	Species	10090
+22666365	600	617	neurodegeneration	Disease	MESH:D019636
+22666365	619	622	NGF	Gene	4803
+22666365	759	762	NGF	Gene	4803
+22666365	783	787	R100	ProteinMutation	tmVar:p|Allele|R|100;VariantGroup:0;CorrespondingGene:4803;CorrespondingSpecies:9606
+22666365	805	810	human	Species	9606
+22666365	811	818	genetic	Disease	MESH:D030342
+22666365	827	833	HSAN V	Disease	MESH:D009477
+22666365	835	881	Hereditary Sensory Autonomic Neuropathy Type V	Disease	MESH:D009477
+22666365	925	928	NGF	Gene	4803
+22666365	948	952	pain	Disease	MESH:D010146
+22666365	1152	1156	mice	Species	10090
+22666365	1176	1181	R100E	ProteinMutation	tmVar:p|SUB|R|100|E;HGVS:p.R100E;VariantGroup:0;CorrespondingGene:4803;CorrespondingSpecies:9606
+22666365	1207	1224	neurodegeneration	Disease	MESH:D019636
+22666365	1232	1251	behavioral deficits	Disease	MESH:D019958
+22666365	1478	1504	neurodegenerative diseases	Disease	MESH:D019636
+22666365	Negative_Correlation	MESH:C000718787	4803
+22666365	Negative_Correlation	MESH:D019958	CorrespondingGene:4803;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+22666365	Negative_Correlation	MESH:D019636	CorrespondingGene:4803;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+22666365	Association	MESH:D009477	CorrespondingGene:4803;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+22666365	Association	MESH:D009477	4803
+22666365	Negative_Correlation	MESH:D019958	HGVS:p.R100E;CorrespondingGene:4803
+22666365	Negative_Correlation	MESH:D019636	HGVS:p.R100E;CorrespondingGene:4803
+22666365	Negative_Correlation	MESH:D000544	18049
+22666365	Negative_Correlation	MESH:D008569	4803
+22666365	Association	MESH:D019958	4803
+22666365	Association	MESH:D019636	4803
+22666365	Association	MESH:D009477	4803
+

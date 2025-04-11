@@ -1,0 +1,27 @@
+39102873|t|Early administration of ketorolac after cardiac surgery and postoperative complications: Analysis of the MIMIC-IV database.
+39102873|a|Inflammation may contribute to postoperative cardiac complications and ketorolac, an anti-inflammatory agent inhibiting cyclooxygenase (COX), shows promise in enhancing cardiac graft patency by suppressing endothelial cell proliferation in animal studies. However, the safety of postoperative ketorolac use remains controversial. This study investigates the association between early ketorolac application and complications following cardiac surgery. Data from the Medical Information Mart for Intensive Care-IV (MIMIC-IV) database fueled this retrospective cohort study. The primary outcome is a composite of mortality, pulmonary insufficiency, severe acute kidney injury (AKI), hemorrhage or hematoma, infection, cardiogenic shock, and cerebrovascular infarction postcardiac surgery. Propensity score matching (PSM; 1:1 match, caliper 0.2), multivariate logistic regression, interaction stratification analysis, pairwise algorithmic, and overlap weight model analyses were employed. Following inclusion and exclusion criteria, 7143 patients who underwent valvular surgery or coronary artery bypass grafting (CABG) were included. PSM created a balanced cohort of 3270 individuals (1635 in the ketorolac group). The matched cohort exhibited an 8.1% overall rate of postoperative complications, with a lower composite outcome rate in patients receiving ketorolac within 48 h of surgery compared with those without (PSM, OR 0.70 [95% CI, 0.54-0.90]). Consistent associations were observed in total cohort analyses, sensitivity, and subgroup analyses. Early ketorolac use within 48 h post-CABG or valvular procedures in adults is independently associated with a lower incidence of composite postoperative adverse events. Prospective trials are warranted to assess causality.
+39102873	24	33	ketorolac	Chemical	MESH:D020910
+39102873	60	87	postoperative complications	Disease	MESH:D011183
+39102873	124	136	Inflammation	Disease	MESH:D007249
+39102873	155	190	postoperative cardiac complications	Disease	MESH:D006331
+39102873	195	204	ketorolac	Chemical	MESH:D020910
+39102873	214	226	inflammatory	Disease	MESH:D007249
+39102873	417	426	ketorolac	Chemical	MESH:D020910
+39102873	508	517	ketorolac	Chemical	MESH:D020910
+39102873	745	768	pulmonary insufficiency	Disease	MESH:D011665
+39102873	770	796	severe acute kidney injury	Disease	MESH:D045169
+39102873	798	801	AKI	Disease	MESH:D058186
+39102873	804	814	hemorrhage	Disease	MESH:D006470
+39102873	818	826	hematoma	Disease	MESH:D006406
+39102873	828	837	infection	Disease	MESH:D007239
+39102873	839	856	cardiogenic shock	Disease	MESH:D012770
+39102873	862	888	cerebrovascular infarction	Disease	MESH:D007238
+39102873	1158	1166	patients	Species	9606
+39102873	1318	1327	ketorolac	Chemical	MESH:D020910
+39102873	1389	1416	postoperative complications	Disease	MESH:D011183
+39102873	1457	1465	patients	Species	9606
+39102873	1476	1485	ketorolac	Chemical	MESH:D020910
+39102873	1679	1688	ketorolac	Chemical	MESH:D020910
+39102873	Negative_Correlation	MESH:D020910	MESH:D011183
+39102873	Negative_Correlation	MESH:D020910	MESH:D007249
+

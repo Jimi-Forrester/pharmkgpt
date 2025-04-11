@@ -1,0 +1,63 @@
+38132101|t|Disruption of Mitophagy Flux through the PARL-PINK1 Pathway by CHCHD10 Mutations or CHCHD10 Depletion.
+38132101|a|Coiled-coil-helix-coiled-coil-helix domain-containing 10 (CHCHD10) is a nuclear-encoded mitochondrial protein which is primarily mutated in the spectrum of familial and sporadic amyotrophic lateral sclerosis (ALS)-frontotemporal dementia (FTD). Endogenous CHCHD10 levels decline in the brains of ALS-FTD patients, and the CHCHD10S59L mutation in Drosophila induces dominant toxicity together with PTEN-induced kinase 1 (PINK1), a protein critical for the induction of mitophagy. However, whether and how CHCHD10 variants regulate mitophagy flux in the mammalian brain is unknown. Here, we demonstrate through in vivo and in vitro models, as well as human FTD brain tissue, that ALS/FTD-linked CHCHD10 mutations (R15L and S59L) impair mitophagy flux and mitochondrial Parkin recruitment, whereas wild-type CHCHD10 (CHCHD10WT) normally enhances these measures. Specifically, we show that CHCHD10R15L and CHCHD10S59L mutations reduce PINK1 levels by increasing PARL activity, whereas CHCHD10WT produces the opposite results through its stronger interaction with PARL, suppressing its activity. Importantly, we also demonstrate that FTD brains with TAR DNA-binding protein-43 (TDP-43) pathology demonstrate disruption of the PARL-PINK1 pathway and that experimentally impairing mitophagy promotes TDP-43 aggregation. Thus, we provide herein new insights into the regulation of mitophagy and TDP-43 aggregation in the mammalian brain through the CHCHD10-PARL-PINK1 pathway.
+38132101	41	45	PARL	Gene	55486
+38132101	46	51	PINK1	Gene	65018
+38132101	63	70	CHCHD10	Gene	400916
+38132101	84	91	CHCHD10	Gene	400916
+38132101	103	159	Coiled-coil-helix-coiled-coil-helix domain-containing 10	Gene	400916
+38132101	161	168	CHCHD10	Gene	400916
+38132101	259	310	familial and sporadic amyotrophic lateral sclerosis	Disease	MESH:C531617
+38132101	312	315	ALS	Disease	MESH:D000690
+38132101	317	340	frontotemporal dementia	Disease	MESH:D057180
+38132101	342	345	FTD	Disease	MESH:D057180
+38132101	359	366	CHCHD10	Gene	400916
+38132101	399	406	ALS-FTD	Disease	OMIM:105550
+38132101	407	415	patients	Species	9606
+38132101	449	459	Drosophila	Species	7227
+38132101	468	485	dominant toxicity	Disease	MESH:D064420
+38132101	500	521	PTEN-induced kinase 1	Gene	65018
+38132101	523	528	PINK1	Gene	31607
+38132101	607	614	CHCHD10	Gene	400916
+38132101	752	757	human	Species	9606
+38132101	758	761	FTD	Disease	MESH:D057180
+38132101	781	784	ALS	Disease	MESH:D000690
+38132101	785	788	FTD	Disease	MESH:D057180
+38132101	796	803	CHCHD10	Gene	400916
+38132101	815	819	R15L	ProteinMutation	tmVar:p|SUB|R|15|L;HGVS:p.R15L;VariantGroup:0;CorrespondingGene:400916;RS#:730880030(Expired);CorrespondingSpecies:9606;CA#:235291
+38132101	824	828	S59L	ProteinMutation	tmVar:p|SUB|S|59|L;HGVS:p.S59L;VariantGroup:1;CorrespondingGene:400916;RS#:587777574(Expired);CorrespondingSpecies:9606;CA#:163486
+38132101	870	876	Parkin	Gene	5071
+38132101	908	915	CHCHD10	Gene	400916
+38132101	917	926	CHCHD10WT	Gene	400916
+38132101	1034	1039	PINK1	Gene	65018
+38132101	1061	1065	PARL	Gene	55486
+38132101	1084	1093	CHCHD10WT	Gene	400916
+38132101	1162	1166	PARL	Gene	55486
+38132101	1232	1235	FTD	Disease	MESH:D057180
+38132101	1248	1274	TAR DNA-binding protein-43	Gene	23435
+38132101	1276	1282	TDP-43	Gene	23435
+38132101	1324	1328	PARL	Gene	55486
+38132101	1329	1334	PINK1	Gene	65018
+38132101	1396	1402	TDP-43	Gene	23435
+38132101	1490	1496	TDP-43	Gene	23435
+38132101	1544	1551	CHCHD10	Gene	400916
+38132101	1552	1556	PARL	Gene	55486
+38132101	1557	1562	PINK1	Gene	65018
+38132101	Association	MESH:D000690	400916
+38132101	Association	MESH:D057180	23435
+38132101	Association	MESH:D000690	RS#:587777574(Expired);HGVS:p.S59L;CorrespondingGene:400916
+38132101	Association	MESH:D057180	65018
+38132101	Association	MESH:D057180	RS#:730880030(Expired);HGVS:p.R15L;CorrespondingGene:400916
+38132101	Association	MESH:D057180	RS#:587777574(Expired);HGVS:p.S59L;CorrespondingGene:400916
+38132101	Association	23435	65018
+38132101	Negative_Correlation	OMIM:105550	400916
+38132101	Association	MESH:D057180	55486
+38132101	Association	MESH:D000690	RS#:730880030(Expired);HGVS:p.R15L;CorrespondingGene:400916
+38132101	Association	400916	65018
+38132101	Association	400916	5071
+38132101	Association	MESH:D057180	400916
+38132101	Association	400916	55486
+38132101	Association	55486	65018
+38132101	Association	MESH:C531617	400916
+38132101	Association	MESH:D057180	5071
+38132101	Association	23435	55486
+

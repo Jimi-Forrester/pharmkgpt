@@ -1,0 +1,19 @@
+24498090|t|Using highly detailed administrative data to predict pneumonia mortality.
+24498090|a|BACKGROUND: Mortality prediction models generally require clinical data or are derived from information coded at discharge, limiting adjustment for presenting severity of illness in observational studies using administrative data. OBJECTIVES: To develop and validate a mortality prediction model using administrative data available in the first 2 hospital days. RESEARCH DESIGN: After dividing the dataset into derivation and validation sets, we created a hierarchical generalized linear mortality model that included patient demographics, comorbidities, medications, therapies, and diagnostic tests administered in the first 2 hospital days. We then applied the model to the validation set. SUBJECTS: Patients aged >= 18 years admitted with pneumonia between July 2007 and June 2010 to 347 hospitals in Premier, Inc.'s Perspective database. MEASURES: In hospital mortality. RESULTS: The derivation cohort included 200,870 patients and the validation cohort had 50,037. Mortality was 7.2%. In the multivariable model, 3 demographic factors, 25 comorbidities, 41 medications, 7 diagnostic tests, and 9 treatments were associated with mortality. Factors that were most strongly associated with mortality included receipt of vasopressors, non-invasive ventilation, and bicarbonate. The model had a c-statistic of 0.85 in both cohorts. In the validation cohort, deciles of predicted risk ranged from 0.3% to 34.3% with observed risk over the same deciles from 0.1% to 33.7%. CONCLUSIONS: A mortality model based on detailed administrative data available in the first 2 hospital days had good discrimination and calibration. The model compares favorably to clinically based prediction models and may be useful in observational studies when clinical data are not available.
+24498090	53	62	pneumonia	Disease	MESH:D011014
+24498090	63	72	mortality	Disease	MESH:D003643
+24498090	86	95	Mortality	Disease	MESH:D003643
+24498090	343	352	mortality	Disease	MESH:D003643
+24498090	562	571	mortality	Disease	MESH:D003643
+24498090	592	599	patient	Species	9606
+24498090	776	784	Patients	Species	9606
+24498090	816	825	pneumonia	Disease	MESH:D011014
+24498090	938	947	mortality	Disease	MESH:D003643
+24498090	997	1005	patients	Species	9606
+24498090	1044	1053	Mortality	Disease	MESH:D003643
+24498090	1207	1216	mortality	Disease	MESH:D003643
+24498090	1266	1275	mortality	Disease	MESH:D003643
+24498090	1340	1351	bicarbonate	Chemical	MESH:D001639
+24498090	1560	1569	mortality	Disease	MESH:D003643
+24498090	Association	MESH:D001639	MESH:D003643
+

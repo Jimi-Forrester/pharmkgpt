@@ -1,0 +1,46 @@
+36750170|t|The human islet amyloid polypeptide reduces hippocampal tauopathy and behavioral impairments in P301S mice without inducing neurotoxicity or seeding amyloid aggregation.
+36750170|a|Recent evidence suggests that human islet amyloid polypeptide (h-IAPP) accumulates in the brains of Alzheimer's disease (AD) patients and may interact with Abeta or microtubule associated protein tau to associate with the neurodegenerative process. Increasing evidence indicates a potential protective effect of h-IAPP against Abeta-induced neurotoxicity in AD mouse models. However, a direct therapeutic effect of h-IAPP supplementation on tauopathy has not been established. Here, we found that long-term h-IAPP treatment attenuated tau hyperphosphorylation levels and induced neuroinflammation and oxidative damage, prevented synaptic loss and neuronal degeneration in the hippocampus, and alleviated behavioral deficits in P301S transgenic mice (a mouse model of tauopathy). Restoration of insulin sensitization, glucose/energy metabolism, and activated BDNF signaling also contributed to the underlying mechanisms. These findings suggest that seemly h-IAPP has promise for the treatment of neurodegenerative disorders with tauopathy, such as AD.
+36750170	4	9	human	Species	9606
+36750170	10	35	islet amyloid polypeptide	Gene	3375
+36750170	44	65	hippocampal tauopathy	Disease	MESH:D024801
+36750170	70	92	behavioral impairments	Disease	MESH:D001523
+36750170	96	101	P301S	ProteinMutation	tmVar:p|SUB|P|301|S;HGVS:p.P301S;VariantGroup:0;CorrespondingGene:4137;RS#:63751438;CorrespondingSpecies:9606;CA#:225439
+36750170	102	106	mice	Species	10090
+36750170	124	137	neurotoxicity	Disease	MESH:D020258
+36750170	149	168	amyloid aggregation	Disease	MESH:C000718787
+36750170	200	205	human	Species	9606
+36750170	206	231	islet amyloid polypeptide	Gene	3375
+36750170	270	289	Alzheimer's disease	Disease	MESH:D000544
+36750170	291	293	AD	Disease	MESH:D000544
+36750170	295	303	patients	Species	9606
+36750170	326	331	Abeta	Gene	351
+36750170	335	369	microtubule associated protein tau	Gene	4137
+36750170	392	409	neurodegenerative	Disease	MESH:D019636
+36750170	497	502	Abeta	Gene	11820
+36750170	511	524	neurotoxicity	Disease	MESH:D020258
+36750170	528	530	AD	Disease	MESH:D000544
+36750170	531	536	mouse	Species	10090
+36750170	611	620	tauopathy	Disease	MESH:D024801
+36750170	749	766	neuroinflammation	Disease	MESH:D000090862
+36750170	799	812	synaptic loss	Disease	MESH:D012183
+36750170	817	838	neuronal degeneration	Disease	MESH:D009410
+36750170	897	902	P301S	ProteinMutation	tmVar:p|SUB|P|301|S;HGVS:p.P301S;VariantGroup:0;CorrespondingGene:4137;RS#:63751438;CorrespondingSpecies:9606;CA#:225439
+36750170	914	918	mice	Species	10090
+36750170	922	927	mouse	Species	10090
+36750170	937	946	tauopathy	Disease	MESH:D024801
+36750170	987	994	glucose	Chemical	MESH:D005947
+36750170	1028	1032	BDNF	Gene	12064
+36750170	1165	1192	neurodegenerative disorders	Disease	MESH:D019636
+36750170	1198	1207	tauopathy	Disease	MESH:D024801
+36750170	1217	1219	AD	Disease	MESH:D000544
+36750170	Negative_Correlation	MESH:D001523	3375
+36750170	Association	MESH:D001523	RS#:63751438;HGVS:p.P301S;CorrespondingGene:4137
+36750170	Association	3375	351
+36750170	Negative_Correlation	MESH:D024801	3375
+36750170	Association	MESH:D000544	3375
+36750170	Association	MESH:D019636	4137
+36750170	Association	MESH:D019636	3375
+36750170	Association	3375	4137
+36750170	Positive_Correlation	MESH:D020258	11820
+36750170	Association	MESH:D001523	4137
+

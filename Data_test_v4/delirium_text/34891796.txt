@@ -1,0 +1,27 @@
+34891796|t|Unsupervised detection of individual atrophy in Alzheimer's disease.
+34891796|a|BACKGROUND: To realize precision medicine, it is important to realize the detection of the individual atrophy of Alzheimer's disease (AD) patients. Our objective is to find individual brain regions of interest (ROIs) in AD patients via an unsupervised deep learning network. METHODS: This study used structural Magnetic Resonance Imaging (sMRI) scans with the 732 healthy control (HC) subjects and 202 AD patients from the Alzheimer's disease Neuroimaging Initiative (ADNI), and the 105 HC subjects were collected at the Xuanwu Hospital. An unsupervised deep learning network based on Adversarial Autoencoders (AAE) was proposed to delineate the individual atrophy of AD patients. In the proposed model, Variational Autoencoders (VAE) and Generative Adversarial Networks (GAN) were combined to learn the potential distribution and train a generator. In this step, the 530 HCs from ADNI were applied as the training dataset and the 105 HCs from Xuanwu Hospital were applied as an external validation dataset. The structural similarity (SSIM) was used to judge the robustness of the proposed model. Then, ROIs of the 202 AD patients were detected. In order to verify the clinical performance of these ROIs, other 202 HCs were selected from ADNI and a multilayer perceptron (MLP) was used to classify AD versus HC by 5 folder cross-validation. In the comparative experiments, we compared our model with three other previous models. RESULTS: The SSIM reached 0.86 in both training and external validation datasets. Eventually, the classification accuracy of our model achieved 0.94+-0.02. In the meanwhile, the classification accuracies were 0.89+-0.01, 0.85+-0.04 and 0.91+-0.03 for the three previous methods. CONCLUSION: Our deep learning model could detect individual atrophy in AD patients. It may be a useful tool for AD diagnosis in clinics.
+34891796	37	44	atrophy	Disease	MESH:D001284
+34891796	48	67	Alzheimer's disease	Disease	MESH:D000544
+34891796	171	178	atrophy	Disease	MESH:D001284
+34891796	182	201	Alzheimer's disease	Disease	MESH:D000544
+34891796	203	205	AD	Disease	MESH:D000544
+34891796	207	215	patients	Species	9606
+34891796	289	291	AD	Disease	MESH:D000544
+34891796	292	300	patients	Species	9606
+34891796	471	473	AD	Disease	MESH:D000544
+34891796	474	482	patients	Species	9606
+34891796	492	511	Alzheimer's disease	Disease	MESH:D000544
+34891796	726	733	atrophy	Disease	MESH:D001284
+34891796	737	739	AD	Disease	MESH:D000544
+34891796	740	748	patients	Species	9606
+34891796	941	944	HCs	Disease	
+34891796	1004	1007	HCs	Disease	
+34891796	1188	1190	AD	Disease	MESH:D000544
+34891796	1191	1199	patients	Species	9606
+34891796	1284	1287	HCs	Disease	
+34891796	1367	1369	AD	Disease	MESH:D000544
+34891796	1837	1844	atrophy	Disease	MESH:D001284
+34891796	1848	1850	AD	Disease	MESH:D000544
+34891796	1851	1859	patients	Species	9606
+34891796	1889	1891	AD	Disease	MESH:D000544
+

@@ -1,0 +1,37 @@
+35457373|t|Temporal and Spatial Analysis of Alzheimer's Disease Based on an Improved Convolutional Neural Network and a Resting-State FMRI Brain Functional Network.
+35457373|a|Most current research on Alzheimer's disease (AD) is based on transverse measurements. Given the nature of neurodegeneration in AD progression, observing longitudinal changes in the structural features of brain networks over time may improve the accuracy of the predicted transformation and provide a good measure of the progression of AD. Currently, there is no cure for patients with existing AD dementia, but patients with mild cognitive impairment (MCI) in the prodromal stage of AD dementia may be diagnosed. The study of the early diagnosis of MCI and the prediction of MCI to AD transformation is of great significance for the monitoring of the MCI to AD transformation process. Despite the high rate of MCI conversion to AD, the neuropathological cause of MCI is heterogeneous. However, many people with MCI remain stable. Treatment options are different for patients with stable MCI and those with underlying dementia. Therefore, it is of great significance for clinical practice to predict whether patients with MCI will develop AD dementia. This paper proposes an improved algorithm that is based on a convolution neural network (CNN) with residuals combined with multi-layer long short-term memory (LSTM) to diagnose AD and predict MCI. Firstly, multi-time resting-state fMRI images were obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database for preprocessing, and then an AAL brain partition template was used to construct a 90 x 90 functional connectivity (FC) network matrix of a whole-brain region of interest (ROI). Secondly, the diversity of training samples was increased by generating an adversarial network (GAN). Finally, a CNN with residuals and a multi-layer LSTM model were constructed to automatically classify and predict the functional adjacency matrix. This method can not only distinguish Alzheimer's disease from normal health conditions at multiple time points, but can also predict progressive MCI (pMCI) and stable MCI (sMCI) at multiple time points. The classification accuracies in AD vs. NC and sMCI vs.pMCI reached 93.5% and 75.5%, respectively.
+35457373	33	52	Alzheimer's Disease	Disease	MESH:D000544
+35457373	179	198	Alzheimer's disease	Disease	MESH:D000544
+35457373	200	202	AD	Disease	MESH:D000544
+35457373	261	278	neurodegeneration	Disease	MESH:D019636
+35457373	282	284	AD	Disease	MESH:D000544
+35457373	490	492	AD	Disease	MESH:D000544
+35457373	526	534	patients	Species	9606
+35457373	549	560	AD dementia	Disease	MESH:D000544
+35457373	566	574	patients	Species	9606
+35457373	585	605	cognitive impairment	Disease	MESH:D003072
+35457373	607	610	MCI	Disease	MESH:D060825
+35457373	638	649	AD dementia	Disease	MESH:D000544
+35457373	704	707	MCI	Disease	MESH:D060825
+35457373	730	733	MCI	Disease	MESH:D060825
+35457373	737	739	AD	Disease	MESH:D000544
+35457373	806	809	MCI	Disease	MESH:D060825
+35457373	813	815	AD	Disease	MESH:D000544
+35457373	865	868	MCI	Disease	MESH:D060825
+35457373	883	885	AD	Disease	MESH:D000544
+35457373	918	921	MCI	Disease	MESH:D060825
+35457373	966	969	MCI	Disease	MESH:D060825
+35457373	1021	1029	patients	Species	9606
+35457373	1042	1045	MCI	Disease	MESH:D060825
+35457373	1072	1080	dementia	Disease	MESH:D003704
+35457373	1162	1170	patients	Species	9606
+35457373	1176	1179	MCI	Disease	MESH:D060825
+35457373	1193	1204	AD dementia	Disease	MESH:D000544
+35457373	1383	1385	AD	Disease	MESH:D000544
+35457373	1398	1401	MCI	Disease	MESH:D060825
+35457373	1472	1491	Alzheimer's Disease	Disease	MESH:D000544
+35457373	1997	2016	Alzheimer's disease	Disease	MESH:D000544
+35457373	2105	2108	MCI	Disease	MESH:D060825
+35457373	2127	2130	MCI	Disease	MESH:D060825
+35457373	2196	2198	AD	Disease	MESH:D000544
+

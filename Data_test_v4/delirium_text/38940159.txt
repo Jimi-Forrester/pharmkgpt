@@ -1,0 +1,25 @@
+38940159|t|Epidemiological topology data analysis links severe COVID-19 to RAAS and hyperlipidemia associated metabolic syndrome conditions.
+38940159|a|MOTIVATION: The emergence of COVID-19 (C19) created incredible worldwide challenges but offers unique opportunities to understand the physiology of its risk factors and their interactions with complex disease conditions, such as metabolic syndrome. To address the challenges of discovering clinically relevant interactions, we employed a unique approach for epidemiological analysis powered by redescription-based topological data analysis (RTDA). RESULTS: Here, RTDA was applied to Explorys data to discover associations among severe C19 and metabolic syndrome. This approach was able to further explore the probative value of drug prescriptions to capture the involvement of RAAS and hypertension with C19, as well as modification of risk factor impact by hyperlipidemia (HL) on severe C19. RTDA found higher-order relationships between RAAS pathway and severe C19 along with demographic variables of age, gender, and comorbidities such as obesity, statin prescriptions, HL, chronic kidney failure, and disproportionately affecting Black individuals. RTDA combined with CuNA (cumulant-based network analysis) yielded a higher-order interaction network derived from cumulants that furthered supported the central role that RAAS plays. TDA techniques can provide a novel outlook beyond typical logistic regressions in epidemiology. From an observational cohort of electronic medical records, it can find out how RAAS drugs interact with comorbidities, such as hypertension and HL, of patients with severe bouts of C19. Where single variable association tests with outcome can struggle, TDA's higher-order interaction network between different variables enables the discovery of the comorbidities of a disease such as C19 work in concert. AVAILABILITY AND IMPLEMENTATION: Code for performing TDA/RTDA is available in https://github.com/IBM/Matilda and code for CuNA can be found in https://github.com/BiomedSciAI/Geno4SD/. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.
+38940159	52	60	COVID-19	Disease	MESH:D000086382
+38940159	73	87	hyperlipidemia	Disease	MESH:D006949
+38940159	99	117	metabolic syndrome	Disease	MESH:D024821
+38940159	159	167	COVID-19	Disease	MESH:D000086382
+38940159	169	172	C19	Disease	MESH:D000086382
+38940159	359	377	metabolic syndrome	Disease	MESH:D024821
+38940159	665	668	C19	Disease	MESH:D000086382
+38940159	673	691	metabolic syndrome	Disease	MESH:D024821
+38940159	816	828	hypertension	Disease	MESH:D006973
+38940159	834	837	C19	Disease	MESH:D000086382
+38940159	888	902	hyperlipidemia	Disease	MESH:D006949
+38940159	904	906	HL	Disease	MESH:D006949
+38940159	918	921	C19	Disease	MESH:D000086382
+38940159	993	996	C19	Disease	MESH:D000086382
+38940159	1072	1079	obesity	Disease	MESH:D009765
+38940159	1103	1105	HL	Disease	MESH:D006949
+38940159	1107	1129	chronic kidney failure	Disease	MESH:D007676
+38940159	1590	1602	hypertension	Disease	MESH:D006973
+38940159	1607	1609	HL	Disease	MESH:D006949
+38940159	1614	1622	patients	Species	9606
+38940159	1644	1647	C19	Disease	MESH:D000086382
+38940159	1847	1850	C19	Disease	MESH:D000086382
+

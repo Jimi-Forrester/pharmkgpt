@@ -1,0 +1,54 @@
+34955704|t|Assessing Causal Relationship Between Human Blood Metabolites and Five Neurodegenerative Diseases With GWAS Summary Statistics.
+34955704|a|Background: Neurodegenerative diseases (NDDs) are the leading cause of disability worldwide while their metabolic pathogenesis is unclear. Genome-wide association studies (GWASs) offer an unprecedented opportunity to untangle the relationship between metabolites and NDDs. Methods: By leveraging two-sample Mendelian randomization (MR) approaches and relying on GWASs summary statistics, we here explore the causal association between 486 metabolites and five NDDs including Alzheimer's Disease (AD), amyotrophic lateral sclerosis (ALS), frontotemporal dementia (FTD), Parkinson's disease (PD), and multiple sclerosis (MS). We validated our MR results with extensive sensitive analyses including MR-PRESSO and MR-Egger regression. We also performed linkage disequilibrium score regression (LDSC) and colocalization analyses to distinguish causal metabolite-NDD associations from genetic correlation and LD confounding of shared causal genetic variants. Finally, a metabolic pathway analysis was further conducted to identify potential metabolite pathways. Results: We detected 164 metabolites which were suggestively associated with the risk of NDDs. Particularly, 2-methoxyacetaminophen sulfate substantially affected ALS (OR = 0.971, 95%CIs: 0.961 ~ 0.982, FDR = 1.04E-4) and FTD (OR = 0.924, 95%CIs: 0.885 ~ 0.964, FDR = 0.048), and X-11529 (OR = 1.604, 95%CIs: 1.250 ~ 2.059, FDR = 0.048) and X-13429 (OR = 2.284, 95%CIs: 1.457 ~ 3.581, FDR = 0.048) significantly impacted FTD. These associations were further confirmed by the weighted median and maximum likelihood methods, with MR-PRESSO and the MR-Egger regression removing the possibility of pleiotropy. We also observed that ALS or FTD can alter the metabolite levels, including ALS and FTD on 2-methoxyacetaminophen sulfate. The LDSC and colocalization analyses showed that none of the identified associations could be driven by genetic correlation or confounding by LD with common causal loci. Multiple metabolic pathways were found to be involved in NDDs, such as "urea cycle" (P = 0.036), "arginine biosynthesis" (P = 0.004) on AD and "phenylalanine, tyrosine and tryptophan biosynthesis" (P = 0.046) on ALS. Conclusion: our study reveals robust bidirectional causal associations between servaral metabolites and neurodegenerative diseases, and provides a novel insight into metabolic mechanism for pathogenesis and therapeutic strategies of these diseases.
+34955704	38	43	Human	Species	9606
+34955704	71	97	Neurodegenerative Diseases	Disease	MESH:D019636
+34955704	140	166	Neurodegenerative diseases	Disease	MESH:D019636
+34955704	168	172	NDDs	Disease	MESH:D019636
+34955704	395	399	NDDs	Disease	MESH:D019636
+34955704	588	592	NDDs	Disease	MESH:D019636
+34955704	603	622	Alzheimer's Disease	Disease	MESH:D000544
+34955704	624	626	AD	Disease	MESH:D000544
+34955704	629	658	amyotrophic lateral sclerosis	Disease	MESH:D000690
+34955704	660	663	ALS	Disease	MESH:D000690
+34955704	666	689	frontotemporal dementia	Disease	MESH:D057180
+34955704	691	694	FTD	Disease	MESH:D057180
+34955704	697	716	Parkinson's disease	Disease	MESH:D010300
+34955704	718	720	PD	Disease	MESH:D010300
+34955704	727	745	multiple sclerosis	Disease	MESH:D009103
+34955704	747	749	MS	Disease	MESH:D009103
+34955704	985	988	NDD	Disease	
+34955704	1273	1277	NDDs	Disease	MESH:D019636
+34955704	1293	1323	2-methoxyacetaminophen sulfate	Chemical	-
+34955704	1347	1350	ALS	Disease	MESH:D000690
+34955704	1406	1409	FTD	Disease	MESH:D057180
+34955704	1464	1471	X-11529	Chemical	-
+34955704	1525	1532	X-13429	Chemical	-
+34955704	1605	1608	FTD	Disease	MESH:D057180
+34955704	1812	1815	ALS	Disease	MESH:D000690
+34955704	1819	1822	FTD	Disease	MESH:D057180
+34955704	1866	1869	ALS	Disease	MESH:D000690
+34955704	1874	1877	FTD	Disease	MESH:D057180
+34955704	1881	1911	2-methoxyacetaminophen sulfate	Chemical	-
+34955704	2140	2144	NDDs	Disease	MESH:D019636
+34955704	2155	2159	urea	Chemical	MESH:D014508
+34955704	2181	2189	arginine	Chemical	MESH:D001120
+34955704	2219	2221	AD	Disease	MESH:D000544
+34955704	2227	2240	phenylalanine	Chemical	MESH:D010649
+34955704	2242	2250	tyrosine	Chemical	MESH:D014443
+34955704	2255	2265	tryptophan	Chemical	MESH:D014364
+34955704	2295	2298	ALS	Disease	MESH:D000690
+34955704	2379	2387	servaral	Chemical	-
+34955704	2404	2430	neurodegenerative diseases	Disease	MESH:D019636
+34955704	Association	MESH:D010649	MESH:D057180
+34955704	Association	MESH:D010649	MESH:D014364
+34955704	Association	MESH:D014364	MESH:D000690
+34955704	Association	MESH:D010649	MESH:D000690
+34955704	Association	MESH:D001120	MESH:D000690
+34955704	Association	MESH:D014508	MESH:D057180
+34955704	Association	MESH:D010649	MESH:D014443
+34955704	Association	MESH:D001120	MESH:D057180
+34955704	Association	MESH:D014364	MESH:D014443
+34955704	Association	MESH:D014508	MESH:D000690
+34955704	Association	MESH:D014364	MESH:D057180
+34955704	Association	MESH:D014443	MESH:D057180
+

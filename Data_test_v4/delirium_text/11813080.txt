@@ -1,0 +1,75 @@
+11813080|t|Folate, vitamin B12 and vitamin B6 and one carbon metabolism.
+11813080|a|The vitamins folic acid, B12 and B6 and B2 are the source of coenzymes which participate in one carbon metabolism. In this metabolism, a carbon unit from serine or glycine is transferred to tetrahydrofolate (THF) to form methylene-THF. This is either used as such for the synthesis of thymidine, which is incorporated into DNA, oxidized to formyl-THF which is used for the synthesis of purines, which are building blocks of RNA and DNA, or it is reduced to methyl-THF which used to methylate homocysteine to form methionine, a reaction which is catalyzed by a B12-containing methyltransferase. Much of the methionine which is formed is converted to S-adenosylmethionine (SAM), a universal donor of methyl groups, including DNA, RNA, hormones, neurotransmitters, membrane lipids, proteins and others. Because of these functions, interest in recent years has been growing particularly in the area of aging and the possibility that certain diseases that afflict the aging population, loss of cognitive function, Alzheimer's disease, cardiovascular disease, cancer and others, may be in part explained by inadequate intake or inadequate status of these vitamins. Homocysteine, a product of methionine metabolism as well as a precursor of methionine synthesis, was shown recently to be a risk factor for cardiovascular disease, stroke and thrombosis when its concentration in plasma is slightly elevated. There are now data which show association between elevated plasma homocysteine levels and loss of neurocognitive function and Alzheimer's disease. These associations could be due to a neurotoxic effect of homocysteine or to decreased availability of SAM which results in hypomethylation in the brain tissue. Hypomethylation is also thought to exacerbate depressive tendency in people, and for (colorectal) cancer DNA hypomethylation is thought to be the link between the observed relationship between inadequate folate status and cancer. There are many factors that contribute to the fact that the status of these vitamins in the elderly is inadequate. These factors are in part physiological such as the achlorhydria which affects vitamin B12 absorption and in part socioeconomic and habitual. We need more studies to confirm that these vitamins have important functions in the etiology of these diseases. We also need to establish if these diseases can be prevented or diminished by proper nutrition starting at a younger age.
+11813080	0	6	Folate	Chemical	MESH:D005492
+11813080	16	19	B12	Gene	4709
+11813080	24	34	vitamin B6	Chemical	MESH:D025101
+11813080	43	49	carbon	Chemical	MESH:D002244
+11813080	87	90	B12	Gene	4709
+11813080	158	164	carbon	Chemical	MESH:D002244
+11813080	199	205	carbon	Chemical	MESH:D002244
+11813080	216	222	serine	Chemical	MESH:D012694
+11813080	226	233	glycine	Chemical	MESH:D005998
+11813080	252	268	tetrahydrofolate	Chemical	MESH:C030371
+11813080	270	273	THF	Chemical	MESH:C030371
+11813080	283	296	methylene-THF	Chemical	-
+11813080	347	356	thymidine	Chemical	MESH:D013936
+11813080	402	412	formyl-THF	Chemical	MESH:D005575
+11813080	448	455	purines	Chemical	MESH:D011687
+11813080	519	529	methyl-THF	Chemical	-
+11813080	554	566	homocysteine	Chemical	MESH:D006710
+11813080	575	585	methionine	Chemical	MESH:D008715
+11813080	622	625	B12	Gene	4709
+11813080	668	678	methionine	Chemical	MESH:D008715
+11813080	711	731	S-adenosylmethionine	Chemical	MESH:D012436
+11813080	733	736	SAM	Chemical	MESH:D012436
+11813080	833	839	lipids	Chemical	MESH:D008055
+11813080	1043	1069	loss of cognitive function	Disease	MESH:D003072
+11813080	1071	1090	Alzheimer's disease	Disease	MESH:D000544
+11813080	1092	1114	cardiovascular disease	Disease	MESH:D002318
+11813080	1116	1122	cancer	Disease	MESH:D009369
+11813080	1221	1233	Homocysteine	Chemical	MESH:D006710
+11813080	1248	1258	methionine	Chemical	MESH:D008715
+11813080	1296	1306	methionine	Chemical	MESH:D008715
+11813080	1361	1383	cardiovascular disease	Disease	MESH:D002318
+11813080	1385	1391	stroke	Disease	MESH:D020521
+11813080	1396	1406	thrombosis	Disease	MESH:D013927
+11813080	1528	1540	homocysteine	Chemical	MESH:D006710
+11813080	1552	1583	loss of neurocognitive function	Disease	MESH:D006315
+11813080	1588	1607	Alzheimer's disease	Disease	MESH:D000544
+11813080	1646	1656	neurotoxic	Disease	MESH:D020258
+11813080	1667	1679	homocysteine	Chemical	MESH:D006710
+11813080	1712	1715	SAM	Chemical	MESH:D012436
+11813080	1816	1835	depressive tendency	Disease	MESH:C536965
+11813080	1856	1874	colorectal) cancer	Disease	MESH:D015179
+11813080	1974	1980	folate	Chemical	MESH:D005492
+11813080	1992	1998	cancer	Disease	MESH:D009369
+11813080	2167	2179	achlorhydria	Disease	MESH:D000126
+11813080	2202	2205	B12	Gene	4709
+11813080	Positive_Correlation	MESH:D005492	MESH:D015179
+11813080	Association	MESH:D006710	MESH:D008715
+11813080	Association	MESH:D002244	MESH:D012694
+11813080	Positive_Correlation	MESH:D006710	MESH:D002318
+11813080	Positive_Correlation	MESH:D008715	MESH:D020521
+11813080	Association	MESH:D002244	4709
+11813080	Positive_Correlation	MESH:D006710	MESH:D020521
+11813080	Positive_Correlation	MESH:D006710	MESH:D015179
+11813080	Positive_Correlation	MESH:D008715	MESH:D015179
+11813080	Association	MESH:C030371	MESH:D005998
+11813080	Association	MESH:D002244	MESH:D005998
+11813080	Association	MESH:C030371	MESH:D002244
+11813080	Positive_Correlation	MESH:D006710	MESH:D020258
+11813080	Positive_Correlation	MESH:D008715	MESH:D013927
+11813080	Negative_Correlation	MESH:D012436	MESH:D000544
+11813080	Positive_Correlation	MESH:D006710	MESH:D013927
+11813080	Positive_Correlation	MESH:D005492	MESH:D009369
+11813080	Positive_Correlation	MESH:D005575	MESH:D011687
+11813080	Association	MESH:D006710	4709
+11813080	Association	MESH:D008715	4709
+11813080	Positive_Correlation	MESH:D008715	MESH:D002318
+11813080	Positive_Correlation	MESH:D008715	MESH:D012436
+11813080	Positive_Correlation	MESH:D006710	MESH:D000544
+11813080	Positive_Correlation	MESH:D006710	MESH:D006315
+11813080	Positive_Correlation	MESH:D012436	MESH:D015179
+11813080	Association	MESH:C030371	MESH:D012694
+11813080	Association	MESH:D000126	4709
+

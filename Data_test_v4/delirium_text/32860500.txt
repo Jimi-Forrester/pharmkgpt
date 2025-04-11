@@ -1,0 +1,16 @@
+32860500|t|Dexmedetomidine-induced deep sedation mimics non-rapid eye movement stage 3 sleep: large-scale validation using machine learning.
+32860500|a|STUDY OBJECTIVES: Dexmedetomidine-induced electroencephalogram (EEG) patterns during deep sedation are comparable with natural sleep patterns. Using large-scale EEG recordings and machine learning techniques, we investigated whether dexmedetomidine-induced deep sedation indeed mimics natural sleep patterns. METHODS: We used EEG recordings from three sources in this study: 8,707 overnight sleep EEG and 30 dexmedetomidine clinical trial EEG. Dexmedetomidine-induced sedation levels were assessed using the Modified Observer's Assessment of Alertness/Sedation (MOAA/S) score. We extracted 22 spectral features from each EEG recording using a multitaper spectral estimation method. Elastic-net regularization method was used for feature selection. We compared the performance of several machine learning algorithms (logistic regression, support vector machine, and random forest), trained on individual sleep stages, to predict different levels of the MOAA/S sedation state. RESULTS: The random forest algorithm trained on non-rapid eye movement stage 3 (N3) predicted dexmedetomidine-induced deep sedation (MOAA/S = 0) with area under the receiver operator characteristics curve >0.8 outperforming other machine learning models. Power in the delta band (0-4 Hz) was selected as an important feature for prediction in addition to power in theta (4-8 Hz) and beta (16-30 Hz) bands. CONCLUSIONS: Using a large-scale EEG data-driven approach and machine learning framework, we show that dexmedetomidine-induced deep sedation state mimics N3 sleep EEG patterns. CLINICAL TRIALS: Name-Pharmacodynamic Interaction of REMI and DMED (PIRAD), URL-https://clinicaltrials.gov/ct2/show/NCT03143972, and registration-NCT03143972.
+32860500	0	15	Dexmedetomidine	Chemical	MESH:D020927
+32860500	45	81	non-rapid eye movement stage 3 sleep	Disease	MESH:D020923
+32860500	148	163	Dexmedetomidine	Chemical	MESH:D020927
+32860500	363	378	dexmedetomidine	Chemical	MESH:D020927
+32860500	538	553	dexmedetomidine	Chemical	MESH:D020927
+32860500	574	589	Dexmedetomidine	Chemical	MESH:D020927
+32860500	692	696	MOAA	Disease	
+32860500	1082	1086	MOAA	Disease	
+32860500	1087	1088	S	Disease	MESH:D018455
+32860500	1199	1214	dexmedetomidine	Chemical	MESH:D020927
+32860500	1238	1242	MOAA	Disease	
+32860500	1614	1629	dexmedetomidine	Chemical	MESH:D020927
+32860500	Association	MESH:D020927	MESH:D020923
+

@@ -1,0 +1,92 @@
+33152005|t|The association of clinical phenotypes to known AD/FTD genetic risk loci and their inter-relationship.
+33152005|a|To elucidate how variants in genetic risk loci previously implicated in Alzheimer's Disease (AD) and/or frontotemporal dementia (FTD) contribute to expression of disease phenotypes, a phenome-wide association study was performed in two waves. In the first wave, we explored clinical traits associated with thirteen genetic variants previously reported to be linked to disease risk using both the 23andMe and UKB cohorts. We tested 30 additional AD variants in UKB cohort only in the second wave. APOE variants defining epsilon2/epsilon3/epsilon4 alleles and rs646776 were identified to be significantly associated with metabolic/cardiovascular and longevity traits. APOE variants were also significantly associated with neurological traits. ABI3 variant rs28394864 was significantly associated with cardiovascular (e.g. (hypertension, ischemic heart disease, coronary atherosclerosis, angina) and immune-related trait asthma. Both APOE variants and CLU variant were significantly associated with nearsightedness. HLA- DRB1 variant was associated with diseases with immune-related traits. Additionally, variants from 10+ AD genes (BZRAP1-AS1, ADAMTS4, ADAM10, APH1B, SCIMP, ABI3, SPPL2A, ZNF232, GRN, CD2AP, and CD33) were associated with hematological measurements such as white blood cell (leukocyte) count, monocyte count, neutrophill count, platelet count, and/or mean platelet (thrombocyte) volume (an autoimmune disease biomarker). Many of these genes are expressed specifically in microglia. The associations of ABI3 variant with cardiovascular and immune-related traits are one of the novel findings from this study. Taken together, it is evidenced that at least some AD and FTD variants are associated with multiple clinical phenotypes and not just dementia. These findings were discussed in the context of causal relationship versus pleiotropy via Mendelian randomization analysis.
+33152005	48	50	AD	Disease	MESH:D000544
+33152005	51	54	FTD	Disease	MESH:D057180
+33152005	175	194	Alzheimer's Disease	Disease	MESH:D000544
+33152005	196	198	AD	Disease	MESH:D000544
+33152005	207	230	frontotemporal dementia	Disease	MESH:D057180
+33152005	232	235	FTD	Disease	MESH:D057180
+33152005	548	550	AD	Disease	MESH:D000544
+33152005	599	603	APOE	Gene	348
+33152005	661	669	rs646776	SNP	tmVar:rs646776;VariantGroup:0;CorrespondingGene:1952;RS#:646776;CorrespondingSpecies:9606
+33152005	769	773	APOE	Gene	348
+33152005	844	848	ABI3	Gene	51225
+33152005	857	867	rs28394864	SNP	tmVar:rs28394864;VariantGroup:1;CorrespondingGene:102724596;RS#:28394864;CorrespondingSpecies:9606
+33152005	924	936	hypertension	Disease	MESH:D006973
+33152005	938	960	ischemic heart disease	Disease	MESH:D017202
+33152005	962	986	coronary atherosclerosis	Disease	MESH:D003324
+33152005	988	994	angina	Disease	MESH:D000787
+33152005	1021	1027	asthma	Disease	MESH:D001249
+33152005	1034	1038	APOE	Gene	348
+33152005	1052	1055	CLU	Disease	
+33152005	1116	1125	HLA- DRB1	Gene	3123;3105
+33152005	1223	1225	AD	Disease	MESH:D000544
+33152005	1233	1239	BZRAP1	Gene	9256
+33152005	1245	1252	ADAMTS4	Gene	9507
+33152005	1254	1260	ADAM10	Gene	102
+33152005	1262	1267	APH1B	Gene	83464
+33152005	1269	1274	SCIMP	Gene	388325
+33152005	1276	1280	ABI3	Gene	51225
+33152005	1282	1288	SPPL2A	Gene	84888
+33152005	1290	1296	ZNF232	Gene	7775
+33152005	1298	1301	GRN	Gene	2896
+33152005	1303	1308	CD2AP	Gene	23607
+33152005	1314	1318	CD33	Gene	945
+33152005	1509	1527	autoimmune disease	Disease	MESH:D001327
+33152005	1621	1625	ABI3	Gene	51225
+33152005	1778	1780	AD	Disease	MESH:D000544
+33152005	1785	1788	FTD	Disease	MESH:D057180
+33152005	1860	1868	dementia	Disease	MESH:D003704
+33152005	Association	MESH:D001249	RS#:28394864;CorrespondingGene:102724596
+33152005	Association	MESH:D006973	RS#:28394864;CorrespondingGene:102724596
+33152005	Association	MESH:D001327	23607
+33152005	Association	MESH:D000544	388325
+33152005	Positive_Correlation	MESH:D057180	RS#:28394864;CorrespondingGene:102724596
+33152005	Association	MESH:D057180	2896
+33152005	Association	MESH:D001327	83464
+33152005	Association	MESH:D000544	84888
+33152005	Association	MESH:D003324	51225
+33152005	Association	MESH:D000787	RS#:646776;CorrespondingGene:1952
+33152005	Association	MESH:D057180	102
+33152005	Association	MESH:D000544	23607
+33152005	Association	MESH:D001327	7775
+33152005	Association	MESH:D001327	2896
+33152005	Association	MESH:D000787	RS#:28394864;CorrespondingGene:102724596
+33152005	Association	MESH:D003324	RS#:28394864;CorrespondingGene:102724596
+33152005	Association	MESH:D057180	51225
+33152005	Association	MESH:D000544	7775
+33152005	Association	MESH:D057180	945
+33152005	Association	MESH:D000544	2896
+33152005	Association	MESH:D017202	51225
+33152005	Association	MESH:D057180	23607
+33152005	Association	MESH:D000787	51225
+33152005	Association	MESH:D001327	102
+33152005	Association	MESH:D057180	84888
+33152005	Association	MESH:D001249	RS#:646776;CorrespondingGene:1952
+33152005	Association	MESH:D000544	9507
+33152005	Association	MESH:D001327	51225
+33152005	Association	MESH:D057180	83464
+33152005	Association	MESH:D000544	102
+33152005	Association	MESH:D000544	83464
+33152005	Association	MESH:D006973	51225
+33152005	Association	MESH:D000544	51225
+33152005	Association	MESH:D006973	RS#:646776;CorrespondingGene:1952
+33152005	Association	MESH:D000544	945
+33152005	Association	MESH:D000544	9256
+33152005	Association	MESH:D001249	51225
+33152005	Association	MESH:D001327	945
+33152005	Positive_Correlation	MESH:D057180	RS#:646776;CorrespondingGene:1952
+33152005	Association	MESH:D017202	RS#:28394864;CorrespondingGene:102724596
+33152005	Association	MESH:D057180	7775
+33152005	Association	MESH:D001327	84888
+33152005	Association	MESH:D001249	102724596
+33152005	Association	MESH:D006973	102724596
+33152005	Association	MESH:D057180	102724596
+33152005	Association	MESH:D000787	1952
+33152005	Association	MESH:D000787	102724596
+33152005	Association	MESH:D003324	102724596
+33152005	Association	MESH:D001249	1952
+33152005	Association	MESH:D006973	1952
+33152005	Association	MESH:D057180	1952
+33152005	Association	MESH:D017202	102724596
+

@@ -1,0 +1,20 @@
+37533101|t|Human Alzheimer's disease reactive astrocytes exhibit a loss of homeostastic gene expression.
+37533101|a|Astrocytes are one of the brain's major cell types and are responsible for maintaining neuronal homeostasis via regulating the extracellular environment, providing metabolic support, and modulating synaptic activity. In neurodegenerative diseases, such as Alzheimer's disease, astrocytes can take on a hypertrophic appearance. These reactive astrocytes are canonically associated with increases in cytoskeletal proteins, such as glial fibrillary acidic protein and vimentin. However, the molecular alterations that characterize astrocytes in human disease tissues have not been extensively studied with single cell resolution. Using single nucleus RNA sequencing data from normal, pathologic aging, and Alzheimer's disease brains, we identified the transcriptomic changes associated with reactive astrocytes. Deep learning-based clustering algorithms denoised expression data for 17,012 genes and clustered 15,529 astrocyte nuclei, identifying protoplasmic, gray matter and fibrous, white matter astrocyte clusters. RNA trajectory analyses revealed a spectrum of reactivity within protoplasmic astrocytes characterized by a modest increase of reactive genes and a marked decrease in homeostatic genes. Amyloid but not tau pathology correlated with astrocyte reactivity. To identify reactivity-associated genes, linear regressions of gene expression versus reactivity were used to identify the top 52 upregulated and 144 downregulated genes. Gene Ontology analysis revealed that upregulated genes were associated with cellular growth, responses to metal ions, inflammation, and proteostasis. Downregulated genes were involved in cellular interactions, neuronal development, ERBB signaling, and synapse regulation. Transcription factors were significantly enriched among the downregulated genes. Using co-immunofluorescence staining of Alzheimer's disease brain tissues, we confirmed pathologic downregulation of ERBB4 and transcription factor NFIA in reactive astrocytes. Our findings reveal that protoplasmic, gray matter astrocytes in Alzheimer's disease exist within a spectrum of reactivity that is marked by a strong loss of normal function.
+37533101	6	25	Alzheimer's disease	Disease	MESH:D000544
+37533101	314	340	neurodegenerative diseases	Disease	MESH:D019636
+37533101	350	369	Alzheimer's disease	Disease	MESH:D000544
+37533101	523	554	glial fibrillary acidic protein	Gene	2670
+37533101	559	567	vimentin	Gene	7431
+37533101	797	816	Alzheimer's disease	Disease	MESH:D000544
+37533101	1312	1315	tau	Gene	4137
+37533101	1653	1665	inflammation	Disease	MESH:D007249
+37533101	1767	1771	ERBB	Gene	1956
+37533101	1928	1947	Alzheimer's disease	Disease	MESH:D000544
+37533101	2005	2010	ERBB4	Gene	2066
+37533101	2036	2040	NFIA	Gene	4774
+37533101	2130	2149	Alzheimer's disease	Disease	MESH:D000544
+37533101	Negative_Correlation	MESH:D000544	2066
+37533101	Negative_Correlation	MESH:D000544	4774
+37533101	Association	MESH:D000544	7431
+37533101	Association	MESH:D000544	2670
+

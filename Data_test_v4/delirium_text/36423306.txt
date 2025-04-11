@@ -1,0 +1,49 @@
+36423306|t|Frailty, Comorbidity, and Associations With In-Hospital Mortality in Older COVID-19 Patients: Exploratory Study of Administrative Data.
+36423306|a|BACKGROUND: Older adults have worse outcomes following hospitalization with COVID-19, but within this group there is substantial variation. Although frailty and comorbidity are key determinants of mortality, it is less clear which specific manifestations of frailty and comorbidity are associated with the worst outcomes. OBJECTIVE: We aimed to identify the key comorbidities and domains of frailty that were associated with in-hospital mortality in older patients with COVID-19 using models developed for machine learning algorithms. METHODS: This was a retrospective study that used the Hospital Episode Statistics administrative data set from March 1, 2020, to February 28, 2021, for hospitalized patients in England aged 65 years or older. The data set was split into separate training (70%), test (15%), and validation (15%) data sets during model development. Global frailty was assessed using the Hospital Frailty Risk Score (HFRS) and specific domains of frailty were identified using the Global Frailty Scale (GFS). Comorbidity was assessed using the Charlson Comorbidity Index (CCI). Additional features employed in the random forest algorithms included age, sex, deprivation, ethnicity, discharge month and year, geographical region, hospital trust, disease severity, and International Statistical Classification of Disease, 10th Edition codes recorded during the admission. Features were selected, preprocessed, and input into a series of random forest classification algorithms developed to identify factors strongly associated with in-hospital mortality. Two models were developed; the first model included the demographic, hospital-related, and disease-related items described above, as well as individual GFS domains and CCI items. The second model was similar to the first but replaced the GFS domains and CCI items with the HFRS as a global measure of frailty. Model performance was assessed using the area under the receiver operating characteristic (AUROC) curve and measures of model accuracy. RESULTS: In total, 215,831 patients were included. The model using the individual GFS domains and CCI items had an AUROC curve for in-hospital mortality of 90% and a predictive accuracy of 83%. The model using the HFRS had similar performance (AUROC curve 90%, predictive accuracy 82%). The most important frailty items in the GFS were dementia/delirium, falls/fractures, and pressure ulcers/weight loss. The most important comorbidity items in the CCI were cancer, heart failure, and renal disease. CONCLUSIONS: The physical manifestations of frailty and comorbidity, particularly a history of cognitive impairment and falls, may be useful in identification of patients who need additional support during hospitalization with COVID-19.
+36423306	0	7	Frailty	Disease	MESH:D000073496
+36423306	9	20	Comorbidity	Disease	MESH:D004194
+36423306	56	65	Mortality	Disease	MESH:D003643
+36423306	75	83	COVID-19	Disease	MESH:D000086382
+36423306	84	92	Patients	Species	9606
+36423306	212	220	COVID-19	Disease	MESH:D000086382
+36423306	285	292	frailty	Disease	MESH:D000073496
+36423306	297	308	comorbidity	Disease	MESH:D004194
+36423306	333	342	mortality	Disease	MESH:D003643
+36423306	394	401	frailty	Disease	MESH:D000073496
+36423306	406	417	comorbidity	Disease	MESH:D004194
+36423306	527	534	frailty	Disease	MESH:D000073496
+36423306	573	582	mortality	Disease	MESH:D003643
+36423306	592	600	patients	Species	9606
+36423306	606	614	COVID-19	Disease	MESH:D000086382
+36423306	836	844	patients	Species	9606
+36423306	1009	1016	frailty	Disease	MESH:D000073496
+36423306	1049	1056	Frailty	Disease	MESH:D000073496
+36423306	1099	1106	frailty	Disease	MESH:D000073496
+36423306	1140	1147	Frailty	Disease	MESH:D000073496
+36423306	1161	1172	Comorbidity	Disease	MESH:D004194
+36423306	1205	1216	Comorbidity	Disease	MESH:D004194
+36423306	1397	1404	disease	Disease	MESH:D004194
+36423306	1463	1470	Disease	Disease	MESH:D004194
+36423306	1694	1703	mortality	Disease	MESH:D003643
+36423306	1796	1803	disease	Disease	MESH:D004194
+36423306	2006	2013	frailty	Disease	MESH:D000073496
+36423306	2178	2186	patients	Species	9606
+36423306	2294	2303	mortality	Disease	MESH:D003643
+36423306	2457	2464	frailty	Disease	MESH:D000073496
+36423306	2487	2495	dementia	Disease	MESH:D003704
+36423306	2496	2504	delirium	Disease	MESH:D003693
+36423306	2506	2511	falls	Disease	MESH:C537863
+36423306	2512	2521	fractures	Disease	MESH:D050723
+36423306	2527	2542	pressure ulcers	Disease	MESH:D003668
+36423306	2543	2554	weight loss	Disease	MESH:D015431
+36423306	2575	2586	comorbidity	Disease	MESH:D004194
+36423306	2609	2615	cancer	Disease	MESH:D009369
+36423306	2617	2630	heart failure	Disease	MESH:D006333
+36423306	2636	2649	renal disease	Disease	MESH:D007674
+36423306	2695	2702	frailty	Disease	MESH:D000073496
+36423306	2707	2718	comorbidity	Disease	MESH:D004194
+36423306	2746	2766	cognitive impairment	Disease	MESH:D003072
+36423306	2771	2776	falls	Disease	MESH:C537863
+36423306	2813	2821	patients	Species	9606
+36423306	2878	2886	COVID-19	Disease	MESH:D000086382
+

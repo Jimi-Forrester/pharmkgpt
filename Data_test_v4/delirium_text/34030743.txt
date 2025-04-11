@@ -1,0 +1,18 @@
+34030743|t|Predict Alzheimer's disease using hippocampus MRI data: a lightweight 3D deep convolutional network model with visual and global shape representations.
+34030743|a|BACKGROUND: Alzheimer's disease (AD) is a progressive and irreversible brain disorder. Hippocampus is one of the involved regions and its atrophy is a widely used biomarker for AD diagnosis. We have recently developed DenseCNN, a lightweight 3D deep convolutional network model, for AD classification based on hippocampus magnetic resonance imaging (MRI) segments. In addition to the visual features of the hippocampus segments, the global shape representations of the hippocampus are also important for AD diagnosis. In this study, we propose DenseCNN2, a deep convolutional network model for AD classification by incorporating global shape representations along with hippocampus segmentations. METHODS: The data was obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) and was T1-weighted structural MRI from initial screening or baseline, including ADNI 1,2/GO and 3. DenseCNN2 was trained and evaluated with 326 AD subjects and 607 CN hippocampus MRI using 5-fold cross-validation strategy. DenseCNN2 was compared with other state-of-the-art machine learning approaches for the task of AD classification. RESULTS: We showed that DenseCNN2 with combined visual and global shape features performed better than deep learning models with visual or global shape features alone. DenseCNN2 achieved an average accuracy of 0.925, sensitivity of 0.882, specificity of 0.949, and area under curve (AUC) of 0.978, which are better than or comparable to the state-of-the-art methods in AD classification. Data visualization analysis through 2D embedding of UMAP confirmed that global shape features improved class discrimination between AD and normal. CONCLUSION: DenseCNN2, a lightweight 3D deep convolutional network model based on combined hippocampus segmentations and global shape features, achieved high performance and has potential as an efficient diagnostic tool for AD classification.
+34030743	8	27	Alzheimer's disease	Disease	MESH:D000544
+34030743	164	183	Alzheimer's disease	Disease	MESH:D000544
+34030743	185	187	AD	Disease	MESH:D000544
+34030743	223	237	brain disorder	Disease	MESH:D001927
+34030743	290	297	atrophy	Disease	MESH:D001284
+34030743	329	331	AD	Disease	MESH:D000544
+34030743	435	437	AD	Disease	MESH:D000544
+34030743	656	658	AD	Disease	MESH:D000544
+34030743	746	748	AD	Disease	MESH:D000544
+34030743	888	907	Alzheimer's Disease	Disease	MESH:D000544
+34030743	1084	1086	AD	Disease	MESH:D000544
+34030743	1258	1260	AD	Disease	MESH:D000544
+34030743	1646	1648	AD	Disease	MESH:D000544
+34030743	1797	1799	AD	Disease	MESH:D000544
+34030743	2036	2038	AD	Disease	MESH:D000544
+

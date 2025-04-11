@@ -1,0 +1,21 @@
+39813086|t|A Supervised Explainable Machine Learning Model for Perioperative Neurocognitive Disorder in Liver-Transplantation Patients and External Validation on the Medical Information Mart for Intensive Care IV Database: Retrospective Study.
+39813086|a|BACKGROUND: Patients undergoing liver transplantation (LT) are at risk of perioperative neurocognitive dysfunction (PND), which significantly affects the patients' prognosis. OBJECTIVE: This study used machine learning (ML) algorithms with an aim to extract critical predictors and develop an ML model to predict PND among LT recipients. METHODS: In this retrospective study, data from 958 patients who underwent LT between January 2015 and January 2020 were extracted from the Third Affiliated Hospital of Sun Yat-sen University. Six ML algorithms were used to predict post-LT PND, and model performance was evaluated using area under the receiver operating curve (AUC), accuracy, sensitivity, specificity, and F1-scores. The best-performing model was additionally validated using a temporal external dataset including 309 LT cases from February 2020 to August 2022, and an independent external dataset extracted from the Medical Information Mart for Intensive Care IV (MIMIC-IV) database including 325 patients. RESULTS: In the development cohort, 201 out of 751 (33.5%) patients were diagnosed with PND. The logistic regression model achieved the highest AUC (0.799) in the internal validation set, with comparable AUC in the temporal external (0.826) and MIMIC-IV validation sets (0.72). The top 3 features contributing to post-LT PND diagnosis were the preoperative overt hepatic encephalopathy, platelet level, and postoperative sequential organ failure assessment score, as revealed by the Shapley additive explanations method. CONCLUSIONS: A real-time logistic regression model-based online predictor of post-LT PND was developed, providing a highly interoperable tool for use across medical institutions to support early risk stratification and decision making for the LT recipients.
+39813086	66	89	Neurocognitive Disorder	Disease	MESH:D019965
+39813086	115	123	Patients	Species	9606
+39813086	245	253	Patients	Species	9606
+39813086	321	347	neurocognitive dysfunction	Disease	MESH:D019965
+39813086	349	352	PND	Disease	MESH:D019965
+39813086	387	395	patients	Species	9606
+39813086	546	549	PND	Disease	MESH:D019965
+39813086	623	631	patients	Species	9606
+39813086	811	814	PND	Disease	MESH:D019965
+39813086	1204	1209	MIMIC	Disease	
+39813086	1237	1245	patients	Species	9606
+39813086	1306	1314	patients	Species	9606
+39813086	1335	1338	PND	Disease	MESH:D019965
+39813086	1492	1497	MIMIC	Disease	
+39813086	1568	1571	PND	Disease	MESH:D019965
+39813086	1610	1632	hepatic encephalopathy	Disease	MESH:D006501
+39813086	1685	1692	failure	Disease	MESH:D051437
+39813086	1853	1856	PND	Disease	MESH:D019965
+

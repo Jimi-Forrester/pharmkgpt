@@ -1,0 +1,21 @@
+25679399|t|Evolutionary signatures amongst disease genes permit novel methods for gene prioritization and construction of informative gene-based networks.
+25679399|a|Genes involved in the same function tend to have similar evolutionary histories, in that their rates of evolution covary over time. This coevolutionary signature, termed Evolutionary Rate Covariation (ERC), is calculated using only gene sequences from a set of closely related species and has demonstrated potential as a computational tool for inferring functional relationships between genes. To further define applications of ERC, we first established that roughly 55% of genetic diseases posses an ERC signature between their contributing genes. At a false discovery rate of 5% we report 40 such diseases including cancers, developmental disorders and mitochondrial diseases. Given these coevolutionary signatures between disease genes, we then assessed ERC's ability to prioritize known disease genes out of a list of unrelated candidates. We found that in the presence of an ERC signature, the true disease gene is effectively prioritized to the top 6% of candidates on average. We then apply this strategy to a melanoma-associated region on chromosome 1 and identify MCL1 as a potential causative gene. Furthermore, to gain global insight into disease mechanisms, we used ERC to predict molecular connections between 310 nominally distinct diseases. The resulting "disease map" network associates several diseases with related pathogenic mechanisms and unveils many novel relationships between clinically distinct diseases, such as between Hirschsprung's disease and melanoma. Taken together, these results demonstrate the utility of molecular evolution as a gene discovery platform and show that evolutionary signatures can be used to build informative gene-based networks. 
+25679399	32	39	disease	Disease	MESH:D004194
+25679399	618	634	genetic diseases	Disease	MESH:D030342
+25679399	762	769	cancers	Disease	MESH:D009369
+25679399	771	794	developmental disorders	Disease	MESH:D002658
+25679399	799	821	mitochondrial diseases	Disease	MESH:D028361
+25679399	869	876	disease	Disease	MESH:D004194
+25679399	935	942	disease	Disease	MESH:D004194
+25679399	1048	1055	disease	Disease	MESH:D004194
+25679399	1161	1169	melanoma	Disease	MESH:D008545
+25679399	1191	1203	chromosome 1	Chromosome	1
+25679399	1217	1221	MCL1	Gene	4170
+25679399	1294	1301	disease	Disease	MESH:D004194
+25679399	1415	1422	disease	Disease	MESH:D004194
+25679399	1590	1612	Hirschsprung's disease	Disease	MESH:D006627
+25679399	1617	1625	melanoma	Disease	MESH:D008545
+25679399	Association	MESH:D006627	4170
+25679399	Association	MESH:D008545	4170
+25679399	Association	MESH:D004194	4170
+

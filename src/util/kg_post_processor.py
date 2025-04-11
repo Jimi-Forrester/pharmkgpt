@@ -137,6 +137,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
     chunks_index: Dict[str,Dict[str,str]] = Field
     hops: int = Field
     chunk_index_embed: Dict[str, List] = Field
+    top_k: int = Field
 
     @classmethod
     def class_name(cls) -> str:
@@ -150,7 +151,8 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         query_context_embedding = query_bundle.embedding 
         
         logging.info("------------KGRetrievePostProcessor------------")
-        top_k = len(nodes)
+        # top_k = len(nodes)
+        top_k = self.top_k
         retrieved_ids = set()
         retrieved_ents = set()
 
@@ -373,6 +375,9 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         
         nodes = added_nodes
         nodes = [node for node in nodes if node.id_[:4].lower() == "pmid"]
+        
+        # if len(nodes) > top_k:
+        #     nodes = nodes[:top_k]
         logging.info(f">>>>>> KGRetrieve output: {len(nodes)}")
         logging.info(f">>>>>> KGRetrieve output nodes: {[node.id_ for node in nodes if nodes]}")
         logging.info(f">>>>>> KGRetrieve output score: {[node.score for node in nodes if nodes]}")
@@ -407,12 +412,13 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
 
         g = nx.MultiGraph()
         
-
         logging.info('>> 写入初始节点')
+        init_ent = []
         for node in nodes:
             ent = node.node.id_
             ents.add(ent)
-
+            init_ent.append(ent)
+            
         logging.info(">> 开始构建子图")
         for node in nodes:
             ent = node.node.id_
@@ -467,16 +473,12 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                 g.add_edge(mentioned_ents_list[i],mentioned_ents_list[j],rel='cooccurrence',source='query',weight=0.0)
         
         
-        wanted_ents = set(mentioned_ents)
-        
         wccs = list(nx.connected_components(g))
         sorted_wccs = sorted(wccs,key=len,reverse=True)
         cand_ctxs_lists = list()
         
-
         logging.info(f"Total connected components: {len(wccs)}")
-
-        MAX_CONTEXTS_PER_WCC = 3 # 定义每个 WCC 最多贡献多少 Context
+        MAX_CONTEXTS_PER_WCC = 4 # 定义每个 WCC 最多贡献多少 Context
 
         for i in range(len(sorted_wccs)):
             wcc = sorted_wccs[i]
@@ -520,7 +522,7 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                         cand_ctx_list_for_this_wcc.append(data['source'])
                         added_ctx_count += 1
                         break
- 
+
 
             if cand_ctx_list_for_this_wcc: # Only add if we found contexts for this WCC
                 cand_ctxs_lists.append(cand_ctx_list_for_this_wcc)
@@ -529,6 +531,8 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         cand_ids_lists = list()
         for cand_ctxs_list in cand_ctxs_lists:
             cand_ids_lists.append(cand_ctxs_list)
+        
+        # cand_ids_lists.append(init_ent)
         
         cand_tpts = []
         cand_strs = []
@@ -579,11 +583,8 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         logging.info(f"** wanted_ctxs: {wanted_ctxs}")
         
         if len(wanted_ctxs)<self.topk//2:
-            # 
             logging.info("**len(wanted_ctxs)<self.topk//2")
             cands = [(query_bundle.query_str,node.node.text,) for node in nodes if node.node.id_ not in wanted_ctxs]
-            
-            # logging.info(f"** cands: {cands}")
             
             if len(cands)>0:
                 scores = self.reranker.compute_score(cands)

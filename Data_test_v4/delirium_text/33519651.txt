@@ -1,0 +1,14 @@
+33519651|t|Classifying Alzheimer's Disease Using Audio and Text-Based Representations of Speech.
+33519651|a|Alzheimer's Disease (AD) is a form of dementia that affects the memory, cognition, and motor skills of patients. Extensive research has been done to develop accessible, cost-effective, and non-invasive techniques for the automatic detection of AD. Previous research has shown that speech can be used to distinguish between healthy patients and afflicted patients. In this paper, the ADReSS dataset, a dataset balanced by gender and age, was used to automatically classify AD from spontaneous speech. The performance of five classifiers, as well as a convolutional neural network and long short-term memory network, was compared when trained on audio features (i-vectors and x-vectors) and text features (word vectors, BERT embeddings, LIWC features, and CLAN features). The same audio and text features were used to train five regression models to predict the Mini-Mental State Examination score for each patient, a score that has a maximum value of 30. The top-performing classification models were the support vector machine and random forest classifiers trained on BERT embeddings, which both achieved an accuracy of 85.4% on the test set. The best-performing regression model was the gradient boosting regression model trained on BERT embeddings and CLAN features, which had a root mean squared error of 4.56 on the test set. The performance on both tasks illustrates the feasibility of using speech to classify AD and predict neuropsychological scores.
+33519651	12	31	Alzheimer's Disease	Disease	MESH:D000544
+33519651	86	105	Alzheimer's Disease	Disease	MESH:D000544
+33519651	107	109	AD	Disease	MESH:D000544
+33519651	124	132	dementia	Disease	MESH:D003704
+33519651	189	197	patients	Species	9606
+33519651	330	332	AD	Disease	MESH:D000544
+33519651	417	425	patients	Species	9606
+33519651	440	448	patients	Species	9606
+33519651	558	560	AD	Disease	MESH:D000544
+33519651	991	998	patient	Species	9606
+33519651	1502	1504	AD	Disease	MESH:D000544
+

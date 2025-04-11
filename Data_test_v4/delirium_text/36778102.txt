@@ -1,0 +1,9 @@
+36778102|t|The visualization of Orphadata neurology phenotypes.
+36778102|a|Disease phenotypes are characterized by signs (what a physician observes during the examination of a patient) and symptoms (the complaints of a patient to a physician). Large repositories of disease phenotypes are accessible through the Online Mendelian Inheritance of Man, Human Phenotype Ontology, and Orphadata initiatives. Many of the diseases in these datasets are neurologic. For each repository, the phenotype of neurologic disease is represented as a list of concepts of variable length where the concepts are selected from a restricted ontology. Visualizations of these concept lists are not provided. We address this limitation by using subsumption to reduce the number of descriptive features from 2,946 classes into thirty superclasses. Phenotype feature lists of variable lengths were converted into fixed-length vectors. Phenotype vectors were aggregated into matrices and visualized as heat maps that allowed side-by-side disease comparisons. Individual diseases (representing a row in the matrix) were visualized as word clouds. We illustrate the utility of this approach by visualizing the neuro-phenotypes of 32 dystonic diseases from Orphadata. Subsumption can collapse phenotype features into superclasses, phenotype lists can be vectorized, and phenotypes vectors can be visualized as heat maps and word clouds.
+36778102	21	40	Orphadata neurology	Disease	MESH:D009461
+36778102	154	161	patient	Species	9606
+36778102	197	204	patient	Species	9606
+36778102	327	332	Human	Species	9606
+36778102	473	491	neurologic disease	Disease	MESH:D020271
+36778102	1183	1200	dystonic diseases	Disease	MESH:D004194
+

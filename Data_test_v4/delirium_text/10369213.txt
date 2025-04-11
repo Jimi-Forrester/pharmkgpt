@@ -1,0 +1,55 @@
+10369213|t|Superoxide mediates the cell-death-enhancing action of presenilin-1 mutations.
+10369213|a|The mechanism whereby mutations in the presenilin-1 (PS-1) gene on chromosome 14 cause early-onset inherited Alzheimer's disease are unknown. We report that PC6 neural cells (a subclone of PC12 cells) expressing PS-1 mutations (M146V and L286V) exhibit increased superoxide production, nitrotyrosine accumulation, and membrane lipid peroxidation following exposure to amyloid beta-peptide 1-42 (Abeta). Mitochondrial calcium accumulation and membrane depolarization following exposure to Abeta were enhanced in cells expressing mutant PS-1. Overexpression of mitochondrial Mn-SOD greatly reduced superoxide production, nitrotyrosine formation, membrane lipid peroxidation, intramitochondrial calcium accumulation, and membrane depolarization following exposure to Abeta and conferred resistance to the apoptosis-enhancing action of the PS-1 mutations. Nitric oxide synthase inhibitors and the peroxynitrite scavenger uric acid blocked the apoptosis-enhancing action of PS-1 mutations. The data suggest pivotal roles for superoxide production and resulting peroxynitrite formation in the pathogenic mechanism of PS-1 mutations.
+10369213	0	10	Superoxide	Chemical	MESH:D013481
+10369213	55	67	presenilin-1	Gene	29192
+10369213	118	130	presenilin-1	Gene	29192
+10369213	132	136	PS-1	Gene	29192
+10369213	146	159	chromosome 14	Chromosome	14
+10369213	188	207	Alzheimer's disease	Disease	MESH:D000544
+10369213	236	239	PC6	CellLine	CVCL:7091
+10369213	268	272	PC12	CellLine	CVCL:0481
+10369213	291	295	PS-1	Gene	29192
+10369213	307	312	M146V	ProteinMutation	tmVar:p|SUB|M|146|V;HGVS:p.M146V;VariantGroup:1;OriginalGene:29192;CorrespondingGene:5663;RS#:63750306;CorrespondingSpecies:10116;CA#:258120
+10369213	317	322	L286V	ProteinMutation	tmVar:p|SUB|L|286|V;HGVS:p.L286V;VariantGroup:0;OriginalGene:29192;CorrespondingGene:5663;RS#:63751235;CorrespondingSpecies:10116;CA#:225141
+10369213	342	352	superoxide	Chemical	MESH:D013481
+10369213	365	378	nitrotyrosine	Chemical	MESH:C002744
+10369213	406	411	lipid	Chemical	MESH:D008055
+10369213	474	479	Abeta	Gene	54226
+10369213	496	503	calcium	Chemical	MESH:D002118
+10369213	567	572	Abeta	Gene	54226
+10369213	614	618	PS-1	Gene	29192
+10369213	652	658	Mn-SOD	Gene	24787
+10369213	675	685	superoxide	Chemical	MESH:D013481
+10369213	698	711	nitrotyrosine	Chemical	MESH:C002744
+10369213	732	737	lipid	Chemical	MESH:D008055
+10369213	771	778	calcium	Chemical	MESH:D002118
+10369213	843	848	Abeta	Gene	54226
+10369213	915	919	PS-1	Gene	29192
+10369213	972	985	peroxynitrite	Chemical	MESH:D030421
+10369213	996	1005	uric acid	Chemical	MESH:D014527
+10369213	1048	1052	PS-1	Gene	29192
+10369213	1099	1109	superoxide	Chemical	MESH:D013481
+10369213	1135	1148	peroxynitrite	Chemical	MESH:D030421
+10369213	1190	1194	PS-1	Gene	29192
+10369213	Association	24787	54226
+10369213	Association	MESH:D013481	RS#:63750306;HGVS:p.M146V;CorrespondingGene:5663
+10369213	Positive_Correlation	MESH:C002744	MESH:D013481
+10369213	Negative_Correlation	MESH:D014527	MESH:D030421
+10369213	Association	MESH:D008055	29192
+10369213	Association	MESH:D008055	54226
+10369213	Negative_Correlation	MESH:C002744	24787
+10369213	Association	MESH:D014527	29192
+10369213	Positive_Correlation	MESH:C002744	RS#:63750306;HGVS:p.M146V;CorrespondingGene:5663
+10369213	Association	MESH:D000544	29192
+10369213	Negative_Correlation	MESH:D002118	24787
+10369213	Association	MESH:D030421	29192
+10369213	Association	29192	54226
+10369213	Negative_Correlation	MESH:D008055	24787
+10369213	Association	MESH:D002118	54226
+10369213	Negative_Correlation	MESH:D013481	24787
+10369213	Association	MESH:C002744	54226
+10369213	Association	MESH:D013481	29192
+10369213	Positive_Correlation	MESH:D013481	54226
+10369213	Positive_Correlation	MESH:D002118	29192
+10369213	Association	MESH:C002744	29192
+

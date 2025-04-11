@@ -1,0 +1,13 @@
+37394678|t|Repurposing Artificial Intelligence Tools for Disease Modeling: Case Study of Face Recognition Deficits in Neurodegenerative Diseases.
+37394678|a|Face recognition deficits occur in diseases such as prosopagnosia, autism, Alzheimer's disease, and dementias. The objective was to evaluate whether degrading the architecture of artificial intelligence (AI) face recognition algorithms can model deficits in diseases. Two established face recognition models, convolutional-classification neural network (C-CNN) and Siamese network (SN), were trained on the FEI faces dataset (~14 images/person for 200 persons). The trained networks were perturbed by reducing weights (weakening) and node count (lesioning) to emulate brain tissue dysfunction and lesions, respectively. Accuracy assessments were used as surrogates for face recognition deficits. The findings were compared to clinical outcomes from the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset. Face recognition accuracy decreased gradually for weakening factors less than 0.55 for C-CNN, and 0.85 for SN. Rapid accuracy loss occurred at higher values. C-CNN accuracy was similarly affected by weakening any convolutional layer whereas SN accuracy was more sensitive to weakening of the first convolutional layer. SN accuracy declined gradually with a rapid drop when nearly all nodes were lesioned. C-CNN accuracy declined rapidly when as few as 10% of nodes were lesioned. CNN and SN were more sensitive to lesioning of the first convolutional layer. Overall, SN was more robust than C-CNN, and the findings from SN experiments were concordant with ADNI results. As predicted from modeling, brain network failure quotient was related to key clinical outcome measures for cognition and functioning. Perturbation of AI networks is a promising method for modeling disease progression effects on complex cognitive outcomes.
+37394678	78	103	Face Recognition Deficits	Disease	MESH:D020238
+37394678	107	133	Neurodegenerative Diseases	Disease	MESH:D019636
+37394678	135	160	Face recognition deficits	Disease	MESH:D020238
+37394678	187	200	prosopagnosia	Disease	MESH:D020238
+37394678	202	208	autism	Disease	MESH:D001321
+37394678	210	229	Alzheimer's disease	Disease	MESH:D000544
+37394678	235	244	dementias	Disease	MESH:D003704
+37394678	703	727	brain tissue dysfunction	Disease	MESH:D001927
+37394678	804	829	face recognition deficits	Disease	MESH:D020238
+37394678	888	907	Alzheimer's Disease	Disease	MESH:D000544
+

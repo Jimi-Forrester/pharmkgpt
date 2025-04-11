@@ -1,0 +1,42 @@
+38843250|t|Functional analysis of MMR gene VUS from potential Lynch syndrome patients.
+38843250|a|Lynch syndrome is caused by inactivating variants in DNA mismatch repair genes, namely MLH1, MSH2, MSH6 and PMS2. We have investigated five MLH1 and one MSH2 variants that we have identified in Turkish and Tunisian colorectal cancer patients. These variants comprised two small deletions causing frameshifts resulting in premature stops which could be classified pathogenic (MLH1 p.(His727Profs*57) and MSH2 p.(Thr788Asnfs*11)), but also two missense variants (MLH1 p.(Asn338Ser) and p.(Gly181Ser)) and two small, in-frame deletion variants (p.(Val647-Leu650del) and p.(Lys678_Cys680del)). For such small coding genetic variants, it is unclear if they are inactivating or not. We here provide clinical description of the variant carriers and their families, and we performed biochemical laboratory testing on the variant proteins to test if their stability or their MMR activity are compromised. Subsequently, we compared the results to in-silico predictions on structure and conservation. We demonstrate that neither missense alteration affected function, while both deletion variants caused a dramatic instability of the MLH1 protein, resulting in MMR deficiency. These results were consistent with the structural analyses that were performed. The study shows that knowledge of protein function may provide molecular explanations of results obtained with functional biochemical testing and can thereby, in conjunction with clinical information, elevate the evidential value and facilitate clinical management in affected families.
+38843250	51	65	Lynch syndrome	Disease	MESH:D003123
+38843250	66	74	patients	Species	9606
+38843250	76	90	Lynch syndrome	Disease	MESH:D003123
+38843250	163	167	MLH1	Gene	4292
+38843250	169	173	MSH2	Gene	4436
+38843250	175	179	MSH6	Gene	2956
+38843250	184	188	PMS2	Gene	5395
+38843250	216	220	MLH1	Gene	4292
+38843250	229	233	MSH2	Gene	4436
+38843250	291	308	colorectal cancer	Disease	MESH:D015179
+38843250	309	317	patients	Species	9606
+38843250	451	455	MLH1	Gene	4292
+38843250	479	483	MSH2	Gene	4436
+38843250	487	501	Thr788Asnfs*11	ProteinMutation	tmVar:p|FS|T|788|N|11;HGVS:p.T788NfsX11;VariantGroup:0;CorrespondingGene:4436;RS#:63750463;CorrespondingSpecies:9606;CA#:20506
+38843250	537	541	MLH1	Gene	4292
+38843250	545	554	Asn338Ser	ProteinMutation	tmVar:p|SUB|N|338|S;HGVS:p.N338S;VariantGroup:2;CorrespondingGene:4292;RS#:63751467;CorrespondingSpecies:9606;CA#:4051
+38843250	560	573	p.(Gly181Ser)	ProteinMutation	tmVar:p|SUB|G|181|S;HGVS:p.G181S;VariantGroup:1;CorrespondingGene:4292;RS#:1064795694;CorrespondingSpecies:9606
+38843250	618	638	p.(Val647-Leu650del)	ProteinMutation	tmVar:p|DEL|647,650|);HGVS:p.)647,650del;VariantGroup:3;CorrespondingGene:4292;CorrespondingSpecies:9606
+38843250	643	663	p.(Lys678_Cys680del)	ProteinMutation	tmVar:p|DEL|678,680|);HGVS:p.)678,680del;VariantGroup:4;CorrespondingGene:4292;CorrespondingSpecies:9606
+38843250	1199	1203	MLH1	Gene	4292
+38843250	1226	1240	MMR deficiency	Disease	MESH:C536928
+38843250	Positive_Correlation	MESH:C536928	RS#:63751467;HGVS:p.N338S;CorrespondingGene:4292
+38843250	Positive_Correlation	MESH:C536928	RS#:1064795694;HGVS:p.G181S;CorrespondingGene:4292
+38843250	Positive_Correlation	MESH:C536928	HGVS:p.)647,650del;CorrespondingGene:4292
+38843250	Association	MESH:D015179	4436
+38843250	Positive_Correlation	MESH:C536928	HGVS:p.)678,680del;CorrespondingGene:4292
+38843250	Association	MESH:C536928	4292
+38843250	Association	MESH:D003123	4292
+38843250	Positive_Correlation	MESH:C536928	RS#:63750463;HGVS:p.T788NfsX11;CorrespondingGene:4436
+38843250	Positive_Correlation	MESH:D003123	HGVS:p.)647,650del;CorrespondingGene:4292
+38843250	Association	MESH:D003123	5395
+38843250	Positive_Correlation	MESH:D003123	HGVS:p.)678,680del;CorrespondingGene:4292
+38843250	Association	MESH:D003123	RS#:1064795694;HGVS:p.G181S;CorrespondingGene:4292
+38843250	Association	MESH:D003123	4436
+38843250	Association	MESH:D015179	4292
+38843250	Association	MESH:D003123	2956
+38843250	Positive_Correlation	MESH:D003123	RS#:63750463;HGVS:p.T788NfsX11;CorrespondingGene:4436
+38843250	Positive_Correlation	MESH:D003123	RS#:63751467;HGVS:p.N338S;CorrespondingGene:4292
+38843250	Association	MESH:C536928	4436
+

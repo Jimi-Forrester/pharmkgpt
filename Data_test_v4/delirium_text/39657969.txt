@@ -1,0 +1,38 @@
+39657969|t|Deep learning reveals pathology-confirmed neuroimaging signatures in Alzheimer's, vascular and Lewy body dementias.
+39657969|a|Concurrent neurodegenerative and vascular pathologies pose a diagnostic challenge in the clinical setting, with histopathology remaining the definitive modality for dementia-type diagnosis. To address this clinical challenge, we introduce a neuropathology-based, data-driven, multi-label deep learning framework to identify and quantify in-vivo biomarkers for Alzheimer's disease (AD), vascular dementia (VD), and Lewy body dementia (LBD) using antemortem T1-weighted MRI scans of 423 demented and 361 control participants from NACC and ADNI datasets. Based on the best-performing deep learning model, explainable heatmaps are extracted to visualize disease patterns, and the novel Deep Signature of Pathology Atrophy REcognition (DeepSPARE) indices are developed, where a higher DeepSPARE score indicates more brain alterations associated with that specific pathology. A substantial discrepancy in clinical and neuropathology diagnosis was observed in the demented patients: 71% of them had more than one pathology, but 67% of them were clinically diagnosed as AD only. Based on these neuropathology diagnoses and leveraging cross-validation principles, the deep learning model achieved the best performance with a balanced accuracy of 0.844, 0.839, and 0.623 for AD, VD, and LBD, respectively, and was used to generate the explainable deep-learning heatmaps and DeepSPARE indices. The explainable deep-learning heatmaps revealed distinct neuroimaging brain alteration patterns for each pathology: the AD heatmap highlighted bilateral hippocampal regions, the VD heatmap emphasized white matter regions, and the LBD heatmap exposed occipital alterations. The DeepSPARE indices were validated by examining their associations with cognitive testing, neuropathological, and neuroimaging measures using linear mixed-effects models. The DeepSPARE-AD index was associated with MMSE, Trail B, memory, PFDR-adjustedhippocampal volume, Braak stages, CERAD scores, and Thal phases (PFDR-adjusted < 0.05). The DeepSPARE-VD index was associated with white matter hyperintensity volume and cerebral amyloid angiopathy (PFDR-adjusted < 0.001). The DeepSPARE-LBD index was associated with Lewy body stages (PFDR-adjusted < 0.05). The findings were replicated in an out-of-sample ADNI dataset by testing associations with cognitive, imaging, plasma, and CSF measures. CSF and plasma pTau181 were significantly associated with DeepSPARE-AD in the AD/MCIAlphabeta+ group (PFDR-adjusted < 0.001), and CSF alpha-synuclein was associated solely with DeepSPARE-LBD (PFDR-adjusted = 0.036). Overall, these findings demonstrate the advantages of our innovative deep-learning framework in detecting antemortem neuroimaging signatures linked to different pathologies. The newly deep learning-derived DeepSPARE indices are precise, pathology-sensitive, and single-valued noninvasive neuroimaging metrics, bridging the traditional widely available in-vivo T1 imaging with histopathology.
+39657969	69	114	Alzheimer's, vascular and Lewy body dementias	Disease	MESH:D020961
+39657969	127	169	neurodegenerative and vascular pathologies	Disease	MESH:D019636
+39657969	281	289	dementia	Disease	MESH:D003704
+39657969	476	495	Alzheimer's disease	Disease	MESH:D000544
+39657969	497	499	AD	Disease	MESH:D000544
+39657969	502	519	vascular dementia	Disease	MESH:D015140
+39657969	521	523	VD	Disease	MESH:D015140
+39657969	530	548	Lewy body dementia	Disease	MESH:D020961
+39657969	550	553	LBD	Disease	MESH:D020961
+39657969	601	609	demented	Disease	
+39657969	653	657	ADNI	Disease	
+39657969	826	833	Atrophy	Disease	MESH:D001284
+39657969	1073	1081	demented	Disease	
+39657969	1082	1090	patients	Species	9606
+39657969	1178	1180	AD	Disease	MESH:D000544
+39657969	1381	1383	AD	Disease	MESH:D000544
+39657969	1385	1387	VD	Disease	MESH:D015140
+39657969	1393	1396	LBD	Disease	MESH:D020961
+39657969	1619	1621	AD	Disease	MESH:D000544
+39657969	1677	1679	VD	Disease	MESH:D015140
+39657969	1729	1732	LBD	Disease	MESH:D020961
+39657969	1959	1961	AD	Disease	MESH:D000544
+39657969	2126	2128	VD	Disease	MESH:D015140
+39657969	2155	2182	white matter hyperintensity	Disease	MESH:D056784
+39657969	2194	2221	cerebral amyloid angiopathy	Disease	MESH:D016657
+39657969	2261	2264	LBD	Disease	MESH:D020961
+39657969	2291	2300	Lewy body	Disease	MESH:D020961
+39657969	2381	2385	ADNI	Disease	
+39657969	2537	2539	AD	Disease	MESH:D000544
+39657969	2547	2549	AD	Disease	MESH:D000544
+39657969	2603	2618	alpha-synuclein	Gene	6622
+39657969	2656	2659	LBD	Disease	MESH:D020961
+39657969	Association	MESH:D015140	6622
+39657969	Association	MESH:D000544	6622
+39657969	Association	MESH:D020961	6622
+

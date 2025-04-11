@@ -1,0 +1,15 @@
+34901870|t|pdCSM-GPCR: predicting potent GPCR ligands with graph-based signatures.
+34901870|a|MOTIVATION: G protein-coupled receptors (GPCRs) can selectively bind to many types of ligands, ranging from light-sensitive compounds, ions, hormones, pheromones and neurotransmitters, modulating cell physiology. Considering their role in many essential cellular processes, they are one of the most targeted protein families, with over a third of all approved drugs modulating GPCR signalling. Despite this, the large diversity of receptors and their multipass transmembrane architectures make the identification and development of novel specific, and safe GPCR ligands a challenge. While computational approaches have the potential to assist GPCR drug development, they have presented limited performance and generalization capabilities. Here, we explored the use of graph-based signatures to develop pdCSM-GPCR, a method capable of rapidly and accurately screening potential GPCR ligands. RESULTS: Bioactivity data (IC50, EC50, Ki and Kd) for individual GPCRs were curated. After curation, we used the data for developing predictive models for 36 major GPCR targets, across 4 classes (A, B, C and F). Our models compose the most comprehensive computational resource for GPCR bioactivity prediction to date. Across stratified 10-fold cross-validation and blind tests, our approach achieved Pearson's correlations of up to 0.89, significantly outperforming previous methods. Interpreting our results, we identified common important features of potent GPCRs ligands, which tend to have bicyclic rings, leading to higher levels of aromaticity. We believe pdCSM-GPCR will be an invaluable tool to assist screening efforts, enriching compound libraries and ranking candidates for further experimental validation. AVAILABILITY AND IMPLEMENTATION: pdCSM-GPCR predictive models and datasets used have been made available via a freely accessible and easy-to-use web server at http://biosig.unimelb.edu.au/pdcsm_gpcr/. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics Advances online.
+34901870	6	10	GPCR	Gene	441931
+34901870	30	34	GPCR	Gene	441931
+34901870	449	453	GPCR	Gene	441931
+34901870	629	633	GPCR	Gene	441931
+34901870	715	719	GPCR	Gene	441931
+34901870	880	884	GPCR	Gene	441931
+34901870	949	953	GPCR	Gene	441931
+34901870	1127	1131	GPCR	Gene	441931
+34901870	1244	1248	GPCR	Gene	441931
+34901870	1631	1635	GPCR	Gene	441931
+34901870	1820	1824	GPCR	Gene	441931
+34901870	1975	1979	gpcr	Gene	441931
+

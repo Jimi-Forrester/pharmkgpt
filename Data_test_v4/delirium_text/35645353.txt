@@ -1,0 +1,31 @@
+35645353|t|Italian Case Report with a Double Mutation in PSEN1 (K311R and E318G).
+35645353|a|Alzheimer's disease (AD) is the most common cause of dementia worldwide. The clinical spectrum of suspected AD has been extended from mild cognitive impairment (MCI) to preclinical AD which includes people who have typical cognitive function but harbor the underlying biological features of AD. We report the first case of an Italian patient affected by MCI (MMSE 24 30), characterized by a double mutation p.Lys311Arg (K311R) and p.Glu318Gly (E318G) in Presenilin-1 but with the absence of abnormal accumulation of amyloid beta.
+35645353	46	51	PSEN1	Gene	5663
+35645353	53	58	K311R	ProteinMutation	tmVar:p|SUB|K|311|R;HGVS:p.K311R;VariantGroup:1;CorrespondingGene:5663;RS#:115865530;CorrespondingSpecies:9606;CA#:7256861
+35645353	63	68	E318G	ProteinMutation	tmVar:p|SUB|E|318|G;HGVS:p.E318G;VariantGroup:0;CorrespondingGene:5663;RS#:17125721;CorrespondingSpecies:9606;CA#:225145
+35645353	71	90	Alzheimer's disease	Disease	MESH:D000544
+35645353	92	94	AD	Disease	MESH:D000544
+35645353	124	132	dementia	Disease	MESH:D003704
+35645353	179	181	AD	Disease	MESH:D000544
+35645353	205	230	mild cognitive impairment	Disease	MESH:D060825
+35645353	232	235	MCI	Disease	MESH:D060825
+35645353	252	254	AD	Disease	MESH:D000544
+35645353	362	364	AD	Disease	MESH:D000544
+35645353	405	412	patient	Species	9606
+35645353	425	428	MCI	Disease	MESH:D060825
+35645353	478	489	p.Lys311Arg	ProteinMutation	tmVar:p|SUB|K|311|R;HGVS:p.K311R;VariantGroup:1;CorrespondingGene:5663;RS#:115865530;CorrespondingSpecies:9606;CA#:7256861
+35645353	491	496	K311R	ProteinMutation	tmVar:p|SUB|K|311|R;HGVS:p.K311R;VariantGroup:1;CorrespondingGene:5663;RS#:115865530;CorrespondingSpecies:9606;CA#:7256861
+35645353	502	513	p.Glu318Gly	ProteinMutation	tmVar:p|SUB|E|318|G;HGVS:p.E318G;VariantGroup:0;CorrespondingGene:5663;RS#:17125721;CorrespondingSpecies:9606;CA#:225145
+35645353	515	520	E318G	ProteinMutation	tmVar:p|SUB|E|318|G;HGVS:p.E318G;VariantGroup:0;CorrespondingGene:5663;RS#:17125721;CorrespondingSpecies:9606;CA#:225145
+35645353	525	537	Presenilin-1	Gene	5663
+35645353	587	599	amyloid beta	Gene	351
+35645353	Association	RS#:115865530;HGVS:p.K311R;CorrespondingGene:5663	RS#:17125721;HGVS:p.E318G;CorrespondingGene:5663
+35645353	Association	MESH:D060825	5663
+35645353	Positive_Correlation	MESH:D060825	RS#:17125721;HGVS:p.E318G;CorrespondingGene:5663
+35645353	Positive_Correlation	MESH:D000544	RS#:17125721;HGVS:p.E318G;CorrespondingGene:5663
+35645353	Positive_Correlation	MESH:D000544	RS#:115865530;HGVS:p.K311R;CorrespondingGene:5663
+35645353	Positive_Correlation	MESH:D060825	RS#:115865530;HGVS:p.K311R;CorrespondingGene:5663
+35645353	Association	MESH:D000544	5663
+35645353	Association	MESH:D060825	5663
+35645353	Association	MESH:D000544	5663
+

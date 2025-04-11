@@ -1,0 +1,21 @@
+32882645|t|Image reconstruction methods affect software-aided assessment of pathologies of [18F]flutemetamol and [18F]FDG brain-PET examinations in patients with neurodegenerative diseases.
+32882645|a|PURPOSE: To assess how some of the new developments in brain positron emission tomography (PET) image reconstruction affect quantitative measures and software-aided assessment of pathology in patients with neurodegenerative diseases. METHODS: PET data were grouped into four cohorts: prodromal Alzheimer's disease patients and controls receiving [18F]flutemetamol, and neurodegenerative disease patients and controls receiving [18F]FDG PET scans. Reconstructed images were obtained by ordered-subsets expectation maximization (OSEM; 3 iterations (i), 16/34 subsets (s), 3/5-mm filter, +-time-of-flight (TOF), +-point-spread function (PSF)) and block-sequential regularized expectation maximization (BSREM; TOF, PSF, beta-value 75-300). Standardized uptake value ratios (SUVR) and z-scores were calculated (CortexID Suite, GE Healthcare) using cerebellar gray matter, pons, whole cerebellum and whole brain as reference regions. RESULTS: In controls, comparable results to the normal database were obtained with OSEM 3i/16 s 5-mm reconstruction. TOF, PSF and BSREM either increased or decreased the relative uptake difference to the normal subjects' database within the software, depending on the tracer and chosen reference area, i.e. resulting in increased absolute z-scores. Normalizing to pons and whole brain for [18F]flutemetamol and [18F]FDG, respectively, increased absolute differences between reconstructions methods compared to normalizing to cerebellar gray matter and whole cerebellum when applying TOF, PSF and BSREM. CONCLUSIONS: Software-aided assessment of patient pathologies should be used with caution when employing other image reconstruction methods than those used for acquisition of the normal database.
+32882645	80	97	[18F]flutemetamol	Chemical	MESH:C581552
+32882645	102	110	[18F]FDG	Chemical	MESH:D019788
+32882645	137	145	patients	Species	9606
+32882645	151	177	neurodegenerative diseases	Disease	MESH:D019636
+32882645	371	379	patients	Species	9606
+32882645	385	411	neurodegenerative diseases	Disease	MESH:D019636
+32882645	473	492	Alzheimer's disease	Disease	MESH:D000544
+32882645	493	501	patients	Species	9606
+32882645	525	542	[18F]flutemetamol	Chemical	MESH:C581552
+32882645	548	573	neurodegenerative disease	Disease	MESH:D019636
+32882645	574	582	patients	Species	9606
+32882645	606	614	[18F]FDG	Chemical	MESH:D019788
+32882645	1496	1513	[18F]flutemetamol	Chemical	MESH:C581552
+32882645	1518	1526	[18F]FDG	Chemical	MESH:D019788
+32882645	1752	1759	patient	Species	9606
+32882645	Association	MESH:C581552	MESH:D019636
+32882645	Association	MESH:D019788	MESH:D019636
+32882645	Association	MESH:C581552	MESH:D000544
+

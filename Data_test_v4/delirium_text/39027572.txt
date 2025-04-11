@@ -1,0 +1,72 @@
+39027572|t|AutoDock and molecular dynamics-based therapeutic potential prediction of flavonoids for primary Sjogren's syndrome.
+39027572|a|Primary Sjogren's Syndrome (pSS) is a systemic autoimmune disease that leads to reduced saliva production, primarily affecting women due to estrogen deficiency. The estrogen receptor alpha (ERalpha) plays a crucial role in mediating the expression of the aquaporin 5 (AQP5) gene through the estrogen response element-dependent signaling pathway, making ERalpha a key drug target for pSS. Several flavonoids have been reported to have the potential to treat pSS. This study aimed to screen and compare flavonoids binding to ERalpha using AutoDock, providing a basis for treating pSS with flavonoids. The estrogenic potential of six representative flavonoids was examined in this study. Molecular docking revealed that the binding energy of all six flavonoids to ERalpha was less than -5.6 kcal/mol. Apigenin, naringenin, and daidzein were the top three flavonoids with even lower binding energies of -7.8, -8.09, and -8.59 kcal/mol, respectively. Similar to the positive control estradiol, apigenin, naringenin, and daidzein showed hydrogen bond interactions with GLU353, GLY521, and HIS524 at the active site. The results of luciferase reporter assays demonstrated that apigenin, naringenin, and daidzein significantly enhanced the transcription of estrogen receptor element (ERE) in the PGL3/AQP5 promoter. Furthermore, molecular dynamics simulations using GROMACS for a time scale of 100 ns revealed relatively stable binding of apigenin-ERalpha, naringenin-ERalpha, and daidzein-ERalpha. Mechanistically, homology modeling indicated that GLU353, GLY521, and HIS524 were the key residues of ERalpha exerting an estrogenic effect. The therapeutic effect of apigenin on dry mouth in pSS models was further validated. In conclusion, these results indicate the estrogenic and pSS therapeutic potential of apigenin, naringenin, and daidzein.
+39027572	74	84	flavonoids	Chemical	MESH:D005419
+39027572	89	115	primary Sjogren's syndrome	Disease	MESH:D012859
+39027572	117	143	Primary Sjogren's Syndrome	Disease	MESH:D012859
+39027572	145	148	pSS	Disease	MESH:D012859
+39027572	155	182	systemic autoimmune disease	Disease	MESH:D020274
+39027572	244	249	women	Species	9606
+39027572	257	276	estrogen deficiency	Disease	MESH:D056828
+39027572	282	305	estrogen receptor alpha	Gene	2099
+39027572	307	314	ERalpha	Gene	2099
+39027572	372	383	aquaporin 5	Gene	362
+39027572	385	389	AQP5	Gene	362
+39027572	470	477	ERalpha	Gene	2099
+39027572	500	503	pSS	Disease	MESH:D012859
+39027572	513	523	flavonoids	Chemical	MESH:D005419
+39027572	574	577	pSS	Disease	MESH:D012859
+39027572	618	628	flavonoids	Chemical	MESH:D005419
+39027572	640	647	ERalpha	Gene	2099
+39027572	695	698	pSS	Disease	MESH:D012859
+39027572	704	714	flavonoids	Chemical	MESH:D005419
+39027572	720	730	estrogenic	Disease	MESH:D056828
+39027572	763	773	flavonoids	Chemical	MESH:D005419
+39027572	864	874	flavonoids	Chemical	MESH:D005419
+39027572	878	885	ERalpha	Gene	2099
+39027572	915	923	Apigenin	Chemical	MESH:D047310
+39027572	925	935	naringenin	Chemical	MESH:C005273
+39027572	941	949	daidzein	Chemical	MESH:C004742
+39027572	969	979	flavonoids	Chemical	MESH:D005419
+39027572	1095	1104	estradiol	Chemical	MESH:D004958
+39027572	1106	1114	apigenin	Chemical	MESH:D047310
+39027572	1116	1126	naringenin	Chemical	MESH:C005273
+39027572	1132	1140	daidzein	Chemical	MESH:C004742
+39027572	1287	1295	apigenin	Chemical	MESH:D047310
+39027572	1297	1307	naringenin	Chemical	MESH:C005273
+39027572	1313	1321	daidzein	Chemical	MESH:C004742
+39027572	1366	1383	estrogen receptor	Gene	2099
+39027572	1405	1409	PGL3	Gene	6391
+39027572	1410	1414	AQP5	Gene	362
+39027572	1548	1556	apigenin	Chemical	MESH:D047310
+39027572	1557	1564	ERalpha	Gene	2099
+39027572	1566	1576	naringenin	Chemical	MESH:C005273
+39027572	1577	1584	ERalpha	Gene	2099
+39027572	1590	1598	daidzein	Chemical	MESH:C004742
+39027572	1599	1606	ERalpha	Gene	2099
+39027572	1710	1717	ERalpha	Gene	2099
+39027572	1730	1740	estrogenic	Disease	MESH:D056828
+39027572	1775	1783	apigenin	Chemical	MESH:D047310
+39027572	1787	1796	dry mouth	Disease	MESH:D014987
+39027572	1800	1803	pSS	Disease	MESH:D012859
+39027572	1876	1886	estrogenic	Disease	MESH:D056828
+39027572	1891	1894	pSS	Disease	MESH:D012859
+39027572	1920	1928	apigenin	Chemical	MESH:D047310
+39027572	1930	1940	naringenin	Chemical	MESH:C005273
+39027572	1946	1954	daidzein	Chemical	MESH:C004742
+39027572	Bind	MESH:D005419	2099
+39027572	Association	2099	362
+39027572	Positive_Correlation	MESH:D005419	MESH:D056828
+39027572	Positive_Correlation	MESH:D047310	2099
+39027572	Positive_Correlation	MESH:C004742	2099
+39027572	Negative_Correlation	MESH:D047310	MESH:D012859
+39027572	Positive_Correlation	MESH:C004742	6391
+39027572	Association	MESH:D012859	2099
+39027572	Negative_Correlation	MESH:D005419	MESH:D012859
+39027572	Bind	MESH:C005273	2099
+39027572	Positive_Correlation	MESH:D047310	362
+39027572	Positive_Correlation	MESH:C005273	6391
+39027572	Negative_Correlation	MESH:D047310	MESH:D014987
+39027572	Positive_Correlation	MESH:C004742	362
+39027572	Positive_Correlation	MESH:D047310	6391
+39027572	Positive_Correlation	MESH:C005273	362
+

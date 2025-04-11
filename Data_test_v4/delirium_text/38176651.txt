@@ -1,0 +1,13 @@
+38176651|t|GlyComb: A novel glycoconjugate data repository that bridges glycomics and proteomics.
+38176651|a|The glycosylation of proteins and lipids is known to be closely related to the mechanisms of various diseases such as influenza, cancer, and muscular dystrophy. Therefore, it has become clear that the analysis of post-translational modifications of proteins, including glycosylation, is important to accurately understand the functions of each protein molecule and the interactions among them. In order to conduct large-scale analyses more efficiently, it is essential to promote the accumulation, sharing, and reuse of experimental and analytical data in accordance with the FAIR (Findability, Accessibility, Interoperability, and Re-usability) data principles. However, a FAIR data repository for storing and sharing glycoconjugate information, including glycopeptides and glycoproteins, in a standardized format did not exist. Therefore, we have developed GlyComb (https://glycomb.glycosmos.org) as a new standardized data repository for glycoconjugate data. Currently, GlyComb can assign a unique identifier to a set of glycosylation information associated with a specific peptide sequence or UniProt ID. By standardizing glycoconjugate data via GlyComb identifiers and coordinating with existing web resources such as GlyTouCan and GlycoPOST, a comprehensive system for data submission and data sharing among researchers can be established. Here we introduce how GlyComb is able to integrate the variety of glycoconjugate data already registered in existing data repositories to obtain a better understanding of the available glycopeptides and glycoproteins, and their glycosylation patterns. We also explain how this system can serve as a foundation for a better understanding of glycan function.
+38176651	121	127	lipids	Chemical	MESH:D008055
+38176651	205	214	influenza	Disease	MESH:D007251
+38176651	216	222	cancer	Disease	MESH:D009369
+38176651	228	246	muscular dystrophy	Disease	MESH:D009136
+38176651	844	857	glycopeptides	Chemical	MESH:D006020
+38176651	1618	1631	glycopeptides	Chemical	MESH:D006020
+38176651	1773	1779	glycan	Chemical	MESH:D011134
+38176651	Association	MESH:D008055	MESH:D009369
+38176651	Association	MESH:D008055	MESH:D007251
+38176651	Association	MESH:D008055	MESH:D009136
+

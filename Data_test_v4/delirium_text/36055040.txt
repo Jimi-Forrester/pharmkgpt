@@ -1,0 +1,11 @@
+36055040|t|Joint selection of brain network nodes and edges for MCI identification.
+36055040|a|BACKGROUND AND OBJECTIVE: Functional brain graph (FBG), by describing the interactions between different brain regions, provides an effective representation of fMRI data for identifying mild cognitive impairment (MCI), an early stage of Alzheimer's Disease (AD). Prior to the identification task, selecting features from the estimated FBG is a necessary step for reducing computational cost, alleviating the risk of overfitting, and finding potential biomarkers of brain diseases. In practice, either node-based features (e.g., local clustering coefficients) or edge-based features (e.g., adjacency weights) are generally considered in current studies. Despite their popularity, these schemes can only capture one granularity (node or edge) of information in the FBG, which might be insufficient for the classification task and the interpretation of the classification result. METHODS: To address this issue, in this paper, we propose to jointly select nodes and edges from the estimated FBGs. Specifically, we first assign the edges to different node groups. Then, sparse group least absolute shrinkage and selection operator (sgLASSO) is used to select groups (nodes) and edges in the groups towards a better classification performance. Such a technique enables us to simultaneously locate discriminative brain regions, as well as connections between these brain regions, making the classification results more interpretable. RESULTS: Experimental results show that the proposed method achieves better classification performance than state-of-the-art methods. Moreover, by exploring brain network "features" that contributed most to MCI identification, we discover potential biomarkers for MCI diagnosis. CONCLUSION: A novel method for jointly selecting nodes and edges from the estimated functional brain graphs (FBGs) is proposed.
+36055040	53	56	MCI	Disease	MESH:D060825
+36055040	264	284	cognitive impairment	Disease	MESH:D003072
+36055040	286	289	MCI	Disease	MESH:D060825
+36055040	310	329	Alzheimer's Disease	Disease	MESH:D000544
+36055040	331	333	AD	Disease	MESH:D000544
+36055040	538	552	brain diseases	Disease	MESH:D001927
+36055040	1708	1711	MCI	Disease	MESH:D060825
+36055040	1765	1768	MCI	Disease	MESH:D060825
+

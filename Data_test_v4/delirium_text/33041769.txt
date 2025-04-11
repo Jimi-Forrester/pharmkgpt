@@ -1,0 +1,56 @@
+33041769|t|Mechanism of Zinc Excitotoxicity: A Focus on AMPK.
+33041769|a|Over the last 20 years, it has been shown that complex signaling cascades are involved in zinc excitotoxicity. Free zinc rapidly induces PKC activation, which causes reactive oxygen species (ROS) production at least in part through NADPH oxidase. It also promotes neuronal nitric oxide synthase, thereby increasing nitric oxide (NO) production. Extracellular signal-regulated kinase activation and Egr-1 transcription factor activity were quickly induced by zinc, too. These concurrent actions of kinases consequently produce oxygen free radical, ROS, and NO, which may cause severe DNA damage. Following the excessive activity of poly(ADP-ribose) polymerase-1 depletes NAD+/ATP in the cells. Zinc excitotoxicity exhibits distinct characteristics of apoptosis, too. Activation of caspase-3 is induced by liver kinase B1 (LKB1)-AMP-activated kinase (AMPK)-Bim cascade signaling and induction of p75NTR receptors and p75NTR-associated Death Executor. Thus, zinc excitotoxicity is a mechanism of neuronal cell death showing various cell death patterns. In addition to the above signaling cascades, individual intracellular organelles also play a crucial role in zinc excitotoxicity. Mitochondria and lysosomes function as zinc reservoirs, and as such, are capable of regulating zinc concentration in the cytoplasm. However, when loaded with too much zinc, they may undergo mitochondrial permeability transition pore (mPTP) opening, and lysosomal membrane permeabilization (LMP), both of which are well-established mechanisms of cell death. Since zinc excitotoxicity has been reported to be associated with acute brain injuries, including stroke, trauma, and epilepsy, we performed to find the novel AMPK inhibitors as therapeutic agents for these diseases. Since we thought acute brain injury has complicated neuronal death pathways, we tried to see the neuroprotection against zinc excitotoxicity, calcium-overload excitotoxicity, oxidative damage, and apoptosis. We found that two chemicals showed significant neuroprotection against all cellular neurotoxic models we tested. Finally, we observed the reduction of infarct volume in a rat model of brain injury after middle cerebral artery occlusion (MCAO). In this review, we introduced the AMPK-mediated cell death mechanism and novel strategy for the development of stroke therapeutics. The hope is that this understanding would provide a rationale for acute brain injury and eventually find new therapeutics.
+33041769	18	32	Excitotoxicity	Disease	
+33041769	45	49	AMPK	Gene	78975
+33041769	146	160	excitotoxicity	Disease	
+33041769	188	191	PKC	Gene	24681
+33041769	217	240	reactive oxygen species	Chemical	MESH:D017382
+33041769	242	245	ROS	Chemical	MESH:D017382
+33041769	366	378	nitric oxide	Chemical	MESH:D009569
+33041769	577	596	oxygen free radical	Chemical	-
+33041769	598	601	ROS	Chemical	MESH:D017382
+33041769	634	644	DNA damage	Disease	MESH:D004266
+33041769	682	711	poly(ADP-ribose) polymerase-1	Gene	25591
+33041769	721	725	NAD+	Chemical	MESH:D009243
+33041769	726	729	ATP	Chemical	MESH:D000255
+33041769	749	763	excitotoxicity	Disease	
+33041769	831	840	caspase-3	Gene	25402
+33041769	855	870	liver kinase B1	Gene	314621
+33041769	872	876	LKB1	Gene	314621
+33041769	900	904	AMPK	Gene	78975
+33041769	906	909	Bim	Gene	64547
+33041769	966	972	p75NTR	Gene	24596
+33041769	1011	1025	excitotoxicity	Disease	
+33041769	1044	1052	neuronal	Disease	MESH:D009410
+33041769	1215	1229	excitotoxicity	Disease	
+33041769	1599	1613	excitotoxicity	Disease	
+33041769	1660	1674	brain injuries	Disease	MESH:D001930
+33041769	1686	1692	stroke	Disease	MESH:D020521
+33041769	1694	1700	trauma	Disease	MESH:D014947
+33041769	1706	1714	epilepsy	Disease	MESH:D004827
+33041769	1747	1751	AMPK	Gene	78975
+33041769	1828	1840	brain injury	Disease	MESH:D001930
+33041769	1857	1865	neuronal	Disease	MESH:D009410
+33041769	1931	1945	excitotoxicity	Disease	
+33041769	1947	1954	calcium	Chemical	MESH:D002118
+33041769	1964	1978	excitotoxicity	Disease	
+33041769	2097	2107	neurotoxic	Disease	MESH:D020258
+33041769	2164	2171	infarct	Disease	MESH:D007238
+33041769	2184	2187	rat	Species	10116
+33041769	2197	2209	brain injury	Disease	MESH:D001930
+33041769	2216	2248	middle cerebral artery occlusion	Disease	MESH:D020244
+33041769	2250	2254	MCAO	Disease	MESH:D020244
+33041769	2291	2295	AMPK	Gene	78975
+33041769	2368	2374	stroke	Disease	MESH:D020521
+33041769	2461	2473	brain injury	Disease	MESH:D001930
+33041769	Negative_Correlation	MESH:D000255	25591
+33041769	Association	64547	78975
+33041769	Positive_Correlation	25402	78975
+33041769	Association	MESH:D020521	78975
+33041769	Positive_Correlation	25402	314621
+33041769	Positive_Correlation	25402	64547
+33041769	Association	MESH:D020244	78975
+33041769	Positive_Correlation	MESH:D017382	MESH:D004266
+33041769	Association	MESH:D001930	78975
+33041769	Negative_Correlation	MESH:D009243	25591
+

@@ -1,0 +1,45 @@
+36011324|t|Prediction of the Effects of Missense Mutations on Human Myeloperoxidase Protein Stability Using In Silico Saturation Mutagenesis.
+36011324|a|Myeloperoxidase (MPO) is a heme peroxidase with microbicidal properties. MPO plays a role in the host's innate immunity by producing reactive oxygen species inside the cell against foreign organisms. However, there is little functional evidence linking missense mutations to human diseases. We utilized in silico saturation mutagenesis to generate and analyze the effects of 10,811 potential missense mutations on MPO stability. Our results showed that ~71% of the potential missense mutations destabilize MPO, and ~8% stabilize the MPO protein. We showed that G402W, G402Y, G361W, G402F, and G655Y would have the highest destabilizing effect on MPO. Meanwhile, D264L, G501M, D264H, D264M, and G501L have the highest stabilization effect on the MPO protein. Our computational tool prediction showed the destabilizing effects in 13 out of 14 MPO missense mutations that cause diseases in humans. We also analyzed putative post-translational modification (PTM) sites on the MPO protein and mapped the PTM sites to disease-associated missense mutations for further analysis. Our analysis showed that R327H associated with frontotemporal dementia and R548W causing generalized pustular psoriasis are near these PTM sites. Our results will aid further research into MPO as a biomarker for human complex diseases and a candidate for drug target discovery.
+36011324	51	56	Human	Species	9606
+36011324	57	72	Myeloperoxidase	Gene	4353
+36011324	131	146	Myeloperoxidase	Gene	4353
+36011324	148	151	MPO	Gene	4353
+36011324	204	207	MPO	Gene	4353
+36011324	264	287	reactive oxygen species	Chemical	MESH:D017382
+36011324	406	411	human	Species	9606
+36011324	545	548	MPO	Gene	4353
+36011324	637	640	MPO	Gene	4353
+36011324	664	667	MPO	Gene	4353
+36011324	692	697	G402W	ProteinMutation	tmVar:p|SUB|G|402|W;HGVS:p.G402W;VariantGroup:3;CorrespondingGene:4353;RS#:772634939;CorrespondingSpecies:9606
+36011324	699	704	G402Y	ProteinMutation	tmVar:p|SUB|G|402|Y;HGVS:p.G402Y;VariantGroup:3;CorrespondingGene:4353;RS#:772634939;CorrespondingSpecies:9606
+36011324	706	711	G361W	ProteinMutation	tmVar:p|SUB|G|361|W;HGVS:p.G361W;VariantGroup:6;CorrespondingGene:4353;CorrespondingSpecies:9606
+36011324	713	718	G402F	ProteinMutation	tmVar:p|SUB|G|402|F;HGVS:p.G402F;VariantGroup:3;CorrespondingGene:4353;RS#:772634939;CorrespondingSpecies:9606
+36011324	724	729	G655Y	ProteinMutation	tmVar:p|SUB|G|655|Y;HGVS:p.G655Y;VariantGroup:5;CorrespondingGene:4353;CorrespondingSpecies:9606
+36011324	777	780	MPO	Gene	4353
+36011324	793	798	D264L	ProteinMutation	tmVar:p|SUB|D|264|L;HGVS:p.D264L;VariantGroup:2;CorrespondingGene:4353;CorrespondingSpecies:9606
+36011324	800	805	G501M	ProteinMutation	tmVar:p|SUB|G|501|M;HGVS:p.G501M;VariantGroup:1;CorrespondingGene:4353;CorrespondingSpecies:9606
+36011324	807	812	D264H	ProteinMutation	tmVar:p|SUB|D|264|H;HGVS:p.D264H;VariantGroup:2;CorrespondingGene:4353;CorrespondingSpecies:9606
+36011324	814	819	D264M	ProteinMutation	tmVar:p|SUB|D|264|M;HGVS:p.D264M;VariantGroup:2;CorrespondingGene:4353;CorrespondingSpecies:9606
+36011324	825	830	G501L	ProteinMutation	tmVar:p|SUB|G|501|L;HGVS:p.G501L;VariantGroup:1;CorrespondingGene:4353;CorrespondingSpecies:9606
+36011324	876	879	MPO	Gene	4353
+36011324	972	975	MPO	Gene	4353
+36011324	1018	1024	humans	Species	9606
+36011324	1103	1106	MPO	Gene	4353
+36011324	1228	1233	R327H	ProteinMutation	tmVar:p|SUB|R|327|H;HGVS:p.R327H;VariantGroup:0;CorrespondingGene:4353;RS#:760619802;CorrespondingSpecies:9606;CA#:8670788
+36011324	1250	1273	frontotemporal dementia	Disease	MESH:D057180
+36011324	1278	1283	R548W	ProteinMutation	tmVar:p|SUB|R|548|W;HGVS:p.R548W;VariantGroup:4;CorrespondingGene:4353;RS#:148802625;CorrespondingSpecies:9606;CA#:8670563
+36011324	1292	1322	generalized pustular psoriasis	Disease	MESH:D011565
+36011324	1392	1395	MPO	Gene	4353
+36011324	1415	1420	human	Species	9606
+36011324	Positive_Correlation	MESH:D011565	RS#:148802625;HGVS:p.R548W;CorrespondingGene:4353
+36011324	Association	MESH:D057180	RS#:760619802;HGVS:p.R327H;CorrespondingGene:4353
+36011324	Positive_Correlation	MESH:D011565	RS#:760619802;HGVS:p.R327H;CorrespondingGene:4353
+36011324	Association	MESH:D011565	4353
+36011324	Positive_Correlation	MESH:D011565	RS#:772634939;HGVS:p.G402W;CorrespondingGene:4353
+36011324	Positive_Correlation	MESH:D011565	HGVS:p.D264L;CorrespondingGene:4353
+36011324	Association	MESH:D057180	RS#:772634939;HGVS:p.G402W;CorrespondingGene:4353
+36011324	Association	MESH:D017382	4353
+36011324	Association	MESH:D057180	4353
+36011324	Association	MESH:D011565	4353
+36011324	Association	MESH:D057180	4353
+

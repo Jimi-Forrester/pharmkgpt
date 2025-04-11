@@ -1,0 +1,23 @@
+32871388|t|Prediction of clinical and biomarker conformed Alzheimer's disease and mild cognitive impairment from multi-feature brain structural MRI using age-correction from a large independent lifespan sample.
+32871388|a|Structural neuroimaging has been applied to the identification of individuals with Alzheimer's disease (AD) and mild cognitive impairment (MCI). However, these methods are greatly impacted by age limiting their utility for detection of preclinical pathology. We built linear models for age based on multiple combined structural features using a large independent lifespan sample of 272 healthy adults across a wide age range from the Human Connectome Project Aging study. These models were then used to create a new support vector machine (SVM) training model in 136 AD and 268 control participants based on residues of fit from the expected age-effects relationship. Subsequent validation assessed the accuracy of the SVM model in new datasets. Finally, we applied the classifier to 276 individuals with MCI to evaluate prediction for early impairment and longitudinal cognitive change. The optimal 10-fold cross-validation accuracy was 93.07%, compared to 91.83% without age detrending. In the validation dataset, the classifier for AD obtained an accuracy of 84.85% (56/66), sensitivity of 85.36% (35/41) and specificity of 84% (21/25). Classification accuracy was improved when using the lifespan sample as opposed to the classification sample. Importantly, we observed cross-sectional greater AD specific biomarkers, as well as faster cognitive decline in MCI who were classified as more 'AD-like' (MCI-AD), and these effects were pronounced in individuals who were late MCI. The top five contributive features were volumes of left hippocampus, right hippocampus, left amygdala, the thickness of left and right middle temporal & parahippocampus gyrus. Linear detrending for age in SVM for combined structural features resulted in good performance for recognition of AD and AD-specific biomarkers, as well as prediction of MCI progression. Such procedures may be used in future work to enhance prediction in samples with atypical age distributions.
+32871388	47	66	Alzheimer's disease	Disease	MESH:D000544
+32871388	76	96	cognitive impairment	Disease	MESH:D003072
+32871388	283	302	Alzheimer's disease	Disease	MESH:D000544
+32871388	304	306	AD	Disease	MESH:D000544
+32871388	317	337	cognitive impairment	Disease	MESH:D003072
+32871388	339	342	MCI	Disease	MESH:D060825
+32871388	634	639	Human	Species	9606
+32871388	767	769	AD	Disease	MESH:D000544
+32871388	1005	1008	MCI	Disease	MESH:D060825
+32871388	1235	1237	AD	Disease	MESH:D000544
+32871388	1498	1500	AD	Disease	MESH:D000544
+32871388	1540	1557	cognitive decline	Disease	MESH:D003072
+32871388	1561	1564	MCI	Disease	MESH:D060825
+32871388	1594	1601	AD-like	Disease	MESH:D000544
+32871388	1604	1607	MCI	Disease	MESH:D060825
+32871388	1608	1610	AD	Disease	MESH:D000544
+32871388	1676	1679	MCI	Disease	MESH:D060825
+32871388	1971	1973	AD	Disease	MESH:D000544
+32871388	1978	1980	AD	Disease	MESH:D000544
+32871388	2027	2030	MCI	Disease	MESH:D060825
+

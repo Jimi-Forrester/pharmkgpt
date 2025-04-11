@@ -1,0 +1,16 @@
+22927119|t|Prediction of Alzheimer's disease and mild cognitive impairment using cortical morphological patterns.
+22927119|a|This article describes a novel approach to extract cortical morphological abnormality patterns from structural magnetic resonance imaging (MRI) data to improve the prediction accuracy of Alzheimer's disease (AD) and its prodromal stage, i.e., mild cognitive impairment (MCI). Conventional approaches extract cortical morphological information, such as regional mean cortical thickness and regional cortical volumes, independently at different regions of interest (ROIs) without considering the relationship between these regions. Our approach involves constructing a similarity map where every element in the map represents the correlation of regional mean cortical thickness between a pair of ROIs. We will demonstrate in this article that this correlative morphological information gives significant improvement in classification performance when compared with ROI-based morphological information. Classification performance is further improved by integrating the correlative information with ROI-based information via multi-kernel support vector machines. This integrated framework achieves an accuracy of 92.35% for AD classification with an area of 0.9744 under the receiver operating characteristic (ROC) curve, and an accuracy of 83.75% for MCI classification with an area of 0.9233. In differentiating MCI subjects who converted to AD within 36 months from non-converters, an accuracy of 75.05% with an area of 0.8426 under ROC curve was achieved, indicating excellent diagnostic power and generalizability. The current work provides an alternative approach to extraction of high-order cortical information from structural MRI data for prediction of neurodegenerative diseases such as AD.
+22927119	14	33	Alzheimer's disease	Disease	MESH:D000544
+22927119	43	63	cognitive impairment	Disease	MESH:D003072
+22927119	163	188	morphological abnormality	Disease	MESH:D000013
+22927119	290	309	Alzheimer's disease	Disease	MESH:D000544
+22927119	311	313	AD	Disease	MESH:D000544
+22927119	351	371	cognitive impairment	Disease	MESH:D003072
+22927119	373	376	MCI	Disease	MESH:D060825
+22927119	1223	1225	AD	Disease	MESH:D000544
+22927119	1351	1354	MCI	Disease	MESH:D060825
+22927119	1413	1416	MCI	Disease	MESH:D060825
+22927119	1443	1445	AD	Disease	MESH:D000544
+22927119	1761	1787	neurodegenerative diseases	Disease	MESH:D019636
+22927119	1796	1798	AD	Disease	MESH:D000544
+

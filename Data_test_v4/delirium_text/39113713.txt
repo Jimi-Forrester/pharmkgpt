@@ -1,0 +1,49 @@
+39113713|t|NRF2-HIF2alpha Signaling Attenuates Endothelial Cell Senescence and Maintains Intercellular Junctions in Diabetes.
+39113713|a|In the context of diabetes, endothelial cells frequently exhibit compromised intercellular junctions and accelerated cellular senescence simultaneously. The precise mechanisms underlying these issues and the identification of effective treatments remain largely undefined. Our findings reveal that human umbilical vein endothelial cells (HUVECs) can counteract senescence and uphold the integrity of intercellular junctions under mildly to moderately elevated glucose levels (10 mM and 15 mM) via two primary mechanisms: i) The acetylation of NRF2 at lysine residues K56, K68, and K52 prevents its ubiquitination, enhancing the transcription of antioxidant genes GST, SOD1, and GPX1. This activity diminishes cytoplasmic oxidative stress, thereby mitigating endothelial cell senescence. ii) The interaction between the Neh2 domain of NRF2 and the PAS-B domain of HIF-2alpha within the nucleus curtails the attachment of HIF-2alpha to the NOX4/p22phox promoter. This action lessens oxidative stress near the cell membrane, maintaining intercellular junctions by safeguarding the disulfide bonds in occludin and E-cadherin from disruption. However, these protective strategies prove insufficient under severe hyperglycemic conditions (25 mM). Further investigation has identified Oltipraz, an activator of NRF2, as also promoting the degradation of HIF-2alpha. Through its simultaneous modulation of NRF2 and HIF-2alpha, Oltipraz significantly reduces cellular senescence and prevents the deterioration of intercellular junctions in HUVECs subjected to high glucose concentrations (25 mM). Our research positions Oltipraz as a promising therapeutic candidate for mitigating diabetes-induced vascular endothelial damage, potentially offering benefits against diabetes-related atherosclerosis and valvular calcification.
+39113713	0	4	NRF2	Gene	4780
+39113713	5	14	HIF2alpha	Gene	2034
+39113713	105	113	Diabetes	Disease	MESH:D003920
+39113713	133	141	diabetes	Disease	MESH:D003920
+39113713	413	418	human	Species	9606
+39113713	575	582	glucose	Chemical	MESH:D005947
+39113713	658	662	NRF2	Gene	4780
+39113713	783	787	SOD1	Gene	6647
+39113713	793	797	GPX1	Gene	2876
+39113713	934	938	Neh2	Gene	252969
+39113713	949	953	NRF2	Gene	4780
+39113713	978	988	HIF-2alpha	Gene	2034
+39113713	1035	1045	HIF-2alpha	Gene	2034
+39113713	1053	1057	NOX4	Gene	50507
+39113713	1058	1065	p22phox	Gene	1535
+39113713	1193	1202	disulfide	Chemical	MESH:D004220
+39113713	1212	1220	occludin	Gene	100506658
+39113713	1225	1235	E-cadherin	Gene	999
+39113713	1322	1335	hyperglycemic	Disease	MESH:D006944
+39113713	1393	1401	Oltipraz	Chemical	MESH:C026209
+39113713	1419	1423	NRF2	Gene	4780
+39113713	1462	1472	HIF-2alpha	Gene	2034
+39113713	1513	1517	NRF2	Gene	4780
+39113713	1522	1532	HIF-2alpha	Gene	2034
+39113713	1534	1542	Oltipraz	Chemical	MESH:C026209
+39113713	1671	1678	glucose	Chemical	MESH:D005947
+39113713	1726	1734	Oltipraz	Chemical	MESH:C026209
+39113713	1787	1795	diabetes	Disease	MESH:D003920
+39113713	1871	1879	diabetes	Disease	MESH:D003920
+39113713	1888	1903	atherosclerosis	Disease	MESH:D050197
+39113713	1908	1930	valvular calcification	Disease	MESH:D006349
+39113713	Bind	2034	50507
+39113713	Association	MESH:D004220	999
+39113713	Bind	1535	2034
+39113713	Negative_Correlation	MESH:C026209	MESH:D050197
+39113713	Positive_Correlation	4780	6647
+39113713	Association	2034	4780
+39113713	Positive_Correlation	MESH:C026209	4780
+39113713	Negative_Correlation	MESH:C026209	2034
+39113713	Association	MESH:D003920	2034
+39113713	Negative_Correlation	MESH:C026209	MESH:D006349
+39113713	Negative_Correlation	MESH:C026209	MESH:D003920
+39113713	Positive_Correlation	2876	4780
+39113713	Association	252969	4780
+39113713	Association	MESH:D003920	4780
+39113713	Association	MESH:D004220	100506658
+

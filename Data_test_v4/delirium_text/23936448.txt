@@ -1,0 +1,75 @@
+23936448|t|Curcumin protects microglia and primary rat cortical neurons against HIV-1 gp120-mediated inflammation and apoptosis.
+23936448|a|Curcumin is a molecule found in turmeric root that has anti-inflammatory, antioxidant, and anti-tumor properties and has been widely used as both an herbal drug and a food additive to treat or prevent neurodegenerative diseases. To explore whether curcumin is able to ameliorate HIV-1-associated neurotoxicity, we treated a murine microglial cell line (N9) and primary rat cortical neurons with curcumin in the presence or absence of neurotoxic HIV-1 gp120 (V3 loop) protein. We found that HIV-1 gp120 profoundly induced N9 cells to produce reactive oxygen species (ROS), tumor necrosis factor-alpha (TNF-alpha) and monocyte chemoattractant protein-1 (MCP-1). HIV-1 gp120 also induced apoptosis of primary rat cortical neurons. Curcumin exerted a powerful inhibitory effect against HIV-1 gp120-induced neuronal damage, reducing the production of ROS, TNF-alpha and MCP-1 by N9 cells and inhibiting apoptosis of primary rat cortical neurons. Curcumin may exert its biological activities through inhibition of the delayed rectification and transient outward potassium (K(+)) current, as curcumin effectively reduced HIV-1 gp120-mediated elevation of the delayed rectification and transient outward K(+) channel current in neurons. We conclude that HIV-1 gp120 increases ROS, TNF-alpha and MCP-1 production in microglia, and induces cortical neuron apoptosis by affecting the delayed rectification and transient outward K(+) channel current. Curcumin reduces production of ROS and inflammatory mediators in HIV-1-gp120-stimulated microglia, and protects cortical neurons against HIV-1-mediated apoptosis, most likely through inhibition of HIV-1 gp120-induced elevation of the delayed rectification and transient outward K(+) current. 
+23936448	0	8	Curcumin	Chemical	MESH:D003474
+23936448	40	43	rat	Species	10116
+23936448	69	74	HIV-1	Species	11676
+23936448	75	80	gp120	Gene	3700
+23936448	90	102	inflammation	Disease	MESH:D007249
+23936448	118	126	Curcumin	Chemical	MESH:D003474
+23936448	178	190	inflammatory	Disease	MESH:D007249
+23936448	214	219	tumor	Disease	MESH:D009369
+23936448	319	345	neurodegenerative diseases	Disease	MESH:D019636
+23936448	366	374	curcumin	Chemical	MESH:D003474
+23936448	397	402	HIV-1	Species	11676
+23936448	414	427	neurotoxicity	Disease	MESH:D020258
+23936448	442	448	murine	Species	10090
+23936448	471	473	N9	CellLine	CVCL:0452
+23936448	487	490	rat	Species	10116
+23936448	513	521	curcumin	Chemical	MESH:D003474
+23936448	552	562	neurotoxic	Disease	MESH:D020258
+23936448	563	568	HIV-1	Species	11676
+23936448	569	574	gp120	Gene	3700
+23936448	608	613	HIV-1	Species	11676
+23936448	614	619	gp120	Gene	3700
+23936448	639	641	N9	CellLine	CVCL:0452
+23936448	659	682	reactive oxygen species	Chemical	MESH:D017382
+23936448	684	687	ROS	Chemical	MESH:D017382
+23936448	690	717	tumor necrosis factor-alpha	Gene	21926
+23936448	719	728	TNF-alpha	Gene	21926
+23936448	734	768	monocyte chemoattractant protein-1	Gene	24770
+23936448	778	783	HIV-1	Species	11676
+23936448	784	789	gp120	Gene	3700
+23936448	824	827	rat	Species	10116
+23936448	846	854	Curcumin	Chemical	MESH:D003474
+23936448	900	905	HIV-1	Species	11676
+23936448	906	911	gp120	Gene	3700
+23936448	920	935	neuronal damage	Disease	MESH:D009410
+23936448	964	967	ROS	Chemical	MESH:D017382
+23936448	969	978	TNF-alpha	Gene	24835
+23936448	992	994	N9	CellLine	CVCL:0452
+23936448	1037	1040	rat	Species	10116
+23936448	1059	1067	Curcumin	Chemical	MESH:D003474
+23936448	1174	1183	potassium	Chemical	MESH:D011188
+23936448	1203	1211	curcumin	Chemical	MESH:D003474
+23936448	1232	1237	HIV-1	Species	11676
+23936448	1238	1243	gp120	Gene	3700
+23936448	1364	1369	HIV-1	Species	11676
+23936448	1370	1375	gp120	Gene	3700
+23936448	1386	1389	ROS	Chemical	MESH:D017382
+23936448	1391	1400	TNF-alpha	Gene	24835
+23936448	1457	1463	neuron	Disease	MESH:D009410
+23936448	1557	1565	Curcumin	Chemical	MESH:D003474
+23936448	1588	1591	ROS	Chemical	MESH:D017382
+23936448	1596	1608	inflammatory	Disease	MESH:D007249
+23936448	1622	1627	HIV-1	Species	11676
+23936448	1628	1633	gp120	Gene	3700
+23936448	1694	1699	HIV-1	Species	11676
+23936448	1754	1759	HIV-1	Species	11676
+23936448	1760	1765	gp120	Gene	3700
+23936448	Association	MESH:D007249	3700
+23936448	Negative_Correlation	MESH:D003474	MESH:D009369
+23936448	Negative_Correlation	MESH:D003474	MESH:D009410
+23936448	Negative_Correlation	MESH:D003474	MESH:D019636
+23936448	Negative_Correlation	MESH:D003474	MESH:D017382
+23936448	Positive_Correlation	24770	3700
+23936448	Negative_Correlation	MESH:D003474	MESH:D007249
+23936448	Positive_Correlation	21926	3700
+23936448	Negative_Correlation	MESH:D003474	24835
+23936448	Positive_Correlation	MESH:D017382	3700
+23936448	Association	MESH:D020258	3700
+23936448	Negative_Correlation	MESH:D003474	MESH:D011188
+23936448	Negative_Correlation	MESH:D003474	3700
+23936448	Association	MESH:D009410	3700
+23936448	Positive_Correlation	24835	3700
+23936448	Negative_Correlation	MESH:D003474	MESH:D020258
+

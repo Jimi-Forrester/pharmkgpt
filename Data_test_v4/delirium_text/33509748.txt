@@ -1,0 +1,81 @@
+33509748|t|[Network pharmacology-based study of the therapeutic mechanism of resveratrol for Alzheimer's disease].
+33509748|a|OBJECTIVE: To investigate the therapeutic mechanism of resveratrol (RES) for Alzheimer's disease (AD) in light of network pharmacology. METHODS: We searched PubChem, BATMAN-TCM, Genecards, AD, TTD, String 11.0, AlzData, SwissTargetPrediction, Metascape and other databases for the therapeutic targets of RES and human AD-related targets. The intersection was determined using Venny 2.1 to obtain the therapeutic targets of RES for AD. The protein-protein interaction (PPI) network was constructed, the gene ontology (GO) was enriched and the Kyoto Encyclopedia of Genes and Genomes pathway (KEGG pathway) were analyzed. Cytoscape 3.7.1 software was used to construct a target-signaling pathway network of RES in the treatment of AD. Molecular docking verification was carried out on SwissDock (http://www.swissdock.ch/docking). We examined a 293Tau cell model of AD for changes in protein levels of pS396, pS199, Tau5, CDK5, glycogen synthase kinase 3beta (GSK3beta) and p-GSK3beta in response to RES treatment using Western blotting. RESULTS: We obtained 182 targets of RES, 525 targets related to AD, and 36 targets of RES for AD treatment, among which 34.6% of the targets were protein-modifying enzymes, 27.7% were metabolite invertase, 13.8% were gene-specific transcriptional regulators, and 10.3% were transporters. The core key targets of RES in the treatment of AD included INS, APP, ESR1, MMP9, IGF1R, CACNA1C, MAPT (microtubule- associated protein Tau), MMP2, TGFB1 and GSK3B. Enrichment analysis of GO biological process suggested that the biological function of RES in AD treatment mainly involved the response to beta-amyloid protein, positive regulation of transferase activity, the transmembrane receptor protein tyrosine kinase signaling pathway, regulation of behavior, learning or memory, aging, and transmembrane transport. KEGG pathway enrichment analysis showed that the most significantly enriched signaling pathways were AD pathway, PI3K-AKT signaling pathway, cGMP-PKG signaling pathway, and MAPK signaling pathway. Molecular docking results showed that RES had strong binding with ESR1, GSK3B, MMP9, IGF1R, APP and INS. In the cell model of AD, treatment with 50 mumol/L RES for 12 h significantly reduced the levels of pS396 and pS199 by regulating CDK5 and GSK3beta activity (P < 0.001). CONCLUSIONS: RES produces therapeutic effects on AD by acting on multiple targets and affecting multiple signaling pathways and improves AD-associated pathologies via a direct action on Abeta and Tau pathological processes.
+33509748	66	77	resveratrol	Chemical	MESH:D000077185
+33509748	82	101	Alzheimer's disease	Disease	MESH:D000544
+33509748	159	170	resveratrol	Chemical	MESH:D000077185
+33509748	172	175	RES	Chemical	MESH:D000077185
+33509748	181	200	Alzheimer's disease	Disease	MESH:D000544
+33509748	202	204	AD	Disease	MESH:D000544
+33509748	293	295	AD	Disease	MESH:D000544
+33509748	408	411	RES	Chemical	MESH:D000077185
+33509748	416	421	human	Species	9606
+33509748	422	424	AD	Disease	MESH:D000544
+33509748	527	530	RES	Chemical	MESH:D000077185
+33509748	535	537	AD	Disease	MESH:D000544
+33509748	809	812	RES	Chemical	MESH:D000077185
+33509748	833	835	AD	Disease	MESH:D000544
+33509748	946	952	293Tau	CellLine	CVCL:0045
+33509748	967	969	AD	Disease	MESH:D000544
+33509748	1023	1027	CDK5	Gene	1020
+33509748	1029	1059	glycogen synthase kinase 3beta	Gene	2932
+33509748	1061	1069	GSK3beta	Gene	2932
+33509748	1077	1085	GSK3beta	Gene	2932
+33509748	1101	1104	RES	Chemical	MESH:D000077185
+33509748	1175	1178	RES	Chemical	MESH:D000077185
+33509748	1203	1205	AD	Disease	MESH:D000544
+33509748	1225	1228	RES	Chemical	MESH:D000077185
+33509748	1233	1235	AD	Disease	MESH:D000544
+33509748	1451	1454	RES	Chemical	MESH:D000077185
+33509748	1475	1477	AD	Disease	MESH:D000544
+33509748	1497	1501	ESR1	Gene	2099
+33509748	1503	1507	MMP9	Gene	4318
+33509748	1509	1514	IGF1R	Gene	3480
+33509748	1516	1523	CACNA1C	Gene	775
+33509748	1525	1529	MAPT	Gene	4137
+33509748	1531	1562	microtubule- associated protein	Gene	55177
+33509748	1563	1566	Tau	Gene	4137
+33509748	1569	1573	MMP2	Gene	4313
+33509748	1575	1580	TGFB1	Gene	7040
+33509748	1585	1591	GSK3B.	Gene	2932
+33509748	1679	1682	RES	Chemical	MESH:D000077185
+33509748	1686	1688	AD	Disease	MESH:D000544
+33509748	2049	2051	AD	Disease	MESH:D000544
+33509748	2066	2069	AKT	Gene	207
+33509748	2094	2097	PKG	Gene	5592
+33509748	2183	2186	RES	Chemical	MESH:D000077185
+33509748	2211	2215	ESR1	Gene	2099
+33509748	2217	2222	GSK3B	Gene	2932
+33509748	2224	2228	MMP9	Gene	4318
+33509748	2230	2235	IGF1R	Gene	3480
+33509748	2271	2273	AD	Disease	MESH:D000544
+33509748	2301	2304	RES	Chemical	MESH:D000077185
+33509748	2380	2384	CDK5	Gene	1020
+33509748	2389	2397	GSK3beta	Gene	2932
+33509748	2433	2436	RES	Chemical	MESH:D000077185
+33509748	2469	2471	AD	Disease	MESH:D000544
+33509748	2557	2559	AD	Disease	MESH:D000544
+33509748	2606	2611	Abeta	Gene	351
+33509748	2616	2619	Tau	Gene	4137
+33509748	Association	MESH:D000077185	4137
+33509748	Association	MESH:D000077185	775
+33509748	Association	MESH:D000544	2932
+33509748	Association	MESH:D000544	2099
+33509748	Positive_Correlation	MESH:D000077185	2932
+33509748	Association	MESH:D000544	207
+33509748	Association	MESH:D000077185	4313
+33509748	Association	MESH:D000544	7040
+33509748	Association	MESH:D000544	1020
+33509748	Association	MESH:D000077185	207
+33509748	Association	MESH:D000544	3480
+33509748	Association	MESH:D000077185	3480
+33509748	Association	MESH:D000077185	7040
+33509748	Association	MESH:D000077185	4318
+33509748	Association	MESH:D000544	4313
+33509748	Association	MESH:D000077185	2099
+33509748	Association	MESH:D000544	351
+33509748	Association	MESH:D000077185	55177
+33509748	Association	MESH:D000544	4318
+33509748	Association	MESH:D000077185	1020
+33509748	Negative_Correlation	MESH:D000077185	MESH:D000544
+33509748	Association	MESH:D000544	775
+

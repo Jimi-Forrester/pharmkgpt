@@ -1,0 +1,28 @@
+18769539|t|Identification of a 5-protein biomarker molecular signature for predicting Alzheimer's disease.
+18769539|a|BACKGROUND: Alzheimer's disease (AD) is a progressive brain disease with a huge cost to human lives. The impact of the disease is also a growing concern for the governments of developing countries, in particular due to the increasingly high number of elderly citizens at risk. Alzheimer's is the most common form of dementia, a common term for memory loss and other cognitive impairments. There is no current cure for AD, but there are drug and non-drug based approaches for its treatment. In general the drug-treatments are directed at slowing the progression of symptoms. They have proved to be effective in a large group of patients but success is directly correlated with identifying the disease carriers at its early stages. This justifies the need for timely and accurate forms of diagnosis via molecular means. We report here a 5-protein biomarker molecular signature that achieves, on average, a 96% total accuracy in predicting clinical AD. The signature is composed of the abundances of IL-1alpha, IL-3, EGF, TNF-alpha and G-CSF. METHODOLOGY/PRINCIPAL FINDINGS: Our results are based on a recent molecular dataset that has attracted worldwide attention. Our paper illustrates that improved results can be obtained with the abundance of only five proteins. Our methodology consisted of the application of an integrative data analysis method. This four step process included: a) abundance quantization, b) feature selection, c) literature analysis, d) selection of a classifier algorithm which is independent of the feature selection process. These steps were performed without using any sample of the test datasets. For the first two steps, we used the application of Fayyad and Irani's discretization algorithm for selection and quantization, which in turn creates an instance of the (alpha-beta)-k-Feature Set problem; a numerical solution of this problem led to the selection of only 10 proteins. CONCLUSIONS/SIGNIFICANCE: the previous study has provided an extremely useful dataset for the identification of AD biomarkers. However, our subsequent analysis also revealed several important facts worth reporting: 1. A 5-protein signature (which is a subset of the 18-protein signature of Ray et al.) has the same overall performance (when using the same classifier). 2. Using more than 20 different classifiers available in the widely-used Weka software package, our 5-protein signature has, on average, a smaller prediction error indicating the independence of the classifier and the robustness of this set of biomarkers (i.e. 96% accuracy when predicting AD against non-demented control). 3. Using very simple classifiers, like Simple Logistic or Logistic Model Trees, we have achieved the following results on 92 samples: 100 percent success to predict Alzheimer's Disease and 92 percent to predict Non Demented Control on the AD dataset.
+18769539	75	94	Alzheimer's disease	Disease	MESH:D000544
+18769539	108	127	Alzheimer's disease	Disease	MESH:D000544
+18769539	129	131	AD	Disease	MESH:D000544
+18769539	150	163	brain disease	Disease	MESH:D001927
+18769539	184	189	human	Species	9606
+18769539	373	384	Alzheimer's	Disease	MESH:D000544
+18769539	412	420	dementia	Disease	MESH:D003704
+18769539	440	451	memory loss	Disease	MESH:D008569
+18769539	462	483	cognitive impairments	Disease	MESH:D003072
+18769539	514	516	AD	Disease	MESH:D000544
+18769539	723	731	patients	Species	9606
+18769539	1042	1044	AD	Disease	MESH:D000544
+18769539	1093	1102	IL-1alpha	Gene	3552
+18769539	1104	1108	IL-3	Gene	3562
+18769539	1110	1113	EGF	Gene	1950
+18769539	1115	1124	TNF-alpha	Gene	7124
+18769539	1129	1134	G-CSF	Gene	1440
+18769539	2117	2119	AD	Disease	MESH:D000544
+18769539	2664	2666	AD	Disease	MESH:D000544
+18769539	2863	2882	Alzheimer's Disease	Disease	MESH:D000544
+18769539	2937	2939	AD	Disease	MESH:D000544
+18769539	Association	MESH:D000544	7124
+18769539	Association	MESH:D000544	1440
+18769539	Association	MESH:D000544	3552
+18769539	Association	MESH:D000544	3562
+

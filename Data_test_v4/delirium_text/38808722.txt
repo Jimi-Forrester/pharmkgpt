@@ -1,0 +1,31 @@
+38808722|t|hdWGCNA and Cellular Communication Identify Active NK Cell Subtypes in Alzheimer's Disease and Screen for Diagnostic Markers through Machine Learning.
+38808722|a|BACKGROUND: Alzheimer's disease (AD) is a recognized complex and severe neurodegenerative disorder, presenting a significant challenge to global health. Its hallmark pathological features include the deposition of beta-amyloid plaques and the formation of neurofibrillary tangles. Given this context, it becomes imperative to develop an early and accurate biomarker model for AD diagnosis, employing machine learning and bioinformatics analysis. METHODS: In this study, single-cell data analysis was employed to identify cellular subtypes that exhibited significant differences between the diseased and control groups. Following the identification of NK cells, hdWGCNA analysis and cellular communication analysis were conducted to pinpoint NK cell subset with the most robust communication effects. Subsequently, three machine learning algorithms-LASSO, Random Forest, and SVM-RFE-were employed to jointly screen for NK cell subset modular genes highly associated with AD. A logistic regression diagnostic model was then designed based on these characterized genes. Additionally, a protein-protein interaction (PPI) networks of model genes was established. Furthermore, unsupervised cluster analysis was conducted to classify AD subtypes based on the model genes, followed by the analysis of immune infiltration in the different subtypes. Finally, Spearman correlation coefficient analysis was utilized to explore the correlation between model genes and immune cells, as well as inflammatory factors. RESULTS: We have successfully identified three genes (RPLP2, RPSA, and RPL18A) that exhibit a high association with AD. The nomogram based on these genes provides practical assistance in diagnosing and predicting patients' outcomes. The interconnected genes screened through PPI are intricately linked to ribosome metabolism and the COVID-19 pathway. Utilizing the expression of modular genes, unsupervised cluster analysis unveiled three distinct AD subtypes. Particularly noteworthy is subtype C3, characterized by high expression, which correlates with immune cell infiltration and elevated levels of inflammatory factors. Hence, it can be inferred that the establishment of an immune environment in AD patients is closely intertwined with the heightened expression of model genes. CONCLUSION: This study has not only established a valuable diagnostic model for AD patients but has also delved deeply into the pivotal role of model genes in shaping the immune environment of individuals with AD. These findings offer crucial insights into early AD diagnosis and patient management strategies.
+38808722	71	90	Alzheimer's Disease	Disease	MESH:D000544
+38808722	163	182	Alzheimer's disease	Disease	MESH:D000544
+38808722	184	186	AD	Disease	MESH:D000544
+38808722	223	249	neurodegenerative disorder	Disease	MESH:D019636
+38808722	365	377	beta-amyloid	Disease	MESH:C000718787
+38808722	407	430	neurofibrillary tangles	Disease	MESH:D055956
+38808722	527	529	AD	Disease	MESH:D000544
+38808722	1121	1123	AD	Disease	MESH:D000544
+38808722	1378	1380	AD	Disease	MESH:D000544
+38808722	1631	1643	inflammatory	Disease	MESH:D007249
+38808722	1707	1712	RPLP2	Gene	6181
+38808722	1714	1718	RPSA	Gene	3921
+38808722	1724	1730	RPL18A	Gene	6142
+38808722	1769	1771	AD	Disease	MESH:D000544
+38808722	1866	1874	patients	Species	9606
+38808722	1986	1994	COVID-19	Disease	MESH:D000086382
+38808722	2101	2103	AD	Disease	MESH:D000544
+38808722	2257	2269	inflammatory	Disease	MESH:D007249
+38808722	2356	2358	AD	Disease	MESH:D000544
+38808722	2359	2367	patients	Species	9606
+38808722	2518	2520	AD	Disease	MESH:D000544
+38808722	2521	2529	patients	Species	9606
+38808722	2648	2650	AD	Disease	MESH:D000544
+38808722	2701	2703	AD	Disease	MESH:D000544
+38808722	2718	2725	patient	Species	9606
+38808722	Association	MESH:D000544	3921
+38808722	Association	MESH:D000544	6142
+38808722	Association	MESH:D000544	6181
+

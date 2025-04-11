@@ -1,0 +1,22 @@
+35024017|t|Molecular interaction of inhibitors with human brain butyrylcholinesterase.
+35024017|a|Alzheimer's disease is a topic of deep research interest across the global scientific community. Butyrylcholinesterase (BuChE) is an important enzyme, and an interesting anti-Alzheimer's target. Identification or fresh design of promising BuChE-inhibitors is warranted. Virtual screening supported by molecular dynamics simulations has emerged as a key component of present drug-discovery cascades. The research piece aimed at identification of a putative BuChE-inhibitor as a fresh molecular frame that might aid drug design in the context of Alzheimer's disease. The study utilized 'MCULE' to screen a set of 5 million ligands to test their ability to bind to human BuChE. Pharmacokinetic profiling was achieved by the 'SWISS ADME' program. Toxicities were duly assessed. YASARA STRUCTURE version 20.10.4.W.64 was employed to run 133 ns molecular dynamics (MD) simulation for the complex of 'the top screened out inhibitor' and 'the human BuChE enzyme'. The simulation was executed for approx. 4 days (~93 hrs) on an HP ZR30w workstation. YANACONDA, a special language contained in YASARA STRUCTURE was employed to perform complex tasks. Fine resolution figures (notably the RMSD vs time plot) were created. Snapshots were extracted at every 250 ps. The selected ligand, (3-Bromophenyl)[5-(4-chlorophenyl)-5-hydroxy-3-(trifluoromethyl)-4,5-dihydro-1H-pyrazol-1-yl]methanone, exhibited the best overall binding with human BuChE. It interacted with human BuChE through 19 residues. Markedly, 9 of the 19 residues were confirmed to be matching to those of the reference complex (PDB ID 5DYW). Trajectory analysis returned 533 snapshots. The RMSD versus time plot indicated that around 22 ns, equilibrium was achieved and, from then on, the 'BuChE-Top inhibitor' complex remained predominantly stable. From 22 ns and onwards till 133 ns, the backbone RMSD fluctuations were observed to remain limited within a range of 1.2-1.9 A. The molecule, (3-Bromophenyl)[5-(4-chlorophenyl)-5-hydroxy-3-(trifluoromethyl)-4,5-dihydro-1H-pyrazol-1-yl]methanone, satisfied ADMET requirements. Additionally, the feasibility of the proposed enzyme-inhibitor complex was supported by an adequately extended MD simulation of 133 ns. Hence, the proposed molecule could be a likely lead for designing inhibitor(s) against human BuChE. Scope remains for validatory wet laboratory investigation.
+35024017	41	46	human	Species	9606
+35024017	53	74	butyrylcholinesterase	Gene	590
+35024017	76	95	Alzheimer's disease	Disease	MESH:D000544
+35024017	173	194	Butyrylcholinesterase	Gene	590
+35024017	196	201	BuChE	Gene	590
+35024017	251	262	Alzheimer's	Disease	MESH:D000544
+35024017	315	320	BuChE	Gene	590
+35024017	532	537	BuChE	Gene	590
+35024017	620	639	Alzheimer's disease	Disease	MESH:D000544
+35024017	738	743	human	Species	9606
+35024017	819	829	Toxicities	Disease	MESH:D064420
+35024017	1011	1016	human	Species	9606
+35024017	1017	1022	BuChE	Gene	590
+35024017	1493	1498	human	Species	9606
+35024017	1525	1530	human	Species	9606
+35024017	1531	1536	BuChE	Gene	590
+35024017	1816	1821	BuChE	Gene	590
+35024017	2375	2380	human	Species	9606
+35024017	Association	MESH:D000544	590
+

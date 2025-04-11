@@ -1,0 +1,20 @@
+39040206|t|Autoencoder to Identify Sex-Specific Sub-phenotypes in Alzheimer's Disease Progression Using Longitudinal Electronic Health Records.
+39040206|a|Alzheimer's Disease (AD) is a complex neurodegenerative disorder significantly influenced by sex differences, with approximately two-thirds of AD patients being women. Characterizing the sex-specific AD progression and identifying its progression trajectory is a crucial step to developing effective risk stratification and prevention strategies. In this study, we developed an autoencoder to uncover sex-specific sub-phenotypes in AD progression leveraging longitudinal electronic health record (EHR) data from OneFlorida+ Clinical Research Consortium. Specifically, we first constructed temporal patient representation using longitudinal EHRs from a sex-stratified AD cohort. We used a long short-term memory (LSTM)-based autoencoder to extract and generate latent representation embeddings from sequential clinical records of patients. We then applied hierarchical agglomerative clustering to the learned representations, grouping patients based on their progression sub-phenotypes. The experimental results show we successfully identified five primary sex-based AD sub-phenotypes with corresponding progression pathways with high confidence. These sex-specific sub-phenotypes not only illustrated distinct AD progression patterns but also revealed differences in clinical characteristics and comorbidities between females and males in AD development. These findings could provide valuable insights for advancing personalized AD intervention and treatment strategies.
+39040206	55	74	Alzheimer's Disease	Disease	MESH:D000544
+39040206	133	152	Alzheimer's Disease	Disease	MESH:D000544
+39040206	154	156	AD	Disease	MESH:D000544
+39040206	171	197	neurodegenerative disorder	Disease	MESH:D019636
+39040206	276	278	AD	Disease	MESH:D000544
+39040206	279	287	patients	Species	9606
+39040206	294	299	women	Species	9606
+39040206	333	335	AD	Disease	MESH:D000544
+39040206	565	567	AD	Disease	MESH:D000544
+39040206	731	738	patient	Species	9606
+39040206	800	802	AD	Disease	MESH:D000544
+39040206	962	970	patients	Species	9606
+39040206	1067	1075	patients	Species	9606
+39040206	1199	1201	AD	Disease	MESH:D000544
+39040206	1343	1345	AD	Disease	MESH:D000544
+39040206	1472	1474	AD	Disease	MESH:D000544
+39040206	1562	1564	AD	Disease	MESH:D000544
+

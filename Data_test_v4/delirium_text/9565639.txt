@@ -1,0 +1,48 @@
+9565639|t|Inhibition of caspases increases the sensitivity of L929 cells to necrosis mediated by tumor necrosis factor.
+9565639|a|Murine L929 fibrosarcoma cells treated with tumor necrosis factor (TNF) rapidly die in a necrotic way, due to excessive formation of reactive oxygen intermediates. We investigated the role of caspases in the necrotic cell death pathway. When the cytokine response modifier A (CrmA), a serpin-like caspase inhibitor of viral origin, was stably overexpressed in L929 cells, the latter became 1,000-fold more sensitive to TNF-mediated cell death. In addition, TNF sensitization was also observed when the cells were pretreated with Ac-YVAD-cmk or zDEVD-fmk, which inhibits caspase-1- and caspase-3-like proteases, respectively. zVAD-fmk and zD-fmk, two broad-spectrum inhibitors of caspases, also rendered the cells more sensitive, since the half-maximal dose for TNF-mediated necrosis decreased by a factor of 1,000. The presence of zVAD-fmk also resulted in a more rapid increase of TNF-mediated production of oxygen radicals. zVAD-fmk-dependent sensitization of TNF cytotoxicity could be completely inhibited by the oxygen radical scavenger butylated hydroxyanisole. These results indicate an involvement of caspases in protection against TNF-induced formation of oxygen radicals and necrosis.
+9565639	52	56	L929	CellLine	CVCL:AR58
+9565639	66	74	necrosis	Disease	MESH:D009336
+9565639	87	108	tumor necrosis factor	Gene	21926
+9565639	110	116	Murine	Species	10090
+9565639	117	121	L929	CellLine	CVCL:AR58
+9565639	122	134	fibrosarcoma	Disease	MESH:D005354
+9565639	154	175	tumor necrosis factor	Gene	21926
+9565639	177	180	TNF	Gene	21926
+9565639	199	207	necrotic	Disease	MESH:D009336
+9565639	243	272	reactive oxygen intermediates	Chemical	MESH:D017382
+9565639	318	326	necrotic	Disease	MESH:D009336
+9565639	470	474	L929	CellLine	CVCL:AR58
+9565639	529	532	TNF	Gene	21926
+9565639	567	570	TNF	Gene	21926
+9565639	639	650	Ac-YVAD-cmk	Chemical	MESH:C098738
+9565639	654	663	zDEVD-fmk	Chemical	MESH:C110772
+9565639	680	689	caspase-1	Gene	12362
+9565639	735	743	zVAD-fmk	Chemical	MESH:C096713
+9565639	748	754	zD-fmk	Chemical	-
+9565639	871	874	TNF	Gene	21926
+9565639	884	892	necrosis	Disease	MESH:D009336
+9565639	941	949	zVAD-fmk	Chemical	MESH:C096713
+9565639	992	995	TNF	Gene	21926
+9565639	1019	1034	oxygen radicals	Chemical	MESH:D017382
+9565639	1036	1044	zVAD-fmk	Chemical	MESH:C096713
+9565639	1072	1075	TNF	Gene	21926
+9565639	1076	1088	cytotoxicity	Disease	MESH:D064420
+9565639	1126	1140	oxygen radical	Chemical	MESH:D017382
+9565639	1151	1175	butylated hydroxyanisole	Chemical	MESH:D002083
+9565639	1249	1252	TNF	Gene	21926
+9565639	1274	1289	oxygen radicals	Chemical	MESH:D017382
+9565639	1294	1302	necrosis	Disease	MESH:D009336
+9565639	Positive_Correlation	MESH:C096713	21926
+9565639	Negative_Correlation	MESH:C098738	12362
+9565639	Positive_Correlation	MESH:D017382	21926
+9565639	Negative_Correlation	MESH:D002083	MESH:D017382
+9565639	Negative_Correlation	MESH:C096713	MESH:D002083
+9565639	Association	MESH:C096713	MESH:D064420
+9565639	Positive_Correlation	MESH:D017382	MESH:D009336
+9565639	Positive_Correlation	MESH:C096713	MESH:D017382
+9565639	Negative_Correlation	MESH:D002083	MESH:D064420
+9565639	Negative_Correlation	MESH:C110772	12362
+9565639	Association	MESH:D005354	21926
+9565639	Positive_Correlation	MESH:D009336	21926
+9565639	Positive_Correlation	MESH:D064420	21926
+

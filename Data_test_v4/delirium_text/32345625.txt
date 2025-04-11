@@ -1,0 +1,58 @@
+32345625|t|CAR T-cell therapy for a relapsed/refractory acute B-cell lymphoblastic lymphoma patient in the context of Li-Fraumeni syndrome.
+32345625|a|BACKGROUND: Li-Fraumeni syndrome (LFS) is characterized as an autosomal dominant cancer predisposition disorder caused by germline TP53 gene mutations. Both primary and therapy-related hematopoietic malignancies with LFS are associated with dismal outcomes with standard therapies and even allogenic stem cell transplantation (SCT). CASE PRESENTATION: We reported a relapsed/refractory acute B-cell lymphoblastic lymphoma (B-LBL) patient in the context of LFS. He was identified to harbor a TP53 c.818G>A (p.R273H) germline mutation, and his family history was significant for rectal carcinoma in his father, an unknown cancer in his sister and acute lymphoblastic leukemia in his brother and one of his sons. The patient received murine monoclonal anti-CD19 and anti-CD22 chimeric antigen receptor (CAR) T-cell "cocktail" therapy and achieved complete remission with negative minimal residual disease (MRD), as assessed by morphology and multiparameter flow cytometry. Fifteen months after murine monoclonal CAR T-cell "cocktail" therapy, the patient's B-LBL recurred. Fortunately, a round of fully human monoclonal anti-CD22 CAR T-cell therapy was still effective in this patient, and he achieved CR again and continued to be followed. Each time after infusion, the CAR T-cells underwent extremely rapid exponential expansion, which may be due to the disruption of TP53, a gene that can functionally control cell cycle arrest. Grade 4 and grade 1 cytokine release syndrome occurred after the first and second rounds of CAR T-cell therapy, respectively. CONCLUSIONS: This case provides the first report of the use of CAR T-cell therapy in a hematologic malignancy patient with LFS. As traditional chemotherapy and allogenic SCT are not effective therapy strategies for patients with hematologic malignancies and LFS, CAR T-cell therapy may be an alternate choice.ChiCTR-OPN-16008526 and ChiCTR1900023922.
+32345625	51	80	B-cell lymphoblastic lymphoma	Disease	MESH:D016393
+32345625	81	88	patient	Species	9606
+32345625	107	127	Li-Fraumeni syndrome	Disease	MESH:D016864
+32345625	141	161	Li-Fraumeni syndrome	Disease	MESH:D016864
+32345625	163	166	LFS	Disease	MESH:D016864
+32345625	191	240	autosomal dominant cancer predisposition disorder	Disease	MESH:D009369
+32345625	260	264	TP53	Gene	7157
+32345625	314	340	hematopoietic malignancies	Disease	MESH:D019337
+32345625	346	349	LFS	Disease	MESH:D016864
+32345625	521	550	B-cell lymphoblastic lymphoma	Disease	MESH:D016393
+32345625	552	557	B-LBL	Disease	MESH:D016393
+32345625	559	566	patient	Species	9606
+32345625	585	588	LFS	Disease	MESH:D016864
+32345625	620	624	TP53	Gene	7157
+32345625	625	633	c.818G>A	DNAMutation	tmVar:c|SUB|G|818|A;HGVS:c.818G>A;VariantGroup:0;CorrespondingGene:7157;RS#:28934576;CorrespondingSpecies:9606;CA#:434
+32345625	635	642	p.R273H	ProteinMutation	tmVar:p|SUB|R|273|H;HGVS:p.R273H;VariantGroup:0;CorrespondingGene:7157;RS#:28934576;CorrespondingSpecies:9606;CA#:434
+32345625	706	722	rectal carcinoma	Disease	MESH:D012004
+32345625	749	755	cancer	Disease	MESH:D009369
+32345625	774	802	acute lymphoblastic leukemia	Disease	MESH:D054198
+32345625	843	850	patient	Species	9606
+32345625	860	866	murine	Species	10090
+32345625	883	887	CD19	Gene	930
+32345625	897	901	CD22	Gene	933
+32345625	1120	1126	murine	Species	10090
+32345625	1173	1180	patient	Species	9606
+32345625	1183	1188	B-LBL	Disease	MESH:D016393
+32345625	1229	1234	human	Species	9606
+32345625	1251	1255	CD22	Gene	933
+32345625	1303	1310	patient	Species	9606
+32345625	1496	1500	TP53	Gene	7157
+32345625	1578	1603	cytokine release syndrome	Disease	MESH:D000080424
+32345625	1771	1793	hematologic malignancy	Disease	MESH:D019337
+32345625	1794	1801	patient	Species	9606
+32345625	1807	1810	LFS	Disease	MESH:D016864
+32345625	1899	1907	patients	Species	9606
+32345625	1913	1937	hematologic malignancies	Disease	MESH:D019337
+32345625	1942	1945	LFS	Disease	MESH:D016864
+32345625	Association	MESH:D012004	RS#:28934576;HGVS:c.818G>A;CorrespondingGene:7157
+32345625	Positive_Correlation	MESH:D016864	RS#:28934576;HGVS:c.818G>A;CorrespondingGene:7157
+32345625	Positive_Correlation	MESH:D000080424	RS#:28934576;HGVS:c.818G>A;CorrespondingGene:7157
+32345625	Association	MESH:D054198	7157
+32345625	Association	MESH:D016393	RS#:28934576;HGVS:c.818G>A;CorrespondingGene:7157
+32345625	Positive_Correlation	MESH:D016393	RS#:28934576;HGVS:p.R273H;CorrespondingGene:7157
+32345625	Association	MESH:D012004	7157
+32345625	Association	MESH:D016393	7157
+32345625	Association	RS#:28934576;HGVS:c.818G>A;CorrespondingGene:7157	MESH:D012004
+32345625	Association	MESH:D012004	RS#:28934576;HGVS:p.R273H;CorrespondingGene:7157
+32345625	Association	RS#:28934576;HGVS:c.818G>A;CorrespondingGene:7157	MESH:D016393
+32345625	Association	MESH:D016864	7157
+32345625	Positive_Correlation	MESH:D016864	RS#:28934576;HGVS:p.R273H;CorrespondingGene:7157
+32345625	Positive_Correlation	RS#:28934576;HGVS:c.818G>A;CorrespondingGene:7157	MESH:D016864
+32345625	Association	MESH:D012004	7157
+32345625	Association	MESH:D016864	7157
+32345625	Association	MESH:D000080424	7157
+32345625	Association	MESH:D016393	7157
+

@@ -1,0 +1,50 @@
+29631548|t|A novel mutation in the BCHE gene and phenotype identified in a child with low butyrylcholinesterase activity: a case report.
+29631548|a|BACKGROUND: Butyrylcholinesterase (BChE), an ester hydrolase produced mainly by the liver, hydrolyzes certain short-acting neuromuscular blocking agents, like succinylcholine and mivacurium that are widely used during anesthesia. Patients with BChE deficiency are possibly in danger of postanesthetic apnea. Hereditary BChE deficiency results from the mutations of BCHE gene located on chromosome 3, 3q26.1-q26.2, between nucleotides 165,490,692-165,555,260. CASE PRESENTATION: This study describes a novel mutation in a child with BChE deficiency. In general, this child appeared healthy and well-developed with a normal appearance. However, the results of Wechsler Intelligence Scale showed that the full-scale intelligence quotient (FIQ) was 53, classified into the group with the minor defect. The BChE activity was 32.0 U/L, considerably lower than the normal lower limit (reference range: 5000-12,000 U/L). Sanger sequencing showed that there were 2 mutations in the exon 2 of BCHE gene of this child. One is a heterozygous mutation rs764588882 (NM_000055.3: c.401_402insA, p.Asn134Lysfs*23). The other one is a heterozygous mutation (NM_000055.3: c.73A > T, p.Lys25Ter) that has never been reported before. The two mutations lead to a premature stop of transcription. CONCLUSIONS: Double heterozygous recessive mutations are the cause of BChE deficiency of this boy in this study, including a novel mutation c.73A > T. Intellectual disability is a new phenotype that is probably associated with this mutation.
+29631548	24	28	BCHE	Gene	590
+29631548	79	100	butyrylcholinesterase	Gene	590
+29631548	138	159	Butyrylcholinesterase	Gene	590
+29631548	161	165	BChE	Gene	590
+29631548	285	300	succinylcholine	Chemical	MESH:D013390
+29631548	305	315	mivacurium	Chemical	MESH:D000077590
+29631548	356	364	Patients	Species	9606
+29631548	370	385	BChE deficiency	Disease	MESH:C537417
+29631548	427	432	apnea	Disease	MESH:D001049
+29631548	445	460	BChE deficiency	Disease	MESH:C537417
+29631548	491	495	BCHE	Gene	590
+29631548	512	524	chromosome 3	Chromosome	3
+29631548	526	532	3q26.1	Chromosome	3
+29631548	658	673	BChE deficiency	Disease	MESH:C537417
+29631548	928	932	BChE	Gene	590
+29631548	1109	1113	BCHE	Gene	590
+29631548	1165	1176	rs764588882	SNP	tmVar:rs764588882;VariantGroup:0;CorrespondingGene:590;RS#:764588882;CorrespondingSpecies:9606
+29631548	1178	1189	NM_000055.3	RefSeq	NM_000055.3
+29631548	1191	1204	c.401_402insA	DNAMutation	tmVar:c|INS|401_402|A;HGVS:c.401_402insA;VariantGroup:0;CorrespondingGene:590;RS#:764588882;CorrespondingSpecies:9606
+29631548	1206	1222	p.Asn134Lysfs*23	ProteinMutation	tmVar:p|FS|N|134|K|23;HGVS:p.N134KfsX23;VariantGroup:0;CorrespondingGene:590;RS#:764588882;CorrespondingSpecies:9606;CA#:2692519
+29631548	1267	1278	NM_000055.3	Species	
+29631548	1280	1289	c.73A > T	DNAMutation	tmVar:c|SUB|A|73|T;HGVS:c.73A>T;VariantGroup:1;CorrespondingGene:590;CorrespondingSpecies:9606
+29631548	1291	1301	p.Lys25Ter	ProteinMutation	tmVar:p|SUB|K|25|X;HGVS:p.K25X;VariantGroup:1;CorrespondingGene:590;CorrespondingSpecies:9606
+29631548	1471	1486	BChE deficiency	Disease	MESH:C537417
+29631548	1541	1550	c.73A > T	DNAMutation	tmVar:c|SUB|A|73|T;HGVS:c.73A>T;VariantGroup:1;CorrespondingGene:590;CorrespondingSpecies:9606
+29631548	1552	1575	Intellectual disability	Disease	MESH:D008607
+29631548	Positive_Correlation	MESH:D008607	HGVS:p.K25X;CorrespondingGene:590
+29631548	Association	MESH:D000077590	590
+29631548	Positive_Correlation	MESH:D008607	RS#:764588882;HGVS:p.N134KfsX23;CorrespondingGene:590
+29631548	Association	MESH:D008607	590
+29631548	Positive_Correlation	MESH:C537417	RS#:764588882;CorrespondingGene:590
+29631548	Positive_Correlation	MESH:C537417	RS#:764588882;HGVS:p.N134KfsX23;CorrespondingGene:590
+29631548	Positive_Correlation	HGVS:c.73A>T;CorrespondingGene:590	MESH:D008607
+29631548	Positive_Correlation	RS#:764588882;CorrespondingGene:590	MESH:D008607
+29631548	Positive_Correlation	RS#:764588882;HGVS:c.401_402insA;CorrespondingGene:590	MESH:C537417
+29631548	Positive_Correlation	RS#:764588882;CorrespondingGene:590	MESH:C537417
+29631548	Positive_Correlation	MESH:C537417	HGVS:p.K25X;CorrespondingGene:590
+29631548	Positive_Correlation	MESH:C537417	RS#:764588882;CorrespondingGene:590
+29631548	Positive_Correlation	RS#:764588882;HGVS:c.401_402insA;CorrespondingGene:590	MESH:D008607
+29631548	Association	MESH:D013390	590
+29631548	Positive_Correlation	HGVS:c.73A>T;CorrespondingGene:590	MESH:C537417
+29631548	Negative_Correlation	MESH:C537417	590
+29631548	Positive_Correlation	MESH:D008607	RS#:764588882;CorrespondingGene:590
+29631548	Positive_Correlation	MESH:D008607	RS#:764588882;CorrespondingGene:590
+29631548	Association	MESH:D001049	590
+29631548	Association	MESH:D008607	590
+29631548	Association	MESH:C537417	590
+

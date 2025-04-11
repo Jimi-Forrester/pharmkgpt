@@ -1,0 +1,16 @@
+38388524|t|ReTimeML: a retention time predictor that supports the LC-MS/MS analysis of sphingolipids.
+38388524|a|The analysis of ceramide (Cer) and sphingomyelin (SM) lipid species using liquid chromatography-tandem mass spectrometry (LC-MS/MS) continues to present challenges as their precursor mass and fragmentation can correspond to multiple molecular arrangements. To address this constraint, we developed ReTimeML, a freeware that automates the expected retention times (RTs) for Cer and SM lipid profiles from complex chromatograms. ReTimeML works on the principle that LC-MS/MS experiments have pre-determined RTs from internal standards, calibrators or quality controls used throughout the analysis. Employed as reference RTs, ReTimeML subsequently extrapolates the RTs of unknowns using its machine-learned regression library of mass-to-charge (m/z) versus RT profiles, which does not require model retraining for adaptability on different LC-MS/MS pipelines. We validated ReTimeML RT estimations for various Cer and SM structures across different biologicals, tissues and LC-MS/MS setups, exhibiting a mean variance between 0.23 and 2.43% compared to user annotations. ReTimeML also aided the disambiguation of SM identities from isobar distributions in paired serum-cerebrospinal fluid from healthy volunteers, allowing us to identify a series of non-canonical SMs associated between the two biofluids comprised of a polyunsaturated structure that confers increased stability against catabolic clearance.
+38388524	76	89	sphingolipids	Chemical	MESH:D013107
+38388524	107	115	ceramide	Chemical	MESH:D002518
+38388524	117	120	Cer	Chemical	MESH:D002518
+38388524	126	139	sphingomyelin	Chemical	MESH:D013109
+38388524	141	143	SM	Chemical	MESH:D013109
+38388524	145	150	lipid	Chemical	MESH:D008055
+38388524	464	467	Cer	Chemical	MESH:D002518
+38388524	472	474	SM	Chemical	MESH:D013109
+38388524	475	480	lipid	Chemical	MESH:D008055
+38388524	997	1000	Cer	Chemical	MESH:D002518
+38388524	1005	1007	SM	Chemical	MESH:D013109
+38388524	1200	1202	SM	Chemical	MESH:D013109
+38388524	1351	1354	SMs	Chemical	MESH:D012493
+

@@ -1,0 +1,18 @@
+26025289|t|Multi-resolution statistical analysis of brain connectivity graphs in preclinical Alzheimer's disease.
+26025289|a|There is significant interest, both from basic and applied research perspectives, in understanding how structural/functional connectivity changes can explain behavioral symptoms and predict decline in neurodegenerative diseases such as Alzheimer's disease (AD). The first step in most such analyses is to encode the connectivity information as a graph; then, one may perform statistical inference on various 'global' graph theoretic summary measures (e.g., modularity, graph diameter) and/or at the level of individual edges (or connections). For AD in particular, clear differences in connectivity at the dementia stage of the disease (relative to healthy controls) have been identified. Despite such findings, AD-related connectivity changes in preclinical disease remain poorly characterized. Such preclinical datasets are typically smaller and group differences are weaker. In this paper, we propose a new multi-resolution method for performing statistical analysis of connectivity networks/graphs derived from neuroimaging data. At the high level, the method occupies the middle ground between the two contrasts - that is, to analyze global graph summary measures (global) or connectivity strengths or correlations for individual edges similar to voxel based analysis (local). Instead, our strategy derives a Wavelet representation at each primitive (connection edge) which captures the graph context at multiple resolutions. We provide extensive empirical evidence of how this framework offers improved statistical power by analyzing two distinct AD datasets. Here, connectivity is derived from diffusion tensor magnetic resonance images by running a tractography routine. We first present results showing significant connectivity differences between AD patients and controls that were not evident using standard approaches. Later, we show results on populations that are not diagnosed with AD but have a positive family history risk of AD where our algorithm helps in identifying potentially subtle differences between patient groups. We also give an easy to deploy open source implementation of the algorithm for use within studies of connectivity in AD and other neurodegenerative disorders. 
+26025289	82	101	Alzheimer's disease	Disease	MESH:D000544
+26025289	304	330	neurodegenerative diseases	Disease	MESH:D019636
+26025289	339	358	Alzheimer's disease	Disease	MESH:D000544
+26025289	360	362	AD	Disease	MESH:D000544
+26025289	650	652	AD	Disease	MESH:D000544
+26025289	709	717	dementia	Disease	MESH:D003704
+26025289	815	817	AD	Disease	MESH:D000544
+26025289	1656	1658	AD	Disease	MESH:D000544
+26025289	1860	1862	AD	Disease	MESH:D000544
+26025289	1863	1871	patients	Species	9606
+26025289	2000	2002	AD	Disease	MESH:D000544
+26025289	2046	2048	AD	Disease	MESH:D000544
+26025289	2129	2136	patient	Species	9606
+26025289	2262	2264	AD	Disease	MESH:D000544
+26025289	2275	2302	neurodegenerative disorders	Disease	MESH:D019636
+

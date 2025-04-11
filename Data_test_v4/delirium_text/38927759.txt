@@ -1,0 +1,19 @@
+38927759|t|Trial Analysis of Brain Activity Information for the Presymptomatic Disease Detection of Rheumatoid Arthritis.
+38927759|a|This study presents a trial analysis that uses brain activity information obtained from mice to detect rheumatoid arthritis (RA) in its presymptomatic stages. Specifically, we confirmed that F759 mice, serving as a mouse model of RA that is dependent on the inflammatory cytokine IL-6, and healthy wild-type mice can be classified on the basis of brain activity information. We clarified which brain regions are useful for the presymptomatic detection of RA. We introduced a matrix completion-based approach to handle missing brain activity information to perform the aforementioned analysis. In addition, we implemented a canonical correlation-based method capable of analyzing the relationship between various types of brain activity information. This method allowed us to accurately classify F759 and wild-type mice, thereby identifying essential features, including crucial brain regions, for the presymptomatic detection of RA. Our experiment obtained brain activity information from 15 F759 and 10 wild-type mice and analyzed the acquired data. By employing four types of classifiers, our experimental results show that the thalamus and periaqueductal gray are effective for the classification task. Furthermore, we confirmed that classification performance was maximized when seven brain regions were used, excluding the electromyogram and nucleus accumbens.
+38927759	89	109	Rheumatoid Arthritis	Disease	MESH:D001172
+38927759	199	203	mice	Species	10090
+38927759	214	234	rheumatoid arthritis	Disease	MESH:D001172
+38927759	236	238	RA	Disease	MESH:D001172
+38927759	307	311	mice	Species	10090
+38927759	326	331	mouse	Species	10090
+38927759	341	343	RA	Disease	MESH:D001172
+38927759	369	381	inflammatory	Disease	MESH:D007249
+38927759	391	395	IL-6	Gene	16193
+38927759	419	423	mice	Species	10090
+38927759	566	568	RA	Disease	MESH:D001172
+38927759	925	929	mice	Species	10090
+38927759	1040	1042	RA	Disease	MESH:D001172
+38927759	1125	1129	mice	Species	10090
+38927759	Association	MESH:D001172	16193
+38927759	Association	MESH:D007249	16193
+

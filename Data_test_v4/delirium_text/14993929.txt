@@ -1,0 +1,12 @@
+14993929|t|A functional genomic study on NCI's anticancer drug screen.
+14993929|a|Pharmacogenomics requires massive computer exploration on heterogeneous databases. COMPARE, the gateway to the NCI's anticancer drug screen database, allows users to correlate drug-sensitivity profiles with a functional genomic database. However, most drugs of known molecular mechanism turn out to be uncorrelated with their molecular-target gene expression. Based on a novel statistical concept, liquid association, we develop an on-line system to identify candidate genes that intervene, confound and weaken the drug-gene correlation. The system takes queries and returns button-clickable tables of functionally associated genes for rerouting to knowledgebases such as Locus Link, OMIM and PubMed. We report results that link methotrexate resistance to DNA component biosynthesis, and taxol sensitivity to genes associated with human immunodeficiency virus infection. The drug-sensitivity database can be synergistically coanalyzed with gene expression data to study proteins of poorly understood physiological roles. When applied to the human prion, a cellular context embroidered with the gene expression network of Alzheimer disease is revealed.
+14993929	744	748	OMIM	Disease	
+14993929	789	801	methotrexate	Chemical	MESH:D008727
+14993929	848	853	taxol	Chemical	MESH:D017239
+14993929	891	929	human immunodeficiency virus infection	Disease	MESH:D015658
+14993929	1101	1106	human	Species	9606
+14993929	1107	1112	prion	Disease	MESH:D017096
+14993929	1181	1198	Alzheimer disease	Disease	MESH:D000544
+14993929	Association	MESH:D017239	MESH:D015658
+14993929	Association	MESH:D008727	MESH:D015658
+

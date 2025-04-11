@@ -1,0 +1,7 @@
+35325048|t|TWO-SIGMA-G: a new competitive gene set testing framework for scRNA-seq data accounting for inter-gene and cell-cell correlation.
+35325048|a|We propose TWO-SIGMA-G, a competitive gene set test for scRNA-seq data. TWO-SIGMA-G uses a mixed-effects regression model based on our previously published TWO-SIGMA to test for differential expression at the gene-level. This regression-based model provides flexibility and rigor at the gene-level in (1) handling complex experimental designs, (2) accounting for the correlation between biological replicates and (3) accommodating the distribution of scRNA-seq data to improve statistical inference. Moreover, TWO-SIGMA-G uses a novel approach to adjust for inter-gene-correlation (IGC) at the set-level to control the set-level false positive rate. Simulations demonstrate that TWO-SIGMA-G preserves type-I error and increases power in the presence of IGC compared with other methods. Application to two datasets identified HIV-associated interferon pathways in xenograft mice and pathways associated with Alzheimer's disease progression in humans.
+35325048	955	958	HIV	Species	11676
+35325048	1003	1007	mice	Species	10090
+35325048	1037	1056	Alzheimer's disease	Disease	MESH:D000544
+35325048	1072	1078	humans	Species	9606
+

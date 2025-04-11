@@ -1,0 +1,21 @@
+35055352|t|Random Forest Model in the Diagnosis of Dementia Patients with Normal Mini-Mental State Examination Scores.
+35055352|a|Background: Mini-Mental State Examination (MMSE) is the most widely used tool in cognitive screening. Some individuals with normal MMSE scores have extensive cognitive impairment. Systematic neuropsychological assessment should be performed in these patients. This study aimed to optimize the systematic neuropsychological test battery (NTB) by machine learning and develop new classification models for distinguishing mild cognitive impairment (MCI) and dementia among individuals with MMSE >= 26. Methods: 375 participants with MMSE >= 26 were assigned a diagnosis of cognitively unimpaired (CU) (n = 67), MCI (n = 174), or dementia (n = 134). We compared the performance of five machine learning algorithms, including logistic regression, decision tree, SVM, XGBoost, and random forest (RF), in identifying MCI and dementia. Results: RF performed best in identifying MCI and dementia. Six neuropsychological subtests with high-importance features were selected to form a simplified NTB, and the test time was cut in half. The AUC of the RF model was 0.89 for distinguishing MCI from CU, and 0.84 for distinguishing dementia from nondementia. Conclusions: This simplified cognitive assessment model can be useful for the diagnosis of MCI and dementia in patients with normal MMSE. It not only optimizes the content of cognitive evaluation, but also improves diagnosis and reduces missed diagnosis.
+35055352	40	48	Dementia	Disease	MESH:D003704
+35055352	49	57	Patients	Species	9606
+35055352	266	286	cognitive impairment	Disease	MESH:D003072
+35055352	358	366	patients	Species	9606
+35055352	532	552	cognitive impairment	Disease	MESH:D003072
+35055352	554	557	MCI	Disease	MESH:D060825
+35055352	563	571	dementia	Disease	MESH:D003704
+35055352	716	719	MCI	Disease	MESH:D060825
+35055352	734	742	dementia	Disease	MESH:D003704
+35055352	918	921	MCI	Disease	MESH:D060825
+35055352	926	934	dementia	Disease	MESH:D003704
+35055352	978	981	MCI	Disease	MESH:D060825
+35055352	986	994	dementia	Disease	MESH:D003704
+35055352	1185	1188	MCI	Disease	MESH:D060825
+35055352	1226	1234	dementia	Disease	MESH:D003704
+35055352	1344	1347	MCI	Disease	MESH:D060825
+35055352	1352	1360	dementia	Disease	MESH:D003704
+35055352	1364	1372	patients	Species	9606
+

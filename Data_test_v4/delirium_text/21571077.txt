@@ -1,0 +1,20 @@
+21571077|t|A combination of atlas-based and voxel-wise approaches to analyze metabolic changes in autoradiographic data from Alzheimer's mice.
+21571077|a|Murine models are commonly used in neuroscience research to improve our knowledge of disease processes and to test drug effects. To accurately study brain glucose metabolism in these animals, ex vivo autoradiography remains the gold standard. The analysis of 3D-reconstructed autoradiographic volumes using a voxel-wise approach allows clusters of voxels representing metabolic differences between groups to be revealed. However, the spatial localization of these clusters requires careful visual identification by a neuroanatomist, a time-consuming task that is often subject to misinterpretation. Moreover, the large number of voxels to be computed in autoradiographic rodent images leads to many false positives. Here, we proposed an original automated indexation of the results of a voxel-wise approach using an MRI-based 3D digital atlas, followed by the restriction of the statistical analysis using atlas-based segmentation, thus taking advantage of the specific and complementary strengths of these two approaches. In a preliminary study of transgenic Alzheimer's mice (APP/PS1), and control littermates (PS1), we were able to achieve prompt and direct anatomical indexation of metabolic changes detected between the two groups, revealing both hypo- and hypermetabolism in the brain of APP/PS1 mice. Furthermore, statistical results were refined using atlas-based segmentation: most interesting results were obtained for the hippocampus. We thus confirmed and extended our previous results by identifying the brain structures affected in this pathological model and demonstrating modified glucose uptake in structures like the olfactory bulb. Our combined approach thus paves the way for a complete and accurate examination of functional data from cerebral structures involved in models of neurodegenerative diseases.
+21571077	114	125	Alzheimer's	Disease	MESH:D000544
+21571077	126	130	mice	Species	10090
+21571077	132	138	Murine	Species	10090
+21571077	287	294	glucose	Chemical	MESH:D005947
+21571077	1192	1203	Alzheimer's	Disease	MESH:D000544
+21571077	1204	1208	mice	Species	10090
+21571077	1214	1217	PS1	Gene	19164
+21571077	1245	1248	PS1	Gene	19164
+21571077	1384	1409	hypo- and hypermetabolism	Disease	MESH:C565498
+21571077	1430	1433	PS1	Gene	19164
+21571077	1434	1438	mice	Species	10090
+21571077	1729	1736	glucose	Chemical	MESH:D005947
+21571077	1930	1956	neurodegenerative diseases	Disease	MESH:D019636
+21571077	Positive_Correlation	MESH:C565498	19164
+21571077	Association	MESH:D005947	MESH:D000544
+21571077	Association	MESH:D000544	19164
+21571077	Association	MESH:D005947	MESH:D019636
+

@@ -1,0 +1,42 @@
+37721682|t|Transcriptomics and biochemical evidence of trigonelline ameliorating learning and memory decline in the senescence-accelerated mouse prone 8 (SAMP8) model by suppressing proinflammatory cytokines and elevating neurotransmitter release.
+37721682|a|In recent years, exploring natural compounds with functional properties to ameliorate aging-associated cognitive decline has become a research priority to ensure healthy aging. In the present study, we investigated the effects of Trigonelline (TG), a plant alkaloid, on memory and spatial learning in 16-week-old senescence-accelerated mouse model SAMP8 using an integrated approach for cognitive and molecular biology aspects. After 30 days of oral administration of TG at the dose of 5 mg/kg/day, the mice were trained in Morris Water Maze task. TG-treated SAMP8 mice exhibited significant improvement in the parameters of escape latency, distance moved, and annulus crossing index. Next, we performed a whole-genome transcriptome profiling of the mouse hippocampus using microarrays. Gene ontology analyses showed that a wide range of biological processes, including nervous system development, mitochondrial function, ATP synthesis, and several signaling pathways related to inflammation, autophagy, and neurotransmitter release, were significantly enriched in TG-treated SAMP8 compared to nontreated. Further, a nonlinear dimensionality reduction technique, Uniform Manifold Approximation and Projection (UMAP), was applied to identify clusters of functions that revealed TG primarily regulated pathways related to inflammation, followed by those involved in neurotransmitter release. In addition, a protein-protein interaction network analysis indicated that TG may exert its biological effects through negatively modulating Traf6-mediated NF-kappaB activation. Finally, ELISA test showed that TG treatment significantly decreased proinflammatory cytokines- TNFalpha and IL6 and increased neurotransmitters- dopamine, noradrenaline, and serotonin in mouse hippocampus. Altogether, our integrated bio-cognitive approach highlights the potential of TG in alleviating age-related memory and spatial impairment.
+37721682	44	56	trigonelline	Chemical	MESH:C009560
+37721682	70	97	learning and memory decline	Disease	MESH:D007859
+37721682	143	148	SAMP8	CellLine	CVCL:K252
+37721682	340	357	cognitive decline	Disease	MESH:D003072
+37721682	467	479	Trigonelline	Chemical	MESH:C009560
+37721682	481	483	TG	Chemical	MESH:C009560
+37721682	585	590	SAMP8	CellLine	CVCL:K252
+37721682	705	707	TG	Chemical	MESH:C009560
+37721682	785	787	TG	Chemical	MESH:C009560
+37721682	796	801	SAMP8	CellLine	CVCL:K252
+37721682	1159	1162	ATP	Chemical	MESH:D000255
+37721682	1216	1228	inflammation	Disease	MESH:D007249
+37721682	1302	1304	TG	Chemical	MESH:C009560
+37721682	1313	1318	SAMP8	CellLine	CVCL:K252
+37721682	1514	1516	TG	Chemical	MESH:C009560
+37721682	1557	1569	inflammation	Disease	MESH:D007249
+37721682	1702	1704	TG	Chemical	MESH:C009560
+37721682	1768	1773	Traf6	Gene	22034
+37721682	1783	1792	NF-kappaB	Gene	18033
+37721682	1837	1839	TG	Chemical	MESH:C009560
+37721682	1901	1909	TNFalpha	Gene	21926
+37721682	1914	1917	IL6	Gene	16193
+37721682	1951	1959	dopamine	Chemical	MESH:D004298
+37721682	1961	1974	noradrenaline	Chemical	MESH:D009638
+37721682	1980	1989	serotonin	Chemical	MESH:D012701
+37721682	2090	2092	TG	Chemical	MESH:C009560
+37721682	2108	2149	age-related memory and spatial impairment	Disease	MESH:D008569
+37721682	Positive_Correlation	MESH:C009560	MESH:D012701
+37721682	Association	MESH:C009560	MESH:D000255
+37721682	Negative_Correlation	MESH:C009560	16193
+37721682	Negative_Correlation	MESH:C009560	22034
+37721682	Positive_Correlation	MESH:C009560	MESH:D009638
+37721682	Negative_Correlation	MESH:C009560	MESH:D008569
+37721682	Negative_Correlation	MESH:C009560	18033
+37721682	Positive_Correlation	MESH:C009560	MESH:D007249
+37721682	Positive_Correlation	MESH:C009560	MESH:D004298
+37721682	Negative_Correlation	MESH:C009560	21926
+37721682	Negative_Correlation	MESH:C009560	MESH:D007859
+37721682	Association	18033	22034
+

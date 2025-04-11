@@ -1,0 +1,32 @@
+36437997|t|Bioinformatics analysis of gene expression profile and functional analysis in periodontitis and Parkinson's disease.
+36437997|a|Periodontitis is a chronic inflammatory disease inextricably linked to both the innate and acquired immune systems of the body. Parkinson's disease (PD) is a neurodegenerative disease caused by immune system dysfunction. Although recent studies suggest that a clinical relationship exists between PD and periodontitis, the pathogenesis of this relationship is unclear. Therefore, in the present study, we obtained datasets of periodontitis and PD from the Gene Expression Omnibus (GEO) database and extracted 785 differentially expressed genes (DEGs), including 15 common upregulated genes and four common downregulated genes. We performed enrichment analyses of these DEGs using Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes analyses. We found that the genes were mainly enriched in keratinocyte differentiation, neuronal cell bodies, and structural constituents of epidermis terms, and pathways such as immune response and synaptic pathways. In addition, we screened matching hub genes by constructing a protein-protein interaction (PPI) network map and a Molecular Complex Detection (MCODE) map using the Cytoscape software. The hub genes were then subjected to GO enrichment analysis, which revealed that the dopamine biosynthetic process, dopaminergic synapse and dopamine-binding terms, and dopaminergic synapse and serotonergic synapse pathways were primarily where they were expressed. Finally, we selected four of these genes for validation in the periodontitis and PD datasets, and we confirmed that these hub genes were highly sensitive and specific for diagnosing and monitoring PD and periodontitis. In conclusion, the above experimental results indicate that periodontitis is a high-risk factor for PD, and the association between these two conditions is mainly manifested in immune and dopamine-related pathways. Hub genes, such as the CDSN, TH, DDC, and SLC6A3 genes, may serve as potential biomarkers for diagnosing or detecting PD.
+36437997	78	91	periodontitis	Disease	MESH:D010518
+36437997	96	115	Parkinson's disease	Disease	MESH:D010300
+36437997	117	130	Periodontitis	Disease	MESH:D010518
+36437997	144	156	inflammatory	Disease	MESH:D007249
+36437997	245	264	Parkinson's disease	Disease	MESH:D010300
+36437997	266	268	PD	Disease	MESH:D010300
+36437997	275	300	neurodegenerative disease	Disease	MESH:D019636
+36437997	311	336	immune system dysfunction	Disease	MESH:D007154
+36437997	414	416	PD	Disease	MESH:D010300
+36437997	421	434	periodontitis	Disease	MESH:D010518
+36437997	543	556	periodontitis	Disease	MESH:D010518
+36437997	561	563	PD	Disease	MESH:D010300
+36437997	1347	1355	dopamine	Chemical	MESH:D004298
+36437997	1403	1411	dopamine	Chemical	MESH:D004298
+36437997	1591	1604	periodontitis	Disease	MESH:D010518
+36437997	1609	1611	PD	Disease	MESH:D010300
+36437997	1725	1727	PD	Disease	MESH:D010300
+36437997	1732	1745	periodontitis	Disease	MESH:D010518
+36437997	1807	1820	periodontitis	Disease	MESH:D010518
+36437997	1847	1849	PD	Disease	MESH:D010300
+36437997	1935	1943	dopamine	Chemical	MESH:D004298
+36437997	1985	1989	CDSN	Gene	1041
+36437997	1995	1998	DDC	Gene	1644
+36437997	2004	2010	SLC6A3	Gene	6531
+36437997	2080	2082	PD	Disease	MESH:D010300
+36437997	Association	MESH:D010300	1041
+36437997	Association	MESH:D010300	1644
+36437997	Association	MESH:D010300	6531
+36437997	Association	MESH:D004298	MESH:D010518
+

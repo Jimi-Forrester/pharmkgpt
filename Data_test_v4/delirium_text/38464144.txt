@@ -1,0 +1,12 @@
+38464144|t|Assessing methylation detection for primary human tissue using Nanopore sequencing.
+38464144|a|DNA methylation most commonly occurs as 5-methylcytosine (5-mC) in the human genome and has been associated with human diseases. Recent developments in single-molecule sequencing technologies (Oxford Nanopore Technologies (ONT) and Pacific Biosciences) have enabled readouts of long, native DNA molecules, including cytosine methylation. ONT recently upgraded their Nanopore sequencing chemistry and kits from R9 to the R10 version, which yielded increased accuracy and sequencing throughput. However the effects on methylation detection have not yet been documented. Here we performed a series of computational analyses to characterize differences in Nanopore-based 5mC detection between the ONT R9 and R10 chemistries. We compared 5mC calls in R9 and R10 for three human genome datasets: a cell line, a frontal cortex brain sample, and a blood sample. We performed an in-depth analysis on CpG islands and homopolymer regions, and documented high concordance for methylation detection among sequencing technologies. The strongest correlation was observed between Nanopore R10 and Illumina bisulfite technologies for cell line-derived datasets. Subtle differences in methylation datasets between technologies can impact analysis tools such as differential methylation calling software. Our findings show that comparisons can be drawn between methylation data from different Nanopore chemistries using guided hypotheses. This work will facilitate comparison among Nanopore data cohorts derived using different chemistries from large scale sequencing efforts, such as the NIH CARD Long Read Initiative.
+38464144	44	49	human	Species	9606
+38464144	124	140	5-methylcytosine	Chemical	MESH:D044503
+38464144	142	146	5-mC	Chemical	MESH:D044503
+38464144	155	160	human	Species	9606
+38464144	197	202	human	Species	9606
+38464144	400	408	cytosine	Chemical	MESH:D003596
+38464144	751	754	5mC	Chemical	-
+38464144	817	820	5mC	Chemical	-
+38464144	851	856	human	Species	9606
+

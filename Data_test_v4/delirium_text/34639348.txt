@@ -1,0 +1,26 @@
+34639348|t|Forecasting the Suitability of Online Mental Health Information for Effective Self-Care Developing Machine Learning Classifiers Using Natural Language Features.
+34639348|a|BACKGROUND: Online mental health information represents important resources for people living with mental health issues. Suitability of mental health information for effective self-care remains understudied, despite the increasing needs for more actionable mental health resources, especially among young people. OBJECTIVE: We aimed to develop Bayesian machine learning classifiers as data-based decision aids for the assessment of the actionability of credible mental health information for people with mental health issues and diseases. METHODS: We collected and classified creditable online health information on mental health issues into generic mental health (GEN) information and patient-specific (PAS) mental health information. GEN and PAS were both patient-oriented health resources developed by health authorities of mental health and public health promotion. GENs were non-classified online health information without indication of targeted readerships; PASs were developed purposefully for specific populations (young, elderly people, pregnant women, and men) as indicated by their website labels. To ensure the generalisability of our model, we chose to develop a sparse Bayesian machine learning classifier using Relevance Vector Machine (RVM). RESULTS: Using optimisation and normalisation techniques, we developed a best-performing classifier through joint optimisation of natural language features and min-max normalisation of feature frequencies. The AUC (0.957), sensitivity (0.900), and specificity (0.953) of the best model were statistically higher (p < 0.05) than other models using parallel optimisation of structural and semantic features with or without feature normalisation. We subsequently evaluated the diagnostic utility of our model in the clinic by comparing its positive (LR+) and negative likelihood ratios (LR-) and 95% confidence intervals (95% C.I.) as we adjusted the probability thresholds with the range of 0.1 and 0.9. We found that the best pair of LR+ (18.031, 95% C.I.: 10.992, 29.577) and LR- (0.100, 95% C.I.: 0.068, 0.148) was found when the probability threshold was set to 0.45 associated with a sensitivity of 0.905 (95%: 0.867, 0.942) and specificity of 0.950 (95% C.I.: 0.925, 0.975). These statistical properties of our model suggested its applicability in the clinic. CONCLUSION: Our study found that PAS had significant advantage over GEN mental health information regarding information actionability, engagement, and suitability for specific populations with distinct mental health issues. GEN is more suitable for general mental health information acquisition, whereas PAS can effectively engage patients and provide more effective and needed self-care support. The Bayesian machine learning classifier developed provided automatic tools to support decision making in the clinic to identify more actionable resources, effective to support self-care among different populations.
+34639348	38	51	Mental Health	Disease	OMIM:603663
+34639348	180	193	mental health	Disease	OMIM:603663
+34639348	241	247	people	Species	9606
+34639348	260	273	mental health	Disease	OMIM:603663
+34639348	297	310	mental health	Disease	OMIM:603663
+34639348	418	431	mental health	Disease	OMIM:603663
+34639348	466	472	people	Species	9606
+34639348	623	636	mental health	Disease	OMIM:603663
+34639348	653	659	people	Species	9606
+34639348	665	678	mental health	Disease	OMIM:603663
+34639348	777	790	mental health	Disease	OMIM:603663
+34639348	811	824	mental health	Disease	OMIM:603663
+34639348	847	854	patient	Species	9606
+34639348	870	883	mental health	Disease	OMIM:603663
+34639348	919	926	patient	Species	9606
+34639348	988	1001	mental health	Disease	OMIM:603663
+34639348	1200	1206	people	Species	9606
+34639348	1217	1222	women	Species	9606
+34639348	1228	1231	men	Species	9606
+34639348	2556	2569	mental health	Disease	OMIM:603663
+34639348	2686	2699	mental health	Disease	OMIM:603663
+34639348	2741	2754	mental health	Disease	OMIM:603663
+34639348	2815	2823	patients	Species	9606
+

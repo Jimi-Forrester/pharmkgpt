@@ -1,0 +1,13 @@
+31315558|t|A novel collaborative filtering model for LncRNA-disease association prediction based on the Naive Bayesian classifier.
+31315558|a|BACKGROUND: Since the number of known lncRNA-disease associations verified by biological experiments is quite limited, it has been a challenging task to uncover human disease-related lncRNAs in recent years. Moreover, considering the fact that biological experiments are very expensive and time-consuming, it is important to develop efficient computational models to discover potential lncRNA-disease associations. RESULTS: In this manuscript, a novel Collaborative Filtering model called CFNBC for inferring potential lncRNA-disease associations is proposed based on Naive Bayesian Classifier. In CFNBC, an original lncRNA-miRNA-disease tripartite network is constructed first by integrating known miRNA-lncRNA associations, miRNA-disease associations and lncRNA-disease associations, and then, an updated lncRNA-miRNA-disease tripartite network is further constructed through applying the item-based collaborative filtering algorithm on the original tripartite network. Finally, based on the updated tripartite network, a novel approach based on the Naive Bayesian Classifier is proposed to predict potential associations between lncRNAs and diseases. The novelty of CFNBC lies in the construction of the updated lncRNA-miRNA-disease tripartite network and the introduction of the item-based collaborative filtering algorithm and Naive Bayesian Classifier, which guarantee that CFNBC can be applied to predict potential lncRNA-disease associations efficiently without entirely relying on known miRNA-disease associations. Simulation results show that CFNBC can achieve a reliable AUC of 0.8576 in the Leave-One-Out Cross Validation (LOOCV), which is considerably better than previous state-of-the-art results. Moreover, case studies of glioma, colorectal cancer and gastric cancer demonstrate the excellent prediction performance of CFNBC as well. CONCLUSIONS: According to simulation results, due to the satisfactory prediction performance, CFNBC may be an excellent addition to biomedical researches in the future.
+31315558	281	286	human	Species	9606
+31315558	609	614	CFNBC	Disease	
+31315558	718	723	CFNBC	Disease	
+31315558	1289	1294	CFNBC	Disease	
+31315558	1500	1505	CFNBC	Disease	
+31315558	1673	1678	CFNBC	Disease	
+31315558	1858	1864	glioma	Disease	MESH:D005910
+31315558	1866	1883	colorectal cancer	Disease	MESH:D015179
+31315558	1888	1902	gastric cancer	Disease	MESH:D013274
+31315558	1955	1960	CFNBC	Disease	
+

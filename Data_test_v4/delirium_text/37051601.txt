@@ -1,0 +1,23 @@
+37051601|t|Transcriptional landscape of myasthenia gravis revealed by weighted gene coexpression network analysis.
+37051601|a|Background: As one of the most common autoimmune diseases, myasthenia gravis (MG) severely affects the quality of life of patients. Therefore, exploring the role of dysregulated genes between MG and healthy controls in the diagnosis of MG is beneficial to reveal new and promising diagnostic biomarkers and clinical therapeutic targets. Methods: The GSE85452 dataset was downloaded from the Gene Expression Omnibus (GEO) database and differential gene expression analysis was performed on MG and healthy control samples to identify differentially expressed genes (DEGs). The functions and pathways involved in DEGs were also explored by functional enrichment analysis. Significantly associated modular genes were identified by weighted gene co-expression network analysis (WGCNA), and MG dysregulated gene co-expression modular-based diagnostic models were constructed by gene set variance analysis (GSVA) and least absolute shrinkage and selection operator (LASSO). In addition, the effect of model genes on tumor immune infiltrating cells was assessed by CIBERSORT. Finally, the upstream regulators of MG dysregulated gene co-expression module were obtained by Pivot analysis. Results: The green module with high diagnostic performance was identified by GSVA and WGCNA. The LASSO model obtained NAPB, C5orf25 and ERICH1 genes had excellent diagnostic performance for MG. Immune cell infiltration results showed a significant negative correlation between green module scores and infiltration abundance of Macrophages M2 cells. Conclusion: In this study, a diagnostic model based on the co-expression module of MG dysregulated genes was constructed, which has good diagnostic performance and contributes to the diagnosis of MG.
+37051601	29	46	myasthenia gravis	Disease	MESH:D009157
+37051601	142	161	autoimmune diseases	Disease	MESH:D001327
+37051601	163	180	myasthenia gravis	Disease	MESH:D009157
+37051601	182	184	MG	Disease	MESH:D009157
+37051601	226	234	patients	Species	9606
+37051601	296	298	MG	Disease	MESH:D009157
+37051601	340	342	MG	Disease	MESH:D009157
+37051601	593	595	MG	Disease	MESH:D009157
+37051601	889	891	MG	Disease	MESH:D009157
+37051601	1113	1118	tumor	Disease	MESH:D009369
+37051601	1208	1210	MG	Disease	MESH:D009157
+37051601	1401	1405	NAPB	Gene	63908
+37051601	1407	1414	C5orf25	Gene	375484
+37051601	1419	1425	ERICH1	Gene	157697
+37051601	1473	1475	MG	Disease	MESH:D009157
+37051601	1715	1717	MG	Disease	MESH:D009157
+37051601	1828	1830	MG	Disease	MESH:D009157
+37051601	Association	MESH:D009157	63908
+37051601	Association	MESH:D009157	157697
+37051601	Association	MESH:D009157	375484
+

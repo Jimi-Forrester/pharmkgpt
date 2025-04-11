@@ -1,0 +1,9 @@
+21519116|t|Mutual information optimization for mass spectra data alignment.
+21519116|a|"Signal" alignments play critical roles in many clinical setting. This is the case of mass spectrometry data, an important component of many types of proteomic analysis. A central problem occurs when one needs to integrate (mass spectrometry) data produced by different sources, e.g., different equipment and/or laboratories. In these cases some form of "data integration'" or "data fusion'" may be necessary in order to discard some source specific aspects and improve the ability to perform a classification task such as inferring the "disease classes'" of patients. The need for new high performance data alignments methods is therefore particularly important in these contexts. In this paper we propose an approach based both on an information theory perspective, generally used in a feature construction problem, and on the application of a mathematical programming task (i.e. the weighted bipartite matching problem). We present the results of a competitive analysis of our method against other approaches. The analysis was conducted on data from plasma/ethylenediaminetetraacetic acid (EDTA) of "control" and Alzheimer patients collected from three different hospitals. The results point to a significant performance advantage of our method with respect to the competing ones tested. 
+21519116	624	632	patients	Species	9606
+21519116	1125	1156	ethylenediaminetetraacetic acid	Chemical	MESH:D004492
+21519116	1158	1162	EDTA	Chemical	-
+21519116	1181	1190	Alzheimer	Disease	MESH:D000544
+21519116	1191	1199	patients	Species	9606
+21519116	Association	MESH:D004492	MESH:D000544
+

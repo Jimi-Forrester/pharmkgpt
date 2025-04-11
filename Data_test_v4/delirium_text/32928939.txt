@@ -1,0 +1,28 @@
+32928939|t|Untargeted metabolomics yields insight into ALS disease mechanisms.
+32928939|a|OBJECTIVE: To identify dysregulated metabolic pathways in amyotrophic lateral sclerosis (ALS) versus control participants through untargeted metabolomics. METHODS: Untargeted metabolomics was performed on plasma from ALS participants (n=125) around 6.8 months after diagnosis and healthy controls (n=71). Individual differential metabolites in ALS cases versus controls were assessed by Wilcoxon rank-sum tests, adjusted logistic regression and partial least squares-discriminant analysis (PLS-DA), while group lasso explored sub-pathway-level differences. Adjustment parameters included sex, age and body mass index (BMI). Metabolomics pathway enrichment analysis was performed on metabolites selected by the above methods. Finally, machine learning classification algorithms applied to group lasso-selected metabolites were evaluated for classifying case status. RESULTS: There were no group differences in sex, age and BMI. Significant metabolites selected were 303 by Wilcoxon, 300 by logistic regression, 295 by PLS-DA and 259 by group lasso, corresponding to 11, 13, 12 and 22 enriched sub-pathways, respectively. 'Benzoate metabolism', 'ceramides', 'creatine metabolism', 'fatty acid metabolism (acyl carnitine, polyunsaturated)' and 'hexosylceramides' sub-pathways were enriched by all methods, and 'sphingomyelins' by all but Wilcoxon, indicating these pathways significantly associate with ALS. Finally, machine learning prediction of ALS cases using group lasso-selected metabolites achieved the best performance by regularised logistic regression with elastic net regularisation, with an area under the curve of 0.98 and specificity of 83%. CONCLUSION: In our analysis, ALS led to significant metabolic pathway alterations, which had correlations to known ALS pathomechanisms in the basic and clinical literature, and may represent important targets for future ALS therapeutics.
+32928939	44	47	ALS	Disease	MESH:D000690
+32928939	126	155	amyotrophic lateral sclerosis	Disease	MESH:D000690
+32928939	157	160	ALS	Disease	MESH:D000690
+32928939	285	288	ALS	Disease	MESH:D000690
+32928939	412	415	ALS	Disease	MESH:D000690
+32928939	1189	1197	Benzoate	Chemical	MESH:D001565
+32928939	1212	1221	ceramides	Chemical	MESH:D002518
+32928939	1225	1233	creatine	Chemical	MESH:D003401
+32928939	1248	1258	fatty acid	Chemical	MESH:D005227
+32928939	1271	1285	acyl carnitine	Chemical	MESH:C116917
+32928939	1287	1302	polyunsaturated	Chemical	-
+32928939	1310	1326	hexosylceramides	Chemical	-
+32928939	1376	1390	sphingomyelins	Chemical	MESH:D013109
+32928939	1468	1471	ALS	Disease	MESH:D000690
+32928939	1513	1516	ALS	Disease	MESH:D000690
+32928939	1750	1753	ALS	Disease	MESH:D000690
+32928939	1836	1839	ALS	Disease	MESH:D000690
+32928939	1941	1944	ALS	Disease	MESH:D000690
+32928939	Association	MESH:C116917	MESH:D005227
+32928939	Association	MESH:D002518	MESH:D000690
+32928939	Association	MESH:D003401	MESH:D000690
+32928939	Association	MESH:C116917	MESH:D000690
+32928939	Association	MESH:D005227	MESH:D000690
+32928939	Association	MESH:D001565	MESH:D000690
+32928939	Association	MESH:D013109	MESH:D000690
+

@@ -1,0 +1,14 @@
+25177766|t|PSEA-Quant: a protein set enrichment analysis on label-free and label-based protein quantification data.
+25177766|a|The majority of large-scale proteomics quantification methods yield long lists of quantified proteins that are often difficult to interpret and poorly reproduced. Computational approaches are required to analyze such intricate quantitative proteomics data sets. We propose a statistical approach to computationally identify protein sets (e.g., Gene Ontology (GO) terms) that are significantly enriched with abundant proteins with reproducible quantification measurements across a set of replicates. To this end, we developed PSEA-Quant, a protein set enrichment analysis algorithm for label-free and label-based protein quantification data sets. It offers an alternative approach to classic GO analyses, models protein annotation biases, and allows the analysis of samples originating from a single condition, unlike analogous approaches such as GSEA and PSEA. We demonstrate that PSEA-Quant produces results complementary to GO analyses. We also show that PSEA-Quant provides valuable information about the biological processes involved in cystic fibrosis using label-free protein quantification of a cell line expressing a CFTR mutant. Finally, PSEA-Quant highlights the differences in the mechanisms taking place in the human, rat, and mouse brain frontal cortices based on tandem mass tag quantification. Our approach, which is available online, will thus improve the analysis of proteomics quantification data sets by providing meaningful biological insights. 
+25177766	0	10	PSEA-Quant	Chemical	-
+25177766	630	640	PSEA-Quant	Chemical	-
+25177766	986	996	PSEA-Quant	Chemical	-
+25177766	1062	1072	PSEA-Quant	Chemical	-
+25177766	1146	1161	cystic fibrosis	Disease	MESH:D003550
+25177766	1230	1234	CFTR	Gene	1080
+25177766	1252	1262	PSEA-Quant	Chemical	-
+25177766	1328	1333	human	Species	9606
+25177766	1335	1338	rat	Species	10116
+25177766	1344	1349	mouse	Species	10090
+25177766	Association	MESH:D003550	1080
+

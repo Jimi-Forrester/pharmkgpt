@@ -1,0 +1,16 @@
+37710206|t|Overestimated prediction using polygenic prediction derived from summary statistics.
+37710206|a|BACKGROUND: When polygenic risk score (PRS) is derived from summary statistics, independence between discovery and test sets cannot be monitored. We compared two types of PRS studies derived from raw genetic data (denoted as rPRS) and the summary statistics for IGAP (sPRS). RESULTS: Two variables with the high heritability in UK Biobank, hypertension, and height, are used to derive an exemplary scale effect of PRS. sPRS without APOE is derived from International Genomics of Alzheimer's Project (IGAP), which records DeltaAUC and DeltaR2 of 0.051 +- 0.013 and 0.063 +- 0.015 for Alzheimer's Disease Sequencing Project (ADSP) and 0.060 and 0.086 for Accelerating Medicine Partnership - Alzheimer's Disease (AMP-AD). On UK Biobank, rPRS performances for hypertension assuming a similar size of discovery and test sets are 0.0036 +- 0.0027 (DeltaAUC) and 0.0032 +- 0.0028 (DeltaR2). For height, DeltaR2 is 0.029 +- 0.0037. CONCLUSION: Considering the high heritability of hypertension and height of UK Biobank and sample size of UK Biobank, sPRS results from AD databases are inflated. Independence between discovery and test sets is a well-known basic requirement for PRS studies. However, a lot of PRS studies cannot follow such requirements because of impossible direct comparisons when using summary statistics. Thus, for sPRS, potential duplications should be carefully considered within the same ethnic group.
+37710206	353	357	sPRS	Disease	MESH:C562657
+37710206	425	437	hypertension	Disease	MESH:D006973
+37710206	504	508	sPRS	Disease	MESH:C562657
+37710206	517	521	APOE	Gene	348
+37710206	564	575	Alzheimer's	Disease	MESH:D000544
+37710206	668	687	Alzheimer's Disease	Disease	MESH:D000544
+37710206	774	793	Alzheimer's Disease	Disease	MESH:D000544
+37710206	798	801	-AD	Disease	MESH:D000544
+37710206	841	853	hypertension	Disease	MESH:D006973
+37710206	1058	1070	hypertension	Disease	MESH:D006973
+37710206	1127	1131	sPRS	Disease	MESH:C562657
+37710206	1145	1147	AD	Disease	MESH:D000544
+37710206	1412	1416	sPRS	Disease	MESH:C562657
+

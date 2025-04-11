@@ -1,0 +1,51 @@
+38344142|t|Detection and evaluation of signals for immune-related adverse events: a nationwide, population-based study.
+38344142|a|Background: Immune checkpoint inhibitors (ICIs) are one of the main pillars of cancer therapy. Since other studies such as clinical trial and retrospective study have limitations for detecting the immune-related adverse events (irAEs) characterized by unpredictable onset, nonspecific symptoms and wide clinical spectrum, we aimed to identify the incidence of irAEs and to detect and evaluate the signals using real-world data. Methods: Cancer patients treated with anticancer medications were analyzed using the nationwide health insurance claims database of South Korea from 2017 to 2019, and Clinical Data Warehouse (CDW) database of Asan Medical Center (AMC), a tertiary referral hospital, from 2012 to 2019. AEs of ICI users were compared with those of non-ICI anticancer medication users. PD-1 inhibitors (nivolumab and pembrolizumab) and PD-L1 inhibitors (atezolizumab) were evaluated. We defined an AE as a newly added diagnosis after the ICI prescription using an ICD-10 diagnostic code. A signal was defined as an AE that was detected by any one of the four indices of data mining: hazard ratio (HR), proportional claims ratio (PCR), claims odds ratio (COR), or information component (IC). All detected signals were reviewed and classified into well-known or potential irAEs. Signal verification was performed for targeted AEs using CDW of AMC using diagnostic codes and text mining. Results: We identified 118 significant signals related to ICI use. We detected 31 well-known irAEs, most of which were endocrine diseases and skin diseases. We also detected 33 potential irAEs related to disorders in the nervous system, eye, circulatory system, digestive system, skin and subcutaneous tissues, and bones. Especially, portal vein thrombosis and bone disorders such as osteoporosis with pathological fracture and fracture of shoulder, upper arm, femur, and lower leg showed high HR in ICI users than in non-ICI users. The signals from hospital database were verified using diagnostic codes and text mining. Conclusion: This real-world data analysis demonstrated an efficient approach for signal detection and evaluation of ICI use. An effective real-world pharmacovigilance system of the nationwide claims database and the EMR could complement each other in detecting significant AE signals.
+38344142	10	13	and	Disease	
+38344142	40	69	immune-related adverse events	Disease	MESH:D002318
+38344142	188	194	cancer	Disease	MESH:D009369
+38344142	247	250	and	Disease	
+38344142	306	335	immune-related adverse events	Disease	MESH:D002318
+38344142	337	342	irAEs	Disease	MESH:D002318
+38344142	403	406	and	Disease	
+38344142	469	474	irAEs	Disease	MESH:D002318
+38344142	475	478	and	Disease	
+38344142	489	492	and	Disease	
+38344142	546	552	Cancer	Disease	MESH:D009369
+38344142	553	561	patients	Species	9606
+38344142	700	703	and	Disease	
+38344142	904	908	PD-1	Gene	5133
+38344142	921	930	nivolumab	Chemical	MESH:D000077594
+38344142	931	934	and	Disease	
+38344142	935	948	pembrolizumab	Chemical	MESH:C582435
+38344142	950	953	and	Disease	
+38344142	954	959	PD-L1	Gene	29126
+38344142	972	984	atezolizumab	Chemical	MESH:C000594389
+38344142	1016	1018	AE	Disease	
+38344142	1133	1135	AE	Disease	
+38344142	1344	1347	and	Disease	
+38344142	1388	1393	irAEs	Disease	MESH:D002318
+38344142	1486	1489	and	Disease	
+38344142	1596	1601	irAEs	Disease	MESH:D002318
+38344142	1622	1640	endocrine diseases	Disease	MESH:D004700
+38344142	1641	1644	and	Disease	
+38344142	1645	1658	skin diseases	Disease	MESH:D012871
+38344142	1690	1695	irAEs	Disease	MESH:D002318
+38344142	1788	1791	and	Disease	
+38344142	1814	1817	and	Disease	
+38344142	1837	1859	portal vein thrombosis	Disease	MESH:D012170
+38344142	1860	1863	and	Disease	
+38344142	1864	1878	bone disorders	Disease	MESH:D001847
+38344142	1887	1899	osteoporosis	Disease	MESH:D010024
+38344142	1905	1926	pathological fracture	Disease	MESH:D005598
+38344142	1927	1930	and	Disease	
+38344142	1931	1969	fracture of shoulder, upper arm, femur	Disease	MESH:D012784
+38344142	1971	1974	and	Disease	
+38344142	2108	2111	and	Disease	
+38344142	2223	2226	and	Disease	
+38344142	2333	2336	and	Disease	
+38344142	2398	2400	AE	Disease	
+38344142	Negative_Correlation	MESH:D000077594	MESH:D009369
+38344142	Negative_Correlation	MESH:C582435	5133
+38344142	Negative_Correlation	MESH:C000594389	29126
+38344142	Negative_Correlation	MESH:D000077594	5133
+

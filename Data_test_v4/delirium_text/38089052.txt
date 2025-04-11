@@ -1,0 +1,58 @@
+38089052|t|Fangji Dihuang formulation ameliorated DNCB-induced atopic dermatitis-like skin lesions by IL-17 signaling pathway: integrating network analysis and experimental validation.
+38089052|a|Background: The Fangji Dihuang formulation (FJDHF) is a widely recognized Traditional Chinese Medicine (TCM) formula that consists of five plant drugs: Stephaniae Tetrandrae Radix, Cinnamomi Ramulus, Rehmanniae Radix, Saposhnikoviae Radix, and Glycyrrhiza Urensis Fisch. This formulation has been known to exhibit clinical therapeutic effects in the treatment of inflammatory skin diseases. However, there is a lack of pharmacological research on its anti-atopic dermatitis (AD) activity. Methods: To investigate the potential anti-AD activity of FJDHF, DNCB was used to induce AD-like skin inflammation in the back of mice. Following successful modeling, the mice were administered FJDHF orally. The extent of the inflammatory skin lesions was recorded at day 4, 7, 14 and 28. UHPLC-Q-Exactive Orbitrap MS was used to identify and match the compounds present in FJDHF with ITCM, TCMIP and TCMSID. In silico predictions of potential target proteins of the identified compounds were obtained from SwishTargetPrediction, ITCM and TargetNet databases. AD-related genes were identified from GSE32924 data set, and FJDHF anti-AD hub genes were identified by MCODE algorithm. ClueGo enrichment analysis was employed to identify the core pathway of FJDHF's anti-AD effect. To further investigate the anti-AD effect of FJDHF, single-cell RNA sequencing data set (GSE148196) from AD patients was analyzed to determine the target cells and signaling pathways of FJDHF in AD. Finally, rt-PCR, flow cytometry, and mouse back skin RNA sequencing were utilized to validate our findings. Results: FJDHF was found to be effective in improving the degree of the AD-like lesions in the mice. Network pharmacological analysis revealed the core pathway of FJDHF to be the IL-17 signaling pathway, which is interactively associated with cytokines. Single-cell RNA sequencing analysis suggested that FJDHF may play an anti-AD role by influencing dendritic cells. Flow cytometry and rt-PCR results showed that FJDHF can reduce the influence of AD sample of IL-4, IFN-gamma and the expression of IL-17. The RNA sequencing of mouse back skin also confirmed our conclusion. Conclusion: FJDHF may inhibit DNCB-induced AD-like skin inflammation in mice by inhibiting the IL-17 signaling pathway. Thus, FJDHF can be considered as a potential therapeutic agent for AD.
+38089052	0	14	Fangji Dihuang	Chemical	-
+38089052	39	43	DNCB	Chemical	MESH:D004137
+38089052	52	69	atopic dermatitis	Disease	MESH:D003876
+38089052	75	87	skin lesions	Disease	MESH:D012871
+38089052	91	96	IL-17	Gene	16171
+38089052	190	204	Fangji Dihuang	Chemical	-
+38089052	260	276	Chinese Medicine	Chemical	-
+38089052	326	353	Stephaniae Tetrandrae Radix	Chemical	-
+38089052	355	372	Cinnamomi Ramulus	Chemical	-
+38089052	392	412	Saposhnikoviae Radix	Chemical	-
+38089052	418	443	Glycyrrhiza Urensis Fisch	Chemical	-
+38089052	537	563	inflammatory skin diseases	Disease	MESH:D012871
+38089052	630	647	atopic dermatitis	Disease	MESH:D003876
+38089052	649	651	AD	Disease	MESH:D003876
+38089052	706	708	AD	Disease	MESH:D003876
+38089052	728	732	DNCB	Chemical	MESH:D004137
+38089052	752	754	AD	Disease	MESH:D003876
+38089052	760	777	skin inflammation	Disease	MESH:D007249
+38089052	793	797	mice	Species	10090
+38089052	834	838	mice	Species	10090
+38089052	889	914	inflammatory skin lesions	Disease	MESH:D012871
+38089052	1048	1052	ITCM	Chemical	-
+38089052	1054	1059	TCMIP	Chemical	-
+38089052	1064	1070	TCMSID	Chemical	-
+38089052	1193	1197	ITCM	Chemical	-
+38089052	1223	1225	AD	Disease	MESH:D003876
+38089052	1295	1297	AD	Disease	MESH:D003876
+38089052	1429	1431	AD	Disease	MESH:D003876
+38089052	1472	1474	AD	Disease	MESH:D003876
+38089052	1545	1547	AD	Disease	MESH:D003876
+38089052	1548	1556	patients	Species	9606
+38089052	1635	1637	AD	Disease	MESH:D003876
+38089052	1676	1681	mouse	Species	10090
+38089052	1819	1834	AD-like lesions	Disease	MESH:D003876
+38089052	1842	1846	mice	Species	10090
+38089052	1926	1931	IL-17	Gene	16171
+38089052	2075	2077	AD	Disease	MESH:D003876
+38089052	2195	2197	AD	Disease	MESH:D003876
+38089052	2208	2212	IL-4	Gene	16189
+38089052	2214	2223	IFN-gamma	Gene	15978
+38089052	2246	2251	IL-17	Gene	16171
+38089052	2275	2280	mouse	Species	10090
+38089052	2352	2356	DNCB	Chemical	MESH:D004137
+38089052	2365	2367	AD	Disease	MESH:D003876
+38089052	2373	2390	skin inflammation	Disease	MESH:D007249
+38089052	2394	2398	mice	Species	10090
+38089052	2417	2422	IL-17	Gene	16171
+38089052	2509	2511	AD	Disease	MESH:D003876
+38089052	Association	15978	16189
+38089052	Association	MESH:D003876	16171
+38089052	Positive_Correlation	MESH:D004137	MESH:D003876
+38089052	Positive_Correlation	MESH:D004137	MESH:D007249
+38089052	Positive_Correlation	MESH:D004137	MESH:D012871
+38089052	Association	MESH:D012871	16171
+38089052	Association	MESH:D004137	16171
+

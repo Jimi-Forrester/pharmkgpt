@@ -1,0 +1,28 @@
+36923011|t|Dexmedetomidine only regimen for long-term sedation is associated with reduced vasopressor requirements in septic shock patients: A retrospective cohort study from MIMIC-IV database.
+36923011|a|Background: Previous studies have shown that dexmedetomidine (DEX) may be associated with reduced vasopressor requirements in septic shock patients, however, long-term DEX-only sedation in reducing vasopressor requirements is still controversial. Methods: A retrospective study was conducted among patients with septic shock on mechanical ventilation using the Medical Information Mart for Intensive Care IV (MIMIC-IV) database. The primary outcome was the ratio of norepinephrine equivalent dose to mean arterial pressure (NEq/MAP) in the first 72 h after DEX or other sedatives for sedation. The secondary outcomes were key organ function parameters, 28-day mortality, and 90-day mortality. Univariate, propensity score matching (PSM), and generalized linear mixed model (GLMM) analyses were performed. Results: DEX was associated with decreased NEq/MAP in the first 72 h (difference = 0.05, 95% CI = -0.02-0.08, p = 0.002) after adjusting for confounders in the GLMM analysis. The DEX group was also associated with a lower heart rate, cardiac output (CO), lactate level, aspartate transaminase (AST) level, and higher PaO2/FiO2 ratio (p < 0.0125). Moreover, DEX only sedation was associated with reduced 90-day mortality (OR = 0.60, 95% CI = 0.37-0.94, p = 0.030). Conclusion: DEX may be associated with decreased vasopressor requirements, improved AST and PaO2/FiO2 levels, and reduced 90-day mortality in patients with septic shock, which warrants further study.
+36923011	0	15	Dexmedetomidine	Chemical	MESH:D020927
+36923011	107	119	septic shock	Disease	MESH:D012772
+36923011	120	128	patients	Species	9606
+36923011	228	243	dexmedetomidine	Chemical	MESH:D020927
+36923011	245	248	DEX	Chemical	MESH:D020927
+36923011	309	321	septic shock	Disease	MESH:D012772
+36923011	322	330	patients	Species	9606
+36923011	351	354	DEX	Chemical	MESH:D020927
+36923011	481	489	patients	Species	9606
+36923011	495	507	septic shock	Disease	MESH:D012772
+36923011	649	663	norepinephrine	Chemical	MESH:D009638
+36923011	740	743	DEX	Chemical	MESH:D020927
+36923011	997	1000	DEX	Chemical	MESH:D020927
+36923011	1167	1170	DEX	Chemical	MESH:D020927
+36923011	1243	1250	lactate	Chemical	MESH:D019344
+36923011	1258	1280	aspartate transaminase	Gene	26503
+36923011	1282	1285	AST	Gene	26503
+36923011	1345	1348	DEX	Chemical	MESH:D020927
+36923011	1464	1467	DEX	Chemical	MESH:D020927
+36923011	1536	1539	AST	Gene	26503
+36923011	1594	1602	patients	Species	9606
+36923011	1608	1620	septic shock	Disease	MESH:D012772
+36923011	Negative_Correlation	MESH:D020927	MESH:D012772
+36923011	Negative_Correlation	MESH:D019344	MESH:D020927
+36923011	Negative_Correlation	MESH:D020927	26503
+

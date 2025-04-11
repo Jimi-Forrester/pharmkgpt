@@ -1,0 +1,25 @@
+39281465|t|Prediction of future dementia among patients with mild cognitive impairment (MCI) by integrating multimodal clinical data.
+39281465|a|Efficiently and objectively analyzing the complex, diverse multimodal data collected from patients at risk for dementia can be difficult in the clinical setting, contributing to high rates of underdiagnosis or misdiagnosis of this serious disorder. Patients with mild cognitive impairment (MCI) are especially at risk of developing dementia in the future. This study evaluated the ability of multi-modal machine learning (ML) methods, especially the Ensemble Integration (EI) framework, to predict future dementia development among patients with MCI. EI is a machine learning framework designed to leverage complementarity and consensus in multimodal data, which may not be adequately captured by methods used by prior dementia-related prediction studies. We tested EI's ability to predict future dementia development among MCI patients using multimodal clinical and imaging data, such as neuroanatomical measurements from structural magnetic resonance imaging (MRI) and positron emission tomography (PET) scans, from The Alzheimer's Disease Prediction of Longitudinal Evolution (TADPOLE) challenge. For predicting future dementia development among MCI patients, on a held out test set, the EI-based model performed better (AUC = 0.81, F-measure = 0.68) than the more commonly used XGBoost (AUC = 0.68, F-measure = 0.57) and deep learning (AUC = 0.79, F-measure = 0.61) approaches. This EI-based model also suggested MRI-derived volumes of regions in the middle temporal gyrus, posterior cingulate gyrus and inferior lateral ventricle brain regions to be predictive of progression to dementia.
+39281465	21	29	dementia	Disease	MESH:D003704
+39281465	36	44	patients	Species	9606
+39281465	50	75	mild cognitive impairment	Disease	MESH:D060825
+39281465	77	80	MCI	Disease	MESH:D060825
+39281465	213	221	patients	Species	9606
+39281465	234	242	dementia	Disease	MESH:D003704
+39281465	372	380	Patients	Species	9606
+39281465	386	411	mild cognitive impairment	Disease	MESH:D060825
+39281465	413	416	MCI	Disease	MESH:D060825
+39281465	455	463	dementia	Disease	MESH:D003704
+39281465	628	636	dementia	Disease	MESH:D003704
+39281465	655	663	patients	Species	9606
+39281465	669	672	MCI	Disease	MESH:D060825
+39281465	842	850	dementia	Disease	MESH:D003704
+39281465	920	928	dementia	Disease	MESH:D003704
+39281465	947	950	MCI	Disease	MESH:D060825
+39281465	951	959	patients	Species	9606
+39281465	1145	1164	Alzheimer's Disease	Disease	MESH:D000544
+39281465	1245	1253	dementia	Disease	MESH:D003704
+39281465	1272	1275	MCI	Disease	MESH:D060825
+39281465	1276	1284	patients	Species	9606
+39281465	1707	1715	dementia	Disease	MESH:D003704
+

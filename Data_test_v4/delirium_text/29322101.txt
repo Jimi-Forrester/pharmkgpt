@@ -1,0 +1,16 @@
+29322101|t|A novel individual-level morphological brain networks constructing method and its evaluation in PET and MR images.
+29322101|a|Mapping the human brain is one of the great scientific challenges of the 21st century. Brain network analysis is an effective technique based on graph theory that is widely used to investigate network patterns in the human brain. Currently, mapping an individual brain network using a single image has been a hotspot in the field of brain science; techniques, such as the Kullback-Leibler (KL) method, have applications in structural Magnetic Resonance (MR) imaging. However, maintaining an image's intensity, shape, texture and gradient information during feature extraction is very challenging. In this study, we propose a novel method for individual-level network construction based on the high-resolution Brainnetome Atlas, which shows 246 brain regions. Principal components (PCs) were obtained for each brain region using principal component analysis (PCA) for feature extraction. Individual brain networks were followed and used to construct the PC similarity measurement based on the mutual information (MI) method. To evaluate the robustness of the proposed method, three independent experiments were carried out. In the first, 34 healthy subjects underwent two Carbon 11-labeled Pittsburgh compound B Positron emission tomography (11C-PiB PET) scans; in the second, 32 healthy subjects underwent two structural MRI scans; and in the last, 10 Alzheimer's disease (AD) subjects and 10Healthy Control (HC) subjects underwent 11C-PiB PET scans. For each subject, network metrics including clustering coefficient, path length, small-world coefficient, efficiency and node betweenness centrality were calculated. The results suggested that both the individual PET and structural MRI networks exhibited a good small-word property, and the variances within subjects was also quite small in all metrics, The average value of Coefficient of variation (CV) map was 0.33 and 0.32 for PiB PET and MR images respectively, and intra-class correlation coefficients (ICC) range from approximately 0.4 to 0.7, indicating that the new method was well adapted to the subjects. The results of intra-class correlation coefficients from the test-retest experiment were consistent with previous research employing KL divergence, but with low computational complexity. Further, differences between AD subjects and HC subjects can be observed in network metrics. The method proposed herein provides a new perspective for investigating individual brain connectivity; it would enable neuroscientists to further understand the functions of the human brain.
+29322101	127	132	human	Species	9606
+29322101	332	337	human	Species	9606
+29322101	1286	1295	Carbon 11	Chemical	MESH:C000615233
+29322101	1304	1325	Pittsburgh compound B	Chemical	MESH:C475519
+29322101	1356	1363	11C-PiB	Chemical	MESH:C475519
+29322101	1467	1486	Alzheimer's disease	Disease	MESH:D000544
+29322101	1488	1490	AD	Disease	MESH:D000544
+29322101	1547	1554	11C-PiB	Chemical	MESH:C475519
+29322101	1997	2000	PiB	Chemical	MESH:C069442
+29322101	2398	2400	AD	Disease	MESH:D000544
+29322101	2640	2645	human	Species	9606
+29322101	Association	MESH:C475519	MESH:D000544
+29322101	Association	MESH:C000615233	MESH:C475519
+

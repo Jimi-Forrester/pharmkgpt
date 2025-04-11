@@ -1,0 +1,15 @@
+35222846|t|SuPepMem: A database of innate immune system peptides and their cell membrane interactions.
+35222846|a|Host defense peptides (HDPs) are short cationic peptides that play a key role in the innate immune response of all living organisms. Their action mechanism does not depend on the presence of protein receptors, but on their ability to target and disrupt the membranes of a wide range of pathogenic and pathologic cells which are recognized by their specific compositions, typically with a relatively high concentration of anionic lipids. Lipid profile singularities have been found in cancer, inflammation, bacteria, viral infections, and even in senescent cells, enabling the possibility to use them as therapeutic targets and/or diagnostic biomarkers. Molecular dynamics (MD) simulations are extraordinarily well suited to explore how HDPs interact with membrane models, providing a large amount of qualitative and quantitative information that, nowadays, cannot be assessed by wet-lab methods at the same level of temporal and spatial resolution. Here, we present SuPepMem, an open-access repository containing MD simulations of different natural and artificial peptides with potential membrane lysis activity, interacting with membrane models of healthy mammal, bacteria, viruses, cancer or senescent cells. In addition to a description of the HDPs and the target systems, SuPepMem provides both the input files necessary to run the simulations and also the results of some selected analyses, including structural and MD-based quantitative descriptors. These descriptors are expected to be useful to train machine learning algorithms that could contribute to design new therapeutic peptides. Tools for comparative analysis between different HDPs and model membranes, as well as to restrict the queries to structural and time-averaged properties are also available. SuPepMem is a living project, that will continuously grow with more simulations including peptides of different sequences, MD simulations with different number of peptide units, more membrane models and also several resolution levels. The database is open to MD simulations from other users (after quality check by the SuPepMem team). SuPepMem is freely available under https://supepmem.com/.
+35222846	521	527	lipids	Chemical	MESH:D008055
+35222846	529	534	Lipid	Chemical	MESH:D008055
+35222846	576	582	cancer	Disease	MESH:D009369
+35222846	584	596	inflammation	Disease	MESH:D007249
+35222846	598	606	bacteria	Disease	MESH:C000719206
+35222846	608	624	viral infections	Disease	MESH:D014777
+35222846	1257	1265	bacteria	Disease	MESH:C000719206
+35222846	1276	1282	cancer	Disease	MESH:D009369
+35222846	Association	MESH:D008055	MESH:D014777
+35222846	Association	MESH:D008055	MESH:D009369
+35222846	Association	MESH:D008055	MESH:D007249
+35222846	Association	MESH:D008055	MESH:C000719206
+

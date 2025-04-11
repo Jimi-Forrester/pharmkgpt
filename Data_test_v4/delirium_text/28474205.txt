@@ -1,0 +1,25 @@
+28474205|t|Chaperone co-inducer BGP-15 inhibits histone deacetylases and enhances the heat shock response through increased chromatin accessibility.
+28474205|a|Defects in cellular protein homeostasis are associated with many severe and prevalent pathological conditions such as neurodegenerative diseases, muscle dystrophies, and metabolic disorders. One way to counteract these defects is to improve the protein homeostasis capacity through induction of the heat shock response. Despite numerous attempts to develop strategies for chemical activation of the heat shock response by heat shock transcription factor 1 (HSF1), the underlying mechanisms of drug candidates' mode of action are poorly understood. To lower the threshold for the heat shock response activation, we used the chaperone co-inducer BGP-15 that was previously shown to have beneficial effects on several proteinopathic disease models. We found that BGP-15 treatment combined with heat stress caused a substantial increase in HSF1-dependent heat shock protein 70 (HSPA1A/B) expression already at a febrile range of temperatures. Moreover, BGP-15 alone inhibited the activity of histone deacetylases (HDACs), thereby increasing chromatin accessibility at multiple genomic loci including the stress-inducible HSPA1A. Intriguingly, treatment with well-known potent HDAC inhibitors trichostatin A and valproic acid enhanced the heat shock response and improved cytoprotection. These results present a new pharmacological strategy for restoring protein homeostasis by inhibiting HDACs, increasing chromatin accessibility, and lowering the threshold for heat shock response activation.
+28474205	21	27	BGP-15	Chemical	MESH:C405586
+28474205	256	282	neurodegenerative diseases	Disease	MESH:D019636
+28474205	284	302	muscle dystrophies	Disease	MESH:D009136
+28474205	308	327	metabolic disorders	Disease	MESH:D008659
+28474205	560	593	heat shock transcription factor 1	Gene	3297
+28474205	595	599	HSF1	Gene	3297
+28474205	782	788	BGP-15	Chemical	MESH:C405586
+28474205	853	875	proteinopathic disease	Disease	MESH:D004194
+28474205	898	904	BGP-15	Chemical	MESH:C405586
+28474205	974	978	HSF1	Gene	3297
+28474205	1012	1020	HSPA1A/B	Gene	3303
+28474205	1087	1093	BGP-15	Chemical	MESH:C405586
+28474205	1255	1262	HSPA1A.	Gene	3303
+28474205	1310	1314	HDAC	Gene	9734
+28474205	1326	1340	trichostatin A	Chemical	MESH:C012589
+28474205	1345	1358	valproic acid	Chemical	MESH:D014635
+28474205	Negative_Correlation	MESH:D014635	9734
+28474205	Association	3297	3303
+28474205	Negative_Correlation	MESH:C012589	9734
+28474205	Negative_Correlation	MESH:C405586	MESH:D004194
+28474205	Positive_Correlation	MESH:C405586	3297
+28474205	Positive_Correlation	MESH:C405586	3303
+

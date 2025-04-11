@@ -1,0 +1,60 @@
+36979492|t|Ablation of GPR56 Causes beta-Cell Dysfunction by ATP Loss through Mistargeting of Mitochondrial VDAC1 to the Plasma Membrane.
+36979492|a|The activation of G Protein-Coupled Receptor 56 (GPR56), also referred to as Adhesion G-Protein-Coupled Ceceptor G1 (ADGRG1), by Collagen Type III (Coll III) prompts cell growth, proliferation, and survival, among other attributes. We investigated the signaling cascades mediating this functional effect in relation to the mitochondrial outer membrane voltage-dependent anion Channel-1 (VDAC1) expression in pancreatic beta-cells. GPR56KD attenuated the Coll III-induced suppression of P70S6K, JNK, AKT, NFkappaB, STAT3, and STAT5 phosphorylation/activity in INS-1 cells cultured at 20 mM glucose (glucotoxicity) for 72 h. GPR56-KD also increased Chrebp, Txnip, and Vdac1 while decreasing Vdac2 mRNA expression. In GPR56-KD islet beta-cells, Vdac1 was co-localized with SNAP-25, demonstrating its plasma membrane translocation. This resulted in ATP loss, reduced cAMP production and impaired glucose-stimulated insulin secretion (GSIS) in INS-1 and human EndoC betaH1 cells. The latter defects were reversed by an acute inhibition of VDAC1 with an antibody or the VDAC1 inhibitor VBIT-4. We demonstrate that Coll III potentiates GSIS by increasing cAMP and preserving beta-cell functionality under glucotoxic conditions in a GPR56-dependent manner by attenuating the inflammatory response. These results emphasize GPR56 and VDAC1 as drug targets in conditions with impaired beta-cell function.
+36979492	12	17	GPR56	Gene	260326
+36979492	25	46	beta-Cell Dysfunction	Disease	MESH:D007340
+36979492	50	53	ATP	Chemical	MESH:D000255
+36979492	97	102	VDAC1	Gene	7416
+36979492	145	174	G Protein-Coupled Receptor 56	Gene	260326
+36979492	176	181	GPR56	Gene	260326
+36979492	204	242	Adhesion G-Protein-Coupled Ceceptor G1	Gene	9289
+36979492	244	250	ADGRG1	Gene	9289
+36979492	479	512	voltage-dependent anion Channel-1	Gene	83529
+36979492	514	519	VDAC1	Gene	83529
+36979492	558	565	GPR56KD	Gene	260326
+36979492	613	619	P70S6K	Gene	83840
+36979492	621	624	JNK	Gene	116554
+36979492	626	629	AKT	Gene	24185
+36979492	641	646	STAT3	Gene	25125
+36979492	652	657	STAT5	Gene	24918
+36979492	686	691	INS-1	CellLine	CVCL:0352
+36979492	716	723	glucose	Chemical	MESH:D005947
+36979492	725	738	glucotoxicity	Disease	
+36979492	750	755	GPR56	Gene	260326
+36979492	774	780	Chrebp	Gene	171078
+36979492	782	787	Txnip	Gene	117514
+36979492	793	798	Vdac1	Gene	83529
+36979492	816	821	Vdac2	Gene	83531
+36979492	842	847	GPR56	Gene	9289
+36979492	869	874	Vdac1	Gene	7416
+36979492	897	904	SNAP-25	Gene	6616
+36979492	972	975	ATP	Chemical	MESH:D000255
+36979492	990	994	cAMP	Chemical	-
+36979492	1019	1026	glucose	Chemical	MESH:D005947
+36979492	1066	1071	INS-1	CellLine	CVCL:0352
+36979492	1076	1081	human	Species	9606
+36979492	1082	1094	EndoC betaH1	CellLine	CVCL:L909
+36979492	1161	1166	VDAC1	Gene	7416
+36979492	1191	1196	VDAC1	Gene	7416
+36979492	1275	1279	cAMP	Chemical	-
+36979492	1325	1335	glucotoxic	Disease	
+36979492	1352	1357	GPR56	Gene	260326
+36979492	1394	1406	inflammatory	Disease	MESH:D007249
+36979492	1441	1446	GPR56	Gene	260326
+36979492	1451	1456	VDAC1	Gene	7416
+36979492	Negative_Correlation	171078	260326
+36979492	Association	6616	7416
+36979492	Negative_Correlation	117514	260326
+36979492	Association	MESH:D007249	260326
+36979492	Negative_Correlation	260326	83840
+36979492	Association	24918	260326
+36979492	Negative_Correlation	MESH:D000255	MESH:D007340
+36979492	Association	116554	260326
+36979492	Association	260326	7416
+36979492	Association	25125	260326
+36979492	Association	MESH:D007340	260326
+36979492	Association	260326	83529
+36979492	Association	MESH:D000255	7416
+36979492	Association	24185	260326
+36979492	Association	MESH:D000255	260326
+36979492	Positive_Correlation	260326	83531
+

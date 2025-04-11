@@ -1,0 +1,21 @@
+38378906|t|Removing outliers from the normative database improves regional atrophy detection in single-subject voxel-based morphometry.
+38378906|a|PURPOSE: Single-subject voxel-based morphometry (VBM) compares an individual T1-weighted MRI to a sample of normal MRI in a normative database (NDB) to detect regional atrophy. Outliers in the NDB might result in reduced sensitivity of VBM. The primary aim of the current study was to propose a method for outlier removal ("NDB cleaning") and to test its impact on the performance of VBM for detection of Alzheimer's disease (AD) and frontotemporal lobar degeneration (FTLD). METHODS: T1-weighted MRI of 81 patients with biomarker-confirmed AD (n = 51) or FTLD (n = 30) and 37 healthy subjects with simultaneous FDG-PET/MRI were included as test dataset. Two different NDBs were used: a scanner-specific NDB (37 healthy controls from the test dataset) and a non-scanner-specific NDB comprising 164 normal T1-weighted MRI from 164 different MRI scanners. Three different quality metrics based on leave-one-out testing of the scans in the NDB were implemented. A scan was removed if it was an outlier with respect to one or more quality metrics. VBM maps generated with and without NDB cleaning were assessed visually for the presence of AD or FTLD. RESULTS: Specificity of visual interpretation of the VBM maps for detection of AD or FTLD was 100% in all settings. Sensitivity was increased by NDB cleaning with both NDBs. The effect was statistically significant for the multiple-scanner NDB (from 0.47 [95%-CI 0.36-0.58] to 0.61 [0.49-0.71]). CONCLUSION: NDB cleaning has the potential to improve the sensitivity of VBM for the detection of AD or FTLD without increasing the risk of false positive findings.
+38378906	64	71	atrophy	Disease	MESH:D001284
+38378906	293	300	atrophy	Disease	MESH:D001284
+38378906	530	549	Alzheimer's disease	Disease	MESH:D000544
+38378906	551	553	AD	Disease	MESH:D000544
+38378906	559	592	frontotemporal lobar degeneration	Disease	MESH:D057174
+38378906	594	598	FTLD	Disease	MESH:D057174
+38378906	632	640	patients	Species	9606
+38378906	666	668	AD	Disease	MESH:D000544
+38378906	681	685	FTLD	Disease	MESH:D057174
+38378906	737	740	FDG	Chemical	MESH:D019788
+38378906	794	798	NDBs	Chemical	-
+38378906	1261	1263	AD	Disease	MESH:D000544
+38378906	1267	1271	FTLD	Disease	MESH:D057174
+38378906	1352	1354	AD	Disease	MESH:D000544
+38378906	1358	1362	FTLD	Disease	MESH:D057174
+38378906	1441	1445	NDBs	Chemical	-
+38378906	1667	1669	AD	Disease	MESH:D000544
+38378906	1673	1677	FTLD	Disease	MESH:D057174
+

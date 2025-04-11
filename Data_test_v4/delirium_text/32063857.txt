@@ -1,0 +1,25 @@
+32063857|t|A Proteotranscriptomic-Based Computational Drug-Repositioning Method for Alzheimer's Disease.
+32063857|a|Numerous clinical trials of drug candidates for Alzheimer's disease (AD) have failed, and computational drug repositioning approaches using omics data have been proposed as effective alternative approaches to the discovery of drug candidates. However, little multi-omics data is available for AD, due to limited availability of brain tissues. Even if omics data exist, systematic drug repurposing study for AD has suffered from lack of big data, insufficient clinical information, and difficulty in data integration on account of sample heterogeneity derived from poor diagnosis or shortage of qualified post-mortem tissue. In this study, we developed a proteotranscriptomic-based computational drug repositioning method named Drug Repositioning Perturbation Score/Class (DRPS/C) based on inverse associations between disease- and drug-induced gene and protein perturbation patterns, incorporating pharmacogenomic knowledge. We constructed a Drug-induced Gene Perturbation Signature Database (DGPSD) comprised of 61,019 gene signatures perturbed by 1,520 drugs from the Connectivity Map (CMap) and the L1000 CMap. Drugs were classified into three DRPCs (High, Intermediate, and Low) according to DRPSs that were calculated using drug- and disease-induced gene perturbation signatures from DGPSD and The Cancer Genome Atlas (TCGA), respectively. The DRPS/C method was evaluated using the area under the ROC curve, with a prescribed drug list from TCGA as the gold standard. Glioblastoma had the highest AUC. To predict anti-AD drugs, DRPS were calculated using DGPSD and AD-induced gene/protein perturbation signatures generated from RNA-seq, microarray and proteomic datasets in the Synapse database, and the drugs were classified into DRPCs. We predicted 31 potential anti-AD drug candidates commonly belonged to high DRPCs of transcriptomic and proteomic signatures. Of these, four drugs classified into the nervous system group of Anatomical Therapeutic Chemical (ATC) system are voltage-gated sodium channel blockers (bupivacaine, topiramate) and monamine oxidase inhibitors (selegiline, iproniazid), and their mechanism of action was inferred from a potential anti-AD drug perspective. Our approach suggests a shortcut to discover new efficacy of drugs for AD.
+32063857	73	92	Alzheimer's Disease	Disease	MESH:D000544
+32063857	142	161	Alzheimer's disease	Disease	MESH:D000544
+32063857	163	165	AD	Disease	MESH:D000544
+32063857	387	389	AD	Disease	MESH:D000544
+32063857	501	503	AD	Disease	MESH:D000544
+32063857	1241	1246	DRPCs	Disease	
+32063857	1397	1403	Cancer	Disease	MESH:D009369
+32063857	1567	1579	Glioblastoma	Disease	MESH:D005909
+32063857	1617	1619	AD	Disease	MESH:D000544
+32063857	1664	1666	AD	Disease	MESH:D000544
+32063857	1830	1835	DRPCs	Disease	
+32063857	1868	1870	AD	Disease	MESH:D000544
+32063857	1913	1918	DRPCs	Disease	
+32063857	2116	2127	bupivacaine	Chemical	MESH:D002045
+32063857	2129	2139	topiramate	Chemical	MESH:D000077236
+32063857	2145	2161	monamine oxidase	Chemical	-
+32063857	2174	2184	selegiline	Chemical	MESH:D012642
+32063857	2186	2196	iproniazid	Chemical	MESH:D007490
+32063857	2264	2266	AD	Disease	MESH:D000544
+32063857	2356	2358	AD	Disease	MESH:D000544
+32063857	Negative_Correlation	MESH:D012642	MESH:D000544
+32063857	Negative_Correlation	MESH:D000077236	MESH:D000544
+

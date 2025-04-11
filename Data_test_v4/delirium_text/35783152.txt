@@ -1,0 +1,24 @@
+35783152|t|Identification of ABCA5 among ATP-Binding Cassette Transporter Family as a New Biomarker for Colorectal Cancer.
+35783152|a|Background: The increasing incidence and mortality of colorectal cancer (CRC) urgently requires updated biomarkers. The ABC transporter family is a widespread family of membrane-bound proteins involved in the transportation of substrates associated with ATP hydrolysis, including metabolites, amino acids, peptides and proteins, sterols and lipids, organic and inorganic ions, sugars, metals, and drugs. They play an important role in the maintenance of homeostasis in the body. Purpose: This study aims to search for new markers in the ABC transporter gene family for diagnostic and prognostic purposes through data mining of The Cancer Genome Atlas (TCGA) and GEO (Gene Expression Omnibus) datasets. Methods: A total of 980 samples, including 684 CRC patients and 296 controls from five different datasets, were included for analysis. The construction of the PPI (protein-protein interaction) network and pathway analysis were performed in STRING database and DAVID (database for annotation, visualization, and integrated discovery), respectively. In addition, GSEA (gene set enrichment analysis) and WGCNA (weighted gene co-expression network analysis) were also used for functional analysis. Results: After several rounds of screening and validation, only the ABCB5 gene was retained among the 49 genes. Conclusions: The results demonstrated that ABCA5 expression is reduced in CRC and patients with high ABCA5 expression have better OS, which can provide guidance for better management and treatment of CRC in the future.
+35783152	18	23	ABCA5	Gene	23461
+35783152	93	110	Colorectal Cancer	Disease	MESH:D015179
+35783152	166	183	colorectal cancer	Disease	MESH:D015179
+35783152	185	188	CRC	Disease	MESH:D015179
+35783152	366	369	ATP	Chemical	MESH:D000255
+35783152	441	448	sterols	Chemical	MESH:D013261
+35783152	453	459	lipids	Chemical	MESH:D008055
+35783152	489	495	sugars	Chemical	MESH:D000073893
+35783152	743	749	Cancer	Disease	MESH:D009369
+35783152	861	864	CRC	Disease	MESH:D015179
+35783152	865	873	patients	Species	9606
+35783152	1376	1381	ABCB5	Gene	340273
+35783152	1463	1468	ABCA5	Gene	23461
+35783152	1494	1497	CRC	Disease	MESH:D015179
+35783152	1502	1510	patients	Species	9606
+35783152	1521	1526	ABCA5	Gene	23461
+35783152	1620	1623	CRC	Disease	MESH:D015179
+35783152	Association	MESH:D000255	MESH:D013261
+35783152	Association	MESH:D015179	340273
+35783152	Association	MESH:D000255	MESH:D008055
+35783152	Negative_Correlation	MESH:D015179	23461
+

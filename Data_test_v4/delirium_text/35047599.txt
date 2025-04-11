@@ -1,0 +1,56 @@
+35047599|t|Development of a lipid metabolism-related gene model to predict prognosis in patients with pancreatic cancer.
+35047599|a|BACKGROUND: Pancreatic cancer is a highly heterogeneous disease, making prognosis prediction challenging. Altered energy metabolism to satisfy uncontrolled proliferation and metastasis has become one of the most important markers of tumors. However, the specific regulatory mechanism and its effect on prognosis have not been fully elucidated. AIM: To construct a prognostic polygene signature of differentially expressed genes (DEGs) related to lipid metabolism. METHODS: First, 9 tissue samples from patients with pancreatic cancer were collected and divided into a cancer group and a para-cancer group. All patient samples were subjected to metabolomics analysis based on liquid tandem chromatography quadrupole time of flight mass spectrometry. Then, mRNA expression profiles and corresponding clinical data of pancreatic cancer were downloaded from a public database. Least absolute shrinkage and selection operator Cox regression analysis was used to construct a multigene model for The Cancer Genome Atlas. RESULTS: Principal component analysis and orthogonal projections to latent structures-discriminant analysis (OPLS-DA) based on lipid metabolomics analysis showed a clear distribution in different regions. A Euclidean distance matrix was used to calculate the quantitative value of differential metabolites. The permutation test of the OPLS-DA model for tumor tissue and paracancerous tissue indicated that the established model was consistent with the actual condition based on sample data. A bar plot showed significantly higher levels of the lipid metabolites phosphatidylcholine (PC), phosphatidyl ethanolamine (PE), phosphatidylethanol(PEtOH), phosphatidylmethanol (PMeOH), phosphatidylserine (PS) and diacylglyceryl trimethylhomoserine (DGTS) in tumor tissues than in paracancerous tissues. According to bubble plots, PC, PE, PEtOH, PMeOH, PS and DGTS were significantly higher in tumor tissues than in paracancerous tissues. In total, 12.3% (25/197) of genes related to lipid metabolism were differentially expressed between tumor tissues and adjacent paracancerous tissues. Six DEGs correlated with overall survival in univariate Cox regression analysis (P < 0.05), and a 4-gene signature model was developed to divide patients into two risk groups, with patients in the high-risk group having significantly lower overall survival than those in the low-risk group (P < 0.05). ROC curve analysis confirmed the predictive power of the model. CONCLUSION: This novel model comprising 4 lipid metabolism-related genes might assist clinicians in the prognostic evaluation of patients with pancreatic cancer.
+35047599	17	22	lipid	Chemical	MESH:D008055
+35047599	77	85	patients	Species	9606
+35047599	91	108	pancreatic cancer	Disease	MESH:D010190
+35047599	122	139	Pancreatic cancer	Disease	MESH:D010190
+35047599	284	294	metastasis	Disease	MESH:D009362
+35047599	343	349	tumors	Disease	MESH:D009369
+35047599	556	561	lipid	Chemical	MESH:D008055
+35047599	612	620	patients	Species	9606
+35047599	626	643	pancreatic cancer	Disease	MESH:D010190
+35047599	678	684	cancer	Disease	MESH:D009369
+35047599	702	708	cancer	Disease	MESH:D009369
+35047599	720	727	patient	Species	9606
+35047599	925	942	pancreatic cancer	Disease	MESH:D010190
+35047599	1103	1109	Cancer	Disease	MESH:D009369
+35047599	1251	1256	lipid	Chemical	MESH:D008055
+35047599	1477	1482	tumor	Disease	MESH:D009369
+35047599	1668	1673	lipid	Chemical	MESH:D008055
+35047599	1686	1705	phosphatidylcholine	Chemical	MESH:D010713
+35047599	1707	1709	PC	Chemical	MESH:D010713
+35047599	1712	1737	phosphatidyl ethanolamine	Chemical	MESH:C483858
+35047599	1739	1741	PE	Chemical	MESH:C483858
+35047599	1744	1763	phosphatidylethanol	Chemical	MESH:C051521
+35047599	1764	1769	PEtOH	Chemical	-
+35047599	1772	1792	phosphatidylmethanol	Chemical	-
+35047599	1794	1799	PMeOH	Chemical	-
+35047599	1802	1820	phosphatidylserine	Chemical	MESH:D010718
+35047599	1822	1824	PS	Chemical	MESH:D010718
+35047599	1830	1864	diacylglyceryl trimethylhomoserine	Chemical	MESH:C021660
+35047599	1866	1870	DGTS	Chemical	MESH:C021660
+35047599	1875	1880	tumor	Disease	MESH:D009369
+35047599	1947	1949	PC	Chemical	MESH:D010713
+35047599	1951	1953	PE	Chemical	MESH:C483858
+35047599	1955	1960	PEtOH	Chemical	-
+35047599	1962	1967	PMeOH	Chemical	-
+35047599	1969	1971	PS	Chemical	MESH:D010718
+35047599	1976	1980	DGTS	Chemical	MESH:C021660
+35047599	2010	2015	tumor	Disease	MESH:D009369
+35047599	2100	2105	lipid	Chemical	MESH:D008055
+35047599	2155	2160	tumor	Disease	MESH:D009369
+35047599	2350	2358	patients	Species	9606
+35047599	2386	2394	patients	Species	9606
+35047599	2613	2618	lipid	Chemical	MESH:D008055
+35047599	2700	2708	patients	Species	9606
+35047599	2714	2731	pancreatic cancer	Disease	MESH:D010190
+35047599	Association	MESH:D010713	MESH:D009369
+35047599	Association	MESH:C021660	MESH:D008055
+35047599	Association	MESH:C483858	MESH:D009369
+35047599	Association	MESH:D008055	MESH:D010190
+35047599	Association	MESH:D010718	MESH:D009369
+35047599	Association	MESH:C483858	MESH:D008055
+35047599	Association	MESH:C051521	MESH:D009369
+35047599	Association	MESH:D008055	MESH:D010718
+35047599	Association	MESH:C021660	MESH:D009369
+

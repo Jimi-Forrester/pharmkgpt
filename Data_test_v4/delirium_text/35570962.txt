@@ -1,0 +1,16 @@
+35570962|t|Microcalcification Discrimination in Mammography Using Deep Convolutional Neural Network: Towards Rapid and Early Breast Cancer Diagnosis.
+35570962|a|Breast cancer is among the most common types of cancer in women and under the cases of misdiagnosed, or delayed in treatment, the mortality risk is high. The existence of breast microcalcifications is common in breast cancer patients and they are an effective indicator for early sign of breast cancer. However, microcalcifications are often missed and wrongly classified during screening due to their small sizes and indirect scattering in mammogram images. Motivated by this issue, this project proposes an adaptive transfer learning deep convolutional neural network in segmenting breast mammogram images with calcifications cases for early breast cancer diagnosis and intervention. Mammogram images of breast microcalcifications are utilized to train several deep neural network models and their performance is compared. Image filtering of the region of interest images was conducted to remove possible artifacts and noises to enhance the quality of the images before the training. Different hyperparameters such as epoch, batch size, etc were tuned to obtain the best possible result. In addition, the performance of the proposed fine-tuned hyperparameter of ResNet50 is compared with another state-of-the-art machine learning network such as ResNet34, VGG16, and AlexNet. Confusion matrices were utilized for comparison. The result from this study shows that the proposed ResNet50 achieves the highest accuracy with a value of 97.58%, followed by ResNet34 of 97.35%, VGG16 96.97%, and finally AlexNet of 83.06%.
+35570962	114	127	Breast Cancer	Disease	MESH:D001943
+35570962	139	152	Breast cancer	Disease	MESH:D001943
+35570962	187	193	cancer	Disease	MESH:D009369
+35570962	197	202	women	Species	9606
+35570962	310	336	breast microcalcifications	Disease	MESH:D061325
+35570962	350	363	breast cancer	Disease	MESH:D001943
+35570962	364	372	patients	Species	9606
+35570962	427	440	breast cancer	Disease	MESH:D001943
+35570962	451	470	microcalcifications	Disease	MESH:D002114
+35570962	723	729	breast	Disease	MESH:D061325
+35570962	752	766	calcifications	Disease	MESH:D002114
+35570962	783	796	breast cancer	Disease	MESH:D001943
+35570962	845	871	breast microcalcifications	Disease	MESH:D061325
+

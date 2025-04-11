@@ -1,0 +1,15 @@
+39042528|t|Multi-Modal Diagnosis of Alzheimer's Disease using Interpretable Graph Convolutional Networks.
+39042528|a|The interconnection between brain regions in neurological disease encodes vital information for the advancement of biomarkers and diagnostics. Although graph convolutional networks are widely applied for discovering brain connection patterns that point to disease conditions, the potential of connection patterns that arise from multiple imaging modalities has yet to be fully realized. In this paper, we propose a multi-modal sparse interpretable GCN framework (SGCN) for the detection of Alzheimer's disease (AD) and its prodromal stage, known as mild cognitive impairment (MCI). In our experimentation, SGCN learned the sparse regional importance probability to find signature regions of interest (ROIs), and the connective importance probability to reveal disease-specific brain network connections. We evaluated SGCN on the Alzheimer's Disease Neuroimaging Initiative database with multi-modal brain images and demonstrated that the ROI features learned by SGCN were effective for enhancing AD status identification. The identified abnormalities were significantly correlated with AD-related clinical symptoms. We further interpreted the identified brain dysfunctions at the level of large-scale neural systems and sex-related connectivity abnormalities in AD/MCI. The salient ROIs and the prominent brain connectivity abnormalities interpreted by SGCN are considerably important for developing novel biomarkers. These findings contribute to a better understanding of the network-based disorder via multi-modal diagnosis and offer the potential for precision diagnostics. The source code is available at https://github.com/Houliang-Zhou/SGCN.
+39042528	25	44	Alzheimer's Disease	Disease	MESH:D000544
+39042528	140	160	neurological disease	Disease	MESH:D020271
+39042528	585	604	Alzheimer's disease	Disease	MESH:D000544
+39042528	606	608	AD	Disease	MESH:D000544
+39042528	644	669	mild cognitive impairment	Disease	MESH:D060825
+39042528	671	674	MCI	Disease	MESH:D060825
+39042528	924	943	Alzheimer's Disease	Disease	MESH:D000544
+39042528	1091	1093	AD	Disease	MESH:D000544
+39042528	1181	1183	AD	Disease	MESH:D000544
+39042528	1249	1267	brain dysfunctions	Disease	MESH:D001927
+39042528	1357	1359	AD	Disease	MESH:D000544
+39042528	1360	1363	MCI	Disease	MESH:D060825
+

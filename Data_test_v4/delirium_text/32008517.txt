@@ -1,0 +1,23 @@
+32008517|t|Deep Learning for Alzheimer's Disease Classification using Texture Features.
+32008517|a|BACKGROUND: We propose a classification method for Alzheimer's disease (AD) based on the texture of the hippocampus, which is the organ that is most affected by the onset of AD. METHODS: We obtained magnetic resonance images (MRIs) of Alzheimer's patients from the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset. This dataset consists of image data for AD, mild cognitive impairment (MCI), and normal controls (NCs), classified according to the cognitive condition. In this study, the research methods included image processing, texture analyses, and deep learning. Firstly, images were acquired for texture analyses, which were then re-spaced, registered, and cropped with Gabor filters applied to the resulting image data. In the texture analyses, we applied the 3-dimensional (3D) gray-level co-occurrence (GLCM) method to evaluate the textural features of the image, and used Fisher's coefficient to select the appropriate features for classification. In the last stage, we implemented a deep learning multi-layer perceptron (MLP) model, which we divided into three types, namely, AD-MCI, AD-NC, and MCI-NC. RESULTS: We used this model to assess the accuracy of the proposed method. The classification accuracy of the proposed deep learning model was confirmed in the cases of AD-MCI (72.5%), ADNC (85%), and MCI-NC (75%). We also evaluated the results obtained using a confusion matrix, support vector machine (SVM), and K-nearest neighbor (KNN) classifier and analyzed the results to objectively verify our model. We obtained the highest accuracy of 85% in the AD-NC. CONCLUSION: The proposed model was at least 6-19% more accurate than the SVM and KNN classifiers, respectively. Hence, this study confirms the validity and superiority of the proposed method, which can be used as a diagnostic tool for early Alzheimer's diagnosis.
+32008517	18	37	Alzheimer's Disease	Disease	MESH:D000544
+32008517	128	147	Alzheimer's disease	Disease	MESH:D000544
+32008517	149	151	AD	Disease	MESH:D000544
+32008517	251	253	AD	Disease	MESH:D000544
+32008517	312	323	Alzheimer's	Disease	MESH:D000544
+32008517	324	332	patients	Species	9606
+32008517	342	361	Alzheimer's Disease	Disease	MESH:D000544
+32008517	442	444	AD	Disease	MESH:D000544
+32008517	446	471	mild cognitive impairment	Disease	MESH:D060825
+32008517	473	476	MCI	Disease	MESH:D060825
+32008517	1174	1177	AD-	Disease	MESH:D000544
+32008517	1177	1180	MCI	Disease	MESH:D060825
+32008517	1182	1187	AD-NC	Disease	MESH:D000544
+32008517	1193	1199	MCI-NC	Disease	MESH:D060825
+32008517	1370	1373	AD-	Disease	MESH:D000544
+32008517	1373	1376	MCI	Disease	MESH:D060825
+32008517	1386	1390	ADNC	Disease	
+32008517	1402	1408	MCI-NC	Disease	MESH:D060825
+32008517	1656	1661	AD-NC	Disease	MESH:D000544
+32008517	1904	1915	Alzheimer's	Disease	MESH:D000544
+

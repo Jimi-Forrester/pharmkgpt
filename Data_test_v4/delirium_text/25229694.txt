@@ -1,0 +1,16 @@
+25229694|t|Search for beta2 adrenergic receptor ligands by virtual screening via grid computing and investigation of binding modes by docking and molecular dynamics simulations.
+25229694|a|We designed a program called MolGridCal that can be used to screen small molecule database in grid computing on basis of JPPF grid environment. Based on MolGridCal program, we proposed an integrated strategy for virtual screening and binding mode investigation by combining molecular docking, molecular dynamics (MD) simulations and free energy calculations. To test the effectiveness of MolGridCal, we screened potential ligands for beta2 adrenergic receptor (beta2AR) from a database containing 50,000 small molecules. MolGridCal can not only send tasks to the grid server automatically, but also can distribute tasks using the screensaver function. As for the results of virtual screening, the known agonist BI-167107 of beta2AR is ranked among the top 2% of the screened candidates, indicating MolGridCal program can give reasonable results. To further study the binding mode and refine the results of MolGridCal, more accurate docking and scoring methods are used to estimate the binding affinity for the top three molecules (agonist BI-167107, neutral antagonist alprenolol and inverse agonist ICI 118,551). The results indicate agonist BI-167107 has the best binding affinity. MD simulation and free energy calculation are employed to investigate the dynamic interaction mechanism between the ligands and beta2AR. The results show that the agonist BI-167107 also has the lowest binding free energy. This study can provide a new way to perform virtual screening effectively through integrating molecular docking based on grid computing, MD simulations and free energy calculations. The source codes of MolGridCal are freely available at http://molgridcal.codeplex.com. 
+25229694	11	36	beta2 adrenergic receptor	Gene	154
+25229694	601	626	beta2 adrenergic receptor	Gene	154
+25229694	628	635	beta2AR	Gene	154
+25229694	878	887	BI-167107	Chemical	MESH:C584569
+25229694	891	898	beta2AR	Gene	154
+25229694	1206	1215	BI-167107	Chemical	MESH:C584569
+25229694	1236	1246	alprenolol	Chemical	MESH:D000526
+25229694	1267	1278	ICI 118,551	Chemical	MESH:C026777
+25229694	1310	1319	BI-167107	Chemical	MESH:C584569
+25229694	1479	1486	beta2AR	Gene	154
+25229694	1522	1531	BI-167107	Chemical	MESH:C584569
+25229694	Positive_Correlation	MESH:C584569	154
+25229694	Negative_Correlation	MESH:C026777	154
+

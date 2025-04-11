@@ -1,0 +1,24 @@
+38560023|t|Automatic assessment of disproportionately enlarged subarachnoid-space hydrocephalus from 3D MRI using two deep learning models.
+38560023|a|Background: Disproportionately enlarged subarachnoid-space hydrocephalus (DESH) is a key feature for Hakim disease (idiopathic normal pressure hydrocephalus: iNPH), but subjectively evaluated. To develop automatic quantitative assessment of DESH with automatic segmentation using combined deep learning models. Methods: This study included 180 participants (42 Hakim patients, 138 healthy volunteers; 78 males, 102 females). Overall, 159 three-dimensional (3D) T1-weighted and 180 T2-weighted MRIs were included. As a semantic segmentation, 3D MRIs were automatically segmented in the total ventricles, total subarachnoid space (SAS), high-convexity SAS, and Sylvian fissure and basal cistern on the 3D U-Net model. As an image classification, DESH, ventricular dilatation (VD), tightened sulci in the high convexities (THC), and Sylvian fissure dilatation (SFD) were automatically assessed on the multimodal convolutional neural network (CNN) model. For both deep learning models, 110 T1- and 130 T2-weighted MRIs were used for training, 30 T1- and 30 T2-weighted MRIs for internal validation, and the remaining 19 T1- and 20 T2-weighted MRIs for external validation. Dice score was calculated as (overlapping area) x 2/total area. Results: Automatic region extraction from 3D T1- and T2-weighted MRI was accurate for the total ventricles (mean Dice scores: 0.85 and 0.83), Sylvian fissure and basal cistern (0.70 and 0.69), and high-convexity SAS (0.68 and 0.60), respectively. Automatic determination of DESH, VD, THC, and SFD from the segmented regions on the multimodal CNN model was sufficiently reliable; all of the mean softmax probability scores were exceeded by 0.95. All of the areas under the receiver-operating characteristic curves of the DESH, Venthi, and Sylhi indexes calculated by the segmented regions for detecting DESH were exceeded by 0.97. Conclusion: Using 3D U-Net and a multimodal CNN, DESH was automatically detected with automatically segmented regions from 3D MRIs. Our developed diagnostic support tool can improve the precision of Hakim disease (iNPH) diagnosis.
+38560023	52	84	subarachnoid-space hydrocephalus	Disease	MESH:D013345
+38560023	169	201	subarachnoid-space hydrocephalus	Disease	MESH:D013345
+38560023	203	207	DESH	Disease	MESH:D013345
+38560023	230	243	Hakim disease	Disease	MESH:D006850
+38560023	245	285	idiopathic normal pressure hydrocephalus	Disease	MESH:D006850
+38560023	287	291	iNPH	Disease	
+38560023	370	374	DESH	Disease	MESH:D013345
+38560023	496	504	patients	Species	9606
+38560023	873	877	DESH	Disease	MESH:D013345
+38560023	879	901	ventricular dilatation	Disease	MESH:C566255
+38560023	903	905	VD	Disease	MESH:C566255
+38560023	959	985	Sylvian fissure dilatation	Disease	MESH:D019305
+38560023	987	990	SFD	Disease	MESH:D019305
+38560023	1636	1640	DESH	Disease	MESH:D013345
+38560023	1642	1644	VD	Disease	MESH:C566255
+38560023	1655	1658	SFD	Disease	MESH:D019305
+38560023	1882	1886	DESH	Disease	MESH:D013345
+38560023	1964	1968	DESH	Disease	MESH:D013345
+38560023	2041	2045	DESH	Disease	MESH:D013345
+38560023	2191	2204	Hakim disease	Disease	MESH:D006850
+38560023	2206	2210	iNPH	Disease	
+

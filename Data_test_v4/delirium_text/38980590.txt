@@ -1,0 +1,17 @@
+38980590|t|A model for identifying potentially inappropriate medication used in older people with dementia: a machine learning study.
+38980590|a|BACKGROUND: Older adults with dementia often face the risk of potentially inappropriate medication (PIM) use. The quality of PIM evaluation is hindered by researchers' unfamiliarity with evaluation criteria for inappropriate drug use. While traditional machine learning algorithms can enhance evaluation quality, they struggle with the multilabel nature of prescription data. AIM: This study aimed to combine six machine learning algorithms and three multilabel classification models to identify correlations in prescription information and develop an optimal model to identify PIMs in older adults with dementia. METHOD: This study was conducted from January 1, 2020, to December 31, 2020. We used cluster sampling to obtain prescription data from patients 65 years and older with dementia. We assessed PIMs using the 2019 Beers criteria, the most authoritative and widely recognized standard for PIM detection. Our modeling process used three problem transformation methods (binary relevance, label powerset, and classifier chain) and six classification algorithms. RESULTS: We identified 18,338 older dementia patients and 36 PIMs types. The classifier chain + categorical boosting (CatBoost) model demonstrated superior performance, with the highest accuracy (97.93%), precision (95.39%), recall (94.07%), F1 score (95.69%), and subset accuracy values (97.41%), along with the lowest Hamming loss value (0.0011) and an acceptable duration of the operation (371s). CONCLUSION: This research introduces a pioneering CC + CatBoost warning model for PIMs in older dementia patients, utilizing machine-learning techniques. This model enables a quick and precise identification of PIMs, simplifying the manual evaluation process.
+38980590	87	95	dementia	Disease	MESH:D003704
+38980590	153	161	dementia	Disease	MESH:D003704
+38980590	701	705	PIMs	Disease	
+38980590	727	735	dementia	Disease	MESH:D003704
+38980590	872	880	patients	Species	9606
+38980590	905	913	dementia	Disease	MESH:D003704
+38980590	927	931	PIMs	Disease	
+38980590	1227	1235	dementia	Disease	MESH:D003704
+38980590	1236	1244	patients	Species	9606
+38980590	1252	1256	PIMs	Disease	
+38980590	1673	1677	PIMs	Disease	
+38980590	1687	1695	dementia	Disease	MESH:D003704
+38980590	1696	1704	patients	Species	9606
+38980590	1802	1806	PIMs	Disease	
+

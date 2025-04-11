@@ -1,0 +1,30 @@
+38843963|t|Latent diffusion model-based MRI superresolution enhances mild cognitive impairment prognostication and Alzheimer's disease classification.
+38843963|a|INTRODUCTION: Timely diagnosis and prognostication of Alzheimer's disease (AD) and mild cognitive impairment (MCI) are pivotal for effective intervention. Artificial intelligence (AI) in neuroradiology may aid in such appropriate diagnosis and prognostication. This study aimed to evaluate the potential of novel diffusion model-based AI for enhancing AD and MCI diagnosis through superresolution (SR) of brain magnetic resonance (MR) images. METHODS: 1.5T brain MR scans of patients with AD or MCI and healthy controls (NC) from Alzheimer's Disease Neuroimaging Initiative 1 (ADNI1) were superresolved to 3T using a novel diffusion model-based generative AI (d3T*) and a convolutional neural network-based model (c3T*). Comparisons of image quality to actual 1.5T and 3T MRI were conducted based on signal-to-noise ratio (SNR), naturalness image quality evaluator (NIQE), and Blind/Referenceless Image Spatial Quality Evaluator (BRISQUE). Voxel-based volumetric analysis was then conducted to study whether 3T* images offered more accurate volumetry than 1.5T images. Binary and multiclass classifications of AD, MCI, and NC were conducted to evaluate whether 3T* images offered superior AD classification performance compared to actual 1.5T MRI. Moreover, CNN-based classifiers were used to predict conversion of MCI to AD, to evaluate the prognostication performance of 3T* images. The classification performances were evaluated using accuracy, sensitivity, specificity, F1 score, Matthews correlation coefficient (MCC), and area under the receiver-operating curves (AUROC). RESULTS: Analysis of variance (ANOVA) detected significant differences in image quality among the 1.5T, c3T*, d3T*, and 3T groups across all metrics. Both c3T* and d3T* showed superior image quality compared to 1.5T MRI in NIQE and BRISQUE with statistical significance. While the hippocampal volumes measured in 3T* and 3T images were not significantly different, the hippocampal volume measured in 1.5T images showed significant difference. 3T*-based AD classifications showed superior performance across all performance metrics compared to 1.5T-based AD classification. Classification performance between d3T* and actual 3T was not significantly different. 3T* images offered superior accuracy in predicting the conversion of MCI to AD than 1.5T images did. CONCLUSIONS: The diffusion model-based MRI SR enhances the resolution of brain MR images, significantly improving diagnostic and prognostic accuracy for AD and MCI. Superresolved 3T* images closely matched actual 3T MRIs in quality and volumetric accuracy, and notably improved the prediction performance of conversion from MCI to AD.
+38843963	58	83	mild cognitive impairment	Disease	MESH:D060825
+38843963	104	123	Alzheimer's disease	Disease	MESH:D000544
+38843963	194	213	Alzheimer's disease	Disease	MESH:D000544
+38843963	215	217	AD	Disease	MESH:D000544
+38843963	223	248	mild cognitive impairment	Disease	MESH:D060825
+38843963	250	253	MCI	Disease	MESH:D060825
+38843963	492	494	AD	Disease	MESH:D000544
+38843963	499	502	MCI	Disease	MESH:D060825
+38843963	615	623	patients	Species	9606
+38843963	629	631	AD	Disease	MESH:D000544
+38843963	635	638	MCI	Disease	MESH:D060825
+38843963	661	663	NC	Disease	OMIM:617025
+38843963	670	689	Alzheimer's Disease	Disease	MESH:D000544
+38843963	1250	1252	AD	Disease	MESH:D000544
+38843963	1254	1257	MCI	Disease	MESH:D060825
+38843963	1263	1265	NC	Disease	OMIM:617025
+38843963	1329	1331	AD	Disease	MESH:D000544
+38843963	1455	1458	MCI	Disease	MESH:D060825
+38843963	1462	1464	AD	Disease	MESH:D000544
+38843963	2171	2173	AD	Disease	MESH:D000544
+38843963	2272	2274	AD	Disease	MESH:D000544
+38843963	2447	2450	MCI	Disease	MESH:D060825
+38843963	2454	2456	AD	Disease	MESH:D000544
+38843963	2632	2634	AD	Disease	MESH:D000544
+38843963	2639	2642	MCI	Disease	MESH:D060825
+38843963	2803	2806	MCI	Disease	MESH:D060825
+38843963	2810	2812	AD	Disease	MESH:D000544
+

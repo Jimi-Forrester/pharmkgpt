@@ -1,0 +1,14 @@
+31492856|t|Rapid metabolic shifts occur during the transition between hunger and satiety in Drosophila melanogaster.
+31492856|a|Metabolites are active controllers of cellular physiology, but their role in complex behaviors is less clear. Here we report metabolic changes that occur during the transition between hunger and satiety in Drosophila melanogaster. To analyze these data in the context of fruit fly metabolic networks, we developed Flyscape, an open-access tool. We show that in response to eating, metabolic profiles change in quick, but distinct ways in the heads and bodies. Consumption of a high sugar diet dulls the metabolic and behavioral differences between the fasted and fed state, and reshapes the way nutrients are utilized upon eating. Specifically, we found that high dietary sugar increases TCA cycle activity, alters neurochemicals, and depletes 1-carbon metabolism and brain health metabolites N-acetyl-aspartate and kynurenine. Together, our work identifies the metabolic transitions that occur during hunger and satiation, and provides a platform to study the role of metabolites and diet in complex behavior.
+31492856	81	104	Drosophila melanogaster	Species	7227
+31492856	312	335	Drosophila melanogaster	Species	7227
+31492856	588	593	sugar	Chemical	MESH:D000073893
+31492856	778	783	sugar	Chemical	MESH:D000073893
+31492856	794	797	TCA	Chemical	MESH:D014238
+31492856	850	858	1-carbon	Chemical	-
+31492856	899	917	N-acetyl-aspartate	Chemical	MESH:C000179
+31492856	922	932	kynurenine	Chemical	MESH:D007737
+31492856	Negative_Correlation	MESH:D000073893	MESH:D007737
+31492856	Negative_Correlation	MESH:C000179	MESH:D000073893
+31492856	Positive_Correlation	MESH:D000073893	MESH:D014238
+

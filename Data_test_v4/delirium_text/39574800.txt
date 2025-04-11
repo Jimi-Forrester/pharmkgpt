@@ -1,0 +1,47 @@
+39574800|t|Alcohol consumption and its association with cancer, cardiovascular, liver and brain diseases: a systematic review of Mendelian randomization studies.
+39574800|a|Background: The health effects of alcohol consumption, particularly regarding potential protective benefits of light to moderate intake compared to abstinence, remain a subject of ongoing debate. However, epidemiological studies face limitations due to imprecise exposure measurements and the potential for bias through residual confounding and reverse causation. To address these limitations, we conducted a systematic review of Mendelian Randomization (MR) studies examining the causal relationship between alcohol consumption and cancers, cardiovascular, liver, and neurological diseases. Methodology: We searched PubMed, ScienceDirect and Embase and Europe PMC up to 05/2024 for MR studies investigating the association of genetically predicted alcohol consumption with cancers, cardiovascular, liver and neurological diseases. We assessed methodological quality based on key elements of the MR design a genetic association studies tool. Results: We included 70 MR studies that matched our inclusion criteria. Our review showed a significant association of alcohol consumption with multiple cancers such as oral and oropharyngeal, esophageal, colorectal cancers, hepatocellular carcinoma and cutaneous melanoma. While the available studies did not consistently confirm the adverse or protective effects of alcohol on other cancers, such as lung cancer, as suggested by observational studies. Additionally, MR studies confirmed a likely causal effect of alcohol on the risk of hypertension, atrial fibrillation, myocardial infraction and vessels disease. However, there was no evidence to support the protective effects of light to moderate alcohol consumption on cognitive function, Alzheimer's disease, and amyotrophic lateral sclerosis, as reported in observational studies while our review revealed an increased risk of epilepsy and multiple sclerosis. The available studies provided limited results on the link between alcohol consumption and liver disease. Conclusions: Despite the valuable insights into the causal relationship between alcohol consumption and various health outcomes that MR studies provided, it is worth noting that the inconsistent ability of genetic instrumental variables to distinguish between abstainers, light and moderate drinkers makes it difficult to differentiate between U or J-shaped vs. linear relationships between exposure and outcome. Additional research is necessary to establish formal quality assessment tools for MR studies and to conduct more studies in diverse populations, including non-European ancestries. Systematic Review Registration: www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42021246154, Identifier: PROSPERO (CRD42021246154).
+39574800	0	7	Alcohol	Chemical	MESH:D000438
+39574800	45	51	cancer	Disease	MESH:D009369
+39574800	53	93	cardiovascular, liver and brain diseases	Disease	MESH:D002318
+39574800	185	192	alcohol	Chemical	MESH:D000438
+39574800	660	667	alcohol	Chemical	MESH:D000438
+39574800	684	691	cancers	Disease	MESH:D009369
+39574800	693	741	cardiovascular, liver, and neurological diseases	Disease	MESH:D002318
+39574800	900	907	alcohol	Chemical	MESH:D000438
+39574800	925	932	cancers	Disease	MESH:D009369
+39574800	934	981	cardiovascular, liver and neurological diseases	Disease	MESH:D002318
+39574800	1212	1219	alcohol	Chemical	MESH:D000438
+39574800	1246	1253	cancers	Disease	MESH:D009369
+39574800	1262	1316	oral and oropharyngeal, esophageal, colorectal cancers	Disease	MESH:D015179
+39574800	1318	1342	hepatocellular carcinoma	Disease	MESH:D006528
+39574800	1347	1365	cutaneous melanoma	Disease	MESH:C562393
+39574800	1461	1468	alcohol	Chemical	MESH:D000438
+39574800	1478	1485	cancers	Disease	MESH:D009369
+39574800	1495	1506	lung cancer	Disease	MESH:D008175
+39574800	1608	1615	alcohol	Chemical	MESH:D000438
+39574800	1631	1643	hypertension	Disease	MESH:D006973
+39574800	1645	1664	atrial fibrillation	Disease	MESH:D001281
+39574800	1666	1687	myocardial infraction	Disease	MESH:C535636
+39574800	1692	1707	vessels disease	Disease	MESH:C536223
+39574800	1795	1802	alcohol	Chemical	MESH:D000438
+39574800	1838	1857	Alzheimer's disease	Disease	MESH:D000544
+39574800	1863	1892	amyotrophic lateral sclerosis	Disease	MESH:D000690
+39574800	1978	1986	epilepsy	Disease	MESH:D004827
+39574800	1991	2009	multiple sclerosis	Disease	MESH:D009103
+39574800	2078	2085	alcohol	Chemical	MESH:D000438
+39574800	2102	2115	liver disease	Disease	MESH:D008107
+39574800	2197	2204	alcohol	Chemical	MESH:D000438
+39574800	Positive_Correlation	MESH:D000438	MESH:D001281
+39574800	Positive_Correlation	MESH:D000438	MESH:D004827
+39574800	Positive_Correlation	MESH:D000438	MESH:D009103
+39574800	Negative_Correlation	MESH:D000438	MESH:D008175
+39574800	Association	MESH:D000438	MESH:D002318
+39574800	Negative_Correlation	MESH:D000438	MESH:D009369
+39574800	Positive_Correlation	MESH:D000438	MESH:D006528
+39574800	Positive_Correlation	MESH:D000438	MESH:C536223
+39574800	Positive_Correlation	MESH:D000438	MESH:D006973
+39574800	Positive_Correlation	MESH:D000438	MESH:C535636
+39574800	Positive_Correlation	MESH:D000438	MESH:C562393
+39574800	Positive_Correlation	MESH:D000438	MESH:D015179
+39574800	Positive_Correlation	MESH:D000438	MESH:D008107
+

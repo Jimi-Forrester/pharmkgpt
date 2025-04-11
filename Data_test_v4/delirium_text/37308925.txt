@@ -1,0 +1,40 @@
+37308925|t|Prediction of risk and clinical outcome of cuproptosis in lung squamous carcinoma.
+37308925|a|BACKGROUND: Lung squamous cell carcinoma (LUSC) is an important subtype of non-small cell lung cancer. Its special clinicopathological features and molecular background determine the limitations of its treatment. A recent study published on Science defined a newly regulatory cell death (RCD) form - cuproptosis. Which manifested as an excessive intracellular copper accumulation, mitochondrial respiration-dependent, protein acylation-mediated cell death. Different from apoptosis, pyroptosis, necroptosis, ferroptosis and other forms of regulatory cell death (RCD). The imbalance of copper homeostasis in vivo will trigger cytotoxicity and further affect the occurrence and progression of tumors. Our study is the first to predict the prognosis and immune landscape of cuproptosis-related genes (CRGs) in LUSC. METHODS: The RNA-seq profiles and clinical data of LUSC patients were downloaded from TCGA and GEO databases and then combined into a novel cohort. R language packages are used to analyze and process the data, and CRGs related to the prognosis of LUSC were screened according to the differentially expressed genes (DEGs). After analyzed the tumor mutation burden (TMB), copy number variation (CNV) and CRGs interaction network. Based on CRGs and DEGs, cluster analysis was used to classify LUSC patients twice. The selected key genes were used to construct a CRGs prognostic model to further analyze the correlation between LUSC immune cell infiltration and immunity. Through the risk score and clinical factors, a more accurate nomogram was further constructed. Finally, the drug sensitivity of CRGs in LUSC was analyzed. RESULTS: Patients with LUSC were divided into different cuproptosis subtypes and gene clusters, showing different levels of immune infiltration. The risk score showed that the high-risk group had higher tumor microenvironment score, lower tumor mutation load frequency and worse prognosis than the low-risk group. In addition, the high-risk group was more sensitive to vinorelbine, cisplatin, paclitaxel, doxorubicin, etoposide and other drugs. CONCLUSIONS: Through bioinformatics analysis, we successfully constructed a prognostic risk assessment model based on CRGs, which can not only accurately predict the prognosis of LUSC patients, but also evaluate the patient 's immune infiltration status and sensitivity to chemotherapy drugs. This model shows satisfactory predictive results and provides a reference for subsequent tumor immunotherapy.
+37308925	43	54	cuproptosis	Disease	
+37308925	58	81	lung squamous carcinoma	Disease	MESH:D002294
+37308925	95	123	Lung squamous cell carcinoma	Disease	MESH:D002294
+37308925	125	129	LUSC	Disease	MESH:D002294
+37308925	158	184	non-small cell lung cancer	Disease	MESH:D002289
+37308925	383	394	cuproptosis	Disease	
+37308925	443	449	copper	Chemical	MESH:D003300
+37308925	668	674	copper	Chemical	MESH:D003300
+37308925	708	720	cytotoxicity	Disease	MESH:D064420
+37308925	774	780	tumors	Disease	MESH:D009369
+37308925	854	865	cuproptosis	Disease	
+37308925	890	894	LUSC	Disease	MESH:D002294
+37308925	947	951	LUSC	Disease	MESH:D002294
+37308925	952	960	patients	Species	9606
+37308925	1143	1147	LUSC	Disease	MESH:D002294
+37308925	1237	1242	tumor	Disease	MESH:D009369
+37308925	1386	1390	LUSC	Disease	MESH:D002294
+37308925	1391	1399	patients	Species	9606
+37308925	1520	1524	LUSC	Disease	MESH:D002294
+37308925	1700	1704	LUSC	Disease	MESH:D002294
+37308925	1728	1736	Patients	Species	9606
+37308925	1742	1746	LUSC	Disease	MESH:D002294
+37308925	1775	1786	cuproptosis	Disease	
+37308925	1922	1927	tumor	Disease	MESH:D009369
+37308925	1958	1963	tumor	Disease	MESH:D009369
+37308925	2088	2099	vinorelbine	Chemical	MESH:D000077235
+37308925	2101	2110	cisplatin	Chemical	MESH:D002945
+37308925	2112	2122	paclitaxel	Chemical	MESH:D017239
+37308925	2124	2135	doxorubicin	Chemical	MESH:D004317
+37308925	2137	2146	etoposide	Chemical	MESH:D005047
+37308925	2343	2347	LUSC	Disease	MESH:D002294
+37308925	2348	2356	patients	Species	9606
+37308925	2380	2387	patient	Species	9606
+37308925	2546	2551	tumor	Disease	MESH:D009369
+37308925	Negative_Correlation	MESH:D000077235	MESH:D002294
+37308925	Association	MESH:D003300	MESH:D009369
+37308925	Association	MESH:D003300	MESH:D064420
+

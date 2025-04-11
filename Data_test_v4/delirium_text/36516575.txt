@@ -1,0 +1,11 @@
+36516575|t|Exploiting task relationships for Alzheimer's disease cognitive score prediction via multi-task learning.
+36516575|a|Alzheimer's disease (AD) is highly prevalent and a significant cause of dementia and death in elderly individuals. Motivated by breakthroughs of multi-task learning (MTL), efforts have been made to extend MTL to improve the Alzheimer's disease cognitive score prediction by exploiting structure correlation. Though important and well-studied, three key aspects are yet to be fully handled in an unified framework: (i) appropriately modeling the inherent task relationship; (ii) fully exploiting the task relatedness by considering the underlying feature structure. (iii) automatically determining the weight of each task. To this end, we present the Bi-Graph guided self-Paced Multi-Task Feature Learning (BGP-MTFL) framework for exploring the relationship among multiple tasks to improve overall learning performance of cognitive score prediction. The framework consists of the two correlation regularization for features and tasks, l2,1 regularization and self-paced learning scheme. Moreover, we design an efficient optimization method to solve the non-smooth objective function of our approach based on the Alternating Direction Method of Multipliers (ADMM) combined with accelerated proximal gradient (APG). The proposed model is comprehensively evaluated on the Alzheimer's disease neuroimaging initiative (ADNI) datasets. Overall, the proposed algorithm achieves an nMSE (normalized Mean Squared Error) of 3.923 and an wR (weighted R-value) of 0.416 for predicting eighteen cognitive scores, respectively. The empirical study demonstrates that the proposed BGP-MTFL model outperforms the state-of-the-art AD prediction approaches and enables identifying more stable biomarkers.
+36516575	34	53	Alzheimer's disease	Disease	MESH:D000544
+36516575	106	125	Alzheimer's disease	Disease	MESH:D000544
+36516575	127	129	AD	Disease	MESH:D000544
+36516575	178	186	dementia	Disease	MESH:D003704
+36516575	191	196	death	Disease	MESH:D003643
+36516575	330	349	Alzheimer's disease	Disease	MESH:D000544
+36516575	1374	1393	Alzheimer's disease	Disease	MESH:D000544
+36516575	1718	1720	AD	Disease	MESH:D000544
+

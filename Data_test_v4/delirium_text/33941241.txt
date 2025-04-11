@@ -1,0 +1,24 @@
+33941241|t|Artificial intelligence-based computational framework for drug-target prioritization and inference of novel repositionable drugs for Alzheimer's disease.
+33941241|a|BACKGROUND: Identifying novel therapeutic targets is crucial for the successful development of drugs. However, the cost to experimentally identify therapeutic targets is huge and only approximately 400 genes are targets for FDA-approved drugs. As a result, it is inevitable to develop powerful computational tools that can identify potential novel therapeutic targets. Fortunately, the human protein-protein interaction network (PIN) could be a useful resource to achieve this objective. METHODS: In this study, we developed a deep learning-based computational framework that extracts low-dimensional representations of high-dimensional PIN data. Our computational framework uses latent features and state-of-the-art machine learning techniques to infer potential drug target genes. RESULTS: We applied our computational framework to prioritize novel putative target genes for Alzheimer's disease and successfully identified key genes that may serve as novel therapeutic targets (e.g., DLG4, EGFR, RAC1, SYK, PTK2B, SOCS1). Furthermore, based on these putative targets, we could infer repositionable candidate-compounds for the disease (e.g., tamoxifen, bosutinib, and dasatinib). CONCLUSIONS: Our deep learning-based computational framework could be a powerful tool to efficiently prioritize new therapeutic targets and enhance the drug repositioning strategy.
+33941241	133	152	Alzheimer's disease	Disease	MESH:D000544
+33941241	540	545	human	Species	9606
+33941241	1031	1050	Alzheimer's disease	Disease	MESH:D000544
+33941241	1140	1144	DLG4	Gene	1742
+33941241	1146	1150	EGFR	Gene	1956
+33941241	1152	1156	RAC1	Gene	5879
+33941241	1158	1161	SYK	Gene	6850
+33941241	1163	1168	PTK2B	Gene	2185
+33941241	1170	1175	SOCS1	Gene	8651
+33941241	1297	1306	tamoxifen	Chemical	MESH:D013629
+33941241	1308	1317	bosutinib	Chemical	MESH:C471992
+33941241	1323	1332	dasatinib	Chemical	MESH:D000069439
+33941241	Association	MESH:D000544	1956
+33941241	Association	MESH:D000544	8651
+33941241	Association	MESH:D000544	6850
+33941241	Association	MESH:D000544	2185
+33941241	Association	MESH:D000544	5879
+33941241	Negative_Correlation	MESH:D013629	MESH:D000544
+33941241	Negative_Correlation	MESH:C471992	MESH:D000544
+33941241	Association	MESH:D000544	1742
+33941241	Negative_Correlation	MESH:D000069439	MESH:D000544
+

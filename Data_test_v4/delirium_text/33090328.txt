@@ -1,0 +1,33 @@
+33090328|t|Telemonitoring Parkinson's disease using machine learning by combining tremor and voice analysis.
+33090328|a|BACKGROUND: With the growing number of the aged population, the number of Parkinson's disease (PD) affected people is also mounting. Unfortunately, due to insufficient resources and awareness in underdeveloped countries, proper and timely PD detection is highly challenged. Besides, all PD patients' symptoms are neither the same nor they all become pronounced at the same stage of the illness. Therefore, this work aims to combine more than one symptom (rest tremor and voice degradation) by collecting data remotely using smartphones and detect PD with the help of a cloud-based machine learning system for telemonitoring the PD patients in the developing countries. METHOD: This proposed system receives rest tremor and vowel phonation data acquired by smartphones with built-in accelerometer and voice recorder sensors. The data are primarily collected from diagnosed PD patients and healthy people for building and optimizing machine learning models that exhibit higher performance. After that, data from newly suspected PD patients are collected, and the trained algorithms are evaluated to detect PD. Based on the majority-vote from those algorithms, PD-detected patients are connected with a nearby neurologist for consultation. Upon receiving patients' feedback after being diagnosed by the neurologist, the system may update the model by retraining using the latest data. Also, the system requests the detected patients periodically to upload new data to track their disease progress. RESULT: The highest accuracy in PD detection using offline data was [Formula: see text] from voice data and [Formula: see text] from tremor data when used separately. In both cases, k-nearest neighbors (kNN) gave the highest accuracy over support vector machine (SVM) and naive Bayes (NB). The application of maximum relevance minimum redundancy (MRMR) feature selection method showed that by selecting different feature sets based on the patient's gender, we could improve the detection accuracy. This study's novelty is the application of ensemble averaging on the combined decisions generated from the analysis of voice and tremor data. The average accuracy of PD detection becomes [Formula: see text] when ensemble averaging was performed on majority-vote from kNN, SVM, and NB. CONCLUSION: The proposed system can detect PD using a cloud-based system for computation, data preserving, and regular monitoring of voice and tremor samples captured by smartphones. Thus, this system can be a solution for healthcare authorities to ensure the older population's accessibility to a better medical diagnosis system in the developing countries, especially in the pandemic situation like COVID-19, when in-person monitoring is minimal.
+33090328	15	34	Parkinson's disease	Disease	MESH:D010300
+33090328	71	77	tremor	Disease	MESH:D014202
+33090328	172	191	Parkinson's disease	Disease	MESH:D010300
+33090328	193	195	PD	Disease	MESH:D010300
+33090328	337	339	PD	Disease	MESH:D010300
+33090328	385	387	PD	Disease	MESH:D010300
+33090328	388	396	patients	Species	9606
+33090328	553	564	rest tremor	Disease	MESH:D014202
+33090328	569	586	voice degradation	Disease	MESH:D014832
+33090328	645	647	PD	Disease	MESH:D010300
+33090328	726	728	PD	Disease	MESH:D010300
+33090328	729	737	patients	Species	9606
+33090328	805	816	rest tremor	Disease	MESH:D014202
+33090328	970	972	PD	Disease	MESH:D010300
+33090328	973	981	patients	Species	9606
+33090328	1124	1126	PD	Disease	MESH:D010300
+33090328	1127	1135	patients	Species	9606
+33090328	1202	1204	PD	Disease	MESH:D010300
+33090328	1256	1258	PD	Disease	MESH:D010300
+33090328	1268	1276	patients	Species	9606
+33090328	1350	1358	patients	Species	9606
+33090328	1519	1527	patients	Species	9606
+33090328	1625	1627	PD	Disease	MESH:D010300
+33090328	1726	1732	tremor	Disease	MESH:D014202
+33090328	2032	2039	patient	Species	9606
+33090328	2220	2226	tremor	Disease	MESH:D014202
+33090328	2257	2259	PD	Disease	MESH:D010300
+33090328	2419	2421	PD	Disease	MESH:D010300
+33090328	2519	2525	tremor	Disease	MESH:D014202
+33090328	2777	2785	COVID-19	Disease	MESH:D000086382
+

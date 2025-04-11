@@ -1,0 +1,13 @@
+37949982|t|Machine learning vs. traditional regression analysis for fluid overload prediction in the ICU.
+37949982|a|Fluid overload, while common in the ICU and associated with serious sequelae, is hard to predict and may be influenced by ICU medication use. Machine learning (ML) approaches may offer advantages over traditional regression techniques to predict it. We compared the ability of traditional regression techniques and different ML-based modeling approaches to identify clinically meaningful fluid overload predictors. This was a retrospective, observational cohort study of adult patients admitted to an ICU >= 72 h between 10/1/2015 and 10/31/2020 with available fluid balance data. Models to predict fluid overload (a positive fluid balance >= 10% of the admission body weight) in the 48-72 h after ICU admission were created. Potential patient and medication fluid overload predictor variables (n = 28) were collected at either baseline or 24 h after ICU admission. The optimal traditional logistic regression model was created using backward selection. Supervised, classification-based ML models were trained and optimized, including a meta-modeling approach. Area under the receiver operating characteristic (AUROC), positive predictive value (PPV), and negative predictive value (NPV) were compared between the traditional and ML fluid prediction models. A total of 49 of the 391 (12.5%) patients developed fluid overload. Among the ML models, the XGBoost model had the highest performance (AUROC 0.78, PPV 0.27, NPV 0.94) for fluid overload prediction. The XGBoost model performed similarly to the final traditional logistic regression model (AUROC 0.70; PPV 0.20, NPV 0.94). Feature importance analysis revealed severity of illness scores and medication-related data were the most important predictors of fluid overload. In the context of our study, ML and traditional models appear to perform similarly to predict fluid overload in the ICU. Baseline severity of illness and ICU medication regimen complexity are important predictors of fluid overload.
+37949982	57	71	fluid overload	Disease	MESH:D019190
+37949982	95	109	Fluid overload	Disease	MESH:D019190
+37949982	483	497	fluid overload	Disease	MESH:D019190
+37949982	694	708	fluid overload	Disease	MESH:D019190
+37949982	854	868	fluid overload	Disease	MESH:D019190
+37949982	1405	1419	fluid overload	Disease	MESH:D019190
+37949982	1525	1539	fluid overload	Disease	MESH:D019190
+37949982	1805	1819	fluid overload	Disease	MESH:D019190
+37949982	1915	1929	fluid overload	Disease	MESH:D019190
+37949982	2037	2051	fluid overload	Disease	MESH:D019190
+

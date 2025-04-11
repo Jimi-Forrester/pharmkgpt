@@ -1,0 +1,19 @@
+33265122|t|Automated Multiclass Classification of Spontaneous EEG Activity in Alzheimer's Disease and Mild Cognitive Impairment.
+33265122|a|The discrimination of early Alzheimer's disease (AD) and its prodromal form (i.e., mild cognitive impairment, MCI) from cognitively healthy control (HC) subjects is crucial since the treatment is more effective in the first stages of the dementia. The aim of our study is to evaluate the usefulness of a methodology based on electroencephalography (EEG) to detect AD and MCI. EEG rhythms were recorded from 37 AD patients, 37 MCI subjects and 37 HC subjects. Artifact-free trials were analyzed by means of several spectral and nonlinear features: relative power in the conventional frequency bands, median frequency, individual alpha frequency, spectral entropy, Lempel-Ziv complexity, central tendency measure, sample entropy, fuzzy entropy, and auto-mutual information. Relevance and redundancy analyses were also conducted through the fast correlation-based filter (FCBF) to derive an optimal set of them. The selected features were used to train three different models aimed at classifying the trials: linear discriminant analysis (LDA), quadratic discriminant analysis (QDA) and multi-layer perceptron artificial neural network (MLP). Afterwards, each subject was automatically allocated in a particular group by applying a trial-based majority vote procedure. After feature extraction, the FCBF method selected the optimal set of features: individual alpha frequency, relative power at delta frequency band, and sample entropy. Using the aforementioned set of features, MLP showed the highest diagnostic performance in determining whether a subject is not healthy (sensitivity of 82.35% and positive predictive value of 84.85% for HC vs. all classification task) and whether a subject does not suffer from AD (specificity of 79.41% and negative predictive value of 84.38% for AD vs. all comparison). Our findings suggest that our methodology can help physicians to discriminate AD, MCI and HC.
+33265122	67	86	Alzheimer's Disease	Disease	MESH:D000544
+33265122	96	116	Cognitive Impairment	Disease	MESH:D003072
+33265122	146	165	Alzheimer's disease	Disease	MESH:D000544
+33265122	167	169	AD	Disease	MESH:D000544
+33265122	206	226	cognitive impairment	Disease	MESH:D003072
+33265122	228	231	MCI	Disease	
+33265122	356	364	dementia	Disease	MESH:D003704
+33265122	482	484	AD	Disease	MESH:D000544
+33265122	489	492	MCI	Disease	
+33265122	528	530	AD	Disease	MESH:D000544
+33265122	531	539	patients	Species	9606
+33265122	544	547	MCI	Disease	
+33265122	1830	1832	AD	Disease	MESH:D000544
+33265122	1900	1902	AD	Disease	MESH:D000544
+33265122	2002	2004	AD	Disease	MESH:D000544
+33265122	2006	2009	MCI	Disease	
+

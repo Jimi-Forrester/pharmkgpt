@@ -1,0 +1,34 @@
+34731136|t|Comparison of critical biomarkers in 2 erectile dysfunction models based on GEO and NOS-cGMP-PDE5 pathway.
+34731136|a|BACKGROUND: Erectile dysfunction is a disease commonly caused by diabetes mellitus (DMED) and cavernous nerve injury (CNIED). Bioinformatics analyses including differentially expressed genes (DEGs), enriched functions and pathways (EFPs), and protein-protein interaction (PPI) networks were carried out in DMED and CNIED rats in this study. The critical biomarkers that may intervene in nitric oxide synthase (NOS, predominantly nNOS, ancillary eNOS, and iNOS)-cyclic guanosine monophosphate (cGMP)-phosphodiesterase 5 enzyme (PDE5) pathway, an important mechanism in erectile dysfunction treatment, were then explored for potential clinical applications. METHODS: GSE2457 and GSE31247 were downloaded. Their DEGs with a  logFC (fold change)  > 0 were screened out. Database for Annotation, Visualization and Integrated Discovery (DAVID) online database was used to analyze the EFPs in Gene Ontology enrichment and Kyoto Encyclopedia of Genes and Genomes networks based on down-regulated and up-regulated DEGs respectively. PPI analysis of 2 datasets was performed in Search Tool for the Retrieval of Interacting Genes/Proteins (STRING) and Cytoscape. Interactions with an average score greater than 0.9 were chosen as the cutoff for statistical significance. RESULTS: From a total of 1710 DEGs in GSE2457, 772 were down-regulated and 938 were up-regulated, in contrast to the 836 DEGs in GSE31247, from which 508 were down-regulated and 328 were up-regulated. The 25 common EFPs such as aging and response to hormone were identified in both models. PPI results showed that the first 10 hub genes in DMED were all different from those in CNIED. CONCLUSIONS: The intervention of iNOS with the hub gene complement component 3 in DMED and the aging process in both DMED and CNIED deserves attention.
+34731136	39	59	erectile dysfunction	Disease	MESH:D007172
+34731136	88	92	cGMP	Chemical	MESH:D006152
+34731136	119	139	Erectile dysfunction	Disease	MESH:D007172
+34731136	172	189	diabetes mellitus	Disease	MESH:D003920
+34731136	191	195	DMED	Disease	MESH:D003920
+34731136	201	223	cavernous nerve injury	Disease	MESH:D000080902
+34731136	225	230	CNIED	Disease	
+34731136	413	417	DMED	Disease	MESH:D003920
+34731136	422	427	CNIED	Disease	
+34731136	428	432	rats	Species	10116
+34731136	536	540	nNOS	Gene	24598
+34731136	552	556	eNOS	Gene	24600
+34731136	562	566	iNOS	Gene	24599
+34731136	568	598	cyclic guanosine monophosphate	Chemical	MESH:D006152
+34731136	600	604	cGMP	Chemical	MESH:D006152
+34731136	675	695	erectile dysfunction	Disease	MESH:D007172
+34731136	1707	1711	DMED	Disease	MESH:D003920
+34731136	1745	1750	CNIED	Disease	
+34731136	1785	1789	iNOS	Gene	24599
+34731136	1808	1830	complement component 3	Gene	24232
+34731136	1834	1838	DMED	Disease	MESH:D003920
+34731136	1869	1873	DMED	Disease	MESH:D003920
+34731136	1878	1883	CNIED	Disease	
+34731136	Association	MESH:D006152	MESH:D007172
+34731136	Association	MESH:D003920	24599
+34731136	Association	MESH:D007172	24600
+34731136	Association	MESH:D007172	24599
+34731136	Association	MESH:D006152	24599
+34731136	Association	MESH:D006152	24598
+34731136	Association	24232	24599
+34731136	Association	MESH:D007172	24598
+

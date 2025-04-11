@@ -1,0 +1,46 @@
+36512189|t|Comparative Meta-analysis of Adipose Tissue Transcriptomics Data in PCOS Patients and Healthy Control Women.
+36512189|a|Polycystic ovary syndrome (PCOS) is a common condition in reproductive-aged women that induces reproductive and metabolic derangements. Women with PCOS seem to have disturbances in lipid metabolism in the adipose tissue. Nevertheless, gene expression in adipose tissue of PCOS women and its relation to other disturbances have been fragmentarily investigated. We utilized microarray data to identify the most important up- and down-regulated candidate genes in adipose tissue of PCOS women in contrast to healthy women using the meta-analysis technique. Microarray data produced from three independent experiments (n = 3) conducted on adipose tissue in women with PCOS were retrieved from ArrayExpress. Then, the datasets were merged using the metaSeq package in Rstudio and differentially expressed genes (DEGs) were selected in the studies. The integrative bioinformatics analyses of candidate genes were performed by gene ontology (GO) analysis, Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis, and protein-protein interaction (PPI) network construction. Of these, 12 up-regulated genes and 12 down-regulated genes were identified and assessed as the most highly up-regulated and down-regulated genes in adipose tissue of women with PCOS. These DEGs that were annotated by KEGG analysis were mainly involved in PI3K-Akt, MAPK, Rap1, and Ras signaling pathways, and pathways in cancer such as hepatocellular carcinoma and gastric cancer, as well as metabolic pathways, and brain disorder pathways such as Alzheimer's disease and Huntington disease pathways. In the PPI networks, PRDM10, FGFR2, IGF1R, and FLT1 were the key nodes in the up-regulated networks, while the NDUFAB1 and NME2 proteins were key in the down-regulated networks. Overall, these findings provide insight into the gene expression in adipose tissue of PCOS women and its relation to other disturbances.
+36512189	68	72	PCOS	Disease	MESH:D011085
+36512189	73	81	Patients	Species	9606
+36512189	102	107	Women	Species	9606
+36512189	109	134	Polycystic ovary syndrome	Disease	MESH:D011085
+36512189	136	140	PCOS	Disease	MESH:D011085
+36512189	185	190	women	Species	9606
+36512189	245	250	Women	Species	9606
+36512189	256	260	PCOS	Disease	MESH:D011085
+36512189	290	295	lipid	Chemical	MESH:D008055
+36512189	381	385	PCOS	Disease	MESH:D011085
+36512189	386	391	women	Species	9606
+36512189	588	592	PCOS	Disease	MESH:D011085
+36512189	593	598	women	Species	9606
+36512189	622	627	women	Species	9606
+36512189	762	767	women	Species	9606
+36512189	773	777	PCOS	Disease	MESH:D011085
+36512189	1342	1347	women	Species	9606
+36512189	1353	1357	PCOS	Disease	MESH:D011085
+36512189	1436	1439	Akt	Gene	207
+36512189	1447	1451	Rap1	Gene	5906
+36512189	1497	1503	cancer	Disease	MESH:D009369
+36512189	1512	1536	hepatocellular carcinoma	Disease	MESH:D006528
+36512189	1541	1555	gastric cancer	Disease	MESH:D013274
+36512189	1592	1606	brain disorder	Disease	MESH:D001927
+36512189	1624	1643	Alzheimer's disease	Disease	MESH:D000544
+36512189	1648	1666	Huntington disease	Disease	MESH:D006816
+36512189	1698	1704	PRDM10	Gene	56980
+36512189	1706	1711	FGFR2	Gene	2263
+36512189	1713	1718	IGF1R	Gene	3480
+36512189	1724	1728	FLT1	Gene	2321
+36512189	1788	1795	NDUFAB1	Gene	4706
+36512189	1800	1804	NME2	Gene	4831
+36512189	1941	1945	PCOS	Disease	MESH:D011085
+36512189	1946	1951	women	Species	9606
+36512189	Association	MESH:D011085	2263
+36512189	Association	MESH:D011085	4706
+36512189	Association	MESH:D011085	2321
+36512189	Association	MESH:D011085	5906
+36512189	Association	MESH:D011085	4831
+36512189	Association	MESH:D011085	3480
+36512189	Association	MESH:D008055	MESH:D011085
+36512189	Association	MESH:D011085	56980
+36512189	Association	MESH:D011085	207
+

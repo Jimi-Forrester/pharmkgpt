@@ -1,0 +1,59 @@
+22186599|t|Coenzyme Q10 protects against amyloid beta-induced neuronal cell death by inhibiting oxidative stress and activating the P13K pathway.
+22186599|a|Oxidative stress plays critical roles in the pathogenic mechanisms of several neurodegenerative disorders including Alzheimer's disease (AD), thus much research effort has focused on antioxidants as potential treatment agents for AD. Coenzyme Q10 (CoQ10) is known to have powerful antioxidant effects. We investigated the neuroprotective effects of CoQ10 against Amyloid beta(25-35) (Abeta(25-35))-induced neurotoxicity in rat cortical neurons. To evaluate the neuroprotective effects of CoQ10 on Abeta(25-35)-injured neurons, primary cultured cortical neurons were treated with several concentrations of CoQ10 and/or Abeta(25-35) for 48h. CoQ10 protected neuronal cells against Abeta(25-35)-induced neurotoxicity in a concentration-dependent manner. These neuroprotective effects of CoQ10 were blocked by LY294002 (10muM), a phosphatidylinositol 3-kinase (PI3K) inhibitor. Abeta(25-35) concentration-dependent increased free radical levels in rat cortical neurons, while combined treatment with CoQ10 reduced these free radical levels in a dose-dependent manner. Meanwhile, CoQ10 treatment of Abeta(25-35)-injured primary cultured cortical neurons increased the expression levels of p85aPI3K, phosphorylated Akt, phosphorylated glycogen synthase kinase-3beta, and heat shock transcription factor, which are proteins related to neuronal cell survival, and decreased the levels of cytosolic cytochrome c and cleaved caspase-3, which are associated with neuronal cell death. Together, these results suggest that the neuroprotective effects of CoQ10 on Abeta(25-35) neurotoxicity are mediated by inhibition of oxidative stress together with activation of the PI3-K/Akt pathway.
+22186599	0	12	Coenzyme Q10	Chemical	MESH:C024989
+22186599	51	59	neuronal	Disease	MESH:D009410
+22186599	121	125	P13K	ProteinMutation	tmVar:p|SUB|P|13|K;HGVS:p.P13K;VariantGroup:0
+22186599	213	240	neurodegenerative disorders	Disease	MESH:D019636
+22186599	251	270	Alzheimer's disease	Disease	MESH:D000544
+22186599	272	274	AD	Disease	MESH:D000544
+22186599	365	367	AD	Disease	MESH:D000544
+22186599	369	381	Coenzyme Q10	Chemical	MESH:C024989
+22186599	383	388	CoQ10	Chemical	MESH:C024989
+22186599	484	489	CoQ10	Chemical	MESH:C024989
+22186599	519	531	Abeta(25-35)	Gene	54226
+22186599	541	554	neurotoxicity	Disease	MESH:D020258
+22186599	558	561	rat	Species	10116
+22186599	623	628	CoQ10	Chemical	MESH:C024989
+22186599	632	644	Abeta(25-35)	Gene	54226
+22186599	740	745	CoQ10	Chemical	MESH:C024989
+22186599	753	765	Abeta(25-35)	Gene	54226
+22186599	775	780	CoQ10	Chemical	MESH:C024989
+22186599	791	799	neuronal	Disease	MESH:D009410
+22186599	814	826	Abeta(25-35)	Gene	54226
+22186599	835	848	neurotoxicity	Disease	MESH:D020258
+22186599	919	924	CoQ10	Chemical	MESH:C024989
+22186599	941	949	LY294002	Chemical	MESH:C085911
+22186599	961	990	phosphatidylinositol 3-kinase	Gene	85243
+22186599	1009	1021	Abeta(25-35)	Gene	54226
+22186599	1079	1082	rat	Species	10116
+22186599	1131	1136	CoQ10	Chemical	MESH:C024989
+22186599	1210	1215	CoQ10	Chemical	MESH:C024989
+22186599	1229	1241	Abeta(25-35)	Gene	54226
+22186599	1344	1347	Akt	Gene	24185
+22186599	1364	1394	glycogen synthase kinase-3beta	Gene	84027
+22186599	1463	1471	neuronal	Disease	MESH:D009410
+22186599	1550	1559	caspase-3	Gene	25402
+22186599	1587	1595	neuronal	Disease	MESH:D009410
+22186599	1676	1681	CoQ10	Chemical	MESH:C024989
+22186599	1685	1697	Abeta(25-35)	Gene	54226
+22186599	1698	1711	neurotoxicity	Disease	MESH:D020258
+22186599	1797	1800	Akt	Gene	24185
+22186599	Association	MESH:D009410	84027
+22186599	Positive_Correlation	MESH:C024989	HGVS:p.P13K
+22186599	Association	MESH:D009410	HGVS:p.P13K
+22186599	Positive_Correlation	MESH:D020258	54226
+22186599	Association	MESH:D009410	24185
+22186599	Association	24185	54226
+22186599	Negative_Correlation	MESH:C024989	25402
+22186599	Association	MESH:D020258	24185
+22186599	Negative_Correlation	MESH:C024989	54226
+22186599	Negative_Correlation	MESH:C024989	MESH:D020258
+22186599	Association	MESH:C024989	85243
+22186599	Association	54226	84027
+22186599	Positive_Correlation	MESH:C024989	84027
+22186599	Positive_Correlation	MESH:C024989	24185
+22186599	Negative_Correlation	MESH:C024989	MESH:C085911
+22186599	Negative_Correlation	MESH:C085911	85243
+22186599	Negative_Correlation	MESH:C024989	MESH:D009410
+22186599	Association	MESH:D009410	25402
+

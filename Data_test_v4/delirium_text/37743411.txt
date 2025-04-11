@@ -1,0 +1,34 @@
+37743411|t|Secreted LRPAP1 binds and triggers IFNAR1 degradation to facilitate virus evasion from cellular innate immunity.
+37743411|a|The crucial role of interferon (IFN) signaling is well known in the restriction or eradication of pathogen invasion. Viruses take a variety of ways to antagonize host defense through eliminating IFN-signaling intracellularly for decades. However, the way by viruses target IFN-signaling extracellularly has not been discovered. Infection by both coronavirus SARS-CoV-2 and enterovirus 71 (EV71 or EV-A71) can cause severe diseases such as neurological disorders and even death in children.1-3 Here, we show evidence that the protease of SARS-CoV-2 (3CLpro) and EV71 (2Apro) upregulates the expression and secretion of LDL-receptor-related protein-associated protein 1 (LRPAP1). As a ligand, the N-terminus of secreted LRPAP1 binds with the extracellular domain of IFNAR1 that triggers the receptor ubiquitination and degradation and promotes virus infection both in vitro, ex vivo in the mouse brain, and in vivo in newborn mice. A small peptide from the N-terminus of LRPAP1 effectively binds and causes IFNAR1 degradation that enhances both DNA and RNA viral infections, including herpesvirus HSV-1, hepatitis B virus (HBV), EV71, and beta-coronavirus HCoV-OC43; whereas alpha2M, a LRPAP1 inhibitor, arrests virus infections by stabilizing IFNAR1. Our study demonstrates a new mechanism used by viruses for evading host cell immunity, supporting a strategy for developing pan-antiviral drugs.
+37743411	9	15	LRPAP1	Gene	16976
+37743411	35	41	IFNAR1	Gene	15975
+37743411	133	143	interferon	Gene	3439
+37743411	145	148	IFN	Gene	3439
+37743411	308	311	IFN	Gene	3439
+37743411	386	389	IFN	Gene	3439
+37743411	441	450	Infection	Disease	MESH:D007239
+37743411	552	574	neurological disorders	Disease	MESH:D009461
+37743411	584	589	death	Disease	MESH:D003643
+37743411	662	668	3CLpro	Gene	43740578
+37743411	680	685	2Apro	Gene	
+37743411	731	780	LDL-receptor-related protein-associated protein 1	Gene	4043
+37743411	782	788	LRPAP1	Gene	4043
+37743411	831	837	LRPAP1	Gene	16976
+37743411	877	883	IFNAR1	Gene	15975
+37743411	961	970	infection	Disease	MESH:D007239
+37743411	1082	1088	LRPAP1	Gene	16976
+37743411	1118	1124	IFNAR1	Gene	15975
+37743411	1168	1184	viral infections	Disease	MESH:D014777
+37743411	1286	1293	alpha2M	Gene	232345
+37743411	1297	1303	LRPAP1	Gene	16976
+37743411	1323	1339	virus infections	Disease	MESH:D014777
+37743411	1355	1361	IFNAR1	Gene	15975
+37743411	Association	MESH:D007239	16976
+37743411	Association	MESH:D014777	16976
+37743411	Association	15975	16976
+37743411	Negative_Correlation	16976	232345
+37743411	Association	15975	232345
+37743411	Negative_Correlation	MESH:D014777	232345
+37743411	Positive_Correlation	4043	43740578
+37743411	Association	MESH:D014777	15975
+

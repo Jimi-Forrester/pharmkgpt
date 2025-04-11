@@ -1,0 +1,23 @@
+22413858|t|Effects of point substitutions on the structure of toxic Alzheimer's beta-amyloid channels: atomic force microscopy and molecular dynamics simulations.
+22413858|a|Alzheimer's disease (AD) is a misfolded protein disease characterized by the accumulation of beta-amyloid (Abeta) peptide as senile plaques, progressive neurodegeneration, and memory loss. Recent evidence suggests that AD pathology is linked to the destabilization of cellular ionic homeostasis mediated by toxic pores made of Abeta peptides. Understanding the exact nature by which these pores conduct electrical and molecular signals could aid in identifying potential therapeutic targets for the prevention and treatment of AD. Here using atomic force microscopy (AFM) and molecular dynamics (MD) simulations, we compared the imaged pore structures with models to predict channel conformations as a function of amino acid sequence. Site-specific amino acid (AA) substitutions in the wild-type Abeta(1-42) peptide yield information regarding the location and significance of individual AA residues to its characteristic structure-activity relationship. We selected two AAs that our MD simulation predicted to inhibit or permit pore conductance. The substitution of Phe19 with Pro has previously been shown to eliminate conductance in the planar lipid bilayer system. Our MD simulations predict a channel-like shape with a collapsed pore, which is supported by the AFM channel images. We suggest that proline, a known beta-sheet breaker, creates a kink in the center of the pore and prevents conductance via blockage. This residue may be a viable target for drug development studies aiming to inhibit Abeta from inducing ionic destabilization toxicity. The substitution of Phe20 with Cys exhibits pore structures indistinguishable from the wild type in AFM images. MD simulations predict site 20 to face the solvated pore. Overall, the mutations support the previously predicted beta-sheet-based channel structure.
+22413858	57	68	Alzheimer's	Disease	MESH:D000544
+22413858	152	171	Alzheimer's disease	Disease	MESH:D000544
+22413858	173	175	AD	Disease	MESH:D000544
+22413858	259	264	Abeta	Gene	351
+22413858	305	322	neurodegeneration	Disease	MESH:D019636
+22413858	328	339	memory loss	Disease	MESH:D008569
+22413858	371	373	AD	Disease	MESH:D000544
+22413858	479	484	Abeta	Gene	351
+22413858	679	681	AD	Disease	MESH:D000544
+22413858	1219	1233	Phe19 with Pro	ProteinMutation	tmVar:p|SUB|F|19|P;HGVS:p.F19P;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+22413858	1299	1304	lipid	Chemical	MESH:D008055
+22413858	1454	1461	proline	Chemical	MESH:D011392
+22413858	1654	1659	Abeta	Gene	351
+22413858	1696	1704	toxicity	Disease	MESH:D064420
+22413858	1726	1740	Phe20 with Cys	ProteinMutation	tmVar:p|SUB|F|20|C;HGVS:p.F20C;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+22413858	Association	MESH:D000544	351
+22413858	Association	MESH:D011392	351
+22413858	Negative_Correlation	MESH:D000544	HGVS:p.F19P;CorrespondingGene:351
+22413858	Association	MESH:D064420	351
+22413858	Association	MESH:D000544	351
+

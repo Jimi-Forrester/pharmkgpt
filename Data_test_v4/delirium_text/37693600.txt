@@ -1,0 +1,74 @@
+37693600|t|DNA hypomethylation promotes the expression of CASPASE-4 which exacerbates neuroinflammation and amyloid-beta deposition in Alzheimer's disease The Ohio State University College of Medicine.
+37693600|a|Alzheimer's Disease (AD) is the 6th leading cause of death in the US. It is established that neuroinflammation contributes to the synaptic loss, neuronal death, and symptomatic decline of AD patients. Accumulating evidence suggests a critical role for microglia, innate immune phagocytes of the brain. For instance, microglia release pro-inflammatory products such as IL-1beta which is highly implicated in AD pathobiology. The mechanisms underlying the transition of microglia to proinflammatory promoters of AD remain largely unknown. To address this gap, we performed Reduced Representation Bisulfite Sequencing (RRBS) to profile global DNA methylation changes in human AD brains compared to no disease controls. We identified differential DNA methylation of CASPASE-4 (CASP4), which when expressed, can be involved in generation of IL-1beta and is predominantly expressed in immune cells. DNA upstream of the CASP4 transcription start site was hypomethylated in human AD brains, which was correlated with increased expression of CASP4. Furthermore, microglia from a mouse model of AD (5xFAD) express increased levels of CASP4 compared to wild-type (WT) mice. To study the role of CASP4 in AD, we developed a novel mouse model of AD lacking the mouse ortholog of CASP4, CASP11, which is encoded by mouse Caspase-4 (5xFAD/ Casp4 -/- ). The expression of CASP11 was associated with increased accumulation of pathologic protein aggregate amyloid-beta (Abeta) and increased microglial production of IL-1beta in 5xFAD mice. Utilizing RNA sequencing, we determined that CASP11 promotes unique transcriptomic phenotypes in 5xFAD mouse brains, including alterations of neuroinflammatory and chemokine signaling pathways. Notably, in vitro , CASP11 promoted generation of IL-1beta from macrophages in response to cytosolic Abeta through cleavage of downstream effector Gasdermin D (G SDMD). We describe a role for CASP11 and GSDMD in the generation of IL-1beta in response to Abeta and the progression of pathologic inflammation in AD. Overall, our results demonstrate that overexpression of CASP4 due to differential methylation in AD microglia contributes to the progression of AD pathobiology, thus identifying CASP4 as a potential target for immunotherapies for the treatment of AD.
+37693600	47	56	CASPASE-4	Gene	837
+37693600	75	92	neuroinflammation	Disease	MESH:D000090862
+37693600	97	109	amyloid-beta	Disease	MESH:C000718787
+37693600	124	143	Alzheimer's disease	Disease	MESH:D000544
+37693600	191	210	Alzheimer's Disease	Disease	MESH:D000544
+37693600	212	214	AD	Disease	MESH:D000544
+37693600	244	249	death	Disease	MESH:D003643
+37693600	284	301	neuroinflammation	Disease	MESH:D000090862
+37693600	321	334	synaptic loss	Disease	MESH:D012183
+37693600	336	350	neuronal death	Disease	MESH:D009410
+37693600	379	381	AD	Disease	MESH:D000544
+37693600	529	541	inflammatory	Disease	MESH:D007249
+37693600	559	567	IL-1beta	Gene	3553
+37693600	598	600	AD	Disease	MESH:D000544
+37693600	672	687	proinflammatory	Disease	
+37693600	701	703	AD	Disease	MESH:D000544
+37693600	864	866	AD	Disease	MESH:D000544
+37693600	953	962	CASPASE-4	Gene	12363
+37693600	964	969	CASP4	Gene	837
+37693600	1027	1035	IL-1beta	Gene	3553
+37693600	1104	1109	CASP4	Gene	837
+37693600	1163	1165	AD	Disease	MESH:D000544
+37693600	1224	1229	CASP4	Gene	837
+37693600	1276	1278	AD	Disease	MESH:D000544
+37693600	1280	1285	5xFAD	Disease	
+37693600	1315	1320	CASP4	Gene	12363
+37693600	1375	1380	CASP4	Gene	12363
+37693600	1384	1386	AD	Disease	MESH:D000544
+37693600	1424	1426	AD	Disease	MESH:D000544
+37693600	1457	1462	CASP4	Gene	12363
+37693600	1464	1470	CASP11	Gene	12363
+37693600	1498	1507	Caspase-4	Gene	12363
+37693600	1509	1514	5xFAD	CellLine	CVCL:5U93
+37693600	1516	1521	Casp4	Gene	12363
+37693600	1547	1553	CASP11	Gene	12363
+37693600	1643	1648	Abeta	Gene	11820
+37693600	1689	1697	IL-1beta	Gene	16176
+37693600	1701	1706	5xFAD	Disease	
+37693600	1758	1764	CASP11	Gene	12363
+37693600	1810	1815	5xFAD	Disease	
+37693600	1855	1872	neuroinflammatory	Disease	MESH:D000090862
+37693600	1927	1933	CASP11	Gene	12363
+37693600	1957	1965	IL-1beta	Gene	16176
+37693600	2008	2013	Abeta	Gene	11820
+37693600	2054	2065	Gasdermin D	Chemical	-
+37693600	2067	2073	G SDMD	Chemical	-
+37693600	2099	2105	CASP11	Gene	12363
+37693600	2110	2115	GSDMD	Gene	69146
+37693600	2137	2145	IL-1beta	Gene	16176
+37693600	2161	2166	Abeta	Gene	11820
+37693600	2201	2213	inflammation	Disease	MESH:D007249
+37693600	2217	2219	AD	Disease	MESH:D000544
+37693600	2277	2282	CASP4	Gene	12363
+37693600	2318	2320	AD	Disease	MESH:D000544
+37693600	2365	2367	AD	Disease	MESH:D000544
+37693600	2399	2404	CASP4	Gene	12363
+37693600	2468	2470	AD	Disease	MESH:D000544
+37693600	Association	MESH:D000090862	12363
+37693600	Positive_Correlation	12363	16176
+37693600	Association	16176	69146
+37693600	Association	12363	3553
+37693600	Positive_Correlation	11820	12363
+37693600	Association	MESH:D007249	69146
+37693600	Association	MESH:D000544	3553
+37693600	Positive_Correlation	MESH:D000544	837
+37693600	Association	MESH:C000718787	837
+37693600	Association	MESH:D000090862	837
+37693600	Association	11820	69146
+37693600	Positive_Correlation	11820	16176
+37693600	Positive_Correlation	3553	837
+37693600	Association	MESH:D000544	12363
+

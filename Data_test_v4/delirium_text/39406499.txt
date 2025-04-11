@@ -1,0 +1,20 @@
+39406499|t|Characterising tandem repeat complexities across long-read sequencing platforms with TREAT and otter.
+39406499|a|Tandem repeats (TR) play important roles in genomic variation and disease risk in humans. Long-read sequencing allows for the accurate characterization of TRs, however, the underlying bioinformatics perspectives remain challenging. We present otter and TREAT: otter is a fast targeted local assembler, cross-compatible across different sequencing platforms. It is integrated in TREAT, an end-to-end workflow for TR characterization, visualization and analysis across multiple genomes. In a comparison with existing tools based on long-read sequencing data from both Oxford Nanopore Technology (ONT, Simplex and Duplex) and PacBio (Sequel 2 and Revio), otter and TREAT achieved state-of-the-art genotyping and motif characterisation accuracy. Applied to clinically relevant TRs, TREAT/otter significantly identified individuals with pathogenic TR expansions. When applied to a case-control setting, we significantly replicated previously reported associations of TRs with Alzheimer's Disease, including those near or within APOC1 (p=2.63x10-9), SPI1 (p=6.5x10-3) and ABCA7 (p=0.04) genes. We used TREAT/otter to systematically evaluate potential biases when genotyping TRs using diverse ONT and PacBio long-read sequencing datasets. We showed that, in rare cases (0.06%), long-read sequencing suffers from coverage drops in TRs, including the disease-associated TRs in ABCA7 and RFC1 genes. Such coverage drops can lead to TR misgenotyping, hampering the accurate characterization of TR alleles. Taken together, our tools can accurately genotype TR across different sequencing technologies and with minimal requirements, allowing end-to-end analysis and comparisons of TR in human genomes, with broad applications in research and clinical fields.
+39406499	184	190	humans	Species	9606
+39406499	257	260	TRs	Disease	
+39406499	875	878	TRs	Disease	
+39406499	1064	1067	TRs	Disease	
+39406499	1073	1092	Alzheimer's Disease	Disease	MESH:D000544
+39406499	1125	1130	APOC1	Gene	341
+39406499	1146	1150	SPI1	Gene	6688
+39406499	1168	1173	ABCA7	Gene	10347
+39406499	1270	1273	TRs	Disease	
+39406499	1425	1428	TRs	Disease	
+39406499	1463	1466	TRs	Disease	
+39406499	1470	1475	ABCA7	Gene	10347
+39406499	1480	1484	RFC1	Gene	5981
+39406499	1776	1781	human	Species	9606
+39406499	Association	MESH:D000544	341
+39406499	Association	MESH:D000544	10347
+39406499	Association	MESH:D000544	6688
+

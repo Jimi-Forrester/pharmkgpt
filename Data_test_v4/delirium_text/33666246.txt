@@ -1,0 +1,43 @@
+33666246|t|Healthcare disparities among anticoagulation therapies for severe COVID-19 patients in the multi-site VIRUS registry.
+33666246|a|Here we analyze hospitalized andintensive care unit coronavirus disease 2019 (COVID-19) patient outcomes from the international VIRUS registry (https://clinicaltrials.gov/ct2/show/NCT04323787). We find that COVID-19 patients administered unfractionated heparin but not enoxaparin have a higher mortality-rate (390 of 1012 = 39%) compared to patients administered enoxaparin but not unfractionated heparin (270 of 1939 = 14%), presenting a risk ratio of 2.79 (95% confidence interval [CI]: [2.42, 3.16]; p = 4.45e-52). This difference persists even after balancing on a number of covariates including demographics, comorbidities, admission diagnoses, and method of oxygenation, with an increased mortality rate on discharge from the hospital of 37% (268 of 733) for unfractionated heparin versus 22% (154 of 711) for enoxaparin, presenting a risk ratio of 1.69 (95% CI: [1.42, 2.00]; p = 1.5e-8). In these balanced cohorts, a number of complications occurred at an elevated rate for patients administered unfractionated heparin compared to patients administered enoxaparin, including acute kidney injury, acute cardiac injury, septic shock, and anemia. Furthermore, a higher percentage of Black/African American COVID patients (414 of 1294 [32%]) were noted to receive unfractionated heparin compared to White/Caucasian COVID patients (671 of 2644 [25%]), risk ratio 1.26 (95% CI: [1.14, 1.40]; p = 7.5e-5). After balancing upon available clinical covariates, this difference in anticoagulant use remained statistically significant (311 of 1047 [30%] for Black/African American vs. 263 of 1047 [25%] for White/Caucasian, p = .02, risk ratio 1.18; 95% CI: [1.03, 1.36]). While retrospective studies cannot suggest any causality, these findings motivate the need for follow-up prospective research into the observed racial disparity in anticoagulant use and outcomes for severe COVID-19 patients.
+33666246	66	74	COVID-19	Disease	MESH:D000086382
+33666246	75	83	patients	Species	9606
+33666246	170	194	coronavirus disease 2019	Disease	MESH:D000086382
+33666246	196	204	COVID-19	Disease	MESH:D000086382
+33666246	206	213	patient	Species	9606
+33666246	325	333	COVID-19	Disease	MESH:D000086382
+33666246	334	342	patients	Species	9606
+33666246	371	378	heparin	Chemical	MESH:D006493
+33666246	387	397	enoxaparin	Chemical	MESH:D017984
+33666246	459	467	patients	Species	9606
+33666246	481	491	enoxaparin	Chemical	MESH:D017984
+33666246	515	522	heparin	Chemical	MESH:D006493
+33666246	898	905	heparin	Chemical	MESH:D006493
+33666246	934	944	enoxaparin	Chemical	MESH:D017984
+33666246	1100	1108	patients	Species	9606
+33666246	1137	1144	heparin	Chemical	MESH:D006493
+33666246	1157	1165	patients	Species	9606
+33666246	1179	1189	enoxaparin	Chemical	MESH:D017984
+33666246	1201	1220	acute kidney injury	Disease	MESH:D058186
+33666246	1228	1242	cardiac injury	Disease	MESH:D006331
+33666246	1244	1256	septic shock	Disease	MESH:D012772
+33666246	1262	1268	anemia	Disease	MESH:D000740
+33666246	1329	1334	COVID	Disease	MESH:D000086382
+33666246	1335	1343	patients	Species	9606
+33666246	1401	1408	heparin	Chemical	MESH:D006493
+33666246	1437	1442	COVID	Disease	MESH:D000086382
+33666246	1443	1451	patients	Species	9606
+33666246	1993	2001	COVID-19	Disease	MESH:D000086382
+33666246	2002	2010	patients	Species	9606
+33666246	Positive_Correlation	MESH:D017984	MESH:D006331
+33666246	Negative_Correlation	MESH:D006493	MESH:D000086382
+33666246	Comparison	MESH:D006493	MESH:D017984
+33666246	Positive_Correlation	MESH:D017984	MESH:D058186
+33666246	Positive_Correlation	MESH:D017984	MESH:D000740
+33666246	Positive_Correlation	MESH:D006493	MESH:D006331
+33666246	Positive_Correlation	MESH:D017984	MESH:D012772
+33666246	Positive_Correlation	MESH:D006493	MESH:D012772
+33666246	Positive_Correlation	MESH:D006493	MESH:D000740
+33666246	Negative_Correlation	MESH:D017984	MESH:D000086382
+33666246	Positive_Correlation	MESH:D006493	MESH:D058186
+

@@ -1,0 +1,17 @@
+37973132|t|Dynamic Nomogram for Predicting the Risk of Perioperative Neurocognitive Disorders in Adults.
+37973132|a|BACKGROUND: Simple and rapid tools for screening high-risk patients for perioperative neurocognitive disorders (PNDs) are urgently needed to improve patient outcomes. We developed an online tool with machine-learning algorithms using routine variables based on multicenter data. METHODS: The entire dataset was composed of 49,768 surgical patients from 3 representative academic hospitals in China. Surgical patients older than 45 years, those undergoing general anesthesia, and those without a history of PND were enrolled. When the patient's discharge diagnosis was PND, the patient was in the PND group. Patients in the non-PND group were randomly extracted from the big data platform according to the surgical type, age, and source of data in the PND group with a ratio of 3:1. After data preprocessing and feature selection, general linear model (GLM), artificial neural network (ANN), and naive Bayes (NB) were used for model development and evaluation. Model performance was evaluated by the area under the receiver operating characteristic curve (ROCAUC), the area under the precision-recall curve (PRAUC), the Brier score, the index of prediction accuracy (IPA), sensitivity, specificity, etc. The model was also externally validated on the multiparameter intelligent monitoring in intensive care (MIMIC) IV database. Afterward, we developed an online visualization tool to preoperatively predict patients' risk of developing PND based on the models with the best performance. RESULTS: A total of 1051 patients (242 PND and 809 non-PND) and 2884 patients (6.2% patients with PND) were analyzed on multicenter data (model development, test [internal validation], external validation-1) and MIMIC IV dataset (external validation-2). The model performance based on GLM was much better than that based on ANN and NB. The best-performing GLM model on validation-1 dataset achieved ROCAUC (0.874; 95% confidence interval [CI], 0.833-0.915), PRAUC (0.685; 95% CI, 0.584-0.786), sensitivity (72.6%; 95% CI, 61.4%-81.5%), specificity (84.4%; 95% CI, 79.3%-88.4%), Brier score (0.131), and IPA (44.7%), and of which the ROCAUC (0.761, 95% CI, 0.712-0.809), the PRAUC (0.475, 95% CI, 0.370-0.581), Brier score (0.053), and IPA (76.8%) on validation-2 dataset. Afterward, we developed an online tool (https://pnd-predictive-model-dynnom.shinyapps.io/ DynNomapp/) with 10 routine variables for preoperatively screening high-risk patients. CONCLUSIONS: We developed a simple and rapid online tool to preoperatively screen patients' risk of PND using GLM based on multicenter data, which may help medical staff's decision-making regarding perioperative management strategies to improve patient outcomes.
+37973132	58	82	Neurocognitive Disorders	Disease	MESH:D019965
+37973132	180	204	neurocognitive disorders	Disease	MESH:D019965
+37973132	206	210	PNDs	Disease	MESH:D019965
+37973132	600	603	PND	Disease	
+37973132	662	665	PND	Disease	
+37973132	690	693	PND	Disease	
+37973132	721	724	PND	Disease	
+37973132	845	848	PND	Disease	
+37973132	1385	1394	intensive	Disease	MESH:C000657744
+37973132	1529	1532	PND	Disease	
+37973132	1619	1622	PND	Disease	
+37973132	1635	1638	PND	Disease	
+37973132	1678	1681	PND	Disease	
+37973132	2629	2632	PND	Disease	
+

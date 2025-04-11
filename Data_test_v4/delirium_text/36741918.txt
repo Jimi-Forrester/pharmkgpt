@@ -1,0 +1,36 @@
+36741918|t|Disruption of DYRK1A-induced hyperphosphorylation of amyloid-beta and tau protein in Alzheimer's disease: An integrative molecular modeling approach.
+36741918|a|Alzheimer's disease (AD) is a neurological disorder caused by the abnormal accumulation of hyperphosphorylated proteins. Dual-specificity tyrosine phosphorylation-regulated kinase 1A (DYRK1A) is a dual phosphorylation enzyme which phosphorylates the amyloid-beta (Abeta) and neurofibrillary tangles (NFTs). A high throughput virtual screening approach was applied to screen a library of 98,071 compounds against DYRK1A using different programs including AutoDock Vina, Smina, and idock. Based on the binding affinities, we selected 330 compounds for absorption, distribution, metabolism, excretion, and toxicity (ADMET) analysis. Various pharmacokinetics parameters were predicted using the admetSAR server, and based on the pharmacokinetics results, 14 compounds were selected for cross-docking analysis using AutoDock. Cross-docking analysis revealed four compounds, namely, ZINC3843365 (-11.07 kcal/mol-1), ZINC2123081 (-10.93 kcal/mol-1), ZINC5220992 (-10.63 kcal/mol-1), and ZINC68569602 (-10.35 kcal/mol-1), which had the highest negative affinity scores compared to the 10 other molecules analyzed. Density functional theory (DFT) analysis was conducted for all the four top-ranked compounds. The molecular interaction stability of these four compounds with DYRK1A has been evaluated using molecular dynamics (MD) simulations on 100 nanoseconds followed by principal component analysis (PCA) and binding free energy calculations. The Gibbs free energy landscape analysis suggested the metastable state and folding pattern of selected docking complexes. Based on the present study outcome, we propose four antagonists, viz., ZINC3843365, ZINC2123081, ZINC5220992, and ZINC68569602 as potential inhibitors against DYRK1A and to reduce the amyloid-beta and neurofibrillary tangle burden. These screened molecules can be further investigated using a number of in vitro and in vivo experiments.
+36741918	14	20	DYRK1A	Gene	1859
+36741918	53	65	amyloid-beta	Gene	351
+36741918	70	73	tau	Gene	4137
+36741918	85	104	Alzheimer's disease	Disease	MESH:D000544
+36741918	150	169	Alzheimer's disease	Disease	MESH:D000544
+36741918	171	173	AD	Disease	MESH:D000544
+36741918	180	201	neurological disorder	Disease	MESH:D009461
+36741918	271	332	Dual-specificity tyrosine phosphorylation-regulated kinase 1A	Gene	1859
+36741918	334	340	DYRK1A	Gene	1859
+36741918	400	412	amyloid-beta	Gene	351
+36741918	414	419	Abeta	Gene	351
+36741918	425	448	neurofibrillary tangles	Disease	MESH:D055956
+36741918	450	454	NFTs	Disease	MESH:D055956
+36741918	562	568	DYRK1A	Gene	1859
+36741918	753	761	toxicity	Disease	MESH:D064420
+36741918	1027	1038	ZINC3843365	Chemical	-
+36741918	1060	1071	ZINC2123081	Chemical	-
+36741918	1093	1104	ZINC5220992	Chemical	-
+36741918	1130	1142	ZINC68569602	Chemical	-
+36741918	1415	1421	DYRK1A	Gene	1859
+36741918	1781	1792	ZINC3843365	Chemical	-
+36741918	1794	1805	ZINC2123081	Chemical	-
+36741918	1807	1818	ZINC5220992	Chemical	-
+36741918	1824	1836	ZINC68569602	Chemical	-
+36741918	1869	1875	DYRK1A	Gene	1859
+36741918	1894	1906	amyloid-beta	Gene	351
+36741918	1911	1933	neurofibrillary tangle	Disease	MESH:D055956
+36741918	Association	MESH:D055956	1859
+36741918	Association	MESH:D000544	1859
+36741918	Positive_Correlation	1859	351
+36741918	Association	MESH:D000544	4137
+36741918	Positive_Correlation	1859	4137
+36741918	Association	MESH:D000544	351
+

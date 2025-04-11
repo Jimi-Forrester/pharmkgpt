@@ -1,0 +1,70 @@
+39634424|t|Identification of PSMD2 as a promising biomarker for pancreatic cancer patients based on comprehensive bioinformatics and in vitro studies.
+39634424|a|Background: Pancreatic cancer patients have limited treatment options and extremely poor prognosis. Dysregulations of proteasome 26S subunit, non-ATPases (PSMDs) contribute to the development of various cancers, whereas the significance of PSMDs in pancreatic cancer is poorly understood. In the present study, we intended to explore the therapeutic potential of PSMDs in pancreatic cancer. Methods: Based on TCGA database, the expression of PSMDs was analyzed in pancreatic cancer patients. Multivariate Cox regression and Kaplan-Meier survival analyses were conducted to investigate the prognostic value of PSMDs. The correlations between the expression of PSMD2/14 and immune cell infiltration, immune checkpoint genes' expression, enrichment of signaling pathways, and the sensitivity of chemotherapies were also evaluated. Knockdown and overexpression experiments were performed to explore the biological function of PSMD2/14. Immunoblotting was conducted to detect the downstream signaling pathway of PSMD2. Results: Most of the PSMDs, except for PSMD5 and PSMD6, were significantly upregulated in pancreatic cancer tissues. Patients with higher grade tumor had increased mRNA levels of PSMD1/2/5/7/8/11/12/14. Survival and multivariate Cox regression analyses indicated that PSMD2 and PSMD14 were biomarkers of worse prognosis. High expression of PSMD2 and PSMD14 was positively correlated with the levels immune checkpoint genes but not with the infiltration of specific immune cell types. In vitro knockdown of PSMD2, but not PSMD14, increased the apoptosis, gemcitabine's toxicity and inhibited the growth capacity of MIA cells. Conversely, decreased apoptosis and gemcitabine sensitivity along with accelerated cell proliferation ability were observed in PSMD2-overexpressing PANC-1 cells. Mechanistically, PSMD2 activated the AKT/mTOR signaling pathway, consistent with the findings from KEGG and GSEA analysis. The AKT specific inhibitor MK-2206 exhibited higher cytotoxicity in MIA and PANC-1 cells with high PSMD2 expression. Importantly, MK-2206 largely reversed the oncogenic functions of PSMD2 on the growth and proliferation of PANC-1 cells. Conclusion: In summary, our study provided a comprehensive bioinformatics analysis of PSMDs in pancreatic cancer. We identified that PSMD2 acted as a tumor-promoting protein in pancreatic cancer through the activation of the AKT/mTOR pathway. The overexpression of PSMD2 may be a potential biomarker that predicts the response of pancreatic cancer patients to AKT inhibitor treatments.
+39634424	18	23	PSMD2	Gene	5708
+39634424	53	70	pancreatic cancer	Disease	MESH:D010190
+39634424	71	79	patients	Species	9606
+39634424	152	169	Pancreatic cancer	Disease	MESH:D010190
+39634424	170	178	patients	Species	9606
+39634424	343	350	cancers	Disease	MESH:D009369
+39634424	389	406	pancreatic cancer	Disease	MESH:D010190
+39634424	503	508	PSMDs	Chemical	-
+39634424	512	529	pancreatic cancer	Disease	MESH:D010190
+39634424	582	587	PSMDs	Disease	
+39634424	604	621	pancreatic cancer	Disease	MESH:D010190
+39634424	622	630	patients	Species	9606
+39634424	749	754	PSMDs	Disease	
+39634424	1147	1152	PSMD2	Gene	5708
+39634424	1175	1180	PSMDs	Disease	
+39634424	1193	1198	PSMD5	Gene	5711
+39634424	1203	1208	PSMD6	Gene	9861
+39634424	1244	1261	pancreatic cancer	Disease	MESH:D010190
+39634424	1271	1279	Patients	Species	9606
+39634424	1298	1303	tumor	Disease	MESH:D009369
+39634424	1422	1427	PSMD2	Gene	5708
+39634424	1432	1438	PSMD14	Gene	10213
+39634424	1494	1499	PSMD2	Gene	5708
+39634424	1504	1510	PSMD14	Gene	10213
+39634424	1660	1665	PSMD2	Gene	5708
+39634424	1675	1681	PSMD14	Gene	10213
+39634424	1708	1719	gemcitabine	Chemical	MESH:D000093542
+39634424	1722	1730	toxicity	Disease	MESH:D064420
+39634424	1768	1771	MIA	Disease	
+39634424	1815	1826	gemcitabine	Chemical	MESH:D000093542
+39634424	1906	1911	PSMD2	Gene	5708
+39634424	1927	1933	PANC-1	CellLine	CVCL:0480
+39634424	1958	1963	PSMD2	Gene	5708
+39634424	1978	1981	AKT	Gene	207
+39634424	1982	1986	mTOR	Gene	2475
+39634424	2068	2071	AKT	Gene	207
+39634424	2091	2098	MK-2206	Chemical	MESH:C548887
+39634424	2116	2128	cytotoxicity	Disease	MESH:D064420
+39634424	2132	2135	MIA	CellLine	CVCL:0428
+39634424	2140	2146	PANC-1	CellLine	CVCL:0480
+39634424	2163	2168	PSMD2	Gene	5708
+39634424	2194	2201	MK-2206	Chemical	MESH:C548887
+39634424	2246	2251	PSMD2	Gene	5708
+39634424	2287	2293	PANC-1	CellLine	CVCL:0480
+39634424	2387	2392	PSMDs	Disease	
+39634424	2396	2413	pancreatic cancer	Disease	MESH:D010190
+39634424	2434	2439	PSMD2	Gene	5708
+39634424	2451	2456	tumor	Disease	MESH:D009369
+39634424	2478	2495	pancreatic cancer	Disease	MESH:D010190
+39634424	2526	2529	AKT	Gene	207
+39634424	2530	2534	mTOR	Gene	2475
+39634424	2566	2571	PSMD2	Gene	5708
+39634424	2631	2648	pancreatic cancer	Disease	MESH:D010190
+39634424	2649	2657	patients	Species	9606
+39634424	2661	2664	AKT	Gene	207
+39634424	Positive_Correlation	207	5708
+39634424	Positive_Correlation	2475	5708
+39634424	Association	MESH:D064420	207
+39634424	Association	MESH:D064420	5708
+39634424	Positive_Correlation	MESH:D010190	5711
+39634424	Association	MESH:D000093542	MESH:D064420
+39634424	Association	MESH:D010190	5708
+39634424	Association	MESH:D000093542	5708
+39634424	Association	MESH:C548887	5708
+39634424	Negative_Correlation	MESH:C548887	207
+39634424	Positive_Correlation	MESH:D010190	9861
+39634424	Negative_Correlation	MESH:C548887	MESH:D064420
+

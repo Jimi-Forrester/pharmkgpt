@@ -1,0 +1,42 @@
+28993732|t|Purinergic Signalling: Therapeutic Developments.
+28993732|a|Purinergic signalling, i.e., the role of nucleotides as extracellular signalling molecules, was proposed in 1972. However, this concept was not well accepted until the early 1990's when receptor subtypes for purines and pyrimidines were cloned and characterised, which includes four subtypes of the P1 (adenosine) receptor, seven subtypes of P2X ion channel receptors and 8 subtypes of the P2Y G protein-coupled receptor. Early studies were largely concerned with the physiology, pharmacology and biochemistry of purinergic signalling. More recently, the focus has been on the pathophysiology and therapeutic potential. There was early recognition of the use of P1 receptor agonists for the treatment of supraventricular tachycardia and A2A receptor antagonists are promising for the treatment of Parkinson's disease. Clopidogrel, a P2Y12 antagonist, is widely used for the treatment of thrombosis and stroke, blocking P2Y12 receptor-mediated platelet aggregation. Diquafosol, a long acting P2Y2 receptor agonist, is being used for the treatment of dry eye. P2X3 receptor antagonists have been developed that are orally bioavailable and stable in vivo and are currently in clinical trials for the treatment of chronic cough, bladder incontinence, visceral pain and hypertension. Antagonists to P2X7 receptors are being investigated for the treatment of inflammatory disorders, including neurodegenerative diseases. Other investigations are in progress for the use of purinergic agents for the treatment of osteoporosis, myocardial infarction, irritable bowel syndrome, epilepsy, atherosclerosis, depression, autism, diabetes, and cancer.
+28993732	0	10	Purinergic	Chemical	-
+28993732	49	59	Purinergic	Chemical	-
+28993732	257	264	purines	Chemical	MESH:D011687
+28993732	269	280	pyrimidines	Chemical	MESH:D011743
+28993732	562	572	purinergic	Chemical	-
+28993732	753	781	supraventricular tachycardia	Disease	MESH:D013617
+28993732	786	789	A2A	DNAMutation	tmVar:c|SUB|A|2|A;HGVS:c.2A>A;VariantGroup:0;CorrespondingGene:64805;CorrespondingSpecies:9606
+28993732	846	865	Parkinson's disease	Disease	MESH:D010300
+28993732	867	878	Clopidogrel	Chemical	MESH:D000077144
+28993732	882	887	P2Y12	Gene	64805
+28993732	936	946	thrombosis	Disease	MESH:D013927
+28993732	951	957	stroke	Disease	MESH:D020521
+28993732	992	1012	platelet aggregation	Disease	MESH:D001791
+28993732	1014	1024	Diquafosol	Chemical	MESH:C403315
+28993732	1098	1105	dry eye	Disease	MESH:D015352
+28993732	1259	1272	chronic cough	Disease	MESH:D003371
+28993732	1274	1294	bladder incontinence	Disease	MESH:D001745
+28993732	1296	1309	visceral pain	Disease	MESH:D059265
+28993732	1314	1326	hypertension	Disease	MESH:D006973
+28993732	1402	1424	inflammatory disorders	Disease	MESH:D007249
+28993732	1436	1462	neurodegenerative diseases	Disease	MESH:D019636
+28993732	1555	1567	osteoporosis	Disease	MESH:D010024
+28993732	1569	1590	myocardial infarction	Disease	MESH:D009203
+28993732	1592	1616	irritable bowel syndrome	Disease	MESH:D043183
+28993732	1618	1626	epilepsy	Disease	MESH:D004827
+28993732	1628	1643	atherosclerosis	Disease	MESH:D050197
+28993732	1645	1655	depression	Disease	MESH:D003866
+28993732	1657	1663	autism	Disease	MESH:D001321
+28993732	1665	1673	diabetes	Disease	MESH:D003920
+28993732	1679	1685	cancer	Disease	MESH:D009369
+28993732	Negative_Correlation	MESH:D000077144	MESH:D020521
+28993732	Association	HGVS:c.2A>A;CorrespondingGene:64805	MESH:D010300
+28993732	Negative_Correlation	MESH:D000077144	64805
+28993732	Negative_Correlation	MESH:D000077144	MESH:D013927
+28993732	Negative_Correlation	MESH:C403315	MESH:D015352
+28993732	Association	MESH:D013927	64805
+28993732	Association	MESH:D020521	64805
+28993732	Negative_Correlation	MESH:D000077144	MESH:D001791
+28993732	Association	MESH:D010300	64805
+

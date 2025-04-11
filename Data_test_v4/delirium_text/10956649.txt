@@ -1,0 +1,47 @@
+10956649|t|A furin-like convertase mediates propeptide cleavage of BACE, the Alzheimer's beta -secretase.
+10956649|a|The novel transmembrane aspartic protease BACE (for Beta-site APP Cleaving Enzyme) is the beta-secretase that cleaves amyloid precursor protein to initiate beta-amyloid formation. As such, BACE is a prime therapeutic target for the treatment of Alzheimer's disease. BACE, like other aspartic proteases, has a propeptide domain that is removed to form the mature enzyme. BACE propeptide cleavage occurs at the sequence RLPR downward arrowE, a potential furin recognition motif. Here, we explore the role of furin in BACE propeptide domain processing. BACE propeptide cleavage in cells does not appear to be autocatalytic, since an inactive D93A mutant of BACE is still cleaved appropriately. BACE and furin co-localize within the Golgi apparatus, and propeptide cleavage is inhibited by brefeldin A and monensin, drugs that disrupt trafficking through the Golgi. Treatment of cells with the calcium ionophore, leading to inhibition of calcium-dependent proteases including furin, or transfection with the alpha(1)-antitrypsin variant alpha(1)-PDX, a potent furin inhibitor, dramatically reduces cleavage of the BACE propeptide. Moreover, the BACE propeptide is not processed in the furin-deficient LoVo cell line; however, processing is restored upon furin transfection. Finally, in vitro digestion of recombinant soluble BACE with recombinant furin results in complete cleavage only at the established E46 site. Taken together, our results strongly suggest that furin, or a furin-like proprotein convertase, is responsible for cleaving the BACE propeptide domain to form the mature enzyme.
+10956649	56	60	BACE	Gene	23621
+10956649	66	77	Alzheimer's	Disease	MESH:D000544
+10956649	137	141	BACE	Gene	23621
+10956649	147	176	Beta-site APP Cleaving Enzyme	Gene	23621
+10956649	213	238	amyloid precursor protein	Gene	351
+10956649	251	263	beta-amyloid	Disease	MESH:C000718787
+10956649	284	288	BACE	Gene	23621
+10956649	340	359	Alzheimer's disease	Disease	MESH:D000544
+10956649	361	365	BACE	Gene	23621
+10956649	465	469	BACE	Gene	23621
+10956649	547	552	furin	Gene	5045
+10956649	601	606	furin	Gene	5045
+10956649	610	614	BACE	Gene	23621
+10956649	645	649	BACE	Gene	23621
+10956649	734	738	D93A	ProteinMutation	tmVar:p|SUB|D|93|A;HGVS:p.D93A;VariantGroup:0;CorrespondingGene:23621;CorrespondingSpecies:9606
+10956649	749	753	BACE	Gene	23621
+10956649	786	790	BACE	Gene	23621
+10956649	795	800	furin	Gene	5045
+10956649	881	892	brefeldin A	Chemical	MESH:D020126
+10956649	897	905	monensin	Chemical	MESH:D008985
+10956649	985	992	calcium	Chemical	MESH:D002118
+10956649	1029	1036	calcium	Chemical	MESH:D002118
+10956649	1067	1072	furin	Gene	5045
+10956649	1099	1119	alpha(1)-antitrypsin	Gene	5265
+10956649	1151	1156	furin	Gene	5045
+10956649	1205	1209	BACE	Gene	23621
+10956649	1236	1240	BACE	Gene	23621
+10956649	1276	1281	furin	Gene	5045
+10956649	1292	1296	LoVo	CellLine	CVCL:0399
+10956649	1345	1350	furin	Gene	5045
+10956649	1416	1420	BACE	Gene	23621
+10956649	1438	1443	furin	Gene	5045
+10956649	1557	1562	furin	Gene	5045
+10956649	1569	1574	furin	Gene	5045
+10956649	1635	1639	BACE	Gene	23621
+10956649	Association	23621	5045
+10956649	Negative_Correlation	MESH:D008985	5045
+10956649	Negative_Correlation	5045	5265
+10956649	Negative_Correlation	MESH:D020126	5045
+10956649	Association	MESH:C000718787	23621
+10956649	Negative_Correlation	MESH:D002118	MESH:D008985
+10956649	Association	MESH:D000544	23621
+10956649	Association	MESH:D002118	5045
+10956649	Association	MESH:C000718787	351
+

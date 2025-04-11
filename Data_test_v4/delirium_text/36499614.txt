@@ -1,0 +1,53 @@
+36499614|t|Identification of Novel Hub Genes Associated with Psoriasis Using Integrated Bioinformatics Analysis.
+36499614|a|Psoriasis is a chronic, prolonged, and recurrent inflammatory skin disease and the current therapeutics can only alleviate the symptoms rather than cure it completely. Therefore, we aimed to identify the molecular signatures and specific biomarkers of psoriasis to provide novel clues for psoriasis and targeted therapy. In the present study, the Gene Expression Omnibus (GEO) database was used to retrieve three microarray datasets (GSE166388, GSE50790 and GSE42632) and to explore the differentially expressed genes (DEGs) in psoriasis using the Affy package in R software. The gene ontology (GO) and Kyoto Encyclopedia of Gene and Genome (KEGG) pathway enrichment were utilized to determine the common DEGs and their capabilities. The STRING database was used to develop DEG-encoded proteins and a protein-protein interaction network (PPI) and the Cytohubba plugin to classify hub genes. Using the NetworkAnalyst platform, we detected transcription factors (TFs), microRNAs and drug candidates interacting with hub genes. In addition, the expression levels of hub genes in HaCaT cells were detected by western blot. We screened the up- and downregulated DEGs from the transcriptome microarrays of corresponding psoriasis patients. Functional enrichment of DEGs in psoriasis was mainly associated with positive regulation of leukocyte cell-cell adhesion and T cell activation, cytokine binding, cytokine activity and the Wnt signaling pathway. Through further data processing, we obtained 57 intersecting genes in the three datasets and probed them in STRING to determine the interaction of their expressed proteins and we obtained the critical 10 hub genes in the Cytohubba plugin, including TOP2A, CDKN3, MCM10, PBK, HMMR, CEP55, ASPM, KIAA0101, ESC02, and IL-1beta. Using these hub genes as targets, we obtained 35 TFs and 213 miRNAs that may regulate these genes and 33 potential therapeutic agents for psoriasis. Furthermore, the expression levels of TOP2A, MCM10, PBK, ASPM, KIAA0101 and IL-1beta were observably increased in HaCaT cells. In conclusion, we identified potential biomarkers, risk factors and drugs for psoriasis.
+36499614	24	27	Hub	Gene	1993
+36499614	50	59	Psoriasis	Disease	MESH:D011565
+36499614	102	111	Psoriasis	Disease	MESH:D011565
+36499614	151	176	inflammatory skin disease	Disease	MESH:D012871
+36499614	354	363	psoriasis	Disease	MESH:D011565
+36499614	391	400	psoriasis	Disease	MESH:D011565
+36499614	630	639	psoriasis	Disease	MESH:D011565
+36499614	982	985	hub	Gene	1993
+36499614	1116	1119	hub	Gene	1993
+36499614	1165	1168	hub	Gene	1993
+36499614	1178	1183	HaCaT	CellLine	CVCL:0038
+36499614	1316	1325	psoriasis	Disease	MESH:D011565
+36499614	1326	1334	patients	Species	9606
+36499614	1369	1378	psoriasis	Disease	MESH:D011565
+36499614	1752	1755	hub	Gene	1993
+36499614	1797	1802	TOP2A	Gene	7153
+36499614	1804	1809	CDKN3	Gene	1033
+36499614	1811	1816	MCM10	Gene	55388
+36499614	1818	1821	PBK	Gene	55872
+36499614	1823	1827	HMMR	Gene	3161
+36499614	1829	1834	CEP55	Gene	55165
+36499614	1836	1840	ASPM	Gene	259266
+36499614	1842	1850	KIAA0101	Gene	9768
+36499614	1863	1871	IL-1beta	Gene	3553
+36499614	1885	1888	hub	Gene	1993
+36499614	2011	2020	psoriasis	Disease	MESH:D011565
+36499614	2060	2065	TOP2A	Gene	7153
+36499614	2067	2072	MCM10	Gene	55388
+36499614	2074	2077	PBK	Gene	55872
+36499614	2079	2083	ASPM	Gene	259266
+36499614	2085	2093	KIAA0101	Gene	9768
+36499614	2098	2106	IL-1beta	Gene	3553
+36499614	2136	2141	HaCaT	CellLine	CVCL:0038
+36499614	2227	2236	psoriasis	Disease	MESH:D011565
+36499614	Association	1993	3161
+36499614	Association	MESH:D011565	55388
+36499614	Association	MESH:D011565	55872
+36499614	Association	MESH:D011565	3553
+36499614	Association	MESH:D011565	55165
+36499614	Association	MESH:D011565	7153
+36499614	Association	MESH:D011565	9768
+36499614	Association	MESH:D011565	1993
+36499614	Association	1993	9768
+36499614	Association	MESH:D011565	3161
+36499614	Association	MESH:D011565	259266
+36499614	Association	1993	55872
+36499614	Association	MESH:D011565	1033
+36499614	Association	1993	3553
+36499614	Association	1993	55388
+36499614	Association	1993	259266
+

@@ -1,0 +1,33 @@
+39501984|t|Identification of Susceptible and High-Risk Population for Postoperative Systemic Inflammatory Response Syndrome in Elderly Patients: A Machine Learning-Based Predictive Model.
+39501984|a|BACKGROUND: Systemic inflammatory response syndrome (SIRS) is a serious postoperative complication among geriatric surgical patients, which frequently develops into sepsis or even death. Notably, the incidence of SIRS and sepsis steadily increased with age. It's important to identify the risk of postoperative SIRS for elderly patients at a sufficiently early stage, which would allow preemptive individualized enhanced therapy to be conducted to improve the prognosis of elderly patients. In recent years, ML models have been deployed by researchers for many tasks, including disease prediction and risk stratification, exhibiting good application potential. OBJECTIVE: We aimed to develop and validate an individualized predictive model to identify susceptible and high-risk populations of SIRS in elderly patients, so as to instruct appropriate early interventions. METHODS: Data of surgical patients aged >= 65 years from September 2015 to September 2020 in three independent medical centers were retrieved and analyzed. The eligible patient cohort in the Third Affiliated Hospital of Sun Yat-sen University was separated into an 80% training set (2882 patients) and a 20% internal validation set (720 patients) randomly. Four machine learning (ML) models were developed to predict postoperative SIRS. Area under receiver-operating curve (AUC), F1 score, Brier score, and calibration curve were used to evaluate the model performance. The model with the best performance was further validated in the other two independent datasets involving 844 and 307 cases, respectively. RESULTS: The incidence of SIRS in the three medical centers was 24.3% (876 out of 3602 patients), 29.6% (250 out of 844 patients) and 6.5% (20 out of 307 patients), respectively. 15 variables were identified significantly associated with postoperative SIRS and applied in four ML models to predict postoperative SIRS. A balanced cutoff between sensitivity and specificity was chosen to ensure as high TP (true positive) as possible. The Random Forest Classifier (RF) model showed the best overall performance to predict postoperative SIRS, with an AUC of 0.751 (0.709-0.793), sensitivity of 0.682, specificity of 0.681 as well as F1 score of 0.508 in the internal validation set, and higher AUCs in external validation-1 set (0.759, 0.723-0.795) and external validation-2 set (0.804, 0.746-0.863). CONCLUSIONS: We developed and validated a generalizable RF model for predicting postoperative SIRS in elderly patients, enabling clinicians to screen susceptible and high-risk patients and implement early individualized interventions. An online risk calculator to make the RF model accessible to anesthesiologists and peers around the world was developed. CLINICALTRIAL: 
+39501984	59	112	Postoperative Systemic Inflammatory Response Syndrome	Disease	MESH:D018746
+39501984	124	132	Patients	Species	9606
+39501984	189	228	Systemic inflammatory response syndrome	Disease	MESH:D018746
+39501984	230	234	SIRS	Disease	MESH:D018746
+39501984	249	275	postoperative complication	Disease	MESH:D011183
+39501984	301	309	patients	Species	9606
+39501984	342	348	sepsis	Disease	MESH:D018805
+39501984	357	362	death	Disease	MESH:D003643
+39501984	390	394	SIRS	Disease	MESH:D018746
+39501984	399	405	sepsis	Disease	MESH:D018805
+39501984	474	492	postoperative SIRS	Disease	MESH:D018746
+39501984	505	513	patients	Species	9606
+39501984	658	666	patients	Species	9606
+39501984	970	974	SIRS	Disease	MESH:D018746
+39501984	986	994	patients	Species	9606
+39501984	1073	1081	patients	Species	9606
+39501984	1216	1223	patient	Species	9606
+39501984	1335	1343	patients	Species	9606
+39501984	1384	1392	patients	Species	9606
+39501984	1464	1482	postoperative SIRS	Disease	MESH:D018746
+39501984	1782	1786	SIRS	Disease	MESH:D018746
+39501984	1843	1851	patients	Species	9606
+39501984	1876	1884	patients	Species	9606
+39501984	1910	1918	patients	Species	9606
+39501984	1994	2012	postoperative SIRS	Disease	MESH:D018746
+39501984	2054	2072	postoperative SIRS	Disease	MESH:D018746
+39501984	2276	2294	postoperative SIRS	Disease	MESH:D018746
+39501984	2634	2652	postoperative SIRS	Disease	MESH:D018746
+39501984	2664	2672	patients	Species	9606
+39501984	2730	2738	patients	Species	9606
+

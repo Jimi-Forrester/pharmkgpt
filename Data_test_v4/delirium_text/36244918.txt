@@ -1,0 +1,22 @@
+36244918|t|Ambient intelligence-based monitoring of staff and patient activity in the intensive care unit.
+36244918|a|BACKGROUND: Caregiver workload in the ICU setting is difficult to numerically quantify. Ambient Intelligence utilises computer vision-guided neural networks to continuously monitor multiple datapoints in video feeds, has become increasingly efficient at automatically tracking various aspects of human movement. OBJECTIVES: To assess the feasibility of using Ambient Intelligence to track and quantify allpatient and caregiver activity within a bedspace over the course of an ICU admission and also to establish patient specific factors, and environmental factors such as time ofday, that might contribute to an increased workload in ICU workers. METHODS: 5000 images were manually annotated and then used to train You Only LookOnce (YOLOv4), an open-source computer vision algorithm. Comparison of patientmotion and caregiver activity was then performed between these patients. RESULTS: The algorithm was deployed on 14 patients comprising 1762800 framesof new, untrained data. There was a strong correlation between the number ofcaregivers in the room and the standardized movement of the patient (p < 0.0001) withmore caregivers associated with more movement. There was a significant difference incaregiver activity throughout the day (p < 0.05), HDU vs. ICU status (p < 0.05), delirious vs. non delirious patients (p < 0.05), and intubated vs. not intubated patients(p < 0.05). Caregiver activity was lowest between 0400 and 0800 (average .71 +- .026caregivers per hour) with statistically significant differences in activity compared to 0800-2400 (p < 0.05). Caregiver activity was highest between 1200 and 1600 (1.02 +- .031 caregivers per hour) with a statistically significant difference in activity comparedto activity from 1600 to 0800 (p < 0.05). The three most dominant predictors of workeractivity were patient motion (Standardized Dominance 78.6%), Mechanical Ventilation(Standardized Dominance 7.9%) and Delirium (Standardized Dominance 6.2%). CONCLUSION: Ambient Intelligence could potentially be used to derive a single standardized metricthat could be applied to patients to illustrate their overall workload. This could be usedto predict workflow demands for better staff deployment, monitoring of caregiver workload, and potentially as a tool to predict burnout.
+36244918	51	58	patient	Species	9606
+36244918	134	137	ICU	Disease	
+36244918	392	397	human	Species	9606
+36244918	572	575	ICU	Disease	
+36244918	608	615	patient	Species	9606
+36244918	730	733	ICU	Disease	
+36244918	895	908	patientmotion	Species	
+36244918	965	973	patients	Species	9606
+36244918	1017	1025	patients	Species	9606
+36244918	1187	1194	patient	Species	9606
+36244918	1294	1305	incaregiver	Disease	
+36244918	1346	1349	HDU	Chemical	MESH:C001965
+36244918	1354	1357	ICU	Disease	
+36244918	1405	1413	patients	Species	9606
+36244918	1458	1466	patients	Species	9606
+36244918	1912	1919	patient	Species	9606
+36244918	2015	2023	Delirium	Disease	MESH:D003693
+36244918	2177	2185	patients	Species	9606
+36244918	2370	2377	burnout	Disease	MESH:D002055
+

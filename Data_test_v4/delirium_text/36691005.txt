@@ -1,0 +1,48 @@
+36691005|t|Biomarker prediction in autism spectrum disorder using a network-based approach.
+36691005|a|BACKGROUND: Autism is a neurodevelopmental disorder that is usually diagnosed in early childhood. Timely diagnosis and early initiation of treatments such as behavioral therapy are important in autistic people. Discovering critical genes and regulators in this disorder can lead to early diagnosis. Since the contribution of miRNAs along their targets can lead us to a better understanding of autism, we propose a framework containing two steps for gene and miRNA discovery. METHODS: The first step, called the FA_gene algorithm, finds a small set of genes involved in autism. This algorithm uses the WGCNA package to construct a co-expression network for control samples and seek modules of genes that are not reproducible in the corresponding co-expression network for autistic samples. Then, the protein-protein interaction network is constructed for genes in the non-reproducible modules and a small set of genes that may have potential roles in autism is selected based on this network. The second step, named the DMN_miRNA algorithm, detects the minimum number of miRNAs related to autism. To do this, DMN_miRNA defines an extended Set Cover algorithm over the mRNA-miRNA network, consisting of the selected genes and corresponding miRNA regulators. RESULTS: In the first step of the framework, the FA_gene algorithm finds a set of important genes; TP53, TNF, MAPK3, ACTB, TLR7, LCK, RAC2, EEF2, CAT, ZAP70, CD19, RPLP0, CDKN1A, CCL2, CDK4, CCL5, CTSD, CD4, RACK1, CD74; using co-expression and protein-protein interaction networks. In the second step, the DMN_miRNA algorithm extracts critical miRNAs, hsa-mir-155-5p, hsa-mir-17-5p, hsa-mir-181a-5p, hsa-mir-18a-5p, and hsa-mir-92a-1-5p, as signature regulators for autism using important genes and mRNA-miRNA network. The importance of these key genes and miRNAs is confirmed by previous studies and enrichment analysis. CONCLUSION: This study suggests FA_gene and DMN_miRNA algorithms for biomarker discovery, which lead us to a list of important players in ASD with potential roles in the nervous system or neurological disorders that can be experimentally investigated as candidates for ASD diagnostic tests.
+36691005	24	48	autism spectrum disorder	Disease	MESH:D000067877
+36691005	93	99	Autism	Disease	MESH:D001321
+36691005	105	132	neurodevelopmental disorder	Disease	MESH:D002658
+36691005	275	283	autistic	Disease	MESH:D001321
+36691005	474	480	autism	Disease	MESH:D001321
+36691005	650	656	autism	Disease	MESH:D001321
+36691005	852	860	autistic	Disease	MESH:D001321
+36691005	1031	1037	autism	Disease	MESH:D001321
+36691005	1169	1175	autism	Disease	MESH:D001321
+36691005	1436	1440	TP53	Gene	7157
+36691005	1442	1445	TNF	Gene	7124
+36691005	1447	1452	MAPK3	Gene	5595
+36691005	1454	1458	ACTB	Gene	60
+36691005	1460	1464	TLR7	Gene	51284
+36691005	1466	1469	LCK	Gene	3932
+36691005	1471	1475	RAC2	Gene	5880
+36691005	1477	1481	EEF2	Gene	1938
+36691005	1483	1486	CAT	Gene	847
+36691005	1488	1493	ZAP70	Gene	7535
+36691005	1495	1499	CD19	Gene	930
+36691005	1501	1506	RPLP0	Gene	6175
+36691005	1508	1514	CDKN1A	Gene	1026
+36691005	1516	1520	CCL2	Gene	6347
+36691005	1522	1526	CDK4	Gene	1019
+36691005	1528	1532	CCL5	Gene	6352
+36691005	1534	1538	CTSD	Gene	1509
+36691005	1540	1543	CD4	Gene	920
+36691005	1545	1550	RACK1	Gene	10399
+36691005	1552	1556	CD74	Gene	972
+36691005	1690	1702	hsa-mir-155-	Gene	406947
+36691005	1721	1733	hsa-mir-181a	Gene	406954
+36691005	1738	1749	hsa-mir-18a	Gene	406953
+36691005	1758	1771	hsa-mir-92a-1	Gene	407048
+36691005	1804	1810	autism	Disease	MESH:D001321
+36691005	2098	2101	ASD	Disease	MESH:D001321
+36691005	2148	2170	neurological disorders	Disease	MESH:D009461
+36691005	2229	2232	ASD	Disease	MESH:D001321
+36691005	Association	MESH:D001321	406947
+36691005	Association	MESH:D001321	406954
+36691005	Association	MESH:D001321	407048
+36691005	Association	MESH:D009461	972
+36691005	Association	MESH:D009461	6352
+36691005	Association	MESH:D009461	10399
+36691005	Association	MESH:D001321	406953
+36691005	Association	MESH:D009461	1026
+

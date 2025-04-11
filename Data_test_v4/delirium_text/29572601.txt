@@ -1,0 +1,20 @@
+29572601|t|Multi-Modality Cascaded Convolutional Neural Networks for Alzheimer's Disease Diagnosis.
+29572601|a|Accurate and early diagnosis of Alzheimer's disease (AD) plays important role for patient care and development of future treatment. Structural and functional neuroimages, such as magnetic resonance images (MRI) and positron emission tomography (PET), are providing powerful imaging modalities to help understand the anatomical and functional neural changes related to AD. In recent years, machine learning methods have been widely studied on analysis of multi-modality neuroimages for quantitative evaluation and computer-aided-diagnosis (CAD) of AD. Most existing methods extract the hand-craft imaging features after image preprocessing such as registration and segmentation, and then train a classifier to distinguish AD subjects from other groups. This paper proposes to construct cascaded convolutional neural networks (CNNs) to learn the multi-level and multimodal features of MRI and PET brain images for AD classification. First, multiple deep 3D-CNNs are constructed on different local image patches to transform the local brain image into more compact high-level features. Then, an upper high-level 2D-CNN followed by softmax layer is cascaded to ensemble the high-level features learned from the multi-modality and generate the latent multimodal correlation features of the corresponding image patches for classification task. Finally, these learned features are combined by a fully connected layer followed by softmax layer for AD classification. The proposed method can automatically learn the generic multi-level and multimodal features from multiple imaging modalities for classification, which are robust to the scale and rotation variations to some extent. No image segmentation and rigid registration are required in pre-processing the brain images. Our method is evaluated on the baseline MRI and PET images of 397 subjects including 93 AD patients, 204 mild cognitive impairment (MCI, 76 pMCI +128 sMCI) and 100 normal controls (NC) from Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Experimental results show that the proposed method achieves an accuracy of 93.26% for classification of AD vs. NC and 82.95% for classification pMCI vs. NC, demonstrating the promising classification performance.
+29572601	58	77	Alzheimer's Disease	Disease	MESH:D000544
+29572601	121	140	Alzheimer's disease	Disease	MESH:D000544
+29572601	142	144	AD	Disease	MESH:D000544
+29572601	171	178	patient	Species	9606
+29572601	457	459	AD	Disease	MESH:D000544
+29572601	636	638	AD	Disease	MESH:D000544
+29572601	810	812	AD	Disease	MESH:D000544
+29572601	1001	1003	AD	Disease	MESH:D000544
+29572601	1529	1531	AD	Disease	MESH:D000544
+29572601	1945	1947	AD	Disease	MESH:D000544
+29572601	1948	1956	patients	Species	9606
+29572601	1967	1987	cognitive impairment	Disease	MESH:D003072
+29572601	1989	1992	MCI	Disease	MESH:D060825
+29572601	1997	2001	pMCI	Disease	
+29572601	2047	2066	Alzheimer's Disease	Disease	MESH:D000544
+29572601	2212	2214	AD	Disease	MESH:D000544
+29572601	2252	2256	pMCI	Disease	
+

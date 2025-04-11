@@ -1,0 +1,17 @@
+32774783|t|MU-PseUDeep: A deep learning method for prediction of pseudouridine sites.
+32774783|a|Pseudouridine synthase binds to uridine sites and catalyzes the conversion of uridine to pseudouridine (Psi). This binding takes place in a specific context and in the conformation of nucleotides. Most machine-learning methods for Psi site classification use nucleotide frequency as a feature, which may not fully depict the relevant conformation around a Psi site. Using the power of deep learning and raw sequence, as well as secondary structure features, our tool MU-PseUDeep is designed to capture both the sequence and secondary structure context, which inputs the raw RNA sequence and the predicted secondary structure to two sets of convolutional neural networks. It has shown considerable improvement in Psi site prediction over existing tools, XG-PseU, PseUI, and iRNA-PseU for both balanced and imbalanced datasets. To the best of our knowledge, this is the most accurate tool for Psi site prediction. We also used MU-PseUDeep to scan the human transcriptome, which shows that the genes with predicted Psi sites are enriched in nucleotide and protein binding, as well as in neurodegeneration pathways. The tool is open source, available at https://github.com/smk5g5/MU-PseUDeep.
+32774783	54	67	pseudouridine	Chemical	MESH:D011560
+32774783	107	114	uridine	Chemical	MESH:D014529
+32774783	153	160	uridine	Chemical	MESH:D014529
+32774783	164	177	pseudouridine	Chemical	MESH:D011560
+32774783	179	182	Psi	Chemical	MESH:D011560
+32774783	306	309	Psi	Chemical	MESH:D011560
+32774783	431	434	Psi	Chemical	MESH:D011560
+32774783	787	790	Psi	Chemical	MESH:D011560
+32774783	966	969	Psi	Chemical	MESH:D011560
+32774783	1024	1029	human	Species	9606
+32774783	1087	1090	Psi	Chemical	MESH:D011560
+32774783	1159	1176	neurodegeneration	Disease	MESH:D019636
+32774783	Association	MESH:D011560	MESH:D014529
+32774783	Association	MESH:D011560	MESH:D019636
+

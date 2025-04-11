@@ -1,0 +1,12 @@
+35855489|t|COVID-19 chest X-ray detection through blending ensemble of CNN snapshots.
+35855489|a|The novel COVID-19 pandemic, has effectively turned out to be one of the deadliest events in modern history, with unprecedented loss of human life, major economic and financial setbacks and has set the entire world back quite a few decades. However, detection of the COVID-19 virus has become increasingly difficult due to the mutating nature of the virus, and the rise in asymptomatic cases. To counteract this and contribute to the research efforts for a more accurate screening of COVID-19, we have planned this work. Here, we have proposed an ensemble methodology for deep learning models to solve the task of COVID-19 detection from chest X-rays (CXRs) to assist Computer-Aided Detection (CADe) for medical practitioners. We leverage the strategy of transfer learning for Convolutional Neural Networks (CNNs), widely adopted in recent literature, and further propose an efficient ensemble network for their combination. The DenseNet-201 architecture has been trained only once to generate multiple snapshots, offering diverse information about the extracted features from CXRs. We follow the strategy of decision-level fusion to combine the decision scores using the blending algorithm through a Random Forest (RF) meta-learner. Experimental results confirm the efficacy of the proposed ensemble method, as shown through impressive results upon two open access COVID-19 CXR datasets - the largest COVID-X dataset, as well as a smaller scale dataset. On the large COVID-X dataset, the proposed model has achieved an accuracy score of 94.55% and on the smaller dataset by Chowdhury et al., the proposed model has achieved a 98.13% accuracy score.
+35855489	0	8	COVID-19	Disease	MESH:D000086382
+35855489	85	93	COVID-19	Disease	MESH:D000086382
+35855489	211	216	human	Species	9606
+35855489	342	350	COVID-19	Disease	MESH:D000086382
+35855489	559	567	COVID-19	Disease	MESH:D000086382
+35855489	689	697	COVID-19	Disease	MESH:D000086382
+35855489	1441	1449	COVID-19	Disease	MESH:D000086382
+35855489	1477	1484	COVID-X	Disease	MESH:D000086382
+35855489	1543	1550	COVID-X	Disease	MESH:D000086382
+

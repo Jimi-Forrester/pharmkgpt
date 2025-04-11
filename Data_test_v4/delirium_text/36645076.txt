@@ -1,0 +1,41 @@
+36645076|t|Patient-specific variants of NFU1/NFU-1 disrupt cholinergic signaling in a model of multiple mitochondrial dysfunctions syndrome 1.
+36645076|a|Neuromuscular dysfunction is a common feature of mitochondrial diseases and frequently presents as ataxia, spasticity and/or dystonia, all of which can severely impact individuals with mitochondrial diseases. Dystonia is one of the most common symptoms of multiple mitochondrial dysfunctions syndrome 1 (MMDS1), a disease associated with mutations in the causative gene (NFU1) that impair iron-sulfur cluster biogenesis. We have generated Caenorhabditis elegans strains that recreated patient-specific point variants in the C. elegans ortholog (nfu-1) that result in allele-specific dysfunction. Each of these mutants, Gly147Arg and Gly166Cys, have altered acetylcholine signaling at neuromuscular junctions, but opposite effects on activity and motility. We found that the Gly147Arg variant was hypersensitive to acetylcholine and that knockdown of acetylcholine release rescued nearly all neuromuscular phenotypes of this variant. In contrast, we found that the Gly166Cys variant caused predominantly postsynaptic acetylcholine hypersensitivity due to an unclear mechanism. These results are important for understanding the neuromuscular conditions of MMDS1 patients and potential avenues for therapeutic intervention.
+36645076	0	7	Patient	Species	9606
+36645076	29	33	NFU1	Gene	27247
+36645076	34	39	NFU-1	Gene	27247
+36645076	84	130	multiple mitochondrial dysfunctions syndrome 1	Disease	MESH:C565304
+36645076	132	157	Neuromuscular dysfunction	Disease	MESH:D009468
+36645076	181	203	mitochondrial diseases	Disease	MESH:D028361
+36645076	231	237	ataxia	Disease	MESH:D001259
+36645076	239	249	spasticity	Disease	MESH:D009128
+36645076	257	265	dystonia	Disease	MESH:D004421
+36645076	317	339	mitochondrial diseases	Disease	MESH:D028361
+36645076	341	349	Dystonia	Disease	MESH:D004421
+36645076	388	434	multiple mitochondrial dysfunctions syndrome 1	Disease	MESH:C565304
+36645076	436	441	MMDS1	Disease	MESH:C565304
+36645076	503	507	NFU1	Gene	27247
+36645076	521	540	iron-sulfur cluster	Chemical	-
+36645076	571	593	Caenorhabditis elegans	Species	6239
+36645076	617	624	patient	Species	9606
+36645076	656	666	C. elegans	Species	328850
+36645076	677	682	nfu-1	Gene	27247
+36645076	751	760	Gly147Arg	ProteinMutation	tmVar:p|SUB|G|147|R;HGVS:p.G147R;VariantGroup:1;CorrespondingGene:27247;CorrespondingSpecies:9606
+36645076	765	774	Gly166Cys	ProteinMutation	tmVar:p|SUB|G|166|C;HGVS:p.G166C;VariantGroup:0;CorrespondingGene:27247;CorrespondingSpecies:9606
+36645076	789	802	acetylcholine	Chemical	MESH:D000109
+36645076	906	915	Gly147Arg	ProteinMutation	tmVar:p|SUB|G|147|R;HGVS:p.G147R;VariantGroup:1;CorrespondingGene:27247;CorrespondingSpecies:9606
+36645076	946	959	acetylcholine	Chemical	MESH:D000109
+36645076	982	995	acetylcholine	Chemical	MESH:D000109
+36645076	1096	1105	Gly166Cys	ProteinMutation	tmVar:p|SUB|G|166|C;HGVS:p.G166C;VariantGroup:0;CorrespondingGene:27247;CorrespondingSpecies:9606
+36645076	1148	1178	acetylcholine hypersensitivity	Disease	MESH:D004342
+36645076	1286	1291	MMDS1	Disease	MESH:C565304
+36645076	1292	1300	patients	Species	9606
+36645076	Association	MESH:D000109	HGVS:p.G166C;CorrespondingGene:27247
+36645076	Positive_Correlation	MESH:C565304	HGVS:p.G166C;CorrespondingGene:27247
+36645076	Association	MESH:D000109	HGVS:p.G147R;CorrespondingGene:27247
+36645076	Positive_Correlation	MESH:D004342	HGVS:p.G166C;CorrespondingGene:27247
+36645076	Positive_Correlation	MESH:C565304	HGVS:p.G147R;CorrespondingGene:27247
+36645076	Association	MESH:C565304	27247
+36645076	Positive_Correlation	MESH:D004342	HGVS:p.G147R;CorrespondingGene:27247
+36645076	Association	MESH:C565304	27247
+36645076	Association	MESH:D004342	27247
+

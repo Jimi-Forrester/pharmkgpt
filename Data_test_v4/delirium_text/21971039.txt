@@ -1,0 +1,29 @@
+21971039|t|Genome-wide analysis of a Wnt1-regulated transcriptional network implicates neurodegenerative pathways.
+21971039|a|Wnt proteins are critical to mammalian brain development and function. The canonical Wnt signaling pathway involves the stabilization and nuclear translocation of beta-catenin; however, Wnt also signals through alternative, noncanonical pathways. To gain a systems-level, genome-wide view of Wnt signaling, we analyzed Wnt1-stimulated changes in gene expression by transcriptional microarray analysis in cultured human neural progenitor (hNP) cells at multiple time points over a 72-hour time course. We observed a widespread oscillatory-like pattern of changes in gene expression, involving components of both the canonical and the noncanonical Wnt signaling pathways. A higher-order, systems-level analysis that combined independent component analysis, waveform analysis, and mutual information-based network construction revealed effects on pathways related to cell death and neurodegenerative disease. Wnt effectors were tightly clustered with presenilin1 (PSEN1) and granulin (GRN), which cause dominantly inherited forms of Alzheimer's disease and frontotemporal dementia (FTD), respectively. We further explored a potential link between Wnt1 and GRN and found that Wnt1 decreased GRN expression by hNPs. Conversely, GRN knockdown increased WNT1 expression, demonstrating that Wnt and GRN reciprocally regulate each other. Finally, we provided in vivo validation of the in vitro findings by analyzing gene expression data from individuals with FTD. These unbiased and genome-wide analyses provide evidence for a connection between Wnt signaling and the transcriptional regulation of neurodegenerative disease genes.
+21971039	26	30	Wnt1	Gene	7471
+21971039	267	279	beta-catenin	Gene	1499
+21971039	423	427	Wnt1	Gene	7471
+21971039	517	522	human	Species	9606
+21971039	983	1008	neurodegenerative disease	Disease	MESH:D019636
+21971039	1052	1063	presenilin1	Gene	5663
+21971039	1065	1070	PSEN1	Gene	5663
+21971039	1076	1084	granulin	Gene	2896
+21971039	1086	1089	GRN	Gene	2896
+21971039	1134	1153	Alzheimer's disease	Disease	MESH:D000544
+21971039	1158	1181	frontotemporal dementia	Disease	MESH:D057180
+21971039	1183	1186	FTD	Disease	MESH:D057180
+21971039	1248	1252	Wnt1	Gene	7471
+21971039	1257	1260	GRN	Gene	2896
+21971039	1276	1280	Wnt1	Gene	7471
+21971039	1291	1294	GRN	Gene	2896
+21971039	1327	1330	GRN	Gene	2896
+21971039	1351	1355	WNT1	Gene	7471
+21971039	1395	1398	GRN	Gene	2896
+21971039	1554	1557	FTD	Disease	MESH:D057180
+21971039	1693	1718	neurodegenerative disease	Disease	MESH:D019636
+21971039	Association	MESH:D000544	2896
+21971039	Association	MESH:D057180	2896
+21971039	Association	MESH:D057180	5663
+21971039	Negative_Correlation	2896	7471
+21971039	Association	MESH:D000544	5663
+

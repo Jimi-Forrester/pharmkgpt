@@ -1,0 +1,35 @@
+36262275|t|Machine learning for early prediction of sepsis-associated acute brain injury.
+36262275|a|Background: Sepsis-associated encephalopathy (SAE) is defined as diffuse brain dysfunction associated with sepsis and leads to a high mortality rate. We aimed to develop and validate an optimal machine-learning model based on clinical features for early predicting sepsis-associated acute brain injury. Methods: We analyzed adult patients with sepsis from the Medical Information Mart for Intensive Care (MIMIC III) clinical database. Candidate models were trained using random forest, support vector machine (SVM), decision tree classifier, gradients boosting machine (GBM), multiple layer perception (MLP), extreme gradient boosting (XGBoost), light gradients boosting machine (LGBM) and a conventional logistic regression model. These methods were applied to develop and validate the optimal model based on its accuracy and area under curve (AUC). Results: In total, 12,460 patients with sepsis met inclusion criteria, and 6,284 (50.4%) patients suffered from sepsis-associated acute brain injury. Compared other models, the LGBM model achieved the best performance. The AUC for both train set and test set indicated excellent validity (Trainset AUC 0.91, Testset AUC 0.87). Feature importance analysis showed that glucose, age, mean arterial pressure, heart rate, hemoglobin, and length of ICU stay were the top 6 important clinical factors to predict occurrence of sepsis-associated acute brain injury. Conclusion: Almost half of patients admitted to ICU with sepsis had sepsis-associated acute brain injury. The LGBM model better identify patients with sepsis-associated acute brain injury than did other machine-learning models. Glucose, age, and mean arterial pressure were the three most important clinical factors to predict occurrence of sepsis-associated acute brain injury.
+36262275	41	47	sepsis	Disease	MESH:D018805
+36262275	59	77	acute brain injury	Disease	MESH:D001930
+36262275	91	123	Sepsis-associated encephalopathy	Disease	MESH:D065166
+36262275	125	128	SAE	Disease	MESH:D065166
+36262275	152	169	brain dysfunction	Disease	MESH:D001927
+36262275	186	192	sepsis	Disease	MESH:D018805
+36262275	344	350	sepsis	Disease	MESH:D018805
+36262275	362	380	acute brain injury	Disease	MESH:D001930
+36262275	409	417	patients	Species	9606
+36262275	423	429	sepsis	Disease	MESH:D018805
+36262275	956	964	patients	Species	9606
+36262275	970	976	sepsis	Disease	MESH:D018805
+36262275	1019	1027	patients	Species	9606
+36262275	1042	1048	sepsis	Disease	MESH:D018805
+36262275	1060	1078	acute brain injury	Disease	MESH:D001930
+36262275	1297	1304	glucose	Chemical	MESH:D005947
+36262275	1373	1376	ICU	Disease	
+36262275	1449	1455	sepsis	Disease	MESH:D018805
+36262275	1467	1485	acute brain injury	Disease	MESH:D001930
+36262275	1514	1522	patients	Species	9606
+36262275	1535	1538	ICU	Disease	
+36262275	1544	1550	sepsis	Disease	MESH:D018805
+36262275	1555	1561	sepsis	Disease	MESH:D018805
+36262275	1573	1591	acute brain injury	Disease	MESH:D001930
+36262275	1624	1632	patients	Species	9606
+36262275	1638	1644	sepsis	Disease	MESH:D018805
+36262275	1656	1674	acute brain injury	Disease	MESH:D001930
+36262275	1715	1722	Glucose	Chemical	MESH:D005947
+36262275	1828	1834	sepsis	Disease	MESH:D018805
+36262275	1846	1864	acute brain injury	Disease	MESH:D001930
+36262275	Positive_Correlation	MESH:D005947	MESH:D001930
+36262275	Association	MESH:D005947	MESH:D018805
+

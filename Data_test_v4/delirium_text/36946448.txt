@@ -1,0 +1,33 @@
+36946448|t|Longitudinal Exposure-Response Modeling of Multiple Indicators of Alzheimer's Disease Progression.
+36946448|a|BACKGROUND: Progression in Alzheimer's disease manifests as changes in multiple biomarker, cognitive, and functional endpoints. Disease progression modeling can be used to integrate these multiple measures into a synthesized metric of where a patient lies within the disease spectrum, allowing for a more dynamic measure over the range of the disease. OBJECTIVES: This study aimed to combine modeling techniques from psychometric research (e.g., item response theory) and pharmacometrics (e.g., hierarchical models) to describe the multivariate longitudinal disease progression for patients with mild-to-moderate Alzheimer's disease. Additionally, we aimed to extend the subsequent model to make it suitable for clinical trial simulation, with the inclusion of covariates, to explain variability in latent progression (i.e., disease progression) and to aid in the assessment of enrichment strategies. DESIGN: Multiple longitudinal endpoints in the Alzheimer's Disease Neuroimaging Initiative database were modeled. This model was validated internally using visual predictive checks, and externally by comparing data from the placebo arms of two Phase 2 crenezumab studies, ABBY (NCT01343966) and BLAZE (NCT01397578). SETTING: The Alzheimer's Disease Neuroimaging Initiative began in 2004: the initial 5-year study (ADNI-1) was extended by 2 years in 2009 by a Grand Opportunities grant (ADNI-GO), and in 2011 and 2016 by further competitive renewals of the ADNI-1 grant (ADNI-2 and ADNI-3, respectively). This work studies natural progression data from patients with confirmed Alzheimer's disease. The Phase 2 ABBY and BLAZE trials evaluated the safety and efficacy of crenezumab in patients with mild-to-moderate Alzheimer's disease. PARTICIPANTS: From the Alzheimer's Disease Neuroimaging Initiative database, 305 subjects who had a baseline diagnosis of mild-to-moderate Alzheimer's disease were included in modeling. From the ABBY and BLAZE studies, 158 patients were included from the studies' placebo arms. MEASUREMENTS: Longitudinal cognitive and functional assessments modeled included the Clinical Dementia Rating (both as Sum of Boxes and individual item scores), the Mini-Mental State Examination, the Alzheimer's Disease Assessment Scale - Cognitive Subscale, the Functional Activities Questionnaire, the Montreal Cognitive Assessment, and the Rey Auditory Verbal Learning Test. Also included were the imaging variable fluorodeoxyglucose-positron emission tomography and the following magnetic resonance imaging volumetrics: entorhinal, fusiform, hippocampal, intra-cranial, mid-temporal, ventricular, and whole brain. RESULTS: Applying item response theory approaches in this longitudinal setting showed clinical assessments informing a common disease scale in the following order (from early disease to late disease): Rey Auditory Verbal Learning Test, Functional Activities Questionnaire, Montreal Cognitive Assessment, Alzheimer's Disease Assessment Scale - Cognitive Subscale 12, Clinical Dementia Rating - Sum of Boxes, and Mini-Mental State Examination. The Clinical Dementia Rating communication and home-and-hobbies items were most informative at earlier disease stages, while memory, orientation, and personal care informed the disease status at later stages. A clinical trial simulation model was developed and accurately described within-sample longitudinal distribution of endpoints. Simplifying the model to use only baseline age, MMSE, and APOEepsilon4 status as predictors, out-of-sample mean progression of ADAS-Cog and CDR Sum of Boxes in the ABBY and BLAZE placebo arms was accurately described; however, the variability in these endpoints was underpredicted and suggests possibility for further model refinement when extrapolating from the ADNI sample to trial data. Clinical trial simulations were performed to exemplify use of the model to investigate hypothetical disease modification effects on the multivariate, longitudinal progression on the Alzheimer's Disease Assessment Scale - Cognitive Subscale and the Clinical Dementia Rating - Sum of Boxes. CONCLUSIONS: The latent variable structure of item response theory can be extended to capture a variety of scales that are common assessments and indicators of disease status in mild-to-moderate Alzheimer's disease. These models are not intended to support causal inferences, but they do successfully characterize the observed correlation between endpoints over time and result in concise numerical indices of disease status that reflect the totality of evidence from considering the endpoints jointly. As such, the models have utility for a variety of tasks in clinical trial design, including simulation of hypothetical drug effects, interpolation of missing data, and assessment of in-sample information.
+36946448	66	85	Alzheimer's Disease	Disease	MESH:D000544
+36946448	126	145	Alzheimer's disease	Disease	MESH:D000544
+36946448	342	349	patient	Species	9606
+36946448	681	689	patients	Species	9606
+36946448	712	731	Alzheimer's disease	Disease	MESH:D000544
+36946448	1047	1066	Alzheimer's Disease	Disease	MESH:D000544
+36946448	1252	1262	crenezumab	Chemical	MESH:C573372
+36946448	1295	1300	BLAZE	Chemical	-
+36946448	1329	1348	Alzheimer's Disease	Disease	MESH:D000544
+36946448	1652	1660	patients	Species	9606
+36946448	1676	1695	Alzheimer's disease	Disease	MESH:D000544
+36946448	1718	1723	BLAZE	Chemical	-
+36946448	1768	1778	crenezumab	Chemical	MESH:C573372
+36946448	1782	1790	patients	Species	9606
+36946448	1813	1832	Alzheimer's disease	Disease	MESH:D000544
+36946448	1857	1876	Alzheimer's Disease	Disease	MESH:D000544
+36946448	1973	1992	Alzheimer's disease	Disease	MESH:D000544
+36946448	2038	2043	BLAZE	Chemical	-
+36946448	2057	2065	patients	Species	9606
+36946448	2206	2214	Dementia	Disease	MESH:D003704
+36946448	2312	2331	Alzheimer's Disease	Disease	MESH:D000544
+36946448	2530	2548	fluorodeoxyglucose	Chemical	MESH:D019788
+36946448	3034	3053	Alzheimer's Disease	Disease	MESH:D000544
+36946448	3105	3113	Dementia	Disease	MESH:D003704
+36946448	3185	3193	Dementia	Disease	MESH:D003704
+36946448	3681	3686	BLAZE	Chemical	-
+36946448	4080	4099	Alzheimer's Disease	Disease	MESH:D000544
+36946448	4155	4163	Dementia	Disease	MESH:D003704
+36946448	4382	4401	Alzheimer's disease	Disease	MESH:D000544
+36946448	Negative_Correlation	MESH:C573372	MESH:D000544
+

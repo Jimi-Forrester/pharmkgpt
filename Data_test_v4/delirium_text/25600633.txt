@@ -1,0 +1,22 @@
+25600633|t|A kernel machine method for detecting effects of interaction between multidimensional variable sets: an imaging genetics application.
+25600633|a|Measurements derived from neuroimaging data can serve as markers of disease and/or healthy development, are largely heritable, and have been increasingly utilized as (intermediate) phenotypes in genetic association studies. To date, imaging genetic studies have mostly focused on discovering isolated genetic effects, typically ignoring potential interactions with non-genetic variables such as disease risk factors, environmental exposures, and epigenetic markers. However, identifying significant interaction effects is critical for revealing the true relationship between genetic and phenotypic variables, and shedding light on disease mechanisms. In this paper, we present a general kernel machine based method for detecting effects of the interaction between multidimensional variable sets. This method can model the joint and epistatic effect of a collection of single nucleotide polymorphisms (SNPs), accommodate multiple factors that potentially moderate genetic influences, and test for nonlinear interactions between sets of variables in a flexible framework. As a demonstration of application, we applied the method to the data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) to detect the effects of the interactions between candidate Alzheimer's disease (AD) risk genes and a collection of cardiovascular disease (CVD) risk factors, on hippocampal volume measurements derived from structural brain magnetic resonance imaging (MRI) scans. Our method identified that two genes, CR1 and EPHA1, demonstrate significant interactions with CVD risk factors on hippocampal volume, suggesting that CR1 and EPHA1 may play a role in influencing AD-related neurodegeneration in the presence of CVD risks. 
+25600633	1282	1301	Alzheimer's Disease	Disease	MESH:D000544
+25600633	1393	1412	Alzheimer's disease	Disease	MESH:D000544
+25600633	1414	1416	AD	Disease	MESH:D000544
+25600633	1449	1471	cardiovascular disease	Disease	MESH:D002318
+25600633	1473	1476	CVD	Disease	MESH:D002318
+25600633	1635	1638	CR1	Gene	1378
+25600633	1643	1648	EPHA1	Gene	2041
+25600633	1692	1695	CVD	Disease	MESH:D002318
+25600633	1748	1751	CR1	Gene	1378
+25600633	1756	1761	EPHA1	Gene	2041
+25600633	1793	1795	AD	Disease	MESH:D000544
+25600633	1804	1821	neurodegeneration	Disease	MESH:D019636
+25600633	1841	1844	CVD	Disease	MESH:D002318
+25600633	Association	MESH:D002318	1378
+25600633	Association	MESH:D019636	2041
+25600633	Association	MESH:D002318	2041
+25600633	Association	MESH:D019636	1378
+25600633	Association	MESH:D000544	2041
+25600633	Association	MESH:D000544	1378
+

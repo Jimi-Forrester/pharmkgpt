@@ -1,0 +1,23 @@
+33099311|t|Weighted gene co-expression network analysis revealed key biomarkers associated with the diagnosis of hypertrophic cardiomyopathy.
+33099311|a|OBJECTIVE: To reveal the molecular mechanism underlying the pathogenesis of HCM and find new effective therapeutic strategies using a systematic biological approach. METHODS: The WGCNA algorithm was applied to building the co-expression network of HCM samples. A sample cluster analysis was performed using the hclust tool and a co-expression module was constructed. The WGCNA algorithm was used to study the interactive connection between co-expression modules and draw a heat map to show the strength of interactions between modules. The genetic information of the respective modules was mapped to the associated GO terms and KEGG pathways, and the Hub Genes with the highest connectivity in each module were identified. The Wilcoxon test was used to verify the expression level of hub genes between HCM and normal samples, and the "pROC" R package was used to verify the possibility of hub genes as biomarkers. Finally, the potential functions of hub genes were analyzed by GSEA software. RESULTS: Seven co-expression modules were constructed using sample clustering analysis. GO and KEGG enrichment analysis judged that the turquoise module is an important module. The hub genes of each module are RPL35A for module Black, FH for module Blue, PREI3 for module Brown, CREB1 for module Green, LOC641848 for module Pink, MYH7 for module Turquoise and MYL6 for module Yellow. The results of the differential expression analysis indicate that MYH7 and FH are considered true hub genes. In addition, the ROC curves revealed their high diagnostic value as biomarkers for HCM. Finally, in the results of the GSEA analysis, MYH7 and FH highly expressed genes were enriched with the "proteasome" and a "PPAR signaling pathway," respectively. CONCLUSIONS: The MYH7 and FH genes may be the true hub genes of HCM. Their respective enriched pathways, namely the "proteasome" and the "PPAR signaling pathway," may play an important role in the development of HCM.
+33099311	102	129	hypertrophic cardiomyopathy	Disease	MESH:D002312
+33099311	207	210	HCM	Disease	MESH:D000092183
+33099311	379	382	HCM	Disease	MESH:D000092183
+33099311	933	936	HCM	Disease	MESH:D000092183
+33099311	1333	1339	RPL35A	Gene	6165
+33099311	1378	1383	PREI3	Gene	25843
+33099311	1402	1407	CREB1	Gene	1385
+33099311	1453	1457	MYH7	Gene	4625
+33099311	1483	1487	MYL6	Gene	4637
+33099311	1573	1577	MYH7	Gene	4625
+33099311	1699	1702	HCM	Disease	MESH:D000092183
+33099311	1750	1754	MYH7	Gene	4625
+33099311	1828	1832	PPAR	Gene	5465
+33099311	1884	1888	MYH7	Gene	4625
+33099311	1931	1934	HCM	Disease	MESH:D000092183
+33099311	2005	2009	PPAR	Gene	5465
+33099311	2079	2082	HCM	Disease	MESH:D000092183
+33099311	Association	MESH:D000092183	4625
+33099311	Association	MESH:D000092183	5465
+33099311	Association	4625	5465
+

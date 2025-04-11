@@ -1,0 +1,26 @@
+37674848|t|Single-label machine learning classification revealed some hidden but inter-related causes of five psychotic disorder diseases.
+37674848|a|Psychotic disorder diseases (PDD) or mental illnesses are group of illnesses that affect the minds and impair the cognitive ability, retard emotional ability and obstruct the process of communication and relationship with others and are characterized by delusions, hallucinations and disoriented or disordered pattern of thinking. Prognosis of PDD is not sufficient because of the nature of the diseases and as such adequate form of diagnosis is required to detect, manage and treat the illness. This paper applied the single-label classification (SLC) machine learning approach in mining of electronic health records of people with PDD in Nigeria using eleven independent (demographic) variables and five PDD as target variables. The five PDDs are Insomnia, Schizophrenia, Minimal Brain dysfunction (MBD), which is also known as Attention-Deficit/Hyperactivity Disorder (ADHD), Vascular Dementia (VD) and Bipolar Disorder (BD). The aim of using SLC is that it would be easier to detect some PDDs that are related to each other without the loss of information, which is a plus over multi-label classification (MLC). ReliefF algorithm was used at each experiment to precipitate the order of importance of the independent variables and redundant variables were excluded from the analysis. The order of the variables in feature selection was matched with feature importance after the classifications and quantified using the Spearman rank correlation coefficient. The data was divided into: 70% for training and 30% for testing. Four new performance metrics adapted from the root mean square (RMSE) were proposed and used to measure the differences between the performance results of the 10 Machine learning models in terms of the training and testing and secondly, feature and without feature selection. The new metrics are close to zero which is an indication that the use of feature selection and cross validation may not greatly affects the accuracy of the SLC. When the PDDs are included as predictors for classifying others, there was a tremendous improvement as revealed by the four new metrics for classification accuracy (CA), precision and recall. Analysis of variance showed the four different metrics differs significantly for classification accuracy (CA) and precision. However, there were no significant difference between the CA and precision when the duo are compared together across the four evaluation metrics at p value less than 0.05.
+37674848	99	126	psychotic disorder diseases	Disease	MESH:D011618
+37674848	128	155	Psychotic disorder diseases	Disease	MESH:D011618
+37674848	157	160	PDD	Disease	MESH:D011618
+37674848	165	181	mental illnesses	Disease	MESH:D001523
+37674848	382	391	delusions	Disease	MESH:D063726
+37674848	393	407	hallucinations	Disease	MESH:D006212
+37674848	427	457	disordered pattern of thinking	Disease	MESH:C536309
+37674848	472	475	PDD	Disease	MESH:D011618
+37674848	761	764	PDD	Disease	MESH:D011618
+37674848	834	837	PDD	Disease	MESH:D011618
+37674848	868	872	PDDs	Disease	
+37674848	877	885	Insomnia	Disease	MESH:D007319
+37674848	887	900	Schizophrenia	Disease	MESH:D012559
+37674848	902	927	Minimal Brain dysfunction	Disease	MESH:D001289
+37674848	929	932	MBD	Disease	MESH:D001289
+37674848	958	998	Attention-Deficit/Hyperactivity Disorder	Disease	MESH:D001289
+37674848	1000	1004	ADHD	Disease	MESH:D001289
+37674848	1007	1024	Vascular Dementia	Disease	MESH:D015140
+37674848	1026	1028	VD	Disease	MESH:D015140
+37674848	1034	1050	Bipolar Disorder	Disease	MESH:D001714
+37674848	1052	1054	BD	Disease	MESH:D001714
+37674848	1120	1124	PDDs	Disease	
+37674848	2100	2104	PDDs	Disease	
+

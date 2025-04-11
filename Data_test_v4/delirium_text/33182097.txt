@@ -1,0 +1,75 @@
+33182097|t|Mitochondrial redox-driven mitofusin 2 S-glutathionylation promotes neuronal necroptosis via disrupting ER-mitochondria crosstalk in cadmium-induced neurotoxicity.
+33182097|a|Reactive oxygen species (ROS)-mediated endoplasmic reticulum (ER) stress and mitochondrial dysfunction are known to affect the structural and functional damage in the neural system. Cadmium (Cd) is an environmental contaminant that is widely found in numerous environmental matrices and exhibits potential neurotoxic risk. However, it remains unclear how mitochondrial redox status induces, and whether Cd destabilizes, the ER-mitochondria crosstalk to have a toxic effect on the nervous system. Herein, in our present study, bioinformatics analysis revealed an important role of protein interaction and mitochondrial machinery in brain samples from Alzheimer's disease (AD) patients. Furthermore, we established a neurotoxicity model in vivo and in vitro induced by cadmium chloride (CdCl2). We demonstrated that CdCl2 exposure disrupts the balance in mitochondrial redox represented by enhanced mitochondrial ROS (mitoROS) levels, which enhance mitofusin 2 (Mfn2) S-glutathionylation and interrupt the mitochondria-associated ER membranes (MAMs) for crosstalk between the ER and mitochondria to induce neuronal necroptosis. Mechanistically, it was shown that CdCl2 exposure significantly enhances the mitochondria-associated degradation (MAD) of Mfn2 via S-glutathionylation, which inhibits Mfn2 localization to the MAMs and subsequently leads to the formation of the RIPK1-RIPK3-p-MLKL complex (a key component of the necrosome) at MAMs, to promote neuronal necroptosis. Furthermore, the glutaredoxin 1 (Grx1) catalyzed and Mfn2 overexpression restored S-glu-Mfn2, MAMs perturbation, necrosome formation, and necroptosis in neurons induced by CdCl2 exposure in vitro. Moreover, the intervention with antioxidants to reduce mitochondrial redox, such as N-acetyl-l-cysteine (NAC) and mitochondria-targeted antioxidant Mito-TEMPO, reduced the S-glutathionylation of Mfn2 involved in the antagonism of CdCl2-induced necroptosis and neurotoxicity in vivo and in vitro. Taken together, our results are the first time to demonstrate that S-glutathionylation of Mfn2 promotes neuronal necroptosis via disruption of ER-mitochondria crosstalk in CdCl2-induced neurotoxicity, providing the novel mechanistic insight into how hazardous chemical-induced adverse effects in various organs and tissues could be interpreted by intraorganellar pathways under the control of MAMs components in neurons.
+33182097	27	38	mitofusin 2	Gene	9927
+33182097	68	88	neuronal necroptosis	Disease	MESH:D009410
+33182097	133	140	cadmium	Chemical	MESH:D002104
+33182097	149	162	neurotoxicity	Disease	MESH:D020258
+33182097	164	187	Reactive oxygen species	Chemical	MESH:D017382
+33182097	189	192	ROS	Chemical	MESH:D017382
+33182097	241	266	mitochondrial dysfunction	Disease	MESH:D028361
+33182097	346	353	Cadmium	Chemical	MESH:D002104
+33182097	355	357	Cd	Chemical	MESH:D002104
+33182097	470	480	neurotoxic	Disease	MESH:D020258
+33182097	567	569	Cd	Chemical	MESH:D002104
+33182097	814	833	Alzheimer's disease	Disease	MESH:D000544
+33182097	835	837	AD	Disease	MESH:D000544
+33182097	839	847	patients	Species	9606
+33182097	879	892	neurotoxicity	Disease	MESH:D020258
+33182097	931	947	cadmium chloride	Chemical	MESH:D019256
+33182097	949	954	CdCl2	Chemical	MESH:D019256
+33182097	978	983	CdCl2	Chemical	MESH:D019256
+33182097	1075	1078	ROS	Chemical	MESH:D017382
+33182097	1111	1122	mitofusin 2	Gene	9927
+33182097	1124	1128	Mfn2	Gene	9927
+33182097	1268	1288	neuronal necroptosis	Disease	MESH:D009410
+33182097	1325	1330	CdCl2	Chemical	MESH:D019256
+33182097	1412	1416	Mfn2	Gene	9927
+33182097	1457	1461	Mfn2	Gene	9927
+33182097	1534	1539	RIPK1	Gene	8737
+33182097	1540	1545	RIPK3	Gene	11035
+33182097	1548	1552	MLKL	Gene	197259
+33182097	1616	1636	neuronal necroptosis	Disease	MESH:D009410
+33182097	1655	1669	glutaredoxin 1	Gene	2745
+33182097	1671	1675	Grx1	Gene	2745
+33182097	1691	1695	Mfn2	Gene	9927
+33182097	1726	1730	Mfn2	Gene	9927
+33182097	1776	1787	necroptosis	Disease	
+33182097	1810	1815	CdCl2	Chemical	MESH:D019256
+33182097	1919	1938	N-acetyl-l-cysteine	Chemical	MESH:D000111
+33182097	1940	1943	NAC	Chemical	MESH:D000111
+33182097	1983	1993	Mito-TEMPO	Chemical	MESH:C555916
+33182097	2030	2034	Mfn2	Gene	9927
+33182097	2065	2070	CdCl2	Chemical	MESH:D019256
+33182097	2079	2090	necroptosis	Disease	
+33182097	2095	2108	neurotoxicity	Disease	MESH:D020258
+33182097	2221	2225	Mfn2	Gene	9927
+33182097	2235	2255	neuronal necroptosis	Disease	MESH:D009410
+33182097	2303	2308	CdCl2	Chemical	MESH:D019256
+33182097	2317	2330	neurotoxicity	Disease	MESH:D020258
+33182097	Positive_Correlation	MESH:D019256	8737
+33182097	Positive_Correlation	MESH:D002104	MESH:D009410
+33182097	Association	MESH:D009410	8737
+33182097	Association	MESH:D002104	9927
+33182097	Negative_Correlation	MESH:C555916	9927
+33182097	Negative_Correlation	MESH:D000111	MESH:D020258
+33182097	Positive_Correlation	MESH:D017382	MESH:D019256
+33182097	Positive_Correlation	MESH:D019256	MESH:D009410
+33182097	Negative_Correlation	MESH:D019256	MESH:D000544
+33182097	Positive_Correlation	MESH:D019256	9927
+33182097	Association	MESH:D019256	2745
+33182097	Positive_Correlation	MESH:D017382	9927
+33182097	Positive_Correlation	MESH:D019256	11035
+33182097	Positive_Correlation	MESH:D017382	MESH:D028361
+33182097	Association	2745	9927
+33182097	Association	MESH:D009410	9927
+33182097	Positive_Correlation	MESH:D019256	MESH:D020258
+33182097	Positive_Correlation	MESH:D019256	197259
+33182097	Negative_Correlation	MESH:D000111	9927
+33182097	Negative_Correlation	MESH:C555916	MESH:D019256
+33182097	Association	MESH:D020258	9927
+33182097	Negative_Correlation	MESH:D000111	MESH:D019256
+33182097	Association	MESH:D009410	11035
+33182097	Association	MESH:D000544	9927
+33182097	Positive_Correlation	MESH:D002104	MESH:D020258
+33182097	Negative_Correlation	MESH:C555916	MESH:D020258
+

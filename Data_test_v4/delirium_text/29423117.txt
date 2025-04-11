@@ -1,0 +1,53 @@
+29423117|t|Oxidative stress promotes exit from the stem cell state and spontaneous neuronal differentiation.
+29423117|a|Reactive oxygen species (ROS) play important roles in fundamental cellular processes such as proliferation and survival. Here we investigated the effect of oxidative stress on stem cell maintenance and neuronal differentiation in a human embryonic stem cell (hESC) model, Ntera2 (NT2). CM-H2DCFDA and DHE assays confirmed that the oxidizing agent paraquat could induce a high level of ROS in NT2 cells. Quantitative PCR, Western blotting and immunocytochemistry showed that paraquat-induced oxidative stress suppressed the expression of stemness markers, including NANOG, OCT4 and TDGF1, whereas it enhanced the spontaneous expression of neuronal differentiation markers such as PAX6, NEUROD1, HOXA1, NCAM, GFRA1 and TUJ1. The treated cells even exhibited a strikingly different morphology from control cells, extending out long neurite-like processes. The neurogenic effect of ROS on stem cell behaviour was confirmed by the observations that the expression of neuronal markers in the paraquat-treated cells was suppressed by an antioxidant while further enhanced by knocking down Nrf2, a key transcription factor associated with antioxidant signaling. Lastly, paraquat dose-dependently activated the neurogenic MAPK-ERK1/2, which can be reversed by the MEK1/2 inhibitor SL327. Our study suggests that excessive intracellular ROS can trigger the exit from stem cell state and promote the neuronal differentiation of hESCs, and that MAPK-ERK1/2 signaling may play a proactive role in the ROS-induced neuronal differentiation of hESCs.
+29423117	98	121	Reactive oxygen species	Chemical	MESH:D017382
+29423117	123	126	ROS	Chemical	MESH:D017382
+29423117	330	335	human	Species	9606
+29423117	370	376	Ntera2	CellLine	CVCL:0034
+29423117	378	381	NT2	CellLine	CVCL:0034
+29423117	384	394	CM-H2DCFDA	Chemical	-
+29423117	399	402	DHE	Chemical	-
+29423117	445	453	paraquat	Chemical	MESH:D010269
+29423117	483	486	ROS	Chemical	MESH:D017382
+29423117	490	493	NT2	CellLine	CVCL:0034
+29423117	572	580	paraquat	Chemical	MESH:D010269
+29423117	663	668	NANOG	Gene	79923
+29423117	670	674	OCT4	Gene	5460
+29423117	679	684	TDGF1	Gene	6997
+29423117	777	781	PAX6	Gene	5080
+29423117	783	790	NEUROD1	Gene	4760
+29423117	792	797	HOXA1	Gene	3198
+29423117	799	803	NCAM	Gene	4684
+29423117	805	810	GFRA1	Gene	2674
+29423117	976	979	ROS	Chemical	MESH:D017382
+29423117	1084	1092	paraquat	Chemical	MESH:D010269
+29423117	1180	1184	Nrf2	Gene	4780
+29423117	1260	1268	paraquat	Chemical	MESH:D010269
+29423117	1316	1322	ERK1/2	Gene	5595;5594
+29423117	1353	1359	MEK1/2	Gene	5604;5605
+29423117	1370	1375	SL327	Chemical	MESH:C424127
+29423117	1425	1428	ROS	Chemical	MESH:D017382
+29423117	1515	1520	hESCs	CellLine	CVCL:C464
+29423117	1536	1542	ERK1/2	Gene	5595;5594
+29423117	1586	1589	ROS	Chemical	MESH:D017382
+29423117	1626	1631	hESCs	CellLine	CVCL:C464
+29423117	Positive_Correlation	MESH:D010269	2674
+29423117	Positive_Correlation	MESH:D010269	4760
+29423117	Association	MESH:D017382	5594
+29423117	Association	MESH:D010269	4780
+29423117	Positive_Correlation	MESH:D010269	5080
+29423117	Positive_Correlation	MESH:D010269	4684
+29423117	Association	MESH:D017382	5595
+29423117	Negative_Correlation	MESH:D010269	5460
+29423117	Positive_Correlation	MESH:D010269	5595
+29423117	Positive_Correlation	MESH:D010269	3198
+29423117	Negative_Correlation	MESH:C424127	5605
+29423117	Negative_Correlation	MESH:C424127	5604
+29423117	Negative_Correlation	MESH:C424127	5594
+29423117	Negative_Correlation	MESH:C424127	MESH:D010269
+29423117	Negative_Correlation	MESH:C424127	5595
+29423117	Positive_Correlation	MESH:D010269	5594
+29423117	Negative_Correlation	MESH:D010269	79923
+29423117	Positive_Correlation	MESH:D010269	MESH:D017382
+29423117	Negative_Correlation	MESH:D010269	6997
+

@@ -1,0 +1,25 @@
+39329685|t|Machine Learning-Driven Prediction of Brain Age for Alzheimer's Risk: APOE4 Genotype and Gender Effects.
+39329685|a|Background: Alzheimer's disease (AD) is a leading cause of dementia, and it is significantly influenced by the apolipoprotein E4 (APOE4) gene and gender. This study aimed to use machine learning (ML) algorithms to predict brain age and assess AD risk by considering the effects of the APOE4 genotype and gender. Methods: We collected brain volumetric MRI data and medical records from 1100 cognitively unimpaired individuals and 602 patients with AD. We applied three ML regression models-XGBoost, random forest (RF), and linear regression (LR)-to predict brain age. Additionally, we introduced two novel metrics, brain age difference (BAD) and integrated difference (ID), to evaluate the models' performances and analyze the influences of the APOE4 genotype and gender on brain aging. Results: Patients with AD displayed significantly older brain ages compared to their chronological ages, with BADs ranging from 6.5 to 10 years. The RF model outperformed both XGBoost and LR in terms of accuracy, delivering higher ID values and more precise predictions. Comparing the APOE4 carriers with noncarriers, the models showed enhanced ID values and consistent brain age predictions, improving the overall performance. Gender-specific analyses indicated slight enhancements, with the models performing equally well for both genders. Conclusions: This study demonstrates that robust ML models for brain age prediction can play a crucial role in the early detection of AD risk through MRI brain structural imaging. The significant impact of the APOE4 genotype on brain aging and AD risk is also emphasized. These findings highlight the potential of ML models in assessing AD risk and suggest that utilizing AI for AD identification could enable earlier preventative interventions.
+39329685	52	63	Alzheimer's	Disease	MESH:D000544
+39329685	70	75	APOE4	Gene	348
+39329685	117	136	Alzheimer's disease	Disease	MESH:D000544
+39329685	138	140	AD	Disease	MESH:D000544
+39329685	164	172	dementia	Disease	MESH:D003704
+39329685	216	233	apolipoprotein E4	Gene	348
+39329685	235	240	APOE4	Gene	348
+39329685	348	350	AD	Disease	MESH:D000544
+39329685	390	395	APOE4	Gene	348
+39329685	538	546	patients	Species	9606
+39329685	552	554	AD	Disease	MESH:D000544
+39329685	849	854	APOE4	Gene	348
+39329685	900	908	Patients	Species	9606
+39329685	914	916	AD	Disease	MESH:D000544
+39329685	1001	1005	BADs	Disease	MESH:D012120
+39329685	1176	1181	APOE4	Gene	348
+39329685	1567	1569	AD	Disease	MESH:D000544
+39329685	1643	1648	APOE4	Gene	348
+39329685	1677	1679	AD	Disease	MESH:D000544
+39329685	1770	1772	AD	Disease	MESH:D000544
+39329685	1812	1814	AD	Disease	MESH:D000544
+39329685	Association	MESH:D000544	348
+

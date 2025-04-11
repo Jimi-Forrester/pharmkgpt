@@ -1,0 +1,17 @@
+36679471|t|A Machine Learning Approach for Walking Classification in Elderly People with Gait Disorders.
+36679471|a|Walking ability of elderly individuals, who suffer from walking difficulties, is limited, which restricts their mobility independence. The physical health and well-being of the elderly population are affected by their level of physical activity. Therefore, monitoring daily activities can help improve the quality of life. This becomes especially a huge challenge for those, who suffer from dementia and Alzheimer's disease. Thus, it is of great importance for personnel in care homes/rehabilitation centers to monitor their daily activities and progress. Unlike normal subjects, it is required to place the sensor on the back of this group of patients, which makes it even more challenging to detect walking from other activities. With the latest advancements in the field of health sensing and sensor technology, a huge amount of accelerometer data can be easily collected. In this study, a Machine Learning (ML) based algorithm was developed to analyze the accelerometer data collected from patients with walking difficulties, who live in one of the municipalities in Denmark. The ML algorithm is capable of accurately classifying the walking activity of these individuals with different walking abnormalities. Various statistical, temporal, and spectral features were extracted from the time series data collected using an accelerometer sensor placed on the back of the participants. The back sensor placement is desirable in patients with dementia and Alzheimer's disease since they may remove visible sensors to them due to the nature of their diseases. Then, an evolutionary optimization algorithm called Particle Swarm Optimization (PSO) was used to select a subset of features to be used in the classification step. Four different ML classifiers such as k-Nearest Neighbors (kNN), Random Forest (RF), Stacking Classifier (Stack), and Extreme Gradient Boosting (XGB) were trained and compared on an accelerometry dataset consisting of 20 participants. These models were evaluated using the leave-one-group-out cross-validation (LOGO-CV) technique. The Stack model achieved the best performance with average sensitivity, positive predictive values (precision), F1-score, and accuracy of 86.85%, 93.25%, 88.81%, and 93.32%, respectively, to classify walking episodes. In general, the empirical results confirmed that the proposed models are capable of classifying the walking episodes despite the challenging sensor placement on the back of the patients, who suffer from walking disabilities.
+36679471	66	72	People	Species	9606
+36679471	78	92	Gait Disorders	Disease	MESH:D020233
+36679471	150	170	walking difficulties	Disease	MESH:D051346
+36679471	485	493	dementia	Disease	MESH:D003704
+36679471	498	517	Alzheimer's disease	Disease	MESH:D000544
+36679471	738	746	patients	Species	9606
+36679471	1088	1096	patients	Species	9606
+36679471	1102	1122	walking difficulties	Disease	MESH:D051346
+36679471	1285	1306	walking abnormalities	Disease	MESH:D013009
+36679471	1524	1532	patients	Species	9606
+36679471	1538	1546	dementia	Disease	MESH:D003704
+36679471	1551	1570	Alzheimer's disease	Disease	MESH:D000544
+36679471	2545	2553	patients	Species	9606
+36679471	2571	2591	walking disabilities	Disease	MESH:D013009
+

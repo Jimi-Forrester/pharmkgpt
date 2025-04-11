@@ -1,0 +1,14 @@
+32357201|t|Development and validation of an interpretable deep learning framework for Alzheimer's disease classification.
+32357201|a|Alzheimer's disease is the primary cause of dementia worldwide, with an increasing morbidity burden that may outstrip diagnosis and management capacity as the population ages. Current methods integrate patient history, neuropsychological testing and MRI to identify likely cases, yet effective practices remain variably applied and lacking in sensitivity and specificity. Here we report an interpretable deep learning strategy that delineates unique Alzheimer's disease signatures from multimodal inputs of MRI, age, gender, and Mini-Mental State Examination score. Our framework linked a fully convolutional network, which constructs high resolution maps of disease probability from local brain structure to a multilayer perceptron and generates precise, intuitive visualization of individual Alzheimer's disease risk en route to accurate diagnosis. The model was trained using clinically diagnosed Alzheimer's disease and cognitively normal subjects from the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset (n = 417) and validated on three independent cohorts: the Australian Imaging, Biomarker and Lifestyle Flagship Study of Ageing (AIBL) (n = 382), the Framingham Heart Study (n = 102), and the National Alzheimer's Coordinating Center (NACC) (n = 582). Performance of the model that used the multimodal inputs was consistent across datasets, with mean area under curve values of 0.996, 0.974, 0.876 and 0.954 for the ADNI study, AIBL, Framingham Heart Study and NACC datasets, respectively. Moreover, our approach exceeded the diagnostic performance of a multi-institutional team of practicing neurologists (n = 11), and high-risk cerebral regions predicted by the model closely tracked post-mortem histopathological findings. This framework provides a clinically adaptable strategy for using routinely available imaging techniques such as MRI to generate nuanced neuroimaging signatures for Alzheimer's disease diagnosis, as well as a generalizable approach for linking deep learning to pathophysiological processes in human disease.
+32357201	75	94	Alzheimer's disease	Disease	MESH:D000544
+32357201	111	130	Alzheimer's disease	Disease	MESH:D000544
+32357201	155	163	dementia	Disease	MESH:D003704
+32357201	313	320	patient	Species	9606
+32357201	561	580	Alzheimer's disease	Disease	MESH:D000544
+32357201	905	924	Alzheimer's disease	Disease	MESH:D000544
+32357201	1011	1030	Alzheimer's disease	Disease	MESH:D000544
+32357201	1072	1091	Alzheimer's Disease	Disease	MESH:D000544
+32357201	1331	1342	Alzheimer's	Disease	MESH:D000544
+32357201	2020	2039	Alzheimer's disease	Disease	MESH:D000544
+32357201	2148	2153	human	Species	9606
+

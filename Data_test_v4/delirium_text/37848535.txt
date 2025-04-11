@@ -1,0 +1,31 @@
+37848535|t|Novel Alzheimer's disease genes and epistasis identified using machine learning GWAS platform.
+37848535|a|Alzheimer's disease (AD) is a complex genetic disease, and variants identified through genome-wide association studies (GWAS) explain only part of its heritability. Epistasis has been proposed as a major contributor to this 'missing heritability', however, many current methods are limited to only modelling additive effects. We use VariantSpark, a machine learning approach to GWAS, and BitEpi, a tool for epistasis detection, to identify AD associated variants and interactions across two independent cohorts, ADNI and UK Biobank. By incorporating significant epistatic interactions, we captured 10.41% more phenotypic variance than logistic regression (LR). We validate the well-established AD loci, APOE, and identify two novel genome-wide significant AD associated loci in both cohorts, SH3BP4 and SASH1, which are also in significant epistatic interactions with APOE. We show that the SH3BP4 SNP has a modulating effect on the known pathogenic APOE SNP, demonstrating a possible protective mechanism against AD. SASH1 is involved in a triplet interaction with pathogenic APOE SNP and ACOT11, where the SASH1 SNP lowered the pathogenic interaction effect between ACOT11 and APOE. Finally, we demonstrate that VariantSpark detects disease associations with 80% fewer controls than LR, unlocking discoveries in well annotated but smaller cohorts.
+37848535	6	25	Alzheimer's disease	Disease	MESH:D000544
+37848535	95	114	Alzheimer's disease	Disease	MESH:D000544
+37848535	116	118	AD	Disease	MESH:D000544
+37848535	141	148	disease	Disease	MESH:D004194
+37848535	535	537	AD	Disease	MESH:D000544
+37848535	789	791	AD	Disease	MESH:D000544
+37848535	798	802	APOE	Gene	348
+37848535	851	853	AD	Disease	MESH:D000544
+37848535	887	893	SH3BP4	Gene	23677
+37848535	898	903	SASH1	Gene	23328
+37848535	963	967	APOE	Gene	348
+37848535	986	992	SH3BP4	Gene	23677
+37848535	1045	1049	APOE	Gene	348
+37848535	1109	1111	AD	Disease	MESH:D000544
+37848535	1113	1118	SASH1	Gene	23328
+37848535	1172	1176	APOE	Gene	348
+37848535	1185	1191	ACOT11	Gene	26027
+37848535	1203	1208	SASH1	Gene	23328
+37848535	1263	1269	ACOT11	Gene	26027
+37848535	1274	1278	APOE	Gene	348
+37848535	1330	1337	disease	Disease	MESH:D004194
+37848535	Association	23328	26027
+37848535	Association	23328	348
+37848535	Association	23677	348
+37848535	Association	MESH:D000544	348
+37848535	Association	MESH:D000544	23677
+37848535	Association	MESH:D000544	23328
+37848535	Association	26027	348
+

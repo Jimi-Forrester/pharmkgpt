@@ -1,0 +1,24 @@
+35450057|t|Identifying Mild Alzheimer's Disease With First 30-Min 11C-PiB PET Scan.
+35450057|a|Introduction: 11C-labeled Pittsburgh compound B (11C-PiB) PET imaging can provide information for the diagnosis of Alzheimer's disease (AD) by quantifying the binding of PiB to beta-amyloid deposition in the brain. Quantification index, such as standardized uptake value ratio (SUVR) and distribution volume ratio (DVR), has been exploited to effectively distinguish between healthy and subjects with AD. However, these measures require a long wait/scan time, as well as the selection of an optimal reference region. In this study, we propose an alternate measure named amyloid quantification index (AQI), which can be obtained with the first 30-min scan without the selection of the reference region. Methods: 11C-labeled Pittsburgh compound B PET scan data were obtained from the public dataset "OASIS-3". A total of 60 mild subjects with AD and 60 healthy controls were included, with 50 used for training and 10 used for testing in each group. The proposed measure AQI combines information of clearance rate and mid-phase PIB retention in featured brain regions from the first 30-min scan. For each subject in the training set, AQI, SUVR, and DVR were calculated and used for classification by the logistic regression classifier. The receiver operating characteristic (ROC) analysis was performed to evaluate the performance of these measures. Accuracy, sensitivity, and specificity were reported. The Kruskal-Wallis test and effect size were also performed and evaluated for all measures. Then, the performance of three measures was further validated on the testing set using the same method. The correlations between these measures and clinical MMSE and CDR-SOB scores were analyzed. Results: The Kruskal-Wallis test suggested that AQI, SUVR, and DVR can all differentiate between the healthy and subjects with mild AD (p < 0.001). For the training set, ROC analysis showed that AQI achieved the best classification performance with an accuracy rate of 0.93, higher than 0.88 for SUVR and 0.89 for DVR. The effect size of AQI, SUVR, and DVR were 2.35, 2.12, and 2.06, respectively, indicating that AQI was the most effective among these measures. For the testing set, all three measures achieved less superior performance, while AQI still performed the best with the highest accuracy of 0.85. Some false-negative cases with below-threshold SUVR and DVR values were correctly identified using AQI. All three measures showed significant and comparable correlations with clinical scores (p < 0.01). Conclusion: Amyloid quantification index combines early-phase kinetic information and a certain degree of beta-amyloid deposition, and can provide a better differentiating performance using the data from the first 30-min dynamic scan. Moreover, it was shown that clinically indistinguishable AD cases regarding PiB retention potentially can be correctly identified.
+35450057	17	36	Alzheimer's Disease	Disease	MESH:D000544
+35450057	55	62	11C-PiB	Chemical	-
+35450057	87	90	11C	Chemical	MESH:C000615233
+35450057	99	120	Pittsburgh compound B	Chemical	MESH:C475519
+35450057	122	129	11C-PiB	Chemical	-
+35450057	188	207	Alzheimer's disease	Disease	MESH:D000544
+35450057	209	211	AD	Disease	MESH:D000544
+35450057	243	246	PiB	Chemical	MESH:C069442
+35450057	474	476	AD	Disease	MESH:D000544
+35450057	643	650	amyloid	Disease	MESH:C000718787
+35450057	784	787	11C	Chemical	MESH:C000615233
+35450057	796	817	Pittsburgh compound B	Chemical	MESH:C475519
+35450057	914	916	AD	Disease	MESH:D000544
+35450057	1099	1102	PIB	Chemical	MESH:C069442
+35450057	1895	1897	AD	Disease	MESH:D000544
+35450057	2587	2594	Amyloid	Disease	MESH:C000718787
+35450057	2867	2869	AD	Disease	MESH:D000544
+35450057	2886	2889	PiB	Chemical	MESH:C069442
+35450057	Association	MESH:C000615233	MESH:D000544
+35450057	Association	MESH:C000615233	MESH:C475519
+35450057	Association	MESH:C475519	MESH:D000544
+

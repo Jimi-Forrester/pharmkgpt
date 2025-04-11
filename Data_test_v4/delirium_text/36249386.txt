@@ -1,0 +1,19 @@
+36249386|t|Succinct Amyloid and Nonamyloid Patterns in Hexapeptides.
+36249386|a|Hexapeptides are widely applied as a model system for studying the amyloid-forming properties of polypeptides, including proteins. Recently, large experimental databases have become publicly available with amyloidogenic labels. Using these data sets for training and testing purposes, one may build artificial intelligence (AI)-based classifiers for predicting the amyloid state of peptides. In our previous work (Biomolecules 2021, 11, 500), we described the Support Vector Machine (SVM)-based Budapest Amyloid Predictor (https://pitgroup.org/bap). Here, we apply the Budapest Amyloid Predictor for discovering numerous amyloidogenic and nonamyloidogenic hexapeptide patterns with accuracy between 80% and 84%, as surprising and succinct novel rules for further understanding the amyloid state of peptides. For example, we have shown that for any independently mutated residue (position marked by "x"), the patterns CxFLWx, FxFLFx, or xxIVIV are predicted to be amyloidogenic, while those of PxDxxx, xxKxEx, and xxPQxx are nonamyloidogenic. We note that each amyloidogenic pattern with two x's (e.g.,CxFLWx) describes succinctly 202 = 400 hexapeptides, while the nonamyloidogenic patterns comprising four point mutations (e.g.,PxDxxx) give 204 = 160 000 hexapeptides in total. We also examine the restricted substitutions for positions "x" from subclasses of proteinogenic amino acid residues; for example, if "x" is substituted with hydrophobic amino acids, then there exist patterns containing three x's, like MxVVxx, predicted to be amyloidogenic. If we can choose for the x positions any hydrophobic amino acids, except the "structure breaker" proline, then we get amyloid patterns with five x positions, for example, xxxFxx, each corresponding to 32 768 hexapeptides. To our knowledge, no similar applications of artificial intelligence tools or succinct amyloid patterns were described before the present work.
+36249386	9	16	Amyloid	Disease	MESH:C000718787
+36249386	44	56	Hexapeptides	Chemical	-
+36249386	58	70	Hexapeptides	Chemical	-
+36249386	125	132	amyloid	Disease	MESH:C000718787
+36249386	423	430	amyloid	Disease	MESH:C000718787
+36249386	562	569	Amyloid	Disease	MESH:C000718787
+36249386	636	643	Amyloid	Disease	MESH:C000718787
+36249386	839	846	amyloid	Disease	MESH:C000718787
+36249386	1198	1210	hexapeptides	Chemical	-
+36249386	1313	1325	hexapeptides	Chemical	-
+36249386	1432	1437	amino	Chemical	-
+36249386	1707	1714	proline	Chemical	MESH:D011392
+36249386	1728	1735	amyloid	Disease	MESH:C000718787
+36249386	1818	1830	hexapeptides	Chemical	-
+36249386	1919	1926	amyloid	Disease	MESH:C000718787
+36249386	Association	MESH:D011392	MESH:C000718787
+

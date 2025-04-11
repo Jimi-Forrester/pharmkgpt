@@ -1,0 +1,33 @@
+33337362|t|APOE4 Copy Number-Dependent Proteomic Changes in the Cerebrospinal Fluid.
+33337362|a|BACKGROUND: APOE4 has been hypothesized to increase Alzheimer's disease risk by increasing neuroinflammation, though the specific neuroinflammatory pathways involved are unclear. OBJECTIVE: Characterize cerebrospinal fluid (CSF) proteomic changes related to APOE4 copy number. METHODS: We analyzed targeted proteomic data from ADNI CSF samples using a linear regression model adjusting for age, sex, and APOE4 copy number, and additional linear models also adjusting for AD clinical status or for CSF Abeta, tau, or p-tau levels. False discovery rate was used to correct for multiple comparisons correction. RESULTS: Increasing APOE4 copy number was associated with a significant decrease in a CRP peptide level across all five models (q < 0.05 for each), and with significant increases in ALDOA, CH3L1 (YKL-40), and FABPH peptide levels (q < 0.05 for each) except when controlling for AD clinical status or neurodegeneration biomarkers (i.e., CSF tau or p-tau). In all models except the one controlling for CSF Abeta levels, though not statistically significant, there was a consistent inverse direction of association between APOE4 copy number and the levels of all 24 peptides from all 8 different complement proteins measured. The odds of this happening by chance for 24 unrelated peptides would be less than 1 in 16 million. CONCLUSION: Increasing APOE4 copy number was associated with decreased CSF CRP levels across all models, and increased CSF ALDOA, CH3L1, and FABH levels when controlling for CSF Abeta levels. Increased APOE4 copy number may also be associated with decreased CSF complement pathway protein levels, a hypothesis for investigation in future studies.
+33337362	0	5	APOE4	Gene	348
+33337362	86	91	APOE4	Gene	348
+33337362	126	145	Alzheimer's disease	Disease	MESH:D000544
+33337362	165	182	neuroinflammation	Disease	MESH:D000090862
+33337362	204	221	neuroinflammatory	Disease	MESH:D000090862
+33337362	332	337	APOE4	Gene	348
+33337362	401	405	ADNI	Disease	
+33337362	478	483	APOE4	Gene	348
+33337362	545	547	AD	Disease	MESH:D000544
+33337362	575	580	Abeta	Gene	351
+33337362	582	585	tau	Gene	4137
+33337362	702	707	APOE4	Gene	348
+33337362	768	771	CRP	Gene	1401
+33337362	864	869	ALDOA	Gene	226
+33337362	878	884	YKL-40	Gene	1116
+33337362	960	962	AD	Disease	MESH:D000544
+33337362	982	999	neurodegeneration	Disease	MESH:D019636
+33337362	1022	1025	tau	Gene	4137
+33337362	1086	1091	Abeta	Gene	351
+33337362	1202	1207	APOE4	Gene	348
+33337362	1427	1432	APOE4	Gene	348
+33337362	1479	1482	CRP	Gene	1401
+33337362	1527	1532	ALDOA	Gene	226
+33337362	1582	1587	Abeta	Gene	351
+33337362	1606	1611	APOE4	Gene	348
+33337362	Positive_Correlation	MESH:D000544	348
+33337362	Positive_Correlation	MESH:D000090862	348
+33337362	Negative_Correlation	1401	348
+33337362	Positive_Correlation	1116	348
+33337362	Positive_Correlation	226	348
+

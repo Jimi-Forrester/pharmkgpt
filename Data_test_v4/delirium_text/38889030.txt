@@ -1,0 +1,8 @@
+38889030|t|Ensemble Vision Transformer for Dementia Diagnosis.
+38889030|a|In recent years, deep learning has gained momentum in computer-aided Alzheimer's Disease (AD) diagnosis. This study introduces a novel approach, Monte Carlo Ensemble Vision Transformer (MC-ViT), which develops an ensemble approach with Vision transformer (ViT). Instead of using traditional ensemble methods that deploy multiple learners, our approach employs a single vision transformer learner. By harnessing Monte Carlo sampling, this method produces a broad spectrum of classification decisions, enhancing the MC-ViT performance. This novel technique adeptly overcomes the limitation of 3D patch convolutional neural networks that only characterize partial of the whole brain anatomy, paving the way for a neural network adept at discerning 3D inter-feature correlations. Evaluations using the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset with 7199 scans and Open Access Series of Imaging Studies-3 (OASIS-3) with 1992 scans showcased its performance. With minimal preprocessing, our approach achieved an impressive 90% accuracy in AD classification, surpassing both 2D-slice CNNs and 3D CNNs.
+38889030	32	40	Dementia	Disease	MESH:D003704
+38889030	121	140	Alzheimer's Disease	Disease	MESH:D000544
+38889030	142	144	AD	Disease	MESH:D000544
+38889030	850	869	Alzheimer's Disease	Disease	MESH:D000544
+38889030	1102	1104	AD	Disease	MESH:D000544
+

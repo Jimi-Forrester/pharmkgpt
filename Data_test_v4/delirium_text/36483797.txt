@@ -1,0 +1,61 @@
+36483797|t|Molecular mechanisms of Baihedihuang decoction as a treatment for breast cancer related anxiety: A network pharmacology and molecular docking study.
+36483797|a|BACKGROUND: The therapeutic effects of a combination of Chinese medicines called Baihedihuang decoction (BD) have been clinically verified, although its molecular targets in breast cancer related anxiety remain unknown. AIM: To explore the molecular mechanisms of BD for breast cancer related anxiety treatment. METHODS: We used the Traditional Chinese Medicine Systems Pharmacology database to screen the active ingredients and potential targets of BD, and constructed the "drug-ingredient-target" network map with the help of Cytoscape 3.8 software. Also, we used the Online Mendelian Inheritance in Man, DrugBank, and Gencards databases to collect the disease targets of breast cancer related anxiety, and used the STRING platform to perform protein interaction analysis and construct the protein-protein interaction network. Metascape platform was used for Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analysis of key targets. Molecular docking technology was used to verify the drug component/target disease network. RESULTS: We screened 16 active ingredients of BD for breast cancer related anxiety, with 113 target proteins. There are 931 disease targets of breast cancer related anxiety, and finally, 43 key targets and 305 Kyoto Encyclopedia of Genes and Genomes pathways were generated. The main active ingredients of BD for breast cancer related anxiety are verbascoside, beta-sitosterol, stigmasterol, catalpol, etc. CDK2, TP53, HTR2A, ESR1, etc. are its key targets, and the main involved signaling pathways may include neuroactive ligand-receptor interaction pathway, 5-hydroxytryptaminergic synapse, P53 signaling pathway, cGMP-PKG signaling pathway, the cAMP signaling pathway, etc. Finally, molecular docking was performed with Vina software to validate the key active ingredients in BD with the selected key action targets. The molecular docking results showed that verbascoside, beta-sitosterol, stigmasterol and CDK2 could stably bind and interact through amino acid residues SER249, ARG260, PRO228, ALA282, SER276, LYS273, ASN272, etc. CONCLUSION: The therapeutic effect of BD for breast cancer related anxiety is multi-level, multi-target, and multi-pathway. The findings of this study provide ideas and basis for further research.
+36483797	24	46	Baihedihuang decoction	Chemical	-
+36483797	66	79	breast cancer	Disease	MESH:D001943
+36483797	88	95	anxiety	Disease	MESH:D001007
+36483797	205	222	Chinese medicines	Chemical	-
+36483797	230	252	Baihedihuang decoction	Chemical	-
+36483797	323	336	breast cancer	Disease	MESH:D001943
+36483797	345	352	anxiety	Disease	MESH:D001007
+36483797	420	433	breast cancer	Disease	MESH:D001943
+36483797	442	449	anxiety	Disease	MESH:D001007
+36483797	823	836	breast cancer	Disease	MESH:D001943
+36483797	845	852	anxiety	Disease	MESH:D001007
+36483797	1256	1269	breast cancer	Disease	MESH:D001943
+36483797	1278	1285	anxiety	Disease	MESH:D001007
+36483797	1346	1359	breast cancer	Disease	MESH:D001943
+36483797	1368	1375	anxiety	Disease	MESH:D001007
+36483797	1516	1529	breast cancer	Disease	MESH:D001943
+36483797	1538	1545	anxiety	Disease	MESH:D001007
+36483797	1550	1562	verbascoside	Chemical	MESH:C058956
+36483797	1564	1579	beta-sitosterol	Chemical	MESH:C025473
+36483797	1581	1593	stigmasterol	Chemical	MESH:D013265
+36483797	1595	1603	catalpol	Chemical	MESH:C078040
+36483797	1610	1614	CDK2	Gene	1017
+36483797	1616	1620	TP53	Gene	7157
+36483797	1622	1627	HTR2A	Gene	3356
+36483797	1629	1633	ESR1	Gene	2099
+36483797	1796	1799	P53	Gene	7157
+36483797	1824	1827	PKG	Gene	5592
+36483797	1851	1855	cAMP	Chemical	-
+36483797	2065	2077	verbascoside	Chemical	MESH:C058956
+36483797	2079	2094	beta-sitosterol	Chemical	MESH:C025473
+36483797	2096	2108	stigmasterol	Chemical	MESH:D013265
+36483797	2113	2117	CDK2	Gene	1017
+36483797	2283	2296	breast cancer	Disease	MESH:D001943
+36483797	2305	2312	anxiety	Disease	MESH:D001007
+36483797	Association	MESH:D001943	2099
+36483797	Association	MESH:C058956	7157
+36483797	Negative_Correlation	MESH:C025473	MESH:D001943
+36483797	Negative_Correlation	MESH:C078040	MESH:D001943
+36483797	Association	MESH:D001007	3356
+36483797	Association	MESH:D001943	7157
+36483797	Negative_Correlation	MESH:C078040	MESH:D001007
+36483797	Negative_Correlation	MESH:C025473	MESH:D001007
+36483797	Association	MESH:D013265	7157
+36483797	Association	MESH:D013265	1017
+36483797	Negative_Correlation	MESH:C058956	MESH:D001943
+36483797	Association	MESH:D001943	5592
+36483797	Negative_Correlation	MESH:C058956	MESH:D001007
+36483797	Negative_Correlation	MESH:D013265	MESH:D001007
+36483797	Association	MESH:D001943	3356
+36483797	Negative_Correlation	MESH:D013265	MESH:D001943
+36483797	Association	MESH:C025473	7157
+36483797	Association	1017	7157
+36483797	Association	MESH:D001007	1017
+36483797	Association	1017	5592
+36483797	Association	MESH:D001007	5592
+36483797	Association	MESH:D001007	7157
+36483797	Association	MESH:D001007	2099
+36483797	Association	MESH:D001943	1017
+

@@ -1,0 +1,21 @@
+31057348|t|Robust Motion Regression of Resting-State Data Using a Convolutional Neural Network Model.
+31057348|a|Resting-state functional magnetic resonance imaging (rs-fMRI) based on the blood-oxygen-level-dependent (BOLD) signal has been widely used in healthy individuals and patients to investigate brain functions when the subjects are in a resting or task-negative state. Head motion considerably confounds the interpretation of rs-fMRI data. Nuisance regression is commonly used to reduce motion-related artifacts with six motion parameters estimated from rigid-body realignment as regressors. To further compensate for the effect of head movement, the first-order temporal derivatives of motion parameters and squared motion parameters were proposed previously as possible motion regressors. However, these additional regressors may not be sufficient to model the impact of head motion because of the complexity of motion artifacts. In addition, while using more motion-related regressors could explain more variance in the data, the neural signal may also be removed with increasing number of motion regressors. To better model how in-scanner motion affects rs-fMRI data, a robust and automated convolutional neural network (CNN) model is developed in this study to obtain optimal motion regressors. The CNN network consists of two temporal convolutional layers and the output from the network are the derived motion regressors used in the following nuisance regression. The temporal convolutional layer in the network can non-parametrically model the prolonged effect of head motion. The set of regressors derived from the neural network is compared with the same number of regressors used in a traditional nuisance regression approach. It is demonstrated that the CNN-derived regressors can more effectively reduce motion-related artifacts.
+31057348	7	13	Motion	Disease	MESH:D009041
+31057348	172	178	oxygen	Chemical	MESH:D010100
+31057348	257	265	patients	Species	9606
+31057348	361	367	motion	Disease	MESH:D009041
+31057348	474	480	motion	Disease	MESH:D009041
+31057348	508	514	motion	Disease	MESH:D009041
+31057348	674	680	motion	Disease	MESH:D009041
+31057348	704	710	motion	Disease	MESH:D009041
+31057348	759	765	motion	Disease	MESH:D009041
+31057348	865	871	motion	Disease	MESH:D009041
+31057348	901	907	motion	Disease	MESH:D009041
+31057348	949	955	motion	Disease	MESH:D009041
+31057348	1080	1086	motion	Disease	MESH:D009041
+31057348	1130	1136	motion	Disease	MESH:D009041
+31057348	1268	1274	motion	Disease	MESH:D009041
+31057348	1397	1403	motion	Disease	MESH:D009041
+31057348	1564	1570	motion	Disease	MESH:D009041
+31057348	1804	1810	motion	Disease	MESH:D009041
+

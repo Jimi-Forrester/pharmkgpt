@@ -1,0 +1,29 @@
+36454869|t|Patient-derived three-dimensional cortical neurospheres to model Parkinson's disease.
+36454869|a|There are currently no preventive or disease-modifying therapies for Parkinson's Disease (PD). Failures in clinical trials necessitate a re-evaluation of existing pre-clinical models in order to adopt systems that better recapitulate underlying disease mechanisms and better predict clinical outcomes. In recent years, models utilizing patient-derived induced pluripotent stem cells (iPSC) have emerged as attractive models to recapitulate disease-relevant neuropathology in vitro without exogenous overexpression of disease-related pathologic proteins. Here, we utilized iPSC derived from patients with early-onset PD and dementia phenotypes that harbored either a point mutation (A53T) or multiplication at the alpha-synuclein/SNCA gene locus. We generated a three-dimensional (3D) cortical neurosphere culture model to better mimic the tissue microenvironment of the brain. We extensively characterized the differentiation process using quantitative PCR, Western immunoblotting and immunofluorescence staining. Differentiated and aged neurospheres revealed alterations in fatty acid profiles and elevated total and pathogenic phospho-alpha-synuclein levels in both A53T and the triplication lines compared to their isogenic control lines. Furthermore, treatment of the neurospheres with a small molecule inhibitor of stearoyl CoA desaturase (SCD) attenuated the protein accumulation and aberrant fatty acid profile phenotypes. Our findings suggest that the 3D cortical neurosphere model is a useful tool to interrogate targets for PD and amenable to test small molecule therapeutics.
+36454869	0	7	Patient	Species	9606
+36454869	65	84	Parkinson's disease	Disease	MESH:D010300
+36454869	155	174	Parkinson's Disease	Disease	MESH:D010300
+36454869	176	178	PD	Disease	MESH:D010300
+36454869	422	429	patient	Species	9606
+36454869	676	684	patients	Species	9606
+36454869	702	704	PD	Disease	MESH:D010300
+36454869	709	717	dementia	Disease	MESH:D003704
+36454869	768	772	A53T	ProteinMutation	tmVar:p|SUB|A|53|T;HGVS:p.A53T;VariantGroup:0;CorrespondingGene:6622;RS#:104893877;CorrespondingSpecies:9606;CA#:257068
+36454869	799	814	alpha-synuclein	Gene	6622
+36454869	815	819	SNCA	Gene	6622
+36454869	1161	1171	fatty acid	Chemical	MESH:D005227
+36454869	1223	1238	alpha-synuclein	Gene	6622
+36454869	1254	1258	A53T	ProteinMutation	tmVar:p|SUB|A|53|T;HGVS:p.A53T;VariantGroup:0;CorrespondingGene:6622;RS#:104893877;CorrespondingSpecies:9606;CA#:257068
+36454869	1406	1429	stearoyl CoA desaturase	Gene	6319
+36454869	1431	1434	SCD	Gene	6319
+36454869	1485	1495	fatty acid	Chemical	MESH:D005227
+36454869	1620	1622	PD	Disease	MESH:D010300
+36454869	Association	MESH:D003704	RS#:104893877;HGVS:p.A53T;CorrespondingGene:6622
+36454869	Positive_Correlation	MESH:D010300	RS#:104893877;HGVS:p.A53T;CorrespondingGene:6622
+36454869	Association	MESH:D005227	6319
+36454869	Association	MESH:D010300	6319
+36454869	Association	MESH:D010300	6622
+36454869	Association	MESH:D003704	6622
+36454869	Association	MESH:D003704	6622
+36454869	Association	MESH:D010300	6622
+

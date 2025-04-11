@@ -1,0 +1,22 @@
+38753617|t|Development and validation of the Michigan Chronic Disease Simulation Model (MICROSIM).
+38753617|a|Strategies to prevent or delay Alzheimer's disease and related dementias (AD/ADRD) are urgently needed, and blood pressure (BP) management is a promising strategy. Yet the effects of different BP control strategies across the life course on AD/ADRD are unknown. Randomized trials may be infeasible due to prolonged follow-up and large sample sizes. Simulation analysis is a practical approach to estimating these effects using the best available existing data. However, existing simulation frameworks cannot estimate the effects of BP control on both dementia and cardiovascular disease. This manuscript describes the design principles, implementation details, and population-level validation of a novel population-health microsimulation framework, the MIchigan ChROnic Disease SIMulation (MICROSIM), for The Effect of Lower Blood Pressure over the Life Course on Late-life Cognition in Blacks, Hispanics, and Whites (BP-COG) study of the effect of BP levels over the life course on dementia and cardiovascular disease. MICROSIM is an agent-based Monte Carlo simulation designed using computer programming best practices. MICROSIM estimates annual vascular risk factor levels and transition probabilities in all-cause dementia, stroke, myocardial infarction, and mortality in a nationally representative sample of US adults 18+ using the National Health and Nutrition Examination Survey (NHANES). MICROSIM models changes in risk factors over time, cognition and dementia using changes from a pooled dataset of individual participant data from 6 US prospective cardiovascular cohort studies. Cardiovascular risks were estimated using a widely used risk model and BP treatment effects were derived from meta-analyses of randomized trials. MICROSIM is an extensible, open-source framework designed to estimate the population-level impact of different BP management strategies and reproduces US population-level estimates of BP and other vascular risk factors levels, their change over time, and incident all-cause dementia, stroke, myocardial infarction, and mortality.
+38753617	43	58	Chronic Disease	Disease	MESH:D002908
+38753617	119	138	Alzheimer's disease	Disease	MESH:D000544
+38753617	151	160	dementias	Disease	MESH:D003704
+38753617	162	164	AD	Disease	MESH:D000544
+38753617	165	169	ADRD	Disease	
+38753617	329	331	AD	Disease	MESH:D000544
+38753617	332	336	ADRD	Disease	
+38753617	639	647	dementia	Disease	MESH:D003704
+38753617	652	674	cardiovascular disease	Disease	MESH:D002318
+38753617	850	865	ChROnic Disease	Disease	MESH:D002908
+38753617	1071	1079	dementia	Disease	MESH:D003704
+38753617	1084	1106	cardiovascular disease	Disease	MESH:D002318
+38753617	1306	1314	dementia	Disease	MESH:D003704
+38753617	1316	1322	stroke	Disease	MESH:D020521
+38753617	1324	1345	myocardial infarction	Disease	MESH:D009203
+38753617	1550	1558	dementia	Disease	MESH:D003704
+38753617	2099	2107	dementia	Disease	MESH:D003704
+38753617	2109	2115	stroke	Disease	MESH:D020521
+38753617	2117	2138	myocardial infarction	Disease	MESH:D009203
+

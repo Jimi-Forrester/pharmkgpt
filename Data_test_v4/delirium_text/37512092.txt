@@ -1,0 +1,24 @@
+37512092|t|Generation of Conventional 18F-FDG PET Images from 18F-Florbetaben PET Images Using Generative Adversarial Network: A Preliminary Study Using ADNI Dataset.
+37512092|a|Background and Objectives: 18F-fluorodeoxyglucose (FDG) positron emission tomography (PET) (PETFDG) image can visualize neuronal injury of the brain in Alzheimer's disease. Early-phase amyloid PET image is reported to be similar to PETFDG image. This study aimed to generate PETFDG images from 18F-florbetaben PET (PETFBB) images using a generative adversarial network (GAN) and compare the generated PETFDG (PETGE-FDG) with real PETFDG (PETRE-FDG) images using the structural similarity index measure (SSIM) and the peak signal-to-noise ratio (PSNR). Materials and Methods: Using the Alzheimer's Disease Neuroimaging Initiative (ADNI) database, 110 participants with both PETFDG and PETFBB images at baseline were included. The paired PETFDG and PETFBB images included six and four subset images, respectively. Each subset image had a 5 min acquisition time. These subsets were randomly sampled and divided into 249 paired PETFDG and PETFBB subset images for the training datasets and 95 paired subset images for the validation datasets during the deep-learning process. The deep learning model used in this study is composed of a GAN with a U-Net. The differences in the SSIM and PSNR values between the PETGE-FDG and PETRE-FDG images in the cycleGAN and pix2pix models were evaluated using the independent Student's t-test. Statistical significance was set at p <= 0.05. Results: The participant demographics (age, sex, or diagnosis) showed no statistically significant differences between the training (82 participants) and validation (28 participants) groups. The mean SSIM between the PETGE-FDG and PETRE-FDG images was 0.768 +- 0.135 for the cycleGAN model and 0.745 +- 0.143 for the pix2pix model. The mean PSNR was 32.4 +- 9.5 and 30.7 +- 8.0. The PETGE-FDG images of the cycleGAN model showed statistically higher mean SSIM than those of the pix2pix model (p < 0.001). The mean PSNR was also higher in the PETGE-FDG images of the cycleGAN model than those of pix2pix model (p < 0.001). Conclusions: We generated PETFDG images from PETFBB images using deep learning. The cycleGAN model generated PETGE-FDG images with a higher SSIM and PSNR values than the pix2pix model. Image-to-image translation using deep learning may be useful for generating PETFDG images. These may provide additional information for the management of Alzheimer's disease without extra image acquisition and the consequent increase in radiation exposure, inconvenience, or expenses.
+37512092	27	34	18F-FDG	Chemical	-
+37512092	51	66	18F-Florbetaben	Chemical	MESH:C527756
+37512092	183	205	18F-fluorodeoxyglucose	Chemical	MESH:D019788
+37512092	207	210	FDG	Chemical	MESH:D019788
+37512092	276	304	neuronal injury of the brain	Disease	MESH:D001930
+37512092	308	327	Alzheimer's disease	Disease	MESH:D000544
+37512092	341	348	amyloid	Disease	MESH:C000718787
+37512092	450	465	18F-florbetaben	Chemical	MESH:C527756
+37512092	571	574	FDG	Chemical	MESH:D019788
+37512092	600	603	FDG	Chemical	MESH:D019788
+37512092	741	760	Alzheimer's Disease	Disease	MESH:D000544
+37512092	1368	1371	FDG	Chemical	MESH:D019788
+37512092	1382	1385	FDG	Chemical	MESH:D019788
+37512092	1753	1756	FDG	Chemical	MESH:D019788
+37512092	1767	1770	FDG	Chemical	MESH:D019788
+37512092	1919	1922	FDG	Chemical	MESH:D019788
+37512092	2078	2081	FDG	Chemical	MESH:D019788
+37512092	2267	2270	FDG	Chemical	MESH:D019788
+37512092	2491	2510	Alzheimer's disease	Disease	MESH:D000544
+37512092	Association	MESH:D019788	MESH:D001930
+37512092	Association	MESH:D019788	MESH:D000544
+

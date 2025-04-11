@@ -1,0 +1,21 @@
+34867511|t|A Machine Learning Model to Predict Risperidone Active Moiety Concentration Based on Initial Therapeutic Drug Monitoring.
+34867511|a|Risperidone is an efficacious second-generation antipsychotic (SGA) to treat a wide spectrum of psychiatric diseases, whereas its active moiety (risperidone and 9-hydroxyrisperidone) concentration without a therapeutic reference range may increase the risk of adverse drug reactions. We aimed to establish a prediction model of risperidone active moiety concentration in the next therapeutic drug monitoring (TDM) based on the initial TDM information using machine learning methods. A total of 983 patients treated with risperidone between May 2017 and May 2018 in Beijing Anding Hospital were collected as the data set. Sixteen predictors (the initial TDM value, dosage, age, WBC, PLT, BUN, weight, BMI, prolactin, ALT, MECT, Cr, AST, Ccr, TDM interval, and RBC) were screened from 26 variables through univariate analysis (p < 0.05) and XGBoost (importance score >0). Ten algorithms (XGBoost, LightGBM, CatBoost, AdaBoost, Random Forest, support vector machine, lasso regression, ridge regression, linear regression, and k-nearest neighbor) compared the model performance, and ultimately, XGBoost was chosen to establish the prediction model. A cohort of 210 patients treated with risperidone between March 1, 2019, and May 31, 2019, in Beijing Anding Hospital was used to validate the model. Finally, the prediction model was evaluated, obtaining R 2 (0.512 in test cohort; 0.374 in validation cohort), MAE (10.97 in test cohort; 12.07 in validation cohort), MSE (198.55 in test cohort; 324.15 in validation cohort), RMSE (14.09 in test cohort; 18.00 in validation cohort), and accuracy of the predicted TDM within +-30% of the actual TDM (54.82% in test cohort; 60.95% in validation cohort). The prediction model has promising performance to facilitate rational risperidone regimen on an individualized level and provide reference for other antipsychotic drugs' risk prediction.
+34867511	36	47	Risperidone	Chemical	MESH:D018967
+34867511	122	133	Risperidone	Chemical	MESH:D018967
+34867511	185	188	SGA	Chemical	-
+34867511	218	238	psychiatric diseases	Disease	MESH:D001523
+34867511	267	278	risperidone	Chemical	MESH:D018967
+34867511	283	303	9-hydroxyrisperidone	Chemical	MESH:D000068882
+34867511	382	404	adverse drug reactions	Disease	MESH:D064420
+34867511	450	461	risperidone	Chemical	MESH:D018967
+34867511	620	628	patients	Species	9606
+34867511	642	653	risperidone	Chemical	MESH:D018967
+34867511	827	836	prolactin	Gene	5617
+34867511	853	856	AST	Gene	26503
+34867511	1283	1291	patients	Species	9606
+34867511	1305	1316	risperidone	Chemical	MESH:D018967
+34867511	1888	1899	risperidone	Chemical	MESH:D018967
+34867511	Positive_Correlation	MESH:D000068882	MESH:D064420
+34867511	Negative_Correlation	MESH:D018967	MESH:D001523
+34867511	Positive_Correlation	MESH:D018967	MESH:D064420
+

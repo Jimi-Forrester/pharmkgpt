@@ -1,0 +1,60 @@
+24632723|t|SHP-2 binds to caveolin-1 and regulates Src activity via competitive inhibition of CSK in response to H2O2 in astrocytes.
+24632723|a|Reactive oxygen species (ROS) regulate diverse cellular functions by triggering signal transduction events, such as Src and mitogen-activated protein (MAP) kinases. Here, we report the role of caveolin-1 and Src homology 2 domain-containing protein tyrosine phosphatase 2 (SHP-2) in H2O2-induced signaling pathway in brain astrocytes. H2O2-mediated oxidative stress induced phosphorylation of caveolin-1 and association between p-caveolin-1 and SHP-2. SHP-2 specifically bound to wild-type caveolin-1 similarly to c-Src tyrosine kinase (CSK), but not to phosphorylation-deficient mutant of caveolin-1 (Y14A), and interfered with complex formation between caveolin-1 and CSK. In the presence of CSK siRNA, binding between caveolin-1 and SHP-2 was enhanced by H2O2 treatment, which led to reduced Src phosphorylation at tyrosine (Tyr) 530 and enhanced Src phosphorylation at Tyr 419. In contrast, siRNA targeting of SHP-2 facilitated H2O2-mediated interaction between caveolin-1 and CSK and enhanced Src phosphorylation at Tyr 530, leading to subsequent decrease in Src downstream signaling, such as focal adhesion kinase (FAK) and extracellular signal-related kinase (ERK). Our results collectively indicate that SHP-2 alters Src kinase activity by interfering with the complex formation between CSK and phosphotyrosine caveolin-1 in the presence of H2O2, thus functions as a positive regulator in Src signaling under oxidative stress in brain astrocytes. 
+24632723	0	5	SHP-2	Gene	5781
+24632723	15	25	caveolin-1	Gene	857
+24632723	40	43	Src	Gene	6714
+24632723	83	86	CSK	Gene	1445
+24632723	102	106	H2O2	Chemical	MESH:D006861
+24632723	122	145	Reactive oxygen species	Chemical	MESH:D017382
+24632723	147	150	ROS	Chemical	MESH:D017382
+24632723	238	241	Src	Gene	6714
+24632723	315	325	caveolin-1	Gene	857
+24632723	395	400	SHP-2	Gene	5781
+24632723	405	409	H2O2	Chemical	MESH:D006861
+24632723	457	461	H2O2	Chemical	MESH:D006861
+24632723	515	525	caveolin-1	Gene	857
+24632723	552	562	caveolin-1	Gene	857
+24632723	567	572	SHP-2	Gene	5781
+24632723	574	579	SHP-2	Gene	5781
+24632723	612	622	caveolin-1	Gene	857
+24632723	636	657	c-Src tyrosine kinase	Gene	1445
+24632723	659	662	CSK	Gene	1445
+24632723	712	722	caveolin-1	Gene	857
+24632723	724	728	Y14A	ProteinMutation	tmVar:p|SUB|Y|14|A;HGVS:p.Y14A;VariantGroup:0;CorrespondingGene:857;CorrespondingSpecies:9606
+24632723	777	787	caveolin-1	Gene	857
+24632723	792	795	CSK	Gene	1445
+24632723	816	819	CSK	Gene	1445
+24632723	843	853	caveolin-1	Gene	857
+24632723	858	863	SHP-2	Gene	5781
+24632723	880	884	H2O2	Chemical	MESH:D006861
+24632723	917	920	Src	Gene	6714
+24632723	972	975	Src	Gene	6714
+24632723	1036	1041	SHP-2	Gene	5781
+24632723	1054	1058	H2O2	Chemical	MESH:D006861
+24632723	1088	1098	caveolin-1	Gene	857
+24632723	1103	1106	CSK	Gene	1445
+24632723	1120	1123	Src	Gene	6714
+24632723	1186	1189	Src	Gene	6714
+24632723	1220	1241	focal adhesion kinase	Gene	5747
+24632723	1243	1246	FAK	Gene	5747
+24632723	1252	1287	extracellular signal-related kinase	Gene	5594
+24632723	1289	1292	ERK	Gene	5594
+24632723	1334	1339	SHP-2	Gene	5781
+24632723	1417	1420	CSK	Gene	1445
+24632723	1441	1451	caveolin-1	Gene	857
+24632723	1471	1475	H2O2	Chemical	MESH:D006861
+24632723	1519	1522	Src	Gene	6714
+24632723	Positive_Correlation	MESH:D006861	857
+24632723	Negative_Correlation	MESH:D006861	6714
+24632723	Negative_Correlation	MESH:D006861	5594
+24632723	Association	MESH:D006861	1445
+24632723	Association	5781	857
+24632723	Negative_Correlation	1445	5781
+24632723	Negative_Correlation	5781	6714
+24632723	Association	5594	6714
+24632723	Association	5747	6714
+24632723	Negative_Correlation	5594	5781
+24632723	Association	MESH:D006861	5781
+24632723	Association	6714	857
+24632723	Negative_Correlation	5747	5781
+

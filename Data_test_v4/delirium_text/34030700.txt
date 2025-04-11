@@ -1,0 +1,13 @@
+34030700|t|Predicting phosphorylation sites using machine learning by integrating the sequence, structure, and functional information of proteins.
+34030700|a|BACKGROUND: Post-translational modification (PTM) is a biological process that alters proteins and is therefore involved in the regulation of various cellular activities and pathogenesis. Protein phosphorylation is an essential process and one of the most-studied PTMs: it occurs when a phosphate group is added to serine (Ser, S), threonine (Thr, T), or tyrosine (Tyr, Y) residue. Dysregulation of protein phosphorylation can lead to various diseases-most commonly neurological disorders, Alzheimer's disease, and Parkinson's disease-thus necessitating the prediction of S/T/Y residues that can be phosphorylated in an uncharacterized amino acid sequence. Despite a surplus of sequencing data, current experimental methods of PTM prediction are time-consuming, costly, and error-prone, so a number of computational methods have been proposed to replace them. However, phosphorylation prediction remains limited, owing to substrate specificity, performance, and the diversity of its features. METHODS: In the present study we propose machine-learning-based predictors that use the physicochemical, sequence, structural, and functional information of proteins to classify S/T/Y phosphorylation sites. Rigorous feature selection, the minimum redundancy/maximum relevance approach, and the symmetrical uncertainty method were employed to extract the most informative features to train the models. RESULTS: The RF and SVM models generated using diverse feature types in the present study were highly accurate as is evident from good values for different statistical measures. Moreover, independent test sets and benchmark validations indicated that the proposed method clearly outperformed the existing methods, demonstrating its ability to accurately predict protein phosphorylation. CONCLUSIONS: The results obtained in the present work indicate that the proposed computational methodology can be effectively used for predicting putative phosphorylation sites further facilitating discovery of various biological processes mechanisms.
+34030700	423	432	phosphate	Chemical	MESH:D010710
+34030700	451	457	serine	Chemical	MESH:D012694
+34030700	479	482	Thr	Chemical	MESH:D013912
+34030700	501	504	Tyr	Chemical	MESH:D014443
+34030700	602	624	neurological disorders	Disease	MESH:D009461
+34030700	626	645	Alzheimer's disease	Disease	MESH:D000544
+34030700	651	670	Parkinson's disease	Disease	MESH:D010300
+34030700	Association	MESH:D010710	MESH:D012694
+34030700	Association	MESH:D010710	MESH:D013912
+34030700	Association	MESH:D010710	MESH:D014443
+

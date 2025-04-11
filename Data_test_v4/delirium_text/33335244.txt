@@ -1,0 +1,12 @@
+33335244|t|Identification of Alzheimer's disease using a convolutional neural network model based on T1-weighted magnetic resonance imaging.
+33335244|a|The classification of Alzheimer's disease (AD) using deep learning methods has shown promising results, but successful application in clinical settings requires a combination of high accuracy, short processing time, and generalizability to various populations. In this study, we developed a convolutional neural network (CNN)-based AD classification algorithm using magnetic resonance imaging (MRI) scans from AD patients and age/gender-matched cognitively normal controls from two populations that differ in ethnicity and education level. These populations come from the Seoul National University Bundang Hospital (SNUBH) and Alzheimer's Disease Neuroimaging Initiative (ADNI). For each population, we trained CNNs on five subsets using coronal slices of T1-weighted images that cover the medial temporal lobe. We evaluated the models on validation subsets from both the same population (within-dataset validation) and other population (between-dataset validation). Our models achieved average areas under the curves of 0.91-0.94 for within-dataset validation and 0.88-0.89 for between-dataset validation. The mean processing time per person was 23-24 s. The within-dataset and between-dataset performances were comparable between the ADNI-derived and SNUBH-derived models. These results demonstrate the generalizability of our models to different patients with different ethnicities and education levels, as well as their potential for deployment as fast and accurate diagnostic support tools for AD.
+33335244	18	37	Alzheimer's disease	Disease	MESH:D000544
+33335244	152	171	Alzheimer's disease	Disease	MESH:D000544
+33335244	173	175	AD	Disease	MESH:D000544
+33335244	462	464	AD	Disease	MESH:D000544
+33335244	540	542	AD	Disease	MESH:D000544
+33335244	543	551	patients	Species	9606
+33335244	757	776	Alzheimer's Disease	Disease	MESH:D000544
+33335244	1479	1487	patients	Species	9606
+33335244	1629	1631	AD	Disease	MESH:D000544
+

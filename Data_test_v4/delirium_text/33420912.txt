@@ -1,0 +1,31 @@
+33420912|t|A deep learning framework for 18F-FDG PET imaging diagnosis in pediatric patients with temporal lobe epilepsy.
+33420912|a|PURPOSE: Epilepsy is one of the most disabling neurological disorders, which affects all age groups and often results in severe consequences. Since misdiagnoses are common, many pediatric patients fail to receive the correct treatment. Recently, 18F-fluorodeoxyglucose positron emission tomography (18F-FDG PET) imaging has been used for the evaluation of pediatric epilepsy. However, the epileptic focus is very difficult to be identified by visual assessment since it may present either hypo- or hyper-metabolic abnormality with unclear boundary. This study aimed to develop a novel symmetricity-driven deep learning framework of PET imaging for the identification of epileptic foci in pediatric patients with temporal lobe epilepsy (TLE). METHODS: We retrospectively included 201 pediatric patients with TLE and 24 age-matched controls who underwent 18F-FDG PET-CT studies. 18F-FDG PET images were quantitatively investigated using 386 symmetricity features, and a pair-of-cube (PoC)-based Siamese convolutional neural network (CNN) was proposed for precise localization of epileptic focus, and then metabolic abnormality level of the predicted focus was calculated automatically by asymmetric index (AI). Performances of the proposed framework were compared with visual assessment, statistical parametric mapping (SPM) software, and Jensen-Shannon divergence-based logistic regression (JS-LR) analysis. RESULTS: The proposed deep learning framework could detect the epileptic foci accurately with the dice coefficient of 0.51, which was significantly higher than that of SPM (0.24, P < 0.01) and significantly (or marginally) higher than that of visual assessment (0.31-0.44, P = 0.005-0.27). The area under the curve (AUC) of the PoC classification was higher than that of the JS-LR (0.93 vs. 0.72). The metabolic level detection accuracy of the proposed method was significantly higher than that of visual assessment blinded or unblinded to clinical information (90% vs. 56% or 68%, P < 0.01). CONCLUSION: The proposed deep learning framework for 18F-FDG PET imaging could identify epileptic foci accurately and efficiently, which might be applied as a computer-assisted approach for the future diagnosis of epilepsy patients. TRIAL REGISTRATION: NCT04169581. Registered November 13, 2019 Public site: https://clinicaltrials.gov/ct2/show/NCT04169581.
+33420912	30	37	18F-FDG	Chemical	MESH:D019788
+33420912	73	81	patients	Species	9606
+33420912	87	109	temporal lobe epilepsy	Disease	MESH:D004833
+33420912	120	128	Epilepsy	Disease	MESH:D004827
+33420912	158	180	neurological disorders	Disease	MESH:D009461
+33420912	299	307	patients	Species	9606
+33420912	357	379	18F-fluorodeoxyglucose	Chemical	MESH:D019788
+33420912	410	417	18F-FDG	Chemical	MESH:D019788
+33420912	477	485	epilepsy	Disease	MESH:D004827
+33420912	500	509	epileptic	Disease	MESH:D004827
+33420912	615	636	metabolic abnormality	Disease	MESH:D008659
+33420912	781	790	epileptic	Disease	MESH:D004827
+33420912	809	817	patients	Species	9606
+33420912	823	845	temporal lobe epilepsy	Disease	MESH:D004833
+33420912	847	850	TLE	Disease	MESH:D004833
+33420912	904	912	patients	Species	9606
+33420912	918	921	TLE	Disease	MESH:D004833
+33420912	964	971	18F-FDG	Chemical	MESH:D019788
+33420912	988	995	18F-FDG	Chemical	MESH:D019788
+33420912	1188	1197	epileptic	Disease	MESH:D004827
+33420912	1214	1235	metabolic abnormality	Disease	MESH:D008659
+33420912	1581	1590	epileptic	Disease	MESH:D004827
+33420912	2164	2171	18F-FDG	Chemical	MESH:D019788
+33420912	2199	2208	epileptic	Disease	MESH:D004827
+33420912	2325	2333	epilepsy	Disease	MESH:D004827
+33420912	2334	2342	patients	Species	9606
+33420912	Association	MESH:D019788	MESH:D004833
+33420912	Negative_Correlation	MESH:D019788	MESH:D004827
+

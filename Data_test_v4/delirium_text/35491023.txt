@@ -1,0 +1,68 @@
+35491023|t|Focus on Molecular Functions of Anti-Aging Deacetylase SIRT3.
+35491023|a|SIRT3 is a protein lysine deacetylase with a prominent role in the maintenance of mitochondrial integrity, which is a vulnerable target in many diseases. Intriguingly, cellular aging is reversible just by SIRT3 overexpression, which raises many questions about the role of SIRT3 in the molecular anti-aging mechanisms. Therefore, functions of SIRT3 were analyzed through the interaction network of 407 substrates collected by data mining. Results of the pathway enrichment and gene function prediction confirmed functions in the primary metabolism and mitochondrial ATP production. However, it also suggested involvement in thermogenesis, brain-related neurodegenerative diseases Alzheimer's (AD), Parkinson's, Huntington's disease (HD), and non-alcoholic fatty liver disease. The protein node prioritization analysis identified subunits of the complex I of the mitochondrial respiratory chain (MRC) as the nodes with the main regulatory effect within the entire interaction network. Additional high-ranked nodes were succinate dehydrogenase subunit B (SDHB), complex II, and ATP5F1, complex V of MRC. The analysis supports existence of the NADH/NAD+ driven regulatory feedback loop between SIRT3, complex I (MRC), and acetyl-CoA synthetases, and existence of the nuclear substrates of SIRT3. Unexplored functions of SIRT3 substrates such as LMNA and LMNB; HIF-1a, p53, DNA-PK, and PARK7 are highlighted for further scientific advances. SIRT3 acts as a repressor of BACE1 through the SIRT3-LKB1-AMPK-CREB-PGC1A-PPARG-BACE1 (SIRT3-BACE1), which functions are fitted the best by the Circadian Clock pathway. It forms a new working hypothesis as the therapeutical target for AD treatment. Other important pathways linked to SIRT3 activity are highlighted for therapeutical interventions.
+35491023	55	60	SIRT3	Gene	23410
+35491023	62	67	SIRT3	Gene	23410
+35491023	267	272	SIRT3	Gene	23410
+35491023	335	340	SIRT3	Gene	23410
+35491023	405	410	SIRT3	Gene	23410
+35491023	628	631	ATP	Chemical	MESH:D000255
+35491023	715	741	neurodegenerative diseases	Disease	MESH:D019636
+35491023	742	753	Alzheimer's	Disease	MESH:D000544
+35491023	755	757	AD	Disease	MESH:D000544
+35491023	760	771	Parkinson's	Disease	MESH:D010300
+35491023	773	793	Huntington's disease	Disease	MESH:D006816
+35491023	795	797	HD	Disease	MESH:D006816
+35491023	804	837	non-alcoholic fatty liver disease	Disease	MESH:D065626
+35491023	907	955	complex I of the mitochondrial respiratory chain	Disease	MESH:D028361
+35491023	957	960	MRC	Disease	MESH:D028361
+35491023	1080	1113	succinate dehydrogenase subunit B	Gene	6390
+35491023	1115	1119	SDHB	Gene	6390
+35491023	1138	1144	ATP5F1	Gene	515
+35491023	1159	1162	MRC	Disease	MESH:D028361
+35491023	1203	1207	NADH	Chemical	MESH:D009243
+35491023	1208	1212	NAD+	Chemical	MESH:D009243
+35491023	1253	1258	SIRT3	Gene	23410
+35491023	1271	1274	MRC	Disease	MESH:D028361
+35491023	1348	1353	SIRT3	Gene	23410
+35491023	1379	1384	SIRT3	Gene	23410
+35491023	1404	1408	LMNA	Gene	4000
+35491023	1413	1417	LMNB	Gene	4001
+35491023	1419	1425	HIF-1a	Gene	3091
+35491023	1427	1430	p53	Gene	7157
+35491023	1432	1438	DNA-PK	Gene	5591
+35491023	1444	1449	PARK7	Gene	11315
+35491023	1499	1504	SIRT3	Gene	23410
+35491023	1528	1533	BACE1	Gene	23621
+35491023	1546	1551	SIRT3	Gene	23410
+35491023	1552	1556	LKB1	Gene	6794
+35491023	1557	1561	AMPK	Gene	5562
+35491023	1562	1566	CREB	Gene	1385
+35491023	1567	1572	PGC1A	Gene	10891
+35491023	1573	1578	PPARG	Gene	5468
+35491023	1579	1584	BACE1	Gene	23621
+35491023	1586	1591	SIRT3	Gene	23410
+35491023	1592	1597	BACE1	Gene	23621
+35491023	1734	1736	AD	Disease	MESH:D000544
+35491023	1783	1788	SIRT3	Gene	23410
+35491023	Association	23410	3091
+35491023	Association	23410	6794
+35491023	Association	23410	5562
+35491023	Association	23410	5468
+35491023	Association	MESH:D000544	23410
+35491023	Association	MESH:D009243	MESH:D028361
+35491023	Association	MESH:D019636	23410
+35491023	Association	23410	5591
+35491023	Association	1385	23410
+35491023	Association	23410	4001
+35491023	Negative_Correlation	23410	23621
+35491023	Association	23410	4000
+35491023	Association	MESH:D006816	23410
+35491023	Association	23410	6390
+35491023	Association	MESH:D028361	23410
+35491023	Association	MESH:D010300	23410
+35491023	Association	10891	23410
+35491023	Association	MESH:D009243	23410
+35491023	Association	11315	23410
+35491023	Association	MESH:D065626	23410
+35491023	Association	23410	7157
+

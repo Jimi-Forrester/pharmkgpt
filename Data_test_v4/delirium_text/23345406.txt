@@ -1,0 +1,81 @@
+23345406|t|CALHM1 controls the Ca2+-dependent MEK, ERK, RSK and MSK signaling cascade in neurons.
+23345406|a|Calcium homeostasis modulator 1 (CALHM1) is a Ca(2+) channel controlling neuronal excitability and potentially involved in the pathogenesis of Alzheimer's disease (AD). Although strong evidence indicates that CALHM1 is required for neuronal electrical activity, its role in intracellular Ca(2+) signaling remains unknown. In the present study, we show that in hippocampal HT-22 cells, CALHM1 expression led to a robust and relatively selective activation of the Ca(2+)-sensing kinases ERK1/2. CALHM1 also triggered activation of MEK1/2, the upstream ERK1/2-activating kinases, and of RSK1/2/3 and MSK1, two downstream effectors of ERK1/2 signaling. CALHM1-mediated activation of ERK1/2 signaling was controlled by the small GTPase Ras. Pharmacological inhibition of CALHM1 permeability using Ruthenium Red, Zn(2+), and Gd(3+), or expression of the CALHM1 N140A and W114A mutants, which are deficient in mediating Ca(2+) influx, prevented the effect of CALHM1 on the MEK, ERK, RSK and MSK signaling cascade, demonstrating that CALHM1 controlled this pathway via its channel properties. Importantly, expression of CALHM1 bearing the natural P86L polymorphism, which leads to a partial loss of CALHM1 function and is associated with an earlier age at onset in AD patients, showed reduced activation of ERK1/2, RSK1/2/3, and MSK1. In line with these results obtained in transfected cells, primary cerebral neurons isolated from Calhm1 knockout mice showed significant impairments in the activation of MEK, ERK, RSK and MSK signaling. The present study identifies a previously uncharacterized mechanism of control of Ca(2+)-dependent ERK1/2 signaling in neurons, and further establishes CALHM1 as a critical ion channel for neuronal signaling and function.
+23345406	0	6	CALHM1	Gene	546729
+23345406	20	24	Ca2+	Chemical	-
+23345406	35	38	MEK	Gene	17242
+23345406	40	43	ERK	Gene	5594
+23345406	45	48	RSK	Gene	6196
+23345406	53	56	MSK	Gene	150094
+23345406	87	118	Calcium homeostasis modulator 1	Gene	255022
+23345406	120	126	CALHM1	Gene	255022
+23345406	230	249	Alzheimer's disease	Disease	MESH:D000544
+23345406	251	253	AD	Disease	MESH:D000544
+23345406	296	302	CALHM1	Gene	546729
+23345406	375	381	Ca(2+)	Chemical	-
+23345406	459	464	HT-22	CellLine	CVCL:0321
+23345406	472	478	CALHM1	Gene	546729
+23345406	549	555	Ca(2+)	Chemical	-
+23345406	572	578	ERK1/2	Gene	26417;26413
+23345406	580	586	CALHM1	Gene	546729
+23345406	616	622	MEK1/2	Gene	26395;26396
+23345406	637	643	ERK1/2	Gene	26417;26413
+23345406	671	679	RSK1/2/3	Gene	20111;110651;20112
+23345406	684	688	MSK1	Gene	9252
+23345406	718	724	ERK1/2	Gene	26417;26413
+23345406	736	742	CALHM1	Gene	546729
+23345406	766	772	ERK1/2	Gene	26417;26413
+23345406	853	859	CALHM1	Gene	546729
+23345406	879	892	Ruthenium Red	Chemical	MESH:D012430
+23345406	894	900	Zn(2+)	Chemical	-
+23345406	906	912	Gd(3+)	Chemical	MESH:C026226
+23345406	935	941	CALHM1	Gene	546729
+23345406	942	947	N140A	ProteinMutation	tmVar:p|SUB|N|140|A;HGVS:p.N140A;VariantGroup:1;OriginalGene:546729;CorrespondingGene:255022;CorrespondingSpecies:10090
+23345406	952	957	W114A	ProteinMutation	tmVar:p|SUB|W|114|A;HGVS:p.W114A;VariantGroup:2;OriginalGene:546729;CorrespondingGene:255022;CorrespondingSpecies:10090
+23345406	1000	1006	Ca(2+)	Chemical	-
+23345406	1039	1045	CALHM1	Gene	546729
+23345406	1053	1056	MEK	Gene	17242
+23345406	1058	1061	ERK	Gene	26413
+23345406	1063	1066	RSK	Gene	20111
+23345406	1071	1074	MSK	Gene	17691
+23345406	1113	1119	CALHM1	Gene	546729
+23345406	1199	1205	CALHM1	Gene	546729
+23345406	1226	1230	P86L	ProteinMutation	tmVar:p|SUB|P|86|L;HGVS:p.P86L;VariantGroup:0;CorrespondingGene:255022;RS#:2986017;CorrespondingSpecies:9606;CA#:5674757
+23345406	1278	1284	CALHM1	Gene	546729
+23345406	1344	1346	AD	Disease	MESH:D000544
+23345406	1347	1355	patients	Species	9606
+23345406	1386	1392	ERK1/2	Gene	26417;26413
+23345406	1394	1402	RSK1/2/3	Gene	20111;110651;20112
+23345406	1408	1412	MSK1	Gene	9252
+23345406	1511	1517	Calhm1	Gene	546729
+23345406	1527	1531	mice	Species	10090
+23345406	1584	1587	MEK	Gene	17242
+23345406	1589	1592	ERK	Gene	26413
+23345406	1594	1597	RSK	Gene	20111
+23345406	1602	1605	MSK	Gene	17691
+23345406	1699	1705	Ca(2+)	Chemical	-
+23345406	1716	1722	ERK1/2	Gene	26417;26413
+23345406	1769	1775	CALHM1	Gene	546729
+23345406	Negative_Correlation	MESH:D012430	255022
+23345406	Association	17691	546729
+23345406	Positive_Correlation	110651	546729
+23345406	Positive_Correlation	26395	546729
+23345406	Positive_Correlation	26417	546729
+23345406	Positive_Correlation	MESH:D000544	RS#:2986017;HGVS:p.P86L;CorrespondingGene:255022
+23345406	Association	546729	5594
+23345406	Association	17242	546729
+23345406	Association	MESH:D000544	20111
+23345406	Association	150094	546729
+23345406	Positive_Correlation	20111	546729
+23345406	Positive_Correlation	20112	546729
+23345406	Positive_Correlation	26396	546729
+23345406	Association	MESH:D000544	546729
+23345406	Positive_Correlation	26413	546729
+23345406	Association	MESH:D000544	9252
+23345406	Association	MESH:D000544	255022
+23345406	Negative_Correlation	MESH:C026226	546729
+23345406	Positive_Correlation	MESH:D000544	HGVS:p.N140A;CorrespondingGene:255022
+23345406	Negative_Correlation	MESH:D012430	546729
+23345406	Positive_Correlation	546729	9252
+23345406	Association	546729	6196
+23345406	Association	MESH:D000544	255022
+

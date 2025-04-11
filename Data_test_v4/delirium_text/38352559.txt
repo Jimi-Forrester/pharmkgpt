@@ -1,0 +1,46 @@
+38352559|t|Transcriptional programs mediating neuronal toxicity and altered glial-neuronal signaling in a Drosophila knock-in tauopathy model.
+38352559|a|Missense mutations in the gene encoding the microtubule-associated protein tau cause autosomal dominant forms of frontotemporal dementia. Multiple models of frontotemporal dementia based on transgenic expression of human tau in experimental model organisms, including Drosophila, have been described. These models replicate key features of the human disease, but do not faithfully recreate the genetic context of the human disorder. Here we use CRISPR-Cas mediated gene editing to model frontotemporal dementia caused by the tau P301L mutation by creating the orthologous mutation, P251L, in the endogenous Drosophila tau gene. Flies heterozygous or homozygous for tau P251L display age-dependent neurodegeneration, metabolic defects and accumulate DNA damage in affected neurons. To understand the molecular events promoting neuronal dysfunction and death in knock-in flies we performed single-cell RNA sequencing on approximately 130,000 cells from brains of tau P251L mutant and control flies. We found that expression of disease-associated mutant tau altered gene expression cell autonomously in all neuronal cell types identified and non-cell autonomously in glial cells. Cell signaling pathways, including glial-neuronal signaling, were broadly dysregulated as were brain region and cell-type specific protein interaction networks and gene regulatory programs. In summary, we present here a genetic model of tauopathy, which faithfully recapitulates the genetic context and phenotypic features of the human disease and use the results of comprehensive single cell sequencing analysis to outline pathways of neurotoxicity and highlight the role of non-cell autonomous changes in glia.
+38352559	35	52	neuronal toxicity	Disease	MESH:D009410
+38352559	95	105	Drosophila	Species	7227
+38352559	115	124	tauopathy	Disease	MESH:D024801
+38352559	176	206	microtubule-associated protein	Gene	51115
+38352559	207	210	tau	Gene	4137
+38352559	245	268	frontotemporal dementia	Disease	MESH:D057180
+38352559	289	312	frontotemporal dementia	Disease	MESH:D057180
+38352559	347	352	human	Species	9606
+38352559	353	356	tau	Gene	4137
+38352559	400	410	Drosophila	Species	7227
+38352559	476	481	human	Species	9606
+38352559	549	554	human	Species	9606
+38352559	619	642	frontotemporal dementia	Disease	MESH:D057180
+38352559	657	660	tau	Gene	4137
+38352559	661	666	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+38352559	714	719	P251L	ProteinMutation	tmVar:p|SUB|P|251|L;HGVS:p.P251L;VariantGroup:1;CorrespondingGene:4137;CorrespondingSpecies:9606
+38352559	739	749	Drosophila	Species	7227
+38352559	750	753	tau	Gene	4137
+38352559	797	800	tau	Gene	4137
+38352559	801	806	P251L	ProteinMutation	tmVar:p|SUB|P|251|L;HGVS:p.P251L;VariantGroup:1;CorrespondingGene:4137;CorrespondingSpecies:9606
+38352559	829	846	neurodegeneration	Disease	MESH:D019636
+38352559	848	857	metabolic	Disease	MESH:D008659
+38352559	958	978	neuronal dysfunction	Disease	MESH:D009461
+38352559	1093	1096	tau	Gene	4137
+38352559	1097	1102	P251L	ProteinMutation	tmVar:p|SUB|P|251|L;HGVS:p.P251L;VariantGroup:1;CorrespondingGene:4137;CorrespondingSpecies:9606
+38352559	1183	1186	tau	Gene	4137
+38352559	1546	1555	tauopathy	Disease	MESH:D024801
+38352559	1639	1644	human	Species	9606
+38352559	1745	1758	neurotoxicity	Disease	MESH:D020258
+38352559	Association	MESH:D057180	4137
+38352559	Association	MESH:D057180	51115
+38352559	Positive_Correlation	MESH:D057180	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+38352559	Association	MESH:D008659	HGVS:p.P251L;CorrespondingGene:4137
+38352559	Positive_Correlation	MESH:D009461	HGVS:p.P251L;CorrespondingGene:4137
+38352559	Association	MESH:D024801	4137
+38352559	Positive_Correlation	MESH:D019636	HGVS:p.P251L;CorrespondingGene:4137
+38352559	Positive_Correlation	MESH:D057180	HGVS:p.P251L;CorrespondingGene:4137
+38352559	Association	MESH:D008659	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+38352559	Association	MESH:D019636	4137
+38352559	Positive_Correlation	MESH:D009461	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+38352559	Positive_Correlation	MESH:D019636	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+38352559	Association	MESH:D009461	4137
+38352559	Association	MESH:D008659	4137
+

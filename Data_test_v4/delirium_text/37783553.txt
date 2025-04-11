@@ -1,0 +1,13 @@
+37783553|t|Deep grading for MRI-based differential diagnosis of Alzheimer's disease and Frontotemporal dementia.
+37783553|a|Alzheimer's disease and Frontotemporal dementia are common forms of neurodegenerative dementia. Behavioral alterations and cognitive impairments are found in the clinical courses of both diseases, and their differential diagnosis can sometimes pose challenges for physicians. Therefore, an accurate tool dedicated to this diagnostic challenge can be valuable in clinical practice. However, current structural imaging methods mainly focus on the detection of each disease but rarely on their differential diagnosis. In this paper, we propose a deep learning-based approach for both disease detection and differential diagnosis. We suggest utilizing two types of biomarkers for this application: structure grading and structure atrophy. First, we propose to train a large ensemble of 3D U-Nets to locally determine the anatomical patterns of healthy people, patients with Alzheimer's disease and patients with Frontotemporal dementia using structural MRI as input. The output of the ensemble is a 2-channel disease's coordinate map, which can be transformed into a 3D grading map that is easily interpretable for clinicians. This 2-channel disease's coordinate map is coupled with a multi-layer perceptron classifier for different classification tasks. Second, we propose to combine our deep learning framework with a traditional machine learning strategy based on volume to improve the model discriminative capacity and robustness. After both cross-validation and external validation, our experiments, based on 3319 MRIs, demonstrated that our method produces competitive results compared to state-of-the-art methods for both disease detection and differential diagnosis.
+37783553	53	72	Alzheimer's disease	Disease	MESH:D000544
+37783553	77	100	Frontotemporal dementia	Disease	MESH:D057180
+37783553	102	121	Alzheimer's disease	Disease	MESH:D000544
+37783553	126	149	Frontotemporal dementia	Disease	MESH:D057180
+37783553	170	196	neurodegenerative dementia	Disease	MESH:D019636
+37783553	198	220	Behavioral alterations	Disease	MESH:D001523
+37783553	225	246	cognitive impairments	Disease	MESH:D003072
+37783553	828	835	atrophy	Disease	MESH:D001284
+37783553	972	991	Alzheimer's disease	Disease	MESH:D000544
+37783553	1010	1033	Frontotemporal dementia	Disease	MESH:D057180
+

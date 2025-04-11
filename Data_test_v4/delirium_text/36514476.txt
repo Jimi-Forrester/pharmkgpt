@@ -1,0 +1,14 @@
+36514476|t|Alzheimer's disease classification using cluster-based labelling for graph neural network on heterogeneous data.
+36514476|a|Biomarkers for Alzheimer's disease (AD) diagnosis do not always correlate reliably with cognitive symptoms, making clinical diagnosis inconsistent. In this study, the performance of a graphical neural network (GNN) classifier based on data-driven diagnostic classes from unsupervised clustering on heterogeneous data is compared to the performance of a classifier using clinician diagnosis as an outcome. Unsupervised clustering on tau-positron emission tomography (PET) and cognitive and functional assessment data was performed. Five clusters embedded in a non-linear uniform manifold approximation and project (UMAP) space were identified. The individual clusters revealed specific feature characteristics with respect to clinical diagnosis of AD, gender, family history, age, and underlying neurological risk factors (NRFs). In particular, one cluster comprised mainly diagnosed AD cases. All cases within this cluster were re-labelled AD cases. The re-labelled cases are characterized by high cerebrospinal fluid amyloid beta (CSF Abeta) levels at a younger age, even though Abeta data was not used for clustering. A GNN model was trained using the re-labelled data with a multiclass area-under-the-curve (AUC) of 95.2%, higher than the AUC of a GNN trained on clinician diagnosis (91.7%; p = 0.02). Overall, our work suggests that more objective cluster-based diagnostic labels combined with GNN classification may have value in clinical risk stratification and diagnosis of AD.
+36514476	0	19	Alzheimer's disease	Disease	MESH:D000544
+36514476	128	147	Alzheimer's disease	Disease	MESH:D000544
+36514476	149	151	AD	Disease	MESH:D000544
+36514476	545	548	tau	Gene	4137
+36514476	860	862	AD	Disease	MESH:D000544
+36514476	996	998	AD	Disease	MESH:D000544
+36514476	1053	1055	AD	Disease	MESH:D000544
+36514476	1131	1143	amyloid beta	Gene	351
+36514476	1149	1154	Abeta	Gene	351
+36514476	1193	1198	Abeta	Gene	351
+36514476	1594	1596	AD	Disease	MESH:D000544
+

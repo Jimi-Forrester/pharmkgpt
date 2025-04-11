@@ -1,0 +1,39 @@
+28414234|t|Impact of Mutations at C-Terminus on Structures and Dynamics of Abeta40 and Abeta42: A Molecular Simulation Study.
+28414234|a|Alzheimer's disease is presumed to be caused by the formation of intracellular plaques of amyloid beta (Abeta) peptides inside neurons. The most abundant Abeta forms are Abeta40 and Abeta42 comprising, respectively, 40 and 42 residues. Recent experiments showed that the triple Gly33Val-Val36Pro-Gly38Val (VPV) mutation causes Abeta42 to become "super-Abeta42" with elevated aggregation rates and toxicity. Upon VPV mutation, oligomerization pathways of Abeta40 become similar to those of the Abeta42 wild type. It was hypothesized that the super behavior of Abeta42 occurs due to an enhanced content of the beta-turn and beta-hairpin, centered at residues 36-37, and the similarity in oligomerization pathways of Abeta40-VPV and Abeta42-WT comes from the increased beta-turn population. As this is based on simulation of the truncated fragments, this hypothesis may not be valid for the full-length case, motivating us to perform all-atom molecular dynamics simulations for full-length Abeta sequences. We showed that the results obtained for truncated peptides fall short in explaining the similarity of self-assembly pathways of Abeta40-VPV and Abeta42-WT. Instead, we propose that the similarity is due to not only increased beta-turn population but also due to the elevated beta-structure of the entire sequence. Similar to VPV, the Gly33Val-Val36Asn-Gly38Leu mutation enhances the beta-structure and the C-terminal beta-turn making the behavior of Abeta40 similar to that of Abeta42-WT.
+28414234	76	83	Abeta42	Gene	351
+28414234	115	134	Alzheimer's disease	Disease	MESH:D000544
+28414234	205	217	amyloid beta	Gene	351
+28414234	219	224	Abeta	Gene	351
+28414234	269	274	Abeta	Gene	351
+28414234	297	304	Abeta42	Gene	351
+28414234	393	401	Gly33Val	ProteinMutation	tmVar:p|SUB|G|33|V;HGVS:p.G33V;VariantGroup:2;CorrespondingGene:351;CorrespondingSpecies:9606
+28414234	402	410	Val36Pro	ProteinMutation	tmVar:p|SUB|V|36|P;HGVS:p.V36P;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+28414234	411	419	Gly38Val	ProteinMutation	tmVar:p|SUB|G|38|V;HGVS:p.G38V;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+28414234	442	449	Abeta42	Gene	351
+28414234	467	474	Abeta42	Gene	351
+28414234	512	520	toxicity	Disease	MESH:D064420
+28414234	527	530	VPV	Chemical	-
+28414234	608	615	Abeta42	Gene	351
+28414234	674	681	Abeta42	Gene	351
+28414234	837	840	VPV	Chemical	-
+28414234	845	852	Abeta42	Gene	351
+28414234	1102	1107	Abeta	Gene	351
+28414234	1255	1258	VPV	Chemical	-
+28414234	1263	1270	Abeta42	Gene	351
+28414234	1444	1447	VPV	Chemical	-
+28414234	1453	1461	Gly33Val	ProteinMutation	tmVar:p|SUB|G|33|V;HGVS:p.G33V;VariantGroup:2;CorrespondingGene:351;CorrespondingSpecies:9606
+28414234	1462	1470	Val36Asn	ProteinMutation	tmVar:p|SUB|V|36|N;HGVS:p.V36N;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+28414234	1471	1479	Gly38Leu	ProteinMutation	tmVar:p|SUB|G|38|L;HGVS:p.G38L;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+28414234	1596	1603	Abeta42	Gene	351
+28414234	Association	HGVS:p.G33V;CorrespondingGene:351	HGVS:p.G38L;CorrespondingGene:351
+28414234	Positive_Correlation	HGVS:p.G33V;CorrespondingGene:351	HGVS:p.V36N;CorrespondingGene:351
+28414234	Association	HGVS:p.G38V;CorrespondingGene:351	HGVS:p.V36P;CorrespondingGene:351
+28414234	Association	MESH:D064420	HGVS:p.G33V;CorrespondingGene:351
+28414234	Positive_Correlation	HGVS:p.G33V;CorrespondingGene:351	HGVS:p.G38V;CorrespondingGene:351
+28414234	Association	HGVS:p.G33V;CorrespondingGene:351	HGVS:p.V36P;CorrespondingGene:351
+28414234	Association	MESH:D064420	HGVS:p.G38V;CorrespondingGene:351
+28414234	Association	MESH:D064420	HGVS:p.V36P;CorrespondingGene:351
+28414234	Association	MESH:D064420	351
+28414234	Association	MESH:D000544	351
+28414234	Association	MESH:D064420	351
+

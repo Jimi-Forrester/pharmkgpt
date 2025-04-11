@@ -1,0 +1,16 @@
+24260292|t|MetAmyl: a METa-predictor for AMYLoid proteins.
+24260292|a|The aggregation of proteins or peptides in amyloid fibrils is associated with a number of clinical disorders, including Alzheimer's, Huntington's and prion diseases, medullary thyroid cancer, renal and cardiac amyloidosis. Despite extensive studies, the molecular mechanisms underlying the initiation of fibril formation remain largely unknown. Several lines of evidence revealed that short amino-acid segments (hot spots), located in amyloid precursor proteins act as seeds for fibril elongation. Therefore, hot spots are potential targets for diagnostic/therapeutic applications, and a current challenge in bioinformatics is the development of methods to accurately predict hot spots from protein sequences. In this paper, we combined existing methods into a meta-predictor for hot spots prediction, called MetAmyl for METapredictor for AMYLoid proteins. MetAmyl is based on a logistic regression model that aims at weighting predictions from a set of popular algorithms, statistically selected as being the most informative and complementary predictors. We evaluated the performances of MetAmyl through a large scale comparative study based on three independent datasets and thus demonstrated its ability to differentiate between amyloidogenic and non-amyloidogenic polypeptides. Compared to 9 other methods, MetAmyl provides significant improvement in prediction on studied datasets. We further show that MetAmyl is efficient to highlight the effect of point mutations involved in human amyloidosis, so we suggest this program should be a useful complementary tool for the diagnosis of these diseases. 
+24260292	0	7	MetAmyl	Chemical	-
+24260292	168	179	Alzheimer's	Disease	MESH:D000544
+24260292	181	193	Huntington's	Disease	MESH:D006816
+24260292	198	212	prion diseases	Disease	MESH:D017096
+24260292	214	238	medullary thyroid cancer	Disease	MESH:C536914
+24260292	240	269	renal and cardiac amyloidosis	Disease	MESH:C538249
+24260292	857	864	MetAmyl	Chemical	-
+24260292	905	912	MetAmyl	Chemical	-
+24260292	1138	1145	MetAmyl	Chemical	-
+24260292	1360	1367	MetAmyl	Chemical	-
+24260292	1457	1464	MetAmyl	Chemical	-
+24260292	1533	1538	human	Species	9606
+24260292	1539	1550	amyloidosis	Disease	MESH:D000686
+

@@ -1,0 +1,23 @@
+31932720|t|Lipid droplets can promote drug accumulation and activation.
+31932720|a|Genetic screens in cultured human cells represent a powerful unbiased strategy to identify cellular pathways that determine drug efficacy, providing critical information for clinical development. We used insertional mutagenesis-based screens in haploid cells to identify genes required for the sensitivity to lasonolide A (LasA), a macrolide derived from a marine sponge that kills certain types of cancer cells at low nanomolar concentrations. Our screens converged on a single gene, LDAH, encoding a member of the metabolite serine hydrolase family that is localized on the surface of lipid droplets. Mechanistic studies revealed that LasA accumulates in lipid droplets, where it is cleaved into a toxic metabolite by LDAH. We suggest that selective partitioning of hydrophobic drugs into the oil phase of lipid droplets can influence their activation and eventual toxicity to cells.
+31932720	0	5	Lipid	Chemical	MESH:D008055
+31932720	89	94	human	Species	9606
+31932720	370	382	lasonolide A	Chemical	MESH:C450700
+31932720	384	388	LasA	Chemical	MESH:C450700
+31932720	393	402	macrolide	Chemical	MESH:D018942
+31932720	460	466	cancer	Disease	MESH:D009369
+31932720	546	550	LDAH	Gene	60526
+31932720	648	653	lipid	Chemical	MESH:D008055
+31932720	698	702	LasA	Chemical	MESH:C450700
+31932720	718	723	lipid	Chemical	MESH:D008055
+31932720	781	785	LDAH	Gene	60526
+31932720	856	859	oil	Chemical	MESH:D009821
+31932720	869	874	lipid	Chemical	MESH:D008055
+31932720	928	936	toxicity	Disease	MESH:D064420
+31932720	Association	MESH:D008055	60526
+31932720	Association	MESH:C450700	MESH:D008055
+31932720	Association	MESH:C450700	60526
+31932720	Negative_Correlation	MESH:C450700	MESH:D009369
+31932720	Negative_Correlation	MESH:D018942	MESH:D009369
+31932720	Association	MESH:D009821	MESH:D064420
+

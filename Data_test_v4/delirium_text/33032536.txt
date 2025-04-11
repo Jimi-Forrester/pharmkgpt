@@ -1,0 +1,13 @@
+33032536|t|Utility of deep learning networks for the generation of artificial cardiac magnetic resonance images in congenital heart disease.
+33032536|a|BACKGROUND: Deep learning algorithms are increasingly used for automatic medical imaging analysis and cardiac chamber segmentation. Especially in congenital heart disease, obtaining a sufficient number of training images and data anonymity issues remain of concern. METHODS: Progressive generative adversarial networks (PG-GAN) were trained on cardiac magnetic resonance imaging (MRI) frames from a nationwide prospective study to generate synthetic MRI frames. These synthetic frames were subsequently used to train segmentation networks (U-Net) and the quality of the synthetic training images, as well as the performance of the segmentation network was compared to U-Net-based solutions trained entirely on patient data. RESULTS: Cardiac MRI data from 303 patients with Tetralogy of Fallot were used for PG-GAN training. Using this model, we generated 100,000 synthetic images with a resolution of 256 x 256 pixels in 4-chamber and 2-chamber views. All synthetic samples were classified as anatomically plausible by human observers. The segmentation performance of the U-Net trained on data from 42 separate patients was statistically significantly better compared to the PG-GAN based training in an external dataset of 50 patients, however, the actual difference in segmentation quality was negligible (< 1% in absolute terms for all models). CONCLUSION: We demonstrate the utility of PG-GANs for generating large amounts of realistically looking cardiac MRI images even in rare cardiac conditions. The generated images are not subject to data anonymity and privacy concerns and can be shared freely between institutions. Training supervised deep learning segmentation networks on this synthetic data yielded similar results compared to direct training on original patient data.
+33032536	104	128	congenital heart disease	Disease	MESH:D006330
+33032536	276	300	congenital heart disease	Disease	MESH:D006330
+33032536	840	847	patient	Species	9606
+33032536	889	897	patients	Species	9606
+33032536	903	922	Tetralogy of Fallot	Disease	MESH:D013771
+33032536	1149	1154	human	Species	9606
+33032536	1241	1249	patients	Species	9606
+33032536	1356	1364	patients	Species	9606
+33032536	1613	1631	cardiac conditions	Disease	MESH:D006331
+33032536	1899	1906	patient	Species	9606
+

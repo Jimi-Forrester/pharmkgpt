@@ -1,0 +1,45 @@
+34976024|t|A Novel Competing Endogenous RNA Network Associated With the Pathogenesis of Graves' Ophthalmopathy.
+34976024|a|Background: Growing evidence has recently revealed the characteristics of long noncoding (lncRNA)/circular RNA (circRNA)-microRNA (miRNA)-mRNA networks in numerous human diseases. However, a scientific lncRNA/circRNA-miRNA-mRNA network related to Graves' ophthalmopathy (GO) remains lacking. Materials and methods: The expression levels of RNAs in GO patients were measured through high-throughput sequencing technology, and the results were proven by quantitative real-time PCR (qPCR). We constructed a protein-protein interaction (PPI) network using the Search Tool for the Retrieval of Interacting Genes (STRING) database and identified hub genes by the Cytoscape plug-in CytoHubba. Then, the miRNAs related to differentially expressed lncRNAs/circRNAs and mRNAs were predicted through seed sequence matching analysis. Correlation coefficient analysis was performed on the interesting RNAs to construct a novel competing endogenous RNA (ceRNA) network. Results: In total, 361 mRNAs, 355 circRNAs, and 242 lncRNAs were differentially expressed in GO patients compared with control patients, 166 pairs were identified, and ceRNA networks were constructed. The qPCR results showed that 4 mRNAs (THBS2, CHRM3, CXCL1, FPR2) and 2 lncRNAs (LINC01820:13, ENST00000499452) were differentially expressed between the GO patients and control patients. Conclusion: An innovative lncRNA/circRNA-miRNA-mRNA ceRNA network between GO patients and control patients was constructed, and two important ceRNA pathways were identified, the LINC01820:13-hsa-miR-27b-3p-FPR2 ceRNA pathway and the ENST00000499452-hsa-miR-27a-3p-CXCL1 pathway, which probably affect the autoimmune response and inflammation in GO patients.
+34976024	77	99	Graves' Ophthalmopathy	Disease	MESH:D049970
+34976024	265	270	human	Species	9606
+34976024	348	370	Graves' ophthalmopathy	Disease	MESH:D049970
+34976024	372	374	GO	Disease	MESH:D049970
+34976024	449	451	GO	Disease	MESH:D049970
+34976024	452	460	patients	Species	9606
+34976024	1150	1152	GO	Disease	MESH:D049970
+34976024	1153	1161	patients	Species	9606
+34976024	1184	1192	patients	Species	9606
+34976024	1296	1301	THBS2	Gene	7058
+34976024	1303	1308	CHRM3	Gene	1131
+34976024	1310	1315	CXCL1	Gene	2919
+34976024	1317	1321	FPR2	Gene	2358
+34976024	1411	1413	GO	Disease	MESH:D049970
+34976024	1414	1422	patients	Species	9606
+34976024	1435	1443	patients	Species	9606
+34976024	1519	1521	GO	Disease	MESH:D049970
+34976024	1522	1530	patients	Species	9606
+34976024	1543	1551	patients	Species	9606
+34976024	1636	1647	hsa-miR-27b	Gene	407019
+34976024	1651	1655	FPR2	Gene	2358
+34976024	1694	1705	hsa-miR-27a	Gene	407018
+34976024	1709	1714	CXCL1	Gene	2919
+34976024	1750	1769	autoimmune response	Disease	MESH:D001327
+34976024	1774	1786	inflammation	Disease	MESH:D007249
+34976024	1790	1792	GO	Disease	MESH:D049970
+34976024	1793	1801	patients	Species	9606
+34976024	Association	MESH:D049970	407018
+34976024	Association	MESH:D007249	407018
+34976024	Association	MESH:D001327	2919
+34976024	Association	MESH:D007249	407019
+34976024	Association	MESH:D001327	407018
+34976024	Association	MESH:D001327	407019
+34976024	Association	MESH:D049970	7058
+34976024	Association	MESH:D007249	2919
+34976024	Association	MESH:D007249	2358
+34976024	Association	MESH:D049970	2919
+34976024	Association	MESH:D049970	407019
+34976024	Association	MESH:D001327	2358
+34976024	Association	MESH:D049970	2358
+34976024	Association	2358	407019
+34976024	Association	MESH:D049970	1131
+

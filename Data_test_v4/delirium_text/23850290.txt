@@ -1,0 +1,29 @@
+23850290|t|A neurodegeneration-specific gene-expression signature of acutely isolated microglia from an amyotrophic lateral sclerosis mouse model.
+23850290|a|Microglia are resident immune cells of the CNS that are activated by infection, neuronal injury, and inflammation. Here, we utilize flow cytometry and deep RNA sequencing of acutely isolated spinal cord microglia to define their activation in vivo. Analysis of resting microglia identified 29 genes that distinguish microglia from other CNS cells and peripheral macrophages/monocytes. We then analyzed molecular changes in microglia during neurodegenerative disease activation using the SOD1(G93A) mouse model of amyotrophic lateral sclerosis (ALS). We found that SOD1(G93A) microglia are not derived from infiltrating monocytes, and that both potentially neuroprotective and toxic factors, including Alzheimer's disease genes, are concurrently upregulated. Mutant microglia differed from SOD1(WT), lipopolysaccharide-activated microglia, and M1/M2 macrophages, defining an ALS-specific phenotype. Concurrent messenger RNA/fluorescence-activated cell sorting analysis revealed posttranscriptional regulation of microglia surface receptors and T cell-associated changes in the transcriptome. These results provide insights into microglia biology and establish a resource for future studies of neuroinflammation. 
+23850290	2	19	neurodegeneration	Disease	MESH:D019636
+23850290	93	122	amyotrophic lateral sclerosis	Disease	MESH:D000690
+23850290	123	128	mouse	Species	10090
+23850290	205	214	infection	Disease	MESH:D007239
+23850290	216	231	neuronal injury	Disease	MESH:D009410
+23850290	237	249	inflammation	Disease	MESH:D007249
+23850290	576	601	neurodegenerative disease	Disease	MESH:D019636
+23850290	623	627	SOD1	Gene	20655
+23850290	628	632	G93A	ProteinMutation	tmVar:p|SUB|G|93|A;HGVS:p.G93A;VariantGroup:0;OriginalGene:20655;CorrespondingGene:6647;RS#:121912438;CorrespondingSpecies:10090;CA#:257327
+23850290	634	639	mouse	Species	10090
+23850290	649	678	amyotrophic lateral sclerosis	Disease	MESH:D000690
+23850290	680	683	ALS	Disease	MESH:D000690
+23850290	700	704	SOD1	Gene	20655
+23850290	705	709	G93A	ProteinMutation	tmVar:p|SUB|G|93|A;HGVS:p.G93A;VariantGroup:0;OriginalGene:20655;CorrespondingGene:6647;RS#:121912438;CorrespondingSpecies:10090;CA#:257327
+23850290	837	856	Alzheimer's disease	Disease	MESH:D000544
+23850290	925	929	SOD1	Gene	20655
+23850290	935	953	lipopolysaccharide	Chemical	MESH:D008070
+23850290	1010	1013	ALS	Disease	MESH:D000690
+23850290	1328	1345	neuroinflammation	Disease	MESH:D000090862
+23850290	Positive_Correlation	MESH:D000544	RS#:121912438;HGVS:p.G93A;CorrespondingGene:6647
+23850290	Association	MESH:D000690	RS#:121912438;HGVS:p.G93A;CorrespondingGene:6647
+23850290	Association	MESH:D008070	MESH:D000690
+23850290	Association	MESH:D000690	20655
+23850290	Association	MESH:D000544	20655
+23850290	Association	MESH:D000544	6647
+23850290	Association	MESH:D000690	6647
+

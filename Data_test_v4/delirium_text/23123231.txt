@@ -1,0 +1,22 @@
+23123231|t|A prediction model to calculate probability of Alzheimer's disease using cerebrospinal fluid biomarkers.
+23123231|a|BACKGROUND: We aimed to develop a prediction model based on cerebrospinal fluid (CSF) biomarkers, that would yield a single estimate representing the probability that dementia in a memory clinic patient is due to Alzheimer's disease (AD). METHODS: All patients suspected of dementia in whom the CSF biomarkers had been analyzed were selected from a memory clinic database. Clinical diagnosis was AD (n = 272) or non-AD (n = 289). The prediction model was developed with logistic regression analysis and included CSF amyloid beta42, CSF phosphorylated tau181, and sex. Validation was performed on an independent data set from another memory clinic, containing 334 AD and 157 non-AD patients. RESULTS: The prediction model estimated the probability that AD is present as follows: p(AD) = 1/(1 + e (- [-0.3315 + score])), where score is calculated from -1.9486 x ln(amyloid beta42) + 2.7915 x ln(phosphorylated tau181) + 0.9178 x sex (male = 0, female = 1). When applied to the validation data set, the discriminative ability of the model was very good (area under the receiver operating characteristic curve: 0.85). The agreement between the probability of AD predicted by the model and the observed frequency of AD diagnoses was very good after taking into account the difference in AD prevalence between the two memory clinics. CONCLUSIONS: We developed a prediction model that can accurately predict the probability of AD in a memory clinic population suspected of dementia based on CSF amyloid beta42, CSF phosphorylated tau181, and sex.
+23123231	47	66	Alzheimer's disease	Disease	MESH:D000544
+23123231	272	280	dementia	Disease	MESH:D003704
+23123231	300	307	patient	Species	9606
+23123231	318	337	Alzheimer's disease	Disease	MESH:D000544
+23123231	339	341	AD	Disease	MESH:D000544
+23123231	357	365	patients	Species	9606
+23123231	379	387	dementia	Disease	MESH:D003704
+23123231	501	503	AD	Disease	MESH:D000544
+23123231	521	523	AD	Disease	MESH:D000544
+23123231	768	770	AD	Disease	MESH:D000544
+23123231	783	785	AD	Disease	MESH:D000544
+23123231	786	794	patients	Species	9606
+23123231	857	859	AD	Disease	MESH:D000544
+23123231	885	887	AD	Disease	MESH:D000544
+23123231	1260	1262	AD	Disease	MESH:D000544
+23123231	1316	1318	AD	Disease	MESH:D000544
+23123231	1387	1389	AD	Disease	MESH:D000544
+23123231	1525	1527	AD	Disease	MESH:D000544
+23123231	1571	1579	dementia	Disease	MESH:D003704
+

@@ -1,0 +1,16 @@
+34797512|t|Fully automated deep learning-based localization and segmentation of the locus coeruleus in aging and Parkinson's disease using neuromelanin-sensitive MRI.
+34797512|a|PURPOSE: Development and performance measurement of a fully automated pipeline that localizes and segments the locus coeruleus in so-called neuromelanin-sensitive magnetic resonance imaging data for the derivation of quantitative biomarkers of neurodegenerative diseases such as Alzheimer's disease and Parkinson's disease. METHODS: We propose a pipeline composed of several 3D-Unet-based convolutional neural networks for iterative multi-scale localization and multi-rater segmentation and non-deep learning-based components for automated biomarker extraction. We trained on the healthy aging cohort and did not carry out any adaption or fine-tuning prior to the application to Parkinson's disease subjects. RESULTS: The localization and segmentation pipeline demonstrated sufficient performance as measured by Euclidean distance (on average around 1.3mm on healthy aging subjects and 2.2mm in Parkinson's disease subjects) and Dice similarity coefficient (overall around [Formula: see text] on healthy aging subjects and [Formula: see text] for subjects with Parkinson's disease) as well as promising agreement with respect to contrast ratios in terms of intraclass correlation coefficient of [Formula: see text] for healthy aging subjects compared to a manual segmentation procedure. Lower values ([Formula: see text]) for Parkinson's disease subjects indicate the need for further investigation and tests before the application to clinical samples. CONCLUSION: These promising results suggest the usability of the proposed algorithm for data of healthy aging subjects and pave the way for further investigations using this approach on different clinical datasets to validate its practical usability more conclusively.
+34797512	102	121	Parkinson's disease	Disease	MESH:D010300
+34797512	128	140	neuromelanin	Chemical	MESH:C014121
+34797512	296	308	neuromelanin	Chemical	MESH:C014121
+34797512	400	426	neurodegenerative diseases	Disease	MESH:D019636
+34797512	435	454	Alzheimer's disease	Disease	MESH:D000544
+34797512	459	478	Parkinson's disease	Disease	MESH:D010300
+34797512	835	854	Parkinson's disease	Disease	MESH:D010300
+34797512	1051	1070	Parkinson's disease	Disease	MESH:D010300
+34797512	1217	1236	Parkinson's disease	Disease	MESH:D010300
+34797512	1482	1501	Parkinson's disease	Disease	MESH:D010300
+34797512	Association	MESH:C014121	MESH:D000544
+34797512	Association	MESH:C014121	MESH:D019636
+34797512	Association	MESH:C014121	MESH:D010300
+

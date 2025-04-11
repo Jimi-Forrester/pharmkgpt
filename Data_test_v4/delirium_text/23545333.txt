@@ -1,0 +1,35 @@
+23545333|t|Pharmacophore modeling, homology modeling, and in silico screening reveal mammalian target of rapamycin inhibitory activities for sotalol, glyburide, metipranolol, sulfamethizole, glipizide, and pioglitazone.
+23545333|a|Mammalian target of rapamycin (mTOR) is a serine/threonine kinase and member of the PI3K-related kinase (PIKK) family. It plays a central role in integrating signals from metabolism, energy homeostasis, cell cycle, and stress response. Aberrant PI3K/mTOR activation is commonly observed in diseases such as cancer, diabetes and Alzheimer's disease. Accordingly, we developed common feature binding hypotheses for a set of 6 potent mTOR antagonists. The generated models were validated using receiver operating characteristic (ROC) curve analyses. To gain better insight into ligand-mTOR interactions, a homology model for the kinase domain of mTOR was built using the crystallographic structure of PI3Kgamma as template. The optimal pharmacophore model was further improved based on detailed docking studies of potent training compound in the homology model. The modified binding model was employed as 3D search query to screen our in-house-built database of established drugs. Subsequent in vitro screening of captured hits showed that six of them have submicromolar to low micromolar bioactivities, namely, glyburide, metipranolol, sulfamethizole, glipizide, pioglitazone, and sotalol.
+23545333	74	103	mammalian target of rapamycin	Gene	2475
+23545333	130	137	sotalol	Chemical	MESH:D013015
+23545333	139	148	glyburide	Chemical	MESH:D005905
+23545333	150	162	metipranolol	Chemical	MESH:D014290
+23545333	164	178	sulfamethizole	Chemical	MESH:D013419
+23545333	180	189	glipizide	Chemical	MESH:D005913
+23545333	195	207	pioglitazone	Chemical	MESH:D000077205
+23545333	209	238	Mammalian target of rapamycin	Gene	2475
+23545333	240	244	mTOR	Gene	2475
+23545333	459	463	mTOR	Gene	2475
+23545333	516	522	cancer	Disease	MESH:D009369
+23545333	524	532	diabetes	Disease	MESH:D003920
+23545333	537	556	Alzheimer's disease	Disease	MESH:D000544
+23545333	640	644	mTOR	Gene	2475
+23545333	791	795	mTOR	Gene	2475
+23545333	852	856	mTOR	Gene	2475
+23545333	907	916	PI3Kgamma	Gene	5294
+23545333	1318	1327	glyburide	Chemical	MESH:D005905
+23545333	1329	1341	metipranolol	Chemical	MESH:D014290
+23545333	1343	1357	sulfamethizole	Chemical	MESH:D013419
+23545333	1359	1368	glipizide	Chemical	MESH:D005913
+23545333	1370	1382	pioglitazone	Chemical	MESH:D000077205
+23545333	1388	1395	sotalol	Chemical	MESH:D013015
+23545333	Negative_Correlation	MESH:D000077205	2475
+23545333	Association	MESH:D003920	2475
+23545333	Negative_Correlation	MESH:D014290	2475
+23545333	Negative_Correlation	MESH:D005913	2475
+23545333	Negative_Correlation	MESH:D013419	2475
+23545333	Negative_Correlation	MESH:D013015	2475
+23545333	Negative_Correlation	MESH:D005905	2475
+23545333	Association	MESH:D000544	2475
+23545333	Association	MESH:D009369	2475
+

@@ -1,0 +1,50 @@
+39856236|t|Exploring the impact of deleterious missense nonsynonymous single nucleotide polymorphisms in the DRD4 gene using computational approaches.
+39856236|a|Dopamine receptor D4 (DRD4) plays a vital role in regulating various physiological functions, including attention, impulse control, and sleep, as well as being associated with various neurological diseases, including attention deficit hyperactivity disorder, novelty seeking, and so on. However, a comprehensive analysis of harmful nonsynonymous single nucleotide polymorphisms (nsSNPs) of the DRD4 gene and their effects remains unexplored. The aim of this study is to uncover novel damaging missense nsSNPs and their structural and functional effects on the DRD4 receptor. From the dbSNP database, we found 677 nsSNPs, and then we analyzed their functional consequences, disease associations, and effects on protein stability with fifteen in silico tools. Five variants, including L65ICL1P (rs1459150721), V1163.33D (rs761875546), I1293.46S (rs751467198), I1564.46T (rs757732258), and F2015.47S (rs199609858), were identified as the most deleterious mutations that were also present in the conserved region and showed lower interactions with neighboring residues. To comprehensively understand their impact, we docked agonist dopamine and antagonist nemonapride at the binding site of the receptor, followed by 200 ns molecular dynamics simulations. We identified the V116D and I129S mutations as the most damaging, followed by F201S in the dopamine-bound states. Both the V116D and I129S variants demonstrated significantly high RMSD, Rg, and SASA, and low thermodynamic stability. The F201S-dopamine complex exhibited lower compactness and higher motions, along with a significant loss of hydrogen bonds and active site interactions. By contrast, while interacting with nemonapride, the impact of the I156T and L65P mutations was highly deleterious; both showed lower stability, higher flexibility, and higher motions. Additionally, nemonapride significantly lost interactions with the active site, notably in the I156T variant. We also found the V116D-nemonapride complex as structurally damaging; however, the interaction patterns of nemonapride were less altered in the MMPBSA analysis. Overall, this study revealed five novel deleterious variants along with a comprehensive understanding of their effect in the presence of an agonist and antagonist, which could be helpful for understanding disease susceptibility, precision medicine, and developing potential drugs.
+39856236	98	102	DRD4	Gene	1815
+39856236	140	160	Dopamine receptor D4	Gene	1815
+39856236	162	166	DRD4	Gene	1815
+39856236	324	345	neurological diseases	Disease	MESH:D020271
+39856236	357	397	attention deficit hyperactivity disorder	Disease	MESH:D001289
+39856236	534	538	DRD4	Gene	1815
+39856236	700	704	DRD4	Gene	1815
+39856236	933	945	rs1459150721	SNP	tmVar:rs1459150721;VariantGroup:4;CorrespondingGene:1815;RS#:1459150721;CorrespondingSpecies:9606
+39856236	959	970	rs761875546	SNP	tmVar:rs761875546;VariantGroup:2;CorrespondingGene:1815;RS#:761875546;CorrespondingSpecies:9606
+39856236	984	995	rs751467198	SNP	tmVar:rs751467198;VariantGroup:1;CorrespondingGene:1815;RS#:751467198;CorrespondingSpecies:9606
+39856236	1009	1020	rs757732258	SNP	tmVar:rs757732258;VariantGroup:0;CorrespondingGene:1815;RS#:757732258;CorrespondingSpecies:9606
+39856236	1038	1049	rs199609858	SNP	tmVar:rs199609858;VariantGroup:3;CorrespondingGene:1815;RS#:199609858;CorrespondingSpecies:9606
+39856236	1268	1276	dopamine	Chemical	MESH:D004298
+39856236	1292	1303	nemonapride	Chemical	MESH:C030265
+39856236	1410	1415	V116D	ProteinMutation	tmVar:p|SUB|V|116|D;HGVS:p.V116D;VariantGroup:2;CorrespondingGene:1815;RS#:761875546;CorrespondingSpecies:9606
+39856236	1420	1425	I129S	ProteinMutation	tmVar:p|SUB|I|129|S;HGVS:p.I129S;VariantGroup:1;CorrespondingGene:1815;RS#:751467198;CorrespondingSpecies:9606
+39856236	1470	1475	F201S	ProteinMutation	tmVar:p|SUB|F|201|S;HGVS:p.F201S;VariantGroup:3;CorrespondingGene:1815;RS#:199609858;CorrespondingSpecies:9606
+39856236	1483	1491	dopamine	Chemical	MESH:D004298
+39856236	1515	1520	V116D	ProteinMutation	tmVar:p|SUB|V|116|D;HGVS:p.V116D;VariantGroup:2;CorrespondingGene:1815;RS#:761875546;CorrespondingSpecies:9606
+39856236	1525	1530	I129S	ProteinMutation	tmVar:p|SUB|I|129|S;HGVS:p.I129S;VariantGroup:1;CorrespondingGene:1815;RS#:751467198;CorrespondingSpecies:9606
+39856236	1629	1634	F201S	ProteinMutation	tmVar:p|SUB|F|201|S;HGVS:p.F201S;VariantGroup:3;CorrespondingGene:1815;RS#:199609858;CorrespondingSpecies:9606
+39856236	1635	1643	dopamine	Chemical	MESH:D004298
+39856236	1814	1825	nemonapride	Chemical	MESH:C030265
+39856236	1845	1850	I156T	ProteinMutation	tmVar:p|SUB|I|156|T;HGVS:p.I156T;VariantGroup:0;CorrespondingGene:1815;RS#:757732258;CorrespondingSpecies:9606
+39856236	1855	1859	L65P	ProteinMutation	tmVar:p|SUB|L|65|P;HGVS:p.L65P;VariantGroup:4;CorrespondingGene:1815;RS#:1459150721;CorrespondingSpecies:9606
+39856236	1977	1988	nemonapride	Chemical	MESH:C030265
+39856236	2058	2063	I156T	ProteinMutation	tmVar:p|SUB|I|156|T;HGVS:p.I156T;VariantGroup:0;CorrespondingGene:1815;RS#:757732258;CorrespondingSpecies:9606
+39856236	2091	2096	V116D	ProteinMutation	tmVar:p|SUB|V|116|D;HGVS:p.V116D;VariantGroup:2;CorrespondingGene:1815;RS#:761875546;CorrespondingSpecies:9606
+39856236	2097	2108	nemonapride	Chemical	MESH:C030265
+39856236	2180	2191	nemonapride	Chemical	MESH:C030265
+39856236	Association	MESH:D004298	RS#:751467198;CorrespondingGene:1815
+39856236	Association	MESH:C030265	RS#:757732258;CorrespondingGene:1815
+39856236	Association	MESH:C030265	RS#:199609858;CorrespondingGene:1815
+39856236	Positive_Correlation	MESH:D004298	1815
+39856236	Association	MESH:C030265	RS#:1459150721;CorrespondingGene:1815
+39856236	Association	MESH:D004298	RS#:199609858;CorrespondingGene:1815
+39856236	Association	MESH:C030265	RS#:757732258;HGVS:p.I156T;CorrespondingGene:1815
+39856236	Association	MESH:D020271	1815
+39856236	Association	MESH:D004298	RS#:199609858;HGVS:p.F201S;CorrespondingGene:1815
+39856236	Association	MESH:C030265	RS#:761875546;CorrespondingGene:1815
+39856236	Association	MESH:C030265	RS#:751467198;CorrespondingGene:1815
+39856236	Association	MESH:D004298	RS#:761875546;CorrespondingGene:1815
+39856236	Association	MESH:D001289	1815
+39856236	Association	MESH:C030265	RS#:761875546;HGVS:p.V116D;CorrespondingGene:1815
+39856236	Association	MESH:D004298	RS#:1459150721;CorrespondingGene:1815
+39856236	Association	MESH:D004298	RS#:761875546;HGVS:p.V116D;CorrespondingGene:1815
+39856236	Association	MESH:D004298	RS#:751467198;HGVS:p.I129S;CorrespondingGene:1815
+

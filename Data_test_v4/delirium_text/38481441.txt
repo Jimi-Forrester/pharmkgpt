@@ -1,0 +1,24 @@
+38481441|t|Development and validation of a cognitive dysfunction risk prediction model for the abdominal obesity population.
+38481441|a|Objectives: This study was aimed to develop a nomogram that can accurately predict the likelihood of cognitive dysfunction in individuals with abdominal obesity by utilizing various predictor factors. Methods: A total of 1490 cases of abdominal obesity were randomly selected from the National Health and Nutrition Examination Survey (NHANES) database for the years 2011-2014. The diagnostic criteria for abdominal obesity were as follows: waist size >= 102 cm for men and waist size >= 88 cm for women, and cognitive function was assessed by Consortium to Establish a Registry for Alzheimer's Disease (CERAD), Word Learning subtest, Delayed Word Recall Test, Animal Fluency Test (AFT), and Digit Symbol Substitution Test (DSST). The cases were divided into two sets: a training set consisting of 1043 cases (70%) and a validation set consisting of 447 cases (30%). To create the model nomogram, multifactor logistic regression models were constructed based on the selected predictors identified through LASSO regression analysis. The model's performance was assessed using several metrics, including the consistency index (C-index), the area under the receiver operating characteristic (ROC) curve (AUC), calibration curves, and decision curve analysis (DCA) to assess the clinical benefit of the model. Results: The multivariate logistic regression analysis revealed that age, sex, education level, 24-hour total fat intake, red blood cell folate concentration, depression, and moderate work activity were significant predictors of cognitive dysfunction in individuals with abdominal obesity (p < 0.05). These predictors were incorporated into the nomogram. The C-indices for the training and validation sets were 0.814 (95% CI: 0.875-0.842) and 0.805 (95% CI: 0.758-0.851), respectively. The corresponding AUC values were 0.814 (95% CI: 0.875-0.842) and 0.795 (95% CI: 0.753-0.847). The calibration curves demonstrated a satisfactory level of agreement between the nomogram model and the observed data. The DCA indicated that early intervention for at-risk populations would provide a net benefit, as indicated by the line graph. Conclusion: Age, sex, education level, 24-hour total fat intake, red blood cell folate concentration, depression, and moderate work activity were identified as predictive factors for cognitive dysfunction in individuals with abdominal obesity. In conclusion, the nomogram model developed in this study can effectively predict the clinical risk of cognitive dysfunction in individuals with abdominal obesity.
+38481441	32	53	cognitive dysfunction	Disease	MESH:D003072
+38481441	84	101	abdominal obesity	Disease	MESH:D056128
+38481441	215	236	cognitive dysfunction	Disease	MESH:D003072
+38481441	257	274	abdominal obesity	Disease	MESH:D056128
+38481441	349	366	abdominal obesity	Disease	MESH:D056128
+38481441	519	536	abdominal obesity	Disease	MESH:D056128
+38481441	579	582	men	Species	9606
+38481441	611	616	women	Species	9606
+38481441	696	715	Alzheimer's Disease	Disease	MESH:D000544
+38481441	1556	1562	folate	Chemical	MESH:D005492
+38481441	1578	1588	depression	Disease	MESH:D003866
+38481441	1648	1669	cognitive dysfunction	Disease	MESH:D003072
+38481441	1690	1707	abdominal obesity	Disease	MESH:D056128
+38481441	2327	2333	folate	Chemical	MESH:D005492
+38481441	2349	2359	depression	Disease	MESH:D003866
+38481441	2430	2451	cognitive dysfunction	Disease	MESH:D003072
+38481441	2472	2489	abdominal obesity	Disease	MESH:D056128
+38481441	2594	2615	cognitive dysfunction	Disease	MESH:D003072
+38481441	2636	2653	abdominal obesity	Disease	MESH:D056128
+38481441	Positive_Correlation	MESH:D005492	MESH:D003072
+38481441	Association	MESH:D005492	MESH:D056128
+

@@ -1,0 +1,45 @@
+37909502|t|The promising impact of Bemcentinib and Repotrectinib on sleep impairment in Alzheimer's disease.
+37909502|a|Alzheimer's disease (AD), the most prevalent neurodegenerative disease, demands effective medication to alleviate symptoms. This study focused on sleep impairment as an overt clinical symptom and tauopathy as a prominent molecular symptom of this disease. Multiple compounds from three biomolecule libraries (719 compounds; ChemDiv:366 - ChEMBL:180 - PubChem:173) were evaluated for potential binding affinity and safety using AutoDock Vina and pkCSM, respectively, resulting in the selection of four candidate compounds (Lestaurtinib, Repotrectinib, Bemcentinib, and Zotiraciclib). Due to the similarity of Repotrectinib and Bemcentinib binding sites to ATP, 300 ns Martini 3 coarse-grained molecular dynamics (MD) was performed on these two molecules and ATP by NAMD. The stability of tau protein in the presence of drugs was assessed using a 200 ns Martini 3 MD simulation. Binding site analysis discloses Bemcentinib and Repotrectinib as two inhibitors occupying most amino acids in binding with ATP. The RMSD and RMS average correlation results revealed protein containing Bemcentinib and Repotrectinib to have a more stable state compared to ATP in the first 220 ns simulation. There was only a single detachment of Bemcentinib, while Repotrictinib detached twice at the end of the simulation. Eventually, adding Bemcentinib and Repotrectinib to the enzyme-tau complex significantly increased the number of tau detachments during the 200 ns simulation. We report Bemcentinib and Repotrectinib, formerly prescribed for cancer, as potential inhibitors of the CK1 delta. Besides their high binding affinity compared to ATP, they can inhibit all ATP-binding sites and alter the tau binding stability.Communicated by Ramaswamy H. Sarma.
+37909502	24	35	Bemcentinib	Chemical	MESH:C548378
+37909502	40	53	Repotrectinib	Chemical	MESH:C000708510
+37909502	57	73	sleep impairment	Disease	MESH:D012893
+37909502	77	96	Alzheimer's disease	Disease	MESH:D000544
+37909502	98	117	Alzheimer's disease	Disease	MESH:D000544
+37909502	119	121	AD	Disease	MESH:D000544
+37909502	143	168	neurodegenerative disease	Disease	MESH:D019636
+37909502	244	260	sleep impairment	Disease	MESH:D012893
+37909502	294	303	tauopathy	Disease	MESH:D024801
+37909502	620	632	Lestaurtinib	Chemical	MESH:C119379
+37909502	634	647	Repotrectinib	Chemical	MESH:C000708510
+37909502	649	660	Bemcentinib	Chemical	MESH:C548378
+37909502	666	678	Zotiraciclib	Chemical	-
+37909502	753	756	ATP	Chemical	MESH:D000255
+37909502	855	858	ATP	Chemical	MESH:D000255
+37909502	885	888	tau	Gene	4137
+37909502	1007	1018	Bemcentinib	Chemical	MESH:C548378
+37909502	1023	1036	Repotrectinib	Chemical	MESH:C000708510
+37909502	1098	1101	ATP	Chemical	MESH:D000255
+37909502	1176	1187	Bemcentinib	Chemical	MESH:C548378
+37909502	1192	1205	Repotrectinib	Chemical	MESH:C000708510
+37909502	1246	1249	ATP	Chemical	MESH:D000255
+37909502	1417	1428	Bemcentinib	Chemical	MESH:C548378
+37909502	1433	1446	Repotrectinib	Chemical	MESH:C000708510
+37909502	1461	1464	tau	Gene	4137
+37909502	1511	1514	tau	Gene	4137
+37909502	1567	1578	Bemcentinib	Chemical	MESH:C548378
+37909502	1583	1596	Repotrectinib	Chemical	MESH:C000708510
+37909502	1622	1628	cancer	Disease	MESH:D009369
+37909502	1720	1723	ATP	Chemical	MESH:D000255
+37909502	1746	1749	ATP	Chemical	MESH:D000255
+37909502	1778	1781	tau	Gene	4137
+37909502	Negative_Correlation	MESH:C548378	MESH:D012893
+37909502	Negative_Correlation	MESH:C548378	MESH:D009369
+37909502	Association	MESH:C548378	4137
+37909502	Negative_Correlation	MESH:C000708510	MESH:D012893
+37909502	Negative_Correlation	MESH:C000708510	MESH:D009369
+37909502	Negative_Correlation	MESH:C000708510	MESH:D000255
+37909502	Negative_Correlation	MESH:C000708510	MESH:D000544
+37909502	Association	MESH:C000708510	4137
+37909502	Negative_Correlation	MESH:C548378	MESH:D000255
+37909502	Negative_Correlation	MESH:C548378	MESH:D000544
+

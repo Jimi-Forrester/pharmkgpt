@@ -1,0 +1,40 @@
+34328531|t|A 3D deep learning model to predict the diagnosis of dementia with Lewy bodies, Alzheimer's disease, and mild cognitive impairment using brain 18F-FDG PET.
+34328531|a|PURPOSE: The purpose of this study is to develop and validate a 3D deep learning model that predicts the final clinical diagnosis of Alzheimer's disease (AD), dementia with Lewy bodies (DLB), mild cognitive impairment due to Alzheimer's disease (MCI-AD), and cognitively normal (CN) using fluorine 18 fluorodeoxyglucose PET (18F-FDG PET) and compare model's performance to that of multiple expert nuclear medicine physicians' readers. MATERIALS AND METHODS: Retrospective 18F-FDG PET scans for AD, MCI-AD, and CN were collected from Alzheimer's disease neuroimaging initiative (556 patients from 2005 to 2020), and CN and DLB cases were from European DLB Consortium (201 patients from 2005 to 2018). The introduced 3D convolutional neural network was trained using 90% of the data and externally tested using 10% as well as comparison to human readers on the same independent test set. The model's performance was analyzed with sensitivity, specificity, precision, F1 score, receiver operating characteristic (ROC). The regional metabolic changes driving classification were visualized using uniform manifold approximation and projection (UMAP) and network attention. RESULTS: The proposed model achieved area under the ROC curve of 96.2% (95% confidence interval: 90.6-100) on predicting the final diagnosis of DLB in the independent test set, 96.4% (92.7-100) in AD, 71.4% (51.6-91.2) in MCI-AD, and 94.7% (90-99.5) in CN, which in ROC space outperformed human readers performance. The network attention depicted the posterior cingulate cortex is important for each neurodegenerative disease, and the UMAP visualization of the extracted features by the proposed model demonstrates the reality of development of the given disorders. CONCLUSION: Using only 18F-FDG PET of the brain, a 3D deep learning model could predict the final diagnosis of the most common neurodegenerative disorders which achieved a competitive performance compared to the human readers as well as their consensus.
+34328531	53	78	dementia with Lewy bodies	Disease	MESH:D020961
+34328531	80	99	Alzheimer's disease	Disease	MESH:D000544
+34328531	110	130	cognitive impairment	Disease	MESH:D003072
+34328531	143	150	18F-FDG	Chemical	MESH:D019788
+34328531	289	308	Alzheimer's disease	Disease	MESH:D000544
+34328531	310	312	AD	Disease	MESH:D000544
+34328531	315	340	dementia with Lewy bodies	Disease	MESH:D020961
+34328531	342	345	DLB	Disease	MESH:D020961
+34328531	353	373	cognitive impairment	Disease	MESH:D003072
+34328531	381	400	Alzheimer's disease	Disease	MESH:D000544
+34328531	402	405	MCI	Disease	
+34328531	406	408	AD	Disease	MESH:D000544
+34328531	445	475	fluorine 18 fluorodeoxyglucose	Chemical	MESH:D019788
+34328531	481	488	18F-FDG	Chemical	MESH:D019788
+34328531	628	635	18F-FDG	Chemical	MESH:D019788
+34328531	650	652	AD	Disease	MESH:D000544
+34328531	654	657	MCI	Disease	
+34328531	658	660	AD	Disease	MESH:D000544
+34328531	689	708	Alzheimer's disease	Disease	MESH:D000544
+34328531	738	746	patients	Species	9606
+34328531	778	781	DLB	Disease	MESH:D020961
+34328531	807	810	DLB	Disease	MESH:D020961
+34328531	827	835	patients	Species	9606
+34328531	994	999	human	Species	9606
+34328531	1468	1471	DLB	Disease	MESH:D020961
+34328531	1521	1523	AD	Disease	MESH:D000544
+34328531	1546	1549	MCI	Disease	
+34328531	1550	1552	AD	Disease	MESH:D000544
+34328531	1613	1618	human	Species	9606
+34328531	1724	1749	neurodegenerative disease	Disease	MESH:D019636
+34328531	1913	1920	18F-FDG	Chemical	MESH:D019788
+34328531	2017	2044	neurodegenerative disorders	Disease	MESH:D019636
+34328531	2102	2107	human	Species	9606
+34328531	Association	MESH:D019788	MESH:D000544
+34328531	Association	MESH:D019788	MESH:D020961
+34328531	Association	MESH:D019788	MESH:D003072
+34328531	Association	MESH:D019788	MESH:D019636
+

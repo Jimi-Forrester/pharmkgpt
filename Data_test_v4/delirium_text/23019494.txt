@@ -1,0 +1,65 @@
+23019494|t|Toxicity in rat primary neurons through the cellular oxidative stress induced by the turn formation at positions 22 and 23 of Abeta42.
+23019494|a|The 42-mer amyloid beta-protein (Abeta42) aggregates to form soluble oligomers that cause memory loss and synaptotoxicity in Alzheimer's disease (AD). Oxidative stress is closely related to the pathogenesis of AD. We previously identified the toxic conformer of Abeta42 with a turn at positions 22 and 23 ("toxic turn") by solid-state NMR and demonstrated that a monoclonal antibody (11A1) against the toxic turn in Abeta42 mainly detected the oligomer in the brains of AD patients. Our recent study suggested that oxidative stress is a key factor of the oligomerization and cognitive impairment induced by Abeta overproduction in vivo. However, the involvement of the toxic conformer in Abeta42-induced oxidative damage remains unclear. To investigate this mechanism, we examined the levels of intracellular reactive oxygen species (ROS) and neurotoxicity in rat primary neurons using E22P-Abeta42, a mutant that induces a turn at positions 22 and 23, and E22V-Abeta42, a turn-preventing mutant. E22P-Abeta42, but not E22V-Abeta42, induced greater ROS production than Wt-Abeta42 in addition to potent neurotoxicity. Interestingly, the formation of the toxic conformer in both E22P-Abeta42 and Wt-Abeta42 probed by the 11A1 antibody preceded Abeta42-induced neurotoxicity. Trolox (a radical scavenger) and Congo red (an aggregation inhibitor) significantly prevented the neurotoxicity and intracellular ROS induced by E22P-Abeta42 and Wt-Abeta42, respectively. These results suggest that Abeta42-mediated toxicity is caused by the turn that favors toxic oligomers, which increase generation of ROS.
+23019494	0	8	Toxicity	Disease	MESH:D064420
+23019494	12	15	rat	Species	10116
+23019494	126	133	Abeta42	Gene	351
+23019494	168	175	Abeta42	Gene	351
+23019494	225	236	memory loss	Disease	MESH:D008569
+23019494	241	256	synaptotoxicity	Disease	
+23019494	260	279	Alzheimer's disease	Disease	MESH:D000544
+23019494	281	283	AD	Disease	MESH:D000544
+23019494	345	347	AD	Disease	MESH:D000544
+23019494	397	404	Abeta42	Gene	351
+23019494	519	523	11A1	Chemical	-
+23019494	551	558	Abeta42	Gene	351
+23019494	605	607	AD	Disease	MESH:D000544
+23019494	608	616	patients	Species	9606
+23019494	710	730	cognitive impairment	Disease	MESH:D003072
+23019494	742	747	Abeta	Gene	54226
+23019494	823	830	Abeta42	Gene	351
+23019494	944	967	reactive oxygen species	Chemical	MESH:D017382
+23019494	969	972	ROS	Chemical	MESH:D017382
+23019494	978	991	neurotoxicity	Disease	MESH:D020258
+23019494	995	998	rat	Species	10116
+23019494	1021	1025	E22P	ProteinMutation	tmVar:p|SUB|E|22|P;HGVS:p.E22P;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+23019494	1026	1033	Abeta42	Gene	351
+23019494	1092	1096	E22V	ProteinMutation	tmVar:p|SUB|E|22|V;HGVS:p.E22V;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+23019494	1097	1104	Abeta42	Gene	351
+23019494	1132	1136	E22P	ProteinMutation	tmVar:p|SUB|E|22|P;HGVS:p.E22P;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+23019494	1137	1144	Abeta42	Gene	351
+23019494	1154	1158	E22V	ProteinMutation	tmVar:p|SUB|E|22|V;HGVS:p.E22V;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+23019494	1159	1166	Abeta42	Gene	351
+23019494	1184	1187	ROS	Chemical	MESH:D017382
+23019494	1207	1214	Abeta42	Gene	351
+23019494	1237	1250	neurotoxicity	Disease	MESH:D020258
+23019494	1312	1316	E22P	ProteinMutation	tmVar:p|SUB|E|22|P;HGVS:p.E22P;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+23019494	1317	1324	Abeta42	Gene	351
+23019494	1332	1339	Abeta42	Gene	351
+23019494	1377	1384	Abeta42	Gene	351
+23019494	1393	1406	neurotoxicity	Disease	MESH:D020258
+23019494	1408	1414	Trolox	Chemical	MESH:C010643
+23019494	1441	1450	Congo red	Chemical	MESH:D003224
+23019494	1506	1519	neurotoxicity	Disease	MESH:D020258
+23019494	1538	1541	ROS	Chemical	MESH:D017382
+23019494	1553	1557	E22P	ProteinMutation	tmVar:p|SUB|E|22|P;HGVS:p.E22P;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+23019494	1558	1565	Abeta42	Gene	351
+23019494	1573	1580	Abeta42	Gene	351
+23019494	1623	1630	Abeta42	Gene	351
+23019494	1640	1648	toxicity	Disease	MESH:D064420
+23019494	1729	1732	ROS	Chemical	MESH:D017382
+23019494	Negative_Correlation	MESH:D003224	HGVS:p.E22P;CorrespondingGene:351
+23019494	Negative_Correlation	MESH:C010643	HGVS:p.E22P;CorrespondingGene:351
+23019494	Association	MESH:D000544	351
+23019494	Positive_Correlation	MESH:D020258	HGVS:p.E22P;CorrespondingGene:351
+23019494	Positive_Correlation	MESH:D017382	HGVS:p.E22P;CorrespondingGene:351
+23019494	Positive_Correlation	MESH:D020258	351
+23019494	Negative_Correlation	MESH:D003224	MESH:D017382
+23019494	Negative_Correlation	MESH:C010643	MESH:D020258
+23019494	Negative_Correlation	MESH:D003224	351
+23019494	Negative_Correlation	MESH:C010643	351
+23019494	Negative_Correlation	MESH:D003224	MESH:D020258
+23019494	Positive_Correlation	MESH:D017382	351
+23019494	Negative_Correlation	MESH:C010643	MESH:D017382
+23019494	Positive_Correlation	MESH:D003072	54226
+23019494	Association	MESH:D020258	351
+

@@ -1,0 +1,55 @@
+39591421|t|Exploring the feasibility of using mice as a substitute model for investigating microglia in aging and Alzheimer's disease though single cell analysis.
+39591421|a|OBJECTIVE: To guide animal experiments, we investigated the similarities and differences between humans and mice in aging and Alzheimer's disease (AD) at the single-nucleus RNA sequencing (snRNA-seq) or single-cell RNA sequencing (scRNA-seq) level. METHODS: Microglia cells were extracted from dataset GSE198323 of human post-mortem hippocampus. The distributions and proportions of microglia subpopulation cell numbers related to AD or age were compared. This comparison was done between GSE198323 for humans and GSE127892 for mice, respectively. The Seurat R package and harmony R package were used for data analysis and batch effect correction. Differentially expressed genes (DEGs) were identified by FindMarkers function with MAST test. Comparative analyses were conducted on shared genes in DEGs associated with age and AD. The analyses were done between human and mouse using various bioinformatics techniques. The analysis of genes in DEGs related to age was conducted. Similarly, the analysis of genes in DEGs related to AD was performed. Cross-species analyses were conducted using orthologous genes. Comparative analyses of pseudotime between humans and mice were performed using Monocle2. RESULTS: (1) Similarities: The proportion of microglial subpopulation Cell_APOE/Apoe shows consistent trends, whether in AD or normal control (NC) groups in both humans and mice. The proportion of Cell_CX3CR1/Cx3cr1, representing homeostatic microglia, remains stable with age in NC groups across species. Tuberculosis and Fc gamma R-mediated phagocytosis pathways are shared in microglia responses to age and AD across species, respectively. (2) Differences: IL1RAPL1 and SPP1 as marker genes are more identifiable in human microglia compared to their mouse counterparts. Most genes of DEGs associated with age or AD exhibit different trends between humans and mice. Pseudotime analyses demonstrate varying cell density trends in microglial subpopulations, depending on age or AD across species. CONCLUSIONS: Mouse Apoe and Cell_Apoe maybe serve as proxies for studying human AD, while Cx3cr1 and Cell_Cx3cr1 are suitable for human aging studies. However, AD mouse models (App_NL_G_F) have limitations in studying human genes like IL1RAPL1 and SPP1 related to AD. Thus, mouse models cannot fully replace human samples for AD and aging research.
+39591421	35	39	mice	Species	10090
+39591421	103	122	Alzheimer's disease	Disease	MESH:D000544
+39591421	249	255	humans	Species	9606
+39591421	260	264	mice	Species	10090
+39591421	278	297	Alzheimer's disease	Disease	MESH:D000544
+39591421	299	301	AD	Disease	MESH:D000544
+39591421	467	472	human	Species	9606
+39591421	583	585	AD	Disease	MESH:D000544
+39591421	655	661	humans	Species	9606
+39591421	680	684	mice	Species	10090
+39591421	978	980	AD	Disease	MESH:D000544
+39591421	1013	1018	human	Species	9606
+39591421	1023	1028	mouse	Species	10090
+39591421	1182	1184	AD	Disease	MESH:D000544
+39591421	1306	1312	humans	Species	9606
+39591421	1317	1321	mice	Species	10090
+39591421	1428	1432	APOE	Gene	348
+39591421	1433	1437	Apoe	Gene	348
+39591421	1474	1476	AD	Disease	MESH:D000544
+39591421	1515	1521	humans	Species	9606
+39591421	1526	1530	mice	Species	10090
+39591421	1555	1561	CX3CR1	Gene	1524
+39591421	1562	1568	Cx3cr1	Gene	13051
+39591421	1659	1671	Tuberculosis	Disease	MESH:D014376
+39591421	1676	1686	Fc gamma R	Gene	
+39591421	1763	1765	AD	Disease	MESH:D000544
+39591421	1813	1821	IL1RAPL1	Gene	11141
+39591421	1826	1830	SPP1	Gene	6696
+39591421	1872	1877	human	Species	9606
+39591421	1906	1911	mouse	Species	10090
+39591421	1968	1970	AD	Disease	MESH:D000544
+39591421	2004	2010	humans	Species	9606
+39591421	2015	2019	mice	Species	10090
+39591421	2131	2133	AD	Disease	MESH:D000544
+39591421	2163	2168	Mouse	Species	10090
+39591421	2169	2173	Apoe	Gene	348
+39591421	2183	2187	Apoe	Gene	348
+39591421	2224	2229	human	Species	9606
+39591421	2230	2232	AD	Disease	MESH:D000544
+39591421	2240	2246	Cx3cr1	Gene	13051
+39591421	2256	2262	Cx3cr1	Gene	13051
+39591421	2280	2285	human	Species	9606
+39591421	2310	2312	AD	Disease	MESH:D000544
+39591421	2313	2318	mouse	Species	10090
+39591421	2368	2373	human	Species	9606
+39591421	2385	2393	IL1RAPL1	Gene	11141
+39591421	2398	2402	SPP1	Gene	6696
+39591421	2414	2416	AD	Disease	MESH:D000544
+39591421	2424	2429	mouse	Species	10090
+39591421	2458	2463	human	Species	9606
+39591421	2476	2478	AD	Disease	MESH:D000544
+39591421	Association	MESH:D000544	348
+

@@ -1,0 +1,27 @@
+35665624|t|Validation of deep learning-based nonspecific estimates for amyloid burden quantification with longitudinal data.
+35665624|a|PURPOSE: To validate our previously proposed method of quantifying amyloid-beta (Abeta) load using nonspecific (NS) estimates generated with convolutional neural networks (CNNs) using [18F]Florbetapir scans from longitudinal and multicenter ADNI data. METHODS: 188 paired MR (T1-weighted and T2-weighted) and PET images were downloaded from the ADNI3 dataset, of which 49 subjects had 2 time-point scans. 40 Abeta- subjects with low specific uptake were selected for training. Multimodal ScaleNet (SN) and monomodal HighRes3DNet (HRN), using either T1-weighted or T2-weighted MR images as inputs) were trained to map structural MR to NS-PET images. The optimized SN and HRN networks were used to estimate the NS for all scans and then subtracted from SUVr images to determine the specific amyloid load (SAbetaL) images. The association of SAbetaL with various cognitive and functional test scores was evaluated using Spearman analysis, as well as the differences in SAbetaL with cognitive test scores for 49 subjects with 2 time-point scans and sensitivity analysis. RESULTS: SAbetaL derived from both SN and HRN showed higher association with memory-related cognitive test scores compared to SUVr. However, for longitudinal scans, only SAbetaL estimated from multimodal SN consistently performed better than SUVr for all memory-related cognitive test scores. CONCLUSIONS: Our proposed method of quantifying Abeta load using NS estimated from CNN correlated better than SUVr with cognitive decline for both static and longitudinal data, and was able to estimate NS of [18F]Florbetapir. We suggest employing multimodal networks with both T1-weighted and T2-weighted MR images for better NS estimation.
+35665624	60	74	amyloid burden	Disease	MESH:C000718787
+35665624	181	193	amyloid-beta	Gene	351
+35665624	195	200	Abeta	Gene	351
+35665624	226	228	NS	Disease	MESH:D016585
+35665624	299	314	18F]Florbetapir	Chemical	MESH:C545186
+35665624	386	388	MR	Disease	MESH:D008944
+35665624	522	527	Abeta	Gene	351
+35665624	690	692	MR	Disease	MESH:D008944
+35665624	742	744	MR	Disease	MESH:D008944
+35665624	748	750	NS	Chemical	-
+35665624	823	825	NS	Disease	MESH:D016585
+35665624	903	910	amyloid	Disease	MESH:C000718787
+35665624	917	924	SAbetaL	Chemical	-
+35665624	1522	1527	Abeta	Gene	351
+35665624	1539	1541	NS	Disease	MESH:D016585
+35665624	1594	1611	cognitive decline	Disease	MESH:D003072
+35665624	1676	1678	NS	Disease	MESH:D016585
+35665624	1683	1698	18F]Florbetapir	Chemical	MESH:C545186
+35665624	1779	1781	MR	Disease	MESH:D008944
+35665624	1800	1802	NS	Disease	MESH:D016585
+35665624	Association	MESH:D003072	351
+35665624	Association	MESH:D016585	351
+35665624	Association	MESH:D008944	351
+35665624	Association	MESH:C545186	351
+

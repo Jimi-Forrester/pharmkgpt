@@ -1,0 +1,51 @@
+38165434|t|Molecular docking and dynamics simulations revealed the potential inhibitory activity of honey-iQfood ingredients against GSK-3beta and CDK5 protein targets for brain health.
+38165434|a|Honey-iQfood is an herbal supplement made of a mixture of polyherbal extracts and wild honey. The mixture is traditionally claimed to improve various conditions related to brain cells and functions including dementia and Alzheimer's disease. Glycogen synthase kinase-3 beta (GSK-3beta) and cyclin-dependent kinase 5 (CDK5) have been identified as being involved in the pathological hyperphosphorylation of tau proteins, which leads to the formation of neurofibrillary tangles and causes Alzheimer's disease. Therefore, this study was conducted to confirm the traditional claims by detection of active compounds, namely curcumin, gallic acid, catechin, rosmarinic acid, and andrographolide in the raw materials of Honey-iQfood through HPLC analysis, molecular docking, and dynamic simulations. Two potential compounds, andrographolide, and rosmarinic acid, produced the best binding affinities following the molecular docking of the active compounds against the GSK-3beta and CDK5 targets. Andrographolide binds with GSK-3beta at -8.2 kcal/mol, whereas rosmarinic acid binds to CDK5 targets at -8.6 kcal/mol. Molecular dynamics was further carried out to confirm the docking results and clarify their dynamic properties such as RMSD, RMSF, rGyr, SASA, PSA, and binding free energy. CDK5-andrographolide complexes had the best MM-GBSA score (-83.63 kcal/mol) compared to other complexes, indicating the better interaction profile and stability of the complex. These findings warrant further research into andrographolide and rosmarinic acid as efficient inhibitors of tau protein hyperphosphorylation to verify their therapeutic potential in brain-related illnesses.Communicated by Ramaswamy H. Sarma.
+38165434	89	101	honey-iQfood	Chemical	-
+38165434	122	131	GSK-3beta	Gene	2932
+38165434	136	140	CDK5	Gene	1020
+38165434	175	187	Honey-iQfood	Chemical	-
+38165434	383	391	dementia	Disease	MESH:D003704
+38165434	396	415	Alzheimer's disease	Disease	MESH:D000544
+38165434	417	448	Glycogen synthase kinase-3 beta	Gene	2932
+38165434	450	459	GSK-3beta	Gene	2932
+38165434	465	490	cyclin-dependent kinase 5	Gene	1020
+38165434	492	496	CDK5	Gene	1020
+38165434	581	584	tau	Gene	4137
+38165434	627	650	neurofibrillary tangles	Disease	MESH:D055956
+38165434	662	681	Alzheimer's disease	Disease	MESH:D000544
+38165434	794	802	curcumin	Chemical	MESH:D003474
+38165434	804	815	gallic acid	Chemical	MESH:D005707
+38165434	817	825	catechin	Chemical	MESH:D002392
+38165434	827	842	rosmarinic acid	Chemical	MESH:C041376
+38165434	848	863	andrographolide	Chemical	MESH:C030419
+38165434	993	1008	andrographolide	Chemical	MESH:C030419
+38165434	1014	1029	rosmarinic acid	Chemical	MESH:C041376
+38165434	1136	1145	GSK-3beta	Gene	2932
+38165434	1150	1154	CDK5	Gene	1020
+38165434	1164	1179	Andrographolide	Chemical	MESH:C030419
+38165434	1191	1200	GSK-3beta	Gene	2932
+38165434	1227	1242	rosmarinic acid	Chemical	MESH:C041376
+38165434	1252	1256	CDK5	Gene	1020
+38165434	1426	1429	PSA	Gene	9520
+38165434	1456	1460	CDK5	Gene	1020
+38165434	1461	1476	andrographolide	Chemical	MESH:C030419
+38165434	1678	1693	andrographolide	Chemical	MESH:C030419
+38165434	1698	1713	rosmarinic acid	Chemical	MESH:C041376
+38165434	1741	1744	tau	Gene	4137
+38165434	1815	1838	brain-related illnesses	Disease	MESH:D001927
+38165434	Negative_Correlation	MESH:C041376	MESH:D001927
+38165434	Negative_Correlation	MESH:C030419	MESH:D001927
+38165434	Association	MESH:D055956	2932
+38165434	Negative_Correlation	MESH:C030419	4137
+38165434	Negative_Correlation	MESH:C041376	2932
+38165434	Association	MESH:D000544	1020
+38165434	Association	MESH:C041376	1020
+38165434	Bind	MESH:C030419	1020
+38165434	Association	MESH:D000544	2932
+38165434	Association	MESH:D055956	1020
+38165434	Association	2932	4137
+38165434	Negative_Correlation	MESH:C041376	4137
+38165434	Association	1020	4137
+38165434	Association	MESH:D001927	4137
+38165434	Association	MESH:C030419	2932
+

@@ -1,0 +1,14 @@
+39702710|t|Mechanistic Modeling the Role of MicroRNAs and Transcription Factors in Disease Progression.
+39702710|a|In this chapter, we illustrate the utilization of network analysis and mechanistic modeling, two potent branches of systems biology, to simplify the representation of intricate biological processes such as cell signaling, gene regulation, and metabolic pathways. Specifically, we demonstrate the application of a well-established method to generate a microRNA-transcription factor-gene regulatory feed-forward loop network extracted from the GEO dataset GSE163877. Furthermore, we outline a method for constructing a deterministic model using the LSODA method based on the sub-network. This model furnishes insights into the roles of crucial differentially expressed microRNAs and transcription factors in gene expression associated with Alzheimer's disease progression. Our analysis of the model reveals elevated kinetics of synthesis for EGR1, miR-6891, miR-4786, and LTBP1. The model suggests the linear upregulation of miR-8080, miR-3921, HSPB6, and downregulation MX2 gene. The rest of the miRNA, TFs, and genes shows a momentary variation in expression and if the system is undisturbed, they attain equilibrium. Thus, we elucidate how mechanistic modeling, along with perturbation studies and network analysis of expression data, can yield diverse insights into the trajectory of disease progression.
+39702710	831	850	Alzheimer's disease	Disease	MESH:D000544
+39702710	933	937	EGR1	Gene	1958
+39702710	939	947	miR-6891	Gene	102465537
+39702710	949	957	miR-4786	Gene	100616417
+39702710	963	968	LTBP1	Gene	4052
+39702710	1016	1024	miR-8080	Gene	102465877
+39702710	1026	1034	miR-3921	Gene	100500859
+39702710	1036	1041	HSPB6	Gene	126393
+39702710	1062	1065	MX2	Gene	4600
+39702710	Positive_Correlation	MESH:D000544	100616417
+39702710	Positive_Correlation	MESH:D000544	102465537
+

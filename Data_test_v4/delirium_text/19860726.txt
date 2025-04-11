@@ -1,0 +1,20 @@
+19860726|t|The I.F.A.S.T. model allows the prediction of conversion to Alzheimer disease in patients with mild cognitive impairment with high degree of accuracy.
+19860726|a|This paper presents the results obtained with the innovative use of special types of artificial neural networks (ANNs) assembled in a novel methodology named IFAST (implicit function as squashing time) capable of compressing the temporal sequence of electroencephalographic (EEG) data into spatial invariants. The aim of this study is to test the potential of this parallel and nonlinear EEG analysis technique in providing an automatic classification of mild cognitive impairment (MCI) subjects who will convert to Alzheimer's disease (AD) with a high degree of accuracy. Eyes-closed resting EEG data (10-20 electrode montage) were recorded in 143 amnesic MCI subjects. Based on 1-year follow up, the subjects were retrospectively classified to MCI converted to AD and MCI stable. The EEG tracks were successively filtered according to four different frequency ranges, in order to evaluate the hypotheses that a specific range, corresponding to specific brain wave type, could provide a better classification (0.12 Hz, 12.2 - 29.8 Hz; 30.2 - 40 Hz, and finally Notch Filter 48 - 50 Hz). The spatial content of the EEG voltage was extracted by IFAST step-wise procedure using ANNs. The data input for the classification operated by ANNs were not the EEG data, but the connections weights of a nonlinear auto-associative ANN trained to reproduce the recorded EEG tracks. These weights represented a good model of the peculiar spatial features of the EEG patterns at scalp surface. The classification based on these parameters was binary and performed by a supervised ANN. The best results distinguishing between MCI stable and MCI/AD reached to 85.98%.(012 Hz band). And confirmed the working hypothesis that a correct automatic classification can be obtained extracting spatial information content of the resting EEG voltage by ANNs and represent the basis for research aimed at integrating spatial and temporal information content of the EEG. These results suggest that this low-cost procedure can reliably distinguish eyes-closed resting EEG data in individual MCI subjects who will have different prognosis at 1-year follow up, and is promising for a large-scale periodic screening of large populations at amnesic MCI subjects at risk of AD.
+19860726	60	77	Alzheimer disease	Disease	MESH:D000544
+19860726	81	89	patients	Species	9606
+19860726	100	120	cognitive impairment	Disease	MESH:D003072
+19860726	611	631	cognitive impairment	Disease	MESH:D003072
+19860726	633	636	MCI	Disease	MESH:D060825
+19860726	667	686	Alzheimer's disease	Disease	MESH:D000544
+19860726	688	690	AD	Disease	MESH:D000544
+19860726	800	811	amnesic MCI	Disease	MESH:D060825
+19860726	897	900	MCI	Disease	MESH:D060825
+19860726	914	916	AD	Disease	MESH:D000544
+19860726	921	924	MCI	Disease	MESH:D060825
+19860726	1762	1765	MCI	Disease	MESH:D060825
+19860726	1777	1780	MCI	Disease	MESH:D060825
+19860726	1781	1783	AD	Disease	MESH:D000544
+19860726	2214	2217	MCI	Disease	MESH:D060825
+19860726	2360	2371	amnesic MCI	Disease	MESH:D060825
+19860726	2392	2394	AD	Disease	MESH:D000544
+

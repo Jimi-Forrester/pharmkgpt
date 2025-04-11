@@ -1,0 +1,20 @@
+33414713|t|Artificial Intelligence-Based Application to Explore Inhibitors of Neurodegenerative Diseases.
+33414713|a|Neuroinflammation is a common factor in neurodegenerative diseases, and it has been demonstrated that galectin-3 activates microglia and astrocytes, leading to inflammation. This means that inhibition of galectin-3 may become a new strategy for the treatment of neurodegenerative diseases. Based on this motivation, the objective of this study is to explore an integrated new approach for finding lead compounds that inhibit galectin-3, by combining universal artificial intelligence algorithms with traditional drug screening methods. Based on molecular docking method, potential compounds with high binding affinity were screened out from Chinese medicine database. Manifold artificial intelligence algorithms were performed to validate the docking results and further screen compounds. Among all involved predictive methods, the deep learning-based algorithm made 500 modeling attempts, and the square correlation coefficient of the best trained model on the test sets was 0.9. The XGBoost model reached a square correlation coefficient of 0.97 and a mean square error of only 0.01. We switched to the ZINC database and performed the same experiment, the results showed that the compounds in the former database showed stronger affinity. Finally, we further verified through molecular dynamics simulation that the complex composed of the candidate ligand and the target protein showed stable binding within 100 ns of simulation time. In summary, combined with the application based on artificial intelligence algorithms, we unearthed the active ingredients 1,2-Dimethylbenzene and Typhic acid contained in Crataegus pinnatifida and Typha angustata might be the effective inhibitors of neurodegenerative diseases. The high prediction accuracy of the models shows that it has practical application value on small sample data sets such as drug screening.
+33414713	67	93	Neurodegenerative Diseases	Disease	MESH:D019636
+33414713	95	112	Neuroinflammation	Disease	MESH:D000090862
+33414713	135	161	neurodegenerative diseases	Disease	MESH:D019636
+33414713	197	207	galectin-3	Gene	3958
+33414713	255	267	inflammation	Disease	MESH:D007249
+33414713	299	309	galectin-3	Gene	3958
+33414713	357	383	neurodegenerative diseases	Disease	MESH:D019636
+33414713	520	530	galectin-3	Gene	3958
+33414713	1655	1674	1,2-Dimethylbenzene	Chemical	MESH:C026114
+33414713	1679	1690	Typhic acid	Chemical	MESH:C055665
+33414713	1704	1725	Crataegus pinnatifida	Species	510735
+33414713	1730	1745	Typha angustata	Species	453243
+33414713	1783	1809	neurodegenerative diseases	Disease	MESH:D019636
+33414713	Negative_Correlation	MESH:C055665	MESH:D019636
+33414713	Association	MESH:D019636	3958
+33414713	Negative_Correlation	MESH:C026114	MESH:D019636
+33414713	Association	MESH:D007249	3958
+

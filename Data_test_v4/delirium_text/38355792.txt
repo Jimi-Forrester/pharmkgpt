@@ -1,0 +1,43 @@
+38355792|t|A model of human neural networks reveals NPTX2 pathology in ALS and FTLD.
+38355792|a|Human cellular models of neurodegeneration require reproducibility and longevity, which is necessary for simulating age-dependent diseases. Such systems are particularly needed for TDP-43 proteinopathies1, which involve human-specific mechanisms2-5 that cannot be directly studied in animal models. Here, to explore the emergence and consequences of TDP-43 pathologies, we generated induced pluripotent stem cell-derived, colony morphology neural stem cells (iCoMoNSCs) via manual selection of neural precursors6. Single-cell transcriptomics and comparison to independent neural stem cells7 showed that iCoMoNSCs are uniquely homogenous and self-renewing. Differentiated iCoMoNSCs formed a self-organized multicellular system consisting of synaptically connected and electrophysiologically active neurons, which matured into long-lived functional networks (which we designate iNets). Neuronal and glial maturation in iNets was similar to that of cortical organoids8. Overexpression of wild-type TDP-43 in a minority of neurons within iNets led to progressive fragmentation and aggregation of the protein, resulting in a partial loss of function and neurotoxicity. Single-cell transcriptomics revealed a novel set of misregulated RNA targets in TDP-43-overexpressing neurons and in patients with TDP-43 proteinopathies exhibiting a loss of nuclear TDP-43. The strongest misregulated target encoded the synaptic protein NPTX2, the levels of which are controlled by TDP-43 binding on its 3' untranslated region. When NPTX2 was overexpressed in iNets, it exhibited neurotoxicity, whereas correcting NPTX2 misregulation partially rescued neurons from TDP-43-induced neurodegeneration. Notably, NPTX2 was consistently misaccumulated in neurons from patients with amyotrophic lateral sclerosis and frontotemporal lobar degeneration with TDP-43 pathology. Our work directly links TDP-43 misregulation and NPTX2 accumulation, thereby revealing a TDP-43-dependent pathway of neurotoxicity.
+38355792	11	16	human	Species	9606
+38355792	41	46	NPTX2	Gene	4885
+38355792	60	63	ALS	Disease	MESH:D008113
+38355792	68	72	FTLD	Disease	MESH:D057174
+38355792	74	79	Human	Species	9606
+38355792	99	116	neurodegeneration	Disease	MESH:D019636
+38355792	190	212	age-dependent diseases	Disease	MESH:C564653
+38355792	255	278	TDP-43 proteinopathies1	Disease	MESH:D057177
+38355792	294	299	human	Species	9606
+38355792	424	430	TDP-43	Gene	23435
+38355792	1069	1075	TDP-43	Gene	23435
+38355792	1223	1236	neurotoxicity	Disease	MESH:D020258
+38355792	1318	1324	TDP-43	Gene	23435
+38355792	1355	1363	patients	Species	9606
+38355792	1369	1391	TDP-43 proteinopathies	Disease	MESH:D057177
+38355792	1421	1427	TDP-43	Gene	23435
+38355792	1492	1497	NPTX2	Gene	4885
+38355792	1537	1543	TDP-43	Gene	23435
+38355792	1588	1593	NPTX2	Gene	4885
+38355792	1635	1648	neurotoxicity	Disease	MESH:D020258
+38355792	1669	1674	NPTX2	Gene	4885
+38355792	1720	1726	TDP-43	Gene	23435
+38355792	1735	1752	neurodegeneration	Disease	MESH:D019636
+38355792	1763	1768	NPTX2	Gene	4885
+38355792	1817	1825	patients	Species	9606
+38355792	1831	1860	amyotrophic lateral sclerosis	Disease	MESH:D000690
+38355792	1865	1898	frontotemporal lobar degeneration	Disease	MESH:D057174
+38355792	1904	1910	TDP-43	Gene	23435
+38355792	1946	1952	TDP-43	Gene	23435
+38355792	1971	1976	NPTX2	Gene	4885
+38355792	2011	2017	TDP-43	Gene	23435
+38355792	2039	2052	neurotoxicity	Disease	MESH:D020258
+38355792	Positive_Correlation	MESH:D020258	4885
+38355792	Association	MESH:D020258	23435
+38355792	Association	MESH:D000690	4885
+38355792	Association	23435	4885
+38355792	Association	MESH:D019636	23435
+38355792	Association	MESH:D057174	4885
+38355792	Association	MESH:D008113	4885
+38355792	Association	MESH:D057177	23435
+

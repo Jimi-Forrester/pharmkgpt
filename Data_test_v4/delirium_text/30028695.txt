@@ -1,0 +1,12 @@
+30028695|t|Spatially Adaptive Varying Correlation Analysis for Multimodal Neuroimaging Data.
+30028695|a|In this paper, we study a central problem in multimodal neuroimaging analysis, i.e., identification of significantly correlated brain regions between multiple imaging modalities. We propose a spatially varying correlation model and the associated inference procedure, which improves substantially over the common alternative solutions of voxel-wise and region-wise analysis. Compared with voxel-wise analysis, our method aggregates voxels with similar correlations into regions, takes into account spatial continuity of correlations at nearby voxels, and enjoys a much higher detection power. Compared with region-wise analysis, our method does not rely on any pre-specified brain region map, but instead finds homogenous correlation regions adaptively given the data. We applied our method to a multimodal positron emission tomography study, and found brain regions with significant correlation between tau and glucose metabolism that voxel-wise or region-wise analysis failed to identify. Our findings conform and lend additional support to prior hypotheses about how the two pathological proteins of Alzheimer's disease, tau and amyloid, interact with glucose metabolism in the aging human brain.
+30028695	986	989	tau	Gene	4137
+30028695	994	1001	glucose	Chemical	MESH:D005947
+30028695	1185	1204	Alzheimer's disease	Disease	MESH:D000544
+30028695	1206	1209	tau	Gene	4137
+30028695	1237	1244	glucose	Chemical	MESH:D005947
+30028695	1269	1274	human	Species	9606
+30028695	Association	MESH:D005947	4137
+30028695	Association	MESH:D000544	4137
+30028695	Association	MESH:D005947	MESH:D000544
+

@@ -1,0 +1,23 @@
+35886042|t|Functional Genomics Analysis to Disentangle the Role of Genetic Variants in Major Depression.
+35886042|a|Understanding the molecular basis of major depression is critical for identifying new potential biomarkers and drug targets to alleviate its burden on society. Leveraging available GWAS data and functional genomic tools to assess regulatory variation could help explain the role of major depression-associated genetic variants in disease pathogenesis. We have conducted a fine-mapping analysis of genetic variants associated with major depression and applied a pipeline focused on gene expression regulation by using two complementary approaches: cis-eQTL colocalization analysis and alteration of transcription factor binding sites. The fine-mapping process uncovered putative causally associated variants whose proximal genes were linked with major depression pathophysiology. Four colocalizing genetic variants altered the expression of five genes, highlighting the role of SLC12A5 in neuronal chlorine homeostasis and MYRF in nervous system myelination and oligodendrocyte differentiation. The transcription factor binding analysis revealed the potential role of rs62259947 in modulating P4HTM expression by altering the YY1 binding site, altogether regulating hypoxia response. Overall, our pipeline could prioritize putative causal genetic variants in major depression. More importantly, it can be applied when only index genetic variants are available. Finally, the presented approach enabled the proposal of mechanistic hypotheses of these genetic variants and their role in disease pathogenesis.
+35886042	76	92	Major Depression	Disease	MESH:D003865
+35886042	131	147	major depression	Disease	MESH:D003865
+35886042	376	392	major depression	Disease	MESH:D003865
+35886042	524	540	major depression	Disease	MESH:D003865
+35886042	839	855	major depression	Disease	MESH:D003865
+35886042	971	978	SLC12A5	Gene	57468
+35886042	1016	1020	MYRF	Gene	745
+35886042	1161	1171	rs62259947	SNP	tmVar:rs62259947;VariantGroup:0;CorrespondingGene:387;RS#:62259947;CorrespondingSpecies:9606
+35886042	1186	1191	P4HTM	Gene	54681
+35886042	1219	1222	YY1	Gene	7528
+35886042	1259	1266	hypoxia	Disease	MESH:D000860
+35886042	1352	1368	major depression	Disease	MESH:D003865
+35886042	Association	MESH:D000860	54681
+35886042	Association	MESH:D000860	RS#:62259947;CorrespondingGene:387
+35886042	Association	MESH:D000860	7528
+35886042	Association	54681	7528
+35886042	Association	MESH:D003865	RS#:62259947;CorrespondingGene:387
+35886042	Association	MESH:D003865	57468
+35886042	Association	MESH:D000860	387
+35886042	Association	MESH:D003865	387
+

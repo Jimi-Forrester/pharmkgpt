@@ -1,0 +1,37 @@
+31664083|t|Downregulation of GRK5 hampers the migration of breast cancer cells.
+31664083|a|Sunitinib is a multispecific kinase inhibitor and one of its targets is the kinase GRK5, which is regulating a multitude of G protein-coupled receptors (GPCRs). In this study we demonstrate that a decreased GRK5 expression induced by knock-down experiments or sunitinib treatment hampers the migration of cancer cell lines. A proteomic analysis revealed many pathways related to cell migration which were down regulated upon the GRK5 knock-down. Furthermore, we found in MDA-MB-231 breast cancer cells that the inhibition of migration is mediated by the GPCR gastrin releasing peptide receptor (GRPR) leading to a reduced expression of migration regulating downstream targets like CDC42 and ROCK1. An in silico Kaplan Meier analysis revealed that GRK5 and GRPR overexpression reduces the distant metastasis free survival in triple-negative breast cancer (TNBC) patients. Thus, we suggest a novel anti-migratory effect of impaired GRK5 expression which induces a negative feedback loop on GRPR signalling.
+31664083	18	22	GRK5	Gene	2869
+31664083	48	61	breast cancer	Disease	MESH:D001943
+31664083	69	78	Sunitinib	Chemical	MESH:D000077210
+31664083	152	156	GRK5	Gene	2869
+31664083	276	280	GRK5	Gene	2869
+31664083	329	338	sunitinib	Chemical	MESH:D000077210
+31664083	374	380	cancer	Disease	MESH:D009369
+31664083	498	502	GRK5	Gene	2869
+31664083	540	550	MDA-MB-231	CellLine	CVCL:0062
+31664083	551	564	breast cancer	Disease	MESH:D001943
+31664083	623	627	GPCR	Gene	165140
+31664083	628	662	gastrin releasing peptide receptor	Gene	2925
+31664083	664	668	GRPR	Gene	2925
+31664083	750	755	CDC42	Gene	998
+31664083	760	765	ROCK1	Gene	6093
+31664083	816	820	GRK5	Gene	2869
+31664083	825	829	GRPR	Gene	2925
+31664083	865	875	metastasis	Disease	MESH:D009362
+31664083	893	922	triple-negative breast cancer	Disease	MESH:D064726
+31664083	924	928	TNBC	Disease	MESH:D064726
+31664083	930	938	patients	Species	9606
+31664083	999	1003	GRK5	Gene	2869
+31664083	1057	1061	GRPR	Gene	2925
+31664083	Association	MESH:D064726	2925
+31664083	Association	MESH:D001943	2869
+31664083	Positive_Correlation	MESH:D009362	2925
+31664083	Association	MESH:D064726	2869
+31664083	Negative_Correlation	MESH:D000077210	MESH:D009369
+31664083	Association	MESH:D001943	2925
+31664083	Negative_Correlation	2925	998
+31664083	Association	MESH:D009362	2869
+31664083	Association	MESH:D001943	165140
+31664083	Negative_Correlation	2925	6093
+31664083	Negative_Correlation	MESH:D000077210	2869
+

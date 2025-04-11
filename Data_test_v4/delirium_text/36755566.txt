@@ -1,0 +1,34 @@
+36755566|t|Identifying encephalopathy in patients admitted to an intensive care unit: Going beyond structured information using natural language processing.
+36755566|a|Background: Encephalopathy is a severe co-morbid condition in critically ill patients that includes different clinical constellation of neurological symptoms. However, even for the most recognised form, delirium, this medical condition is rarely recorded in structured fields of electronic health records precluding large and unbiased retrospective studies. We aimed to identify patients with encephalopathy using a machine learning-based approach over clinical notes in electronic health records. Methods: We used a list of ICD-9 codes and clinical concepts related to encephalopathy to define a cohort of patients from the MIMIC-III dataset. Clinical notes were annotated with MedCAT and vectorized with a bag-of-word approach or word embedding using clinical concepts normalised to standard nomenclatures as features. Machine learning algorithms (support vector machines and random forest) trained with clinical notes from patients who had a diagnosis of encephalopathy (defined by ICD-9 codes) were used to classify patients with clinical concepts related to encephalopathy in their clinical notes but without any ICD-9 relevant code. A random selection of 50 patients were reviewed by a clinical expert for model validation. Results: Among 46,520 different patients, 7.5% had encephalopathy related ICD-9 codes in all their admissions (group 1, definite encephalopathy), 45% clinical concepts related to encephalopathy only in their clinical notes (group 2, possible encephalopathy) and 38% did not have encephalopathy related concepts neither in structured nor in clinical notes (group 3, non-encephalopathy). Length of stay, mortality rate or number of co-morbid conditions were higher in groups 1 and 2 compared to group 3. The best model to classify patients from group 2 as patients with encephalopathy (SVM using embeddings) had F1 of 85% and predicted 31% patients from group 2 as having encephalopathy with a probability >90%. Validation on new cases found a precision ranging from 92% to 98% depending on the criteria considered. Conclusions: Natural language processing techniques can leverage relevant clinical information that might help to identify patients with under-recognised clinical disorders such as encephalopathy. In the MIMIC dataset, this approach identifies with high probability thousands of patients that did not have a formal diagnosis in the structured information of the EHR.
+36755566	12	26	encephalopathy	Disease	MESH:D001927
+36755566	30	38	patients	Species	9606
+36755566	158	172	Encephalopathy	Disease	MESH:D001927
+36755566	223	231	patients	Species	9606
+36755566	282	294	neurological	Disease	MESH:D009461
+36755566	349	357	delirium	Disease	MESH:D003693
+36755566	525	533	patients	Species	9606
+36755566	539	553	encephalopathy	Disease	MESH:D001927
+36755566	716	730	encephalopathy	Disease	MESH:D001927
+36755566	753	761	patients	Species	9606
+36755566	1072	1080	patients	Species	9606
+36755566	1104	1118	encephalopathy	Disease	MESH:D001927
+36755566	1166	1174	patients	Species	9606
+36755566	1209	1223	encephalopathy	Disease	MESH:D001927
+36755566	1310	1318	patients	Species	9606
+36755566	1408	1416	patients	Species	9606
+36755566	1427	1441	encephalopathy	Disease	MESH:D001927
+36755566	1505	1519	encephalopathy	Disease	MESH:D001927
+36755566	1555	1569	encephalopathy	Disease	MESH:D001927
+36755566	1618	1632	encephalopathy	Disease	MESH:D001927
+36755566	1655	1669	encephalopathy	Disease	MESH:D001927
+36755566	1745	1759	encephalopathy	Disease	MESH:D001927
+36755566	1905	1913	patients	Species	9606
+36755566	1930	1938	patients	Species	9606
+36755566	1944	1958	encephalopathy	Disease	MESH:D001927
+36755566	2014	2022	patients	Species	9606
+36755566	2046	2060	encephalopathy	Disease	MESH:D001927
+36755566	2313	2321	patients	Species	9606
+36755566	2344	2362	clinical disorders	Disease	MESH:D000075902
+36755566	2371	2385	encephalopathy	Disease	MESH:D001927
+36755566	2469	2477	patients	Species	9606
+

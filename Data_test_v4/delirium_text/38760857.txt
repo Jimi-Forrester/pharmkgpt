@@ -1,0 +1,34 @@
+38760857|t|Variants in the MS4A cluster interact with soluble TREM2 expression on biomarkers of neuropathology.
+38760857|a|Recent evidence suggests that Alzheimer's disease (AD) genetic risk variants (rs1582763 and rs6591561) of the MS4A locus are genome-wide significant regulators of soluble TREM2 levels such that the minor allele of the protective variant (rs1582763) is associated with higher sTREM2 and lower AD risk while the minor allele of (rs6591561) relates to lower sTREM2 and higher AD risk. Our group previously found that higher sTREM2 relates to higher Abeta40, worse blood-brain barrier (BBB) integrity (measured with the CSF/plasma albumin ratio), and higher CSF tau, suggesting strong associations with amyloid abundance and both BBB and neurodegeneration complicate interpretation. We expand on this work by leveraging these common variants as genetic tools to tune the interpretation of high CSF sTREM2, and by exploring the potential modifying role of these variants on the well-established associations between CSF sTREM2 as well as TREM2 transcript levels in the brain with AD neuropathology. Biomarker analyses leveraged data from the Vanderbilt Memory & Aging Project (n = 127, age = 72 +- 6.43) and were replicated in the Alzheimer's Disease Neuroimaging Initiative (n = 399, age = 73 +- 7.39). Autopsy analyses were performed leveraging data from the Religious Orders Study and Rush Memory and Aging Project (n = 577, age = 89 +- 6.46). We found that the protective variant rs1582763 attenuated the association between CSF sTREM2 and Abeta40 (beta = -0.44, p-value = 0.017) and replicated this interaction in ADNI (beta = -0.27, p = 0.017). We did not observe this same interaction effect between TREM2 mRNA levels and Abeta peptides in brain (Abeta total beta = -0.14, p = 0.629; Abeta1-38, beta = 0.11, p = 0.200). In contrast to the effects on Abeta, the minor allele of this same variant seemed to enhance the association with blood-brain barrier dysfunction (beta = 7.0e-4, p = 0.009), suggesting that elevated sTREM2 may carry a much different interpretation in carriers vs. non-carriers of this allele. When evaluating the risk variant (rs6591561) across datasets, we did not observe a statistically significant interaction against any outcome in VMAP and observed opposing directions of associations in ADNI and ROS/MAP on Abeta levels. Together, our results suggest that the protective effect of rs1582763 may act by decoupling the associations between sTREM2 and amyloid abundance, providing important mechanistic insight into sTREM2 changes and highlighting the need to incorporate genetic context into the analysis of sTREM2 levels, particularly if leveraged as a clinical biomarker of disease in the future.
+38760857	51	56	TREM2	Gene	54209
+38760857	131	150	Alzheimer's disease	Disease	MESH:D000544
+38760857	152	154	AD	Disease	MESH:D000544
+38760857	179	188	rs1582763	SNP	tmVar:rs1582763;VariantGroup:1;RS#:1582763
+38760857	193	202	rs6591561	SNP	tmVar:rs6591561;VariantGroup:0;CorrespondingGene:51338;RS#:6591561;CorrespondingSpecies:9606
+38760857	272	277	TREM2	Gene	54209
+38760857	339	348	rs1582763	SNP	tmVar:rs1582763;VariantGroup:1;RS#:1582763
+38760857	393	395	AD	Disease	MESH:D000544
+38760857	428	437	rs6591561	SNP	tmVar:rs6591561;VariantGroup:0;CorrespondingGene:51338;RS#:6591561;CorrespondingSpecies:9606
+38760857	474	476	AD	Disease	MESH:D000544
+38760857	628	635	albumin	Gene	213
+38760857	659	662	tau	Gene	4137
+38760857	735	752	neurodegeneration	Disease	MESH:D019636
+38760857	1034	1039	TREM2	Gene	54209
+38760857	1076	1078	AD	Disease	MESH:D000544
+38760857	1227	1246	Alzheimer's Disease	Disease	MESH:D000544
+38760857	1480	1489	rs1582763	SNP	tmVar:rs1582763;VariantGroup:1;RS#:1582763
+38760857	1703	1708	TREM2	Gene	54209
+38760857	1725	1730	Abeta	Gene	351
+38760857	1750	1755	Abeta	Gene	351
+38760857	1853	1858	Abeta	Gene	351
+38760857	2150	2159	rs6591561	SNP	tmVar:rs6591561;VariantGroup:0;CorrespondingGene:51338;RS#:6591561;CorrespondingSpecies:9606
+38760857	2326	2329	ROS	Chemical	-
+38760857	2337	2342	Abeta	Gene	351
+38760857	2411	2420	rs1582763	SNP	tmVar:rs1582763;VariantGroup:1;RS#:1582763
+38760857	2479	2486	amyloid	Disease	MESH:C000718787
+38760857	Positive_Correlation	MESH:D000544	RS#:6591561;CorrespondingGene:51338
+38760857	Negative_Correlation	MESH:D000544	RS#:1582763
+38760857	Association	MESH:D000544	54209
+38760857	Association	351	54209
+38760857	Association	MESH:D000544	51338
+

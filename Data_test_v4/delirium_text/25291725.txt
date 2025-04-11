@@ -1,0 +1,29 @@
+25291725|t|Suvorexant: a novel therapy for the treatment of insomnia.
+25291725|a|Suvorexant is a pharmacologically novel dual antagonist of orexin receptors OX1R and OX2R, which has an effect that promotes sleep by reducing arousal and wakefulness. Its approval for the treatment of insomnia was based on three clinical trials that found it to be efficacious and relatively well tolerated. Somnolence, headache, and dry mouth are the most common side effects. Because suvorexant has unique effects on arousal systems and rapid eye movement (REM) sleep, it is contraindicated in patients with narcolepsy, and its use should be avoided or closely monitored in patients at risk for REM sleep behavior disorder, depression, or delirium.
+25291725	0	10	Suvorexant	Chemical	MESH:C551624
+25291725	49	57	insomnia	Disease	MESH:D007319
+25291725	59	69	Suvorexant	Chemical	MESH:C551624
+25291725	135	139	OX1R	Gene	3061
+25291725	144	148	OX2R	Gene	3062
+25291725	261	269	insomnia	Disease	MESH:D007319
+25291725	368	378	Somnolence	Disease	MESH:D006970
+25291725	380	388	headache	Disease	MESH:D006261
+25291725	394	403	dry mouth	Disease	MESH:D014987
+25291725	446	456	suvorexant	Chemical	MESH:C551624
+25291725	556	564	patients	Species	9606
+25291725	570	580	narcolepsy	Disease	MESH:D009290
+25291725	636	644	patients	Species	9606
+25291725	657	684	REM sleep behavior disorder	Disease	MESH:D020187
+25291725	686	696	depression	Disease	MESH:D003866
+25291725	701	709	delirium	Disease	MESH:D003693
+25291725	Negative_Correlation	MESH:C551624	3062
+25291725	Positive_Correlation	MESH:C551624	MESH:D006970
+25291725	Positive_Correlation	MESH:C551624	MESH:D006261
+25291725	Positive_Correlation	MESH:C551624	MESH:D003866
+25291725	Association	MESH:C551624	MESH:D003693
+25291725	Negative_Correlation	MESH:C551624	MESH:D007319
+25291725	Association	MESH:C551624	MESH:D020187
+25291725	Negative_Correlation	MESH:C551624	MESH:D009290
+25291725	Positive_Correlation	MESH:C551624	MESH:D014987
+25291725	Negative_Correlation	MESH:C551624	3061
+

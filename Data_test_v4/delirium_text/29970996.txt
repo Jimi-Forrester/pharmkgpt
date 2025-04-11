@@ -1,0 +1,25 @@
+29970996|t|Classification of Alzheimer's Disease by Combination of Convolutional and Recurrent Neural Networks Using FDG-PET Images.
+29970996|a|Alzheimer's disease (AD) is an irreversible brain degenerative disorder affecting people aged older than 65 years. Currently, there is no effective cure for AD, but its progression can be delayed with some treatments. Accurate and early diagnosis of AD is vital for the patient care and development of future treatment. Fluorodeoxyglucose positrons emission tomography (FDG-PET) is a functional molecular imaging modality, which proves to be powerful to help understand the anatomical and neural changes of brain related to AD. Most existing methods extract the handcrafted features from images, and then design a classifier to distinguish AD from other groups. These methods highly depends on the preprocessing of brain images, including image rigid registration and segmentation. Motivated by the success of deep learning in image classification, this paper proposes a new classification framework based on combination of 2D convolutional neural networks (CNN) and recurrent neural networks (RNNs), which learns the intra-slice and inter-slice features for classification after decomposition of the 3D PET image into a sequence of 2D slices. The 2D CNNs are built to capture the features of image slices while the gated recurrent unit (GRU) of RNN is cascaded to learn and integrate the inter-slice features for image classification. No rigid registration and segmentation are required for PET images. Our method is evaluated on the baseline FDG-PET images acquired from 339 subjects including 93 AD patients, 146 mild cognitive impairments (MCI) and 100 normal controls (NC) from Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Experimental results show that the proposed method achieves an area under receiver operating characteristic curve (AUC) of 95.3% for AD vs. NC classification and 83.9% for MCI vs. NC classification, demonstrating the promising classification performance.
+29970996	18	37	Alzheimer's Disease	Disease	MESH:D000544
+29970996	106	109	FDG	Chemical	MESH:D019788
+29970996	122	141	Alzheimer's disease	Disease	MESH:D000544
+29970996	143	145	AD	Disease	MESH:D000544
+29970996	166	193	brain degenerative disorder	Disease	MESH:D020271
+29970996	279	281	AD	Disease	MESH:D000544
+29970996	372	374	AD	Disease	MESH:D000544
+29970996	392	399	patient	Species	9606
+29970996	442	460	Fluorodeoxyglucose	Chemical	MESH:D019788
+29970996	492	495	FDG	Chemical	MESH:D019788
+29970996	646	648	AD	Disease	MESH:D000544
+29970996	762	764	AD	Disease	MESH:D000544
+29970996	1566	1569	FDG	Chemical	MESH:D019788
+29970996	1621	1623	AD	Disease	MESH:D000544
+29970996	1624	1632	patients	Species	9606
+29970996	1643	1664	cognitive impairments	Disease	MESH:D003072
+29970996	1666	1669	MCI	Disease	MESH:D060825
+29970996	1705	1724	Alzheimer's Disease	Disease	MESH:D000544
+29970996	1899	1901	AD	Disease	MESH:D000544
+29970996	1938	1941	MCI	Disease	MESH:D060825
+29970996	Association	MESH:D019788	MESH:D000544
+29970996	Association	MESH:D019788	MESH:D003072
+

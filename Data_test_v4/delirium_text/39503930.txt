@@ -1,0 +1,28 @@
+39503930|t|Analysis of key pathways and genes in nodal structure on rat skin surface using gene ontology and KEGG pathway.
+39503930|a|BACKGROUND: We have previously reported anatomical, histological, and gene expression characteristics of the nodal structure of rat skin surface and suggested its potential as an acupuncture point. However, the specific characteristics of the interactions among the genes expressed in this structure remain unclear. OBJECTIVE: We aimed to determine gene expression changes by analyzing interaction networks of genes up-regulated in nodal structures and to explore relationships with acupuncture points. METHODS: We investigated the relationship between the nodal structures and acupuncture points by analyzing the interactions of up-regulated genes, their Gene Ontology biological functions, and the characteristics of Kyoto Encyclopedia of Genes and Genomes pathways. RNA-seq and STRING analysis provided comprehensive information on these gene groups. RESULTS: Interactions between up-regulated genes in nodal structures were classified into three groups. The first group, which includes Wnt7b, Wnt3, and Wnt16, showed significant interactions in pathways such as Wnt signaling, Alzheimer's disease, and regulation of stem cell pluripotency. The second group, composed of Fos, Dusp1, Pla2g4e, Pla2g4f, and Fgfr3, demonstrated a notable association with the MAPK signaling pathway. Lastly, the third group, consisting of Adcy1, Pla2g4e, Pla2g4f, and Dusp1 exhibited effective interactions with the inflammatory mediator regulation of TRP channels and serotonergic synapse. CONCLUSION: Continued research on nodal structures where these genes are expressed is needed to improve our understanding of skin anatomy and physiology as well as their potential clinical utility as acupuncture points.
+39503930	57	60	rat	Species	10116
+39503930	240	243	rat	Species	10116
+39503930	1102	1107	Wnt7b	Gene	315196
+39503930	1109	1113	Wnt3	Gene	24882
+39503930	1119	1124	Wnt16	Gene	500047
+39503930	1178	1181	Wnt	Gene	114487
+39503930	1193	1212	Alzheimer's disease	Disease	MESH:D000544
+39503930	1286	1289	Fos	Gene	314322
+39503930	1291	1296	Dusp1	Gene	114856
+39503930	1298	1305	Pla2g4e	Gene	296091
+39503930	1307	1314	Pla2g4f	Gene	691907
+39503930	1320	1325	Fgfr3	Gene	84489
+39503930	1434	1439	Adcy1	Gene	305509
+39503930	1441	1448	Pla2g4e	Gene	296091
+39503930	1450	1457	Pla2g4f	Gene	691907
+39503930	1463	1468	Dusp1	Gene	114856
+39503930	1511	1523	inflammatory	Disease	MESH:D007249
+39503930	Association	MESH:D007249	691907
+39503930	Association	114487	500047
+39503930	Association	MESH:D007249	305509
+39503930	Association	MESH:D007249	114856
+39503930	Association	MESH:D000544	315196
+39503930	Association	MESH:D000544	24882
+39503930	Association	MESH:D007249	296091
+39503930	Association	MESH:D000544	500047
+

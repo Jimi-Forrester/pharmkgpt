@@ -1,0 +1,15 @@
+36512546|t|Multi-layer perceptron classification & quantification of neuronal survival in hypoxic-ischemic brain image slices using a novel gradient direction, grey level co-occurrence matrix image training.
+36512546|a|Hypoxic ischemic encephalopathy (HIE) is a major global cause of neonatal death and lifelong disability. Large animal translational studies of hypoxic ischemic brain injury, such as those conducted in fetal sheep, have and continue to play a key role in furthering our understanding of the cellular and molecular mechanisms of injury and developing new treatment strategies for clinical translation. At present, the quantification of neurons in histological images consists of slow, manually intensive morphological assessment, requiring many repeats by an expert, which can prove to be time-consuming and prone to human error. Hence, there is an urgent need to automate the neuron classification and quantification process. In this article, we present a 'Gradient Direction, Grey level Co-occurrence Matrix' (GD-GLCM) image training method which outperforms and simplifies the standard training methodology using texture analysis to cell-classification. This is achieved by determining the Grey level Co-occurrence Matrix of the gradient direction of a cell image followed by direct passing to a classifier in the form of a Multilayer Perceptron (MLP). Hence, avoiding all texture feature computation steps. The proposed MLP is trained on both healthy and dying neurons that are manually identified by an expert and validated on unseen hypoxic-ischemic brain slice images from the fetal sheep in utero model. We compared the performance of our classifier using the gradient magnitude dataset as well as the gradient direction dataset. We also compare the performance of a perceptron, a 1-layer MLP, and a 2-layer MLP to each other. We demonstrate here a way of accurately identifying both healthy and dying cortical neurons obtained from brain slice images of the fetal sheep model under global hypoxia to high precision by identifying the most minimised MLP architecture, minimised input space (GLCM size) and minimised training data (GLCM representations) to achieve the highest performance over the standard methodology.
+36512546	79	95	hypoxic-ischemic	Disease	MESH:D020925
+36512546	197	228	Hypoxic ischemic encephalopathy	Disease	MESH:D020925
+36512546	230	233	HIE	Disease	MESH:D020925
+36512546	262	276	neonatal death	Disease	MESH:D066087
+36512546	281	300	lifelong disability	Disease	MESH:C565569
+36512546	340	369	hypoxic ischemic brain injury	Disease	MESH:D020925
+36512546	404	409	sheep	Species	9940
+36512546	812	817	human	Species	9606
+36512546	1534	1550	hypoxic-ischemic	Disease	MESH:D020925
+36512546	1585	1590	sheep	Species	9940
+36512546	1968	1973	sheep	Species	9940
+36512546	1993	2000	hypoxia	Disease	MESH:D000860
+

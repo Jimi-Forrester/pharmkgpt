@@ -1,0 +1,52 @@
+37006490|t|Evidence of clinical efficacy and pharmacological mechanism of N-butylphthalide in the treatment of delayed encephalopathy after acute carbon monoxide poisoning.
+37006490|a|Objective: Based on network meta-analysis (NMA) and network pharmacology approaches, we explored the clinical efficacy of different regimens, and clarified the pharmacological mechanisms of N-butylphthalide (NBP) in the treatment of delayed encephalopathy after acute carbon monoxide poisoning (DEACMP). Methods: Firstly, NMA was conducted to obtain the ranking of the efficacy of different regimens for the treatment of DEACMP. Secondly, the drug with a relatively high efficacy ranking was selected and its mechanism of treatment for DEACMP was identified through a network pharmacology analysis. By the use of protein interaction and enrichment analysis, the pharmacological mechanism was predicted, and molecular docking was subsequently carried out to verify the reliability of the results. Results: A total of 17 eligible randomized controlled trials (RCTs) involving 1293 patients and 16 interventions were eventually included in our analysis from NMA. Mesenchymal stem cells (MSCs) + NBP significantly increased mini-mental state examination (MMSE) and Barthel index (BI) scores; NBP + dexamethasone (DXM) was the most effective treatment in improving the activity of daily living (ADL) scores; NBP significantly decreased national institutes of health stroke scale (NIHSS) scores; Xingzhi-Yinao granules (XZYN) had more advantages in improving Montreal cognitive assessment (MoCA) scores, translational direct current stimulation (tDCS) had a significant effect in improving P300 latency and P300 amplitude and Kinnado + Citicoline had the most obvious effect in improving malondialdehyde (MDA). Meanwhile, by network pharmacology analysis, 33 interaction genes between NBP and DEACMP were obtained, and 4 of them were identified as possible key targets in the process of MCODE analysis. 516 Gene ontology (GO) entries and 116 Kyoto Encyclopedia of Gene and Genome (KEGG) entries were achieved by enrichment analysis. Molecular docking showed that NBP had good docking activity with the key targets. Conclusion: The NMA screened for regimens with better efficacy for each outcome indicator in order to provide a reference for clinical treatment. NBP can stably bind ALB, ESR1, EGFR, HSP90AA1, and other targets, and may play a role in neuroprotection for patients with DEACMP by modulating Lipid and atherosclerosis, IL-17 signaling pathway, MAPK signaling pathway, FoxO signaling pathway, PI3K/AKT signaling pathway.
+37006490	63	79	N-butylphthalide	Chemical	MESH:C027125
+37006490	108	122	encephalopathy	Disease	MESH:D001927
+37006490	129	160	acute carbon monoxide poisoning	Disease	MESH:D002249
+37006490	352	368	N-butylphthalide	Chemical	MESH:C027125
+37006490	370	373	NBP	Chemical	MESH:C027125
+37006490	403	417	encephalopathy	Disease	MESH:D001927
+37006490	424	455	acute carbon monoxide poisoning	Disease	MESH:D002249
+37006490	457	463	DEACMP	Disease	MESH:D002249
+37006490	583	589	DEACMP	Disease	MESH:D002249
+37006490	698	704	DEACMP	Disease	MESH:D002249
+37006490	1041	1049	patients	Species	9606
+37006490	1154	1157	NBP	Chemical	MESH:C027125
+37006490	1250	1253	NBP	Chemical	MESH:C027125
+37006490	1256	1269	dexamethasone	Chemical	MESH:D003907
+37006490	1271	1274	DXM	Chemical	MESH:D003907
+37006490	1365	1368	NBP	Chemical	MESH:C027125
+37006490	1423	1429	stroke	Disease	MESH:D020521
+37006490	1692	1702	Citicoline	Chemical	MESH:D003566
+37006490	1744	1759	malondialdehyde	Chemical	MESH:D008315
+37006490	1761	1764	MDA	Chemical	MESH:D008315
+37006490	1841	1844	NBP	Chemical	MESH:C027125
+37006490	1849	1855	DEACMP	Disease	MESH:D002249
+37006490	2119	2122	NBP	Chemical	MESH:C027125
+37006490	2317	2320	NBP	Chemical	MESH:C027125
+37006490	2337	2340	ALB	Gene	213
+37006490	2342	2346	ESR1	Gene	2099
+37006490	2348	2352	EGFR	Gene	1956
+37006490	2354	2362	HSP90AA1	Gene	3320
+37006490	2426	2434	patients	Species	9606
+37006490	2440	2446	DEACMP	Disease	MESH:D002249
+37006490	2461	2466	Lipid	Chemical	MESH:D008055
+37006490	2471	2486	atherosclerosis	Disease	MESH:D050197
+37006490	2488	2493	IL-17	Gene	3605
+37006490	2566	2569	AKT	Gene	207
+37006490	Association	MESH:D001927	3605
+37006490	Association	MESH:C027125	2099
+37006490	Cotreatment	MESH:C027125	MESH:D003907
+37006490	Negative_Correlation	MESH:D003907	MESH:D002249
+37006490	Negative_Correlation	MESH:C027125	MESH:D002249
+37006490	Association	MESH:D002249	207
+37006490	Association	MESH:D002249	3605
+37006490	Negative_Correlation	MESH:C027125	MESH:D001927
+37006490	Association	MESH:C027125	3605
+37006490	Positive_Correlation	MESH:D003566	MESH:D008315
+37006490	Association	MESH:C027125	3320
+37006490	Negative_Correlation	MESH:C027125	MESH:D020521
+37006490	Association	MESH:C027125	207
+37006490	Association	MESH:D002249	2099
+37006490	Association	MESH:D002249	3320
+

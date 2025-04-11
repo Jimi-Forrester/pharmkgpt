@@ -1,0 +1,31 @@
+36938184|t|Logistic Regression and Machine Learning Models for Predicting Whether Intensive Care Patients Who Are Alert and Without Delirium Remain As Such for at Least Two More Days.
+36938184|a|Background Some intensive care unit patients are alert and without delirium for at least two consecutive days. These patients, like other critically ill individuals, are at risk for dignity-related distress. An interval of at least two days would provide for a palliative care multidisciplinary team to be consulted in the late morning or afternoon of day one and visit the next day. An assessment would include the administration of the validated Patient Dignity Inventory in a reflective manner. To determine whether dignity-related distress can be identified and treated during patients' intensive care unit stay, we evaluated whether a substantive fraction of such patients (>=5%) have a substantial (>90%) probability of remaining alert and without delirium in the intensive care unit for at least four consecutive days. Methods The retrospective cohort study used data from one large teaching hospital in the United States of America, from 2012 to June 2022. The inclusion criteria were: a) adults, b) present in an intensive care unit at 12 PM one day and continually so for the next 48 hours, c) during those two days had every Riker sedation-agitation scale score "4, calm and cooperative," and d) during those two days had all Confusion Assessment Method for the Intensive Care Unit (CAM-ICU) scores negative (i.e., no delirium) and all Delirium Observation Screening Scale (DOS) scores less than three (i.e., no delirium). Results Among the 10,314 patients alert and without delirium in an intensive care unit over two-day periods that included three successive 12 PMs, 3,826 (37%) maintained this status for at least two successive 12 PMs. Six patient characteristics (e.g., hemodynamic infusion or ventilatory support) had value in predicting those 37% of patients. However, logistic regression and classification models each predicted a few ( 0.2%) patients with >90% probability of maintaining these criteria. Forecasts were inaccurate for nearly all patients remaining alert and without delirium in the intensive care unit ( 37%) because the models predicted no patient alert, without delirium, and in the intensive care unit for two days would remain so for at least four days. That  63% accuracy was improved upon by random forest machine learning, but only with  3% improvement. Conclusion Although many intensive care unit patients remain alert and without delirium for several consecutive days, each patient has a high daily probability of intensive care unit discharge or deterioration in medical condition. Therefore, the results of our prediction modeling show that care models for the assessment and treatment of patients with intensive care unit-associated dignity-related distress should not rely solely on the intensive care unit team but instead should be taken from the perspective of the entire hospitalization.
+36938184	86	94	Patients	Species	9606
+36938184	121	129	Delirium	Disease	MESH:D003693
+36938184	209	217	patients	Species	9606
+36938184	240	248	delirium	Disease	MESH:D003693
+36938184	290	298	patients	Species	9606
+36938184	311	325	critically ill	Disease	MESH:D016638
+36938184	621	628	Patient	Species	9606
+36938184	754	762	patients	Species	9606
+36938184	842	850	patients	Species	9606
+36938184	927	935	delirium	Disease	MESH:D003693
+36938184	1309	1314	Riker	Chemical	-
+36938184	1324	1333	agitation	Disease	MESH:D011595
+36938184	1502	1510	delirium	Disease	MESH:D003693
+36938184	1520	1528	Delirium	Disease	MESH:D003693
+36938184	1596	1604	delirium	Disease	MESH:D003693
+36938184	1632	1640	patients	Species	9606
+36938184	1659	1667	delirium	Disease	MESH:D003693
+36938184	1829	1836	patient	Species	9606
+36938184	1942	1950	patients	Species	9606
+36938184	2036	2044	patients	Species	9606
+36938184	2139	2147	patients	Species	9606
+36938184	2176	2184	delirium	Disease	MESH:D003693
+36938184	2251	2258	patient	Species	9606
+36938184	2274	2282	delirium	Disease	MESH:D003693
+36938184	2516	2524	patients	Species	9606
+36938184	2550	2558	delirium	Disease	MESH:D003693
+36938184	2594	2601	patient	Species	9606
+36938184	2811	2819	patients	Species	9606
+

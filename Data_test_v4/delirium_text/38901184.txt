@@ -1,0 +1,16 @@
+38901184|t|A feature-aware multimodal framework with auto-fusion for Alzheimer's disease diagnosis.
+38901184|a|Alzheimer's disease (AD), one of the most common dementias, has about 4.6 million new cases yearly worldwide. Due to the significant amount of suspected AD patients, early screening for the disease has become particularly important. There are diversified types of AD diagnosis data, such as cognitive tests, images, and risk factors, many prior investigations have primarily concentrated on integrating only high-dimensional features and simple fusion concatenation, resulting in less-than-optimal outcomes for AD diagnosis. Therefore, We propose an enhanced multimodal AD diagnostic framework comprising a feature-aware module and an automatic model fusion strategy (AMFS). To preserve the correlation and significance features within a low-dimensional space, the feature-aware module employs a low-dimensional SHapley Additive exPlanation (SHAP) boosting feature selection as the initial step, following this analysis, diverse tiers of low-dimensional features are extracted from patients' biological data. Besides, in the high-dimensional stage, the feature-aware module integrates cross-modal attention mechanisms to capture subtle relationships among different cognitive domains, neuroimaging modalities, and risk factors. Subsequently, we integrate the aforementioned feature-aware module with graph convolutional networks (GCN) to address heterogeneous data in multimodal AD, while also possessing the capability to perceive relationships between different modalities. Lastly, our proposed AMFS autonomously learns optimal parameters for aligning two sub-models. The validation tests using two ADNI datasets show the high accuracies of 95.9% and 91.9% respectively, in AD diagnosis. The methods efficiently select features from multimodal AD data, optimizing model fusion for potential clinical assistance in diagnostics.
+38901184	58	77	Alzheimer's disease	Disease	MESH:D000544
+38901184	89	108	Alzheimer's disease	Disease	MESH:D000544
+38901184	110	112	AD	Disease	MESH:D000544
+38901184	138	147	dementias	Disease	MESH:D003704
+38901184	242	244	AD	Disease	MESH:D000544
+38901184	245	253	patients	Species	9606
+38901184	353	355	AD	Disease	MESH:D000544
+38901184	600	602	AD	Disease	MESH:D000544
+38901184	659	661	AD	Disease	MESH:D000544
+38901184	1071	1079	patients	Species	9606
+38901184	1468	1470	AD	Disease	MESH:D000544
+38901184	1765	1767	AD	Disease	MESH:D000544
+38901184	1835	1837	AD	Disease	MESH:D000544
+

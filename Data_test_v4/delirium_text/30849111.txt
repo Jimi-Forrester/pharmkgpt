@@ -1,0 +1,25 @@
+30849111|t|A clinical decision support system learned from data to personalize treatment recommendations towards preventing breast cancer metastasis.
+30849111|a|OBJECTIVE: A Clinical Decision Support System (CDSS) that can amass Electronic Health Record (EHR) and other patient data holds promise to provide accurate classification and guide treatment choices. Our objective is to develop the Decision Support System for Making Personalized Assessments and Recommendations Concerning Breast Cancer Patients (DPAC), which is a CDSS learned from data that recommends the optimal treatment decisions based on a patient's features. METHOD: We developed a Bayesian network architecture called Causal Modeling with Internal Layers (CAMIL), and an algorithm called Treatment Feature Interactions (TFI), which learns from data the interactions needed in a CAMIL model. Using the TFI algorithm, we learned interactions for six treatments from the LSDS-5YDM dataset. We created a CAMIL model using these interactions, resulting in a DPAC which recommends treatments towards preventing 5-year breast cancer metastasis. RESULTS: In a 5-fold cross-validation analysis, we compared the probability of being metastasis free in 5 years for patients who made decisions recommended by DPAC to those who did not. These probabilities are (the probability for those making the decisions appears first): chemotherapy (.938, .872); breast/chest wall radiation (.939, .902); nodal field radiation (.940, .784); antihormone (.941, .906); HER2 inhibitors (.934, .880); neadjuvant therapy (.931, .837). In an application of DPAC to the independent METABRIC dataset, the probabilities for chemotherapy were (.845, .788). DISCUSSION: Patients who took the advice of DPAC had, as a group, notably better outcomes than those who did not. We conclude that DPAC is effective at amassing and analyzing data towards treatment recommendations. Some of the findings in DPAC are controversial. For example, DPAC says that chemotherapy increases the chances of metastasis for many node negative patients. This controversy shows the importance of developing a conclusive version of DPAC to ensure we provide patients with the best patient-specific treatment recommendations.
+30849111	113	137	breast cancer metastasis	Disease	MESH:D001943
+30849111	248	255	patient	Species	9606
+30849111	462	475	Breast Cancer	Disease	MESH:D001943
+30849111	476	484	Patients	Species	9606
+30849111	486	490	DPAC	Chemical	-
+30849111	586	593	patient	Species	9606
+30849111	1001	1005	DPAC	Chemical	-
+30849111	1060	1084	breast cancer metastasis	Disease	MESH:D001943
+30849111	1171	1181	metastasis	Disease	MESH:D009362
+30849111	1202	1210	patients	Species	9606
+30849111	1245	1249	DPAC	Chemical	-
+30849111	1491	1495	HER2	Gene	2064
+30849111	1575	1579	DPAC	Chemical	-
+30849111	1683	1691	Patients	Species	9606
+30849111	1715	1719	DPAC	Chemical	-
+30849111	1802	1806	DPAC	Chemical	-
+30849111	1910	1914	DPAC	Disease	
+30849111	1947	1951	DPAC	Chemical	-
+30849111	2000	2010	metastasis	Disease	MESH:D009362
+30849111	2034	2042	patients	Species	9606
+30849111	2146	2154	patients	Species	9606
+30849111	2169	2176	patient	Species	9606
+

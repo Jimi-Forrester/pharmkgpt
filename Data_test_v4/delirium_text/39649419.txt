@@ -1,0 +1,36 @@
+39649419|t|Exploration of the Key Pathways and Genes Involved in Osteoarthritis Genesis: Evidence from Multiple Platforms and Real-World Validation.
+39649419|a|Background: Osteoarthritis (OA), a degenerative and chronic joint disease, is essential for identifying novel biomarkers for the clinical diagnosis of OA. Methods: We collected 35 OA patients and 32 healthy controls from four clinical cohorts and 8 real-world samples from our institute. The activation status of 7530 signalling pathways was calculated via the gene set enrichment analysis (GSEA) algorithm. Ten machine learning algorithms and 101 algorithm combinations were further applied to recognize the most diagnostic genes. KDELR3 was chosen for further validation via immunohistochemical staining to determine its diagnostic value in real-world samples. Results: Sixteen pathways, namely, the cellular respiration chain, protein transport, lysosomal and endocytosis pathways, were activated in OA patients. A total of 101 types of algorithm combinations were considered for the diagnostic model, and 58 were successfully output. The two-step model of glmBoost plus RF had the highest average AUC value of 0.95 and was composed of LY86, SORL1, KDELR3, CSK, PTGS1, and PTGS2. Preferable consistency of the diagnostic mole and real conditions was observed in all four cohorts (GSE55235: Kappa=1.000, P<0.001; GSE55457: Kappa=0.700, P<0.001; GSE82107: Kappa=0.643, P=0.004; GSE1919: Kappa=1.000, P<0.001). KDELR3 was expressed at higher levels in OA patients than were the other genes, and with the help of immunohistochemistry (IHC), we confirmed that OA patients presented high levels of KDELR3 in synovial tissues. The infiltration of immunocytes, macrophages, and natural killer T cells was high in OA patients. KDELR3 might be involved in the activation and infiltration of effector memory CD4 T cells (Rpearson = 0.58, P < 0.001) and natural killer T cells (Rpearson = 0.53, P < 0.001). Conclusion: We constructed and validated a six-gene diagnostic model for OA patients via machine learning, and KDELR3 emerged as a novel biomarker for OA.
+39649419	54	68	Osteoarthritis	Disease	MESH:D010003
+39649419	150	164	Osteoarthritis	Disease	MESH:D010003
+39649419	166	168	OA	Disease	MESH:D010003
+39649419	173	211	degenerative and chronic joint disease	Disease	MESH:D019636
+39649419	289	291	OA	Disease	MESH:D010003
+39649419	318	320	OA	Disease	MESH:D010003
+39649419	321	329	patients	Species	9606
+39649419	670	676	KDELR3	Gene	11015
+39649419	941	943	OA	Disease	MESH:D010003
+39649419	944	952	patients	Species	9606
+39649419	1177	1181	LY86	Gene	9450
+39649419	1183	1188	SORL1	Gene	6653
+39649419	1190	1196	KDELR3	Gene	11015
+39649419	1198	1201	CSK	Gene	1445
+39649419	1203	1208	PTGS1	Gene	5742
+39649419	1214	1219	PTGS2	Gene	5743
+39649419	1449	1455	KDELR3	Gene	11015
+39649419	1490	1492	OA	Disease	MESH:D010003
+39649419	1493	1501	patients	Species	9606
+39649419	1596	1598	OA	Disease	MESH:D010003
+39649419	1599	1607	patients	Species	9606
+39649419	1633	1639	KDELR3	Gene	11015
+39649419	1746	1748	OA	Disease	MESH:D010003
+39649419	1749	1757	patients	Species	9606
+39649419	1759	1765	KDELR3	Gene	11015
+39649419	1838	1841	CD4	Gene	920
+39649419	2009	2011	OA	Disease	MESH:D010003
+39649419	2012	2020	patients	Species	9606
+39649419	2047	2053	KDELR3	Gene	11015
+39649419	2087	2089	OA	Disease	MESH:D010003
+39649419	Association	MESH:D010003	11015
+39649419	Association	11015	920
+39649419	Association	MESH:D010003	6653
+

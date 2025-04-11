@@ -1,0 +1,41 @@
+39606415|t|c-Triadem: A constrained, explainable deep learning model to identify novel biomarkers in Alzheimer's disease.
+39606415|a|Alzheimer's disease (AD) is a neurodegenerative disorder that requires early diagnosis for effective management. However, issues with currently available diagnostic biomarkers preclude early diagnosis, necessitating the development of alternative biomarkers and methods, such as blood-based diagnostics. We propose c-Triadem (constrained triple-input Alzheimer's disease model), a novel deep neural network to identify potential blood-based biomarkers for AD and predict mild cognitive impairment (MCI) and AD with high accuracy. The model utilizes genotyping data, gene expression data, and clinical information to predict the disease status of participants, i.e., cognitively normal (CN), MCI, or AD. The nodes of the neural network represent genes and their related pathways, and the edges represent known relationships among the genes and pathways. We trained the model with blood genotyping data, microarray, and clinical features from the Alzheimer's Neuroimaging Disease Initiative (ADNI). We demonstrate that our model's performance is superior to previous models with an AUC of 97% and accuracy of 89%. We then identified the most influential genes and clinical features for prediction using SHapley Additive exPlanations (SHAP). Our SHAP analysis shows that CASP9, LCK, and SDC3 SNPs and PINK1, ATG5, and ubiquitin (UBB, UBC) expression have a higher impact on model performance. Our model has facilitated the identification of potential blood-based genetic markers of DNA damage response and mitophagy in affected regions of the brain. The model can be used for detection and biomarker identification in other related dementias. Author Summary: C-Triadem, our novel developed deep neural network, accurately predicts moderate cognitive impairment (MCI) and Alzheimer's disease (AD) while identifying potential blood biomarkers for AD. Current diagnostic methods have limitations, emphasizing the critical need for early AD detection. Our model integrates genetic, gene expression, and clinical data to differentiate among cognitively normal individuals, MCI, and AD cases. Training and validation using Alzheimer's Disease Neuroimaging Initiative (ADNI) data demonstrate superior performance, with a 97% AUC and 89% accuracy, surpassing previous models. SHapley Additive exPlanations (SHAP) analysis highlights key clinical features (e.g., MMSE scores, brain volume) and genes (e.g., CASP9, LCK, SDC3), revealing potential genetic markers and pathways in blood associated with AD. By incorporating Reactome pathways, our approach enhances interpretability, providing insight into the biological context of predictions. In summary, c-Triadem represents a significant advancement in AD diagnostics, enabling earlier and more accurate diagnoses for improved treatment strategies.
+39606415	90	109	Alzheimer's disease	Disease	MESH:D000544
+39606415	111	130	Alzheimer's disease	Disease	MESH:D000544
+39606415	132	134	AD	Disease	MESH:D000544
+39606415	141	167	neurodegenerative disorder	Disease	MESH:D019636
+39606415	462	481	Alzheimer's disease	Disease	MESH:D000544
+39606415	567	569	AD	Disease	MESH:D000544
+39606415	587	607	cognitive impairment	Disease	MESH:D003072
+39606415	609	612	MCI	Disease	MESH:D060825
+39606415	618	620	AD	Disease	MESH:D000544
+39606415	802	805	MCI	Disease	MESH:D060825
+39606415	810	812	AD	Disease	MESH:D000544
+39606415	1056	1088	Alzheimer's Neuroimaging Disease	Disease	MESH:D000544
+39606415	1379	1384	CASP9	Gene	842
+39606415	1386	1389	LCK	Gene	3932
+39606415	1395	1399	SDC3	Gene	9672
+39606415	1409	1414	PINK1	Gene	65018
+39606415	1416	1420	ATG5	Gene	9474
+39606415	1437	1440	UBB	Gene	7314
+39606415	1442	1445	UBC	Gene	7316
+39606415	1740	1749	dementias	Disease	MESH:D003704
+39606415	1848	1868	cognitive impairment	Disease	MESH:D003072
+39606415	1870	1873	MCI	Disease	MESH:D060825
+39606415	1879	1898	Alzheimer's disease	Disease	MESH:D000544
+39606415	1900	1902	AD	Disease	MESH:D000544
+39606415	1953	1955	AD	Disease	MESH:D000544
+39606415	2042	2044	AD	Disease	MESH:D000544
+39606415	2176	2179	MCI	Disease	MESH:D060825
+39606415	2185	2187	AD	Disease	MESH:D000544
+39606415	2225	2244	Alzheimer's Disease	Disease	MESH:D000544
+39606415	2506	2511	CASP9	Gene	842
+39606415	2513	2516	LCK	Gene	3932
+39606415	2518	2522	SDC3	Gene	9672
+39606415	2599	2601	AD	Disease	MESH:D000544
+39606415	2803	2805	AD	Disease	MESH:D000544
+39606415	Association	65018	7314
+39606415	Association	MESH:D000544	65018
+39606415	Association	65018	7316
+39606415	Association	MESH:D000544	9672
+

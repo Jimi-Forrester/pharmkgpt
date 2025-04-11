@@ -1,0 +1,17 @@
+37892871|t|Self-Supervised Contrastive Learning to Predict the Progression of Alzheimer's Disease with 3D Amyloid-PET.
+37892871|a|Early diagnosis of Alzheimer's disease (AD) is an important task that facilitates the development of treatment and prevention strategies, and may potentially improve patient outcomes. Neuroimaging has shown great promise, including the amyloid-PET, which measures the accumulation of amyloid plaques in the brain-a hallmark of AD. It is desirable to train end-to-end deep learning models to predict the progression of AD for individuals at early stages based on 3D amyloid-PET. However, commonly used models are trained in a fully supervised learning manner, and they are inevitably biased toward the given label information. To this end, we propose a selfsupervised contrastive learning method to accurately predict the conversion to AD for individuals with mild cognitive impairment (MCI) with 3D amyloid-PET. The proposed method, SMoCo, uses both labeled and unlabeled data to capture general semantic representations underlying the images. As the downstream task is given as classification of converters vs. non-converters, unlike the general self-supervised learning problem that aims to generate task-agnostic representations, SMoCo additionally utilizes the label information in the pre-training. To demonstrate the performance of our method, we conducted experiments on the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset. The results confirmed that the proposed method is capable of providing appropriate data representations, resulting in accurate classification. SMoCo showed the best classification performance over the existing methods, with AUROC = 85.17%, accuracy = 81.09%, sensitivity = 77.39%, and specificity = 82.17%. While SSL has demonstrated great success in other application domains of computer vision, this study provided the initial investigation of using a proposed self-supervised contrastive learning model, SMoCo, to effectively predict MCI conversion to AD based on 3D amyloid-PET.
+37892871	67	86	Alzheimer's Disease	Disease	MESH:D000544
+37892871	127	146	Alzheimer's disease	Disease	MESH:D000544
+37892871	148	150	AD	Disease	MESH:D000544
+37892871	344	351	amyloid	Disease	MESH:C000718787
+37892871	392	407	amyloid plaques	Disease	MESH:D058225
+37892871	435	437	AD	Disease	MESH:D000544
+37892871	526	528	AD	Disease	MESH:D000544
+37892871	843	845	AD	Disease	MESH:D000544
+37892871	872	892	cognitive impairment	Disease	MESH:D003072
+37892871	894	897	MCI	Disease	MESH:D060825
+37892871	1390	1409	Alzheimer's Disease	Disease	MESH:D000544
+37892871	1987	1990	MCI	Disease	MESH:D060825
+37892871	2005	2007	AD	Disease	MESH:D000544
+37892871	2020	2027	amyloid	Disease	MESH:C000718787
+

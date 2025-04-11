@@ -1,0 +1,10 @@
+31754458|t|A network-based approach to uncover microRNA-mediated disease comorbidities and potential pathobiological implications.
+31754458|a|Disease-disease relationships (e.g., disease comorbidities) play crucial roles in pathobiological manifestations of diseases and personalized approaches to managing those conditions. In this study, we develop a network-based methodology, termed meta-path-based Disease Network (mpDisNet) capturing algorithm, to infer disease-disease relationships by assembling four biological networks: disease-miRNA, miRNA-gene, disease-gene, and the human protein-protein interactome. mpDisNet is a meta-path-based random walk to reconstruct the heterogeneous neighbors of a given node. mpDisNet uses a heterogeneous skip-gram model to solve the network representation of the nodes. We find that mpDisNet reveals high performance in inferring clinically reported disease-disease relationships, outperforming that of traditional gene/miRNA-overlap approaches. In addition, mpDisNet identifies network-based comorbidities for pulmonary diseases driven by underlying miRNA-mediated pathobiological pathways (i.e., hsa-let-7a- or hsa-let-7b-mediated airway epithelial apoptosis and pro-inflammatory cytokine pathways) as derived from the human interactome network analysis. The mpDisNet offers a powerful tool for network-based identification of disease-disease relationships with miRNA-mediated pathobiological pathways.
+31754458	557	562	human	Species	9606
+31754458	1031	1049	pulmonary diseases	Disease	MESH:D008171
+31754458	1133	1143	hsa-let-7b	Gene	406884
+31754458	1189	1201	inflammatory	Disease	MESH:D007249
+31754458	1241	1246	human	Species	9606
+31754458	Association	MESH:D008171	406884
+31754458	Association	MESH:D007249	406884
+

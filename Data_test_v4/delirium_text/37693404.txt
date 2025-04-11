@@ -1,0 +1,56 @@
+37693404|t|VCP increases or decreases tau seeding using specific cofactors.
+37693404|a|Background: Neurodegenerative tauopathies may progress based on seeding by pathological tau assemblies, whereby an aggregate is released from one cell, gains entry to an adjacent or connected cell, and serves as a specific template for its own replication in the cytoplasm. In vitro seeding reactions typically take days, yet seeding into the complex cytoplasmic milieu can happen within hours. A cellular machinery might regulate this process, but potential players are unknown. Methods: We used proximity labeling to identify factors that control seed amplification. We fused split-APEX2 to the C-terminus of tau repeat domain (RD) to reconstitute peroxidase activity upon seeded intracellular tau aggregation. We identified valosin containing protein (VCP/p97) 5h after seeding. Mutations in VCP underlie two neurodegenerative diseases, multisystem proteinopathy and vacuolar tauopathy, but its mechanistic role is unclear. We utilized tau biosensors, a cellular model for tau aggregation, to study the effects of VCP on tau seeding. Results: VCP knockdown reduced tau seeding. However, distinct chemical inhibitors of VCP and the proteasome had opposing effects on aggregation, but only when given <8h of seed exposure. ML-240 increased seeding efficiency ~40x, whereas NMS-873 decreased seeding efficiency by 50%, and MG132 increased seeding ~10x. We screened VCP co-factors in HEK293 biosensor cells by genetic knockout or knockdown. Reduction of ATXN3, NSFL1C, UBE4B, NGLY1, and OTUB1 decreased tau seeding, as did NPLOC4, which also uniquely increased soluble tau levels. Reduction of FAF2 and UBXN6 increased tau seeding. Conclusions: VCP uses distinct cofactors to determine seed replication efficiency, consistent with a dedicated cytoplasmic processing complex that directs seeds towards dissolution vs. amplification.
+37693404	0	3	VCP	Gene	7415
+37693404	27	30	tau	Gene	4137
+37693404	77	106	Neurodegenerative tauopathies	Disease	MESH:D024801
+37693404	153	156	tau	Gene	4137
+37693404	649	654	APEX2	Gene	27301
+37693404	676	679	tau	Gene	4137
+37693404	761	764	tau	Gene	4137
+37693404	792	818	valosin containing protein	Gene	7415
+37693404	820	823	VCP	Gene	7415
+37693404	824	827	p97	Gene	7415
+37693404	860	863	VCP	Gene	7415
+37693404	877	903	neurodegenerative diseases	Disease	MESH:D019636
+37693404	905	930	multisystem proteinopathy	Disease	MESH:C563476
+37693404	935	953	vacuolar tauopathy	Disease	MESH:D024801
+37693404	1004	1007	tau	Gene	4137
+37693404	1041	1044	tau	Gene	4137
+37693404	1082	1085	VCP	Gene	7415
+37693404	1089	1092	tau	Gene	4137
+37693404	1111	1114	VCP	Gene	7415
+37693404	1133	1136	tau	Gene	4137
+37693404	1187	1190	VCP	Gene	7415
+37693404	1289	1295	ML-240	Chemical	-
+37693404	1339	1346	NMS-873	Chemical	MESH:C000623013
+37693404	1388	1393	MG132	Chemical	MESH:C072553
+37693404	1430	1433	VCP	Gene	7415
+37693404	1448	1464	HEK293 biosensor	CellLine	CVCL:0045
+37693404	1518	1523	ATXN3	Gene	4287
+37693404	1525	1531	NSFL1C	Gene	55968
+37693404	1533	1538	UBE4B	Gene	10277
+37693404	1540	1545	NGLY1	Gene	55768
+37693404	1551	1556	OTUB1	Gene	55611
+37693404	1567	1570	tau	Gene	4137
+37693404	1587	1593	NPLOC4	Gene	55666
+37693404	1633	1636	tau	Gene	4137
+37693404	1658	1662	FAF2	Gene	23197
+37693404	1667	1672	UBXN6	Gene	80700
+37693404	1683	1686	tau	Gene	4137
+37693404	1709	1712	VCP	Gene	7415
+37693404	Positive_Correlation	4137	55768
+37693404	Positive_Correlation	4137	55666
+37693404	Positive_Correlation	4137	55968
+37693404	Association	23197	4137
+37693404	Association	MESH:D024801	7415
+37693404	Association	MESH:C563476	7415
+37693404	Negative_Correlation	4137	7415
+37693404	Association	4137	80700
+37693404	Association	27301	4137
+37693404	Positive_Correlation	MESH:C072553	4137
+37693404	Association	MESH:D024801	4137
+37693404	Association	10277	4137
+37693404	Positive_Correlation	4137	4287
+37693404	Association	MESH:D019636	7415
+37693404	Negative_Correlation	4137	55611
+

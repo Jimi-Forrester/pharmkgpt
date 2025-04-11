@@ -1,0 +1,17 @@
+32699826|t|Deep representation learning of electronic health records to unlock patient stratification at scale.
+32699826|a|Deriving disease subtypes from electronic health records (EHRs) can guide next-generation personalized medicine. However, challenges in summarizing and representing patient data prevent widespread practice of scalable EHR-based stratification analysis. Here we present an unsupervised framework based on deep learning to process heterogeneous EHRs and derive patient representations that can efficiently and effectively enable patient stratification at scale. We considered EHRs of 1,608,741 patients from a diverse hospital cohort comprising a total of 57,464 clinical concepts. We introduce a representation learning model based on word embeddings, convolutional neural networks, and autoencoders (i.e., ConvAE) to transform patient trajectories into low-dimensional latent vectors. We evaluated these representations as broadly enabling patient stratification by applying hierarchical clustering to different multi-disease and disease-specific patient cohorts. ConvAE significantly outperformed several baselines in a clustering task to identify patients with different complex conditions, with 2.61 entropy and 0.31 purity average scores. When applied to stratify patients within a certain condition, ConvAE led to various clinically relevant subtypes for different disorders, including type 2 diabetes, Parkinson's disease, and Alzheimer's disease, largely related to comorbidities, disease progression, and symptom severity. With these results, we demonstrate that ConvAE can generate patient representations that lead to clinically meaningful insights. This scalable framework can help better understand varying etiologies in heterogeneous sub-populations and unlock patterns for EHR-based research in the realm of personalized medicine.
+32699826	68	75	patient	Species	9606
+32699826	266	273	patient	Species	9606
+32699826	460	467	patient	Species	9606
+32699826	528	535	patient	Species	9606
+32699826	593	601	patients	Species	9606
+32699826	828	835	patient	Species	9606
+32699826	941	948	patient	Species	9606
+32699826	1048	1055	patient	Species	9606
+32699826	1150	1158	patients	Species	9606
+32699826	1269	1277	patients	Species	9606
+32699826	1392	1407	type 2 diabetes	Disease	MESH:D003924
+32699826	1409	1428	Parkinson's disease	Disease	MESH:D010300
+32699826	1434	1453	Alzheimer's disease	Disease	MESH:D000544
+32699826	1592	1599	patient	Species	9606
+

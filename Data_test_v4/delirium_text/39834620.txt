@@ -1,0 +1,44 @@
+39834620|t|Role of metabolic characteristics in the co-occurrence of insomnia, Alzheimer's disease, and Parkinson's disease: a Mendelian randomization study.
+39834620|a|Objective: There reportedly exists a significant comorbidity between insomnia and neurodegenerative diseases, such as Alzheimer's disease (AD) and Parkinson's disease (PD), indicative of a potential link to serum metabolic dysregulation. Method: To elucidate shared pathophysiological mechanisms between insomnia and AD/PD, we performed comprehensive two-sample Mendelian randomization (MR) analyses, investigating 1,400 serum metabolic characteristics for their causal relationships with the risks of insomnia, AD, widely defined AD (WDAD), and PD. We employed publicly available genetic data; the primary estimate was determined using inverse-variance weighting, supplemented by weighted median, simple mode, weighted mode, and the MR-PRESSO and MR-Egger methods to evaluate heterogeneity and pleiotropy. Results: The ratio of N-palmitoyl-sphingosine to N-palmitoyl-sphinganine is linked to higher risks of insomnia (OR = 1.137, 95% CI = 1.015-1.273, p = 0.026) and AD (OR = 1.090, 95% CI = 1.005-1.183, p = 0.037). The acetylcarnitine to propionylcarnitine ratio is a risk factor for insomnia (OR = 1.190, 95% CI = 1.003-1.370, p = 0.016) but has protective effects against AD (OR = 0.868, 95% CI = 0.784-0.961, p = 0.006) and WDAD (OR = 0.892, 95% CI = 0.817-0.973, p = 0.010). Glutamine conjugate of C7H12O2 levels are associated with reduced risk of insomnia (OR = 0.863, 95% CI = 0.749-0.995, p = 0.042) and PD (OR = 0.856, 95% CI = 0.746-0.981, p = 0.026). Conclusion: Our findings highlight the crucial role of serum metabolic characteristics in the comorbidity of insomnia with neurodegenerative diseases, providing valuable insights into prospective therapeutic targets and diagnostic markers.
+39834620	58	66	insomnia	Disease	MESH:D007319
+39834620	68	87	Alzheimer's disease	Disease	MESH:D000544
+39834620	93	112	Parkinson's disease	Disease	MESH:D010300
+39834620	216	224	insomnia	Disease	MESH:D007319
+39834620	229	255	neurodegenerative diseases	Disease	MESH:D019636
+39834620	265	284	Alzheimer's disease	Disease	MESH:D000544
+39834620	286	288	AD	Disease	MESH:D000544
+39834620	294	313	Parkinson's disease	Disease	MESH:D010300
+39834620	315	317	PD	Disease	MESH:D010300
+39834620	451	459	insomnia	Disease	MESH:D007319
+39834620	464	466	AD	Disease	MESH:D000544
+39834620	467	469	PD	Disease	MESH:D010300
+39834620	649	657	insomnia	Disease	MESH:D007319
+39834620	659	661	AD	Disease	MESH:D000544
+39834620	678	680	AD	Disease	MESH:D000544
+39834620	682	686	WDAD	Disease	MESH:D000544
+39834620	693	695	PD	Disease	MESH:D010300
+39834620	976	999	N-palmitoyl-sphingosine	Chemical	MESH:C097760
+39834620	1003	1026	N-palmitoyl-sphinganine	Chemical	-
+39834620	1056	1064	insomnia	Disease	MESH:D007319
+39834620	1115	1117	AD	Disease	MESH:D000544
+39834620	1169	1184	acetylcarnitine	Chemical	MESH:D000108
+39834620	1188	1206	propionylcarnitine	Chemical	MESH:C003223
+39834620	1234	1242	insomnia	Disease	MESH:D007319
+39834620	1324	1326	AD	Disease	MESH:D000544
+39834620	1377	1381	WDAD	Disease	MESH:D000544
+39834620	1429	1438	Glutamine	Chemical	MESH:D005973
+39834620	1452	1459	C7H12O2	Chemical	-
+39834620	1503	1511	insomnia	Disease	MESH:D007319
+39834620	1562	1564	PD	Disease	MESH:D010300
+39834620	1721	1729	insomnia	Disease	MESH:D007319
+39834620	1735	1761	neurodegenerative diseases	Disease	MESH:D019636
+39834620	Negative_Correlation	MESH:D000108	MESH:D000544
+39834620	Negative_Correlation	MESH:D005973	MESH:D007319
+39834620	Positive_Correlation	MESH:C003223	MESH:D007319
+39834620	Positive_Correlation	MESH:C097760	MESH:D007319
+39834620	Negative_Correlation	MESH:C003223	MESH:D000544
+39834620	Positive_Correlation	MESH:C097760	MESH:D000544
+39834620	Negative_Correlation	MESH:D005973	MESH:D010300
+39834620	Association	MESH:C003223	MESH:D000108
+39834620	Positive_Correlation	MESH:D000108	MESH:D007319
+

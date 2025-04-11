@@ -1,0 +1,12 @@
+35113902|t|The spike-and-slab elastic net as a classification tool in Alzheimer's disease.
+35113902|a|Alzheimer's disease (AD) is the leading cause of dementia and has received considerable research attention, including using neuroimaging biomarkers to classify patients and/or predict disease progression. Generalized linear models, e.g., logistic regression, can be used as classifiers, but since the spatial measurements are correlated and often outnumber subjects, penalized and/or Bayesian models will be identifiable, while classical models often will not. Many useful models, e.g., the elastic net and spike-and-slab lasso, perform automatic variable selection, which removes extraneous predictors and reduces model variance, but neither model exploits spatial information in selecting variables. Spatial information can be incorporated into variable selection by placing intrinsic autoregressive priors on the logit probabilities of inclusion within a spike-and-slab elastic net framework. We demonstrate the ability of this framework to improve classification performance by using cortical thickness and tau-PET images from the Alzheimer's Disease Neuroimaging Initiative (ADNI) to classify subjects as cognitively normal or having dementia, and by using a simulation study to examine model performance using finer resolution images.
+35113902	59	78	Alzheimer's disease	Disease	MESH:D000544
+35113902	80	99	Alzheimer's disease	Disease	MESH:D000544
+35113902	101	103	AD	Disease	MESH:D000544
+35113902	129	137	dementia	Disease	MESH:D003704
+35113902	240	248	patients	Species	9606
+35113902	1091	1094	tau	Gene	4137
+35113902	1115	1134	Alzheimer's Disease	Disease	MESH:D000544
+35113902	1219	1227	dementia	Disease	MESH:D003704
+35113902	Association	MESH:D003704	4137
+

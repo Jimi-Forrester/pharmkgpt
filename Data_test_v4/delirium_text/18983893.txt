@@ -1,0 +1,54 @@
+18983893|t|Association between NR2B subunit gene (GRIN2B) promoter polymorphisms and sporadic Alzheimer's disease in the North Chinese population.
+18983893|a|N-methyl-d-aspartate (NMDA) receptor plays a crucial role in learning, memory and information processing of human brain. Its dysfunction is related to the pathogenesis of Alzheimer's disease (AD). We detected four polymorphisms of the promoter regions of the human NMDA receptor 2B (NR2B) subunit gene (GRIN2B) in 362 AD patients and 334 healthy in North Han Chinese populations, these were -200T/G (rs1019385), -421C/A (rs3764028), -1447T/C (ENS10557853), and -1497G/A (rs12368476). Genetic analysis confirmed that there were significant differences in genotype (P=0.029) and allele (P=0.010) frequencies for -421C/A between SAD and control. In the subjects without APOE varepsilon4 allele, these difference remained significant (genotype P=0.012, allele P=0.004). The -421CC genotype was about 1.5 fold increasing risk compared with CA+AA genotypes (OR=1.517, 95% CI 1.077-2.137, P=0.017). Luciferase reporter assay showed a 34.69-39.79% decrease in transcriptional activity for -421C allele of GRIN2B promoter compared with -421A in SH-SY5Y and HeLa cell lines. Our study suggests that the -421C allele may induce lower GRIN2B transcriptional activity and NR2B protein expression, thus it is associated with AD.
+18983893	20	24	NR2B	Gene	2904
+18983893	39	45	GRIN2B	Gene	2904
+18983893	83	102	Alzheimer's disease	Disease	MESH:D000544
+18983893	244	249	human	Species	9606
+18983893	307	326	Alzheimer's disease	Disease	MESH:D000544
+18983893	328	330	AD	Disease	MESH:D000544
+18983893	395	400	human	Species	9606
+18983893	401	417	NMDA receptor 2B	Gene	2904
+18983893	419	423	NR2B	Gene	2904
+18983893	439	445	GRIN2B	Gene	2904
+18983893	454	456	AD	Disease	MESH:D000544
+18983893	457	465	patients	Species	9606
+18983893	527	534	-200T/G	DNAMutation	tmVar:c|SUB|T|-200|G;HGVS:c.-200T>G;VariantGroup:1;CorrespondingGene:2904;RS#:1019385;CorrespondingSpecies:9606;CA#:13663072
+18983893	536	545	rs1019385	SNP	tmVar:rs1019385;VariantGroup:1;CorrespondingGene:2904;RS#:1019385;CorrespondingSpecies:9606
+18983893	548	555	-421C/A	DNAMutation	tmVar:c|SUB|C|-421|A;HGVS:c.-421C>A;VariantGroup:0;RS#:3764028;CA#:16437056
+18983893	557	566	rs3764028	SNP	tmVar:rs3764028;VariantGroup:0;RS#:3764028
+18983893	569	577	-1447T/C	DNAMutation	tmVar:c|SUB|T|-1447|C;HGVS:c.-1447T>C;VariantGroup:3;CorrespondingGene:348;RS#:1205074358;CorrespondingSpecies:9606
+18983893	597	605	-1497G/A	DNAMutation	tmVar:c|SUB|G|-1497|A;HGVS:c.-1497G>A;VariantGroup:2;RS#:12368476
+18983893	607	617	rs12368476	SNP	tmVar:rs12368476;VariantGroup:2;RS#:12368476
+18983893	746	753	-421C/A	DNAMutation	tmVar:c|SUB|C|-421|A;HGVS:c.-421C>A;VariantGroup:0;RS#:3764028;CA#:16437056
+18983893	762	765	SAD	Disease	MESH:D003865
+18983893	803	807	APOE	Gene	348
+18983893	906	912	-421CC	DNAMutation	tmVar:c|Allele|CC|-421;VariantGroup:0;RS#:3764028
+18983893	1117	1122	-421C	DNAMutation	tmVar:c|Allele|C|-421;VariantGroup:0;RS#:3764028
+18983893	1133	1139	GRIN2B	Gene	2904
+18983893	1163	1168	-421A	DNAMutation	tmVar:c|Allele|A|-421;VariantGroup:0;RS#:3764028
+18983893	1172	1179	SH-SY5Y	CellLine	CVCL:0019
+18983893	1184	1188	HeLa	CellLine	CVCL:0030
+18983893	1229	1234	-421C	DNAMutation	tmVar:c|Allele|C|-421;VariantGroup:0;RS#:3764028
+18983893	1259	1265	GRIN2B	Gene	2904
+18983893	1295	1299	NR2B	Gene	2904
+18983893	1347	1349	AD	Disease	MESH:D000544
+18983893	Association	MESH:D000544	RS#:1019385;HGVS:c.-200T>G;CorrespondingGene:2904
+18983893	Positive_Correlation	RS#:3764028;HGVS:c.-421C>A	MESH:D000544
+18983893	Association	RS#:3764028;HGVS:c.-421C>A	MESH:D003865
+18983893	Positive_Correlation	RS#:1205074358;HGVS:c.-1447T>C;CorrespondingGene:348	MESH:D000544
+18983893	Positive_Correlation	RS#:3764028	MESH:D003865
+18983893	Association	MESH:D003865	RS#:1019385;HGVS:c.-200T>G;CorrespondingGene:2904
+18983893	Association	MESH:D003865	RS#:12368476;HGVS:c.-1497G>A
+18983893	Association	MESH:D000544	2904
+18983893	Positive_Correlation	RS#:12368476;HGVS:c.-1497G>A	MESH:D000544
+18983893	Positive_Correlation	RS#:3764028	MESH:D000544
+18983893	Positive_Correlation	MESH:D000544	RS#:12368476;HGVS:c.-1497G>A
+18983893	Association	MESH:D000544	RS#:12368476
+18983893	Association	MESH:D003865	RS#:12368476
+18983893	Positive_Correlation	MESH:D003865	RS#:3764028
+18983893	Association	MESH:D003865	2904
+18983893	Positive_Correlation	MESH:D000544	RS#:3764028
+18983893	Association	MESH:D000544	2904
+18983893	Association	MESH:D000544	348
+18983893	Association	MESH:D003865	2904
+

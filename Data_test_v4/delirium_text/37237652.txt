@@ -1,0 +1,14 @@
+37237652|t|Multimodal Stereotactic Brain Tumor Segmentation Using 3D-Znet.
+37237652|a|Stereotactic brain tumor segmentation based on 3D neuroimaging data is a challenging task due to the complexity of the brain architecture, extreme heterogeneity of tumor malformations, and the extreme variability of intensity signal and noise distributions. Early tumor diagnosis can help medical professionals to select optimal medical treatment plans that can potentially save lives. Artificial intelligence (AI) has previously been used for automated tumor diagnostics and segmentation models. However, the model development, validation, and reproducibility processes are challenging. Often, cumulative efforts are required to produce a fully automated and reliable computer-aided diagnostic system for tumor segmentation. This study proposes an enhanced deep neural network approach, the 3D-Znet model, based on the variational autoencoder-autodecoder Znet method, for segmenting 3D MR (magnetic resonance) volumes. The 3D-Znet artificial neural network architecture relies on fully dense connections to enable the reuse of features on multiple levels to improve model performance. It consists of four encoders and four decoders along with the initial input and the final output blocks. Encoder-decoder blocks in the network include double convolutional 3D layers, 3D batch normalization, and an activation function. These are followed by size normalization between inputs and outputs and network concatenation across the encoding and decoding branches. The proposed deep convolutional neural network model was trained and validated using a multimodal stereotactic neuroimaging dataset (BraTS2020) that includes multimodal tumor masks. Evaluation of the pretrained model resulted in the following dice coefficient scores: Whole Tumor (WT) = 0.91, Tumor Core (TC) = 0.85, and Enhanced Tumor (ET) = 0.86. The performance of the proposed 3D-Znet method is comparable to other state-of-the-art methods. Our protocol demonstrates the importance of data augmentation to avoid overfitting and enhance model performance.
+37237652	24	35	Brain Tumor	Disease	MESH:D001932
+37237652	77	88	brain tumor	Disease	MESH:D001932
+37237652	228	247	tumor malformations	Disease	MESH:D009369
+37237652	328	333	tumor	Disease	MESH:D009369
+37237652	518	523	tumor	Disease	MESH:D009369
+37237652	770	775	tumor	Disease	MESH:D009369
+37237652	1691	1696	tumor	Disease	MESH:D009369
+37237652	1796	1801	Tumor	Disease	MESH:D009369
+37237652	1815	1820	Tumor	Disease	MESH:D009369
+37237652	1852	1857	Tumor	Disease	MESH:D009369
+37237652	1859	1861	ET	Disease	MESH:C564835
+

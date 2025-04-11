@@ -1,0 +1,18 @@
+35966369|t|COVID-19: respiratory disease diagnosis with regularized deep convolutional neural network using human respiratory sounds.
+35966369|a|Human respiratory sound auscultation (HRSA) parameters have been the real choice for detecting human respiratory diseases in the last few years. It is a challenging task to extract the respiratory sound features from the breath, voice, and cough sounds. The existing methods failed to extract the sound features to diagnose respiratory diseases. We proposed and evaluated a new regularized deep convolutional neural network (RDCNN) architecture to accept COVID-19 sound data and essential sound features. The proposed architecture is trained with the COVID-19 sound data sets and gives a better learning curve than any other state-of-the-art model. We examine the performance of RDCNN with Max-Pooling (Model-1) and without Max-Pooling (Model-2) functions. In this work, we observed that RDCNN model performance with three sound feature extraction methods [Soft-Mel frequency channel, Log-Mel frequency spectrum, and Modified Mel-frequency Cepstral Coefficient (MMFCC) spectrum] for COVID-19 sound data sets (KDD-data, ComParE2021-CCS-CSS-Data, and NeurlPs2021-data). To amplify the models' performance, we applied the augmentation technique along with regularization. We have also carried out this work to estimate the mutation of SARS-CoV-2 in the five waves using prognostic models (fractal-based). The proposed model achieves state-of-the-art performance on the COVID-19 sound data set to identify COVID-19 disease symptoms. The model's learnable parameter gradients have vanished in the intermediate layers while optimizing the prediction error which is addressed with our proposed RDCNN model. Our experiments suggested that 3 x 3 kernel size for regularized deep CNN (without max-pooling) shows 2-3% better classification accuracy compared to RDCNN with max-pooling. The experimental results suggest that this new approach may achieve the finest results on respiratory diseases.
+35966369	0	8	COVID-19	Disease	MESH:D000086382
+35966369	10	29	respiratory disease	Disease	MESH:D012140
+35966369	97	102	human	Species	9606
+35966369	123	128	Human	Species	9606
+35966369	218	223	human	Species	9606
+35966369	224	244	respiratory diseases	Disease	MESH:D012140
+35966369	363	368	cough	Disease	MESH:D003371
+35966369	447	467	respiratory diseases	Disease	MESH:D012140
+35966369	578	586	COVID-19	Disease	MESH:D000086382
+35966369	674	682	COVID-19	Disease	MESH:D000086382
+35966369	1106	1114	COVID-19	Disease	MESH:D000086382
+35966369	1355	1365	SARS-CoV-2	Species	2697049
+35966369	1489	1497	COVID-19	Disease	MESH:D000086382
+35966369	1525	1541	COVID-19 disease	Disease	MESH:D000086382
+35966369	1987	2007	respiratory diseases	Disease	MESH:D012140
+

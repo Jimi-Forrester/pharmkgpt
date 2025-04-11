@@ -1,0 +1,24 @@
+38066432|t|Multi-parametric radiomics of conventional T1 weighted and susceptibility-weighted imaging for differential diagnosis of idiopathic Parkinson's disease and multiple system atrophy.
+38066432|a|OBJECTIVES: This study aims to investigate the potential of radiomics with multiple parameters from conventional T1 weighted imaging (T1WI) and susceptibility weighted imaging (SWI) in distinguishing between idiopathic Parkinson's disease (PD) and multiple system atrophy (MSA). METHODS: A total of 201 participants, including 57 patients with PD, 74 with MSA, and 70 healthy control (HCs) individuals, underwent T1WI and SWI scans. From the 12 subcortical nuclei (e.g. red nucleus, substantia nigra, subthalamic nucleus, putamen, globus pallidus, and caudate nucleus), 2640 radiomic features were extracted from both T1WI and SWI scans. Three classification models - logistic regression (LR), support vector machine (SVM), and light gradient boosting machine (LGBM) - were used to distinguish between MSA and PD, as well as among MSA, PD, and HC. These classifications were based on features extracted from T1WI, SWI, and a combination of T1WI and SWI. Five-fold cross-validation was used to evaluate the performance of the models with metrics such as sensitivity, specificity, accuracy, and area under the receiver operating curve (AUC). During each fold, the ANOVA and least absolute shrinkage and selection operator (LASSO) methods were used to identify the most relevant subset of features for the model training process. RESULTS: The LGBM model trained by the features combination of T1WI and SWI exhibited the most outstanding differential performance in both the three-class classification task of MSA vs. PD vs. HC and the binary classification task of MSA vs. PD, with an accuracy of 0.814 and 0.854, and an AUC of 0.904 and 0.881, respectively. The texture-based differences (GLCM) of the SN and the shape-based differences of the GP were highly effective in discriminating between the three classes and two classes, respectively. CONCLUSIONS: Radiomic features combining T1WI and SWI can achieve a satisfactory differential diagnosis for PD, MSA, and HC groups, as well as for PD and MSA groups, thus providing a useful tool for clinical decision-making based on routine MRI sequences.
+38066432	121	151	idiopathic Parkinson's disease	Disease	MESH:D010300
+38066432	156	179	multiple system atrophy	Disease	MESH:D019578
+38066432	389	419	idiopathic Parkinson's disease	Disease	MESH:D010300
+38066432	421	423	PD	Disease	MESH:D010300
+38066432	429	452	multiple system atrophy	Disease	MESH:D019578
+38066432	454	457	MSA	Disease	MESH:D019578
+38066432	511	519	patients	Species	9606
+38066432	525	527	PD	Disease	MESH:D010300
+38066432	537	540	MSA	Disease	MESH:D019578
+38066432	983	986	MSA	Disease	MESH:D019578
+38066432	991	993	PD	Disease	MESH:D010300
+38066432	1012	1015	MSA	Disease	MESH:D019578
+38066432	1017	1019	PD	Disease	MESH:D010300
+38066432	1687	1690	MSA	Disease	MESH:D019578
+38066432	1695	1697	PD	Disease	MESH:D010300
+38066432	1743	1746	MSA	Disease	MESH:D019578
+38066432	1751	1753	PD	Disease	MESH:D010300
+38066432	2131	2133	PD	Disease	MESH:D010300
+38066432	2135	2138	MSA	Disease	MESH:D019578
+38066432	2170	2172	PD	Disease	MESH:D010300
+38066432	2177	2180	MSA	Disease	MESH:D019578
+

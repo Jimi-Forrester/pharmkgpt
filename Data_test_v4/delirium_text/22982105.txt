@@ -1,0 +1,38 @@
+22982105|t|Identification of gene pathways implicated in Alzheimer's disease using longitudinal imaging phenotypes with sparse regression.
+22982105|a|We present a new method for the detection of gene pathways associated with a multivariate quantitative trait, and use it to identify causal pathways associated with an imaging endophenotype characteristic of longitudinal structural change in the brains of patients with Alzheimer's disease (AD). Our method, known as pathways sparse reduced-rank regression (PsRRR), uses group lasso penalised regression to jointly model the effects of genome-wide single nucleotide polymorphisms (SNPs), grouped into functional pathways using prior knowledge of gene-gene interactions. Pathways are ranked in order of importance using a resampling strategy that exploits finite sample variability. Our application study uses whole genome scans and MR images from 99 probable AD patients and 164 healthy elderly controls in the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. 66,182 SNPs are mapped to 185 gene pathways from the KEGG pathway database. Voxel-wise imaging signatures characteristic of AD are obtained by analysing 3D patterns of structural change at 6, 12 and 24 months relative to baseline. High-ranking, AD endophenotype-associated pathways in our study include those describing insulin signalling, vascular smooth muscle contraction and focal adhesion. All of these have been previously implicated in AD biology. In a secondary analysis, we investigate SNPs and genes that may be driving pathway selection. High ranking genes include a number previously linked in gene expression studies to beta-amyloid plaque formation in the AD brain (PIK3R3,PIK3CG,PRKCAandPRKCB), and to AD related changes in hippocampal gene expression (ADCY2, ACTN1, ACACA, and GNAI1). Other high ranking previously validated AD endophenotype-related genes include CR1, TOMM40 and APOE.
+22982105	46	65	Alzheimer's disease	Disease	MESH:D000544
+22982105	384	392	patients	Species	9606
+22982105	398	417	Alzheimer's disease	Disease	MESH:D000544
+22982105	419	421	AD	Disease	MESH:D000544
+22982105	887	889	AD	Disease	MESH:D000544
+22982105	890	898	patients	Species	9606
+22982105	939	958	Alzheimer's Disease	Disease	MESH:D000544
+22982105	1124	1126	AD	Disease	MESH:D000544
+22982105	1245	1247	AD	Disease	MESH:D000544
+22982105	1320	1327	insulin	Gene	3630
+22982105	1443	1445	AD	Disease	MESH:D000544
+22982105	1670	1672	AD	Disease	MESH:D000544
+22982105	1680	1693	PIK3R3,PIK3CG	Gene	8503;5294
+22982105	1694	1707	PRKCAandPRKCB	Gene	5578;5579
+22982105	1717	1719	AD	Disease	MESH:D000544
+22982105	1768	1773	ADCY2	Gene	108
+22982105	1775	1780	ACTN1	Gene	87
+22982105	1782	1787	ACACA	Gene	31
+22982105	1793	1798	GNAI1	Gene	2770
+22982105	1841	1843	AD	Disease	MESH:D000544
+22982105	1880	1883	CR1	Gene	1378
+22982105	1885	1891	TOMM40	Gene	10452
+22982105	1896	1900	APOE	Gene	348
+22982105	Association	MESH:D000544	8503
+22982105	Association	MESH:D000544	2770
+22982105	Association	MESH:D000544	10452
+22982105	Association	MESH:D000544	1378
+22982105	Association	MESH:D000544	5579
+22982105	Association	MESH:D000544	5578
+22982105	Association	MESH:D000544	348
+22982105	Association	MESH:D000544	87
+22982105	Association	MESH:D000544	108
+22982105	Association	MESH:D000544	31
+22982105	Association	MESH:D000544	5294
+22982105	Association	MESH:D000544	3630
+

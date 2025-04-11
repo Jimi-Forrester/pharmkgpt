@@ -1,0 +1,28 @@
+39862740|t|Specific Rosetta-based protein-peptide prediction protocol allows the design of novel cholinesterase inhibitor peptides.
+39862740|a|The search for novel cholinesterase inhibitors is essential for advancing treatments for neurodegenerative disorders such as Alzheimer's disease (AD). In this study, we employed the Rosetta pepspec module, originally developed for designing peptides targeting protein-protein interactions, to design de novo peptides targeting the peripheral aromatic site (PAS) of acetylcholinesterase (AChE) and butyrylcholinesterase (BChE). A total of nine peptides were designed for human AChE (hAChE), T. californica AChE (TcAChE), and human BChE (hBChE). These peptides were synthesized using Fmoc-SPPS and tested in vitro using Ellman's reaction to evaluate their inhibitory potency. Peptide 11tA, designed for TcAChE, exhibited potent inhibition of hAChE (IC50 = 1.21 +- 0.25 microM) and demonstrated strong antioxidant activity against DPPH radicals and lipid peroxidation, making it a promising multitherapeutic candidate for AD. Peptide 11hB, designed for hBChE, showed the highest inhibitory activity against hBChE, with a Ki of 12.69 +- 1.27 microM, making it the most potent natural amino acid peptide reported against hBChE. The computational protocol effectively distinguished the specific characteristics of each enzyme target. Toxicity assessments, including hemolysis tests and A. salina lethality assays, revealed no toxic effects at low concentrations, further supporting the potential of these peptides for peptide-based drug development in AD. This study underscores the growing potential of peptides as alternatives to small-molecule drugs. It demonstrates that computational protocols for protein-protein interactions can be successfully adapted to design high-affinity peptide inhibitors.
+39862740	86	100	cholinesterase	Gene	590
+39862740	142	156	cholinesterase	Gene	590
+39862740	210	237	neurodegenerative disorders	Disease	MESH:D019636
+39862740	246	265	Alzheimer's disease	Disease	MESH:D000544
+39862740	267	269	AD	Disease	MESH:D000544
+39862740	486	506	acetylcholinesterase	Gene	43
+39862740	508	512	AChE	Gene	43
+39862740	518	539	butyrylcholinesterase	Gene	590
+39862740	541	545	BChE	Gene	590
+39862740	591	596	human	Species	9606
+39862740	597	601	AChE	Gene	43
+39862740	626	630	AChE	Gene	43
+39862740	645	650	human	Species	9606
+39862740	651	655	BChE	Gene	590
+39862740	703	712	Fmoc-SPPS	Chemical	-
+39862740	803	807	11tA	Chemical	-
+39862740	949	962	DPPH radicals	Chemical	-
+39862740	967	972	lipid	Chemical	MESH:D008055
+39862740	1040	1042	AD	Disease	MESH:D000544
+39862740	1052	1056	11hB	Chemical	-
+39862740	1349	1357	Toxicity	Disease	MESH:D064420
+39862740	1381	1390	hemolysis	Disease	MESH:D006461
+39862740	1401	1410	A. salina	Species	400392
+39862740	1567	1569	AD	Disease	MESH:D000544
+39862740	Association	MESH:D000544	590
+

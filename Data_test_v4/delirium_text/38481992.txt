@@ -1,0 +1,40 @@
+38481992|t|Machine learning and experimental validation identified autophagy signature in hepatic fibrosis.
+38481992|a|Background: The molecular mechanisms of hepatic fibrosis (HF), closely related to autophagy, remain unclear. This study aimed to investigate autophagy characteristics in HF. Methods: Gene expression profiles (GSE6764, GSE49541 and GSE84044) were downloaded, normalized, and merged. Autophagy-related differentially expressed genes (ARDEGs) were determined using the limma R package and the Wilcoxon rank sum test and then analyzed by GO, KEGG, GSEA and GSVA. The infiltration of immune cells, molecular subtypes and immune types of healthy control (HC) and HF were analyzed. Machine learning was carried out with two methods, by which, core genes were obtained. Models of liver fibrosis in vivo and in vitro were constructed to verify the expression of core genes and corresponding immune cells. Results: A total of 69 ARDEGs were identified. Series functional cluster analysis showed that ARDEGs were significantly enriched in autophagy and immunity. Activated CD4 T cells, CD56bright natural killer cells, CD56dim natural killer cells, eosinophils, macrophages, mast cells, neutrophils, and type 17 T helper (Th17) cells showed significant differences in infiltration between HC and HF groups. Among ARDEGs, three core genes were identified, that were ATG5, RB1CC1, and PARK2. Considerable changes in the infiltration of immune cells were observed at different expression levels of the three core genes, among which the expression of RB1CC1 was significantly associated with the infiltration of macrophage, Th17 cell, natural killer cell and CD56dim natural killer cell. In the mouse liver fibrosis experiment, ATG5, RB1CC1, and PARK2 were at higher levels in HF group than those in HC group. Compared with HC group, HF group showed low positive area in F4/80, IL-17 and CD56, indicating decreased expression of macrophage, Th17 cell, natural killer cell and CD56dim natural killer cell. Meanwhile, knocking down RB1CC1 was found to inhibit the activation of hepatic stellate cells and alleviate liver fibrosis. Conclusion: ATG5, RB1CC1, and PARK2 are promising autophagy-related therapeutic biomarkers for HF. This is the first study to identify RB1CC1 in HF, which may promote the progression of liver fibrosis by regulating macrophage, Th17 cell, natural killer cell and CD56dim natural killer cell.
+38481992	79	95	hepatic fibrosis	Disease	MESH:D008103
+38481992	137	153	hepatic fibrosis	Disease	MESH:D008103
+38481992	155	157	HF	Disease	MESH:D008103
+38481992	267	269	HF	Disease	MESH:D008103
+38481992	654	656	HF	Disease	MESH:D008103
+38481992	769	783	liver fibrosis	Disease	MESH:D008103
+38481992	1059	1062	CD4	Gene	12504
+38481992	1282	1284	HF	Disease	MESH:D008103
+38481992	1351	1355	ATG5	Gene	11793
+38481992	1357	1363	RB1CC1	Gene	12421
+38481992	1369	1374	PARK2	Gene	50873
+38481992	1533	1539	RB1CC1	Gene	12421
+38481992	1677	1682	mouse	Species	10090
+38481992	1683	1697	liver fibrosis	Disease	MESH:D008103
+38481992	1710	1714	ATG5	Gene	11793
+38481992	1716	1722	RB1CC1	Gene	12421
+38481992	1728	1733	PARK2	Gene	50873
+38481992	1759	1761	HF	Disease	MESH:D008103
+38481992	1816	1818	HF	Disease	MESH:D008103
+38481992	1853	1858	F4/80	Gene	13733
+38481992	1860	1865	IL-17	Gene	16171
+38481992	1870	1874	CD56	Gene	17967
+38481992	2012	2018	RB1CC1	Gene	12421
+38481992	2095	2109	liver fibrosis	Disease	MESH:D008103
+38481992	2123	2127	ATG5	Gene	11793
+38481992	2129	2135	RB1CC1	Gene	12421
+38481992	2141	2146	PARK2	Gene	50873
+38481992	2206	2208	HF	Disease	MESH:D008103
+38481992	2246	2252	RB1CC1	Gene	12421
+38481992	2256	2258	HF	Disease	MESH:D008103
+38481992	2297	2311	liver fibrosis	Disease	MESH:D008103
+38481992	Association	MESH:D008103	16171
+38481992	Association	MESH:D008103	50873
+38481992	Association	MESH:D008103	11793
+38481992	Association	MESH:D008103	12421
+38481992	Association	MESH:D008103	13733
+38481992	Association	MESH:D008103	12504
+

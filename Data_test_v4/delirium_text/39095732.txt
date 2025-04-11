@@ -1,0 +1,28 @@
+39095732|t|Exploring the mechanism of Lianhuaqingwen (LHQW) in treating chronic bronchitis based on network pharmacology and experimental validation.
+39095732|a|BACKGROUND: Lianhuaqingwen (LHQW) has been used in the treatment of chronic bronchitis, but the precise mechanism through which LHQW exhibits its anti-inflammatory effects in this context is not yet fully understood. The aim of this study was to investigate the active ingredients and signaling pathways responsible for LHQW's effectiveness in managing chronic bronchitis. METHODS: The research leveraged the TCMSP database to determine the active compounds and drug targets of LHQW. In parallel, the GeneCards, DrugBank, and PharmGkb databases were used to uncover targets pertinent to chronic bronchitis. To discern the potential mechanisms by which LHQW's active ingredients might treat chronic bronchitis, Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses were performed. Network pharmacology facilitated the construction of a drug-active ingredient-disease target network, aiding in forecasting the core targets for chronic bronchitis treatment by LHQW. Subsequently, molecular docking techniques alongside in vitro experiments were applied to confirm the interactions between the active ingredients and the primary targets. RESULTS: A total of 157 active ingredients, 225 potential drug targets, and 594 bronchitis-related targets were derived from various databases. Following this, 76 potential gene targets were pinpointed by integrating drug and related targets. GO and KEGG enrichment analyses were employed to identify key pathways involved in LHQW's mechanism for treating chronic bronchitis. By constructing a protein-protein interaction (PPI) network for the 76 potential gene targets, four core targets (TNF, IL6, IFNG, and STAT3) were identified as primarily involved in responses to lipopolysaccharide, the TNF pathway, and the JAK-STAT pathway. Molecular docking results revealed a favorable affinity between multiple active ingredients of LHQW and the four core targets, suggesting that the therapeutic effects are mediated through the inhibition of inflammatory responses and signaling pathways. Interestingly, quercetin, an active ingredient of LHQW, was observed to bind to all four core targets simultaneously. Furthermore, cell experiment and western blot analysis indicated that both LHQW and quercetin exhibit anti-inflammatory effects by targeting the four core proteins and the JAK-STAT pathways. CONCLUSION: This research emphasizes the diverse active ingredients, targets, channels, and pathways of LHQW in the treatment of chronic bronchitis, providing important perspectives for the creation of novel therapeutic drugs and clinical uses.
+39095732	61	79	chronic bronchitis	Disease	MESH:D029481
+39095732	207	225	chronic bronchitis	Disease	MESH:D029481
+39095732	290	302	inflammatory	Disease	MESH:D007249
+39095732	492	510	chronic bronchitis	Disease	MESH:D029481
+39095732	726	744	chronic bronchitis	Disease	MESH:D029481
+39095732	829	847	chronic bronchitis	Disease	MESH:D029481
+39095732	1100	1118	chronic bronchitis	Disease	MESH:D029481
+39095732	1389	1399	bronchitis	Disease	MESH:D001991
+39095732	1665	1683	chronic bronchitis	Disease	MESH:D029481
+39095732	1799	1802	TNF	Gene	7124
+39095732	1804	1807	IL6	Gene	3569
+39095732	1809	1813	IFNG	Gene	3458
+39095732	1819	1824	STAT3	Gene	6774
+39095732	1880	1898	lipopolysaccharide	Chemical	MESH:D008070
+39095732	1904	1907	TNF	Gene	7124
+39095732	2149	2161	inflammatory	Disease	MESH:D007249
+39095732	2211	2220	quercetin	Chemical	MESH:D011794
+39095732	2398	2407	quercetin	Chemical	MESH:D011794
+39095732	2421	2433	inflammatory	Disease	MESH:D007249
+39095732	2634	2652	chronic bronchitis	Disease	MESH:D029481
+39095732	Negative_Correlation	MESH:D011794	7124
+39095732	Association	MESH:D008070	7124
+39095732	Association	MESH:D008070	3569
+39095732	Association	MESH:D008070	6774
+39095732	Association	MESH:D008070	3458
+

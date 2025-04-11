@@ -1,0 +1,20 @@
+37715189|t|A nomogram for predicting sepsis-associated delirium: a retrospective study in MIMIC III.
+37715189|a|OBJECTIVE: To develop a nomogram for predicting the occurrence of sepsis-associated delirium (SAD). MATERIALS AND METHODS: Data from a total of 642 patients were retrieved from the Medical Information Mart for Intensive Care (MIMIC III) database to build a prediction model. Multivariate logistic regression was performed to identify independent predictors and establish a nomogram to predict the occurrence of SAD. The performance of the nomogram was assessed in terms of discrimination and calibration by bootstrapping with 1000 resamples. RESULTS: Multivariate logistic regression identified 4 independent predictors for patients with SAD, including Sepsis-related Organ Failure Assessment(SOFA) (p = 0.004; OR: 1.131; 95% CI 1.040 to 1.231), mechanical ventilation (P < 0.001; OR: 3.710; 95% CI 2.452 to 5.676), phosphate (P = 0.047; OR: 1.165; 95% CI 1.003 to 1.358), and lactate (P = 0.023; OR: 1.135; 95% CI 1.021 to 1.270) within 24 h of intensive care unit (ICU) admission. The area under the curve (AUC) of the predictive model was 0.742 in the training set and 0.713 in the validation set. The Hosmer - Lemeshow test showed that the model was a good fit (p = 0.471). The calibration curve of the predictive model was close to the ideal curve in both the training and validation sets. The DCA curve also showed that the predictive nomogram was clinically useful. CONCLUSION: We constructed a nomogram for the personalized prediction of delirium in sepsis patients, which had satisfactory performance and clinical utility and thus could help clinicians identify patients with SAD in a timely manner, perform early intervention, and improve their neurological outcomes.
+37715189	26	32	sepsis	Disease	MESH:D018805
+37715189	44	52	delirium	Disease	MESH:D003693
+37715189	79	84	MIMIC	Disease	
+37715189	156	163	sepsis-	Disease	MESH:D018805
+37715189	174	182	delirium	Disease	MESH:D003693
+37715189	184	187	SAD	Disease	MESH:D065166
+37715189	316	321	MIMIC	Disease	
+37715189	501	504	SAD	Disease	MESH:D065166
+37715189	728	731	SAD	Disease	MESH:D065166
+37715189	743	771	Sepsis-related Organ Failure	Disease	MESH:D009102
+37715189	906	915	phosphate	Chemical	MESH:D010710
+37715189	967	974	lactate	Chemical	MESH:D019344
+37715189	1536	1544	delirium	Disease	MESH:D003693
+37715189	1548	1554	sepsis	Disease	MESH:D018805
+37715189	1675	1678	SAD	Disease	MESH:D065166
+37715189	Positive_Correlation	MESH:D010710	MESH:D065166
+37715189	Positive_Correlation	MESH:D019344	MESH:D065166
+

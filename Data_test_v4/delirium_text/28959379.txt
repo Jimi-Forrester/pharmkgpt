@@ -1,0 +1,17 @@
+28959379|t|EMPOWERING CORTICAL THICKNESS MEASURES IN CLINICAL DIAGNOSIS OF ALZHEIMER'S DISEASE WITH SPHERICAL SPARSE CODING.
+28959379|a|Cortical thickness estimation performed in vivo via magnetic resonance imaging (MRI) is an important technique for the diagnosis and understanding of the progression of Alzheimer's disease (AD). Directly using raw cortical thickness measures as features with Support Vector Machine (SVM) for clinical group classification only yields modest results since brain areas are not equally atrophied during AD progression. Therefore, feature reduction is generally required to retain only the most relevant features for the final classification. In this paper, a spherical sparse coding and dictionary learning method is proposed and it achieves relatively high classification results on publicly available data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) 2 dataset (N = 201) which contains structural MRI data of four clinical groups: cognitive unimpaired (CU), early mild cognitive impairment (EMCI), later MCI (LMCI) and AD. The proposed framework takes the estimated cortical thickness and the spherical parameterization computed by FreeSurfer as inputs and constructs weighted patches in the spherical parameter domain of the cortical surface. Then sparse coding is applied to the resulting surface patch features, followed by max-pooling to extract the final feature sets. Finally, SVM is employed for binary group classifications. The results show the superiority of the proposed method over other cortical morphometry systems and offer a different way to study the early identification and prevention of AD.
+28959379	0	10	EMPOWERING	Disease	
+28959379	64	83	ALZHEIMER'S DISEASE	Disease	MESH:D000544
+28959379	283	302	Alzheimer's disease	Disease	MESH:D000544
+28959379	304	306	AD	Disease	MESH:D000544
+28959379	514	516	AD	Disease	MESH:D000544
+28959379	828	847	Alzheimer's Disease	Disease	MESH:D000544
+28959379	959	979	cognitive unimpaired	Disease	MESH:D003072
+28959379	981	983	CU	Disease	MESH:D003072
+28959379	992	1017	mild cognitive impairment	Disease	MESH:D060825
+28959379	1019	1023	EMCI	Disease	MESH:D060825
+28959379	1032	1035	MCI	Disease	
+28959379	1037	1041	LMCI	Disease	MESH:D010509
+28959379	1047	1049	AD	Disease	MESH:D000544
+28959379	1635	1637	AD	Disease	MESH:D000544
+

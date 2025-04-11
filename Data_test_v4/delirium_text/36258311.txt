@@ -1,0 +1,24 @@
+36258311|t|Automated machine learning-based model for the prediction of delirium in patients after surgery for degenerative spinal disease.
+36258311|a|OBJECTIVE: This study used machine learning algorithms to identify critical variables and predict postoperative delirium (POD) in patients with degenerative spinal disease. METHODS: We included 663 patients who underwent surgery for degenerative spinal disease and received general anesthesia. The LASSO method was used to screen essential features associated with POD. Clinical characteristics, preoperative laboratory parameters, and intraoperative variables were reviewed and were used to construct nine machine learning models including a training set and validation set (80% of participants), and were then evaluated in the rest of the study sample (20% of participants). The area under the receiver-operating characteristic curve (AUROC) and Brier scores were used to compare the prediction performances of different models. The eXtreme Gradient Boosting algorithms (XGBOOST) model was used to predict POD. The SHapley Additive exPlanations (SHAP) package was used to interpret the XGBOOST model. Data of 49 patients were prospectively collected for model validation. RESULTS: The XGBOOST model outperformed the other classifier models in the training set (area under the curve [AUC]: 92.8%, 95% confidence interval [CI]: 90.7%-95.0%), validation set (AUC: 87.0%, 95% CI: 80.7%-93.3%). This model also achieved the lowest Brier Score. Twelve vital variables, including age, serum albumin, the admission-to-surgery time interval, C-reactive protein level, hypertension, intraoperative blood loss, intraoperative minimum blood pressure, cardiovascular-cerebrovascular disease, smoking, alcohol consumption, pulmonary disease, and admission-intraoperative maximum blood pressure difference, were selected. The XGBOOST model performed well in the prospective cohort (accuracy: 85.71%). CONCLUSION: A machine learning model and a web predictor for delirium after surgery for the degenerative spinal disease were successfully developed to demonstrate the extent of POD risk during the perioperative period, which could guide appropriate preventive measures for high-risk patients.
+36258311	61	69	delirium	Disease	MESH:D003693
+36258311	73	81	patients	Species	9606
+36258311	100	127	degenerative spinal disease	Disease	MESH:D019636
+36258311	227	249	postoperative delirium	Disease	MESH:D000071257
+36258311	251	254	POD	Disease	MESH:D000071257
+36258311	259	267	patients	Species	9606
+36258311	273	300	degenerative spinal disease	Disease	MESH:D019636
+36258311	327	335	patients	Species	9606
+36258311	362	389	degenerative spinal disease	Disease	MESH:D019636
+36258311	494	497	POD	Disease	MESH:D000071257
+36258311	1037	1040	POD	Disease	MESH:D000071257
+36258311	1143	1151	patients	Species	9606
+36258311	1564	1582	C-reactive protein	Gene	1401
+36258311	1590	1602	hypertension	Disease	MESH:D006973
+36258311	1670	1708	cardiovascular-cerebrovascular disease	Disease	MESH:D002318
+36258311	1719	1726	alcohol	Chemical	MESH:D000438
+36258311	1740	1757	pulmonary disease	Disease	MESH:D008171
+36258311	1978	1986	delirium	Disease	MESH:D003693
+36258311	2009	2036	degenerative spinal disease	Disease	MESH:D019636
+36258311	2094	2097	POD	Disease	MESH:D000071257
+36258311	2200	2208	patients	Species	9606
+

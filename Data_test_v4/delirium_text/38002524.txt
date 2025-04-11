@@ -1,0 +1,30 @@
+38002524|t|Navigating the Gene Co-Expression Network and Drug Repurposing Opportunities for Brain Disorders Associated with Neurocognitive Impairment.
+38002524|a|Neurocognitive impairment refers to a spectrum of disorders characterized by a decline in cognitive functions such as memory, attention, and problem-solving, which are often linked to structural or functional abnormalities in the brain. While its exact etiology remains elusive, genetic factors play a pivotal role in disease onset and progression. This study aimed to identify highly correlated gene clusters (modules) and key hub genes shared across neurocognition-impairing diseases, including Alzheimer's disease (AD), Parkinson's disease with dementia (PDD), HIV-associated neurocognitive disorders (HAND), and glioma. Herein, the microarray datasets AD (GSE5281), HAND (GSE35864), glioma (GSE15824), and PD (GSE7621) were used to perform Weighted Gene Co-expression Network Analysis (WGCNA) to identify highly preserved modules across the studied brain diseases. Through gene set enrichment analysis, the shared modules were found to point towards processes including neuronal transcriptional dysregulation, neuroinflammation, protein aggregation, and mitochondrial dysfunction, hallmarks of many neurocognitive disorders. These modules were used in constructing protein-protein interaction networks to identify hub genes shared across the diseases of interest. These hub genes were found to play pivotal roles in processes including protein homeostasis, cell cycle regulation, energy metabolism, and signaling, all associated with brain and CNS diseases, and were explored for their drug repurposing experiments. Drug repurposing based on gene signatures highlighted drugs including Dorzolamide and Oxybuprocaine, which were found to modulate the expression of the hub genes in play and may have therapeutic implications in neurocognitive disorders. While both drugs have traditionally been used for other medical purposes, our study underscores the potential of a combined WGCNA and drug repurposing strategy for searching for new avenues in the simultaneous treatment of different diseases that have similarities in gene co-expression networks.
+38002524	81	96	Brain Disorders	Disease	MESH:D001927
+38002524	113	138	Neurocognitive Impairment	Disease	MESH:D019965
+38002524	140	165	Neurocognitive impairment	Disease	MESH:D019965
+38002524	227	249	in cognitive functions	Disease	MESH:D003072
+38002524	592	616	neurocognition-impairing	Disease	MESH:D019965
+38002524	637	656	Alzheimer's disease	Disease	MESH:D000544
+38002524	658	660	AD	Disease	MESH:D000544
+38002524	663	696	Parkinson's disease with dementia	Disease	MESH:D010300
+38002524	698	701	PDD	Disease	MESH:D010300
+38002524	704	743	HIV-associated neurocognitive disorders	Disease	MESH:D016263
+38002524	745	749	HAND	Disease	MESH:D016263
+38002524	756	762	glioma	Disease	MESH:D005910
+38002524	796	798	AD	Disease	MESH:D000544
+38002524	810	814	HAND	Disease	MESH:D016263
+38002524	827	833	glioma	Disease	MESH:D005910
+38002524	850	852	PD	Disease	MESH:D010300
+38002524	993	1007	brain diseases	Disease	MESH:D001927
+38002524	1123	1152	transcriptional dysregulation	Disease	MESH:D021081
+38002524	1154	1171	neuroinflammation	Disease	MESH:D000090862
+38002524	1198	1223	mitochondrial dysfunction	Disease	MESH:D028361
+38002524	1243	1267	neurocognitive disorders	Disease	MESH:D019965
+38002524	1578	1600	brain and CNS diseases	Disease	MESH:D002493
+38002524	1730	1741	Dorzolamide	Chemical	MESH:C062765
+38002524	1746	1759	Oxybuprocaine	Chemical	MESH:C005298
+38002524	1871	1895	neurocognitive disorders	Disease	MESH:D019965
+38002524	Negative_Correlation	MESH:C005298	MESH:D019965
+38002524	Negative_Correlation	MESH:C062765	MESH:D019965
+

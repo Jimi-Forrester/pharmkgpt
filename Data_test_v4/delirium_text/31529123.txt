@@ -1,0 +1,16 @@
+31529123|t|A regression framework to uncover pleiotropy in large-scale electronic health record data.
+31529123|a|OBJECTIVE: Pleiotropy, where 1 genetic locus affects multiple phenotypes, can offer significant insights in understanding the complex genotype-phenotype relationship. Although individual genotype-phenotype associations have been thoroughly explored, seemingly unrelated phenotypes can be connected genetically through common pleiotropic loci or genes. However, current analyses of pleiotropy have been challenged by both methodologic limitations and a lack of available suitable data sources. MATERIALS AND METHODS: In this study, we propose to utilize a new regression framework, reduced rank regression, to simultaneously analyze multiple phenotypes and genotypes to detect pleiotropic effects. We used a large-scale biobank linked electronic health record data from the Penn Medicine BioBank to select 5 cardiovascular diseases (hypertension, cardiac dysrhythmias, ischemic heart disease, congestive heart failure, and heart valve disorders) and 5 mental disorders (mood disorders; anxiety, phobic and dissociative disorders; alcohol-related disorders; neurological disorders; and delirium dementia) to validate our framework. RESULTS: Compared with existing methods, reduced rank regression showed a higher power to distinguish known associated single-nucleotide polymorphisms from random single-nucleotide polymorphisms. In addition, genome-wide gene-based investigation of pleiotropy showed that reduced rank regression was able to identify candidate genetic variants with novel pleiotropic effects compared to existing methods. CONCLUSION: The proposed regression framework offers a new approach to account for the phenotype and genotype correlations when identifying pleiotropic effects. By jointly modeling multiple phenotypes and genotypes together, the method has the potential to distinguish confounding from causal genotype and phenotype associations.
+31529123	898	921	cardiovascular diseases	Disease	MESH:D002318
+31529123	923	935	hypertension	Disease	MESH:D006973
+31529123	937	957	cardiac dysrhythmias	Disease	MESH:D001145
+31529123	959	981	ischemic heart disease	Disease	MESH:D017202
+31529123	983	1007	congestive heart failure	Disease	MESH:D006333
+31529123	1013	1034	heart valve disorders	Disease	MESH:D006349
+31529123	1042	1058	mental disorders	Disease	MESH:D001523
+31529123	1060	1074	mood disorders	Disease	MESH:D019964
+31529123	1076	1083	anxiety	Disease	MESH:D001007
+31529123	1085	1118	phobic and dissociative disorders	Disease	MESH:D010698
+31529123	1120	1145	alcohol-related disorders	Disease	MESH:D019973
+31529123	1147	1169	neurological disorders	Disease	MESH:D009461
+31529123	1175	1192	delirium dementia	Disease	MESH:D003693
+

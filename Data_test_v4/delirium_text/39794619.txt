@@ -1,0 +1,62 @@
+39794619|t|SENP1 inhibits aerobic glycolysis in Abeta1-42-incubated astrocytes by promoting PUM2 deSUMOylation.
+39794619|a|Alzheimer's disease (AD), the most prevalent form of dementia in the elderly, involves critical changes such as reduced aerobic glycolysis in astrocytes and increased neuronal apoptosis, both of which are significant in the disease's pathology. In our study, astrocytes treated with amyloid beta1-42 (Abeta1-42) to simulate AD conditions exhibited upregulated expressions of small ubiquitin-like modifier (SUMO)-specific protease 1 (SENP1) and Pumilio RNA Binding Family Member 2 (PUM2), alongside decreased levels of Nuclear factor erythroid 2-related factor 2 (NRF2). SENP1 is notably the most upregulated SUMOylation enzyme in Abeta1-42-exposed astrocytes. Functional assays including Ni2+-Nitrilotriacetic acid (NTA) agarose bead pull-down and co-immunoprecipitation (Co-IP) confirmed SENP1's role in actively deSUMOylating PUM2, thereby enhancing its stability and expression. The interaction between PUM2 and the 3' untranslated region (3'UTR) of NRF2 mRNA reduces NRF2 levels, subsequently diminishing the transcriptional activation of critical glycolytic enzymes, Hexokinase 1 (HK1) and Glucose Transporter 1 (GLUT1). These changes contribute to the observed reduction in glycolytic function in astrocytes, exacerbating neuronal apoptosis. Targeted interventions, such as knockdown of Senp1 or Pum2 or overexpression of NRF2 in APPswe/PSEN1dE9 (APP/PS1) transgenic mice, effectively increased HK1 and GLUT1 levels, decreased apoptosis, and alleviated cognitive impairment. These findings highlight the important roles of the SENP1/PUM2/NRF2 pathway in influencing glucose metabolism in astrocytes, presenting new potential therapeutic targets for AD.
+39794619	0	5	SENP1	Gene	223870
+39794619	81	85	PUM2	Gene	80913
+39794619	101	120	Alzheimer's disease	Disease	MESH:D000544
+39794619	122	124	AD	Disease	MESH:D000544
+39794619	154	162	dementia	Disease	MESH:D003704
+39794619	268	286	neuronal apoptosis	Disease	MESH:D065703
+39794619	425	427	AD	Disease	MESH:D000544
+39794619	534	539	SENP1	Gene	223870
+39794619	545	580	Pumilio RNA Binding Family Member 2	Gene	80913
+39794619	582	586	PUM2	Gene	80913
+39794619	619	662	Nuclear factor erythroid 2-related factor 2	Gene	18024
+39794619	664	668	NRF2	Gene	18024
+39794619	671	676	SENP1	Gene	223870
+39794619	789	815	Ni2+-Nitrilotriacetic acid	Chemical	-
+39794619	817	820	NTA	Chemical	-
+39794619	822	829	agarose	Chemical	MESH:D012685
+39794619	890	895	SENP1	Gene	223870
+39794619	929	933	PUM2	Gene	80913
+39794619	1007	1011	PUM2	Gene	80913
+39794619	1054	1058	NRF2	Gene	18024
+39794619	1072	1076	NRF2	Gene	18024
+39794619	1173	1185	Hexokinase 1	Gene	15275
+39794619	1187	1190	HK1	Gene	15275
+39794619	1196	1217	Glucose Transporter 1	Gene	20525
+39794619	1219	1224	GLUT1	Gene	20525
+39794619	1329	1347	neuronal apoptosis	Disease	MESH:D065703
+39794619	1394	1399	Senp1	Gene	223870
+39794619	1403	1407	Pum2	Gene	80913
+39794619	1429	1433	NRF2	Gene	18024
+39794619	1458	1461	PS1	Gene	19164
+39794619	1474	1478	mice	Species	10090
+39794619	1502	1505	HK1	Gene	15275
+39794619	1510	1515	GLUT1	Gene	20525
+39794619	1560	1580	cognitive impairment	Disease	MESH:D003072
+39794619	1634	1639	SENP1	Gene	223870
+39794619	1640	1644	PUM2	Gene	80913
+39794619	1645	1649	NRF2	Gene	18024
+39794619	1673	1680	glucose	Chemical	MESH:D005947
+39794619	1756	1758	AD	Disease	MESH:D000544
+39794619	Negative_Correlation	18024	20525
+39794619	Association	MESH:D065703	80913
+39794619	Negative_Correlation	MESH:D065703	18024
+39794619	Positive_Correlation	223870	80913
+39794619	Association	18024	223870
+39794619	Association	MESH:D005947	18024
+39794619	Association	MESH:D003072	223870
+39794619	Association	MESH:D005947	80913
+39794619	Negative_Correlation	20525	80913
+39794619	Positive_Correlation	20525	223870
+39794619	Positive_Correlation	MESH:D000544	80913
+39794619	Negative_Correlation	MESH:D000544	18024
+39794619	Negative_Correlation	15275	18024
+39794619	Association	MESH:D005947	223870
+39794619	Association	MESH:D003072	80913
+39794619	Negative_Correlation	MESH:D003072	18024
+39794619	Association	MESH:D000544	223870
+39794619	Association	18024	80913
+39794619	Negative_Correlation	15275	80913
+39794619	Positive_Correlation	15275	223870
+

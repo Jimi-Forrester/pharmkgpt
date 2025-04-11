@@ -1,0 +1,45 @@
+39040060|t|The role of m6A modification in the risk prediction and Notch1 pathway of Alzheimer's disease.
+39040060|a|N6-methyladenosine (m6A) methylation and abnormal immune responses are implicated in neurodegenerative diseases, yet their relationship in Alzheimer's disease (AD) remains unclear. We obtained AD datasets from GEO databases and used AD mouse and cell models, observing abnormal expression of m6A genes in the AD group, alongside disruptions in the immune microenvironment. Key m6A genes (YTHDF2, LRPPRC, and FTO) selected by machine learning were associated with the Notch pathway, with FTO and Notch1 displaying the strongest correlation. Specifically, FTO expression decreased and m6A methylation of Notch1 increased in AD mouse and cell models. We further silenced FTO expression in HT22 cells, resulting in upregulation of the Notch1 signaling pathway. Additionally, increased Notch1 expression in dendritic cells heightened inflammatory cytokine secretion in vitro. These results suggest that reduced FTO expression may contribute to the pathogenesis of AD by activating the Notch1 pathway to interfere with the immune response.
+39040060	12	15	m6A	Chemical	MESH:C005955
+39040060	56	62	Notch1	Gene	18128
+39040060	74	93	Alzheimer's disease	Disease	MESH:D000544
+39040060	95	113	N6-methyladenosine	Chemical	MESH:C010223
+39040060	115	118	m6A	Chemical	MESH:C005955
+39040060	180	206	neurodegenerative diseases	Disease	MESH:D019636
+39040060	234	253	Alzheimer's disease	Disease	MESH:D000544
+39040060	255	257	AD	Disease	MESH:D000544
+39040060	288	290	AD	Disease	MESH:D000544
+39040060	328	330	AD	Disease	MESH:D000544
+39040060	331	336	mouse	Species	10090
+39040060	387	390	m6A	Chemical	MESH:C005955
+39040060	404	406	AD	Disease	MESH:D000544
+39040060	472	475	m6A	Chemical	MESH:C005955
+39040060	483	489	YTHDF2	Gene	213541
+39040060	491	497	LRPPRC	Gene	72416
+39040060	503	506	FTO	Gene	26383
+39040060	582	585	FTO	Gene	26383
+39040060	590	596	Notch1	Gene	18128
+39040060	649	652	FTO	Gene	26383
+39040060	678	681	m6A	Chemical	MESH:C005955
+39040060	697	703	Notch1	Gene	18128
+39040060	717	719	AD	Disease	MESH:D000544
+39040060	720	725	mouse	Species	10090
+39040060	763	766	FTO	Gene	26383
+39040060	781	785	HT22	CellLine	CVCL:0321
+39040060	826	832	Notch1	Gene	18128
+39040060	876	882	Notch1	Gene	18128
+39040060	924	936	inflammatory	Disease	MESH:D007249
+39040060	1001	1004	FTO	Gene	26383
+39040060	1054	1056	AD	Disease	MESH:D000544
+39040060	1075	1081	Notch1	Gene	18128
+39040060	Association	MESH:C005955	26383
+39040060	Association	MESH:C005955	18128
+39040060	Negative_Correlation	18128	26383
+39040060	Association	MESH:C010223	MESH:D000544
+39040060	Association	MESH:C010223	MESH:D019636
+39040060	Association	MESH:C005955	MESH:D019636
+39040060	Positive_Correlation	MESH:D007249	18128
+39040060	Association	MESH:D000544	18128
+39040060	Association	MESH:C005955	MESH:D000544
+39040060	Negative_Correlation	MESH:D000544	26383
+

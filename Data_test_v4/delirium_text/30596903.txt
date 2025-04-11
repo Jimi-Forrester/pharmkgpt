@@ -1,0 +1,52 @@
+30596903|t|MMP13 inhibition rescues cognitive decline in Alzheimer transgenic mice via BACE1 regulation.
+30596903|a|MMP13 (matrix metallopeptidase 13) plays a key role in bone metabolism and cancer development, but has no known functions in Alzheimer's disease. In this study, we used high-throughput small molecule screening in SH-SY5Y cells that stably expressed a luciferase reporter gene driven by the BACE1 (beta-site amyloid precursor protein cleaving enzyme 1) promoter, which included a portion of the 5' untranslated region (5'UTR). We identified that CL82198, a selective inhibitor of MMP13, decreased BACE1 protein levels in cultured neuronal cells. This effect was dependent on PI3K (phosphatidylinositide 3-kinase) signalling, and was unrelated to BACE1 gene transcription and protein degradation. Further, we found that eukaryotic translation initiation factor 4B (eIF4B) played a key role, as the mutation of eIF4B at serine 422 (S422R) or deletion of the BACE1 5'UTR attenuated MMP13-mediated BACE1 regulation. In APPswe/PS1E9 mice, an animal model of Alzheimer's disease, hippocampal Mmp13 knockdown or intraperitoneal CL82198 administration reduced BACE1 protein levels and the related amyloid-beta precursor protein processing, amyloid-beta load and eIF4B phosphorylation, whereas spatial and associative learning and memory performances were improved. Collectively, MMP13 inhibition/CL82198 treatment exhibited therapeutic potential for Alzheimer's disease, via the translational regulation of BACE1.
+30596903	0	5	MMP13	Gene	17386
+30596903	25	42	cognitive decline	Disease	MESH:D003072
+30596903	46	55	Alzheimer	Disease	MESH:D000544
+30596903	67	71	mice	Species	10090
+30596903	76	81	BACE1	Gene	23821
+30596903	94	99	MMP13	Gene	17386
+30596903	101	127	matrix metallopeptidase 13	Gene	17386
+30596903	169	175	cancer	Disease	MESH:D009369
+30596903	219	238	Alzheimer's disease	Disease	MESH:D000544
+30596903	307	314	SH-SY5Y	CellLine	CVCL:0019
+30596903	384	389	BACE1	Gene	23821
+30596903	391	444	beta-site amyloid precursor protein cleaving enzyme 1	Gene	23821
+30596903	539	546	CL82198	Chemical	MESH:C000633572
+30596903	573	578	MMP13	Gene	4322
+30596903	590	595	BACE1	Gene	23621
+30596903	674	704	phosphatidylinositide 3-kinase	Gene	5293
+30596903	739	744	BACE1	Gene	23821
+30596903	812	855	eukaryotic translation initiation factor 4B	Gene	1975
+30596903	857	862	eIF4B	Gene	1975
+30596903	902	907	eIF4B	Gene	1975
+30596903	911	921	serine 422	ProteinMutation	tmVar:p|Allele|S|422;VariantGroup:0;CorrespondingGene:1975;CorrespondingSpecies:9606
+30596903	923	928	S422R	ProteinMutation	tmVar:p|SUB|S|422|R;HGVS:p.S422R;VariantGroup:0;CorrespondingGene:1975;CorrespondingSpecies:9606
+30596903	949	954	BACE1	Gene	23621
+30596903	972	977	MMP13	Gene	4322
+30596903	987	992	BACE1	Gene	23621
+30596903	1021	1025	mice	Species	10090
+30596903	1046	1065	Alzheimer's disease	Disease	MESH:D000544
+30596903	1079	1084	Mmp13	Gene	4322
+30596903	1114	1121	CL82198	Chemical	MESH:C000633572
+30596903	1145	1150	BACE1	Gene	23821
+30596903	1247	1252	eIF4B	Gene	75705
+30596903	1364	1369	MMP13	Gene	4322
+30596903	1381	1388	CL82198	Chemical	MESH:C000633572
+30596903	1435	1454	Alzheimer's disease	Disease	MESH:D000544
+30596903	1492	1497	BACE1	Gene	23821
+30596903	Association	MESH:D003072	17386
+30596903	Negative_Correlation	MESH:C000633572	4322
+30596903	Association	MESH:D009369	17386
+30596903	Association	MESH:D003072	23821
+30596903	Negative_Correlation	MESH:C000633572	23621
+30596903	Positive_Correlation	4322	75705
+30596903	Association	17386	23821
+30596903	Negative_Correlation	MESH:C000633572	MESH:D000544
+30596903	Negative_Correlation	MESH:C000633572	23821
+30596903	Association	MESH:D000544	4322
+30596903	Association	23821	4322
+30596903	Association	MESH:D000544	23821
+30596903	Association	23621	4322
+30596903	Negative_Correlation	MESH:C000633572	75705
+

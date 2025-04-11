@@ -1,0 +1,34 @@
+35710401|t|Mining comorbidities of opioid use disorder from FDA adverse event reporting system and patient electronic health records.
+35710401|a|BACKGROUND: Opioid use disorder (OUD) has become an urgent health problem. People with OUD often experience comorbid medical conditions. Systematical approaches to identifying co-occurring conditions of OUD can facilitate a deeper understanding of OUD mechanisms and drug discovery. This study presents an integrated approach combining data mining, network construction and ranking, and hypothesis-driven case-control studies using patient electronic health records (EHRs). METHODS: First, we mined comorbidities from the US Food and Drug Administration Adverse Event Reporting System (FAERS) of 12 million unique case reports using frequent pattern-growth algorithm. The performance of OUD comorbidity mining was measured by precision and recall using manually curated known OUD comorbidities. We then constructed a disease comorbidity network using mined association rules and further prioritized OUD comorbidities. Last, novel OUD comorbidities were independently tested using EHRs of 75 million unique patients. RESULTS: The OUD comorbidities from association rules mining achieves a precision of 38.7% and a recall of 78.2 Based on the mined rules, the global DCN was constructed with 1916 nodes and 32,175 edges. The network-based OUD ranking result shows that 43 of 55 known OUD comorbidities were in the first decile with a precision of 78.2%. Hypothyroidism and type 2 diabetes were two top-ranked novel OUD comorbidities identified by data mining and network ranking algorithms. Based on EHR-based case-control studies, we showed that patients with OUD had significantly increased risk for hyperthyroidism (AOR = 1.46, 95% CI 1.43-1.49, p value < 0.001), hypothyroidism (AOR = 1.45, 95% CI 1.42-1.48, p value < 0.001), type 2-diabetes (AOR = 1.28, 95% CI 1.26-1.29, p value < 0.001), compared with individuals without OUD. CONCLUSION: Our study developed an integrated approach for identifying and validating novel OUD comorbidities from health records of 87 million unique patients (12 million for discovery and 75 million for validation), which can offer new opportunities for OUD mechanism understanding, drug discovery, and multi-component service delivery for co-occurring medical conditions among patients with OUD.
+35710401	24	43	opioid use disorder	Disease	MESH:D009293
+35710401	88	95	patient	Species	9606
+35710401	135	154	Opioid use disorder	Disease	MESH:D009293
+35710401	156	159	OUD	Disease	MESH:D009293
+35710401	198	204	People	Species	9606
+35710401	210	213	OUD	Disease	MESH:D009293
+35710401	326	329	OUD	Disease	MESH:D009293
+35710401	371	374	OUD	Disease	MESH:D009293
+35710401	555	562	patient	Species	9606
+35710401	810	813	OUD	Disease	MESH:D009293
+35710401	899	902	OUD	Disease	MESH:D009293
+35710401	1022	1025	OUD	Disease	MESH:D009293
+35710401	1053	1056	OUD	Disease	MESH:D009293
+35710401	1129	1137	patients	Species	9606
+35710401	1152	1155	OUD	Disease	MESH:D009293
+35710401	1360	1363	OUD	Disease	MESH:D009293
+35710401	1405	1408	OUD	Disease	MESH:D009293
+35710401	1475	1489	Hypothyroidism	Disease	MESH:D007037
+35710401	1494	1509	type 2 diabetes	Disease	MESH:D003924
+35710401	1536	1539	OUD	Disease	MESH:D009293
+35710401	1668	1676	patients	Species	9606
+35710401	1682	1685	OUD	Disease	MESH:D009293
+35710401	1723	1738	hyperthyroidism	Disease	MESH:D006980
+35710401	1788	1802	hypothyroidism	Disease	MESH:D007037
+35710401	1852	1867	type 2-diabetes	Disease	MESH:D003924
+35710401	1951	1954	OUD	Disease	MESH:D009293
+35710401	2048	2051	OUD	Disease	MESH:D009293
+35710401	2107	2115	patients	Species	9606
+35710401	2212	2215	OUD	Disease	MESH:D009293
+35710401	2336	2344	patients	Species	9606
+35710401	2350	2353	OUD	Disease	MESH:D009293
+

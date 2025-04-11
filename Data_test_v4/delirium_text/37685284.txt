@@ -1,0 +1,10 @@
+37685284|t|A Modified LeNet CNN for Breast Cancer Diagnosis in Ultrasound Images.
+37685284|a|Convolutional neural networks (CNNs) have been extensively utilized in medical image processing to automatically extract meaningful features and classify various medical conditions, enabling faster and more accurate diagnoses. In this paper, LeNet, a classic CNN architecture, has been successfully applied to breast cancer data analysis. It demonstrates its ability to extract discriminative features and classify malignant and benign tumors with high accuracy, thereby supporting early detection and diagnosis of breast cancer. LeNet with corrected Rectified Linear Unit (ReLU), a modification of the traditional ReLU activation function, has been found to improve the performance of LeNet in breast cancer data analysis tasks via addressing the "dying ReLU" problem and enhancing the discriminative power of the extracted features. This has led to more accurate, reliable breast cancer detection and diagnosis and improved patient outcomes. Batch normalization improves the performance and training stability of small and shallow CNN architecture like LeNet. It helps to mitigate the effects of internal covariate shift, which refers to the change in the distribution of network activations during training. This classifier will lessen the overfitting problem and reduce the running time. The designed classifier is evaluated against the benchmarking deep learning models, proving that this has produced a higher recognition rate. The accuracy of the breast image recognition rate is 89.91%. This model will achieve better performance in segmentation, feature extraction, classification, and breast cancer tumor detection.
+37685284	25	38	Breast Cancer	Disease	MESH:D001943
+37685284	381	394	breast cancer	Disease	MESH:D001943
+37685284	500	513	benign tumors	Disease	MESH:D009369
+37685284	586	599	breast cancer	Disease	MESH:D001943
+37685284	766	779	breast cancer	Disease	MESH:D001943
+37685284	946	959	breast cancer	Disease	MESH:D001943
+37685284	1666	1685	breast cancer tumor	Disease	MESH:D001943
+

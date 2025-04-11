@@ -1,0 +1,35 @@
+37225695|t|Redefining the role of AMPK in autophagy and the energy stress response.
+37225695|a|Autophagy maintains cellular homeostasis during low energy states. According to the current understanding, glucose-depleted cells induce autophagy through AMPK, the primary energy-sensing kinase, to acquire energy for survival. However, contrary to the prevailing concept, our study demonstrates that AMPK inhibits ULK1, the kinase responsible for autophagy initiation, thereby suppressing autophagy. We found that glucose starvation suppresses amino acid starvation-induced stimulation of ULK1-Atg14-Vps34 signaling via AMPK activation. During an energy crisis caused by mitochondrial dysfunction, the LKB1-AMPK axis inhibits ULK1 activation and autophagy induction, even under amino acid starvation. Despite its inhibitory effect, AMPK protects the ULK1-associated autophagy machinery from caspase-mediated degradation during energy deficiency, preserving the cellular ability to initiate autophagy and restore homeostasis once the stress subsides. Our findings reveal that dual functions of AMPK, restraining abrupt induction of autophagy upon energy shortage while preserving essential autophagy components, are crucial to maintain cellular homeostasis and survival during energy stress.
+37225695	23	27	AMPK	Gene	5562
+37225695	180	187	glucose	Chemical	MESH:D005947
+37225695	228	232	AMPK	Gene	5562
+37225695	374	378	AMPK	Gene	5562
+37225695	388	392	ULK1	Gene	8408
+37225695	488	495	glucose	Chemical	MESH:D005947
+37225695	563	567	ULK1	Gene	8408
+37225695	568	573	Atg14	Gene	22863
+37225695	574	579	Vps34	Gene	5289
+37225695	594	598	AMPK	Gene	5562
+37225695	645	670	mitochondrial dysfunction	Disease	MESH:D028361
+37225695	676	680	LKB1	Gene	6794
+37225695	681	685	AMPK	Gene	5562
+37225695	700	704	ULK1	Gene	8408
+37225695	806	810	AMPK	Gene	5562
+37225695	824	828	ULK1	Gene	8408
+37225695	901	918	energy deficiency	Disease	MESH:D011502
+37225695	1067	1071	AMPK	Gene	5562
+37225695	Association	22863	8408
+37225695	Association	22863	5289
+37225695	Negative_Correlation	MESH:D005947	22863
+37225695	Association	5289	8408
+37225695	Negative_Correlation	6794	8408
+37225695	Association	5562	6794
+37225695	Negative_Correlation	5562	8408
+37225695	Negative_Correlation	MESH:D005947	8408
+37225695	Positive_Correlation	5289	5562
+37225695	Positive_Correlation	MESH:D005947	5562
+37225695	Positive_Correlation	22863	5562
+37225695	Association	MESH:D028361	6794
+37225695	Association	MESH:D011502	5562
+37225695	Negative_Correlation	MESH:D005947	5289
+

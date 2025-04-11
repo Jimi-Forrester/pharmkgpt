@@ -1,0 +1,14 @@
+39748801|t|Color Fundus Photography and Deep Learning Applications in Alzheimer Disease.
+39748801|a|Objective: To report the development and performance of 2 distinct deep learning models trained exclusively on retinal color fundus photographs to classify Alzheimer disease (AD). Patients and Methods: Two independent datasets (UK Biobank and our tertiary academic institution) of good-quality retinal photographs derived from patients with AD and controls were used to build 2 deep learning models, between April 1, 2021, and January 30, 2024. ADVAS is a U-Net-based architecture that uses retinal vessel segmentation. ADRET is a bidirectional encoder representations from transformers style self-supervised learning convolutional neural network pretrained on a large data set of retinal color photographs from UK Biobank. The models' performance to distinguish AD from non-AD was determined using mean accuracy, sensitivity, specificity, and receiving operating curves. The generated attention heatmaps were analyzed for distinctive features. Results: The self-supervised ADRET model had superior accuracy when compared with ADVAS, in both UK Biobank (98.27% vs 77.20%; P<.001) and our institutional testing data sets (98.90% vs 94.17%; P=.04). No major differences were noted between the original and binary vessel segmentation and between both eyes vs single-eye models. Attention heatmaps obtained from patients with AD highlighted regions surrounding small vascular branches as areas of highest relevance to the model decision making. Conclusion: A bidirectional encoder representations from transformers style self-supervised convolutional neural network pretrained on a large data set of retinal color photographs alone can screen symptomatic AD with high accuracy, better than U-Net-pretrained models. To be translated in clinical practice, this methodology requires further validation in larger and diverse populations and integrated techniques to harmonize fundus photographs and attenuate the imaging-associated noise.
+39748801	59	76	Alzheimer Disease	Disease	MESH:D000544
+39748801	234	251	Alzheimer disease	Disease	MESH:D000544
+39748801	253	255	AD	Disease	MESH:D000544
+39748801	258	266	Patients	Species	9606
+39748801	405	413	patients	Species	9606
+39748801	419	421	AD	Disease	MESH:D000544
+39748801	841	843	AD	Disease	MESH:D000544
+39748801	853	855	AD	Disease	MESH:D000544
+39748801	1386	1394	patients	Species	9606
+39748801	1400	1402	AD	Disease	MESH:D000544
+39748801	1729	1731	AD	Disease	MESH:D000544
+

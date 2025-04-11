@@ -1,0 +1,32 @@
+26347869|t|Non-Neuronal Acetylcholine: The Missing Link Between Sepsis, Cancer, and Delirium?
+26347869|a|The interaction between living organisms and the environment requires a balancing act between genomic and epigenomic forces. Inflammation and cellular proliferation are kept in check by the genes, which code for their components and the microRNAs, which are capable of silencing the transcription of these genes. Acetylcholine (ACh) may play a unique role in the maintenance of this equilibrium, as the epigenomic inhibition of the gene coding for nicotinic receptors, and disinhibits the gene causing anergia in immune cells. We hypothesize that age-induced ACh deficiency is the result of an epigenomic dysfunction of microRNA-6775 (miR-6775), which silences the transcription of CHRNA7 gene [coding for alpha 7 nicotinic cholinergic receptors (nAChRs)]. When silenced, this gene induces decreased expression of alpha 7 nAChRs, which may predispose elderly individuals to inflammation, neuroinflammation, and delirium. We hypothesize further that miR-6775-induced hypocholinergia augments the expression of RNF 128, the gene related to anergy in lymphocytes (GRAIL). This gene favors regulatory T cells (Tregs), promoters of immunologic tolerance, which may predispose to both cancer and sepsis-induced immunosuppression. 
+26347869	0	26	Non-Neuronal Acetylcholine	Chemical	-
+26347869	53	59	Sepsis	Disease	MESH:D018805
+26347869	61	67	Cancer	Disease	MESH:D009369
+26347869	73	81	Delirium	Disease	MESH:D003693
+26347869	208	220	Inflammation	Disease	MESH:D007249
+26347869	396	409	Acetylcholine	Chemical	MESH:D000109
+26347869	411	414	ACh	Chemical	MESH:D000109
+26347869	585	592	anergia	Disease	
+26347869	642	656	ACh deficiency	Disease	MESH:C536090
+26347869	703	716	microRNA-6775	Gene	102465464
+26347869	718	726	miR-6775	Gene	102465464
+26347869	765	771	CHRNA7	Gene	1139
+26347869	957	969	inflammation	Disease	MESH:D007249
+26347869	971	988	neuroinflammation	Disease	MESH:D000090862
+26347869	994	1002	delirium	Disease	MESH:D003693
+26347869	1032	1040	miR-6775	Gene	102465464
+26347869	1049	1064	hypocholinergia	Disease	
+26347869	1092	1099	RNF 128	Gene	79589
+26347869	1121	1127	anergy	Disease	OMIM:616452
+26347869	1262	1268	cancer	Disease	MESH:D009369
+26347869	1273	1279	sepsis	Disease	MESH:D018805
+26347869	Association	OMIM:616452	102465464
+26347869	Association	MESH:D018805	102465464
+26347869	Negative_Correlation	102465464	1139
+26347869	Association	MESH:D000090862	102465464
+26347869	Positive_Correlation	102465464	79589
+26347869	Association	OMIM:616452	79589
+26347869	Association	MESH:C536090	102465464
+26347869	Association	MESH:D009369	102465464
+

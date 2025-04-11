@@ -1,0 +1,21 @@
+38672253|t|Integrating Demographics and Imaging Features for Various Stages of Dementia Classification: Feed Forward Neural Network Multi-Class Approach.
+38672253|a|BACKGROUND: MRI magnetization-prepared rapid acquisition (MPRAGE) is an easily available imaging modality for dementia diagnosis. Previous studies suggested that volumetric analysis plays a crucial role in various stages of dementia classification. In this study, volumetry, radiomics and demographics were integrated as inputs to develop an artificial intelligence model for various stages, including Alzheimer's disease (AD), mild cognitive decline (MCI) and cognitive normal (CN) dementia classifications. METHOD: The Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset was separated into training and testing groups, and the Open Access Series of Imaging Studies (OASIS) dataset was used as the second testing group. The MRI MPRAGE image was reoriented via statistical parametric mapping (SPM12). Freesurfer was employed for brain segmentation, and 45 regional brain volumes were retrieved. The 3D Slicer software was employed for 107 radiomics feature extractions from within the whole brain. Data on patient demographics were collected from the datasets. The feed-forward neural network (FFNN) and the other most common artificial intelligence algorithms, including support vector machine (SVM), ensemble classifier (EC) and decision tree (DT), were used to build the models using various features. RESULTS: The integration of brain regional volumes, radiomics and patient demographics attained the highest overall accuracy at 76.57% and 73.14% in ADNI and OASIS testing, respectively. The subclass accuracies in MCI, AD and CN were 78.29%, 89.71% and 85.14%, respectively, in ADNI testing, as well as 74.86%, 88% and 83.43% in OASIS testing. Balanced sensitivity and specificity were obtained for all subclass classifications in MCI, AD and CN. CONCLUSION: The FFNN yielded good overall accuracy for MCI, AD and CN categorization, with balanced subclass accuracy, sensitivity and specificity. The proposed FFNN model is simple, and it may support the triage of patients for further confirmation of the diagnosis.
+38672253	68	76	Dementia	Disease	MESH:D003704
+38672253	253	261	dementia	Disease	MESH:D003704
+38672253	367	375	dementia	Disease	MESH:D003704
+38672253	545	564	Alzheimer's disease	Disease	MESH:D000544
+38672253	566	568	AD	Disease	MESH:D000544
+38672253	576	593	cognitive decline	Disease	MESH:D003072
+38672253	595	598	MCI	Disease	MESH:D060825
+38672253	626	634	dementia	Disease	MESH:D003704
+38672253	664	683	Alzheimer's Disease	Disease	MESH:D000544
+38672253	1156	1163	patient	Species	9606
+38672253	1521	1528	patient	Species	9606
+38672253	1669	1672	MCI	Disease	MESH:D060825
+38672253	1674	1676	AD	Disease	MESH:D000544
+38672253	1886	1889	MCI	Disease	MESH:D060825
+38672253	1891	1893	AD	Disease	MESH:D000544
+38672253	1957	1960	MCI	Disease	MESH:D060825
+38672253	1962	1964	AD	Disease	MESH:D000544
+38672253	2118	2126	patients	Species	9606
+

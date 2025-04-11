@@ -1,0 +1,28 @@
+39336972|t|Development and Validation of Machine Learning Models to Predict Postoperative Delirium Using Clinical Features and Polysomnography Variables.
+39336972|a|Background: Delirium affects up to 50% of patients following high-risk surgeries and is associated with poor long-term prognosis. This study employed machine learning to predict delirium using polysomnography (PSG) and sleep-disorder questionnaire data, and aimed to identify key sleep-related factors for improved interventions and patient outcomes. Methods: We studied 912 adults who underwent surgery under general anesthesia at a tertiary hospital (2013-2024) and had PSG within 5 years of surgery. Delirium was assessed via clinical diagnoses, antipsychotic prescriptions, and psychiatric consultations within 14 days postoperatively. Sleep-related data were collected using PSG and questionnaires. Machine learning predictions were performed to identify postoperative delirium, focusing on model accuracy and feature importance. Results: This study divided the 912 patients into an internal training set (700) and an external test set (212). Univariate analysis identified significant delirium risk factors: midazolam use, prolonged surgery duration, and hypoalbuminemia. Sleep-related variables such as fewer rapid eye movement (REM) episodes and higher daytime sleepiness were also linked to delirium. An extreme gradient-boosting-based classification task achieved an AUC of 0.81 with clinical variables, 0.60 with PSG data alone, and 0.84 with both, demonstrating the added value of PSG data. Analysis of Shapley additive explanations values highlighted important predictors: surgery duration, age, midazolam use, PSG-derived oxygen saturation nadir, periodic limb movement index, and REM episodes, demonstrating the relationship between sleep patterns and the risk of delirium. Conclusions: The artificial intelligence model integrates clinical and sleep variables and reliably identifies postoperative delirium, demonstrating that sleep-related factors contribute to its identification. Predicting patients at high risk of developing postoperative delirium and closely monitoring them could reduce the costs and complications associated with delirium.
+39336972	65	87	Postoperative Delirium	Disease	MESH:D000071257
+39336972	155	163	Delirium	Disease	MESH:D003693
+39336972	185	193	patients	Species	9606
+39336972	321	329	delirium	Disease	MESH:D003693
+39336972	362	376	sleep-disorder	Disease	MESH:D012893
+39336972	476	483	patient	Species	9606
+39336972	646	654	Delirium	Disease	MESH:D003693
+39336972	725	736	psychiatric	Disease	MESH:D001523
+39336972	903	925	postoperative delirium	Disease	MESH:D000071257
+39336972	1014	1022	patients	Species	9606
+39336972	1134	1142	delirium	Disease	MESH:D003693
+39336972	1157	1166	midazolam	Chemical	MESH:D008874
+39336972	1204	1219	hypoalbuminemia	Disease	MESH:D034141
+39336972	1259	1264	rapid	Disease	MESH:C564983
+39336972	1304	1322	daytime sleepiness	Disease	MESH:D012893
+39336972	1343	1351	delirium	Disease	MESH:D003693
+39336972	1652	1661	midazolam	Chemical	MESH:D008874
+39336972	1679	1685	oxygen	Chemical	MESH:D010100
+39336972	1822	1830	delirium	Disease	MESH:D003693
+39336972	1943	1965	postoperative delirium	Disease	MESH:D000071257
+39336972	2053	2061	patients	Species	9606
+39336972	2089	2111	postoperative delirium	Disease	MESH:D000071257
+39336972	2197	2205	delirium	Disease	MESH:D003693
+39336972	Association	MESH:D010100	MESH:D003693
+39336972	Positive_Correlation	MESH:D008874	MESH:D003693
+

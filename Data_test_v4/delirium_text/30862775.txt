@@ -1,0 +1,31 @@
+30862775|t|Alcohol-responsive genes identified in human iPSC-derived neural cultures.
+30862775|a|Alcohol use contributes to numerous diseases and injuries. The nervous system is affected by alcohol in diverse ways, though the molecular mechanisms of these effects are not clearly understood. Using human-induced pluripotent stem cells (iPSCs), we developed a neural cell culture model to identify the mechanisms of alcohol's effects. iPSCs were generated from fibroblasts and differentiated into forebrain neural cells cultures that were treated with 50 mM alcohol or sham conditions (same media lacking alcohol) for 7 days. We analyzed gene expression using total RNA sequencing (RNA-seq) for 34 samples derived from 10 subjects and for 10 samples from 5 subjects in an independent experiment that had intermittent exposure to the same dose of alcohol. We also analyzed genetic effects on gene expression and conducted a weighted correlation network analysis. We found that differentiated neural cell cultures have the capacity to recapitulate gene regulatory effects previously observed in specific primary neural tissues and identified 226 genes that were differentially expressed (FDR < 0.1) after alcohol treatment. The effects on expression included decreases in INSIG1 and LDLR, two genes involved in cholesterol homeostasis. We also identified a module of 58 co-expressed genes that were uniformly decreased following alcohol exposure. The majority of these effects were supported in independent alcohol exposure experiments. Enrichment analysis linked the alcohol responsive genes to cell cycle, notch signaling, and cholesterol biosynthesis pathways, which are disrupted in several neurological disorders. Our findings suggest that there is convergence between these disorders and the effects of alcohol exposure.
+30862775	0	7	Alcohol	Chemical	MESH:D000438
+30862775	39	44	human	Species	9606
+30862775	75	82	Alcohol	Chemical	MESH:D000438
+30862775	124	132	injuries	Disease	MESH:D014947
+30862775	168	175	alcohol	Chemical	MESH:D000438
+30862775	276	281	human	Species	9606
+30862775	393	400	alcohol	Chemical	MESH:D000438
+30862775	535	542	alcohol	Chemical	MESH:D000438
+30862775	582	589	alcohol	Chemical	MESH:D000438
+30862775	823	830	alcohol	Chemical	MESH:D000438
+30862775	1180	1187	alcohol	Chemical	MESH:D000438
+30862775	1247	1253	INSIG1	Gene	3638
+30862775	1258	1262	LDLR	Gene	3949
+30862775	1286	1297	cholesterol	Chemical	MESH:D002784
+30862775	1404	1411	alcohol	Chemical	MESH:D000438
+30862775	1482	1489	alcohol	Chemical	MESH:D000438
+30862775	1543	1550	alcohol	Chemical	MESH:D000438
+30862775	1604	1615	cholesterol	Chemical	MESH:D002784
+30862775	1670	1692	neurological disorders	Disease	MESH:D009461
+30862775	1784	1791	alcohol	Chemical	MESH:D000438
+30862775	Association	MESH:D002784	3638
+30862775	Negative_Correlation	MESH:D000438	3949
+30862775	Positive_Correlation	MESH:D000438	MESH:D014947
+30862775	Association	MESH:D000438	MESH:D009461
+30862775	Negative_Correlation	MESH:D000438	3638
+30862775	Association	MESH:D000438	MESH:D002784
+30862775	Association	MESH:D002784	3949
+30862775	Association	MESH:D002784	MESH:D009461
+

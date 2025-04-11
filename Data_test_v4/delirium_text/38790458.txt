@@ -1,0 +1,21 @@
+38790458|t|Machine Learning Model for Mild Cognitive Impairment Stage Based on Gait and MRI Images.
+38790458|a|In patients with mild cognitive impairment (MCI), a lower level of cognitive function is associated with a higher likelihood of progression to dementia. In addition, gait disturbances and structural changes on brain MRI scans reflect cognitive levels. Therefore, we aimed to classify MCI based on cognitive level using gait parameters and brain MRI data. Eighty patients diagnosed with MCI from three dementia centres in Gangwon-do, Korea, were recruited for this study. We defined MCI as a Clinical Dementia Rating global score of >=0.5, with a memory domain score of >=0.5. Patients were classified as early-stage or late-stage MCI based on their mini-mental status examination (MMSE) z-scores. We trained a machine learning model using gait and MRI data parameters. The convolutional neural network (CNN) resulted in the best classifier performance in separating late-stage MCI from early-stage MCI; its performance was maximised when feature patterns that included multimodal features (GAIT + white matter dataset) were used. The single support time was the strongest predictor. Machine learning that incorporated gait and white matter parameters achieved the highest accuracy in distinguishing between late-stage MCI and early-stage MCI.
+38790458	32	52	Cognitive Impairment	Disease	MESH:D003072
+38790458	92	100	patients	Species	9606
+38790458	111	131	cognitive impairment	Disease	MESH:D003072
+38790458	133	136	MCI	Disease	MESH:D060825
+38790458	232	240	dementia	Disease	MESH:D003704
+38790458	255	272	gait disturbances	Disease	MESH:D020233
+38790458	373	376	MCI	Disease	MESH:D060825
+38790458	451	459	patients	Species	9606
+38790458	475	478	MCI	Disease	MESH:D060825
+38790458	490	498	dementia	Disease	MESH:D003704
+38790458	571	574	MCI	Disease	MESH:D060825
+38790458	580	597	Clinical Dementia	Disease	MESH:D003704
+38790458	665	673	Patients	Species	9606
+38790458	719	722	MCI	Disease	MESH:D060825
+38790458	966	969	MCI	Disease	MESH:D060825
+38790458	987	990	MCI	Disease	MESH:D060825
+38790458	1307	1310	MCI	Disease	MESH:D060825
+38790458	1327	1330	MCI	Disease	MESH:D060825
+

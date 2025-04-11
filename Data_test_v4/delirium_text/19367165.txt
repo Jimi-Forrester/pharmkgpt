@@ -1,0 +1,18 @@
+19367165|t|Oseltamivir and abnormal behaviors: true or not?
+19367165|a|Oseltamivir is a neuraminidase inhibitor that inhibits influenza virus proliferation, and is used as an antiviral drug against influenza A and B viruses. Recently, concerns have been raised about hallucinations, delirium, and abnormal activity after administration of oseltamivir for treatment of infection with influenza virus. A large epidemiologic study was conducted in Japan in the winter of 2006-2007 to assess the relationship between oseltamivir intake and adverse behaviors, and an interim report was released on 10 July 2008. In the report, the research group concluded that no positive associations were detected between oseltamivir intake and abnormal behaviors. However, the analytic method used in the study was flawed. A correct analysis (based on person-time) shows a rate ratio of 1.57 (95% confidence interval = 1.34-1.83). This example clearly illustrates the importance of person-time in the analysis of cohort studies.
+19367165	0	11	Oseltamivir	Chemical	MESH:D053139
+19367165	49	60	Oseltamivir	Chemical	MESH:D053139
+19367165	66	79	neuraminidase	Gene	4758
+19367165	104	119	influenza virus	Species	
+19367165	176	201	influenza A and B viruses	Species	
+19367165	245	259	hallucinations	Disease	MESH:D006212
+19367165	261	269	delirium	Disease	MESH:D003693
+19367165	317	328	oseltamivir	Chemical	MESH:D053139
+19367165	346	376	infection with influenza virus	Disease	MESH:D007251
+19367165	491	502	oseltamivir	Chemical	MESH:D053139
+19367165	681	692	oseltamivir	Chemical	MESH:D053139
+19367165	Positive_Correlation	MESH:D053139	MESH:D006212
+19367165	Positive_Correlation	MESH:D053139	MESH:D003693
+19367165	Negative_Correlation	MESH:D053139	4758
+19367165	Negative_Correlation	MESH:D053139	MESH:D007251
+

@@ -1,0 +1,17 @@
+34933123|t|Deep learning for Alzheimer's disease: Mapping large-scale histological tau protein for neuroimaging biomarker validation.
+34933123|a|Abnormal tau inclusions are hallmarks of Alzheimer's disease and predictors of clinical decline. Several tau PET tracers are available for neurodegenerative disease research, opening avenues for molecular diagnosis in vivo. However, few have been approved for clinical use. Understanding the neurobiological basis of PET signal validation remains problematic because it requires a large-scale, voxel-to-voxel correlation between PET and (immuno) histological signals. Large dimensionality of whole human brains, tissue deformation impacting co-registration, and computing requirements to process terabytes of information preclude proper validation. We developed a computational pipeline to identify and segment particles of interest in billion-pixel digital pathology images to generate quantitative, 3D density maps. The proposed convolutional neural network for immunohistochemistry samples, IHCNet, is at the pipeline's core. We have successfully processed and immunostained over 500 slides from two whole human brains with three phospho-tau antibodies (AT100, AT8, and MC1), spanning several terabytes of images. Our artificial neural network estimated tau inclusion from brain images, which performs with ROC AUC of 0.87, 0.85, and 0.91 for AT100, AT8, and MC1, respectively. Introspection studies further assessed the ability of our trained model to learn tau-related features. We present an end-to-end pipeline to create terabytes-large 3D tau inclusion density maps co-registered to MRI as a means to facilitate validation of PET tracers.
+34933123	18	37	Alzheimer's disease	Disease	MESH:D000544
+34933123	72	75	tau	Gene	4137
+34933123	132	135	tau	Gene	4137
+34933123	164	183	Alzheimer's disease	Disease	MESH:D000544
+34933123	228	231	tau	Gene	4137
+34933123	262	287	neurodegenerative disease	Disease	MESH:D019636
+34933123	621	626	human	Species	9606
+34933123	1132	1137	human	Species	9606
+34933123	1164	1167	tau	Gene	4137
+34933123	1280	1283	tau	Gene	4137
+34933123	1485	1488	tau	Gene	4137
+34933123	1570	1573	tau	Gene	4137
+34933123	Association	MESH:D000544	4137
+34933123	Association	MESH:D019636	4137
+

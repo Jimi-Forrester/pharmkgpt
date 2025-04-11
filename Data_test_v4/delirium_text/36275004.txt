@@ -1,0 +1,14 @@
+36275004|t|A transfer learning approach based on gradient boosting machine for diagnosis of Alzheimer's disease.
+36275004|a|Early detection of Alzheimer's disease (AD) during the Mild Cognitive Impairment (MCI) stage could enable effective intervention to slow down disease progression. Computer-aided diagnosis of AD relies on a sufficient amount of biomarker data. When this requirement is not fulfilled, transfer learning can be used to transfer knowledge from a source domain with more amount of labeled data than available in the desired target domain. In this study, an instance-based transfer learning framework is presented based on the gradient boosting machine (GBM). In GBM, a sequence of base learners is built, and each learner focuses on the errors (residuals) of the previous learner. In our transfer learning version of GBM (TrGB), a weighting mechanism based on the residuals of the base learners is defined for the source instances. Consequently, instances with different distribution than the target data will have a lower impact on the target learner. The proposed weighting scheme aims to transfer as much information as possible from the source domain while avoiding negative transfer. The target data in this study was obtained from the Mount Sinai dataset which is collected and processed in a collaborative 5-year project at the Mount Sinai Medical Center. The Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset was used as the source domain. The experimental results showed that the proposed TrGB algorithm could improve the classification accuracy by 1.5 and 4.5% for CN vs. MCI and multiclass classification, respectively, as compared to the conventional methods. Also, using the TrGB model and transferred knowledge from the CN vs. AD classification of the source domain, the average score of early MCI vs. late MCI classification improved by 5%.
+36275004	81	100	Alzheimer's disease	Disease	MESH:D000544
+36275004	121	140	Alzheimer's disease	Disease	MESH:D000544
+36275004	142	144	AD	Disease	MESH:D000544
+36275004	162	182	Cognitive Impairment	Disease	MESH:D003072
+36275004	184	187	MCI	Disease	MESH:D060825
+36275004	293	295	AD	Disease	MESH:D000544
+36275004	1364	1383	Alzheimer's Disease	Disease	MESH:D000544
+36275004	1588	1591	MCI	Disease	MESH:D060825
+36275004	1747	1749	AD	Disease	MESH:D000544
+36275004	1814	1817	MCI	Disease	MESH:D060825
+36275004	1827	1830	MCI	Disease	MESH:D060825
+

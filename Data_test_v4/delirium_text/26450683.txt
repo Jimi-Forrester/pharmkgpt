@@ -1,0 +1,73 @@
+26450683|t|PERK inhibition prevents tau-mediated neurodegeneration in a mouse model of frontotemporal dementia.
+26450683|a|The PERK-eIF2alpha branch of the Unfolded Protein Response (UPR) mediates the transient shutdown of translation in response to rising levels of misfolded proteins in the endoplasmic reticulum. PERK and eIF2alpha activation are increasingly recognised in postmortem analyses of patients with neurodegenerative disorders, including Alzheimer's disease, the tauopathies and prion disorders. These are all characterised by the accumulation of misfolded disease-specific proteins in the brain in association with specific patterns of neuronal loss, but the role of UPR activation in their pathogenesis is unclear. In prion-diseased mice, overactivation of PERK-P/eIF2alpha-P signalling results in the sustained reduction in global protein synthesis, leading to synaptic failure, neuronal loss and clinical disease. Critically, restoring vital neuronal protein synthesis rates by inhibiting the PERK-eIF2alpha pathway, both genetically and pharmacologically, prevents prion neurodegeneration downstream of misfolded prion protein accumulation. Here we show that PERK-eIF2alpha-mediated translational failure is a key process leading to neuronal loss in a mouse model of frontotemporal dementia, where the misfolded protein is a form of mutant tau. rTg4510 mice, which overexpress the P301L tau mutation, show dysregulated PERK signalling and sustained repression of protein synthesis by 6 months of age, associated with onset of neurodegeneration. Treatment with the PERK inhibitor, GSK2606414, from this time point in mutant tau-expressing mice restores protein synthesis rates, protecting against further neuronal loss, reducing brain atrophy and abrogating the appearance of clinical signs. Further, we show that PERK-eIF2alpha activation also contributes to the pathological phosphorylation of tau in rTg4510 mice, and that levels of phospho-tau are lowered by PERK inhibitor treatment, providing a second mechanism of protection. The data support UPR-mediated translational failure as a generic pathogenic mechanism in protein-misfolding disorders, including tauopathies, that can be successfully targeted for prevention of neurodegeneration.
+26450683	0	4	PERK	Gene	13666
+26450683	38	55	neurodegeneration	Disease	MESH:D019636
+26450683	61	66	mouse	Species	10090
+26450683	76	99	frontotemporal dementia	Disease	MESH:D057180
+26450683	105	109	PERK	Gene	13666
+26450683	110	119	eIF2alpha	Gene	229317
+26450683	294	298	PERK	Gene	9451
+26450683	303	312	eIF2alpha	Gene	83939
+26450683	378	386	patients	Species	9606
+26450683	392	419	neurodegenerative disorders	Disease	MESH:D019636
+26450683	431	450	Alzheimer's disease	Disease	MESH:D000544
+26450683	456	467	tauopathies	Disease	MESH:D024801
+26450683	472	487	prion disorders	Disease	MESH:D017096
+26450683	630	643	neuronal loss	Disease	MESH:D009410
+26450683	713	727	prion-diseased	Disease	MESH:D017096
+26450683	728	732	mice	Species	10090
+26450683	857	873	synaptic failure	Disease	MESH:D051437
+26450683	875	888	neuronal loss	Disease	MESH:D009410
+26450683	990	994	PERK	Gene	13666
+26450683	995	1004	eIF2alpha	Gene	229317
+26450683	1063	1086	prion neurodegeneration	Disease	MESH:D017096
+26450683	1111	1124	prion protein	Gene	19122
+26450683	1157	1161	PERK	Gene	13666
+26450683	1162	1171	eIF2alpha	Gene	229317
+26450683	1231	1244	neuronal loss	Disease	MESH:D009410
+26450683	1250	1255	mouse	Species	10090
+26450683	1265	1288	frontotemporal dementia	Disease	MESH:D057180
+26450683	1343	1350	rTg4510	CellLine	CVCL:G039
+26450683	1351	1355	mice	Species	10090
+26450683	1379	1384	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:83939;RS#:1297681028;CorrespondingSpecies:9606
+26450683	1417	1421	PERK	Gene	13666
+26450683	1524	1541	neurodegeneration	Disease	MESH:D019636
+26450683	1562	1566	PERK	Gene	13666
+26450683	1578	1588	GSK2606414	Chemical	MESH:C576403
+26450683	1636	1640	mice	Species	10090
+26450683	1702	1715	neuronal loss	Disease	MESH:D009410
+26450683	1726	1739	brain atrophy	Disease	MESH:C566985
+26450683	1811	1815	PERK	Gene	13666
+26450683	1816	1825	eIF2alpha	Gene	229317
+26450683	1900	1907	rTg4510	CellLine	CVCL:G039
+26450683	1908	1912	mice	Species	10090
+26450683	1960	1964	PERK	Gene	13666
+26450683	2119	2147	protein-misfolding disorders	Disease	MESH:D057165
+26450683	2159	2170	tauopathies	Disease	MESH:D024801
+26450683	2224	2241	neurodegeneration	Disease	MESH:D019636
+26450683	Association	MESH:D019636	83939
+26450683	Positive_Correlation	MESH:D019636	RS#:1297681028;HGVS:p.P301L;CorrespondingGene:83939
+26450683	Association	MESH:D024801	9451
+26450683	Negative_Correlation	MESH:C576403	13666
+26450683	Association	MESH:D057180	RS#:1297681028;HGVS:p.P301L;CorrespondingGene:83939
+26450683	Association	MESH:C566985	13666
+26450683	Association	MESH:D000544	83939
+26450683	Association	MESH:D017096	83939
+26450683	Association	MESH:D009410	229317
+26450683	Negative_Correlation	MESH:C576403	MESH:C566985
+26450683	Positive_Correlation	MESH:D017096	19122
+26450683	Association	MESH:D057180	13666
+26450683	Association	MESH:D057180	229317
+26450683	Association	MESH:D019636	9451
+26450683	Association	MESH:D024801	83939
+26450683	Association	MESH:D009410	13666
+26450683	Association	MESH:D017096	13666
+26450683	Association	MESH:D019636	13666
+26450683	Association	MESH:D000544	9451
+26450683	Association	13666	229317
+26450683	Association	MESH:D017096	9451
+26450683	Association	MESH:D017096	229317
+26450683	Negative_Correlation	MESH:C576403	MESH:D009410
+26450683	Association	MESH:D019636	83939
+26450683	Association	MESH:D057180	83939
+

@@ -1,0 +1,32 @@
+36418457|t|Identification of potentially functional modules and diagnostic genes related to amyotrophic lateral sclerosis based on the WGCNA and LASSO algorithms.
+36418457|a|Amyotrophic lateral sclerosis (ALS) is a genetically and phenotypically heterogeneous disease results in the loss of motor neurons. Mounting information points to involvement of other systems including cognitive impairment. However, neither the valid biomarker for diagnosis nor effective therapeutic intervention is available for ALS. The present study is aimed at identifying potentially genetic biomarker that improves the diagnosis and treatment of ALS patients based on the data of the Gene Expression Omnibus. We retrieved datasets and conducted a weighted gene co-expression network analysis (WGCNA) to identify ALS-related co-expression genes. Functional enrichment analysis was performed to determine the features and pathways of the main modules. We then constructed an ALS-related model using the least absolute shrinkage and selection operator (LASSO) regression analysis and verified the model by the receiver operating characteristic (ROC) curve. Besides we screened the non-preserved gene modules in FTD and ALS-mimic disorders to distinct ALS-related genes from disorders with overlapping genes and features. Altogether, 4198 common genes between datasets with the most variation were analyzed and 16 distinct modules were identified through WGCNA. Blue module had the most correlation with ALS and functionally enriched in pathways of neurodegeneration-multiple diseases', 'amyotrophic lateral sclerosis', and 'endocytosis' KEGG terms. Further, some of other modules related to ALS were enriched in 'autophagy' and 'amyotrophic lateral sclerosis'. The 30 top of hub genes were recruited to a LASSO regression model and 5 genes (BCLAF1, GNA13, ARL6IP5, ARGLU1, and YPEL5) were identified as potentially diagnostic ALS biomarkers with validating of the ROC curve and AUC value.
+36418457	81	110	amyotrophic lateral sclerosis	Disease	MESH:D000690
+36418457	152	181	Amyotrophic lateral sclerosis	Disease	MESH:D000690
+36418457	183	186	ALS	Disease	MESH:D000690
+36418457	354	374	cognitive impairment	Disease	MESH:D003072
+36418457	483	486	ALS	Disease	MESH:D000690
+36418457	605	608	ALS	Disease	MESH:D000690
+36418457	609	617	patients	Species	9606
+36418457	771	774	ALS	Disease	MESH:D000690
+36418457	932	935	ALS	Disease	MESH:D000690
+36418457	1167	1170	FTD	Disease	MESH:D057180
+36418457	1175	1194	ALS-mimic disorders	Disease	MESH:D000690
+36418457	1207	1210	ALS	Disease	MESH:D000690
+36418457	1459	1462	ALS	Disease	MESH:D000690
+36418457	1504	1521	neurodegeneration	Disease	MESH:D019636
+36418457	1522	1539	multiple diseases	Disease	MESH:D004194
+36418457	1543	1572	amyotrophic lateral sclerosis	Disease	MESH:D000690
+36418457	1647	1650	ALS	Disease	MESH:D000690
+36418457	1685	1714	amyotrophic lateral sclerosis	Disease	MESH:D000690
+36418457	1797	1803	BCLAF1	Gene	9774
+36418457	1805	1810	GNA13	Gene	10672
+36418457	1812	1819	ARL6IP5	Gene	10550
+36418457	1821	1827	ARGLU1	Gene	55082
+36418457	1833	1838	YPEL5	Gene	51646
+36418457	1882	1885	ALS	Disease	MESH:D000690
+36418457	Association	MESH:D000690	51646
+36418457	Association	MESH:D000690	10672
+36418457	Association	MESH:D000690	9774
+36418457	Association	MESH:D000690	55082
+36418457	Association	MESH:D000690	10550
+

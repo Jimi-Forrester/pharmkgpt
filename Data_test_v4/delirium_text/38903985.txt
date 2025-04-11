@@ -1,0 +1,77 @@
+38903985|t|Combination of plant metabolites hinders starch digestion and glucose absorption while facilitating insulin sensitivity to diabetes.
+38903985|a|Introduction: Diabetes mellitus (DM) is a common endocrine disease resulting from interactions between genetic and environmental factors. Type II DM (T2DM) accounts for approximately 90% of all DM cases. Current medicines used in the treatment of DM have some adverse or undesirable effects on patients, necessitating the use of alternative medications. Methods: To overcome the low bioavailability of plant metabolites, all entities were first screened through pharmacokinetic, network pharmacology, and molecular docking predictions. Experiments were further conducted on a combination of antidiabetic phytoactive molecules (rosmarinic acid, RA; luteolin, Lut; resveratrol, RS), along with in vitro evaluation (alpha-amylase inhibition assay) and diabetic mice tests (oral glucose tolerance test, OGTT; oral starch tolerance test, OSTT) for maximal responses to validate starch digestion and glucose absorption while facilitating insulin sensitivity. Results: The results revealed that the combination of metabolites achieved all required criteria, including ADMET, drug likeness, and Lipinski rule. To determine the mechanisms underlying diabetic hyperglycemia and T2DM treatments, network pharmacology was used for regulatory network, PPI network, GO, and KEGG enrichment analyses. Furthermore, the combined metabolites showed adequate in silico predictions (alpha-amylase, alpha-glucosidase, and pancreatic lipase for improving starch digestion; SGLT-2, AMPK, glucokinase, aldose reductase, acetylcholinesterase, and acetylcholine M2 receptor for mediating glucose absorption; GLP-1R, DPP-IV, and PPAR-gamma for regulating insulin sensitivity), in vitro alpha-amylase inhibition, and in vivo efficacy (OSTT versus acarbose; OGTT versus metformin and insulin) as nutraceuticals against T2DM. Discussion: The results demonstrate that the combination of RA, Lut, and RS could be exploited for multitarget therapy as prospective antihyperglycemic phytopharmaceuticals that hinder starch digestion and glucose absorption while facilitating insulin sensitivity.
+38903985	41	47	starch	Chemical	MESH:D013213
+38903985	62	69	glucose	Chemical	MESH:D005947
+38903985	100	107	insulin	Gene	3630
+38903985	123	131	diabetes	Disease	MESH:D003920
+38903985	147	164	Diabetes mellitus	Disease	MESH:D003920
+38903985	166	168	DM	Disease	MESH:D003920
+38903985	182	199	endocrine disease	Disease	MESH:D004700
+38903985	271	281	Type II DM	Disease	MESH:D003924
+38903985	283	287	T2DM	Disease	
+38903985	327	329	DM	Disease	MESH:D003920
+38903985	380	382	DM	Disease	MESH:D003920
+38903985	427	435	patients	Species	9606
+38903985	737	748	phytoactive	Chemical	-
+38903985	760	775	rosmarinic acid	Chemical	MESH:C041376
+38903985	777	779	RA	Chemical	MESH:D011883
+38903985	781	789	luteolin	Chemical	MESH:D047311
+38903985	791	794	Lut	Chemical	-
+38903985	796	807	resveratrol	Chemical	MESH:D000077185
+38903985	809	811	RS	Chemical	MESH:D000084922
+38903985	882	890	diabetic	Disease	MESH:D003920
+38903985	891	895	mice	Species	10090
+38903985	908	915	glucose	Chemical	MESH:D005947
+38903985	943	949	starch	Chemical	MESH:D013213
+38903985	1006	1012	starch	Chemical	MESH:D013213
+38903985	1027	1034	glucose	Chemical	MESH:D005947
+38903985	1065	1072	insulin	Gene	3630
+38903985	1274	1296	diabetic hyperglycemia	Disease	MESH:D006943
+38903985	1301	1305	T2DM	Disease	
+38903985	1511	1528	alpha-glucosidase	Gene	6476
+38903985	1534	1551	pancreatic lipase	Gene	5406
+38903985	1566	1572	starch	Chemical	MESH:D013213
+38903985	1584	1590	SGLT-2	Gene	6524
+38903985	1592	1596	AMPK	Gene	5562
+38903985	1598	1609	glucokinase	Gene	2645
+38903985	1611	1627	aldose reductase	Gene	231
+38903985	1629	1649	acetylcholinesterase	Gene	43
+38903985	1695	1702	glucose	Chemical	MESH:D005947
+38903985	1715	1721	GLP-1R	Gene	2740
+38903985	1723	1729	DPP-IV	Gene	1803
+38903985	1735	1745	PPAR-gamma	Gene	5468
+38903985	1761	1768	insulin	Gene	3630
+38903985	1852	1860	acarbose	Chemical	MESH:D020909
+38903985	1874	1883	metformin	Chemical	MESH:D008687
+38903985	1888	1895	insulin	Gene	3630
+38903985	1923	1927	T2DM	Disease	
+38903985	1989	1991	RA	Chemical	MESH:D011883
+38903985	1993	1996	Lut	Chemical	-
+38903985	2002	2004	RS	Chemical	MESH:D000084922
+38903985	2114	2120	starch	Chemical	MESH:D013213
+38903985	2135	2142	glucose	Chemical	MESH:D005947
+38903985	2173	2180	insulin	Gene	3630
+38903985	Negative_Correlation	MESH:D047311	MESH:D003920
+38903985	Negative_Correlation	MESH:D000084922	MESH:D005947
+38903985	Association	MESH:D005947	MESH:D003920
+38903985	Negative_Correlation	MESH:C041376	MESH:D003920
+38903985	Association	MESH:D013213	MESH:D003920
+38903985	Negative_Correlation	MESH:D005947	MESH:D011883
+38903985	Association	1803	3630
+38903985	Association	MESH:D005947	43
+38903985	Association	MESH:D013213	5406
+38903985	Negative_Correlation	MESH:D011883	MESH:D003920
+38903985	Association	MESH:D005947	5562
+38903985	Association	3630	5468
+38903985	Negative_Correlation	MESH:D011883	MESH:D013213
+38903985	Positive_Correlation	MESH:D011883	3630
+38903985	Association	MESH:D005947	2645
+38903985	Association	MESH:D013213	6476
+38903985	Negative_Correlation	MESH:D000084922	MESH:D013213
+38903985	Association	MESH:D005947	231
+38903985	Positive_Correlation	MESH:D000084922	3630
+38903985	Association	MESH:D005947	6524
+38903985	Association	MESH:D003920	3630
+38903985	Negative_Correlation	MESH:C041376	MESH:D013213
+38903985	Association	2740	3630
+

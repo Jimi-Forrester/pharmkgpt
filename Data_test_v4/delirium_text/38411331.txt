@@ -1,0 +1,68 @@
+38411331|t|Dexmedetomidine activates the PKA/CREB pathway and inhibits proinflammatory factor expression through beta2 adrenergic receptors.
+38411331|a|INTRODUCTION: Dexmedetomidine (DEX) is primarily utilized for sedation in the context of general anesthesia or intensive care. However, the exact regulatory mechanism by which DEX affects cytokines remains unclear. This study aims to investigate the underlying mechanism by which DEX inhibits proinflammatory factors through activation of the beta2 adrenergic receptor (beta2 AR). METHODS: The inflammatory cell model of human mononuclear macrophage (THP-1) cells induced by lipopolysaccharide (LPS) was established to study the effect of DEX on the expression of cell-related inflammatory factors. ADRA2A gene knockout THP-1 cells (THP-1KO ) were constructed by CRISPR technology, and the effect of DEX on the expression of inflammatory factors of THP-1KO cells was detected. The target sites of DEX on beta2 AR were screened by molecular docking. Reversion experiments were performed using ADRB2-siRNA. Western blot was used to detect the activation of beta2 AR/PKA/CREB pathway and NF-kappaB, and ELISA was used to detect the release level of inflammatory factors. RESULTS: The results demonstrated a significant reduction in the expression levels of MCP-1, interleukin-06, and IL-8 in both THP-1 and THP-1KO cells when induced by LPS following treatment with DEX. Additionally, DEX treatment led to an increase in IL-10 expression. Immunofluorescence analysis revealed an upregulation of beta2 AR expression after DEX treatment. Western blot results indicated that DEX notably enhanced the activation of the beta2 AR and PKA/CREB pathways, while concurrently suppressing the activation of NF-kappaB. Notably, the use of ADRB2 siRNA reversed the effects of DEX treatment and promoted the release of inflammatory cytokines. CONCLUSION: DEX initiates the activation of the PKA/CREB pathway through the activation of beta2 AR. Simultaneously, it exerts an inhibitory effect on the activation of NF-kappaB, consequently reducing the transcription of proinflammatory factors while increasing the transcription of anti-inflammatory factors.
+38411331	0	15	Dexmedetomidine	Chemical	MESH:D020927
+38411331	34	38	CREB	Gene	1385
+38411331	144	159	Dexmedetomidine	Chemical	MESH:D020927
+38411331	161	164	DEX	Chemical	MESH:D020927
+38411331	306	309	DEX	Chemical	MESH:D020927
+38411331	410	413	DEX	Chemical	MESH:D020927
+38411331	473	498	beta2 adrenergic receptor	Gene	154
+38411331	500	508	beta2 AR	Gene	154
+38411331	524	536	inflammatory	Disease	MESH:D007249
+38411331	551	556	human	Species	9606
+38411331	581	586	THP-1	CellLine	CVCL:0006
+38411331	605	623	lipopolysaccharide	Chemical	MESH:D008070
+38411331	625	628	LPS	Chemical	MESH:D008070
+38411331	669	672	DEX	Chemical	MESH:D020927
+38411331	707	719	inflammatory	Disease	MESH:D007249
+38411331	729	735	ADRA2A	Gene	150
+38411331	750	755	THP-1	CellLine	CVCL:0006
+38411331	763	770	THP-1KO	CellLine	CVCL:0006
+38411331	830	833	DEX	Chemical	MESH:D020927
+38411331	855	867	inflammatory	Disease	MESH:D007249
+38411331	879	886	THP-1KO	CellLine	CVCL:0006
+38411331	927	930	DEX	Chemical	MESH:D020927
+38411331	934	942	beta2 AR	Gene	154
+38411331	1022	1027	ADRB2	Gene	154
+38411331	1085	1093	beta2 AR	Gene	154
+38411331	1098	1102	CREB	Gene	1385
+38411331	1115	1124	NF-kappaB	Gene	4790
+38411331	1176	1188	inflammatory	Disease	MESH:D007249
+38411331	1284	1289	MCP-1	Gene	6347
+38411331	1311	1315	IL-8	Gene	3576
+38411331	1324	1329	THP-1	CellLine	CVCL:0006
+38411331	1334	1341	THP-1KO	CellLine	CVCL:0006
+38411331	1364	1367	LPS	Chemical	MESH:D008070
+38411331	1393	1396	DEX	Chemical	MESH:D020927
+38411331	1412	1415	DEX	Chemical	MESH:D020927
+38411331	1448	1453	IL-10	Gene	3586
+38411331	1522	1530	beta2 AR	Gene	154
+38411331	1548	1551	DEX	Chemical	MESH:D020927
+38411331	1599	1602	DEX	Chemical	MESH:D020927
+38411331	1642	1650	beta2 AR	Gene	154
+38411331	1659	1663	CREB	Gene	1385
+38411331	1723	1733	NF-kappaB.	Gene	4790
+38411331	1754	1759	ADRB2	Gene	154
+38411331	1790	1793	DEX	Chemical	MESH:D020927
+38411331	1832	1844	inflammatory	Disease	MESH:D007249
+38411331	1868	1871	DEX	Chemical	MESH:D020927
+38411331	1908	1912	CREB	Gene	1385
+38411331	1947	1955	beta2 AR	Gene	154
+38411331	2025	2034	NF-kappaB	Gene	4790
+38411331	2079	2094	proinflammatory	Disease	
+38411331	2146	2158	inflammatory	Disease	MESH:D007249
+38411331	Association	1385	154
+38411331	Negative_Correlation	MESH:D020927	MESH:D007249
+38411331	Association	MESH:D007249	154
+38411331	Negative_Correlation	MESH:D020927	3576
+38411331	Positive_Correlation	MESH:D008070	3576
+38411331	Positive_Correlation	MESH:D008070	MESH:D007249
+38411331	Positive_Correlation	MESH:D020927	3586
+38411331	Negative_Correlation	MESH:D008070	MESH:D020927
+38411331	Negative_Correlation	MESH:D020927	6347
+38411331	Positive_Correlation	MESH:D020927	154
+38411331	Negative_Correlation	MESH:D020927	4790
+38411331	Positive_Correlation	MESH:D008070	6347
+38411331	Positive_Correlation	MESH:D020927	1385
+38411331	Association	MESH:D007249	4790
+

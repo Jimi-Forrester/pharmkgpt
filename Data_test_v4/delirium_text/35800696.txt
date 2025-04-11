@@ -1,0 +1,12 @@
+35800696|t|An Optimized Hyperparameter of Convolutional Neural Network Algorithm for Bug Severity Prediction in Alzheimer's-Based IoT System.
+35800696|a|Softwares are involved in all aspects of healthcare, such as booking appointments to software systems that are used for treatment and care of patients. Many vendors and consultants develop high quality software healthcare systems such as hospital management systems, medical electronic systems, and middle-ware softwares in medical devices. Internet of Things (IoT) medical devices are gaining attention and facilitate the people with new technology. The health condition of the patients are monitored by the IoT devices using sensors, specifically brain diseases such as Alzheimer, Parkinson's, and Traumatic brain injury. Embedded software is present in IoT medical devices and the complexity of software increases day-by-day with the increase in the number and complexity of bugs in the devices. Bugs present in IoT medical devices can have severe consequences such as inaccurate records, circulatory suffering, and death in some cases along with delay in handling patients. There is a need to predict the impact of bugs (severe or nonsevere), especially in case of IoT medical devices due to their critical nature. This research proposes a hybrid bug severity prediction model using convolution neural network (CNN) and Harris Hawk optimization (HHO) based on an optimized hyperparameter of CNN with HHO. The dataset is created, that consists of the bugs present in healthcare systems and IoT medical devices, which is used for evaluation of the proposed model. A preprocessing technique on textual dataset is applied along with a feature extraction technique for CNN embedding layer. In HHO, we define the hyperparameter values of "Batch Size, Learning Rate, Activation Function, Optimizer Parameters, and Kernel Initializers," before training the model. Hybrid model CNN-HHO is applied, and a 10-fold cross validation is performed for evaluation. Results indicate an accuracy of 96.21% with the proposed model.
+35800696	101	112	Alzheimer's	Disease	MESH:D000544
+35800696	273	281	patients	Species	9606
+35800696	610	618	patients	Species	9606
+35800696	680	694	brain diseases	Disease	MESH:D001927
+35800696	703	712	Alzheimer	Disease	MESH:D000544
+35800696	714	725	Parkinson's	Disease	MESH:D010300
+35800696	731	753	Traumatic brain injury	Disease	MESH:D000070642
+35800696	1050	1055	death	Disease	MESH:D003643
+35800696	1099	1107	patients	Species	9606
+

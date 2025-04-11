@@ -1,0 +1,21 @@
+38632972|t|Union is strength: the combination of radiomics features and 3D-deep learning in a sole model increases diagnostic accuracy in demented patients: a whole brain 18FDG PET-CT analysis.
+38632972|a|OBJECTIVE: FDG PET imaging plays a crucial role in the evaluation of demented patients by assessing regional cerebral glucose metabolism. In recent years, both radiomics and deep learning techniques have emerged as powerful tools for extracting valuable information from medical images. This article aims to provide a comparative analysis of radiomics features, 3D-deep learning convolutional neural network (CNN) and the fusion of them, in the evaluation of 18F-FDG PET whole brain images in patients with dementia and normal controls. METHODS: 18F-FDG brain PET and clinical score were collected in 85 patients with dementia and 125 healthy controls (HC). Patients were assigned to various form of dementia on the basis of clinical evaluation, follow-up and voxels comparison with HC using a two-sample Student's t-test, to determine the regions of brain involved. Radiomics analysis was performed on the whole brain after normalization to an optimized template. After selection using the minimum redundancy maximum relevance method and Pearson's correlation coefficients, the features obtained were added to a neural network model to find the accuracy in classifying HC and demented patients. Forty subjects not included in the training were used to test the models. The results of the three models (radiomics, 3D-CNN, combined model) were compared with each other. RESULTS: Four radiomics features were selected. The sensitivity was 100% for the three models, but the specificity was higher with radiomics and combined one (100% vs. 85%). Moreover, the classification scores were significantly higher using the combined model in both normal and demented subjects. CONCLUSION: The combination of radiomics features and 3D-CNN in a single model, applied to the whole brain 18FDG PET study, increases the accuracy in demented patients.
+38632972	136	144	patients	Species	9606
+38632972	160	165	18FDG	Chemical	MESH:D019788
+38632972	194	197	FDG	Chemical	MESH:D019788
+38632972	261	269	patients	Species	9606
+38632972	301	308	glucose	Chemical	MESH:D005947
+38632972	642	649	18F-FDG	Chemical	MESH:D019788
+38632972	676	684	patients	Species	9606
+38632972	690	698	dementia	Disease	MESH:D003704
+38632972	729	736	18F-FDG	Chemical	MESH:D019788
+38632972	787	795	patients	Species	9606
+38632972	801	809	dementia	Disease	MESH:D003704
+38632972	841	849	Patients	Species	9606
+38632972	883	891	dementia	Disease	MESH:D003704
+38632972	1369	1377	patients	Species	9606
+38632972	1958	1963	18FDG	Chemical	MESH:D019788
+38632972	2010	2018	patients	Species	9606
+38632972	Association	MESH:D005947	MESH:D019788
+38632972	Association	MESH:D019788	MESH:D003704
+

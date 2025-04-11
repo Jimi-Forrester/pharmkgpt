@@ -1,0 +1,73 @@
+24175284|t|The pyridoxal 5'-phosphate (PLP)-dependent enzyme serine palmitoyltransferase (SPT): effects of the small subunits and insights from bacterial mimics of human hLCB2a HSAN1 mutations.
+24175284|a|The pyridoxal 5'-phosphate (PLP)-dependent enzyme serine palmitoyltransferase (SPT) catalyses the first step of de novo sphingolipid biosynthesis. The core human enzyme is a membrane-bound heterodimer composed of two subunits (hLCB1 and hLCB2a/b), and mutations in both hLCB1 (e.g., C133W and C133Y) and hLCB2a (e.g., V359M, G382V, and I504F) have been identified in patients with hereditary sensory and autonomic neuropathy type I (HSAN1), an inherited disorder that affects sensory and autonomic neurons. These mutations result in substrate promiscuity, leading to formation of neurotoxic deoxysphingolipids found in affected individuals. Here we measure the activities of the hLCB2a mutants in the presence of ssSPTa and ssSPTb and find that all decrease enzyme activity. High resolution structural data of the homodimeric SPT enzyme from the bacterium Sphingomonas paucimobilis (Sp SPT) provides a model to understand the impact of the hLCB2a mutations on the mechanism of SPT. The three human hLCB2a HSAN1 mutations map onto Sp SPT (V246M, G268V, and G385F), and these mutant mimics reveal that the amino acid changes have varying impacts; they perturb the PLP cofactor binding, reduce the affinity for both substrates, decrease the enzyme activity, and, in the most severe case, cause the protein to be expressed in an insoluble form. 
+24175284	4	26	pyridoxal 5'-phosphate	Chemical	MESH:D011732
+24175284	28	31	PLP	Chemical	MESH:D011732
+24175284	50	77	serine palmitoyltransferase	Gene	189
+24175284	79	82	SPT	Gene	189
+24175284	153	158	human	Species	9606
+24175284	159	165	hLCB2a	Gene	9517
+24175284	166	171	HSAN1	Gene	10558
+24175284	187	209	pyridoxal 5'-phosphate	Chemical	MESH:D011732
+24175284	211	214	PLP	Chemical	MESH:D011732
+24175284	233	260	serine palmitoyltransferase	Gene	189
+24175284	262	265	SPT	Gene	189
+24175284	303	315	sphingolipid	Chemical	MESH:D013107
+24175284	339	344	human	Species	9606
+24175284	420	428	hLCB2a/b	Gene	9517
+24175284	466	471	C133W	ProteinMutation	tmVar:p|SUB|C|133|W;HGVS:p.C133W;VariantGroup:3;CorrespondingGene:10558;RS#:119482082;CorrespondingSpecies:9606;CA#:340293
+24175284	476	481	C133Y	ProteinMutation	tmVar:p|SUB|C|133|Y;HGVS:p.C133Y;VariantGroup:7;CorrespondingGene:10558;RS#:119482081;CorrespondingSpecies:9606;CA#:340286
+24175284	487	493	hLCB2a	Gene	9517
+24175284	501	506	V359M	ProteinMutation	tmVar:p|SUB|V|359|M;HGVS:p.V359M;VariantGroup:0;CorrespondingGene:9517;RS#:267607090(Expired);CorrespondingSpecies:9606;CA#:117090
+24175284	508	513	G382V	ProteinMutation	tmVar:p|SUB|G|382|V;HGVS:p.G382V;VariantGroup:2;CorrespondingGene:9517;RS#:267607089(Expired);CorrespondingSpecies:9606;CA#:117088
+24175284	519	524	I504F	ProteinMutation	tmVar:p|SUB|I|504|F;HGVS:p.I504F;VariantGroup:1;CorrespondingGene:9517;RS#:267607091(Expired);CorrespondingSpecies:9606;CA#:117092
+24175284	550	558	patients	Species	9606
+24175284	564	614	hereditary sensory and autonomic neuropathy type I	Disease	MESH:D009477
+24175284	616	621	HSAN1	Gene	10558
+24175284	627	645	inherited disorder	Disease	MESH:D030342
+24175284	763	773	neurotoxic	Disease	MESH:D020258
+24175284	774	792	deoxysphingolipids	Chemical	-
+24175284	862	868	hLCB2a	Gene	9517
+24175284	896	902	ssSPTa	Gene	171546
+24175284	907	913	ssSPTb	Gene	165679
+24175284	1009	1012	SPT	Gene	189
+24175284	1039	1064	Sphingomonas paucimobilis	Species	13689
+24175284	1123	1129	hLCB2a	Gene	9517
+24175284	1160	1163	SPT	Gene	189
+24175284	1175	1180	human	Species	9606
+24175284	1181	1187	hLCB2a	Gene	9517
+24175284	1188	1193	HSAN1	Gene	10558
+24175284	1221	1226	V246M	ProteinMutation	tmVar:p|SUB|V|246|M;HGVS:p.V246M;VariantGroup:5;CorrespondingGene:10558;CorrespondingSpecies:9606
+24175284	1228	1233	G268V	ProteinMutation	tmVar:p|SUB|G|268|V;HGVS:p.G268V;VariantGroup:6;CorrespondingGene:10558;CorrespondingSpecies:9606
+24175284	1239	1244	G385F	ProteinMutation	tmVar:p|SUB|G|385|F;HGVS:p.G385F;VariantGroup:4;CorrespondingGene:10558;CorrespondingSpecies:9606
+24175284	1345	1348	PLP	Chemical	MESH:D011732
+24175284	Association	MESH:D009477	RS#:267607091(Expired);HGVS:p.I504F;CorrespondingGene:9517
+24175284	Association	MESH:D009477	RS#:267607089(Expired);HGVS:p.G382V;CorrespondingGene:9517
+24175284	Association	MESH:D009477	RS#:119482082;HGVS:p.C133W;CorrespondingGene:10558
+24175284	Association	MESH:D011732	RS#:119482082;HGVS:p.C133W;CorrespondingGene:10558
+24175284	Association	MESH:D009477	RS#:267607090(Expired);HGVS:p.V359M;CorrespondingGene:9517
+24175284	Positive_Correlation	MESH:D020258	RS#:119482082;HGVS:p.C133W;CorrespondingGene:10558
+24175284	Association	MESH:D011732	9517
+24175284	Association	MESH:D009477	RS#:119482081;HGVS:p.C133Y;CorrespondingGene:10558
+24175284	Association	MESH:D020258	RS#:267607090(Expired);HGVS:p.V359M;CorrespondingGene:9517
+24175284	Positive_Correlation	MESH:D020258	RS#:119482081;HGVS:p.C133Y;CorrespondingGene:10558
+24175284	Association	MESH:D011732	MESH:D013107
+24175284	Association	MESH:D020258	RS#:267607089(Expired);HGVS:p.G382V;CorrespondingGene:9517
+24175284	Association	MESH:D020258	RS#:267607091(Expired);HGVS:p.I504F;CorrespondingGene:9517
+24175284	Association	MESH:D011732	HGVS:p.V246M;CorrespondingGene:10558
+24175284	Association	MESH:D011732	RS#:267607090(Expired);HGVS:p.V359M;CorrespondingGene:9517
+24175284	Association	MESH:D011732	HGVS:p.G385F;CorrespondingGene:10558
+24175284	Association	MESH:D013107	189
+24175284	Association	MESH:D020258	10558
+24175284	Association	MESH:D011732	HGVS:p.G268V;CorrespondingGene:10558
+24175284	Association	MESH:D020258	9517
+24175284	Association	MESH:D009477	9517
+24175284	Association	171546	9517
+24175284	Association	MESH:D030342	10558
+24175284	Association	MESH:D011732	189
+24175284	Association	MESH:D009477	10558
+24175284	Association	165679	9517
+24175284	Association	MESH:D009477	9517
+24175284	Association	MESH:D009477	10558
+24175284	Association	MESH:D020258	10558
+24175284	Association	MESH:D020258	9517
+

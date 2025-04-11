@@ -1,0 +1,18 @@
+36100619|t|Deep learning-based quantitative estimation of lymphedema-induced fibrosis using three-dimensional computed tomography images.
+36100619|a|In lymphedema, proinflammatory cytokine-mediated progressive cascades always occur, leading to macroscopic fibrosis. However, no methods are practically available for measuring lymphedema-induced fibrosis before its deterioration. Technically, CT can visualize fibrosis in superficial and deep locations. For standardized measurement, verification of deep learning (DL)-based recognition was performed. A cross-sectional, observational cohort trial was conducted. After narrowing window width of the absorptive values in CT images, SegNet-based semantic segmentation model of every pixel into 5 classes (air, skin, muscle/water, fat, and fibrosis) was trained (65%), validated (15%), and tested (20%). Then, 4 indices were formulated and compared with the standardized circumference difference ratio (SCDR) and bioelectrical impedance (BEI) results. In total, 2138 CT images of 27 chronic unilateral lymphedema patients were analyzed. Regarding fibrosis segmentation, the mean boundary F1 score and accuracy were 0.868 and 0.776, respectively. Among 19 subindices of the 4 indices, 73.7% were correlated with the BEI (partial correlation coefficient: 0.420-0.875), and 13.2% were correlated with the SCDR (0.406-0.460). The mean subindex of Index 2 [Formula: see text] presented the highest correlation. DL has potential applications in CT image-based lymphedema-induced fibrosis recognition. The subtraction-type formula might be the most promising estimation method.
+36100619	47	57	lymphedema	Disease	MESH:D008209
+36100619	66	74	fibrosis	Disease	MESH:D005355
+36100619	130	140	lymphedema	Disease	MESH:D008209
+36100619	234	242	fibrosis	Disease	MESH:D005355
+36100619	304	314	lymphedema	Disease	MESH:D008209
+36100619	323	331	fibrosis	Disease	MESH:D005355
+36100619	388	396	fibrosis	Disease	MESH:D005355
+36100619	749	754	water	Chemical	MESH:D014867
+36100619	756	759	fat	Disease	MESH:D004620
+36100619	765	773	fibrosis	Disease	MESH:D005355
+36100619	1016	1037	unilateral lymphedema	Disease	MESH:D008209
+36100619	1038	1046	patients	Species	9606
+36100619	1072	1080	fibrosis	Disease	MESH:D005355
+36100619	1479	1489	lymphedema	Disease	MESH:D008209
+36100619	1498	1506	fibrosis	Disease	MESH:D005355
+

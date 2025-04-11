@@ -1,0 +1,60 @@
+23994730|t|Downregulation of Nrf2/HO-1 pathway and activation of JNK/c-Jun pathway are involved in homocysteic acid-induced cytotoxicity in HT-22 cells.
+23994730|a|Previous studies have suggested that elevated blood homocysteic acid (HCA) levels increased the risk of Alzheimer's disease (AD), but the underlying mechanisms are unclear. Herein, we studied the neuronal toxicity of HCA and the underlying mechanisms in HT-22 cells. Results showed that HCA induced cell death in concentration- and time-dependent manners, but did not activate Caspase-3. Additionally, HCA increased ROS production, depleted GSH, inactivated the Nrf2/HO-1 pathway, decreased mitochondrial membrane potential and increased the ratio of Bax/Bcl-2, two apoptosis-related proteins. Furthermore, HCA significantly increased the levels of p-JNK and p-c-Jun and its toxicity dramatically attenuated by SP600125, a specific JNK pathway inhibitor. Taken together, our results provide evidence that HCA induced cytotoxicity in HT-22 cells through down-regulating of Nrf2/HO-1 pathway and activating JNK/c-Jun pathway, supporting that HCA might be a therapeutic target for AD. 
+23994730	18	22	Nrf2	Gene	18024
+23994730	23	27	HO-1	Gene	15368
+23994730	54	57	JNK	Gene	26419
+23994730	58	63	c-Jun	Gene	16476
+23994730	88	104	homocysteic acid	Chemical	MESH:C007956
+23994730	113	125	cytotoxicity	Disease	MESH:D064420
+23994730	129	134	HT-22	CellLine	CVCL:0321
+23994730	194	210	homocysteic acid	Chemical	MESH:C007956
+23994730	212	215	HCA	Chemical	MESH:C007956
+23994730	246	265	Alzheimer's disease	Disease	MESH:D000544
+23994730	267	269	AD	Disease	MESH:D000544
+23994730	338	355	neuronal toxicity	Disease	MESH:D009410
+23994730	359	362	HCA	Chemical	MESH:C007956
+23994730	396	401	HT-22	CellLine	CVCL:0321
+23994730	429	432	HCA	Chemical	MESH:C007956
+23994730	519	528	Caspase-3	Gene	12367
+23994730	544	547	HCA	Chemical	MESH:C007956
+23994730	558	561	ROS	Chemical	-
+23994730	583	586	GSH	Chemical	MESH:D005978
+23994730	604	608	Nrf2	Gene	18024
+23994730	609	613	HO-1	Gene	15368
+23994730	693	696	Bax	Gene	12028
+23994730	697	702	Bcl-2	Gene	12043
+23994730	749	752	HCA	Chemical	MESH:C007956
+23994730	793	796	JNK	Gene	26419
+23994730	803	808	c-Jun	Gene	16476
+23994730	817	825	toxicity	Disease	MESH:D064420
+23994730	853	861	SP600125	Chemical	MESH:C432165
+23994730	874	877	JNK	Gene	26419
+23994730	947	950	HCA	Chemical	MESH:C007956
+23994730	959	971	cytotoxicity	Disease	MESH:D064420
+23994730	975	980	HT-22	CellLine	CVCL:0321
+23994730	1014	1018	Nrf2	Gene	18024
+23994730	1019	1023	HO-1	Gene	15368
+23994730	1047	1050	JNK	Gene	26419
+23994730	1051	1056	c-Jun	Gene	16476
+23994730	1082	1085	HCA	Chemical	MESH:C007956
+23994730	1120	1122	AD	Disease	MESH:D000544
+23994730	Positive_Correlation	MESH:C007956	12028
+23994730	Negative_Correlation	MESH:C432165	MESH:D064420
+23994730	Association	15368	18024
+23994730	Positive_Correlation	MESH:C007956	16476
+23994730	Association	MESH:D064420	15368
+23994730	Association	16476	26419
+23994730	Association	MESH:D064420	16476
+23994730	Negative_Correlation	MESH:C432165	16476
+23994730	Association	MESH:D064420	18024
+23994730	Positive_Correlation	MESH:C007956	12043
+23994730	Positive_Correlation	MESH:C007956	MESH:D000544
+23994730	Negative_Correlation	MESH:C007956	MESH:C432165
+23994730	Negative_Correlation	MESH:C007956	18024
+23994730	Negative_Correlation	MESH:C007956	15368
+23994730	Negative_Correlation	MESH:C432165	26419
+23994730	Association	MESH:D064420	26419
+23994730	Negative_Correlation	MESH:C007956	MESH:D005978
+23994730	Positive_Correlation	MESH:C007956	26419
+23994730	Positive_Correlation	MESH:C007956	MESH:D064420
+

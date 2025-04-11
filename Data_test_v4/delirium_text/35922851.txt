@@ -1,0 +1,18 @@
+35922851|t|Early diagnosis of Alzheimer's disease using machine learning: a multi-diagnostic, generalizable approach.
+35922851|a|BACKGROUND: Early and accurate diagnosis of Alzheimer's disease (AD) is essential for disease management and therapeutic choices that can delay disease progression. Machine learning (ML) approaches have been extensively used in attempts to develop algorithms for reliable early diagnosis of AD, although clinical usefulness, interpretability, and generalizability of the classifiers across datasets and MRI protocols remain limited. METHODS: We report a multi-diagnostic and generalizable approach for mild cognitive impairment (MCI) and AD diagnosis using structural MRI and ML. Classifiers were trained and tested using subjects from the AD Neuroimaging Initiative (ADNI) database (n = 570) and the Open Access Series of Imaging Studies (OASIS) project database (n = 531). Several classifiers are compared and combined using voting for a decision. Additionally, we report tests of generalizability across datasets and protocols (IR-SPGR and MPRAGE), the impact of using graph theory measures on diagnostic classification performance, the relative importance of different brain regions on classification for better interpretability, and an evaluation of the potential for clinical applicability of the classifier. RESULTS: Our "healthy controls (HC) vs. AD" classifier trained and tested on the combination of ADNI and OASIS datasets obtained a balanced accuracy (BAC) of 90.6% and a Matthew's correlation coefficient (MCC) of 0.811. Our "HC vs. MCI vs. AD" classifier trained and tested on the ADNI dataset obtained a 62.1% BAC (33.3% being the by-chance cut-off) and 0.438 MCC. Hippocampal features were the strongest contributors to the classification decisions (approx. 25-45%), followed by temporal (approx. 13%), cingulate, and frontal regions (approx. 8-13% each), which is consistent with our current understanding of AD and its progression. Classifiers generalized well across both datasets and protocols. Finally, using graph theory measures did not improve classification performance. CONCLUSIONS: In sum, we present a diagnostic tool for MCI and AD trained using baseline scans and a follow-up diagnosis regardless of progression, which is multi-diagnostic, generalizable across independent data sources and acquisition protocols, and with transparently reported performance. Rated as potentially clinically applicable, our tool may be clinically useful to inform diagnostic decisions in dementia, if successful in real-world prospective clinical trials.
+35922851	19	38	Alzheimer's disease	Disease	MESH:D000544
+35922851	151	170	Alzheimer's disease	Disease	MESH:D000544
+35922851	172	174	AD	Disease	MESH:D000544
+35922851	398	400	AD	Disease	MESH:D000544
+35922851	614	634	cognitive impairment	Disease	MESH:D003072
+35922851	636	639	MCI	Disease	MESH:D060825
+35922851	645	647	AD	Disease	MESH:D000544
+35922851	747	749	AD	Disease	MESH:D000544
+35922851	1362	1364	AD	Disease	MESH:D000544
+35922851	1554	1557	MCI	Disease	MESH:D060825
+35922851	1562	1564	AD	Disease	MESH:D000544
+35922851	1934	1936	AD	Disease	MESH:D000544
+35922851	2158	2161	MCI	Disease	MESH:D060825
+35922851	2166	2168	AD	Disease	MESH:D000544
+35922851	2508	2516	dementia	Disease	MESH:D003704
+

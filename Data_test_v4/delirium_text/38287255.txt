@@ -1,0 +1,91 @@
+38287255|t|A novel diabetic foot ulcer diagnostic model: identification and analysis of genes related to glutamine metabolism and immune infiltration.
+38287255|a|BACKGROUND: Diabetic foot ulcer (DFU) is one of the most common and severe complications of diabetes, with vascular changes, neuropathy, and infections being the primary pathological mechanisms. Glutamine (Gln) metabolism has been found to play a crucial role in diabetes complications. This study aims to identify and validate potential Gln metabolism biomarkers associated with DFU through bioinformatics and machine learning analysis. METHODS: We downloaded two microarray datasets related to DFU patients from the Gene Expression Omnibus (GEO) database, namely GSE134431, GSE68183, and GSE80178. From the GSE134431 dataset, we obtained differentially expressed Gln-metabolism related genes (deGlnMRGs) between DFU and normal controls. We analyzed the correlation between deGlnMRGs and immune cell infiltration status. We also explored the relationship between GlnMRGs molecular clusters and immune cell infiltration status. Notably, WGCNA to identify differentially expressed genes (DEGs) within specific clusters. Additionally, we conducted GSVA to annotate enriched genes. Subsequently, we constructed and screened the best machine learning model. Finally, we validated the predictions' accuracy using a nomogram, calibration curves, decision curve analysis (DCA), and the GSE134431, GSE68183, and GSE80178 dataset. RESULTS: In both the DFU and normal control groups, we confirmed the presence of deGlnMRGs and an activated immune response. From the GSE134431 dataset, we obtained 20 deGlnMRGs, including CTPS1, NAGS, SLC7A11, GGT1, GCLM, RIMKLA, ARG2, ASL, ASNS, ASNSD1, PPAT, GLS2, GLUD1, MECP2, ASS1, PRODH, CTPS2, ALDH5A1, DGLUCY, and SLC25A12. Furthermore, two clusters were identified in DFU. Immune infiltration analysis indicated the presence of immune heterogeneity in these two clusters. Additionally, we established a Support Vector Machine (SVM) model based on 5 genes (R3HCC1, ZNF562, MFN1, DRAM1, and PTGDS), which exhibited excellent performance on the external validation datasetGSE134431, GSE68183, and GSE80178 (AUC = 0.929). CONCLUSION: This study has identified five Gln metabolism genes associated with DFU, revealing potential novel biomarkers and therapeutic targets for DFU. Additionally, the infiltration of immune-inflammatory cells plays a crucial role in the progression of DFU.
+38287255	8	27	diabetic foot ulcer	Disease	MESH:D017719
+38287255	94	103	glutamine	Chemical	MESH:D005973
+38287255	152	171	Diabetic foot ulcer	Disease	MESH:D017719
+38287255	173	176	DFU	Disease	MESH:D017719
+38287255	232	240	diabetes	Disease	MESH:D003920
+38287255	265	275	neuropathy	Disease	MESH:D009422
+38287255	281	291	infections	Disease	MESH:D007239
+38287255	335	344	Glutamine	Chemical	MESH:D005973
+38287255	346	349	Gln	Chemical	MESH:D005973
+38287255	403	425	diabetes complications	Disease	MESH:D048909
+38287255	478	481	Gln	Chemical	MESH:D005973
+38287255	520	523	DFU	Disease	MESH:D017719
+38287255	636	639	DFU	Disease	MESH:D017719
+38287255	640	648	patients	Species	9606
+38287255	805	808	Gln	Chemical	MESH:D005973
+38287255	854	857	DFU	Disease	MESH:D017719
+38287255	1483	1486	DFU	Disease	MESH:D017719
+38287255	1651	1656	CTPS1	Gene	1503
+38287255	1658	1662	NAGS	Gene	162417
+38287255	1664	1671	SLC7A11	Gene	23657
+38287255	1673	1677	GGT1	Gene	2678
+38287255	1679	1683	GCLM	Gene	2730
+38287255	1685	1691	RIMKLA	Gene	284716
+38287255	1693	1697	ARG2	Gene	384
+38287255	1699	1702	ASL	Gene	435
+38287255	1704	1708	ASNS	Gene	440
+38287255	1710	1716	ASNSD1	Gene	54529
+38287255	1718	1722	PPAT	Gene	5471
+38287255	1724	1728	GLS2	Gene	27165
+38287255	1730	1735	GLUD1	Gene	2746
+38287255	1737	1742	MECP2	Gene	4204
+38287255	1744	1748	ASS1	Gene	445
+38287255	1750	1755	PRODH	Gene	5625
+38287255	1757	1762	CTPS2	Gene	56474
+38287255	1764	1771	ALDH5A1	Gene	7915
+38287255	1773	1779	DGLUCY	Gene	80017
+38287255	1785	1793	SLC25A12	Gene	8604
+38287255	1840	1843	DFU	Disease	MESH:D017719
+38287255	2028	2034	R3HCC1	Gene	203069
+38287255	2036	2042	ZNF562	Gene	54811
+38287255	2044	2048	MFN1	Gene	55669
+38287255	2050	2055	DRAM1	Gene	55332
+38287255	2061	2066	PTGDS	Gene	5730
+38287255	2233	2236	Gln	Chemical	MESH:D005973
+38287255	2270	2273	DFU	Disease	MESH:D017719
+38287255	2340	2343	DFU	Disease	MESH:D017719
+38287255	2386	2398	inflammatory	Disease	MESH:D007249
+38287255	2448	2451	DFU	Disease	MESH:D017719
+38287255	Association	MESH:D017719	7915
+38287255	Association	MESH:D017719	55669
+38287255	Association	MESH:D017719	2730
+38287255	Association	MESH:D017719	5730
+38287255	Association	MESH:D017719	55332
+38287255	Association	MESH:D017719	2746
+38287255	Association	MESH:D017719	1503
+38287255	Association	MESH:D005973	2730
+38287255	Association	MESH:D005973	54529
+38287255	Association	MESH:D017719	5471
+38287255	Association	MESH:D017719	384
+38287255	Association	MESH:D005973	55669
+38287255	Association	MESH:D005973	5730
+38287255	Association	MESH:D005973	1503
+38287255	Association	MESH:D017719	54811
+38287255	Association	MESH:D017719	54529
+38287255	Association	MESH:D017719	80017
+38287255	Association	MESH:D017719	162417
+38287255	Association	MESH:D005973	80017
+38287255	Association	MESH:D005973	MESH:D048909
+38287255	Association	MESH:D017719	2678
+38287255	Association	MESH:D017719	8604
+38287255	Association	MESH:D017719	203069
+38287255	Association	MESH:D017719	445
+38287255	Association	MESH:D005973	8604
+38287255	Association	MESH:D005973	203069
+38287255	Association	MESH:D017719	56474
+38287255	Association	MESH:D005973	284716
+38287255	Association	MESH:D017719	5625
+38287255	Association	MESH:D005973	56474
+38287255	Association	MESH:D017719	4204
+38287255	Association	MESH:D005973	54811
+38287255	Association	MESH:D017719	23657
+38287255	Association	MESH:D017719	284716
+38287255	Association	MESH:D005973	MESH:D017719
+38287255	Association	MESH:D017719	440
+38287255	Association	MESH:D005973	MESH:D007249
+38287255	Association	MESH:D017719	27165
+38287255	Association	MESH:D005973	55332
+38287255	Association	MESH:D017719	435
+

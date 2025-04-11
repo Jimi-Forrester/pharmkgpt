@@ -1,0 +1,17 @@
+34792857|t|Automated machine learning-based model predicts postoperative delirium using readily extractable perioperative collected electronic data.
+34792857|a|OBJECTIVE: Postoperative delirium (POD) is a common postoperative complication that is relevant to poor outcomes. Therefore, it is critical to find effective methods to identify patients with high risk of POD rapidly. Creating a fully automated score based on an automated machine-learning algorithm may be a method to predict the incidence of POD quickly. MATERIALS AND METHODS: This is the secondary analysis of an observational study, including 531 surgical patients who underwent general anesthesia. The least absolute shrinkage and selection operator (LASSO) was used to screen essential features associated with POD. Finally, eight features (age, intraoperative blood loss, anesthesia duration, extubation time, intensive care unit [ICU] admission, mini-mental state examination score [MMSE], Charlson comorbidity index [CCI], postoperative neutrophil-to-lymphocyte ratio [NLR]) were used to established models. Four models, logistic regression, random forest, extreme gradient boosted trees, and support vector machines, were built in a training set (70% of participants) and evaluated in the remaining testing sample (30% of participants). Multivariate logistic regression analysis was used to explore independent risk factors for POD further. RESULTS: Model 1 (logistic regression model) was found to outperform other classifier models in testing data (area under the curve [AUC] of 80.44%, 95% confidence interval [CI] 72.24%-88.64%) and achieve the lowest Brier Score as well. These variables including age (OR = 1.054, 95%CI: 1.017~1.093), extubation time (OR = 1.027, 95%CI: 1.012~1.044), ICU admission (OR = 2.238, 95%CI: 1.313~3.793), MMSE (OR = 0.929, 95%CI: 0.876~0.984), CCI (OR = 1.197, 95%CI: 1.038~1.384), and postoperative NLR (OR = 1.029, 95%CI: 1.002~1.057) were independent risk factors for POD in this study. CONCLUSIONS: We have built and validated a high-performing algorithm to demonstrate the extent to which patient risk changes of POD during the perioperative period, thus leading to a rational therapeutic choice.
+34792857	48	70	postoperative delirium	Disease	MESH:D000071257
+34792857	149	171	Postoperative delirium	Disease	MESH:D000071257
+34792857	173	176	POD	Disease	MESH:D000071257
+34792857	190	216	postoperative complication	Disease	MESH:D011183
+34792857	316	324	patients	Species	9606
+34792857	343	346	POD	Disease	MESH:D000071257
+34792857	482	485	POD	Disease	MESH:D000071257
+34792857	599	607	patients	Species	9606
+34792857	756	759	POD	Disease	MESH:D000071257
+34792857	806	811	blood	Disease	MESH:D006402
+34792857	1377	1380	POD	Disease	MESH:D000071257
+34792857	1954	1957	POD	Disease	MESH:D000071257
+34792857	2077	2084	patient	Species	9606
+34792857	2101	2104	POD	Disease	MESH:D000071257
+

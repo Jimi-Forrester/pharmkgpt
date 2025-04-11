@@ -1,0 +1,65 @@
+39042624|t|Benfotiamine protects MPTP-induced Parkinson's disease mouse model via activating Nrf2 signaling pathway.
+39042624|a|The pursuit of drugs and methods to safeguard dopaminergic neurons holds paramount importance in Parkinson's disease (PD) research. Benfotiamine (BFT) has demonstrated neuroprotective properties, yet its precise mechanisms in PD remain elusive. This study investigated BFT's potential protective effects against dopamine neuron damage in a PD animal model and the underlying mechanisms. The PD mouse model was induced by 5 consecutive MPTP injections, followed by BFT intervention for 28 days. Motor deficits were assessed via pole test, hang test, gait analysis, and open field test, while dopaminergic neuron damage was evaluated through Immunofluorescence, Nissl staining, and Western blot analysis of Tyrosine Hydroxylase (TH) in the substantia nigra and striatum. High Performance Liquid Chromatography quantified dopamine (DA) levels and its metabolites. Genetic pathways were explored using RNA-seq and bioinformatics analysis on substantia nigra tissues, confirmed by qPCR. Activation of the Nrf2 pathway was examined through nuclear translocation and expression of downstream antioxidant enzymes HO-1, GCLM, and NQO1 at mRNA and protein levels. Additionally, measurements of MDA content, GSH activity, and SOD activity were taken in the substantia nigra and striatum. BFT administration improved motor function and protected against dopaminergic neuron degeneration in MPTP mice, with partial recovery in TH expression and DA levels. RNA-seq analysis revealed distinct effects of BFT and the NLRP3 inhibitor MCC950 on Parkinson-related pathways and genes. Control of Nrf2 proved crucial for BFT, as it facilitated Nrf2 movement to the nucleus, upregulating antioxidant genes and enzymes while mitigating oxidative damage. This study elucidates BFT's neuroprotective effects in a PD mouse model via Nrf2-mediated antioxidant mechanisms and gene expression modulation, underscoring its potential as a therapeutic agent for PD.
+39042624	0	12	Benfotiamine	Chemical	MESH:C013835
+39042624	22	26	MPTP	Chemical	MESH:D015632
+39042624	35	54	Parkinson's disease	Disease	MESH:D010300
+39042624	55	60	mouse	Species	10090
+39042624	82	86	Nrf2	Gene	18024
+39042624	203	222	Parkinson's disease	Disease	MESH:D010300
+39042624	224	226	PD	Disease	MESH:D010300
+39042624	238	250	Benfotiamine	Chemical	MESH:C013835
+39042624	252	255	BFT	Chemical	MESH:C013835
+39042624	332	334	PD	Disease	MESH:D010300
+39042624	375	378	BFT	Chemical	MESH:C013835
+39042624	418	440	dopamine neuron damage	Disease	MESH:C567730
+39042624	446	448	PD	Disease	MESH:D010300
+39042624	497	499	PD	Disease	MESH:D010300
+39042624	500	505	mouse	Species	10090
+39042624	541	545	MPTP	Chemical	MESH:D015632
+39042624	570	573	BFT	Chemical	MESH:C013835
+39042624	600	614	Motor deficits	Disease	MESH:D009461
+39042624	697	723	dopaminergic neuron damage	Disease	MESH:D009422
+39042624	811	831	Tyrosine Hydroxylase	Gene	21823
+39042624	833	835	TH	Gene	21823
+39042624	925	933	dopamine	Chemical	MESH:D004298
+39042624	935	937	DA	Chemical	MESH:D004298
+39042624	1106	1110	Nrf2	Gene	18024
+39042624	1211	1215	HO-1	Gene	15368
+39042624	1217	1221	GCLM	Gene	14630
+39042624	1227	1231	NQO1	Gene	18104
+39042624	1290	1293	MDA	Chemical	MESH:D015104
+39042624	1303	1306	GSH	Chemical	MESH:D005978
+39042624	1383	1386	BFT	Chemical	MESH:C013835
+39042624	1448	1480	dopaminergic neuron degeneration	Disease	MESH:D009410
+39042624	1484	1488	MPTP	Chemical	MESH:D015632
+39042624	1489	1493	mice	Species	10090
+39042624	1520	1522	TH	Gene	21823
+39042624	1538	1540	DA	Chemical	MESH:D004298
+39042624	1595	1598	BFT	Chemical	MESH:C013835
+39042624	1607	1612	NLRP3	Gene	216799
+39042624	1623	1629	MCC950	Chemical	MESH:C000597426
+39042624	1633	1642	Parkinson	Disease	MESH:D010302
+39042624	1682	1686	Nrf2	Gene	18024
+39042624	1706	1709	BFT	Chemical	MESH:C013835
+39042624	1729	1733	Nrf2	Gene	18024
+39042624	1859	1862	BFT	Chemical	MESH:C013835
+39042624	1894	1896	PD	Disease	MESH:D010300
+39042624	1897	1902	mouse	Species	10090
+39042624	1913	1917	Nrf2	Gene	18024
+39042624	2036	2038	PD	Disease	MESH:D010300
+39042624	Positive_Correlation	MESH:D015632	MESH:D010300
+39042624	Association	15368	18024
+39042624	Negative_Correlation	MESH:C013835	MESH:D009410
+39042624	Association	14630	18024
+39042624	Negative_Correlation	MESH:C013835	MESH:D010302
+39042624	Association	MESH:C013835	18024
+39042624	Negative_Correlation	MESH:C013835	MESH:D010300
+39042624	Association	MESH:D010302	216799
+39042624	Negative_Correlation	MESH:C013835	21823
+39042624	Negative_Correlation	MESH:C000597426	MESH:D010302
+39042624	Negative_Correlation	MESH:C013835	MESH:D015632
+39042624	Association	MESH:C013835	MESH:D004298
+39042624	Negative_Correlation	MESH:C013835	MESH:C567730
+39042624	Association	18024	18104
+39042624	Negative_Correlation	MESH:C000597426	216799
+

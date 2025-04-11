@@ -1,0 +1,15 @@
+31279772|t|Automated atrophy assessment for Alzheimer's disease diagnosis from brain MRI images.
+31279772|a|An inventive scheme for automated tissue segmentation and classification is offered in this paper using Fast Discrete Wavelet Transform (DWT)/Band Expansion Process (BEP), Kernel-based least squares Support Vector Machine (KLS-SVM) and F-score, backed by Principal Component Analysis (PCA). Using input as T1, T2 and Proton Density (PD) scans of patients, CSF (Cerebrospinal Fluid), WM (White matter) and GM (Gray matter) are afforded as output, which act as hallmark for brain atrophy and thus sustaining in diagnosis of Alzheimer's disease (AD) from Mild Cognitive Impairment (MCI) and Healthy Controls (HC). The blending of BEP features from DWT and texture features from Gray Level Co-occurrence Matrix (GLC) promises to be a savior in atrophy revelation of the segmented tissues. Data used for evaluation of this study is taken from the ADNI database that encloses T1-weighted s-MRI (Structural Magnetic Imaging Resonance) scans of 158 patients with AD and 145 HC. Preprocessing steps unearthed five parameters for classification (i.e. cortical thickness, curvature, gray matter volume, surface area, and sulcal depth), in the preliminary step. For challenging the classifier performance, ROC (Receiver operating characteristics) curves are painted and the SVM classifiers of two-dimensional spaces took the top two important features as classification features for separating HC and AD to the maximum extent. The final results revealed that Fast DWT + F-Score + PCA + KLS-SVM + Poly Kernel is giving 100% tissue classification accuracy for test samples under consideration with only 7 input features.
+31279772	10	17	atrophy	Disease	MESH:D001284
+31279772	33	52	Alzheimer's disease	Disease	MESH:D000544
+31279772	432	440	patients	Species	9606
+31279772	558	571	brain atrophy	Disease	MESH:C566985
+31279772	608	627	Alzheimer's disease	Disease	MESH:D000544
+31279772	629	631	AD	Disease	MESH:D000544
+31279772	643	663	Cognitive Impairment	Disease	MESH:D003072
+31279772	665	668	MCI	Disease	MESH:D060825
+31279772	826	833	atrophy	Disease	MESH:D001284
+31279772	1027	1035	patients	Species	9606
+31279772	1041	1043	AD	Disease	MESH:D000544
+31279772	1475	1477	AD	Disease	MESH:D000544
+

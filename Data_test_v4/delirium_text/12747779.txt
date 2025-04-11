@@ -1,0 +1,20 @@
+12747779|t|Calculation of the binding affinity of beta-secretase inhibitors using the linear interaction energy method.
+12747779|a|It has been shown that the rate-limiting step in the production of beta-amyloid peptide (Abeta) is the proteolytric cleavage of the membrane-bound beta-amyloid precursor protein (APP) by beta-secretase (BACE). Since the accumulation of Abeta has been implicated as one of the key events in the progression of Alzheimer's disease, BACE has become an important therapeutic target. Recently, two crystal structures of BACE cocrystallized with the inhibitors OM99-2 and OM00-3 were published by Tang and co-workers. In addition, the Ghosh group has published binding data on a series of inhibitors based on their initial lead, OM99-2. Using this set as a basis, we have developed a model for the binding affinity of these ligands to BACE using the linear interaction energy method. The best binding affinity model for the full set of ligands had a RMSD of 1.10 kcal/mol. The best model excluding the two charged ligands had a RMSD of 0.87 kcal/mol.
+12747779	176	196	beta-amyloid peptide	Gene	351
+12747779	198	203	Abeta	Gene	351
+12747779	256	286	beta-amyloid precursor protein	Gene	351
+12747779	312	316	BACE	Gene	23621
+12747779	345	350	Abeta	Gene	351
+12747779	418	437	Alzheimer's disease	Disease	MESH:D000544
+12747779	439	443	BACE	Gene	23621
+12747779	524	528	BACE	Gene	23621
+12747779	564	570	OM99-2	Chemical	MESH:C414614
+12747779	575	581	OM00-3	Chemical	MESH:C465866
+12747779	732	738	OM99-2	Chemical	MESH:C414614
+12747779	838	842	BACE	Gene	23621
+12747779	Negative_Correlation	MESH:C465866	23621
+12747779	Association	MESH:D000544	351
+12747779	Association	23621	351
+12747779	Negative_Correlation	MESH:C414614	23621
+12747779	Association	MESH:D000544	23621
+

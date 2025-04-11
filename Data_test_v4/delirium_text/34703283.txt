@@ -1,0 +1,64 @@
+34703283|t|Causal Relationships Between Social Isolation and Osteoarthritis: A Mendelian Randomization Study in European Population.
+34703283|a|OBJECTIVE: We aimed to investigate the causal relationships between social isolation and osteoarthritis. METHODS: Publicly available genome-wide association study (GWAS) summary statistics of social isolation and osteoarthritis in European population were obtained from the Neale lab Consortium and the Medical Research Council-Integrative Epidemiology Unit (MRC-IEU) consortium, respectively. Single nucleotide polymorphisms (SNPs) associated with the traits were identified by P < 5x10-8 and linkage disequilibrium r2 < 0.1. Three Mendelian randomization (MR) methods including the inverse-variance weighted (IVW) method, weighted median estimator, and MR-Egger regression were used to assess the potential causal effect of social isolation on osteoarthritis and the potential causal effect of osteoarthritis on social isolation. Leave-one-out analysis and test of directional horizontal pleiotropy via MR-Egger regression were performed as sensitivity analyses. RESULTS: When evaluating the causal effect of social isolation on osteoarthritis, five SNPs (rs12364432, rs13291079, rs2352075, rs4958586, rs599550) significantly associated with social isolation were studied as instruments, and social isolation was found to be causally associated with increased risk of osteoarthritis (odds ratio [OR] 1.197 (95% confidence interval (CI) 1.096-1.308) estimated by the IVW method). When evaluating the causal effect of osteoarthritis on social isolation, six SNPs (rs10405617, rs12133235, rs13107325, rs2290573, rs3771501, rs75621460) significantly associated with osteoarthritis were studied as instruments but no causal effect of osteoarthritis on social isolation was found (OR 1.104 (95% CI 0.887-1.375) estimated by the IVW method). Consistent causal relationships were observed when estimated by the weighted median estimator and MR-Egger regression. Leave-one-out analysis and test of directional horizontal pleiotropy suggested the robustness of the above findings. CONCLUSION: Social isolation is causally associated with osteoarthritis, and further work is needed to investigate the potential mechanisms.
+34703283	36	45	Isolation	Disease	MESH:C565377
+34703283	50	64	Osteoarthritis	Disease	MESH:D010003
+34703283	197	206	isolation	Disease	MESH:C565377
+34703283	211	225	osteoarthritis	Disease	MESH:D010003
+34703283	321	330	isolation	Disease	MESH:C565377
+34703283	335	349	osteoarthritis	Disease	MESH:D010003
+34703283	855	864	isolation	Disease	MESH:C565377
+34703283	868	882	osteoarthritis	Disease	MESH:D010003
+34703283	918	932	osteoarthritis	Disease	MESH:D010003
+34703283	943	952	isolation	Disease	MESH:C565377
+34703283	1140	1149	isolation	Disease	MESH:C565377
+34703283	1153	1167	osteoarthritis	Disease	MESH:D010003
+34703283	1180	1190	rs12364432	SNP	tmVar:rs12364432;VariantGroup:10;RS#:12364432
+34703283	1192	1202	rs13291079	SNP	tmVar:rs13291079;VariantGroup:0;CorrespondingGene:5253;RS#:13291079;CorrespondingSpecies:9606
+34703283	1204	1213	rs2352075	SNP	tmVar:rs2352075;VariantGroup:9;CorrespondingGene:9378;RS#:2352075;CorrespondingSpecies:9606
+34703283	1215	1224	rs4958586	SNP	tmVar:rs4958586;VariantGroup:4;CorrespondingGene:101927134;RS#:4958586;CorrespondingSpecies:9606
+34703283	1226	1234	rs599550	SNP	tmVar:rs599550;VariantGroup:1;CorrespondingGene:6925;RS#:599550;CorrespondingSpecies:9606
+34703283	1273	1282	isolation	Disease	MESH:C565377
+34703283	1323	1332	isolation	Disease	MESH:C565377
+34703283	1392	1406	osteoarthritis	Disease	MESH:D010003
+34703283	1540	1554	osteoarthritis	Disease	MESH:D010003
+34703283	1565	1574	isolation	Disease	MESH:C565377
+34703283	1586	1596	rs10405617	SNP	tmVar:rs10405617;VariantGroup:2;CorrespondingGene:57153;RS#:10405617;CorrespondingSpecies:9606
+34703283	1598	1608	rs12133235	SNP	tmVar:rs12133235;VariantGroup:6;RS#:12133235
+34703283	1610	1620	rs13107325	SNP	tmVar:rs13107325;VariantGroup:5;CorrespondingGene:64116;RS#:13107325;CorrespondingSpecies:9606
+34703283	1622	1631	rs2290573	SNP	tmVar:rs2290573;VariantGroup:3;CorrespondingGene:25989;RS#:2290573;CorrespondingSpecies:9606
+34703283	1633	1642	rs3771501	SNP	tmVar:rs3771501;VariantGroup:8;CorrespondingGene:7039;RS#:3771501;CorrespondingSpecies:9606
+34703283	1644	1654	rs75621460	SNP	tmVar:rs75621460;VariantGroup:7;RS#:75621460
+34703283	1686	1700	osteoarthritis	Disease	MESH:D010003
+34703283	1753	1767	osteoarthritis	Disease	MESH:D010003
+34703283	1778	1787	isolation	Disease	MESH:C565377
+34703283	2114	2123	isolation	Disease	MESH:C565377
+34703283	2152	2166	osteoarthritis	Disease	MESH:D010003
+34703283	Positive_Correlation	MESH:D010003	RS#:10405617;CorrespondingGene:57153
+34703283	Positive_Correlation	MESH:D010003	RS#:75621460
+34703283	Positive_Correlation	MESH:D010003	RS#:599550;CorrespondingGene:6925
+34703283	Positive_Correlation	MESH:D010003	RS#:13107325;CorrespondingGene:64116
+34703283	Positive_Correlation	MESH:D010003	RS#:12133235
+34703283	Positive_Correlation	MESH:D010003	RS#:4958586;CorrespondingGene:101927134
+34703283	Positive_Correlation	MESH:C565377	RS#:4958586;CorrespondingGene:101927134
+34703283	Positive_Correlation	MESH:C565377	RS#:13291079;CorrespondingGene:5253
+34703283	Positive_Correlation	MESH:C565377	RS#:2352075;CorrespondingGene:9378
+34703283	Positive_Correlation	MESH:D010003	RS#:3771501;CorrespondingGene:7039
+34703283	Positive_Correlation	MESH:D010003	RS#:2352075;CorrespondingGene:9378
+34703283	Positive_Correlation	MESH:D010003	RS#:2290573;CorrespondingGene:25989
+34703283	Positive_Correlation	MESH:C565377	RS#:12364432
+34703283	Positive_Correlation	MESH:D010003	RS#:13291079;CorrespondingGene:5253
+34703283	Positive_Correlation	MESH:C565377	RS#:599550;CorrespondingGene:6925
+34703283	Positive_Correlation	MESH:D010003	RS#:12364432
+34703283	Association	MESH:D010003	57153
+34703283	Association	MESH:D010003	6925
+34703283	Association	MESH:D010003	64116
+34703283	Association	MESH:D010003	101927134
+34703283	Association	MESH:C565377	101927134
+34703283	Association	MESH:C565377	5253
+34703283	Association	MESH:C565377	9378
+34703283	Association	MESH:D010003	7039
+34703283	Association	MESH:D010003	9378
+34703283	Association	MESH:D010003	25989
+34703283	Association	MESH:D010003	5253
+34703283	Association	MESH:C565377	6925
+

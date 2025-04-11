@@ -1,0 +1,10 @@
+36868692|t|Structural causal model with expert augmented knowledge to estimate the effect of oxygen therapy on mortality in the ICU.
+36868692|a|Recent advances in causal inference techniques, more specifically, in the theory of structural causal models, provide the framework for identifying causal effects from observational data in cases where the causal graph is identifiable, i.e., the data generation mechanism can be recovered from the joint distribution. However, no such studies have been performed to demonstrate this concept with a clinical example. We present a complete framework to estimate the causal effects from observational data by augmenting expert knowledge in the model development phase and with a practical clinical application. Our clinical application entails a timely and essential research question, the effect of oxygen therapy intervention in the intensive care unit (ICU). The result of this project is helpful in a variety of disease conditions, including severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) patients in the ICU. We used data from the MIMIC-III database, a widely used health care database in the machine learning community with 58,976 admissions from an ICU in Boston, MA, to estimate the oxygen therapy effect on morality. We also identified the model's covariate-specific effect on oxygen therapy for more personalized intervention.
+36868692	82	88	oxygen	Chemical	MESH:D010100
+36868692	819	825	oxygen	Chemical	MESH:D010100
+36868692	965	1012	severe acute respiratory syndrome coronavirus-2	Disease	MESH:D000086382
+36868692	1014	1024	SARS-CoV-2	Disease	MESH:D000086382
+36868692	1026	1034	patients	Species	9606
+36868692	1224	1230	oxygen	Chemical	MESH:D010100
+36868692	1319	1325	oxygen	Chemical	MESH:D010100
+

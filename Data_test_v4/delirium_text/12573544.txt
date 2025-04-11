@@ -1,0 +1,27 @@
+12573544|t|Mice expressing human mutant presenilin-1 exhibit decreased activation of NF-kappaB p50 in hippocampal neurons after injury.
+12573544|a|Mutations in the presenilin-1 (mutPS-1) gene, a cause of familial Alzheimer's disease, increase the susceptibility of neurons to apoptotic death. Using the trimethyltin model of hippocampal neurodegeneration, mice expressing the human mutPS-1 gene (M146L) exhibited increased neurodegeneration and mortality relative to non-transgenic littermates. Activation of NF-kappaB p50 was found to be impaired in transgenic mice with unaltered expression levels suggesting that mutPS-1 expression inhibits p50 activation to adversely affect neuronal resistance to injury.
+12573544	0	4	Mice	Species	10090
+12573544	16	21	human	Species	9606
+12573544	29	41	presenilin-1	Gene	5663
+12573544	74	87	NF-kappaB p50	Gene	18033
+12573544	142	154	presenilin-1	Gene	5663
+12573544	191	210	Alzheimer's disease	Disease	MESH:D000544
+12573544	281	293	trimethyltin	Chemical	MESH:C046488
+12573544	303	332	hippocampal neurodegeneration	Disease	MESH:D000092223
+12573544	334	338	mice	Species	10090
+12573544	354	359	human	Species	9606
+12573544	374	379	M146L	ProteinMutation	tmVar:p|SUB|M|146|L;HGVS:p.M146L;VariantGroup:0;CorrespondingGene:5663;RS#:63750306;CorrespondingSpecies:9606;CA#:225022
+12573544	401	418	neurodegeneration	Disease	MESH:D019636
+12573544	487	500	NF-kappaB p50	Gene	18033
+12573544	540	544	mice	Species	10090
+12573544	622	625	p50	Gene	18033
+12573544	677	686	to injury	Disease	MESH:D014947
+12573544	Positive_Correlation	MESH:D019636	RS#:63750306;HGVS:p.M146L;CorrespondingGene:5663
+12573544	Association	MESH:D000092223	RS#:63750306;HGVS:p.M146L;CorrespondingGene:5663
+12573544	Association	MESH:C046488	MESH:D000092223
+12573544	Negative_Correlation	18033	5663
+12573544	Association	MESH:D014947	18033
+12573544	Association	MESH:D000544	5663
+12573544	Association	MESH:D019636	5663
+12573544	Association	MESH:D000092223	5663
+

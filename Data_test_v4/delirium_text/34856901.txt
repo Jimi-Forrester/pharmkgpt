@@ -1,0 +1,38 @@
+34856901|t|Comprehensive Analysis of Differential Expression Profiles of Long Noncoding RNAs with Associated Co-expression and Competing Endogenous RNA Networks in the Hippocampus of Patients with Alzheimer's Disease.
+34856901|a|BACKGROUND: Alzheimer's disease (AD) is still one of the major threats to human health. Although a satisfactory treatment for AD has not yet been discovered, it is necessary to continue to search for novel approaches to deal with this insidious and debilitating disease. Although numerous studies have shown that long non-coding RNA (lncRNA) occupy a significant role in a variety of diseases, their roles in AD remain unclear. OBJECTIVE: Using data analysis to explore the role of lncRNA in the course of AD, to further our understanding of AD, and to look forward to finding a new breakthrough for the treatment of AD. METHODS: We downloaded and screened expression data of the hippocampal regions of patients with AD from the Gene Expression Omnibus database. We generated lncRNA-miRNA-mRNA networks based on the competing endogenous RNA (ceRNA) hypothesis, and according to gene expression level, we constructed a coding-noncoding co-expression (CNC) network and then executed cis- and trans-regulation analyses. RESULTS: Through comprehensive and systematic analyses, we found that lncRNAs MALAT1, OIP5-AS1, LINC00657, and lnc-NUMB-1 regulated the expression of the key AD pathogenic genes APP, PSEN1, BACE1; and that these lncRNAs may promote the distribution of beta-amyloid (Abeta protein) in the brain through exosomes. In addition, lncRNAs were found to adjust viral transcriptional expression, thereby further supporting viral pathogenesis for AD. CONCLUSION: The lncRNAs MALAT1, OIP5-AS1, LINC00657, and lnc-NUMB-1 that are present in the hippocampus of AD patients exert an important influence on the development of this disease.
+34856901	172	180	Patients	Species	9606
+34856901	186	205	Alzheimer's Disease	Disease	MESH:D000544
+34856901	219	238	Alzheimer's disease	Disease	MESH:D000544
+34856901	240	242	AD	Disease	MESH:D000544
+34856901	281	286	human	Species	9606
+34856901	333	335	AD	Disease	MESH:D000544
+34856901	616	618	AD	Disease	MESH:D000544
+34856901	713	715	AD	Disease	MESH:D000544
+34856901	749	751	AD	Disease	MESH:D000544
+34856901	824	826	AD	Disease	MESH:D000544
+34856901	910	918	patients	Species	9606
+34856901	924	926	AD	Disease	MESH:D000544
+34856901	1302	1308	MALAT1	Gene	378938
+34856901	1310	1314	OIP5	Gene	11339
+34856901	1320	1329	LINC00657	Gene	647979
+34856901	1382	1384	AD	Disease	MESH:D000544
+34856901	1407	1412	PSEN1	Gene	5663
+34856901	1414	1419	BACE1	Gene	23621
+34856901	1662	1664	AD	Disease	MESH:D000544
+34856901	1690	1696	MALAT1	Gene	378938
+34856901	1698	1703	OIP5-	Gene	11339
+34856901	1708	1717	LINC00657	Gene	647979
+34856901	1773	1775	AD	Disease	MESH:D000544
+34856901	1776	1784	patients	Species	9606
+34856901	Association	378938	5663
+34856901	Association	MESH:D000544	378938
+34856901	Association	11339	23621
+34856901	Positive_Correlation	MESH:D000544	647979
+34856901	Association	MESH:D000544	23621
+34856901	Association	11339	5663
+34856901	Association	MESH:D000544	5663
+34856901	Association	23621	647979
+34856901	Association	23621	378938
+34856901	Association	5663	647979
+34856901	Association	MESH:D000544	11339
+

@@ -1,0 +1,65 @@
+24523906|t|Hydrogen sulfide inhibits A2A adenosine receptor agonist induced beta-amyloid production in SH-SY5Y neuroblastoma cells via a cAMP dependent pathway.
+24523906|a|Alzheimer's disease (AD) is the leading cause of senile dementia in today's society. Its debilitating symptoms are manifested by disturbances in many important brain functions, which are influenced by adenosine. Hence, adenosinergic system is considered as a potential therapeutic target in AD treatment. In the present study, we found that sodium hydrosulfide (NaHS, an H2S donor, 100 microM) attenuated HENECA (a selective A2A receptor agonist, 10-200 nM) induced beta-amyloid (1-42) (Abeta42) production in SH-SY5Y cells. NaHS also interfered with HENECA-stimulated production and post-translational modification of amyloid precursor protein (APP) by inhibiting its maturation. Measurement of the C-terminal APP fragments generated from its enzymatic cleavage by beta-site amyloid precursor protein cleaving enzyme 1 (BACE1) showed that NaHS did not have any significant effect on beta-secretase activity. However, the direct measurements of HENECA-elevated gamma-secretase activity and mRNA expressions of presenilins suggested that the suppression of Abeta42 production in NaHS pretreated cells was mediated by inhibiting gamma-secretase. NaHS induced reductions were accompanied by similar decreases in intracellular cAMP levels and phosphorylation of cAMP responsive element binding protein (CREB). NaHS significantly reduced the elevated cAMP and Abeta42 production caused by forskolin (an adenylyl cyclase, AC agonist) alone or forskolin in combination with IBMX (a phosphodiesterase inhibitor), but had no effect on those caused by IBMX alone. Moreover, pretreatment with NaHS significantly attenuated HENECA-elevated AC activity and mRNA expressions of various AC isoforms. These data suggest that NaHS may preferentially suppress AC activity when it was stimulated. In conclusion, H2S attenuated HENECA induced Abeta42 production in SH-SY5Y neuroblastoma cells through inhibiting gamma-secretase via a cAMP dependent pathway. 
+24523906	0	16	Hydrogen sulfide	Chemical	MESH:D006862
+24523906	26	29	A2A	DNAMutation	tmVar:c|SUB|A|2|A;HGVS:c.2A>A;VariantGroup:0;CorrespondingGene:23621;RS#:28917234;CorrespondingSpecies:9606
+24523906	92	113	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+24523906	126	130	cAMP	Chemical	-
+24523906	150	169	Alzheimer's disease	Disease	MESH:D000544
+24523906	171	173	AD	Disease	MESH:D000544
+24523906	199	214	senile dementia	Disease	MESH:D000544
+24523906	351	360	adenosine	Chemical	MESH:D000241
+24523906	441	443	AD	Disease	MESH:D000544
+24523906	491	510	sodium hydrosulfide	Chemical	MESH:C025451
+24523906	512	516	NaHS	Chemical	MESH:C025451
+24523906	521	524	H2S	Chemical	MESH:D006862
+24523906	555	561	HENECA	Chemical	MESH:C076864
+24523906	575	578	A2A	DNAMutation	tmVar:c|SUB|A|2|A;HGVS:c.2A>A;VariantGroup:0;CorrespondingGene:23621;RS#:28917234;CorrespondingSpecies:9606
+24523906	637	644	Abeta42	Gene	351
+24523906	660	667	SH-SY5Y	CellLine	CVCL:0019
+24523906	675	679	NaHS	Chemical	MESH:C025451
+24523906	769	794	amyloid precursor protein	Gene	351
+24523906	916	969	beta-site amyloid precursor protein cleaving enzyme 1	Gene	23621
+24523906	971	976	BACE1	Gene	23621
+24523906	990	994	NaHS	Chemical	MESH:C025451
+24523906	1095	1101	HENECA	Chemical	MESH:C076864
+24523906	1206	1213	Abeta42	Gene	351
+24523906	1228	1232	NaHS	Chemical	MESH:C025451
+24523906	1294	1298	NaHS	Chemical	MESH:C025451
+24523906	1373	1377	cAMP	Chemical	-
+24523906	1408	1447	cAMP responsive element binding protein	Gene	1385
+24523906	1449	1453	CREB	Gene	1385
+24523906	1456	1460	NaHS	Chemical	MESH:C025451
+24523906	1496	1500	cAMP	Chemical	-
+24523906	1505	1512	Abeta42	Gene	351
+24523906	1534	1543	forskolin	Chemical	MESH:D005576
+24523906	1587	1596	forskolin	Chemical	MESH:D005576
+24523906	1617	1621	IBMX	Chemical	MESH:D015056
+24523906	1692	1696	IBMX	Chemical	MESH:D015056
+24523906	1732	1736	NaHS	Chemical	MESH:C025451
+24523906	1762	1768	HENECA	Chemical	MESH:C076864
+24523906	1859	1863	NaHS	Chemical	MESH:C025451
+24523906	1943	1946	H2S	Chemical	MESH:D006862
+24523906	1958	1964	HENECA	Chemical	MESH:C076864
+24523906	1973	1980	Abeta42	Gene	351
+24523906	1995	2016	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+24523906	2064	2068	cAMP	Chemical	-
+24523906	Positive_Correlation	MESH:C076864	RS#:28917234;HGVS:c.2A>A;CorrespondingGene:23621
+24523906	Negative_Correlation	MESH:D006862	RS#:28917234;HGVS:c.2A>A;CorrespondingGene:23621
+24523906	Association	RS#:28917234;HGVS:c.2A>A;CorrespondingGene:23621	MESH:D000544
+24523906	Cotreatment	MESH:D005576	MESH:D015056
+24523906	Negative_Correlation	MESH:C025451	RS#:28917234;HGVS:c.2A>A;CorrespondingGene:23621
+24523906	Positive_Correlation	MESH:C076864	MESH:D000544
+24523906	Association	MESH:D000241	MESH:D000544
+24523906	Negative_Correlation	MESH:C025451	351
+24523906	Negative_Correlation	MESH:C025451	MESH:D005576
+24523906	Negative_Correlation	MESH:D006862	351
+24523906	Negative_Correlation	MESH:C076864	MESH:D006862
+24523906	Negative_Correlation	MESH:C025451	MESH:D000544
+24523906	Positive_Correlation	MESH:D015056	351
+24523906	Positive_Correlation	MESH:C076864	351
+24523906	Negative_Correlation	MESH:C025451	MESH:C076864
+24523906	Negative_Correlation	MESH:C025451	1385
+24523906	Positive_Correlation	MESH:D005576	351
+24523906	Positive_Correlation	MESH:D000544	351
+24523906	Association	MESH:D000544	23621
+

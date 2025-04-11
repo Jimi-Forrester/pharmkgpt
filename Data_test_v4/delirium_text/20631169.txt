@@ -1,0 +1,55 @@
+20631169|t|beta-Amyloid disrupts activity-dependent gene transcription required for memory through the CREB coactivator CRTC1.
+20631169|a|Activity-dependent gene expression mediating changes of synaptic efficacy is important for memory storage, but the mechanisms underlying gene transcriptional changes in age-related memory disorders are poorly understood. In this study, we report that gene transcription mediated by the cAMP-response element binding protein (CREB)-regulated transcription coactivator CRTC1 is impaired in neurons and brain from an Alzheimer's disease (AD) transgenic mouse expressing the human beta-amyloid precursor protein (APP(Sw,Ind)). Suppression of CRTC1-dependent gene transcription by beta-amyloid (Abeta) in response to cAMP and Ca(2+) signals is mediated by reduced calcium influx and disruption of PP2B/calcineurin-dependent CRTC1 dephosphorylation at Ser151. Consistently, expression of CRTC1 or active CRTC1 S151A and calcineurin mutants reverse the deficits on CRTC1 transcriptional activity in APP(Sw,Ind) neurons. Inhibition of calcium influx by pharmacological blockade of L-type voltage-gated calcium channels (VGCCs), but not by blocking NMDA or AMPA receptors, mimics the decrease on CRTC1 transcriptional activity observed in APP(Sw,Ind) neurons, whereas agonists of L-type VGCCs reverse efficiently these deficits. Consistent with a role of CRTC1 on Abeta-induced synaptic and memory dysfunction, we demonstrate a selective reduction of CRTC1-dependent genes related to memory (Bdnf, c-fos, and Nr4a2) coinciding with hippocampal-dependent spatial memory deficits in APP(Sw,Ind) mice. These findings suggest that CRTC1 plays a key role in coupling synaptic activity to gene transcription required for hippocampal-dependent memory, and that Abeta could disrupt cognition by affecting CRTC1 function.
+20631169	92	96	CREB	Gene	12912
+20631169	109	114	CRTC1	Gene	382056
+20631169	297	313	memory disorders	Disease	MESH:D008569
+20631169	402	439	cAMP-response element binding protein	Gene	1385
+20631169	441	445	CREB	Gene	1385
+20631169	483	488	CRTC1	Gene	382056
+20631169	530	549	Alzheimer's disease	Disease	MESH:D000544
+20631169	551	553	AD	Disease	MESH:D000544
+20631169	566	571	mouse	Species	10090
+20631169	587	592	human	Species	9606
+20631169	593	623	beta-amyloid precursor protein	Gene	351
+20631169	654	659	CRTC1	Gene	382056
+20631169	706	711	Abeta	Gene	351
+20631169	728	732	cAMP	Chemical	-
+20631169	737	743	Ca(2+)	Chemical	-
+20631169	775	782	calcium	Chemical	MESH:D002118
+20631169	835	840	CRTC1	Gene	382056
+20631169	862	868	Ser151	ProteinMutation	tmVar:p|Allele|S|151;VariantGroup:0;CorrespondingGene:23373;CorrespondingSpecies:9606
+20631169	898	903	CRTC1	Gene	382056
+20631169	914	919	CRTC1	Gene	23373
+20631169	920	925	S151A	ProteinMutation	tmVar:p|SUB|S|151|A;HGVS:p.S151A;VariantGroup:0;CorrespondingGene:23373;CorrespondingSpecies:9606
+20631169	974	979	CRTC1	Gene	382056
+20631169	1043	1050	calcium	Chemical	MESH:D002118
+20631169	1203	1208	CRTC1	Gene	382056
+20631169	1362	1367	CRTC1	Gene	382056
+20631169	1371	1376	Abeta	Gene	11820
+20631169	1398	1416	memory dysfunction	Disease	MESH:D008569
+20631169	1458	1463	CRTC1	Gene	382056
+20631169	1499	1503	Bdnf	Gene	12064
+20631169	1505	1510	c-fos	Gene	14281
+20631169	1516	1521	Nr4a2	Gene	18227
+20631169	1569	1584	memory deficits	Disease	MESH:D008569
+20631169	1600	1604	mice	Species	10090
+20631169	1634	1639	CRTC1	Gene	382056
+20631169	1761	1766	Abeta	Gene	351
+20631169	1804	1809	CRTC1	Gene	382056
+20631169	Negative_Correlation	MESH:D008569	14281
+20631169	Association	18227	382056
+20631169	Positive_Correlation	MESH:D008569	11820
+20631169	Association	14281	382056
+20631169	Association	MESH:D008569	12064
+20631169	Association	1385	382056
+20631169	Negative_Correlation	351	382056
+20631169	Positive_Correlation	MESH:D002118	382056
+20631169	Association	11820	382056
+20631169	Association	12064	382056
+20631169	Negative_Correlation	MESH:D000544	382056
+20631169	Positive_Correlation	MESH:D008569	CorrespondingGene:23373;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+20631169	Negative_Correlation	MESH:D008569	382056
+20631169	Association	MESH:D008569	18227
+20631169	Association	MESH:D002118	351
+20631169	Association	MESH:D008569	23373
+

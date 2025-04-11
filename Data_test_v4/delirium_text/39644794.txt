@@ -1,0 +1,28 @@
+39644794|t|Application of machine learning for delirium prediction and analysis of associated factors in hospitalized COVID-19 patients: A comparative study using the Korean Multidisciplinary cohort for delirium prevention (KoMCoDe).
+39644794|a|BACKGROUND: The incidence of delirium in hospitalized coronavirus disease 2019 (COVID-19) patients is linked to adverse health outcomes. Predicting the occurrence and risk factors of delirium is key to preventing its sudden onset. AIMS: To explore the factors associated with delirium in hospitalized COVID-19 patients and to compare the performance of various machine learning (ML) techniques for future use in predicting delirium. METHODS: We analyzed a dataset of 1,031 cases from two healthcare centers, which included 178 variables such as demographics, clinical data, and medication information. The ML techniques used in this study were extreme gradient boosting (XGB), light gradient boosting machine (LGBM), logistic regression (LR), random forest (RF), and support vector machine (SVM). RESULTS: The RF model emerged as the most effective for predicting delirium, achieving an area under the curve (AUC) of 0.923. It showed a sensitivity of 0.639, accuracy of 0.900, specificity of 0.934, positive predictive value (PPV) of 0.561, negative predictive value (NPV) of 0.952, and an F1 score of 0.597. The RF model identified key variables related to delirium, including medication type (antipsychotic, sedative, opioid), duration of hospital stay, remdesivir usage, and patient age. The reliability of the model was affirmed through calibration plots and Brier score evaluations. CONCLUSIONS: This research developed and validated an RF-based ML model for predicting delirium in hospitalized COVID-19 patients. The model demonstrates superior accuracy and reliability compared to other ML methods and would possibly serve as a valuable tool for managing and anticipating delirium in COVID-19 patients, with the potential to enhance patient outcomes.
+39644794	36	44	delirium	Disease	MESH:D003693
+39644794	107	115	COVID-19	Disease	MESH:D000086382
+39644794	116	124	patients	Species	9606
+39644794	192	200	delirium	Disease	MESH:D003693
+39644794	252	260	delirium	Disease	MESH:D003693
+39644794	277	301	coronavirus disease 2019	Disease	MESH:D000086382
+39644794	303	311	COVID-19	Disease	MESH:D000086382
+39644794	313	321	patients	Species	9606
+39644794	406	414	delirium	Disease	MESH:D003693
+39644794	499	507	delirium	Disease	MESH:D003693
+39644794	524	532	COVID-19	Disease	MESH:D000086382
+39644794	533	541	patients	Species	9606
+39644794	646	654	delirium	Disease	MESH:D003693
+39644794	1087	1095	delirium	Disease	MESH:D003693
+39644794	1381	1389	delirium	Disease	MESH:D003693
+39644794	1479	1489	remdesivir	Chemical	MESH:C000606551
+39644794	1501	1508	patient	Species	9606
+39644794	1698	1706	delirium	Disease	MESH:D003693
+39644794	1723	1731	COVID-19	Disease	MESH:D000086382
+39644794	1732	1740	patients	Species	9606
+39644794	1902	1910	delirium	Disease	MESH:D003693
+39644794	1914	1922	COVID-19	Disease	MESH:D000086382
+39644794	1923	1931	patients	Species	9606
+39644794	1963	1970	patient	Species	9606
+39644794	Positive_Correlation	MESH:C000606551	MESH:D003693
+

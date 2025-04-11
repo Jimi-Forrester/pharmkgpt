@@ -1,0 +1,28 @@
+32568737|t|Computational study on new natural compound inhibitors of indoleamine 2,3-dioxygenase 1.
+32568737|a|Indoleamine 2,3-Dioxygenase (IDO), is a speed limiting enzyme that catalyzes the decomposition and metabolism of Tryptophan along Tryptophan-IDO-Kynurenine pathway [1]. Tryptophan is a necessary amino acid for activating cell growth and metabolism. Additionally, the insufficiency of Tryptophan can lead to immune system dysfunction. Raising the level of Indoleamine 2,3-Dioxygenase protein can promote stagnation and apoptosis of effector T cells [2].In contrast, the decline in the number of effect T cells naturally protects cancer cells from attack. Therefore, Indoleamine 2,3-Dioxygenase is a potential target for tumour immunotherapy, such as melanoma, ovarian cancer, lung cancer, leukaemia, and so on, especially in solid tumours [3]. In the study, we have done sets of virtual screening aided by computer techniques in order to find potentially effective inhibitors of Indoleamine 2,3-Dioxygenase. Firstly, screening based on structure was carried out by Libdock. Then, ADME (adsorption, distribution, metabolism, excretion) and toxicity prediction were also analyzed. Molecular docking and 3D-QSAR pharmacophore generation were used to study the mechanism of these compounds and Indoleamine 2,3-Dioxygenase's binding. A molecular dynamic analysis was carried out to assess if these potential compound's binding is stable enough. According to the results of the analysis above, two potential compounds (ZINC000012495022 and ZINC000003791817) from the ZINC database were discovered to interact with Indoleamine 2,3-Dioxygenase with appropriate energy and proved to be none toxic. The study offered valuable information of Indoleamine 2,3-Dioxygenase inhibitor-based drug discovery in cancer therapy by increasing the activity of T cells and releasing immunity suppression [4, 5].
+32568737	58	87	indoleamine 2,3-dioxygenase 1	Gene	3620
+32568737	118	121	IDO	Gene	3620
+32568737	202	212	Tryptophan	Chemical	MESH:D014364
+32568737	219	229	Tryptophan	Chemical	MESH:D014364
+32568737	230	233	IDO	Gene	3620
+32568737	234	244	Kynurenine	Chemical	MESH:D007737
+32568737	258	268	Tryptophan	Chemical	MESH:D014364
+32568737	373	383	Tryptophan	Chemical	MESH:D014364
+32568737	396	421	immune system dysfunction	Disease	MESH:D007154
+32568737	617	623	cancer	Disease	MESH:D009369
+32568737	708	714	tumour	Disease	MESH:D009369
+32568737	738	746	melanoma	Disease	MESH:D008545
+32568737	748	762	ovarian cancer	Disease	MESH:D010051
+32568737	764	775	lung cancer	Disease	MESH:D008175
+32568737	777	786	leukaemia	Disease	MESH:D015458
+32568737	813	826	solid tumours	Disease	MESH:D009369
+32568737	1127	1135	toxicity	Disease	MESH:D064420
+32568737	1501	1517	ZINC000012495022	Chemical	-
+32568737	1522	1538	ZINC000003791817	Chemical	-
+32568737	1781	1787	cancer	Disease	MESH:D009369
+32568737	Association	MESH:D007737	MESH:D014364
+32568737	Positive_Correlation	MESH:D014364	MESH:D007154
+32568737	Association	MESH:D014364	3620
+32568737	Association	MESH:D009369	3620
+32568737	Association	MESH:D007737	3620
+

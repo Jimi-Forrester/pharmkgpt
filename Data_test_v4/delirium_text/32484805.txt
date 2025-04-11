@@ -1,0 +1,87 @@
+32484805|t|Ferroptosis in Low-Grade Glioma: A New Marker for Diagnosis and Prognosis.
+32484805|a|BACKGROUND The extent of glioma resection influences the overall survival (OS) and progression-free survival (PFS). Ferroptosis is a newly recognized type of cell death, which may be associated with low-grade glioma border detection and OS. This study is assessed an optimized ferroptosis gene panel for glioma treatment. MATERIAL AND METHODS We obtained 45 reports on ferroptosis-related proteins in PubMed and conducted a statistical test of the patients' overall survival (OS) in the TCGA GBMLGG and CGGA databases. The statistically significant genes were screened for an optimal panel, followed by GO and KEGG analysis and evaluated its correlation with known prognostic factors of glioma, including IDH1 mutation, methylated MGMT, tumor purity, 1p/19q LOH, and methionine cycle. RESULTS Eight genes panel (ALOX5, CISD1, FTL, CD44, FANCD2, NFE2L2, SLC1A5, and GOT1) were highly related to OS (P<0.001) and PFS (P<0.001) of low-grade glioma (LGG) patients, out of which 6 genes (ALOX5, CISD1, CD44, FTL, FANCD2, and SLC1A5) were correlated with IDH1_p.R132H (P<0.001) and 5 genes (ALOX5, CD44, FTL, NFE2L2, SLC1A5) showed a correlation with tumor purity (P<0.001). Five genes (ALOX5, CD44, CISD1, FTL, and SLC1A5) were associated with methylated MGMT (P<0.001), out of which 6 genes (ALOX5, CD44, FANCD2, NFE2L2, SLC1A5, and GOT1) had significantly different expression in healthy brain tissue vs. glioma (P<0.001). CONCLUSIONS Our panel of 8 ferroptosis genes showed a significant correlation with the diagnostic and prognostic factors of low-grade glioma and can be applied in neuroradiology and surgery.
+32484805	0	11	Ferroptosis	Disease	
+32484805	25	31	Glioma	Disease	MESH:D005910
+32484805	100	106	glioma	Disease	MESH:D005910
+32484805	191	202	Ferroptosis	Disease	
+32484805	284	290	glioma	Disease	MESH:D005910
+32484805	352	363	ferroptosis	Disease	
+32484805	379	385	glioma	Disease	MESH:D005910
+32484805	444	455	ferroptosis	Disease	
+32484805	523	531	patients	Species	9606
+32484805	762	768	glioma	Disease	MESH:D005910
+32484805	780	784	IDH1	Gene	3417
+32484805	806	810	MGMT	Gene	4255
+32484805	812	817	tumor	Disease	MESH:D009369
+32484805	887	892	ALOX5	Gene	240
+32484805	894	899	CISD1	Gene	55847
+32484805	901	904	FTL	Gene	2512
+32484805	906	910	CD44	Gene	960
+32484805	912	918	FANCD2	Gene	2177
+32484805	920	926	NFE2L2	Gene	4780
+32484805	928	934	SLC1A5	Gene	6510
+32484805	940	944	GOT1	Gene	2805
+32484805	1013	1019	glioma	Disease	MESH:D005910
+32484805	1021	1024	LGG	Disease	MESH:D008228
+32484805	1026	1034	patients	Species	9606
+32484805	1058	1063	ALOX5	Gene	240
+32484805	1065	1070	CISD1	Gene	55847
+32484805	1072	1076	CD44	Gene	960
+32484805	1078	1081	FTL	Gene	2512
+32484805	1083	1089	FANCD2	Gene	2177
+32484805	1095	1101	SLC1A5	Gene	6510
+32484805	1124	1128	IDH1	Gene	3417
+32484805	1129	1136	p.R132H	ProteinMutation	tmVar:p|SUB|R|132|H;HGVS:p.R132H;VariantGroup:0;CorrespondingGene:3417;RS#:121913500;CorrespondingSpecies:9606;CA#:170874
+32484805	1160	1165	ALOX5	Gene	240
+32484805	1167	1171	CD44	Gene	960
+32484805	1173	1176	FTL	Gene	2512
+32484805	1178	1184	NFE2L2	Gene	4780
+32484805	1186	1192	SLC1A5	Gene	6510
+32484805	1220	1225	tumor	Disease	MESH:D009369
+32484805	1256	1261	ALOX5	Gene	240
+32484805	1263	1267	CD44	Gene	960
+32484805	1269	1274	CISD1	Gene	55847
+32484805	1276	1279	FTL	Gene	2512
+32484805	1285	1291	SLC1A5	Gene	6510
+32484805	1325	1329	MGMT	Gene	4255
+32484805	1363	1368	ALOX5	Gene	240
+32484805	1370	1374	CD44	Gene	960
+32484805	1376	1382	FANCD2	Gene	2177
+32484805	1384	1390	NFE2L2	Gene	4780
+32484805	1392	1398	SLC1A5	Gene	6510
+32484805	1404	1408	GOT1	Gene	2805
+32484805	1477	1483	glioma	Disease	MESH:D005910
+32484805	1522	1533	ferroptosis	Disease	
+32484805	1629	1635	glioma	Disease	MESH:D005910
+32484805	Association	4255	960
+32484805	Association	3417	960
+32484805	Association	MESH:D009369	2512
+32484805	Association	MESH:D009369	240
+32484805	Association	MESH:D005910	RS#:121913500;HGVS:p.R132H;CorrespondingGene:3417
+32484805	Association	4255	6510
+32484805	Association	MESH:D008228	2512
+32484805	Association	MESH:D005910	4780
+32484805	Association	MESH:D008228	55847
+32484805	Association	MESH:D009369	4780
+32484805	Association	MESH:D005910	2805
+32484805	Association	MESH:D009369	6510
+32484805	Association	2512	3417
+32484805	Association	240	4255
+32484805	Association	MESH:D005910	960
+32484805	Association	MESH:D005910	3417
+32484805	Association	2512	4255
+32484805	Association	MESH:D008228	2177
+32484805	Association	MESH:D005910	55847
+32484805	Association	MESH:D008228	960
+32484805	Association	MESH:D005910	6510
+32484805	Association	240	3417
+32484805	Association	MESH:D005910	2177
+32484805	Association	MESH:D008228	6510
+32484805	Association	MESH:D009369	960
+32484805	Association	4255	55847
+32484805	Association	MESH:D008228	240
+32484805	Association	MESH:D008228	2805
+32484805	Association	MESH:D005910	2512
+32484805	Association	MESH:D005910	240
+32484805	Association	MESH:D005910	3417
+

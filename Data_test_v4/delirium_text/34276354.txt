@@ -1,0 +1,59 @@
+34276354|t|Computational Drug Repurposing for Alzheimer's Disease Using Risk Genes From GWAS and Single-Cell RNA Sequencing Studies.
+34276354|a|Background: Traditional therapeutics targeting Alzheimer's disease (AD)-related subpathologies have so far proved ineffective. Drug repurposing, a more effective strategy that aims to find new indications for existing drugs against other diseases, offers benefits in AD drug development. In this study, we aim to identify potential anti-AD agents through enrichment analysis of drug-induced transcriptional profiles of pathways based on AD-associated risk genes identified from genome-wide association analyses (GWAS) and single-cell transcriptomic studies. Methods: We systematically constructed four gene lists (972 risk genes) from GWAS and single-cell transcriptomic studies and performed functional and genes overlap analyses in Enrichr tool. We then used a comprehensive drug repurposing tool Gene2Drug by combining drug-induced transcriptional responses with the associated pathways to compute candidate drugs from each gene list. Prioritized potential candidates (eight drugs) were further assessed with literature review. Results: The genomic-based gene lists contain late-onset AD associated genes (BIN1, ABCA7, APOE, CLU, and PICALM) and clinical AD drug targets (TREM2, CD33, CHRNA2, PRSS8, ACE, TKT, APP, and GABRA1). Our analysis identified eight AD candidate drugs (ellipticine, alsterpaullone, tomelukast, ginkgolide A, chrysin, ouabain, sulindac sulfide and lorglumide), four of which (alsterpaullone, ginkgolide A, chrysin and ouabain) have shown repurposing potential for AD validated by their preclinical evidence and moderate toxicity profiles from literature. These support the value of pathway-based prioritization based on the disease risk genes from GWAS and scRNA-seq data analysis. Conclusion: Our analysis strategy identified some potential drug candidates for AD. Although the drugs still need further experimental validation, the approach may be applied to repurpose drugs for other neurological disorders using their genomic information identified from large-scale genomic studies.
+34276354	35	54	Alzheimer's Disease	Disease	MESH:D000544
+34276354	169	188	Alzheimer's disease	Disease	MESH:D000544
+34276354	190	192	AD	Disease	MESH:D000544
+34276354	389	391	AD	Disease	MESH:D000544
+34276354	459	461	AD	Disease	MESH:D000544
+34276354	559	561	AD	Disease	MESH:D000544
+34276354	1210	1212	AD	Disease	MESH:D000544
+34276354	1231	1235	BIN1	Gene	274
+34276354	1237	1242	ABCA7	Gene	10347
+34276354	1244	1248	APOE	Gene	348
+34276354	1250	1253	CLU	Gene	1191
+34276354	1259	1265	PICALM	Gene	8301
+34276354	1280	1282	AD	Disease	MESH:D000544
+34276354	1297	1302	TREM2	Gene	54209
+34276354	1304	1308	CD33	Gene	945
+34276354	1310	1316	CHRNA2	Gene	1135
+34276354	1318	1323	PRSS8	Gene	5652
+34276354	1325	1328	ACE	Gene	163
+34276354	1330	1333	TKT	Gene	7086
+34276354	1344	1350	GABRA1	Gene	2554
+34276354	1383	1385	AD	Disease	MESH:D000544
+34276354	1403	1414	ellipticine	Chemical	MESH:C034192
+34276354	1416	1430	alsterpaullone	Chemical	MESH:C120793
+34276354	1432	1442	tomelukast	Chemical	-
+34276354	1444	1456	ginkgolide A	Chemical	MESH:C477042
+34276354	1458	1465	chrysin	Chemical	MESH:C043561
+34276354	1467	1474	ouabain	Chemical	MESH:D010042
+34276354	1476	1492	sulindac sulfide	Chemical	MESH:C025462
+34276354	1497	1507	lorglumide	Chemical	MESH:C048181
+34276354	1525	1539	alsterpaullone	Chemical	MESH:C120793
+34276354	1541	1553	ginkgolide A	Chemical	MESH:C477042
+34276354	1555	1562	chrysin	Chemical	MESH:C043561
+34276354	1567	1574	ouabain	Chemical	MESH:D010042
+34276354	1613	1615	AD	Disease	MESH:D000544
+34276354	1669	1677	toxicity	Disease	MESH:D064420
+34276354	1911	1913	AD	Disease	MESH:D000544
+34276354	2035	2057	neurological disorders	Disease	MESH:D009461
+34276354	Association	MESH:D000544	10347
+34276354	Association	MESH:D000544	945
+34276354	Negative_Correlation	MESH:C477042	MESH:D000544
+34276354	Association	MESH:D000544	1191
+34276354	Association	MESH:D000544	7086
+34276354	Association	MESH:D000544	2554
+34276354	Association	MESH:D000544	274
+34276354	Negative_Correlation	MESH:C034192	MESH:D000544
+34276354	Negative_Correlation	MESH:D010042	MESH:D000544
+34276354	Association	MESH:D000544	5652
+34276354	Association	MESH:D000544	348
+34276354	Association	MESH:D000544	54209
+34276354	Negative_Correlation	MESH:C048181	MESH:D000544
+34276354	Association	MESH:D000544	8301
+34276354	Association	MESH:D000544	1135
+34276354	Association	MESH:D000544	163
+34276354	Negative_Correlation	MESH:C043561	MESH:D000544
+34276354	Negative_Correlation	MESH:C025462	MESH:D000544
+34276354	Negative_Correlation	MESH:C120793	MESH:D000544
+

@@ -1,0 +1,13 @@
+36896421|t|Disease-gene prediction based on preserving structure network embedding.
+36896421|a|Many diseases, such as Alzheimer's disease (AD) and Parkinson's disease (PD), are caused by abnormalities or mutations of related genes. Many computational methods based on the network relationship between diseases and genes have been proposed to predict potential pathogenic genes. However, how to effectively mine the disease-gene relationship network to predict disease genes better is still an open problem. In this paper, a disease-gene-prediction method based on preserving structure network embedding (PSNE) is introduced. In order to predict pathogenic genes more effectively, a heterogeneous network with multiple types of bio-entities was constructed by integrating disease-gene associations, human protein network, and disease-disease associations. Furthermore, the low-dimension features of nodes extracted from the network were used to reconstruct a new disease-gene heterogeneous network. Compared with other advanced methods, the performance of PSNE has been confirmed more effective in disease-gene prediction. Finally, we applied the PSNE method to predict potential pathogenic genes for age-associated diseases such as AD and PD. We verified the effectiveness of these predicted potential genes by literature verification. Overall, this work provides an effective method for disease-gene prediction, and a series of high-confidence potential pathogenic genes of AD and PD which may be helpful for the experimental discovery of disease genes.
+36896421	96	115	Alzheimer's disease	Disease	MESH:D000544
+36896421	117	119	AD	Disease	MESH:D000544
+36896421	125	144	Parkinson's disease	Disease	MESH:D010300
+36896421	146	148	PD	Disease	MESH:D010300
+36896421	776	781	human	Species	9606
+36896421	1178	1201	age-associated diseases	Disease	MESH:C564653
+36896421	1210	1212	AD	Disease	MESH:D000544
+36896421	1217	1219	PD	Disease	MESH:D010300
+36896421	1453	1455	AD	Disease	MESH:D000544
+36896421	1460	1462	PD	Disease	MESH:D010300
+

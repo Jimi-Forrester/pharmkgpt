@@ -1,0 +1,16 @@
+35945568|t|An explainable self-attention deep neural network for detecting mild cognitive impairment using multi-input digital drawing tasks.
+35945568|a|BACKGROUND: Mild cognitive impairment (MCI) is an early stage of cognitive decline which could develop into dementia. An early detection of MCI is a crucial step for timely prevention and intervention. Recent studies have developed deep learning models to detect MCI and dementia using a bedside task like the classic clock drawing test (CDT). However, it remains a challenge to predict the early stage of the disease using the CDT data alone. Moreover, the state-of-the-art deep learning techniques still face black box challenges, making it questionable to implement them in a clinical setting. METHODS: We recruited 918 subjects from King Chulalongkorn Memorial Hospital (651 healthy subjects and 267 MCI patients). We propose a novel deep learning framework that incorporates data from the CDT, cube-copying, and trail-making tests. Soft label and self-attention were applied to improve the model performance and provide a visual explanation. The interpretability of the visualization of our model and the Grad-CAM approach were rated by experienced medical personnel and quantitatively evaluated using intersection over union (IoU) between the models' heat maps and the regions of interest. RESULTS: Rather than using a single CDT image in the baseline VGG16 model, using multiple drawing tasks as inputs into our proposed model with soft label significantly improves the classification performance between the healthy aging controls and the MCI patients. In particular, the classification accuracy increases from 0.75 (baseline model) to 0.81. The F1-score increases from 0.36 to 0.65, and the area under the receiver operating characteristic curve (AUC) increases from 0.74 to 0.84. Compared to the multi-input model that also offers interpretable visualization, i.e., Grad-CAM, our model receives higher interpretability scores given by experienced medical experts and higher IoUs. CONCLUSIONS: Our model achieves better classification performance at detecting MCI compared to the baseline model. In addition, the model provides visual explanations that are superior to those of the baseline model as quantitatively evaluated by experienced medical personnel. Thus, our work offers an interpretable machine learning model with high classification performance, both of which are crucial aspects of artificial intelligence in medical diagnosis.
+35945568	64	89	mild cognitive impairment	Disease	MESH:D060825
+35945568	143	168	Mild cognitive impairment	Disease	MESH:D060825
+35945568	170	173	MCI	Disease	MESH:D060825
+35945568	196	213	cognitive decline	Disease	MESH:D003072
+35945568	239	247	dementia	Disease	MESH:D003704
+35945568	271	274	MCI	Disease	MESH:D060825
+35945568	394	397	MCI	Disease	MESH:D060825
+35945568	402	410	dementia	Disease	MESH:D003704
+35945568	835	838	MCI	Disease	MESH:D060825
+35945568	839	847	patients	Species	9606
+35945568	1578	1581	MCI	Disease	MESH:D060825
+35945568	1582	1590	patients	Species	9606
+35945568	2100	2103	MCI	Disease	MESH:D060825
+

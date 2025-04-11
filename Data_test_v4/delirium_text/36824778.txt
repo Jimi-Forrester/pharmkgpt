@@ -1,0 +1,8 @@
+36824778|t|Chemical Entity Normalization for Successful Translational Development of Alzheimer's Disease and Dementia Therapeutics.
+36824778|a|BACKGROUND: Identifying chemical mentions within the Alzheimer's and dementia literature can provide a powerful tool to further therapeutic research. Leveraging the Chemical Entities of Biological Interest (ChEBI) ontology, which is rich in hierarchical and other relationship types, for entity normalization can provide an advantage for future downstream applications. We provide a reproducible hybrid approach that combines an ontology-enhanced PubMedBERT model for disambiguation with a dictionary-based method for candidate selection. RESULTS: There were 56,553 chemical mentions in the titles of 44,812 unique PubMed article abstracts. Based on our gold standard, our method of disambiguation improved entity normalization by 25.3 percentage points compared to using only the dictionary-based approach with fuzzy-string matching for disambiguation. For our Alzheimer's and dementia cohort, we were able to add 47.1% more potential mappings between MeSH and ChEBI when compared to BioPortal. CONCLUSION: Use of natural language models like PubMedBERT and resources such as ChEBI and PubChem provide a beneficial way to link entity mentions to ontology terms, while further supporting downstream tasks like filtering ChEBI mentions based on roles and assertions to find beneficial therapies for Alzheimer's and dementia.
+36824778	74	93	Alzheimer's Disease	Disease	MESH:D000544
+36824778	98	106	Dementia	Disease	MESH:D003704
+36824778	174	198	Alzheimer's and dementia	Disease	MESH:D000544
+36824778	983	1007	Alzheimer's and dementia	Disease	MESH:D000544
+36824778	1419	1443	Alzheimer's and dementia	Disease	MESH:D000544
+

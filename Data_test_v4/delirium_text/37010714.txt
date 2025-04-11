@@ -1,0 +1,55 @@
+37010714|t|Identification of Bone Metastatic and Prognostic Alternative Splicing Signatures in Prostate Adenocarcinoma.
+37010714|a|As the most common nonepithelial malignancy, prostate adenocarcinoma (PRAD) is the fifth chief cause of cancer mortality in men. Distant metastasis often occurs in advanced PRAD and most patients are dying from it. However, the mechanism of PRAD progression and metastasis is still unclear. It's widely reported that more than 94% of genes are selectively splicing in humans and many isoforms are particularly related with cancer progression and metastasis. Spliceosome mutations occur in a mutually exclusive manner in breast cancer, and different components of spliceosomes are targets of somatic mutations in different types of breast cancer. Existing evidence strongly supports the key role of alternative splicing in breast cancer biology, and innovative tools are being developed to use splicing events for diagnostic and therapeutic purposes. In order to identify if the PRAD metastasis is associated with alternative splicing events (ASEs), the RNA sequencing data and ASEs data of 500 PRAD patients were retrieved from The Cancer Genome Atlas (TCGA) and TCGASpliceSeq databases. By Lasso regression, five genes were screened to construct the prediction model, with a good reliability by ROC curve. Additionally, results in both univariate and multivariate Cox regression analysis confirmed the well prognosis efficacy of the prediction model (both P < 0.001). Moreover, a potential splicing regulatory network was established and after multiple-database validation, we supposed that the signaling axis of HSPB1 up-regulating the PIP5K1C - 46,721 - AT (P < 0.001) might mediate the tumorigenesis, progression and metastasis of PRAD via the key members of Alzheimer's disease pathway (SRC, EGFR, MAPT, APP and PRKCA) (P < 0.001).
+37010714	84	107	Prostate Adenocarcinoma	Disease	MESH:D000230
+37010714	128	152	nonepithelial malignancy	Disease	MESH:D009369
+37010714	154	177	prostate adenocarcinoma	Disease	MESH:D000230
+37010714	179	183	PRAD	Disease	MESH:D000230
+37010714	213	219	cancer	Disease	MESH:D009369
+37010714	233	236	men	Species	9606
+37010714	246	256	metastasis	Disease	MESH:D009362
+37010714	282	286	PRAD	Disease	MESH:D000230
+37010714	296	304	patients	Species	9606
+37010714	350	354	PRAD	Disease	MESH:D000230
+37010714	371	381	metastasis	Disease	MESH:D009362
+37010714	477	483	humans	Species	9606
+37010714	532	538	cancer	Disease	MESH:D009369
+37010714	555	565	metastasis	Disease	MESH:D009362
+37010714	629	642	breast cancer	Disease	MESH:D001943
+37010714	740	753	breast cancer	Disease	MESH:D001943
+37010714	831	844	breast cancer	Disease	MESH:D001943
+37010714	987	1002	PRAD metastasis	Disease	MESH:D000230
+37010714	1103	1107	PRAD	Disease	MESH:D000230
+37010714	1108	1116	patients	Species	9606
+37010714	1141	1147	Cancer	Disease	MESH:D009369
+37010714	1623	1628	HSPB1	Gene	3315
+37010714	1647	1654	PIP5K1C	Gene	23396
+37010714	1699	1712	tumorigenesis	Disease	MESH:D063646
+37010714	1730	1740	metastasis	Disease	MESH:D009362
+37010714	1744	1748	PRAD	Disease	MESH:D000230
+37010714	1772	1791	Alzheimer's disease	Disease	MESH:D000544
+37010714	1801	1804	SRC	Gene	6714
+37010714	1806	1810	EGFR	Gene	1956
+37010714	1812	1816	MAPT	Gene	4137
+37010714	1826	1831	PRKCA	Gene	5578
+37010714	Association	MESH:D000230	23396
+37010714	Association	MESH:D000544	23396
+37010714	Association	MESH:D000230	1956
+37010714	Association	MESH:D000230	5578
+37010714	Association	MESH:D000544	5578
+37010714	Association	MESH:D009362	3315
+37010714	Association	MESH:D000544	1956
+37010714	Association	MESH:D063646	3315
+37010714	Association	MESH:D000230	3315
+37010714	Association	MESH:D000230	4137
+37010714	Association	MESH:D063646	23396
+37010714	Association	MESH:D000544	4137
+37010714	Positive_Correlation	23396	3315
+37010714	Association	MESH:D009362	6714
+37010714	Association	MESH:D009362	23396
+37010714	Association	MESH:D009362	5578
+37010714	Association	MESH:D009362	1956
+37010714	Association	MESH:D000230	6714
+37010714	Association	MESH:D000544	3315
+37010714	Association	MESH:D009362	4137
+37010714	Association	MESH:D000544	6714
+

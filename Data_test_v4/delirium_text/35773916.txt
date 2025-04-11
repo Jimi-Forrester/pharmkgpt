@@ -1,0 +1,9 @@
+35773916|t|Explainable Optimized LightGBM Based Differentiation of Mild Cognitive Impairment Using MR Radiomic Features.
+35773916|a|In this study, an explainable Bayesian Optimized (BO) LightGBM model is employed to differentiate the Corpus Callosal (CC) image features of Healthy Controls (HC) and Mild Cognitive Impairment (MCI). For this, Magnetic Resonance (MR) brain images obtained from a public database are pre-processed and CC is segmented using spatial fuzzy clustering-based level set. Radiomic features are extracted from the segmented CC, which are further fed to BO-LightGBM classifier. SHapley Additive exPlanations (SHAP) technique is used to evaluate the interpretability of the model. The results indicate that radiomics based BO-LightGBM is able to differentiate MCI from HC. An area under curve of 0.83 is achieved by the model. SHAP values suggest that out of 56 radiomic features, texture descriptors possess the highest discriminative power in MCI diagnosis. The performance of adopted approach indicates that radiomics based BO-LightGBM aid in the automated diagnosis of early Alzheimer's Disease stages.
+35773916	61	81	Cognitive Impairment	Disease	MESH:D003072
+35773916	282	302	Cognitive Impairment	Disease	MESH:D003072
+35773916	304	307	MCI	Disease	MESH:D060825
+35773916	760	763	MCI	Disease	MESH:D060825
+35773916	945	948	MCI	Disease	MESH:D060825
+35773916	1079	1098	Alzheimer's Disease	Disease	MESH:D000544
+

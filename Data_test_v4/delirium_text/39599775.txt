@@ -1,0 +1,37 @@
+39599775|t|Decoding Critical Targets and Signaling Pathways in EBV-Mediated Diseases Using Large Language Models.
+39599775|a|Epstein-Barr virus (EBV), a member of the gamma herpesvirus, is the first identified human oncovirus and is associated with various malignancies. Understanding the intricate interactions between EBV antigens and cellular pathways is crucial to unraveling the molecular mechanisms in EBV-mediated diseases. However, fully elucidating EBV-host interactions and the associated pathogenesis remains a significant challenge. In this study, we employed large language models (LLMs) to screen 36,105 EBV-relevant scientific publications and summarize the current literature landscape on various EBV-associated diseases like Burkitt lymphoma (BL), diffuse large B-cell lymphoma (DLBCL), nasopharyngeal carcinoma (NPC), and so on. LLM-generated data indicate that the most-studied EBV-associated pathways are enriched in immune response, apoptosis, cell growth, and replication. The analyses of protein-protein interactions (PPIs) reveal three principal EBV-related protein clusters: TP53-centered apoptotic factors, EBV-associated transcription factors, and immune response elements. Utilizing our dataset and public databases, we demonstrated that BLLF3-targeted TLR2-associated factors are effective diagnostic markers for DLBCL. Next, we confirmed the co-expression of LMP1-targeted calcium pathway factors in BL. Finally, we demonstrated the correlation and co-expression of LMP1-induced PARP1, HIF1A, HK2, and key glycolysis-related factors, further suggesting that LMP1 actively regulates the glycolysis pathway. Therefore, our study presents a comprehensive functional encyclopedia of the interactions between EBV antigens and host signaling pathways across various EBV-associated diseases, providing valuable insights for the development of therapeutic strategies.
+39599775	52	73	EBV-Mediated Diseases	Disease	MESH:D020031
+39599775	103	121	Epstein-Barr virus	Species	10376
+39599775	188	193	human	Species	9606
+39599775	235	247	malignancies	Disease	MESH:D009369
+39599775	386	407	EBV-mediated diseases	Disease	MESH:D020031
+39599775	691	714	EBV-associated diseases	Disease	MESH:D020031
+39599775	720	736	Burkitt lymphoma	Disease	MESH:D002051
+39599775	738	740	BL	Disease	MESH:D002051
+39599775	743	772	diffuse large B-cell lymphoma	Disease	MESH:D016403
+39599775	774	779	DLBCL	Disease	MESH:D016403
+39599775	782	806	nasopharyngeal carcinoma	Disease	MESH:D000077274
+39599775	808	811	NPC	Disease	MESH:D000077274
+39599775	1078	1082	TP53	Gene	7157
+39599775	1244	1249	BLLF3	Gene	3783715
+39599775	1259	1263	TLR2	Gene	7097
+39599775	1320	1325	DLBCL	Disease	MESH:D016403
+39599775	1367	1371	LMP1	Gene	3783750
+39599775	1381	1388	calcium	Chemical	MESH:D002118
+39599775	1408	1410	BL	Disease	MESH:D002051
+39599775	1474	1478	LMP1	Gene	3783750
+39599775	1487	1492	PARP1	Gene	142
+39599775	1494	1499	HIF1A	Gene	3091
+39599775	1501	1504	HK2	Gene	3099
+39599775	1566	1570	LMP1	Gene	3783750
+39599775	1768	1791	EBV-associated diseases	Disease	MESH:D020031
+39599775	Positive_Correlation	142	3783750
+39599775	Association	MESH:D016403	7097
+39599775	Positive_Correlation	3091	3783750
+39599775	Association	MESH:D016403	3783715
+39599775	Association	MESH:D002118	3783750
+39599775	Association	MESH:D002051	3783750
+39599775	Positive_Correlation	3099	3783750
+39599775	Association	3783715	7097
+39599775	Association	MESH:D002118	MESH:D002051
+

@@ -1,0 +1,30 @@
+31911436|t|A dual druggable genome-wide siRNA and compound library screening approach identifies modulators of parkin recruitment to mitochondria.
+31911436|a|Genetic and biochemical evidence points to an association between mitochondrial dysfunction and Parkinson's disease (PD). PD-associated mutations in several genes have been identified and include those encoding PTEN-induced putative kinase 1 (PINK1) and parkin. To identify genes, pathways, and pharmacological targets that modulate the clearance of damaged or old mitochondria (mitophagy), here we developed a high-content imaging-based assay of parkin recruitment to mitochondria and screened both a druggable genome-wide siRNA library and a small neuroactive compound library. We used a multiparameter principal component analysis and an unbiased parameter-agnostic machine-learning approach to analyze the siRNA-based screening data. The hits identified in this analysis included specific genes of the ubiquitin proteasome system, and inhibition of ubiquitin-conjugating enzyme 2 N (UBE2N) with a specific antagonist, Bay 11-7082, indicated that UBE2N modulates parkin recruitment and downstream events in the mitophagy pathway. Screening of the compound library identified kenpaullone, an inhibitor of cyclin-dependent kinases and glycogen synthase kinase 3, as a modulator of parkin recruitment. Validation studies revealed that kenpaullone augments the mitochondrial network and protects against the complex I inhibitor MPP+. Finally, we used a microfluidics platform to assess the timing of parkin recruitment to depolarized mitochondria and its modulation by kenpaullone in real time and with single-cell resolution. We demonstrate that the high-content imaging-based assay presented here is suitable for both genetic and pharmacological screening approaches, and we also provide evidence that pharmacological compounds modulate PINK1-dependent parkin recruitment.
+31911436	100	106	parkin	Gene	5071
+31911436	202	227	mitochondrial dysfunction	Disease	MESH:D028361
+31911436	232	251	Parkinson's disease	Disease	MESH:D010300
+31911436	253	255	PD	Disease	MESH:D010300
+31911436	258	260	PD	Disease	MESH:D010300
+31911436	347	377	PTEN-induced putative kinase 1	Gene	65018
+31911436	379	384	PINK1	Gene	65018
+31911436	390	396	parkin	Gene	5071
+31911436	583	589	parkin	Gene	5071
+31911436	989	1021	ubiquitin-conjugating enzyme 2 N	Gene	7334
+31911436	1023	1028	UBE2N	Gene	7334
+31911436	1058	1069	Bay 11-7082	Chemical	MESH:C434003
+31911436	1086	1091	UBE2N	Gene	7334
+31911436	1102	1108	parkin	Gene	5071
+31911436	1214	1225	kenpaullone	Chemical	MESH:C119620
+31911436	1318	1324	parkin	Gene	5071
+31911436	1371	1382	kenpaullone	Chemical	MESH:C119620
+31911436	1535	1541	parkin	Gene	5071
+31911436	1604	1615	kenpaullone	Chemical	MESH:C119620
+31911436	1874	1879	PINK1	Gene	65018
+31911436	1890	1896	parkin	Gene	5071
+31911436	Association	MESH:D010300	65018
+31911436	Association	MESH:C119620	5071
+31911436	Association	MESH:D010300	5071
+31911436	Negative_Correlation	MESH:C434003	7334
+31911436	Association	5071	7334
+31911436	Association	5071	65018
+

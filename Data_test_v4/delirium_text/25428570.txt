@@ -1,0 +1,13 @@
+25428570|t|Empirical study using network of semantically related associations in bridging the knowledge gap.
+25428570|a|BACKGROUND: The data overload has created a new set of challenges in finding meaningful and relevant information with minimal cognitive effort. However designing robust and scalable knowledge discovery systems remains a challenge. Recent innovations in the (biological) literature mining tools have opened new avenues to understand the confluence of various diseases, genes, risk factors as well as biological processes in bridging the gaps between the massive amounts of scientific data and harvesting useful knowledge. METHODS: In this paper, we highlight some of the findings using a text analytics tool, called ARIANA--Adaptive Robust and Integrative Analysis for finding Novel Associations. RESULTS: Empirical study using ARIANA reveals knowledge discovery instances that illustrate the efficacy of such tool. For example, ARIANA can capture the connection between the drug hexamethonium and pulmonary inflammation and fibrosis that caused the tragic death of a healthy volunteer in a 2001 John Hopkins asthma study, even though the abstract of the study was not part of the semantic model. CONCLUSION: An integrated system, such as ARIANA, could assist the human expert in exploratory literature search by bringing forward hidden associations, promoting data reuse and knowledge discovery as well as stimulating interdisciplinary projects by connecting information across the disciplines.
+25428570	977	990	hexamethonium	Chemical	MESH:D018738
+25428570	995	1017	pulmonary inflammation	Disease	MESH:D011014
+25428570	1022	1030	fibrosis	Disease	MESH:D005355
+25428570	1054	1059	death	Disease	MESH:D003643
+25428570	1106	1112	asthma	Disease	MESH:D001249
+25428570	1261	1266	human	Species	9606
+25428570	Association	MESH:D018738	MESH:D011014
+25428570	Association	MESH:D018738	MESH:D005355
+25428570	Association	MESH:D018738	MESH:D003643
+25428570	Association	MESH:D018738	MESH:D001249
+

@@ -1,0 +1,15 @@
+30349473|t|Predict Disease Progression With Reaction Rate Equation Modeling of Multimodal MRI and PET.
+30349473|a|Neurodegenerative dementia often has multiple types of underlying pathology, for example, beta-amyloid, misfolded tau, chronic neuroinflammation and neurodegeneration may coexist in Alzheimer's disease. However, the relationship between them is often unclear, in other words, whether one pathology is upstream or downstream of others can be very difficult to investigate directly. This is partly because the underlying pathology in dementia may precede detectable symptoms by several years if not decades. The time scale associated with disease progression in dementia generally exceeds that in conventional longitudinal imaging studies in humans, so it is difficult to directly observe the temporal ordering of different pathologies. Also, animal studies are not always transferable to patients due to obvious differences between the two systems. To investigate the disease progression and relationships among underlying pathological changes, we propose a novel computational modeling approach for multimodal MRI and PET inspired by reaction rate equation in chemical kinetics. We also discuss the possibility and prerequisites to use cross-sectional data to generate preliminary hypothesis for future longitudinal studies. It has been shown that the rate of change in some biomarkers can be approximated by the average trajectory across patients at different stages of disease severity in cross-sectional studies. The relationship modeled in our approach is akin to that in the control theory, and can be assessed by demonstrating that the presence of one disease related biomarker predicts dynamics in another. We argue that the proposed framework has important implications for trials targeting different pathologies in dementia.
+30349473	92	118	Neurodegenerative dementia	Disease	MESH:D019636
+30349473	206	209	tau	Gene	4137
+30349473	219	236	neuroinflammation	Disease	MESH:D000090862
+30349473	241	258	neurodegeneration	Disease	MESH:D019636
+30349473	274	293	Alzheimer's disease	Disease	MESH:D000544
+30349473	524	532	dementia	Disease	MESH:D003704
+30349473	652	660	dementia	Disease	MESH:D003704
+30349473	732	738	humans	Species	9606
+30349473	879	887	patients	Species	9606
+30349473	1431	1439	patients	Species	9606
+30349473	1816	1824	dementia	Disease	MESH:D003704
+30349473	Association	MESH:D019636	4137
+

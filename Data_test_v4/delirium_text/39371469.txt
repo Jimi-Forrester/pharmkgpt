@@ -1,0 +1,17 @@
+39371469|t|MAPPING ALZHEIMER'S DISEASE PSEUDO-PROGRESSION WITH MULTIMODAL BIOMARKER TRAJECTORY EMBEDDINGS.
+39371469|a|Alzheimer's Disease (AD) is a neurodegenerative disorder characterized by progressive cognitive degeneration and motor impairment, affecting millions worldwide. Mapping the progression of AD is crucial for early detection of loss of brain function, timely intervention, and development of effective treatments. However, accurate measurements of disease progression are still challenging at present. This study presents a novel approach to understanding the heterogeneous pathways of AD through longitudinal biomarker data from medical imaging and other modalities. We propose an analytical pipeline adopting two popular machine learning methods from the single-cell transcriptomics domain, PHATE and Slingshot, to project multimodal biomarker trajectories to a low-dimensional space. These embeddings serve as our pseudotime estimates. We applied this pipeline to the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset to align longitudinal data across individuals at various disease stages. Our approach mirrors the technique used to cluster single-cell data into cell types based on developmental timelines. Our pseudotime estimates revealed distinct patterns of disease evolution and biomarker changes over time, providing a deeper understanding of the temporal dynamics of AD. The results show the potential of the approach in the clinical domain of neurodegenerative diseases, enabling more precise disease modeling and early diagnosis.
+39371469	0	19	MAPPING ALZHEIMER'S	Disease	MESH:D000544
+39371469	28	34	PSEUDO	Disease	MESH:C537675
+39371469	63	72	BIOMARKER	Disease	
+39371469	96	115	Alzheimer's Disease	Disease	MESH:D000544
+39371469	117	119	AD	Disease	MESH:D000544
+39371469	126	152	neurodegenerative disorder	Disease	MESH:D019636
+39371469	182	204	cognitive degeneration	Disease	MESH:D003072
+39371469	209	225	motor impairment	Disease	MESH:D000068079
+39371469	284	286	AD	Disease	MESH:D000544
+39371469	321	343	loss of brain function	Disease	MESH:D001927
+39371469	579	581	AD	Disease	MESH:D000544
+39371469	964	983	Alzheimer's Disease	Disease	MESH:D000544
+39371469	1381	1383	AD	Disease	MESH:D000544
+39371469	1458	1484	neurodegenerative diseases	Disease	MESH:D019636
+

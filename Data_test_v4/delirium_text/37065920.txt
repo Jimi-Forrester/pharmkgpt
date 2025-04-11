@@ -1,0 +1,32 @@
+37065920|t|Combined transcriptomics and proteomics forecast analysis for potential biomarker in the acute phase of temporal lobe epilepsy.
+37065920|a|Background: Temporal lobe epilepsy (TLE) is a common chronic episodic illness of the nervous system. However, the precise mechanisms of dysfunction and diagnostic biomarkers in the acute phase of TLE are uncertain and hard to diagnose. Thus, we intended to qualify potential biomarkers in the acute phase of TLE for clinical diagnostics and therapeutic purposes. Methods: An intra-hippocampal injection of kainic acid was used to induce an epileptic model in mice. First, with a TMT/iTRAQ quantitative labeling proteomics approach, we screened for differentially expressed proteins (DEPs) in the acute phase of TLE. Then, differentially expressed genes (DEGs) in the acute phase of TLE were identified by linear modeling on microarray data (limma) and weighted gene co-expression network analysis (WGCNA) using the publicly available microarray dataset GSE88992. Co-expressed genes (proteins) in the acute phase of TLE were identified by overlap analysis of DEPs and DEGs. The least absolute shrinkage and selection operator (LASSO) regression and support vector machine recursive feature elimination (SVM-RFE) algorithms were used to screen Hub genes in the acute phase of TLE, and logistic regression algorithms were applied to develop a novel diagnostic model for the acute phase of TLE, and the sensitivity of the diagnostic model was validated using receiver operating characteristic (ROC) curves. Results: We screened a total of 10 co-expressed genes (proteins) from TLE-associated DEGs and DEPs utilizing proteomic and transcriptome analysis. LASSO and SVM-RFE algorithms for machine learning were applied to identify three Hub genes: Ctla2a, Hapln2, and Pecam1. A logistic regression algorithm was applied to establish and validate a novel diagnostic model for the acute phase of TLE based on three Hub genes in the publicly accessible datasets GSE88992, GSE49030, and GSE79129. Conclusion: Our study establishes a reliable model for screening and diagnosing the acute phase of TLE that provides a theoretical basis for adding diagnostic biomarkers for TLE acute phase genes.
+37065920	104	126	temporal lobe epilepsy	Disease	MESH:D004833
+37065920	140	162	Temporal lobe epilepsy	Disease	MESH:D004833
+37065920	164	167	TLE	Disease	MESH:D004833
+37065920	324	327	TLE	Disease	MESH:D004833
+37065920	436	439	TLE	Disease	MESH:D004833
+37065920	534	545	kainic acid	Chemical	MESH:D007608
+37065920	568	577	epileptic	Disease	MESH:D004827
+37065920	587	591	mice	Species	10090
+37065920	611	616	iTRAQ	Chemical	-
+37065920	739	742	TLE	Disease	MESH:D004833
+37065920	810	813	TLE	Disease	MESH:D004833
+37065920	1043	1046	TLE	Disease	MESH:D004833
+37065920	1270	1273	Hub	Gene	15570
+37065920	1302	1305	TLE	Disease	MESH:D004833
+37065920	1414	1417	TLE	Disease	MESH:D004833
+37065920	1601	1604	TLE	Disease	MESH:D004833
+37065920	1759	1762	Hub	Gene	15570
+37065920	1770	1776	Ctla2a	Gene	13024
+37065920	1778	1784	Hapln2	Gene	73940
+37065920	1790	1796	Pecam1	Gene	18613
+37065920	1916	1919	TLE	Disease	MESH:D004833
+37065920	1935	1938	Hub	Gene	15570
+37065920	2114	2117	TLE	Disease	MESH:D004833
+37065920	2189	2192	TLE	Disease	MESH:D004833
+37065920	Positive_Correlation	MESH:D007608	MESH:D004827
+37065920	Association	MESH:D004833	15570
+37065920	Association	MESH:D004833	13024
+37065920	Association	MESH:D004833	73940
+37065920	Association	MESH:D004833	18613
+

@@ -1,0 +1,36 @@
+38909247|t|The causal relationship and potential mediators between plasma lipids and atopic dermatitis: a bidirectional two-sample, two-step mendelian randomization.
+38909247|a|BACKGROUND: Observational studies have indicated that the plasma lipid profiles of patients with atopic dermatitis show significant differences compared to healthy individuals. However, the causal relationship between these differences remains unclear due to the inherent limitations of observational studies. Our objective was to explore the causal effects between 179 plasma lipid species and atopic dermatitis, and to investigate whether circulating inflammatory proteins serve as mediators in this causal pathway. METHODS: We utilized public genome-wide association studies data to perform a bidirectional two-sample, two-step mendelian randomization study. The inverse variance-weighted method was adopted as the primary analysis technique. MR-Egger and the weighted median were used as supplementary analysis methods. MR-PRESSO, Cochran's Q test, and MR-Egger intercept test were applied for sensitivity analyses to ensure the robustness of our findings. RESULTS: The Mendelian randomization analysis revealed that levels of Phosphatidylcholine (PC) (18:1_20:4) (OR: 0.950, 95% CI: 0.929-0.972, p = 6.65 x 10- 6), Phosphatidylethanolamine (O-18:1_20:4) (OR: 0.938, 95% CI: 0.906-0.971, p = 2.79 x 10- 4), Triacylglycerol (TAG) (56:6) (OR: 0.937, 95% CI: 0.906-0.969, p = 1.48 x 10- 4) and TAG (56:8) (OR: 0.918, 95% CI: 0.876-0.961, p = 2.72 x 10- 4) were inversely correlated with the risk of atopic dermatitis. Conversely, PC (18:1_20:2) (OR: 1.053, 95% CI: 1.028-1.079, p = 2.11 x 10- 5) and PC (O-18:1_20:3) (OR: 1.086, 95% CI: 1.039-1.135, p = 2.47 x 10- 4) were positively correlated with the risk of atopic dermatitis. The results of the reverse directional Mendelian randomization analysis indicated that atopic dermatitis exerted no significant causal influence on 179 plasma lipid species. The level of circulating IL-18R1 was identified as a mediator for the increased risk of atopic dermatitis associated with higher levels of PC (18:1_20:2), accounting for a mediation proportion of 9.07%. CONCLUSION: Our research suggests that plasma lipids can affect circulating inflammatory proteins and may serve as one of the pathogenic factors for atopic dermatitis. Targeting plasma lipid levels as a treatment for atopic dermatitis presents a potentially novel approach.
+38909247	63	69	lipids	Chemical	MESH:D008055
+38909247	74	91	atopic dermatitis	Disease	MESH:D003876
+38909247	220	225	lipid	Chemical	MESH:D008055
+38909247	238	246	patients	Species	9606
+38909247	252	269	atopic dermatitis	Disease	MESH:D003876
+38909247	532	537	lipid	Chemical	MESH:D008055
+38909247	550	567	atopic dermatitis	Disease	MESH:D003876
+38909247	608	620	inflammatory	Disease	MESH:D007249
+38909247	1186	1205	Phosphatidylcholine	Chemical	MESH:D010713
+38909247	1207	1209	PC	Chemical	MESH:D010713
+38909247	1275	1299	Phosphatidylethanolamine	Chemical	MESH:C483858
+38909247	1366	1381	Triacylglycerol	Chemical	MESH:D014280
+38909247	1383	1386	TAG	Chemical	MESH:D014280
+38909247	1450	1453	TAG	Chemical	MESH:D014280
+38909247	1555	1572	atopic dermatitis	Disease	MESH:D003876
+38909247	1586	1588	PC	Chemical	MESH:D010713
+38909247	1656	1658	PC	Chemical	MESH:D010713
+38909247	1768	1785	atopic dermatitis	Disease	MESH:D003876
+38909247	1874	1891	atopic dermatitis	Disease	MESH:D003876
+38909247	1946	1951	lipid	Chemical	MESH:D008055
+38909247	1986	1993	IL-18R1	Gene	8809
+38909247	2049	2066	atopic dermatitis	Disease	MESH:D003876
+38909247	2100	2102	PC	Chemical	MESH:D010713
+38909247	2210	2216	lipids	Chemical	MESH:D008055
+38909247	2240	2252	inflammatory	Disease	MESH:D007249
+38909247	2313	2330	atopic dermatitis	Disease	MESH:D003876
+38909247	2349	2354	lipid	Chemical	MESH:D008055
+38909247	2381	2398	atopic dermatitis	Disease	MESH:D003876
+38909247	Negative_Correlation	MESH:C483858	MESH:D003876
+38909247	Negative_Correlation	MESH:D014280	MESH:D003876
+38909247	Negative_Correlation	MESH:D010713	MESH:D003876
+38909247	Association	MESH:D008055	MESH:D003876
+38909247	Association	MESH:D003876	8809
+

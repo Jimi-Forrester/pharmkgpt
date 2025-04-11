@@ -1,0 +1,34 @@
+27392852|t|High-Throughput Screening for Identification of Blood-Brain Barrier Integrity Enhancers: A Drug Repurposing Opportunity to Rectify Vascular Amyloid Toxicity.
+27392852|a|The blood-brain barrier (BBB) is a dynamic interface that maintains brain homeostasis and protects it from free entry of chemicals, toxins, and drugs. The barrier function of the BBB is maintained mainly by capillary endothelial cells that physically separate brain from blood. Several neurological diseases, such as Alzheimer's disease (AD), are known to disrupt BBB integrity. In this study, a high-throughput screening (HTS) was developed to identify drugs that rectify/protect BBB integrity from vascular amyloid toxicity associated with AD progression. Assessing Lucifer Yellow permeation across in-vitro BBB model composed from mouse brain endothelial cells (bEnd3) grown on 96-well plate inserts was used to screen 1280 compounds of Sigma LOPAC 1280 library for modulators of bEnd3 monolayer integrity. HTS identified 62 compounds as disruptors, and 50 compounds as enhancers of the endothelial barrier integrity. From these 50 enhancers, 7 FDA approved drugs were identified with EC50 values ranging from 0.76-4.56 muM. Of these 7 drugs, 5 were able to protect bEnd3-based BBB model integrity against amyloid toxicity. Furthermore, to test the translational potential to humans, the 7 drugs were tested for their ability to rectify the disruptive effect of Abeta in the human endothelial cell line hCMEC/D3. Only 3 (etodolac, granisetron, and beclomethasone) out of the 5 effective drugs in the bEnd3-based BBB model demonstrated a promising effect to protect the hCMEC/D3-based BBB model integrity. These drugs are compelling candidates for repurposing as therapeutic agents that could rectify dysfunctional BBB associated with AD.
+27392852	131	139	Vascular	Disease	MESH:D057772
+27392852	140	156	Amyloid Toxicity	Disease	MESH:D017772
+27392852	444	465	neurological diseases	Disease	MESH:D020271
+27392852	475	494	Alzheimer's disease	Disease	MESH:D000544
+27392852	496	498	AD	Disease	MESH:D000544
+27392852	658	666	vascular	Disease	MESH:D057772
+27392852	667	683	amyloid toxicity	Disease	MESH:D017772
+27392852	700	702	AD	Disease	MESH:D000544
+27392852	726	740	Lucifer Yellow	Chemical	MESH:C017475
+27392852	792	797	mouse	Species	10090
+27392852	823	828	bEnd3	Gene	331623
+27392852	941	946	bEnd3	Gene	331623
+27392852	1227	1232	bEnd3	Gene	331623
+27392852	1267	1283	amyloid toxicity	Disease	MESH:D017772
+27392852	1337	1343	humans	Species	9606
+27392852	1423	1428	Abeta	Gene	351
+27392852	1436	1441	human	Species	9606
+27392852	1464	1472	hCMEC/D3	CellLine	CVCL:U985
+27392852	1482	1490	etodolac	Chemical	MESH:D017308
+27392852	1492	1503	granisetron	Chemical	MESH:D017829
+27392852	1509	1523	beclomethasone	Chemical	MESH:D001507
+27392852	1561	1566	bEnd3	Gene	331623
+27392852	1630	1638	hCMEC/D3	CellLine	CVCL:U985
+27392852	1795	1797	AD	Disease	MESH:D000544
+27392852	Negative_Correlation	MESH:D017308	MESH:D000544
+27392852	Negative_Correlation	MESH:D017829	MESH:D000544
+27392852	Negative_Correlation	MESH:D001507	331623
+27392852	Negative_Correlation	MESH:D017308	331623
+27392852	Association	MESH:D017829	331623
+27392852	Association	MESH:D017772	331623
+27392852	Negative_Correlation	MESH:D001507	MESH:D000544
+

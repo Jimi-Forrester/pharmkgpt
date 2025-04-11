@@ -1,0 +1,14 @@
+26069906|t|Alzheimer's disease diagnosis on structural MR images using circular harmonic functions descriptors on hippocampus and posterior cingulate cortex.
+26069906|a|Recently, several pattern recognition methods have been proposed to automatically discriminate between patients with and without Alzheimer's disease using different imaging modalities: sMRI, fMRI, PET and SPECT. Classical approaches in visual information retrieval have been successfully used for analysis of structural MRI brain images. In this paper, we use the visual indexing framework and pattern recognition analysis based on structural MRI data to discriminate three classes of subjects: normal controls (NC), mild cognitive impairment (MCI) and Alzheimer's disease (AD). The approach uses the circular harmonic functions (CHFs) to extract local features from the most involved areas in the disease: hippocampus and posterior cingulate cortex (PCC) in each slice in all three brain projections. The features are quantized using the Bag-of-Visual-Words approach to build one signature by brain (subject). This yields a transformation of a full 3D image of brain ROIs into a 1D signature, a histogram of quantized features. To reduce the dimensionality of the signature, we use the PCA technique. Support vector machines classifiers are then applied to classify groups. The experiments were conducted on a subset of ADNI dataset and applied to the "Bordeaux-3City" dataset. The results showed that our approach achieves respectively for ADNI dataset and "Bordeaux-3City" dataset; for AD vs NC classification, an accuracy of 83.77% and 78%, a specificity of 88.2% and 80.4% and a sensitivity of 79.09% and 74.7%. For NC vs MCI classification we achieved for the ADNI datasets an accuracy of 69.45%, a specificity of 74.8% and a sensitivity of 62.52%. For the most challenging classification task (AD vs MCI), we reached an accuracy of 62.07%, a specificity of 75.15% and a sensitivity of 49.02%. The use of PCC visual features description improves classification results by more than 5% compared to the use of hippocampus features only. Our approach is automatic, less time-consuming and does not require the intervention of the clinician during the disease diagnosis. 
+26069906	0	19	Alzheimer's disease	Disease	MESH:D000544
+26069906	250	258	patients	Species	9606
+26069906	276	295	Alzheimer's disease	Disease	MESH:D000544
+26069906	669	689	cognitive impairment	Disease	MESH:D003072
+26069906	691	694	MCI	Disease	MESH:D060825
+26069906	700	719	Alzheimer's disease	Disease	MESH:D000544
+26069906	721	723	AD	Disease	MESH:D000544
+26069906	1536	1538	AD	Disease	MESH:D000544
+26069906	1674	1677	MCI	Disease	MESH:D060825
+26069906	1848	1850	AD	Disease	MESH:D000544
+26069906	1854	1857	MCI	Disease	MESH:D060825
+

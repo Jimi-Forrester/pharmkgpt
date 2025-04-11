@@ -1,0 +1,8 @@
+39799251|t|Unsupervised deep learning of electrocardiograms enables scalable human disease profiling.
+39799251|a|The 12-lead electrocardiogram (ECG) is inexpensive and widely available. Whether conditions across the human disease landscape can be detected using the ECG is unclear. We developed a deep learning denoising autoencoder and systematically evaluated associations between ECG encodings and ~1,600 Phecode-based diseases in three datasets separate from model development, and meta-analyzed the results. The latent space ECG model identified associations with 645 prevalent and 606 incident Phecodes. Associations were most enriched in the circulatory (n = 140, 82% of category-specific Phecodes), respiratory (n = 53, 62%) and endocrine/metabolic (n = 73, 45%) categories, with additional associations across the phenome. The strongest ECG association was with hypertension (p < 2.2x10-308). The ECG latent space model demonstrated more associations than models using standard ECG intervals, and offered favorable discrimination of prevalent disease compared to models comprising age, sex, and race. We further demonstrate how latent space models can be used to generate disease-specific ECG waveforms and facilitate individual disease profiling.
+39799251	66	71	human	Species	9606
+39799251	194	199	human	Species	9606
+39799251	578	586	Phecodes	Chemical	-
+39799251	674	682	Phecodes	Chemical	-
+39799251	849	861	hypertension	Disease	MESH:D006973
+

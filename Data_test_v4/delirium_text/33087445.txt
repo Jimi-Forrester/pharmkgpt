@@ -1,0 +1,46 @@
+33087445|t|PDE5 inhibition rescues mitochondrial dysfunction and angiogenic responses induced by Akt3 inhibition by promotion of PRC expression.
+33087445|a|Akt3 regulates mitochondrial content in endothelial cells through the inhibition of PGC-1alpha nuclear localization and is also required for angiogenesis. However, whether there is a direct link between mitochondrial function and angiogenesis is unknown. Here we show that Akt3 depletion in primary endothelial cells results in decreased uncoupled oxygen consumption, increased fission, decreased membrane potential, and increased expression of the mitochondria-specific protein chaperones, HSP60 and HSP10, suggesting that Akt3 is required for mitochondrial homeostasis. Direct inhibition of mitochondrial homeostasis by the model oxidant paraquat results in decreased angiogenesis, showing a direct link between angiogenesis and mitochondrial function. Next, in exploring functional links to PGC-1alpha, the master regulator of mitochondrial biogenesis, we searched for compounds that induce this process. We found that, sildenafil, a phosphodiesterase 5 inhibitor, induced mitochondrial biogenesis as measured by increased uncoupled oxygen consumption, mitochondrial DNA content, and voltage-dependent anion channel protein expression. Sildenafil rescued the effects on mitochondria by Akt3 depletion or pharmacological inhibition and promoted angiogenesis, further supporting that mitochondrial homeostasis is required for angiogenesis. Sildenafil also induces the expression of PGC-1 family member PRC and can compensate for PGC-1alpha activity during mitochondrial stress by an Akt3-independent mechanism. The induction of PRC by sildenafil depends upon cAMP and the transcription factor CREB. Thus, PRC can functionally substitute during Akt3 depletion for absent PGC-1alpha activity to restore mitochondrial homeostasis and promote angiogenesis. These findings show that mitochondrial homeostasis as controlled by the PGC family of transcriptional activators is required for angiogenic responses.
+33087445	0	4	PDE5	Gene	8654
+33087445	24	49	mitochondrial dysfunction	Disease	MESH:D028361
+33087445	86	90	Akt3	Gene	10000
+33087445	118	121	PRC	Gene	23082
+33087445	134	138	Akt3	Gene	10000
+33087445	218	228	PGC-1alpha	Gene	10891
+33087445	407	411	Akt3	Gene	10000
+33087445	482	488	oxygen	Chemical	MESH:D010100
+33087445	625	630	HSP60	Gene	3329
+33087445	635	640	HSP10	Gene	3336
+33087445	658	662	Akt3	Gene	10000
+33087445	774	782	paraquat	Chemical	MESH:D010269
+33087445	928	938	PGC-1alpha	Gene	10891
+33087445	1057	1067	sildenafil	Chemical	MESH:D000068677
+33087445	1170	1176	oxygen	Chemical	MESH:D010100
+33087445	1273	1283	Sildenafil	Chemical	MESH:D000068677
+33087445	1323	1327	Akt3	Gene	10000
+33087445	1475	1485	Sildenafil	Chemical	MESH:D000068677
+33087445	1517	1522	PGC-1	Gene	10891
+33087445	1537	1540	PRC	Gene	23082
+33087445	1564	1574	PGC-1alpha	Gene	10891
+33087445	1618	1622	Akt3	Gene	10000
+33087445	1663	1666	PRC	Gene	23082
+33087445	1670	1680	sildenafil	Chemical	MESH:D000068677
+33087445	1694	1698	cAMP	Chemical	-
+33087445	1728	1732	CREB	Gene	1385
+33087445	1740	1743	PRC	Gene	23082
+33087445	1779	1783	Akt3	Gene	10000
+33087445	1805	1815	PGC-1alpha	Gene	10891
+33087445	Negative_Correlation	10000	3329
+33087445	Association	MESH:D028361	8654
+33087445	Negative_Correlation	10000	3336
+33087445	Association	10000	8654
+33087445	Association	MESH:D000068677	10891
+33087445	Positive_Correlation	MESH:D000068677	MESH:D010100
+33087445	Association	MESH:D000068677	1385
+33087445	Association	1385	23082
+33087445	Positive_Correlation	MESH:D000068677	23082
+33087445	Association	MESH:D000068677	10000
+33087445	Association	MESH:D010100	10000
+33087445	Association	MESH:D028361	10000
+33087445	Association	10000	23082
+33087445	Negative_Correlation	10000	10891
+

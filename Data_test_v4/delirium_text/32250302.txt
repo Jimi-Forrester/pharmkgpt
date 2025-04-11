@@ -1,0 +1,24 @@
+32250302|t|Using Machine Learning to Predict Dementia from Neuropsychiatric Symptom and Neuroimaging Data.
+32250302|a|BACKGROUND: Machine learning (ML) is a promising technique for patient-specific prediction of mild cognitive impairment (MCI) and dementia development. Neuropsychiatric symptoms (NPS) might improve the accuracy of ML models but have barely been used for this purpose. OBJECTIVES: To investigate if baseline mild behavioral impairment (MBI) status used for NPS quantification along with brain morphology features are predictive of follow-up diagnosis, median 40 months later in patients with normal cognition (NC) or MCI. METHOD: Baseline neuroimaging, neuropsychiatric, and clinical data from 102 individuals with NC and 239 with MCI were extracted from the Alzheimer's Disease Neuroimaging Initiative database. Neuropsychiatric inventory questionnaire items were transformed to MBI domains using a published algorithm. Diagnosis at latest follow-up was used as the outcome variable and ground truth classification. A logistic model tree classifier combined with information gain feature selection was trained to predict follow-up diagnosis. RESULTS: In the binary classification (NC versus MCI/AD), the optimal ML model required only two features from over 200, MBI total score and left hippocampal volume. These features correctly classified participants as remaining normal or developing cognitive impairment with 84.4% accuracy (area under the receiver operating characteristics curve [ROC-AUC] = 0.86). Seven features were selected for the three-class model (NC versus MCI versus dementia) achieving an accuracy of 58.8% (ROC-AUC=0.73). CONCLUSION: Baseline NPS, categorized for MBI domain and duration, have prognostic utility in addition to brain morphology measures for predicting diagnosis change using ML. MBI total score, followed by impulse dyscontrol and affective dysregulation were most predictive of future diagnosis.
+32250302	34	42	Dementia	Disease	MESH:D003704
+32250302	159	166	patient	Species	9606
+32250302	195	215	cognitive impairment	Disease	MESH:D003072
+32250302	217	220	MCI	Disease	MESH:D060825
+32250302	226	234	dementia	Disease	MESH:D003704
+32250302	248	273	Neuropsychiatric symptoms	Disease	MESH:D001523
+32250302	275	278	NPS	Disease	MESH:D001523
+32250302	408	429	behavioral impairment	Disease	MESH:D001523
+32250302	452	455	NPS	Disease	MESH:D001523
+32250302	573	581	patients	Species	9606
+32250302	612	615	MCI	Disease	MESH:D060825
+32250302	726	729	MCI	Disease	MESH:D060825
+32250302	754	773	Alzheimer's Disease	Disease	MESH:D000544
+32250302	1187	1190	MCI	Disease	MESH:D060825
+32250302	1191	1193	AD	Disease	MESH:D000544
+32250302	1387	1407	cognitive impairment	Disease	MESH:D003072
+32250302	1570	1573	MCI	Disease	MESH:D060825
+32250302	1581	1589	dementia	Disease	MESH:D003704
+32250302	1659	1662	NPS	Disease	MESH:D001523
+32250302	1841	1859	impulse dyscontrol	Disease	MESH:D007174
+32250302	1864	1887	affective dysregulation	Disease	MESH:D021081
+

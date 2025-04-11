@@ -1,0 +1,19 @@
+29378629|t|An integrative functional genomics framework for effective identification of novel regulatory variants in genome-phenome studies.
+29378629|a|BACKGROUND: Genome-phenome studies have identified thousands of variants that are statistically associated with disease or traits; however, their functional roles are largely unclear. A comprehensive investigation of regulatory mechanisms and the gene regulatory networks between phenome-wide association study (PheWAS) and genome-wide association study (GWAS) is needed to identify novel regulatory variants contributing to risk for human diseases. METHODS: In this study, we developed an integrative functional genomics framework that maps 215,107 significant single nucleotide polymorphism (SNP) traits generated from the PheWAS Catalog and 28,870 genome-wide significant SNP traits collected from the GWAS Catalog into a global human genome regulatory map via incorporating various functional annotation data, including transcription factor (TF)-based motifs, promoters, enhancers, and expression quantitative trait loci (eQTLs) generated from four major functional genomics databases: FANTOM5, ENCODE, NIH Roadmap, and Genotype-Tissue Expression (GTEx). In addition, we performed a tissue-specific regulatory circuit analysis through the integration of the identified regulatory variants and tissue-specific gene expression profiles in 7051 samples across 32 tissues from GTEx. RESULTS: We found that the disease-associated loci in both the PheWAS and GWAS Catalogs were significantly enriched with functional SNPs. The integration of functional annotations significantly improved the power of detecting novel associations in PheWAS, through which we found a number of functional associations with strong regulatory evidence in the PheWAS Catalog. Finally, we constructed tissue-specific regulatory circuits for several complex traits: mental diseases, autoimmune diseases, and cancer, via exploring tissue-specific TF-promoter/enhancer-target gene interaction networks. We uncovered several promising tissue-specific regulatory TFs or genes for Alzheimer's disease (e.g. ZIC1 and STX1B) and asthma (e.g. CSF3 and IL1RL1). CONCLUSIONS: This study offers powerful tools for exploring the functional consequences of variants generated from genome-phenome association studies in terms of their mechanisms on affecting multiple complex diseases and traits.
+29378629	564	569	human	Species	9606
+29378629	862	867	human	Species	9606
+29378629	1871	1886	mental diseases	Disease	MESH:D008607
+29378629	1888	1907	autoimmune diseases	Disease	MESH:D001327
+29378629	1913	1919	cancer	Disease	MESH:D009369
+29378629	2081	2100	Alzheimer's disease	Disease	MESH:D000544
+29378629	2107	2111	ZIC1	Gene	7545
+29378629	2116	2121	STX1B	Gene	112755
+29378629	2127	2133	asthma	Disease	MESH:D001249
+29378629	2140	2144	CSF3	Gene	1440
+29378629	2149	2155	IL1RL1	Gene	9173
+29378629	Association	MESH:D001249	1440
+29378629	Association	MESH:D000544	112755
+29378629	Association	MESH:D000544	7545
+29378629	Association	MESH:D001249	112755
+29378629	Association	MESH:D001249	9173
+

@@ -1,0 +1,16 @@
+27585988|t|Structured sparse CCA for brain imaging genetics via graph OSCAR.
+27585988|a|BACKGROUND: Recently, structured sparse canonical correlation analysis (SCCA) has received increased attention in brain imaging genetics studies. It can identify bi-multivariate imaging genetic associations as well as select relevant features with desired structure information. These SCCA methods either use the fused lasso regularizer to induce the smoothness between ordered features, or use the signed pairwise difference which is dependent on the estimated sign of sample correlation. Besides, several other structured SCCA models use the group lasso or graph fused lasso to encourage group structure, but they require the structure/group information provided in advance which sometimes is not available. RESULTS: We propose a new structured SCCA model, which employs the graph OSCAR (GOSCAR) regularizer to encourage those highly correlated features to have similar or equal canonical weights. Our GOSCAR based SCCA has two advantages: 1) It does not require to pre-define the sign of the sample correlation, and thus could reduce the estimation bias. 2) It could pull those highly correlated features together no matter whether they are positively or negatively correlated. We evaluate our method using both synthetic data and real data. Using the 191 ROI measurements of amyloid imaging data, and 58 genetic markers within the APOE gene, our method identifies a strong association between APOE SNP rs429358 and the amyloid burden measure in the frontal region. In addition, the estimated canonical weights present a clear pattern which is preferable for further investigation. CONCLUSIONS: Our proposed method shows better or comparable performance on the synthetic data in terms of the estimated correlations and canonical loadings. It has successfully identified an important association between an Alzheimer's disease risk SNP rs429358 and the amyloid burden measure in the frontal region.
+27585988	1345	1352	amyloid	Disease	MESH:C000718787
+27585988	1401	1405	APOE	Gene	348
+27585988	1463	1467	APOE	Gene	348
+27585988	1472	1480	rs429358	SNP	tmVar:rs429358;VariantGroup:0;CorrespondingGene:348;RS#:429358;CorrespondingSpecies:9606
+27585988	1489	1496	amyloid	Disease	MESH:C000718787
+27585988	1875	1894	Alzheimer's disease	Disease	MESH:D000544
+27585988	1904	1912	rs429358	SNP	tmVar:rs429358;VariantGroup:0;CorrespondingGene:348;RS#:429358;CorrespondingSpecies:9606
+27585988	1921	1928	amyloid	Disease	MESH:C000718787
+27585988	Positive_Correlation	MESH:D000544	RS#:429358;CorrespondingGene:348
+27585988	Association	MESH:C000718787	RS#:429358;CorrespondingGene:348
+27585988	Association	MESH:C000718787	348
+27585988	Association	MESH:D000544	348
+27585988	Association	MESH:C000718787	348
+

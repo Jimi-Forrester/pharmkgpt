@@ -1,0 +1,14 @@
+35373881|t|The impact of transfer learning on 3D deep learning convolutional neural network segmentation of the hippocampus in mild cognitive impairment and Alzheimer disease subjects.
+35373881|a|Research on segmentation of the hippocampus in magnetic resonance images through deep learning convolutional neural networks (CNNs) shows promising results, suggesting that these methods can identify small structural abnormalities of the hippocampus, which are among the earliest and most frequent brain changes associated with Alzheimer disease (AD). However, CNNs typically achieve the highest accuracy on datasets acquired from the same domain as the training dataset. Transfer learning allows domain adaptation through further training on a limited dataset. In this study, we applied transfer learning on a network called spatial warping network segmentation (SWANS), developed and trained in a previous study. We used MR images of patients with clinical diagnoses of mild cognitive impairment (MCI) and AD, segmented by two different raters. By using transfer learning techniques, we developed four new models, using different training methods. Testing was performed using 26% of the original dataset, which was excluded from training as a hold-out test set. In addition, 10% of the overall training dataset was used as a hold-out validation set. Results showed that all the new models achieved better hippocampal segmentation quality than the baseline SWANS model (ps  < .001), with high similarity to the manual segmentations (mean dice [best model] = 0.878 +- 0.003). The best model was chosen based on visual assessment and volume percentage error (VPE). The increased precision in estimating hippocampal volumes allows the detection of small hippocampal abnormalities already present in the MCI phase (SD = [3.9 +- 0.6]%), which may be crucial for early diagnosis.
+35373881	121	141	cognitive impairment	Disease	MESH:D003072
+35373881	146	163	Alzheimer disease	Disease	MESH:D000544
+35373881	380	423	structural abnormalities of the hippocampus	Disease	MESH:C566527
+35373881	502	519	Alzheimer disease	Disease	MESH:D000544
+35373881	521	523	AD	Disease	MESH:D000544
+35373881	910	918	patients	Species	9606
+35373881	951	971	cognitive impairment	Disease	MESH:D003072
+35373881	973	976	MCI	Disease	MESH:D060825
+35373881	982	984	AD	Disease	MESH:D000544
+35373881	1726	1751	hippocampal abnormalities	Disease	MESH:D000092223
+35373881	1775	1778	MCI	Disease	MESH:D060825
+

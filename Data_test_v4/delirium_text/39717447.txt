@@ -1,0 +1,32 @@
+39717447|t|SMOC2, OGN, FCN3, and SERPINA3 could be biomarkers for the evaluation of acute decompensated heart failure caused by venous congestion.
+39717447|a|Background: Venous congestion (VC) sets in weeks before visible clinical decompensation, progressively increasing cardiac strain and leading to acute heart failure (HF) decompensation. Currently, the field lacks a universally acknowledged gold standard and early detection methods for VC. Methods: Using data from the GEO database, we identified VC's impact on HF through key genes using Limma and STRING databases. The potential mechanisms of HF exacerbation were explored via GO and KEGG enrichment analyses. Diagnostic genes for acute decompensated HF were discovered using LASSO, RF, and SVM-REF machine learning algorithms, complemented by single-gene GSEA analysis. A nomogram tool was developed for the diagnostic model's evaluation and application, with validation conducted on external datasets. Results: Our findings reveal that VC influences 37 genes impacting HF via 8 genes, primarily affecting oxygen transport, binding, and extracellular matrix stability. Four diagnostic genes for HF's pre-decompensation phase were identified: SMOC2, OGN, FCN3, and SERPINA3. These genes showed high diagnostic potential, with AUCs for each gene exceeding 0.9 and a genomic AUC of 0.942. Conclusions: Our study identifies four critical diagnostic genes for HF's pre-decompensated phase using bioinformatics and machine learning, shedding light on the molecular mechanisms through which VC worsens HF. It offers a novel approach for clinical evaluation of acute decompensated HF patient congestion status, presenting fresh insights into its pathogenesis, diagnosis, and treatment.
+39717447	0	5	SMOC2	Gene	64094
+39717447	7	10	OGN	Gene	4969
+39717447	12	16	FCN3	Gene	8547
+39717447	22	30	SERPINA3	Gene	12
+39717447	93	106	heart failure	Disease	MESH:D006333
+39717447	117	134	venous congestion	Disease	MESH:D006940
+39717447	148	165	Venous congestion	Disease	MESH:D006940
+39717447	167	169	VC	Disease	MESH:D006940
+39717447	250	264	cardiac strain	Disease	MESH:D013180
+39717447	286	319	heart failure (HF) decompensation	Disease	MESH:D006333
+39717447	421	423	VC	Disease	MESH:D006940
+39717447	482	484	VC	Disease	MESH:D006940
+39717447	975	977	VC	Disease	MESH:D006940
+39717447	1044	1050	oxygen	Chemical	MESH:D010100
+39717447	1180	1185	SMOC2	Gene	64094
+39717447	1187	1190	OGN	Gene	4969
+39717447	1192	1196	FCN3	Gene	8547
+39717447	1202	1210	SERPINA3	Gene	12
+39717447	1522	1524	VC	Disease	MESH:D006940
+39717447	1614	1621	patient	Species	9606
+39717447	Association	MESH:D006333	64094
+39717447	Association	MESH:D006940	8547
+39717447	Association	MESH:D010100	MESH:D006940
+39717447	Association	MESH:D006940	4969
+39717447	Association	MESH:D006333	4969
+39717447	Association	MESH:D006333	12
+39717447	Association	MESH:D006940	12
+39717447	Association	MESH:D006333	8547
+39717447	Association	MESH:D006940	64094
+

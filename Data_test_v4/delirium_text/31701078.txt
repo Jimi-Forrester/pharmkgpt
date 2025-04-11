@@ -1,0 +1,58 @@
+31701078|t|FOXO1 Negates the Cooperative Action of FOXL2C134W and SMAD3 in CYP19 Expression in HGrC1 Cells by Sequestering SMAD3.
+31701078|a|Adult granulosa cell tumor (aGCT) is a rare type of ovarian cancer characterized by estrogen excess. Interestingly, only the single somatic mutation FOXL2 C134W was found across virtually all aGCTs. We previously reported that FOXL2C134W stimulates CYP19 transcription synergistically with SMAD3, leading to elevated estradiol synthesis in a human granulosa cell line (HGrC1). This finding suggested a key role for FOXL2C134W in causing the typical estrogen overload in patients with aGCTs. We have now investigated the effect of FOXO1, a tumor suppressor, on CYP19 activation by FOXL2C134W in the presence of SMAD3. Intriguingly, FOXO1 antagonized the positive, synergistic effect of FOXL2C134W and SMAD3 on CYP19 transcription. Similar to FOXL2C134W, FOXO1 binds SMAD3 but not the proximal FOXL2C134W binding site (-199 bp) of the CYP19 promoter identified in our earlier studies. The results of a competitive binding assay suggested a possible underlying mechanism in which FOXO1 sequesters SMAD3 away from FOXL2C134W, thereby negating the cooperative action of FOXL2C134W and SMAD3 in inducing CYP19 expression. To our knowledge, this study is the first to demonstrate the ability of FOXO1 to restore an altered CYP19 expression by FOXL2C134W and SMAD3 and provides insight as to why FOXO1 deficiency promotes GCT development in mice.
+31701078	0	5	FOXO1	Gene	56458
+31701078	55	60	SMAD3	Gene	4088
+31701078	64	69	CYP19	Gene	1588
+31701078	84	89	HGrC1	CellLine	CVCL:KB28
+31701078	112	117	SMAD3	Gene	4088
+31701078	119	145	Adult granulosa cell tumor	Disease	MESH:D006106
+31701078	147	151	aGCT	Disease	MESH:D006106
+31701078	171	185	ovarian cancer	Disease	MESH:D010051
+31701078	268	273	FOXL2	Gene	668
+31701078	274	279	C134W	ProteinMutation	tmVar:p|SUB|C|134|W;HGVS:p.C134W;VariantGroup:0;CorrespondingGene:668;RS#:1057519865;CorrespondingSpecies:9606
+31701078	311	316	aGCTs	Disease	
+31701078	368	373	CYP19	Gene	1588
+31701078	409	414	SMAD3	Gene	4088
+31701078	436	445	estradiol	Chemical	MESH:D004958
+31701078	461	466	human	Species	9606
+31701078	488	493	HGrC1	CellLine	CVCL:KB28
+31701078	568	576	estrogen	Disease	MESH:D056828
+31701078	589	597	patients	Species	9606
+31701078	603	608	aGCTs	Disease	
+31701078	649	654	FOXO1	Gene	56458
+31701078	658	663	tumor	Disease	MESH:D009369
+31701078	679	684	CYP19	Gene	13075
+31701078	729	734	SMAD3	Gene	4088
+31701078	750	755	FOXO1	Gene	2308
+31701078	819	824	SMAD3	Gene	4088
+31701078	828	833	CYP19	Gene	1588
+31701078	872	877	FOXO1	Gene	2308
+31701078	884	889	SMAD3	Gene	17127
+31701078	952	957	CYP19	Gene	13075
+31701078	1096	1101	FOXO1	Gene	2308
+31701078	1113	1118	SMAD3	Gene	17127
+31701078	1199	1204	SMAD3	Gene	17127
+31701078	1217	1222	CYP19	Gene	13075
+31701078	1307	1312	FOXO1	Gene	2308
+31701078	1335	1340	CYP19	Gene	13075
+31701078	1370	1375	SMAD3	Gene	17127
+31701078	1407	1412	FOXO1	Gene	56458
+31701078	1433	1436	GCT	Disease	MESH:C537296
+31701078	1452	1456	mice	Species	10090
+31701078	Association	1588	56458
+31701078	Association	1588	2308
+31701078	Association	MESH:C537296	2308
+31701078	Positive_Correlation	1588	4088
+31701078	Association	4088	56458
+31701078	Association	MESH:D004958	1588
+31701078	Association	13075	17127
+31701078	Association	MESH:D056828	1588
+31701078	Association	13075	56458
+31701078	Negative_Correlation	2308	4088
+31701078	Association	13075	2308
+31701078	Association	MESH:C537296	56458
+31701078	Association	17127	2308
+31701078	Association	MESH:D004958	4088
+31701078	Association	MESH:C537296	13075
+31701078	Negative_Correlation	MESH:D009369	56458
+

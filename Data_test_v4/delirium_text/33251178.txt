@@ -1,0 +1,25 @@
+33251178|t|Alzheimer's Disease Classification With a Cascade Neural Network.
+33251178|a|Classification of Alzheimer's Disease (AD) has been becoming a hot issue along with the rapidly increasing number of patients. This task remains tremendously challenging due to the limited data and the difficulties in detecting mild cognitive impairment (MCI). Existing methods use gait [or EEG (electroencephalogram)] data only to tackle this task. Although the gait data acquisition procedure is cheap and simple, the methods relying on gait data often fail to detect the slight difference between MCI and AD. The methods that use EEG data can detect the difference more precisely, but collecting EEG data from both HC (health controls) and patients is very time-consuming. More critically, these methods often convert EEG records into the frequency domain and thus inevitably lose the spatial and temporal information, which is essential to capture the connectivity and synchronization among different brain regions. This paper proposes a cascade neural network with two steps to achieve a faster and more accurate AD classification by exploiting gait and EEG data simultaneously. In the first step, we propose attention-based spatial temporal graph convolutional networks to extract the features from the skeleton sequences (i.e., gait) captured by Kinect (a commonly used sensor) to distinguish between HC and patients. In the second step, we propose spatial temporal convolutional networks to fully exploit the spatial and temporal information of EEG data and classify the patients into MCI or AD eventually. We collect gait and EEG data from 35 cognitively health controls, 35 MCI, and 17 AD patients to evaluate our proposed method. Experimental results show that our method significantly outperforms other AD diagnosis methods (91.07 vs. 68.18%) in the three-way AD classification task (HC, MCI, and AD). Moreover, we empirically found that the lower body and right upper limb are more important for the early diagnosis of AD than other body parts. We believe this interesting finding can be helpful for clinical researches.
+33251178	0	19	Alzheimer's Disease	Disease	MESH:D000544
+33251178	84	103	Alzheimer's Disease	Disease	MESH:D000544
+33251178	105	107	AD	Disease	MESH:D000544
+33251178	183	191	patients	Species	9606
+33251178	299	319	cognitive impairment	Disease	MESH:D003072
+33251178	321	324	MCI	Disease	MESH:D060825
+33251178	566	569	MCI	Disease	MESH:D060825
+33251178	574	576	AD	Disease	MESH:D000544
+33251178	709	717	patients	Species	9606
+33251178	1084	1086	AD	Disease	MESH:D000544
+33251178	1381	1389	patients	Species	9606
+33251178	1545	1553	patients	Species	9606
+33251178	1559	1562	MCI	Disease	MESH:D060825
+33251178	1566	1568	AD	Disease	MESH:D000544
+33251178	1650	1653	MCI	Disease	MESH:D060825
+33251178	1662	1664	AD	Disease	MESH:D000544
+33251178	1665	1673	patients	Species	9606
+33251178	1781	1783	AD	Disease	MESH:D000544
+33251178	1838	1840	AD	Disease	MESH:D000544
+33251178	1866	1869	MCI	Disease	MESH:D060825
+33251178	1875	1877	AD	Disease	MESH:D000544
+33251178	1998	2000	AD	Disease	MESH:D000544
+

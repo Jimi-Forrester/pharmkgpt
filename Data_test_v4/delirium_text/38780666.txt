@@ -1,0 +1,25 @@
+38780666|t|Detecting Alzheimer's Disease Stages and Frontotemporal Dementia in Time Courses of Resting-State fMRI Data Using a Machine Learning Approach.
+38780666|a|Early, accurate diagnosis of neurodegenerative dementia subtypes such as Alzheimer's disease (AD) and frontotemporal dementia (FTD) is crucial for the effectiveness of their treatments. However, distinguishing these conditions becomes challenging when symptoms overlap or the conditions present atypically. Resting-state fMRI (rs-fMRI) studies have demonstrated condition-specific alterations in AD, FTD, and mild cognitive impairment (MCI) compared to healthy controls (HC). Here, we used machine learning to build a diagnostic classification model based on these alterations. We curated all rs-fMRIs and their corresponding clinical information from the ADNI and FTLDNI databases. Imaging data underwent preprocessing, time course extraction, and feature extraction in preparation for the analyses. The imaging features data and clinical variables were fed into gradient-boosted decision trees with fivefold nested cross-validation to build models that classified four groups: AD, FTD, HC, and MCI. The mean and 95% confidence intervals for model performance metrics were calculated using the unseen test sets in the cross-validation rounds. The model built using only imaging features achieved 74.4% mean balanced accuracy, 0.94 mean macro-averaged AUC, and 0.73 mean macro-averaged F1 score. It accurately classified FTD (F1 = 0.99), HC (F1 = 0.99), and MCI (F1 = 0.86) fMRIs but mostly misclassified AD scans as MCI (F1 = 0.08). Adding clinical variables to model inputs raised balanced accuracy to 91.1%, macro-averaged AUC to 0.99, macro-averaged F1 score to 0.92, and improved AD classification accuracy (F1 = 0.74). In conclusion, a multimodal model based on rs-fMRI and clinical data accurately differentiates AD-MCI vs. FTD vs. HC.
+38780666	10	29	Alzheimer's Disease	Disease	MESH:D000544
+38780666	41	64	Frontotemporal Dementia	Disease	MESH:D057180
+38780666	172	198	neurodegenerative dementia	Disease	MESH:D019636
+38780666	216	235	Alzheimer's disease	Disease	MESH:D000544
+38780666	237	239	AD	Disease	MESH:D000544
+38780666	245	268	frontotemporal dementia	Disease	MESH:D057180
+38780666	270	273	FTD	Disease	MESH:D057180
+38780666	539	541	AD	Disease	MESH:D000544
+38780666	543	546	FTD	Disease	MESH:D057180
+38780666	557	577	cognitive impairment	Disease	MESH:D003072
+38780666	579	582	MCI	Disease	MESH:D060825
+38780666	1122	1124	AD	Disease	MESH:D000544
+38780666	1126	1129	FTD	Disease	MESH:D057180
+38780666	1139	1142	MCI	Disease	MESH:D060825
+38780666	1464	1467	FTD	Disease	MESH:D057180
+38780666	1501	1504	MCI	Disease	MESH:D060825
+38780666	1548	1550	AD	Disease	MESH:D000544
+38780666	1560	1563	MCI	Disease	MESH:D060825
+38780666	1728	1730	AD	Disease	MESH:D000544
+38780666	1863	1865	AD	Disease	MESH:D000544
+38780666	1866	1869	MCI	Disease	MESH:D060825
+38780666	1874	1877	FTD	Disease	MESH:D057180
+

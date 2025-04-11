@@ -1,0 +1,63 @@
+39598743|t|Sertraline as a Multi-Target Modulator of AChE, COX-2, BACE-1, and GSK-3beta: Computational and In Vivo Studies.
+39598743|a|Alzheimer's disease (AD) is a neurodegenerative disorder associated with the dysregulation of several key enzymes, including acetylcholinesterase (AChE), cyclooxygenase-2 (COX-2), glycogen synthase kinase 3beta (GSK-3beta), beta-site amyloid precursor protein cleaving enzyme 1 (BACE-1), and caspase-3. In this study, machine learning algorithms such as Random Forest (RF), Gradient Boost (GB), and Extreme Gradient Boost (XGB) were employed to screen US-FDA approved drugs from the ZINC15 database to identify potential dual inhibitors of COX-2 and AChE. The models were trained using molecules obtained from the ChEMBL database, with 5039 molecules for AChE and 3689 molecules for COX-2. Specifically, 1248 and 3791 molecules were classified as active and inactive for AChE, respectively, while 858 and 2831 molecules were classified as active and inactive for COX-2. The three machine learning models achieved prediction accuracies ranging from 92% to 95% for both AChE and COX-2. Virtual screening of US-FDA drugs from the ZINC15 database identified sertraline (SETL) as a potential dual inhibitor of AChE and COX-2. Further docking studies of SETL in the active sites of AChE and COX-2, as well as BACE-1, GSK-3beta, and caspase-3, revealed strong binding affinities for all five proteins. In vivo validation was conducted using a lipopolysaccharide (LPS)-induced rat model pretreated with SETL for 30 days. The results demonstrated a significant decrease in the levels of AChE (p < 0.001), BACE-1 (p < 0.01), GSK-3beta (p < 0.05), and COX-2 (p < 0.05). Additionally, the downstream effects were evaluated, showing significant decreases in the apoptosis marker caspase-3 (p < 0.05) and the oxidative stress marker malondialdehyde (MDA) (p < 0.001), indicating that SETL is clinically localized in its effectiveness, mitigating both enzymatic activity and the associated pathological changes of cognitive impairment and AD.
+39598743	0	10	Sertraline	Chemical	MESH:D020280
+39598743	42	46	AChE	Gene	83817
+39598743	48	53	COX-2	Gene	29527
+39598743	55	61	BACE-1	Gene	29392
+39598743	67	76	GSK-3beta	Gene	84027
+39598743	113	132	Alzheimer's disease	Disease	MESH:D000544
+39598743	134	136	AD	Disease	MESH:D000544
+39598743	143	169	neurodegenerative disorder	Disease	MESH:D019636
+39598743	238	258	acetylcholinesterase	Gene	83817
+39598743	260	264	AChE	Gene	83817
+39598743	267	283	cyclooxygenase-2	Gene	29527
+39598743	285	290	COX-2	Gene	29527
+39598743	293	323	glycogen synthase kinase 3beta	Gene	84027
+39598743	325	334	GSK-3beta	Gene	84027
+39598743	337	390	beta-site amyloid precursor protein cleaving enzyme 1	Gene	29392
+39598743	392	398	BACE-1	Gene	29392
+39598743	405	414	caspase-3	Gene	25402
+39598743	653	658	COX-2	Gene	29527
+39598743	663	668	AChE.	Gene	83817
+39598743	768	772	AChE	Gene	83817
+39598743	796	801	COX-2	Gene	29527
+39598743	884	888	AChE	Gene	83817
+39598743	976	981	COX-2	Gene	29527
+39598743	1081	1085	AChE	Gene	83817
+39598743	1090	1095	COX-2	Gene	29527
+39598743	1167	1177	sertraline	Chemical	MESH:D020280
+39598743	1179	1183	SETL	Chemical	MESH:D020280
+39598743	1218	1222	AChE	Gene	83817
+39598743	1227	1232	COX-2	Gene	29527
+39598743	1261	1265	SETL	Chemical	MESH:D020280
+39598743	1289	1293	AChE	Gene	83817
+39598743	1298	1303	COX-2	Gene	29527
+39598743	1316	1322	BACE-1	Gene	29392
+39598743	1324	1333	GSK-3beta	Gene	84027
+39598743	1339	1348	caspase-3	Gene	25402
+39598743	1449	1467	lipopolysaccharide	Chemical	MESH:D008070
+39598743	1469	1472	LPS	Chemical	MESH:D008070
+39598743	1482	1485	rat	Species	10116
+39598743	1508	1512	SETL	Chemical	MESH:D020280
+39598743	1591	1595	AChE	Gene	83817
+39598743	1609	1615	BACE-1	Gene	29392
+39598743	1628	1637	GSK-3beta	Gene	84027
+39598743	1654	1659	COX-2	Gene	29527
+39598743	1779	1788	caspase-3	Gene	25402
+39598743	1832	1847	malondialdehyde	Chemical	MESH:D008315
+39598743	1849	1852	MDA	Chemical	MESH:D008315
+39598743	1883	1887	SETL	Chemical	MESH:D020280
+39598743	2012	2032	cognitive impairment	Disease	MESH:D003072
+39598743	2037	2039	AD	Disease	MESH:D000544
+39598743	Negative_Correlation	MESH:D020280	83817
+39598743	Association	MESH:D000544	84027
+39598743	Association	MESH:D000544	29392
+39598743	Negative_Correlation	MESH:D008070	MESH:D020280
+39598743	Negative_Correlation	MESH:D020280	29527
+39598743	Negative_Correlation	MESH:D020280	29392
+39598743	Association	MESH:D000544	29527
+39598743	Association	MESH:D020280	84027
+39598743	Negative_Correlation	MESH:D020280	25402
+39598743	Association	MESH:D000544	83817
+39598743	Association	MESH:D000544	25402
+

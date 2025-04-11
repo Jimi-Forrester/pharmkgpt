@@ -1,0 +1,56 @@
+29663649|t|TREM2 inhibits inflammatory responses in mouse microglia by suppressing the PI3K/NF-kappaB signaling.
+29663649|a|This study aimed to investigate the effects of triggering receptor expressed on myeloid cell-2 (TREM2) on the production of pro-inflammatory mediators and cytokines induced by lipopolysaccharide (LPS) in BV2 microglia. TREM2 expression or TREM2-specific siRNA were used to induce TREM2 overexpression or silencing. The BV2 cells were pre-treated with the PI3 K inhibitor of LY294002 for 1 h and stimulated with LPS for 24 h. Then, the cell viability, apoptosis, phagocytosis, nitric oxide (NO), lactate dehydrogenase (LDH), and cytokine production, as well as the activation of AKT and NF-kB were determined, respectively. We found LPS stimulation significantly reduced BV2 cell viability, enhanced BV2 cell phagocytosis and apoptosis compared to the control groups. In addition, LPS stimulation significantly increased the production of NO, LDH, TNF-alpha, IL-1beta, and the activation of AKT and NF-kB, while decreased the levels of IL-10 and TGF-beta1. However, these pro-inflammatory effects were significantly attenuated by TREM2 overexpression or pre-treatment with LY294002, while enhanced by TREM2 silencing. Thus, we concluded that TREM2 inhibited neuroinflammation by down-regulating PI3 K/AKT and NF-kB signaling in BV2 microglia. Above all, therapeutic enhanced TREM2 expression may be a new strategy for intervention of neuroinflammatory diseases.
+29663649	0	5	TREM2	Gene	83433
+29663649	15	27	inflammatory	Disease	MESH:D007249
+29663649	41	46	mouse	Species	10090
+29663649	81	90	NF-kappaB	Gene	18033
+29663649	149	196	triggering receptor expressed on myeloid cell-2	Gene	83433
+29663649	198	203	TREM2	Gene	83433
+29663649	230	242	inflammatory	Disease	MESH:D007249
+29663649	278	296	lipopolysaccharide	Chemical	MESH:D008070
+29663649	298	301	LPS	Chemical	MESH:D008070
+29663649	306	309	BV2	CellLine	CVCL:0182
+29663649	321	326	TREM2	Gene	83433
+29663649	341	346	TREM2	Gene	83433
+29663649	382	387	TREM2	Gene	83433
+29663649	421	424	BV2	CellLine	CVCL:0182
+29663649	476	484	LY294002	Chemical	MESH:C085911
+29663649	513	516	LPS	Chemical	MESH:D008070
+29663649	578	590	nitric oxide	Chemical	MESH:D009569
+29663649	680	683	AKT	Gene	11651
+29663649	734	737	LPS	Chemical	MESH:D008070
+29663649	772	775	BV2	CellLine	CVCL:0182
+29663649	801	804	BV2	CellLine	CVCL:0182
+29663649	882	885	LPS	Chemical	MESH:D008070
+29663649	949	958	TNF-alpha	Gene	21926
+29663649	960	968	IL-1beta	Gene	16176
+29663649	992	995	AKT	Gene	11651
+29663649	1037	1042	IL-10	Gene	16153
+29663649	1047	1056	TGF-beta1	Gene	21803
+29663649	1077	1089	inflammatory	Disease	MESH:D007249
+29663649	1131	1136	TREM2	Gene	83433
+29663649	1174	1182	LY294002	Chemical	MESH:C085911
+29663649	1202	1207	TREM2	Gene	83433
+29663649	1243	1248	TREM2	Gene	83433
+29663649	1259	1276	neuroinflammation	Disease	MESH:D000090862
+29663649	1302	1305	AKT	Gene	11651
+29663649	1329	1332	BV2	CellLine	CVCL:0182
+29663649	1376	1381	TREM2	Gene	83433
+29663649	1435	1461	neuroinflammatory diseases	Disease	MESH:D000090862
+29663649	Positive_Correlation	MESH:D008070	21926
+29663649	Negative_Correlation	MESH:D008070	16153
+29663649	Association	18033	83433
+29663649	Negative_Correlation	MESH:C085911	MESH:D007249
+29663649	Negative_Correlation	MESH:C085911	MESH:D008070
+29663649	Negative_Correlation	11651	83433
+29663649	Negative_Correlation	MESH:D008070	21803
+29663649	Positive_Correlation	MESH:D008070	11651
+29663649	Association	MESH:D000090862	11651
+29663649	Negative_Correlation	MESH:D000090862	83433
+29663649	Association	MESH:D008070	83433
+29663649	Positive_Correlation	MESH:D008070	MESH:D007249
+29663649	Positive_Correlation	MESH:D008070	16176
+29663649	Association	MESH:D007249	18033
+29663649	Negative_Correlation	MESH:D007249	83433
+29663649	Positive_Correlation	21926	83433
+

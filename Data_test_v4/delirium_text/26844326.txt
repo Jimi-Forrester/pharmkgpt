@@ -1,0 +1,56 @@
+26844326|t|Quantitative In Vivo Imaging of Tissue Absorption, Scattering, and Hemoglobin Concentration in Rat Cortex Using Spatially Modulated Structured Light
+26844326|a|Significant changes in blood flow or in the integrity of cerebral vessels are believed to cause cerebrovascular disease (CVD) and to contribute to dementias including Alzheimer s disease [1]. Stroke, the most serious form of CVD, is one of the leading causes of death and adult disability worldwide. Acute treatments for stroke, however, are severely limited. Neuroprotective drugs under development show promise at halting the ischemic cascade, but as yet, no such compound has received federal approval in the United States. One of the biggest limitations to this development is the lack of understanding of the mechanisms by which cerebral vessels react to factors such as ischemia, inflammation, blood pressure changes, metabolic demands, and trauma [2]. In order to address these fundamental questions, functional brain imaging techniques such as fMRI and intrinsic signal optical imaging (ISOI) have emerged as tools to visualize and quantify cerebral hemodynamics. In the neuroscience community, ISOI has long been used to study the organization and functional architecture of different cortical regions in animals and humans [3-5] (see other chapters in this book). Three sources of ISOI signals that affect the intensity of diffusely reflected light derive from characteristic physiologic changes in the cortex. For functional neuronal activation, these have been observed to occur over a range of timescales, including (1) light scattering changes, both fast (over 10 s of milliseconds) and slow (i.e., > ~0.5 s) (2) early (~0.5-2.5 s) absorption changes from alterations in chromophore redox status, i.e., the oxy/deoxy-hemoglobin ratio (known as the  initial dip  period), and (3), slower (~2-10 s) absorption changes due to blood volume increase (correlated with the fMRI BOLD signal). Light scattering changes have been attributed to interstitial volume changes resulting from cellular swelling, organelle swelling due to ion and water movement, capillary expansion, and neurotransmitter release [6,7]. The slower absorption factors have been demonstrated to correlate with the changes in metabolic demand and subsequent hemodynamic cascades following neuronal activation [4,8,9]. Using animal models of acute and chronic brain injury, ISOI has been used to quantify the acute hemodynamic events in response to stroke, including focal ischemia and cortical spreading depression (CSD) [10-21]. Researchers have also used ISOI to locate and quantify the spatial extent of the stroke injury, including ischemic core, penumbra, and healthy tissue zones [18,22]. CSD also plays a key role in migraine headache, and recent laser speckle imaging studies have revealed the neurovascular coupling mechanism to the transmission of headache pain [23,24]. To fully understand the underlying mechanisms in vascular changes associated with cerebrovascular diseases such as stroke, an optical imaging technique that has the capability to rapidly separate absorption from scattering effects can enhance the information content of traditional ISOI, enabling (1) more accurate quantitation of hemodynamic function, (2) isolation of the electro-chemical changes characterized by light scattering, and (3) longitudinal chronic injury studies of function where structural reorganization due to neovascularization can cause significant alterations in scattering [25,26]. Quantitative diffuse optical methods [27] such as spatially-resolved reflectance, diffuse optical spectroscopy (DOS), and tomography (DOT), and diffuse correlation spectroscopy (DCS) possess exquisite sensitivity to these functional and structural alterations associated with brain injury, and have been applied to the study of CSD [11,15,28]. DOS and DOT utilize the near-infrared spectral region (600-1000 nm) to separate and quantify the multispectral absorption (u<sub>a</sub>) and reduced scattering coefficients (u<sub>s</sub> ), providing quantitative determination of several important biological chromophores such as deoxy-hemoglobin (HbR), oxy-hemoglobin (HbO<sub>2</sub>), water (H<sub>2</sub>O), and lipids. Concentrations of these chromophores represent the direct metrics of tissue function such as blood volume fraction, tissue oxygenation, and edema. Additionally, the scattering coefficient contains important structural information about the size and density of scatterers and can be used to assess tissue composition (exctracellular matrix proteins, cell nuclei, mitochondria) as well as follow the process of tissue remodeling (wound healing, cancer progression). DOS utilizes a limited number of source-detector positions, e.g., 1-2, but often employs broadband content in temporal and spectral domains [29]. In contrast, DOT typically utilizes a limited number of optical wavelengths (e.g., 2-6) and a narrow temporal bandwidth, but forms higher resolution images of subsurface structures by sampling a large number of source-detector  views.  To achieve maximal spatial resolution, the ideal DOT design would employ thousands of source-detector pairs and wavelengths. However, several engineering considerations including measurement time and instrument complexity currently limit the practicality of this approach. In this chapter we present the basic principles of a new, noncontact quantitative optical imaging technology, modulated imaging (MI) [30-32], and provide examples of MI performance in 2 rat models of brain injury, cortical spreading depression (CSD) and stroke. MI enables both DOS and DOT concepts with high spatial (<1 mm) and temporal resolution (<1 s) in a simple, scan-free platform. MI is capable of both separating and spatially-resolving optical absorption and scattering parameters, allowing wide-field quantitative mapping of tissue optical properties. While compatible with time-modulation methods, MI alternatively uses spatially modulated illumination for imaging of tissue constituents. Periodic illumination patterns of various spatial frequencies are projected over a large area of a sample. The diffusely reflected image is modified from the illumination pattern due to the turbidity of the sample. Typically, sine-wave illumination patterns are used. The demodulation of these spatially modulated waves characterizes the modulation transfer function (MTF) of the material, and embodies the sample optical property information.
+26844326	95	98	Rat	Species	10116
+26844326	245	268	cerebrovascular disease	Disease	MESH:D002561
+26844326	270	273	CVD	Disease	MESH:D002561
+26844326	296	305	dementias	Disease	MESH:D003704
+26844326	316	335	Alzheimerâs disease	Disease	MESH:D000544
+26844326	341	347	Stroke	Disease	MESH:D020521
+26844326	374	377	CVD	Disease	MESH:D002561
+26844326	411	416	death	Disease	MESH:D003643
+26844326	421	437	adult disability	Disease	MESH:D007859
+26844326	470	476	stroke	Disease	MESH:D020521
+26844326	577	585	ischemic	Disease	MESH:D002545
+26844326	825	833	ischemia	Disease	MESH:D007511
+26844326	835	847	inflammation	Disease	MESH:D007249
+26844326	896	902	trauma	Disease	MESH:D014947
+26844326	1275	1281	humans	Species	9606
+26844326	2093	2098	water	Chemical	MESH:D014867
+26844326	2385	2397	brain injury	Disease	MESH:D001930
+26844326	2474	2480	stroke	Disease	MESH:D020521
+26844326	2498	2506	ischemia	Disease	MESH:D007511
+26844326	2511	2540	cortical spreading depression	Disease	MESH:D003866
+26844326	2542	2545	CSD	Disease	MESH:D003866
+26844326	2637	2650	stroke injury	Disease	MESH:D020521
+26844326	2662	2670	ischemic	Disease	MESH:D002545
+26844326	2721	2724	CSD	Disease	MESH:D003866
+26844326	2750	2767	migraine headache	Disease	MESH:D008881
+26844326	2884	2897	headache pain	Disease	MESH:D010146
+26844326	2989	3013	cerebrovascular diseases	Disease	MESH:D002561
+26844326	3022	3028	stroke	Disease	MESH:D020521
+26844326	3788	3800	brain injury	Disease	MESH:D001930
+26844326	3840	3843	CSD	Disease	MESH:D003866
+26844326	4196	4201	water	Chemical	MESH:D014867
+26844326	4203	4204	H	Chemical	MESH:D006859
+26844326	4216	4217	O	Chemical	MESH:D010100
+26844326	4224	4230	lipids	Chemical	MESH:D008055
+26844326	4372	4377	edema	Disease	MESH:D004487
+26844326	4675	4681	cancer	Disease	MESH:D009369
+26844326	5537	5540	rat	Species	10116
+26844326	5551	5563	brain injury	Disease	MESH:D001930
+26844326	5565	5594	cortical spreading depression	Disease	MESH:D003866
+26844326	5596	5599	CSD	Disease	MESH:D003866
+26844326	5605	5611	stroke	Disease	MESH:D020521
+26844326	Association	MESH:D010100	MESH:D004487
+26844326	Association	MESH:D008055	MESH:D009369
+26844326	Association	MESH:D006859	MESH:D004487
+26844326	Association	MESH:D006859	MESH:D010146
+26844326	Association	MESH:D010100	MESH:D010146
+26844326	Association	MESH:D008055	MESH:D010146
+26844326	Association	MESH:D008055	MESH:D004487
+26844326	Association	MESH:D010100	MESH:D008881
+26844326	Association	MESH:D008055	MESH:D008881
+26844326	Association	MESH:D006859	MESH:D009369
+26844326	Association	MESH:D006859	MESH:D008881
+26844326	Association	MESH:D010100	MESH:D009369
+

@@ -1,0 +1,21 @@
+34814936|t|Improving 3D convolutional neural network comprehensibility via interactive visualization of relevance maps: evaluation in Alzheimer's disease.
+34814936|a|BACKGROUND: Although convolutional neural networks (CNNs) achieve high diagnostic accuracy for detecting Alzheimer's disease (AD) dementia based on magnetic resonance imaging (MRI) scans, they are not yet applied in clinical routine. One important reason for this is a lack of model comprehensibility. Recently developed visualization methods for deriving CNN relevance maps may help to fill this gap as they allow the visualization of key input image features that drive the decision of the model. We investigated whether models with higher accuracy also rely more on discriminative brain regions predefined by prior knowledge. METHODS: We trained a CNN for the detection of AD in N = 663 T1-weighted MRI scans of patients with dementia and amnestic mild cognitive impairment (MCI) and verified the accuracy of the models via cross-validation and in three independent samples including in total N = 1655 cases. We evaluated the association of relevance scores and hippocampus volume to validate the clinical utility of this approach. To improve model comprehensibility, we implemented an interactive visualization of 3D CNN relevance maps, thereby allowing intuitive model inspection. RESULTS: Across the three independent datasets, group separation showed high accuracy for AD dementia versus controls (AUC >= 0.91) and moderate accuracy for amnestic MCI versus controls (AUC   0.74). Relevance maps indicated that hippocampal atrophy was considered the most informative factor for AD detection, with additional contributions from atrophy in other cortical and subcortical regions. Relevance scores within the hippocampus were highly correlated with hippocampal volumes (Pearson's r   -0.86, p < 0.001). CONCLUSION: The relevance maps highlighted atrophy in regions that we had hypothesized a priori. This strengthens the comprehensibility of the CNN models, which were trained in a purely data-driven manner based on the scans and diagnosis labels. The high hippocampus relevance scores as well as the high performance achieved in independent samples support the validity of the CNN models in the detection of AD-related MRI abnormalities. The presented data-driven and hypothesis-free CNN modeling approach might provide a useful tool to automatically derive discriminative features for complex diagnostic tasks where clear clinical criteria are still missing, for instance for the differential diagnosis between various types of dementia.
+34814936	123	142	Alzheimer's disease	Disease	MESH:D000544
+34814936	249	268	Alzheimer's disease	Disease	MESH:D000544
+34814936	270	272	AD	Disease	MESH:D000544
+34814936	274	282	dementia	Disease	MESH:D003704
+34814936	820	822	AD	Disease	MESH:D000544
+34814936	859	867	patients	Species	9606
+34814936	873	881	dementia	Disease	MESH:D003704
+34814936	895	920	mild cognitive impairment	Disease	MESH:D060825
+34814936	922	925	MCI	Disease	MESH:D060825
+34814936	1420	1431	AD dementia	Disease	MESH:D000544
+34814936	1497	1500	MCI	Disease	MESH:D060825
+34814936	1561	1580	hippocampal atrophy	Disease	MESH:D001284
+34814936	1628	1630	AD	Disease	MESH:D000544
+34814936	1677	1684	atrophy	Disease	MESH:D001284
+34814936	1893	1900	atrophy	Disease	MESH:D001284
+34814936	2257	2259	AD	Disease	MESH:D000544
+34814936	2268	2285	MRI abnormalities	Disease	MESH:C564543
+34814936	2578	2586	dementia	Disease	MESH:D003704
+

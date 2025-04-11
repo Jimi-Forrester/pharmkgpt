@@ -1,0 +1,42 @@
+36614302|t|Multiplatform-Integrated Identification of Melatonin Targets for a Triad of Psychosocial-Sleep/Circadian-Cardiometabolic Disorders.
+36614302|a|Several psychosocial, sleep/circadian, and cardiometabolic disorders have intricately interconnected pathologies involving melatonin disruption. Therefore, we hypothesize that melatonin could be a therapeutic target for treating potential comorbid diseases associated with this triad of psychosocial-sleep/circadian-cardiometabolic disorders. We investigated melatonin's target prediction and tractability for this triad of disorders. The melatonin's target prediction for the proposed psychosocial-sleep/circadian-cardiometabolic disorder triad was investigated using databases from Europe PMC, ChEMBL, Open Targets Genetics, Phenodigm, and PheWAS. The association scores for melatonin receptors MT1 and MT2 with this disorder triad were explored for evidence of target-disease predictions. The potential of melatonin as a tractable target in managing the disorder triad was investigated using supervised machine learning to identify melatonin activities in cardiovascular, neuronal, and metabolic assays at the cell, tissue, and organism levels in a curated ChEMBL database. Target-disease visualization was done by graphs created using "igraph" library-based scripts and displayed using the Gephi ForceAtlas algorithm. The combined Europe PMC (data type: text mining), ChEMBL (data type: drugs), Open Targets Genetics Portal (data type: genetic associations), PhenoDigm (data type: animal models), and PheWAS (data type: genetic associations) databases yielded types and varying levels of evidence for melatonin-disease triad correlations. Of the investigated databases, 235 association scores of melatonin receptors with the targeted diseases were greater than 0.2; to classify the evidence per disease class: 37% listed psychosocial disorders, 9% sleep/circadian disorders, and 54% cardiometabolic disorders. Using supervised machine learning, 546 cardiovascular, neuronal, or metabolic experimental assays with predicted or measured melatonin activity scores were identified in the ChEMBL curated database. Of 248 registered trials, 144 phase I to IV trials for melatonin or agonists have been completed, of which 33.3% were for psychosocial disorders, 59.7% were for sleep/circadian disorders, and 6.9% were for cardiometabolic disorders. Melatonin's druggability was evidenced by evaluating target prediction and tractability for the triad of psychosocial-sleep/circadian-cardiometabolic disorders. While melatonin research and development in sleep/circadian and psychosocial disorders is more advanced, as evidenced by melatonin association scores, substantial evidence on melatonin discovery in cardiovascular and metabolic disorders supports continued R&D in cardiometabolic disorders, as evidenced by melatonin activity scores. A multiplatform analysis provided an integrative assessment of the target-disease investigations that may justify further translational research.
+36614302	43	52	Melatonin	Chemical	MESH:D008550
+36614302	89	94	Sleep	Disease	MESH:D012893
+36614302	105	130	Cardiometabolic Disorders	Disease	MESH:D024821
+36614302	154	159	sleep	Disease	MESH:D012893
+36614302	175	200	cardiometabolic disorders	Disease	MESH:D024821
+36614302	308	317	melatonin	Chemical	MESH:D008550
+36614302	432	437	sleep	Disease	MESH:D012893
+36614302	448	473	cardiometabolic disorders	Disease	MESH:D024821
+36614302	491	500	melatonin	Chemical	MESH:D008550
+36614302	571	580	melatonin	Chemical	MESH:D008550
+36614302	631	636	sleep	Disease	MESH:D012893
+36614302	647	671	cardiometabolic disorder	Disease	MESH:D024821
+36614302	829	832	MT1	Gene	644314
+36614302	837	840	MT2	Gene	4502
+36614302	941	950	melatonin	Chemical	MESH:D008550
+36614302	1067	1076	melatonin	Chemical	MESH:D008550
+36614302	1637	1646	melatonin	Chemical	MESH:D008550
+36614302	1857	1879	psychosocial disorders	Disease	MESH:C535569
+36614302	1884	1909	sleep/circadian disorders	Disease	MESH:D020178
+36614302	1919	1944	cardiometabolic disorders	Disease	MESH:D024821
+36614302	2071	2080	melatonin	Chemical	MESH:D008550
+36614302	2200	2209	melatonin	Chemical	MESH:D008550
+36614302	2267	2289	psychosocial disorders	Disease	MESH:C535569
+36614302	2306	2331	sleep/circadian disorders	Disease	MESH:D020178
+36614302	2351	2376	cardiometabolic disorders	Disease	MESH:D024821
+36614302	2378	2387	Melatonin	Chemical	MESH:D008550
+36614302	2496	2501	sleep	Disease	MESH:D012893
+36614302	2512	2537	cardiometabolic disorders	Disease	MESH:D024821
+36614302	2545	2554	melatonin	Chemical	MESH:D008550
+36614302	2583	2588	sleep	Disease	MESH:D012893
+36614302	2589	2625	circadian and psychosocial disorders	Disease	MESH:C535569
+36614302	2660	2669	melatonin	Chemical	MESH:D008550
+36614302	2714	2723	melatonin	Chemical	MESH:D008550
+36614302	2737	2775	cardiovascular and metabolic disorders	Disease	MESH:D024821
+36614302	2795	2798	R&D	Disease	MESH:C580424
+36614302	2802	2827	cardiometabolic disorders	Disease	MESH:D024821
+36614302	2845	2854	melatonin	Chemical	MESH:D008550
+36614302	Negative_Correlation	MESH:D008550	MESH:D024821
+36614302	Association	MESH:D008550	MESH:D012893
+

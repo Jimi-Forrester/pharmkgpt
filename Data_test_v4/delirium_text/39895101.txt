@@ -1,0 +1,37 @@
+39895101|t|Machine Learning-Based Prediction of Delirium and Risk Factor Identification in ICU Patients with Burns: A Retrospective Observational Study.
+39895101|a|BACKGROUND: The incidence of delirium in patients with burns receiving treatment in the intensive care unit (ICU) is high, reaching up to 77%, and has been associated with increased mortality rates. Therefore, early identification of patients at high risk of delirium onset is essential for improving treatment strategies. OBJECTIVE: This study aimed to create a machine learning model for predicting delirium in patients with burns during their ICU stay using patient data from the first day of ICU admission and to identify predictive factors for ICU delirium in patients with burns. METHODS: This study focused on 82 patients with burns aged >=18 years who were admitted to the ICU at Mie University Hospital for 24 h or more between January 2015 and June 2023. Seventy variables were measured in patients upon ICU admission and used as explanatory variables in the ICU delirium prediction model. Delirium was assessed using the Intensive Care Delirium Screening Checklist every 8 h after ICU admission. Ten different machine-learning methods were employed to predict ICU delirium. Multiple receiver operating characteristic curves were plotted for various machine learning models, and the area under each curve (AUC) was compared. Additionally, the top 15 risk factors contributing to delirium onset were identified using Shapley Additive exPlanations analysis. RESULTS: Among the ten machine learning models tested, logistic regression (AUC: 0.906 +- 0.073), support vector machine (AUC: 0.897 +- 0.056), k-nearest neighbors (AUC: 0.894 +- 0.060), neural network (AUC: 0.857 +- 0.058), random forest (AUC: 0.850 +- 0.074), AdaBoost (AUC: 0.832 +- 0.094), gradient boosting machine (AUC: 0.821 +- 0.074), and Naive Bayes (AUC: 0.827 +- 0.095) demonstrated the highest accuracy in predicting ICU delirium. Specifically, 24-h urine output (from ICU admission to 24 h), oxygen saturation, burn area, total bilirubin level, and intubation upon ICU admission were identified as the major risk factors for delirium onset. Additionally, variables, such as the proportion of white blood cell fractions, including monocytes, methemoglobin concentration, and respiratory rate, were identified as important risk factors for ICU delirium. CONCLUSIONS: This study demonstrated the ability of machine learning models trained with vital signs and blood data upon ICU admission to predict delirium in patients with burns during their ICU stay. CLINICALTRIAL: 
+39895101	37	45	Delirium	Disease	MESH:D003693
+39895101	84	92	Patients	Species	9606
+39895101	98	103	Burns	Disease	MESH:D002056
+39895101	171	179	delirium	Disease	MESH:D003693
+39895101	183	191	patients	Species	9606
+39895101	197	202	burns	Disease	MESH:D002056
+39895101	376	384	patients	Species	9606
+39895101	401	409	delirium	Disease	MESH:D003693
+39895101	543	551	delirium	Disease	MESH:D003693
+39895101	555	563	patients	Species	9606
+39895101	569	574	burns	Disease	MESH:D002056
+39895101	603	610	patient	Species	9606
+39895101	691	703	ICU delirium	Disease	MESH:C000657744
+39895101	707	715	patients	Species	9606
+39895101	721	726	burns	Disease	MESH:D002056
+39895101	762	770	patients	Species	9606
+39895101	776	781	burns	Disease	MESH:D002056
+39895101	942	950	patients	Species	9606
+39895101	1011	1023	ICU delirium	Disease	MESH:C000657744
+39895101	1042	1050	Delirium	Disease	MESH:D003693
+39895101	1089	1097	Delirium	Disease	MESH:D003693
+39895101	1213	1225	ICU delirium	Disease	MESH:C000657744
+39895101	1431	1439	delirium	Disease	MESH:D003693
+39895101	1937	1949	ICU delirium	Disease	MESH:C000657744
+39895101	2013	2019	oxygen	Chemical	MESH:D010100
+39895101	2032	2036	burn	Disease	MESH:D002056
+39895101	2049	2058	bilirubin	Chemical	MESH:D001663
+39895101	2146	2154	delirium	Disease	MESH:D003693
+39895101	2262	2275	methemoglobin	Gene	3048
+39895101	2359	2371	ICU delirium	Disease	MESH:C000657744
+39895101	2519	2527	delirium	Disease	MESH:D003693
+39895101	2531	2539	patients	Species	9606
+39895101	2545	2550	burns	Disease	MESH:D002056
+39895101	Association	MESH:D010100	MESH:C000657744
+

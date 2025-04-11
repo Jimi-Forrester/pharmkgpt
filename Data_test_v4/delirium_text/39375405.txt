@@ -1,0 +1,69 @@
+39375405|t|Bioinformatics analysis of effective biomarkers and immune infiltration in type 2 diabetes with cognitive impairment and aging.
+39375405|a|With the increasing prevalence of diabetes mellitus worldwide, type 2 diabetes mellitus (T2D) combined with cognitive impairment and aging has become one of the common and important complications of diabetes mellitus, which seriously affects the quality of life of the patients, and imposes a heavy burden on the patients' families and the society. Currently, there are no special measures for the treatment of cognitive impairment and aging in type 2 diabetes mellitus. Therefore, the search for potential biological markers of type 2 diabetes mellitus combined with cognitive impairment and aging is of great significance for future precisive treatment. We downloaded three gene expression datasets from the GEO database: GSE161355 (related to T2D with cognitive impairment and aging), GSE122063, and GSE5281 (related to Alzheimer's disease). Differentially expressed genes (DEGs) were identified, followed by gene set enrichment analysis (GSEA). A protein-protein interaction (PPI) network was constructed using the STRING database, and the top 15 hub genes were identified using the CytoHubba plugin in Cytoscape. Core genes were ultimately determined using three machine learning methods: LASSO regression, Support Vector Machine Recursive Feature Elimination (SVM-RFE), and Linear Discriminant Analysis (LDA). The diagnostic performance of these genes was assessed using ROC curve analysis and validated in an independent dataset (GSE5281). Regulatory genes related to ferroptosis were screened from the FerrDb database, and their biological functions were further explored through GO and KEGG enrichment analyses. Finally, the CIBERSORT algorithm was used to analyze immune cell infiltration, and the correlation between core genes and immune cell infiltration levels was calculated, leading to the construction of an mRNA-miRNA regulatory network. In the GSE161355 and GSE122063 datasets, 217 common DEGs were identified. GSEA analysis revealed their enrichment in the PI3K-PLC-TRK signaling pathway, TP53 regulation of metabolic genes pathway, Notch signaling pathway, among others. PPI network analysis identified 15 candidate core genes, and further selection using LASSO, LDA, and SVM-RFE machine learning algorithms resulted in 6 core genes: BCL6, TP53, HSP90AA1, CRYAB, IL1B, and DNAJB1. ROC curve analysis indicated that these genes had good diagnostic performance in the GSE161355 dataset, with TP53 and IL1B achieving an AUC of 0.9, indicating the highest predictive accuracy. BCL6, HSP90AA1, CRYAB, and DNAJB1 also had AUCs greater than 0.8, demonstrating moderate predictive accuracy. Validation in the independent dataset GSE5281 showed that these core genes also had good diagnostic performance in Alzheimer's disease samples (AUC > 0.6). Ferroptosis-related analysis revealed that IL1B and TP53 play significant roles in apoptosis and immune response. Immune cell infiltration analysis showed that IL1B is significantly positively correlated with infiltration levels of monocytes and NK cells, while TP53 is significantly negatively correlated with infiltration levels of follicular helper T cells. The construction of the miRNA-mRNA regulatory network suggested that miR-150a-5p might play a key role in the regulation of T2D-associated cognitive impairment and aging by TP53. This study, by integrating bioinformatics and machine learning methods, identified BCL6, TP53, HSP90AA1, CRYAB, IL1B, and DNAJB1 as potential diagnostic biomarkers for T2D with cognitive impairment and aging, with a particular emphasis on the significance of TP53 and IL1B in immune cell infiltration. These findings not only enhance our understanding of the molecular mechanisms linking type 2 diabetes to cognitive impairment and aging, providing new targets for early diagnosis and treatment, but also offer new directions and targets for basic research.
+39375405	75	90	type 2 diabetes	Disease	MESH:D003924
+39375405	96	116	cognitive impairment	Disease	MESH:D003072
+39375405	162	179	diabetes mellitus	Disease	MESH:D003920
+39375405	191	215	type 2 diabetes mellitus	Disease	MESH:D003924
+39375405	217	220	T2D	Disease	MESH:D003924
+39375405	236	256	cognitive impairment	Disease	MESH:D003072
+39375405	327	344	diabetes mellitus	Disease	MESH:D003920
+39375405	397	405	patients	Species	9606
+39375405	441	449	patients	Species	9606
+39375405	539	559	cognitive impairment	Disease	MESH:D003072
+39375405	573	597	type 2 diabetes mellitus	Disease	MESH:D003924
+39375405	657	681	type 2 diabetes mellitus	Disease	MESH:D003924
+39375405	696	716	cognitive impairment	Disease	MESH:D003072
+39375405	874	877	T2D	Disease	MESH:D003924
+39375405	883	903	cognitive impairment	Disease	MESH:D003072
+39375405	951	970	Alzheimer's disease	Disease	MESH:D000544
+39375405	1603	1614	ferroptosis	Disease	
+39375405	2105	2109	PI3K	Gene	5293
+39375405	2110	2113	PLC	Gene	3339
+39375405	2114	2117	TRK	Gene	4914
+39375405	2137	2141	TP53	Gene	7157
+39375405	2383	2387	BCL6	Gene	604
+39375405	2389	2393	TP53	Gene	7157
+39375405	2395	2403	HSP90AA1	Gene	3320
+39375405	2405	2410	CRYAB	Gene	1410
+39375405	2412	2416	IL1B	Gene	3553
+39375405	2422	2428	DNAJB1	Gene	3337
+39375405	2539	2543	TP53	Gene	7157
+39375405	2548	2552	IL1B	Gene	3553
+39375405	2622	2626	BCL6	Gene	604
+39375405	2628	2636	HSP90AA1	Gene	3320
+39375405	2638	2643	CRYAB	Gene	1410
+39375405	2649	2655	DNAJB1	Gene	3337
+39375405	2847	2866	Alzheimer's disease	Disease	MESH:D000544
+39375405	2888	2899	Ferroptosis	Disease	
+39375405	2931	2935	IL1B	Gene	3553
+39375405	2940	2944	TP53	Gene	7157
+39375405	3048	3052	IL1B	Gene	3553
+39375405	3150	3154	TP53	Gene	7157
+39375405	3373	3376	T2D	Disease	MESH:D003924
+39375405	3388	3408	cognitive impairment	Disease	MESH:D003072
+39375405	3422	3426	TP53	Gene	7157
+39375405	3511	3515	BCL6	Gene	604
+39375405	3517	3521	TP53	Gene	7157
+39375405	3523	3531	HSP90AA1	Gene	3320
+39375405	3533	3538	CRYAB	Gene	1410
+39375405	3540	3544	IL1B	Gene	3553
+39375405	3550	3556	DNAJB1	Gene	3337
+39375405	3596	3599	T2D	Disease	MESH:D003924
+39375405	3605	3625	cognitive impairment	Disease	MESH:D003072
+39375405	3687	3691	TP53	Gene	7157
+39375405	3696	3700	IL1B	Gene	3553
+39375405	3816	3831	type 2 diabetes	Disease	MESH:D003924
+39375405	3835	3855	cognitive impairment	Disease	MESH:D003072
+39375405	Association	MESH:D003924	3320
+39375405	Association	MESH:D003924	7157
+39375405	Association	MESH:D003924	3339
+39375405	Association	MESH:D003924	5293
+39375405	Association	MESH:D003072	3320
+39375405	Association	4914	5293
+39375405	Association	MESH:D003072	3337
+39375405	Association	MESH:D003072	3553
+39375405	Association	3339	5293
+39375405	Association	MESH:D003072	604
+39375405	Association	MESH:D003924	3337
+39375405	Association	3339	4914
+

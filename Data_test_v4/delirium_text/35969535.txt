@@ -1,0 +1,29 @@
+35969535|t|Utility of automated data-adaptive propensity score method for confounding by indication in comparative effectiveness study in real world Medicare and registry data.
+35969535|a|BACKGROUND: Confounding by indication is a serious threat to comparative studies using real world data. We assessed the utility of automated data-adaptive analytic approach for confounding adjustment when both claims and clinical registry data are available. METHODS: We used a comparative study example of carotid artery stenting (CAS) vs. carotid endarterectomy (CEA) in 2005-2008 when CAS was only indicated for patients with high surgical risk. We included Medicare beneficiaries linked to the Society for Vascular Surgery's Vascular Registry >65 years old undergoing CAS/CEA. We compared hazard ratios (HRs) for death while adjusting for confounding by combining various 1) Propensity score (PS) modeling strategies (investigator-specified [IS-PS] vs. automated data-adaptive [ada-PS]); 2) data sources (claims-only, registry-only and claims-plus-registry); and 3) PS adjustment approaches (matching vs. quintiles-adjustment with/without trimming). An HR of 1.0 was used as a benchmark effect estimate based on CREST trial. RESULTS: The cohort included 1,999 CAS and 3,255 CEA patients (mean age 76). CAS patients were more likely symptomatic and at high surgical risk, and experienced higher mortality (crude HR = 1.82 for CAS vs. CEA). HRs from PS-quintile adjustment without trimming were 1.48 and 1.52 for claims-only IS-PS and ada-PS, 1.51 and 1.42 for registry-only IS-PS and ada-PS, and 1.34 and 1.23 for claims-plus-registry IS-PS and ada-PS, respectively. Estimates from other PS adjustment approaches showed similar patterns. CONCLUSIONS: In a comparative effectiveness study of CAS vs. CEA with strong confounding by indication, ada-PS performed better than IS-PS in general, but both claims and registry data were needed to adequately control for bias.
+35969535	498	501	CAS	Disease	MESH:D002340
+35969535	531	534	CEA	Disease	MESH:D016893
+35969535	554	557	CAS	Disease	MESH:D002340
+35969535	581	589	patients	Species	9606
+35969535	738	741	CAS	Disease	MESH:D002340
+35969535	742	745	CEA	Disease	MESH:D016893
+35969535	783	788	death	Disease	MESH:D003643
+35969535	912	917	IS-PS	Chemical	-
+35969535	948	954	ada-PS	Chemical	-
+35969535	1230	1233	CAS	Disease	MESH:D002340
+35969535	1244	1247	CEA	Disease	MESH:D016893
+35969535	1248	1256	patients	Species	9606
+35969535	1272	1275	CAS	Disease	MESH:D002340
+35969535	1276	1284	patients	Species	9606
+35969535	1395	1398	CAS	Disease	MESH:D002340
+35969535	1403	1406	CEA	Disease	MESH:D016893
+35969535	1493	1498	IS-PS	Chemical	-
+35969535	1503	1509	ada-PS	Chemical	-
+35969535	1543	1548	IS-PS	Chemical	-
+35969535	1553	1559	ada-PS	Chemical	-
+35969535	1604	1609	IS-PS	Chemical	-
+35969535	1614	1620	ada-PS	Chemical	-
+35969535	1760	1763	CAS	Disease	MESH:D002340
+35969535	1768	1771	CEA	Disease	MESH:D016893
+35969535	1811	1817	ada-PS	Chemical	-
+35969535	1840	1845	IS-PS	Chemical	-
+

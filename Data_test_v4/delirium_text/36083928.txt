@@ -1,0 +1,19 @@
+36083928|t|An unsupervised region of interest extraction model for tau PET images and its application in the diagnosis of Alzheimer's disease.
+36083928|a|BACKGROUND: Recently, tau positron-emission tomography (PET) images have been widely used for the diagnosis of Alzheimer's disease (AD). However, existing semi-quantitative uptake value ratios (SUVR) calculation is usually based on group analysis or specific brain regions from existing templates, which cannot detect individual heterogeneity. In this study, we proposed a novel deep learning model; called generative adversarial networks constrained multiple loss autoencoder for tau (GANCMLAE4TAU), to extract individual regions of interest (ROIs) of tau deposition. METHODS: The basic framework of the proposed model is composed of two encoders, one decoder, and one discriminator. Tau PET images of 327 cognitive normal (CN) subjects from Alzheimer's Disease Neuroimaging Initiative (ADNI) were used to train the model and 29 CNs from Huashan Hospital were used as an external validation group. The other 57 AD patients and 83 CNs subjects from ADNI were used in the classification task. The Structural Similarity (SSIM), Peak Signal to Noise Ratio (PSNR) and Mean Square Error (MSE) were applied to validate the robustness of our model. In addition, we conducted a receiver operating characteristic curve (ROC) analysis for the SUVR of individual ROIs from the GANCMLAE4TAU model and compared it with SUVR of the whole brain and ROIs from the templates. RESULTS: Our model achieved good SSIM (0.963+-0.006), PSNR (35.960+-3.458) and MSE (0.0004+-0.0003). In ROC analysis, our model had the highest area under curve (AUC) (0.869, 0.809-0.929) in discriminating AD from CN subjects. CONCLUSION: GANCMLAE4TAU could detect individual ROIs for tau PET images and had the potential to be developed as a novel diagnostic tool in the future. Clinical Relevance- This method can find individual ROIs of tau depositions, so as to achieve more accurate diagnosis of Alzheimer's disease.
+36083928	56	59	tau	Gene	4137
+36083928	111	130	Alzheimer's disease	Disease	MESH:D000544
+36083928	154	157	tau	Gene	4137
+36083928	243	262	Alzheimer's disease	Disease	MESH:D000544
+36083928	264	266	AD	Disease	MESH:D000544
+36083928	613	616	tau	Gene	4137
+36083928	685	688	tau	Gene	4137
+36083928	817	820	Tau	Gene	4137
+36083928	875	894	Alzheimer's Disease	Disease	MESH:D000544
+36083928	1044	1046	AD	Disease	MESH:D000544
+36083928	1047	1055	patients	Species	9606
+36083928	1697	1699	AD	Disease	MESH:D000544
+36083928	1776	1779	tau	Gene	4137
+36083928	1931	1934	tau	Gene	4137
+36083928	1992	2011	Alzheimer's disease	Disease	MESH:D000544
+36083928	Association	MESH:D000544	4137
+

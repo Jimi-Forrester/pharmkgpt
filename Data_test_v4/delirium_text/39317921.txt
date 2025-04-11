@@ -1,0 +1,16 @@
+39317921|t|Forecasting intraoperative hypotension during hepatobiliary surgery.
+39317921|a|Prediction and avoidance of intraoperative hypotension (IOH) can lead to less postoperative morbidity. Machine learning (ML) is increasingly being applied to predict IOH. We hypothesize that incorporating demographic and physiological features in an ML model will improve the performance of IOH prediction. In addition, we added a "dial" feature to alter prediction performance. An ML prediction model was built based on a multivariate random forest (RF) trained algorithm using 13 physiologic time series and patient demographic data (age, sex, and BMI) for adult patients undergoing hepatobiliary surgery. A novel implementation was developed with an adjustable, multi-model voting (MMV) approach to improve performance in the challenging context of a dynamic, sliding window for which the propensity of data is normal (negative for IOH). The study cohort included 85% of subjects exhibiting at least one IOH event. Males constituted 70% of the cohort, median age was 55.8 years, and median BMI was 27.7. The multivariate model yielded average AUC = 0.97 in the static context of a single prediction made up to 8 min before a possible IOH event, and it outperformed a univariate model based on MAP-only (average AUC = 0.83). The MMV model demonstrated AUC = 0.96, PPV = 0.89, and NPV = 0.98 within the challenging context of a dynamic sliding window across 40 min prior to a possible IOH event. We present a novel ML model to predict IOH with a distinctive "dial" on sensitivity and specificity to predict first IOH episode during liver resection surgeries.
+39317921	12	38	intraoperative hypotension	Disease	MESH:D007022
+39317921	97	123	intraoperative hypotension	Disease	MESH:D007022
+39317921	125	128	IOH	Disease	MESH:D007022
+39317921	235	238	IOH	Disease	MESH:D007022
+39317921	360	363	IOH	Disease	MESH:D007022
+39317921	579	586	patient	Species	9606
+39317921	634	642	patients	Species	9606
+39317921	904	907	IOH	Disease	MESH:D007022
+39317921	976	979	IOH	Disease	MESH:D007022
+39317921	1206	1209	IOH	Disease	MESH:D007022
+39317921	1455	1458	IOH	Disease	MESH:D007022
+39317921	1505	1508	IOH	Disease	MESH:D007022
+39317921	1583	1586	IOH	Disease	MESH:D007022
+

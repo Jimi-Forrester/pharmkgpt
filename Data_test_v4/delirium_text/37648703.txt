@@ -1,0 +1,14 @@
+37648703|t|Benchmarking of force fields to characterize the intrinsically disordered R2-FUS-LC region.
+37648703|a|Intrinsically Disordered Proteins (IDPs) play crucial roles in numerous diseases like Alzheimer's and ALS by forming irreversible amyloid fibrils. The effectiveness of force fields (FFs) developed for globular proteins and their modified versions for IDPs varies depending on the specific protein. This study assesses 13 FFs, including AMBER and CHARMM, by simulating the R2 region of the FUS-LC domain (R2-FUS-LC region), an IDP implicated in ALS. Due to the flexibility of the region, we show that utilizing multiple measures, which evaluate the local and global conformations, and combining them together into a final score are important for a comprehensive evaluation of force fields. The results suggest c36m2021s3p with mTIP3p water model is the most balanced FF, capable of generating various conformations compatible with known ones. In addition, the mTIP3P water model is computationally more efficient than those of top-ranked AMBER FFs with four-site water models. The evaluation also reveals that AMBER FFs tend to generate more compact conformations compared to CHARMM FFs but also more non-native contacts. The top-ranking AMBER and CHARMM FFs can reproduce intra-peptide contacts but underperform for inter-peptide contacts, indicating there is room for improvement.
+37648703	77	80	FUS	Gene	2521
+37648703	178	189	Alzheimer's	Disease	MESH:D000544
+37648703	194	197	ALS	Disease	MESH:D008113
+37648703	481	484	FUS	Gene	2521
+37648703	499	502	FUS	Gene	2521
+37648703	536	539	ALS	Disease	MESH:D008113
+37648703	825	830	water	Chemical	MESH:D014867
+37648703	951	957	mTIP3P	Chemical	-
+37648703	958	963	water	Chemical	MESH:D014867
+37648703	1054	1059	water	Chemical	MESH:D014867
+37648703	Association	MESH:D008113	2521
+

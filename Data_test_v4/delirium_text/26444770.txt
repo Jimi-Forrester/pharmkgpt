@@ -1,0 +1,47 @@
+26444770|t|Structural Neuroimaging Genetics Interactions in Alzheimer's Disease.
+26444770|a|This article investigates late-onset cognitive impairment using neuroimaging and genetics biomarkers for Alzheimer's Disease Neuroimaging Initiative (ADNI) participants. Eight-hundred and eight ADNI subjects were identified and divided into three groups: 200 subjects with Alzheimer's disease (AD), 383 subjects with mild cognitive impairment (MCI), and 225 asymptomatic normal controls (NC). Their structural magnetic resonance imaging (MRI) data were parcellated using BrainParser, and the 80 most important neuroimaging biomarkers were extracted using the global shape analysis Pipeline workflow. Using Plink via the Pipeline environment, we obtained 80 SNPs highly-associated with the imaging biomarkers. In the AD cohort, rs2137962 was significantly associated bilaterally with changes in the hippocampi and the parahippocampal gyri, and rs1498853, rs288503, and rs288496 were associated with the left and right hippocampi, the right parahippocampal gyrus, and the left inferior temporal gyrus. In the MCI cohort, rs17028008 and rs17027976 were significantly associated with the right caudate and right fusiform gyrus, rs2075650 (TOMM40) was associated with the right caudate, and rs1334496 and rs4829605 were significantly associated with the right inferior temporal gyrus. In the NC cohort, Chromosome 15 [rs734854 (STOML1), rs11072463 (PML), rs4886844 (PML), and rs1052242 (PML)] was significantly associated with both hippocampi and both insular cortices, and rs4899412 (RGS6) was significantly associated with the caudate. We observed significant correlations between genetic and neuroimaging phenotypes in the 808 ADNI subjects. These results suggest that differences between AD, MCI, and NC cohorts may be examined by using powerful joint models of morphometric, imaging and genotypic data. 
+26444770	49	68	Alzheimer's Disease	Disease	MESH:D000544
+26444770	107	127	cognitive impairment	Disease	MESH:D003072
+26444770	175	194	Alzheimer's Disease	Disease	MESH:D000544
+26444770	343	362	Alzheimer's disease	Disease	MESH:D000544
+26444770	364	366	AD	Disease	MESH:D000544
+26444770	392	412	cognitive impairment	Disease	MESH:D003072
+26444770	414	417	MCI	Disease	MESH:D060825
+26444770	786	788	AD	Disease	MESH:D000544
+26444770	797	806	rs2137962	SNP	tmVar:rs2137962;VariantGroup:4;RS#:2137962
+26444770	913	922	rs1498853	SNP	tmVar:rs1498853;VariantGroup:2;RS#:1498853
+26444770	924	932	rs288503	SNP	tmVar:rs288503;VariantGroup:0;RS#:288503
+26444770	938	946	rs288496	SNP	tmVar:rs288496;VariantGroup:7;RS#:288496
+26444770	1077	1080	MCI	Disease	MESH:D060825
+26444770	1089	1099	rs17028008	SNP	tmVar:rs17028008;VariantGroup:11;RS#:17028008
+26444770	1104	1114	rs17027976	SNP	tmVar:rs17027976;VariantGroup:13;RS#:17027976
+26444770	1194	1203	rs2075650	SNP	tmVar:rs2075650;VariantGroup:6;CorrespondingGene:10452;RS#:2075650;CorrespondingSpecies:9606
+26444770	1205	1211	TOMM40	Gene	10452
+26444770	1256	1265	rs1334496	SNP	tmVar:rs1334496;VariantGroup:12;RS#:1334496
+26444770	1270	1279	rs4829605	SNP	tmVar:rs4829605;VariantGroup:3;RS#:4829605
+26444770	1383	1391	rs734854	SNP	tmVar:rs734854;VariantGroup:8;CorrespondingGene:9399;RS#:734854;CorrespondingSpecies:9606
+26444770	1393	1399	STOML1	Gene	9399
+26444770	1402	1412	rs11072463	SNP	tmVar:rs11072463;VariantGroup:9;CorrespondingGene:5371;RS#:11072463;CorrespondingSpecies:9606
+26444770	1414	1417	PML	Gene	5371
+26444770	1420	1429	rs4886844	SNP	tmVar:rs4886844;VariantGroup:5;CorrespondingGene:5371;RS#:4886844;CorrespondingSpecies:9606
+26444770	1431	1434	PML	Gene	5371
+26444770	1441	1450	rs1052242	SNP	tmVar:rs1052242;VariantGroup:10;CorrespondingGene:5371;RS#:1052242;CorrespondingSpecies:9606
+26444770	1452	1455	PML	Gene	5371
+26444770	1539	1548	rs4899412	SNP	tmVar:rs4899412;VariantGroup:1;CorrespondingGene:9628;RS#:4899412;CorrespondingSpecies:9606
+26444770	1550	1554	RGS6	Gene	9628
+26444770	1757	1759	AD	Disease	MESH:D000544
+26444770	1761	1764	MCI	Disease	MESH:D060825
+26444770	Association	MESH:D060825	RS#:4829605
+26444770	Association	MESH:D060825	RS#:1334496
+26444770	Association	MESH:D060825	RS#:2075650;CorrespondingGene:10452
+26444770	Association	MESH:D000544	RS#:11072463;CorrespondingGene:5371
+26444770	Association	MESH:D060825	10452
+26444770	Association	MESH:D000544	RS#:288496
+26444770	Association	MESH:D000544	RS#:2137962
+26444770	Association	MESH:D060825	RS#:17027976
+26444770	Association	MESH:D000544	RS#:288503
+26444770	Association	MESH:D000544	RS#:1498853
+26444770	Association	MESH:D060825	RS#:17028008
+26444770	Association	MESH:D060825	10452
+26444770	Association	MESH:D000544	5371
+

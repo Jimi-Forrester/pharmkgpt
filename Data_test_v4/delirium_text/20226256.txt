@@ -1,0 +1,16 @@
+20226256|t|Validation of MRI-based 3D digital atlas registration with histological and autoradiographic volumes: an anatomofunctional transgenic mouse brain imaging study.
+20226256|a|Murine models are commonly used in neuroscience to improve our knowledge of disease processes and to test drug effects. To accurately study neuroanatomy and brain function in small animals, histological staining and ex vivo autoradiography remain the gold standards to date. These analyses are classically performed by manually tracing regions of interest, which is time-consuming. For this reason, only a few 2D tissue sections are usually processed, resulting in a loss of information. We therefore proposed to match a 3D digital atlas with previously 3D-reconstructed post mortem data to automatically evaluate morphology and function in mouse brain structures. We used a freely available MRI-based 3D digital atlas derived from C57Bl/6J mouse brain scans (9.4T). The histological and autoradiographic volumes used were obtained from a preliminary study in APP(SL)/PS1(M146L) transgenic mice, models of Alzheimer's disease, and their control littermates (PS1(M146L)). We first deformed the original 3D MR images to match our experimental volumes. We then applied deformation parameters to warp the 3D digital atlas to match the data to be studied. The reliability of our method was qualitatively and quantitatively assessed by comparing atlas-based and manual segmentations in 3D. Our approach yields faster and more robust results than standard methods in the investigation of post mortem mouse data sets at the level of brain structures. It also constitutes an original method for the validation of an MRI-based atlas using histology and autoradiography as anatomical and functional references, respectively.
+20226256	134	139	mouse	Species	10090
+20226256	161	167	Murine	Species	10090
+20226256	802	807	mouse	Species	10090
+20226256	898	901	/6J	CellLine	CVCL:W797
+20226256	902	907	mouse	Species	10090
+20226256	1029	1032	PS1	Gene	19164
+20226256	1033	1038	M146L	ProteinMutation	tmVar:p|SUB|M|146|L;HGVS:p.M146L;VariantGroup:0;OriginalGene:19164;CorrespondingGene:5663;RS#:63750306;CorrespondingSpecies:10090;CA#:225022
+20226256	1051	1055	mice	Species	10090
+20226256	1067	1086	Alzheimer's disease	Disease	MESH:D000544
+20226256	1119	1122	PS1	Gene	19164
+20226256	1123	1128	M146L	ProteinMutation	tmVar:p|SUB|M|146|L;HGVS:p.M146L;VariantGroup:0;OriginalGene:19164;CorrespondingGene:5663;RS#:63750306;CorrespondingSpecies:10090;CA#:225022
+20226256	1554	1559	mouse	Species	10090
+20226256	Association	MESH:D000544	19164
+

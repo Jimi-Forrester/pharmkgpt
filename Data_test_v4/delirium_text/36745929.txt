@@ -1,0 +1,16 @@
+36745929|t|An attention-based deep learning approach for the classification of subjective cognitive decline and mild cognitive impairment using resting-state EEG.
+36745929|a|Objective. This study aims to design and implement the first deep learning (DL) model to classify subjects in the prodromic states of Alzheimer's disease (AD) based on resting-state electroencephalographic (EEG) signals.Approach. EEG recordings of 17 healthy controls (HCs), 56 subjective cognitive decline (SCD) and 45 mild cognitive impairment (MCI) subjects were acquired at resting state. After preprocessing, we selected sections corresponding to eyes-closed condition. Five different datasets were created by extracting delta, theta, alpha, beta and delta-to-theta frequency bands using bandpass filters. To classify SCDvsMCI and HCvsSCDvsMCI, we propose a framework based on the transformer architecture, which uses multi-head attention to focus on the most relevant parts of the input signals. We trained and validated the model on each dataset with a leave-one-subject-out cross-validation approach, splitting the signals into 10 s epochs. Subjects were assigned to the same class as the majority of their epochs. Classification performances of the transformer were assessed for both epochs and subjects and compared with other DL models.Main results. Results showed that the delta dataset allowed our model to achieve the best performances for the discrimination of SCD and MCI, reaching an Area Under the ROC Curve (AUC) of 0.807, while the highest results for the HCvsSCDvsMCI classification were obtained on alpha and theta with a micro-AUC higher than 0.74.Significance. We demonstrated that DL approaches can support the adoption of non-invasive and economic techniques as EEG to stratify patients in the clinical population at risk for AD. This result was achieved since the attention mechanism was able to learn temporal dependencies of the signal, focusing on the most discriminative patterns, achieving state-of-the-art results by using a deep model of reduced complexity. Our results were consistent with clinical evidence that changes in brain activity are progressive when considering early stages of AD.
+36745929	79	96	cognitive decline	Disease	MESH:D003072
+36745929	106	126	cognitive impairment	Disease	MESH:D003072
+36745929	286	305	Alzheimer's disease	Disease	MESH:D000544
+36745929	307	309	AD	Disease	MESH:D000544
+36745929	441	458	cognitive decline	Disease	MESH:D003072
+36745929	460	463	SCD	Disease	MESH:D003072
+36745929	477	497	cognitive impairment	Disease	MESH:D003072
+36745929	499	502	MCI	Disease	MESH:D060825
+36745929	1428	1431	SCD	Disease	MESH:D003072
+36745929	1436	1439	MCI	Disease	MESH:D060825
+36745929	1756	1764	patients	Species	9606
+36745929	1804	1806	AD	Disease	MESH:D000544
+36745929	2175	2177	AD	Disease	MESH:D000544
+

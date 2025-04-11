@@ -1,0 +1,16 @@
+28934923|t|Discriminative Sparse Features for Alzheimer's Disease Diagnosis Using Multimodal Image Data.
+28934923|a|BACKGROUND: Feature extraction in medical image processing still remains a challenge, especially in high-dimensionality datasets, where the expected number of available samples is considerably lower than the dimension of the feature space. This is a common problem in real-world data, and, specifically, in medical image pro- cessing as, while images are composed of hundreds of thousands voxels, only a reduced number of patients are available. OBJECTIVE: Extracting descriptive and discriminative features to represent each sample (image) by a small number of features, which is particularly important in classification task, due to the curse of dimensionality problem. METHODS: In this paper we solve this recognition problem by means of sparse representations of the data, which also provides an arena to multimodal image (PET and MRI) data classification by combining specialized classifiers. Thus, a novel method to effectively combine SVC classifiers is presented here, which uses the distance to the hyperplane computed for each class in each classifier allowing to select the most discriminative image modality in each case. The discriminative power of each modality also provides information about the illness evolution; while functional changes are clearly found in Alzheimer's diagnosed patients (AD) when compared to control subjects (CN), structural changes seem to be more relevant at the early stages of the illness, affecting Mild Cognitive Impairment (MCI) patients. RESULTS: Classification experiments using 68 CN, 70 AD and 111 MCI images from the Alzheimer's Disease Neuroimaging Initiative database have been performed and assessed by cross-validation to show the effectiveness of the proposed method. Accuracy values of up to 92% and 84% for CN/AD and CN/MCI classification are achieved. CONCLUSIONS: The method presented in this work shows that sparse representations of brain images are of importance for codifying and transferring relevant image features, as they may capture the salient features while maintaining lightweight data transactions. In fact, the method proposed in this work outperforms the classification results obtained using projection methods such as Principal Component Analysis for extracting representative features of the images.
+28934923	35	54	Alzheimer's Disease	Disease	MESH:D000544
+28934923	516	524	patients	Species	9606
+28934923	1371	1382	Alzheimer's	Disease	MESH:D000544
+28934923	1393	1401	patients	Species	9606
+28934923	1403	1405	AD	Species	
+28934923	1542	1562	Cognitive Impairment	Disease	MESH:D003072
+28934923	1564	1567	MCI	Disease	MESH:D060825
+28934923	1569	1577	patients	Species	9606
+28934923	1631	1633	AD	Species	
+28934923	1642	1645	MCI	Disease	MESH:D060825
+28934923	1662	1681	Alzheimer's Disease	Disease	MESH:D000544
+28934923	1862	1864	AD	Species	
+28934923	1872	1875	MCI	Disease	MESH:D060825
+

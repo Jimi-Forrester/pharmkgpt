@@ -1,0 +1,28 @@
+31511563|t|Computational chemoproteomics to understand the role of selected psychoactives in treating mental health indications.
+31511563|a|We have developed the Computational Analysis of Novel Drug Opportunities (CANDO) platform to infer homology of drug behaviour at a proteomic level by constructing and analysing structural compound-proteome interaction signatures of 3,733 compounds with 48,278 proteins in a shotgun manner. We applied the CANDO platform to predict putative therapeutic properties of 428 psychoactive compounds that belong to the phenylethylamine, tryptamine, and cannabinoid chemical classes for treating mental health indications. Our findings indicate that these 428 psychoactives are among the top-ranked predictions for a significant fraction of mental health indications, demonstrating a significant preference for treating such indications over non-mental health indications, relative to randomized controls. Also, we analysed the use of specific tryptamines for the treatment of sleeping disorders, bupropion for substance abuse disorders, and cannabinoids for epilepsy. Our innovative use of the CANDO platform may guide the identification and development of novel therapies for mental health indications and provide an understanding of their causal basis on a detailed mechanistic level. These predictions can be used to provide new leads for preclinical drug development for mental health and other neurological disorders.
+31511563	65	78	psychoactives	Chemical	-
+31511563	91	104	mental health	Disease	OMIM:603663
+31511563	488	510	psychoactive compounds	Chemical	-
+31511563	530	546	phenylethylamine	Chemical	MESH:D010627
+31511563	548	558	tryptamine	Chemical	MESH:C030820
+31511563	564	575	cannabinoid	Chemical	MESH:D002186
+31511563	606	619	mental health	Disease	OMIM:603663
+31511563	670	683	psychoactives	Chemical	-
+31511563	751	764	mental health	Disease	OMIM:603663
+31511563	856	869	mental health	Disease	OMIM:603663
+31511563	954	965	tryptamines	Chemical	MESH:D014363
+31511563	987	1005	sleeping disorders	Disease	MESH:D012893
+31511563	1007	1016	bupropion	Chemical	MESH:D016642
+31511563	1021	1046	substance abuse disorders	Disease	MESH:D019966
+31511563	1052	1064	cannabinoids	Chemical	MESH:D002186
+31511563	1069	1077	epilepsy	Disease	MESH:D004827
+31511563	1188	1201	mental health	Disease	OMIM:603663
+31511563	1386	1399	mental health	Disease	OMIM:603663
+31511563	1410	1432	neurological disorders	Disease	MESH:D009461
+31511563	Negative_Correlation	MESH:D010627	OMIM:603663
+31511563	Negative_Correlation	MESH:D014363	MESH:D012893
+31511563	Negative_Correlation	MESH:D002186	OMIM:603663
+31511563	Negative_Correlation	MESH:D016642	MESH:D019966
+31511563	Negative_Correlation	MESH:C030820	OMIM:603663
+31511563	Negative_Correlation	MESH:D002186	MESH:D004827
+

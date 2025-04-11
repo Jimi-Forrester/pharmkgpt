@@ -1,0 +1,67 @@
+36015161|t|Galangin Exhibits Neuroprotective Effects in 6-OHDA-Induced Models of Parkinson's Disease via the Nrf2/Keap1 Pathway.
+36015161|a|Parkinson's disease (PD) is the second most common neurodegenerative disease, and there is still no cure for it. PD is characterized by the degeneration of dopaminergic neurons, and oxidative stress has been considered an important pathological mechanism. Therefore, the discovery of antioxidants to alleviate the oxidative damage of dopaminergic neurons is a promising therapeutic strategy for PD. First, a network pharmacology approach was used, and nine common core targets of galangin and PD were screened, mainly involving cell aging, apoptosis, and cellular responses to hydrogen peroxide and hypoxia. In addition, the Gene Ontology (GO) function and pathway enrichment analysis of the Kyoto Encyclopedia of Genes and Genomes (KEGG) identified apoptosis, PI3K/Akt, and HIF-1 signaling pathways. Furthermore, the molecular docking results revealed a strong affinity between galangin and the NFE2L2/Nrf2 protein. To validate the above predictions, we employed 6-hydroxydopamine (6-OHDA) to induce neuronal death in HT22 cells and Caenorhabditis elegans (C. elegans). MTT, cell morphology observation, and Hoechst 33342-PI staining results showed that galangin significantly increased the viability of 6-OHDA-treated HT22 cells. In addition, galangin inhibited 6-OHDA-induced ROS generation and apoptosis in HT22 cells. Mechanistic studies demonstrated that galangin activates the Nrf2/Keap1 signaling pathway, as evidenced by the decreased protein expression of Keap1 and increased protein expression of Nrf2 and HO-1. In the 6-OHDA-induced PD model of C. elegans, galangin indeed inhibited the degeneration of dopaminergic neurons, improved behavioral ability, and decreased ROS generation. In conclusion, the current study is the first to show that galangin has the capacity to inhibit neuronal degeneration via the Nrf2/Keap1 pathway, suggesting that galangin is a possible PD treatment.
+36015161	0	8	Galangin	Chemical	MESH:C037032
+36015161	45	51	6-OHDA	Chemical	MESH:D016627
+36015161	70	89	Parkinson's Disease	Disease	MESH:D010300
+36015161	98	102	Nrf2	Gene	18024
+36015161	103	108	Keap1	Gene	50868
+36015161	118	137	Parkinson's disease	Disease	MESH:D010300
+36015161	139	141	PD	Disease	MESH:D010300
+36015161	169	194	neurodegenerative disease	Disease	MESH:D019636
+36015161	231	233	PD	Disease	MESH:D010300
+36015161	258	294	degeneration of dopaminergic neurons	Disease	MESH:D009410
+36015161	465	472	neurons	Disease	MESH:D009410
+36015161	513	515	PD	Disease	MESH:D010300
+36015161	598	606	galangin	Chemical	MESH:C037032
+36015161	611	613	PD	Disease	MESH:D010300
+36015161	695	712	hydrogen peroxide	Chemical	MESH:D006861
+36015161	717	724	hypoxia	Disease	MESH:D000860
+36015161	884	887	Akt	Gene	11651
+36015161	997	1005	galangin	Chemical	MESH:C037032
+36015161	1014	1020	NFE2L2	Gene	18024
+36015161	1021	1025	Nrf2	Gene	18024
+36015161	1082	1099	6-hydroxydopamine	Chemical	MESH:D016627
+36015161	1101	1107	6-OHDA	Chemical	MESH:D016627
+36015161	1119	1133	neuronal death	Disease	MESH:D009410
+36015161	1137	1141	HT22	CellLine	CVCL:0321
+36015161	1152	1174	Caenorhabditis elegans	Species	6239
+36015161	1176	1186	C. elegans	Species	6239
+36015161	1189	1192	MTT	Chemical	MESH:C070243
+36015161	1227	1240	Hoechst 33342	Chemical	MESH:C017807
+36015161	1273	1281	galangin	Chemical	MESH:C037032
+36015161	1323	1329	6-OHDA	Chemical	MESH:D016627
+36015161	1338	1342	HT22	CellLine	CVCL:0321
+36015161	1363	1371	galangin	Chemical	MESH:C037032
+36015161	1382	1388	6-OHDA	Chemical	MESH:D016627
+36015161	1397	1400	ROS	Chemical	-
+36015161	1429	1433	HT22	CellLine	CVCL:0321
+36015161	1479	1487	galangin	Chemical	MESH:C037032
+36015161	1502	1506	Nrf2	Gene	18024
+36015161	1507	1512	Keap1	Gene	50868
+36015161	1584	1589	Keap1	Gene	50868
+36015161	1626	1630	Nrf2	Gene	18024
+36015161	1635	1639	HO-1	Gene	15368
+36015161	1648	1654	6-OHDA	Chemical	MESH:D016627
+36015161	1663	1665	PD	Disease	MESH:D010300
+36015161	1675	1685	C. elegans	Species	6239
+36015161	1687	1695	galangin	Chemical	MESH:C037032
+36015161	1717	1753	degeneration of dopaminergic neurons	Disease	MESH:D009410
+36015161	1798	1801	ROS	Chemical	-
+36015161	1873	1881	galangin	Chemical	MESH:C037032
+36015161	1910	1931	neuronal degeneration	Disease	MESH:D009410
+36015161	1940	1944	Nrf2	Gene	18024
+36015161	1945	1950	Keap1	Gene	50868
+36015161	1976	1984	galangin	Chemical	MESH:C037032
+36015161	1999	2001	PD	Disease	MESH:D010300
+36015161	Association	18024	50868
+36015161	Positive_Correlation	MESH:D016627	MESH:D010300
+36015161	Positive_Correlation	MESH:D016627	MESH:D009410
+36015161	Association	MESH:D009410	50868
+36015161	Positive_Correlation	MESH:C037032	15368
+36015161	Positive_Correlation	MESH:C037032	18024
+36015161	Negative_Correlation	MESH:C037032	MESH:D010300
+36015161	Positive_Correlation	MESH:C037032	50868
+36015161	Negative_Correlation	MESH:C037032	MESH:D009410
+36015161	Association	MESH:C037032	MESH:D000860
+36015161	Negative_Correlation	MESH:C037032	MESH:D016627
+

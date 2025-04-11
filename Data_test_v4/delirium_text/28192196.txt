@@ -1,0 +1,57 @@
+28192196|t|Quantification of various APP-mRNA isoforms and epistasis in Lesch-Nyhan disease.
+28192196|a|The present work is the development of a simple and specific kinetic method based on RT-PCR technique coupled with direct sequencing for quantification of various amyloid precursor protein-mRNA isoforms (APP-mRNA isoforms) in biological samples, especially for identifying the most abundant one that may decisive for the normal status or disease risk. Application of this kinetic method to the Lesch-Nyhan disease (LND) was performed and results indicated an epistasis between mutated hypoxanthine phosphoribosyltransferase1 (HPRT1) and APP genes. APP-mRNA isoform of 624bp, with a deletion starting after 49bp of the 5' end of exon 3 followed by a complete deletion of exons 4-15, mutations in exon 1: c.22C>T, p.L18F, and exon 3: c.269A>G, p.Q90R encoding APP207 isoform, was the most abundant one in most of the LND patients and would be responsible for the neurobehavioral syndrome in these patients. The method is useful for identifying the defective APP-mRNA isoform in LND patients, and in neurodevelopmental and neurodegenerative disorders in which the APP gene is involved in the pathogenesis of diseases such as autism, fragile X syndrome, amyotrophic lateral sclerosis, and Alzheimer's disease, and may pave the way for new strategies applicable to rational antisense drugs design.
+28192196	61	80	Lesch-Nyhan disease	Disease	MESH:D007926
+28192196	245	270	amyloid precursor protein	Gene	351
+28192196	476	495	Lesch-Nyhan disease	Disease	MESH:D007926
+28192196	497	500	LND	Disease	MESH:D007926
+28192196	567	606	hypoxanthine phosphoribosyltransferase1	Gene	3251
+28192196	608	613	HPRT1	Gene	3251
+28192196	785	792	c.22C>T	DNAMutation	tmVar:c|SUB|C|22|T;HGVS:c.22C>T;VariantGroup:1;CorrespondingGene:351;RS#:553146391;CorrespondingSpecies:9606;CA#:319568508
+28192196	794	800	p.L18F	ProteinMutation	tmVar:p|SUB|L|18|F;HGVS:p.L18F;VariantGroup:2;CorrespondingGene:351;CorrespondingSpecies:9606
+28192196	814	822	c.269A>G	DNAMutation	tmVar:c|SUB|A|269|G;HGVS:c.269A>G;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+28192196	824	830	p.Q90R	ProteinMutation	tmVar:p|SUB|Q|90|R;HGVS:p.Q90R;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+28192196	897	900	LND	Disease	MESH:D007926
+28192196	901	909	patients	Species	9606
+28192196	943	967	neurobehavioral syndrome	Disease	MESH:D019954
+28192196	977	985	patients	Species	9606
+28192196	1058	1061	LND	Disease	MESH:D007926
+28192196	1062	1070	patients	Species	9606
+28192196	1079	1129	neurodevelopmental and neurodegenerative disorders	Disease	MESH:D019636
+28192196	1204	1210	autism	Disease	MESH:D001321
+28192196	1212	1230	fragile X syndrome	Disease	MESH:D005600
+28192196	1232	1261	amyotrophic lateral sclerosis	Disease	MESH:D000690
+28192196	1267	1286	Alzheimer's disease	Disease	MESH:D000544
+28192196	Association	MESH:D019636	HGVS:p.Q90R;CorrespondingGene:351
+28192196	Association	MESH:D000690	HGVS:c.269A>G;CorrespondingGene:351
+28192196	Association	HGVS:c.269A>G;CorrespondingGene:351	MESH:D000544
+28192196	Association	HGVS:c.269A>G;CorrespondingGene:351	MESH:D019636
+28192196	Association	MESH:D007926	HGVS:p.L18F;CorrespondingGene:351
+28192196	Association	RS#:553146391;HGVS:c.22C>T;CorrespondingGene:351	MESH:D019636
+28192196	Association	MESH:D000544	RS#:553146391;HGVS:c.22C>T;CorrespondingGene:351
+28192196	Association	MESH:D007926	HGVS:c.269A>G;CorrespondingGene:351
+28192196	Association	RS#:553146391;HGVS:c.22C>T;CorrespondingGene:351	MESH:D007926
+28192196	Association	MESH:D019636	RS#:553146391;HGVS:c.22C>T;CorrespondingGene:351
+28192196	Positive_Correlation	MESH:D019954	RS#:553146391;HGVS:c.22C>T;CorrespondingGene:351
+28192196	Association	RS#:553146391;HGVS:c.22C>T;CorrespondingGene:351	MESH:D019954
+28192196	Association	MESH:D000544	HGVS:c.269A>G;CorrespondingGene:351
+28192196	Association	RS#:553146391;HGVS:c.22C>T;CorrespondingGene:351	MESH:D000544
+28192196	Association	HGVS:c.269A>G;CorrespondingGene:351	MESH:D019954
+28192196	Association	MESH:D007926	HGVS:p.Q90R;CorrespondingGene:351
+28192196	Association	MESH:D007926	RS#:553146391;HGVS:c.22C>T;CorrespondingGene:351
+28192196	Association	MESH:D019636	HGVS:c.269A>G;CorrespondingGene:351
+28192196	Association	HGVS:c.269A>G;CorrespondingGene:351	MESH:D007926
+28192196	Association	MESH:D019636	HGVS:p.L18F;CorrespondingGene:351
+28192196	Association	MESH:D000544	HGVS:p.L18F;CorrespondingGene:351
+28192196	Association	MESH:D001321	RS#:553146391;HGVS:c.22C>T;CorrespondingGene:351
+28192196	Association	MESH:D019954	HGVS:p.L18F;CorrespondingGene:351
+28192196	Positive_Correlation	MESH:D019954	HGVS:c.269A>G;CorrespondingGene:351
+28192196	Positive_Correlation	MESH:D019954	HGVS:p.Q90R;CorrespondingGene:351
+28192196	Association	MESH:D007926	3251
+28192196	Association	MESH:D001321	HGVS:c.269A>G;CorrespondingGene:351
+28192196	Association	MESH:D019636	351
+28192196	Association	MESH:D000690	351
+28192196	Association	MESH:D000544	351
+28192196	Association	MESH:D007926	351
+28192196	Association	MESH:D019954	351
+28192196	Association	MESH:D001321	351
+

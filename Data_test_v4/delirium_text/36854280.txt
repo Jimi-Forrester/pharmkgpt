@@ -1,0 +1,42 @@
+36854280|t|Clear Cell Renal Cell Carcinoma: A Comprehensive in Silico Study in Searching for Therapeutic Targets.
+36854280|a|INTRODUCTION: Clear cell renal cell carcinoma is recognized as one of the leading causes of illness and death worldwide. Understanding the molecular mechanisms in clear cell renal cell carcinoma pathogenesis is crucial for discovering novel therapeutic targets and developing efficient drugs. With the application of a comprehensive in silico analysis of the clear cell renal cell carcinoma-related array sets, the main objective of this study was to discover the top molecules and pathways in the pathogenesis of this cancer. METHODS: Clear cell renal cell carcinoma microarray datasets were downloaded from the Gene Expression Omnibus database, and after quality checking, normalization, and analysis using the Limma algorithm, differentially expressed genes (DEGs) were identified, considering the adjusted p-value < 0.049. The intensity values of the identified DEGs were introduced to the WGCNA algorithm to construct co-expression modules. Functional enrichment analyses were performed using the DEGs in the disease-correlated module, and hub genes were identified among the top genes in a protein-protein interaction network and the disease-most correlated module. The expression analysis of hub genes was done by utilizing GEPIA, and the GSCA server was used to compare the expression patterns of hub genes in clear cell renal cell carcinoma and other cancers. DGIdb database was utilized to identify the hub genes-related drugs. RESULTS: Three datasets, including GSE11151, GSE12606, and GSE36897, were retrieved, merged, normalized, and analyzed. Using WGCNA, the DEGs were clustered into eight different modules. Translocation of ZAP-70 to immunological synapse, endosomal/vacuolar pathway, cell-surface interactions at the vascular wall, and immune-related pathways were the topmost enriched terms for the clear cell renal cell carcinoma correlated DEGs. Twelve genes including PTPRC, ITGAM, TLR2, CD86, PLEK, TYROBP, ITGB2, RAC2, CSF1R, CCR5, CCL5, and LCP2 were introduced as hub genes. All the 12 hub genes were up-regulated in clear cell renal cell carcinoma samples and showed a positive correlation with the infiltration of different immune cells. According to the DGIdb database, 127 drugs, including tyrosine kinase inhibitors, glucocorticoids, and chemotaxis targeting molecules, were identified to interact with the hub genes. CONCLUSION: By utilizing an integrative bioinformatics approach, this experiment shed light on the underlying pathways in the pathogenesis of clear cell renal cell carcinoma and introduced several potential therapeutic targets for repurposing or developing novel drugs for an efficient treatment of this cancer. Our next step would be to assess the gene expression profiles of the identified hubs in different cell populations in the tumor microenvironment.
+36854280	0	31	Clear Cell Renal Cell Carcinoma	Disease	MESH:D002292
+36854280	117	148	Clear cell renal cell carcinoma	Disease	MESH:D002292
+36854280	207	212	death	Disease	MESH:D003643
+36854280	266	297	clear cell renal cell carcinoma	Disease	MESH:D002292
+36854280	462	493	clear cell renal cell carcinoma	Disease	MESH:D002292
+36854280	622	628	cancer	Disease	MESH:D009369
+36854280	639	670	Clear cell renal cell carcinoma	Disease	MESH:D002292
+36854280	1421	1452	clear cell renal cell carcinoma	Disease	MESH:D002292
+36854280	1463	1470	cancers	Disease	MESH:D009369
+36854280	1744	1750	ZAP-70	Gene	7535
+36854280	1921	1952	clear cell renal cell carcinoma	Disease	MESH:D002292
+36854280	1993	1998	PTPRC	Gene	5788
+36854280	2000	2005	ITGAM	Gene	3684
+36854280	2007	2011	TLR2	Gene	7097
+36854280	2013	2017	CD86	Gene	942
+36854280	2019	2023	PLEK	Gene	5341
+36854280	2025	2031	TYROBP	Gene	7305
+36854280	2033	2038	ITGB2	Gene	3689
+36854280	2040	2044	RAC2	Gene	5880
+36854280	2046	2051	CSF1R	Gene	1436
+36854280	2053	2057	CCR5	Gene	1234
+36854280	2059	2063	CCL5	Gene	6352
+36854280	2069	2073	LCP2	Gene	3937
+36854280	2146	2177	clear cell renal cell carcinoma	Disease	MESH:D002292
+36854280	2594	2625	clear cell renal cell carcinoma	Disease	MESH:D002292
+36854280	2756	2762	cancer	Disease	MESH:D009369
+36854280	2886	2891	tumor	Disease	MESH:D009369
+36854280	Association	MESH:D002292	3689
+36854280	Association	MESH:D002292	7305
+36854280	Association	MESH:D002292	3937
+36854280	Association	MESH:D002292	942
+36854280	Association	MESH:D002292	7535
+36854280	Association	MESH:D002292	6352
+36854280	Association	MESH:D002292	5880
+36854280	Association	MESH:D002292	1436
+36854280	Association	MESH:D002292	3684
+36854280	Association	MESH:D002292	5788
+36854280	Association	MESH:D002292	5341
+36854280	Association	MESH:D002292	7097
+

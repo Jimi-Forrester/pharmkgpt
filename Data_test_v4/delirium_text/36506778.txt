@@ -1,0 +1,40 @@
+36506778|t|An X-linked PLXNB3 mutation identified in patients with congenital heart disease with neurodevelopmental disabilities.
+36506778|a|Background: Congenital heart disease (CHD) is the most common birth defect and is often accompanied by neurodevelopmental disabilities (NDD) which increase the associated mortality. Plexin families are known to play a key role in the development of heart and the occurrence of neurodevelopmental anomalies. However, there has been no report of PLXNB3 mutation in isolated CHD or CHD with concomitant NDD. Methods: We performed whole-exome sequencing (WES) on a proband with CHD with neurodevelopmental anomalies and his family members. Targeted sequencing, conservation analysis, AlphaFold, and PyRosetta were performed to identify more pathogenic mutations of PLXNB3. Scratch wound assay, Ki-67 assessment by flow cytometry, and gene expression analysis of heart development related pathway by reverse transcription-quantitative polymerase chain reaction (RT-qPCR) were conducted after 24 h transfection in AC16 and HEK293T to investigate the effect of the target mutation. Results: We identified a pathogenic mutation in the X-linked PLXNB3 gene (c.A4319T p.E1440V). In addition, we found 4 other pathogenic mutations in a cohort of 75 patients with sporadic CHD with NDD. AlphaFold and PyRosetta predicted that these 4 mutations could cause dramatic changes of the PLXNB3 protein structure (root-mean-square deviation score >10 A). Further functional analysis revealed that this p.E1440V variant inhibits cell migration and proliferation, and affects the activity of key factors in the Notch signaling pathway, myocardial contraction pathway, and neurodevelopmental pathways. Conclusions: These findings suggest that PLXNB3 and the p.E1440V variant may be related to the pathogenesis of CHD associated with NDD.
+36506778	42	50	patients	Species	9606
+36506778	56	80	congenital heart disease	Disease	MESH:D006330
+36506778	86	117	neurodevelopmental disabilities	Disease	MESH:D007859
+36506778	131	155	Congenital heart disease	Disease	MESH:D006330
+36506778	157	160	CHD	Disease	MESH:D006330
+36506778	181	193	birth defect	Disease	MESH:D000014
+36506778	222	253	neurodevelopmental disabilities	Disease	MESH:D007859
+36506778	255	258	NDD	Disease	MESH:D007859
+36506778	396	424	neurodevelopmental anomalies	Disease	MESH:C567101
+36506778	463	469	PLXNB3	Gene	5365
+36506778	491	494	CHD	Disease	MESH:D006330
+36506778	498	501	CHD	Disease	MESH:D006330
+36506778	519	522	NDD	Disease	MESH:D007859
+36506778	593	596	CHD	Disease	MESH:D006330
+36506778	602	630	neurodevelopmental anomalies	Disease	MESH:C567101
+36506778	780	786	PLXNB3	Gene	5365
+36506778	1027	1031	AC16	CellLine	CVCL:HA69
+36506778	1036	1043	HEK293T	CellLine	CVCL:0063
+36506778	1170	1176	A4319T	DNAMutation	tmVar:g|SUB|A|4319|T;HGVS:g.4319A>T;VariantGroup:1;CorrespondingGene:5365;CorrespondingSpecies:9606
+36506778	1177	1185	p.E1440V	ProteinMutation	tmVar:p|SUB|E|1440|V;HGVS:p.E1440V;VariantGroup:0;CorrespondingGene:5365;RS#:782718143;CorrespondingSpecies:9606
+36506778	1257	1265	patients	Species	9606
+36506778	1280	1283	CHD	Disease	MESH:D006330
+36506778	1289	1292	NDD	Disease	MESH:D007859
+36506778	1387	1393	PLXNB3	Gene	5365
+36506778	1501	1509	p.E1440V	ProteinMutation	tmVar:p|SUB|E|1440|V;HGVS:p.E1440V;VariantGroup:0;CorrespondingGene:5365;RS#:782718143;CorrespondingSpecies:9606
+36506778	1739	1745	PLXNB3	Gene	5365
+36506778	1754	1762	p.E1440V	ProteinMutation	tmVar:p|SUB|E|1440|V;HGVS:p.E1440V;VariantGroup:0;CorrespondingGene:5365;RS#:782718143;CorrespondingSpecies:9606
+36506778	1809	1812	CHD	Disease	MESH:D006330
+36506778	1829	1832	NDD	Disease	MESH:D007859
+36506778	Positive_Correlation	MESH:D007859	RS#:782718143;HGVS:p.E1440V;CorrespondingGene:5365
+36506778	Association	MESH:D007859	5365
+36506778	Positive_Correlation	MESH:D006330	RS#:782718143;HGVS:p.E1440V;CorrespondingGene:5365
+36506778	Positive_Correlation	MESH:D007859	HGVS:g.4319A>T;CorrespondingGene:5365
+36506778	Positive_Correlation	MESH:D006330	HGVS:g.4319A>T;CorrespondingGene:5365
+36506778	Association	MESH:D006330	5365
+36506778	Association	MESH:D007859	5365
+36506778	Association	MESH:D006330	5365
+

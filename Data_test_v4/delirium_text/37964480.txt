@@ -1,0 +1,22 @@
+37964480|t|Risk factors for hyperglycemia in COVID-19 patients treated with remdesivir.
+37964480|a|The primary objective of this study was to investigate the factors contributing to hyperglycemic adverse events associated with the administration of remdesivir in hospitalized patients diagnosed with coronavirus disease 2019 (COVID-19). Furthermore, the study aimed to develop a risk score model employing various machine learning approaches. A total of 1262 patients were enrolled in this investigation. The relationship between covariates and hyperglycemic adverse events was assessed through logistic regression analysis. Diverse machine learning algorithms were employed for the purpose of forecasting hyperglycemia-related complications. After adjusting for covariates, individuals with a body mass index >= 23 kg/m2 , those using proton pump inhibitors, cholinergic medications, or individuals with cardiovascular diseases exhibited approximately 2.41-, 2.73-, 2.65-, and 1.97-fold higher risks of experiencing hyperglycemic adverse events (95% confidence intervals (CIs) 1.271-4.577, 1.223-6.081, 1.168-5.989, and 1.119-3.472, respectively). Multivariate logistic regression, elastic net, and random forest models displayed area under the receiver operating characteristic curve values of 0.65, 0.66, and 0.60, respectively (95% CI 0.572 - 0.719, 0.640 - 0.671, and 0.583 - 0.611, respectively). This study comprehensively explored factors associated with hyperglycemic complications arising from remdesivir administration and, concurrently, leveraged a range of machine learning methodologies to construct a risk scoring model, thereby facilitating the tailoring of individualized remdesivir treatment regimens for patients with COVID-19.
+37964480	17	30	hyperglycemia	Disease	MESH:D006943
+37964480	34	42	COVID-19	Disease	MESH:D000086382
+37964480	65	75	remdesivir	Chemical	MESH:C000606551
+37964480	160	173	hyperglycemic	Disease	MESH:D006944
+37964480	227	237	remdesivir	Chemical	MESH:C000606551
+37964480	278	302	coronavirus disease 2019	Disease	MESH:D000086382
+37964480	304	312	COVID-19	Disease	MESH:D000086382
+37964480	523	536	hyperglycemic	Disease	MESH:D006944
+37964480	684	697	hyperglycemia	Disease	MESH:D006943
+37964480	838	861	cholinergic medications	Chemical	-
+37964480	883	906	cardiovascular diseases	Disease	MESH:D002318
+37964480	995	1008	hyperglycemic	Disease	MESH:D006944
+37964480	1441	1454	hyperglycemic	Disease	MESH:D006944
+37964480	1482	1492	remdesivir	Chemical	MESH:C000606551
+37964480	1667	1677	remdesivir	Chemical	MESH:C000606551
+37964480	1715	1723	COVID-19	Disease	MESH:D000086382
+37964480	Positive_Correlation	MESH:C000606551	MESH:D006944
+37964480	Positive_Correlation	MESH:C000606551	MESH:D006943
+37964480	Negative_Correlation	MESH:C000606551	MESH:D000086382
+

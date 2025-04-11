@@ -1,0 +1,34 @@
+39054278|t|Advancing Tau PET Quantification in Alzheimer Disease with Machine Learning: Introducing THETA, a Novel Tau Summary Measure.
+39054278|a|Alzheimer disease (AD) exhibits spatially heterogeneous 3- or 4-repeat tau deposition across participants. Our overall goal was to develop an automated method to quantify the heterogeneous burden of tau deposition into a single number that would be clinically useful. Methods: We used tau PET scans from 3 independent cohorts: the Mayo Clinic Study of Aging and Alzheimer's Disease Research Center (Mayo, n = 1,290), the Alzheimer's Disease Neuroimaging Initiative (ADNI, n = 831), and the Open Access Series of Imaging Studies (OASIS-3, n = 430). A machine learning binary classification model was trained on Mayo data and validated on ADNI and OASIS-3 with the goal of predicting visual tau positivity (as determined by 3 raters following Food and Drug Administration criteria for 18F-flortaucipir). The machine learning model used region-specific SUV ratios scaled to cerebellar crus uptake. We estimated feature contributions based on an artificial intelligence-explainable method (Shapley additive explanations) and formulated a global tau summary measure, Tau Heterogeneity Evaluation in Alzheimer's Disease (THETA) score, using SUV ratios and Shapley additive explanations for each participant. We compared the performance of THETA with that of commonly used meta-regions of interest (ROIs) using the Mini-Mental State Examination, the Clinical Dementia Rating-Sum of Boxes, clinical diagnosis, and histopathologic staging. Results: The model achieved a balanced accuracy of 95% on the Mayo test set and at least 87% on the validation sets. It classified tau-positive and -negative participants with an AUC of 1.00, 0.96, and 0.94 on the Mayo, ADNI, and OASIS-3 cohorts, respectively. Across all cohorts, THETA showed a better correlation with the Mini-Mental State Examination and the Clinical Dementia Rating-Sum of Boxes (rho >= 0.45, P < 0.05) than did meta-ROIs (rho < 0.44, P < 0.05) and discriminated between participants who were cognitively unimpaired and those who had mild cognitive impairment with an effect size of 10.09, compared with an effect size of 3.08 for meta-ROIs. Conclusion: Our proposed approach identifies positive tau PET scans and provides a quantitative summary measure, THETA, that effectively captures heterogeneous tau deposition observed in AD. The application of THETA for quantifying tau PET in AD exhibits great potential.
+39054278	10	13	Tau	Gene	4137
+39054278	36	53	Alzheimer Disease	Disease	MESH:D000544
+39054278	89	94	THETA	Disease	MESH:C536599
+39054278	104	107	Tau	Gene	4137
+39054278	125	142	Alzheimer disease	Disease	MESH:D000544
+39054278	144	146	AD	Disease	MESH:D000544
+39054278	196	199	tau	Gene	4137
+39054278	324	327	tau	Gene	4137
+39054278	410	413	tau	Gene	4137
+39054278	487	506	Alzheimer's Disease	Disease	MESH:D000544
+39054278	546	565	Alzheimer's Disease	Disease	MESH:D000544
+39054278	814	817	tau	Gene	4137
+39054278	908	924	18F-flortaucipir	Chemical	MESH:C000591008
+39054278	1166	1169	tau	Gene	4137
+39054278	1187	1190	Tau	Gene	4137
+39054278	1219	1238	Alzheimer's Disease	Disease	MESH:D000544
+39054278	1240	1245	THETA	Disease	MESH:C536599
+39054278	1358	1363	THETA	Disease	MESH:C536599
+39054278	1477	1485	Dementia	Disease	MESH:D003704
+39054278	1687	1690	tau	Gene	4137
+39054278	1837	1842	THETA	Disease	MESH:C536599
+39054278	1927	1935	Dementia	Disease	MESH:D003704
+39054278	2116	2136	cognitive impairment	Disease	MESH:D003072
+39054278	2273	2276	tau	Gene	4137
+39054278	2332	2337	THETA	Disease	MESH:C536599
+39054278	2379	2382	tau	Gene	4137
+39054278	2406	2408	AD	Disease	MESH:D000544
+39054278	2429	2434	THETA	Disease	MESH:C536599
+39054278	2451	2454	tau	Gene	4137
+39054278	2462	2464	AD	Disease	MESH:D000544
+39054278	Association	MESH:D000544	4137
+

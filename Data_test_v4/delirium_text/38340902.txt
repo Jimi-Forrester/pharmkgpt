@@ -1,0 +1,16 @@
+38340902|t|Fully automated whole brain segmentation from rat MRI scans with a convolutional neural network.
+38340902|a|BACKGROUND: Whole brain delineation (WBD) is utilized in neuroimaging analysis for data preprocessing and deriving whole brain image metrics. Current automated WBD techniques for analysis of preclinical brain MRI data show limited accuracy when images present with significant neuropathology and anatomical deformations, such as that resulting from organophosphate intoxication (OPI) and Alzheimer's Disease (AD), and inadequate generalizability. METHODS: A modified 2D U-Net framework was employed for WBD of MRI rodent brains, consisting of 27 convolutional layers, batch normalization, two dropout layers and data augmentation, after training parameter optimization. A total of 265 T2-weighted 7.0 T MRI scans were utilized for the study, including 125 scans of an OPI rat model for neural network training. For testing and validation, 20 OPI rat scans and 120 scans of an AD rat model were utilized. U-Net performance was evaluated using Dice coefficients (DC) and Hausdorff distances (HD) between the U-Net-generated and manually segmented WBDs. RESULTS: The U-Net achieved a DC (median[range]) of 0.984[0.936-0.990] and HD of 1.69[1.01-6.78] mm for OPI rat model scans, and a DC (mean[range]) of 0.975[0.898-0.991] and HD of 1.49[0.86-3.89] for the AD rat model scans. COMPARISON WITH EXISTING METHODS: The proposed approach is fully automated and robust across two rat strains and longitudinal brain changes with a computational speed of 8 seconds/scan, overcoming limitations of manual segmentation. CONCLUSIONS: The modified 2D U-Net provided a fully automated, efficient, and generalizable segmentation approach that achieved high accuracy across two disparate rat models of neurological diseases.
+38340902	46	49	rat	Species	10116
+38340902	485	504	Alzheimer's Disease	Disease	MESH:D000544
+38340902	506	508	AD	Disease	MESH:D000544
+38340902	869	872	rat	Species	10116
+38340902	943	946	rat	Species	10116
+38340902	973	975	AD	Disease	MESH:D000544
+38340902	976	979	rat	Species	10116
+38340902	1256	1259	rat	Species	10116
+38340902	1352	1354	AD	Disease	MESH:D000544
+38340902	1355	1358	rat	Species	10116
+38340902	1469	1472	rat	Species	10116
+38340902	1768	1771	rat	Species	10116
+38340902	1782	1803	neurological diseases	Disease	MESH:D020271
+

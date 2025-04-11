@@ -1,0 +1,26 @@
+30310722|t|Managing Drug Interactions in Cancer Therapy: A Guide for the Advanced Practitioner.
+30310722|a|Mrs. P is a 30-year-old woman who presented to our bone marrow transplant program with myelodysplastic syndrome (MDS). She received a haploidentical allogeneic stem cell transplant with a conditioning regimen consisting of busulfan and cyclophosphamide. This treatment was followed by post-transplant immunosuppression for graft-versus-host disease (GVHD) with cyclophosphamide, mycophenolate mofetil (MMF), and tacrolimus (see Table 1 for medication list). Tacrolimus levels were monitored twice a week with adjustment to a goal range of between 5 and 10 ng/mL. We initiated tacrolimus at a dose of 0.03 mg/kg by mouth twice daily (rounded to 2 mg by mouth twice daily). Drug interactions were assessed by the clinical pharmacist prior to admission, routinely with medication changes, and then upon discharge.
+30310722	30	36	Cancer	Disease	MESH:D009369
+30310722	109	114	woman	Species	9606
+30310722	172	196	myelodysplastic syndrome	Disease	MESH:D009190
+30310722	198	201	MDS	Disease	MESH:D009190
+30310722	308	316	busulfan	Chemical	MESH:D002066
+30310722	321	337	cyclophosphamide	Chemical	MESH:D003520
+30310722	408	433	graft-versus-host disease	Disease	MESH:D006086
+30310722	435	439	GVHD	Disease	MESH:D006086
+30310722	446	462	cyclophosphamide	Chemical	MESH:D003520
+30310722	464	485	mycophenolate mofetil	Chemical	MESH:D009173
+30310722	487	490	MMF	Chemical	MESH:D009173
+30310722	497	507	tacrolimus	Chemical	MESH:D016559
+30310722	543	553	Tacrolimus	Chemical	MESH:D016559
+30310722	661	671	tacrolimus	Chemical	MESH:D016559
+30310722	Negative_Correlation	MESH:D016559	MESH:D006086
+30310722	Negative_Correlation	MESH:D003520	MESH:D009190
+30310722	Negative_Correlation	MESH:D003520	MESH:D006086
+30310722	Negative_Correlation	MESH:D009173	MESH:D009190
+30310722	Negative_Correlation	MESH:D016559	MESH:D009190
+30310722	Cotreatment	MESH:D002066	MESH:D003520
+30310722	Cotreatment	MESH:D003520	MESH:D009173
+30310722	Negative_Correlation	MESH:D002066	MESH:D009190
+30310722	Negative_Correlation	MESH:D009173	MESH:D006086
+

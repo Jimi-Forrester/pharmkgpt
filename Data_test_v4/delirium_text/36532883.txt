@@ -1,0 +1,12 @@
+36532883|t|Stacked ensemble learning based on deep convolutional neural networks for pediatric pneumonia diagnosis using chest X-ray images.
+36532883|a|Pneumonia is an acute respiratory infection caused by bacteria, viruses, or fungi and has become very common in children ranging from 1 to 5 years of age. Common symptoms of pneumonia include difficulty breathing due to inflamed or pus and fluid-filled alveoli. The United Nations Children's Fund reports nearly 800,000 deaths in children due to pneumonia. Delayed diagnosis and overpriced tests are the prime reason for the high mortality rate, especially in underdeveloped countries. A time and cost-efficient diagnosis tool: Chest X-rays, was thus accepted as the standard diagnostic test for pediatric pneumonia. However, the lower radiation levels for diagnosis in children make the task much more onerous and time-consuming. The mentioned challenges initiate the need for a computer-aided detection model that is instantaneous and accurate. Our work proposes a stacked ensemble learning of deep learning-based features for pediatric pneumonia classification. The extracted features from the global average pooling layer of the fine-tuned Xception model pretrained on ImageNet weights are sent to the Kernel Principal Component Analysis for dimensionality reduction. The dimensionally reduced features are further trained and validated on the stacking classifier. The stacking classifier consists of two stages; the first stage uses the Random-Forest classifier, K-Nearest Neighbors, Logistic Regression, XGB classifier, Support Vector Classifier (SVC), Nu-SVC, and MLP classifier. The second stage operates on Logistic Regression using the first stage predictions for the final classification with Stratified K-fold cross-validation to prevent overfitting. The model was tested on the publicly available pediatric pneumonia dataset, achieving an accuracy of 98.3%, precision of 99.29%, recall of 98.36%, F1-score of 98.83%, and an AUC score of 98.24%. The performance shows its reliability for real-time deployment in assisting radiologists and physicians.
+36532883	84	93	pneumonia	Disease	MESH:D011014
+36532883	130	139	Pneumonia	Disease	MESH:D011014
+36532883	152	173	respiratory infection	Disease	MESH:D012141
+36532883	304	313	pneumonia	Disease	MESH:D011014
+36532883	450	456	deaths	Disease	MESH:D003643
+36532883	476	485	pneumonia	Disease	MESH:D011014
+36532883	736	745	pneumonia	Disease	MESH:D011014
+36532883	1069	1078	pneumonia	Disease	MESH:D011014
+36532883	1850	1859	pneumonia	Disease	MESH:D011014
+

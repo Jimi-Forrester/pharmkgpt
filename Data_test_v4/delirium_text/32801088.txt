@@ -1,0 +1,27 @@
+32801088|t|In silico modeling for dual inhibition of acetylcholinesterase (AChE) and butyrylcholinesterase (BuChE) enzymes in Alzheimer's disease.
+32801088|a|In this research, we have implemented two-dimensional quantitative structure-activity relationship (2D-QSAR) modeling using two different datasets, namely, acetylcholinesterase (AChE) and butyrylcholinesterase (BuChE) enzyme inhibitors. A third dataset has been derived based on their selectivity and used for the development of partial least squares (PLS) based regression models. The developed models were extensively validated using various internal and external validation parameters. The features appearing in the model against AChE enzyme suggest that a small ring size, higher number of -CH2- groups, higher number of secondary aromatic amines and higher number of aromatic ketone groups may contribute to the inhibitory activity. The features obtained from the model against BuChE enzyme suggest that the sum of topological distances between two nitrogen atoms, higher number of fragments X-C(=X)-X, higher number of secondary aromatic amides, fragment R--CR-X may be more favorable for inhibition. The features obtained from selectivity based model suggest that the number of aromatic ethers, unsaturation content relative to the molecular size and molecular shape may be more specific for the inhibition of the AChE enzyme in comparison to the BuChE enzyme. Moreover, we have implemented the molecular docking studies using the most and least active molecules from the datasets in order to identify the binding pattern between ligand and target enzyme. The obtained information is then correlated with the essential structural features associated with the 2D-QSAR models.
+32801088	42	62	acetylcholinesterase	Gene	43
+32801088	64	68	AChE	Gene	43
+32801088	74	95	butyrylcholinesterase	Gene	590
+32801088	97	102	BuChE	Gene	590
+32801088	115	134	Alzheimer's disease	Disease	MESH:D000544
+32801088	292	312	acetylcholinesterase	Gene	43
+32801088	314	318	AChE	Gene	43
+32801088	324	345	butyrylcholinesterase	Gene	590
+32801088	347	352	BuChE	Gene	590
+32801088	669	673	AChE	Gene	43
+32801088	780	786	amines	Chemical	MESH:D000588
+32801088	817	823	ketone	Chemical	MESH:D007659
+32801088	919	924	BuChE	Gene	590
+32801088	990	998	nitrogen	Chemical	MESH:D009584
+32801088	1080	1086	amides	Chemical	MESH:D000577
+32801088	1221	1236	aromatic ethers	Chemical	-
+32801088	1357	1361	AChE	Gene	43
+32801088	1390	1395	BuChE	Gene	590
+32801088	Association	MESH:D000544	43
+32801088	Negative_Correlation	MESH:D000577	590
+32801088	Negative_Correlation	MESH:D007659	43
+32801088	Negative_Correlation	MESH:D000588	43
+32801088	Association	MESH:D000544	590
+32801088	Negative_Correlation	MESH:D009584	590
+

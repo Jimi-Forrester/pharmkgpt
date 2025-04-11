@@ -1,0 +1,28 @@
+31734524|t|SVM recursive feature elimination analyses of structural brain MRI predicts near-term relapses in patients with clinically isolated syndromes suggestive of multiple sclerosis.
+31734524|a|Machine learning classification is an attractive approach to automatically differentiate patients from healthy subjects, and to predict future disease outcomes. A clinically isolated syndrome (CIS) is often the first presentation of multiple sclerosis (MS), but it is difficult at onset to predict who will have a second relapse and hence convert to clinically definite MS. In this study, we thus aimed to distinguish CIS converters from non-converters at onset of a CIS, using recursive feature elimination and weight averaging with support vector machines. We also sought to assess the influence of cohort size and cross-validation methods on the accuracy estimate of the classification. We retrospectively collected 400 patients with CIS from six European MAGNIMS MS centres. Patients underwent brain MRI at onset of a CIS according to local standard-of-care protocols. The diagnosis of clinically definite MS at one-year follow-up was the standard against which the accuracy of the model was tested. For each patient, we derived MRI-based features, such as grey matter probability, white matter lesion load, cortical thickness, and volume of specific cortical and white matter regions. Features with little contribution to the classification model were removed iteratively through an interleaved sample bootstrapping and feature averaging approach. Classification of CIS outcome at one-year follow-up was performed with 2-fold, 5-fold, 10-fold and leave-one-out cross-validation for each centre cohort independently and in all patients together. The estimated classification accuracy across centres ranged from 64.9% to 88.1% using 2-fold cross-validation and from 73% to 92.9% using leave-one-out cross-validation. The classification accuracy estimate was higher in single-centre, smaller data sets than in combinations of data sets, being the lowest when all patients were merged together. Regional MRI features such as WM lesions, grey matter probability in the thalamus and the precuneus or cortical thickness in the cuneus and inferior temporal gyrus predicted the occurrence of a second relapse in patients at onset of a CIS using support vector machines. The increased accuracy estimate of the classification achieved with smaller and single-centre samples may indicate a model bias (overfitting) when data points were limited, but also more homogeneous. We provide an overview of classifier performance from a range of cross-validation schemes to give insight into the variability across schemes. The proposed recursive feature elimination approach with weight averaging can be used both in single- and multi-centre data sets in order to bridge the gap between group-level comparisons and making predictions for individual patients.
+31734524	98	106	patients	Species	9606
+31734524	156	174	multiple sclerosis	Disease	MESH:D009103
+31734524	265	273	patients	Species	9606
+31734524	339	367	clinically isolated syndrome	Disease	MESH:D059466
+31734524	369	372	CIS	Disease	MESH:D059466
+31734524	409	427	multiple sclerosis	Disease	MESH:D009103
+31734524	429	431	MS	Disease	MESH:D009103
+31734524	546	548	MS	Disease	MESH:D009103
+31734524	594	597	CIS	Disease	MESH:D059466
+31734524	643	646	CIS	Disease	MESH:D059466
+31734524	899	907	patients	Species	9606
+31734524	913	916	CIS	Disease	MESH:D059466
+31734524	943	945	MS	Disease	MESH:D009103
+31734524	955	963	Patients	Species	9606
+31734524	998	1001	CIS	Disease	MESH:D059466
+31734524	1086	1088	MS	Disease	MESH:D009103
+31734524	1189	1196	patient	Species	9606
+31734524	1262	1281	white matter lesion	Disease	MESH:D056784
+31734524	1547	1550	CIS	Disease	MESH:D059466
+31734524	1707	1715	patients	Species	9606
+31734524	2041	2049	patients	Species	9606
+31734524	2102	2112	WM lesions	Disease	MESH:D009059
+31734524	2284	2292	patients	Species	9606
+31734524	2307	2310	CIS	Disease	MESH:D059466
+31734524	2911	2919	patients	Species	9606
+

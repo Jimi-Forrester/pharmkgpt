@@ -1,0 +1,46 @@
+37812997|t|Identification of IL-8 in CSF as a potential biomarker in sepsis-associated encephalopathy.
+37812997|a|BACKGROUND: Sepsis-associated encephalopathy (SAE) is frequently present at the acute and chronic phase of sepsis, which is characterized by delirium, coma, and cognitive dysfunction. Despite the increased morbidity and mortality of SAE, the pathogenesis of SAE remains unclear. This study aims to discover the potential biomarkers, so as to clear the pathogenesis potentially contributing to the development of SAE and provide new therapeutic strategies for the treatment of SAE. METHODS: The GSE135838 dataset was obtained from the Gene Expression Omnibus (GEO) database and utilized for analysis the differentially expressed genes (DEGs). The DEGs were analyzed by limma package of R language and the extracellular protein-differentially expressed genes (EP-DEGs) were screened by the Human Protein Atlas (HPA) and UniProt database. Gene Ontology (GO) analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis were carried out to analyze the function and pathway of EP-DEGs. STRING, Cytoscape, MCODE and Cytohubba were used to construct a protein-protein interaction (PPI) network and screen key EP-DEGs. Key EP-DEGs levels were detected in the cerebrospinal fluid (CSF) of SAE patients and non-sepsis patients with critical illness. ROC curve was used to evaluate the diagnostic of SAE. RESULTS: We screened 82 EP-DEGs from DEGs. EP-DEGs were enriched in cytokine-cytokine receptor interaction, IL-17 signaling pathway and NOD-like receptor signaling pathway. We identified 2 key extracellular proteins IL-1B and IL-8. We clinically verified that IL-6 and IL-8 levels were increased in CSF of SAE patients and CSF IL-8 (AUC = 0.882, 95 % CI = 0.775-0.988) had a higher accuracy in the diagnosis of SAE than CSF IL-6 (AUC = 0.824, 95 % CI = 0.686-0.961). Furthermore, we found that the IL-8 levels in CSF might not associated with Glasgow Coma Scale (GCS) scores of SAE patients. CONCLUSION: IL-8 may be the key extracellular cytokine in the pathogenesis of SAE. Bioinformatics methods were used to explore the biomarkers of SAE and validated the results in clinical samples. Our findings indicate that the IL-8 in CSF might be the potential diagnostic biomarker and therapeutic target in SAE.
+37812997	18	22	IL-8	Gene	3576
+37812997	58	90	sepsis-associated encephalopathy	Disease	MESH:D065166
+37812997	104	136	Sepsis-associated encephalopathy	Disease	MESH:D065166
+37812997	138	141	SAE	Disease	MESH:D065166
+37812997	199	205	sepsis	Disease	MESH:D018805
+37812997	233	241	delirium	Disease	MESH:D003693
+37812997	243	247	coma	Disease	MESH:D003128
+37812997	253	274	cognitive dysfunction	Disease	MESH:D003072
+37812997	325	328	SAE	Disease	MESH:D065166
+37812997	350	353	SAE	Disease	MESH:D065166
+37812997	504	507	SAE	Disease	MESH:D065166
+37812997	568	571	SAE	Disease	MESH:D065166
+37812997	850	852	EP	Disease	
+37812997	1091	1093	EP	Gene	2069
+37812997	1221	1223	EP	Disease	
+37812997	1234	1236	EP	Gene	2069
+37812997	1299	1302	SAE	Disease	MESH:D065166
+37812997	1320	1326	sepsis	Disease	MESH:D018805
+37812997	1341	1357	critical illness	Disease	MESH:D016638
+37812997	1408	1411	SAE	Disease	MESH:D065166
+37812997	1437	1439	EP	Disease	
+37812997	1456	1458	EP	Disease	
+37812997	1521	1526	IL-17	Gene	3605
+37812997	1629	1634	IL-1B	Gene	3553
+37812997	1639	1643	IL-8	Gene	3576
+37812997	1673	1677	IL-6	Gene	3569
+37812997	1682	1686	IL-8	Gene	3576
+37812997	1719	1722	SAE	Disease	MESH:D065166
+37812997	1740	1744	IL-8	Gene	3576
+37812997	1824	1827	SAE	Disease	MESH:D065166
+37812997	1837	1841	IL-6	Gene	3569
+37812997	1911	1915	IL-8	Gene	3576
+37812997	1964	1968	Coma	Disease	MESH:D003128
+37812997	1991	1994	SAE	Disease	MESH:D065166
+37812997	2017	2021	IL-8	Gene	3576
+37812997	2083	2086	SAE	Disease	MESH:D065166
+37812997	2150	2153	SAE	Disease	MESH:D065166
+37812997	2232	2236	IL-8	Gene	3576
+37812997	2314	2317	SAE	Disease	MESH:D065166
+37812997	Association	MESH:D065166	3576
+37812997	Positive_Correlation	MESH:D065166	3569
+37812997	Association	MESH:D065166	2069
+37812997	Association	MESH:D016638	2069
+

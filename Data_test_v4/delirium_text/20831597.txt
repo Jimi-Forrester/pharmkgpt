@@ -1,0 +1,38 @@
+20831597|t|Evidence that glycogen synthase kinase-3 isoforms have distinct substrate preference in the brain.
+20831597|a|Mammalian glycogen synthase kinase-3 (GSK3) is generated from two genes, GSK3alpha and GSK3beta, while a splice variant of GSK3beta (GSK3beta2), containing a 13 amino acid insert, is enriched in neurons. GSK3alpha and GSK3beta deletions generate distinct phenotypes. Here, we show that phosphorylation of CRMP2, CRMP4, beta-catenin, c-Myc, c-Jun and some residues on tau associated with Alzheimer's disease, is altered in cortical tissue lacking both isoforms of GSK3. This confirms that they are physiological targets for GSK3. However, deletion of each GSK3 isoform produces distinct substrate phosphorylation, indicating that each has a different spectrum of substrates (e.g. phosphorylation of Thr509, Thr514 and Ser518 of CRMP is not detectable in cortex lacking GSK3beta, yet normal in cortex lacking GSK3alpha). Furthermore, the neuron-enriched GSK3beta2 variant phosphorylates phospho-glycogen synthase 2 peptide, CRMP2 (Thr509/514), CRMP4 (Thr509), Inhibitor-2 (Thr72) and tau (Ser396), at a lower rate than GSK3beta1. In contrast phosphorylation of c-Myc and c-Jun is equivalent for each GSK3beta isoform, providing evidence that differential substrate phosphorylation is achieved through alterations in expression and splicing of the GSK3 gene. Finally, each GSK3beta splice variant is phosphorylated to a similar extent at the regulatory sites, Ser9 and Tyr216, and exhibit identical sensitivities to the ATP competitive inhibitor CT99021, suggesting upstream regulation and ATP binding properties of GSK3beta1 and GSK3beta2 are similar.
+20831597	172	181	GSK3alpha	Gene	2931
+20831597	186	194	GSK3beta	Gene	2932
+20831597	222	230	GSK3beta	Gene	2932
+20831597	303	312	GSK3alpha	Gene	2931
+20831597	317	325	GSK3beta	Gene	2932
+20831597	404	409	CRMP2	Gene	1808
+20831597	411	416	CRMP4	Gene	1809
+20831597	418	430	beta-catenin	Gene	1499
+20831597	432	437	c-Myc	Gene	4609
+20831597	439	444	c-Jun	Gene	3725
+20831597	466	469	tau	Gene	4137
+20831597	486	505	Alzheimer's disease	Disease	MESH:D000544
+20831597	867	875	GSK3beta	Gene	2932
+20831597	906	915	GSK3alpha	Gene	2931
+20831597	992	1011	glycogen synthase 2	Gene	2998
+20831597	1021	1026	CRMP2	Gene	1808
+20831597	1041	1046	CRMP4	Gene	1809
+20831597	1081	1084	tau	Gene	4137
+20831597	1158	1163	c-Myc	Gene	4609
+20831597	1168	1173	c-Jun	Gene	3725
+20831597	1197	1205	GSK3beta	Gene	2932
+20831597	1369	1377	GSK3beta	Gene	2932
+20831597	1516	1519	ATP	Chemical	MESH:D000255
+20831597	1542	1549	CT99021	Chemical	MESH:C473711
+20831597	1586	1589	ATP	Chemical	MESH:D000255
+20831597	Negative_Correlation	MESH:C473711	MESH:D000255
+20831597	Association	MESH:D000544	1808
+20831597	Association	MESH:D000544	1809
+20831597	Negative_Correlation	MESH:C473711	2932
+20831597	Association	MESH:D000544	1499
+20831597	Association	MESH:D000544	4609
+20831597	Association	MESH:D000544	4137
+20831597	Association	2932	3725
+20831597	Association	2932	4609
+20831597	Association	MESH:D000544	3725
+

@@ -1,0 +1,16 @@
+31348088|t|The Use of Random Forests to Classify Amyloid Brain PET.
+31348088|a|PURPOSE: To evaluate random forests (RFs) as a supervised machine learning algorithm to classify amyloid brain PET as positive or negative for amyloid deposition and identify key regions of interest for stratification. METHODS: The data set included 57 baseline F-florbetapir (Amyvid; Lilly, Indianapolis, IN) brain PET scans in participants with severe white matter disease, presenting with either transient ischemic attack/lacunar stroke or mild cognitive impairment from early Alzheimer disease, enrolled in a multicenter prospective observational trial. Scans were processed using the MINC toolkit to generate SUV ratios, normalized to cerebellar gray matter, and clinically read by 2 nuclear medicine physicians with interpretation based on consensus (35 negative, 22 positive). SUV ratio data and clinical reads were used for supervised training of an RF classifier programmed in MATLAB. RESULTS: A 10,000-tree RF, each tree using 15 randomly selected cases and 20 randomly selected features (SUV ratio per region of interest), with 37 cases for training and 20 cases for testing, had sensitivity = 86% (95% confidence interval [CI], 42%-100%), specificity = 92% (CI, 64%-100%), and classification accuracy = 90% (CI, 68%-99%). The most common features at the root node (key regions for stratification) were (1) left posterior cingulate (1039 trees), (2) left middle frontal gyrus (1038 trees), (3) left precuneus (857 trees), (4) right anterior cingulate gyrus (655 trees), and (5) right posterior cingulate (588 trees). CONCLUSIONS: Random forests can classify brain PET as positive or negative for amyloid deposition and suggest key clinically relevant, regional features for classification.
+31348088	38	45	Amyloid	Disease	MESH:C000718787
+31348088	154	161	amyloid	Disease	MESH:C000718787
+31348088	200	218	amyloid deposition	Disease	MESH:D058225
+31348088	319	332	F-florbetapir	Chemical	-
+31348088	411	431	white matter disease	Disease	MESH:D056784
+31348088	466	481	ischemic attack	Disease	MESH:D002546
+31348088	490	496	stroke	Disease	MESH:D020521
+31348088	505	525	cognitive impairment	Disease	MESH:D003072
+31348088	537	554	Alzheimer disease	Disease	MESH:D000544
+31348088	671	674	SUV	Chemical	-
+31348088	841	844	SUV	Chemical	-
+31348088	1056	1059	SUV	Chemical	-
+31348088	1664	1682	amyloid deposition	Disease	MESH:D058225
+

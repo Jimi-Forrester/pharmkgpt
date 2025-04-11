@@ -1,0 +1,23 @@
+36964477|t|Long-term cognitive decline prediction based on multi-modal data using Multimodal3DSiameseNet: transfer learning from Alzheimer's disease to Parkinson's disease.
+36964477|a|PURPOSE: Monitoring and predicting the cognitive state of subjects with neurodegenerative disorders is crucial to provide appropriate treatment as soon as possible. In this work, we present a machine learning approach using multimodal data (brain MRI and clinical) from two early medical visits, to predict the longer-term cognitive decline of patients. Using transfer learning, our model can be successfully transferred from one neurodegenerative disease (Alzheimer's) to another (Parkinson's). METHODS: Our model is a Deep Neural Network with siamese sub-modules dedicated to extracting features from each modality. We pre-train it with data from ADNI (Alzheimer's disease), then transfer it on the smaller PPMI dataset (Parkinson's disease). We show that, even when we do not fine-tune the filters learnt from the ADNI MRIs, the transferred model's results are satisfying on PPMI. RESULTS: The first main result is that our model provides satisfying long-term predictions of cognitive decline from any pair of early visits, with no fixed time delay between these visits (provided the potential decline has started at the second visit). The second main result is that the prediction performance on Parkinson's dataset (PPMI) reaches an AUC of 0.81 on PPMI after transfer learning from Alzheimer's dataset (ADNI), without even having to re-train the image filters, versus an AUC of 0.72 for the model trained from scratch on PPMI. CONCLUSIONS: First, our model is effective for predicting long-term cognitive decline from only two visits, even with irregular intervals of time. When dealing with neurodegenerative diseases, where patients often miss some control visits, this is an important finding. Second, our model is able to transfer the knowledge learnt from one neurodegenerative disease (Alzheimer's) to another (Parkinson's), when using the same imaging modalities (brain MRI) and different clinical variables. This makes it usable even for diseases that are rare or under-studied.
+36964477	10	27	cognitive decline	Disease	MESH:D003072
+36964477	118	137	Alzheimer's disease	Disease	MESH:D000544
+36964477	141	160	Parkinson's disease	Disease	MESH:D010300
+36964477	234	261	neurodegenerative disorders	Disease	MESH:D019636
+36964477	485	502	cognitive decline	Disease	MESH:D003072
+36964477	506	514	patients	Species	9606
+36964477	592	617	neurodegenerative disease	Disease	MESH:D019636
+36964477	619	630	Alzheimer's	Disease	MESH:D000544
+36964477	644	655	Parkinson's	Disease	MESH:D010300
+36964477	817	836	Alzheimer's disease	Disease	MESH:D000544
+36964477	885	904	Parkinson's disease	Disease	MESH:D010300
+36964477	1140	1157	cognitive decline	Disease	MESH:D003072
+36964477	1362	1373	Parkinson's	Disease	MESH:D010300
+36964477	1449	1460	Alzheimer's	Disease	MESH:D000544
+36964477	1662	1679	cognitive decline	Disease	MESH:D003072
+36964477	1759	1785	neurodegenerative diseases	Disease	MESH:D019636
+36964477	1793	1801	patients	Species	9606
+36964477	1932	1957	neurodegenerative disease	Disease	MESH:D019636
+36964477	1959	1970	Alzheimer's	Disease	MESH:D000544
+36964477	1984	1995	Parkinson's	Disease	MESH:D010300
+

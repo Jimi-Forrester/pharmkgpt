@@ -1,0 +1,28 @@
+35996379|t|Identification and Experimental Validation of Marker Genes between Diabetes and Alzheimer's Disease.
+35996379|a|Currently, Alzheimer's disease (AD) and type 2 diabetes mellitus (T2DM) are widely prevalent in the elderly population, and accumulating evidence implies a strong link between them. For example, patients with T2DM have a higher risk of developing neurocognitive disorders, including AD, but the exact mechanisms are still unclear. This time, by combining bioinformatics analysis and in vivo experimental validation, we attempted to find a common biological link between AD and T2DM. We firstly downloaded the gene expression profiling (AD: GSE122063; T2DM: GSE161355) derived from the temporal cortex. To find the associations, differentially expressed genes (DEGs) of the two datasets were filtered and intersected. Based on them, enrichment analysis was carried out, and the least absolute shrinkage and selection operator (LASSO) logistic regression and support vector machine-recursive feature elimination (SVM-RFE) algorithms were used to identify the specific genes. After verifying in the external dataset and in the samples from the AD and type 2 diabetes animals, the shared targets of the two diseases were finally determined. Based on them, the ceRNA networks were constructed. Besides, the logistic regression and single-sample gene set enrichment analysis (ssGSEA) were performed. As a result, 62 DEGs were totally identified between AD and T2DM, and the enrichment analysis indicated that they were much related to the function of synaptic vesicle and MAPK signaling pathway. Based on the evidence from external dataset and RT-qPCR, CARTPT, EPHA5, and SERPINA3 were identified as the marker genes in both diseases, and their clinical significance and biological functions were further analyzed. In conclusion, discovering and exploring the marker genes that are dysregulated in both 2 diseases could help us better comprehend the intrinsic relationship between T2DM and AD, which may inspire us to develop new strategies for facing the dilemmas of clinical or basic research in cognitive dysfunction.
+35996379	67	75	Diabetes	Disease	MESH:D003920
+35996379	80	99	Alzheimer's Disease	Disease	MESH:D000544
+35996379	112	131	Alzheimer's disease	Disease	MESH:D000544
+35996379	133	135	AD	Disease	MESH:D000544
+35996379	141	165	type 2 diabetes mellitus	Disease	MESH:D003924
+35996379	167	171	T2DM	Disease	MESH:D003924
+35996379	296	304	patients	Species	9606
+35996379	310	314	T2DM	Disease	MESH:D003924
+35996379	348	372	neurocognitive disorders	Disease	MESH:D019965
+35996379	384	386	AD	Disease	MESH:D000544
+35996379	571	573	AD	Disease	MESH:D000544
+35996379	578	582	T2DM	Disease	MESH:D003924
+35996379	637	639	AD	Disease	MESH:D000544
+35996379	652	656	T2DM	Disease	MESH:D003924
+35996379	1142	1144	AD	Disease	MESH:D000544
+35996379	1149	1164	type 2 diabetes	Disease	MESH:D003924
+35996379	1448	1450	AD	Disease	MESH:D000544
+35996379	1455	1459	T2DM	Disease	MESH:D003924
+35996379	1648	1654	CARTPT	Gene	9607
+35996379	1656	1661	EPHA5	Gene	2044
+35996379	1667	1675	SERPINA3	Gene	12
+35996379	1976	1980	T2DM	Disease	MESH:D003924
+35996379	1985	1987	AD	Disease	MESH:D000544
+35996379	2093	2114	cognitive dysfunction	Disease	MESH:D003072
+35996379	Association	MESH:D000544	2044
+

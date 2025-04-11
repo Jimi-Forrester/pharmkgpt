@@ -1,0 +1,27 @@
+39754021|t|Association Between Blood Urea Nitrogen and Delirium in Critically Ill Elderly Patients Without Kidney Diseases: A Retrospective Study and Mendelian Randomization Analysis.
+39754021|a|OBJECTIVE: This study investigates the association between blood urea nitrogen (BUN) levels and the risk of delirium in critically ill elderly patients without kidney disease. METHODS: A retrospective analysis was conducted using data from the MIMIC-IV database. The relationship between BUN and delirium risk was illustrated through the restricted cubic spline (RCS) method. Patients were stratified by BUN levels and examined for delirium incidence using logistic regression, subgroup analysis, and sensitivity analysis. Mendelian randomization (MR) was employed to explore potential causal relationships. RESULTS: The maximum BUN level exhibited the strongest non-linear positive association with the odds of delirium. Compared to the Q1 group, both the Q3 (23-31 mg/dL) and Q4 (> 31 mg/dL) groups consistently showed increased odds of developing delirium. Subgroup analysis identified a significant interaction between BUN and midazolam, with the association only evident in patients not exposed to midazolam. After adjusting for baseline characteristics, the odds ratio for delirium was found to range from 1.35 to 1.39 in those with BUN levels exceeding 23 mg/dL. However, the MR analysis did not reveal any significant causal relationship (all p > 0.05). CONCLUSION: In conclusion, elevated BUN may be a risk factor for delirium in critically ill elderly patients without renal dysfunction, with this potential link possibly modulated by midazolam exposure.
+39754021	44	52	Delirium	Disease	MESH:D003693
+39754021	56	70	Critically Ill	Disease	MESH:D016638
+39754021	79	87	Patients	Species	9606
+39754021	96	111	Kidney Diseases	Disease	MESH:D007674
+39754021	281	289	delirium	Disease	MESH:D003693
+39754021	293	307	critically ill	Disease	MESH:D016638
+39754021	316	324	patients	Species	9606
+39754021	333	347	kidney disease	Disease	MESH:D007674
+39754021	469	477	delirium	Disease	MESH:D003693
+39754021	549	557	Patients	Species	9606
+39754021	605	613	delirium	Disease	MESH:D003693
+39754021	885	893	delirium	Disease	MESH:D003693
+39754021	1023	1031	delirium	Disease	MESH:D003693
+39754021	1104	1113	midazolam	Chemical	MESH:D008874
+39754021	1152	1160	patients	Species	9606
+39754021	1176	1185	midazolam	Chemical	MESH:D008874
+39754021	1252	1260	delirium	Disease	MESH:D003693
+39754021	1500	1508	delirium	Disease	MESH:D003693
+39754021	1512	1526	critically ill	Disease	MESH:D016638
+39754021	1535	1543	patients	Species	9606
+39754021	1552	1569	renal dysfunction	Disease	MESH:D007674
+39754021	1618	1627	midazolam	Chemical	MESH:D008874
+39754021	Association	MESH:D008874	MESH:D016638
+39754021	Association	MESH:D008874	MESH:D003693
+

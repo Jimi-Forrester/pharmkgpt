@@ -1,0 +1,35 @@
+15883373|t|Insights into TOR function and rapamycin response: chemical genomic profiling by using a high-density cell array method.
+15883373|a|With the advent of complete genome sequences, large-scale functional analyses are generating new excitement in biology and medicine. To facilitate genomewide functional analyses, we developed a high-density cell array with quantitative and automated readout of cell fitness. Able to print at > x 10 higher density on a standard microtiter plate area than currently possible, our cell array allows single-plate screening of the complete set of Saccharomyces cerevisiae gene-deletion library and significantly reduces the amount of small molecules and other materials needed for the study. We used this method to map the relation between genes and cell fitness in response to rapamycin, a medically important natural product that targets the eukaryotic kinase Tor. We discuss the implications for pharmacogenomics and the uncharted complexity in genotype-dependent drug response in molecularly targeted therapies. Our analysis leads to several basic findings, including a class of gene deletions that confer better fitness in the presence of rapamycin. This result provides insights into possible therapeutic uses of rapamycin/CCI-779 in the treatment of neurodegenerative diseases (including Alzheimer's, Parkinson's, and Huntington's diseases), and cautions the possible existence of similar rapamycin-enhanceable mutations in cancer. It is well established in yeast that although TOR2 has a unique rapamycin-insensitive function, TOR1 and TOR2 are interchangeable in the rapamycin-sensitive functions. We show that even the rapamycin-sensitive functions are distinct between TOR1 and TOR2 and map the functional difference to a approximately 120-aa region at the N termini of the proteins. Finally, we discuss using cell-based genomic pattern recognition in designing electronic or optical biosensors.
+15883373	31	40	rapamycin	Chemical	MESH:D020123
+15883373	564	588	Saccharomyces cerevisiae	Species	4932
+15883373	795	804	rapamycin	Chemical	MESH:D020123
+15883373	1161	1170	rapamycin	Chemical	MESH:D020123
+15883373	1236	1245	rapamycin	Chemical	MESH:D020123
+15883373	1246	1253	CCI-779	Chemical	MESH:C401859
+15883373	1274	1300	neurodegenerative diseases	Disease	MESH:D019636
+15883373	1312	1323	Alzheimer's	Disease	MESH:D000544
+15883373	1325	1336	Parkinson's	Disease	MESH:D010300
+15883373	1342	1363	Huntington's diseases	Disease	MESH:D006816
+15883373	1413	1422	rapamycin	Chemical	MESH:D020123
+15883373	1448	1454	cancer	Disease	MESH:D009369
+15883373	1482	1487	yeast	Species	4932
+15883373	1502	1506	TOR2	Gene	853632
+15883373	1520	1529	rapamycin	Chemical	MESH:D020123
+15883373	1552	1556	TOR1	Gene	853529
+15883373	1561	1565	TOR2	Gene	853632
+15883373	1593	1602	rapamycin	Chemical	MESH:D020123
+15883373	1646	1655	rapamycin	Chemical	MESH:D020123
+15883373	1697	1701	TOR1	Gene	853529
+15883373	1706	1710	TOR2	Gene	853632
+15883373	Negative_Correlation	MESH:C401859	MESH:D019636
+15883373	Association	MESH:D020123	853632
+15883373	Negative_Correlation	MESH:D020123	MESH:D000544
+15883373	Negative_Correlation	MESH:D020123	MESH:D019636
+15883373	Negative_Correlation	MESH:D020123	MESH:D006816
+15883373	Association	MESH:D020123	MESH:D009369
+15883373	Negative_Correlation	MESH:D020123	MESH:D010300
+15883373	Negative_Correlation	MESH:C401859	MESH:D010300
+15883373	Association	MESH:D020123	853529
+15883373	Negative_Correlation	MESH:C401859	MESH:D000544
+15883373	Negative_Correlation	MESH:C401859	MESH:D006816
+

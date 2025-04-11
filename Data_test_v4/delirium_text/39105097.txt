@@ -1,0 +1,35 @@
+39105097|t|Drug effectiveness for COVID-19 inpatients inferred from Japanese medical claim data using propensity score matching.
+39105097|a|Background: Earlier studies and clinical trials of Coronavirus 2019 (COVID-19) showed that drugs such as antiviral drugs, antibody cocktails, and steroids and anti-inflammatory drugs can prevent severe outcomes and death. Methods: Observational data in Japan assess drug effectiveness against COVID-19. We applied the average treatment effect model, particularly propensity scoring, which can treat the choice of administered drug as if administration were randomly assigned to inpatients. Data of the Medical Information Analysis Databank, operated by National Hospital Organization in Japan, were used. The outcome was defined as mortality. Subjects were all inpatients, inpatients with oxygen administration, and inpatients using respiratory ventilation, classified by three age classes: all ages, 65 years old or older, and younger than 65 years old. Information about demographic characteristics, underlying disease, administered drug, the proportions of Alpha, Beta and Omicron variant strains, and vaccine coverage were used as explanatory variables for logistic regression. Results: Estimated results indicated that only one antibody cocktail (sotrovimab, casirivimab and imdevimab) was associated with raising the probability of survival consistently and significantly. By contrast, other drugs, an antiviral drug (remdesivir), a steroid (dexamethasone), and an anti-inflammatory drug (baricitinib and tocilizumab) were related to reduce the probability of survival. However, propensity score matching method might engender biased results because of a lack of data such as detailed information related to intervention and potential confounders. Therefore, the effectiveness of some drugs might not be evaluated properly in this study. Conclusions: Results indicate high likelihood that antibody cocktails were consistently associated with high probability of survival, although low likelihood was found for other drugs for older patients with mild to severe severity and all age patients with moderate severity. Further study is necessary in light of the lack of available data.
+39105097	23	31	COVID-19	Disease	MESH:D000086382
+39105097	32	42	inpatients	Species	9606
+39105097	169	185	Coronavirus 2019	Disease	MESH:D000086382
+39105097	187	195	COVID-19	Disease	MESH:D000086382
+39105097	264	272	steroids	Chemical	MESH:D013256
+39105097	282	294	inflammatory	Disease	MESH:D007249
+39105097	333	338	death	Disease	MESH:D003643
+39105097	411	419	COVID-19	Disease	MESH:D000086382
+39105097	596	606	inpatients	Species	9606
+39105097	779	789	inpatients	Species	9606
+39105097	791	801	inpatients	Species	9606
+39105097	807	813	oxygen	Chemical	MESH:D010100
+39105097	834	844	inpatients	Species	9606
+39105097	1270	1280	sotrovimab	Chemical	MESH:C000711967
+39105097	1282	1293	casirivimab	Chemical	MESH:C000711487
+39105097	1298	1307	imdevimab	Chemical	MESH:C000711488
+39105097	1442	1452	remdesivir	Chemical	MESH:C000606551
+39105097	1457	1464	steroid	Chemical	MESH:D013256
+39105097	1466	1479	dexamethasone	Chemical	MESH:D003907
+39105097	1494	1506	inflammatory	Disease	MESH:D007249
+39105097	1513	1524	baricitinib	Chemical	MESH:C000596027
+39105097	1529	1540	tocilizumab	Chemical	MESH:C502936
+39105097	2056	2064	patients	Species	9606
+39105097	2106	2114	patients	Species	9606
+39105097	Negative_Correlation	MESH:C000711487	MESH:D000086382
+39105097	Negative_Correlation	MESH:C000711967	MESH:D000086382
+39105097	Negative_Correlation	MESH:C000711488	MESH:D000086382
+39105097	Negative_Correlation	MESH:D013256	MESH:D000086382
+39105097	Negative_Correlation	MESH:C000596027	MESH:D007249
+39105097	Negative_Correlation	MESH:C502936	MESH:D007249
+39105097	Negative_Correlation	MESH:D013256	MESH:D003643
+39105097	Cotreatment	MESH:C000711488	MESH:C000711967
+

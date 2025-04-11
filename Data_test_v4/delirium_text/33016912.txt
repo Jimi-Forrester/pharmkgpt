@@ -1,0 +1,21 @@
+33016912|t|Simulating the Effects of Common Comedications and Genotypes on Alzheimer's Cognitive Trajectory Using a Quantitative Systems Pharmacology Approach.
+33016912|a|BACKGROUND: Many Alzheimer's disease patients in clinical practice are on polypharmacy for treatment of comorbidities. OBJECTIVE: While pharmacokinetic interactions between drugs have been relatively well established with corresponding treatment guidelines, many medications and common genotype variants also affect central brain circuits involved in cognitive trajectory, leading to complex pharmacodynamic interactions and a large variability in clinical trials. METHODS: We applied a mechanism-based and ADAS-Cog calibrated Quantitative Systems Pharmacology biophysical model of neuronal circuits relevant for cognition in Alzheimer's disease, to standard-of-care cholinergic therapy with COMTVal158Met, 5-HTTLPR rs25531, and APOE genotypes and with benzodiazepines, antidepressants, and antipsychotics, all together 9,585 combinations. RESULTS: The model predicts a variability of up to 14 points on ADAS-Cog at baseline (COMTVV 5-HTTLPRss APOE 4/4 combination is worst) and a four-fold range for the rate of progression. The progression rate is inversely proportional to baseline ADAS-Cog. Antidepressants, benzodiazepines, first-generation more than second generation, and most antipsychotics with the exception of aripiprazole worsen the outcome when added to standard-of-care in mild cases. Low dose second-generation benzodiazepines revert the negative effects of risperidone and olanzapine, but only in mild stages. Non APOE4 carriers with a COMTMM and 5HTTLPRLL are predicted to have the best cognitive performance at baseline but deteriorate somewhat faster over time. However, this effect is significantly modulated by comedications. CONCLUSION: Once these simulations are validated, the platform can in principle provide optimal treatment guidance in clinical practice at an individual patient level, identify negative pharmacodynamic interactions with novel targets and address protocol amendments in clinical trials.
+33016912	64	75	Alzheimer's	Disease	MESH:D000544
+33016912	166	185	Alzheimer's disease	Disease	MESH:D000544
+33016912	186	194	patients	Species	9606
+33016912	775	794	Alzheimer's disease	Disease	MESH:D000544
+33016912	856	864	5-HTTLPR	Gene	6532
+33016912	865	872	rs25531	SNP	tmVar:rs25531;VariantGroup:0;CorrespondingGene:6532;RS#:25531;CorrespondingSpecies:9606
+33016912	878	882	APOE	Gene	348
+33016912	902	917	benzodiazepines	Chemical	MESH:D001569
+33016912	1093	1101	APOE 4/4	Gene	348
+33016912	1261	1276	benzodiazepines	Chemical	MESH:D001569
+33016912	1370	1382	aripiprazole	Chemical	MESH:D000068180
+33016912	1475	1490	benzodiazepines	Chemical	MESH:D001569
+33016912	1522	1533	risperidone	Chemical	MESH:D018967
+33016912	1538	1548	olanzapine	Chemical	MESH:D000077152
+33016912	1579	1584	APOE4	Gene	348
+33016912	1949	1956	patient	Species	9606
+33016912	Negative_Correlation	MESH:D000077152	MESH:D001569
+33016912	Negative_Correlation	MESH:D001569	MESH:D018967
+

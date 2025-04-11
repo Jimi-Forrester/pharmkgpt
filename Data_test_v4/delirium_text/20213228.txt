@@ -1,0 +1,28 @@
+20213228|t|Presenilin 1 gene mutation (M139I) in a patient with an early-onset Alzheimer's disease: clinical characteristics and genetic identification.
+20213228|a|Mutations in the presenilin 1 (PSEN1) gene are more commonly identified as genetic causes of early-onset familial Alzheimer's disease than mutations in the amyloid precursor protein (APP) and the presenilin 2 (PSEN2) genes. More than 100 different mutations in the PSEN1 gene have been detected, and the clinical phenotypes have been described in the literature. This paper reports the case of a 38-year-old female showing early memory impairment and having a base pair mutation from guanine (G) to cytosine (C) at codon 139 of PSEN1, which leads to the substitution of a methionine with an isoleucine.
+20213228	0	12	Presenilin 1	Gene	5663
+20213228	28	33	M139I	ProteinMutation	tmVar:p|SUB|M|139|I;HGVS:p.M139I;VariantGroup:0;CorrespondingGene:5663;RS#:63750522(Expired);CorrespondingSpecies:9606;CA#:225017
+20213228	40	47	patient	Species	9606
+20213228	68	87	Alzheimer's disease	Disease	MESH:D000544
+20213228	159	171	presenilin 1	Gene	5663
+20213228	173	178	PSEN1	Gene	5663
+20213228	256	275	Alzheimer's disease	Disease	MESH:D000544
+20213228	298	323	amyloid precursor protein	Gene	351
+20213228	338	350	presenilin 2	Gene	5664
+20213228	352	357	PSEN2	Gene	5664
+20213228	407	412	PSEN1	Gene	5663
+20213228	571	588	memory impairment	Disease	MESH:D008569
+20213228	626	666	guanine (G) to cytosine (C) at codon 139	DNAMutation	tmVar:c|SUB|G|CODON139|C;HGVS:c.CODON139G>C;VariantGroup:2;CorrespondingGene:5663;CorrespondingSpecies:9606
+20213228	670	675	PSEN1	Gene	5663
+20213228	714	743	methionine with an isoleucine	ProteinMutation	tmVar:p|SUB|M||I;VariantGroup:1;CorrespondingGene:5663;CorrespondingSpecies:9606
+20213228	Positive_Correlation	MESH:D000544	RS#:63750522(Expired);HGVS:p.M139I;CorrespondingGene:5663
+20213228	Positive_Correlation	HGVS:c.CODON139G>C;CorrespondingGene:5663	MESH:D000544
+20213228	Association	MESH:D008569	RS#:63750522(Expired);HGVS:p.M139I;CorrespondingGene:5663
+20213228	Positive_Correlation	MESH:D000544	CorrespondingGene:5663;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p
+20213228	Association	MESH:D000544	5663
+20213228	Association	MESH:D008569	CorrespondingGene:5663;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p
+20213228	Association	HGVS:c.CODON139G>C;CorrespondingGene:5663	MESH:D008569
+20213228	Association	MESH:D008569	5663
+20213228	Association	MESH:D000544	5663
+20213228	Association	MESH:D008569	5663
+

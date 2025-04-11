@@ -1,0 +1,33 @@
+36369435|t|Differentially expressed long noncoding RNAs and mRNAs in PC12 cells under lysophosphatidylcholine stimulation.
+36369435|a|Lysophosphatidylcholine (LPC) was previously found to show neuroprotective effect on nerve growth factor (NGF) and brain derived neurotrophic factor (BDNF) induced signalings. Also, numerous studies reported the emerging roles of long noncoding RNAs (LncRNAs) involved in neurodegenerative disease. However, the biological mechanism of LPC and expression profile of lncRNAs has not been reported. Here, lncRNAs in PC12 cells under LPC and NGF treatment were analyzed using high throughput sequencing technology for the first time. We identified 564 annotated and 1077 novel lncRNAs in PC12 cells. Among them, 121 lncRNAs were differentially expressed in the PC12 cells under LPC stimulation. KEGG analysis showed that differentially expressed mRNAs co-expressed with lncRNAs mainly enriched in ribosome, oxidative phosphorylation, Parkinson's disease, Huntington's disease and Alzheimer's disease etc. LncRNA-mRNA network analysis showed that lncRNA ENSRNOT00000082515 had interactions with 626 different mRNAs suggesting that lncRNA ENSRNOT00000082515 probably play vital role. Finally, sequencing data were validated by qRT-PCR for ENSRNOT00000084874, ENSRNOT00000082515, LNC_001033 forward Fgf18, Vcam1, and Pck2.
+36369435	58	62	PC12	CellLine	CVCL:0481
+36369435	75	98	lysophosphatidylcholine	Chemical	MESH:D008244
+36369435	112	135	Lysophosphatidylcholine	Chemical	MESH:D008244
+36369435	137	140	LPC	Chemical	MESH:D008244
+36369435	197	216	nerve growth factor	Gene	310738
+36369435	218	221	NGF	Gene	310738
+36369435	227	260	brain derived neurotrophic factor	Gene	24225
+36369435	262	266	BDNF	Gene	24225
+36369435	384	409	neurodegenerative disease	Disease	MESH:D019636
+36369435	448	451	LPC	Chemical	MESH:D008244
+36369435	526	530	PC12	CellLine	CVCL:0481
+36369435	543	546	LPC	Chemical	MESH:D008244
+36369435	551	554	NGF	Gene	310738
+36369435	697	701	PC12	CellLine	CVCL:0481
+36369435	770	774	PC12	CellLine	CVCL:0481
+36369435	787	790	LPC	Chemical	MESH:D008244
+36369435	943	962	Parkinson's disease	Disease	MESH:D010300
+36369435	964	984	Huntington's disease	Disease	MESH:D006816
+36369435	989	1008	Alzheimer's disease	Disease	MESH:D000544
+36369435	1305	1310	Fgf18	Gene	29369
+36369435	1312	1317	Vcam1	Gene	25361
+36369435	1323	1327	Pck2	Gene	361042
+36369435	Positive_Correlation	MESH:D008244	310738
+36369435	Positive_Correlation	MESH:D008244	24225
+36369435	Association	MESH:D008244	29369
+36369435	Association	MESH:D008244	361042
+36369435	Association	MESH:D008244	25361
+36369435	Association	MESH:D008244	MESH:D010300
+36369435	Association	MESH:D008244	MESH:D000544
+36369435	Association	MESH:D008244	MESH:D006816
+

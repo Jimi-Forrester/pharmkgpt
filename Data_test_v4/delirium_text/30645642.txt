@@ -1,0 +1,68 @@
+30645642|t|LRRK2 kinase plays a critical role in manganese-induced inflammation and apoptosis in microglia.
+30645642|a|Long-term exposure to elevated levels of manganese (Mn) causes manganism, a neurodegenerative disorder with Parkinson's disease (PD)-like symptoms. Increasing evidence suggests that leucine-rich repeat kinase 2 (LRRK2), which is highly expressed in microglia and macrophages, contributes to the inflammation and neurotoxicity seen in autosomal dominant and sporadic PD. As gene-environment interactions have emerged as important modulators of PD-associated toxicity, LRRK2 may also mediate Mn-induced inflammation and pathogenesis. In this study, we investigated the role of LRRK2 in Mn-induced toxicity using human microglial cells (HMC3), LRRK2-wild-type (WT) and LRRK2-knockout (KO) RAW264.7 macrophage cells. Results showed that Mn activated LRRK2 kinase by phosphorylation of its serine residue at the 1292 position (S1292) as a marker of its kinase activity in macrophage and microglia, while inhibition with GSK2578215A (GSK) and MLi-2 abolished Mn-induced LRRK2 activation. LRRK2 deletion and its pharmacological inhibition attenuated Mn-induced apoptosis in macrophages and microglia, along with concomitant decreases in the pro-apoptotic Bcl-2-associated X (Bax) protein. LRRK2 deletion also attenuated Mn-induced production of reactive oxygen species (ROS) and the pro-inflammatory cytokine TNF-alpha. Mn-induced phosphorylation of mitogen-activated protein kinase (MAPK) p38 and ERK signaling proteins was significantly attenuated in LRRK2 KO cells and GSK-treated cells. Moreover, inhibition of MAPK p38 and ERK as well as LRRK2 attenuated Mn-induced oxidative stress and cytotoxicity. These findings suggest that LRRK2 kinase activity plays a critical role in Mn-induced toxicity via downstream activation of MAPK signaling in macrophage and microglia. Collectively, these results suggest that LRRK2 could be a potential molecular target for developing therapeutics to treat Mn-related neurodegenerative disorders.
+30645642	38	47	manganese	Chemical	MESH:D008345
+30645642	56	68	inflammation	Disease	MESH:D007249
+30645642	138	147	manganese	Chemical	MESH:D008345
+30645642	160	169	manganism	Disease	
+30645642	173	199	neurodegenerative disorder	Disease	MESH:D019636
+30645642	205	224	Parkinson's disease	Disease	MESH:D010300
+30645642	226	228	PD	Disease	MESH:D010300
+30645642	279	307	leucine-rich repeat kinase 2	Gene	120892
+30645642	309	314	LRRK2	Gene	120892
+30645642	392	404	inflammation	Disease	MESH:D007249
+30645642	409	422	neurotoxicity	Disease	MESH:D020258
+30645642	431	465	autosomal dominant and sporadic PD	Disease	MESH:D010300
+30645642	540	542	PD	Disease	MESH:D010300
+30645642	554	562	toxicity	Disease	MESH:D064420
+30645642	564	569	LRRK2	Gene	66725
+30645642	598	610	inflammation	Disease	MESH:D007249
+30645642	672	677	LRRK2	Gene	120892
+30645642	692	700	toxicity	Disease	MESH:D064420
+30645642	707	712	human	Species	9606
+30645642	731	735	HMC3	CellLine	CVCL:II76
+30645642	738	743	LRRK2	Gene	66725
+30645642	763	768	LRRK2	Gene	66725
+30645642	783	791	RAW264.7	CellLine	CVCL:0493
+30645642	882	917	serine residue at the 1292 position	ProteinMutation	tmVar:p|Allele|S|1292;VariantGroup:0;CorrespondingGene:120892;CorrespondingSpecies:9606
+30645642	1012	1023	GSK2578215A	Chemical	MESH:C000600930
+30645642	1025	1028	GSK	Chemical	MESH:C000600930
+30645642	1034	1039	MLi-2	Chemical	-
+30645642	1061	1066	LRRK2	Gene	120892
+30645642	1079	1084	LRRK2	Gene	120892
+30645642	1245	1263	Bcl-2-associated X	Gene	581
+30645642	1265	1268	Bax	Gene	581
+30645642	1279	1284	LRRK2	Gene	120892
+30645642	1335	1358	reactive oxygen species	Chemical	MESH:D017382
+30645642	1360	1363	ROS	Chemical	MESH:D017382
+30645642	1377	1389	inflammatory	Disease	MESH:D007249
+30645642	1399	1408	TNF-alpha	Gene	7124
+30645642	1480	1483	p38	Gene	1432
+30645642	1488	1491	ERK	Gene	5594
+30645642	1543	1548	LRRK2	Gene	120892
+30645642	1562	1565	GSK	Chemical	MESH:C000600930
+30645642	1610	1613	p38	Gene	26416
+30645642	1618	1621	ERK	Gene	26413
+30645642	1633	1638	LRRK2	Gene	66725
+30645642	1682	1694	cytotoxicity	Disease	MESH:D064420
+30645642	1782	1790	toxicity	Disease	MESH:D064420
+30645642	1905	1910	LRRK2	Gene	120892
+30645642	1986	2024	Mn-related neurodegenerative disorders	Disease	MESH:D019636
+30645642	Negative_Correlation	MESH:C000600930	5594
+30645642	Association	120892	1432
+30645642	Negative_Correlation	MESH:C000600930	CorrespondingGene:120892;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+30645642	Negative_Correlation	MESH:C000600930	1432
+30645642	Association	MESH:D017382	120892
+30645642	Association	MESH:D007249	120892
+30645642	Negative_Correlation	MESH:C000600930	120892
+30645642	Association	MESH:D010300	120892
+30645642	Association	MESH:D064420	66725
+30645642	Positive_Correlation	MESH:D008345	MESH:D019636
+30645642	Positive_Correlation	MESH:D008345	MESH:D007249
+30645642	Association	MESH:D007249	7124
+30645642	Positive_Correlation	120892	581
+30645642	Positive_Correlation	120892	7124
+30645642	Association	MESH:D007249	66725
+30645642	Association	MESH:D020258	120892
+30645642	Positive_Correlation	120892	5594
+30645642	Positive_Correlation	MESH:D008345	MESH:D010300
+

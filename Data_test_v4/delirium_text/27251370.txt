@@ -1,0 +1,60 @@
+27251370|t|The mechanisms of delayed onset type adverse reactions to oseltamivir.
+27251370|a|Oseltamivir is recommended for the treatment and prophylaxis of influenza in persons at higher risk for influenza complications such as individuals with diabetes, neuropsychiatric illnesses, and respiratory, cardiac, renal, hepatic or haematological diseases. However, a recent Cochrane review reported that reduction of antibody production, renal disorders, hyperglycaemia, psychiatric disorders, and QT prolongation may be related to oseltamivir use. The underlying mechanisms are reviewed. There is decisive evidence that administration of a clinically compatible dose of oseltamivir in mice challenged by a respiratory syncytial virus (RSV) that lacks a neuraminidase gene showed symptom-relieving effects and inhibition of viral clearance. These effects were accompanied by decreased level of T cell surface sialoglycosphingolipid (ganglioside) GM1 that is regulated by the endogenous neuraminidase in response to viral challenge. Clinical and non-clinical evidence supports the view that the usual dose of oseltamivir suppresses pro-inflammatory cytokines such as interferon-gamma, interleukin-6, and tumour necrosis factor-alpha almost completely with partial suppression of viral shedding in human influenza virus infection experiment. Animal toxicity tests support the clinical evidence with regard to renal and cardiac disorders (bradycardia and QT prolongation) and do not disprove the metabolic effect. Reduction of antibody production and cytokine induction and renal, metabolic, cardiac, and prolonged psychiatric disorders after oseltamivir use may be related to inhibition of the host's endogenous neuraminidase. While the usual clinical dose of zanamivir may not have this effect, a higher dose or prolonged administration of zanamivir and other neuraminidase inhibitors may induce similar delayed reactions, including reduction of the antibody and/or cytokine production. 
+27251370	58	69	oseltamivir	Chemical	MESH:D053139
+27251370	71	82	Oseltamivir	Chemical	MESH:D053139
+27251370	135	144	influenza	Disease	MESH:D007251
+27251370	175	198	influenza complications	Disease	MESH:D007251
+27251370	224	232	diabetes	Disease	MESH:D003920
+27251370	234	260	neuropsychiatric illnesses	Disease	MESH:C000631768
+27251370	266	329	respiratory, cardiac, renal, hepatic or haematological diseases	Disease	MESH:D012140
+27251370	413	428	renal disorders	Disease	MESH:D007674
+27251370	430	444	hyperglycaemia	Disease	
+27251370	446	467	psychiatric disorders	Disease	MESH:D001523
+27251370	473	488	QT prolongation	Disease	MESH:D008133
+27251370	507	518	oseltamivir	Chemical	MESH:D053139
+27251370	646	657	oseltamivir	Chemical	MESH:D053139
+27251370	661	665	mice	Species	10090
+27251370	682	709	respiratory syncytial virus	Species	12814
+27251370	711	714	RSV	Species	12814
+27251370	729	742	neuraminidase	Gene	4758
+27251370	884	906	sialoglycosphingolipid	Chemical	MESH:D005732
+27251370	908	919	ganglioside	Chemical	MESH:D005732
+27251370	921	924	GM1	Gene	210582
+27251370	961	974	neuraminidase	Gene	4758
+27251370	1083	1094	oseltamivir	Chemical	MESH:D053139
+27251370	1110	1122	inflammatory	Disease	MESH:D007249
+27251370	1141	1157	interferon-gamma	Gene	15978
+27251370	1159	1172	interleukin-6	Gene	16193
+27251370	1271	1302	human influenza virus infection	Species	
+27251370	1322	1330	toxicity	Disease	MESH:D064420
+27251370	1382	1409	renal and cardiac disorders	Disease	MESH:D006331
+27251370	1411	1422	bradycardia	Disease	MESH:D001919
+27251370	1427	1442	QT prolongation	Disease	MESH:D008133
+27251370	1546	1608	renal, metabolic, cardiac, and prolonged psychiatric disorders	Disease	MESH:D001523
+27251370	1615	1626	oseltamivir	Chemical	MESH:D053139
+27251370	1685	1698	neuraminidase	Gene	4758
+27251370	1733	1742	zanamivir	Chemical	MESH:D053243
+27251370	1814	1823	zanamivir	Chemical	MESH:D053243
+27251370	1834	1847	neuraminidase	Gene	4758
+27251370	Negative_Correlation	MESH:D053139	MESH:C000631768
+27251370	Negative_Correlation	MESH:D053139	210582
+27251370	Positive_Correlation	MESH:D053139	MESH:D006331
+27251370	Association	MESH:D005732	4758
+27251370	Negative_Correlation	MESH:D053243	4758
+27251370	Association	MESH:D007249	15978
+27251370	Positive_Correlation	MESH:D053139	MESH:D001919
+27251370	Positive_Correlation	MESH:D053139	MESH:D007674
+27251370	Positive_Correlation	MESH:D053139	MESH:D008133
+27251370	Positive_Correlation	MESH:D053139	MESH:D001523
+27251370	Association	MESH:D007249	16193
+27251370	Negative_Correlation	MESH:D053139	MESH:D007251
+27251370	Association	210582	4758
+27251370	Negative_Correlation	MESH:D053139	4758
+27251370	Negative_Correlation	MESH:D053139	15978
+27251370	Negative_Correlation	MESH:D053139	MESH:D007249
+27251370	Negative_Correlation	MESH:D053139	MESH:D003920
+27251370	Association	MESH:D001523	4758
+27251370	Negative_Correlation	MESH:D005732	MESH:D053139
+27251370	Negative_Correlation	MESH:D053139	MESH:D012140
+27251370	Negative_Correlation	MESH:D053139	16193
+

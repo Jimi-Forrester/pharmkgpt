@@ -1,0 +1,28 @@
+33082318|t|CHIP phosphorylation by protein kinase G enhances protein quality control and attenuates cardiac ischemic injury.
+33082318|a|Proteotoxicity from insufficient clearance of misfolded/damaged proteins underlies many diseases. Carboxyl terminus of Hsc70-interacting protein (CHIP) is an important regulator of proteostasis in many cells, having E3-ligase and chaperone functions and often directing damaged proteins towards proteasome recycling. While enhancing CHIP functionality has broad therapeutic potential, prior efforts have all relied on genetic upregulation. Here we report that CHIP-mediated protein turnover is markedly post-translationally enhanced by direct protein kinase G (PKG) phosphorylation at S20 (mouse, S19 human). This increases CHIP binding affinity to Hsc70, CHIP protein half-life, and consequent clearance of stress-induced ubiquitinated-insoluble proteins. PKG-mediated CHIP-pS20 or expressing CHIP-S20E (phosphomimetic) reduces ischemic proteo- and cytotoxicity, whereas a phospho-silenced CHIP-S20A amplifies both. In vivo, depressing PKG activity lowers CHIP-S20 phosphorylation and protein, exacerbating proteotoxicity and heart dysfunction after ischemic injury. CHIP-S20E knock-in mice better clear ubiquitinated proteins and are cardio-protected. PKG activation provides post-translational enhancement of protein quality control via CHIP.
+33082318	89	112	cardiac ischemic injury	Disease	MESH:D006331
+33082318	114	128	Proteotoxicity	Disease	
+33082318	233	258	Hsc70-interacting protein	Gene	6767
+33082318	699	702	S20	ProteinMutation	tmVar:p|Allele|S|20;VariantGroup:0;OriginalGene:15481;CorrespondingGene:3312;CorrespondingSpecies:10090
+33082318	704	709	mouse	Species	10090
+33082318	715	720	human	Species	9606
+33082318	763	768	Hsc70	Gene	15481
+33082318	913	917	S20E	ProteinMutation	tmVar:p|SUB|S|20|E;HGVS:p.S20E;VariantGroup:0;OriginalGene:15481;CorrespondingGene:3312;CorrespondingSpecies:10090
+33082318	943	951	ischemic	Disease	MESH:D002545
+33082318	964	976	cytotoxicity	Disease	MESH:D064420
+33082318	1010	1014	S20A	ProteinMutation	tmVar:p|SUB|S|20|A;HGVS:p.S20A;VariantGroup:0;OriginalGene:15481;CorrespondingGene:3312;CorrespondingSpecies:10090
+33082318	1076	1079	S20	ProteinMutation	tmVar:p|Allele|S|20;VariantGroup:0;OriginalGene:15481;CorrespondingGene:3312;CorrespondingSpecies:10090
+33082318	1122	1136	proteotoxicity	Disease	
+33082318	1141	1158	heart dysfunction	Disease	MESH:D006331
+33082318	1165	1180	ischemic injury	Disease	MESH:D017202
+33082318	1187	1191	S20E	ProteinMutation	tmVar:p|SUB|S|20|E;HGVS:p.S20E;VariantGroup:0;OriginalGene:15481;CorrespondingGene:3312;CorrespondingSpecies:10090
+33082318	1201	1205	mice	Species	10090
+33082318	Negative_Correlation	MESH:D002545	HGVS:p.S20E;CorrespondingGene:3312
+33082318	Negative_Correlation	MESH:D064420	CorrespondingGene:3312;CorrespondingSpecies:10090;OriginalGene:15481;VariantGroup:0;tmVar:p
+33082318	Association	MESH:D006331	CorrespondingGene:3312;CorrespondingSpecies:10090;OriginalGene:15481;VariantGroup:0;tmVar:p
+33082318	Negative_Correlation	MESH:D002545	CorrespondingGene:3312;CorrespondingSpecies:10090;OriginalGene:15481;VariantGroup:0;tmVar:p
+33082318	Negative_Correlation	MESH:D064420	HGVS:p.S20E;CorrespondingGene:3312
+33082318	Association	MESH:D002545	3312
+33082318	Association	MESH:D064420	3312
+33082318	Association	MESH:D006331	3312
+

@@ -1,0 +1,11 @@
+20070949|t|Estimating the age of healthy subjects from T1-weighted MRI scans using kernel methods: exploring the influence of various parameters.
+20070949|a|The early identification of brain anatomy deviating from the normal pattern of growth and atrophy, such as in Alzheimer's disease (AD), has the potential to improve clinical outcomes through early intervention. Recently, Davatzikos et al. (2009) supported the hypothesis that pathologic atrophy in AD is an accelerated aging process, implying accelerated brain atrophy. In order to recognize faster brain atrophy, a model of healthy brain aging is needed first. Here, we introduce a framework for automatically and efficiently estimating the age of healthy subjects from their T(1)-weighted MRI scans using a kernel method for regression. This method was tested on over 650 healthy subjects, aged 19-86 years, and collected from four different scanners. Furthermore, the influence of various parameters on estimation accuracy was analyzed. Our age estimation framework included automatic preprocessing of the T(1)-weighted images, dimension reduction via principal component analysis, training of a relevance vector machine (RVM; Tipping, 2000) for regression, and finally estimating the age of the subjects from the test samples. The framework proved to be a reliable, scanner-independent, and efficient method for age estimation in healthy subjects, yielding a correlation of r=0.92 between the estimated and the real age in the test samples and a mean absolute error of 5 years. The results indicated favorable performance of the RVM and identified the number of training samples as the critical factor for prediction accuracy. Applying the framework to people with mild AD resulted in a mean brain age gap estimate (BrainAGE) score of +10 years.
+20070949	225	232	atrophy	Disease	MESH:D001284
+20070949	245	264	Alzheimer's disease	Disease	MESH:D000544
+20070949	266	268	AD	Disease	MESH:D000544
+20070949	411	429	pathologic atrophy	Disease	MESH:D001284
+20070949	433	435	AD	Disease	MESH:D000544
+20070949	490	503	brain atrophy	Disease	MESH:C566985
+20070949	534	547	brain atrophy	Disease	MESH:C566985
+20070949	1709	1711	AD	Disease	MESH:D000544
+

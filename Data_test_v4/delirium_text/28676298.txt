@@ -1,0 +1,7 @@
+28676298|t|Joint prediction of multiple scores captures better individual traits from brain images.
+28676298|a|To probe individual variations in brain organization, population imaging relates features of brain images to rich descriptions of the subjects such as genetic information or behavioral and clinical assessments. Capturing common trends across these measurements is important: they jointly characterize the disease status of patient groups. In particular, mapping imaging features to behavioral scores with predictive models opens the way toward more precise diagnosis. Here we propose to jointly predict all the dimensions (behavioral scores) that make up the individual profiles, using so-called multi-output models. This approach often boosts prediction accuracy by capturing latent shared information across scores. We demonstrate the efficiency of multi-output models on two independent resting-state fMRI datasets targeting different brain disorders (Alzheimer's Disease and schizophrenia). Furthermore, the model with joint prediction generalizes much better to a new cohort: a model learned on one study is more accurately transferred to an independent one. Finally, we show how multi-output models can easily be extended to multi-modal settings, combining heterogeneous data sources for a better overall accuracy.
+28676298	412	419	patient	Species	9606
+28676298	927	942	brain disorders	Disease	MESH:D001927
+28676298	944	963	Alzheimer's Disease	Disease	MESH:D000544
+28676298	968	981	schizophrenia	Disease	MESH:D012559
+

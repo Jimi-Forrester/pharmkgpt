@@ -1,0 +1,25 @@
+24427295|t|MR-less surface-based amyloid assessment based on 11C PiB PET.
+24427295|a|BACKGROUND: beta-amyloid (Abeta) plaques in brain's grey matter (GM) are one of the pathological hallmarks of Alzheimer's disease (AD), and can be imaged in vivo using Positron Emission Tomography (PET) with (11)C or (18)F radiotracers. Estimating Abeta burden in cortical GM has been shown to improve diagnosis and monitoring of AD. However, lacking structural information in PET images requires such assessments to be performed with anatomical MRI scans, which may not be available at different clinical settings or being contraindicated for particular reasons. This study aimed to develop an MR-less Abeta imaging quantification method that requires only PET images for reliable Abeta burden estimations. MATERIALS AND METHODS: The proposed method has been developed using a multi-atlas based approach on (11)C-PiB scans from 143 subjects (75 PiB+ and 68 PiB- subjects) in AIBL study. A subset of 20 subjects (PET and MRI) were used as atlases: 1) MRI images were co-registered with tissue segmentation; 2) 3D surface at the GM-WM interfacing was extracted and registered to a canonical space; 3) Mean PiB retention within GM was estimated and mapped to the surface. For other participants, each atlas PET image (and surface) was registered to the subject's PET image for PiB estimation within GM. The results are combined by subject-specific atlas selection and Bayesian fusion to generate estimated surface values. RESULTS: All PiB+ subjects (N = 75) were highly correlated between the MR-dependent and the PET-only methods with Intraclass Correlation (ICC) of 0.94, and an average relative difference error of 13% (or 0.23 SUVR) per surface vertex. All PiB- subjects (N = 68) revealed visually akin patterns with a relative difference error of 16% (or 0.19 SUVR) per surface vertex. CONCLUSION: The demonstrated accuracy suggests that the proposed method could be an effective clinical inspection tool for Abeta imaging scans when MRI images are unavailable.
+24427295	22	29	amyloid	Disease	MESH:C000718787
+24427295	50	57	11C PiB	Chemical	MESH:C475519
+24427295	89	94	Abeta	Gene	351
+24427295	173	192	Alzheimer's disease	Disease	MESH:D000544
+24427295	194	196	AD	Disease	MESH:D000544
+24427295	271	276	(11)C	Chemical	MESH:C000615233
+24427295	280	285	(18)F	Chemical	MESH:C000615276
+24427295	311	316	Abeta	Gene	351
+24427295	393	395	AD	Disease	MESH:D000544
+24427295	666	671	Abeta	Gene	351
+24427295	745	750	Abeta	Gene	351
+24427295	871	880	(11)C-PiB	Chemical	MESH:C475519
+24427295	909	912	PiB	Chemical	MESH:C069442
+24427295	921	924	PiB	Chemical	MESH:C069442
+24427295	939	943	AIBL	Disease	
+24427295	1168	1171	PiB	Chemical	MESH:C069442
+24427295	1338	1341	PiB	Chemical	MESH:C069442
+24427295	1496	1499	PiB	Chemical	MESH:C069442
+24427295	1722	1725	PiB	Chemical	MESH:C069442
+24427295	1975	1980	Abeta	Gene	351
+24427295	Association	MESH:D000544	351
+24427295	Association	MESH:C475519	MESH:C000718787
+

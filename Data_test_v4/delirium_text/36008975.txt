@@ -1,0 +1,49 @@
+36008975|t|Bioinformatics Analysis of LGR4 in Colon Adenocarcinoma as Potential Diagnostic Biomarker, Therapeutic Target and Promoting Immune Cell Infiltration.
+36008975|a|Colon adenocarcinoma is one of the tumors with the highest mortality rate, and tumorigenesis or development of colon adenocarcinoma is the major reason leading to patient death. However, the molecular mechanism and biomarker to predict tumor progression are currently unclear. With the goal of understanding the molecular mechanism and tumor progression, we utilized the TCGA database to identify differentially expressed genes. After identifying the differentially expressed genes among colon adenocarcinoma tissues with different expression levels of LGR4 and normal tissue, protein-protein interaction, gene ontology, pathway enrichment, gene set enrichment analysis, and immune cell infiltration analysis were conducted. Here, the top 10 hub genes, i.e., ALB, F2, APOA2, CYP1A1, SPRR2B, APOA1, APOB, CYP3A4, SST, and GCG, were identified, and relative correlation analysis was conducted. Kaplan-Meier analysis revealed that higher expression of LGR4 correlates with overall survival of colon adenocarcinoma patients, although expression levels of LGR4 in normal tissues are higher than in tumor tissues. Further functional analysis demonstrated that higher expression of LGR4 in colon adenocarcinoma may be linked to up-regulate metabolism-related pathways, for example, the cholesterol biosynthesis pathway. These results were confirmed by gene set enrichment analysis. Immune cell infiltration analysis clearly showed that the infiltration percentage of T cells was significantly higher than other immune cells, and TIMER analysis revealed a positive correlation between T-cell infiltration and LGR4 expression. Finally, COAD cancer cells, Caco-2, were employed to be incubated with squalene and 25-hydroxycholesterol-3-sulfate, and relative experimental results confirmed that the cholesterol biosynthesis pathway involved in modulating the proliferation of COAD tumorigenesis. Our investigation revealed that LGR4 can be an emerging diagnostic and prognostic biomarker for colon adenocarcinoma by affecting metabolism-related pathways.
+36008975	27	31	LGR4	Gene	55366
+36008975	35	55	Colon Adenocarcinoma	Disease	MESH:D003110
+36008975	150	170	Colon adenocarcinoma	Disease	MESH:D003110
+36008975	185	191	tumors	Disease	MESH:D009369
+36008975	261	281	colon adenocarcinoma	Disease	MESH:D003110
+36008975	313	320	patient	Species	9606
+36008975	386	391	tumor	Disease	MESH:D009369
+36008975	486	491	tumor	Disease	MESH:D009369
+36008975	638	658	colon adenocarcinoma	Disease	MESH:D003110
+36008975	703	707	LGR4	Gene	55366
+36008975	909	912	ALB	Gene	213
+36008975	918	923	APOA2	Gene	336
+36008975	925	931	CYP1A1	Gene	1543
+36008975	933	939	SPRR2B	Gene	6701
+36008975	941	946	APOA1	Gene	335
+36008975	948	952	APOB	Gene	338
+36008975	954	960	CYP3A4	Gene	1576
+36008975	962	965	SST	Gene	6750
+36008975	971	974	GCG	Gene	2641
+36008975	1099	1103	LGR4	Gene	55366
+36008975	1140	1160	colon adenocarcinoma	Disease	MESH:D003110
+36008975	1161	1169	patients	Species	9606
+36008975	1201	1205	LGR4	Gene	55366
+36008975	1243	1248	tumor	Disease	MESH:D009369
+36008975	1325	1329	LGR4	Gene	55366
+36008975	1333	1353	colon adenocarcinoma	Disease	MESH:D003110
+36008975	1429	1440	cholesterol	Chemical	MESH:D002784
+36008975	1751	1755	LGR4	Gene	55366
+36008975	1777	1788	COAD cancer	Disease	MESH:D009369
+36008975	1796	1802	Caco-2	CellLine	CVCL:0025
+36008975	1839	1847	squalene	Chemical	MESH:D013185
+36008975	1852	1883	25-hydroxycholesterol-3-sulfate	Chemical	MESH:C534977
+36008975	1938	1949	cholesterol	Chemical	MESH:D002784
+36008975	2015	2033	COAD tumorigenesis	Disease	MESH:D029424
+36008975	2067	2071	LGR4	Gene	55366
+36008975	2131	2151	colon adenocarcinoma	Disease	MESH:D003110
+36008975	Association	MESH:C534977	MESH:D009369
+36008975	Association	MESH:D003110	55366
+36008975	Association	MESH:C534977	MESH:D029424
+36008975	Association	MESH:D002784	MESH:D029424
+36008975	Association	MESH:D013185	MESH:D009369
+36008975	Association	MESH:D009369	55366
+36008975	Positive_Correlation	MESH:D002784	55366
+36008975	Association	MESH:D002784	MESH:D009369
+36008975	Association	MESH:D002784	MESH:D003110
+36008975	Association	MESH:D013185	MESH:D029424
+

@@ -1,0 +1,52 @@
+37682937|t|Repurposing of approved drugs for targeting CDK4/6 and aromatase protein using molecular docking and molecular dynamics studies.
+37682937|a|Breast cancer is a leading cause of cancer-related morbidity and mortality worldwide, with the highest incidence among women. Among the various subtypes of breast cancer, estrogen-receptor positive (ER+) is the most diagnosed. Estrogen upregulates cyclin D1, which in turn promotes the activity of CDK4/6 and facilitates cell cycle progression. To address this, the first-line treatment for ER+ breast cancer focuses on inhibiting estrogen production by targeting aromatase, the enzyme responsible for the rate-limiting step in estrogen synthesis. Thus, combining CDK4/6 inhibitors with aromatase inhibitors has emerged as a crucial treatment strategy for this type of breast cancer. This approach effectively suppresses estrogen biosynthesis and controls uncontrolled cell proliferation, significantly improving overall survival rates and delayed disease progression. This study aimed to identify compounds that are likely to inhibit CDK4/6 and aromatase simultaneously by using a structure-based drug design strategy. 12,432 approved and investigational drugs were prepared and docked into the active site of CDK6 using HTVS and XP docking modes of Glide resulting in 277 compounds with docking scores <= -7 kcal/mol. These compounds were docked into aromatase enzyme using XP mode to give seven drugs with docking scores<= -6.001 kcal/mol. Furthermore, the shortlisted drugs were docked against CDK4 showing docking scores ranging from -3.254 to -8.254 kcal/mol. Moreover, MM-GBSA for the top seven drugs was calculated. Four drugs, namely ellagic acid, carazolol, dantron, and apomorphine, demonstrated good binding affinity to all three protein targets CDK4/6 and aromatase. Specifically, they exhibited favourable binding free energy with CDK6, with values of -51.92, -53.90, -50.22, and -60.97 kcal/mol, respectively. Among these drugs, apomorphine displayed the most favourable binding free energy with all three protein targets. To further evaluate the stability of the interaction, apomorphine was subjected to a 100 ns molecular dynamics simulation with CDK6. The results indicated the formation of a stable ligand-protein complex. While the results obtained from the MM-GBSA calculation of the binding free energies of the MD conformations of apomorphine showed less favourable binding free energy compared to that obtained post-docking. All these computational findings will provide better structural insight for the development of CDK4/6 and aromatase multi-target inhibitors.
+37682937	44	50	CDK4/6	Gene	1019;1021
+37682937	55	64	aromatase	Gene	1588
+37682937	129	142	Breast cancer	Disease	MESH:D001943
+37682937	165	171	cancer	Disease	MESH:D009369
+37682937	285	298	breast cancer	Disease	MESH:D001943
+37682937	300	317	estrogen-receptor	Gene	2099
+37682937	328	330	ER	Gene	2069
+37682937	377	386	cyclin D1	Gene	595
+37682937	427	433	CDK4/6	Gene	1019;1021
+37682937	520	522	ER	Gene	2069
+37682937	524	537	breast cancer	Disease	MESH:D001943
+37682937	593	602	aromatase	Gene	1588
+37682937	693	699	CDK4/6	Gene	1019;1021
+37682937	716	725	aromatase	Gene	1588
+37682937	798	811	breast cancer	Disease	MESH:D001943
+37682937	1064	1070	CDK4/6	Gene	1019;1021
+37682937	1075	1084	aromatase	Gene	1588
+37682937	1240	1244	CDK6	Gene	1021
+37682937	1382	1391	aromatase	Gene	1588
+37682937	1527	1531	CDK4	Gene	1019
+37682937	1672	1684	ellagic acid	Chemical	MESH:D004610
+37682937	1686	1695	carazolol	Chemical	MESH:C014382
+37682937	1697	1704	dantron	Chemical	MESH:C004315
+37682937	1710	1721	apomorphine	Chemical	MESH:D001058
+37682937	1787	1793	CDK4/6	Gene	1019;1021
+37682937	1798	1807	aromatase	Gene	1588
+37682937	1874	1878	CDK6	Gene	1021
+37682937	1973	1984	apomorphine	Chemical	MESH:D001058
+37682937	2121	2132	apomorphine	Chemical	MESH:D001058
+37682937	2194	2198	CDK6	Gene	1021
+37682937	2384	2395	apomorphine	Chemical	MESH:D001058
+37682937	2574	2580	CDK4/6	Gene	1019;1021
+37682937	2585	2594	aromatase	Gene	1588
+37682937	Association	MESH:D001943	1019
+37682937	Association	MESH:C014382	1021
+37682937	Association	MESH:C004315	1019
+37682937	Association	MESH:D001943	1588
+37682937	Association	MESH:D004610	1588
+37682937	Association	MESH:D004610	1021
+37682937	Association	MESH:C004315	1588
+37682937	Association	MESH:D001943	1021
+37682937	Positive_Correlation	MESH:D001943	2069
+37682937	Association	MESH:D001058	1019
+37682937	Association	MESH:D001943	2099
+37682937	Association	MESH:D001058	1588
+37682937	Association	1588	2069
+37682937	Association	MESH:C004315	1021
+37682937	Association	MESH:D001058	1021
+37682937	Association	MESH:C014382	1588
+

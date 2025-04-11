@@ -1,0 +1,47 @@
+37446564|t|Evaluation of the Possible Pathways Involved in the Protective Effects of Quercetin, Naringenin, and Rutin at the Gene, Protein and miRNA Levels Using In-Silico Multidimensional Data Analysis.
+37446564|a|Flavonoids are secondary metabolites that are non-essential for plant growth or survival, and they also provide numerous health benefits to humans. They are antioxidants that shield plants from the ill effects of ultraviolet light, pests, and diseases. They are beneficial to health for several reasons, including lowering inflammation, boosting cardiovascular health, and lowering cancer risk. This study looked into the physicochemical features of these substances to determine the potential pharmacological pathways involved in their protective actions. Potential targets responsible for the protective effects of quercetin, naringenin, and rutin were identified with SwissADME. The associated biological processes and protein-protein networks were analyzed by using the GeneMANIA, Metascape, and STRING servers. All the flavonoids were predicted to be orally bioavailable, with more than 90% targets as enzymes, including kinases and lyases, and with common targets such as NOS2, CASP3, CASP9, CAT, BCL2, TNF, and HMOX1. TNF was shown to be a major target in over 250 interactions. To extract the "biological meanings" from the MCODE networks' constituent parts, a GO enrichment analysis was performed on each one. The most important transcription factors in gene regulation were RELA, NFKB1, PPARG, and SP1. Treatment with quercetin, naringenin, or rutin increased the expression and interaction of the microRNAs' hsa-miR-34a-5p, hsa-miR-30b-5p, hsa-let-7a-5p, and hsa-miR-26a-1-3p. The anticancer effects of hsa-miR-34a-5p have been experimentally confirmed. It also plays a critical role in controlling other cancer-related processes such as cell proliferation, apoptosis, EMT, and metastasis. This study's findings might lead to a deeper comprehension of the mechanisms responsible for flavonoids' protective effects and could present new avenues for exploration.
+37446564	74	83	Quercetin	Chemical	MESH:D011794
+37446564	85	95	Naringenin	Chemical	MESH:C005273
+37446564	101	106	Rutin	Chemical	MESH:D012431
+37446564	193	203	Flavonoids	Chemical	MESH:D005419
+37446564	516	528	inflammation	Disease	MESH:D007249
+37446564	575	581	cancer	Disease	MESH:D009369
+37446564	810	819	quercetin	Chemical	MESH:D011794
+37446564	821	831	naringenin	Chemical	MESH:C005273
+37446564	837	842	rutin	Chemical	MESH:D012431
+37446564	1017	1027	flavonoids	Chemical	MESH:D005419
+37446564	1171	1175	NOS2	Gene	4843
+37446564	1177	1182	CASP3	Gene	836
+37446564	1184	1189	CASP9	Gene	842
+37446564	1191	1194	CAT	Gene	847
+37446564	1196	1200	BCL2	Gene	596
+37446564	1202	1205	TNF	Gene	7124
+37446564	1211	1216	HMOX1	Gene	3162
+37446564	1218	1221	TNF	Gene	7124
+37446564	1477	1481	RELA	Gene	5970
+37446564	1483	1488	NFKB1	Gene	4790
+37446564	1490	1495	PPARG	Gene	5468
+37446564	1521	1530	quercetin	Chemical	MESH:D011794
+37446564	1532	1542	naringenin	Chemical	MESH:C005273
+37446564	1547	1552	rutin	Chemical	MESH:D012431
+37446564	1628	1639	hsa-miR-30b	Gene	407030
+37446564	1663	1676	hsa-miR-26a-1	Gene	407015
+37446564	1677	1679	3p	Chromosome	3
+37446564	1809	1815	cancer	Disease	MESH:D009369
+37446564	1882	1892	metastasis	Disease	MESH:D009362
+37446564	1987	1997	flavonoids	Chemical	MESH:D005419
+37446564	Association	MESH:D005419	4843
+37446564	Positive_Correlation	MESH:D011794	407030
+37446564	Positive_Correlation	MESH:C005273	407030
+37446564	Positive_Correlation	MESH:D012431	407030
+37446564	Association	MESH:D005419	596
+37446564	Association	MESH:D005419	3162
+37446564	Positive_Correlation	MESH:C005273	407015
+37446564	Negative_Correlation	MESH:D005419	MESH:D007249
+37446564	Association	MESH:D005419	836
+37446564	Positive_Correlation	MESH:D012431	407015
+37446564	Association	MESH:D011794	407015
+37446564	Association	MESH:D005419	7124
+37446564	Negative_Correlation	MESH:D005419	MESH:D009369
+37446564	Association	MESH:D005419	842
+

@@ -1,0 +1,53 @@
+38233749|t|Glutamine metabolism-related genes and immunotherapy in nonspecific orbital inflammation were validated using bioinformatics and machine learning.
+38233749|a|BACKGROUND: Nonspecific orbital inflammation (NSOI) is an idiopathic, persistent, and proliferative inflammatory condition affecting the orbit, characterized by polymorphous lymphoid infiltration. Its pathogenesis and progression have been linked to imbalances in tumor metabolic pathways, with glutamine (Gln) metabolism emerging as a critical aspect in cancer. Metabolic reprogramming is known to influence clinical outcomes in various malignancies. However, comprehensive research on glutamine metabolism's significance in NSOI is lacking. METHODS: This study conducted a bioinformatics analysis to identify and validate potential glutamine-related molecules (GlnMgs) associated with NSOI. The discovery of GlnMgs involved the intersection of differential expression analysis with a set of 42 candidate GlnMgs. The biological functions and pathways of the identified GlnMgs were analyzed using GSEA and GSVA. Lasso regression and SVM-RFE methods identified hub genes and assessed the diagnostic efficacy of fourteen GlnMgs in NSOI. The correlation between hub GlnMgs and clinical characteristics was also examined. The expression levels of the fourteen GlnMgs were validated using datasets GSE58331 and GSE105149. RESULTS: Fourteen GlnMgs related to NSOI were identified, including FTCD, CPS1, CTPS1, NAGS, DDAH2, PHGDH, GGT1, GCLM, GLUD1, ART4, AADAT, ASNSD1, SLC38A1, and GFPT2. Biological function analysis indicated their involvement in responses to extracellular stimulus, mitochondrial matrix, and lipid transport. The diagnostic performance of these GlnMgs in distinguishing NSOI showed promising results. CONCLUSIONS: This study successfully identified fourteen GlnMgs associated with NSOI, providing insights into potential novel biomarkers for NSOI and avenues for monitoring disease progression.
+38233749	0	9	Glutamine	Chemical	MESH:D005973
+38233749	56	88	nonspecific orbital inflammation	Disease	MESH:C531833
+38233749	159	191	Nonspecific orbital inflammation	Disease	MESH:C531833
+38233749	193	197	NSOI	Disease	MESH:C531833
+38233749	247	269	inflammatory condition	Disease	MESH:D007249
+38233749	411	416	tumor	Disease	MESH:D009369
+38233749	442	451	glutamine	Chemical	MESH:D005973
+38233749	453	456	Gln	Chemical	MESH:D005973
+38233749	502	508	cancer	Disease	MESH:D009369
+38233749	585	597	malignancies	Disease	MESH:D009369
+38233749	634	643	glutamine	Chemical	MESH:D005973
+38233749	673	677	NSOI	Disease	MESH:C531833
+38233749	781	790	glutamine	Chemical	MESH:D005973
+38233749	834	838	NSOI	Disease	MESH:C531833
+38233749	1176	1180	NSOI	Disease	MESH:C531833
+38233749	1400	1404	NSOI	Disease	MESH:C531833
+38233749	1432	1436	FTCD	Gene	10841
+38233749	1438	1442	CPS1	Gene	1373
+38233749	1444	1449	CTPS1	Gene	1503
+38233749	1451	1455	NAGS	Gene	162417
+38233749	1457	1462	DDAH2	Gene	23564
+38233749	1464	1469	PHGDH	Gene	26227
+38233749	1471	1475	GGT1	Gene	2678
+38233749	1477	1481	GCLM	Gene	2730
+38233749	1483	1488	GLUD1	Gene	2746
+38233749	1490	1494	ART4	Gene	420
+38233749	1496	1501	AADAT	Gene	51166
+38233749	1503	1509	ASNSD1	Gene	54529
+38233749	1511	1518	SLC38A1	Gene	81539
+38233749	1524	1529	GFPT2	Gene	9945
+38233749	1654	1659	lipid	Chemical	MESH:D008055
+38233749	1732	1736	NSOI	Disease	MESH:C531833
+38233749	1843	1847	NSOI	Disease	MESH:C531833
+38233749	1904	1908	NSOI	Disease	MESH:C531833
+38233749	Association	MESH:C531833	81539
+38233749	Association	MESH:C531833	2678
+38233749	Association	MESH:C531833	162417
+38233749	Association	MESH:C531833	51166
+38233749	Association	MESH:C531833	2746
+38233749	Association	MESH:C531833	1503
+38233749	Association	MESH:D005973	MESH:D009369
+38233749	Association	MESH:C531833	2730
+38233749	Association	MESH:C531833	54529
+38233749	Association	MESH:D005973	MESH:C531833
+38233749	Association	MESH:C531833	26227
+38233749	Association	MESH:C531833	10841
+38233749	Association	MESH:C531833	420
+38233749	Association	MESH:C531833	1373
+38233749	Association	MESH:C531833	9945
+38233749	Association	MESH:C531833	23564
+

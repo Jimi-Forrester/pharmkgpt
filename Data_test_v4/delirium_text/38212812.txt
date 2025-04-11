@@ -1,0 +1,51 @@
+38212812|t|Identifying hub genes of sepsis-associated and hepatic encephalopathies based on bioinformatic analysis-focus on the two common encephalopathies of septic cirrhotic patients in ICU.
+38212812|a|BACKGROUND: In the ICU ward, septic cirrhotic patients are susceptible to suffering from sepsis-associated encephalopathy and/or hepatic encephalopathy, which are two common neurological complications in such patients. However, the mutual pathogenesis between sepsis-associated and hepatic encephalopathies remains unclear. We aimed to identify the mutual hub genes, explore effective diagnostic biomarkers and therapeutic targets for the two common encephalopathies and provide novel, promising insights into the clinical management of such septic cirrhotic patients. METHODS: The precious human post-mortem cerebral tissues were deprived of the GSE135838, GSE57193, and GSE41919 datasets, downloaded from the Gene Expression Omnibus database. Furthermore, we identified differentially expressed genes and screened hub genes with weighted gene co-expression network analysis. The hub genes were then subjected to Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway functional enrichment analyses, and protein-protein interaction networks were constructed. Receiver operating characteristic curves and correlation analyses were set up for the hub genes. Finally, we explored principal and common signaling pathways by using Gene Set Enrichment Analysis and the association between the hub genes and immune cell subtype distribution by using CIBERSORT algorithm. RESULTS: We identified seven hub genes-GPR4, SOCS3, BAG3, ZFP36, CDKN1A, ADAMTS9, and GADD45B-by using differentially expressed gene analysis and weighted gene co-expression network analysis method. The AUCs of these genes were all greater than 0.7 in the receiver operating characteristic curves analysis. The Gene Set Enrichment Analysis results demonstrated that mutual signaling pathways were mainly enriched in hypoxia and inflammatory response. CIBERSORT indicated that these seven hub genes were closely related to innate and adaptive immune cells. CONCLUSIONS: We identified seven hub genes with promising diagnostic value and therapeutic targets in septic cirrhotic patients with sepsis-associated encephalopathy and/or hepatic encephalopathy. Hypoxia, inflammatory, and immunoreaction responses may share the common downstream pathways of the two common encephalopathies, for which earlier recognition and timely intervention are crucial for management of such septic cirrhotic patients in ICU.
+38212812	25	31	sepsis	Disease	MESH:D018805
+38212812	47	71	hepatic encephalopathies	Disease	MESH:D006501
+38212812	128	144	encephalopathies	Disease	MESH:D001927
+38212812	155	164	cirrhotic	Disease	MESH:D000094724
+38212812	165	173	patients	Species	9606
+38212812	218	227	cirrhotic	Disease	MESH:D000094724
+38212812	228	236	patients	Species	9606
+38212812	271	277	sepsis	Disease	MESH:D018805
+38212812	289	303	encephalopathy	Disease	MESH:D001927
+38212812	311	333	hepatic encephalopathy	Disease	MESH:D006501
+38212812	356	382	neurological complications	Disease	MESH:D002493
+38212812	391	399	patients	Species	9606
+38212812	442	448	sepsis	Disease	MESH:D018805
+38212812	464	488	hepatic encephalopathies	Disease	MESH:D006501
+38212812	632	648	encephalopathies	Disease	MESH:D001927
+38212812	731	740	cirrhotic	Disease	MESH:D000094724
+38212812	741	749	patients	Species	9606
+38212812	773	778	human	Species	9606
+38212812	1597	1601	GPR4	Gene	2828
+38212812	1603	1608	SOCS3	Gene	9021
+38212812	1610	1614	BAG3	Gene	9531
+38212812	1616	1621	ZFP36	Gene	7538
+38212812	1623	1629	CDKN1A	Gene	1026
+38212812	1631	1638	ADAMTS9	Gene	56999
+38212812	1644	1651	GADD45B	Gene	4616
+38212812	1974	1981	hypoxia	Disease	MESH:D000860
+38212812	1986	2007	inflammatory response	Disease	MESH:D018746
+38212812	2223	2232	cirrhotic	Disease	MESH:D000094724
+38212812	2233	2241	patients	Species	9606
+38212812	2247	2253	sepsis	Disease	MESH:D018805
+38212812	2265	2279	encephalopathy	Disease	MESH:D001927
+38212812	2287	2309	hepatic encephalopathy	Disease	MESH:D006501
+38212812	2311	2318	Hypoxia	Disease	MESH:D000860
+38212812	2320	2332	inflammatory	Disease	MESH:D007249
+38212812	2422	2438	encephalopathies	Disease	MESH:D001927
+38212812	2536	2545	cirrhotic	Disease	MESH:D000094724
+38212812	2546	2554	patients	Species	9606
+38212812	Association	MESH:D006501	9531
+38212812	Association	MESH:D000094724	9531
+38212812	Association	MESH:D006501	7538
+38212812	Association	MESH:D001927	9531
+38212812	Association	MESH:D001927	7538
+38212812	Association	MESH:D006501	4616
+38212812	Association	MESH:D006501	56999
+38212812	Association	MESH:D006501	9021
+38212812	Association	MESH:D006501	2828
+38212812	Association	MESH:D000094724	4616
+38212812	Association	MESH:D006501	1026
+

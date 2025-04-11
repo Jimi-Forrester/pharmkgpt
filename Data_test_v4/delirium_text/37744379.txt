@@ -1,0 +1,35 @@
+37744379|t|A role of inflammaging in aortic aneurysm: new insights from bioinformatics analysis.
+37744379|a|Introduction: Aortic aneurysms (AA) are prevalent worldwide with a notable absence of drug therapies. Thus, identifying potential drug targets is of utmost importance. AA often presents in the elderly, coupled with consistently raised serum inflammatory markers. Given that ageing and inflammation are pivotal processes linked to the evolution of AA, we have identified key genes involved in the inflammaging process of AA development through various bioinformatics methods, thereby providing potential molecular targets for further investigation. Methods: The transcriptome data of AA was procured from the datasets GSE140947, GSE7084, and GSE47472, sourced from the NCBI GEO database, whilst gene data of ageing and inflammation were obtained from the GeneCards Database. To identify key genes, differentially expressed analysis using the "Limma" package and WGCNA were implemented. Protein-protein intersection (PPI) analysis and machine learning (ML) algorithms were employed for the screening of potential biomarkers, followed by an assessment of the diagnostic value. Following the acquisition of the hub inflammaging and AA-related differentially expressed genes (IADEGs), the TFs-mRNAs-miRNAs regulatory network was established. The CIBERSORT algorithm was utilized to investigate immune cell infiltration in AA. The correlation of hub IADEGs with infiltrating immunocytes was also evaluated. Lastly, wet laboratory experiments were carried out to confirm the expression of hub IADEGs. Results: 342 and 715 AA-related DEGs (ADEGs) recognized from GSE140947 and GSE7084 datasets were procured by intersecting the results of "Limma" and WGCNA analyses. After 83 IADEGs were obtained, PPI analysis and ML algorithms pinpointed 7 and 5 hub IADEGs candidates respectively, and 6 of them demonstrated a high diagnostic value. Immune cell infiltration outcomes unveiled immune dysregulation in AA. In the wet laboratory experiments, 3 hub IADEGs, including BLNK, HLA-DRA, and HLA-DQB1, finally exhibited an expression trend in line with the bioinformatics analysis result. Discussion: Our research identified three genes - BLNK, HLA-DRA, and HLA-DQB1- that play a significant role in promoting the development of AA through inflammaging, providing novel insights into the future understanding and therapeutic intervention of AA.
+37744379	10	22	inflammaging	Disease	
+37744379	26	41	aortic aneurysm	Disease	MESH:D001014
+37744379	100	116	Aortic aneurysms	Disease	MESH:D001014
+37744379	118	120	AA	Disease	MESH:D001014
+37744379	254	256	AA	Disease	MESH:D001014
+37744379	327	339	inflammatory	Disease	MESH:D007249
+37744379	371	383	inflammation	Disease	MESH:D007249
+37744379	433	435	AA	Disease	MESH:D001014
+37744379	482	494	inflammaging	Disease	
+37744379	506	508	AA	Disease	MESH:D001014
+37744379	669	671	AA	Disease	MESH:D001014
+37744379	804	816	inflammation	Disease	MESH:D007249
+37744379	1197	1209	inflammaging	Disease	
+37744379	1214	1216	AA	Disease	MESH:D001014
+37744379	1403	1405	AA	Disease	MESH:D001014
+37744379	1601	1603	AA	Disease	MESH:D001014
+37744379	1957	1977	immune dysregulation	Disease	OMIM:614878
+37744379	1981	1983	AA	Disease	MESH:D001014
+37744379	2044	2048	BLNK	Gene	29760
+37744379	2050	2057	HLA-DRA	Gene	3122
+37744379	2063	2071	HLA-DQB1	Gene	3119;3105
+37744379	2210	2214	BLNK	Gene	29760
+37744379	2216	2223	HLA-DRA	Gene	3122
+37744379	2229	2237	HLA-DQB1	Gene	3119;3105
+37744379	2300	2302	AA	Disease	MESH:D001014
+37744379	2311	2323	inflammaging	Disease	
+37744379	2412	2414	AA	Disease	MESH:D001014
+37744379	Association	OMIM:614878	3105
+37744379	Association	MESH:D001014	3105
+37744379	Association	MESH:D001014	3119
+37744379	Association	MESH:D001014	3122
+37744379	Association	OMIM:614878	3119
+

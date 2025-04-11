@@ -1,0 +1,67 @@
+39392030|t|Exploring the protective effect and molecular mechanism of betulin in Alzheimer's disease based on network pharmacology, molecular docking and experimental validation.
+39392030|a|Alzheimer's disease (AD) is a neurodegenerative disorder that impairs learning and memory, with high rates of mortality. Birch bark has been traditionally used in the treatment of various skin ailments. Betulin (BT) is a key compound of birch bark that exhibits diverse pharmacological benefits and therapeutic potential in AD. However, the therapeutic effects and molecular mechanisms of BT in AD remain unclear. The present study aimed to predict the potential therapeutic targets of BT in the treatment of AD, and to determine the specific underlying molecular mechanisms through network pharmacology analysis and experimental validation. PharmMapper was used to predict the target genes of BT, and four disease databases were searched to screen for AD targets. The intersection targets were identified using the jveen website. Drug-disease target protein-protein interaction networks and hub genes were obtained and visualized using the Search Tool for the Retrieval of Interacting Genes/Proteins database and Cytoscape. The Database for Annotation, Visualization and Integrated Discovery was used for Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) enrichment analyses, and AutoDock was used for molecular docking analysis of BT and hub genes. Subsequently, the network-predicted mechanisms of BT in AD were verified in vitro. A total of 495 BT and 1,386 AD targets were identified, and 120 were identified as potential targets of BT in the treatment of AD. The results of the molecular docking analysis revealed a strong binding affinity between BT and the hub genes. In addition, enrichment analyses of GO and KEGG pathways indicated that the neuroprotective effects of BT mainly involved the 'PI3K-Akt signaling pathway'. The results of in vitro experiments demonstrated that pretreatment with BT for 2 h may ameliorate formaldehyde (FA)-induced cytotoxicity and morphological changes in HT22 cells, and decrease FA-induced Tau hyperphosphorylation and reactive oxygen species levels. Furthermore, the PI3K/AKT signaling pathway was activated and the expression levels of downstream proteins, namely GSK3beta, Bcl-2 and Bax, were modified following pre-treatment with BT. Overall, the results of network pharmacology and in vitro analyses revealed that BT may reduce FA-induced AD-like pathology by modulating the PI3K/AKT signaling pathway, highlighting it as a potential multi-target drug for the treatment of AD.
+39392030	59	66	betulin	Chemical	MESH:C002503
+39392030	70	89	Alzheimer's disease	Disease	MESH:D000544
+39392030	168	187	Alzheimer's disease	Disease	MESH:D000544
+39392030	189	191	AD	Disease	MESH:D000544
+39392030	198	224	neurodegenerative disorder	Disease	MESH:D019636
+39392030	230	257	impairs learning and memory	Disease	MESH:D007859
+39392030	289	299	Birch bark	Chemical	-
+39392030	356	369	skin ailments	Disease	MESH:D012871
+39392030	371	378	Betulin	Chemical	MESH:C002503
+39392030	380	382	BT	Chemical	MESH:C002503
+39392030	405	415	birch bark	Chemical	-
+39392030	492	494	AD	Disease	MESH:D000544
+39392030	557	559	BT	Chemical	MESH:C002503
+39392030	563	565	AD	Disease	MESH:D000544
+39392030	654	656	BT	Chemical	MESH:C002503
+39392030	677	679	AD	Disease	MESH:D000544
+39392030	862	864	BT	Chemical	MESH:C002503
+39392030	921	923	AD	Disease	MESH:D000544
+39392030	1421	1423	BT	Chemical	MESH:C002503
+39392030	1489	1491	BT	Chemical	MESH:C002503
+39392030	1495	1497	AD	Disease	MESH:D000544
+39392030	1537	1539	BT	Chemical	MESH:C002503
+39392030	1550	1552	AD	Disease	MESH:D000544
+39392030	1626	1628	BT	Chemical	MESH:C002503
+39392030	1649	1651	AD	Disease	MESH:D000544
+39392030	1742	1744	BT	Chemical	MESH:C002503
+39392030	1867	1869	BT	Chemical	MESH:C002503
+39392030	1891	1895	PI3K	Gene	18708
+39392030	1896	1899	Akt	Gene	11651
+39392030	1992	1994	BT	Chemical	MESH:C002503
+39392030	2018	2030	formaldehyde	Chemical	MESH:D005557
+39392030	2032	2034	FA	Chemical	MESH:D005557
+39392030	2044	2056	cytotoxicity	Disease	MESH:D064420
+39392030	2086	2090	HT22	CellLine	CVCL:0321
+39392030	2111	2113	FA	Chemical	MESH:D005557
+39392030	2151	2174	reactive oxygen species	Chemical	MESH:D017382
+39392030	2200	2204	PI3K	Gene	18708
+39392030	2205	2208	AKT	Gene	11651
+39392030	2298	2306	GSK3beta	Gene	56637
+39392030	2308	2313	Bcl-2	Gene	12043
+39392030	2318	2321	Bax	Gene	12028
+39392030	2366	2368	BT	Chemical	MESH:C002503
+39392030	2451	2453	BT	Chemical	MESH:C002503
+39392030	2465	2467	FA	Chemical	MESH:D005557
+39392030	2476	2478	AD	Disease	MESH:D000544
+39392030	2512	2516	PI3K	Gene	18708
+39392030	2517	2520	AKT	Gene	11651
+39392030	2610	2612	AD	Disease	MESH:D000544
+39392030	Association	MESH:D000544	56637
+39392030	Negative_Correlation	MESH:C002503	MESH:D000544
+39392030	Association	MESH:C002503	12043
+39392030	Association	11651	12043
+39392030	Association	MESH:D000544	12043
+39392030	Association	11651	18708
+39392030	Association	MESH:C002503	12028
+39392030	Association	MESH:C002503	56637
+39392030	Association	MESH:C002503	18708
+39392030	Positive_Correlation	MESH:D005557	MESH:D064420
+39392030	Positive_Correlation	MESH:D005557	MESH:D017382
+39392030	Association	MESH:C002503	11651
+39392030	Association	MESH:C002503	MESH:D017382
+39392030	Negative_Correlation	MESH:C002503	MESH:D064420
+39392030	Association	MESH:D000544	12028
+39392030	Negative_Correlation	MESH:C002503	MESH:D005557
+

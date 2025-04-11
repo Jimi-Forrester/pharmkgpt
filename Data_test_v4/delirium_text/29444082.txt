@@ -1,0 +1,38 @@
+29444082|t|S100B as an antagonist to block the interaction between S100A1 and the RAGE V domain.
+29444082|a|Ca2+-binding human S100A1 protein is a type of S100 protein. S100A1 is a significant mediator during inflammation when Ca2+ binds to its EF-hand motifs. Receptors for advanced glycation end products (RAGE) correspond to 5 domains: the cytoplasmic, transmembrane, C2, C1, and V domains. The V domain of RAGE is one of the most important target proteins for S100A1. It binds to the hydrophobic surface and triggers signaling transduction cascades that induce cell growth, cell proliferation, and tumorigenesis. We used nuclear magnetic resonance (NMR) spectroscopy to characterize the interaction between S100A1 and the RAGE V domain. We found that S100B could interact with S100A1 via NMR 1H-15N HSQC titrations. We used the HADDOCK program to generate the following two binary complexes based on the NMR titration results: S100A1-RAGE V domain and S100A1-S100B. After overlapping these two complex structures, we found that S100B plays a crucial role in blocking the interaction site between RAGE V domain and S100A1. A cell proliferation assay WST-1 also supported our results. This report could potentially be useful for new protein development for cancer treatment.
+29444082	0	5	S100B	Gene	6285
+29444082	56	62	S100A1	Gene	6271
+29444082	71	75	RAGE	Gene	177
+29444082	86	90	Ca2+	Chemical	-
+29444082	99	104	human	Species	9606
+29444082	105	111	S100A1	Gene	6271
+29444082	147	153	S100A1	Gene	6271
+29444082	187	199	inflammation	Disease	MESH:D007249
+29444082	205	209	Ca2+	Chemical	-
+29444082	239	284	Receptors for advanced glycation end products	Gene	177
+29444082	286	290	RAGE	Gene	177
+29444082	388	392	RAGE	Gene	177
+29444082	442	448	S100A1	Gene	6271
+29444082	580	593	tumorigenesis	Disease	MESH:D063646
+29444082	689	695	S100A1	Gene	6271
+29444082	704	708	RAGE	Gene	177
+29444082	733	738	S100B	Gene	6285
+29444082	759	765	S100A1	Gene	6271
+29444082	774	776	1H	Chemical	-
+29444082	909	915	S100A1	Gene	6271
+29444082	916	920	RAGE	Gene	177
+29444082	934	940	S100A1	Gene	6271
+29444082	941	947	S100B.	Gene	6285
+29444082	1010	1015	S100B	Gene	6285
+29444082	1078	1082	RAGE	Gene	177
+29444082	1096	1102	S100A1	Gene	6271
+29444082	1131	1136	WST-1	Chemical	-
+29444082	1237	1243	cancer	Disease	MESH:D009369
+29444082	Association	177	6271
+29444082	Negative_Correlation	6271	6285
+29444082	Association	MESH:D063646	6271
+29444082	Association	MESH:D063646	177
+29444082	Association	MESH:D009369	6285
+29444082	Association	MESH:D007249	6271
+29444082	Negative_Correlation	177	6285
+

@@ -1,0 +1,44 @@
+38454090|t|Neuropathological stage-dependent proteome mapping of the olfactory tract in Alzheimer's disease: From early olfactory-related omics signatures to computational repurposing of drug candidates.
+38454090|a|Alzheimer's disease (AD) is the most common form of dementia, characterized by an early olfactory dysfunction, progressive memory loss, and behavioral deterioration. Albeit substantial progress has been made in characterizing AD-associated molecular and cellular events, there is an unmet clinical need for new therapies. In this study, olfactory tract proteotyping performed in controls and AD subjects (n = 17/group) showed a Braak stage-dependent proteostatic impairment accompanied by the progressive modulation of amyloid precursor protein and tau functional interactomes. To implement a computational repurposing of drug candidates with the capacity to reverse early AD-related olfactory omics signatures (OMSs), we generated a consensual OMSs database compiling differential omics datasets obtained by mass-spectrometry or RNA-sequencing derived from initial AD across the olfactory axis. Using the Connectivity Map-based drug repurposing approach, PKC, EGFR, Aurora kinase, Glycogen synthase kinase, and CDK inhibitors were the top pharmacologic classes capable to restore multiple OMSs, whereas compounds with targeted activity to inhibit PI3K, Insulin-like growth factor 1 (IGF-1), microtubules, and Polo-like kinase (PLK) represented a family of drugs with detrimental potential to induce olfactory AD-associated gene expression changes. To validate the potential therapeutic effects of the proposed drugs, in vitro assays were performed. These validation experiments revealed that pretreatment of human neuron-like SH-SY5Y cells with the EGFR inhibitor AG-1478 showed a neuroprotective effect against hydrogen peroxide-induced damage while the pretreatment with the Aurora kinase inhibitor Reversine reduced amyloid-beta (Abeta)-induced neurotoxicity. Taken together, our data pointed out that OMSs may be useful as substrates for drug repurposing to propose novel neuroprotective treatments against AD.
+38454090	77	96	Alzheimer's disease	Disease	MESH:D000544
+38454090	193	212	Alzheimer's disease	Disease	MESH:D000544
+38454090	214	216	AD	Disease	MESH:D000544
+38454090	245	253	dementia	Disease	MESH:D003704
+38454090	281	302	olfactory dysfunction	Disease	MESH:D000857
+38454090	316	327	memory loss	Disease	MESH:D008569
+38454090	333	357	behavioral deterioration	Disease	MESH:D002653
+38454090	419	421	AD	Disease	MESH:D000544
+38454090	585	587	AD	Disease	MESH:D000544
+38454090	712	737	amyloid precursor protein	Gene	351
+38454090	742	745	tau	Gene	4137
+38454090	866	868	AD	Disease	MESH:D000544
+38454090	1059	1061	AD	Disease	MESH:D000544
+38454090	1149	1152	PKC	Gene	112476
+38454090	1154	1158	EGFR	Gene	1956
+38454090	1347	1375	Insulin-like growth factor 1	Gene	3479
+38454090	1377	1382	IGF-1	Gene	3479
+38454090	1403	1419	Polo-like kinase	Gene	5347
+38454090	1421	1424	PLK	Gene	5347
+38454090	1503	1505	AD	Disease	MESH:D000544
+38454090	1702	1707	human	Species	9606
+38454090	1720	1727	SH-SY5Y	CellLine	CVCL:0019
+38454090	1743	1747	EGFR	Gene	1956
+38454090	1758	1765	AG-1478	Chemical	MESH:C101044
+38454090	1806	1823	hydrogen peroxide	Chemical	MESH:D006861
+38454090	1895	1904	Reversine	Chemical	MESH:C484369
+38454090	1913	1925	amyloid-beta	Gene	351
+38454090	1927	1932	Abeta	Gene	351
+38454090	1942	1955	neurotoxicity	Disease	MESH:D020258
+38454090	2105	2107	AD	Disease	MESH:D000544
+38454090	Association	MESH:D000544	4137
+38454090	Negative_Correlation	MESH:C484369	MESH:D020258
+38454090	Positive_Correlation	MESH:D020258	351
+38454090	Association	MESH:D000544	351
+38454090	Negative_Correlation	MESH:C101044	MESH:D006861
+38454090	Association	MESH:D006861	1956
+38454090	Negative_Correlation	MESH:C484369	351
+38454090	Association	MESH:D000544	5347
+38454090	Association	MESH:D000544	3479
+38454090	Negative_Correlation	MESH:C101044	1956
+38454090	Association	MESH:D000544	112476
+

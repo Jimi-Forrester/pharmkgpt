@@ -1,0 +1,21 @@
+36999191|t|Evaluating the performance of machine learning methods for risk estimation of delirium in patients hospitalized from the emergency department.
+36999191|a|INTRODUCTION: Delirium is a cerebral dysfunction seen commonly in the acute care setting. It is associated with increased mortality and morbidity and is frequently missed in the emergency department (ED) and inpatient care by clinical gestalt alone. Identifying those at risk of delirium may help prioritize screening and interventions in the hospital setting. OBJECTIVE: Our objective was to leverage electronic health records to identify a clinically valuable risk estimation model for prevalent delirium in patients being transferred from the ED to inpatient units. METHODS: This was a retrospective cohort study to develop and validate a risk model to detect delirium using patient data available from prior visits and ED encounter. Electronic health records were extracted for patients hospitalized from the ED between January 1, 2014, and December 31, 2020. Eligible patients were aged 65 or older, admitted to an inpatient unit from the emergency department, and had at least one DOSS assessment or CAM-ICU recorded within 72 h of hospitalization. Six machine learning models were developed to estimate the risk of delirium using clinical variables including demographic features, physiological measurements, medications administered, lab results, and diagnoses. RESULTS: A total of 28,531 patients met the inclusion criteria with 8057 (28.4%) having a positive delirium screening within the outcome observation period. Machine learning models were compared using the area under the receiver operating curve (AUC). The gradient boosted machine achieved the best performance with an AUC of 0.839 (95% CI, 0.837-0.841). At a 90% sensitivity threshold, this model achieved a specificity of 53.5% (95% CI 53.0%-54.0%) a positive predictive value of 43.5% (95% CI 43.2%-43.9%), and a negative predictive value of 93.1% (95% CI 93.1%-93.2%). A random forest model and L1-penalized logistic regression also demonstrated notable performance with AUCs of 0.837 (95% CI, 0.835-0.838) and 0.831 (95% CI, 0.830-0.833) respectively. CONCLUSION: This study demonstrated the use of machine learning algorithms to identify a combination of variables that enables an estimation of risk of positive delirium screens early in hospitalization to develop prevention or management protocols.
+36999191	78	86	delirium	Disease	MESH:D003693
+36999191	90	98	patients	Species	9606
+36999191	157	165	Delirium	Disease	MESH:D003693
+36999191	171	191	cerebral dysfunction	Disease	MESH:D002547
+36999191	351	360	inpatient	Species	
+36999191	422	430	delirium	Disease	MESH:D003693
+36999191	641	649	delirium	Disease	MESH:D003693
+36999191	653	661	patients	Species	9606
+36999191	695	704	inpatient	Species	
+36999191	806	814	delirium	Disease	MESH:D003693
+36999191	821	828	patient	Species	9606
+36999191	925	933	patients	Species	9606
+36999191	1016	1024	patients	Species	9606
+36999191	1063	1072	inpatient	Species	
+36999191	1265	1273	delirium	Disease	MESH:D003693
+36999191	1440	1448	patients	Species	9606
+36999191	1512	1520	delirium	Disease	MESH:D003693
+36999191	2331	2339	delirium	Disease	MESH:D003693
+

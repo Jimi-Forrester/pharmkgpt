@@ -1,0 +1,32 @@
+29675426|t|A Novel Method for Drug Screen to Regulate G Protein-Coupled Receptors in the Metabolic Network of Alzheimer's Disease.
+29675426|a|Alzheimer's disease (AD) is a chronic and progressive neurodegenerative disorder and the pathogenesis of AD is poorly understood. G protein-coupled receptors (GPCRs) are involved in numerous key AD pathways and play a key role in the pathology of AD. To fully understand the pathogenesis of AD and design novel drug therapeutics, analyzing the connection between AD and GPCRs is of great importance. In this paper, we firstly build and analyze the AD-related pathway by consulting the KEGG pathway of AD and a mass of literature and collect 25 AD-related GPCRs for drug discovery. Then the ILbind and AutoDock Vina tools are integrated to find out potential drugs related to AD. According to the analysis of DUD-E dataset, we select five drugs, that is, Acarbose (ACR), Carvedilol (CVD), Digoxin (DGX), NADH (NAI), and Telmisartan (TLS), by sorting the ILbind scores (>=0.73). Then depending on their AutoDock Vina scores and pocket position information, the binding patterns of these five drugs are obtained. We analyze the regulation function of GPCRs in the metabolic network of AD based on the drug screen results, which may be helpful for the study of the off-target effect and the side effect of drugs.
+29675426	99	118	Alzheimer's Disease	Disease	MESH:D000544
+29675426	120	139	Alzheimer's disease	Disease	MESH:D000544
+29675426	141	143	AD	Disease	MESH:D000544
+29675426	174	200	neurodegenerative disorder	Disease	MESH:D019636
+29675426	225	227	AD	Disease	MESH:D000544
+29675426	315	317	AD	Disease	MESH:D000544
+29675426	367	369	AD	Disease	MESH:D000544
+29675426	411	413	AD	Disease	MESH:D000544
+29675426	483	485	AD	Disease	MESH:D000544
+29675426	568	570	AD	Disease	MESH:D000544
+29675426	621	623	AD	Disease	MESH:D000544
+29675426	664	666	AD	Disease	MESH:D000544
+29675426	795	797	AD	Disease	MESH:D000544
+29675426	874	882	Acarbose	Chemical	MESH:D020909
+29675426	884	887	ACR	Chemical	MESH:D020909
+29675426	890	900	Carvedilol	Chemical	MESH:D000077261
+29675426	902	905	CVD	Chemical	MESH:D000077261
+29675426	908	915	Digoxin	Chemical	MESH:D004077
+29675426	917	920	DGX	Chemical	MESH:D004077
+29675426	923	927	NADH	Chemical	MESH:D009243
+29675426	929	932	NAI	Chemical	MESH:D012974
+29675426	939	950	Telmisartan	Chemical	MESH:D000077333
+29675426	952	955	TLS	Chemical	MESH:D000077333
+29675426	1202	1204	AD	Disease	MESH:D000544
+29675426	Association	MESH:D000077261	MESH:D000544
+29675426	Negative_Correlation	MESH:D009243	MESH:D000544
+29675426	Association	MESH:D004077	MESH:D000544
+29675426	Association	MESH:D000077333	MESH:D000544
+29675426	Association	MESH:D020909	MESH:D000544
+

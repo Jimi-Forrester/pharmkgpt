@@ -1,0 +1,69 @@
+36853429|t|Extracellular CIRP Induces Calpain Activation in Neurons via PLC-IP3-Dependent Calcium Pathway.
+36853429|a|Abnormal calcium homeostasis, activation of protease calpain, generation of p25 and hyperactivation of cyclin-dependent kinase 5 (Cdk5) have all been implicated in the pathogenesis of neurogenerative diseases including Alzheimer's disease. We have recently shown that extracellular cold-inducible RNA-binding protein (eCIRP) induces Cdk5 activation via p25. However, the precise molecular mechanism by which eCIRP regulates calcium signaling and calpain remains to be addressed. We hypothesized that eCIRP regulates p25 via Ca2+-dependent calpain activation. eCIRP increased calpain activity and decreased the endogenous calpain inhibitor calpastatin in Neuro 2a (N2a) cells. Calpain inhibition with calpeptin attenuated eCIRP-induced calpain activity and p25. eCIRP specifically upregulated cytosolic calpain 1, and calpain 1 silencing attenuated the eCIRP-induced increase in p25. eCIRP stimulation increased cytosolic free Ca2+, especially in hippocampal neuronal HT22 cells, which was attenuated by the eCIRP inhibitor Compound 23 (C23). Endoplasmic reticulum (ER) inositol 1,4,5-trisphosphate receptor (IP3R) inhibition using 2-aminoethoxy-diphenyl-borate or xestospongin-C (X-C), interleukin-6 receptor alpha (IL-6Ralpha)-neutralization, and phospholipase C (PLC) inhibition with U73122 attenuated eCIRP-induced Ca2+ increase, while Ca2+ influx across the plasma membrane remained unaffected by eCIRP. Finally, C23, IL-6Ralpha antibody, U73122 and X-C attenuated eCIRP-induced p25 in HT-22 cells. In conclusion, the current study uncovers eCIRP-triggered Ca2+ release from ER stores in an IL-6Ralpha/PLC/IP3-dependent manner as a novel molecular mechanism underlying eCIRP's induction of Cdk5 activity and potential involvement in neurodegeneration.
+36853429	14	18	CIRP	Gene	12696
+36853429	65	68	IP3	Chemical	MESH:D015544
+36853429	79	86	Calcium	Chemical	MESH:D002118
+36853429	105	112	calcium	Chemical	MESH:D002118
+36853429	172	175	p25	Gene	12569
+36853429	199	224	cyclin-dependent kinase 5	Gene	12568
+36853429	226	230	Cdk5	Gene	12568
+36853429	280	304	neurogenerative diseases	Disease	MESH:D001750
+36853429	315	334	Alzheimer's disease	Disease	MESH:D000544
+36853429	429	433	Cdk5	Gene	12568
+36853429	449	452	p25	Gene	12569
+36853429	520	527	calcium	Chemical	MESH:D002118
+36853429	612	615	p25	Gene	12569
+36853429	620	624	Ca2+	Chemical	-
+36853429	735	746	calpastatin	Gene	12380
+36853429	750	758	Neuro 2a	CellLine	CVCL:0470
+36853429	760	763	N2a	CellLine	CVCL:0470
+36853429	796	805	calpeptin	Chemical	MESH:C071482
+36853429	852	855	p25	Gene	12569
+36853429	898	907	calpain 1	Gene	12333
+36853429	913	922	calpain 1	Gene	12333
+36853429	974	977	p25	Gene	12569
+36853429	1022	1026	Ca2+	Chemical	-
+36853429	1063	1067	HT22	CellLine	CVCL:0321
+36853429	1119	1130	Compound 23	Chemical	-
+36853429	1132	1135	C23	Chemical	-
+36853429	1204	1208	IP3R	Gene	16438
+36853429	1227	1256	2-aminoethoxy-diphenyl-borate	Chemical	MESH:C109986
+36853429	1260	1274	xestospongin-C	Chemical	MESH:C511704
+36853429	1276	1279	X-C	Chemical	MESH:C511704
+36853429	1282	1310	interleukin-6 receptor alpha	Gene	16194
+36853429	1312	1322	IL-6Ralpha	Gene	16194
+36853429	1382	1388	U73122	Chemical	MESH:C060229
+36853429	1414	1418	Ca2+	Chemical	-
+36853429	1435	1439	Ca2+	Chemical	-
+36853429	1513	1516	C23	Chemical	-
+36853429	1518	1528	IL-6Ralpha	Gene	16194
+36853429	1539	1545	U73122	Chemical	MESH:C060229
+36853429	1550	1553	X-C	Chemical	MESH:C511704
+36853429	1579	1582	p25	Gene	12569
+36853429	1586	1591	HT-22	CellLine	CVCL:0321
+36853429	1657	1661	Ca2+	Chemical	-
+36853429	1691	1701	IL-6Ralpha	Gene	16194
+36853429	1706	1709	IP3	Chemical	MESH:D015544
+36853429	1790	1794	Cdk5	Gene	12568
+36853429	1833	1850	neurodegeneration	Disease	MESH:D019636
+36853429	Negative_Correlation	MESH:C071482	12569
+36853429	Association	MESH:D015544	MESH:D019636
+36853429	Association	MESH:D019636	16194
+36853429	Association	MESH:D000544	12569
+36853429	Association	MESH:D019636	12568
+36853429	Association	MESH:D002118	12696
+36853429	Association	MESH:D001750	12569
+36853429	Association	MESH:D000544	12568
+36853429	Association	MESH:D002118	MESH:D015544
+36853429	Negative_Correlation	MESH:C511704	16438
+36853429	Negative_Correlation	MESH:C511704	12569
+36853429	Association	12333	12569
+36853429	Association	MESH:D001750	12568
+36853429	Association	MESH:D002118	MESH:D000544
+36853429	Negative_Correlation	MESH:C060229	12569
+36853429	Association	12568	16194
+36853429	Negative_Correlation	MESH:C109986	16438
+36853429	Association	MESH:D015544	12696
+36853429	Association	MESH:D015544	12568
+36853429	Association	MESH:D002118	MESH:D001750
+

@@ -1,0 +1,21 @@
+39721068|t|Daily automated prediction of delirium risk in hospitalized patients: Model development and validation.
+39721068|a|BACKGROUND: Delirium is common in hospitalized patients and correlated with increased morbidity and mortality. Despite this, delirium is underdiagnosed, and many institutions do not have sufficient resources to consistently apply effective screening and prevention. OBJECTIVE: To develop a machine learning algorithm to identify patients at highest risk of delirium in the hospital each day in an automated fashion based on data available in the electronic medical record, reducing the barrier to large-scale delirium screening. METHODS: We developed and compared multiple machine learning models on a retrospective dataset of all hospitalized adult patients with recorded Confusion Assessment Method (CAM) screens at a major academic medical center from April 2nd, 2016 to January 16th 2019, comprising 23006 patients. The patient's age, gender, and all available laboratory values, vital signs, prior CAM screens, and medication administrations were used as potential predictors. Four machine learning approaches were investigated: logistic regression with L1-regularization, multilayer perceptrons, random forests, and boosted trees. Model development used 80% of the patients; the remaining 20% were reserved for testing the final models. Lab values, vital signs, medications, gender, and age were used to predict a positive CAM screen in the next 24 hours. RESULTS: The boosted tree model achieved the greatest predictive power, with a 0.92 area under the receiver operator characteristic curve (AUROC) (95% Confidence Interval (CI) 0.913-9.22), followed by the random forest at 0.91 (95% CI 0.909-0.918), multilayer perceptron at 0.86 (95% CI 0.850-0.861), and logistic regression at 0.85 (95% CI 0.841-0.852). These AUROCs decreased to 0.78-0.82 and 0.74-0.80 when limited to patients not currently or never delirious, respectively. CONCLUSIONS: A boosted tree machine learning model was able to identify hospitalized patients at elevated risk for delirium in the next 24 hours. This may allow for automated delirium risk screening and more precise targeting of proven and investigational interventions to prevent delirium. CLINICALTRIAL: 
+39721068	30	38	delirium	Disease	MESH:D003693
+39721068	60	68	patients	Species	9606
+39721068	116	124	Delirium	Disease	MESH:D003693
+39721068	151	159	patients	Species	9606
+39721068	229	237	delirium	Disease	MESH:D003693
+39721068	433	441	patients	Species	9606
+39721068	461	469	delirium	Disease	MESH:D003693
+39721068	613	621	delirium	Disease	MESH:D003693
+39721068	754	762	patients	Species	9606
+39721068	777	786	Confusion	Disease	MESH:D003221
+39721068	914	922	patients	Species	9606
+39721068	928	935	patient	Species	9606
+39721068	1275	1283	patients	Species	9606
+39721068	1887	1895	patients	Species	9606
+39721068	2029	2037	patients	Species	9606
+39721068	2059	2067	delirium	Disease	MESH:D003693
+39721068	2119	2127	delirium	Disease	MESH:D003693
+39721068	2225	2233	delirium	Disease	MESH:D003693
+

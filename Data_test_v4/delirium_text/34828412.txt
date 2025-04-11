@@ -1,0 +1,40 @@
+34828412|t|Two Rare Variants in PLAU and BACE1 Genes-Do They Contribute to Semantic Dementia Clinical Phenotype?
+34828412|a|We have performed whole-genome sequencing to identify the genetic variants potentially contributing to the early-onset semantic dementia phenotype in a patient with family history of dementia and episodic memory deficit accompanied with profound semantic loss. Only very rare variants of unknown significance (VUS) have been identified: a nonsense variant c.366C>A/p.Cys122* in plasminogen activator, urokinase (PLAU) and a missense variant c.944C>T/p.Thr315Met in beta-site APP-cleaving enzyme 1 (BACE1)-along with known disease-modifying variants of moderate penetrance. Patient-derived fibroblasts showed reduced PLAU and elevated BACE1 mRNA and protein levels compared to control fibroblasts. Successful rescue of PLAU mRNA levels by nonsense-mediated mRNA decay (NMD) inhibitor (puromycin) confirmed NMD as the underlying mechanism. This is the first report of the PLAU variant with the confirmed haploinsufficiency, associated with semantic dementia phenotype. Our results suggest that rare variants in the PLAU and BACE1 genes should be considered in future studies on early-onset dementias.
+34828412	21	25	PLAU	Gene	5328
+34828412	30	35	BACE1	Gene	23621
+34828412	64	81	Semantic Dementia	Disease	MESH:D057180
+34828412	221	238	semantic dementia	Disease	MESH:D057180
+34828412	254	261	patient	Species	9606
+34828412	285	293	dementia	Disease	MESH:D003704
+34828412	298	321	episodic memory deficit	Disease	MESH:D008569
+34828412	348	361	semantic loss	Disease	MESH:D057180
+34828412	458	466	c.366C>A	DNAMutation	tmVar:c|SUB|C|366|A;HGVS:c.366C>A;VariantGroup:1;CorrespondingGene:5328;CorrespondingSpecies:9606
+34828412	467	476	p.Cys122*	ProteinMutation	tmVar:p|SUB|C|122|*;HGVS:p.C122*;VariantGroup:2;CorrespondingGene:5328;CorrespondingSpecies:9606
+34828412	514	518	PLAU	Gene	5328
+34828412	543	551	c.944C>T	DNAMutation	tmVar:c|SUB|C|944|T;HGVS:c.944C>T;VariantGroup:0;CorrespondingGene:23621;RS#:756600885;CorrespondingSpecies:9606;CA#:6294015
+34828412	552	563	p.Thr315Met	ProteinMutation	tmVar:p|SUB|T|315|M;HGVS:p.T315M;VariantGroup:0;CorrespondingGene:23621;RS#:756600885;CorrespondingSpecies:9606;CA#:6294015
+34828412	567	598	beta-site APP-cleaving enzyme 1	Gene	23621
+34828412	600	605	BACE1	Gene	23621
+34828412	675	682	Patient	Species	9606
+34828412	718	722	PLAU	Gene	5328
+34828412	736	741	BACE1	Gene	23621
+34828412	820	824	PLAU	Gene	5328
+34828412	886	895	puromycin	Chemical	MESH:D011691
+34828412	972	976	PLAU	Gene	5328
+34828412	1040	1057	semantic dementia	Disease	MESH:D057180
+34828412	1115	1119	PLAU	Gene	5328
+34828412	1124	1129	BACE1	Gene	23621
+34828412	1190	1199	dementias	Disease	MESH:D003704
+34828412	Association	MESH:D011691	5328
+34828412	Positive_Correlation	HGVS:c.366C>A;CorrespondingGene:5328	MESH:D057180
+34828412	Positive_Correlation	MESH:D057180	HGVS:p.C122*;CorrespondingGene:5328
+34828412	Positive_Correlation	MESH:D057180	HGVS:c.366C>A;CorrespondingGene:5328
+34828412	Association	MESH:D003704	23621
+34828412	Association	MESH:D003704	5328
+34828412	Positive_Correlation	MESH:D057180	RS#:756600885;HGVS:p.T315M;CorrespondingGene:23621
+34828412	Association	MESH:D057180	5328
+34828412	Positive_Correlation	MESH:D057180	RS#:756600885;HGVS:c.944C>T;CorrespondingGene:23621
+34828412	Association	MESH:D057180	23621
+34828412	Association	MESH:D057180	5328
+34828412	Association	MESH:D057180	23621
+

@@ -1,0 +1,34 @@
+39340951|t|Identification of Alzheimer's disease and vascular dementia based on a Deep Forest and near-infrared spectroscopy analysis method.
+39340951|a|Alzheimer's disease (AD) and vascular dementia (VaD) typically do not exhibit distinct differences in clinical manifestations and auxiliary examination results, which leads to a high misdiagnosis rate. However, significant differences in treatment approaches and prognosis between these two diseases underscore the critical need for an accurate diagnosis of AD and VaD. In this study, serum samples from 33 patients with AD patients, 37 patients with VaD, and 130 healthy individuals were collected, employing near-infrared aquaphotomics technology in combination with deep learning for differential diagnoses. Through an analysis of water absorption patterns among different diseases via aquaphotomics, the efficacies of traditional machine learning methods (Support Vector Machine and Decision Trees) and deep learning approaches (Deep Forest) in modeling were compared. Ultimately, by leveraging feature extraction techniques in conjunction with deep learning, a differential diagnostic model for AD and VaD was successfully developed. The results revealed that aquaphotomics could identify a certain correlation between the number of hydrogen bonds in water molecules and the development of AD and VaD; the deep learning model was found to be superior to traditional machine learning models, achieving an accuracy of 98.67 %, sensitivity of 97.33 %, and specificity of 100.00 %. The bands identified using the Competitive Adaptive Reweighting Algorithm method, primarily located at approximately 1300-1500 nm, showed a significant correlation with water molecules containing four hydrogen bonds. These results highlighted the potential role of the water molecule hydrogen-bond network in disease development and were consistent with the aquaphotomics analysis results. Therefore, the differential diagnostic model developed by integrating near-infrared spectroscopy and deep learning was proven to be effective and feasible, providing accurate and rapid diagnostic methods for AD and VaD diagnoses.
+39340951	18	37	Alzheimer's disease	Disease	MESH:D000544
+39340951	42	59	vascular dementia	Disease	MESH:D015140
+39340951	131	150	Alzheimer's disease	Disease	MESH:D000544
+39340951	152	154	AD	Disease	MESH:D000544
+39340951	160	177	vascular dementia	Disease	MESH:D015140
+39340951	179	182	VaD	Disease	MESH:D015140
+39340951	489	491	AD	Disease	MESH:D000544
+39340951	496	500	VaD.	Disease	MESH:D015140
+39340951	538	546	patients	Species	9606
+39340951	552	554	AD	Disease	MESH:D000544
+39340951	555	563	patients	Species	9606
+39340951	568	576	patients	Species	9606
+39340951	582	585	VaD	Disease	MESH:D015140
+39340951	765	770	water	Chemical	MESH:D014867
+39340951	1131	1133	AD	Disease	MESH:D000544
+39340951	1138	1141	VaD	Disease	MESH:D015140
+39340951	1269	1277	hydrogen	Chemical	MESH:D006859
+39340951	1287	1292	water	Chemical	MESH:D014867
+39340951	1326	1328	AD	Disease	MESH:D000544
+39340951	1333	1336	VaD	Disease	MESH:D015140
+39340951	1683	1688	water	Chemical	MESH:D014867
+39340951	1715	1723	hydrogen	Chemical	MESH:D006859
+39340951	1783	1788	water	Chemical	MESH:D014867
+39340951	1798	1806	hydrogen	Chemical	MESH:D006859
+39340951	2112	2114	AD	Disease	MESH:D000544
+39340951	2119	2122	VaD	Disease	MESH:D015140
+39340951	Association	MESH:D014867	MESH:D000544
+39340951	Association	MESH:D006859	MESH:D014867
+39340951	Association	MESH:D006859	MESH:D000544
+39340951	Positive_Correlation	MESH:D006859	MESH:D015140
+39340951	Association	MESH:D014867	MESH:D015140
+

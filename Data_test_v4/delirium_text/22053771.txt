@@ -1,0 +1,25 @@
+22053771|t|Identification of novel targets for breast cancer by exploring gene switches on a genome scale.
+22053771|a|BACKGROUND: An important feature that emerges from analyzing gene regulatory networks is the "switch-like behavior" or "bistability", a dynamic feature of a particular gene to preferentially toggle between two steady-states. The state of gene switches plays pivotal roles in cell fate decision, but identifying switches has been difficult. Therefore a challenge confronting the field is to be able to systematically identify gene switches. RESULTS: We propose a top-down mining approach to exploring gene switches on a genome-scale level. Theoretical analysis, proof-of-concept examples, and experimental studies demonstrate the ability of our mining approach to identify bistable genes by sampling across a variety of different conditions. Applying the approach to human breast cancer data identified genes that show bimodality within the cancer samples, such as estrogen receptor (ER) and ERBB2, as well as genes that show bimodality between cancer and non-cancer samples, where tumor-associated calcium signal transducer 2 (TACSTD2) is uncovered. We further suggest a likely transcription factor that regulates TACSTD2. CONCLUSIONS: Our mining approach demonstrates that one can capitalize on genome-wide expression profiling to capture dynamic properties of a complex network. To the best of our knowledge, this is the first attempt in applying mining approaches to explore gene switches on a genome-scale, and the identification of TACSTD2 demonstrates that single cell-level bistability can be predicted from microarray data. Experimental confirmation of the computational results suggest TACSTD2 could be a potential biomarker and attractive candidate for drug therapy against both ER+ and ER- subtypes of breast cancer, including the triple negative subtype.
+22053771	36	49	breast cancer	Disease	MESH:D001943
+22053771	862	867	human	Species	9606
+22053771	868	881	breast cancer	Disease	MESH:D001943
+22053771	936	942	cancer	Disease	MESH:D009369
+22053771	960	977	estrogen receptor	Gene	2099
+22053771	979	981	ER	Gene	2099
+22053771	987	992	ERBB2	Gene	2064
+22053771	1040	1046	cancer	Disease	MESH:D009369
+22053771	1055	1061	cancer	Disease	MESH:D009369
+22053771	1077	1121	tumor-associated calcium signal transducer 2	Disease	MESH:D000072716
+22053771	1123	1130	TACSTD2	Disease	MESH:D000072716
+22053771	1210	1217	TACSTD2	Disease	MESH:D000072716
+22053771	1533	1540	TACSTD2	Disease	MESH:D000072716
+22053771	1691	1698	TACSTD2	Disease	MESH:D000072716
+22053771	1785	1787	ER	Gene	2099
+22053771	1793	1795	ER	Gene	2099
+22053771	1809	1822	breast cancer	Disease	MESH:D001943
+22053771	Association	MESH:D009369	2099
+22053771	Association	MESH:D009369	2064
+22053771	Association	MESH:D000072716	2099
+22053771	Association	MESH:D001943	2099
+22053771	Association	MESH:D001943	2064
+

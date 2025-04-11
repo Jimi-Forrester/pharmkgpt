@@ -1,0 +1,21 @@
+35357053|t|Deep learning derived automated ASPECTS on non-contrast CT scans of acute ischemic stroke patients.
+35357053|a|Ischemic stroke is the most common type of stroke, ranked as the second leading cause of death worldwide. The Alberta Stroke Program Early CT Score (ASPECTS) is considered as a systematic method of assessing ischemic change on non-contrast CT scans (NCCT) of acute ischemic stroke (AIS) patients, while still suffering from the requirement of experts' experience and also the inconsistent results between readers. In this study, we proposed an automated ASPECTS method to utilize the powerful learning ability of neural networks for objectively scoring CT scans of AIS patients. First, we proposed to use the CT perfusion (CTP) from one-stop stroke imaging to provide the golden standard of ischemic regions for ASPECTS scoring. Second, we designed an asymmetry network to capture features when comparing the left and right sides for each ASPECTS region to estimate its ischemic status. Third, we performed experiments in a large main dataset of 870 patients, as well as an independent testing dataset consisting of 207 patients with radiologists' scorings. Experimental results show that our network achieved remarkable performance, as sensitivity and accuracy of 93.7 and 92.4% in the main dataset, and 95.5 and 91.3% in the independent testing dataset, respectively. In the latter dataset, our analysis revealed a high positive correlation between the ASPECTS score and the prognosis of patients in 90DmRs. Also, we found ASPECTS score is a good indicator of the size of CTP core volume of an infraction. The proposed method shows its potential for automated ASPECTS scoring on NCCT images.
+35357053	68	89	acute ischemic stroke	Disease	MESH:D000083242
+35357053	90	98	patients	Species	9606
+35357053	100	115	Ischemic stroke	Disease	MESH:D002544
+35357053	143	149	stroke	Disease	MESH:D020521
+35357053	189	194	death	Disease	MESH:D003643
+35357053	218	224	Stroke	Disease	MESH:D020521
+35357053	308	316	ischemic	Disease	MESH:D002545
+35357053	359	380	acute ischemic stroke	Disease	MESH:D000083242
+35357053	382	385	AIS	Disease	MESH:D000083242
+35357053	387	395	patients	Species	9606
+35357053	665	668	AIS	Disease	MESH:D000083242
+35357053	669	677	patients	Species	9606
+35357053	742	748	stroke	Disease	MESH:D020521
+35357053	791	799	ischemic	Disease	MESH:D002545
+35357053	970	978	ischemic	Disease	MESH:D002545
+35357053	1050	1058	patients	Species	9606
+35357053	1120	1128	patients	Species	9606
+35357053	1490	1498	patients	Species	9606
+

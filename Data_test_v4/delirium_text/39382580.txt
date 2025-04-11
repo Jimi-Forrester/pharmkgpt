@@ -1,0 +1,38 @@
+39382580|t|Spiral volumetric optoacoustic tomography of reduced oxygen saturation in the spinal cord of M83 mouse model of Parkinson's disease.
+39382580|a|PURPOSE: Metabolism and bioenergetics in the central nervous system play important roles in the pathophysiology of Parkinson's disease (PD). Here, we employed a multimodal imaging approach to assess oxygenation changes in the spinal cord of the transgenic M83 murine model of PD overexpressing the mutated A53T alpha-synuclein form in comparison with non-transgenic littermates. METHODS: In vivo spiral volumetric optoacoustic tomography (SVOT) was performed to assess oxygen saturation (sO2) in the spinal cords of M83 mice and non-transgenic littermates. Ex vivo high-field T1-weighted (T1w) magnetic resonance imaging (MRI) at 9.4T was used to assess volumetric alterations in the spinal cord. 3D SVOT analysis and deep learning-based automatic segmentation of T1w MRI data for the mouse spinal cord were developed for quantification. Immunostaining for phosphorylated alpha-synuclein (pS129 alpha-syn), as well as vascular organization (CD31 and GLUT1), was performed after MRI scan. RESULTS: In vivo SVOT imaging revealed a lower sO2SVOT in the spinal cord of M83 mice compared to non-transgenic littermates at sub-100 mum spatial resolution. Ex vivo MRI-assisted by in-house developed deep learning-based automatic segmentation (validated by manual analysis) revealed no volumetric atrophy in the spinal cord of M83 mice compared to non-transgenic littermates at 50 mum spatial resolution. The vascular network was not impaired in the spinal cord of M83 mice in the presence of pS129 alpha-syn accumulation. CONCLUSION: We developed tools for deep-learning-based analysis for the segmentation of mouse spinal cord structural MRI data, and volumetric analysis of sO2SVOT data. We demonstrated non-invasive high-resolution imaging of reduced sO2SVOT in the absence of volumetric structural changes in the spinal cord of PD M83 mouse model.
+39382580	53	59	oxygen	Chemical	MESH:D010100
+39382580	93	96	M83	CellLine	CVCL:C6IZ
+39382580	97	102	mouse	Species	10090
+39382580	112	131	Parkinson's disease	Disease	MESH:D010300
+39382580	248	267	Parkinson's disease	Disease	MESH:D010300
+39382580	269	271	PD	Disease	MESH:D010300
+39382580	389	392	M83	CellLine	CVCL:C6IZ
+39382580	393	399	murine	Species	10090
+39382580	409	411	PD	Disease	MESH:D010300
+39382580	439	443	A53T	ProteinMutation	tmVar:p|SUB|A|53|T;HGVS:p.A53T;VariantGroup:0;OriginalGene:20617;CorrespondingGene:6622;RS#:104893877;CorrespondingSpecies:10090;CA#:257068
+39382580	444	459	alpha-synuclein	Gene	20617
+39382580	602	608	oxygen	Chemical	MESH:D010100
+39382580	649	652	M83	CellLine	CVCL:C6IZ
+39382580	653	657	mice	Species	10090
+39382580	918	923	mouse	Species	10090
+39382580	1005	1020	alpha-synuclein	Gene	20617
+39382580	1028	1037	alpha-syn	Gene	20617
+39382580	1074	1078	CD31	Gene	18613
+39382580	1083	1088	GLUT1	Gene	20525
+39382580	1198	1201	M83	CellLine	CVCL:C6IZ
+39382580	1202	1206	mice	Species	10090
+39382580	1421	1428	atrophy	Disease	MESH:D001284
+39382580	1451	1454	M83	CellLine	CVCL:C6IZ
+39382580	1455	1459	mice	Species	10090
+39382580	1589	1592	M83	CellLine	CVCL:C6IZ
+39382580	1593	1597	mice	Species	10090
+39382580	1623	1632	alpha-syn	Gene	20617
+39382580	1735	1740	mouse	Species	10090
+39382580	1957	1959	PD	Disease	MESH:D010300
+39382580	1960	1963	M83	CellLine	CVCL:C6IZ
+39382580	1964	1969	mouse	Species	10090
+39382580	Positive_Correlation	MESH:D010300	RS#:104893877;HGVS:p.A53T;CorrespondingGene:6622
+39382580	Association	MESH:D010100	MESH:D010300
+39382580	Association	MESH:D010300	20617
+39382580	Association	MESH:D010300	6622
+

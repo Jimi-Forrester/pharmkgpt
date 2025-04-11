@@ -1,0 +1,10 @@
+26836190|t|Three-Dimensional Eigenbrain for the Detection of Subjects and Brain Regions Related with Alzheimer's Disease.
+26836190|a|BACKGROUND: Considering that Alzheimer's disease (AD) is untreatable, early diagnosis of AD from the healthy elderly controls (HC) is pivotal. However, computer-aided diagnosis (CAD) systems were not widely used due to its poor performance. OBJECTIVE: Inspired from the eigenface approach for face recognition problems, we proposed an eigenbrain to detect AD brains. Eigenface is only for 2D image processing and is not suitable for volumetric image processing since faces are usually obtained as 2D images. METHODS: We extended the eigenbrain to 3D. This 3D eigenbrain (3D-EB) inherits the fundamental strategies in either eigenface or 2D eigenbrain (2D-EB). All the 3D brains were transferred to a feature space, which encoded the variation among known 3D brain images. The feature space was named as the 3D-EB, and defined as eigenvectors on the set of 3D brains. We compared four different classifiers: feed-forward neural network, support vector machine (SVM) with linear kernel, polynomial (Pol) kernel, and radial basis function kernel. RESULTS: The 50x10-fold stratified cross validation experiments showed that the proposed 3D-EB is better than the 2D-EB. SVM with Pol kernel performed the best among all classifiers. Our "3D-EB + Pol-SVM" achieved an accuracy of 92.81% +- 1.99% , a sensitivity of 92.07% +- 2.48% , a specificity of 93.02% +- 2.22% , and a precision of 79.03% +- 2.37% . Based on the most important 3D-EB U1, we detected 34 brain regions related with AD. The results corresponded to recent literature. CONCLUSIONS: We validated the effectiveness of the proposed 3D-EB by detecting subjects and brain regions related to AD.
+26836190	90	109	Alzheimer's Disease	Disease	MESH:D000544
+26836190	140	159	Alzheimer's disease	Disease	MESH:D000544
+26836190	161	163	AD	Disease	MESH:D000544
+26836190	200	202	AD	Disease	MESH:D000544
+26836190	467	469	AD	Disease	MESH:D000544
+26836190	1589	1591	AD	Disease	MESH:D000544
+26836190	1757	1759	AD	Disease	MESH:D000544
+

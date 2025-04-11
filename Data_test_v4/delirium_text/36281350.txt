@@ -1,0 +1,16 @@
+36281350|t|A machine learning study of COVID-19 serology and molecular tests and predictions.
+36281350|a|Serology and molecular tests are the two most commonly used methods for rapid COVID-19 infection testing. The two types of tests have different mechanisms to detect infection, by measuring the presence of viral SARS-CoV-2 RNA (molecular test) or detecting the presence of antibodies triggered by the SARS-CoV-2 virus (serology test). A handful of studies have shown that symptoms, combined with demographic and/or diagnosis features, can be helpful for the prediction of COVID-19 test outcomes. However, due to nature of the test, serology and molecular tests vary significantly. There is no existing study on the correlation between serology and molecular tests, and what type of symptoms are the key factors indicating the COVID-19 positive tests. In this study, we propose a machine learning based approach to study serology and molecular tests, and use features to predict test outcomes. A total of 2,467 donors, each tested using one or multiple types of COVID-19 tests, are collected as our testbed. By cross checking test types and results, we study correlation between serology and molecular tests. For test outcome prediction, we label 2,467 donors as positive or negative, by using their serology or molecular test results, and create symptom features to represent each donor for learning. Because COVID-19 produces a wide range of symptoms and the data collection process is essentially error prone, we group similar symptoms into bins. This decreases the feature space and sparsity. Using binned symptoms, combined with demographic features, we train five classification algorithms to predict COVID-19 test results. Experiments show that XGBoost achieves the best performance with 76.85% accuracy and 81.4% AUC scores, demonstrating that symptoms are indeed helpful for predicting COVID-19 test outcomes. Our study investigates the relationship between serology and molecular tests, identifies meaningful symptom features associated with COVID-19 infection, and also provides a way for rapid screening and cost effective detection of COVID-19 infection.
+36281350	28	36	COVID-19	Disease	MESH:D000086382
+36281350	161	179	COVID-19 infection	Disease	MESH:D000086382
+36281350	248	257	infection	Disease	MESH:D007239
+36281350	294	304	SARS-CoV-2	Species	2697049
+36281350	383	399	SARS-CoV-2 virus	Species	
+36281350	554	562	COVID-19	Disease	MESH:D000086382
+36281350	808	816	COVID-19	Disease	MESH:D000086382
+36281350	1043	1051	COVID-19	Disease	MESH:D000086382
+36281350	1391	1399	COVID-19	Disease	MESH:D000086382
+36281350	1688	1696	COVID-19	Disease	MESH:D000086382
+36281350	1876	1884	COVID-19	Disease	MESH:D000086382
+36281350	2033	2051	COVID-19 infection	Disease	MESH:D000086382
+36281350	2129	2147	COVID-19 infection	Disease	MESH:D000086382
+

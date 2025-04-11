@@ -1,0 +1,23 @@
+34439596|t|Unsupervised Machine Learning to Identify Separable Clinical Alzheimer's Disease Sub-Populations.
+34439596|a|Heterogeneity among Alzheimer's disease (AD) patients confounds clinical trial patient selection and therapeutic efficacy evaluation. This work defines separable AD clinical sub-populations using unsupervised machine learning. Clustering (t-SNE followed by k-means) of patient features and association rule mining (ARM) was performed on the ADNIMERGE dataset from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Patient sociodemographics, brain imaging, biomarkers, cognitive tests, and medication usage were included for analysis. Four AD clinical sub-populations were identified using between-cluster mean fold changes [cognitive performance, brain volume]: cluster-1 represented least severe disease [+17.3, +13.3]; cluster-0 [-4.6, +3.8] and cluster-3 [+10.8, -4.9] represented mid-severity sub-populations; cluster-2 represented most severe disease [-18.4, -8.4]. ARM assessed frequently occurring pharmacologic substances within the 4 sub-populations. No drug class was associated with the least severe AD (cluster-1), likely due to lesser antecedent disease. Anti-hyperlipidemia drugs associated with cluster-0 (mid-severity, higher volume). Interestingly, antioxidants vitamin C and E associated with cluster-3 (mid-severity, higher cognition). Anti-depressants like Zoloft associated with most severe disease (cluster-2). Vitamin D is protective for AD, but ARM identified significant underutilization across all AD sub-populations. Identification and feature characterization of four distinct AD sub-population "clusters" using standard clinical features enhances future clinical trial selection criteria and cross-study comparative analysis.
+34439596	61	80	Alzheimer's Disease	Disease	MESH:D000544
+34439596	118	137	Alzheimer's disease	Disease	MESH:D000544
+34439596	139	141	AD	Disease	MESH:D000544
+34439596	143	151	patients	Species	9606
+34439596	177	184	patient	Species	9606
+34439596	260	262	AD	Disease	MESH:D000544
+34439596	367	374	patient	Species	9606
+34439596	466	485	Alzheimer's Disease	Disease	MESH:D000544
+34439596	518	525	Patient	Species	9606
+34439596	643	645	AD	Disease	MESH:D000544
+34439596	1115	1117	AD	Disease	MESH:D000544
+34439596	1172	1177	Anti-	Chemical	-
+34439596	1177	1197	hyperlipidemia drugs	Disease	MESH:D006949
+34439596	1283	1298	vitamin C and E	Chemical	-
+34439596	1381	1387	Zoloft	Chemical	MESH:D020280
+34439596	1437	1446	Vitamin D	Chemical	MESH:D014807
+34439596	1465	1467	AD	Disease	MESH:D000544
+34439596	1528	1530	AD	Disease	MESH:D000544
+34439596	1609	1611	AD	Disease	MESH:D000544
+34439596	Negative_Correlation	MESH:D014807	MESH:D000544
+

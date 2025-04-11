@@ -1,0 +1,37 @@
+36103534|t|Inhibition of Chk2 promotes neuroprotection, axon regeneration, and functional recovery after CNS injury.
+36103534|a|DNA double-strand breaks occur in many acute and long-term neurological conditions, including neurodegeneration, neurotrauma, and stroke. Nonrepaired breaks chronically activate the DNA damage response in neurons, leading to neural dysfunction and apoptosis. Here, we show that targeting of the central ATM-Chk2 pathway regulating the response to double-strand breaks slows neural decline in Drosophila models of chronic neurodegeneration. Inhibitors of ATM-Chk2, but not the parallel ATR-Chk1 pathway, also promote marked, functional recovery after acute central nervous system injury in rats, suggesting that inhibiting nonhomologous end-joining rather than homologous recombination is crucial for neuroprotection. We demonstrate that the Chk2 inhibitor, prexasertib, which has been evaluated in phase 2 clinical trials for cancer, has potent neuroprotective effects and represents a new treatment option to promote functional recovery after spinal cord or optic nerve injury.
+36103534	14	18	Chk2	Gene	35288
+36103534	94	104	CNS injury	Disease	MESH:D002494
+36103534	165	188	neurological conditions	Disease	MESH:D019636
+36103534	200	217	neurodegeneration	Disease	MESH:D019636
+36103534	219	230	neurotrauma	Disease	
+36103534	236	242	stroke	Disease	MESH:D020521
+36103534	331	349	neural dysfunction	Disease	MESH:D015441
+36103534	409	412	ATM	Gene	41839
+36103534	413	417	Chk2	Gene	35288
+36103534	480	494	neural decline	Disease	MESH:D060825
+36103534	498	508	Drosophila	Species	7227
+36103534	527	544	neurodegeneration	Disease	MESH:D019636
+36103534	560	563	ATM	Gene	41839
+36103534	564	568	Chk2	Gene	35288
+36103534	591	594	ATR	Gene	32608
+36103534	595	599	Chk1	Gene	34993
+36103534	662	691	central nervous system injury	Disease	MESH:D002493
+36103534	695	699	rats	Species	10116
+36103534	847	851	Chk2	Gene	35288
+36103534	863	874	prexasertib	Chemical	MESH:C000608121
+36103534	932	938	cancer	Disease	MESH:D009369
+36103534	1050	1083	spinal cord or optic nerve injury	Disease	MESH:D013119
+36103534	Association	MESH:D002493	35288
+36103534	Negative_Correlation	MESH:C000608121	35288
+36103534	Association	MESH:D002493	41839
+36103534	Association	MESH:D002494	35288
+36103534	Negative_Correlation	MESH:C000608121	MESH:D013119
+36103534	Association	35288	41839
+36103534	Association	32608	34993
+36103534	Association	MESH:D019636	35288
+36103534	Association	MESH:D009369	35288
+36103534	Association	MESH:D060825	41839
+36103534	Negative_Correlation	MESH:C000608121	MESH:D009369
+36103534	Association	MESH:D060825	35288
+

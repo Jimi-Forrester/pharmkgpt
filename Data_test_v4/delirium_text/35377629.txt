@@ -1,0 +1,30 @@
+35377629|t|Mechanism of Tripeptide Trimming of Amyloid beta-Peptide 49 by gamma-Secretase.
+35377629|a|The membrane-embedded gamma-secretase complex processively cleaves within the transmembrane domain of amyloid precursor protein (APP) to produce 37-to-43-residue amyloid beta-peptides (Abeta) of Alzheimer's disease (AD). Despite its importance in pathogenesis, the mechanism of processive proteolysis by gamma-secretase remains poorly understood. Here, mass spectrometry and Western blotting were used to quantify the efficiency of tripeptide trimming of wild-type (WT) and familial AD (FAD) mutant Abeta49. In comparison to WT Abeta49, the efficiency of tripeptide trimming was similar for the I45F, A42T, and V46F Abeta49 FAD mutants but substantially diminished for the I45T and T48P mutants. In parallel with biochemical experiments, all-atom simulations using a novel peptide Gaussian accelerated molecular dynamics (Pep-GaMD) method were applied to investigate the tripeptide trimming of Abeta49 by gamma-secretase. The starting structure was the active gamma-secretase bound to Abeta49 and APP intracellular domain (AICD), as generated from our previous study that captured the activation of gamma-secretase for the initial endoproteolytic cleavage of APP (Bhattarai, A., ACS Cent. Sci. 2020, 6, 969-983). Pep-GaMD simulations captured remarkable structural rearrangements of both the enzyme and substrate, in which hydrogen-bonded catalytic aspartates and water became poised for tripeptide trimming of Abeta49 to Abeta46. These structural changes required a positively charged N-terminus of endoproteolytic coproduct AICD, which could dissociate during conformational rearrangements of the protease and Abeta49. The simulation findings were highly consistent with biochemical experimental data. Taken together, our complementary biochemical experiments and Pep-GaMD simulations have enabled elucidation of the mechanism of tripeptide trimming of Abeta49 by gamma-secretase.
+35377629	13	23	Tripeptide	Chemical	-
+35377629	182	207	amyloid precursor protein	Gene	351
+35377629	265	270	Abeta	Gene	351
+35377629	275	294	Alzheimer's disease	Disease	MESH:D000544
+35377629	296	298	AD	Disease	MESH:D000544
+35377629	512	522	tripeptide	Chemical	-
+35377629	563	565	AD	Disease	MESH:D000544
+35377629	567	570	FAD	Disease	MESH:D000544
+35377629	635	645	tripeptide	Chemical	-
+35377629	675	679	I45F	ProteinMutation	tmVar:p|SUB|I|45|F;HGVS:p.I45F;VariantGroup:0;CorrespondingGene:5047;RS#:1421681386;CorrespondingSpecies:9606
+35377629	681	685	A42T	DNAMutation	tmVar:c|SUB|A|42|T;HGVS:c.42A>T;VariantGroup:2;CorrespondingGene:5047;CorrespondingSpecies:9606
+35377629	691	695	V46F	ProteinMutation	tmVar:p|SUB|V|46|F;HGVS:p.V46F;VariantGroup:1;CorrespondingGene:5047;CorrespondingSpecies:9606
+35377629	704	707	FAD	Disease	MESH:D000544
+35377629	753	757	I45T	ProteinMutation	tmVar:p|SUB|I|45|T;HGVS:p.I45T;VariantGroup:0;CorrespondingGene:5047;RS#:1421681386;CorrespondingSpecies:9606
+35377629	762	766	T48P	ProteinMutation	tmVar:p|SUB|T|48|P;HGVS:p.T48P;VariantGroup:3;CorrespondingGene:5047;CorrespondingSpecies:9606
+35377629	902	905	Pep	Gene	5047
+35377629	951	961	tripeptide	Chemical	-
+35377629	1293	1296	Pep	Gene	5047
+35377629	1403	1411	hydrogen	Chemical	MESH:D006859
+35377629	1444	1449	water	Chemical	MESH:D014867
+35377629	1468	1478	tripeptide	Chemical	-
+35377629	1846	1849	Pep	Gene	5047
+35377629	1912	1922	tripeptide	Chemical	-
+35377629	Association	MESH:D000544	RS#:1421681386;HGVS:p.I45F;CorrespondingGene:5047
+35377629	Association	MESH:D000544	HGVS:p.V46F;CorrespondingGene:5047
+35377629	Association	MESH:D000544	351
+35377629	Association	MESH:D000544	5047
+

@@ -1,0 +1,24 @@
+25147522|t|Subclass-based multi-task learning for Alzheimer's disease diagnosis.
+25147522|a|In this work, we propose a novel subclass-based multi-task learning method for feature selection in computer-aided Alzheimer's Disease (AD) or Mild Cognitive Impairment (MCI) diagnosis. Unlike the previous methods that often assumed a unimodal data distribution, we take into account the underlying multipeak distribution of classes. The rationale for our approach is that it is highly likely for neuroimaging data to have multiple peaks or modes in distribution, e.g., mixture of Gaussians, due to the inter-subject variability. In this regard, we use a clustering method to discover the multipeak distributional characteristics and define subclasses based on the clustering results, in which each cluster covers a peak in the underlying multipeak distribution. Specifically, after performing clustering for each class, we encode the respective subclasses, i.e., clusters, with their unique codes. In encoding, we impose the subclasses of the same original class close to each other and those of different original classes distinct from each other. By setting the codes as new label vectors of our training samples, we formulate a multi-task learning problem in a l2,1-penalized regression framework, through which we finally select features for classification. In our experimental results on the ADNI dataset, we validated the effectiveness of the proposed method by improving the classification accuracies by 1% (AD vs. Normal Control: NC), 3.25% (MCI vs. NC), 5.34% (AD vs. MCI), and 7.4% (MCI Converter: MCI-C vs. MCI Non-Converter: MCI-NC) compared to the competing single-task learning method. It is remarkable for the performance improvement in MCI-C vs. MCI-NC classification, which is the most important for early diagnosis and treatment. It is also noteworthy that with the strategy of modality-adaptive weights by means of a multi-kernel support vector machine, we maximally achieved the classification accuracies of 96.18% (AD vs. NC), 81.45% (MCI vs. NC), 73.21% (AD vs. MCI), and 74.04% (MCI-C vs. MCI-NC), respectively. 
+25147522	39	58	Alzheimer's disease	Disease	MESH:D000544
+25147522	185	204	Alzheimer's Disease	Disease	MESH:D000544
+25147522	206	208	AD	Disease	MESH:D000544
+25147522	213	238	Mild Cognitive Impairment	Disease	MESH:D060825
+25147522	240	243	MCI	Disease	MESH:D060825
+25147522	1486	1488	AD	Disease	MESH:D000544
+25147522	1521	1524	MCI	Disease	MESH:D060825
+25147522	1541	1543	AD	Disease	MESH:D000544
+25147522	1548	1551	MCI	Disease	MESH:D060825
+25147522	1564	1567	MCI	Disease	MESH:D060825
+25147522	1579	1584	MCI-C	Disease	MESH:D060825
+25147522	1589	1592	MCI	Disease	MESH:D060825
+25147522	1608	1611	MCI	Disease	MESH:D060825
+25147522	1723	1728	MCI-C	Disease	MESH:D060825
+25147522	1733	1736	MCI	Disease	MESH:D060825
+25147522	2007	2009	AD	Disease	MESH:D000544
+25147522	2027	2030	MCI	Disease	MESH:D060825
+25147522	2048	2050	AD	Disease	MESH:D000544
+25147522	2055	2058	MCI	Disease	MESH:D060825
+25147522	2073	2078	MCI-C	Disease	MESH:D060825
+25147522	2083	2086	MCI	Disease	MESH:D060825
+

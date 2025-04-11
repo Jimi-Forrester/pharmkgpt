@@ -1,0 +1,25 @@
+38650695|t|Feature Importance Analysis and Machine Learning for Alzheimer's Disease Early Detection: Feature Fusion of the Hippocampus, Entorhinal Cortex, and Standardized Uptake Value Ratio.
+38650695|a|Introduction: Alzheimer's disease (AD) is a progressive neurological disorder characterized by mild memory loss and ranks as a leading cause of mortality in the USA, accounting for approximately 120,000 deaths per year. It is also the primary form of dementia. Early detection is critical for timely intervention as the neurodegenerative process often starts 15-20 years before cognitive symptoms manifest. This study focuses on determining feature importance in AD classification using fused texture features from 3D magnetic resonance imaging hippocampal and entorhinal cortex and standardized uptake value ratio (SUVR) derived from positron emission tomography (PET) images. Methods: To achieve this objective, we employed four distinct classifiers (Linear Support Vector Classification, Linear Discriminant Analysis, Logistic Regression, and Logistic Regression Classifier with Stochastic Gradient Descent Learning). These classifiers were used to derive both average and top-ranked importance scores for each feature based on their outputs. Our framework is designed to distinguish between two classes, AD-negative (or mild cognitive impairment stable [MCIs]) and AD-positive (or MCI conversion [MCIc]), using a probabilistic neural network classifier and the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Results: The findings from the feature importance highlight the crucial role of the GLCM texture features extracted from the hippocampus and entorhinal cortex, demonstrating their superior performance compared to the volume and SUVR. GLCM texture AD classification achieved approximately 90% sensitivity in identifying MCIc cases while maintaining low false positives (below 30%) when fused with other features. Moreover, the receiver operating characteristic curves validate the GLCMs' superior performance in distinguishing between MCIs and MCIc. Additionally, fusing different types of features improved classification performance compared to relying solely on any single feature category. Conclusion: Our study emphasizes the pivotal role of GLCM texture features in early Alzheimer's detection.
+38650695	53	72	Alzheimer's Disease	Disease	MESH:D000544
+38650695	195	214	Alzheimer's disease	Disease	MESH:D000544
+38650695	216	218	AD	Disease	MESH:D000544
+38650695	237	258	neurological disorder	Disease	MESH:D009461
+38650695	281	292	memory loss	Disease	MESH:D008569
+38650695	384	390	deaths	Disease	MESH:D003643
+38650695	432	440	dementia	Disease	MESH:D003704
+38650695	501	518	neurodegenerative	Disease	MESH:D019636
+38650695	559	577	cognitive symptoms	Disease	MESH:D019954
+38650695	644	646	AD	Disease	MESH:D000544
+38650695	1289	1291	AD	Disease	MESH:D000544
+38650695	1310	1330	cognitive impairment	Disease	MESH:D003072
+38650695	1339	1343	MCIs	Disease	
+38650695	1350	1352	AD	Disease	MESH:D000544
+38650695	1366	1369	MCI	Disease	
+38650695	1382	1386	MCIc	Disease	
+38650695	1446	1465	Alzheimer's Disease	Disease	MESH:D000544
+38650695	1754	1756	AD	Disease	MESH:D000544
+38650695	1826	1830	MCIc	Disease	
+38650695	2041	2045	MCIs	Disease	
+38650695	2050	2054	MCIc	Disease	
+38650695	2284	2295	Alzheimer's	Disease	MESH:D000544
+

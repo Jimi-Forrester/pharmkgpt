@@ -1,0 +1,31 @@
+34467250|t|Functional diagnostics using fresh uncultured lung tumor cells to guide personalized treatments.
+34467250|a|Functional profiling of a cancer patient's tumor cells holds potential to tailor personalized cancer treatment. Here, we report the utility of fresh uncultured tumor-derived EpCAM+ epithelial cells (FUTCs) for ex vivo drug-response interrogation. Analysis of murine Kras mutant FUTCs demonstrates pharmacological and adaptive signaling profiles comparable to subtype-matched cultured cells. By applying FUTC profiling on non-small-cell lung cancer patient samples, we report robust drug-response data in 19 of 20 cases, with cells exhibiting targeted drug sensitivities corresponding to their oncogenic drivers. In one of these cases, an EGFR mutant lung adenocarcinoma patient refractory to osimertinib, FUTC profiling is used to guide compassionate treatment. FUTC profiling identifies selective sensitivity to disulfiram and the combination of carboplatin plus etoposide, and the patient receives substantial clinical benefit from treatment with these agents. We conclude that FUTC profiling provides a robust, rapid, and actionable assessment of personalized cancer treatment options.
+34467250	46	56	lung tumor	Disease	MESH:D008175
+34467250	123	129	cancer	Disease	MESH:D009369
+34467250	130	137	patient	Species	9606
+34467250	140	145	tumor	Disease	MESH:D009369
+34467250	191	197	cancer	Disease	MESH:D009369
+34467250	257	262	tumor	Disease	MESH:D009369
+34467250	271	276	EpCAM	Gene	4072
+34467250	356	362	murine	Species	10090
+34467250	363	367	Kras	Gene	16653
+34467250	518	544	non-small-cell lung cancer	Disease	MESH:D002289
+34467250	545	552	patient	Species	9606
+34467250	735	739	EGFR	Gene	1956
+34467250	747	766	lung adenocarcinoma	Disease	MESH:D000077192
+34467250	767	774	patient	Species	9606
+34467250	789	800	osimertinib	Chemical	MESH:C000596361
+34467250	859	863	FUTC	Chemical	-
+34467250	910	920	disulfiram	Chemical	MESH:D004221
+34467250	944	955	carboplatin	Chemical	MESH:D016190
+34467250	961	970	etoposide	Chemical	MESH:D005047
+34467250	980	987	patient	Species	9606
+34467250	1160	1166	cancer	Disease	MESH:D009369
+34467250	Negative_Correlation	MESH:C000596361	MESH:D000077192
+34467250	Cotreatment	MESH:D005047	MESH:D016190
+34467250	Association	MESH:D000077192	1956
+34467250	Negative_Correlation	MESH:D004221	MESH:D009369
+34467250	Association	MESH:D009369	4072
+34467250	Negative_Correlation	MESH:D004221	MESH:D000077192
+34467250	Negative_Correlation	MESH:D016190	MESH:D009369
+

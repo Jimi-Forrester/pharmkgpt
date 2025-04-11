@@ -1,0 +1,19 @@
+33424635|t|3D Compressed Convolutional Neural Network Differentiates Neuromyelitis Optical Spectrum Disorders From Multiple Sclerosis Using Automated White Matter Hyperintensities Segmentations.
+33424635|a|BACKGROUND: Magnetic resonance imaging (MRI) has a wide range of applications in medical imaging. Recently, studies based on deep learning algorithms have demonstrated powerful processing capabilities for medical imaging data. Previous studies have mostly focused on common diseases that usually have large scales of datasets and centralized the lesions in the brain. In this paper, we used deep learning models to process MRI images to differentiate the rare neuromyelitis optical spectrum disorder (NMOSD) from multiple sclerosis (MS) automatically, which are characterized by scattered and overlapping lesions. METHODS: We proposed a novel model structure to capture 3D MRI images' essential information and converted them into lower dimensions. To empirically prove the efficiency of our model, firstly, we used a conventional 3-dimensional (3D) model to classify the T2-weighted fluid-attenuated inversion recovery (T2-FLAIR) images and proved that the traditional 3D convolutional neural network (CNN) models lack the learning capacity to distinguish between NMOSD and MS. Then, we compressed the 3D T2-FLAIR images by a two-view compression block to apply two different depths (18 and 34 layers) of 2D models for disease diagnosis and also applied transfer learning by pre-training our model on ImageNet dataset. RESULTS: We found that our models possess superior performance when our models were pre-trained on ImageNet dataset, in which the models' average accuracies of 34 layers model and 18 layers model were 0.75 and 0.725, sensitivities were 0.707 and 0.708, and specificities were 0.759 and 0.719, respectively. Meanwhile, the traditional 3D CNN models lacked the learning capacity to distinguish between NMOSD and MS. CONCLUSION: The novel CNN model we proposed could automatically differentiate the rare NMOSD from MS, especially, our model showed better performance than traditional3D CNN models. It indicated that our 3D compressed CNN models are applicable in handling diseases with small-scale datasets and possess overlapping and scattered lesions.
+33424635	58	71	Neuromyelitis	Disease	MESH:D009471
+33424635	89	98	Disorders	Disease	MESH:D009358
+33424635	104	122	Multiple Sclerosis	Disease	MESH:D009103
+33424635	530	537	lesions	Disease	MESH:D009059
+33424635	644	683	neuromyelitis optical spectrum disorder	Disease	MESH:D009471
+33424635	685	690	NMOSD	Disease	MESH:D009471
+33424635	697	715	multiple sclerosis	Disease	MESH:D009103
+33424635	717	719	MS	Disease	MESH:D009103
+33424635	789	796	lesions	Disease	MESH:D009059
+33424635	1249	1254	NMOSD	Disease	MESH:D009471
+33424635	1259	1261	MS	Disease	MESH:D009103
+33424635	1904	1909	NMOSD	Disease	MESH:D009471
+33424635	1914	1916	MS	Disease	MESH:D009103
+33424635	2005	2010	NMOSD	Disease	MESH:D009471
+33424635	2016	2018	MS	Disease	MESH:D009103
+33424635	2246	2253	lesions	Disease	MESH:D009059
+

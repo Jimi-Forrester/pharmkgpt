@@ -1,0 +1,17 @@
+35155574|t|Mathematical Modeling of Proliferative Immune Response Initiated by Interactions Between Classical Antigen-Presenting Cells Under Joint Antagonistic IL-2 and IL-4 Signaling.
+35155574|a|During an adaptive immune response from pathogen invasion, multiple cytokines are produced by various immune cells interacting jointly at the cellular level to mediate several processes. For example, studies have shown that regulation of interleukin-4 (IL-4) correlates with interleukin-2 (IL-2) induced lymphocyte proliferation. This motivates the need to better understand and model the mechanisms driving the dynamic interplay of proliferation of lymphocytes with the complex interaction effects of cytokines during an immune response. To address this challenge, we adopt a hybrid computational approach comprising of continuous, discrete and stochastic non-linear model formulations to predict a system-level immune response as a function of multiple dependent signals and interacting agents including cytokines and targeted immune cells. We propose a hybrid ordinary differential equation-based (ODE) multicellular model system with a stochastic component of antigen microscopic states denoted as Multiscale Multicellular Quantitative Evaluator (MMQE) implemented using MATLAB. MMQE combines well-defined immune response network-based rules and ODE models to capture the complex dynamic interactions between the proliferation levels of different types of communicating lymphocyte agents mediated by joint regulation of IL-2 and IL-4 to predict the emergent global behavior of the system during an immune response. We model the activation of the immune system in terms of different activation protocols of helper T cells by the interplay of independent biological agents of classic antigen-presenting cells (APCs) and their joint activation which is confounded by the exposure time to external pathogens. MMQE quantifies the dynamics of lymphocyte proliferation during pathogen invasion as bivariate distributions of IL-2 and IL-4 concentration levels. Specifically, by varying activation agents such as dendritic cells (DC), B cells and their joint mechanism of activation, we quantify how lymphocyte activation and differentiation protocols boost the immune response against pathogen invasion mediated by a joint downregulation of IL-4 and upregulation of IL-2. We further compare our in-silico results to in-vivo and in-vitro experimental studies for validation. In general, MMQE combines intracellular and extracellular effects from multiple interacting systems into simpler dynamic behaviors for better interpretability. It can be used to aid engineering of anti-infection drugs or optimizing drug combination therapies against several diseases.
+35155574	149	153	IL-2	Gene	3558
+35155574	158	162	IL-4	Gene	3565
+35155574	412	425	interleukin-4	Gene	3565
+35155574	427	431	IL-4	Gene	3565
+35155574	449	462	interleukin-2	Gene	3558
+35155574	464	468	IL-2	Gene	3558
+35155574	1498	1502	IL-2	Gene	3558
+35155574	1507	1511	IL-4	Gene	3565
+35155574	1995	1999	IL-2	Gene	3558
+35155574	2004	2008	IL-4	Gene	3565
+35155574	2311	2315	IL-4	Gene	3565
+35155574	2336	2340	IL-2	Gene	3558
+35155574	2646	2655	infection	Disease	MESH:D007239
+35155574	Bind	3558	3565
+

@@ -1,0 +1,19 @@
+39610828|t|Multi-fusion strategy network-guided cancer subtypes discovering based on multi-omics data.
+39610828|a|Introduction: The combination of next-generation sequencing technology and Cancer Genome Atlas (TCGA) data provides unprecedented opportunities for the discovery of cancer subtypes. Through comprehensive analysis and in-depth analysis of the genomic data of a large number of cancer patients, researchers can more accurately identify different cancer subtypes and reveal their molecular heterogeneity. Methods: In this paper, we propose the SMMSN (Self-supervised Multi-fusion Strategy Network) model for the discovery of cancer subtypes. SMMSN can not only fuse multi-level data representations of single omics data by Graph Convolutional Network (GCN) and Stacked Autoencoder Network (SAE), but also achieve the organic fusion of multi- -omics data through multiple fusion strategies. In response to the problem of lack label information in multi-omics data, SMMSN propose to use dual self-supervise method to cluster cancer subtypes from the integrated data. Results: We conducted experiments on three labeled and five unlabeled multi-omics datasets to distinguish potential cancer subtypes. Kaplan Meier survival curves and other results showed that SMMSN can obtain cancer subtypes with significant differences. Discussion: In the case analysis of Glioblastoma Multiforme (GBM) and Breast Invasive Carcinoma (BIC), we conducted survival time and age distribution analysis, drug response analysis, differential expression analysis, functional enrichment analysis on the predicted cancer subtypes. The research results showed that SMMSN can discover clinically meaningful cancer subtypes.
+39610828	37	43	cancer	Disease	MESH:D009369
+39610828	167	173	Cancer	Disease	MESH:D009369
+39610828	257	263	cancer	Disease	MESH:D009369
+39610828	368	374	cancer	Disease	MESH:D009369
+39610828	375	383	patients	Species	9606
+39610828	436	442	cancer	Disease	MESH:D009369
+39610828	614	620	cancer	Disease	MESH:D009369
+39610828	1012	1018	cancer	Disease	MESH:D009369
+39610828	1170	1176	cancer	Disease	MESH:D009369
+39610828	1263	1269	cancer	Disease	MESH:D009369
+39610828	1345	1368	Glioblastoma Multiforme	Disease	MESH:D005909
+39610828	1370	1373	GBM	Disease	MESH:D005909
+39610828	1379	1404	Breast Invasive Carcinoma	Disease	MESH:D001943
+39610828	1406	1409	BIC	Disease	MESH:D001943
+39610828	1576	1582	cancer	Disease	MESH:D009369
+39610828	1667	1673	cancer	Disease	MESH:D009369
+

@@ -1,0 +1,35 @@
+31692446|t|Negative regulation of autophagy by UBA6-BIRC6-mediated ubiquitination of LC3.
+31692446|a|Although the process of autophagy has been extensively studied, the mechanisms that regulate it remain insufficiently understood. To identify novel autophagy regulators, we performed a whole-genome CRISPR/Cas9 knockout screen in H4 human neuroglioma cells expressing endogenous LC3B tagged with a tandem of GFP and mCherry. Using this methodology, we identified the ubiquitin-activating enzyme UBA6 and the hybrid ubiquitin-conjugating enzyme/ubiquitin ligase BIRC6 as autophagy regulators. We found that these enzymes cooperate to monoubiquitinate LC3B, targeting it for proteasomal degradation. Knockout of UBA6 or BIRC6 increased autophagic flux under conditions of nutrient deprivation or protein synthesis inhibition. Moreover, UBA6 or BIRC6 depletion decreased the formation of aggresome-like induced structures in H4 cells, and alpha-synuclein aggregates in rat hippocampal neurons. These findings demonstrate that UBA6 and BIRC6 negatively regulate autophagy by limiting the availability of LC3B. Inhibition of UBA6/BIRC6 could be used to enhance autophagic clearance of protein aggregates in neurodegenerative disorders.
+31692446	36	40	UBA6	Gene	55236
+31692446	41	46	BIRC6	Gene	57448
+31692446	74	77	LC3	Gene	84557
+31692446	308	310	H4	CellLine	CVCL:JF98
+31692446	311	316	human	Species	9606
+31692446	317	328	neuroglioma	Disease	
+31692446	357	361	LC3B	Gene	81631
+31692446	473	477	UBA6	Gene	55236
+31692446	539	544	BIRC6	Gene	57448
+31692446	628	632	LC3B	Gene	81631
+31692446	688	692	UBA6	Gene	55236
+31692446	696	701	BIRC6	Gene	57448
+31692446	812	816	UBA6	Gene	55236
+31692446	820	825	BIRC6	Gene	57448
+31692446	900	902	H4	CellLine	CVCL:JF98
+31692446	914	929	alpha-synuclein	Gene	29219
+31692446	944	947	rat	Species	10116
+31692446	1001	1005	UBA6	Gene	55236
+31692446	1010	1015	BIRC6	Gene	57448
+31692446	1078	1083	LC3B.	Gene	81631
+31692446	1098	1102	UBA6	Gene	55236
+31692446	1103	1108	BIRC6	Gene	57448
+31692446	1180	1207	neurodegenerative disorders	Disease	MESH:D019636
+31692446	Association	MESH:D019636	55236
+31692446	Negative_Correlation	57448	81631
+31692446	Negative_Correlation	29219	55236
+31692446	Association	MESH:D019636	81631
+31692446	Association	55236	84557
+31692446	Association	MESH:D019636	57448
+31692446	Negative_Correlation	55236	81631
+31692446	Association	57448	84557
+31692446	Positive_Correlation	29219	57448
+

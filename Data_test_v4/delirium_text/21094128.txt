@@ -1,0 +1,70 @@
+21094128|t|MAPK signaling in H9c2 cardiomyoblasts exposed to cholesterol secoaldehyde--role of hydrogen peroxide.
+21094128|a|3beta-Hydroxy-5,6-secocholestan-6-al (cholesterol secoaldehyde or ChSeco), an oxysterol known to be formed in ozone- and singlet oxygen-mediated oxidations of cholesterol, has been detected in the atherosclerotic plaque and in the brain of patients suffering from Alzheimer's disease and Lewy body dementia. Previously, we have shown that, in H9c2 cardiomyoblasts, ChSeco induces oxidative stress followed by apoptosis involving both intrinsic and extrinsic signaling pathways. In the present study, we investigated the nature of reactive oxygen species (ROS) and its associated redox signaling in H9c2 cells upon treatment with ChSeco. Both catalase and deferoxamine, which lowered intracellular ROS, were found to alleviate the ChSeco-induced cytotoxicity. ChSeco-treated H9c2 cells showed a significant decrease in the intracellular catalase activity, suggesting the involvement of H(2)O(2) in the associated cytotoxicity. Additionally, in ChSeco-exposed cells, there was a marked increase in lipid peroxidation and pre-treatment with SB 203580 (p38 MAPK inhibitor) and MEK1/2 inhibitor (ERK1/2 and JNK inhibitor) rendered protection against the cytotoxicity. An early increase in the expression of p-SAPK/JNK or delayed p38 MAPK did not alter ATF-2 but decreased c-Jun expression in these cells. Overall, these findings are consistent with MAPK signaling resulting from increased cellular H(2)O(2) in ChSeco-induced cytotoxicity in cardiomyoblasts.
+21094128	18	22	H9c2	CellLine	CVCL:0286
+21094128	50	74	cholesterol secoaldehyde	Chemical	MESH:C082684
+21094128	84	101	hydrogen peroxide	Chemical	MESH:D006861
+21094128	103	139	3beta-Hydroxy-5,6-secocholestan-6-al	Chemical	-
+21094128	141	165	cholesterol secoaldehyde	Chemical	MESH:C082684
+21094128	169	175	ChSeco	Chemical	MESH:C082684
+21094128	181	190	oxysterol	Chemical	MESH:D000072376
+21094128	213	218	ozone	Chemical	MESH:D010126
+21094128	224	238	singlet oxygen	Chemical	MESH:D026082
+21094128	262	273	cholesterol	Chemical	MESH:D002784
+21094128	300	322	atherosclerotic plaque	Disease	MESH:D058226
+21094128	343	351	patients	Species	9606
+21094128	367	386	Alzheimer's disease	Disease	MESH:D000544
+21094128	391	409	Lewy body dementia	Disease	MESH:D020961
+21094128	446	450	H9c2	CellLine	CVCL:0286
+21094128	633	656	reactive oxygen species	Chemical	MESH:D017382
+21094128	658	661	ROS	Chemical	MESH:D017382
+21094128	701	705	H9c2	CellLine	CVCL:0286
+21094128	732	738	ChSeco	Chemical	MESH:C082684
+21094128	745	753	catalase	Gene	24248
+21094128	758	770	deferoxamine	Chemical	MESH:D003676
+21094128	800	803	ROS	Chemical	MESH:D017382
+21094128	833	839	ChSeco	Chemical	MESH:C082684
+21094128	848	860	cytotoxicity	Disease	MESH:D064420
+21094128	862	868	ChSeco	Chemical	MESH:C082684
+21094128	877	881	H9c2	CellLine	CVCL:0286
+21094128	939	947	catalase	Gene	24248
+21094128	988	996	H(2)O(2)	Chemical	MESH:D006861
+21094128	1015	1027	cytotoxicity	Disease	MESH:D064420
+21094128	1046	1052	ChSeco	Chemical	MESH:C082684
+21094128	1099	1104	lipid	Chemical	MESH:D008055
+21094128	1141	1150	SB 203580	Chemical	MESH:C093642
+21094128	1176	1182	MEK1/2	Gene	170851;58960
+21094128	1194	1200	ERK1/2	Gene	50689;116590
+21094128	1205	1208	JNK	Gene	116554
+21094128	1252	1264	cytotoxicity	Disease	MESH:D064420
+21094128	1307	1311	SAPK	Gene	50658
+21094128	1312	1315	JNK	Gene	116554
+21094128	1350	1355	ATF-2	Gene	81647
+21094128	1496	1504	H(2)O(2)	Chemical	MESH:D006861
+21094128	1508	1514	ChSeco	Chemical	MESH:C082684
+21094128	1523	1535	cytotoxicity	Disease	MESH:D064420
+21094128	Negative_Correlation	MESH:D017382	24248
+21094128	Association	MESH:C082684	MESH:D000544
+21094128	Negative_Correlation	MESH:D003676	MESH:D064420
+21094128	Positive_Correlation	MESH:C082684	MESH:D064420
+21094128	Negative_Correlation	116590	58960
+21094128	Association	MESH:C082684	MESH:D058226
+21094128	Negative_Correlation	MESH:C093642	MESH:D064420
+21094128	Association	MESH:D064420	116554
+21094128	Negative_Correlation	MESH:D003676	MESH:D017382
+21094128	Association	MESH:D000072376	MESH:D026082
+21094128	Association	MESH:C082684	116554
+21094128	Association	MESH:C082684	MESH:D020961
+21094128	Association	MESH:C082684	MESH:D008055
+21094128	Association	MESH:D002784	MESH:D010126
+21094128	Negative_Correlation	50689	58960
+21094128	Association	MESH:D002784	MESH:D026082
+21094128	Negative_Correlation	MESH:C082684	MESH:D003676
+21094128	Negative_Correlation	116590	170851
+21094128	Negative_Correlation	MESH:C082684	24248
+21094128	Association	MESH:C082684	MESH:C093642
+21094128	Association	MESH:C082684	MESH:D026082
+21094128	Negative_Correlation	170851	50689
+21094128	Association	MESH:D006861	MESH:D064420
+21094128	Association	MESH:C082684	MESH:D006861
+21094128	Association	MESH:D064420	24248
+

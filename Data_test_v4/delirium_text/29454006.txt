@@ -1,0 +1,26 @@
+29454006|t|Predicting cognitive decline with deep learning of brain metabolism and amyloid imaging.
+29454006|a|For effective treatment of Alzheimer's disease (AD), it is important to identify subjects who are most likely to exhibit rapid cognitive decline. We aimed to develop an automatic image interpretation system based on a deep convolutional neural network (CNN) which can accurately predict future cognitive decline in mild cognitive impairment (MCI) patients using flurodeoxyglucose and florbetapir positron emission tomography (PET). PET images of 139 patients with AD, 171 patients with MCI and 182 normal subjects obtained from Alzheimer's Disease Neuroimaging Initiative database were used. Deep CNN was trained using 3-dimensional PET volumes of AD and normal controls as inputs. Manually defined image feature extraction such as quantification using predefined region-of-interests was unnecessary for our approach. Furthermore, it used minimally processed images without spatial normalization which has been commonly used in conventional quantitative analyses. Cognitive outcome of MCI subjects was predicted using this network. The prediction accuracy of the conversion of mild cognitive impairment to AD was compared with the conventional feature-based quantification approach. Accuracy of prediction (84.2%) for conversion to AD in MCI patients outperformed conventional feature-based quantification approaches. ROC analyses revealed that performance of CNN-based approach was significantly higher than that of the conventional quantification methods (p < 0.05). Output scores of the network were strongly correlated with the longitudinal change in cognitive measurements (p < 0.05). These results show the feasibility of deep learning as a practical tool for developing predictive neuroimaging biomarker.
+29454006	11	28	cognitive decline	Disease	MESH:D003072
+29454006	72	79	amyloid	Disease	MESH:C000718787
+29454006	116	135	Alzheimer's disease	Disease	MESH:D000544
+29454006	137	139	AD	Disease	MESH:D000544
+29454006	216	233	cognitive decline	Disease	MESH:D003072
+29454006	383	400	cognitive decline	Disease	MESH:D003072
+29454006	409	429	cognitive impairment	Disease	MESH:D003072
+29454006	431	434	MCI	Disease	MESH:D060825
+29454006	436	444	patients	Species	9606
+29454006	451	468	flurodeoxyglucose	Chemical	-
+29454006	473	484	florbetapir	Chemical	MESH:C545186
+29454006	539	547	patients	Species	9606
+29454006	553	555	AD	Disease	MESH:D000544
+29454006	561	569	patients	Species	9606
+29454006	575	578	MCI	Disease	MESH:D060825
+29454006	617	636	Alzheimer's Disease	Disease	MESH:D000544
+29454006	737	739	AD	Disease	MESH:D000544
+29454006	1074	1077	MCI	Disease	MESH:D060825
+29454006	1171	1191	cognitive impairment	Disease	MESH:D003072
+29454006	1195	1197	AD	Disease	MESH:D000544
+29454006	1321	1323	AD	Disease	MESH:D000544
+29454006	1327	1330	MCI	Disease	MESH:D060825
+29454006	1331	1339	patients	Species	9606
+

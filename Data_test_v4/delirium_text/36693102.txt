@@ -1,0 +1,61 @@
+36693102|t|Faulty TRPM4 channels underlie age-dependent cerebral vascular dysfunction in Gould syndrome.
+36693102|a|Gould syndrome is a rare multisystem disorder resulting from autosomal dominant mutations in the collagen-encoding genes COL4A1 and COL4A2. Human patients and Col4a1 mutant mice display brain pathology that typifies cerebral small vessel diseases (cSVDs), including white matter hyperintensities, dilated perivascular spaces, lacunar infarcts, microbleeds, and spontaneous intracerebral hemorrhage. The underlying pathogenic mechanisms are unknown. Using the Col4a1+/G394V mouse model, we found that vasoconstriction in response to internal pressure-the vascular myogenic response-is blunted in cerebral arteries from middle-aged (12 mo old) but not young adult (3 mo old) animals, revealing age-dependent cerebral vascular dysfunction. The defect in the myogenic response was associated with a significant decrease in depolarizing cation currents conducted by TRPM4 (transient receptor potential melastatin 4) channels in native cerebral artery smooth muscle cells (SMCs) isolated from mutant mice. The minor membrane phospholipid phosphatidylinositol 4,5 bisphosphate (PIP2) is necessary for TRPM4 activity. Dialyzing SMCs with PIP2 and selective blockade of phosphoinositide 3-kinase (PI3K), an enzyme that converts PIP2 to phosphatidylinositol (3, 4, 5)-trisphosphate (PIP3), restored TRPM4 currents. Acute inhibition of PI3K activity and blockade of transforming growth factor-beta (TGF-beta) receptors also rescued the myogenic response, suggesting that hyperactivity of TGF-beta signaling pathways stimulates PI3K to deplete PIP2 and impair TRPM4 channels. We conclude that age-related cerebral vascular dysfunction in Col4a1+/G394V mice is caused by the loss of depolarizing TRPM4 currents due to PIP2 depletion, revealing an age-dependent mechanism of cSVD.
+36693102	7	12	TRPM4	Gene	68667
+36693102	45	74	cerebral vascular dysfunction	Disease	MESH:D002561
+36693102	78	92	Gould syndrome	Disease	OMIM:175780
+36693102	94	108	Gould syndrome	Disease	OMIM:175780
+36693102	215	221	COL4A1	Gene	1282
+36693102	226	232	COL4A2	Gene	1284
+36693102	234	239	Human	Species	9606
+36693102	240	248	patients	Species	9606
+36693102	253	259	Col4a1	Gene	12826
+36693102	267	271	mice	Species	10090
+36693102	310	340	cerebral small vessel diseases	Disease	MESH:D059345
+36693102	342	347	cSVDs	Disease	MESH:D059345
+36693102	360	389	white matter hyperintensities	Disease	MESH:D056784
+36693102	420	436	lacunar infarcts	Disease	MESH:D059409
+36693102	438	449	microbleeds	Disease	
+36693102	467	491	intracerebral hemorrhage	Disease	MESH:D002543
+36693102	553	559	Col4a1	Gene	12826
+36693102	561	566	G394V	ProteinMutation	tmVar:p|SUB|G|394|V;HGVS:p.G394V;VariantGroup:0;OriginalGene:12826;CorrespondingGene:1282;CorrespondingSpecies:10090
+36693102	567	572	mouse	Species	10090
+36693102	800	829	cerebral vascular dysfunction	Disease	MESH:D002561
+36693102	955	960	TRPM4	Gene	68667
+36693102	962	1003	transient receptor potential melastatin 4	Gene	68667
+36693102	1088	1092	mice	Species	10090
+36693102	1126	1163	phosphatidylinositol 4,5 bisphosphate	Chemical	MESH:D019269
+36693102	1165	1169	PIP2	Chemical	MESH:D019269
+36693102	1188	1193	TRPM4	Gene	68667
+36693102	1224	1228	PIP2	Chemical	MESH:D019269
+36693102	1255	1280	phosphoinositide 3-kinase	Gene	18708
+36693102	1313	1317	PIP2	Chemical	MESH:D019269
+36693102	1321	1365	phosphatidylinositol (3, 4, 5)-trisphosphate	Chemical	MESH:C060974
+36693102	1367	1371	PIP3	Chemical	-
+36693102	1383	1388	TRPM4	Gene	68667
+36693102	1626	1630	PIP2	Chemical	MESH:D019269
+36693102	1642	1647	TRPM4	Gene	68667
+36693102	1687	1716	cerebral vascular dysfunction	Disease	MESH:D002561
+36693102	1720	1726	Col4a1	Gene	12826
+36693102	1728	1733	G394V	ProteinMutation	tmVar:p|SUB|G|394|V;HGVS:p.G394V;VariantGroup:0;OriginalGene:12826;CorrespondingGene:1282;CorrespondingSpecies:10090
+36693102	1734	1738	mice	Species	10090
+36693102	1777	1782	TRPM4	Gene	68667
+36693102	1799	1803	PIP2	Chemical	MESH:D019269
+36693102	1855	1859	cSVD	Disease	
+36693102	Association	MESH:D002561	HGVS:p.G394V;CorrespondingGene:1282
+36693102	Association	MESH:D019269	HGVS:p.G394V;CorrespondingGene:1282
+36693102	Association	MESH:D059409	12826
+36693102	Association	OMIM:175780	1282
+36693102	Positive_Correlation	MESH:D019269	68667
+36693102	Association	OMIM:175780	68667
+36693102	Association	12826	68667
+36693102	Negative_Correlation	MESH:D019269	MESH:D002561
+36693102	Association	MESH:D002543	12826
+36693102	Association	OMIM:175780	1284
+36693102	Association	MESH:D059345	12826
+36693102	Association	MESH:D002561	68667
+36693102	Association	MESH:D019269	18708
+36693102	Association	MESH:D056784	12826
+36693102	Association	MESH:C060974	18708
+36693102	Association	18708	68667
+36693102	Association	MESH:D002561	1282
+

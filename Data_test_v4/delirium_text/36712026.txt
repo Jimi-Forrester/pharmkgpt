@@ -1,0 +1,39 @@
+36712026|t|APOE3 Christchurch modulates tau phosphorylation and beta-catenin/Wnt/Cadherin signaling in induced pluripotent stem cell-derived cerebral organoids from Alzheimer's cases.
+36712026|a|Alzheimer's disease (AD) is the most common cause of dementia among older adults. APOE3 Christchurch (R136S, APOE3Ch ) variant homozygosity was reported in an individual with extreme resistance to autosomal dominant AD due to the PSEN1 E280A mutation. This subject had a delayed clinical age at onset and resistance to tauopathy and neurodegeneration despite extremely high amyloid plaque burden. We established induced pluripotent stem (iPS) cell-derived cerebral organoids from this resistant case and from a non-protected kindred control (with PSEN1 E280A and APOE3/3 ). We used CRISPR/Cas9 gene editing to successfully remove the APOE3Ch to wild type in iPS cells from the protected case and to introduce the APOE3Ch as homozygote in iPS cells from the non-protected case to examine causality. We found significant reduction of tau phosphorylation (pTau 202/205 and pTau396) in cerebral organoids with the APOE3Ch variant, consistent with the strikingly reduced tau pathology found in the resistant case. We identified Cadherin and Wnt pathways as signaling mechanisms regulated by the APOE3Ch variant through single cell RNA sequencing in cerebral organoids. We also identified elevated beta-catenin protein, a regulator of tau phosphorylation, as a candidate mediator of APOE3Ch resistance to tauopathy. Our findings show that APOE3Ch is necessary and sufficient to confer resistance to tauopathy in an experimental ex-vivo model establishing a foundation for the development of novel, protected case-inspired therapeutics for tauopathies, including Alzheimer's.
+36712026	0	5	APOE3	Gene	348
+36712026	29	32	tau	Gene	4137
+36712026	53	65	beta-catenin	Gene	1499
+36712026	154	165	Alzheimer's	Disease	MESH:D000544
+36712026	173	192	Alzheimer's disease	Disease	MESH:D000544
+36712026	194	196	AD	Disease	MESH:D000544
+36712026	226	234	dementia	Disease	MESH:D003704
+36712026	255	260	APOE3	Gene	348
+36712026	275	280	R136S	ProteinMutation	tmVar:p|SUB|R|136|S;HGVS:p.R136S;VariantGroup:1;CorrespondingGene:348;CorrespondingSpecies:9606
+36712026	389	391	AD	Disease	MESH:D000544
+36712026	403	408	PSEN1	Gene	5663
+36712026	409	414	E280A	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:0;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+36712026	492	501	tauopathy	Disease	MESH:D024801
+36712026	506	523	neurodegeneration	Disease	MESH:D019636
+36712026	547	561	amyloid plaque	Disease	MESH:D058225
+36712026	720	725	PSEN1	Gene	5663
+36712026	726	731	E280A	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:0;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+36712026	736	743	APOE3/3	Gene	348
+36712026	1005	1008	tau	Gene	4137
+36712026	1139	1142	tau	Gene	4137
+36712026	1365	1377	beta-catenin	Gene	1499
+36712026	1402	1405	tau	Gene	4137
+36712026	1472	1481	tauopathy	Disease	MESH:D024801
+36712026	1566	1575	tauopathy	Disease	MESH:D024801
+36712026	1706	1717	tauopathies	Disease	MESH:D024801
+36712026	1729	1740	Alzheimer's	Disease	MESH:D000544
+36712026	Association	MESH:D024801	4137
+36712026	Negative_Correlation	MESH:D000544	RS#:63750231;HGVS:p.E280A;CorrespondingGene:5663
+36712026	Association	MESH:D000544	4137
+36712026	Association	MESH:D000544	348
+36712026	Negative_Correlation	MESH:D000544	HGVS:p.R136S;CorrespondingGene:348
+36712026	Association	1499	348
+36712026	Association	348	4137
+36712026	Association	1499	4137
+36712026	Association	MESH:D000544	5663
+36712026	Association	MESH:D000544	348
+

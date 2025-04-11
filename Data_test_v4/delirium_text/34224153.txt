@@ -1,0 +1,49 @@
+34224153|t|Generation of synthetic PET images of synaptic density and amyloid from 18 F-FDG images using deep learning.
+34224153|a|PURPOSE: Positron emission tomography (PET) imaging with various tracers is increasingly used in Alzheimer's disease (AD) studies. However, access to PET scans using new or less-available tracers with sophisticated synthesis and short half-life isotopes may be very limited. Therefore, it is of great significance and interest in AD research to assess the feasibility of generating synthetic PET images of less-available tracers from the PET image of another common tracer, in particular 18 F-FDG. METHODS: We implemented advanced deep learning methods using the U-Net model to predict 11 C-UCB-J PET images of synaptic vesicle protein 2A (SV2A), a surrogate of synaptic density, from 18 F-FDG PET data. Dynamic 18 F-FDG and 11 C-UCB-J scans were performed in 21 participants with normal cognition (CN) and 33 participants with Alzheimer's disease (AD). Cerebellum was used as the reference region for both tracers. For 11 C-UCB-J image prediction, four network models were trained and tested, which included 1) 18 F-FDG SUV ratio (SUVR) to 11 C-UCB-J SUVR, 2) 18 F-FDG Ki ratio to 11 C-UCB-J SUVR, 3) 18 F-FDG SUVR to 11 C-UCB-J distribution volume ratio (DVR), and 4) 18 F-FDG Ki ratio to 11 C-UCB-J DVR. The normalized root mean square error (NRMSE), structure similarity index (SSIM), and Pearson's correlation coefficient were calculated for evaluating the overall image prediction accuracy. Mean bias of various ROIs in the brain and correlation plots between predicted images and true images were calculated for ROI-based prediction accuracy. Following a similar training and evaluation strategy, 18 F-FDG SUVR to 11 C-PiB SUVR network was also trained and tested for 11 C-PiB static image prediction. RESULTS: The results showed that all four network models obtained satisfactory 11 C-UCB-J static and parametric images. For 11 C-UCB-J SUVR prediction, the mean ROI bias was -0.3% +- 7.4% for the AD group and -0.5% +- 7.3% for the CN group with 18 F-FDG SUVR as the input, -0.7% +- 8.1% for the AD group, and -1.3% +- 7.0% for the CN group with 18 F-FDG Ki ratio as the input. For 11 C-UCB-J DVR prediction, the mean ROI bias was -1.3% +- 7.5% for the AD group and -2.0% +- 6.9% for the CN group with 18 F-FDG SUVR as the input, -0.7% +- 9.0% for the AD group, and -1.7% +- 7.8% for the CN group with 18 F-FDG Ki ratio as the input. For 11 C-PiB SUVR image prediction, which appears to be a more challenging task, the incorporation of additional diagnostic information into the network is needed to control the bias below 5% for most ROIs. CONCLUSIONS: It is feasible to use 3D U-Net-based methods to generate synthetic 11 C-UCB-J PET images from 18 F-FDG images with reasonable prediction accuracy. It is also possible to predict 11 C-PiB SUVR images from 18 F-FDG images, though the incorporation of additional non-imaging information is needed.
+34224153	59	66	amyloid	Disease	MESH:C000718787
+34224153	72	80	18 F-FDG	Chemical	MESH:D019788
+34224153	206	225	Alzheimer's disease	Disease	MESH:D000544
+34224153	227	229	AD	Disease	MESH:D000544
+34224153	439	441	AD	Disease	MESH:D000544
+34224153	597	605	18 F-FDG	Chemical	MESH:D019788
+34224153	695	705	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	720	747	synaptic vesicle protein 2A	Gene	9900
+34224153	749	753	SV2A	Gene	9900
+34224153	794	802	18 F-FDG	Chemical	MESH:D019788
+34224153	821	829	18 F-FDG	Chemical	MESH:D019788
+34224153	834	844	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	937	956	Alzheimer's disease	Disease	MESH:D000544
+34224153	958	960	AD	Disease	MESH:D000544
+34224153	1029	1039	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	1121	1129	18 F-FDG	Chemical	MESH:D019788
+34224153	1150	1160	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	1170	1178	18 F-FDG	Chemical	MESH:D019788
+34224153	1191	1201	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	1211	1219	18 F-FDG	Chemical	MESH:D019788
+34224153	1228	1238	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	1279	1287	18 F-FDG	Chemical	MESH:D019788
+34224153	1300	1310	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	1713	1721	18 F-FDG	Chemical	MESH:D019788
+34224153	1730	1738	11 C-PiB	Chemical	MESH:C475519
+34224153	1784	1792	11 C-PiB	Chemical	MESH:C475519
+34224153	1897	1907	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	1942	1952	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	2014	2016	AD	Disease	MESH:D000544
+34224153	2063	2071	18 F-FDG	Chemical	MESH:D019788
+34224153	2113	2115	AD	Disease	MESH:D000544
+34224153	2163	2171	18 F-FDG	Chemical	MESH:D019788
+34224153	2199	2209	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	2270	2272	AD	Disease	MESH:D000544
+34224153	2319	2327	18 F-FDG	Chemical	MESH:D019788
+34224153	2369	2371	AD	Disease	MESH:D000544
+34224153	2419	2427	18 F-FDG	Chemical	MESH:D019788
+34224153	2455	2463	11 C-PiB	Chemical	MESH:C475519
+34224153	2738	2748	11 C-UCB-J	Chemical	MESH:C000618323
+34224153	2765	2773	18 F-FDG	Chemical	MESH:D019788
+34224153	2849	2857	11 C-PiB	Chemical	MESH:C475519
+34224153	2875	2883	18 F-FDG	Chemical	MESH:D019788
+34224153	Association	MESH:C000618323	9900
+34224153	Association	MESH:C000618323	MESH:D000544
+34224153	Association	MESH:D019788	MESH:C000718787
+34224153	Association	MESH:D019788	MESH:D000544
+

@@ -1,0 +1,21 @@
+38550989|t|Disease phenotypic screening in neuron-glia cocultures identifies blockers of inflammatory neurodegeneration.
+38550989|a|Neuropathology is often mediated by interactions between neurons and glia that cannot be modeled by monocultures. However, cocultures are difficult to use and analyze for high-content screening. Here, we perform compound screening using primary neuron-glia cultures to model inflammatory neurodegeneration, live-cell stains, and automated classification of neurons, astrocytes or microglia using open-source software. Out of 227 compounds with known bioactivities, 29 protected against lipopolysaccharide-induced neuronal loss, including drugs affecting adrenergic, steroid, inflammatory and MAP kinase signaling. The screen also identified physiological compounds, such as noradrenaline and progesterone, that protected and identified neurotoxic compounds, such as a TLR7 agonist, that induced microglial proliferation. Most compounds used here have not been tested in a neuron-glia coculture neurodegeneration assay previously. Thus, combining a complex cellular disease model with high-content screening of known compounds and automated image analysis allows identification of important biology, as well as potential targets and drugs for treatment.
+38550989	78	90	inflammatory	Disease	MESH:D007249
+38550989	91	108	neurodegeneration	Disease	MESH:D019636
+38550989	385	397	inflammatory	Disease	MESH:D007249
+38550989	398	415	neurodegeneration	Disease	MESH:D019636
+38550989	596	614	lipopolysaccharide	Chemical	MESH:D008070
+38550989	623	636	neuronal loss	Disease	MESH:D009410
+38550989	676	683	steroid	Chemical	MESH:D013256
+38550989	685	697	inflammatory	Disease	MESH:D007249
+38550989	784	797	noradrenaline	Chemical	MESH:D009638
+38550989	802	814	progesterone	Chemical	MESH:D011374
+38550989	846	856	neurotoxic	Disease	MESH:D020258
+38550989	878	882	TLR7	Gene	51284
+38550989	1004	1021	neurodegeneration	Disease	MESH:D019636
+38550989	Negative_Correlation	MESH:D009638	MESH:D020258
+38550989	Association	MESH:D008070	MESH:D007249
+38550989	Association	MESH:D020258	51284
+38550989	Positive_Correlation	MESH:D008070	MESH:D009410
+38550989	Negative_Correlation	MESH:D011374	MESH:D020258
+

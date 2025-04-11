@@ -1,0 +1,57 @@
+35432486|t|Identification and Verification of Potential Hub Genes in Amphetamine-Type Stimulant (ATS) and Opioid Dependence by Bioinformatic Analysis.
+35432486|a|Objective: Amphetamine-type stimulant (ATS) and opioid dependencies are chronic inflammatory diseases with similar symptoms and common genomics. However, their coexpressive genes have not been thoroughly investigated. We aimed to identify and verify the coexpressive hub genes and pathway involved in the pathogenesis of ATS and opioid dependencies. Methods: The microarray of ATS- and opioid-treatment mouse models was obtained from the Gene Expression Omnibus database. GEO2R and Venn diagram were performed to identify differentially expressed genes (DEGs) and coexpressive DEGs (CDEGs). Functional annotation and protein-protein interaction network detected the potential functions. The hub genes were screened using the CytoHubba and MCODE plugin with different algorithms, and further validated by receiver operating characteristic analysis in the GSE15774 database. We also validated the hub genes mRNA levels in BV2 cells using qPCR. Result: Forty-four CDEGs were identified between ATS and opioid databases, which were prominently enriched in the PI3K/Akt signaling pathway. The top 10 hub genes were mainly enriched in apoptotic process (CD44, Dusp1, Sgk1, and Hspa1b), neuron differentiation, migration, and proliferation (Nr4a2 and Ddit4), response to external stimulation (Fos and Cdkn1a), and transcriptional regulation (Nr4a2 and Npas4). Receiver operating characteristic (ROC) analysis found that six hub genes (Fos, Dusp1, Sgk1, Ddit4, Cdkn1a, and Nr4a2) have an area under the curve (AUC) of more than 0.70 in GSE15774. The mRNA levels of Fos, Dusp1, Sgk1, Ddit4, Cdkn1a, PI3K, and Akt in BV2 cells and GSE15774 with METH and heroin treatments were higher than those of controls. However, the Nr4a2 mRNA levels increased in BV2 cells and decreased in the bioinformatic analysis. Conclusions: The identification of hub genes was associated with ATS and opioid dependencies, which were involved in apoptosis, neuron differentiation, migration, and proliferation. The PI3K/Akt signaling pathway might play a critical role in the pathogenesis of substance dependence.
+35432486	58	84	Amphetamine-Type Stimulant	Chemical	-
+35432486	95	112	Opioid Dependence	Disease	MESH:D009293
+35432486	151	177	Amphetamine-type stimulant	Chemical	-
+35432486	188	207	opioid dependencies	Disease	MESH:D009293
+35432486	212	241	chronic inflammatory diseases	Disease	MESH:D002908
+35432486	469	488	opioid dependencies	Disease	MESH:D009293
+35432486	543	548	mouse	Species	10090
+35432486	1060	1063	BV2	CellLine	CVCL:0182
+35432486	1201	1204	Akt	Gene	11651
+35432486	1288	1292	CD44	Gene	12505
+35432486	1294	1299	Dusp1	Gene	19252
+35432486	1301	1305	Sgk1	Gene	20393
+35432486	1311	1317	Hspa1b	Gene	15511
+35432486	1374	1379	Nr4a2	Gene	18227
+35432486	1384	1389	Ddit4	Gene	74747
+35432486	1426	1429	Fos	Gene	14281
+35432486	1434	1440	Cdkn1a	Gene	12575
+35432486	1475	1480	Nr4a2	Gene	18227
+35432486	1485	1490	Npas4	Gene	225872
+35432486	1568	1571	Fos	Gene	14281
+35432486	1573	1578	Dusp1	Gene	19252
+35432486	1580	1584	Sgk1	Gene	20393
+35432486	1586	1591	Ddit4	Gene	74747
+35432486	1593	1599	Cdkn1a	Gene	12575
+35432486	1605	1610	Nr4a2	Gene	18227
+35432486	1697	1700	Fos	Gene	14281
+35432486	1702	1707	Dusp1	Gene	19252
+35432486	1709	1713	Sgk1	Gene	20393
+35432486	1715	1720	Ddit4	Gene	74747
+35432486	1722	1728	Cdkn1a	Gene	12575
+35432486	1740	1743	Akt	Gene	11651
+35432486	1747	1750	BV2	CellLine	CVCL:0182
+35432486	1775	1779	METH	Chemical	-
+35432486	1784	1790	heroin	Chemical	MESH:D003932
+35432486	1851	1856	Nr4a2	Gene	18227
+35432486	1882	1885	BV2	CellLine	CVCL:0182
+35432486	2010	2029	opioid dependencies	Disease	MESH:D009293
+35432486	2128	2131	Akt	Gene	11651
+35432486	2200	2220	substance dependence	Disease	MESH:D019966
+35432486	Association	MESH:D009293	12505
+35432486	Positive_Correlation	MESH:D003932	20393
+35432486	Association	MESH:D009293	19252
+35432486	Association	MESH:D009293	74747
+35432486	Association	MESH:D009293	225872
+35432486	Association	MESH:D019966	11651
+35432486	Association	MESH:D009293	15511
+35432486	Positive_Correlation	MESH:D003932	14281
+35432486	Association	MESH:D009293	18227
+35432486	Positive_Correlation	MESH:D003932	11651
+35432486	Positive_Correlation	MESH:D003932	12575
+35432486	Positive_Correlation	MESH:D003932	19252
+35432486	Association	MESH:D009293	12575
+35432486	Positive_Correlation	MESH:D003932	74747
+35432486	Association	MESH:D009293	20393
+

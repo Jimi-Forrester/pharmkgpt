@@ -1,0 +1,39 @@
+34532215|t|Erythrina variegata L. bark: an untapped bioactive source harbouring therapeutic properties for the treatment of Alzheimer's disease.
+34532215|a|A critical approach for target identification to detect the significant molecular mechanism of lead molecules via computational methods combined with in vitro procedures defines the modern strategy to combat untreatable diseases. Hence, the present investigation dealt to determine the effect of Erythrina variegata L. bark extract/fraction(s) over acetylcholinesterase (AChE) and butyrylcholinesterase (BChE) inhibitory activity followed by target identification and docking analysis of prime phytoconstituents. The in vitro AChE and BChE enzyme inhibitory assay were performed. Phytoconstituents from E. variegata were screened for carcinogenicity and mutagenicity and predicted for their possible targets leading to the identification of two known targets, i.e. AChE and BChE. The alkaloids with non-carcinogenic and non-mutagenic properties were studied for their main moiety responsible for the inhibitory activity. The protein models were checked in ERRAT for their quality and the homology model was created using Modeller9.10v to fill missing amino acid residues. The docking study predicted the binding affinity of bioactive molecules with identified targets using AutoDock 4.2. Molecular dynamics (MD) simulations for top hits were performed by Schrodinger Desmond 6.1v software. Chloroform fraction showed potent inhibition of AChE and BChE with IC50 value of 38.03 +- 1.987 microg/mL and 20.67 +- 2.794 microg/mL, respectively. Among all the six major bioactive compounds, Erysotine and Erythraline scored the highest binding affinity with AChE and Erysodine with BChE. MD simulation for 20 ns production run demonstrated Erysotine and Erysodine stable interaction with Arg49 of AChE and Lys427 of BChE, respectively. The current data provide enough shreds of evidence supporting the utilization of indolo [7a,1-a] isoquinoline derivatives for the identification of a new drug molecule in the management of Alzheimer's disease. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s40203-021-00110-0.
+34532215	0	27	Erythrina variegata L. bark	Species	
+34532215	113	132	Alzheimer's disease	Disease	MESH:D000544
+34532215	430	465	Erythrina variegata L. bark extract	Chemical	-
+34532215	483	503	acetylcholinesterase	Gene	43
+34532215	505	509	AChE	Gene	43
+34532215	515	536	butyrylcholinesterase	Gene	590
+34532215	538	542	BChE	Gene	590
+34532215	660	664	AChE	Gene	43
+34532215	669	673	BChE	Gene	590
+34532215	737	749	E. variegata	Species	1368026
+34532215	768	783	carcinogenicity	Disease	MESH:D011230
+34532215	899	903	AChE	Gene	43
+34532215	908	913	BChE.	Gene	590
+34532215	918	927	alkaloids	Chemical	MESH:D000470
+34532215	937	949	carcinogenic	Disease	MESH:D011230
+34532215	958	967	mutagenic	Disease	
+34532215	1424	1434	Chloroform	Chemical	MESH:D002725
+34532215	1472	1476	AChE	Gene	43
+34532215	1481	1485	BChE	Gene	590
+34532215	1619	1628	Erysotine	Chemical	-
+34532215	1633	1644	Erythraline	Chemical	MESH:C586471
+34532215	1686	1690	AChE	Gene	43
+34532215	1695	1704	Erysodine	Chemical	MESH:C097135
+34532215	1710	1715	BChE.	Gene	590
+34532215	1768	1777	Erysotine	Chemical	-
+34532215	1782	1791	Erysodine	Chemical	MESH:C097135
+34532215	1825	1829	AChE	Gene	43
+34532215	1844	1848	BChE	Gene	590
+34532215	1945	1973	indolo [7a,1-a] isoquinoline	Chemical	-
+34532215	2053	2072	Alzheimer's disease	Disease	MESH:D000544
+34532215	Negative_Correlation	MESH:D002725	43
+34532215	Negative_Correlation	MESH:C097135	43
+34532215	Negative_Correlation	MESH:D000470	MESH:D011230
+34532215	Negative_Correlation	MESH:D002725	590
+34532215	Association	MESH:C097135	590
+34532215	Association	MESH:C586471	43
+

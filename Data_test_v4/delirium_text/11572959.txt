@@ -1,0 +1,35 @@
+11572959|t|Neural roles for heme oxygenase: contrasts to nitric oxide synthase.
+11572959|a|The heme oxygenase (HO) and nitric oxide (NO) synthase (NOS) systems display notable similarities as well as differences. HO and NOS are both oxidative enzymes using NADPH as an electron donor. The constitutive forms of the enzyme are differentially activated, with calcium entry stimulating NOS by binding to calmodulin, whereas calcium entry activates protein kinase C to phosphorylate and activate HO2. Although both NO and carbon monoxide (CO) stimulate soluble guanylyl cyclase to form cGMP, NO also S-nitrosylates selected protein targets. Both involve constitutive and inducible biosynthetic enzymes. However, functions of the inducible forms are virtual opposites. Macrophage-inducible NOS generates NO to kill other cells, whereas HO1 generates bilirubin to exert antioxidant cytoprotective effects and also provides cytoprotection by facilitating iron extrusion from cells. The neuronal form of HO, HO2, is also cytoprotective. Normally, neural NO in the brain seems to exert some sort of behavioral inhibition. However, excess release of NO in response to glutamate's N-methyl-d-aspartate receptor activation leads to stroke damage. On the other hand, massive neuronal firing during a stroke presumably activates HO2, leading to neuroprotective actions of bilirubin. Loss of this neuroprotection after HO inhibition by mutant forms of amyloid precursor protein may mediate neurotoxicity in Familial Alzheimer's Disease. NO and CO both appear to be neurotransmitters in the brain and peripheral autonomic nervous system. They also are physiologic endothelial-derived relaxing factors for blood vessels. In the gastrointestinal pathway, NO and CO appear to function as coneurotransmitters, both stimulating soluble guanylyl cyclase to cause smooth muscle relaxation.
+11572959	235	240	NADPH	Chemical	MESH:D009249
+11572959	335	342	calcium	Chemical	MESH:D002118
+11572959	379	389	calmodulin	Gene	801
+11572959	399	406	calcium	Chemical	MESH:D002118
+11572959	470	473	HO2	Gene	3163
+11572959	496	511	carbon monoxide	Chemical	MESH:D002248
+11572959	513	515	CO	Chemical	MESH:D002248
+11572959	560	564	cGMP	Chemical	MESH:D006152
+11572959	753	766	inducible NOS	Gene	4843
+11572959	809	812	HO1	Gene	3162
+11572959	823	832	bilirubin	Chemical	MESH:D001663
+11572959	926	930	iron	Chemical	MESH:D007501
+11572959	978	981	HO2	Gene	3163
+11572959	1136	1145	glutamate	Chemical	MESH:D018698
+11572959	1198	1211	stroke damage	Disease	MESH:D020521
+11572959	1265	1271	stroke	Disease	MESH:D020521
+11572959	1293	1296	HO2	Gene	3163
+11572959	1336	1345	bilirubin	Chemical	MESH:D001663
+11572959	1415	1440	amyloid precursor protein	Gene	351
+11572959	1453	1466	neurotoxicity	Disease	MESH:D020258
+11572959	1470	1498	Familial Alzheimer's Disease	Disease	MESH:D000544
+11572959	1507	1509	CO	Chemical	MESH:D002248
+11572959	1722	1724	CO	Chemical	MESH:D002248
+11572959	Positive_Correlation	MESH:D002248	MESH:D006152
+11572959	Association	MESH:D001663	3162
+11572959	Association	MESH:D001663	3163
+11572959	Association	MESH:D018698	MESH:D020521
+11572959	Association	MESH:D020521	3163
+11572959	Association	MESH:D002118	801
+11572959	Positive_Correlation	MESH:D002118	3163
+11572959	Association	MESH:D020258	351
+11572959	Association	MESH:D000544	351
+

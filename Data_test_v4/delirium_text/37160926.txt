@@ -1,0 +1,13 @@
+37160926|t|Multimodal fusion models for pulmonary embolism mortality prediction.
+37160926|a|Pulmonary embolism (PE) is a common, life threatening cardiovascular emergency. Risk stratification is one of the core principles of acute PE management and determines the choice of diagnostic and therapeutic strategies. In routine clinical practice, clinicians rely on the patient's electronic health record (EHR) to provide a context for their medical imaging interpretation. Most deep learning models for radiology applications only consider pixel-value information without the clinical context. Only a few integrate both clinical and imaging data. In this work, we develop and compare multimodal fusion models that can utilize multimodal data by combining both volumetric pixel data and clinical patient data for automatic risk stratification of PE. Our best performing model is an intermediate fusion model that incorporates both bilinear attention and TabNet, and can be trained in an end-to-end manner. The results show that multimodality boosts performance by up to 14% with an area under the curve (AUC) of 0.96 for assessing PE severity, with a sensitivity of 90% and specificity of 94%, thus pointing to the value of using multimodal data to automatically assess PE severity.
+37160926	29	47	pulmonary embolism	Disease	MESH:D011655
+37160926	70	88	Pulmonary embolism	Disease	MESH:D011655
+37160926	90	92	PE	Disease	MESH:D011655
+37160926	124	148	cardiovascular emergency	Disease	MESH:D002318
+37160926	209	211	PE	Disease	MESH:D011655
+37160926	344	351	patient	Species	9606
+37160926	770	777	patient	Species	9606
+37160926	820	822	PE	Disease	MESH:D011655
+37160926	1105	1107	PE	Disease	MESH:D011655
+37160926	1244	1246	PE	Disease	MESH:D011655
+

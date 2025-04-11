@@ -1,0 +1,13 @@
+35783467|t|Preparing infection detection technology for hospital at home after lower limb external fixation.
+35783467|a|Background: Patients with severe bone fractures and complex bone deformities are treated by orthopedic surgeons with external fixation for several months. During this long treatment period, there is a high risk of inflammation and infection at the superficial skin area (pin site). This can develop into a devastating, sometimes fatal, and always costly condition of deep bone infection. Objective: For pin site infection surveillance, thermography technology could be the solution to build an objective and continuous home-based remote monitoring tool to avoid frequent nursing care and hospital visits. However, future studies of infection monitoring require a preliminary step to automate the process of locating and detecting the pin sites in thermal images reliably for temperature measurement, and this step is the aim of this study. Methods: This study presents an automatic approach for identifying and annotating pin sites on visible images using bounding boxes and transferring them to the corresponding thermal images for temperature measurement. The pin site is detected by applying deep learning-based object detection architecture YOLOv5 with a novel loss evaluation and regression method, control distance intersection over union. Furthermore, we address detecting pin sites in a practical environment (home setting) accurately through transfer learning. Results and conclusion: The proposed model offers the pin site detection in 1.8 ms with a high precision of 0.98 and enables temperature information extraction. Our work for automatic pin site annotation on thermography paves the way for future research on infection assessment on thermography.
+35783467	10	19	infection	Disease	MESH:D007239
+35783467	110	118	Patients	Species	9606
+35783467	131	145	bone fractures	Disease	MESH:D050723
+35783467	158	174	bone deformities	Disease	MESH:D001847
+35783467	312	324	inflammation	Disease	MESH:D007249
+35783467	329	338	infection	Disease	MESH:D007239
+35783467	465	484	deep bone infection	Disease	MESH:D001847
+35783467	501	519	pin site infection	Disease	MESH:D013530
+35783467	730	739	infection	Disease	MESH:D007239
+35783467	1725	1734	infection	Disease	MESH:D007239
+

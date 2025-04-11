@@ -1,0 +1,36 @@
+36204350|t|Risk factors and machine learning model for predicting hospitalization outcomes in geriatric patients with dementia.
+36204350|a|Introduction: Geriatric patients with dementia incur higher healthcare costs and longer hospital stays than other geriatric patients. We aimed to identify risk factors for hospitalization outcomes that could be mitigated early to improve outcomes and impact overall quality of life. Methods: We identified risk factors, that is, demographics, hospital complications, pre-admission, and post-admission risk factors including medical history and comorbidities, affecting hospitalization outcomes determined by hospital stays and discharge dispositions. Over 150 clinical and demographic factors of 15,678 encounters (8407 patients) were retrieved from our institution's data warehouse. We further narrowed them down to twenty factors through feature selection engineering by using analysis of variance (ANOVA) and Glmnet. We developed an explainable machine-learning model to predict hospitalization outcomes among geriatric patients with dementia. Results: Our model is based on stacking ensemble learning and achieved accuracy of 95.6% and area under the curve (AUC) of 0.757. It outperformed prevalent methods of risk assessment for encounters of patients with Alzheimer's disease dementia (ADD) (4993), vascular dementia (VD) (4173), Parkinson's disease with dementia (PDD) (3735), and other unspecified dementias (OUD) (2777). Top identified hospitalization outcome risk factors, mostly from medical history, include encephalopathy, number of medical problems at admission, pressure ulcers, urinary tract infections, falls, admission source, age, race, anemia, etc., with several overlaps in multi-dementia groups. Discussion: Our model identified several predictive factors that can be modified or intervened so that efforts can be made to prevent recurrence or mitigate their adverse effects. Knowledge of the modifiable risk factors would help guide early interventions for patients at high risk for poor hospitalization outcome as defined by hospital stays longer than seven days, undesirable discharge disposition, or both. The interventions include starting specific protocols on modifiable risk factors like encephalopathy, falls, and infections, where non-existent or not routine, to improve hospitalization outcomes of geriatric patients with dementia. Highlights: A total 15,678 encounters of Geriatrics with dementia with a final 20 risk factors.Developed a predictive model for hospitalization outcomes for multi-dementia types.Risk factors for each type were identified including those amenable to interventions.Top factors are encephalopathy, pressure ulcers, urinary tract infection (UTI), falls, and admission source.With accuracy of 95.6%, our ensemble predictive model outperforms other models.
+36204350	93	101	patients	Species	9606
+36204350	107	115	dementia	Disease	MESH:D003704
+36204350	141	149	patients	Species	9606
+36204350	155	163	dementia	Disease	MESH:D003704
+36204350	241	249	patients	Species	9606
+36204350	737	745	patients	Species	9606
+36204350	1040	1048	patients	Species	9606
+36204350	1054	1062	dementia	Disease	MESH:D003704
+36204350	1265	1273	patients	Species	9606
+36204350	1279	1307	Alzheimer's disease dementia	Disease	MESH:D000544
+36204350	1309	1312	ADD	Disease	MESH:D000544
+36204350	1322	1339	vascular dementia	Disease	MESH:D015140
+36204350	1341	1343	VD	Disease	MESH:D015140
+36204350	1353	1386	Parkinson's disease with dementia	Disease	MESH:D010300
+36204350	1388	1391	PDD	Disease	MESH:D010300
+36204350	1411	1432	unspecified dementias	Disease	MESH:D003704
+36204350	1434	1437	OUD	Disease	MESH:D003704
+36204350	1537	1551	encephalopathy	Disease	MESH:D001927
+36204350	1594	1609	pressure ulcers	Disease	MESH:D003668
+36204350	1611	1635	urinary tract infections	Disease	MESH:D014552
+36204350	1673	1679	anemia	Disease	MESH:D000740
+36204350	1718	1726	dementia	Disease	MESH:D003704
+36204350	1997	2005	patients	Species	9606
+36204350	2235	2249	encephalopathy	Disease	MESH:D001927
+36204350	2262	2272	infections	Disease	MESH:D007239
+36204350	2358	2366	patients	Species	9606
+36204350	2372	2380	dementia	Disease	MESH:D003704
+36204350	2439	2447	dementia	Disease	MESH:D003704
+36204350	2545	2553	dementia	Disease	MESH:D003704
+36204350	2661	2675	encephalopathy	Disease	MESH:D001927
+36204350	2677	2692	pressure ulcers	Disease	MESH:D003668
+36204350	2694	2717	urinary tract infection	Disease	MESH:D014552
+36204350	2719	2722	UTI	Disease	MESH:D014552
+

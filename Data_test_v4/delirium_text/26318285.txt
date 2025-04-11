@@ -1,0 +1,73 @@
+26318285|t|Iron overload triggers mitochondrial fragmentation via calcineurin-sensitive signals in HT-22 hippocampal neuron cells.
+26318285|a|The accumulation of iron in neurons has been proposed to contribute to the pathology of numerous neurodegenerative diseases, such as Alzheimer's disease and Parkinson's disease. However, insufficient research has been conducted on the precise mechanism underlying iron toxicity in neurons. In this study, we investigated mitochondrial dynamics in hippocampal HT-22 neurons exposed to ferric ammonium citrate (FAC) as a model of iron overload and neurodegeneration. Incubation with 150 muM FAC for 48 h resulted in decreased cell viability and apoptotic death in HT-22 cells. The FAC-induced iron overload triggered mitochondrial fragmentation, which was accompanied by Drp1(Ser637) dephosphorylation. Iron chelation with deferoxamine prevented the FAC-induced mitochondrial fragmentation and apoptotic cell death by inhibiting Drp1(Ser637) dephosphorylation. In addition, a S637D mutation of Drp1, which resulted in a phosphorylation-mimetic form of Drp1 at Ser637, protected against the FAC-induced mitochondrial fragmentation and neuronal apoptosis. FK506 and cyclosporine A, inhibitors of calcineurin activation, determined that calcineurin was associated with the iron-induced changes in mitochondrial morphology and the phosphorylation levels of Drp1. These results indicate that the FAC-induced dephosphorylation of Drp1-dependent mitochondrial fragmentation was rescued by the inhibition of calcineurin activation. Therefore, these findings suggest that calcineurin-mediated phosphorylation of Drp1(Ser637) acts as a key regulator of neuronal cell loss by modulating mitochondrial dynamics in iron-induced toxicity. These results may contribute to the development of novel therapies for treatment of neurodegenerative disorders related to iron toxicity.
+26318285	0	13	Iron overload	Disease	MESH:D019190
+26318285	23	50	mitochondrial fragmentation	Disease	MESH:D012892
+26318285	88	93	HT-22	CellLine	CVCL:0321
+26318285	140	144	iron	Chemical	MESH:D007501
+26318285	217	243	neurodegenerative diseases	Disease	MESH:D019636
+26318285	253	272	Alzheimer's disease	Disease	MESH:D000544
+26318285	277	296	Parkinson's disease	Disease	MESH:D010300
+26318285	384	397	iron toxicity	Chemical	-
+26318285	479	484	HT-22	CellLine	CVCL:0321
+26318285	504	527	ferric ammonium citrate	Chemical	MESH:C013531
+26318285	548	561	iron overload	Disease	MESH:D019190
+26318285	566	583	neurodegeneration	Disease	MESH:D019636
+26318285	682	687	HT-22	CellLine	CVCL:0321
+26318285	711	724	iron overload	Disease	MESH:D019190
+26318285	735	762	mitochondrial fragmentation	Disease	MESH:D012892
+26318285	789	793	Drp1	Gene	12933
+26318285	794	800	Ser637	ProteinMutation	tmVar:p|Allele|S|637;VariantGroup:0;OriginalGene:12933;CorrespondingGene:1400;CorrespondingSpecies:10090
+26318285	821	825	Iron	Chemical	MESH:D007501
+26318285	841	853	deferoxamine	Chemical	MESH:D003676
+26318285	880	907	mitochondrial fragmentation	Disease	MESH:D012892
+26318285	947	951	Drp1	Gene	12933
+26318285	952	958	Ser637	ProteinMutation	tmVar:p|Allele|S|637;VariantGroup:0;OriginalGene:12933;CorrespondingGene:1400;CorrespondingSpecies:10090
+26318285	994	999	S637D	ProteinMutation	tmVar:p|SUB|S|637|D;HGVS:p.S637D;VariantGroup:0;OriginalGene:12933;CorrespondingGene:1400;CorrespondingSpecies:10090
+26318285	1012	1016	Drp1	Gene	12933
+26318285	1070	1074	Drp1	Gene	12933
+26318285	1078	1084	Ser637	ProteinMutation	tmVar:p|Allele|S|637;VariantGroup:0;OriginalGene:12933;CorrespondingGene:1400;CorrespondingSpecies:10090
+26318285	1120	1147	mitochondrial fragmentation	Disease	MESH:D012892
+26318285	1152	1170	neuronal apoptosis	Disease	MESH:D065703
+26318285	1172	1177	FK506	Chemical	MESH:D016559
+26318285	1182	1196	cyclosporine A	Chemical	MESH:D016572
+26318285	1288	1292	iron	Chemical	MESH:D007501
+26318285	1371	1375	Drp1	Gene	12933
+26318285	1442	1446	Drp1	Gene	12933
+26318285	1457	1484	mitochondrial fragmentation	Disease	MESH:D012892
+26318285	1621	1625	Drp1	Gene	12933
+26318285	1626	1632	Ser637	ProteinMutation	tmVar:p|Allele|S|637;VariantGroup:0;OriginalGene:12933;CorrespondingGene:1400;CorrespondingSpecies:10090
+26318285	1661	1679	neuronal cell loss	Disease	MESH:D002292
+26318285	1720	1724	iron	Chemical	MESH:D007501
+26318285	1733	1741	toxicity	Disease	MESH:D064420
+26318285	1827	1854	neurodegenerative disorders	Disease	MESH:D019636
+26318285	1866	1879	iron toxicity	Chemical	-
+26318285	Association	MESH:D007501	MESH:D010300
+26318285	Association	MESH:D007501	MESH:D000544
+26318285	Association	MESH:D012892	CorrespondingGene:1400;CorrespondingSpecies:10090;OriginalGene:12933;VariantGroup:0;tmVar:p
+26318285	Positive_Correlation	MESH:C013531	MESH:D019190
+26318285	Negative_Correlation	MESH:D003676	CorrespondingGene:1400;CorrespondingSpecies:10090;OriginalGene:12933;VariantGroup:0;tmVar:p
+26318285	Association	MESH:D064420	CorrespondingGene:1400;CorrespondingSpecies:10090;OriginalGene:12933;VariantGroup:0;tmVar:p
+26318285	Association	MESH:D002292	CorrespondingGene:1400;CorrespondingSpecies:10090;OriginalGene:12933;VariantGroup:0;tmVar:p
+26318285	Association	MESH:D065703	HGVS:p.S637D;CorrespondingGene:1400
+26318285	Association	MESH:D065703	12933
+26318285	Association	MESH:D019190	CorrespondingGene:1400;CorrespondingSpecies:10090;OriginalGene:12933;VariantGroup:0;tmVar:p
+26318285	Negative_Correlation	MESH:D003676	12933
+26318285	Positive_Correlation	MESH:D007501	MESH:D002292
+26318285	Negative_Correlation	MESH:D003676	MESH:D012892
+26318285	Association	MESH:D002292	12933
+26318285	Association	MESH:D012892	12933
+26318285	Association	MESH:D007501	MESH:D019636
+26318285	Negative_Correlation	MESH:D003676	MESH:D007501
+26318285	Positive_Correlation	MESH:D007501	MESH:D064420
+26318285	Association	MESH:D064420	12933
+26318285	Association	MESH:D007501	12933
+26318285	Association	MESH:D016559	12933
+26318285	Association	MESH:C013531	MESH:D019636
+26318285	Association	MESH:D019190	12933
+26318285	Association	MESH:D016572	12933
+26318285	Association	MESH:D012892	1400
+26318285	Association	MESH:D064420	1400
+26318285	Association	MESH:D002292	1400
+26318285	Association	MESH:D065703	1400
+26318285	Association	MESH:D019190	1400
+

@@ -1,0 +1,29 @@
+38169220|t|Data-derived subtypes of delirium during critical illness.
+38169220|a|BACKGROUND: To understand delirium heterogeneity, prior work relied on psychomotor symptoms or risk factors to identify subtypes. Data-driven approaches have used machine learning to identify biologically plausible, treatment-responsive subtypes of other acute illnesses but have not been used to examine delirium. METHODS: We conducted a secondary analysis of a large, multicenter prospective cohort study involving adults in medical or surgical ICUs with respiratory failure or shock who experienced delirium per the Confusion Assessment Method for the ICU. We used data collected before delirium diagnosis in an unsupervised latent class model to identify delirium subtypes and then compared demographics, clinical characteristics, and outcomes between subtypes in the final model. FINDINGS: The 731 patients who developed delirium during critical illness had a median age of 63 [IQR, 54-72] years, a median Sequential Organ Failure Assessment score of 8.0 [6.0-11.0] and 613 [83.4%] were mechanically ventilated at delirium identification. A four-class model best fit the data with 50% of patients in subtype (ST) 1, 18% in subtype 2, 17% in subtype 3, and 14% in subtype 4. Subtype 2-which had more shock and kidney impairment-had the highest mortality (33% [ST2] vs. 17% [ST1], 25% [ST3], and 17% [ST4], p = 0.003). Subtype 4-which received more benzodiazepines and opioids-had the longest duration of delirium (6 days [ST4] vs. 3 [ST1], 4 [ST2], and 3 days [ST3], p < 0.001) and coma (4 days [ST4] vs. 2 [ST1], 1 [ST2], and 2 days [ST3], p < 0.001). Each of the four data-derived delirium subtypes was observed within previously identified psychomotor and risk factor-based delirium subtypes. Clinically significant cognitive impairment affected all subtypes at follow-up, but its severity did not differ by subtype (3-month, p = 0.26; 12-month, p = 0.80). INTERPRETATION: The four data-derived delirium subtypes identified in this study should now be validated in independent cohorts, examined for differential treatment effects in trials, and inform mechanistic work evaluating treatment targets. FUNDING: National Institutes of Health (T32HL007820, R01AG027472).
+38169220	25	33	delirium	Disease	MESH:D003693
+38169220	41	57	critical illness	Disease	MESH:D016638
+38169220	85	93	delirium	Disease	MESH:D003693
+38169220	364	372	delirium	Disease	MESH:D003693
+38169220	516	535	respiratory failure	Disease	MESH:D012131
+38169220	539	544	shock	Disease	MESH:D012769
+38169220	561	569	delirium	Disease	MESH:D003693
+38169220	649	657	delirium	Disease	MESH:D003693
+38169220	718	726	delirium	Disease	MESH:D003693
+38169220	862	870	patients	Species	9606
+38169220	885	893	delirium	Disease	MESH:D003693
+38169220	901	917	critical illness	Disease	MESH:D016638
+38169220	981	994	Organ Failure	Disease	MESH:D009102
+38169220	1078	1086	delirium	Disease	MESH:D003693
+38169220	1152	1160	patients	Species	9606
+38169220	1263	1268	shock	Disease	MESH:D012769
+38169220	1273	1290	kidney impairment	Disease	MESH:D007674
+38169220	1411	1426	benzodiazepines	Chemical	MESH:D001569
+38169220	1467	1475	delirium	Disease	MESH:D003693
+38169220	1545	1549	coma	Disease	MESH:D003128
+38169220	1646	1654	delirium	Disease	MESH:D003693
+38169220	1740	1748	delirium	Disease	MESH:D003693
+38169220	1782	1802	cognitive impairment	Disease	MESH:D003072
+38169220	1961	1969	delirium	Disease	MESH:D003693
+38169220	Positive_Correlation	MESH:D001569	MESH:D003693
+38169220	Positive_Correlation	MESH:D001569	MESH:D003128
+

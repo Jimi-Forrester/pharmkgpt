@@ -1,0 +1,19 @@
+27736515|t|Use of non-invasive ventilation.
+27736515|a|As blood levels of carbon dioxide increase (hypercapnia) in lung disease such as chronic obstructive pulmonary disease (COPD), patients can show signs of delirium, becoming increasingly confused and sleepy. They may also have wrist tremor, muscle twitching, seizures and dilation of conjunctival and superficial facial blood vessels.
+27736515	52	66	carbon dioxide	Chemical	MESH:D002245
+27736515	77	88	hypercapnia	Disease	MESH:D006935
+27736515	93	105	lung disease	Disease	MESH:D008171
+27736515	114	151	chronic obstructive pulmonary disease	Disease	MESH:D029424
+27736515	153	157	COPD	Disease	MESH:D029424
+27736515	160	168	patients	Species	9606
+27736515	187	195	delirium	Disease	MESH:D003693
+27736515	259	271	wrist tremor	Disease	MESH:D014954
+27736515	273	289	muscle twitching	Disease	MESH:D019042
+27736515	291	299	seizures	Disease	MESH:D012640
+27736515	Association	MESH:D002245	MESH:D008171
+27736515	Positive_Correlation	MESH:D002245	MESH:D012640
+27736515	Positive_Correlation	MESH:D002245	MESH:D003693
+27736515	Positive_Correlation	MESH:D002245	MESH:D019042
+27736515	Positive_Correlation	MESH:D002245	MESH:D014954
+27736515	Association	MESH:D002245	MESH:D029424
+

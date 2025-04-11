@@ -1,0 +1,21 @@
+32787845|t|Game theoretic centrality: a novel approach to prioritize disease candidate genes by combining biological networks with the Shapley value.
+32787845|a|BACKGROUND: Complex human health conditions with etiological heterogeneity like Autism Spectrum Disorder (ASD) often pose a challenge for traditional genome-wide association study approaches in defining a clear genotype to phenotype model. Coalitional game theory (CGT) is an exciting method that can consider the combinatorial effect of groups of variants working in concert to produce a phenotype. CGT has been applied to associate likely-gene-disrupting variants encoded from whole genome sequence data to ASD; however, this previous approach cannot take into account for prior biological knowledge. Here we extend CGT to incorporate a priori knowledge from biological networks through a game theoretic centrality measure based on Shapley value to rank genes by their relevance-the individual gene's synergistic influence in a gene-to-gene interaction network. Game theoretic centrality extends the notion of Shapley value to the evaluation of a gene's contribution to the overall connectivity of its corresponding node in a biological network. RESULTS: We implemented and applied game theoretic centrality to rank genes on whole genomes from 756 multiplex autism families. Top ranking genes with the highest game theoretic centrality in both the weighted and unweighted approaches were enriched for pathways previously associated with autism, including pathways of the immune system. Four of the selected genes HLA-A, HLA-B, HLA-G, and HLA-DRB1-have also been implicated in ASD and further support the link between ASD and the human leukocyte antigen complex. CONCLUSIONS: Game theoretic centrality can prioritize influential, disease-associated genes within biological networks, and assist in the decoding of polygenic associations to complex disorders like autism.
+32787845	159	164	human	Species	9606
+32787845	219	243	Autism Spectrum Disorder	Disease	MESH:D000067877
+32787845	245	248	ASD	Disease	MESH:D000067877
+32787845	648	651	ASD	Disease	MESH:D000067877
+32787845	1299	1305	autism	Disease	MESH:D001321
+32787845	1478	1484	autism	Disease	MESH:D001321
+32787845	1554	1559	HLA-A	Gene	3105
+32787845	1561	1566	HLA-B	Gene	3106
+32787845	1568	1573	HLA-G	Gene	3135
+32787845	1579	1587	HLA-DRB1	Gene	3123;3105
+32787845	1617	1620	ASD	Disease	MESH:D000067877
+32787845	1658	1661	ASD	Disease	MESH:D000067877
+32787845	1670	1675	human	Species	9606
+32787845	1902	1908	autism	Disease	MESH:D001321
+32787845	Association	MESH:D000067877	3106
+32787845	Association	MESH:D000067877	3123
+32787845	Association	MESH:D000067877	3135
+32787845	Association	MESH:D000067877	3105
+

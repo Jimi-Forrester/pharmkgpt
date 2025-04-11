@@ -1,0 +1,14 @@
+37961739|t|Modeling Path Importance for Effective Alzheimer's Disease Drug Repurposing.
+37961739|a|Recently, drug repurposing has emerged as an effective and resource-efficient paradigm for AD drug discovery. Among various methods for drug repurposing, network-based methods have shown promising results as they are capable of leveraging complex networks that integrate multiple interaction types, such as protein-protein interactions, to more effectively identify candidate drugs. However, existing approaches typically assume paths of the same length in the network have equal importance in identifying the therapeutic effect of drugs. Other domains have found that same length paths do not necessarily have the same importance. Thus, relying on this assumption may be deleterious to drug repurposing attempts. In this work, we propose MPI (Modeling Path Importance), a novel network-based method for AD drug repurposing. MPI is unique in that it prioritizes important paths via learned node embeddings, which can effectively capture a network's rich structural information. Thus, leveraging learned embeddings allows MPI to effectively differentiate the importance among paths. We evaluate MPI against a commonly used baseline method that identifies anti-AD drug candidates primarily based on the shortest paths between drugs and AD in the network. We observe that among the top-50 ranked drugs, MPI prioritizes 20.0% more drugs with anti-AD evidence compared to the baseline. Finally, Cox proportional-hazard models produced from insurance claims data aid us in identifying the use of etodolac, nicotine, and BBB-crossing ACE-INHs as having a reduced risk of AD, suggesting such drugs may be viable candidates for repurposing and should be explored further in future studies.
+37961739	39	58	Alzheimer's Disease	Disease	MESH:D000544
+37961739	168	170	AD	Disease	MESH:D000544
+37961739	881	883	AD	Disease	MESH:D000544
+37961739	1236	1238	AD	Disease	MESH:D000544
+37961739	1311	1313	AD	Disease	MESH:D000544
+37961739	1420	1422	AD	Disease	MESH:D000544
+37961739	1567	1575	etodolac	Chemical	MESH:D017308
+37961739	1577	1585	nicotine	Chemical	MESH:D009538
+37961739	1641	1643	AD	Disease	MESH:D000544
+37961739	Negative_Correlation	MESH:D009538	MESH:D000544
+37961739	Negative_Correlation	MESH:D017308	MESH:D000544
+

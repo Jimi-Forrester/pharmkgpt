@@ -1,0 +1,40 @@
+24787735|t|Patterns of genome-wide VDR locations.
+24787735|a|The genome-wide analysis of the binding sites of the transcription factor vitamin D receptor (VDR) is essential for a global appreciation the physiological impact of the nuclear hormone 1alpha,25-dihydroxyvitamin D3 (1,25(OH)2D3). Genome-wide analysis of lipopolysaccharide (LPS)-polarized THP-1 human monocytic leukemia cells via chromatin immunoprecipitation sequencing (ChIP-seq) resulted in 1,318 high-confidence VDR binding sites, of which 789 and 364 occurred uniquely with and without 1,25(OH)2D3 stimulation, while only 165 were common. We re-analyzed five public VDR ChIP-seq datasets with identical peak calling settings (MACS, version 2) and found, using a novel consensus summit identification strategy, in total 23,409 non-overlapping VDR binding sites, 75% of which are unique within the six analyzed cellular models. LPS-differentiated THP-1 cells have 22% more genomic VDR locations than undifferentiated cells and both cell types display more overlap in their VDR locations than the other investigated cell types. In general, the intersection of VDR binding profiles of ligand-stimulated cells is higher than those of unstimulated cells. De novo binding site searches and HOMER screening for binding motifs formed by direct repeats spaced by three nucleotides (DR3) suggest for all six VDR ChIP-seq datasets that these sequences are found preferentially at highly ligand responsive VDR loci. Importantly, all VDR ChIP-seq datasets display the same relationship between the VDR occupancy and the percentage of DR3-type sequences below the peak summits. The comparative analysis of six VDR ChIP-seq datasets demonstrated that the mechanistic basis for the action of the VDR is independent of the cell type. Only the minority of genome-wide VDR binding sites contains a DR3-type sequence. Moreover, the total number of identified VDR binding sites in each ligand-stimulated cell line inversely correlates with the percentage of peak summits with DR3 sites. 
+24787735	24	27	VDR	Gene	7421
+24787735	113	131	vitamin D receptor	Gene	7421
+24787735	133	136	VDR	Gene	7421
+24787735	225	254	1alpha,25-dihydroxyvitamin D3	Chemical	MESH:D002117
+24787735	256	267	1,25(OH)2D3	Chemical	MESH:D002117
+24787735	294	312	lipopolysaccharide	Chemical	MESH:D008070
+24787735	314	317	LPS	Chemical	MESH:D008070
+24787735	329	334	THP-1	CellLine	CVCL:0006
+24787735	335	340	human	Species	9606
+24787735	341	359	monocytic leukemia	Disease	MESH:D007951
+24787735	456	459	VDR	Gene	7421
+24787735	531	542	1,25(OH)2D3	Chemical	MESH:D002117
+24787735	611	614	VDR	Gene	7421
+24787735	787	790	VDR	Gene	7421
+24787735	871	874	LPS	Chemical	MESH:D008070
+24787735	890	895	THP-1	CellLine	CVCL:0006
+24787735	924	927	VDR	Gene	7421
+24787735	1016	1019	VDR	Gene	7421
+24787735	1102	1105	VDR	Gene	7421
+24787735	1317	1320	DR3	Gene	8718
+24787735	1342	1345	VDR	Gene	7421
+24787735	1438	1441	VDR	Gene	7421
+24787735	1465	1468	VDR	Gene	7421
+24787735	1529	1532	VDR	Gene	7421
+24787735	1565	1568	DR3	Gene	8718
+24787735	1640	1643	VDR	Gene	7421
+24787735	1724	1727	VDR	Gene	7421
+24787735	1794	1797	VDR	Gene	7421
+24787735	1823	1826	DR3	Gene	8718
+24787735	1883	1886	VDR	Gene	7421
+24787735	1999	2002	DR3	Gene	8718
+24787735	Association	7421	8718
+24787735	Association	MESH:D002117	7421
+24787735	Association	MESH:D008070	7421
+24787735	Association	MESH:D008070	MESH:D007951
+24787735	Negative_Correlation	MESH:D002117	MESH:D007951
+24787735	Association	MESH:D002117	MESH:D008070
+

@@ -1,0 +1,50 @@
+15630149|t|Homocysteine and cardiovascular disease: interactions between nutrition, genetics and lifestyle.
+15630149|a|Homocysteine is a sulfur-containing amino acid that arises during methionine metabolism. Although its concentration in plasma is only about 10 micromolar, even moderate hyperhomocysteinemia is associated with increased incidence of cardiovascular disease and Alzheimer's disease. Elevations in plasma homocysteine are commonly found as a result of vitamin deficiencies, polymorphisms of enzymes of methionine metabolism, and renal disease. Pyridoxal, folic acid, riboflavin, and Vitamin B(12) are all required for methionine metabolism, and deficiency of each of these vitamins result in elevated plasma homocysteine. A polymorphism of methylenetetrahydrofolate reductase (C677T), which is quite common in most populations with a homozygosity rate of 10-15 %, is associated with moderate hyperhomocysteinemia, especially in the context of marginal folate intake. Plasma homocysteine is inversely related to plasma creatinine in patients with renal disease. This is due to an impairment in homocysteine removal in renal disease. The role of these factors, and of modifiable lifestyle factors, in affecting methionone metabolism and in determining plasma homocysteine levels is discussed.
+15630149	0	12	Homocysteine	Chemical	MESH:D006710
+15630149	17	39	cardiovascular disease	Disease	MESH:D002318
+15630149	97	109	Homocysteine	Chemical	MESH:D006710
+15630149	115	121	sulfur	Chemical	MESH:D013455
+15630149	163	173	methionine	Chemical	MESH:D008715
+15630149	266	286	hyperhomocysteinemia	Disease	MESH:D020138
+15630149	329	351	cardiovascular disease	Disease	MESH:D002318
+15630149	356	375	Alzheimer's disease	Disease	MESH:D000544
+15630149	398	410	homocysteine	Chemical	MESH:D006710
+15630149	445	465	vitamin deficiencies	Disease	MESH:D014802
+15630149	495	505	methionine	Chemical	MESH:D008715
+15630149	522	535	renal disease	Disease	MESH:D007674
+15630149	537	546	Pyridoxal	Chemical	MESH:D011730
+15630149	548	558	folic acid	Chemical	MESH:D005492
+15630149	560	570	riboflavin	Chemical	MESH:D012256
+15630149	576	589	Vitamin B(12)	Chemical	MESH:D014805
+15630149	611	621	methionine	Chemical	MESH:D008715
+15630149	701	713	homocysteine	Chemical	MESH:D006710
+15630149	733	768	methylenetetrahydrofolate reductase	Gene	4524
+15630149	770	775	C677T	DNAMutation	tmVar:c|SUB|C|677|T;HGVS:c.677C>T;VariantGroup:0;CorrespondingGene:4524;RS#:1801133;CorrespondingSpecies:9606;CA#:170990
+15630149	885	905	hyperhomocysteinemia	Disease	MESH:D020138
+15630149	945	951	folate	Chemical	MESH:D005492
+15630149	967	979	homocysteine	Chemical	MESH:D006710
+15630149	1011	1021	creatinine	Chemical	MESH:D003404
+15630149	1025	1033	patients	Species	9606
+15630149	1039	1052	renal disease	Disease	MESH:D007674
+15630149	1086	1098	homocysteine	Chemical	MESH:D006710
+15630149	1110	1123	renal disease	Disease	MESH:D007674
+15630149	1202	1212	methionone	Chemical	-
+15630149	1250	1262	homocysteine	Chemical	MESH:D006710
+15630149	Positive_Correlation	MESH:D006710	MESH:D012256
+15630149	Positive_Correlation	RS#:1801133;HGVS:c.677C>T;CorrespondingGene:4524	MESH:D020138
+15630149	Positive_Correlation	MESH:D008715	MESH:D012256
+15630149	Association	MESH:D003404	MESH:D006710
+15630149	Association	MESH:D020138	4524
+15630149	Positive_Correlation	MESH:D005492	MESH:D006710
+15630149	Positive_Correlation	MESH:D006710	MESH:D014802
+15630149	Negative_Correlation	MESH:D006710	MESH:D014805
+15630149	Association	MESH:D005492	MESH:D008715
+15630149	Positive_Correlation	MESH:D006710	MESH:D000544
+15630149	Association	MESH:D006710	MESH:D008715
+15630149	Positive_Correlation	MESH:D006710	MESH:D011730
+15630149	Positive_Correlation	MESH:D006710	MESH:D002318
+15630149	Association	MESH:D006710	MESH:D007674
+15630149	Association	MESH:D008715	MESH:D011730
+15630149	Association	MESH:D008715	MESH:D014805
+15630149	Association	MESH:D020138	4524
+

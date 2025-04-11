@@ -1,0 +1,25 @@
+39700695|t|Machine learning and SHAP value interpretation for predicting comorbidity of cardiovascular disease and cancer with dietary antioxidants.
+39700695|a|OBJECTIVE: To develop and validate a machine learning model incorporating dietary antioxidants to predict cardiovascular disease (CVD)-cancer comorbidity and to elucidate the role of antioxidants in disease prediction. METHODS: Data were sourced from the National Health and Nutrition Examination Survey. Antioxidants, including vitamins, minerals, and polyphenols, were selected as key features. Additionally, demographic, lifestyle, and health condition features were incorporated to improve model accuracy. Feature preprocessing included removing collinear features, addressing class imbalance, and normalizing data. Models constructed within the mlr3 framework included recursive partitioning and regression trees, random forest, kernel k-nearest neighbors, naive bayes, and light gradient boosting machine (LightGBM). Benchmarking provided a systematic approach to evaluating and comparing model performance. SHapley Additive exPlanation (SHAP) values were calculated to determine the prediction role of each feature in the model with the highest predictive performance. RESULTS: This analysis included 10,064 participants, with 353 identified as having comorbid CVD and cancer. After excluding collinear features, the machine learning model retained 29 dietary antioxidant features and 9 baseline features. LightGBM achieved the highest predictive accuracy at 87.9 %, a classification error rate of 12.1 %, and the top area under the receiver operating characteristic curve (0.951) and the precision-recall curve (0.930). LightGBM also demonstrated balanced sensitivity and specificity, both close to 88 %. SHAP analysis indicated that naringenin, magnesium, theaflavin, kaempferol, hesperetin, selenium, malvidin, and vitamin C were the most influential contributors. CONCLUSION: LightGBM exhibited the best performance for predicting CVD-cancer comorbidity. SHAP values highlighted the importance of antioxidants, with naringenin and magnesium emerging as primary factors in this model.
+39700695	77	99	cardiovascular disease	Disease	MESH:D002318
+39700695	104	110	cancer	Disease	MESH:D009369
+39700695	244	266	cardiovascular disease	Disease	MESH:D002318
+39700695	268	271	CVD	Disease	MESH:D002318
+39700695	273	279	cancer	Disease	MESH:D009369
+39700695	477	485	minerals	Chemical	MESH:D008903
+39700695	491	502	polyphenols	Chemical	MESH:D059808
+39700695	1306	1309	CVD	Disease	MESH:D002318
+39700695	1314	1320	cancer	Disease	MESH:D009369
+39700695	1397	1416	dietary antioxidant	Chemical	-
+39700695	1780	1790	naringenin	Chemical	MESH:C005273
+39700695	1792	1801	magnesium	Chemical	MESH:D008274
+39700695	1803	1813	theaflavin	Chemical	MESH:C056068
+39700695	1815	1825	kaempferol	Chemical	MESH:C006552
+39700695	1827	1837	hesperetin	Chemical	MESH:C013015
+39700695	1839	1847	selenium	Chemical	MESH:D012643
+39700695	1849	1857	malvidin	Chemical	MESH:C065861
+39700695	1863	1872	vitamin C	Chemical	MESH:D001205
+39700695	1980	1984	CVD-	Disease	MESH:D002318
+39700695	1984	1990	cancer	Disease	MESH:D009369
+39700695	2065	2075	naringenin	Chemical	MESH:C005273
+39700695	2080	2089	magnesium	Chemical	MESH:D008274
+

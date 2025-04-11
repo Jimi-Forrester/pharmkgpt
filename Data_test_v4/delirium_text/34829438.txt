@@ -1,0 +1,33 @@
+34829438|t|The Feasibility of Differentiating Lewy Body Dementia and Alzheimer's Disease by Deep Learning Using ECD SPECT Images.
+34829438|a|The correct differential diagnosis of dementia has an important impact on patient treatment and follow-up care strategies. Tc-99m-ECD SPECT imaging, which is low cost and accessible in general clinics, is used to identify the two common types of dementia, Alzheimer's disease (AD) and Lewy body dementia (LBD). Two-stage transfer learning technology and reducing model complexity based on the ResNet-50 model were performed using the ImageNet data set and ADNI database. To improve training accuracy, the three-dimensional image was reorganized into three sets of two-dimensional images for data augmentation and ensemble learning, then the performance of various deep learning models for Tc-99m-ECD SPECT images to distinguish AD/normal cognition (NC), LBD/NC, and AD/LBD were investigated. In the AD/NC, LBD/NC, and AD/LBD tasks, the AUC values were around 0.94, 0.95, and 0.74, regardless of training models, with an accuracy of 90%, 87%, and 71%, and F1 scores of 89%, 86%, and 76% in the best cases. The use of transfer learning and a modified model resulted in better prediction results, increasing the accuracy by 32% for AD/NC. The proposed method is practical and could rapidly utilize a deep learning model to automatically extract image features based on a small number of SPECT brain perfusion images in general clinics to objectively distinguish AD and LBD.
+34829438	35	53	Lewy Body Dementia	Disease	MESH:D020961
+34829438	58	77	Alzheimer's Disease	Disease	MESH:D000544
+34829438	157	165	dementia	Disease	MESH:D003704
+34829438	193	200	patient	Species	9606
+34829438	242	252	Tc-99m-ECD	Chemical	MESH:C059659
+34829438	365	373	dementia	Disease	MESH:D003704
+34829438	375	394	Alzheimer's disease	Disease	MESH:D000544
+34829438	396	398	AD	Disease	MESH:D000544
+34829438	404	422	Lewy body dementia	Disease	MESH:D020961
+34829438	424	427	LBD	Disease	MESH:D020961
+34829438	808	818	Tc-99m-ECD	Chemical	MESH:C059659
+34829438	847	849	AD	Disease	MESH:D000544
+34829438	868	870	NC	Disease	MESH:D000544
+34829438	873	876	LBD	Disease	MESH:D020961
+34829438	877	879	NC	Disease	MESH:D000544
+34829438	885	887	AD	Disease	MESH:D000544
+34829438	888	891	LBD	Disease	MESH:D020961
+34829438	918	920	AD	Disease	MESH:D000544
+34829438	921	923	NC	Disease	MESH:D000544
+34829438	925	928	LBD	Disease	MESH:D020961
+34829438	929	931	NC	Disease	MESH:D000544
+34829438	937	939	AD	Disease	MESH:D000544
+34829438	940	943	LBD	Disease	MESH:D020961
+34829438	1248	1250	AD	Disease	MESH:D000544
+34829438	1251	1253	NC	Disease	MESH:D000544
+34829438	1478	1480	AD	Disease	MESH:D000544
+34829438	1485	1488	LBD	Disease	MESH:D020961
+34829438	Association	MESH:C059659	MESH:D020961
+34829438	Association	MESH:C059659	MESH:D000544
+34829438	Association	MESH:C059659	MESH:D003704
+

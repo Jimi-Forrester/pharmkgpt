@@ -1,0 +1,57 @@
+32046944|t|Distinct dual roles of p-Tyr42 RhoA GTPase in tau phosphorylation and ATP citrate lyase activation upon different Abeta concentrations.
+32046944|a|Both the accumulation of Amyloid-beta (Abeta) in plaques and phosphorylation of Tau protein (p-Tau) in neurofibrillary tangles have been identified as two major symptomatic features of Alzheimer's disease (AD). Despite of critical role of Abeta and p-Tau in AD progress, the interconnection of signalling pathways that Abeta induces p-Tau remains elusive. Herein, we observed that a popular AD model mouse (APP/PS1) and Abeta-injected mouse showed an increase in p-Tyr42 Rho in hippocampus of brain. Low concentrations of Abeta (1 muM) induced RhoA-mediated Ser422 phosphorylation of Tau protein (p-Ser422 Tau), but reduced the expression of ATP citrate lyase (ACL) in the HT22 hippocampal neuronal cell line. In contrast, high concentrations of Abeta (10 muM) along with high levels of superoxide production remarkably attenuated accumulation of p-Ser422 Tau, but augmented ACL expression and activated sterol regulatory element-binding protein 1 (SREBP1), leading to cellular senescence. Notably, a high concentration of Abeta (10 muM) induced nuclear localization of p-Tyr42 Rho, which positively regulated NAD kinase (NADK) expression by binding to the NADK promoter. Furthermore, severe AD patient brain showed high p-Tyr42 Rho levels. Collectively, our findings indicate that both high and low concentrations of Abeta are detrimental to neurons via distinct two p-Tyr42 RhoA-mediated signalling pathways in Ser422 phosphorylation of Tau and ACL expression.
+32046944	46	49	tau	Gene	4137
+32046944	70	87	ATP citrate lyase	Gene	104112
+32046944	114	119	Abeta	Gene	11820
+32046944	161	173	Amyloid-beta	Gene	351
+32046944	175	180	Abeta	Gene	351
+32046944	216	219	Tau	Gene	4137
+32046944	239	262	neurofibrillary tangles	Disease	MESH:D055956
+32046944	321	340	Alzheimer's disease	Disease	MESH:D000544
+32046944	342	344	AD	Disease	MESH:D000544
+32046944	375	380	Abeta	Gene	351
+32046944	394	396	AD	Disease	MESH:D000544
+32046944	455	460	Abeta	Gene	351
+32046944	527	529	AD	Disease	MESH:D000544
+32046944	536	541	mouse	Species	10090
+32046944	547	550	PS1	Gene	19164
+32046944	556	561	Abeta	Gene	11820
+32046944	571	576	mouse	Species	10090
+32046944	658	663	Abeta	Gene	11820
+32046944	680	684	RhoA	Gene	11848
+32046944	720	723	Tau	Gene	4137
+32046944	742	745	Tau	Gene	4137
+32046944	778	795	ATP citrate lyase	Gene	104112
+32046944	797	800	ACL	Gene	104112
+32046944	809	813	HT22	CellLine	CVCL:0321
+32046944	826	834	neuronal	CellLine	CVCL:3283
+32046944	882	887	Abeta	Gene	11820
+32046944	923	933	superoxide	Chemical	MESH:D013481
+32046944	992	995	Tau	Gene	4137
+32046944	1011	1014	ACL	Gene	104112
+32046944	1040	1083	sterol regulatory element-binding protein 1	Gene	20787
+32046944	1085	1091	SREBP1	Gene	20787
+32046944	1159	1164	Abeta	Gene	11820
+32046944	1246	1256	NAD kinase	Gene	65220
+32046944	1258	1262	NADK	Gene	65220
+32046944	1293	1297	NADK	Gene	65220
+32046944	1328	1330	AD	Disease	MESH:D000544
+32046944	1331	1338	patient	Species	9606
+32046944	1454	1459	Abeta	Gene	11820
+32046944	1512	1516	RhoA	Gene	11848
+32046944	1575	1578	Tau	Gene	4137
+32046944	1583	1586	ACL	Gene	104112
+32046944	Positive_Correlation	MESH:D013481	104112
+32046944	Positive_Correlation	11820	65220
+32046944	Positive_Correlation	11820	20787
+32046944	Association	MESH:D055956	4137
+32046944	Association	MESH:D000544	4137
+32046944	Association	11848	4137
+32046944	Negative_Correlation	MESH:D013481	4137
+32046944	Association	MESH:D000544	351
+32046944	Positive_Correlation	MESH:D013481	11820
+32046944	Negative_Correlation	11820	4137
+32046944	Positive_Correlation	11820	11848
+32046944	Positive_Correlation	MESH:D013481	20787
+32046944	Negative_Correlation	104112	11820
+

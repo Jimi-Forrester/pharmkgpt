@@ -1,0 +1,47 @@
+21545837|t|Insulin-like growth factor-I mediates neuroprotection in proteasome inhibition-induced cytotoxicity in SH-SY5Y cells.
+21545837|a|The proteasome is an enzyme complex responsible for targeted intracellular proteolysis. Alterations in proteasome-mediated protein clearance have been implicated in the pathogenesis of aging, Alzheimer's disease (AD) and Parkinson's disease (PD). In such diseases, proteasome inhibition may contribute to formation of abnormal protein aggregates, which in turn activate intracellular unfolded protein responses that cause oxidative stress and apoptosis. In this study, we investigated the protective effect of Insulin-like Growth Factor-I (IGF-1) for neural SH-SY5Y cells treated with the proteasomal inhibitor, Epoxomicin. In SH-SY5Y cells, Epoxomicin treatment results in accumulation of intracellular ubiquitinated proteins and cytochrome c release from damaged mitochondria, leading to cell death, in Epoxomicin time- and dose-dependent manner. In cells treated with small amounts of IGF-1, the same dosages of Epoxomicin reduced both mitochondrial damage (cytochrome c release) and reduced caspase-3 activation and PARP cleavage, both of which are markers of apoptosis. Notably, however, IGF-1-treated SH-SY5Y cells still contained ubiquitinated protein aggregates. This result indicates that IGF-1 blocks the downstream apoptotic consequences of Epoxomicin treatment leading to decreased proteasome function. Clues as to the mechanism for this protective effect come from (a) increased AKT phosphorylation observed in IGF-1-protected cells, vs. cells exposed to Epoxomicin without IGF-1, and (b) reduction of IGF-1 protection by pretreatment of the cells with LY294002 (an inhibitor of PI3-kinase). Together these findings suggest that activation of PI3/AKT pathways by IGF-1 is involved in IGF-1 neuroprotection against apoptosis following proteasome inhibition.
+21545837	0	28	Insulin-like growth factor-I	Gene	3479
+21545837	87	99	cytotoxicity	Disease	MESH:D064420
+21545837	103	110	SH-SY5Y	CellLine	CVCL:0019
+21545837	310	329	Alzheimer's disease	Disease	MESH:D000544
+21545837	331	333	AD	Disease	MESH:D000544
+21545837	339	358	Parkinson's disease	Disease	MESH:D010300
+21545837	360	362	PD	Disease	MESH:D010300
+21545837	628	656	Insulin-like Growth Factor-I	Gene	3479
+21545837	658	663	IGF-1	Gene	3479
+21545837	676	683	SH-SY5Y	CellLine	CVCL:0019
+21545837	730	740	Epoxomicin	Chemical	MESH:C078846
+21545837	745	752	SH-SY5Y	CellLine	CVCL:0019
+21545837	849	861	cytochrome c	Gene	54205
+21545837	923	933	Epoxomicin	Chemical	MESH:C078846
+21545837	1006	1011	IGF-1	Gene	3479
+21545837	1057	1077	mitochondrial damage	Disease	MESH:D028361
+21545837	1079	1091	cytochrome c	Gene	54205
+21545837	1113	1122	caspase-3	Gene	836
+21545837	1138	1142	PARP	Gene	142
+21545837	1211	1216	IGF-1	Gene	3479
+21545837	1225	1232	SH-SY5Y	CellLine	CVCL:0019
+21545837	1316	1321	IGF-1	Gene	3479
+21545837	1510	1513	AKT	Gene	207
+21545837	1542	1547	IGF-1	Gene	3479
+21545837	1605	1610	IGF-1	Gene	3479
+21545837	1633	1638	IGF-1	Gene	3479
+21545837	1684	1692	LY294002	Chemical	MESH:C085911
+21545837	1710	1720	PI3-kinase	Gene	5295
+21545837	1774	1777	PI3	Gene	5266
+21545837	1778	1781	AKT	Gene	207
+21545837	1794	1799	IGF-1	Gene	3479
+21545837	1815	1820	IGF-1	Gene	3479
+21545837	Positive_Correlation	207	3479
+21545837	Association	MESH:D064420	3479
+21545837	Association	MESH:D010300	3479
+21545837	Negative_Correlation	142	3479
+21545837	Negative_Correlation	MESH:C085911	5295
+21545837	Positive_Correlation	MESH:D028361	54205
+21545837	Positive_Correlation	MESH:C078846	54205
+21545837	Negative_Correlation	MESH:D028361	3479
+21545837	Positive_Correlation	3479	54205
+21545837	Positive_Correlation	3479	5266
+21545837	Negative_Correlation	3479	836
+21545837	Association	MESH:D000544	3479
+

@@ -1,0 +1,36 @@
+37000013|t|Sut-6/NIPP1 modulates tau toxicity.
+37000013|a|Neurodegenerative diseases exhibiting the pathological accumulation of tau such as Alzheimer's disease and related disorders still have no disease-modifying treatments and the molecular mechanisms of neurodegeneration remain unclear. To discover additional suppressor of tauopathy (sut) genes that mediate or modulate the toxicity of pathological tau, we performed a classical genetic screen using a tau transgenic C. elegans model. From this screen we identified the suppressing mutation W292X in sut-6, the C. elegans homolog of human NIPP1, which truncates the C-terminal RNA-binding domain. Using CRISPR based genome editing approaches, we generated null and additional C-terminally truncated alleles in sut-6 and found that loss of sut-6 or sut-6(W292X) suppresses tau-induced behavioral locomotor deficits, tau protein accumulation, and neuron loss. The sut-6(W292X) mutation showed stronger and semi-dominant suppression of tau toxicity while sut-6 deletion acted recessively. Neuronal overexpression of SUT-6 protein did not significantly alter tau toxicity, but neuronal overexpression of SUT-6 W292X mutant protein reduced tau-mediated deficits. Epistasis studies showed tauopathy suppression by sut-6 occurs independent of other known nuclear speckle-localized suppressors of tau such as sut-2, aly-1/aly-3, and spop-1. In summary we have shown that sut-6/NIPP1 modulates tau toxicity and found a dominant mutation in the RNA binding domain of sut-6 which strongly suppresses tau toxicity. This suggests that altering RNA-related functions of SUT-6/NIPP1 instead of complete loss of SUT-6/NIPP1 will provide the strongest suppression of tau.
+37000013	6	11	NIPP1	Gene	5511
+37000013	22	34	tau toxicity	Disease	MESH:C536599
+37000013	36	62	Neurodegenerative diseases	Disease	MESH:D019636
+37000013	119	138	Alzheimer's disease	Disease	MESH:D000544
+37000013	236	253	neurodegeneration	Disease	MESH:D019636
+37000013	293	316	suppressor of tauopathy	Disease	MESH:D024801
+37000013	318	321	sut	Disease	MESH:D024801
+37000013	358	366	toxicity	Disease	MESH:D064420
+37000013	451	461	C. elegans	Species	328850
+37000013	525	530	W292X	ProteinMutation	tmVar:p|SUB|W|292|X;HGVS:p.W292X;VariantGroup:0;CorrespondingGene:5511;CorrespondingSpecies:9606
+37000013	545	555	C. elegans	Species	328850
+37000013	567	572	human	Species	9606
+37000013	573	578	NIPP1	Gene	5511
+37000013	788	793	W292X	ProteinMutation	tmVar:p|SUB|W|292|X;HGVS:p.W292X;VariantGroup:0;CorrespondingGene:5511;CorrespondingSpecies:9606
+37000013	829	847	locomotor deficits	Disease	MESH:D001523
+37000013	879	890	neuron loss	Disease	MESH:D009410
+37000013	902	907	W292X	ProteinMutation	tmVar:p|SUB|W|292|X;HGVS:p.W292X;VariantGroup:0;CorrespondingGene:5511;CorrespondingSpecies:9606
+37000013	967	979	tau toxicity	Disease	MESH:C536599
+37000013	1089	1101	tau toxicity	Disease	MESH:C536599
+37000013	1140	1145	W292X	ProteinMutation	tmVar:p|SUB|W|292|X;HGVS:p.W292X;VariantGroup:0;CorrespondingGene:5511;CorrespondingSpecies:9606
+37000013	1217	1226	tauopathy	Disease	MESH:D024801
+37000013	1335	1340	sut-2	Gene	178847
+37000013	1342	1347	aly-1	Gene	177735
+37000013	1348	1353	aly-3	Gene	178157
+37000013	1403	1408	NIPP1	Gene	5511
+37000013	1419	1431	tau toxicity	Disease	MESH:C536599
+37000013	1596	1601	NIPP1	Gene	5511
+37000013	1636	1641	NIPP1	Gene	5511
+37000013	Negative_Correlation	MESH:C536599	HGVS:p.W292X;CorrespondingGene:5511
+37000013	Positive_Correlation	MESH:D009410	HGVS:p.W292X;CorrespondingGene:5511
+37000013	Association	MESH:C536599	5511
+37000013	Association	MESH:C536599	5511
+37000013	Association	MESH:D009410	5511
+

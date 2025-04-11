@@ -1,0 +1,41 @@
+38978031|t|Genome-scale metabolic network of human carotid plaque reveals the pivotal role of glutamine/glutamate metabolism in macrophage modulating plaque inflammation and vulnerability.
+38978031|a|BACKGROUND: Metabolism is increasingly recognized as a key regulator of the function and phenotype of the primary cellular constituents of the atherosclerotic vascular wall, including endothelial cells, smooth muscle cells, and inflammatory cells. However, a comprehensive analysis of metabolic changes associated with the transition of plaque from a stable to a hemorrhaged phenotype is lacking. METHODS: In this study, we integrated two large mRNA expression and protein abundance datasets (BIKE, n = 126; MaasHPS, n = 43) from human atherosclerotic carotid artery plaque to reconstruct a genome-scale metabolic network (GEM). Next, the GEM findings were linked to metabolomics data from MaasHPS, providing a comprehensive overview of metabolic changes in human plaque. RESULTS: Our study identified significant changes in lipid, cholesterol, and inositol metabolism, along with altered lysosomal lytic activity and increased inflammatory activity, in unstable plaques with intraplaque hemorrhage (IPH+) compared to non-hemorrhaged (IPH-) plaques. Moreover, topological analysis of this network model revealed that the conversion of glutamine to glutamate and their flux between the cytoplasm and mitochondria were notably compromised in hemorrhaged plaques, with a significant reduction in overall glutamate levels in IPH+ plaques. Additionally, reduced glutamate availability was associated with an increased presence of macrophages and a pro-inflammatory phenotype in IPH+ plaques, suggesting an inflammation-prone microenvironment. CONCLUSIONS: This study is the first to establish a robust and comprehensive GEM for atherosclerotic plaque, providing a valuable resource for understanding plaque metabolism. The utility of this GEM was illustrated by its ability to reliably predict dysregulation in the cholesterol hydroxylation, inositol metabolism, and the glutamine/glutamate pathway in rupture-prone hemorrhaged plaques, a finding that may pave the way to new diagnostic or therapeutic measures.
+38978031	34	39	human	Species	9606
+38978031	83	102	glutamine/glutamate	ProteinMutation	tmVar:p|Allele|Q,E|;VariantGroup:0
+38978031	146	158	inflammation	Disease	MESH:D007249
+38978031	321	336	atherosclerotic	Disease	MESH:D050197
+38978031	406	418	inflammatory	Disease	MESH:D007249
+38978031	541	552	hemorrhaged	Disease	MESH:D006470
+38978031	708	713	human	Species	9606
+38978031	714	729	atherosclerotic	Disease	MESH:D050197
+38978031	936	941	human	Species	9606
+38978031	1003	1008	lipid	Chemical	MESH:D008055
+38978031	1010	1021	cholesterol	Chemical	MESH:D002784
+38978031	1027	1035	inositol	Chemical	MESH:D007294
+38978031	1106	1118	inflammatory	Disease	MESH:D007249
+38978031	1166	1176	hemorrhage	Disease	MESH:D006470
+38978031	1178	1181	IPH	Disease	
+38978031	1200	1211	hemorrhaged	Disease	MESH:D006470
+38978031	1213	1216	IPH	Disease	
+38978031	1313	1335	glutamine to glutamate	ProteinMutation	tmVar:p|SUB|Q||E;VariantGroup:1
+38978031	1418	1429	hemorrhaged	Disease	MESH:D006470
+38978031	1479	1488	glutamate	Chemical	MESH:D018698
+38978031	1499	1502	IPH	Chemical	-
+38978031	1535	1544	glutamate	Chemical	MESH:D018698
+38978031	1625	1637	inflammatory	Disease	MESH:D007249
+38978031	1651	1654	IPH	Disease	
+38978031	1679	1691	inflammation	Disease	MESH:D007249
+38978031	1801	1823	atherosclerotic plaque	Disease	MESH:D058226
+38978031	1988	1999	cholesterol	Chemical	MESH:D002784
+38978031	2015	2023	inositol	Chemical	MESH:D007294
+38978031	2044	2063	glutamine/glutamate	ProteinMutation	tmVar:p|Allele|Q,E|;VariantGroup:0
+38978031	2089	2100	hemorrhaged	Disease	MESH:D006470
+38978031	Association	MESH:D006470	VariantGroup:1;tmVar:p
+38978031	Association	MESH:D007249	VariantGroup:0;tmVar:p
+38978031	Association	MESH:D007294	MESH:D006470
+38978031	Association	MESH:D006470	VariantGroup:0;tmVar:p
+38978031	Association	MESH:D002784	MESH:D006470
+38978031	Association	MESH:D008055	MESH:D006470
+38978031	Association	MESH:D018698	MESH:D007249
+38978031	Negative_Correlation	MESH:D018698	MESH:D006470
+

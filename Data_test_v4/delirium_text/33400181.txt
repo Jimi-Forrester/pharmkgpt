@@ -1,0 +1,50 @@
+33400181|t|Formaldehyde and Brain Disorders: A Meta-Analysis and Bioinformatics Approach.
+33400181|a|While there is significant investigation and investment in brain and neurodegenerative disease research, current understanding of the etiologies of illnesses like Alzheimer's disease (AD), Parkinson's disease (PD), amyotrophic lateral sclerosis (ALS), and brain cancer remains limited. Environmental exposure to the pollutant formaldehyde, an emerging neurotoxin widely used in industry, is suspected to play a critical role in mediating these disorders, although findings are limited and inconsistent. Focusing on highly exposed groups, we performed a meta-analysis of human epidemiological studies of formaldehyde and neurodegenerative disease (N =  19) or brain tumors (N = 12). To assess the biological plausibility of observed associations, we then conducted a bioinformatics analysis using WikiPathways and the Comparative Toxicogenomics Database and identified candidate genes and pathways that may be related to these interactions. We reported the meta-relative risk (meta-RR) of ALS following high exposures to formaldehyde was increased by 78% (meta-RR = 1.78, 95% confidence interval, CI 1.20-2.65). Similarly, the meta-RR for brain cancer was increased by 71% (meta-RR = 1.71; 95% CI 1.07-2.73) among highly exposed individuals. Multiple sensitivity analyses did not reveal sources of heterogeneity or bias. Our bioinformatics analysis revealed that the oxidative stress genes superoxide dismutase (SOD1, SOD2) and the pro-inflammatory marker tumor necrosis factor (TNF) were identified as the top relevant genes, and the folate metabolism, vitamin B12 metabolism, and the ALS pathways were highly affected by formaldehyde and related to the most brain diseases of interest. Further inquiry revealed the two metabolic pathways are also intimately tied with the formaldehyde cycle. Overall, our bioinformatics analysis supports the link of formaldehyde exposure to ALS or brain tumor reported from our meta-analysis. This new multifactorial approach enabled us to both interrogate the robustness of the epidemiological data and identify genes and pathways that may be involved in these interactions, ultimately lending strong evidence and potential biological plausibility for the association between formaldehyde exposure and brain disease.
+33400181	0	12	Formaldehyde	Chemical	MESH:D005557
+33400181	17	32	Brain Disorders	Disease	MESH:D001927
+33400181	144	173	and neurodegenerative disease	Disease	MESH:D019636
+33400181	242	261	Alzheimer's disease	Disease	MESH:D000544
+33400181	263	265	AD	Disease	MESH:D000544
+33400181	268	287	Parkinson's disease	Disease	MESH:D010300
+33400181	289	291	PD	Disease	MESH:D010300
+33400181	294	323	amyotrophic lateral sclerosis	Disease	MESH:D000690
+33400181	325	328	ALS	Disease	MESH:D000690
+33400181	335	347	brain cancer	Disease	MESH:D001932
+33400181	405	417	formaldehyde	Chemical	MESH:D005557
+33400181	649	654	human	Species	9606
+33400181	682	694	formaldehyde	Chemical	MESH:D005557
+33400181	695	724	and neurodegenerative disease	Disease	MESH:D019636
+33400181	738	750	brain tumors	Disease	MESH:D001932
+33400181	1067	1070	ALS	Disease	MESH:D000690
+33400181	1099	1111	formaldehyde	Chemical	MESH:D005557
+33400181	1217	1229	brain cancer	Disease	MESH:D001932
+33400181	1490	1494	SOD1	Gene	6647
+33400181	1496	1500	SOD2	Gene	6648
+33400181	1514	1526	inflammatory	Disease	MESH:D007249
+33400181	1534	1555	tumor necrosis factor	Gene	7124
+33400181	1557	1560	TNF	Gene	7124
+33400181	1613	1619	folate	Chemical	MESH:D005492
+33400181	1632	1643	vitamin B12	Chemical	MESH:D014805
+33400181	1664	1667	ALS	Disease	MESH:D000690
+33400181	1701	1713	formaldehyde	Chemical	MESH:D005557
+33400181	1738	1752	brain diseases	Disease	MESH:D001927
+33400181	1852	1864	formaldehyde	Chemical	MESH:D005557
+33400181	1930	1942	formaldehyde	Chemical	MESH:D005557
+33400181	1955	1958	ALS	Disease	MESH:D000690
+33400181	1962	1973	brain tumor	Disease	MESH:D001932
+33400181	2291	2303	formaldehyde	Chemical	MESH:D005557
+33400181	2317	2330	brain disease	Disease	MESH:D001927
+33400181	Association	MESH:D005557	6648
+33400181	Positive_Correlation	MESH:D005557	MESH:D001932
+33400181	Association	MESH:D005557	MESH:D019636
+33400181	Association	MESH:D005492	MESH:D001927
+33400181	Association	MESH:D005557	6647
+33400181	Positive_Correlation	MESH:D005557	MESH:D000690
+33400181	Association	MESH:D014805	MESH:D001927
+33400181	Association	MESH:D001927	7124
+33400181	Association	MESH:D005557	7124
+33400181	Association	MESH:D005557	MESH:D001927
+33400181	Association	MESH:D005557	MESH:D014805
+33400181	Association	MESH:D005492	MESH:D000690
+33400181	Association	MESH:D005492	MESH:D005557
+

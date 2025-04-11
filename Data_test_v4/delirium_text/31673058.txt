@@ -1,0 +1,54 @@
+31673058|t|Heparin and heparan sulfate proteoglycans promote HIV-1 p17 matrix protein oligomerization: computational, biochemical and biological implications.
+31673058|a|p17 matrix protein released by HIV+ cells interacts with leukocytes heparan sulfate proteoglycans (HSPGs), CXCR1 and CXCR2 exerting different cytokine-like activities that contribute to AIDS pathogenesis. Since the bioactive form of several cytokines is represented by dimers/oligomers and oligomerization is promoted by binding to heparin or HSPGs, here we evaluated if heparin/HSPGs also promote p17 oligomerization. Heparin favours p17 dimer, trimer and tetramer assembly, in a time- and biphasic dose-dependent way. Heparin-induced p17 oligomerization is of electrostatic nature, being it prevented by NaCl, by removing negative sulfated groups of heparin and by neutralizing positive lysine residues in the p17 N-terminus. A new computational protocol has been implemented to study heparin chains up to 24-mer accommodating a p17 dimer. Molecular dynamics show that, in the presence of heparin, two p17 molecules undergo conformational modifications creating a continuous "electropositive channel" in which heparin sulfated groups interact with p17 basic amino acids, promoting its dimerization. At the cell surface, HSPGs induce p17 oligomerization, as demonstrated by using B-lymphoblastoid Namalwa cells overexpressing the HSPG Syndecan-1. Also, HSPGs on the surface of BJAB and Raji human B-lymphoblastoid cells are required to p17 to induce ERK1/2 activation, suggesting that HS-induced oligomerization plays a role in p17-induced lymphoid dysregulation during AIDS.
+31673058	0	7	Heparin	Gene	
+31673058	50	55	HIV-1	Species	11676
+31673058	56	59	p17	Gene	653820
+31673058	67	74	protein	Gene	
+31673058	148	151	p17	Gene	653820
+31673058	159	166	protein	Gene	
+31673058	179	182	HIV	Species	11676
+31673058	255	260	CXCR1	Gene	3577
+31673058	265	270	CXCR2	Gene	3579
+31673058	334	338	AIDS	Disease	MESH:D000163
+31673058	480	487	heparin	Chemical	MESH:D006493
+31673058	519	526	heparin	Chemical	MESH:D006493
+31673058	546	549	p17	Gene	653820
+31673058	567	574	Heparin	Chemical	MESH:D006493
+31673058	583	586	p17	Gene	653820
+31673058	668	675	Heparin	Chemical	MESH:D006493
+31673058	684	687	p17	Gene	653820
+31673058	754	758	NaCl	Chemical	MESH:D012965
+31673058	800	807	heparin	Chemical	MESH:D006493
+31673058	837	843	lysine	Chemical	MESH:D008239
+31673058	860	863	p17	Gene	653820
+31673058	935	942	heparin	Chemical	MESH:D006493
+31673058	979	982	p17	Gene	653820
+31673058	1039	1046	heparin	Chemical	MESH:D006493
+31673058	1052	1055	p17	Gene	653820
+31673058	1160	1167	heparin	Chemical	MESH:D006493
+31673058	1198	1201	p17	Gene	653820
+31673058	1283	1286	p17	Gene	653820
+31673058	1346	1353	Namalwa	CellLine	CVCL:0067
+31673058	1379	1383	HSPG	Gene	6383
+31673058	1384	1394	Syndecan-1	Gene	6382
+31673058	1426	1430	BJAB	CellLine	CVCL:5711
+31673058	1435	1439	Raji	CellLine	CVCL:0511
+31673058	1440	1445	human	Species	9606
+31673058	1485	1488	p17	Gene	653820
+31673058	1499	1505	ERK1/2	Gene	5595;5594
+31673058	1577	1580	p17	Gene	653820
+31673058	1589	1611	lymphoid dysregulation	Disease	MESH:D021081
+31673058	1619	1623	AIDS	Disease	MESH:D000163
+31673058	Negative_Correlation	MESH:D012965	653820
+31673058	Association	MESH:D008239	653820
+31673058	Positive_Correlation	5595	653820
+31673058	Association	3579	653820
+31673058	Association	MESH:D021081	653820
+31673058	Positive_Correlation	5594	653820
+31673058	Association	MESH:D000163	3579
+31673058	Association	MESH:D000163	653820
+31673058	Association	MESH:D000163	3577
+31673058	Association	6382	653820
+31673058	Association	3577	653820
+31673058	Positive_Correlation	MESH:D006493	653820
+

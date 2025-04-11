@@ -1,0 +1,11 @@
+33253116|t|Predicting Cognitive Declines Using Longitudinally Enriched Representations for Imaging Biomarkers.
+33253116|a|A critical challenge in using longitudinal neuroimaging data to study the progressions of Alzheimer's Disease (AD) is the varied number of missing records of the patients during the course when AD develops. To tackle this problem, in this paper we propose a novel formulation to learn an enriched representation with fixed length for imaging biomarkers, which aims to simultaneously capture the information conveyed by both baseline neuroimaging record and progressive variations characterized by varied counts of available follow-up records over time. Because the learned biomarker representations are a set of fixed-length vectors, they can be readily used by traditional machine learning models to study AD developments. Take into account that the missing brain scans are not aligned in terms of time in a studied cohort, we develop a new objective that maximizes the ratio of the summations of a number of l1 -norm distances for improved robustness, which, though, is difficult to efficiently solve in general. Thus, we derive a new efficient and non-greedy iterative solution algorithm and rigorously prove its convergence. We have performed extensive experiments on the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort. A clear performance gain has been achieved in predicting ten different cognitive scores when we compare the original baseline biomarker representations against the learned representations with longitudinal enrichments. We further observe that the top selected biomarkers by our new method are in accordance with known knowledge in AD studies. These promising results have demonstrated improved performances of our new method that validate its effectiveness.
+33253116	11	29	Cognitive Declines	Disease	MESH:D003072
+33253116	190	209	Alzheimer's Disease	Disease	MESH:D000544
+33253116	211	213	AD	Disease	MESH:D000544
+33253116	262	270	patients	Species	9606
+33253116	294	296	AD	Disease	MESH:D000544
+33253116	807	809	AD	Disease	MESH:D000544
+33253116	1276	1295	Alzheimer's Disease	Disease	MESH:D000544
+33253116	1666	1668	AD	Disease	MESH:D000544
+

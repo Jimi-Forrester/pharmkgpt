@@ -1,0 +1,26 @@
+34920170|t|Modulating physicochemical properties of tetrahydropyridine-2-amine BACE1 inhibitors with electron-withdrawing groups: A systematic study.
+34920170|a|A common challenge for medicinal chemists is to reduce the pKa of strongly basic groups' conjugate acids into a range that preserves the desired effects, usually potency and/or solubility, but avoids undesired effects like high volume of distribution (Vd), limited membrane permeation, and off-target binding to, notably, the hERG channel and monoamine receptors. We faced this challenge with a 3,4,5,6-tetrahydropyridine-2-amine scaffold harboring an amidine, a key structural component of potential inhibitors of BACE1, the rate-limiting enzyme in the production of Abeta species that make up amyloid plaques in Alzheimer's disease. In our endeavor to balance potency with desirable properties to achieve brain penetration, we introduced a diverse set of groups in beta position of the amidine that modulate logD, PSA and pKa. Given the synthetic challenge to prepare these highly functionalized warheads, we first developed a design flow including predicted physicochemical parameters which allowed us to select only the most promising candidates for synthesis. For this we evaluated a set of commercial packages to predict physicochemical properties, which can guide medicinal chemists in their endeavors to modulate pKa values of amidine and amine bases.
+34920170	41	67	tetrahydropyridine-2-amine	Chemical	-
+34920170	68	73	BACE1	Gene	23621
+34920170	465	469	hERG	Gene	3757
+34920170	534	568	3,4,5,6-tetrahydropyridine-2-amine	Chemical	-
+34920170	591	598	amidine	Chemical	MESH:D000578
+34920170	654	659	BACE1	Gene	23621
+34920170	707	712	Abeta	Gene	351
+34920170	734	749	amyloid plaques	Disease	MESH:D058225
+34920170	753	772	Alzheimer's disease	Disease	MESH:D000544
+34920170	927	934	amidine	Chemical	MESH:D000578
+34920170	955	958	PSA	Gene	9520
+34920170	1374	1381	amidine	Chemical	MESH:D000578
+34920170	1386	1391	amine	Chemical	MESH:D000588
+34920170	Association	MESH:D000544	23621
+34920170	Negative_Correlation	MESH:D000578	351
+34920170	Association	MESH:D000578	9520
+34920170	Association	MESH:D058225	351
+34920170	Association	MESH:D058225	23621
+34920170	Association	MESH:D000544	351
+34920170	Negative_Correlation	MESH:D000578	MESH:D000544
+34920170	Negative_Correlation	MESH:D000578	23621
+34920170	Negative_Correlation	MESH:D000578	MESH:D058225
+34920170	Association	23621	351
+

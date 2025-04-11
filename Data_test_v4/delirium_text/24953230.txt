@@ -1,0 +1,35 @@
+24953230|t|A single pathway targets several health challenges of the elderly.
+24953230|a|New avenues to modulate the autophagy-lysosomal route of protein clearance have the potential to help treat several disease states to which the elderly are particularly vulnerable. Two recent papers identified distinct ways to tap into the lysosomal degradation pathway of autophagy to reduce age-related protein accumulation events. Shoji-Kawata et al. (Nature 2013;494:201-206) describe a new autophagy-inducing peptide, Tat-Beclin 1, that enhances the clearance of polyglutamine aggregates related to Huntington's disease and, interestingly, suppresses viral and bacterial infections. Savolainen et al. (Neurobiol Dis 2014;68:1-15) describe a prolyl oligopeptidase inhibitor that reduces alpha-synuclein species related to Parkinson's disease and other alpha-synucleinopathies, and this inhibitor caused a concomitant increase in autophagic activation markers. Previous studies have also linked the autophagy-lysosomal pathway to the protective clearing of the Abeta peptides of Alzheimer's disease and tau species of tauopathies. Enhancing autophagy-lysosomal efficiency may provide a therapeutic avenue for diverse types of proteinopathies, including the most common neurodegenerative disorders of the elderly.
+24953230	490	493	Tat	Gene	6898
+24953230	494	502	Beclin 1	Gene	8678
+24953230	535	548	polyglutamine	Chemical	MESH:C097188
+24953230	571	591	Huntington's disease	Disease	MESH:D006816
+24953230	623	628	viral	Disease	MESH:D014777
+24953230	633	653	bacterial infections	Disease	MESH:D001424
+24953230	713	734	prolyl oligopeptidase	Gene	5550
+24953230	758	773	alpha-synuclein	Gene	6622
+24953230	793	812	Parkinson's disease	Disease	MESH:D010300
+24953230	823	846	alpha-synucleinopathies	Disease	MESH:D000080874
+24953230	1031	1036	Abeta	Gene	351
+24953230	1049	1068	Alzheimer's disease	Disease	MESH:D000544
+24953230	1073	1076	tau	Gene	4137
+24953230	1088	1099	tauopathies	Disease	MESH:D024801
+24953230	1196	1211	proteinopathies	Disease	MESH:D057165
+24953230	1239	1266	neurodegenerative disorders	Disease	MESH:D019636
+24953230	Negative_Correlation	MESH:D001424	6898
+24953230	Association	MESH:D000080874	6622
+24953230	Association	MESH:D000544	351
+24953230	Negative_Correlation	MESH:D001424	8678
+24953230	Negative_Correlation	MESH:D014777	6898
+24953230	Association	6898	8678
+24953230	Association	MESH:D010300	6622
+24953230	Negative_Correlation	MESH:D006816	6898
+24953230	Negative_Correlation	MESH:D006816	8678
+24953230	Negative_Correlation	MESH:C097188	6898
+24953230	Negative_Correlation	5550	6622
+24953230	Negative_Correlation	MESH:D014777	8678
+24953230	Association	MESH:C097188	MESH:D006816
+24953230	Association	MESH:D000080874	5550
+24953230	Negative_Correlation	MESH:C097188	8678
+24953230	Association	MESH:D010300	5550
+

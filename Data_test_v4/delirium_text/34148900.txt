@@ -1,0 +1,10 @@
+34148900|t|[Accuracy of Classification of Cerebral Blood Flow Reduction Patterns Using Statistical Analysis Images Generated with Simulated SPECT Datasets via Deep Learning].
+34148900|a|PURPOSE: The aim of this study was to evaluate the classification accuracy of specific blood flow reduction patterns in clinical images by deep learning using simulation data. METHODS: We obtained Z-score maps for 100 cases each of simulated Alzheimer's disease (AD), simulated dementia with Lewy bodies (DLB), and simulated normal cognition (NC) by performing statistical analysis of the simulation data that provided defects and healthy patient data. The clinical images were determined by reference to radiological reports, and Z-score maps of AD (n=33), DLB (n=20), and NC (n=28) were used. A network was constructed with reference to AlexNet, 4-fold cross-validation was performed using only simulation data, and classification accuracy was evaluated. We also trained the model using the simulation data and classified the clinical images. RESULTS: The accuracy rate of classification between simulations was 96.2% and that of the clinical images was 84.2%. CONCLUSION: Through deep learning using simulation data, clinical images may be classified with an accuracy of 84.2%.
+34148900	406	425	Alzheimer's disease	Disease	MESH:D000544
+34148900	427	429	AD	Disease	MESH:D000544
+34148900	442	467	dementia with Lewy bodies	Disease	MESH:D020961
+34148900	469	472	DLB	Disease	MESH:D020961
+34148900	603	610	patient	Species	9606
+34148900	711	713	AD	Disease	MESH:D000544
+34148900	722	725	DLB	Disease	MESH:D020961
+

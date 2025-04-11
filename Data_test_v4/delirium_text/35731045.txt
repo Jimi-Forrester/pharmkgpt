@@ -1,0 +1,27 @@
+35731045|t|Prediction of type 2 diabetes mellitus onset using logistic regression-based scorecards.
+35731045|a|Background: Type 2 diabetes (T2D) accounts for ~90% of all cases of diabetes, resulting in an estimated 6.7 million deaths in 2021, according to the International Diabetes Federation. Early detection of patients with high risk of developing T2D can reduce the incidence of the disease through a change in lifestyle, diet, or medication. Since populations of lower socio-demographic status are more susceptible to T2D and might have limited resources or access to sophisticated computational resources, there is a need for accurate yet accessible prediction models. Methods: In this study, we analyzed data from 44,709 nondiabetic UK Biobank participants aged 40-69, predicting the risk of T2D onset within a selected time frame (mean of 7.3 years with an SD of 2.3 years). We started with 798 features that we identified as potential predictors for T2D onset. We first analyzed the data using gradient boosting decision trees, survival analysis, and logistic regression methods. We devised one nonlaboratory model accessible to the general population and one more precise yet simple model that utilizes laboratory tests. We simplified both models to an accessible scorecard form, tested the models on normoglycemic and prediabetes subcohorts, and compared the results to the results of the general cohort. We established the nonlaboratory model using the following covariates: sex, age, weight, height, waist size, hip circumference, waist-to-hip ratio, and body mass index. For the laboratory model, we used age and sex together with four common blood tests: high-density lipoprotein (HDL), gamma-glutamyl transferase, glycated hemoglobin, and triglycerides. As an external validation dataset, we used the electronic medical record database of Clalit Health Services. Results: The nonlaboratory scorecard model achieved an area under the receiver operating curve (auROC) of 0.81 (95% confidence interval [CI] 0.77-0.84) and an odds ratio (OR) between the upper and fifth prevalence deciles of 17.2 (95% CI 5-66). Using this model, we classified three risk groups, a group with 1% (0.8-1%), 5% (3-6%), and the third group with a 9% (7-12%) risk of developing T2D. We further analyzed the contribution of the laboratory-based model and devised a blood test model based on age, sex, and the four common blood tests noted above. In this scorecard model, we included age, sex, glycated hemoglobin (HbA1c%), gamma glutamyl-transferase, triglycerides, and HDL cholesterol. Using this model, we achieved an auROC of 0.87 (95% CI 0.85-0.90) and a deciles' OR of x48 (95% CI 12-109). Using this model, we classified the cohort into four risk groups with the following risks: 0.5% (0.4-7%); 3% (2-4%); 10% (8-12%); and a high-risk group of 23% (10-37%) of developing T2D. When applying the blood tests model using the external validation cohort (Clalit), we achieved an auROC of 0.75 (95% CI 0.74-0.75). We analyzed several additional comprehensive models, which included genotyping data and other environmental factors. We found that these models did not provide cost-efficient benefits over the four blood test model. The commonly used German Diabetes Risk Score (GDRS) and Finnish Diabetes Risk Score (FINDRISC) models, trained using our data, achieved an auROC of 0.73 (0.69-0.76) and 0.66 (0.62-0.70), respectively, inferior to the results achieved by the four blood test model and by the anthropometry models. Conclusions: The four blood test and anthropometric models outperformed the commonly used nonlaboratory models, the FINDRISC and the GDRS. We suggest that our models be used as tools for decision-makers to assess populations at elevated T2D risk and thus improve medical strategies. These models might also provide a personal catalyst for changing lifestyle, diet, or medication modifications to lower the risk of T2D onset. Funding: The funders had no role in study design, data collection, interpretation, or the decision to submit the work for publication.
+35731045	14	38	type 2 diabetes mellitus	Disease	MESH:D003924
+35731045	101	116	Type 2 diabetes	Disease	MESH:D003924
+35731045	118	121	T2D	Disease	MESH:D003924
+35731045	157	165	diabetes	Disease	MESH:D003920
+35731045	205	211	deaths	Disease	MESH:D003643
+35731045	252	260	Diabetes	Disease	MESH:D003920
+35731045	292	300	patients	Species	9606
+35731045	330	333	T2D	Disease	MESH:D003924
+35731045	502	505	T2D	Disease	MESH:D003924
+35731045	778	781	T2D	Disease	MESH:D003924
+35731045	938	941	T2D	Disease	MESH:D003924
+35731045	1308	1319	prediabetes	Disease	MESH:D011236
+35731045	1681	1707	gamma-glutamyl transferase	Gene	2678
+35731045	1734	1747	triglycerides	Chemical	MESH:D014280
+35731045	2248	2252	T2D.	Disease	MESH:D003924
+35731045	2492	2518	gamma glutamyl-transferase	Gene	2678
+35731045	2520	2533	triglycerides	Chemical	MESH:D014280
+35731045	2543	2554	cholesterol	Chemical	MESH:D002784
+35731045	2846	2850	T2D.	Disease	MESH:D003924
+35731045	3224	3232	Diabetes	Disease	MESH:D003920
+35731045	3263	3271	Diabetes	Disease	MESH:D003920
+35731045	3732	3735	T2D	Disease	MESH:D003924
+35731045	3909	3912	T2D	Disease	MESH:D003924
+35731045	Association	MESH:D002784	MESH:D003924
+

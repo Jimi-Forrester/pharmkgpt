@@ -1,0 +1,37 @@
+37511300|t|The UPR Maintains Proteostasis and the Viability and Function of Hippocampal Neurons in Adult Mice.
+37511300|a|The unfolded protein response (UPR), which comprises three branches: PERK, ATF6alpha, and IRE1, is a major mechanism for maintaining cellular proteostasis. Many studies show that the UPR is a major player in regulating neuron viability and function in various neurodegenerative diseases; however, its role in neurodegeneration is highly controversial. Moreover, while evidence suggests activation of the UPR in neurons under normal conditions, deficiency of individual branches of the UPR has no major effect on brain neurons in animals. It remains unclear whether or how the UPR participates in regulating neuronal proteostasis under normal and disease conditions. To determine the physiological role of the UPR in neurons, we generated mice with double deletion of PERK and ATF6alpha in neurons. We found that inactivation of PERK and ATF6alpha in neurons caused lysosomal dysfunction (as evidenced by decreased expression of the V0a1 subunit of v-ATPase and decreased activation of cathepsin D), impairment of autophagic flux (as evidenced by increased ratio of LC3-II/LC3-I and increased p62 level), and accumulation of p-tau and Abeta42 in the hippocampus, and led to impairment of spatial memory, impairment of hippocampal LTP, and hippocampal degeneration in adult mice. These results suggest that the UPR is required for maintaining neuronal proteostasis (particularly tau and Abeta homeostasis) and the viability and function of neurons in the hippocampus of adult mice.
+37511300	169	173	PERK	Gene	13666
+37511300	175	184	ATF6alpha	Gene	226641
+37511300	190	194	IRE1	Gene	26918
+37511300	360	386	neurodegenerative diseases	Disease	MESH:D019636
+37511300	409	426	neurodegeneration	Disease	MESH:D019636
+37511300	867	871	PERK	Gene	13666
+37511300	876	885	ATF6alpha	Gene	226641
+37511300	928	932	PERK	Gene	13666
+37511300	937	946	ATF6alpha	Gene	226641
+37511300	965	986	lysosomal dysfunction	Disease	MESH:D016464
+37511300	1085	1096	cathepsin D	Gene	13033
+37511300	1165	1168	LC3	Gene	66734
+37511300	1172	1175	LC3	Gene	66734
+37511300	1192	1195	p62	Gene	18226
+37511300	1273	1301	impairment of spatial memory	Disease	MESH:D008569
+37511300	1303	1332	impairment of hippocampal LTP	Disease	MESH:D000092223
+37511300	1338	1362	hippocampal degeneration	Disease	MESH:D009410
+37511300	1485	1490	Abeta	Gene	11820
+37511300	Association	MESH:D016464	13666
+37511300	Association	MESH:D009410	13666
+37511300	Association	MESH:D008569	13666
+37511300	Positive_Correlation	18226	226641
+37511300	Negative_Correlation	MESH:D000092223	226641
+37511300	Negative_Correlation	13666	18226
+37511300	Negative_Correlation	MESH:D008569	226641
+37511300	Association	13666	226641
+37511300	Positive_Correlation	13666	66734
+37511300	Positive_Correlation	226641	66734
+37511300	Positive_Correlation	13033	13666
+37511300	Association	MESH:D016464	226641
+37511300	Positive_Correlation	13033	226641
+37511300	Association	MESH:D009410	226641
+37511300	Association	MESH:D000092223	13666
+37511300	Association	MESH:D016464	13033
+

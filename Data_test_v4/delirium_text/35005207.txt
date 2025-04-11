@@ -1,0 +1,22 @@
+35005207|t|Time-to-event prediction using survival analysis methods for Alzheimer's disease progression.
+35005207|a|INTRODUCTION: Many research studies have well investigated Alzheimer's disease (AD) detection and progression. However, the continuous-time survival prediction of AD is not yet fully explored to support medical practitioners with predictive analytics. In this study, we develop a survival analysis approach to examine interactions between patients' inherent temporal and medical patterns and predict the probability of the AD next stage progression during a time period. The likelihood of reaching the following AD stage is unique to a patient, helping the medical practitioner analyze the patient's condition and provide personalized treatment recommendations ahead of time. METHODOLOGIES: We simulate the disease progression based on patient profiles using non-linear survival methods-non-linear Cox proportional hazard model (Cox-PH) and neural multi-task logistic regression (N-MTLR). In addition, we evaluate the concordance index (C-index) and Integrated Brier Score (IBS) to describe the evolution to the next stage of AD. For personalized forecasting of disease, we also developed deep neural network models using the dataset provided by the National Alzheimer's Coordinating Center with their multiple-visit details between 2005 and 2017. RESULTS: The experiment results show that our N-MTLR based survival models outperform the CoxPH models, the best of which gives Concordance-Index of 0.79 and IBS of 0.09. We obtained 50 critical features out of 92 by applying recursive feature elimination and random forest techniques on the clinical data; the top ones include normal cognition and behavior, criteria for dementia, community affairs, etc. Our study demonstrates that selecting critical features can improve the effectiveness of probabilities at each time interval. CONCLUSIONS: The proposed deep learning-based survival method and model can be used by medical practitioners to predict the patients' AD shift efficiently and recommend personalized treatment to mitigate or postpone the effects of AD. More generally, our proposed survival analysis approach for predicting disease stage shift can be used for other progressive diseases such as cancer, Huntington's disease, and scleroderma, just to mention a few, using the corresponding clinical data.
+35005207	61	80	Alzheimer's disease	Disease	MESH:D000544
+35005207	153	172	Alzheimer's disease	Disease	MESH:D000544
+35005207	174	176	AD	Disease	MESH:D000544
+35005207	257	259	AD	Disease	MESH:D000544
+35005207	433	441	patients	Species	9606
+35005207	517	519	AD	Disease	MESH:D000544
+35005207	606	608	AD	Disease	MESH:D000544
+35005207	630	637	patient	Species	9606
+35005207	684	691	patient	Species	9606
+35005207	830	837	patient	Species	9606
+35005207	1120	1122	AD	Disease	MESH:D000544
+35005207	1253	1262	Alzheimer	Disease	MESH:D000544
+35005207	1714	1722	dementia	Disease	MESH:D003704
+35005207	1998	2006	patients	Species	9606
+35005207	2008	2010	AD	Disease	MESH:D000544
+35005207	2105	2107	AD	Disease	MESH:D000544
+35005207	2251	2257	cancer	Disease	MESH:D009369
+35005207	2259	2279	Huntington's disease	Disease	MESH:D006816
+35005207	2285	2296	scleroderma	Disease	MESH:D012595
+

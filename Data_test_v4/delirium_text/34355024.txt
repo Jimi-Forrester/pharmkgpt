@@ -1,0 +1,30 @@
+34355024|t|Bioinformatics Analysis Reveals the Potential Diagnostic Biomarkers for Abdominal Aortic Aneurysm.
+34355024|a|Objectives: Abdominal aortic aneurysms (AAAs) are associated with high mortality rates. The genes and pathways linked with AAA remain poorly understood. This study aimed to identify key differentially expressed genes (DEGs) linked to the progression of AAA using bioinformatics analysis. Methods: Gene expression profiles of the GSE47472 and GSE57691 datasets were acquired from the Gene Expression Omnibus (GEO) database. These datasets were merged and normalized using the "sva" R package, and DEGs were identified using the limma package in R. The functions of these DEGs were assessed using Cytoscape software. We analyzed the DEGs using Gene Ontology and Kyoto Encyclopedia of Genes and Genomes pathway enrichment analysis. Protein-protein interaction networks were assembled using Cytoscape, and crucial genes were identified using the Cytoscape plugin, molecular complex detection. Data from GSE15729 and GSE24342 were also extracted to verify our findings. Results: We found that 120 genes were differentially expressed in AAA. Genes associated with inflammatory responses and nuclear-transcribed mRNA catabolic process were clustered in two gene modules in AAA. The hub genes of the two modules were IL6, RPL21, and RPL7A. The expression levels of IL6 correlated positively with RPL7A and negatively with RPL21. The expression of RPL21 and RPL7A was downregulated, whereas that of IL6 was upregulated in AAA. Conclusions: The expression of RPL21 or RPL7A combined with IL6 has a diagnostic value for AAA. The novel DEGs and pathways identified herein might provide new insights into the underlying molecular mechanisms of AAA.
+34355024	72	97	Abdominal Aortic Aneurysm	Disease	MESH:D017544
+34355024	111	137	Abdominal aortic aneurysms	Disease	MESH:D017544
+34355024	139	143	AAAs	Disease	MESH:D017544
+34355024	222	225	AAA	Disease	MESH:C565230
+34355024	352	355	AAA	Disease	MESH:C565230
+34355024	1130	1133	AAA	Disease	MESH:C565230
+34355024	1157	1169	inflammatory	Disease	MESH:D007249
+34355024	1265	1268	AAA	Disease	MESH:C565230
+34355024	1308	1311	IL6	Gene	3569
+34355024	1313	1318	RPL21	Gene	6144
+34355024	1324	1330	RPL7A.	Gene	6130
+34355024	1356	1359	IL6	Gene	3569
+34355024	1387	1392	RPL7A	Gene	6130
+34355024	1413	1418	RPL21	Gene	6144
+34355024	1438	1443	RPL21	Gene	6144
+34355024	1448	1453	RPL7A	Gene	6130
+34355024	1489	1492	IL6	Gene	3569
+34355024	1512	1515	AAA	Disease	MESH:C565230
+34355024	1548	1553	RPL21	Gene	6144
+34355024	1557	1562	RPL7A	Gene	6130
+34355024	1577	1580	IL6	Gene	3569
+34355024	1608	1611	AAA	Disease	MESH:C565230
+34355024	1730	1733	AAA	Disease	MESH:C565230
+34355024	Association	MESH:C565230	3569
+34355024	Association	MESH:C565230	6130
+34355024	Association	MESH:C565230	6144
+34355024	Association	3569	6130
+

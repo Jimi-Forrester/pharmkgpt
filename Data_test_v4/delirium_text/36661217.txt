@@ -1,0 +1,36 @@
+36661217|t|Functional connectome automatically differentiates multiple system atrophy (parkinsonian type) from idiopathic Parkinson's disease at early stages.
+36661217|a|Differentiating the parkinsonian variant of multiple system atrophy (MSA-P) from idiopathic Parkinson's disease (IPD) is challenging, especially in the early stages. This study aimed to investigate differences and similarities in the brain functional connectomes of IPD and MSA-P patients and use machine learning methods to explore the diagnostic utility of these features. Resting-state fMRI data were acquired from 88 healthy controls, 76 MSA-P patients, and 53 IPD patients using a 3.0 T scanner. The whole-brain functional connectome was constructed by thresholding the Pearson correlation matrices of 116 regions, and topological properties were evaluated through graph theory approaches. Connectome measurements were used as features in machine learning models (random forest [RF]/logistic regression [LR]/support vector machine) to distinguish IPD and MSA-P patients. Regarding graph metrics, early IPD and MSA-P patients shared network topological properties. Both patient groups showed functional connectivity disruptions within the cerebellum-basal ganglia-cortical network, but these disconnections were mainly in the cortico-thalamo-cerebellar circuits in MSA-P patients and the basal ganglia-thalamo-cortical circuits in IPD patients. Among the connectome parameters, t tests combined with the RF method identified 15 features, from which the LR classifier achieved the best diagnostic performance on the validation set (accuracy = 92.31%, sensitivity = 90.91%, specificity = 93.33%, area under the receiver operating characteristic curve = 0.89). MSA-P and IPD patients show similar whole-brain network topological alterations. MSA-P primarily affects cerebellar nodes, and IPD primarily affects basal ganglia nodes; both conditions disrupt the cerebellum-basal ganglia-cortical network. Moreover, functional connectome parameters showed outstanding value in the differential diagnosis of early MSA-P and IPD.
+36661217	51	74	multiple system atrophy	Disease	MESH:D019578
+36661217	76	93	parkinsonian type	Disease	MESH:D010300
+36661217	100	130	idiopathic Parkinson's disease	Disease	MESH:D010300
+36661217	168	180	parkinsonian	Disease	MESH:D010300
+36661217	192	215	multiple system atrophy	Disease	MESH:D019578
+36661217	217	222	MSA-P	Disease	MESH:D019578
+36661217	229	259	idiopathic Parkinson's disease	Disease	MESH:D010300
+36661217	261	264	IPD	Disease	MESH:D010300
+36661217	414	417	IPD	Disease	MESH:D010300
+36661217	422	427	MSA-P	Disease	MESH:D019578
+36661217	428	436	patients	Species	9606
+36661217	590	595	MSA-P	Disease	MESH:D019578
+36661217	596	604	patients	Species	9606
+36661217	613	616	IPD	Disease	MESH:D010300
+36661217	617	625	patients	Species	9606
+36661217	1000	1003	IPD	Disease	MESH:D010300
+36661217	1008	1013	MSA-P	Disease	MESH:D019578
+36661217	1014	1022	patients	Species	9606
+36661217	1055	1058	IPD	Disease	MESH:D010300
+36661217	1063	1068	MSA-P	Disease	MESH:D019578
+36661217	1069	1077	patients	Species	9606
+36661217	1122	1129	patient	Species	9606
+36661217	1317	1322	MSA-P	Disease	MESH:D019578
+36661217	1323	1331	patients	Species	9606
+36661217	1383	1386	IPD	Disease	MESH:D010300
+36661217	1387	1395	patients	Species	9606
+36661217	1710	1715	MSA-P	Disease	MESH:D019578
+36661217	1720	1723	IPD	Disease	MESH:D010300
+36661217	1724	1732	patients	Species	9606
+36661217	1791	1796	MSA-P	Disease	MESH:D019578
+36661217	1837	1840	IPD	Disease	MESH:D010300
+36661217	2058	2063	MSA-P	Disease	MESH:D019578
+36661217	2068	2071	IPD	Disease	MESH:D010300
+

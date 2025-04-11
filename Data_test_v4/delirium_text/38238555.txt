@@ -1,0 +1,37 @@
+38238555|t|Developing a prognosis and chemotherapy evaluating model for colon adenocarcinoma based on mitotic catastrophe-related genes.
+38238555|a|Mitotic catastrophe (MC) is a novel form of cell death that plays an important role in the treatment and drug resistance of colon adenocarcinoma (COAD). However, MC related genes in COAD treatment and prognosis evaluation are rarely studied. In this study, the transcriptome data, somatic mutation and copy number variation data were obtained from The Cancer Genome Atlas (TCGA) database. The mitotic catastrophe related genes (MCRGs) were obtained from GENCARDS website. Differential gene analysis was conducted with LIMMA package. Univariate Cox regression analysis was used to identify prognostic related genes. Mutation analysis was performed and displayed by maftools package. RCircos package was used for localizing the position of genes on chromosomes. "Glmnet" R package was applied for constructing a risk model via the LASSO regression method. Consensus clustering analyses was implemented for clustering different subtypes. Functional enrichment analysis through Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) methods, immune infiltration analysis via single sample gene set enrichment analysis (ssGSEA), tumor mutation burden and drug sensitivity analysis by pRRophetic R package were also carried out for risk model or molecular subtype's assessment. Additionally, the connections between the expression of hub genes and overall survival (OS) were obtained from online Human Protein Atlas (HPA) website. Real-Time Quantitative Polymerase Chain Reaction (RT-qPCR) further validated the expression of hub genes. A total of 207 differentially expressed MCRGs were selected in the TCGA cohort, 23 of which were significantly associated with OS in COAD patients. Subsequently, we constructed risk score prognostic models with 5 hub MCRGs, including SYCE2, SERPINE1, TRIP6, LIMK1, and EEPD1. The high-risk patients suffered from poorer prognosis. Furthermore, we developed a nomogram that gathered age, sex, staging, and risk score to accurately forecast the clinical survival outcomes in 1, 3, and 5 years. The results of functional enrichment suggested a significant correlation between MCRGs characteristics and cancer progression, with important implications for the immune microenvironment. Moreover, patients who displayed high TMB and high risk score showed worse prognosis, and risk characteristics were associated with different chemotherapeutic agents. Finally, RT-qPCR verified the increased expression of the five MCRGs in clinical samples. The five MCRGs in the prognostic signature were associated with prognosis, and could be treated as reliable prognostic biomarkers and therapeutic targets for COAD patients with distinct clinicopathological characteristics, thereby providing a foundation for the precise application of pertinent drugs in COAD patients.
+38238555	61	81	colon adenocarcinoma	Disease	MESH:D003110
+38238555	91	110	mitotic catastrophe	Disease	MESH:D002388
+38238555	126	145	Mitotic catastrophe	Disease	MESH:D002388
+38238555	147	149	MC	Disease	MESH:D002388
+38238555	250	270	colon adenocarcinoma	Disease	MESH:D003110
+38238555	272	276	COAD	Disease	MESH:D003110
+38238555	288	290	MC	Disease	MESH:D002388
+38238555	308	312	COAD	Disease	MESH:D003110
+38238555	478	484	Cancer	Disease	MESH:D009369
+38238555	519	538	mitotic catastrophe	Disease	MESH:D002388
+38238555	1265	1270	tumor	Disease	MESH:D009369
+38238555	1531	1536	Human	Species	9606
+38238555	1805	1809	COAD	Disease	MESH:D003110
+38238555	1810	1818	patients	Species	9606
+38238555	1906	1911	SYCE2	Gene	256126
+38238555	1913	1921	SERPINE1	Gene	5054
+38238555	1923	1928	TRIP6	Gene	7205
+38238555	1930	1935	LIMK1	Gene	3984
+38238555	1941	1946	EEPD1	Gene	80820
+38238555	1962	1970	patients	Species	9606
+38238555	2271	2277	cancer	Disease	MESH:D009369
+38238555	2362	2370	patients	Species	9606
+38238555	2767	2771	COAD	Disease	MESH:D003110
+38238555	2772	2780	patients	Species	9606
+38238555	2913	2917	COAD	Disease	MESH:D003110
+38238555	2918	2926	patients	Species	9606
+38238555	Association	MESH:D009369	5054
+38238555	Association	MESH:D003110	5054
+38238555	Association	MESH:D003110	7205
+38238555	Association	MESH:D009369	80820
+38238555	Association	MESH:D003110	80820
+38238555	Association	MESH:D009369	256126
+38238555	Association	MESH:D003110	256126
+38238555	Association	MESH:D003110	3984
+

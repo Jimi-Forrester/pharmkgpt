@@ -1,0 +1,22 @@
+24891937|t|The quality control theory of aging.
+24891937|a|The quality control (QC) theory of aging is based on the concept that aging is the result of a reduction in QC of cellular systems designed to maintain lifelong homeostasis. Four QC systems associated with aging are 1) inadequate protein processing in a distressed endoplasmic reticulum (ER); 2) histone deacetylase (HDAC) processing of genomic histones and gene silencing; 3) suppressed AMPK nutrient sensing with inefficient energy utilization and excessive fat accumulation; and 4) beta-adrenergic receptor (BAR) signaling and environmental and emotional stress. Reprogramming these systems to maintain efficiency and prevent aging would be a rational strategy for increased lifespan and improved health. The QC theory can be tested with a pharmacological approach using three well-known and safe, FDA-approved drugs: 1) phenyl butyric acid, a chemical chaperone that enhances ER function and is also an HDAC inhibitor, 2) metformin, which activates AMPK and is used to treat type 2 diabetes, and 3) propranolol, a beta blocker which inhibits BAR signaling and is used to treat hypertension and anxiety. A critical aspect of the QC theory, then, is that aging is associated with multiple cellular systems that can be targeted with drug combinations more effectively than with single drugs. But more importantly, these drug combinations will effectively prevent, delay, or reverse chronic diseases of aging that impose such a tremendous health burden on our society. 
+24891937	333	352	histone deacetylase	Gene	9734
+24891937	354	358	HDAC	Gene	9734
+24891937	425	429	AMPK	Gene	5564
+24891937	548	551	BAR	Gene	154
+24891937	861	880	phenyl butyric acid	Chemical	MESH:C075773
+24891937	944	948	HDAC	Gene	9734
+24891937	963	972	metformin	Chemical	MESH:D008687
+24891937	990	994	AMPK	Gene	5564
+24891937	1016	1031	type 2 diabetes	Disease	MESH:D003924
+24891937	1040	1051	propranolol	Chemical	MESH:D011433
+24891937	1083	1086	BAR	Gene	154
+24891937	1118	1130	hypertension	Disease	MESH:D006973
+24891937	1135	1142	anxiety	Disease	MESH:D001007
+24891937	Negative_Correlation	MESH:D008687	MESH:D003924
+24891937	Negative_Correlation	MESH:C075773	9734
+24891937	Negative_Correlation	MESH:D011433	MESH:D001007
+24891937	Negative_Correlation	MESH:D011433	154
+24891937	Positive_Correlation	MESH:D008687	5564
+24891937	Negative_Correlation	MESH:D011433	MESH:D006973
+

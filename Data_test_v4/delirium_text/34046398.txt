@@ -1,0 +1,28 @@
+34046398|t|Identification of 2-(thiophen-2-yl)acetic Acid-Based Lead Compound for mPGES-1 Inhibition.
+34046398|a|We report the implementation of our in silico/synthesis pipeline by targeting the glutathione-dependent enzyme mPGES-1, a valuable macromolecular target in both cancer therapy and inflammation therapy. Specifically, by using a virtual fragment screening approach of aromatic bromides, straightforwardly modifiable by the Suzuki-Miyaura reaction, we identified 3-phenylpropanoic acid and 2-(thiophen-2-yl)acetic acid to be suitable chemical platforms to develop tighter mPGES-1 inhibitors. Among these, compounds 1c and 2c showed selective inhibitory activity against mPGES-1 in the low micromolar range in accordance with molecular modeling calculations. Moreover, 1c and 2c exhibited interesting IC50 values on A549 cell lines compared to CAY10526, selected as reference compound. The most promising compound 2c induced the cycle arrest in the G0/G1 phase at 24 h of exposure, whereas at 48 and 72 h, it caused an increase of subG0/G1 fraction, suggesting an apoptosis/necrosis effect.
+34046398	18	46	2-(thiophen-2-yl)acetic Acid	Chemical	-
+34046398	71	78	mPGES-1	Gene	9536
+34046398	173	184	glutathione	Chemical	MESH:D005978
+34046398	202	209	mPGES-1	Gene	9536
+34046398	252	258	cancer	Disease	MESH:D009369
+34046398	271	283	inflammation	Disease	MESH:D007249
+34046398	357	374	aromatic bromides	Chemical	-
+34046398	451	473	3-phenylpropanoic acid	Chemical	MESH:C035253
+34046398	478	506	2-(thiophen-2-yl)acetic acid	Chemical	-
+34046398	560	567	mPGES-1	Gene	9536
+34046398	593	605	compounds 1c	Chemical	-
+34046398	610	612	2c	Chemical	-
+34046398	658	665	mPGES-1	Gene	9536
+34046398	763	765	2c	Chemical	-
+34046398	803	807	A549	CellLine	CVCL:0023
+34046398	831	839	CAY10526	Chemical	MESH:C569291
+34046398	901	903	2c	Chemical	-
+34046398	1051	1060	apoptosis	Disease	MESH:D065703
+34046398	1061	1069	necrosis	Disease	MESH:D009336
+34046398	Association	MESH:D005978	MESH:D007249
+34046398	Association	MESH:D005978	9536
+34046398	Negative_Correlation	MESH:C035253	9536
+34046398	Association	MESH:D007249	9536
+34046398	Association	MESH:D009369	9536
+34046398	Association	MESH:D005978	MESH:D009369
+

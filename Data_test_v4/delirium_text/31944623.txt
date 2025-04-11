@@ -1,0 +1,68 @@
+31944623|t|Clinical and genetic analysis of ATP13A2 in hereditary spastic paraplegia expands the phenotype.
+31944623|a|BACKGROUND: Hereditary spastic paraplegias (HSP) are neurodegenerative disorders characterized by lower limb spasticity and weakness, with or without additional symptoms. Mutations in ATP13A2, known to cause Kufor-Rakeb syndrome (KRS), have been recently implicated in HSP. METHODS: Whole-exome sequencing was done in a Canada-wide HSP cohort. RESULTS: Three additional patients with homozygous ATP13A2 mutations were identified, representing 0.7% of all HSP families. Spastic paraplegia was the predominant feature, all patients suffered from psychiatric symptoms, and one patient had developed seizures. Of the identified mutations, c.2126G>C;(p.[Arg709Thr]) is novel, c.2158G>T;(p.[Gly720Trp]) has not been reported in ATP13A2-related diseases, and c.2473_2474insAAdelC;p.[Leu825Asnfs*32]) has been previously reported in KRS but not in HSP. Structural analysis of the mutations suggested a disruptive effect, and enrichment analysis suggested the potential involvement of specific pathways. CONCLUSION: Our study suggests that in HSP patients with psychiatric symptoms, ATP13A2 mutations should be suspected, especially if they also have extrapyramidal symptoms.
+31944623	33	40	ATP13A2	Gene	23400
+31944623	44	73	hereditary spastic paraplegia	Disease	MESH:D015419
+31944623	109	139	Hereditary spastic paraplegias	Disease	MESH:D015419
+31944623	141	144	HSP	Disease	MESH:D015419
+31944623	150	177	neurodegenerative disorders	Disease	MESH:D019636
+31944623	206	216	spasticity	Disease	MESH:D009128
+31944623	221	229	weakness	Disease	MESH:D018908
+31944623	281	288	ATP13A2	Gene	23400
+31944623	305	325	Kufor-Rakeb syndrome	Disease	MESH:C537177
+31944623	327	330	KRS	Disease	MESH:C537177
+31944623	366	369	HSP	Disease	MESH:D015419
+31944623	429	432	HSP	Disease	MESH:D015419
+31944623	467	475	patients	Species	9606
+31944623	492	499	ATP13A2	Gene	23400
+31944623	552	555	HSP	Disease	MESH:D015419
+31944623	566	584	Spastic paraplegia	Disease	MESH:D010264
+31944623	618	626	patients	Species	9606
+31944623	641	661	psychiatric symptoms	Disease	MESH:D001523
+31944623	671	678	patient	Species	9606
+31944623	693	701	seizures	Disease	MESH:D012640
+31944623	732	741	c.2126G>C	DNAMutation	tmVar:c|SUB|G|2126|C;HGVS:c.2126G>C;VariantGroup:1;CorrespondingGene:23400;CorrespondingSpecies:9606
+31944623	743	756	p.[Arg709Thr]	ProteinMutation	tmVar:p|SUB|R|709|T;HGVS:p.R709T;VariantGroup:1;CorrespondingGene:23400;CorrespondingSpecies:9606
+31944623	768	777	c.2158G>T	DNAMutation	tmVar:c|SUB|G|2158|T;HGVS:c.2158G>T;VariantGroup:0;CorrespondingGene:23400;RS#:865939676;CorrespondingSpecies:9606
+31944623	782	791	Gly720Trp	ProteinMutation	tmVar:p|SUB|G|720|W;HGVS:p.G720W;VariantGroup:0;CorrespondingGene:23400;RS#:865939676;CorrespondingSpecies:9606
+31944623	849	869	c.2473_2474insAAdelC	DNAMutation	tmVar:c|INDEL|2473_2474|AA,C;HGVS:c.2473_2474delinsAA,C;VariantGroup:2;CorrespondingGene:23400;CorrespondingSpecies:9606
+31944623	873	887	Leu825Asnfs*32	ProteinMutation	tmVar:p|FS|L|825|N|32;HGVS:p.L825NfsX32;VariantGroup:3;CorrespondingGene:23400;CorrespondingSpecies:9606
+31944623	922	925	KRS	Disease	MESH:C537177
+31944623	937	940	HSP	Disease	MESH:D015419
+31944623	1131	1134	HSP	Disease	MESH:D015419
+31944623	1135	1143	patients	Species	9606
+31944623	1149	1169	psychiatric symptoms	Disease	MESH:D001523
+31944623	1171	1178	ATP13A2	Gene	23400
+31944623	1239	1262	extrapyramidal symptoms	Disease	MESH:D001480
+31944623	Positive_Correlation	MESH:D001480	HGVS:p.R709T;CorrespondingGene:23400
+31944623	Association	HGVS:c.2126G>C;CorrespondingGene:23400	MESH:D015419
+31944623	Positive_Correlation	MESH:D001523	RS#:865939676;HGVS:c.2158G>T;CorrespondingGene:23400
+31944623	Positive_Correlation	HGVS:c.2473_2474delinsAA,C;CorrespondingGene:23400	MESH:D001480
+31944623	Association	MESH:D001480	RS#:865939676;HGVS:p.G720W;CorrespondingGene:23400
+31944623	Association	MESH:D001480	HGVS:p.L825NfsX32;CorrespondingGene:23400
+31944623	Association	MESH:D015419	HGVS:p.R709T;CorrespondingGene:23400
+31944623	Association	MESH:D015419	RS#:865939676;HGVS:c.2158G>T;CorrespondingGene:23400
+31944623	Positive_Correlation	MESH:D001523	RS#:865939676;HGVS:p.G720W;CorrespondingGene:23400
+31944623	Positive_Correlation	MESH:D001480	HGVS:c.2126G>C;CorrespondingGene:23400
+31944623	Positive_Correlation	MESH:C537177	HGVS:p.L825NfsX32;CorrespondingGene:23400
+31944623	Positive_Correlation	MESH:C537177	HGVS:p.R709T;CorrespondingGene:23400
+31944623	Positive_Correlation	MESH:D001480	RS#:865939676;HGVS:c.2158G>T;CorrespondingGene:23400
+31944623	Association	MESH:D001523	23400
+31944623	Association	MESH:D010264	23400
+31944623	Association	RS#:865939676;HGVS:c.2158G>T;CorrespondingGene:23400	MESH:D015419
+31944623	Association	MESH:D015419	23400
+31944623	Association	MESH:D001480	23400
+31944623	Association	MESH:D015419	HGVS:p.L825NfsX32;CorrespondingGene:23400
+31944623	Positive_Correlation	MESH:C537177	HGVS:c.2126G>C;CorrespondingGene:23400
+31944623	Positive_Correlation	HGVS:c.2473_2474delinsAA,C;CorrespondingGene:23400	MESH:C537177
+31944623	Positive_Correlation	HGVS:c.2126G>C;CorrespondingGene:23400	MESH:D001480
+31944623	Positive_Correlation	HGVS:c.2126G>C;CorrespondingGene:23400	MESH:C537177
+31944623	Positive_Correlation	RS#:865939676;HGVS:c.2158G>T;CorrespondingGene:23400	MESH:D001480
+31944623	Positive_Correlation	MESH:D001523	HGVS:c.2126G>C;CorrespondingGene:23400
+31944623	Association	MESH:D015419	HGVS:c.2126G>C;CorrespondingGene:23400
+31944623	Association	MESH:D012640	23400
+31944623	Association	MESH:C537177	23400
+31944623	Association	MESH:D001480	23400
+31944623	Association	MESH:D015419	23400
+31944623	Association	MESH:D001523	23400
+31944623	Association	MESH:C537177	23400
+

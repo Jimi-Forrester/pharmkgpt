@@ -1,0 +1,52 @@
+38427106|t|Comprehensive analysis of DNA methylation gene expression profiles in GEO dataset reveals biomarkers related to malignant transformation of sinonasal inverted papilloma.
+38427106|a|BACKGROUND: DNA methylation may be involved in the regulation of malignant transformation from sinonasal inverted papilloma (SNIP) to squamous cell carcinoma (SCC). The study of gene methylation changes and screening of differentially methylated loci (DMLs) are helpful to predict the possible key genes in the malignant transformation of SNIP-SCC. MATERIALS AND METHODS: Microarray dataset GSE125399 was downloaded from the Gene Expression Omnibus (GEO) database and differentially methylated loci (DMLs) were analyzed using R language (Limma package). ClusterProfiler R package was used to perform Gene Ontology (GO) analysis on up-methylated genes and draw bubble maps. The Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway and its visualization analysis were analyzed to speculate the possible key Genes in SNIP-SCC malignant transformation. Subsequently, SNIP cases archived in our department were collected, tissue microarray was made, and immunohistochemical staining was performed to analyze the expression levels of UCKL1, GSTT1, HLA-G, MAML2 and NRGN in different grades of sinonasal papilloma tissues. RESULTS: Analysis of dataset GSE125399 identified 56 DMLs, including 49 upregulated DMLs and 7 downregulated DMLs. Thirty-one genes containing upregulated DNA methylation loci and three genes containing downregulated DNA methylation loci were obtained by methylation microarray annotation analysis. In addition, KEGG pathway visualization analysis of 31 up-methylated genes showed that there were four significantly up-methylated genes including UCKL1, GSTT1, HLA-G and MAML2, and one significantly down-methylated gene NRGN. Subsequently, compared with non-neoplasia nasal epithelial tissues, the expression of HLA-G and NRGN was upregulated in grade I, II, III and IV tissues, while the expression of MAML2 was lost. The protein expression changes of MAML2 and NRGN were significantly negatively correlated with their gene methylation levels. CONCLUSIONS: By analyzing the methylation dataset, we obtained four up-regulated methylation genes UCKL1, GSTT1, HLA-G and MAML2 and one down-regulated gene NRGN. MAML2, a tumor suppressor gene with high methylation modification but loss of protein expression, and NRGN, a tumor gene with low methylation modification but upregulated protein expression, can be used as biological indicators to judge the malignant transformation of SNIP-SCC.
+38427106	140	168	sinonasal inverted papilloma	Disease	MESH:D018308
+38427106	265	293	sinonasal inverted papilloma	Disease	MESH:D018308
+38427106	295	299	SNIP	Disease	MESH:D018308
+38427106	304	327	squamous cell carcinoma	Disease	MESH:D002294
+38427106	329	332	SCC	Disease	MESH:D002294
+38427106	422	426	DMLs	Disease	
+38427106	509	517	SNIP-SCC	Disease	MESH:D010212
+38427106	670	674	DMLs	Disease	
+38427106	986	994	SNIP-SCC	Disease	MESH:D010212
+38427106	1035	1039	SNIP	Disease	MESH:D018308
+38427106	1200	1205	UCKL1	Gene	54963
+38427106	1207	1212	GSTT1	Gene	2952
+38427106	1214	1219	HLA-G	Gene	3135
+38427106	1221	1226	MAML2	Gene	84441
+38427106	1231	1235	NRGN	Gene	4900
+38427106	1259	1278	sinonasal papilloma	Disease	MESH:D010212
+38427106	1341	1345	DMLs	Disease	
+38427106	1372	1376	DMLs	Disease	
+38427106	1397	1401	DMLs	Disease	
+38427106	1734	1739	UCKL1	Gene	54963
+38427106	1741	1746	GSTT1	Gene	2952
+38427106	1748	1753	HLA-G	Gene	3135
+38427106	1758	1763	MAML2	Gene	84441
+38427106	1808	1812	NRGN	Gene	4900
+38427106	1900	1905	HLA-G	Gene	3135
+38427106	1910	1914	NRGN	Gene	4900
+38427106	1991	1996	MAML2	Gene	84441
+38427106	2041	2046	MAML2	Gene	84441
+38427106	2051	2055	NRGN	Gene	4900
+38427106	2232	2237	UCKL1	Gene	54963
+38427106	2239	2244	GSTT1	Gene	2952
+38427106	2246	2251	HLA-G	Gene	3135
+38427106	2256	2261	MAML2	Gene	84441
+38427106	2290	2294	NRGN	Gene	4900
+38427106	2296	2301	MAML2	Gene	84441
+38427106	2305	2310	tumor	Disease	MESH:D009369
+38427106	2398	2402	NRGN	Gene	4900
+38427106	2406	2411	tumor	Disease	MESH:D009369
+38427106	2565	2573	SNIP-SCC	Disease	MESH:D010212
+38427106	Association	MESH:D018308	84441
+38427106	Association	MESH:D010212	2952
+38427106	Association	MESH:D018308	54963
+38427106	Association	MESH:D018308	3135
+38427106	Association	MESH:D010212	84441
+38427106	Association	MESH:D010212	3135
+38427106	Association	MESH:D010212	4900
+38427106	Association	MESH:D010212	54963
+38427106	Association	MESH:D018308	2952
+38427106	Association	MESH:D002294	2952
+

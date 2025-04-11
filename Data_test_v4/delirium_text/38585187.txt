@@ -1,0 +1,17 @@
+38585187|t|Dynamic Delirium Prediction in the Intensive Care Unit using Machine Learning on Electronic Health Records.
+38585187|a|Delirium is a syndrome of acute brain failure which is prevalent amongst older adults in the Intensive Care Unit (ICU). Incidence of delirium can significantly worsen prognosis and increase mortality, therefore necessitating its rapid and continual assessment in the ICU. Currently, the common approach for delirium assessment is manual and sporadic. Hence, there exists a critical need for a robust and automated system for predicting delirium in the ICU. In this work, we develop a machine learning (ML) system for real-time prediction of delirium using Electronic Health Record (EHR) data. Unlike prior approaches which provide one delirium prediction label per entire ICU stay, our approach provides predictions every 12 hours. We use the latest 12 hours of ICU data, along with patient demographic and medical history data, to predict delirium risk in the next 12-hour window. This enables delirium risk prediction as soon as 12 hours after ICU admission. We train and test four ML classification algorithms on longitudinal EHR data pertaining to 16,327 ICU stays of 13,395 patients covering a total of 56,297 12-hour windows in the ICU to predict the dynamic incidence of delirium. The best performing algorithm was Categorical Boosting which achieved an area under receiver operating characteristic curve (AUROC) of 0.87 (95% Confidence Interval; C.I, 0.86-0.87). The deployment of this ML system in ICUs can enable early identification of delirium, thereby reducing its deleterious impact on long-term adverse outcomes, such as ICU cost, length of stay and mortality.
+38585187	8	16	Delirium	Disease	MESH:D003693
+38585187	108	116	Delirium	Disease	MESH:D003693
+38585187	134	153	acute brain failure	Disease	MESH:D058186
+38585187	241	249	delirium	Disease	MESH:D003693
+38585187	415	423	delirium	Disease	MESH:D003693
+38585187	544	552	delirium	Disease	MESH:D003693
+38585187	649	657	delirium	Disease	MESH:D003693
+38585187	743	751	delirium	Disease	MESH:D003693
+38585187	891	898	patient	Species	9606
+38585187	948	956	delirium	Disease	MESH:D003693
+38585187	1003	1011	delirium	Disease	MESH:D003693
+38585187	1187	1195	patients	Species	9606
+38585187	1286	1294	delirium	Disease	MESH:D003693
+38585187	1555	1563	delirium	Disease	MESH:D003693
+

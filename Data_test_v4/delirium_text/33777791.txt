@@ -1,0 +1,53 @@
+33777791|t|Dual Inhibition of Ornithine Decarboxylase and A1 Adenosine Receptor Efficiently Suppresses Breast Tumor Cells.
+33777791|a|Personized treatment of breast cancer is still a challenge, and more treatment options for breast cancer are warranted. Combination therapies have been a highly appreciated strategy for breast cancer treatment in recent years, and the development of new combination therapies could improve patient outcomes. Adenosine and polyamines are both endogenous metabolites with indispensable biological functions. Adenosine binds with the A1 adenosine receptor (A1AR) to downregulate cAMP concentration, and both low cAMP content and high polyamine levels stimulate the growth and proliferation of cancer cells. In this work, we initially used a polyamine synthesis inhibitor, DFMO (alpha-difluoromethylornithine), and an A1AR inhibitor, DPCPX (8-cyclopentyl-1,3-dipropylxanthine) to investigate if simultaneously inhibiting A1AR and polyamine synthesis has synergistical antitumor effects. Next, we investigated a dual inhibitor (ODC-MPI-2) of A1AR and ODC (ornithine decarboxylase 1), the rate-limiting enzyme in polyamine biosynthesis. We investigated if ODC-MPI-2 could inhibit the proliferation and growth of breast cancer cells. Our data showed that DFMO and DPCPX synergistically inhibit the growth and proliferation of MCF-7 cells. We also demonstrated that ODC-MPI-2 reduces cellular polyamine levels and elevates cAMP concentration. We further showed that ODC-MPI-2 inhibits the growth, proliferation, and migration/invasion of MCF-7 cells. Finally, ODC-MPI-2 showed a preference for inhibiting triple-negative breast cancer cells. The dual inhibition of ODC and A1AR is a new combination therapy strategy for treating breast cancer, and dual inhibitors of ODC and A1AR may be effective future drugs for treating breast cancer.
+33777791	19	42	Ornithine Decarboxylase	Gene	4953
+33777791	47	59	A1 Adenosine	DNAMutation	tmVar:c|SUB|A|1,DENOSINE|A;HGVS:c.1,DENOSINEA>A;VariantGroup:0;CorrespondingGene:4953;CorrespondingSpecies:9606
+33777791	92	104	Breast Tumor	Disease	MESH:D001943
+33777791	136	149	breast cancer	Disease	MESH:D001943
+33777791	203	216	breast cancer	Disease	MESH:D001943
+33777791	298	311	breast cancer	Disease	MESH:D001943
+33777791	402	409	patient	Species	9606
+33777791	420	429	Adenosine	Chemical	MESH:D000241
+33777791	434	444	polyamines	Chemical	MESH:D011073
+33777791	518	527	Adenosine	Chemical	MESH:D000241
+33777791	543	555	A1 adenosine	DNAMutation	tmVar:c|SUB|A|1|A;HGVS:c.1A>A;VariantGroup:1;CorrespondingGene:4953;CorrespondingSpecies:9606
+33777791	588	592	cAMP	Chemical	-
+33777791	621	625	cAMP	Chemical	-
+33777791	643	652	polyamine	Chemical	MESH:D011073
+33777791	702	708	cancer	Disease	MESH:D009369
+33777791	750	759	polyamine	Chemical	MESH:D011073
+33777791	781	785	DFMO	Chemical	MESH:D000518
+33777791	787	816	alpha-difluoromethylornithine	Chemical	MESH:D000518
+33777791	842	847	DPCPX	Chemical	MESH:C051360
+33777791	849	883	8-cyclopentyl-1,3-dipropylxanthine	Chemical	MESH:C051360
+33777791	938	947	polyamine	Chemical	MESH:D011073
+33777791	1035	1038	ODC	Gene	4953
+33777791	1058	1061	ODC	Gene	4953
+33777791	1063	1088	ornithine decarboxylase 1	Gene	4953
+33777791	1119	1128	polyamine	Chemical	MESH:D011073
+33777791	1162	1165	ODC	Gene	4953
+33777791	1218	1231	breast cancer	Disease	MESH:D001943
+33777791	1260	1264	DFMO	Chemical	MESH:D000518
+33777791	1269	1274	DPCPX	Chemical	MESH:C051360
+33777791	1331	1336	MCF-7	CellLine	CVCL:0031
+33777791	1397	1406	polyamine	Chemical	MESH:D011073
+33777791	1427	1431	cAMP	Chemical	-
+33777791	1542	1547	MCF-7	CellLine	CVCL:0031
+33777791	1564	1567	ODC	Gene	4953
+33777791	1625	1638	breast cancer	Disease	MESH:D001943
+33777791	1669	1672	ODC	Gene	4953
+33777791	1733	1746	breast cancer	Disease	MESH:D001943
+33777791	1771	1774	ODC	Gene	4953
+33777791	1827	1840	breast cancer	Disease	MESH:D001943
+33777791	Bind	MESH:D000241	HGVS:c.1A>A;CorrespondingGene:4953
+33777791	Association	MESH:D011073	4953
+33777791	Association	MESH:D001943	4953
+33777791	Association	HGVS:c.1,DENOSINEA>A;CorrespondingGene:4953	MESH:D001943
+33777791	Negative_Correlation	MESH:D000518	MESH:D011073
+33777791	Negative_Correlation	MESH:D000518	4953
+33777791	Positive_Correlation	MESH:D000241	MESH:D009369
+33777791	Positive_Correlation	MESH:D011073	MESH:D009369
+33777791	Bind	MESH:D000241	HGVS:c.1,DENOSINEA>A;CorrespondingGene:4953
+33777791	Negative_Correlation	MESH:C051360	4953
+33777791	Association	MESH:D001943	4953
+

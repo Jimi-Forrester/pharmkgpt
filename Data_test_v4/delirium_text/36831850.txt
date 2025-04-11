@@ -1,0 +1,17 @@
+36831850|t|Dual Semi-Supervised Learning for Classification of Alzheimer's Disease and Mild Cognitive Impairment Based on Neuropsychological Data.
+36831850|a|Deep learning has shown impressive diagnostic abilities in Alzheimer's disease (AD) research in recent years. However, although neuropsychological tests play a crucial role in screening AD and mild cognitive impairment (MCI), there is still a lack of deep learning algorithms only using such basic diagnostic methods. This paper proposes a novel semi-supervised method using neuropsychological test scores and scarce labeled data, which introduces difference regularization and consistency regularization with pseudo-labeling. A total of 188 AD, 402 MCI, and 229 normal controls (NC) were enrolled in the study from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. We first chose the 15 features most associated with the diagnostic outcome by feature selection among the seven neuropsychological tests. Next, we proposed a dual semi-supervised learning (DSSL) framework that uses two encoders to learn two different feature vectors. The diagnosed 60 and 120 subjects were randomly selected as training labels for the model. The experimental results show that DSSL achieves the best accuracy and stability in classifying AD, MCI, and NC (85.47% accuracy for 60 labels and 88.40% accuracy for 120 labels) compared to other semi-supervised methods. DSSL is an excellent semi-supervised method to provide clinical insight for physicians to diagnose AD and MCI.
+36831850	52	71	Alzheimer's Disease	Disease	MESH:D000544
+36831850	76	101	Mild Cognitive Impairment	Disease	MESH:D060825
+36831850	195	214	Alzheimer's disease	Disease	MESH:D000544
+36831850	216	218	AD	Disease	MESH:D000544
+36831850	322	324	AD	Disease	MESH:D000544
+36831850	329	354	mild cognitive impairment	Disease	MESH:D060825
+36831850	356	359	MCI	Disease	MESH:D060825
+36831850	678	680	AD	Disease	MESH:D000544
+36831850	686	689	MCI	Disease	MESH:D060825
+36831850	756	775	Alzheimer's Disease	Disease	MESH:D000544
+36831850	1272	1274	AD	Disease	MESH:D000544
+36831850	1276	1279	MCI	Disease	MESH:D060825
+36831850	1497	1499	AD	Disease	MESH:D000544
+36831850	1504	1507	MCI	Disease	MESH:D060825
+

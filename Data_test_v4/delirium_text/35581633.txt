@@ -1,0 +1,48 @@
+35581633|t|NEAT1 can be a diagnostic biomarker in the breast cancer and gastric cancer patients by targeting XIST, hsa-miR-612, and MTRNR2L8: integrated RNA targetome interaction and experimental expression analysis.
+35581633|a|BACKGROUND: The most frequent malignancy in women is breast cancer (BC). Gastric cancer (GC) is also the leading cause of cancer-related mortality. Long non-coding RNAs (lncRNAs) are thought to be important neurotic regulators in malignant tumors. In this study, we aimed to evaluate the expression level of NEAT1 and the interaction of this non-coding RNA with correlated microRNAs, lncRNAs, and mRNAs or protein coding genes, experimentally and bioinformatically. METHODS: For the bioinformatics analyses, we performed RNA-RNA and protein-protein interaction analyses, using ENCORI and STRING. The expression analyses were performed by five tools: Microarray data analysis, TCGA data analysis (RNA-seq, R Studio), GEPIA2, ENCORI, and real-time PCR experiment. qRT-PCR experiment was performed on 50 GC samples and 50 BC samples, compared to adjacent control tissue. RESULTS: Based on bioinformatics and experimental analyses, lncRNA NEAT1 have a significant down-regulation in the breast cancer samples with tumor size lower than 2 cm. Also, it has a significant high expression in the gastric cancer patients. Furthermore, NEAT1 have a significant interaction with XIST, hsa-miR-612 and MTRNR2L8. High expression of NEAT1 have a correlation with the lower survival rate of breast cancer samples and higher survival rate of gastric cancer patients. CONCLUSION: This integrated computational and experimental investigation revealed some new aspects of the lncRNA NEAT1 as a potential prognostic biomarker for the breast cancer and gastric cancer samples. Further investigations about NEA1 and correlated mRNAs, lncRNAs, and microRNAs - specially the mentioned RNAs in this study - can lead the researchers to more clear information about the role of NEAT1 in the breast cancer and gastric cancer.
+35581633	0	5	NEAT1	Gene	283131
+35581633	43	56	breast cancer	Disease	MESH:D001943
+35581633	61	75	gastric cancer	Disease	MESH:D013274
+35581633	76	84	patients	Species	9606
+35581633	98	102	XIST	Gene	7503
+35581633	104	115	hsa-miR-612	Gene	693197
+35581633	121	129	MTRNR2L8	Gene	100463486
+35581633	236	246	malignancy	Disease	MESH:D009369
+35581633	250	255	women	Species	9606
+35581633	259	272	breast cancer	Disease	MESH:D001943
+35581633	274	276	BC	Disease	MESH:D001943
+35581633	279	293	Gastric cancer	Disease	MESH:D013274
+35581633	295	297	GC	Disease	MESH:D013274
+35581633	328	334	cancer	Disease	MESH:D009369
+35581633	436	452	malignant tumors	Disease	MESH:D009369
+35581633	514	519	NEAT1	Gene	283131
+35581633	1007	1009	GC	Disease	MESH:D013274
+35581633	1025	1027	BC	Disease	MESH:D001943
+35581633	1141	1146	NEAT1	Gene	283131
+35581633	1189	1202	breast cancer	Disease	MESH:D001943
+35581633	1216	1221	tumor	Disease	MESH:D009369
+35581633	1294	1308	gastric cancer	Disease	MESH:D013274
+35581633	1309	1317	patients	Species	9606
+35581633	1332	1337	NEAT1	Gene	283131
+35581633	1374	1378	XIST	Gene	7503
+35581633	1380	1391	hsa-miR-612	Gene	693197
+35581633	1396	1404	MTRNR2L8	Gene	100463486
+35581633	1425	1430	NEAT1	Gene	283131
+35581633	1482	1495	breast cancer	Disease	MESH:D001943
+35581633	1532	1546	gastric cancer	Disease	MESH:D013274
+35581633	1547	1555	patients	Species	9606
+35581633	1670	1675	NEAT1	Gene	283131
+35581633	1720	1733	breast cancer	Disease	MESH:D001943
+35581633	1738	1752	gastric cancer	Disease	MESH:D013274
+35581633	1957	1962	NEAT1	Gene	283131
+35581633	1970	1983	breast cancer	Disease	MESH:D001943
+35581633	1988	2002	gastric cancer	Disease	MESH:D013274
+35581633	Association	283131	693197
+35581633	Association	MESH:D013274	100463486
+35581633	Association	100463486	283131
+35581633	Negative_Correlation	MESH:D009369	283131
+35581633	Association	MESH:D013274	693197
+35581633	Negative_Correlation	MESH:D001943	283131
+35581633	Association	283131	7503
+35581633	Positive_Correlation	MESH:D013274	283131
+

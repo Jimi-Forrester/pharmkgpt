@@ -1,0 +1,26 @@
+25522186|t|Computational analysis of the roles of ER-Golgi network in the cell cycle.
+25522186|a|BACKGROUND: ER-Golgi network plays an important role in the processing, sorting and transport of proteins, and it's also a site for many signaling pathways that regulate the cell cycle. Accumulating evidence suggests that, the stressed ER and malfunction of Golgi apparatus are associated with the pathogenesis of cancer and Alzheimer's disease (AD). Our previous work discovered and verified that altering the expression levels of target SNARE and GEF could modulate the size of Golgi apparatus. Moreover, Golgi's structure and size undergo dramatic changes during the development of several diseases. It is of importance to investigate the roles of ER-Golgi network in the cell cycle progression and some diseases. RESULTS: In this work, we first develop a computational model to study the ER stress-induced and Golgi-related apoptosis-survival signaling pathways. Then, we propose and apply both asynchronous and synchronous model checking methods, which extend our previous verification technique, to automatically and formally analyze the ER-Golgi-regulated signaling pathways in the cell cycle progression through verifying some computation tree temporal logic formulas. CONCLUSIONS: The proposed asynchronous and synchronous verification technique has advantages for large network analysis and verification over traditional simulation methods. Using the model checking method, we verified several Alzheimer's disease and cancer-related properties, and also identified important proteins (NFkappaB, ATF4, ASK1 and TRAF2) in the ER-Golgi network, which might be responsible for the pathogenesis of cancer and AD. Our studies indicate that targeting the ER stress-induced and Golgi-related pathways might serve as potent therapeutic targets for the treatment of cancer and Alzheimer's disease.
+25522186	389	395	cancer	Disease	MESH:D009369
+25522186	400	419	Alzheimer's disease	Disease	MESH:D000544
+25522186	421	423	AD	Disease	MESH:D000544
+25522186	514	519	SNARE	Gene	100170220
+25522186	524	527	GEF	Gene	56731
+25522186	1479	1498	Alzheimer's disease	Disease	MESH:D000544
+25522186	1503	1509	cancer	Disease	MESH:D009369
+25522186	1570	1578	NFkappaB	Gene	4790
+25522186	1580	1584	ATF4	Gene	468
+25522186	1586	1590	ASK1	Gene	4217
+25522186	1595	1600	TRAF2	Gene	7186
+25522186	1678	1684	cancer	Disease	MESH:D009369
+25522186	1689	1691	AD	Disease	MESH:D000544
+25522186	1841	1847	cancer	Disease	MESH:D009369
+25522186	1852	1871	Alzheimer's disease	Disease	MESH:D000544
+25522186	Association	MESH:D009369	4217
+25522186	Association	MESH:D009369	468
+25522186	Association	MESH:D009369	7186
+25522186	Association	MESH:D000544	4790
+25522186	Association	MESH:D000544	468
+25522186	Association	MESH:D000544	4217
+25522186	Association	MESH:D009369	4790
+25522186	Association	MESH:D000544	7186
+

@@ -1,0 +1,11 @@
+38152612|t|Autism Spectrum Disorder Detection by Hybrid Convolutional Recurrent Neural Networks from Structural and Resting State Functional MRI Images.
+38152612|a|This study aims to increase the accuracy of autism spectrum disorder (ASD) diagnosis based on cognitive and behavioral phenotypes through multiple neuroimaging modalities. We apply machine learning (ML) algorithms to classify ASD patients and healthy control (HC) participants using structural magnetic resonance imaging (s-MRI) together with resting state functional MRI (rs-f-MRI and f-MRI) data from the large multisite data repository ABIDE (autism brain imaging data exchange) and identify important brain connectivity features. The 2D f-MRI images were converted into 3D s-MRI images, and datasets were preprocessed using the Montreal Neurological Institute (MNI) atlas. The data were then denoised to remove any confounding factors. We show, by using three fusion strategies such as early fusion, late fusion, and cross fusion, that, in this implementation, hybrid convolutional recurrent neural networks achieve better performance in comparison to either convolutional neural networks (CNNs) or recurrent neural networks (RNNs). The proposed model classifies subjects as autistic or not according to how functional and anatomical connectivity metrics provide an overall diagnosis based on the autism diagnostic observation schedule (ADOS) standard. Our hybrid network achieved an accuracy of 96% by fusing s-MRI and f-MRI together, which outperforms the methods used in previous studies.
+38152612	0	24	Autism Spectrum Disorder	Disease	MESH:D000067877
+38152612	186	210	autism spectrum disorder	Disease	MESH:D000067877
+38152612	212	215	ASD	Disease	MESH:D000067877
+38152612	368	371	ASD	Disease	MESH:D000067877
+38152612	372	380	patients	Species	9606
+38152612	588	594	autism	Disease	MESH:D001321
+38152612	1221	1229	autistic	Disease	MESH:D001321
+38152612	1343	1349	autism	Disease	MESH:D001321
+

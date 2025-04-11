@@ -1,0 +1,32 @@
+39654770|t|Hsa_Circ_0105596/FTO inhibits progression of Parkinson's disease by sponging miR-187-3p and regulating eEF2.
+39654770|a|Background: Parkinson's disease (PD) characterized by inflammation and protein erroneous deposition, whose pathological mechanisms have not been elucidated. NcRNA plays important role in PD, especially when circRNA sponges miRNA, which leads to the breakdown of downstream regulation. The aim of this study is to investigate the dynamic changes between upregulated circRNA and downregulated miRNA during the pathogenesis of PD and their impact on downstream miRNA targets. Method: We conducted bioinformatics on sequencing data of substantia nigra (SN) and striatum, and intersected differentially expressed genes (Degs) to determine core role of circFTO-miR-187-3p-EEF2 axes in the progression of PD. Firstly, therapeutic effect of knock-down circFTO in PD and its impact on EEF2 were determined in mouse, using immunohistochemistry, HE, Nissl, TUNEL staining and Western blot (WB). Targeted binding relationship between circFTO, miR-187-3p, and EEF2 was determined through RNA binding protein immunoprecipitation assays (RIP) and dual luciferase reporter assay. The significance of gene in apoptosis was confirmed through flow cytometry, lentiviral transduction, quantitative real-time PCR, and WB. Result: CircFTO is upregulated and miR-187-3p is downregulated in SN of PD. EEF2 was the core of neural repair related modules in both SN and striatum using Weighted Correlation Network Analysis (WGCNA) and protein-protein interaction (PPI). The binding regulation relationship between circFTO-miR-187-3p-EEF2 was determined through structural analysis, RIP, and dual luciferase reporter assay. After knocking-down circFTO, animals showed alleviated symptoms, decreased levels of oxidative stress and EEF2. Upregulation of miR-187-3p or si-circFTO in SH-SY5Y cells can reduce cell apoptosis, EEF2, and oxidative stress. Moreover, individual interference with EEF2 can partially counteract the induction of 6-OHDA on apoptosis. Conclusion: Excessive circFTO sponging miR-187-3p leads to the inability of miR-187-3p to effectively regulate expression of EEF2, resulting in the progression of PD. Moreover, interference with circFTO can effectively reduce brain inflammation and oxidative stress.
+39654770	17	20	FTO	Gene	26383
+39654770	45	64	Parkinson's disease	Disease	MESH:D010300
+39654770	103	107	eEF2	Gene	13629
+39654770	121	140	Parkinson's disease	Disease	MESH:D010300
+39654770	142	144	PD	Disease	MESH:D010300
+39654770	163	175	inflammation	Disease	MESH:D007249
+39654770	296	298	PD	Disease	MESH:D010300
+39654770	533	535	PD	Disease	MESH:D010300
+39654770	775	779	EEF2	Gene	13629
+39654770	807	809	PD	Disease	MESH:D010300
+39654770	864	866	PD	Disease	MESH:D010300
+39654770	885	889	EEF2	Gene	13629
+39654770	909	914	mouse	Species	10090
+39654770	1056	1060	EEF2	Gene	13629
+39654770	1382	1384	PD	Disease	MESH:D010300
+39654770	1386	1390	EEF2	Gene	13629
+39654770	1615	1619	EEF2	Gene	13629
+39654770	1811	1815	EEF2	Gene	13629
+39654770	1861	1868	SH-SY5Y	CellLine	CVCL:0019
+39654770	1902	1906	EEF2	Gene	1938
+39654770	1969	1973	EEF2	Gene	1938
+39654770	2016	2022	6-OHDA	Chemical	MESH:D016627
+39654770	2162	2166	EEF2	Gene	1938
+39654770	2200	2202	PD	Disease	MESH:D010300
+39654770	2263	2281	brain inflammation	Disease	MESH:D004660
+39654770	Association	MESH:D016627	1938
+39654770	Negative_Correlation	MESH:D010300	26383
+39654770	Association	MESH:D010300	13629
+39654770	Association	13629	26383
+

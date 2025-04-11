@@ -1,0 +1,48 @@
+23049991|t|Free cholesterol induces higher beta-sheet content in Abeta peptide oligomers by aromatic interaction with Phe19.
+23049991|a|Accumulating experimental evidence support an enhancing effect of free cholesterol on amyloid-beta (Abeta) aggregation. To probe the mechanisms of cholesterol-mediated Abeta aggregation, we applied all-atom molecular dynamic simulations on Abeta42 peptides in presence of free cholesterol. Several control systems were also designed to examine the specificity of cholesterol-residue interactions, including mutation on aromatic residue, substitution of cholesterol with sphingomyelin (SM) and DPPC bilayer, and a mixing SM and cholesterol. Each system was performed 4 independent simulations, with a total time of 560 ns. It was found that cholesterol increased beta-sheet formation by 4 folds, but the Phe19 Ser mutation on Abeta42 peptide totally eliminated cholesterol's effect. A stable contact was recognized between the steroid group of cholesterol and the Benzyl group of Phe19. Interestingly, our simulation revealed a regular 1 ns time interval between the establishment of cholesterol-phenylalanine contact and consequent beta-sheet formation, suggesting an important role of steroid-benzyl interaction in cholesterol-mediated aggregation. The presence of SM slightly increased beta-sheet formation, but the mixture of cholesterol and SM had a strong induction effect. Also, the measurement of Phe19-lipid distance indicates that aromatic side chains of peptides prone to bind to cholesterol on the surface of the mixed micelle. In the DPPC system, polar chains were attracted to the surface of membrane, yielding moderate increase of beta-sheet formation. These results shed light on the mechanism of cholesterol-mediated fibrillogenesis, and help to differentiate the effects of cholesterol and other lipids on beta-sheet formation process.
+23049991	5	16	cholesterol	Chemical	MESH:D002784
+23049991	54	59	Abeta	Gene	351
+23049991	107	112	Phe19	ProteinMutation	tmVar:p|Allele|F|19;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+23049991	185	196	cholesterol	Chemical	MESH:D002784
+23049991	200	212	amyloid-beta	Gene	351
+23049991	214	219	Abeta	Gene	351
+23049991	261	272	cholesterol	Chemical	MESH:D002784
+23049991	282	287	Abeta	Gene	351
+23049991	354	361	Abeta42	Gene	351
+23049991	391	402	cholesterol	Chemical	MESH:D002784
+23049991	477	488	cholesterol	Chemical	MESH:D002784
+23049991	567	578	cholesterol	Chemical	MESH:D002784
+23049991	584	597	sphingomyelin	Chemical	MESH:D013109
+23049991	599	601	SM	Chemical	MESH:D013109
+23049991	607	611	DPPC	Chemical	MESH:D015060
+23049991	634	636	SM	Chemical	MESH:D013109
+23049991	641	652	cholesterol	Chemical	MESH:D002784
+23049991	754	765	cholesterol	Chemical	MESH:D002784
+23049991	817	826	Phe19 Ser	ProteinMutation	tmVar:p|SUB|F|19|S;HGVS:p.F19S;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+23049991	839	846	Abeta42	Gene	351
+23049991	874	885	cholesterol	Chemical	MESH:D002784
+23049991	940	947	steroid	Chemical	MESH:D013256
+23049991	957	968	cholesterol	Chemical	MESH:D002784
+23049991	993	998	Phe19	ProteinMutation	tmVar:p|Allele|F|19;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+23049991	1097	1108	cholesterol	Chemical	MESH:D002784
+23049991	1109	1122	phenylalanine	Chemical	MESH:D010649
+23049991	1200	1207	steroid	Chemical	MESH:D013256
+23049991	1230	1241	cholesterol	Chemical	MESH:D002784
+23049991	1280	1282	SM	Chemical	MESH:D013109
+23049991	1343	1354	cholesterol	Chemical	MESH:D002784
+23049991	1359	1361	SM	Chemical	MESH:D013109
+23049991	1418	1423	Phe19	Chemical	-
+23049991	1424	1429	lipid	Chemical	MESH:D008055
+23049991	1504	1515	cholesterol	Chemical	MESH:D002784
+23049991	1560	1564	DPPC	Chemical	MESH:D015060
+23049991	1726	1737	cholesterol	Chemical	MESH:D002784
+23049991	1805	1816	cholesterol	Chemical	MESH:D002784
+23049991	1827	1833	lipids	Chemical	MESH:D008055
+23049991	Positive_Correlation	MESH:D002784	351
+23049991	Association	MESH:D002784	CorrespondingGene:351;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+23049991	Association	MESH:D002784	MESH:D010649
+23049991	Association	MESH:D013256	CorrespondingGene:351;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+23049991	Association	MESH:D002784	MESH:D013109
+23049991	Association	MESH:D002784	MESH:D013256
+23049991	Association	MESH:D002784	MESH:D015060
+

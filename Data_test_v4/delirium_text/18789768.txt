@@ -1,0 +1,18 @@
+18789768|t|Prediction of Alzheimer's diagnosis using semi-supervised distance metric learning with label propagation.
+18789768|a|Alzheimer's disease (AD) is the most common form of dementia and leads to irreversible neurogenerative damage of the brain. However, the current diagnostic tools have poor sensitivity, especially for the early stages of AD and do not allow for diagnosis until AD has lead to irreversible brain damage. Therefore, it is crucial that AD is detected as early as possible. Although it is very hard, laborious and time-consuming to gather many AD and non-AD labeled samples, gathering unlabeled samples is easier than labeled samples. Since standard learning algorithms learn a diagnosis model from labeled samples only, they require many labeled samples and do not work well when the number of training samples is small. Therefore, it is very desirable to develop a predictive learning method to achieve high performance using both labeled samples and unlabeled samples. To address these problems, we propose semi-supervised distance metric learning using Random Forests with label propagation (SRF-LP) which incorporates labeled data for obtaining good metrics and propagates labels based on them. Experimental results showed that SRF-LP outperformed standard supervised learning algorithms, i.e., RF, SVM, Adaboost and CART and reached 93.1% accuracy at a maximum. Especially, SRF-LP largely outperformed when the number of training samples is very small. Our results also suggested that SRF-LP exhibits a synergistic effect of semi-supervised distance metric learning and label propagation.
+18789768	14	25	Alzheimer's	Disease	MESH:D000544
+18789768	107	126	Alzheimer's disease	Disease	MESH:D000544
+18789768	128	130	AD	Disease	MESH:D000544
+18789768	159	167	dementia	Disease	MESH:D003704
+18789768	194	229	neurogenerative damage of the brain	Disease	MESH:D001925
+18789768	327	329	AD	Disease	MESH:D000544
+18789768	367	369	AD	Disease	MESH:D000544
+18789768	395	407	brain damage	Disease	MESH:D001925
+18789768	439	441	AD	Disease	MESH:D000544
+18789768	546	548	AD	Disease	MESH:D000544
+18789768	557	559	AD	Disease	MESH:D000544
+18789768	1098	1101	SRF	Gene	6722
+18789768	1235	1238	SRF	Gene	6722
+18789768	1382	1385	SRF	Gene	6722
+18789768	1493	1496	SRF	Gene	6722
+

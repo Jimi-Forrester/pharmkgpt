@@ -1,0 +1,86 @@
+33081375|t|Y-27632 Induces Neurite Outgrowth by Activating the NOX1-Mediated AKT and PAK1 Phosphorylation Cascades in PC12 Cells.
+33081375|a|Y-27632 is known as a selective Rho-associated coiled coil-forming kinase (ROCK) inhibitor. Y-27632 has been shown to induce neurite outgrowth in several neuronal cells. However, the precise molecular mechanisms linking neurite outgrowth to Y-27632 are not completely understood. In this study, we examined the ability of Y-27632 to induce neurite outgrowth in PC12 cells and evaluated the signaling cascade. The effect of Y-27632 on the neurite outgrowth was inhibited by reactive oxygen species (ROS) scavengers such as N-acetyl cysteine (NAC) and trolox. Furthermore, Y-27632-induced neurite outgrowth was not triggered by NADPH oxidase 1 (NOX1) knockdown or diphenyleneiodonium (DPI), a NOX inhibitor. Suppression of the Rho-family GTPase Rac1, which is under the negative control of ROCK, with expression of the dominant negative Rac1 mutant (Rac1N17) prevented Y-27632-induced neurite outgrowth. Moreover, the Rac1 inhibitor NSC23766 prevented Y-27632-induced AKT and p21-activated kinase 1 (PAK1) activation. AKT inhibition with MK2206 suppressed Y-27632-induced PAK1 phosphorylation and neurite outgrowth. In conclusion, our results suggest that Rac1/NOX1-dependent ROS generation and subsequent activation of the AKT/PAK1 cascade contribute to Y-27632-induced neurite outgrowth in PC12 cells.
+33081375	0	7	Y-27632	Chemical	MESH:C108830
+33081375	16	23	Neurite	Disease	MESH:D058225
+33081375	52	56	NOX1	Gene	114243
+33081375	66	69	AKT	Gene	24185
+33081375	74	78	PAK1	Gene	29431
+33081375	107	111	PC12	CellLine	CVCL:0481
+33081375	119	126	Y-27632	Chemical	MESH:C108830
+33081375	211	218	Y-27632	Chemical	MESH:C108830
+33081375	244	251	neurite	Disease	MESH:D058225
+33081375	339	346	neurite	Disease	MESH:D058225
+33081375	360	367	Y-27632	Chemical	MESH:C108830
+33081375	441	448	Y-27632	Chemical	MESH:C108830
+33081375	459	466	neurite	Disease	MESH:D058225
+33081375	480	484	PC12	CellLine	CVCL:0481
+33081375	542	549	Y-27632	Chemical	MESH:C108830
+33081375	557	564	neurite	Disease	MESH:D058225
+33081375	592	615	reactive oxygen species	Chemical	MESH:D017382
+33081375	617	620	ROS	Chemical	MESH:D017382
+33081375	641	658	N-acetyl cysteine	Chemical	MESH:D000111
+33081375	660	663	NAC	Chemical	MESH:D000111
+33081375	669	675	trolox	Chemical	MESH:C010643
+33081375	690	697	Y-27632	Chemical	MESH:C108830
+33081375	706	713	neurite	Disease	MESH:D058225
+33081375	745	760	NADPH oxidase 1	Gene	114243
+33081375	762	766	NOX1	Gene	114243
+33081375	781	800	diphenyleneiodonium	Chemical	MESH:C007517
+33081375	802	805	DPI	Chemical	MESH:C007517
+33081375	862	866	Rac1	Gene	363875
+33081375	954	958	Rac1	Gene	363875
+33081375	986	993	Y-27632	Chemical	MESH:C108830
+33081375	1002	1009	neurite	Disease	MESH:D058225
+33081375	1035	1039	Rac1	Gene	363875
+33081375	1050	1058	NSC23766	Chemical	MESH:C487513
+33081375	1069	1076	Y-27632	Chemical	MESH:C108830
+33081375	1085	1088	AKT	Gene	24185
+33081375	1093	1115	p21-activated kinase 1	Gene	29431
+33081375	1117	1121	PAK1	Gene	29431
+33081375	1135	1138	AKT	Gene	24185
+33081375	1155	1161	MK2206	Chemical	MESH:C548887
+33081375	1173	1180	Y-27632	Chemical	MESH:C108830
+33081375	1189	1193	PAK1	Gene	29431
+33081375	1214	1221	neurite	Disease	MESH:D058225
+33081375	1273	1277	Rac1	Gene	363875
+33081375	1278	1282	NOX1	Gene	114243
+33081375	1293	1296	ROS	Chemical	MESH:D017382
+33081375	1341	1344	AKT	Gene	24185
+33081375	1345	1349	PAK1	Gene	29431
+33081375	1372	1379	Y-27632	Chemical	MESH:C108830
+33081375	1388	1395	neurite	Disease	MESH:D058225
+33081375	1409	1413	PC12	CellLine	CVCL:0481
+33081375	Association	29431	363875
+33081375	Association	MESH:D058225	363875
+33081375	Negative_Correlation	MESH:C487513	24185
+33081375	Negative_Correlation	MESH:C548887	MESH:D058225
+33081375	Negative_Correlation	MESH:C548887	24185
+33081375	Association	114243	29431
+33081375	Negative_Correlation	MESH:C487513	29431
+33081375	Negative_Correlation	MESH:C487513	363875
+33081375	Positive_Correlation	MESH:D017382	MESH:D058225
+33081375	Negative_Correlation	MESH:C108830	MESH:C548887
+33081375	Negative_Correlation	MESH:C010643	MESH:D058225
+33081375	Association	MESH:C108830	MESH:D017382
+33081375	Positive_Correlation	MESH:C108830	24185
+33081375	Positive_Correlation	MESH:C108830	MESH:D058225
+33081375	Association	24185	363875
+33081375	Association	MESH:D017382	363875
+33081375	Negative_Correlation	MESH:D000111	MESH:D017382
+33081375	Positive_Correlation	MESH:D017382	24185
+33081375	Negative_Correlation	MESH:C108830	MESH:D000111
+33081375	Positive_Correlation	MESH:D017382	29431
+33081375	Negative_Correlation	MESH:D000111	MESH:D058225
+33081375	Negative_Correlation	MESH:C548887	29431
+33081375	Negative_Correlation	MESH:C108830	MESH:C487513
+33081375	Association	MESH:C108830	114243
+33081375	Negative_Correlation	MESH:C010643	MESH:C108830
+33081375	Association	114243	24185
+33081375	Association	MESH:D017382	114243
+33081375	Positive_Correlation	MESH:C108830	29431
+33081375	Negative_Correlation	MESH:C010643	MESH:D017382
+33081375	Association	MESH:D058225	114243
+33081375	Association	MESH:D058225	24185
+33081375	Association	MESH:C108830	363875
+33081375	Association	MESH:D058225	29431
+

@@ -1,0 +1,28 @@
+36468062|t|Segmentation and differentiation of periventricular and deep white matter hyperintensities in 2D T2-FLAIR MRI based on a cascade U-net.
+36468062|a|Background: White matter hyperintensities (WMHs) are a subtype of cerebral small vessel disease and can be divided into periventricular WMHs (pvWMHs) and deep WMHs (dWMHs). pvWMHs and dWMHs were proved to be determined by different etiologies. This study aimed to develop a 2D Cascade U-net (Cascade U) for the segmentation and differentiation of pvWMHs and dWMHs on 2D T2-FLAIR images. Methods: A total of 253 subjects were recruited in the present study. All subjects underwent 2D T2-FLAIR scan on a 3.0 Tesla MR scanner. Both contours of pvWMHs and dWMHs were manually delineated by the observers and considered as the gold standard. Fazekas scale was used to evaluate the burdens of pvWMHs and dWMHs, respectively. Cascade U consisted of a segmentation U-net and a differentiation U-net and was trained with a combined loss function. The performance of Cascade U was compared with two other U-net models (Pipeline U and Separate U). Dice similarity coefficient (DSC), Matthews correlation coefficient (MCC), precision, and recall were used to evaluate the performances of all models. The linear correlations between WMHs volume (WMHV) measured by all models and the gold standard were also conducted. Results: Compared with other models, Cascade U exhibited a better performance on WMHs segmentation and pvWMHs identification. Cascade U achieved DSC values of 0.605 +- 0.135, 0.517 +- 0.263, and 0.510 +- 0.241 and MCC values of 0.617 +- 0.122, 0.526 +- 0.263, and 0.522 +- 0.243 on the segmentation of total WMHs, pvWMHs, and dWMHs, respectively. Cascade U exhibited strong correlations with the gold standard on measuring WMHV (R2 = 0.954, p < 0.001), pvWMHV (R2 = 0.933, p < 0.001), and dWMHV (R2 = 0.918, p < 0.001). A significant correlation was found on lesion volume between Cascade U and gold standard (r > 0.510, p < 0.001). Conclusion: Cascade U showed competitive results in segmentation and differentiation of pvWMHs and dWMHs on 2D T2-FLAIR images, indicating potential feasibility in precisely evaluating the burdens of WMHs.
+36468062	36	90	periventricular and deep white matter hyperintensities	Disease	MESH:D056784
+36468062	148	177	White matter hyperintensities	Disease	MESH:D056784
+36468062	179	183	WMHs	Disease	MESH:D056784
+36468062	202	231	cerebral small vessel disease	Disease	MESH:D059345
+36468062	256	276	periventricular WMHs	Disease	MESH:D056784
+36468062	278	284	pvWMHs	Disease	MESH:D056784
+36468062	290	299	deep WMHs	Disease	MESH:D056784
+36468062	301	306	dWMHs	Disease	MESH:D056784
+36468062	309	315	pvWMHs	Disease	MESH:D056784
+36468062	320	325	dWMHs	Disease	MESH:D056784
+36468062	483	489	pvWMHs	Disease	MESH:D056784
+36468062	494	499	dWMHs	Disease	MESH:D056784
+36468062	677	683	pvWMHs	Disease	MESH:D056784
+36468062	688	693	dWMHs	Disease	MESH:D056784
+36468062	823	829	pvWMHs	Disease	MESH:D056784
+36468062	834	839	dWMHs	Disease	MESH:D056784
+36468062	1256	1260	WMHs	Disease	MESH:D056784
+36468062	1422	1426	WMHs	Disease	MESH:D056784
+36468062	1444	1450	pvWMHs	Disease	MESH:D056784
+36468062	1649	1653	WMHs	Disease	MESH:D056784
+36468062	1655	1661	pvWMHs	Disease	MESH:D056784
+36468062	1667	1672	dWMHs	Disease	MESH:D056784
+36468062	2062	2068	pvWMHs	Disease	MESH:D056784
+36468062	2073	2078	dWMHs	Disease	MESH:D056784
+36468062	2174	2178	WMHs	Disease	MESH:D056784
+

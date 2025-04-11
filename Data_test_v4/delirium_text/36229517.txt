@@ -1,0 +1,65 @@
+36229517|t|Integrated network-based multiple computational analyses for identification of co-expressed candidate genes associated with neurological manifestations of COVID-19.
+36229517|a|'Tripartite network' (TN) and 'combined gene network' (CGN) were constructed and their hub-bottleneck and driver nodes (44 genes) were evaluated as 'target genes' (TG) to identify 21 'candidate genes' (CG) and their relationship with neurological manifestations of COVID-19. TN was developed using neurological symptoms of COVID-19 found in literature. Under query genes (TG of TN), co-expressed genes were identified using pair-wise mutual information to genes available in RNA-Seq autopsy data of frontal cortex of COVID-19 victims. CGN was constructed with genes selected from TN and co-expressed in COVID-19. TG and their connecting genes of respective networks underwent functional analyses through findings of their enrichment terms and pair-wise 'semantic similarity scores' (SSS). A new integrated 'weighted harmonic mean score' was formulated assimilating values of SSS and STRING-based 'combined score' of the selected TG-pairs, which provided CG-pairs with properties of CGs as co-expressed and 'indispensable nodes' in CGN. Finally, six pairs sharing seven 'prevalent CGs' (ADAM10, ADAM17, AKT1, CTNNB1, ESR1, PIK3CA, FGFR1) showed linkages with the phenotypes (a) directly under neurodegeneration, neurodevelopmental diseases, tumour/cancer and cellular signalling, and (b) indirectly through other CGs under behavioural/cognitive and motor dysfunctions. The pathophysiology of 'prevalent CGs' has been discussed to interpret neurological phenotypes of COVID-19.
+36229517	155	163	COVID-19	Disease	MESH:D000086382
+36229517	187	189	TN	Disease	
+36229517	430	438	COVID-19	Disease	MESH:D000086382
+36229517	440	442	TN	Disease	
+36229517	463	484	neurological symptoms	Disease	MESH:D009461
+36229517	488	496	COVID-19	Disease	MESH:D000086382
+36229517	543	545	TN	Disease	
+36229517	682	690	COVID-19	Disease	MESH:D000086382
+36229517	745	747	TN	Disease	
+36229517	768	776	COVID-19	Disease	MESH:D000086382
+36229517	1147	1150	CGs	Disease	
+36229517	1245	1248	CGs	Disease	
+36229517	1251	1257	ADAM10	Gene	102
+36229517	1259	1265	ADAM17	Gene	6868
+36229517	1267	1271	AKT1	Gene	207
+36229517	1273	1279	CTNNB1	Gene	1499
+36229517	1281	1285	ESR1	Gene	2099
+36229517	1287	1293	PIK3CA	Gene	5290
+36229517	1295	1300	FGFR1	Gene	2260
+36229517	1357	1374	neurodegeneration	Disease	MESH:D019636
+36229517	1376	1403	neurodevelopmental diseases	Disease	MESH:D004194
+36229517	1405	1411	tumour	Disease	MESH:D009369
+36229517	1412	1418	cancer	Disease	MESH:D009369
+36229517	1477	1480	CGs	Disease	
+36229517	1487	1531	behavioural/cognitive and motor dysfunctions	Disease	MESH:D003072
+36229517	1567	1570	CGs	Disease	
+36229517	1631	1639	COVID-19	Disease	MESH:D000086382
+36229517	Association	MESH:D009369	1499
+36229517	Association	MESH:D019636	2260
+36229517	Association	MESH:D000086382	2099
+36229517	Association	MESH:D000086382	2260
+36229517	Association	MESH:D009369	2099
+36229517	Association	MESH:D003072	2099
+36229517	Association	MESH:D019636	2099
+36229517	Association	MESH:D000086382	207
+36229517	Association	MESH:D003072	207
+36229517	Association	MESH:D003072	102
+36229517	Association	MESH:D003072	2260
+36229517	Association	MESH:D000086382	1499
+36229517	Association	MESH:D009369	2260
+36229517	Association	MESH:D003072	6868
+36229517	Association	MESH:D004194	5290
+36229517	Association	MESH:D004194	207
+36229517	Association	MESH:D000086382	102
+36229517	Association	MESH:D000086382	5290
+36229517	Association	MESH:D004194	1499
+36229517	Association	MESH:D019636	5290
+36229517	Association	MESH:D019636	6868
+36229517	Association	MESH:D019636	207
+36229517	Association	MESH:D003072	5290
+36229517	Association	MESH:D019636	102
+36229517	Association	MESH:D019636	1499
+36229517	Association	MESH:D004194	2099
+36229517	Association	MESH:D004194	2260
+36229517	Association	MESH:D000086382	6868
+36229517	Association	MESH:D009369	207
+36229517	Association	MESH:D004194	102
+36229517	Association	MESH:D009369	6868
+36229517	Association	MESH:D003072	1499
+36229517	Association	MESH:D009369	5290
+36229517	Association	MESH:D004194	6868
+36229517	Association	MESH:D009369	102
+

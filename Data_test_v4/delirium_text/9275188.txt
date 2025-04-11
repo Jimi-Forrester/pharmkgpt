@@ -1,0 +1,40 @@
+9275188|t|Compromised mitochondrial function leads to increased cytosolic calcium and to activation of MAP kinases.
+9275188|a|We have investigated in rat pheochromacytoma PC12 cells the activation of the mitogen-activated protein kinases ERK1 and ERK2 by the mitochondrial uncoupler carbonyl cyanide p-(trifluoromethoxy)phenylhydrazone (FCCP). This treatment slowly decreases ATP levels to 30% of control, whereas the internal calcium level rises very rapidly to 250% of control, derived from internal stores. Tyrosine phosphorylation of ERK1 and ERK2 increases gradually, starting after 5 min of treatment, to reach a maximum at 30 min; the kinase activity reaches 250% when measured after 1 hr of treatment. The drop in ATP levels is slower still. Comparison of the time courses of the rapid rise in cytosolic calcium with the slower increase in ERK1 and ERK2 activation suggests one or more intermediate stages in this pathway. Chelation of cytosolic calcium with dimethyl bis-(o-aminophenoxy)ethane-N,N,N',N'-tetraacetic acid abolished the FCCP-stimulated rise in internal calcium, as well as the tyrosine phosphorylation and the activation of the ERKs. Surprisingly, caffeine, which releases calcium from different internal stores, did not increase the tyrosine phosphorylation and did not activate the ERKs. The FCCP effect on calcium storage may be related to mitochondrial dysfunction in Alzheimer disease, which might result in ineffective buffering of cytosolic calcium that leads to mitogen-activated protein kinase activation and subsequent protein phosphorylations.
+9275188	12	34	mitochondrial function	Disease	MESH:D028361
+9275188	64	71	calcium	Chemical	MESH:D002118
+9275188	130	133	rat	Species	10116
+9275188	134	150	pheochromacytoma	Disease	
+9275188	151	155	PC12	CellLine	CVCL:0481
+9275188	218	222	ERK1	Gene	50689
+9275188	227	231	ERK2	Gene	116590
+9275188	263	315	carbonyl cyanide p-(trifluoromethoxy)phenylhydrazone	Chemical	MESH:D002259
+9275188	317	321	FCCP	Chemical	MESH:D002259
+9275188	356	359	ATP	Chemical	MESH:D000255
+9275188	407	414	calcium	Chemical	MESH:D002118
+9275188	518	522	ERK1	Gene	50689
+9275188	527	531	ERK2	Gene	116590
+9275188	702	705	ATP	Chemical	MESH:D000255
+9275188	792	799	calcium	Chemical	MESH:D002118
+9275188	828	832	ERK1	Gene	50689
+9275188	837	841	ERK2	Gene	116590
+9275188	934	941	calcium	Chemical	MESH:D002118
+9275188	947	1009	dimethyl bis-(o-aminophenoxy)ethane-N,N,N',N'-tetraacetic acid	Chemical	-
+9275188	1024	1028	FCCP	Chemical	MESH:D002259
+9275188	1057	1064	calcium	Chemical	MESH:D002118
+9275188	1152	1160	caffeine	Chemical	MESH:D002110
+9275188	1177	1184	calcium	Chemical	MESH:D002118
+9275188	1298	1302	FCCP	Chemical	MESH:D002259
+9275188	1313	1320	calcium	Chemical	MESH:D002118
+9275188	1347	1372	mitochondrial dysfunction	Disease	MESH:D028361
+9275188	1376	1393	Alzheimer disease	Disease	MESH:D000544
+9275188	1452	1459	calcium	Chemical	MESH:D002118
+9275188	Positive_Correlation	MESH:D002259	50689
+9275188	Association	MESH:D002259	MESH:D000544
+9275188	Association	MESH:D002259	MESH:D028361
+9275188	Association	MESH:D002118	MESH:D028361
+9275188	Positive_Correlation	MESH:D002259	116590
+9275188	Association	MESH:D002118	MESH:D000544
+9275188	Negative_Correlation	MESH:D000255	MESH:D002259
+9275188	Positive_Correlation	MESH:D002118	MESH:D002259
+9275188	Positive_Correlation	MESH:D002110	MESH:D002118
+

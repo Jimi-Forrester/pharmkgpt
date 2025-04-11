@@ -1,0 +1,42 @@
+39877656|t|NDUFA11 may be the disulfidptosis-related biomarker of ischemic stroke based on integrated bioinformatics, clinical samples, and experimental analyses.
+39877656|a|Background: Programmed cell death plays an important role in neuronal injury and death after ischemic stroke (IS), leading to cellular glucose deficiency. Glucose deficiency can cause abnormal accumulation of cytotoxic disulfides, resulting in disulfidptosis. Ferroptosis, apoptosis, necroptosis, and autophagy inhibitors cannot inhibit this novel programmed cell death mechanism. Nevertheless, the potential mechanisms of disulfidptosis in IS remain unclear. Methods: The GSE16561 dataset was used to screen for differentially expressed disulfidptosis-related biomarkers (DE-DRBs). A correlation between the DE-DRBs was detected. The optimal machine-learning (ML) model and predictor molecules were determined. The GSE58294 dataset was used to verify the accuracy of the optimal ML model. The DE-DRB expression was detected in the blood of patients with IS. Based on IS models, experimental analyses were performed to verify DE-DRB expression and the correlation between DE-DRBs. Results: Leucine-rich pentatricopeptide repeat-containing (LRPPRC) and NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 11 (NDUFA11) were identified as DE-DRBs. The NADH: ubiquinone oxidoreductase core subunit S1 (NDUFS1) interacted with NDUFA11 and LRPPRC. The support vector machine (SVM) model was identified as the optimal ML model. The NDUFA11 expression level in the blood of patients with IS was 20.9% compared to that in normal controls. NDUFA11 expression was downregulated in the in vitro/in vivo models of IS. The number of formed complexes of NDUFS1 and NDUFA11 decreased in the in vitro/in vivo models of IS. Conclusion: This research suggests that NDUFA11 is a specific DRB for IS and demonstrates alterations in the disulfidptosis-related protein complexes NDUFS1-NDUFA11.
+39877656	0	7	NDUFA11	Gene	126328
+39877656	55	70	ischemic stroke	Disease	MESH:D002544
+39877656	213	238	neuronal injury and death	Disease	MESH:D009410
+39877656	245	260	ischemic stroke	Disease	MESH:D002544
+39877656	262	264	IS	Disease	MESH:D002544
+39877656	287	305	glucose deficiency	Disease	MESH:D044882
+39877656	307	325	Glucose deficiency	Disease	MESH:D044882
+39877656	371	381	disulfides	Chemical	MESH:D004220
+39877656	412	423	Ferroptosis	Disease	
+39877656	593	595	IS	Disease	MESH:D002544
+39877656	993	1001	patients	Species	9606
+39877656	1007	1009	IS	Disease	MESH:D002544
+39877656	1020	1022	IS	Disease	MESH:D002544
+39877656	1142	1190	Leucine-rich pentatricopeptide repeat-containing	Gene	10128
+39877656	1192	1198	LRPPRC	Gene	10128
+39877656	1204	1265	NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 11	Gene	126328
+39877656	1267	1274	NDUFA11	Gene	126328
+39877656	1308	1355	NADH: ubiquinone oxidoreductase core subunit S1	Gene	4719
+39877656	1357	1363	NDUFS1	Gene	4719
+39877656	1381	1388	NDUFA11	Gene	126328
+39877656	1393	1399	LRPPRC	Gene	10128
+39877656	1484	1491	NDUFA11	Gene	126328
+39877656	1525	1533	patients	Species	9606
+39877656	1539	1541	IS	Disease	MESH:D002544
+39877656	1589	1596	NDUFA11	Gene	126328
+39877656	1660	1662	IS	Disease	MESH:D002544
+39877656	1698	1704	NDUFS1	Gene	4719
+39877656	1709	1716	NDUFA11	Gene	126328
+39877656	1761	1763	IS	Disease	MESH:D002544
+39877656	1805	1812	NDUFA11	Gene	126328
+39877656	1827	1830	DRB	Chemical	MESH:D004004
+39877656	1835	1837	IS	Disease	MESH:D002544
+39877656	1915	1921	NDUFS1	Gene	4719
+39877656	1922	1929	NDUFA11	Gene	126328
+39877656	Association	10128	4719
+39877656	Bind	126328	4719
+39877656	Positive_Correlation	MESH:D004220	MESH:D044882
+39877656	Association	MESH:D044882	126328
+39877656	Association	MESH:D002544	126328
+

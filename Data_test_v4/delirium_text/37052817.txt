@@ -1,0 +1,29 @@
+37052817|t|Predicting postoperative delirium after hip arthroplasty for elderly patients using machine learning.
+37052817|a|BACKGROUND: Postoperative delirium (POD) is a common and severe complication in elderly hip-arthroplasty patients. AIM: This study aims to develop and validate a machine learning (ML) model that determines essential features related to POD and predicts POD for elderly hip-arthroplasty patients. METHODS: The electronic record data of elderly patients who received hip-arthroplasty surgery between January 2017 and April 2021 were enrolled as the dataset. The Confusion Assessment Method (CAM) was administered to the patients during their perioperative period. The feature section method was employed as a filter to determine leading features. The classical machine learning algorithms were trained in cross-validation processing, and the model with the best performance was built in predicting the POD. Metrics of the area under the curve (AUC), accuracy (ACC), sensitivity, specificity, and F1-score were calculated to evaluate the predictive performance. RESULTS: 476 Arthroplasty elderly patients with general anesthesia were included in this study, and the final model combined feature selection method mutual information (MI) and linear binary classifier using logistic regression (LR) achieved an encouraging performance (AUC = 0.94, ACC = 0.88, sensitivity = 0.85, specificity = 0.90, F1-score = 0.87) on a balanced test dataset. CONCLUSION: The model could predict POD with satisfying accuracy and reveal important features of suffering POD such as age, Cystatin C, GFR, CHE, CRP, LDH, monocyte count, history of mental illness or psychotropic drug use and intraoperative blood loss. Proper preoperative interventions for these factors could reduce the incidence of POD among elderly patients.
+37052817	11	33	postoperative delirium	Disease	MESH:D000071257
+37052817	40	56	hip arthroplasty	Disease	MESH:D025981
+37052817	69	77	patients	Species	9606
+37052817	114	136	Postoperative delirium	Disease	MESH:D000071257
+37052817	138	141	POD	Disease	MESH:D000071257
+37052817	190	206	hip-arthroplasty	Disease	MESH:D025981
+37052817	207	215	patients	Species	9606
+37052817	338	341	POD	Disease	MESH:D000071257
+37052817	355	358	POD	Disease	MESH:D000071257
+37052817	371	387	hip-arthroplasty	Disease	MESH:D025981
+37052817	388	396	patients	Species	9606
+37052817	445	453	patients	Species	9606
+37052817	467	483	hip-arthroplasty	Disease	MESH:D025981
+37052817	620	628	patients	Species	9606
+37052817	902	905	POD	Disease	MESH:D000071257
+37052817	1095	1103	patients	Species	9606
+37052817	1477	1480	POD	Disease	MESH:D000071257
+37052817	1549	1552	POD	Disease	MESH:D000071257
+37052817	1566	1576	Cystatin C	Gene	1471
+37052817	1588	1591	CRP	Gene	1401
+37052817	1625	1639	mental illness	Disease	MESH:D001523
+37052817	1684	1694	blood loss	Disease	MESH:D016063
+37052817	1778	1781	POD	Disease	MESH:D000071257
+37052817	1796	1804	patients	Species	9606
+37052817	Association	MESH:D000071257	1471
+37052817	Association	MESH:D000071257	1401
+

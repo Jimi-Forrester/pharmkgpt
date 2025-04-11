@@ -1,0 +1,31 @@
+35795239|t|Network Pharmacology-Based Strategy to Investigate the Pharmacologic Mechanisms of Coptidis Rhizoma for the Treatment of Alzheimer's Disease.
+35795239|a|Background: Alzheimer's disease (AD) is becoming a more prevalent public health issue in today's culture. The experimental study of Coptidis Rhizoma (CR) and its chemical components in AD treatment has been widely reported, but the principle of multi-level and multi-mechanism treatment of AD urgently needs to be clarified. Objective: This study focuses on network pharmacology to clarify the mechanism of CR's multi-target impact on Alzheimer's disease. Methods: The Phytochemical-compounds of CR have been accessed from the Traditional Chinese Medicine Database and Analysis Platform (TCMSP) and Symmap database or HPLC determination. The values of Oral Bioavailability (OB) >= 30% and Drug Like (DL) >= 0.18 or blood ingredient were used to screen the active components of CR; the interactive network of targets and compounds were constructed by STRING and Cytoscape platform, and the network was analyzed by Molecular Complex Detection (MCODE); Gene Ontology (GO) function, Kyoto Encyclopedia of Genes and Genomes Pathway (KEGG) and metabolic pathway enrichment of targets were carried out with Metascape, the Database for Annotation, Visualization and Integrated Discovery (DAVID) and MetaboAnalyst platform; Based on CytoHubba, the potential efficient targets were screened by Maximal Clique Centrality (MCC) and Degree, the correlation between potential efficient targets and amyloid beta-protein (Abeta), Tau pathology was analyzed by Alzdata database, and the genes related to aging were analyzed by Aging Altas database, and finally, the core targets were obtained; the binding ability between ingredients and core targets evaluated by molecular docking, and the clinical significance of core targets was assessed with Gene Expression Omnibus (GEO) database. Results: 19 active components correspond to 267 therapeutic targets for AD, of which 69 is potentially effective; in module analysis, RELA, TRAF2, STAT3, and so on are the critical targets of each module; among the six core targets, RELA, MAPK8, STAT3, and TGFB1 have clinical therapeutic significance; GO function, including 3050 biological processes (BP), 257 molecular functions (MF), 184 cellular components (CC), whose functions are mainly related to antioxidation, regulation of apoptosis and cell composition; the HIF-1 signaling pathway, glutathione metabolism is the most significant result of 134 KEGG signal pathways and four metabolic pathways, respectively; most of the active components have an excellent affinity in docking with critical targets. Conclusion: The pharmacological target prediction of CR based on molecular network pharmacology paves the way for a multi-level networking strategy. The study of CR in AD treatment shows a bright prospect for curing neurodegenerative diseases.
+35795239	121	140	Alzheimer's Disease	Disease	MESH:D000544
+35795239	154	173	Alzheimer's disease	Disease	MESH:D000544
+35795239	175	177	AD	Disease	MESH:D000544
+35795239	327	329	AD	Disease	MESH:D000544
+35795239	432	434	AD	Disease	MESH:D000544
+35795239	577	596	Alzheimer's disease	Disease	MESH:D000544
+35795239	689	697	Medicine	Disease	
+35795239	1548	1553	Abeta	Gene	351
+35795239	1556	1559	Tau	Gene	4137
+35795239	1984	1986	AD	Disease	MESH:D000544
+35795239	2046	2050	RELA	Gene	5970
+35795239	2052	2057	TRAF2	Gene	7186
+35795239	2059	2064	STAT3	Gene	6774
+35795239	2145	2149	RELA	Gene	5970
+35795239	2151	2156	MAPK8	Gene	5599
+35795239	2158	2163	STAT3	Gene	6774
+35795239	2169	2174	TGFB1	Gene	7040
+35795239	2433	2438	HIF-1	Gene	3091
+35795239	2458	2469	glutathione	Chemical	MESH:D005978
+35795239	2842	2844	AD	Disease	MESH:D000544
+35795239	2890	2916	neurodegenerative diseases	Disease	MESH:D019636
+35795239	Association	MESH:D005978	MESH:D019636
+35795239	Association	MESH:D019636	3091
+35795239	Association	MESH:D000544	3091
+35795239	Association	MESH:D000544	5599
+35795239	Association	MESH:D000544	7040
+35795239	Association	MESH:D005978	3091
+35795239	Association	MESH:D000544	7186
+

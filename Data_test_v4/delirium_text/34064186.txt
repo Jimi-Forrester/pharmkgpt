@@ -1,0 +1,34 @@
+34064186|t|Predicting Conversion from MCI to AD Combining Multi-Modality Data and Based on Molecular Subtype.
+34064186|a|Alzheimer's disease (AD) is a neurodegenerative brain disease in the elderly. Identifying patients with mild cognitive impairment (MCI) who are more likely to progress to AD is a key step in AD prevention. Recent studies have shown that AD is a heterogeneous disease. In this study, we propose a subtyping-based prediction strategy to predict the conversion from MCI to AD in three years according to MCI patient subtypes. Structural magnetic resonance imaging (sMRI) data and multi-omics data, including genotype data and gene expression profiling derived from peripheral blood samples, from 125 MCI patients were used in the Alzheimer's Disease Neuroimaging Initiative (ADNI)-1 dataset and from 98 MCI patients in the ADNI-GO/2 dataset. A variational Bayes approximation model based on the multiple kernel learning method was constructed to predict whether an MCI patient will progress to AD within three years. In internal fivefold cross-validation within ADNI-1, we achieved an overall AUC of 0.83 (79.20% accuracy, 81.25% sensitivity, 77.92% specificity) compared to the model without subtyping, which achieved an AUC of 0.78 (76.00% accuracy, 77.08% sensitivity, 75.32% specificity). In external validation using ADNI-1 as a training set and ADNI-GO/2 as an independent test set, we attained an AUC of 0.78 (74.49% accuracy, 74.19% sensitivity, 74.63% specificity). Identifying MCI patient subtypes with omics data would improve the accuracy of predicting the conversion from MCI to AD. In addition to evaluating statistics, obtaining the significant sMRI, single nucleotide polymorphism (SNP) and mRNA expression data from peripheral blood of MCI patients is noninvasive and cost-effective for predicting conversion from MCI to AD.
+34064186	27	30	MCI	Disease	MESH:D060825
+34064186	34	36	AD	Disease	MESH:D000544
+34064186	99	118	Alzheimer's disease	Disease	MESH:D000544
+34064186	120	122	AD	Disease	MESH:D000544
+34064186	129	160	neurodegenerative brain disease	Disease	MESH:D019636
+34064186	189	197	patients	Species	9606
+34064186	208	228	cognitive impairment	Disease	MESH:D003072
+34064186	230	233	MCI	Disease	MESH:D060825
+34064186	270	272	AD	Disease	MESH:D000544
+34064186	290	292	AD	Disease	MESH:D000544
+34064186	336	338	AD	Disease	MESH:D000544
+34064186	462	465	MCI	Disease	MESH:D060825
+34064186	469	471	AD	Disease	MESH:D000544
+34064186	500	503	MCI	Disease	MESH:D060825
+34064186	504	511	patient	Species	9606
+34064186	696	699	MCI	Disease	MESH:D060825
+34064186	700	708	patients	Species	9606
+34064186	726	745	Alzheimer's Disease	Disease	MESH:D000544
+34064186	799	802	MCI	Disease	MESH:D060825
+34064186	803	811	patients	Species	9606
+34064186	961	964	MCI	Disease	MESH:D060825
+34064186	965	972	patient	Species	9606
+34064186	990	992	AD	Disease	MESH:D000544
+34064186	1483	1486	MCI	Disease	MESH:D060825
+34064186	1487	1494	patient	Species	9606
+34064186	1581	1584	MCI	Disease	MESH:D060825
+34064186	1588	1590	AD	Disease	MESH:D000544
+34064186	1749	1752	MCI	Disease	MESH:D060825
+34064186	1753	1761	patients	Species	9606
+34064186	1827	1830	MCI	Disease	MESH:D060825
+34064186	1834	1836	AD	Disease	MESH:D000544
+

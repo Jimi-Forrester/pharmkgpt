@@ -1,0 +1,36 @@
+38375685|t|A Real-World Pharmacovigilance Study of Ceftazidime/Avibactam: Data Mining of the Food and Drug Administration Adverse Event Reporting System Database.
+38375685|a|Ceftazidime/avibactam (CAZ/AVI) is a combination of a well-known third-generation, broad-spectrum cephalosporin with a new beta-lactamase inhibitor that has been approved for the treatment of various infectious diseases (especially multidrug-resistant Gram-negative bacterial infections) by the Food and Drug Administration (FDA). The current study extensively assessed CAZ/AVI-related adverse events (AEs) in the real world through data mining of the FDA Adverse Event Reporting System (FAERS) database to better understand toxicities. The signals of CAZ/AVI-related AEs were quantified using disproportionality analyses, including the reporting odds ratio, the proportional reporting ratio, the Bayesian confidence propagation neural network, and the multi-item gamma Poisson shrinker algorithms. Out of 10,114,815 records retrieved from the FAERS database, 628 cases were identified, where CAZ/AVI was implicated as the primary suspect drug. A total of 61 preferred terms with significant disproportionality that simultaneously met the criteria of all four algorithms were retained. Several unexpected safety signals may also occur, including melena, hypernatremia, depressed level of consciousness, brain edema, petechiae, delirium, and shock hemorrhagic. The median onset time for AEs associated with CAZ/AVI was 4 days, with most cases occurring within 3 days after CAZ/AVI initiation.
+38375685	40	61	Ceftazidime/Avibactam	Chemical	MESH:C000595613
+38375685	152	173	Ceftazidime/avibactam	Chemical	MESH:C000595613
+38375685	175	182	CAZ/AVI	Chemical	MESH:C000595613
+38375685	250	263	cephalosporin	Chemical	MESH:D002511
+38375685	352	371	infectious diseases	Disease	MESH:D003141
+38375685	404	438	Gram-negative bacterial infections	Disease	MESH:D016905
+38375685	522	529	CAZ/AVI	Chemical	MESH:C000595613
+38375685	538	552	adverse events	Disease	MESH:D064420
+38375685	554	557	AEs	Disease	MESH:D064420
+38375685	677	687	toxicities	Disease	MESH:D064420
+38375685	704	711	CAZ/AVI	Chemical	MESH:C000595613
+38375685	720	723	AEs	Disease	MESH:D064420
+38375685	1045	1052	CAZ/AVI	Chemical	MESH:C000595613
+38375685	1298	1304	melena	Disease	MESH:D008551
+38375685	1306	1319	hypernatremia	Disease	MESH:D006955
+38375685	1321	1353	depressed level of consciousness	Disease	MESH:D003244
+38375685	1355	1366	brain edema	Disease	MESH:D001929
+38375685	1368	1377	petechiae	Disease	MESH:D011693
+38375685	1379	1387	delirium	Disease	MESH:D003693
+38375685	1393	1410	shock hemorrhagic	Disease	MESH:D012771
+38375685	1438	1441	AEs	Disease	MESH:D064420
+38375685	1458	1465	CAZ/AVI	Chemical	MESH:C000595613
+38375685	1524	1531	CAZ/AVI	Chemical	MESH:C000595613
+38375685	Positive_Correlation	MESH:C000595613	MESH:D006955
+38375685	Positive_Correlation	MESH:C000595613	MESH:D008551
+38375685	Negative_Correlation	MESH:C000595613	MESH:D003141
+38375685	Negative_Correlation	MESH:C000595613	MESH:D016905
+38375685	Positive_Correlation	MESH:C000595613	MESH:D012771
+38375685	Positive_Correlation	MESH:C000595613	MESH:D001929
+38375685	Positive_Correlation	MESH:C000595613	MESH:D011693
+38375685	Positive_Correlation	MESH:C000595613	MESH:D003244
+38375685	Positive_Correlation	MESH:C000595613	MESH:D064420
+38375685	Positive_Correlation	MESH:C000595613	MESH:D003693
+

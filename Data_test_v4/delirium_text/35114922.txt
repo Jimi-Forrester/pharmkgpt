@@ -1,0 +1,30 @@
+35114922|t|A Comprehensive Investigation of Molecular Signatures and Pathways Linking Alzheimer's Disease and Epilepsy via Bioinformatic Approaches.
+35114922|a|BACKGROUND: Epileptic activity frequently occurs in patients with Alzheimer's disease (AD), which may accelerate AD progression; however, the relationship between AD and epilepsy remains unclear. OBJECTIVE: We aimed to investigate the molecular pathways and genes linking AD and epilepsy using bioinformatics approaches. METHODS: Gene expression profiles of AD (GSE1297) and epilepsy (GSE28674) were derived from the Gene Expression Omnibus (GEO) database. The top 50% expression variants were subjected to weighted gene co-expression network analysis (WGCNA) to identify key modules associated with these diseases. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses for the key modules were performed, and the intersected terms of functional enrichment and common genes within the key modules were selected. The overlapping genes were subjected to analyses of protein-protein interaction (PPI) network, transcription factor (TF)-mRNA network, microRNA (miRNA)-mRNA network, and drug prediction. RESULTS: We identified 229 and 1187 genes in the AD-associated purple and epilepsy-associated blue modules, respectively. Six shared functional terms between the two modules included "calcium ion binding" and "calcium signaling pathway." According to 17 common genes discovered, 130 TFmRNA pairs and 56 miRNA-mRNA pairs were established. The topological analyses of the constructed regulatory networks suggested that TF - FOXC1 and miRNA - hsa-mir-335-5p might be vital co-regulators of gene expression in AD and epilepsy. In addition, CXCR4 was identified as a hub gene, becoming the putative target for 20 drugs. CONCLUSION: Our study provided novel insights into the molecular connection between AD and epilepsy, which might be beneficial for exploring shared mechanisms and designing disease-modifying therapies.
+35114922	75	94	Alzheimer's Disease	Disease	MESH:D000544
+35114922	99	107	Epilepsy	Disease	MESH:D004827
+35114922	150	159	Epileptic	Disease	MESH:D004827
+35114922	190	198	patients	Species	9606
+35114922	204	223	Alzheimer's disease	Disease	MESH:D000544
+35114922	225	227	AD	Disease	MESH:D000544
+35114922	251	253	AD	Disease	MESH:D000544
+35114922	301	303	AD	Disease	MESH:D000544
+35114922	308	316	epilepsy	Disease	MESH:D004827
+35114922	410	412	AD	Disease	MESH:D000544
+35114922	417	425	epilepsy	Disease	MESH:D004827
+35114922	496	498	AD	Disease	MESH:D000544
+35114922	513	521	epilepsy	Disease	MESH:D004827
+35114922	1211	1213	AD	Disease	MESH:D000544
+35114922	1236	1244	epilepsy	Disease	MESH:D004827
+35114922	1346	1353	calcium	Chemical	MESH:D002118
+35114922	1372	1379	calcium	Chemical	MESH:D002118
+35114922	1584	1589	FOXC1	Gene	2296
+35114922	1668	1670	AD	Disease	MESH:D000544
+35114922	1675	1683	epilepsy	Disease	MESH:D004827
+35114922	1698	1703	CXCR4	Gene	7852
+35114922	1861	1863	AD	Disease	MESH:D000544
+35114922	1868	1876	epilepsy	Disease	MESH:D004827
+35114922	Association	MESH:D000544	7852
+35114922	Association	MESH:D000544	2296
+35114922	Association	MESH:D004827	2296
+35114922	Association	MESH:D002118	MESH:D000544
+

@@ -1,0 +1,33 @@
+16679552|t|beta-Amyloid and endoplasmic reticulum stress responses in primary neurons: effects of drugs that interact with the cytoskeleton.
+16679552|a|In vitro studies designed to probe the cellular mechanisms underlying beta-amyloid (Abeta) toxicity in neurons have implicated several processes, including hyperphosphorylation of the microtubule (MT)-associated protein tau, loss of MT stability, and increased cytosolic calcium levels. Given that Alzheimer's disease involves accumulation of aggregates of two different proteins, the potential involvement of the unfolded protein response (UPR) and endoplasmic reticulum (ER) dysfunction has been suggested to lead to cell death. The relationship between these apparently divergent factors and pathways in Abeta toxicity is still unclear. In these studies we investigated the relationship between MT stability and the ER stress response in primary neurons exposed to toxic Abeta peptides in culture. In addition, nocodazole (ND) was used to determine if direct disruption of MT organization activated the UPR. Pretreatment of neurons with MT-stabilizing drugs paclitaxel (Taxol) and epothilone A prevented the induction of three indicators of the UPR induced by Abeta, ND, and thapsigargin, a compound known to inhibit the sarco-ER Ca(2+)-ATPase and deplete ER calcium stores, resulting in initiation of the UPR. In addition, treatment with MT-stabilizing drugs blocked cell death and the cytoskeletal disorganization induced by these insults. The results suggest that loss of cytoskeletal integrity is a very early step in the response to a variety of toxic stimuli and that preservation of MT stability might be important in preventing the induction of ER dysfunction and subsequent cell death by Abeta in neurons.
+16679552	214	219	Abeta	Gene	351
+16679552	221	229	toxicity	Disease	MESH:D064420
+16679552	350	353	tau	Gene	4137
+16679552	401	408	calcium	Chemical	MESH:D002118
+16679552	428	447	Alzheimer's disease	Disease	MESH:D000544
+16679552	580	618	endoplasmic reticulum (ER) dysfunction	Disease	MESH:D008228
+16679552	737	742	Abeta	Gene	351
+16679552	743	751	toxicity	Disease	MESH:D064420
+16679552	904	909	Abeta	Gene	351
+16679552	944	954	nocodazole	Chemical	MESH:D015739
+16679552	956	958	ND	Chemical	MESH:D015739
+16679552	1091	1101	paclitaxel	Chemical	MESH:D017239
+16679552	1103	1108	Taxol	Chemical	MESH:D017239
+16679552	1114	1126	epothilone A	Chemical	MESH:C093787
+16679552	1193	1198	Abeta	Gene	351
+16679552	1200	1202	ND	Chemical	MESH:D015739
+16679552	1208	1220	thapsigargin	Chemical	MESH:D019284
+16679552	1292	1299	calcium	Chemical	MESH:D002118
+16679552	1686	1700	ER dysfunction	Disease	MESH:D008228
+16679552	1730	1735	Abeta	Gene	351
+16679552	Negative_Correlation	MESH:D002118	MESH:D019284
+16679552	Negative_Correlation	MESH:C093787	MESH:D019284
+16679552	Negative_Correlation	MESH:C093787	351
+16679552	Positive_Correlation	MESH:D002118	MESH:D064420
+16679552	Positive_Correlation	MESH:D008228	351
+16679552	Negative_Correlation	MESH:D017239	351
+16679552	Negative_Correlation	MESH:D015739	MESH:D017239
+16679552	Negative_Correlation	MESH:D017239	MESH:D019284
+16679552	Association	MESH:D064420	4137
+16679552	Negative_Correlation	MESH:C093787	MESH:D015739
+

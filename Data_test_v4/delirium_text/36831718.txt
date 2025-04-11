@@ -1,0 +1,30 @@
+36831718|t|Parkinson's Disease Gene Biomarkers Screened by the LASSO and SVM Algorithms.
+36831718|a|Parkinson's disease (PD) is a common progressive neurodegenerative disorder. Various evidence has revealed the possible penetration of peripheral immune cells in the substantia nigra, which may be essential for PD. Our study uses machine learning (ML) to screen for potential PD genetic biomarkers. Gene expression profiles were screened from the Gene Expression Omnibus (GEO). Differential expression genes (DEGs) were selected for the enrichment analysis. A protein-protein interaction (PPI) network was built with the STRING database (Search Tool for the Retrieval of Interacting Genes), and two ML approaches, namely least absolute shrinkage and selection operator (LASSO) and support vector machine recursive feature elimination (SVM-RFE), were employed to identify candidate genes. The external validation dataset further tested the expression degree and diagnostic value of candidate biomarkers. To assess the validity of the diagnosis, we determined the receiver operating characteristic (ROC) curve. A convolution tool was employed to evaluate the composition of immune cells by CIBERSORT, and we performed correlation analyses on the basis of the training dataset. Twenty-seven DEGs were screened in the PD and control samples. Our results from the enrichment analysis showed a close association with inflammatory and immune-associated diseases. Both the LASSO and SVM algorithms screened eight and six characteristic genes. AGTR1, GBE1, TPBG, and HSPA6 are overlapping hub genes strongly related to PD. Our results of the area under the ROC (AUC), including AGTR1 (AUC = 0.933), GBE1 (AUC = 0.967), TPBG (AUC = 0.767), and HSPA6 (AUC = 0.633), suggested that these genes have good diagnostic value, and these genes were significantly associated with the degree of immune cell infiltration. AGTR1, GBE1, TPBG, and HSPA6 were identified as potential biomarkers in the diagnosis of PD and provide a novel viewpoint for further study on PD immune mechanism and therapy.
+36831718	0	19	Parkinson's Disease	Disease	MESH:D010300
+36831718	78	97	Parkinson's disease	Disease	MESH:D010300
+36831718	99	101	PD	Disease	MESH:D010300
+36831718	127	153	neurodegenerative disorder	Disease	MESH:D019636
+36831718	289	291	PD	Disease	MESH:D010300
+36831718	354	356	PD	Disease	MESH:D010300
+36831718	1292	1294	PD	Disease	MESH:D010300
+36831718	1389	1432	inflammatory and immune-associated diseases	Disease	MESH:D007154
+36831718	1513	1518	AGTR1	Gene	185
+36831718	1520	1524	GBE1	Gene	2632
+36831718	1526	1530	TPBG	Gene	7162
+36831718	1536	1541	HSPA6	Gene	3310
+36831718	1588	1590	PD	Disease	MESH:D010300
+36831718	1647	1652	AGTR1	Gene	185
+36831718	1668	1672	GBE1	Gene	2632
+36831718	1688	1692	TPBG	Gene	7162
+36831718	1712	1717	HSPA6	Gene	3310
+36831718	1879	1884	AGTR1	Gene	185
+36831718	1886	1890	GBE1	Gene	2632
+36831718	1892	1896	TPBG	Gene	7162
+36831718	1902	1907	HSPA6	Gene	3310
+36831718	1968	1970	PD	Disease	MESH:D010300
+36831718	2022	2024	PD	Disease	MESH:D010300
+36831718	Association	MESH:D010300	7162
+36831718	Association	MESH:D010300	2632
+36831718	Association	MESH:D010300	3310
+36831718	Association	MESH:D010300	185
+

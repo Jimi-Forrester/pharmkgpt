@@ -1,0 +1,18 @@
+39846055|t|A 3D decoupling Alzheimer's disease prediction network based on structural MRI.
+39846055|a|Purpose: This paper aims to develop a three-dimensional (3D) Alzheimer's disease (AD) prediction method, thereby bettering current predictive methods, which struggle to fully harness the potential of structural magnetic resonance imaging (sMRI) data. Methods: Traditional convolutional neural networks encounter pressing difficulties in accurately focusing on the AD lesion structure. To address this issue, a 3D decoupling, self-attention network for AD prediction is proposed. Firstly, a multi-scale decoupling block is designed to enhance the network's ability to extract fine-grained features by segregating convolutional channels. Subsequently, a self-attention block is constructed to extract and adaptively fuse features from three directions (sagittal, coronal and axial), so that more attention is geared towards brain lesion areas. Finally, a clustering loss function is introduced and combined with the cross-entropy loss to form a joint loss function for enhancing the network's ability to discriminate between different sample types. Results: The accuracy of our model is 0.985 for the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset and 0.963 for the Australian Imaging, Biomarker & Lifestyle (AIBL) dataset, both of which are higher than the classification accuracy of similar tasks in this category. This demonstrates that our model can accurately distinguish between normal control (NC) and Alzheimer's Disease (AD), as well as between stable mild cognitive impairment (sMCI) and progressive mild cognitive impairment (pMCI). Conclusion: The proposed AD prediction network exhibits competitive performance when compared with state-of-the-art methods. The proposed model successfully addresses the challenges of dealing with 3D sMRI image data and the limitations stemming from inadequate information in 2D sections, advancing the utility of predictive methods for AD diagnosis and treatment.
+39846055	16	35	Alzheimer's disease	Disease	MESH:D000544
+39846055	141	160	Alzheimer's disease	Disease	MESH:D000544
+39846055	162	164	AD	Disease	MESH:D000544
+39846055	444	453	AD lesion	Disease	MESH:D000544
+39846055	532	534	AD	Disease	MESH:D000544
+39846055	902	914	brain lesion	Disease	MESH:D001927
+39846055	1179	1198	Alzheimer's Disease	Disease	MESH:D000544
+39846055	1499	1518	Alzheimer's Disease	Disease	MESH:D000544
+39846055	1520	1522	AD	Disease	MESH:D000544
+39846055	1556	1576	cognitive impairment	Disease	MESH:D003072
+39846055	1578	1582	sMCI	Disease	MESH:D060825
+39846055	1588	1625	progressive mild cognitive impairment	Disease	MESH:D060825
+39846055	1627	1631	pMCI	Disease	MESH:D060825
+39846055	1659	1661	AD	Disease	MESH:D000544
+39846055	1972	1974	AD	Disease	MESH:D000544
+

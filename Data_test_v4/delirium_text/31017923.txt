@@ -1,0 +1,47 @@
+31017923|t|A context-based ABC model for literature-based discovery.
+31017923|a|BACKGROUND: In the literature-based discovery, considerable research has been done based on the ABC model developed by Swanson. ABC model hypothesizes that there is a meaningful relation between entity A extracted from document set 1 and entity C extracted from document set 2 through B entities that appear commonly in both document sets. The results of ABC model are relations among entity A, B, and C, which is referred as paths. A path allows for hypothesizing the relationship between entity A and entity C, or helps discover entity B as a new evidence for the relationship between entity A and entity C. The co-occurrence based approach of ABC model is a well-known approach to automatic hypothesis generation by creating various paths. However, the co-occurrence based ABC model has a limitation, in that biological context is not considered. It focuses only on matching of B entity which commonly appears in relation between two entities. Therefore, the paths extracted by the co-occurrence based ABC model tend to include a lot of irrelevant paths, meaning that expert verification is essential. METHODS: In order to overcome this limitation of the co-occurrence based ABC model, we propose a context-based approach to connecting one entity relation to another, modifying the ABC model using biological contexts. In this study, we defined four biological context elements: cell, drug, disease, and organism. Based on these biological context, we propose two extended ABC models: a context-based ABC model and a context-assignment-based ABC model. In order to measure the performance of the both proposed models, we examined the relevance of the B entities between the well-known relations "APOE-MAPT" as well as "FUS-TARDBP". Each relation means interaction between neurodegenerative disease associated with proteins. The interaction between APOE and MAPT is known to play a crucial role in Alzheimer's disease as APOE affects tau-mediated neurodegeneration. It has been shown that mutation in FUS and TARDBP are associated with amyotrophic lateral sclerosis(ALS), a motor neuron disease by leading to neuronal cell death. Using these two relations, we compared both of proposed models to co-occurrence based ABC model. RESULTS: The precision of B entities by co-occurrence based ABC model was 27.1% for "APOE-MAPT" and 22.1% for "FUS-TARDBP", respectively. In context-based ABC model, precision of extracted B entities was 71.4% for "APOE-MAPT", and 77.9% for "FUS-TARDBP". Context-assignment based ABC model achieved 89% and 97.5% precision for the two relations, respectively. Both proposed models achieved a higher precision than co-occurrence-based ABC model.
+31017923	1757	1761	APOE	Gene	348
+31017923	1762	1766	MAPT	Gene	4137
+31017923	1780	1783	FUS	Gene	2521
+31017923	1784	1790	TARDBP	Gene	23435
+31017923	1833	1858	neurodegenerative disease	Disease	MESH:D019636
+31017923	1909	1913	APOE	Gene	348
+31017923	1918	1922	MAPT	Gene	4137
+31017923	1958	1977	Alzheimer's disease	Disease	MESH:D000544
+31017923	1981	1985	APOE	Gene	348
+31017923	1994	1997	tau	Gene	4137
+31017923	2007	2024	neurodegeneration	Disease	MESH:D019636
+31017923	2061	2064	FUS	Gene	2521
+31017923	2069	2075	TARDBP	Gene	23435
+31017923	2096	2125	amyotrophic lateral sclerosis	Disease	MESH:D000690
+31017923	2126	2129	ALS	Disease	MESH:D008113
+31017923	2134	2154	motor neuron disease	Disease	MESH:D016472
+31017923	2169	2177	neuronal	Disease	MESH:D009410
+31017923	2183	2188	death	Disease	MESH:D003643
+31017923	2372	2376	APOE	Gene	348
+31017923	2377	2381	MAPT	Gene	4137
+31017923	2398	2401	FUS	Gene	2521
+31017923	2402	2408	TARDBP	Gene	23435
+31017923	2502	2506	APOE	Gene	348
+31017923	2507	2511	MAPT	Gene	4137
+31017923	2529	2532	FUS	Gene	2521
+31017923	2533	2539	TARDBP	Gene	23435
+31017923	Association	MESH:D008113	23435
+31017923	Association	MESH:D009410	2521
+31017923	Association	MESH:D000544	4137
+31017923	Association	MESH:D008113	2521
+31017923	Association	MESH:D019636	348
+31017923	Association	MESH:D000690	23435
+31017923	Association	MESH:D000690	2521
+31017923	Association	23435	2521
+31017923	Association	MESH:D019636	23435
+31017923	Association	MESH:D003643	2521
+31017923	Association	MESH:D009410	23435
+31017923	Association	MESH:D016472	2521
+31017923	Association	MESH:D019636	4137
+31017923	Association	MESH:D003643	23435
+31017923	Association	MESH:D016472	23435
+31017923	Association	MESH:D000544	348
+31017923	Association	348	4137
+31017923	Association	MESH:D019636	2521
+

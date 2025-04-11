@@ -1,0 +1,12 @@
+37314682|t|Applying Joint Graph Embedding to Study Alzheimer's Neurodegeneration Patterns in Volumetric Data.
+37314682|a|Neurodegeneration measured through volumetry in MRI is recognized as a potential Alzheimer's Disease (AD) biomarker, but its utility is limited by lack of specificity. Quantifying spatial patterns of neurodegeneration on a whole brain scale rather than locally may help address this. In this work, we turn to network based analyses and extend a graph embedding algorithm to study morphometric connectivity from volume-change correlations measured with structural MRI on the timescale of years. We model our data with the multiple random eigengraphs framework, as well as modify and implement a multigraph embedding algorithm proposed earlier to estimate a low dimensional embedding of the networks. Our version of the algorithm guarantees meaningful finite-sample results and estimates maximum likelihood edge probabilities from population-specific network modes and subject-specific loadings. Furthermore, we propose and implement a novel statistical testing procedure to analyze group differences after accounting for confounders and locate significant structures during AD neurodegeneration. Family-wise error rate is controlled at 5% using permutation testing on the maximum statistic. We show that results from our analysis reveal networks dominated by known structures associated to AD neurodegeneration, indicating the framework has promise for studying AD. Furthermore, we find network-structure tuples that are not found with traditional methods in the field.
+37314682	40	51	Alzheimer's	Disease	MESH:D000544
+37314682	52	69	Neurodegeneration	Disease	MESH:D019636
+37314682	99	116	Neurodegeneration	Disease	MESH:D019636
+37314682	180	199	Alzheimer's Disease	Disease	MESH:D000544
+37314682	201	203	AD	Disease	MESH:D000544
+37314682	299	316	neurodegeneration	Disease	MESH:D019636
+37314682	1172	1192	AD neurodegeneration	Disease	MESH:D000544
+37314682	1388	1408	AD neurodegeneration	Disease	MESH:D000544
+37314682	1460	1462	AD	Disease	MESH:D000544
+

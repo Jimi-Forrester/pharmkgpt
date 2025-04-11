@@ -1,0 +1,14 @@
+39094686|t|New IPECAD open-source model framework for the health technology assessment of early Alzheimer's disease treatment: development and use cases.
+39094686|a|OBJECTIVES: Reimbursement decisions for new Alzheimer's disease (AD) treatments are informed by economic evaluations. An open-source model with intuitive structure for model cross-validation can support the transparency and credibility of such evaluations. We describe the new IPECAD open-source model framework (version 2) for the health-economic evaluation of early AD treatment and use it for cross-validation and addressing uncertainty. METHODS: A cohort state transition model using a categorized composite domain (cognition and function) was developed by replicating an existing reference model and testing it for internal validity. Then, features of existing "ICER" and "AD-ACE" models assessing lecanemab treatment were implemented for model cross-validation. Additional uncertainty scenarios were performed on choice of efficacy outcome from trial, natural disease progression, treatment effect waning and stopping rules, and other methodological choices. The model is available open-source as R code, spreadsheet and web-based version via https://github.com/ronhandels/IPECAD. RESULTS: In the IPECAD model incremental life years, QALY gains and cost savings were 21-31% smaller compared to the ICER model and 36-56% smaller compared to the AD-ACE model. IPECAD model results were particularly sensitive to assumptions on treatment effect waning and stopping rules and choice of efficacy outcome from trial. CONCLUSIONS: We demonstrated the ability of a new IPECAD opens-source model framework for researchers and decision-makers to cross-validate other (HTA submission) models and perform additional uncertainty analyses, setting an example for open science in AD decision modeling and supporting important reimbursement decisions.
+39094686	85	104	Alzheimer's disease	Disease	MESH:D000544
+39094686	187	206	Alzheimer's disease	Disease	MESH:D000544
+39094686	208	210	AD	Disease	MESH:D000544
+39094686	511	513	AD	Disease	MESH:D000544
+39094686	821	823	AD	Disease	MESH:D000544
+39094686	824	827	ACE	Gene	163
+39094686	846	855	lecanemab	Chemical	MESH:C000612089
+39094686	1393	1395	AD	Disease	MESH:D000544
+39094686	1396	1399	ACE	Gene	163
+39094686	1814	1816	AD	Disease	MESH:D000544
+39094686	Negative_Correlation	MESH:C000612089	MESH:D000544
+

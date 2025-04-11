@@ -1,0 +1,40 @@
+36845551|t|Conserved gene signatures shared among MAPT mutations reveal defects in calcium signaling.
+36845551|a|Introduction: More than 50 mutations in the MAPT gene result in heterogeneous forms of frontotemporal lobar dementia with tau inclusions (FTLD-Tau). However, early pathogenic events that lead to disease and the degree to which they are common across MAPT mutations remain poorly understood. The goal of this study is to determine whether there is a common molecular signature of FTLD-Tau. Methods: We analyzed genes differentially expressed in induced pluripotent stem cell-derived neurons (iPSC-neurons) that represent the three major categories of MAPT mutations: splicing (IVS10 + 16), exon 10 (p.P301L), and C-terminal (p.R406W) compared with isogenic controls. The genes that were commonly differentially expressed in MAPT IVS10 + 16, p.P301L, and p.R406W neurons were enriched in trans-synaptic signaling, neuronal processes, and lysosomal function. Many of these pathways are sensitive to disruptions in calcium homeostasis. One gene, CALB1, was significantly reduced across the three MAPT mutant iPSC-neurons and in a mouse model of tau accumulation. We observed a significant reduction in calcium levels in MAPT mutant neurons compared with isogenic controls, pointing to a functional consequence of this disrupted gene expression. Finally, a subset of genes commonly differentially expressed across MAPT mutations were also dysregulated in brains from MAPT mutation carriers and to a lesser extent in brains from sporadic Alzheimer disease and progressive supranuclear palsy, suggesting that molecular signatures relevant to genetic and sporadic forms of tauopathy are captured in a dish. The results from this study demonstrate that iPSC-neurons capture molecular processes that occur in human brains and can be used to pinpoint common molecular pathways involving synaptic and lysosomal function and neuronal development, which may be regulated by disruptions in calcium homeostasis.
+36845551	39	43	MAPT	Gene	4137
+36845551	72	79	calcium	Chemical	MESH:D002118
+36845551	135	139	MAPT	Gene	4137
+36845551	178	207	frontotemporal lobar dementia	Disease	MESH:D057180
+36845551	213	227	tau inclusions	Disease	MESH:C536599
+36845551	229	237	FTLD-Tau	Disease	MESH:D057180
+36845551	341	345	MAPT	Gene	4137
+36845551	470	478	FTLD-Tau	Disease	MESH:D057180
+36845551	641	645	MAPT	Gene	4137
+36845551	689	696	p.P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+36845551	715	722	p.R406W	ProteinMutation	tmVar:p|SUB|R|406|W;HGVS:p.R406W;VariantGroup:1;CorrespondingGene:4137;RS#:63750424;CorrespondingSpecies:9606;CA#:225495
+36845551	814	818	MAPT	Gene	4137
+36845551	831	838	p.P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+36845551	844	851	p.R406W	ProteinMutation	tmVar:p|SUB|R|406|W;HGVS:p.R406W;VariantGroup:1;CorrespondingGene:4137;RS#:63750424;CorrespondingSpecies:9606;CA#:225495
+36845551	1002	1009	calcium	Chemical	MESH:D002118
+36845551	1033	1038	CALB1	Gene	12307
+36845551	1083	1087	MAPT	Gene	4137
+36845551	1117	1122	mouse	Species	10090
+36845551	1189	1196	calcium	Chemical	MESH:D002118
+36845551	1207	1211	MAPT	Gene	4137
+36845551	1400	1404	MAPT	Gene	4137
+36845551	1453	1457	MAPT	Gene	4137
+36845551	1523	1540	Alzheimer disease	Disease	MESH:D000544
+36845551	1545	1575	progressive supranuclear palsy	Disease	MESH:D013494
+36845551	1656	1665	tauopathy	Disease	MESH:D024801
+36845551	1790	1795	human	Species	9606
+36845551	1966	1973	calcium	Chemical	MESH:D002118
+36845551	Positive_Correlation	MESH:D057180	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+36845551	Association	MESH:D024801	4137
+36845551	Association	MESH:D013494	4137
+36845551	Association	MESH:D002118	4137
+36845551	Positive_Correlation	MESH:D057180	RS#:63750424;HGVS:p.R406W;CorrespondingGene:4137
+36845551	Association	MESH:D057180	4137
+36845551	Association	MESH:D000544	4137
+36845551	Association	MESH:C536599	4137
+36845551	Positive_Correlation	12307	4137
+36845551	Association	MESH:D057180	4137
+

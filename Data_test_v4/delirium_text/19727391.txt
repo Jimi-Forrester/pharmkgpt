@@ -1,0 +1,70 @@
+19727391|t|A lentivirus-mediated genetic screen identifies dihydrofolate reductase (DHFR) as a modulator of beta-catenin/GSK3 signaling.
+19727391|a|The multi-protein beta-catenin destruction complex tightly regulates beta-catenin protein levels by shuttling beta-catenin to the proteasome. Glycogen synthase kinase 3beta (GSK3beta), a key serine/threonine kinase in the destruction complex, is responsible for several phosphorylation events that mark beta-catenin for ubiquitination and subsequent degradation. Because modulation of both beta-catenin and GSK3beta activity may have important implications for treating disease, a complete understanding of the mechanisms that regulate the beta-catenin/GSK3beta interaction is warranted. We screened an arrayed lentivirus library expressing small hairpin RNAs (shRNAs) targeting 5,201 human druggable genes for silencing events that activate a beta-catenin pathway reporter (BAR) in synergy with 6-bromoindirubin-3'oxime (BIO), a specific inhibitor of GSK3beta. Top screen hits included shRNAs targeting dihydrofolate reductase (DHFR), the target of the anti-inflammatory compound methotrexate. Exposure of cells to BIO plus methotrexate resulted in potent synergistic activation of BAR activity, reduction of beta-catenin phosphorylation at GSK3-specific sites, and accumulation of nuclear beta-catenin. Furthermore, the observed synergy correlated with inhibitory phosphorylation of GSK3beta and was neutralized upon inhibition of phosphatidyl inositol 3-kinase (PI3K). Linking these observations to inflammation, we also observed synergistic inhibition of lipopolysaccharide (LPS)-induced production of pro-inflammatory cytokines (TNFalpha, IL-6, and IL-12), and increased production of the anti-inflammatory cytokine IL-10 in peripheral blood mononuclear cells exposed to GSK3 inhibitors and methotrexate. Our data establish DHFR as a novel modulator of beta-catenin and GSK3 signaling and raise several implications for clinical use of combined methotrexate and GSK3 inhibitors as treatment for inflammatory disease.
+19727391	48	71	dihydrofolate reductase	Gene	1719
+19727391	73	77	DHFR	Gene	1719
+19727391	97	109	beta-catenin	Gene	1499
+19727391	144	156	beta-catenin	Gene	1499
+19727391	195	207	beta-catenin	Gene	1499
+19727391	236	248	beta-catenin	Gene	1499
+19727391	268	298	Glycogen synthase kinase 3beta	Gene	2932
+19727391	300	308	GSK3beta	Gene	2932
+19727391	429	441	beta-catenin	Gene	1499
+19727391	516	528	beta-catenin	Gene	1499
+19727391	533	541	GSK3beta	Gene	2932
+19727391	666	678	beta-catenin	Gene	1499
+19727391	679	687	GSK3beta	Gene	2932
+19727391	811	816	human	Species	9606
+19727391	870	882	beta-catenin	Gene	1499
+19727391	922	946	6-bromoindirubin-3'oxime	Chemical	MESH:C483321
+19727391	948	951	BIO	Chemical	MESH:C483321
+19727391	978	986	GSK3beta	Gene	2932
+19727391	1030	1053	dihydrofolate reductase	Gene	1719
+19727391	1055	1059	DHFR	Gene	1719
+19727391	1085	1097	inflammatory	Disease	MESH:D007249
+19727391	1107	1119	methotrexate	Chemical	MESH:D008727
+19727391	1142	1145	BIO	Chemical	MESH:C483321
+19727391	1151	1163	methotrexate	Chemical	MESH:D008727
+19727391	1236	1248	beta-catenin	Gene	1499
+19727391	1317	1329	beta-catenin	Gene	1499
+19727391	1411	1419	GSK3beta	Gene	2932
+19727391	1459	1489	phosphatidyl inositol 3-kinase	Gene	5295
+19727391	1528	1540	inflammation	Disease	MESH:D007249
+19727391	1585	1603	lipopolysaccharide	Chemical	MESH:D008070
+19727391	1605	1608	LPS	Chemical	MESH:D008070
+19727391	1636	1648	inflammatory	Disease	MESH:D007249
+19727391	1660	1668	TNFalpha	Gene	7124
+19727391	1670	1674	IL-6	Gene	3569
+19727391	1680	1685	IL-12	Gene	3593
+19727391	1725	1737	inflammatory	Disease	MESH:D007249
+19727391	1747	1752	IL-10	Gene	3586
+19727391	1822	1834	methotrexate	Chemical	MESH:D008727
+19727391	1855	1859	DHFR	Gene	1719
+19727391	1884	1896	beta-catenin	Gene	1499
+19727391	1976	1988	methotrexate	Chemical	MESH:D008727
+19727391	2026	2046	inflammatory disease	Disease	MESH:D007249
+19727391	Association	1499	1719
+19727391	Negative_Correlation	MESH:C483321	1499
+19727391	Association	MESH:D007249	3569
+19727391	Association	MESH:D007249	3593
+19727391	Negative_Correlation	MESH:D008727	3593
+19727391	Association	MESH:D008070	3569
+19727391	Negative_Correlation	MESH:D008727	2932
+19727391	Positive_Correlation	MESH:D008070	MESH:D007249
+19727391	Association	MESH:D007249	2932
+19727391	Association	MESH:D007249	7124
+19727391	Positive_Correlation	MESH:D008070	7124
+19727391	Negative_Correlation	MESH:D008727	7124
+19727391	Association	MESH:D008727	1719
+19727391	Positive_Correlation	MESH:D008727	3586
+19727391	Negative_Correlation	MESH:C483321	2932
+19727391	Association	1499	2932
+19727391	Association	MESH:D007249	1719
+19727391	Positive_Correlation	MESH:D008070	3593
+19727391	Negative_Correlation	MESH:D008070	MESH:D008727
+19727391	Association	MESH:D007249	1499
+19727391	Cotreatment	MESH:C483321	MESH:D008727
+19727391	Negative_Correlation	MESH:D008727	1499
+19727391	Association	MESH:D007249	3586
+19727391	Negative_Correlation	MESH:D008727	3569
+19727391	Negative_Correlation	MESH:D008727	MESH:D007249
+

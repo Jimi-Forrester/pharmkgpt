@@ -1,0 +1,17 @@
+38644855|t|AI-based tool for early detection of Alzheimer's disease.
+38644855|a|In the context of Alzheimer's disease (AD), timely identification is paramount for effective management, acknowledging its chronic and irreversible nature, where medications can only impede its progression. Our study introduces a holistic solution, leveraging the hippocampus and the VGG16 model with transfer learning for early AD detection. The hippocampus, a pivotal early affected region linked to memory, plays a central role in classifying patients into three categories: cognitively normal (CN), representing individuals without cognitive impairment; mild cognitive impairment (MCI), indicative of a subtle decline in cognitive abilities; and AD, denoting Alzheimer's disease. Employing the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset, our model undergoes training enriched by advanced image preprocessing techniques, achieving outstanding accuracy (testing 98.17 %, validation 97.52 %, training 99.62 %). The strategic use of transfer learning fortifies our competitive edge, incorporating the hippocampus approach and, notably, a progressive data augmentation technique. This innovative augmentation strategy gradually introduces augmentation factors during training, significantly elevating accuracy and enhancing the model's generalization ability. The study emphasizes practical application with a user-friendly website, empowering radiologists to predict class probabilities, track disease progression, and visualize patient images in both 2D and 3D formats, contributing significantly to the advancement of early AD detection.
+38644855	37	56	Alzheimer's disease	Disease	MESH:D000544
+38644855	76	95	Alzheimer's disease	Disease	MESH:D000544
+38644855	97	99	AD	Disease	MESH:D000544
+38644855	387	389	AD	Disease	MESH:D000544
+38644855	504	512	patients	Species	9606
+38644855	594	614	cognitive impairment	Disease	MESH:D003072
+38644855	621	641	cognitive impairment	Disease	MESH:D003072
+38644855	643	646	MCI	Disease	MESH:D060825
+38644855	672	702	decline in cognitive abilities	Disease	MESH:D003072
+38644855	708	710	AD	Disease	MESH:D000544
+38644855	721	740	Alzheimer's disease	Disease	MESH:D000544
+38644855	756	775	Alzheimer's Disease	Disease	MESH:D000544
+38644855	1503	1510	patient	Species	9606
+38644855	1600	1602	AD	Disease	MESH:D000544
+

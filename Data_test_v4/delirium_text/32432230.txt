@@ -1,0 +1,17 @@
+32432230|t|Disease Knowledge Transfer across Neurodegenerative Diseases.
+32432230|a|We introduce Disease Knowledge Transfer (DKT), a novel technique for transferring biomarker information between related neurodegenerative diseases. DKT infers robust multimodal biomarker trajectories in rare neurodegenerative diseases even when only limited, unimodal data is available, by transferring information from larger multimodal datasets from common neurodegenerative diseases. DKT is a joint-disease generative model of biomarker progressions, which exploits biomarker relationships that are shared across diseases. Our proposed method allows, for the first time, the estimation of plausible multimodal biomarker trajectories in Posterior Cortical Atrophy (PCA), a rare neurodegenerative disease where only unimodal MRI data is available. For this we train DKT on a combined dataset containing subjects with two distinct diseases and sizes of data available: 1) a larger, multimodal typical AD (tAD) dataset from the TADPOLE Challenge, and 2) a smaller unimodal Posterior Cortical Atrophy (PCA) dataset from the Dementia Research Centre (DRC), for which only a limited number of Magnetic Resonance Imaging (MRI) scans are available. Although validation is challenging due to lack of data in PCA, we validate DKT on synthetic data and two patient datasets (TADPOLE and PCA cohorts), showing it can estimate the ground truth parameters in the simulation and predict unseen biomarkers on the two patient datasets. While we demonstrated DKT on Alzheimer's variants, we note DKT is generalisable to other forms of related neurodegenerative diseases. Source code for DKT is available online: https://github.com/mrazvan22/dkt.
+32432230	34	60	Neurodegenerative Diseases	Disease	MESH:D019636
+32432230	182	208	neurodegenerative diseases	Disease	MESH:D019636
+32432230	270	296	neurodegenerative diseases	Disease	MESH:D019636
+32432230	421	447	neurodegenerative diseases	Disease	MESH:D019636
+32432230	449	452	DKT	Disease	OMIM:143470
+32432230	701	727	Posterior Cortical Atrophy	Disease	MESH:D001284
+32432230	742	767	neurodegenerative disease	Disease	MESH:D019636
+32432230	963	965	AD	Disease	MESH:D000544
+32432230	1034	1060	Posterior Cortical Atrophy	Disease	MESH:D001284
+32432230	1084	1092	Dementia	Disease	MESH:D003704
+32432230	1310	1317	patient	Species	9606
+32432230	1465	1472	patient	Species	9606
+32432230	1512	1523	Alzheimer's	Disease	MESH:D000544
+32432230	1589	1615	neurodegenerative diseases	Disease	MESH:D019636
+

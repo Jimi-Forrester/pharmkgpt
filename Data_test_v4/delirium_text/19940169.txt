@@ -1,0 +1,62 @@
+19940169|t|Adenosine A2A receptor blockade prevents synaptotoxicity and memory dysfunction caused by beta-amyloid peptides via p38 mitogen-activated protein kinase pathway.
+19940169|a|Alzheimer's disease (AD) is characterized by memory impairment, neurochemically by accumulation of beta-amyloid peptide (namely Abeta(1-42)) and morphologically by an initial loss of nerve terminals. Caffeine consumption prevents memory dysfunction in different models, which is mimicked by antagonists of adenosine A(2A) receptors (A(2A)Rs), which are located in synapses. Thus, we now tested whether A(2A)R blockade prevents the early Abeta(1-42)-induced synaptotoxicity and memory dysfunction and what are the underlying signaling pathways. The intracerebral administration of soluble Abeta(1-42) (2 nmol) in rats or mice caused, 2 weeks later, memory impairment (decreased performance in the Y-maze and object recognition tests) and a loss of nerve terminal markers (synaptophysin, SNAP-25) without overt neuronal loss, astrogliosis, or microgliosis. These were prevented by pharmacological blockade [5-amino-7-(2-phenylethyl)-2-(2-furyl)-pyrazolo[4,3-e]-1,2,4-triazolo[1,5-c]pyrimidine (SCH58261); 0.05 mg . kg(-1) . d(-1), i.p.; for 15 d] in rats, and genetic inactivation of A(2A)Rs in mice. Moreover, these were synaptic events since purified nerve terminals acutely exposed to Abeta(1-42) (500 nm) displayed mitochondrial dysfunction, which was prevented by A(2A)R blockade. SCH58261 (50 nm) also prevented the initial synaptotoxicity (loss of MAP-2, synaptophysin, and SNAP-25 immunoreactivity) and subsequent loss of viability of cultured hippocampal neurons exposed to Abeta(1-42) (500 nm). This A(2A)R-mediated control of neurotoxicity involved the control of Abeta(1-42)-induced p38 phosphorylation and was independent from cAMP/PKA (protein kinase A) pathway. Together, these results show that A(2A)Rs play a crucial role in the development of Abeta-induced synaptotoxicity leading to memory dysfunction through a p38 MAPK (mitogen-activated protein kinase)-dependent pathway and provide a molecular basis for the benefits of caffeine consumption in AD.
+19940169	13	22	 receptor	Gene	25369
+19940169	10	13	A2A	DNAMutation	tmVar:c|SUB|A|2|A;HGVS:c.2A>A;VariantGroup:0;OriginalGene:20614;CorrespondingGene:6616;RS#:11547858;CorrespondingSpecies:10090
+19940169	41	56	synaptotoxicity	Disease	
+19940169	61	79	memory dysfunction	Disease	MESH:D008569
+19940169	116	152	p38 mitogen-activated protein kinase	Gene	81649
+19940169	162	181	Alzheimer's disease	Disease	MESH:D000544
+19940169	183	185	AD	Disease	MESH:D000544
+19940169	207	224	memory impairment	Disease	MESH:D008569
+19940169	362	370	Caffeine	Chemical	MESH:D002110
+19940169	392	410	memory dysfunction	Disease	MESH:D008569
+19940169	564	570	A(2A)R	Gene	11540
+19940169	619	634	synaptotoxicity	Disease	
+19940169	639	657	memory dysfunction	Disease	MESH:D008569
+19940169	774	778	rats	Species	10116
+19940169	782	786	mice	Species	10090
+19940169	810	827	memory impairment	Disease	MESH:D008569
+19940169	933	946	synaptophysin	Gene	20977
+19940169	948	955	SNAP-25	Gene	20614
+19940169	971	984	neuronal loss	Disease	MESH:D009410
+19940169	986	998	astrogliosis	Disease	MESH:D005911
+19940169	1003	1015	microgliosis	Disease	
+19940169	1067	1152	5-amino-7-(2-phenylethyl)-2-(2-furyl)-pyrazolo[4,3-e]-1,2,4-triazolo[1,5-c]pyrimidine	Chemical	MESH:C098657
+19940169	1154	1162	SCH58261	Chemical	MESH:C098657
+19940169	1210	1214	rats	Species	10116
+19940169	1255	1259	mice	Species	10090
+19940169	1348	1353	Abeta	Gene	54226
+19940169	1379	1404	mitochondrial dysfunction	Disease	MESH:D028361
+19940169	1429	1435	A(2A)R	Gene	11540
+19940169	1446	1454	SCH58261	Chemical	MESH:C098657
+19940169	1490	1505	synaptotoxicity	Disease	
+19940169	1515	1520	MAP-2	Gene	25595
+19940169	1522	1535	synaptophysin	Gene	24804
+19940169	1541	1548	SNAP-25	Gene	20614
+19940169	1643	1648	Abeta	Gene	54226
+19940169	1670	1676	A(2A)R	Gene	11540
+19940169	1697	1710	neurotoxicity	Disease	MESH:D020258
+19940169	1755	1758	p38	Gene	81649
+19940169	1800	1804	cAMP	Chemical	-
+19940169	1921	1926	Abeta	Gene	54226
+19940169	1935	1950	synaptotoxicity	Disease	
+19940169	1962	1980	memory dysfunction	Disease	MESH:D008569
+19940169	2103	2111	caffeine	Chemical	MESH:D002110
+19940169	2127	2129	AD	Disease	MESH:D000544
+19940169	Association	MESH:D008569	81649
+19940169	Negative_Correlation	MESH:C098657	MESH:D008569
+19940169	Association	RS#:11547858;HGVS:c.2A>A;CorrespondingGene:6616	MESH:D008569
+19940169	Association	MESH:D020258	11540
+19940169	Association	MESH:D028361	11540
+19940169	Association	11540	81649
+19940169	Association	MESH:D028361	54226
+19940169	Association	MESH:D020258	81649
+19940169	Association	MESH:D008569	25369
+19940169	Negative_Correlation	MESH:D002110	MESH:D008569
+19940169	Negative_Correlation	MESH:C098657	25595
+19940169	Negative_Correlation	MESH:C098657	20614
+19940169	Negative_Correlation	MESH:C098657	54226
+19940169	Association	11540	54226
+19940169	Negative_Correlation	MESH:C098657	24804
+19940169	Association	MESH:D008569	6616
+

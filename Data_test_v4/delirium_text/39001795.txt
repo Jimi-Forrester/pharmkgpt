@@ -1,0 +1,30 @@
+39001795|t|Extraction of sleep information from clinical notes of Alzheimer's disease patients using natural language processing.
+39001795|a|OBJECTIVES: Alzheimer's disease (AD) is the most common form of dementia in the United States. Sleep is one of the lifestyle-related factors that has been shown critical for optimal cognitive function in old age. However, there is a lack of research studying the association between sleep and AD incidence. A major bottleneck for conducting such research is that the traditional way to acquire sleep information is time-consuming, inefficient, non-scalable, and limited to patients' subjective experience. We aim to automate the extraction of specific sleep-related patterns, such as snoring, napping, poor sleep quality, daytime sleepiness, night wakings, other sleep problems, and sleep duration, from clinical notes of AD patients. These sleep patterns are hypothesized to play a role in the incidence of AD, providing insight into the relationship between sleep and AD onset and progression. MATERIALS AND METHODS: A gold standard dataset is created from manual annotation of 570 randomly sampled clinical note documents from the adSLEEP, a corpus of 192 000 de-identified clinical notes of 7266 AD patients retrieved from the University of Pittsburgh Medical Center (UPMC). We developed a rule-based natural language processing (NLP) algorithm, machine learning models, and large language model (LLM)-based NLP algorithms to automate the extraction of sleep-related concepts, including snoring, napping, sleep problem, bad sleep quality, daytime sleepiness, night wakings, and sleep duration, from the gold standard dataset. RESULTS: The annotated dataset of 482 patients comprised a predominantly White (89.2%), older adult population with an average age of 84.7 years, where females represented 64.1%, and a vast majority were non-Hispanic or Latino (94.6%). Rule-based NLP algorithm achieved the best performance of F1 across all sleep-related concepts. In terms of positive predictive value (PPV), the rule-based NLP algorithm achieved the highest PPV scores for daytime sleepiness (1.00) and sleep duration (1.00), while the machine learning models had the highest PPV for napping (0.95) and bad sleep quality (0.86), and LLAMA2 with finetuning had the highest PPV for night wakings (0.93) and sleep problem (0.89). DISCUSSION: Although sleep information is infrequently documented in the clinical notes, the proposed rule-based NLP algorithm and LLM-based NLP algorithms still achieved promising results. In comparison, the machine learning-based approaches did not achieve good results, which is due to the small size of sleep information in the training data. CONCLUSION: The results show that the rule-based NLP algorithm consistently achieved the best performance for all sleep concepts. This study focused on the clinical notes of patients with AD but could be extended to general sleep information extraction for other diseases.
+39001795	55	74	Alzheimer's disease	Disease	MESH:D000544
+39001795	75	83	patients	Species	9606
+39001795	131	150	Alzheimer's disease	Disease	MESH:D000544
+39001795	152	154	AD	Disease	MESH:D000544
+39001795	183	191	dementia	Disease	MESH:D003704
+39001795	412	414	AD	Disease	MESH:D000544
+39001795	592	600	patients	Species	9606
+39001795	703	710	snoring	Disease	MESH:D012913
+39001795	721	739	poor sleep quality	Disease	MESH:D012893
+39001795	741	759	daytime sleepiness	Disease	MESH:D012893
+39001795	782	796	sleep problems	Disease	MESH:D012893
+39001795	841	843	AD	Disease	MESH:D000544
+39001795	844	852	patients	Species	9606
+39001795	927	929	AD	Disease	MESH:D000544
+39001795	989	991	AD	Disease	MESH:D000544
+39001795	1219	1221	AD	Disease	MESH:D000544
+39001795	1222	1230	patients	Species	9606
+39001795	1510	1517	snoring	Disease	MESH:D012913
+39001795	1528	1541	sleep problem	Disease	MESH:D012893
+39001795	1543	1560	bad sleep quality	Disease	MESH:D012893
+39001795	1562	1580	daytime sleepiness	Disease	MESH:D012893
+39001795	1687	1695	patients	Species	9606
+39001795	2091	2109	daytime sleepiness	Disease	MESH:D012893
+39001795	2221	2238	bad sleep quality	Disease	MESH:D012893
+39001795	2323	2336	sleep problem	Disease	MESH:D012893
+39001795	2866	2874	patients	Species	9606
+39001795	2880	2882	AD	Disease	MESH:D000544
+

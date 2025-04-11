@@ -1,0 +1,29 @@
+33250847|t|Comparison of Transfer Learning and Conventional Machine Learning Applied to Structural Brain MRI for the Early Diagnosis and Prognosis of Alzheimer's Disease.
+33250847|a|Alzheimer's Disease (AD) is the most common neurodegenerative disease, with 10% prevalence in the elder population. Conventional Machine Learning (ML) was proven effective in supporting the diagnosis of AD, while very few studies investigated the performance of deep learning and transfer learning in this complex task. In this paper, we evaluated the potential of ensemble transfer-learning techniques, pretrained on generic images and then transferred to structural brain MRI, for the early diagnosis and prognosis of AD, with respect to a fusion of conventional-ML approaches based on Support Vector Machine directly applied to structural brain MRI. Specifically, more than 600 subjects were obtained from the ADNI repository, including AD, Mild Cognitive Impaired converting to AD (MCIc), Mild Cognitive Impaired not converting to AD (MCInc), and cognitively-normal (CN) subjects. We used T1-weighted cerebral-MRI studies to train: (1) an ensemble of five transfer-learning architectures pretrained on generic images; (2) a 3D Convolutional Neutral Network (CNN) trained from scratch on MRI volumes; and (3) a fusion of two conventional-ML classifiers derived from different feature extraction/selection techniques coupled to SVM. The AD-vs-CN, MCIc-vs-CN, MCIc-vs-MCInc comparisons were investigated. The ensemble transfer-learning approach was able to effectively discriminate AD from CN with 90.2% AUC, MCIc from CN with 83.2% AUC, and MCIc from MCInc with 70.6% AUC, showing comparable or slightly lower results with the fusion of conventional-ML systems (AD from CN with 93.1% AUC, MCIc from CN with 89.6% AUC, and MCIc from MCInc with AUC in the range of 69.1-73.3%). The deep-learning network trained from scratch obtained lower performance than either the fusion of conventional-ML systems and the ensemble transfer-learning, due to the limited sample of images used for training. These results open new prospective on the use of transfer learning combined with neuroimages for the automatic early diagnosis and prognosis of AD, even if pretrained on generic images.
+33250847	139	158	Alzheimer's Disease	Disease	MESH:D000544
+33250847	160	179	Alzheimer's Disease	Disease	MESH:D000544
+33250847	181	183	AD	Disease	MESH:D000544
+33250847	204	229	neurodegenerative disease	Disease	MESH:D019636
+33250847	363	365	AD	Disease	MESH:D000544
+33250847	680	682	AD	Disease	MESH:D000544
+33250847	900	902	AD	Disease	MESH:D000544
+33250847	909	927	Cognitive Impaired	Disease	MESH:D003072
+33250847	942	944	AD	Disease	MESH:D000544
+33250847	946	950	MCIc	Disease	
+33250847	958	976	Cognitive Impaired	Disease	MESH:D003072
+33250847	995	997	AD	Disease	MESH:D000544
+33250847	999	1004	MCInc	Disease	
+33250847	1399	1401	AD	Disease	MESH:D000544
+33250847	1409	1413	MCIc	Disease	
+33250847	1421	1425	MCIc	Disease	
+33250847	1429	1434	MCInc	Disease	
+33250847	1543	1545	AD	Disease	MESH:D000544
+33250847	1570	1574	MCIc	Disease	
+33250847	1603	1607	MCIc	Disease	
+33250847	1613	1618	MCInc	Disease	
+33250847	1724	1726	AD	Disease	MESH:D000544
+33250847	1751	1755	MCIc	Disease	
+33250847	1784	1788	MCIc	Disease	
+33250847	1794	1799	MCInc	Disease	
+33250847	2197	2199	AD	Disease	MESH:D000544
+

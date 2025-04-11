@@ -1,0 +1,57 @@
+36453412|t|Neuronal nitric oxide synthase/reactive oxygen species pathway is involved in apoptosis and pyroptosis in epilepsy.
+36453412|a|Dysfunction of neuronal nitric oxide synthase contributes to neurotoxicity, which triggers cell death in various neuropathological diseases, including epilepsy. Studies have shown that inhibition of neuronal nitric oxide synthase activity increases the epilepsy threshold, that is, has an anticonvulsant effect. However, the exact role and potential mechanism of neuronal nitric oxide synthase in seizures are still unclear. In this study, we performed RNA sequencing, functional enrichment analysis, and weighted gene coexpression network analysis of the hippocampus of tremor rats, a rat model of genetic epilepsy. We found damaged hippocampal mitochondria and abnormal succinate dehydrogenase level and Na+-K+-ATPase activity. In addition, we used a pilocarpine-induced N2a cell model to mimic epileptic injury. After application of neuronal nitric oxide synthase inhibitor 7-nitroindazole, changes in malondialdehyde, lactate dehydrogenase and superoxide dismutase, which are associated with oxidative stress, were reversed, and the increase in reactive oxygen species level was reversed by 7-nitroindazole or reactive oxygen species inhibitor N-acetylcysteine. Application of 7-nitroindazole or N-acetylcysteine downregulated the expression of caspase-3 and cytochrome c and reversed the apoptosis of epileptic cells. Furthermore, 7-nitroindazole or N-acetylcysteine downregulated the abnormally high expression of NLRP3, gasdermin-D, interleukin-1beta and interleukin-18. This indicated that 7-nitroindazole and N-acetylcysteine each reversed epileptic cell death. Taken together, our findings suggest that the neuronal nitric oxide synthase/reactive oxygen species pathway is involved in pyroptosis of epileptic cells, and inhibiting neuronal nitric oxide synthase activity or its induced oxidative stress may play a neuroprotective role in epilepsy.
+36453412	31	54	reactive oxygen species	Chemical	MESH:D017382
+36453412	106	114	epilepsy	Disease	MESH:D004827
+36453412	177	190	neurotoxicity	Disease	MESH:D020258
+36453412	229	255	neuropathological diseases	Disease	MESH:D004194
+36453412	267	275	epilepsy	Disease	MESH:D004827
+36453412	369	377	epilepsy	Disease	MESH:D004827
+36453412	513	521	seizures	Disease	MESH:D012640
+36453412	687	693	tremor	Disease	MESH:D014202
+36453412	694	698	rats	Species	10116
+36453412	702	705	rat	Species	10116
+36453412	715	731	genetic epilepsy	Disease	MESH:D004827
+36453412	750	774	hippocampal mitochondria	Disease	MESH:C564971
+36453412	869	880	pilocarpine	Chemical	MESH:D010862
+36453412	889	892	N2a	CellLine	CVCL:0470
+36453412	913	929	epileptic injury	Disease	MESH:D014947
+36453412	993	1008	7-nitroindazole	Chemical	MESH:C080122
+36453412	1021	1036	malondialdehyde	Chemical	MESH:D008315
+36453412	1165	1188	reactive oxygen species	Chemical	MESH:D017382
+36453412	1211	1226	7-nitroindazole	Chemical	MESH:C080122
+36453412	1230	1253	reactive oxygen species	Chemical	MESH:D017382
+36453412	1264	1280	N-acetylcysteine	Chemical	MESH:D000111
+36453412	1297	1312	7-nitroindazole	Chemical	MESH:C080122
+36453412	1316	1332	N-acetylcysteine	Chemical	MESH:D000111
+36453412	1365	1374	caspase-3	Gene	25402
+36453412	1422	1431	epileptic	Disease	MESH:D004827
+36453412	1452	1467	7-nitroindazole	Chemical	MESH:C080122
+36453412	1471	1487	N-acetylcysteine	Chemical	MESH:D000111
+36453412	1536	1541	NLRP3	Gene	216799
+36453412	1543	1554	gasdermin-D	Gene	69146
+36453412	1556	1573	interleukin-1beta	Gene	16176
+36453412	1578	1592	interleukin-18	Gene	29197
+36453412	1614	1629	7-nitroindazole	Chemical	MESH:C080122
+36453412	1634	1650	N-acetylcysteine	Chemical	MESH:D000111
+36453412	1665	1674	epileptic	Disease	MESH:D004827
+36453412	1764	1787	reactive oxygen species	Chemical	MESH:D017382
+36453412	1825	1834	epileptic	Disease	MESH:D004827
+36453412	1964	1972	epilepsy	Disease	MESH:D004827
+36453412	Negative_Correlation	MESH:D000111	16176
+36453412	Negative_Correlation	MESH:C080122	25402
+36453412	Negative_Correlation	MESH:C080122	216799
+36453412	Association	MESH:D017382	MESH:D004827
+36453412	Negative_Correlation	MESH:D000111	25402
+36453412	Negative_Correlation	MESH:C080122	MESH:D008315
+36453412	Positive_Correlation	MESH:D010862	MESH:D014947
+36453412	Negative_Correlation	MESH:D000111	216799
+36453412	Negative_Correlation	MESH:C080122	29197
+36453412	Negative_Correlation	MESH:D000111	MESH:D017382
+36453412	Negative_Correlation	MESH:D000111	29197
+36453412	Negative_Correlation	MESH:C080122	MESH:D017382
+36453412	Negative_Correlation	MESH:C080122	16176
+36453412	Negative_Correlation	MESH:D000111	69146
+36453412	Negative_Correlation	MESH:D000111	MESH:D004827
+36453412	Negative_Correlation	MESH:C080122	69146
+36453412	Negative_Correlation	MESH:C080122	MESH:D004827
+

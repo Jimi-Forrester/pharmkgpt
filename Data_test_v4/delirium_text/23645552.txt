@@ -1,0 +1,12 @@
+23645552|t|The discriminatory cost of ICD-10-CM transition between clinical specialties: metrics, case study, and mitigating tools.
+23645552|a|OBJECTIVE: Applying the science of networks to quantify the discriminatory impact of the ICD-9-CM to ICD-10-CM transition between clinical specialties. MATERIALS AND METHODS: Datasets were the Center for Medicaid and Medicare Services ICD-9-CM to ICD-10-CM mapping files, general equivalence mappings, and statewide Medicaid emergency department billing. Diagnoses were represented as nodes and their mappings as directional relationships. The complex network was synthesized as an aggregate of simpler motifs and tabulation per clinical specialty. RESULTS: We identified five mapping motif categories: identity, class-to-subclass, subclass-to-class, convoluted, and no mapping. Convoluted mappings indicate that multiple ICD-9-CM and ICD-10-CM codes share complex, entangled, and non-reciprocal mappings. The proportions of convoluted diagnoses mappings (36% overall) range from 5% (hematology) to 60% (obstetrics and injuries). In a case study of 24 008 patient visits in 217 emergency departments, 27% of the costs are associated with convoluted diagnoses, with 'abdominal pain' and 'gastroenteritis' accounting for approximately 3.5%. DISCUSSION: Previous qualitative studies report that administrators and clinicians are likely to be challenged in understanding and managing their practice because of the ICD-10-CM transition. We substantiate the complexity of this transition with a thorough quantitative summary per clinical specialty, a case study, and the tools to apply this methodology easily to any clinical practice in the form of a web portal and analytic tables. CONCLUSIONS: Post-transition, successful management of frequent diseases with convoluted mapping network patterns is critical. The http://lussierlab.org/transition-to-ICD10CM web portal provides insight in linking onerous diseases to the ICD-10 transition.
+23645552	27	36	ICD-10-CM	Disease	OMIM:252500
+23645552	222	231	ICD-10-CM	Disease	OMIM:252500
+23645552	368	377	ICD-10-CM	Disease	OMIM:252500
+23645552	1025	1048	obstetrics and injuries	Disease	MESH:D048949
+23645552	1077	1084	patient	Species	9606
+23645552	1187	1201	abdominal pain	Disease	MESH:D015746
+23645552	1208	1223	gastroenteritis	Disease	MESH:D005759
+23645552	1431	1440	ICD-10-CM	Disease	OMIM:252500
+23645552	1913	1929	onerous diseases	Disease	MESH:D004194
+

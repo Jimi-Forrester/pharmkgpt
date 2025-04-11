@@ -1,0 +1,30 @@
+36440267|t|Identification of hub genes of Parkinson's disease through bioinformatics analysis.
+36440267|a|Parkinson's disease (PD) is a common neurodegenerative disease, and there is still a lack of effective diagnostic and treatment methods. This study aimed to search for hub genes that might serve as diagnostic or therapeutic targets for PD. All the analysis was performed in R software. The expression profile data of PD (number: GSE7621) was acquired from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) associated with PD were screened by the "Limma" package of the R software. Key genes associated with PD were screened by the "WGCNA" package of the R software. Target genes were screened by merging the results of "Limma" and "WGCNA." Enrichment analysis of target genes was performed by Gene Ontology (GO), Disease Ontology (DO), and Kyoto Enrichment of Genes and Genomes (KEGG). Machine learning algorithms were employed to screen for hub genes. Nomogram was constructed using the "rms" package. And the receiver operating characteristic curve (ROC) was plotted to detect and validate our prediction model sensitivity and specificity. Additional expression profile data of PD (number: GSE20141) was acquired from the GEO database to validate the nomogram. GSEA was used to determine the biological functions of the hub genes. Finally, RPL3L, PLEK2, PYCRL, CD99P1, LOC100133130, MELK, LINC01101, and DLG3-AS1 were identified as hub genes of PD. These findings can provide a new direction for the diagnosis and treatment of PD.
+36440267	31	50	Parkinson's disease	Disease	MESH:D010300
+36440267	84	103	Parkinson's disease	Disease	MESH:D010300
+36440267	105	107	PD	Disease	MESH:D010300
+36440267	121	146	neurodegenerative disease	Disease	MESH:D019636
+36440267	320	322	PD	Disease	MESH:D010300
+36440267	401	403	PD	Disease	MESH:D010300
+36440267	538	540	PD	Disease	MESH:D010300
+36440267	623	625	PD	Disease	MESH:D010300
+36440267	1196	1198	PD	Disease	MESH:D010300
+36440267	1358	1363	RPL3L	Gene	6123
+36440267	1365	1370	PLEK2	Gene	26499
+36440267	1372	1377	PYCRL	Gene	65263
+36440267	1379	1385	CD99P1	Gene	401577
+36440267	1401	1405	MELK	Gene	9833
+36440267	1407	1416	LINC01101	Gene	84931
+36440267	1422	1426	DLG3	Gene	1741
+36440267	1427	1430	AS1	Gene	5729
+36440267	1463	1465	PD	Disease	MESH:D010300
+36440267	1545	1547	PD	Disease	MESH:D010300
+36440267	Association	MESH:D010300	6123
+36440267	Association	MESH:D010300	26499
+36440267	Association	MESH:D010300	401577
+36440267	Association	MESH:D010300	65263
+36440267	Association	MESH:D010300	1741
+36440267	Association	MESH:D010300	84931
+36440267	Association	MESH:D010300	5729
+36440267	Association	MESH:D010300	9833
+

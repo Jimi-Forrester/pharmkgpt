@@ -1,0 +1,48 @@
+34040526|t|beta-Asarone Ameliorates beta-Amyloid-Induced Neurotoxicity in PC12 Cells by Activating P13K/Akt/Nrf2 Signaling Pathway.
+34040526|a|Accumulation of beta-amyloid (Abeta) causes oxidative stress, which is the major pathological mechanism in Alzheimer's disease (AD). beta-asarone could reduce Abeta-induced oxidative stress and neuronal damage, but the molecular mechanism remains elusive. In this study, we used an Abeta-stimulated PC12 cell model to explore the neuroprotective effects and potential mechanisms of beta-asarone. The results showed that beta-asarone could improve cell viability and weaken cell damage and apoptosis. beta-asarone could also decrease the level of ROS and MDA; increase the level of SOD, CAT, and GSH-PX; and ameliorate the mitochondrial membrane potential. Furthermore, beta-asarone could promote the expression of Nrf2 and HO-1 by upregulating the level of PI3K/Akt phosphorylation. In conclusion, beta-asarone could exert neuroprotective effects by modulating the P13K/Akt/Nrf2 signaling pathway. beta-asarone might be a promising therapy for AD.
+34040526	0	12	beta-Asarone	Chemical	MESH:C012195
+34040526	46	59	Neurotoxicity	Disease	MESH:D020258
+34040526	63	67	PC12	CellLine	CVCL:0481
+34040526	88	92	P13K	ProteinMutation	tmVar:p|SUB|P|13|K;HGVS:p.P13K;VariantGroup:0;OriginalGene:24185;CorrespondingGene:207;CorrespondingSpecies:10116
+34040526	93	96	Akt	Gene	24185
+34040526	97	101	Nrf2	Gene	83619
+34040526	151	156	Abeta	Gene	54226
+34040526	228	247	Alzheimer's disease	Disease	MESH:D000544
+34040526	249	251	AD	Disease	MESH:D000544
+34040526	254	266	beta-asarone	Chemical	MESH:C012195
+34040526	280	285	Abeta	Gene	54226
+34040526	315	330	neuronal damage	Disease	MESH:D009410
+34040526	403	408	Abeta	Gene	54226
+34040526	420	424	PC12	CellLine	CVCL:0481
+34040526	503	515	beta-asarone	Chemical	MESH:C012195
+34040526	541	553	beta-asarone	Chemical	MESH:C012195
+34040526	621	633	beta-asarone	Chemical	MESH:C012195
+34040526	667	670	ROS	Chemical	-
+34040526	675	678	MDA	Chemical	MESH:D015104
+34040526	707	710	CAT	Gene	24248
+34040526	716	722	GSH-PX	Gene	24404
+34040526	790	802	beta-asarone	Chemical	MESH:C012195
+34040526	835	839	Nrf2	Gene	83619
+34040526	844	848	HO-1	Gene	24451
+34040526	883	886	Akt	Gene	24185
+34040526	919	931	beta-asarone	Chemical	MESH:C012195
+34040526	986	990	P13K	ProteinMutation	tmVar:p|SUB|P|13|K;HGVS:p.P13K;VariantGroup:0;OriginalGene:24185;CorrespondingGene:207;CorrespondingSpecies:10116
+34040526	991	994	Akt	Gene	24185
+34040526	995	999	Nrf2	Gene	83619
+34040526	1019	1031	beta-asarone	Chemical	MESH:C012195
+34040526	1065	1067	AD	Disease	MESH:D000544
+34040526	Negative_Correlation	MESH:C012195	MESH:D020258
+34040526	Positive_Correlation	MESH:C012195	HGVS:p.P13K;CorrespondingGene:207
+34040526	Positive_Correlation	MESH:C012195	24404
+34040526	Positive_Correlation	MESH:C012195	83619
+34040526	Negative_Correlation	MESH:C012195	MESH:D000544
+34040526	Positive_Correlation	MESH:C012195	24451
+34040526	Positive_Correlation	MESH:C012195	24185
+34040526	Association	24185	83619
+34040526	Association	MESH:D000544	54226
+34040526	Negative_Correlation	MESH:C012195	MESH:D009410
+34040526	Positive_Correlation	MESH:C012195	24248
+34040526	Negative_Correlation	MESH:C012195	54226
+34040526	Positive_Correlation	24185	24451
+34040526	Negative_Correlation	MESH:C012195	MESH:D015104
+

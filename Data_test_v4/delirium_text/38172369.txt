@@ -1,0 +1,67 @@
+38172369|t|Simulation and Computational Study of RING Domain Mutants of BRCA1 and Ube2k in AD/PD Pathophysiology.
+38172369|a|Lysine-based post-translational modification (PTM) such as acylation, acetylation, deamination, methylation, SUMOylation, and ubiquitination has proven to be a major regulator of gene expression, chromatin structure, protein stability, protein-protein interaction, protein degradation, and cellular localization. However, besides all the PTMs, ubiquitination stands as the second most common PTM after phosphorylation that is involved in the etiology of neurodegenerative diseases (NDDs) namely, Alzheimer's disease (AD) and Parkinson's disease (PD). NDDs are characterized by the accumulation of misfolded protein aggregates in the brain that lead to disease-related gene mutation and irregular protein homeostasis. The ubiquitin-proteasome system (UPS) is in charge of degrading these misfolded proteins, which involve an interplay of E1, E2, E3, and deubiquitinase enzymes. Impaired UPS has been commonly observed in NDDs and E3 ligases are the key members of the UPS, thus, dysfunction of the same can accelerate the neurodegeneration process. Therefore, the aim of this study is firstly, to find E3 ligases that are common in both AD and PD through data mining. Secondly, to study the impact of mutation on its structure and function. The study deciphered 74 E3 ligases that were common in both AD and PD. Later, 10 hub genes were calculated of which protein-protein interaction, pathway enrichment, lysine site prediction, domain, and motif analysis were performed. The results predicted BRCA1, PML, and TRIM33 as the top three putative lysine-modified E3 ligases involved in AD and PD pathogenesis. However, based on structural characterization, BRCA1 was taken further to study RING domain mutation that inferred K32Y, K32L, K32C, K45V, K45Y, and K45G as potential mutants that alter the structural and functional ability of BRCA1 to interact with Ube2k, E2-conjugating enzyme. The most probable mutant observed after molecular dynamics simulation of 50 ns is K32L. Therefore, our study concludes BRCA1, a potential E3 ligase common in AD and PD, and RING domain mutation at sites K32 and K45 possibly disturbs its interaction with its E2, Ube2k. Graphical representation of all the steps involved to study mutation in the RING domain of BRCA1 which is a common E3 ligase observed in Alzheimer's disease and Parkinson's disease.
+38172369	61	66	BRCA1	Gene	672
+38172369	71	76	Ube2k	Gene	3093
+38172369	80	85	AD/PD	Disease	MESH:D010300
+38172369	557	583	neurodegenerative diseases	Disease	MESH:D019636
+38172369	585	589	NDDs	Disease	MESH:D019636
+38172369	599	618	Alzheimer's disease	Disease	MESH:D000544
+38172369	620	622	AD	Disease	MESH:D000544
+38172369	628	647	Parkinson's disease	Disease	MESH:D010300
+38172369	649	651	PD	Disease	MESH:D010300
+38172369	654	658	NDDs	Disease	MESH:D019636
+38172369	1023	1027	NDDs	Disease	MESH:D019636
+38172369	1124	1141	neurodegeneration	Disease	MESH:D019636
+38172369	1239	1241	AD	Disease	MESH:D000544
+38172369	1246	1248	PD	Disease	MESH:D010300
+38172369	1403	1405	AD	Disease	MESH:D000544
+38172369	1410	1412	PD	Disease	MESH:D010300
+38172369	1597	1602	BRCA1	Gene	672
+38172369	1604	1607	PML	Gene	5371
+38172369	1613	1619	TRIM33	Gene	51592
+38172369	1685	1687	AD	Disease	MESH:D000544
+38172369	1692	1694	PD	Disease	MESH:D010300
+38172369	1756	1761	BRCA1	Gene	672
+38172369	1824	1828	K32Y	ProteinMutation	tmVar:p|SUB|K|32|Y;HGVS:p.K32Y;VariantGroup:0;CorrespondingGene:3093;CorrespondingSpecies:9606
+38172369	1830	1834	K32L	ProteinMutation	tmVar:p|SUB|K|32|L;HGVS:p.K32L;VariantGroup:0;CorrespondingGene:3093;CorrespondingSpecies:9606
+38172369	1836	1840	K32C	ProteinMutation	tmVar:p|SUB|K|32|C;HGVS:p.K32C;VariantGroup:0;CorrespondingGene:3093;CorrespondingSpecies:9606
+38172369	1842	1846	K45V	ProteinMutation	tmVar:p|SUB|K|45|V;HGVS:p.K45V;VariantGroup:1;CorrespondingGene:3093;CorrespondingSpecies:9606
+38172369	1848	1852	K45Y	ProteinMutation	tmVar:p|SUB|K|45|Y;HGVS:p.K45Y;VariantGroup:1;CorrespondingGene:3093;CorrespondingSpecies:9606
+38172369	1858	1862	K45G	ProteinMutation	tmVar:p|SUB|K|45|G;HGVS:p.K45G;VariantGroup:1;CorrespondingGene:3093;CorrespondingSpecies:9606
+38172369	1936	1941	BRCA1	Gene	672
+38172369	1959	1964	Ube2k	Gene	3093
+38172369	2071	2075	K32L	ProteinMutation	tmVar:p|SUB|K|32|L;HGVS:p.K32L;VariantGroup:0;CorrespondingGene:3093;CorrespondingSpecies:9606
+38172369	2108	2113	BRCA1	Gene	672
+38172369	2147	2149	AD	Disease	MESH:D000544
+38172369	2154	2156	PD	Disease	MESH:D010300
+38172369	2192	2195	K32	ProteinMutation	tmVar:p|Allele|K|32;VariantGroup:0;CorrespondingGene:3093;CorrespondingSpecies:9606
+38172369	2200	2203	K45	ProteinMutation	tmVar:p|Allele|K|45;VariantGroup:1;CorrespondingGene:3093;CorrespondingSpecies:9606
+38172369	2251	2256	Ube2k	Gene	3093
+38172369	2349	2354	BRCA1	Gene	672
+38172369	2395	2414	Alzheimer's disease	Disease	MESH:D000544
+38172369	2419	2438	Parkinson's disease	Disease	MESH:D010300
+38172369	Association	MESH:D010300	3093
+38172369	Association	MESH:D000544	HGVS:p.K32Y;CorrespondingGene:3093
+38172369	Positive_Correlation	MESH:D019636	HGVS:p.K45Y;CorrespondingGene:3093
+38172369	Association	MESH:D010300	CorrespondingGene:3093;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+38172369	Association	MESH:D010300	HGVS:p.K45V;CorrespondingGene:3093
+38172369	Association	3093	672
+38172369	Association	MESH:D010300	HGVS:p.K32Y;CorrespondingGene:3093
+38172369	Association	MESH:D000544	672
+38172369	Association	MESH:D019636	HGVS:p.K32Y;CorrespondingGene:3093
+38172369	Association	MESH:D010300	HGVS:p.K45Y;CorrespondingGene:3093
+38172369	Association	MESH:D019636	CorrespondingGene:3093;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+38172369	Association	MESH:D000544	HGVS:p.K45V;CorrespondingGene:3093
+38172369	Association	MESH:D010300	51592
+38172369	Association	MESH:D010300	HGVS:p.K32C;CorrespondingGene:3093
+38172369	Association	MESH:D000544	51592
+38172369	Association	MESH:D010300	HGVS:p.K32L;CorrespondingGene:3093
+38172369	Association	MESH:D000544	5371
+38172369	Association	MESH:D010300	HGVS:p.K45G;CorrespondingGene:3093
+38172369	Association	MESH:D010300	672
+38172369	Association	MESH:D019636	CorrespondingGene:3093;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p
+38172369	Association	MESH:D010300	5371
+38172369	Association	MESH:D019636	HGVS:p.K45V;CorrespondingGene:3093
+38172369	Association	MESH:D000544	3093
+38172369	Association	MESH:D019636	3093
+

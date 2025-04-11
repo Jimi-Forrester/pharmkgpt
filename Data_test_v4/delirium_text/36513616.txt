@@ -1,0 +1,25 @@
+36513616|t|Mining Potential Drug Targets for Osteoporosis Based on CeRNA Network.
+36513616|a|OBJECTIVE: To identify key pathological hub genes, micro RNAs (miRNAs), and circular RNAs (circRNAs) of osteoporosis (OP) and construct their ceRNA network in an effort to explore the potential biomarkers and drug targets for OP therapy. METHODS: GSE7158, GSE201543, and GSE161361 microarray datasets were downloaded from Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) were identified by comparing OP patients with healthy controls and hub genes were screened by machine learning algorithms. Target miRNAs and circRNAs were predicted by FunRich and circbank, then ceRNA network were constructed by Cytoscape. Pathways affecting OP were identified by functional enrichment analysis. The hub genes were verified by receiver operating characteristic (ROC) curve and real time quantitative PCR (RT-qPCR). Potential drug molecules related to OP were predicted by DSigDB database and molecular docking was analyzed by autodock vina software. RESULTS: A total of 179 DEGs were identified. By combining three machine learning algorithms, BAG2, MME, SLC14A1, and TRIM44 were identified as hub genes. Three OP-associated target miRNAs and 362 target circRNAs were predicted to establish ceRNA network. The ROC curves showed that these four hub genes had good diagnostic performance and their differential expression was statistically significant in OP animal model. Benzo[a]pyrene was predicted which could successfully bind to protein receptors related to the hub genes and it was served as the potential drug molecules. CONCLUSION: An mRNA-miRNA-circRNA network is reported, which provides new ideas for exploring the pathogenesis of OP. Benzo[a]pyrene, as potential drug molecules for OP, may provide guidance for the clinical treatment.
+36513616	34	46	Osteoporosis	Disease	MESH:D010024
+36513616	175	187	osteoporosis	Disease	MESH:D010024
+36513616	189	191	OP	Disease	MESH:D010024
+36513616	297	299	OP	Disease	MESH:D010024
+36513616	500	502	OP	Disease	MESH:D010024
+36513616	503	511	patients	Species	9606
+36513616	730	732	OP	Disease	MESH:D010024
+36513616	939	941	OP	Disease	MESH:D010024
+36513616	1132	1136	BAG2	Gene	9532
+36513616	1138	1141	MME	Gene	4311
+36513616	1143	1150	SLC14A1	Gene	6563
+36513616	1156	1162	TRIM44	Gene	54765
+36513616	1199	1201	OP	Disease	MESH:D010024
+36513616	1441	1443	OP	Disease	MESH:D010024
+36513616	1458	1472	Benzo[a]pyrene	Chemical	MESH:D001564
+36513616	1728	1730	OP	Disease	MESH:D010024
+36513616	1732	1746	Benzo[a]pyrene	Chemical	MESH:D001564
+36513616	1780	1782	OP	Disease	MESH:D010024
+36513616	Association	MESH:D010024	4311
+36513616	Association	MESH:D010024	6563
+36513616	Association	MESH:D010024	54765
+36513616	Association	MESH:D010024	9532
+

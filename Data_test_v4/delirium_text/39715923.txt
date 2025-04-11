@@ -1,0 +1,77 @@
+39715923|t|ADNP is essential for sex-dependent hippocampal neurogenesis, through male unfolded protein response and female mitochondrial gene regulation.
+39715923|a|Essential for brain formation and protective against tauopathy, activity-dependent neuroprotective protein (ADNP) is critical for neurogenesis and cognitive functions, while regulating steroid hormone biogenesis. As such, de novo mutations in ADNP lead to syndromic autism and somatic ADNP mutations parallel Alzheimer's disease progression. Furthermore, clinical trials with the ADNP fragment NAP (the investigational drug davunetide) showed efficacy in women suffering from the tauopathy progressive supranuclear palsy and differentially boosted memory in men (spatial) and women (verbal), exhibiting prodromal Alzheimer's disease. While autism is more prevalent in boys and Alzheimer's disease in women, both involve impaired neurogenesis. Here, we asked whether ADNP sex-dependently regulates neurogenesis. Using bromodeoxyuridine (BrdU) as a marker of neurogenesis, we identified two-fold higher labeling in the hippocampal sub-ventricular zone of ADNP-intact male versus female mice. Adnp haplo-insufficient (Adnp+/-) mice or mice CRSIPR/Cas9-edited to present the most prevalent neurodevelopmental ADNP syndrome mutation, p.Tyr718* (Tyr) showed dramatic reductions in male BrdU incorporation, resulting in mutated females presenting higher labeling than males. Treatment with NAP compensated for the male reduction of BrdU labeling. Mechanistically, hippocampal RNAseq revealed male-specific Tyr down-regulation of endoplasmic reticulum unfolded protein response genes critical for sex-dependent organogenesis. Newly discovered mitochondrial accessibility of ADNP was inhibited by the Tyr718* mutation further revealing female-specific Tyr downregulation of mitochondrial ATP6. NAP moderated much of the differential expression caused by p.Tyr718*, accompanied by the down-regulation of neurotoxic, pro-inflammatory and pro-apoptotic genes. Thus, ADNP is a key regulator of sex-dependent neurogenesis that acts by controlling canonical pathways, with NAP compensating for fundamental ADNP deficiencies, striding toward clinical development targeting the ADNP syndrome and related neurodevelopmental/neurodegenerative diseases.
+39715923	0	4	ADNP	Gene	23394
+39715923	196	205	tauopathy	Disease	MESH:D024801
+39715923	207	249	activity-dependent neuroprotective protein	Gene	23394
+39715923	251	255	ADNP	Gene	23394
+39715923	328	343	steroid hormone	Chemical	MESH:D013256
+39715923	386	390	ADNP	Gene	23394
+39715923	409	415	autism	Disease	MESH:D001321
+39715923	428	432	ADNP	Gene	23394
+39715923	452	471	Alzheimer's disease	Disease	MESH:D000544
+39715923	523	527	ADNP	Gene	23394
+39715923	537	540	NAP	Gene	56259
+39715923	567	577	davunetide	Chemical	MESH:C425904
+39715923	598	603	women	Species	9606
+39715923	623	632	tauopathy	Disease	MESH:D024801
+39715923	633	663	progressive supranuclear palsy	Disease	MESH:D013494
+39715923	701	704	men	Species	9606
+39715923	719	724	women	Species	9606
+39715923	756	775	Alzheimer's disease	Disease	MESH:D000544
+39715923	783	789	autism	Disease	MESH:D001321
+39715923	820	839	Alzheimer's disease	Disease	MESH:D000544
+39715923	843	848	women	Species	9606
+39715923	909	913	ADNP	Gene	23394
+39715923	960	977	bromodeoxyuridine	Chemical	MESH:D001973
+39715923	979	983	BrdU	Chemical	MESH:D001973
+39715923	1096	1100	ADNP	Gene	23394
+39715923	1127	1131	mice	Species	10090
+39715923	1133	1137	Adnp	Gene	23394
+39715923	1158	1162	Adnp	Gene	23394
+39715923	1167	1171	mice	Species	10090
+39715923	1175	1179	mice	Species	10090
+39715923	1248	1261	ADNP syndrome	Disease	MESH:C566056
+39715923	1272	1281	p.Tyr718*	ProteinMutation	tmVar:p|SUB|Y|718|*;HGVS:p.Y718*;VariantGroup:0;CorrespondingGene:23394;CorrespondingSpecies:9606
+39715923	1323	1327	BrdU	Chemical	MESH:D001973
+39715923	1426	1429	NAP	Gene	56259
+39715923	1468	1472	BrdU	Chemical	MESH:D001973
+39715923	1709	1713	ADNP	Gene	23394
+39715923	1822	1826	ATP6	Gene	4508
+39715923	1828	1831	NAP	Gene	56259
+39715923	1888	1897	p.Tyr718*	ProteinMutation	tmVar:p|SUB|Y|718|*;HGVS:p.Y718*;VariantGroup:0;CorrespondingGene:23394;CorrespondingSpecies:9606
+39715923	1937	1947	neurotoxic	Disease	MESH:D020258
+39715923	1953	1965	inflammatory	Disease	MESH:D007249
+39715923	1997	2001	ADNP	Gene	23394
+39715923	2101	2104	NAP	Gene	56259
+39715923	2134	2151	ADNP deficiencies	Disease	MESH:D011488
+39715923	2204	2217	ADNP syndrome	Disease	MESH:C566056
+39715923	2230	2275	neurodevelopmental/neurodegenerative diseases	Disease	MESH:D019636
+39715923	Association	MESH:D007249	HGVS:p.Y718*;CorrespondingGene:23394
+39715923	Association	MESH:D020258	HGVS:p.Y718*;CorrespondingGene:23394
+39715923	Association	MESH:D013256	23394
+39715923	Negative_Correlation	MESH:D001973	HGVS:p.Y718*;CorrespondingGene:23394
+39715923	Negative_Correlation	MESH:C425904	MESH:D013494
+39715923	Association	MESH:D019636	56259
+39715923	Association	MESH:C566056	HGVS:p.Y718*;CorrespondingGene:23394
+39715923	Association	MESH:D000544	23394
+39715923	Bind	23394	56259
+39715923	Association	56259	HGVS:p.Y718*;CorrespondingGene:23394
+39715923	Negative_Correlation	MESH:D020258	56259
+39715923	Association	23394	4508
+39715923	Negative_Correlation	MESH:C425904	MESH:D024801
+39715923	Negative_Correlation	MESH:D024801	56259
+39715923	Association	MESH:C566056	23394
+39715923	Association	MESH:D001321	23394
+39715923	Association	MESH:D000544	56259
+39715923	Association	MESH:D024801	23394
+39715923	Association	MESH:D001973	23394
+39715923	Association	MESH:C566056	56259
+39715923	Association	MESH:D011488	56259
+39715923	Association	MESH:D013494	23394
+39715923	Association	MESH:D001973	56259
+39715923	Negative_Correlation	MESH:D007249	56259
+39715923	Association	MESH:D001973	MESH:C566056
+39715923	Negative_Correlation	MESH:D013494	56259
+39715923	Association	MESH:D007249	23394
+39715923	Association	MESH:D020258	23394
+

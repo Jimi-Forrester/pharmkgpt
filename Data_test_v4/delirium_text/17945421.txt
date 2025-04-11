@@ -1,0 +1,33 @@
+17945421|t|The Abeta1-42M35C mutated amyloid peptide Abeta1-42 and the 25-35 fragment fail to mimic the subtype-specificity of actions on recombinant human nicotinic acetylcholine receptors (alpha7, alpha4beta2, alpha3beta4).
+17945421|a|Alzheimer's disease (AD) is a neurodegenerative condition involving accumulation of the beta-amyloid peptide, Abeta1-42. Previously we have shown that amyloid peptides (Abeta1-42, Abeta1-40) have different actions on the three major brain nicotinic acetylcholine receptor (nAChR) subtypes (alpha7, alpha4beta2 and alpha3beta4). The methionine in position 35 of Abeta (M35) has been shown to be important in the toxicity of Abeta and the 25-35 fragment can mimic some of the actions of the Abeta1-42 peptide. However, the extent to which this mutant and the fragment mimic subtype selectivity is unknown. Two-electrode voltage-clamp electrophysiology has been used to study the actions on alpha7, alpha4beta2 and alpha3beta4 recombinant nAChRs expressed in Xenopus laevis oocytes of full length Abeta1-42, and Abeta peptide fragments, scrambled peptides, and the Abeta1-42 peptide containing mutations of the methionine in position 35. The Abeta25-35 fragment did not display subunit specificity. Abeta1-42 with an M35C mutation showed similar subtype-specificity to wild-type Abeta1-42. However, Abeta1-42 with an M35V substitution reduced the peak amplitude of ACh-induced currents recorded from alpha4beta2 nAChRs, but did not affect those recorded from alpha7 or alpha3beta4. These results indicate that the amino acid in position 35 of Abeta1-42 is an important determinant of the subtype-specificity of this peptide on human recombinant alpha7, alpha4beta2 and alpha3beta4 nAChRs and that the 25-35 fragment fails to mimic all of the actions of the full-length peptide.
+17945421	26	41	amyloid peptide	Chemical	-
+17945421	139	144	human	Species	9606
+17945421	180	186	alpha7	Gene	28885
+17945421	215	234	Alzheimer's disease	Disease	MESH:D000544
+17945421	236	238	AD	Disease	MESH:D000544
+17945421	245	272	neurodegenerative condition	Disease	MESH:D019636
+17945421	303	323	beta-amyloid peptide	Gene	351
+17945421	454	486	nicotinic acetylcholine receptor	Gene	1137
+17945421	488	493	nAChR	Gene	1137
+17945421	505	511	alpha7	Gene	28885
+17945421	547	572	methionine in position 35	ProteinMutation	tmVar:p|Allele|M|35;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+17945421	576	581	Abeta	Gene	351
+17945421	583	586	M35	ProteinMutation	tmVar:p|Allele|M|35;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+17945421	626	634	toxicity	Disease	MESH:D064420
+17945421	638	643	Abeta	Gene	351
+17945421	903	909	alpha7	Gene	28885
+17945421	971	985	Xenopus laevis	Species	8355
+17945421	1024	1029	Abeta	Gene	351
+17945421	1123	1148	methionine in position 35	ProteinMutation	tmVar:p|Allele|M|35;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+17945421	1229	1233	M35C	ProteinMutation	tmVar:p|SUB|M|35|C;HGVS:p.M35C;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+17945421	1329	1333	M35V	ProteinMutation	tmVar:p|SUB|M|35|V;HGVS:p.M35V;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+17945421	1377	1380	ACh	Chemical	MESH:D000109
+17945421	1471	1477	alpha7	Gene	28885
+17945421	1639	1644	human	Species	9606
+17945421	1657	1663	alpha7	Gene	28885
+17945421	Association	MESH:D064420	CorrespondingGene:351;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+17945421	Negative_Correlation	MESH:D000109	HGVS:p.M35V;CorrespondingGene:351
+17945421	Positive_Correlation	MESH:D000544	351
+17945421	Association	MESH:D064420	351
+17945421	Association	MESH:D064420	351
+

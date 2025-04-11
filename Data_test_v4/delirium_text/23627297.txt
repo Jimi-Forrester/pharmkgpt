@@ -1,0 +1,19 @@
+23627297|t|2D QSAR studies on series of human beta-secretase (BACE-1) inhibitors.
+23627297|a|beta-secretase (BACE-1) plays a pivotal role in the beta-Amyloid plaques formation, which is responsible for progressive cognitive and memory loss commonly found in Alzheimer disease patients. As a consequence, it has been considered as a good target for drug development efforts. Early work focused on the synthesis of peptidomimetics, but poor pharmacokinetics profile prevented advancing lead compounds to clinical trials. As an alternative, aminoimidazoles, aminohydantoins and aminopyridines derivatives that inhibit BACE-1 were designed. Herein we report statistically sound descriptor- based (r(2) = 0.87, q(2) = 0.85, 6 PCs) and fragment-based (r(2) = 0.91, q(2) = 0.84, 6 PCs) QSAR models, that show high predictive ability (r(2)pred = 0.84, averaged r(2)m=0.78) and underscore polar interactions that are important for BACE-1 inhibition.
+23627297	29	34	human	Species	9606
+23627297	51	57	BACE-1	Gene	23621
+23627297	87	93	BACE-1	Gene	23621
+23627297	123	135	beta-Amyloid	Disease	MESH:C000718787
+23627297	192	217	cognitive and memory loss	Disease	MESH:D003072
+23627297	236	253	Alzheimer disease	Disease	MESH:D000544
+23627297	254	262	patients	Species	9606
+23627297	516	531	aminoimidazoles	Chemical	-
+23627297	533	548	aminohydantoins	Chemical	-
+23627297	553	567	aminopyridines	Chemical	MESH:D000631
+23627297	593	599	BACE-1	Gene	23621
+23627297	900	906	BACE-1	Gene	23621
+23627297	Association	MESH:D003072	23621
+23627297	Association	MESH:D000544	23621
+23627297	Negative_Correlation	MESH:D000631	23621
+23627297	Association	MESH:C000718787	23621
+

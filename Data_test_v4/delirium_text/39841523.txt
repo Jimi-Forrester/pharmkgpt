@@ -1,0 +1,37 @@
+39841523|t|Ten Machine Learning Models for Predicting Preoperative and Postoperative Coagulopathy in Patients With Trauma: Multicenter Cohort Study.
+39841523|a|BACKGROUND: Recent research has revealed the potential value of machine learning (ML) models in improving prognostic prediction for patients with trauma. ML can enhance predictions and identify which factors contribute the most to posttraumatic mortality. However, no studies have explored the risk factors, complications, and risk prediction of preoperative and postoperative traumatic coagulopathy (PPTIC) in patients with trauma. OBJECTIVE: This study aims to help clinicians implement timely and appropriate interventions to reduce the incidence of PPTIC and related complications, thereby lowering in-hospital mortality and disability rates for patients with trauma. METHODS: We analyzed data from 13,235 patients with trauma from 4 medical centers, including medical histories, laboratory results, and hospitalization complications. We developed 10 ML models in Python (Python Software Foundation) to predict PPTIC based on preoperative indicators. Data from 10,023 Medical Information Mart for Intensive Care patients were divided into training (70%) and test (30%) sets, with 3212 patients from 3 other centers used for external validation. Model performance was assessed with 5-fold cross-validation, bootstrapping, Brier score, and Shapley additive explanation values. RESULTS: Univariate logistic regression identified PPTIC risk factors as (1) prolonged activated partial thromboplastin time, prothrombin time, and international normalized ratio; (2) decreased levels of hemoglobin, hematocrit, red blood cells, calcium, and sodium; (3) lower admission diastolic blood pressure; (4) elevated alanine aminotransferase and aspartate aminotransferase levels; (5) admission heart rate; and (6) emergency surgery and perioperative transfusion. Multivariate logistic regression revealed that patients with PPTIC faced significantly higher risks of sepsis (1.75-fold), heart failure (1.5-fold), delirium (3.08-fold), abnormal coagulation (3.57-fold), tracheostomy (2.76-fold), mortality (2.19-fold), and urinary tract infection (1.95-fold), along with longer hospital and intensive care unit stays. Random forest was the most effective ML model for predicting PPTIC, achieving an area under the receiver operating characteristic of 0.91, an area under the precision-recall curve of 0.89, accuracy of 0.84, sensitivity of 0.80, specificity of 0.88, precision of 0.88, F1-score of 0.84, and Brier score of 0.13 in external validation. CONCLUSIONS: Key PPTIC risk factors include (1) prolonged activated partial thromboplastin time, prothrombin time, and international normalized ratio; (2) low levels of hemoglobin, hematocrit, red blood cells, calcium, and sodium; (3) low diastolic blood pressure; (4) elevated alanine aminotransferase and aspartate aminotransferase levels; (5) admission heart rate; and (6) the need for emergency surgery and transfusion. PPTIC is associated with severe complications and extended hospital stays. Among the ML models, the random forest model was the most effective predictor. TRIAL REGISTRATION: Chinese Clinical Trial Registry ChiCTR2300078097; https://www.chictr.org.cn/showproj.html?proj=211051.
+39841523	74	86	Coagulopathy	Disease	MESH:D001778
+39841523	90	98	Patients	Species	9606
+39841523	104	110	Trauma	Disease	MESH:D014947
+39841523	270	278	patients	Species	9606
+39841523	284	290	trauma	Disease	MESH:D014947
+39841523	497	537	and postoperative traumatic coagulopathy	Disease	MESH:D001778
+39841523	539	544	PPTIC	Disease	MESH:D001778
+39841523	549	557	patients	Species	9606
+39841523	563	569	trauma	Disease	MESH:D014947
+39841523	691	696	PPTIC	Disease	MESH:D001778
+39841523	788	796	patients	Species	9606
+39841523	802	808	trauma	Disease	MESH:D014947
+39841523	848	856	patients	Species	9606
+39841523	862	868	trauma	Disease	MESH:D014947
+39841523	1053	1058	PPTIC	Disease	MESH:D001778
+39841523	1154	1162	patients	Species	9606
+39841523	1227	1235	patients	Species	9606
+39841523	1468	1473	PPTIC	Disease	MESH:D001778
+39841523	1662	1669	calcium	Chemical	MESH:D002118
+39841523	1675	1681	sodium	Chemical	MESH:D012964
+39841523	1936	1944	patients	Species	9606
+39841523	1950	1955	PPTIC	Disease	MESH:D001778
+39841523	1992	1998	sepsis	Disease	MESH:D018805
+39841523	2012	2025	heart failure	Disease	MESH:D006333
+39841523	2038	2046	delirium	Disease	MESH:D003693
+39841523	2060	2080	abnormal coagulation	Disease	MESH:D001778
+39841523	2147	2170	urinary tract infection	Disease	MESH:D014552
+39841523	2303	2308	PPTIC	Disease	MESH:D001778
+39841523	2593	2598	PPTIC	Disease	MESH:D001778
+39841523	2786	2793	calcium	Chemical	MESH:D002118
+39841523	2799	2805	sodium	Chemical	MESH:D012964
+39841523	3000	3005	PPTIC	Disease	MESH:D001778
+39841523	Negative_Correlation	MESH:D012964	MESH:D001778
+39841523	Positive_Correlation	MESH:D002118	MESH:D001778
+

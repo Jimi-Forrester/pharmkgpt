@@ -1,0 +1,37 @@
+34900398|t|Whole-transcriptome analysis of aluminum-exposed rat hippocampus and identification of ceRNA networks to investigate neurotoxicity of Al.
+34900398|a|Aluminum is a known neurotoxin that can induce Abeta deposition and abnormal phosphorylation of tau protein, leading to Alzheimer disease (AD)-like damages such as neuronal damage and decreased learning and memory functions. In this study, we constructed a rat model of subchronic aluminum maltol exposure, and the whole-transcriptome sequencing was performed on the hippocampus of the control group and the middle-dose group. A total of 167 miRNAs, 37 lncRNAs, 256 mRNAs, and 64 circRNAs expression changed. The Kyoto Encyclopedia of Genes and Genomes showed that PI3K/AKT pathway was the most enriched pathway of DEGs, and IRS1 was the core molecule in the PPI network. circRNA/lncRNA-miRNA-mRNA networks of all DEGs, DEGs in the PI3K/AKT pathway, and IRS1 were constructed by Cytoscape. Molecular experiment results showed that aluminum inhibited the IRS1/PI3K/AKT pathway and increased the content of Abeta and tau. In addition, we also constructed an AAV intervention rat model, proving that inhibition of miR-96-5p expression might resist aluminum-induced injury by upregulating expression of IRS1. In general, these results suggest that the ceRNA networks are involved in the neurotoxic process of aluminum, providing a new strategy for studying the toxicity mechanism of aluminum and finding biological targets for the prevention and treatment of AD.
+34900398	32	40	aluminum	Chemical	MESH:D000535
+34900398	49	52	rat	Species	10116
+34900398	117	130	neurotoxicity	Disease	MESH:D020258
+34900398	134	136	Al	Chemical	MESH:D000535
+34900398	138	146	Aluminum	Chemical	MESH:D000535
+34900398	185	190	Abeta	Gene	54226
+34900398	258	275	Alzheimer disease	Disease	MESH:D000544
+34900398	277	279	AD	Disease	MESH:D000544
+34900398	302	317	neuronal damage	Disease	MESH:D009410
+34900398	395	398	rat	Species	10116
+34900398	419	434	aluminum maltol	Chemical	MESH:C067527
+34900398	708	711	AKT	Gene	24185
+34900398	763	767	IRS1	Gene	25467
+34900398	875	878	AKT	Gene	24185
+34900398	892	896	IRS1	Gene	25467
+34900398	969	977	aluminum	Chemical	MESH:D000535
+34900398	992	996	IRS1	Gene	25467
+34900398	1002	1005	AKT	Gene	24185
+34900398	1043	1048	Abeta	Gene	54226
+34900398	1111	1114	rat	Species	10116
+34900398	1183	1191	aluminum	Chemical	MESH:D000535
+34900398	1237	1241	IRS1	Gene	25467
+34900398	1321	1331	neurotoxic	Disease	MESH:D020258
+34900398	1343	1351	aluminum	Chemical	MESH:D000535
+34900398	1395	1403	toxicity	Disease	MESH:D064420
+34900398	1417	1425	aluminum	Chemical	MESH:D000535
+34900398	1493	1495	AD	Disease	MESH:D000544
+34900398	Positive_Correlation	MESH:D000535	MESH:D009410
+34900398	Association	MESH:D000535	MESH:D020258
+34900398	Association	MESH:D000535	MESH:D064420
+34900398	Positive_Correlation	MESH:D000535	54226
+34900398	Negative_Correlation	MESH:D000535	24185
+34900398	Positive_Correlation	MESH:D000535	MESH:D000544
+34900398	Negative_Correlation	MESH:D000535	25467
+

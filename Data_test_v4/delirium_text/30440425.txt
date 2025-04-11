@@ -1,0 +1,21 @@
+30440425|t|Isometry Invariant Shape Descriptors for Abnormality Detection on Brain Surfaces Affected by Alzheimer's Disease.
+30440425|a|Alzheimer's disease (AD), a progressive brain disorder, is the most common neurodegenerative disease in older adults. There is a need for brain structural magnetic resonance imaging (MRI) biomarkers to help assess AD progression and intervention effects. Prior research showed that surface based brain imaging features hold great promise as efficient AD biomarkers. However, the complex geometry of cortical surfaces poses a major challenge to defining such a feature that is sensitive in qualification, robust in analysis, and intuitive in visualization. Here we propose a novel isometry invariant shape descriptor for brain morphometry analysis. First, we calculate a global area-preserving mapping from cortical surface to the unit sphere. Based on the mapping, the Beltrami coefficient shape descriptor is calculated. An analysis of average shape descriptors reveals that our detected features are consistent with some previous AD studies where medial temporal lobe volume was identified as an important AD imaging biomarker. We further apply a novel patch-based spherical sparse coding scheme for feature dimension reduction. Later, a support vector machine (SVM) classifier is applied to discriminate 135 amyloid-beta positive persons with the clinical diagnosis of Mild Cognitive Impairment (MCI) from 248 amyloid-beta-negative normal control subjects. The 5-folder cross-validation accuracy is about 81.82 % on the dataset, outperforming some traditional, Freesurfer based, brain surface features. The results show that our shape descriptor is effective in distinguishing dementia due to AD from age-matched normal aging individuals. Our isometry invariant shape descriptors may provide a unique and intuitive way to inspect cortical surface and its morphometry changes.
+30440425	93	112	Alzheimer's Disease	Disease	MESH:D000544
+30440425	114	133	Alzheimer's disease	Disease	MESH:D000544
+30440425	135	137	AD	Disease	MESH:D000544
+30440425	154	168	brain disorder	Disease	MESH:D001927
+30440425	189	214	neurodegenerative disease	Disease	MESH:D019636
+30440425	328	330	AD	Disease	MESH:D000544
+30440425	465	467	AD	Disease	MESH:D000544
+30440425	1046	1048	AD	Disease	MESH:D000544
+30440425	1122	1124	AD	Disease	MESH:D000544
+30440425	1325	1337	amyloid-beta	Gene	351
+30440425	1391	1411	Cognitive Impairment	Disease	MESH:D003072
+30440425	1413	1416	MCI	Disease	MESH:D060825
+30440425	1427	1439	amyloid-beta	Gene	351
+30440425	1694	1702	dementia	Disease	MESH:D003704
+30440425	1710	1712	AD	Disease	MESH:D000544
+30440425	Association	MESH:D003072	351
+30440425	Association	MESH:D000544	351
+30440425	Association	MESH:D060825	351
+

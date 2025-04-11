@@ -1,0 +1,29 @@
+39371344|t|Enhancing healthcare recommendation: transfer learning in deep convolutional neural networks for Alzheimer disease detection.
+39371344|a|Neurodegenerative disorders such as Alzheimer's Disease (AD) and Mild Cognitive Impairment (MCI) significantly impact brain function and cognition. Advanced neuroimaging techniques, particularly Magnetic Resonance Imaging (MRI), play a crucial role in diagnosing these conditions by detecting structural abnormalities. This study leverages the ADNI and OASIS datasets, renowned for their extensive MRI data, to develop effective models for detecting AD and MCI. The research conducted three sets of tests, comparing multiple groups: multi-class classification (AD vs. Cognitively Normal (CN) vs. MCI), binary classification (AD vs. CN, and MCI vs. CN), to evaluate the performance of models trained on ADNI and OASIS datasets. Key preprocessing techniques such as Gaussian filtering, contrast enhancement, and resizing were applied to both datasets. Additionally, skull stripping using U-Net was utilized to extract features by removing the skull. Several prominent deep learning architectures including DenseNet-201, EfficientNet-B0, ResNet-50, ResNet-101, and ResNet-152 were investigated to identify subtle patterns associated with AD and MCI. Transfer learning techniques were employed to enhance model performance, leveraging pre-trained datasets for improved Alzheimer's MCI detection. ResNet-101 exhibited superior performance compared to other models, achieving 98.21% accuracy on the ADNI dataset and 97.45% accuracy on the OASIS dataset in multi-class classification tasks encompassing AD, CN, and MCI. It also performed well in binary classification tasks distinguishing AD from CN. ResNet-152 excelled particularly in binary classification between MCI and CN on the OASIS dataset. These findings underscore the utility of deep learning models in accurately identifying and distinguishing neurodegenerative diseases, showcasing their potential for enhancing clinical diagnosis and treatment monitoring.
+39371344	97	114	Alzheimer disease	Disease	MESH:D000544
+39371344	126	153	Neurodegenerative disorders	Disease	MESH:D019636
+39371344	162	181	Alzheimer's Disease	Disease	MESH:D000544
+39371344	183	185	AD	Disease	MESH:D000544
+39371344	196	216	Cognitive Impairment	Disease	MESH:D003072
+39371344	218	221	MCI	Disease	MESH:D060825
+39371344	576	578	AD	Disease	MESH:D000544
+39371344	583	586	MCI	Disease	MESH:D060825
+39371344	687	689	AD	Disease	MESH:D000544
+39371344	714	716	CN	Disease	
+39371344	722	725	MCI	Disease	MESH:D060825
+39371344	751	753	AD	Disease	MESH:D000544
+39371344	758	760	CN	Disease	
+39371344	766	769	MCI	Disease	MESH:D060825
+39371344	774	776	CN	Disease	
+39371344	1261	1263	AD	Disease	MESH:D000544
+39371344	1268	1271	MCI	Disease	MESH:D060825
+39371344	1391	1406	Alzheimer's MCI	Disease	MESH:D060825
+39371344	1622	1624	AD	Disease	MESH:D000544
+39371344	1626	1628	CN	Disease	
+39371344	1634	1637	MCI	Disease	MESH:D060825
+39371344	1708	1710	AD	Disease	MESH:D000544
+39371344	1716	1718	CN	Disease	
+39371344	1786	1789	MCI	Disease	MESH:D060825
+39371344	1794	1796	CN	Disease	
+39371344	1926	1952	neurodegenerative diseases	Disease	MESH:D019636
+

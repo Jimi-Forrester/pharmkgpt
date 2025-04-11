@@ -1,0 +1,37 @@
+22888310|t|Discovery and Replication of Gene Influences on Brain Structure Using LASSO Regression.
+22888310|a|We implemented least absolute shrinkage and selection operator (LASSO) regression to evaluate gene effects in genome-wide association studies (GWAS) of brain images, using an MRI-derived temporal lobe volume measure from 729 subjects scanned as part of the Alzheimer's Disease Neuroimaging Initiative (ADNI). Sparse groups of SNPs in individual genes were selected by LASSO, which identifies efficient sets of variants influencing the data. These SNPs were considered jointly when assessing their association with neuroimaging measures. We discovered 22 genes that passed genome-wide significance for influencing temporal lobe volume. This was a substantially greater number of significant genes compared to those found with standard, univariate GWAS. These top genes are all expressed in the brain and include genes previously related to brain function or neuropsychiatric disorders such as MACROD2, SORCS2, GRIN2B, MAGI2, NPAS3, CLSTN2, GABRG3, NRXN3, PRKAG2, GAS7, RBFOX1, ADARB2, CHD4, and CDH13. The top genes we identified with this method also displayed significant and widespread post hoc effects on voxelwise, tensor-based morphometry (TBM) maps of the temporal lobes. The most significantly associated gene was an autism susceptibility gene known as MACROD2. We were able to successfully replicate the effect of the MACROD2 gene in an independent cohort of 564 young, Australian healthy adult twins and siblings scanned with MRI (mean age: 23.8 +- 2.2 SD years). Our approach powerfully complements univariate techniques in detecting influences of genes on the living brain.
+22888310	345	364	Alzheimer's Disease	Disease	MESH:D000544
+22888310	945	971	neuropsychiatric disorders	Disease	MESH:D001523
+22888310	980	987	MACROD2	Gene	140733
+22888310	989	995	SORCS2	Gene	57537
+22888310	997	1003	GRIN2B	Gene	2904
+22888310	1005	1010	MAGI2	Gene	9863
+22888310	1012	1017	NPAS3	Gene	64067
+22888310	1019	1025	CLSTN2	Gene	64084
+22888310	1027	1033	GABRG3	Gene	2567
+22888310	1035	1040	NRXN3	Gene	9369
+22888310	1042	1048	PRKAG2	Gene	51422
+22888310	1050	1054	GAS7	Gene	8522
+22888310	1056	1062	RBFOX1	Gene	54715
+22888310	1064	1070	ADARB2	Gene	105
+22888310	1072	1076	CHD4	Gene	1108
+22888310	1082	1087	CDH13	Gene	1012
+22888310	1312	1318	autism	Disease	MESH:D001321
+22888310	1348	1355	MACROD2	Gene	140733
+22888310	1414	1421	MACROD2	Gene	140733
+22888310	Association	MESH:D001523	64084
+22888310	Association	MESH:D001523	9369
+22888310	Association	MESH:D001321	140733
+22888310	Association	MESH:D001523	2904
+22888310	Association	MESH:D001523	1108
+22888310	Association	MESH:D001523	105
+22888310	Association	MESH:D001523	54715
+22888310	Association	MESH:D001523	2567
+22888310	Association	MESH:D001523	140733
+22888310	Association	MESH:D001523	57537
+22888310	Association	MESH:D001523	8522
+22888310	Association	MESH:D001523	51422
+22888310	Association	MESH:D001523	1012
+22888310	Association	MESH:D001523	64067
+22888310	Association	MESH:D001523	9863
+

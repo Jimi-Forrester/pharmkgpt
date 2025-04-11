@@ -1,0 +1,33 @@
+37799623|t|Uncovering the Achilles heel of genetic heterogeneity: machine learning-based classification and immunological properties of necroptosis clusters in Alzheimer's disease.
+37799623|a|Background: Alzheimer's disease (AD) is an age-associated neurodegenerative disease, and the currently available diagnostic modalities and therapeutic agents are unsatisfactory due to its high clinical heterogeneity. Necroptosis is a common type of programmed cell death that has been shown to be activated in AD. Methods: In this study, we first investigated the expression profiles of necroptosis-related genes (NRGs) and the immune landscape of AD based on GSE33000 dataset. Next, the AD samples in the GSE33000 dataset were extracted and subjected to consensus clustering based upon the differentially expressed NRGs. Key genes associated with necroptosis clusters were identified using Weighted Gene Co-Expression Network Analysis (WGCNA) algorithm, and then intersected with the key gene related to AD. Finally, we developed a diagnostic model for AD by comparing four different machine learning approaches. The discrimination performance and clinical relevance of the diagnostic model were assessed using various evaluation metrics, including the nomogram, calibration plot, decision curve analysis (DCA), and independent validation datasets. Results: Aberrant expression patterns of NRGs and specific immune landscape were identified in the AD samples. Consensus clustering revealed that patients in the GSE33000 dataset could be classified into two necroptosis clusters, each with distinct immune landscapes and enriched pathways. The Extreme Gradient Boosting (XGB) was found to be the most optimal diagnostic model for the AD based on the predictive ability and reliability of the models constructed by four machine learning approaches. The five most important variables, including ACAA2, BHLHB4, CACNA2D3, NRN1, and TAC1, were used to construct a five-gene diagnostic model. The constructed nomogram, calibration plot, DCA, and external independent validation datasets exhibited outstanding diagnostic performance for AD and were closely related with the pathologic hallmarks of AD. Conclusion: This work presents a novel diagnostic model that may serve as a framework to study disease heterogeneity and provide a plausible mechanism underlying neuronal loss in AD.
+37799623	125	136	necroptosis	Disease	
+37799623	149	168	Alzheimer's disease	Disease	MESH:D000544
+37799623	182	201	Alzheimer's disease	Disease	MESH:D000544
+37799623	203	205	AD	Disease	MESH:D000544
+37799623	213	253	age-associated neurodegenerative disease	Disease	MESH:D019636
+37799623	387	398	Necroptosis	Disease	
+37799623	480	482	AD	Disease	MESH:D000544
+37799623	557	568	necroptosis	Disease	
+37799623	618	620	AD	Disease	MESH:D000544
+37799623	658	660	AD	Disease	MESH:D000544
+37799623	818	829	necroptosis	Disease	
+37799623	975	977	AD	Disease	MESH:D000544
+37799623	1024	1026	AD	Disease	MESH:D000544
+37799623	1419	1421	AD	Disease	MESH:D000544
+37799623	1528	1539	necroptosis	Disease	
+37799623	1704	1706	AD	Disease	MESH:D000544
+37799623	1863	1868	ACAA2	Gene	10449
+37799623	1870	1876	BHLHB4	Gene	128408
+37799623	1878	1886	CACNA2D3	Gene	55799
+37799623	1888	1892	NRN1	Gene	51299
+37799623	1898	1902	TAC1	Gene	6863
+37799623	2100	2102	AD	Disease	MESH:D000544
+37799623	2161	2163	AD	Disease	MESH:D000544
+37799623	2327	2340	neuronal loss	Disease	MESH:D009410
+37799623	2344	2346	AD	Disease	MESH:D000544
+37799623	Association	MESH:D000544	10449
+37799623	Association	MESH:D000544	55799
+37799623	Association	MESH:D000544	128408
+37799623	Association	MESH:D000544	6863
+37799623	Association	MESH:D000544	51299
+

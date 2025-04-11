@@ -1,0 +1,71 @@
+38861183|t|A deep learning model for generating [18F]FDG PET Images from early-phase [18F]Florbetapir and [18F]Flutemetamol PET images.
+38861183|a|INTRODUCTION: Amyloid-beta (Abeta) plaques is a significant hallmark of Alzheimer's disease (AD), detectable via amyloid-PET imaging. The Fluorine-18-Fluorodeoxyglucose ([18F]FDG) PET scan tracks cerebral glucose metabolism, correlated with synaptic dysfunction and disease progression and is complementary for AD diagnosis. Dual-scan acquisitions of amyloid PET allows the possibility to use early-phase amyloid-PET as a biomarker for neurodegeneration, proven to have a good correlation to [18F]FDG PET. The aim of this study was to evaluate the added value of synthesizing the later from the former through deep learning (DL), aiming at reducing the number of PET scans, radiation dose, and discomfort to patients. METHODS: A total of 166 subjects including cognitively unimpaired individuals (N = 72), subjects with mild cognitive impairment (N = 73) and dementia (N = 21) were included in this study. All underwent T1-weighted MRI, dual-phase amyloid PET scans using either Fluorine-18 Florbetapir ([18F]FBP) or Fluorine-18 Flutemetamol ([18F]FMM), and an [18F]FDG PET scan. Two transformer-based DL models called SwinUNETR were trained separately to synthesize the [18F]FDG from early phase [18F]FBP and [18F]FMM (eFBP/eFMM). A clinical similarity score (1: no similarity to 3: similar) was assessed to compare the imaging information obtained by synthesized [18F]FDG as well as eFBP/eFMM to actual [18F]FDG. Quantitative evaluations include region wise correlation and single-subject voxel-wise analyses in comparison with a reference [18F]FDG PET healthy control database. Dice coefficients were calculated to quantify the whole-brain spatial overlap between hypometabolic ([18F]FDG PET) and hypoperfused (eFBP/eFMM) binary maps at the single-subject level as well as between [18F]FDG PET and synthetic [18F]FDG PET hypometabolic binary maps. RESULTS: The clinical evaluation showed that, in comparison to eFBP/eFMM (average of clinical similarity score (CSS) = 1.53), the synthetic [18F]FDG images are quite similar to the actual [18F]FDG images (average of CSS = 2.7) in terms of preserving clinically relevant uptake patterns. The single-subject voxel-wise analyses showed that at the group level, the Dice scores improved by around 13% and 5% when using the DL approach for eFBP and eFMM, respectively. The correlation analysis results indicated a relatively strong correlation between eFBP/eFMM and [18F]FDG (eFBP: slope = 0.77, R2 = 0.61, P-value < 0.0001); eFMM: slope = 0.77, R2 = 0.61, P-value < 0.0001). This correlation improved for synthetic [18F]FDG (synthetic [18F]FDG generated from eFBP (slope = 1.00, R2 = 0.68, P-value < 0.0001), eFMM (slope = 0.93, R2 = 0.72, P-value < 0.0001)). CONCLUSION: We proposed a DL model for generating the [18F]FDG from eFBP/eFMM PET images. This method may be used as an alternative for multiple radiotracer scanning in research and clinical settings allowing to adopt the currently validated [18F]FDG PET normal reference databases for data analysis.
+38861183	37	45	[18F]FDG	Chemical	MESH:D019788
+38861183	75	90	18F]Florbetapir	Chemical	MESH:C545186
+38861183	96	112	18F]Flutemetamol	Chemical	MESH:C581552
+38861183	139	151	Amyloid-beta	Gene	351
+38861183	153	158	Abeta	Gene	351
+38861183	197	216	Alzheimer's disease	Disease	MESH:D000544
+38861183	218	220	AD	Disease	MESH:D000544
+38861183	238	245	amyloid	Disease	MESH:C000718787
+38861183	263	293	Fluorine-18-Fluorodeoxyglucose	Chemical	MESH:D019788
+38861183	295	303	[18F]FDG	Chemical	MESH:D019788
+38861183	330	337	glucose	Chemical	MESH:D005947
+38861183	366	386	synaptic dysfunction	Disease	MESH:C536122
+38861183	436	438	AD	Disease	MESH:D000544
+38861183	476	483	amyloid	Disease	MESH:C000718787
+38861183	530	537	amyloid	Disease	MESH:C000718787
+38861183	561	578	neurodegeneration	Disease	MESH:D019636
+38861183	617	625	[18F]FDG	Chemical	MESH:D019788
+38861183	833	841	patients	Species	9606
+38861183	950	970	cognitive impairment	Disease	MESH:D003072
+38861183	984	992	dementia	Disease	MESH:D003704
+38861183	1073	1080	amyloid	Disease	MESH:C000718787
+38861183	1104	1127	Fluorine-18 Florbetapir	Chemical	-
+38861183	1129	1137	[18F]FBP	Chemical	-
+38861183	1142	1166	Fluorine-18 Flutemetamol	Chemical	-
+38861183	1168	1176	[18F]FMM	Chemical	-
+38861183	1186	1194	[18F]FDG	Chemical	MESH:D019788
+38861183	1296	1304	[18F]FDG	Chemical	MESH:D019788
+38861183	1322	1330	[18F]FBP	Chemical	-
+38861183	1335	1343	[18F]FMM	Chemical	-
+38861183	1345	1349	eFBP	Chemical	-
+38861183	1350	1354	eFMM	Chemical	-
+38861183	1490	1498	[18F]FDG	Chemical	MESH:D019788
+38861183	1510	1514	eFBP	Chemical	-
+38861183	1515	1519	eFMM	Chemical	-
+38861183	1530	1538	[18F]FDG	Chemical	MESH:D019788
+38861183	1667	1675	[18F]FDG	Chemical	MESH:D019788
+38861183	1807	1815	[18F]FDG	Chemical	MESH:D019788
+38861183	1839	1843	eFBP	Chemical	-
+38861183	1844	1848	eFMM	Chemical	-
+38861183	1909	1917	[18F]FDG	Chemical	MESH:D019788
+38861183	1936	1944	[18F]FDG	Chemical	MESH:D019788
+38861183	2039	2043	eFBP	Chemical	-
+38861183	2044	2048	eFMM	Chemical	-
+38861183	2116	2124	[18F]FDG	Chemical	MESH:D019788
+38861183	2164	2172	[18F]FDG	Chemical	MESH:D019788
+38861183	2411	2415	eFBP	Chemical	-
+38861183	2420	2424	eFMM	Chemical	-
+38861183	2523	2527	eFBP	Chemical	-
+38861183	2528	2532	eFMM	Chemical	-
+38861183	2537	2545	[18F]FDG	Chemical	MESH:D019788
+38861183	2547	2551	eFBP	Chemical	-
+38861183	2597	2601	eFMM	Chemical	-
+38861183	2687	2695	[18F]FDG	Chemical	MESH:D019788
+38861183	2707	2715	[18F]FDG	Chemical	MESH:D019788
+38861183	2731	2735	eFBP	Chemical	-
+38861183	2781	2785	eFMM	Chemical	-
+38861183	2886	2894	[18F]FDG	Chemical	MESH:D019788
+38861183	2900	2904	eFBP	Chemical	-
+38861183	2905	2909	eFMM	Chemical	-
+38861183	3074	3082	[18F]FDG	Chemical	MESH:D019788
+38861183	Association	MESH:D000544	351
+38861183	Association	MESH:D019788	MESH:C000718787
+38861183	Association	MESH:D005947	MESH:C536122
+38861183	Association	MESH:D005947	MESH:D019788
+38861183	Association	MESH:C000718787	351
+38861183	Association	MESH:D019788	MESH:D019636
+38861183	Association	MESH:D019788	MESH:D000544
+38861183	Association	MESH:D019788	MESH:C536122
+

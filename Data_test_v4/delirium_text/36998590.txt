@@ -1,0 +1,37 @@
+36998590|t|Alzheimer's Disease Prediction Using Attention Mechanism with Dual-Phase 18F-Florbetaben Images.
+36998590|a|Introduction: Amyloid-beta (Abeta) imaging test plays an important role in the early diagnosis and research of biomarkers of Alzheimer's disease (AD) but a single test may produce Abeta-negative AD or Abeta-positive cognitively normal (CN). In this study, we aimed to distinguish AD from CN with dual-phase 18F-Florbetaben (FBB) via a deep learning-based attention method and evaluate the AD positivity scores compared to late-phase FBB which is currently adopted for AD diagnosis. Materials and Methods: A total of 264 patients (74 CN and 190 AD), who underwent FBB imaging test and neuropsychological tests, were retrospectively analyzed. Early- and delay-phase FBB images were spatially normalized with an in-house FBB template. The regional standard uptake value ratios were calculated with the cerebellar region as a reference region and used as independent variables that predict the diagnostic label assigned to the raw image. Results: AD positivity scores estimated from dual-phase FBB showed better accuracy (ACC) and area under the receiver operating characteristic curve (AUROC) for AD detection (ACC: 0.858, AUROC: 0.831) than those from delay phase FBB imaging (ACC: 0.821, AUROC: 0.794). AD positivity score estimated by dual-phase FBB (R: -0.5412) shows a higher correlation with psychological test compared to only dFBB (R: -0.2975). In the relevance analysis, we observed that LSTM uses different time and regions of early-phase FBB for each disease group for AD detection. Conclusions: These results show that the aggregated model with dual-phase FBB with long short-term memory and attention mechanism can be used to provide a more accurate AD positivity score, which shows a closer association with AD, than the prediction with only a single phase FBB.
+36998590	0	19	Alzheimer's Disease	Disease	MESH:D000544
+36998590	73	88	18F-Florbetaben	Chemical	MESH:C527756
+36998590	111	123	Amyloid-beta	Gene	351
+36998590	125	130	Abeta	Gene	351
+36998590	222	241	Alzheimer's disease	Disease	MESH:D000544
+36998590	243	245	AD	Disease	MESH:D000544
+36998590	277	282	Abeta	Gene	351
+36998590	292	294	AD	Disease	MESH:D000544
+36998590	298	303	Abeta	Gene	351
+36998590	377	379	AD	Disease	MESH:D000544
+36998590	404	419	18F-Florbetaben	Chemical	MESH:C527756
+36998590	421	424	FBB	Chemical	MESH:C527756
+36998590	486	488	AD	Disease	MESH:D000544
+36998590	530	533	FBB	Chemical	MESH:C527756
+36998590	565	567	AD	Disease	MESH:D000544
+36998590	617	625	patients	Species	9606
+36998590	641	643	AD	Disease	MESH:D000544
+36998590	660	663	FBB	Chemical	MESH:C527756
+36998590	761	764	FBB	Chemical	MESH:C527756
+36998590	815	818	FBB	Chemical	MESH:C527756
+36998590	1040	1042	AD	Disease	MESH:D000544
+36998590	1087	1090	FBB	Chemical	MESH:C527756
+36998590	1191	1193	AD	Disease	MESH:D000544
+36998590	1259	1262	FBB	Chemical	MESH:C527756
+36998590	1299	1301	AD	Disease	MESH:D000544
+36998590	1343	1346	FBB	Chemical	MESH:C527756
+36998590	1543	1546	FBB	Chemical	MESH:C527756
+36998590	1574	1576	AD	Disease	MESH:D000544
+36998590	1662	1665	FBB	Chemical	MESH:C527756
+36998590	1757	1759	AD	Disease	MESH:D000544
+36998590	1816	1818	AD	Disease	MESH:D000544
+36998590	1865	1868	FBB	Chemical	MESH:C527756
+36998590	Positive_Correlation	MESH:C527756	MESH:D000544
+36998590	Association	MESH:D000544	351
+

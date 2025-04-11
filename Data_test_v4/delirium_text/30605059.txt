@@ -1,0 +1,21 @@
+30605059|t|Identify Compounds' Target Against Alzheimer's Disease Based on In-Silico Approach.
+30605059|a|BACKGROUND: Alzheimer's disease swept every corner of the globe and the number of patients worldwide has been rising. At present, there are as many as 30 million people with Alzheimer's disease in the world, and it is expected to exceed 80 million people by 2050. Consequently, the study of Alzheimer's drugs has become one of the most popular medical topics. METHODS: In this study, in order to build a predicting model for Alzheimer's drugs and targets, the attribute discriminators CfsSubsetEval, ConsistencySubsetEval and FilteredSubsetEval are combined with search methods such as BestFirst, GeneticSearch and Greedystepwise to filter the molecular descriptors. Then the machine learning algorithms such as BayesNet, SVM, KNN and C4.5 are used to construct the 2D-Structure Activity Relationship(2D-SAR) model. Its modeling results are utilized for Receiver Operating Characteristic curve(ROC) analysis. RESULTS: The prediction rates of correctness using Randomforest for AChE, BChE, MAO-B, BACE1, Tau protein and Non-inhibitor are 77.0%, 79.1%, 100.0%, 94.2%, 93.2% and 94.9%, respectively, which are overwhelming as compared to those of BayesNet, BP, SVM, KNN, AdaBoost and C4.5. CONCLUSION: In this paper, we conclude that Random Forest is the best learner model for the prediction of Alzheimer's drugs and targets. Besides, we set up an online server to predict whether a small molecule is the inhibitor of Alzheimer's target at http://47.106.158.30:8080/AD/. Furthermore, it can distinguish the target protein of a small molecule.
+30605059	35	54	Alzheimer's Disease	Disease	MESH:D000544
+30605059	96	115	Alzheimer's disease	Disease	MESH:D000544
+30605059	166	174	patients	Species	9606
+30605059	246	252	people	Species	9606
+30605059	258	277	Alzheimer's disease	Disease	MESH:D000544
+30605059	332	338	people	Species	9606
+30605059	375	386	Alzheimer's	Disease	MESH:D000544
+30605059	509	520	Alzheimer's	Disease	MESH:D000544
+30605059	1061	1065	AChE	Gene	43
+30605059	1067	1071	BChE	Gene	590
+30605059	1073	1078	MAO-B	Gene	4129
+30605059	1080	1085	BACE1	Gene	23621
+30605059	1087	1090	Tau	Gene	4137
+30605059	1377	1388	Alzheimer's	Disease	MESH:D000544
+30605059	1500	1511	Alzheimer's	Disease	MESH:D000544
+30605059	1548	1550	AD	Disease	MESH:D000544
+30605059	Association	MESH:D000544	590
+30605059	Association	MESH:D000544	4129
+

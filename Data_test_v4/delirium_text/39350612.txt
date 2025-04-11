@@ -1,0 +1,17 @@
+39350612|t|Deep learning-based binary classification of beta-amyloid plaques using 18F florapronol PET.
+39350612|a|PURPOSE: This study aimed to investigate a deep learning model to classify amyloid plaque deposition in the brain PET images of patients suspected of Alzheimer's disease. METHODS: A retrospective study was conducted on patients who were suspected of having a mild cognitive impairment or dementia, and brain amyloid 18F florapronol PET/computed tomography images were obtained from 2019 to 2022. Brain PET images were visually assessed by two nuclear medicine specialists, who classified them as either positive or negative. Image rotation was applied for data augmentation. The dataset was split into training and testing sets at a ratio of 8 : 2. For the convolutional neural network (CNN) analysis, stratified k-fold (k = 5) cross-validation was applied using training set. Trained model was evaluated using testing set. RESULTS: A total of 175 patients were included in this study. The average age at the time of PET imaging was 70.4 +- 9.3 years and included 77 men and 98 women (44.0% and 56.0%, respectively). The visual assessment revealed positivity in 62 patients (35.4%) and negativity in 113 patients (64.6%). After stratified k-fold cross-validation, the CNN model showed an average accuracy of 0.917 +- 0.027. The model exhibited an accuracy of 0.914 and an area under the curve of 0.958 in the testing set. These findings affirm the model's high reliability in distinguishing between positive and negative cases. CONCLUSION: The study verifies the potential of the CNN model to classify amyloid positive and negative cases using brain PET images. This model may serve as a supplementary tool to enhance the accuracy of clinical diagnoses.
+39350612	45	65	beta-amyloid plaques	Disease	MESH:D058225
+39350612	72	87	18F florapronol	Chemical	-
+39350612	168	182	amyloid plaque	Disease	MESH:D058225
+39350612	221	229	patients	Species	9606
+39350612	243	262	Alzheimer's disease	Disease	MESH:D000544
+39350612	312	320	patients	Species	9606
+39350612	357	377	cognitive impairment	Disease	MESH:D003072
+39350612	381	389	dementia	Disease	MESH:D003704
+39350612	409	424	18F florapronol	Chemical	-
+39350612	941	949	patients	Species	9606
+39350612	1060	1063	men	Species	9606
+39350612	1071	1076	women	Species	9606
+39350612	1158	1166	patients	Species	9606
+39350612	1197	1205	patients	Species	9606
+

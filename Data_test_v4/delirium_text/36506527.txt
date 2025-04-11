@@ -1,0 +1,21 @@
+36506527|t|Mechanism of action of paclitaxel for treating glioblastoma based on single-cell RNA sequencing data and network pharmacology.
+36506527|a|Paclitaxel is an herbal active ingredient used in clinical practice that shows anti-tumor effects. However, its biological activity, mechanism, and cancer cell-killing effects remain unknown. Information on the chemical gene interactions of paclitaxel was obtained from the Comparative Toxicogenomics Database, SwishTargetPrediction, Binding DB, and TargetNet databases. Gene expression data were obtained from the GSE4290 dataset. Differential gene analysis, Kyoto Encyclopedia of Genes and Genomes, and Gene Ontology analyses were performed. Gene set enrichment analysis was performed to evaluate disease pathway activation; weighted gene co-expression network analysis with diff analysis was used to identify disease-associated genes, analyze differential genes, and identify drug targets via protein-protein interactions. The Molecular Complex Detection (MCODE) analysis of critical subgroup networks was conducted to identify essential genes affected by paclitaxel, assess crucial cluster gene expression differences in glioma versus standard samples, and perform receiver operator characteristic mapping. To evaluate the pharmacological targets and signaling pathways of paclitaxel in glioblastoma, the single-cell GSE148196 dataset was acquired from the Gene Expression Omnibus database and preprocessed using Seurat software. Based on the single-cell RNA-sequencing dataset, 24 cell clusters were identified, along with marker genes for the two different cell types in each cluster. Correlation analysis revealed that the mechanism of paclitaxel treatment involves effects on neurons. Paclitaxel may affect glioblastoma by improving glucose metabolism and processes involved in modulating immune function in the body.
+36506527	23	33	paclitaxel	Chemical	MESH:D017239
+36506527	47	59	glioblastoma	Disease	MESH:D005909
+36506527	127	137	Paclitaxel	Chemical	MESH:D017239
+36506527	211	216	tumor	Disease	MESH:D009369
+36506527	275	281	cancer	Disease	MESH:D009369
+36506527	368	378	paclitaxel	Chemical	MESH:D017239
+36506527	1086	1096	paclitaxel	Chemical	MESH:D017239
+36506527	1152	1158	glioma	Disease	MESH:D005910
+36506527	1304	1314	paclitaxel	Chemical	MESH:D017239
+36506527	1318	1330	glioblastoma	Disease	MESH:D005909
+36506527	1670	1680	paclitaxel	Chemical	MESH:D017239
+36506527	1720	1730	Paclitaxel	Chemical	MESH:D017239
+36506527	1742	1754	glioblastoma	Disease	MESH:D005909
+36506527	1768	1775	glucose	Chemical	MESH:D005947
+36506527	Negative_Correlation	MESH:D017239	MESH:D009369
+36506527	Negative_Correlation	MESH:D017239	MESH:D005909
+36506527	Association	MESH:D005947	MESH:D005909
+36506527	Association	MESH:D005947	MESH:D017239
+

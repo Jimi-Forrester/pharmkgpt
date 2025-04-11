@@ -1,0 +1,20 @@
+30044400|t|Identification of Natural Compounds against Neurodegenerative Diseases Using In Silico Techniques.
+30044400|a|The aim of this study was to identify new potentially active compounds for three protein targets, tropomyosin receptor kinase A (TrkA), N-methyl-d-aspartate (NMDA) receptor, and leucine-rich repeat kinase 2 (LRRK2), that are related to various neurodegenerative diseases such as Alzheimer's, Parkinson's, and neuropathic pain. We used a combination of machine learning methods including artificial neural networks and advanced multilinear techniques to develop quantitative structure-activity relationship (QSAR) models for all target proteins. The models were applied to screen more than 13,000 natural compounds from a public database to identify active molecules. The best candidate compounds were further confirmed by docking analysis and molecular dynamics simulations using the crystal structures of the proteins. Several compounds with novel scaffolds were predicted that could be used as the basis for development of novel drug inhibitors related to each target.
+30044400	44	70	Neurodegenerative Diseases	Disease	MESH:D019636
+30044400	197	226	tropomyosin receptor kinase A	Gene	4914
+30044400	228	232	TrkA	Gene	4914
+30044400	277	305	leucine-rich repeat kinase 2	Gene	120892
+30044400	307	312	LRRK2	Gene	120892
+30044400	343	369	neurodegenerative diseases	Disease	MESH:D019636
+30044400	378	389	Alzheimer's	Disease	MESH:D000544
+30044400	391	402	Parkinson's	Disease	MESH:D010300
+30044400	408	424	neuropathic pain	Disease	MESH:D009437
+30044400	Association	MESH:D010300	120892
+30044400	Association	MESH:D009437	4914
+30044400	Association	MESH:D000544	4914
+30044400	Association	MESH:D010300	4914
+30044400	Association	MESH:D019636	120892
+30044400	Association	MESH:D019636	4914
+30044400	Association	MESH:D009437	120892
+30044400	Association	MESH:D000544	120892
+

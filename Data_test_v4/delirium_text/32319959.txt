@@ -1,0 +1,18 @@
+32319959|t|Predicting Inpatient Falls Using Natural Language Processing of Nursing Records Obtained From Japanese Electronic Medical Records: Case-Control Study.
+32319959|a|BACKGROUND: Falls in hospitals are the most common risk factor that affects the safety of inpatients and can result in severe harm. Therefore, preventing falls is one of the most important areas of risk management for health care organizations. However, existing methods for predicting falls are laborious and costly. OBJECTIVE: The objective of this study is to verify whether hospital inpatient falls can be predicted through the analysis of a single input-unstructured nursing records obtained from Japanese electronic medical records (EMRs)-using a natural language processing (NLP) algorithm and machine learning. METHODS: The nursing records of 335 fallers and 408 nonfallers for a 12-month period were extracted from the EMRs of an acute care hospital and randomly divided into a learning data set and test data set. The former data set was subjected to NLP and machine learning to extract morphemes that contributed to separating fallers from nonfallers to construct a model for predicting falls. Then, the latter data set was used to determine the predictive value of the model using receiver operating characteristic (ROC) analysis. RESULTS: The prediction of falls using the test data set showed high accuracy, with an area under the ROC curve, sensitivity, specificity, and odds ratio of mean 0.834 (SD 0.005), mean 0.769 (SD 0.013), mean 0.785 (SD 0.020), and mean 12.27 (SD 1.11) for five independent experiments, respectively. The morphemes incorporated into the final model included many words closely related to known risk factors for falls, such as the use of psychotropic drugs, state of consciousness, and mobility, thereby demonstrating that an NLP algorithm combined with machine learning can effectively extract risk factors for falls from nursing records. CONCLUSIONS: We successfully established that falls among hospital inpatients can be predicted by analyzing nursing records using an NLP algorithm and machine learning. Therefore, it may be possible to develop a fall risk monitoring system that analyzes nursing records daily and alerts health care professionals when the fall risk of an inpatient is increased.
+32319959	11	20	Inpatient	Species	
+32319959	21	26	Falls	Disease	MESH:C537863
+32319959	163	168	Falls	Disease	MESH:C537863
+32319959	241	251	inpatients	Species	9606
+32319959	305	310	falls	Disease	MESH:C537863
+32319959	437	442	falls	Disease	MESH:C537863
+32319959	538	547	inpatient	Species	
+32319959	548	553	falls	Disease	MESH:C537863
+32319959	1149	1154	falls	Disease	MESH:C537863
+32319959	1321	1326	falls	Disease	MESH:C537863
+32319959	1703	1708	falls	Disease	MESH:C537863
+32319959	1903	1908	falls	Disease	MESH:C537863
+32319959	1977	1982	falls	Disease	MESH:C537863
+32319959	1998	2008	inpatients	Species	9606
+32319959	2269	2278	inpatient	Species	
+

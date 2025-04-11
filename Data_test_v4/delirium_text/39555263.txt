@@ -1,0 +1,14 @@
+39555263|t|STEADYNet: Spatiotemporal EEG analysis for dementia detection using convolutional neural network.
+39555263|a|Dementia is a neuro-degenerative disorder with a high death rate, mainly due to high human error, time, and cost of the current clinical diagnostic techniques. The existing dementia detection methods using hand-crafted electroencephalogram (EEG) signal features are unreliable. A convolution neural network using spatiotemporal EEG signals (STEADYNet) is presented to improve the dementia detection. The STEADYNet uses a multichannel temporal EEG signal as input. The network is grouped into feature extraction and classification components. The feature extraction comprises two convolution layers to generate complex features, a max-pooling layer to reduce the EEG signal's spatiotemporal redundancy, and a dropout layer to improve the network's generalization. The classification processes the feature extraction output nonlinearly using two fully-connected layers to generate salient features and a softmax layer to generate disease probabilities. Two publicly available multiclass datasets of dementia are used for evaluation. The STEADYNet outperforms existing automatic dementia detection methods with accuracies of 99.29 %  , 99.65 %  , and 92.25 %  for Alzheimer's disease, mild cognitive impairment, and frontotemporal dementia, respectively. The STEADYNet has a low inference time and floating point operations, suitable for real-time applications. It may aid neurologists in efficient detection and treatment. A Python implementation of the STEADYNet is available at https://github.com/SandeepSangle12/STEADYNet.git.
+39555263	43	51	dementia	Disease	MESH:D003704
+39555263	98	106	Dementia	Disease	MESH:D003704
+39555263	112	139	neuro-degenerative disorder	Disease	MESH:D019636
+39555263	183	188	human	Species	9606
+39555263	271	279	dementia	Disease	MESH:D003704
+39555263	478	486	dementia	Disease	MESH:D003704
+39555263	1095	1103	dementia	Disease	MESH:D003704
+39555263	1174	1182	dementia	Disease	MESH:D003704
+39555263	1259	1278	Alzheimer's disease	Disease	MESH:D000544
+39555263	1285	1305	cognitive impairment	Disease	MESH:D003072
+39555263	1311	1334	frontotemporal dementia	Disease	MESH:D057180
+

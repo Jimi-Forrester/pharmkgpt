@@ -1,0 +1,17 @@
+36994397|t|Exploring the dominant features and data-driven detection of polycystic ovary syndrome through modified stacking ensemble machine learning technique.
+36994397|a|Polycystic ovary syndrome (PCOS) is the most frequent endocrinological anomaly in reproductive women that causes persistent hormonal secretion disruption, leading to the formation of numerous cysts within the ovaries and serious health complications. But the real-world clinical detection technique for PCOS is very critical since the accuracy of interpretations being substantially dependent on the physician's expertise. Thus, an artificially intelligent PCOS prediction model might be a feasible additional technique to the error prone and time-consuming diagnostic technique. In this study, a modified ensemble machine learning (ML) classification approach is proposed utilizing state-of-the-art stacking technique for PCOS identification with patients' symptom data; employing five traditional ML models as base learners and then one bagging or boosting ensemble ML model as the meta-learner of the stacked model. Furthermore, three distinct types of feature selection strategies are applied to pick different sets of features with varied numbers and combinations of attributes. To evaluate and explore the dominant features necessary for predicting PCOS, the proposed technique with five variety of models and other ten types of classifiers is trained, tested and assessed utilizing different feature sets. As outcomes, the proposed stacking ensemble technique significantly enhances the accuracy in comparison to the other existing ML based techniques in case of all varieties of feature sets. However, among various models investigated to categorize PCOS and non-PCOS patients, the stacking ensemble model with 'Gradient Boosting' classifier as meta learner outperforms others with 95.7% accuracy while utilizing the top 25 features selected using Principal Component Analysis (PCA) feature selection technique.
+36994397	61	86	polycystic ovary syndrome	Disease	MESH:D011085
+36994397	150	175	Polycystic ovary syndrome	Disease	MESH:D011085
+36994397	177	181	PCOS	Disease	MESH:D011085
+36994397	204	228	endocrinological anomaly	Disease	MESH:D000013
+36994397	245	250	women	Species	9606
+36994397	342	347	cysts	Disease	MESH:D003560
+36994397	453	457	PCOS	Disease	MESH:D011085
+36994397	607	611	PCOS	Disease	MESH:D011085
+36994397	873	877	PCOS	Disease	MESH:D011085
+36994397	898	906	patients	Species	9606
+36994397	1305	1309	PCOS	Disease	MESH:D011085
+36994397	1708	1712	PCOS	Disease	MESH:D011085
+36994397	1721	1725	PCOS	Disease	MESH:D011085
+36994397	1726	1734	patients	Species	9606
+

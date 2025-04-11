@@ -1,0 +1,41 @@
+24263105|t|Dual role of the p38 MAPK/cPLA2 pathway in the regulation of platelet apoptosis induced by ABT-737 and strong platelet agonists.
+24263105|a|p38 Mitogen-activated protein (MAP) kinase is involved in the apoptosis of nucleated cells. Although platelets are anucleated cells, apoptotic proteins have been shown to regulate platelet lifespan. However, the involvement of p38 MAP kinase in platelet apoptosis is not yet clearly defined. Therefore, we investigated the role of p38 MAP kinase in apoptosis induced by a mimetic of BH3-only proteins, ABT-737, and in apoptosis-like events induced by such strong platelet agonists as thrombin in combination with convulxin (Thr/Cvx), both of which result in p38 MAP kinase phosphorylation and activation. A p38 inhibitor (SB202190) inhibited the apoptotic events induced by ABT-737 but did not influence those induced by Thr/Cvx. The inhibitor also reduced the phosphorylation of cytosolic phospholipase A2 (cPLA2), an established p38 substrate, induced by ABT-737 or Thr/Cvx. ABT-737, but not Thr/Cvx, induced the caspase 3-dependent cleavage and inactivation of cPLA2. Thus, p38 MAPK promotes ABT-737-induced apoptosis by inhibiting the cPLA2/arachidonate pathway. We also show that arachidonic acid (AA) itself and in combination with Thr/Cvx or ABT-737 at low concentrations prevented apoptotic events, whereas at high concentrations it enhanced such events. Our data support the hypothesis that the p38 MAPK-triggered arachidonate pathway serves as a defense mechanism against apoptosis under physiological conditions. 
+24263105	26	31	cPLA2	Gene	5321
+24263105	91	98	ABT-737	Chemical	MESH:C501332
+24263105	356	370	p38 MAP kinase	Gene	1432
+24263105	460	474	p38 MAP kinase	Gene	1432
+24263105	512	515	BH3	Chemical	MESH:C006008
+24263105	531	538	ABT-737	Chemical	MESH:C501332
+24263105	613	621	thrombin	Gene	2147
+24263105	653	660	Thr/Cvx	Chemical	-
+24263105	687	701	p38 MAP kinase	Gene	1432
+24263105	736	739	p38	Gene	1432
+24263105	751	759	SB202190	Chemical	MESH:C090942
+24263105	803	810	ABT-737	Chemical	MESH:C501332
+24263105	850	857	Thr/Cvx	Chemical	-
+24263105	909	935	cytosolic phospholipase A2	Gene	5321
+24263105	937	942	cPLA2	Gene	5321
+24263105	960	963	p38	Gene	1432
+24263105	986	993	ABT-737	Chemical	MESH:C501332
+24263105	997	1004	Thr/Cvx	Chemical	-
+24263105	1006	1013	ABT-737	Chemical	MESH:C501332
+24263105	1023	1030	Thr/Cvx	Chemical	-
+24263105	1044	1053	caspase 3	Gene	836
+24263105	1093	1098	cPLA2	Gene	5321
+24263105	1124	1131	ABT-737	Chemical	MESH:C501332
+24263105	1168	1173	cPLA2	Gene	5321
+24263105	1174	1186	arachidonate	Chemical	MESH:D016718
+24263105	1214	1230	arachidonic acid	Chemical	MESH:D016718
+24263105	1267	1274	Thr/Cvx	Chemical	-
+24263105	1278	1285	ABT-737	Chemical	MESH:C501332
+24263105	1452	1464	arachidonate	Chemical	MESH:D016718
+24263105	Association	MESH:C501332	836
+24263105	Positive_Correlation	MESH:C501332	1432
+24263105	Negative_Correlation	MESH:C501332	5321
+24263105	Negative_Correlation	MESH:C090942	1432
+24263105	Positive_Correlation	1432	2147
+24263105	Association	1432	5321
+24263105	Negative_Correlation	MESH:C090942	MESH:C501332
+24263105	Association	MESH:D016718	5321
+24263105	Association	5321	836
+

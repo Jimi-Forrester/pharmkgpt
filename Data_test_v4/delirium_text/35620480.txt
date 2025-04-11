@@ -1,0 +1,30 @@
+35620480|t|Identifying Methylation Signatures and Rules for COVID-19 With Machine Learning Methods.
+35620480|a|The occurrence of coronavirus disease 2019 (COVID-19) has become a serious challenge to global public health. Definitive and effective treatments for COVID-19 are still lacking, and targeted antiviral drugs are not available. In addition, viruses can regulate host innate immunity and antiviral processes through the epigenome to promote viral self-replication and disease progression. In this study, we first analyzed the methylation dataset of COVID-19 using the Monte Carlo feature selection method to obtain a feature list. This feature list was subjected to the incremental feature selection method combined with a decision tree algorithm to extract key biomarkers, build effective classification models and classification rules that can remarkably distinguish patients with or without COVID-19. EPSTI1, NACAP1, SHROOM3, C19ORF35, and MX1 as the essential features play important roles in the infection and immune response to novel coronavirus. The six significant rules extracted from the optimal classifier quantitatively explained the expression pattern of COVID-19. Therefore, these findings validated that our method can distinguish COVID-19 at the methylation level and provide guidance for the diagnosis and treatment of COVID-19.
+35620480	49	57	COVID-19	Disease	MESH:D000086382
+35620480	107	131	coronavirus disease 2019	Disease	MESH:D000086382
+35620480	133	141	COVID-19	Disease	MESH:D000086382
+35620480	239	247	COVID-19	Disease	MESH:D000086382
+35620480	535	543	COVID-19	Disease	MESH:D000086382
+35620480	855	863	patients	Species	9606
+35620480	880	888	COVID-19	Disease	MESH:D000086382
+35620480	890	896	EPSTI1	Gene	94240
+35620480	898	904	NACAP1	Gene	83955
+35620480	906	913	SHROOM3	Gene	57619
+35620480	915	923	C19ORF35	Gene	374872
+35620480	929	932	MX1	Gene	4599
+35620480	987	996	infection	Disease	MESH:D007239
+35620480	1020	1037	novel coronavirus	Disease	MESH:D000086382
+35620480	1154	1162	COVID-19	Disease	MESH:D000086382
+35620480	1232	1240	COVID-19	Disease	MESH:D000086382
+35620480	1322	1330	COVID-19	Disease	MESH:D000086382
+35620480	Association	MESH:D000086382	57619
+35620480	Association	MESH:D007239	374872
+35620480	Association	MESH:D000086382	94240
+35620480	Association	MESH:D000086382	4599
+35620480	Association	MESH:D007239	94240
+35620480	Association	MESH:D000086382	83955
+35620480	Association	MESH:D000086382	374872
+35620480	Association	MESH:D007239	57619
+35620480	Association	MESH:D007239	4599
+35620480	Association	MESH:D007239	83955
+

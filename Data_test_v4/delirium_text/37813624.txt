@@ -1,0 +1,15 @@
+37813624|t|Bayesian bi-level variable selection for genome-wide survival study.
+37813624|a|Mild cognitive impairment (MCI) is a clinical syndrome characterized by the onset and evolution of cognitive impairments, often considered a transitional stage to Alzheimer's disease (AD). The genetic traits of MCI patients who experience a rapid progression to AD can enhance early diagnosis capabilities and facilitate drug discovery for AD. While a genome-wide association study (GWAS) is a standard tool for identifying single nucleotide polymorphisms (SNPs) related to a disease, it fails to detect SNPs with small effect sizes due to stringent control for multiple testing. Additionally, the method does not consider the group structures of SNPs, such as genes or linkage disequilibrium blocks, which can provide valuable insights into the genetic architecture. To address the limitations, we propose a Bayesian bi-level variable selection method that detects SNPs associated with time of conversion from MCI to AD. Our approach integrates group inclusion indicators into an accelerated failure time model to identify important SNP groups. Additionally, we employ data augmentation techniques to impute censored time values using a predictive posterior. We adapt Dirichlet-Laplace shrinkage priors to incorporate the group structure for SNP-level variable selection. In the simulation study, our method outperformed other competing methods regarding variable selection. The analysis of Alzheimer's Disease Neuroimaging Initiative (ADNI) data revealed several genes directly or indirectly related to AD, whereas a classical GWAS did not identify any significant SNPs.
+37813624	69	94	Mild cognitive impairment	Disease	MESH:D060825
+37813624	96	99	MCI	Disease	MESH:D060825
+37813624	168	189	cognitive impairments	Disease	MESH:D003072
+37813624	232	251	Alzheimer's disease	Disease	MESH:D000544
+37813624	253	255	AD	Disease	MESH:D000544
+37813624	280	283	MCI	Disease	MESH:D060825
+37813624	331	333	AD	Disease	MESH:D000544
+37813624	409	411	AD	Disease	MESH:D000544
+37813624	980	983	MCI	Disease	MESH:D060825
+37813624	987	989	AD	Disease	MESH:D000544
+37813624	1461	1480	Alzheimer's Disease	Disease	MESH:D000544
+37813624	1574	1576	AD	Disease	MESH:D000544
+

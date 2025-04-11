@@ -1,0 +1,40 @@
+37188781|t|Resilience to autosomal dominant Alzheimer's disease in a Reelin-COLBOS heterozygous man.
+37188781|a|We characterized the world's second case with ascertained extreme resilience to autosomal dominant Alzheimer's disease (ADAD). Side-by-side comparisons of this male case and the previously reported female case with ADAD homozygote for the APOE3 Christchurch (APOECh) variant allowed us to discern common features. The male remained cognitively intact until 67 years of age despite carrying a PSEN1-E280A mutation. Like the APOECh carrier, he had extremely elevated amyloid plaque burden and limited entorhinal Tau tangle burden. He did not carry the APOECh variant but was heterozygous for a rare variant in RELN (H3447R, termed COLBOS after the Colombia-Boston biomarker research study), a ligand that like apolipoprotein E binds to the VLDLr and APOEr2 receptors. RELN-COLBOS is a gain-of-function variant showing stronger ability to activate its canonical protein target Dab1 and reduce human Tau phosphorylation in a knockin mouse. A genetic variant in a case protected from ADAD suggests a role for RELN signaling in resilience to dementia.
+37188781	14	23	autosomal	Disease	MESH:D002869
+37188781	33	52	Alzheimer's disease	Disease	MESH:D000544
+37188781	170	179	autosomal	Disease	MESH:D002869
+37188781	189	208	Alzheimer's disease	Disease	MESH:D000544
+37188781	210	214	ADAD	Disease	MESH:D000544
+37188781	305	309	ADAD	Disease	MESH:D000544
+37188781	329	334	APOE3	Gene	348
+37188781	482	487	PSEN1	Gene	5663
+37188781	488	493	E280A	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:0;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+37188781	555	569	amyloid plaque	Disease	MESH:D058225
+37188781	698	702	RELN	Gene	5649
+37188781	704	710	H3447R	ProteinMutation	tmVar:p|SUB|H|3447|R;HGVS:p.H3447R;VariantGroup:1;CorrespondingGene:5649;RS#:201731543;CorrespondingSpecies:9606;CA#:4419913
+37188781	798	814	apolipoprotein E	Gene	348
+37188781	828	833	VLDLr	Gene	7436
+37188781	838	844	APOEr2	Gene	7804
+37188781	856	860	RELN	Gene	5649
+37188781	964	968	Dab1	Gene	13131
+37188781	980	985	human	Species	9606
+37188781	986	989	Tau	Gene	4137
+37188781	1019	1024	mouse	Species	10090
+37188781	1069	1073	ADAD	Disease	MESH:D000544
+37188781	1094	1098	RELN	Gene	5649
+37188781	1126	1134	dementia	Disease	MESH:D003704
+37188781	Bind	348	5649
+37188781	Association	MESH:D000544	5649
+37188781	Association	MESH:D000544	348
+37188781	Negative_Correlation	MESH:D000544	RS#:63750231;HGVS:p.E280A;CorrespondingGene:5663
+37188781	Negative_Correlation	MESH:D000544	RS#:201731543;HGVS:p.H3447R;CorrespondingGene:5649
+37188781	Negative_Correlation	4137	5649
+37188781	Association	5649	7804
+37188781	Positive_Correlation	13131	5649
+37188781	Association	MESH:D002869	5649
+37188781	Association	MESH:D003704	5649
+37188781	Bind	348	7436
+37188781	Association	5649	7436
+37188781	Bind	348	7804
+37188781	Association	MESH:D000544	5663
+

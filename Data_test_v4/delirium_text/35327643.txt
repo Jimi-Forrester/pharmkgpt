@@ -1,0 +1,42 @@
+35327643|t|Network Theoretical Approach to Explore Factors Affecting Signal Propagation and Stability in Dementia's Protein-Protein Interaction Network.
+35327643|a|Dementia-a syndrome affecting human cognition-is a major public health concern given to its rising prevalence worldwide. Though multiple research studies have analyzed disorders such as Alzheimer's disease and Frontotemporal dementia using a systems biology approach, a similar approach to dementia syndrome as a whole is required. In this study, we try to find the high-impact core regulating processes and factors involved in dementia's protein-protein interaction network. We also explore various aspects related to its stability and signal propagation. Using gene interaction databases such as STRING and GeneMANIA, a principal dementia network (PDN) consisting of 881 genes and 59,085 interactions was achieved. It was assortative in nature with hierarchical, scale-free topology enriched in various gene ontology (GO) categories and KEGG pathways, such as negative and positive regulation of apoptotic processes, macroautophagy, aging, response to drug, protein binding, etc. Using a clustering algorithm (Louvain method of modularity maximization) iteratively, we found a number of communities at different levels of hierarchy in PDN consisting of 95 "motif-localized hubs", out of which, 7 were present at deepest level and hence were key regulators (KRs) of PDN (HSP90AA1, HSP90AB1, EGFR, FYN, JUN, CELF2 and CTNNA3). In order to explore aspects of network's resilience, a knockout (of motif-localized hubs) experiment was carried out. It changed the network's topology from a hierarchal scale-free topology to scale-free, where independent clusters exhibited greater control. Additionally, network experiments on interaction of druggable genome and motif-localized hubs were carried out where UBC, EGFR, APP, CTNNB1, NTRK1, FN1, HSP90AA1, MDM2, VCP, CTNNA1 and GRB2 were identified as hubs in the resultant network (RN). We finally concluded that stability and resilience of PDN highly relies on motif-localized hubs (especially those present at deeper levels), making them important therapeutic intervention candidates. HSP90AA1, involved in heat shock response (and its master regulator, i.e., HSF1), and EGFR are most important genes in pathology of dementia apart from KRs, given their presence as KRs as well as hubs in RN.
+35327643	94	102	Dementia	Disease	MESH:D003704
+35327643	142	150	Dementia	Disease	MESH:D003704
+35327643	172	177	human	Species	9606
+35327643	328	347	Alzheimer's disease	Disease	MESH:D000544
+35327643	352	375	Frontotemporal dementia	Disease	MESH:D057180
+35327643	432	449	dementia syndrome	Disease	MESH:D003704
+35327643	570	578	dementia	Disease	MESH:D003704
+35327643	774	782	dementia	Disease	MESH:D003704
+35327643	1414	1422	HSP90AA1	Gene	3320
+35327643	1424	1432	HSP90AB1	Gene	3326
+35327643	1434	1438	EGFR	Gene	1956
+35327643	1440	1443	FYN	Gene	2534
+35327643	1450	1455	CELF2	Gene	10659
+35327643	1460	1466	CTNNA3	Gene	29119
+35327643	1845	1848	UBC	Gene	7316
+35327643	1850	1854	EGFR	Gene	1956
+35327643	1861	1867	CTNNB1	Gene	1499
+35327643	1869	1874	NTRK1	Gene	4914
+35327643	1876	1879	FN1	Gene	2335
+35327643	1881	1889	HSP90AA1	Gene	3320
+35327643	1891	1895	MDM2	Gene	4193
+35327643	1897	1900	VCP	Gene	7415
+35327643	1902	1908	CTNNA1	Gene	1495
+35327643	1913	1917	GRB2	Gene	2885
+35327643	2173	2181	HSP90AA1	Gene	3320
+35327643	2248	2252	HSF1	Gene	3297
+35327643	2259	2263	EGFR	Gene	1956
+35327643	2305	2313	dementia	Disease	MESH:D003704
+35327643	Association	MESH:D003704	3326
+35327643	Association	MESH:D003704	10659
+35327643	Association	MESH:D003704	2885
+35327643	Association	MESH:D003704	3320
+35327643	Association	MESH:D003704	29119
+35327643	Association	MESH:D003704	1956
+35327643	Association	MESH:D003704	1499
+35327643	Association	MESH:D003704	4914
+35327643	Association	MESH:D003704	2534
+35327643	Association	MESH:D003704	3297
+35327643	Association	MESH:D003704	1495
+

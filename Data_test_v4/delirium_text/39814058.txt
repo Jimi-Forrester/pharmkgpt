@@ -1,0 +1,50 @@
+39814058|t|Unveiling the Immune Landscape of Delirium through Single-Cell RNA Sequencing and Machine Learning: Towards Precision Diagnosis and Therapy.
+39814058|a|BACKGROUND: Postoperative delirium (POD) poses significant clinical challenges regarding its diagnosis and treatment. Identifying biomarkers that can predict and diagnose POD is crucial for improving patient outcomes. METHODS: To explore potential biomarkers for POD, we conducted bulk RNA sequencing (bulk-seq) on peripheral blood samples from POD patients and healthy controls. The expression levels of genes downstream of the phosphatidylinositol 3-kinase/protein kinase B (PI3K-Akt) signalling pathway were analysed. We then validated the expression of these genes using quantitative real-time polymerase chain reaction (RT-qPCR) in an independent cohort of 30 healthy controls and 30 POD patients. Receiver operating characteristic (ROC) analysis and six machine learning models were used to evaluate the predictive and diagnostic value of these genes. Additionally, single-cell RNA sequencing (scRNA-seq) was performed to validate gene expression in specific subsets of peripheral blood mononuclear cells (PBMCs), including T-cells, B-cells, natural killer (NK) cells, dendritic cells (DCs), and monocytes. RESULTS: Bulk-seq revealed increased expression of genes downstream of the PI3K-Akt signalling pathway, specifically CHRM2, IL6, NOS3, NGF, and IL6R, in the peripheral blood of POD patients compared to healthy controls. Conversely, the expression of IGF1 was significantly decreased. RT-qPCR validation confirmed these findings. ROC analysis and machine learning models indicated that these genes are useful for predicting and diagnosing POD. scRNA-seq further validated the expression of these genes in specific PBMC subsets, including T-cells, B-cells, NK cells, DCs, and monocytes, with results consistent with the bulk-seq and RT-qPCR data. CONCLUSIONS: The abnormal activation of the PI3K-Akt signalling pathway in T-cells, B-cells, NK cells, DCs, and monocytes may serve as potential biomarkers for predicting and diagnosing POD. These findings could inform the development of novel therapeutic strategies for managing POD.
+39814058	34	42	Delirium	Disease	MESH:D003693
+39814058	153	175	Postoperative delirium	Disease	MESH:D000071257
+39814058	177	180	POD	Disease	MESH:D000071257
+39814058	312	315	POD	Disease	MESH:D000071257
+39814058	341	348	patient	Species	9606
+39814058	404	407	POD	Disease	MESH:D000071257
+39814058	486	489	POD	Disease	MESH:D000071257
+39814058	490	498	patients	Species	9606
+39814058	570	599	phosphatidylinositol 3-kinase	Gene	5295
+39814058	600	616	protein kinase B	Gene	2185
+39814058	618	622	PI3K	Gene	5293
+39814058	623	626	Akt	Gene	207
+39814058	830	833	POD	Disease	MESH:D000071257
+39814058	834	842	patients	Species	9606
+39814058	1329	1333	PI3K	Gene	5293
+39814058	1334	1337	Akt	Gene	207
+39814058	1371	1376	CHRM2	Gene	1129
+39814058	1378	1381	IL6	Gene	3569
+39814058	1383	1387	NOS3	Gene	4846
+39814058	1389	1392	NGF	Gene	4803
+39814058	1398	1402	IL6R	Gene	3570
+39814058	1431	1434	POD	Disease	MESH:D000071257
+39814058	1435	1443	patients	Species	9606
+39814058	1504	1508	IGF1	Gene	3479
+39814058	1692	1695	POD	Disease	MESH:D000071257
+39814058	1943	1947	PI3K	Gene	5293
+39814058	1948	1951	Akt	Gene	207
+39814058	2085	2088	POD	Disease	MESH:D000071257
+39814058	2179	2182	POD	Disease	MESH:D000071257
+39814058	Association	MESH:D000071257	3569
+39814058	Negative_Correlation	MESH:D000071257	3479
+39814058	Association	MESH:D000071257	1129
+39814058	Association	207	4846
+39814058	Association	MESH:D000071257	3570
+39814058	Association	MESH:D000071257	207
+39814058	Association	MESH:D000071257	4846
+39814058	Association	3569	5293
+39814058	Association	4846	5293
+39814058	Association	207	4803
+39814058	Association	MESH:D000071257	5293
+39814058	Association	207	5295
+39814058	Association	207	5293
+39814058	Association	207	3569
+39814058	Association	1129	207
+39814058	Association	207	3570
+39814058	Association	MESH:D000071257	4803
+39814058	Association	4803	5293
+

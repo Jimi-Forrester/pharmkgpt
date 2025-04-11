@@ -1,0 +1,23 @@
+29334895|t|Challenges imposed by minor reference alleles on the identification and reporting of clinical variants from exome data.
+29334895|a|BACKGROUND: The conventional variant calling of pathogenic alleles in exome and genome sequencing requires the presence of the non-pathogenic alleles as genome references. This hinders the correct identification of variants with minor and/or pathogenic reference alleles warranting additional approaches for variant calling. RESULTS: More than 26,000 Exome Aggregation Consortium (ExAC) variants have a minor reference allele including variants with known ClinVar disease alleles. For instance, in a number of variants related to clotting disorders, the phenotype-associated allele is a human genome reference allele (rs6025, rs6003, rs1799983, and rs2227564 using the assembly hg19). We highlighted how the current variant calling standards miss homozygous reference disease variants in these sites and provided a bioinformatic panel that can be used to screen these variants using commonly available variant callers. We present exome sequencing results from an individual with venous thrombosis to emphasize how pathogenic alleles in clinically relevant variants escape variant calling while non-pathogenic alleles are detected. CONCLUSIONS: This article highlights the importance of specialized variant calling strategies in clinical variants with minor reference alleles especially in the context of personal genomes and exomes. We provide here a simple strategy to screen potential disease-causing variants when present in homozygous reference state.
+29334895	576	583	ClinVar	Disease	
+29334895	650	668	clotting disorders	Disease	MESH:D020141
+29334895	707	712	human	Species	9606
+29334895	738	744	rs6025	SNP	tmVar:rs6025;VariantGroup:1;CorrespondingGene:2153;RS#:6025;CorrespondingSpecies:9606
+29334895	746	752	rs6003	SNP	tmVar:rs6003;VariantGroup:2;CorrespondingGene:2165;RS#:6003;CorrespondingSpecies:9606
+29334895	754	763	rs1799983	SNP	tmVar:rs1799983;VariantGroup:3;CorrespondingGene:4846;RS#:1799983;CorrespondingSpecies:9606
+29334895	769	778	rs2227564	SNP	tmVar:rs2227564;VariantGroup:0;CorrespondingGene:414236;RS#:2227564;CorrespondingSpecies:9606
+29334895	1099	1116	venous thrombosis	Disease	MESH:D020246
+29334895	Association	MESH:D020141	RS#:6003;CorrespondingGene:2165
+29334895	Association	MESH:D020141	RS#:1799983;CorrespondingGene:4846
+29334895	Association	MESH:D020141	RS#:6025;CorrespondingGene:2153
+29334895	Association	MESH:D020246	RS#:2227564;CorrespondingGene:414236
+29334895	Association	MESH:D020141	RS#:2227564;CorrespondingGene:414236
+29334895	Association	MESH:D020246	RS#:6025;CorrespondingGene:2153
+29334895	Association	MESH:D020141	2165
+29334895	Association	MESH:D020141	4846
+29334895	Association	MESH:D020141	2153
+29334895	Association	MESH:D020246	414236
+29334895	Association	MESH:D020141	414236
+29334895	Association	MESH:D020246	2153
+

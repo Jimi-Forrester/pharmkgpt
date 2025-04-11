@@ -1,0 +1,20 @@
+37090813|t|Discriminative analysis of schizophrenia patients using graph convolutional networks: A combined multimodal MRI and connectomics analysis.
+37090813|a|Introduction: Recent studies in human brain connectomics with multimodal magnetic resonance imaging (MRI) data have widely reported abnormalities in brain structure, function and connectivity associated with schizophrenia (SZ). However, most previous discriminative studies of SZ patients were based on MRI features of brain regions, ignoring the complex relationships within brain networks. Methods: We applied a graph convolutional network (GCN) to discriminating SZ patients using the features of brain region and connectivity derived from a combined multimodal MRI and connectomics analysis. Structural magnetic resonance imaging (sMRI) and resting-state functional magnetic resonance imaging (rs-fMRI) data were acquired from 140 SZ patients and 205 normal controls. Eighteen types of brain graphs were constructed for each subject using 3 types of node features, 3 types of edge features, and 2 brain atlases. We investigated the performance of 18 brain graphs and used the TopK pooling layers to highlight salient brain regions (nodes in the graph). Results: The GCN model, which used functional connectivity as edge features and multimodal features (sMRI + fMRI) of brain regions as node features, obtained the highest average accuracy of 95.8%, and outperformed other existing classification studies in SZ patients. In the explainability analysis, we reported that the top 10 salient brain regions, predominantly distributed in the prefrontal and occipital cortices, were mainly involved in the systems of emotion and visual processing. Discussion: Our findings demonstrated that GCN with a combined multimodal MRI and connectomics analysis can effectively improve the classification of SZ at an individual level, indicating a promising direction for the diagnosis of SZ patients. The code is available at https://github.com/CXY-scut/GCN-SZ.git.
+37090813	27	40	schizophrenia	Disease	MESH:D012559
+37090813	41	49	patients	Species	9606
+37090813	171	176	human	Species	9606
+37090813	347	360	schizophrenia	Disease	MESH:D012559
+37090813	362	364	SZ	Disease	MESH:D012559
+37090813	416	418	SZ	Disease	MESH:D012559
+37090813	419	427	patients	Species	9606
+37090813	605	607	SZ	Disease	MESH:D012559
+37090813	608	616	patients	Species	9606
+37090813	874	876	SZ	Disease	MESH:D012559
+37090813	877	885	patients	Species	9606
+37090813	1451	1453	SZ	Disease	MESH:D012559
+37090813	1454	1462	patients	Species	9606
+37090813	1835	1837	SZ	Disease	MESH:D012559
+37090813	1916	1918	SZ	Disease	MESH:D012559
+37090813	1919	1927	patients	Species	9606
+37090813	1986	1992	SZ.git	Disease	MESH:D012559
+

@@ -1,0 +1,60 @@
+32579500|t|Melatonin Prevents Neddylation Dysfunction in Abeta42-Exposed SH-SY5Y Neuroblastoma Cells by Regulating the Amyloid Precursor Protein- Binding Protein 1 Pathway.
+32579500|a|BACKGROUND: Amyloid Precursor Protein (APP)-Binding Protein 1 (APP-BP1) is a crucial regulator of many key signaling pathways and functions mainly as a scaffold protein to enhance molecular interactions and facilitate catalytic reactions. The interaction of APP-BP1 with Amyloid Precursor Protein (APP) plays a role in cell cycle transit control, which determines the mechanism behind the loss of cell cycle regulation in Alzheimer's Disease (AD). In contrast, neddylation, a posttranslational modification mediated by conjugation of ubiquitin-like protein neural precursor cell expressed developmentally downregulated protein 8 (NEDD8), is activated by a heterodimer composed of APP-BP1 and NEDD8-activating enzyme E1 catalytic subunit (Uba3). NEDD8 controls vital biological events, and along with APP-BP1, its levels are deregulated in AD. OBJECTIVE: The present study investigated the role of melatonin in regulating the APP-BP1 pathway under both physiological and pathological conditions to develop an understanding of the underlying mechanisms. METHODS: Therefore, human SH-SY5Y neuroblastoma cells were treated with various concentrations of Abeta42 to induce neurotoxic conditions comparable to AD. RESULTS: The results are the first to demonstrate that melatonin prevents Abeta42-induced enhancement of APP-BP1 protein expression and alteration in the cellular localization of NEDD8. Moreover, using MLN4924 (APP-BP1 pathway blocker), we also verified the components of the downstream effector cascade of the APP-BP1 pathway, including tau, APP-cleaving secretases, beta-catenin and p53. CONCLUSION: These findings indicate that melatonin regulates the interplay of molecular signaling associated with the APP-BP1 pathway and might preclude the pathogenic mechanisms occurring during disease development, thus providing a propitious therapeutic strategy for preventing AD.
+32579500	0	9	Melatonin	Chemical	MESH:D008550
+32579500	46	53	Abeta42	Gene	351
+32579500	62	69	SH-SY5Y	CellLine	CVCL:0019
+32579500	70	83	Neuroblastoma	Disease	MESH:D009447
+32579500	225	232	APP-BP1	Gene	8883
+32579500	420	427	APP-BP1	Gene	8883
+32579500	433	458	Amyloid Precursor Protein	Gene	351
+32579500	584	603	Alzheimer's Disease	Disease	MESH:D000544
+32579500	605	607	AD	Disease	MESH:D000544
+32579500	719	790	neural precursor cell expressed developmentally downregulated protein 8	Gene	4738
+32579500	792	797	NEDD8	Gene	4738
+32579500	842	849	APP-BP1	Gene	8883
+32579500	854	898	NEDD8-activating enzyme E1 catalytic subunit	Gene	9039
+32579500	900	904	Uba3	Gene	9039
+32579500	907	912	NEDD8	Gene	4738
+32579500	962	969	APP-BP1	Gene	8883
+32579500	1001	1003	AD	Disease	MESH:D000544
+32579500	1059	1068	melatonin	Chemical	MESH:D008550
+32579500	1087	1094	APP-BP1	Gene	8883
+32579500	1234	1239	human	Species	9606
+32579500	1240	1247	SH-SY5Y	CellLine	CVCL:0019
+32579500	1248	1261	neuroblastoma	Disease	MESH:D009447
+32579500	1312	1319	Abeta42	Gene	351
+32579500	1330	1351	neurotoxic conditions	Disease	MESH:D020258
+32579500	1366	1368	AD	Disease	MESH:D000544
+32579500	1425	1434	melatonin	Chemical	MESH:D008550
+32579500	1444	1451	Abeta42	Gene	351
+32579500	1475	1482	APP-BP1	Gene	8883
+32579500	1549	1554	NEDD8	Gene	4738
+32579500	1572	1579	MLN4924	Chemical	MESH:C539933
+32579500	1581	1588	APP-BP1	Gene	8883
+32579500	1681	1688	APP-BP1	Gene	8883
+32579500	1708	1711	tau	Gene	4137
+32579500	1738	1750	beta-catenin	Gene	1499
+32579500	1755	1758	p53	Gene	7157
+32579500	1801	1810	melatonin	Chemical	MESH:D008550
+32579500	1878	1885	APP-BP1	Gene	8883
+32579500	2041	2043	AD	Disease	MESH:D000544
+32579500	Association	MESH:C539933	1499
+32579500	Association	7157	8883
+32579500	Negative_Correlation	MESH:D008550	4738
+32579500	Association	MESH:D000544	4738
+32579500	Association	MESH:D008550	MESH:D009447
+32579500	Association	MESH:D009447	351
+32579500	Association	MESH:D000544	8883
+32579500	Negative_Correlation	MESH:C539933	4137
+32579500	Bind	8883	9039
+32579500	Positive_Correlation	MESH:D020258	351
+32579500	Association	MESH:C539933	7157
+32579500	Negative_Correlation	MESH:D008550	351
+32579500	Positive_Correlation	4738	8883
+32579500	Association	1499	8883
+32579500	Negative_Correlation	MESH:C539933	8883
+32579500	Positive_Correlation	351	8883
+32579500	Negative_Correlation	MESH:D008550	MESH:D000544
+32579500	Negative_Correlation	MESH:D008550	8883
+32579500	Positive_Correlation	4137	8883
+

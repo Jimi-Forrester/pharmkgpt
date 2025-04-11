@@ -1,0 +1,17 @@
+33519321|t|COVID-19 classification by CCSHNet with deep fusion using transfer learning and discriminant correlation analysis.
+33519321|a|AIM: : COVID-19 is a disease caused by a new strain of coronavirus. Up to 18th October 2020, worldwide there have been 39.6 million confirmed cases resulting in more than 1.1 million deaths. To improve diagnosis, we aimed to design and develop a novel advanced AI system for COVID-19 classification based on chest CT (CCT) images. METHODS: : Our dataset from local hospitals consisted of 284 COVID-19 images, 281 community-acquired pneumonia images, 293 secondary pulmonary tuberculosis images; and 306 healthy control images. We first used pretrained models (PTMs) to learn features, and proposed a novel (L, 2) transfer feature learning algorithm to extract features, with a hyperparameter of number of layers to be removed (NLR, symbolized as L). Second, we proposed a selection algorithm of pretrained network for fusion to determine the best two models characterized by PTM and NLR. Third, deep CCT fusion by discriminant correlation analysis was proposed to help fuse the two features from the two models. Micro-averaged (MA) F1 score was used as the measuring indicator. The final determined model was named CCSHNet. RESULTS: : On the test set, CCSHNet achieved sensitivities of four classes of 95.61%, 96.25%, 98.30%, and 97.86%, respectively. The precision values of four classes were 97.32%, 96.42%, 96.99%, and 97.38%, respectively. The F1 scores of four classes were 96.46%, 96.33%, 97.64%, and 97.62%, respectively. The MA F1 score was 97.04%. In addition, CCSHNet outperformed 12 state-of-the-art COVID-19 detection methods. CONCLUSIONS: : CCSHNet is effective in detecting COVID-19 and other lung infectious diseases using first-line clinical imaging and can therefore assist radiologists in making accurate diagnoses based on CCTs.
+33519321	0	8	COVID-19	Disease	MESH:D000086382
+33519321	122	130	COVID-19	Disease	MESH:D000086382
+33519321	170	181	coronavirus	Species	694013
+33519321	298	304	deaths	Disease	MESH:D003643
+33519321	390	398	COVID-19	Disease	MESH:D000086382
+33519321	507	515	COVID-19	Disease	MESH:D000086382
+33519321	547	556	pneumonia	Disease	MESH:D011014
+33519321	579	601	pulmonary tuberculosis	Disease	MESH:D014397
+33519321	842	845	NLR	Disease	
+33519321	990	993	PTM	Disease	
+33519321	998	1001	NLR	Disease	
+33519321	1626	1634	COVID-19	Disease	MESH:D000086382
+33519321	1703	1711	COVID-19	Disease	MESH:D000086382
+33519321	1722	1746	lung infectious diseases	Disease	MESH:D008171
+

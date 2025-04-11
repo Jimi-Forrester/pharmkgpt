@@ -1,0 +1,7 @@
+36420401|t|Developing and validating a multivariable prediction model for predicting the cost of colon surgery.
+36420401|a|Hospitals are burdened with predicting, calculating, and managing various cost-affecting parameters regarding patients and their treatments. Accuracy in cost prediction is further affected when a patient suffers from other health issues that hinder the traditional prognosis. This can lead to an unavoidable deficit in the final revenue of medical centers. This study aims to determine whether machine learning (ML) algorithms can predict cost factors based on patients undergoing colon surgery. For the forecasting, multiple predictors will be taken into the model to provide a tool that can be helpful for hospitals to manage their costs, ultimately leading to operating more cost-efficiently. This proof of principle will lay the groundwork for an efficient ML-based prediction tool based on multicenter data from a range of international centers in the subsequent phases of the study. With a mean absolute percentage error result of 18%-25.6%, our model's prediction showed decent results in forecasting the costs regarding various diagnosed factors and surgical approaches. There is an urgent need for further studies on predicting cost factors, especially for cases with anastomotic leakage, to minimize unnecessary hospital costs.
+36420401	211	219	patients	Species	9606
+36420401	297	304	patient	Species	9606
+36420401	562	570	patients	Species	9606
+36420401	1278	1297	anastomotic leakage	Disease	MESH:D057868
+

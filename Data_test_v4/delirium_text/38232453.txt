@@ -1,0 +1,15 @@
+38232453|t|Alzheimer's disease prediction algorithm based on de-correlation constraint and multi-modal feature interaction.
+38232453|a|Alzheimer's disease (AD) is a neurodegenerative disease characterized by various pathological changes. Utilizing multimodal data from Fluorodeoxyglucose positron emission tomography(FDG-PET) and Magnetic Resonance Imaging(MRI) of the brain can offer comprehensive information about the lesions from different perspectives and improve the accuracy of prediction. However, there are significant differences in the feature space of multimodal data. Commonly, the simple concatenation of multimodal features can cause the model to struggle in distinguishing and utilizing the complementary information between different modalities, thus affecting the accuracy of predictions. Therefore, we propose an AD prediction model based on de-correlation constraint and multi-modal feature interaction. This model consists of the following three parts: (1) The feature extractor employs residual connections and attention mechanisms to capture distinctive lesion features from FDG-PET and MRI data within their respective modalities. (2) The de-correlation constraint function enhances the model's capacity to extract complementary information from different modalities by reducing the feature similarity between them. (3) The mutual attention feature fusion module interacts with the features within and between modalities to enhance the modal-specific features and adaptively adjust the weights of these features based on information from other modalities. The experimental results on ADNI database demonstrate that the proposed model achieves a prediction accuracy of 86.79% for AD, MCI and NC, which is higher than the existing multi-modal AD prediction models.
+38232453	0	19	Alzheimer's disease	Disease	MESH:D000544
+38232453	113	132	Alzheimer's disease	Disease	MESH:D000544
+38232453	134	136	AD	Disease	MESH:D000544
+38232453	143	168	neurodegenerative disease	Disease	MESH:D019636
+38232453	247	265	Fluorodeoxyglucose	Chemical	MESH:D019788
+38232453	295	298	FDG	Chemical	MESH:D019788
+38232453	810	812	AD	Disease	MESH:D000544
+38232453	1076	1079	FDG	Chemical	MESH:D019788
+38232453	1681	1683	AD	Disease	MESH:D000544
+38232453	1685	1688	MCI	Disease	
+38232453	1693	1695	NC	Disease	OMIM:617025
+38232453	1743	1745	AD	Disease	MESH:D000544
+

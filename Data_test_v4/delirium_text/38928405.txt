@@ -1,0 +1,16 @@
+38928405|t|A Practical Guide to All-Atom and Coarse-Grained Molecular Dynamics Simulations Using Amber and Gromacs: A Case Study of Disulfide-Bond Impact on the Intrinsically Disordered Amyloid Beta.
+38928405|a|Intrinsically disordered proteins (IDPs) pose challenges to conventional experimental techniques due to their large-scale conformational fluctuations and transient structural elements. This work presents computational methods for studying IDPs at various resolutions using the Amber and Gromacs packages with both all-atom (Amber ff19SB with the OPC water model) and coarse-grained (Martini 3 and SIRAH) approaches. The effectiveness of these methodologies is demonstrated by examining the monomeric form of amyloid-beta (Abeta42), an IDP, with and without disulfide bonds at different resolutions. Our results clearly show that the addition of a disulfide bond decreases the beta-content of Abeta42; however, it increases the tendency of the monomeric Abeta42 to form fibril-like conformations, explaining the various aggregation rates observed in experiments. Moreover, analysis of the monomeric Abeta42 compactness, secondary structure content, and comparison between calculated and experimental chemical shifts demonstrates that all three methods provide a reasonable choice to study IDPs; however, coarse-grained approaches may lack some atomistic details, such as secondary structure recognition, due to the simplifications used. In general, this study not only explains the role of disulfide bonds in Abeta42 but also provides a step-by-step protocol for setting up, conducting, and analyzing molecular dynamics (MD) simulations, which is adaptable for studying other biomacromolecules, including folded and disordered proteins and peptides.
+38928405	121	130	Disulfide	Chemical	MESH:D004220
+38928405	175	187	Amyloid Beta	Gene	351
+38928405	539	544	water	Chemical	MESH:D014867
+38928405	697	709	amyloid-beta	Gene	351
+38928405	711	718	Abeta42	Gene	351
+38928405	746	755	disulfide	Chemical	MESH:D004220
+38928405	836	845	disulfide	Chemical	MESH:D004220
+38928405	881	888	Abeta42	Gene	351
+38928405	942	949	Abeta42	Gene	351
+38928405	1087	1094	Abeta42	Gene	351
+38928405	1478	1487	disulfide	Chemical	MESH:D004220
+38928405	1497	1504	Abeta42	Gene	351
+38928405	Positive_Correlation	MESH:D004220	351
+

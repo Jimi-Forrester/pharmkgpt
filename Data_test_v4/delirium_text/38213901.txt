@@ -1,0 +1,40 @@
+38213901|t|Comprehensive exploration of JQ1 and GSK2801 targets in breast cancer using network pharmacology and molecular modeling approaches.
+38213901|a|JQ1 and GSK2801 are bromo domain inhibitors (BDI) known to exhibit enhanced anti-cancer activity when combined with other agents. However, the underlying molecular mechanisms behind such enhanced activity remain unclear. We used network-pharmacology approaches to understand the shared molecular mechanisms behind the enhanced activity of JQ1 and GSK2801 when used together to treat breast cancer (BC). The gene targets of JQ1 and GSK2801 were intersected with known BC-targets and their putative targets against BC were derived. The key genes were explored through gene-ontology-enrichment, Protein-Protein-Interaction (PPI) networking, survival analysis, and molecular modeling simulations. The genes, CTSB, MAPK14, MET, PSEN2 and STAT3, were found to be common targets for both drugs. In total, 49 biological processes, five molecular functions and 61 metabolic pathways were similarly enriched for JQ1 and GSK2801 BC targets among which several terms are related to cancer: IL-17, TNF and JAK-STAT signaling pathways. Survival analyses revealed that all five putative synergistic targets are significantly associated with survival in BC (log-rank p < 0.05). Molecular modeling studies showed stable binding of JQ1 and GSK2801 against their targets. In conclusion, this study explored and illuminated the possible molecular mechanisms behind the enhanced activity of JQ1 and GSK2801 against BC and suggests synergistic action through their similar BC-targets and gene-ontologies.
+38213901	37	44	GSK2801	Chemical	MESH:C000609271
+38213901	56	69	breast cancer	Disease	MESH:D001943
+38213901	132	135	JQ1	Chemical	-
+38213901	140	147	GSK2801	Chemical	MESH:C000609271
+38213901	213	219	cancer	Disease	MESH:D009369
+38213901	471	474	JQ1	Chemical	-
+38213901	479	486	GSK2801	Chemical	MESH:C000609271
+38213901	515	528	breast cancer	Disease	MESH:D001943
+38213901	530	532	BC	Disease	MESH:D001943
+38213901	563	570	GSK2801	Chemical	MESH:C000609271
+38213901	599	601	BC	Disease	MESH:D001943
+38213901	645	647	BC	Disease	MESH:D001943
+38213901	836	840	CTSB	Gene	1508
+38213901	842	848	MAPK14	Gene	1432
+38213901	850	853	MET	Gene	79811
+38213901	855	860	PSEN2	Gene	5664
+38213901	865	870	STAT3	Gene	6774
+38213901	1034	1037	JQ1	Chemical	-
+38213901	1042	1049	GSK2801	Chemical	MESH:C000609271
+38213901	1050	1052	BC	Disease	MESH:D001943
+38213901	1102	1108	cancer	Disease	MESH:D009369
+38213901	1110	1115	IL-17	Gene	3605
+38213901	1117	1120	TNF	Gene	7124
+38213901	1270	1272	BC	Disease	MESH:D001943
+38213901	1354	1361	GSK2801	Chemical	MESH:C000609271
+38213901	1502	1505	JQ1	Chemical	-
+38213901	1510	1517	GSK2801	Chemical	MESH:C000609271
+38213901	1526	1528	BC	Disease	MESH:D001943
+38213901	1583	1585	BC	Disease	MESH:D001943
+38213901	Association	MESH:D001943	7124
+38213901	Association	MESH:D009369	3605
+38213901	Association	MESH:D001943	3605
+38213901	Negative_Correlation	MESH:C000609271	MESH:D009369
+38213901	Association	MESH:C000609271	3605
+38213901	Association	MESH:C000609271	7124
+38213901	Association	MESH:D009369	7124
+38213901	Negative_Correlation	MESH:C000609271	MESH:D001943
+

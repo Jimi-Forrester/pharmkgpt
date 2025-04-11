@@ -1,0 +1,55 @@
+36326669|t|ESR1 dysfunction triggers neuroinflammation as a critical upstream causative factor of the Alzheimer's disease process.
+36326669|a|Alzheimer's disease (AD) accounts for approximately 60% of dementia cases worldwide. Advanced age is the most significant risk factor for AD and approximately two-thirds of cases relate to women. While the previous meta-analysis suggests that estrogen receptor (ESR) genetic polymorphisms are closely associated with dementia, the implications of this observation on a molecular level are not entirely understood. Our study explores this intricate molecular puzzle through the use of a variety of bioinformatics tools. Initially, we attempted to elucidate mechanisms underlying breast cancer development by identifying the high-throughput dataset of ESR1-knockdown breast cancer tissue samples. Surprisingly, KEGG pathway enrichment showed that the most frequently occurring proteins were related to axonal guidance and inflammation-related gene markers. These observations were supported by an external high throughput dataset of AD inflammatory samples in vivo. Our results suggest that ESR1 is modulated by apolipoprotein E (APOE) through CEBPB/ATF4, mir-155-5p, or mir-1-3p. Moreover, sea hare-hydrolysates (SHH), as one of the axonal guidance molecules, could regulate the STAT3/PRDM1/CEBPB pathway and consequently induce cell death through pyroptosis signaling pathways, trigger the secretion of IL1beta, leading to neuroinflammation and worsening AD pathogenesis. Molecular docking verification demonstrated that the predicted natural products scoulerine and genistein displayed strong binding affinities for BACE1 and ESR1, respectively. This strategy can be used to design novel, personalized therapeutic approaches to treatment and a first-in-class clinical lead for the personalised treatment of AD.
+36326669	0	4	ESR1	Gene	2099
+36326669	26	43	neuroinflammation	Disease	MESH:D000090862
+36326669	91	110	Alzheimer's disease	Disease	MESH:D000544
+36326669	120	139	Alzheimer's disease	Disease	MESH:D000544
+36326669	141	143	AD	Disease	MESH:D000544
+36326669	179	187	dementia	Disease	MESH:D003704
+36326669	258	260	AD	Disease	MESH:D000544
+36326669	309	314	women	Species	9606
+36326669	363	380	estrogen receptor	Gene	2099
+36326669	382	385	ESR	Gene	2099
+36326669	437	445	dementia	Disease	MESH:D003704
+36326669	698	711	breast cancer	Disease	MESH:D001943
+36326669	770	774	ESR1	Gene	2099
+36326669	785	798	breast cancer	Disease	MESH:D001943
+36326669	940	952	inflammation	Disease	MESH:D007249
+36326669	1051	1053	AD	Disease	MESH:D000544
+36326669	1054	1066	inflammatory	Disease	MESH:D007249
+36326669	1109	1113	ESR1	Gene	2099
+36326669	1130	1146	apolipoprotein E	Gene	348
+36326669	1148	1152	APOE	Gene	348
+36326669	1162	1167	CEBPB	Gene	1051
+36326669	1168	1172	ATF4	Gene	468
+36326669	1195	1197	3p	Chromosome	3
+36326669	1209	1230	sea hare-hydrolysates	Chemical	-
+36326669	1232	1235	SHH	Chemical	-
+36326669	1298	1303	STAT3	Gene	6774
+36326669	1304	1309	PRDM1	Gene	639
+36326669	1310	1315	CEBPB	Gene	1051
+36326669	1423	1430	IL1beta	Gene	3553
+36326669	1443	1460	neuroinflammation	Disease	MESH:D000090862
+36326669	1475	1477	AD	Disease	MESH:D000544
+36326669	1572	1582	scoulerine	Chemical	MESH:C010941
+36326669	1587	1596	genistein	Chemical	MESH:D019833
+36326669	1637	1642	BACE1	Gene	23621
+36326669	1647	1651	ESR1	Gene	2099
+36326669	1828	1830	AD	Disease	MESH:D000544
+36326669	Association	2099	348
+36326669	Association	MESH:D000090862	2099
+36326669	Association	MESH:D019833	2099
+36326669	Association	2099	468
+36326669	Association	MESH:D001943	2099
+36326669	Association	MESH:D000544	2099
+36326669	Association	MESH:D000090862	3553
+36326669	Negative_Correlation	MESH:D019833	MESH:D000544
+36326669	Association	639	6774
+36326669	Association	MESH:C010941	23621
+36326669	Association	MESH:D003704	2099
+36326669	Association	1051	2099
+36326669	Association	MESH:C010941	2099
+36326669	Association	1051	639
+36326669	Association	MESH:D000544	3553
+36326669	Association	MESH:D019833	23621
+

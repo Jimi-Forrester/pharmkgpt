@@ -1,0 +1,47 @@
+36568118|t|Exploring the common gene signatures and pathogeneses of obesity with Alzheimer's disease via transcriptome data.
+36568118|a|Background: Obesity is a complex condition that influences several organ systems and physiologic systems. Obesity (OB) is closely linked to Alzheimer's disease (AD). However, the interrelationship between them remains unclear. The purpose of this study is to explore the key genes and potential molecular mechanisms in obesity and AD. Methods: The microarray data for OB and AD were downloaded from the Gene Expression Omnibus (GEO) database. Weighted gene correlation network analysis (WGCNA) was used to delineate the co-expression modules related to OB and AD. The shared genes existing in obesity and AD were identified through biological process analyses using the DAVID website, which then constructed the Protein-Protein Interaction (PPI) Network and selected the hub genes by Cytoscape. The results were validated in other microarray data by differential gene analysis. Moreover, the hub gene expressions were further determined in mice by qPCR. Results: The WGCNA identifies five modules and four modules as significant modules with OB and AD, respectively. Functional analysis of shared genes emphasized that inflammation response and mitochondrial functionality were common features in the pathophysiology of OB and AD. The results of differential gene analysis in other microarray data were extremely similar to them. Then six important hub genes were selected and identified using cytoHubba, including MMP9, PECAM1, C3AR1, IL1R1, PPARGC1alpha, and COQ3. Finally, we validated the hub gene expressions via qPCR. Conclusions: Our work revealed the high inflammation/immune response and mitochondrial impairment in OB patients, which might be a crucial susceptibility factor for AD. Meanwhile, we identified novel gene candidates such as MMP9, PECAM1, C3AR1, IL1R1, PPARGC1alpha, and COQ3 that could be used as biomarkers or potential therapeutic targets for OB with AD.
+36568118	57	64	obesity	Disease	MESH:D009765
+36568118	70	89	Alzheimer's disease	Disease	MESH:D000544
+36568118	126	133	Obesity	Disease	MESH:D009765
+36568118	220	227	Obesity	Disease	MESH:D009765
+36568118	229	231	OB	Disease	MESH:D009765
+36568118	254	273	Alzheimer's disease	Disease	MESH:D000544
+36568118	275	277	AD	Disease	MESH:D000544
+36568118	433	440	obesity	Disease	MESH:D009765
+36568118	445	447	AD	Disease	MESH:D000544
+36568118	482	484	OB	Disease	MESH:D009765
+36568118	489	491	AD	Disease	MESH:D000544
+36568118	667	669	OB	Disease	MESH:D009765
+36568118	674	676	AD	Disease	MESH:D000544
+36568118	707	714	obesity	Disease	MESH:D009765
+36568118	719	721	AD	Disease	MESH:D000544
+36568118	1054	1058	mice	Species	10090
+36568118	1156	1158	OB	Disease	MESH:D009765
+36568118	1163	1165	AD	Disease	MESH:D000544
+36568118	1233	1245	inflammation	Disease	MESH:D007249
+36568118	1334	1336	OB	Disease	MESH:D009765
+36568118	1341	1343	AD	Disease	MESH:D000544
+36568118	1529	1533	MMP9	Gene	4318
+36568118	1535	1541	PECAM1	Gene	5175
+36568118	1543	1548	C3AR1	Gene	719
+36568118	1550	1555	IL1R1	Gene	16177
+36568118	1557	1569	PPARGC1alpha	Gene	19017
+36568118	1575	1579	COQ3	Gene	230027
+36568118	1678	1690	inflammation	Disease	MESH:D007249
+36568118	1711	1735	mitochondrial impairment	Disease	MESH:D028361
+36568118	1739	1741	OB	Disease	MESH:D009765
+36568118	1742	1750	patients	Species	9606
+36568118	1803	1805	AD	Disease	MESH:D000544
+36568118	1862	1866	MMP9	Gene	4318
+36568118	1868	1874	PECAM1	Gene	5175
+36568118	1876	1881	C3AR1	Gene	719
+36568118	1883	1888	IL1R1	Gene	16177
+36568118	1890	1902	PPARGC1alpha	Gene	19017
+36568118	1908	1912	COQ3	Gene	230027
+36568118	1983	1985	OB	Disease	MESH:D009765
+36568118	1991	1993	AD	Disease	MESH:D000544
+36568118	Association	MESH:D009765	719
+36568118	Association	MESH:D009765	16177
+36568118	Association	MESH:D009765	19017
+36568118	Association	MESH:D009765	5175
+

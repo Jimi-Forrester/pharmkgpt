@@ -1,0 +1,18 @@
+35353825|t|Classification of Alzheimer's disease progression based on sMRI using gray matter volume and lateralization index.
+35353825|a|Note that identifying Mild Cognitive Impairment (MCI) is crucial to early detection and diagnosis of Alzheimer's disease (AD). This work explores how classification features and experimental algorithms influence classification performances on the ADNI database. Based on structural Magnetic Resonance Images (sMRI), two features including gray matter (GM) volume and lateralization index (LI) are firstly extracted through hypothesis testing. Afterward, several classifier algorithms including Random Forest (RF), Decision Tree (DT), K-Nearest Neighbor(KNN) and Support Vector Machine (SVM) with RBF kernel, Linear kernel or Polynomial kernel are established to realize binary classification among Normal Control (NC), Early Mild Cognitive Impairment (EMCI), Late Mild Cognitive Impairment (LMCI) and AD groups. The main experimental results are as follows. (1) The classification performance in the feature of LI is poor compared with those in the feature of GM volume or the combined feature of LI and GM volume, i.e., the classification accuracies in the feature of LI are relatively low and unstable for most classifier models and subject groups. (2) Comparing with the classification performances in the feature of GM volume and the combined feature of LI and GM volume, the classification accuracy of NC group versus AD group is relatively stable for different classifier models, moreover, the accuracy of AD group versus NC group is almost the highest, with the most classification accuracy of 98.0909%. (3) For different subject groups, the SVM classifier algorithm with Polynomial kernel and the KNN classifier algorithm show relatively stable and high classification accuracy, while DT classifier algorithm shows relatively unstable and lower classification accuracy. (4) Except the groups of EMCI versus LMCI and NC versus EMCI, the classification accuracies are significantly enhanced by emerging the LI into the original feature of GM volume, with the maximum accuracy increase of 5.6364%. These results indicate that various factors of subject data, feature types and experimental algorithms influence classification performances remarkably, especially the newly introduced feature of LI into the feature of GM volume is helpful to improve classification results in some certain extent.
+35353825	18	37	Alzheimer's disease	Disease	MESH:D000544
+35353825	137	162	Mild Cognitive Impairment	Disease	MESH:D060825
+35353825	164	167	MCI	Disease	MESH:D060825
+35353825	216	235	Alzheimer's disease	Disease	MESH:D000544
+35353825	237	239	AD	Disease	MESH:D000544
+35353825	840	865	Mild Cognitive Impairment	Disease	MESH:D060825
+35353825	867	871	EMCI	Disease	MESH:D060825
+35353825	879	904	Mild Cognitive Impairment	Disease	MESH:D060825
+35353825	906	910	LMCI	Disease	MESH:D060825
+35353825	916	918	AD	Disease	MESH:D000544
+35353825	1438	1440	AD	Disease	MESH:D000544
+35353825	1527	1529	AD	Disease	MESH:D000544
+35353825	1918	1922	EMCI	Disease	MESH:D060825
+35353825	1930	1934	LMCI	Disease	MESH:D060825
+35353825	1949	1953	EMCI	Disease	MESH:D060825
+

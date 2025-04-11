@@ -1,0 +1,18 @@
+37142982|t|Development and validation of a nomogram for postoperative sleep disturbance in adults: a prospective survey of 640 patients undergoing spinal surgery.
+37142982|a|BACKGROUND: Postoperative sleep disturbance (PSD) is a prevalent clinical complication that may arise due to various factors. The purpose of this investigation is to identify the risk factors for PSD in spinal surgery and establish a risk prediction nomogram. METHODS: The clinical records of individuals who underwent spinal surgery from January 2020 to January 2021 were gathered prospectively. The least absolute shrinkage and selection operator (LASSO) regression, along with multivariate logistic regression analysis, was employed to establish independent risk factors. A nomogram prediction model was devised based on these factors. The nomogram's effectiveness was evaluated and verified via the receiver operating characteristic (ROC) curve, calibration plot, and decision curve analysis (DCA). RESULTS: A total of 640 patients who underwent spinal surgery were analyzed in this investigation, among which 393 patients experienced PSD with an incidence rate of 61.4%. After conducting LASSO regression and logistic regression analyses using R software on the variables in training set, 8 independent risk factors associated to PSD were identified, including female, preoperative sleep disorder, high preoperative anxiety score, high intraoperative bleeding volume, high postoperative pain score, dissatisfaction with ward sleep environment, non-use of dexmedetomidine and non-use of erector spinae plane block (ESPB). The nomogram and online dynamic nomogram were constructed after incorporating these variables. In the training and validation sets, the area under the curve (AUC) in the receiver operating characteristic (ROC) curves were 0.806 (0.768-0.844) and 0.755 (0.667-0.844), respectively. The calibration plots indicated that the mean absolute error (MAE) values in both sets were respectively 1.2% and 1.7%. The decision curve analysis demonstrated the model had a substantial net benefit within the range of threshold probabilities between 20% and 90%. CONCLUSIONS: The nomogram model proposed in this study included eight frequently observed clinical factors and exhibited favorable accuracy and calibration. TRIAL REGISTRATION: The study was retrospectively registered with the Chinese Clinical Trial Registry (ChiCTR2200061257, 18/06/2022).
+37142982	45	76	postoperative sleep disturbance	Disease	MESH:D012893
+37142982	116	124	patients	Species	9606
+37142982	164	195	Postoperative sleep disturbance	Disease	MESH:D012893
+37142982	197	200	PSD	Disease	MESH:D012893
+37142982	348	351	PSD	Disease	MESH:D012893
+37142982	979	987	patients	Species	9606
+37142982	1070	1078	patients	Species	9606
+37142982	1091	1094	PSD	Disease	MESH:D012893
+37142982	1287	1290	PSD	Disease	MESH:D012893
+37142982	1339	1353	sleep disorder	Disease	MESH:D012893
+37142982	1373	1380	anxiety	Disease	MESH:D001007
+37142982	1408	1416	bleeding	Disease	MESH:D006470
+37142982	1430	1448	postoperative pain	Disease	MESH:D010149
+37142982	1512	1527	dexmedetomidine	Chemical	MESH:D020927
+37142982	Negative_Correlation	MESH:D020927	MESH:D012893
+

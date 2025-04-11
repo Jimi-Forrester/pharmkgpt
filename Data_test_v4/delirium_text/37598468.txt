@@ -1,0 +1,55 @@
+37598468|t|NOTCH3 C201R variant causes cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL) that can be confused with early-onset Alzheimer's disease.
+37598468|a|BACKGROUND: NOTCH3 is the causative gene for autosomal dominant cerebral arteriopathy with subcortical infarctions and leukoencephalopathy (CADASIL) which is associated with both stroke and dementia. When CADASIL presents primarily as dementia it can be difficult to distinguish from Alzheimer's disease (AD) at both the clinical and neuropathological levels. METHODS: We performed exome sequencing of several affected individuals from a large family affected with AD. PCR amplification and direct Sanger sequencing were used to verify variants detected by exome analysis and to screen family members at-risk to carry those variants. Neuropathologic brain evaluation by immunohistochemistry and MRI were performed for the carriers of the NOTCH3 variant. RESULTS: In a three-generation family with AD, we found a c.601 T > C p.Cys201Arg variant in the NOTCH3 gene that caused clinical and neuropathological manifestations of CADASIL. These features included earlier onset of dementia accompanied by behavioral abnormalities in the father and son and white matter abnormalities in the asymptomatic grandson. The family is one branch of a large pedigree studied by the Alzheimer's Disease Sequencing Project (ADSP). As part of the ADSP linkage analysis and whole genome sequencing endeavor, an ABCA1 variant, p.Ala937Val, was previously found associated with AD in this pedigree. CONCLUSIONS: Our findings, together with other reported pathogenic missense variants of the C201 codon in NOTCH3, support the role of cysteine 201 as a mutation hotspot for CADASIL and highlight the genetic complexity both clinically and pathologically of AD and related dementia.
+37598468	0	6	NOTCH3	Gene	4854
+37598468	7	12	C201R	ProteinMutation	tmVar:p|SUB|C|201|R;HGVS:p.C201R;VariantGroup:1;CorrespondingGene:4854;CorrespondingSpecies:9606
+37598468	28	118	cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy	Disease	MESH:D046589
+37598468	120	127	CADASIL	Disease	MESH:D046589
+37598468	167	186	Alzheimer's disease	Disease	MESH:D000544
+37598468	200	206	NOTCH3	Gene	4854
+37598468	233	326	autosomal dominant cerebral arteriopathy with subcortical infarctions and leukoencephalopathy	Disease	MESH:D046589
+37598468	328	335	CADASIL	Disease	MESH:D046589
+37598468	367	373	stroke	Disease	MESH:D020521
+37598468	378	386	dementia	Disease	MESH:D003704
+37598468	393	400	CADASIL	Disease	MESH:D046589
+37598468	423	431	dementia	Disease	MESH:D003704
+37598468	472	491	Alzheimer's disease	Disease	MESH:D000544
+37598468	493	495	AD	Disease	MESH:D000544
+37598468	653	655	AD	Disease	MESH:D000544
+37598468	926	932	NOTCH3	Gene	4854
+37598468	985	987	AD	Disease	MESH:D000544
+37598468	1000	1011	c.601 T > C	DNAMutation	tmVar:c|SUB|T|601|C;HGVS:c.601T>C;VariantGroup:1;CorrespondingGene:4854;CorrespondingSpecies:9606
+37598468	1012	1023	p.Cys201Arg	ProteinMutation	tmVar:p|SUB|C|201|R;HGVS:p.C201R;VariantGroup:1;CorrespondingGene:4854;CorrespondingSpecies:9606
+37598468	1039	1045	NOTCH3	Gene	4854
+37598468	1112	1119	CADASIL	Disease	MESH:D046589
+37598468	1162	1170	dementia	Disease	MESH:D003704
+37598468	1186	1210	behavioral abnormalities	Disease	MESH:D001523
+37598468	1237	1263	white matter abnormalities	Disease	MESH:D056784
+37598468	1354	1373	Alzheimer's Disease	Disease	MESH:D000544
+37598468	1479	1484	ABCA1	Gene	19
+37598468	1494	1505	p.Ala937Val	ProteinMutation	tmVar:p|SUB|A|937|V;HGVS:p.A937V;VariantGroup:0;CorrespondingGene:19;RS#:137854495;CorrespondingSpecies:9606;CA#:120482
+37598468	1544	1546	AD	Disease	MESH:D000544
+37598468	1671	1677	NOTCH3	Gene	4854
+37598468	1699	1711	cysteine 201	ProteinMutation	tmVar:p|Allele|C|201;VariantGroup:1;CorrespondingGene:4854;CorrespondingSpecies:9606
+37598468	1738	1745	CADASIL	Disease	MESH:D046589
+37598468	1821	1823	AD	Disease	MESH:D000544
+37598468	1836	1844	dementia	Disease	MESH:D003704
+37598468	Positive_Correlation	MESH:D000544	HGVS:p.C201R;CorrespondingGene:4854
+37598468	Positive_Correlation	MESH:D001523	HGVS:p.C201R;CorrespondingGene:4854
+37598468	Positive_Correlation	MESH:D046589	HGVS:c.601T>C;CorrespondingGene:4854
+37598468	Association	MESH:D000544	19
+37598468	Positive_Correlation	MESH:D003704	HGVS:c.601T>C;CorrespondingGene:4854
+37598468	Positive_Correlation	MESH:D001523	HGVS:c.601T>C;CorrespondingGene:4854
+37598468	Association	MESH:D056784	HGVS:p.C201R;CorrespondingGene:4854
+37598468	Positive_Correlation	MESH:D000544	RS#:137854495;HGVS:p.A937V;CorrespondingGene:19
+37598468	Positive_Correlation	MESH:D056784	HGVS:c.601T>C;CorrespondingGene:4854
+37598468	Association	MESH:D003704	4854
+37598468	Association	MESH:D020521	4854
+37598468	Positive_Correlation	MESH:D046589	HGVS:p.C201R;CorrespondingGene:4854
+37598468	Association	MESH:D001523	4854
+37598468	Association	MESH:D046589	4854
+37598468	Positive_Correlation	MESH:D046589	CorrespondingGene:4854;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p
+37598468	Positive_Correlation	MESH:D000544	HGVS:c.601T>C;CorrespondingGene:4854
+37598468	Association	MESH:D000544	4854
+37598468	Positive_Correlation	MESH:D003704	HGVS:p.C201R;CorrespondingGene:4854
+37598468	Association	MESH:D056784	4854
+

@@ -1,0 +1,28 @@
+31558433|t|Exploiting Machine Learning Algorithms and Methods for the Prediction of Agitated Delirium After Cardiac Surgery: Models Development and Validation Study.
+31558433|a|BACKGROUND: Delirium is a temporary mental disorder that occasionally affects patients undergoing surgery, especially cardiac surgery. It is strongly associated with major adverse events, which in turn leads to increased cost and poor outcomes (eg, need for nursing home due to cognitive impairment, stroke, and death). The ability to foresee patients at risk of delirium will guide the timely initiation of multimodal preventive interventions, which will aid in reducing the burden and negative consequences associated with delirium. Several studies have focused on the prediction of delirium. However, the number of studies in cardiac surgical patients that have used machine learning methods is very limited. OBJECTIVE: This study aimed to explore the application of several machine learning predictive models that can pre-emptively predict delirium in patients undergoing cardiac surgery and compare their performance. METHODS: We investigated a number of machine learning methods to develop models that can predict delirium after cardiac surgery. A clinical dataset comprising over 5000 actual patients who underwent cardiac surgery in a single center was used to develop the models using logistic regression, artificial neural networks (ANN), support vector machines (SVM), Bayesian belief networks (BBN), naive Bayesian, random forest, and decision trees. RESULTS: Only 507 out of 5584 patients (11.4%) developed delirium. We addressed the underlying class imbalance, using random undersampling, in the training dataset. The final prediction performance was validated on a separate test dataset. Owing to the target class imbalance, several measures were used to evaluate algorithm's performance for the delirium class on the test dataset. Out of the selected algorithms, the SVM algorithm had the best F1 score for positive cases, kappa, and positive predictive value (40.2%, 29.3%, and 29.7%, respectively) with a P=.01, .03, .02, respectively. The ANN had the best receiver-operator area-under the curve (78.2%; P=.03). The BBN had the best precision-recall area-under the curve for detecting positive cases (30.4%; P=.03). CONCLUSIONS: Although delirium is inherently complex, preventive measures to mitigate its negative effect can be applied proactively if patients at risk are prospectively identified. Our results highlight 2 important points: (1) addressing class imbalance on the training dataset will augment machine learning model's performance in identifying patients likely to develop postoperative delirium, and (2) as the prediction of postoperative delirium is difficult because it is multifactorial and has complex pathophysiology, applying machine learning methods (complex or simple) may improve the prediction by revealing hidden patterns, which will lead to cost reduction by prevention of complications and will optimize patients' outcomes.
+31558433	82	90	Delirium	Disease	MESH:D003693
+31558433	167	175	Delirium	Disease	MESH:D003693
+31558433	191	206	mental disorder	Disease	MESH:D001523
+31558433	233	241	patients	Species	9606
+31558433	433	453	cognitive impairment	Disease	MESH:D003072
+31558433	455	461	stroke	Disease	MESH:D020521
+31558433	467	472	death	Disease	MESH:D003643
+31558433	498	506	patients	Species	9606
+31558433	518	526	delirium	Disease	MESH:D003693
+31558433	680	688	delirium	Disease	MESH:D003693
+31558433	740	748	delirium	Disease	MESH:D003693
+31558433	801	809	patients	Species	9606
+31558433	999	1007	delirium	Disease	MESH:D003693
+31558433	1011	1019	patients	Species	9606
+31558433	1175	1183	delirium	Disease	MESH:D003693
+31558433	1254	1262	patients	Species	9606
+31558433	1548	1556	patients	Species	9606
+31558433	1575	1583	delirium	Disease	MESH:D003693
+31558433	1866	1874	delirium	Disease	MESH:D003693
+31558433	2311	2319	delirium	Disease	MESH:D003693
+31558433	2425	2433	patients	Species	9606
+31558433	2634	2642	patients	Species	9606
+31558433	2661	2683	postoperative delirium	Disease	MESH:D000071257
+31558433	2714	2736	postoperative delirium	Disease	MESH:D000071257
+31558433	3006	3014	patients	Species	9606
+

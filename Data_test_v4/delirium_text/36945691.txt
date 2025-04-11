@@ -1,0 +1,37 @@
+36945691|t|Computable Phenotypes to Characterize Changing Patient Brain Dysfunction in the Intensive Care Unit.
+36945691|a|In the United States, more than 5 million patients are admitted annually to ICUs, with ICU mortality of 10%-29% and costs over $82 billion. Acute brain dysfunction status, delirium, is often underdiagnosed or undervalued. This study's objective was to develop automated computable phenotypes for acute brain dysfunction states and describe transitions among brain dysfunction states to illustrate the clinical trajectories of ICU patients. We created two single-center, longitudinal EHR datasets for 48,817 adult patients admitted to an ICU at UFH Gainesville (GNV) and Jacksonville (JAX). We developed algorithms to quantify acute brain dysfunction status including coma, delirium, normal, or death at 12-hour intervals of each ICU admission and to identify acute brain dysfunction phenotypes using continuous acute brain dysfunction status and k-means clustering approach. There were 49,770 admissions for 37,835 patients in UFH GNV dataset and 18,472 admissions for 10,982 patients in UFH JAX dataset. In total, 18% of patients had coma as the worst brain dysfunction status; every 12 hours, around 4%-7% would transit to delirium, 22%-25% would recover, 3%-4% would expire, and 67%-68% would remain in a coma in the ICU. Additionally, 7% of patients had delirium as the worst brain dysfunction status; around 6%-7% would transit to coma, 40%-42% would be no delirium, 1% would expire, and 51%-52% would remain delirium in the ICU. There were three phenotypes: persistent coma/delirium, persistently normal, and transition from coma/delirium to normal almost exclusively in first 48 hours after ICU admission. We developed phenotyping scoring algorithms that determined acute brain dysfunction status every 12 hours while admitted to the ICU. This approach may be useful in developing prognostic and decision-support tools to aid patients and clinicians in decision-making on resource use and escalation of care.
+36945691	47	54	Patient	Species	9606
+36945691	55	72	Brain Dysfunction	Disease	MESH:D001927
+36945691	143	151	patients	Species	9606
+36945691	247	264	brain dysfunction	Disease	MESH:D001927
+36945691	273	281	delirium	Disease	MESH:D003693
+36945691	403	420	brain dysfunction	Disease	MESH:D001927
+36945691	459	476	brain dysfunction	Disease	MESH:D001927
+36945691	531	539	patients	Species	9606
+36945691	614	622	patients	Species	9606
+36945691	733	750	brain dysfunction	Disease	MESH:D001927
+36945691	768	772	coma	Disease	MESH:D003128
+36945691	774	782	delirium	Disease	MESH:D003693
+36945691	795	800	death	Disease	MESH:D003643
+36945691	866	883	brain dysfunction	Disease	MESH:D001927
+36945691	918	935	brain dysfunction	Disease	MESH:D001927
+36945691	1016	1024	patients	Species	9606
+36945691	1077	1085	patients	Species	9606
+36945691	1123	1131	patients	Species	9606
+36945691	1136	1140	coma	Disease	MESH:D003128
+36945691	1154	1171	brain dysfunction	Disease	MESH:D001927
+36945691	1226	1234	delirium	Disease	MESH:D003693
+36945691	1309	1313	coma	Disease	MESH:D003128
+36945691	1346	1354	patients	Species	9606
+36945691	1359	1367	delirium	Disease	MESH:D003693
+36945691	1381	1398	brain dysfunction	Disease	MESH:D001927
+36945691	1437	1441	coma	Disease	MESH:D003128
+36945691	1463	1471	delirium	Disease	MESH:D003693
+36945691	1515	1523	delirium	Disease	MESH:D003693
+36945691	1576	1580	coma	Disease	MESH:D003128
+36945691	1581	1589	delirium	Disease	MESH:D003693
+36945691	1632	1636	coma	Disease	MESH:D003128
+36945691	1637	1645	delirium	Disease	MESH:D003693
+36945691	1780	1797	brain dysfunction	Disease	MESH:D001927
+36945691	1934	1942	patients	Species	9606
+

@@ -1,0 +1,10 @@
+28568844|t|Effect of sampling on BACE-1 ligands binding free energy predictions via MM-PBSA calculations.
+28568844|a|The BACE-1 enzyme is a prime target to find a cure to Alzheimer's disease. In this article, we used the MM-PBSA approach to compute the binding free energies of 46 reported ligands to this enzyme. After showing that the most probable protonation state of the catalytic dyad is mono-protonated (on ASP32), we performed a thorough analysis of the parameters influencing the sampling of the conformational space (in total, more than 35 mus of simulations were performed). We show that ten simulations of 2 ns gives better results than one of 50 ns. We also investigated the influence of the protein force field, the water model, the periodic boundary conditions artifacts (box size), as well as the ionic strength. Amber03 with TIP3P, a minimal distance of 1.0 nm between the protein and the box edges and a ionic strength of I = 0.2 M provides the optimal correlation with experiments. Overall, when using these parameters, a Pearson correlation coefficient of R = 0.84 (R2  = 0.71) is obtained for the 46 ligands, spanning eight orders of magnitude of Kd (from 0.017 nm to 2000 muM, i.e., from -14.7 to -3.7 kcal/mol), with a ligand size from 22 to 136 atoms (from 138 to 937 g/mol). After a two-parameter fit of the binding affinities for 12 of the ligands, an error of RMSD = 1.7 kcal/mol was obtained for the remaining ligands.   2017 Wiley Periodicals, Inc.
+28568844	22	28	BACE-1	Gene	23621
+28568844	99	105	BACE-1	Gene	23621
+28568844	149	168	Alzheimer's disease	Disease	MESH:D000544
+28568844	392	397	ASP32	Chemical	-
+28568844	708	713	water	Chemical	MESH:D014867
+28568844	820	825	TIP3P	Chemical	-
+28568844	Association	MESH:D000544	23621
+

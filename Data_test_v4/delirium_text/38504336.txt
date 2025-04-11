@@ -1,0 +1,33 @@
+38504336|t|Comparing a pre-defined versus deep learning approach for extracting brain atrophy patterns to predict cognitive decline due to Alzheimer's disease in patients with mild cognitive symptoms.
+38504336|a|BACKGROUND: Predicting future Alzheimer's disease (AD)-related cognitive decline among individuals with subjective cognitive decline (SCD) or mild cognitive impairment (MCI) is an important task for healthcare. Structural brain imaging as measured by magnetic resonance imaging (MRI) could potentially contribute when making such predictions. It is unclear if the predictive performance of MRI can be improved using entire brain images in deep learning (DL) models compared to using pre-defined brain regions. METHODS: A cohort of 332 individuals with SCD/MCI were included from the Swedish BioFINDER-1 study. The goal was to predict longitudinal SCD/MCI-to-AD dementia progression and change in Mini-Mental State Examination (MMSE) over four years. Four models were evaluated using different predictors: (1) clinical data only, including demographics, cognitive tests and APOE epsilon4 status, (2) clinical data plus hippocampal volume, (3) clinical data plus all regional MRI gray matter volumes (N = 68) extracted using FreeSurfer software, (4) a DL model trained using multi-task learning with MRI images, Jacobian determinant images and baseline cognition as input. A double cross-validation scheme, with five test folds and for each of those ten validation folds, was used. External evaluation was performed on part of the ADNI dataset, including 108 patients. Mann-Whitney U-test was used to determine statistically significant differences in performance, with p-values less than 0.05 considered significant. RESULTS: In the BioFINDER cohort, 109 patients (33%) progressed to AD dementia. The performance of the clinical data model for prediction of progression to AD dementia was area under the curve (AUC) = 0.85 and four-year cognitive decline was R2 = 0.14. The performance was improved for both outcomes when adding hippocampal volume (AUC = 0.86, R2 = 0.16). Adding FreeSurfer brain regions improved prediction of four-year cognitive decline but not progression to AD (AUC = 0.83, R2 = 0.17), while the DL model worsened the performance for both outcomes (AUC = 0.84, R2 = 0.08). A sensitivity analysis showed that the Jacobian determinant image was more informative than the MRI image, but that performance was maximized when both were included. In the external evaluation cohort from ADNI, 23 patients (21%) progressed to AD dementia. The results for predicted progression to AD dementia were similar to the results for the BioFINDER test data, while the performance for the cognitive decline was deteriorated. CONCLUSIONS: The DL model did not significantly improve the prediction of clinical disease progression in AD, compared to regression models with a single pre-defined brain region.
+38504336	69	82	brain atrophy	Disease	MESH:C566985
+38504336	103	120	cognitive decline	Disease	MESH:D003072
+38504336	128	147	Alzheimer's disease	Disease	MESH:D000544
+38504336	151	159	patients	Species	9606
+38504336	170	188	cognitive symptoms	Disease	MESH:D019954
+38504336	220	239	Alzheimer's disease	Disease	MESH:D000544
+38504336	241	243	AD	Disease	MESH:D000544
+38504336	253	270	cognitive decline	Disease	MESH:D003072
+38504336	305	322	cognitive decline	Disease	MESH:D003072
+38504336	324	327	SCD	Disease	MESH:D003072
+38504336	337	357	cognitive impairment	Disease	MESH:D003072
+38504336	359	362	MCI	Disease	MESH:D060825
+38504336	742	745	SCD	Disease	MESH:D003072
+38504336	746	749	MCI	Disease	MESH:D060825
+38504336	837	840	SCD	Disease	MESH:D003072
+38504336	841	844	MCI	Disease	MESH:D060825
+38504336	848	859	AD dementia	Disease	MESH:D000544
+38504336	1063	1067	APOE	Gene	348
+38504336	1547	1555	patients	Species	9606
+38504336	1744	1752	patients	Species	9606
+38504336	1773	1784	AD dementia	Disease	MESH:D000544
+38504336	1862	1873	AD dementia	Disease	MESH:D000544
+38504336	1926	1943	cognitive decline	Disease	MESH:D003072
+38504336	2127	2144	cognitive decline	Disease	MESH:D003072
+38504336	2168	2170	AD	Disease	MESH:D000544
+38504336	2498	2506	patients	Species	9606
+38504336	2527	2538	AD dementia	Disease	MESH:D000544
+38504336	2581	2592	AD dementia	Disease	MESH:D000544
+38504336	2680	2697	cognitive decline	Disease	MESH:D003072
+38504336	2822	2824	AD	Disease	MESH:D000544
+

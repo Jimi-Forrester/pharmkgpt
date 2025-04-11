@@ -1,0 +1,59 @@
+28793339|t|Modeling miRNA-mRNA interactions that cause phenotypic abnormality in breast cancer patients.
+28793339|a|BACKGROUND: The dysregulation of microRNAs (miRNAs) alters expression level of pro-oncogenic or tumor suppressive mRNAs in breast cancer, and in the long run, causes multiple biological abnormalities. Identification of such interactions of miRNA-mRNA requires integrative analysis of miRNA-mRNA expression profile data. However, current approaches have limitations to consider the regulatory relationship between miRNAs and mRNAs and to implicate the relationship with phenotypic abnormality and cancer pathogenesis. METHODOLOGY/FINDINGS: We modeled causal relationships between genomic expression and clinical data using a Bayesian Network (BN), with the goal of discovering miRNA-mRNA interactions that are associated with cancer pathogenesis. The Multiple Beam Search (MBS) algorithm learned interactions from data and discovered that hsa-miR-21, hsa-miR-10b, hsa-miR-448, and hsa-miR-96 interact with oncogenes, such as, CCND2, ESR1, MET, NOTCH1, TGFBR2 and TGFB1 that promote tumor metastasis, invasion, and cell proliferation. We also calculated Bayesian network posterior probability (BNPP) for the models discovered by the MBS algorithm to validate true models with high likelihood. CONCLUSION/SIGNIFICANCE: The MBS algorithm successfully learned miRNA and mRNA expression profile data using a BN, and identified miRNA-mRNA interactions that probabilistically affect breast cancer pathogenesis. The MBS algorithm is a potentially useful tool for identifying interacting gene pairs implicated by the deregulation of expression.
+28793339	70	83	breast cancer	Disease	MESH:D001943
+28793339	84	92	patients	Species	9606
+28793339	190	195	tumor	Disease	MESH:D009369
+28793339	217	230	breast cancer	Disease	MESH:D001943
+28793339	269	293	biological abnormalities	Disease	MESH:D021081
+28793339	590	596	cancer	Disease	MESH:D009369
+28793339	819	825	cancer	Disease	MESH:D009369
+28793339	932	942	hsa-miR-21	Gene	406991
+28793339	944	955	hsa-miR-10b	Gene	406903
+28793339	957	968	hsa-miR-448	Gene	554212
+28793339	974	984	hsa-miR-96	Gene	407053
+28793339	1019	1024	CCND2	Gene	894
+28793339	1026	1030	ESR1	Gene	2099
+28793339	1032	1035	MET	Gene	79811
+28793339	1037	1043	NOTCH1	Gene	4851
+28793339	1045	1051	TGFBR2	Gene	7048
+28793339	1056	1061	TGFB1	Gene	7040
+28793339	1075	1091	tumor metastasis	Disease	MESH:D009362
+28793339	1469	1482	breast cancer	Disease	MESH:D001943
+28793339	Association	MESH:D001943	407053
+28793339	Association	406991	79811
+28793339	Association	406991	894
+28793339	Association	MESH:D009362	7048
+28793339	Association	406991	7040
+28793339	Association	MESH:D009362	2099
+28793339	Association	407053	894
+28793339	Association	406991	7048
+28793339	Association	MESH:D001943	406903
+28793339	Association	407053	79811
+28793339	Association	407053	4851
+28793339	Association	406903	7040
+28793339	Association	MESH:D009362	79811
+28793339	Association	406903	894
+28793339	Association	MESH:D009362	406903
+28793339	Association	MESH:D009362	894
+28793339	Association	MESH:D001943	554212
+28793339	Association	406903	79811
+28793339	Association	554212	7040
+28793339	Association	554212	79811
+28793339	Association	MESH:D009362	4851
+28793339	Association	2099	407053
+28793339	Association	MESH:D001943	406991
+28793339	Association	407053	7048
+28793339	Association	MESH:D009362	554212
+28793339	Association	MESH:D009362	7040
+28793339	Association	406991	4851
+28793339	Association	406903	4851
+28793339	Association	4851	554212
+28793339	Association	407053	7040
+28793339	Association	2099	406903
+28793339	Association	MESH:D009362	406991
+28793339	Association	554212	894
+28793339	Association	2099	406991
+28793339	Association	MESH:D009362	407053
+28793339	Association	406903	7048
+28793339	Association	554212	7048
+

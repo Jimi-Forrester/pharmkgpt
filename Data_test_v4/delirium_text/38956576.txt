@@ -1,0 +1,20 @@
+38956576|t|Detecting haplotype-specific transcript variation in long reads with FLAIR2.
+38956576|a|BACKGROUND: RNA-seq has brought forth significant discoveries regarding aberrations in RNA processing, implicating these RNA variants in a variety of diseases. Aberrant splicing and single nucleotide variants (SNVs) in RNA have been demonstrated to alter transcript stability, localization, and function. In particular, the upregulation of ADAR, an enzyme that mediates adenosine-to-inosine editing, has been previously linked to an increase in the invasiveness of lung adenocarcinoma cells and associated with splicing regulation. Despite the functional importance of studying splicing and SNVs, the use of short-read RNA-seq has limited the community's ability to interrogate both forms of RNA variation simultaneously. RESULTS: We employ long-read sequencing technology to obtain full-length transcript sequences, elucidating cis-effects of variants on splicing changes at a single molecule level. We develop a computational workflow that augments FLAIR, a tool that calls isoform models expressed in long-read data, to integrate RNA variant calls with the associated isoforms that bear them. We generate nanopore data with high sequence accuracy from H1975 lung adenocarcinoma cells with and without knockdown of ADAR. We apply our workflow to identify key inosine isoform associations to help clarify the prominence of ADAR in tumorigenesis. CONCLUSIONS: Ultimately, we find that a long-read approach provides valuable insight toward characterizing the relationship between RNA variants and splicing patterns.
+38956576	417	421	ADAR	Gene	103
+38956576	447	456	adenosine	Chemical	MESH:D000241
+38956576	460	467	inosine	Chemical	MESH:D007288
+38956576	542	561	lung adenocarcinoma	Disease	MESH:D000077192
+38956576	1232	1257	H1975 lung adenocarcinoma	CellLine	CVCL:1511
+38956576	1294	1298	ADAR	Gene	103
+38956576	1338	1345	inosine	Chemical	MESH:D007288
+38956576	1401	1405	ADAR	Gene	103
+38956576	1409	1422	tumorigenesis	Disease	MESH:D063646
+38956576	Association	MESH:D000241	103
+38956576	Association	MESH:D007288	MESH:D063646
+38956576	Association	MESH:D000241	MESH:D007288
+38956576	Association	MESH:D007288	103
+38956576	Association	MESH:D063646	103
+38956576	Association	MESH:D000077192	103
+38956576	Association	MESH:D007288	MESH:D000077192
+38956576	Association	MESH:D000241	MESH:D000077192
+

@@ -1,0 +1,52 @@
+35813499|t|Erythropoietin Enhances Post-ischemic Migration and Phagocytosis and Alleviates the Activation of Inflammasomes in Human Microglial Cells.
+35813499|a|Recombinant human erythropoietin (rhEPO) has been shown to exert anti-apoptotic and anti-inflammatory effects after cerebral ischemia. Inflammatory cytokines interleukin-1beta and -18 (IL-1beta and IL-18) are crucial mediators of apoptosis and are maturated by multiprotein complexes termed inflammasomes. Microglia are the first responders to post-ischemic brain damage and are a main source of inflammasomes. However, the impact of rhEPO on microglial activation and the subsequent induction of inflammasomes after ischemia remains elusive. To address this, we subjected human microglial clone 3 (HMC-3) cells to various durations of oxygen-glucose-deprivation/reperfusion (OGD/R) to assess the impact of rhEPO on cell viability, metabolic activity, oxidative stress, phagocytosis, migration, as well as on the regulation and activation of the NLRP1, NLRP3, NLRC4, and AIM2 inflammasomes. Administration of rhEPO mitigated OGD/R-induced oxidative stress and cell death. Additionally, it enhanced metabolic activity, migration and phagocytosis of HMC-3. Moreover, rhEPO attenuated post-ischemic activation and regulation of the NLRP1, NLRP3, NLRC4, and AIM2 inflammasomes as well as their downstream effectors CASPASE1 and IL-1beta. Pharmacological inhibition of NLRP3 via MCC950 had no effect on the activation of CASPASE1 and maturation of IL-1beta after OGD/R, but increased protein levels of NLRP1, NLRC4, and AIM2, suggesting compensatory activities among inflammasomes. We provide evidence that EPO-conveyed anti-inflammatory actions might be mediated via the regulation of the inflammasomes.
+35813499	0	14	Erythropoietin	Gene	2056
+35813499	115	120	Human	Species	9606
+35813499	151	156	human	Species	9606
+35813499	157	171	erythropoietin	Gene	2056
+35813499	228	240	inflammatory	Disease	MESH:D007249
+35813499	255	272	cerebral ischemia	Disease	MESH:D002545
+35813499	274	286	Inflammatory	Disease	MESH:D007249
+35813499	297	322	interleukin-1beta and -18	Gene	3553;3606
+35813499	324	332	IL-1beta	Gene	3553
+35813499	337	342	IL-18	Gene	3606
+35813499	483	509	post-ischemic brain damage	Disease	MESH:D001925
+35813499	656	664	ischemia	Disease	MESH:D007511
+35813499	712	717	human	Species	9606
+35813499	718	736	microglial clone 3	CellLine	CVCL:HC49
+35813499	738	743	HMC-3	CellLine	CVCL:HC49
+35813499	775	781	oxygen	Chemical	MESH:D010100
+35813499	782	789	glucose	Chemical	MESH:D005947
+35813499	815	820	OGD/R	CellLine	CVCL:B2FU
+35813499	985	990	NLRP1	Gene	22861
+35813499	992	997	NLRP3	Gene	114548
+35813499	999	1004	NLRC4	Gene	58484
+35813499	1010	1014	AIM2	Gene	9447
+35813499	1064	1069	OGD/R	CellLine	CVCL:B2FU
+35813499	1187	1192	HMC-3	CellLine	CVCL:HC49
+35813499	1268	1273	NLRP1	Gene	22861
+35813499	1275	1280	NLRP3	Gene	114548
+35813499	1282	1287	NLRC4	Gene	58484
+35813499	1293	1297	AIM2	Gene	9447
+35813499	1350	1358	CASPASE1	Gene	834
+35813499	1363	1371	IL-1beta	Gene	3553
+35813499	1403	1408	NLRP3	Gene	114548
+35813499	1413	1419	MCC950	Chemical	MESH:C000597426
+35813499	1455	1463	CASPASE1	Gene	834
+35813499	1482	1490	IL-1beta	Gene	3553
+35813499	1497	1502	OGD/R	CellLine	CVCL:B2FU
+35813499	1536	1541	NLRP1	Gene	22861
+35813499	1543	1548	NLRC4	Gene	58484
+35813499	1554	1558	AIM2	Gene	9447
+35813499	1641	1644	EPO	Gene	2056
+35813499	1659	1671	inflammatory	Disease	MESH:D007249
+35813499	Association	22861	3553
+35813499	Association	MESH:D007249	3553
+35813499	Negative_Correlation	MESH:D007249	2056
+35813499	Positive_Correlation	MESH:C000597426	9447
+35813499	Negative_Correlation	MESH:C000597426	114548
+35813499	Positive_Correlation	MESH:C000597426	58484
+35813499	Positive_Correlation	MESH:C000597426	22861
+35813499	Association	3553	58484
+35813499	Association	MESH:D007249	3606
+

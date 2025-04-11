@@ -1,0 +1,13 @@
+34836985|t|Population-specific brain [18F]-FDG PET templates of Chinese subjects for statistical parametric mapping.
+34836985|a|Statistical Parametric Mapping (SPM) is a computational approach for analysing functional brain images like Positron Emission Tomography (PET). When performing SPM analysis for different patient populations, brain PET template images representing population-specific brain morphometry and metabolism features are helpful. However, most currently available brain PET templates were constructed using the Caucasian data. To enrich the family of publicly available brain PET templates, we created Chinese-specific template images based on 116 [18F]-fluorodeoxyglucose ([18F]-FDG) PET images of normal participants. These images were warped into a common averaged space, in which the mean and standard deviation templates were both computed. We also developed the SPM analysis programmes to facilitate easy use of the templates. Our templates were validated through the SPM analysis of Alzheimer's and Parkinson's patient images. The resultant SPM t-maps accurately depicted the disease-related brain regions with abnormal [18F]-FDG uptake, proving the templates' effectiveness in brain function impairment analysis.
+34836985	26	35	[18F]-FDG	Chemical	MESH:D019788
+34836985	293	300	patient	Species	9606
+34836985	646	670	[18F]-fluorodeoxyglucose	Chemical	MESH:D019788
+34836985	672	681	[18F]-FDG	Chemical	MESH:D019788
+34836985	988	999	Alzheimer's	Disease	MESH:D000544
+34836985	1004	1015	Parkinson's	Disease	MESH:D010300
+34836985	1016	1023	patient	Species	9606
+34836985	1125	1134	[18F]-FDG	Chemical	MESH:D019788
+34836985	1183	1208	brain function impairment	Disease	MESH:D001927
+34836985	Association	MESH:D019788	MESH:D001927
+

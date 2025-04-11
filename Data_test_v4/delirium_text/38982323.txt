@@ -1,0 +1,42 @@
+38982323|t|Multireceptor Analysis for Evaluating the Antidiabetic Efficacy of Karanjin: A Computational Approach.
+38982323|a|BACKGROUND: Diabetes mellitus, notably type 2, is a rising global health challenge, prompting the need for effective management strategies. Common medications such as metformin, insulin, repaglinide and sitagliptin can induce side effects like gastrointestinal disturbances, hypoglycemia, weight gain and specific organ risks. Plant-derived therapies like Karanjin from Pongamia pinnata present promising alternatives due to their historical use, holistic health benefits and potentially fewer adverse effects. This study employs in silico analysis to explore Karanjin's interactions with diabetes-associated receptors, aiming to unveil its therapeutic potential while addressing the limitations and side effects associated with conventional medications. METHODOLOGY: The research encompassed the selection of proteins from the Protein Data Bank (PDB), followed by structural refinement processes and optimization. Ligands such as Karanjin and standard drugs were retrieved from PubChem, followed by a comprehensive analysis of their ADMET profiling and pharmacokinetic properties. Protein-ligand interactions were evaluated through molecular docking using AutoDockTools 1.5.7, followed by the analysis of structural stability using coarse-grained simulations with CABS Flex 2.0. Molecular dynamics simulations were performed using Desmond 7.2 and the OPLS4 force field to explore how Karanjin interacts with proteins over 100 nanoseconds, focusing on the dynamics and structural stability. RESULTS: Karanjin, a phytochemical from Pongamia pinnata, shows superior drug candidate potential compared to common medications, offering advantages in efficacy and reduced side effects. It adheres to drug-likeness criteria and exhibits optimal ADMET properties, including moderate solubility, high gastrointestinal absorption and blood-brain barrier penetration. Molecular docking revealed Karanjin's highest binding energy against receptor 3L2M (Pig pancreatic alpha-amylase) at -9.1 kcal/mol, indicating strong efficacy potential. Molecular dynamics simulations confirmed stable ligand-protein complexes with minor fluctuations in RMSD and RMSF, suggesting robust interactions with receptors 3L2M. CONCLUSION: Karanjin demonstrates potential in pharmaceutical expansion for treating metabolic disorders such as diabetes, as supported by computational analysis. Prospects for Karanjin in pharmaceutical development include structural modifications for enhanced efficacy and safety. Nanoencapsulation may improve bioavailability and targeted delivery to pancreatic cells, while combination therapies could optimize treatment outcomes in diabetes management. Clinical trials and experimental studies are crucial to validate its potential as a novel therapeutic agent.
+38982323	67	75	Karanjin	Chemical	MESH:C052068
+38982323	115	132	Diabetes mellitus	Disease	MESH:D003920
+38982323	142	148	type 2	Disease	MESH:D003924
+38982323	270	279	metformin	Chemical	MESH:D008687
+38982323	281	288	insulin	Chemical	MESH:D007328
+38982323	290	301	repaglinide	Chemical	MESH:C072379
+38982323	306	317	sitagliptin	Chemical	MESH:D000068900
+38982323	347	376	gastrointestinal disturbances	Disease	MESH:D005767
+38982323	378	390	hypoglycemia	Disease	MESH:D007003
+38982323	392	403	weight gain	Disease	MESH:D015430
+38982323	459	467	Karanjin	Chemical	MESH:C052068
+38982323	473	489	Pongamia pinnata	Species	56065
+38982323	663	671	Karanjin	Chemical	MESH:C052068
+38982323	692	721	diabetes-associated receptors	Disease	MESH:D003920
+38982323	1034	1042	Karanjin	Chemical	MESH:C052068
+38982323	1488	1496	Karanjin	Chemical	MESH:C052068
+38982323	1603	1611	Karanjin	Chemical	MESH:C052068
+38982323	1634	1650	Pongamia pinnata	Species	56065
+38982323	1986	1994	Karanjin	Chemical	MESH:C052068
+38982323	2047	2071	pancreatic alpha-amylase	Gene	100152255
+38982323	2308	2316	Karanjin	Chemical	MESH:C052068
+38982323	2381	2400	metabolic disorders	Disease	MESH:D008659
+38982323	2409	2417	diabetes	Disease	MESH:D003920
+38982323	2473	2481	Karanjin	Chemical	MESH:C052068
+38982323	2733	2741	diabetes	Disease	MESH:D003920
+38982323	Association	MESH:C052068	100152255
+38982323	Positive_Correlation	MESH:D007328	MESH:D005767
+38982323	Positive_Correlation	MESH:D008687	MESH:D005767
+38982323	Positive_Correlation	MESH:D000068900	MESH:D015430
+38982323	Positive_Correlation	MESH:D008687	MESH:D015430
+38982323	Positive_Correlation	MESH:D000068900	MESH:D007003
+38982323	Positive_Correlation	MESH:D007328	MESH:D015430
+38982323	Association	MESH:C052068	MESH:D003920
+38982323	Positive_Correlation	MESH:C072379	MESH:D015430
+38982323	Positive_Correlation	MESH:D007328	MESH:D007003
+38982323	Positive_Correlation	MESH:C072379	MESH:D005767
+38982323	Positive_Correlation	MESH:C072379	MESH:D007003
+38982323	Positive_Correlation	MESH:D008687	MESH:D007003
+38982323	Positive_Correlation	MESH:D000068900	MESH:D005767
+

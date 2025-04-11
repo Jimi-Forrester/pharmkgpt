@@ -1,0 +1,40 @@
+37964339|t|Grid2 interacting protein is a potential biomarker related to immune infiltration in colorectal cancer.
+37964339|a|BACKGROUND: Colorectal cancer (CRC) is one of the three deadliest malignant tumors in the world, posing a severe hazard to human health. Nonetheless, the 5-year survival rate for advanced CRC remains unsatisfactory. Grid2 interacting protein (GRID2IP) is a Purkinje fiber postsynaptic scaffold protein implicated in a number of signal transduction pathways in the nervous system. Previous studies have shown that Grid2 is closely related to the occurrence and prognosis of gastric cancer and many other diseases. Therefore, we aim to identify the relationship between GRID2IP and the occurrence and prognosis of CRC. METHODS: Transcriptome data were retrieved from The Cancer Genome Atlas (TCGA) database to analyze the differential expression of GRID2IP in a variety of malignant tumors and then validate it by quantitative real time polymerase chain reaction(Q-PCR) and Western Blot in HT29 and SW480 cells. "DESeq2" package was used to analyze the differentially expressed genes (DEGs) between the high- and low-GRID2IP subgroups. In relation to DEGs, Gene Ontology (GO) enrichment and Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis were performed. In addition, gene set enrichment analysis (GSEA) and single-sample gene set enrichment analysis (ssGSEA) were employed to examine DEGs-associated signaling pathways and GRID2IP-associated immune cell infiltration levels. Besides, overall survival (OS), disease-specific survival (DSS), and progression-free interval (PFI) were compared between the two subgroups using a Kaplan-Meier analysis. In addition, a prognostic model for GRID2IP and clinical characteristics was developed using the univariate Cox regression method. The "pRRophetic" package was applied to predict the drug sensitivity of different subgroups. Moreover, we also performed single-cell analysis of GRID2IP using the TISCH database. RESULTS: GRID2IP is upregulated in CRC patients. The rise of GRID2IP inhibits the invasion of tumor-associated immune cells resulting in a lower immune score. In addition, high GRID2IP expression was associated with poor prognosis in different clinical subgroups. Analysis of single cells revealed that GRID2IP was predominantly expressed in immune cells, myofibroblasts, and cancerous cells. In terms of chemotherapy drug sensitivity, the subgroup with high GRID2IP expression was less sensitive to gemcitabine. CONCLUSIONS: Our results suggest that rising GRID2IP promotes tumor-associated immune cell infiltration and suggests adverse outcomes in CRC patients, which may be a useful biomarker for determining the prognosis of CRC and a potential target molecule for CRC therapy.
+37964339	0	25	Grid2 interacting protein	Gene	392862
+37964339	85	102	colorectal cancer	Disease	MESH:D015179
+37964339	116	133	Colorectal cancer	Disease	MESH:D015179
+37964339	135	138	CRC	Disease	MESH:D015179
+37964339	170	186	malignant tumors	Disease	MESH:D009369
+37964339	292	295	CRC	Disease	MESH:D015179
+37964339	320	345	Grid2 interacting protein	Gene	392862
+37964339	347	354	GRID2IP	Gene	392862
+37964339	517	522	Grid2	Gene	2895
+37964339	577	591	gastric cancer	Disease	MESH:D013274
+37964339	672	679	GRID2IP	Gene	392862
+37964339	716	719	CRC	Disease	MESH:D015179
+37964339	773	779	Cancer	Disease	MESH:D009369
+37964339	851	858	GRID2IP	Gene	392862
+37964339	875	891	malignant tumors	Disease	MESH:D009369
+37964339	992	996	HT29	CellLine	CVCL:0320
+37964339	1001	1006	SW480	CellLine	CVCL:0546
+37964339	1119	1126	GRID2IP	Gene	392862
+37964339	1434	1441	GRID2IP	Gene	392862
+37964339	1694	1701	GRID2IP	Gene	392862
+37964339	1934	1941	GRID2IP	Gene	392862
+37964339	1977	1984	GRID2IP	Gene	392862
+37964339	2003	2006	CRC	Disease	MESH:D015179
+37964339	2029	2036	GRID2IP	Gene	392862
+37964339	2062	2067	tumor	Disease	MESH:D009369
+37964339	2145	2152	GRID2IP	Gene	392862
+37964339	2271	2278	GRID2IP	Gene	392862
+37964339	2344	2353	cancerous	Disease	MESH:D009369
+37964339	2427	2434	GRID2IP	Gene	392862
+37964339	2468	2479	gemcitabine	Chemical	MESH:D000093542
+37964339	2526	2533	GRID2IP	Gene	392862
+37964339	2543	2548	tumor	Disease	MESH:D009369
+37964339	2618	2621	CRC	Disease	MESH:D015179
+37964339	2697	2700	CRC	Disease	MESH:D015179
+37964339	2737	2740	CRC	Disease	MESH:D015179
+37964339	Association	MESH:D015179	392862
+37964339	Association	MESH:D013274	2895
+

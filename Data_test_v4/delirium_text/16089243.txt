@@ -1,0 +1,31 @@
+16089243|t|Dextromethorphan-induced delirium and possible methadone interaction.
+16089243|a|INTRODUCTION: Dextromethorphan is a commonly used antitussive agent that can be purchased over the counter. It is metabolized primarily by the cytochrome P450 (CYP) 2D6 isozyme. Methadone has been found to inhibit CYP2D6, indicating a potential for interaction with dextromethorphan. CASE SUMMARY: An 83-year-old woman was evaluated for delirium, hypersomnia, confusion, lethargy, impaired concentration, and poor food intake. Symptoms resolved soon after discontinuing dextromethorphan. DISCUSSION: Vulnerability to delirium was potentially caused by coadministration of methadone, which can inhibit the CYP2D6 isozyme. CONCLUSION: Evaluation of delirium should include close investigation of the patient's medications for potential interactions with dextromethorphan.
+16089243	0	16	Dextromethorphan	Chemical	MESH:D003915
+16089243	25	33	delirium	Disease	MESH:D003693
+16089243	47	56	methadone	Chemical	MESH:D008691
+16089243	84	100	Dextromethorphan	Chemical	MESH:D003915
+16089243	213	238	cytochrome P450 (CYP) 2D6	Gene	1565
+16089243	248	257	Methadone	Chemical	MESH:D008691
+16089243	284	290	CYP2D6	Gene	1565
+16089243	336	352	dextromethorphan	Chemical	MESH:D003915
+16089243	383	388	woman	Species	9606
+16089243	407	415	delirium	Disease	MESH:D003693
+16089243	417	428	hypersomnia	Disease	MESH:D006970
+16089243	441	449	lethargy	Disease	MESH:D053609
+16089243	451	473	impaired concentration	Disease	MESH:C567712
+16089243	540	556	dextromethorphan	Chemical	MESH:D003915
+16089243	587	595	delirium	Disease	MESH:D003693
+16089243	642	651	methadone	Chemical	MESH:D008691
+16089243	675	681	CYP2D6	Gene	1565
+16089243	717	725	delirium	Disease	MESH:D003693
+16089243	768	775	patient	Species	9606
+16089243	822	838	dextromethorphan	Chemical	MESH:D003915
+16089243	Association	MESH:D003915	1565
+16089243	Negative_Correlation	MESH:D003915	MESH:D053609
+16089243	Association	MESH:D003915	MESH:D008691
+16089243	Positive_Correlation	MESH:D008691	MESH:D003693
+16089243	Positive_Correlation	MESH:D003915	MESH:D003693
+16089243	Negative_Correlation	MESH:D003915	MESH:D006970
+16089243	Negative_Correlation	MESH:D003915	MESH:C567712
+16089243	Negative_Correlation	MESH:D008691	1565
+

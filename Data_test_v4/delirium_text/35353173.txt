@@ -1,0 +1,35 @@
+35353173|t|Inflammation and Brain Structure in Schizophrenia and Other Neuropsychiatric Disorders: A Mendelian Randomization Study.
+35353173|a|Importance: Previous in vitro and postmortem research suggests that inflammation may lead to structural brain changes via activation of microglia and/or astrocytic dysfunction in a range of neuropsychiatric disorders. Objective: To investigate the relationship between inflammation and changes in brain structures in vivo and to explore a transcriptome-driven functional basis with relevance to mental illness. Design, Setting, and Participants: This study used multistage linked analyses, including mendelian randomization (MR), gene expression correlation, and connectivity analyses. A total of 20 688 participants in the UK Biobank, which includes clinical, genomic, and neuroimaging data, and 6 postmortem brains from neurotypical individuals in the Allen Human Brain Atlas (AHBA), including RNA microarray data. Data were extracted in February 2021 and analyzed between March and October 2021. Exposures: Genetic variants regulating levels and activity of circulating interleukin 1 (IL-1), IL-2, IL-6, C-reactive protein (CRP), and brain-derived neurotrophic factor (BDNF) were used as exposures in MR analyses. Main Outcomes and Measures: Brain imaging measures, including gray matter volume (GMV) and cortical thickness (CT), were used as outcomes. Associations were considered significant at a multiple testing-corrected threshold of P < 1.1 x 10-4. Differential gene expression in AHBA data was modeled in brain regions mapped to areas significant in MR analyses; genes were tested for biological and disease overrepresentation in annotation databases and for connectivity in protein-protein interaction networks. Results: Of 20 688 participants in the UK Biobank sample, 10 828 (52.3%) were female, and the mean (SD) age was 55.5 (7.5) years. In the UK Biobank sample, genetically predicted levels of IL-6 were associated with GMV in the middle temporal cortex (z score, 5.76; P = 8.39 x 10-9), inferior temporal (z score, 3.38; P = 7.20 x 10-5), fusiform (z score, 4.70; P = 2.60 x 10-7), and frontal (z score, -3.59; P = 3.30 x 10-5) cortex together with CT in the superior frontal region (z score, -5.11; P = 3.22 x 10-7). No significant associations were found for IL-1, IL-2, CRP, or BDNF after correction for multiple comparison. In the AHBA sample, 5 of 6 participants (83%) were male, and the mean (SD) age was 42.5 (13.4) years. Brain-wide coexpression analysis showed a highly interconnected network of genes preferentially expressed in the middle temporal gyrus (MTG), which further formed a highly connected protein-protein interaction network with IL-6 (enrichment test of expected vs observed network given the prevalence and degree of interactions in the STRING database: 43 nodes/30 edges observed vs 8 edges expected; mean node degree, 1.4; genome-wide significance, P = 4.54 x 10-9). MTG differentially expressed genes that were functionally enriched for biological processes in schizophrenia, autism spectrum disorder, and epilepsy. Conclusions and Relevance: In this study, genetically determined IL-6 was associated with brain structure and potentially affects areas implicated in developmental neuropsychiatric disorders, including schizophrenia and autism.
+35353173	0	12	Inflammation	Disease	MESH:D007249
+35353173	36	49	Schizophrenia	Disease	MESH:D012559
+35353173	60	86	Neuropsychiatric Disorders	Disease	MESH:D001523
+35353173	189	201	inflammation	Disease	MESH:D007249
+35353173	285	296	dysfunction	Disease	MESH:D006331
+35353173	311	337	neuropsychiatric disorders	Disease	MESH:D001523
+35353173	390	402	inflammation	Disease	MESH:D007249
+35353173	516	530	mental illness	Disease	MESH:D001523
+35353173	881	886	Human	Species	9606
+35353173	1094	1107	interleukin 1	Gene	3552
+35353173	1109	1113	IL-1	Gene	3552
+35353173	1116	1120	IL-2	Gene	3558
+35353173	1122	1126	IL-6	Gene	3569
+35353173	1128	1146	C-reactive protein	Gene	1401
+35353173	1148	1151	CRP	Gene	1401
+35353173	1158	1191	brain-derived neurotrophic factor	Gene	627
+35353173	1193	1197	BDNF	Gene	627
+35353173	1932	1936	IL-6	Gene	3569
+35353173	2300	2304	IL-1	Gene	3552
+35353173	2306	2310	IL-2	Gene	3558
+35353173	2312	2315	CRP	Gene	1401
+35353173	2320	2324	BDNF	Gene	627
+35353173	2692	2696	IL-6	Gene	3569
+35353173	3028	3041	schizophrenia	Disease	MESH:D012559
+35353173	3043	3067	autism spectrum disorder	Disease	MESH:D000067877
+35353173	3073	3081	epilepsy	Disease	MESH:D004827
+35353173	3148	3152	IL-6	Gene	3569
+35353173	3247	3273	neuropsychiatric disorders	Disease	MESH:D001523
+35353173	3285	3298	schizophrenia	Disease	MESH:D012559
+35353173	3303	3309	autism	Disease	MESH:D001321
+35353173	Association	MESH:D007249	3569
+35353173	Association	MESH:D001523	3569
+

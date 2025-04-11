@@ -1,0 +1,26 @@
+37924144|t|Risk factors for short-term mortality in elderly hip fracture patients with complicated heart failure in the ICU: A MIMIC-IV database analysis using nomogram.
+37924144|a|BACKGROUND: Hip fracture is a prevalent and hazardous injury among the elderly population that often results in intensive care unit (ICU) admission due to various complications, despite advanced medical science. One common complication experienced in the ICU by elderly hip fracture patients is heart failure, which significantly impacts short-term survival rates. Currently, there is a deficit of adequate predictive models to forecast the short-term risk of death following heart failure for elderly hip fracture patients in the ICU. This study aims to identify independent risk factors for all-cause mortality within 30 days for elderly patients with hip fractures and heart failure while in the ICU in order to develop a predictive model. METHOD: A total of 641 elderly patients with hip fractures combined with heart failure were recruited from the Medical Information Mart for Intensive Care IV dataset and randomized to the training and validation sets. The primary outcome was all-cause mortality within 30 days. The least absolute shrinkage and selection operator regression was used to reduce data dimensionality and select features. Multivariate logistic regression was used to build predictive models. Consistency index (C-index), receiver operating characteristic curve, and decision curve analysis (DCA) were used to measure the predictive performance of the nomogram. RESULT: Our results showed that these variables including MCH, MCV, INR, monocyte percentage, neutrophils percentage, creatinine, and combined sepsis were independent factors for death within 30 days in elderly patients with hip fracture combined with heart failure in the ICU. The C-index was 0.869 (95% CI 0.823-0.916) and 0.824 (95% CI 0.749-0.900) for the training and validation sets, respectively. The results of the area under the curve and decision curve analysis (DCA) confirmed that the nomogram performed well in predicting elderly patients with hip fractures combined with heart failure in the ICU. CONCLUSION: We developed a new nomogram model for predicting 30-day all-cause mortality in elderly patients with hip fractures combined with heart failure in the ICU, which could be a valid and useful clinical tool for clinicians for targeted treatment and prognosis prediction.
+37924144	49	61	hip fracture	Disease	MESH:D006620
+37924144	88	101	heart failure	Disease	MESH:D006333
+37924144	171	183	Hip fracture	Disease	MESH:D006620
+37924144	429	441	hip fracture	Disease	MESH:D006620
+37924144	454	467	heart failure	Disease	MESH:D006333
+37924144	619	624	death	Disease	MESH:D003643
+37924144	635	648	heart failure	Disease	MESH:D006333
+37924144	661	673	hip fracture	Disease	MESH:D006620
+37924144	813	826	hip fractures	Disease	MESH:D006620
+37924144	831	844	heart failure	Disease	MESH:D006333
+37924144	947	960	hip fractures	Disease	MESH:D006620
+37924144	975	988	heart failure	Disease	MESH:D006333
+37924144	1660	1670	creatinine	Chemical	MESH:D003404
+37924144	1685	1691	sepsis	Disease	MESH:D018805
+37924144	1721	1726	death	Disease	MESH:D003643
+37924144	1767	1779	hip fracture	Disease	MESH:D006620
+37924144	1794	1807	heart failure	Disease	MESH:D006333
+37924144	2099	2112	hip fractures	Disease	MESH:D006620
+37924144	2127	2140	heart failure	Disease	MESH:D006333
+37924144	2266	2279	hip fractures	Disease	MESH:D006620
+37924144	2294	2307	heart failure	Disease	MESH:D006333
+37924144	Positive_Correlation	MESH:D003404	MESH:D006333
+37924144	Positive_Correlation	MESH:D003404	MESH:D003643
+

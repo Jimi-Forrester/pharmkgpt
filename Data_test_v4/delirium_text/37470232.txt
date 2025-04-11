@@ -1,0 +1,80 @@
+37470232|t|Microbiota dysbiosis caused by dietetic patterns as a promoter of Alzheimer's disease through metabolic syndrome mechanisms.
+37470232|a|Microbiota dysbiosis and metabolic syndrome, consequences of a non-adequate diet, generate a feedback pathogenic state implicated in Alzheimer's disease development. The lower production of short chain fatty acids (SCFAs) under dysbiosis status leads to lipid homeostasis deregulation and decreases Angptl4 release and AMPK activation in the adipose tissue, promoting higher lipid storage (adipocyte hypertrophy) and cholesterol levels. Also, low SCFA generation reduces GPR41 and GPR43 receptor activation at the adipose tissue (increasing leptin release and leptin receptor resistance) and intestinal levels, reducing the release of GLP-1 and YPP. Therefore, lower satiety sensation and energy expenditure occur, promoting a weight gaining environment mediated by higher food intake and lipid storage, developing dyslipemia. In this context, higher glucose levels, together with higher free fatty acids in the bloodstream, promote glycolipotoxicity, provoking a reduction in insulin released, insulin receptor resistance, advanced glycation products (AGEs) and type 2 diabetes. Intestinal dysbiosis and low SCFAs reduce bacterial biodiversity, increasing lipopolysaccharide (LPS)-producing bacteria and intestinal barrier permeability. Higher amounts of LPS pass to the bloodstream (endotoxemia), causing a low-grade chronic inflammatory state characterized by higher levels of leptin, IL-1beta, IL-6 and TNF-alpha, together with a reduced release of adiponectin and IL-10. At the brain and neuronal levels, the generated insulin resistance, low-grade chronic inflammation, leptin resistance, AGE production and LPS increase directly impact the secretase enzymes and tau hyperphosphorylation, creating an enabling environment for beta-amyloid senile plaque and tau tangled formations and, as a consequence, Alzheimer's initiation, development and maintenance.
+37470232	66	85	Alzheimer's disease	Disease	MESH:D000544
+37470232	94	112	metabolic syndrome	Disease	MESH:D024821
+37470232	150	168	metabolic syndrome	Disease	MESH:D024821
+37470232	258	277	Alzheimer's disease	Disease	MESH:D000544
+37470232	315	338	short chain fatty acids	Chemical	MESH:D005232
+37470232	340	345	SCFAs	Chemical	MESH:D005232
+37470232	379	384	lipid	Chemical	MESH:D008055
+37470232	424	431	Angptl4	Gene	51129
+37470232	444	448	AMPK	Gene	5562
+37470232	500	505	lipid	Chemical	MESH:D008055
+37470232	515	536	adipocyte hypertrophy	Disease	MESH:D006984
+37470232	542	553	cholesterol	Chemical	MESH:D002784
+37470232	572	576	SCFA	Chemical	MESH:D005232
+37470232	596	601	GPR41	Gene	2865
+37470232	666	672	leptin	Gene	3952
+37470232	685	700	leptin receptor	Gene	3953
+37470232	760	765	GLP-1	Gene	2740
+37470232	914	919	lipid	Chemical	MESH:D008055
+37470232	940	950	dyslipemia	Disease	
+37470232	976	983	glucose	Chemical	MESH:D005947
+37470232	1013	1029	free fatty acids	Chemical	MESH:D005230
+37470232	1102	1109	insulin	Gene	3630
+37470232	1188	1203	type 2 diabetes	Disease	MESH:D003924
+37470232	1205	1225	Intestinal dysbiosis	Disease	MESH:D064806
+37470232	1234	1239	SCFAs	Chemical	MESH:D005232
+37470232	1282	1300	lipopolysaccharide	Chemical	MESH:D008070
+37470232	1302	1305	LPS	Chemical	MESH:D008070
+37470232	1381	1384	LPS	Chemical	MESH:D008070
+37470232	1410	1421	endotoxemia	Disease	MESH:D019446
+37470232	1444	1470	chronic inflammatory state	Disease	MESH:D020277
+37470232	1505	1511	leptin	Gene	3952
+37470232	1513	1521	IL-1beta	Gene	3553
+37470232	1523	1527	IL-6	Gene	3569
+37470232	1532	1541	TNF-alpha	Gene	7124
+37470232	1578	1589	adiponectin	Gene	9370
+37470232	1594	1599	IL-10	Gene	3586
+37470232	1649	1656	insulin	Gene	3630
+37470232	1687	1699	inflammation	Disease	MESH:D007249
+37470232	1701	1707	leptin	Gene	3952
+37470232	1720	1723	AGE	Gene	5973
+37470232	1739	1742	LPS	Chemical	MESH:D008070
+37470232	1794	1797	tau	Gene	4137
+37470232	1888	1891	tau	Gene	4137
+37470232	1934	1945	Alzheimer's	Disease	MESH:D000544
+37470232	Association	MESH:D000544	3630
+37470232	Negative_Correlation	MESH:D005232	2865
+37470232	Positive_Correlation	MESH:D008070	MESH:D019446
+37470232	Positive_Correlation	3952	4137
+37470232	Association	4137	5973
+37470232	Association	MESH:D000544	5973
+37470232	Negative_Correlation	MESH:D005232	51129
+37470232	Association	MESH:D000544	4137
+37470232	Positive_Correlation	MESH:D008070	3569
+37470232	Positive_Correlation	MESH:D005232	3952
+37470232	Negative_Correlation	MESH:D005232	2740
+37470232	Positive_Correlation	MESH:D005947	MESH:D003924
+37470232	Negative_Correlation	MESH:D005232	5562
+37470232	Positive_Correlation	MESH:D005232	MESH:D008070
+37470232	Association	MESH:D007249	4137
+37470232	Positive_Correlation	MESH:D002784	MESH:D005232
+37470232	Negative_Correlation	MESH:D008070	3586
+37470232	Association	MESH:D000544	3952
+37470232	Positive_Correlation	MESH:D008070	3952
+37470232	Positive_Correlation	MESH:D005232	3953
+37470232	Positive_Correlation	MESH:D005230	MESH:D003924
+37470232	Association	MESH:D008070	4137
+37470232	Association	MESH:D008055	MESH:D006984
+37470232	Negative_Correlation	MESH:D008070	9370
+37470232	Association	MESH:D005232	MESH:D008055
+37470232	Positive_Correlation	MESH:D008070	MESH:D020277
+37470232	Positive_Correlation	MESH:D008070	MESH:D000544
+37470232	Positive_Correlation	MESH:D005232	MESH:D006984
+37470232	Association	3630	4137
+37470232	Positive_Correlation	MESH:D008070	3553
+37470232	Positive_Correlation	MESH:D008070	MESH:D064806
+37470232	Positive_Correlation	MESH:D008070	MESH:D007249
+37470232	Positive_Correlation	MESH:D008070	7124
+

@@ -1,0 +1,68 @@
+32344313|t|Can pioglitazone be potentially useful therapeutically in treating patients with COVID-19?
+32344313|a|The severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has become a pandemic disease (COVID-19) that has spread globally causing more than 30,000 deaths. Despite the immense and ongoing global effort, no efficacious drugs to fight this plague have been identified and patients admitted to the intensive care units (ICU), for respiratory distress, are managed mostly by means of supportive care based on oxygen maintenance. Several authors have reported that the prevalence of hypertension, diabetes, cardiovascular and cerebrovascular diseases comorbidities were indeed frequent among patients with COVID-19, which suggests that these conditions are likely to aggravate and complicate the prognosis. What the aforementioned diseases have in common is a latent chronic inflammatory state that may be associated with the alteration of laboratory parameters that are typical of the metabolic syndrome and insulin resistance. In severe COVID-19 patients laboratory markers of inflammation such as C-reactive protein, IL-6, D-dimer, serum ferritin and lactate dehydrogenase are elevated in many patients; assessed since the 4th-6th day of illness onset, such increases seem to be predictive of an adverse prognosis. Our hypothesis is that drugs belonging to the family of thiazolidinediones (TZD) such as pioglitazone or rosiglitazone, approved for treating the condition of insulin resistance and the accompanying inflammation, could ameliorate the prognosis of those COVID-19 patients with diabetes, hypertension and cardiovascular disorders comorbidities. TZD are PPARgamma agonists that act on nuclear receptors, thereby triggering certain transcription factors. TZD were widely used for type-2 diabetes in the first decade of this century and although concerns have been raised for possible side effects associated with long-term treatment, their use has been recently revaluated for their anti-inflammatory properties in numerous medical conditions.
+32344313	4	16	pioglitazone	Chemical	MESH:D000077205
+32344313	67	75	patients	Species	9606
+32344313	81	89	COVID-19	Disease	MESH:D000086382
+32344313	95	142	severe acute respiratory syndrome coronavirus 2	Species	2697049
+32344313	144	154	SARS-CoV-2	Species	2697049
+32344313	187	195	COVID-19	Disease	MESH:D000086382
+32344313	247	253	deaths	Disease	MESH:D003643
+32344313	369	377	patients	Species	9606
+32344313	426	446	respiratory distress	Disease	MESH:D012128
+32344313	504	510	oxygen	Chemical	MESH:D010100
+32344313	577	589	hypertension	Disease	MESH:D006973
+32344313	591	599	diabetes	Disease	MESH:D003920
+32344313	601	644	cardiovascular and cerebrovascular diseases	Disease	MESH:D002318
+32344313	686	694	patients	Species	9606
+32344313	700	708	COVID-19	Disease	MESH:D000086382
+32344313	869	881	inflammatory	Disease	MESH:D007249
+32344313	980	998	metabolic syndrome	Disease	MESH:D024821
+32344313	1003	1021	insulin resistance	Disease	MESH:D007333
+32344313	1033	1041	COVID-19	Disease	MESH:D000086382
+32344313	1042	1050	patients	Species	9606
+32344313	1073	1085	inflammation	Disease	MESH:D007249
+32344313	1094	1112	C-reactive protein	Gene	1401
+32344313	1114	1118	IL-6	Gene	3569
+32344313	1191	1199	patients	Species	9606
+32344313	1368	1386	thiazolidinediones	Chemical	MESH:D045162
+32344313	1388	1391	TZD	Chemical	MESH:D045162
+32344313	1401	1413	pioglitazone	Chemical	MESH:D000077205
+32344313	1417	1430	rosiglitazone	Chemical	MESH:D000077154
+32344313	1471	1489	insulin resistance	Disease	MESH:D007333
+32344313	1511	1523	inflammation	Disease	MESH:D007249
+32344313	1565	1573	COVID-19	Disease	MESH:D000086382
+32344313	1574	1582	patients	Species	9606
+32344313	1588	1596	diabetes	Disease	MESH:D003920
+32344313	1598	1610	hypertension	Disease	MESH:D006973
+32344313	1615	1639	cardiovascular disorders	Disease	MESH:D002318
+32344313	1655	1658	TZD	Chemical	MESH:D045162
+32344313	1663	1672	PPARgamma	Gene	5468
+32344313	1763	1766	TZD	Chemical	MESH:D045162
+32344313	1788	1803	type-2 diabetes	Disease	MESH:D003924
+32344313	1996	2008	inflammatory	Disease	MESH:D007249
+32344313	Positive_Correlation	MESH:D000086382	3569
+32344313	Negative_Correlation	MESH:D000077205	MESH:D007333
+32344313	Negative_Correlation	MESH:D000077154	MESH:D003920
+32344313	Negative_Correlation	MESH:D000077205	MESH:D007249
+32344313	Positive_Correlation	MESH:D045162	5468
+32344313	Negative_Correlation	MESH:D045162	MESH:D007333
+32344313	Positive_Correlation	MESH:D000086382	1401
+32344313	Association	MESH:D007249	1401
+32344313	Negative_Correlation	MESH:D000077205	MESH:D002318
+32344313	Negative_Correlation	MESH:D000077205	MESH:D045162
+32344313	Negative_Correlation	MESH:D000077154	MESH:D000086382
+32344313	Negative_Correlation	MESH:D010100	MESH:D012128
+32344313	Negative_Correlation	MESH:D000077205	MESH:D006973
+32344313	Negative_Correlation	MESH:D045162	MESH:D003920
+32344313	Negative_Correlation	MESH:D045162	MESH:D003924
+32344313	Negative_Correlation	MESH:D045162	MESH:D002318
+32344313	Negative_Correlation	MESH:D000077205	MESH:D003920
+32344313	Negative_Correlation	MESH:D000077205	MESH:D000086382
+32344313	Negative_Correlation	MESH:D000077154	MESH:D002318
+32344313	Negative_Correlation	MESH:D000077154	MESH:D007333
+32344313	Negative_Correlation	MESH:D045162	MESH:D006973
+32344313	Association	MESH:D007249	3569
+32344313	Negative_Correlation	MESH:D000077154	MESH:D007249
+32344313	Negative_Correlation	MESH:D000077154	MESH:D006973
+32344313	Negative_Correlation	MESH:D045162	MESH:D007249
+

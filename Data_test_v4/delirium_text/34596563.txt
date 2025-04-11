@@ -1,0 +1,27 @@
+34596563|t|Machine Learning to Identify Psychomotor Behaviors of Delirium for Patients in Long-Term Care Facility.
+34596563|a|This study aimed to develop accurate and explainable machine learning models for three psychomotor behaviors of delirium for hospitalized adult patients. A prospective pilot study was conducted with 33 participants admitted to a long-term care facility between August 10 and 25, 2020. During the pilot study, we collected 560 cases that included 33 clinical variables and the survey items from the short confusion assessment method (S-CAM), and developed a mobile-based application. Multiple machine learning algorithms, including four rule-mining algorithms (C4.5, CBA, MCAR, and LEM2) and four other statistical learning algorithms (LR, ANNs, SVMs with three kernel functions, and random forest), were validated by paired Wilcoxon signed-rank tests on both macro-averaged F1 and weighted average F1-measures during the 10-times stratified 2-fold cross-validation. The LEM2 algorithm achieved the best prediction performance (macro-averaged F1-measure of 49.35%; weighted average F1-measure of 96.55%), correctly identifying adult patients at delirium risk. In the pairwise comparison between predictive powers observed from independent models, the LEM2 model showed a medium or large effect size between 0.4925 and 0.8766 when compared with LR, ANN, SVM with RBF, and MCAR models. We have confirmed that acute consciousness in S-CAM assessment is closely associated with different predictors for screening three psychomotor behaviors of delirium: 1) education level, dementia type or its level, sleep disorder, dehydration, and infection in mixed-type delirium; 2) gender, education level, dementia type, dehydration, bedsores, and foley catheter in hyperactive delirium; and 3) pain, sleep disorder, and haloperidol use in hypoactive delirium.
+34596563	54	62	Delirium	Disease	MESH:D003693
+34596563	67	75	Patients	Species	9606
+34596563	216	224	delirium	Disease	MESH:D003693
+34596563	248	256	patients	Species	9606
+34596563	685	689	LEM2	Gene	221496
+34596563	974	978	LEM2	Gene	221496
+34596563	1136	1144	patients	Species	9606
+34596563	1148	1156	delirium	Disease	MESH:D003693
+34596563	1254	1258	LEM2	Gene	221496
+34596563	1543	1551	delirium	Disease	MESH:D003693
+34596563	1573	1581	dementia	Disease	MESH:D003704
+34596563	1601	1615	sleep disorder	Disease	MESH:D012893
+34596563	1617	1628	dehydration	Disease	MESH:D003681
+34596563	1634	1643	infection	Disease	MESH:D007239
+34596563	1658	1666	delirium	Disease	MESH:D003693
+34596563	1696	1704	dementia	Disease	MESH:D003704
+34596563	1711	1722	dehydration	Disease	MESH:D003681
+34596563	1756	1776	hyperactive delirium	Disease	MESH:D003693
+34596563	1785	1789	pain	Disease	MESH:D010146
+34596563	1791	1805	sleep disorder	Disease	MESH:D012893
+34596563	1811	1822	haloperidol	Chemical	MESH:D006220
+34596563	1830	1849	hypoactive delirium	Disease	MESH:D003693
+34596563	Negative_Correlation	MESH:D006220	MESH:D003693
+34596563	Association	MESH:D003693	221496
+

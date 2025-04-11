@@ -1,0 +1,48 @@
+35731827|t|A method for the inference of cytokine interaction networks.
+35731827|a|Cell-cell communication is mediated by many soluble mediators, including over 40 cytokines. Cytokines, e.g. TNF, IL1beta, IL5, IL6, IL12 and IL23, represent important therapeutic targets in immune-mediated inflammatory diseases (IMIDs), such as inflammatory bowel disease (IBD), psoriasis, asthma, rheumatoid and juvenile arthritis. The identification of cytokines that are causative drivers of, and not just associated with, inflammation is fundamental for selecting therapeutic targets that should be studied in clinical trials. As in vitro models of cytokine interactions provide a simplified framework to study complex in vivo interactions, and can easily be perturbed experimentally, they are key for identifying such targets. We present a method to extract a minimal, weighted cytokine interaction network, given in vitro data on the effects of the blockage of single cytokine receptors on the secretion rate of other cytokines. Existing biological network inference methods typically consider the correlation structure of the underlying dataset, but this can make them poorly suited for highly connected, non-linear cytokine interaction data. Our method uses ordinary differential equation systems to represent cytokine interactions, and efficiently computes the configuration with the lowest Akaike information criterion value for all possible network configurations. It enables us to study indirect cytokine interactions and quantify inhibition effects. The extracted network can also be used to predict the combined effects of inhibiting various cytokines simultaneously. The model equations can easily be adjusted to incorporate more complicated dynamics and accommodate temporal data. We validate our method using synthetic datasets and apply our method to an experimental dataset on the regulation of IL23, a cytokine with therapeutic relevance in psoriasis and IBD. We validate several model predictions against experimental data that were not used for model fitting. In summary, we present a novel method specifically designed to efficiently infer cytokine interaction networks from cytokine perturbation data in the context of IMIDs.
+35731827	169	172	TNF	Gene	7124
+35731827	174	181	IL1beta	Gene	3553
+35731827	183	186	IL5	Gene	3567
+35731827	188	191	IL6	Gene	3569
+35731827	193	197	IL12	Gene	3593
+35731827	202	206	IL23	Gene	51561
+35731827	251	288	immune-mediated inflammatory diseases	Disease	MESH:C567355
+35731827	290	295	IMIDs	Disease	MESH:C567355
+35731827	306	332	inflammatory bowel disease	Disease	MESH:D015212
+35731827	334	337	IBD	Disease	MESH:D015212
+35731827	340	349	psoriasis	Disease	MESH:D011565
+35731827	351	357	asthma	Disease	MESH:D001249
+35731827	359	369	rheumatoid	Disease	MESH:D011695
+35731827	374	392	juvenile arthritis	Disease	MESH:D001171
+35731827	487	499	inflammation	Disease	MESH:D007249
+35731827	1875	1879	IL23	Gene	51561
+35731827	1922	1931	psoriasis	Disease	MESH:D011565
+35731827	1936	1939	IBD	Disease	MESH:D015212
+35731827	2204	2209	IMIDs	Disease	MESH:C567355
+35731827	Association	MESH:D011695	51561
+35731827	Association	MESH:D015212	51561
+35731827	Association	MESH:C567355	3569
+35731827	Association	MESH:D011695	3569
+35731827	Association	MESH:D001171	3593
+35731827	Association	MESH:D011565	51561
+35731827	Association	MESH:D001171	3553
+35731827	Association	MESH:D001249	3569
+35731827	Association	MESH:C567355	3593
+35731827	Association	MESH:D001171	7124
+35731827	Association	MESH:D011695	3593
+35731827	Association	MESH:C567355	7124
+35731827	Association	MESH:C567355	3553
+35731827	Association	MESH:D001249	3593
+35731827	Association	MESH:D011695	7124
+35731827	Association	MESH:D001171	51561
+35731827	Association	MESH:C567355	3567
+35731827	Association	MESH:D001249	7124
+35731827	Association	MESH:D011695	3567
+35731827	Association	MESH:D011695	3553
+35731827	Association	MESH:D001171	3567
+35731827	Association	MESH:D001249	3567
+35731827	Association	MESH:D001171	3569
+35731827	Association	MESH:D001249	3553
+35731827	Association	MESH:D001249	51561
+35731827	Association	MESH:C567355	51561
+

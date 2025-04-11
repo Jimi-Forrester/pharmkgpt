@@ -1,0 +1,64 @@
+36793390|t|Spectrum of germline and somatic mitochondrial DNA variants in Tuberous Sclerosis Complex.
+36793390|a|Tuberous Sclerosis Complex (TSC) is caused by loss of function variants in either TSC1 or TSC2 and is characterized by broad phenotypic heterogeneity. Currently, there is limited knowledge regarding the role of the mitochondrial genome (mtDNA) in TSC pathogenesis. In this study, we aimed to determine the prevalence and spectrum of germline and somatic mtDNA variants in TSC and identify potential disease modifiers. Analysis of mtDNA amplicon massively parallel sequencing (aMPS) data, off-target mtDNA from whole-exome sequencing (WES), and/or qPCR, revealed mtDNA alterations in 270 diverse tissues (139 TSC-associated tumors and 131 normal tissue samples) from 199 patients and six healthy individuals. Correlation of clinical features to mtDNA variants and haplogroup analysis was done in 102 buccal swabs (age: 20-71 years). No correlation was found between clinical features and either mtDNA variants or haplogroups. No pathogenic variants were identified in the buccal swab samples. Using in silico analysis, we identified three predicted pathogenic variants in tumor samples: MT-ND4 (m.11742G>A, p. Cys328Tyr, VAF: 43%, kidney angiomyolipoma), MT-CYB (m.14775T>C, p. Leu10Pro, VAF: 43%, LAM abdominal tumor) and MT-CYB (m.15555C>T, p. Pro270Leu, VAF: 7%, renal cell carcinoma). Large deletions of the mitochondrial genome were not detected. Analysis of tumors from 23 patients with corresponding normal tissue did not reveal any recurrent tumor-associated somatic variants. The mtDNA/gDNA ratio between tumors and corresponding normal tissue was also unchanged. Overall, our findings demonstrate that the mitochondrial genome is highly stable across tissues and within TSC-associated tumors.
+36793390	63	89	Tuberous Sclerosis Complex	Disease	MESH:D014402
+36793390	91	117	Tuberous Sclerosis Complex	Disease	MESH:D014402
+36793390	119	122	TSC	Disease	MESH:D014402
+36793390	173	177	TSC1	Gene	7248
+36793390	181	185	TSC2	Gene	7249
+36793390	338	341	TSC	Disease	MESH:D014402
+36793390	463	466	TSC	Disease	MESH:D014402
+36793390	699	720	TSC-associated tumors	Disease	MESH:D014402
+36793390	761	769	patients	Species	9606
+36793390	1162	1167	tumor	Disease	MESH:D009369
+36793390	1177	1183	MT-ND4	Gene	4538
+36793390	1185	1195	m.11742G>A	DNAMutation	tmVar:m|SUB|G|11742|A;VariantGroup:2;CorrespondingGene:4538;CorrespondingSpecies:9606
+36793390	1197	1209	p. Cys328Tyr	ProteinMutation	tmVar:p|SUB|C|328|Y;HGVS:p.C328Y;VariantGroup:0;CorrespondingGene:7249;RS#:1305592691;CorrespondingSpecies:9606
+36793390	1211	1214	VAF	Disease	
+36793390	1221	1242	kidney angiomyolipoma	Disease	MESH:D007674
+36793390	1245	1251	MT-CYB	Gene	4519
+36793390	1253	1263	m.14775T>C	DNAMutation	tmVar:m|SUB|T|14775|C;VariantGroup:5;CorrespondingGene:4519;CorrespondingSpecies:9606
+36793390	1265	1276	p. Leu10Pro	ProteinMutation	tmVar:p|SUB|L|10|P;HGVS:p.L10P;VariantGroup:1;CorrespondingGene:4519;CorrespondingSpecies:9606
+36793390	1278	1281	VAF	Disease	
+36793390	1288	1307	LAM abdominal tumor	Disease	MESH:D018192
+36793390	1313	1319	MT-CYB	Gene	4519
+36793390	1321	1331	m.15555C>T	DNAMutation	tmVar:m|SUB|C|15555|T;VariantGroup:3;CorrespondingGene:4519;CorrespondingSpecies:9606
+36793390	1333	1345	p. Pro270Leu	ProteinMutation	tmVar:p|SUB|P|270|L;HGVS:p.P270L;VariantGroup:4;CorrespondingGene:4519;CorrespondingSpecies:9606
+36793390	1347	1350	VAF	Disease	
+36793390	1356	1376	renal cell carcinoma	Disease	MESH:D002292
+36793390	1454	1460	tumors	Disease	MESH:D009369
+36793390	1469	1477	patients	Species	9606
+36793390	1540	1545	tumor	Disease	MESH:D009369
+36793390	1604	1610	tumors	Disease	MESH:D009369
+36793390	1770	1791	TSC-associated tumors	Disease	MESH:D014402
+36793390	Association	CorrespondingGene:4519;CorrespondingSpecies:9606;VariantGroup:5;tmVar:m	MESH:D018192
+36793390	Positive_Correlation	MESH:D007674	RS#:1305592691;HGVS:p.C328Y;CorrespondingGene:7249
+36793390	Association	CorrespondingGene:4519;CorrespondingSpecies:9606;VariantGroup:5;tmVar:m	MESH:D014402
+36793390	Association	CorrespondingGene:4519;CorrespondingSpecies:9606;VariantGroup:3;tmVar:m	MESH:D014402
+36793390	Positive_Correlation	MESH:D002292	CorrespondingGene:4519;CorrespondingSpecies:9606;VariantGroup:5;tmVar:m
+36793390	Association	MESH:D014402	RS#:1305592691;HGVS:p.C328Y;CorrespondingGene:7249
+36793390	Positive_Correlation	MESH:D002292	HGVS:p.P270L;CorrespondingGene:4519
+36793390	Association	MESH:D014402	HGVS:p.L10P;CorrespondingGene:4519
+36793390	Association	CorrespondingGene:4538;CorrespondingSpecies:9606;VariantGroup:2;tmVar:m	MESH:D014402
+36793390	Positive_Correlation	MESH:D002292	CorrespondingGene:4538;CorrespondingSpecies:9606;VariantGroup:2;tmVar:m
+36793390	Association	MESH:D014402	HGVS:p.P270L;CorrespondingGene:4519
+36793390	Association	CorrespondingGene:4519;CorrespondingSpecies:9606;VariantGroup:3;tmVar:m	MESH:D002292
+36793390	Association	MESH:D018192	HGVS:p.L10P;CorrespondingGene:4519
+36793390	Association	MESH:D009369	4538
+36793390	Association	MESH:D014402	7249
+36793390	Association	MESH:D014402	CorrespondingGene:4519;CorrespondingSpecies:9606;VariantGroup:5;tmVar:m
+36793390	Positive_Correlation	CorrespondingGene:4538;CorrespondingSpecies:9606;VariantGroup:2;tmVar:m	MESH:D007674
+36793390	Association	MESH:D018192	4519
+36793390	Association	MESH:D002292	4519
+36793390	Positive_Correlation	MESH:D018192	CorrespondingGene:4538;CorrespondingSpecies:9606;VariantGroup:2;tmVar:m
+36793390	Positive_Correlation	MESH:D018192	CorrespondingGene:4519;CorrespondingSpecies:9606;VariantGroup:5;tmVar:m
+36793390	Association	MESH:D014402	7248
+36793390	Association	MESH:D018192	4519
+36793390	Association	MESH:D007674	7249
+36793390	Association	MESH:D014402	4519
+36793390	Association	MESH:D002292	4519
+36793390	Association	MESH:D014402	7249
+36793390	Association	MESH:D014402	4538
+36793390	Association	MESH:D002292	4538
+36793390	Association	MESH:D007674	4538
+36793390	Association	MESH:D018192	4538
+

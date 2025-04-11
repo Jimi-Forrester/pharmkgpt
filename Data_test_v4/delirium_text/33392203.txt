@@ -1,0 +1,28 @@
+33392203|t|Identification of lncRNA-mRNA Regulatory Module to Explore the Pathogenesis and Prognosis of Melanoma.
+33392203|a|Skin cutaneous melanoma (SKCM) is an aggressive form of skin cancer that results in high mortality rate worldwide. It is vital to discover effective prognostic biomarkers and therapeutic targets for the treatment of melanoma. Long non-coding RNA (lncRNA) has been verified to play an essential role in the regulation of gene expression in diseases and tumors. Therefore, it is significant to explore the function of lncRNAs in the development and progression of SKCM. In this paper, a set of differentially expressed lncRNAs (DElncRNAs) and mRNAs (DEmRNAs) were first screened out using 471 cutaneous melanoma samples and 813 normal skin samples. Gene Ontology and KEGG pathway enrichment analysis were performed to obtain the significant function annotations and pathways of DEmRNAs. We also ran survival analysis on both DElncRNAs and DEmRNAs to identify prognostic-related lncRNAs and mRNAs. Next, a set of hub genes derived from protein-protein interaction (PPI) network analysis and lncRNA target genes screened from starbase-ENCORI database were integrated to construct a lncRNA-mRNA regulatory module, which includes 6 lncRNAs 4 target mRNAs. We further checked the capacity of these lncRNA and mRNA in the diagnosis of melanoma, and found that single lncRNA can effectively distinguish tumor and normal tissue. Moreover, we ran CMap analysis to select a list of small molecule drugs for SKCM, such as EGFR inhibitor AG-490, growth factor receptor inhibitor GW-441756 and apoptosis stimulant betulinic-acid, which have shown therapeutic effect in the treatment of melanoma.
+33392203	93	101	Melanoma	Disease	MESH:D008545
+33392203	103	126	Skin cutaneous melanoma	Disease	MESH:C562393
+33392203	128	132	SKCM	Disease	MESH:C562393
+33392203	159	170	skin cancer	Disease	MESH:D012878
+33392203	319	327	melanoma	Disease	MESH:D008545
+33392203	455	461	tumors	Disease	MESH:D009369
+33392203	565	569	SKCM	Disease	MESH:C562393
+33392203	694	712	cutaneous melanoma	Disease	MESH:C562393
+33392203	1330	1338	melanoma	Disease	MESH:D008545
+33392203	1397	1402	tumor	Disease	MESH:D009369
+33392203	1498	1502	SKCM	Disease	MESH:C562393
+33392203	1512	1516	EGFR	Gene	1956
+33392203	1527	1533	AG-490	Chemical	MESH:C095512
+33392203	1568	1577	GW-441756	Chemical	MESH:C000606649
+33392203	1602	1616	betulinic-acid	Chemical	MESH:D000094062
+33392203	1674	1682	melanoma	Disease	MESH:D008545
+33392203	Negative_Correlation	MESH:C095512	MESH:C562393
+33392203	Negative_Correlation	MESH:C095512	MESH:D008545
+33392203	Negative_Correlation	MESH:C095512	1956
+33392203	Negative_Correlation	MESH:D000094062	MESH:D008545
+33392203	Negative_Correlation	MESH:D000094062	MESH:C562393
+33392203	Negative_Correlation	MESH:C000606649	MESH:C562393
+33392203	Association	MESH:D008545	1956
+33392203	Negative_Correlation	MESH:C000606649	MESH:D008545
+33392203	Association	MESH:C562393	1956
+

@@ -1,0 +1,70 @@
+36937665|t|A conjoint analysis of bulk RNA-seq and single-nucleus RNA-seq for revealing the role of ferroptosis and iron metabolism in ALS.
+36937665|a|Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease characterized by progressive and selective degeneration of motor neurons in the motor cortex of brain and spinal cord. Ferroptosis is a newly discovered form of cell death and reported to mediate selective motor neuron death in the mouse model of ALS. The growing awareness of ferroptosis and iron metabolism dysfunction in ALS prompted us to investigate the expression pattern of ferroptosis and iron metabolism-related genes (FIRGs) in ALS. Here, we performed a conjoint analysis of bulk-RNA sequence and single-nucleus RNA sequence data using the datasets from Gene Expression Omnibus (GEO) to reveal the role of FIRGs in ALS, especially in selective motor neuron death of ALS. We first investigated the differentially expressed genes (DEGs) between ALS and non-neurological controls. Weighted gene co-expression network analysis constructed the gene co-expression network and identified three modules closely associated with ALS. Fifteen FIRGs was identified as target genes based on least absolute shrinkage and selection operator regression analysis as follows: ACSL4, ANO6, ATP6V0E1, B2M, CD44, CHMP5, CYBB, CYBRD1, HIF1A, MOSPD1, NCF2, SDCBP, STEAP2, TMEM14C, ULK1. These genes could differentiate ALS patients from non-neurological controls (p < 2.2e-16) and had a valid value in predicting and diagnosing ALS (AUC = 0.881 in primary dataset and AUC = 0.768 in validation dataset). Then we performed the functional enrichment analysis of DEGs between ALS cases, the most significantly influenced by target genes, and non-neurological controls. The result indicated that the most significantly influenced functions in ALS pathogenesis by these identified FIRGs are synapse pathways, calcium signaling pathway, cAMP signaling pathway, and phagosome and several immune pathways. At last, the analysis of single- nuclear seq found that CHMP5, one of the 15 FIRGs identified by bulk single-nucleus RNA-seq data, was expressed significantly higher in ALS than pathologically normal (PN), specifically in excitatory neuron populations with layer 2 and layer 3 markers (Ex L2_L3), layer 3 and layer 5 markers (Ex L3_L5). Taken together, our study indicates the positive correlation between FIRGs and ALS, presents potential markers for ALS diagnosis and provides new research directions of CHMP5 function in selective motor neuron death in ALS.
+36937665	89	100	ferroptosis	Disease	
+36937665	105	109	iron	Chemical	MESH:D007501
+36937665	124	127	ALS	Disease	MESH:D000690
+36937665	129	158	Amyotrophic lateral sclerosis	Disease	MESH:D000690
+36937665	160	163	ALS	Disease	MESH:D000690
+36937665	170	195	neurodegenerative disease	Disease	MESH:D019636
+36937665	315	326	Ferroptosis	Disease	
+36937665	402	420	motor neuron death	Disease	MESH:D016472
+36937665	428	433	mouse	Species	10090
+36937665	443	446	ALS	Disease	MESH:D000690
+36937665	473	484	ferroptosis	Disease	
+36937665	489	493	iron	Chemical	MESH:D007501
+36937665	520	523	ALS	Disease	MESH:D000690
+36937665	577	588	ferroptosis	Disease	
+36937665	593	597	iron	Chemical	MESH:D007501
+36937665	634	637	ALS	Disease	MESH:D000690
+36937665	821	824	ALS	Disease	MESH:D000690
+36937665	850	868	motor neuron death	Disease	MESH:D016472
+36937665	872	875	ALS	Disease	MESH:D000690
+36937665	949	952	ALS	Disease	MESH:D000690
+36937665	1125	1128	ALS	Disease	MESH:D000690
+36937665	1264	1269	ACSL4	Gene	2182
+36937665	1271	1275	ANO6	Gene	196527
+36937665	1277	1285	ATP6V0E1	Gene	8992
+36937665	1287	1290	B2M	Gene	567
+36937665	1292	1296	CD44	Gene	960
+36937665	1298	1303	CHMP5	Gene	51510
+36937665	1305	1309	CYBB	Gene	1536
+36937665	1311	1317	CYBRD1	Gene	79901
+36937665	1319	1324	HIF1A	Gene	3091
+36937665	1326	1332	MOSPD1	Gene	56180
+36937665	1334	1338	NCF2	Gene	4688
+36937665	1340	1345	SDCBP	Gene	6386
+36937665	1347	1353	STEAP2	Gene	261729
+36937665	1355	1362	TMEM14C	Gene	51522
+36937665	1364	1368	ULK1	Gene	8408
+36937665	1402	1405	ALS	Disease	MESH:D000690
+36937665	1406	1414	patients	Species	9606
+36937665	1511	1514	ALS	Disease	MESH:D000690
+36937665	1656	1659	ALS	Disease	MESH:D000690
+36937665	1822	1825	ALS	Disease	MESH:D000690
+36937665	1887	1894	calcium	Chemical	MESH:D002118
+36937665	1914	1918	cAMP	Chemical	-
+36937665	2037	2042	CHMP5	Gene	51510
+36937665	2150	2153	ALS	Disease	MESH:D000690
+36937665	2397	2400	ALS	Disease	MESH:D000690
+36937665	2433	2436	ALS	Disease	MESH:D000690
+36937665	2487	2492	CHMP5	Gene	51510
+36937665	2515	2533	motor neuron death	Disease	MESH:D016472
+36937665	2537	2540	ALS	Disease	MESH:D000690
+36937665	Association	MESH:D000690	8408
+36937665	Association	MESH:D000690	567
+36937665	Association	MESH:D000690	1536
+36937665	Association	MESH:D000690	6386
+36937665	Association	MESH:D000690	56180
+36937665	Association	MESH:D000690	261729
+36937665	Association	MESH:D007501	196527
+36937665	Association	MESH:D000690	8992
+36937665	Association	MESH:D000690	79901
+36937665	Association	MESH:D000690	4688
+36937665	Association	MESH:D000690	3091
+36937665	Association	MESH:D000690	51510
+36937665	Association	MESH:D000690	51522
+36937665	Association	MESH:D007501	MESH:D000690
+36937665	Association	MESH:D000690	2182
+36937665	Association	MESH:D000690	196527
+36937665	Association	MESH:D000690	960
+

@@ -1,0 +1,24 @@
+39835149|t|Retrospective analysis of amantadine response and predictive factors in intensive care unit patients with non-traumatic disorders of consciousness.
+39835149|a|Background: Disorders of consciousness (DoC) in non-traumatic ICU-patients are often treated with amantadine, although evidence supporting its efficacy is limited. Methods: This retrospective study analyzed non-traumatic DoC-patients treated with amantadine between January 2016 and June 2021. Data on patient demographics, clinical characteristics, treatment specifications, and outcomes were extracted from electronic medical records. Patients were classified as responders if their Glasgow Coma Scale (GCS) improved by >=3 points within 5 days. Good outcome was defined as a modified Rankin Scale (mRS) of 0-2. Machine learning techniques were used to predict response to treatment. Results: Of 442 patients (mean age 73.2 +- 10.7 years, 41.0% female), 267 (60.4%) were responders. Baseline characteristics were similar between groups, except that responders had lower baseline GCS (7 [IQR 5-9] vs. 8 [IQR 5-10], p = 0.030), better premorbid mRS (2 [IQR 1-2] vs. 2 [IQR 1-3], p < 0.001) and fewer pathological cerebral imaging findings (45.7% vs. 61.1%, OR 0.56, 95% CI: 0.36-0.86, p = 0.008). Responders exhibited significantly lower mortality at discharge (13.5% vs. 27.4%, OR 0.41, 95% CI: 0.25-0.67, p < 0.001) and follow-up (16.9% vs. 32.0%, OR 0.43, 95% CI: 0.24-0.77, p = 0.002). Good outcomes were more frequent in responders at follow-up (4.9% vs. 1.1%, OR 6.14, 95% CI: 1.35-28.01, p = 0.004). In multivariate analysis higher premorbid mRS (OR 0.719, 95% CI 0.590-0.875, p < 0.001), pathological imaging results (OR 0.546, 95% CI 0.342-0.871, p = 0.011), and experiencing cardiac arrest (OR 0.542, 95% CI 0.307-0.954, p = 0.034) were associated with lower odds of response. Machine learning identified key predictors of response, with the Stacking Classifier achieving the highest performance (accuracy 64.5%, precision 66.6%, recall 64.5%, F1 score 61.3%). Conclusion: This study supports the potential benefits of intravenous amantadine in non-traumatic DOC-patients. Higher premorbid mRS, and pathological cerebral imaging were key predictors of non-response, offering potential avenues for patient selection and treatment customization. Findings from this study informed the design of our ongoing prospective study, which aims to further evaluate the long-term efficacy of amantadine.
+39835149	26	36	amantadine	Chemical	MESH:D000547
+39835149	92	100	patients	Species	9606
+39835149	120	146	disorders of consciousness	Disease	MESH:D003244
+39835149	160	186	Disorders of consciousness	Disease	MESH:D003244
+39835149	188	191	DoC	Disease	MESH:D003244
+39835149	214	222	patients	Species	9606
+39835149	246	256	amantadine	Chemical	MESH:D000547
+39835149	369	372	DoC	Disease	MESH:D003244
+39835149	373	381	patients	Species	9606
+39835149	395	405	amantadine	Chemical	MESH:D000547
+39835149	450	457	patient	Species	9606
+39835149	585	593	Patients	Species	9606
+39835149	850	858	patients	Species	9606
+39835149	1733	1747	cardiac arrest	Disease	MESH:D006323
+39835149	2089	2099	amantadine	Chemical	MESH:D000547
+39835149	2117	2120	DOC	Disease	
+39835149	2121	2129	patients	Species	9606
+39835149	2255	2262	patient	Species	9606
+39835149	2438	2448	amantadine	Chemical	MESH:D000547
+39835149	Negative_Correlation	MESH:D000547	MESH:D006323
+39835149	Negative_Correlation	MESH:D000547	MESH:D003244
+

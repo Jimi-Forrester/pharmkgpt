@@ -1,0 +1,20 @@
+38776842|t|TauFlowNet: Revealing latent propagation mechanism of tau aggregates using deep neural transport equations.
+38776842|a|Mounting evidence shows that Alzheimer's disease (AD) is characterized by the propagation of tau aggregates throughout the brain in a prion-like manner. Since current pathology imaging technologies only provide a spatial mapping of tau accumulation, computational modeling becomes indispensable in analyzing the spatiotemporal propagation patterns of widespread tau aggregates from the longitudinal data. However, current state-of-the-art works focus on the longitudinal change of focal patterns, lacking a system-level understanding of the tau propagation mechanism that can explain and forecast the cascade of tau accumulation. To address this limitation, we conceptualize that the intercellular spreading of tau pathology forms a dynamic system where each node (brain region) is ubiquitously wired with other nodes while interacting with the build-up of pathological burdens. In this context, we formulate the biological process of tau spreading in a principled potential energy transport model (constrained by brain network topology), which allows us to develop an explainable neural network for uncovering the spatiotemporal dynamics of tau propagation from the longitudinal tau-PET scans. Specifically, we first translate the transport equation into a GNN (graph neural network) backbone, where the spreading flows are essentially driven by the potential energy of tau accumulation at each node. Conventional GNNs employ a l2-norm graph smoothness prior, resulting in nearly equal potential energies across nodes, leading to vanishing flows. Following this clue, we introduce the total variation (TV) into the graph transport model, where the nature of system's Euler-Lagrange equations is to maximize the spreading flow while minimizing the overall potential energy. On top of this min-max optimization scenario, we design a generative adversarial network (GAN-like) to characterize the TV-based spreading flow of tau aggregates, coined TauFlowNet. We evaluate our TauFlowNet on ADNI and OASIS datasets in terms of the prediction accuracy of future tau accumulation and explore the propagation mechanism of tau aggregates as the disease progresses. Compared to the current counterpart methods, our physics-informed deep model yields more accurate and interpretable results, demonstrating great potential in discovering novel neurobiological mechanisms through the lens of machine learning.
+38776842	54	57	tau	Gene	4137
+38776842	137	156	Alzheimer's disease	Disease	MESH:D000544
+38776842	158	160	AD	Disease	MESH:D000544
+38776842	201	204	tau	Gene	4137
+38776842	340	343	tau	Gene	4137
+38776842	470	473	tau	Gene	4137
+38776842	649	652	tau	Gene	4137
+38776842	720	723	tau	Gene	4137
+38776842	819	822	tau	Gene	4137
+38776842	1043	1046	tau	Gene	4137
+38776842	1250	1253	tau	Gene	4137
+38776842	1288	1291	tau	Gene	4137
+38776842	1479	1482	tau	Gene	4137
+38776842	2029	2032	tau	Gene	4137
+38776842	2164	2167	tau	Gene	4137
+38776842	2222	2225	tau	Gene	4137
+38776842	Association	MESH:D000544	4137
+

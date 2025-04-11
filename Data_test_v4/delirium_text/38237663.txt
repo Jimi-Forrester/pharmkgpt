@@ -1,0 +1,19 @@
+38237663|t|Machine learning methods for developing a predictive model of the incidence of delirium in cardiac intensive care units.
+38237663|a|INTRODUCTION AND OBJECTIVES: Delirium, recognized as a crucial prognostic factor in the cardiac intensive care unit (CICU), has evolved in response to the changing demographics among critically ill cardiac patients. This study aimed to create a predictive model for delirium for patients in the CICU. METHODS: This study included consecutive patients admitted to the CICU of the Samsung Medical Center. To assess the candidate variables for the model: we applied the following machine learning methods: random forest, extreme gradient boosting, partial least squares, and Plmnet-elastic.net. After selecting relevant variables, we performed a logistic regression analysis to derive the model formula. Internal validation was conducted using 100-repeated hold-out validation. RESULTS: We analyzed 2774 patients, 677 (24.4%) of whom developed delirium in the CICU. Machine learning-based models showed good predictive performance. Clinically significant and frequently important predictors were selected to construct a delirium prediction scoring model for CICU patients. The model included albumin level, international normalized ratio, blood urea nitrogen, white blood cell count, C-reactive protein level, age, heart rate, and mechanical ventilation. The model had an area under the receiver operating characteristics curve (AUROC) of 0.861 (95%CI, 0.843-0.879). Similar results were obtained in internal validation with 100-repeated cross-validation (AUROC, 0.854; 95%CI, 0.826-0.883). CONCLUSIONS: Using variables frequently ranked as highly important in four machine learning methods, we created a novel delirium prediction model. This model could serve as a useful and simple tool for risk stratification for the occurrence of delirium at the patient's bedside in the CICU.
+38237663	79	87	delirium	Disease	MESH:D003693
+38237663	150	158	Delirium	Disease	MESH:D003693
+38237663	304	318	critically ill	Disease	MESH:D016638
+38237663	327	335	patients	Species	9606
+38237663	387	395	delirium	Disease	MESH:D003693
+38237663	400	408	patients	Species	9606
+38237663	463	471	patients	Species	9606
+38237663	922	930	patients	Species	9606
+38237663	962	970	delirium	Disease	MESH:D003693
+38237663	1138	1146	delirium	Disease	MESH:D003693
+38237663	1181	1189	patients	Species	9606
+38237663	1210	1217	albumin	Gene	213
+38237663	1302	1320	C-reactive protein	Gene	1401
+38237663	1729	1737	delirium	Disease	MESH:D003693
+38237663	1853	1861	delirium	Disease	MESH:D003693
+38237663	1869	1876	patient	Species	9606
+

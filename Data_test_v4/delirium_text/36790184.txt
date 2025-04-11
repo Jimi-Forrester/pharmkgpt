@@ -1,0 +1,14 @@
+36790184|t|Deep Learning-Based Recurrent Delirium Prediction in Critically Ill Patients.
+36790184|a|OBJECTIVES: To predict impending delirium in ICU patients using recurrent deep learning. DESIGN: Retrospective cohort study. SETTING: Fifteen medical-surgical ICUs across Alberta, Canada, between January 1, 2014, and January 24, 2020. PATIENTS: Forty-three thousand five hundred ten ICU admissions from 38,426 patients. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We used ICU and administrative health data to train deep learning models to predict delirium episodes in the next two 12-hour periods (0-12 and 12-24 hr), starting at 24 hours after ICU admission, and to generate new predictions every 12 hours. We used a comprehensive set of 3,643 features, capturing patient history, early ICU admission information (first 24 hr), and the temporal dynamics of various clinical variables throughout the ICU admission. Our deep learning architecture consisted of a feature embedding, a recurrent, and a prediction module. Our best model based on gated recurrent units yielded a sensitivity of 0.810, a specificity of 0.848, a precision (positive predictive value) of 0.704, and an area under the receiver operating characteristic curve (AUROC) of 0.909 in the hold-out test set for the 0-12-hour prediction horizon. For the 12-24-hour prediction horizon, the same model achieved a sensitivity of 0.791, a specificity of 0.807, a precision of 0.637, and an AUROC of 0.895 in the test set. CONCLUSIONS: Our delirium prediction model achieved strong performance by applying deep learning to a dataset that is at least one order of magnitude larger than those used in previous studies. Another novel aspect of our study is the temporal nature of our features and predictions. Our model enables accurate prediction of impending delirium in the ICU, which can potentially lead to early intervention, more efficient allocation of ICU resources, and improved patient outcomes.
+36790184	30	38	Delirium	Disease	MESH:D003693
+36790184	68	76	Patients	Species	9606
+36790184	111	119	delirium	Disease	MESH:D003693
+36790184	127	135	patients	Species	9606
+36790184	313	321	PATIENTS	Species	9606
+36790184	388	396	patients	Species	9606
+36790184	534	542	delirium	Disease	MESH:D003693
+36790184	752	759	patient	Species	9606
+36790184	1488	1496	delirium	Disease	MESH:D003693
+36790184	1806	1814	delirium	Disease	MESH:D003693
+36790184	1934	1941	patient	Species	9606
+

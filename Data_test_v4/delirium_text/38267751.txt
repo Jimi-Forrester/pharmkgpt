@@ -1,0 +1,28 @@
+38267751|t|Sulfonamido, amido heterocyclic adducts of tetrazole derivatives as BACE1 inhibitors: in silico exploration.
+38267751|a|Alzheimer's disease is a neurodegenerative disorder accounting for 60-80% of dementia cases and is accompanied by a high mortality rate in patients above 70 years of age. The formation of senile plaques composed of amyloid-beta protein is a hallmark of Alzheimer's disease. Beta-site APP cleaving enzyme 1 (BACE1) is a proteolytic enzyme involved in the degradation of amyloid precursor protein, which further degrades to form toxic amyloid-beta fragments. Hence, inhibition of BACE1 was stated to be an effective strategy for Alzheimer's therapeutics. Keeping in mind the structures of different BACE1 inhibitors that had reached the clinical trials, we designed a library of compounds (total 164) based on a substituted 5-amino tetrazole scaffold which was an isosteric replacement of the cyclic amidine moiety, a common component of the BACE1 inhibitors which reached the clinical trials. The scaffold was linked to different structural moieties with the aid of an amide or sulfonamide bond to design some novel molecules. Molecular docking was initially performed and the top 5 molecules were selected based on docking scores and protein-ligand interactions. Furthermore, molecular dynamic simulations were performed for these molecules (3g, 7k, 8n, 9d, 9g) for 100 ns and MM-GBSA calculations were performed for each of these complexes. After critical evaluation of the obtained results, three potential molecules (9d, 8n, and 7k) were forwarded for prolonged stability studies by performing molecular dynamic simulations for 250 ns and simultaneous MM-GBSA calculations. It was observed that the compounds (9d, 8n, and 7k) were forming good interactions with the amino acid residues of the catalytic site of the enzyme with multiple non-covalent interactions. In MD simulations, the compounds have shown better stability and better binding energy throughout the runtime.
+38267751	0	11	Sulfonamido	Chemical	-
+38267751	43	52	tetrazole	Chemical	MESH:C045574
+38267751	68	73	BACE1	Gene	23621
+38267751	109	128	Alzheimer's disease	Disease	MESH:D000544
+38267751	134	160	neurodegenerative disorder	Disease	MESH:D019636
+38267751	186	194	dementia	Disease	MESH:D003704
+38267751	248	256	patients	Species	9606
+38267751	297	311	senile plaques	Disease	MESH:D058225
+38267751	362	381	Alzheimer's disease	Disease	MESH:D000544
+38267751	383	414	Beta-site APP cleaving enzyme 1	Gene	23621
+38267751	416	421	BACE1	Gene	23621
+38267751	478	503	amyloid precursor protein	Gene	351
+38267751	542	554	amyloid-beta	Gene	351
+38267751	587	592	BACE1	Gene	23621
+38267751	636	647	Alzheimer's	Disease	MESH:D000544
+38267751	706	711	BACE1	Gene	23621
+38267751	831	848	5-amino tetrazole	Chemical	MESH:C001573
+38267751	900	914	cyclic amidine	Chemical	-
+38267751	949	954	BACE1	Gene	23621
+38267751	1077	1082	amide	Chemical	MESH:D000577
+38267751	1086	1097	sulfonamide	Chemical	MESH:D013449
+38267751	Negative_Correlation	MESH:C001573	23621
+38267751	Negative_Correlation	MESH:C045574	23621
+38267751	Negative_Correlation	MESH:D000544	23621
+38267751	Association	23621	351
+

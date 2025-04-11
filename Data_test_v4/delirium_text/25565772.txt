@@ -1,0 +1,50 @@
+25565772|t|Glycyrrhetinic acid and E.resveratroloside act as potential plant derived compounds against dopamine receptor D3 for Parkinson's disease: a pharmacoinformatics study.
+25565772|a|Parkinson's disease (PD) is caused by loss in nigrostriatal dopaminergic neurons and is ranked as the second most common neurodegenerative disorder. Dopamine receptor D3 is considered as a potential target in drug development against PD because of its lesser side effects and higher degree of neuro-protection. One of the prominent therapies currently available for PD is the use of dopamine agonists which mimic the natural action of dopamine in the brain and stimulate dopamine receptors directly. Unfortunately, use of these pharmacological therapies such as bromocriptine, apomorphine, and ropinirole provides only temporary relief of the disease symptoms and is frequently linked with insomnia, anxiety, depression, and agitation. Thus, there is a need for an alternative treatment that not only hinders neurodegeneration, but also has few or no side effects. Since the past decade, much attention has been given to exploitation of phytochemicals and their use in alternative medicine research. This is because plants are a cheap, indispensable, and never ending resource of active compounds that are beneficial against various diseases. In the current study, 40 active phytochemicals against PD were selected through literature survey. These ligands were docked with dopamine receptor D3 using AutoDock and AutoDockVina. Binding energies were compared to docking results of drugs approved by the US Food and Drug Administration against PD. The compounds were further analyzed for their absorption, distribution, metabolism, and excretion-toxicity profile. From the study it is concluded that glycyrrhetinic acid and E.resveratroloside are potent compounds having high binding energies which should be considered as potential lead compounds for drug development against PD. 
+25565772	0	19	Glycyrrhetinic acid	Chemical	MESH:D006034
+25565772	24	42	E.resveratroloside	Chemical	MESH:C000592752
+25565772	92	112	dopamine receptor D3	Gene	1814
+25565772	117	136	Parkinson's disease	Disease	MESH:D010300
+25565772	167	186	Parkinson's disease	Disease	MESH:D010300
+25565772	188	190	PD	Disease	MESH:D010300
+25565772	288	314	neurodegenerative disorder	Disease	MESH:D019636
+25565772	316	336	Dopamine receptor D3	Gene	1814
+25565772	401	403	PD	Disease	MESH:D010300
+25565772	533	535	PD	Disease	MESH:D010300
+25565772	550	558	dopamine	Chemical	MESH:D004298
+25565772	602	610	dopamine	Chemical	MESH:D004298
+25565772	729	742	bromocriptine	Chemical	MESH:D001971
+25565772	744	755	apomorphine	Chemical	MESH:D001058
+25565772	761	771	ropinirole	Chemical	MESH:C046649
+25565772	857	865	insomnia	Disease	MESH:D007319
+25565772	867	874	anxiety	Disease	MESH:D001007
+25565772	876	886	depression	Disease	MESH:D003866
+25565772	892	901	agitation	Disease	MESH:D011595
+25565772	976	993	neurodegeneration	Disease	MESH:D019636
+25565772	1365	1367	PD	Disease	MESH:D010300
+25565772	1440	1460	dopamine receptor D3	Gene	1814
+25565772	1609	1611	PD	Disease	MESH:D010300
+25565772	1711	1719	toxicity	Disease	MESH:D064420
+25565772	1765	1784	glycyrrhetinic acid	Chemical	MESH:D006034
+25565772	1789	1807	E.resveratroloside	Chemical	MESH:C000592752
+25565772	1942	1944	PD	Disease	MESH:D010300
+25565772	Positive_Correlation	MESH:D001971	MESH:D007319
+25565772	Negative_Correlation	MESH:C000592752	1814
+25565772	Positive_Correlation	MESH:D001971	MESH:D011595
+25565772	Negative_Correlation	MESH:C000592752	MESH:D010300
+25565772	Association	MESH:D010300	1814
+25565772	Positive_Correlation	MESH:C046649	MESH:D011595
+25565772	Positive_Correlation	MESH:D001971	MESH:D003866
+25565772	Association	MESH:D004298	MESH:D010300
+25565772	Positive_Correlation	MESH:D001058	MESH:D007319
+25565772	Positive_Correlation	MESH:D001058	MESH:D003866
+25565772	Positive_Correlation	MESH:C046649	MESH:D003866
+25565772	Positive_Correlation	MESH:D001971	MESH:D004298
+25565772	Positive_Correlation	MESH:D001971	MESH:D001007
+25565772	Positive_Correlation	MESH:D001058	MESH:D001007
+25565772	Positive_Correlation	MESH:C046649	MESH:D007319
+25565772	Positive_Correlation	MESH:C046649	MESH:D001007
+25565772	Positive_Correlation	MESH:D001058	MESH:D011595
+25565772	Positive_Correlation	MESH:D004298	1814
+25565772	Negative_Correlation	MESH:D006034	MESH:D010300
+25565772	Association	MESH:D006034	1814
+

@@ -1,0 +1,16 @@
+20849961|t|Lesion Explorer: a comprehensive segmentation and parcellation package to obtain regional volumetrics for subcortical hyperintensities and intracranial tissue.
+20849961|a|Subcortical hyperintensities (SH) are a commonly observed phenomenon on MRI of the aging brain (Kertesz et al., 1988). Conflicting behavioral, cognitive and pathological associations reported in the literature underline the need to develop an intracranial volumetric analysis technique to elucidate pathophysiological origins of SH in Alzheimer's disease (AD), vascular cognitive impairment (VCI) and normal aging (De Leeuw et al., 2001; Mayer and Kier, 1991; Pantoni and Garcia, 1997; Sachdev et al., 2008). The challenge is to develop processing tools that effectively and reliably quantify subcortical small vessel disease in the context of brain tissue compartments. Segmentation and brain region parcellation should account for SH subtypes which are often classified as: periventricular (pvSH) and deep white (dwSH), incidental white matter disease or lacunar infarcts and Virchow-Robin spaces. Lesion Explorer (LE) was developed as the final component of a comprehensive volumetric segmentation and parcellation image processing stream built upon previously published methods (Dade et al., 2004; Kovacevic et al., 2002). Inter-rater and inter-method reliability was accomplished both globally and regionally. Volumetric analysis showed high inter-rater reliability both globally (ICC=.99) and regionally (ICC=.98). Pixel-wise spatial congruence was also high (SI=.97). Whole brain pvSH volumes yielded high inter-rater reliability (ICC=.99). Volumetric analysis against an alternative kNN segmentation revealed high inter-method reliability (ICC=.97). Comparison with visual rating scales showed high significant correlations (ARWMC: r=.86; CHIPS: r=.87). The pipeline yields a comprehensive and reliable individualized volumetric profile for subcortical vasculopathy that includes regionalized (26 brain regions) measures for: GM, WM, sCSF, vCSF, lacunar and non-lacunar pvSH and dwSH.
+20849961	106	134	subcortical hyperintensities	Disease	MESH:D002544
+20849961	160	188	Subcortical hyperintensities	Disease	MESH:D002544
+20849961	190	192	SH	Disease	MESH:D002544
+20849961	489	491	SH	Disease	MESH:D002544
+20849961	495	514	Alzheimer's disease	Disease	MESH:D000544
+20849961	516	518	AD	Disease	MESH:D000544
+20849961	521	550	vascular cognitive impairment	Disease	MESH:D003072
+20849961	552	555	VCI	Disease	MESH:D003072
+20849961	765	785	small vessel disease	Disease	MESH:D059345
+20849961	893	895	SH	Disease	MESH:D002544
+20849961	993	1013	white matter disease	Disease	MESH:D056784
+20849961	1017	1033	lacunar infarcts	Disease	MESH:D059409
+20849961	1921	1933	vasculopathy	Disease	MESH:D000090122
+

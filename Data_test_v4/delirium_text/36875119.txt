@@ -1,0 +1,37 @@
+36875119|t|Role of immune cell infiltration and small molecule drugs in adhesive capsulitis: Novel exploration based on bioinformatics analyses.
+36875119|a|Background: Adhesive capsulitis (AC) is a type of arthritis that causes shoulder joint pain, stiffness, and limited mobility. The pathogenesis of AC is still controversial. This study aims to explore the role of immune related factors in the occurrence and development of AC. Methods: The AC dataset was downloaded from Gene Expression Omnibus (GEO) data repository. Differentially expressed immune-related genes (DEIRGs) were obtained based on R package "DESeq2" and Immport database. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) were performed to explore the functional correlation of DEIRGs. MCC method and Least Absolute Shrinkage and Selection Operator (LASSO) regression were conducted to identify the hub genes. The immune cell infiltration in shoulder joint capsule between AC and control was evaluated by CIBERSORTx, and the relationship between hub genes and infiltrating immune cells was analyzed by Spearman's rank correlation. Finally, potential small molecule drugs for AC were screened by the Connectivity Map database (CMap) and further verified by molecular docking. Results: A total of 137 DEIRGs and eight significantly different types of infiltrating immune cells (M0 macrophages, M1 macrophages, regulatory T cells, Tfh cells, monocytes, activated NK cells, memory resting CD4+T cells and resting dendritic cells) were screened between AC and control tissues. MMP9, FOS, SOCS3, and EGF were identified as potential targets for AC. MMP9 was negatively correlated with memory resting CD4+T cells and activated NK cells, but positively correlated with M0 macrophages. SOCS3 was positively correlated with M1 macrophages. FOS was positively correlated with M1 macrophages. EGF was positively correlated with monocytes. Additionally, dactolisib (ranked first) was identified as a potential small-molecule drug for the targeted therapy of AC. Conclusions: This is the first study on immune cell infiltration analysis in AC, and these findings may provide a new idea for the diagnosis and treatment of AC.
+36875119	61	80	adhesive capsulitis	Disease	MESH:D002062
+36875119	146	165	Adhesive capsulitis	Disease	MESH:D002062
+36875119	167	169	AC	Disease	MESH:D002062
+36875119	184	193	arthritis	Disease	MESH:D001168
+36875119	206	225	shoulder joint pain	Disease	MESH:D020069
+36875119	227	236	stiffness	Disease	MESH:C566112
+36875119	242	258	limited mobility	Disease	MESH:D051346
+36875119	280	282	AC	Disease	MESH:D002062
+36875119	406	408	AC	Disease	MESH:D002062
+36875119	423	425	AC	Disease	MESH:D002062
+36875119	941	943	AC	Disease	MESH:D002062
+36875119	1143	1145	AC	Disease	MESH:D002062
+36875119	1453	1456	CD4	Gene	920
+36875119	1516	1518	AC	Disease	MESH:D002062
+36875119	1540	1544	MMP9	Gene	4318
+36875119	1546	1549	FOS	Gene	2353
+36875119	1551	1556	SOCS3	Gene	9021
+36875119	1562	1565	EGF	Gene	1950
+36875119	1607	1609	AC	Disease	MESH:D002062
+36875119	1611	1615	MMP9	Gene	4318
+36875119	1662	1665	CD4	Gene	920
+36875119	1745	1750	SOCS3	Gene	9021
+36875119	1798	1801	FOS	Gene	2353
+36875119	1849	1852	EGF	Gene	1950
+36875119	1909	1919	dactolisib	Chemical	MESH:C531198
+36875119	2013	2015	AC	Disease	MESH:D002062
+36875119	2094	2096	AC	Disease	MESH:D002062
+36875119	2175	2177	AC	Disease	MESH:D002062
+36875119	Association	MESH:D002062	9021
+36875119	Association	MESH:D002062	920
+36875119	Association	MESH:D002062	4318
+36875119	Negative_Correlation	MESH:C531198	MESH:D002062
+36875119	Association	MESH:D002062	1950
+36875119	Association	MESH:D002062	2353
+

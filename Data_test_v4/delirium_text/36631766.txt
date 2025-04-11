@@ -1,0 +1,23 @@
+36631766|t|Machine learning for predicting neurodegenerative diseases in the general older population: a cohort study.
+36631766|a|BACKGROUND: In the older general population, neurodegenerative diseases (NDs) are associated with increased disability, decreased physical and cognitive function. Detecting risk factors can help implement prevention measures. Using deep neural networks (DNNs), a machine-learning algorithm could be an alternative to Cox regression in tabular datasets with many predictive features. We aimed to compare the performance of different types of DNNs with regularized Cox proportional hazards models to predict NDs in the older general population. METHODS: We performed a longitudinal analysis with participants of the English Longitudinal Study of Ageing. We included men and women with no NDs at baseline, aged 60 years and older, assessed every 2 years from 2004 to 2005 (wave2) to 2016-2017 (wave 8). The features were a set of 91 epidemiological and clinical baseline variables. The outcome was new events of Parkinson's, Alzheimer or dementia. After applying multiple imputations, we trained three DNN algorithms: Feedforward, TabTransformer, and Dense Convolutional (Densenet). In addition, we trained two algorithms based on Cox models: Elastic Net regularization (CoxEn) and selected features (CoxSf). RESULTS: 5433 participants were included in wave 2. During follow-up, 12.7% participants developed NDs. Although the five models predicted NDs events, the discriminative ability was superior using TabTransformer (Uno's C-statistic (coefficient (95% confidence intervals)) 0.757 (0.702, 0.805). TabTransformer showed superior time-dependent balanced accuracy (0.834 (0.779, 0.889)) and specificity (0.855 (0.0.773, 0.909)) than the other models. With the CoxSf (hazard ratio (95% confidence intervals)), age (10.0 (6.9, 14.7)), poor hearing (1.3 (1.1, 1.5)) and weight loss 1.3 (1.1, 1.6)) were associated with a higher DNN risk. In contrast, executive function (0.3 (0.2, 0.6)), memory (0, 0, 0.1)), increased gait speed (0.2, (0.1, 0.4)), vigorous physical activity (0.7, 0.6, 0.9)) and higher BMI (0.4 (0.2, 0.8)) were associated with a lower DNN risk. CONCLUSION: TabTransformer is promising for prediction of NDs with heterogeneous tabular datasets with numerous features. Moreover, it can handle censored data. However, Cox models perform well and are easier to interpret than DNNs. Therefore, they are still a good choice for NDs.
+36631766	32	58	neurodegenerative diseases	Disease	MESH:D019636
+36631766	153	179	neurodegenerative diseases	Disease	MESH:D019636
+36631766	181	184	NDs	Disease	MESH:D019636
+36631766	238	260	physical and cognitive	Disease	MESH:D003072
+36631766	614	617	NDs	Disease	MESH:D019636
+36631766	772	775	men	Species	9606
+36631766	780	785	women	Species	9606
+36631766	794	797	NDs	Disease	MESH:D019636
+36631766	1017	1028	Parkinson's	Disease	MESH:D010300
+36631766	1030	1039	Alzheimer	Disease	MESH:D000544
+36631766	1043	1051	dementia	Disease	MESH:D003704
+36631766	1107	1110	DNN	Disease	
+36631766	1413	1416	NDs	Disease	MESH:D019636
+36631766	1453	1456	NDs	Disease	MESH:D019636
+36631766	1841	1853	poor hearing	Disease	MESH:D009123
+36631766	1875	1886	weight loss	Disease	MESH:D015431
+36631766	1933	1936	DNN	Disease	
+36631766	2159	2162	DNN	Disease	
+36631766	2227	2230	NDs	Disease	MESH:D019636
+36631766	2446	2449	NDs	Disease	MESH:D019636
+

@@ -1,0 +1,67 @@
+32732457|t|PARP1 Impedes SIRT1-Mediated Autophagy during Degeneration of the Retinal Pigment Epithelium under Oxidative Stress.
+32732457|a|The molecular mechanism underlying autophagy impairment in the retinal pigment epithelium (RPE) in dry age-related macular degeneration (AMD) is not yet clear. Based on the causative role of poly(ADP-ribose) polymerase 1 (PARP1) in RPE necrosis, this study examined whether PARP1 is involved in the autophagy impairment observed during dry AMD pathogenesis. We found that autophagy was downregulated following H2O2-induced PARP1 activation in ARPE-19 cells and olaparib, PARP1 inhibitor, preserved the autophagy process upon H2O2 exposure in ARPE-19 cells. These findings imply that PARP1 participates in the autophagy impairment upon oxidative stress in ARPE-19 cells. Furthermore, PARP1 inhibited autolysosome formation but did not affect autophagosome formation in H2O2-exposed ARPE-19 cells, demonstrating that PARP1 is responsible for impairment of late-stage autophagy in particular. Because PARP1 consumes NAD+ while exerting its catalytic activity, we investigated whether PARP1 impedes autophagy mediated by sirtuin1 (SIRT1), which uses NAD+ as its cofactor. A NAD+ precursor restored autophagy and protected mitochondria in ARPE-19 cells by preserving SIRT1 activity upon H2O2. Moreover, olaparib failed to restore autophagy in SIRT1-depleted ARPE-19 cells, indicating that PARP1 inhibits autophagy through SIRT1 inhibition. Next, we further examined whether PARP1-induced autophagy impairment occurs in the retinas of dry AMD model mice. Histological analyses revealed that olaparib treatment protected mouse retinas against sodium iodate (SI) insult, but not in retinas cotreated with SI and wortmannin, an autophagy inhibitor. Collectively, our data demonstrate that PARP1-dependent inhibition of SIRT1 activity impedes autophagic survival of RPE cells, leading to retinal degeneration during dry AMD pathogenesis.
+32732457	0	5	PARP1	Gene	142
+32732457	14	19	SIRT1	Gene	23411
+32732457	208	211	RPE	CellLine	CVCL:IQ82
+32732457	216	252	dry age-related macular degeneration	Disease	MESH:D008268
+32732457	254	257	AMD	Disease	MESH:D008268
+32732457	308	337	poly(ADP-ribose) polymerase 1	Gene	142
+32732457	339	344	PARP1	Gene	142
+32732457	349	352	RPE	CellLine	CVCL:IQ82
+32732457	353	361	necrosis	Disease	MESH:D009336
+32732457	391	396	PARP1	Gene	142
+32732457	453	460	dry AMD	Disease	MESH:D008268
+32732457	527	531	H2O2	Chemical	MESH:D006861
+32732457	540	545	PARP1	Gene	142
+32732457	560	567	ARPE-19	CellLine	CVCL:0145
+32732457	578	586	olaparib	Chemical	MESH:C531550
+32732457	588	593	PARP1	Gene	142
+32732457	642	646	H2O2	Chemical	MESH:D006861
+32732457	659	666	ARPE-19	CellLine	CVCL:0145
+32732457	700	705	PARP1	Gene	142
+32732457	772	779	ARPE-19	CellLine	CVCL:0145
+32732457	800	805	PARP1	Gene	142
+32732457	885	889	H2O2	Chemical	MESH:D006861
+32732457	898	905	ARPE-19	CellLine	CVCL:0145
+32732457	932	937	PARP1	Gene	142
+32732457	1015	1020	PARP1	Gene	142
+32732457	1030	1034	NAD+	Chemical	MESH:D009243
+32732457	1098	1103	PARP1	Gene	142
+32732457	1134	1142	sirtuin1	Gene	23411
+32732457	1144	1149	SIRT1	Gene	23411
+32732457	1163	1167	NAD+	Chemical	MESH:D009243
+32732457	1187	1191	NAD+	Chemical	MESH:D009243
+32732457	1251	1258	ARPE-19	CellLine	CVCL:0145
+32732457	1279	1284	SIRT1	Gene	23411
+32732457	1299	1303	H2O2	Chemical	MESH:D006861
+32732457	1315	1323	olaparib	Chemical	MESH:C531550
+32732457	1355	1360	SIRT1	Gene	23411
+32732457	1370	1377	ARPE-19	CellLine	CVCL:0145
+32732457	1401	1406	PARP1	Gene	142
+32732457	1434	1439	SIRT1	Gene	23411
+32732457	1486	1491	PARP1	Gene	11545
+32732457	1546	1553	dry AMD	Disease	MESH:D008268
+32732457	1560	1564	mice	Species	10090
+32732457	1602	1610	olaparib	Chemical	MESH:C531550
+32732457	1631	1636	mouse	Species	10090
+32732457	1653	1666	sodium iodate	Chemical	MESH:C032285
+32732457	1668	1670	SI	Chemical	MESH:C032285
+32732457	1714	1716	SI	Chemical	MESH:C032285
+32732457	1721	1731	wortmannin	Chemical	MESH:D000077191
+32732457	1797	1802	PARP1	Gene	142
+32732457	1827	1832	SIRT1	Gene	93759
+32732457	1873	1876	RPE	CellLine	CVCL:IQ82
+32732457	1895	1915	retinal degeneration	Disease	MESH:D012162
+32732457	1923	1930	dry AMD	Disease	MESH:D008268
+32732457	Association	MESH:D008268	93759
+32732457	Association	MESH:D009336	142
+32732457	Association	MESH:D009243	23411
+32732457	Negative_Correlation	MESH:C032285	MESH:C531550
+32732457	Association	MESH:D008268	142
+32732457	Negative_Correlation	MESH:C531550	142
+32732457	Positive_Correlation	MESH:D006861	142
+32732457	Negative_Correlation	142	23411
+32732457	Association	MESH:D009243	142
+32732457	Association	MESH:D012162	93759
+32732457	Association	MESH:D006861	23411
+

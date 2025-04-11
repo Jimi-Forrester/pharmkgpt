@@ -1,0 +1,11 @@
+31589623|t|Attenuation correction using 3D deep convolutional neural network for brain 18F-FDG PET/MR: Comparison with Atlas, ZTE and CT based attenuation correction.
+31589623|a|One of the main technical challenges of PET/MRI is to achieve an accurate PET attenuation correction (AC) estimation. In current systems, AC is accomplished by generating an MRI-based surrogate computed tomography (CT) from which AC-maps are derived. Nevertheless, all techniques currently implemented in clinical routine suffer from bias. We present here a convolutional neural network (CNN) that generated AC-maps from Zero Echo Time (ZTE) MR images. Seventy patients referred to our institution for 18FDG-PET/MR exam (SIGNA PET/MR, GE Healthcare) as part of the investigation of suspected dementia, were included. 23 patients were added to the training set of the manufacturer and 47 were used for validation. Brain computed tomography (CT) scan, two-point LAVA-flex MRI (for atlas-based AC) and ZTE-MRI were available in all patients. Three AC methods were evaluated and compared to CT-based AC (CTAC): one based on a single head-atlas, one based on ZTE-segmentation and one CNN with a 3D U-net architecture to generate AC maps from ZTE MR images. Impact on brain metabolism was evaluated combining voxel and regions-of-interest based analyses with CTAC set as reference. The U-net AC method yielded the lowest bias, the lowest inter-individual and inter-regional variability compared to PET images reconstructed with ZTE and Atlas methods. The impact on brain metabolism was negligible with average errors of -0.2% in most cortical regions. These results suggest that the U-net AC is more reliable for correcting photon attenuation in brain FDG-PET/MR than atlas-AC and ZTE-AC methods.
+31589623	76	83	18F-FDG	Chemical	MESH:D019788
+31589623	617	625	patients	Species	9606
+31589623	658	663	18FDG	Chemical	MESH:D019788
+31589623	748	756	dementia	Disease	MESH:D003704
+31589623	776	784	patients	Species	9606
+31589623	985	993	patients	Species	9606
+31589623	1702	1705	FDG	Chemical	MESH:D019788
+31589623	Association	MESH:D019788	MESH:D003704
+

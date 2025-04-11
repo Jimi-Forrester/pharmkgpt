@@ -1,0 +1,15 @@
+28288354|t|Pharmacophore based 3D-QSAR modeling, virtual screening and docking for identification of potential inhibitors of beta-secretase.
+28288354|a|The enzyme beta-secretase-1 is responsible for the cleavage of the amyloid precursor protein, a vital step in the process of the formation of amyloid-beta peptides which are known to lead to neurodegeneration causing Alzheimer's disease. Challenges associated with toxicity and blood brain permeation inability of potential inhibitors, continue to evade a successful therapy, thus demanding the search and development of highly active and effective inhibitors. Towards these efforts, we used a ligand based pharmacophore model generation from a dataset of known inhibitors whose activities against beta-secretase hovered in the nano molar range. The identified 5 feature pharmacophore model, AHHPR, was validated via three dimensional quantitative structure activity relationship as indicated by r2, q2 and Pearson R values of 0.9013, 0.7726 and 0.9041 respectively. For a dataset of compounds with nano molar activity, the important pharmacophore features present in the current model appear to be similar with those observed in the models resulting from much wider activity range of inhibitors. Virtual screening of the ChemBridge CNS-Set , a database having compounds with a better suitability for central nervous system based disorders followed by docking and analysis of the ligand protein interactions resulted in the identification of eight prospective compounds with considerable diversity. The current pharmacophore model can thus be useful for the identification, design and development of potent beta-secretase inhibitors which by optimization can be potential therapeutics for Alzheimer's disease.
+28288354	141	157	beta-secretase-1	Gene	23621
+28288354	197	222	amyloid precursor protein	Gene	351
+28288354	272	284	amyloid-beta	Gene	351
+28288354	321	338	neurodegeneration	Disease	MESH:D019636
+28288354	347	366	Alzheimer's disease	Disease	MESH:D000544
+28288354	395	403	toxicity	Disease	MESH:D064420
+28288354	1331	1369	central nervous system based disorders	Disease	MESH:D002493
+28288354	1719	1738	Alzheimer's disease	Disease	MESH:D000544
+28288354	Positive_Correlation	MESH:D000544	351
+28288354	Association	23621	351
+28288354	Association	MESH:D000544	23621
+28288354	Association	MESH:D019636	351
+

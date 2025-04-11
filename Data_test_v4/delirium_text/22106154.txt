@@ -1,0 +1,8 @@
+22106154|t|Automated diagnosis of diseases based on classification: dynamic determination of the number of trees in random forests algorithm.
+22106154|a|The accurate diagnosis of diseases with high prevalence rate, such as Alzheimer, Parkinson, diabetes, breast cancer, and heart diseases, is one of the most important biomedical problems whose administration is imperative. In this paper, we present a new method for the automated diagnosis of diseases based on the improvement of random forests classification algorithm. More specifically, the dynamic determination of the optimum number of base classifiers composing the random forests is addressed. The proposed method is different from most of the methods reported in the literature, which follow an overproduce-and-choose strategy, where the members of the ensemble are selected from a pool of classifiers, which is known a priori. In our case, the number of classifiers is determined during the growing procedure of the forest. Additionally, the proposed method produces an ensemble not only accurate, but also diverse, ensuring the two important properties that should characterize an ensemble classifier. The method is based on an online fitting procedure and it is evaluated using eight biomedical datasets and five versions of the random forests algorithm (40 cases). The method decided correctly the number of trees in 90% of the test cases.
+22106154	201	210	Alzheimer	Disease	MESH:D000544
+22106154	212	221	Parkinson	Disease	MESH:D010302
+22106154	223	231	diabetes	Disease	MESH:D003920
+22106154	233	246	breast cancer	Disease	MESH:D001943
+22106154	252	266	heart diseases	Disease	MESH:D006331
+

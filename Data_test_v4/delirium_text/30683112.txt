@@ -1,0 +1,30 @@
+30683112|t|Potential biomarkers of acute myocardial infarction based on weighted gene co-expression network analysis.
+30683112|a|BACKGROUND: Acute myocardial infarction (AMI) is the common cause of mortality in developed countries. The feasibility of whole-genome gene expression analysis to identify outcome-related genes and dysregulated pathways remains unknown. Molecular marker such as BNP, CRP and other serum inflammatory markers have got the notice at this point. However, these biomarkers exhibit elevated levels in patients with thyroid disease, renal failure and congestive heart failure. In this study, three groups of microarray data sets (GES66360, GSE48060, GSE29532) were collected from GEO, a total of 99, 52 and 55 samples, respectively. Weighted gene co-expression network analysis (WGCNA) was performed to obtain a classifier which composed of related genes that best characterize the AMI. RESULTS: Here, this study obtained three groups of microarray data sets (GES66360, GSE48060, GSE29532) on AMI blood samples, a total of 99, 52 and 24 samples, respectively. In all, 4672 genes, 3185 genes, 3660 genes were identified in GSE66360, GSE48060, GSE60993 modules, respectively. We preformed WGCNA, GO and KEGG pathway enrichment analysis on these three data sets, finding function enrichment of the differential expression gene on inflammation and immune response. Transcriptome analysis were performed in AMI patients at four time points compared to CAD patients with no history of MI, to determine gene expression profiles and their possible changes during the recovery from myocardial infarction. CONCLUSIONS: The results suggested that three overlapping genes (FGFBP2, GFOD1 and MLC1) between two modules could be a potential use of gene biomarkers for the diagnose of AMI.
+30683112	24	51	acute myocardial infarction	Disease	MESH:D009203
+30683112	119	146	Acute myocardial infarction	Disease	MESH:D009203
+30683112	148	151	AMI	Disease	MESH:D009203
+30683112	369	372	BNP	Gene	4879
+30683112	374	377	CRP	Gene	1401
+30683112	394	406	inflammatory	Disease	MESH:D007249
+30683112	503	511	patients	Species	9606
+30683112	517	532	thyroid disease	Disease	MESH:D013959
+30683112	534	547	renal failure	Disease	MESH:D051437
+30683112	552	576	congestive heart failure	Disease	MESH:D006333
+30683112	883	886	AMI	Disease	MESH:D009203
+30683112	994	997	AMI	Disease	MESH:D009203
+30683112	1328	1340	inflammation	Disease	MESH:D007249
+30683112	1403	1406	AMI	Disease	MESH:D009203
+30683112	1407	1415	patients	Species	9606
+30683112	1448	1451	CAD	Disease	
+30683112	1452	1460	patients	Species	9606
+30683112	1574	1595	myocardial infarction	Disease	MESH:D009203
+30683112	1662	1668	FGFBP2	Gene	83888
+30683112	1670	1675	GFOD1	Gene	54438
+30683112	1680	1684	MLC1	Gene	23209
+30683112	1770	1773	AMI	Disease	MESH:D009203
+30683112	Association	MESH:D009203	23209
+30683112	Positive_Correlation	MESH:D013959	4879
+30683112	Association	MESH:D009203	54438
+30683112	Association	MESH:D009203	83888
+30683112	Positive_Correlation	MESH:D013959	1401
+

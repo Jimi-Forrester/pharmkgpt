@@ -1,0 +1,13 @@
+17046666|t|Ab initio discrete molecular dynamics approach to protein folding and aggregation.
+17046666|a|Understanding the toxicity of amyloidogenic protein aggregates and designing therapeutic approaches require the knowledge of their structure at atomic resolution. Although solid-state NMR, X-ray diffraction, and other experimental techniques are capable of discerning the protein fibrillar structure, determining the structures of early aggregates, called oligomers, is a challenging experimental task. Computational studies by all-atom molecular dynamics, which provides a complete description of a protein in the solvent, are typically limited to study folding of smaller protein or aggregation of a small number of short protein fragments. We review an efficient ab initio computer simulation approach to protein folding and aggregation using discrete molecular dynamics (DMD) in combination with several coarse-grained protein models and implicit solvent. This approach involves different complexity levels in both the protein model and the interparticle interactions. Starting from the simplest protein model with minimal interactions, and gradually increasing its complexity, while guided by in vitro findings, we can systematically select the key features of the protein model and interactions that drive protein folding and aggregation. Because the method used in this DMD approach does not require any knowledge of the native or any other state of the protein, it can be applied to study degenerative disorders associated with protein misfolding and aberrant protein aggregation. The choice of the coarse-grained model depends on the complexity of the protein and specific questions to be addressed, which are mostly suggested by in vitro findings. Thus, we illustrate our approach on amyloid beta-protein (Abeta) associated with Alzheimer's disease (AD). Despite the simplifications introduced in the DMD approach, the predicted Abeta conformations are in agreement with existing experimental data. The in silico findings also provide further insights into the structure and dynamics of Abeta folding and oligomer formation that are amenable to in vitro testing.
+17046666	0	2	Ab	Gene	351
+17046666	101	109	toxicity	Disease	MESH:D064420
+17046666	749	751	ab	Gene	351
+17046666	1480	1502	degenerative disorders	Disease	MESH:D019636
+17046666	1799	1804	Abeta	Gene	351
+17046666	1822	1841	Alzheimer's disease	Disease	MESH:D000544
+17046666	1843	1845	AD	Disease	MESH:D000544
+17046666	1922	1927	Abeta	Gene	351
+17046666	2080	2085	Abeta	Gene	351
+17046666	Association	MESH:D000544	351
+

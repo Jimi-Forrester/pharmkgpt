@@ -1,0 +1,54 @@
+38001940|t|Comparative Efficacy of Metformin and Glimepiride in Modulating Pharmacological Network to Increase BDNF Levels and Benefit Type 2 Diabetes-Related Cognitive Impairment.
+38001940|a|Cognitive impairment is anotable complication of type 2 diabetes (T2DM), accompanied by reduced brain-derived neurotrophic factor (BDNF) in the brain and blood. Anti-diabetic drugs reduce hyperglycemia, yet their effect on cognitive improvement is unknown. We aimed to investigate the effect of anti-diabetic drugs regulating BDNF in T2DM through computational and case-control study design. We obtained T2DMproteins viatext-mining to construct a T2DMprotein network. From the T2DMnetwork, the metformin and glimepiride interactomes and their crucial shortest-path-stimulating BDNF were identified. Using qRTPCR, the genes encoding the shortest-path proteins were assessed in four groups (untreated-T2DM, metformin-treated, glimepiride-treated, and healthy controls). Finally, ELISA was used to assess serum BDNF levels to validate drug efficacy. As a result of this investigation, aT2DMnetwork was constructed with 3683 text-mined proteins. Then, the T2DMnetwork was explored to generate a metformin and glimepiride interactome that establishes the critical shortest-path for BDNF stimulation. Metformin stimulates BDNF via APP binding to the PRKAB1 receptor. Whereas, glimepiride increases BDNF by binding to KCNJ11 via AP2M1 and ESR1 proteins. Both drug shortest-path encoding genes differed significantly between the groups. Unlike metformin, BDNF gene and protein expression rise significantly with glimepiride. Overall, glimepiride can effectively increase BDNF, which could benefit T2DM patients with cognitive deterioration.
+38001940	24	33	Metformin	Chemical	MESH:D008687
+38001940	38	49	Glimepiride	Chemical	MESH:C057619
+38001940	100	104	BDNF	Gene	627
+38001940	124	139	Type 2 Diabetes	Disease	MESH:D003924
+38001940	148	168	Cognitive Impairment	Disease	MESH:D003072
+38001940	170	190	Cognitive impairment	Disease	MESH:D003072
+38001940	219	234	type 2 diabetes	Disease	MESH:D003924
+38001940	236	240	T2DM	Disease	
+38001940	266	299	brain-derived neurotrophic factor	Gene	627
+38001940	301	305	BDNF	Gene	627
+38001940	358	371	hyperglycemia	Disease	MESH:D006943
+38001940	496	500	BDNF	Gene	627
+38001940	504	508	T2DM	Disease	
+38001940	617	628	T2DMprotein	Disease	
+38001940	664	673	metformin	Chemical	MESH:D008687
+38001940	678	689	glimepiride	Chemical	MESH:C057619
+38001940	747	751	BDNF	Gene	627
+38001940	869	873	T2DM	Disease	
+38001940	875	884	metformin	Chemical	MESH:D008687
+38001940	894	905	glimepiride	Chemical	MESH:C057619
+38001940	978	982	BDNF	Gene	627
+38001940	1161	1170	metformin	Chemical	MESH:D008687
+38001940	1175	1186	glimepiride	Chemical	MESH:C057619
+38001940	1247	1251	BDNF	Gene	627
+38001940	1265	1274	Metformin	Chemical	MESH:D008687
+38001940	1286	1290	BDNF	Gene	627
+38001940	1340	1351	glimepiride	Chemical	MESH:C057619
+38001940	1362	1366	BDNF	Gene	627
+38001940	1381	1387	KCNJ11	Gene	3767
+38001940	1392	1397	AP2M1	Gene	1173
+38001940	1402	1406	ESR1	Gene	2099
+38001940	1506	1515	metformin	Chemical	MESH:D008687
+38001940	1517	1521	BDNF	Gene	627
+38001940	1574	1585	glimepiride	Chemical	MESH:C057619
+38001940	1596	1607	glimepiride	Chemical	MESH:C057619
+38001940	1633	1637	BDNF	Gene	627
+38001940	1659	1663	T2DM	Disease	
+38001940	1678	1701	cognitive deterioration	Disease	MESH:D003072
+38001940	Association	2099	627
+38001940	Negative_Correlation	MESH:D003924	627
+38001940	Positive_Correlation	MESH:D008687	627
+38001940	Association	MESH:C057619	3767
+38001940	Negative_Correlation	MESH:D008687	MESH:D003924
+38001940	Association	MESH:C057619	1173
+38001940	Negative_Correlation	MESH:C057619	MESH:D003924
+38001940	Association	1173	627
+38001940	Positive_Correlation	3767	627
+38001940	Negative_Correlation	MESH:C057619	MESH:D003072
+38001940	Association	MESH:C057619	2099
+38001940	Negative_Correlation	MESH:D003072	627
+38001940	Positive_Correlation	MESH:C057619	627
+

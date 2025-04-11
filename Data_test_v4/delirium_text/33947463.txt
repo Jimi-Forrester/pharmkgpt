@@ -1,0 +1,26 @@
+33947463|t|Multi-tissue neocortical transcriptome-wide association study implicates 8 genes across 6 genomic loci in Alzheimer's disease.
+33947463|a|BACKGROUND: Alzheimer's disease (AD) is an incurable neurodegenerative disease currently affecting 1.75% of the US population, with projected growth to 3.46% by 2050. Identifying common genetic variants driving differences in transcript expression that confer AD risk is necessary to elucidate AD mechanism and develop therapeutic interventions. We modify the FUSION transcriptome-wide association study (TWAS) pipeline to ingest gene expression values from multiple neocortical regions. METHODS: A combined dataset of 2003 genotypes clustered to 1000 Genomes individuals from Utah with Northern and Western European ancestry (CEU) was used to construct a training set of 790 genotypes paired to 888 RNASeq profiles from temporal cortex (TCX = 248), prefrontal cortex (FP = 50), inferior frontal gyrus (IFG = 41), superior temporal gyrus (STG = 34), parahippocampal cortex (PHG = 34), and dorsolateral prefrontal cortex (DLPFC = 461). Following within-tissue normalization and covariate adjustment, predictive weights to impute expression components based on a gene's surrounding cis-variants were trained. The FUSION pipeline was modified to support input of pre-scaled expression values and support cross validation with a repeated measure design arising from the presence of multiple transcriptome samples from the same individual across different tissues. RESULTS: Cis-variant architecture alone was informative to train weights and impute expression for 6780 (49.67%) autosomal genes, the majority of which significantly correlated with gene expression; FDR < 5%: N = 6775 (99.92%), Bonferroni: N = 6716 (99.06%). Validation of weights in 515 matched genotype to RNASeq profiles from the CommonMind Consortium (CMC) was (72.14%) in DLPFC profiles. Association of imputed expression components from all 2003 genotype profiles yielded 8 genes significantly associated with AD (FDR < 0.05): APOC1, EED, CD2AP, CEACAM19, CLPTM1, MTCH2, TREM2, and KNOP1. CONCLUSIONS: We provide evidence of cis-genetic variation conferring AD risk through 8 genes across six distinct genomic loci. Moreover, we provide expression weights for 6780 genes as a valuable resource to the community, which can be abstracted across the neocortex and a wide range of neuronal phenotypes.
+33947463	106	125	Alzheimer's disease	Disease	MESH:D000544
+33947463	139	158	Alzheimer's disease	Disease	MESH:D000544
+33947463	160	162	AD	Disease	MESH:D000544
+33947463	180	205	neurodegenerative disease	Disease	MESH:D019636
+33947463	387	389	AD	Disease	MESH:D000544
+33947463	421	423	AD	Disease	MESH:D000544
+33947463	2003	2005	AD	Disease	MESH:D000544
+33947463	2020	2025	APOC1	Gene	341
+33947463	2027	2030	EED	Gene	8726
+33947463	2032	2037	CD2AP	Gene	23607
+33947463	2039	2047	CEACAM19	Gene	56971
+33947463	2049	2055	CLPTM1	Gene	1209
+33947463	2057	2062	MTCH2	Gene	23788
+33947463	2064	2069	TREM2	Gene	54209
+33947463	2075	2080	KNOP1	Gene	400506
+33947463	2151	2153	AD	Disease	MESH:D000544
+33947463	Association	MESH:D000544	56971
+33947463	Association	MESH:D000544	1209
+33947463	Association	MESH:D000544	54209
+33947463	Association	MESH:D000544	400506
+33947463	Association	MESH:D000544	23607
+33947463	Association	MESH:D000544	23788
+33947463	Association	MESH:D000544	341
+

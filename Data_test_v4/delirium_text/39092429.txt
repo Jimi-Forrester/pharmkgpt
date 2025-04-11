@@ -1,0 +1,25 @@
+39092429|t|Gaining new insights into the etiology of ulcerative colitis through a cross-tissue transcriptome-wide association study.
+39092429|a|Background: Genome-wide association studies (GWASs) have identified 38 loci associated with ulcerative colitis (UC) susceptibility, but the risk genes and their biological mechanisms remained to be comprehensively elucidated. Methods: Multi-marker analysis of genomic annotation (MAGMA) software was used to annotate genes on GWAS summary statistics of UC from FinnGen database. Genetic analysis was performed to identify risk genes. Cross-tissue transcriptome-wide association study (TWAS) using the unified test for molecular signatures (UTMOST) was performed to compare GWAS summary statistics with gene expression matrix (from Genotype-Tissue Expression Project) for data integration. Subsequently, we used FUSION software to select key genes from the individual tissues. Additionally, conditional and joint analysis was conducted to improve our understanding on UC. Fine-mapping of causal gene sets (FOCUS) software was employed to accurately locate risk genes. The results of the four genetic analyses (MAGMA, UTMOST, FUSION and FOCUS) were combined to obtain a set of UC risk genes. Finally, Mendelian randomization (MR) analysis and Bayesian colocalization analysis were conducted to determine the causal relationship between the risk genes and UC. To test the robustness of our findings, the same approaches were taken to verify the GWAS data of UC on IEU. Results: Multiple correction tests screened PIM3 as a risk gene for UC. The results of Bayesian colocalization analysis showed that the posterior probability of hypothesis 4 was 0.997 and 0.954 in the validation dataset. MR was conducted using the inverse variance weighting method and two single nucleotide polymorphisms (SNPs, rs28645887 and rs62231924) were included in the analysis (p < 0.001, 95%CI: 1.45-1.89). In the validation dataset, MR result was p < 0.001, 95%CI: 1.19-1.72, indicating a clear causal relationship between PIM3 and UC. Conclusion: Our study validated PIM3 as a key risk gene for UC and its expression level may be related to the risk of UC, providing a novel reference for further improving the current understanding on the genetic structure of UC.
+39092429	42	60	ulcerative colitis	Disease	MESH:D003093
+39092429	214	232	ulcerative colitis	Disease	MESH:D003093
+39092429	234	236	UC	Disease	MESH:D003093
+39092429	475	477	UC	Disease	MESH:D003093
+39092429	989	991	UC	Disease	MESH:D003093
+39092429	1197	1199	UC	Disease	MESH:D003093
+39092429	1375	1377	UC	Disease	MESH:D003093
+39092429	1477	1479	UC	Disease	MESH:D003093
+39092429	1532	1536	PIM3	Gene	415116
+39092429	1556	1558	UC	Disease	MESH:D003093
+39092429	1817	1827	rs28645887	SNP	tmVar:rs28645887;VariantGroup:1;CorrespondingGene:415116;RS#:28645887;CorrespondingSpecies:9606
+39092429	1832	1842	rs62231924	SNP	tmVar:rs62231924;VariantGroup:0;CorrespondingGene:164714;RS#:62231924;CorrespondingSpecies:9606
+39092429	2022	2026	PIM3	Gene	415116
+39092429	2031	2033	UC	Disease	MESH:D003093
+39092429	2067	2071	PIM3	Gene	415116
+39092429	2095	2097	UC	Disease	MESH:D003093
+39092429	2153	2155	UC	Disease	MESH:D003093
+39092429	2261	2263	UC	Disease	MESH:D003093
+39092429	Positive_Correlation	MESH:D003093	RS#:28645887;CorrespondingGene:415116
+39092429	Positive_Correlation	MESH:D003093	RS#:62231924;CorrespondingGene:164714
+39092429	Association	MESH:D003093	415116
+39092429	Association	MESH:D003093	164714
+

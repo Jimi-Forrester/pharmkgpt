@@ -1,0 +1,72 @@
+30585261|t|Nitric oxide prevents H2O2-induced apoptosis in SK-N-MC human neuroblastoma cells.
+30585261|a|Nitric oxide (NO) is a cellular signaling molecule in many physiological and pathological processes including neuroprotector. Here we examined the antiapoptotic effect of NO in SK-N-MC cells. H2O2 treatment (10-200 muM) induced cell death in a dose-dependent manner and pretreatment of cells with 100 muM S-nitroso-N-acetylpenicillamine (SNAP), an NO donor, attenuated the occurrence of H2O2-induced cell death. DAPI staining showed H2O2-induced nuclear fragmentation and NO treatment suppressed it. NO inhibited the proteolytic activation of caspase-3 and mitochondrial cytochrome c release. Treatment of soluble guanylyl cyclase inhibitor ODQ decreased the protective effect of SNAP on H2O2-treated cells and increased caspase 3-like enzyme activity and activation, cytochrome c release, PARP cleavage, and DNA fragmentation, indicating that cGMP is a key mediator in NO-mediated antiapoptosis. The cGMP analog 8-Br-cGMP blocked H2O2-induced apoptotic cell death; reduction of caspase-3 enzyme, cytochrome c release, and caspase-8 and -9. These preventive effects of SNAP and 8-Br-cGMP were suppressed by PKG inhibitor KT5823. Levels of PKGI, PKGII, and p-VASP proteins were increased by SNAP and 8-Br-cGMP and suppressed by KT5823 treatment. These results indicate that PKG is a downstream signal mediator in the suppression of apoptosis by NO and cGMP. Akt activation was inhibited the PI3K inhibitors LY294002 and Wortmannin, resulting in the inhibition of cell viability and increase of cytochrome c release. SNAP induced phosphorylation of Akt and Bad and then increased the interactions between 14-3-3beta and p-Bad. These data suggest that the NO suppresses H2O2-induced SK-N-MC cell apoptosis by suppressing apoptosis signal mediating the interaction between 14-3-3beta and Bad phosphorylation via PKG/PI3K/Akt.
+30585261	0	12	Nitric oxide	Chemical	MESH:D009569
+30585261	22	26	H2O2	Chemical	MESH:D006861
+30585261	48	55	SK-N-MC	CellLine	CVCL:0530
+30585261	56	61	human	Species	9606
+30585261	62	75	neuroblastoma	Disease	MESH:D009447
+30585261	83	95	Nitric oxide	Chemical	MESH:D009569
+30585261	260	267	SK-N-MC	CellLine	CVCL:0530
+30585261	275	279	H2O2	Chemical	MESH:D006861
+30585261	388	419	S-nitroso-N-acetylpenicillamine	Chemical	MESH:D026423
+30585261	421	425	SNAP	Chemical	MESH:D026423
+30585261	470	474	H2O2	Chemical	MESH:D006861
+30585261	495	499	DAPI	Chemical	MESH:C007293
+30585261	516	520	H2O2	Chemical	MESH:D006861
+30585261	626	635	caspase-3	Gene	836
+30585261	654	666	cytochrome c	Gene	54205
+30585261	724	727	ODQ	Chemical	-
+30585261	763	767	SNAP	Chemical	MESH:D026423
+30585261	771	775	H2O2	Chemical	MESH:D006861
+30585261	804	813	caspase 3	Gene	836
+30585261	851	863	cytochrome c	Gene	54205
+30585261	873	877	PARP	Gene	142
+30585261	927	931	cGMP	Chemical	MESH:D006152
+30585261	984	988	cGMP	Chemical	MESH:D006152
+30585261	996	1005	8-Br-cGMP	Chemical	MESH:C083763
+30585261	1014	1018	H2O2	Chemical	MESH:D006861
+30585261	1062	1071	caspase-3	Gene	836
+30585261	1080	1092	cytochrome c	Gene	54205
+30585261	1106	1122	caspase-8 and -9	Gene	841;842
+30585261	1152	1156	SNAP	Chemical	MESH:D026423
+30585261	1161	1170	8-Br-cGMP	Chemical	MESH:C083763
+30585261	1190	1193	PKG	Gene	5592
+30585261	1204	1210	KT5823	Chemical	MESH:C073601
+30585261	1273	1277	SNAP	Chemical	MESH:D026423
+30585261	1282	1291	8-Br-cGMP	Chemical	MESH:C083763
+30585261	1310	1316	KT5823	Chemical	MESH:C073601
+30585261	1356	1359	PKG	Gene	5592
+30585261	1434	1438	cGMP	Chemical	MESH:D006152
+30585261	1440	1443	Akt	Gene	207
+30585261	1489	1497	LY294002	Chemical	MESH:C085911
+30585261	1502	1512	Wortmannin	Chemical	MESH:D000077191
+30585261	1576	1588	cytochrome c	Gene	54205
+30585261	1598	1602	SNAP	Chemical	MESH:D026423
+30585261	1630	1633	Akt	Gene	207
+30585261	1750	1754	H2O2	Chemical	MESH:D006861
+30585261	1763	1770	SK-N-MC	CellLine	CVCL:0530
+30585261	1891	1894	PKG	Gene	5592
+30585261	1900	1903	Akt	Gene	207
+30585261	Negative_Correlation	MESH:C083763	842
+30585261	Negative_Correlation	MESH:C085911	207
+30585261	Positive_Correlation	MESH:D000077191	54205
+30585261	Negative_Correlation	MESH:C083763	841
+30585261	Negative_Correlation	MESH:D006861	MESH:D009569
+30585261	Association	MESH:D006152	841
+30585261	Positive_Correlation	MESH:D026423	207
+30585261	Negative_Correlation	MESH:D000077191	207
+30585261	Association	MESH:D006861	841
+30585261	Positive_Correlation	MESH:C085911	54205
+30585261	Positive_Correlation	MESH:C083763	5592
+30585261	Negative_Correlation	MESH:D006152	MESH:D006861
+30585261	Negative_Correlation	MESH:C073601	MESH:C083763
+30585261	Association	MESH:D006152	5592
+30585261	Negative_Correlation	MESH:C073601	MESH:D026423
+30585261	Negative_Correlation	MESH:C083763	836
+30585261	Negative_Correlation	MESH:C083763	54205
+30585261	Negative_Correlation	MESH:C073601	5592
+30585261	Association	MESH:D006861	842
+30585261	Negative_Correlation	MESH:C083763	MESH:D006861
+30585261	Negative_Correlation	MESH:D006861	MESH:D026423
+30585261	Association	MESH:D006152	842
+

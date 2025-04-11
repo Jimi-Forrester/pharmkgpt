@@ -1,0 +1,14 @@
+38259822|t|Explaining graph convolutional network predictions for clinicians-An explainable AI approach to Alzheimer's disease classification.
+38259822|a|Introduction: Graph-based representations are becoming more common in the medical domain, where each node defines a patient, and the edges signify associations between patients, relating individuals with disease and symptoms in a node classification task. In this study, a Graph Convolutional Networks (GCN) model was utilized to capture differences in neurocognitive, genetic, and brain atrophy patterns that can predict cognitive status, ranging from Normal Cognition (NC) to Mild Cognitive Impairment (MCI) and Alzheimer's Disease (AD), on the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Elucidating model predictions is vital in medical applications to promote clinical adoption and establish physician trust. Therefore, we introduce a decomposition-based explanation method for individual patient classification. Methods: Our method involves analyzing the output variations resulting from decomposing input values, which allows us to determine the degree of impact on the prediction. Through this process, we gain insight into how each feature from various modalities, both at the individual and group levels, contributes to the diagnostic result. Given that graph data contains critical information in edges, we studied relational data by silencing all the edges of a particular class, thereby obtaining explanations at the neighborhood level. Results: Our functional evaluation showed that the explanations remain stable with minor changes in input values, specifically for edge weights exceeding 0.80. Additionally, our comparative analysis against SHAP values yielded comparable results with significantly reduced computational time. To further validate the model's explanations, we conducted a survey study with 11 domain experts. The majority (71%) of the responses confirmed the correctness of the explanations, with a rating of above six on a 10-point scale for the understandability of the explanations. Discussion: Strategies to overcome perceived limitations, such as the GCN's overreliance on demographic information, were discussed to facilitate future adoption into clinical practice and gain clinicians' trust as a diagnostic decision support system.
+38259822	96	115	Alzheimer's disease	Disease	MESH:D000544
+38259822	248	255	patient	Species	9606
+38259822	300	308	patients	Species	9606
+38259822	514	527	brain atrophy	Disease	MESH:C566985
+38259822	615	635	Cognitive Impairment	Disease	MESH:D003072
+38259822	637	640	MCI	Disease	MESH:D060825
+38259822	646	665	Alzheimer's Disease	Disease	MESH:D000544
+38259822	667	669	AD	Disease	MESH:D000544
+38259822	679	698	Alzheimer's Disease	Disease	MESH:D000544
+38259822	943	950	patient	Species	9606
+38259822	1706	1710	SHAP	Gene	57477
+

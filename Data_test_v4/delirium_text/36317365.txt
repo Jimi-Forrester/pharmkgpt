@@ -1,0 +1,10 @@
+36317365|t|Efficient algorithms for survival data with multiple outcomes using the frailty model.
+36317365|a|Survival data with multiple outcomes are frequently encountered in biomedical investigations. An illustrative example comes from Alzheimer's Disease Neuroimaging Initiative study where the cognitively normal subjects may clinically progress to mild cognitive impairment and/or Alzheimer's disease dementia. Transition time from normal cognition to mild cognitive impairment and that from mild cognitive impairment to Alzheimer's disease are expected to be correlated within subjects and the dependence is often accommodated by the frailty (random effects). Estimation in the frailty model unavoidably involves multiple integrations which may be intractable and hence leads to severe computational challenges, especially in the presence of high-dimensional covariates. In this paper, we propose efficient minorization-maximization algorithms in the frailty model for survival data with multiple outcomes. The alternating direction method of multipliers is further incorporated for simultaneous variable selection and homogeneity pursuit via regularization and fusion. Extensive simulation studies are conducted to assess the performance of the proposed algorithms. An application to the Alzheimer's Disease Neuroimaging Initiative data is also provided to illustrate their practical utilities.
+36317365	216	235	Alzheimer's Disease	Disease	MESH:D000544
+36317365	336	356	cognitive impairment	Disease	MESH:D003072
+36317365	364	392	Alzheimer's disease dementia	Disease	MESH:D000544
+36317365	440	460	cognitive impairment	Disease	MESH:D003072
+36317365	480	500	cognitive impairment	Disease	MESH:D003072
+36317365	504	523	Alzheimer's disease	Disease	MESH:D000544
+36317365	1273	1292	Alzheimer's Disease	Disease	MESH:D000544
+

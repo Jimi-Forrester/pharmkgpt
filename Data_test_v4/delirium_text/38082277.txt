@@ -1,0 +1,19 @@
+38082277|t|Evaluating the ability of a predictive vision-based machine learning model to measure changes in gait in response to medication and DBS within individuals with Parkinson's disease.
+38082277|a|INTRODUCTION: Gait impairments in Parkinson's disease (PD) are treated with dopaminergic medication or deep-brain stimulation (DBS), although the magnitude of the response is variable between individuals. Computer vision-based approaches have previously been evaluated for measuring the severity of parkinsonian gait in videos, but have not been evaluated for their ability to identify changes within individuals in response to treatment. This pilot study examines whether a vision-based model, trained on videos of parkinsonism, is able to detect improvement in parkinsonian gait in people with PD in response to medication and DBS use. METHODS: A spatial-temporal graph convolutional model was trained to predict MDS-UPDRS-gait scores in 362 videos from 14 older adults with drug-induced parkinsonism. This model was then used to predict MDS-UPDRS-gait scores on a different dataset of 42 paired videos from 13 individuals with PD, recorded while ON and OFF medication and DBS treatment during the same clinical visit. Statistical methods were used to assess whether the model was responsive to changes in gait in the ON and OFF states. RESULTS: The MDS-UPDRS-gait scores predicted by the model were lower on average (representing improved gait; p = 0.017, Cohen's d = 0.495) during the ON medication and DBS treatment conditions. The magnitude of the differences between ON and OFF state was significantly correlated between model predictions and clinician annotations (p = 0.004). The predicted scores were significantly correlated with the clinician scores (Kendall's tau-b = 0.301, p = 0.010), but were distributed in a smaller range as compared to the clinician scores. CONCLUSION: A vision-based model trained on parkinsonian gait did not accurately predict MDS-UPDRS-gait scores in a different PD cohort, but detected weak, but statistically significant proportional changes in response to medication and DBS use. Large, clinically validated datasets of videos captured in many different settings and treatment conditions are required to develop accurate vision-based models of parkinsonian gait.
+38082277	160	179	Parkinson's disease	Disease	MESH:D010300
+38082277	195	211	Gait impairments	Disease	MESH:D020234
+38082277	215	234	Parkinson's disease	Disease	MESH:D010300
+38082277	236	238	PD	Disease	MESH:D010300
+38082277	257	269	dopaminergic	Chemical	MESH:D004298
+38082277	480	497	parkinsonian gait	Disease	MESH:D010300
+38082277	697	709	parkinsonism	Disease	MESH:D010302
+38082277	744	761	parkinsonian gait	Disease	MESH:D010300
+38082277	777	779	PD	Disease	MESH:D010300
+38082277	971	983	parkinsonism	Disease	MESH:D010302
+38082277	1111	1113	PD	Disease	MESH:D010300
+38082277	1902	1919	parkinsonian gait	Disease	MESH:D010300
+38082277	1984	1986	PD	Disease	MESH:D010300
+38082277	2268	2285	parkinsonian gait	Disease	MESH:D010300
+38082277	Negative_Correlation	MESH:D004298	MESH:D010300
+38082277	Negative_Correlation	MESH:D004298	MESH:D020234
+

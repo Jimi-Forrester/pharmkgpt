@@ -1,0 +1,18 @@
+33007623|t|A dynamic decision model for diagnosis of dementia, Alzheimer's disease and Mild Cognitive Impairment.
+33007623|a|CDSS (Clinical Decision Support System) is a domain within digital health that aims at supporting clinicians by suggesting the most probable diagnosis based on knowledge obtained from patient data. Usually, decision models used by current CDSS are static, i.e., they are not updated when new data are included, which could allow them to acquire new knowledge and enhance system accuracy. This paper proposes a dynamic decision model that automatically updates itself from classifier models using supervised machine learning algorithms. Our supervised learning process ranks several decision models using classifier performance measures, considering available patient data, filled by the health center, or local clinical guidelines. The decision model with the best performance is then selected to be used in our CDSS, which is designed for the diagnosis of D (Dementia), AD (Alzheimer's Disease), and MCI (Mild Cognitive Impairment). Patient datasets from CAD (Center for Alzheimer's Disease), at the Institute of Psychiatry of UFRJ (Federal University of Rio de Janeiro), and CRASI (Center of Reference in Attention to Health of the Elderly), at Antonio Pedro Hospital of UFF (Fluminense Federal University), are used. The main conclusion is that the proposed dynamic decision model, which offers the ability to be continuously refined with more recent diagnostic criteria or even personalized according to the local domain or clinical guidelines, provides an efficient alternative for diagnosis of Dementia, AD, and MCI.
+33007623	42	50	dementia	Disease	MESH:D003704
+33007623	52	71	Alzheimer's disease	Disease	MESH:D000544
+33007623	76	101	Mild Cognitive Impairment	Disease	MESH:D060825
+33007623	287	294	patient	Species	9606
+33007623	762	769	patient	Species	9606
+33007623	963	971	Dementia	Disease	MESH:D003704
+33007623	974	976	AD	Disease	MESH:D000544
+33007623	978	997	Alzheimer's Disease	Disease	MESH:D000544
+33007623	1004	1007	MCI	Disease	MESH:D060825
+33007623	1009	1034	Mild Cognitive Impairment	Disease	MESH:D060825
+33007623	1037	1044	Patient	Species	9606
+33007623	1075	1094	Alzheimer's Disease	Disease	MESH:D000544
+33007623	1603	1611	Dementia	Disease	MESH:D003704
+33007623	1613	1615	AD	Disease	MESH:D000544
+33007623	1621	1624	MCI	Disease	MESH:D060825
+

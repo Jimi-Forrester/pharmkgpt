@@ -1,0 +1,52 @@
+31664099|t|Abeta modulates actin cytoskeleton via SHIP2-mediated phosphoinositide metabolism.
+31664099|a|Emerging evidences suggest that phospholipid metabolism is altered in Alzheimer's disease (AD), but molecular mechanisms on how this affects neurodegeneration in AD is poorly understood. SHIP2 is a phosphoinositide-metabolizing enzyme, which dephosphorylates PI(3,4,5)P3 resulting to PI(3,4)P2, and it has been recently shown that Abeta directly increases the activity of SHIP2. Here we monitored, utilizing fluorescent SHIP2 biosensor, real-time increase of PI(3,4)P2-containing vesicles in HT22 cells treated with Abeta. Interestingly, PI(3,4)P2 is accumulated at late endosomes and lysosomal vesicles. We further discovered that ARAP3 can be attracted to PI(3,4)P2-positive mature endosomes via its PH domain and this facilitates the degradation of ARAP3. The reduced level of ARAP3 then causes RhoA hyperactivation and filamentous actin, which are critical for neurodegeneration in AD. These results provide a novel molecular link between Abeta and actin disruption through dysregulated phosphoinositide metabolism, and the SHIP2-PI(3,4)P2-ARAP3-RhoA signaling pathway can be considered as new therapeutic targets for synaptic dysfunctions in Alzheimer's disease.
+31664099	0	5	Abeta	Gene	14961
+31664099	39	44	SHIP2	Gene	16332
+31664099	54	70	phosphoinositide	Chemical	MESH:D010716
+31664099	115	127	phospholipid	Chemical	MESH:D010743
+31664099	153	172	Alzheimer's disease	Disease	MESH:D000544
+31664099	174	176	AD	Disease	MESH:D000544
+31664099	224	241	neurodegeneration	Disease	MESH:D019636
+31664099	245	247	AD	Disease	MESH:D000544
+31664099	270	275	SHIP2	Gene	16332
+31664099	281	297	phosphoinositide	Chemical	MESH:D010716
+31664099	342	353	PI(3,4,5)P3	Chemical	MESH:C118303
+31664099	367	376	PI(3,4)P2	Chemical	MESH:C118301
+31664099	414	419	Abeta	Gene	14961
+31664099	455	460	SHIP2	Gene	16332
+31664099	503	508	SHIP2	Gene	16332
+31664099	542	551	PI(3,4)P2	Chemical	MESH:C118301
+31664099	575	579	HT22	CellLine	CVCL:0321
+31664099	599	604	Abeta	Gene	14961
+31664099	621	630	PI(3,4)P2	Chemical	MESH:C118301
+31664099	715	720	ARAP3	Gene	106952
+31664099	741	750	PI(3,4)P2	Chemical	MESH:C118301
+31664099	835	840	ARAP3	Gene	106952
+31664099	863	868	ARAP3	Gene	106952
+31664099	881	885	RhoA	Gene	11848
+31664099	948	965	neurodegeneration	Disease	MESH:D019636
+31664099	969	971	AD	Disease	MESH:D000544
+31664099	1026	1031	Abeta	Gene	14961
+31664099	1074	1090	phosphoinositide	Chemical	MESH:D010716
+31664099	1111	1116	SHIP2	Gene	16332
+31664099	1117	1126	PI(3,4)P2	Chemical	MESH:C118301
+31664099	1127	1132	ARAP3	Gene	106952
+31664099	1133	1137	RhoA	Gene	11848
+31664099	1230	1249	Alzheimer's disease	Disease	MESH:D000544
+31664099	Negative_Correlation	MESH:D019636	106952
+31664099	Negative_Correlation	MESH:C118303	16332
+31664099	Association	MESH:C118301	16332
+31664099	Negative_Correlation	106952	11848
+31664099	Association	MESH:D010716	16332
+31664099	Bind	MESH:C118301	106952
+31664099	Association	MESH:D000544	11848
+31664099	Association	MESH:D010743	MESH:D000544
+31664099	Association	MESH:D000544	16332
+31664099	Association	MESH:D019636	11848
+31664099	Association	106952	16332
+31664099	Association	MESH:D010716	14961
+31664099	Positive_Correlation	MESH:C118301	14961
+31664099	Negative_Correlation	MESH:D000544	106952
+31664099	Association	MESH:C118301	MESH:D000544
+31664099	Positive_Correlation	14961	16332
+

@@ -1,0 +1,18 @@
+37110485|t|Bioactive Metabolite from Endophytic Aspergillus versicolor SB5 with Anti-Acetylcholinesterase, Anti-Inflammatory and Antioxidant Activities: In Vitro and In Silico Studies.
+37110485|a|Endophytic fungi are a highly unpredictable group of microorganisms that can create a diverse range of secondary metabolites with biological activity. These metabolites enhance the host's ability to tolerate stress caused by various factors, such as disease, insects, pathogens, and herbivores. The secondary metabolites produced by endophytic fungi may have potential applications in agriculture, pharmacy, and medicine. The purpose of this study was to examine the anti-acetylcholinesterase activity of secondary metabolites extracted from endophytic fungi. Aspergillus versicolor SB5 was one of the many endophytic fungi isolated from Juncus rigidus and identified genetically with accession number ON872302. Our study utilized fermentation and microbial cultivation techniques to obtain secondary metabolites. During the course of our investigation, we isolated a compound called Physcion (C1) from the endophytic fungus Aspergillus versicolor SB5. We subsequently identified that C1 possesses inhibitory activity against COX-2 and LOX-1, with IC50 values of 43.10 and 17.54 microg/mL, respectively, making it an effective anti-inflammatory agent. Moreover, we found that C1 also exhibited potent anticholinesterase activity (86.9 +- 1.21%). In addition to these promising therapeutic properties, our experiments demonstrated that C1 possesses strong antioxidant capacity, as evidenced by its ability to scavenge DPPH, ABTS, O2 radicals, and NO and inhibit lipid peroxidation. To further investigate the molecular mechanisms underlying C1 pharmacological properties, we employed SwissADME web tools to predict the compound's ADME-related physicochemical properties and used Molecular Operating Environment and PyMOL for molecular docking studies.
+37110485	101	113	Inflammatory	Disease	MESH:D007249
+37110485	812	826	Juncus rigidus	Species	1423389
+37110485	1058	1071	Physcion (C1)	Chemical	-
+37110485	1200	1205	COX-2	Gene	4513
+37110485	1210	1215	LOX-1	Gene	4973
+37110485	1306	1318	inflammatory	Disease	MESH:D007249
+37110485	1509	1511	C1	Chemical	MESH:C400149
+37110485	1591	1595	DPPH	Chemical	MESH:C004931
+37110485	1597	1601	ABTS	Chemical	MESH:C002502
+37110485	1603	1605	O2	Chemical	-
+37110485	1635	1640	lipid	Chemical	MESH:D008055
+37110485	Association	MESH:C002502	MESH:C400149
+37110485	Association	MESH:D007249	4973
+37110485	Association	MESH:C004931	MESH:C400149
+37110485	Negative_Correlation	MESH:C400149	MESH:D008055
+

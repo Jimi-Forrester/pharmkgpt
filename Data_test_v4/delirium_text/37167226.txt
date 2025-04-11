@@ -1,0 +1,11 @@
+37167226|t|Henry gas solubility optimization double machine learning classifier for neurosurgical patients.
+37167226|a|This study aims to predict head trauma outcome for Neurosurgical patients in children, adults, and elderly people. As Machine Learning (ML) algorithms are helpful in healthcare field, a comparative study of various ML techniques is developed. Several algorithms are utilized such as k-nearest neighbor, Random Forest (RF), C4.5, Artificial Neural Network, and Support Vector Machine (SVM). Their performance is assessed using anonymous patients' data. Then, a proposed double classifier based on Henry Gas Solubility Optimization (HGSO) is developed with Aquila optimizer (AQO). It is implemented for feature selection to classify patients' outcome status into four states. Those are mortality, morbidity, improved, or the same. The double classifiers are evaluated via various performance metrics including recall, precision, F-measure, accuracy, and sensitivity. Another contribution of this research is the original use of hybrid technique based on RF-SVM and HGSO to predict patient outcome status with high accuracy. It determines outcome status relationship with age and mode of trauma. The algorithm is tested on more than 1000 anonymous patients' data taken from a Neurosurgical unit of Mansoura International Hospital, Egypt. Experimental results show that the proposed method has the highest accuracy of 99.2% (with population size = 30) compared with other classifiers.
+37167226	87	95	patients	Species	9606
+37167226	124	135	head trauma	Disease	MESH:D006259
+37167226	162	170	patients	Species	9606
+37167226	533	541	patients	Species	9606
+37167226	728	736	patients	Species	9606
+37167226	1076	1083	patient	Species	9606
+37167226	1182	1188	trauma	Disease	MESH:D014947
+37167226	1242	1250	patients	Species	9606
+

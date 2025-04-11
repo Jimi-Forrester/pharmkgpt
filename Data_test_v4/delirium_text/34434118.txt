@@ -1,0 +1,83 @@
+34434118|t|TRIM18-Regulated STAT3 Signaling Pathway via PTP1B Promotes Renal Epithelial-Mesenchymal Transition, Inflammation, and Fibrosis in Diabetic Kidney Disease.
+34434118|a|Diabetic kidney disease (DKD) has become a key cause of end-stage renal disease worldwide. Inflammation and fibrosis have been shown to play important roles in the pathogenesis of DKD. MID1, also known as TRIM18, is an E3 ubiquitin ligase of the tripartite motif (TRIM) subfamily of RING-containing proteins and increased in renal tubule in patients with DKD. However, the function and molecular mechanism of TRIM18 in DKD remain unexplored. Herein we report that TRIM18 expression levels were increased in patients with DKD. An animal study confirms that TRIM18 is involved in kidney injury and fibrosis in diabetic mice. TRIM18 knockdown inhibits high glucose (HG)-induced epithelial-mesenchymal transition (EMT), inflammation, and fibrosis of HK-2 cells. This is accompanied by decreased levels of tumor necrosis factor alpha, interleukin-6, hydroxyproline (Hyp), connective tissue growth factor, and alpha-smooth muscle actin. Additionally, TRIM18 knockdown inhibits HG-induced increase in the phosphorylated-/total signal transducer and activator of transcription (STAT3). Treatment with niclosamide (STAT3 inhibitor) or protein tyrosine phosphatase-1B (PTP1B) overexpression blocked the TRIM18 induced EMT, inflammation and fibrosis. Co-immunoprecipitation and Western blot assays showed that TRIM18 promoted the ubiquitination of PTP1B. These findings highlight the importance of the TRIM18/PTP1B/STAT3 signaling pathway in DKD and can help in the development of new therapeutics for DKD treatment.
+34434118	0	6	TRIM18	Gene	4281
+34434118	17	22	STAT3	Gene	6774
+34434118	45	50	PTP1B	Gene	5770
+34434118	101	113	Inflammation	Disease	MESH:D007249
+34434118	119	127	Fibrosis	Disease	MESH:D005355
+34434118	131	154	Diabetic Kidney Disease	Disease	MESH:D003928
+34434118	156	179	Diabetic kidney disease	Disease	MESH:D003928
+34434118	181	184	DKD	Disease	MESH:D003928
+34434118	212	235	end-stage renal disease	Disease	MESH:D007676
+34434118	247	259	Inflammation	Disease	MESH:D007249
+34434118	264	272	fibrosis	Disease	MESH:D005355
+34434118	336	339	DKD	Disease	MESH:D003928
+34434118	341	345	MID1	Gene	4281
+34434118	361	367	TRIM18	Gene	4281
+34434118	375	394	E3 ubiquitin ligase	Gene	79594
+34434118	497	505	patients	Species	9606
+34434118	511	514	DKD	Disease	MESH:D003928
+34434118	565	571	TRIM18	Gene	4281
+34434118	575	578	DKD	Disease	MESH:D003928
+34434118	620	626	TRIM18	Gene	4281
+34434118	663	671	patients	Species	9606
+34434118	677	680	DKD	Disease	MESH:D003928
+34434118	712	718	TRIM18	Gene	17318
+34434118	734	747	kidney injury	Disease	MESH:D007674
+34434118	752	760	fibrosis	Disease	MESH:D005355
+34434118	764	772	diabetic	Disease	MESH:D003920
+34434118	773	777	mice	Species	10090
+34434118	779	785	TRIM18	Gene	17318
+34434118	810	817	glucose	Chemical	MESH:D005947
+34434118	872	884	inflammation	Disease	MESH:D007249
+34434118	890	898	fibrosis	Disease	MESH:D005355
+34434118	902	906	HK-2	CellLine	
+34434118	957	984	tumor necrosis factor alpha	Gene	21926
+34434118	986	999	interleukin-6	Gene	16193
+34434118	1001	1015	hydroxyproline	Chemical	MESH:D006909
+34434118	1017	1020	Hyp	Chemical	MESH:D006909
+34434118	1023	1054	connective tissue growth factor	Gene	14219
+34434118	1101	1107	TRIM18	Gene	17318
+34434118	1226	1231	STAT3	Gene	20848
+34434118	1249	1260	niclosamide	Chemical	MESH:D009534
+34434118	1262	1267	STAT3	Gene	20848
+34434118	1282	1313	protein tyrosine phosphatase-1B	Gene	19246
+34434118	1315	1320	PTP1B	Gene	19246
+34434118	1349	1355	TRIM18	Gene	4281
+34434118	1369	1381	inflammation	Disease	MESH:D007249
+34434118	1386	1394	fibrosis	Disease	MESH:D005355
+34434118	1455	1461	TRIM18	Gene	4281
+34434118	1493	1499	PTP1B.	Gene	5770
+34434118	1547	1553	TRIM18	Gene	4281
+34434118	1554	1559	PTP1B	Gene	5770
+34434118	1560	1565	STAT3	Gene	6774
+34434118	1587	1590	DKD	Disease	MESH:D003928
+34434118	1647	1650	DKD	Disease	MESH:D003928
+34434118	Association	MESH:D005355	5770
+34434118	Association	MESH:D007249	5770
+34434118	Association	5770	6774
+34434118	Association	4281	5770
+34434118	Association	MESH:D003920	17318
+34434118	Association	MESH:D007249	6774
+34434118	Positive_Correlation	MESH:D007249	4281
+34434118	Negative_Correlation	MESH:D009534	4281
+34434118	Association	MESH:D003928	17318
+34434118	Positive_Correlation	MESH:D003928	4281
+34434118	Negative_Correlation	MESH:D009534	20848
+34434118	Positive_Correlation	16193	17318
+34434118	Positive_Correlation	14219	17318
+34434118	Negative_Correlation	MESH:D009534	MESH:D005355
+34434118	Positive_Correlation	17318	21926
+34434118	Association	MESH:D005355	6774
+34434118	Association	MESH:D005355	19246
+34434118	Association	MESH:D003928	5770
+34434118	Negative_Correlation	19246	4281
+34434118	Positive_Correlation	17318	20848
+34434118	Association	4281	6774
+34434118	Positive_Correlation	MESH:D005947	MESH:D005355
+34434118	Positive_Correlation	MESH:D005355	4281
+34434118	Association	MESH:D007674	17318
+34434118	Association	MESH:D003928	6774
+34434118	Association	MESH:D005355	17318
+34434118	Negative_Correlation	MESH:D009534	MESH:D007249
+

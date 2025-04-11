@@ -1,0 +1,54 @@
+30697201|t|Potential Utility of Protein Targets of Cysteine-S-Nitrosylation in Identifying Clinical Disease Status in Human Chagas Disease.
+30697201|a|Trypanosoma cruzi (Tc) infection causes Chagas disease (ChD) presented by dilated cardiomyopathy and heart failure. During infection, oxidative and nitrosative stresses are elicited by the immune cells for control the pathogen; however, excess nitric oxide and superoxide production can result in cysteine S-nitrosylation (SNO) of host proteins that affects cellular homeostasis and may contribute to disease development. To identify the proteins with changes in SNO modification levels as a hallmark of ChD, we obtained peripheral blood mononuclear cells (PBMC) from seronegative, normal healthy (NH, n = 30) subjects, and from seropositive clinically asymptomatic (ChD CA, n = 25) or clinically symptomatic (ChD CS, n = 28) ChD patients. All samples were treated (Asc+) or not-treated (Asc-) with ascorbate (reduces nitrosylated thiols), labeled with the thiol-labeling BODIPY FL-maleimide dye, resolved by two-dimensional electrophoresis (total 166 gels), and the protein spots that yielded significant differences in abundance or SNO level at p-value of <= 0.05 t-test/Welch/BH were identified by MALDI-TOF/TOF MS or OrbiTrap LC-MS/MS. Targeted analysis of a new cohort of PBMC samples (n = 10-14/group) was conducted to verify the differential abundance/SNO levels of two of the proteins in ChD (vs. NH) subjects. The multivariate adaptive regression splines (MARS) modeling, comparing differences in relative SNO level (Asc-/Asc+ ratio) of the protein spots between any two groups yielded SNO biomarkers that exhibited >=90% prediction success in classifying ChD CA (582-KRT1 and 884-TPM3) and ChD CS (426-PNP, 582-KRT1, 486-ALB, 662-ACTB) patients from NH controls. Ingenuity Pathway Analysis (IPA) of the SNO proteome dataset normalized to changes in protein abundance suggested the proteins belonging to the signaling networks of cell death and the recruitment and migration of immune cells were most affected in ChD CA and ChD CS (vs. NH) subjects. We propose that SNO modification of the select panel of proteins identified in this study have the potential to identify ChD severity in seropositive individuals exposed to Tc infection.
+30697201	107	112	Human	Species	9606
+30697201	113	127	Chagas Disease	Disease	MESH:D014355
+30697201	129	148	Trypanosoma cruzi (	Species	5693
+30697201	148	161	Tc) infection	Disease	MESH:D014355
+30697201	169	183	Chagas disease	Disease	MESH:D014355
+30697201	185	188	ChD	Disease	MESH:D014355
+30697201	203	225	dilated cardiomyopathy	Disease	MESH:D002311
+30697201	230	243	heart failure	Disease	MESH:D006333
+30697201	252	261	infection	Disease	MESH:D007239
+30697201	373	385	nitric oxide	Chemical	MESH:D009569
+30697201	390	400	superoxide	Chemical	MESH:D013481
+30697201	633	636	ChD	Disease	MESH:D014355
+30697201	796	799	ChD	Disease	MESH:D014355
+30697201	839	842	ChD	Disease	MESH:D014355
+30697201	855	858	ChD	Disease	MESH:D014355
+30697201	859	867	patients	Species	9606
+30697201	895	898	Asc	Gene	29108
+30697201	917	920	Asc	Gene	29108
+30697201	928	937	ascorbate	Chemical	MESH:D001205
+30697201	960	966	thiols	Chemical	MESH:D013438
+30697201	986	991	thiol	Chemical	MESH:D013438
+30697201	1001	1020	BODIPY FL-maleimide	Chemical	MESH:C530427
+30697201	1425	1428	ChD	Disease	MESH:D014355
+30697201	1555	1558	Asc	Gene	29108
+30697201	1560	1563	Asc	Gene	29108
+30697201	1694	1697	ChD	Disease	MESH:D014355
+30697201	1706	1710	KRT1	Gene	3848
+30697201	1719	1723	TPM3	Gene	7170
+30697201	1729	1732	ChD	Disease	MESH:D014355
+30697201	1741	1744	PNP	Gene	4860
+30697201	1750	1754	KRT1	Gene	3848
+30697201	1760	1763	ALB	Gene	213
+30697201	1769	1773	ACTB	Gene	60
+30697201	1775	1783	patients	Species	9606
+30697201	2051	2054	ChD	Disease	MESH:D014355
+30697201	2062	2065	ChD	Disease	MESH:D014355
+30697201	2209	2212	ChD	Disease	MESH:D014355
+30697201	2261	2273	Tc infection	Disease	MESH:D014355
+30697201	Association	MESH:D014355	213
+30697201	Negative_Correlation	MESH:D001205	MESH:D013438
+30697201	Association	MESH:C530427	MESH:D014355
+30697201	Association	MESH:C530427	MESH:D013438
+30697201	Association	MESH:D013438	MESH:D014355
+30697201	Association	MESH:D014355	3848
+30697201	Association	MESH:D014355	60
+30697201	Association	MESH:D014355	4860
+30697201	Association	MESH:D014355	29108
+30697201	Association	MESH:D014355	7170
+30697201	Association	MESH:D013481	MESH:D014355
+30697201	Association	MESH:D001205	MESH:D014355
+30697201	Association	MESH:D009569	MESH:D014355
+

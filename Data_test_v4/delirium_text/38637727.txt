@@ -1,0 +1,20 @@
+38637727|t|The predictive power of data: machine learning analysis for Covid-19 mortality based on personal, clinical, preclinical, and laboratory variables in a case-control study.
+38637727|a|BACKGROUND AND PURPOSE: The COVID-19 pandemic has presented unprecedented public health challenges worldwide. Understanding the factors contributing to COVID-19 mortality is critical for effective management and intervention strategies. This study aims to unlock the predictive power of data collected from personal, clinical, preclinical, and laboratory variables through machine learning (ML) analyses. METHODS: A retrospective study was conducted in 2022 in a large hospital in Abadan, Iran. Data were collected and categorized into demographic, clinical, comorbid, treatment, initial vital signs, symptoms, and laboratory test groups. The collected data were subjected to ML analysis to identify predictive factors associated with COVID-19 mortality. Five algorithms were used to analyze the data set and derive the latent predictive power of the variables by the shapely additive explanation values. RESULTS: Results highlight key factors associated with COVID-19 mortality, including age, comorbidities (hypertension, diabetes), specific treatments (antibiotics, remdesivir, favipiravir, vitamin zinc), and clinical indicators (heart rate, respiratory rate, temperature). Notably, specific symptoms (productive cough, dyspnea, delirium) and laboratory values (D-dimer, ESR) also play a critical role in predicting outcomes. This study highlights the importance of feature selection and the impact of data quantity and quality on model performance. CONCLUSION: This study highlights the potential of ML analysis to improve the accuracy of COVID-19 mortality prediction and emphasizes the need for a comprehensive approach that considers multiple feature categories. It highlights the critical role of data quality and quantity in improving model performance and contributes to our understanding of the multifaceted factors that influence COVID-19 outcomes.
+38637727	60	68	Covid-19	Disease	MESH:D000086382
+38637727	199	207	COVID-19	Disease	MESH:D000086382
+38637727	323	331	COVID-19	Disease	MESH:D000086382
+38637727	906	914	COVID-19	Disease	MESH:D000086382
+38637727	1131	1139	COVID-19	Disease	MESH:D000086382
+38637727	1181	1193	hypertension	Disease	MESH:D006973
+38637727	1195	1203	diabetes	Disease	MESH:D003920
+38637727	1240	1250	remdesivir	Chemical	MESH:C000606551
+38637727	1252	1263	favipiravir	Chemical	MESH:C462182
+38637727	1265	1277	vitamin zinc	Chemical	-
+38637727	1377	1393	productive cough	Disease	MESH:D003371
+38637727	1395	1402	dyspnea	Disease	MESH:D004417
+38637727	1404	1412	delirium	Disease	MESH:D003693
+38637727	1715	1723	COVID-19	Disease	MESH:D000086382
+38637727	2014	2022	COVID-19	Disease	MESH:D000086382
+38637727	Negative_Correlation	MESH:C000606551	MESH:D000086382
+38637727	Negative_Correlation	MESH:C462182	MESH:D000086382
+

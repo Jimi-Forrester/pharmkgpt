@@ -1,0 +1,20 @@
+37328578|t|Do radiomics or diffusion-tensor images provide additional information to predict brain amyloid-beta positivity?
+37328578|a|The aim of the present study was to predict amyloid-beta positivity using a conventional T1-weighted image, radiomics, and a diffusion-tensor image obtained by magnetic resonance imaging (MRI). We included 186 patients with mild cognitive impairment (MCI) who underwent Florbetaben positron emission tomography (PET), MRI (three-dimensional T1-weighted and diffusion-tensor images), and neuropsychological tests at the Asan Medical Center. We developed a stepwise machine learning algorithm using demographics, T1 MRI features (volume, cortical thickness and radiomics), and diffusion-tensor image to distinguish amyloid-beta positivity on Florbetaben PET. We compared the performance of each algorithm based on the MRI features used. The study population included 72 patients with MCI in the amyloid-beta-negative group and 114 patients with MCI in the amyloid-beta-positive group. The machine learning algorithm using T1 volume performed better than that using only clinical information (mean area under the curve [AUC]: 0.73 vs. 0.69, p < 0.001). The machine learning algorithm using T1 volume showed better performance than that using cortical thickness (mean AUC: 0.73 vs. 0.68, p < 0.001) or texture (mean AUC: 0.73 vs. 0.71, p = 0.002). The performance of the machine learning algorithm using fractional anisotropy in addition to T1 volume was not better than that using T1 volume alone (mean AUC: 0.73 vs. 0.73, p = 0.60). Among MRI features, T1 volume was the best predictor of amyloid PET positivity. Radiomics or diffusion-tensor images did not provide additional benefits.
+37328578	88	100	amyloid-beta	Gene	351
+37328578	157	169	amyloid-beta	Gene	351
+37328578	323	331	patients	Species	9606
+37328578	342	362	cognitive impairment	Disease	MESH:D003072
+37328578	364	367	MCI	Disease	MESH:D060825
+37328578	383	394	Florbetaben	Chemical	MESH:C527756
+37328578	726	738	amyloid-beta	Gene	351
+37328578	753	764	Florbetaben	Chemical	MESH:C527756
+37328578	881	889	patients	Species	9606
+37328578	895	898	MCI	Disease	MESH:D060825
+37328578	906	918	amyloid-beta	Gene	351
+37328578	942	950	patients	Species	9606
+37328578	956	959	MCI	Disease	MESH:D060825
+37328578	967	979	amyloid-beta	Gene	351
+37328578	1600	1607	amyloid	Disease	MESH:C000718787
+37328578	Association	MESH:C527756	351
+37328578	Association	MESH:D060825	351
+

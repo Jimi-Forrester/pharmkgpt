@@ -1,0 +1,28 @@
+34988543|t|Machine Learning Based Prediction of COVID-19 Mortality Suggests Repositioning of Anticancer Drug for Treating Severe Cases.
+34988543|a|Despite available vaccinations COVID-19 case numbers around the world are still growing, and effective medications against severe cases are lacking. In this work, we developed a machine learning model which predicts mortality for COVID-19 patients using data from the multi-center 'Lean European Open Survey on SARS-CoV-2-infected patients' (LEOSS) observational study (>100 active sites in Europe, primarily in Germany), resulting into an AUC of almost 80%. We showed that molecular mechanisms related to dementia, one of the relevant predictors in our model, intersect with those associated to COVID-19. Most notably, among these molecules was tyrosine kinase 2 (TYK2), a protein that has been patented as drug target in Alzheimer's Disease but also genetically associated with severe COVID-19 outcomes. We experimentally verified that anti-cancer drugs Sorafenib and Regorafenib showed a clear anti-cytopathic effect in Caco2 and VERO-E6 cells and can thus be regarded as potential treatments against COVID-19. Altogether, our work demonstrates that interpretation of machine learning based risk models can point towards drug targets and new treatment options, which are strongly needed for COVID-19.
+34988543	37	45	COVID-19	Disease	MESH:D000086382
+34988543	156	164	COVID-19	Disease	MESH:D000086382
+34988543	355	363	COVID-19	Disease	MESH:D000086382
+34988543	364	372	patients	Species	9606
+34988543	436	455	SARS-CoV-2-infected	Disease	MESH:D000086382
+34988543	456	464	patients	Species	9606
+34988543	631	639	dementia	Disease	MESH:D003704
+34988543	721	729	COVID-19	Disease	MESH:D000086382
+34988543	771	788	tyrosine kinase 2	Gene	7297
+34988543	790	794	TYK2	Gene	7297
+34988543	848	867	Alzheimer's Disease	Disease	MESH:D000544
+34988543	912	920	COVID-19	Disease	MESH:D000086382
+34988543	968	974	cancer	Disease	MESH:D009369
+34988543	981	990	Sorafenib	Chemical	MESH:D000077157
+34988543	995	1006	Regorafenib	Chemical	MESH:C559147
+34988543	1048	1053	Caco2	CellLine	CVCL:0025
+34988543	1058	1065	VERO-E6	CellLine	CVCL:0574
+34988543	1129	1137	COVID-19	Disease	MESH:D000086382
+34988543	1319	1327	COVID-19	Disease	MESH:D000086382
+34988543	Negative_Correlation	MESH:C559147	MESH:D009369
+34988543	Association	MESH:D000086382	7297
+34988543	Negative_Correlation	MESH:C559147	MESH:D000086382
+34988543	Association	MESH:D000544	7297
+34988543	Negative_Correlation	MESH:D000077157	MESH:D009369
+34988543	Negative_Correlation	MESH:D000077157	MESH:D000086382
+

@@ -1,0 +1,23 @@
+38976461|t|SCRN: Single-cell Gene Regulatory Network Identification in Alzheimer's Disease.
+38976461|a|Alzheimer's disease (AD) is the most common neurodegenerative disease, and it consumes considerable medical resources with increasing number of patients every year. Mounting evidence show that the regulatory disruptions altering the intrinsic activity of genes in brain cells contribute to AD pathogenesis. To gain insights into the underlying gene regulation in AD, we proposed a graph learning method, Single-Cell based Regulatory Network (SCRN), to identify the regulatory mechanisms based on single-cell data. SCRN implements the gamma-decaying heuristic link prediction based on graph neural networks and can identify reliable gene regulatory networks using locally closed subgraphs. In this work, we first performed UMAP dimension reduction analysis on single-cell RNA sequencing (scRNA-seq) data of AD and normal samples. Then we used SCRN to construct the gene regulatory network based on three well-recognized AD genes (APOE, CX3CR1, and P2RY12). Enrichment analysis of the regulatory network revealed significant pathways including NGF signaling, ERBB2 signaling, and hemostasis. These findings demonstrate the feasibility of using SCRN to uncover potential biomarkers and therapeutic targets related to AD.
+38976461	60	79	Alzheimer's Disease	Disease	MESH:D000544
+38976461	81	100	Alzheimer's disease	Disease	MESH:D000544
+38976461	102	104	AD	Disease	MESH:D000544
+38976461	125	150	neurodegenerative disease	Disease	MESH:D019636
+38976461	225	233	patients	Species	9606
+38976461	371	373	AD	Disease	MESH:D000544
+38976461	444	446	AD	Disease	MESH:D000544
+38976461	887	889	AD	Disease	MESH:D000544
+38976461	1000	1002	AD	Disease	MESH:D000544
+38976461	1010	1014	APOE	Gene	348
+38976461	1016	1022	CX3CR1	Gene	1524
+38976461	1028	1034	P2RY12	Gene	64805
+38976461	1123	1126	NGF	Gene	4803
+38976461	1138	1143	ERBB2	Gene	2064
+38976461	1295	1297	AD	Disease	MESH:D000544
+38976461	Association	MESH:D000544	1524
+38976461	Association	MESH:D000544	348
+38976461	Association	MESH:D000544	64805
+38976461	Association	MESH:D000544	4803
+38976461	Association	MESH:D000544	2064
+

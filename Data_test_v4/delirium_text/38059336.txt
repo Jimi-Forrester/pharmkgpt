@@ -1,0 +1,13 @@
+38059336|t|A robust class decomposition-based approach for detecting Alzheimer's progression.
+38059336|a|Computer-aided diagnosis of Alzheimer's disease (AD) is a rapidly growing field with the possibility to be utilized in practice. Deep learning has received much attention in detecting AD from structural magnetic resonance imaging (sMRI). However, training a convolutional neural network from scratch is problematic because it requires a lot of annotated data and additional computational time. Transfer learning can offer a promising and practical solution by transferring information learned from other image recognition tasks to medical image classification. Another issue is the dataset distribution's irregularities. A common classification issue in datasets is a class imbalance, where the distribution of samples among the classes is biased. For example, a dataset may contain more instances of some classes than others. Class imbalance is challenging because most machine learning algorithms assume that each class should have an equal number of samples. Models consequently perform poorly in prediction. Class decomposition can address this problem by making learning a dataset's class boundaries easier. Motivated by these approaches, we propose a class decomposition transfer learning (CDTL) approach that employs VGG19, AlexNet, and an entropy-based technique to detect AD from sMRI. This study aims to assess the robustness of the CDTL approach in detecting the cognitive decline of AD using data from various ADNI cohorts to determine whether comparable classification accuracy for the two or more cohorts would be obtained. Furthermore, the proposed model achieved state-of-the-art performance in predicting mild cognitive impairment (MCI)-to-AD conversion with an accuracy of 91.45%.
+38059336	58	69	Alzheimer's	Disease	MESH:D000544
+38059336	111	130	Alzheimer's disease	Disease	MESH:D000544
+38059336	132	134	AD	Disease	MESH:D000544
+38059336	267	269	AD	Disease	MESH:D000544
+38059336	1364	1366	AD	Disease	MESH:D000544
+38059336	1457	1474	cognitive decline	Disease	MESH:D003072
+38059336	1478	1480	AD	Disease	MESH:D000544
+38059336	1710	1730	cognitive impairment	Disease	MESH:D003072
+38059336	1732	1735	MCI	Disease	MESH:D060825
+38059336	1740	1742	AD	Disease	MESH:D000544
+

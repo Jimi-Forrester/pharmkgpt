@@ -1,0 +1,16 @@
+35905087|t|Machine learning-based predictive modeling of depression in hypertensive populations.
+35905087|a|We aimed to develop prediction models for depression among U.S. adults with hypertension using various machine learning (ML) approaches. Moreover, we analyzed the mechanisms of the developed models. This cross-sectional study included 8,628 adults with hypertension (11.3% with depression) from the National Health and Nutrition Examination Survey (2011-2020). We selected several significant features using feature selection methods to build the models. Data imbalance was managed with random down-sampling. Six different ML classification methods implemented in the R package caret-artificial neural network, random forest, AdaBoost, stochastic gradient boosting, XGBoost, and support vector machine-were employed with 10-fold cross-validation for predictions. Model performance was assessed by examining the area under the receiver operating characteristic curve (AUC), accuracy, precision, sensitivity, specificity, and F1-score. For an interpretable algorithm, we used the variable importance evaluation function in caret. Of all classification models, artificial neural network trained with selected features (n = 30) achieved the highest AUC (0.813) and specificity (0.780) in predicting depression. Support vector machine predicted depression with the highest accuracy (0.771), precision (0.969), sensitivity (0.774), and F1-score (0.860). The most frequent and important features contributing to the models included the ratio of family income to poverty, triglyceride level, white blood cell count, age, sleep disorder status, the presence of arthritis, hemoglobin level, marital status, and education level. In conclusion, ML algorithms performed comparably in predicting depression among hypertensive populations. Furthermore, the developed models shed light on variables' relative importance, paving the way for further clinical research.
+35905087	46	56	depression	Disease	MESH:D003866
+35905087	60	72	hypertensive	Disease	MESH:D006973
+35905087	128	138	depression	Disease	MESH:D003866
+35905087	162	174	hypertension	Disease	MESH:D006973
+35905087	339	351	hypertension	Disease	MESH:D006973
+35905087	364	374	depression	Disease	MESH:D003866
+35905087	1281	1291	depression	Disease	MESH:D003866
+35905087	1326	1336	depression	Disease	MESH:D003866
+35905087	1550	1562	triglyceride	Chemical	MESH:D014280
+35905087	1599	1613	sleep disorder	Disease	MESH:D012893
+35905087	1638	1647	arthritis	Disease	MESH:D001168
+35905087	1768	1778	depression	Disease	MESH:D003866
+35905087	1785	1797	hypertensive	Disease	MESH:D006973
+

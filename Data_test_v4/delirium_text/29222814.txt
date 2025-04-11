@@ -1,0 +1,15 @@
+29222814|t|SIENA-XL for improving the assessment of gray and white matter volume changes on brain MRI.
+29222814|a|In this article, SIENA-XL, a new segmentation-based longitudinal pipeline is introduced, for: (i) increasing the precision of longitudinal volume change estimation for white (WM) and gray (GM) matter separately, compared with cross-sectional segmentation methods such as SIENAX; and (ii) avoiding potential biases in registration-based methods when Jacobians are used, with a smoothing extent larger than spatial scale between tissue-interfaces, which is where atrophy usually occurs. SIENA-XL implements a new brain extraction procedure and a multi-time-point intensity equalization step before performing the final segmentation that also includes separate segmentation of deep GM structures by using FMRIB's Integrated Registration and Segmentation Tool. The detection of GM and WM volume changes with SIENA-XL was evaluated using different healthy control (HC) and multiple sclerosis (MS) MRI datasets and compared with the traditional SIENAX and two Jacobian-based approaches, SPM12 and SIENAX-JI (a version of SIENAX including Jacobian integration - JI). In scan-rescan data from HCs, SIENA-XL showed: (i) a significant decrease in error, of 50-70% when compared with SIENAX; (ii) no significant differences in error when compared with SIENAX-JI and SPM12 in a scan-rescan HC dataset that included repositioning. When tested in a HC dataset with scan-rescan both at baseline and after 1 year of follow-up, SIENA-XL showed: (i) significantly higher precision (P < 0.01) than SIENAX; (ii) no significant differences to SIENAX-JI and SPM12. Finally, in a dataset of 79 MS patients with a 2 years follow-up, SIENA-XL showed a substantial reduction of sample size, by comparison with SIENAX, SIENAX-JI, and SPM12, for detecting treatment effects of 25, 30, and 50%. Hum Brain Mapp 39:1063-1077, 2018.   2017 Wiley Periodicals, Inc.
+29222814	0	5	SIENA	CellLine	
+29222814	109	114	SIENA	CellLine	
+29222814	553	560	atrophy	Disease	MESH:D001284
+29222814	577	582	SIENA	CellLine	
+29222814	896	901	SIENA	CellLine	
+29222814	960	978	multiple sclerosis	Disease	MESH:D009103
+29222814	980	982	MS	Disease	MESH:D009103
+29222814	1182	1187	SIENA	CellLine	
+29222814	1503	1508	SIENA	CellLine	
+29222814	1663	1665	MS	Disease	MESH:D009103
+29222814	1666	1674	patients	Species	9606
+29222814	1701	1706	SIENA	CellLine	
+

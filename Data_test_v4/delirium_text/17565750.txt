@@ -1,0 +1,18 @@
+17565750|t|Linear trend tests for case-control genetic association that incorporate random phenotype and genotype misclassification error.
+17565750|a|The purpose of this work is the development of linear trend tests that allow for error (LTT ae), specifically incorporating double-sampling information on phenotypes and/or genotypes. We use a likelihood framework. Misclassification errors are estimated via double sampling. Unbiased estimates of penetrances and genotype frequencies are determined through application of the Expectation-Maximization algorithm. We perform simulation studies to evaluate false-positive rates for various genotype classification weights (recessive, dominant, additive). We compare simulated power between the LTT ae and its genotypic test equivalent, the LRT ae, in the presence of phenotype and genotype misclassification, to evaluate power gains of the LTT ae for multi-locus haplotype association with a dominant mode of inheritance. Finally, we apply LTT ae and a method without double-sample information (LTT std) to double-sampled phenotype data for an actual Alzheimer's disease (AD) case-control study with ApoE genotypes. Simulation results suggest that the LTT ae maintains correct false-positive rates in the presence of misclassification. For power simulations, the LTT ae method is at least as powerful as LRT ae method, with a maximum power gain of 0.42 over the LRT ae method for certain parameter settings. For AD data, LTT ae provides more significant evidence for association (permutation p=0.0522) than LTT std (permutation p=0.1684). This is due to observed phenotype misclassification. The LTT ae statistic enables researchers to apply linear trend tests to case-control genetic data, increasing power to detect association in the presence of misclassification. If the disease MOI is known, LTT ae methods are usually more powerful due to the fact that the statistic has fewer degrees of freedom.
+17565750	216	219	LTT	Chemical	-
+17565750	719	722	LTT	Chemical	-
+17565750	865	868	LTT	Chemical	-
+17565750	965	968	LTT	Chemical	-
+17565750	1020	1023	LTT	Chemical	-
+17565750	1076	1095	Alzheimer's disease	Disease	MESH:D000544
+17565750	1097	1099	AD	Disease	MESH:D000544
+17565750	1125	1129	ApoE	Gene	348
+17565750	1177	1180	LTT	Chemical	-
+17565750	1288	1291	LTT	Chemical	-
+17565750	1437	1439	AD	Disease	MESH:D000544
+17565750	1446	1449	LTT	Chemical	-
+17565750	1532	1535	LTT	Chemical	-
+17565750	1621	1624	LTT	Chemical	-
+17565750	1822	1825	LTT	Chemical	-
+

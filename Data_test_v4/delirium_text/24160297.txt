@@ -1,0 +1,30 @@
+24160297|t|Synthesis and evaluation of multi-target-directed ligands against Alzheimer's disease based on the fusion of donepezil and ebselen.
+24160297|a|A novel series of compounds obtained by fusing the cholinesterase inhibitor donepezil and the antioxidant ebselen were designed as multi-target-directed ligands against Alzheimer's disease. An in vitro assay showed that some of these molecules did not exhibit highly potent cholinesterase inhibitory activity but did have various other ebselen-related pharmacological effects. Among the molecules, compound 7d, one of the most potent acetylcholinesterase inhibitors (IC50 values of 0.042 muM for Electrophorus electricus acetylcholinesterase and 0.097 muM for human acetylcholinesterase), was found to be a strong butyrylcholinesterase inhibitor (IC50 = 1.586 muM), to possess rapid H2O2 and peroxynitrite scavenging activity and glutathione peroxidase-like activity (nu0 = 123.5 muM min(-1)), and to be a substrate of mammalian TrxR. A toxicity test in mice showed no acute toxicity at doses of up to 2000 mg/kg. According to an in vitro blood-brain barrier model, 7d is able to penetrate the central nervous system. 
+24160297	66	85	Alzheimer's disease	Disease	MESH:D000544
+24160297	109	118	donepezil	Chemical	MESH:D000077265
+24160297	123	130	ebselen	Chemical	MESH:C042986
+24160297	183	197	cholinesterase	Gene	590
+24160297	208	217	donepezil	Chemical	MESH:D000077265
+24160297	238	245	ebselen	Chemical	MESH:C042986
+24160297	301	320	Alzheimer's disease	Disease	MESH:D000544
+24160297	406	420	cholinesterase	Gene	590
+24160297	468	475	ebselen	Chemical	MESH:C042986
+24160297	539	541	7d	Chemical	-
+24160297	566	586	acetylcholinesterase	Gene	43
+24160297	628	652	Electrophorus electricus	Species	8005
+24160297	653	673	acetylcholinesterase	Gene	43
+24160297	692	697	human	Species	9606
+24160297	698	718	acetylcholinesterase	Gene	43
+24160297	746	767	butyrylcholinesterase	Gene	590
+24160297	815	819	H2O2	Chemical	MESH:D006861
+24160297	824	837	peroxynitrite	Chemical	MESH:D030421
+24160297	951	960	mammalian	Species	9606
+24160297	969	977	toxicity	Disease	MESH:D064420
+24160297	986	990	mice	Species	10090
+24160297	1007	1015	toxicity	Disease	MESH:D064420
+24160297	Negative_Correlation	MESH:D000077265	590
+24160297	Negative_Correlation	MESH:D000544	43
+24160297	Negative_Correlation	MESH:C042986	MESH:D000544
+24160297	Cotreatment	MESH:C042986	MESH:D000077265
+24160297	Negative_Correlation	MESH:D000077265	MESH:D000544
+

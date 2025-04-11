@@ -1,0 +1,17 @@
+32705955|t|Pharmacophore-based virtual screening and molecular docking to identify promising dual inhibitors of human acetylcholinesterase and butyrylcholinesterase.
+32705955|a|The dual inhibition of human acetylcholinesterase (hAChE) and butyrylcholinesterase (hBuChE) plays an important role in Alzheimer's disease treatment. Thus, this study aims identify promising dual inhibitors against hAChE and hBuChE by in silico approaches (pharmacophore-based virtual screening and molecular docking). Ten 3 D pharmacophore models for dual inhibitors using default genetic parameters were built by GALAHAD  available on SYBYL-X 2.0. Validation steps were carried out according to Energy (<100.0 kcal/mol), Pareto = 0, Area under the ROC Curve (>0.70), Boltzmann-Enhanced Discrimination of ROC curve (BEDROC >0.50) and structure-activity relationship (SAR) for known inhibitors. The best dual pharmacophore model based on internal/external statistical parameters and SAR data (one hydrogen bond acceptor, two hydrogen bond donors and four hydrophobic centers) was employed in virtual screening at Sigma-Aldrich  subset (n = 214,446) of ZINC database by UNITY module of SYBYL-X 2.0. According to superposition values (QFIT), the best ranked compounds were prioritized for molecular docking and partition coefficient analysis (clog p < 5.0). 37 top-ranked compounds (QFIT > 64.22) from pharmacophore model showed affinity in hAChE (-10.2 < Affinity energy < -6.3 kcal/mol) and hBuChE (-10.9 < Affinity energy < -2.3 kcal/mol) binding sites. Next, liposolubity prediction and commercially available showed that ZINC43198636, ZINC43198637 and ZINC00390718 can be potential dual inhibitors against hAChE and hBuChE.Communicated by Ramaswamy H. Sarma.
+32705955	101	106	human	Species	9606
+32705955	107	127	acetylcholinesterase	Gene	43
+32705955	132	153	butyrylcholinesterase	Gene	590
+32705955	178	183	human	Species	9606
+32705955	184	204	acetylcholinesterase	Gene	43
+32705955	217	238	butyrylcholinesterase	Gene	590
+32705955	275	294	Alzheimer's disease	Disease	MESH:D000544
+32705955	953	961	hydrogen	Chemical	MESH:D006859
+32705955	981	989	hydrogen	Chemical	MESH:D006859
+32705955	1580	1592	ZINC43198636	Chemical	-
+32705955	1594	1606	ZINC43198637	Chemical	-
+32705955	1611	1623	ZINC00390718	Chemical	-
+32705955	Association	MESH:D000544	43
+32705955	Association	MESH:D000544	590
+

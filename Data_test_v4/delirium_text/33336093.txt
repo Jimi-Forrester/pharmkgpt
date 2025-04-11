@@ -1,0 +1,15 @@
+33336093|t|Improving Alzheimer's stage categorization with Convolutional Neural Network using transfer learning and different magnetic resonance imaging modalities.
+33336093|a|BACKGROUND: Alzheimer's Disease (AD) is a neurodegenerative disease characterized by progressive loss of memory and general decline in cognitive functions. Multi-modal imaging such as structural MRI and DTI provide useful information for the classification of patients on the basis of brain biomarkers. Recently, CNN methods have emerged as powerful tools to improve classification using images. NEW METHOD: In this paper, we propose a transfer learning scheme using Convolutional Neural Networks (CNNs) to automatically classify brain scans focusing only on a small ROI: e.g. a few slices of the hippocampal region. The network's architecture is similar to a LeNet-like CNN upon which models are built and fused for AD stage classification diagnosis. We evaluated various types of transfer learning through the following mechanisms: (i) cross-modal (sMRI and DTI) and (ii) cross-domain transfer learning (using MNIST) (iii) a hybrid transfer learning of both types. RESULTS: Our method shows good performances even on small datasets and with a limited number of slices of small brain region. It increases accuracy with more than 5 points for the most difficult classification tasks, i.e., AD/MCI and MCI/NC. COMPARISON WITH EXISTING METHODS: Our methodology provides good accuracy scores for classification over a shallow convolutional network. Besides, we focused only on a small region; i.e., the hippocampal region, where few slices are selected to feed the network. Also, we used cross-modal transfer learning. CONCLUSIONS: Our proposed method is suitable for working with a shallow CNN network for low-resolution MRI and DTI scans. It yields to significant results even if the model is trained on small datasets, which is often the case in medical image analysis.
+33336093	10	21	Alzheimer's	Disease	MESH:D000544
+33336093	166	185	Alzheimer's Disease	Disease	MESH:D000544
+33336093	187	189	AD	Disease	MESH:D000544
+33336093	196	221	neurodegenerative disease	Disease	MESH:D019636
+33336093	251	265	loss of memory	Disease	MESH:D008569
+33336093	278	308	decline in cognitive functions	Disease	MESH:D003072
+33336093	414	422	patients	Species	9606
+33336093	871	873	AD	Disease	MESH:D000544
+33336093	1344	1346	AD	Disease	MESH:D000544
+33336093	1347	1350	MCI	Disease	
+33336093	1355	1358	MCI	Disease	
+33336093	1359	1361	NC	Disease	OMIM:617025
+

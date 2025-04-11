@@ -1,0 +1,33 @@
+38623339|t|A dopamine D1-like receptor-specific agonist improves the survival of septic mice.
+38623339|a|In this study, a murine sepsis model was developed using the cecum ligation and puncture (CLP) technique. The expression of the proinflammatory cytokines tumor necrosis factor alpha (TNF-alpha) and interleukin-1beta (IL-1beta) in the brain increased 6 h after CLP but decreased 24 h later when elevated endogenous dopamine levels in the brain were sustained. Methyl-4-phenyl-1,2,3,6-tetrahydropyridine hydrochloride reduced dopamine levels in the striatum and increased mortality in septic mice. Dopamine D1-like receptors were significantly expressed in the brain, but not in the lungs. Intraperitoneally administered SKF-81297 (SKF), a blood-brain barrier-permeable D1-like receptor agonist, prevented CLP-induced death of septic mice with ameliorated acute lung injury and cognitive dysfunction and suppressed TNF-alpha and IL-1beta expression. The D1-like receptor antagonist SCH-23390 abolished the anti-inflammatory effects of SKF. These data suggest that D1-like receptor-mediated signals in the brain prevent CLP-induced inflammation in both the brain and the periphery.
+38623339	77	81	mice	Species	10090
+38623339	100	106	murine	Species	10090
+38623339	107	113	sepsis	Disease	MESH:D018805
+38623339	237	264	tumor necrosis factor alpha	Gene	21926
+38623339	266	275	TNF-alpha	Gene	21926
+38623339	281	298	interleukin-1beta	Gene	16176
+38623339	300	308	IL-1beta	Gene	16176
+38623339	397	405	dopamine	Chemical	MESH:D004298
+38623339	442	498	Methyl-4-phenyl-1,2,3,6-tetrahydropyridine hydrochloride	Chemical	-
+38623339	507	515	dopamine	Chemical	MESH:D004298
+38623339	573	577	mice	Species	10090
+38623339	702	711	SKF-81297	Chemical	MESH:C067113
+38623339	713	716	SKF	Chemical	-
+38623339	799	804	death	Disease	MESH:D003643
+38623339	815	819	mice	Species	10090
+38623339	843	854	lung injury	Disease	MESH:D055370
+38623339	859	880	cognitive dysfunction	Disease	MESH:D003072
+38623339	896	905	TNF-alpha	Gene	21926
+38623339	910	918	IL-1beta	Gene	16176
+38623339	963	972	SCH-23390	Chemical	MESH:C534628
+38623339	992	1004	inflammatory	Disease	MESH:D007249
+38623339	1016	1019	SKF	Chemical	-
+38623339	1112	1124	inflammation	Disease	MESH:D007249
+38623339	Negative_Correlation	MESH:D004298	16176
+38623339	Negative_Correlation	MESH:C534628	MESH:D007249
+38623339	Negative_Correlation	MESH:C067113	MESH:D003643
+38623339	Negative_Correlation	MESH:C067113	MESH:D003072
+38623339	Negative_Correlation	MESH:C067113	MESH:D055370
+38623339	Negative_Correlation	MESH:C067113	21926
+38623339	Negative_Correlation	MESH:C067113	16176
+

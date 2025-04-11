@@ -1,0 +1,28 @@
+31929814|t|Study of the Gastrointestinal Heat Retention Syndrome in Children: From Diagnostic Model to Biological Basis.
+31929814|a|Gastrointestinal heat retention syndrome (GHRS) refers to a condition that is associated with increased gastrointestinal heat caused by a metabolic block in energy. It is common in children and is closely related to the occurrence and development of recurrent respiratory tract infection, pneumonia, recurrent functional abdominal pain, etc. However, there are no standardized diagnostic criteria to differentiate the GHRS. Therefore, this study is aimed to establish a diagnostic model for children's GHRS and explore the possible biological basis by using systems biology to achieve. Furthermore, Delphi method and the clinical data of Lasso analysis were used to screen out the core symptoms. Nineteen core symptoms of GHRS in children were screened including digestive symptoms such as dry stool, poor appetite, vomiting, and some nervous system symptoms such as night restlessness and irritability. Based on the core symptoms, a GHRS diagnosis model was established using the eXtreme Gradient Boosting (XGBoost) method, and the accuracy of internal verification reached 93.03%. Relevant targets of the core symptoms in the Human Phenotype Ontology (HPO) were retrieved, and target interactions were linked through the Search Tool for the Retrieval of Interacting Genes/Proteins (STRING) database, and core targets were selected after topological analysis using Cytoscape. Relevant biological processes and pathways were analyzed by applying the DAVID and KEGG databases. The enriched biological processes focused on the cell proliferation, differentiation, apoptosis, and mitochondrial metabolism, which were mainly associated with PI3K-AKT, MAPK network pathways, and the Wnt signaling pathway. In conclusion, we established a diagnosis model of GHRS in children based on the core symptoms and provided an objective standard for its clinical diagnosis. And, the Wnt signaling pathway and the estrogen receptor-activated PI3K-AKT and MAPK network pathways may play important roles in the GHRS processing.
+31929814	13	53	Gastrointestinal Heat Retention Syndrome	Disease	MESH:D005767
+31929814	110	150	Gastrointestinal heat retention syndrome	Disease	MESH:D005767
+31929814	152	156	GHRS	Disease	MESH:D005767
+31929814	370	397	respiratory tract infection	Disease	MESH:D012141
+31929814	399	408	pneumonia	Disease	MESH:D011014
+31929814	431	445	abdominal pain	Disease	MESH:D015746
+31929814	528	532	GHRS	Disease	MESH:D005767
+31929814	612	616	GHRS	Disease	MESH:D005767
+31929814	832	836	GHRS	Disease	MESH:D005767
+31929814	900	909	dry stool	Disease	MESH:D015352
+31929814	911	924	poor appetite	Disease	MESH:D001068
+31929814	926	934	vomiting	Disease	MESH:D014839
+31929814	945	968	nervous system symptoms	Disease	MESH:D009422
+31929814	983	995	restlessness	Disease	MESH:D011595
+31929814	1000	1012	irritability	Disease	MESH:D001523
+31929814	1044	1048	GHRS	Disease	MESH:D005767
+31929814	1238	1243	Human	Species	9606
+31929814	1752	1755	AKT	Gene	207
+31929814	1862	1866	GHRS	Disease	MESH:D005767
+31929814	2008	2025	estrogen receptor	Gene	2099
+31929814	2041	2044	AKT	Gene	207
+31929814	2103	2107	GHRS	Disease	MESH:D005767
+31929814	Association	MESH:D005767	207
+31929814	Association	MESH:D005767	2099
+31929814	Association	207	2099
+

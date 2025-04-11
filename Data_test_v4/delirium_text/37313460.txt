@@ -1,0 +1,38 @@
+37313460|t|RRx-001: a chimeric triple action NLRP3 inhibitor, Nrf2 inducer, and nitric oxide superagonist.
+37313460|a|RRx-001 is a shape shifting small molecule with Fast Track designation for the prevention/amelioration of chemoradiation-induced severe oral mucositis (SOM) in newly diagnosed Head and Neck cancer. It has been intentionally developed or "engineered" as a chimeric single molecular entity that targets multiple redox-based mechanisms. Like an antibody drug conjugate (ADC), RRx-001 contains, at one end a "targeting" moiety, which binds to the NLRP3 inflammasome and inhibits it as well as Kelch-like ECH-associated protein 1 (KEAP1), the negative regulator of Nrf2, and, at the other end, a conformationally constrained, dinitro containing 4 membered ring, which fragments under conditions of hypoxia and reduction to release therapeutically active metabolites i.e., the payload. This "payload", which is delivered specifically to hypoperfused and inflamed areas, includes nitric oxide, nitric oxide related species and carbon-centered radicals. As observed with ADCs, RRx-001 contains a backbone amide "linker" attached to a binding site, which correlates with the Fab region of an antibody, and to the dinitroazetidine payload, which is microenvironmentally activated. However, unlike ADCs, whose large size impacts their pharmacokinetic properties, RRx-001 is a nonpolar small molecule that easily crosses cell membranes and the blood brain barrier (BBB) and distributes systemically. This short review is organized around the de novo design and in vivo pro-oxidant/pro-inflammatory and antioxidant/anti-inflammatory activity of RRx-001, which, in turn, depends on the reduced to oxidized glutathione ratio and the oxygenation status of tissues.
+37313460	0	7	RRx-001	Chemical	MESH:C577469
+37313460	34	39	NLRP3	Gene	114548
+37313460	51	55	Nrf2	Gene	4780
+37313460	69	81	nitric oxide	Chemical	MESH:D009569
+37313460	96	103	RRx-001	Chemical	MESH:C577469
+37313460	232	246	oral mucositis	Disease	MESH:D013280
+37313460	248	251	SOM	Disease	MESH:D045169
+37313460	272	292	Head and Neck cancer	Disease	MESH:D006258
+37313460	469	476	RRx-001	Chemical	MESH:C577469
+37313460	539	544	NLRP3	Gene	114548
+37313460	585	620	Kelch-like ECH-associated protein 1	Gene	9817
+37313460	622	627	KEAP1	Gene	9817
+37313460	656	660	Nrf2	Gene	4780
+37313460	789	796	hypoxia	Disease	MESH:D000860
+37313460	969	981	nitric oxide	Chemical	MESH:D009569
+37313460	983	995	nitric oxide	Chemical	MESH:D009569
+37313460	1016	1040	carbon-centered radicals	Chemical	-
+37313460	1065	1072	RRx-001	Chemical	MESH:C577469
+37313460	1093	1098	amide	Chemical	MESH:D000577
+37313460	1200	1216	dinitroazetidine	Chemical	-
+37313460	1348	1355	RRx-001	Chemical	MESH:C577469
+37313460	1569	1581	inflammatory	Disease	MESH:D007249
+37313460	1603	1615	inflammatory	Disease	MESH:D007249
+37313460	1628	1635	RRx-001	Chemical	MESH:C577469
+37313460	1688	1699	glutathione	Chemical	MESH:D005978
+37313460	Negative_Correlation	4780	9817
+37313460	Negative_Correlation	MESH:C577469	MESH:D007249
+37313460	Negative_Correlation	MESH:C577469	9817
+37313460	Association	MESH:C577469	MESH:D005978
+37313460	Positive_Correlation	MESH:C577469	4780
+37313460	Negative_Correlation	MESH:C577469	MESH:D013280
+37313460	Negative_Correlation	MESH:C577469	MESH:D006258
+37313460	Negative_Correlation	MESH:C577469	114548
+37313460	Association	MESH:C577469	MESH:D000577
+37313460	Negative_Correlation	MESH:C577469	MESH:D045169
+

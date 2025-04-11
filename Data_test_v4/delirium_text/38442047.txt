@@ -1,0 +1,10 @@
+38442047|t|MAD-Former: A Traceable Interpretability Model for Alzheimer's Disease Recognition Based on Multi-Patch Attention.
+38442047|a|The integration of structural magnetic resonance imaging (sMRI) and deep learning techniques is one of the important research directions for the automatic diagnosis of Alzheimer's disease (AD). Despite the satisfactory performance achieved by existing voxel-based models based on convolutional neural networks (CNNs), such models only handle AD-related brain atrophy at a single spatial scale and lack spatial localization of abnormal brain regions based on model interpretability. To address the above limitations, we propose a traceable interpretability model for AD recognition based on multi-patch attention (MAD-Former). MAD-Former consists of two parts: recognition and interpretability. In the recognition part, we design a 3D brain feature extraction network to extract local features, followed by constructing a dual-branch attention structure with different patch sizes to achieve global feature extraction, forming a multi-scale spatial feature extraction framework. Meanwhile, we propose an important attention similarity position loss function to assist in model decision-making. The interpretability part proposes a traceable method that can obtain a 3D ROI space through attention-based selection and receptive field tracing. This space encompasses key brain tissues that influence model decisions. Experimental results reveal the significant role of brain tissues such as the Fusiform Gyrus (FuG) in AD recognition. MAD-Former achieves outstanding performance in different tasks on ADNI and OASIS datasets, demonstrating reliable model interpretability.
+38442047	51	70	Alzheimer's Disease	Disease	MESH:D000544
+38442047	283	302	Alzheimer's disease	Disease	MESH:D000544
+38442047	304	306	AD	Disease	MESH:D000544
+38442047	457	459	AD	Disease	MESH:D000544
+38442047	468	481	brain atrophy	Disease	MESH:C566985
+38442047	681	683	AD	Disease	MESH:D000544
+38442047	1531	1533	AD	Disease	MESH:D000544
+

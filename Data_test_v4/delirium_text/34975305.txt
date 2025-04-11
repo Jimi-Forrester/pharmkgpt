@@ -1,0 +1,62 @@
+34975305|t|Identification of Immune Cells and Key Genes associated with Alzheimer's Disease.
+34975305|a|Alzheimer's disease (AD) is an age-related neurodegenerative disorder characterized by cognitive impairment and memory loss, for which there is no effective cure to date. In the past several years, numerous studies have shown that increased inflammation in AD is a major cause of cognitive impairment. This study aimed to reveal 22 kinds of peripheral immune cell types and key genes associated with AD. The prefrontal cortex transcriptomic data from Gene Expression Omnibus (GEO) database were collected, and CIBERSORT was used to assess the composition of 22 kinds of immune cells in all samples. Weighted gene co-expression network analysis (WGCNA) was used to construct gene co-expression networks and identified candidate module genes associated with AD. The least absolute shrinkage and selection operator (LASSO) and random forest (RF) models were constructed to analyze candidate module genes, which were selected from the result of WGCNA. The results showed that the immune infiltration in the prefrontal cortex of AD patients was different from healthy samples. Of all 22 kinds of immune cells, M1 macrophages were the most relevant cell type to AD. We revealed 10 key genes associated with AD and M1 macrophages by LASSO and RF analysis, including ARMCX5, EDN3, GPR174, MRPL23, RAET1E, ROD1, TRAF1, WNT7B, OR4K2 and ZNF543. We verified these 10 genes by logistic regression and k-fold cross-validation. We also validated the key genes in an independent dataset, and found GPR174, TRAF1, ROD1, RAET1E, OR4K2, MRPL23, ARMCX5 and EDN3 were significantly different between the AD and healthy controls. Moreover, in the 5XFAD transgenic mice, the differential expression trends of Wnt7b, Gpr174, Ptbp3, Mrpl23, Armcx5 and Raet1e are consistent with them in independent dataset. Our results provided potential therapeutic targets for AD patients.
+34975305	61	80	Alzheimer's Disease	Disease	MESH:D000544
+34975305	82	101	Alzheimer's disease	Disease	MESH:D000544
+34975305	103	105	AD	Disease	MESH:D000544
+34975305	113	151	age-related neurodegenerative disorder	Disease	MESH:D019636
+34975305	169	189	cognitive impairment	Disease	MESH:D003072
+34975305	194	205	memory loss	Disease	MESH:D008569
+34975305	323	335	inflammation	Disease	MESH:D007249
+34975305	339	341	AD	Disease	MESH:D000544
+34975305	362	382	cognitive impairment	Disease	MESH:D003072
+34975305	482	484	AD	Disease	MESH:D000544
+34975305	838	840	AD	Disease	MESH:D000544
+34975305	1106	1108	AD	Disease	MESH:D000544
+34975305	1109	1117	patients	Species	9606
+34975305	1238	1240	AD	Disease	MESH:D000544
+34975305	1283	1285	AD	Disease	MESH:D000544
+34975305	1341	1347	ARMCX5	Gene	64860
+34975305	1349	1353	EDN3	Gene	1908
+34975305	1355	1361	GPR174	Gene	84636
+34975305	1363	1369	MRPL23	Gene	6150
+34975305	1371	1377	RAET1E	Gene	135250
+34975305	1379	1383	ROD1	Gene	9991
+34975305	1385	1390	TRAF1	Gene	7185
+34975305	1392	1397	WNT7B	Gene	7477
+34975305	1399	1404	OR4K2	Gene	390431
+34975305	1409	1415	ZNF543	Gene	125919
+34975305	1565	1571	GPR174	Gene	84636
+34975305	1573	1578	TRAF1	Gene	7185
+34975305	1580	1584	ROD1	Gene	9991
+34975305	1586	1592	RAET1E	Gene	135250
+34975305	1594	1599	OR4K2	Gene	390431
+34975305	1601	1607	MRPL23	Gene	6150
+34975305	1609	1615	ARMCX5	Gene	64860
+34975305	1620	1624	EDN3	Gene	1908
+34975305	1666	1668	AD	Disease	MESH:D000544
+34975305	1708	1713	5XFAD	Disease	
+34975305	1725	1729	mice	Species	10090
+34975305	1769	1774	Wnt7b	Gene	22422
+34975305	1776	1782	Gpr174	Gene	213439
+34975305	1784	1789	Ptbp3	Gene	230257
+34975305	1791	1797	Mrpl23	Gene	19935
+34975305	1799	1805	Armcx5	Gene	494468
+34975305	1810	1816	Raet1e	Gene	379043
+34975305	1921	1923	AD	Disease	MESH:D000544
+34975305	1924	1932	patients	Species	9606
+34975305	Association	MESH:D000544	64860
+34975305	Association	MESH:D000544	213439
+34975305	Association	MESH:D000544	19935
+34975305	Association	MESH:D000544	125919
+34975305	Association	MESH:D000544	84636
+34975305	Association	MESH:D000544	379043
+34975305	Association	MESH:D000544	7477
+34975305	Association	MESH:D000544	1908
+34975305	Association	MESH:D000544	390431
+34975305	Association	MESH:D000544	7185
+34975305	Association	MESH:D000544	22422
+34975305	Association	MESH:D000544	9991
+34975305	Association	MESH:D000544	6150
+34975305	Association	MESH:D000544	135250
+34975305	Association	MESH:D000544	494468
+

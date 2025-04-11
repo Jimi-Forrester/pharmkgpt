@@ -1,0 +1,64 @@
+33141153|t|Biochemical and transcript level differences between the three human phosphofructokinases show optimisation of each isoform for specific metabolic niches.
+33141153|a|6-Phosphofructokinase-1-kinase (PFK) tetramers catalyse the phosphorylation of fructose 6-phosphate (F6P) to fructose 1,6-bisphosphate (F16BP). Vertebrates have three PFK isoforms (PFK-M, PFK-L, and PFK-P). This study is the first to compare the kinetics, structures, and transcript levels of recombinant human PFK isoforms. Under the conditions tested PFK-M has the highest affinities for F6P and ATP (K0.5ATP 152 microM; K0.5F6P 147 microM), PFK-P the lowest affinities (K0.5ATP 276 microM; K0.5F6P 1333 microM), and PFK-L demonstrates a mixed picture of high ATP affinity and low F6P affinity (K0.5ATP 160 microM; K0.5F6P 1360 microM). PFK-M is more resistant to ATP inhibition compared with PFK-L and PFK-P (respectively, 23%, 31%, 50% decreases in specificity constants). GTP is an alternate phospho donor. Interface 2, which regulates the inactive dimer to active tetramer equilibrium, differs between isoforms, resulting in varying tetrameric stability. Under the conditions tested PFK-M is less sensitive to fructose 2,6-bisphosphate (F26BP) allosteric modulation than PFK-L or PFK-P (allosteric constants [K0.5ATP+F26BP/K0.5ATP] 1.10, 0.92, 0.54, respectively). Structural analysis of two allosteric sites reveals one may be specialised for AMP/ADP and the other for smaller/flexible regulators (citrate or phosphoenolpyruvate). Correlations between PFK-L and PFK-P transcript levels indicate that simultaneous expression may expand metabolic capacity for F16BP production whilst preserving regulatory capabilities. Analysis of cancer samples reveals intriguing parallels between PFK-P and PKM2 (pyruvate kinase M2), and simultaneous increases in PFK-P and PFKFB3 (responsible for F26BP production) transcript levels, suggesting prioritisation of metabolic flexibility in cancers. Our results describe the kinetic and transcript level differences between the three PFK isoforms, explaining how each isoform may be optimised for distinct roles.
+33141153	63	68	human	Species	9606
+33141153	234	254	fructose 6-phosphate	Chemical	MESH:C027618
+33141153	256	259	F6P	Chemical	MESH:C027618
+33141153	264	289	fructose 1,6-bisphosphate	Chemical	MESH:C029063
+33141153	291	296	F16BP	Chemical	MESH:C029063
+33141153	336	341	PFK-M	Gene	5213
+33141153	343	348	PFK-L	Gene	5211
+33141153	354	359	PFK-P	Gene	5214
+33141153	460	465	human	Species	9606
+33141153	508	513	PFK-M	Gene	5213
+33141153	545	548	F6P	Chemical	MESH:C027618
+33141153	553	556	ATP	Chemical	MESH:D000255
+33141153	558	565	K0.5ATP	Chemical	-
+33141153	578	585	K0.5F6P	Chemical	-
+33141153	599	604	PFK-P	Gene	5214
+33141153	628	635	K0.5ATP	Chemical	-
+33141153	648	655	K0.5F6P	Chemical	-
+33141153	674	679	PFK-L	Gene	5211
+33141153	717	720	ATP	Chemical	MESH:D000255
+33141153	738	741	F6P	Chemical	MESH:C027618
+33141153	752	759	K0.5ATP	Chemical	-
+33141153	772	779	K0.5F6P	Chemical	-
+33141153	794	799	PFK-M	Gene	5213
+33141153	821	824	ATP	Chemical	MESH:D000255
+33141153	850	855	PFK-L	Gene	5211
+33141153	860	865	PFK-P	Gene	5214
+33141153	932	935	GTP	Chemical	MESH:D006160
+33141153	1144	1149	PFK-M	Gene	5213
+33141153	1171	1196	fructose 2,6-bisphosphate	Chemical	MESH:C027652
+33141153	1198	1203	F26BP	Chemical	MESH:C027652
+33141153	1232	1237	PFK-L	Gene	5211
+33141153	1241	1246	PFK-P	Gene	5214
+33141153	1270	1277	K0.5ATP	Chemical	-
+33141153	1278	1283	F26BP	Chemical	MESH:C027652
+33141153	1284	1291	K0.5ATP	Chemical	-
+33141153	1405	1408	AMP	Chemical	MESH:D000249
+33141153	1409	1412	ADP	Chemical	MESH:D000244
+33141153	1460	1467	citrate	Chemical	MESH:D019343
+33141153	1471	1490	phosphoenolpyruvate	Chemical	MESH:D010728
+33141153	1514	1519	PFK-L	Gene	5211
+33141153	1524	1529	PFK-P	Gene	5214
+33141153	1620	1625	F16BP	Chemical	MESH:C029063
+33141153	1692	1698	cancer	Disease	MESH:D009369
+33141153	1744	1749	PFK-P	Gene	5214
+33141153	1754	1758	PKM2	Gene	5315
+33141153	1760	1778	pyruvate kinase M2	Gene	5315
+33141153	1811	1816	PFK-P	Gene	5214
+33141153	1821	1827	PFKFB3	Gene	5209
+33141153	1845	1850	F26BP	Chemical	MESH:C027652
+33141153	1936	1943	cancers	Disease	MESH:D009369
+33141153	Comparison	MESH:C027618	MESH:C029063
+33141153	Association	MESH:D009369	5315
+33141153	Association	MESH:D009369	5211
+33141153	Association	MESH:D009369	5209
+33141153	Association	MESH:D000255	5213
+33141153	Association	MESH:D009369	5214
+33141153	Association	MESH:C027618	5213
+33141153	Association	MESH:C027652	5213
+33141153	Association	MESH:C029063	5211
+33141153	Association	MESH:C027652	5211
+33141153	Association	MESH:C029063	5214
+

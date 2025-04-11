@@ -1,0 +1,10 @@
+33267025|t|Combination of Global Features for the Automatic Quality Assessment of Retinal Images.
+33267025|a|Diabetic retinopathy (DR) is one of the most common causes of visual loss in developed countries. Computer-aided diagnosis systems aimed at detecting DR can reduce the workload of ophthalmologists in screening programs. Nevertheless, a large number of retinal images cannot be analyzed by physicians and automatic methods due to poor quality. Automatic retinal image quality assessment (RIQA) is needed before image analysis. The purpose of this study was to combine novel generic quality features to develop a RIQA method. Several features were calculated from retinal images to achieve this goal. Features derived from the spatial and spectral entropy-based quality (SSEQ) and the natural images quality evaluator (NIQE) methods were extracted. They were combined with novel sharpness and luminosity measures based on the continuous wavelet transform (CWT) and the hue saturation value (HSV) color model, respectively. A subset of non-redundant features was selected using the fast correlation-based filter (FCBF) method. Subsequently, a multilayer perceptron (MLP) neural network was used to obtain the quality of images from the selected features. Classification results achieved 91.46% accuracy, 92.04% sensitivity, and 87.92% specificity. Results suggest that the proposed RIQA method could be applied in a more general computer-aided diagnosis system aimed at detecting a variety of retinal pathologies such as DR and age-related macular degeneration.
+33267025	87	107	Diabetic retinopathy	Disease	MESH:D003930
+33267025	109	111	DR	Disease	MESH:D003930
+33267025	149	160	visual loss	Disease	MESH:D014786
+33267025	237	239	DR	Disease	MESH:D003930
+33267025	1477	1496	retinal pathologies	Disease	MESH:D012164
+33267025	1505	1507	DR	Disease	MESH:D003930
+33267025	1512	1544	age-related macular degeneration	Disease	MESH:D008268
+

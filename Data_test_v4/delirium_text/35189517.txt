@@ -1,0 +1,34 @@
+35189517|t|A novel chemo-phenotypic method identifies mixtures of salpn, vitamin D3, and pesticides involved in the development of colorectal and pancreatic cancer.
+35189517|a|Environmental chemical (EC) exposures and our interactions with them has significantly increased in the recent decades. Toxicity associated biological characterization of these chemicals is challenging and inefficient, even with available high-throughput technologies. In this report, we describe a novel computational method for characterizing toxicity, associated biological perturbations and disease outcome, called the Chemo-Phenotypic Based Toxicity Measurement (CPTM). CPTM is used to quantify the EC "toxicity score" (Zts), which serves as a holistic metric of potential toxicity and disease outcome. CPTM quantitative toxicity is the measure of chemical features, biological phenotypic effects, and toxicokinetic properties of the ECs. For proof-of-concept, we subject ECs obtained from the Environmental Protection Agency's (EPA) database to the CPTM. We validated the CPTM toxicity predictions by correlating 'Zts' scores with known toxicity effects. We also confirmed the CPTM predictions with in-vitro, and in-vivo experiments. In in-vitro and zebrafish models, we showed that, mixtures of the motor oil and food additive 'Salpn' with endogenous nuclear receptor ligands such as Vitamin D3, dysregulated the nuclear receptors and key transcription pathways involved in Colorectal Cancer. Further, in a human patient derived cell organoid model, we found that a mixture of the widely used pesticides 'Tetramethrin' and 'Fenpropathrin' significantly impacts the population of patient derived pancreatic cancer cells and 3D organoid models to support rapid PDAC disease progression. The CPTM method is, to our knowledge, the first comprehensive toxico-physicochemical, and phenotypic bionetwork-based platform for efficient high-throughput screening of environmental chemical toxicity, mechanisms of action, and connection to disease outcomes.
+35189517	55	60	salpn	Chemical	-
+35189517	62	72	vitamin D3	Chemical	MESH:D002762
+35189517	120	152	colorectal and pancreatic cancer	Disease	MESH:D015179
+35189517	274	282	Toxicity	Disease	MESH:D064420
+35189517	499	507	toxicity	Disease	MESH:D064420
+35189517	600	608	Toxicity	Disease	MESH:D064420
+35189517	662	670	toxicity	Disease	MESH:D064420
+35189517	732	740	toxicity	Disease	MESH:D064420
+35189517	780	788	toxicity	Disease	MESH:D064420
+35189517	1037	1045	toxicity	Disease	MESH:D064420
+35189517	1097	1105	toxicity	Disease	MESH:D064420
+35189517	1210	1219	zebrafish	Species	7955
+35189517	1266	1269	oil	Chemical	MESH:D009821
+35189517	1289	1294	Salpn	Chemical	-
+35189517	1345	1355	Vitamin D3	Chemical	MESH:D002762
+35189517	1435	1452	Colorectal Cancer	Disease	MESH:D015179
+35189517	1468	1473	human	Species	9606
+35189517	1474	1481	patient	Species	9606
+35189517	1566	1578	Tetramethrin	Chemical	MESH:C009424
+35189517	1585	1598	Fenpropathrin	Chemical	MESH:C044267
+35189517	1640	1647	patient	Species	9606
+35189517	1656	1673	pancreatic cancer	Disease	MESH:D010190
+35189517	1720	1724	PDAC	Disease	MESH:C537768
+35189517	1939	1947	toxicity	Disease	MESH:D064420
+35189517	Association	MESH:D009821	MESH:D015179
+35189517	Association	MESH:C044267	MESH:D010190
+35189517	Association	MESH:D002762	MESH:D015179
+35189517	Positive_Correlation	MESH:C044267	MESH:C537768
+35189517	Association	MESH:C009424	MESH:D010190
+35189517	Association	MESH:D002762	MESH:D009821
+35189517	Positive_Correlation	MESH:C009424	MESH:C537768
+

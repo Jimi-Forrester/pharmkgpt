@@ -1,0 +1,15 @@
+30430256|t|Prediction of Incident Delirium Using a Random Forest classifier.
+30430256|a|Delirium is a serious medical complication associated with poor outcomes. Given the complexity of the syndrome, prevention and early detection are critical in mitigating its effects. We used Confusion Assessment Method (CAM) screening and Electronic Health Record (EHR) data for 64,038 inpatient visits to train and test a model predicting delirium arising in hospital. Incident delirium was defined as the first instance of a positive CAM occurring at least 48 h into a hospital stay. A Random Forest machine learning algorithm was used with demographic data, comorbidities, medications, procedures, and physiological measures. The data set was randomly partitioned 80% / 20% for training and validating the predictive model, respectively. Of the 51,240 patients in the training set, 2774 (5.4%) experienced delirium during their hospital stay; and of the 12,798 patients in the validation set, 701 (5.5%) experienced delirium. Under-sampling of the delirium negative population was used to address the class imbalance. The Random Forest predictive model yielded an area under the receiver operating characteristic curve (ROC AUC) of 0.909 (95% CI 0.898 to 0.921). Important variables in the model included previously identified predisposing and precipitating risk factors. This machine learning approach displayed a high degree of accuracy and has the potential to provide a clinically useful predictive model for earlier intervention in those patients at greatest risk of developing delirium.
+30430256	23	31	Delirium	Disease	MESH:D003693
+30430256	66	74	Delirium	Disease	MESH:D003693
+30430256	352	361	inpatient	Species	
+30430256	406	414	delirium	Disease	MESH:D003693
+30430256	445	453	delirium	Disease	MESH:D003693
+30430256	821	829	patients	Species	9606
+30430256	875	883	delirium	Disease	MESH:D003693
+30430256	930	938	patients	Species	9606
+30430256	985	993	delirium	Disease	MESH:D003693
+30430256	1017	1025	delirium	Disease	MESH:D003693
+30430256	1512	1520	patients	Species	9606
+30430256	1552	1560	delirium	Disease	MESH:D003693
+

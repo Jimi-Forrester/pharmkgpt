@@ -1,0 +1,20 @@
+28113683|t|A Nonparametric Approach for Mild Cognitive Impairment to AD Conversion Prediction: Results on Longitudinal Data.
+28113683|a|The goal of this study is to introduce a nonparametric technique for predicting conversion from Mild Cognitive impairment (MCI)-to-Alzheimer's disease (AD). Progression of a slowly progressing disease such as AD benefits from the use of longitudinal data; however, research till now is limited due to the insufficient patient data and short follow-up time. A small dataset size invalidates the estimation of underlying disease progression model; hence, a supervised nonparametric method is proposed. While depicting a real-world setting, longitudinal data of three years are employed for training, whereas only the baseline visit's data is used for validation. The train set is preprocessed for extraction of two dense clusters representing the subjects who remain stable at MCI or progress to AD after three years of the baseline visit. Similarity between these clusters and the test point is calculated in Euclidean space. Multiple features from two modalities of biomarkers, i.e., neuropsychological measures (NM) and structural magnetic resonance imaging (MRI) morphometry are also analyzed. Due to the limited MCI dataset size (NM: 145, MRI: 52, NM+MRI: 29), leave-one-out cross validation setup is employed for performance evaluation. The algorithm performance is noted for both unimodal case and bimodal cases. Superior performance (accuracy: 89.66%, sensitivity: 87.50%, specificity: 92.31%, precision: 93.33%) is delivered by multivariate predictors. Three notable conclusions of this study are: 1) Longitudinal data are more powerful than the temporal data, 2) MRI is a better predictor of MCI-to-AD conversion than NM, and 3) multivariate predictors outperform single predictor models.
+28113683	29	54	Mild Cognitive Impairment	Disease	MESH:D060825
+28113683	58	60	AD	Disease	MESH:D000544
+28113683	210	235	Mild Cognitive impairment	Disease	MESH:D060825
+28113683	237	240	MCI	Disease	MESH:D060825
+28113683	245	264	Alzheimer's disease	Disease	MESH:D000544
+28113683	266	268	AD	Disease	MESH:D000544
+28113683	323	325	AD	Disease	MESH:D000544
+28113683	432	439	patient	Species	9606
+28113683	889	892	MCI	Disease	MESH:D060825
+28113683	908	910	AD	Disease	MESH:D000544
+28113683	1127	1129	NM	Disease	
+28113683	1229	1232	MCI	Disease	MESH:D060825
+28113683	1247	1249	NM	Disease	
+28113683	1265	1267	NM	Disease	
+28113683	1714	1717	MCI	Disease	MESH:D060825
+28113683	1721	1723	AD	Disease	MESH:D000544
+28113683	1740	1742	NM	Disease	
+

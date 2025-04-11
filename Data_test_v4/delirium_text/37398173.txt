@@ -1,0 +1,11 @@
+37398173|t|An Explainable and Robust Deep Learning Approach for Automated Electroencephalography-based Schizophrenia Diagnosis.
+37398173|a|Schizophrenia (SZ) is a neuropsychiatric disorder that affects millions globally. Current diagnosis of SZ is symptom-based, which poses difficulty due to the variability of symptoms across patients. To this end, many recent studies have developed deep learning methods for automated diagnosis of SZ, especially using raw EEG, which provides high temporal precision. For such methods to be productionized, they must be both explainable and robust. Explainable models are essential to identify biomarkers of SZ, and robust models are critical to learn generalizable patterns, especially amidst changes in the implementation environment. One common example is channel loss during recording, which could be detrimental to EEG classifier performance. In this study, we develop a novel channel dropout (CD) approach to increase the robustness of explainable deep learning models trained on EEG data for SZ diagnosis to channel loss. We develop a baseline convolutional neural network (CNN) architecture and implement our approach in the form of a CD layer added to the baseline architecture (CNN-CD). We then apply two explainability approaches for insight into the spatial and spectral features learned by the CNN models and show that the application of CD decreases model sensitivity to channel loss. Results further show that our models heavily prioritize the parietal electrodes and the alpha-band, which is supported by existing literature. It is our hope that this study motivates the further development of models that are both explainable and robust and bridges the transition from research to application in a clinical decision support role.
+37398173	92	105	Schizophrenia	Disease	MESH:D012559
+37398173	117	130	Schizophrenia	Disease	MESH:D012559
+37398173	132	134	SZ	Disease	MESH:D012559
+37398173	141	166	neuropsychiatric disorder	Disease	MESH:D001523
+37398173	220	222	SZ	Disease	MESH:D012559
+37398173	413	415	SZ	Disease	MESH:D012559
+37398173	623	625	SZ	Disease	MESH:D012559
+37398173	1014	1016	SZ	Disease	MESH:D012559
+

@@ -1,0 +1,48 @@
+32554321|t|Pre-trained MRI-based Alzheimer's disease classification models to classify memory clinic patients.
+32554321|a|Anatomical magnetic resonance imaging (MRI), diffusion MRI and resting state functional MRI (rs-fMRI) have been used for Alzheimer's disease (AD) classification. These scans are typically used to build models for discriminating AD patients from control subjects, but it is not clear if these models can also discriminate AD in diverse clinical populations as found in memory clinics. To study this, we trained MRI-based AD classification models on a single centre data set consisting of AD patients (N = 76) and controls (N = 173), and used these models to assign AD scores to subjective memory complainers (N = 67), mild cognitive impairment (MCI) patients (N = 61), and AD patients (N = 61) from a multi-centre memory clinic data set. The anatomical MRI scans were used to calculate grey matter density, subcortical volumes and cortical thickness, the diffusion MRI scans were used to calculate fractional anisotropy, mean, axial and radial diffusivity, and the rs-fMRI scans were used to calculate functional connectivity between resting state networks and amplitude of low frequency fluctuations. Within the multi-centre memory clinic data set we removed scan site differences prior to applying the models. For all models, on average, the AD patients were assigned the highest AD scores, followed by MCI patients, and later followed by SMC subjects. The anatomical MRI models performed best, and the best performing anatomical MRI measure was grey matter density, separating SMC subjects from MCI patients with an AUC of 0.69, MCI patients from AD patients with an AUC of 0.70, and SMC patients from AD patients with an AUC of 0.86. The diffusion MRI models did not generalise well to the memory clinic data, possibly because of large scan site differences. The functional connectivity model separated SMC subjects and MCI patients relatively good (AUC = 0.66). The multimodal MRI model did not improve upon the anatomical MRI model. In conclusion, we showed that the grey matter density model generalises best to memory clinic subjects. When also considering the fact that grey matter density generally performs well in AD classification studies, this feature is probably the best MRI-based feature for AD diagnosis in clinical practice.
+32554321	22	41	Alzheimer's disease	Disease	MESH:D000544
+32554321	76	82	memory	Disease	MESH:D008569
+32554321	90	98	patients	Species	9606
+32554321	221	240	Alzheimer's disease	Disease	MESH:D000544
+32554321	242	244	AD	Disease	MESH:D000544
+32554321	328	330	AD	Disease	MESH:D000544
+32554321	331	339	patients	Species	9606
+32554321	421	423	AD	Disease	MESH:D000544
+32554321	468	474	memory	Disease	MESH:D008569
+32554321	520	522	AD	Disease	MESH:D000544
+32554321	587	589	AD	Disease	MESH:D000544
+32554321	590	598	patients	Species	9606
+32554321	664	666	AD	Disease	MESH:D000544
+32554321	688	694	memory	Disease	MESH:D008569
+32554321	722	742	cognitive impairment	Disease	MESH:D003072
+32554321	744	747	MCI	Disease	MESH:D060825
+32554321	749	757	patients	Species	9606
+32554321	772	774	AD	Disease	MESH:D000544
+32554321	775	783	patients	Species	9606
+32554321	813	819	memory	Disease	MESH:D008569
+32554321	1225	1231	memory	Disease	MESH:D008569
+32554321	1343	1345	AD	Disease	MESH:D000544
+32554321	1346	1354	patients	Species	9606
+32554321	1381	1383	AD	Disease	MESH:D000544
+32554321	1404	1407	MCI	Disease	MESH:D060825
+32554321	1408	1416	patients	Species	9606
+32554321	1440	1443	SMC	Disease	MESH:C564589
+32554321	1579	1582	SMC	Disease	MESH:C564589
+32554321	1597	1600	MCI	Disease	MESH:D060825
+32554321	1601	1609	patients	Species	9606
+32554321	1631	1634	MCI	Disease	MESH:D060825
+32554321	1635	1643	patients	Species	9606
+32554321	1649	1651	AD	Disease	MESH:D000544
+32554321	1652	1660	patients	Species	9606
+32554321	1686	1689	SMC	Disease	MESH:C564589
+32554321	1690	1698	patients	Species	9606
+32554321	1704	1706	AD	Disease	MESH:D000544
+32554321	1707	1715	patients	Species	9606
+32554321	1793	1799	memory	Disease	MESH:D008569
+32554321	1906	1909	SMC	Disease	MESH:C564589
+32554321	1923	1926	MCI	Disease	MESH:D060825
+32554321	1927	1935	patients	Species	9606
+32554321	2118	2124	memory	Disease	MESH:D008569
+32554321	2225	2227	AD	Disease	MESH:D000544
+32554321	2308	2310	AD	Disease	MESH:D000544
+

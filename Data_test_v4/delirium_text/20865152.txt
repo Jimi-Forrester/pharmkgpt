@@ -1,0 +1,18 @@
+20865152|t|Computational prediction and experimental verification of new MAP kinase docking sites and substrates including Gli transcription factors.
+20865152|a|In order to fully understand protein kinase networks, new methods are needed to identify regulators and substrates of kinases, especially for weakly expressed proteins. Here we have developed a hybrid computational search algorithm that combines machine learning and expert knowledge to identify kinase docking sites, and used this algorithm to search the human genome for novel MAP kinase substrates and regulators focused on the JNK family of MAP kinases. Predictions were tested by peptide array followed by rigorous biochemical verification with in vitro binding and kinase assays on wild-type and mutant proteins. Using this procedure, we found new 'D-site' class docking sites in previously known JNK substrates (hnRNP-K, PPM1J/PP2Czeta), as well as new JNK-interacting proteins (MLL4, NEIL1). Finally, we identified new D-site-dependent MAPK substrates, including the hedgehog-regulated transcription factors Gli1 and Gli3, suggesting that a direct connection between MAP kinase and hedgehog signaling may occur at the level of these key regulators. These results demonstrate that a genome-wide search for MAP kinase docking sites can be used to find new docking sites and substrates.
+20865152	495	500	human	Species	9606
+20865152	570	573	JNK	Gene	5599
+20865152	842	845	JNK	Gene	5599
+20865152	858	865	hnRNP-K	Gene	3190
+20865152	867	872	PPM1J	Gene	333926
+20865152	873	881	PP2Czeta	Gene	333926
+20865152	899	902	JNK	Gene	5599
+20865152	925	929	MLL4	Gene	9757
+20865152	931	936	NEIL1	Gene	79661
+20865152	1055	1059	Gli1	Gene	2735
+20865152	1064	1068	Gli3	Gene	2737
+20865152	Association	333926	5599
+20865152	Association	5599	79661
+20865152	Association	3190	5599
+20865152	Association	5599	9757
+

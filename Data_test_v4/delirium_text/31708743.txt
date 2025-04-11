@@ -1,0 +1,81 @@
+31708743|t|Inhibition of HDAC4 Attenuated JNK/c-Jun-Dependent Neuronal Apoptosis and Early Brain Injury Following Subarachnoid Hemorrhage by Transcriptionally Suppressing MKK7.
+31708743|a|The c-Jun N-terminal kinase (JNK)/c-Jun cascade-dependent neuronal apoptosis has been identified as a central element for early brain injury (EBI) following subarachnoid hemorrhage (SAH), but the molecular mechanisms underlying this process are still thoroughly undefined to date. In this study, we found that pan-histone deacetylase (HDAC) inhibition by TSA, SAHA, VPA, and M344 led to a remarkable decrease in the phosphorylation of JNK and c-Jun, concomitant with a significant abrogation of apoptosis caused by potassium deprivation in cultured cerebellar granule neurons (CGNs). Further investigation showed that these effects resulted from HDAC inhibition-induced transcriptional suppression of MKK7, a well-known upstream kinase of JNK. Using small interference RNAs (siRNAs) to silence the respective HDAC members, HDAC4 was screened to be required for MKK7 transcription and JNK/c-Jun activation. LMK235, a specific HDAC4 inhibitor, dose-dependently suppressed MKK7 transcription and JNK/c-Jun activity. Functionally, HDAC4 inhibition via knockdown or LMK235 significantly rescued CGN apoptosis induced by potassium deprivation. Moreover, administration of LMK235 remarkably ameliorated the EBI process in SAH rats, associated with an obvious reduction in MKK7 transcription, JNK/c-Jun activity, and neuronal apoptosis. Collectively, the findings provide new insights into the molecular mechanism of neuronal apoptosis regarding HDAC4 in the selective regulation of MKK7 transcription and JNK/c-Jun activity. HDAC4 inhibition could be a potential alternative to prevent MKK7/JNK/c-Jun axis-mediated nervous disorders, including SAH-caused EBI.
+31708743	14	19	HDAC4	Gene	363287
+31708743	31	34	JNK	Gene	116554
+31708743	51	69	Neuronal Apoptosis	Disease	MESH:D065703
+31708743	80	92	Brain Injury	Disease	MESH:D001930
+31708743	103	126	Subarachnoid Hemorrhage	Disease	MESH:D013345
+31708743	160	164	MKK7	Gene	363855
+31708743	170	193	c-Jun N-terminal kinase	Gene	116554
+31708743	195	198	JNK	Gene	116554
+31708743	224	242	neuronal apoptosis	Disease	MESH:D065703
+31708743	294	306	brain injury	Disease	MESH:D001930
+31708743	308	311	EBI	Disease	MESH:D001930
+31708743	323	346	subarachnoid hemorrhage	Disease	MESH:D013345
+31708743	348	351	SAH	Disease	MESH:D013345
+31708743	521	524	TSA	Chemical	MESH:C481298
+31708743	526	530	SAHA	Chemical	MESH:D000077337
+31708743	532	535	VPA	Chemical	MESH:D014635
+31708743	541	545	M344	Chemical	MESH:D000077337
+31708743	601	604	JNK	Gene	116554
+31708743	681	690	potassium	Chemical	MESH:D011188
+31708743	867	871	MKK7	Gene	363855
+31708743	905	908	JNK	Gene	116554
+31708743	989	994	HDAC4	Gene	363287
+31708743	1027	1031	MKK7	Gene	363855
+31708743	1050	1053	JNK	Gene	116554
+31708743	1072	1078	LMK235	Chemical	MESH:C000630714
+31708743	1091	1096	HDAC4	Gene	363287
+31708743	1136	1140	MKK7	Gene	363855
+31708743	1159	1162	JNK	Gene	116554
+31708743	1193	1198	HDAC4	Gene	363287
+31708743	1227	1233	LMK235	Chemical	MESH:C000630714
+31708743	1256	1259	CGN	Disease	
+31708743	1281	1290	potassium	Chemical	MESH:D011188
+31708743	1332	1338	LMK235	Chemical	MESH:C000630714
+31708743	1366	1369	EBI	Disease	MESH:D001930
+31708743	1381	1384	SAH	Disease	MESH:D013345
+31708743	1385	1389	rats	Species	10116
+31708743	1431	1435	MKK7	Gene	363855
+31708743	1451	1454	JNK	Gene	116554
+31708743	1475	1493	neuronal apoptosis	Disease	MESH:D065703
+31708743	1575	1593	neuronal apoptosis	Disease	MESH:D065703
+31708743	1604	1609	HDAC4	Gene	363287
+31708743	1641	1645	MKK7	Gene	363855
+31708743	1664	1667	JNK	Gene	116554
+31708743	1684	1689	HDAC4	Gene	363287
+31708743	1745	1749	MKK7	Gene	363855
+31708743	1750	1753	JNK	Gene	116554
+31708743	1774	1791	nervous disorders	Disease	MESH:D009422
+31708743	1803	1806	SAH	Disease	MESH:D013345
+31708743	1814	1817	EBI	Disease	MESH:D001930
+31708743	Association	MESH:D065703	363855
+31708743	Negative_Correlation	MESH:C000630714	MESH:D001930
+31708743	Negative_Correlation	MESH:D000077337	116554
+31708743	Negative_Correlation	MESH:C000630714	MESH:D065703
+31708743	Association	MESH:D001930	116554
+31708743	Association	MESH:D009422	363287
+31708743	Negative_Correlation	MESH:C481298	MESH:D011188
+31708743	Association	MESH:D001930	363287
+31708743	Association	116554	363855
+31708743	Negative_Correlation	MESH:C000630714	116554
+31708743	Association	MESH:D001930	363855
+31708743	Association	MESH:C000630714	MESH:D011188
+31708743	Association	MESH:D065703	116554
+31708743	Negative_Correlation	MESH:C000630714	363855
+31708743	Association	MESH:D013345	116554
+31708743	Negative_Correlation	MESH:C000630714	MESH:D013345
+31708743	Association	MESH:D065703	363287
+31708743	Negative_Correlation	MESH:D011188	MESH:D014635
+31708743	Positive_Correlation	363287	363855
+31708743	Association	MESH:D013345	363855
+31708743	Negative_Correlation	MESH:D014635	116554
+31708743	Association	MESH:D009422	363855
+31708743	Negative_Correlation	MESH:D000077337	MESH:D011188
+31708743	Association	MESH:D009422	116554
+31708743	Association	MESH:D011188	363287
+31708743	Negative_Correlation	MESH:C000630714	363287
+31708743	Positive_Correlation	116554	363287
+31708743	Negative_Correlation	MESH:C481298	116554
+31708743	Association	MESH:D013345	363287
+

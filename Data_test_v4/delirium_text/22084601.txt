@@ -1,0 +1,53 @@
+22084601|t|Effects of Kynurenine Pathway Inhibition on NAD Metabolism and Cell Viability in Human Primary Astrocytes and Neurons.
+22084601|a|The kynurenine pathway (KP) is the principle route of L-Tryptophan (TRP) metabolism, producing several neurotoxic and neuroprotective metabolic precursors before complete oxidation to the essential pyridine nucleotide nicotinamide adenine dinucleotide (NAD(+)). KP inhibition may prove therapeutic in central nervous system (CNS) inflammation by reducing the production of excitotoxins such as quinolinic acid (QUIN). However, KP metabolism may also be cytoprotective through the de novo synthesis of intracellular NAD(+). We tested the hypothesis that the KP is directly involved in the maintenance of intracellular NAD(+) levels and SIRT1 function in primary astrocytes and neurons through regulation of NAD(+) synthesis. Competitive inhibition of indoleamine 2,3 dioxygenase (IDO), and quinolinic acid phosphoribosyltransferase (QPRT) activities with 1-methyl-L-Tryptophan (1-MT), and phthalic acid (PA) respectively, resulted in a dose-dependent decrease in intracellular NAD(+) levels and sirtuin deacetylase-1 (SIRT1) activity, and correlated directly with reduced cell viability. These results support the hypothesis that the primary role of KP activation during neuroinflammation is to maintain NAD(+) levels through de novo synthesis from TRP. Inhibition of KP metabolism under these conditions can compromise cell viability, NAD-dependent SIRT1 activity and CNS function, unless alternative precursors for NAD(+) synthesis are made available.
+22084601	11	21	Kynurenine	Chemical	MESH:D007737
+22084601	44	47	NAD	Chemical	MESH:D009243
+22084601	81	86	Human	Species	9606
+22084601	123	133	kynurenine	Chemical	MESH:D007737
+22084601	173	185	L-Tryptophan	Chemical	MESH:D014364
+22084601	187	190	TRP	Chemical	MESH:D014364
+22084601	222	232	neurotoxic	Disease	MESH:D020258
+22084601	317	336	pyridine nucleotide	Chemical	-
+22084601	337	370	nicotinamide adenine dinucleotide	Chemical	MESH:D009243
+22084601	372	378	NAD(+)	Chemical	MESH:D009243
+22084601	420	461	central nervous system (CNS) inflammation	Disease	MESH:D007249
+22084601	513	528	quinolinic acid	Chemical	MESH:D017378
+22084601	530	534	QUIN	Chemical	MESH:D017378
+22084601	634	640	NAD(+)	Chemical	MESH:D009243
+22084601	736	742	NAD(+)	Chemical	MESH:D009243
+22084601	754	759	SIRT1	Gene	23411
+22084601	825	831	NAD(+)	Chemical	MESH:D009243
+22084601	869	896	indoleamine 2,3 dioxygenase	Gene	3620
+22084601	898	901	IDO	Gene	3620
+22084601	908	949	quinolinic acid phosphoribosyltransferase	Gene	23475
+22084601	951	955	QPRT	Gene	23475
+22084601	973	994	1-methyl-L-Tryptophan	Chemical	MESH:C000629814
+22084601	996	1000	1-MT	Chemical	MESH:C000629814
+22084601	1007	1020	phthalic acid	Chemical	MESH:C032279
+22084601	1022	1024	PA	Chemical	MESH:C032279
+22084601	1095	1101	NAD(+)	Chemical	MESH:D009243
+22084601	1113	1134	sirtuin deacetylase-1	Gene	23411
+22084601	1136	1141	SIRT1	Gene	23411
+22084601	1289	1306	neuroinflammation	Disease	MESH:D000090862
+22084601	1322	1328	NAD(+)	Chemical	MESH:D009243
+22084601	1367	1370	TRP	Chemical	MESH:D014364
+22084601	1454	1457	NAD	Chemical	MESH:D009243
+22084601	1468	1473	SIRT1	Gene	23411
+22084601	1535	1541	NAD(+)	Chemical	MESH:D009243
+22084601	Negative_Correlation	MESH:C000629814	MESH:D009243
+22084601	Negative_Correlation	MESH:C000629814	3620
+22084601	Association	MESH:D009243	23411
+22084601	Association	MESH:D014364	MESH:D000090862
+22084601	Negative_Correlation	MESH:C032279	23475
+22084601	Negative_Correlation	MESH:C000629814	23475
+22084601	Association	MESH:D007737	MESH:D014364
+22084601	Association	MESH:D009243	MESH:D000090862
+22084601	Association	MESH:D009243	23475
+22084601	Negative_Correlation	MESH:C032279	MESH:D009243
+22084601	Association	23411	23475
+22084601	Association	MESH:D009243	MESH:D014364
+22084601	Positive_Correlation	MESH:D014364	MESH:D020258
+22084601	Negative_Correlation	MESH:D017378	MESH:D007249
+22084601	Association	MESH:D007737	MESH:D009243
+22084601	Positive_Correlation	MESH:D007737	MESH:D020258
+

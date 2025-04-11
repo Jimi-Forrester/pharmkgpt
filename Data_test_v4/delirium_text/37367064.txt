@@ -1,0 +1,54 @@
+37367064|t|Adenosine A2A Receptor Activation Regulates Niemann-Pick C1 Expression and Localization in Macrophages.
+37367064|a|Adenosine plays an important role in modulating immune cell function, particularly T cells and myeloid cells, such as macrophages and dendritic cells. Cell surface adenosine A2A receptors (A2AR) regulate the production of pro-inflammatory cytokines and chemokines, as well as the proliferation, differentiation, and migration of immune cells. In the present study, we expanded the A2AR interactome and provided evidence for the interaction between the receptor and the Niemann-Pick type C intracellular cholesterol transporter 1 (NPC1) protein. The NPC1 protein was identified to interact with the C-terminal tail of A2AR in RAW 264.7 and IPMF cells by two independent and parallel proteomic approaches. The interaction between the NPC1 protein and the full-length A2AR was further validated in HEK-293 cells that permanently express the receptor and RAW264.7 cells that endogenously express A2AR. A2AR activation reduces the expression of NPC1 mRNA and protein density in LPS-activated mouse IPMF cells. Additionally, stimulation of A2AR negatively regulates the cell surface expression of NPC1 in LPS-stimulated macrophages. Furthermore, stimulation of A2AR also altered the density of lysosome-associated membrane protein 2 (LAMP2) and early endosome antigen 1 (EEA1), two endosomal markers associated with the NPC1 protein. Collectively, these results suggested a putative A2AR-mediated regulation of NPC1 protein function in macrophages, potentially relevant for the Niemann-Pick type C disease when mutations in NPC1 protein result in the accumulation of cholesterol and other lipids in lysosomes.
+37367064	13	22	 Receptor	Gene	11540
+37367064	10	13	A2A	DNAMutation	tmVar:c|SUB|A|2|A;HGVS:c.2A>A;VariantGroup:0;OriginalGene:11540;CorrespondingGene:135;CorrespondingSpecies:10090
+37367064	104	113	Adenosine	Chemical	MESH:D000241
+37367064	278	281	A2A	DNAMutation	tmVar:c|SUB|A|2|A;HGVS:c.2A>A;VariantGroup:0;OriginalGene:11540;CorrespondingGene:135;CorrespondingSpecies:10090
+37367064	293	297	A2AR	Gene	11540
+37367064	330	342	inflammatory	Disease	MESH:D007249
+37367064	485	489	A2AR	Gene	11540
+37367064	634	638	NPC1	Gene	18145
+37367064	653	657	NPC1	Gene	18145
+37367064	721	725	A2AR	Gene	11540
+37367064	729	738	RAW 264.7	CellLine	CVCL:0493
+37367064	743	747	IPMF	CellLine	
+37367064	836	840	NPC1	Gene	18145
+37367064	869	873	A2AR	Gene	11540
+37367064	899	906	HEK-293	CellLine	CVCL:0045
+37367064	955	963	RAW264.7	CellLine	CVCL:0493
+37367064	996	1000	A2AR	Gene	11540
+37367064	1002	1006	A2AR	Gene	11540
+37367064	1044	1048	NPC1	Gene	18145
+37367064	1077	1080	LPS	Chemical	MESH:D008070
+37367064	1097	1101	IPMF	CellLine	
+37367064	1138	1142	A2AR	Gene	11540
+37367064	1195	1199	NPC1	Gene	18145
+37367064	1203	1206	LPS	Chemical	MESH:D008070
+37367064	1259	1263	A2AR	Gene	11540
+37367064	1292	1330	lysosome-associated membrane protein 2	Gene	16784
+37367064	1332	1337	LAMP2	Gene	16784
+37367064	1343	1367	early endosome antigen 1	Gene	216238
+37367064	1369	1373	EEA1	Gene	216238
+37367064	1418	1422	NPC1	Gene	18145
+37367064	1481	1485	A2AR	Gene	11540
+37367064	1509	1513	NPC1	Gene	18145
+37367064	1576	1603	Niemann-Pick type C disease	Disease	MESH:D052556
+37367064	1622	1626	NPC1	Gene	18145
+37367064	1665	1676	cholesterol	Chemical	MESH:D002784
+37367064	1687	1693	lipids	Chemical	MESH:D008055
+37367064	Association	16784	18145
+37367064	Association	18145	216238
+37367064	Association	MESH:D007249	HGVS:c.2A>A;CorrespondingGene:135
+37367064	Association	MESH:D008070	11540
+37367064	Association	11540	216238
+37367064	Positive_Correlation	MESH:D002784	MESH:D052556
+37367064	Association	MESH:D007249	11540
+37367064	Association	MESH:D052556	18145
+37367064	Association	MESH:D002784	18145
+37367064	Association	11540	16784
+37367064	Negative_Correlation	11540	18145
+37367064	Association	MESH:D008055	18145
+37367064	Positive_Correlation	MESH:D008055	MESH:D052556
+37367064	Association	MESH:D052556	11540
+37367064	Association	MESH:D007249	135
+

@@ -1,0 +1,39 @@
+30956687|t|Radiomics: a novel feature extraction method for brain neuron degeneration disease using 18F-FDG PET imaging and its implementation for Alzheimer's disease and mild cognitive impairment.
+30956687|a|BACKGROUND: Alzheimer's disease (AD) is the most common form of progressive and irreversible dementia, and accurate diagnosis of AD at its prodromal stage is clinically important. Currently, computer-aided diagnosis of AD and mild cognitive impairment (MCI) using 18F-fluorodeoxy-glucose positron emission tomography (18F-FDG PET) imaging is usually based on low-level imaging features or deep learning methods, which have difficulties in achieving sufficient classification accuracy or lack clinical significance. This research therefore aimed to implement a new feature extraction method known as radiomics, to improve the classification accuracy and discover high-order features that can reveal pathological information. METHODS: In this study, 18F-FDG PET and clinical assessments were collected in a cohort of 422 individuals [including 130 with AD, 130 with MCI, and 162 healthy controls (HCs)] from the Alzheimer's Disease Neuroimaging Initiative (ADNI) and 44 individuals (including 22 with AD, and 22 HCs) from Huashan Hospital, Shanghai, China. First, we performed a group comparison using a two-sample Student's t test to determine the regions of interest (ROIs) based on 30 AD patients and 30 HCs from ADNI cohorts. Second, based on two time scans of 32 HCs from ADNI cohorts, we used Cronbach's alpha coefficient for radiomic feature stability analyses. Pearson's correlation coefficients were regarded as a feature selection criterion, to select effective features associated with the clinical cognitive scale [clinical dementia rating scale in its sum of boxes (CDRSB); Alzheimer's disease assessment scale (ADAS)] with 500-times cross-validation. Finally, a support vector machine (SVM) was used to test the ability of the radiomic features to classify HCs, MCI and AD patients. RESULTS: As a result, we identified brain regions which were mainly distributed in the temporal, occipital and frontal areas as ROIs. A total of 168 radiomic features of AD were stable (alpha > 0.8). The classification experiment led to maximal accuracies of 91.5%, 83.1% and 85.9% for classifying AD versus HC, MCI versus HCs and AD versus MCI. CONCLUSION: The research in this paper proved that the novel approach based on high-order radiomic features extracted from 18F-FDG PET brain images that can be used for AD and MCI computer-aided diagnosis.
+30956687	55	82	neuron degeneration disease	Disease	MESH:D009410
+30956687	89	96	18F-FDG	Chemical	MESH:D019788
+30956687	136	155	Alzheimer's disease	Disease	MESH:D000544
+30956687	160	185	mild cognitive impairment	Disease	MESH:D060825
+30956687	199	218	Alzheimer's disease	Disease	MESH:D000544
+30956687	220	222	AD	Disease	MESH:D000544
+30956687	280	288	dementia	Disease	MESH:D003704
+30956687	316	318	AD	Disease	MESH:D000544
+30956687	406	408	AD	Disease	MESH:D000544
+30956687	413	438	mild cognitive impairment	Disease	MESH:D060825
+30956687	440	443	MCI	Disease	MESH:D060825
+30956687	451	474	18F-fluorodeoxy-glucose	Chemical	MESH:D019788
+30956687	505	512	18F-FDG	Chemical	MESH:D019788
+30956687	935	942	18F-FDG	Chemical	MESH:D019788
+30956687	1038	1040	AD	Disease	MESH:D000544
+30956687	1051	1054	MCI	Disease	MESH:D060825
+30956687	1097	1116	Alzheimer's Disease	Disease	MESH:D000544
+30956687	1186	1188	AD	Disease	MESH:D000544
+30956687	1373	1375	AD	Disease	MESH:D000544
+30956687	1376	1384	patients	Species	9606
+30956687	1721	1729	dementia	Disease	MESH:D003704
+30956687	1772	1791	Alzheimer's disease	Disease	MESH:D000544
+30956687	1961	1964	MCI	Disease	MESH:D060825
+30956687	1969	1971	AD	Disease	MESH:D000544
+30956687	1972	1980	patients	Species	9606
+30956687	2152	2154	AD	Disease	MESH:D000544
+30956687	2280	2282	AD	Disease	MESH:D000544
+30956687	2294	2297	MCI	Disease	MESH:D060825
+30956687	2313	2315	AD	Disease	MESH:D000544
+30956687	2323	2326	MCI	Disease	MESH:D060825
+30956687	2451	2458	18F-FDG	Chemical	MESH:D019788
+30956687	2497	2499	AD	Disease	MESH:D000544
+30956687	2504	2507	MCI	Disease	MESH:D060825
+30956687	Association	MESH:D019788	MESH:D000544
+30956687	Association	MESH:D019788	MESH:D060825
+30956687	Association	MESH:D019788	MESH:D009410
+

@@ -1,0 +1,19 @@
+37179688|t|Classification of Abeta State From Brain Amyloid PET Images Using Machine Learning Algorithm.
+37179688|a|Background and Purpose: Analyzing brain amyloid positron emission tomography (PET) images to access the occurrence of beta-amyloid (Abeta) deposition in Alzheimer's patients requires much time and effort from physicians, while the variation of each interpreter may differ. For these reasons, a machine learning model was developed using a convolutional neural network (CNN) as an objective decision to classify the Abeta positive and Abeta negative status from brain amyloid PET images. Methods: A total of 7,344 PET images of 144 subjects were used in this study. The 18F-florbetaben PET was administered to all participants, and the criteria for differentiating Abeta positive and Abeta negative state was based on brain amyloid plaque load score (BAPL) that depended on the visual assessment of PET images by the physicians. We applied the CNN algorithm trained in batches of 51 PET images per subject directory from 2 classes: Abeta positive and Abeta negative states, based on the BAPL scores. Results: The binary classification of the model average performance matrices was evaluated after 40 epochs of three trials based on test datasets. The model accuracy for classifying Abeta positivity and Abeta negativity was (95.00+-0.02) in the test dataset. The sensitivity and specificity were (96.00+-0.02) and (94.00+-0.02), respectively, with an area under the curve of (87.00+-0.03). Conclusions: Based on this study, the designed CNN model has the potential to be used clinically to screen amyloid PET images.
+37179688	18	23	Abeta	Gene	351
+37179688	226	231	Abeta	Gene	351
+37179688	247	258	Alzheimer's	Disease	MESH:D000544
+37179688	259	267	patients	Species	9606
+37179688	509	514	Abeta	Gene	351
+37179688	528	533	Abeta	Gene	351
+37179688	663	678	18F-florbetaben	Chemical	MESH:C527756
+37179688	758	763	Abeta	Gene	351
+37179688	777	782	Abeta	Gene	351
+37179688	817	824	amyloid	Disease	MESH:C000718787
+37179688	1025	1030	Abeta	Gene	351
+37179688	1044	1049	Abeta	Gene	351
+37179688	1275	1280	Abeta	Gene	351
+37179688	1296	1301	Abeta	Gene	351
+37179688	1590	1597	amyloid	Disease	MESH:C000718787
+37179688	Association	MESH:D000544	351
+

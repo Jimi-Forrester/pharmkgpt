@@ -1,0 +1,13 @@
+26683094|t|Network-Based Integration of Disparate Omic Data To Identify "Silent Players" in Cancer.
+26683094|a|Development of high-throughput monitoring technologies enables interrogation of cancer samples at various levels of cellular activity. Capitalizing on these developments, various public efforts such as The Cancer Genome Atlas (TCGA) generate disparate omic data for large patient cohorts. As demonstrated by recent studies, these heterogeneous data sources provide the opportunity to gain insights into the molecular changes that drive cancer pathogenesis and progression. However, these insights are limited by the vast search space and as a result low statistical power to make new discoveries. In this paper, we propose methods for integrating disparate omic data using molecular interaction networks, with a view to gaining mechanistic insights into the relationship between molecular changes at different levels of cellular activity. Namely, we hypothesize that genes that play a role in cancer development and progression may be implicated by neither frequent mutation nor differential expression, and that network-based integration of mutation and differential expression data can reveal these "silent players". For this purpose, we utilize network-propagation algorithms to simulate the information flow in the cell at a sample-specific resolution. We then use the propagated mutation and expression signals to identify genes that are not necessarily mutated or differentially expressed genes, but have an essential role in tumor development and patient outcome. We test the proposed method on breast cancer and glioblastoma multiforme data obtained from TCGA. Our results show that the proposed method can identify important proteins that are not readily revealed by molecular data, providing insights beyond what can be gleaned by analyzing different types of molecular data in isolation. 
+26683094	81	87	Cancer	Disease	MESH:D009369
+26683094	169	175	cancer	Disease	MESH:D009369
+26683094	295	301	Cancer	Disease	MESH:D009369
+26683094	361	368	patient	Species	9606
+26683094	525	531	cancer	Disease	MESH:D009369
+26683094	982	988	cancer	Disease	MESH:D009369
+26683094	1521	1526	tumor	Disease	MESH:D009369
+26683094	1543	1550	patient	Species	9606
+26683094	1591	1604	breast cancer	Disease	MESH:D001943
+26683094	1609	1632	glioblastoma multiforme	Disease	MESH:D005909
+

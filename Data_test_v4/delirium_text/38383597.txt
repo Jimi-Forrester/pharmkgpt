@@ -1,0 +1,12 @@
+38383597|t|A dynamic fuzzy rule-based inference system using fuzzy inference with semantic reasoning.
+38383597|a|The challenge of making flexible, standard, and early medical diagnoses is significant. However, some limitations are not fully overcome. First, the diagnosis rules established by medical experts or learned from a trained dataset prove static and too general. It leads to decisions that lack adaptive flexibility when finding new circumstances. Secondly, medical terminological interoperability is highly critical. It increases realism and medical progress and avoids isolated systems and the difficulty of data exchange, analysis, and interpretation. Third, criteria for diagnosis are often heterogeneous and changeable. It includes symptoms, patient history, demographic, treatment, genetics, biochemistry, and imaging. Symptoms represent a high-impact indicator for early detection. It is important that we deal with these symptoms differently, which have a great relationship with semantics, vary widely, and have linguistic information. This negatively affects early diagnosis decision-making. Depending on the circumstances, the diagnosis is made solo on imaging and some medical tests. In this case, although the accuracy of the diagnosis is very high, can these decisions be considered an early diagnosis or prove the condition is deteriorating? Our contribution in this paper is to present a real medical diagnostic system based on semantics, fuzzy, and dynamic decision rules. We attempt to integrate ontology semantics reasoning and fuzzy inference. It promotes fuzzy reasoning and handles knowledge representation problems. In complications and symptoms, ontological semantic reasoning improves the process of evaluating rules in terms of interpretability, dynamism, and intelligence. A real-world case study, ADNI, is presented involving the field of Alzheimer's disease (AD). The proposed system has indicated the possibility of the system to diagnose AD with an accuracy of 97.2%, 95.4%, 94.8%, 93.1%, and 96.3% for AD, LMCI, EMCI, SMC, and CN respectively.
+38383597	735	742	patient	Species	9606
+38383597	1855	1874	Alzheimer's disease	Disease	MESH:D000544
+38383597	1876	1878	AD	Disease	MESH:D000544
+38383597	1957	1959	AD	Disease	MESH:D000544
+38383597	2022	2024	AD	Disease	MESH:D000544
+38383597	2026	2030	LMCI	Disease	
+38383597	2032	2036	EMCI	Disease	
+38383597	2038	2041	SMC	Disease	MESH:C564589
+38383597	2047	2049	CN	Disease	
+

@@ -1,0 +1,23 @@
+10501560|t|The role of cholesterol in the biosynthesis of beta-amyloid.
+10501560|a|Addition of the beta-hydroxy-beta-methylglutaryl-CoA (HmG-CoA) reductase inhibitor lovastatin to human HEK cells transfected with the amyloid precursor protein (APP) reduces intracellular cholesterol/protein ratios by 50%, and markedly inhibits beta-secretase cleavage of newly-synthesized APP. Exogenous water-solubilized cholesterol at 200 microg/ml concentration increases newly synthesized beta-amyloidogenic products four-fold. These intracellular changes are detectable by immunoprecipitation and immunofluorescent labelling. Analyses of the fragments captured from culture medium by an N-terminal anti-beta-amyloid antibody on ProteinChip arrays and detected using surface-enhanced laser desorption/ionization (SELDI) mass spectrometry revealed that culture with cholesterol (200 microg/ml) increased secretion of beta-amyloid 1-40 by 1.8-fold, and increased secretion of beta-amyloid 1-42. Changes in APP processing by cholesterol may mediate the way in which the ApoE4 allele increases risk of developing Alzheimer's disease (AD) in western populations.
+10501560	12	23	cholesterol	Chemical	MESH:D002784
+10501560	77	133	beta-hydroxy-beta-methylglutaryl-CoA (HmG-CoA) reductase	Gene	3156
+10501560	144	154	lovastatin	Chemical	MESH:D008148
+10501560	158	163	human	Species	9606
+10501560	164	167	HEK	CellLine	CVCL:0045
+10501560	195	220	amyloid precursor protein	Gene	351
+10501560	249	260	cholesterol	Chemical	MESH:D002784
+10501560	366	371	water	Chemical	MESH:D014867
+10501560	384	395	cholesterol	Chemical	MESH:D002784
+10501560	831	842	cholesterol	Chemical	MESH:D002784
+10501560	988	999	cholesterol	Chemical	MESH:D002784
+10501560	1033	1038	ApoE4	Gene	348
+10501560	1075	1094	Alzheimer's disease	Disease	MESH:D000544
+10501560	1096	1098	AD	Disease	MESH:D000544
+10501560	Association	MESH:D002784	MESH:D014867
+10501560	Negative_Correlation	MESH:D002784	MESH:D008148
+10501560	Negative_Correlation	MESH:D008148	3156
+10501560	Association	MESH:D002784	MESH:D000544
+10501560	Negative_Correlation	MESH:D008148	351
+10501560	Association	MESH:D000544	348
+

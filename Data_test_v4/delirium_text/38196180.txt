@@ -1,0 +1,18 @@
+38196180|t|Determination of Alzheimer's disease based on morphology and atrophy using machine learning combined with automated segmentation.
+38196180|a|BACKGROUND: To evaluate the degree of cerebral atrophy for Alzheimer's disease (AD), voxel-based morphometry has been performed with magnetic resonance imaging. Detailed morphological changes in a specific tissue area having the most evidence of atrophy were not considered by the machine-learning technique. PURPOSE: To develop a machine-learning system that can capture morphology features for determination of atrophy of brain tissue in early-stage AD and classification of healthy participants or patients. MATERIAL AND METHODS: Three-dimensional T1-weighted (3D-T1W) data were obtained from AD Neuroimaging Initiative (200 healthy controls and 200 patients with early-stage AD). Automated segmentation of 3D-T1W data was performed. Deep learning (DL) and support vector machine (SVM) were trained using 66-segmented volume values as input and AD diagnosis as output. DL was performed using 66 volume values or gray matter (GM) and white matter (WM) volume values. SVM learning was performed using 66 volume values and six regions with high variable importance. 3D convolutional neural network (3D-CNN) was trained using the segmented images. Accuracy and area under curve (AUC) were obtained. Variable importance was evaluated from logistic regression analysis. RESULTS: DL for GM and WM volume values, accuracy 0.6; SVM for all volume values, accuracy 0.82 and AUC 0.81; DL for all volume values, accuracy 0.82 and AUC 0.8; 3D-CNN using segmental images of the whole brain, accuracy 0.5 and AUC 0.51. SVM using volume values of six regions, accuracy 0.82; image-based 3D-CNN, highest accuracy 0.69. CONCLUSION: Our results show that atrophic features are more considerable than morphological features in the early detection of AD.
+38196180	17	36	Alzheimer's disease	Disease	MESH:D000544
+38196180	61	68	atrophy	Disease	MESH:D001284
+38196180	168	184	cerebral atrophy	Disease	MESH:D001284
+38196180	189	208	Alzheimer's disease	Disease	MESH:D000544
+38196180	210	212	AD	Disease	MESH:D000544
+38196180	376	383	atrophy	Disease	MESH:D001284
+38196180	543	559	atrophy of brain	Disease	MESH:C566985
+38196180	582	584	AD	Disease	MESH:D000544
+38196180	631	639	patients	Species	9606
+38196180	726	728	AD	Disease	MESH:D000544
+38196180	783	791	patients	Species	9606
+38196180	809	811	AD	Disease	MESH:D000544
+38196180	978	980	AD	Disease	MESH:D000544
+38196180	1769	1777	atrophic	Disease	MESH:D020966
+38196180	1863	1865	AD	Disease	MESH:D000544
+

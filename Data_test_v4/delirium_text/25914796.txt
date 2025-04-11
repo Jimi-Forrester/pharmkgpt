@@ -1,0 +1,7 @@
+25914796|t|A Transformation Similarity Constraint for Groupwise Nonlinear Registration in Longitudinal Neuro Imaging Studies.
+25914796|a|Patients with Alzheimer's disease and other brain disorders often show a similar spatial distribution of volume change throughout the brain over time,1,2 but this information is not yet used in registration algorithms to refine the quantification of change. Here, we develop a mathematical basis to incorporate that prior information into a longitudinal structural neuroimaging study. We modify the canonical minimization problem for non-linear registration to include a term that couples a collection of registrations together to enforce group similarity. More specifically, throughout the computation we maintain a group-level representation of the transformations and constrain updates to individual transformations to be similar to this representation. The derivations necessary to produce the Euler-Lagrange equations for the coupling term are presented and a gradient descent algorithm based on the formulation was implemented. We demonstrate using 57 longitudinal image pairs from the Alzheimer's Disease Neuroimaging Initiative (ADNI) that longitudinal registration with such a groupwise coupling prior is more robust to noise in estimating change, suggesting such change maps may have several important applications.
+25914796	115	123	Patients	Species	9606
+25914796	129	148	Alzheimer's disease	Disease	MESH:D000544
+25914796	159	174	brain disorders	Disease	MESH:D001927
+25914796	1107	1126	Alzheimer's Disease	Disease	MESH:D000544
+

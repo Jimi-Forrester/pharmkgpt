@@ -1,0 +1,11 @@
+26803769|t|Comparison of Feature Selection Techniques in Machine Learning for Anatomical Brain MRI in Dementia.
+26803769|a|We present a comparative split-half resampling analysis of various data driven feature selection and classification methods for the whole brain voxel-based classification analysis of anatomical magnetic resonance images. We compared support vector machines (SVMs), with or without filter based feature selection, several embedded feature selection methods and stability selection. While comparisons of the accuracy of various classification methods have been reported previously, the variability of the out-of-training sample classification accuracy and the set of selected features due to independent training and test sets have not been previously addressed in a brain imaging context. We studied two classification problems: 1) Alzheimer's disease (AD) vs. normal control (NC) and 2) mild cognitive impairment (MCI) vs. NC classification. In AD vs. NC classification, the variability in the test accuracy due to the subject sample did not vary between different methods and exceeded the variability due to different classifiers. In MCI vs. NC classification, particularly with a large training set, embedded feature selection methods outperformed SVM-based ones with the difference in the test accuracy exceeding the test accuracy variability due to the subject sample. The filter and embedded methods produced divergent feature patterns for MCI vs. NC classification that suggests the utility of the embedded feature selection for this problem when linked with the good generalization performance. The stability of the feature sets was strongly correlated with the number of features selected, weakly correlated with the stability of classification accuracy, and uncorrelated with the average classification accuracy.
+26803769	91	99	Dementia	Disease	MESH:D003704
+26803769	832	851	Alzheimer's disease	Disease	MESH:D000544
+26803769	853	855	AD	Disease	MESH:D000544
+26803769	893	913	cognitive impairment	Disease	MESH:D003072
+26803769	915	918	MCI	Disease	MESH:D060825
+26803769	946	948	AD	Disease	MESH:D000544
+26803769	1136	1139	MCI	Disease	MESH:D060825
+26803769	1446	1449	MCI	Disease	MESH:D060825
+

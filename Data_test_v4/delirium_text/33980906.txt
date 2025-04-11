@@ -1,0 +1,32 @@
+33980906|t|Random forest-based prediction of stroke outcome.
+33980906|a|We research into the clinical, biochemical and neuroimaging factors associated with the outcome of stroke patients to generate a predictive model using machine learning techniques for prediction of mortality and morbidity 3-months after admission. The dataset consisted of patients with ischemic stroke (IS) and non-traumatic intracerebral hemorrhage (ICH) admitted to Stroke Unit of a European Tertiary Hospital prospectively registered. We identified the main variables for machine learning Random Forest (RF), generating a predictive model that can estimate patient mortality/morbidity according to the following groups: (1) IS + ICH, (2) IS, and (3) ICH. A total of 6022 patients were included: 4922 (mean age 71.9 +- 13.8 years) with IS and 1100 (mean age 73.3 +- 13.1 years) with ICH. NIHSS at 24, 48 h and axillary temperature at admission were the most important variables to consider for evolution of patients at 3-months. IS + ICH group was the most stable for mortality prediction [0.904 +- 0.025 of area under the receiver operating characteristics curve (AUC)]. IS group presented similar results, although variability between experiments was slightly higher (0.909 +- 0.032 of AUC). ICH group was the one in which RF had more problems to make adequate predictions (0.9837 vs. 0.7104 of AUC). There were no major differences between IS and IS + ICH groups according to morbidity prediction (0.738 and 0.755 of AUC) but, after checking normality with a Shapiro Wilk test with the null hypothesis that the data follow a normal distribution, it was rejected with W = 0.93546 (p-value < 2.2e-16). Conditions required for a parametric test do not hold, and we performed a paired Wilcoxon Test assuming the null hypothesis that all the groups have the same performance. The null hypothesis was rejected with a value < 2.2e-16, so there are statistical differences between IS and ICH groups. In conclusion, machine learning algorithms RF can be effectively used in stroke patients for long-term outcome prediction of mortality and morbidity.
+33980906	34	40	stroke	Disease	MESH:D020521
+33980906	149	155	stroke	Disease	MESH:D020521
+33980906	156	164	patients	Species	9606
+33980906	323	331	patients	Species	9606
+33980906	337	352	ischemic stroke	Disease	MESH:D002544
+33980906	354	356	IS	Disease	MESH:D002544
+33980906	376	400	intracerebral hemorrhage	Disease	MESH:D002543
+33980906	402	405	ICH	Disease	MESH:D002543
+33980906	419	425	Stroke	Disease	MESH:D020521
+33980906	611	618	patient	Species	9606
+33980906	678	680	IS	Disease	MESH:D002544
+33980906	683	686	ICH	Disease	MESH:D002543
+33980906	692	694	IS	Disease	MESH:D002544
+33980906	704	707	ICH	Disease	MESH:D002543
+33980906	725	733	patients	Species	9606
+33980906	789	791	IS	Disease	MESH:D002544
+33980906	836	839	ICH	Disease	MESH:D002543
+33980906	960	968	patients	Species	9606
+33980906	982	984	IS	Disease	MESH:D002544
+33980906	987	990	ICH	Disease	MESH:D002543
+33980906	1125	1127	IS	Disease	MESH:D002544
+33980906	1247	1250	ICH	Disease	MESH:D002543
+33980906	1396	1398	IS	Disease	MESH:D002544
+33980906	1403	1405	IS	Disease	MESH:D002544
+33980906	1408	1411	ICH	Disease	MESH:D002543
+33980906	1929	1931	IS	Disease	MESH:D002544
+33980906	1936	1939	ICH	Disease	MESH:D002543
+33980906	2021	2027	stroke	Disease	MESH:D020521
+33980906	2028	2036	patients	Species	9606
+

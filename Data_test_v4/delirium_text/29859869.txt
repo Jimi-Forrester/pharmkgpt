@@ -1,0 +1,65 @@
+29859869|t|Neuronal levels and sequence of tau modulate the power of brain rhythms.
+29859869|a|Neural network dysfunction may contribute to functional decline and disease progression in neurodegenerative disorders. Diverse lines of evidence suggest that neuronal accumulation of tau promotes network dysfunction and cognitive decline. The A152T-variant of human tau (hTau-A152T) increases the risk of Alzheimer's disease (AD) and several other tauopathies. When overexpressed in neurons of transgenic mice, it causes age-dependent neuronal loss and cognitive decline, as well as non-convulsive epileptic activity, which is also seen in patients with AD. Using intracranial EEG recordings with electrodes implanted over the parietal cortex, we demonstrate that hTau-A152T increases the power of brain oscillations in the 0.5-6 Hz range more than wildtype human tau in transgenic lines with comparable levels of human tau protein in brain, and that genetic ablation of endogenous tau in Mapt-/- mice decreases the power of these oscillations as compared to wildtype controls. Suppression of hTau-A152T production in doxycycline-regulatable transgenic mice reversed their abnormal network activity. Treatment of hTau-A152T mice with the antiepileptic drug levetiracetam also rapidly and persistently reversed their brain dysrhythmia and network hypersynchrony. These findings suggest that both the level and the sequence of tau modulate the power of specific brain oscillations. The potential of EEG spectral changes as a biomarker deserves to be explored in clinical trials of tau-lowering therapeutics. Our results also suggest that levetiracetam treatment is able to counteract tau-dependent neural network dysfunction. Tau reduction and levetiracetam treatment may be of benefit in AD and other conditions associated with brain dysrhythmias and network hypersynchrony.
+29859869	32	35	tau	Gene	4137
+29859869	88	99	dysfunction	Disease	MESH:D006331
+29859869	164	191	neurodegenerative disorders	Disease	MESH:D019636
+29859869	257	260	tau	Gene	4137
+29859869	278	289	dysfunction	Disease	MESH:D006331
+29859869	294	311	cognitive decline	Disease	MESH:D003072
+29859869	317	322	A152T	ProteinMutation	tmVar:p|SUB|A|152|T;HGVS:p.A152T;VariantGroup:0;CorrespondingGene:4137;RS#:143624519;CorrespondingSpecies:9606;CA#:8617962
+29859869	334	339	human	Species	9606
+29859869	340	343	tau	Gene	4137
+29859869	350	355	A152T	ProteinMutation	tmVar:p|SUB|A|152|T;HGVS:p.A152T;VariantGroup:0;CorrespondingGene:4137;RS#:143624519;CorrespondingSpecies:9606;CA#:8617962
+29859869	379	398	Alzheimer's disease	Disease	MESH:D000544
+29859869	400	402	AD	Disease	MESH:D000544
+29859869	422	433	tauopathies	Disease	MESH:D024801
+29859869	479	483	mice	Species	10090
+29859869	509	522	neuronal loss	Disease	MESH:D009410
+29859869	527	544	cognitive decline	Disease	MESH:D003072
+29859869	561	590	convulsive epileptic activity	Disease	MESH:D004829
+29859869	614	622	patients	Species	9606
+29859869	628	630	AD	Disease	MESH:D000544
+29859869	743	748	A152T	ProteinMutation	tmVar:p|SUB|A|152|T;HGVS:p.A152T;VariantGroup:0;CorrespondingGene:4137;RS#:143624519;CorrespondingSpecies:9606;CA#:8617962
+29859869	832	837	human	Species	9606
+29859869	838	841	tau	Gene	4137
+29859869	888	893	human	Species	9606
+29859869	894	897	tau	Gene	4137
+29859869	956	959	tau	Gene	4137
+29859869	971	975	mice	Species	10090
+29859869	1072	1077	A152T	ProteinMutation	tmVar:p|SUB|A|152|T;HGVS:p.A152T;VariantGroup:0;CorrespondingGene:4137;RS#:143624519;CorrespondingSpecies:9606;CA#:8617962
+29859869	1092	1103	doxycycline	Chemical	MESH:D004318
+29859869	1127	1131	mice	Species	10090
+29859869	1192	1197	A152T	ProteinMutation	tmVar:p|SUB|A|152|T;HGVS:p.A152T;VariantGroup:0;CorrespondingGene:4137;RS#:143624519;CorrespondingSpecies:9606;CA#:8617962
+29859869	1198	1202	mice	Species	10090
+29859869	1231	1244	levetiracetam	Chemical	MESH:D000077287
+29859869	1296	1307	dysrhythmia	Disease	MESH:D001145
+29859869	1399	1402	tau	Gene	4137
+29859869	1553	1556	tau	Gene	4137
+29859869	1610	1623	levetiracetam	Chemical	MESH:D000077287
+29859869	1656	1659	tau	Gene	4137
+29859869	1685	1696	dysfunction	Disease	MESH:D006331
+29859869	1698	1701	Tau	Gene	4137
+29859869	1716	1729	levetiracetam	Chemical	MESH:D000077287
+29859869	1761	1763	AD	Disease	MESH:D000544
+29859869	1801	1819	brain dysrhythmias	Disease	MESH:D001145
+29859869	Positive_Correlation	MESH:D003072	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+29859869	Positive_Correlation	MESH:D009410	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+29859869	Positive_Correlation	MESH:D006331	4137
+29859869	Association	MESH:D003072	4137
+29859869	Negative_Correlation	MESH:D000077287	MESH:D000544
+29859869	Negative_Correlation	MESH:D004318	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+29859869	Positive_Correlation	MESH:D004829	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+29859869	Positive_Correlation	MESH:D000544	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+29859869	Positive_Correlation	MESH:D024801	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+29859869	Negative_Correlation	MESH:D000077287	MESH:D001145
+29859869	Association	MESH:D024801	4137
+29859869	Negative_Correlation	MESH:D000077287	MESH:D006331
+29859869	Association	MESH:D000077287	4137
+29859869	Association	MESH:D004829	4137
+29859869	Association	MESH:D000544	4137
+29859869	Association	MESH:D003072	4137
+29859869	Association	MESH:D009410	4137
+29859869	Association	MESH:D004829	4137
+29859869	Association	MESH:D000544	4137
+29859869	Association	MESH:D024801	4137
+

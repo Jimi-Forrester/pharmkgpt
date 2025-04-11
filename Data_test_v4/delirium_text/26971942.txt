@@ -1,0 +1,14 @@
+26971942|t|Fuzzy Computer-Aided Alzheimer's Disease Diagnosis Based on MRI Data.
+26971942|a|Alzheimer's disease (AD) is a chronic neurodegenerative disease of the central nervous system that has no cure and leads to death. One of the most prevalent tools for AD diagnosis is magnetic resonance imaging (MRI), because of its capability to visualize brain anatomical structures. There is a variety of classification methods for automatic diagnosis of AD, such as support vector machines, genetic algorithms, Bayes classifiers, neural networks, random forests, etc., but none of them provides robust information about the stage of the AD, they can just reveal the presence of disease. In this paper, a new approach for classification of MRI images using a fuzzy inference system is proposed. Two statistical moments (mean and standard deviation) of 116 anatomical regions of interests (ROIs) are used as input features for the classification system. A t-test feature selection method is used to identify the most discriminative ROIs. In order to evaluate the proposed system, MRI images from a database consisting of 818 subjects (229 normal, 401 mild cognitive impairment and 188 AD subjects) collected from the Alzheimer's disease neuroimaging initiative (ADNI) is analyzed. The receiver operating characteristics (ROC) curve and the area under the curve (AUC) of the proposed fuzzy inference system fed by statistical input features are employed as the evaluation criteria with k-fold cross validation. The proposed system yields promising results in normal vs. AD classification with AUC of 0.99 on the training set and 0.8622+-0.0033 on the testing set. 
+26971942	21	40	Alzheimer's Disease	Disease	MESH:D000544
+26971942	70	89	Alzheimer's disease	Disease	MESH:D000544
+26971942	91	93	AD	Disease	MESH:D000544
+26971942	108	133	neurodegenerative disease	Disease	MESH:D019636
+26971942	237	239	AD	Disease	MESH:D000544
+26971942	427	429	AD	Disease	MESH:D000544
+26971942	610	612	AD	Disease	MESH:D000544
+26971942	1127	1147	cognitive impairment	Disease	MESH:D003072
+26971942	1156	1158	AD	Disease	MESH:D000544
+26971942	1188	1207	Alzheimer's disease	Disease	MESH:D000544
+26971942	1540	1542	AD	Disease	MESH:D000544
+

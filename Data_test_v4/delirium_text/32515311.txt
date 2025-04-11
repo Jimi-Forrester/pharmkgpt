@@ -1,0 +1,22 @@
+32515311|t|PTML Modeling for Alzheimer's Disease: Design and Prediction of Virtual Multi-Target Inhibitors of GSK3B, HDAC1, and HDAC6.
+32515311|a|BACKGROUND: Alzheimer's disease is characterized by a progressive pattern of cognitive and functional impairment, which ultimately leads to death. Computational approaches have played an important role in the context of drug discovery for anti-Alzheimer's therapies. However, most of the computational models reported to date have been focused on only one protein associated with Alzheimer's, while relying on small datasets of structurally related molecules. OBJECTIVE: We introduce the first model combining perturbation theory and machine learning based on artificial neural networks (PTML-ANN) for simultaneous prediction and design of inhibitors of three Alzheimer's disease-related proteins, namely glycogen synthase kinase 3 beta (GSK3B), histone deacetylase 1 (HDAC1), and histone deacetylase 6 (HDAC6). METHODS: The PTML-ANN model was obtained from a dataset retrieved from ChEMBL, and it relied on a classification approach to predict chemicals as active or inactive. RESULTS: The PTML-ANN model displayed sensitivity and specificity higher than 85% in both training and test sets. The physicochemical and structural interpretation of the molecular descriptors in the model permitted the direct extraction of fragments suggested to favorably contribute to enhancing the multitarget inhibitory activity. Based on this information, we assembled ten molecules from several fragments with positive contributions. Seven of these molecules were predicted as triple target inhibitors while the remaining three were predicted as dual-target inhibitors. The estimated physicochemical properties of the designed molecules complied with Lipinski's rule of five and its variants. CONCLUSION: This work opens new horizons toward the design of multi-target inhibitors for anti- Alzheimer's therapies.
+32515311	18	37	Alzheimer's Disease	Disease	MESH:D000544
+32515311	99	104	GSK3B	Gene	2932
+32515311	106	111	HDAC1	Gene	3065
+32515311	117	122	HDAC6	Gene	10013
+32515311	136	155	Alzheimer's disease	Disease	MESH:D000544
+32515311	201	236	cognitive and functional impairment	Disease	MESH:D003072
+32515311	368	379	Alzheimer's	Disease	MESH:D000544
+32515311	504	515	Alzheimer's	Disease	MESH:D000544
+32515311	784	803	Alzheimer's disease	Disease	MESH:D000544
+32515311	829	860	glycogen synthase kinase 3 beta	Gene	2932
+32515311	862	867	GSK3B	Gene	2932
+32515311	870	891	histone deacetylase 1	Gene	3065
+32515311	893	898	HDAC1	Gene	3065
+32515311	905	926	histone deacetylase 6	Gene	10013
+32515311	928	933	HDAC6	Gene	10013
+32515311	1898	1909	Alzheimer's	Disease	MESH:D000544
+32515311	Association	MESH:D000544	3065
+32515311	Association	MESH:D000544	2932
+32515311	Association	MESH:D000544	10013
+

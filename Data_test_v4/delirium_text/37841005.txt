@@ -1,0 +1,18 @@
+37841005|t|Multi-pinhole collimator design in different numbers of projections for brain SPECT.
+37841005|a|Purpose: High resolution and sensitivity brain SPECT is promising for the accurate diagnosis of Alzheimer's disease (AD) and Parkinson's disease (PD). Multi-pinhole (MPH) collimators with a good performance in imaging small field-of-view (FOV) could be better used for brain SPECT. In this study, we aim to evaluate the impact of varying the number of pinholes and the number of projections on the performance of MPH brain SPECT. Methods: The system design was based on a commercial clinical dual-head SPECT/CT scanner, with target spatial resolutions of 12 mm and 8 mm for AD and PD SPECT, respectively. In total, 1-25 pinholes were modeled for 64, 32, 16, 8, 4, and 2 projections. The 3D NURBS-based HUman Brain (NHUB) phantom was used in the analytical simulation to model 99mTc-HMPAO and 99mTc-TRODAT distributions. The 2D Derenzo hot-rod phantom and star phantom were used in Monte Carlo simulations to evaluate the spatial resolution and angular sampling performance of MPH. The influence of different detector positions was also evaluated for 2, 4, and 6 angular views. The projections were reconstructed using the 3D MPH ML-EM method. Normalized mean square error, coefficient of variation, and image profiles were evaluated. Results: Along with the decrease in the number of projections, more pinholes are required to achieve the optimum performance. For 32 projections, 9- and 7-pinhole collimators provide the best normalized mean square error (NMSE) to the coefficient of variation (COV) trade-off for 99mTc-HMPAO and 99mTc-TRODAT, respectively. Detector positions substantially affect the image quality for MPH SPECT for 2 and 4 angular views. The smallest rod size for the Derenzo hot-rod phantom, which could be resolved, is 7.9 mm for the MPH general purpose collimator (MPGP) with more than 16 projections and 6.4 mm for MPH high-resolution collimator (MPHR) with more than 8 projections. Conclusion: The number of pinholes affects the performance of the MPH collimator, especially when the projection views become fewer. More pinholes are required for fewer projections to provide better angular sampling in MPH for complex activity distributions. Detector positions affect the image quality of MPH SPECT for 2 and 4 angular views, where L-mode acquisition is slightly superior to H-mode. MPH collimators exhibited improved spatial resolution and angular sampling compared with both LEHR and single pinhole collimators.
+37841005	181	200	Alzheimer's disease	Disease	MESH:D000544
+37841005	202	204	AD	Disease	MESH:D000544
+37841005	210	229	Parkinson's disease	Disease	MESH:D010300
+37841005	231	233	PD	Disease	MESH:D010300
+37841005	437	445	pinholes	Disease	MESH:C537550
+37841005	659	661	AD	Disease	MESH:D000544
+37841005	666	668	PD	Disease	MESH:D010300
+37841005	705	713	pinholes	Disease	MESH:C537550
+37841005	861	872	99mTc-HMPAO	Chemical	MESH:D019690
+37841005	877	889	99mTc-TRODAT	Chemical	-
+37841005	1387	1395	pinholes	Disease	MESH:C537550
+37841005	1599	1610	99mTc-HMPAO	Chemical	MESH:D019690
+37841005	1615	1627	99mTc-TRODAT	Chemical	-
+37841005	2017	2025	pinholes	Disease	MESH:C537550
+37841005	2129	2137	pinholes	Disease	MESH:C537550
+

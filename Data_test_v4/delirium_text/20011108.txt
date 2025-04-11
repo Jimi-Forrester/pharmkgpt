@@ -1,0 +1,11 @@
+20011108|t|ON/OFF and beyond--a boolean model of apoptosis.
+20011108|a|Apoptosis is regulated by several signaling pathways which are extensively linked by crosstalks. Boolean or logical modeling has become a promising approach to capture the qualitative behavior of such complex networks. Here we built a large-scale literature-based Boolean model of the central intrinsic and extrinsic apoptosis pathways as well as pathways connected with them. The model responds to several external stimuli such as Fas ligand, TNF-alpha, UV-B irradiation, interleukin-1beta and insulin. Timescales and multi-value node logic were used and turned out to be indispensable to reproduce the behavior of the apoptotic network. The coherence of the model was experimentally validated. Thereby an UV-B dose-effect is shown for the first time in mouse hepatocytes. Analysis of the model revealed a tight regulation emerging from high connectivity and spanning crosstalks and a particular importance of feedback loops. An unexpected feedback from Smac release to RIP could further increase complex II formation. The introduced Boolean model provides a comprehensive and coherent description of the apoptosis network behavior. It gives new insights into the complex interplay of pro- and antiapoptotic factors and can be easily expanded to other signaling pathways.
+20011108	493	502	TNF-alpha	Gene	21926
+20011108	504	508	UV-B	Chemical	-
+20011108	522	539	interleukin-1beta	Gene	16176
+20011108	756	760	UV-B	Chemical	-
+20011108	804	809	mouse	Species	10090
+20011108	1004	1008	Smac	Gene	66593
+20011108	1020	1023	RIP	Gene	110628
+20011108	Association	110628	66593
+

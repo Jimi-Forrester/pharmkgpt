@@ -1,0 +1,35 @@
+38445262|t|Improved prediction of sepsis-associated encephalopathy in intensive care unit sepsis patients with an innovative nomogram tool.
+38445262|a|Background: Sepsis-associated encephalopathy (SAE) occurs as a result of systemic inflammation caused by sepsis. It has been observed that the majority of sepsis patients experience SAE while being treated in the intensive care unit (ICU), and a significant number of survivors continue suffering from cognitive impairment even after recovering from the illness. The objective of this study was to create a predictive nomogram that could be used to identify SAE risk factors in patients with ICU sepsis. Methods: We conducted a retrospective cohort study using the Medical Information Mart for Intensive Care IV (MIMIC-IV) database. We defined SAE as a Glasgow Coma Scale (GCS) score of 15 or less, or delirium. The patients were randomly divided into training and validation cohorts. We used least absolute shrinkage and selection operator (LASSO) regression modeling to optimize feature selection. Independent risk factors were determined through a multivariable logistic regression analysis, and a prediction model was built. The performance of the nomogram was evaluated using various metrics including the area under the receiver operating characteristic curve (AUC), calibration plots, Hosmer-Lemeshow test, decision curve analysis (DCA), net reclassification improvement (NRI), and integrated discrimination improvement (IDI). Results: Among the 4,476 sepsis patients screened, 2,781 (62.1%) developed SAE. In-hospital mortality was higher in the SAE group compared to the non-SAE group (9.5% vs. 3.7%, p < 0.001). Several variables were analyzed, including the patient's age, gender, BMI on admission, mean arterial pressure, body temperature, platelet count, sodium level, and use of midazolam. These variables were used to create and validate a nomogram. The nomogram's performance, assessed by AUC, NRI, IDI, and DCA, was found to be superior to the conventional SOFA score combined with delirium. Calibration plots and the Hosmer-Lemeshow test confirmed the accuracy of the nomogram. The enhanced NRI and IDI values demonstrated that our scoring system outperformed traditional diagnostic approaches. Additionally, the DCA curve indicated the practicality of the nomogram in clinical settings. Conclusion: This study successfully identified autonomous risk factors associated with the emergence of SAE in sepsis patients and utilized them to formulate a predictive model. The outcomes of this investigation have the potential to serve as a valuable clinical resource for the timely detection of SAE in patients.
+38445262	23	55	sepsis-associated encephalopathy	Disease	MESH:D065166
+38445262	79	85	sepsis	Disease	MESH:D018805
+38445262	86	94	patients	Species	9606
+38445262	141	173	Sepsis-associated encephalopathy	Disease	MESH:D065166
+38445262	175	178	SAE	Disease	MESH:D065166
+38445262	211	223	inflammation	Disease	MESH:D007249
+38445262	234	240	sepsis	Disease	MESH:D018805
+38445262	284	290	sepsis	Disease	MESH:D018805
+38445262	291	299	patients	Species	9606
+38445262	311	314	SAE	Disease	MESH:D065166
+38445262	431	451	cognitive impairment	Disease	MESH:D003072
+38445262	587	590	SAE	Disease	MESH:D065166
+38445262	607	615	patients	Species	9606
+38445262	625	631	sepsis	Disease	MESH:D018805
+38445262	773	776	SAE	Disease	MESH:D065166
+38445262	790	794	Coma	Disease	MESH:D003128
+38445262	831	839	delirium	Disease	MESH:D003693
+38445262	845	853	patients	Species	9606
+38445262	1488	1494	sepsis	Disease	MESH:D018805
+38445262	1495	1503	patients	Species	9606
+38445262	1538	1541	SAE	Disease	MESH:D065166
+38445262	1583	1586	SAE	Disease	MESH:D065166
+38445262	1613	1616	SAE	Disease	MESH:D065166
+38445262	1698	1705	patient	Species	9606
+38445262	1797	1803	sodium	Chemical	MESH:D012964
+38445262	1822	1831	midazolam	Chemical	MESH:D008874
+38445262	2028	2036	delirium	Disease	MESH:D003693
+38445262	2439	2442	SAE	Disease	MESH:D065166
+38445262	2446	2452	sepsis	Disease	MESH:D018805
+38445262	2453	2461	patients	Species	9606
+38445262	2636	2639	SAE	Disease	MESH:D065166
+38445262	2643	2651	patients	Species	9606
+

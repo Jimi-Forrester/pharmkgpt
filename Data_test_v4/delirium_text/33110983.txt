@@ -1,0 +1,32 @@
+33110983|t|Machine Learning for Discovery of GSK3beta Inhibitors.
+33110983|a|Alzheimer's disease (AD) is the most common cause of dementia, affecting approximately 35 million people worldwide. The current treatment options for people with AD consist of drugs designed to slow the rate of decline in memory and cognition, but these treatments are not curative, and patients eventually suffer complete cognitive injury. With the substantial amounts of published data on targets for this disease, we proposed that machine learning software could be used to find novel small-molecule treatments that can supplement the AD drugs currently on the market. In order to do this, we used publicly available data in ChEMBL to build and validate Bayesian machine learning models for AD target proteins. The first AD target that we have addressed with this method is the serine-threonine kinase glycogen synthase kinase 3 beta (GSK3beta), which is a proline-directed serine-threonine kinase that phosphorylates the microtubule-stabilizing protein tau. This phosphorylation prompts tau to dissociate from the microtubule and form insoluble oligomers called paired helical filaments, which are one of the components of the neurofibrillary tangles found in AD brains. Using our Bayesian machine learning model for GSK3beta consisting of 2368 molecules, this model produced a five-fold cross validation ROC of 0.905. This model was also used for virtual screening of large libraries of FDA-approved drugs and clinical candidates. Subsequent testing of selected compounds revealed a selective small-molecule inhibitor, ruboxistaurin, with activity against GSK3beta (avg IC50 = 97.3 nM) and GSK3alpha (IC50 = 695.9 nM). Several other structurally diverse inhibitors were also identified. We are now applying this machine learning approach to additional AD targets to identify approved drugs or clinical trial candidates that can be repurposed as AD therapeutics. This represents a viable approach to accelerate drug discovery and do so at a fraction of the cost of traditional high throughput screening.
+33110983	34	42	GSK3beta	Gene	2932
+33110983	55	74	Alzheimer's disease	Disease	MESH:D000544
+33110983	76	78	AD	Disease	MESH:D000544
+33110983	108	116	dementia	Disease	MESH:D003704
+33110983	217	219	AD	Disease	MESH:D000544
+33110983	266	283	decline in memory	Disease	MESH:D060825
+33110983	342	350	patients	Species	9606
+33110983	378	394	cognitive injury	Disease	MESH:D003072
+33110983	593	595	AD	Disease	MESH:D000544
+33110983	749	751	AD	Disease	MESH:D000544
+33110983	779	781	AD	Disease	MESH:D000544
+33110983	860	891	glycogen synthase kinase 3 beta	Gene	2932
+33110983	893	901	GSK3beta	Gene	2932
+33110983	1012	1015	tau	Gene	4137
+33110983	1046	1049	tau	Gene	4137
+33110983	1186	1209	neurofibrillary tangles	Disease	MESH:D055956
+33110983	1219	1221	AD	Disease	MESH:D000544
+33110983	1276	1284	GSK3beta	Gene	2932
+33110983	1579	1592	ruboxistaurin	Chemical	MESH:C099154
+33110983	1616	1624	GSK3beta	Gene	2932
+33110983	1650	1659	GSK3alpha	Gene	2931
+33110983	1812	1814	AD	Disease	MESH:D000544
+33110983	1905	1907	AD	Disease	MESH:D000544
+33110983	Association	2932	4137
+33110983	Negative_Correlation	MESH:C099154	2931
+33110983	Association	MESH:D055956	4137
+33110983	Association	MESH:D000544	2932
+33110983	Negative_Correlation	MESH:C099154	2932
+33110983	Association	MESH:D000544	4137
+

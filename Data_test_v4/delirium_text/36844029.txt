@@ -1,0 +1,19 @@
+36844029|t|Detecting Tweets Containing Cannabidiol-Related COVID-19 Misinformation Using Transformer Language Models and Warning Letters From Food and Drug Administration: Content Analysis and Identification.
+36844029|a|Background: COVID-19 has introduced yet another opportunity to web-based sellers of loosely regulated substances, such as cannabidiol (CBD), to promote sales under false pretenses of curing the disease. Therefore, it has become necessary to innovate ways to identify such instances of misinformation. Objective: We sought to identify COVID-19 misinformation as it relates to the sales or promotion of CBD and used transformer-based language models to identify tweets semantically similar to quotes taken from known instances of misinformation. In this case, the known misinformation was the publicly available Warning Letters from Food and Drug Administration (FDA). Methods: We collected tweets using CBD- and COVID-19-related terms. Using a previously trained model, we extracted the tweets indicating commercialization and sales of CBD and annotated those containing COVID-19 misinformation according to the FDA definitions. We encoded the collection of tweets and misinformation quotes into sentence vectors and then calculated the cosine similarity between each quote and each tweet. This allowed us to establish a threshold to identify tweets that were making false claims regarding CBD and COVID-19 while minimizing the instances of false positives. Results: We demonstrated that by using quotes taken from Warning Letters issued by FDA to perpetrators of similar misinformation, we can identify semantically similar tweets that also contain misinformation. This was accomplished by identifying a cosine distance threshold between the sentence vectors of the Warning Letters and tweets. Conclusions: This research shows that commercial CBD or COVID-19 misinformation can potentially be identified and curbed using transformer-based language models and known prior instances of misinformation. Our approach functions without the need for labeled data, potentially reducing the time at which misinformation can be identified. Our approach shows promise in that it is easily adapted to identify other forms of misinformation related to loosely regulated substances.
+36844029	28	39	Cannabidiol	Chemical	MESH:D002185
+36844029	48	56	COVID-19	Disease	MESH:D000086382
+36844029	210	218	COVID-19	Disease	MESH:D000086382
+36844029	320	331	cannabidiol	Chemical	MESH:D002185
+36844029	333	336	CBD	Chemical	MESH:D002185
+36844029	532	540	COVID-19	Disease	MESH:D000086382
+36844029	599	602	CBD	Chemical	MESH:D002185
+36844029	900	903	CBD	Chemical	MESH:D002185
+36844029	909	917	COVID-19	Disease	MESH:D000086382
+36844029	1033	1036	CBD	Chemical	MESH:D002185
+36844029	1068	1076	COVID-19	Disease	MESH:D000086382
+36844029	1387	1390	CBD	Chemical	MESH:D002185
+36844029	1395	1403	COVID-19	Disease	MESH:D000086382
+36844029	1841	1844	CBD	Chemical	MESH:D002185
+36844029	1848	1856	COVID-19	Disease	MESH:D000086382
+36844029	Association	MESH:D002185	MESH:D000086382
+

@@ -1,0 +1,35 @@
+34485220|t|A Data Science Approach to Estimating the Frequency of Driving Cessation Associated Suicide in the US: Evidence From the National Violent Death Reporting System.
+34485220|a|Driving cessation is a common transition experienced by aging adults that confers both a symbolic and literal loss of independence due to the central role of automobiles for mobility in the US. Prior research has shown that driving cessation has negative implications for mental health, social participation, and access to healthcare. Given these sequelae of driving cessation and prior work showing that late-life transitions related to independence (e.g., transitioning into residential care) are associated with suicide, we sought to estimate the frequency of driving cessation associated suicide. Data include suicide (n = 59,080) and undetermined (n = 6,862) deaths aged >=55 from the National Violent Death Reporting System (NVDRS, 2003-2017). Each case in the NVDRS has both quantitative data (e.g., demographic characteristics) and qualitative text narratives, derived from coroner/medical examiner reports, which describe the most salient circumstances and features of each death. To identify cases associated with driving cessation, we employed a supervised random forest algorithm to develop a Natural Language Processing (NLP) classifier. Identified driving cessation associated cases were then categorized and characterized using descriptive statistics and qualitative content analysis. From 2003 to 2017, there were an estimated 305 cases of suicide/undetermined deaths associated with driving cessation in the NVDRS, representing 0.04% of all cases. Cases associated with driving cessation were older, more likely to be male, more likely to have a physical health problem, more likely to have experienced a recent crisis, and more likely to have lived in a rural county than other decedents. Qualitative analysis identified functional impairment, alcohol-related driving limitations, loss of employment, and recent car accidents as common themes among cases associated with driving cessation. This analysis illustrates the utility of NLP in identifying novel correlates of suicide in later life. Although driving cessation associated suicide is a rare outcome, further research is warranted on understanding the conditions under which driving cessation is associated with suicidal behavior, and how to support the well-being of aging adults during these types of major life transitions.
+34485220	55	62	Driving	Disease	
+34485220	84	91	Suicide	Disease	
+34485220	130	143	Violent Death	Disease	MESH:D003643
+34485220	162	169	Driving	Disease	
+34485220	272	279	loss of	Disease	MESH:D016388
+34485220	386	393	driving	Disease	
+34485220	521	528	driving	Disease	
+34485220	677	684	suicide	Disease	
+34485220	725	732	driving	Disease	
+34485220	754	761	suicide	Disease	
+34485220	776	783	suicide	Disease	
+34485220	826	832	deaths	Disease	MESH:D003643
+34485220	861	874	Violent Death	Disease	MESH:D003643
+34485220	1145	1150	death	Disease	MESH:D003643
+34485220	1186	1193	driving	Disease	
+34485220	1324	1331	driving	Disease	
+34485220	1518	1525	suicide	Disease	
+34485220	1539	1545	deaths	Disease	MESH:D003643
+34485220	1562	1569	driving	Disease	
+34485220	1649	1656	driving	Disease	
+34485220	1901	1922	functional impairment	Disease	MESH:D003072
+34485220	1924	1931	alcohol	Chemical	MESH:D000438
+34485220	1940	1959	driving limitations	Disease	MESH:D045745
+34485220	1961	1968	loss of	Disease	MESH:D016388
+34485220	1992	2005	car accidents	Disease	MESH:C566176
+34485220	2051	2058	driving	Disease	
+34485220	2150	2157	suicide	Disease	
+34485220	2182	2189	driving	Disease	
+34485220	2211	2218	suicide	Disease	
+34485220	2312	2319	driving	Disease	
+34485220	2349	2366	suicidal behavior	Disease	MESH:D001523
+34485220	Positive_Correlation	MESH:D000438	MESH:D045745
+

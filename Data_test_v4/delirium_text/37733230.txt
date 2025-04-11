@@ -1,0 +1,18 @@
+37733230|t|Transcriptomics Meta-Analysis Reveals Phagosome and Innate Immune System Dysfunction as Potential Mechanisms in the Cortex of Alzheimer's Disease Mouse Strains.
+37733230|a|Immune-related pathways can affect the immune system directly, such as the chemokine signaling pathway, or indirectly, such as the phagosome pathway. Alzheimer's disease (AD) is reportedly associated with several immune-related pathways. However, exploring its underlying mechanism is challenging in animal studies because AD mouse strains differentially express immune-related pathway characteristics. To overcome this problem, we performed a meta-analysis to identify significant and consistent immune-related AD pathways that are expressed in different AD mouse strains. Next-generation RNA sequencing (RNA-seq) and microarray datasets for the cortex of AD mice from different strains such as APP/PSEN1, APP/PS2, 3xTg, TREM, and 5xFAD were collected from the NCBI GEO database. Each dataset's quality control and normalization were already processed from each original study source using various methods depending on the high-throughput analysis platform (FastQC, median of ratios, RMA, between array normalization). Datasets were analyzed using DESeq2 for RNA-seq and GEO2R for microarray to identify differentially expressed (DE) genes. Significantly DE genes were meta-analyzed using Stouffer's method, with significant genes further analyzed for functional enrichment. Ten datasets representing 20 conditions were obtained from the NCBI GEO database, comprising 116 control and 120 AD samples. The DE analysis identified 284 significant DE genes. The meta-analysis identified three significantly enriched immune-related AD pathways: phagosome, the complement and coagulation cascade, and chemokine signaling. Phagosomes-related genes correlated with complement and immune system. Meanwhile, phagosomes and chemokine signaling genes overlapped with B cells receptors pathway genes indicating potential correlation between phagosome, chemokines, and adaptive immune system as well. The transcriptomic meta-analysis showed that AD is associated with immune-related pathways in the brain's cortex through the phagosome, complement and coagulation cascade, and chemokine signaling pathways. Interestingly, phagosome and chemokine signaling pathways had potential correlation with B cells receptors pathway.
+37733230	59	84	Immune System Dysfunction	Disease	MESH:D007154
+37733230	126	145	Alzheimer's Disease	Disease	MESH:D000544
+37733230	311	330	Alzheimer's disease	Disease	MESH:D000544
+37733230	332	334	AD	Disease	MESH:D000544
+37733230	484	486	AD	Disease	MESH:D000544
+37733230	673	675	AD	Disease	MESH:D000544
+37733230	717	719	AD	Disease	MESH:D000544
+37733230	818	820	AD	Disease	MESH:D000544
+37733230	861	866	PSEN1	Gene	19164
+37733230	872	875	PS2	Gene	21784
+37733230	1550	1552	AD	Disease	MESH:D000544
+37733230	1688	1690	AD	Disease	MESH:D000544
+37733230	2093	2095	AD	Disease	MESH:D000544
+37733230	Association	MESH:D000544	19164
+37733230	Association	MESH:D000544	21784
+

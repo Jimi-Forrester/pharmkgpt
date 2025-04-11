@@ -1,0 +1,37 @@
+37398680|t|Identification and validation of a novel mitochondrion-related gene signature for diagnosis and immune infiltration in sepsis.
+37398680|a|Background: Owing to the complex pathophysiological features and heterogeneity of sepsis, current diagnostic methods are not sufficiently precise or timely, causing a delay in treatment. It has been suggested that mitochondrial dysfunction plays a critical role in sepsis. However, the role and mechanism of mitochondria-related genes in the diagnostic and immune microenvironment of sepsis have not been sufficiently investigated. Methods: Mitochondria-related differentially expressed genes (DEGs) were identified between human sepsis and normal samples from GSE65682 dataset. Least absolute shrinkage and selection operator (LASSO) regression and the Support Vector Machine (SVM) analyses were carried out to locate potential diagnostic biomarkers. Gene ontology and gene set enrichment analyses were conducted to identify the key signaling pathways associated with these biomarker genes. Furthermore, correlation of these genes with the proportion of infiltrating immune cells was estimated using CIBERSORT. The expression and diagnostic value of the diagnostic genes were evaluated using GSE9960 and GSE134347 datasets and septic patients. Furthermore, we established an in vitro sepsis model using lipopolysaccharide (1 microg/mL)-stimulated CP-M191 cells. Mitochondrial morphology and function were evaluated in PBMCs from septic patients and CP-M191 cells, respectively. Results: In this study, 647 mitochondrion-related DEGs were obtained. Machine learning confirmed six critical mitochondrion-related DEGs, including PID1, CS, CYP1B1, FLVCR1, IFIT2, and MAPK14. We then developed a diagnostic model using the six genes, and receiver operating characteristic (ROC) curves indicated that the novel diagnostic model based on the above six critical genes screened sepsis samples from normal samples with area under the curve (AUC) = 1.000, which was further demonstrated in the GSE9960 and GSE134347 datasets and our cohort. Importantly, we also found that the expression of these genes was associated with different kinds of immune cells. In addition, mitochondrial dysfunction was mainly manifested by the promotion of mitochondrial fragmentation (p<0.05), impaired mitochondrial respiration (p<0.05), decreased mitochondrial membrane potential (p<0.05), and increased reactive oxygen species (ROS) generation (p<0.05) in human sepsis and LPS-simulated in vitro sepsis models. Conclusion: We constructed a novel diagnostic model containing six MRGs, which has the potential to be an innovative tool for the early diagnosis of sepsis.
+37398680	119	125	sepsis	Disease	MESH:D018805
+37398680	209	215	sepsis	Disease	MESH:D018805
+37398680	341	366	mitochondrial dysfunction	Disease	MESH:D028361
+37398680	392	398	sepsis	Disease	MESH:D018805
+37398680	511	517	sepsis	Disease	MESH:D018805
+37398680	657	663	sepsis	Disease	MESH:D018805
+37398680	1255	1261	septic	Disease	MESH:D001170
+37398680	1312	1318	sepsis	Disease	MESH:D018805
+37398680	1331	1349	lipopolysaccharide	Chemical	MESH:D008070
+37398680	1375	1382	CP-M191	CellLine	CVCL:J921
+37398680	1457	1463	septic	Disease	MESH:D001170
+37398680	1477	1484	CP-M191	CellLine	CVCL:J921
+37398680	1654	1658	PID1	Gene	55022
+37398680	1660	1662	CS	Gene	1431
+37398680	1664	1670	CYP1B1	Gene	1545
+37398680	1672	1678	FLVCR1	Gene	28982
+37398680	1680	1685	IFIT2	Gene	3433
+37398680	1691	1697	MAPK14	Gene	1432
+37398680	1897	1903	sepsis	Disease	MESH:D018805
+37398680	2186	2211	mitochondrial dysfunction	Disease	MESH:D028361
+37398680	2254	2281	mitochondrial fragmentation	Disease	MESH:D012892
+37398680	2404	2427	reactive oxygen species	Chemical	MESH:D017382
+37398680	2429	2432	ROS	Chemical	MESH:D017382
+37398680	2463	2469	sepsis	Disease	MESH:D018805
+37398680	2474	2477	LPS	Chemical	MESH:D008070
+37398680	2497	2503	sepsis	Disease	MESH:D018805
+37398680	2661	2667	sepsis	Disease	MESH:D018805
+37398680	Positive_Correlation	MESH:D008070	MESH:D018805
+37398680	Association	MESH:D018805	1432
+37398680	Association	MESH:D018805	3433
+37398680	Association	MESH:D018805	28982
+37398680	Association	MESH:D028361	1432
+37398680	Association	MESH:D017382	MESH:D028361
+37398680	Positive_Correlation	MESH:D008070	MESH:D012892
+

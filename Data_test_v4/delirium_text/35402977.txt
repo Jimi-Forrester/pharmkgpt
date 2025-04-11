@@ -1,0 +1,14 @@
+35402977|t|Privacy-Preserving Deep Speaker Separation for Smartphone-Based Passive Speech Assessment.
+35402977|a|Goal: Smartphones can be used to passively assess and monitor patients' speech impairments caused by ailments such as Parkinson's disease, Traumatic Brain Injury (TBI), Post-Traumatic Stress Disorder (PTSD) and neurodegenerative diseases such as Alzheimer's disease and dementia. However, passive audio recordings in natural settings often capture the speech of non-target speakers (cross-talk). Consequently, speaker separation, which identifies the target speakers' speech in audio recordings with two or more speakers' voices, is a crucial pre-processing step in such scenarios. Prior speech separation methods analyzed raw audio. However, in order to preserve speaker privacy, passively recorded smartphone audio and machine learning-based speech assessment are often performed on derived speech features such as Mel-Frequency Cepstral Coefficients (MFCCs). In this paper, we propose a novel Deep MFCC bAsed SpeaKer Separation (Deep-MASKS). Methods: Deep-MASKS uses an autoencoder to reconstruct MFCC components of an individual's speech from an i-vector, x-vector or d-vector representation of their speech learned during the enrollment period. Deep-MASKS utilizes a Deep Neural Network (DNN) for MFCC signal reconstructions, which yields a more accurate, higher-order function compared to prior work that utilized a mask. Unlike prior work that operates on utterances, Deep-MASKS operates on continuous audio recordings. Results: Deep-MASKS outperforms baselines, reducing the Mean Squared Error (MSE) of MFCC reconstruction by up to 44% and the number of additional bits required to represent clean speech entropy by 36%.
+35402977	153	161	patients	Species	9606
+35402977	163	181	speech impairments	Disease	MESH:D013064
+35402977	192	200	ailments	Disease	
+35402977	209	228	Parkinson's disease	Disease	MESH:D010300
+35402977	230	252	Traumatic Brain Injury	Disease	MESH:D000070642
+35402977	254	257	TBI	Disease	MESH:D000070642
+35402977	260	290	Post-Traumatic Stress Disorder	Disease	MESH:D013313
+35402977	292	296	PTSD	Disease	MESH:D013313
+35402977	302	328	neurodegenerative diseases	Disease	MESH:D019636
+35402977	337	356	Alzheimer's disease	Disease	MESH:D000544
+35402977	361	369	dementia	Disease	MESH:D003704
+

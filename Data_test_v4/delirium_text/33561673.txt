@@ -1,0 +1,66 @@
+33561673|t|Discovering symptom patterns of COVID-19 patients using association rule mining.
+33561673|a|BACKGROUND: The COVID-19 pandemic is a significant public health crisis that is hitting hard on people's health, well-being, and freedom of movement, and affecting the global economy. Scientists worldwide are competing to develop therapeutics and vaccines; currently, three drugs and two vaccine candidates have been given emergency authorization use. However, there are still questions of efficacy with regard to specific subgroups of patients and the vaccine's scalability to the general public. Under such circumstances, understanding COVID-19 symptoms is vital in initial triage; it is crucial to distinguish the severity of cases for effective management and treatment. This study aimed to discover symptom patterns and overall symptom rules, including rules disaggregated by age, sex, chronic condition, and mortality status, among COVID-19 patients. METHODS: This study was a retrospective analysis of COVID-19 patient data made available online by the Wolfram Data Repository through May 27, 2020. We applied a widely used rule-based machine learning technique called association rule mining to identify frequent symptoms and define patterns in the rules discovered. RESULT: In total, 1,560 patients with COVID-19 were included in the study, with a median age of 52 years. The most frequently occurring symptom was fever (67%), followed by cough (37%), malaise/body soreness (11%), pneumonia (11%), and sore throat (8%). Myocardial infarction, heart failure, and renal disease were present in less than 1% of patients. The top ten significant symptom rules (out of 71 generated) showed cough, septic shock, and respiratory distress syndrome as frequent consequents. If a patient had a breathing problem and sputum production, then, there was higher confidence of that patient having a cough; if cardiac disease, renal disease, or pneumonia was present, then there was a higher confidence of septic shock or respiratory distress syndrome. Symptom rules differed between younger and older patients and between male and female patients. Patients who had chronic conditions or died of COVID-19 had more severe symptom rules than those patients who did not have chronic conditions or survived of COVID-19. Concerning chronic condition rules among 147 patients, if a patient had diabetes, prerenal azotemia, and coronary bypass surgery, there was a certainty of hypertension. CONCLUSION: The most frequently reported symptoms in patients with COVID-19 were fever, cough, pneumonia, and sore throat; while 1% had severe symptoms, such as septic shock, respiratory distress syndrome, and respiratory failure. Symptom rules differed by age and sex. Patients with chronic disease and patients who died of COVID-19 had severe symptom rules more specifically, cardiovascular-related symptoms accompanied by pneumonia, fever, and cough as consequents.
+33561673	32	40	COVID-19	Disease	MESH:D000086382
+33561673	41	49	patients	Species	9606
+33561673	97	105	COVID-19	Disease	MESH:D000086382
+33561673	177	183	people	Species	9606
+33561673	517	525	patients	Species	9606
+33561673	619	627	COVID-19	Disease	MESH:D000086382
+33561673	919	927	COVID-19	Disease	MESH:D000086382
+33561673	928	936	patients	Species	9606
+33561673	990	998	COVID-19	Disease	MESH:D000086382
+33561673	999	1006	patient	Species	9606
+33561673	1280	1288	patients	Species	9606
+33561673	1294	1302	COVID-19	Disease	MESH:D000086382
+33561673	1404	1409	fever	Disease	MESH:D005334
+33561673	1429	1434	cough	Disease	MESH:D003371
+33561673	1442	1449	malaise	Disease	
+33561673	1455	1463	soreness	Disease	MESH:D063806
+33561673	1471	1480	pneumonia	Disease	MESH:D011014
+33561673	1492	1503	sore throat	Disease	MESH:D010612
+33561673	1510	1531	Myocardial infarction	Disease	MESH:D009203
+33561673	1533	1546	heart failure	Disease	MESH:D006333
+33561673	1552	1565	renal disease	Disease	MESH:D007674
+33561673	1598	1606	patients	Species	9606
+33561673	1675	1680	cough	Disease	MESH:D003371
+33561673	1682	1694	septic shock	Disease	MESH:D012772
+33561673	1700	1729	respiratory distress syndrome	Disease	MESH:D012128
+33561673	1760	1767	patient	Species	9606
+33561673	1796	1802	sputum	Disease	
+33561673	1857	1864	patient	Species	9606
+33561673	1874	1879	cough	Disease	MESH:D003371
+33561673	1884	1899	cardiac disease	Disease	MESH:D006331
+33561673	1901	1914	renal disease	Disease	MESH:D007674
+33561673	1919	1928	pneumonia	Disease	MESH:D011014
+33561673	1980	1992	septic shock	Disease	MESH:D012772
+33561673	1996	2025	respiratory distress syndrome	Disease	MESH:D012128
+33561673	2076	2084	patients	Species	9606
+33561673	2113	2121	patients	Species	9606
+33561673	2123	2131	Patients	Species	9606
+33561673	2162	2166	died	Disease	MESH:D003643
+33561673	2170	2178	COVID-19	Disease	MESH:D000086382
+33561673	2220	2228	patients	Species	9606
+33561673	2280	2288	COVID-19	Disease	MESH:D000086382
+33561673	2335	2343	patients	Species	9606
+33561673	2350	2357	patient	Species	9606
+33561673	2362	2370	diabetes	Disease	MESH:D003920
+33561673	2381	2389	azotemia	Disease	MESH:D053099
+33561673	2445	2457	hypertension	Disease	MESH:D006973
+33561673	2512	2520	patients	Species	9606
+33561673	2526	2534	COVID-19	Disease	MESH:D000086382
+33561673	2540	2545	fever	Disease	MESH:D005334
+33561673	2547	2552	cough	Disease	MESH:D003371
+33561673	2554	2563	pneumonia	Disease	MESH:D011014
+33561673	2569	2580	sore throat	Disease	MESH:D010612
+33561673	2620	2632	septic shock	Disease	MESH:D012772
+33561673	2634	2663	respiratory distress syndrome	Disease	MESH:D012128
+33561673	2669	2688	respiratory failure	Disease	MESH:D012131
+33561673	2729	2737	Patients	Species	9606
+33561673	2763	2771	patients	Species	9606
+33561673	2776	2780	died	Disease	MESH:D003643
+33561673	2784	2792	COVID-19	Disease	MESH:D000086382
+33561673	2837	2868	cardiovascular-related symptoms	Disease	MESH:D002318
+33561673	2884	2893	pneumonia	Disease	MESH:D011014
+33561673	2895	2900	fever	Disease	MESH:D005334
+33561673	2906	2911	cough	Disease	MESH:D003371
+

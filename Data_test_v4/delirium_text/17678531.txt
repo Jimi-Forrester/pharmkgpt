@@ -1,0 +1,29 @@
+17678531|t|Can a single model explain both breast cancer and prostate cancer?
+17678531|a|BACKGROUND: The Estradiol-Dihydrotestosterone model of prostate cancer (PC) showed how the interaction of hormones with specific hormone receptors affected apoptosis. The same hormone can produce different effects, depending on which hormone receptor it interacts with. MODEL: This model proposes that the first step in the development of most PC and breast cancer (BC) occurs when aromatase converts testosterone to estradiol (E2). A sufficiently high enough local level of E2 results in telomerase activity. The telomerase activity allows cell division and may lead to BC or PC, which will proliferate if the rate of cell division is greater than the rate of cell death. The effect of hormones on their hormone receptors will affect the rate of cell death and determine whether or not the cancer proliferates. CONCLUSION: By minimizing bcl-2 and maximizing apoptotic proteins, new systemic treatments for BC and PC can be developed that may be more effective than existing treatments.
+17678531	32	45	breast cancer	Disease	MESH:D001943
+17678531	50	65	prostate cancer	Disease	MESH:D011471
+17678531	83	112	Estradiol-Dihydrotestosterone	Chemical	-
+17678531	122	137	prostate cancer	Disease	MESH:D011471
+17678531	139	141	PC	Disease	MESH:D011471
+17678531	411	413	PC	Disease	MESH:D011471
+17678531	418	431	breast cancer	Disease	MESH:D001943
+17678531	433	435	BC	Disease	MESH:D001943
+17678531	449	458	aromatase	Gene	1588
+17678531	468	480	testosterone	Chemical	MESH:D013739
+17678531	484	493	estradiol	Chemical	MESH:D004958
+17678531	495	497	E2	Chemical	MESH:D004958
+17678531	638	640	BC	Disease	MESH:D001943
+17678531	644	646	PC	Disease	MESH:D011471
+17678531	858	864	cancer	Disease	MESH:D009369
+17678531	905	910	bcl-2	Gene	596
+17678531	974	976	BC	Disease	MESH:D001943
+17678531	981	983	PC	Disease	MESH:D011471
+17678531	Positive_Correlation	MESH:D013739	MESH:D001943
+17678531	Positive_Correlation	MESH:D004958	MESH:D001943
+17678531	Association	MESH:D013739	1588
+17678531	Association	MESH:D001943	1588
+17678531	Association	MESH:D004958	1588
+17678531	Comparison	MESH:D004958	MESH:D013739
+17678531	Association	MESH:D011471	596
+17678531	Positive_Correlation	MESH:D004958	MESH:D011471
+

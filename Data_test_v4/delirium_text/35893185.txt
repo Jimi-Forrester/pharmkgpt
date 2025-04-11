@@ -1,0 +1,12 @@
+35893185|t|Hard Voting Ensemble Approach for the Detection of Type 2 Diabetes in Mexican Population with Non-Glucose Related Features.
+35893185|a|Type 2 diabetes mellitus (T2DM) represents one of the biggest health problems in Mexico, and it is extremely important to early detect this disease and its complications. For a noninvasive detection of T2DM, a machine learning (ML) approach that uses ensemble classification models with dichotomous output that is also fast and effective for early detection and prediction of T2D can be used. In this article, an ensemble technique by hard voting is designed and implemented using generalized linear regression (GLM), support vector machines (SVM) and artificial neural networks (ANN) for the classification of T2DM patients. In the materials and methods as a first step, the data is balanced, standardized, imputed and integrated into the three models to classify the patients in a dichotomous result. For the selection of features, an implementation of LASSO is developed, with a 10-fold cross-validation and for the final validation, the Area Under the Curve (AUC) is used. The results in LASSO showed 12 features, which are used in the implemented models to obtain the best possible scenario in the developed ensemble model. The algorithm with the best performance of the three is SVM, this model obtained an AUC of 92% +- 3%. The ensemble model built with GLM, SVM and ANN obtained an AUC of 90% +- 3%.
+35893185	51	66	Type 2 Diabetes	Disease	MESH:D003924
+35893185	98	105	Glucose	Chemical	MESH:D005947
+35893185	124	148	Type 2 diabetes mellitus	Disease	MESH:D003924
+35893185	150	154	T2DM	Disease	MESH:D003924
+35893185	326	330	T2DM	Disease	MESH:D003924
+35893185	500	503	T2D	Disease	MESH:D003924
+35893185	735	739	T2DM	Disease	MESH:D003924
+35893185	740	748	patients	Species	9606
+35893185	893	901	patients	Species	9606
+

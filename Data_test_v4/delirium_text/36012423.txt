@@ -1,0 +1,27 @@
+36012423|t|Combining Deep Phenotyping of Serum Proteomics and Clinical Data via Machine Learning for COVID-19 Biomarker Discovery.
+36012423|a|The persistence of long-term coronavirus-induced disease 2019 (COVID-19) sequelae demands better insights into its natural history. Therefore, it is crucial to discover the biomarkers of disease outcome to improve clinical practice. In this study, 160 COVID-19 patients were enrolled, of whom 80 had a "non-severe" and 80 had a "severe" outcome. Sera were analyzed by proximity extension assay (PEA) to assess 274 unique proteins associated with inflammation, cardiometabolic, and neurologic diseases. The main clinical and hematochemical data associated with disease outcome were grouped with serological data to form a dataset for the supervised machine learning techniques. We identified nine proteins (i.e., CD200R1, MCP1, MCP3, IL6, LTBP2, MATN3, TRANCE, alpha2-MRAP, and KIT) that contributed to the correct classification of COVID-19 disease severity when combined with relative neutrophil and lymphocyte counts. By analyzing PEA, clinical and hematochemical data with statistical methods that were able to handle many variables in the presence of a relatively small sample size, we identified nine potential serum biomarkers of a "severe" outcome. Most of these were confirmed by literature data. Importantly, we found three biomarkers associated with central nervous system pathologies and protective factors, which were downregulated in the most severe cases.
+36012423	139	201	long-term coronavirus-induced disease 2019 (COVID-19) sequelae	Disease	MESH:D000094024
+36012423	381	389	patients	Species	9606
+36012423	566	578	inflammation	Disease	MESH:D007249
+36012423	580	620	cardiometabolic, and neurologic diseases	Disease	MESH:D024821
+36012423	832	839	CD200R1	Gene	131450
+36012423	841	845	MCP1	Gene	6347
+36012423	847	851	MCP3	Gene	6354
+36012423	853	856	IL6	Gene	3569
+36012423	858	863	LTBP2	Gene	4053
+36012423	865	870	MATN3	Gene	4148
+36012423	872	878	TRANCE	Gene	8600
+36012423	880	891	alpha2-MRAP	Gene	4043
+36012423	897	900	KIT	Gene	3815
+36012423	952	968	COVID-19 disease	Disease	MESH:D000086382
+36012423	1388	1414	nervous system pathologies	Disease	MESH:D009421
+36012423	Association	MESH:D000086382	6347
+36012423	Association	MESH:D000086382	8600
+36012423	Association	MESH:D000086382	4053
+36012423	Association	MESH:D000086382	6354
+36012423	Association	MESH:D000086382	4043
+36012423	Association	MESH:D000086382	131450
+36012423	Association	MESH:D000086382	3569
+36012423	Association	MESH:D000086382	4148
+36012423	Association	MESH:D000086382	3815
+

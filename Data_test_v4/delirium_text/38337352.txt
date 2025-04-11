@@ -1,0 +1,30 @@
+38337352|t|Evaluating Computer Vision, Large Language, and Genome-Wide Association Models in a Limited Sized Patient Cohort for Pre-Operative Risk Stratification in Adult Spinal Deformity Surgery.
+38337352|a|Background: Adult spinal deformities (ASD) are varied spinal abnormalities, often necessitating surgical intervention when associated with pain, worsening deformity, or worsening function. Predicting post-operative complications and revision surgery is critical for surgical planning and patient counseling. Due to the relatively small number of cases of ASD surgery, machine learning applications have been limited to traditional models (e.g., logistic regression or standard neural networks) and coarse clinical variables. We present the novel application of advanced models (CNN, LLM, GWAS) using complex data types (radiographs, clinical notes, genomics) for ASD outcome prediction. Methods: We developed a CNN trained on 209 ASD patients (1549 radiographs) from the Stanford Research Repository, a CNN pre-trained on VinDr-SpineXR (10,468 spine radiographs), and an LLM using free-text clinical notes from the same 209 patients, trained via Gatortron. Additionally, we conducted a GWAS using the UK Biobank, contrasting 540 surgical ASD patients with 7355 non-surgical ASD patients. Results: The LLM notably outperformed the CNN in predicting pulmonary complications (F1: 0.545 vs. 0.2881), neurological complications (F1: 0.250 vs. 0.224), and sepsis (F1: 0.382 vs. 0.132). The pre-trained CNN showed improved sepsis prediction (AUC: 0.638 vs. 0.534) but reduced performance for neurological complication prediction (AUC: 0.545 vs. 0.619). The LLM demonstrated high specificity (0.946) and positive predictive value (0.467) for neurological complications. The GWAS identified 21 significant (p < 10-5) SNPs associated with ASD surgery risk (OR: mean: 3.17, SD: 1.92, median: 2.78), with the highest odds ratio (8.06) for the LDB2 gene, which is implicated in ectoderm differentiation. Conclusions: This study exemplifies the innovative application of cutting-edge models to forecast outcomes in ASD, underscoring the utility of complex data in outcome prediction for neurosurgical conditions. It demonstrates the promise of genetic models when identifying surgical risks and supports the integration of complex machine learning tools for informed surgical decision-making in ASD.
+38337352	98	105	Patient	Species	9606
+38337352	160	176	Spinal Deformity	Disease	MESH:D013122
+38337352	204	222	spinal deformities	Disease	MESH:D013122
+38337352	224	227	ASD	Disease	MESH:D009134
+38337352	240	260	spinal abnormalities	Disease	MESH:D016472
+38337352	325	329	pain	Disease	MESH:D010146
+38337352	341	350	deformity	Disease	MESH:D009140
+38337352	474	481	patient	Species	9606
+38337352	541	544	ASD	Disease	MESH:D009134
+38337352	849	852	ASD	Disease	MESH:D009134
+38337352	916	919	ASD	Disease	MESH:D009134
+38337352	920	928	patients	Species	9606
+38337352	1110	1118	patients	Species	9606
+38337352	1224	1227	ASD	Disease	MESH:D009134
+38337352	1228	1236	patients	Species	9606
+38337352	1260	1263	ASD	Disease	MESH:D009134
+38337352	1264	1272	patients	Species	9606
+38337352	1334	1357	pulmonary complications	Disease	MESH:D008171
+38337352	1382	1408	neurological complications	Disease	MESH:D002493
+38337352	1436	1442	sepsis	Disease	MESH:D018805
+38337352	1502	1508	sepsis	Disease	MESH:D018805
+38337352	1571	1596	neurological complication	Disease	MESH:D002493
+38337352	1720	1746	neurological complications	Disease	MESH:D002493
+38337352	1815	1818	ASD	Disease	MESH:D009134
+38337352	1917	1921	LDB2	Gene	9079
+38337352	2087	2090	ASD	Disease	MESH:D009134
+38337352	2367	2370	ASD	Disease	MESH:D009134
+

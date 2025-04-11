@@ -1,0 +1,34 @@
+27493972|t|Actions of Thyroid Hormone Analogues on Chemokines.
+27493972|a|The extracellular domain of plasma membrane integrin alphavbeta3 contains a receptor for thyroid hormone (L-thyroxine, T4; 3,5,3'-triiodo-L-thyronine, T3); this receptor also binds tetraiodothyroacetic acid (tetrac), a derivative of T4. Tetrac inhibits the binding of T4 and T3 to the integrin. Fractalkine (CX3CL1) is a chemokine relevant to inflammatory processes in the CNS that are microglia-dependent but also important to normal brain development. Expression of the CX3CL1 gene is downregulated by tetrac, suggesting that T4 and T3 may stimulate fractalkine expression. Independently of its specific receptor (CX3CR1), fractalkine binds to alphavbeta3 at a site proximal to the thyroid hormone-tetrac receptor and changes the physical state of the integrin. Tetrac also affects expression of the genes for other CNS-relevant chemokines, including CCL20, CCL26, CXCL2, CXCL3, and CXCL10. The chemokine products of these genes are important to vascularity of the brain, particularly of the choroid plexus, to inflammatory processes in the CNS and, in certain cases, to neuroprotection. Thyroid hormones are known to contribute to regulation of each of these CNS functions. We propose that actions of thyroid hormone and hormone analogues on chemokine gene expression contribute to regulation of inflammatory processes in brain and of brain blood vessel formation and maintenance. 
+27493972	96	116	integrin alphavbeta3	Gene	3685
+27493972	158	169	L-thyroxine	Chemical	MESH:D013974
+27493972	175	201	3,5,3'-triiodo-L-thyronine	Chemical	MESH:D014284
+27493972	203	205	T3	Chemical	MESH:D014284
+27493972	233	258	tetraiodothyroacetic acid	Chemical	MESH:C011126
+27493972	260	266	tetrac	Chemical	MESH:C011126
+27493972	289	295	Tetrac	Chemical	MESH:C011126
+27493972	327	329	T3	Chemical	MESH:D014284
+27493972	347	358	Fractalkine	Gene	6376
+27493972	360	366	CX3CL1	Gene	6376
+27493972	395	407	inflammatory	Disease	MESH:D007249
+27493972	524	530	CX3CL1	Gene	6376
+27493972	556	562	tetrac	Chemical	MESH:C011126
+27493972	587	589	T3	Chemical	MESH:D014284
+27493972	604	615	fractalkine	Gene	6376
+27493972	668	674	CX3CR1	Gene	1524
+27493972	677	688	fractalkine	Gene	6376
+27493972	905	910	CCL20	Gene	6364
+27493972	912	917	CCL26	Gene	10344
+27493972	919	924	CXCL2	Gene	2920
+27493972	926	931	CXCL3	Gene	2921
+27493972	937	943	CXCL10	Gene	3627
+27493972	1065	1077	inflammatory	Disease	MESH:D007249
+27493972	1351	1363	inflammatory	Disease	MESH:D007249
+27493972	Positive_Correlation	MESH:D014284	6376
+27493972	Positive_Correlation	MESH:C011126	3685
+27493972	Association	MESH:D007249	6376
+27493972	Association	MESH:D013974	3685
+27493972	Negative_Correlation	MESH:C011126	6376
+27493972	Bind	MESH:D014284	3685
+27493972	Negative_Correlation	MESH:C011126	MESH:D014284
+

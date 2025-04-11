@@ -1,0 +1,61 @@
+37520121|t|Bioinformatics analysis and prediction of Alzheimer's disease and alcohol dependence based on Ferroptosis-related genes.
+37520121|a|Background: Alzheimer's disease (AD) is a neurodegenerative disease whose origins have not been universally accepted. Numerous studies have demonstrated the relationship between AD and alcohol dependence; however, few studies have combined the origins of AD, alcohol dependence, and programmed cell death (PCD) to analyze the mechanistic relationship between the development of this pair of diseases. We demonstrated in previous studies the relationship between psychiatric disorders and PCD, and in the same concerning neurodegeneration-related AD, we found an interesting link with the Ferroptosis pathway. In the present study, we explored the bioinformatic interactions between AD, alcohol dependence, and Ferroptosis and tried to elucidate and predict the development of AD from this aspect. Methods: We selected the Alzheimer's disease dataset GSE118553 and alcohol dependence dataset GSE44456 from the Gene Expression Omnibus (GEO) database. Ferroptosis-related genes were gathered through Gene Set Enrichment Analysis (GSEA), Kyoto Encyclopedia of Genes and Genomes (KEGG), and relevant literature, resulting in a total of 88 related genes. For the AD and alcohol dependence datasets, we conducted Limma analysis to identify differentially expressed genes (DEGs) and performed functional enrichment analysis on the intersection set. Furthermore, we used ferroptosis-related genes and the DEGs to perform machine learning crossover analysis, employing Least Absolute Shrinkage and Selection Operator (LASSO) regression to identify candidate immune-related central genes. This analysis was also used to construct protein-protein interaction networks (PPI) and artificial neural networks (ANN), as well as to plot receiver operating characteristic (ROC) curves for diagnosing AD and alcohol dependence. We analyzed immune cell infiltration to explore the role of immune cell dysregulation in AD. Subsequently, we conducted consensus clustering analysis of AD using three relevant candidate gene models and examined the immune microenvironment and functional pathways between different subgroups. Finally, we generated a network of gene-gene interactions and miRNA-gene interactions using Networkanalyst. Results: The crossover of AD and alcohol dependence DEG contains 278 genes, and functional enrichment analysis showed that both AD and alcohol dependence were strongly correlated with Ferroptosis, and then crossed them with Ferroptosis-related genes to obtain seven genes. Three candidate genes were finally identified by machine learning to build a diagnostic prediction model. After validation by ANN and PPI analysis, ROC curves were plotted to assess the diagnostic value of AD and alcohol dependence. The results showed a high diagnostic value of the predictive model. In the immune infiltration analysis, functional metabolism and immune microenvironment of AD patients were significantly associated with Ferroptosis. Finally, analysis of target genes and miRNA-gene interaction networks showed that hsa-mir-34a-5p and has-mir-106b-5p could simultaneously regulate the expression of both CYBB and ACSL4. Conclusion: We obtained a diagnostic prediction model with good effect by comprehensive analysis, and validation of ROC in AD and alcohol dependence data sets showed good diagnostic, predictive value for both AD (AUC 0. 75, CI 0.91-0.60), and alcohol dependence (AUC 0.81, CI 0.95-0.68). In the consensus clustering grouping, we identified variability in the metabolic and immune microenvironment between subgroups as a likely cause of the different prognosis, which was all related to Ferroptosis function. Finally, we discovered that hsa-mir-34a-5p and has-mir-106b-5p could simultaneously regulate the expression of both CYBB and ACSL4.
+37520121	42	61	Alzheimer's disease	Disease	MESH:D000544
+37520121	66	84	alcohol dependence	Disease	MESH:D000437
+37520121	133	152	Alzheimer's disease	Disease	MESH:D000544
+37520121	154	156	AD	Disease	MESH:D000544
+37520121	163	188	neurodegenerative disease	Disease	MESH:D019636
+37520121	299	301	AD	Disease	MESH:D000544
+37520121	306	324	alcohol dependence	Disease	MESH:D000437
+37520121	376	378	AD	Disease	MESH:D000544
+37520121	380	398	alcohol dependence	Disease	MESH:D000437
+37520121	404	425	programmed cell death	Disease	MESH:D003643
+37520121	427	430	PCD	Disease	MESH:D003643
+37520121	583	604	psychiatric disorders	Disease	MESH:D001523
+37520121	609	612	PCD	Disease	MESH:D003643
+37520121	641	658	neurodegeneration	Disease	MESH:D019636
+37520121	667	669	AD	Disease	MESH:D000544
+37520121	709	720	Ferroptosis	Disease	
+37520121	803	805	AD	Disease	MESH:D000544
+37520121	807	825	alcohol dependence	Disease	MESH:D000437
+37520121	831	842	Ferroptosis	Disease	
+37520121	897	899	AD	Disease	MESH:D000544
+37520121	943	962	Alzheimer's disease	Disease	MESH:D000544
+37520121	985	1003	alcohol dependence	Disease	MESH:D000437
+37520121	1070	1081	Ferroptosis	Disease	
+37520121	1278	1280	AD	Disease	MESH:D000544
+37520121	1285	1303	alcohol dependence	Disease	MESH:D000437
+37520121	1483	1494	ferroptosis	Disease	
+37520121	1669	1675	immune	Disease	MESH:D007154
+37520121	1902	1904	AD	Disease	MESH:D000544
+37520121	1909	1927	alcohol dependence	Disease	MESH:D000437
+37520121	1941	1947	immune	Disease	MESH:D007154
+37520121	1989	1995	immune	Disease	MESH:D007154
+37520121	2018	2020	AD	Disease	MESH:D000544
+37520121	2082	2084	AD	Disease	MESH:D000544
+37520121	2145	2151	immune	Disease	MESH:D007154
+37520121	2356	2358	AD	Disease	MESH:D000544
+37520121	2363	2381	alcohol dependence	Disease	MESH:D000437
+37520121	2458	2460	AD	Disease	MESH:D000544
+37520121	2465	2483	alcohol dependence	Disease	MESH:D000437
+37520121	2514	2525	Ferroptosis	Disease	
+37520121	2554	2565	Ferroptosis	Disease	
+37520121	2809	2811	AD	Disease	MESH:D000544
+37520121	2816	2834	alcohol dependence	Disease	MESH:D000437
+37520121	2911	2917	immune	Disease	MESH:D007154
+37520121	2967	2973	immune	Disease	MESH:D007154
+37520121	2994	2996	AD	Disease	MESH:D000544
+37520121	3041	3052	Ferroptosis	Disease	
+37520121	3224	3228	CYBB	Gene	1536
+37520121	3233	3238	ACSL4	Gene	2182
+37520121	3363	3365	AD	Disease	MESH:D000544
+37520121	3370	3388	alcohol dependence	Disease	MESH:D000437
+37520121	3449	3451	AD	Disease	MESH:D000544
+37520121	3483	3501	alcohol dependence	Disease	MESH:D000437
+37520121	3613	3619	immune	Disease	MESH:D007154
+37520121	3726	3737	Ferroptosis	Disease	
+37520121	3864	3868	CYBB	Gene	1536
+37520121	3873	3878	ACSL4	Gene	2182
+37520121	Association	MESH:D000544	2182
+37520121	Association	1536	2182
+

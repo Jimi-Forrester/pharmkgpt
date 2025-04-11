@@ -1,0 +1,24 @@
+31545495|t|Bioinformatics analysis of gene expression profile data to screen key genes involved in intracranial aneurysms.
+31545495|a|Intracranial aneurysm (IA) is a cerebrovascular disease with a high mortality rate. The pathogenesis of IA remains unclear and the treatment limited. The purpose of the present study was to identify the key genes expressed in IAs and provide the basis for further research and treatment. The raw dataset GSE75436 was downloaded from Gene Expression Omnibus, including 15 IA samples and 15 matched superficial temporal artery (STA) samples. Then, differentially expressed genes (DEGs) were identified using the limma package in R software. Hierarchical clustering analysis was performed on the DEGs using the gplot2 package in R. Database for Annotation, Visualization, and Integrated Discovery (DAVID) online tools were used to perform gene ontology (GO) functional enrichment analysis. DAVID and gene set enrichment analysis were separately used to perform the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses. The intersections of the two results were selected as common KEGG pathways. Protein-protein interaction (PPI) analysis among the DEGs involved in the common KEGG pathways was performed using Search Tool for the Retrieval of Interacting Genes online tools, and visualized with Cytoscape software. A total of 782 DEGs were identified, comprising 392 upregulated and 390 downregulated DEGs. Hierarchical clustering demonstrated that the DEGs could precisely distinguish the IAs from the STAs. The GO enrichment analysis demonstrated that the upregulated DEGs were mainly involved in the inflammatory response and the management of extracellular matrix, and the downregulated DEGs were mainly involved in the process of vascular smooth muscle contraction. The KEGG pathway enrichment analysis demonstrated that the common pathways were 'leishmaniasis', 'Toll-like receptor signaling pathway' and 'vascular smooth muscle contraction'. In the PPI network, tumor necrosis factor (TNF), interleukin 8 and Toll-like receptor 4 had the highest degrees; they were associated with the inflammatory response. The Toll-like receptor signaling pathway and TNF gene may serve as targets for future research and treatment.
+31545495	88	110	intracranial aneurysms	Disease	MESH:D002532
+31545495	112	133	Intracranial aneurysm	Disease	MESH:D002532
+31545495	135	137	IA	Disease	MESH:D002532
+31545495	144	167	cerebrovascular disease	Disease	MESH:D002561
+31545495	216	218	IA	Disease	MESH:D002532
+31545495	338	341	IAs	Disease	MESH:C535739
+31545495	483	485	IA	Disease	MESH:D002532
+31545495	1521	1524	IAs	Disease	MESH:C535739
+31545495	1634	1646	inflammatory	Disease	MESH:D007249
+31545495	1883	1896	leishmaniasis	Disease	MESH:D007896
+31545495	2000	2021	tumor necrosis factor	Gene	7124
+31545495	2023	2026	TNF	Gene	7124
+31545495	2029	2042	interleukin 8	Gene	3576
+31545495	2047	2067	Toll-like receptor 4	Gene	7099
+31545495	2123	2135	inflammatory	Disease	MESH:D007249
+31545495	2191	2194	TNF	Gene	7124
+31545495	Association	MESH:C535739	7124
+31545495	Association	MESH:D007249	7099
+31545495	Association	MESH:D007249	7124
+31545495	Association	MESH:D007249	3576
+31545495	Association	MESH:D002532	7124
+

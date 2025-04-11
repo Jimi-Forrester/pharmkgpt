@@ -1,0 +1,9 @@
+31118320|t|Information Adapted Machine Learning Models for Prediction in Clinical Workflow.
+31118320|a|BACKGROUND: In a database of electronic health records, the amount of available information varies widely between patients. In a real-time prediction scenario, a machine learning model may receive limited information for some patients. OBJECTIVES: Our aim was to evaluate the influence of missing data on real-time prediction of delirium, and detect changes in prediction performance when training separate models for patients with missing data. METHODS: We compared a model trained specifically on data with missing values to the currently implemented model predicting delirium. Also, we simulated five test data sets with different amount of missing data and compared the prediction results to the prediction on complete data set when using the same model. RESULTS: For patients with missing laboratory and nursing assessment data, a model trained especially for this scenario performed significantly better than the implemented model. The combination of procedure data and demographic data achieved the closest results to a prediction with a complete data set. CONCLUSION: An ongoing evaluation of real-time prediction is indispensable. Additional models adapted to the information available might improve prediction performance.
+31118320	195	203	patients	Species	9606
+31118320	307	315	patients	Species	9606
+31118320	410	418	delirium	Disease	MESH:D003693
+31118320	499	507	patients	Species	9606
+31118320	651	659	delirium	Disease	MESH:D003693
+31118320	853	861	patients	Species	9606
+

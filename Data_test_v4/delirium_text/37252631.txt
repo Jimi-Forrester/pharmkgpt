@@ -1,0 +1,77 @@
+37252631|t|Butein inhibits corticosterone-induced apoptosis of Neuro2A cells by maintaining MEK-ERK signaling.
+37252631|a|Stress-induced overactivation of glucocorticoid signaling may contribute to mental illness by inducing neuronal death and dysfunction. We previously reported that pretreatment with the plant flavonoid butein inhibits corticosterone (CORT)-induced apoptosis of Neuro2A (N2A) cells. In the current study, we examined whether MEK-ERK and PI3K-AKT signaling pathways are involved in neuroprotection by butein. N2A cells were pre-incubated with serum-free DMEM containing 0.5 muM butein for 30 min, and then incubated with serum-free DMEM containing 0.5 microM butein, 50 microM CORT, 50 microM LY294002, or 50 microM PD98059 as indicated for 24 h. We subsequently performed the MTT assay and the western blot analysis. As expected, CORT considerably reduced N2A cell viability and increased relative expression of the apoptosis effector cleaved caspase-3, whereas pretreatment with butein blocked these cytotoxic effects. Treatment with CORT alone also decreased both AKT and ERK protein phosphorylation. Butein pretreatment had no effect on AKT phosphorylation, and only partially reversed the reduction in phosphorylated ERK. However, cotreatment with butein and the PI3K inhibitor LY294002 during CORT exposure enhanced ERK phosphorylation, whereas cotreatment with butein and the ERK phosphorylation/activation inhibitor PD98059 enhanced AKT phosphorylation, suggesting that MEK-ERK negatively regulates AKT phosphorylation. Moreover, the protective efficacy of butein was blocked by PD98059 cotreatment but not LY294002 cotreatment. These findings suggest that butein protects neurons against glucocorticoid-induced apoptosis by sustaining ERK phosphorylation and downstream signaling.
+37252631	0	6	Butein	Chemical	MESH:C040918
+37252631	16	30	corticosterone	Chemical	MESH:D003345
+37252631	52	59	Neuro2A	CellLine	CVCL:0470
+37252631	81	84	MEK	Gene	17242
+37252631	85	88	ERK	Gene	26413
+37252631	176	190	mental illness	Disease	MESH:D001523
+37252631	203	233	neuronal death and dysfunction	Disease	MESH:D003643
+37252631	291	300	flavonoid	Chemical	MESH:D005419
+37252631	301	307	butein	Chemical	MESH:C040918
+37252631	317	331	corticosterone	Chemical	MESH:D003345
+37252631	333	337	CORT	Chemical	MESH:D003345
+37252631	360	367	Neuro2A	CellLine	CVCL:0470
+37252631	369	372	N2A	CellLine	CVCL:0470
+37252631	423	426	MEK	Gene	17242
+37252631	427	430	ERK	Gene	26413
+37252631	440	443	AKT	Gene	11651
+37252631	498	504	butein	Chemical	MESH:C040918
+37252631	506	509	N2A	CellLine	CVCL:0470
+37252631	551	555	DMEM	Chemical	-
+37252631	575	581	butein	Chemical	MESH:C040918
+37252631	629	633	DMEM	Chemical	-
+37252631	656	662	butein	Chemical	MESH:C040918
+37252631	674	678	CORT	Chemical	MESH:D003345
+37252631	690	698	LY294002	Chemical	MESH:C085911
+37252631	713	720	PD98059	Chemical	MESH:C093973
+37252631	774	777	MTT	Chemical	MESH:C070243
+37252631	828	832	CORT	Chemical	MESH:D003345
+37252631	854	857	N2A	CellLine	CVCL:0470
+37252631	941	950	caspase-3	Gene	12367
+37252631	978	984	butein	Chemical	MESH:C040918
+37252631	999	1008	cytotoxic	Disease	MESH:D064420
+37252631	1033	1037	CORT	Chemical	MESH:D003345
+37252631	1064	1067	AKT	Gene	11651
+37252631	1072	1075	ERK	Gene	26413
+37252631	1101	1107	Butein	Chemical	MESH:C040918
+37252631	1138	1141	AKT	Gene	11651
+37252631	1219	1222	ERK	Gene	26413
+37252631	1250	1256	butein	Chemical	MESH:C040918
+37252631	1280	1288	LY294002	Chemical	MESH:C085911
+37252631	1296	1300	CORT	Chemical	MESH:D003345
+37252631	1319	1322	ERK	Gene	26413
+37252631	1365	1371	butein	Chemical	MESH:C040918
+37252631	1380	1383	ERK	Gene	26413
+37252631	1421	1428	PD98059	Chemical	MESH:C093973
+37252631	1438	1441	AKT	Gene	11651
+37252631	1475	1478	MEK	Gene	17242
+37252631	1479	1482	ERK	Gene	26413
+37252631	1504	1507	AKT	Gene	11651
+37252631	1562	1568	butein	Chemical	MESH:C040918
+37252631	1584	1591	PD98059	Chemical	MESH:C093973
+37252631	1612	1620	LY294002	Chemical	MESH:C085911
+37252631	1662	1668	butein	Chemical	MESH:C040918
+37252631	1741	1744	ERK	Gene	26413
+37252631	Negative_Correlation	MESH:D003345	11651
+37252631	Cotreatment	MESH:C040918	MESH:C093973
+37252631	Negative_Correlation	MESH:C085911	MESH:D003345
+37252631	Negative_Correlation	MESH:C040918	MESH:D064420
+37252631	Positive_Correlation	MESH:D003345	MESH:D064420
+37252631	Association	17242	26413
+37252631	Positive_Correlation	MESH:C085911	26413
+37252631	Negative_Correlation	MESH:C093973	26413
+37252631	Positive_Correlation	MESH:D003345	12367
+37252631	Association	MESH:D003345	17242
+37252631	Positive_Correlation	MESH:C093973	11651
+37252631	Negative_Correlation	MESH:D003345	MESH:D005419
+37252631	Positive_Correlation	MESH:C040918	26413
+37252631	Cotreatment	MESH:C040918	MESH:C085911
+37252631	Negative_Correlation	MESH:D003345	26413
+37252631	Association	MESH:C040918	11651
+37252631	Negative_Correlation	MESH:C040918	12367
+37252631	Negative_Correlation	MESH:C040918	MESH:D003345
+37252631	Negative_Correlation	11651	26413
+37252631	Association	MESH:C040918	17242
+37252631	Negative_Correlation	11651	17242
+

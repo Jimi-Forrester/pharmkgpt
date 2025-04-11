@@ -1,0 +1,19 @@
+33561121|t|Predicting therapeutic drugs for hepatocellular carcinoma based on tissue-specific pathways.
+33561121|a|Hepatocellular carcinoma (HCC) is a significant health problem worldwide with poor prognosis. Drug repositioning represents a profitable strategy to accelerate drug discovery in the treatment of HCC. In this study, we developed a new approach for predicting therapeutic drugs for HCC based on tissue-specific pathways and identified three newly predicted drugs that are likely to be therapeutic drugs for the treatment of HCC. We validated these predicted drugs by analyzing their overlapping drug indications reported in PubMed literature. By using the cancer cell line data in the database, we constructed a Connectivity Map (CMap) profile similarity analysis and KEGG enrichment analysis on their related genes. By experimental validation, we found securinine and ajmaline significantly inhibited cell viability of HCC cells and induced apoptosis. Among them, securinine has lower toxicity to normal liver cell line, which is worthy of further research. Our results suggested that the proposed approach was effective and accurate for discovering novel therapeutic options for HCC. This method also could be used to indicate unmarked drug-disease associations in the Comparative Toxicogenomics Database. Meanwhile, our method could also be applied to predict the potential drugs for other types of tumors by changing the database.
+33561121	33	57	hepatocellular carcinoma	Disease	MESH:D006528
+33561121	93	117	Hepatocellular carcinoma	Disease	MESH:D006528
+33561121	119	122	HCC	Disease	MESH:D006528
+33561121	288	291	HCC	Disease	MESH:D006528
+33561121	373	376	HCC	Disease	MESH:D006528
+33561121	515	518	HCC	Disease	MESH:D006528
+33561121	647	653	cancer	Disease	MESH:D009369
+33561121	845	855	securinine	Chemical	MESH:C000785
+33561121	860	868	ajmaline	Chemical	MESH:D000404
+33561121	911	914	HCC	Disease	MESH:D006528
+33561121	956	966	securinine	Chemical	MESH:C000785
+33561121	977	985	toxicity	Disease	MESH:D064420
+33561121	1172	1175	HCC	Disease	MESH:D006528
+33561121	1393	1399	tumors	Disease	MESH:D009369
+33561121	Negative_Correlation	MESH:C000785	MESH:D006528
+33561121	Negative_Correlation	MESH:D000404	MESH:D006528
+

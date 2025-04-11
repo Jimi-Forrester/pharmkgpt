@@ -1,0 +1,42 @@
+34054860|t|GPCRomics of Homeostatic and Disease-Associated Human Microglia.
+34054860|a|G-protein-coupled receptors (GPCRs) are critical sensors affecting the state of eukaryotic cells. To get systematic insight into the GPCRome of microglia, we analyzed publicly available RNA-sequencing data of bulk and single cells obtained from human and mouse brains. We identified 17 rhodopsin and adhesion family GPCRs robustly expressed in microglia from human brains, including the homeostasis-associated genes CX3CR1, GPR34, GPR183, P2RY12, P2RY13, and ADGRG1. Expression of these microglial core genes was lost upon culture of isolated cells ex vivo but could be acquired by human induced pluripotent stem cell (iPSC)-derived microglial precursors transplanted into mouse brains. CXCR4 and PTGER4 were higher expressed in subcortical white matter compared to cortical grey matter microglia, and ADGRG1 was downregulated in microglia obtained from normal-appearing white and grey matter tissue of multiple sclerosis (MS) brains. Single-cell RNA sequencing of microglia from active lesions, obtained early during MS, revealed downregulation of homeostasis-associated GPCR genes and upregulation of CXCR4 expression in a small subset of MS-associated lesional microglia. Functional presence of low levels of CXCR4 on human microglia was confirmed using flow cytometry and transwell migration towards SDF-1. Microglia abundantly expressed the GPCR down-stream signaling mediator genes GNAI2 (alphai2), GNAS (alphas), and GNA13 (alpha13), the latter particularly in white matter. Drugs against several microglia GPCRs are available to target microglia in brain diseases. In conclusion, transcriptome profiling allowed us to identify expression of GPCRs that may contribute to brain (patho)physiology and have diagnostic and therapeutic potential in human microglia.
+34054860	48	53	Human	Species	9606
+34054860	310	315	human	Species	9606
+34054860	320	325	mouse	Species	10090
+34054860	351	360	rhodopsin	Gene	6010
+34054860	424	429	human	Species	9606
+34054860	481	487	CX3CR1	Gene	1524
+34054860	489	494	GPR34	Gene	2857
+34054860	496	502	GPR183	Gene	1880
+34054860	504	510	P2RY12	Gene	64805
+34054860	512	518	P2RY13	Gene	53829
+34054860	524	530	ADGRG1	Gene	9289
+34054860	647	652	human	Species	9606
+34054860	738	743	mouse	Species	10090
+34054860	752	757	CXCR4	Gene	7852
+34054860	762	768	PTGER4	Gene	5734
+34054860	867	873	ADGRG1	Gene	9289
+34054860	968	986	multiple sclerosis	Disease	MESH:D009103
+34054860	988	990	MS	Disease	MESH:D009103
+34054860	1083	1085	MS	Disease	MESH:D009103
+34054860	1137	1141	GPCR	Gene	442206
+34054860	1168	1173	CXCR4	Gene	7852
+34054860	1206	1208	MS	Disease	MESH:D009103
+34054860	1277	1282	CXCR4	Gene	7852
+34054860	1286	1291	human	Species	9606
+34054860	1369	1374	SDF-1	Gene	6387
+34054860	1411	1415	GPCR	Gene	442206
+34054860	1453	1458	GNAI2	Gene	2771
+34054860	1470	1474	GNAS	Gene	2778
+34054860	1489	1494	GNA13	Gene	10672
+34054860	1496	1503	alpha13	Gene	28888
+34054860	1622	1636	brain diseases	Disease	MESH:D001927
+34054860	1816	1821	human	Species	9606
+34054860	Negative_Correlation	MESH:D009103	442206
+34054860	Association	28888	442206
+34054860	Positive_Correlation	MESH:D009103	7852
+34054860	Negative_Correlation	MESH:D009103	9289
+34054860	Association	6387	7852
+34054860	Association	2778	442206
+34054860	Association	MESH:D009103	5734
+

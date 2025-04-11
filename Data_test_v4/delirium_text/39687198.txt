@@ -1,0 +1,30 @@
+39687198|t|Inferring gene regulatory networks of ALS from blood transcriptome profiles.
+39687198|a|One of the most robust approaches to the prediction of causal driver genes of complex diseases is to apply reverse engineering methods to infer a gene regulatory network (GRN) from gene expression profiles (GEPs). In this work, we analysed 794 GEPs of 1117 human whole-blood samples from Amyotrophic Lateral Sclerosis (ALS) patients and healthy subjects reported in the GSE112681 dataset. GRNs for ALS and healthy individuals were reconstructed by ARACNe-AP (Algorithm for the Reconstruction of Accurate Cellular Networks - Adaptive Partitioning). In order to examine phenotypic differences in the ALS population surveyed, several datasets were built by arranging GEPs according to sex, spinal or bulbar onset, and survival time. The designed reverse engineering methodology identified a significant number of potential ALS-promoting mechanisms and putative transcriptional biomarkers that were previously unknown. In particular, the characterization of ALS phenotypic networks by pathway enrichment analysis has identified a gender-specific disease signature, namely network activation related to the radiation damage response, reported in the networks of bulbar and female ALS patients. Also, focusing on a smaller interaction network, we selected some hub genes to investigate their inferred pathological and healthy subnetworks. The inferred GRNs revealed the interconnection of the four selected hub genes (TP53, SOD1, ALS2, VDAC3) with p53-mediated pathways, suggesting the potential neurovascular response to ALS neuroinflammation. In addition to being well consistent with literature data, our results provide a novel integrated view of ALS transcriptional regulators, expanding information on the possible mechanisms underlying ALS and also offering important insights for diagnostic purposes and for developing possible therapies for a disease yet incurable.
+39687198	38	41	ALS	Disease	MESH:D000690
+39687198	334	339	human	Species	9606
+39687198	365	394	Amyotrophic Lateral Sclerosis	Disease	MESH:D000690
+39687198	396	399	ALS	Disease	MESH:D000690
+39687198	401	409	patients	Species	9606
+39687198	475	478	ALS	Disease	MESH:D000690
+39687198	675	678	ALS	Disease	MESH:D000690
+39687198	897	900	ALS	Disease	MESH:D000690
+39687198	1031	1034	ALS	Disease	MESH:D000690
+39687198	1252	1255	ALS	Disease	MESH:D000690
+39687198	1256	1264	patients	Species	9606
+39687198	1489	1493	TP53	Gene	7157
+39687198	1495	1499	SOD1	Gene	6647
+39687198	1501	1505	ALS2	Gene	57679
+39687198	1507	1512	VDAC3	Gene	7419
+39687198	1519	1522	p53	Gene	7157
+39687198	1593	1596	ALS	Disease	MESH:D000690
+39687198	1597	1614	neuroinflammation	Disease	MESH:D000090862
+39687198	1722	1725	ALS	Disease	MESH:D000690
+39687198	1814	1817	ALS	Disease	MESH:D000690
+39687198	Association	MESH:D000690	7419
+39687198	Association	MESH:D000690	7157
+39687198	Association	MESH:D000690	57679
+39687198	Association	57679	7157
+39687198	Association	7157	7419
+39687198	Association	MESH:D000690	6647
+39687198	Association	MESH:D000090862	7157
+

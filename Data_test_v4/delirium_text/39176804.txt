@@ -1,0 +1,19 @@
+39176804|t|Automatic Classification of Conclusions from Multi-Tracer Reports of PET Brain Imaging in Cognitive Impairment.
+39176804|a|The goal of this paper is to build an automatic way to interpret conclusions from brain molecular imaging reports performed for investigation of cognitive disturbances (FDG, Amyloid and Tau PET) by comparing several traditional machine learning (ML) techniques-based text classification methods. Two purposes are defined: to identify positive or negative results in all three modalities, and to extract diagnostic impressions for Alzheimer's Disease (AD), Fronto-Temporal Dementia (FTD), Lewy Bodies Dementia (LBD) based on metabolism of perfusion patterns. A dataset was created by manual parallel annotation of 1668 conclusions of reports from the Nuclear Medicine and Molecular Imaging Division of Geneva University Hospitals. The 6 Machine Learning (ML) algorithms (Support Vector Machine (Linear and Radial Basis function), Naive Bayes, Logistic Regression, Random Forrest, and K-Nearest Neighbors) were trained and evaluated with a 5-fold cross-validation scheme to assess their performance and generalizability. The best classifier was SVM showing the following accuracies: FDG (0.97), Tau (0.94), Amyloid (0.98), Oriented Diagnostic (0.87 for a diagnosis among AD, FTD, LBD, undetermined, other), paving the way for a paradigm shift in the field of data handling in nuclear medicine research.
+39176804	90	110	Cognitive Impairment	Disease	MESH:D003072
+39176804	257	279	cognitive disturbances	Disease	MESH:D003072
+39176804	281	284	FDG	Chemical	MESH:D019788
+39176804	298	301	Tau	Gene	4137
+39176804	542	561	Alzheimer's Disease	Disease	MESH:D000544
+39176804	563	565	AD	Disease	MESH:D000544
+39176804	568	592	Fronto-Temporal Dementia	Disease	MESH:D003704
+39176804	594	597	FTD	Disease	MESH:D003704
+39176804	600	620	Lewy Bodies Dementia	Disease	MESH:D020961
+39176804	622	625	LBD	Disease	MESH:D020961
+39176804	1193	1196	FDG	Chemical	MESH:D019788
+39176804	1205	1208	Tau	Gene	4137
+39176804	1281	1283	AD	Disease	MESH:D000544
+39176804	1285	1288	FTD	Disease	MESH:D003704
+39176804	1290	1293	LBD	Disease	MESH:D020961
+39176804	Association	MESH:D003072	4137
+

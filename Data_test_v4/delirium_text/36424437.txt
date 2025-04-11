@@ -1,0 +1,9 @@
+36424437|t|Interpretable brain disease classification and relevance-guided deep learning.
+36424437|a|Deep neural networks are increasingly used for neurological disease classification by MRI, but the networks' decisions are not easily interpretable by humans. Heat mapping by deep Taylor decomposition revealed that (potentially misleading) image features even outside of the brain tissue are crucial for the classifier's decision. We propose a regularization technique to train convolutional neural network (CNN) classifiers utilizing relevance-guided heat maps calculated online during training. The method was applied using T1-weighted MR images from 128 subjects with Alzheimer's disease (mean age = 71.9 +- 8.5 years) and 290 control subjects (mean age = 71.3 +- 6.4 years). The developed relevance-guided framework achieves higher classification accuracies than conventional CNNs but more importantly, it relies on less but more relevant and physiological plausible voxels within brain tissue. Additionally, preprocessing effects from skull stripping and registration are mitigated. With the interpretability of the decision mechanisms underlying CNNs, these results challenge the notion that unprocessed T1-weighted brain MR images in standard CNNs yield higher classification accuracy in Alzheimer's disease than solely atrophy.
+36424437	14	27	brain disease	Disease	MESH:D001927
+36424437	126	146	neurological disease	Disease	MESH:D020271
+36424437	230	236	humans	Species	9606
+36424437	650	669	Alzheimer's disease	Disease	MESH:D000544
+36424437	1274	1293	Alzheimer's disease	Disease	MESH:D000544
+36424437	1306	1313	atrophy	Disease	MESH:D001284
+

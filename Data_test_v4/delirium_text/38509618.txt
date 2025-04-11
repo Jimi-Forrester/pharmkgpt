@@ -1,0 +1,37 @@
+38509618|t|Deletion of Slc9a1 in Cx3cr1+ cells stimulated microglial subcluster CREB1 signaling and microglia-oligodendrocyte crosstalk.
+38509618|a|Microglial Na/H exchanger-1 (NHE1) protein, encoded by Slc9a1, plays a role in white matter demyelination of ischemic stroke brains. To explore underlying mechanisms, we conducted single cell RNA-seq transcriptome analysis in conditional Slc9a1 knockout (cKO) and wild-type (WT) mouse white matter tissues at 3 days post-stroke. Compared to WT, Nhe1 cKO brains expanded a microglial subgroup with elevated transcription of white matter myelination genes including Spp1, Lgals3, Gpnmb, and Fabp5. This subgroup also exhibited more acidic pHi and significantly upregulated CREB signaling detected by ingenuity pathway analysis and flow cytometry. Moreover, the Nhe1 cKO white matter tissues showed enrichment of a corresponding oligodendrocyte subgroup, with pro-phagocytosis and lactate shuffling gene expression, where activated CREB signaling is a likely upstream regulator. These findings demonstrate that attenuation of NHE1-mediated H+ extrusion acidifies microglia/macrophage and may underlie the stimulation of CREB1 signaling, giving rise to restorative microglia-oligodendrocyte interactions for remyelination.
+38509618	12	18	Slc9a1	Gene	20544
+38509618	22	28	Cx3cr1	Gene	13051
+38509618	69	74	CREB1	Gene	12912
+38509618	137	153	Na/H exchanger-1	Gene	20544
+38509618	155	159	NHE1	Gene	20544
+38509618	181	187	Slc9a1	Gene	20544
+38509618	211	231	matter demyelination	Disease	MESH:D003711
+38509618	235	250	ischemic stroke	Disease	MESH:D002544
+38509618	364	370	Slc9a1	Gene	20544
+38509618	405	410	mouse	Species	10090
+38509618	447	453	stroke	Disease	MESH:D020521
+38509618	471	475	Nhe1	Gene	20544
+38509618	590	594	Spp1	Gene	20750
+38509618	596	602	Lgals3	Gene	16854
+38509618	604	609	Gpnmb	Gene	93695
+38509618	615	620	Fabp5	Gene	16592
+38509618	697	701	CREB	Gene	12912
+38509618	785	789	Nhe1	Gene	20544
+38509618	904	911	lactate	Chemical	MESH:D019344
+38509618	955	959	CREB	Gene	12912
+38509618	1049	1053	NHE1	Gene	20544
+38509618	1063	1065	H+	Chemical	MESH:D006859
+38509618	1143	1148	CREB1	Gene	12912
+38509618	Association	13051	20544
+38509618	Association	MESH:D006859	20544
+38509618	Association	20544	20750
+38509618	Association	MESH:D019344	20544
+38509618	Association	MESH:D002544	20544
+38509618	Association	MESH:D003711	20544
+38509618	Negative_Correlation	12912	20544
+38509618	Association	16854	20544
+38509618	Association	MESH:D006859	12912
+38509618	Association	20544	93695
+38509618	Association	16592	20544
+

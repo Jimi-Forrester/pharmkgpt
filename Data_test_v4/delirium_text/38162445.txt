@@ -1,0 +1,22 @@
+38162445|t|Factor analysis based on SHapley Additive exPlanations for sepsis-associated encephalopathy in ICU mortality prediction using XGBoost - a retrospective study based on two large database.
+38162445|a|Objective: Sepsis-associated encephalopathy (SAE) is strongly linked to a high mortality risk, and frequently occurs in conjunction with the acute and late phases of sepsis. The objective of this study was to construct and verify a predictive model for mortality in ICU-dwelling patients with SAE. Methods: The study selected 7,576 patients with SAE from the MIMIC-IV database according to the inclusion criteria and randomly divided them into training (n = 5,303, 70%) and internal validation (n = 2,273, 30%) sets. According to the same criteria, 1,573 patients from the eICU-CRD database were included as an external test set. Independent risk factors for ICU mortality were identified using Extreme Gradient Boosting (XGBoost) software, and prediction models were constructed and verified using the validation set. The receiver operating characteristic (ROC) and the area under the ROC curve (AUC) were used to evaluate the discrimination ability of the model. The SHapley Additive exPlanations (SHAP) approach was applied to determine the Shapley values for specific patients, account for the effects of factors attributed to the model, and examine how specific traits affect the output of the model. Results: The survival rate of patients with SAE in the MIMIC-IV database was 88.6% and that of 1,573 patients in the eICU-CRD database was 89.1%. The ROC of the XGBoost model indicated good discrimination. The AUCs for the training, test, and validation sets were 0.908, 0.898, and 0.778, respectively. The impact of each parameter on the XGBoost model was depicted using a SHAP plot, covering both positive (acute physiology score III, vasopressin, age, red blood cell distribution width, partial thromboplastin time, and norepinephrine) and negative (Glasgow Coma Scale) ones. Conclusion: A prediction model developed using XGBoost can accurately predict the ICU mortality of patients with SAE. The SHAP approach can enhance the interpretability of the machine-learning model and support clinical decision-making.
+38162445	59	91	sepsis-associated encephalopathy	Disease	MESH:D065166
+38162445	198	230	Sepsis-associated encephalopathy	Disease	MESH:D065166
+38162445	232	235	SAE	Disease	MESH:D065166
+38162445	353	359	sepsis	Disease	MESH:D018805
+38162445	466	474	patients	Species	9606
+38162445	480	483	SAE	Disease	MESH:D065166
+38162445	519	527	patients	Species	9606
+38162445	533	536	SAE	Disease	MESH:D065166
+38162445	742	750	patients	Species	9606
+38162445	765	768	CRD	Disease	OMIM:120970
+38162445	1259	1267	patients	Species	9606
+38162445	1423	1431	patients	Species	9606
+38162445	1437	1440	SAE	Disease	MESH:D065166
+38162445	1494	1502	patients	Species	9606
+38162445	1515	1518	CRD	Disease	OMIM:120970
+38162445	1802	1818	acute physiology	Disease	MESH:D000208
+38162445	1916	1930	norepinephrine	Chemical	MESH:D009638
+38162445	2071	2079	patients	Species	9606
+38162445	2085	2088	SAE	Disease	MESH:D065166
+

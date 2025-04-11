@@ -1,0 +1,53 @@
+32937819|t|Analyzing Gene Expression Profiles from Ataxia and Spasticity Phenotypes to Reveal Spastic Ataxia Related Pathways.
+32937819|a|Spastic ataxia (SA) is a group of rare neurodegenerative diseases, characterized by mixed features of generalized ataxia and spasticity. The pathogenetic mechanisms that drive the development of the majority of these diseases remain unclear, although a number of studies have highlighted the involvement of mitochondrial and lipid metabolism, as well as calcium signaling. Our group has previously published the GBA2 c.1780G > C (p.Asp594His) missense variant as the cause of spastic ataxia in a Cypriot consanguineous family, and more recently the biochemical characterization of this variant in patients' lymphoblastoid cell lines. GBA2 is a crucial enzyme of sphingolipid metabolism. However, it is unknown if GBA2 has additional functions and therefore additional pathways may be involved in the disease development. The current study introduces bioinformatics approaches to better understand the pathogenetic mechanisms of the disease. We analyzed publicly available human gene expression datasets of diseases presented with 'ataxia' or 'spasticity' in their clinical phenotype and we performed pathway analysis in order to: (a) search for candidate perturbed pathways of SA; and (b) evaluate the role of sphingolipid signaling pathway and sphingolipid metabolism in the disease development, through the identification of differentially expressed genes in patients compared to controls. Our results demonstrate consistent differential expression of genes that participate in the sphingolipid pathways and highlight alterations in the pathway level that might be associated with the disease phenotype. Through enrichment analysis, we discuss additional pathways that are connected to sphingolipid pathways, such as PI3K-Akt signaling, MAPK signaling, calcium signaling, and lipid and carbohydrate metabolism as the most enriched for ataxia and spasticity phenotypes.
+32937819	40	46	Ataxia	Disease	MESH:D001259
+32937819	51	61	Spasticity	Disease	MESH:D009128
+32937819	83	97	Spastic Ataxia	Disease	MESH:C564815
+32937819	116	130	Spastic ataxia	Disease	MESH:C564815
+32937819	132	134	SA	Disease	MESH:C564815
+32937819	155	181	neurodegenerative diseases	Disease	MESH:D019636
+32937819	230	236	ataxia	Disease	MESH:D001259
+32937819	241	251	spasticity	Disease	MESH:D009128
+32937819	441	446	lipid	Chemical	MESH:D008055
+32937819	470	477	calcium	Chemical	MESH:D002118
+32937819	528	532	GBA2	Gene	57704
+32937819	533	544	c.1780G > C	DNAMutation	tmVar:c|SUB|G|1780|C;HGVS:c.1780G>C;VariantGroup:0;CorrespondingGene:57704;RS#:398123064;CorrespondingSpecies:9606;CA#:145524
+32937819	546	557	p.Asp594His	ProteinMutation	tmVar:p|SUB|D|594|H;HGVS:p.D594H;VariantGroup:0;CorrespondingGene:57704;RS#:398123064;CorrespondingSpecies:9606;CA#:145524
+32937819	592	606	spastic ataxia	Disease	MESH:C564815
+32937819	713	721	patients	Species	9606
+32937819	750	754	GBA2	Gene	57704
+32937819	778	790	sphingolipid	Chemical	MESH:D013107
+32937819	829	833	GBA2	Gene	57704
+32937819	1088	1093	human	Species	9606
+32937819	1147	1153	ataxia	Disease	MESH:D001259
+32937819	1159	1169	spasticity	Disease	MESH:D009128
+32937819	1293	1295	SA	Disease	MESH:C564815
+32937819	1326	1338	sphingolipid	Chemical	MESH:D013107
+32937819	1361	1373	sphingolipid	Chemical	MESH:D013107
+32937819	1477	1485	patients	Species	9606
+32937819	1600	1612	sphingolipid	Chemical	MESH:D013107
+32937819	1804	1816	sphingolipid	Chemical	MESH:D013107
+32937819	1840	1843	Akt	Gene	207
+32937819	1871	1878	calcium	Chemical	MESH:D002118
+32937819	1894	1899	lipid	Chemical	MESH:D008055
+32937819	1904	1916	carbohydrate	Chemical	MESH:D002241
+32937819	1953	1959	ataxia	Disease	MESH:D001259
+32937819	1964	1974	spasticity	Disease	MESH:D009128
+32937819	Association	MESH:C564815	57704
+32937819	Positive_Correlation	MESH:C564815	RS#:398123064;HGVS:c.1780G>C;CorrespondingGene:57704
+32937819	Positive_Correlation	MESH:C564815	RS#:398123064;HGVS:p.D594H;CorrespondingGene:57704
+32937819	Association	MESH:D013107	MESH:D009128
+32937819	Association	MESH:D002241	MESH:D009128
+32937819	Association	MESH:D008055	MESH:D009128
+32937819	Association	MESH:D001259	207
+32937819	Association	MESH:D013107	207
+32937819	Association	MESH:D009128	207
+32937819	Association	MESH:D008055	MESH:D001259
+32937819	Positive_Correlation	RS#:398123064;HGVS:c.1780G>C;CorrespondingGene:57704	MESH:C564815
+32937819	Association	MESH:D013107	57704
+32937819	Association	MESH:D002241	MESH:D001259
+32937819	Association	MESH:D002118	MESH:D009128
+32937819	Association	MESH:D013107	MESH:D001259
+32937819	Association	MESH:D002118	MESH:D001259
+32937819	Association	MESH:C564815	57704
+

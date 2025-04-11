@@ -1,0 +1,22 @@
+37934495|t|Algorithmic Fairness of Machine Learning Models for Alzheimer Disease Progression.
+37934495|a|Importance: Predictive models using machine learning techniques have potential to improve early detection and management of Alzheimer disease (AD). However, these models potentially have biases and may perpetuate or exacerbate existing disparities. Objective: To characterize the algorithmic fairness of longitudinal prediction models for AD progression. Design, Setting, and Participants: This prognostic study investigated the algorithmic fairness of logistic regression, support vector machines, and recurrent neural networks for predicting progression to mild cognitive impairment (MCI) and AD using data from participants in the Alzheimer Disease Neuroimaging Initiative evaluated at 57 sites in the US and Canada. Participants aged 54 to 91 years who contributed data on at least 2 visits between September 2005 and May 2017 were included. Data were analyzed in October 2022. Exposures: Fairness was quantified across sex, ethnicity, and race groups. Neuropsychological test scores, anatomical features from T1 magnetic resonance imaging, measures extracted from positron emission tomography, and cerebrospinal fluid biomarkers were included as predictors. Main Outcomes and Measures: Outcome measures quantified fairness of prediction models (logistic regression [LR], support vector machine [SVM], and recurrent neural network [RNN] models), including equal opportunity, equalized odds, and demographic parity. Specifically, if the model exhibited equal sensitivity for all groups, it aligned with the principle of equal opportunity, indicating fairness in predictive performance. Results: A total of 1730 participants in the cohort (mean [SD] age, 73.81 [6.92] years; 776 females [44.9%]; 69 Hispanic [4.0%] and 1661 non-Hispanic [96.0%]; 29 Asian [1.7%], 77 Black [4.5%], 1599 White [92.4%], and 25 other race [1.4%]) were included. Sensitivity for predicting progression to MCI and AD was lower for Hispanic participants compared with non-Hispanic participants; the difference (SD) in true positive rate ranged from 20.9% (5.5%) for the RNN model to 27.8% (9.8%) for the SVM model in MCI and 24.1% (5.4%) for the RNN model to 48.2% (17.3%) for the LR model in AD. Sensitivity was similarly lower for Black and Asian participants compared with non-Hispanic White participants; for example, the difference (SD) in AD true positive rate was 14.5% (51.6%) in the LR model, 12.3% (35.1%) in the SVM model, and 28.4% (16.8%) in the RNN model for Black vs White participants, and the difference (SD) in MCI true positive rate was 25.6% (13.1%) in the LR model, 24.3% (13.1%) in the SVM model, and 6.8% (18.7%) in the RNN model for Asian vs White participants. Models generally satisfied metrics of fairness with respect to sex, with no significant differences by group, except for cognitively normal (CN)-MCI and MCI-AD transitions (eg, an absolute increase [SD] in the true positive rate of CN-MCI transitions of 10.3% [27.8%] for the LR model). Conclusions and Relevance: In this study, models were accurate in aggregate but failed to satisfy fairness metrics. These findings suggest that fairness should be considered in the development and use of machine learning models for AD progression.
+37934495	52	69	Alzheimer Disease	Disease	MESH:D000544
+37934495	207	224	Alzheimer disease	Disease	MESH:D000544
+37934495	226	228	AD	Disease	MESH:D000544
+37934495	422	424	AD	Disease	MESH:D000544
+37934495	647	667	cognitive impairment	Disease	MESH:D003072
+37934495	669	672	MCI	Disease	MESH:D060825
+37934495	678	680	AD	Disease	MESH:D000544
+37934495	717	734	Alzheimer Disease	Disease	MESH:D000544
+37934495	1968	1971	MCI	Disease	MESH:D060825
+37934495	1976	1978	AD	Disease	MESH:D000544
+37934495	2178	2181	MCI	Disease	MESH:D060825
+37934495	2254	2256	AD	Disease	MESH:D000544
+37934495	2406	2408	AD	Disease	MESH:D000544
+37934495	2590	2593	MCI	Disease	MESH:D060825
+37934495	2892	2895	MCI	Disease	MESH:D060825
+37934495	2900	2903	MCI	Disease	MESH:D060825
+37934495	2904	2906	AD	Disease	MESH:D000544
+37934495	2982	2985	MCI	Disease	MESH:D060825
+37934495	3266	3268	AD	Disease	MESH:D000544
+

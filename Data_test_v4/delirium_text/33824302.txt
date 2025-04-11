@@ -1,0 +1,8 @@
+33824302|t|Variable number tandem repeats mediate the expression of proximal genes.
+33824302|a|Variable number tandem repeats (VNTRs) account for significant genetic variation in many organisms. In humans, VNTRs have been implicated in both Mendelian and complex disorders, but are largely ignored by genomic pipelines due to the complexity of genotyping and the computational expense. We describe adVNTR-NN, a method that uses shallow neural networks to genotype a VNTR in 18 seconds on 55X whole genome data, while maintaining high accuracy. We use adVNTR-NN to genotype 10,264 VNTRs in 652 GTEx individuals. Associating VNTR length with gene expression in 46 tissues, we identify 163 "eVNTRs". Of the 22 eVNTRs in blood where independent data is available, 21 (95%) are replicated in terms of significance and direction of association. 49% of the eVNTR loci show a strong and likely causal impact on the expression of genes and 80% have maximum effect size at least 0.3. The impacted genes are involved in diseases including Alzheimer's, obesity and familial cancers, highlighting the importance of VNTRs for understanding the genetic basis of complex diseases.
+33824302	176	182	humans	Species	9606
+33824302	219	250	Mendelian and complex disorders	Disease	MESH:D048090
+33824302	1006	1017	Alzheimer's	Disease	MESH:D000544
+33824302	1019	1026	obesity	Disease	MESH:D009765
+33824302	1031	1047	familial cancers	Disease	MESH:D009369
+

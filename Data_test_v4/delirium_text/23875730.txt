@@ -1,0 +1,16 @@
+23875730|t|Personalized-detailed clinical model for data interoperability among clinical standards.
+23875730|a|OBJECTIVE: Data interoperability among health information exchange (HIE) systems is a major concern for healthcare practitioners to enable provisioning of telemedicine-related services. Heterogeneity exists in these systems not only at the data level but also among different heterogeneous healthcare standards with which these are compliant. The relationship between healthcare organization data and different heterogeneous standards is necessary to achieve the goal of data level interoperability. We propose a personalized-detailed clinical model (P-DCM) approach for the generation of customized mappings that creates the necessary linkage between organization-conformed healthcare standards concepts and clinical model concepts to ensure data interoperability among HIE systems. MATERIALS AND METHODS: We consider electronic health record (EHR) standards, openEHR, and HL7 CDA instances transformation using P-DCM. P-DCM concepts associated with openEHR and HL7 CDA help in transformation of instances among these standards. We investigated two datasets: (1) data of 100 diabetic patients, including 50 each of type 1 and type 2, from a local hospital in Korea and (2) data of a single Alzheimer's disease patient. P-DCMs were created for both scenarios, which provided the basis for deriving instances for HL7 CDA and openEHR standards. RESULTS: For proof of concept, we present case studies of encounter information for type 2 diabetes mellitus patients and monitoring of daily routine activities of an Alzheimer's disease patient. These reflect P-DCM-based customized mappings generation with openEHR and HL7 CDA standards. Customized mappings are generated based on the relationship of P-DCM concepts with CDA and openEHR concepts. CONCLUSIONS: The objective of this work is to achieve semantic data interoperability among heterogeneous standards. This would lead to effective utilization of resources and allow timely information exchange among healthcare systems.
+23875730	642	645	DCM	Disease	
+23875730	1004	1007	DCM	Disease	
+23875730	1011	1014	DCM	Disease	
+23875730	1165	1173	diabetic	Disease	MESH:D003920
+23875730	1174	1182	patients	Species	9606
+23875730	1280	1299	Alzheimer's disease	Disease	MESH:D000544
+23875730	1300	1307	patient	Species	9606
+23875730	1516	1540	type 2 diabetes mellitus	Disease	MESH:D003924
+23875730	1541	1549	patients	Species	9606
+23875730	1599	1618	Alzheimer's disease	Disease	MESH:D000544
+23875730	1619	1626	patient	Species	9606
+23875730	1644	1647	DCM	Disease	
+23875730	1786	1789	DCM	Disease	
+

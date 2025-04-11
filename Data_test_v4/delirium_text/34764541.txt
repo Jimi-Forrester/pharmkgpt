@@ -1,0 +1,13 @@
+34764541|t|Evaluating Voice-Assistant Commands for Dementia Detection.
+34764541|a|Early detection of cognitive decline involved in Alzheimer's Disease and Related Dementias (ADRD) in older adults living alone is essential for developing, planning, and initiating interventions and support systems to improve users' everyday function and quality of life. In this paper, we explore the voice commands using a Voice-Assistant System (VAS), i.e., Amazon Alexa, from 40 older adults who were either Healthy Control (HC) participants or Mild Cognitive Impairment (MCI) participants, age 65 or older. We evaluated the data collected from voice commands, cognitive assessments, and interviews and surveys using a structured protocol. We extracted 163 unique command-relevant features from each participant's use of the VAS. We then built machine-learning models including 1-layer/2-layer neural networks, support vector machines, decision tree, and random forest, for classification and comparison with standard cognitive assessment scores, e.g., Montreal Cognitive Assessment (MoCA). Our classification models using fusion features achieved an accuracy of 68%, and our regression model resulted in a Root-Mean-Square Error (RMSE) score of 3.53. Our Decision Tree (DT) and Random Forest (RF) models using selected features achieved higher classification accuracy 80-90%. Finally, we analyzed the contribution of each feature set to the model output, thus revealing the commands and features most useful in inferring the participants' cognitive status. We found that features of overall performance, features of music-related commands, features of call-related commands, and features from Automatic Speech Recognition (ASR) were the top-four feature sets most impactful on inference accuracy. The results from this controlled study demonstrate the promise of future home-based cognitive assessments using Voice-Assistant Systems.
+34764541	40	48	Dementia	Disease	MESH:D003704
+34764541	79	96	cognitive decline	Disease	MESH:D003072
+34764541	109	150	Alzheimer's Disease and Related Dementias	Disease	MESH:D000544
+34764541	152	156	ADRD	Disease	MESH:D000544
+34764541	493	505	participants	Species	9606
+34764541	514	534	Cognitive Impairment	Disease	MESH:D003072
+34764541	536	539	MCI	Disease	MESH:D060825
+34764541	541	553	participants	Species	9606
+34764541	764	775	participant	Species	9606
+34764541	1490	1502	participants	Species	9606
+

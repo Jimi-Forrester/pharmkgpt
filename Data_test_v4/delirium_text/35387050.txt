@@ -1,0 +1,43 @@
+35387050|t|Pharmacological, Technological, and Digital Innovative Aspects in Rhinology.
+35387050|a|Innovation refers to the introduction of a product, a process, a service or a solution resulting in something new or significantly improved compared to the already available alternatives. In the clinical context, it is strictly related to the identification of a new added value in terms of quality, therapeutic efficacy and safety. Over the years several innovative approaches have been introduced in the clinical practice, revolutionizing the treatment and the management of important rhinologic conditions. Innovative tools, including new drugs, biomaterials, and mobile applications seem to be able to improve the clinical outcomes and the quality of life of many patients affected by (often relapsing) rhinologic diseases. Among the main modern pharmacological innovations, mention must be made of the biological drugs like monoclonal antibodies (mAbs). Recently, new mAbs have been introduced and investigated as useful arms in the treatment of some inflammatory/infectious or oncological diseases affecting the nasal cavities and paranasal sinuses. The already approved or still investigated mAbs work inhibiting different type 2 inflammation pathways, including those mediated by IgE (omalizumab), IL-4/IL-13 (dupilumab), and IL-5 (mepolizumab). Moreover, considering the higher expression of PD-L1 in nasopharyngeal carcinoma, the use of PD-1 inhibitors, such as nivolumab, or a dual CTLA-4/PD-1 blockade (ipilimumab plus nivolumab) appear to be an effective strategy for the treatment of this cancer form. The implants with bio-absorbable biomaterials represent new interesting available technological innovations. Moreover, advanced technologies such as the artificial intelligence, the machine learning as well as the augmented or virtual reality have also proved useful in rhinologic field with main impacts on precision medicine and surgery. Finally, the development and use of mobile-Health tools represent a winning strategy in monitoring of the therapy success, safety and tolerability as well as the progress of chronic disease including chronic rhinosinusitis with nasal polyps. Supporting the research of innovative tools and strategies (including pharmacological, technologic, or digital ones) is essential to improve the management of chronic diseases that significantly affect the patients' quality of life.
+35387050	745	753	patients	Species	9606
+35387050	784	803	rhinologic diseases	Disease	MESH:D004194
+35387050	1033	1080	inflammatory/infectious or oncological diseases	Disease	MESH:D003141
+35387050	1207	1226	type 2 inflammation	Disease	MESH:D007249
+35387050	1265	1268	IgE	Gene	3497
+35387050	1270	1280	omalizumab	Chemical	MESH:D000069444
+35387050	1283	1287	IL-4	Gene	3565
+35387050	1288	1293	IL-13	Gene	3596
+35387050	1295	1304	dupilumab	Chemical	MESH:C582203
+35387050	1311	1315	IL-5	Gene	3567
+35387050	1317	1328	mepolizumab	Chemical	MESH:C434107
+35387050	1378	1383	PD-L1	Gene	29126
+35387050	1387	1411	nasopharyngeal carcinoma	Disease	MESH:D000077274
+35387050	1424	1428	PD-1	Gene	5133
+35387050	1449	1458	nivolumab	Chemical	MESH:D000077594
+35387050	1470	1476	CTLA-4	Gene	1493
+35387050	1477	1481	PD-1	Gene	5133
+35387050	1492	1502	ipilimumab	Chemical	MESH:D000074324
+35387050	1508	1517	nivolumab	Chemical	MESH:D000077594
+35387050	1580	1586	cancer	Disease	MESH:D009369
+35387050	2141	2155	rhinosinusitis	Disease	MESH:D000092562
+35387050	2161	2173	nasal polyps	Disease	MESH:D009298
+35387050	2381	2389	patients	Species	9606
+35387050	Negative_Correlation	MESH:C582203	MESH:D007249
+35387050	Negative_Correlation	MESH:D000069444	MESH:D007249
+35387050	Association	MESH:D007249	3565
+35387050	Association	MESH:D007249	3596
+35387050	Negative_Correlation	MESH:D000077594	MESH:D000077274
+35387050	Negative_Correlation	MESH:D000077594	MESH:D009369
+35387050	Association	MESH:D000077274	29126
+35387050	Negative_Correlation	MESH:D000077594	5133
+35387050	Association	MESH:D007249	3567
+35387050	Negative_Correlation	MESH:D000074324	MESH:D009369
+35387050	Association	MESH:D007249	3497
+35387050	Negative_Correlation	MESH:D000074324	1493
+35387050	Negative_Correlation	MESH:C434107	MESH:D007249
+35387050	Negative_Correlation	MESH:C434107	3567
+35387050	Cotreatment	MESH:D000074324	MESH:D000077594
+35387050	Negative_Correlation	MESH:D000074324	5133
+35387050	Association	MESH:D009369	5133
+

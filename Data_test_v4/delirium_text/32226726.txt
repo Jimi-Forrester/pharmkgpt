@@ -1,0 +1,34 @@
+32226726|t|Ellagic Acid, Kaempferol, and Quercetin from Acacia nilotica: Promising Combined Drug With Multiple Mechanisms of Action.
+32226726|a|The pharmacological activity of Acacia nilotica's phytochemical constituents was confirmed with evidence-based studies, but the determination of exact targets that they bind and the mechanism of action were not done; consequently, we aim to identify the exact targets that are responsible for the pharmacological activity via the computational methods. Furthermore, we aim to predict the pharmacokinetics (ADME) properties and the safety profile in order to identify the best drug candidates. To achieve those goals, various computational methods were used including the ligand-based virtual screening and molecular docking. Moreover, pkCSM and SwissADME web servers were used for the prediction of pharmacokinetics and safety. The total number of the investigated compounds and targets was 25 and 61, respectively. According to the results, the pharmacological activity was attributed to the interaction with essential targets. Ellagic acid, Kaempferol, and Quercetin were the best A. nilotica's phytochemical constituents that contribute to the therapeutic activities, were non-toxic as well as non-carcinogen. The administration of Ellagic acid, Kaempferol, and Quercetin as combined drug via the novel drug delivery systems will be a valuable therapeutic choice for the treatment of recent diseases attacking the public health including cancer, multidrug-resistant bacterial infections, diabetes mellitus, and chronic inflammatory systemic disease.
+32226726	0	12	Ellagic Acid	Chemical	MESH:D004610
+32226726	14	24	Kaempferol	Chemical	MESH:C006552
+32226726	30	39	Quercetin	Chemical	MESH:D011794
+32226726	45	60	Acacia nilotica	Species	138033
+32226726	154	169	Acacia nilotica	Species	138033
+32226726	1051	1063	Ellagic acid	Chemical	MESH:D004610
+32226726	1065	1075	Kaempferol	Chemical	MESH:C006552
+32226726	1081	1090	Quercetin	Chemical	MESH:D011794
+32226726	1105	1116	A. nilotica	Species	
+32226726	1257	1269	Ellagic acid	Chemical	MESH:D004610
+32226726	1271	1281	Kaempferol	Chemical	MESH:C006552
+32226726	1287	1296	Quercetin	Chemical	MESH:D011794
+32226726	1463	1469	cancer	Disease	MESH:D009369
+32226726	1491	1511	bacterial infections	Disease	MESH:D001424
+32226726	1513	1530	diabetes mellitus	Disease	MESH:D003920
+32226726	1544	1573	inflammatory systemic disease	Disease	MESH:D018746
+32226726	Negative_Correlation	MESH:C006552	MESH:D009369
+32226726	Negative_Correlation	MESH:D011794	MESH:D009369
+32226726	Negative_Correlation	MESH:D004610	MESH:D001424
+32226726	Comparison	MESH:D004610	MESH:D011794
+32226726	Negative_Correlation	MESH:D011794	MESH:D018746
+32226726	Comparison	MESH:C006552	MESH:D011794
+32226726	Negative_Correlation	MESH:D011794	MESH:D003920
+32226726	Negative_Correlation	MESH:D004610	MESH:D003920
+32226726	Negative_Correlation	MESH:D011794	MESH:D001424
+32226726	Negative_Correlation	MESH:C006552	MESH:D003920
+32226726	Comparison	MESH:C006552	MESH:D004610
+32226726	Negative_Correlation	MESH:C006552	MESH:D001424
+32226726	Negative_Correlation	MESH:C006552	MESH:D018746
+32226726	Negative_Correlation	MESH:D004610	MESH:D018746
+32226726	Negative_Correlation	MESH:D004610	MESH:D009369
+

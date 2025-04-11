@@ -1,0 +1,8 @@
+38866809|t|Visualization of incrementally learned projection trajectories for longitudinal data.
+38866809|a|Longitudinal studies that continuously generate data enable the capture of temporal variations in experimentally observed parameters, facilitating the interpretation of results in a time-aware manner. We propose IL-VIS (incrementally learned visualizer), a new machine learning pipeline that incrementally learns and visualizes a progression trajectory representing the longitudinal changes in longitudinal studies. At each sampling time point in an experiment, IL-VIS generates a snapshot of the longitudinal process on the data observed thus far, a new feature that is beyond the reach of classical static models. We first verify the utility and correctness of IL-VIS using simulated data, for which the true progression trajectories are known. We find that it accurately captures and visualizes the trends and (dis)similarities between high-dimensional progression trajectories. We then apply IL-VIS to longitudinal multi-electrode array data from brain cortical organoids when exposed to different levels of quinolinic acid, a metabolite contributing to many neuroinflammatory diseases including Alzheimer's disease, and its blocking antibody. We uncover valuable insights into the organoids' electrophysiological maturation and response patterns over time under these conditions.
+38866809	1098	1113	quinolinic acid	Chemical	MESH:D017378
+38866809	1149	1175	neuroinflammatory diseases	Disease	MESH:D000090862
+38866809	1186	1205	Alzheimer's disease	Disease	MESH:D000544
+38866809	Association	MESH:D017378	MESH:D000090862
+38866809	Association	MESH:D017378	MESH:D000544
+

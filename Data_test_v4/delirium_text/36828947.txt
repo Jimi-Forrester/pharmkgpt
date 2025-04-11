@@ -1,0 +1,14 @@
+36828947|t|Early Detection of Adverse Drug Reaction Signals by Association Rule Mining Using Large-Scale Administrative Claims Data.
+36828947|a|INTRODUCTION: Adverse drug reactions (ADRs) are a leading cause of mortality worldwide and should be detected promptly to reduce health risks to patients. A data-mining approach using large-scale medical records might be a useful method for the early detection of ADRs. Many studies have analyzed medical records to detect ADRs; however, most of them have focused on a narrow range of ADRs, limiting their usefulness. OBJECTIVE: This study aimed to identify methods for the early detection of a wide range of ADR signals. METHODS: First, to evaluate the performance in signal detection of ADRs by data-mining, we attempted to create a gold standard based on clinical evidence. Second, association rule mining (ARM) was applied to patient symptoms and medications registered in claims data, followed by evaluating ADR signal detection performance. RESULTS: We created a new gold standard consisting of 92 positive and 88 negative controls. In the assessment of ARM using claims data, the areas under the receiver-operating characteristic curve and the precision-recall curve were 0.80 and 0.83, respectively. If the detection criteria were defined as lift > 1, conviction > 1, and p-value < 0.05, ARM could identify 156 signals, of which 90 were true positive controls (sensitivity: 0.98, specificity: 0.25). Evaluation of the capability of ARM with short periods of data revealed that ARM could detect a greater number of positive controls than the conventional analysis method. CONCLUSIONS: ARM of claims data may be effective in the early detection of a wide range of ADR signals.
+36828947	136	158	Adverse drug reactions	Disease	MESH:D064420
+36828947	160	164	ADRs	Disease	MESH:D064420
+36828947	267	275	patients	Species	9606
+36828947	386	390	ADRs	Disease	MESH:D064420
+36828947	445	449	ADRs	Disease	MESH:D064420
+36828947	507	511	ADRs	Disease	MESH:D064420
+36828947	631	634	ADR	Disease	
+36828947	711	715	ADRs	Disease	MESH:D064420
+36828947	852	859	patient	Species	9606
+36828947	935	938	ADR	Disease	
+36828947	1692	1695	ADR	Disease	
+

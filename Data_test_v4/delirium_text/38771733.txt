@@ -1,0 +1,14 @@
+38771733|t|Explainability of three-dimensional convolutional neural networks for functional magnetic resonance imaging of Alzheimer's disease classification based on gradient-weighted class activation mapping.
+38771733|a|Currently, numerous studies focus on employing fMRI-based deep neural networks to diagnose neurological disorders such as Alzheimer's Disease (AD), yet only a handful have provided results regarding explainability. We address this gap by applying several prevalent explainability methods such as gradient-weighted class activation mapping (Grad-CAM) to an fMRI-based 3D-VGG16 network for AD diagnosis to improve the model's explainability. The aim is to explore the specific Region of Interest (ROI) of brain the model primarily focuses on when making predictions, as well as whether there are differences in these ROIs between AD and normal controls (NCs). First, we utilized multiple resting-state functional activity maps including ALFF, fALFF, ReHo, and VMHC to reduce the complexity of fMRI data, which differed from many studies that utilized raw fMRI data. Compared to methods utilizing raw fMRI data, this manual feature extraction approach may potentially alleviate the model's burden. Subsequently, 3D-VGG16 were employed for AD classification, where the final fully connected layers were replaced with a Global Average Pooling (GAP) layer, aimed at mitigating overfitting while preserving spatial information within the feature maps. The model achieved a maximum of 96.4% accuracy on the test set. Finally, several 3D CAM methods were employed to interpret the models. In the explainability results of the models with relatively high accuracy, the highlighted ROIs were primarily located in the precuneus and the hippocampus for AD subjects, while the models focused on the entire brain for NC. This supports current research on ROIs involved in AD. We believe that explaining deep learning models would not only provide support for existing research on brain disorders, but also offer important referential recommendations for the study of currently unknown etiologies.
+38771733	111	130	Alzheimer's disease	Disease	MESH:D000544
+38771733	290	312	neurological disorders	Disease	MESH:D009461
+38771733	321	340	Alzheimer's Disease	Disease	MESH:D000544
+38771733	342	344	AD	Disease	MESH:D000544
+38771733	587	589	AD	Disease	MESH:D000544
+38771733	827	829	AD	Disease	MESH:D000544
+38771733	1235	1237	AD	Disease	MESH:D000544
+38771733	1739	1741	AD	Disease	MESH:D000544
+38771733	1801	1803	NC	Disease	OMIM:617025
+38771733	1856	1858	AD	Disease	MESH:D000544
+38771733	1964	1979	brain disorders	Disease	MESH:D001927
+

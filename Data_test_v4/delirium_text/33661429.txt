@@ -1,0 +1,33 @@
+33661429|t|Evidence of synergism among three genetic variants in a patient with LMNA-related lipodystrophy and amyotrophic lateral sclerosis leading to a remarkable nuclear phenotype.
+33661429|a|Neurodegenerative diseases, including amyotrophic lateral sclerosis (ALS), can be clinically heterogeneous which may be explained by the co-inheritance of multiple genetic variants that modify the clinical course. In this study we examine variants in three genes in a family with one individual presenting with ALS and lipodystrophy. Sequencing revealed a p.Gly602Ser variant in LMNA, and two additional variants, one each in SETX (g.intron10-13delCTT) and FUS (p.Gly167_Gly168del). These latter genes have been linked to ALS. All family members were genotyped and each variant, and each combination of variants detected, were functionally evaluated in vitro regarding effects on cell survival, expression patterns and cellular phenotype. Muscle biopsy retrieved from the individual with ALS showed leakage of chromatin from the nucleus, a phenotype that was recapitulated in vitro with expression of all three variants simultaneously. Individually expressed variants gave cellular phenotypes there were unremarkable. Interestingly the FUS variant appears to be protective against the effects of the SETX and the LMNA variants on cell viability and may indicate loss of interaction of FUS with SETX and/or R-loops. We conclude that these findings support genetic modifications as an explanation of the clinical heterogeneity observed in human disease.
+33661429	56	63	patient	Species	9606
+33661429	69	95	LMNA-related lipodystrophy	Disease	MESH:D000083083
+33661429	100	129	amyotrophic lateral sclerosis	Disease	MESH:D000690
+33661429	173	199	Neurodegenerative diseases	Disease	MESH:D019636
+33661429	211	240	amyotrophic lateral sclerosis	Disease	MESH:D000690
+33661429	242	245	ALS	Disease	MESH:D000690
+33661429	484	487	ALS	Disease	MESH:D000690
+33661429	492	505	lipodystrophy	Disease	MESH:D008060
+33661429	529	540	p.Gly602Ser	ProteinMutation	tmVar:p|SUB|G|602|S;HGVS:p.G602S;VariantGroup:0;CorrespondingGene:4000;RS#:60662302;CorrespondingSpecies:9606;CA#:14839
+33661429	552	556	LMNA	Gene	4000
+33661429	599	603	SETX	Gene	23064
+33661429	605	624	g.intron10-13delCTT	DNAMutation	tmVar:p|DEL|10_13|L;HGVS:p.L10_13del;VariantGroup:1;CorrespondingGene:23064;CorrespondingSpecies:9606
+33661429	630	633	FUS	Gene	2521
+33661429	635	653	p.Gly167_Gly168del	ProteinMutation	tmVar:p|DEL|167,168|G;HGVS:p.G167,168del;VariantGroup:2;CorrespondingGene:2521;CorrespondingSpecies:9606
+33661429	695	698	ALS	Disease	MESH:D000690
+33661429	961	964	ALS	Disease	MESH:D000690
+33661429	1209	1212	FUS	Gene	2521
+33661429	1273	1277	SETX	Gene	23064
+33661429	1286	1290	LMNA	Gene	4000
+33661429	1358	1361	FUS	Gene	2521
+33661429	1367	1371	SETX	Gene	23064
+33661429	1510	1515	human	Species	9606
+33661429	Positive_Correlation	MESH:D000690	RS#:60662302;HGVS:p.G602S;CorrespondingGene:4000
+33661429	Positive_Correlation	MESH:D000690	HGVS:p.G167,168del;CorrespondingGene:2521
+33661429	Association	23064	2521
+33661429	Positive_Correlation	HGVS:p.L10_13del;CorrespondingGene:23064	MESH:D000690
+33661429	Association	MESH:D000690	23064
+33661429	Association	MESH:D000690	2521
+33661429	Association	MESH:D000690	4000
+33661429	Association	MESH:D000690	23064
+

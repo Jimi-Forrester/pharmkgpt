@@ -1,0 +1,24 @@
+34681222|t|Network Pharmacology of Red Ginseng (Part I): Effects of Ginsenoside Rg5 at Physiological and Sub-Physiological Concentrations.
+34681222|a|Numerous in vitro studies on isolated cells have been conducted to uncover the molecular mechanisms of action of Panax ginseng Meyer root extracts and purified ginsenosides. However, the concentrations of ginsenosides and the extracts used in these studies were much higher than those detected in pharmacokinetic studies in humans and animals orally administered with ginseng preparations at therapeutic doses. Our study aimed to assess: (a) the effects of ginsenoside Rg5, the major "rare" ginsenoside of Red Ginseng, on gene expression in the murine neuronal cell line HT22 in a wide range of concentrations, from 10-4 to 10-18 M, and (b) the effects of differentially expressed genes on cellular and physiological functions in organismal disorders and diseases. Gene expression profiling was performed by transcriptome-wide mRNA microarray analyses in HT22 cells after treatment with ginsenoside Rg5. Ginsenoside Rg5 exhibits soft-acting effects on gene expression of neuronal cells in a wide range of physiological concentrations and strong reversal impact at high (toxic) concentration: significant up- or downregulation of expression of about 300 genes at concentrations from 10-6 M to 10-18 M, and dramatically increased both the number of differentially expressed target genes (up to 1670) and the extent of their expression (fold changes compared to unexposed cells) at a toxic concentration of 10-4 M. Network pharmacology analyses of genes' expression profiles using ingenuity pathway analysis (IPA) software showed that at low physiological concentrations, ginsenoside Rg5 has the potential to activate the biosynthesis of cholesterol and to exhibit predictable effects in senescence, neuroinflammation, apoptosis, and immune response, suggesting soft-acting, beneficial effects on organismal death, movement disorders, and cancer.
+34681222	57	72	Ginsenoside Rg5	Chemical	MESH:C572381
+34681222	241	265	Panax ginseng Meyer root	Species	
+34681222	288	300	ginsenosides	Chemical	MESH:D036145
+34681222	333	345	ginsenosides	Chemical	MESH:D036145
+34681222	452	458	humans	Species	9606
+34681222	585	600	ginsenoside Rg5	Chemical	MESH:C572381
+34681222	619	630	ginsenoside	Chemical	MESH:D036145
+34681222	673	679	murine	Species	10090
+34681222	699	703	HT22	CellLine	CVCL:0321
+34681222	983	987	HT22	CellLine	CVCL:0321
+34681222	1015	1030	ginsenoside Rg5	Chemical	MESH:C572381
+34681222	1032	1047	Ginsenoside Rg5	Chemical	MESH:C572381
+34681222	1697	1712	ginsenoside Rg5	Chemical	MESH:C572381
+34681222	1763	1774	cholesterol	Chemical	MESH:D002784
+34681222	1825	1842	neuroinflammation	Disease	MESH:D000090862
+34681222	1940	1958	movement disorders	Disease	MESH:D009069
+34681222	1964	1970	cancer	Disease	MESH:D009369
+34681222	Negative_Correlation	MESH:C572381	MESH:D009069
+34681222	Negative_Correlation	MESH:C572381	MESH:D009369
+34681222	Positive_Correlation	MESH:C572381	MESH:D002784
+34681222	Association	MESH:C572381	MESH:D000090862
+

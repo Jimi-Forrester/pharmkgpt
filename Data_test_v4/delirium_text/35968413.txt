@@ -1,0 +1,13 @@
+35968413|t|SHUBHCHINTAK: An efficient remote health monitoring approach for elderly people.
+35968413|a|With the proliferation of IoT technology, it is anticipated that healthcare services, particularly for the elderly persons, will become a major thrust area of research in the coming days. Aim of this work is to design a fit-band containing multiple sensors to provide remote healthcare services for the elderly persons. An application has been designed to capture health data from the fit-band, pre-process the data and then send them to cloud for further analysis. A wireless Bluetooth enabled connection is proposed to establish communications between sensors and the application for data transmission. In the proposed application, there are three different front-end interfaces for three different users: system administrator, patient and doctor. The data collected from the patient's fit-band are sent to a cloud data storage, where the data will be analyzed to detect anomaly (e.g., heart attack, sleep apnea, etc.). A Convolution Neural Network (CNN) model is proposed for anomaly detection. For the classification of anomaly, a Long Short Term Memory (LSTM) model is proposed. In the presence of anomaly, the system immediately connects a doctor through a phone call. A prototype system termed as Shubhchintak has been developed in Android/IOS environment and tested with a number of users. The fit-band provides data tracking with an overall accuracy of 99%; the system provides a response with 3000 requests in less than 100 ms. Also, Shubhchintak provides a real-time feedback with an accuracy of 97%. Shubhchintak is also tested by patients and doctors of a nearby hospital. Shubhchintak is shown to be a simple to use, cost effective, comfortable, and efficient system compared to the existing state of the art solutions.
+35968413	0	12	SHUBHCHINTAK	Disease	
+35968413	811	818	patient	Species	9606
+35968413	859	866	patient	Species	9606
+35968413	969	981	heart attack	Disease	MESH:D009203
+35968413	983	994	sleep apnea	Disease	MESH:D012891
+35968413	1285	1297	Shubhchintak	Disease	
+35968413	1525	1537	Shubhchintak	Disease	
+35968413	1593	1605	Shubhchintak	Disease	
+35968413	1624	1632	patients	Species	9606
+35968413	1667	1679	Shubhchintak	Disease	
+

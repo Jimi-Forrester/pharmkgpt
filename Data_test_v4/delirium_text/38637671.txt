@@ -1,0 +1,11 @@
+38637671|t|Joint transformer architecture in brain 3D MRI classification: its application in Alzheimer's disease classification.
+38637671|a|Alzheimer's disease (AD), a neurodegenerative disease that mostly affects the elderly, slowly impairs memory, cognition, and daily tasks. AD has long been one of the most debilitating chronic neurological disorders, affecting mostly people over 65. In this study, we investigated the use of Vision Transformer (ViT) for Magnetic Resonance Image processing in the context of AD diagnosis. ViT was utilized to extract features from MRIs, map them to a feature sequence, perform sequence modeling to maintain interdependencies, and classify features using a time series transformer. The proposed model was evaluated using ADNI T1-weighted MRIs for binary and multiclass classification. Two data collections, Complete 1Yr 1.5T and Complete 3Yr 3T, from the ADNI database were used for training and testing. A random split approach was used, allocating 60% for training and 20% for testing and validation, resulting in sample sizes of (211, 70, 70) and (1378, 458, 458), respectively. The performance of our proposed model was compared to various deep learning models, including CNN with BiL-STM and ViT with Bi-LSTM. The suggested technique diagnoses AD with high accuracy (99.048% for binary and 99.014% for multiclass classification), precision, recall, and F-score. Our proposed method offers researchers an approach to more efficient early clinical diagnosis and interventions.
+38637671	82	101	Alzheimer's disease	Disease	MESH:D000544
+38637671	118	137	Alzheimer's disease	Disease	MESH:D000544
+38637671	139	141	AD	Disease	MESH:D000544
+38637671	146	171	neurodegenerative disease	Disease	MESH:D019636
+38637671	256	258	AD	Disease	MESH:D000544
+38637671	310	332	neurological disorders	Disease	MESH:D009461
+38637671	492	494	AD	Disease	MESH:D000544
+38637671	1265	1267	AD	Disease	MESH:D000544
+

@@ -1,0 +1,9 @@
+35836174|t|Creating sparser prediction models of treatment outcome in depression: a proof-of-concept study using simultaneous feature selection and hyperparameter tuning.
+35836174|a|BACKGROUND: Predicting treatment outcome in major depressive disorder (MDD) remains an essential challenge for precision psychiatry. Clinical prediction models (CPMs) based on supervised machine learning have been a promising approach for this endeavor. However, only few CPMs have focused on model sparsity even though sparser models might facilitate the translation into clinical practice and lower the expenses of their application. METHODS: In this study, we developed a predictive modeling pipeline that combines hyperparameter tuning and recursive feature elimination in a nested cross-validation framework. We applied this pipeline to a real-world clinical data set on MDD treatment response and to a second simulated data set using three different classification algorithms. Performance was evaluated by permutation testing and comparison to a reference pipeline without nested feature selection. RESULTS: Across all models, the proposed pipeline led to sparser CPMs compared to the reference pipeline. Except for one comparison, the proposed pipeline resulted in equally or more accurate predictions. For MDD treatment response, balanced accuracy scores ranged between 61 and 71% when models were applied to hold-out validation data. CONCLUSIONS: The resulting models might be particularly interesting for clinical applications as they could reduce expenses for clinical institutions and stress for patients.
+35836174	59	69	depression	Disease	MESH:D003866
+35836174	204	229	major depressive disorder	Disease	MESH:D003865
+35836174	231	234	MDD	Disease	MESH:D003865
+35836174	836	839	MDD	Disease	MESH:D003865
+35836174	1274	1277	MDD	Disease	MESH:D003865
+35836174	1568	1576	patients	Species	9606
+

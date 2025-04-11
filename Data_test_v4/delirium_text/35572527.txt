@@ -1,0 +1,43 @@
+35572527|t|Monosodium Glutamate-Induced Mouse Model With Unique Diabetic Retinal Neuropathy Features and Artificial Intelligence Techniques for Quantitative Evaluation.
+35572527|a|Objective: To establish an artificial intelligence-based method to quantitatively evaluate subtle pathological changes in retinal nerve cells and synapses in monosodium glutamate (MSG) mice and provide an effective animal model and technique for quantitative evaluation of retinal neurocytopathies. Methods: ICR mice were subcutaneously injected with MSG to establish a model of metabolic syndrome. We then established a mouse model of type 1 diabetes, type 2 diabetes, and KKAy mouse model as control. The HE sections of the retina were visualized using an optical microscope. AI technology was used for quantitative evaluation of the retinal lesions in each group of rats. The surface area custom parameters of the retinal nerve fiber layer (RNFL), inner plexiform layer (IPL), inner nuclear layer (INL), and outer plexiform layer (OPL) were defined as SR, SIPL, SINL, and SOPL, respectively. Their heights were defined as HR, HIPL, HINL, and HOPL, and the number of ganglion cells was defined as A. Then, the attention-augmented fully convolutional Unet network was used to segment the retinal HE images, and AI technology to identify retinal neurocytopathies quantitatively. Results: The attention-augmented fully convolutional Unet network increased PA and IOU parameters for INL, OPL, RNFL, and ganglion cells and was superior in recognizing fine structures. A quantitative AI identification of the height of each layer of the retina showed that the heights of the IPL and INL of the MSG model were significantly less than those of the control groups; the retinas of the other diabetic models did not exhibit this pathological feature. The RNFLs of type 2 diabetes were thinner, and the characteristics of retinopathy were not obvious in the other animal models. The pathological changes seen on HE images were consistent with the results of the quantitative AI evaluation. Immunohistochemistry results showed that NMDAR2A, GluR2, and NRG1 were significantly downregulated in the retina of MSG mice. Conclusions: The MSG retinopathy model is closely associated with neurotransmitter abnormalities and exhibits important characteristics of retinal neurodegeneration, making it suitable for studying retinal neurocytopathies. The AI recognition technology for retinal images established in the present study can be used for the quantitative and objective evaluation of drug efficacy.
+35572527	0	20	Monosodium Glutamate	Chemical	MESH:D012970
+35572527	29	34	Mouse	Species	10090
+35572527	53	80	Diabetic Retinal Neuropathy	Disease	MESH:D003929
+35572527	316	336	monosodium glutamate	Chemical	MESH:D012970
+35572527	338	341	MSG	Chemical	MESH:D012970
+35572527	343	347	mice	Species	10090
+35572527	431	455	retinal neurocytopathies	Disease	MESH:D012173
+35572527	470	474	mice	Species	10090
+35572527	509	512	MSG	Chemical	MESH:D012970
+35572527	537	555	metabolic syndrome	Disease	MESH:D024821
+35572527	579	584	mouse	Species	10090
+35572527	594	609	type 1 diabetes	Disease	MESH:D003922
+35572527	611	626	type 2 diabetes	Disease	MESH:D003924
+35572527	632	636	KKAy	CellLine	
+35572527	637	642	mouse	Species	10090
+35572527	665	667	HE	Chemical	MESH:D006371
+35572527	794	809	retinal lesions	Disease	MESH:D012164
+35572527	827	831	rats	Species	10116
+35572527	1255	1257	HE	Disease	
+35572527	1296	1320	retinal neurocytopathies	Disease	MESH:D012173
+35572527	1648	1651	MSG	Chemical	MESH:D012970
+35572527	1741	1749	diabetic	Disease	MESH:D003920
+35572527	1813	1828	type 2 diabetes	Disease	MESH:D003924
+35572527	1870	1881	retinopathy	Disease	MESH:D058437
+35572527	1960	1962	HE	Disease	
+35572527	2079	2086	NMDAR2A	Gene	14811
+35572527	2088	2093	GluR2	Gene	14800
+35572527	2099	2103	NRG1	Gene	211323
+35572527	2154	2157	MSG	Chemical	MESH:D012970
+35572527	2158	2162	mice	Species	10090
+35572527	2181	2196	MSG retinopathy	Disease	MESH:C562377
+35572527	2230	2260	neurotransmitter abnormalities	Disease	MESH:D000014
+35572527	2303	2328	retinal neurodegeneration	Disease	MESH:D012164
+35572527	2362	2386	retinal neurocytopathies	Disease	MESH:D012173
+35572527	Positive_Correlation	MESH:D012970	MESH:D024821
+35572527	Negative_Correlation	MESH:D012970	14811
+35572527	Negative_Correlation	MESH:D012970	211323
+35572527	Negative_Correlation	MESH:D012970	14800
+35572527	Association	MESH:D012970	MESH:C562377
+35572527	Positive_Correlation	MESH:D012970	MESH:D003929
+

@@ -1,0 +1,16 @@
+33950804|t|Detecting genetic associations with brain imaging phenotypes in Alzheimer's disease via a novel structured KCCA approach.
+33950804|a|Neuroimaging genetics has become an important research topic since it can reveal complex associations between genetic variants (i.e. single nucleotide polymorphisms (SNPs) and the structures or functions of the human brain. However, existing kernel mapping is difficult to directly use the sparse representation method in the kernel feature space, which makes it difficult for most existing sparse canonical correlation analysis (SCCA) methods to be directly promoted in the kernel feature space. To bridge this gap, we adopt a novel alternating projected gradient approach, gradient KCCA (gradKCCA) model to develop a powerful model for exploring the intrinsic associations among genetic markers, imaging quantitative traits (QTs) of interest. Specifically, this model solves kernel canonical correlation (KCCA) with an additional constraint that projection directions have pre-images in the original data space, a sparsity-inducing variant of the model is achieved through controlling the [Formula: see text]-norm of the preimages of the projection directions. We evaluate this model using Alzheimer's disease Neuroimaging Initiative (ADNI) cohort to discover the relationships among SNPs from Alzheimer's disease (AD) risk gene APOE, imaging QTs extracted from structural magnetic resonance imaging (MRI) scans. Our results show that the algorithm not only outperforms the traditional KCCA method in terms of Root Mean Square Error (RMSE) and Correlation Coefficient (CC) but also identify the meaningful and relevant biomarkers of SNPs (e.g. rs157594 and rs405697), which are positively related to right Postcentral and right SupraMarginal brain regions in this study. Empirical results indicate its promising capability in revealing biologically meaningful neuroimaging genetics associations and improving the disease-related mechanistic understanding of AD.
+33950804	64	83	Alzheimer's disease	Disease	MESH:D000544
+33950804	333	338	human	Species	9606
+33950804	1214	1233	Alzheimer's disease	Disease	MESH:D000544
+33950804	1318	1337	Alzheimer's disease	Disease	MESH:D000544
+33950804	1339	1341	AD	Disease	MESH:D000544
+33950804	1353	1357	APOE	Gene	348
+33950804	1668	1676	rs157594	SNP	tmVar:rs157594;VariantGroup:1;RS#:157594
+33950804	1681	1689	rs405697	SNP	tmVar:rs405697;VariantGroup:0;CorrespondingGene:10452;RS#:405697;CorrespondingSpecies:9606
+33950804	1982	1984	AD	Disease	MESH:D000544
+33950804	Positive_Correlation	MESH:D000544	RS#:157594
+33950804	Association	MESH:D000544	RS#:405697;CorrespondingGene:10452
+33950804	Association	MESH:D000544	348
+33950804	Association	MESH:D000544	10452
+

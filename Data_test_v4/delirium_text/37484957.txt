@@ -1,0 +1,51 @@
+37484957|t|The prognosis of patients with postoperative hyperglycemia after Stanford type A aortic dissection surgery and construction of prediction model for postoperative hyperglycemia.
+37484957|a|Objective: The mortality of type A aortic dissection (TAAD) is extremely high. The effect of postoperative hyperglycemia (PHG) on the prognosis of TAAD surgery is unclear. This study aims to investigate the prognosis of patients with PHG after TAAD surgery and construct prediction model for PHG. Methods: Patients underwent TAAD surgery from January 2016 to December 2020 in Xiangya Hospital were collected. A total of 203 patients were included and patients were divided into non PHG group and PHG group. The occurrence of postoperative delirium, cardiac complications, spinal cord complication, cerebral complications, acute kidney injury (AKI), hepatic dysfunction, hypoxemia, and in-hospital mortality were compared between two groups. Data from MIMIC-IV database were further applied to validate the relationship between PHG and clinical outcomes. The prediction model for PHG was then constructed using Extreme Gradient Boosting (XGBoost) analysis. The predictive value of selected features was further validated using patient data from MIMIC-IV database. Finally, the 28-days survival rate of patient with PHG was analyzed using data from MIMIC-IV database. Results: There were 86 patients developed PHG. The incidences of postoperative AKI, hepatic dysfunction, and in-hospital mortality were significant higher in PHG group. The ventilation time after surgery was significant longer in PHG group. Data from MIMIC-IV database validated these results. Neutrophil, platelet, lactic acid, weight, and lymphocyte were selected as features for prediction model. The values of AUC in training and testing set were 0.8697 and 0.8286 respectively. Then, five features were applied to construct another prediction model using data from MIMIC-IV database and the value of AUC in the new model was 0.8185. Finally, 28-days survival rate of patients with PHG was significantly lower and PHG was an independent risk factor for 28-days mortality after TAAD surgery. Conclusion: PHG was significantly associated with the occurrence of AKI, hepatic dysfunction, increased ventilation time, and in-hospital mortality after TAAD surgery. The feature combination of neutrophil, platelet, lactic acid, weight, and lymphocyte could effectively predict PHG. The 28-days survival rate of patients with PHG was significantly lower. Moreover, PHG was an independent risk factor for 28-days mortality after TAAD surgery.
+37484957	45	58	hyperglycemia	Disease	MESH:D006943
+37484957	65	98	Stanford type A aortic dissection	Disease	MESH:D000784
+37484957	162	175	hyperglycemia	Disease	MESH:D006943
+37484957	205	229	type A aortic dissection	Disease	MESH:D000784
+37484957	231	235	TAAD	Disease	MESH:D000784
+37484957	284	297	hyperglycemia	Disease	MESH:D006943
+37484957	299	302	PHG	Disease	MESH:D006943
+37484957	324	328	TAAD	Disease	MESH:D000784
+37484957	411	414	PHG	Disease	MESH:D006943
+37484957	421	425	TAAD	Disease	MESH:D000784
+37484957	469	472	PHG	Disease	MESH:D006943
+37484957	502	506	TAAD	Disease	MESH:D000784
+37484957	659	662	PHG	Disease	MESH:D006943
+37484957	673	676	PHG	Disease	MESH:D006943
+37484957	702	724	postoperative delirium	Disease	MESH:D000071257
+37484957	726	747	cardiac complications	Disease	MESH:D006331
+37484957	749	773	spinal cord complication	Disease	MESH:D013118
+37484957	775	797	cerebral complications	Disease	MESH:D008107
+37484957	799	818	acute kidney injury	Disease	MESH:D058186
+37484957	820	823	AKI	Disease	MESH:D058186
+37484957	826	845	hepatic dysfunction	Disease	MESH:D008107
+37484957	847	856	hypoxemia	Disease	MESH:D000860
+37484957	928	933	MIMIC	Disease	
+37484957	1004	1007	PHG	Disease	MESH:D006943
+37484957	1056	1059	PHG	Disease	MESH:D006943
+37484957	1221	1226	MIMIC	Disease	
+37484957	1291	1294	PHG	Disease	MESH:D006943
+37484957	1324	1329	MIMIC	Disease	
+37484957	1385	1388	PHG	Disease	MESH:D006943
+37484957	1422	1425	AKI	Disease	MESH:D058186
+37484957	1427	1446	hepatic dysfunction	Disease	MESH:D008107
+37484957	1501	1504	PHG	Disease	MESH:D006943
+37484957	1573	1576	PHG	Disease	MESH:D006943
+37484957	1594	1599	MIMIC	Disease	
+37484957	1659	1670	lactic acid	Chemical	MESH:D019344
+37484957	1913	1918	MIMIC	Disease	
+37484957	2029	2032	PHG	Disease	MESH:D006943
+37484957	2061	2064	PHG	Disease	MESH:D006943
+37484957	2124	2128	TAAD	Disease	MESH:D000784
+37484957	2150	2153	PHG	Disease	MESH:D006943
+37484957	2206	2209	AKI	Disease	MESH:D058186
+37484957	2211	2230	hepatic dysfunction	Disease	MESH:D008107
+37484957	2292	2296	TAAD	Disease	MESH:D000784
+37484957	2355	2366	lactic acid	Chemical	MESH:D019344
+37484957	2417	2420	PHG	Disease	MESH:D006943
+37484957	2465	2468	PHG	Disease	MESH:D006943
+37484957	2504	2507	PHG	Disease	MESH:D006943
+37484957	2567	2571	TAAD	Disease	MESH:D000784
+

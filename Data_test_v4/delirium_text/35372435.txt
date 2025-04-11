@@ -1,0 +1,24 @@
+35372435|t|Deep Learning-Based Pain Classifier Based on the Facial Expression in Critically Ill Patients.
+35372435|a|Objective: Pain assessment based on facial expressions is an essential issue in critically ill patients, but an automated assessment tool is still lacking. We conducted this prospective study to establish the deep learning-based pain classifier based on facial expressions. Methods: We enrolled critically ill patients during 2020-2021 at a tertiary hospital in central Taiwan and recorded video clips with labeled pain scores based on facial expressions, such as relaxed (0), tense (1), and grimacing (2). We established both image- and video-based pain classifiers through using convolutional neural network (CNN) models, such as Resnet34, VGG16, and InceptionV1 and bidirectional long short-term memory networks (BiLSTM). The performance of classifiers in the test dataset was determined by accuracy, sensitivity, and F1-score. Results: A total of 63 participants with 746 video clips were eligible for analysis. The accuracy of using Resnet34 in the polychromous image-based classifier for pain scores 0, 1, 2 was merely 0.5589, and the accuracy of dichotomous pain classifiers between 0 vs. 1/2 and 0 vs. 2 were 0.7668 and 0.8593, respectively. Similar accuracy of image-based pain classifier was found using VGG16 and InceptionV1. The accuracy of the video-based pain classifier to classify 0 vs. 1/2 and 0 vs. 2 was approximately 0.81 and 0.88, respectively. We further tested the performance of established classifiers without reference, mimicking clinical scenarios with a new patient, and found the performance remained high. Conclusions: The present study demonstrates the practical application of deep learning-based automated pain assessment in critically ill patients, and more studies are warranted to validate our findings.
+35372435	20	24	Pain	Disease	MESH:D010146
+35372435	70	84	Critically Ill	Disease	MESH:D016638
+35372435	85	93	Patients	Species	9606
+35372435	106	110	Pain	Disease	MESH:D010146
+35372435	175	189	critically ill	Disease	MESH:D016638
+35372435	190	198	patients	Species	9606
+35372435	324	328	pain	Disease	MESH:D010146
+35372435	390	404	critically ill	Disease	MESH:D016638
+35372435	405	413	patients	Species	9606
+35372435	510	514	pain	Disease	MESH:D010146
+35372435	645	649	pain	Disease	MESH:D010146
+35372435	727	735	Resnet34	Chemical	-
+35372435	1033	1041	Resnet34	Chemical	-
+35372435	1089	1093	pain	Disease	MESH:D010146
+35372435	1160	1164	pain	Disease	MESH:D010146
+35372435	1277	1281	pain	Disease	MESH:D010146
+35372435	1364	1368	pain	Disease	MESH:D010146
+35372435	1581	1588	patient	Species	9606
+35372435	1734	1738	pain	Disease	MESH:D010146
+35372435	1753	1767	critically ill	Disease	MESH:D016638
+35372435	1768	1776	patients	Species	9606
+

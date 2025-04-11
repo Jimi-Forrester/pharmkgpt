@@ -1,0 +1,56 @@
+21829721|t|Differential inhibitor sensitivity between human kinases VRK1 and VRK2.
+21829721|a|Human vaccinia-related kinases (VRK1 and VRK2) are atypical active Ser-Thr kinases implicated in control of cell cycle entry, apoptosis and autophagy, and affect signalling by mitogen activated protein kinases (MAPK). The specific structural differences in VRK catalytic sites make them suitable candidates for development of specific inhibitors. In this work we have determined the sensitivity of VRK1 and VRK2 to kinase inhibitors, currently used in biological assays or in preclinical studies, in order to discriminate between the two proteins as well as with respect to the vaccinia virus B1R kinase. Both VRK proteins and vaccinia B1R are poorly inhibited by inhibitors of different types targeting Src, MEK1, B-Raf, JNK, p38, CK1, ATM, CHK1/2 and DNA-PK, and most of them have no effect even at 100 microM. Despite their low sensitivity, some of these inhibitors in the low micromolar range are able to discriminate between VRK1, VRK2 and B1R. VRK1 is more sensitive to staurosporine, RO-31-8220 and TDZD8. VRK2 is more sensitive to roscovitine, RO 31-8220, Cdk1 inhibitor, AZD7762, and IC261. Vaccinia virus B1R is more sensitive to staurosporine, KU55933, and RO 31-8220, but not to IC261. Thus, the three kinases present a different pattern of sensitivity to kinase inhibitors. This differential response to known inhibitors can provide a structural framework for VRK1 or VRK2 specific inhibitors with low or no cross-inhibition. The development of highly specific VRK1 inhibitors might be of potential clinical use in those cancers where these kinases identify a clinical subtype with a poorer prognosis, as is the case of VRK1 in breast cancer.
+21829721	43	48	human	Species	9606
+21829721	57	61	VRK1	Gene	7443
+21829721	66	70	VRK2	Gene	7444
+21829721	72	77	Human	Species	9606
+21829721	104	108	VRK1	Gene	7443
+21829721	113	117	VRK2	Gene	7444
+21829721	470	474	VRK1	Gene	7443
+21829721	479	483	VRK2	Gene	7444
+21829721	650	668	vaccinia virus B1R	Species	
+21829721	776	779	Src	Gene	6714
+21829721	781	785	MEK1	Gene	5604
+21829721	787	792	B-Raf	Gene	673
+21829721	794	797	JNK	Gene	5599
+21829721	799	802	p38	Gene	1432
+21829721	809	812	ATM	Gene	472
+21829721	814	820	CHK1/2	Gene	1111;11200
+21829721	825	831	DNA-PK	Gene	5591
+21829721	1002	1006	VRK1	Gene	7443
+21829721	1008	1012	VRK2	Gene	7444
+21829721	1017	1021	B1R.	Gene	623
+21829721	1022	1026	VRK1	Gene	7443
+21829721	1048	1061	staurosporine	Chemical	MESH:D019311
+21829721	1063	1073	RO-31-8220	Chemical	MESH:C064758
+21829721	1078	1083	TDZD8	Chemical	MESH:C494356
+21829721	1085	1089	VRK2	Gene	7444
+21829721	1111	1122	roscovitine	Chemical	MESH:D000077546
+21829721	1124	1134	RO 31-8220	Chemical	MESH:C064758
+21829721	1136	1140	Cdk1	Gene	983
+21829721	1152	1159	AZD7762	Chemical	MESH:C532363
+21829721	1165	1170	IC261	Chemical	MESH:C411652
+21829721	1172	1190	Vaccinia virus B1R	Species	
+21829721	1212	1225	staurosporine	Chemical	MESH:D019311
+21829721	1227	1234	KU55933	Chemical	MESH:C495818
+21829721	1240	1250	RO 31-8220	Chemical	MESH:C064758
+21829721	1263	1268	IC261	Chemical	MESH:C411652
+21829721	1445	1449	VRK1	Gene	7443
+21829721	1453	1457	VRK2	Gene	7444
+21829721	1546	1550	VRK1	Gene	7443
+21829721	1606	1613	cancers	Disease	MESH:D009369
+21829721	1705	1709	VRK1	Gene	7443
+21829721	1713	1726	breast cancer	Disease	MESH:D001943
+21829721	Negative_Correlation	MESH:C532363	7444
+21829721	Negative_Correlation	MESH:C494356	7443
+21829721	Association	7444	983
+21829721	Association	MESH:C494356	623
+21829721	Association	MESH:D009369	7443
+21829721	Negative_Correlation	MESH:C064758	7444
+21829721	Negative_Correlation	MESH:C411652	7444
+21829721	Negative_Correlation	MESH:D019311	7443
+21829721	Negative_Correlation	MESH:C064758	7443
+21829721	Negative_Correlation	MESH:D000077546	7444
+21829721	Negative_Correlation	MESH:D019311	623
+21829721	Association	MESH:D001943	7443
+

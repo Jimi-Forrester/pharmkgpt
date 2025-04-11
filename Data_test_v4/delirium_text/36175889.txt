@@ -1,0 +1,58 @@
+36175889|t|Construction of a ferroptosis-related five-lncRNA signature for predicting prognosis and immune response in thyroid carcinoma.
+36175889|a|BACKGROUND: Thyroid carcinoma (THCA) is the most common endocrine-related malignant tumor. Despite the good prognosis, some THCA patients may deteriorate into more aggressive diseases, leading to poor survival. This may be alleviated by developing a novel model to predict the risk of THCA, including recurrence and survival. Ferroptosis is an iron-dependent, oxidative, non-apoptotic form of cell death initially described in mammalian cells, and plays an important role in various cancers. To explore the potential prognostic value of ferroptosis in THCA, ferroptosis-related long non-coding RNAs (FRLs) were used to construct model for risk prediction of THCA. METHODS: RNA-sequencing data of THCA patients and ferroptosis-related genes were downloaded from The Cancer Genome Atlas (TCGA) and FerrDb, respectively. A total of 502 patients with complete data were randomly separated into a training cohort and a validation cohort at the ratio of 2:1. The Pearson correlation coefficients were calculated to determine the correlation between ferroptosis-related genes (FRGs) and the corresponding lncRNAs, and those meeting the screening conditions were defined as FRLs. Gene Expression Omnibus (GEO) database and qRT-PCR were used to verify the expression level of FRLs in THCA tissues. Univariate and multivariate cox regression analysis were performed to construct a FRLs signature based on lowest Akaike information criterion (AIC) value in the training cohort, then further tested in the validation cohort and the entire cohort. Gene set enrichment analysis (GSEA) and functional enrichment analysis were used to analyze the biological functions and signal pathways related to differentially expressed genes between the high-risk and low-risk groups. Finally, the relative abundance of different tumor-infiltrating immune cells were calculated by CIBERSORT algorithm. RESULTS: The patients were divided into high-risk group and low-risk group based on a 5-FRLs signature (AC055720.2, DPP4-DT, AC012038.2, LINC02454 and LINC00900) in training cohort, validation cohort and entire cohort. Through Kaplan-Meier analysis and area under ROC curve (AUC) value, patients in the high-risk group exhibited worse prognosis than patients in the low-risk group. GEO database and qRT-PCR confirmed that LINC02454 and LINC00900 were up-regulated in THCA. Univariate and multivariate cox regression analyses showed that the risk score was an independent prognostic indicator. GSEA and functional enrichment analysis confirmed that immune-related pathways against cancer were significantly activated in the low-risk THCA patients. Further analysis showed that the immune cells such as plasma cells, T cells CD8 and macrophages M1, and the expression of immune checkpoint molecules, including PD-1, PD-L1, CTLA4, and LAG3, were remarkably higher in the low-risk group. CONCLUSION: Our study used the TCGA THCA dataset to construct a novel FRLs prognostic model which could precisely predict the prognosis of THCA patients. These FRLs potentially mediate anti-tumor immunity and serve as therapeutic targets for THCA, which provided the novel insight into treatment of THCA.
+36175889	18	29	ferroptosis	Disease	
+36175889	108	125	thyroid carcinoma	Disease	MESH:D013964
+36175889	139	156	Thyroid carcinoma	Disease	MESH:D013964
+36175889	158	162	THCA	Disease	MESH:D013964
+36175889	183	216	endocrine-related malignant tumor	Disease	MESH:D018198
+36175889	251	255	THCA	Disease	MESH:D013964
+36175889	256	264	patients	Species	9606
+36175889	412	416	THCA	Disease	MESH:D013964
+36175889	453	464	Ferroptosis	Disease	
+36175889	471	475	iron	Chemical	MESH:D007501
+36175889	610	617	cancers	Disease	MESH:D009369
+36175889	664	675	ferroptosis	Disease	
+36175889	679	683	THCA	Disease	MESH:D013964
+36175889	685	696	ferroptosis	Disease	
+36175889	785	789	THCA	Disease	MESH:D013964
+36175889	823	827	THCA	Disease	MESH:D013964
+36175889	828	836	patients	Species	9606
+36175889	841	852	ferroptosis	Disease	
+36175889	892	898	Cancer	Disease	MESH:D009369
+36175889	960	968	patients	Species	9606
+36175889	1170	1181	ferroptosis	Disease	
+36175889	1402	1406	THCA	Disease	MESH:D013964
+36175889	1929	1934	tumor	Disease	MESH:D009369
+36175889	2014	2022	patients	Species	9606
+36175889	2117	2121	DPP4	Gene	1803
+36175889	2152	2161	LINC00900	Gene	283143
+36175889	2288	2296	patients	Species	9606
+36175889	2351	2359	patients	Species	9606
+36175889	2437	2446	LINC00900	Gene	283143
+36175889	2468	2472	THCA	Disease	MESH:D013964
+36175889	2681	2687	cancer	Disease	MESH:D009369
+36175889	2733	2737	THCA	Disease	MESH:D013964
+36175889	2738	2746	patients	Species	9606
+36175889	2909	2913	PD-1	Gene	5133
+36175889	2915	2920	PD-L1	Gene	29126
+36175889	2922	2927	CTLA4	Gene	1493
+36175889	2933	2937	LAG3	Gene	3902
+36175889	3021	3025	THCA	Disease	MESH:D013964
+36175889	3124	3128	THCA	Disease	MESH:D013964
+36175889	3129	3137	patients	Species	9606
+36175889	3175	3180	tumor	Disease	MESH:D009369
+36175889	3227	3231	THCA	Disease	MESH:D013964
+36175889	3284	3288	THCA	Disease	MESH:D013964
+36175889	Association	MESH:D013964	3902
+36175889	Association	1493	5133
+36175889	Association	1493	29126
+36175889	Association	MESH:D013964	1803
+36175889	Association	MESH:D013964	283143
+36175889	Association	1493	3902
+36175889	Association	MESH:D013964	1493
+36175889	Association	3902	5133
+36175889	Association	29126	3902
+36175889	Association	MESH:D013964	29126
+36175889	Association	29126	5133
+36175889	Association	MESH:D013964	5133
+

@@ -1,0 +1,14 @@
+32275915|t|Deep residual learning for neuroimaging: An application to predict progression to Alzheimer's disease.
+32275915|a|BACKGROUND: The unparalleled performance of deep learning approaches in generic image processing has motivated its extension to neuroimaging data. These approaches learn abstract neuroanatomical and functional brain alterations that could enable exceptional performance in classification of brain disorders, predicting disease progression, and localizing brain abnormalities. NEW METHOD: This work investigates the suitability of a modified form of deep residual neural networks (ResNet) for studying neuroimaging data in the specific application of predicting progression from mild cognitive impairment (MCI) to Alzheimer's disease (AD). Prediction was conducted first by training the deep models using MCI individuals only, followed by a domain transfer learning version that additionally trained on AD and controls. We also demonstrate a network occlusion based method to localize abnormalities. RESULTS: The implemented framework captured non-linear features that successfully predicted AD progression and also conformed to the spectrum of various clinical scores. In a repeated cross-validated setup, the learnt predictive models showed highly similar peak activations that corresponded to previous AD reports. COMPARISON WITH EXISTING METHODS: The implemented architecture achieved a significant performance improvement over the classical support vector machine and the stacked autoencoder frameworks (p <  0.005), numerically better than state-of-the-art performance using sMRI data alone (> 7% than the second-best performing method) and within 1% of the state-of-the-art performance considering learning using multiple neuroimaging modalities as well. CONCLUSIONS: The explored frameworks reflected the high potential of deep learning architectures in learning subtle predictive features and utility in critical applications such as predicting and understanding disease progression.
+32275915	82	101	Alzheimer's disease	Disease	MESH:D000544
+32275915	394	409	brain disorders	Disease	MESH:D001927
+32275915	458	477	brain abnormalities	Disease	MESH:D001927
+32275915	686	706	cognitive impairment	Disease	MESH:D003072
+32275915	708	711	MCI	Disease	MESH:D060825
+32275915	716	735	Alzheimer's disease	Disease	MESH:D000544
+32275915	737	739	AD	Disease	MESH:D000544
+32275915	807	810	MCI	Disease	MESH:D060825
+32275915	905	907	AD	Disease	MESH:D000544
+32275915	1094	1096	AD	Disease	MESH:D000544
+32275915	1307	1309	AD	Disease	MESH:D000544
+

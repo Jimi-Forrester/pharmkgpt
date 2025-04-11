@@ -1,0 +1,18 @@
+34799641|t|Estimated prevalence of Niemann-Pick type C disease in Quebec.
+34799641|a|Niemann-Pick type C (NP-C) disease is an autosomal recessive disease caused by variants in the NPC1 or NPC2 genes. It has a large range of symptoms depending on age of onset, thus making it difficult to diagnose. In adults, symptoms appear mainly in the form of psychiatric problems. The prevalence varies from 0.35 to 2.2 per 100,000 births depending on the country. The aim of this study is to calculate the estimated prevalence of NP-C in Quebec to determine if it is underdiagnosed in this population. The CARTaGENE database is a unique database that regroups individuals between 40 and 69 years old from metropolitan regions of Quebec. RNA-sequencing data was available for 911 individuals and exome sequencing for 198 individuals. We used a bioinformatic pipeline on those individuals to extract the variants in the NPC1/2 genes. The prevalence in Quebec was estimated assuming Hardy-Weinberg Equilibrium. Two pathogenic variants were used. The variant p.Pro543Leu was found in three heterozygous individuals that share a common haplotype, which suggests a founder French-Canadian pathogenic variant. The variant p.Ile1061Thr was found in two heterozygous individuals. Both variants have previously been reported and are usually associated with infantile onset. The estimated prevalence calculated using those two variants is 0.61:100,000 births. This study represents the first estimate of NP-C in Quebec. The estimated prevalence for NP-C is likely underestimated due to misdiagnosis or missed cases. It is therefore important to diagnose all NP-C patients to initiate early treatment.
+34799641	24	51	Niemann-Pick type C disease	Disease	MESH:D052556
+34799641	63	97	Niemann-Pick type C (NP-C) disease	Disease	MESH:D052556
+34799641	104	131	autosomal recessive disease	Disease	MESH:D030342
+34799641	158	162	NPC1	Gene	4864
+34799641	166	170	NPC2	Gene	10577
+34799641	325	345	psychiatric problems	Disease	MESH:D001523
+34799641	885	891	NPC1/2	Gene	4864;10577
+34799641	1022	1033	p.Pro543Leu	ProteinMutation	tmVar:p|SUB|P|543|L;HGVS:p.P543L;VariantGroup:0;CorrespondingGene:4864;RS#:369368181;CorrespondingSpecies:9606;CA#:297011
+34799641	1182	1194	p.Ile1061Thr	ProteinMutation	tmVar:p|SUB|I|1061|T;HGVS:p.I1061T;VariantGroup:1;CorrespondingGene:4864;RS#:80358259;CorrespondingSpecies:9606;CA#:340033
+34799641	1619	1627	patients	Species	9606
+34799641	Positive_Correlation	MESH:D052556	RS#:369368181;HGVS:p.P543L;CorrespondingGene:4864
+34799641	Association	MESH:D052556	4864
+34799641	Positive_Correlation	MESH:D052556	RS#:80358259;HGVS:p.I1061T;CorrespondingGene:4864
+34799641	Association	MESH:D052556	10577
+34799641	Association	MESH:D052556	4864
+

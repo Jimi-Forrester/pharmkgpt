@@ -1,0 +1,52 @@
+37034727|t|Quantitative proteomics and phosphoproteomics of PPP2R5D variants reveal deregulation of RPS6 phosphorylation through converging signaling cascades.
+37034727|a|Variants in the phosphoprotein phosphatase-2 regulatory protein-5D gene ( PPP2R5D ) cause the clinical phenotype of Jordan's Syndrome (PPP2R5D-related disorder), which includes intellectual disability, hypotonia, seizures, macrocephaly, autism spectrum disorder and delayed motor skill development. The disorder originates from de novo single nucleotide mutations, generating missense variants that act in a dominant manner. Pathogenic mutations altering 13 different amino acids have been identified, with the E198K variant accounting for ~40% of reported cases. Here, we use CRISPR-PRIME genomic editing to introduce a transition (c.592G>A) in the PPP2R5D allele in a heterozygous manner in HEK293 cells, generating E198K-heterozygous lines to complement existing E420K variant lines. We generate global protein and phosphorylation profiles of wild-type, E198K, and E420K cell lines and find unique and shared changes between variants and wild-type cells in kinase- and phosphatase-controlled signaling cascades. As shared signaling alterations, we observed ribosomal protein S6 (RPS6) hyperphosphorylation, indicative of increased ribosomal protein S6-kinase activity. Rapamycin treatment suppressed RPS6 phosphorylation in both, suggesting activation of mTORC1. Intriguingly, our data suggest AKT-dependent (E420K) and -independent (E198K) activation of mTORC1. Thus, although upstream activation of mTORC1 differs between PPP2R5D-related disorder genotypes, treatment with rapamycin or a p70S6K inhibitor warrants further investigation as potential therapeutic strategies for patients.
+37034727	49	56	PPP2R5D	Gene	5528
+37034727	89	93	RPS6	Gene	6194
+37034727	223	230	PPP2R5D	Gene	5528
+37034727	265	282	Jordan's Syndrome	Disease	MESH:D005359
+37034727	284	308	PPP2R5D-related disorder	Disease	OMIM:615065
+37034727	326	349	intellectual disability	Disease	MESH:D008607
+37034727	351	360	hypotonia	Disease	MESH:D009123
+37034727	362	370	seizures	Disease	MESH:D012640
+37034727	372	384	macrocephaly	Disease	MESH:D058627
+37034727	386	410	autism spectrum disorder	Disease	MESH:D000067877
+37034727	415	446	delayed motor skill development	Disease	MESH:D019957
+37034727	660	665	E198K	ProteinMutation	tmVar:p|SUB|E|198|K;HGVS:p.E198K;VariantGroup:1;CorrespondingGene:5528;RS#:863225082;CorrespondingSpecies:9606;CA#:325481
+37034727	782	790	c.592G>A	DNAMutation	tmVar:c|SUB|G|592|A;HGVS:c.592G>A;VariantGroup:1;CorrespondingGene:5528;RS#:863225082;CorrespondingSpecies:9606;CA#:325481
+37034727	799	806	PPP2R5D	Gene	5528
+37034727	842	848	HEK293	CellLine	CVCL:0045
+37034727	867	872	E198K	ProteinMutation	tmVar:p|SUB|E|198|K;HGVS:p.E198K;VariantGroup:1;CorrespondingGene:5528;RS#:863225082;CorrespondingSpecies:9606;CA#:325481
+37034727	915	920	E420K	ProteinMutation	tmVar:p|SUB|E|420|K;HGVS:p.E420K;VariantGroup:0;CorrespondingGene:5528;RS#:863225080;CorrespondingSpecies:9606;CA#:325483
+37034727	1006	1011	E198K	ProteinMutation	tmVar:p|SUB|E|198|K;HGVS:p.E198K;VariantGroup:1;CorrespondingGene:5528;RS#:863225082;CorrespondingSpecies:9606;CA#:325481
+37034727	1017	1022	E420K	ProteinMutation	tmVar:p|SUB|E|420|K;HGVS:p.E420K;VariantGroup:0;CorrespondingGene:5528;RS#:863225080;CorrespondingSpecies:9606;CA#:325483
+37034727	1209	1229	ribosomal protein S6	Gene	6194
+37034727	1231	1235	RPS6	Gene	6194
+37034727	1321	1330	Rapamycin	Chemical	MESH:D020123
+37034727	1352	1356	RPS6	Gene	6194
+37034727	1446	1449	AKT	Gene	207
+37034727	1461	1466	E420K	ProteinMutation	tmVar:p|SUB|E|420|K;HGVS:p.E420K;VariantGroup:0;CorrespondingGene:5528;RS#:863225080;CorrespondingSpecies:9606;CA#:325483
+37034727	1486	1491	E198K	ProteinMutation	tmVar:p|SUB|E|198|K;HGVS:p.E198K;VariantGroup:1;CorrespondingGene:5528;RS#:863225082;CorrespondingSpecies:9606;CA#:325481
+37034727	1576	1600	PPP2R5D-related disorder	Disease	OMIM:615065
+37034727	1627	1636	rapamycin	Chemical	MESH:D020123
+37034727	1642	1648	p70S6K	Gene	6198
+37034727	1730	1738	patients	Species	9606
+37034727	Positive_Correlation	OMIM:615065	RS#:863225080;HGVS:p.E420K;CorrespondingGene:5528
+37034727	Association	5528	6194
+37034727	Association	MESH:D012640	5528
+37034727	Positive_Correlation	RS#:863225082;HGVS:c.592G>A;CorrespondingGene:5528	OMIM:615065
+37034727	Positive_Correlation	RS#:863225082;HGVS:c.592G>A;CorrespondingGene:5528	MESH:D005359
+37034727	Negative_Correlation	MESH:D020123	OMIM:615065
+37034727	Association	MESH:D058627	5528
+37034727	Positive_Correlation	OMIM:615065	RS#:863225082;HGVS:p.E198K;CorrespondingGene:5528
+37034727	Positive_Correlation	MESH:D005359	RS#:863225080;HGVS:p.E420K;CorrespondingGene:5528
+37034727	Association	MESH:D008607	5528
+37034727	Association	OMIM:615065	5528
+37034727	Negative_Correlation	MESH:D020123	6194
+37034727	Positive_Correlation	MESH:D005359	RS#:863225082;HGVS:p.E198K;CorrespondingGene:5528
+37034727	Association	MESH:D019957	5528
+37034727	Association	MESH:D000067877	5528
+37034727	Association	MESH:D005359	5528
+37034727	Association	MESH:D009123	5528
+37034727	Association	OMIM:615065	5528
+37034727	Association	MESH:D005359	5528
+

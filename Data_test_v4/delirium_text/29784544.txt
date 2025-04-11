@@ -1,0 +1,28 @@
+29784544|t|Classifying Alzheimer's disease with brain imaging and genetic data using a neural network framework.
+29784544|a|A long-standing question is how to best use brain morphometric and genetic data to distinguish Alzheimer's disease (AD) patients from cognitively normal (CN) subjects and to predict those who will progress from mild cognitive impairment (MCI) to AD. Here, we use a neural network (NN) framework on both magnetic resonance imaging-derived quantitative structural brain measures and genetic data to address this question. We tested the effectiveness of NN models in classifying and predicting AD. We further performed a novel analysis of the NN model to gain insight into the most predictive imaging and genetics features and to identify possible interactions between features that affect AD risk. Data were obtained from the AD Neuroimaging Initiative cohort and included baseline structural MRI data and single nucleotide polymorphism (SNP) data for 138 AD patients, 225 CN subjects, and 358 MCI patients. We found that NN models with both brain and SNP features as predictors perform significantly better than models with either alone in classifying AD and CN subjects, with an area under the receiver operating characteristic curve (AUC) of 0.992, and in predicting the progression from MCI to AD (AUC=0.835). The most important predictors in the NN model were the left middle temporal gyrus volume, the left hippocampus volume, the right entorhinal cortex volume, and the APOE (a gene that encodes apolipoprotein E) e4 risk allele. Furthermore, we identified interactions between the right parahippocampal gyrus and the right lateral occipital gyrus, the right banks of the superior temporal sulcus and the left posterior cingulate, and SNP rs10838725 and the left lateral occipital gyrus. Our work shows the ability of NN models to not only classify and predict AD occurrence but also to identify important AD risk factors and interactions among them.
+29784544	12	31	Alzheimer's disease	Disease	MESH:D000544
+29784544	197	216	Alzheimer's disease	Disease	MESH:D000544
+29784544	218	220	AD	Disease	MESH:D000544
+29784544	222	230	patients	Species	9606
+29784544	318	338	cognitive impairment	Disease	MESH:D003072
+29784544	340	343	MCI	Disease	MESH:D060825
+29784544	348	350	AD	Disease	MESH:D000544
+29784544	593	595	AD	Disease	MESH:D000544
+29784544	789	791	AD	Disease	MESH:D000544
+29784544	826	828	AD	Disease	MESH:D000544
+29784544	956	958	AD	Disease	MESH:D000544
+29784544	959	967	patients	Species	9606
+29784544	994	997	MCI	Disease	MESH:D060825
+29784544	998	1006	patients	Species	9606
+29784544	1153	1155	AD	Disease	MESH:D000544
+29784544	1236	1246	(AUC) of 0	ProteinMutation	tmVar:p|Allele|I|0;VariantGroup:1;CorrespondingGene:348;CorrespondingSpecies:9606
+29784544	1291	1294	MCI	Disease	MESH:D060825
+29784544	1298	1300	AD	Disease	MESH:D000544
+29784544	1477	1481	APOE	Gene	348
+29784544	1503	1519	apolipoprotein E	Gene	348
+29784544	1746	1756	rs10838725	SNP	tmVar:rs10838725;VariantGroup:0;CorrespondingGene:10658;RS#:10838725;CorrespondingSpecies:9606
+29784544	1868	1870	AD	Disease	MESH:D000544
+29784544	1913	1915	AD	Disease	MESH:D000544
+29784544	Association	MESH:D000544	CorrespondingGene:348;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p
+29784544	Association	MESH:D000544	348
+

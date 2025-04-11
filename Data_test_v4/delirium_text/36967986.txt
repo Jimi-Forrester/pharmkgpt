@@ -1,0 +1,6 @@
+36967986|t|The effect of node features on GCN-based brain network classification: an empirical study.
+36967986|a|Brain functional network (BFN) analysis has become a popular technique for identifying neurological/mental diseases. Due to the fact that BFN is a graph, a graph convolutional network (GCN) can be naturally used in the classification of BFN. Different from traditional methods that directly use the adjacency matrices of BFNs to train a classifier, GCN requires an additional input-node features. To our best knowledge, however, there is no systematic study to analyze their influence on the performance of GCN-based brain disorder classification. Therefore, in this study, we conduct an empirical study on various node feature measures, including (1) original fMRI signals, (2) one-hot encoding, (3) node statistics, (4) node correlation, and (5) their combination. Experimental results on two benchmark databases show that different node feature inputs to GCN significantly affect the brain disease classification performance, and node correlation usually contributes higher accuracy compared to original signals and manually extracted statistical features.
+36967986	178	206	neurological/mental diseases	Disease	MESH:D008607
+36967986	608	622	brain disorder	Disease	MESH:D001927
+36967986	978	991	brain disease	Disease	MESH:D001927
+

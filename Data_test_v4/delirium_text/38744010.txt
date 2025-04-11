@@ -1,0 +1,12 @@
+38744010|t|HAMMF: Hierarchical attention-based multi-task and multi-modal fusion model for computer-aided diagnosis of Alzheimer's disease.
+38744010|a|Alzheimer's disease (AD) is a progressive neurodegenerative condition, and early intervention can help slow its progression. However, integrating multi-dimensional information and deep convolutional networks increases the model parameters, affecting diagnosis accuracy and efficiency and hindering clinical diagnostic model deployment. Multi-modal neuroimaging can offer more precise diagnostic results, while multi-task modeling of classification and regression tasks can enhance the performance and stability of AD diagnosis. This study proposes a Hierarchical Attention-based Multi-task Multi-modal Fusion model (HAMMF) that leverages multi-modal neuroimaging data to concurrently learn AD classification tasks, cognitive score regression, and age regression tasks using attention-based techniques. Firstly, we preprocess MRI and PET image data to obtain two modal data, each containing distinct information. Next, we incorporate a novel Contextual Hierarchical Attention Module (CHAM) to aggregate multi-modal features. This module employs channel and spatial attention to extract fine-grained pathological features from unimodal image data across various dimensions. Using these attention mechanisms, the Transformer can effectively capture correlated features of multi-modal inputs. Lastly, we adopt multi-task learning in our model to investigate the influence of different variables on diagnosis, with a primary classification task and a secondary regression task for optimal multi-task prediction performance. Our experiments utilized MRI and PET images from 720 subjects in the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset. The results show that our proposed model achieves an overall accuracy of 93.15% for AD/NC recognition, and the visualization results demonstrate its strong pathological feature recognition performance.
+38744010	108	127	Alzheimer's disease	Disease	MESH:D000544
+38744010	129	148	Alzheimer's disease	Disease	MESH:D000544
+38744010	150	152	AD	Disease	MESH:D000544
+38744010	171	198	neurodegenerative condition	Disease	MESH:D019636
+38744010	643	645	AD	Disease	MESH:D000544
+38744010	819	821	AD	Disease	MESH:D000544
+38744010	1717	1736	Alzheimer's Disease	Disease	MESH:D000544
+38744010	1861	1863	AD	Disease	MESH:D000544
+38744010	1864	1866	NC	Disease	OMIM:617025
+

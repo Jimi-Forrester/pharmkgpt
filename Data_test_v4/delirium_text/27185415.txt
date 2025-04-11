@@ -1,0 +1,17 @@
+27185415|t|A systems biology pipeline identifies new immune and disease related molecular signatures and networks in human cells during microgravity exposure.
+27185415|a|Microgravity is a prominent health hazard for astronauts, yet we understand little about its effect at the molecular systems level. In this study, we have integrated a set of systems-biology tools and databases and have analysed more than 8000 molecular pathways on published global gene expression datasets of human cells in microgravity. Hundreds of new pathways have been identified with statistical confidence for each dataset and despite the difference in cell types and experiments, around 100 of the new pathways are appeared common across the datasets. They are related to reduced inflammation, autoimmunity, diabetes and asthma. We have identified downregulation of NfkappaB pathway via Notch1 signalling as new pathway for reduced immunity in microgravity. Induction of few cancer types including liver cancer and leukaemia and increased drug response to cancer in microgravity are also found. Increase in olfactory signal transduction is also identified. Genes, based on their expression pattern, are clustered and mathematically stable clusters are identified. The network mapping of genes within a cluster indicates the plausible functional connections in microgravity. This pipeline gives a new systems level picture of human cells under microgravity, generates testable hypothesis and may help estimating risk and developing medicine for space missions.
+27185415	106	111	human	Species	9606
+27185415	459	464	human	Species	9606
+27185415	737	749	inflammation	Disease	MESH:D007249
+27185415	751	763	autoimmunity	Disease	MESH:D001327
+27185415	765	773	diabetes	Disease	MESH:D003920
+27185415	778	784	asthma	Disease	MESH:D001249
+27185415	823	831	NfkappaB	Gene	4790
+27185415	844	850	Notch1	Gene	4851
+27185415	932	938	cancer	Disease	MESH:D009369
+27185415	955	967	liver cancer	Disease	MESH:D006528
+27185415	972	981	leukaemia	Disease	MESH:D015458
+27185415	1013	1019	cancer	Disease	MESH:D009369
+27185415	1382	1387	human	Species	9606
+27185415	Association	4790	4851
+

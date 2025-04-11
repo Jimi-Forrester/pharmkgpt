@@ -1,0 +1,17 @@
+36322355|t|Is there a casual relation between air pollution and dementia?
+36322355|a|Dementia has been cited as a critical public health risk in the contemporary world, while few empirical researchers try to reveal the casual relationship between air pollutant concentrations (APCs) and dementia, especially given the increasing prevalence of air pollution on a global scale. Accordingly, this paper tries to infer the causal relationship between APCs and dementia. The 59,605 valid data was compiled through a combination of the statistic from the China Family Panel Study, China Environmental Statistics Yearbook, World Meteorological Association and China National Bureau of Statistics. The RD design of this study utilizes the discontinuous variation in APCs and dementia as one crosses the Huai River boundary, which is an arbitrary heating policy that causes the significant difference in APCs between the north and south of China. We used stata17.0 to analyze the data. The results of the RD regression indicated that a 100 mu g/m3 rise in APCs led to an increase of 42.4% in the hazard ratio of suffering dementia (Coeff=-0.58, SD= 0.23, P < 0.05). Meanwhile, heterogeneous models revealed that the hazard ratio of suffering dementia by APCs was more significant in the older compared to younger (coeff= 1.35 vs coeff= 1.55, P < 0.05), male compared to female (coeff= 1.62 vs coeff= 0.71, P < 0.05), smoking compared to non-smoke (coeff= 2.12 vs coeff= 0.93, P < 0.05), and thin groups compared to medium and obesity (coeff= 2.05 vs coeff= 1.22, coeff= 1.28, P < 0.05). In addition, the O3 and SO2 were the air pollutants with the highest (coeff= 1.54, P < 0.05) and lowest effects (coeff= 0.81, P < 0.05) on the hazard ratio of suffering dementia among the five APCs, respectively. And the robustness of the results was ensured by changing the RD bandwidth, polynomial order. The results indicated that APCs significantly induced the hazard ratio of suffering dementia of Chinese residents, which provides empirical evidence in supporting the Chinese government to invest more in combating air pollution and ensure the public health of Chinese residents.
+36322355	53	61	dementia	Disease	MESH:D003704
+36322355	63	71	Dementia	Disease	MESH:D003704
+36322355	265	273	dementia	Disease	MESH:D003704
+36322355	434	442	dementia	Disease	MESH:D003704
+36322355	745	753	dementia	Disease	MESH:D003704
+36322355	1091	1099	dementia	Disease	MESH:D003704
+36322355	1211	1219	dementia	Disease	MESH:D003704
+36322355	1495	1502	obesity	Disease	MESH:D009765
+36322355	1573	1575	O3	Chemical	MESH:D010126
+36322355	1580	1583	SO2	Chemical	MESH:D013458
+36322355	1725	1733	dementia	Disease	MESH:D003704
+36322355	1947	1955	dementia	Disease	MESH:D003704
+36322355	Negative_Correlation	MESH:D010126	MESH:D003704
+36322355	Negative_Correlation	MESH:D013458	MESH:D003704
+

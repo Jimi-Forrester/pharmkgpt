@@ -1,0 +1,57 @@
+21712989|t|Blockade of gap junction hemichannel suppresses disease progression in mouse models of amyotrophic lateral sclerosis and Alzheimer's disease.
+21712989|a|BACKGROUND: Glutamate released by activated microglia induces excitotoxic neuronal death, which likely contributes to non-cell autonomous neuronal death in neurodegenerative diseases, including amyotrophic lateral sclerosis and Alzheimer's disease. Although both blockade of glutamate receptors and inhibition of microglial activation are the therapeutic candidates for these neurodegenerative diseases, glutamate receptor blockers also perturbed physiological and essential glutamate signals, and inhibitors of microglial activation suppressed both neurotoxic/neuroprotective roles of microglia and hardly affected disease progression. We previously demonstrated that activated microglia release a large amount of glutamate specifically through gap junction hemichannel. Hence, blockade of gap junction hemichannel may be potentially beneficial in treatment of neurodegenerative diseases. METHODS AND FINDINGS: In this study, we generated a novel blood-brain barrier permeable gap junction hemichannel blocker based on glycyrrhetinic acid. We found that pharmacologic blockade of gap junction hemichannel inhibited excessive glutamate release from activated microglia in vitro and in vivo without producing notable toxicity. Blocking gap junction hemichannel significantly suppressed neuronal loss of the spinal cord and extended survival in transgenic mice carrying human superoxide dismutase 1 with G93A or G37R mutation as an amyotrophic lateral sclerosis mouse model. Moreover, blockade of gap junction hemichannel also significantly improved memory impairments without altering amyloid beta deposition in double transgenic mice expressing human amyloid precursor protein with K595N and M596L mutations and presenilin 1 with A264E mutation as an Alzheimer's disease mouse model. CONCLUSIONS: Our results suggest that gap junction hemichannel blockers may represent a new therapeutic strategy to target neurotoxic microglia specifically and prevent microglia-mediated neuronal death in various neurodegenerative diseases.
+21712989	71	76	mouse	Species	10090
+21712989	87	116	amyotrophic lateral sclerosis	Disease	MESH:D000690
+21712989	121	140	Alzheimer's disease	Disease	MESH:D000544
+21712989	154	163	Glutamate	Chemical	MESH:D018698
+21712989	204	230	excitotoxic neuronal death	Disease	MESH:D009410
+21712989	280	294	neuronal death	Disease	MESH:D009410
+21712989	298	324	neurodegenerative diseases	Disease	MESH:D019636
+21712989	336	365	amyotrophic lateral sclerosis	Disease	MESH:D000690
+21712989	370	389	Alzheimer's disease	Disease	MESH:D000544
+21712989	518	544	neurodegenerative diseases	Disease	MESH:D019636
+21712989	617	626	glutamate	Chemical	MESH:D018698
+21712989	692	702	neurotoxic	Disease	MESH:D020258
+21712989	857	866	glutamate	Chemical	MESH:D018698
+21712989	1004	1030	neurodegenerative diseases	Disease	MESH:D019636
+21712989	1162	1181	glycyrrhetinic acid	Chemical	MESH:D006034
+21712989	1268	1277	glutamate	Chemical	MESH:D018698
+21712989	1358	1366	toxicity	Disease	MESH:D064420
+21712989	1427	1440	neuronal loss	Disease	MESH:D009410
+21712989	1496	1500	mice	Species	10090
+21712989	1510	1515	human	Species	9606
+21712989	1516	1538	superoxide dismutase 1	Gene	6647
+21712989	1544	1548	G93A	DNAMutation	tmVar:c|SUB|G|93|A;HGVS:c.93G>A;VariantGroup:4;CorrespondingGene:6647;CorrespondingSpecies:9606
+21712989	1552	1556	G37R	ProteinMutation	tmVar:p|SUB|G|37|R;HGVS:p.G37R;VariantGroup:3;CorrespondingGene:6647;CorrespondingSpecies:9606
+21712989	1572	1601	amyotrophic lateral sclerosis	Disease	MESH:D000690
+21712989	1602	1607	mouse	Species	10090
+21712989	1690	1708	memory impairments	Disease	MESH:D008569
+21712989	1771	1775	mice	Species	10090
+21712989	1787	1792	human	Species	9606
+21712989	1793	1818	amyloid precursor protein	Gene	351
+21712989	1824	1829	K595N	ProteinMutation	tmVar:p|SUB|K|595|N;HGVS:p.K595N;VariantGroup:1;CorrespondingGene:351;RS#:371425292;CorrespondingSpecies:9606;CA#:319103474
+21712989	1834	1839	M596L	ProteinMutation	tmVar:p|SUB|M|596|L;HGVS:p.M596L;VariantGroup:0;CorrespondingGene:351;RS#:572842823;CorrespondingSpecies:9606;CA#:319103456
+21712989	1854	1866	presenilin 1	Gene	19164
+21712989	1872	1877	A264E	ProteinMutation	tmVar:p|SUB|A|264|E;HGVS:p.A264E;VariantGroup:2;OriginalGene:19164;CorrespondingGene:5663;CorrespondingSpecies:10090
+21712989	1893	1912	Alzheimer's disease	Disease	MESH:D000544
+21712989	1913	1918	mouse	Species	10090
+21712989	2049	2059	neurotoxic	Disease	MESH:D020258
+21712989	2114	2128	neuronal death	Disease	MESH:D009410
+21712989	2140	2166	neurodegenerative diseases	Disease	MESH:D019636
+21712989	Association	MESH:D018698	MESH:D019636
+21712989	Positive_Correlation	MESH:D018698	MESH:D000544
+21712989	Association	MESH:D000690	HGVS:p.G37R;CorrespondingGene:6647
+21712989	Positive_Correlation	MESH:D000544	RS#:371425292;HGVS:p.K595N;CorrespondingGene:351
+21712989	Association	HGVS:c.93G>A;CorrespondingGene:6647	MESH:D000690
+21712989	Association	MESH:D000544	HGVS:p.A264E;CorrespondingGene:5663
+21712989	Positive_Correlation	MESH:D018698	MESH:D009410
+21712989	Association	MESH:D000690	HGVS:c.93G>A;CorrespondingGene:6647
+21712989	Positive_Correlation	MESH:D000544	RS#:572842823;HGVS:p.M596L;CorrespondingGene:351
+21712989	Association	MESH:D000544	351
+21712989	Association	MESH:D018698	MESH:D000690
+21712989	Association	MESH:D000690	6647
+21712989	Association	MESH:D000544	19164
+21712989	Association	MESH:D000690	6647
+21712989	Association	MESH:D000544	351
+21712989	Association	MESH:D000544	5663
+

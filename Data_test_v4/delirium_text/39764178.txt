@@ -1,0 +1,20 @@
+39764178|t|Robust and interpretable AI-guided marker for early dementia prediction in real-world clinical settings.
+39764178|a|Background: Predicting dementia early has major implications for clinical management and patient outcomes. Yet, we still lack sensitive tools for stratifying patients early, resulting in patients being undiagnosed or wrongly diagnosed. Despite rapid expansion in machine learning models for dementia prediction, limited model interpretability and generalizability impede translation to the clinic. Methods: We build a robust and interpretable predictive prognostic model (PPM) and validate its clinical utility using real-world, routinely-collected, non-invasive, and low-cost (cognitive tests, structural MRI) patient data. To enhance scalability and generalizability to the clinic, we: 1) train the PPM with clinically-relevant predictors (cognitive tests, grey matter atrophy) that are common across research and clinical cohorts, 2) test PPM predictions with independent multicenter real-world data from memory clinics across countries (UK, Singapore). Findings: PPM robustly predicts (accuracy: 81.66%, AUC: 0.84, sensitivity: 82.38%, specificity: 80.94%) whether patients at early disease stages (MCI) will remain stable or progress to Alzheimer's Disease (AD). PPM generalizes from research to real-world patient data across memory clinics and its predictions are validated against longitudinal clinical outcomes. PPM allows us to derive an individualized AI-guided multimodal marker (i.e. predictive prognostic index) that predicts progression to AD more precisely than standard clinical markers (grey matter atrophy, cognitive scores; PPM-derived marker: hazard ratio = 3.42, p = 0.01) or clinical diagnosis (PPM-derived marker: hazard ratio = 2.84, p < 0.01), reducing misdiagnosis. Interpretation: Our results provide evidence for a robust and explainable clinical AI-guided marker for early dementia prediction that is validated against longitudinal, multicenter patient data across countries, and has strong potential for adoption in clinical practice. Funding: Wellcome Trust, Royal Society, Alzheimer's Research UK, Alzheimer's Drug Discovery Foundation Diagnostics Accelerator, Alan Turing Institute.
+39764178	52	60	dementia	Disease	MESH:D003704
+39764178	128	136	dementia	Disease	MESH:D003704
+39764178	194	201	patient	Species	9606
+39764178	263	271	patients	Species	9606
+39764178	292	300	patients	Species	9606
+39764178	396	404	dementia	Disease	MESH:D003704
+39764178	716	723	patient	Species	9606
+39764178	864	883	grey matter atrophy	Disease	MESH:D055652
+39764178	1174	1182	patients	Species	9606
+39764178	1208	1211	MCI	Disease	
+39764178	1247	1266	Alzheimer's Disease	Disease	MESH:D000544
+39764178	1268	1270	AD	Disease	MESH:D000544
+39764178	1317	1324	patient	Species	9606
+39764178	1560	1562	AD	Disease	MESH:D000544
+39764178	1610	1629	grey matter atrophy	Disease	MESH:D055652
+39764178	1908	1916	dementia	Disease	MESH:D003704
+39764178	1980	1987	patient	Species	9606
+

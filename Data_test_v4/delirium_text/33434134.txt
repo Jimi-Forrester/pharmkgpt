@@ -1,0 +1,13 @@
+33434134|t|Extracting ROI-Based Contourlet Subband Energy Feature From the sMRI Image for Alzheimer's Disease Classification.
+33434134|a|Structural magnetic resonance imaging (sMRI)-based Alzheimer's disease (AD) classification and its prodromal stage-mild cognitive impairment (MCI) classification have attracted many attentions and been widely investigated in recent years. Owing to the high dimensionality, representation of the sMRI image becomes a difficult issue in AD classification. Furthermore, regions of interest (ROI) reflected in the sMRI image are not characterized properly by spatial analysis techniques, which has been a main cause of weakening the discriminating ability of the extracted spatial feature. In this study, we propose a ROI-based contourlet subband energy (ROICSE) feature to represent the sMRI image in the frequency domain for AD classification. Specifically, a preprocessed sMRI image is first segmented into 90 ROIs by a constructed brain mask. Instead of extracting features from the 90 ROIs in the spatial domain, the contourlet transform is performed on each of these ROIs to obtain their energy subbands. And then for an ROI, a subband energy (SE) feature vector is constructed to capture its energy distribution and contour information. Afterwards, SE feature vectors of the 90 ROIs are concatenated to form a ROICSE feature of the sMRI image. Finally, support vector machine (SVM) classifier is used to classify 880 subjects from ADNI and OASIS databases. Experimental results show that the ROICSE approach outperforms six other state-of-the-art methods, demonstrating that energy and contour information of the ROI are important to capture differences between the sMRI images of AD and HC subjects. Meanwhile, brain regions related to AD can also be found using the ROICSE feature, indicating that the ROICSE feature can be a promising assistant imaging marker for the AD diagnosis via the sMRI image. Code and Sample IDs of this paper can be downloaded at https://github.com/NWPU-903PR/ROICSE.git.
+33434134	79	98	Alzheimer's Disease	Disease	MESH:D000544
+33434134	166	185	Alzheimer's disease	Disease	MESH:D000544
+33434134	187	189	AD	Disease	MESH:D000544
+33434134	235	255	cognitive impairment	Disease	MESH:D003072
+33434134	257	260	MCI	Disease	MESH:D060825
+33434134	450	452	AD	Disease	MESH:D000544
+33434134	838	840	AD	Disease	MESH:D000544
+33434134	1699	1701	AD	Disease	MESH:D000544
+33434134	1755	1757	AD	Disease	MESH:D000544
+33434134	1889	1891	AD	Disease	MESH:D000544
+

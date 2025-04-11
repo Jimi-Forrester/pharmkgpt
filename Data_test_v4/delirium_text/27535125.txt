@@ -1,0 +1,19 @@
+27535125|t|Predicting diabetes mellitus genes via protein-protein interaction and protein subcellular localization information.
+27535125|a|BACKGROUND: Diabetes mellitus characterized by hyperglycemia as a result of insufficient production of or reduced sensitivity to insulin poses a growing threat to the health of people. It is a heterogeneous disorder with multiple etiologies consisting of type 1 diabetes, type 2 diabetes, gestational diabetes and so on. Diabetes-associated protein/gene prediction is a key step to understand the cellular mechanisms related to diabetes mellitus. Compared with experimental methods, computational predictions of candidate proteins/genes are cheaper and more effortless. Protein-protein interaction (PPI) data produced by the high-throughput technology have been used to prioritize candidate disease genes/proteins. However, the false interactions in the PPI data seriously hurt computational methods performance. In order to address that particular question, new methods are developed to identify candidate disease genes/proteins via integrating biological data from other sources. RESULTS: In this study, a new framework called PDMG is proposed to predict candidate disease genes/proteins. First, the weighted networks are building in terms of the combination of the subcellular localization information and PPI data. To form the weighted networks, the importance of each compartment is evaluated based on the number of interacted proteins in this compartment. This is because the very different roles played by different compartments in cell activities. Besides, some compartments are more important than others. Based on the evaluated compartments, the interactions between proteins are scored and the weighted PPI networks are constructed. Second, the known disease genes are extracted from OMIM database as the seed genes to expand disease-specific networks based on the weighted networks. Third, the weighted values between a protein and its neighbors in the disease-related networks are added together and the sum is as the score of the protein. Last but not least, the proteins are ranked based on descending order of their scores. The candidate proteins in the top are considered to be associated with the diseases and are potential disease-related proteins. Various types of data, such as type 2 diabetes-associated genes, subcellular localizations and protein interactions, are used to test PDMG method. CONCLUSIONS: The results show that the proteins/genes functionally exerting a direct influence over diabetes are consistently placed at the head of the queue. PDMG expands and ranks 445 candidate proteins from the seed set including original 27 type 2 diabetes proteins. Out of the top 27 proteins, 14 proteins are the real type 2 diabetes proteins. The literature extracted from the PubMed database has proved that, out of 13 novel proteins, 8 proteins are associated with diabetes.
+27535125	11	28	diabetes mellitus	Disease	MESH:D003920
+27535125	129	146	Diabetes mellitus	Disease	MESH:D003920
+27535125	164	177	hyperglycemia	Disease	MESH:D006943
+27535125	246	253	insulin	Gene	3630
+27535125	372	387	type 1 diabetes	Disease	MESH:D003922
+27535125	389	404	type 2 diabetes	Disease	MESH:D003924
+27535125	406	426	gestational diabetes	Disease	MESH:D016640
+27535125	438	446	Diabetes	Disease	MESH:D003920
+27535125	545	562	diabetes mellitus	Disease	MESH:D003920
+27535125	1812	1816	OMIM	Disease	
+27535125	2316	2331	type 2 diabetes	Disease	MESH:D003924
+27535125	2532	2540	diabetes	Disease	MESH:D003920
+27535125	2677	2692	type 2 diabetes	Disease	MESH:D003924
+27535125	2756	2771	type 2 diabetes	Disease	MESH:D003924
+27535125	2906	2914	diabetes	Disease	MESH:D003920
+27535125	Association	MESH:D003920	3630
+

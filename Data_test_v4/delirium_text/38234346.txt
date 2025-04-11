@@ -1,0 +1,47 @@
+38234346|t|Aminoacylase 1 deficiency: case report on three affected siblings.
+38234346|a|Background: Aminoacylase 1 (ACY1, EC 3.5.1.14) deficiency (ACY1D) is a very rare inherited metabolic disease (IMD) with autosomal recessive inheritance (OMIM #609924). Up to date, only 15 cases have been reported in the literature. It is diagnosed by detecting acetylated amino acids among the patient's urine organic acids by gas chromatography-mass spectrometry. Its clinical manifestations are highly variable, ranging from severe neurological symptoms to being asymptomatic. Case Description: We present a 14-year-old boy with mild intellectual disability, speech sound disorder and non-alcoholic fatty liver disease who exhibited increased urinary excretion of N-acetylalanine, N-acetylmethionine and N-acetylglutamine during testing for inherited metabolic disorders. A suspected ACY1D was subsequently confirmed by targeted next generation sequencing, which revealed the presence of a homozygous pathogenic missense mutation in the ACY1 gene, c.1057C>T (p.Arg353Cys). The proband underwent speech education with good outcome. The same homozygous mutation in ACY1 gene was found in the boy's two brothers, who exhibited slightly varied intellectual abilities. Follow-up examinations of the siblings revealed no deterioration in their mental skills. Conclusions: These results suggest that uneven mental abilities in pediatric patients with various disorders including autism spectrum disorder may be sufficient grounds to warrant metabolic testing for ACY1D. The acylglycines urine excretion could be a promising novel metabolic marker for ACY1D testing.
+38234346	0	25	Aminoacylase 1 deficiency	Disease	MESH:C538246
+38234346	79	124	Aminoacylase 1 (ACY1, EC 3.5.1.14) deficiency	Disease	MESH:C538246
+38234346	126	131	ACY1D	Disease	MESH:C538246
+38234346	148	175	inherited metabolic disease	Disease	MESH:D030342
+38234346	177	180	IMD	Disease	MESH:D030342
+38234346	220	232	OMIM #609924	Disease	
+38234346	328	350	acetylated amino acids	Chemical	-
+38234346	361	368	patient	Species	9606
+38234346	377	390	organic acids	Chemical	-
+38234346	603	626	intellectual disability	Disease	MESH:D008607
+38234346	628	649	speech sound disorder	Disease	MESH:D066229
+38234346	654	687	non-alcoholic fatty liver disease	Disease	MESH:D065626
+38234346	733	748	N-acetylalanine	Chemical	MESH:C010530
+38234346	750	768	N-acetylmethionine	Chemical	MESH:C006379
+38234346	773	790	N-acetylglutamine	Chemical	MESH:C032007
+38234346	810	839	inherited metabolic disorders	Disease	MESH:D020739
+38234346	853	858	ACY1D	Disease	MESH:C538246
+38234346	1006	1010	ACY1	Gene	95
+38234346	1017	1026	c.1057C>T	DNAMutation	tmVar:c|SUB|C|1057|T;HGVS:c.1057C>T;VariantGroup:0;CorrespondingGene:95;RS#:121912698;CorrespondingSpecies:9606;CA#:127826
+38234346	1028	1039	p.Arg353Cys	ProteinMutation	tmVar:p|SUB|R|353|C;HGVS:p.R353C;VariantGroup:0;CorrespondingGene:95;RS#:121912698;CorrespondingSpecies:9606;CA#:127826
+38234346	1132	1136	ACY1	Gene	95
+38234346	1399	1407	patients	Species	9606
+38234346	1441	1465	autism spectrum disorder	Disease	MESH:D000067877
+38234346	1525	1531	ACY1D.	Disease	MESH:C538246
+38234346	1536	1548	acylglycines	Chemical	-
+38234346	1613	1618	ACY1D	Disease	MESH:C538246
+38234346	Positive_Correlation	MESH:C538246	RS#:121912698;HGVS:c.1057C>T;CorrespondingGene:95
+38234346	Positive_Correlation	RS#:121912698;HGVS:c.1057C>T;CorrespondingGene:95	MESH:C538246
+38234346	Association	MESH:D000067877	RS#:121912698;HGVS:p.R353C;CorrespondingGene:95
+38234346	Association	MESH:C538246	95
+38234346	Positive_Correlation	MESH:C006379	MESH:D065626
+38234346	Positive_Correlation	MESH:C032007	MESH:D066229
+38234346	Positive_Correlation	MESH:C010530	MESH:D065626
+38234346	Positive_Correlation	MESH:C006379	MESH:D066229
+38234346	Positive_Correlation	MESH:C538246	RS#:121912698;HGVS:p.R353C;CorrespondingGene:95
+38234346	Association	MESH:C032007	MESH:D020739
+38234346	Positive_Correlation	MESH:C006379	MESH:D008607
+38234346	Positive_Correlation	MESH:C010530	MESH:D066229
+38234346	Positive_Correlation	MESH:C032007	MESH:D008607
+38234346	Association	MESH:C010530	MESH:D020739
+38234346	Positive_Correlation	MESH:C032007	MESH:D065626
+38234346	Association	MESH:C006379	MESH:D020739
+38234346	Positive_Correlation	MESH:C010530	MESH:D008607
+38234346	Association	MESH:D000067877	95
+

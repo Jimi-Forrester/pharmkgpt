@@ -1,0 +1,28 @@
+36279395|t|Identification of circRNA-miRNA-mRNA networks to explore the molecular mechanism and immune regulation of postoperative neurocognitive disorder.
+36279395|a|Postoperative neurocognitive disorder (PND) is a common complication in older patients. However, its pathogenesis has still remained elusive. Recent studies have shown that circular RNA (circRNA) plays an important role in the development of neurodegenerative diseases, such as PND after surgery. CircRNA, as a competitive endogenous RNA (ceRNA), mainly acts as a molecular sponge for miRNA to "adsorb" microRNA (miRNA) and to reduce the inhibitory effects of miRNAs on target mRNA. The sequencing data of circRNA were obtained from the Gene Expression Omnibus (GEO) database. By bioinformatic methods, circAtlas, miRDB, miRTarBase and miRwalk databases were applied to construct circRNA-miRNA-mRNA networks and screen differentially expressed mRNAs. To improve the accuracy of the data, we randomly divided aging mice into control (non-PND group) and PND groups, and used high-throughput sequencing to analyze their brain hippocampal tissue for analysis. Three key genes were cross-detected in the data of both groups, which were Unc13c, Tbx20 and St8sia2 (as hub genes), providing new targets for PND treatment. According to the results of the Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses, immune cell infiltration analysis, gene set enrichment analysis (GSEA), Connectivity Map (CMap) analysis, quantitative real-time polymerase chain reaction (qRT-PCR), the genes that were not related to the central nervous system were removed, and finally, mmu_circ_0000331/miR-1224-3p/Unc13c and mmu_circ_0000406/miR-24-3p/St8sia2 ceRNA networks were identified. In addition, the CMap method was used to select the top 4 active compounds with the largest negative correlation absolute values, including cimaterol, Rucaparib, FG-7142, and Hydrocortisone.
+36279395	106	143	postoperative neurocognitive disorder	Disease	MESH:D019965
+36279395	145	182	Postoperative neurocognitive disorder	Disease	MESH:D019965
+36279395	184	187	PND	Disease	MESH:D019965
+36279395	223	231	patients	Species	9606
+36279395	387	413	neurodegenerative diseases	Disease	MESH:D019636
+36279395	423	426	PND	Disease	MESH:D019965
+36279395	959	963	mice	Species	10090
+36279395	982	985	PND	Disease	MESH:D019965
+36279395	997	1000	PND	Disease	MESH:D019965
+36279395	1176	1182	Unc13c	Gene	208898
+36279395	1184	1189	Tbx20	Gene	57246
+36279395	1194	1201	St8sia2	Gene	20450
+36279395	1244	1247	PND	Disease	MESH:D019965
+36279395	1674	1680	Unc13c	Gene	208898
+36279395	1712	1719	St8sia2	Gene	20450
+36279395	1892	1901	cimaterol	Chemical	MESH:C047411
+36279395	1903	1912	Rucaparib	Chemical	MESH:C531549
+36279395	1914	1921	FG-7142	Chemical	MESH:C035874
+36279395	1927	1941	Hydrocortisone	Chemical	MESH:D006854
+36279395	Association	MESH:D019965	57246
+36279395	Association	MESH:D019965	208898
+36279395	Negative_Correlation	MESH:C531549	MESH:D019965
+36279395	Association	MESH:D019965	20450
+36279395	Negative_Correlation	MESH:C035874	MESH:D019965
+36279395	Negative_Correlation	MESH:C047411	MESH:D019965
+

@@ -1,0 +1,25 @@
+29545755|t|Exploration of the Anti-Inflammatory Drug Space Through Network Pharmacology: Applications for Drug Repurposing.
+29545755|a|The quintessential biological response to disease is inflammation. It is a driver and an important element in a wide range of pathological states. Pharmacological management of inflammation is therefore central in the clinical setting. Anti-inflammatory drugs modulate specific molecules involved in the inflammatory response; these drugs are traditionally classified as steroidal and non-steroidal drugs. However, the effects of these drugs are rarely limited to their canonical targets, affecting other molecules and altering biological functions with system-wide effects that can lead to the emergence of secondary therapeutic applications or adverse drug reactions (ADRs). In this study, relationships among anti-inflammatory drugs, functional pathways, and ADRs were explored through network models. We integrated structural drug information, experimental anti-inflammatory drug perturbation gene expression profiles obtained from the Connectivity Map and Library of Integrated Network-Based Cellular Signatures, functional pathways in the Kyoto Encyclopedia of Genes and Genomes (KEGG) and Reactome databases, as well as adverse reaction information from the U.S. Food and Drug Administration (FDA) Adverse Event Reporting System (FAERS). The network models comprise nodes representing anti-inflammatory drugs, functional pathways, and adverse effects. We identified structural and gene perturbation similarities linking anti-inflammatory drugs. Functional pathways were connected to drugs by implementing Gene Set Enrichment Analysis (GSEA). Drugs and adverse effects were connected based on the proportional reporting ratio (PRR) of an adverse effect in response to a given drug. Through these network models, relationships among anti-inflammatory drugs, their functional effects at the pathway level, and their adverse effects were explored. These networks comprise 70 different anti-inflammatory drugs, 462 functional pathways, and 1,175 ADRs. Network-based properties, such as degree, clustering coefficient, and node strength, were used to identify new therapeutic applications within and beyond the anti-inflammatory context, as well as ADR risk for these drugs, helping to select better repurposing candidates. Based on these parameters, we identified naproxen, meloxicam, etodolac, tenoxicam, flufenamic acid, fenoprofen, and nabumetone as candidates for drug repurposing with lower ADR risk. This network-based analysis pipeline provides a novel way to explore the effects of drugs in a therapeutic space.
+29545755	166	178	inflammation	Disease	MESH:D007249
+29545755	290	302	inflammation	Disease	MESH:D007249
+29545755	349	372	Anti-inflammatory drugs	Disease	MESH:D000081015
+29545755	417	429	inflammatory	Disease	MESH:D007249
+29545755	759	781	adverse drug reactions	Disease	MESH:D064420
+29545755	783	787	ADRs	Disease	MESH:D064420
+29545755	825	848	anti-inflammatory drugs	Disease	MESH:D000081015
+29545755	875	879	ADRs	Disease	MESH:D064420
+29545755	1405	1428	anti-inflammatory drugs	Disease	MESH:D000081015
+29545755	1540	1563	anti-inflammatory drugs	Disease	MESH:D000081015
+29545755	1851	1874	anti-inflammatory drugs	Disease	MESH:D000081015
+29545755	2001	2024	anti-inflammatory drugs	Disease	MESH:D000081015
+29545755	2061	2065	ADRs	Disease	MESH:D064420
+29545755	2263	2266	ADR	Disease	
+29545755	2379	2387	naproxen	Chemical	MESH:D009288
+29545755	2389	2398	meloxicam	Chemical	MESH:D000077239
+29545755	2400	2408	etodolac	Chemical	MESH:D017308
+29545755	2410	2419	tenoxicam	Chemical	MESH:C032801
+29545755	2421	2436	flufenamic acid	Chemical	MESH:D005439
+29545755	2438	2448	fenoprofen	Chemical	MESH:D005279
+29545755	2454	2464	nabumetone	Chemical	MESH:D000077430
+29545755	2511	2514	ADR	Disease	
+

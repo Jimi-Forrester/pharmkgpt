@@ -1,0 +1,19 @@
+35622175|t|Seizure classification with selected frequency bands and EEG montages: a Natural Language Processing approach.
+35622175|a|Individualized treatment is crucial for epileptic patients with different types of seizures. The differences among patients impact the drug choice as well as the surgery procedure. With the advance in machine learning, automatic seizure detection can ease the manual time-consuming and labor-intensive procedure for diagnose seizure in the clinical setting. In this paper, we present an electroencephalography (EEG) frequency bands (sub-bands) and montages selection (sub-zones) method for classifier training that exploits Natural Language Processing from individual patients' clinical report. The proposed approach is targeting for individualized treatment. We integrated the prior knowledge from patient's reports into the classifier-building process, mimicking the authentic thinking process of experienced neurologist's when diagnosing seizure using EEG. The keywords from clinical documents are mapped to the EEG data in terms of frequency bands and scalp EEG electrodes. The data of experiments are from the Temple University Hospital EEG seizure corpus, and the dataset is divided based on each group of patients with same seizure type and same recording electrode references. The classifier includes Random Forest, Support Vector Machine and Multi-Layer Perceptron. The classification performance indicates that competitive results can be achieve with a small portion of EEG the data. Using the sub-zones selection for Generalized Seizures (GNSZ) on all three electrodes, data are reduced by nearly 50% while the performance metrics remain at the same level with the whole frequency and zones. Moreover, when selecting by sub-zones and sub-bands together for GNSZ with Linked Ears reference, the data range reduced to 0.3% of whole range, and the performance deviates less than 3% from the results with whole range of data. Results show that using proposed approach may lead to more efficient implementations of the seizure classifier to be executed on power-efficient devices for long lasting real-time seizures detection.
+35622175	0	7	Seizure	Disease	MESH:D012640
+35622175	151	160	epileptic	Disease	MESH:D004827
+35622175	161	169	patients	Species	9606
+35622175	194	202	seizures	Disease	MESH:D012640
+35622175	226	234	patients	Species	9606
+35622175	340	347	seizure	Disease	MESH:D012640
+35622175	436	443	seizure	Disease	MESH:D012640
+35622175	679	687	patients	Species	9606
+35622175	810	817	patient	Species	9606
+35622175	952	959	seizure	Disease	MESH:D012640
+35622175	1157	1164	seizure	Disease	MESH:D012640
+35622175	1223	1231	patients	Species	9606
+35622175	1242	1249	seizure	Disease	MESH:D012640
+35622175	1551	1559	Seizures	Disease	MESH:D012640
+35622175	2036	2043	seizure	Disease	MESH:D012640
+35622175	2124	2132	seizures	Disease	MESH:D012640
+

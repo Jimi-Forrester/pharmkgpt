@@ -1,0 +1,41 @@
+33746971|t|Serum miRNA Signature in Rheumatoid Arthritis and "At-Risk Individuals".
+33746971|a|Background: MicroRNAs (miRNAs) are small non-coding RNAs which have been implicated as potential biomarkers or therapeutic targets in autoimmune diseases. This study examines circulatory miRNAs in RA patients and further investigates if a serum miRNA signature precedes clinical manifestations of disease in arthralgia or "at-risk individuals". Methods: Serum was collected from HC subjects (N = 20), RA patients (N = 50), and arthralgia subjects (N = 10), in addition to a subgroup of the RA patients post-methotrexate (MTX) (N = 18). The FirePlex miRNA Immunology-V2 panel was selected for multiplex analysis of 68 miRNAs in each sample. DNA intelligent analysis (DIANA)-mirPath and Ingenuity Pathway Analysis (IPA) software were used to predict pathways targeted by the dysregulated miRNAs. Results: 8 miRNA (miR-126-3p, let-7d-5p, miR-431-3p, miR-221-3p, miR-24-3p, miR-130a-3p, miR-339-5p, let-7i-5p) were significantly elevated in RA serum compared to HC (all p < 0.01) and 1 miRNA (miR-17-5p) was significantly lower in RA (p < 0.01). High specificity and sensitivity were determined by receiver operating characteristic (ROC) curve analysis. Both miR-339-5p and let-7i-5p were significantly reduced post-MTX (both p < 0.01). MiR-126-3p, let-7d-5p, miR-431-3p, miR-221-3p, miR-24-3p, miR-130a-3p were also significantly elevated in subjects "at risk" of developing RA (all p < 0.05) compared to HC. IPA analysis of this miRNA signature identified downstream targets including key transcription factors NF-kappaB, STAT-1, STAT-3, cytokines IL-1beta, TNF-alpha, and matrix-metalloproteases all importantly associated with RA pathogenesis. Conclusion: This study identified six miRNAs that are altered in both RA and "at-risk individuals," which potentially regulate key downstream pathways involved in regulating inflammation. These may have potential as predictive signature for disease onset and early progression.
+33746971	25	45	Rheumatoid Arthritis	Disease	MESH:D001172
+33746971	207	226	autoimmune diseases	Disease	MESH:D001327
+33746971	270	272	RA	Disease	MESH:D001172
+33746971	273	281	patients	Species	9606
+33746971	381	391	arthralgia	Disease	MESH:D018771
+33746971	474	476	RA	Disease	MESH:D001172
+33746971	477	485	patients	Species	9606
+33746971	500	510	arthralgia	Disease	MESH:D018771
+33746971	563	565	RA	Disease	MESH:D001172
+33746971	566	574	patients	Species	9606
+33746971	580	592	methotrexate	Chemical	MESH:D008727
+33746971	594	597	MTX	Chemical	-
+33746971	885	895	miR-126-3p	Gene	100302148
+33746971	897	903	let-7d	Gene	406886
+33746971	908	918	miR-431-3p	Gene	100423035
+33746971	1010	1012	RA	Disease	MESH:D001172
+33746971	1062	1071	miR-17-5p	Gene	406952
+33746971	1100	1102	RA	Disease	MESH:D001172
+33746971	1285	1288	MTX	Chemical	-
+33746971	1306	1316	MiR-126-3p	Gene	100302148
+33746971	1318	1325	let-7d-	Gene	406886
+33746971	1329	1339	miR-431-3p	Gene	100423035
+33746971	1445	1447	RA	Disease	MESH:D001172
+33746971	1582	1591	NF-kappaB	Gene	4790
+33746971	1593	1599	STAT-1	Gene	6772
+33746971	1601	1607	STAT-3	Gene	6774
+33746971	1619	1627	IL-1beta	Gene	3553
+33746971	1629	1638	TNF-alpha	Gene	7124
+33746971	1700	1702	RA	Disease	MESH:D001172
+33746971	1787	1789	RA	Disease	MESH:D001172
+33746971	1891	1903	inflammation	Disease	MESH:D007249
+33746971	Association	MESH:D007249	406886
+33746971	Association	MESH:D001172	406886
+33746971	Positive_Correlation	MESH:D001172	100423035
+33746971	Negative_Correlation	MESH:D001172	406952
+33746971	Negative_Correlation	MESH:D008727	MESH:D001172
+33746971	Association	MESH:D001172	7124
+33746971	Positive_Correlation	MESH:D001172	100302148
+

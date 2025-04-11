@@ -1,0 +1,28 @@
+22035233|t|Structure-based prediction of subtype selectivity of histamine H3 receptor selective antagonists in clinical trials.
+22035233|a|Histamine receptors (HRs) are excellent drug targets for the treatment of diseases, such as schizophrenia, psychosis, depression, migraine, allergies, asthma, ulcers, and hypertension. Among them, the human H(3) histamine receptor (hH(3)HR) antagonists have been proposed for specific therapeutic applications, including treatment of Alzheimer's disease, attention deficit hyperactivity disorder (ADHD), epilepsy, and obesity. However, many of these drug candidates cause undesired side effects through the cross-reactivity with other histamine receptor subtypes. In order to develop improved selectivity and activity for such treatments, it would be useful to have the three-dimensional structures for all four HRs. We report here the predicted structures of four HR subtypes (H(1), H(2), H(3), and H(4)) using the GEnSeMBLE (GPCR ensemble of structures in membrane bilayer environment) Monte Carlo protocol, sampling ~35 million combinations of helix packings to predict the 10 most stable packings for each of the four subtypes. Then we used these 10 best protein structures with the DarwinDock Monte Carlo protocol to sample ~50 000 x 10(20) poses to predict the optimum ligand-protein structures for various agonists and antagonists. We find that E206(5.46) contributes most in binding H(3) selective agonists (5, 6, 7) in agreement with experimental mutation studies. We also find that conserved E5.46/S5.43 in both of hH(3)HR and hH(4)HR are involved in H(3)/ H(4) subtype selectivity. In addition, we find that M378(6.55) in hH(3)HR provides additional hydrophobic interactions different from hH(4)HR (the corresponding amino acid of T323(6.55) in hH(4)HR) to provide additional subtype bias. From these studies, we developed a pharmacophore model based on our predictions for known hH(3)HR selective antagonists in clinical study [ABT-239 1, GSK-189,254 2, PF-3654746 3, and BF2.649 (tiprolisant) 4] that suggests critical selectivity directing elements are: the basic proton interacting with D114(3.32), the spacer, the aromatic ring substituted with the hydrophilic or lipophilic groups interacting with lipophilic pockets in transmembranes (TMs) 3-5-6 and the aliphatic ring located in TMs 2-3-7. These 3D structures for all four HRs should help guide the rational design of novel drugs for the subtype selective antagonists and agonists with reduced side effects.
+22035233	53	74	histamine H3 receptor	Gene	11255
+22035233	209	222	schizophrenia	Disease	MESH:D012559
+22035233	224	233	psychosis	Disease	MESH:D011618
+22035233	235	245	depression	Disease	MESH:D003866
+22035233	247	255	migraine	Disease	MESH:D008881
+22035233	257	266	allergies	Disease	MESH:D004342
+22035233	268	274	asthma	Disease	MESH:D001249
+22035233	276	282	ulcers	Disease	MESH:D014456
+22035233	288	300	hypertension	Disease	MESH:D006973
+22035233	318	323	human	Species	9606
+22035233	451	470	Alzheimer's disease	Disease	MESH:D000544
+22035233	472	512	attention deficit hyperactivity disorder	Disease	MESH:D001289
+22035233	514	518	ADHD	Disease	MESH:D001289
+22035233	521	529	epilepsy	Disease	MESH:D004827
+22035233	535	542	obesity	Disease	MESH:D009765
+22035233	901	905	H(2)	Chemical	-
+22035233	907	911	H(3)	Chemical	MESH:C012616
+22035233	944	948	GPCR	Gene	442206
+22035233	1408	1412	H(3)	Chemical	MESH:C012616
+22035233	1554	1559	hH(4)	Gene	60675
+22035233	1957	1966	ABT-239 1	Chemical	-
+22035233	1968	1981	GSK-189,254 2	Chemical	-
+22035233	1983	1995	PF-3654746 3	Chemical	-
+22035233	2001	2024	BF2.649 (tiprolisant) 4	Chemical	-
+22035233	2119	2123	D114	Chemical	-
+

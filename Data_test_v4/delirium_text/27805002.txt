@@ -1,0 +1,30 @@
+27805002|t|Performance Metrics for Selecting Single Nucleotide Polymorphisms in Late-onset Alzheimer's Disease.
+27805002|a|Previous genome-wide association studies using P-values to select single nucleotide polymorphisms (SNPs) have suffered from high false-positive and false-negative results. This case-control study recruited 713 late-onset Alzheimer's disease (LOAD) cases and controls aged >=65 from three teaching hospitals in northern Taiwan from 2007 to 2010. Performance metrics were used to select SNPs in stage 1, which were then genotyped to another dataset (stage 2). Four SNPs (CPXM2 rs2362967, APOC1 rs4420638, ZNF521 rs7230380, and rs12965520) were identified for LOAD by both traditional P-values (without correcting for multiple tests) and performance metrics. After correction for multiple tests, no SNPs were identified by traditional P-values. Simultaneous testing of APOE e4 and APOC1 rs4420638 (the SNP with the best performance in the performance metrics) significantly improved the low sensitivity of APOE e4 from 0.50 to 0.78. A point-based genetic model including these 2 SNPs and important covariates was constructed. Compared with elders with low-risks score (0-6), elders belonging to moderate-risk (score = 7-11) and high-risk (score = 12-18) groups showed a significantly increased risk of LOAD (adjusted odds ratio = 7.80 and 46.93, respectively; Ptrend < 0.0001). Performance metrics allow for identification of markers with moderate effect and are useful for creating genetic tests with clinical and public health implications.
+27805002	80	99	Alzheimer's Disease	Disease	MESH:D000544
+27805002	322	341	Alzheimer's disease	Disease	MESH:D000544
+27805002	343	347	LOAD	Disease	MESH:D000544
+27805002	570	575	CPXM2	Gene	119587
+27805002	576	585	rs2362967	SNP	tmVar:rs2362967;VariantGroup:3;CorrespondingGene:119587;RS#:2362967;CorrespondingSpecies:9606
+27805002	587	592	APOC1	Gene	341
+27805002	593	602	rs4420638	SNP	tmVar:rs4420638;VariantGroup:1;CorrespondingGene:341;RS#:4420638;CorrespondingSpecies:9606
+27805002	604	610	ZNF521	Gene	25925
+27805002	611	620	rs7230380	SNP	tmVar:rs7230380;VariantGroup:0;CorrespondingGene:25925;RS#:7230380;CorrespondingSpecies:9606
+27805002	626	636	rs12965520	SNP	tmVar:rs12965520;VariantGroup:2;CorrespondingGene:25925;RS#:12965520;CorrespondingSpecies:9606
+27805002	658	662	LOAD	Disease	MESH:D000544
+27805002	867	871	APOE	Gene	348
+27805002	879	884	APOC1	Gene	341
+27805002	885	894	rs4420638	SNP	tmVar:rs4420638;VariantGroup:1;CorrespondingGene:341;RS#:4420638;CorrespondingSpecies:9606
+27805002	1004	1008	APOE	Gene	348
+27805002	1300	1304	LOAD	Disease	MESH:D000544
+27805002	Positive_Correlation	MESH:D000544	RS#:7230380;CorrespondingGene:25925
+27805002	Positive_Correlation	MESH:D000544	RS#:4420638;CorrespondingGene:341
+27805002	Positive_Correlation	MESH:D000544	RS#:2362967;CorrespondingGene:119587
+27805002	Positive_Correlation	MESH:D000544	RS#:12965520;CorrespondingGene:25925
+27805002	Association	341	348
+27805002	Association	MESH:D000544	119587
+27805002	Association	MESH:D000544	341
+27805002	Association	MESH:D000544	25925
+27805002	Association	MESH:D000544	25925
+27805002	Association	MESH:D000544	341
+27805002	Association	MESH:D000544	119587
+

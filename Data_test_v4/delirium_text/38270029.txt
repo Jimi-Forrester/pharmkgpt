@@ -1,0 +1,25 @@
+38270029|t|Utilizing Electronic Dental Records to Predict Neuro-Degenerative Diseases in a Dental Setting: A Pilot Study.
+38270029|a|Limited research demonstrates the possible correlations between dental diseases and neurodegenerative diseases like Alzheimer's disease (AD) and Parkinson's disease (PD). Nevertheless, dental diseases are often overlooked while assessing the risk of AD and PD in clinical settings. It is unknown whether AD/PD risk can be predicted using electronic dental record (EDR) data collected in a routine dental setting. This pilot study determined the feasibility of predicting AD/PD using 84 features routinely captured in the EDR. We utilized the Temple University School of Dentistry clinic data of 27,138 patients. Using a natural language processing (NLP) approach (accuracy=97%), we identified patients with AD/PD and their matched controls (matched by age and gender). XGBoost machine learning model with 10-fold cross-validation was applied for prediction. With 77% accuracy, we found 53 features significantly associated with AD/PD that could be utilized to predict the risk of AD/PD. Further studies are warned to confirm these findings.
+38270029	47	74	Neuro-Degenerative Diseases	Disease	MESH:D019636
+38270029	175	190	dental diseases	Disease	MESH:D009057
+38270029	195	221	neurodegenerative diseases	Disease	MESH:D019636
+38270029	227	246	Alzheimer's disease	Disease	MESH:D000544
+38270029	248	250	AD	Disease	MESH:D000544
+38270029	256	275	Parkinson's disease	Disease	MESH:D010300
+38270029	277	279	PD	Disease	MESH:D010300
+38270029	296	311	dental diseases	Disease	MESH:D009057
+38270029	361	363	AD	Disease	MESH:D000544
+38270029	368	370	PD	Disease	MESH:D010300
+38270029	415	417	AD	Disease	MESH:D000544
+38270029	418	420	PD	Disease	MESH:D010300
+38270029	582	584	AD	Disease	MESH:D000544
+38270029	585	587	PD	Disease	MESH:D010300
+38270029	713	721	patients	Species	9606
+38270029	804	812	patients	Species	9606
+38270029	818	820	AD	Disease	MESH:D000544
+38270029	821	823	PD	Disease	MESH:D010300
+38270029	1039	1041	AD	Disease	MESH:D000544
+38270029	1042	1044	PD	Disease	MESH:D010300
+38270029	1091	1093	AD	Disease	MESH:D000544
+38270029	1094	1096	PD	Disease	MESH:D010300
+

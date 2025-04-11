@@ -1,0 +1,39 @@
+30592156|t|Key genes and co-expression network analysis in the livers of type 2 diabetes patients.
+30592156|a|AIMS/INTRODUCTION: The incidence of type 2 diabetes is increasing worldwide. Hepatic insulin resistance and liver lipid accumulation contributes to type 2 diabetes development. The aim of the present study was to investigate the key gene pathways and co-expression networks in the livers of type 2 diabetes patients. MATERIALS AND METHODS: Dataset GSE15653 containing nine healthy individuals and nine type 2 diabetes patients was downloaded from the National Center for Biotechnology Information Gene Expression Omnibus database. Differentially expressed genes were obtained from the livers of type 2 diabetes patients, annotated pathway enrichment and protein-protein interaction network analysis. Next, functional modules and transcription factor networks were constructed. Gene co-expression networks were analyzed by weighted correlation network analysis to identify key modules related to clinical traits, and the candidate key genes were validated in hepatic insulin resistance models in vitro. RESULTS: A total of 778 differentially expressed genes were filtered in the livers of type 2 diabetes patients, pathway enrichment analysis identified ke y pathways, such as the mitogen-activated protein kinase signaling pathway, Hippo signaling pathway and hypoxia-inducible factor-1 signaling pathway, that were associated with type 2 diabetes. Several transcription factors of three functional modules identified from protein-protein interaction networks are likely to be implicated in type 2 diabetes. Furthermore, weighted correlation network analysis identified five modules that were shown to be highly correlated with type 2 diabetes and other clinical traits. Functional annotation showed that these modules were mainly enriched in pathways such as metabolic pathways, phosphoinositide 3-kinase-protein kinase B signaling pathway and natural killer cell-mediated cytotoxicity. UBE2M and GPER were upregulated in L02 and HepG2 models, whereas P2RY11 only upregulated in L02 model, and UBE2N only downregulated in HepG2 model at a significant level. CONCLUSIONS: These results would offer new insights into hepatic insulin resistance, type 2 diabetes pathogenesis, development and drug discovery.
+30592156	62	77	type 2 diabetes	Disease	MESH:D003924
+30592156	78	86	patients	Species	9606
+30592156	124	139	type 2 diabetes	Disease	MESH:D003924
+30592156	165	191	Hepatic insulin resistance	Disease	MESH:D007333
+30592156	202	207	lipid	Chemical	MESH:D008055
+30592156	236	251	type 2 diabetes	Disease	MESH:D003924
+30592156	379	394	type 2 diabetes	Disease	MESH:D003924
+30592156	395	403	patients	Species	9606
+30592156	490	505	type 2 diabetes	Disease	MESH:D003924
+30592156	506	514	patients	Species	9606
+30592156	683	698	type 2 diabetes	Disease	MESH:D003924
+30592156	699	707	patients	Species	9606
+30592156	1046	1072	hepatic insulin resistance	Disease	MESH:D007333
+30592156	1176	1191	type 2 diabetes	Disease	MESH:D003924
+30592156	1192	1200	patients	Species	9606
+30592156	1420	1435	type 2 diabetes	Disease	MESH:D003924
+30592156	1579	1594	type 2 diabetes	Disease	MESH:D003924
+30592156	1716	1731	type 2 diabetes	Disease	MESH:D003924
+30592156	1894	1910	protein kinase B	Gene	2185
+30592156	1962	1974	cytotoxicity	Disease	MESH:D064420
+30592156	1976	1981	UBE2M	Gene	9040
+30592156	1986	1990	GPER	Gene	2852
+30592156	2011	2014	L02	CellLine	CVCL:6926
+30592156	2019	2024	HepG2	CellLine	CVCL:0027
+30592156	2041	2047	P2RY11	Gene	5032
+30592156	2068	2071	L02	CellLine	CVCL:6926
+30592156	2083	2088	UBE2N	Gene	7334
+30592156	2111	2116	HepG2	CellLine	CVCL:0027
+30592156	2204	2230	hepatic insulin resistance	Disease	MESH:D007333
+30592156	2232	2247	type 2 diabetes	Disease	MESH:D003924
+30592156	Association	MESH:D003924	2852
+30592156	Association	MESH:D003924	9040
+30592156	Positive_Correlation	MESH:D008055	MESH:D007333
+30592156	Association	MESH:D003924	7334
+30592156	Positive_Correlation	MESH:D008055	MESH:D003924
+30592156	Association	MESH:D003924	5032
+

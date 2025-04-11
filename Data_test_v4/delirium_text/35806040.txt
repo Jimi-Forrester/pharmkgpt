@@ -1,0 +1,46 @@
+35806040|t|Beneficial and Detrimental Roles of Heme Oxygenase-1 in the Neurovascular System.
+35806040|a|Heme oxygenase (HO) has both beneficial and detrimental effects via its metabolites, including carbon monoxide (CO), biliverdin or bilirubin, and ferrous iron. HO-1 is an inducible form of HO that is upregulated by oxidative stress, nitric oxide, CO, and hypoxia, whereas HO-2 is a constitutive form that regulates vascular tone and homeostasis. In brains injured by trauma, ischemia-reperfusion, or Alzheimer's disease (AD), the long-term expression of HO-1 can be detected, which can lead to cytotoxic ferroptosis via iron accumulation. In contrast, the transient induction of HO-1 in the peri-injured region may have regenerative potential (e.g., angiogenesis, neurogenesis, and mitochondrial biogenesis) and neurovascular protective effects through the CO-mediated signaling pathway, the antioxidant properties of bilirubin, and the iron-mediated ferritin synthesis. In this review, we discuss the dual roles of HO-1 and its metabolites in various neurovascular diseases, including age-related macular degeneration, ischemia-reperfusion injury, traumatic brain injury, Gilbert's syndrome, and AD.
+35806040	36	52	Heme Oxygenase-1	Gene	3162
+35806040	177	192	carbon monoxide	Chemical	MESH:D002248
+35806040	194	196	CO	Chemical	MESH:D002248
+35806040	199	209	biliverdin	Chemical	MESH:D001664
+35806040	213	222	bilirubin	Chemical	MESH:D001663
+35806040	228	240	ferrous iron	Chemical	-
+35806040	242	246	HO-1	Gene	3162
+35806040	315	327	nitric oxide	Chemical	MESH:D009569
+35806040	329	331	CO	Chemical	MESH:D002248
+35806040	337	344	hypoxia	Disease	MESH:D000860
+35806040	354	358	HO-2	Gene	3163
+35806040	449	455	trauma	Disease	MESH:D014947
+35806040	457	465	ischemia	Disease	MESH:D007511
+35806040	482	501	Alzheimer's disease	Disease	MESH:D000544
+35806040	503	505	AD	Disease	MESH:D000544
+35806040	536	540	HO-1	Gene	3162
+35806040	576	585	cytotoxic	Disease	MESH:D064420
+35806040	602	606	iron	Chemical	MESH:D007501
+35806040	661	665	HO-1	Gene	3162
+35806040	839	841	CO	Chemical	MESH:D002248
+35806040	900	909	bilirubin	Chemical	MESH:D001663
+35806040	919	923	iron	Chemical	MESH:D007501
+35806040	998	1002	HO-1	Gene	3162
+35806040	1034	1056	neurovascular diseases	Disease	MESH:D013901
+35806040	1068	1100	age-related macular degeneration	Disease	MESH:D008268
+35806040	1102	1129	ischemia-reperfusion injury	Disease	MESH:D015427
+35806040	1131	1153	traumatic brain injury	Disease	MESH:D000070642
+35806040	1155	1173	Gilbert's syndrome	Disease	MESH:D005878
+35806040	1179	1181	AD	Disease	MESH:D000544
+35806040	Positive_Correlation	MESH:D007501	MESH:D064420
+35806040	Association	MESH:D000070642	3162
+35806040	Positive_Correlation	MESH:D009569	3162
+35806040	Association	MESH:D007501	3162
+35806040	Positive_Correlation	MESH:D000860	3162
+35806040	Association	MESH:D013901	3162
+35806040	Association	MESH:D015427	3162
+35806040	Association	MESH:D007511	3162
+35806040	Association	MESH:D005878	3162
+35806040	Positive_Correlation	MESH:D007501	MESH:D000544
+35806040	Association	MESH:D064420	3162
+35806040	Association	MESH:D002248	3162
+35806040	Association	MESH:D000544	3162
+35806040	Association	MESH:D008268	3162
+

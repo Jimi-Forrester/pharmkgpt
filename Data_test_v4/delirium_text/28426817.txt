@@ -1,0 +1,21 @@
+28426817|t|Evaluation of machine learning algorithms and structural features for optimal MRI-based diagnostic prediction in psychosis.
+28426817|a|A relatively large number of studies have investigated the power of structural magnetic resonance imaging (sMRI) data to discriminate patients with schizophrenia from healthy controls. However, very few of them have also included patients with bipolar disorder, allowing the clinically relevant discrimination between both psychotic diagnostics. To assess the efficacy of sMRI data for diagnostic prediction in psychosis we objectively evaluated the discriminative power of a wide range of commonly used machine learning algorithms (ridge, lasso, elastic net and L0 norm regularized logistic regressions, a support vector classifier, regularized discriminant analysis, random forests and a Gaussian process classifier) on main sMRI features including grey and white matter voxel-based morphometry (VBM), vertex-based cortical thickness and volume, region of interest volumetric measures and wavelet-based morphometry (WBM) maps. All possible combinations of algorithms and data features were considered in pairwise classifications of matched samples of healthy controls (N = 127), patients with schizophrenia (N = 128) and patients with bipolar disorder (N = 128). Results show that the selection of feature type is important, with grey matter VBM (without data reduction) delivering the best diagnostic prediction rates (averaging over classifiers: schizophrenia vs. healthy 75%, bipolar disorder vs. healthy 63% and schizophrenia vs. bipolar disorder 62%) whereas algorithms usually yielded very similar results. Indeed, those grey matter VBM accuracy rates were not even improved by combining all feature types in a single prediction model. Further multi-class classifications considering the three groups simultaneously made evident a lack of predictive power for the bipolar group, probably due to its intermediate anatomical features, located between those observed in healthy controls and those found in patients with schizophrenia. Finally, we provide MRIPredict (https://www.nitrc.org/projects/mripredict/), a free tool for SPM, FSL and R, to easily carry out voxelwise predictions based on VBM images.
+28426817	113	122	psychosis	Disease	MESH:D011618
+28426817	258	266	patients	Species	9606
+28426817	272	285	schizophrenia	Disease	MESH:D012559
+28426817	354	362	patients	Species	9606
+28426817	368	384	bipolar disorder	Disease	MESH:D001714
+28426817	447	456	psychotic	Disease	MESH:D011618
+28426817	535	544	psychosis	Disease	MESH:D011618
+28426817	1205	1213	patients	Species	9606
+28426817	1219	1232	schizophrenia	Disease	MESH:D012559
+28426817	1247	1255	patients	Species	9606
+28426817	1261	1277	bipolar disorder	Disease	MESH:D001714
+28426817	1474	1487	schizophrenia	Disease	MESH:D012559
+28426817	1505	1521	bipolar disorder	Disease	MESH:D001714
+28426817	1542	1555	schizophrenia	Disease	MESH:D012559
+28426817	1560	1576	bipolar disorder	Disease	MESH:D001714
+28426817	1896	1903	bipolar	Disease	MESH:D001714
+28426817	2035	2043	patients	Species	9606
+28426817	2049	2062	schizophrenia	Disease	MESH:D012559
+

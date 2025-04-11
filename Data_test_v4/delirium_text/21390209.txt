@@ -1,0 +1,44 @@
+21390209|t|Meta-analysis for genome-wide association study identifies multiple variants at the BIN1 locus associated with late-onset Alzheimer's disease.
+21390209|a|Recent GWAS studies focused on uncovering novel genetic loci related to AD have revealed associations with variants near CLU, CR1, PICALM and BIN1. In this study, we conducted a genome-wide association study in an independent set of 1034 cases and 1186 controls using the Illumina genotyping platforms. By coupling our data with available GWAS datasets from the ADNI and GenADA, we replicated the original associations in both PICALM (rs3851179) and CR1 (rs3818361). The PICALM variant seems to be non-significant after we adjusted for APOE e4 status. We further tested our top markers in 751 independent cases and 751 matched controls. Besides the markers close to the APOE locus, a marker (rs12989701) upstream of BIN1 locus was replicated and the combined analysis reached genome-wide significance level (p = 5E-08). We combined our data with the published Harold et al. study and meta-analysis with all available 6521 cases and 10360 controls at the BIN1 locus revealed two significant variants (rs12989701, p = 1.32E-10 and rs744373, p = 3.16E-10) in limited linkage disequilibrium (r2  =  0.05) with each other. The independent contribution of both SNPs was supported by haplotype conditional analysis. We also conducted multivariate analysis in canonical pathways and identified a consistent signal in the downstream pathways targeted by Gleevec (P = 0.004 in Pfizer; P = 0.028 in ADNI and P = 0.04 in GenADA). We further tested variants in CLU, PICALM, BIN1 and CR1 for association with disease progression in 597 AD patients where longitudinal cognitive measures are sufficient. Both the PICALM and CLU variants showed nominal significant association with cognitive decline as measured by change in Clinical Dementia Rating-sum of boxes (CDR-SB) score from the baseline but did not pass multiple-test correction. Future experiments will help us better understand potential roles of these genetic loci in AD pathology.
+21390209	84	88	BIN1	Gene	274
+21390209	122	141	Alzheimer's disease	Disease	MESH:D000544
+21390209	215	217	AD	Disease	MESH:D000544
+21390209	264	267	CLU	Gene	1191
+21390209	269	272	CR1	Gene	1378
+21390209	274	280	PICALM	Gene	8301
+21390209	285	289	BIN1	Gene	274
+21390209	570	576	PICALM	Gene	8301
+21390209	578	587	rs3851179	SNP	tmVar:rs3851179;VariantGroup:0;RS#:3851179
+21390209	593	596	CR1	Gene	1378
+21390209	598	607	rs3818361	SNP	tmVar:rs3818361;VariantGroup:3;CorrespondingGene:1378;RS#:3818361;CorrespondingSpecies:9606
+21390209	614	620	PICALM	Gene	8301
+21390209	679	683	APOE	Gene	348
+21390209	813	817	APOE	Gene	348
+21390209	835	845	rs12989701	SNP	tmVar:rs12989701;VariantGroup:1;RS#:12989701
+21390209	859	863	BIN1	Gene	274
+21390209	1097	1101	BIN1	Gene	274
+21390209	1143	1153	rs12989701	SNP	tmVar:rs12989701;VariantGroup:1;RS#:12989701
+21390209	1172	1180	rs744373	SNP	tmVar:rs744373;VariantGroup:2;RS#:744373
+21390209	1488	1495	Gleevec	Chemical	MESH:D000068877
+21390209	1591	1594	CLU	Gene	1191
+21390209	1596	1602	PICALM	Gene	8301
+21390209	1604	1608	BIN1	Gene	274
+21390209	1613	1616	CR1	Gene	1378
+21390209	1665	1667	AD	Disease	MESH:D000544
+21390209	1668	1676	patients	Species	9606
+21390209	1740	1746	PICALM	Gene	8301
+21390209	1751	1754	CLU	Gene	1191
+21390209	1808	1825	cognitive decline	Disease	MESH:D003072
+21390209	1860	1868	Dementia	Disease	MESH:D003704
+21390209	2056	2058	AD	Disease	MESH:D000544
+21390209	Positive_Correlation	MESH:D000544	RS#:744373
+21390209	Positive_Correlation	MESH:D000544	RS#:12989701
+21390209	Association	MESH:D003704	1191
+21390209	Association	MESH:D000544	1378
+21390209	Association	MESH:D000544	8301
+21390209	Association	MESH:D000544	1191
+21390209	Association	MESH:D000544	274
+21390209	Association	MESH:D003072	8301
+21390209	Association	MESH:D003704	8301
+21390209	Association	MESH:D003072	1191
+

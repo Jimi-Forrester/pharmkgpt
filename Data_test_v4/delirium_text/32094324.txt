@@ -1,0 +1,41 @@
+32094324|t|Discovery of suppressors of CRMP2 phosphorylation reveals compounds that mimic the behavioral effects of lithium on amphetamine-induced hyperlocomotion.
+32094324|a|The effective treatment of bipolar disorder (BD) represents a significant unmet medical need. Although lithium remains a mainstay of treatment for BD, limited knowledge regarding how it modulates affective behavior has proven an obstacle to discovering more effective mood stabilizers with fewer adverse side effects. One potential mechanism of action of lithium is through inhibition of the serine/threonine protein kinase GSK3beta, however, relevant substrates whose change in phosphorylation may mediate downstream changes in neuroplasticity remain poorly understood. Here, we used human induced pluripotent stem cell (hiPSC)-derived neuronal cells and stable isotope labeling by amino acids in cell culture (SILAC) along with quantitative mass spectrometry to identify global changes in the phosphoproteome upon inhibition of GSK3alpha/beta with the highly selective, ATP-competitive inhibitor CHIR-99021. Comparison of phosphorylation changes to those induced by therapeutically relevant doses of lithium treatment led to the identification of collapsin response mediator protein 2 (CRMP2) as being highly sensitive to both treatments as well as an extended panel of structurally distinct GSK3alpha/beta inhibitors. On this basis, a high-content image-based assay in hiPSC-derived neurons was developed to screen diverse compounds, including FDA-approved drugs, for their ability to mimic lithium's suppression of CRMP2 phosphorylation without directly inhibiting GSK3beta kinase activity. Systemic administration of a subset of these CRMP2-phosphorylation suppressors were found to mimic lithium's attenuation of amphetamine-induced hyperlocomotion in mice. Taken together, these studies not only provide insights into the neural substrates regulated by lithium, but also provide novel human neuronal assays for supporting the development of mechanism-based therapeutics for BD and related neuropsychiatric disorders.
+32094324	28	33	CRMP2	Gene	1808
+32094324	105	112	lithium	Chemical	MESH:D008094
+32094324	116	127	amphetamine	Chemical	MESH:D000661
+32094324	136	151	hyperlocomotion	Disease	
+32094324	180	196	bipolar disorder	Disease	MESH:D001714
+32094324	198	200	BD	Disease	MESH:D001714
+32094324	256	263	lithium	Chemical	MESH:D008094
+32094324	300	302	BD	Disease	MESH:D001714
+32094324	508	515	lithium	Chemical	MESH:D008094
+32094324	577	585	GSK3beta	Gene	2932
+32094324	738	743	human	Species	9606
+32094324	983	997	GSK3alpha/beta	Gene	2931
+32094324	1025	1028	ATP	Chemical	MESH:D000255
+32094324	1051	1061	CHIR-99021	Chemical	MESH:C473711
+32094324	1155	1162	lithium	Chemical	MESH:D008094
+32094324	1202	1239	collapsin response mediator protein 2	Gene	1808
+32094324	1241	1246	CRMP2	Gene	1808
+32094324	1347	1361	GSK3alpha/beta	Gene	2931
+32094324	1547	1554	lithium	Chemical	MESH:D008094
+32094324	1572	1577	CRMP2	Gene	1808
+32094324	1622	1630	GSK3beta	Gene	2932
+32094324	1693	1698	CRMP2	Gene	1808
+32094324	1747	1754	lithium	Chemical	MESH:D008094
+32094324	1772	1783	amphetamine	Chemical	MESH:D000661
+32094324	1792	1807	hyperlocomotion	Disease	
+32094324	1811	1815	mice	Species	10090
+32094324	1913	1920	lithium	Chemical	MESH:D008094
+32094324	1945	1950	human	Species	9606
+32094324	2034	2036	BD	Disease	MESH:D001714
+32094324	2049	2075	neuropsychiatric disorders	Disease	MESH:D001523
+32094324	Negative_Correlation	MESH:D008094	MESH:D001714
+32094324	Negative_Correlation	MESH:D008094	2932
+32094324	Association	MESH:D000255	2931
+32094324	Negative_Correlation	MESH:D008094	1808
+32094324	Negative_Correlation	MESH:D000661	MESH:D008094
+32094324	Association	MESH:C473711	MESH:D000255
+32094324	Negative_Correlation	MESH:C473711	2931
+32094324	Association	MESH:D001714	1808
+

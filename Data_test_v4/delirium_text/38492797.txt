@@ -1,0 +1,22 @@
+38492797|t|Utilizing Siamese 4D-AlzNet and Transfer Learning to Identify Stages of Alzheimer's Disease.
+38492797|a|Alzheimer's disease (AD) is the general form of dementia, leading to a progressive neurological disorder characterized by memory loss due to brain cell damage. Artificial Intelligence (AI) assists in the early identification and prediction of AD patients, determining future risks and benefits for radiologists and doctors to save time and cost. Since deep learning (DL) approaches work well with massive datasets and have recently become helpful for AD detection, there remains an area for improvement in automating detection performance. Present approaches somehow addressed the challenges of limited annotated data samples for binary classification. This contrasts with prior state-of-the-art techniques, which were constrained by their incapacity to capture abstract-level information. In this paper, we proposed a Siamese 4D-AlzNet model comprised of four parallel CNN streams (Five CNN layer blocks) and customized transfer learning models (Frozen VGG-19, Frozen VGG-16, and customized AlexNet). Siamese 4D-AlzNet was vertically and horizontally stored, and the spatial features were passed to the final layer for classification. For experiments, T1-weighted MRI images comprised of four distinct subject classes, normal control (NC), mild cognitive impairment (MCI), late mild cognitive impairment (LMCI), and AD, have been employed. Our proposed models achieved outstanding accuracy, with a remarkable 95.05% accuracy distinguishing between normal and AD subjects. The performance across remaining binary class pairs consistently exceeded 90%. We thoroughly compared our model with the latest methods using the same dataset as our reference. Our proposed model improved NC-AD and MCI-AD classification accuracy by 2% to 7%.
+38492797	72	91	Alzheimer's Disease	Disease	MESH:D000544
+38492797	93	112	Alzheimer's disease	Disease	MESH:D000544
+38492797	114	116	AD	Disease	MESH:D000544
+38492797	141	149	dementia	Disease	MESH:D003704
+38492797	176	197	neurological disorder	Disease	MESH:D009461
+38492797	215	226	memory loss	Disease	MESH:D008569
+38492797	234	251	brain cell damage	Disease	MESH:D001925
+38492797	336	338	AD	Disease	MESH:D000544
+38492797	339	347	patients	Species	9606
+38492797	544	546	AD	Disease	MESH:D000544
+38492797	1334	1359	mild cognitive impairment	Disease	MESH:D060825
+38492797	1361	1364	MCI	Disease	MESH:D060825
+38492797	1372	1397	mild cognitive impairment	Disease	MESH:D060825
+38492797	1399	1403	LMCI	Disease	MESH:D060825
+38492797	1410	1412	AD	Disease	MESH:D000544
+38492797	1553	1555	AD	Disease	MESH:D000544
+38492797	1774	1776	AD	Disease	MESH:D000544
+38492797	1781	1784	MCI	Disease	MESH:D060825
+38492797	1785	1787	AD	Disease	MESH:D000544
+

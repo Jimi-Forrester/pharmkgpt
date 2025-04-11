@@ -1,0 +1,26 @@
+35965800|t|Diagnostic accuracy study of automated stratification of Alzheimer's disease and mild cognitive impairment via deep learning based on MRI.
+35965800|a|Background: Alzheimer's disease (AD) is a widespread neurodegenerative disease that mostly affects the elderly population. Given its prevalence, a precise and efficient stratification system based on AD symptomology that uses functional magnetic resonance imaging (MRI) has great potential in the clinical diagnosis and prognosis estimation of AD patients. It was evident that deep learning methods have performed extremely well in the field of automated stratification of AD based on MRI because of their high predicting accuracy and reliability. Methods: We proposed a deep convolutional neural network (CNN) and iterated random forest (RF) architecture for MRI image stratification by both anatomical location and image modality using the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. We employed 3 cross-sectional data sets from the ADNI to conduct our binary-stratification [AD and normal controls (NCs), or AD and mild cognitive impairment (MCI)], and multi-stratification (AD, MCI, and NCs) process using MRI. And the accuracy, recall, specificity, area under the curve of receiver operating characteristic curve (AUC), F1 and Matthew's correlation coefficient (MCC) scores to assess accuracy of auxiliary clinical diagnoses. Results: Compared to other combinations of algorithms, our model obtained remarkable overall stratification accuracies in all different classification sets. In terms of AD vs. MCI, the mean training AUC of the 3 runs were 85.1% in 95% confidence intervals (CIs). In terms of AD vs. NC, the mean training AUC of the 3 runs was 90.6% in 95% CIs. In terms of the 3 stratifications of AD, MCI, and NC, relative precision, recall, and specificity for each category in the training test (TS) were all near 89%, while the F1 and MCC scores of both sets were 59.9% and 59.5%, respectively. Conclusions: Using a deep CNN and iterated RF architecture, we showed that brain image stratification is a promising means for evaluating AD, and examining the underlying etiology of the disease, by applying computer and medical images to achieve the early auxiliary diagnosis of AD. However, we still have a long way to go from the discovery of image markers to clinical application.
+35965800	57	76	Alzheimer's disease	Disease	MESH:D000544
+35965800	86	106	cognitive impairment	Disease	MESH:D003072
+35965800	151	170	Alzheimer's disease	Disease	MESH:D000544
+35965800	172	174	AD	Disease	MESH:D000544
+35965800	192	217	neurodegenerative disease	Disease	MESH:D019636
+35965800	339	341	AD	Disease	MESH:D000544
+35965800	483	485	AD	Disease	MESH:D000544
+35965800	486	494	patients	Species	9606
+35965800	612	614	AD	Disease	MESH:D000544
+35965800	881	900	Alzheimer's Disease	Disease	MESH:D000544
+35965800	1034	1036	AD	Disease	MESH:D000544
+35965800	1067	1069	AD	Disease	MESH:D000544
+35965800	1079	1099	cognitive impairment	Disease	MESH:D003072
+35965800	1101	1104	MCI	Disease	MESH:D060825
+35965800	1134	1136	AD	Disease	MESH:D000544
+35965800	1138	1141	MCI	Disease	MESH:D060825
+35965800	1556	1558	AD	Disease	MESH:D000544
+35965800	1563	1566	MCI	Disease	MESH:D060825
+35965800	1662	1664	AD	Disease	MESH:D000544
+35965800	1768	1770	AD	Disease	MESH:D000544
+35965800	1772	1775	MCI	Disease	MESH:D060825
+35965800	2107	2109	AD	Disease	MESH:D000544
+35965800	2249	2251	AD	Disease	MESH:D000544
+

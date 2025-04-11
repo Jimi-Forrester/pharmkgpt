@@ -1,0 +1,14 @@
+32041952|t|Discovering the genes mediating the interactions between chronic respiratory diseases in the human interactome.
+32041952|a|The molecular and clinical features of a complex disease can be influenced by other diseases affecting the same individual. Understanding disease-disease interactions is therefore crucial for revealing shared molecular mechanisms among diseases and designing effective treatments. Here we introduce Flow Centrality (FC), a network-based approach to identify the genes mediating the interaction between two diseases in a protein-protein interaction network. We focus on asthma and COPD, two chronic respiratory diseases that have been long hypothesized to share common genetic determinants and mechanisms. We show that FC highlights potential mediator genes between the two diseases, and observe similar outcomes when applying FC to 66 additional pairs of related diseases. Further, we perform in vitro perturbation experiments on a widely replicated asthma gene, GSDMB, showing that FC identifies candidate mediators of the interactions between GSDMB and COPD-associated genes. Our results indicate that FC predicts promising gene candidates for further study of disease-disease interactions.
+32041952	65	85	respiratory diseases	Disease	MESH:D012140
+32041952	93	98	human	Species	9606
+32041952	581	587	asthma	Disease	MESH:D001249
+32041952	592	596	COPD	Disease	MESH:D029424
+32041952	610	630	respiratory diseases	Disease	MESH:D012140
+32041952	962	968	asthma	Disease	MESH:D001249
+32041952	975	980	GSDMB	Gene	55876
+32041952	1057	1062	GSDMB	Gene	55876
+32041952	1067	1071	COPD	Disease	MESH:D029424
+32041952	Association	MESH:D029424	55876
+32041952	Association	MESH:D001249	55876
+

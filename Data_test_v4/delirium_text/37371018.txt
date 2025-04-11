@@ -1,0 +1,15 @@
+37371018|t|Diagnosis of Chest Pneumonia with X-ray Images Based on Graph Reasoning.
+37371018|a|Pneumonia is an acute respiratory infection that affects the lungs. It is the single largest infectious disease that kills children worldwide. According to a 2019 World Health Organization survey, pneumonia caused 740,180 deaths in children under 5 years of age, accounting for 14% of all deaths in children under 5 years of age but 22% of all deaths in children aged 1 to 5 years. This shows that early recognition of pneumonia in children is particularly important. In this study, we propose a pneumonia binary classification model for chest X-ray image recognition based on a deep learning approach. We extract features using a traditional convolutional network framework to obtain features containing rich semantic information. The adjacency matrix is also constructed to represent the degree of relevance of each region in the image. In the final part of the model, we use graph inference to complete the global modeling to help classify pneumonia disease. A total of 6189 children's X-ray films containing 3319 normal cases and 2870 pneumonia cases were used in the experiment. In total, 20% was selected as the test data set, and 11 common models were compared using 4 evaluation metrics, of which the accuracy rate reached 89.1% and the F1-score reached 90%, achieving the optimum.
+37371018	13	28	Chest Pneumonia	Disease	MESH:D011014
+37371018	73	82	Pneumonia	Disease	MESH:D011014
+37371018	95	116	respiratory infection	Disease	MESH:D012141
+37371018	166	184	infectious disease	Disease	MESH:D003141
+37371018	270	279	pneumonia	Disease	MESH:D011014
+37371018	295	301	deaths	Disease	MESH:D003643
+37371018	362	368	deaths	Disease	MESH:D003643
+37371018	417	423	deaths	Disease	MESH:D003643
+37371018	492	501	pneumonia	Disease	MESH:D011014
+37371018	569	578	pneumonia	Disease	MESH:D011014
+37371018	1016	1033	pneumonia disease	Disease	MESH:D011014
+37371018	1112	1121	pneumonia	Disease	MESH:D011014
+

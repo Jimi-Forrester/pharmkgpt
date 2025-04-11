@@ -1,0 +1,67 @@
+37873425|t|Shared genetic basis informs the roles of polyunsaturated fatty acids in brain disorders.
+37873425|a|The neural tissue is rich in polyunsaturated fatty acids (PUFAs), components that are indispensable for the proper functioning of neurons, such as neurotransmission. PUFA nutritional deficiency and imbalance have been linked to a variety of chronic brain disorders, including major depressive disorder (MDD), anxiety, and anorexia. However, the effects of PUFAs on brain disorders remain inconclusive, and the extent of their shared genetic determinants is largely unknown. Here, we used genome-wide association summary statistics to systematically examine the shared genetic basis between six phenotypes of circulating PUFAs (N = 114,999) and 20 brain disorders (N = 9,725-762,917), infer their potential causal relationships, identify colocalized regions, and pinpoint shared genetic variants. Genetic correlation and polygenic overlap analyses revealed a widespread shared genetic basis for 77 trait pairs between six PUFA phenotypes and 16 brain disorders. Two-sample Mendelian randomization analysis indicated potential causal relationships for 16 pairs of PUFAs and brain disorders, including alcohol consumption, bipolar disorder (BIP), and MDD. Colocalization analysis identified 40 shared loci (13 unique) among six PUFAs and ten brain disorders. Twenty-two unique variants were statistically inferred as candidate shared causal variants, including rs1260326 ( GCKR ), rs174564 ( FADS2 ) and rs4818766 ( ADARB1 ). These findings reveal a widespread shared genetic basis between PUFAs and brain disorders, pinpoint specific shared variants, and provide support for the potential effects of PUFAs on certain brain disorders, especially MDD, BIP, and alcohol consumption.
+37873425	42	69	polyunsaturated fatty acids	Chemical	MESH:D005231
+37873425	73	88	brain disorders	Disease	MESH:D001927
+37873425	119	146	polyunsaturated fatty acids	Chemical	MESH:D005231
+37873425	148	153	PUFAs	Chemical	MESH:D005231
+37873425	256	260	PUFA	Chemical	MESH:D005231
+37873425	273	283	deficiency	Disease	MESH:D007153
+37873425	339	354	brain disorders	Disease	MESH:D001927
+37873425	366	391	major depressive disorder	Disease	MESH:D003865
+37873425	393	396	MDD	Disease	MESH:D003865
+37873425	399	406	anxiety	Disease	MESH:D001007
+37873425	412	420	anorexia	Disease	MESH:D000855
+37873425	446	451	PUFAs	Chemical	MESH:D005231
+37873425	455	470	brain disorders	Disease	MESH:D001927
+37873425	710	715	PUFAs	Chemical	MESH:D005231
+37873425	737	752	brain disorders	Disease	MESH:D001927
+37873425	1011	1015	PUFA	Chemical	MESH:D005231
+37873425	1034	1049	brain disorders	Disease	MESH:D001927
+37873425	1152	1157	PUFAs	Chemical	MESH:D005231
+37873425	1162	1177	brain disorders	Disease	MESH:D001927
+37873425	1189	1196	alcohol	Chemical	MESH:D000438
+37873425	1210	1226	bipolar disorder	Disease	MESH:D001714
+37873425	1228	1231	BIP	Disease	MESH:D001714
+37873425	1238	1241	MDD	Disease	MESH:D003865
+37873425	1315	1320	PUFAs	Chemical	MESH:D005231
+37873425	1329	1344	brain disorders	Disease	MESH:D001927
+37873425	1448	1457	rs1260326	SNP	tmVar:rs1260326;VariantGroup:1;CorrespondingGene:2646;RS#:1260326;CorrespondingSpecies:9606
+37873425	1460	1464	GCKR	Gene	2646
+37873425	1468	1476	rs174564	SNP	tmVar:rs174564;VariantGroup:2;CorrespondingGene:9415;RS#:174564;CorrespondingSpecies:9606
+37873425	1479	1484	FADS2	Gene	9415
+37873425	1491	1500	rs4818766	SNP	tmVar:rs4818766;VariantGroup:0;CorrespondingGene:104;RS#:4818766;CorrespondingSpecies:9606
+37873425	1503	1509	ADARB1	Gene	104
+37873425	1577	1582	PUFAs	Chemical	MESH:D005231
+37873425	1587	1602	brain disorders	Disease	MESH:D001927
+37873425	1688	1693	PUFAs	Chemical	MESH:D005231
+37873425	1705	1720	brain disorders	Disease	MESH:D001927
+37873425	1733	1736	MDD	Disease	MESH:D003865
+37873425	1738	1741	BIP	Disease	MESH:D001714
+37873425	1747	1754	alcohol	Chemical	MESH:D000438
+37873425	Association	MESH:D005231	MESH:D001714
+37873425	Association	MESH:D005231	MESH:D003865
+37873425	Positive_Correlation	MESH:D003865	RS#:1260326;CorrespondingGene:2646
+37873425	Association	MESH:D001927	RS#:174564;CorrespondingGene:9415
+37873425	Association	MESH:D001927	RS#:1260326;CorrespondingGene:2646
+37873425	Association	MESH:D000438	MESH:D001927
+37873425	Positive_Correlation	MESH:D003865	RS#:4818766;CorrespondingGene:104
+37873425	Positive_Correlation	MESH:D000438	MESH:D003865
+37873425	Association	MESH:D001714	RS#:174564;CorrespondingGene:9415
+37873425	Association	MESH:D005231	MESH:D001927
+37873425	Association	MESH:D001714	RS#:1260326;CorrespondingGene:2646
+37873425	Positive_Correlation	MESH:D003865	RS#:174564;CorrespondingGene:9415
+37873425	Negative_Correlation	MESH:D005231	MESH:D007153
+37873425	Association	MESH:D001927	RS#:4818766;CorrespondingGene:104
+37873425	Association	MESH:D001927	104
+37873425	Association	MESH:D005231	MESH:D001007
+37873425	Association	MESH:D000438	MESH:D005231
+37873425	Association	MESH:D005231	MESH:D000855
+37873425	Association	MESH:D003865	2646
+37873425	Association	MESH:D001927	9415
+37873425	Association	MESH:D001927	2646
+37873425	Association	MESH:D003865	104
+37873425	Association	MESH:D001714	9415
+37873425	Association	MESH:D001714	2646
+37873425	Association	MESH:D003865	9415
+37873425	Association	MESH:D001927	104
+

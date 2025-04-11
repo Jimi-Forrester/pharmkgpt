@@ -2,7 +2,7 @@
 
 This project implements a RAG system focused on disease of delirium, using Ollama for local LLMs.
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## Table of Contents
 
@@ -51,12 +51,12 @@ tar -zxvf bge-reranker-large.tar.gz
 
 ```sh
 # Extract the delirium data (latest version)
-tar -zxvf Data_v4.tar.gz
+tar -zxvf Data_v5.tar.gz
 
 # Extract the test data (smaller, for quick testing)
-tar -zxvf Data_test_v3.tar.gz
+tar -zxvf Data_test_v4.tar.gz
 ```
-*Use `Data_v4` for the full dataset and `Data_test_v3` for testing.*
+*Use `Data_v5` for the full dataset and `Data_test_v4` for testing.*
 
 ## 2. Setup & Run
 
@@ -73,7 +73,7 @@ Choose either Docker or Local setup.
     ```sh
     # Adjust volume paths (-v) to match your local machine
     docker run -d -p 5000:5000 \
-        -v "/path/to/your/Data_v4:/app/data" \
+        -v "/path/to/your/Data_v5:/app/data" \
         -v "/path/to/your/bge-reranker-large:/app/bge-reranker-large" \
         -e OLLAMA_BASE_URL="http://host.docker.internal:11434" \
         --name mindresilience-app mindresilience:v1
@@ -109,7 +109,11 @@ Choose either Docker or Local setup.
     ```sh
     conda create -n rag python=3.10 -y
     conda activate rag
+
     pip install -r requirements.txt
+
+    pip install llama-index-llms-gemini==0.4.13
+    pip install itext2kg==0.0.7
     ```
 
 2.  **Configure Environment Variables:**
@@ -117,12 +121,12 @@ Choose either Docker or Local setup.
     ```dotenv
     # Adjust paths to match your local machine
     RERANKER_PATH=/path/to/your/bge-reranker-large
-    DATA_ROOT=/path/to/your/Data_v4 
+    DATA_ROOT=/path/to/your/Data_v5
     ```
 
 3.  **Run Application Server:**
     ```sh
-    python app.py
+    nohup python app.py > app.log 2>&1 &  # start back-end
     python builder.py # start web sever
     ```
     *(The server will run on `http://localhost:5000` by default)*
@@ -138,7 +142,7 @@ Choose either Docker or Local setup.
 
 ## 3. Test
 
-Ensure you have the test data (`Data_test_v3`) extracted and configured (e.g., in `.env` or via Docker volume).
+Ensure you have the test data (`Data_test_v4`) extracted and configured (e.g., in `.env` or via Docker volume).
 
 ```sh
 pytest test/test_QA.py
@@ -151,3 +155,4 @@ pytest test/test_QA.py
 *   **Data_v3:** Refactored data structure (led to retrieval issues, deprecated).
 *   **Data_v4:** Rebuilt based on v2 structure; current primary dataset.
 *   **Data_test_v3:** A smaller test dataset corresponding to the structure of Data_v4.
+*   **Data_v5:** Contains 150,000 literature abstracts for a Knowledge Graph (KG), covering Alzheimer's Disease (AD) and delirium. Last updated: April 9, 2025.

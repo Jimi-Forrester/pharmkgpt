@@ -1,0 +1,52 @@
+38585702|t|Causal associations of genetically predicted gut microbiota and blood metabolites with inflammatory states and risk of infections: a Mendelian randomization analysis.
+38585702|a|Background: Inflammation serves as a key pathologic mediator in the progression of infections and various diseases, involving significant alterations in the gut microbiome and metabolism. This study aims to probe into the potential causal relationships between gut microbial taxa and human blood metabolites with various serum inflammatory markers (CRP, SAA1, IL-6, TNF-alpha, WBC, and GlycA) and the risks of seven common infections (gastrointestinal infections, dysentery, pneumonia, bacterial pneumonia, bronchopneumonia and lung abscess, pneumococcal pneumonia, and urinary tract infections). Methods: Two-sample Mendelian randomization (MR) analysis was performed using inverse variance weighted (IVW), maximum likelihood, MR-Egger, weighted median, and MR-PRESSO. Results: After adding other MR models and sensitivity analyses, genus Roseburia was simultaneously associated adversely with CRP (Beta IVW = -0.040) and SAA1 (Beta IVW = -0.280), and family Bifidobacteriaceae was negatively associated with both CRP (Beta IVW = -0.034) and pneumonia risk (Beta IVW = -0.391). After correction by FDR, only glutaroyl carnitine remained significantly associated with elevated CRP levels (Beta IVW = 0.112). Additionally, threonine (Beta IVW = 0.200) and 1-heptadecanoylglycerophosphocholine (Beta IVW = -0.246) were found to be significantly associated with WBC levels. Three metabolites showed similar causal effects on different inflammatory markers or infectious phenotypes, stearidonate (18:4n3) was negatively related to SAA1 and urinary tract infections, and 5-oxoproline contributed to elevated IL-6 and SAA1 levels. In addition, 7-methylguanine showed a positive correlation with dysentery and bacterial pneumonia. Conclusion: This study provides novel evidence confirming the causal effects of the gut microbiome and the plasma metabolite profile on inflammation and the risk of infection. These potential molecular alterations may aid in the development of new targets for the intervention and management of disorders associated with inflammation and infections.
+38585702	87	99	inflammatory	Disease	MESH:D007249
+38585702	119	129	infections	Disease	MESH:D007239
+38585702	179	191	Inflammation	Disease	MESH:D007249
+38585702	250	260	infections	Disease	MESH:D007239
+38585702	451	456	human	Species	9606
+38585702	494	506	inflammatory	Disease	MESH:D007249
+38585702	516	519	CRP	Gene	1401
+38585702	521	525	SAA1	Gene	6288
+38585702	527	531	IL-6	Gene	3569
+38585702	533	542	TNF-alpha	Gene	7124
+38585702	553	558	GlycA	Chemical	-
+38585702	590	600	infections	Disease	MESH:D007239
+38585702	602	629	gastrointestinal infections	Disease	MESH:D005767
+38585702	631	640	dysentery	Disease	MESH:D004403
+38585702	642	651	pneumonia	Disease	MESH:D011014
+38585702	653	672	bacterial pneumonia	Disease	MESH:D018410
+38585702	674	690	bronchopneumonia	Disease	MESH:D001996
+38585702	695	707	lung abscess	Disease	MESH:D008169
+38585702	709	731	pneumococcal pneumonia	Disease	MESH:D011018
+38585702	737	761	urinary tract infections	Disease	MESH:D014552
+38585702	1062	1065	CRP	Gene	1401
+38585702	1090	1094	SAA1	Gene	6288
+38585702	1182	1185	CRP	Gene	1401
+38585702	1210	1219	pneumonia	Disease	MESH:D011014
+38585702	1276	1295	glutaroyl carnitine	Chemical	-
+38585702	1344	1347	CRP	Gene	1401
+38585702	1389	1398	threonine	Chemical	MESH:D013912
+38585702	1422	1458	1-heptadecanoylglycerophosphocholine	Chemical	-
+38585702	1599	1611	inflammatory	Disease	MESH:D007249
+38585702	1646	1658	stearidonate	Chemical	-
+38585702	1694	1698	SAA1	Gene	6288
+38585702	1703	1727	urinary tract infections	Disease	MESH:D014552
+38585702	1733	1745	5-oxoproline	Chemical	MESH:D011761
+38585702	1770	1774	IL-6	Gene	3569
+38585702	1779	1783	SAA1	Gene	6288
+38585702	1805	1820	7-methylguanine	Chemical	MESH:C008450
+38585702	1856	1865	dysentery	Disease	MESH:D004403
+38585702	1870	1889	bacterial pneumonia	Disease	MESH:D018410
+38585702	2027	2039	inflammation	Disease	MESH:D007249
+38585702	2056	2065	infection	Disease	MESH:D007239
+38585702	2212	2224	inflammation	Disease	MESH:D007249
+38585702	2229	2239	infections	Disease	MESH:D007239
+38585702	Positive_Correlation	MESH:D011761	3569
+38585702	Positive_Correlation	MESH:D011761	6288
+38585702	Association	MESH:D007249	7124
+38585702	Association	MESH:D007249	1401
+38585702	Positive_Correlation	MESH:C008450	MESH:D018410
+38585702	Association	MESH:D007249	6288
+38585702	Positive_Correlation	MESH:C008450	MESH:D004403
+

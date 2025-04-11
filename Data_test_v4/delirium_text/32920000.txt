@@ -1,0 +1,79 @@
+32920000|t|Safety assessment of drug combinations used in COVID-19 treatment: in silico toxicogenomic data-mining approach.
+32920000|a|Improvement of COVID-19 clinical condition was seen in studies where combination of antiretroviral drugs, lopinavir and ritonavir, as well as immunomodulant antimalaric, chloroquine/hydroxychloroquine together with the macrolide-type antibiotic, azithromycin, was used for patient's treatment. Although these drugs are "old", their pharmacological and toxicological profile in SARS-CoV-2 - infected patients are still unknown. Thus, by using in silico toxicogenomic data-mining approach, we aimed to assess both risks and benefits of the COVID-19 treatment with the most promising candidate drugs combinations: lopinavir/ritonavir and chloroquine/hydroxychloroquine + azithromycin. The Comparative Toxicogenomics Database (CTD; http://CTD.mdibl.org), Cytoscape software (https://cytoscape.org) and ToppGene Suite portal (https://toppgene.cchmc.org) served as a foundation in our research. Our results have demonstrated that lopinavir/ritonavir increased the expression of the genes involved in immune response and lipid metabolism (IL6, ICAM1, CCL2, TNF, APOA1, etc.). Chloroquine/hydroxychloroquine + azithromycin interacted with 6 genes (CCL2, CTSB, CXCL8, IL1B, IL6 and TNF), whereas chloroquine and azithromycin affected two additional genes (BCL2L1 and CYP3A4), which might be a reason behind a greater number of consequential diseases. In contrast to lopinavir/ritonavir, chloroquine/hydroxychloroquine + azithromycin downregulated the expression of TNF and IL6. As expected, inflammation, cardiotoxicity, and dyslipidaemias were revealed as the main risks of lopinavir/ritonavir treatment, while chloroquine/hydroxychloroquine + azithromycin therapy was additionally linked to gastrointestinal and skin diseases. According to our results, these drug combinations should be administrated with caution to patients suffering from cardiovascular problems, autoimmune diseases, or acquired and hereditary lipid disorders.
+32920000	47	55	COVID-19	Disease	MESH:D000086382
+32920000	128	136	COVID-19	Disease	MESH:D000086382
+32920000	197	217	antiretroviral drugs	Chemical	-
+32920000	219	242	lopinavir and ritonavir	Chemical	MESH:C558899
+32920000	283	313	chloroquine/hydroxychloroquine	Chemical	-
+32920000	332	341	macrolide	Chemical	MESH:D018942
+32920000	359	371	azithromycin	Chemical	MESH:D017963
+32920000	386	393	patient	Species	9606
+32920000	490	511	SARS-CoV-2 - infected	Disease	MESH:D000086382
+32920000	512	520	patients	Species	9606
+32920000	651	659	COVID-19	Disease	MESH:D000086382
+32920000	724	743	lopinavir/ritonavir	Chemical	MESH:C558899
+32920000	748	778	chloroquine/hydroxychloroquine	Chemical	-
+32920000	781	793	azithromycin	Chemical	MESH:D017963
+32920000	1037	1056	lopinavir/ritonavir	Chemical	MESH:C558899
+32920000	1127	1132	lipid	Chemical	MESH:D008055
+32920000	1145	1148	IL6	Gene	3569
+32920000	1150	1155	ICAM1	Gene	3383
+32920000	1157	1161	CCL2	Gene	6347
+32920000	1163	1166	TNF	Gene	7124
+32920000	1168	1173	APOA1	Gene	335
+32920000	1182	1212	Chloroquine/hydroxychloroquine	Chemical	-
+32920000	1215	1227	azithromycin	Chemical	MESH:D017963
+32920000	1253	1257	CCL2	Gene	6347
+32920000	1259	1263	CTSB	Gene	1508
+32920000	1265	1270	CXCL8	Gene	3576
+32920000	1272	1276	IL1B	Gene	3553
+32920000	1278	1281	IL6	Gene	3569
+32920000	1286	1289	TNF	Gene	7124
+32920000	1300	1311	chloroquine	Chemical	MESH:D002738
+32920000	1316	1328	azithromycin	Chemical	MESH:D017963
+32920000	1360	1366	BCL2L1	Gene	598
+32920000	1371	1377	CYP3A4	Gene	1576
+32920000	1470	1489	lopinavir/ritonavir	Chemical	MESH:C558899
+32920000	1491	1521	chloroquine/hydroxychloroquine	Chemical	-
+32920000	1524	1536	azithromycin	Chemical	MESH:D017963
+32920000	1569	1572	TNF	Gene	7124
+32920000	1577	1580	IL6	Gene	3569
+32920000	1595	1607	inflammation	Disease	MESH:D007249
+32920000	1609	1623	cardiotoxicity	Disease	MESH:D066126
+32920000	1629	1643	dyslipidaemias	Disease	
+32920000	1679	1698	lopinavir/ritonavir	Chemical	MESH:C558899
+32920000	1716	1746	chloroquine/hydroxychloroquine	Chemical	-
+32920000	1749	1761	azithromycin	Chemical	MESH:D017963
+32920000	1797	1831	gastrointestinal and skin diseases	Disease	MESH:D005767
+32920000	1923	1931	patients	Species	9606
+32920000	1947	1970	cardiovascular problems	Disease	MESH:D002318
+32920000	1972	1991	autoimmune diseases	Disease	MESH:D001327
+32920000	2020	2035	lipid disorders	Disease	MESH:D011017
+32920000	Association	MESH:D008055	335
+32920000	Positive_Correlation	MESH:C558899	MESH:D007249
+32920000	Association	MESH:D017963	3576
+32920000	Positive_Correlation	MESH:C558899	3569
+32920000	Negative_Correlation	MESH:D017963	3569
+32920000	Association	MESH:C558899	MESH:D008055
+32920000	Positive_Correlation	MESH:D017963	MESH:D011017
+32920000	Association	MESH:D017963	598
+32920000	Association	MESH:C558899	MESH:D011017
+32920000	Association	MESH:D017963	1576
+32920000	Association	MESH:D002738	1576
+32920000	Positive_Correlation	MESH:C558899	3383
+32920000	Positive_Correlation	MESH:D017963	MESH:D002318
+32920000	Negative_Correlation	MESH:D018942	MESH:D000086382
+32920000	Association	MESH:D017963	1508
+32920000	Positive_Correlation	MESH:C558899	335
+32920000	Association	MESH:D017963	6347
+32920000	Positive_Correlation	MESH:D002738	598
+32920000	Positive_Correlation	MESH:D017963	MESH:D005767
+32920000	Negative_Correlation	MESH:D017963	MESH:D000086382
+32920000	Positive_Correlation	MESH:D017963	MESH:D001327
+32920000	Negative_Correlation	MESH:D017963	7124
+32920000	Positive_Correlation	MESH:C558899	MESH:D066126
+32920000	Comparison	MESH:C558899	MESH:D017963
+32920000	Positive_Correlation	MESH:C558899	6347
+32920000	Association	MESH:D017963	3553
+32920000	Negative_Correlation	MESH:C558899	MESH:D000086382
+

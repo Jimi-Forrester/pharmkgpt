@@ -1,0 +1,38 @@
+37431483|t|Homozygous mutation in CSF1R causes brain abnormalities, neurodegeneration, and dysosteosclerosis (BANDDOS).
+37431483|a|Introduction: The CSF1R gene encodes the receptor for colony-stimulating factor-1, the macrophage, and monocyte-specific growth factor. Mutations in this gene cause hereditary diffuse leukoencephalopathy with spheroids (HDLS) with autosomal dominant inheritance and BANDDOS (Brain Abnormalities, Neurodegeneration, and Dysosteosclerosis) with autosomal recessive inheritance. Methods: Targeted gene sequencing was performed on the genomic DNA samples of the deceased patient and a fetus along with ten healthy members of his family to identify the disease-causing mutation. Bioinformatics tools were used to study the mutation effect on protein function and structure. To predict the effect of the mutation on the protein, various bioinformatics tools were applied. Results: A novel homozygous variant was identified in the gene CSF1R, c.2498C>T; p.T833M in exon 19, in the index patient and the fetus. Furthermore, some family members were heterozygous for this variant, while they had not any symptoms of the disease. In silico analysis indicated this variant has a detrimental effect on CSF1R. It is conserved among humans and other similar species. The variant is located within the functionally essential PTK domain of the receptor. However, no structural damage was introduced by this substitution. Conclusion: In conclusion, regarding the inheritance pattern in the family and clinical manifestations in the index patient, we propose that the mentioned variant in the CSF1R gene may cause BANDDOS.
+37431483	23	28	CSF1R	Gene	1436
+37431483	36	55	brain abnormalities	Disease	MESH:D001927
+37431483	57	74	neurodegeneration	Disease	MESH:D019636
+37431483	80	97	dysosteosclerosis	Disease	MESH:C562973
+37431483	99	106	BANDDOS	Disease	MESH:C562973
+37431483	127	132	CSF1R	Gene	1436
+37431483	163	190	colony-stimulating factor-1	Gene	1435
+37431483	274	327	hereditary diffuse leukoencephalopathy with spheroids	Disease	MESH:C580150
+37431483	329	333	HDLS	Disease	MESH:C580150
+37431483	375	382	BANDDOS	Disease	MESH:C562973
+37431483	384	403	Brain Abnormalities	Disease	MESH:D001927
+37431483	405	422	Neurodegeneration	Disease	MESH:D019636
+37431483	428	445	Dysosteosclerosis	Disease	MESH:C562973
+37431483	938	943	CSF1R	Gene	1436
+37431483	945	954	c.2498C>T	DNAMutation	tmVar:c|SUB|C|2498|T;HGVS:c.2498C>T;VariantGroup:0;CorrespondingGene:1436;RS#:780804532;CorrespondingSpecies:9606;CA#:3506422
+37431483	956	963	p.T833M	ProteinMutation	tmVar:p|SUB|T|833|M;HGVS:p.T833M;VariantGroup:0;CorrespondingGene:1436;RS#:780804532;CorrespondingSpecies:9606;CA#:3506422
+37431483	1199	1205	CSF1R.	Gene	1436
+37431483	1319	1322	PTK	Gene	2185
+37431483	1584	1589	CSF1R	Gene	1436
+37431483	1605	1612	BANDDOS	Disease	MESH:C562973
+37431483	Positive_Correlation	MESH:D019636	RS#:780804532;HGVS:p.T833M;CorrespondingGene:1436
+37431483	Positive_Correlation	MESH:C580150	RS#:780804532;HGVS:c.2498C>T;CorrespondingGene:1436
+37431483	Positive_Correlation	MESH:D001927	RS#:780804532;HGVS:c.2498C>T;CorrespondingGene:1436
+37431483	Positive_Correlation	MESH:D001927	RS#:780804532;HGVS:c.2498C>T;CorrespondingGene:1436
+37431483	Positive_Correlation	MESH:C562973	RS#:780804532;HGVS:p.T833M;CorrespondingGene:1436
+37431483	Positive_Correlation	MESH:C562973	RS#:780804532;HGVS:c.2498C>T;CorrespondingGene:1436
+37431483	Positive_Correlation	MESH:D019636	RS#:780804532;HGVS:c.2498C>T;CorrespondingGene:1436
+37431483	Positive_Correlation	MESH:C562973	RS#:780804532;HGVS:c.2498C>T;CorrespondingGene:1436
+37431483	Positive_Correlation	MESH:D019636	RS#:780804532;HGVS:c.2498C>T;CorrespondingGene:1436
+37431483	Positive_Correlation	MESH:D001927	RS#:780804532;HGVS:p.T833M;CorrespondingGene:1436
+37431483	Association	MESH:D019636	1436
+37431483	Association	MESH:D001927	1436
+37431483	Bind	1435	1436
+37431483	Association	MESH:C562973	1436
+37431483	Association	MESH:C580150	1436
+

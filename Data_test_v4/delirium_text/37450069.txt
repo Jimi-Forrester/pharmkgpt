@@ -1,0 +1,20 @@
+37450069|t|Estimation of brain amyloid accumulation using deep learning in clinical [11C]PiB PET imaging.
+37450069|a|INTRODUCTION: Estimation of brain amyloid accumulation is valuable for evaluation of patients with cognitive impairment in both research and clinical routine. The development of high throughput and accurate strategies for the determination of amyloid status could be an important tool in patient selection for clinical trials and amyloid directed treatment. Here, we propose the use of deep learning to quantify amyloid accumulation using standardized uptake value ratio (SUVR) and classify amyloid status based on their PET images. METHODS: A total of 1309 patients with cognitive impairment scanned with [11C]PIB PET/CT or PET/MRI were included. Two convolutional neural networks (CNNs) for reading-based amyloid status and SUVR prediction were trained using 75% of the PET/CT data. The remaining PET/CT (n = 300) and all PET/MRI (n = 100) data was used for evaluation. RESULTS: The prevalence of amyloid positive patients was 61%. The amyloid status classification model reproduced the expert reader's classification with 99% accuracy. There was a high correlation between reference and predicted SUVR (R2 = 0.96). Both reference and predicted SUVR had an accuracy of 97% compared to expert classification when applying a predetermined SUVR threshold of 1.35 for binary classification of amyloid status. CONCLUSION: The proposed CNN models reproduced both the expert classification and quantitative measure of amyloid accumulation in a large local dataset. This method has the potential to replace or simplify existing clinical routines and can facilitate fast and accurate classification well-suited for a high throughput pipeline.
+37450069	14	40	brain amyloid accumulation	Disease	MESH:C000718787
+37450069	73	81	[11C]PiB	Chemical	MESH:C475519
+37450069	123	149	brain amyloid accumulation	Disease	MESH:C000718787
+37450069	194	214	cognitive impairment	Disease	MESH:D003072
+37450069	338	345	amyloid	Disease	MESH:C000718787
+37450069	425	432	amyloid	Disease	MESH:C000718787
+37450069	507	514	amyloid	Disease	MESH:C000718787
+37450069	586	593	amyloid	Disease	MESH:C000718787
+37450069	667	687	cognitive impairment	Disease	MESH:D003072
+37450069	701	709	[11C]PIB	Chemical	MESH:C475519
+37450069	802	809	amyloid	Disease	MESH:C000718787
+37450069	994	1001	amyloid	Disease	MESH:C000718787
+37450069	1033	1040	amyloid	Disease	MESH:C000718787
+37450069	1386	1393	amyloid	Disease	MESH:C000718787
+37450069	1508	1515	amyloid	Disease	MESH:C000718787
+37450069	Positive_Correlation	MESH:C475519	MESH:C000718787
+37450069	Negative_Correlation	MESH:C475519	MESH:D003072
+

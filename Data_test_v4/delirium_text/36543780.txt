@@ -1,0 +1,41 @@
+36543780|t|Functional investigation of SLC1A2 variants associated with epilepsy.
+36543780|a|Epilepsy is a common neurological disorder and glutamate excitotoxicity plays a key role in epileptic pathogenesis. Astrocytic glutamate transporter GLT-1 is responsible for preventing excitotoxicity via clearing extracellular accumulated glutamate. Previously, three variants (G82R, L85P, and P289R) in SLC1A2 (encoding GLT-1) have been clinically reported to be associated with epilepsy. However, the functional validation and underlying mechanism of these GLT-1 variants in epilepsy remain undetermined. In this study, we reported that these disease-linked mutants significantly decrease glutamate uptake, cell membrane expression of the glutamate transporter, and glutamate-elicited current. Additionally, we found that these variants may disturbed stromal-interacting molecule 1 (STIM1)/Orai1-mediated store-operated Ca2+ entry (SOCE) machinery in the endoplasmic reticulum (ER), in which GLT-1 may be a new partner of SOCE. Furthermore, knock-in mice with disease-associated variants showed a hyperactive phenotype accompanied by reduced glutamate transporter expression. Therefore, GLT-1 is a promising and reliable therapeutic target for epilepsy interventions.
+36543780	28	34	SLC1A2	Gene	20511
+36543780	60	68	epilepsy	Disease	MESH:D004827
+36543780	70	78	Epilepsy	Disease	MESH:D004827
+36543780	91	112	neurological disorder	Disease	MESH:D009461
+36543780	117	126	glutamate	Chemical	MESH:D018698
+36543780	127	141	excitotoxicity	Disease	
+36543780	162	171	epileptic	Disease	MESH:D004827
+36543780	219	224	GLT-1	Gene	20511
+36543780	255	269	excitotoxicity	Disease	
+36543780	309	318	glutamate	Chemical	MESH:D018698
+36543780	348	352	G82R	ProteinMutation	tmVar:p|SUB|G|82|R;HGVS:p.G82R;VariantGroup:1;OriginalGene:20511;CorrespondingGene:6506;RS#:886037942;CorrespondingSpecies:10090;CA#:10586391
+36543780	354	358	L85P	ProteinMutation	tmVar:p|SUB|L|85|P;HGVS:p.L85P;VariantGroup:0;OriginalGene:20511;CorrespondingGene:6506;RS#:886037943;CorrespondingSpecies:10090;CA#:10586392
+36543780	364	369	P289R	ProteinMutation	tmVar:p|SUB|P|289|R;HGVS:p.P289R;VariantGroup:2;OriginalGene:20511;CorrespondingGene:6506;RS#:781379291;CorrespondingSpecies:10090
+36543780	374	380	SLC1A2	Gene	20511
+36543780	391	396	GLT-1	Gene	20511
+36543780	450	458	epilepsy	Disease	MESH:D004827
+36543780	529	534	GLT-1	Gene	20511
+36543780	547	555	epilepsy	Disease	MESH:D004827
+36543780	661	670	glutamate	Chemical	MESH:D018698
+36543780	738	747	glutamate	Chemical	MESH:D018698
+36543780	823	853	stromal-interacting molecule 1	Gene	20866
+36543780	855	860	STIM1	Gene	20866
+36543780	862	867	Orai1	Gene	109305
+36543780	892	896	Ca2+	Chemical	-
+36543780	964	969	GLT-1	Gene	20511
+36543780	1022	1026	mice	Species	10090
+36543780	1159	1164	GLT-1	Gene	20511
+36543780	1216	1224	epilepsy	Disease	MESH:D004827
+36543780	Negative_Correlation	MESH:D018698	RS#:781379291;HGVS:p.P289R;CorrespondingGene:6506
+36543780	Positive_Correlation	MESH:D004827	RS#:886037942;HGVS:p.G82R;CorrespondingGene:6506
+36543780	Negative_Correlation	MESH:D018698	RS#:886037943;HGVS:p.L85P;CorrespondingGene:6506
+36543780	Negative_Correlation	MESH:D018698	RS#:886037942;HGVS:p.G82R;CorrespondingGene:6506
+36543780	Association	MESH:D004827	RS#:781379291;HGVS:p.P289R;CorrespondingGene:6506
+36543780	Association	MESH:D004827	RS#:886037943;HGVS:p.L85P;CorrespondingGene:6506
+36543780	Association	MESH:D004827	20511
+36543780	Association	MESH:D018698	20511
+36543780	Positive_Correlation	MESH:D018698	MESH:D004827
+36543780	Association	MESH:D004827	6506
+

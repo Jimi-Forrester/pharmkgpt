@@ -1,0 +1,21 @@
+39557970|t|Reinforcement learning model for optimizing dexmedetomidine dosing to prevent delirium in critically ill patients.
+39557970|a|Delirium can result in undesirable outcomes including increased length of stays and mortality in patients admitted to the intensive care unit (ICU). Dexmedetomidine has emerged for delirium prevention in these patients; however, optimal dosing is challenging. A reinforcement learning-based Artificial Intelligence model for Delirium prevention (AID) is proposed to optimize dexmedetomidine dosing. The model was developed and internally validated using 2416 patients (2531 ICU admissions) and externally validated on 270 patients (274 ICU admissions). The estimated performance return of the AID policy was higher than that of the clinicians' policy in both derivation (0.390 95% confidence interval [CI] 0.361 to 0.420 vs. -0.051 95% CI -0.077 to -0.025) and external validation (0.186 95% CI 0.139 to 0.236 vs. -0.436 95% CI -0.474 to -0.402) cohorts. Our finding indicates that AID might support clinicians' decision-making regarding dexmedetomidine dosing to prevent delirium in ICU patients, but further off-policy evaluation is required.
+39557970	44	59	dexmedetomidine	Chemical	MESH:D020927
+39557970	78	86	delirium	Disease	MESH:D003693
+39557970	90	104	critically ill	Disease	MESH:D016638
+39557970	105	113	patients	Species	9606
+39557970	115	123	Delirium	Disease	MESH:D003693
+39557970	212	220	patients	Species	9606
+39557970	264	279	Dexmedetomidine	Chemical	MESH:D020927
+39557970	296	304	delirium	Disease	MESH:D003693
+39557970	325	333	patients	Species	9606
+39557970	440	448	Delirium	Disease	MESH:D003693
+39557970	490	505	dexmedetomidine	Chemical	MESH:D020927
+39557970	574	582	patients	Species	9606
+39557970	637	645	patients	Species	9606
+39557970	1053	1068	dexmedetomidine	Chemical	MESH:D020927
+39557970	1087	1095	delirium	Disease	MESH:D003693
+39557970	1103	1111	patients	Species	9606
+39557970	Negative_Correlation	MESH:D020927	MESH:D016638
+39557970	Negative_Correlation	MESH:D020927	MESH:D003693
+

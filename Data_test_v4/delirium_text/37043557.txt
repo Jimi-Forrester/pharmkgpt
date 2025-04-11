@@ -1,0 +1,69 @@
+37043557|t|A prolyl oligopeptidase inhibitor reduces tau pathology in cellular models and in mice with tauopathy.
+37043557|a|Tauopathies are neurodegenerative diseases that are characterized by accumulation of hyperphosphorylated tau protein, higher-order aggregates, and tau filaments. Protein phosphatase 2A (PP2A) is a major tau dephosphorylating phosphatase, and a decrease in its activity has been demonstrated in tauopathies, including Alzheimer's disease. Prolyl oligopeptidase is a serine protease that is associated with neurodegeneration, and its inhibition normalizes PP2A activity without toxicity under pathological conditions. Here, we assessed whether prolyl oligopeptidase inhibition could protect against tau-mediated toxicity in cellular models in vitro and in the PS19 transgenic mouse model of tauopathy carrying the human tau-P301S mutation. We show that inhibition of prolyl oligopeptidase with the inhibitor KYP-2047 reduced tau aggregation in tau-transfected HEK-293 cells and N2A cells as well as in human iPSC-derived neurons carrying either the P301L or tau-A152T mutation. Treatment with KYP-2047 resulted in increased PP2A activity and activation of autophagic flux in HEK-293 cells and N2A cells and in patient-derived iNeurons, as indicated by changes in autophagosome and autophagy receptor markers; this contributed to clearance of insoluble tau. Furthermore, treatment of PS19 transgenic mice for 1 month with KYP-2047 reduced tau burden in the brain and cerebrospinal fluid and slowed cognitive decline according to several behavioral tests. In addition, a reduction in an oxidative stress marker was seen in mouse brains after KYP-2047 treatment. This study suggests that inhibition of prolyl oligopeptidase could help to ameliorate tau-dependent neurodegeneration.
+37043557	2	23	prolyl oligopeptidase	Gene	19072
+37043557	42	45	tau	Gene	4137
+37043557	82	86	mice	Species	10090
+37043557	92	101	tauopathy	Disease	MESH:D024801
+37043557	103	114	Tauopathies	Disease	MESH:D024801
+37043557	119	145	neurodegenerative diseases	Disease	MESH:D019636
+37043557	208	211	tau	Gene	4137
+37043557	250	253	tau	Gene	4137
+37043557	289	293	PP2A	Gene	19052
+37043557	306	309	tau	Gene	4137
+37043557	397	408	tauopathies	Disease	MESH:D024801
+37043557	420	439	Alzheimer's disease	Disease	MESH:D000544
+37043557	441	462	Prolyl oligopeptidase	Gene	19072
+37043557	508	525	neurodegeneration	Disease	MESH:D019636
+37043557	557	561	PP2A	Gene	19052
+37043557	579	587	toxicity	Disease	MESH:D064420
+37043557	645	666	prolyl oligopeptidase	Gene	5550
+37043557	700	703	tau	Gene	4137
+37043557	713	721	toxicity	Disease	MESH:D064420
+37043557	777	782	mouse	Species	10090
+37043557	792	801	tauopathy	Disease	MESH:D024801
+37043557	815	820	human	Species	9606
+37043557	821	824	tau	Gene	4137
+37043557	825	830	P301S	ProteinMutation	tmVar:p|SUB|P|301|S;HGVS:p.P301S;VariantGroup:0;CorrespondingGene:4137;RS#:63751438;CorrespondingSpecies:9606;CA#:225439
+37043557	868	889	prolyl oligopeptidase	Gene	5550
+37043557	909	917	KYP-2047	Chemical	MESH:C551540
+37043557	926	929	tau	Gene	4137
+37043557	945	948	tau	Gene	4137
+37043557	961	968	HEK-293	CellLine	CVCL:0045
+37043557	979	982	N2A	CellLine	CVCL:0470
+37043557	1003	1008	human	Species	9606
+37043557	1050	1055	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:2;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+37043557	1059	1062	tau	Gene	4137
+37043557	1063	1068	A152T	ProteinMutation	tmVar:p|SUB|A|152|T;HGVS:p.A152T;VariantGroup:1;CorrespondingGene:4137;RS#:143624519;CorrespondingSpecies:9606;CA#:8617962
+37043557	1094	1102	KYP-2047	Chemical	MESH:C551540
+37043557	1125	1129	PP2A	Gene	5524
+37043557	1176	1183	HEK-293	CellLine	CVCL:0045
+37043557	1194	1197	N2A	CellLine	CVCL:0470
+37043557	1211	1218	patient	Species	9606
+37043557	1353	1356	tau	Gene	4137
+37043557	1400	1404	mice	Species	10090
+37043557	1422	1430	KYP-2047	Chemical	MESH:C551540
+37043557	1439	1442	tau	Gene	4137
+37043557	1498	1515	cognitive decline	Disease	MESH:D003072
+37043557	1622	1627	mouse	Species	10090
+37043557	1641	1649	KYP-2047	Chemical	MESH:C551540
+37043557	1700	1721	prolyl oligopeptidase	Gene	5550
+37043557	1747	1750	tau	Gene	4137
+37043557	1761	1778	neurodegeneration	Disease	MESH:D019636
+37043557	Negative_Correlation	MESH:C551540	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+37043557	Association	MESH:D064420	4137
+37043557	Negative_Correlation	MESH:D000544	19052
+37043557	Negative_Correlation	MESH:C551540	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+37043557	Positive_Correlation	MESH:D024801	RS#:63751438;HGVS:p.P301S;CorrespondingGene:4137
+37043557	Association	MESH:D019636	4137
+37043557	Association	19052	4137
+37043557	Positive_Correlation	MESH:C551540	5524
+37043557	Negative_Correlation	MESH:C551540	5550
+37043557	Negative_Correlation	MESH:D024801	19052
+37043557	Association	MESH:D019636	5550
+37043557	Association	MESH:D024801	4137
+37043557	Negative_Correlation	MESH:C551540	MESH:D003072
+37043557	Association	19052	19072
+37043557	Association	MESH:D019636	19072
+37043557	Association	4137	5550
+37043557	Negative_Correlation	MESH:C551540	4137
+

@@ -1,0 +1,25 @@
+21965601|t|Disease-related amyloidogenic variants of human lysozyme trigger the unfolded protein response and disturb eye development in Drosophila melanogaster.
+21965601|a|We have created a Drosophila model of lysozyme amyloidosis to investigate the in vivo behavior of disease-associated variants. To achieve this objective, wild-type (WT) protein and the amyloidogenic variants F57I and D67H were expressed in Drosophila melanogaster using the UAS-gal4 system and both the ubiquitous and retinal expression drivers Act5C-gal4 and gmr-gal4. The nontransgenic w(1118) Drosophila line was used as a control throughout. We utilized ELISA experiments to probe lysozyme protein levels, scanning electron microscopy for eye phenotype classification, and immunohistochemistry to detect the unfolded protein response (UPR) activation. We observed that expressing the destabilized F57I and D67H lysozymes triggers UPR activation, resulting in degradation of these variants, whereas the WT lysozyme is secreted into the fly hemolymph. Indeed, the level of WT was up to 17 times more abundant than the variant proteins. In addition, the F57I variant gave rise to a significant disruption of the eye development, and this correlated to pronounced UPR activation. These results support the concept that the onset of familial amyloid disease is linked to an inability of the UPR to degrade completely the amyloidogenic lysozymes prior to secretion, resulting in secretion of these destabilized variants, thereby leading to deposition and associated organ damage.
+21965601	42	47	human	Species	9606
+21965601	48	56	lysozyme	Gene	4069
+21965601	126	149	Drosophila melanogaster	Species	7227
+21965601	169	179	Drosophila	Species	7227
+21965601	359	363	F57I	ProteinMutation	tmVar:p|SUB|F|57|I;HGVS:p.F57I;VariantGroup:1;CorrespondingGene:4069;CorrespondingSpecies:9606
+21965601	368	372	D67H	ProteinMutation	tmVar:p|SUB|D|67|H;HGVS:p.D67H;VariantGroup:0;CorrespondingGene:4069;RS#:387906535;CorrespondingSpecies:9606;CA#:123903
+21965601	391	414	Drosophila melanogaster	Species	7227
+21965601	496	501	Act5C	Gene	31521
+21965601	547	557	Drosophila	Species	7227
+21965601	636	644	lysozyme	Gene	4069
+21965601	852	856	F57I	ProteinMutation	tmVar:p|SUB|F|57|I;HGVS:p.F57I;VariantGroup:1;CorrespondingGene:4069;CorrespondingSpecies:9606
+21965601	861	865	D67H	ProteinMutation	tmVar:p|SUB|D|67|H;HGVS:p.D67H;VariantGroup:0;CorrespondingGene:4069;RS#:387906535;CorrespondingSpecies:9606;CA#:123903
+21965601	960	968	lysozyme	Gene	4069
+21965601	1106	1110	F57I	ProteinMutation	tmVar:p|SUB|F|57|I;HGVS:p.F57I;VariantGroup:1;CorrespondingGene:4069;CorrespondingSpecies:9606
+21965601	1283	1307	familial amyloid disease	Disease	MESH:D028227
+21965601	1515	1527	organ damage	Disease	MESH:D000092124
+21965601	Positive_Correlation	MESH:D028227	RS#:387906535;HGVS:p.D67H;CorrespondingGene:4069
+21965601	Positive_Correlation	MESH:D028227	HGVS:p.F57I;CorrespondingGene:4069
+21965601	Positive_Correlation	MESH:D000092124	RS#:387906535;HGVS:p.D67H;CorrespondingGene:4069
+21965601	Positive_Correlation	MESH:D000092124	HGVS:p.F57I;CorrespondingGene:4069
+21965601	Association	MESH:D028227	4069
+21965601	Association	MESH:D000092124	4069
+

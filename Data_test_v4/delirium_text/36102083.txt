@@ -1,0 +1,50 @@
+36102083|t|Neuropathological report of propionic acidemia.
+36102083|a|Propionic acidemia (PA) is an autosomal recessive inheritable metabolic disease caused by mutations in the propionyl CoA carboxylase gene (PCC) that affects multiple systems of the human body. Here, we report neuropathological findings of a PA patient. The patient was a male infant who presented with increasing lethargy and poor feeding from four days postpartum. He gradually became comatose and died from complications after liver transplantation at three months old. The results of laboratory examination were consistent with PA, and genetic analysis revealed compound heterozygous mutations in the gene for PCC subunit beta: c.838dupC (rs769968548) and c.1127G>T (rs142982097). Brain-restricted autopsy was performed 23 h after his death, and the neuropathological examination revealed distinct astrocytosis, oligodendrocytic loss, neuronal loss, and demyelination across the brainstem, motor cortex, basal ganglia, and thalamus. Spongiosis, vacuolization, and the appearance of Alzheimer type II astrocytes and activated microglia were observed as well. This is the first brain autopsy report of PA with a clear genetic cause.
+36102083	28	46	propionic acidemia	Disease	MESH:D056693
+36102083	48	66	Propionic acidemia	Disease	MESH:D056693
+36102083	68	70	PA	Disease	MESH:D056693
+36102083	110	127	metabolic disease	Disease	MESH:D008659
+36102083	229	234	human	Species	9606
+36102083	289	291	PA	Disease	MESH:D056693
+36102083	292	299	patient	Species	9606
+36102083	305	312	patient	Species	9606
+36102083	361	369	lethargy	Disease	MESH:D053609
+36102083	579	581	PA	Disease	MESH:D056693
+36102083	679	688	c.838dupC	DNAMutation	tmVar:c|DUP|838|C|;HGVS:c.838dupC;VariantGroup:0;CorrespondingGene:5096;RS#:769968548;CorrespondingSpecies:9606
+36102083	690	701	rs769968548	SNP	tmVar:rs769968548;VariantGroup:0;CorrespondingGene:5096;RS#:769968548;CorrespondingSpecies:9606
+36102083	707	716	c.1127G>T	DNAMutation	tmVar:c|SUB|G|1127|T;HGVS:c.1127G>T;VariantGroup:1;CorrespondingGene:5096;RS#:142982097;CorrespondingSpecies:9606
+36102083	718	729	rs142982097	SNP	tmVar:rs142982097;VariantGroup:1;CorrespondingGene:5096;RS#:142982097;CorrespondingSpecies:9606
+36102083	849	861	astrocytosis	Disease	MESH:D005911
+36102083	880	884	loss	Disease	MESH:D016388
+36102083	886	899	neuronal loss	Disease	MESH:D009410
+36102083	905	918	demyelination	Disease	MESH:D003711
+36102083	984	994	Spongiosis	Disease	
+36102083	1033	1050	Alzheimer type II	Disease	MESH:C536598
+36102083	1151	1153	PA	Disease	MESH:D056693
+36102083	Positive_Correlation	MESH:D056693	RS#:769968548;HGVS:c.838dupC;CorrespondingGene:5096
+36102083	Positive_Correlation	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096	MESH:D056693
+36102083	Association	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096
+36102083	Positive_Correlation	MESH:D009410	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096
+36102083	Positive_Correlation	MESH:D005911	RS#:769968548;HGVS:c.838dupC;CorrespondingGene:5096
+36102083	Positive_Correlation	MESH:D005911	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096
+36102083	Positive_Correlation	RS#:769968548;HGVS:c.838dupC;CorrespondingGene:5096	MESH:C536598
+36102083	Association	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096	RS#:769968548;CorrespondingGene:5096
+36102083	Association	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096	RS#:142982097;CorrespondingGene:5096
+36102083	Positive_Correlation	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096	MESH:D003711
+36102083	Association	MESH:D056693	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096
+36102083	Association	MESH:D056693	RS#:142982097;CorrespondingGene:5096
+36102083	Association	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096
+36102083	Positive_Correlation	RS#:769968548;HGVS:c.838dupC;CorrespondingGene:5096	MESH:D003711
+36102083	Positive_Correlation	MESH:D003711	RS#:142982097;CorrespondingGene:5096
+36102083	Association	MESH:C536598	RS#:142982097;CorrespondingGene:5096
+36102083	Positive_Correlation	MESH:D009410	RS#:142982097;CorrespondingGene:5096
+36102083	Association	RS#:142982097;HGVS:c.1127G>T;CorrespondingGene:5096	MESH:C536598
+36102083	Positive_Correlation	RS#:769968548;HGVS:c.838dupC;CorrespondingGene:5096	MESH:D056693
+36102083	Association	MESH:C536598	RS#:769968548;CorrespondingGene:5096
+36102083	Positive_Correlation	MESH:D056693	RS#:769968548;CorrespondingGene:5096
+36102083	Association	MESH:D056693	5096
+36102083	Association	MESH:D009410	5096
+36102083	Association	MESH:D005911	5096
+36102083	Association	MESH:C536598	5096
+36102083	Association	MESH:D003711	5096
+

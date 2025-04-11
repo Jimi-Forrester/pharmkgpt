@@ -1,0 +1,32 @@
+31491832|t|Cortical graph neural network for AD and MCI diagnosis and transfer learning across populations.
+31491832|a|Combining machine learning with neuroimaging data has a great potential for early diagnosis of mild cognitive impairment (MCI) and Alzheimer's disease (AD). However, it remains unclear how well the classifiers built on one population can predict MCI/AD diagnosis of other populations. This study aimed to employ a spectral graph convolutional neural network (graph-CNN), that incorporated cortical thickness and geometry, to identify MCI and AD based on 3089 T1-weighted MRI data of the ADNI-2 cohort, and to evaluate its feasibility to predict AD in the ADNI-1 cohort (n = 3602) and an Asian cohort (n = 347). For the ADNI-2 cohort, the graph-CNN showed classification accuracy of controls (CN) vs. AD at 85.8% and early MCI (EMCI) vs. AD at 79.2%, followed by CN vs. late MCI (LMCI) (69.3%), LMCI vs. AD (65.2%), EMCI vs. LMCI (60.9%), and CN vs. EMCI (51.8%). We demonstrated the robustness of the graph-CNN among the existing deep learning approaches, such as Euclidean-domain-based multilayer network and 1D CNN on cortical thickness, and 2D and 3D CNNs on T1-weighted MR images of the ADNI-2 cohort. The graph-CNN also achieved the prediction on the conversion of EMCI to AD at 75% and that of LMCI to AD at 92%. The find-tuned graph-CNN further provided a promising CN vs. AD classification accuracy of 89.4% on the ADNI-1 cohort and >90% on the Asian cohort. Our study demonstrated the feasibility to transfer AD/MCI classifiers learned from one population to the other. Notably, incorporating cortical geometry in CNN has the potential to improve classification performance.
+31491832	34	36	AD	Disease	MESH:D000544
+31491832	41	44	MCI	Disease	MESH:D060825
+31491832	197	217	cognitive impairment	Disease	MESH:D003072
+31491832	219	222	MCI	Disease	MESH:D060825
+31491832	228	247	Alzheimer's disease	Disease	MESH:D000544
+31491832	249	251	AD	Disease	MESH:D000544
+31491832	343	346	MCI	Disease	MESH:D060825
+31491832	347	349	AD	Disease	MESH:D000544
+31491832	531	534	MCI	Disease	MESH:D060825
+31491832	539	541	AD	Disease	MESH:D000544
+31491832	642	644	AD	Disease	MESH:D000544
+31491832	797	799	AD	Disease	MESH:D000544
+31491832	819	822	MCI	Disease	MESH:D060825
+31491832	824	828	EMCI	Disease	MESH:D060825
+31491832	834	836	AD	Disease	MESH:D000544
+31491832	871	874	MCI	Disease	MESH:D060825
+31491832	876	880	LMCI	Disease	MESH:D060825
+31491832	891	895	LMCI	Disease	MESH:D060825
+31491832	900	902	AD	Disease	MESH:D000544
+31491832	912	916	EMCI	Disease	MESH:D060825
+31491832	921	925	LMCI	Disease	MESH:D060825
+31491832	946	950	EMCI	Disease	MESH:D060825
+31491832	1267	1271	EMCI	Disease	MESH:D060825
+31491832	1275	1277	AD	Disease	MESH:D000544
+31491832	1297	1301	LMCI	Disease	MESH:D060825
+31491832	1305	1307	AD	Disease	MESH:D000544
+31491832	1377	1379	AD	Disease	MESH:D000544
+31491832	1515	1517	AD	Disease	MESH:D000544
+31491832	1518	1521	MCI	Disease	MESH:D060825
+

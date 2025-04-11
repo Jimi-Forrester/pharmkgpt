@@ -1,0 +1,10 @@
+38135170|t|Mapping general anesthesia states based on electro-encephalogram transition phases.
+38135170|a|Cortical electro-encephalography (EEG) served as the clinical reference for monitoring unconsciousness during general anesthesia. The existing EEG-based monitors classified general anesthesia states as underdosed, adequate, or overdosed, lacking predictive power due to the absence of transition phases among these states. In response to this limitation, we undertook an analysis of the EEG signal during isoflurane-induced general anesthesia in mice. Adopting a data-driven approach, we applied signal processing techniques to track theta- and delta-band dynamics, along with iso-electric suppressions. Combining this approach with machine learning, we successfully developed an automated algorithm. The findings of our study revealed that the dampening of the delta-band occurred several minutes before the onset of significant iso-electric suppression episodes. Furthermore, a distinct gamma-frequency oscillation was observed, persisting for several minutes during the recovery phase subsequent to isoflurane-induced overdose. As a result of our research, we generated a map summarizing multiple brain states and their transitions, offering a tool for predicting and preventing overdose during general anesthesia. The transition phases identified, along with the developed algorithm, have the potential to be generalized, enabling clinicians to prevent inadequate anesthesia and, consequently, tailor anesthetic regimens to individual patients.
+38135170	489	499	isoflurane	Chemical	MESH:D007530
+38135170	530	534	mice	Species	10090
+38135170	1086	1096	isoflurane	Chemical	MESH:D007530
+38135170	1105	1113	overdose	Disease	MESH:D062787
+38135170	1266	1274	overdose	Disease	MESH:D062787
+38135170	1523	1531	patients	Species	9606
+38135170	Positive_Correlation	MESH:D007530	MESH:D062787
+

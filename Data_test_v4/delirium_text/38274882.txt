@@ -1,0 +1,15 @@
+38274882|t|Random forest algorithm for predicting postoperative delirium in older patients.
+38274882|a|Objective: In this study, we were aimed to identify important variables via machine learning algorithms and predict postoperative delirium (POD) occurrence in older patients. Methods: This study was to make the secondary analysis of data from a randomized controlled trial. The Boruta function was used to screen relevant basic characteristic variables. Four models including Logistic Regression (LR), K-Nearest Neighbor (KNN), the Classification and Regression Tree (CART), and Random Forest (RF) were established from the data set using repeated cross validation, hyper-parameter optimization, and Smote technique (Synthetic minority over-sampling technique, Smote), with the calculation of confusion matrix parameters and the plotting of Receiver operating characteristic curve (ROC), Precision recall curve (PRC), and partial dependence graph for further analysis and evaluation. Results: The basic characteristic variables resulting from Boruta screening included grouping, preoperative Mini-Mental State Examination(MMSE), CHARLSON score, preoperative HCT, preoperative serum creatinine, intraoperative bleeding volume, intraoperative urine volume, anesthesia duration, operation duration, postoperative morphine dosage, intensive care unit (ICU) duration, tracheal intubation duration, and 7-day postoperative rest and move pain score (median and max; VAS-Rest-M, VAS-Move-M, VAS-Rest-Max, and VAS-Move-Max). And Random Forest (RF) showed the best performance in the testing set among the 4 models with Accuracy: 0.9878; Matthews correlation coefficient (MCC): 0.8763; Area under ROC curve (AUC-ROC): 1.0; Area under the PRC Curve (AUC-PRC): 1.0. Conclusion: A high-performance algorithm was established and verified in this study demonstrating the degree of POD risk changes in perioperative elderly patients. And the major risk factors for the development of POD were CREA and VAS-Move-Max.
+38274882	39	61	postoperative delirium	Disease	MESH:D000071257
+38274882	71	79	patients	Species	9606
+38274882	197	219	postoperative delirium	Disease	MESH:D000071257
+38274882	221	224	POD	Disease	MESH:D000071257
+38274882	246	254	patients	Species	9606
+38274882	1163	1173	creatinine	Chemical	MESH:D003404
+38274882	1190	1198	bleeding	Disease	MESH:D006470
+38274882	1291	1299	morphine	Chemical	MESH:D009020
+38274882	1398	1416	rest and move pain	Disease	MESH:D010146
+38274882	1847	1850	POD	Disease	MESH:D000071257
+38274882	1889	1897	patients	Species	9606
+38274882	1949	1952	POD	Disease	MESH:D000071257
+

@@ -1,0 +1,11 @@
+35183061|t|Deep learning-based identification of genetic variants: application to Alzheimer's disease classification.
+35183061|a|Deep learning is a promising tool that uses nonlinear transformations to extract features from high-dimensional data. Deep learning is challenging in genome-wide association studies (GWAS) with high-dimensional genomic data. Here we propose a novel three-step approach (SWAT-CNN) for identification of genetic variants using deep learning to identify phenotype-related single nucleotide polymorphisms (SNPs) that can be applied to develop accurate disease classification models. In the first step, we divided the whole genome into nonoverlapping fragments of an optimal size and then ran convolutional neural network (CNN) on each fragment to select phenotype-associated fragments. In the second step, using a Sliding Window Association Test (SWAT), we ran CNN on the selected fragments to calculate phenotype influence scores (PIS) and identify phenotype-associated SNPs based on PIS. In the third step, we ran CNN on all identified SNPs to develop a classification model. We tested our approach using GWAS data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) including (N = 981; cognitively normal older adults (CN) = 650 and AD = 331). Our approach identified the well-known APOE region as the most significant genetic locus for AD. Our classification model achieved an area under the curve (AUC) of 0.82, which was compatible with traditional machine learning approaches, random forest and XGBoost. SWAT-CNN, a novel deep learning-based genome-wide approach, identified AD-associated SNPs and a classification model for AD and may hold promise for a range of biomedical applications.
+35183061	71	90	Alzheimer's disease	Disease	MESH:D000544
+35183061	1129	1148	Alzheimer's Disease	Disease	MESH:D000544
+35183061	1247	1249	AD	Disease	MESH:D000544
+35183061	1297	1301	APOE	Gene	348
+35183061	1351	1353	AD	Disease	MESH:D000544
+35183061	1593	1595	AD	Disease	MESH:D000544
+35183061	1643	1645	AD	Disease	MESH:D000544
+35183061	Association	MESH:D000544	348
+

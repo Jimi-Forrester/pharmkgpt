@@ -1,0 +1,32 @@
+38419811|t|Protective Effects of Red Ginseng Against Tacrine-Induced Hepatotoxicity: An Integrated Approach with Network Pharmacology and Experimental Validation.
+38419811|a|Introduction: Tacrine, an FDA-approved acetylcholinesterase inhibitor, has shown efficacy in treating Alzheimer's disease, but its clinical use is limited by hepatotoxicity. This study investigates the protective effects of red ginseng against tacrine-induced hepatotoxicity, focusing on oxidative stress. Methods: A network depicting the interaction between compounds and targets was constructed for RG. Effect of RG was determined by MTT and FACS analysis with cells stained by rhodamine 123. Proteins were extracted and subjected to immunoblotting for apoptosis-related proteins. Results: The outcomes of the network analysis revealed a significant association, with 20 out of 82 identified primary RG targets aligning with those involved in oxidative liver damage including notable interactions within the AMPK pathway. in vitro experiments showed that RG, particularly at 1000mug/mL, mitigated tacrine-induced apoptosis and mitochondrial damage, while activating the LKB1-mediated AMPK pathway and Hippo-Yap signaling. In mice, RG also protected the liver injury induced by tacrine, as similar protective effects to silymarin, a well-known drug for liver toxicity protection. Discussion: Our study reveals the potential of RG in mitigating tacrine-induced hepatotoxicity, suggesting the administration of natural products like RG to reduce toxicity in Alzheimer's disease treatment.
+38419811	42	49	Tacrine	Chemical	MESH:D013619
+38419811	58	72	Hepatotoxicity	Disease	
+38419811	166	173	Tacrine	Chemical	MESH:D013619
+38419811	191	211	acetylcholinesterase	Gene	11423
+38419811	254	273	Alzheimer's disease	Disease	MESH:D000544
+38419811	310	324	hepatotoxicity	Disease	
+38419811	396	403	tacrine	Chemical	MESH:D013619
+38419811	412	426	hepatotoxicity	Disease	
+38419811	588	591	MTT	Chemical	MESH:C070243
+38419811	632	645	rhodamine 123	Chemical	MESH:D020112
+38419811	907	919	liver damage	Disease	MESH:D056486
+38419811	1051	1058	tacrine	Chemical	MESH:D013619
+38419811	1081	1101	mitochondrial damage	Disease	MESH:D028361
+38419811	1161	1164	Yap	Gene	22601
+38419811	1179	1183	mice	Species	10090
+38419811	1207	1219	liver injury	Disease	MESH:D017093
+38419811	1231	1238	tacrine	Chemical	MESH:D013619
+38419811	1273	1282	silymarin	Chemical	MESH:D012838
+38419811	1306	1320	liver toxicity	Disease	MESH:D056486
+38419811	1397	1404	tacrine	Chemical	MESH:D013619
+38419811	1413	1427	hepatotoxicity	Disease	
+38419811	1497	1505	toxicity	Disease	MESH:D064420
+38419811	1509	1528	Alzheimer's disease	Disease	MESH:D000544
+38419811	Positive_Correlation	MESH:D013619	MESH:D028361
+38419811	Negative_Correlation	MESH:D013619	MESH:D000544
+38419811	Positive_Correlation	MESH:D013619	MESH:D017093
+38419811	Negative_Correlation	MESH:D012838	MESH:D017093
+38419811	Negative_Correlation	MESH:D013619	11423
+38419811	Negative_Correlation	MESH:D012838	MESH:D056486
+

@@ -1,0 +1,20 @@
+22654671|t|Knowledge-driven analysis identifies a gene-gene interaction affecting high-density lipoprotein cholesterol levels in multi-ethnic populations.
+22654671|a|Total cholesterol, low-density lipoprotein cholesterol, triglyceride, and high-density lipoprotein cholesterol (HDL-C) levels are among the most important risk factors for coronary artery disease. We tested for gene-gene interactions affecting the level of these four lipids based on prior knowledge of established genome-wide association study (GWAS) hits, protein-protein interactions, and pathway information. Using genotype data from 9,713 European Americans from the Atherosclerosis Risk in Communities (ARIC) study, we identified an interaction between HMGCR and a locus near LIPC in their effect on HDL-C levels (Bonferroni corrected P(c) = 0.002). Using an adaptive locus-based validation procedure, we successfully validated this gene-gene interaction in the European American cohorts from the Framingham Heart Study (P(c) = 0.002) and the Multi-Ethnic Study of Atherosclerosis (MESA; P(c) = 0.006). The interaction between these two loci is also significant in the African American sample from ARIC (P(c) = 0.004) and in the Hispanic American sample from MESA (P(c) = 0.04). Both HMGCR and LIPC are involved in the metabolism of lipids, and genome-wide association studies have previously identified LIPC as associated with levels of HDL-C. However, the effect on HDL-C of the novel gene-gene interaction reported here is twice as pronounced as that predicted by the sum of the marginal effects of the two loci. In conclusion, based on a knowledge-driven analysis of epistasis, together with a new locus-based validation method, we successfully identified and validated an interaction affecting a complex trait in multi-ethnic populations.
+22654671	150	161	cholesterol	Chemical	MESH:D002784
+22654671	200	212	triglyceride	Chemical	MESH:D014280
+22654671	316	339	coronary artery disease	Disease	MESH:D003324
+22654671	412	418	lipids	Chemical	MESH:D008055
+22654671	616	631	Atherosclerosis	Disease	MESH:D050197
+22654671	703	708	HMGCR	Gene	3156
+22654671	726	730	LIPC	Gene	3990
+22654671	1015	1030	Atherosclerosis	Disease	MESH:D050197
+22654671	1234	1239	HMGCR	Gene	3156
+22654671	1244	1248	LIPC	Gene	3990
+22654671	1283	1289	lipids	Chemical	MESH:D008055
+22654671	1354	1358	LIPC	Gene	3990
+22654671	Association	3156	3990
+22654671	Positive_Correlation	MESH:D014280	MESH:D003324
+22654671	Positive_Correlation	MESH:D002784	MESH:D003324
+22654671	Association	MESH:D008055	3156
+22654671	Association	MESH:D008055	3990
+

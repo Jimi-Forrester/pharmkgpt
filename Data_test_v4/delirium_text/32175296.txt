@@ -1,0 +1,43 @@
+32175296|t|A Missense Mutation in the UGDH Gene Is Associated With Developmental Delay and Axial Hypotonia.
+32175296|a|UDP-glucose dehydrogenase (UGDH) encodes an oxidoreductase that converts two successive oxidations of UDP-glucose to produce UDP-glucuronic acid, a key component in the synthesis of several polysaccharides such as glycosaminoglycan and the disaccharide hyaluronic acid. UGDH is critical to the production of extracellular matrix components which are essential to the migration and connectivity of neurons early in human brain development. In this report, we describe one child of a consanguineous family who presented with distinct clinical features including global developmental delay, axial hypotonia, bilateral undescended testis, and subtle dysmorphic features. Whole genome sequencing and a segregation was performed to identify the genetic cause of the disease within the family. Though mutations in the UGDH protein have been described as causing developmental delay in various model organisms, to our knowledge, this is the first identification of the novel homozygous missense variant in exon8 of UGDH NM_003359.3: c.950 G>A (p.Arg317Gln) and most likely the cause of the patient's phenotype. This variant falls in an active region and replaces the highly conserved Arginine 317 residues across mammals.
+32175296	27	31	UGDH	Gene	7358
+32175296	56	75	Developmental Delay	Disease	MESH:D002658
+32175296	80	95	Axial Hypotonia	Disease	MESH:D009123
+32175296	97	122	UDP-glucose dehydrogenase	Gene	7358
+32175296	124	128	UGDH	Gene	7358
+32175296	199	210	UDP-glucose	Chemical	MESH:D014532
+32175296	222	241	UDP-glucuronic acid	Chemical	MESH:D014535
+32175296	311	328	glycosaminoglycan	Chemical	MESH:D006025
+32175296	337	349	disaccharide	Chemical	MESH:D004187
+32175296	350	365	hyaluronic acid	Chemical	MESH:D006820
+32175296	367	371	UGDH	Gene	7358
+32175296	511	516	human	Species	9606
+32175296	664	683	developmental delay	Disease	MESH:D002658
+32175296	685	700	axial hypotonia	Disease	MESH:D009123
+32175296	712	730	undescended testis	Disease	MESH:D003456
+32175296	743	762	dysmorphic features	Disease	MESH:D000013
+32175296	908	912	UGDH	Gene	7358
+32175296	952	971	developmental delay	Disease	MESH:D002658
+32175296	1104	1108	UGDH	Gene	7358
+32175296	1109	1120	NM_003359.3	Species	
+32175296	1122	1131	c.950 G>A	DNAMutation	tmVar:c|SUB|G|950|A;HGVS:c.950G>A;VariantGroup:0;CorrespondingGene:7358;RS#:775162839;CorrespondingSpecies:9606;CA#:2895036
+32175296	1133	1144	p.Arg317Gln	ProteinMutation	tmVar:p|SUB|R|317|Q;HGVS:p.R317Q;VariantGroup:0;CorrespondingGene:7358;RS#:775162839;CorrespondingSpecies:9606;CA#:2895036
+32175296	1179	1186	patient	Species	9606
+32175296	1273	1285	Arginine 317	ProteinMutation	tmVar:p|Allele|R|317;VariantGroup:0;CorrespondingGene:7358;RS#:775162839;CorrespondingSpecies:9606
+32175296	Positive_Correlation	MESH:D002658	RS#:775162839;HGVS:p.R317Q;CorrespondingGene:7358
+32175296	Association	RS#:775162839;HGVS:c.950G>A;CorrespondingGene:7358	MESH:D009123
+32175296	Association	MESH:D009123	RS#:775162839;HGVS:p.R317Q;CorrespondingGene:7358
+32175296	Positive_Correlation	RS#:775162839;HGVS:c.950G>A;CorrespondingGene:7358	MESH:D002658
+32175296	Association	MESH:D009123	RS#:775162839;HGVS:c.950G>A;CorrespondingGene:7358
+32175296	Association	MESH:D014532	MESH:D014535
+32175296	Association	MESH:D009123	RS#:775162839;CorrespondingGene:7358
+32175296	Positive_Correlation	MESH:D002658	RS#:775162839;HGVS:c.950G>A;CorrespondingGene:7358
+32175296	Association	MESH:D006820	MESH:D014535
+32175296	Association	MESH:D002658	7358
+32175296	Association	MESH:D009123	7358
+32175296	Association	MESH:D006025	MESH:D014535
+32175296	Association	MESH:D002658	RS#:775162839;CorrespondingGene:7358
+32175296	Association	MESH:D006820	7358
+32175296	Association	MESH:D002658	7358
+32175296	Association	MESH:D009123	7358
+

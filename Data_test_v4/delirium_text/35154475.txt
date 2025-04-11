@@ -1,0 +1,40 @@
+35154475|t|Single-cell RNA landscape of the osteoimmunology microenvironment in periodontitis.
+35154475|a|Single-cell RNA sequencing (scRNA-seq) enables specific profiling of cell populations at single-cell resolution. The osteoimmunology microenvironment in the occurrence and development of periodontitis remains poorly understood at the single-cell level. In this study, we used single-cell transcriptomics to comprehensively reveal the complexities of the molecular components and differences with counterparts residing in periodontal tissues. Methods: We performed scRNA-seq to identify 51248 single cells from healthy controls (n=4), patients with severe chronic periodontitis (n=5), and patients with severe chronic periodontitis after initial periodontal therapy within 1 month (n=3). Uniform manifold approximation and projection (UMAP) were further conducted to explore the cellular composition of periodontal tissues. Pseudotime cell trajectory and RNA velocity analysis, combined with gene enrichment analysis were used to reveal the molecular pathways underlying cell fate decisions. CellPhoneDB were performed to identify ligand-receptor pairs among the major cell types in the osteoimmunology microenvironment of periodontal tissues. Results: A cell atlas of the osteoimmunology microenvironment in periodontal tissues was characterized and included ten major cell types, such as fibroblasts, monocytic cells, endothelial cells, and T and B cells. The enrichment of TNFRSF21+ fibroblasts with high expression of CXCL1, CXCL2, CXCL5, CXCL6, CXCL13, and IL24 was detected in patients with periodontitis compared to healthy individuals. The fractions of CD55+ mesenchymal stem cells (MSCs), APOE+ pre-osteoblasts (pre-OBs), and IBSP+ osteoblasts decreased significantly in response to initial periodontal therapy. In addition, CXCL12+ MSC-like pericytes could convert their identity into a pre-OB state during inflammatory responses even after initial periodontal therapy confirmed by single-cell trajectory. Moreover, we portrayed the distinct subtypes of monocytic cells and abundant endothelial cells significantly involved in the immune response. The heterogeneity of T and B cells in periodontal tissues was characterized. Finally, we mapped osteoblast/osteoclast differentiation mediators to their source cell populations by identifying ligand-receptor pairs and highlighted the effects of Ephrin-Eph signaling on bone regeneration after initial periodontal therapy. Conclusions: Our analyses uncovered striking spatiotemporal dynamics in gene expression, population composition, and cell-cell interactions during periodontitis progression. These findings provide insights into the cellular and molecular underpinning of periodontal bone regeneration.
+35154475	69	82	periodontitis	Disease	MESH:D010518
+35154475	271	284	periodontitis	Disease	MESH:D010518
+35154475	618	626	patients	Species	9606
+35154475	639	660	chronic periodontitis	Disease	MESH:D055113
+35154475	672	680	patients	Species	9606
+35154475	693	714	chronic periodontitis	Disease	MESH:D055113
+35154475	1459	1467	TNFRSF21	Gene	27242
+35154475	1505	1510	CXCL1	Gene	2919
+35154475	1512	1517	CXCL2	Gene	2920
+35154475	1519	1524	CXCL5	Gene	6374
+35154475	1526	1531	CXCL6	Gene	6372
+35154475	1533	1539	CXCL13	Gene	10563
+35154475	1545	1549	IL24	Gene	11009
+35154475	1566	1574	patients	Species	9606
+35154475	1580	1593	periodontitis	Disease	MESH:D010518
+35154475	1644	1648	CD55	Gene	1604
+35154475	1681	1685	APOE	Gene	348
+35154475	1718	1722	IBSP	Gene	3381
+35154475	1817	1823	CXCL12	Gene	6387
+35154475	1884	1886	OB	Disease	
+35154475	1900	1912	inflammatory	Disease	MESH:D007249
+35154475	2393	2396	Eph	Gene	2041
+35154475	2610	2623	periodontitis	Disease	MESH:D010518
+35154475	Association	MESH:D010518	27242
+35154475	Association	27242	2920
+35154475	Association	MESH:D010518	10563
+35154475	Association	11009	27242
+35154475	Association	10563	27242
+35154475	Association	MESH:D010518	2920
+35154475	Positive_Correlation	MESH:D010518	2919
+35154475	Association	MESH:D010518	6372
+35154475	Association	27242	2919
+35154475	Association	MESH:D010518	11009
+35154475	Association	27242	6372
+35154475	Association	MESH:D010518	6374
+35154475	Association	27242	6374
+35154475	Association	MESH:D007249	6387
+

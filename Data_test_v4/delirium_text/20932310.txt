@@ -1,0 +1,43 @@
+20932310|t|Genome-wide association reveals genetic effects on human Abeta42 and tau protein levels in cerebrospinal fluids: a case control study.
+20932310|a|BACKGROUND: Alzheimer's disease (AD) is common and highly heritable with many genes and gene variants associated with AD in one or more studies, including APOE epsilon2/epsilon3/epsilon4. However, the genetic backgrounds for normal cognition, mild cognitive impairment (MCI) and AD in terms of changes in cerebrospinal fluid (CSF) levels of Abeta1-42, T-tau, and P-tau181P, have not been clearly delineated. We carried out a genome-wide association study (GWAS) in order to better define the genetic backgrounds to these three states in relation to CSF levels. METHODS: Subjects were participants in the Alzheimer's Disease Neuroimaging Initiative (ADNI). The GWAS dataset consisted of 818 participants (mainly Caucasian) genotyped using the Illumina Human Genome 610 Quad BeadChips. This sample included 410 subjects (119 Normal, 115 MCI and 176 AD) with measurements of CSF Abeta1-42, T-tau, and P-tau181P Levels. We used PLINK to find genetic associations with the three CSF biomarker levels. Association of each of the 498,205 SNPs was tested using additive, dominant, and general association models while considering APOE genotype and age. Finally, an effort was made to better identify relevant biochemical pathways for associated genes using the ALIGATOR software. RESULTS: We found that there were some associations with APOE genotype although CSF levels were about the same for each subject group; CSF Abeta1-42 levels decreased with APOE gene dose for each subject group. T-tau levels tended to be higher among AD cases than among normal subjects. From adjusted result using APOE genotype and age as covariates, no SNP was associated with CSF levels among AD subjects. CYP19A1 'aromatase' (rs2899472), NCAM2, and multiple SNPs located on chromosome 10 near the ARL5B gene demonstrated the strongest associations with Abeta1-42 in normal subjects. Two genes found to be near the top SNPs, CYP19A1 (rs2899472, p = 1.90 x 10(-7)) and NCAM2 (rs1022442, p = 2.75 x 10(-7)) have been reported as genetic factors related to the progression of AD from previous studies. In AD subjects, APOE epsilon2/epsilon3 and epsilon2/epsilon4 genotypes were associated with elevated T-tau levels and epsilon4/epsilon4 genotype was associated with elevated T-tau and P-tau181P levels. Pathway analysis detected several biological pathways implicated in Normal with CSF beta-amyloid peptide (Abeta1-42). CONCLUSIONS: Our genome-wide association analysis identified several SNPs as important factors for CSF biomarker. We also provide new evidence for additional candidate genetic risk factors from pathway analysis that can be tested in further studies.
+20932310	51	56	human	Species	9606
+20932310	57	64	Abeta42	Gene	351
+20932310	69	72	tau	Gene	4137
+20932310	147	166	Alzheimer's disease	Disease	MESH:D000544
+20932310	168	170	AD	Disease	MESH:D000544
+20932310	253	255	AD	Disease	MESH:D000544
+20932310	290	294	APOE	Gene	348
+20932310	378	403	mild cognitive impairment	Disease	MESH:D060825
+20932310	405	408	MCI	Disease	MESH:D060825
+20932310	414	416	AD	Disease	MESH:D000544
+20932310	739	758	Alzheimer's Disease	Disease	MESH:D000544
+20932310	886	891	Human	Species	9606
+20932310	970	973	MCI	Disease	MESH:D060825
+20932310	982	984	AD	Disease	MESH:D000544
+20932310	1257	1261	APOE	Gene	348
+20932310	1464	1468	APOE	Gene	348
+20932310	1578	1582	APOE	Gene	348
+20932310	1656	1658	AD	Disease	MESH:D000544
+20932310	1720	1724	APOE	Gene	348
+20932310	1801	1803	AD	Disease	MESH:D000544
+20932310	1814	1821	CYP19A1	Gene	1588
+20932310	1823	1832	aromatase	Gene	1588
+20932310	1835	1844	rs2899472	SNP	tmVar:rs2899472;VariantGroup:0;CorrespondingGene:1588;RS#:2899472;CorrespondingSpecies:9606
+20932310	1847	1852	NCAM2	Gene	4685
+20932310	1883	1896	chromosome 10	Chromosome	10
+20932310	1906	1911	ARL5B	Gene	221079
+20932310	2033	2040	CYP19A1	Gene	1588
+20932310	2042	2051	rs2899472	SNP	tmVar:rs2899472;VariantGroup:0;CorrespondingGene:1588;RS#:2899472;CorrespondingSpecies:9606
+20932310	2076	2081	NCAM2	Gene	4685
+20932310	2083	2092	rs1022442	SNP	tmVar:rs1022442;VariantGroup:1;RS#:1022442
+20932310	2181	2183	AD	Disease	MESH:D000544
+20932310	2210	2212	AD	Disease	MESH:D000544
+20932310	2223	2227	APOE	Gene	348
+20932310	2493	2513	beta-amyloid peptide	Gene	351
+20932310	Positive_Correlation	MESH:D000544	RS#:2899472;CorrespondingGene:1588
+20932310	Association	MESH:D000544	4685
+20932310	Negative_Correlation	MESH:D000544	RS#:1022442
+20932310	Association	MESH:D000544	221079
+20932310	Association	MESH:D000544	348
+20932310	Association	MESH:D000544	1588
+

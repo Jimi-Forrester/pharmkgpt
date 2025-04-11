@@ -1,0 +1,26 @@
+37530723|t|Network pharmacology analysis combined with experimental validation to explore the therapeutic mechanism of salidroside on intestine ischemia reperfusion.
+37530723|a|OBJECTIVE: To investigate the pharmacological mechanism of action of SAL on intestinal IR injury using a network pharmacology approach combined with experimental validation. &#160;Methods: We used the TCMSP database and analysis platform and CTD to predict possible target genes of SAL, collected relevant target genes of intestinal IR injury from GeneCards and DisGenet websites, and collected summary data to screen common target genes. Then, the PPI target network was constructed and analyzed by STRING database and Cytoscape 3.8.2 with the above intersecting genes. Then, GO and KEGG pathway analyses were performed and the component-target-pathway network was constructed, followed by the use of molecular docking and molecular dynamic simulation to verify the possible binding conformation between SAL and candidate targets to further explore the potential targets of SAL in the treatment of intestinal IR injury. Finally, an in vivo model of mouse superior mesenteric artery ligation was established to assess the anti-intestinal IR injury effect of SAL.</p> &#160;Results: A total of 166 SAL target genes and 1740 disease-related targets were retrieved, and 88 overlapping proteins were obtained as potential therapeutic targets. The pathway enrichment analysis revealed that the pharmacological effects of SAL on intestinal IR injury were anti-hypoxic, anti-inflammatory and metabolic pathway related, and the molecular docking and molecular dynamic simulation results showed that the core bioactive components had good binding affinity for TXNIP and AMPK, and the vivo results indicated it.</p>.
+37530723	108	119	salidroside	Chemical	MESH:C009172
+37530723	123	141	intestine ischemia	Disease	MESH:D007410
+37530723	224	227	SAL	Gene	20217
+37530723	242	251	IR injury	Disease	MESH:C537629
+37530723	437	440	SAL	Gene	20217
+37530723	488	497	IR injury	Disease	MESH:C537629
+37530723	960	963	SAL	Gene	20217
+37530723	1030	1033	SAL	Gene	20217
+37530723	1065	1074	IR injury	Disease	MESH:C537629
+37530723	1193	1202	IR injury	Disease	MESH:C537629
+37530723	1213	1216	SAL	Gene	20217
+37530723	1252	1255	SAL	Gene	20217
+37530723	1471	1474	SAL	Gene	20217
+37530723	1489	1498	IR injury	Disease	MESH:C537629
+37530723	1509	1516	hypoxic	Disease	MESH:D002534
+37530723	1523	1535	inflammatory	Disease	MESH:D007249
+37530723	1706	1711	TXNIP	Gene	56338
+37530723	Negative_Correlation	MESH:C009172	MESH:D007410
+37530723	Negative_Correlation	MESH:D007249	20217
+37530723	Association	MESH:C537629	56338
+37530723	Association	20217	56338
+37530723	Negative_Correlation	MESH:D002534	20217
+37530723	Negative_Correlation	MESH:C537629	20217
+

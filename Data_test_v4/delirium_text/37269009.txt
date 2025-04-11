@@ -1,0 +1,45 @@
+37269009|t|Prediction of treatment response to antipsychotic drugs for precision medicine approach to schizophrenia: randomized trials and multiomics analysis.
+37269009|a|BACKGROUND: Choosing the appropriate antipsychotic drug (APD) treatment for patients with schizophrenia (SCZ) can be challenging, as the treatment response to APD is highly variable and difficult to predict due to the lack of effective biomarkers. Previous studies have indicated the association between treatment response and genetic and epigenetic factors, but no effective biomarkers have been identified. Hence, further research is imperative to enhance precision medicine in SCZ treatment. METHODS: Participants with SCZ were recruited from two randomized trials. The discovery cohort was recruited from the CAPOC trial (n = 2307) involved 6 weeks of treatment and equally randomized the participants to the Olanzapine, Risperidone, Quetiapine, Aripiprazole, Ziprasidone, and Haloperidol/Perphenazine (subsequently equally assigned to one or the other) groups. The external validation cohort was recruited from the CAPEC trial (n = 1379), which involved 8 weeks of treatment and equally randomized the participants to the Olanzapine, Risperidone, and Aripiprazole groups. Additionally, healthy controls (n = 275) from the local community were utilized as a genetic/epigenetic reference. The genetic and epigenetic (DNA methylation) risks of SCZ were assessed using the polygenic risk score (PRS) and polymethylation score, respectively. The study also examined the genetic-epigenetic interactions with treatment response through differential methylation analysis, methylation quantitative trait loci, colocalization, and promoter-anchored chromatin interaction. Machine learning was used to develop a prediction model for treatment response, which was evaluated for accuracy and clinical benefit using the area under curve (AUC) for classification, R2 for regression, and decision curve analysis. RESULTS: Six risk genes for SCZ (LINC01795, DDHD2, SBNO1, KCNG2, SEMA7A, and RUFY1) involved in cortical morphology were identified as having a genetic-epigenetic interaction associated with treatment response. The developed and externally validated prediction model, which incorporated clinical information, PRS, genetic risk score (GRS), and proxy methylation level (proxyDNAm), demonstrated positive benefits for a wide range of patients receiving different APDs, regardless of sex [discovery cohort: AUC = 0.874 (95% CI 0.867-0.881), R2 = 0.478; external validation cohort: AUC = 0.851 (95% CI 0.841-0.861), R2 = 0.507]. CONCLUSIONS: This study presents a promising precision medicine approach to evaluate treatment response, which has the potential to aid clinicians in making informed decisions about APD treatment for patients with SCZ. Trial registration Chinese Clinical Trial Registry ( https://www.chictr.org.cn/ ), 18. Aug 2009 retrospectively registered: CAPOC-ChiCTR-RNC-09000521 ( https://www.chictr.org.cn/showproj.aspx?proj=9014 ), CAPEC-ChiCTR-RNC-09000522 ( https://www.chictr.org.cn/showproj.aspx?proj=9013 ).
+37269009	91	104	schizophrenia	Disease	MESH:D012559
+37269009	225	233	patients	Species	9606
+37269009	239	252	schizophrenia	Disease	MESH:D012559
+37269009	254	257	SCZ	Disease	MESH:D012559
+37269009	629	632	SCZ	Disease	MESH:D012559
+37269009	671	674	SCZ	Disease	MESH:D012559
+37269009	762	767	CAPOC	CellLine	
+37269009	862	872	Olanzapine	Chemical	MESH:D000077152
+37269009	874	885	Risperidone	Chemical	MESH:D018967
+37269009	887	897	Quetiapine	Chemical	MESH:D000069348
+37269009	899	911	Aripiprazole	Chemical	MESH:D000068180
+37269009	913	924	Ziprasidone	Chemical	MESH:C092292
+37269009	930	941	Haloperidol	Chemical	MESH:D006220
+37269009	942	954	Perphenazine	Chemical	MESH:D010546
+37269009	1176	1186	Olanzapine	Chemical	MESH:D000077152
+37269009	1188	1199	Risperidone	Chemical	MESH:D018967
+37269009	1205	1217	Aripiprazole	Chemical	MESH:D000068180
+37269009	1395	1398	SCZ	Disease	MESH:D012559
+37269009	1979	1982	SCZ	Disease	MESH:D012559
+37269009	1995	2000	DDHD2	Gene	23259
+37269009	2002	2007	SBNO1	Gene	55206
+37269009	2009	2014	KCNG2	Gene	26251
+37269009	2016	2022	SEMA7A	Gene	8482
+37269009	2028	2033	RUFY1	Gene	80230
+37269009	2383	2391	patients	Species	9606
+37269009	2412	2416	APDs	Chemical	MESH:D000077268
+37269009	2776	2784	patients	Species	9606
+37269009	2790	2793	SCZ	Disease	MESH:D012559
+37269009	2919	2924	CAPOC	CellLine	
+37269009	Negative_Correlation	MESH:D006220	MESH:D012559
+37269009	Negative_Correlation	MESH:D000077152	MESH:D012559
+37269009	Negative_Correlation	MESH:C092292	MESH:D012559
+37269009	Negative_Correlation	MESH:D018967	MESH:D012559
+37269009	Negative_Correlation	MESH:D000077268	MESH:D012559
+37269009	Association	MESH:D012559	80230
+37269009	Association	MESH:D012559	23259
+37269009	Association	MESH:D012559	8482
+37269009	Association	MESH:D012559	55206
+37269009	Negative_Correlation	MESH:D010546	MESH:D012559
+37269009	Negative_Correlation	MESH:D000068180	MESH:D012559
+37269009	Negative_Correlation	MESH:D000069348	MESH:D012559
+37269009	Association	MESH:D012559	26251
+

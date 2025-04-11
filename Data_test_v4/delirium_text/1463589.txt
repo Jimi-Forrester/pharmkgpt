@@ -1,0 +1,31 @@
+1463589|t|Molecular biology of Alzheimer's amyloid--Dutch variant.
+1463589|a|Hereditary cerebral hemorrhage with amyloidosis, Dutch type (HCHWA-D) (or familial cerebral amyloid angiopathy) and familial Alzheimer's disease (FAD) share several properties. Both are autosomal dominant forms of cerebral amyloidosis characterized by beta-amyloid (A beta) deposition. In HCHWA-D the A beta is predominantly found in blood vessels and in early parenchymal plaques, whereas in AD parenchymal A beta deposits in the form of senile plaques and neurofibrillary tangles are a more prominent finding. Point mutations in the amyloid precursor protein (APP) have recently been described, in both conditions. A G to C transversion at codon 618 (extracellular portion of APP695), producing a single amino acid substitution of glutamine instead of glutamine acid, occurs in HCHWA-D; whereas mutations at codon 642 in the intramembrane region of APP695 (phenylalanine, isoleucine, or glycine instead of valine) are associated with early onset FAD. This suggests that the site of particular mutations in the APP gene and the type of amino acid substitution in the APP holoprotein are more important in determining clinicopathological phenotype and age at which A beta is deposited. Thus FAD and HCHWA-D can be regarded as two sides of the same coin.
+1463589	21	40	Alzheimer's amyloid	Disease	MESH:D000544
+1463589	57	104	Hereditary cerebral hemorrhage with amyloidosis	Disease	MESH:D028243
+1463589	118	125	HCHWA-D	CellLine	CVCL:WA80
+1463589	131	167	familial cerebral amyloid angiopathy	Disease	MESH:D028243
+1463589	173	201	familial Alzheimer's disease	Disease	MESH:D000544
+1463589	203	206	FAD	Disease	MESH:D000544
+1463589	271	291	cerebral amyloidosis	Disease	MESH:C538248
+1463589	323	329	A beta	Gene	351
+1463589	346	353	HCHWA-D	CellLine	CVCL:WA80
+1463589	358	364	A beta	Gene	351
+1463589	450	452	AD	Disease	MESH:D000544
+1463589	465	471	A beta	Gene	351
+1463589	515	538	neurofibrillary tangles	Disease	MESH:D055956
+1463589	592	617	amyloid precursor protein	Gene	351
+1463589	676	708	G to C transversion at codon 618	DNAMutation	tmVar:c|SUB|G|CODON618|C;HGVS:c.CODON618G>C;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+1463589	790	820	glutamine instead of glutamine	ProteinMutation	tmVar:p|SUB|Q||Q;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+1463589	837	844	HCHWA-D	CellLine	CVCL:WA80
+1463589	946	971	glycine instead of valine	ProteinMutation	tmVar:p|SUB|V||G;VariantGroup:2;CorrespondingGene:351;CorrespondingSpecies:9606
+1463589	1005	1008	FAD	Disease	MESH:D000544
+1463589	1222	1228	A beta	Gene	351
+1463589	1248	1251	FAD	Disease	MESH:D000544
+1463589	1256	1263	HCHWA-D	CellLine	CVCL:WA80
+1463589	Association	MESH:D000544	351
+1463589	Positive_Correlation	HGVS:c.CODON618G>C;CorrespondingGene:351	MESH:D000544
+1463589	Positive_Correlation	MESH:D000544	HGVS:c.CODON618G>C;CorrespondingGene:351
+1463589	Association	MESH:D055956	351
+1463589	Positive_Correlation	MESH:D000544	CorrespondingGene:351;CorrespondingSpecies:9606;VariantGroup:2;tmVar:p
+1463589	Association	MESH:D000544	351
+

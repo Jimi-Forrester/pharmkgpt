@@ -1,0 +1,50 @@
+32331311|t|PACAP Modulates the Autophagy Process in an In Vitro Model of Amyotrophic Lateral Sclerosis.
+32331311|a|Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative disease of complex etiology leading to motor neuron degeneration. Many gene alterations cause this pathology, including mutation in Cu, Zn superoxide dismutase (SOD1), which leads to its gain of function. Mutant SOD1 proteins are prone to aberrant misfolding and create aggregates that impair autophagy. The hypoxic stress is strictly linked to the disease progression since it induces uncontrolled autophagy activation and the consequent high rates of cell death. Previously, we showed that pituitary adenylate cyclase-activating polypeptide (PACAP) exerts neurotrophic activity in cultured mSOD1 motor neurons exposed to serum deprivation. To date, no studies have examined whether the protective effect of PACAP on mSOD1 cells exposed to hypoxic insult is mediated through the regulation of the autophagy process. In the present study, we used the neuroblastoma-spinal cord-34 (NSC-34) cell line, stably expressing human wild type or mutant SOD1 G93A, to represent a well characterized in vitro model of a familial form of ALS. These cells were exposed to 100-microM desferrioxamine mesylate salt for 24h, to mimic the hypoxic stress affecting motor neurons during the disease progression. Our results showed that PACAP treatment significantly reduced cell death and hypoxia-induced mSOD1 accumulation by modulating the autophagy process in G93A motor neurons, as revealed by the decreased LC3II and the increased p62 levels, two autophagy indicators. These results were also confirmed by evaluating the vacuole formation detected through light chain 3 (LC3) immunofluorescence. Furthermore, the PACAP effects on autophagy seem to be mediated through the activation of the MAPK/ERK signaling pathway. Overall, our data demonstrated that PACAP exerts an ameliorative effect on the mSOD1 motor neuron viability by modulating a hypoxia-induced autophagy process through activation of MAPK/ERK signaling cascade.
+32331311	0	5	PACAP	Gene	116
+32331311	62	91	Amyotrophic Lateral Sclerosis	Disease	MESH:D000690
+32331311	93	122	Amyotrophic lateral sclerosis	Disease	MESH:D000690
+32331311	124	127	ALS	Disease	MESH:D000690
+32331311	146	171	neurodegenerative disease	Disease	MESH:D019636
+32331311	203	228	motor neuron degeneration	Disease	MESH:D009410
+32331311	296	323	Cu, Zn superoxide dismutase	Gene	6647
+32331311	325	329	SOD1	Gene	6647
+32331311	376	380	SOD1	Gene	6647
+32331311	472	479	hypoxic	Disease	MESH:D002534
+32331311	656	706	pituitary adenylate cyclase-activating polypeptide	Gene	116
+32331311	708	713	PACAP	Gene	116
+32331311	756	761	mSOD1	Gene	110804
+32331311	873	878	PACAP	Gene	116
+32331311	882	887	mSOD1	Gene	110804
+32331311	905	912	hypoxic	Disease	MESH:D002534
+32331311	1015	1028	neuroblastoma	Disease	MESH:D009447
+32331311	1029	1043	spinal cord-34	CellLine	CVCL:D356
+32331311	1045	1051	NSC-34	CellLine	CVCL:D356
+32331311	1082	1087	human	Species	9606
+32331311	1108	1112	SOD1	Gene	6647
+32331311	1113	1117	G93A	ProteinMutation	tmVar:p|SUB|G|93|A;HGVS:p.G93A;VariantGroup:0;CorrespondingGene:6647;RS#:121912438;CorrespondingSpecies:9606;CA#:257327
+32331311	1190	1193	ALS	Disease	MESH:D000690
+32331311	1234	1263	desferrioxamine mesylate salt	Chemical	-
+32331311	1286	1293	hypoxic	Disease	MESH:D002534
+32331311	1381	1386	PACAP	Gene	116
+32331311	1434	1441	hypoxia	Disease	MESH:D000860
+32331311	1450	1455	mSOD1	Gene	110804
+32331311	1508	1512	G93A	ProteinMutation	tmVar:p|SUB|G|93|A;HGVS:p.G93A;VariantGroup:0;CorrespondingGene:6647;RS#:121912438;CorrespondingSpecies:9606;CA#:257327
+32331311	1581	1584	p62	Gene	23636
+32331311	1721	1724	LC3	Gene	84557
+32331311	1763	1768	PACAP	Gene	116
+32331311	1845	1848	ERK	Gene	5594
+32331311	1904	1909	PACAP	Gene	116
+32331311	1947	1952	mSOD1	Gene	110804
+32331311	1992	1999	hypoxia	Disease	MESH:D000860
+32331311	2053	2056	ERK	Gene	5594
+32331311	Positive_Correlation	116	23636
+32331311	Association	MESH:D000690	116
+32331311	Positive_Correlation	MESH:D000690	RS#:121912438;HGVS:p.G93A;CorrespondingGene:6647
+32331311	Association	MESH:D000690	6647
+32331311	Negative_Correlation	110804	116
+32331311	Negative_Correlation	MESH:D000860	116
+32331311	Positive_Correlation	116	5594
+32331311	Positive_Correlation	MESH:D000860	110804
+32331311	Association	MESH:D000860	5594
+32331311	Association	MESH:D000690	6647
+

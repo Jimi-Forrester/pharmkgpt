@@ -1,0 +1,75 @@
+37340309|t|Inhibition of the MEK/ERK pathway suppresses immune overactivation and mitigates TDP-43 toxicity in a Drosophila model of ALS.
+37340309|a|TDP-43 is an important DNA/RNA-binding protein that is associated with age-related neurodegenerative diseases such as amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD); however, its pathomechanism is not fully understood. In a transgenic RNAi screen using Drosophila as a model, we uncovered that knockdown (KD) of Dsor1 (the Drosophila MAPK kinase dMEK) suppressed TDP-43 toxicity without altering TDP-43 phosphorylation or protein levels. Further investigation revealed that the Dsor1 downstream gene rl (dERK) was abnormally upregulated in TDP-43 flies, and neuronal overexpression of dERK induced profound upregulation of antimicrobial peptides (AMPs). We also detected a robust immune overactivation in TDP-43 flies, which could be suppressed by downregulation of the MEK/ERK pathway in TDP-43 fly neurons. Furthermore, neuronal KD of abnormally increased AMPs improved the motor function of TDP-43 flies. On the other hand, neuronal KD of Dnr1, a negative regulator of the Drosophila immune deficiency (IMD) pathway, activated the innate immunity and boosted AMP expression independent of the regulation by the MEK/ERK pathway, which diminished the mitigating effect of RNAi-dMEK on TDP-43 toxicity. Finally, we showed that an FDA-approved MEK inhibitor trametinib markedly suppressed immune overactivation, alleviated motor deficits and prolonged the lifespan of TDP-43 flies, but did not exhibit a lifespan-extending effect in Alzheimer disease (AD) or spinocerebellar ataxia type 3 (SCA3) fly models. Together, our findings suggest an important role of abnormal elevation of the MEK/ERK signaling and innate immunity in TDP-43 pathogenesis and propose trametinib as a potential therapeutic agent for ALS and other TDP-43-related diseases.
+37340309	18	21	MEK	Gene	31872
+37340309	22	25	ERK	Gene	3354888
+37340309	81	87	TDP-43	Gene	37781
+37340309	88	96	toxicity	Disease	MESH:D064420
+37340309	102	112	Drosophila	Species	7227
+37340309	122	125	ALS	Disease	MESH:D000690
+37340309	127	133	TDP-43	Gene	37781
+37340309	198	236	age-related neurodegenerative diseases	Disease	MESH:D019636
+37340309	245	274	amyotrophic lateral sclerosis	Disease	MESH:D000690
+37340309	276	279	ALS	Disease	MESH:D000690
+37340309	285	308	frontotemporal dementia	Disease	MESH:D057180
+37340309	310	313	FTD	Disease	MESH:D057180
+37340309	403	413	Drosophila	Species	7227
+37340309	462	467	Dsor1	Gene	31872
+37340309	473	483	Drosophila	Species	7227
+37340309	484	495	MAPK kinase	Gene	31872
+37340309	513	519	TDP-43	Gene	37781
+37340309	520	528	toxicity	Disease	MESH:D064420
+37340309	546	552	TDP-43	Gene	37781
+37340309	628	633	Dsor1	Gene	31872
+37340309	654	658	dERK	Gene	3354888
+37340309	690	696	TDP-43	Gene	37781
+37340309	735	739	dERK	Gene	3354888
+37340309	773	795	antimicrobial peptides	Chemical	MESH:D000089882
+37340309	797	801	AMPs	Chemical	MESH:D000089882
+37340309	855	861	TDP-43	Gene	37781
+37340309	920	923	MEK	Gene	31872
+37340309	924	927	ERK	Gene	3354888
+37340309	939	945	TDP-43	Gene	37781
+37340309	1008	1012	AMPs	Chemical	MESH:D000089882
+37340309	1044	1050	TDP-43	Gene	37781
+37340309	1092	1096	Dnr1	Gene	37575
+37340309	1126	1136	Drosophila	Species	7227
+37340309	1137	1154	immune deficiency	Disease	MESH:D007154
+37340309	1156	1159	IMD	Disease	MESH:D007154
+37340309	1212	1215	AMP	Chemical	MESH:D000089882
+37340309	1264	1267	MEK	Gene	31872
+37340309	1268	1271	ERK	Gene	3354888
+37340309	1336	1342	TDP-43	Gene	37781
+37340309	1343	1351	toxicity	Disease	MESH:D064420
+37340309	1393	1396	MEK	Gene	31872
+37340309	1407	1417	trametinib	Chemical	MESH:C560077
+37340309	1472	1486	motor deficits	Disease	MESH:D009461
+37340309	1517	1523	TDP-43	Gene	37781
+37340309	1582	1599	Alzheimer disease	Disease	MESH:D000544
+37340309	1601	1603	AD	Disease	MESH:D000544
+37340309	1608	1637	spinocerebellar ataxia type 3	Disease	MESH:D017827
+37340309	1639	1643	SCA3	Disease	MESH:D017827
+37340309	1735	1738	MEK	Gene	31872
+37340309	1739	1742	ERK	Gene	3354888
+37340309	1776	1782	TDP-43	Gene	37781
+37340309	1808	1818	trametinib	Chemical	MESH:C560077
+37340309	1856	1859	ALS	Disease	MESH:D000690
+37340309	1870	1893	TDP-43-related diseases	Disease	MESH:C000723354
+37340309	Negative_Correlation	MESH:C560077	37781
+37340309	Association	MESH:D019636	37781
+37340309	Association	MESH:D057180	37781
+37340309	Negative_Correlation	MESH:C560077	MESH:D009461
+37340309	Negative_Correlation	MESH:C560077	MESH:C000723354
+37340309	Association	MESH:D000690	37781
+37340309	Association	31872	37781
+37340309	Association	MESH:D064420	31872
+37340309	Association	MESH:D000089882	37781
+37340309	Positive_Correlation	MESH:D000089882	37575
+37340309	Association	MESH:D064420	37781
+37340309	Association	MESH:D007154	37575
+37340309	Association	31872	3354888
+37340309	Association	3354888	37781
+37340309	Positive_Correlation	MESH:D000089882	3354888
+37340309	Association	MESH:D064420	3354888
+37340309	Negative_Correlation	MESH:C560077	MESH:D000690
+37340309	Negative_Correlation	MESH:C560077	31872
+

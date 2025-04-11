@@ -1,0 +1,65 @@
+34018922|t|Amphiphysin I cleavage by asparagine endopeptidase leads to tau hyperphosphorylation and synaptic dysfunction.
+34018922|a|Neurofibrillary tangles composed of hyperphosphorylated tau and synaptic dysfunction are characteristics of Alzheimer's disease (AD). However, the underlying molecular mechanisms remain poorly understood. Here, we identified Amphiphysin I mediates both tau phosphorylation and synaptic dysfunction in AD. Amphiphysin I is cleaved by a cysteine proteinase asparagine endopeptidase (AEP) at N278 in the brains of AD patients. The amount of AEP-generated N-terminal fragment of Amphiphysin I (1-278) is increased with aging. Amphiphysin I (1-278) inhibits clathrin-mediated endocytosis and induces synaptic dysfunction. Furthermore, Amphiphysin I (1-278) binds p35 and promotes its transition to p25, thus activates CDK5 and enhances tau hyperphosphorylation. Overexpression of Amphiphysin I (1-278) in the hippocampus of Tau P301S mice induces synaptic dysfunction, tau hyperphosphorylation, and cognitive deficits. However, overexpression of the N278A mutant Amphiphysin I, which resists the AEP-mediated cleavage, alleviates the pathological and behavioral defects. These findings suggest a mechanism of tau hyperphosphorylation and synaptic dysfunction in AD.
+34018922	0	13	Amphiphysin I	Gene	273
+34018922	26	50	asparagine endopeptidase	Gene	5641
+34018922	60	84	tau hyperphosphorylation	Disease	MESH:C536599
+34018922	89	109	synaptic dysfunction	Disease	MESH:C536122
+34018922	111	134	Neurofibrillary tangles	Disease	MESH:D055956
+34018922	167	170	tau	Gene	4137
+34018922	175	195	synaptic dysfunction	Disease	MESH:C536122
+34018922	219	238	Alzheimer's disease	Disease	MESH:D000544
+34018922	240	242	AD	Disease	MESH:D000544
+34018922	336	349	Amphiphysin I	Gene	273
+34018922	364	367	tau	Gene	4137
+34018922	388	408	synaptic dysfunction	Disease	MESH:C536122
+34018922	412	414	AD	Disease	MESH:D000544
+34018922	416	429	Amphiphysin I	Gene	273
+34018922	466	490	asparagine endopeptidase	Gene	5641
+34018922	492	495	AEP	Gene	5641
+34018922	500	504	N278	ProteinMutation	tmVar:p|Allele|N|278;VariantGroup:0;CorrespondingGene:5641;CorrespondingSpecies:9606
+34018922	522	524	AD	Disease	MESH:D000544
+34018922	525	533	patients	Species	9606
+34018922	549	552	AEP	Gene	5641
+34018922	586	599	Amphiphysin I	Gene	273
+34018922	633	646	Amphiphysin I	Gene	273
+34018922	706	726	synaptic dysfunction	Disease	MESH:C536122
+34018922	741	754	Amphiphysin I	Gene	273
+34018922	769	772	p35	Gene	8851
+34018922	804	807	p25	Gene	8851
+34018922	824	828	CDK5	Gene	1020
+34018922	886	899	Amphiphysin I	Gene	273
+34018922	930	933	Tau	Gene	4137
+34018922	934	939	P301S	ProteinMutation	tmVar:p|SUB|P|301|S;HGVS:p.P301S;VariantGroup:1;CorrespondingGene:4137;RS#:63751438;CorrespondingSpecies:9606;CA#:225439
+34018922	940	944	mice	Species	10090
+34018922	953	973	synaptic dysfunction	Disease	MESH:C536122
+34018922	1005	1023	cognitive deficits	Disease	MESH:D003072
+34018922	1056	1061	N278A	ProteinMutation	tmVar:p|SUB|N|278|A;HGVS:p.N278A;VariantGroup:0;CorrespondingGene:5641;CorrespondingSpecies:9606
+34018922	1069	1082	Amphiphysin I	Gene	273
+34018922	1102	1105	AEP	Gene	5641
+34018922	1244	1264	synaptic dysfunction	Disease	MESH:C536122
+34018922	1268	1270	AD	Disease	MESH:D000544
+34018922	Association	MESH:C536122	HGVS:p.N278A;CorrespondingGene:5641
+34018922	Association	MESH:C536122	RS#:63751438;HGVS:p.P301S;CorrespondingGene:4137
+34018922	Positive_Correlation	MESH:D003072	273
+34018922	Association	MESH:D000544	5641
+34018922	Association	MESH:D003072	RS#:63751438;HGVS:p.P301S;CorrespondingGene:4137
+34018922	Association	MESH:C536599	5641
+34018922	Association	MESH:D000544	CorrespondingGene:5641;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+34018922	Association	273	4137
+34018922	Positive_Correlation	MESH:C536122	273
+34018922	Association	MESH:D000544	273
+34018922	Association	MESH:C536122	5641
+34018922	Association	273	5641
+34018922	Association	MESH:D003072	HGVS:p.N278A;CorrespondingGene:5641
+34018922	Association	MESH:C536599	273
+34018922	Association	MESH:D003072	CorrespondingGene:5641;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+34018922	Association	MESH:D003072	4137
+34018922	Positive_Correlation	1020	273
+34018922	Association	273	8851
+34018922	Association	MESH:D000544	4137
+34018922	Association	MESH:C536122	5641
+34018922	Association	MESH:C536122	4137
+34018922	Association	MESH:D003072	4137
+34018922	Association	MESH:D000544	5641
+34018922	Association	MESH:D003072	5641
+

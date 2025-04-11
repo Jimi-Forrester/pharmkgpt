@@ -1,0 +1,34 @@
+37449151|t|Identification of peripheral blood immune infiltration signatures and construction of monocyte-associated signatures in ovarian cancer and Alzheimer's disease using single-cell sequencing.
+37449151|a|Background: Ovarian cancer (OC) is a common tumor of the female reproductive system, while Alzheimer's disease (AD) is a prevalent neurodegenerative disease that primarily affects cognitive function in the elderly. Monocytes are immune cells in the blood that can enter tissues and transform into macrophages, thus participating in immune and inflammatory responses. Overall, monocytes may play an important role in Alzheimer's disease and ovarian cancer. Methods: The CIBERSORT algorithm results indicate a potential crucial role of monocytes/macrophages in OC and AD. To identify monocyte marker genes, single-cell RNA-seq data of peripheral blood mononuclear cells (PBMCs) from OC and AD patients were analyzed. Enrichment analysis of various cell subpopulations was performed using the "irGSEA" R package. The estimation of cell cycle was conducted with the "tricycle" R package, and intercellular communication networks were analyzed using "CellChat". For 134 monocyte-associated genes (MRGs), bulk RNA-seq data from two diseased tissues were obtained. Cox regression analysis was employed to develop risk models, categorizing patients into high-risk (HR) and low-risk (LR) groups. The model's accuracy was validated using an external GEO cohort. The different risk groups were evaluated in terms of immune cell infiltration, mutational status, signaling pathways, immune checkpoint expression, and immunotherapy. To identify characteristic MRGs in AD, two machine learning algorithms, namely random forest and support vector machine (SVM), were utilized. Results: Based on Cox regression analysis, a risk model consisting of seven genes was developed in OC, indicating a better prognosis for patients in the LR group. The LR group had a higher tumor mutation burden, immune cell infiltration abundance, and immune checkpoint expression. The results of the TIDE algorithm and the IMvigor210 cohort showed that the LR group was more likely to benefit from immunotherapy. Finally, ZFP36L1 and AP1S2 were identified as characteristic MRGs affecting OC and AD progression. Conclusion: The risk profile containing seven genes identified in this study may help further guide clinical management and targeted therapy for OC. ZFP36L1 and AP1S2 may serve as biomarkers and new therapeutic targets for patients with OC and AD.
+37449151	120	134	ovarian cancer	Disease	MESH:D010051
+37449151	139	158	Alzheimer's disease	Disease	MESH:D000544
+37449151	201	215	Ovarian cancer	Disease	MESH:D010051
+37449151	217	219	OC	Disease	MESH:D010051
+37449151	233	238	tumor	Disease	MESH:D009369
+37449151	280	299	Alzheimer's disease	Disease	MESH:D000544
+37449151	301	303	AD	Disease	MESH:D000544
+37449151	320	345	neurodegenerative disease	Disease	MESH:D019636
+37449151	532	544	inflammatory	Disease	MESH:D007249
+37449151	605	624	Alzheimer's disease	Disease	MESH:D000544
+37449151	629	643	ovarian cancer	Disease	MESH:D010051
+37449151	748	750	OC	Disease	MESH:D010051
+37449151	755	757	AD	Disease	MESH:D000544
+37449151	870	872	OC	Disease	MESH:D010051
+37449151	877	879	AD	Disease	MESH:D000544
+37449151	1643	1645	AD	Disease	MESH:D000544
+37449151	1849	1851	OC	Disease	MESH:D010051
+37449151	1939	1944	tumor	Disease	MESH:D009369
+37449151	2173	2180	ZFP36L1	Gene	677
+37449151	2185	2190	AP1S2	Gene	8905
+37449151	2240	2242	OC	Disease	MESH:D010051
+37449151	2247	2249	AD	Disease	MESH:D000544
+37449151	2408	2410	OC	Disease	MESH:D010051
+37449151	2412	2419	ZFP36L1	Gene	677
+37449151	2424	2429	AP1S2	Gene	8905
+37449151	2500	2502	OC	Disease	MESH:D010051
+37449151	2507	2509	AD	Disease	MESH:D000544
+37449151	Association	MESH:D010051	8905
+37449151	Association	MESH:D000544	677
+37449151	Association	MESH:D010051	677
+37449151	Association	MESH:D000544	8905
+

@@ -1,0 +1,70 @@
+39423200|t|Interaction between CD244 and SHP2 regulates inflammation in chronic obstructive pulmonary disease via targeting the MAPK/NF-kappaB signaling pathway.
+39423200|a|This study delved into the interplay between CD244 and Src Homology 2 Domain Containing Phosphatase-2 (SHP2) in chronic obstructive pulmonary disease (COPD) pathogenesis, focusing on apoptosis and inflammation in cigarette smoke extract (CSE)-treated human bronchial epithelial (HBE) cells. Analysis of the GSE100153 dataset identified 290 up-regulated and 344 down-regulated differentially expressed genes (DEGs). Weighted gene co-expression network analysis (WGCNA) highlighted the turquoise module had the highest correlation with COPD samples. Functional enrichment analysis linked these DEGs to critical COPD processes and pathways like neutrophil degranulation, protein kinase B activity, and diabetic cardiomyopathy. Observations on CD244 expression revealed its upregulation with increasing CSE concentrations, suggesting a dose-dependent relationship with inflammatory cytokines (IL-6, IL-8, TNF-alpha). CD244 knockdown mitigated CSE-induced apoptosis and inflammation, while overexpression exacerbated these responses. Co-immunoprecipitation (Co-IP) confirmed the physical interaction between CD244 and SHP2, emphasizing their regulatory connection. Analysis of Concurrently, the Nuclear Factor-kappa B (NF-kappaB) and Mitogen-activated protein kinase (MAPK) signaling pathways showed that modulating CD244 expression impacted key pathway components (p-JNK, p-IKKbeta, p-ERK, p-P38, p-lkBalpha, p-P65), an effect reversed upon SHP2 knockdown. These findings underscore the pivotal role of the CD244/SHP2 axis in regulating inflammatory and apoptotic responses in CSE-exposed HBE cells, suggesting its potential as a therapeutic target in COPD treatment strategies.
+39423200	20	25	CD244	Gene	51744
+39423200	30	34	SHP2	Gene	5781
+39423200	45	57	inflammation	Disease	MESH:D007249
+39423200	61	98	chronic obstructive pulmonary disease	Disease	MESH:D029424
+39423200	122	131	NF-kappaB	Gene	4790
+39423200	196	201	CD244	Gene	51744
+39423200	254	258	SHP2	Gene	5781
+39423200	263	300	chronic obstructive pulmonary disease	Disease	MESH:D029424
+39423200	302	306	COPD	Disease	MESH:D029424
+39423200	348	360	inflammation	Disease	MESH:D007249
+39423200	364	387	cigarette smoke extract	Chemical	-
+39423200	389	392	CSE	Chemical	-
+39423200	402	407	human	Species	9606
+39423200	430	433	HBE	CellLine	CVCL:0287
+39423200	685	689	COPD	Disease	MESH:D029424
+39423200	760	764	COPD	Disease	MESH:D029424
+39423200	819	835	protein kinase B	Gene	2185
+39423200	850	873	diabetic cardiomyopathy	Disease	MESH:D058065
+39423200	891	896	CD244	Gene	51744
+39423200	950	953	CSE	Chemical	-
+39423200	1016	1028	inflammatory	Disease	MESH:D007249
+39423200	1040	1044	IL-6	Gene	3569
+39423200	1046	1050	IL-8	Gene	3576
+39423200	1052	1061	TNF-alpha	Gene	7124
+39423200	1064	1069	CD244	Gene	51744
+39423200	1090	1093	CSE	Chemical	-
+39423200	1116	1128	inflammation	Disease	MESH:D007249
+39423200	1254	1259	CD244	Gene	51744
+39423200	1264	1268	SHP2	Gene	5781
+39423200	1341	1363	Nuclear Factor-kappa B	Gene	4790
+39423200	1365	1374	NF-kappaB	Gene	4790
+39423200	1462	1467	CD244	Gene	51744
+39423200	1514	1517	JNK	Gene	5599
+39423200	1521	1528	IKKbeta	Gene	3551
+39423200	1532	1535	ERK	Gene	5594
+39423200	1539	1542	P38	Gene	1432
+39423200	1558	1561	P65	Gene	5970
+39423200	1588	1592	SHP2	Gene	5781
+39423200	1654	1659	CD244	Gene	51744
+39423200	1660	1664	SHP2	Gene	5781
+39423200	1684	1696	inflammatory	Disease	MESH:D007249
+39423200	1724	1727	CSE	Chemical	-
+39423200	1736	1739	HBE	CellLine	CVCL:0287
+39423200	1799	1803	COPD	Disease	MESH:D029424
+39423200	Association	MESH:D029424	4790
+39423200	Association	51744	5599
+39423200	Association	MESH:D007249	51744
+39423200	Association	5781	5970
+39423200	Association	MESH:D007249	7124
+39423200	Association	51744	5970
+39423200	Association	MESH:D007249	3576
+39423200	Association	MESH:D007249	5781
+39423200	Association	51744	5781
+39423200	Association	MESH:D007249	3569
+39423200	Positive_Correlation	3576	51744
+39423200	Positive_Correlation	3569	51744
+39423200	Positive_Correlation	51744	7124
+39423200	Positive_Correlation	5599	5781
+39423200	Association	51744	5594
+39423200	Association	MESH:D029424	51744
+39423200	Positive_Correlation	1432	5781
+39423200	Association	3551	51744
+39423200	Association	4790	5781
+39423200	Association	1432	51744
+39423200	Association	MESH:D029424	5781
+39423200	Association	4790	51744
+39423200	Association	MESH:D029424	2185
+

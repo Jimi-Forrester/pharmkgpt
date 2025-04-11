@@ -1,0 +1,22 @@
+37405620|t|Predicting mild cognitive impairment progression to Alzheimer's disease based on machine learning analysis of cortical morphological features.
+37405620|a|PURPOSE: To establish a model for predicting mild cognitive impairment (MCI) progression to Alzheimer's disease (AD) using morphological features extracted from a joint analysis of voxel-based morphometry (VBM) and surface-based morphometry (SBM). METHODS: We analyzed data from 121 MCI patients from the Alzheimer's Disease Neuroimaging Initiative, 32 of whom progressed to AD during a 4-year follow-up period and were classified as the progression group, while the remaining 89 were classified as the non-progression group. Patients were divided into a training set (n = 84) and a testing set (n = 37). Morphological features measured by VBM and SBM were extracted from the cortex of the training set and dimensionally reduced to construct morphological biomarkers using machine learning methods, which were combined with clinical data to build a multimodal combinatorial model. The model's performance was evaluated using receiver operating characteristic curves on the testing set. RESULTS: The Alzheimer's Disease Assessment Scale (ADAS) score, apolipoprotein E (APOE4), and morphological biomarkers were independent predictors of MCI progression to AD. The combinatorial model based on the independent predictors had an area under the curve (AUC) of 0.866 in the training set and 0.828 in the testing set, with sensitivities of 0.773 and 0.900 and specificities of 0.903 and 0.747, respectively. The number of MCI patients classified as high-risk for progression to AD was significantly different from those classified as low-risk in the training set, testing set, and entire dataset, according to the combinatorial model (P < 0.05). CONCLUSION: The combinatorial model based on cortical morphological features can identify high-risk MCI patients likely to progress to AD, potentially providing an effective tool for clinical screening.
+37405620	16	36	cognitive impairment	Disease	MESH:D003072
+37405620	52	71	Alzheimer's disease	Disease	MESH:D000544
+37405620	193	213	cognitive impairment	Disease	MESH:D003072
+37405620	215	218	MCI	Disease	MESH:D060825
+37405620	235	254	Alzheimer's disease	Disease	MESH:D000544
+37405620	256	258	AD	Disease	MESH:D000544
+37405620	426	429	MCI	Disease	MESH:D060825
+37405620	448	467	Alzheimer's Disease	Disease	MESH:D000544
+37405620	518	520	AD	Disease	MESH:D000544
+37405620	1142	1161	Alzheimer's Disease	Disease	MESH:D000544
+37405620	1193	1209	apolipoprotein E	Gene	348
+37405620	1211	1216	APOE4	Gene	348
+37405620	1279	1282	MCI	Disease	MESH:D060825
+37405620	1298	1300	AD	Disease	MESH:D000544
+37405620	1559	1562	MCI	Disease	MESH:D060825
+37405620	1615	1617	AD	Disease	MESH:D000544
+37405620	1883	1886	MCI	Disease	MESH:D060825
+37405620	1918	1920	AD	Disease	MESH:D000544
+37405620	Association	MESH:D000544	348
+

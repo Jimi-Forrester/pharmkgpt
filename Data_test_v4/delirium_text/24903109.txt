@@ -1,0 +1,37 @@
+24903109|t|Receptor-mediated mitophagy in yeast and mammalian systems.
+24903109|a|Mitophagy, or mitochondria autophagy, plays a critical role in selective removal of damaged or unwanted mitochondria. Several protein receptors, including Atg32 in yeast, NIX/BNIP3L, BNIP3 and FUNDC1 in mammalian systems, directly act in mitophagy. Atg32 interacts with Atg8 and Atg11 on the surface of mitochondria, promoting core Atg protein assembly for mitophagy. NIX/BNIP3L, BNIP3 and FUNDC1 also have a classic motif to directly bind LC3 (Atg8 homolog in mammals) for activation of mitophagy. Recent studies have shown that receptor-mediated mitophagy is regulated by reversible protein phosphorylation. Casein kinase 2 (CK2) phosphorylates Atg32 and activates mitophagy in yeast. In contrast, in mammalian cells Src kinase and CK2 phosphorylate FUNDC1 to prevent mitophagy. Notably, in response to hypoxia and FCCP treatment, the mitochondrial phosphatase PGAM5 dephosphorylates FUNDC1 to activate mitophagy. Here, we mainly focus on recent advances in our understanding of the molecular mechanisms underlying the activation of receptor-mediated mitophagy and the implications of this catabolic process in health and disease. 
+24903109	31	36	yeast	Species	4932
+24903109	215	220	Atg32	Gene	854660
+24903109	224	229	yeast	Species	4932
+24903109	235	241	BNIP3L	Gene	665
+24903109	243	248	BNIP3	Gene	664
+24903109	253	259	FUNDC1	Gene	139341
+24903109	309	314	Atg32	Gene	854660
+24903109	330	334	Atg8	Gene	852200
+24903109	339	344	Atg11	Gene	856162
+24903109	432	438	BNIP3L	Gene	665
+24903109	440	445	BNIP3	Gene	664
+24903109	450	456	FUNDC1	Gene	139341
+24903109	500	503	LC3	Gene	84557
+24903109	505	509	Atg8	Gene	23710
+24903109	707	712	Atg32	Gene	854660
+24903109	740	745	yeast	Species	4932
+24903109	812	818	FUNDC1	Gene	139341
+24903109	865	872	hypoxia	Disease	MESH:D000860
+24903109	877	881	FCCP	Chemical	MESH:D002259
+24903109	923	928	PGAM5	Gene	192111
+24903109	946	952	FUNDC1	Gene	139341
+24903109	Association	23710	665
+24903109	Association	139341	23710
+24903109	Association	23710	664
+24903109	Negative_Correlation	MESH:D002259	139341
+24903109	Negative_Correlation	139341	192111
+24903109	Association	852200	854660
+24903109	Association	139341	84557
+24903109	Association	665	84557
+24903109	Association	854660	856162
+24903109	Association	MESH:D002259	192111
+24903109	Association	MESH:D000860	139341
+24903109	Association	MESH:D000860	192111
+24903109	Association	664	84557
+

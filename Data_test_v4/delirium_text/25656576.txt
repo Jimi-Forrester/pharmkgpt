@@ -1,0 +1,33 @@
+25656576|t|SET overexpression in HEK293 cells regulates mitochondrial uncoupling proteins levels within a mitochondrial fission/reduced autophagic flux scenario.
+25656576|a|We hypothesized that SET, a protein accumulated in some cancer types and Alzheimer disease, is involved in cell death through mitochondrial mechanisms. We addressed the mRNA and protein levels of the mitochondrial uncoupling proteins UCP1, UCP2 and UCP3 (S and L isoforms) by quantitative real-time PCR and immunofluorescence as well as other mitochondrial involvements, in HEK293 cells overexpressing the SET protein (HEK293/SET), either in the presence or absence of oxidative stress induced by the pro-oxidant t-butyl hydroperoxide (t-BHP). SET overexpression in HEK293 cells decreased UCP1 and increased UCP2 and UCP3 (S/L) mRNA and protein levels, whilst also preventing lipid peroxidation and decreasing the content of cellular ATP. SET overexpression also (i) decreased the area of mitochondria and increased the number of organelles and lysosomes, (ii) increased mitochondrial fission, as demonstrated by increased FIS1 mRNA and FIS-1 protein levels, an apparent accumulation of DRP-1 protein, and an increase in the VDAC protein level, and (iii) reduced autophagic flux, as demonstrated by a decrease in LC3B lipidation (LC3B-II) in the presence of chloroquine. Therefore, SET overexpression in HEK293 cells promotes mitochondrial fission and reduces autophagic flux in apparent association with up-regulation of UCP2 and UCP3; this implies a potential involvement in cellular processes that are deregulated such as in Alzheimer's disease and cancer. 
+25656576	22	28	HEK293	CellLine	CVCL:0045
+25656576	207	213	cancer	Disease	MESH:D009369
+25656576	224	241	Alzheimer disease	Disease	MESH:D000544
+25656576	385	389	UCP1	Gene	7350
+25656576	391	395	UCP2	Gene	7351
+25656576	400	404	UCP3	Gene	7352
+25656576	525	531	HEK293	CellLine	CVCL:0045
+25656576	570	576	HEK293	CellLine	CVCL:0045
+25656576	664	685	t-butyl hydroperoxide	Chemical	MESH:D020122
+25656576	687	692	t-BHP	Chemical	MESH:D020122
+25656576	717	723	HEK293	CellLine	CVCL:0045
+25656576	740	744	UCP1	Gene	7350
+25656576	759	763	UCP2	Gene	7351
+25656576	768	772	UCP3	Gene	7352
+25656576	827	832	lipid	Chemical	MESH:D008055
+25656576	885	888	ATP	Chemical	MESH:D000255
+25656576	1074	1078	FIS1	Gene	51024
+25656576	1088	1093	FIS-1	Gene	51024
+25656576	1138	1143	DRP-1	Gene	1400
+25656576	1264	1268	LC3B	Gene	81631
+25656576	1281	1285	LC3B	Gene	81631
+25656576	1309	1320	chloroquine	Chemical	MESH:D002738
+25656576	1355	1361	HEK293	CellLine	CVCL:0045
+25656576	1473	1477	UCP2	Gene	7351
+25656576	1482	1486	UCP3	Gene	7352
+25656576	1579	1598	Alzheimer's disease	Disease	MESH:D000544
+25656576	1603	1609	cancer	Disease	MESH:D009369
+25656576	Association	MESH:D000544	7352
+25656576	Negative_Correlation	MESH:D002738	81631
+25656576	Association	MESH:D009369	7352
+

@@ -1,0 +1,38 @@
+37113381|t|Predicting Patient Satisfaction With Medications for Treating Opioid Use Disorder: Case Study Applying Natural Language Processing to Reviews of Methadone and Buprenorphine/Naloxone on Health-Related Social Media.
+37113381|a|Background: Medication-assisted treatment (MAT) is an effective method for treating opioid use disorder (OUD), which combines behavioral therapies with one of three Food and Drug Administration-approved medications: methadone, buprenorphine, and naloxone. While MAT has been shown to be effective initially, there is a need for more information from the patient perspective about the satisfaction with medications. Existing research focuses on patient satisfaction with the entirety of the treatment, making it difficult to determine the unique role of medication and overlooking the views of those who may lack access to treatment due to being uninsured or concerns over stigma. Studies focusing on patients' perspectives are also limited by the lack of scales that can efficiently collect self-reports across domains of concerns. Objective: A broad survey of patients' viewpoints can be obtained through social media and drug review forums, which are then assessed using automated methods to discover factors associated with medication satisfaction. Because the text is unstructured, it may contain a mix of formal and informal language. The primary aim of this study was to use natural language processing methods on text posted on health-related social media to detect patients' satisfaction with two well-studied OUD medications: methadone and buprenorphine/naloxone. Methods: We collected 4353 patient reviews of methadone and buprenorphine/naloxone from 2008 to 2021 posted on WebMD and Drugs.com. To build our predictive models for detecting patient satisfaction, we first employed different analyses to build four input feature sets using the vectorized text, topic models, duration of treatment, and biomedical concepts by applying MetaMap. We then developed six prediction models: logistic regression, Elastic Net, least absolute shrinkage and selection operator, random forest classifier, Ridge classifier, and extreme gradient boosting to predict patients' satisfaction. Lastly, we compared the prediction models' performance over different feature sets. Results: Topics discovered included oral sensation, side effects, insurance, and doctor visits. Biomedical concepts included symptoms, drugs, and illnesses. The F-score of the predictive models across all methods ranged from 89.9% to 90.8%. The Ridge classifier model, a regression-based method, outperformed the other models. Conclusions: Assessment of patients' satisfaction with opioid dependency treatment medication can be predicted using automated text analysis. Adding biomedical concepts such as symptoms, drug name, and illness, along with the duration of treatment and topic models, had the most benefits for improving the prediction performance of the Elastic Net model compared to other models. Some of the factors associated with patient satisfaction overlap with domains covered in medication satisfaction scales (eg, side effects) and qualitative patient reports (eg, doctors' visits), while others (insurance) are overlooked, thereby underscoring the value added from processing text on online health forums to better understand patient adherence.
+37113381	11	18	Patient	Species	9606
+37113381	62	81	Opioid Use Disorder	Disease	MESH:D009293
+37113381	145	154	Methadone	Chemical	MESH:D008691
+37113381	159	172	Buprenorphine	Chemical	MESH:D002047
+37113381	173	181	Naloxone	Chemical	MESH:D009270
+37113381	298	317	opioid use disorder	Disease	MESH:D009293
+37113381	319	322	OUD	Disease	MESH:D009293
+37113381	430	439	methadone	Chemical	MESH:D008691
+37113381	441	454	buprenorphine	Chemical	MESH:D002047
+37113381	460	468	naloxone	Chemical	MESH:D009270
+37113381	568	575	patient	Species	9606
+37113381	658	665	patient	Species	9606
+37113381	914	922	patients	Species	9606
+37113381	1075	1083	patients	Species	9606
+37113381	1487	1495	patients	Species	9606
+37113381	1532	1535	OUD	Disease	MESH:D009293
+37113381	1549	1558	methadone	Chemical	MESH:D008691
+37113381	1563	1576	buprenorphine	Chemical	MESH:D002047
+37113381	1577	1585	naloxone	Chemical	MESH:D009270
+37113381	1614	1621	patient	Species	9606
+37113381	1633	1642	methadone	Chemical	MESH:D008691
+37113381	1647	1660	buprenorphine	Chemical	MESH:D002047
+37113381	1661	1669	naloxone	Chemical	MESH:D009270
+37113381	1764	1771	patient	Species	9606
+37113381	2174	2182	patients	Species	9606
+37113381	2636	2644	patients	Species	9606
+37113381	2664	2681	opioid dependency	Disease	MESH:D009293
+37113381	3025	3032	patient	Species	9606
+37113381	3144	3151	patient	Species	9606
+37113381	3327	3334	patient	Species	9606
+37113381	Comparison	MESH:D002047	MESH:D008691
+37113381	Negative_Correlation	MESH:D008691	MESH:D009293
+37113381	Negative_Correlation	MESH:D009270	MESH:D009293
+37113381	Negative_Correlation	MESH:D002047	MESH:D009293
+37113381	Comparison	MESH:D002047	MESH:D009270
+

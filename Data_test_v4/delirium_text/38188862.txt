@@ -1,0 +1,33 @@
+38188862|t|Predicting delirium and the effects of medications in hospitalized COVID-19 patients using machine learning: A retrospective study within the Korean Multidisciplinary Cohort for Delirium Prevention (KoMCoDe).
+38188862|a|Objective: Delirium is commonly reported from the inpatients with Coronavirus disease 2019 (COVID-19) infection. As delirium is closely associated with adverse clinical outcomes, prediction and prevention of delirium is critical. We developed a machine learning (ML) model to predict delirium in hospitalized patients with COVID-19 and to identify modifiable factors to prevent delirium. Methods: The data set (n = 878) from four medical centers was constructed. Total of 78 predictors were included such as demographic characteristics, vital signs, laboratory results and medication, and the primary outcome was delirium occurrence during hospitalization. For analysis, the extreme gradient boosting (XGBoost) algorithm was applied, and the most influential factors were selected by recursive feature elimination. Among the indicators of performance for ML model, the area under the curve of the receiver operating characteristic (AUROC) curve was selected as the evaluation metric. Results: Regarding the performance of developed delirium prediction model, the accuracy, precision, recall, F1 score, and the AUROC were calculated (0.944, 0.581, 0.421, 0.485, 0.873, respectively). The influential factors of delirium in this model included were mechanical ventilation, medication (antipsychotics, sedatives, ambroxol, piperacillin/tazobactam, acetaminophen, ceftriaxone, and propacetamol), and sodium ion concentration (all p < 0.05). Conclusions: We developed and internally validated an ML model to predict delirium in COVID-19 inpatients. The model identified modifiable factors associated with the development of delirium and could be clinically useful for the prediction and prevention of delirium in COVID-19 inpatients.
+38188862	11	19	delirium	Disease	MESH:D003693
+38188862	76	84	patients	Species	9606
+38188862	178	186	Delirium	Disease	MESH:D003693
+38188862	220	228	Delirium	Disease	MESH:D003693
+38188862	259	269	inpatients	Species	9606
+38188862	275	320	Coronavirus disease 2019 (COVID-19) infection	Disease	MESH:D000086382
+38188862	325	333	delirium	Disease	MESH:D003693
+38188862	417	425	delirium	Disease	MESH:D003693
+38188862	493	501	delirium	Disease	MESH:D003693
+38188862	518	526	patients	Species	9606
+38188862	587	595	delirium	Disease	MESH:D003693
+38188862	822	830	delirium	Disease	MESH:D003693
+38188862	1241	1249	delirium	Disease	MESH:D003693
+38188862	1419	1427	delirium	Disease	MESH:D003693
+38188862	1519	1527	ambroxol	Chemical	MESH:D000551
+38188862	1529	1552	piperacillin/tazobactam	Chemical	MESH:D000077725
+38188862	1554	1567	acetaminophen	Chemical	MESH:D000082
+38188862	1569	1580	ceftriaxone	Chemical	MESH:D002443
+38188862	1586	1598	propacetamol	Chemical	MESH:C063776
+38188862	1605	1615	sodium ion	Chemical	-
+38188862	1720	1728	delirium	Disease	MESH:D003693
+38188862	1741	1751	inpatients	Species	9606
+38188862	1828	1836	delirium	Disease	MESH:D003693
+38188862	1905	1913	delirium	Disease	MESH:D003693
+38188862	1926	1936	inpatients	Species	9606
+38188862	Positive_Correlation	MESH:D000077725	MESH:D003693
+38188862	Association	MESH:C063776	MESH:D003693
+38188862	Positive_Correlation	MESH:D000082	MESH:D003693
+38188862	Positive_Correlation	MESH:D002443	MESH:D003693
+38188862	Positive_Correlation	MESH:D000551	MESH:D003693
+

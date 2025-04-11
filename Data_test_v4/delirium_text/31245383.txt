@@ -1,0 +1,9 @@
+31245383|t|Comparative Exploratory Analysis of Intrinsically Disordered Protein Dynamics Using Machine Learning and Network Analytic Methods.
+31245383|a|Simulations of intrinsically disordered proteins (IDPs) pose numerous challenges to comparative analysis, prominently including highly dynamic conformational states and a lack of well-defined secondary structure. Machine learning (ML) algorithms are especially effective at discriminating among high-dimensional inputs whose differences are extremely subtle, making them well suited to the study of IDPs. In this work, we apply various ML techniques, including support vector machines (SVM) and clustering, as well as related methods such as principal component analysis (PCA) and protein structure network (PSN) analysis, to the problem of uncovering differences between configurational data from molecular dynamics simulations of two variants of the same IDP. We examine molecular dynamics (MD) trajectories of wild-type amyloid beta (Abeta1-40) and its "Arctic" variant (E22G), systems that play a central role in the etiology of Alzheimer's disease. Our analyses demonstrate ways in which ML and related approaches can be used to elucidate subtle differences between these proteins, including transient structure that is poorly captured by conventional metrics.
+31245383	954	966	amyloid beta	Gene	351
+31245383	1005	1009	E22G	ProteinMutation	tmVar:p|SUB|E|22|G;HGVS:p.E22G;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+31245383	1064	1083	Alzheimer's disease	Disease	MESH:D000544
+31245383	Association	MESH:D000544	HGVS:p.E22G;CorrespondingGene:351
+31245383	Association	MESH:D000544	351
+31245383	Association	MESH:D000544	351
+

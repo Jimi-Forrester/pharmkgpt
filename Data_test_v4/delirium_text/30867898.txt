@@ -1,0 +1,23 @@
+30867898|t|Identification of Differentially Expressed Genes and Long Noncoding RNAs Associated with Parkinson's Disease.
+30867898|a|OBJECTIVES: This study aims to determine differentially expressed genes (DEGs) and long noncoding RNAs (lncRNAs) associated with Parkinson's disease (PD) using a microarray. METHODS: We downloaded the microarray data GSE6613 from the Gene Expression Omnibus, which included 105 samples. We selected 72 samples comprising 22 healthy control blood samples and 50 PD blood samples for further analysis. Later, we used Limma to screen DEGs and differentially expressed lncRNAs (DElncRNAs) and estimated their functions by the Gene Ontology (GO). Besides, the competing endogenous RNA (ceRNA) network, including microRNAs, lncRNAs, and mRNAs, was constructed to elucidate the regulatory mechanism. Furthermore, we performed the KEGG pathway enrichment with mRNAs in the ceRNA regulatory network and constructed a final network, including pathways, mRNAs, microRNAs, and lncRNAs. RESULTS: Overall, we obtained 394 DEGs, including 207 upregulated DEGs and 187 downregulated DEGs, and 7 DElncRNAs, including 2 upregulated DElncRNAs and 5 downregulated DElncRNAs. Insulin-like growth factor-1 receptor (IGF1R) was considerably enriched in the endocytosis pathway. In the ceRNA regulation network, IGF1R was the target of hsa-miR-133b and lncRNAs of XIST, and PART1 could also be the target of hsa-miR-133b. While the upregulated DEGs were enriched in the GO terms of the cytoskeleton, cytoskeletal part, and microtubule cytoskeleton, the downregulated DEGs were enriched in the immune response. PRKACA was markedly enriched in numerous pathways, including the MAPK and insulin signaling pathways. CONCLUSIONS: IGF1R, PRKACA, and lncRNA-XIST could be potentially involved in PD, and these diverse molecular mechanisms could support the development of the similar treatment for PD.
+30867898	89	108	Parkinson's Disease	Disease	MESH:D010300
+30867898	239	258	Parkinson's disease	Disease	MESH:D010300
+30867898	260	262	PD	Disease	MESH:D010300
+30867898	471	473	PD	Disease	MESH:D010300
+30867898	1165	1202	Insulin-like growth factor-1 receptor	Gene	3480
+30867898	1204	1209	IGF1R	Gene	3480
+30867898	1298	1303	IGF1R	Gene	3480
+30867898	1322	1334	hsa-miR-133b	Gene	442890
+30867898	1350	1354	XIST	Gene	7503
+30867898	1394	1406	hsa-miR-133b	Gene	442890
+30867898	1596	1602	PRKACA	Gene	5566
+30867898	1670	1677	insulin	Gene	3630
+30867898	1711	1716	IGF1R	Gene	3480
+30867898	1718	1724	PRKACA	Gene	5566
+30867898	1775	1777	PD	Disease	MESH:D010300
+30867898	1877	1879	PD	Disease	MESH:D010300
+30867898	Association	MESH:D010300	3480
+30867898	Association	3630	5566
+30867898	Association	3480	442890
+30867898	Association	MESH:D010300	5566
+

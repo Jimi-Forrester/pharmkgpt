@@ -1,0 +1,24 @@
+35192625|t|Interpreting coronary artery disease GWAS results: A functional genomics approach assessing biological significance.
+35192625|a|Genome-wide association studies (GWAS) have implicated 58 loci in coronary artery disease (CAD). However, the biological basis for these associations, the relevant genes, and causative variants often remain uncertain. Since the vast majority of GWAS loci reside outside coding regions, most exert regulatory functions. Here we explore the complexity of each of these loci, using tissue specific RNA sequencing data from GTEx to identify genes that exhibit altered expression patterns in the context of GWAS-significant loci, expanding the list of candidate genes from the 75 currently annotated by GWAS to 245, with almost half of these transcripts being non-coding. Tissue specific allelic expression imbalance data, also from GTEx, allows us to uncover GWAS variants that mark functional variation in a locus, e.g., rs7528419 residing in the SORT1 locus, in liver specifically, and rs72689147 in the GUYC1A1 locus, across a variety of tissues. We consider the GWAS variant rs1412444 in the LIPA locus in more detail as an example, probing tissue and transcript specific effects of genetic variation in the region. By evaluating linkage disequilibrium (LD) between tissue specific eQTLs, we reveal evidence for multiple functional variants within loci. We identify 3 variants (rs1412444, rs1051338, rs2250781) that when considered together, each improve the ability to account for LIPA gene expression, suggesting multiple interacting factors. These results refine the assignment of 58 GWAS loci to likely causative variants in a handful of cases and for the remainder help to re-prioritize associated genes and RNA isoforms, suggesting that ncRNAs maybe a relevant transcript in almost half of CAD GWAS results. Our findings support a multi-factorial system where a single variant can influence multiple genes and each genes is regulated by multiple variants.
+35192625	13	36	coronary artery disease	Disease	MESH:D003324
+35192625	183	206	coronary artery disease	Disease	MESH:D003324
+35192625	208	211	CAD	Disease	MESH:D003324
+35192625	935	944	rs7528419	SNP	tmVar:rs7528419;VariantGroup:0;CorrespondingGene:1952;RS#:7528419;CorrespondingSpecies:9606
+35192625	961	966	SORT1	Gene	6272
+35192625	1001	1011	rs72689147	SNP	tmVar:rs72689147;VariantGroup:3;CorrespondingGene:2982;RS#:72689147;CorrespondingSpecies:9606
+35192625	1092	1101	rs1412444	SNP	tmVar:rs1412444;VariantGroup:2;CorrespondingGene:3988;RS#:1412444;CorrespondingSpecies:9606
+35192625	1109	1113	LIPA	Gene	3988
+35192625	1395	1404	rs1412444	SNP	tmVar:rs1412444;VariantGroup:2;CorrespondingGene:3988;RS#:1412444;CorrespondingSpecies:9606
+35192625	1406	1415	rs1051338	SNP	tmVar:rs1051338;VariantGroup:1;CorrespondingGene:3988;RS#:1051338;CorrespondingSpecies:9606
+35192625	1417	1426	rs2250781	SNP	tmVar:rs2250781;VariantGroup:4;CorrespondingGene:3988;RS#:2250781;CorrespondingSpecies:9606
+35192625	1499	1503	LIPA	Gene	3988
+35192625	1813	1816	CAD	Disease	MESH:D003324
+35192625	Positive_Correlation	MESH:D003324	RS#:1051338;CorrespondingGene:3988
+35192625	Association	MESH:D003324	RS#:2250781;CorrespondingGene:3988
+35192625	Association	MESH:D003324	RS#:1412444;CorrespondingGene:3988
+35192625	Association	MESH:D003324	RS#:72689147;CorrespondingGene:2982
+35192625	Association	MESH:D003324	RS#:7528419;CorrespondingGene:1952
+35192625	Association	MESH:D003324	3988
+35192625	Association	MESH:D003324	2982
+35192625	Association	MESH:D003324	1952
+

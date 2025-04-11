@@ -1,0 +1,30 @@
+39801129|t|Unveiling the safety profile of lecanemab: A comprehensive analysis of adverse events using FDA adverse event reporting system data.
+39801129|a|BACKGROUND: Lecanemab, a novel monoclonal antibody targeting amyloid-beta, has shown promise in treating Alzheimer's disease. Comprehensive post-marketing safety data analysis is crucial to understand its real-world risk profile. OBJECTIVE: This study aimed to evaluate the safety profile of lecanemab using data from the FDA Adverse Event Reporting System (FAERS), with a focus on nervous system disorders and amyloid-related imaging abnormalities. METHODS: We conducted a disproportionality analysis using the FAERS database to evaluate the safety signals associated with lecanemab. Reporting odds ratio (ROR), proportional reporting ratio, empirical Bayesian geometric mean, and information component were calculated at both system organ class (SOC) and preferred term (PT) levels. Additionally, we performed a time-to-onset analysis using Weibull shape parameter estimation. RESULTS: Analysis at the SOC level revealed significant signals for nervous system disorders (ROR: 7.32, 95% CI: 6.69-8.00). At the PT level, strong signals were observed for amyloid-related imaging abnormalities, particularly those associated with microhemorrhages and oedema (ROR: 4122.81 and 3922.78, respectively). Headache was the most frequently reported adverse event (200 cases), followed by chills (107 cases) and fatigue (97 cases). Time-to-onset analysis showed a median time of 33 days (range: 1-1283) for all adverse events, with neurological events occurring slightly later (median: 42 days, range: 1-1260). CONCLUSIONS: Our findings highlight a distinct safety profile for lecanemab, with a predominant impact on the nervous system and a notable association with imaging abnormalities. These results underscore the importance of vigilant monitoring and further research to optimize the risk-benefit profile of lecanemab in clinical practice.
+39801129	32	41	lecanemab	Chemical	MESH:C000612089
+39801129	145	154	Lecanemab	Chemical	MESH:C000612089
+39801129	194	206	amyloid-beta	Gene	351
+39801129	238	257	Alzheimer's disease	Disease	MESH:D000544
+39801129	425	434	lecanemab	Chemical	MESH:C000612089
+39801129	515	539	nervous system disorders	Disease	MESH:D009422
+39801129	544	551	amyloid	Disease	MESH:C000718787
+39801129	560	581	imaging abnormalities	Disease	MESH:C564543
+39801129	707	716	lecanemab	Chemical	MESH:C000612089
+39801129	1080	1104	nervous system disorders	Disease	MESH:D009422
+39801129	1187	1194	amyloid	Disease	MESH:C000718787
+39801129	1203	1224	imaging abnormalities	Disease	MESH:C564543
+39801129	1261	1277	microhemorrhages	Disease	
+39801129	1282	1288	oedema	Disease	MESH:C536897
+39801129	1331	1339	Headache	Disease	MESH:D006261
+39801129	1412	1418	chills	Disease	MESH:D023341
+39801129	1435	1442	fatigue	Disease	MESH:D005221
+39801129	1700	1709	lecanemab	Chemical	MESH:C000612089
+39801129	1790	1811	imaging abnormalities	Disease	MESH:C564543
+39801129	1937	1946	lecanemab	Chemical	MESH:C000612089
+39801129	Positive_Correlation	MESH:C000612089	MESH:D023341
+39801129	Association	MESH:C000612089	MESH:C564543
+39801129	Positive_Correlation	MESH:C000612089	MESH:D009422
+39801129	Positive_Correlation	MESH:C000612089	MESH:D006261
+39801129	Negative_Correlation	MESH:C000612089	351
+39801129	Positive_Correlation	MESH:C000612089	MESH:D005221
+39801129	Negative_Correlation	MESH:C000612089	MESH:D000544
+

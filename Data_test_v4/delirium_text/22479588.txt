@@ -1,0 +1,27 @@
+22479588|t|Population differences in transcript-regulator expression quantitative trait loci.
+22479588|a|Gene expression quantitative trait loci (eQTL) are useful for identifying single nucleotide polymorphisms (SNPs) associated with diseases. At times, a genetic variant may be associated with a master regulator involved in the manifestation of a disease. The downstream target genes of the master regulator are typically co-expressed and share biological function. Therefore, it is practical to screen for eQTLs by identifying SNPs associated with the targets of a transcript-regulator (TR). We used a multivariate regression with the gene expression of known targets of TRs and SNPs to identify TReQTLs in European (CEU) and African (YRI) HapMap populations. A nominal p-value of <1x10(-6) revealed 234 SNPs in CEU and 154 in YRI as TReQTLs. These represent 36 independent (tag) SNPs in CEU and 39 in YRI affecting the downstream targets of 25 and 36 TRs respectively. At a false discovery rate (FDR) = 45%, one cis-acting tag SNP (within 1 kb of a gene) in each population was identified as a TReQTL. In CEU, the SNP (rs16858621) in Pcnxl2 was found to be associated with the genes regulated by CREM whereas in YRI, the SNP (rs16909324) was linked to the targets of miRNA hsa-miR-125a. To infer the pathways that regulate expression, we ranked TReQTLs by connectivity within the structure of biological process subtrees. One TReQTL SNP (rs3790904) in CEU maps to Lphn2 and is associated (nominal p-value = 8.1x10(-7)) with the targets of the X-linked breast cancer suppressor Foxp3. The structure of the biological process subtree and a gene interaction network of the TReQTL revealed that tumor necrosis factor, NF-kappaB and variants in G-protein coupled receptors signaling may play a central role as communicators in Foxp3 functional regulation. The potential pleiotropic effect of the Foxp3 TReQTLs was gleaned from integrating mRNA-Seq data and SNP-set enrichment into the analysis.
+22479588	1087	1090	CEU	Disease	
+22479588	1101	1111	rs16858621	SNP	tmVar:rs16858621;VariantGroup:1;CorrespondingGene:80003;RS#:16858621;CorrespondingSpecies:9606
+22479588	1116	1122	Pcnxl2	Gene	80003
+22479588	1178	1182	CREM	Gene	1390
+22479588	1208	1218	rs16909324	SNP	tmVar:rs16909324;VariantGroup:0;CorrespondingGene:374378;RS#:16909324;CorrespondingSpecies:9606
+22479588	1255	1267	hsa-miR-125a	Gene	406910
+22479588	1420	1429	rs3790904	SNP	tmVar:rs3790904;VariantGroup:2;CorrespondingGene:23266;RS#:3790904;CorrespondingSpecies:9606
+22479588	1446	1451	Lphn2	Gene	23266
+22479588	1525	1547	X-linked breast cancer	Disease	MESH:D001943
+22479588	1559	1564	Foxp3	Gene	50943
+22479588	1673	1694	tumor necrosis factor	Gene	7124
+22479588	1696	1705	NF-kappaB	Gene	4790
+22479588	1804	1809	Foxp3	Gene	50943
+22479588	1873	1878	Foxp3	Gene	50943
+22479588	Association	23266	50943
+22479588	Association	MESH:D001943	RS#:16858621;CorrespondingGene:80003
+22479588	Association	MESH:D001943	RS#:3790904;CorrespondingGene:23266
+22479588	Association	4790	50943
+22479588	Association	MESH:D001943	23266
+22479588	Association	1390	80003
+22479588	Negative_Correlation	MESH:D001943	50943
+22479588	Association	50943	7124
+22479588	Association	MESH:D001943	80003
+22479588	Association	MESH:D001943	23266
+

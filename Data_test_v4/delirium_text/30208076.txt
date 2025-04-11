@@ -1,0 +1,27 @@
+30208076|t|Computational prediction of changes in brain metabolic fluxes during Parkinson's disease from mRNA expression.
+30208076|a|BACKGROUND: Parkinson's disease is a widespread neurodegenerative disorder which affects brain metabolism. Although changes in gene expression during disease are often measured, it is difficult to predict metabolic fluxes from gene expression data. Here we explore the hypothesis that changes in gene expression for enzymes tend to parallel flux changes in biochemical reaction pathways in the brain metabolic network. This hypothesis is the basis of a computational method to predict metabolic flux changes from post-mortem gene expression measurements in Parkinson's disease (PD) brain. RESULTS: We use a network model of central metabolism and optimize the correspondence between relative changes in fluxes and in gene expression. To this end we apply the Least-squares with Equalities and Inequalities algorithm integrated with Flux Balance Analysis (Lsei-FBA). We predict for PD (1) decreases in glycolytic rate and oxygen consumption and an increase in lactate production in brain cortex that correspond with measurements (2) relative flux decreases in ATP synthesis, in the malate-aspartate shuttle and midway in the TCA cycle that are substantially larger than relative changes in glucose uptake in the substantia nigra, dopaminergic neurons and most other brain regions (3) shifts in redox shuttles between cytosol and mitochondria (4) in contrast to Alzheimer's disease: little activation of the gamma-aminobutyric acid shunt pathway in compensation for decreased alpha-ketoglutarate dehydrogenase activity (5) in the globus pallidus internus, metabolic fluxes are increased, reflecting increased functional activity. CONCLUSION: Our method predicts metabolic changes from gene expression data that correspond in direction and order of magnitude with presently available experimental observations during Parkinson's disease, indicating that the hypothesis may be useful for some biochemical pathways. Lsei-FBA generates predictions of flux distributions in neurons and small brain regions for which accurate metabolic flux measurements are not yet possible.
+30208076	69	88	Parkinson's disease	Disease	MESH:D010300
+30208076	123	142	Parkinson's disease	Disease	MESH:D010300
+30208076	159	185	neurodegenerative disorder	Disease	MESH:D019636
+30208076	668	687	Parkinson's disease	Disease	MESH:D010300
+30208076	689	691	PD	Disease	MESH:D010300
+30208076	992	994	PD	Disease	MESH:D010300
+30208076	1032	1038	oxygen	Chemical	MESH:D010100
+30208076	1070	1077	lactate	Chemical	MESH:D019344
+30208076	1170	1173	ATP	Chemical	MESH:D000255
+30208076	1192	1198	malate	Chemical	MESH:C030298
+30208076	1199	1208	aspartate	Chemical	MESH:D001224
+30208076	1235	1238	TCA	Chemical	MESH:D014238
+30208076	1300	1307	glucose	Chemical	MESH:D005947
+30208076	1471	1490	Alzheimer's disease	Disease	MESH:D000544
+30208076	1517	1540	gamma-aminobutyric acid	Chemical	MESH:D005680
+30208076	1925	1944	Parkinson's disease	Disease	MESH:D010300
+30208076	Association	MESH:D001224	MESH:D010300
+30208076	Positive_Correlation	MESH:D019344	MESH:D010300
+30208076	Association	MESH:D010100	MESH:D010300
+30208076	Negative_Correlation	MESH:D000255	MESH:D010300
+30208076	Association	MESH:C030298	MESH:D010300
+30208076	Association	MESH:C030298	MESH:D001224
+30208076	Association	MESH:D005947	MESH:D010300
+30208076	Association	MESH:D014238	MESH:D010300
+

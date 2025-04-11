@@ -1,0 +1,45 @@
+11124426|t|Familial Alzheimer's disease presenilin-1 mutants potentiate cell cycle arrest.
+11124426|a|We previously reported that overexpression of presenilin 1 and 2 (PS1 and PS2) in HeLa cells leads to cell cycle arrest, and that the PS2(N141I) FAD mutant potentiates cell cycle arrest compared to wild-type PS2. Using similar BrdU incorporation studies we now report that three different PS1 FAD mutants also increase cell cycle arrest compared to wild-type PS1 when overexpressed in either HeLa cells or an ATM deficient cell line. We detected reproducible differences in the degrees to which these FAD mutants induced arrest. PS1(P117L) reduced BrdU incorporation the most (13 to 14%) followed by PS1(P267S) (7.5 to 9%), with the PS1(E280A) mutant inhibiting BrdU incorporation the least (6 to 7%), compared to wild-type PS1. The degree to which the different mutants inhibited cell cycle progression correlates somewhat with the age of AD onset induced by the mutations in carriers. Immunoblot analysis of protein extracts from presenilin-overexpressing cells indicates that the cell cycle-regulated cytoplasmic pool of beta-catenin is dramatically reduced, whereas the insoluble beta-catenin pool remains essentially unaffected. We discuss the implications of these findings in relationship to cell cycle arrest, apoptosis and AD.
+11124426	0	28	Familial Alzheimer's disease	Disease	MESH:D000544
+11124426	29	41	presenilin-1	Gene	5663
+11124426	126	144	presenilin 1 and 2	Gene	5663;5664
+11124426	146	149	PS1	Gene	5663
+11124426	154	157	PS2	Gene	5664
+11124426	162	166	HeLa	CellLine	CVCL:0030
+11124426	214	217	PS2	Gene	5664
+11124426	218	223	N141I	ProteinMutation	tmVar:p|SUB|N|141|I;HGVS:p.N141I;VariantGroup:2;CorrespondingGene:5664;RS#:63750215;CorrespondingSpecies:9606;CA#:224953
+11124426	225	228	FAD	Gene	5663
+11124426	288	291	PS2	Gene	5664
+11124426	307	311	BrdU	Chemical	MESH:D001973
+11124426	369	372	PS1	Gene	5663
+11124426	373	376	FAD	Gene	5663
+11124426	439	442	PS1	Gene	5663
+11124426	472	476	HeLa	CellLine	CVCL:0030
+11124426	489	492	ATM	Gene	472
+11124426	581	584	FAD	Gene	5663
+11124426	609	612	PS1	Gene	5663
+11124426	613	618	P117L	ProteinMutation	tmVar:p|SUB|P|117|L;HGVS:p.P117L;VariantGroup:1;CorrespondingGene:5663;RS#:63749805;CorrespondingSpecies:9606;CA#:225007
+11124426	628	632	BrdU	Chemical	MESH:D001973
+11124426	680	683	PS1	Gene	5663
+11124426	684	689	P267S	ProteinMutation	tmVar:p|SUB|P|267|S;HGVS:p.P267S;VariantGroup:0;CorrespondingGene:5663;RS#:63751229;CorrespondingSpecies:9606;CA#:225118
+11124426	713	716	PS1	Gene	5663
+11124426	717	722	E280A	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:3;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+11124426	742	746	BrdU	Chemical	MESH:D001973
+11124426	804	807	PS1	Gene	5663
+11124426	920	922	AD	Disease	MESH:D000544
+11124426	1104	1116	beta-catenin	Gene	1499
+11124426	1164	1176	beta-catenin	Gene	1499
+11124426	1312	1314	AD	Disease	MESH:D000544
+11124426	Positive_Correlation	MESH:D000544	RS#:63749805;HGVS:p.P117L;CorrespondingGene:5663
+11124426	Positive_Correlation	MESH:D000544	RS#:63750231;HGVS:p.E280A;CorrespondingGene:5663
+11124426	Positive_Correlation	MESH:D000544	RS#:63751229;HGVS:p.P267S;CorrespondingGene:5663
+11124426	Negative_Correlation	MESH:D001973	RS#:63749805;HGVS:p.P117L;CorrespondingGene:5663
+11124426	Bind	5663	5664
+11124426	Negative_Correlation	MESH:D001973	RS#:63750231;HGVS:p.E280A;CorrespondingGene:5663
+11124426	Positive_Correlation	MESH:D000544	RS#:63750215;HGVS:p.N141I;CorrespondingGene:5664
+11124426	Association	MESH:D000544	5663
+11124426	Association	MESH:D000544	5664
+11124426	Association	MESH:D001973	5663
+11124426	Association	MESH:D000544	5663
+11124426	Association	MESH:D000544	5664
+

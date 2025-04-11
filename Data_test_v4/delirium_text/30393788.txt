@@ -1,0 +1,11 @@
+30393788|t|Delirium Prediction using Machine Learning Models on Preoperative Electronic Health Records Data.
+30393788|a|Electronic Health Records (EHR) are mainly designed to record relevant patient information during their stay in the hospital for administrative purposes. They additionally provide an efficient and inexpensive source of data for medical research, such as patient outcome prediction. In this study, we used preoperative Electronic Health Records to predict postoperative delirium. We compared the performance of seven machine learning models on delirium prediction: linear models, generalized additive models, random forests, support vector machine, neural networks, and extreme gradient boosting. Among the models evaluated in this study, random forests and generalized additive model outperformed the other models in terms of the overall performance metrics for prediction of delirium, particularly with respect to sensitivity. We found that age, alcohol or drug abuse, socioeconomic status, underlying medical issue, severity of medical problem, and attending surgeon can affect the risk of delirium.
+30393788	0	8	Delirium	Disease	MESH:D003693
+30393788	169	176	patient	Species	9606
+30393788	352	359	patient	Species	9606
+30393788	453	475	postoperative delirium	Disease	MESH:D000071257
+30393788	541	549	delirium	Disease	MESH:D003693
+30393788	874	882	delirium	Disease	MESH:D003693
+30393788	945	966	alcohol or drug abuse	Disease	MESH:D019966
+30393788	1090	1098	delirium	Disease	MESH:D003693
+

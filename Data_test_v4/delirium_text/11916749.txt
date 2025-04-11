@@ -1,0 +1,62 @@
+11916749|t|High-dose vitamin therapy stimulates variant enzymes with decreased coenzyme binding affinity (increased K(m)): relevance to genetic disease and polymorphisms.
+11916749|a|As many as one-third of mutations in a gene result in the corresponding enzyme having an increased Michaelis constant, or K(m), (decreased binding affinity) for a coenzyme, resulting in a lower rate of reaction. About 50 human genetic dis-eases due to defective enzymes can be remedied or ameliorated by the administration of high doses of the vitamin component of the corresponding coenzyme, which at least partially restores enzymatic activity. Several single-nucleotide polymorphisms, in which the variant amino acid reduces coenzyme binding and thus enzymatic activity, are likely to be remediable by raising cellular concentrations of the cofactor through high-dose vitamin therapy. Some examples include the alanine-to-valine substitution at codon 222 (Ala222-->Val) [DNA: C-to-T substitution at nucleo-tide 677 (677C-->T)] in methylenetetrahydrofolate reductase (NADPH) and the cofactor FAD (in relation to cardiovascular disease, migraines, and rages), the Pro187-->Ser (DNA: 609C-->T) mutation in NAD(P):quinone oxidoreductase 1 [NAD(P)H dehy-drogenase (quinone)] and FAD (in relation to cancer), the Ala44-->Gly (DNA: 131C-->G) mutation in glucose-6-phosphate 1-dehydrogenase and NADP (in relation to favism and hemolytic anemia), and the Glu487-->Lys mutation (present in one-half of Asians) in aldehyde dehydrogenase (NAD + ) and NAD (in relation to alcohol intolerance, Alzheimer disease, and cancer).
+11916749	125	140	genetic disease	Disease	MESH:D030342
+11916749	381	386	human	Species	9606
+11916749	874	917	alanine-to-valine substitution at codon 222	ProteinMutation	tmVar:p|SUB|A|222|V;HGVS:p.A222V;VariantGroup:0;CorrespondingGene:4524;RS#:1801133;CorrespondingSpecies:9606;CA#:170990
+11916749	919	931	Ala222-->Val	ProteinMutation	tmVar:p|SUB|A|222|V;HGVS:p.A222V;VariantGroup:0;CorrespondingGene:4524;RS#:1801133;CorrespondingSpecies:9606;CA#:170990
+11916749	939	945	C-to-T	DNAMutation	tmVar:c|SUB|C||T;VariantGroup:5
+11916749	979	987	677C-->T	DNAMutation	tmVar:c|SUB|C|677|T;HGVS:c.677C>T;VariantGroup:0;CorrespondingGene:4524;RS#:1801133;CorrespondingSpecies:9606;CA#:170990
+11916749	993	1028	methylenetetrahydrofolate reductase	Gene	4524
+11916749	1030	1035	NADPH	Chemical	MESH:D009249
+11916749	1054	1057	FAD	Chemical	MESH:D005182
+11916749	1074	1096	cardiovascular disease	Disease	MESH:D002318
+11916749	1098	1107	migraines	Disease	MESH:D008881
+11916749	1113	1118	rages	Disease	
+11916749	1125	1137	Pro187-->Ser	ProteinMutation	tmVar:p|SUB|P|187|S;HGVS:p.P187S;VariantGroup:4
+11916749	1144	1152	609C-->T	DNAMutation	tmVar:c|SUB|C|609|T;HGVS:c.609C>T;VariantGroup:2;CorrespondingGene:2539;RS#:200111236;CorrespondingSpecies:9606;CA#:10566222
+11916749	1223	1230	quinone	Chemical	MESH:C004532
+11916749	1237	1240	FAD	Chemical	MESH:D005182
+11916749	1257	1263	cancer	Disease	MESH:D009369
+11916749	1270	1281	Ala44-->Gly	ProteinMutation	tmVar:p|SUB|A|44|G;HGVS:p.A44G;VariantGroup:1;CorrespondingGene:2539;RS#:78478128;CorrespondingSpecies:9606;CA#:121031
+11916749	1288	1296	131C-->G	DNAMutation	tmVar:c|SUB|C|131|G;HGVS:c.131C>G;VariantGroup:1;CorrespondingGene:2539;RS#:78478128;CorrespondingSpecies:9606;CA#:121031
+11916749	1310	1345	glucose-6-phosphate 1-dehydrogenase	Gene	2539
+11916749	1350	1354	NADP	Chemical	MESH:D009249
+11916749	1371	1377	favism	Disease	MESH:D005236
+11916749	1382	1398	hemolytic anemia	Disease	MESH:D000743
+11916749	1409	1421	Glu487-->Lys	ProteinMutation	tmVar:p|SUB|E|487|K;HGVS:p.E487K;VariantGroup:3
+11916749	1490	1495	NAD +	Chemical	MESH:D009243
+11916749	1502	1505	NAD	Chemical	MESH:D009243
+11916749	1522	1529	alcohol	Chemical	MESH:D000438
+11916749	1543	1560	Alzheimer disease	Disease	MESH:D000544
+11916749	1566	1572	cancer	Disease	MESH:D009369
+11916749	Association	RS#:78478128;HGVS:p.A44G;CorrespondingGene:2539	MESH:D000743
+11916749	Association	MESH:D000743	RS#:78478128;HGVS:p.A44G;CorrespondingGene:2539
+11916749	Association	MESH:D005182	MESH:D008881
+11916749	Association	RS#:1801133;HGVS:p.A222V;CorrespondingGene:4524	MESH:D005236
+11916749	Association	RS#:200111236;HGVS:c.609C>T;CorrespondingGene:2539	MESH:D000743
+11916749	Association	MESH:D009249	MESH:D000743
+11916749	Association	MESH:D008881	4524
+11916749	Association	RS#:1801133;HGVS:p.A222V;CorrespondingGene:4524	MESH:D000743
+11916749	Association	MESH:D000743	2539
+11916749	Association	MESH:D002318	4524
+11916749	Association	MESH:D005236	RS#:78478128;HGVS:p.A44G;CorrespondingGene:2539
+11916749	Association	RS#:78478128;HGVS:p.A44G;CorrespondingGene:2539	MESH:D005236
+11916749	Association	MESH:D000438	HGVS:p.E487K
+11916749	Association	MESH:D000544	HGVS:p.E487K
+11916749	Association	MESH:D009369	HGVS:p.E487K
+11916749	Association	MESH:D009249	MESH:D005236
+11916749	Association	RS#:200111236;HGVS:c.609C>T;CorrespondingGene:2539	MESH:D005236
+11916749	Association	RS#:78478128;HGVS:c.131C>G;CorrespondingGene:2539	MESH:D000743
+11916749	Association	MESH:D005182	MESH:D009369
+11916749	Association	MESH:D000438	MESH:D009369
+11916749	Association	MESH:D005182	MESH:D002318
+11916749	Association	MESH:D005236	2539
+11916749	Association	MESH:D009243	MESH:D000544
+11916749	Association	MESH:D000438	MESH:D009243
+11916749	Association	MESH:D009243	MESH:D009369
+11916749	Association	RS#:78478128;HGVS:c.131C>G;CorrespondingGene:2539	MESH:D005236
+11916749	Association	MESH:D000743	2539
+11916749	Association	MESH:D005236	4524
+11916749	Association	MESH:D000743	4524
+11916749	Association	MESH:D005236	2539
+

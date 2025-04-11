@@ -1,0 +1,46 @@
+29563862|t|Caffeine Protects Dopaminergic Neurons From Dopamine-Induced Neurodegeneration via Synergistic Adenosine-Dopamine D2-Like Receptor Interactions in Transgenic Caenorhabditis elegans.
+29563862|a|Previous studies have suggested that caffeine reduces the risk of L-DOPA-induced dyskinesia. However, caffeine is also known to promote dopamine signaling, which seemingly contradicts this observed effect. To this end, the study aimed to clarify the mechanism of caffeine neuroprotection in vivo when excess dopamine is present. Transgenic Caenorhabditis elegans (UA57) overproducing dopamine was exposed to caffeine for 7 days and monitored by observing GFP-tagged dopaminergic (DA) neurons via fluorescence microscopy. Caffeine (10 mM) prevented neuronal cell loss in 96% of DA neurons, with a mean GFP intensity that is 40% higher than control (0.1% DMSO). To confirm if cAMP plays a role in the observed neuroprotection by caffeine, cAMP levels were elevated via forskolin (10 muM), an adenylyl cyclase activator. Forskolin (10 muM) exposure did not confer neuroprotection and was similar to control (0.1% DMSO) at the 7th day, suggesting that cAMP is not the sole secondary messenger utilized. Rotigotine (160 muM), a dopamine D2-like receptor (DOP2R) agonist, was not able to confer significant neuroprotection to the nematodes. This suggests that DOP2R activation is necessary but insufficient to mimic neuroprotection by caffeine. Lastly, co-administration of caffeine (10 mM) with olanzapine (160 muM), a DOP2R antagonist, eliminated neuroprotection. This suggests that the protective effect must involve both adenosine receptor antagonism and activation of DOP2Rs. Taken together, we show that caffeine protects DA neurons from dopamine-induced neurodegeneration and acts by modulating adenosine receptor-DOP2R interactions in C. elegans.
+29563862	0	8	Caffeine	Chemical	MESH:D002110
+29563862	44	52	Dopamine	Chemical	MESH:D004298
+29563862	61	78	Neurodegeneration	Disease	MESH:D019636
+29563862	158	180	Caenorhabditis elegans	Species	6239
+29563862	219	227	caffeine	Chemical	MESH:D002110
+29563862	248	254	L-DOPA	Chemical	MESH:D007980
+29563862	263	273	dyskinesia	Disease	MESH:D004409
+29563862	284	292	caffeine	Chemical	MESH:D002110
+29563862	318	326	dopamine	Chemical	MESH:D004298
+29563862	445	453	caffeine	Chemical	MESH:D002110
+29563862	490	498	dopamine	Chemical	MESH:D004298
+29563862	522	544	Caenorhabditis elegans	Species	6239
+29563862	546	550	UA57	CellLine	CVCL:ZE99
+29563862	566	574	dopamine	Chemical	MESH:D004298
+29563862	590	598	caffeine	Chemical	MESH:D002110
+29563862	703	711	Caffeine	Chemical	MESH:D002110
+29563862	730	738	neuronal	Disease	MESH:D009410
+29563862	835	839	DMSO	Chemical	MESH:D004121
+29563862	856	860	cAMP	Chemical	-
+29563862	909	917	caffeine	Chemical	MESH:D002110
+29563862	919	923	cAMP	Chemical	-
+29563862	949	958	forskolin	Chemical	MESH:D005576
+29563862	972	988	adenylyl cyclase	Gene	175622
+29563862	1000	1009	Forskolin	Chemical	MESH:D005576
+29563862	1092	1096	DMSO	Chemical	MESH:D004121
+29563862	1130	1134	cAMP	Chemical	-
+29563862	1181	1191	Rotigotine	Chemical	MESH:C047508
+29563862	1411	1419	caffeine	Chemical	MESH:D002110
+29563862	1450	1458	caffeine	Chemical	MESH:D002110
+29563862	1472	1482	olanzapine	Chemical	MESH:D000077152
+29563862	1686	1694	caffeine	Chemical	MESH:D002110
+29563862	1720	1728	dopamine	Chemical	MESH:D004298
+29563862	1737	1754	neurodegeneration	Disease	MESH:D019636
+29563862	1819	1829	C. elegans	Species	328850
+29563862	Negative_Correlation	MESH:D002110	MESH:D004409
+29563862	Negative_Correlation	MESH:D002110	MESH:D009410
+29563862	Cotreatment	MESH:D000077152	MESH:D002110
+29563862	Positive_Correlation	MESH:D004298	MESH:D019636
+29563862	Negative_Correlation	MESH:D002110	MESH:D007980
+29563862	Positive_Correlation	MESH:D002110	MESH:D004298
+29563862	Positive_Correlation	MESH:D007980	MESH:D004409
+29563862	Negative_Correlation	MESH:D002110	MESH:D019636
+29563862	Positive_Correlation	MESH:D005576	175622
+

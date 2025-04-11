@@ -1,0 +1,16 @@
+37921361|t|Image Translation for Estimating Two-Dimensional Axial Amyloid-Beta PET From Structural MRI.
+37921361|a|BACKGROUND: Amyloid-beta and brain atrophy are hallmarks for Alzheimer's Disease that can be targeted with positron emission tomography (PET) and MRI, respectively. MRI is cheaper, less-invasive, and more available than PET. There is a known relationship between amyloid-beta and brain atrophy, meaning PET images could be inferred from MRI. PURPOSE: To build an image translation model using a Conditional Generative Adversarial Network able to synthesize Amyloid-beta PET images from structural MRI. STUDY TYPE: Retrospective. POPULATION: Eight hundred eighty-two adults (348 males/534 females) with different stages of cognitive decline (control, mild cognitive impairment, moderate cognitive impairment, and severe cognitive impairment). Five hundred fifty-two subjects for model training and 331 for testing (80%:20%). FIELD STRENGTH/SEQUENCE: 3 T, T1-weighted structural (T1w). ASSESSMENT: The testing cohort was used to evaluate the performance of the model using the Structural Similarity Index Measure (SSIM) and Peak Signal-to-Noise Ratio (PSNR), comparing the likeness of the overall synthetic PET images created from structural MRI with the overall true PET images. SSIM was computed in the overall image to include the luminance, contrast, and structural similarity components. Experienced observers reviewed the images for quality, performance and tried to determine if they could tell the difference between real and synthetic images. STATISTICAL TESTS: Pixel wise Pearson correlation was significant, and had an R2 greater than 0.96 in example images. From blinded readings, a Pearson Chi-squared test showed that there was no significant difference between the real and synthetic images by the observers (P = 0.68). RESULTS: A high degree of likeness across the evaluation set, which had a mean SSIM = 0.905 and PSNR = 2.685. The two observers were not able to determine the difference between the real and synthetic images, with accuracies of 54% and 46%, respectively. CONCLUSION: Amyloid-beta PET images can be synthesized from structural MRI with a high degree of similarity to the real PET images. EVIDENCE LEVEL: 3 TECHNICAL EFFICACY: Stage 1.
+37921361	55	67	Amyloid-Beta	Gene	351
+37921361	105	117	Amyloid-beta	Gene	351
+37921361	122	135	brain atrophy	Disease	MESH:C566985
+37921361	154	173	Alzheimer's Disease	Disease	MESH:D000544
+37921361	356	368	amyloid-beta	Gene	351
+37921361	373	386	brain atrophy	Disease	MESH:C566985
+37921361	550	562	Amyloid-beta	Gene	351
+37921361	715	732	cognitive decline	Disease	MESH:D003072
+37921361	748	768	cognitive impairment	Disease	MESH:D003072
+37921361	779	799	cognitive impairment	Disease	MESH:D003072
+37921361	812	832	cognitive impairment	Disease	MESH:D003072
+37921361	2093	2105	Amyloid-beta	Gene	351
+37921361	Association	MESH:D000544	351
+

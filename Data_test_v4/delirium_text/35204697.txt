@@ -1,0 +1,36 @@
+35204697|t|DOTA: Deep Learning Optimal Transport Approach to Advance Drug Repositioning for Alzheimer's Disease.
+35204697|a|Alzheimer's disease (AD) is the leading cause of age-related dementia, affecting over 5 million people in the United States and incurring a substantial global healthcare cost. Unfortunately, current treatments are only palliative and do not cure AD. There is an urgent need to develop novel anti-AD therapies; however, drug discovery is a time-consuming, expensive, and high-risk process. Drug repositioning, on the other hand, is an attractive approach to identify drugs for AD treatment. Thus, we developed a novel deep learning method called DOTA (Drug repositioning approach using Optimal Transport for Alzheimer's disease) to repurpose effective FDA-approved drugs for AD. Specifically, DOTA consists of two major autoencoders: (1) a multi-modal autoencoder to integrate heterogeneous drug information and (2) a Wasserstein variational autoencoder to identify effective AD drugs. Using our approach, we predict that antipsychotic drugs with circadian effects, such as quetiapine, aripiprazole, risperidone, suvorexant, brexpiprazole, olanzapine, and trazadone, will have efficacious effects in AD patients. These drugs target important brain receptors involved in memory, learning, and cognition, including serotonin 5-HT2A, dopamine D2, and orexin receptors. In summary, DOTA repositions promising drugs that target important biological pathways and are predicted to improve patient cognition, circadian rhythms, and AD pathogenesis.
+35204697	0	4	DOTA	Chemical	MESH:C071349
+35204697	81	100	Alzheimer's Disease	Disease	MESH:D000544
+35204697	102	121	Alzheimer's disease	Disease	MESH:D000544
+35204697	123	125	AD	Disease	MESH:D000544
+35204697	151	171	age-related dementia	Disease	MESH:D003704
+35204697	348	350	AD	Disease	MESH:D000544
+35204697	398	400	AD	Disease	MESH:D000544
+35204697	578	580	AD	Disease	MESH:D000544
+35204697	647	651	DOTA	Chemical	MESH:C071349
+35204697	709	728	Alzheimer's disease	Disease	MESH:D000544
+35204697	776	778	AD	Disease	MESH:D000544
+35204697	794	798	DOTA	Chemical	MESH:C071349
+35204697	977	979	AD	Disease	MESH:D000544
+35204697	1075	1085	quetiapine	Chemical	MESH:D000069348
+35204697	1087	1099	aripiprazole	Chemical	MESH:D000068180
+35204697	1101	1112	risperidone	Chemical	MESH:D018967
+35204697	1114	1124	suvorexant	Chemical	MESH:C551624
+35204697	1126	1139	brexpiprazole	Chemical	MESH:C000591922
+35204697	1141	1151	olanzapine	Chemical	MESH:D000077152
+35204697	1157	1166	trazadone	Chemical	-
+35204697	1201	1203	AD	Disease	MESH:D000544
+35204697	1204	1212	patients	Species	9606
+35204697	1314	1330	serotonin 5-HT2A	Chemical	-
+35204697	1379	1383	DOTA	Chemical	MESH:C071349
+35204697	1483	1490	patient	Species	9606
+35204697	1525	1527	AD	Disease	MESH:D000544
+35204697	Negative_Correlation	MESH:C000591922	MESH:D000544
+35204697	Negative_Correlation	MESH:D018967	MESH:D000544
+35204697	Negative_Correlation	MESH:D000069348	MESH:D000544
+35204697	Negative_Correlation	MESH:C071349	MESH:D000544
+35204697	Negative_Correlation	MESH:C551624	MESH:D000544
+35204697	Negative_Correlation	MESH:D000068180	MESH:D000544
+35204697	Negative_Correlation	MESH:D000077152	MESH:D000544
+

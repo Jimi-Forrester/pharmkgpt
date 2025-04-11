@@ -1,0 +1,23 @@
+38895707|t|Prediction of Progression from Mild Cognitive Impairment to Alzheimer's disease with Longitudinal and Multimodal Data.
+38895707|a|Introduction: Accurate prediction of the progression from mild cognitive impairment (MCI) to Alzheimer's disease (AD) within a certain time frame is crucial for appropriate therapeutic interventions. However, it is challenging to capture the dynamic changes in cognitive and functional abilities over time, resulting in limited predictive performance. Our study aimed to investigate whether incorporating longitudinal multimodal data with advanced analytical methods could improve the capability to predict the risk of progressing to AD. Methods: This study included participants from the Alzheimer's Disease Neuroimaging Initiative (ADNI), a large-scale multi-center longitudinal study. Three data modalities, including demographic variables, neuropsychological tests, and neuroimaging measures were considered. A Long Short-Term Memory (LSTM) model using data collected at five-time points (baseline, 6-month, 12-month, 18-month, and 24-month) was developed to predict the risk of progression from MCI to AD within two years from the index exam (the exam at 24-month). In contrast, a random forest model was developed to predict the risk of progression just based on the data collected at the index exam. Results: The study included 347 participants with MCI at 24-month (age: mean 75, SD 7 years; 39.8% women) from ADNI, of whom 77 converted to AD over a 2-year follow-up period. The longitudinal LSTM model showed superior prediction performance of MCI-to-AD progression (AUC 0.93+-0.06) compared to the random forest model (AUC 0.90+-0.09). A similar pattern was also observed across different age groups. Discussion: Our study suggests that the incorporation of longitudinal data can provide better predictive performance for 2-year MCI-to-AD progression risk than relying solely on cross-sectional data. Therefore, repeated or multiple times routine health surveillance of MCI patients are essential in the early detection and intervention of AD.
+38895707	36	56	Cognitive Impairment	Disease	MESH:D003072
+38895707	60	79	Alzheimer's disease	Disease	MESH:D000544
+38895707	182	202	cognitive impairment	Disease	MESH:D003072
+38895707	204	207	MCI	Disease	MESH:D060825
+38895707	212	231	Alzheimer's disease	Disease	MESH:D000544
+38895707	233	235	AD	Disease	MESH:D000544
+38895707	653	655	AD	Disease	MESH:D000544
+38895707	708	727	Alzheimer's Disease	Disease	MESH:D000544
+38895707	1119	1122	MCI	Disease	MESH:D060825
+38895707	1126	1128	AD	Disease	MESH:D000544
+38895707	1376	1379	MCI	Disease	MESH:D060825
+38895707	1425	1430	women	Species	9606
+38895707	1467	1469	AD	Disease	MESH:D000544
+38895707	1572	1575	MCI	Disease	MESH:D060825
+38895707	1579	1581	AD	Disease	MESH:D000544
+38895707	1858	1861	MCI	Disease	MESH:D060825
+38895707	1865	1867	AD	Disease	MESH:D000544
+38895707	1999	2002	MCI	Disease	MESH:D060825
+38895707	2003	2011	patients	Species	9606
+38895707	2069	2071	AD	Disease	MESH:D000544
+

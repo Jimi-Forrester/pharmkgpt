@@ -1,0 +1,15 @@
+39333903|t|A multi-slice attention fusion and multi-view personalized fusion lightweight network for Alzheimer's disease diagnosis.
+39333903|a|OBJECTIVE: Alzheimer's disease (AD) is a type of neurological illness that significantly impacts individuals' daily lives. In the intelligent diagnosis of AD, 3D networks require larger computational resources and storage space for training the models, leading to increased model complexity and training time. On the other hand, 2D slices analysis may overlook the 3D structural information of MRI and can result in information loss. APPROACH: We propose a multi-slice attention fusion and multi-view personalized fusion lightweight network for automated AD diagnosis. It incorporates a multi-branch lightweight backbone to extract features from sagittal, axial, and coronal view of MRI, respectively. In addition, we introduce a novel multi-slice attention fusion module, which utilizes a combination of global and local channel attention mechanism to ensure consistent classification across multiple slices. Additionally, a multi-view personalized fusion module is tailored to assign appropriate weights to the three views, taking into account the varying significance of each view in achieving accurate classification results. To enhance the performance of the multi-view personalized fusion module, we utilize a label consistency loss to guide the model's learning process. This encourages the acquisition of more consistent and stable representations across all three views. MAIN RESULTS: The suggested strategy is efficient in lowering the number of parameters and FLOPs, with only 3.75M and 4.45G respectively, and accuracy improved by 10.5% to 14% in three tasks. Moreover, in the classification tasks of AD vs. CN, AD vs. MCI and MCI vs. CN, the accuracy of the proposed method is 95.63%, 86.88% and 85.00%, respectively, which is superior to the existing methods. CONCLUSIONS: The results show that the proposed approach not only excels in resource utilization, but also significantly outperforms the four comparison methods in terms of accuracy and sensitivity, particularly in detecting early-stage AD lesions. It can precisely capture and accurately identify subtle brain lesions, providing crucial technical support for early intervention and treatment.
+39333903	90	109	Alzheimer's disease	Disease	MESH:D000544
+39333903	132	151	Alzheimer's disease	Disease	MESH:D000544
+39333903	153	155	AD	Disease	MESH:D000544
+39333903	170	190	neurological illness	Disease	MESH:D009461
+39333903	276	278	AD	Disease	MESH:D000544
+39333903	676	678	AD	Disease	MESH:D000544
+39333903	1734	1736	AD	Disease	MESH:D000544
+39333903	1745	1747	AD	Disease	MESH:D000544
+39333903	1752	1755	MCI	Disease	
+39333903	1760	1763	MCI	Disease	
+39333903	2132	2134	AD	Disease	MESH:D000544
+39333903	2200	2213	brain lesions	Disease	MESH:D001927
+

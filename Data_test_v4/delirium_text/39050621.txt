@@ -1,0 +1,23 @@
+39050621|t|A Dual-Camera Eye-Tracking Platform for Rapid Real-Time Diagnosis of Acute Delirium: A Pilot Study.
+39050621|a|OBJECTIVE: Delirium, an acute confusional state, affects 20-80% of patients in Intensive Care Units (ICUs), one in three medically hospitalized patients, and up to 50% of all patients who have had surgery. Its development is associated with short- and long-term morbidity, and increased risk of death. Yet, we lack any rapid, objective, and automated method to diagnose delirium. Here, we detail the prospective deployment of a novel dual-camera contextual eye-tracking platform. We then use the data from this platform to contemporaneously classify delirium. RESULTS: We recruited 42 patients, resulting in 210 (114 with delirium, 96 without) recordings of hospitalized patients in ICU across two centers, as part of a prospective multi-center feasibility pilot study. All recordings made with our platform were usable for analysis. We divided the collected data into training and validation cohorts based on the data originating center. We trained two Temporal Convolutional Network (TCN) models that can classify delirium using a pre-existing manual scoring system (Confusion Assessment Method in ICU (CAM-ICU)) as the training target. The first model uses eye movements only which achieves an Area Under the Receiver Operator Curve (AUROC) of 0.67 and a mean Average Precision (mAP) of 0.68. The second model uses the point of regard, the part of the scene the patient is looking at, and increases the AUROC to 0.76 and the mAP to 0.81. These models are the first to classify delirium using continuous non-invasive eye-tracking but will require further clinical prospective validation prior to use as a decision-support tool. CLINICAL IMPACT: Eye-tracking is a biological signal that can be used to identify delirium in patients in ICU. The platform, alongside the trained neural networks, can automatically, objectively, and continuously classify delirium aiding in the early detection of the deteriorating patient. Future work is aimed at prospective evaluation and clinical translation.
+39050621	75	83	Delirium	Disease	MESH:D003693
+39050621	111	119	Delirium	Disease	MESH:D003693
+39050621	130	141	confusional	Disease	MESH:D003221
+39050621	167	175	patients	Species	9606
+39050621	244	252	patients	Species	9606
+39050621	275	283	patients	Species	9606
+39050621	395	400	death	Disease	MESH:D003643
+39050621	470	478	delirium	Disease	MESH:D003693
+39050621	650	658	delirium	Disease	MESH:D003693
+39050621	685	693	patients	Species	9606
+39050621	722	730	delirium	Disease	MESH:D003693
+39050621	771	779	patients	Species	9606
+39050621	1116	1124	delirium	Disease	MESH:D003693
+39050621	1169	1178	Confusion	Disease	MESH:D003221
+39050621	1465	1472	patient	Species	9606
+39050621	1580	1588	delirium	Disease	MESH:D003693
+39050621	1812	1820	delirium	Disease	MESH:D003693
+39050621	1824	1832	patients	Species	9606
+39050621	1952	1960	delirium	Disease	MESH:D003693
+39050621	2012	2019	patient	Species	9606
+

@@ -1,0 +1,49 @@
+28632197|t|Toxic AGE (TAGE) Theory for the Pathophysiology of the Onset/Progression of NAFLD and ALD.
+28632197|a|Non-alcoholic fatty liver disease (NAFLD) and alcoholic liver disease (ALD) are among the most common causes of chronic liver diseases in the westernized world. NAFLD and ALD are frequently accompanied by extrahepatic complications, including hepatocellular carcinoma and cardiovascular diseases, which have a negative impact on patient survival. The chronic ingestion of an excessive daily diet containing sugar/high-fructose corn syrup increases the level of the fructose/glucose metabolite, glyceraldehyde (GA), while the chronic consumption of an excessive number of alcoholic beverages increases the level of the alcohol metabolite, acetaldehyde (AA) in the liver. GA and AA are known to react non-enzymatically with the epsilon- or alpha-amino groups of proteins, thereby generating advanced glycation end-products (AGEs, GA-AGEs, and AA-AGEs, respectively) in vivo. The interaction between GA-AGEs and the receptor for AGEs (RAGE) alters intracellular signaling, gene expression, and the release of pro-inflammatory molecules and also elicits the production of reactive oxygen species by human hepatocytes and hepatic stellate cells, all of which may contribute to the pathological changes associated with chronic liver diseases. We herein discuss the pathophysiological roles of GA-AGEs and AA-AGEs (toxic AGEs, TAGE) and a related novel theory for preventing the onset/progression of NAFLD and ALD.
+28632197	0	9	Toxic AGE	Disease	OMIM:613784
+28632197	11	15	TAGE	Disease	OMIM:613784
+28632197	76	81	NAFLD	Disease	MESH:D065626
+28632197	86	89	ALD	Disease	MESH:D008108
+28632197	91	124	Non-alcoholic fatty liver disease	Disease	MESH:D065626
+28632197	126	131	NAFLD	Disease	MESH:D065626
+28632197	137	160	alcoholic liver disease	Disease	MESH:D008108
+28632197	162	165	ALD	Disease	MESH:D008108
+28632197	211	225	liver diseases	Disease	MESH:D008107
+28632197	252	257	NAFLD	Disease	MESH:D065626
+28632197	262	265	ALD	Disease	MESH:D008108
+28632197	334	358	hepatocellular carcinoma	Disease	MESH:D006528
+28632197	363	386	cardiovascular diseases	Disease	MESH:D002318
+28632197	420	427	patient	Species	9606
+28632197	498	503	sugar	Chemical	MESH:D000073893
+28632197	508	528	-fructose corn syrup	Chemical	-
+28632197	556	564	fructose	Chemical	MESH:D005632
+28632197	565	572	glucose	Chemical	MESH:D005947
+28632197	585	599	glyceraldehyde	Chemical	MESH:D005985
+28632197	601	603	GA	Chemical	MESH:D005985
+28632197	709	716	alcohol	Chemical	MESH:D000438
+28632197	729	741	acetaldehyde	Chemical	MESH:D000079
+28632197	761	763	GA	Chemical	MESH:D005985
+28632197	880	898	advanced glycation	Disease	MESH:D020178
+28632197	913	917	AGEs	Disease	MESH:D003643
+28632197	919	921	GA	Chemical	MESH:D005985
+28632197	922	926	AGEs	Disease	MESH:D003643
+28632197	935	939	AGEs	Disease	MESH:D003643
+28632197	1004	1021	receptor for AGEs	Gene	177
+28632197	1023	1027	RAGE	Gene	177
+28632197	1101	1113	inflammatory	Disease	MESH:D007249
+28632197	1159	1182	reactive oxygen species	Chemical	MESH:D017382
+28632197	1186	1191	human	Species	9606
+28632197	1312	1326	liver diseases	Disease	MESH:D008107
+28632197	1378	1380	GA	Chemical	MESH:D005985
+28632197	1411	1415	TAGE	Disease	OMIM:613784
+28632197	1484	1489	NAFLD	Disease	MESH:D065626
+28632197	1494	1497	ALD	Disease	MESH:D008108
+28632197	Negative_Correlation	MESH:D005985	MESH:D008108
+28632197	Association	MESH:D007249	177
+28632197	Negative_Correlation	MESH:D005985	MESH:D065626
+28632197	Positive_Correlation	MESH:D000073893	MESH:D005947
+28632197	Positive_Correlation	MESH:D000073893	MESH:D005985
+28632197	Positive_Correlation	MESH:D005985	MESH:D003643
+28632197	Association	MESH:D008108	177
+28632197	Positive_Correlation	MESH:D005985	MESH:D020178
+

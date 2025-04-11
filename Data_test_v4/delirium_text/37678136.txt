@@ -1,0 +1,15 @@
+37678136|t|DAUF: A disease-related attentional UNet framework for progressive and stable mild cognitive impairment identification.
+37678136|a|Identifying progressive mild cognitive impairment (pMCI) and stable mild cognitive impairment (sMCI) plays a significant role in early Alzheimer's disease (AD) diagnosis, which can effectively boost the life quality of patients. Recently, convolutional neural network (CNN)- based methods using structural magnetic resonance imaging (sMRI) images have shown effective for AD identification. However, these CNN-based methods fail to effectively explore the feature extraction of disease-related multi-scale tissues, such as ventricles, hippocampi and cerebral cortex. To address this issue, we propose an end-to-end disease-related attentional UNet framework (DAUF) for identifying pMCI and sMCI, by embedding a devised dual disease-related attention module (D2AM) and a novel tree-structured feature fusion classifier (TFFC). Specifically, D2AM leverages the complementarity between feature maps and attention maps and the complementary features from the encoder and decoder, so as to highlight discriminative semantic and detailed features. Additionally, TFFC is a powerfully joint multi-scale feature fusion and classification head, by employing the homogeneity among multi-scale features, so that the discriminative features of the multi-scale tissues are adequately fused for enhancing classification performance. Finally, extensive experiments demonstrate the superior performance of DAUF, with the effectiveness of D2AM and TFFC on identifying pMCI and sMCI subjects.
+37678136	78	103	mild cognitive impairment	Disease	MESH:D060825
+37678136	132	169	progressive mild cognitive impairment	Disease	MESH:D060825
+37678136	171	175	pMCI	Disease	MESH:D060825
+37678136	188	213	mild cognitive impairment	Disease	MESH:D060825
+37678136	215	219	sMCI	Disease	MESH:D060825
+37678136	255	274	Alzheimer's disease	Disease	MESH:D000544
+37678136	276	278	AD	Disease	MESH:D000544
+37678136	492	494	AD	Disease	MESH:D000544
+37678136	801	805	pMCI	Disease	MESH:D060825
+37678136	810	814	sMCI	Disease	MESH:D060825
+37678136	1570	1574	pMCI	Disease	MESH:D060825
+37678136	1579	1583	sMCI	Disease	MESH:D060825
+

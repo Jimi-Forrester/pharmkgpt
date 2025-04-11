@@ -1,0 +1,35 @@
+39050443|t|Analysis of the anti-Alzheimer potential of bioactive compounds from Citrus hystrix DC. peel, leaf, and essential oil by network pharmacology.
+39050443|a|Alzheimer's disease (AD) is the most known neurodegenerative disease, and its prevalence is predicted to increase significantly. Discovering novel drugs and treatments for AD is urgently needed. Drugs from natural products have been preferred lately due to their high potential and low toxicity. Citrus hystrix DC. (kaffir lime; KL) is one such herbal plant that is found abundantly in Southeast Asia with many biological activities. In this study, the potential of bioactive compounds from KL peel, leaf, and essential oil as anti-AD agents was explored using network pharmacology. First, the compounds were identified with KNApSAcK database and related literature. Subsequently, the targets of each corresponding compound were determined with SEA Search Server and Swiss Target Prediction, while the proteins associated with AD were identified using OMIM, GenCLiP3, and DisGeNET. Furthermore, a protein-protein interaction network and a compound-target interaction network were constructed to identify the most crucial proteins and compounds in the network by employing Cytoscape v3.9.1. The study continued with pathway enrichment analysis using STRING v1.7.1, molecular docking with PyRx and SwissDock, and molecular dynamics simulation with YASARA for further confirmation. Our results showed that almost all the secondary metabolites of KL targeted AD-associated genes, with oxypeucedanin and citrusoside A showing the highest anti-AD potential and targeting essential genes, EGFR and MAPK14, respectively. These targets were associated with inflammatory and oxidative stress pathways, indicating the potential mechanism of KL in attenuating AD clinical manifestation.
+39050443	21	30	Alzheimer	Disease	MESH:D000544
+39050443	69	86	Citrus hystrix DC	Species	170989
+39050443	104	117	essential oil	Chemical	MESH:D009822
+39050443	143	162	Alzheimer's disease	Disease	MESH:D000544
+39050443	164	166	AD	Disease	MESH:D000544
+39050443	186	211	neurodegenerative disease	Disease	MESH:D019636
+39050443	315	317	AD	Disease	MESH:D000544
+39050443	429	437	toxicity	Disease	MESH:D064420
+39050443	439	456	Citrus hystrix DC	Species	170989
+39050443	634	641	KL peel	Chemical	-
+39050443	653	666	essential oil	Chemical	MESH:D009822
+39050443	675	677	AD	Disease	MESH:D000544
+39050443	970	972	AD	Disease	MESH:D000544
+39050443	1498	1500	AD	Disease	MESH:D000544
+39050443	1524	1537	oxypeucedanin	Chemical	MESH:C031535
+39050443	1542	1555	citrusoside A	Chemical	-
+39050443	1581	1583	AD	Disease	MESH:D000544
+39050443	1625	1629	EGFR	Gene	1956
+39050443	1634	1640	MAPK14	Gene	1432
+39050443	1691	1703	inflammatory	Disease	MESH:D007249
+39050443	1773	1775	KL	Gene	9365
+39050443	1791	1793	AD	Disease	MESH:D000544
+39050443	Negative_Correlation	MESH:D000544	9365
+39050443	Association	MESH:D000544	1956
+39050443	Negative_Correlation	MESH:C031535	MESH:D000544
+39050443	Association	MESH:D000544	1432
+39050443	Association	MESH:D007249	1432
+39050443	Association	MESH:D007249	9365
+39050443	Association	MESH:C031535	1432
+39050443	Negative_Correlation	MESH:D009822	MESH:D000544
+39050443	Association	MESH:C031535	MESH:D007249
+39050443	Association	MESH:C031535	1956
+

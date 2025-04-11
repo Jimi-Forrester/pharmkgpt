@@ -1,0 +1,18 @@
+38587958|t|CE-GAN: Community Evolutionary Generative Adversarial Network for Alzheimer's Disease Risk Prediction.
+38587958|a|In the studies of neurodegenerative diseases such as Alzheimer's Disease (AD), researchers often focus on the associations among multi-omics pathogeny based on imaging genetics data. However, current studies overlook the communities in brain networks, leading to inaccurate models of disease development. This paper explores the developmental patterns of AD from the perspective of community evolution. We first establish a mathematical model to describe functional degeneration in the brain as the community evolution driven by entropy information propagation. Next, we propose an interpretable Community Evolutionary Generative Adversarial Network (CE-GAN) to predict disease risk. In the generator of CE-GAN, community evolutionary convolutions are designed to capture the evolutionary patterns of AD. The experiments are conducted using functional magnetic resonance imaging (fMRI) data and single nucleotide polymorphism (SNP) data. CE-GAN achieves 91.67% accuracy and 91.83% area under curve (AUC) in AD risk prediction tasks, surpassing advanced methods on the same dataset. In addition, we validated the effectiveness of CE-GAN for pathogeny extraction. The source code of this work is available at https://github.com/fmri123456/CE-GAN.
+38587958	3	6	GAN	Chemical	MESH:C050366
+38587958	66	85	Alzheimer's Disease	Disease	MESH:D000544
+38587958	121	147	neurodegenerative diseases	Disease	MESH:D019636
+38587958	156	175	Alzheimer's Disease	Disease	MESH:D000544
+38587958	177	179	AD	Disease	MESH:D000544
+38587958	458	460	AD	Disease	MESH:D000544
+38587958	558	594	functional degeneration in the brain	Disease	MESH:D001927
+38587958	757	760	GAN	Chemical	MESH:C050366
+38587958	810	813	GAN	Chemical	MESH:C050366
+38587958	904	906	AD	Disease	MESH:D000544
+38587958	1044	1047	GAN	Chemical	MESH:C050366
+38587958	1110	1112	AD	Disease	MESH:D000544
+38587958	1235	1238	GAN	Chemical	MESH:C050366
+38587958	1343	1346	GAN	Chemical	MESH:C050366
+38587958	Negative_Correlation	MESH:C050366	MESH:D000544
+

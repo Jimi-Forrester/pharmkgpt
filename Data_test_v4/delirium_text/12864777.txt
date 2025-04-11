@@ -1,0 +1,48 @@
+12864777|t|Apolipoprotein E3Basel: new insights into a highly conserved protein region.
+12864777|a|BACKGROUND: Apolipoprotein E is important for the receptor-mediated uptake of triglyceride-rich lipoproteins. Mutations in the gene encoding apolipoprotein E may cause a reduced uptake of these lipoproteins. Particular apolipoprotein E mutations have been also found to be associated with nephrologic, neurologic, and even ophthalmologic diseases. Hence, a continuously expanding role in biology is being attributed to this protein. DESIGN: Randomly selected volunteers from of a large Swiss cohort were genotyped for the common apolipoprotein E isoforms (apolipoprotein E2, apolipoprotein E3, apolipoprotein E4). RESULTS: In one of the volunteers, a novel C-to-T mutation causing an alanine-to-valine substitution (A106V, designated apolipoprotein E3Basel) was discovered. Alanine at residue 106 is highly conserved between mammalian species and is located in the immediate vicinity of the 112C/R polymorphism (apolipoprotein E4). Recombinant apolipoprotein E3Basel, expressed in the baculovirus system, displayed no detectable reduction in its low density lipoprotein (LDL) receptor- and heparin-binding activities. Despite normal binding functions, apolipoprotein E3Basel might cause modifications in the lipoprotein pattern. In the index case, plasma triglycerides were elevated and in two further apolipoprotein E3Basel-carriers, cholesterol, phospholipid, apolipoprotein CIII levels, LDL-cholesterol/apoB-100- and VLDL-triglyceride/VLDL-cholesterol-ratios were higher compared with apolipoprotein E3Basel-noncarriers when pair-matched for age and gender. One of the four apolipoprotein E3Basel-carriers from the index family had a personal history of Alzheimer's disease. CONCLUSIONS: Alanine at amino acid position 106 is highly conserved but not crucial in the receptor-mediated uptake of lipoprotein particles. Nevertheless, amino acid position 106 might be involved in the apolipoprotein E-dependent regulation of the lipoprotein lipase that hydrolyzes triglycerides and in the development of Alzheimer's disease.
+12864777	89	105	Apolipoprotein E	Gene	348
+12864777	155	185	triglyceride-rich lipoproteins	Chemical	-
+12864777	218	234	apolipoprotein E	Gene	348
+12864777	296	312	apolipoprotein E	Gene	348
+12864777	366	423	nephrologic, neurologic, and even ophthalmologic diseases	Disease	MESH:D020271
+12864777	606	622	apolipoprotein E	Gene	348
+12864777	633	650	apolipoprotein E2	Gene	348
+12864777	652	669	apolipoprotein E3	Gene	348
+12864777	671	688	apolipoprotein E4	Gene	348
+12864777	734	740	C-to-T	DNAMutation	tmVar:c|SUB|C||T;VariantGroup:1;CorrespondingGene:348;CorrespondingSpecies:9606
+12864777	761	778	alanine-to-valine	ProteinMutation	tmVar:p|SUB|A||V;VariantGroup:2;CorrespondingGene:348;CorrespondingSpecies:9606
+12864777	793	798	A106V	ProteinMutation	tmVar:p|SUB|A|106|V;HGVS:p.A106V;VariantGroup:0;CorrespondingGene:348;CorrespondingSpecies:9606
+12864777	851	873	Alanine at residue 106	ProteinMutation	tmVar:p|Allele|A|106;VariantGroup:0;CorrespondingGene:348;CorrespondingSpecies:9606
+12864777	989	1006	apolipoprotein E4	Gene	348
+12864777	1123	1161	low density lipoprotein (LDL) receptor	Gene	3949
+12864777	1167	1174	heparin	Chemical	MESH:D006493
+12864777	1332	1345	triglycerides	Chemical	MESH:D014280
+12864777	1412	1423	cholesterol	Chemical	MESH:D002784
+12864777	1425	1437	phospholipid	Chemical	MESH:D010743
+12864777	1439	1458	apolipoprotein CIII	Gene	345
+12864777	1471	1482	cholesterol	Chemical	MESH:D002784
+12864777	1483	1491	apoB-100	Gene	338
+12864777	1502	1514	triglyceride	Chemical	MESH:D014280
+12864777	1520	1531	cholesterol	Chemical	MESH:D002784
+12864777	1734	1753	Alzheimer's disease	Disease	MESH:D000544
+12864777	1768	1802	Alanine at amino acid position 106	ProteinMutation	tmVar:p|Allele|A|106;VariantGroup:0;CorrespondingGene:348;CorrespondingSpecies:9606
+12864777	1960	1976	apolipoprotein E	Gene	348
+12864777	2005	2023	lipoprotein lipase	Gene	4023
+12864777	2040	2053	triglycerides	Chemical	MESH:D014280
+12864777	2080	2099	Alzheimer's disease	Disease	MESH:D000544
+12864777	Positive_Correlation	MESH:D000544	HGVS:p.A106V;CorrespondingGene:348
+12864777	Association	MESH:D002784	CorrespondingGene:348;CorrespondingSpecies:9606;VariantGroup:1;tmVar:c
+12864777	Positive_Correlation	MESH:D000544	CorrespondingGene:348;CorrespondingSpecies:9606;VariantGroup:1;tmVar:c
+12864777	Association	348	4023
+12864777	Positive_Correlation	MESH:D000544	CorrespondingGene:348;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+12864777	Association	MESH:D010743	HGVS:p.A106V;CorrespondingGene:348
+12864777	Association	MESH:D002784	CorrespondingGene:348;CorrespondingSpecies:9606;VariantGroup:2;tmVar:p
+12864777	Positive_Correlation	MESH:D000544	CorrespondingGene:348;CorrespondingSpecies:9606;VariantGroup:2;tmVar:p
+12864777	Association	MESH:D002784	HGVS:p.A106V;CorrespondingGene:348
+12864777	Association	MESH:D002784	348
+12864777	Association	MESH:D014280	348
+12864777	Positive_Correlation	CorrespondingGene:348;CorrespondingSpecies:9606;VariantGroup:1;tmVar:c	MESH:D000544
+12864777	Association	MESH:D020271	348
+12864777	Association	MESH:D014280	4023
+12864777	Association	MESH:D000544	348
+

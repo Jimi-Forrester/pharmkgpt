@@ -1,0 +1,66 @@
+20459780|t|Transcriptome analysis of porcine PBMCs after in vitro stimulation by LPS or PMA/ionomycin using an expression array targeting the pig immune response.
+20459780|a|BACKGROUND: Designing sustainable animal production systems that better balance productivity and resistance to disease is a major concern. In order to address questions related to immunity and resistance to disease in pig, it is necessary to increase knowledge on its immune system and to produce efficient tools dedicated to this species. RESULTS: A long-oligonucleotide-based chip referred to as SLA-RI/NRSP8-13K was produced by combining a generic set with a newly designed SLA-RI set that targets all annotated loci of the pig major histocompatibility complex (MHC) region (SLA complex) in both orientations as well as immunity genes outside the SLA complex. The chip was used to study the immune response of pigs following stimulation of porcine peripheral blood mononuclear cells (PBMCs) with lipopolysaccharide (LPS) or a mixture of phorbol myristate acetate (PMA) and ionomycin for 24 hours. Transcriptome analysis revealed that ten times more genes were differentially expressed after PMA/ionomycin stimulation than after LPS stimulation. LPS stimulation induced a general inflammation response with over-expression of SAA1, pro-inflammatory chemokines IL8, CCL2, CXCL5, CXCL3, CXCL2 and CCL8 as well as genes related to oxidative processes (SOD2) and calcium pathways (S100A9 and S100A12). PMA/ionomycin stimulation induced a stronger up-regulation of T cell activation than of B cell activation with dominance toward a Th1 response, including IL2, CD69 and TNFRSF9 (tumor necrosis factor receptor superfamily, member 9) genes. In addition, a very intense repression of THBS1 (thrombospondin 1) was observed. Repression of MHC class I genes was observed after PMA/ionomycin stimulation despite an up-regulation of the gene cascade involved in peptide processing. Repression of MHC class II genes was observed after both stimulations. Our results provide preliminary data suggesting that antisense transcripts mapping to the SLA complex may have a role during immune response. CONCLUSION: The SLA-RI/NRSP8-13K chip was found to accurately decipher two distinct immune response activations of PBMCs indicating that it constitutes a valuable tool to further study immunity and resistance to disease in pig. The transcriptome analysis revealed specific and common features of the immune responses depending on the stimulation agent that increase knowledge on pig immunity.
+20459780	70	73	LPS	Chemical	MESH:D008070
+20459780	77	80	PMA	Chemical	MESH:D013755
+20459780	81	90	ionomycin	Chemical	MESH:D015759
+20459780	131	134	pig	Species	9823
+20459780	370	373	pig	Species	9823
+20459780	679	682	pig	Species	9823
+20459780	865	869	pigs	Species	9823
+20459780	951	969	lipopolysaccharide	Chemical	MESH:D008070
+20459780	971	974	LPS	Chemical	MESH:D008070
+20459780	992	1017	phorbol myristate acetate	Chemical	MESH:D013755
+20459780	1019	1022	PMA	Chemical	MESH:D013755
+20459780	1028	1037	ionomycin	Chemical	MESH:D015759
+20459780	1146	1149	PMA	Chemical	MESH:D013755
+20459780	1150	1159	ionomycin	Chemical	MESH:D015759
+20459780	1183	1186	LPS	Chemical	MESH:D008070
+20459780	1200	1203	LPS	Chemical	MESH:D008070
+20459780	1234	1246	inflammation	Disease	MESH:D007249
+20459780	1290	1302	inflammatory	Disease	MESH:D007249
+20459780	1314	1317	IL8	Gene	396880
+20459780	1319	1323	CCL2	Gene	397422
+20459780	1339	1344	CXCL2	Gene	414904
+20459780	1349	1353	CCL8	Gene	100302703
+20459780	1403	1407	SOD2	Gene	100154319
+20459780	1413	1420	calcium	Chemical	MESH:D002118
+20459780	1431	1437	S100A9	Gene	100127489
+20459780	1442	1449	S100A12	Gene	100301483
+20459780	1452	1455	PMA	Chemical	MESH:D013755
+20459780	1456	1465	ionomycin	Chemical	MESH:D015759
+20459780	1606	1609	IL2	Gene	101055066
+20459780	1611	1615	CD69	Gene	397165
+20459780	1620	1627	TNFRSF9	Gene	100519368
+20459780	1629	1681	tumor necrosis factor receptor superfamily, member 9	Gene	100519368
+20459780	1732	1737	THBS1	Gene	492313
+20459780	1739	1755	thrombospondin 1	Gene	492313
+20459780	1822	1825	PMA	Chemical	MESH:D013755
+20459780	1826	1835	ionomycin	Chemical	MESH:D015759
+20459780	1939	1951	MHC class II	Gene	100153386
+20459780	2361	2364	pig	Species	9823
+20459780	2517	2520	pig	Species	9823
+20459780	Positive_Correlation	MESH:D008070	414904
+20459780	Negative_Correlation	MESH:D013755	492313
+20459780	Association	MESH:D002118	MESH:D008070
+20459780	Positive_Correlation	MESH:D013755	100519368
+20459780	Association	MESH:D007249	414904
+20459780	Association	MESH:D007249	397422
+20459780	Positive_Correlation	MESH:D008070	100301483
+20459780	Positive_Correlation	MESH:D008070	397422
+20459780	Positive_Correlation	MESH:D008070	100302703
+20459780	Positive_Correlation	MESH:D013755	397165
+20459780	Association	MESH:D007249	396880
+20459780	Positive_Correlation	MESH:D008070	100127489
+20459780	Negative_Correlation	MESH:D013755	100153386
+20459780	Positive_Correlation	MESH:D008070	MESH:D007249
+20459780	Association	MESH:D002118	100127489
+20459780	Positive_Correlation	MESH:D015759	100519368
+20459780	Negative_Correlation	MESH:D015759	100153386
+20459780	Association	MESH:D007249	100302703
+20459780	Positive_Correlation	MESH:D008070	396880
+20459780	Positive_Correlation	MESH:D015759	101055066
+20459780	Negative_Correlation	MESH:D015759	492313
+20459780	Positive_Correlation	MESH:D013755	101055066
+20459780	Positive_Correlation	MESH:D008070	100154319
+20459780	Positive_Correlation	MESH:D015759	397165
+

@@ -1,0 +1,38 @@
+38164346|t|IL1A regulates the inflammation in gout through the Toll-like receptors pathway.
+38164346|a|Objective: Gout is a dangerous metabolic condition related to monosodium urate (MSU). Our aim is to study the molecular mechanisms underlying gout and to identify potential clinical biomarkers by bioinformatics analysis and experimental validation. Methods: In this study, we retrieved the overlapping genes between GSE199950-Differential Expressed Genes (DEGs) dataset and key module in Weighted Gene Co-Expression Network Analysis (WGCNA) on GSE199950. These genes were then analyzed by protein-protein interaction (PPI) network, expression and Gene Set Enrichment Analysis to identify the hub gene related to gout. Then, the gene was investigated by peripheral blood mononuclear cells (PBMCs), immunoassay and cell experiments like western blotting to uncover its underlying mechanism in gout cells. Results: From the turquoise module and 83 DEGs, we identified 62 overlapping genes, only 11 genes had mutual interactions in PPI network and these genes were highly expressed in MSU-treated samples. Then, it was found that the IL1A (interleukin 1 alpha) was the only one gene related to Toll-like receptor signaling pathway that was associated with the occurrence of gout. Thus, IL1A was determined as the hub gene in this study. In immunoassay, IL1A was significantly positively correlated with B cells and negatively correlated with macrophages. Moreover, IL1A is highly expressed in gout patients,it has a good clinical diagnostic value. Finally, the results of in vitro experiments showed that after knocking down IL1A, the expressions of pro-inflammatory cytokines and Toll-like receptor signaling pathway-related proteins (TLR2, TLR4, MyD88) were all reduced. Conclusion: It is confirmed that IL1A is a promoting gene in gout with a good diagnostic value, and specifically it affects the inflammation in gout through Toll-like receptor pathway. Our research offers fresh perspectives on the pathophysiology of gout and valuable directions for future diagnosis and treatment.
+38164346	0	4	IL1A	Gene	3552
+38164346	19	31	inflammation	Disease	MESH:D007249
+38164346	35	39	gout	Disease	MESH:D006073
+38164346	92	96	Gout	Disease	MESH:D006073
+38164346	112	131	metabolic condition	Disease	MESH:D008659
+38164346	143	159	monosodium urate	Chemical	MESH:D014527
+38164346	161	164	MSU	Chemical	MESH:D014527
+38164346	223	227	gout	Disease	MESH:D006073
+38164346	693	697	gout	Disease	MESH:D006073
+38164346	872	876	gout	Disease	MESH:D006073
+38164346	1062	1065	MSU	Chemical	MESH:D014527
+38164346	1111	1115	IL1A	Gene	3552
+38164346	1117	1136	interleukin 1 alpha	Gene	3552
+38164346	1251	1255	gout	Disease	MESH:D006073
+38164346	1263	1267	IL1A	Gene	3552
+38164346	1330	1334	IL1A	Gene	3552
+38164346	1442	1446	IL1A	Gene	3552
+38164346	1470	1474	gout	Disease	MESH:D006073
+38164346	1475	1483	patients	Species	9606
+38164346	1602	1606	IL1A	Gene	3552
+38164346	1631	1643	inflammatory	Disease	MESH:D007249
+38164346	1713	1717	TLR2	Gene	7097
+38164346	1719	1723	TLR4	Gene	7099
+38164346	1725	1730	MyD88	Gene	4615
+38164346	1783	1787	IL1A	Gene	3552
+38164346	1811	1815	gout	Disease	MESH:D006073
+38164346	1878	1890	inflammation	Disease	MESH:D007249
+38164346	1894	1898	gout	Disease	MESH:D006073
+38164346	2000	2004	gout	Disease	MESH:D006073
+38164346	Positive_Correlation	3552	4615
+38164346	Association	MESH:D007249	3552
+38164346	Positive_Correlation	3552	7099
+38164346	Association	MESH:D006073	3552
+38164346	Positive_Correlation	3552	7097
+38164346	Association	MESH:D014527	MESH:D006073
+

@@ -1,0 +1,17 @@
+39820599|t|CohortDiagnostics: Phenotype evaluation across a network of observational data sources using population-level characterization.
+39820599|a|OBJECTIVE: This paper introduces a novel framework for evaluating phenotype algorithms (PAs) using the open-source tool, Cohort Diagnostics. MATERIALS AND METHODS: The method is based on several diagnostic criteria to evaluate a patient cohort returned by a PA. Diagnostics include estimates of incidence rate, index date entry code breakdown, and prevalence of all observed clinical events prior to, on, and after index date. We test our framework by evaluating one PA for systemic lupus erythematosus (SLE) and two PAs for Alzheimer's disease (AD) across 10 different observational data sources. RESULTS: By utilizing CohortDiagnostics, we found that the population-level characteristics of individuals in the cohort of SLE closely matched the disease's anticipated clinical profile. Specifically, the incidence rate of SLE was consistently higher in occurrence among females. Moreover, expected clinical events like laboratory tests, treatments, and repeated diagnoses were also observed. For AD, although one PA identified considerably fewer patients, absence of notable differences in clinical characteristics between the two cohorts suggested similar specificity. DISCUSSION: We provide a practical and data-driven approach to evaluate PAs, using two clinical diseases as examples, across a network of OMOP data sources. Cohort Diagnostics can ensure the subjects identified by a specific PA align with those intended for inclusion in a research study. CONCLUSION: Diagnostics based on large-scale population-level characterization can offer insights into the misclassification errors of PAs.
+39820599	357	364	patient	Species	9606
+39820599	386	388	PA	Disease	MESH:C535387
+39820599	595	597	PA	Disease	MESH:C535387
+39820599	602	630	systemic lupus erythematosus	Disease	MESH:D008180
+39820599	632	635	SLE	Disease	MESH:D008180
+39820599	653	672	Alzheimer's disease	Disease	MESH:D000544
+39820599	674	676	AD	Disease	MESH:D000544
+39820599	850	853	SLE	Disease	MESH:D008180
+39820599	950	953	SLE	Disease	MESH:D008180
+39820599	1124	1126	AD	Disease	MESH:D000544
+39820599	1141	1143	PA	Disease	MESH:C535387
+39820599	1174	1182	patients	Species	9606
+39820599	1436	1440	OMOP	Disease	
+39820599	1523	1525	PA	Disease	MESH:C535387
+

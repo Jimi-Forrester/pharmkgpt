@@ -1,0 +1,20 @@
+35629230|t|A PDE Model of Breast Tumor Progression in MMTV-PyMT Mice.
+35629230|a|The evolution of breast tumors greatly depends on the interaction network among different cell types, including immune cells and cancer cells in the tumor. This study takes advantage of newly collected rich spatio-temporal mouse data to develop a data-driven mathematical model of breast tumors that considers cells' location and key interactions in the tumor. The results show that cancer cells have a minor presence in the area with the most overall immune cells, and the number of activated immune cells in the tumor is depleted over time when there is no influx of immune cells. Interestingly, in the case of the influx of immune cells, the highest concentrations of both T cells and cancer cells are in the boundary of the tumor, as we use the Robin boundary condition to model the influx of immune cells. In other words, the influx of immune cells causes a dominant outward advection for cancer cells. We also investigate the effect of cells' diffusion and immune cells' influx rates in the dynamics of cells in the tumor micro-environment. Sensitivity analyses indicate that cancer cells and adipocytes' diffusion rates are the most sensitive parameters, followed by influx and diffusion rates of cytotoxic T cells, implying that targeting them is a possible treatment strategy for breast cancer.
+35629230	15	27	Breast Tumor	Disease	MESH:D001943
+35629230	43	47	MMTV	CellLine	CVCL:KS75
+35629230	53	57	Mice	Species	10090
+35629230	76	89	breast tumors	Disease	MESH:D001943
+35629230	188	194	cancer	Disease	MESH:D009369
+35629230	208	213	tumor	Disease	MESH:D009369
+35629230	282	287	mouse	Species	10090
+35629230	340	353	breast tumors	Disease	MESH:D001943
+35629230	413	418	tumor	Disease	MESH:D009369
+35629230	442	448	cancer	Disease	MESH:D009369
+35629230	573	578	tumor	Disease	MESH:D009369
+35629230	747	753	cancer	Disease	MESH:D009369
+35629230	787	792	tumor	Disease	MESH:D009369
+35629230	953	959	cancer	Disease	MESH:D009369
+35629230	1081	1086	tumor	Disease	MESH:D009369
+35629230	1141	1147	cancer	Disease	MESH:D009369
+35629230	1348	1361	breast cancer	Disease	MESH:D001943
+

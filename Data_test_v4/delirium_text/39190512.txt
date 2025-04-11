@@ -1,0 +1,16 @@
+39190512|t|A Novel Method to Identify Mild Cognitive Impairment Using Dynamic Spatio-Temporal Graph Neural Network.
+39190512|a|Resting-state functional magnetic resonance imaging (rs-fMRI) has been widely used in the identification of mild cognitive impairment (MCI) research, MCI patients are relatively at a higher risk of progression to Alzheimer's disease (AD). However, almost machine learning and deep learning methods are rarely analyzed from the perspective of spatial structure and temporal dimension. In order to make full use of rs-fMRI data, this study constructed a dynamic spatiotemporal graph neural network model, which mainly includes three modules: temporal block, spatial block, and graph pooling block. Our proposed model can extract the BOLD signal of the subject's fMRI data and the spatial structure of functional connections between different brain regions, and improve the decision-making results of the model. In the study of AD, MCI and NC, the classification accuracy reached 83.78% outperforming previously reported, which manifested that our model could effectively learn spatiotemporal, and dynamic spatio-temporal method plays an important role in identifying different groups of subjects. In summary, this paper proposed an end-to-end dynamic spatio-temporal graph neural network model, which uses the information of the temporal dimension and spatial structure in rs-fMRI data, and achieves the improvement of the three classification performance among AD, MCI and NC.
+39190512	32	52	Cognitive Impairment	Disease	MESH:D003072
+39190512	218	238	cognitive impairment	Disease	MESH:D003072
+39190512	240	243	MCI	Disease	MESH:D060825
+39190512	255	258	MCI	Disease	MESH:D060825
+39190512	259	267	patients	Species	9606
+39190512	318	337	Alzheimer's disease	Disease	MESH:D000544
+39190512	339	341	AD	Disease	MESH:D000544
+39190512	930	932	AD	Disease	MESH:D000544
+39190512	934	937	MCI	Disease	MESH:D060825
+39190512	942	944	NC	Disease	OMIM:617025
+39190512	1465	1467	AD	Disease	MESH:D000544
+39190512	1469	1472	MCI	Disease	MESH:D060825
+39190512	1477	1479	NC	Disease	OMIM:617025
+

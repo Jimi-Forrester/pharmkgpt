@@ -1,0 +1,23 @@
+39638823|t|Identification of AChE targeted therapeutic compounds for Alzheimer's disease: an in-silico study with DFT integration.
+39638823|a|Alzheimer's disease (AD) is a progressive neurodegenerative condition marked by cognitive deterioration and changes in behavior. Acetylcholinesterase (AChE), which hydrolyzes acetylcholine, is a key drug target for treating AD. This research aimed to identify new AChE inhibitors using the IMPPAT database. We used known drugs as a basis to search for similar chemicals in the IMPPAT database and created a library of 127 plant-based compounds. Initial screening of these compounds was performed using molecular docking, followed by an analysis of their drug-likeness and ADMET properties. Compounds with favorable properties underwent density functional theory (DFT) calculations to assess their electronic properties such as HOMO-LUMO gap, electron density, and molecular orbital distribution. These descriptors provided insights into each compound's reactivity, stability, and binding potential with AChE. Promising candidates were further evaluated through molecular dynamics (MD) simulations over 100 ns and MMPBSA analysis for the last 30 ns. Two compounds, Biflavanone (IMPHY013027) with a binding free energy of - 130.394 kcal/mol and Calomelanol J (IMPHY007737) with - 107.908 kcal/mol, demonstrated strong binding affinities compared to the reference molecule HOR, which has a binding free energy of - 105.132 kcal/mol. These compounds exhibited promising drug-ability profiles in both molecular docking and MD simulations, indicating their potential as novel AChE inhibitors for AD treatment. However, further experimental validation is necessary to verify their effectiveness and safety.
+39638823	18	22	AChE	Gene	43
+39638823	58	77	Alzheimer's disease	Disease	MESH:D000544
+39638823	120	139	Alzheimer's disease	Disease	MESH:D000544
+39638823	141	143	AD	Disease	MESH:D000544
+39638823	162	189	neurodegenerative condition	Disease	MESH:D019636
+39638823	200	223	cognitive deterioration	Disease	MESH:D003072
+39638823	249	269	Acetylcholinesterase	Gene	43
+39638823	271	275	AChE	Gene	43
+39638823	295	308	acetylcholine	Chemical	MESH:D000109
+39638823	344	346	AD	Disease	MESH:D000544
+39638823	1023	1028	AChE.	Gene	43
+39638823	1184	1195	Biflavanone	Chemical	-
+39638823	1197	1208	IMPHY013027	Chemical	-
+39638823	1263	1276	Calomelanol J	Chemical	-
+39638823	1278	1289	IMPHY007737	Chemical	-
+39638823	1390	1393	HOR	Chemical	-
+39638823	1610	1612	AD	Disease	MESH:D000544
+39638823	Association	MESH:D000109	MESH:D000544
+39638823	Association	MESH:D000544	43
+39638823	Association	MESH:D000109	43
+

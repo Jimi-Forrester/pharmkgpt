@@ -1,0 +1,42 @@
+33517358|t|Repurposing approved drugs for cancer therapy.
+33517358|a|BACKGROUND: Many drugs approved for other indications can control the growth of tumor cells and limit adverse events (AE). DATA SOURCES: Literature searches with keywords 'repurposing and cancer' books, websites: https://clinicaltrials.gov/, for drug structures: https://pubchem.ncbi.nlm.nih.gov/. AREAS OF AGREEMENT: Introducing approved drugs, such as those developed to treat diabetes (Metformin) or inflammation (Thalidomide), identified to have cytostatic activity, can enhance chemotherapy or even replace more cytotoxic drugs. Also, anti-inflammatory compounds, cytokines and inhibitors of proteolysis can be used to control the side effects of chemo- and immuno-therapies or as second-line treatments for tumors resistant to kinase inhibitors (KI). Drugs specifically developed for cancer therapy, such as interferons (IFN), the tyrosine KI abivertinib TKI (tyrosine kinase inhibitor) and interleukin-6 (IL-6) receptor inhibitors, may help control symptoms of Covid-19. AREAS OF CONTROVERSY: Better knowledge of mechanisms of drug activities is essential for repurposing. Chemotherapies induce ER stress and enhance mutation rates and chromosome alterations, leading to resistance that cannot always be related to mutations in the target gene. Metformin, thalidomide and cytokines (IFN, tumor necrosis factor (TNF), interleukin-2 (IL-2) and others) have pleiomorphic activities, some of which can enhance tumorigenesis. The small and fragile patient pools available for clinical trials can cloud the data on the usefulness of cotreatments. GROWING POINTS: Better understanding of drug metabolism and mechanisms should aid in repurposing drugs for primary, adjuvant and adjunct treatments. AREAS TIMELY FOR DEVELOPING RESEARCH: Optimizing drug combinations, reducing cytotoxicity of chemotherapeutics and controlling associated inflammation.
+33517358	31	37	cancer	Disease	MESH:D009369
+33517358	127	132	tumor	Disease	MESH:D009369
+33517358	235	241	cancer	Disease	MESH:D009369
+33517358	426	434	diabetes	Disease	MESH:D003920
+33517358	436	445	Metformin	Chemical	MESH:D008687
+33517358	450	462	inflammation	Disease	MESH:D007249
+33517358	464	475	Thalidomide	Chemical	MESH:D013792
+33517358	592	604	inflammatory	Disease	MESH:D007249
+33517358	760	766	tumors	Disease	MESH:D009369
+33517358	837	843	cancer	Disease	MESH:D009369
+33517358	896	907	abivertinib	Chemical	MESH:C000630672
+33517358	913	928	tyrosine kinase	Gene	7294
+33517358	944	973	interleukin-6 (IL-6) receptor	Gene	3570
+33517358	1015	1023	Covid-19	Disease	MESH:D000086382
+33517358	1299	1308	Metformin	Chemical	MESH:D008687
+33517358	1310	1321	thalidomide	Chemical	MESH:D013792
+33517358	1342	1363	tumor necrosis factor	Gene	7124
+33517358	1365	1368	TNF	Gene	7124
+33517358	1371	1384	interleukin-2	Gene	3558
+33517358	1386	1390	IL-2	Gene	3558
+33517358	1460	1473	tumorigenesis	Disease	MESH:D063646
+33517358	1497	1504	patient	Species	9606
+33517358	1761	1771	DEVELOPING	Disease	MESH:D002658
+33517358	1821	1833	cytotoxicity	Disease	MESH:D064420
+33517358	1882	1894	inflammation	Disease	MESH:D007249
+33517358	Negative_Correlation	MESH:D013792	MESH:D003920
+33517358	Association	MESH:C000630672	MESH:D000086382
+33517358	Positive_Correlation	MESH:D063646	3558
+33517358	Association	MESH:D008687	MESH:D063646
+33517358	Association	MESH:D000086382	3570
+33517358	Association	MESH:D009369	3570
+33517358	Negative_Correlation	MESH:D008687	MESH:D003920
+33517358	Negative_Correlation	MESH:C000630672	7294
+33517358	Positive_Correlation	MESH:D013792	MESH:D063646
+33517358	Association	MESH:D009369	7294
+33517358	Negative_Correlation	MESH:D013792	MESH:D007249
+33517358	Association	MESH:D000086382	7294
+33517358	Negative_Correlation	MESH:C000630672	MESH:D009369
+33517358	Positive_Correlation	MESH:D063646	7124
+

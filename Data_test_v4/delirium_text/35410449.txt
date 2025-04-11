@@ -1,0 +1,20 @@
+35410449|t|Optimization of cognitive assessment in Parkinsonisms by applying artificial intelligence to a comprehensive screening test.
+35410449|a|The assessment of cognitive deficits is pivotal for diagnosis and management in patients with parkinsonisms. Low levels of correspondence are observed between evaluations assessed with screening cognitive tests in comparison with those assessed with in-depth neuropsychological batteries. A new tool, we named CoMDA (Cognition in Movement Disorders Assessment), was composed by merging Mini-Mental State Examination (MMSE), Montreal Cognitive Assessment (MoCA), and Frontal Assessment Battery (FAB). In total, 500 patients (400 with Parkinson's disease, 41 with vascular parkinsonism, 31 with progressive supranuclear palsy, and 28 with multiple system atrophy) underwent CoMDA (level 1-L1) and in-depth neuropsychological battery (level 2-L2). Machine learning was developed to classify the CoMDA score and obtain an accurate prediction of the cognitive profile along three different classes: normal cognition (NC), mild cognitive impairment (MCI), and impaired cognition (IC). The classification accuracy of CoMDA, assessed by ROC analysis, was compared with MMSE, MoCA, and FAB. The area under the curve (AUC) of CoMDA was significantly higher than that of MMSE, MoCA and FAB (p < 0.0001, p = 0.028 and p = 0.0007, respectively). Among 15 different algorithmic methods, the Quadratic Discriminant Analysis algorithm (CoMDA-ML) showed higher overall-metrics performance levels in predictive performance. Considering L2 as a 3-level continuous feature, CoMDA-ML produces accurate and generalizable classifications: micro-average ROC curve, AUC = 0.81; and AUC = 0.85 for NC, 0.67 for MCI, and 0.83 for IC. CoMDA and COMDA-ML are reliable and time-sparing tools, accurate in classifying cognitive profile in parkinsonisms.This study has been registered on ClinicalTrials.gov (NCT04858893).
+35410449	40	53	Parkinsonisms	Disease	MESH:D010302
+35410449	143	161	cognitive deficits	Disease	MESH:D003072
+35410449	205	213	patients	Species	9606
+35410449	219	232	parkinsonisms	Disease	MESH:D010302
+35410449	455	473	Movement Disorders	Disease	MESH:D009069
+35410449	639	647	patients	Species	9606
+35410449	658	677	Parkinson's disease	Disease	MESH:D010300
+35410449	687	708	vascular parkinsonism	Disease	MESH:D010302
+35410449	718	748	progressive supranuclear palsy	Disease	MESH:D013494
+35410449	762	785	multiple system atrophy	Disease	MESH:D019578
+35410449	1047	1067	cognitive impairment	Disease	MESH:D003072
+35410449	1069	1072	MCI	Disease	MESH:D060825
+35410449	1079	1097	impaired cognition	Disease	MESH:D003072
+35410449	1099	1101	IC	Disease	MESH:D003072
+35410449	1710	1713	MCI	Disease	MESH:D060825
+35410449	1728	1730	IC	Disease	MESH:D003072
+35410449	1833	1846	parkinsonisms	Disease	MESH:D010302
+

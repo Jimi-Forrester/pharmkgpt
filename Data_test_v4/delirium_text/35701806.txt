@@ -1,0 +1,48 @@
+35701806|t|Mechanistic insight of the potential of geraniol against Alzheimer's disease.
+35701806|a|BACKGROUND: Alzheimer's disease (AD) as a neurodegenerative disease occupies 3/5-4/5 cases among patients with dementia, yet its pathogenetic mechanism remains unclear. Geraniol, on the other hand, is a well-known extract from essential oils of aromatic plants and has been proven that it has outstanding neuroprotective effects as well as ameliorating influence in memory impairment. Therefore, the present study aims to elucidate the potential of geraniol against AD by network pharmacology-based approach combined with molecular modeling study. MATERIALS AND METHODS: Firstly, we evaluated the druggability of geraniol by ADME method. Then, we obtained the geraniol targets and AD-related targets from multiple open data sources. Afterward, we calculated the intersection through a Venn diagram to find common targets, and via Panther classification system to categorize them. In order to gain a macroscopic understanding of these common targets, we carried out GO terms and KEGG pathways enrichment analyses, according to which we constructed a compound-target-pathway-disease network. In addition, we built a preliminary PPI network which was further analyzed both functionally and topologically. Consequently, five hub targets were sorted out. Finally, we conducted molecular docking and molecular dynamic simulation to validate our findings. RESULTS: In the present study, the pharmacological properties of geraniol were assessed according to ADME and Lipinski's rule, which demonstrate promising druggability. Then, from 10,972 AD-related targets and 33 geraniol targets, 29 common targets were identified, among which 38.1% of them are metabolite interconversion enzymes, 23.8% are protein modifying enzymes, 33.3% are transmembrane receptors, and the rest are transporters. Enrichment analyses hint that geraniol is involved in cholinergic synapse, serotonergic synapse, and neuroactive ligand-receptor interaction. We also built a preliminary PPI network to investigate the interplay between these targets and their extensive interactions. Then, by functionally clustering the preliminary PPI network, we gained a cluster of proteins which formed a subnetwork with score of 8.476, and 22 nodes. Its results of GO terms and KEGG pathways enrichment analyses once again suggests that geraniol actively participates in cholinergic synapse, serotonergic synapse, and neuroactive ligand-receptor interaction, which are believed to be strongly associated with AD pathogenesis. Besides, topological analyses of the preliminary PPI network helped find 5 hub targets (i.e., CHRM3, PRKCA, PRKCD, JAK1, JAK2). To verify their interaction with geraniol molecule, we conducted molecular docking, and found that CHRM3 possesses the highest affinity in binding, indicating that geraniol molecules are closely bound to each hub target, and CHRM3 may serve as a key target of geraniol against AD. It was then further confirmed by molecular dynamic simulation, the result of which supports our hypothesis. CONCLUSION: The present study shares a mechanistic insight of the potential of geraniol against AD, giving a reference to future experimental studies.
+35701806	40	48	geraniol	Chemical	MESH:C007836
+35701806	57	76	Alzheimer's disease	Disease	MESH:D000544
+35701806	90	109	Alzheimer's disease	Disease	MESH:D000544
+35701806	111	113	AD	Disease	MESH:D000544
+35701806	120	145	neurodegenerative disease	Disease	MESH:D019636
+35701806	175	183	patients	Species	9606
+35701806	189	197	dementia	Disease	MESH:D003704
+35701806	247	255	Geraniol	Chemical	MESH:C007836
+35701806	305	319	essential oils	Chemical	MESH:D009822
+35701806	323	338	aromatic plants	Chemical	-
+35701806	444	461	memory impairment	Disease	MESH:D008569
+35701806	527	535	geraniol	Chemical	MESH:C007836
+35701806	544	546	AD	Disease	MESH:D000544
+35701806	691	699	geraniol	Chemical	MESH:C007836
+35701806	738	746	geraniol	Chemical	MESH:C007836
+35701806	759	761	AD	Disease	MESH:D000544
+35701806	1492	1500	geraniol	Chemical	MESH:C007836
+35701806	1614	1616	AD	Disease	MESH:D000544
+35701806	1640	1648	geraniol	Chemical	MESH:C007836
+35701806	1892	1900	geraniol	Chemical	MESH:C007836
+35701806	2371	2379	geraniol	Chemical	MESH:C007836
+35701806	2543	2545	AD	Disease	MESH:D000544
+35701806	2654	2659	CHRM3	Gene	1131
+35701806	2661	2666	PRKCA	Gene	5578
+35701806	2668	2673	PRKCD	Gene	5580
+35701806	2675	2679	JAK1	Gene	3716
+35701806	2681	2685	JAK2	Gene	3717
+35701806	2721	2729	geraniol	Chemical	MESH:C007836
+35701806	2787	2792	CHRM3	Gene	1131
+35701806	2852	2860	geraniol	Chemical	MESH:C007836
+35701806	2913	2918	CHRM3	Gene	1131
+35701806	2948	2956	geraniol	Chemical	MESH:C007836
+35701806	2965	2967	AD	Disease	MESH:D000544
+35701806	3156	3164	geraniol	Chemical	MESH:C007836
+35701806	3173	3175	AD	Disease	MESH:D000544
+35701806	Association	MESH:D000544	3716
+35701806	Association	MESH:C007836	3716
+35701806	Association	3716	5578
+35701806	Negative_Correlation	MESH:C007836	MESH:D008569
+35701806	Association	1131	5580
+35701806	Association	3716	3717
+35701806	Association	3716	5580
+35701806	Association	1131	5578
+35701806	Negative_Correlation	MESH:C007836	MESH:D000544
+35701806	Association	1131	3716
+

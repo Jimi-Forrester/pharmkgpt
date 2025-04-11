@@ -1,0 +1,23 @@
+38002495|t|Explainable Machine Learning with Pairwise Interactions for Predicting Conversion from Mild Cognitive Impairment to Alzheimer's Disease Utilizing Multi-Modalities Data.
+38002495|a|BACKGROUND: Predicting cognition decline in patients with mild cognitive impairment (MCI) is crucial for identifying high-risk individuals and implementing effective management. To improve predicting MCI-to-AD conversion, it is necessary to consider various factors using explainable machine learning (XAI) models which provide interpretability while maintaining predictive accuracy. This study used the Explainable Boosting Machine (EBM) model with multimodal features to predict the conversion of MCI to AD during different follow-up periods while providing interpretability. METHODS: This retrospective case-control study is conducted with data obtained from the ADNI database, with records of 1042 MCI patients from 2006 to 2022 included. The exposures included in this study were MRI biomarkers, cognitive scores, demographics, and clinical features. The main outcome was AD conversion from aMCI during follow-up. The EBM model was utilized to predict aMCI converting to AD based on three feature combinations, obtaining interpretability while ensuring accuracy. Meanwhile, the interaction effect was considered in the model. The three feature combinations were compared in different follow-up periods with accuracy, sensitivity, specificity, and AUC-ROC. The global and local explanations are displayed by importance ranking and feature interpretability plots. RESULTS: The five-years prediction accuracy reached 85% (AUC = 0.92) using both cognitive scores and MRI markers. Apart from accuracies, we obtained features' importance in different follow-up periods. In early stage of AD, the MRI markers play a major role, while for middle-term, the cognitive scores are more important. Feature risk scoring plots demonstrated insightful nonlinear interactive associations between selected factors and outcome. In one-year prediction, lower right inferior temporal volume (<9000) is significantly associated with AD conversion. For two-year prediction, low left inferior temporal thickness (<2) is most critical. For three-year prediction, higher FAQ scores (>4) is the most important. During four-year prediction, APOE4 is the most critical. For five-year prediction, lower right entorhinal volume (<1000) is the most critical feature. CONCLUSIONS: The established glass-box model EBMs with multimodal features demonstrated a superior ability with detailed interpretability in predicting AD conversion from MCI. Multi features with significant importance were identified. Further study may be of significance to determine whether the established prediction tool would improve clinical management for AD patients.
+38002495	87	112	Mild Cognitive Impairment	Disease	MESH:D060825
+38002495	116	135	Alzheimer's Disease	Disease	MESH:D000544
+38002495	192	209	cognition decline	Disease	MESH:D003072
+38002495	227	252	mild cognitive impairment	Disease	MESH:D060825
+38002495	254	257	MCI	Disease	MESH:D060825
+38002495	369	372	MCI	Disease	MESH:D060825
+38002495	376	378	AD	Disease	MESH:D000544
+38002495	668	671	MCI	Disease	MESH:D060825
+38002495	675	677	AD	Disease	MESH:D000544
+38002495	871	874	MCI	Disease	MESH:D060825
+38002495	1046	1048	AD	Disease	MESH:D000544
+38002495	1065	1069	aMCI	Disease	
+38002495	1126	1130	aMCI	Disease	
+38002495	1145	1147	AD	Disease	MESH:D000544
+38002495	1756	1758	AD	Disease	MESH:D000544
+38002495	2085	2087	AD	Disease	MESH:D000544
+38002495	2287	2292	APOE4	Gene	348
+38002495	2561	2563	AD	Disease	MESH:D000544
+38002495	2580	2583	MCI	Disease	MESH:D060825
+38002495	2773	2775	AD	Disease	MESH:D000544
+

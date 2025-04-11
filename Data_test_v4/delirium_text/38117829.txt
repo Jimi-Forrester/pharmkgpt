@@ -1,0 +1,40 @@
+38117829|t|Targeting Sirtuin 1 for therapeutic potential: Drug repurposing approach integrating docking and molecular dynamics simulations.
+38117829|a|Identifying novel therapeutic agents is a fundamental challenge in contemporary drug development, especially in the context of complex diseases like cancer, neurodegenerative disorders, and metabolic syndromes. Here, we present a comprehensive computational study to identify potential inhibitors of SIRT1 (Sirtuin 1), a critical protein involved in various cellular processes and disease pathways. Leveraging the concept of drug repurposing, we employed a multifaceted approach that integrates molecular docking and molecular dynamics (MD) simulations to predict the binding affinities and dynamic behavior of a diverse set of FDA-approved drugs from DrugBank against the SIRT1. Initially, compounds were shortlisted based on their binding affinities and interaction analyses to identify safe and promising binding partners for SIRT1. Among these candidates, Doxercalciferol and Timiperone emerged as potential candidates, displaying notable affinity, efficiency, and specificity towards the binding pocket of SIRT1. Extensive evaluation revealed that these identified compounds boast a range of favorable biological properties and prefer binding to the active site of SIRT1. To delve deeper into the interactions, all-atom MD simulations were conducted for 500 nanoseconds (ns). These simulations assessed the conformational dynamics, stability, and interaction mechanism of the SIRT1-Doxercalciferol and SIRT1-Timiperone complexes. The MD simulations illustrated that the SIRT1-Doxercalciferol and SIRT1-Timiperone complexes maintain stability over a 500 ns trajectory. These insightful outcomes propose that Doxercalciferol and Timiperone hold promise as viable scaffolds for developing potential SIRT1 inhibitors, with implications for tackling complex diseases such as cancer, neurodegenerative disorders, and metabolic syndromes.
+38117829	10	19	Sirtuin 1	Gene	23411
+38117829	278	284	cancer	Disease	MESH:D009369
+38117829	286	313	neurodegenerative disorders	Disease	MESH:D019636
+38117829	319	338	metabolic syndromes	Disease	MESH:D024821
+38117829	429	434	SIRT1	Gene	23411
+38117829	436	445	Sirtuin 1	Gene	23411
+38117829	802	807	SIRT1	Gene	23411
+38117829	958	963	SIRT1	Gene	23411
+38117829	989	1004	Doxercalciferol	Chemical	MESH:C042533
+38117829	1009	1019	Timiperone	Chemical	MESH:C024159
+38117829	1140	1145	SIRT1	Gene	23411
+38117829	1299	1304	SIRT1	Gene	23411
+38117829	1510	1515	SIRT1	Gene	23411
+38117829	1516	1531	Doxercalciferol	Chemical	MESH:C042533
+38117829	1536	1541	SIRT1	Gene	23411
+38117829	1542	1552	Timiperone	Chemical	MESH:C024159
+38117829	1604	1609	SIRT1	Gene	23411
+38117829	1610	1625	Doxercalciferol	Chemical	MESH:C042533
+38117829	1630	1635	SIRT1	Gene	23411
+38117829	1636	1646	Timiperone	Chemical	MESH:C024159
+38117829	1741	1756	Doxercalciferol	Chemical	MESH:C042533
+38117829	1761	1771	Timiperone	Chemical	MESH:C024159
+38117829	1830	1835	SIRT1	Gene	23411
+38117829	1904	1910	cancer	Disease	MESH:D009369
+38117829	1912	1939	neurodegenerative disorders	Disease	MESH:D019636
+38117829	1945	1964	metabolic syndromes	Disease	MESH:D024821
+38117829	Negative_Correlation	MESH:C024159	23411
+38117829	Negative_Correlation	MESH:C024159	MESH:D009369
+38117829	Negative_Correlation	MESH:C024159	MESH:D024821
+38117829	Negative_Correlation	MESH:C024159	MESH:D019636
+38117829	Negative_Correlation	MESH:C042533	23411
+38117829	Negative_Correlation	MESH:C042533	MESH:D009369
+38117829	Association	MESH:D009369	23411
+38117829	Association	MESH:D024821	23411
+38117829	Negative_Correlation	MESH:C042533	MESH:D019636
+38117829	Association	MESH:D019636	23411
+38117829	Negative_Correlation	MESH:C042533	MESH:D024821
+

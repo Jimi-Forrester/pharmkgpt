@@ -1,0 +1,33 @@
+38310100|t|The liver and muscle secreted HFE2-protein maintains central nervous system blood vessel integrity.
+38310100|a|Liver failure causes breakdown of the Blood CNS Barrier (BCB) leading to damages of the Central-Nervous-System (CNS), however the mechanisms whereby the liver influences BCB-integrity remain elusive. One possibility is that the liver secretes an as-yet to be identified molecule(s) that circulate in the serum to directly promote BCB-integrity. To study BCB-integrity, we developed light-sheet imaging for three-dimensional analysis. We show that liver- or muscle-specific knockout of Hfe2/Rgmc induces BCB-breakdown, leading to accumulation of toxic-blood-derived fibrinogen in the brain, lower cortical neuron numbers, and behavioral deficits in mice. Soluble HFE2 competes with its homologue RGMa for binding to Neogenin, thereby blocking RGMa-induced downregulation of PDGF-B and Claudin-5 in endothelial cells, triggering BCB-disruption. HFE2 administration in female mice with experimental autoimmune encephalomyelitis, a model for multiple sclerosis, prevented paralysis and immune cell infiltration by inhibiting RGMa-mediated BCB alteration. This study has implications for the pathogenesis and potential treatment of diseases associated with BCB-dysfunction.
+38310100	30	34	HFE2	Gene	69585
+38310100	100	113	Liver failure	Disease	MESH:D017093
+38310100	173	210	damages of the Central-Nervous-System	Disease	MESH:D002493
+38310100	585	589	Hfe2	Gene	69585
+38310100	590	594	Rgmc	Gene	69585
+38310100	736	744	deficits	Disease	MESH:D009461
+38310100	748	752	mice	Species	10090
+38310100	762	766	HFE2	Gene	69585
+38310100	795	799	RGMa	Gene	244058
+38310100	815	823	Neogenin	Gene	18007
+38310100	842	846	RGMa	Gene	244058
+38310100	873	879	PDGF-B	Gene	18591
+38310100	884	893	Claudin-5	Gene	12741
+38310100	943	947	HFE2	Gene	69585
+38310100	973	977	mice	Species	10090
+38310100	983	1024	experimental autoimmune encephalomyelitis	Disease	MESH:D004681
+38310100	1038	1056	multiple sclerosis	Disease	MESH:D009103
+38310100	1068	1077	paralysis	Disease	MESH:D010243
+38310100	1121	1125	RGMa	Gene	244058
+38310100	1252	1267	BCB-dysfunction	Disease	MESH:D002493
+38310100	Association	18007	69585
+38310100	Association	MESH:D009461	69585
+38310100	Negative_Correlation	18591	244058
+38310100	Association	MESH:D009103	69585
+38310100	Association	MESH:D004681	69585
+38310100	Negative_Correlation	12741	244058
+38310100	Negative_Correlation	MESH:D010243	69585
+38310100	Negative_Correlation	244058	69585
+38310100	Bind	18007	244058
+38310100	Positive_Correlation	18591	69585
+

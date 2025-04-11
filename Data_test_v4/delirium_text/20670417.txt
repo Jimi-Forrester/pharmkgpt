@@ -1,0 +1,18 @@
+20670417|t|A quantitative approach to study indirect effects among disease proteins in the human protein interaction network.
+20670417|a|BACKGROUND: Systems biology makes it possible to study larger and more intricate systems than before, so it is now possible to look at the molecular basis of several diseases in parallel. Analyzing the interaction network of proteins in the cell can be the key to understand how complex processes lead to diseases. Novel tools in network analysis provide the possibility to quantify the key interacting proteins in large networks as well as proteins that connect them. Here we suggest a new method to study the relationships between topology and functionality of the protein-protein interaction network, by identifying key mediator proteins possibly maintaining indirect relationships among proteins causing various diseases. RESULTS: Based on the i2d and OMIM databases, we have constructed (i) a network of proteins causing five selected diseases (DP, disease proteins) plus their interacting partners (IP, non-disease proteins), the DPIP network and (ii) a protein network showing only these IPs and their interactions, the IP network. The five investigated diseases were (1) various cancers, (2) heart diseases, (3) obesity, (4) diabetes and (5) autism. We have quantified the number and strength of IP-mediated indirect effects between the five groups of disease proteins and hypothetically identified the most important mediator proteins linking heart disease to obesity or diabetes in the IP network. The results present the relationship between mediator role and centrality, as well as between mediator role and functional properties of these proteins. CONCLUSIONS: We show that a protein which plays an important indirect mediator role between two diseases is not necessarily a hub in the PPI network. This may suggest that, even if hub proteins and disease proteins are trivially of great interest, mediators may also deserve more attention, especially if disease-disease associations are to be understood. Identifying the hubs may not be sufficient to understand particular pathways. We have found that the mediators between heart diseases and obesity, as well as heart diseases and diabetes are of relatively high functional importance in the cell. The mediator proteins suggested here should be experimentally tested as products of hypothetical disease-related proteins.
+20670417	80	85	human	Species	9606
+20670417	871	875	OMIM	Disease	
+20670417	965	967	DP	Disease	
+20670417	1202	1209	cancers	Disease	MESH:D009369
+20670417	1215	1229	heart diseases	Disease	MESH:D006331
+20670417	1235	1242	obesity	Disease	MESH:D009765
+20670417	1248	1256	diabetes	Disease	MESH:D003920
+20670417	1265	1271	autism	Disease	MESH:D001321
+20670417	1467	1480	heart disease	Disease	MESH:D006331
+20670417	1484	1491	obesity	Disease	MESH:D009765
+20670417	1495	1503	diabetes	Disease	MESH:D003920
+20670417	2151	2165	heart diseases	Disease	MESH:D006331
+20670417	2170	2177	obesity	Disease	MESH:D009765
+20670417	2190	2204	heart diseases	Disease	MESH:D006331
+20670417	2209	2217	diabetes	Disease	MESH:D003920
+

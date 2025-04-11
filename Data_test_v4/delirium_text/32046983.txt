@@ -1,0 +1,28 @@
+32046983|t|Alzheimer-Related Protein Suppresses Gliomas.
+32046983|a|In low-grade gliomas, mutant forms of IDH1/2 trigger expression of tau, a protein typically associated with neurodegenerative disease that also inhibits EGFR signaling to impede tumor progression. The new findings provide a scientific rationale for pharmacologically mimicking the function of tau with microtubule-stabilizing drugs for the treatment of brain tumors.
+32046983	37	44	Gliomas	Disease	MESH:D005910
+32046983	59	66	gliomas	Disease	MESH:D005910
+32046983	84	90	IDH1/2	Gene	3417;3418
+32046983	113	116	tau	Gene	4137
+32046983	154	179	neurodegenerative disease	Disease	MESH:D019636
+32046983	199	203	EGFR	Gene	1956
+32046983	224	229	tumor	Disease	MESH:D009369
+32046983	339	342	tau	Gene	4137
+32046983	399	411	brain tumors	Disease	MESH:D001932
+32046983	Association	MESH:D005910	3418
+32046983	Negative_Correlation	MESH:D009369	4137
+32046983	Association	MESH:D019636	3417
+32046983	Negative_Correlation	MESH:D019636	1956
+32046983	Association	1956	3418
+32046983	Association	1956	3417
+32046983	Association	MESH:D001932	4137
+32046983	Negative_Correlation	1956	4137
+32046983	Association	MESH:D005910	3417
+32046983	Association	MESH:D019636	3418
+32046983	Association	MESH:D009369	3417
+32046983	Positive_Correlation	3417	4137
+32046983	Positive_Correlation	3418	4137
+32046983	Association	MESH:D005910	4137
+32046983	Association	MESH:D009369	3418
+32046983	Association	MESH:D019636	4137
+

@@ -1,0 +1,9 @@
+33460880|t|Incomplete multi-modal representation learning for Alzheimer's disease diagnosis.
+33460880|a|Alzheimers disease (AD) is a complex neurodegenerative disease. Its early diagnosis and treatment have been a major concern of researchers. Currently, the multi-modality data representation learning of this disease is gradually becoming an emerging research field, attracting widespread attention. However, in practice, data from multiple modalities are only partially available, and most of the existing multi-modal learning algorithms can not deal with the incomplete multi-modality data. In this paper, we propose an Auto-Encoder based Multi-View missing data Completion framework (AEMVC) to learn common representations for AD diagnosis. Specifically, we firstly map the original complete view to a latent space using an auto-encoder network framework. Then, the latent representations measuring statistical dependence learned from the complete view are used to complement the kernel matrix of the incomplete view in the kernel space. Meanwhile, the structural information of original data and the inherent association between views are maintained by graph regularization and Hilbert-Schmidt Independence Criterion (HSIC) constraints. Finally, a kernel based multi-view method is applied to the learned kernel matrix for the acquisition of common representations. Experimental results achieved on Alzheimers Disease Neuroimaging Initiative (ADNI) datasets validate the effectiveness of the proposed method.
+33460880	51	70	Alzheimer's disease	Disease	MESH:D000544
+33460880	82	100	Alzheimers disease	Disease	MESH:D000544
+33460880	102	104	AD	Disease	MESH:D000544
+33460880	119	144	neurodegenerative disease	Disease	MESH:D019636
+33460880	710	712	AD	Disease	MESH:D000544
+33460880	1383	1401	Alzheimers Disease	Disease	MESH:D000544
+

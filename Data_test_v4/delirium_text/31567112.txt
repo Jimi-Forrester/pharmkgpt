@@ -1,0 +1,18 @@
+31567112|t|Fused Sparse Network Learning for Longitudinal Analysis of Mild Cognitive Impairment.
+31567112|a|Alzheimer's disease (AD) is a neurodegenerative disease with an irreversible and progressive process. To understand the brain functions and identify the biomarkers of AD and early stages of the disease [also known as, mild cognitive impairment (MCI)], it is crucial to build the brain functional connectivity network (BFCN) using resting-state functional magnetic resonance imaging (rs-fMRI). Existing methods have been mainly developed using only a single time-point rs-fMRI data for classification. In fact, multiple time-point data is more effective than a single time-point data in diagnosing brain diseases by monitoring the disease progression patterns using longitudinal analysis. In this article, we utilize multiple rs-fMRI time-point to identify early MCI (EMCI) and late MCI (LMCI), by integrating the fused sparse network (FSN) model with parameter-free centralized (PFC) learning. Specifically, we first construct the FSN framework by building multiple time-point BFCNs. The multitask learning via PFC is then leveraged for longitudinal analysis of EMCI and LMCI. Accordingly, we can jointly learn the multiple time-point features constructed from the BFCN model. The proposed PFC method can automatically balance the contributions of different time-point information via learned specific and common features. Finally, the selected multiple time-point features are fused by a similarity network fusion (SNF) method. Our proposed method is evaluated on the public AD neuroimaging initiative phase-2 (ADNI-2) database. The experimental results demonstrate that our method can achieve quite promising performance and outperform the state-of-the-art methods.
+31567112	64	84	Cognitive Impairment	Disease	MESH:D003072
+31567112	86	105	Alzheimer's disease	Disease	MESH:D000544
+31567112	107	109	AD	Disease	MESH:D000544
+31567112	116	141	neurodegenerative disease	Disease	MESH:D019636
+31567112	253	255	AD	Disease	MESH:D000544
+31567112	309	329	cognitive impairment	Disease	MESH:D003072
+31567112	331	334	MCI	Disease	
+31567112	683	697	brain diseases	Disease	MESH:D001927
+31567112	848	851	MCI	Disease	
+31567112	853	857	EMCI	Disease	MESH:C580055
+31567112	868	871	MCI	Disease	
+31567112	873	877	LMCI	Disease	MESH:D000067562
+31567112	1148	1152	EMCI	Disease	MESH:C580055
+31567112	1157	1161	LMCI	Disease	MESH:D000067562
+31567112	1562	1564	AD	Disease	MESH:D000544
+

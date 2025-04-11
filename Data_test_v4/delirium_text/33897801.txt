@@ -1,0 +1,62 @@
+33897801|t|Computer-Aided Drug Discovery Identifies Alkaloid Inhibitors of Parkinson's Disease Associated Protein, Prolyl Oligopeptidase.
+33897801|a|Parkinson's disease is a common neurodegenerative disorder marked by the accumulation of the protein alpha synuclein. Studies have indicated the role of prolyl oligopeptidase (POP), a serine protease, in alpha synuclein accumulation. Therefore, POP emerges as an attractive medicinal target. Traditionally, most of the early medicines have been plant-based owing to their ready availability and negligible side effects. Alkaloids owing to their neurotransmitter modulatory, anti-amyloid, anti-oxidant, and anti-inflammatory activities have shown potential in neurodegenerative disease. In this work, we computationally evaluated alkaloid class of phytochemicals for their therapeutic efficacy against POP. Alkaloids were retrieved from the publically available database, Chemical Entities of Biological Interest (ChEBI), and screened for their drug likeness (Lipinski's rule of 5) and absorption, distribution, metabolism, and excretion, and toxicity (ADMET) in Discovery Studio by ensuring parameters suitable for a central nervous system disease such as blood-brain barrier (BBB) level set to <=2, absorption level set to 0 and solubility level permitted set to 2, 3, or 4. Next, molecular docking was performed to learn about the affinity of the filtered alkaloids with the POP. Subsequently, molecular dynamic simulations were conducted to assess the reliability and stability of the alkaloid-protein complex. Our study identified metergoline, pipercallosine, celacinnine, lobeline, cystodytin G, lycoperine A, hookerianamide J, and martefragin A as putative lead compounds against POP. Among these, metergoline, pipercallosine, hookerianamide J, and lobeline showed the most promising results. These compounds demonstrated better or equivalent molecular docking scores in comparison to three POP inhibitors that had reached clinical trials, i.e., Z-321, S-17092, and JTP-4819. MD simulations indicated that these compounds remained intact at the active site while adhering to the binding mode and interaction patterns as that of the reported inhibitors. The research conducted here, therefore, provides evidence for conducting in vitro POP inhibitory studies of these newly identified plant-based POP inhibitors.
+33897801	41	49	Alkaloid	Chemical	MESH:D000470
+33897801	64	83	Parkinson's Disease	Disease	MESH:D010300
+33897801	104	125	Prolyl Oligopeptidase	Gene	5550
+33897801	127	146	Parkinson's disease	Disease	MESH:D010300
+33897801	159	185	neurodegenerative disorder	Disease	MESH:D019636
+33897801	228	243	alpha synuclein	Gene	6622
+33897801	280	301	prolyl oligopeptidase	Gene	5550
+33897801	303	306	POP	Gene	5550
+33897801	311	326	serine protease	Gene	2147
+33897801	331	346	alpha synuclein	Gene	6622
+33897801	372	375	POP	Gene	5550
+33897801	547	556	Alkaloids	Chemical	MESH:D000470
+33897801	606	613	amyloid	Disease	MESH:C000718787
+33897801	638	650	inflammatory	Disease	MESH:D007249
+33897801	686	711	neurodegenerative disease	Disease	MESH:D019636
+33897801	756	764	alkaloid	Chemical	MESH:D000470
+33897801	828	831	POP	Gene	5550
+33897801	833	842	Alkaloids	Chemical	MESH:D000470
+33897801	1069	1077	toxicity	Disease	MESH:D064420
+33897801	1144	1174	central nervous system disease	Disease	MESH:D002493
+33897801	1385	1394	alkaloids	Chemical	MESH:D000470
+33897801	1404	1407	POP	Gene	5550
+33897801	1515	1523	alkaloid	Chemical	MESH:D000470
+33897801	1562	1573	metergoline	Chemical	MESH:D008711
+33897801	1575	1589	pipercallosine	Chemical	-
+33897801	1591	1602	celacinnine	Chemical	MESH:C015057
+33897801	1604	1612	lobeline	Chemical	MESH:D008120
+33897801	1614	1626	cystodytin G	Chemical	-
+33897801	1628	1640	lycoperine A	Chemical	MESH:C507691
+33897801	1642	1658	hookerianamide J	Chemical	-
+33897801	1664	1677	martefragin A	Chemical	MESH:C115837
+33897801	1713	1716	POP	Gene	5550
+33897801	1731	1742	metergoline	Chemical	MESH:D008711
+33897801	1744	1758	pipercallosine	Chemical	-
+33897801	1760	1776	hookerianamide J	Chemical	-
+33897801	1782	1790	lobeline	Chemical	MESH:D008120
+33897801	1924	1927	POP	Gene	5550
+33897801	1979	1984	Z-321	Chemical	MESH:C106522
+33897801	1986	1993	S-17092	Chemical	MESH:C118986
+33897801	1999	2007	JTP-4819	Chemical	MESH:C094211
+33897801	2268	2271	POP	Gene	5550
+33897801	2329	2332	POP	Gene	5550
+33897801	Negative_Correlation	MESH:D000470	MESH:D010300
+33897801	Negative_Correlation	MESH:D008711	5550
+33897801	Negative_Correlation	MESH:D000470	5550
+33897801	Negative_Correlation	MESH:D000470	MESH:D007249
+33897801	Negative_Correlation	MESH:D000470	MESH:C000718787
+33897801	Association	MESH:D000470	MESH:D002493
+33897801	Positive_Correlation	MESH:D010300	6622
+33897801	Negative_Correlation	MESH:D008120	5550
+33897801	Negative_Correlation	MESH:C115837	5550
+33897801	Negative_Correlation	MESH:C015057	5550
+33897801	Negative_Correlation	MESH:C106522	5550
+33897801	Negative_Correlation	MESH:D000470	MESH:D019636
+33897801	Association	MESH:D010300	5550
+33897801	Association	5550	6622
+33897801	Negative_Correlation	MESH:C094211	5550
+33897801	Negative_Correlation	MESH:C118986	5550
+33897801	Negative_Correlation	MESH:C507691	5550
+

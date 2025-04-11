@@ -1,0 +1,30 @@
+31494266|t|Whole Genome Analyses of Chinese Population and De Novo Assembly of A Northern Han Genome.
+31494266|a|To unravel the genetic mechanisms of disease and physiological traits, it requires comprehensive sequencing analysis of large sample size in Chinese populations. Here, we report the primary results of the Chinese Academy of Sciences Precision Medicine Initiative (CASPMI) project launched by the Chinese Academy of Sciences, including the de novo assembly of a northern Han reference genome (NH1.0) and whole genome analyses of 597 healthy people coming from most areas in China. Given the two existing reference genomes for Han Chinese (YH and HX1) were both from the south, we constructed NH1.0, a new reference genome from a northern individual, by combining the sequencing strategies of PacBio, 10x Genomics, and Bionano mapping. Using this integrated approach, we obtained an N50 scaffold size of 46.63 Mb for the NH1.0 genome and performed a comparative genome analysis of NH1.0 with YH and HX1. In order to generate a genomic variation map of Chinese populations, we performed the whole-genome sequencing of 597 participants and identified 24.85 million (M) single nucleotide variants (SNVs), 3.85 M small indels, and 106,382 structural variations. In the association analysis with collected phenotypes, we found that the T allele of rs1549293 in KAT8 significantly correlated with the waist circumference in northern Han males. Moreover, significant genetic diversity in MTHFR, TCN2, FADS1, and FADS2, which associate with circulating folate, vitamin B12, or lipid metabolism, was observed between northerners and southerners. Especially, for the homocysteine-increasing allele of rs1801133 (MTHFR 677T), we hypothesize that there exists a "comfort" zone for a high frequency of 677T between latitudes of 35-45 degree North. Taken together, our results provide a high-quality northern Han reference genome and novel population-specific data sets of genetic variants for use in the personalized and precision medicine.
+31494266	1332	1341	rs1549293	SNP	tmVar:rs1549293;VariantGroup:0;CorrespondingGene:84148;RS#:1549293;CorrespondingSpecies:9606
+31494266	1345	1349	KAT8	Gene	84148
+31494266	1470	1475	MTHFR	Gene	4524
+31494266	1477	1481	TCN2	Gene	6948
+31494266	1483	1488	FADS1	Gene	3992
+31494266	1494	1499	FADS2	Gene	9415
+31494266	1534	1540	folate	Chemical	MESH:D005492
+31494266	1542	1553	vitamin B12	Chemical	MESH:D014805
+31494266	1558	1563	lipid	Chemical	MESH:D008055
+31494266	1646	1658	homocysteine	Chemical	MESH:D006710
+31494266	1680	1689	rs1801133	SNP	tmVar:rs1801133;VariantGroup:1;CorrespondingGene:4524;RS#:1801133;CorrespondingSpecies:9606
+31494266	1691	1696	MTHFR	Gene	4524
+31494266	Association	MESH:D008055	6948
+31494266	Association	MESH:D006710	RS#:1801133;CorrespondingGene:4524
+31494266	Association	MESH:D008055	3992
+31494266	Association	MESH:D005492	9415
+31494266	Association	MESH:D005492	3992
+31494266	Association	MESH:D014805	6948
+31494266	Association	MESH:D014805	3992
+31494266	Association	MESH:D014805	4524
+31494266	Association	MESH:D008055	9415
+31494266	Positive_Correlation	MESH:D006710	RS#:1549293;CorrespondingGene:84148
+31494266	Association	MESH:D005492	6948
+31494266	Association	MESH:D006710	4524
+31494266	Association	MESH:D008055	4524
+31494266	Association	MESH:D005492	4524
+31494266	Association	MESH:D014805	9415
+

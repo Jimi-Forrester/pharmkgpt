@@ -1,0 +1,45 @@
+32080337|t|Assessment of adverse events related to anti-influenza neuraminidase inhibitors using the FDA adverse event reporting system and online patient reviews.
+32080337|a|The recommended antiviral drugs available for the treatment and prevention of influenza are neuraminidase inhibitors (NAIs). The aim of this study was to evaluate age-related clinical manifestations of adverse events (AEs) related to NAIs. FAERS and WebMD data were downloaded. The available NAIs selected for the analysis were oseltamivir, peramivir, zanamivir, and laninamivir. Disproportionality was analyzed using the proportional reporting ratio (PRR), the reporting odds ratio (ROR), and the information component (IC) methods. In total, 16729 AEs from 4598 patients and 575 AEs from 440 patients in the FAERS and WebMD, respectively, were included in the analysis. In the FAERS, AEs were more common among those who were younger (<19 years) for zanamivir, while for those who were older (>65 years) for peramivir. A disproportionality analysis showed that signals for vomiting and hallucinations were detected in younger patients given oseltamivir, while an abnormal hepatic function, cardiac failure, shock, and cardio-respiratory arrest were detected in older patients given peramivir. Psychiatric disorders were most common in younger and older patients, while gastrointestinal disorders were most common in adult given oseltamivir in the WebMD. Adverse symptoms related to NAIs varied and depended on the drugs used and the age of the patient.
+32080337	40	79	anti-influenza neuraminidase inhibitors	Chemical	-
+32080337	136	143	patient	Species	9606
+32080337	231	240	influenza	Disease	MESH:D007251
+32080337	245	269	neuraminidase inhibitors	Chemical	-
+32080337	271	275	NAIs	Chemical	-
+32080337	387	391	NAIs	Chemical	-
+32080337	403	408	WebMD	Disease	
+32080337	445	449	NAIs	Chemical	-
+32080337	481	492	oseltamivir	Chemical	MESH:D053139
+32080337	494	503	peramivir	Chemical	MESH:C414210
+32080337	505	514	zanamivir	Chemical	MESH:D053243
+32080337	520	531	laninamivir	Chemical	MESH:C546918
+32080337	717	725	patients	Species	9606
+32080337	747	755	patients	Species	9606
+32080337	773	778	WebMD	Disease	
+32080337	905	914	zanamivir	Chemical	MESH:D053243
+32080337	963	972	peramivir	Chemical	MESH:C414210
+32080337	1028	1036	vomiting	Disease	MESH:D014839
+32080337	1041	1055	hallucinations	Disease	MESH:D006212
+32080337	1081	1089	patients	Species	9606
+32080337	1096	1107	oseltamivir	Chemical	MESH:D053139
+32080337	1118	1143	abnormal hepatic function	Disease	MESH:D056486
+32080337	1145	1160	cardiac failure	Disease	MESH:D006333
+32080337	1162	1167	shock	Disease	MESH:D012769
+32080337	1173	1198	cardio-respiratory arrest	Disease	MESH:D012131
+32080337	1222	1230	patients	Species	9606
+32080337	1237	1246	peramivir	Chemical	MESH:C414210
+32080337	1248	1269	Psychiatric disorders	Disease	MESH:D001523
+32080337	1308	1316	patients	Species	9606
+32080337	1324	1350	gastrointestinal disorders	Disease	MESH:D005767
+32080337	1383	1394	oseltamivir	Chemical	MESH:D053139
+32080337	1402	1407	WebMD	Disease	
+32080337	1437	1441	NAIs	Chemical	-
+32080337	1499	1506	patient	Species	9606
+32080337	Positive_Correlation	MESH:D053139	MESH:D001523
+32080337	Positive_Correlation	MESH:C414210	MESH:D006333
+32080337	Positive_Correlation	MESH:C414210	MESH:D012131
+32080337	Positive_Correlation	MESH:D053139	MESH:D014839
+32080337	Positive_Correlation	MESH:C414210	MESH:D012769
+32080337	Positive_Correlation	MESH:C414210	MESH:D056486
+32080337	Positive_Correlation	MESH:D053139	MESH:D005767
+32080337	Positive_Correlation	MESH:D053139	MESH:D006212
+

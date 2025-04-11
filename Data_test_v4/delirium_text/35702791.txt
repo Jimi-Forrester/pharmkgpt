@@ -1,0 +1,34 @@
+35702791|t|ceRNA Network Analysis Reveals AP-1 Transcription Factor Components as Potential Biomarkers for Alzheimer's Disease
+35702791|a|BACKGROUND: Alzheimer's disease (AD) is a progressive neurodegenerative disease affecting the elderly, characterized by decreased cognitive function. Non-coding RNAs contribute to AD pathogenesis. OBJECTIVE: To identify potential therapeutic targets for AD, competing endogenous RNA (ceRNA) networks were constructed using the hippocampus of 6-month-old amyloid precursor protein/ presenilin 1 double transgenic (APP/PS1) and wild-type mice. METHODS: RNA-seq data (GSE158995), generated from the hippocampus of APP/PS1 and wild-type mice, were analyzed with the limma R package to identify significantly differentially expressed mRNAs and circRNAs (DEMs and DECs, respectively). DEM Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses were performed using Enrichr (https://maayanlab.cloud/Enrichr/). Correlations between DEMs and DECs were determined using the ggcorrplot R package. Main clusters and hub DEMs were selected using the STRING database and Cytoscape software. ceRNA interactions were predicted with the miRTarbase and Starbase tools and constructed with the ggalluvial R package and Cytoscape software. ceRNA networks were validated using the quantitative reverse transcription-polymerase chain reaction (qRT-PCR) and Western blot. RESULTS: 198 DEMs and 90 DECs were differentially expressed in APP/PS1 vs. wild-type hippocampus. DEM GO analysis revealed significant enrichment in transcription regulation, which was subdivided into three main clusters: transcription regulation, synaptic plasticity, and protein refolding. Within the transcription regulation cluster, AP-1 transcription factor components serve as hub genes. The mmu_circ_0001787(circGLCE)/miR-339-5p/Junb and mmu_circ_0001899(circFAM120C)/ miR-181a-5p/Egr1 ceRNA networks were established based on qRT-PCR and Western blot analysis. CONCLUSION: Two AP-1 transcription factor component-related ceRNA networks, circGLCE/miR- 339-5p/Junb and circFAM120C/miR-181a-5p/Egr1, were constructed using a mouse model of AD. These ceRNA networks may contribute to transcription regulation in AD and provide potential biomarkers for AD diagnosis and treatment.
+35702791	96	115	Alzheimer's Disease	Disease	MESH:D000544
+35702791	128	147	Alzheimer's disease	Disease	MESH:D000544
+35702791	149	151	AD	Disease	MESH:D000544
+35702791	170	195	neurodegenerative disease	Disease	MESH:D019636
+35702791	296	298	AD	Disease	MESH:D000544
+35702791	370	372	AD	Disease	MESH:D000544
+35702791	470	495	amyloid precursor protein	Gene	11820
+35702791	497	509	presenilin 1	Gene	19164
+35702791	533	536	PS1	Gene	19164
+35702791	552	556	mice	Species	10090
+35702791	631	634	PS1	Gene	19164
+35702791	649	653	mice	Species	10090
+35702791	1456	1459	PS1	Gene	19164
+35702791	1814	1822	miR-339-	Gene	723898
+35702791	1825	1829	Junb	Gene	16477
+35702791	1865	1873	miR-181a	Gene	387176
+35702791	1877	1881	Egr1	Gene	13653
+35702791	2043	2052	miR- 339-	Gene	723898
+35702791	2055	2059	Junb	Gene	16477
+35702791	2076	2084	miR-181a	Gene	387176
+35702791	2088	2092	Egr1	Gene	13653
+35702791	2119	2124	mouse	Species	10090
+35702791	2134	2136	AD	Disease	MESH:D000544
+35702791	2205	2207	AD	Disease	MESH:D000544
+35702791	2245	2247	AD	Disease	MESH:D000544
+35702791	Association	16477	723898
+35702791	Association	MESH:D000544	387176
+35702791	Association	MESH:D000544	723898
+35702791	Association	13653	387176
+35702791	Association	MESH:D000544	16477
+35702791	Association	11820	19164
+

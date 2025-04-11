@@ -1,0 +1,12 @@
+37934647|t|Learning Spatio-Temporal Model of Disease Progression with NeuralODEs from Longitudinal Volumetric Data.
+37934647|a|Robust forecasting of the future anatomical changes inflicted by an ongoing disease is an extremely challenging task that is out of grasp even for experienced healthcare professionals. Such a capability, however, is of great importance since it can improve patient management by providing information on the speed of disease progression already at the admission stage, or it can enrich the clinical trials with fast progressors and avoid the need for control arms by the means of digital twins. In this work, we develop a deep learning method that models the evolution of age-related disease by processing a single medical scan and providing a segmentation of the target anatomy at a requested future point in time. Our method represents a time-invariant physical process and solves a large-scale problem of modeling temporal pixel-level changes utilizing NeuralODEs. In addition, we demonstrate the approaches to incorporate the prior domain-specific constraints into our method and define temporal Dice loss for learning temporal objectives. To evaluate the applicability of our approach across different age-related diseases and imaging modalities, we developed and tested the proposed method on the datasets with 967 retinal OCT volumes of 100 patients with Geographic Atrophy and 2823 brain MRI volumes of 633 patients with Alzheimer's Disease. For Geographic Atrophy, the proposed method outperformed the related baseline models in the atrophy growth prediction. For Alzheimer's Disease, the proposed method demonstrated remarkable performance in predicting the brain ventricle changes induced by the disease, achieving the state-of-the-art result on TADPOLE cross-sectional prediction challenge dataset.
+37934647	677	696	age-related disease	Disease	MESH:D010024
+37934647	1212	1232	age-related diseases	Disease	MESH:D010024
+37934647	1334	1337	OCT	Chemical	MESH:C051883
+37934647	1378	1385	Atrophy	Disease	MESH:D001284
+37934647	1434	1453	Alzheimer's Disease	Disease	MESH:D000544
+37934647	1470	1477	Atrophy	Disease	MESH:D001284
+37934647	1547	1554	atrophy	Disease	MESH:D001284
+37934647	1578	1597	Alzheimer's Disease	Disease	MESH:D000544
+37934647	Association	MESH:C051883	MESH:D001284
+

@@ -1,0 +1,9 @@
+35893228|t|DisiMiR: Predicting Pathogenic miRNAs Using Network Influence and miRNA Conservation.
+35893228|a|MiRNAs have been shown to play a powerful regulatory role in the progression of serious diseases, including cancer, Alzheimer's, and others, raising the possibility of new miRNA-based therapies for these conditions. Current experimental methods, such as differential expression analysis, can discover disease-associated miRNAs, yet many of these miRNAs play no functional role in disease progression. Interventional experiments used to discover disease causal miRNAs can be time consuming and costly. We present DisiMiR: a novel computational method that predicts pathogenic miRNAs by inferring biological characteristics of pathogenicity, including network influence and evolutionary conservation. DisiMiR separates disease causal miRNAs from merely disease-associated miRNAs, and was accurate in four diseases: breast cancer (0.826 AUC), Alzheimer's (0.794 AUC), gastric cancer (0.853 AUC), and hepatocellular cancer (0.957 AUC). Additionally, DisiMiR can generate hypotheses effectively: 78.4% of its false positives that are mentioned in the literature have been confirmed to be causal through recently published research. In this work, we show that DisiMiR is a powerful tool that can be used to efficiently and flexibly to predict pathogenic miRNAs in an expression dataset, for the further elucidation of disease mechanisms, and the potential identification of novel drug targets.
+35893228	194	200	cancer	Disease	MESH:D009369
+35893228	202	213	Alzheimer's	Disease	MESH:D000544
+35893228	899	912	breast cancer	Disease	MESH:D001943
+35893228	926	937	Alzheimer's	Disease	MESH:D000544
+35893228	951	965	gastric cancer	Disease	MESH:D013274
+35893228	983	1004	hepatocellular cancer	Disease	MESH:D006528
+

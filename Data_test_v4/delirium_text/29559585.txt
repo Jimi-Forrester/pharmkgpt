@@ -1,0 +1,56 @@
+29559585|t|Nitrosylation of GAPDH augments pathological tau acetylation upon exposure to amyloid-beta.
+29559585|a|Acetylation of the microtubule-associated protein tau promotes its polymerization into neurofibrillary tangles that are implicated in the pathology of Alzheimer's disease (AD). The gaseous neurotransmitter nitric oxide (NO) regulates cell signaling through the nitrosylation of proteins. We found that NO production and tau acetylation at Lys280 occurred in the brain tissue in mice and in cultured mouse cortical neurons in response to exposure to amyloid-beta1-42 (Abeta1-42), a peptide that is also implicated in AD. An increased abundance of NO facilitated the S-nitrosylation (SNO) of glyceraldehyde-3-phosphate dehydrogenase (GAPDH). S-nitrosylated GAPDH (GAPDH-SNO) promoted the acetylation and activation of the acetyltransferase p300 and facilitated the nitrosylation and inactivation of the deacetylase sirtuin 1 (SIRT1). The abundance of GAPDH-SNO was increased in postmortem brain samples from AD patients. Preventing the increase in GAPDH-SNO abundance in both cultured neurons and mice, either by overexpression of the nitrosylation mutant of GAPDH (GAPDH C150S) or by treatment with the GAPDH nitrosylation inhibitor CGP3466B (also known as omigapil), abrogated Abeta1-42-induced tau acetylation, memory impairment, and locomotor dysfunction in mice, suggesting that this drug might be repurposed to treat patients with AD.
+29559585	17	22	GAPDH	Gene	14433
+29559585	45	48	tau	Gene	4137
+29559585	78	90	amyloid-beta	Gene	351
+29559585	111	141	microtubule-associated protein	Gene	51115
+29559585	142	145	tau	Gene	4137
+29559585	179	202	neurofibrillary tangles	Disease	MESH:D055956
+29559585	243	262	Alzheimer's disease	Disease	MESH:D000544
+29559585	264	266	AD	Disease	MESH:D000544
+29559585	298	310	nitric oxide	Chemical	MESH:D009569
+29559585	412	415	tau	Gene	4137
+29559585	470	474	mice	Species	10090
+29559585	491	496	mouse	Species	10090
+29559585	608	610	AD	Disease	MESH:D000544
+29559585	682	722	glyceraldehyde-3-phosphate dehydrogenase	Gene	14433
+29559585	724	729	GAPDH	Gene	14433
+29559585	747	752	GAPDH	Gene	14433
+29559585	754	759	GAPDH	Gene	14433
+29559585	830	834	p300	Gene	328572
+29559585	905	914	sirtuin 1	Gene	93759
+29559585	916	921	SIRT1	Gene	93759
+29559585	941	946	GAPDH	Gene	14433
+29559585	998	1000	AD	Disease	MESH:D000544
+29559585	1001	1009	patients	Species	9606
+29559585	1038	1043	GAPDH	Gene	14433
+29559585	1087	1091	mice	Species	10090
+29559585	1149	1154	GAPDH	Gene	14433
+29559585	1156	1161	GAPDH	Gene	14433
+29559585	1162	1167	C150S	ProteinMutation	tmVar:p|SUB|C|150|S;HGVS:p.C150S;VariantGroup:0;CorrespondingGene:4137;RS#:1483785186;CorrespondingSpecies:9606
+29559585	1194	1199	GAPDH	Gene	14433
+29559585	1224	1232	CGP3466B	Chemical	MESH:C111178
+29559585	1248	1256	omigapil	Chemical	MESH:C111178
+29559585	1287	1290	tau	Gene	4137
+29559585	1304	1321	memory impairment	Disease	MESH:D008569
+29559585	1327	1348	locomotor dysfunction	Disease	MESH:D001523
+29559585	1352	1356	mice	Species	10090
+29559585	1413	1421	patients	Species	9606
+29559585	1427	1429	AD	Disease	MESH:D000544
+29559585	Association	MESH:D001523	14433
+29559585	Association	14433	4137
+29559585	Association	14433	351
+29559585	Negative_Correlation	MESH:C111178	MESH:D008569
+29559585	Association	14433	328572
+29559585	Negative_Correlation	MESH:C111178	MESH:D000544
+29559585	Association	MESH:D055956	4137
+29559585	Association	MESH:D008569	14433
+29559585	Association	MESH:D000544	51115
+29559585	Negative_Correlation	MESH:C111178	4137
+29559585	Association	MESH:D000544	14433
+29559585	Negative_Correlation	MESH:C111178	14433
+29559585	Association	351	4137
+29559585	Negative_Correlation	MESH:C111178	MESH:D001523
+29559585	Association	MESH:D000544	4137
+29559585	Association	MESH:D055956	51115
+

@@ -1,0 +1,35 @@
+25597433|t|The mitochondrial aspartate/glutamate carrier isoform 1 gene expression is regulated by CREB in neuronal cells.
+25597433|a|The aspartate/glutamate carrier isoform 1 is an essential mitochondrial transporter that exchanges intramitochondrial aspartate and cytosolic glutamate across the inner mitochondrial membrane. It is expressed in brain, heart and muscle and is involved in important biological processes, including myelination. However, the signals that regulate the expression of this transporter are still largely unknown. In this study we first identify a CREB binding site within the aspartate/glutamate carrier gene promoter that acts as a strong enhancer element in neuronal SH-SY5Y cells. This element is regulated by active, phosphorylated CREB protein and by signal pathways that modify the activity of CREB itself and, most noticeably, by intracellular Ca(2+) levels. Specifically, aspartate/glutamate carrier gene expression is induced via CREB by forskolin while it is inhibited by the PKA inhibitor, H89. Furthermore, the CREB-induced activation of gene expression is increased by thapsigargin, which enhances cytosolic Ca(2+), while it is inhibited by BAPTA-AM that reduces cytosolic Ca(2+) or by STO-609, which inhibits CaMK-IV phosphorylation. We further show that CREB-dependent regulation of aspartate/glutamate carrier gene expression occurs in neuronal cells in response to pathological (inflammation) and physiological (differentiation) conditions. Since this carrier is necessary for neuronal functions and is involved in myelinogenesis, our results highlight that targeting of CREB activity and Ca(2+) might be therapeutically exploited to increase aspartate/glutamate carrier gene expression in neurodegenerative diseases. 
+25597433	88	92	CREB	Gene	1385
+25597433	230	239	aspartate	Chemical	MESH:D001224
+25597433	254	263	glutamate	Chemical	MESH:D018698
+25597433	553	557	CREB	Gene	1385
+25597433	675	682	SH-SY5Y	CellLine	CVCL:0019
+25597433	742	746	CREB	Gene	1385
+25597433	806	810	CREB	Gene	1385
+25597433	857	863	Ca(2+)	Chemical	-
+25597433	945	949	CREB	Gene	1385
+25597433	953	962	forskolin	Chemical	MESH:D005576
+25597433	1007	1010	H89	Chemical	MESH:C063509
+25597433	1029	1033	CREB	Gene	1385
+25597433	1088	1100	thapsigargin	Chemical	MESH:D019284
+25597433	1127	1133	Ca(2+)	Chemical	-
+25597433	1160	1168	BAPTA-AM	Chemical	MESH:C070379
+25597433	1192	1198	Ca(2+)	Chemical	-
+25597433	1205	1212	STO-609	Chemical	MESH:C458525
+25597433	1229	1236	CaMK-IV	Gene	814
+25597433	1275	1279	CREB	Gene	1385
+25597433	1402	1414	inflammation	Disease	MESH:D007249
+25597433	1594	1598	CREB	Gene	1385
+25597433	1612	1618	Ca(2+)	Chemical	-
+25597433	1713	1739	neurodegenerative diseases	Disease	MESH:D019636
+25597433	Negative_Correlation	MESH:C070379	1385
+25597433	Negative_Correlation	MESH:C458525	1385
+25597433	Association	MESH:D019636	1385
+25597433	Negative_Correlation	MESH:C458525	814
+25597433	Negative_Correlation	MESH:C063509	1385
+25597433	Association	MESH:D007249	1385
+25597433	Positive_Correlation	MESH:D019284	1385
+25597433	Positive_Correlation	MESH:D005576	1385
+25597433	Positive_Correlation	1385	814
+

@@ -1,0 +1,60 @@
+33461371|t|Hyperhomocysteinemia and Dementia Associated With Severe Cortical Atrophy, but No Amyloid Burden.
+33461371|a|We report a case of a 77 years old patient who was admitted to our memory clinic because of progressive gait impairment and amnestic cognitive decline associated with extrapyramidal symptoms and behavioral changes. The clinical picture was consistent with a possible diagnosis of Alzheimer's Disease associated with parkinsonian symptoms or with a Parkinson Plus syndrome. After a complete investigation, she was found to have a high plasma level of homocysteine due to homozygous methylene-tetrahydrofolate reductase (MTHFR) gene C665 T polymorphism, cognitive and motor impairment were associated with a severe cortical atrophy and mild subcortical vascular disease. PET neuroimaging excluded a significant amyloid load. Clinically, she showed improvement of the movement disorder and functional status after folate integration plus levodopa and memantine administration. We concluded for a primary degenerative dementia with movement impairment associated with persistent hyperhomocysteinemia. We hypothesized that neurodegeneration is driven by mechanisms linked to homocysteine metabolism possibly associated with tauopathy.
+33461371	0	20	Hyperhomocysteinemia	Disease	MESH:D020138
+33461371	25	33	Dementia	Disease	MESH:D003704
+33461371	57	73	Cortical Atrophy	Disease	MESH:D001284
+33461371	82	96	Amyloid Burden	Disease	MESH:C000718787
+33461371	133	140	patient	Species	9606
+33461371	202	217	gait impairment	Disease	MESH:D020234
+33461371	222	248	amnestic cognitive decline	Disease	MESH:D003072
+33461371	265	288	extrapyramidal symptoms	Disease	MESH:D001480
+33461371	378	397	Alzheimer's Disease	Disease	MESH:D000544
+33461371	414	435	parkinsonian symptoms	Disease	MESH:D010302
+33461371	446	469	Parkinson Plus syndrome	Disease	MESH:D010302
+33461371	548	560	homocysteine	Chemical	MESH:D006710
+33461371	579	615	methylene-tetrahydrofolate reductase	Gene	4524
+33461371	617	622	MTHFR	Gene	4524
+33461371	629	635	C665 T	DNAMutation	tmVar:c|SUB|C|665|T;HGVS:c.665C>T;VariantGroup:0;CorrespondingGene:4524;RS#:1801133;CorrespondingSpecies:9606;CA#:170990
+33461371	650	680	cognitive and motor impairment	Disease	MESH:D003072
+33461371	711	727	cortical atrophy	Disease	MESH:D001284
+33461371	737	765	subcortical vascular disease	Disease	MESH:D015140
+33461371	807	819	amyloid load	Disease	MESH:C536761
+33461371	863	880	movement disorder	Disease	MESH:D009069
+33461371	909	915	folate	Chemical	MESH:D005492
+33461371	933	941	levodopa	Chemical	MESH:D007980
+33461371	946	955	memantine	Chemical	MESH:D008559
+33461371	991	1020	primary degenerative dementia	Disease	MESH:D000544
+33461371	1026	1045	movement impairment	Disease	MESH:D009069
+33461371	1073	1093	hyperhomocysteinemia	Disease	MESH:D020138
+33461371	1116	1133	neurodegeneration	Disease	MESH:D019636
+33461371	1168	1180	homocysteine	Chemical	MESH:D006710
+33461371	1217	1226	tauopathy	Disease	MESH:D024801
+33461371	Negative_Correlation	MESH:D008559	MESH:D009069
+33461371	Association	MESH:D006710	MESH:D024801
+33461371	Association	RS#:1801133;HGVS:c.665C>T;CorrespondingGene:4524	MESH:D003072
+33461371	Positive_Correlation	MESH:D006710	MESH:D003072
+33461371	Positive_Correlation	MESH:D006710	MESH:D010302
+33461371	Positive_Correlation	RS#:1801133;HGVS:c.665C>T;CorrespondingGene:4524	MESH:D020138
+33461371	Association	RS#:1801133;HGVS:c.665C>T;CorrespondingGene:4524	MESH:D001284
+33461371	Association	RS#:1801133;HGVS:c.665C>T;CorrespondingGene:4524	MESH:D015140
+33461371	Cotreatment	MESH:D005492	MESH:D007980
+33461371	Association	MESH:D020138	4524
+33461371	Association	MESH:D001284	4524
+33461371	Association	MESH:D006710	RS#:1801133;HGVS:c.665C>T;CorrespondingGene:4524
+33461371	Association	MESH:D006710	4524
+33461371	Association	MESH:D006710	MESH:D019636
+33461371	Positive_Correlation	MESH:D006710	MESH:D001284
+33461371	Association	MESH:D006710	MESH:D000544
+33461371	Association	MESH:D003072	4524
+33461371	Cotreatment	MESH:D005492	MESH:D008559
+33461371	Association	MESH:D015140	4524
+33461371	Negative_Correlation	MESH:D005492	MESH:D001480
+33461371	Negative_Correlation	MESH:D007980	MESH:D009069
+33461371	Negative_Correlation	MESH:D005492	MESH:D009069
+33461371	Positive_Correlation	MESH:D006710	MESH:D015140
+33461371	Negative_Correlation	MESH:D008559	MESH:D001480
+33461371	Association	MESH:D003072	4524
+33461371	Association	MESH:D020138	4524
+33461371	Association	MESH:D001284	4524
+33461371	Association	MESH:D015140	4524
+

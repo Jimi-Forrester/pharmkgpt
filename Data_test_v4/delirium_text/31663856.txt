@@ -1,0 +1,15 @@
+31663856|t|Hospital-Based Back Surgery: Geospatial-Temporal, Explanatory, and Predictive Models.
+31663856|a|BACKGROUND: Hospital-based back surgery in the United States increased by 60% from January 2012 to December 2017, yet the supply of neurosurgeons remained relatively constant. During this time, adult obesity grew by 5%. OBJECTIVE: This study aimed to evaluate the demand and associated costs for hospital-based back surgery by geolocation over time to evaluate provider practice variation. The study then leveraged hierarchical time series to generate tight demand forecasts on an unobserved test set. Finally, explanatory financial, technical, workload, geographical, and temporal factors as well as state-level obesity rates were investigated as predictors for the demand for hospital-based back surgery. METHODS: Hospital data from January 2012 to December 2017 were used to generate geospatial-temporal maps and a video of the Current Procedural Terminology codes beginning with the digit 63 claims. Hierarchical time series modeling provided forecasts for each state, the census regions, and the nation for an unobserved test set and then again for the out-years of 2018 and 2019. Stepwise regression, lasso regression, ridge regression, elastic net, and gradient-boosted random forests were built on a training set and evaluated on a test set to evaluate variables important to explaining the demand for hospital-based back surgery. RESULTS: Widespread, unexplained practice variation over time was seen using geographical information systems (GIS) multimedia mapping. Hierarchical time series provided accurate forecasts on a blind dataset and suggested a 6.52% (from 497,325 procedures in 2017 to 529,777 in 2018) growth of hospital-based back surgery in 2018 (529,777 and up to 13.00% by 2019 [from 497,325 procedures in 2017 to 563,023 procedures in 2019]). The increase in payments by 2019 are estimated to be US $323.9 million. Extreme gradient-boosted random forests beat constrained and unconstrained regression models on a 20% unobserved test set and suggested that obesity is one of the most important factors in explaining the increase in demand for hospital-based back surgery. CONCLUSIONS: Practice variation and obesity are factors to consider when estimating demand for hospital-based back surgery. Federal, state, and local planners should evaluate demand-side and supply-side interventions for this emerging problem.
+31663856	15	27	Back Surgery	Disease	MESH:D055111
+31663856	113	125	back surgery	Disease	MESH:D055111
+31663856	286	293	obesity	Disease	MESH:D009765
+31663856	397	409	back surgery	Disease	MESH:D055111
+31663856	699	706	obesity	Disease	MESH:D009765
+31663856	779	791	back surgery	Disease	MESH:D055111
+31663856	1411	1423	back surgery	Disease	MESH:D055111
+31663856	1733	1745	back surgery	Disease	MESH:D055111
+31663856	2067	2074	obesity	Disease	MESH:D009765
+31663856	2168	2180	back surgery	Disease	MESH:D055111
+31663856	2218	2225	obesity	Disease	MESH:D009765
+31663856	2292	2304	back surgery	Disease	MESH:D055111
+

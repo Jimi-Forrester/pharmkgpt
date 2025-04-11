@@ -1,0 +1,18 @@
+29903930|t|Spatial Normalization of 18F-Flutemetamol PET Images Using an Adaptive Principal-Component Template
+29903930|a|Though currently approved for visual assessment only, there is evidence to suggest that quantification of amyloid-beta (Abeta) PET images may reduce interreader variability and aid in the monitoring of treatment effects in clinical trials. Quantification typically involves a regional atlas in standard space, requiring PET images to be spatially normalized. Different uptake patterns in Abeta-positive and Abeta-negative subjects, however, make spatial normalization challenging. In this study, we proposed a method to spatially normalize 18F-flutemetamol images using a synthetic template based on principal-component images to overcome these challenges. <strong>Methods:</strong> 18F-flutemetamol PET and corresponding MR images from a phase II trial (<em>n</em> = 70), including subjects ranging from Abeta-negative to Abeta-positive, were spatially normalized to standard space using an MR-driven registration method (SPM12). 18F-flutemetamol images were then intensity-normalized using the pons as a reference region. Principal-component images were calculated from the intensity-normalized images. A linear combination of the first 2 principal-component images was then used to model a synthetic template spanning the whole range from Abeta-negative to Abeta-positive. The synthetic template was then incorporated into our registration method, by which the optimal template was calculated as part of the registration process, providing a PET-only-driven registration method. Evaluation of the method was done in 2 steps. First, coregistered gray matter masks generated using SPM12 were spatially normalized using the PET- and MR-driven methods, respectively. The spatially normalized gray matter masks were then visually inspected and quantified. Second, to quantitatively compare the 2 registration methods, additional data from an ongoing study were spatially normalized using both methods, with correlation analysis done on the resulting cortical SUV ratios. <strong>Results:</strong> All scans were successfully spatially normalized using the proposed method with no manual adjustments performed. Both visual and quantitative comparison between the PET- and MR-driven methods showed high agreement in cortical regions. 18F-flutemetamol quantification showed strong agreement between the SUV ratios for the PET- and MR-driven methods (<em>R</em>2 = 0.996; pons reference region). <strong>Conclusion:</strong> The principal-component template registration method allows for robust and accurate registration of 18F-flutemetamol images to a standardized template space, without the need for an MR image.
+29903930	25	41	18F-Flutemetamol	Chemical	MESH:C581552
+29903930	206	218	amyloid-beta	Gene	351
+29903930	220	225	Abeta	Gene	351
+29903930	488	493	Abeta	Gene	351
+29903930	507	512	Abeta	Gene	351
+29903930	640	656	18F-flutemetamol	Chemical	MESH:C581552
+29903930	783	799	18F-flutemetamol	Chemical	MESH:C581552
+29903930	905	910	Abeta	Gene	351
+29903930	923	928	Abeta	Gene	351
+29903930	1031	1047	18F-flutemetamol	Chemical	MESH:C581552
+29903930	1342	1347	Abeta	Gene	351
+29903930	1360	1365	Abeta	Gene	351
+29903930	2330	2346	18F-flutemetamol	Chemical	MESH:C581552
+29903930	2619	2635	18F-flutemetamol	Chemical	MESH:C581552
+29903930	Positive_Correlation	MESH:C581552	351
+

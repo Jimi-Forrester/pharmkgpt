@@ -1,0 +1,41 @@
+38507844|t|In silico exploration of CB2 receptor agonist in the management of neuroinflammatory conditions by pharmacophore modeling.
+38507844|a|Endocannabinoid system plays a pivotal role in controlling neuroinflammation, and modulating this system may not only aid in managing symptoms of neurodegenerative diseases such as Alzheimer's disease, Parkinson's disease, Multiple sclerosis, Epilepsy, Central and Peripheral neuropathic pain, but also, have the potential to target these diseases at an early-stage. In the present study, six different pharmacophore hypotheses were generated from Cannabidiol (CBD)-Cannabinoid Receptor subtype-2 (CB2) and then Zinc database was screened for identification of hit molecules. Identified 215 hit molecules were subjected to preliminary screening with ADMET and drug likeness properties, and about 48 molecules were found with no violations and toxicity properties. In molecular docking studies, six compounds showed better binding energy than CBD and beta-caryophyllene (known inhibitor of CB2). These six molecules were designated as leads and subjected to re-docking with glide tool and Lead1 (ZINC000078815430) showed docking score of -9.877 kcal/mol, whereas CBD and beta-caryophyllene showed score of -9.664 and -8.499 kcal/mol, respectively. Lead1 and CBD were evaluated for stability studies with Desmond tool by molecular dynamic simulation studies. Lead1 showed better stability than CBD in all studied parameters such as RMSD, RMSF, SSE, Rg, SASA, etc. In MM-GBSA free energy calculations, DeltaGbinding energy of CB2-CBD complex and CB2-Lead1 were found to be -103.13+-11.19 and -107.94+-5.42 kcal/mol, respectively. Six lead molecules stated in the study hold promise with respect to CBD agonistic activity for treating and/or managing chronic conditions and can be explored as an alternative for early-stage cure, which has not yet been experimentally explored.
+38507844	67	84	neuroinflammatory	Disease	MESH:D000090862
+38507844	123	138	Endocannabinoid	Chemical	MESH:D063388
+38507844	182	199	neuroinflammation	Disease	MESH:D000090862
+38507844	269	295	neurodegenerative diseases	Disease	MESH:D019636
+38507844	304	323	Alzheimer's disease	Disease	MESH:D000544
+38507844	325	344	Parkinson's disease	Disease	MESH:D010300
+38507844	346	364	Multiple sclerosis	Disease	MESH:D009103
+38507844	366	374	Epilepsy	Disease	MESH:D004827
+38507844	399	415	neuropathic pain	Disease	MESH:D009437
+38507844	571	582	Cannabidiol	Chemical	MESH:D002185
+38507844	584	587	CBD	Chemical	MESH:D002185
+38507844	621	624	CB2	Gene	1269
+38507844	635	639	Zinc	Chemical	MESH:D015032
+38507844	866	874	toxicity	Disease	MESH:D064420
+38507844	965	968	CBD	Chemical	MESH:D002185
+38507844	973	991	beta-caryophyllene	Chemical	MESH:C024714
+38507844	1012	1015	CB2	Gene	1269
+38507844	1111	1116	Lead1	Chemical	-
+38507844	1185	1188	CBD	Chemical	MESH:D002185
+38507844	1193	1211	beta-caryophyllene	Chemical	MESH:C024714
+38507844	1270	1275	Lead1	Chemical	-
+38507844	1280	1283	CBD	Chemical	MESH:D002185
+38507844	1380	1385	Lead1	Chemical	-
+38507844	1415	1418	CBD	Chemical	MESH:D002185
+38507844	1546	1549	CB2	Gene	1269
+38507844	1550	1553	CBD	Chemical	MESH:D002185
+38507844	1566	1569	CB2	Gene	1269
+38507844	1570	1575	Lead1	Chemical	-
+38507844	1718	1721	CBD	Chemical	MESH:D002185
+38507844	Positive_Correlation	MESH:D002185	1269
+38507844	Association	MESH:D063388	MESH:D004827
+38507844	Association	MESH:D063388	MESH:D010300
+38507844	Association	MESH:D063388	MESH:D000544
+38507844	Association	MESH:D063388	MESH:D009103
+38507844	Association	MESH:D063388	MESH:D000090862
+38507844	Negative_Correlation	MESH:C024714	1269
+38507844	Association	MESH:D063388	MESH:D019636
+38507844	Association	MESH:D063388	MESH:D009437
+

@@ -1,0 +1,22 @@
+24938712|t|Clinical prediction model suitable for assessing hospital quality for patients undergoing carotid endarterectomy.
+24938712|a|BACKGROUND: Assessing hospital quality in the performance of carotid endarterectomy (CEA) requires appropriate risk adjustment across hospitals with varying case mixes. The aim of this study was to develop and validate a prediction model to assess the risk of in-hospital stroke or death after CEA that could aid in the assessment of hospital quality. METHODS AND RESULTS: Patients from National Cardiovascular Data Registry (NCDR)'s Carotid Artery Revascularization and Endarterectomy (CARE) Registry undergoing CEA without acute evolving stroke from 2005 to 2013 were included. In-hospital stroke or death was modeled using hierarchical logistic regression with 20 candidate variables and accounting for hospital-level clustering. Internal validation was achieved with bootstrapping; model discrimination and calibration were assessed. A total of 213 (1.7%) primary end point events occurred during 12 889 procedures. Independent predictors of stroke or death included age, prior peripheral artery disease, diabetes mellitus, prior coronary artery disease, having a symptomatic carotid lesion, having a contralateral carotid occlusion, or having New York Heart Association Class III or IV heart failure. The model was well calibrated and demonstrated moderate discriminative ability (c-statistic 0.65). The NCDR CEA score was then developed to support simple, prospective risk quantification in the clinical setting. CONCLUSIONS: The NCDR CEA score, comprising 7 clinical variables, predicts in-hospital stroke or death after CEA. This model can be used to estimate hospital risk-adjusted outcomes for CEA and to assist with the assessment of hospital quality.
+24938712	70	78	patients	Species	9606
+24938712	386	392	stroke	Disease	MESH:D020521
+24938712	396	401	death	Disease	MESH:D003643
+24938712	487	495	Patients	Species	9606
+24938712	654	660	stroke	Disease	MESH:D020521
+24938712	706	712	stroke	Disease	MESH:D020521
+24938712	716	721	death	Disease	MESH:D003643
+24938712	1060	1066	stroke	Disease	MESH:D020521
+24938712	1070	1075	death	Disease	MESH:D003643
+24938712	1096	1121	peripheral artery disease	Disease	MESH:D058729
+24938712	1123	1140	diabetes mellitus	Disease	MESH:D003920
+24938712	1148	1171	coronary artery disease	Disease	MESH:D003324
+24938712	1194	1208	carotid lesion	Disease	MESH:D002340
+24938712	1233	1250	carotid occlusion	Disease	MESH:D016893
+24938712	1262	1288	New York Heart Association	Disease	MESH:D006331
+24938712	1295	1304	III or IV	Disease	MESH:D006011
+24938712	1305	1318	heart failure	Disease	MESH:D006333
+24938712	1620	1626	stroke	Disease	MESH:D020521
+24938712	1630	1635	death	Disease	MESH:D003643
+

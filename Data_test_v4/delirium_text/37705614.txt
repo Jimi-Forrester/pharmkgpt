@@ -1,0 +1,25 @@
+37705614|t|Classification of Alzheimer's disease stages from magnetic resonance images using deep learning.
+37705614|a|Alzheimer's disease (AD) is a progressive type of dementia characterized by loss of memory and other cognitive abilities, including speech. Since AD is a progressive disease, detection in the early stages is essential for the appropriate care of the patient throughout its development, going from asymptomatic to a stage known as mild cognitive impairment (MCI), and then progressing to dementia and severe dementia; is worth mentioning that everyone suffers from cognitive impairment to some degree as we age, but the relevant task here is to identify which people are most likely to develop AD. Along with cognitive tests, evaluation of the brain morphology is the primary tool for AD diagnosis, where atrophy and loss of volume of the frontotemporal lobe are common features in patients who suffer from the disease. Regarding medical imaging techniques, magnetic resonance imaging (MRI) scans are one of the methods used by specialists to assess brain morphology. Recently, with the rise of deep learning (DL) and its successful implementation in medical imaging applications, it is of growing interest in the research community to develop computer-aided diagnosis systems that can help physicians to detect this disease, especially in the early stages where macroscopic changes are not so easily identified. This article presents a DL-based approach to classifying MRI scans in the different stages of AD, using a curated set of images from Alzheimer's Disease Neuroimaging Initiative and Open Access Series of Imaging Studies databases. Our methodology involves image pre-processing using FreeSurfer, spatial data-augmentation operations, such as rotation, flip, and random zoom during training, and state-of-the-art 3D convolutional neural networks such as EfficientNet, DenseNet, and a custom siamese network, as well as the relatively new approach of vision transformer architecture. With this approach, the best detection percentage among all four architectures was around 89% for AD vs. Control, 80% for Late MCI vs. Control, 66% for MCI vs. Control, and 67% for Early MCI vs. Control.
+37705614	18	37	Alzheimer's disease	Disease	MESH:D000544
+37705614	97	116	Alzheimer's disease	Disease	MESH:D000544
+37705614	118	120	AD	Disease	MESH:D000544
+37705614	147	155	dementia	Disease	MESH:D003704
+37705614	173	187	loss of memory	Disease	MESH:D008569
+37705614	243	245	AD	Disease	MESH:D000544
+37705614	432	452	cognitive impairment	Disease	MESH:D003072
+37705614	454	457	MCI	Disease	MESH:D060825
+37705614	484	492	dementia	Disease	MESH:D003704
+37705614	504	512	dementia	Disease	MESH:D003704
+37705614	561	581	cognitive impairment	Disease	MESH:D003072
+37705614	690	692	AD	Disease	MESH:D000544
+37705614	781	783	AD	Disease	MESH:D000544
+37705614	801	808	atrophy	Disease	MESH:D001284
+37705614	813	834	loss of volume of the	Disease	MESH:D016388
+37705614	850	854	lobe	Disease	MESH:D008878
+37705614	1503	1505	AD	Disease	MESH:D000544
+37705614	1542	1561	Alzheimer's Disease	Disease	MESH:D000544
+37705614	2087	2089	AD	Disease	MESH:D000544
+37705614	2116	2119	MCI	Disease	MESH:D060825
+37705614	2141	2144	MCI	Disease	MESH:D060825
+37705614	2176	2179	MCI	Disease	MESH:D060825
+

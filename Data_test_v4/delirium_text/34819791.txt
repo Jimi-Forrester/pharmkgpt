@@ -1,0 +1,61 @@
+34819791|t|Systematic analysis of potential targets of the curcumin analog pentagamavunon-1 (PGV-1) in overcoming resistance of glioblastoma cells to bevacizumab.
+34819791|a|BACKGROUND: Glioblastoma is one of the most aggressive and deadliest malignant tumors. Acquired resistance decreases the effectiveness of bevacizumab in glioblastoma treatment and thus increases the mortality rate in patients with glioblastoma. In this study, the potential targets of pentagamavunone-1 (PGV-1), a curcumin analog, were explored as a complementary treatment to bevacizumab in glioblastoma therapy. METHODS: Target prediction, data collection, and analysis were conducted using the similarity ensemble approach (SEA), SwissTargetPrediction, STRING DB, and Gene Expression Omnibus (GEO) datasets. Gene ontology and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis were conducted using Webgestalt and DAVID, respectively. Hub genes were selected based on the highest degree scores using the CytoHubba. Analysis of genetic alterations and gene expression as well as Kaplan-Meier survival analysis of selected genes were conducted with cBioportal and GEPIA. Immune infiltration correlations between selected genes and immune cells were analyzed with database TIMER 2.0. RESULTS: We found 374 targets of PGV-1, 1139 differentially expressed genes (DEGs) from bevacizumab-resistant-glioblastoma cells. A Venn diagram analysis using these two sets of data resulted in 21 genes that were identified as potential targets of PGV-1 against bevacizumab resistance (PBR). PBR regulated the metabolism of xenobiotics by cytochrome P450. Seven potential therapeutic PBR, namely GSTM1, AKR1C3, AKR1C4, PTGS2, ADAM10, AKR1B1, and HSD17B110 were found to have genetic alterations in 1.2%-30% of patients with glioblastoma. Analysis using the GEPIA database showed that the mRNA expression of ADAM10, AKR1B1, and HSD17B10 was significantly upregulated in glioblastoma patients. Kaplan-Meier survival analysis showed that only patients with low mRNA expression of AKR1B1 had significantly better overall survival than the patients in the high mRNA group. We also found a correlation between PBR and immune cells and thus revealed the potential of PGV-1 as an immunotherapeutic agent via targeting of PBR. CONCLUSION: This study highlighted seven PBR, namely, GSTM1, AKR1C3, AKR1C4, PTGS2, ADAM10, AKR1B1, and HSD17B110. This study also emphasized the potential of PBR as a target for immunotherapy with PGV-1. Further validation of the results of this study is required for the development of PGV-1 as an adjunct to immunotherapy for glioblastoma to counteract bevacizumab resistance.
+34819791	48	56	curcumin	Chemical	MESH:D003474
+34819791	64	80	pentagamavunon-1	Chemical	-
+34819791	82	87	PGV-1	Chemical	-
+34819791	117	129	glioblastoma	Disease	MESH:D005909
+34819791	139	150	bevacizumab	Chemical	MESH:D000068258
+34819791	164	176	Glioblastoma	Disease	MESH:D005909
+34819791	221	237	malignant tumors	Disease	MESH:D009369
+34819791	290	301	bevacizumab	Chemical	MESH:D000068258
+34819791	305	317	glioblastoma	Disease	MESH:D005909
+34819791	369	377	patients	Species	9606
+34819791	383	395	glioblastoma	Disease	MESH:D005909
+34819791	437	454	pentagamavunone-1	Chemical	-
+34819791	456	461	PGV-1	Chemical	-
+34819791	466	474	curcumin	Chemical	MESH:D003474
+34819791	529	540	bevacizumab	Chemical	MESH:D000068258
+34819791	544	556	glioblastoma	Disease	MESH:D005909
+34819791	1292	1297	PGV-1	Chemical	-
+34819791	1347	1358	bevacizumab	Chemical	MESH:D000068258
+34819791	1369	1381	glioblastoma	Disease	MESH:D005909
+34819791	1508	1513	PGV-1	Chemical	-
+34819791	1522	1533	bevacizumab	Chemical	MESH:D000068258
+34819791	1599	1614	cytochrome P450	Gene	4051
+34819791	1656	1661	GSTM1	Gene	2944
+34819791	1663	1669	AKR1C3	Gene	8644
+34819791	1671	1677	AKR1C4	Gene	1109
+34819791	1679	1684	PTGS2	Gene	5743
+34819791	1686	1692	ADAM10	Gene	102
+34819791	1694	1700	AKR1B1	Gene	231
+34819791	1770	1778	patients	Species	9606
+34819791	1784	1796	glioblastoma	Disease	MESH:D005909
+34819791	1867	1873	ADAM10	Gene	102
+34819791	1875	1881	AKR1B1	Gene	231
+34819791	1887	1895	HSD17B10	Gene	3028
+34819791	1929	1941	glioblastoma	Disease	MESH:D005909
+34819791	1942	1950	patients	Species	9606
+34819791	2000	2008	patients	Species	9606
+34819791	2037	2043	AKR1B1	Gene	231
+34819791	2095	2103	patients	Species	9606
+34819791	2220	2225	PGV-1	Chemical	-
+34819791	2332	2337	GSTM1	Gene	2944
+34819791	2339	2345	AKR1C3	Gene	8644
+34819791	2347	2353	AKR1C4	Gene	1109
+34819791	2355	2360	PTGS2	Gene	5743
+34819791	2362	2368	ADAM10	Gene	102
+34819791	2370	2376	AKR1B1	Gene	231
+34819791	2476	2481	PGV-1	Chemical	-
+34819791	2566	2571	PGV-1	Chemical	-
+34819791	2607	2619	glioblastoma	Disease	MESH:D005909
+34819791	2634	2645	bevacizumab	Chemical	MESH:D000068258
+34819791	Association	MESH:D005909	231
+34819791	Association	MESH:D005909	5743
+34819791	Association	MESH:D005909	1109
+34819791	Negative_Correlation	MESH:D000068258	MESH:D003474
+34819791	Association	MESH:D005909	8644
+34819791	Association	MESH:D005909	102
+34819791	Negative_Correlation	MESH:D000068258	MESH:D005909
+34819791	Negative_Correlation	MESH:D003474	MESH:D005909
+34819791	Association	MESH:D005909	2944
+

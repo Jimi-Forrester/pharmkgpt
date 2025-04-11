@@ -1,0 +1,25 @@
+36357627|t|Multi-stage classification of Alzheimer's disease from 18F-FDG-PET images using deep learning techniques.
+36357627|a|The study aims to implement a convolutional neural network framework that uses the 18F-FDG PET modality of brain imaging to detect multiple stages of dementia, including Early Mild Cognitive Impairment (EMCI) and Late Mild Cognitive Impairment (LMCI), and Alzheimer's disease (AD) from Cognitively Normal (CN), and assess the results. 18F-FDG PET imaging modality for brain were procured from Alzheimer's disease neuroimaging initiative's (ADNI) repository. The ResNet50V2 model layers were utilised for feature extraction, with the final convolutional layers fine-tuned for this dataset's multi-classification objectives. Multiple metrics and feature maps were utilized to scrutinize and evaluate the model's statistical and qualitative inference. The multi-classification model achieved an overarching accuracy of 98.44% and Area under the receiver operating characteristic curve of 95% on the testing set. Feature maps aided in deducing finer aspects of the model's overall operation. This framework helped classifying from the 18F-FDG PET brain images, the subtypes of Mild Cognitive Impairment (MCI) which include EMCI, LMCI, from AD, CN groups and achieved an all-inclusive sensitivity of 94% and specificity of 95% respectively.
+36357627	30	49	Alzheimer's disease	Disease	MESH:D000544
+36357627	55	62	18F-FDG	Chemical	MESH:D019788
+36357627	189	196	18F-FDG	Chemical	MESH:D019788
+36357627	256	264	dementia	Disease	MESH:D003704
+36357627	287	307	Cognitive Impairment	Disease	MESH:D003072
+36357627	309	313	EMCI	Disease	MESH:D060825
+36357627	329	349	Cognitive Impairment	Disease	MESH:D003072
+36357627	351	355	LMCI	Disease	MESH:D060825
+36357627	362	381	Alzheimer's disease	Disease	MESH:D000544
+36357627	383	385	AD	Disease	MESH:D000544
+36357627	441	448	18F-FDG	Chemical	MESH:D019788
+36357627	499	518	Alzheimer's disease	Disease	MESH:D000544
+36357627	1137	1144	18F-FDG	Chemical	MESH:D019788
+36357627	1184	1204	Cognitive Impairment	Disease	MESH:D003072
+36357627	1206	1209	MCI	Disease	MESH:D060825
+36357627	1225	1229	EMCI	Disease	MESH:D060825
+36357627	1231	1235	LMCI	Disease	MESH:D060825
+36357627	1242	1244	AD	Disease	MESH:D000544
+36357627	Association	MESH:D019788	MESH:D003072
+36357627	Association	MESH:D019788	MESH:D003704
+36357627	Association	MESH:D019788	MESH:D000544
+36357627	Association	MESH:D019788	MESH:D060825
+

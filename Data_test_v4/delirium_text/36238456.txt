@@ -1,0 +1,24 @@
+36238456|t|Association between vitamin D3 levels and frailty in the elderly: A large sample cross-sectional study.
+36238456|a|Background: Frailty is recognized as a cornerstone of geriatric medicine. Accurately screening and identifying frailty can promote better quality and personalized medical services for the elderly. Previous studies have shown that the association between vitamin D and frailty in the elderly population is still controversial. More research is needed to explore the association between them. Materials and methods: We used three waves of data from the National Health and Nutrition Examination Survey (NHANES). Based on the widely accepted AAH FRAIL Scale, we measured and evaluated the participants' frailty from five aspects: fatigue, resistance, ambulation, illness, and loss of weight. All possible relevant variables are included. Machine learning XGboost algorithm, the Least Absolute Shrinkage Selection Operator (LASSO) regression and univariate logistic regression were used to screen variables, and multivariate logistic regression and generalized additive model (GAM) were used to build the model. Finally, subgroup analysis and interaction test were performed to further confirm the association. Results: In our study, XGboost machine learning algorithm explored the relative importance of all included variables, which confirmed the close association between vitamin D and frailty. After adjusting for all significant covariates, the result indicated that for each additional unit of 25-hydroxyvitamin D3, the risk of frailty was reduced by 1.3% with a statisticaldifference. A smooth curve was constructed based on the GAM. It was found that there was a significant negative correlation between 25-hydroxyvitamin D3 and the risk of frailty. Conclusion: There may be a negative correlation between 25-hydroxyvitamin D3 and the risk of frailty. However, more well-designed studies are needed to verify this relationship.
+36238456	20	30	vitamin D3	Chemical	MESH:D002762
+36238456	42	49	frailty	Disease	MESH:D000073496
+36238456	116	123	Frailty	Disease	MESH:D000073496
+36238456	215	222	frailty	Disease	MESH:D000073496
+36238456	358	367	vitamin D	Chemical	MESH:D014807
+36238456	372	379	frailty	Disease	MESH:D000073496
+36238456	690	702	participants	Species	9606
+36238456	704	711	frailty	Disease	MESH:D000073496
+36238456	731	738	fatigue	Disease	MESH:D005221
+36238456	777	791	loss of weight	Disease	MESH:D015431
+36238456	1375	1384	vitamin D	Chemical	MESH:D014807
+36238456	1389	1396	frailty	Disease	MESH:D000073496
+36238456	1500	1520	25-hydroxyvitamin D3	Chemical	MESH:D002112
+36238456	1534	1541	frailty	Disease	MESH:D000073496
+36238456	1712	1732	25-hydroxyvitamin D3	Chemical	MESH:D002112
+36238456	1749	1756	frailty	Disease	MESH:D000073496
+36238456	1814	1834	25-hydroxyvitamin D3	Chemical	MESH:D002112
+36238456	1851	1858	frailty	Disease	MESH:D000073496
+36238456	Association	MESH:D002762	MESH:D000073496
+36238456	Negative_Correlation	MESH:D002112	MESH:D000073496
+36238456	Association	MESH:D014807	MESH:D000073496
+

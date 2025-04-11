@@ -1,0 +1,30 @@
+30971889|t|Construction of Potential Glioblastoma Multiforme-Related miRNA-mRNA Regulatory Network.
+30971889|a|Background: Glioblastoma multiforme (GBM), the most common and aggressive human malignant brain tumor, is notorious for its limited treatment options and poor prognosis. MicroRNAs (miRNAs) are found to be involved in tumorigenesis of GBM. However, a comprehensive miRNA-mRNA regulatory network has still not been established. Methods: A miRNA microarray dataset (GSE90603) was obtained from GEO database. Then, we employed GEO2R tool to perform differential expression analysis. Potential transcription factors and target genes of screened differentially expressed miRNAs (DE-miRNAs) were predicted. The GBM mRNA dataset were downloaded from TCGA database for identifying differentially expressed genes (DEGs). Next, GO annotation and KEGG pathway enrichment analysis was conducted. PPI network was then established, and hub genes were identified via Cytoscape software. The expression and prognostic roles of hub genes was further evaluated. Results: Total 33 DE-miRNAs, consisting of 10 upregulated DE-miRNAs and 23 downregulated DE-miRNAs, were screened. SP1 was predicted to potentially regulate most of screened DE-miRNAs. Three thousand and twenty seven and 3,879 predicted target genes were obtained for upregulated and downregulated DE-miRNAs, respectively. Subsequently, 1,715 upregulated DEGs and 1,259 downregulated DEGs were identified. Then, 149 and 295 potential downregulated and upregulated genes commonly appeared in target genes of DE-miRNAs and DEGs were selected for GO annotation and KEGG pathway enrichment analysis. The downregulated genes were significantly enriched in cGMP-PKG signaling pathway and calcium signaling pathway whereas the upregulated genes were enriched in pathways in cancer and PI3K-Akt signaling pathway. Construction and analysis of PPI network showed that STXBP1 and TP53 were recognized as hub genes with the highest connectivity degrees. Expression analytic result of the top 20 hub genes in GBM using GEPIA database was generally identical with previous differential expression analysis for TCGA data. EGFR, PPP3CB, and MYO5A expression was significantly associated with patients' OS. Conclusions: In this study, we established a potential GBM-related miRNA-mRNA regulatory network, which explores a comprehensive understanding of the molecular mechanisms and provides key clues in seeking novel therapeutic targets for GBM. In the future, more experiments need to be performed to validate our current findings.
+30971889	26	49	Glioblastoma Multiforme	Disease	MESH:D005909
+30971889	101	124	Glioblastoma multiforme	Disease	MESH:D005909
+30971889	126	129	GBM	Disease	MESH:D005909
+30971889	163	168	human	Species	9606
+30971889	169	178	malignant	Disease	MESH:D009369
+30971889	179	190	brain tumor	Disease	MESH:D001932
+30971889	323	326	GBM	Disease	MESH:D005909
+30971889	693	696	GBM	Disease	MESH:D005909
+30971889	1688	1691	PKG	Gene	5592
+30971889	1714	1721	calcium	Chemical	MESH:D002118
+30971889	1799	1805	cancer	Disease	MESH:D009369
+30971889	1815	1818	Akt	Gene	207
+30971889	1891	1897	STXBP1	Gene	6812
+30971889	1902	1906	TP53	Gene	7157
+30971889	2029	2032	GBM	Disease	MESH:D005909
+30971889	2140	2144	EGFR	Gene	1956
+30971889	2146	2152	PPP3CB	Gene	5532
+30971889	2158	2163	MYO5A	Gene	4644
+30971889	2209	2217	patients	Species	9606
+30971889	2278	2281	GBM	Disease	MESH:D005909
+30971889	2458	2461	GBM	Disease	MESH:D005909
+30971889	Association	MESH:D005909	6812
+30971889	Association	MESH:D005909	1956
+30971889	Association	MESH:D005909	4644
+30971889	Association	MESH:D005909	5532
+30971889	Association	MESH:D009369	207
+30971889	Association	MESH:D005909	7157
+

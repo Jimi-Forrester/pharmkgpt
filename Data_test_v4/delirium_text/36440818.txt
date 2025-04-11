@@ -1,0 +1,16 @@
+36440818|t|Spatially informed Bayesian neural network for neurodegenerative diseases classification.
+36440818|a|Magnetic resonance imaging (MRI) plays an increasingly important role in the diagnosis and prognosis of neurodegenerative diseases. One field of extensive clinical use of MRI is the accurate and automated classification of degenerative disorders. Most of current classification studies either do not mirror medical practice where patients may exhibit early stages of the disease, comorbidities, or atypical variants, or they are not able to produce probabilistic predictions nor account for uncertainty. Also, the spatial heterogeneity of the brain alterations caused by neurodegenerative processes is not usually considered, despite the spatial configuration of the neuronal loss is a characteristic hallmark for each disorder. In this article, we propose a classification technique that incorporates uncertainty and spatial information for distinguishing between healthy subjects and patients from four distinct neurodegenerative diseases: Alzheimer's disease, mild cognitive impairment, Parkinson's disease, and Multiple Sclerosis. We introduce a spatially informed Bayesian neural network (SBNN) that combines a three-dimensional neural network to extract neurodegeneration features from MRI, Bayesian inference to account for uncertainty in diagnosis, and a spatially informed MRI image using hidden Markov random fields to encode cerebral spatial information. The SBNN model demonstrates that classification accuracy increases up to 25% by including a spatially informed MRI scan. Furthermore, the SBNN provides a robust probabilistic diagnosis that resembles clinical decision-making and can account for the heterogeneous medical presentations of neurodegenerative disorders.
+36440818	47	73	neurodegenerative diseases	Disease	MESH:D019636
+36440818	194	220	neurodegenerative diseases	Disease	MESH:D019636
+36440818	313	335	degenerative disorders	Disease	MESH:D019636
+36440818	420	428	patients	Species	9606
+36440818	757	770	neuronal loss	Disease	MESH:D009410
+36440818	976	984	patients	Species	9606
+36440818	1004	1030	neurodegenerative diseases	Disease	MESH:D019636
+36440818	1032	1051	Alzheimer's disease	Disease	MESH:D000544
+36440818	1058	1078	cognitive impairment	Disease	MESH:D003072
+36440818	1080	1099	Parkinson's disease	Disease	MESH:D010300
+36440818	1105	1123	Multiple Sclerosis	Disease	MESH:D009103
+36440818	1250	1267	neurodegeneration	Disease	MESH:D019636
+36440818	1744	1771	neurodegenerative disorders	Disease	MESH:D019636
+

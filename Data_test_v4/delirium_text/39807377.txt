@@ -1,0 +1,40 @@
+39807377|t|Computational exploration of palmitoyl-protein thioesterase 1 inhibition by Juniperus phoenicea L. for anti-dementia treatment.
+39807377|a|Objectives: Dementia, a growing concern globally, affects more than 55 million people-a number projected to rise to 152 million by 2050. Current medications target Alzheimer's disease, the most prevalent form of dementia. This study investigated Juniperus phoenicea L., a plant used in traditional Chinese medicine, as a potential inhibitor of palmitoyl-protein thioesterase 1 (PPT1), an enzyme associated with dementia. Methods: J. phoenicea phytochemicals were subjected to in silico docking against PPT1 (PDB ID: 1EH5). Docking simulations were performed in YASARA Structure with VINA scoring. Top-ranked ligands were subjected to ADMET analysis (admetlab 2.0, Protox 3.0) and PASS bioactivity prediction. Stability and reactivity were analyzed with DFT calculations (Gaussian 09), and 500 ns MD simulations (YASARA Structure, AMBER 14 force field) to assess protein-ligand complex stability. MM-PBSA was used to calculate binding free energies. Results: The docking simulations identified amentoflavone (-9.6 kcal/mol) as the top hit, followed by ferruginol and quercetin 3-O-pentoside. Amentoflavone formed the most interactions (19) with PPT1. In silico toxicity analysis predicted amentoflavone and quercetin 3-O-pentoside to be safe, whereas ferruginol violated the Pfizer rule. The PASS server indicated a higher probability of activity for quercetin 3-O-pentoside (0.423) than amentoflavone (0.287) for dementia treatment. DFT calculations revealed similar electronic properties for both ligands, although amentoflavone showed slightly more favorable values. MD simulations demonstrated that amentoflavone, compared with to galantamine, had superior binding stability in the PPT1 binding pocket. Conclusion: This in silico study was aimed at identifying potential inhibitors of PPT1 from J. phoenicea phytochemicals, given that PPT1 is a target for developing new dementia medications. Our findings identified amentoflavone as a promising candidate for further investigation. These findings warrant further research to validate this compound's potential as a PPT1 inhibitor for dementia treatment.
+39807377	29	61	palmitoyl-protein thioesterase 1	Gene	5538
+39807377	76	98	Juniperus phoenicea L.	Species	61308
+39807377	108	116	dementia	Disease	MESH:D003704
+39807377	140	148	Dementia	Disease	MESH:D003704
+39807377	207	213	people	Species	9606
+39807377	292	311	Alzheimer's disease	Disease	MESH:D000544
+39807377	340	348	dementia	Disease	MESH:D003704
+39807377	374	396	Juniperus phoenicea L.	Species	61308
+39807377	472	504	palmitoyl-protein thioesterase 1	Gene	5538
+39807377	506	510	PPT1	Gene	5538
+39807377	539	547	dementia	Disease	MESH:D003704
+39807377	630	634	PPT1	Gene	5538
+39807377	1121	1134	amentoflavone	Chemical	MESH:C011164
+39807377	1179	1189	ferruginol	Chemical	MESH:C431074
+39807377	1194	1217	quercetin 3-O-pentoside	Chemical	-
+39807377	1219	1232	Amentoflavone	Chemical	MESH:C011164
+39807377	1272	1276	PPT1	Gene	5538
+39807377	1288	1296	toxicity	Disease	MESH:D064420
+39807377	1316	1329	amentoflavone	Chemical	MESH:C011164
+39807377	1334	1357	quercetin 3-O-pentoside	Chemical	-
+39807377	1378	1388	ferruginol	Chemical	MESH:C431074
+39807377	1478	1501	quercetin 3-O-pentoside	Chemical	-
+39807377	1515	1528	amentoflavone	Chemical	MESH:C011164
+39807377	1541	1549	dementia	Disease	MESH:D003704
+39807377	1644	1657	amentoflavone	Chemical	MESH:C011164
+39807377	1730	1743	amentoflavone	Chemical	MESH:C011164
+39807377	1762	1773	galantamine	Chemical	MESH:D005702
+39807377	1813	1817	PPT1	Gene	5538
+39807377	1916	1920	PPT1	Gene	5538
+39807377	1966	1970	PPT1	Gene	5538
+39807377	2002	2010	dementia	Disease	MESH:D003704
+39807377	2048	2061	amentoflavone	Chemical	MESH:C011164
+39807377	2197	2201	PPT1	Gene	5538
+39807377	2216	2224	dementia	Disease	MESH:D003704
+39807377	Association	MESH:C011164	5538
+39807377	Negative_Correlation	MESH:C011164	MESH:D003704
+39807377	Association	MESH:D003704	5538
+

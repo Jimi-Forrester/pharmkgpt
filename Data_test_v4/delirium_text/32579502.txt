@@ -1,0 +1,22 @@
+32579502|t|Evaluation and Prediction of Early Alzheimer's Disease Using a Machine Learning-based Optimized Combination-Feature Set on Gray Matter Volume and Quantitative Susceptibility Mapping.
+32579502|a|BACKGROUND: Because Alzheimer's Disease (AD) has very complicated pattern changes, it is difficult to evaluate it with a specific factor. Recently, novel machine learning methods have been applied to solve limitations. OBJECTIVE: The objective of this study was to investigate the approach of classification and prediction methods using the Machine Learning (ML)-based Optimized Combination-Feature (OCF) set on Gray Matter Volume (GMV) and Quantitative Susceptibility Mapping (QSM) in the subjects of Cognitive Normal (CN) elderly, Amnestic Mild Cognitive Impairment (aMCI), and mild and moderate AD. MATERIALS AND METHODS: 57 subjects were included: 19 CN, 19 aMCI, and 19 AD with GMV and QSM. Regions-of-Interest (ROIs) were defined at the well-known regions for rich iron contents and amyloid accumulation areas in the AD brain. To differentiate the three subject groups, the Support Vector Machine (SVM) with the three different kernels and with the OCF set was conducted with GMV and QSM values. To predict the aMCI stage, regression-based ML models were performed with the OCF set. The result of prediction was compared with the accuracy of clinical data. RESULTS: In the group classification between CN and aMCI, the highest accuracy was shown using the combination of GMVs (hippocampus and entorhinal cortex) and QSMs (hippocampus and pulvinar) data using the 2nd SVM classifier (AUC = 0.94). In the group classification between aMCI and AD, the highest accuracy was shown using the combination of GMVs (amygdala, entorhinal cortex, and posterior cingulate cortex) and QSMs (hippocampus and pulvinar) data using the 2nd SVM classifier (AUC = 0.93). In the group classification between CN and AD, the highest accuracy was shown using the combination of GMVs (amygdala, entorhinal cortex, and posterior cingulate cortex) and QSMs (hippocampus and pulvinar) data using the 2nd SVM classifier (AUC = 0.99). To predict aMCI from CN, the exponential Gaussian process regression model with the OCF set using GMV and QSM data was shown the most similar result (RMSE = 0.371) to clinical data (RMSE = 0.319). CONCLUSION: The proposed OCF based ML approach with GMV and QSM was shown the effective performance of the subject group classification and prediction for aMCI stage. Therefore, it can be used as personalized analysis or diagnostic aid program for diagnosis.
+32579502	35	54	Alzheimer's Disease	Disease	MESH:D000544
+32579502	203	222	Alzheimer's Disease	Disease	MESH:D000544
+32579502	224	226	AD	Disease	MESH:D000544
+32579502	716	750	Amnestic Mild Cognitive Impairment	Disease	MESH:D060825
+32579502	752	756	aMCI	Disease	MESH:D060825
+32579502	781	783	AD	Disease	MESH:D000544
+32579502	845	849	aMCI	Disease	MESH:D060825
+32579502	858	860	AD	Disease	MESH:D000544
+32579502	954	958	iron	Chemical	MESH:D007501
+32579502	972	979	amyloid	Disease	MESH:C000718787
+32579502	1006	1008	AD	Disease	MESH:D000544
+32579502	1200	1204	aMCI	Disease	MESH:D060825
+32579502	1398	1402	aMCI	Disease	MESH:D060825
+32579502	1621	1625	aMCI	Disease	MESH:D060825
+32579502	1630	1632	AD	Disease	MESH:D000544
+32579502	1884	1886	AD	Disease	MESH:D000544
+32579502	2106	2110	aMCI	Disease	MESH:D060825
+32579502	2447	2451	aMCI	Disease	MESH:D060825
+32579502	Positive_Correlation	MESH:D007501	MESH:D000544
+

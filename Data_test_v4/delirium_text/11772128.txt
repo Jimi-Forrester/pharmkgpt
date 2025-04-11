@@ -1,0 +1,65 @@
+11772128|t|Interactions between herbal medicines and prescribed drugs: a systematic review.
+11772128|a|Despite the widespread use of herbal medicines, documented herb-drug interactions are sparse. We have reviewed the literature to determine the possible interactions between the seven top-selling herbal medicines (ginkgo, St John's wort, ginseng, garlic, echinacea, saw palmetto and kava) and prescribed drugs. Literature searches were performed using the following databases: Medline (via Pubmed), Cochrane Library, Embase and phytobase (all from their inception to July 2000). All data relating to herb-drug interactions were included regardless of whether they were based on case reports, case series, clinical trials or other types of investigation in humans. In vitro experiments were excluded. Data were extracted by the first author and validated by the second author. 41 case reports or case series and 17 clinical trials were identified. The results indicate that St John's wort (Hypericum perforatum) lowers blood concentrations of cyclosporin, amitriptyline, digoxin, indinavir, warfarin, phenprocoumon and theophylline; furthermore it causes intermenstrual bleeding, delirium or mild serotonin syndrome, respectively, when used concomitantly with oral contraceptives (ethinylestradiol/desogestrel), loperamide or selective serotonin-reuptake inhibitors (sertaline, paroxetine, nefazodone). Ginkgo (Ginkgo biloba) interactions include bleeding when combined with warfarin, raised blood pressure when combined with a thiazide diuretic and coma when combined with trazodone. Ginseng (Panax ginseng) lowers blood concentrations of alcohol and warfarin, and induces mania if used concomitantly with phenelzine. Garlic (Allium sativum) changes pharmacokinetic variables of paracetamol, decreases blood concentrations of warfarin and produces hypoglycaemia when taken with chlorpropamide. Kava (Piper methysticum) increases 'off' periods in Parkinson patients taking levodopa and can cause a semicomatose state when given concomitantly with alprazolam. No interactions were found for echinacea (Echinacea angustifolia, E. purpurea, E. pallida) and saw palmetto (Serenoa repens). In conclusion, interactions between herbal medicines and synthetic drugs exist and can have serious clinical consequences. Healthcare professionals should ask their patients about the use of herbal products and consider the possibility of herb-drug interactions.
+11772128	327	333	garlic	Species	4682
+11772128	335	344	echinacea	Species	308558
+11772128	346	358	saw palmetto	Species	4722
+11772128	363	367	kava	Species	130404
+11772128	736	742	humans	Species	9606
+11772128	969	989	Hypericum perforatum	Species	65561
+11772128	1022	1033	cyclosporin	Chemical	MESH:D016572
+11772128	1035	1048	amitriptyline	Chemical	MESH:D000639
+11772128	1050	1057	digoxin	Chemical	MESH:D004077
+11772128	1059	1068	indinavir	Chemical	MESH:D019469
+11772128	1070	1078	warfarin	Chemical	MESH:D014859
+11772128	1080	1093	phenprocoumon	Chemical	MESH:D010644
+11772128	1098	1110	theophylline	Chemical	MESH:D013806
+11772128	1149	1157	bleeding	Disease	MESH:D006470
+11772128	1159	1167	delirium	Disease	MESH:D003693
+11772128	1176	1194	serotonin syndrome	Disease	MESH:D020230
+11772128	1260	1276	ethinylestradiol	Chemical	MESH:D004997
+11772128	1277	1288	desogestrel	Chemical	MESH:D017135
+11772128	1291	1301	loperamide	Chemical	MESH:D008139
+11772128	1346	1355	sertaline	Chemical	-
+11772128	1357	1367	paroxetine	Chemical	MESH:D017374
+11772128	1369	1379	nefazodone	Chemical	MESH:C051752
+11772128	1382	1388	Ginkgo	Species	3311
+11772128	1390	1403	Ginkgo biloba	Species	3311
+11772128	1426	1434	bleeding	Disease	MESH:D006470
+11772128	1454	1462	warfarin	Chemical	MESH:D014859
+11772128	1529	1533	coma	Disease	MESH:D003128
+11772128	1553	1562	trazodone	Chemical	MESH:D014196
+11772128	1573	1586	Panax ginseng	Species	4054
+11772128	1619	1626	alcohol	Chemical	MESH:D000438
+11772128	1631	1639	warfarin	Chemical	MESH:D014859
+11772128	1653	1658	mania	Disease	MESH:D001714
+11772128	1686	1696	phenelzine	Chemical	MESH:D010624
+11772128	1706	1720	Allium sativum	Species	4682
+11772128	1759	1770	paracetamol	Chemical	MESH:D000082
+11772128	1806	1814	warfarin	Chemical	MESH:D014859
+11772128	1828	1841	hypoglycaemia	Disease	
+11772128	1858	1872	chlorpropamide	Chemical	MESH:D002747
+11772128	1926	1935	Parkinson	Disease	MESH:D010302
+11772128	1936	1944	patients	Species	9606
+11772128	1952	1960	levodopa	Chemical	MESH:D007980
+11772128	2026	2036	alprazolam	Chemical	MESH:D000525
+11772128	2069	2078	echinacea	Species	308558
+11772128	2080	2102	Echinacea angustifolia	Species	308558
+11772128	2104	2115	E. purpurea	Species	53751
+11772128	2117	2127	E. pallida	Species	
+11772128	2133	2145	saw palmetto	Species	4722
+11772128	2147	2161	Serenoa repens	Species	4722
+11772128	2329	2337	patients	Species	9606
+11772128	Positive_Correlation	MESH:D017374	MESH:D020230
+11772128	Positive_Correlation	MESH:C051752	MESH:D020230
+11772128	Positive_Correlation	MESH:D004997	MESH:D020230
+11772128	Positive_Correlation	MESH:D014859	MESH:D006470
+11772128	Positive_Correlation	MESH:D017374	MESH:D006470
+11772128	Negative_Correlation	MESH:D007980	MESH:D010302
+11772128	Positive_Correlation	MESH:D014196	MESH:D003128
+11772128	Positive_Correlation	MESH:D008139	MESH:D006470
+11772128	Positive_Correlation	MESH:D017135	MESH:D020230
+11772128	Positive_Correlation	MESH:D004997	MESH:D006470
+11772128	Positive_Correlation	MESH:D010624	MESH:D001714
+11772128	Positive_Correlation	MESH:D008139	MESH:D003693
+11772128	Positive_Correlation	MESH:D008139	MESH:D020230
+

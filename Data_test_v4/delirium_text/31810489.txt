@@ -1,0 +1,67 @@
+31810489|t|PET and CSF amyloid-beta status are differently predicted by patient features: information from discordant cases.
+31810489|a|BACKGROUND: Amyloid-beta PET and CSF Abeta42 yield discordant results in 10-20% of memory clinic patients, possibly providing unique information. Although the predictive power of demographic, clinical, genetic, and imaging features for amyloid positivity has previously been investigated, it is unknown whether these features differentially predict amyloid-beta status based on PET or CSF or whether this differs by disease stage. METHODS: We included 768 patients (subjective cognitive decline (SCD, n = 194), mild cognitive impairment (MCI, n = 127), dementia (AD and non-AD, n = 447) with amyloid-beta PET and CSF Abeta42 measurement within 1 year. Ninety-seven (13%) patients had discordant PET/CSF amyloid-beta status. We performed parallel random forest models predicting separately PET and CSF status using 17 patient features (demographics, APOE4 positivity, CSF (p)tau, cognitive performance, and MRI visual ratings) in the total patient group and stratified by syndrome diagnosis. Thereafter, we selected features with the highest variable importance measure (VIM) as input for logistic regression models, where amyloid status on either PET or CSF was predicted by (i) the selected patient feature and (ii) the patient feature adjusted for the status of the other amyloid modality. RESULTS: APOE4, CSF tau, and p-tau had the highest VIM for PET and CSF in all groups. In the amyloid-adjusted logistic regression models, p-tau was a significant predictor for PET-amyloid in SCD (OR = 1.02 [1.01-1.04], pFDR = 0.03), MCI (OR = 1.05 [1.02-1.07], pFDR < 0.01), and dementia (OR = 1.04 [1.03-1.05], pFDR < 0.001), but not for CSF-amyloid. APOE4 (OR = 3.07 [1.33-7.07], punc < 0.01) was associated with CSF-amyloid in SCD, while it was only predictive for PET-amyloid in MCI (OR = 9.44 [2.93, 30.39], pFDR < 0.01). Worse MMSE scores (OR = 1.21 [1.03-1.41], punc = 0.02) were associated to CSF-amyloid status in SCD, whereas worse memory (OR = 1.17 [1.05-1.31], pFDR = 0.02) only predicted PET positivity in dementia. CONCLUSION: Amyloid status based on either PET or CSF was predicted by different patient features, and this varied by disease stage, suggesting that PET-CSF discordance yields unique information. The stronger associations of both APOE4 carriership and worse memory z-scores with CSF-amyloid in SCD suggest that CSF-amyloid is more sensitive early in the disease course. The higher predictive value of CSF p-tau for a positive PET scan suggests that PET is more specific to AD pathology.
+31810489	8	11	CSF	Gene	1437
+31810489	12	24	amyloid-beta	Gene	351
+31810489	61	68	patient	Species	9606
+31810489	126	138	Amyloid-beta	Gene	351
+31810489	147	150	CSF	Gene	1437
+31810489	151	158	Abeta42	Gene	351
+31810489	211	219	patients	Species	9606
+31810489	463	475	amyloid-beta	Gene	351
+31810489	499	502	CSF	Gene	1437
+31810489	570	578	patients	Species	9606
+31810489	591	608	cognitive decline	Disease	MESH:D003072
+31810489	610	613	SCD	Disease	MESH:D003072
+31810489	630	650	cognitive impairment	Disease	MESH:D003072
+31810489	652	655	MCI	Disease	MESH:D060825
+31810489	667	675	dementia	Disease	MESH:D003704
+31810489	677	679	AD	Disease	MESH:D000544
+31810489	688	690	AD	Disease	MESH:D000544
+31810489	706	718	amyloid-beta	Gene	351
+31810489	727	730	CSF	Gene	1437
+31810489	731	738	Abeta42	Gene	351
+31810489	785	793	patients	Species	9606
+31810489	813	816	CSF	Gene	1437
+31810489	817	829	amyloid-beta	Gene	351
+31810489	911	914	CSF	Gene	1437
+31810489	931	938	patient	Species	9606
+31810489	963	968	APOE4	Gene	348
+31810489	981	984	CSF	Gene	1437
+31810489	988	991	tau	Gene	4137
+31810489	1053	1060	patient	Species	9606
+31810489	1236	1243	amyloid	Disease	MESH:C000718787
+31810489	1268	1271	CSF	Gene	1437
+31810489	1306	1313	patient	Species	9606
+31810489	1335	1342	patient	Species	9606
+31810489	1388	1395	amyloid	Disease	MESH:C000718787
+31810489	1415	1420	APOE4	Gene	348
+31810489	1422	1425	CSF	Gene	1437
+31810489	1426	1429	tau	Gene	4137
+31810489	1473	1476	CSF	Gene	1437
+31810489	1586	1593	amyloid	Disease	MESH:C000718787
+31810489	1597	1600	SCD	Disease	MESH:D003072
+31810489	1639	1642	MCI	Disease	MESH:D060825
+31810489	1685	1693	dementia	Disease	MESH:D003704
+31810489	1745	1748	CSF	Gene	1437
+31810489	1758	1763	APOE4	Gene	348
+31810489	1821	1824	CSF	Gene	1437
+31810489	1836	1839	SCD	Disease	MESH:D003072
+31810489	1889	1892	MCI	Disease	MESH:D060825
+31810489	2007	2010	CSF	Gene	1437
+31810489	2029	2032	SCD	Disease	MESH:D003072
+31810489	2125	2133	dementia	Disease	MESH:D003704
+31810489	2147	2154	Amyloid	Disease	MESH:C000718787
+31810489	2185	2188	CSF	Gene	1437
+31810489	2216	2223	patient	Species	9606
+31810489	2288	2291	CSF	Gene	1437
+31810489	2365	2370	APOE4	Gene	348
+31810489	2414	2417	CSF	Gene	1437
+31810489	2429	2432	SCD	Disease	MESH:D003072
+31810489	2446	2449	CSF	Gene	1437
+31810489	2536	2539	CSF	Gene	1437
+31810489	2608	2610	AD	Disease	MESH:D000544
+31810489	Association	MESH:C000718787	1437
+31810489	Association	MESH:D003072	351
+31810489	Association	MESH:D000544	351
+31810489	Association	1437	351
+

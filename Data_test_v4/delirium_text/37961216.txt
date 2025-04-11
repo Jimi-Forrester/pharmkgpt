@@ -1,0 +1,25 @@
+37961216|t|Characterizing Treatment Non-responders vs. Responders in Completed Alzheimer's Disease Clinical Trials.
+37961216|a|Alzheimer's disease (AD) patients have varying responses to AD drugs and there may be no single treatment for all AD patients. Trial after trial shows that identifying non-responsive and responsive subgroups and their corresponding moderators will provide better insights into subject selection and interpretation in future clinical trials. We aim to extensively investigate pre-treatment features that moderate treatment effect of Galantamine, Bapineuzumab, and Semagacestat from completed trial data. We obtained individual-level patient data from ten randomized clinical trials. Six Galantamine trials and two Bapineuzumab trials were from Yale University Open Data Access Project and two Semagacestat trials were from the Center for Global Clinical Research Data. We included a total of 10,948 subjects. The trials were conducted worldwide from 2001 to 2012. We estimated treatment effect using causal forest modeling on each trial. Finally, we identified important pre-treatment features that determine treatment efficacy and identified responsive or nonresponsive subgroups. As a result, patient's pre-treatment conditions that determined the treatment efficacy of Galantamine differed by dementia stages, but we consistently observed that non-responders in Galantamine trials had lower BMI (25 vs 28, P < .001) and increased ages (74 vs 68, P < .001). Responders in Bapineuzumab and Semagacestat trials had lower Abeta42 levels (6.41 vs 6.53 pg/ml, P < .001) and smaller whole brain volumes (983.13 vs 1052.78 ml, P < .001). 6 'positive' treatment trials had subsets of patients who had, in fact, not responded. 4 "negative" treatment trials had subsets of patients who had, in fact, responded. This study suggests that analyzing heterogeneity in treatment effects in "positive" or "negative" trials may be a very powerful tool for identifying distinct subgroups that are responsive to treatments, which may significantly benefit future clinical trial design and interpretation.
+37961216	68	87	Alzheimer's Disease	Disease	MESH:D000544
+37961216	105	124	Alzheimer's disease	Disease	MESH:D000544
+37961216	126	128	AD	Disease	MESH:D000544
+37961216	165	167	AD	Disease	MESH:D000544
+37961216	219	221	AD	Disease	MESH:D000544
+37961216	537	548	Galantamine	Chemical	MESH:D005702
+37961216	550	562	Bapineuzumab	Chemical	MESH:C545458
+37961216	568	580	Semagacestat	Chemical	MESH:C484278
+37961216	691	702	Galantamine	Chemical	MESH:D005702
+37961216	718	730	Bapineuzumab	Chemical	MESH:C545458
+37961216	797	809	Semagacestat	Chemical	MESH:C484278
+37961216	1276	1287	Galantamine	Chemical	MESH:D005702
+37961216	1300	1308	dementia	Disease	MESH:D003704
+37961216	1369	1380	Galantamine	Chemical	MESH:D005702
+37961216	1478	1490	Bapineuzumab	Chemical	MESH:C545458
+37961216	1495	1507	Semagacestat	Chemical	MESH:C484278
+37961216	1525	1532	Abeta42	Gene	351
+37961216	Negative_Correlation	MESH:C484278	MESH:D000544
+37961216	Negative_Correlation	MESH:C484278	351
+37961216	Negative_Correlation	MESH:C545458	351
+37961216	Negative_Correlation	MESH:D005702	MESH:D000544
+37961216	Negative_Correlation	MESH:C545458	MESH:D000544
+

@@ -1,0 +1,15 @@
+29846728|t|Chemical-Induced Phenotypes at CTD Help Inform the Predisease State and Construct Adverse Outcome Pathways.
+29846728|a|The Comparative Toxicogenomics Database (CTD; http://ctdbase.org) is a public resource that manually curates the scientific literature to provide content that illuminates the molecular mechanisms by which environmental exposures affect human health. We introduce our new chemical-phenotype module that describes how chemicals can affect molecular, cellular, and physiological phenotypes. At CTD, we operationally distinguish between phenotypes and diseases, wherein a phenotype refers to a nondisease biological event: eg, decreased cell cycle arrest (phenotype) versus liver cancer (disease), increased fat cell proliferation (phenotype) versus morbid obesity (disease), etc. Chemical-phenotype interactions are expressed in a formal structured notation using controlled terms for chemicals, phenotypes, taxon, and anatomical descriptors. Combining this information with CTD's chemical-disease module allows inferences to be made between phenotypes and diseases, yielding potential insight into the predisease state. Integration of all 4 CTD modules furnishes unique opportunities for toxicologists to generate computationally predictive adverse outcome pathways, linking chemical-gene molecular initiating events with phenotypic key events, adverse diseases, and population-level health outcomes. As examples, we present 3 diverse case studies discerning the effect of vehicle emissions on altered leukocyte migration, the role of cadmium in influencing phenotypes preceding Alzheimer disease, and the connection of arsenic-induced glucose metabolic phenotypes with diabetes. To date, CTD contains over 165 000 interactions that connect more than 6400 chemicals to 3900 phenotypes for 760 anatomical terms in 215 species, from over 19 000 scientific articles. To our knowledge, this is the first comprehensive set of manually curated, literature-based, contextualized, chemical-induced, nondisease phenotype data provided to the public.
+29846728	344	349	human	Species	9606
+29846728	678	690	liver cancer	Disease	MESH:D006528
+29846728	761	768	obesity	Disease	MESH:D009765
+29846728	1541	1548	cadmium	Chemical	MESH:D002104
+29846728	1585	1602	Alzheimer disease	Disease	MESH:D000544
+29846728	1626	1633	arsenic	Chemical	MESH:D001151
+29846728	1642	1649	glucose	Chemical	MESH:D005947
+29846728	1676	1684	diabetes	Disease	MESH:D003920
+29846728	Positive_Correlation	MESH:D001151	MESH:D003920
+29846728	Positive_Correlation	MESH:D001151	MESH:D005947
+29846728	Positive_Correlation	MESH:D005947	MESH:D003920
+29846728	Positive_Correlation	MESH:D002104	MESH:D000544
+

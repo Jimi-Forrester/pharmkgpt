@@ -1,0 +1,19 @@
+36094058|t|Brain age vector: A measure of brain aging with enhanced neurodegenerative disorder specificity.
+36094058|a|Neuroimaging-driven brain age estimation has become popular in measuring brain aging and identifying neurodegenerations. However, the single estimated brain age (gap) compromises regional variations of brain aging, losing spatial specificity across diseases which is valuable for early screening. In this study, we combined brain age modeling with Shapley Additive Explanations to measure brain aging as a feature contribution vector underlying spatial pathological aging mechanism. Specifically, we regressed age with volumetric brain features using machine learning to construct the brain age model, and model-agnostic Shapley values were calculated to attribute regional brain aging for each subject's age estimation, forming the brain age vector. Spatial specificity of the brain age vector was evaluated among groups of normal aging, prodromal Parkinson disease (PD), stable mild cognitive impairment (sMCI), and progressive mild cognitive impairment (pMCI). Machine learning methods were adopted to examine the discriminability of the brain age vector in early disease screening, compared with the other two brain aging metrics (single brain age gap, regional brain age gaps) and brain volumes. Results showed that the proposed brain age vector accurately reflected disorder-specific abnormal aging patterns related to the medial temporal and the striatum for prodromal AD (sMCI vs. pMCI) and PD (healthy controls [HC] vs. prodromal PD), respectively, and demonstrated outstanding performance in early disease screening, with area under the curves of 83.39% and 72.28% in detecting pMCI and prodromal PD, respectively. In conclusion, the proposed brain age vector effectively improves spatial specificity of brain aging measurement and enables individual screening of neurodegenerative diseases.
+36094058	57	83	neurodegenerative disorder	Disease	MESH:D019636
+36094058	198	216	neurodegenerations	Disease	MESH:D019636
+36094058	946	963	Parkinson disease	Disease	MESH:D010300
+36094058	965	967	PD	Disease	MESH:D010300
+36094058	982	1002	cognitive impairment	Disease	MESH:D003072
+36094058	1004	1008	sMCI	Disease	MESH:D060825
+36094058	1015	1052	progressive mild cognitive impairment	Disease	MESH:D060825
+36094058	1054	1058	pMCI	Disease	MESH:D060825
+36094058	1473	1475	AD	Disease	MESH:D000544
+36094058	1477	1481	sMCI	Disease	MESH:D060825
+36094058	1486	1490	pMCI	Disease	MESH:D060825
+36094058	1496	1498	PD	Disease	MESH:D010300
+36094058	1536	1538	PD	Disease	MESH:D010300
+36094058	1685	1689	pMCI	Disease	MESH:D060825
+36094058	1704	1706	PD	Disease	MESH:D010300
+36094058	1871	1897	neurodegenerative diseases	Disease	MESH:D019636
+

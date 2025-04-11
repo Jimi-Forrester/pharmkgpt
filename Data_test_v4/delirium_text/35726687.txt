@@ -1,0 +1,29 @@
+35726687|t|Automatically identifying opioid use disorder in non-cancer patients on chronic opioid therapy.
+35726687|a|Background: Using the International Classification of Diseases (ICD) codes alone to record opioid use disorder (OUD) may not completely document OUD in the electronic health record (EHR). We developed and evaluated natural language processing (NLP) approaches to identify OUD from the clinal note. We explored the concordance between ICD-coded and NLP-identified OUD.Methods: We studied EHRs from 13,654 (female: 8223; male: 5431) adult non-cancer patients who received chronic opioid therapy (COT) and had at least one clinical note between 2013 and 2018. Of eligible patients, we randomly selected 10,218 (75%) patients as the training set and the remaining 3436 patients (25%) as the test dataset for NLP approaches.Results: We generated 539 terms representing OUD mentions in clinical notes (e.g., "opioid use disorder," "opioid abuse," "opioid dependence," "opioid overdose") and 73 terms representing OUD medication treatments. By domain expert manual review for the test dataset, our NLP approach yielded high performance: 98.5% for precision, 100% for recall, and 99.2% for F-measure. The concordance of these NLP and ICD identified OUD was modest (Kappa = 0.63).Conclusions: Our NLP approach can accurately identify OUD patients from clinical notes. The combined use of ICD diagnostic code and NLP approach can improve OUD identification.
+35726687	26	45	opioid use disorder	Disease	MESH:D009293
+35726687	53	59	cancer	Disease	MESH:D009369
+35726687	60	68	patients	Species	9606
+35726687	72	94	chronic opioid therapy	Chemical	-
+35726687	187	206	opioid use disorder	Disease	MESH:D009293
+35726687	208	211	OUD	Disease	MESH:D009293
+35726687	241	244	OUD	Disease	MESH:D009293
+35726687	368	371	OUD	Disease	MESH:D009293
+35726687	459	470	OUD.Methods	Disease	MESH:D009293
+35726687	537	543	cancer	Disease	MESH:D009369
+35726687	544	552	patients	Species	9606
+35726687	566	588	chronic opioid therapy	Chemical	-
+35726687	590	593	COT	Chemical	-
+35726687	665	673	patients	Species	9606
+35726687	709	717	patients	Species	9606
+35726687	761	769	patients	Species	9606
+35726687	860	863	OUD	Disease	MESH:D009293
+35726687	899	918	opioid use disorder	Disease	MESH:D009293
+35726687	922	934	opioid abuse	Disease	MESH:D009293
+35726687	938	955	opioid dependence	Disease	MESH:D009293
+35726687	959	974	opioid overdose	Disease	MESH:D000083682
+35726687	1003	1006	OUD	Disease	MESH:D009293
+35726687	1237	1240	OUD	Disease	MESH:D009293
+35726687	1321	1324	OUD	Disease	MESH:D009293
+35726687	1325	1333	patients	Species	9606
+35726687	1424	1427	OUD	Disease	MESH:D009293
+

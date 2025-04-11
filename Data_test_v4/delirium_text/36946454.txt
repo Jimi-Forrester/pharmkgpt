@@ -1,0 +1,38 @@
+36946454|t|Exploring the Associations between Alzheimer's Disease and GBM Mediated by Microglia Based on Network Analysis.
+36946454|a|Previous studies have revealed that there existed epidemic associations between Alzheimer's disease (AD) and many types of tumors, however, the inner biological mechanism connecting these diseases was not clear currently. In this study, we explored the transcriptome associations between AD and glioblastoma multiforme (GBM) that both originate in the brain, using microglia as a bridge, from gene and network levels. Firstly, we extracted human scRNA sequencing datasets from Gene Expression Omnibus (GEO) database, and identified differentially expressed genes within microglia after cell annotation. It was observed that there were 11 common genes shared by AD and GBM dys-regulated genes. Next, we utilized DIAMOnD and Flow Centrality algorithms to identify microglia modules and mediating pathways connecting these two diseases based on global network topology. Among these candidate pathways, the mediating genes FURIN and BACE1 (from SPIKN5 to CSNK1A1) were not only related to the formation of amyloid beta plaques that accumulate in the brain of AD patients, but also involved in cancer biology. Furthermore, the biological explorations of mediating pathways connecting AD and GBM modules reveal inflammatory response, lipid metabolism disorder, and cell proliferation terms. Finally, novel signatures for early AD detection as well as risk models for glioma prognosis were identified based on mediating genes involved in these pathways. In conclusion, this study provided a novel network-based strategy for exploring microglia mediation between AD and GBM and identified candidate signatures for disease detection and prognosis.
+36946454	35	54	Alzheimer's Disease	Disease	MESH:D000544
+36946454	59	62	GBM	Disease	MESH:D005909
+36946454	192	211	Alzheimer's disease	Disease	MESH:D000544
+36946454	213	215	AD	Disease	MESH:D000544
+36946454	235	241	tumors	Disease	MESH:D009369
+36946454	400	402	AD	Disease	MESH:D000544
+36946454	407	430	glioblastoma multiforme	Disease	MESH:D005909
+36946454	432	435	GBM	Disease	MESH:D005909
+36946454	552	557	human	Species	9606
+36946454	773	775	AD	Disease	MESH:D000544
+36946454	780	783	GBM	Disease	MESH:D005909
+36946454	1031	1036	FURIN	Gene	5045
+36946454	1041	1046	BACE1	Gene	23621
+36946454	1063	1070	CSNK1A1	Gene	1452
+36946454	1114	1126	amyloid beta	Disease	MESH:C000718787
+36946454	1167	1169	AD	Disease	MESH:D000544
+36946454	1170	1178	patients	Species	9606
+36946454	1201	1207	cancer	Disease	MESH:D009369
+36946454	1291	1293	AD	Disease	MESH:D000544
+36946454	1298	1301	GBM	Disease	MESH:D005909
+36946454	1317	1338	inflammatory response	Disease	MESH:D018746
+36946454	1340	1365	lipid metabolism disorder	Disease	MESH:D052439
+36946454	1433	1435	AD	Disease	MESH:D000544
+36946454	1473	1479	glioma	Disease	MESH:D005910
+36946454	1667	1669	AD	Disease	MESH:D000544
+36946454	1674	1677	GBM	Disease	MESH:D005909
+36946454	Association	MESH:D000544	5045
+36946454	Association	MESH:D000544	23621
+36946454	Association	MESH:D000544	1452
+36946454	Association	MESH:C000718787	1452
+36946454	Association	MESH:C000718787	5045
+36946454	Association	MESH:D009369	23621
+36946454	Association	MESH:C000718787	23621
+36946454	Association	MESH:D009369	5045
+36946454	Association	MESH:D009369	1452
+

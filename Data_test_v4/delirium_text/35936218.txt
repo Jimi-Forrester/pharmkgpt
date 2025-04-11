@@ -1,0 +1,28 @@
+35936218|t|Comprehensive Network Analysis Reveals the Targets and Potential Multitarget Drugs of Type 2 Diabetes Mellitus.
+35936218|a|Type 2 diabetes mellitus (T2DM) is a metabolic disease with increasing prevalence and mortality year by year. The purpose of this study was to explore new therapeutic targets and candidate drugs for multitargets by single-cell RNA expression profile analysis, network pharmacology, and molecular docking. Single-cell RNA expression profiling of islet beta cell samples between T2DM patients and nondiabetic controls was conducted to identify important subpopulations and the marker genes. The potential therapeutic targets of T2DM were identified by the overlap analysis of insulin-related genes and diabetes-related genes, the construction of protein-protein interaction network, and the molecular complex detection (MCODE) algorithm. The network distance method was employed to determine the potential drugs of the target. Molecular docking and molecular dynamic simulations were carried out using AutoDock Vina and Gromacs2019, respectively. Eleven cell clusters were identified by single-cell RNA sequencing (scRNA-seq) data, and three of them (C2, C8, and C10) showed significant differences between T2DM samples and normal samples. Eight genes from differential cell clusters were found from differential cell clusters to be associated with insulin activity and T2DM. The MCODE algorithm built six key subnetworks, with five of them correlating with inflammatory pathways and immune cell infiltration. Importantly, CCR5 was a gene within the key subnetworks and was differentially expressed between normal samples and T2DM samples, with the highest area under the ROC curve (AUC) of 82.5% for the diagnosis model. A total of 49 CCR5-related genes were screened, and DB05494 was identified as the most potential drug with the shortest distance to CCR5-related genes. Molecular docking illustrated that DB05494 stably bound with CCR5 (-8.0 kcal/mol) through multiple hydrogen bonds (LYS26, TYR37, TYR89, CYS178, and GLN280) and hydrophobic bonds (TRP86, PHE112, ILE198, TRP248, and TYR251). This study identified CCR5 as a potential therapeutic target and screened DB05494 as a potential drug for T2DM treatment.
+35936218	86	110	Type 2 Diabetes Mellitus	Disease	MESH:D003924
+35936218	112	136	Type 2 diabetes mellitus	Disease	MESH:D003924
+35936218	138	142	T2DM	Disease	MESH:D003924
+35936218	149	166	metabolic disease	Disease	MESH:D008659
+35936218	489	493	T2DM	Disease	MESH:D003924
+35936218	494	502	patients	Species	9606
+35936218	638	642	T2DM	Disease	MESH:D003924
+35936218	686	693	insulin	Gene	3630
+35936218	712	720	diabetes	Disease	MESH:D003920
+35936218	1217	1221	T2DM	Disease	MESH:D003924
+35936218	1359	1366	insulin	Gene	3630
+35936218	1380	1384	T2DM	Disease	MESH:D003924
+35936218	1468	1480	inflammatory	Disease	MESH:D007249
+35936218	1533	1537	CCR5	Gene	1234
+35936218	1636	1640	T2DM	Disease	MESH:D003924
+35936218	1746	1750	CCR5	Gene	1234
+35936218	1784	1791	DB05494	Chemical	-
+35936218	1864	1868	CCR5	Gene	1234
+35936218	1919	1926	DB05494	Chemical	-
+35936218	1945	1949	CCR5	Gene	1234
+35936218	2129	2133	CCR5	Gene	1234
+35936218	2181	2188	DB05494	Chemical	-
+35936218	2213	2217	T2DM	Disease	MESH:D003924
+35936218	Association	MESH:D003924	1234
+35936218	Association	MESH:D003924	3630
+

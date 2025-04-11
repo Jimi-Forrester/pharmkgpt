@@ -1,0 +1,25 @@
+34465384|t|Detection of dementia on voice recordings using deep learning: a Framingham Heart Study.
+34465384|a|BACKGROUND: Identification of reliable, affordable, and easy-to-use strategies for detection of dementia is sorely needed. Digital technologies, such as individual voice recordings, offer an attractive modality to assess cognition but methods that could automatically analyze such data are not readily available. METHODS AND FINDINGS: We used 1264 voice recordings of neuropsychological examinations administered to participants from the Framingham Heart Study (FHS), a community-based longitudinal observational study. The recordings were 73 min in duration, on average, and contained at least two speakers (participant and examiner). Of the total voice recordings, 483 were of participants with normal cognition (NC), 451 recordings were of participants with mild cognitive impairment (MCI), and 330 were of participants with dementia (DE). We developed two deep learning models (a two-level long short-term memory (LSTM) network and a convolutional neural network (CNN)), which used the audio recordings to classify if the recording included a participant with only NC or only DE and to differentiate between recordings corresponding to those that had DE from those who did not have DE (i.e., NDE (NC+MCI)). Based on 5-fold cross-validation, the LSTM model achieved a mean (+-std) area under the receiver operating characteristic curve (AUC) of 0.740 +- 0.017, mean balanced accuracy of 0.647 +- 0.027, and mean weighted F1 score of 0.596 +- 0.047 in classifying cases with DE from those with NC. The CNN model achieved a mean AUC of 0.805 +- 0.027, mean balanced accuracy of 0.743 +- 0.015, and mean weighted F1 score of 0.742 +- 0.033 in classifying cases with DE from those with NC. For the task related to the classification of participants with DE from NDE, the LSTM model achieved a mean AUC of 0.734 +- 0.014, mean balanced accuracy of 0.675 +- 0.013, and mean weighted F1 score of 0.671 +- 0.015. The CNN model achieved a mean AUC of 0.746 +- 0.021, mean balanced accuracy of 0.652 +- 0.020, and mean weighted F1 score of 0.635 +- 0.031 in classifying cases with DE from those who were NDE. CONCLUSION: This proof-of-concept study demonstrates that automated deep learning-driven processing of audio recordings of neuropsychological testing performed on individuals recruited within a community cohort setting can facilitate dementia screening.
+34465384	13	21	dementia	Disease	MESH:D003704
+34465384	185	193	dementia	Disease	MESH:D003704
+34465384	505	517	participants	Species	9606
+34465384	698	709	participant	Species	9606
+34465384	768	780	participants	Species	9606
+34465384	832	844	participants	Species	9606
+34465384	855	875	cognitive impairment	Disease	MESH:D003072
+34465384	877	880	MCI	Disease	MESH:D060825
+34465384	899	911	participants	Species	9606
+34465384	917	925	dementia	Disease	MESH:D003704
+34465384	927	929	DE	Disease	MESH:D003704
+34465384	1136	1147	participant	Species	9606
+34465384	1169	1171	DE	Disease	MESH:D003704
+34465384	1244	1246	DE	Disease	MESH:D003704
+34465384	1275	1277	DE	Disease	MESH:D003704
+34465384	1293	1296	MCI	Disease	MESH:D060825
+34465384	1566	1568	DE	Disease	MESH:D003704
+34465384	1755	1757	DE	Disease	MESH:D003704
+34465384	1824	1836	participants	Species	9606
+34465384	1842	1844	DE	Disease	MESH:D003704
+34465384	2163	2165	DE	Disease	MESH:D003704
+34465384	2425	2433	dementia	Disease	MESH:D003704
+

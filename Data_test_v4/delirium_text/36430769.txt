@@ -1,0 +1,51 @@
+36430769|t|Integrating Network Pharmacology and Transcriptomic Strategies to Explore the Pharmacological Mechanism of Hydroxysafflor Yellow A in Delaying Liver Aging.
+36430769|a|Aging affects the structure and function of the liver. Hydroxysafflor yellow A (HSYA) effectively improves liver aging (LA) in mice, but the potential mechanisms require further exploration. In this study, an integrated approach combining network pharmacology and transcriptomics was used to elucidate the potential mechanisms of HSYA delay of LA. The targets of HSYA were predicted using the PharmMapper, SwissTargetPrediction, and CTD databases, and the targets of LA were collected from the GeneCards database. An ontology (GO) analysis and a Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway annotation of genes related to HSYA delay of LA were performed using the DAVID database, and Cytoscape software was used to construct an HSYA target pathway network. The BMKCloud platform was used to sequence mRNA from mouse liver tissue, screen differentially expressed genes (DEGs) that were altered by HSYA, and enrich their biological functions and signaling pathways through the OmicShare database. The results of the network pharmacology and transcriptomic analyses were combined. Then, quantitative real-time PCR (qRT-PCR) and Western blot experiments were used to further verify the prediction results. Finally, the interactions between HSYA and key targets were assessed by molecular docking. The results showed that 199 potentially targeted genes according to network pharmacology and 480 DEGs according to transcriptomics were involved in the effects of HSYA against LA. An integrated analysis revealed that four key targets, including HSP90AA1, ATP2A1, NOS1 and CRAT, as well as their three related pathways (the calcium signaling pathway, estrogen signaling pathway and cGMP-PKG signaling pathway), were closely related to the therapeutic effects of HSYA. A gene and protein expression analysis revealed that HSYA significantly inhibited the expressions of HSP90AA1, ATP2A1 and NOS1 in the liver tissue of aging mice. The molecular docking results showed that HSYA had high affinities with the HSP90AA1, ATP2A1 and NOS1 targets. Our data demonstrate that HSYA may delay LA in mice by inhibiting the expressions of HSP90AA1, ATP2A1 and NOS1 and regulating the calcium signaling pathway, the estrogen signaling pathway, and the cGMP-PKG signaling pathway.
+36430769	107	130	Hydroxysafflor Yellow A	Chemical	MESH:C085278
+36430769	143	154	Liver Aging	Disease	MESH:D017093
+36430769	204	209	liver	Disease	MESH:D017093
+36430769	211	234	Hydroxysafflor yellow A	Chemical	MESH:C085278
+36430769	236	240	HSYA	Chemical	MESH:C085278
+36430769	263	274	liver aging	Disease	MESH:D017093
+36430769	283	287	mice	Species	10090
+36430769	486	490	HSYA	Chemical	MESH:C085278
+36430769	519	523	HSYA	Chemical	MESH:C085278
+36430769	589	592	CTD	Disease	
+36430769	788	792	HSYA	Chemical	MESH:C085278
+36430769	894	898	HSYA	Chemical	MESH:C085278
+36430769	976	981	mouse	Species	10090
+36430769	982	987	liver	Disease	MESH:D017093
+36430769	1062	1066	HSYA	Chemical	MESH:C085278
+36430769	1402	1406	HSYA	Chemical	MESH:C085278
+36430769	1622	1626	HSYA	Chemical	MESH:C085278
+36430769	1704	1712	HSP90AA1	Gene	15519
+36430769	1714	1720	ATP2A1	Gene	11937
+36430769	1722	1726	NOS1	Gene	18125
+36430769	1731	1735	CRAT	Gene	12908
+36430769	1782	1789	calcium	Chemical	MESH:D002118
+36430769	1920	1924	HSYA	Chemical	MESH:C085278
+36430769	1979	1983	HSYA	Chemical	MESH:C085278
+36430769	2027	2035	HSP90AA1	Gene	15519
+36430769	2037	2043	ATP2A1	Gene	11937
+36430769	2048	2052	NOS1	Gene	18125
+36430769	2060	2065	liver	Disease	MESH:D017093
+36430769	2082	2086	mice	Species	10090
+36430769	2130	2134	HSYA	Chemical	MESH:C085278
+36430769	2164	2172	HSP90AA1	Gene	15519
+36430769	2174	2180	ATP2A1	Gene	11937
+36430769	2185	2189	NOS1	Gene	18125
+36430769	2225	2229	HSYA	Chemical	MESH:C085278
+36430769	2246	2250	mice	Species	10090
+36430769	2284	2292	HSP90AA1	Gene	15519
+36430769	2294	2300	ATP2A1	Gene	11937
+36430769	2305	2309	NOS1	Gene	18125
+36430769	2329	2336	calcium	Chemical	MESH:D002118
+36430769	Association	MESH:C085278	18125
+36430769	Association	MESH:D017093	18125
+36430769	Negative_Correlation	MESH:C085278	MESH:D017093
+36430769	Association	MESH:C085278	15519
+36430769	Association	MESH:D017093	15519
+36430769	Association	MESH:C085278	MESH:D002118
+36430769	Association	MESH:C085278	12908
+36430769	Association	MESH:C085278	11937
+36430769	Association	MESH:D017093	11937
+

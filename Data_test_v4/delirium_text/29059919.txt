@@ -1,0 +1,10 @@
+29059919|t|Atlas based sparse logistic regression for Alzheimer's Disease classification.
+29059919|a|Sparse methods are an effective way to alleviate the curse of dimensionality in neuroimaging applications. By imposing sparsity inducing regularization terms these methods are able to perform feature selection jointly with classification.They have been used for Alzheimer's Disease (AD) and Mild cognitive impairment (MCI) classification using different approaches such as Lasso, Group Lasso and treestructured Group Lasso. The Group Lasso approaches have relied mainly on grouping contiguous voxels, either spatially or temporally. In this paper we propose two grouping approaches where feature groups are more disease related. We propose that features are grouped according to anatomically defined regions of the brain, as provided by a labeled atlas, and in a hierarchy that joins corresponding regions in the left and right hemispheres, so as to take into account the bilateral symmetry which typically occurs in AD. We apply our methods to MRI images from the ADNI and compare their performance with that of other sparse methods developed for AD. Evaluation includes classification performance and the stability of the obtained feature weights when several runs of these algorithms are performed. The proposed methods attained better or equal performance but generated more stable feature weights.
+29059919	43	62	Alzheimer's Disease	Disease	MESH:D000544
+29059919	341	360	Alzheimer's Disease	Disease	MESH:D000544
+29059919	362	364	AD	Disease	MESH:D000544
+29059919	370	395	Mild cognitive impairment	Disease	MESH:D060825
+29059919	397	400	MCI	Disease	MESH:D060825
+29059919	996	998	AD	Disease	MESH:D000544
+29059919	1127	1129	AD	Disease	MESH:D000544
+

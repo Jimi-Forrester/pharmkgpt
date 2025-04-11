@@ -1,0 +1,38 @@
+37822091|t|miRNAs from Inflamed Gingiva Link Gene Signaling to Increased MET Expression.
+37822091|a|Several array-based microRNA (miRNA) expression studies independently showed increased expression of miRNAs hsa-miR-130a-3p, -142-3p, -144-3p, -144-5p, -223-3p, -17-5p, and -30e-5p in gingiva affected by periodontal inflammation. We aimed to determine direct target genes and signaling pathways regulated by these miRNAs to identify processes relevant to gingival inflammatory responses and tissue homeostasis. We transfected miRNA mimics (mirVana) for each of the 7 miRNAs separately into human primary gingival fibroblasts cultured from 3 different donors. Following RNA sequencing, differential gene expression and second-generation gene set enrichment analyses were performed. miRNA inhibition and upregulation was validated at the transcript and protein levels using quantitative reverse transcriptase polymerase chain reaction, Western blotting, and reporter gene assays. All 7 miRNAs significantly increased expression of the gene MET proto-oncogene, receptor tyrosine kinase (MET). Expression of known periodontitis risk genes CPEB1, ABCA1, and ATP6V1C1 was significantly repressed by hsa-miR-130a-3p, -144-3p, and -144-5p, respectively. The genes WASL, ENPP5, ARL6IP1, and IDH1 showed the most significant and strongest downregulation after hsa-miR-142-3p, -17-5p, -223-3p, and -30e-5p transfection, respectively. The most significantly regulated gene set of each miRNA related to cell cycle (hsa-miRNA-144-3p and -5p [Padj = 4 x 10-40 and Padj = 4 x 10-6], -miR-17-5p [Padj = 9.5 x 10-23], -miR-30e-5p [Padj = 8.2 x 10-18], -miR-130a-3p [Padj = 5 x 10-15]), integrin cell surface interaction (-miR-223-3p [Padj = 2.4 x 10-7]), and interferon signaling (-miR-142-3p [Padj = 5 x 10-11]). At the end of acute inflammation, gingival miRNAs bring together complex regulatory networks that lead to increased expression of the gene MET. This underscores the importance of mesenchymal cell migration and invasion during gingival tissue remodeling and proliferation in restoring periodontal tissue homeostasis after active inflammation. MET, a receptor of the mitogenic hepatocyte growth factor fibroblast secreted, is a core gene of this process.
+37822091	62	65	MET	Gene	79811
+37822091	282	306	periodontal inflammation	Disease	MESH:D007249
+37822091	433	441	gingival	Disease	MESH:D005891
+37822091	442	454	inflammatory	Disease	MESH:D007249
+37822091	582	590	gingival	Disease	MESH:D005891
+37822091	1036	1060	receptor tyrosine kinase	Gene	5979
+37822091	1062	1065	MET	Gene	79811
+37822091	1088	1101	periodontitis	Disease	MESH:D010518
+37822091	1113	1118	CPEB1	Gene	64506
+37822091	1120	1125	ABCA1	Gene	19
+37822091	1131	1139	ATP6V1C1	Gene	528
+37822091	1234	1238	WASL	Gene	8976
+37822091	1240	1245	ENPP5	Gene	59084
+37822091	1247	1254	ARL6IP1	Gene	23204
+37822091	1260	1264	IDH1	Gene	3417
+37822091	1328	1331	hsa	Gene	213
+37822091	1546	1555	miR-17-5p	Gene	406952
+37822091	1579	1586	miR-30e	Gene	407034
+37822091	1794	1806	inflammation	Disease	MESH:D007249
+37822091	1808	1816	gingival	Disease	MESH:D005891
+37822091	1913	1916	MET	Gene	79811
+37822091	2000	2008	gingival	Disease	MESH:D005891
+37822091	2102	2114	inflammation	Disease	MESH:D007249
+37822091	2116	2119	MET	Gene	79811
+37822091	Association	MESH:D010518	64506
+37822091	Association	MESH:D005891	407034
+37822091	Association	MESH:D005891	406952
+37822091	Association	213	3417
+37822091	Association	MESH:D010518	19
+37822091	Association	MESH:D007249	406952
+37822091	Association	MESH:D007249	407034
+37822091	Association	213	8976
+37822091	Negative_Correlation	213	59084
+37822091	Association	MESH:D010518	528
+37822091	Association	213	23204
+

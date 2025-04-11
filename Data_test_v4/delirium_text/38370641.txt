@@ -1,0 +1,8 @@
+38370641|t|Brain Age Analysis and Dementia Classification using Convolutional Neural Networks trained on Diffusion MRI: Tests in Indian and North American Cohorts.
+38370641|a|Deep learning models based on convolutional neural networks (CNNs) have been used to classify Alzheimer's disease or infer dementia severity from T1-weighted brain MRI scans. Here, we examine the value of adding diffusion-weighted MRI (dMRI) as an input to these models. Much research in this area focuses on specific datasets such as the Alzheimer's Disease Neuroimaging Initiative (ADNI), which assesses people of North American, largely European ancestry, so we examine how models trained on ADNI, generalize to a new population dataset from India (the NIMHANS cohort). We first benchmark our models by predicting "brain age" - the task of predicting a person's chronological age from their MRI scan and proceed to AD classification. We also evaluate the benefit of using a 3D CycleGAN approach to harmonize the imaging datasets before training the CNN models. Our experiments show that classification performance improves after harmonization in most cases, as well as better performance for dMRI as input.
+38370641	23	31	Dementia	Disease	MESH:D003704
+38370641	247	266	Alzheimer's disease	Disease	MESH:D000544
+38370641	276	284	dementia	Disease	MESH:D003704
+38370641	492	511	Alzheimer's Disease	Disease	MESH:D000544
+38370641	871	873	AD	Disease	MESH:D000544
+

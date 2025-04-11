@@ -1,0 +1,24 @@
+37360342|t|Delirium detection using wearable sensors and machine learning in patients with intracerebral hemorrhage.
+37360342|a|Objective: Delirium is associated with worse outcomes in patients with stroke and neurocritical illness, but delirium detection in these patients can be challenging with existing screening tools. To address this gap, we aimed to develop and evaluate machine learning models that detect episodes of post-stroke delirium based on data from wearable activity monitors in conjunction with stroke-related clinical features. Design: Prospective observational cohort study. Setting: Neurocritical Care and Stroke Units at an academic medical center. Patients: We recruited 39 patients with moderate-to-severe acute intracerebral hemorrhage (ICH) and hemiparesis over a 1-year period [mean (SD) age 71.3 (12.20), 54% male, median (IQR) initial NIH Stroke Scale 14.5 (6), median (IQR) ICH score 2 (1)]. Measurements and main results: Each patient received daily assessments for delirium by an attending neurologist, while activity data were recorded throughout each patient's hospitalization using wrist-worn actigraph devices (on both paretic and non-paretic arms). We compared the predictive accuracy of Random Forest, SVM and XGBoost machine learning methods in classifying daily delirium status using clinical information alone and combined with actigraph data. Among our study cohort, 85% of patients (n = 33) had at least one delirium episode, while 71% of monitoring days (n = 209) were rated as days with delirium. Clinical information alone had a low accuracy in detecting delirium on a day-to-day basis [accuracy mean (SD) 62% (18%), F1 score mean (SD) 50% (17%)]. Prediction performance improved significantly (p < 0.001) with the addition of actigraph data [accuracy mean (SD) 74% (10%), F1 score 65% (10%)]. Among actigraphy features, night-time actigraph data were especially relevant for classification accuracy. Conclusions: We found that actigraphy in conjunction with machine learning models improves clinical detection of delirium in patients with stroke, thus paving the way to make actigraph-assisted predictions clinically actionable.
+37360342	0	8	Delirium	Disease	MESH:D003693
+37360342	80	104	intracerebral hemorrhage	Disease	MESH:D002543
+37360342	117	125	Delirium	Disease	MESH:D003693
+37360342	177	183	stroke	Disease	MESH:D020521
+37360342	215	223	delirium	Disease	MESH:D003693
+37360342	404	415	post-stroke	Disease	MESH:D020521
+37360342	416	424	delirium	Disease	MESH:D003693
+37360342	491	497	stroke	Disease	MESH:D020521
+37360342	605	611	Stroke	Disease	MESH:D020521
+37360342	714	738	intracerebral hemorrhage	Disease	MESH:D002543
+37360342	740	743	ICH	Disease	MESH:D002543
+37360342	749	760	hemiparesis	Disease	MESH:D010291
+37360342	842	852	NIH Stroke	Disease	MESH:D020521
+37360342	882	885	ICH	Disease	MESH:D002543
+37360342	975	983	delirium	Disease	MESH:D003693
+37360342	1280	1288	delirium	Disease	MESH:D003693
+37360342	1429	1437	delirium	Disease	MESH:D003693
+37360342	1510	1518	delirium	Disease	MESH:D003693
+37360342	1579	1587	delirium	Disease	MESH:D003693
+37360342	2038	2046	delirium	Disease	MESH:D003693
+37360342	2064	2070	stroke	Disease	MESH:D020521
+

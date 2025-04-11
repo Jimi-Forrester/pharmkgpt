@@ -1,0 +1,42 @@
+23552737|t|Selective growth inhibition by glycogen synthase kinase-3 inhibitors in tumorigenic HeLa hybrid cells is mediated through NF-kappaB-dependent GLUT3 expression.
+23552737|a|Carcinogenesis and cancer progression, driven by mutations in oncogenes and tumor-suppressor genes, result in biological differences between normal and cancer cells in various cellular processes. Specific genes and signaling molecules involved in such cellular processes may be potential therapeutic targets of agents that specifically interact with the key factors in cancer cells. Increased glucose uptake is fundamental to many solid tumors and well associated with increases in glycolysis and the overexpression of glucose transporters (GLUTs) such as GLUT1 and GLUT3 at the plasma membrane. Here, we used cell-based screening to identify glycogen synthase kinase-3beta (GSK-3beta) inhibitors that selectively target GLUT3-expressing tumorigenic HeLa cell hybrids as compared with non-tumorigenic hybrids that express GLUT1 alone. The GSK-3 inhibitors as well as GSK-3beta RNAi suppressed GLUT3 expression at the level of transcription, leading to apoptosis. This suppression was associated with NF-kappaB in a p53-independent manner. Furthermore, GSK-3 inhibitors exhibited a synergistic effect with anticancer agents such as adriamycin and camptothecin in GULT3-overexpressing colon cancer cells, but little effect in non-producing A431 cells. These results suggest a potential use of GSK-3 inhibitors to selectively kill cancer cells that overexpress GLUT3.
+23552737	84	88	HeLa	CellLine	CVCL:0030
+23552737	122	131	NF-kappaB	Gene	4790
+23552737	142	147	GLUT3	Gene	6515
+23552737	160	174	Carcinogenesis	Disease	MESH:D063646
+23552737	179	185	cancer	Disease	MESH:D009369
+23552737	236	241	tumor	Disease	MESH:D009369
+23552737	312	318	cancer	Disease	MESH:D009369
+23552737	529	535	cancer	Disease	MESH:D009369
+23552737	553	560	glucose	Chemical	MESH:D005947
+23552737	597	603	tumors	Disease	MESH:D009369
+23552737	716	721	GLUT1	Gene	6513
+23552737	726	731	GLUT3	Gene	6515
+23552737	803	833	glycogen synthase kinase-3beta	Gene	2932
+23552737	835	844	GSK-3beta	Gene	2932
+23552737	881	886	GLUT3	Gene	6515
+23552737	910	914	HeLa	CellLine	CVCL:0030
+23552737	982	987	GLUT1	Gene	6513
+23552737	1027	1036	GSK-3beta	Gene	2932
+23552737	1053	1058	GLUT3	Gene	6515
+23552737	1160	1169	NF-kappaB	Gene	4790
+23552737	1175	1178	p53	Gene	7157
+23552737	1291	1301	adriamycin	Chemical	MESH:D004317
+23552737	1306	1318	camptothecin	Chemical	MESH:D002166
+23552737	1343	1355	colon cancer	Disease	MESH:D015179
+23552737	1398	1402	A431	CellLine	CVCL:0037
+23552737	1488	1494	cancer	Disease	MESH:D009369
+23552737	1518	1523	GLUT3	Gene	6515
+23552737	Positive_Correlation	MESH:D005947	MESH:D009369
+23552737	Association	MESH:D009369	4790
+23552737	Negative_Correlation	MESH:D002166	MESH:D015179
+23552737	Association	MESH:D009369	6515
+23552737	Association	2932	6515
+23552737	Association	MESH:D009369	2932
+23552737	Association	MESH:D015179	6515
+23552737	Association	MESH:D009369	6513
+23552737	Association	MESH:D005947	6515
+23552737	Association	4790	6515
+23552737	Negative_Correlation	MESH:D004317	MESH:D015179
+23552737	Positive_Correlation	MESH:D005947	6513
+

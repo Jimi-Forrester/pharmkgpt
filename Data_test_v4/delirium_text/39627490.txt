@@ -1,0 +1,21 @@
+39627490|t|Prediction of prolonged mechanical ventilation in the intensive care unit via machine learning: a COVID-19 perspective.
+39627490|a|Early recognition of risk factors for prolonged mechanical ventilation (PMV) could allow for early clinical interventions, prevention of secondary complications such as nosocomial infections, and effective triage of hospital resources. This study tested the hypothesis that an ensemble machine learning (ML) analysis of clinical data at time of intubation could identify patients at risk of PMV, using a COVID-19 dataset to classify patients into PMV (> 14 days) and non-PMV (<= 14 days) groups. While several factors are known to cause PMV, including acid-base, weakness, and delirium, lesser-utilized but routinely measured parameters such as platelet count, glucose levels and fevers may also be relevant. Patient data from a single University Hospital were analyzed via the ML workflow to predict patients at risk of PMV and identify key clinical markers. Model performance was evaluated on a chronologically distinct cohort. The ML workflow identified patients at risk of PMV with AUROCTRAIN=0.960 (F1TRAIN = 0.935) and AUROCTEST=0.804 (F1TEST = 0.800). Top key features for classification included glucose, platelet count, temperature, LVEF, bicarbonate (arterial blood gas), and BMI. Data analysis at intubation time via the proposed workflow offers the potential to accurately predict patients at risk of PMV, with the goal to improve patient management and triage of hospital resources.
+39627490	24	34	mechanical	Disease	MESH:D041781
+39627490	98	106	COVID-19	Disease	MESH:D000086382
+39627490	168	178	mechanical	Disease	MESH:D041781
+39627490	289	310	nosocomial infections	Disease	MESH:D003428
+39627490	491	499	patients	Species	9606
+39627490	524	532	COVID-19	Disease	MESH:D000086382
+39627490	553	561	patients	Species	9606
+39627490	683	691	weakness	Disease	MESH:D018908
+39627490	697	705	delirium	Disease	MESH:D003693
+39627490	781	788	glucose	Chemical	MESH:D005947
+39627490	800	806	fevers	Disease	MESH:D005334
+39627490	829	836	Patient	Species	9606
+39627490	921	929	patients	Species	9606
+39627490	1077	1085	patients	Species	9606
+39627490	1224	1231	glucose	Chemical	MESH:D005947
+39627490	1268	1279	bicarbonate	Chemical	MESH:D001639
+39627490	1413	1421	patients	Species	9606
+39627490	1463	1470	patient	Species	9606
+

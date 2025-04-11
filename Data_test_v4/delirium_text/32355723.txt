@@ -1,0 +1,95 @@
+32355723|t|Activating miRNA-mRNA network in gemcitabine-resistant pancreatic cancer cell associates with alteration of memory CD4+ T cells.
+32355723|a|BACKGROUND: To identify key microRNAs (miRNAs) and their target mRNAs related to gemcitabine-resistant pancreatic cancer (PC) and investigate the association between gemcitabine-resistant-related miRNAs and mRNAs and immune infiltration. METHODS: Expression profiles of miRNAs and mRNAs were obtained from the Gene Expression Omnibus (GEO) database. The differentially expressed miRNAs and mRNAs (referred to as "DEmiRNAs" and "DEmRNAs", respectively) were distinguished between gemcitabine-resistant PC cells and its parental cells. The DEmRNAs targeted by the DEmiRNAs were retrieved using miRDB, microT, and Targetscan. Furthermore, GO and KEGG pathway enrichment analysis and GSEA were performed. The Kaplan-Meier plotter was used to analyze the prognosis of key DEmiRNAs and DEmRNAs on PC patients. The relationship between the key DEmRNAs and tumor-infiltrating immune cells in PC was investigated using CIBERSORT method using the LM22 signature as reference. Key infiltrating immune cells were further analyzed for the associations with prognosis of TCGA PAAD patients. RESULTS: Four DEmiRNAs, including hsa-miR-3178, hsa-miR-485-3p, hsa-miR-574-5p, and hsa-miR-584-5p, were identified to target seven DEmRNAs, including MSI2, TEAD1, GNPDA1, RND3, PRKACB, TRIM68, and YKT6, individually, in gemcitabine-resistant PC cells versus parental cells. Gemcitabine-resistant PC cells were enriched in proteasome-related, immune-related, and memory CD4+ T cell-related pathways, indicating a gemcitabine therapeutic effect on PC cells. All four DEmiRNAs and almost all DEmRNAs had an impact on the prognosis of PC patients. All seven DEmRNAs had remarkable effects on CD4+ memory T cells, which were affected by the gemcitabine therapeutic effect. Effector memory CD4+ T cells rather than central memory CD4+ T cells predicted a good prognosis according to the TCGA PAAD dataset. CONCLUSIONS: Gemcitabine resistance can alter the fraction of memory CD4+ T cells via hsa-miR-3178, hsa-miR-485-3p, hsa-miR-574-5p and hsa-miR-584-5p targeted MSI2, TEAD1, GNPDA1, RND3, PRKACB, TRIM68, and YKT6 network in PC.
+32355723	33	44	gemcitabine	Chemical	MESH:D000093542
+32355723	55	72	pancreatic cancer	Disease	MESH:D010190
+32355723	115	118	CD4	Gene	920
+32355723	210	221	gemcitabine	Chemical	MESH:D000093542
+32355723	232	249	pancreatic cancer	Disease	MESH:D010190
+32355723	251	253	PC	Disease	MESH:D010190
+32355723	295	306	gemcitabine	Chemical	MESH:D000093542
+32355723	608	619	gemcitabine	Chemical	MESH:D000093542
+32355723	630	632	PC	Disease	MESH:D010190
+32355723	920	922	PC	Disease	MESH:D010190
+32355723	923	931	patients	Species	9606
+32355723	978	983	tumor	Disease	MESH:D009369
+32355723	1013	1015	PC	Disease	MESH:D010190
+32355723	1191	1195	PAAD	Disease	
+32355723	1196	1204	patients	Species	9606
+32355723	1240	1252	hsa-miR-3178	Gene	100422974
+32355723	1254	1265	hsa-miR-485	Gene	574436
+32355723	1270	1273	hsa	Gene	213
+32355723	1273	1281	-miR-574	Gene	693159
+32355723	1290	1301	hsa-miR-584	Gene	693169
+32355723	1357	1361	MSI2	Gene	124540
+32355723	1363	1368	TEAD1	Gene	7003
+32355723	1370	1376	GNPDA1	Gene	10007
+32355723	1378	1382	RND3	Gene	390
+32355723	1384	1390	PRKACB	Gene	5567
+32355723	1392	1398	TRIM68	Gene	55128
+32355723	1404	1408	YKT6	Gene	10652
+32355723	1427	1438	gemcitabine	Chemical	MESH:D000093542
+32355723	1449	1451	PC	Disease	MESH:D010190
+32355723	1481	1492	Gemcitabine	Chemical	MESH:D000093542
+32355723	1503	1505	PC	Disease	MESH:D010190
+32355723	1576	1579	CD4	Gene	920
+32355723	1619	1630	gemcitabine	Chemical	MESH:D000093542
+32355723	1653	1655	PC	Disease	MESH:D010190
+32355723	1738	1740	PC	Disease	MESH:D010190
+32355723	1741	1749	patients	Species	9606
+32355723	1795	1798	CD4	Gene	920
+32355723	1843	1854	gemcitabine	Chemical	MESH:D000093542
+32355723	1891	1894	CD4	Gene	920
+32355723	1931	1934	CD4	Gene	920
+32355723	1993	1997	PAAD	Disease	
+32355723	2020	2031	Gemcitabine	Chemical	MESH:D000093542
+32355723	2076	2079	CD4	Gene	920
+32355723	2093	2105	hsa-miR-3178	Gene	100422974
+32355723	2107	2118	hsa-miR-485	Gene	574436
+32355723	2123	2126	hsa	Gene	213
+32355723	2127	2134	miR-574	Gene	693159
+32355723	2142	2153	hsa-miR-584	Gene	693169
+32355723	2166	2170	MSI2	Gene	124540
+32355723	2172	2177	TEAD1	Gene	7003
+32355723	2179	2185	GNPDA1	Gene	10007
+32355723	2187	2191	RND3	Gene	390
+32355723	2193	2199	PRKACB	Gene	5567
+32355723	2201	2207	TRIM68	Gene	55128
+32355723	2213	2217	YKT6	Gene	10652
+32355723	2229	2231	PC	Disease	MESH:D010190
+32355723	Association	MESH:D000093542	10652
+32355723	Association	MESH:D000093542	920
+32355723	Association	MESH:D000093542	213
+32355723	Association	MESH:D000093542	693159
+32355723	Association	MESH:D010190	693159
+32355723	Association	MESH:D010190	7003
+32355723	Association	MESH:D010190	124540
+32355723	Association	124540	693169
+32355723	Association	10652	693169
+32355723	Association	MESH:D010190	55128
+32355723	Association	MESH:D010190	10652
+32355723	Association	MESH:D010190	100422974
+32355723	Association	693159	7003
+32355723	Association	55128	693159
+32355723	Association	MESH:D010190	5567
+32355723	Association	MESH:D010190	10007
+32355723	Association	MESH:D000093542	55128
+32355723	Association	MESH:D010190	213
+32355723	Association	5567	693169
+32355723	Association	MESH:D000093542	693169
+32355723	Association	MESH:D010190	390
+32355723	Association	MESH:D000093542	100422974
+32355723	Association	MESH:D000093542	10007
+32355723	Association	MESH:D010190	693169
+32355723	Association	MESH:D000093542	390
+32355723	Association	MESH:D000093542	574436
+32355723	Negative_Correlation	MESH:D000093542	MESH:D010190
+32355723	Association	MESH:D010190	574436
+32355723	Association	55128	693169
+32355723	Association	100422974	55128
+32355723	Association	MESH:D000093542	5567
+32355723	Association	124540	693159
+32355723	Association	MESH:D000093542	7003
+32355723	Association	10652	693159
+32355723	Association	MESH:D010190	920
+32355723	Association	MESH:D000093542	124540
+

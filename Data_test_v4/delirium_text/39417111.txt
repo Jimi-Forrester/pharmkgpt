@@ -1,0 +1,40 @@
+39417111|t|Quantitative EEG Spectral Features Differentiate Genetic Epilepsies and Predict Neurologic Outcomes.
+39417111|a|EEG plays an integral part in the diagnosis and management of children with genetic epilepsies. Nevertheless, how quantitative EEG features differ between genetic epilepsies and neurological outcomes remains largely unknown. Here, we aimed to identify quantitative EEG biomarkers in children with epilepsy and a genetic diagnosis in STXBP1, SCN1A, or SYNGAP1, and to assess how quantitative EEG features associate with neurological outcomes in genetic epilepsies more broadly. We analyzed individuals with pathogenic variants in STXBP1 (95 EEGs, n=20), SCN1A (154 EEGs, n=68), and SYNGAP1 (46 EEGs, n=21) and a control cohort of individuals without epilepsy or known cerebral disease (847 EEGs, n=806). After removing artifacts and epochs with excess noise or altered state from EEGs, we extracted spectral features. We validated our preprocessing pipeline by comparing automatically-detected posterior dominant rhythm (PDR) to annotations from clinical EEG reports. Next, as a coarse measure of pathological slowing, we compared the alpha-delta bandpower ratio between controls and the different genetic epilepsies. We then trained random forest models to predict a diagnosis of STXBP1, SCN1A, and SYNGAP1. Finally, to understand how EEG features vary with neurological outcomes, we trained random forest models to predict seizure frequency and motor function. There was strong agreement between the automatically-calculated PDR and clinical EEG reports (R 2=0.75). Individuals with STXBP1-related epilepsy have a significantly lower alpha-delta ratio than controls (P<0.001) across all age groups. Additionally, individuals with a missense variant in STXBP1 have a significantly lower alpha-delta ratio than those with a protein-truncating variant in toddlers (P<0.001), children (P=0.02), and adults (P<0.001). Models accurately predicted a diagnosis of STXBP1 (AUC=0.91), SYNGAP1 (AUC=0.82), and SCN1A (AUC=0.86) against controls and from each other in a three-class model (accuracy=0.74). From these models, we isolated highly correlated biomarkers for these respective genetic disorders, including alpha-theta ratio in frontal, occipital, and parietal electrodes with STXBP1, SYNGAP1, and SCN1A, respectively. Models were unable to predict seizure frequency (AUC=0.53). Random forest models predicted motor scores significantly better than age-based null models (P<0.001), suggesting spectral features contain information pertinent to gross motor function. In summary, we demonstrate that STXBP1-, SYNGAP1-, and SCN1A-related epilepsies have distinct quantitative EEG signatures. Furthermore, EEG spectral features are predictive of some functional outcome measures in patients with genetic epilepsies. Large-scale retrospective quantitative analysis of clinical EEG has the potential to discover novel biomarkers and to quantify and track individuals' disease progression across development.
+39417111	49	67	Genetic Epilepsies	Disease	MESH:D004827
+39417111	177	195	genetic epilepsies	Disease	MESH:D004827
+39417111	256	274	genetic epilepsies	Disease	MESH:D004827
+39417111	398	406	epilepsy	Disease	MESH:D004827
+39417111	434	440	STXBP1	Gene	6812
+39417111	442	447	SCN1A	Gene	6323
+39417111	452	459	SYNGAP1	Gene	8831
+39417111	545	563	genetic epilepsies	Disease	MESH:D004827
+39417111	630	636	STXBP1	Gene	6812
+39417111	654	659	SCN1A	Gene	6323
+39417111	682	689	SYNGAP1	Gene	8831
+39417111	750	758	epilepsy	Disease	MESH:D004827
+39417111	768	784	cerebral disease	Disease	MESH:D002539
+39417111	1198	1216	genetic epilepsies	Disease	MESH:D004827
+39417111	1281	1287	STXBP1	Gene	6812
+39417111	1289	1294	SCN1A	Gene	6323
+39417111	1300	1307	SYNGAP1	Gene	8831
+39417111	1425	1432	seizure	Disease	MESH:D012640
+39417111	1585	1591	STXBP1	Gene	6812
+39417111	1600	1608	epilepsy	Disease	MESH:D004827
+39417111	1754	1760	STXBP1	Gene	6812
+39417111	1958	1964	STXBP1	Gene	6812
+39417111	1977	1984	SYNGAP1	Gene	8831
+39417111	2001	2006	SCN1A	Gene	6323
+39417111	2176	2193	genetic disorders	Disease	MESH:D030342
+39417111	2275	2281	STXBP1	Gene	6812
+39417111	2283	2290	SYNGAP1	Gene	8831
+39417111	2296	2301	SCN1A	Gene	6323
+39417111	2347	2354	seizure	Disease	MESH:D012640
+39417111	2596	2602	STXBP1	Gene	6812
+39417111	2605	2612	SYNGAP1	Gene	8831
+39417111	2619	2624	SCN1A	Gene	6323
+39417111	2633	2643	epilepsies	Disease	MESH:D004827
+39417111	2776	2784	patients	Species	9606
+39417111	2790	2808	genetic epilepsies	Disease	MESH:D004827
+39417111	Association	MESH:D004827	6812
+39417111	Association	MESH:D004827	8831
+

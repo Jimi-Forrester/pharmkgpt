@@ -1,0 +1,14 @@
+22256148|t|Change detection and classification in brain MR images using change vector analysis.
+22256148|a|The automatic detection of longitudinal changes in brain images is valuable in the assessment of disease evolution and treatment efficacy. Most existing change detection methods that are currently used in clinical research to monitor patients suffering from neurodegenerative diseases--such as Alzheimer's--focus on large-scale brain deformations. However, such patients often have other brain impairments, such as infarcts, white matter lesions and hemorrhages, which are typically overlooked by the deformation-based methods. Other unsupervised change detection algorithms have been proposed to detect tissue intensity changes. The outcome of these methods is typically a binary change map, which identifies changed brain regions. However, understanding what types of changes these regions underwent is likely to provide equally important information about lesion evolution. In this paper, we present an unsupervised 3D change detection method based on Change Vector Analysis. We compute and automatically threshold the Generalized Likelihood Ratio map to obtain a binary change map. Subsequently, we perform histogram-based clustering to classify the change vectors. We obtain a Kappa Index of 0.82 using various types of simulated lesions. The classification error is 2%. Finally, we are able to detect and discriminate both small changes and ventricle expansions in datasets from Mild Cognitive Impairment patients.
+22256148	319	327	patients	Species	9606
+22256148	343	369	neurodegenerative diseases	Disease	MESH:D019636
+22256148	379	390	Alzheimer's	Disease	MESH:D000544
+22256148	419	431	deformations	Disease	MESH:D009140
+22256148	447	455	patients	Species	9606
+22256148	473	490	brain impairments	Disease	MESH:D001927
+22256148	500	508	infarcts	Disease	MESH:D007238
+22256148	510	530	white matter lesions	Disease	MESH:D056784
+22256148	535	546	hemorrhages	Disease	MESH:D006470
+22256148	1470	1495	Mild Cognitive Impairment	Disease	MESH:D060825
+22256148	1496	1504	patients	Species	9606
+

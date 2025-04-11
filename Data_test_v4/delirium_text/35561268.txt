@@ -1,0 +1,57 @@
+35561268|t|Does the SORG Orthopaedic Research Group Hip Fracture Delirium Algorithm Perform Well on an Independent Intercontinental Cohort of Patients With Hip Fractures Who Are 60 Years or Older?
+35561268|a|BACKGROUND: Postoperative delirium in patients aged 60 years or older with hip fractures adversely affects clinical and functional outcomes. The economic cost of delirium is estimated to be as high as USD 25,000 per patient, with a total budgetary impact between USD 6.6 to USD 82.4 billion annually in the United States alone. Forty percent of delirium episodes are preventable, and accurate risk stratification can decrease the incidence and improve clinical outcomes in patients. A previously developed clinical prediction model (the SORG Orthopaedic Research Group hip fracture delirium machine-learning algorithm) is highly accurate on internal validation (in 28,207 patients with hip fractures aged 60 years or older in a US cohort) in identifying at-risk patients, and it can facilitate the best use of preventive interventions; however, it has not been tested in an independent population. For an algorithm to be useful in real life, it must be valid externally, meaning that it must perform well in a patient cohort different from the cohort used to "train" it. With many promising machine-learning prediction models and many promising delirium models, only few have also been externally validated, and even fewer are international validation studies. QUESTION/PURPOSE: Does the SORG hip fracture delirium algorithm, initially trained on a database from the United States, perform well on external validation in patients aged 60 years or older in Australia and New Zealand? METHODS: We previously developed a model in 2021 for assessing risk of delirium in hip fracture patients using records of 28,207 patients obtained from the American College of Surgeons National Surgical Quality Improvement Program. Variables included in the original model included age, American Society of Anesthesiologists (ASA) class, functional status (independent or partially or totally dependent for any activities of daily living), preoperative dementia, preoperative delirium, and preoperative need for a mobility aid. To assess whether this model could be applied elsewhere, we used records from an international hip fracture registry. Between June 2017 and December 2018, 6672 patients older than 60 years of age in Australia and New Zealand were treated surgically for a femoral neck, intertrochanteric hip, or subtrochanteric hip fracture and entered into the Australian & New Zealand Hip Fracture Registry. Patients were excluded if they had a pathological hip fracture or septic shock. Of all patients, 6% (402 of 6672) did not meet the inclusion criteria, leaving 94% (6270 of 6672) of patients available for inclusion in this retrospective analysis. Seventy-one percent (4249 of 5986) of patients were aged 80 years or older, after accounting for 5% (284 of 6270) of missing values; 68% (4292 of 6266) were female, after accounting for 0.06% (4 of 6270) of missing values, and 83% (4690 of 5661) of patients were classified as ASA III/IV, after accounting for 10% (609 of 6270) of missing values. Missing data were imputed using the missForest methodology. In total, 39% (2467 of 6270) of patients developed postoperative delirium. The performance of the SORG hip fracture delirium algorithm on the validation cohort was assessed by discrimination, calibration, Brier score, and a decision curve analysis. Discrimination, known as the area under the receiver operating characteristic curves (c-statistic), measures the model's ability to distinguish patients who achieved the outcomes from those who did not and ranges from 0.5 to 1.0, with 1.0 indicating the highest discrimination score and 0.50 the lowest. Calibration plots the predicted versus the observed probabilities, a perfect plot has an intercept of 0 and a slope of 1. The Brier score calculates a composite of discrimination and calibration, with 0 indicating perfect prediction and 1 the poorest. RESULTS: The SORG hip fracture algorithm, when applied to an external patient cohort, distinguished between patients at low risk and patients at moderate to high risk of developing postoperative delirium. The SORG hip fracture algorithm performed with a c-statistic of 0.74 (95% confidence interval 0.73 to 0.76). The calibration plot showed high accuracy in the lower predicted probabilities (intercept -0.28, slope 0.52) and a Brier score of 0.22 (the null model Brier score was 0.24). The decision curve analysis showed that the model can be beneficial compared with no model or compared with characterizing all patients as at risk for developing delirium. CONCLUSION: Algorithms developed with machine learning are a potential tool for refining treatment of at-risk patients. If high-risk patients can be reliably identified, resources can be appropriately directed toward their care. Although the current iteration of SORG should not be relied on for patient care, it suggests potential utility in assessing risk. Further assessment in different populations, made easier by international collaborations and standardization of registries, would be useful in the development of universally valid prediction models. The model can be freely accessed at: https://sorg-apps.shinyapps.io/hipfxdelirium/ . LEVEL OF EVIDENCE: Level III, therapeutic study.
+35561268	41	62	Hip Fracture Delirium	Disease	MESH:D006620
+35561268	131	139	Patients	Species	9606
+35561268	145	158	Hip Fractures	Disease	MESH:D006620
+35561268	198	220	Postoperative delirium	Disease	MESH:D000071257
+35561268	224	232	patients	Species	9606
+35561268	261	274	hip fractures	Disease	MESH:D006620
+35561268	348	356	delirium	Disease	MESH:D003693
+35561268	402	409	patient	Species	9606
+35561268	531	539	delirium	Disease	MESH:D003693
+35561268	659	667	patients	Species	9606
+35561268	755	776	hip fracture delirium	Disease	MESH:D006620
+35561268	858	866	patients	Species	9606
+35561268	872	885	hip fractures	Disease	MESH:D006620
+35561268	948	956	patients	Species	9606
+35561268	1196	1203	patient	Species	9606
+35561268	1331	1339	delirium	Disease	MESH:D003693
+35561268	1479	1500	hip fracture delirium	Disease	MESH:D006620
+35561268	1607	1615	patients	Species	9606
+35561268	1740	1748	delirium	Disease	MESH:D003693
+35561268	1752	1764	hip fracture	Disease	MESH:D006620
+35561268	1765	1773	patients	Species	9606
+35561268	1798	1806	patients	Species	9606
+35561268	2122	2130	dementia	Disease	MESH:D003704
+35561268	2145	2153	delirium	Disease	MESH:D003693
+35561268	2292	2304	hip fracture	Disease	MESH:D006620
+35561268	2357	2365	patients	Species	9606
+35561268	2460	2464	neck	Disease	MESH:D006258
+35561268	2484	2487	hip	Disease	MESH:D025981
+35561268	2508	2520	hip fracture	Disease	MESH:D006620
+35561268	2567	2579	Hip Fracture	Disease	MESH:D006620
+35561268	2590	2598	Patients	Species	9606
+35561268	2640	2652	hip fracture	Disease	MESH:D006620
+35561268	2656	2668	septic shock	Disease	MESH:D012772
+35561268	2677	2685	patients	Species	9606
+35561268	2771	2779	patients	Species	9606
+35561268	2874	2882	patients	Species	9606
+35561268	3085	3093	patients	Species	9606
+35561268	3113	3123	ASA III/IV	Disease	MESH:C000719191
+35561268	3275	3283	patients	Species	9606
+35561268	3294	3316	postoperative delirium	Disease	MESH:D000071257
+35561268	3346	3367	hip fracture delirium	Disease	MESH:D006620
+35561268	3636	3644	patients	Species	9606
+35561268	4066	4078	hip fracture	Disease	MESH:D006620
+35561268	4118	4125	patient	Species	9606
+35561268	4156	4164	patients	Species	9606
+35561268	4181	4189	patients	Species	9606
+35561268	4229	4251	postoperative delirium	Disease	MESH:D000071257
+35561268	4262	4274	hip fracture	Disease	MESH:D006620
+35561268	4663	4671	patients	Species	9606
+35561268	4698	4706	delirium	Disease	MESH:D003693
+35561268	4818	4826	patients	Species	9606
+35561268	4841	4849	patients	Species	9606
+35561268	5004	5011	patient	Species	9606
+35561268	5334	5347	hipfxdelirium	Disease	
+

@@ -1,0 +1,33 @@
+37693814|t|Genetic risks of Alzheimer's by APOE and MAPT on cortical morphology in young healthy adults.
+37693814|a|Genetic risk factors such as APOE epsilon4 and MAPT (rs242557) A allele are associated with amyloid and tau pathways and grey matter changes at both early and established stages of Alzheimer's disease, but their effects on cortical morphology in young healthy adults remain unclear. A total of 144 participants aged from 18 to 24 underwent 3T MRI and genotyping for APOE and MAPT to investigate unique impacts of these genetic risk factors in a cohort without significant comorbid conditions such as metabolic and cardiovascular diseases. We segmented the cerebral cortex into 68 regions and calculated the cortical area, thickness, curvature and folding index for each region. Then, we trained machine learning models to classify APOE and MAPT genotypes using these morphological features. In addition, we applied a growing hierarchical self-organizing maps algorithm, which clustered the 68 regions into 4 subgroups representing different morphological patterns. Then, we performed general linear model analyses to estimate the interaction between APOE and MAPT on cortical patterns. We found that the classifiers using all cortical features could accurately classify individuals carrying genetic risks of dementia outperforming each individual feature alone. APOE epsilon4 carriers had a more convoluted and thinner cortex across the cerebral cortex. A similar pattern was found in MAPT A allele carriers only in the regions that are vulnerable for early tau pathology. With the clustering analysis, we found a synergetic effect between APOE epsilon4 and MAPT A allele, i.e. carriers of both risk factors showed the most deviation of cortical pattern from the typical pattern of that cluster. Genetic risk factors of dementia by APOE epsilon4 and MAPT (rs242557) A allele were associated with variations of cortical morphology, which can be observed in young healthy adults more than 30 years before Alzheimer's pathology is likely to occur and 50 years before dementia symptoms may begin.
+37693814	17	28	Alzheimer's	Disease	MESH:D000544
+37693814	32	36	APOE	Gene	348
+37693814	41	45	MAPT	Gene	4137
+37693814	141	145	MAPT	Gene	4137
+37693814	147	155	rs242557	SNP	tmVar:rs242557;VariantGroup:0;CorrespondingGene:4137;RS#:242557;CorrespondingSpecies:9606
+37693814	198	201	tau	Gene	4137
+37693814	275	294	Alzheimer's disease	Disease	MESH:D000544
+37693814	460	464	APOE	Gene	348
+37693814	469	473	MAPT	Gene	4137
+37693814	594	631	metabolic and cardiovascular diseases	Disease	MESH:D002318
+37693814	825	829	APOE	Gene	348
+37693814	834	838	MAPT	Gene	4137
+37693814	1144	1148	APOE	Gene	348
+37693814	1153	1157	MAPT	Gene	4137
+37693814	1302	1310	dementia	Disease	MESH:D003704
+37693814	1479	1483	MAPT	Gene	4137
+37693814	1552	1555	tau	Gene	4137
+37693814	1652	1656	MAPT	Gene	4137
+37693814	1814	1822	dementia	Disease	MESH:D003704
+37693814	1844	1848	MAPT	Gene	4137
+37693814	1850	1858	rs242557	SNP	tmVar:rs242557;VariantGroup:0;CorrespondingGene:4137;RS#:242557;CorrespondingSpecies:9606
+37693814	1997	2008	Alzheimer's	Disease	MESH:D000544
+37693814	2058	2066	dementia	Disease	MESH:D003704
+37693814	Association	MESH:D003704	348
+37693814	Association	MESH:D000544	4137
+37693814	Positive_Correlation	MESH:D000544	RS#:242557;CorrespondingGene:4137
+37693814	Positive_Correlation	MESH:D003704	RS#:242557;CorrespondingGene:4137
+37693814	Association	348	4137
+37693814	Association	MESH:D000544	348
+37693814	Association	MESH:D003704	4137
+

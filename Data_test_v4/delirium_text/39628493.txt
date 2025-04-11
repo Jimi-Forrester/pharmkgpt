@@ -1,0 +1,31 @@
+39628493|t|Safety assessment of disulfiram: real-world adverse event analysis based on FAERS database.
+39628493|a|Objective: Disulfiram, an FDA-approved medication for AUD, has shown significant potential as a repurposed drug in therapeutic areas including oncology and infectious diseases. The purpose of study is to analyze adverse events (AEs) associated with disulfiram by examining the FAERS database, with a focus on understanding its safety profile in both traditional and emerging applications. Methods: AE reports concerning disulfiram in the FAERS database from the fourth quarter of 2002 to the third quarter of 2023 were extracted. Various signal detection methods, including ROR, PRR, BCPNN, and MGPS, were used to detect and categorize adverse events. Results: The study collected 52,159,321 AE reports, with 508 reports primarily suspecting disulfiram, identifying 104 Preferred Terms (PTs) across 25 System Organ Classes (SOCs). Major categories of AEs included off label use, psychiatric symptom, liver transplant, and polyneuropathy, with off label use being notably the most reported issue. Strong and new potential AEs were identified, including neurological and psychiatric issues like hypomania, delirium, and vocal cord paralysis; cardiac issues such as electrocardiogram st segment depression; and off label use-related issues like Jarisch-Herxheimer reaction. Conclusion: Disulfiram poses risks of various adverse reactions while having promise as a "repurposed" agent. In clinical applications, practitioners should closely monitor occurrences of hepatobiliary disorders, psychiatric disorders, and nervous system disorders.
+39628493	21	31	disulfiram	Chemical	MESH:D004221
+39628493	103	113	Disulfiram	Chemical	MESH:D004221
+39628493	146	149	AUD	Disease	
+39628493	248	267	infectious diseases	Disease	MESH:D003141
+39628493	341	351	disulfiram	Chemical	MESH:D004221
+39628493	490	492	AE	Disease	
+39628493	512	522	disulfiram	Chemical	MESH:D004221
+39628493	784	786	AE	Disease	
+39628493	834	844	disulfiram	Chemical	MESH:D004221
+39628493	971	990	psychiatric symptom	Disease	MESH:D001523
+39628493	1014	1028	polyneuropathy	Disease	MESH:D011115
+39628493	1144	1156	neurological	Disease	MESH:D009461
+39628493	1161	1172	psychiatric	Disease	MESH:D001523
+39628493	1185	1194	hypomania	Disease	MESH:D000087122
+39628493	1196	1204	delirium	Disease	MESH:D003693
+39628493	1210	1230	vocal cord paralysis	Disease	MESH:D014826
+39628493	1232	1239	cardiac	Disease	MESH:D006331
+39628493	1284	1294	depression	Disease	MESH:D003866
+39628493	1334	1352	Jarisch-Herxheimer	Disease	
+39628493	1375	1385	Disulfiram	Chemical	MESH:D004221
+39628493	1551	1574	hepatobiliary disorders	Disease	MESH:D004066
+39628493	1576	1597	psychiatric disorders	Disease	MESH:D001523
+39628493	1603	1627	nervous system disorders	Disease	MESH:D009422
+39628493	Positive_Correlation	MESH:D004221	MESH:D001523
+39628493	Positive_Correlation	MESH:D004221	MESH:D011115
+39628493	Positive_Correlation	MESH:D004221	MESH:D004066
+39628493	Negative_Correlation	MESH:D004221	MESH:D003141
+39628493	Positive_Correlation	MESH:D004221	MESH:D009422
+

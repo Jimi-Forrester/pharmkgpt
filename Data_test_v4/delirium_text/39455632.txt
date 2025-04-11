@@ -1,0 +1,7 @@
+39455632|t|A new superfluity deep learning model for detecting knee osteoporosis and osteopenia in X-ray images.
+39455632|a|This study proposes a new deep-learning approach incorporating a superfluity mechanism to categorize knee X-ray images into osteoporosis, osteopenia, and normal classes. The superfluity mechanism suggests the use of two distinct types of blocks. The rationale is that, unlike a conventional serially stacked layer, the superfluity concept involves concatenating multiple layers, enabling features to flow into two branches rather than a single branch. Two knee datasets have been utilized for training, validating, and testing the proposed model. We use transfer learning with two pre-trained models, AlexNet and ResNet50, comparing the results with those of the proposed model. The results indicate that the performance of the pre-trained models, namely AlexNet and ResNet50, was inferior to that of the proposed Superfluity DL architecture. The Superfluity DL model demonstrated the highest accuracy (85.42% for dataset1 and 79.39% for dataset2) among all the pre-trained models.
+39455632	57	69	osteoporosis	Disease	MESH:D010024
+39455632	74	84	osteopenia	Disease	MESH:D001851
+39455632	226	238	osteoporosis	Disease	MESH:D010024
+39455632	240	250	osteopenia	Disease	MESH:D001851
+

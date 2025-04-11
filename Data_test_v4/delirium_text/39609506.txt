@@ -1,0 +1,11 @@
+39609506|t|Exploration and practice of potential association prediction between diseases and drugs based on Swanson framework and bioinformatics.
+39609506|a|Compared to traditional intermediate concepts, specific bioinformatics entities are more informative and higher directional. This study is based on the BITOLA system and combines bioinformatics methods to determine the intermediate concept which is key to improve efficiency of Literature-based Knowledge Discovery, proposes the concept of "Swanson framework + Bioinformatics", and conducts practice of Literature-based Knowledge Discovery to improve the scientificity and efficiency of research and development. Firstly, detected the disease related genes (i.e. differentially expressed genes) according to the results of gene functional analysis as intermediate concepts to carry out Literature-based Knowledge Discovery. Taking the disease "Autism Spectrum Disorder (ASD)" as an example, the potential "disease-drug" association was predicted, and the predicted drugs were verified from the perspective of bioinformatics. Two drugs potentially associated with ASD were found: Fish oil and Forskolin, which were closely related to ASD in bioinformatics analysis results and literature verification. The two "disease-drug" association results showed better scientificity. The BIOINF-ABC+ model improves the accuracy of calculations by 76% compared to using the BITOLA system alone. In addition, it also shows high accuracy and credibility in literature verification. The BIOINF-ABC+ model based on the "Swanson framework + Bioinformatics" has good practicality, applicability, and accuracy in conducting "disease-drug" association prediction in the biomedical field, and can be used for mining "disease-drug" relationships.
+39609506	879	903	Autism Spectrum Disorder	Disease	MESH:D000067877
+39609506	905	908	ASD	Disease	MESH:D000067877
+39609506	1098	1101	ASD	Disease	MESH:D000067877
+39609506	1114	1122	Fish oil	Chemical	MESH:D005395
+39609506	1127	1136	Forskolin	Chemical	MESH:D005576
+39609506	1168	1171	ASD	Disease	MESH:D000067877
+39609506	Association	MESH:D005576	MESH:D000067877
+39609506	Positive_Correlation	MESH:D005395	MESH:D000067877
+

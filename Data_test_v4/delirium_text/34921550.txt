@@ -1,0 +1,14 @@
+34921550|t|Feasibility of Machine Learning and Logistic Regression Algorithms to Predict Outcome in Orthopaedic Trauma Surgery.
+34921550|a|BACKGROUND: Statistical models using machine learning (ML) have the potential for more accurate estimates of the probability of binary events than logistic regression. The present study used existing data sets from large musculoskeletal trauma trials to address the following study questions: (1) Do ML models produce better probability estimates than logistic regression models? (2) Are ML models influenced by different variables than logistic regression models? METHODS: We created ML and logistic regression models that estimated the probability of a specific fracture (posterior malleolar involvement in distal spiral tibial shaft and ankle fractures, scaphoid fracture, and distal radial fracture) or adverse event (subsequent surgery [after distal biceps repair or tibial shaft fracture], surgical site infection, and postoperative delirium) using 9 data sets from published musculoskeletal trauma studies. Each data set was split into training (80%) and test (20%) subsets. Fivefold cross-validation of the training set was used to develop the ML models. The best-performing model was then assessed in the independent testing data. Performance was assessed by (1) discrimination (c-statistic), (2) calibration (slope and intercept), and (3) overall performance (Brier score). RESULTS: The mean c-statistic was 0.01 higher for the logistic regression models compared with the best ML models for each data set (range, -0.01 to 0.06). There were fewer variables strongly associated with variation in the ML models, and many were dissimilar from those in the logistic regression models. CONCLUSIONS: The observation that ML models produce probability estimates comparable with logistic regression models for binary events in musculoskeletal trauma suggests that their benefit may be limited in this context.
+34921550	101	107	Trauma	Disease	MESH:D014947
+34921550	338	360	musculoskeletal trauma	Disease	MESH:D009140
+34921550	681	689	fracture	Disease	MESH:D050723
+34921550	740	772	tibial shaft and ankle fractures	Disease	MESH:D064386
+34921550	774	791	scaphoid fracture	Disease	MESH:D050723
+34921550	797	819	distal radial fracture	Disease	MESH:D011885
+34921550	889	910	tibial shaft fracture	Disease	MESH:D013978
+34921550	927	936	infection	Disease	MESH:D007239
+34921550	942	964	postoperative delirium	Disease	MESH:D000071257
+34921550	999	1021	musculoskeletal trauma	Disease	MESH:D009140
+34921550	1846	1868	musculoskeletal trauma	Disease	MESH:D009140
+

@@ -1,0 +1,56 @@
+24086518|t|The non-protein amino acid BMAA is misincorporated into human proteins in place of L-serine causing protein misfolding and aggregation.
+24086518|a|Mechanisms of protein misfolding are of increasing interest in the aetiology of neurodegenerative diseases characterized by protein aggregation and tangles including Amyotrophic Lateral Sclerosis (ALS), Alzheimer's disease (AD), Parkinson's disease (PD), Lewy Body Dementia (LBD), and Progressive Supranuclear Palsy (PSP). Some forms of neurodegenerative illness are associated with mutations in genes which control assembly of disease related proteins. For example, the mouse sticky mutation sti, which results in undetected mischarging of tRNA(Ala) with serine resulting in the substitution of serine for alanine in proteins causes cerebellar Purkinje cell loss and ataxia in laboratory animals. Replacement of serine 422 with glutamic acid in tau increases the propensity of tau aggregation associated with neurodegeneration. However, the possibility that environmental factors can trigger abnormal folding in proteins remains relatively unexplored. We here report that a non-protein amino acid, beta-N-methylamino-L-alanine (BMAA), can be misincorporated in place of L-serine into human proteins. We also report that this misincorporation can be inhibited by L-serine. Misincorporation of BMAA into human neuroproteins may shed light on putative associations between human exposure to BMAA produced by cyanobacteria and an increased incidence of ALS.
+24086518	27	31	BMAA	Chemical	MESH:C001824
+24086518	56	61	human	Species	9606
+24086518	83	91	L-serine	Chemical	MESH:D012694
+24086518	216	242	neurodegenerative diseases	Disease	MESH:D019636
+24086518	302	331	Amyotrophic Lateral Sclerosis	Disease	MESH:D000690
+24086518	333	336	ALS	Disease	MESH:D000690
+24086518	339	358	Alzheimer's disease	Disease	MESH:D000544
+24086518	360	362	AD	Disease	MESH:D000544
+24086518	365	384	Parkinson's disease	Disease	MESH:D010300
+24086518	386	388	PD	Disease	MESH:D010300
+24086518	391	409	Lewy Body Dementia	Disease	MESH:D020961
+24086518	411	414	LBD	Disease	MESH:D020961
+24086518	421	451	Progressive Supranuclear Palsy	Disease	MESH:D013494
+24086518	453	456	PSP	Disease	MESH:D013494
+24086518	473	498	neurodegenerative illness	Disease	MESH:D019636
+24086518	607	612	mouse	Species	10090
+24086518	732	750	serine for alanine	ProteinMutation	tmVar:p|SUB|A||S;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+24086518	804	810	ataxia	Disease	MESH:D001259
+24086518	849	878	serine 422 with glutamic acid	ProteinMutation	tmVar:p|SUB|S|422|E;HGVS:p.S422E;VariantGroup:1;CorrespondingGene:4137;CorrespondingSpecies:9606
+24086518	882	885	tau	Gene	4137
+24086518	914	917	tau	Gene	4137
+24086518	946	963	neurodegeneration	Disease	MESH:D019636
+24086518	1135	1163	beta-N-methylamino-L-alanine	Chemical	MESH:C001824
+24086518	1165	1169	BMAA	Chemical	MESH:C001824
+24086518	1207	1215	L-serine	Chemical	MESH:D012694
+24086518	1221	1226	human	Species	9606
+24086518	1299	1307	L-serine	Chemical	MESH:D012694
+24086518	1329	1333	BMAA	Chemical	MESH:C001824
+24086518	1339	1344	human	Species	9606
+24086518	1407	1412	human	Species	9606
+24086518	1425	1429	BMAA	Chemical	MESH:C001824
+24086518	1442	1455	cyanobacteria	Species	1117
+24086518	1486	1489	ALS	Disease	MESH:D000690
+24086518	Negative_Correlation	MESH:D012694	MESH:D019636
+24086518	Association	MESH:D001259	CorrespondingGene:4137;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+24086518	Positive_Correlation	MESH:D019636	HGVS:p.S422E;CorrespondingGene:4137
+24086518	Positive_Correlation	MESH:C001824	MESH:D000690
+24086518	Negative_Correlation	MESH:D012694	MESH:D000690
+24086518	Negative_Correlation	MESH:D012694	MESH:D020961
+24086518	Negative_Correlation	MESH:D012694	MESH:D000544
+24086518	Association	MESH:D000544	4137
+24086518	Positive_Correlation	MESH:D019636	CorrespondingGene:4137;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+24086518	Association	MESH:D020961	4137
+24086518	Association	MESH:D010300	4137
+24086518	Negative_Correlation	MESH:D012694	CorrespondingGene:4137;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+24086518	Cotreatment	MESH:C001824	MESH:D012694
+24086518	Association	MESH:D000690	4137
+24086518	Negative_Correlation	MESH:D012694	MESH:D010300
+24086518	Negative_Correlation	MESH:D012694	MESH:D013494
+24086518	Association	MESH:D013494	4137
+24086518	Association	MESH:D019636	4137
+24086518	Association	MESH:D001259	4137
+24086518	Association	MESH:D019636	4137
+

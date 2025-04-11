@@ -1,0 +1,10 @@
+34329174|t|Multilevel Survival Modeling With Structured Penalties for Disease Prediction From Imaging Genetics Data.
+34329174|a|This paper introduces a framework for disease prediction from multimodal genetic and imaging data. We propose a multilevel survival model which allows predicting the time of occurrence of a future disease state in patients initially exhibiting mild symptoms. This new multilevel setting allows modeling the interactions between genetic and imaging variables. This is in contrast with classical additive models which treat all modalities in the same manner and can result in undesirable elimination of specific modalities when their contributions are unbalanced. Moreover, the use of a survival model allows overcoming the limitations of previous approaches based on classification which consider a fixed time frame. Furthermore, we introduce specific penalties taking into account the structure of the different types of data, such as a group lasso penalty over the genetic modality and a l2-penalty over the imaging modality. Finally, we propose a fast optimization algorithm, based on a proximal gradient method. The approach was applied to the prediction of Alzheimer's disease (AD) among patients with mild cognitive impairment (MCI) based on genetic (single nucleotide polymorphisms - SNP) and imaging (anatomical MRI measures) data from the ADNI database. The experiments demonstrate the effectiveness of the method for predicting the time of conversion to AD. It revealed how genetic variants and brain imaging alterations interact in the prediction of future disease status. The approach is generic and could potentially be useful for the prediction of other diseases.
+34329174	320	328	patients	Species	9606
+34329174	1167	1186	Alzheimer's disease	Disease	MESH:D000544
+34329174	1188	1190	AD	Disease	MESH:D000544
+34329174	1198	1206	patients	Species	9606
+34329174	1217	1237	cognitive impairment	Disease	MESH:D003072
+34329174	1239	1242	MCI	Disease	MESH:D060825
+34329174	1469	1471	AD	Disease	MESH:D000544
+

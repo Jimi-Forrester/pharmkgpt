@@ -1,0 +1,30 @@
+35051744|t|Automatic segmentation of white matter hyperintensities: validation and comparison with state-of-the-art methods on both Multiple Sclerosis and elderly subjects.
+35051744|a|Different types of white matter hyperintensities (WMH) can be observed through MRI in the brain and spinal cord, especially Multiple Sclerosis (MS) lesions for patients suffering from MS and age-related WMH for subjects with cognitive disorders and/or elderly people. To better diagnose and monitor the disease progression, the quantitative evaluation of WMH load has proven to be useful for clinical routine and trials. Since manual delineation for WMH segmentation is highly time-consuming and suffers from intra and inter observer variability, several methods have been proposed to automatically segment either MS lesions or age-related WMH, but none is validated on both WMH types. Here, we aim at proposing the White matter Hyperintensities Automatic Segmentation Algorithm adapted to 3D T2-FLAIR datasets (WHASA-3D), a fast and robust automatic segmentation tool designed to be implemented in clinical practice for the detection of both MS lesions and age-related WMH in the brain, using both 3D T1-weighted and T2-FLAIR images. In order to increase its robustness for MS lesions, WHASA-3D expands the original WHASA method, which relies on the coupling of non-linear diffusion framework and watershed parcellation, where regions considered as WMH are selected based on intensity and location characteristics, and finally refined with geodesic dilation. The previous validation was performed on 2D T2-FLAIR and subjects with cognitive disorders and elderly subjects. 60 subjects from a heterogeneous database of dementia patients, multiple sclerosis patients and elderly subjects with multiple MRI scanners and a wide range of lesion loads were used to evaluate WHASA and WHASA-3D through volume and spatial agreement in comparison with consensus reference segmentations. In addition, a direct comparison on the MS database with six available supervised and unsupervised state-of-the-art WMH segmentation methods (LST-LGA and LPA, Lesion-TOADS, lesionBrain, BIANCA and nicMSlesions) with default and optimised settings (when feasible) was conducted. WHASA-3D confirmed an improved performance with respect to WHASA, achieving a better spatial overlap (Dice) (0.67 vs 0.63), a reduced absolute volume error (AVE) (3.11 vs 6.2 mL) and an increased volume agreement (intraclass correlation coefficient, ICC) (0.96 vs 0.78). Compared to available state-of-the-art algorithms on the MS database, WHASA-3D outperformed both unsupervised and supervised methods when used with their default settings, showing the highest volume agreement (ICC = 0.95) as well as the highest average Dice (0.58). Optimising and/or retraining LST-LGA, BIANCA and nicMSlesions, using a subset of the MS database as training set, resulted in improved performances on the remaining testing set (average Dice: LST-LGA default/optimized = 0.41/0.51, BIANCA default/optimized = 0.22/0.39, nicMSlesions default/optimized = 0.17/0.63, WHASA-3D = 0.58). Evaluation and comparison results suggest that WHASA-3D is a reliable and easy-to-use method for the automated segmentation of white matter hyperintensities, for both MS lesions and age-related WMH. Further validation on larger datasets would be useful to confirm these first findings.
+35051744	26	55	white matter hyperintensities	Disease	MESH:D056784
+35051744	121	139	Multiple Sclerosis	Disease	MESH:D009103
+35051744	181	210	white matter hyperintensities	Disease	MESH:D056784
+35051744	212	215	WMH	Disease	MESH:D056784
+35051744	286	317	Multiple Sclerosis (MS) lesions	Disease	MESH:D009103
+35051744	322	330	patients	Species	9606
+35051744	365	368	WMH	Disease	MESH:D056784
+35051744	387	406	cognitive disorders	Disease	MESH:D003072
+35051744	517	520	WMH	Disease	MESH:D056784
+35051744	612	615	WMH	Disease	MESH:D056784
+35051744	776	786	MS lesions	Disease	MESH:D009103
+35051744	802	805	WMH	Disease	MESH:D056784
+35051744	837	840	WMH	Disease	MESH:D056784
+35051744	878	907	White matter Hyperintensities	Disease	MESH:D056784
+35051744	1105	1115	MS lesions	Disease	MESH:D009103
+35051744	1132	1135	WMH	Disease	MESH:D056784
+35051744	1237	1247	MS lesions	Disease	MESH:D009103
+35051744	1412	1415	WMH	Disease	MESH:D056784
+35051744	1593	1612	cognitive disorders	Disease	MESH:D003072
+35051744	1680	1688	dementia	Disease	MESH:D003704
+35051744	1689	1697	patients	Species	9606
+35051744	1699	1717	multiple sclerosis	Disease	MESH:D009103
+35051744	1718	1726	patients	Species	9606
+35051744	2056	2059	WMH	Disease	MESH:D056784
+35051744	3213	3242	white matter hyperintensities	Disease	MESH:D056784
+35051744	3253	3263	MS lesions	Disease	MESH:D009103
+35051744	3280	3283	WMH	Disease	MESH:D056784
+

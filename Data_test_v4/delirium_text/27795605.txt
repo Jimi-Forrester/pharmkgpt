@@ -1,0 +1,21 @@
+27795605|t|Example Based Lesion Segmentation.
+27795605|a|Automatic and accurate detection of white matter lesions is a significant step toward understanding the progression of many diseases, like Alzheimer's disease or multiple sclerosis. Multi-modal MR images are often used to segment T2 white matter lesions that can represent regions of demyelination or ischemia. Some automated lesion segmentation methods describe the lesion intensities using generative models, and then classify the lesions with some combination of heuristics and cost minimization. In contrast, we propose a patch-based method, in which lesions are found using examples from an atlas containing multi-modal MR images and corresponding manual delineations of lesions. Patches from subject MR images are matched to patches from the atlas and lesion memberships are found based on patch similarity weights. We experiment on 43 subjects with MS, whose scans show various levels of lesion-load. We demonstrate significant improvement in Dice coefficient and total lesion volume compared to a state of the art model-based lesion segmentation method, indicating more accurate delineation of lesions.
+27795605	14	20	Lesion	Disease	MESH:D009059
+27795605	71	91	white matter lesions	Disease	MESH:D056784
+27795605	174	193	Alzheimer's disease	Disease	MESH:D000544
+27795605	197	215	multiple sclerosis	Disease	MESH:D009103
+27795605	268	288	white matter lesions	Disease	MESH:D056784
+27795605	319	332	demyelination	Disease	MESH:D003711
+27795605	336	344	ischemia	Disease	MESH:D007511
+27795605	361	367	lesion	Disease	MESH:D009059
+27795605	402	408	lesion	Disease	MESH:D009059
+27795605	468	475	lesions	Disease	MESH:D009059
+27795605	590	597	lesions	Disease	MESH:D009059
+27795605	711	718	lesions	Disease	MESH:D009059
+27795605	793	799	lesion	Disease	MESH:D009059
+27795605	891	893	MS	Disease	MESH:D009103
+27795605	930	936	lesion	Disease	MESH:D009059
+27795605	1012	1018	lesion	Disease	MESH:D009059
+27795605	1069	1075	lesion	Disease	MESH:D009059
+27795605	1137	1144	lesions	Disease	MESH:D009059
+

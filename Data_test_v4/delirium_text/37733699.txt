@@ -1,0 +1,15 @@
+37733699|t|Prediction of respiratory failure risk in patients with pneumonia in the ICU using ensemble learning models.
+37733699|a|The aim of this study was to develop early prediction models for respiratory failure risk in patients with severe pneumonia using four ensemble learning algorithms: LightGBM, XGBoost, CatBoost, and random forest, and to compare the predictive performance of each model. In this study, we used the eICU Collaborative Research Database (eICU-CRD) for sample extraction, built a respiratory failure risk prediction model for patients with severe pneumonia based on four ensemble learning algorithms, and developed compact models corresponding to the four complete models to improve clinical practicality. The average area under receiver operating curve (AUROC) of the models on the test sets after ten random divisions of the dataset and the average accuracy at the best threshold were used as the evaluation metrics of the model performance. Finally, feature importance and Shapley additive explanation values were introduced to improve the interpretability of the model. A total of 1676 patients with pneumonia were analyzed in this study, of whom 297 developed respiratory failure one hour after admission to the intensive care unit (ICU). Both complete and compact CatBoost models had the highest average AUROC (0.858 and 0.857, respectively). The average accuracies at the best threshold were 75.19% and 77.33%, respectively. According to the feature importance bars and summary plot of the predictor variables, activetx (indicates whether the patient received active treatment), standard deviation of prothrombin time-international normalized ratio, Glasgow Coma Scale verbal score, age, and minimum oxygen saturation and respiratory rate were important. Compared with other ensemble learning models, the complete and compact CatBoost models have significantly higher average area under the curve values on the 10 randomly divided test sets. Additionally, the standard deviation (SD) of the compact CatBoost model is relatively small (SD:0.050), indicating that the performance of the compact CatBoost model is stable among these four ensemble learning models. The machine learning predictive models built in this study will help in early prediction and intervention of respiratory failure risk in patients with pneumonia in the ICU.
+37733699	14	33	respiratory failure	Disease	MESH:D012131
+37733699	56	65	pneumonia	Disease	MESH:D011014
+37733699	174	193	respiratory failure	Disease	MESH:D012131
+37733699	223	232	pneumonia	Disease	MESH:D011014
+37733699	485	504	respiratory failure	Disease	MESH:D012131
+37733699	552	561	pneumonia	Disease	MESH:D011014
+37733699	1109	1118	pneumonia	Disease	MESH:D011014
+37733699	1170	1189	respiratory failure	Disease	MESH:D012131
+37733699	1670	1674	Coma	Disease	MESH:D003128
+37733699	1712	1718	oxygen	Chemical	MESH:D010100
+37733699	2282	2301	respiratory failure	Disease	MESH:D012131
+37733699	2324	2333	pneumonia	Disease	MESH:D011014
+

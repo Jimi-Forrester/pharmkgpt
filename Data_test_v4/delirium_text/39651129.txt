@@ -1,0 +1,20 @@
+39651129|t|CNV-Profile Regression: A New Approach for Copy Number Variant Association Analysis in Whole Genome Sequencing Data.
+39651129|a|Copy number variants (CNVs) are DNA gains or losses involving >50 base pairs. Assessing CNV effects on disease risk requires consideration of several factors. First, there are no natural definitions for CNV loci. Second, CNV effects can depend on dosage and length. Third, CNV effects can be more accurately estimated when all CNV events in a genomic region are analyzed together to assess their joint effects. We propose a new framework for association analysis that directly models an individual's entire CNV profile within a genomic region. This framework represents an individual's CNVs using a CNV profile curve to capture variations in CNV length and dosage and to bypass the need to predefine CNV loci. CNV effects are estimated at each genome position, making the results comparable across different studies. To jointly estimate the effects of all CNVs, we use a Lasso penalty to select CNVs associated with the trait and integrate a weighted L2-fusion penalty to encourage similar effects of adjacent CNVs when supported by the data. Simulations show that the proposed model can more effectively identify causal CNVs while maintaining false positive rates comparable to baseline methods and yield more precise effect-size estimates across different settings. When applied to CNV derived from whole genome sequencing data of the Alzheimer's Disease Sequencing Project, the proposed methods identify additional CNVs associated with Alzheimer's Disease (AD). These identified CNVs overlap with several known AD-risk genes and are significantly enriched by biological processes related to neuron structures and functions crucial in AD development.
+39651129	0	3	CNV	Disease	MESH:D000092342
+39651129	205	208	CNV	Disease	MESH:D000092342
+39651129	320	323	CNV	Disease	MESH:D000092342
+39651129	338	341	CNV	Disease	MESH:D000092342
+39651129	390	393	CNV	Disease	MESH:D000092342
+39651129	444	447	CNV	Disease	MESH:D000092342
+39651129	624	627	CNV	Disease	MESH:D000092342
+39651129	716	719	CNV	Disease	MESH:D000092342
+39651129	759	762	CNV	Disease	MESH:D000092342
+39651129	817	820	CNV	Disease	MESH:D000092342
+39651129	827	830	CNV	Disease	MESH:D000092342
+39651129	1401	1404	CNV	Disease	MESH:D000092342
+39651129	1454	1473	Alzheimer's Disease	Disease	MESH:D000544
+39651129	1556	1575	Alzheimer's Disease	Disease	MESH:D000544
+39651129	1577	1579	AD	Disease	MESH:D000544
+39651129	1631	1633	AD	Disease	MESH:D000544
+39651129	1754	1756	AD	Disease	MESH:D000544
+

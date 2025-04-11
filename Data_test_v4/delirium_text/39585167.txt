@@ -1,0 +1,46 @@
+39585167|t|Discovering Severe Adverse Reactions From Pharmacokinetic Drug-Drug Interactions Through Literature Analysis and Electronic Health Record Verification.
+39585167|a|While drug-drug interactions (DDIs) and their pharmacokinetic (PK) mechanisms are well-studied prior to drug approval, severe adverse drug reactions (SADRs) caused by DDIs often remain underrecognized due to limitations in pre-marketing clinical trials. To address this gap, our study utilized a literature database, applied natural language processing (NLP) techniques, and conducted multi-source electronic health record (EHR) validation to uncover underrecognized DDI-SADR signals that warrant further investigation. PubMed abstracts related to DDIs from January 1962 to December 2023 were retrieved. We utilized PubTator Central for Named Entity Recognition (NER) to identify drugs and SADRs and employed SciFive for Relation Extraction (RE) to extract DDI-SADR signals. The extracted signals were cross-referenced with the DrugBank database and validated using logistic regression, considering risk factors including patient demographics, drug usage, and comorbidities, based on EHRs from Vanderbilt University Medical Center (VUMC) and the All of Us research program. From 160,321 abstracts, we identified 111 DDI-SADR signals. Seventeen were statistically significant (13 by one EHR and 4 by both EHR databases), with 9 being previously not recorded in the DrugBank. These included methadone-ciprofloxacin-respiratory depression, oxycodone-fluvoxamine-clonus, tramadol-fluconazole-hallucination, simvastatin-fluconazole-rhabdomyolysis, ibrutinib-amiodarone-atrial fibrillation, fentanyl-diltiazem-delirium, clarithromycin-voriconazole-acute kidney injury, colchicine-cyclosporine-rhabdomyolysis, and methadone-voriconazole-arrhythmia (odds ratios (ORs) ranged from 1.9 to 35.83, with P-values ranging from < 0.001 to 0.017). Utilizing NLP to extract DDI-SADRs from Biomedical Literature and validating these findings through multiple-source EHRs represents a pioneering approach in pharmacovigilance. This method uncovers clinically relevant SADRs resulting from DDIs that were not evident in pre-marketing trials or the existing DDI knowledge base.
+39585167	162	167	-drug	Disease	MESH:D000081015
+39585167	278	300	adverse drug reactions	Disease	MESH:D064420
+39585167	302	307	SADRs	Disease	MESH:D045169
+39585167	619	622	DDI	Disease	
+39585167	623	627	SADR	Disease	
+39585167	842	847	SADRs	Disease	MESH:D045169
+39585167	909	912	DDI	Disease	
+39585167	913	917	SADR	Disease	
+39585167	1074	1081	patient	Species	9606
+39585167	1268	1271	DDI	Disease	
+39585167	1272	1276	SADR	Disease	
+39585167	1441	1450	methadone	Chemical	MESH:D008691
+39585167	1451	1464	ciprofloxacin	Chemical	MESH:D002939
+39585167	1465	1487	respiratory depression	Disease	MESH:D012131
+39585167	1489	1498	oxycodone	Chemical	MESH:D010098
+39585167	1499	1510	fluvoxamine	Chemical	MESH:D016666
+39585167	1511	1517	clonus	Disease	
+39585167	1519	1527	tramadol	Chemical	MESH:D014147
+39585167	1528	1539	fluconazole	Chemical	MESH:D015725
+39585167	1540	1553	hallucination	Disease	MESH:D006212
+39585167	1555	1566	simvastatin	Chemical	MESH:D019821
+39585167	1567	1578	fluconazole	Chemical	MESH:D015725
+39585167	1579	1593	rhabdomyolysis	Disease	MESH:D012206
+39585167	1595	1604	ibrutinib	Chemical	MESH:C551803
+39585167	1605	1615	amiodarone	Chemical	MESH:D000638
+39585167	1616	1635	atrial fibrillation	Disease	MESH:D001281
+39585167	1637	1645	fentanyl	Chemical	MESH:D005283
+39585167	1646	1655	diltiazem	Chemical	MESH:D004110
+39585167	1656	1664	delirium	Disease	MESH:D003693
+39585167	1666	1680	clarithromycin	Chemical	MESH:D017291
+39585167	1681	1693	voriconazole	Chemical	MESH:D065819
+39585167	1694	1713	acute kidney injury	Disease	MESH:D058186
+39585167	1715	1725	colchicine	Chemical	MESH:D003078
+39585167	1726	1738	cyclosporine	Chemical	MESH:D016572
+39585167	1739	1753	rhabdomyolysis	Disease	MESH:D012206
+39585167	1759	1768	methadone	Chemical	MESH:D008691
+39585167	1769	1781	voriconazole	Chemical	MESH:D065819
+39585167	1782	1792	arrhythmia	Disease	MESH:D001145
+39585167	1909	1912	DDI	Disease	
+39585167	1913	1918	SADRs	Disease	MESH:D045169
+39585167	2101	2106	SADRs	Disease	MESH:D045169
+39585167	2189	2192	DDI	Disease	
+39585167	Positive_Correlation	MESH:D065819	MESH:D001145
+

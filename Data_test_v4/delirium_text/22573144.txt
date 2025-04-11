@@ -1,0 +1,24 @@
+22573144|t|Monte Carlo feature selection and rule-based models to predict Alzheimer's disease in mild cognitive impairment.
+22573144|a|The objective of the present study was to evaluate a Monte Carlo feature selection (MCFS) and rough set Rosetta pipeline for generating rule-based models as a tool for comprehensive risk estimates for future Alzheimer's disease (AD) in individual patients with mild cognitive impairment (MCI). Risk estimates were generated on the basis of age, gender, Mini-Mental State Examination scores, apolipoprotein E (APOE) genotype and the cerebrospinal fluid (CSF) biomarkers total tau (T-tau), phospho-tau(181) (P-tau) and the 42 amino acid form of amyloid beta (Abeta42) in two sets of longitudinally followed MCI patients (n = 217 in total). The predictive model was created in Rosetta, evaluated with the standard tenfold cross-validation approach and tested on an external set. Features were ranked and selected by the MCFS algorithm. Using the combined pipeline of MCFS and Rosetta, it was possible to predict AD among patients with MCI with an area under the receiver operating characteristics curve of 0.92. Risk estimates were produced for the individual patients and showed good correlation with actual diagnosis in cross validation, and on an external dataset from a new study. Analysis of the importance of attributes showed that the biochemical CSF markers contributed the most to the predictions, and that added value was gained by combining several biochemical markers. Despite a correlation with the biochemical markers, the genetic marker APOE epsilon4 did not contribute to the predictive power of the model.
+22573144	63	82	Alzheimer's disease	Disease	MESH:D000544
+22573144	91	111	cognitive impairment	Disease	MESH:D003072
+22573144	321	340	Alzheimer's disease	Disease	MESH:D000544
+22573144	342	344	AD	Disease	MESH:D000544
+22573144	360	368	patients	Species	9606
+22573144	379	399	cognitive impairment	Disease	MESH:D003072
+22573144	401	404	MCI	Disease	MESH:D060825
+22573144	504	520	apolipoprotein E	Gene	348
+22573144	522	526	APOE	Gene	348
+22573144	588	591	tau	Gene	4137
+22573144	595	598	tau	Gene	4137
+22573144	608	612	-tau	Gene	4137
+22573144	621	624	tau	Gene	4137
+22573144	648	668	form of amyloid beta	Chemical	-
+22573144	670	677	Abeta42	Gene	351
+22573144	718	721	MCI	Disease	MESH:D060825
+22573144	722	730	patients	Species	9606
+22573144	1022	1024	AD	Disease	MESH:D000544
+22573144	1031	1039	patients	Species	9606
+22573144	1045	1048	MCI	Disease	MESH:D060825
+22573144	1170	1178	patients	Species	9606
+

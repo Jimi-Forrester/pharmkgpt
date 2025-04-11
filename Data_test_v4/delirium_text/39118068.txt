@@ -1,0 +1,60 @@
+39118068|t|IL-1beta-activated PI3K/AKT and MEK/ERK pathways coordinately promote induction of partial epithelial-mesenchymal transition.
+39118068|a|Epithelial-mesenchymal transition (EMT) is a cellular process in embryonic development, wound healing, organ fibrosis, and cancer metastasis. Previously, we and others have reported that proinflammatory cytokine interleukin-1beta (IL-1beta) induces EMT. However, the exact mechanisms, especially the signal transduction pathways, underlying IL-1beta-mediated EMT are not yet completely understood. Here, we found that IL-1beta stimulation leads to the partial EMT-like phenotype in human lung epithelial A549 cells, including the gain of mesenchymal marker (vimentin) and high migratory potential, without the complete loss of epithelial marker (E-cadherin). IL-1beta-mediated partial EMT induction was repressed by PI3K inhibitor LY294002, indicating that the PI3K/AKT pathway plays a significant role in the induction. In addition, ERK1/2 inhibitor FR180204 markedly inhibited the IL-1beta-mediated partial EMT induction, demonstrating that the MEK/ERK pathway was also involved in the induction. Furthermore, we found that the activation of the PI3K/AKT and MEK/ERK pathways occurred downstream of the epidermal growth factor receptor (EGFR) pathway and the IL-1 receptor (IL-1R) pathway, respectively. Our findings suggest that the PI3K/AKT and MEK/ERK pathways coordinately promote the IL-1beta-mediated partial EMT induction. The inhibition of not one but both pathways is expected yield clinical benefits by preventing partial EMT-related disorders such as organ fibrosis and cancer metastasis.
+39118068	0	8	IL-1beta	Gene	3553
+39118068	19	23	PI3K	Gene	5293
+39118068	24	27	AKT	Gene	207
+39118068	32	35	MEK	Gene	5609
+39118068	36	39	ERK	Gene	5594
+39118068	235	243	fibrosis	Disease	MESH:D005355
+39118068	249	266	cancer metastasis	Disease	MESH:D009369
+39118068	338	355	interleukin-1beta	Gene	3553
+39118068	357	365	IL-1beta	Gene	3553
+39118068	467	475	IL-1beta	Gene	3553
+39118068	544	552	IL-1beta	Gene	3553
+39118068	608	613	human	Species	9606
+39118068	630	634	A549	CellLine	CVCL:0023
+39118068	684	692	vimentin	Gene	7431
+39118068	772	782	E-cadherin	Gene	999
+39118068	785	793	IL-1beta	Gene	3553
+39118068	842	846	PI3K	Gene	5293
+39118068	857	865	LY294002	Chemical	MESH:C085911
+39118068	887	891	PI3K	Gene	5293
+39118068	892	895	AKT	Gene	207
+39118068	977	985	FR180204	Chemical	MESH:C505241
+39118068	1009	1017	IL-1beta	Gene	3553
+39118068	1073	1076	MEK	Gene	5609
+39118068	1077	1080	ERK	Gene	5594
+39118068	1174	1178	PI3K	Gene	5293
+39118068	1179	1182	AKT	Gene	207
+39118068	1187	1190	MEK	Gene	5609
+39118068	1191	1194	ERK	Gene	5594
+39118068	1231	1263	epidermal growth factor receptor	Gene	1956
+39118068	1265	1269	EGFR	Gene	1956
+39118068	1287	1300	IL-1 receptor	Gene	3554
+39118068	1302	1307	IL-1R	Gene	3554
+39118068	1362	1366	PI3K	Gene	5293
+39118068	1367	1370	AKT	Gene	207
+39118068	1375	1378	MEK	Gene	5609
+39118068	1379	1382	ERK	Gene	5594
+39118068	1417	1425	IL-1beta	Gene	3553
+39118068	1596	1604	fibrosis	Disease	MESH:D005355
+39118068	1609	1626	cancer metastasis	Disease	MESH:D009369
+39118068	Negative_Correlation	MESH:C085911	5293
+39118068	Association	207	3553
+39118068	Negative_Correlation	MESH:C085911	3553
+39118068	Negative_Correlation	MESH:C505241	3553
+39118068	Association	3554	5609
+39118068	Association	1956	5594
+39118068	Positive_Correlation	3553	5293
+39118068	Association	3553	5609
+39118068	Association	1956	5609
+39118068	Association	1956	207
+39118068	Association	207	3554
+39118068	Association	1956	5293
+39118068	Positive_Correlation	3553	7431
+39118068	Association	3554	5594
+39118068	Association	5594	5609
+39118068	Association	207	5293
+39118068	Association	3553	5594
+39118068	Association	3554	5293
+

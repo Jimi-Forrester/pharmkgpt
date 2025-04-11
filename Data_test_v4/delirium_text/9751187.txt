@@ -1,0 +1,31 @@
+9751187|t|Presenilin 1 mutations linked to familial Alzheimer's disease increase the intracellular levels of amyloid beta-protein 1-42 and its N-terminally truncated variant(s) which are generated at distinct sites.
+9751187|a|Mutations in the presenilin genes PS1 and PS2 cause the most common form of early-onset familial Alzheimer's disease. The influence of PS1 mutations on the generation of endogenous intracellular amyloid beta-protein (A beta) species was assessed using a highly sensitive immunoblotting technique with inducible mouse neuroblastoma (Neuro 2a) cell lines expressing the human wild-type (wt) or mutated PS1 (M146L or delta exon 10). The induction of mutated PS1 increased the intracellular levels of two distinct A beta species ending at residue 42 that were likely to be A beta1-42 and its N-terminally truncated variant(s) A beta x-42. The induction of mutated PS1 resulted in a higher level of intracellular A beta1-42 than of intracellular A beta x-42, whereas extracellular levels of A beta1-42 and A beta x-42 were increased proportionally. In addition, the intracellular generation of these A beta42 species in wt and mutated PS1-induced cells was completely blocked by brefeldin A, whereas it exhibited differential sensitivities to monensin: the increased accumulation of intracellular A beta x-42 versus inhibition of intracellular A beta1-42 generation. These data strongly suggest that A beta x-42 is generated in a proximal Golgi, whereas A beta1-42 is generated in a distal Golgi and/or a post-Golgi compartment. Thus, it appears that PS1 mutations enhance the degree of 42-specific gamma-secretase cleavage that occurs in the normal beta-amyloid precursor protein processing pathway (a) in the endoplasmic reticulum or the early Golgi apparatus prior to beta-secretase cleavage or (b) in the distinct sites where A beta x-42 and A beta1-42 are generated.
+9751187	0	12	Presenilin 1	Gene	5663
+9751187	42	61	Alzheimer's disease	Disease	MESH:D000544
+9751187	240	243	PS1	Gene	5663
+9751187	248	251	PS2	Gene	5664
+9751187	303	322	Alzheimer's disease	Disease	MESH:D000544
+9751187	341	344	PS1	Gene	5663
+9751187	423	429	A beta	Gene	351
+9751187	517	522	mouse	Species	10090
+9751187	523	536	neuroblastoma	Disease	MESH:D009447
+9751187	538	546	Neuro 2a	CellLine	CVCL:0470
+9751187	574	579	human	Species	9606
+9751187	606	609	PS1	Gene	5663
+9751187	611	616	M146L	ProteinMutation	tmVar:p|SUB|M|146|L;HGVS:p.M146L;VariantGroup:0;CorrespondingGene:5663;RS#:63750306;CorrespondingSpecies:9606;CA#:225022
+9751187	661	664	PS1	Gene	5663
+9751187	716	722	A beta	Gene	351
+9751187	866	869	PS1	Gene	5663
+9751187	1101	1109	A beta42	Gene	351
+9751187	1136	1139	PS1	Gene	5663
+9751187	1180	1191	brefeldin A	Chemical	MESH:D020126
+9751187	1244	1252	monensin	Chemical	MESH:D008985
+9751187	1552	1555	PS1	Gene	5663
+9751187	1651	1681	beta-amyloid precursor protein	Gene	351
+9751187	Association	MESH:D008985	5663
+9751187	Association	MESH:D000544	5663
+9751187	Negative_Correlation	MESH:D020126	351
+9751187	Association	MESH:D020126	5663
+9751187	Association	MESH:D000544	5664
+9751187	Positive_Correlation	351	5663
+

@@ -1,0 +1,17 @@
+37269680|t|Multi-modal cross-attention network for Alzheimer's disease diagnosis with multi-modality data.
+37269680|a|Alzheimer's disease (AD) is a neurodegenerative disorder, the most common cause of dementia, so the accurate diagnosis of AD and its prodromal stage mild cognitive impairment (MCI) is significant. Recent studies have demonstrated that multiple neuroimaging and biological measures contain complementary information for diagnosis. Many existing multi-modal models based on deep learning simply concatenate each modality's features despite substantial differences in representation spaces. In this paper, we propose a novel multi-modal cross-attention AD diagnosis (MCAD) framework to learn the interaction between modalities for better playing their complementary roles for AD diagnosis with multi-modal data including structural magnetic resonance imaging (sMRI), fluorodeoxyglucose-positron emission tomography (FDG-PET) and cerebrospinal fluid (CSF) biomarkers. Specifically, the imaging and non-imaging representations are learned by the image encoder based on cascaded dilated convolutions and CSF encoder, respectively. Then, a multi-modal interaction module is introduced, which takes advantage of cross-modal attention to integrate imaging and non-imaging information and reinforce relationships between these modalities. Moreover, an extensive objective function is designed to reduce the discrepancy between modalities for effectively fusing the features of multi-modal data, which could further improve the diagnosis performance. We evaluate the effectiveness of our proposed method on the ADNI dataset, and the extensive experiments demonstrate that our MCAD achieves superior performance for multiple AD-related classification tasks, compared to several competing methods. Also, we investigate the importance of cross-attention and the contribution of each modality to the diagnostics performance. The experimental results demonstrate that combining multi-modality data via cross-attention is helpful for accurate AD diagnosis.
+37269680	40	59	Alzheimer's disease	Disease	MESH:D000544
+37269680	96	115	Alzheimer's disease	Disease	MESH:D000544
+37269680	117	119	AD	Disease	MESH:D000544
+37269680	126	152	neurodegenerative disorder	Disease	MESH:D019636
+37269680	179	187	dementia	Disease	MESH:D003704
+37269680	218	220	AD	Disease	MESH:D000544
+37269680	250	270	cognitive impairment	Disease	MESH:D003072
+37269680	272	275	MCI	Disease	MESH:D060825
+37269680	646	648	AD	Disease	MESH:D000544
+37269680	769	771	AD	Disease	MESH:D000544
+37269680	860	878	fluorodeoxyglucose	Chemical	MESH:D019788
+37269680	909	912	FDG	Chemical	MESH:D019788
+37269680	1709	1711	AD	Disease	MESH:D000544
+37269680	2022	2024	AD	Disease	MESH:D000544
+

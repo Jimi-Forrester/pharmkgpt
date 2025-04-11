@@ -1,0 +1,45 @@
+34655901|t|Interactome of human and SARS-CoV-2 proteins to identify human hub proteins associated with comorbidities.
+34655901|a|SARS-CoV-2 has a higher chance of progression in adults of any age with certain underlying health conditions or comorbidities like cancer, neurological diseases and in certain cases may even lead to death. Like other viruses, SARS-CoV-2 also interacts with host proteins to pave its entry into host cells. Therefore, to understand the behaviour of SARS-CoV-2 and design of effective antiviral drugs, host-virus protein-protein interactions (PPIs) can be very useful. In this regard, we have initially created a human-SARS-CoV-2 PPI database from existing works in the literature which has resulted in 7085 unique PPIs. Subsequently, we have identified at most 10 proteins with highest degrees viz. hub proteins from interacting human proteins for individual virus protein. The identification of these hub proteins is important as they are connected to most of the other human proteins. Consequently, when they get affected, the potential diseases are triggered in the corresponding pathways, thereby leading to comorbidities. Furthermore, the biological significance of the identified hub proteins is shown using KEGG pathway and GO enrichment analysis. KEGG pathway analysis is also essential for identifying the pathways leading to comorbidities. Among others, SARS-CoV-2 proteins viz. NSP2, NSP5, Envelope and ORF10 interacting with human hub proteins like COX4I1, COX5A, COX5B, NDUFS1, CANX, HSP90AA1 and TP53 lead to comorbidities. Such comorbidities are Alzheimer, Parkinson, Huntington, HTLV-1 infection, prostate cancer and viral carcinogenesis. Subsequently, using Enrichr tool possible repurposable drugs which target the human hub proteins are reported in this paper as well. Therefore, this work provides a consolidated study for human-SARS-CoV-2 protein interactions to understand the relationship between comorbidity and hub proteins so that it may pave the way for the development of anti-viral drugs.
+34655901	15	20	human	Species	9606
+34655901	25	35	SARS-CoV-2	Species	2697049
+34655901	57	62	human	Species	9606
+34655901	107	117	SARS-CoV-2	Species	2697049
+34655901	238	244	cancer	Disease	MESH:D009369
+34655901	246	267	neurological diseases	Disease	MESH:D020271
+34655901	306	311	death	Disease	MESH:D003643
+34655901	333	343	SARS-CoV-2	Species	2697049
+34655901	455	465	SARS-CoV-2	Species	2697049
+34655901	618	623	human	Species	9606
+34655901	624	634	SARS-CoV-2	Species	2697049
+34655901	835	840	human	Species	9606
+34655901	977	982	human	Species	9606
+34655901	1370	1380	SARS-CoV-2	Species	2697049
+34655901	1401	1405	NSP5	Gene	92521
+34655901	1443	1448	human	Species	9606
+34655901	1467	1473	COX4I1	Gene	1327
+34655901	1475	1480	COX5A	Gene	9377
+34655901	1482	1487	COX5B	Gene	1329
+34655901	1489	1495	NDUFS1	Gene	4719
+34655901	1497	1501	CANX	Gene	821
+34655901	1503	1511	HSP90AA1	Gene	3320
+34655901	1516	1520	TP53	Gene	7157
+34655901	1567	1576	Alzheimer	Disease	MESH:D000544
+34655901	1578	1587	Parkinson	Disease	MESH:D010302
+34655901	1589	1599	Huntington	Disease	MESH:D006816
+34655901	1601	1617	HTLV-1 infection	Disease	MESH:D006800
+34655901	1619	1634	prostate cancer	Disease	MESH:D011471
+34655901	1645	1659	carcinogenesis	Disease	MESH:D063646
+34655901	1739	1744	human	Species	9606
+34655901	1849	1854	human	Species	9606
+34655901	1855	1865	SARS-CoV-2	Species	2697049
+34655901	1926	1937	comorbidity	Disease	MESH:D004194
+34655901	Association	4719	92521
+34655901	Association	92521	9377
+34655901	Association	821	92521
+34655901	Association	7157	92521
+34655901	Association	3320	92521
+34655901	Association	1329	92521
+34655901	Association	1327	92521
+34655901	Association	MESH:D010302	3320
+34655901	Association	MESH:D000544	3320
+

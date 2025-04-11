@@ -1,0 +1,13 @@
+33613269|t|Acoustic and Language Based Deep Learning Approaches for Alzheimer's Dementia Detection From Spontaneous Speech.
+33613269|a|Current methods for early diagnosis of Alzheimer's Dementia include structured questionnaires, structured interviews, and various cognitive tests. Language difficulties are a major problem in dementia as linguistic skills break down. Current methods do not provide robust tools to capture the true nature of language deficits in spontaneous speech. Early detection of Alzheimer's Dementia (AD) from spontaneous speech overcomes the limitations of earlier approaches as it is less time consuming, can be done at home, and is relatively inexpensive. In this work, we re-implement the existing NLP methods, which used CNN-LSTM architectures and targeted features from conversational transcripts. Our work sheds light on why the accuracy of these models drops to 72.92% on the ADReSS dataset, whereas, they gave state of the art results on the DementiaBank dataset. Further, we build upon these language input-based recurrent neural networks by devising an end-to-end deep learning-based solution that performs a binary classification of Alzheimer's Dementia from the spontaneous speech of the patients. We utilize the ADReSS dataset for all our implementations and explore the deep learning-based methods of combining acoustic features into a common vector using recurrent units. Our approach of combining acoustic features using the Speech-GRU improves the accuracy by 2% in comparison to acoustic baselines. When further enriched by targeted features, the Speech-GRU performs better than acoustic baselines by 6.25%. We propose a bi-modal approach for AD classification and discuss the merits and opportunities of our approach.
+33613269	57	77	Alzheimer's Dementia	Disease	MESH:D000544
+33613269	152	172	Alzheimer's Dementia	Disease	MESH:D000544
+33613269	260	281	Language difficulties	Disease	MESH:D007806
+33613269	305	313	dementia	Disease	MESH:D003704
+33613269	421	438	language deficits	Disease	MESH:D007806
+33613269	481	501	Alzheimer's Dementia	Disease	MESH:D000544
+33613269	503	505	AD	Disease	MESH:D000544
+33613269	1147	1167	Alzheimer's Dementia	Disease	MESH:D000544
+33613269	1203	1211	patients	Species	9606
+33613269	1664	1666	AD	Disease	MESH:D000544
+

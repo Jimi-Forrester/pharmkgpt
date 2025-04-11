@@ -1,0 +1,20 @@
+37486493|t|Application of Machine Learning Techniques in the HELIAD Study Data for the Development of Diagnostic Models in MCI and Dementia.
+37486493|a|The increase in the population's life expectancy leads to an increase in the incidence of dementia and, therefore, in diseases such as Alzheimer's. Towards this direction, the HELIAD1 study is the first large-scale epidemiological study aimed at assessing epidemiological data on dementia, mild mental decline, and other neuropsychiatric disorders associated with old age. This is a huge study with several computational challenges, most of which can be addressed by machine learning processes. The objectives of this study were to detect patterns in the HELIAD clinical data that classify with high accuracy various levels of cognitive impairment by training ML algorithms and hence apply derived model on future clinical data to predict with the same accuracy the class variable. We propose a machine learning method based on RUSBoost classifier to identify a critical subset of biomarkers that classify accurately between neurological patients with mild cognitive impairment (MCI) or dementia of the Alzheimer's type (DAT) and the cognitively healthy control (CHC) group. In this study we used a highly skewed (imbalanced) dataset with most observations (majority class) belonging to the CHC group. The method proposed predicts accurately the clinical diagnosis label and effectively classifies the neurological patients from the CHC class. In particular, the classification accuracy (actual vs predicted) for the three classes of the clinical diagnosis was 97%, 78%, and 91% for control, MCI, and dementia class, respectively.
+37486493	50	56	HELIAD	Disease	
+37486493	112	115	MCI	Disease	MESH:D060825
+37486493	120	128	Dementia	Disease	MESH:D003704
+37486493	220	228	dementia	Disease	MESH:D003704
+37486493	265	276	Alzheimer's	Disease	MESH:D000544
+37486493	410	418	dementia	Disease	MESH:D003704
+37486493	425	439	mental decline	Disease	MESH:D001523
+37486493	451	477	neuropsychiatric disorders	Disease	MESH:D001523
+37486493	685	691	HELIAD	Disease	
+37486493	757	777	cognitive impairment	Disease	MESH:D003072
+37486493	1087	1107	cognitive impairment	Disease	MESH:D003072
+37486493	1109	1112	MCI	Disease	MESH:D060825
+37486493	1117	1125	dementia	Disease	MESH:D003704
+37486493	1133	1149	Alzheimer's type	Disease	MESH:D000544
+37486493	1151	1154	DAT	Disease	
+37486493	1622	1625	MCI	Disease	MESH:D060825
+37486493	1631	1639	dementia	Disease	MESH:D003704
+

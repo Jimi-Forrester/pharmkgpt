@@ -1,0 +1,13 @@
+37919314|t|Developing a hypertension visualization risk prediction system utilizing machine learning and health check-up data.
+37919314|a|As an important risk factor for many cardiovascular diseases, hypertension requires convenient and reliable methods for prevention and intervention. This study designed a visualization risk prediction system based on Machine Learning and SHAP as an auxiliary tool for personalized health management of hypertension. We used ten Machine Learning algorithms such as random forests and 1617 anonymized health check data to build ten hypertension risk prediction models. The model performance was evaluated through indicators such as accuracy, F1-score, and ROC curve. We used the best-performing model combined with the SHAP algorithm for feature importance analysis and built a visualization risk prediction system on the web page. The LightGMB model exhibited the best predictive performance, and age, alkaline phosphatase, and triglycerides were important features for predicting the risk of hypertension. Users can obtain their risk probability of hypertension and determine the focus of intervention through the visualization system built on the web page. Our research helps doctors and patients to develop personalized prevention and intervention programs for hypertension based on health check data, which has significant clinical and public health significance.
+37919314	13	25	hypertension	Disease	MESH:D006973
+37919314	153	176	cardiovascular diseases	Disease	MESH:D002318
+37919314	178	190	hypertension	Disease	MESH:D006973
+37919314	418	430	hypertension	Disease	MESH:D006973
+37919314	546	558	hypertension	Disease	MESH:D006973
+37919314	943	956	triglycerides	Chemical	MESH:D014280
+37919314	1008	1020	hypertension	Disease	MESH:D006973
+37919314	1065	1077	hypertension	Disease	MESH:D006973
+37919314	1279	1291	hypertension	Disease	MESH:D006973
+37919314	Positive_Correlation	MESH:D014280	MESH:D006973
+

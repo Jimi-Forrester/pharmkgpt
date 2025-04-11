@@ -1,0 +1,20 @@
+39497907|t|Early prediction of cognitive impairment in adults aged 20 years and older using machine learning and biomarkers of heavy metal exposure.
+39497907|a|Background: Cognitive impairment poses a growing health challenge as populations age. Heavy metals are implicated as environmental risk factors, but their role is not fully understood. Machine learning can integrate multi-factorial data to predict cognitive outcomes. Objective: To develop and validate machine learning models for early prediction of cognitive impairment risk using demographics, clinical factors, and biomarkers of heavy metal exposure. Method: A retrospective analysis was conducted using 2011-2014 NHANES data. Participants aged >= 20 underwent cognitive testing. Variables included demographics, medical history, lifestyle factors, and blood and urine levels of lead, cadmium, manganese, and other metals. Machine learning algorithms were trained on 90 % of data and evaluated on 10 %. Performance was assessed using metrics like accuracy, AUC, and sensitivity. Result: A final sample of 2,933 participants was analyzed. The stacking ensemble model achieved the best performance with an AUC of 0.778 for test data, sensitivity of 0.879. Important predictors included age, gender, hypertension, education, urinary cadmium and blood manganese levels. Conclusion: Machine learning can effectively predict cognitive impairment risk using comprehensive clinical and exposure data. Incorporating heavy metal biomarkers enhanced prediction and provided insights into environmental contributions to cognitive decline. Prospective studies are needed to validate models over time.
+39497907	20	40	cognitive impairment	Disease	MESH:D003072
+39497907	116	127	heavy metal	Chemical	MESH:D019216
+39497907	150	170	Cognitive impairment	Disease	MESH:D003072
+39497907	224	236	Heavy metals	Chemical	MESH:D019216
+39497907	489	509	cognitive impairment	Disease	MESH:D003072
+39497907	571	582	heavy metal	Chemical	MESH:D019216
+39497907	821	825	lead	Chemical	MESH:D007854
+39497907	827	834	cadmium	Chemical	MESH:D002104
+39497907	836	845	manganese	Chemical	MESH:D008345
+39497907	1239	1251	hypertension	Disease	MESH:D006973
+39497907	1272	1279	cadmium	Chemical	MESH:D002104
+39497907	1290	1299	manganese	Chemical	MESH:D008345
+39497907	1361	1381	cognitive impairment	Disease	MESH:D003072
+39497907	1449	1460	heavy metal	Chemical	MESH:D019216
+39497907	1550	1567	cognitive decline	Disease	MESH:D003072
+39497907	Positive_Correlation	MESH:D008345	MESH:D003072
+39497907	Positive_Correlation	MESH:D019216	MESH:D003072
+
