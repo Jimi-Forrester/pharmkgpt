@@ -1,0 +1,8 @@
+38515517|t|Secure federated learning for Alzheimer's disease detection.
+38515517|a|Machine Learning (ML) is considered a promising tool to aid and accelerate diagnosis in various medical areas, including neuroimaging. However, its success is set back by the lack of large-scale public datasets. Indeed, medical institutions possess a large amount of data; however, open-sourcing is prevented by the legal requirements to protect the patient's privacy. Federated Learning (FL) is a viable alternative that can overcome this issue. This work proposes training an ML model for Alzheimer's Disease (AD) detection based on structural MRI (sMRI) data in a federated setting. We implement two aggregation algorithms, Federated Averaging (FedAvg) and Secure Aggregation (SecAgg), and compare their performance with the centralized ML model training. We simulate heterogeneous environments and explore the impact of demographical (sex, age, and diagnosis) and imbalanced data distributions. The simulated heterogeneous environments allow us to observe these statistical differences' effect on the ML models trained using FL and highlight the importance of studying such differences when training ML models for AD detection. Moreover, as part of the evaluation, we demonstrate the increased privacy guarantees of FL with SecAgg via simulated membership inference attacks.
+38515517	30	49	Alzheimer's disease	Disease	MESH:D000544
+38515517	411	418	patient	Species	9606
+38515517	552	571	Alzheimer's Disease	Disease	MESH:D000544
+38515517	573	575	AD	Disease	MESH:D000544
+38515517	1179	1181	AD	Disease	MESH:D000544
+

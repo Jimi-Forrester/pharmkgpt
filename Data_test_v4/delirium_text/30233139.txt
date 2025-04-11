@@ -1,0 +1,49 @@
+30233139|t|Are laboratory parameter (biomarker) values similar to the healthy volunteer reference range in all patient populations?
+30233139|a|BACKGROUND: Liver biomarkers alanine aminotransferase (ALT) and bilirubin in patients with hepatitis are above the healthy volunteer reference range (HVRR) at baseline (prior to receiving the clinical trial medication). Discussions continue as how to best distinguish drug-induced liver injury in patients with abnormal baseline values participating in clinical trials. This study investigated if other baseline routine clinical safety biomarkers (lab parameters) are different from the HVRR. MATERIALS AND METHODS: Clinical trial data (TransCelerate dataset) from placebo and standard of care treated patients were compared to the HVRR using a 10% threshold above or below the HVRR to classify a lab parameter in a patient population as potentially different from the HVRR at baseline. The TransCelerate dataset, batch 4, contained data from patients with Alzheimer's, asthma, COPD, cardiovascular disease, diabetes, hidradenitis, hypercholesterolemia, rheumatoid arthritis, schizophrenia, stroke, and ulcerative colitis. A subset of the 200 biomarkers in Trans-Celerate were evaluated in this pilot: glucose, platelet count, neutrophil count, ALT, aspartate aminotransferase (AST), and bilirubin. RESULTS: Glucose was potentially higher than the HVRR in patients with diabetes, COPD, cardiovascular disease, hypercholesterolemia, and schizophrenia. At least one or more of the hematology and hepatic biomarkers were different from the HVRR in at least one patient population, except bilirubin. All the patient populations, except Alzheimer's and asthma, had at least one biomarker that was higher than the HVRR. SUMMARY: The routine biomarkers evaluated in this pilot study demonstrated that not all lab parameters in patient populations are similar to the HVRR. Further efforts are needed to determine which biomarkers are different from the HVRR and how to evaluate the biomarkers in patient populations for detecting drug-induced altered lab values in clinical trials.
+30233139	100	107	patient	Species	9606
+30233139	150	174	alanine aminotransferase	Gene	2875
+30233139	185	194	bilirubin	Chemical	MESH:D001663
+30233139	198	206	patients	Species	9606
+30233139	212	221	hepatitis	Disease	MESH:D056486
+30233139	389	414	drug-induced liver injury	Disease	MESH:D056486
+30233139	418	426	patients	Species	9606
+30233139	723	731	patients	Species	9606
+30233139	837	844	patient	Species	9606
+30233139	964	972	patients	Species	9606
+30233139	978	989	Alzheimer's	Disease	MESH:D000544
+30233139	991	997	asthma	Disease	MESH:D001249
+30233139	999	1003	COPD	Disease	MESH:D029424
+30233139	1005	1027	cardiovascular disease	Disease	MESH:D002318
+30233139	1029	1037	diabetes	Disease	MESH:D003920
+30233139	1039	1051	hidradenitis	Disease	MESH:D016575
+30233139	1053	1073	hypercholesterolemia	Disease	MESH:D006937
+30233139	1075	1095	rheumatoid arthritis	Disease	MESH:D001172
+30233139	1097	1110	schizophrenia	Disease	MESH:D012559
+30233139	1112	1118	stroke	Disease	MESH:D020521
+30233139	1124	1142	ulcerative colitis	Disease	MESH:D003093
+30233139	1223	1230	glucose	Chemical	MESH:D005947
+30233139	1271	1297	aspartate aminotransferase	Gene	26503
+30233139	1299	1302	AST	Gene	26503
+30233139	1309	1318	bilirubin	Chemical	MESH:D001663
+30233139	1329	1336	Glucose	Chemical	MESH:D005947
+30233139	1377	1385	patients	Species	9606
+30233139	1391	1399	diabetes	Disease	MESH:D003920
+30233139	1401	1405	COPD	Disease	MESH:D029424
+30233139	1407	1429	cardiovascular disease	Disease	MESH:D002318
+30233139	1431	1451	hypercholesterolemia	Disease	MESH:D006937
+30233139	1457	1470	schizophrenia	Disease	MESH:D012559
+30233139	1579	1586	patient	Species	9606
+30233139	1606	1615	bilirubin	Chemical	MESH:D001663
+30233139	1625	1632	patient	Species	9606
+30233139	1653	1664	Alzheimer's	Disease	MESH:D000544
+30233139	1669	1675	asthma	Disease	MESH:D001249
+30233139	1841	1848	patient	Species	9606
+30233139	2009	2016	patient	Species	9606
+30233139	Association	MESH:D005947	MESH:D029424
+30233139	Positive_Correlation	MESH:D005947	MESH:D002318
+30233139	Positive_Correlation	MESH:D005947	MESH:D003920
+30233139	Positive_Correlation	MESH:D005947	MESH:D012559
+30233139	Positive_Correlation	MESH:D005947	MESH:D006937
+30233139	Association	MESH:D056486	2875
+30233139	Association	MESH:D001663	MESH:D056486
+

@@ -33,7 +33,7 @@ from config import (
     )
 
 from src.kgvisual import kg_visualization
-from src.hightlight import hightLight_context, format_docs, highlight_segments, hallucination_test
+from src.hightlight import detect_all_entity_name, format_docs, highlight_segments, hallucination_test
 
 
 
@@ -254,6 +254,10 @@ class RAGEngine:
     def query_kg(self, pmid_list):
         return kg_visualization(pmid_list, self.kg_dict)
     
+    
+    def entity_dict(self,pmid_list):
+        return detect_all_entity_name(pmid_list, self.kg_dict)
+    
     def _query(self, question):
         """执行查询"""
         if self.engine is None:
@@ -314,9 +318,10 @@ class RAGEngine:
                     title = self._remove_brackets(text_line[0].strip().split("|")[-1])
                     abstract = text_line[1].strip().split("|")[-1]
                 context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
-            # 幻觉检测
+            
             yield {"type": "progress", "message": "Knowledge Retrieved.\nVerifying Facts"}
             
+            # 幻觉检测
             logging.info(">>>hallucination detect>>>>>")
             logging.info(f"answer: {answer}")
             try:
@@ -348,21 +353,26 @@ class RAGEngine:
             
             # 高亮
             yield {"type": "progress", "message": "Knowledge Retrieved.\nFacts Verified.\nGenerating Answer"}
-            logging.info("Highlighting documents...")
-            HighlightDocuments_dict = hightLight_context(
-                input_data ={
-                "documents": format_docs(context),
-                "question": question,
-                "generation": answer
-                            }, 
-                llm_model=self.llm
-                )
             
-            logging.info(f"HighlightDocuments_dict: {HighlightDocuments_dict}")
-            context_ = highlight_segments(
-                context, HighlightDocuments_dict
-            )
-    
+            logging.info(">>>>>Highlighting documents...>>>>>")
+            # HighlightDocuments_dict = hightLight_context(
+            #     input_data ={
+            #     "documents": format_docs(context),
+            #     "question": question,
+            #     "generation": answer
+            #                 }, 
+            #     llm_model=self.llm
+            #     )
+            try:
+                HighlightDocuments_dict = self.entity_dict(sps)
+
+                context_ = highlight_segments(
+                    context, HighlightDocuments_dict
+                )
+            except:
+                logging.error(">>>Highlighting has some problem!")
+                context_ = context
+                
             output_dict = {
                 "Question": question,
                 "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),

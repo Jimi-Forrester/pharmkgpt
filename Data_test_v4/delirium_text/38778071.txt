@@ -1,0 +1,14 @@
+38778071|t|A deep learning model for brain segmentation across pediatric and adult populations.
+38778071|a|Automated quantification of brain tissues on MR images has greatly contributed to the diagnosis and follow-up of neurological pathologies across various life stages. However, existing solutions are specifically designed for certain age ranges, limiting their applicability in monitoring brain development from infancy to late adulthood. This retrospective study aims to develop and validate a brain segmentation model across pediatric and adult populations. First, we trained a deep learning model to segment tissues and brain structures using T1-weighted MR images from 390 patients (age range: 2-81 years) across four different datasets. Subsequently, the model was validated on a cohort of 280 patients from six distinct test datasets (age range: 4-90 years). In the initial experiment, the proposed deep learning-based pipeline, icobrain-dl, demonstrated segmentation accuracy comparable to both pediatric and adult-specific models across diverse age groups. Subsequently, we evaluated intra- and inter-scanner variability in measurements of various tissues and structures in both pediatric and adult populations computed by icobrain-dl. Results demonstrated significantly higher reproducibility compared to similar brain quantification tools, including childmetrix, FastSurfer, and the medical device icobrain v5.9 (p-value< 0.01). Finally, we explored the potential clinical applications of icobrain-dl measurements in diagnosing pediatric patients with Cerebral Visual Impairment and adult patients with Alzheimer's Disease.
+38778071	198	222	neurological pathologies	Disease	MESH:D005598
+38778071	660	668	patients	Species	9606
+38778071	782	790	patients	Species	9606
+38778071	918	926	icobrain	Chemical	-
+38778071	1214	1222	icobrain	Chemical	-
+38778071	1391	1399	icobrain	Chemical	-
+38778071	1482	1490	icobrain	Chemical	-
+38778071	1531	1539	patients	Species	9606
+38778071	1545	1571	Cerebral Visual Impairment	Disease	MESH:D014786
+38778071	1582	1590	patients	Species	9606
+38778071	1596	1615	Alzheimer's Disease	Disease	MESH:D000544
+

@@ -1,0 +1,55 @@
+34935060|t|Mitochondrial DNA mutations are involved in the acquisition of cisplatin resistance in human lung cancer A549 cells.
+34935060|a|The efficacy of cisplatin (CDDP) has been demonstrated in the treatment of various cancers as monotherapy and combination therapy with immunotherapy. However, acquired CDDP resistance is a major obstacle to successful treatment. In the present study, the mechanisms underlying acquired CDDP resistance were examined using ACR20 cells, which are CDDP-resistant cells derived from A549 lung cancer cells. CDDP induces cytotoxicity by binding nuclear DNA and generating reactive oxygen species (ROS). Contrary to our expectation, ROS levels were elevated in ACR20 cells not treated with CDDP. Pretreatment with an ROS inhibitor enhanced the sensitivity of ACR20 cells to CDDP and prevented the activation of nuclear factor (NF)-kB signaling and upregulation of inhibitor of apoptosis proteins (IAPs). Notably, evaluation of the mitochondrial oxygen consumption rate and mitochondrial superoxide levels revealed a deterioration of mitochondrial function in ACR20 cells. Mitochondrial DNA PCR-RFLP analysis revealed four mutations with varying percentage levels in ACR20 cells. In addition, in cytoplasmic hybrids with mitochondria from ACR20 cells, intrinsic ROS levels were elevated, expression of IAPs was increased, and complex I activity and sensitivity to CDDP were decreased. Analysis of three-dimensional structure data indicated that a mutation (ND2 F40L) may impact the proton translocation pathway, thereby affecting mitochondrial complex I activity. Together, these findings suggest that intrinsic ROS levels were elevated by mitochondrial DNA mutations, which decreased the sensitivity to CDDP via activation of NF-kappaB signaling and induction of IAP expression in ACR20 cells. These findings indicate that newly identified mutations in mitochondrial DNA may lead to acquired cisplatin resistance in cancer.
+34935060	63	72	cisplatin	Chemical	MESH:D002945
+34935060	87	92	human	Species	9606
+34935060	93	104	lung cancer	Disease	MESH:D008175
+34935060	105	109	A549	CellLine	CVCL:0023
+34935060	133	142	cisplatin	Chemical	MESH:D002945
+34935060	144	148	CDDP	Chemical	MESH:D002945
+34935060	200	207	cancers	Disease	MESH:D009369
+34935060	285	289	CDDP	Chemical	MESH:D002945
+34935060	403	407	CDDP	Chemical	MESH:D002945
+34935060	439	444	ACR20	CellLine	CVCL:D156
+34935060	462	466	CDDP	Chemical	MESH:D002945
+34935060	496	500	A549	CellLine	CVCL:0023
+34935060	501	512	lung cancer	Disease	MESH:D008175
+34935060	520	524	CDDP	Chemical	MESH:D002945
+34935060	533	545	cytotoxicity	Disease	MESH:D064420
+34935060	584	607	reactive oxygen species	Chemical	MESH:D017382
+34935060	609	612	ROS	Chemical	MESH:D017382
+34935060	644	647	ROS	Chemical	MESH:D017382
+34935060	672	677	ACR20	CellLine	CVCL:D156
+34935060	701	705	CDDP	Chemical	MESH:D002945
+34935060	728	731	ROS	Chemical	MESH:D017382
+34935060	770	775	ACR20	CellLine	CVCL:D156
+34935060	785	789	CDDP	Chemical	MESH:D002945
+34935060	956	962	oxygen	Chemical	MESH:D010100
+34935060	998	1008	superoxide	Chemical	MESH:D013481
+34935060	1070	1075	ACR20	CellLine	CVCL:D156
+34935060	1177	1182	ACR20	CellLine	CVCL:D156
+34935060	1249	1254	ACR20	CellLine	CVCL:D156
+34935060	1272	1275	ROS	Chemical	MESH:D017382
+34935060	1336	1345	complex I	Disease	MESH:C537475
+34935060	1374	1378	CDDP	Chemical	MESH:D002945
+34935060	1467	1470	ND2	Gene	4536
+34935060	1471	1475	F40L	ProteinMutation	tmVar:p|SUB|F|40|L;HGVS:p.F40L;VariantGroup:0;CorrespondingGene:4536;CorrespondingSpecies:9606
+34935060	1554	1563	complex I	Disease	MESH:C537475
+34935060	1622	1625	ROS	Chemical	MESH:D017382
+34935060	1714	1718	CDDP	Chemical	MESH:D002945
+34935060	1737	1746	NF-kappaB	Gene	4790
+34935060	1774	1777	IAP	Gene	248
+34935060	1792	1797	ACR20	CellLine	CVCL:D156
+34935060	1903	1912	cisplatin	Chemical	MESH:D002945
+34935060	1927	1933	cancer	Disease	MESH:D009369
+34935060	Negative_Correlation	MESH:D002945	MESH:D008175
+34935060	Association	MESH:C537475	HGVS:p.F40L;CorrespondingGene:4536
+34935060	Negative_Correlation	MESH:D002945	MESH:D009369
+34935060	Association	MESH:D002945	4790
+34935060	Positive_Correlation	MESH:D017382	248
+34935060	Positive_Correlation	MESH:D002945	MESH:D017382
+34935060	Negative_Correlation	MESH:D002945	MESH:C537475
+34935060	Positive_Correlation	MESH:D002945	MESH:D064420
+34935060	Positive_Correlation	MESH:D017382	4790
+34935060	Association	MESH:C537475	4536
+34935060	Association	MESH:C537475	4536
+

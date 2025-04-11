@@ -1,0 +1,10 @@
+30894334|t|Combining heterogeneous data sources for neuroimaging based diagnosis: re-weighting and selecting what is important.
+30894334|a|Combining neuroimaging and clinical information for diagnosis, as for example behavioral tasks and genetics characteristics, is potentially beneficial but presents challenges in terms of finding the best data representation for the different sources of information. Their simple combination usually does not provide an improvement if compared with using the best source alone. In this paper, we proposed a framework based on a recent multiple kernel learning algorithm called EasyMKL and we investigated the benefits of this approach for diagnosing two different mental health diseases. The well known Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset tackling the Alzheimer Disease (AD) patients versus healthy controls classification task, and a second dataset tackling the task of classifying an heterogeneous group of depressed patients versus healthy controls. We used EasyMKL to combine a huge amount of basic kernels alongside a feature selection methodology, pursuing an optimal and sparse solution to facilitate interpretability. Our results show that the proposed approach, called EasyMKLFS, outperforms baselines (e.g. SVM and SimpleMKL), state-of-the-art random forests (RF) and feature selection (FS) methods.
+30894334	680	702	mental health diseases	Disease	OMIM:603663
+30894334	719	738	Alzheimer's Disease	Disease	MESH:D000544
+30894334	791	808	Alzheimer Disease	Disease	MESH:D000544
+30894334	810	812	AD	Disease	MESH:D000544
+30894334	814	822	patients	Species	9606
+30894334	948	957	depressed	Disease	MESH:D003866
+30894334	958	966	patients	Species	9606
+

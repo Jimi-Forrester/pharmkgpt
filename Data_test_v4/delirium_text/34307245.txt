@@ -1,0 +1,84 @@
+34307245|t|DNM1L-Related Mitochondrial Fission Defects Presenting as Encephalopathy: A Case Report and Literature Review.
+34307245|a|Background: Mitochondrial dynamics, including mitochondrial fission and fusion, transport and distribution, biogenesis and degradation, are critical to neuronal function. The dynamin-1 like (DNM1L) gene encodes dynamin-related protein 1 (DRP1/DLP1), which is an evolutionarily conserved member of the dynamin family and is responsible for mitochondrial division. DNM1L variants can lead to mitochondrial fission dysfunction and neurological disorders. Methods: We report a case of DNM1L-related mitochondrial disease admitted to Tianjin Children's Hospital. We searched for similar reported cases in the PubMed database using the terms "DNM1L" and "mitochondrial," reviewed recent literature to summarize the clinical and genetic characteristics, and analyzed genotype-phenotype correlations. Results: The patient presented with psychomotor retardation, motor disturbance (muscle weakness with paroxysmal hypermyotonia), and a de novo variant (c.116G>A, g.22229G>A, p.S39N) in the GTPase domain of DNM1L (reference sequence NM_012062), which has not previously been reported in the literature. This case was combined with an additional 35 cases identified in 20 relevant references in order to analyze a total of 36 patients. The male-to-female ratio was 1:1.06, and the median age of onset was 6 months (range, neonatal period to 9 years). The cardinal symptoms included psychomotor retardation in 77.8% (28/36), limb paralysis in 66.7% (18/27), dystonia in 82.8% (24/29), and epilepsy in 59.4% (19/32). The clinical manifestations of variants in the GTPase domain of DRP1 were milder than those identified in the middle domain. Conclusion: This case report describes a new variant of the DNM1L gene, and summarizes previously reported cases. Furthermore, the clinical phenotype and the genotype of DNM1L gene-associated mitochondrial disease was analyzed to improve the understanding of this disease.
+34307245	0	5	DNM1L	Gene	107987471
+34307245	14	43	Mitochondrial Fission Defects	Disease	OMIM:614388
+34307245	58	72	Encephalopathy	Disease	MESH:D001927
+34307245	286	300	dynamin-1 like	Gene	107987471
+34307245	302	307	DNM1L	Gene	107987471
+34307245	322	347	dynamin-related protein 1	Gene	10059
+34307245	349	353	DRP1	Gene	10059
+34307245	354	358	DLP1	Gene	10059
+34307245	474	479	DNM1L	Gene	107987471
+34307245	501	534	mitochondrial fission dysfunction	Disease	OMIM:614388
+34307245	539	561	neurological disorders	Disease	MESH:D009461
+34307245	592	597	DNM1L	Gene	107987471
+34307245	606	627	mitochondrial disease	Disease	MESH:D028361
+34307245	748	753	DNM1L	Gene	107987471
+34307245	917	924	patient	Species	9606
+34307245	940	963	psychomotor retardation	Disease	MESH:D011596
+34307245	965	982	motor disturbance	Disease	MESH:D014832
+34307245	984	999	muscle weakness	Disease	MESH:D018908
+34307245	1005	1029	paroxysmal hypermyotonia	Disease	MESH:D009122
+34307245	1055	1063	c.116G>A	DNAMutation	tmVar:c|SUB|G|116|A;HGVS:c.116G>A;VariantGroup:0;CorrespondingGene:107987471
+34307245	1065	1075	g.22229G>A	DNAMutation	tmVar:g|SUB|G|22229|A;HGVS:g.22229G>A;VariantGroup:2;CorrespondingGene:107987471
+34307245	1077	1083	p.S39N	ProteinMutation	tmVar:p|SUB|S|39|N;HGVS:p.S39N;VariantGroup:0;CorrespondingGene:107987471
+34307245	1109	1114	DNM1L	Gene	107987471
+34307245	1135	1144	NM_012062	RefSeq	NM_012062
+34307245	1327	1335	patients	Species	9606
+34307245	1483	1506	psychomotor retardation	Disease	MESH:D011596
+34307245	1525	1539	limb paralysis	Disease	MESH:D010264
+34307245	1558	1566	dystonia	Disease	MESH:D004421
+34307245	1589	1597	epilepsy	Disease	MESH:D004827
+34307245	1680	1684	DRP1	Gene	10059
+34307245	1801	1806	DNM1L	Gene	107987471
+34307245	1911	1916	DNM1L	Gene	107987471
+34307245	1933	1954	mitochondrial disease	Disease	MESH:D028361
+34307245	Positive_Correlation	HGVS:g.22229G>A;CorrespondingGene:107987471	MESH:D001927
+34307245	Positive_Correlation	HGVS:g.22229G>A;CorrespondingGene:107987471	MESH:D028361
+34307245	Association	MESH:D028361	107987471
+34307245	Positive_Correlation	HGVS:c.116G>A;CorrespondingGene:107987471	MESH:D004827
+34307245	Association	MESH:D001927	107987471
+34307245	Positive_Correlation	MESH:D009122	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Positive_Correlation	MESH:D004421	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Association	MESH:D009461	107987471
+34307245	Positive_Correlation	MESH:D001927	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Positive_Correlation	HGVS:g.22229G>A;CorrespondingGene:107987471	MESH:D009122
+34307245	Association	MESH:D004827	107987471
+34307245	Positive_Correlation	OMIM:614388	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Association	HGVS:c.116G>A;CorrespondingGene:107987471	MESH:D011596
+34307245	Association	MESH:D011596	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Positive_Correlation	MESH:D004421	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Positive_Correlation	HGVS:g.22229G>A;CorrespondingGene:107987471	MESH:D004421
+34307245	Positive_Correlation	HGVS:g.22229G>A;CorrespondingGene:107987471	MESH:D004827
+34307245	Positive_Correlation	MESH:D010264	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Positive_Correlation	OMIM:614388	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Positive_Correlation	HGVS:g.22229G>A;CorrespondingGene:107987471	OMIM:614388
+34307245	Positive_Correlation	HGVS:g.22229G>A;CorrespondingGene:107987471	MESH:D010264
+34307245	Positive_Correlation	MESH:D010264	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Positive_Correlation	HGVS:c.116G>A;CorrespondingGene:107987471	MESH:D009122
+34307245	Positive_Correlation	MESH:D004827	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Association	MESH:D014832	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Positive_Correlation	HGVS:c.116G>A;CorrespondingGene:107987471	OMIM:614388
+34307245	Positive_Correlation	HGVS:g.22229G>A;CorrespondingGene:107987471	MESH:D014832
+34307245	Association	MESH:D009122	107987471
+34307245	Positive_Correlation	MESH:D028361	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Association	HGVS:g.22229G>A;CorrespondingGene:107987471	MESH:D011596
+34307245	Positive_Correlation	HGVS:c.116G>A;CorrespondingGene:107987471	MESH:D001927
+34307245	Positive_Correlation	MESH:D014832	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Association	MESH:D018908	107987471
+34307245	Positive_Correlation	HGVS:c.116G>A;CorrespondingGene:107987471	MESH:D028361
+34307245	Positive_Correlation	MESH:D001927	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Association	MESH:D014832	107987471
+34307245	Positive_Correlation	MESH:D018908	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Association	MESH:D009122	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Positive_Correlation	HGVS:c.116G>A;CorrespondingGene:107987471	MESH:D004421
+34307245	Positive_Correlation	MESH:D004827	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Association	MESH:D004421	107987471
+34307245	Association	OMIM:614388	107987471
+34307245	Positive_Correlation	MESH:D011596	HGVS:c.116G>A;CorrespondingGene:107987471
+34307245	Positive_Correlation	HGVS:g.22229G>A;CorrespondingGene:107987471	MESH:D018908
+34307245	Positive_Correlation	MESH:D018908	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Association	MESH:D011596	107987471
+34307245	Positive_Correlation	MESH:D028361	HGVS:p.S39N;CorrespondingGene:107987471
+34307245	Association	MESH:D010264	107987471
+

@@ -1,0 +1,15 @@
+19014586|t|Multivariate profiling of neurodegeneration-associated changes in a subcellular compartment of neurons via image processing.
+19014586|a|BACKGROUND: Dysfunction in the endolysosome, a late endosomal to lysosomal degradative intracellular compartment, is an early hallmark of some neurodegenerative diseases, in particular Alzheimer's disease. However, the subtle morphological changes in compartments of affected neurons are difficult to quantify quickly and reliably, making this phenotype inaccessible as either an early diagnostic marker, or as a read-out for drug screening. METHODS: We present a method for automatic detection of fluorescently labeled endolysosomes in degenerative neurons in situ. The Drosophila blue cheese (bchs) mutant was taken as a genetic neurodegenerative model for direct in situ visualization and quantification of endolysosomal compartments in affected neurons. Endolysosomal compartments were first detected automatically from 2-D image sections using a combination of point-wise multi-scale correlation and normalized correlation operations. This detection algorithm performed well at recognizing fluorescent endolysosomes, unlike conventional convolution methods, which are confounded by variable intensity levels and background noise. Morphological feature differences between endolysosomes from wild type vs. degenerative neurons were then quantified by multivariate profiling and support vector machine (SVM) classification based on compartment density, size and contrast distribution. Finally, we ranked these distributions according to their profiling accuracy, based on the backward elimination method. RESULTS: This analysis revealed a statistically significant difference between the neurodegenerative phenotype and the wild type up to a 99.9% confidence interval. Differences between the wild type and phenotypes resulting from overexpression of the Bchs protein are detectable by contrast variations, whereas both size and contrast variations distinguish the wild type from either of the loss of function alleles bchs1 or bchs58. In contrast, the density measurement differentiates all three bchs phenotypes (loss of function as well as overexpression) from the wild type. CONCLUSION: Our model demonstrates that neurodegeneration-associated endolysosomal defects can be detected, analyzed, and classified rapidly and accurately as a diagnostic imaging-based screening tool.
+19014586	26	43	neurodegeneration	Disease	MESH:D019636
+19014586	268	294	neurodegenerative diseases	Disease	MESH:D019636
+19014586	310	329	Alzheimer's disease	Disease	MESH:D000544
+19014586	696	706	Drosophila	Species	7227
+19014586	707	718	blue cheese	Species	
+19014586	720	724	bchs	Gene	33819
+19014586	756	773	neurodegenerative	Disease	MESH:D019636
+19014586	1716	1733	neurodegenerative	Disease	MESH:D019636
+19014586	1883	1887	Bchs	Gene	33819
+19014586	2126	2130	bchs	Gene	33819
+19014586	2247	2264	neurodegeneration	Disease	MESH:D019636
+19014586	Association	MESH:D019636	33819
+

@@ -1,0 +1,19 @@
+36539779|t|Automatic lesion detection and segmentation in 18F-flutemetamol positron emission tomography images using deep learning.
+36539779|a|BACKGROUND: Beta amyloid in the brain, which was originally confirmed by post-mortem examinations, can now be confirmed in living patients using amyloid positron emission tomography (PET) tracers, and the accuracy of diagnosis can be improved by beta amyloid plaque confirmation in patients. Amyloid deposition in the brain is often associated with the expression of dementia. Hence, it is important to identify the anatomically and functionally meaningful areas of the human brain cortex surface using PET to diagnose the possibility of developing dementia. In this study, we demonstrated the validity of automated 18F-flutemetamol PET lesion detection and segmentation based on a complete 2D U-Net convolutional neural network via masking treatment strategies. METHODS: PET data were first normalized by volume and divided into five amyloid accumulation zones through axial, coronary, and thalamic slices. A single U-Net was trained using a divided dataset for one of these zones. Ground truth segmentations were obtained by manual delineation and thresholding (1.5 x background). RESULTS: The following intersection over union values were obtained for the various slices in the verification dataset: frontal lobe axial/sagittal: 0.733/0.804; posterior cingulate cortex and precuneus coronal/sagittal: 0.661/0.726; lateral temporal lobe axial/coronal: 0.864/0.892; parietal lobe axial/coronal: 0.542/0.759; and striatum axial/sagittal: 0.679/0.752. The U-Net convolutional neural network architecture allowed fully automated 2D division of the 18F-flutemetamol PET brain images of Alzheimer's patients. CONCLUSIONS: As dementia should be tested and evaluated in various ways, there is a need for artificial intelligence programs. This study can serve as a reference for future studies using auxiliary roles and research in Alzheimer's diagnosis.
+36539779	47	63	18F-flutemetamol	Chemical	MESH:C581552
+36539779	251	259	patients	Species	9606
+36539779	266	273	amyloid	Disease	MESH:C000718787
+36539779	403	411	patients	Species	9606
+36539779	413	420	Amyloid	Disease	MESH:C000718787
+36539779	488	496	dementia	Disease	MESH:D003704
+36539779	591	596	human	Species	9606
+36539779	670	678	dementia	Disease	MESH:D003704
+36539779	737	753	18F-flutemetamol	Chemical	MESH:C581552
+36539779	956	963	amyloid	Disease	MESH:C000718787
+36539779	1667	1683	18F-flutemetamol	Chemical	MESH:C581552
+36539779	1704	1715	Alzheimer's	Disease	MESH:D000544
+36539779	1716	1724	patients	Species	9606
+36539779	1742	1750	dementia	Disease	MESH:D003704
+36539779	1946	1957	Alzheimer's	Disease	MESH:D000544
+36539779	Association	MESH:C581552	MESH:D000544
+

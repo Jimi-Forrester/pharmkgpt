@@ -1,0 +1,24 @@
+36587113|t|Prediction and risk assessment of sepsis-associated encephalopathy in ICU based on interpretable machine learning.
+36587113|a|Sepsis-associated encephalopathy (SAE) is a major complication of sepsis and is associated with high mortality and poor long-term prognosis. The purpose of this study is to develop interpretable machine learning models to predict the occurrence of SAE after ICU admission and implement the individual prediction and analysis. Patients with sepsis admitted to ICU were included. SAE was diagnosed as glasgow coma score (GCS) less than 15. Statistical analysis at baseline was performed between SAE and non-SAE. Six machine learning classifiers were employed to predict the occurrence of SAE, and the adjustment of model super parameters was performed by using Bayesian optimization method. Finally, the optimal algorithm was selected according to the prediction efficiency. In addition, professional physicians were invited to evaluate our model prediction results for further quantitative assessment of the model interpretability. The preliminary analysis of variance showed significant differences in the incidence of SAE among patients with pathogen infection. There were significant differences in physical indicators like respiratory rate, temperature, SpO2 and mean arterial pressure (P < 0.001). In addition, the laboratory results were also significantly different. The optimal classification model (XGBoost) indicated that the best risk factors (cut-off points) were creatinine (1.1 mg/dl), mean respiratory rate (18), pH (7.38), age (72), chlorine (101 mmol/L), sodium (138.5 k/ul), SAPSII score (23), platelet count (160), and phosphorus (2.4 and 5.0 mg/dL). The ranked features derived from the best model (AUC is 0.8837) were mechanical ventilation, duration of mechanical ventilation, phosphorus, SOFA score, and vasopressin usage. The SAE risk prediction model based on XGBoost created here can make very accurate predictions using simple indicators and support the visual explanation. The interpretable model was effectively evaluated by professional physicians and can help them predict the occurrence of SAE more intuitively.
+36587113	34	66	sepsis-associated encephalopathy	Disease	MESH:D065166
+36587113	115	147	Sepsis-associated encephalopathy	Disease	MESH:D065166
+36587113	149	152	SAE	Disease	MESH:D065166
+36587113	181	187	sepsis	Disease	MESH:D018805
+36587113	363	366	SAE	Disease	MESH:D065166
+36587113	441	449	Patients	Species	9606
+36587113	455	461	sepsis	Disease	MESH:D018805
+36587113	493	496	SAE	Disease	MESH:D065166
+36587113	608	611	SAE	Disease	MESH:D065166
+36587113	620	623	SAE	Disease	MESH:D065166
+36587113	701	704	SAE	Disease	MESH:D065166
+36587113	1134	1137	SAE	Disease	MESH:D065166
+36587113	1144	1152	patients	Species	9606
+36587113	1167	1176	infection	Disease	MESH:D007239
+36587113	1490	1500	creatinine	Chemical	MESH:D003404
+36587113	1563	1571	chlorine	Chemical	MESH:D002713
+36587113	1586	1592	sodium	Chemical	MESH:D012964
+36587113	1652	1662	phosphorus	Chemical	MESH:D010758
+36587113	1813	1823	phosphorus	Chemical	MESH:D010758
+36587113	1864	1867	SAE	Disease	MESH:D065166
+36587113	2136	2139	SAE	Disease	MESH:D065166
+

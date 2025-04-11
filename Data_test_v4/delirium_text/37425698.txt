@@ -1,0 +1,12 @@
+37425698|t|SR-TWAS: Leveraging Multiple Reference Panels to Improve TWAS Power by Ensemble Machine Learning.
+37425698|a|Multiple reference panels of a given tissue or multiple tissues often exist, and multiple regression methods could be used for training gene expression imputation models for TWAS. To leverage expression imputation models (i.e., base models) trained with multiple reference panels, regression methods, and tissues, we develop a Stacked Regression based TWAS (SR-TWAS) tool which can obtain optimal linear combinations of base models for a given validation transcriptomic dataset. Both simulation and real studies showed that SR-TWAS improved power due to increased effective training sample sizes and borrowed strength across multiple regression methods and tissues. Leveraging base models across multiple reference panels, tissues, and regression methods, our studies of Alzheimer's disease (AD) dementia and Parkinson's disease (PD) identified respective 11 independent significant risk genes for AD (supplementary motor area tissue) and 12 independent significant risk genes for PD (substantia nigra tissue), including 6 novels for AD and 6 novels for PD.
+37425698	869	888	Alzheimer's disease	Disease	MESH:D000544
+37425698	890	892	AD	Disease	MESH:D000544
+37425698	894	902	dementia	Disease	MESH:D003704
+37425698	907	926	Parkinson's disease	Disease	MESH:D010300
+37425698	928	930	PD	Disease	MESH:D010300
+37425698	996	998	AD	Disease	MESH:D000544
+37425698	1079	1081	PD	Disease	MESH:D010300
+37425698	1132	1134	AD	Disease	MESH:D000544
+37425698	1152	1154	PD	Disease	MESH:D010300
+

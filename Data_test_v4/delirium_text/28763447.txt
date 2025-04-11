@@ -1,0 +1,12 @@
+28763447|t|BRAPH: A graph theory software for the analysis of brain connectivity.
+28763447|a|The brain is a large-scale complex network whose workings rely on the interaction between its various regions. In the past few years, the organization of the human brain network has been studied extensively using concepts from graph theory, where the brain is represented as a set of nodes connected by edges. This representation of the brain as a connectome can be used to assess important measures that reflect its topological architecture. We have developed a freeware MatLab-based software (BRAPH-BRain Analysis using graPH theory) for connectivity analysis of brain networks derived from structural magnetic resonance imaging (MRI), functional MRI (fMRI), positron emission tomography (PET) and electroencephalogram (EEG) data. BRAPH allows building connectivity matrices, calculating global and local network measures, performing non-parametric permutations for group comparisons, assessing the modules in the network, and comparing the results to random networks. By contrast to other toolboxes, it allows performing longitudinal comparisons of the same patients across different points in time. Furthermore, even though a user-friendly interface is provided, the architecture of the program is modular (object-oriented) so that it can be easily expanded and customized. To demonstrate the abilities of BRAPH, we performed structural and functional graph theory analyses in two separate studies. In the first study, using MRI data, we assessed the differences in global and nodal network topology in healthy controls, patients with amnestic mild cognitive impairment, and patients with Alzheimer's disease. In the second study, using resting-state fMRI data, we compared healthy controls and Parkinson's patients with mild cognitive impairment.
+28763447	229	234	human	Species	9606
+28763447	1132	1140	patients	Species	9606
+28763447	1596	1604	patients	Species	9606
+28763447	1624	1644	cognitive impairment	Disease	MESH:D003072
+28763447	1650	1658	patients	Species	9606
+28763447	1664	1683	Alzheimer's disease	Disease	MESH:D000544
+28763447	1770	1781	Parkinson's	Disease	MESH:D010300
+28763447	1782	1790	patients	Species	9606
+28763447	1801	1821	cognitive impairment	Disease	MESH:D003072
+

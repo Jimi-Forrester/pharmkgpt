@@ -1,0 +1,34 @@
+30837932|t|Genome-Wide Multiple Sclerosis Association Data and Coagulation.
+30837932|a|The emerging concept of a crosstalk between hemostasis, inflammation, and immune system prompt recent works on coagulation cascade in multiple sclerosis (MS). Studies on MS pathology identified several coagulation factors since the beginning of the disease pathophysiology: fibrin deposition with breakdown of blood brain barrier, and coagulation factors within active plaques may exert pathogenic role, especially through the innate immune system. Studies on circulating coagulation factors showed complex imbalance involving several components of hemostasis cascade (thrombin, factor X, factor XII). To analyze the role of the coagulation process in connection with other pathogenic pathways, we implemented a systematic matching of genome-wide association studies (GWAS) data with an informative and unbiased network of coagulation pathways. Using MetaCore (version 6.35 build 69300, 2018) we analyzed the connectivity (i.e., direct and indirect interactions among two networks) between the network of the coagulation process and the network resulting from feeding into MetaCore the MS GWAS data. The two networks presented a remarkable over-connectivity: 958 connections vs. 561 expected by chance; z-score = 17.39; p-value < 0.00001. Moreover, genes coding for cluster of differentiation 40 (CD40) and plasminogen activator, urokinase (PLAU) shared both networks, pointed to an integral interplay between coagulation cascade and main pathogenic immune effectors. In fact, CD40 pathways is especially operative in B cells, that are currently a major therapeutic target in MS field. The potential interaction of PLAU with a signal of paramount importance for B cell pathogenicity, such as CD40, suggest new lines of research and pave the way to implement new therapeutic targets.
+30837932	12	30	Multiple Sclerosis	Disease	MESH:D009103
+30837932	52	63	Coagulation	Disease	MESH:D001778
+30837932	121	133	inflammation	Disease	MESH:D007249
+30837932	176	187	coagulation	Disease	MESH:D001778
+30837932	199	217	multiple sclerosis	Disease	MESH:D009103
+30837932	219	221	MS	Disease	MESH:D009103
+30837932	235	237	MS	Disease	MESH:D009103
+30837932	267	278	coagulation	Disease	MESH:D001778
+30837932	400	411	coagulation	Disease	MESH:D001778
+30837932	537	548	coagulation	Disease	MESH:D001778
+30837932	634	642	thrombin	Gene	2147
+30837932	654	664	factor XII	Gene	2161
+30837932	694	705	coagulation	Disease	MESH:D001778
+30837932	888	899	coagulation	Disease	MESH:D001778
+30837932	1074	1085	coagulation	Disease	MESH:D001778
+30837932	1151	1153	MS	Disease	MESH:D009103
+30837932	1331	1360	cluster of differentiation 40	Gene	958
+30837932	1362	1366	CD40	Gene	958
+30837932	1372	1404	plasminogen activator, urokinase	Gene	5328
+30837932	1406	1410	PLAU	Gene	5328
+30837932	1475	1486	coagulation	Disease	MESH:D001778
+30837932	1542	1546	CD40	Gene	958
+30837932	1641	1643	MS	Disease	MESH:D009103
+30837932	1680	1684	PLAU	Gene	5328
+30837932	1757	1761	CD40	Gene	958
+30837932	Association	MESH:D001778	2161
+30837932	Association	MESH:D001778	2147
+30837932	Association	MESH:D009103	958
+30837932	Association	5328	958
+30837932	Association	MESH:D001778	5328
+30837932	Association	MESH:D001778	958
+

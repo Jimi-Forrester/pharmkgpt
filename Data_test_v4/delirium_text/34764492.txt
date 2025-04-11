@@ -1,0 +1,16 @@
+34764492|t|Identifying phenotype-associated subpopulations by integrating bulk and single-cell sequencing data.
+34764492|a|Single-cell RNA sequencing (scRNA-seq) distinguishes cell types, states and lineages within the context of heterogeneous tissues. However, current single-cell data cannot directly link cell clusters with specific phenotypes. Here we present Scissor, a method that identifies cell subpopulations from single-cell data that are associated with a given phenotype. Scissor integrates phenotype-associated bulk expression data and single-cell data by first quantifying the similarity between each single cell and each bulk sample. It then optimizes a regression model on the correlation matrix with the sample phenotype to identify relevant subpopulations. Applied to a lung cancer scRNA-seq dataset, Scissor identified subsets of cells associated with worse survival and with TP53 mutations. In melanoma, Scissor discerned a T cell subpopulation with low PDCD1/CTLA4 and high TCF7 expression associated with an immunotherapy response. Beyond cancer, Scissor was effective in interpreting facioscapulohumeral muscular dystrophy and Alzheimer's disease datasets. Scissor identifies biologically and clinically relevant cell subpopulations from single-cell assays by leveraging phenotype and bulk-omics datasets.
+34764492	766	777	lung cancer	Disease	MESH:D008175
+34764492	873	877	TP53	Gene	7157
+34764492	892	900	melanoma	Disease	MESH:D008545
+34764492	952	957	PDCD1	Gene	5133
+34764492	958	963	CTLA4	Gene	1493
+34764492	973	977	TCF7	Gene	6932
+34764492	1039	1045	cancer	Disease	MESH:D009369
+34764492	1085	1123	facioscapulohumeral muscular dystrophy	Disease	MESH:D020391
+34764492	1128	1147	Alzheimer's disease	Disease	MESH:D000544
+34764492	Association	MESH:D008175	7157
+34764492	Association	MESH:D008545	5133
+34764492	Association	MESH:D008545	1493
+34764492	Association	MESH:D008545	6932
+

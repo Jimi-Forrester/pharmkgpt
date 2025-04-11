@@ -1,0 +1,16 @@
+36033909|t|SEL-COVIDNET: An intelligent application for the diagnosis of COVID-19 from chest X-rays and CT-scans.
+36033909|a|COVID-19 detection from medical imaging is a difficult challenge that has piqued the interest of experts worldwide. Chest X-rays and computed tomography (CT) scanning are the essential imaging modalities for diagnosing COVID-19. All researchers focus their efforts on developing viable methods and rapid treatment procedures for this pandemic. Fast and accurate automated detection approaches have been devised to alleviate the need for medical professionals. Deep Learning (DL) technologies have successfully recognized COVID-19 situations. This paper proposes a developed set of nine deep learning models for diagnosing COVID-19 based on transfer learning and implementation in a novel architecture (SEL-COVIDNET). We include a global average pooling layer, flattening, and two dense layers that are fully connected. The model's effectiveness is evaluated using balanced and unbalanced COVID-19 radiography datasets. After that, our model's performance is analyzed using six evaluation measures: accuracy, sensitivity, specificity, precision, F1-score, and Matthew's correlation coefficient (MCC). Experiments demonstrated that the proposed SEL-COVIDNET with tuned DenseNet121, InceptionResNetV2, and MobileNetV3Large models outperformed the results of comparative SOTA for multi-class classification (COVID-19 vs. No-finding vs. Pneumonia) in terms of accuracy (98.52%), specificity (98.5%), sensitivity (98.5%), precision (98.7%), F1-score (98.7%), and MCC (97.5%). For the COVID-19 vs. No-finding classification, our method had an accuracy of 99.77%, a specificity of 99.85%, a sensitivity of 99.85%, a precision of 99.55%, an F1-score of 99.7%, and an MCC of 99.4%. The proposed model offers an accurate approach for detecting COVID-19 patients, which aids in the containment of the COVID-19 pandemic.
+36033909	3	12	-COVIDNET	Disease	
+36033909	62	70	COVID-19	Disease	MESH:D000086382
+36033909	103	111	COVID-19	Disease	MESH:D000086382
+36033909	322	330	COVID-19	Disease	MESH:D000086382
+36033909	624	632	COVID-19	Disease	MESH:D000086382
+36033909	725	733	COVID-19	Disease	MESH:D000086382
+36033909	991	999	COVID-19	Disease	MESH:D000086382
+36033909	1407	1415	COVID-19	Disease	MESH:D000086382
+36033909	1435	1444	Pneumonia	Disease	MESH:D011014
+36033909	1581	1589	COVID-19	Disease	MESH:D000086382
+36033909	1836	1844	COVID-19	Disease	MESH:D000086382
+36033909	1845	1853	patients	Species	9606
+36033909	1892	1900	COVID-19	Disease	MESH:D000086382
+

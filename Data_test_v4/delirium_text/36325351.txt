@@ -1,0 +1,43 @@
+36325351|t|Biological signatures and prediction of an immunosuppressive status-persistent critical illness-among orthopedic trauma patients using machine learning techniques.
+36325351|a|Background: Persistent critical illness (PerCI) is an immunosuppressive status. The underlying pathophysiology driving PerCI remains incompletely understood. The objectives of the study were to identify the biological signature of PerCI development, and to construct a reliable prediction model for patients who had suffered orthopedic trauma using machine learning techniques. Methods: This study enrolled 1257 patients from the Medical Information Mart for Intensive Care III (MIMIC-III) database. Lymphocytes were tracked from ICU admission to more than 20 days following admission to examine the dynamic changes over time. Over 40 possible variables were gathered for investigation. Patients were split 80:20 at random into a training cohort (n=1035) and an internal validation cohort (n=222). Four machine learning algorithms, including random forest, gradient boosting machine, decision tree, and support vector machine, and a logistic regression technique were utilized to train and optimize models using data from the training cohort. Patients in the internal validation cohort were used to validate models, and the optimal one was chosen. Patients from two large teaching hospitals were used for external validation (n=113). The key metrics that used to assess the prediction performance of models mainly included discrimination, calibration, and clinical usefulness. To encourage clinical application based on the optimal machine learning-based model, a web-based calculator was developed. Results: 16.0% (201/1257) of all patients had PerCI in the MIMIC-III database. The means of lymphocytes (%) were consistently below the normal reference range across the time among PerCI patients (around 10.0%), whereas in patients without PerCI, the number of lymphocytes continued to increase and began to be in normal range on day 10 following ICU admission. Subgroup analysis demonstrated that patients with PerCI were in a more serious health condition at admission since those patients had worse nutritional status, more electrolyte imbalance and infection-related comorbidities, and more severe illness scores. Eight variables, including albumin, serum calcium, red cell volume distributing width (RDW), blood pH, heart rate, respiratory failure, pneumonia, and the Sepsis-related Organ Failure Assessment (SOFA) score, were significantly associated with PerCI, according to the least absolute shrinkage and selection operator (LASSO) logistic regression model combined with the 10-fold cross-validation. These variables were all included in the modelling. In comparison to other algorithms, the random forest had the optimal prediction ability with the highest area under receiver operating characteristic (AUROC) (0.823, 95% CI: 0.757-0.889), highest Youden index (1.571), and lowest Brier score (0.107). The AUROC in the external validation cohort was also up to 0.800 (95% CI: 0.688-0.912). Based on the risk stratification system, patients in the high-risk group had a 10.0-time greater chance of developing PerCI than those in the low-risk group. A web-based calculator was available at https://starxueshu-perci-prediction-main-9k8eof.streamlitapp.com/. Conclusions: Patients with PerCI typically remain in an immunosuppressive status, but those without PerCI gradually regain normal immunity. The dynamic changes of lymphocytes can be a reliable biomarker for PerCI. This work developed a reliable model that may be helpful in improving early diagnosis and targeted intervention of PerCI. Beneficial interventions, such as improving nutritional status and immunity, maintaining electrolyte and acid-base balance, curbing infection, and promoting respiratory recovery, are early warranted to prevent the onset of PerCI, especially among patients in the high-risk group and those with a continuously low level of lymphocytes.
+36325351	68	95	persistent critical illness	Disease	MESH:D016638
+36325351	102	119	orthopedic trauma	Disease	MESH:D009140
+36325351	120	128	patients	Species	9606
+36325351	176	203	Persistent critical illness	Disease	MESH:D016638
+36325351	205	210	PerCI	Disease	MESH:D016638
+36325351	283	288	PerCI	Disease	MESH:D016638
+36325351	395	400	PerCI	Disease	MESH:D016638
+36325351	463	471	patients	Species	9606
+36325351	489	506	orthopedic trauma	Disease	MESH:D009140
+36325351	576	584	patients	Species	9606
+36325351	851	859	Patients	Species	9606
+36325351	1207	1215	Patients	Species	9606
+36325351	1312	1320	Patients	Species	9606
+36325351	1697	1705	patients	Species	9606
+36325351	1710	1715	PerCI	Disease	MESH:D016638
+36325351	1845	1850	PerCI	Disease	MESH:D016638
+36325351	1851	1859	patients	Species	9606
+36325351	1887	1895	patients	Species	9606
+36325351	1904	1909	PerCI	Disease	MESH:D016638
+36325351	2062	2070	patients	Species	9606
+36325351	2076	2081	PerCI	Disease	MESH:D016638
+36325351	2147	2155	patients	Species	9606
+36325351	2217	2226	infection	Disease	MESH:D007239
+36325351	2309	2316	albumin	Gene	213
+36325351	2324	2331	calcium	Chemical	MESH:D002118
+36325351	2397	2416	respiratory failure	Disease	MESH:D012131
+36325351	2418	2427	pneumonia	Disease	MESH:D011014
+36325351	2437	2465	Sepsis-related Organ Failure	Disease	MESH:D009102
+36325351	2526	2531	PerCI	Disease	MESH:D016638
+36325351	3107	3115	patients	Species	9606
+36325351	3184	3189	PerCI	Disease	MESH:D016638
+36325351	3283	3288	perci	Disease	
+36325351	3344	3352	Patients	Species	9606
+36325351	3358	3363	PerCI	Disease	MESH:D016638
+36325351	3431	3436	PerCI	Disease	MESH:D016638
+36325351	3538	3543	PerCI	Disease	MESH:D016638
+36325351	3660	3665	PerCI	Disease	MESH:D016638
+36325351	3799	3808	infection	Disease	MESH:D007239
+36325351	3890	3895	PerCI	Disease	MESH:D016638
+36325351	3914	3922	patients	Species	9606
+

@@ -1,0 +1,43 @@
+37035738|t|A novel signature combing cuproptosis- and ferroptosis-related genes in sepsis-induced cardiomyopathy.
+37035738|a|Objective: Cardiac dysfunction caused by sepsis, usually termed sepsis-induced cardiomyopathy (SIC), is one of the most serious complications of sepsis, and ferroptosis can play a key role in this disease. In this study, we identified key cuproptosis- and ferroptosis-related genes involved in SIC and further explored drug candidates for the treatment of SIC. Methods: The GSE79962 gene expression profile of SIC patients was downloaded from the Gene Expression Omnibus database (GEO). The data was used to identify differentially expressed genes (DEGs) and to perform weighted correlation network analysis (WGCNA). Furthermore, Gene Ontology (GO) and the Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses were conducted. Then, gene set enrichment analysis (GSEA) was applied to further analyze pathway regulation, with an adjusted p-value <0.05 and a false discovery rate (FDR) <0.25. Ferroptosis-related genes were obtained from the FerrDb V2 database, and cuproptosis-related genes were obtained from the literature. We constructed a novel signature (CRF) by combing cuproptosis-related genes with ferroptosis-related genes using the STRING website. The SIC hub genes were obtained by overlapping DEGs, WGCNA-based hub genes and CRF genes, and receiver operating characteristic (ROC) curve analysis was used to determine the diagnostic value of hub genes. A transcription factor-microRNA-hub gene network was also constructed based on the miRnet database. Finally, potential therapeutic compounds for SIC were predicted based on the Drug Gene Interaction Database. Results: We identified 173 DEGs in SIC patients. Four hub modules and 411 hub genes were identified by WGCNA. A total of 144 genes were found in the CRF. Then, POR, SLC7A5 and STAT3 were identified as intersecting hub genes and their diagnostic values were confirmed with ROC curves. Drug screening identified 15 candidates for SIC treatment. Conclusion: We revealed that the cuproptosis- and ferroptosis-related genes, POR, SLC7A5 and STAT3, were significantly correlated with SIC and we also predicted therapeutic drugs for these targets. The findings from this study will make contributions to the development of treatments for SIC.
+37035738	26	37	cuproptosis	Disease	
+37035738	43	54	ferroptosis	Disease	
+37035738	72	101	sepsis-induced cardiomyopathy	Disease	MESH:D009202
+37035738	114	133	Cardiac dysfunction	Disease	MESH:D006331
+37035738	144	150	sepsis	Disease	MESH:D018805
+37035738	167	196	sepsis-induced cardiomyopathy	Disease	MESH:D009202
+37035738	198	201	SIC	Disease	MESH:D009202
+37035738	248	254	sepsis	Disease	MESH:D018805
+37035738	260	271	ferroptosis	Disease	
+37035738	342	353	cuproptosis	Disease	
+37035738	359	370	ferroptosis	Disease	
+37035738	397	400	SIC	Disease	MESH:D009202
+37035738	459	462	SIC	Disease	MESH:D009202
+37035738	513	516	SIC	Disease	MESH:D009202
+37035738	517	525	patients	Species	9606
+37035738	996	1007	Ferroptosis	Disease	
+37035738	1069	1080	cuproptosis	Disease	
+37035738	1164	1167	CRF	Disease	
+37035738	1180	1191	cuproptosis	Disease	
+37035738	1211	1222	ferroptosis	Disease	
+37035738	1267	1270	SIC	Disease	MESH:D009202
+37035738	1342	1345	CRF	Disease	
+37035738	1614	1617	SIC	Disease	MESH:D009202
+37035738	1713	1716	SIC	Disease	MESH:D009202
+37035738	1717	1725	patients	Species	9606
+37035738	1827	1830	CRF	Disease	
+37035738	1838	1841	POR	Gene	5447
+37035738	1843	1849	SLC7A5	Gene	8140
+37035738	1854	1859	STAT3	Gene	6774
+37035738	2006	2009	SIC	Disease	MESH:D009202
+37035738	2054	2065	cuproptosis	Disease	
+37035738	2071	2082	ferroptosis	Disease	
+37035738	2098	2101	POR	Gene	5447
+37035738	2103	2109	SLC7A5	Gene	8140
+37035738	2114	2119	STAT3	Gene	6774
+37035738	2156	2159	SIC	Disease	MESH:D009202
+37035738	2309	2312	SIC	Disease	MESH:D009202
+37035738	Association	MESH:D009202	6774
+37035738	Association	MESH:D009202	5447
+37035738	Association	MESH:D009202	8140
+

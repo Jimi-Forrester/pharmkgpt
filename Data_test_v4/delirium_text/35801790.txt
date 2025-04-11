@@ -1,0 +1,73 @@
+35801790|t|Case report: novel mutations of NDUFS6 and NHLRC2 genes potentially cause the quick postnatal death of a Chinese Hani minority neonate with mitochondrial complex I deficiency and FINCA syndrome.
+35801790|a|INTRODUCTION: Mitochondrial complex I deficiency (MCID) and abbFINCA syndrome are lethal congenital diseases and cases in the neonatal period are rarely reported. Here, we identified a Chinese Hani minority neonate with rare MCID and FINCA syndrome. This study was to analyze the clinical manifestations and pathogenic gene variations, and to investigate causes of quick postnatal death of patient and possible molecular pathogenic mechanisms. PATIENT CONCERNS: A 17-day-old patient had reduced muscle tension, diminished primitive reflexes, significantly abnormal blood gas analysis, and progressively increased blood lactate and blood glucose. Imaging studies revealed pneumonia, pulmonary hypertension, and brain abnormalities. DIAGNOSIS: Whole-exome sequencing revealed that the NDUFS6 gene of the patient carried c. 344G > T (p.C115F) novel homozygous variation, and the NHLRC2 gene carried c. 1749C > G (p.F583L) and c. 2129C > T (p.T710M) novel compound heterozygous variation. INTERVENTIONS AND OUTCOMES: The patient was given endotracheal intubation, respiratory support, high-frequency ventilation, antishock therapy, as well as iNO and Alprostadil to reduce pulmonary hypertension and maintain homeostatic equilibrium. However, the patient was critically ill and died in 27 days. CONCLUSION: The patient has MCID due to a novel mutation in NDUFS6 and FINCA syndrome due to novel mutations in NHLRC2, which is the main reason for the rapid onset and quick death of the patient.
+35801790	32	38	NDUFS6	Gene	4726
+35801790	43	49	NHLRC2	Gene	374354
+35801790	84	99	postnatal death	Disease	MESH:D019052
+35801790	140	174	mitochondrial complex I deficiency	Disease	MESH:C537475
+35801790	179	193	FINCA syndrome	Disease	MESH:D013577
+35801790	209	243	Mitochondrial complex I deficiency	Disease	MESH:C537475
+35801790	245	249	MCID	Disease	MESH:C537475
+35801790	255	272	abbFINCA syndrome	Disease	MESH:D013577
+35801790	284	303	congenital diseases	Disease	MESH:D030342
+35801790	420	424	MCID	Disease	MESH:C537475
+35801790	429	443	FINCA syndrome	Disease	MESH:D013577
+35801790	566	581	postnatal death	Disease	MESH:D019052
+35801790	585	592	patient	Species	9606
+35801790	639	646	PATIENT	Species	9606
+35801790	670	677	patient	Species	9606
+35801790	682	704	reduced muscle tension	Disease	MESH:D009135
+35801790	814	821	lactate	Chemical	MESH:D019344
+35801790	832	839	glucose	Chemical	MESH:D005947
+35801790	866	875	pneumonia	Disease	MESH:D011014
+35801790	877	899	pulmonary hypertension	Disease	MESH:D006976
+35801790	905	924	brain abnormalities	Disease	MESH:D001927
+35801790	978	984	NDUFS6	Gene	4726
+35801790	997	1004	patient	Species	9606
+35801790	1013	1024	c. 344G > T	DNAMutation	tmVar:c|SUB|G|344|T;HGVS:c.344G>T;VariantGroup:0;CorrespondingGene:374354;RS#:550737997;CorrespondingSpecies:9606
+35801790	1026	1033	p.C115F	ProteinMutation	tmVar:p|SUB|C|115|F;HGVS:p.C115F;VariantGroup:0;CorrespondingGene:374354;RS#:550737997;CorrespondingSpecies:9606
+35801790	1071	1077	NHLRC2	Gene	374354
+35801790	1091	1103	c. 1749C > G	DNAMutation	tmVar:c|SUB|C|1749|G;HGVS:c.1749C>G;VariantGroup:2;CorrespondingGene:374354;CorrespondingSpecies:9606
+35801790	1105	1112	p.F583L	ProteinMutation	tmVar:p|SUB|F|583|L;HGVS:p.F583L;VariantGroup:3;CorrespondingGene:374354;CorrespondingSpecies:9606
+35801790	1118	1130	c. 2129C > T	DNAMutation	tmVar:c|SUB|C|2129|T;HGVS:c.2129C>T;VariantGroup:1;CorrespondingGene:374354;RS#:566806367;CorrespondingSpecies:9606
+35801790	1132	1139	p.T710M	ProteinMutation	tmVar:p|SUB|T|710|M;HGVS:p.T710M;VariantGroup:1;CorrespondingGene:374354;RS#:566806367;CorrespondingSpecies:9606
+35801790	1212	1219	patient	Species	9606
+35801790	1334	1337	iNO	Chemical	MESH:D007288
+35801790	1342	1353	Alprostadil	Chemical	MESH:D000527
+35801790	1364	1386	pulmonary hypertension	Disease	MESH:D006976
+35801790	1438	1445	patient	Species	9606
+35801790	1450	1464	critically ill	Disease	MESH:D016638
+35801790	1469	1473	died	Disease	MESH:D003643
+35801790	1502	1509	patient	Species	9606
+35801790	1514	1518	MCID	Disease	MESH:C537475
+35801790	1546	1552	NDUFS6	Gene	4726
+35801790	1557	1571	FINCA syndrome	Disease	MESH:D013577
+35801790	1598	1604	NHLRC2	Gene	374354
+35801790	1661	1666	death	Disease	MESH:D003643
+35801790	1674	1681	patient	Species	9606
+35801790	Positive_Correlation	MESH:D013577	RS#:550737997;HGVS:p.C115F;CorrespondingGene:374354
+35801790	Positive_Correlation	MESH:D003643	RS#:550737997;HGVS:p.C115F;CorrespondingGene:374354
+35801790	Positive_Correlation	MESH:D013577	RS#:566806367;HGVS:p.T710M;CorrespondingGene:374354
+35801790	Positive_Correlation	MESH:D003643	RS#:566806367;HGVS:p.T710M;CorrespondingGene:374354
+35801790	Positive_Correlation	MESH:C537475	RS#:566806367;HGVS:p.T710M;CorrespondingGene:374354
+35801790	Positive_Correlation	MESH:D013577	HGVS:p.F583L;CorrespondingGene:374354
+35801790	Positive_Correlation	MESH:D019052	RS#:550737997;HGVS:p.C115F;CorrespondingGene:374354
+35801790	Association	MESH:D019052	374354
+35801790	Association	MESH:D019052	RS#:566806367;HGVS:p.T710M;CorrespondingGene:374354
+35801790	Association	MESH:C537475	374354
+35801790	Positive_Correlation	MESH:C537475	RS#:550737997;HGVS:p.C115F;CorrespondingGene:374354
+35801790	Positive_Correlation	MESH:D003643	HGVS:p.F583L;CorrespondingGene:374354
+35801790	Association	MESH:D016638	374354
+35801790	Positive_Correlation	MESH:C537475	HGVS:p.F583L;CorrespondingGene:374354
+35801790	Negative_Correlation	MESH:D007288	MESH:D006976
+35801790	Association	MESH:D006976	4726
+35801790	Negative_Correlation	MESH:D000527	MESH:D006976
+35801790	Association	MESH:C537475	4726
+35801790	Association	MESH:D019052	4726
+35801790	Association	MESH:D013577	374354
+35801790	Association	MESH:D003643	374354
+35801790	Association	MESH:D013577	4726
+35801790	Association	MESH:D013577	374354
+35801790	Association	MESH:D003643	374354
+35801790	Association	MESH:C537475	374354
+35801790	Association	MESH:D019052	374354
+

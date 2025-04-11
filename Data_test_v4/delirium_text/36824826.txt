@@ -1,0 +1,18 @@
+36824826|t|Predicting Brain Amyloid Positivity from T1 weighted brain MRI and MRI-derived Gray Matter, White Matter and CSF maps using Transfer Learning on 3D CNNs.
+36824826|a|Abnormal beta-amyloid (Abeta) accumulation in the brain is an early indicator of Alzheimer's disease and practical tests could help identify patients who could respond to treatment, now that promising anti-amyloid drugs are available. Even so, Abeta positivity (Abeta+) is assessed using PET or CSF assays, both highly invasive procedures. Here, we investigate how well Abeta+ can be predicted from T1 weighted brain MRI and gray matter, white matter and cerebrospinal fluid segmentations from T1-weighted brain MRI (T1w), a less invasive alternative. We used 3D convolutional neural networks to predict Abeta+ based on 3D brain MRI data, from 762 elderly subjects (mean age: 75.1 yrs. +-7.6SD; 394F/368M; 459 healthy controls, 67 with MCI and 236 with dementia) scanned as part of the Alzheimer's Disease Neuroimaging Initiative. We also tested whether the accuracy increases when using transfer learning from the larger UK Biobank dataset. Overall, the 3D CNN predicted Abeta+ with 76% balanced accuracy from T1w scans. The closest performance to this was using white matter maps alone when the model was pre-trained on an age prediction in the UK Biobank. The performance of individual tissue maps was less than the T1w, but transfer learning helped increase the accuracy. Although tests on more diverse data are warranted, deep learned models from standard MRI show initial promise for Abeta+ estimation, before considering more invasive procedures. Clinical Relevance: Early detection of Abeta positivity from less invasive MRI images, could offer a screening test prior to more invasive testing procedures.
+36824826	177	182	Abeta	Gene	351
+36824826	235	254	Alzheimer's disease	Disease	MESH:D000544
+36824826	295	303	patients	Species	9606
+36824826	360	367	amyloid	Disease	MESH:C000718787
+36824826	398	403	Abeta	Gene	351
+36824826	416	421	Abeta	Gene	351
+36824826	524	529	Abeta	Gene	351
+36824826	758	763	Abeta	Gene	351
+36824826	890	893	MCI	Disease	
+36824826	907	915	dementia	Disease	MESH:D003704
+36824826	940	959	Alzheimer's Disease	Disease	MESH:D000544
+36824826	1126	1131	Abeta	Gene	351
+36824826	1544	1549	Abeta	Gene	351
+36824826	1647	1652	Abeta	Gene	351
+36824826	Association	MESH:D000544	351
+

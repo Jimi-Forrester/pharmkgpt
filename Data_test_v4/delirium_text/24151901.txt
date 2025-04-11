@@ -1,0 +1,15 @@
+24151901|t|Automated hippocampal segmentation in patients with epilepsy: available free online.
+24151901|a|PURPOSE: Hippocampal sclerosis, a common cause of refractory focal epilepsy, requires hippocampal volumetry for accurate diagnosis and surgical planning. Manual segmentation is time-consuming and subject to interrater/intrarater variability. Automated algorithms perform poorly in patients with temporal lobe epilepsy. We validate and make freely available online a novel automated method. METHODS: Manual hippocampal segmentation was performed on 876, 3T MRI scans and 202, 1.5T scans. A template database of 400 high-quality manual segmentations was used to perform automated segmentation of all scans with a multi-atlas-based segmentation propagation method adapted to perform label fusion based on local similarity to ensure accurate segmentation regardless of pathology. Agreement between manual and automated segmentations was assessed by degree of overlap (Dice coefficient) and comparison of hippocampal volumes. KEY FINDINGS: The automated segmentation algorithm provided robust delineation of the hippocampi on 3T scans with no more variability than that seen between different human raters (Dice coefficients: interrater 0.832, manual vs. automated 0.847). In addition, the algorithm provided excellent results with the 1.5T scans (Dice coefficient 0.827), and automated segmentation remained accurate even in small sclerotic hippocampi. There was a strong correlation between manual and automated hippocampal volumes (Pearson correlation coefficient 0.929 on the left and 0.941 on the right in 3T scans). SIGNIFICANCE: We demonstrate reliable identification of hippocampal atrophy in patients with hippocampal sclerosis, which is crucial for clinical management of epilepsy, particularly if surgical treatment is being contemplated. We provide a free online Web-based service to enable hippocampal volumetry to be available globally, with consequent greatly improved evaluation of those with epilepsy.
+24151901	38	46	patients	Species	9606
+24151901	52	60	epilepsy	Disease	MESH:D004827
+24151901	94	115	Hippocampal sclerosis	Disease	MESH:D000092223
+24151901	135	160	refractory focal epilepsy	Disease	MESH:D000069279
+24151901	366	374	patients	Species	9606
+24151901	380	402	temporal lobe epilepsy	Disease	MESH:D004833
+24151901	1173	1178	human	Species	9606
+24151901	1658	1677	hippocampal atrophy	Disease	MESH:D001284
+24151901	1681	1689	patients	Species	9606
+24151901	1695	1716	hippocampal sclerosis	Disease	MESH:D000092223
+24151901	1762	1770	epilepsy	Disease	MESH:D004827
+24151901	1989	1997	epilepsy	Disease	MESH:D004827
+

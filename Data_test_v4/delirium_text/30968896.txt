@@ -1,0 +1,23 @@
+30968896|t|Computational models explain how copper binding to amyloid-beta peptide oligomers enhances oxidative pathways.
+30968896|a|Amyloid-beta (Abeta) peptides are intrinsically disordered peptides and their aggregation is the major hallmark of Alzheimer's disease (AD) development. The interactions between copper ions and Abeta peptides create catalysts that activate the production of reactive oxygen species in the synaptic region, a reactivity that is strongly related to AD onset. Recent experimental work [Gu et al., Sci. Rep., 2018, 8(1), 16190] confirmed that the oxidative reactivity of Cu-Abeta catalyzes the formation of Tyr-Tyr crosslinks in peptide dimers. This work provides a structural basis to these observations, describing structures of Cu-Abeta dimers that enhance the propagation of the oxidative pathways activated around the Cu center. Among these, the formation of Tyr-Tyr crosslinks becomes more likely when previous crosslinks involve Cu forming bridges between different peptides. Peptides are, therefore, easily assembled into dimers and tetramers, the latter being dimers of dimers. The size of such dimers and tetramers fits with ion mobility mass spectrometry results [Sitkiewicz et al., J. Mol. Biol., 2014, 426(15), 2871].
+30968896	33	39	copper	Chemical	MESH:D003300
+30968896	111	123	Amyloid-beta	Gene	351
+30968896	125	130	Abeta	Gene	351
+30968896	226	245	Alzheimer's disease	Disease	MESH:D000544
+30968896	247	249	AD	Disease	MESH:D000544
+30968896	289	295	copper	Chemical	MESH:D003300
+30968896	305	310	Abeta	Gene	351
+30968896	369	392	reactive oxygen species	Chemical	MESH:D017382
+30968896	458	460	AD	Disease	MESH:D000544
+30968896	614	621	Tyr-Tyr	Chemical	MESH:C042696
+30968896	830	832	Cu	Chemical	MESH:D003300
+30968896	871	878	Tyr-Tyr	Chemical	MESH:C042696
+30968896	943	945	Cu	Chemical	MESH:D003300
+30968896	Association	MESH:D003300	351
+30968896	Positive_Correlation	MESH:D017382	351
+30968896	Association	MESH:D017382	MESH:D000544
+30968896	Association	MESH:D000544	351
+30968896	Association	MESH:D003300	MESH:D000544
+30968896	Association	MESH:C042696	MESH:D003300
+30968896	Positive_Correlation	MESH:D003300	MESH:D017382
+

@@ -1,0 +1,14 @@
+36865324|t|Manipulating single-unit theta phase-locking with PhaSER: An open-source tool for real-time phase estimation and manipulation.
+36865324|a|The precise timing of neuronal spiking relative to the brain's endogenous oscillations (i.e., phase-locking or spike-phase coupling) has long been hypothesized to coordinate cognitive processes and maintain excitatory-inhibitory homeostasis. Indeed, disruptions in theta phase-locking have been described in models of neurological diseases with associated cognitive deficits and seizures, such as Alzheimer's disease, temporal lobe epilepsy, and autism spectrum disorders. However, due to technical limitations, determining if phase-locking causally contributes to these disease phenotypes has not been possible until recently. To fill this gap and allow for the flexible manipulation of single-unit phase-locking to on-going endogenous oscillations, we developed PhaSER, an open-source tool that allows for phase-specific manipulations. PhaSER can deliver optogenetic stimulation at defined phases of theta in order to shift the preferred firing phase of neurons relative to theta in real-time. Here, we describe and validate this tool in a subpopulation of inhibitory neurons that express somatostatin (SOM) in the CA1 and dentate gyrus (DG) regions of the dorsal hippocampus. We show that PhaSER is able to accurately deliver a photo-manipulation that activates opsin+ SOM neurons at specified phases of theta in real-time in awake, behaving mice. Further, we show that this manipulation is sufficient to alter the preferred firing phase of opsin+ SOM neurons without altering the referenced theta power or phase. All software and hardware requirements to implement real-time phase manipulations during behavior are available online ( https://github.com/ShumanLab/PhaSER ).
+36865324	445	466	neurological diseases	Disease	MESH:D020271
+36865324	483	501	cognitive deficits	Disease	MESH:D003072
+36865324	506	514	seizures	Disease	MESH:D012640
+36865324	524	543	Alzheimer's disease	Disease	MESH:D000544
+36865324	545	567	temporal lobe epilepsy	Disease	MESH:D004833
+36865324	573	598	autism spectrum disorders	Disease	MESH:D000067877
+36865324	1218	1230	somatostatin	Gene	20604
+36865324	1232	1235	SOM	Gene	20604
+36865324	1399	1402	SOM	Gene	20604
+36865324	1472	1476	mice	Species	10090
+36865324	1578	1581	SOM	Gene	20604
+

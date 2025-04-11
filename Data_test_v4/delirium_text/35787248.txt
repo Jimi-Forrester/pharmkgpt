@@ -1,0 +1,23 @@
+35787248|t|Machine learning approach for the prediction of 30-day mortality in patients with sepsis-associated encephalopathy.
+35787248|a|OBJECTIVE: Our study aimed to identify predictors as well as develop machine learning (ML) models to predict the risk of 30-day mortality in patients with sepsis-associated encephalopathy (SAE). MATERIALS AND METHODS: ML models were developed and validated based on a public database named Medical Information Mart for Intensive Care (MIMIC)-IV. Models were compared by the area under the curve (AUC), accuracy, sensitivity, specificity, positive and negative predictive values, and Hosmer-Lemeshow good of fit test. RESULTS: Of 6994 patients in MIMIC-IV included in the final cohort, a total of 1232 (17.62%) patients died following SAE. Recursive feature elimination (RFE) selected 15 variables, including acute physiology score III (APSIII), Glasgow coma score (GCS), sepsis related organ failure assessment (SOFA), Charlson comorbidity index (CCI), red blood cell volume distribution width (RDW), blood urea nitrogen (BUN), age, respiratory rate, PaO2, temperature, lactate, creatinine (CRE), malignant cancer, metastatic solid tumor, and platelet (PLT). The validation cohort demonstrated all ML approaches had higher discriminative ability compared with the bagged trees (BT) model, although the difference was not statistically significant. Furthermore, in terms of the calibration performance, the artificial neural network (NNET), logistic regression (LR), and adapting boosting (Ada) models had a good calibration-namely, a high accuracy of prediction, with P-values of 0.831, 0.119, and 0.129, respectively. CONCLUSIONS: The ML models, as demonstrated by our study, can be used to evaluate the prognosis of SAE patients in the intensive care unit (ICU). Online calculator could facilitate the sharing of predictive models.
+35787248	68	76	patients	Species	9606
+35787248	82	114	sepsis-associated encephalopathy	Disease	MESH:D065166
+35787248	257	265	patients	Species	9606
+35787248	271	303	sepsis-associated encephalopathy	Disease	MESH:D065166
+35787248	305	308	SAE	Disease	MESH:D065166
+35787248	650	658	patients	Species	9606
+35787248	662	670	MIMIC-IV	Disease	MESH:C000657744
+35787248	726	734	patients	Species	9606
+35787248	735	739	died	Disease	MESH:D003643
+35787248	750	753	SAE	Disease	MESH:D065166
+35787248	824	840	acute physiology	Disease	MESH:D000208
+35787248	869	873	coma	Disease	MESH:D003128
+35787248	887	915	sepsis related organ failure	Disease	MESH:D009102
+35787248	1086	1093	lactate	Chemical	MESH:D019344
+35787248	1095	1105	creatinine	Chemical	MESH:D003404
+35787248	1107	1110	CRE	Chemical	MESH:D003404
+35787248	1113	1129	malignant cancer	Disease	MESH:D009369
+35787248	1148	1153	tumor	Disease	MESH:D009369
+35787248	1734	1737	SAE	Disease	MESH:D065166
+35787248	1738	1746	patients	Species	9606
+

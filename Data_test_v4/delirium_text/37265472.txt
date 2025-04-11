@@ -1,0 +1,41 @@
+37265472|t|Transcriptomic analysis reveals the potential biological mechanism of AIS and lung adenocarcinoma.
+37265472|a|Introduction: Acute ischemic stroke (AIS) and lung adenocarcinoma (LUAD) are associated with some of the highest morbidity and mortality rates worldwide. Despite reports on their strong correlation, the causal relationship is not fully understood. The study aimed to identify and annotate the biological functions of hub genes with clinical diagnostic efficacy in AIS and LUAD. Methods: Transcriptome and single-cell datasets were obtained from the Gene Expression Omnibus (GEO) and The Cancer Genome Atlas (TCGA). We identified the differentially expressed genes (DEGs) upregulated in AIS and LUAD and found 372 genes intersecting both datasets. Hub genes were identified using protein-protein interaction (PPI) networks, and the diagnostic and prognostic utility of these hub genes was then investigated using receiver operating characteristic (ROC) curves, survival analysis, and univariable Cox proportional hazard regression. Single-cell analysis was used to detect whether the hub genes were expressed in tumor epithelial cells. The immune microenvironment of AIS and LUAD was assessed using the CIBERSORT algorithm. The protein expression of these hub genes was tracked using the Human Protein Atlas (HPA). We calculated the number of positive cells using the digital pathology software QuPath. Finally, we performed molecular docking after using the Enrichr database to predict possible medicines. Results: We identified the molecular mechanisms underlying hub genes in AIS and LUAD and found that CCNA2, CCNB1, CDKN2A, and CDK1 were highly expressed in AIS and LUAD tissue samples compared to controls. The hub genes were mainly involved in the following pathways: the cell cycle, cellular senescence, and the HIF-1 signaling pathway. Using immunohistochemical slices from the HPA database, we confirmed that these hub genes have a high diagnostic capability for AIS and LUAD. Further, their high expression is associated with poor prognosis. Finally, curcumin was tested as a potential medication using molecular docking modeling. Discussion: Our findings suggest that the hub genes we found in this study contribute to the development and progression of AIS and LUAD by altering the cellular senescence pathway. Thus, they may be promising markers for diagnosis and prognosis.
+37265472	70	73	AIS	Disease	MESH:D000083242
+37265472	78	97	lung adenocarcinoma	Disease	MESH:D000077192
+37265472	113	134	Acute ischemic stroke	Disease	MESH:D000083242
+37265472	136	139	AIS	Disease	MESH:D000083242
+37265472	145	164	lung adenocarcinoma	Disease	MESH:D000077192
+37265472	166	170	LUAD	Disease	MESH:D000077192
+37265472	463	466	AIS	Disease	MESH:D000083242
+37265472	471	475	LUAD	Disease	MESH:D000077192
+37265472	586	592	Cancer	Disease	MESH:D009369
+37265472	685	688	AIS	Disease	MESH:D000083242
+37265472	693	697	LUAD	Disease	MESH:D000077192
+37265472	1110	1115	tumor	Disease	MESH:D009369
+37265472	1165	1168	AIS	Disease	MESH:D000083242
+37265472	1173	1177	LUAD	Disease	MESH:D000077192
+37265472	1286	1291	Human	Species	9606
+37265472	1577	1580	AIS	Disease	MESH:D000083242
+37265472	1585	1589	LUAD	Disease	MESH:D000077192
+37265472	1605	1610	CCNA2	Gene	890
+37265472	1612	1617	CCNB1	Gene	891
+37265472	1619	1625	CDKN2A	Gene	1029
+37265472	1631	1635	CDK1	Gene	983
+37265472	1661	1664	AIS	Disease	MESH:D000083242
+37265472	1669	1673	LUAD	Disease	MESH:D000077192
+37265472	1818	1823	HIF-1	Gene	3091
+37265472	1971	1974	AIS	Disease	MESH:D000083242
+37265472	1979	1983	LUAD	Disease	MESH:D000077192
+37265472	2060	2068	curcumin	Chemical	MESH:D003474
+37265472	2264	2267	AIS	Disease	MESH:D000083242
+37265472	2272	2276	LUAD	Disease	MESH:D000077192
+37265472	Association	MESH:D000077192	890
+37265472	Association	MESH:D000083242	1029
+37265472	Association	MESH:D000083242	890
+37265472	Association	MESH:D000077192	1029
+37265472	Association	MESH:D000077192	3091
+37265472	Association	MESH:D000077192	983
+37265472	Association	MESH:D000083242	891
+37265472	Association	MESH:D000083242	983
+37265472	Association	MESH:D000077192	891
+

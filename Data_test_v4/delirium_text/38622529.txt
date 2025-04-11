@@ -1,0 +1,28 @@
+38622529|t|In silico analysis of intestinal microbial instability and symptomatic markers in mice during the acute phase of severe burns.
+38622529|a|BACKGROUND: Severe burns may alter the stability of the intestinal flora and affect the patient's recovery process. Understanding the characteristics of the gut microbiota in the acute phase of burns and their association with phenotype can help to accurately assess the progression of the disease and identify potential microbiota markers. METHODS: We established mouse models of partial thickness deep III degree burns and collected faecal samples for 16 S rRNA amplification and high throughput sequencing at two time points in the acute phase for independent bioinformatic analysis. RESULTS: We analysed the sequencing results using alpha diversity, beta diversity and machine learning methods. At both time points, 4 and 6 h after burning, the Firmicutes phylum content decreased and the content of the Bacteroidetes phylum content increased, showing a significant decrease in the Firmicutes/Bacteroidetes ratio compared to the control group. Nine bacterial genera changed significantly during the acute phase and occupied the top six positions in the Random Forest significance ranking. Clustering results also clearly showed that there was a clear boundary between the communities of burned and control mice. Functional analyses showed that during the acute phase of burn, gut bacteria increased lipoic acid metabolism, seleno-compound metabolism, TCA cycling, and carbon fixation, while decreasing galactose metabolism and triglyceride metabolism. Based on the abundance characteristics of the six significantly different bacterial genera, both the XGboost and Random Forest models were able to discriminate between the burn and control groups with 100% accuracy, while both the Random Forest and Support Vector Machine models were able to classify samples from the 4-hour and 6-hour burn groups with 86.7% accuracy. CONCLUSIONS: Our study shows an increase in gut microbiota diversity in the acute phase of deep burn injury, rather than a decrease as is commonly believed. Severe burns result in a severe imbalance of the gut flora, with a decrease in probiotics and an increase in microorganisms that trigger inflammation and cognitive deficits, and multiple pathways of metabolism and substance synthesis are affected. Simple machine learning model testing suggests several bacterial genera as potential biomarkers of severe burn phenotypes.
+38622529	82	86	mice	Species	10090
+38622529	120	125	burns	Disease	MESH:D002056
+38622529	146	151	burns	Disease	MESH:D002056
+38622529	215	222	patient	Species	9606
+38622529	321	326	burns	Disease	MESH:D002056
+38622529	492	497	mouse	Species	10090
+38622529	542	547	burns	Disease	MESH:D002056
+38622529	1337	1341	mice	Species	10090
+38622529	1401	1405	burn	Disease	MESH:D002056
+38622529	1430	1441	lipoic acid	Chemical	MESH:D008063
+38622529	1482	1485	TCA	Chemical	MESH:D014238
+38622529	1499	1505	carbon	Chemical	MESH:D002244
+38622529	1533	1542	galactose	Chemical	MESH:D005690
+38622529	1558	1570	triglyceride	Chemical	MESH:D014280
+38622529	1755	1759	burn	Disease	MESH:D002056
+38622529	1919	1923	burn	Disease	MESH:D002056
+38622529	2048	2059	burn injury	Disease	MESH:D002056
+38622529	2116	2121	burns	Disease	MESH:D002056
+38622529	2246	2258	inflammation	Disease	MESH:D007249
+38622529	2263	2281	cognitive deficits	Disease	MESH:D003072
+38622529	2463	2467	burn	Disease	MESH:D002056
+38622529	Association	MESH:D014238	MESH:D002056
+38622529	Association	MESH:D008063	MESH:D002056
+38622529	Association	MESH:D005690	MESH:D002056
+38622529	Association	MESH:D014280	MESH:D002056
+

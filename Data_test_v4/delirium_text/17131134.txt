@@ -1,0 +1,27 @@
+17131134|t|Does trazodone have a role in palliating symptoms?
+17131134|a|INTRODUCTION: Trazodone is a unique antidepressant, which blocks the postsynaptic serotonin (5-HT) receptors, 5-HT(2A) and 5-HT(2C), and weakly inhibits presynaptic 5-HT transporters. DISCUSSION: Trazodone is well-absorbed by the mouth and is metabolized by three cytochromes: CYP1A2, CYP2D6, and CYP3A4. Clinical benefits include reduced insomnia in those depressed and/or on antidepressants. Pain may be relieved by mechanisms similar to venlafaxine. Delirium unresponsive to neuroleptics has been reported to respond to trazodone. Drug interactions are a risk due to cytochrome metabolism. CONCLUSION: Trazodone has a unique pharmacology, which may be an advantage in palliating symptoms; however, little evidence is available through cohort or randomized trials to give guidance to its use.
+17131134	5	14	trazodone	Chemical	MESH:D014196
+17131134	65	74	Trazodone	Chemical	MESH:D014196
+17131134	161	169	5-HT(2A)	Gene	3356
+17131134	174	182	5-HT(2C)	Gene	3358
+17131134	247	256	Trazodone	Chemical	MESH:D014196
+17131134	328	334	CYP1A2	Gene	1544
+17131134	336	342	CYP2D6	Gene	1565
+17131134	348	354	CYP3A4	Gene	1576
+17131134	390	398	insomnia	Disease	MESH:D007319
+17131134	408	417	depressed	Disease	MESH:D003866
+17131134	445	449	Pain	Disease	MESH:D010146
+17131134	491	502	venlafaxine	Chemical	MESH:D000069470
+17131134	504	512	Delirium	Disease	MESH:D003693
+17131134	574	583	trazodone	Chemical	MESH:D014196
+17131134	656	665	Trazodone	Chemical	MESH:D014196
+17131134	Negative_Correlation	MESH:D014196	MESH:D003866
+17131134	Negative_Correlation	MESH:D000069470	MESH:D010146
+17131134	Negative_Correlation	MESH:D014196	MESH:D007319
+17131134	Association	MESH:D014196	1544
+17131134	Negative_Correlation	MESH:D014196	3358
+17131134	Positive_Correlation	MESH:D014196	MESH:D003693
+17131134	Negative_Correlation	MESH:D014196	3356
+17131134	Association	MESH:D014196	1565
+17131134	Association	MESH:D014196	1576
+

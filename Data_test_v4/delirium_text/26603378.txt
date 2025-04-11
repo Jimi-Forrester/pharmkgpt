@@ -1,0 +1,14 @@
+26603378|t|Identification of progressive mild cognitive impairment patients using incomplete longitudinal MRI scans.
+26603378|a|Distinguishing progressive mild cognitive impairment (pMCI) from stable mild cognitive impairment (sMCI) is critical for identification of patients who are at risk for Alzheimer's disease (AD), so that early treatment can be administered. In this paper, we propose a pMCI/sMCI classification framework that harnesses information available in longitudinal magnetic resonance imaging (MRI) data, which could be incomplete, to improve diagnostic accuracy. Volumetric features were first extracted from the baseline MRI scan and subsequent scans acquired after 6, 12, and 18 months. Dynamic features were then obtained using the 18th month scan as the reference and computing the ratios of feature differences for the earlier scans. Features that are linearly or non-linearly correlated with diagnostic labels are then selected using two elastic net sparse learning algorithms. Missing feature values due to the incomplete longitudinal data are imputed using a low-rank matrix completion method. Finally, based on the completed feature matrix, we build a multi-kernel support vector machine (mkSVM) to predict the diagnostic label of samples with unknown diagnostic statuses. Our evaluation indicates that a diagnosis accuracy as high as 78.2 % can be achieved when information from the longitudinal scans is used-6.6 % higher than the case using only the reference time point image. In other words, information provided by the longitudinal history of the disease improves diagnosis accuracy.
+26603378	18	55	progressive mild cognitive impairment	Disease	MESH:D060825
+26603378	56	64	patients	Species	9606
+26603378	121	158	progressive mild cognitive impairment	Disease	MESH:D060825
+26603378	160	164	pMCI	Disease	MESH:D060825
+26603378	171	203	stable mild cognitive impairment	Disease	MESH:D060825
+26603378	205	209	sMCI	Disease	MESH:D060825
+26603378	245	253	patients	Species	9606
+26603378	274	293	Alzheimer's disease	Disease	MESH:D000544
+26603378	295	297	AD	Disease	MESH:D000544
+26603378	373	377	pMCI	Disease	MESH:D060825
+26603378	378	382	sMCI	Disease	MESH:D060825
+

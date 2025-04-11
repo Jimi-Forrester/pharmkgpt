@@ -1,0 +1,13 @@
+33990663|t|Exploring the feasibility of using real-world data from a large clinical data research network to simulate clinical trials of Alzheimer's disease.
+33990663|a|In this study, we explored the feasibility of using real-world data (RWD) from a large clinical research network to simulate real-world clinical trials of Alzheimer's disease (AD). The target trial (i.e., NCT00478205) is a Phase III double-blind, parallel-group trial that compared the 23 mg donepezil sustained release with the 10 mg donepezil immediate release formulation in patients with moderate to severe AD. We followed the target trial's study protocol to identify the study population, treatment regimen assignments and outcome assessments, and to set up a number of different simulation scenarios and parameters. We considered two main scenarios: (1) a one-arm simulation: simulating a standard-of-care (SOC) arm that can serve as an external control arm; and (2) a two-arm simulation: simulating both intervention and control arms with proper patient matching algorithms for comparative effectiveness analysis. In the two-arm simulation scenario, we used propensity score matching controlling for baseline characteristics to simulate the randomization process. In the two-arm simulation, higher serious adverse event (SAE) rates were observed in the simulated trials than the rates reported in original trial, and a higher SAE rate was observed in the 23 mg arm than in the 10 mg SOC arm. In the one-arm simulation scenario, similar estimates of SAE rates were observed when proportional sampling was used to control demographic variables. In conclusion, trial simulation using RWD is feasible in this example of AD trial in terms of safety evaluation. Trial simulation using RWD could be a valuable tool for post-market comparative effectiveness studies and for informing future trials' design. Nevertheless, such an approach may be limited, for example, by the availability of RWD that matches the target trials of interest, and further investigations are warranted.
+33990663	126	145	Alzheimer's disease	Disease	MESH:D000544
+33990663	302	321	Alzheimer's disease	Disease	MESH:D000544
+33990663	323	325	AD	Disease	MESH:D000544
+33990663	439	448	donepezil	Chemical	MESH:D000077265
+33990663	482	491	donepezil	Chemical	MESH:D000077265
+33990663	525	533	patients	Species	9606
+33990663	558	560	AD	Disease	MESH:D000544
+33990663	1001	1008	patient	Species	9606
+33990663	1671	1673	AD	Disease	MESH:D000544
+33990663	Negative_Correlation	MESH:D000077265	MESH:D000544
+

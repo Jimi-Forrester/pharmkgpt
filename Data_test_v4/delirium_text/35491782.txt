@@ -1,0 +1,15 @@
+35491782|t|A Stacking Framework for Multi-Classification of Alzheimer's Disease Using Neuroimaging and Clinical Features.
+35491782|a|BACKGROUND: Alzheimer's disease (AD) is a severe health problem. Challenges still remain in early diagnosis. OBJECTIVE: The objective of this study was to build a Stacking framework for multi-classification of AD by a combination of neuroimaging and clinical features to improve the performance. METHODS: The data we used were from the Alzheimer's Disease Neuroimaging Initiative database with a total of 493 subjects, including 125 normal control (NC), 121 early mild cognitive impairment, 109 late mild cognitive impairment (LMCI), and 138 AD. We selected structural magnetic resonance imaging (sMRI) feature by voting strategy. The imaging feature, demographic information, Mini-Mental State Examination, and Alzheimer's Disease Assessment Scale-Cognitive Subscale were combined together as classification features. We proposed a two-layer Stacking ensemble framework to classify four types of people. The first layer represented support vector machine, random forest, adaptive boosting, and gradient boosting decision tree; the second layer was a logistic regression classifier. Additionally, we analyzed performance of only sMRI feature and combined features and compared the proposed model with four base classifiers. RESULTS: The Stacking model combined with sMRI and non-imaging features outshined four base classifiers with an average accuracy of 86.96%. Compared with using sMRI data alone, sMRI combined with non-imaging features significantly improved diagnostic accuracy, especially in NC versus LMCI. CONCLUSION: The Stacking framework we used can improve performance in diagnosis of AD using combined features.
+35491782	49	68	Alzheimer's Disease	Disease	MESH:D000544
+35491782	123	142	Alzheimer's disease	Disease	MESH:D000544
+35491782	144	146	AD	Disease	MESH:D000544
+35491782	321	323	AD	Disease	MESH:D000544
+35491782	447	466	Alzheimer's Disease	Disease	MESH:D000544
+35491782	580	600	cognitive impairment	Disease	MESH:D003072
+35491782	616	636	cognitive impairment	Disease	MESH:D003072
+35491782	638	642	LMCI	Disease	MESH:D060825
+35491782	653	655	AD	Disease	MESH:D000544
+35491782	823	842	Alzheimer's Disease	Disease	MESH:D000544
+35491782	1620	1624	LMCI	Disease	MESH:D060825
+35491782	1709	1711	AD	Disease	MESH:D000544
+

@@ -1,0 +1,10 @@
+37200398|t|Combining Mendelian randomization and network deconvolution for inference of causal networks with GWAS summary data.
+37200398|a|Mendelian randomization (MR) has been increasingly applied for causal inference with observational data by using genetic variants as instrumental variables (IVs). However, the current practice of MR has been largely restricted to investigating the total causal effect between two traits, while it would be useful to infer the direct causal effect between any two of many traits (by accounting for indirect or mediating effects through other traits). For this purpose we propose a two-step approach: we first apply an extended MR method to infer (i.e. both estimate and test) a causal network of total effects among multiple traits, then we modify a graph deconvolution algorithm to infer the corresponding network of direct effects. Simulation studies showed much better performance of our proposed method than existing ones. We applied the method to 17 large-scale GWAS summary datasets (with median N = 256879 and median #IVs = 48) to infer the causal networks of both total and direct effects among 11 common cardiometabolic risk factors, 4 cardiometabolic diseases (coronary artery disease, stroke, type 2 diabetes, atrial fibrillation), Alzheimer's disease and asthma, identifying some interesting causal pathways. We also provide an R Shiny app (https://zhaotongl.shinyapps.io/cMLgraph/) for users to explore any subset of the 17 traits of interest.
+37200398	1161	1185	cardiometabolic diseases	Disease	MESH:D024821
+37200398	1187	1210	coronary artery disease	Disease	MESH:D003324
+37200398	1212	1218	stroke	Disease	MESH:D020521
+37200398	1220	1235	type 2 diabetes	Disease	MESH:D003924
+37200398	1237	1256	atrial fibrillation	Disease	MESH:D001281
+37200398	1259	1278	Alzheimer's disease	Disease	MESH:D000544
+37200398	1283	1289	asthma	Disease	MESH:D001249
+

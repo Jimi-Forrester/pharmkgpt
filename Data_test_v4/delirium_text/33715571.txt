@@ -1,0 +1,14 @@
+33715571|t|Efficient optimization based thresholding technique for analysis of alzheimer MRIs.
+33715571|a|Purpose study: Alzheimer is a type of dementia that usually affects older adults by creating memory loss due to damaged brain cells. The damaged brain cells lead to shrinkage in the size of the brain and it is very difficult to extract the grey matter (GM) and white matter (WM). The segmentation of GM and WM is a challenging task due to its homogeneous nature between the neighborhood tissues. In this proposed system, an attempt has been made to extract GM and WM tissues using optimization-based segmentation techniques.Materials and methods: The optimization method is considered for the classification of normal and alzheimer disease (ad) through magnetic resonance images (mri) using a modified cuckoo search algorithm. Gray Level Co-Occurrence Matrix (GLCM) features are calculated from the extracted GM and WM. Principal Component Analysis (PCA) is adopted for selecting the best features from the GLCM features. Support Vector Machine (SVM) is a classifier which is used to classify the normal and abnormal images. Results: The proposed optimization algorithm provides most promising and efficient level of image segmentation compared to fuzzy c means (fcm), otsu, particle swarm optimization (pso) and cuckoo search (cs). The modified cuckoo yields high accuracy of 96%, sensitivity of 97% and specificity of 94% than other methods due to its powerful searching potential for the proper identification of gray and WM tissues.Conclusions: The results of the classification process proved the effectiveness of the proposed technique in identifying alzheimer affected patients due to its very strong optimization ability. The proposed pipeline helps to diagnose early detection of AD and better assessment of the neuroprotective effect of a therapy.
+33715571	68	77	alzheimer	Disease	MESH:D000544
+33715571	99	108	Alzheimer	Disease	MESH:D000544
+33715571	122	130	dementia	Disease	MESH:D003704
+33715571	177	188	memory loss	Disease	MESH:D008569
+33715571	706	715	alzheimer	Disease	MESH:D000544
+33715571	786	792	cuckoo	Species	55661
+33715571	1297	1303	cuckoo	Species	55661
+33715571	1330	1336	cuckoo	Species	55661
+33715571	1641	1650	alzheimer	Disease	MESH:D000544
+33715571	1660	1668	patients	Species	9606
+33715571	1773	1775	AD	Disease	MESH:D000544
+

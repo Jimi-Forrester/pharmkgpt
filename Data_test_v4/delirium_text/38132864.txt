@@ -1,0 +1,36 @@
+38132864|t|Bridging the Gap from Enterotypes to Personalized Dietary Recommendations: A Metabolomics Perspective on Microbiome Research.
+38132864|a|Advances in high-throughput DNA sequencing have propelled research into the human microbiome and its link to metabolic health. We explore microbiome analysis methods, specifically emphasizing metabolomics, how dietary choices impact the production of microbial metabolites, providing an overview of studies examining the connection between enterotypes and diet, and thus, improvement of personalized dietary recommendations. Acetate, propionate, and butyrate constitute more than 95% of the collective pool of short-chain fatty acids. Conflicting data on acetate's effects may result from its dynamic signaling, which can vary depending on physiological conditions and metabolic phenotypes. Human studies suggest that propionate has overall anti-obesity effects due to its well-documented chemistry, cellular signaling mechanisms, and various clinical benefits. Butyrate, similar to propionate, has the ability to reduce obesity by stimulating the release of appetite-suppressing hormones and promoting the synthesis of leptin. Tryptophan affects systemic hormone secretion, with indole stimulating the release of GLP-1, which impacts insulin secretion, appetite suppression, and gastric emptying. Bile acids, synthesized from cholesterol in the liver and subsequently modified by gut bacteria, play an essential role in the digestion and absorption of dietary fats and fat-soluble vitamins, but they also interact directly with intestinal microbiota and their metabolites. One study using statistical methods identified primarily two groupings of enterotypes Bacteroides and Ruminococcus. The Prevotella-dominated enterotype, P-type, in humans correlates with vegetarians, high-fiber and carbohydrate-rich diets, and traditional diets. Conversely, individuals who consume diets rich in animal fats and proteins, typical in Western-style diets, often exhibit the Bacteroides-dominated, B-type, enterotype. The P-type showcases efficient hydrolytic enzymes for plant fiber degradation but has limited lipid and protein fermentation capacity. Conversely, the B-type features specialized enzymes tailored for the degradation of animal-derived carbohydrates and proteins, showcasing an enhanced saccharolytic and proteolytic potential. Generally, models excel at predictions but often struggle to fully elucidate why certain substances yield varied responses. These studies provide valuable insights into the potential for personalized dietary recommendations based on enterotypes.
+38132864	202	207	human	Species	9606
+38132864	551	558	Acetate	Chemical	MESH:D000085
+38132864	560	570	propionate	Chemical	MESH:D011422
+38132864	576	584	butyrate	Chemical	MESH:D002087
+38132864	636	659	short-chain fatty acids	Chemical	MESH:D005232
+38132864	681	688	acetate	Chemical	MESH:D000085
+38132864	817	822	Human	Species	9606
+38132864	844	854	propionate	Chemical	MESH:D011422
+38132864	872	879	obesity	Disease	MESH:D009765
+38132864	988	996	Butyrate	Chemical	MESH:D002087
+38132864	1009	1019	propionate	Chemical	MESH:D011422
+38132864	1047	1054	obesity	Disease	MESH:D009765
+38132864	1085	1114	appetite-suppressing hormones	Chemical	-
+38132864	1146	1152	leptin	Gene	3952
+38132864	1154	1164	Tryptophan	Chemical	MESH:D014364
+38132864	1206	1212	indole	Chemical	MESH:C030374
+38132864	1240	1245	GLP-1	Gene	2740
+38132864	1261	1268	insulin	Gene	3630
+38132864	1324	1334	Bile acids	Chemical	MESH:D001647
+38132864	1353	1364	cholesterol	Chemical	MESH:D002784
+38132864	1479	1491	dietary fats	Chemical	MESH:D004041
+38132864	1702	1714	Ruminococcus	Species	1263
+38132864	1764	1770	humans	Species	9606
+38132864	1815	1827	carbohydrate	Chemical	MESH:D002241
+38132864	2126	2131	lipid	Chemical	MESH:D008055
+38132864	2266	2279	carbohydrates	Chemical	MESH:D002241
+38132864	Positive_Correlation	MESH:D014364	2740
+38132864	Association	2740	3630
+38132864	Positive_Correlation	MESH:D002087	3952
+38132864	Positive_Correlation	MESH:C030374	2740
+38132864	Negative_Correlation	MESH:D002087	MESH:D009765
+38132864	Association	MESH:D001647	MESH:D004041
+38132864	Negative_Correlation	MESH:D011422	MESH:D009765
+

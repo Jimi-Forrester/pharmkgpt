@@ -1,0 +1,35 @@
+25013655|t|Pharmacovigilance Analysis of Serious Adverse Events Reported for Biologic Response Modifiers Used as Prophylaxis against Transplant Rejection: a Real-World Postmarketing Experience from the US FDA Adverse Event Reporting System (FAERS).
+25013655|a|BACKGROUND: Immunosuppression by biologic response modifiers (BRM) is a crucial component for successful organ transplantation. In addition to their variable effectiveness in the prevention of organ rejection, these medications have safety concerns that complicate therapeutic outcomes in organ transplant patients. OBJECTIVE: This study aims at identifying and characterizing safety signals of serious adverse events associated with exposure to BRM among organ transplant patients in a real-world environment. METHODS: The FDA Adverse Event Reporting System was utilized to apply a pharmacovigilance disproportionality analysis to indentify serious adverse events. Associations between drugs and events were measured by empirical Bayes geometric mean (EBGM) and the corresponding 95% confidence intervals (EB05-EB95). Associations with EBGM>=2 were considered significant safety signals. RESULTS: From 1997 to 2012, a total of 12,151 serious adverse event reports for BRM were reported; 15.6% of them (n=1,711) met the safety signal threshold of EB05>1, and 11.6% of these signals (n=199) were significant (EBGM>=2). Sirolimus and mycophenolate accounted for the majority of all signals; antithymocyte immunoglobulin (ATI) and cyclosporine contributed to the majority of significant signals. The following significant signals were identified for ATI (reduced therapeutic response, pulmonary edema, hypotension, serum sickness, infusion-related reaction, and anaphylactic reaction); for azathioprine (alternaria infection, fungal skin infection, and lymphoproliferative disorder); for cyclosporine (neurotoxicity, graft vs. host disease, and thyroid cancer); for cyclophosphamide (disease progression); for daclizumab (cytomegalovirus infection); and for tacrolimus (coma and tremor). 33.6% of these events contributed to patient death (n=67); 6.5% were life-threatening (n=13); 32.1% lead to hospitalization (n=64); and 27.6% resulted in other serious outcomes (n=55). CONCLUSION: Utilization of BRM for the prophylaxis against transplant rejection is associated with serious adverse events that could be fatal.
+25013655	250	267	Immunosuppression	Disease	
+25013655	544	552	patients	Species	9606
+25013655	711	719	patients	Species	9606
+25013655	1356	1365	Sirolimus	Chemical	MESH:D020123
+25013655	1370	1383	mycophenolate	Chemical	MESH:D009173
+25013655	1466	1478	cyclosporine	Chemical	MESH:D016572
+25013655	1620	1635	pulmonary edema	Disease	MESH:D011654
+25013655	1637	1648	hypotension	Disease	MESH:D007022
+25013655	1650	1664	serum sickness	Disease	MESH:D012713
+25013655	1697	1718	anaphylactic reaction	Disease	MESH:D000707
+25013655	1725	1737	azathioprine	Chemical	MESH:D001379
+25013655	1739	1759	alternaria infection	Disease	MESH:D007239
+25013655	1761	1782	fungal skin infection	Disease	MESH:D009181
+25013655	1788	1816	lymphoproliferative disorder	Disease	MESH:D008232
+25013655	1823	1835	cyclosporine	Chemical	MESH:D016572
+25013655	1837	1850	neurotoxicity	Disease	MESH:D020258
+25013655	1852	1874	graft vs. host disease	Disease	MESH:D006086
+25013655	1880	1894	thyroid cancer	Disease	MESH:D013964
+25013655	1901	1917	cyclophosphamide	Chemical	MESH:D003520
+25013655	1945	1955	daclizumab	Chemical	MESH:D000077561
+25013655	1957	1982	cytomegalovirus infection	Disease	MESH:D003586
+25013655	1993	2003	tacrolimus	Chemical	MESH:D016559
+25013655	2005	2009	coma	Disease	MESH:D003128
+25013655	2014	2020	tremor	Disease	MESH:D014202
+25013655	2060	2067	patient	Species	9606
+25013655	2068	2073	death	Disease	MESH:D003643
+25013655	Positive_Correlation	MESH:D016572	MESH:D013964
+25013655	Association	MESH:D016559	MESH:D003128
+25013655	Positive_Correlation	MESH:D016559	MESH:D014202
+25013655	Positive_Correlation	MESH:D016572	MESH:D020258
+25013655	Positive_Correlation	MESH:D001379	MESH:D008232
+25013655	Positive_Correlation	MESH:D000077561	MESH:D003586
+

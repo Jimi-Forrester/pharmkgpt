@@ -1,0 +1,10 @@
+26481679|t|Matched signal detection on graphs: Theory and application to brain imaging data classification.
+26481679|a|Motivated by recent progress in signal processing on graphs, we have developed a matched signal detection (MSD) theory for signals with intrinsic structures described by weighted graphs. First, we regard graph Laplacian eigenvalues as frequencies of graph-signals and assume that the signal is in a subspace spanned by the first few graph Laplacian eigenvectors associated with lower eigenvalues. The conventional matched subspace detector can be applied to this case. Furthermore, we study signals that may not merely live in a subspace. Concretely, we consider signals with bounded variation on graphs and more general signals that are randomly drawn from a prior distribution. For bounded variation signals, the test is a weighted energy detector. For the random signals, the test statistic is the difference of signal variations on associated graphs, if a degenerate Gaussian distribution specified by the graph Laplacian is adopted. We evaluate the effectiveness of the MSD on graphs both with simulated and real data sets. Specifically, we apply MSD to the brain imaging data classification problem of Alzheimer's disease (AD) based on two independent data sets: 1) positron emission tomography data with Pittsburgh compound-B tracer of 30 AD and 40 normal control (NC) subjects, and 2) resting-state functional magnetic resonance imaging (R-fMRI) data of 30 early mild cognitive impairment and 20 NC subjects. Our results demonstrate that the MSD approach is able to outperform the traditional methods and help detect AD at an early stage, probably due to the success of exploiting the manifold structure of the data.
+26481679	1205	1224	Alzheimer's disease	Disease	MESH:D000544
+26481679	1226	1228	AD	Disease	MESH:D000544
+26481679	1308	1329	Pittsburgh compound-B	Chemical	MESH:C475519
+26481679	1343	1345	AD	Disease	MESH:D000544
+26481679	1473	1493	cognitive impairment	Disease	MESH:D003072
+26481679	1622	1624	AD	Disease	MESH:D000544
+26481679	Association	MESH:C475519	MESH:D000544
+

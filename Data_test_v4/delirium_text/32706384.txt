@@ -1,0 +1,35 @@
+32706384|t|Development of a Deep Learning Model to Identify Lymph Node Metastasis on Magnetic Resonance Imaging in Patients With Cervical Cancer.
+32706384|a|Importance: Accurate identification of lymph node metastasis preoperatively and noninvasively in patients with cervical cancer can avoid unnecessary surgical intervention and benefit treatment planning. Objective: To develop a deep learning model using preoperative magnetic resonance imaging for prediction of lymph node metastasis in cervical cancer. Design, Setting, and Participants: This diagnostic study developed an end-to-end deep learning model to identify lymph node metastasis in cervical cancer using magnetic resonance imaging (MRI). A total of 894 patients with stage IB to IIB cervical cancer who underwent radical hysterectomy and pelvic lymphadenectomy were reviewed. All patients underwent radical hysterectomy and pelvic lymphadenectomy, received pelvic MRI within 2 weeks before the operations, had no concurrent cancers, and received no preoperative treatment. To achieve the optimal model, the diagnostic value of 3 MRI sequences was compared, and the outcomes in the intratumoral and peritumoral regions were explored. To mine tumor information from both image and clinicopathologic levels, a hybrid model was built and its prognostic value was assessed by Kaplan-Meier analysis. The deep learning model and hybrid model were developed on a primary cohort consisting of 338 patients (218 patients from Sun Yat-sen University Cancer Center, Guangzhou, China, between January 2011 and December 2017 and 120 patients from Henan Provincial People's Hospital, Zhengzhou, China, between December 2016 and June 2018). The models then were evaluated on an independent validation cohort consisting of 141 patients from Yunnan Cancer Hospital, Kunming, China, between January 2011 and December 2017. Main Outcomes and Measures: The primary diagnostic outcome was lymph node metastasis status, with the pathologic characteristics diagnosed by lymphadenectomy. The secondary primary clinical outcome was survival. The primary diagnostic outcome was assessed by receiver operating characteristic (area under the curve [AUC]) analysis; the primary clinical outcome was assessed by Kaplan-Meier survival analysis. Results: A total of 479 patients (mean [SD] age, 49.1 [9.7] years) fulfilled the eligibility criteria and were enrolled in the primary (n = 338) and validation (n = 141) cohorts. A total of 71 patients (21.0%) in the primary cohort and 32 patients (22.7%) in the validation cohort had lymph node metastais confirmed by lymphadenectomy. Among the 3 image sequences, the deep learning model that used both intratumoral and peritumoral regions on contrast-enhanced T1-weighted imaging showed the best performance (AUC, 0.844; 95% CI, 0.780-0.907). These results were further improved in a hybrid model that combined tumor image information mined by deep learning model and MRI-reported lymph node status (AUC, 0.933; 95% CI, 0.887-0.979). Moreover, the hybrid model was significantly associated with disease-free survival from cervical cancer (hazard ratio, 4.59; 95% CI, 2.04-10.31; P < .001). Conclusions and Relevance: The findings of this study suggest that deep learning can be used as a preoperative noninvasive tool to diagnose lymph node metastasis in cervical cancer.
+32706384	49	70	Lymph Node Metastasis	Disease	MESH:D008207
+32706384	104	112	Patients	Species	9606
+32706384	118	133	Cervical Cancer	Disease	MESH:D002583
+32706384	174	195	lymph node metastasis	Disease	MESH:D008207
+32706384	232	240	patients	Species	9606
+32706384	246	261	cervical cancer	Disease	MESH:D002583
+32706384	446	467	lymph node metastasis	Disease	MESH:D008207
+32706384	471	486	cervical cancer	Disease	MESH:D002583
+32706384	601	622	lymph node metastasis	Disease	MESH:D008207
+32706384	626	641	cervical cancer	Disease	MESH:D002583
+32706384	697	705	patients	Species	9606
+32706384	717	719	IB	Disease	MESH:C567452
+32706384	727	742	cervical cancer	Disease	MESH:D002583
+32706384	824	832	patients	Species	9606
+32706384	968	975	cancers	Disease	MESH:D009369
+32706384	1185	1190	tumor	Disease	MESH:D009369
+32706384	1432	1440	patients	Species	9606
+32706384	1446	1454	patients	Species	9606
+32706384	1483	1489	Cancer	Disease	MESH:D009369
+32706384	1563	1571	patients	Species	9606
+32706384	1594	1600	People	Species	9606
+32706384	1754	1762	patients	Species	9606
+32706384	1775	1781	Cancer	Disease	MESH:D009369
+32706384	1911	1932	lymph node metastasis	Disease	MESH:D008207
+32706384	2281	2289	patients	Species	9606
+32706384	2450	2458	patients	Species	9606
+32706384	2496	2504	patients	Species	9606
+32706384	2542	2562	lymph node metastais	Disease	MESH:D000072717
+32706384	2870	2875	tumor	Disease	MESH:D009369
+32706384	3081	3096	cervical cancer	Disease	MESH:D002583
+32706384	3289	3310	lymph node metastasis	Disease	MESH:D008207
+32706384	3314	3329	cervical cancer	Disease	MESH:D002583
+

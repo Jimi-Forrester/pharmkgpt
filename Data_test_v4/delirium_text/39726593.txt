@@ -1,0 +1,50 @@
+39726593|t|Cross-disease transcriptomic analysis reveals DOK3 and PAPOLA as therapeutic targets for neuroinflammatory and tumorigenic processes.
+39726593|a|Objective: Subarachnoid hemorrhage (SAH) and tumorigenesis share numerous biological complexities; nevertheless, the specific gene expression profiles and underlying mechanisms remain poorly understood. This study aims to identify differentially expressed genes (DEGs) that could serve as biomarkers for diagnosis and prognosis. Methods: Gene expression datasets (GSE122063, GSE13353, GSE161870) were analyzed using machine learning algorithms and logistic regression to identify DEGs associated with both SAH and tumorigenesis. Lasso regression and receiver operating characteristic (ROC) curve analysis were employed to evaluate the classification accuracy of these genes. Validation of critical DEGs was performed through pan-cancer analysis and experimental studies, focusing on the role of DOK3 in modulating inflammation and oxidative stress in U251MG glioblastoma and BV2 microglia cells. Results: Fifteen common DEGs were identified, with DOK3 and PAPOLA highlighted as crucial genes implicated in SAH and neurodegenerative processes. Experimental validation demonstrated that DOK3 overexpression significantly reduced pro-inflammatory cytokine levels and oxidative stress markers while enhancing antioxidant enzyme activity. Additionally, DOK3 influenced tumorigenic processes such as apoptosis, cell cycle regulation, and proliferation, effectively mitigating LPS-induced cytotoxicity and inflammation in BV2 microglial cells. Conclusions: DOK3 and PAPOLA play critical roles in both SAH and related neurodegeneration, presenting themselves as potential prognostic biomarkers and therapeutic targets. Notably, DOK3 exhibits potential as an antitumor agent with anti-inflammatory and antioxidative properties, offering therapeutic benefits for both cancer and neuroinflammatory conditions.
+39726593	46	50	DOK3	Gene	79930
+39726593	55	61	PAPOLA	Gene	10914
+39726593	89	106	neuroinflammatory	Disease	MESH:D000090862
+39726593	111	122	tumorigenic	Disease	MESH:D002471
+39726593	145	168	Subarachnoid hemorrhage	Disease	MESH:D013345
+39726593	170	173	SAH	Disease	MESH:D013345
+39726593	179	192	tumorigenesis	Disease	MESH:D063646
+39726593	640	643	SAH	Disease	MESH:D013345
+39726593	648	661	tumorigenesis	Disease	MESH:D063646
+39726593	863	869	cancer	Disease	MESH:D009369
+39726593	929	933	DOK3	Gene	79930
+39726593	948	960	inflammation	Disease	MESH:D007249
+39726593	985	1004	U251MG glioblastoma	CellLine	CVCL:0021
+39726593	1009	1012	BV2	CellLine	CVCL:0182
+39726593	1081	1085	DOK3	Gene	79930
+39726593	1090	1096	PAPOLA	Gene	10914
+39726593	1140	1143	SAH	Disease	MESH:D013345
+39726593	1219	1223	DOK3	Gene	79930
+39726593	1265	1277	inflammatory	Disease	MESH:D007249
+39726593	1382	1386	DOK3	Gene	79930
+39726593	1398	1409	tumorigenic	Disease	MESH:D002471
+39726593	1504	1507	LPS	Chemical	MESH:D008070
+39726593	1516	1528	cytotoxicity	Disease	MESH:D064420
+39726593	1533	1545	inflammation	Disease	MESH:D007249
+39726593	1549	1552	BV2	CellLine	CVCL:0182
+39726593	1584	1588	DOK3	Gene	79930
+39726593	1593	1599	PAPOLA	Gene	10914
+39726593	1628	1631	SAH	Disease	MESH:D013345
+39726593	1644	1661	neurodegeneration	Disease	MESH:D019636
+39726593	1754	1758	DOK3	Gene	79930
+39726593	1810	1822	inflammatory	Disease	MESH:D007249
+39726593	1892	1898	cancer	Disease	MESH:D009369
+39726593	1903	1920	neuroinflammatory	Disease	MESH:D000090862
+39726593	Association	MESH:D013345	10914
+39726593	Positive_Correlation	MESH:D008070	MESH:D064420
+39726593	Association	MESH:D019636	10914
+39726593	Association	MESH:D009369	79930
+39726593	Association	MESH:D013345	79930
+39726593	Negative_Correlation	MESH:D008070	79930
+39726593	Association	MESH:D019636	79930
+39726593	Association	MESH:D000090862	10914
+39726593	Association	MESH:D002471	10914
+39726593	Association	MESH:D000090862	79930
+39726593	Association	MESH:D002471	79930
+39726593	Negative_Correlation	MESH:D064420	79930
+39726593	Positive_Correlation	MESH:D008070	MESH:D007249
+39726593	Negative_Correlation	MESH:D007249	79930
+

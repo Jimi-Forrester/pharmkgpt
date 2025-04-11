@@ -1,0 +1,27 @@
+39576972|t|A Multivariable Prediction Model for Mild Cognitive Impairment and Dementia: Algorithm Development and Validation.
+39576972|a|BACKGROUND: Mild cognitive impairment (MCI) poses significant challenges in early diagnosis and timely intervention. Underdiagnosis, coupled with the economic and social burden of dementia, necessitates more precise detection methods. Machine learning (ML) algorithms show promise in managing complex data for MCI and dementia prediction. OBJECTIVE: This study assessed the predictive accuracy of ML models in identifying the onset of MCI and dementia using the Korean Longitudinal Study of Aging (KLoSA) dataset. METHODS: This study used data from the KLoSA, a comprehensive biennial survey that tracks the demographic, health, and socioeconomic aspects of middle-aged and older Korean adults from 2018 to 2020. Among the 6171 initial households, 4975 eligible older adult participants aged 60 years or older were selected after excluding individuals based on age and missing data. The identification of MCI and dementia relied on self-reported diagnoses, with sociodemographic and health-related variables serving as key covariates. The dataset was categorized into training and test sets to predict MCI and dementia by using multiple models, including logistic regression, light gradient-boosting machine, XGBoost (extreme gradient boosting), CatBoost, random forest, gradient boosting, AdaBoost, support vector classifier, and k-nearest neighbors, and the training and test sets were used to evaluate predictive performance. The performance was assessed using the area under the receiver operating characteristic curve (AUC). Class imbalances were addressed via weights. Shapley additive explanation values were used to determine the contribution of each feature to the prediction rate. RESULTS: Among the 4975 participants, the best model for predicting MCI onset was random forest, with a median AUC of 0.6729 (IQR 0.3883-0.8152), followed by k-nearest neighbors with a median AUC of 0.5576 (IQR 0.4555-0.6761) and support vector classifier with a median AUC of 0.5067 (IQR 0.3755-0.6389). For dementia onset prediction, the best model was XGBoost, achieving a median AUC of 0.8185 (IQR 0.8085-0.8285), closely followed by light gradient-boosting machine with a median AUC of 0.8069 (IQR 0.7969-0.8169) and AdaBoost with a median AUC of 0.8007 (IQR 0.7907-0.8107). The Shapley values highlighted pain in everyday life, being widowed, living alone, exercising, and living with a partner as the strongest predictors of MCI. For dementia, the most predictive features were other contributing factors, education at the high school level, education at the middle school level, exercising, and monthly social engagement. CONCLUSIONS: ML algorithms, especially XGBoost, exhibited the potential for predicting MCI onset using KLoSA data. However, no model has demonstrated robust accuracy in predicting MCI and dementia. Sociodemographic and health-related factors are crucial for initiating cognitive conditions, emphasizing the need for multifaceted predictive models for early identification and intervention. These findings underscore the potential and limitations of ML in predicting cognitive impairment in community-dwelling older adults.
+39576972	42	62	Cognitive Impairment	Disease	MESH:D003072
+39576972	67	75	Dementia	Disease	MESH:D003704
+39576972	132	152	cognitive impairment	Disease	MESH:D003072
+39576972	154	157	MCI	Disease	MESH:D060825
+39576972	295	303	dementia	Disease	MESH:D003704
+39576972	425	428	MCI	Disease	MESH:D060825
+39576972	433	441	dementia	Disease	MESH:D003704
+39576972	550	553	MCI	Disease	MESH:D060825
+39576972	558	566	dementia	Disease	MESH:D003704
+39576972	889	901	participants	Species	9606
+39576972	1020	1023	MCI	Disease	MESH:D060825
+39576972	1028	1036	dementia	Disease	MESH:D003704
+39576972	1217	1220	MCI	Disease	MESH:D060825
+39576972	1225	1233	dementia	Disease	MESH:D003704
+39576972	1830	1842	participants	Species	9606
+39576972	1874	1877	MCI	Disease	MESH:D060825
+39576972	2115	2123	dementia	Disease	MESH:D003704
+39576972	2417	2421	pain	Disease	MESH:D010146
+39576972	2538	2541	MCI	Disease	MESH:D060825
+39576972	2547	2555	dementia	Disease	MESH:D003704
+39576972	2823	2826	MCI	Disease	MESH:D060825
+39576972	2916	2919	MCI	Disease	MESH:D060825
+39576972	2924	2932	dementia	Disease	MESH:D003704
+39576972	3202	3222	cognitive impairment	Disease	MESH:D003072
+

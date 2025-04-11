@@ -1,0 +1,46 @@
+36760248|t|Machine learning screening for Parkinson's disease-related cuproptosis-related typing development and validation and exploration of personalized drugs for cuproptosis genes.
+36760248|a|Background: Parkinson's disease (PD) is a common, degenerative disease of the nervous system that is characterized by the death of dopaminergic neurons in the substantia nigra densa (SNpc). There is growing evidence that copper (Cu) is involved in myelin formation and is involved in cell death through modulation of synaptic activity as well as neurotrophic factor-induced excitotoxicity. Methods: This study aimed to explore potential cuproptosis-related genes (CRGs) and immune infiltration patterns in PD and the development of Cu chelators relevant for PD treatment. The PD datasets GSE7621, GSE20141, and GSE49036 were downloaded from the Gene Expression Omnibus (GEO) database. The consensus clustering method was used to classify the specimens of PD. Using weighted gene co-expression network analysis (WGCNA) and random forest (RF) tree model, support vector machine (SVM) learning model, extreme gradient boosting (XGBoost) model, and general linear model (GLM) algorithms to screen disease progression-related models, the column charts were created to verify the accuracy of these CRGs in predicting PD progression. Single sample genomic enrichment analysis (ssGSEA) was used to estimate the correlation between genes associated with copper poisoning and genes associated with immune cells and immune function. Molecular docking was used to verify interactions with copper chelating agents associated with cuproptosis for PD treatment. Results: Through ssGSEA, we identified three copper poisoning related genes ATP7A, NFE2L2 and MTF1, which are related to immune cells in PD. We also verified that LAGASCATRIOL can bind to NFE2L2 through molecular docking. Consistent cluster analysis identified two subtypes, among which C2 subtype was just enriched in PD. And to more accurately diagnose PD progression, patients can benefit from a feature map based on these genes. Conclusions: CRGs such as NFE2L2, MTF1, and ATP7B were identified to be associated with the pathogenesis of PD and provide a possible new direction for the treatment of PD, which needs further in-depth study.
+36760248	31	50	Parkinson's disease	Disease	MESH:D010300
+36760248	59	70	cuproptosis	Disease	
+36760248	155	166	cuproptosis	Disease	
+36760248	186	205	Parkinson's disease	Disease	MESH:D010300
+36760248	207	209	PD	Disease	MESH:D010300
+36760248	224	266	degenerative disease of the nervous system	Disease	MESH:D019636
+36760248	395	401	copper	Chemical	MESH:D003300
+36760248	403	405	Cu	Chemical	MESH:D003300
+36760248	520	539	neurotrophic factor	Gene	4908
+36760248	548	562	excitotoxicity	Disease	
+36760248	611	622	cuproptosis	Disease	
+36760248	680	682	PD	Disease	MESH:D010300
+36760248	706	718	Cu chelators	Chemical	-
+36760248	732	734	PD	Disease	MESH:D010300
+36760248	750	752	PD	Disease	MESH:D010300
+36760248	929	931	PD	Disease	MESH:D010300
+36760248	1285	1287	PD	Disease	MESH:D010300
+36760248	1419	1435	copper poisoning	Disease	MESH:C535468
+36760248	1551	1557	copper	Chemical	MESH:D003300
+36760248	1591	1602	cuproptosis	Disease	
+36760248	1607	1609	PD	Disease	MESH:D010300
+36760248	1666	1682	copper poisoning	Disease	MESH:C535468
+36760248	1697	1702	ATP7A	Gene	538
+36760248	1704	1710	NFE2L2	Gene	4780
+36760248	1715	1719	MTF1	Gene	4520
+36760248	1758	1760	PD	Disease	MESH:D010300
+36760248	1809	1815	NFE2L2	Gene	4780
+36760248	1940	1942	PD	Disease	MESH:D010300
+36760248	1976	1978	PD	Disease	MESH:D010300
+36760248	1992	2000	patients	Species	9606
+36760248	2080	2086	NFE2L2	Gene	4780
+36760248	2088	2092	MTF1	Gene	4520
+36760248	2098	2103	ATP7B	Gene	540
+36760248	2162	2164	PD	Disease	MESH:D010300
+36760248	2223	2225	PD	Disease	MESH:D010300
+36760248	Association	MESH:D010300	4780
+36760248	Association	MESH:D010300	538
+36760248	Association	MESH:D003300	4908
+36760248	Association	MESH:C535468	4780
+36760248	Association	MESH:C535468	4520
+36760248	Association	MESH:C535468	538
+36760248	Association	MESH:D010300	540
+36760248	Association	MESH:D010300	4520
+

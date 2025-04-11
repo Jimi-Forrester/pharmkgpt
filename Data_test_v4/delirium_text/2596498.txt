@@ -1,0 +1,23 @@
+2596498|t|Toxic delirium in a patient taking amantadine and trimethoprim-sulfamethoxazole.
+2596498|a|Acute mental confusion occurred in a patient on a stable dose of amantadine after he was started on trimethoprim-sulfamethoxazole. Discontinuation of the drugs led to rapid improvement. Studies in a rat model of organic cation secretion demonstrate that both amantadine and trimethoprim, but not sulfamethoxazole, inhibit the renal secretion of the organic cation procainamide. This case may represent an amantadine-trimethoprim interaction.
+2596498	0	14	Toxic delirium	Disease	MESH:D003693
+2596498	20	27	patient	Species	9606
+2596498	35	45	amantadine	Chemical	MESH:D000547
+2596498	50	79	trimethoprim-sulfamethoxazole	Chemical	MESH:D015662
+2596498	118	125	patient	Species	9606
+2596498	146	156	amantadine	Chemical	MESH:D000547
+2596498	181	210	trimethoprim-sulfamethoxazole	Chemical	MESH:D015662
+2596498	280	283	rat	Species	10116
+2596498	340	350	amantadine	Chemical	MESH:D000547
+2596498	355	367	trimethoprim	Chemical	MESH:D014295
+2596498	377	393	sulfamethoxazole	Chemical	MESH:D013420
+2596498	445	457	procainamide	Chemical	MESH:D011342
+2596498	486	496	amantadine	Chemical	MESH:D000547
+2596498	497	509	trimethoprim	Chemical	MESH:D014295
+2596498	Positive_Correlation	MESH:D000547	MESH:D003693
+2596498	Negative_Correlation	MESH:D011342	MESH:D014295
+2596498	Drug_Interaction	MESH:D000547	MESH:D014295
+2596498	Drug_Interaction	MESH:D000547	MESH:D015662
+2596498	Positive_Correlation	MESH:D015662	MESH:D003693
+2596498	Negative_Correlation	MESH:D000547	MESH:D011342
+

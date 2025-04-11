@@ -1,0 +1,49 @@
+22925659|t|PI3K-ERK1/2 activation contributes to extracellular H2O2 generation in amyloid beta toxicity.
+22925659|a|Amyloid beta peptide (Abeta) induces hydrogen peroxide (H2O2) and superoxide generation, leading to neuronal death. Many studies have shown the involvement of NADPH oxidase, but the isotype-specific role was not assessed. Moreover, the activation status of phosphoinositide 3-kinase (PI3K) and extracellular signal-regulated kinase (ERK) 1/2 is unclear in extracellular H2O2 generation. In this paper, we showed that Abeta1-42 induced extracellular H2O2 generation and the resulting cytotoxicity in a concentration-dependent manner. Nox2- and Nox4-specific siRNAs suppressed H2O2 and superoxide generation. LY294002 and U0126, inhibitors of PI3K and ERK1/2, respectively, reduced H2O2 generation in concentration-dependent manners. Furthermore, PI3K activation is responsible for ERK1/2 phosphorylation. An additional increase in H2O2 generation and corresponding cytotoxicity was observed after treatment with Abeta1-42 and glutamate. These results suggest that Abeta1-42 enhances the neuronal vulnerability to oxidative injury in Alzheimer's disease (AD) by increasing H2O2 generation.
+22925659	5	11	ERK1/2	Gene	5595;5594
+22925659	52	56	H2O2	Chemical	MESH:D006861
+22925659	116	121	Abeta	Gene	351
+22925659	131	148	hydrogen peroxide	Chemical	MESH:D006861
+22925659	150	154	H2O2	Chemical	MESH:D006861
+22925659	160	170	superoxide	Chemical	MESH:D013481
+22925659	194	208	neuronal death	Disease	MESH:D009410
+22925659	351	376	phosphoinositide 3-kinase	Gene	5293
+22925659	388	435	extracellular signal-regulated kinase (ERK) 1/2	Gene	5595;5594
+22925659	464	468	H2O2	Chemical	MESH:D006861
+22925659	543	547	H2O2	Chemical	MESH:D006861
+22925659	577	589	cytotoxicity	Disease	MESH:D064420
+22925659	627	631	Nox2	Gene	1536
+22925659	637	641	Nox4	Gene	50507
+22925659	669	673	H2O2	Chemical	MESH:D006861
+22925659	678	688	superoxide	Chemical	MESH:D013481
+22925659	701	709	LY294002	Chemical	MESH:C085911
+22925659	714	719	U0126	Chemical	MESH:C113580
+22925659	744	750	ERK1/2	Gene	5595;5594
+22925659	774	778	H2O2	Chemical	MESH:D006861
+22925659	874	880	ERK1/2	Gene	5595;5594
+22925659	924	928	H2O2	Chemical	MESH:D006861
+22925659	958	970	cytotoxicity	Disease	MESH:D064420
+22925659	1019	1028	glutamate	Chemical	MESH:D018698
+22925659	1126	1145	Alzheimer's disease	Disease	MESH:D000544
+22925659	1147	1149	AD	Disease	MESH:D000544
+22925659	1165	1169	H2O2	Chemical	MESH:D006861
+22925659	Association	MESH:D006861	1536
+22925659	Positive_Correlation	MESH:D013481	351
+22925659	Negative_Correlation	MESH:C085911	MESH:D006861
+22925659	Association	MESH:D006861	5595
+22925659	Negative_Correlation	MESH:C113580	5595
+22925659	Association	MESH:D006861	5594
+22925659	Negative_Correlation	MESH:C085911	5595
+22925659	Association	MESH:D013481	1536
+22925659	Positive_Correlation	MESH:D013481	MESH:D009410
+22925659	Positive_Correlation	MESH:D009410	351
+22925659	Association	MESH:D006861	50507
+22925659	Positive_Correlation	MESH:D018698	MESH:D064420
+22925659	Negative_Correlation	MESH:C113580	MESH:D006861
+22925659	Positive_Correlation	MESH:D006861	MESH:D064420
+22925659	Positive_Correlation	MESH:D006861	MESH:D018698
+22925659	Negative_Correlation	MESH:C113580	5594
+22925659	Association	MESH:D013481	50507
+22925659	Positive_Correlation	MESH:D006861	351
+22925659	Negative_Correlation	MESH:C085911	5594
+

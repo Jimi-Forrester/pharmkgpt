@@ -1,0 +1,29 @@
+35402600|t|Individual prediction and classification of cognitive impairment in patients with white matter lesions based on gray matter volume.
+35402600|a|Background: Vascular risk factors like white matter lesions (WMLs) are increasingly recognized as risk factors for vascular dementia (VaD) and can predict Alzheimer's disease (AD) at least a decade before the clinical stage of the disease. This study aimed to predict cognitive decline and use machine learning techniques to classify older individuals (aged 50 years or older) with WMLs as having vascular mild cognitive impairment (VaMCI), VaD, or in good cognitive health (CH). Methods: A total of 79 individuals with WMLs were selected for this study and categorized into the following 3 groups: CH (n=25), VaMCI (n=33), and VaD (n=21). Data from the entire cohort was then divided into a training dataset (n=56) and testing dataset (n=23). The data were extracted from gray matter (GM) segmentations using voxel-based morphometry (VBM). A relevance vector regression (RVR) approach was used to test the relationship between the structural brain images and clinical scores. To predict the individual-level subtypes, we applied 2 different machine learning-based classifiers: support vector machine (SVM) and Gaussian process classification (GPC). All predictive models were trained on the training dataset and then validated on the testing dataset of age-matched participants. Results: Multi-domain cognitive performance could be predicted based on the pattern of GM atrophy in older people with WMLs using a RVR approach. The classification of VaD versus CH (cross-validation accuracy =93.94%, test set accuracy =76.92%) and VaMCI versus CH (cross-validation accuracy =95.24%, test set accuracy =87.50%) could be successfully achieved using both SVM and GPC. However, SVM (cross-validation accuracy =67.57%, test set accuracy =70.59%) performed better than GPC in the classification of VaD versus VaMCI. Conclusions: Based on the patterns of gray matter and RVR-based model could achieve prediction of cognitive test scores, and SVM and GPC could classify the severity of cognitive impairment in older people with WMLs.
+35402600	44	64	cognitive impairment	Disease	MESH:D003072
+35402600	68	76	patients	Species	9606
+35402600	82	102	white matter lesions	Disease	MESH:D056784
+35402600	171	191	white matter lesions	Disease	MESH:D056784
+35402600	193	197	WMLs	Disease	MESH:D056784
+35402600	247	264	vascular dementia	Disease	MESH:D015140
+35402600	266	269	VaD	Disease	MESH:D015140
+35402600	287	306	Alzheimer's disease	Disease	MESH:D000544
+35402600	308	310	AD	Disease	MESH:D000544
+35402600	400	417	cognitive decline	Disease	MESH:D003072
+35402600	514	518	WMLs	Disease	MESH:D056784
+35402600	529	563	vascular mild cognitive impairment	Disease	MESH:D060825
+35402600	565	570	VaMCI	Disease	MESH:D060825
+35402600	573	576	VaD	Disease	MESH:D015140
+35402600	599	605	health	Disease	OMIM:603663
+35402600	652	656	WMLs	Disease	MESH:D056784
+35402600	742	747	VaMCI	Disease	MESH:D060825
+35402600	760	763	VaD	Disease	MESH:D015140
+35402600	1502	1509	atrophy	Disease	MESH:D001284
+35402600	1531	1535	WMLs	Disease	MESH:D056784
+35402600	1580	1583	VaD	Disease	MESH:D015140
+35402600	1661	1666	VaMCI	Disease	MESH:D060825
+35402600	1922	1925	VaD	Disease	MESH:D015140
+35402600	1933	1938	VaMCI	Disease	MESH:D060825
+35402600	2108	2128	cognitive impairment	Disease	MESH:D003072
+35402600	2150	2154	WMLs	Disease	MESH:D056784
+

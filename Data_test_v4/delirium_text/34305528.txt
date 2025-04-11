@@ -1,0 +1,21 @@
+34305528|t|Spatial RNA Sequencing Identifies Robust Markers of Vulnerable and Resistant Human Midbrain Dopamine Neurons and Their Expression in Parkinson's Disease.
+34305528|a|Defining transcriptional profiles of substantia nigra pars compacta (SNc) and ventral tegmental area (VTA) dopamine neurons is critical to understanding their differential vulnerability in Parkinson's Disease (PD). Here, we determine transcriptomes of human SNc and VTA dopamine neurons using LCM-seq on a large sample cohort. We apply a bootstrapping strategy as sample input to DESeq2 and identify 33 stably differentially expressed genes (DEGs) between these two subpopulations. We also compute a minimal sample size for identification of stable DEGs, which highlights why previous reported profiles from small sample sizes display extensive variability. Network analysis reveal gene interactions unique to each subpopulation and highlight differences in regulation of mitochondrial stability, apoptosis, neuronal survival, cytoskeleton regulation, extracellular matrix modulation as well as synapse integrity, which could explain the relative resilience of VTA dopamine neurons. Analysis of PD tissues showed that while identified stable DEGs can distinguish the subpopulations also in disease, the SNc markers SLIT1 and ATP2A3 were down-regulated and thus appears to be biomarkers of disease. In summary, our study identifies human SNc and VTA marker profiles, which will be instrumental for studies aiming to modulate dopamine neuron resilience and to validate cell identity of stem cell-derived dopamine neurons.
+34305528	77	82	Human	Species	9606
+34305528	92	100	Dopamine	Chemical	MESH:D004298
+34305528	133	152	Parkinson's Disease	Disease	MESH:D010300
+34305528	261	269	dopamine	Chemical	MESH:D004298
+34305528	343	362	Parkinson's Disease	Disease	MESH:D010300
+34305528	364	366	PD	Disease	MESH:D010300
+34305528	406	411	human	Species	9606
+34305528	424	432	dopamine	Chemical	MESH:D004298
+34305528	1119	1127	dopamine	Chemical	MESH:D004298
+34305528	1149	1151	PD	Disease	MESH:D010300
+34305528	1269	1274	SLIT1	Gene	6585
+34305528	1279	1285	ATP2A3	Gene	489
+34305528	1385	1390	human	Species	9606
+34305528	1478	1486	dopamine	Chemical	MESH:D004298
+34305528	1556	1564	dopamine	Chemical	MESH:D004298
+34305528	Negative_Correlation	MESH:D010300	489
+34305528	Negative_Correlation	MESH:D010300	6585
+34305528	Association	MESH:D004298	MESH:D010300
+

@@ -1,0 +1,43 @@
+27808254|t|alpha-Synuclein enhances histone H3 lysine-9 dimethylation and H3K9me2-dependent transcriptional responses.
+27808254|a|alpha-Synuclein (alphaS) is a protein linked to Parkinson's disease (PD) and related neurodegenerative disorders. It is mostly localized within synapses, but alphaS has also been suggested to play a role in the nucleus. We used transgenic Drosophila and inducible SH-SY5Y neuroblastoma cells to investigate the effects of alphaS on chromatin with a particular focus on histone modifications. Overexpression of alphaS in male flies as well as in retinoic acid pre-treated neuroblastoma cells led to an elevation of histone H3K9 methylations, mostly mono- (H3K9me1) and di- (H3K9me2). The transient increase of H3K9 methylation in alphaS-induced SH-SY5Y cells was preceded by mRNA induction of the euchromatic histone lysine N-methyltransferase 2 (EHMT2). EHMT2 and H3K9me2 can function within the REST complex. Chromatin immunoprecipitation (ChIP) analyses of selected candidate, REST regulated genes showed significantly increased H3K9me2 promoter occupancy of genes encoding the L1CAM cell adhesion molecule and the synaptosomal-associated protein SNAP25, whose reduced expression levels were confirmed by RT-qPCR in alphaS induced cells. Treatment with EHMT inhibitor UNC0638 restored the mRNA levels of L1CAM and SNAP25. Thus, alphaS overexpression enhances H3K9 methylations via EpsilonEtaMuTau2 resulting in elevated H3K9me2 at the SNAP25 promoter, possibly affecting SNARE complex assembly and hence synaptic vesicle fusion events regulated by alphaS.
+27808254	0	15	alpha-Synuclein	Gene	6622
+27808254	108	123	alpha-Synuclein	Gene	6622
+27808254	125	131	alphaS	Gene	112935892
+27808254	156	175	Parkinson's disease	Disease	MESH:D010300
+27808254	177	179	PD	Disease	MESH:D010300
+27808254	193	220	neurodegenerative disorders	Disease	MESH:D019636
+27808254	266	272	alphaS	Gene	112935892
+27808254	347	357	Drosophila	Species	7227
+27808254	372	393	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+27808254	430	436	alphaS	Gene	112935892
+27808254	518	524	alphaS	Gene	112935892
+27808254	539	541	as	Gene	112935892
+27808254	547	549	as	Gene	112935892
+27808254	553	566	retinoic acid	Chemical	MESH:D014212
+27808254	579	592	neuroblastoma	Disease	MESH:D009447
+27808254	737	743	alphaS	Gene	112935892
+27808254	752	759	SH-SY5Y	CellLine	CVCL:0019
+27808254	1088	1093	L1CAM	Gene	3897
+27808254	1157	1163	SNAP25	Gene	6616
+27808254	1226	1232	alphaS	Gene	112935892
+27808254	1263	1267	EHMT	Gene	30971
+27808254	1278	1285	UNC0638	Chemical	MESH:C561310
+27808254	1314	1319	L1CAM	Gene	3897
+27808254	1324	1330	SNAP25	Gene	6616
+27808254	1338	1344	alphaS	Gene	112935892
+27808254	1445	1451	SNAP25	Gene	6616
+27808254	1481	1486	SNARE	Gene	100170220
+27808254	1558	1564	alphaS	Gene	112935892
+27808254	Association	MESH:D019636	6622
+27808254	Negative_Correlation	MESH:C561310	6616
+27808254	Negative_Correlation	MESH:C561310	3897
+27808254	Association	MESH:D014212	MESH:D009447
+27808254	Negative_Correlation	MESH:C561310	30971
+27808254	Association	30971	6616
+27808254	Association	MESH:D019636	112935892
+27808254	Negative_Correlation	112935892	6616
+27808254	Association	MESH:D010300	112935892
+27808254	Negative_Correlation	112935892	3897
+27808254	Association	MESH:D010300	6622
+27808254	Association	100170220	112935892
+

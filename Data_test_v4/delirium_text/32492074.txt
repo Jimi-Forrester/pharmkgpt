@@ -1,0 +1,26 @@
+32492074|t|The impact of atlas-based MR attenuation correction on the diagnosis of FDG-PET/MR for Alzheimer's diseases- A simulation study combining multi-center data and ADNI-data.
+32492074|a|BACKGROUND: The purpose of this study was to assess the impact of vendor-provided atlas-based MRAC on FDG PET/MR for the evaluation of Alzheimer's disease (AD) by using simulated images. METHODS: We recruited 47 patients, from two institutions, who underwent PET/CT and PET/MR (GE SIGNA) examination for oncological staging. From the PET raw data acquired on PET/MR, two FDG-PET series were generated, using vendor-provided MRAC (atlas-based) and CTAC. The following simulation steps were performed in MNI space: After spatial normalization and smoothing of the PET datasets, we calculated the error map for each patient, PETMRAC/PETCTAC. We multiplied each of these 47 error maps with each of the 203 Alzheimer's Disease Neuroimaging Initiative (ADNI) cases after the identical normalization and smoothing. This resulted in 203*47 = 9541 datasets. To evaluate the probability of AD in each resulting image, a cumulative t-value was calculated automatically using commercially-available software (PMOD PALZ) which has been used in multiple large cohort studies. The diagnostic accuracy for the discrimination of AD and predicting progression from mild cognitive impairment (MCI) to AD were evaluated in simulated images compared with ADNI original images. RESULTS: The accuracy and specificity for the discrimination of AD-patients from normal controls were not substantially impaired, but sensitivity was slightly impaired in 5 out of 47 datasets (original vs. error; 83.2% [CI 75.0%-89.0%], 83.3% [CI 74.2%-89.8%] and 83.1% [CI 75.6%-88.3%] vs. 82.7% [range 80.4-85.0%], 78.5% [range 72.9-83.3%,] and 86.1% [range 81.4-89.8%]). The accuracy, sensitivity and specificity for predicting progression from MCI to AD during 2-year follow-up was not impaired (original vs. error; 62.5% [CI 53.3%-69.3%], 78.8% [CI 65.4%-88.6%] and 54.0% [CI 47.0%-69.1%] vs. 64.8% [range 61.5-66.7%], 75.7% [range 66.7-81.8%,] and 59.0% [range 50.8-63.5%]). The worst 3 error maps show a tendency towards underestimation of PET scores. CONCLUSION: FDG-PET/MR based on atlas-based MR attenuation correction showed similar diagnostic accuracy to the CT-based method for the diagnosis of AD and the prediction of progression of MCI to AD using commercially-available software, although with a minor reduction in sensitivity.
+32492074	72	75	FDG	Chemical	MESH:D019788
+32492074	87	107	Alzheimer's diseases	Disease	MESH:D000544
+32492074	273	276	FDG	Chemical	MESH:D019788
+32492074	306	325	Alzheimer's disease	Disease	MESH:D000544
+32492074	327	329	AD	Disease	MESH:D000544
+32492074	383	391	patients	Species	9606
+32492074	542	545	FDG	Chemical	MESH:D019788
+32492074	784	791	patient	Species	9606
+32492074	873	892	Alzheimer's Disease	Disease	MESH:D000544
+32492074	1051	1053	AD	Disease	MESH:D000544
+32492074	1283	1285	AD	Disease	MESH:D000544
+32492074	1318	1343	mild cognitive impairment	Disease	MESH:D060825
+32492074	1345	1348	MCI	Disease	MESH:D060825
+32492074	1353	1355	AD	Disease	MESH:D000544
+32492074	1491	1493	AD	Disease	MESH:D000544
+32492074	1494	1502	patients	Species	9606
+32492074	1875	1878	MCI	Disease	MESH:D060825
+32492074	1882	1884	AD	Disease	MESH:D000544
+32492074	2198	2201	FDG	Chemical	MESH:D019788
+32492074	2335	2337	AD	Disease	MESH:D000544
+32492074	2375	2378	MCI	Disease	MESH:D060825
+32492074	2382	2384	AD	Disease	MESH:D000544
+32492074	Association	MESH:D019788	MESH:D000544
+

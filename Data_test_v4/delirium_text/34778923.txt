@@ -1,0 +1,18 @@
+34778923|t|Fully automated identification of brain abnormality from whole-body FDG-PET imaging using deep learning-based brain extraction and statistical parametric mapping.
+34778923|a|BACKGROUND: The whole brain is often covered in [18F]Fluorodeoxyglucose positron emission tomography ([18F]FDG-PET) in oncology patients, but the covered brain abnormality is typically screened by visual interpretation without quantitative analysis in clinical practice. In this study, we aimed to develop a fully automated quantitative interpretation pipeline of brain volume from an oncology PET image. METHOD: We retrospectively collected 500 oncologic [18F]FDG-PET scans for training and validation of the automated brain extractor. We trained the model for extracting brain volume with two manually drawn bounding boxes on maximal intensity projection images. ResNet-50, a 2-D convolutional neural network (CNN), was used for the model training. The brain volume was automatically extracted using the CNN model and spatially normalized. For validation of the trained model and an application of this automated analytic method, we enrolled 24 subjects with small cell lung cancer (SCLC) and performed voxel-wise two-sample T test for automatic detection of metastatic lesions. RESULT: The deep learning-based brain extractor successfully identified the existence of whole-brain volume, with an accuracy of 98% for the validation set. The performance of extracting the brain measured by the intersection-over-union of 3-D bounding boxes was 72.9 +- 12.5% for the validation set. As an example of the application to automatically identify brain abnormality, this approach successfully identified the metastatic lesions in three of the four cases of SCLC patients with brain metastasis. CONCLUSION: Based on the deep learning-based model, extraction of the brain volume from whole-body PET was successfully performed. We suggest this fully automated approach could be used for the quantitative analysis of brain metabolic patterns to identify abnormalities during clinical interpretation of oncologic PET studies.
+34778923	34	51	brain abnormality	Disease	MESH:D001927
+34778923	68	71	FDG	Chemical	MESH:D019788
+34778923	211	234	[18F]Fluorodeoxyglucose	Chemical	MESH:D019788
+34778923	265	273	[18F]FDG	Chemical	MESH:D019788
+34778923	291	299	patients	Species	9606
+34778923	317	334	brain abnormality	Disease	MESH:D001927
+34778923	609	618	oncologic	Disease	MESH:D000072716
+34778923	619	627	[18F]FDG	Chemical	MESH:D019788
+34778923	1124	1146	small cell lung cancer	Disease	MESH:D055752
+34778923	1148	1152	SCLC	Disease	MESH:D055752
+34778923	1604	1621	brain abnormality	Disease	MESH:D001927
+34778923	1714	1718	SCLC	Disease	MESH:D055752
+34778923	1719	1727	patients	Species	9606
+34778923	1733	1749	brain metastasis	Disease	MESH:D009362
+34778923	2055	2064	oncologic	Disease	MESH:D000072716
+

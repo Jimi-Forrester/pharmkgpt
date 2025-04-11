@@ -1,0 +1,19 @@
+37441162|t|Hybrid neural network approaches to predict drug-target binding affinity for drug repurposing: screening for potential leads for Alzheimer's disease.
+37441162|a|Alzheimer's disease (AD) is a neurodegenerative disease that primarily affects elderly individuals. Recent studies have found that sigma-1 receptor (S1R) agonists can maintain endoplasmic reticulum stress homeostasis, reduce neuronal apoptosis, and enhance mitochondrial function and autophagy, making S1R a target for AD therapy. Traditional experimental methods are costly and inefficient, and rapid and accurate prediction methods need to be developed, while drug repurposing provides new ways and options for AD treatment. In this paper, we propose HNNDTA, a hybrid neural network for drug-target affinity (DTA) prediction, to facilitate drug repurposing for AD treatment. The study combines protein-protein interaction (PPI) network analysis, the HNNDTA model, and molecular docking to identify potential leads for AD. The HNNDTA model was constructed using 13 drug encoding networks and 9 target encoding networks with 2506 FDA-approved drugs as the candidate drug library for S1R and related proteins. Seven potential drugs were identified using network pharmacology and DTA prediction results of the HNNDTA model. Molecular docking simulations were further performed using the AutoDock Vina tool to screen haloperidol and bromperidol as lead compounds for AD treatment. Absorption, distribution, metabolism, excretion, and toxicity (ADMET) evaluation results indicated that both compounds had good pharmacokinetic properties and were virtually non-toxic. The study proposes a new approach to computer-aided drug design that is faster and more economical, and can improve hit rates for new drug compounds. The results of this study provide new lead compounds for AD treatment, which may be effective due to their multi-target action. HNNDTA is freely available at https://github.com/lizhj39/HNNDTA.
+37441162	129	148	Alzheimer's disease	Disease	MESH:D000544
+37441162	150	169	Alzheimer's disease	Disease	MESH:D000544
+37441162	171	173	AD	Disease	MESH:D000544
+37441162	180	205	neurodegenerative disease	Disease	MESH:D019636
+37441162	375	383	neuronal	Disease	MESH:D009410
+37441162	469	471	AD	Disease	MESH:D000544
+37441162	663	665	AD	Disease	MESH:D000544
+37441162	813	815	AD	Disease	MESH:D000544
+37441162	970	972	AD	Disease	MESH:D000544
+37441162	1364	1375	haloperidol	Chemical	MESH:D006220
+37441162	1380	1391	bromperidol	Chemical	MESH:C006820
+37441162	1414	1416	AD	Disease	MESH:D000544
+37441162	1481	1489	toxicity	Disease	MESH:D064420
+37441162	1820	1822	AD	Disease	MESH:D000544
+37441162	Negative_Correlation	MESH:D006220	MESH:D000544
+37441162	Negative_Correlation	MESH:C006820	MESH:D000544
+

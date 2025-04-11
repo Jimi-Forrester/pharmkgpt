@@ -1,0 +1,8 @@
+24145869|t|THALAMIC PARCELLATION FROM MULTI-MODAL DATA USING RANDOM FOREST LEARNING.
+24145869|a|The thalamus sub-cortical gray matter structure consists of contiguous nuclei, each individually responsible for communication between various cerebral cortex and midbrain regions. These nuclei are differentially affected in neurodegenerative diseases such as multiple sclerosis and Alzheimer's. However thalamic parcellation of the nuclei, manual or automatic, is difficult given the limited contrast in any particular magnetic resonance (MR) modality. Several groups have had qualitative success differentiating nuclei based on spatial location and fiber orientation information in diffusion tensor imaging (DTI). In this paper, we extend these principles by combining these discriminating dimensions with structural MR and derived information, and by building random forest learners on the resultant multi-modal features. In training, we form a multi-dimensional feature per voxel, which we associate with a nucleus classification from a manual rater. Learners are trained to differentiate thalamus from background and thalamic nuclei from other nuclei. These learners inform the external forces of a multiple object level set model. Our cross-validated quantitative results on a set of twenty subjects show the efficacy and reproducibility of our results.
+24145869	0	38	THALAMIC PARCELLATION FROM MULTI-MODAL	Disease	MESH:D013786
+24145869	50	72	RANDOM FOREST LEARNING	Disease	MESH:D007859
+24145869	299	325	neurodegenerative diseases	Disease	MESH:D019636
+24145869	334	352	multiple sclerosis	Disease	MESH:D009103
+24145869	357	368	Alzheimer's	Disease	MESH:D000544
+

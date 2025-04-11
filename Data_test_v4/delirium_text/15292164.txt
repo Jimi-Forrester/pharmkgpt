@@ -1,0 +1,38 @@
+15292164|t|Enhanced toxicity and cellular binding of a modified amyloid beta peptide with a methionine to valine substitution.
+15292164|a|The amyloid beta peptide (Abeta) is toxic to neuronal cells, and it is probable that this toxicity is responsible for the progressive cognitive decline associated with Alzheimer's disease. However, the nature of the toxic Abeta species and its precise mechanism of action remain to be determined. It has been reported that the methionine residue at position 35 has a pivotal role to play in the toxicity of Abeta. We examined the effect of mutating the methionine to valine in Abeta42 (AbetaM35V). The neurotoxic activity of AbetaM35V on primary mouse neuronal cortical cells was enhanced, and this diminished cell viability occurred at an accelerated rate compared with Abeta42. AbetaM35V binds Cu2+ and produces similar amounts of H2O2 as Abeta42 in vitro, and the neurotoxic activity was attenuated by the H2O2 scavenger catalase. The increased toxicity of AbetaM35V was associated with increased binding of this mutated peptide to cortical cells. The M35V mutation altered the interaction between Abeta and copper in a lipid environment as shown by EPR analysis, which indicated that the valine substitution made the peptide less rigid in the bilayer region with a resulting higher affinity for the bilayer. Circular dichroism spectroscopy showed that both Abeta42 and AbetaM35V displayed a mixture of alpha-helical and beta-sheet conformations. These findings provide further evidence that the toxicity of Abeta is regulated by binding to neuronal cells.
+15292164	9	17	toxicity	Disease	MESH:D064420
+15292164	81	101	methionine to valine	ProteinMutation	tmVar:p|SUB|M||V;VariantGroup:1;OriginalGene:11820;CorrespondingGene:351;CorrespondingSpecies:10090
+15292164	142	147	Abeta	Gene	11820
+15292164	206	214	toxicity	Disease	MESH:D064420
+15292164	250	267	cognitive decline	Disease	MESH:D003072
+15292164	284	303	Alzheimer's disease	Disease	MESH:D000544
+15292164	338	343	Abeta	Gene	11820
+15292164	443	476	methionine residue at position 35	ProteinMutation	tmVar:p|Allele|M|35;VariantGroup:0;OriginalGene:11820;CorrespondingGene:351;CorrespondingSpecies:10090
+15292164	511	519	toxicity	Disease	MESH:D064420
+15292164	523	528	Abeta	Gene	11820
+15292164	569	589	methionine to valine	ProteinMutation	tmVar:p|SUB|M||V;VariantGroup:1;OriginalGene:11820;CorrespondingGene:351;CorrespondingSpecies:10090
+15292164	618	628	neurotoxic	Disease	MESH:D020258
+15292164	662	667	mouse	Species	10090
+15292164	812	816	Cu2+	Chemical	-
+15292164	849	853	H2O2	Chemical	MESH:D006861
+15292164	883	893	neurotoxic	Disease	MESH:D020258
+15292164	925	929	H2O2	Chemical	MESH:D006861
+15292164	940	948	catalase	Gene	12359
+15292164	964	972	toxicity	Disease	MESH:D064420
+15292164	1071	1075	M35V	ProteinMutation	tmVar:p|SUB|M|35|V;HGVS:p.M35V;VariantGroup:0;OriginalGene:11820;CorrespondingGene:351;CorrespondingSpecies:10090
+15292164	1117	1122	Abeta	Gene	11820
+15292164	1127	1133	copper	Chemical	MESH:D003300
+15292164	1139	1144	lipid	Chemical	MESH:D008055
+15292164	1515	1523	toxicity	Disease	MESH:D064420
+15292164	1527	1532	Abeta	Gene	11820
+15292164	Association	MESH:D003072	11820
+15292164	Association	MESH:D003300	HGVS:p.M35V;CorrespondingGene:351
+15292164	Negative_Correlation	MESH:D020258	12359
+15292164	Positive_Correlation	MESH:D064420	CorrespondingGene:351;CorrespondingSpecies:10090;OriginalGene:11820;VariantGroup:1;tmVar:p
+15292164	Negative_Correlation	MESH:D006861	12359
+15292164	Association	MESH:D064420	CorrespondingGene:351;CorrespondingSpecies:10090;OriginalGene:11820;VariantGroup:0;tmVar:p
+15292164	Association	MESH:D000544	11820
+15292164	Association	MESH:D003300	11820
+15292164	Negative_Correlation	MESH:D006861	MESH:D020258
+15292164	Association	MESH:D064420	351
+

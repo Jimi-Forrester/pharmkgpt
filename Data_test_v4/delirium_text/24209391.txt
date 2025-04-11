@@ -1,0 +1,29 @@
+24209391|t|Differentiation between genomic and non-genomic feedback controls yields an HPA axis model featuring hypercortisolism as an irreversible bistable switch.
+24209391|a|BACKGROUND: The hypothalamic-pituitary-adrenal axis (HPA axis) is a major part of the neuroendocrine system responsible for the regulation of the response to physical or mental stress and for the control of the synthesis of the stress hormone cortisol. Dysfunctions of the HPA axis characterized by either low (hypocortisolism) or increased (hypercortisolism) cortisol levels are implicated in various pathological conditions. Their understanding and therapeutic correction may be supported by mathematical modeling and simulation of the HPA axis. METHODS: Mass action and Michaelis Menten enzyme kinetics were used to provide a mechanistic description of the feedback mechanisms within the pituitary gland cells by which cortisol inhibits its own production. A separation of the nucleus from the cytoplasm by compartments enabled a differentiation between slow genomic and fast non-genomic processes. The model in parts was trained against time resolved ACTH stress response data from an in vitro cell culture of murine AtT-20 pituitary tumor cells and analyzed by bifurcation discovery tools. RESULTS: A recently found pituitary gland cell membrane receptor that mediates rapid non-genomic actions of glucocorticoids has been incorporated into our model of the HPA axis. As a consequence of the distinction between genomic and non-genomic feedback processes our model possesses an extended dynamic repertoire in comparison to existing HPA models. In particular, our model exhibits limit cycle oscillations and bistable behavior associated to hypocortisolism but also features a (second) bistable switch which captures irreversible transitions in hypercortisolism to elevated cortisol levels. CONCLUSIONS: Model predictive control and inverse bifurcation analysis have been previously applied in the simulation-based design of therapeutic strategies for the correction of hypocortisolism. Given the HPA model extension presented in this paper, these techniques may also be used in the study of hypercortisolism. As an example, we show how sparsity enforcing penalization may suggest network interventions that allow the return from elevated cortisol levels back to nominal ones.
+24209391	76	79	HPA	Disease	MESH:D010661
+24209391	101	117	hypercortisolism	Disease	MESH:D003480
+24209391	207	210	HPA	Disease	MESH:D010661
+24209391	397	405	cortisol	Chemical	MESH:D006854
+24209391	407	435	Dysfunctions of the HPA axis	Disease	MESH:D007027
+24209391	465	480	hypocortisolism	Disease	
+24209391	496	512	hypercortisolism	Disease	MESH:D003480
+24209391	514	522	cortisol	Chemical	MESH:D006854
+24209391	692	695	HPA	Disease	MESH:D010661
+24209391	876	884	cortisol	Chemical	MESH:D006854
+24209391	1109	1113	ACTH	Gene	18976
+24209391	1168	1174	murine	Species	10090
+24209391	1175	1181	AtT-20	CellLine	CVCL:2300
+24209391	1182	1197	pituitary tumor	Disease	MESH:D010911
+24209391	1417	1420	HPA	Disease	MESH:D010661
+24209391	1591	1594	HPA	Disease	MESH:D010661
+24209391	1698	1713	hypocortisolism	Disease	
+24209391	1802	1818	hypercortisolism	Disease	MESH:D003480
+24209391	1831	1839	cortisol	Chemical	MESH:D006854
+24209391	2027	2042	hypocortisolism	Disease	
+24209391	2054	2057	HPA	Disease	MESH:D010661
+24209391	2149	2165	hypercortisolism	Disease	MESH:D003480
+24209391	2296	2304	cortisol	Chemical	MESH:D006854
+24209391	Association	MESH:D006854	MESH:D007027
+24209391	Association	MESH:D006854	MESH:D010661
+24209391	Positive_Correlation	MESH:D006854	MESH:D003480
+

@@ -1,0 +1,71 @@
+23559014|t|Phosphoinositide 3-kinase couples NMDA receptors to superoxide release in excitotoxic neuronal death.
+23559014|a|Sustained activation of neuronal N-methly D-aspartate (NMDA)-type glutamate receptors leads to excitotoxic cell death in stroke, trauma, and neurodegenerative disorders. Excitotoxic neuronal death results in part from superoxide produced by neuronal NADPH oxidase (NOX2), but how NMDA receptors are coupled to neuronal NOX2 activation is not well understood. Here, we identify a signaling pathway coupling NMDA receptor activation to NOX2 activation in primary neuron cultures. Calcium influx through the NR2B subunit of NMDA receptors leads to the activation of phosphoinositide 3-kinase (PI3K). Formation of phosphatidylinositol (3,4,5)-triphosphate (PI(3,4,5)P3) by PI3K activates the atypical protein kinase C, PKC zeta (PKCzeta), which in turn phosphorylates the p47(phox) organizing subunit of neuronal NOX2. Calcium influx through NR2B-containing NMDA receptors triggered mitochondrial depolarization, NOX2 activation, superoxide formation, and cell death. However, equivalent magnitude calcium elevations induced by ionomycin did not induce NOX2 activation or neuronal death, despite causing mitochondrial depolarization. The PI3K inhibitor wortmannin prevented NMDA-induced NOX2 activation and cell death, without preventing cell swelling, calcium elevation, or mitochondrial depolarization. The effects of wortmannin were circumvented by exogenous supply of the PI3K product, PI(3,4,5)P3, and by transfection with protein kinase M, a constitutively active form of PKCzeta. These findings demonstrate that superoxide formation and excitotoxic neuronal death can be dissociated from mitochondrial depolarization, and identify a novel role for PI3K in this cell death pathway. Perturbations in this pathway may either increase or decrease superoxide production in response to NMDA receptor activation, and may thereby impact neurological disorders, in which excitotoxicity is a contributing factor.
+23559014	0	25	Phosphoinositide 3-kinase	Gene	5293
+23559014	52	62	superoxide	Chemical	MESH:D013481
+23559014	74	100	excitotoxic neuronal death	Disease	MESH:D009410
+23559014	197	208	excitotoxic	Disease	
+23559014	223	229	stroke	Disease	MESH:D020521
+23559014	231	237	trauma	Disease	MESH:D014947
+23559014	243	270	neurodegenerative disorders	Disease	MESH:D019636
+23559014	272	298	Excitotoxic neuronal death	Disease	MESH:D009410
+23559014	320	330	superoxide	Chemical	MESH:D013481
+23559014	367	371	NOX2	Gene	1536
+23559014	421	425	NOX2	Gene	1536
+23559014	536	540	NOX2	Gene	1536
+23559014	580	587	Calcium	Chemical	MESH:D002118
+23559014	607	611	NR2B	Gene	2904
+23559014	665	690	phosphoinositide 3-kinase	Gene	5293
+23559014	712	753	phosphatidylinositol (3,4,5)-triphosphate	Chemical	MESH:C060974
+23559014	755	766	PI(3,4,5)P3	Chemical	MESH:C118303
+23559014	817	825	PKC zeta	Gene	5590
+23559014	827	834	PKCzeta	Gene	5590
+23559014	870	879	p47(phox)	Gene	5341
+23559014	911	915	NOX2	Gene	1536
+23559014	917	924	Calcium	Chemical	MESH:D002118
+23559014	940	944	NR2B	Gene	2904
+23559014	981	1009	mitochondrial depolarization	Disease	MESH:D028361
+23559014	1011	1015	NOX2	Gene	1536
+23559014	1028	1038	superoxide	Chemical	MESH:D013481
+23559014	1096	1103	calcium	Chemical	MESH:D002118
+23559014	1126	1135	ionomycin	Chemical	MESH:D015759
+23559014	1151	1155	NOX2	Gene	1536
+23559014	1170	1184	neuronal death	Disease	MESH:D009410
+23559014	1202	1230	mitochondrial depolarization	Disease	MESH:D028361
+23559014	1251	1261	wortmannin	Chemical	MESH:D000077191
+23559014	1285	1289	NOX2	Gene	1536
+23559014	1351	1358	calcium	Chemical	MESH:D002118
+23559014	1373	1401	mitochondrial depolarization	Disease	MESH:D028361
+23559014	1418	1428	wortmannin	Chemical	MESH:D000077191
+23559014	1488	1499	PI(3,4,5)P3	Chemical	MESH:C118303
+23559014	1576	1583	PKCzeta	Gene	5590
+23559014	1617	1627	superoxide	Chemical	MESH:D013481
+23559014	1642	1668	excitotoxic neuronal death	Disease	MESH:D009410
+23559014	1693	1721	mitochondrial depolarization	Disease	MESH:D028361
+23559014	1848	1858	superoxide	Chemical	MESH:D013481
+23559014	1934	1956	neurological disorders	Disease	MESH:D009461
+23559014	1967	1981	excitotoxicity	Disease	
+23559014	Positive_Correlation	1536	2904
+23559014	Positive_Correlation	MESH:D028361	2904
+23559014	Positive_Correlation	MESH:D002118	5293
+23559014	Association	MESH:D009410	5293
+23559014	Negative_Correlation	MESH:D000077191	1536
+23559014	Positive_Correlation	MESH:C118303	5590
+23559014	Association	1536	5590
+23559014	Association	2904	5293
+23559014	Association	MESH:D013481	MESH:D028361
+23559014	Positive_Correlation	5341	5590
+23559014	Association	1536	5341
+23559014	Association	MESH:D009410	1536
+23559014	Positive_Correlation	MESH:D002118	MESH:D015759
+23559014	Association	MESH:D013481	MESH:D009461
+23559014	Positive_Correlation	MESH:D002118	1536
+23559014	Association	MESH:D002118	2904
+23559014	Positive_Correlation	MESH:C060974	5590
+23559014	Positive_Correlation	MESH:D015759	MESH:D028361
+23559014	Association	MESH:D013481	5293
+23559014	Positive_Correlation	MESH:C118303	1536
+23559014	Positive_Correlation	MESH:D002118	MESH:D028361
+23559014	Positive_Correlation	MESH:D013481	1536
+23559014	Positive_Correlation	MESH:D002118	MESH:D013481
+23559014	Positive_Correlation	MESH:D013481	MESH:D009410
+

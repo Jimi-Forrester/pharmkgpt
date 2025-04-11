@@ -1,0 +1,33 @@
+39006413|t|Associations of Circulating Biomarkers with Disease Risks: a Two-Sample Mendelian Randomization Study.
+39006413|a|Background: Circulating biomarkers play a pivotal role in personalized medicine, offering potential for disease screening, prevention, and treatment. Despite established associations between numerous biomarkers and diseases, elucidating their causal relationships is challenging. Mendelian Randomization (MR) can address this issue by employing genetic instruments to discern causal links. Additionally, using multiple MR methods with overlapping results enhances the reliability of discovered relationships. Methods: Here we report an MR study using multiple methods, including inverse variance weighted, simple mode, weighted mode, weighted median, and MR Egger. We use the MR-base resource (v0.5.6)1 to evaluate causal relationships between 212 circulating biomarkers (curated from UK Biobank analyses by Neale lab and from Shin et al. 2014, Roederer et al. 2015, and Kettunen et al. 2016)2-4 and 99 complex diseases (curated from several consortia by MRC IEU and Biobank Japan). Results: We report novel causal relationships found by 4 or more MR methods between glucose and bipolar disorder (Mean Effect Size estimate across methods: 0.39) and between cystatin C and bipolar disorder (Mean Effect Size: -0.31). Based on agreement in 4 or more methods, we also identify previously known links between urate with gout and creatine with chronic kidney disease, as well as biomarkers that may be causal of cardiovascular conditions: apolipoprotein B, cholesterol, LDL, lipoprotein A, and triglycerides in coronary heart disease, as well as lipoprotein A, LDL, cholesterol, and apolipoprotein B in myocardial infarction. Conclusions: This Mendelian Randomization study not only corroborates known causal relationships between circulating biomarkers and diseases but also uncovers two novel biomarkers associated with bipolar disorder that warrant further investigation. Our findings provide insight into understanding how biological processes reflecting circulating biomarkers and their associated effects may contribute to disease etiology, which can eventually help improve precision diagnostics and intervention.
+39006413	1170	1177	glucose	Chemical	MESH:D005947
+39006413	1182	1198	bipolar disorder	Disease	MESH:D001714
+39006413	1260	1270	cystatin C	Gene	1471
+39006413	1275	1291	bipolar disorder	Disease	MESH:D001714
+39006413	1408	1413	urate	Chemical	MESH:D014527
+39006413	1419	1423	gout	Disease	MESH:D006073
+39006413	1428	1436	creatine	Chemical	MESH:D003401
+39006413	1442	1464	chronic kidney disease	Disease	MESH:D051436
+39006413	1510	1535	cardiovascular conditions	Disease	MESH:D002318
+39006413	1537	1553	apolipoprotein B	Gene	338
+39006413	1555	1566	cholesterol	Chemical	MESH:D002784
+39006413	1573	1586	lipoprotein A	Gene	4018
+39006413	1592	1605	triglycerides	Chemical	MESH:D014280
+39006413	1609	1631	coronary heart disease	Disease	MESH:D003327
+39006413	1644	1657	lipoprotein A	Gene	4018
+39006413	1664	1675	cholesterol	Chemical	MESH:D002784
+39006413	1681	1697	apolipoprotein B	Gene	338
+39006413	1701	1722	myocardial infarction	Disease	MESH:D009203
+39006413	1920	1936	bipolar disorder	Disease	MESH:D001714
+39006413	Association	MESH:D014527	MESH:D051436
+39006413	Association	MESH:D009203	338
+39006413	Association	MESH:D003401	MESH:D051436
+39006413	Association	MESH:D003327	338
+39006413	Association	MESH:D003327	4018
+39006413	Association	MESH:D002318	4018
+39006413	Positive_Correlation	MESH:D014527	MESH:D006073
+39006413	Association	MESH:D002318	338
+39006413	Association	MESH:D001714	1471
+39006413	Positive_Correlation	MESH:D005947	MESH:D001714
+39006413	Association	MESH:D014280	MESH:D003327
+

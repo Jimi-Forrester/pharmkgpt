@@ -1,0 +1,20 @@
+36145543|t|Development and Evaluation of a Physiologically Based Pharmacokinetic Model for Predicting Haloperidol Exposure in Healthy and Disease Populations.
+36145543|a|The physiologically based pharmacokinetic (PBPK) approach can be used to develop mathematical models for predicting the absorption, distribution, metabolism, and elimination (ADME) of administered drugs in virtual human populations. Haloperidol is a typical antipsychotic drug with a narrow therapeutic index and is commonly used in the management of several medical conditions, including psychotic disorders. Due to the large interindividual variability among patients taking haloperidol, it is very likely for them to experience either toxic or subtherapeutic effects. We intend to develop a haloperidol PBPK model for identifying the potential sources of pharmacokinetic (PK) variability after intravenous and oral administration by using the population-based simulator, PK-Sim. The model was initially developed and evaluated to predict the PK of haloperidol and its reduced metabolite in adult healthy population after intravenous and oral administration. After evaluating the developed PBPK model in healthy adults, it was used to predict haloperidol-rifampicin drug-drug interaction and was extended to tuberculosis patients. The model evaluation was performed using visual assessments, prediction error, and mean fold error of the ratio of the observed-to-predicted values of the PK parameters. The predicted PK values were in good agreement with the corresponding reported values. The effects of the pathophysiological changes and enzyme induction associated with tuberculosis and its treatment, respectively, on haloperidol PK, have been predicted precisely. For all clinical scenarios that were evaluated, the predicted values were within the acceptable two-fold error range.
+36145543	91	102	Haloperidol	Chemical	MESH:D006220
+36145543	362	367	human	Species	9606
+36145543	381	392	Haloperidol	Chemical	MESH:D006220
+36145543	537	556	psychotic disorders	Disease	MESH:D011618
+36145543	609	617	patients	Species	9606
+36145543	625	636	haloperidol	Chemical	MESH:D006220
+36145543	742	753	haloperidol	Chemical	MESH:D006220
+36145543	999	1010	haloperidol	Chemical	MESH:D006220
+36145543	1193	1204	haloperidol	Chemical	MESH:D006220
+36145543	1205	1215	rifampicin	Chemical	MESH:D012293
+36145543	1258	1270	tuberculosis	Disease	MESH:D014376
+36145543	1271	1279	patients	Species	9606
+36145543	1621	1633	tuberculosis	Disease	MESH:D014376
+36145543	1670	1681	haloperidol	Chemical	MESH:D006220
+36145543	Negative_Correlation	MESH:D006220	MESH:D011618
+36145543	Association	MESH:D006220	MESH:D012293
+36145543	Association	MESH:D006220	MESH:D014376
+

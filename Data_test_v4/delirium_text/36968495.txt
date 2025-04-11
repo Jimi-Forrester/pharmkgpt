@@ -1,0 +1,30 @@
+36968495|t|Machine learning algorithms assisted identification of post-stroke depression associated biological features.
+36968495|a|Objectives: Post-stroke depression (PSD) is a common and serious psychiatric complication which hinders functional recovery and social participation of stroke patients. Stroke is characterized by dynamic changes in metabolism and hemodynamics, however, there is still a lack of metabolism-associated effective and reliable diagnostic markers and therapeutic targets for PSD. Our study was dedicated to the discovery of metabolism related diagnostic and therapeutic biomarkers for PSD. Methods: Expression profiles of GSE140275, GSE122709, and GSE180470 were obtained from GEO database. Differentially expressed genes (DEGs) were detected in GSE140275 and GSE122709. Functional enrichment analysis was performed for DEGs in GSE140275. Weighted gene co-expression network analysis (WGCNA) was constructed in GSE122709 to identify key module genes. Moreover, correlation analysis was performed to obtain metabolism related genes. Interaction analysis of key module genes, metabolism related genes, and DEGs in GSE122709 was performed to obtain candidate hub genes. Two machine learning algorithms, least absolute shrinkage and selection operator (LASSO) and random forest, were used to identify signature genes. Expression of signature genes was validated in GSE140275, GSE122709, and GSE180470. Gene set enrichment analysis (GSEA) was applied on signature genes. Based on signature genes, a nomogram model was constructed in our PSD cohort (27 PSD patients vs. 54 controls). ROC curves were performed for the estimation of its diagnostic value. Finally, correlation analysis between expression of signature genes and several clinical traits was performed. Results: Functional enrichment analysis indicated that DEGs in GSE140275 enriched in metabolism pathway. A total of 8,188 metabolism associated genes were identified by correlation analysis. WGCNA analysis was constructed to obtain 3,471 key module genes. A total of 557 candidate hub genes were identified by interaction analysis. Furthermore, two signature genes (SDHD and FERMT3) were selected using LASSO and random forest analysis. GSEA analysis found that two signature genes had major roles in depression. Subsequently, PSD cohort was collected for constructing a PSD diagnosis. Nomogram model showed good reliability and validity. AUC values of receiver operating characteristic (ROC) curve of SDHD and FERMT3 were 0.896 and 0.964. ROC curves showed that two signature genes played a significant role in diagnosis of PSD. Correlation analysis found that SDHD (r = 0.653, P < 0.001) and FERM3 (r = 0.728, P < 0.001) were positively related to the Hamilton Depression Rating Scale 17-item (HAMD) score. Conclusion: A total of 557 metabolism associated candidate hub genes were obtained by interaction with DEGs in GSE122709, key modules genes, and metabolism related genes. Based on machine learning algorithms, two signature genes (SDHD and FERMT3) were identified, they were proved to be valuable therapeutic and diagnostic biomarkers for PSD. Early diagnosis and prevention of PSD were made possible by our findings.
+36968495	55	77	post-stroke depression	Disease	MESH:D003866
+36968495	122	144	Post-stroke depression	Disease	MESH:D003866
+36968495	146	149	PSD	Disease	MESH:D003866
+36968495	175	199	psychiatric complication	Disease	MESH:D001523
+36968495	262	268	stroke	Disease	MESH:D020521
+36968495	269	277	patients	Species	9606
+36968495	279	285	Stroke	Disease	MESH:D020521
+36968495	480	483	PSD	Disease	MESH:D003866
+36968495	590	593	PSD	Disease	MESH:D003866
+36968495	1537	1540	PSD	Disease	MESH:D003866
+36968495	1552	1555	PSD	Disease	MESH:D003866
+36968495	1556	1564	patients	Species	9606
+36968495	2130	2134	SDHD	Gene	6392
+36968495	2139	2145	FERMT3	Gene	83706
+36968495	2265	2275	depression	Disease	MESH:D003866
+36968495	2291	2294	PSD	Disease	MESH:D003866
+36968495	2335	2338	PSD	Disease	MESH:D003866
+36968495	2466	2470	SDHD	Gene	6392
+36968495	2475	2481	FERMT3	Gene	83706
+36968495	2589	2592	PSD	Disease	MESH:D003866
+36968495	2626	2630	SDHD	Gene	6392
+36968495	2727	2737	Depression	Disease	MESH:D003866
+36968495	3003	3007	SDHD	Gene	6392
+36968495	3012	3018	FERMT3	Gene	83706
+36968495	3111	3114	PSD	Disease	MESH:D003866
+36968495	3150	3153	PSD	Disease	MESH:D003866
+36968495	Association	MESH:D003866	83706
+

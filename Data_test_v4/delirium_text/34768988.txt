@@ -1,0 +1,38 @@
+34768988|t|Revealing the Molecular Mechanisms of Alzheimer's Disease Based on Network Analysis.
+34768988|a|The complex pathology of Alzheimer's disease (AD) emphasises the need for comprehensive modelling of the disease, which may lead to the development of efficient treatment strategies. To address this challenge, we analysed transcriptome data of post-mortem human brain samples of healthy elders and individuals with late-onset AD from the Religious Orders Study and Rush Memory and Aging Project (ROSMAP) and Mayo Clinic (MayoRNAseq) studies in the AMP-AD consortium. In this context, we conducted several bioinformatics and systems medicine analyses including the construction of AD-specific co-expression networks and genome-scale metabolic modelling of the brain in AD patients to identify key genes, metabolites and pathways involved in the progression of AD. We identified AMIGO1 and GRPRASP2 as examples of commonly altered marker genes in AD patients. Moreover, we found alterations in energy metabolism, represented by reduced oxidative phosphorylation and ATPase activity, as well as the depletion of hexanoyl-CoA, pentanoyl-CoA, (2E)-hexenoyl-CoA and numerous other unsaturated fatty acids in the brain. We also observed that neuroprotective metabolites (e.g., vitamins, retinoids and unsaturated fatty acids) tend to be depleted in the AD brain, while neurotoxic metabolites (e.g., beta-alanine, bilirubin) were more abundant. In summary, we systematically revealed the key genes and pathways related to the progression of AD, gained insight into the crucial mechanisms of AD and identified some possible targets that could be used in the treatment of AD.
+34768988	38	57	Alzheimer's Disease	Disease	MESH:D000544
+34768988	110	129	Alzheimer's disease	Disease	MESH:D000544
+34768988	131	133	AD	Disease	MESH:D000544
+34768988	341	346	human	Species	9606
+34768988	411	413	AD	Disease	MESH:D000544
+34768988	533	536	AMP	Disease	
+34768988	537	539	AD	Disease	MESH:D000544
+34768988	665	667	AD	Disease	MESH:D000544
+34768988	753	755	AD	Disease	MESH:D000544
+34768988	756	764	patients	Species	9606
+34768988	844	846	AD	Disease	MESH:D000544
+34768988	862	868	AMIGO1	Gene	57463
+34768988	930	932	AD	Disease	MESH:D000544
+34768988	933	941	patients	Species	9606
+34768988	1049	1055	ATPase	Gene	1769
+34768988	1094	1106	hexanoyl-CoA	Chemical	MESH:C044181
+34768988	1108	1121	pentanoyl-CoA	Chemical	-
+34768988	1123	1140	(2E)-hexenoyl-CoA	Chemical	-
+34768988	1160	1183	unsaturated fatty acids	Chemical	MESH:D005231
+34768988	1265	1274	retinoids	Chemical	MESH:D012176
+34768988	1279	1302	unsaturated fatty acids	Chemical	MESH:D005231
+34768988	1331	1333	AD	Disease	MESH:D000544
+34768988	1347	1357	neurotoxic	Disease	MESH:D020258
+34768988	1377	1389	beta-alanine	Chemical	MESH:D015091
+34768988	1391	1400	bilirubin	Chemical	MESH:D001663
+34768988	1518	1520	AD	Disease	MESH:D000544
+34768988	1568	1570	AD	Disease	MESH:D000544
+34768988	1647	1649	AD	Disease	MESH:D000544
+34768988	Positive_Correlation	MESH:D015091	MESH:D020258
+34768988	Positive_Correlation	MESH:D001663	MESH:D020258
+34768988	Association	MESH:D005231	MESH:D000544
+34768988	Association	MESH:D012176	MESH:D000544
+34768988	Association	MESH:D000544	57463
+34768988	Association	MESH:D015091	MESH:D000544
+34768988	Association	MESH:D001663	MESH:D000544
+

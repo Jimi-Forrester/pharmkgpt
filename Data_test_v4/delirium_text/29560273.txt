@@ -1,0 +1,15 @@
+29560273|t|Large-scale computational drug repositioning to find treatments for rare diseases.
+29560273|a|Rare, or orphan, diseases are conditions afflicting a small subset of people in a population. Although these disorders collectively pose significant health care problems, drug companies require government incentives to develop drugs for rare diseases due to extremely limited individual markets. Computer-aided drug repositioning, i.e., finding new indications for existing drugs, is a cheaper and faster alternative to traditional drug discovery offering a promising venue for orphan drug research. Structure-based matching of drug-binding pockets is among the most promising computational techniques to inform drug repositioning. In order to find new targets for known drugs ultimately leading to drug repositioning, we recently developed eMatchSite, a new computer program to compare drug-binding sites. In this study, eMatchSite is combined with virtual screening to systematically explore opportunities to reposition known drugs to proteins associated with rare diseases. The effectiveness of this integrated approach is demonstrated for a kinase inhibitor, which is a confirmed candidate for repositioning to synapsin Ia. The resulting dataset comprises 31,142 putative drug-target complexes linked to 980 orphan diseases. The modeling accuracy is evaluated against the structural data recently released for tyrosine-protein kinase HCK. To illustrate how potential therapeutics for rare diseases can be identified, we discuss a possibility to repurpose a steroidal aromatase inhibitor to treat Niemann-Pick disease type C. Overall, the exhaustive exploration of the drug repositioning space exposes new opportunities to combat orphan diseases with existing drugs. DrugBank/Orphanet repositioning data are freely available to research community at https://osf.io/qdjup/.
+29560273	68	81	rare diseases	Disease	MESH:D035583
+29560273	320	333	rare diseases	Disease	MESH:D035583
+29560273	1045	1058	rare diseases	Disease	MESH:D035583
+29560273	1295	1310	orphan diseases	Disease	MESH:D035583
+29560273	1421	1424	HCK	Gene	3055
+29560273	1471	1484	rare diseases	Disease	MESH:D035583
+29560273	1554	1563	aromatase	Gene	1588
+29560273	1583	1611	Niemann-Pick disease type C.	Disease	MESH:D052556
+29560273	1716	1731	orphan diseases	Disease	MESH:D035583
+29560273	1753	1761	DrugBank	Chemical	-
+29560273	1762	1770	Orphanet	Chemical	-
+29560273	Association	MESH:D052556	1588
+

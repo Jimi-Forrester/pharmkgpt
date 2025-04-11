@@ -1,0 +1,36 @@
+34336000|t|Use of Deep-Learning Genomics to Discriminate Healthy Individuals from Those with Alzheimer's Disease or Mild Cognitive Impairment.
+34336000|a|OBJECTIVES: Alzheimer's disease (AD) is the most prevalent neurodegenerative disorder and the most common form of dementia in the elderly. Certain genes have been identified as important clinical risk factors for AD, and technological advances in genomic research, such as genome-wide association studies (GWAS), allow for analysis of polymorphisms and have been widely applied to studies of AD. However, shortcomings of GWAS include sensitivity to sample size and hereditary deletions, which result in low classification and predictive accuracy. Therefore, this paper proposes a novel deep-learning genomics approach and applies it to multitasking classification of AD progression, with the goal of identifying novel genetic biomarkers overlooked by traditional GWAS analysis. METHODS: In this study, we selected genotype data from 1461 subjects enrolled in the Alzheimer's Disease Neuroimaging Initiative, including 622 AD, 473 mild cognitive impairment (MCI), and 366 healthy control (HC) subjects. The proposed deep-learning genomics (DLG) approach consists of three steps: quality control, coding of single-nucleotide polymorphisms, and classification. The ResNet framework was used for the DLG model, and the results were compared with classifications by simple convolutional neural network structure. All data were randomly assigned to one training/validation group and one test group at a ratio of 9 : 1. And fivefold cross-validation was used. RESULTS: We compared classification results from the DLG model to those from traditional GWAS analysis among the three groups. For the AD and HC groups, the accuracy, sensitivity, and specificity of classification were, respectively, 98.78 +- 1.50%, 98.39% +- 2.50%, and 99.44% +- 1.11% using the DLG model, while 71.38% +- 0.63%, 63.13% +- 2.87%, and 85.59% +- 6.66% using traditional GWAS. Similar results were obtained from the other two intergroup classifications. CONCLUSION: The DLG model can achieve higher accuracy and sensitivity when applied to progression of AD. More importantly, we discovered several novel genetic biomarkers of AD progression, including rs6311 and rs6313 in HTR2A, rs1354269 in NAV2, and rs690705 in RFC3. The roles of these novel loci in AD should be explored in future research.
+34336000	82	101	Alzheimer's Disease	Disease	MESH:D000544
+34336000	110	130	Cognitive Impairment	Disease	MESH:D003072
+34336000	144	163	Alzheimer's disease	Disease	MESH:D000544
+34336000	165	167	AD	Disease	MESH:D000544
+34336000	191	217	neurodegenerative disorder	Disease	MESH:D019636
+34336000	246	254	dementia	Disease	MESH:D003704
+34336000	345	347	AD	Disease	MESH:D000544
+34336000	524	526	AD	Disease	MESH:D000544
+34336000	799	801	AD	Disease	MESH:D000544
+34336000	995	1014	Alzheimer's Disease	Disease	MESH:D000544
+34336000	1054	1056	AD	Disease	MESH:D000544
+34336000	1067	1087	cognitive impairment	Disease	MESH:D003072
+34336000	1089	1092	MCI	Disease	MESH:D060825
+34336000	1720	1722	AD	Disease	MESH:D000544
+34336000	2155	2157	AD	Disease	MESH:D000544
+34336000	2227	2229	AD	Disease	MESH:D000544
+34336000	2253	2259	rs6311	SNP	tmVar:rs6311;VariantGroup:1;CorrespondingGene:3356;RS#:6311;CorrespondingSpecies:9606
+34336000	2264	2270	rs6313	SNP	tmVar:rs6313;VariantGroup:0;CorrespondingGene:3356;RS#:6313;CorrespondingSpecies:9606
+34336000	2274	2279	HTR2A	Gene	3356
+34336000	2281	2290	rs1354269	SNP	tmVar:rs1354269;VariantGroup:2;CorrespondingGene:89797;RS#:1354269;CorrespondingSpecies:9606
+34336000	2294	2298	NAV2	Gene	89797
+34336000	2304	2312	rs690705	SNP	tmVar:rs690705;VariantGroup:3;RS#:690705
+34336000	2316	2320	RFC3	Gene	5983
+34336000	2355	2357	AD	Disease	MESH:D000544
+34336000	Positive_Correlation	MESH:D000544	RS#:6311;CorrespondingGene:3356
+34336000	Positive_Correlation	MESH:D000544	RS#:6313;CorrespondingGene:3356
+34336000	Positive_Correlation	MESH:D000544	RS#:1354269;CorrespondingGene:89797
+34336000	Positive_Correlation	MESH:D000544	RS#:690705
+34336000	Association	MESH:D000544	5983
+34336000	Association	MESH:D000544	3356
+34336000	Association	MESH:D000544	89797
+34336000	Association	MESH:D000544	3356
+34336000	Association	MESH:D000544	89797
+

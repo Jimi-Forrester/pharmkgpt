@@ -1,0 +1,18 @@
+38081829|t|High-throughput target trial emulation for Alzheimer's disease drug repurposing with real-world data.
+38081829|a|Target trial emulation is the process of mimicking target randomized trials using real-world data, where effective confounding control for unbiased treatment effect estimation remains a main challenge. Although various approaches have been proposed for this challenge, a systematic evaluation is still lacking. Here we emulated trials for thousands of medications from two large-scale real-world data warehouses, covering over 10 years of clinical records for over 170 million patients, aiming to identify new indications of approved drugs for Alzheimer's disease. We assessed different propensity score models under the inverse probability of treatment weighting framework and suggested a model selection strategy for improved baseline covariate balancing. We also found that the deep learning-based propensity score model did not necessarily outperform logistic regression-based methods in covariate balancing. Finally, we highlighted five top-ranked drugs (pantoprazole, gabapentin, atorvastatin, fluticasone, and omeprazole) originally intended for other indications with potential benefits for Alzheimer's patients.
+38081829	43	62	Alzheimer's disease	Disease	MESH:D000544
+38081829	579	587	patients	Species	9606
+38081829	646	665	Alzheimer's disease	Disease	MESH:D000544
+38081829	1062	1074	pantoprazole	Chemical	MESH:D000077402
+38081829	1076	1086	gabapentin	Chemical	MESH:D000077206
+38081829	1088	1100	atorvastatin	Chemical	MESH:D000069059
+38081829	1102	1113	fluticasone	Chemical	MESH:D000068298
+38081829	1119	1129	omeprazole	Chemical	MESH:D009853
+38081829	1201	1212	Alzheimer's	Disease	MESH:D000544
+38081829	1213	1221	patients	Species	9606
+38081829	Negative_Correlation	MESH:D000077206	MESH:D000544
+38081829	Association	MESH:D000069059	MESH:D000544
+38081829	Association	MESH:D009853	MESH:D000544
+38081829	Association	MESH:D000077402	MESH:D000544
+38081829	Association	MESH:D000068298	MESH:D000544
+

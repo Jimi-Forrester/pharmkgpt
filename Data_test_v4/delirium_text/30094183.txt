@@ -1,0 +1,73 @@
+30094183|t|Expanding the spectrum of PEX16 mutations and novel insights into disease mechanisms.
+30094183|a|Zellweger syndrome spectrum disorders are caused by mutations in any of at least 12 different PEX genes. This includes PEX16, an important regulator of peroxisome biogenesis. Using whole genome sequencing, we detected previously unreported, biallelic variants in PEX16 [NM_004813.2:c.658G>A, p.(Ala220Thr) and NM_004813.2:c.830G>A, p.(Arg277Gln)] in an individual with leukodystrophy, spastic paraplegia, cerebellar ataxia, and craniocervical dystonia with normal plasma very long chain fatty acids. Using olfactory-neurosphere derived cells, a population of neural stem cells, we showed patient cells had reduced peroxisome density and increased peroxisome size, replicating previously reported findings in PEX16 cell lines. Along with alterations in peroxisome morphology, patient cells also had impaired peroxisome function with reduced catalase activity. Furthermore, patient cells had reduced oxidative stress levels after exposure to hydrogen-peroxide (H2O2), which may be a result of compensation by H2O2 metabolising enzymes other than catalase to preserve peroxisome-related cell functions. Our findings of impaired catalase activity and altered oxidative stress response are novel. Our study expands the phenotype of PEX16 mutations by including dystonia and provides further insights into the pathological mechanisms underlying PEX16-associated disorders. Additional studies of the full spectrum of peroxisomal dysfunction could improve our understanding of the mechanism underlying PEX16-associated disorders.
+30094183	26	31	PEX16	Gene	9409
+30094183	86	123	Zellweger syndrome spectrum disorders	Disease	MESH:D015211
+30094183	205	210	PEX16	Gene	9409
+30094183	349	354	PEX16	Gene	9409
+30094183	356	367	NM_004813.2	RefSeq	NM_004813.2
+30094183	368	376	c.658G>A	DNAMutation	tmVar:c|SUB|G|658|A;HGVS:c.658G>A;VariantGroup:1;CorrespondingGene:9409;RS#:1175301012;CorrespondingSpecies:9606
+30094183	378	391	p.(Ala220Thr)	ProteinMutation	tmVar:p|SUB|A|220|T;HGVS:p.A220T;VariantGroup:1;CorrespondingGene:9409;RS#:1175301012;CorrespondingSpecies:9606
+30094183	396	407	NM_004813.2	RefSeq	NM_004813.2
+30094183	408	416	c.830G>A	DNAMutation	tmVar:c|SUB|G|830|A;HGVS:c.830G>A;VariantGroup:0;CorrespondingGene:9409;RS#:542844862;CorrespondingSpecies:9606;CA#:5959807
+30094183	418	431	p.(Arg277Gln)	ProteinMutation	tmVar:p|SUB|R|277|Q;HGVS:p.R277Q;VariantGroup:0;CorrespondingGene:9409;RS#:542844862;CorrespondingSpecies:9606;CA#:5959807
+30094183	455	469	leukodystrophy	Disease	MESH:D007966
+30094183	471	489	spastic paraplegia	Disease	MESH:D010264
+30094183	491	508	cerebellar ataxia	Disease	MESH:D002524
+30094183	514	537	craniocervical dystonia	Disease	MESH:D020196
+30094183	562	584	long chain fatty acids	Chemical	-
+30094183	674	681	patient	Species	9606
+30094183	794	799	PEX16	Gene	9409
+30094183	861	868	patient	Species	9606
+30094183	926	934	catalase	Gene	847
+30094183	958	965	patient	Species	9606
+30094183	1026	1043	hydrogen-peroxide	Chemical	MESH:D006861
+30094183	1045	1049	H2O2	Chemical	MESH:D006861
+30094183	1093	1097	H2O2	Chemical	MESH:D006861
+30094183	1130	1138	catalase	Gene	847
+30094183	1211	1219	catalase	Gene	847
+30094183	1313	1318	PEX16	Gene	9409
+30094183	1342	1350	dystonia	Disease	MESH:D004421
+30094183	1425	1430	PEX16	Gene	9409
+30094183	1496	1519	peroxisomal dysfunction	Disease	MESH:D018901
+30094183	1580	1585	PEX16	Gene	9409
+30094183	Positive_Correlation	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409	MESH:D004421
+30094183	Association	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409	MESH:D007966
+30094183	Positive_Correlation	MESH:D004421	RS#:542844862;HGVS:p.R277Q;CorrespondingGene:9409
+30094183	Positive_Correlation	MESH:D004421	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409
+30094183	Association	MESH:D020196	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409
+30094183	Association	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409	MESH:D010264
+30094183	Association	MESH:D007966	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409
+30094183	Association	RS#:1175301012;HGVS:c.658G>A;CorrespondingGene:9409	MESH:D020196
+30094183	Association	MESH:D007966	RS#:1175301012;HGVS:c.658G>A;CorrespondingGene:9409
+30094183	Association	MESH:D007966	RS#:1175301012;HGVS:p.A220T;CorrespondingGene:9409
+30094183	Positive_Correlation	MESH:D004421	RS#:1175301012;HGVS:c.658G>A;CorrespondingGene:9409
+30094183	Association	MESH:D002524	RS#:542844862;HGVS:p.R277Q;CorrespondingGene:9409
+30094183	Association	MESH:D002524	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409
+30094183	Association	MESH:D010264	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409
+30094183	Association	RS#:1175301012;HGVS:c.658G>A;CorrespondingGene:9409	MESH:D007966
+30094183	Association	MESH:D020196	RS#:1175301012;HGVS:c.658G>A;CorrespondingGene:9409
+30094183	Association	MESH:D007966	RS#:542844862;HGVS:p.R277Q;CorrespondingGene:9409
+30094183	Association	MESH:D010264	RS#:1175301012;HGVS:c.658G>A;CorrespondingGene:9409
+30094183	Positive_Correlation	RS#:1175301012;HGVS:c.658G>A;CorrespondingGene:9409	MESH:D004421
+30094183	Association	MESH:D015211	9409
+30094183	Association	RS#:1175301012;HGVS:c.658G>A;CorrespondingGene:9409	MESH:D010264
+30094183	Association	MESH:D018901	9409
+30094183	Association	MESH:D020196	RS#:1175301012;HGVS:p.A220T;CorrespondingGene:9409
+30094183	Association	MESH:D004421	9409
+30094183	Association	MESH:D010264	9409
+30094183	Association	MESH:D007966	9409
+30094183	Association	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409	MESH:D020196
+30094183	Association	MESH:D010264	RS#:1175301012;HGVS:p.A220T;CorrespondingGene:9409
+30094183	Association	MESH:D020196	9409
+30094183	Association	MESH:D010264	RS#:542844862;HGVS:p.R277Q;CorrespondingGene:9409
+30094183	Association	MESH:D002524	9409
+30094183	Association	MESH:D020196	RS#:542844862;HGVS:p.R277Q;CorrespondingGene:9409
+30094183	Association	MESH:D006861	847
+30094183	Positive_Correlation	MESH:D004421	RS#:1175301012;HGVS:p.A220T;CorrespondingGene:9409
+30094183	Association	RS#:542844862;HGVS:c.830G>A;CorrespondingGene:9409	MESH:D002524
+30094183	Association	MESH:D004421	9409
+30094183	Association	MESH:D007966	9409
+30094183	Association	MESH:D020196	9409
+30094183	Association	MESH:D010264	9409
+30094183	Association	MESH:D002524	9409
+

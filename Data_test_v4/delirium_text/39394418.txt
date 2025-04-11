@@ -1,0 +1,42 @@
+39394418|t|The PANoptosis-related hippocampal molecular subtypes and key biomarkers in Alzheimer's disease patients.
+39394418|a|Alzheimer's Disease (AD) is a neurodegenerative disorder, and various molecules associated with PANoptosis are involved in neuroinflammation and neurodegenerative diseases. This work aims to identify key genes, and characterize PANoptosis-related molecular subtypes in AD. Moreover, we establish a scoring system for distinguishing PANoptosis molecular subtypes and constructing diagnostic models for AD differentiation. A total of 5 hippocampal datasets were obtained from the Gene Expression Omnibus (GEO) database. In total, 1324 protein-encoding genes associated with PANoptosis (1313 apoptosis genes, 11 necroptosis genes, and 31 pyroptosis genes) were extracted from the GeneCards database. The Limma package was used to identify differentially expressed genes. Weighted Gene Co-Expression Network Analysis (WGCNA) was conducted to identify gene modules significantly associated with AD. The ConsensusClusterPlus algorithm was used to identify AD subtypes. Gene Set Variation Analysis (GSVA) was used to assess functional and pathway differences among the subtypes. The Boruta, Least Absolute Shrinkage and Selection Operator (LASSO), Random Forest (RF), and Support Vector Machine Recursive Feature Elimination (SVM-RFE) algorithms were used to select the three PANoptosis-related Key AD genes (PKADg). A scoring model was constructed based on the Boruta algorithm. PANoptosis diagnostic models were developed using the RF, SVM-RFE, and Logistic Regression (LR) algorithms. The ROC curves were used to assess the model performance. A total of 48 important genes were identified by intersecting 725 differentially expressed genes and 2127 highly correlated module genes from WGCNA with 1324 protein-encoding genes related to PANoptosis. Machine learning algorithms identified 3 key AD genes related to PANoptosis, including ANGPT1, STEAP3, and TNFRSF11B. These genes had strong discriminatory capacities among samples, with Receiver Operating Characteristic Curve (ROC) analysis indicating Area Under the Curve (AUC) values of 0.839, 0.8, and 0.868, respectively. Using the 48 important genes, the ConsensusClusterPlus algorithm identified 2 PANoptosis subtypes among AD patients, i.e., apoptosis subtype and mild subtype. Apoptosis subtype patients displayed evident cellular apoptosis and severe functionality damage in the hippocampal tissue. Meanwhile, mild subtype patients showed milder functionality damage. These two subtypes had significant differences in apoptosis and necroptosis; however, there was no apparent variation in pyroptosis functionality. The scoring model achieved an AUC of 100% for sample differentiation. The RF PANoptosis diagnostic model demonstrated an AUC of 100% in the training set and 85.85% in the validation set for distinguishing AD. This study identified two PANoptosis-related hippocampal molecular subtypes of AD, identified key genes, and established machine learning models for subtype differentiation and discrimination of AD. We found that in the context of AD, PANoptosis may influence disease progression through the modulation of apoptosis and necrotic apoptosis.
+39394418	4	14	PANoptosis	Disease	
+39394418	76	95	Alzheimer's disease	Disease	MESH:D000544
+39394418	96	104	patients	Species	9606
+39394418	106	125	Alzheimer's Disease	Disease	MESH:D000544
+39394418	127	129	AD	Disease	MESH:D000544
+39394418	136	162	neurodegenerative disorder	Disease	MESH:D019636
+39394418	202	212	PANoptosis	Disease	
+39394418	229	246	neuroinflammation	Disease	MESH:D000090862
+39394418	251	277	neurodegenerative diseases	Disease	MESH:D019636
+39394418	375	377	AD	Disease	MESH:D000544
+39394418	438	448	PANoptosis	Disease	
+39394418	507	509	AD	Disease	MESH:D000544
+39394418	678	688	PANoptosis	Disease	
+39394418	996	998	AD	Disease	MESH:D000544
+39394418	1056	1058	AD	Disease	MESH:D000544
+39394418	1375	1385	PANoptosis	Disease	
+39394418	1398	1400	AD	Disease	MESH:D000544
+39394418	1479	1489	PANoptosis	Disease	
+39394418	1837	1847	PANoptosis	Disease	
+39394418	1894	1896	AD	Disease	MESH:D000544
+39394418	1914	1924	PANoptosis	Disease	
+39394418	1936	1942	ANGPT1	Gene	284
+39394418	1944	1950	STEAP3	Gene	55240
+39394418	1956	1966	TNFRSF11B.	Gene	4982
+39394418	2254	2264	PANoptosis	Disease	
+39394418	2280	2282	AD	Disease	MESH:D000544
+39394418	2283	2291	patients	Species	9606
+39394418	2353	2361	patients	Species	9606
+39394418	2482	2490	patients	Species	9606
+39394418	2751	2761	PANoptosis	Disease	
+39394418	2879	2881	AD	Disease	MESH:D000544
+39394418	2962	2964	AD	Disease	MESH:D000544
+39394418	3078	3080	AD	Disease	MESH:D000544
+39394418	3114	3116	AD	Disease	MESH:D000544
+39394418	3118	3128	PANoptosis	Disease	
+39394418	3203	3211	necrotic	Disease	MESH:D009336
+39394418	Association	MESH:D000544	4982
+39394418	Association	MESH:D000544	55240
+39394418	Association	MESH:D000544	284
+

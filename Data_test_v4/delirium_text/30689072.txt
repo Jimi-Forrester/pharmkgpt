@@ -1,0 +1,16 @@
+30689072|t|Impact of a combination of quantitative indices representing uptake intensity, shape, and asymmetry in DAT SPECT using machine learning: comparison of different volume of interest settings.
+30689072|a|BACKGROUND: We sought to assess the machine learning-based combined diagnostic accuracy of three types of quantitative indices obtained using dopamine transporter single-photon emission computed tomography (DAT SPECT)-specific binding ratio (SBR), putamen-to-caudate ratio (PCR)/fractal dimension (FD), and asymmetry index (AI)-for parkinsonian syndrome (PS). We also aimed to compare the effect of two different types of volume of interest (VOI) settings from commercially available software packages DaTQUANT (Q) and DaTView (V) on diagnostic accuracy. METHODS: Seventy-one patients with PS and 40 without PS (NPS) were enrolled. Using SPECT images obtained from these patients, three quantitative indices were calculated at two different VOI settings each. SBR-Q, PCR-Q, and AI-Q were derived using the VOI settings from DaTQUANT, whereas SBR-V, FD-V, and AI-V were derived using those from DaTView. We compared the diagnostic value of these six indices for PS. We incorporated a support vector machine (SVM) classifier for assessing the combined accuracy of the three indices (SVM-Q: combination of SBR-Q, PCR-Q, and AI-Q; SVM-V: combination of SBR-V, FD-V, and AI-V). A Mann-Whitney U test and receiver-operating characteristics (ROC) analysis were used for statistical analyses. RESULTS: ROC analyses demonstrated that the areas under the curve (AUC) for SBR-Q, PCR-Q, AI-Q, SBR-V, FD-V, and AI-V were 0.978, 0.837, 0.802, 0.906, 0.972, and 0.829, respectively. On comparing the corresponding quantitative indices between the two types of VOI settings, SBR-Q performed better than SBR-V (p = 0.006), whereas FD-V performed better than PCR-Q (p = 0.0003). No significant difference was observed between AI-Q and AI-V (p = 0.56). The AUCs for SVM-Q and SVM-V were 0.988 and 0.994, respectively; the two different VOI settings displayed no significant differences in terms of diagnostic accuracy (p = 0.48). CONCLUSION: The combination of the three indices obtained using the SVM classifier improved the diagnostic performance for PS; this performance did not differ based on the VOI settings and software used.
+30689072	103	106	DAT	Gene	6531
+30689072	332	352	dopamine transporter	Gene	6531
+30689072	397	400	DAT	Gene	6531
+30689072	522	543	parkinsonian syndrome	Disease	MESH:D020734
+30689072	545	547	PS	Disease	MESH:D020734
+30689072	766	774	patients	Species	9606
+30689072	780	782	PS	Disease	MESH:D020734
+30689072	798	800	PS	Disease	MESH:D020734
+30689072	802	805	NPS	Disease	MESH:D009261
+30689072	861	869	patients	Species	9606
+30689072	1151	1153	PS	Disease	MESH:D020734
+30689072	2224	2226	PS	Disease	MESH:D020734
+30689072	Association	MESH:D020734	6531
+

@@ -1,0 +1,18 @@
+35811781|t|SMILES-based 2D-QSAR and similarity search for identification of potential new scaffolds for development of SARS-CoV-2 MPRO inhibitors.
+35811781|a|COVID-19, whose etiological agent is the SARS-CoV-2 virus, has caused over 537.5 million cases and killed over 6.3 million people since its discovery in 2019. Despite the recent development of the first drugs indicated for treating people already infected, the great need to develop new anti-SARS-CoV-2 drugs still exists, mainly due to the possible emergence of new variants of this virus and resistant strains of the current variants. Thus, this work presents the results of QSAR and similarity search studies based only on 2D structures from a set of 32 bicycloproline derivatives, aiming to quickly, reproducibly, and reliably identify potentially useful compounds as scaffolds of new major protease inhibitors (Mpro) of the virus. The obtained QSAR model is based only on topological molecular descriptors. The model has good internal and external statistics, is robust, and does not present a chance correlation. This model was used as one of the tools to support the virtual screening stage carried out in the SwissADME web tool. Five molecules, from an initial set of 2695 molecules, proved to be the most promising, as they were within the model's applicability domain and linearity range, with low potential to cause carcinogenic, teratogenic, and reproductive toxicity effects and promising pharmacokinetic properties. These five compounds were then selected as the most competent to generate, in future studies, new anti-SARS-CoV-2 agents with drug-likeness properties suitable for use in therapy.
+35811781	108	118	SARS-CoV-2	Species	2697049
+35811781	119	123	MPRO	Gene	8673700
+35811781	136	144	COVID-19	Disease	MESH:D000086382
+35811781	177	193	SARS-CoV-2 virus	Species	
+35811781	259	265	people	Species	9606
+35811781	368	374	people	Species	9606
+35811781	383	391	infected	Disease	MESH:D007239
+35811781	428	438	SARS-CoV-2	Disease	MESH:D000086382
+35811781	693	707	bicycloproline	Chemical	MESH:C000722492
+35811781	852	856	Mpro	Gene	8673700
+35811781	1363	1375	carcinogenic	Disease	MESH:D011230
+35811781	1377	1388	teratogenic	Disease	MESH:C535542
+35811781	1407	1415	toxicity	Disease	MESH:D064420
+35811781	1569	1579	SARS-CoV-2	Disease	MESH:D000086382
+35811781	Negative_Correlation	MESH:C000722492	8673700
+

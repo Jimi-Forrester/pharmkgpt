@@ -1,0 +1,15 @@
+36185321|t|Osteoporosis diagnosis in knee X-rays by transfer learning based on convolution neural network.
+36185321|a|Osteoporosis degrades the quality of bones and is the primary cause of fractures in the elderly and women after menopause. The high diagnostic and treatment costs urge the researchers to find a cost-effective diagnostic system to diagnose osteoporosis in the early stages. X-ray imaging is the cheapest and most common imaging technique to detect bone pathologies butmanual interpretation of x-rays for osteoporosis is difficult and extraction of required features and selection of high-performance classifiers is a very challenging task. Deep learning systems have gained the popularity in image analysis field over the last few decades. This paper proposes a convolution neural network (CNN) based approach to detect osteoporosis from x-rays. In our study, we have used the transfer learning of deep learning-based CNNs namely AlexNet, VggNet-16, ResNet, and VggNet -19 to classify the x-ray images of knee joints into normal, osteopenia, and osteoporosis disease groups. The main objectives of the current study are: (i) to present a dataset of 381 knee x-rays medically validated by the T-scores obtained from the Quantitative Ultrasound System, and (ii) to propose a deep learning approach using transfer learning to classify different stages of the disease. The performance of these classifiers is compared and the best accuracy of 91.1% is achieved by pretrained Alexnet architecture on the presented dataset with an error rate of 0.09 and validation loss of 0.54 as compared to the accuracy of 79%, an error rate of 0.21, and validation loss of 0.544 when pretrained network was not used.. The results of the study suggest that a deep learning system with transfer learning can help clinicians to detect osteoporosis in its early stages hence reducing the risk of fractures.
+36185321	0	12	Osteoporosis	Disease	MESH:D010024
+36185321	96	108	Osteoporosis	Disease	MESH:D010024
+36185321	167	176	fractures	Disease	MESH:D050723
+36185321	196	201	women	Species	9606
+36185321	335	347	osteoporosis	Disease	MESH:D010024
+36185321	448	459	pathologies	Disease	MESH:D005598
+36185321	499	511	osteoporosis	Disease	MESH:D010024
+36185321	815	827	osteoporosis	Disease	MESH:D010024
+36185321	1025	1035	osteopenia	Disease	MESH:D001851
+36185321	1041	1053	osteoporosis	Disease	MESH:D010024
+36185321	1808	1820	osteoporosis	Disease	MESH:D010024
+36185321	1868	1877	fractures	Disease	MESH:D050723
+

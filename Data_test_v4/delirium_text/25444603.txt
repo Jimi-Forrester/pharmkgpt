@@ -1,0 +1,12 @@
+25444603|t|Thickness network features for prognostic applications in dementia.
+25444603|a|Regional analysis of cortical thickness has been studied extensively in building imaging biomarkers for early detection of Alzheimer's disease but not its interregional covariation of thickness. We present novel features based on the inter-regional covariation of cortical thickness. Initially, the cortical labels of each subject are partitioned into small patches (graph nodes) by spatial k-means clustering. A graph is then constructed by establishing a link between 2 nodes if the difference in thickness between the nodes is below a certain threshold. From this binary graph, a thickness network is computed using nodal degree, betweenness, and clustering coefficient measures. Fusing them with multiple kernel learning, it is observed that thickness network features discriminate mild cognitive impairment (MCI) converters from controls (CN) with an area under curve (AUC) of 0.83, 74% sensitivity and 76% specificity on a large subset obtained from the Alzheimer's Disease Neuroimaging Initiative data set. A comparison of predictive utility in Alzheimer's disease and/or CN classification (AUC of 0.92, 80% sensitivity [SENS] and 90% specificity [SPEC]), in discriminating CN from MCI (converters and nonconverters combined; AUC of 0.75, SENS and SPEC of 64% and 73%, respectively) and in discriminating between MCI nonconverters and MCI converters (AUC of 0.68, SENS and SPEC of 65% and 64%) is also presented. ThickNet features as defined here are novel, can be derived from a single magnetic resonance imaging scan, and demonstrate the potential for the computer-aided prognostic applications. 
+25444603	58	66	dementia	Disease	MESH:D003704
+25444603	191	210	Alzheimer's disease	Disease	MESH:D000544
+25444603	859	879	cognitive impairment	Disease	MESH:D003072
+25444603	881	884	MCI	Disease	MESH:D060825
+25444603	1028	1047	Alzheimer's Disease	Disease	MESH:D000544
+25444603	1120	1139	Alzheimer's disease	Disease	MESH:D000544
+25444603	1257	1260	MCI	Disease	MESH:D060825
+25444603	1388	1391	MCI	Disease	MESH:D060825
+25444603	1410	1413	MCI	Disease	MESH:D060825
+

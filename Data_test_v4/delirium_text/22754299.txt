@@ -1,0 +1,31 @@
+22754299|t|Abeta-40 Y10F increases betafibrils formation but attenuates the neurotoxicity of amyloid-beta peptide.
+22754299|a|Alzheimer's disease (AD) is characterized by the abnormal aggregation of amyloid-beta peptide (Abeta) in extracellular deposits known as senile plaques. The tyrosine residue (Tyr-10) is believed to be important in Abeta-induced neurotoxicity due to the formation of tyrosyl radicals. To reduce the likelihood of cross-linking, here we designed an Abeta-40 analogue (Abeta-40 Y10F) in which the tyrosine residue was substituted by a structurally similar residue, phenylalanine. The aggregation rate was determined by the Thioflavin T (ThT) assay, in which Abeta-40 Y10F populated an ensemble of folded conformations much quicker and stronger than the wild type Abeta. Biophysical tests subsequently confirmed the results of the ThT assay, suggesting the measured increase of beta-aggregation may arise predominantly from enhancement of hydrophobicity upon substitution and thus the propensity of intrinsic beta-sheet formation. Nevertheless, Abeta-40 Y10F exhibited remarkably decreased neurotoxicity compared to Abeta-40 which could be partly due to the reduced generation of hydrogen peroxide. These findings may lead to further understanding of the structural perturbation of Abeta to its fibrillation.
+22754299	9	13	Y10F	ProteinMutation	tmVar:p|SUB|Y|10|F;HGVS:p.Y10F;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+22754299	65	78	neurotoxicity	Disease	MESH:D020258
+22754299	104	123	Alzheimer's disease	Disease	MESH:D000544
+22754299	125	127	AD	Disease	MESH:D000544
+22754299	199	204	Abeta	Gene	351
+22754299	261	269	tyrosine	Chemical	MESH:D014443
+22754299	279	282	Tyr	Chemical	MESH:D014443
+22754299	318	323	Abeta	Gene	351
+22754299	332	345	neurotoxicity	Disease	MESH:D020258
+22754299	370	386	tyrosyl radicals	Chemical	-
+22754299	479	483	Y10F	ProteinMutation	tmVar:p|SUB|Y|10|F;HGVS:p.Y10F;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+22754299	498	506	tyrosine	Chemical	MESH:D014443
+22754299	624	636	Thioflavin T	Chemical	MESH:C009462
+22754299	638	641	ThT	Chemical	MESH:C009462
+22754299	668	672	Y10F	ProteinMutation	tmVar:p|SUB|Y|10|F;HGVS:p.Y10F;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+22754299	764	769	Abeta	Gene	351
+22754299	831	834	ThT	Chemical	MESH:C009462
+22754299	1054	1058	Y10F	ProteinMutation	tmVar:p|SUB|Y|10|F;HGVS:p.Y10F;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+22754299	1090	1103	neurotoxicity	Disease	MESH:D020258
+22754299	1180	1197	hydrogen peroxide	Chemical	MESH:D006861
+22754299	1282	1287	Abeta	Gene	351
+22754299	Negative_Correlation	MESH:D006861	HGVS:p.Y10F;CorrespondingGene:351
+22754299	Negative_Correlation	MESH:D020258	HGVS:p.Y10F;CorrespondingGene:351
+22754299	Positive_Correlation	MESH:D020258	351
+22754299	Association	MESH:D014443	MESH:D020258
+22754299	Association	MESH:D000544	351
+22754299	Association	MESH:D014443	351
+22754299	Association	MESH:D020258	351
+

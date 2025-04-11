@@ -1,0 +1,16 @@
+32974638|t|PheMap: a multi-resource knowledge base for high-throughput phenotyping within electronic health records.
+32974638|a|OBJECTIVE: Developing algorithms to extract phenotypes from electronic health records (EHRs) can be challenging and time-consuming. We developed PheMap, a high-throughput phenotyping approach that leverages multiple independent, online resources to streamline the phenotyping process within EHRs. MATERIALS AND METHODS: PheMap is a knowledge base of medical concepts with quantified relationships to phenotypes that have been extracted by natural language processing from publicly available resources. PheMap searches EHRs for each phenotype's quantified concepts and uses them to calculate an individual's probability of having this phenotype. We compared PheMap to clinician-validated phenotyping algorithms from the Electronic Medical Records and Genomics (eMERGE) network for type 2 diabetes mellitus (T2DM), dementia, and hypothyroidism using 84 821 individuals from Vanderbilt Univeresity Medical Center's BioVU DNA Biobank. We implemented PheMap-based phenotypes for genome-wide association studies (GWAS) for T2DM, dementia, and hypothyroidism, and phenome-wide association studies (PheWAS) for variants in FTO, HLA-DRB1, and TCF7L2. RESULTS: In this initial iteration, the PheMap knowledge base contains quantified concepts for 841 disease phenotypes. For T2DM, dementia, and hypothyroidism, the accuracy of the PheMap phenotypes were >97% using a 50% threshold and eMERGE case-control status as a reference standard. In the GWAS analyses, PheMap-derived phenotype probabilities replicated 43 of 51 previously reported disease-associated variants for the 3 phenotypes. For 9 of the 11 top associations, PheMap provided an equivalent or more significant P value than eMERGE-based phenotypes. The PheMap-based PheWAS showed comparable or better performance to a traditional phecode-based PheWAS. PheMap is publicly available online. CONCLUSIONS: PheMap significantly streamlines the process of extracting research-quality phenotype information from EHRs, with comparable or better performance to current phenotyping approaches.
+32974638	886	910	type 2 diabetes mellitus	Disease	MESH:D003924
+32974638	912	916	T2DM	Disease	MESH:D003924
+32974638	919	927	dementia	Disease	MESH:D003704
+32974638	933	947	hypothyroidism	Disease	MESH:D007037
+32974638	1123	1127	T2DM	Disease	MESH:D003924
+32974638	1129	1137	dementia	Disease	MESH:D003704
+32974638	1143	1157	hypothyroidism	Disease	MESH:D007037
+32974638	1221	1224	FTO	Gene	79068
+32974638	1226	1234	HLA-DRB1	Gene	3123;3105
+32974638	1240	1246	TCF7L2	Gene	6934
+32974638	1371	1375	T2DM	Disease	MESH:D003924
+32974638	1377	1385	dementia	Disease	MESH:D003704
+32974638	1391	1405	hypothyroidism	Disease	MESH:D007037
+

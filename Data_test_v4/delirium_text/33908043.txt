@@ -1,0 +1,10 @@
+33908043|t|Modeling semi-competing risks data as a longitudinal bivariate process.
+33908043|a|As individuals age, death is a competing risk for Alzheimer's disease (AD) but the reverse is not the case. As such, studies of AD can be placed within the semi-competing risks framework. Central to semi-competing risks, and in contrast to standard competing risks , is that one can learn about the dependence structure between the two events. To-date, however, most methods for semi-competing risks treat dependence as a nuisance and not a potential source of new clinical knowledge. We propose a novel regression-based framework that views the two time-to-event outcomes through the lens of a longitudinal bivariate process on a partition of the time scales of the two events. A key innovation of the framework is that dependence is represented in two distinct forms, local and global dependence, both of which have intuitive clinical interpretations. Estimation and inference are performed via penalized maximum likelihood, and can accommodate right censoring, left truncation, and time-varying covariates. An important consequence of the partitioning of the time scale is that an ambiguity regarding the specific form of the likelihood contribution may arise; a strategy for sensitivity analyses regarding this issue is described. The framework is then used to investigate the role of gender and having >=1 apolipoprotein E (APOE) epsilon4 allele on the joint risk of AD and death using data from the Adult Changes in Thought study.
+33908043	92	97	death	Disease	MESH:D003643
+33908043	122	141	Alzheimer's disease	Disease	MESH:D000544
+33908043	143	145	AD	Disease	MESH:D000544
+33908043	200	202	AD	Disease	MESH:D000544
+33908043	1383	1405	apolipoprotein E (APOE	Gene	348
+33908043	1444	1446	AD	Disease	MESH:D000544
+33908043	1451	1456	death	Disease	MESH:D003643
+

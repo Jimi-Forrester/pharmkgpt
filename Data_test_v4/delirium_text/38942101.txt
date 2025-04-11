@@ -1,0 +1,24 @@
+38942101|t|Predicting changes in brain metabolism and progression from mild cognitive impairment to dementia using multitask Deep Learning models and explainable AI.
+38942101|a|BACKGROUND: The prediction of Alzheimer's disease (AD) progression from its early stages is a research priority. In this context, the use of Artificial Intelligence (AI) in AD has experienced a notable surge in recent years. However, existing investigations predominantly concentrate on distinguishing clinical phenotypes through cross-sectional approaches. This study aims to investigate the potential of modeling additional dimensions of the disease, such as variations in brain metabolism assessed via [18F]-fluorodeoxyglucose positron emission tomography (FDG-PET), and utilize this information to identify patients with mild cognitive impairment (MCI) who will progress to dementia (pMCI). METHODS: We analyzed data from 1,617 participants from the Alzheimer's Disease Neuroimaging Initiative (ADNI) who had undergone at least one FDG-PET scan. We identified the brain regions with the most significant hypometabolism in AD and used Deep Learning (DL) models to predict future changes in brain metabolism. The best-performing model was then adapted under a multi-task learning framework to identify pMCI individuals. Finally, this model underwent further analysis using eXplainable AI (XAI) techniques. RESULTS: Our results confirm a strong association between hypometabolism, disease progression, and cognitive decline. Furthermore, we demonstrated that integrating data on changes in brain metabolism during training enhanced the models' ability to detect pMCI individuals (sensitivity=88.4%, specificity=86.9%). Lastly, the application of XAI techniques enabled us to delve into the brain regions with the most significant impact on model predictions, highlighting the importance of the hippocampus, cingulate cortex, and some subcortical structures. CONCLUSION: This study introduces a novel dimension to predictive modeling in AD, emphasizing the importance of projecting variations in brain metabolism under a multi-task learning paradigm.
+38942101	65	85	cognitive impairment	Disease	MESH:D003072
+38942101	89	97	dementia	Disease	MESH:D003704
+38942101	185	204	Alzheimer's disease	Disease	MESH:D000544
+38942101	206	208	AD	Disease	MESH:D000544
+38942101	328	330	AD	Disease	MESH:D000544
+38942101	660	684	[18F]-fluorodeoxyglucose	Chemical	MESH:D019788
+38942101	715	718	FDG	Chemical	MESH:D019788
+38942101	766	774	patients	Species	9606
+38942101	785	805	cognitive impairment	Disease	MESH:D003072
+38942101	807	810	MCI	Disease	MESH:D060825
+38942101	833	841	dementia	Disease	MESH:D003704
+38942101	843	847	pMCI	Disease	
+38942101	909	928	Alzheimer's Disease	Disease	MESH:D000544
+38942101	991	994	FDG	Chemical	MESH:D019788
+38942101	1063	1077	hypometabolism	Disease	
+38942101	1081	1083	AD	Disease	MESH:D000544
+38942101	1259	1263	pMCI	Disease	
+38942101	1421	1435	hypometabolism	Disease	
+38942101	1462	1479	cognitive decline	Disease	MESH:D003072
+38942101	1618	1622	pMCI	Disease	
+38942101	1992	1994	AD	Disease	MESH:D000544
+

@@ -1,0 +1,20 @@
+36789284|t|Using Machine Learning Algorithms to Predict High-Risk Factors for Postoperative Delirium in Elderly Patients.
+36789284|a|Purpose: Postoperative delirium (POD) is a common postoperative complication in elderly patients, and it greatly affects the short-term and long-term prognosis of patients. The purpose of this study was to develop a machine learning model to identify preoperative, intraoperative and postoperative high-risk factors and predict the occurrence of delirium after nonbrain surgery in elderly patients. Patients and Methods: A total of 950 elderly patients were included in the study, including 132 patients with POD. We collected 30 characteristic variables, including patient demographic characteristics, basic medical history, preoperative examination characteristics, type of surgery, and intraoperative information. Three machine learning algorithms, multilayer perceptron (MLP), extreme gradient boosting (XGBoost), and k-nearest neighbor algorithm (KNN), were applied to construct the model, and the k-fold cross-validation method, ROC curve, calibration curve, decision curve analysis (DCA) and external validation were used for model evaluation. Results: XGBoost showed the best performance among the three prediction models. The ROC curve results showed that XGBoost had a high area under the curve (AUC) value of 0.982 in the training set; the AUC value in the validation set was 0.924, and the prediction model was highly accurate. The k-fold cross-validation method was used for internal validation, and the XGBoost model was stable The calibration curve showed high predictive power of the XGBoost model. The DCA curve showed a higher benefit rate for patients who received interventional treatment under the XGBoost model. The AUC value for the external validation set was 0.88, indicating that the predictive model was extrapolative. Conclusion: The prediction model of POD derived from the machine learning algorithm in this study has high prediction accuracy and clinical utility, which is beneficial for clinicians to diagnose and treat patients in a timely manner.
+36789284	67	89	Postoperative Delirium	Disease	MESH:D000071257
+36789284	101	109	Patients	Species	9606
+36789284	120	142	Postoperative delirium	Disease	MESH:D000071257
+36789284	144	147	POD	Disease	MESH:D000071257
+36789284	161	187	postoperative complication	Disease	MESH:D011183
+36789284	199	207	patients	Species	9606
+36789284	274	282	patients	Species	9606
+36789284	457	465	delirium	Disease	MESH:D003693
+36789284	500	508	patients	Species	9606
+36789284	510	518	Patients	Species	9606
+36789284	555	563	patients	Species	9606
+36789284	606	614	patients	Species	9606
+36789284	620	623	POD	Disease	MESH:D000071257
+36789284	677	684	patient	Species	9606
+36789284	1673	1681	patients	Species	9606
+36789284	1893	1896	POD	Disease	MESH:D000071257
+36789284	2063	2071	patients	Species	9606
+

@@ -1,0 +1,20 @@
+32258430|t|Siamese neural networks for continuous disease severity evaluation and change detection in medical imaging.
+32258430|a|Using medical images to evaluate disease severity and change over time is a routine and important task in clinical decision making. Grading systems are often used, but are unreliable as domain experts disagree on disease severity category thresholds. These discrete categories also do not reflect the underlying continuous spectrum of disease severity. To address these issues, we developed a convolutional Siamese neural network approach to evaluate disease severity at single time points and change between longitudinal patient visits on a continuous spectrum. We demonstrate this in two medical imaging domains: retinopathy of prematurity (ROP) in retinal photographs and osteoarthritis in knee radiographs. Our patient cohorts consist of 4861 images from 870 patients in the Imaging and Informatics in Retinopathy of Prematurity (i-ROP) cohort study and 10,012 images from 3021 patients in the Multicenter Osteoarthritis Study (MOST), both of which feature longitudinal imaging data. Multiple expert clinician raters ranked 100 retinal images and 100 knee radiographs from excluded test sets for severity of ROP and osteoarthritis, respectively. The Siamese neural network output for each image in comparison to a pool of normal reference images correlates with disease severity rank (rho = 0.87 for ROP and rho = 0.89 for osteoarthritis), both within and between the clinical grading categories. Thus, this output can represent the continuous spectrum of disease severity at any single time point. The difference in these outputs can be used to show change over time. Alternatively, paired images from the same patient at two time points can be directly compared using the Siamese neural network, resulting in an additional continuous measure of change between images. Importantly, our approach does not require manual localization of the pathology of interest and requires only a binary label for training (same versus different). The location of disease and site of change detected by the algorithm can be visualized using an occlusion sensitivity map-based approach. For a longitudinal binary change detection task, our Siamese neural networks achieve test set receiving operator characteristic area under the curves (AUCs) of up to 0.90 in evaluating ROP or knee osteoarthritis change, depending on the change detection strategy. The overall performance on this binary task is similar compared to a conventional convolutional deep-neural network trained for multi-class classification. Our results demonstrate that convolutional Siamese neural networks can be a powerful tool for evaluating the continuous spectrum of disease severity and change in medical imaging.
+32258430	630	637	patient	Species	9606
+32258430	723	749	retinopathy of prematurity	Disease	MESH:D012178
+32258430	751	754	ROP	Disease	MESH:D012178
+32258430	783	797	osteoarthritis	Disease	MESH:D010003
+32258430	823	830	patient	Species	9606
+32258430	871	879	patients	Species	9606
+32258430	914	940	Retinopathy of Prematurity	Disease	MESH:D012178
+32258430	944	947	ROP	Disease	MESH:D012178
+32258430	990	998	patients	Species	9606
+32258430	1018	1032	Osteoarthritis	Disease	MESH:D010003
+32258430	1220	1223	ROP	Disease	MESH:D012178
+32258430	1228	1242	osteoarthritis	Disease	MESH:D010003
+32258430	1412	1415	ROP	Disease	MESH:D012178
+32258430	1435	1449	osteoarthritis	Disease	MESH:D010003
+32258430	1724	1731	patient	Species	9606
+32258430	2368	2371	ROP	Disease	MESH:D012178
+32258430	2375	2394	knee osteoarthritis	Disease	MESH:D020370
+

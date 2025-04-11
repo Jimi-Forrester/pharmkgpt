@@ -1,0 +1,9 @@
+32093702|t|Discovering weaker genetic associations guided by known associations.
+32093702|a|BACKGROUND: The current understanding of the genetic basis of complex human diseases is that they are caused and affected by many common and rare genetic variants. A considerable number of the disease-associated variants have been identified by Genome Wide Association Studies, however, they can explain only a small proportion of heritability. One of the possible reasons for the missing heritability is that many undiscovered disease-causing variants are weakly associated with the disease. This can pose serious challenges to many statistical methods, which seems to be only capable of identifying disease-associated variants with relatively stronger coefficients. RESULTS: In order to help identify weaker variants, we propose a novel statistical method, Constrained Sparse multi-locus Linear Mixed Model (CS-LMM) that aims to uncover genetic variants of weaker associations by incorporating known associations as a prior knowledge in the model. Moreover, CS-LMM accounts for polygenic effects as well as corrects for complex relatednesses. Our simulation experiments show that CS-LMM outperforms other competing existing methods in various settings when the combinations of MAFs and coefficients reflect different scenarios in complex human diseases. CONCLUSIONS: We also apply our method to the GWAS data of alcoholism and Alzheimer's disease and exploratively discover several SNPs. Many of these discoveries are supported through literature survey. Furthermore, our association results strengthen the belief in genetic links between alcoholism and Alzheimer's disease.
+32093702	140	145	human	Species	9606
+32093702	1310	1315	human	Species	9606
+32093702	1384	1394	alcoholism	Disease	MESH:D000437
+32093702	1399	1418	Alzheimer's disease	Disease	MESH:D000544
+32093702	1611	1621	alcoholism	Disease	MESH:D000437
+32093702	1626	1645	Alzheimer's disease	Disease	MESH:D000544
+

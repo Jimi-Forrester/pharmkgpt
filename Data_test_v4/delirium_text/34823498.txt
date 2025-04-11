@@ -1,0 +1,23 @@
+34823498|t|Immune infiltration landscape and immune-marker molecular typing of pulmonary fibrosis with pulmonary hypertension.
+34823498|a|BACKGROUND: Pulmonary arterial hypertension (PH) secondary to pulmonary fibrosis (PF) is one of the most common complications in PF patients, it causes severe disease and usually have a poor prognosis. Whether the combination of PH and PF is a unique disease phenotype is unclear. We aimed to screen the key modules associated with PH-PF immune infiltration based on WGCNA and identify the hub genes for molecular typing. METHOD: Using the gene expression profile GSE24988 of PF patients with or without PH from the Gene Expression Omnibus (GEO) database, we evaluated immune cell infiltration using Cibersortx and immune cell gene signature files. Different immune cell types were screened using the Wilcoxon test; differentially expressed genes were screened using samr. The molecular pathways implicated in these differential responses were identified using Gene Ontology and Kyoto Encyclopedia of Genes and Genomes functional enrichment analyses. A weighted co-expression network of the differential genes was constructed, relevant co-expression modules were identified, and relationships between modules and differential immune cell infiltration were calculated. The modules most relevant to this disease were identified using weighted correlation network analysis. From these, we constructed a co-expression network; using the STRING database, we integrated the values into the human protein-protein interaction network before constructing a co-expression interaction subnet, screening genes associated with immunity and unsupervised molecular typing, and analyzing the immune cell infiltration and expression of key genes in each disease type. RESULTS: Of the 22 immune cell types from the PF GEO data, 20 different immune cell types were identified. There were 1622 differentially expressed genes (295 upregulated and 1327 downregulated). The resulting weighted co-expression network identified six co-expression modules. These were screened to identify the modules most relevant to the disease phenotype (the green module). By calculating the correlations between modules and the differentially infiltrated immune cells, extracting the green module co-expression network (46 genes), extracting 25 key genes using gene significance and module-membership thresholds, and combining these with the 10 key genes in the human protein-protein interaction network, we identified five immune cell-related marker genes that might be applied as biomarkers. Using these marker genes, we evaluated these disease samples using unsupervised clustering molecular typing. CONCLUSION: Our results demonstrated that all PF combined with PH samples belonged to four categories. Studies on the five key genes are required to validate their diagnostic and prognostic value.
+34823498	68	86	pulmonary fibrosis	Disease	MESH:D011658
+34823498	92	114	pulmonary hypertension	Disease	MESH:D006976
+34823498	128	159	Pulmonary arterial hypertension	Disease	MESH:D000081029
+34823498	161	163	PH	Disease	MESH:D000081029
+34823498	178	196	pulmonary fibrosis	Disease	MESH:D011658
+34823498	198	200	PF	Disease	MESH:D011658
+34823498	245	247	PF	Disease	MESH:D011658
+34823498	248	256	patients	Species	9606
+34823498	345	347	PH	Disease	MESH:D000081029
+34823498	352	354	PF	Disease	MESH:D011658
+34823498	448	451	PH-	Disease	MESH:D000081029
+34823498	451	453	PF	Disease	MESH:D011658
+34823498	592	594	PF	Disease	MESH:D011658
+34823498	595	603	patients	Species	9606
+34823498	620	622	PH	Disease	MESH:D000081029
+34823498	1500	1505	human	Species	9606
+34823498	1813	1815	PF	Disease	MESH:D011658
+34823498	2439	2444	human	Species	9606
+34823498	2726	2728	PF	Disease	MESH:D011658
+34823498	2743	2745	PH	Disease	MESH:D000081029
+

@@ -1,0 +1,48 @@
+23530929|t|Retinoic acid-elicited RARalpha/RXRalpha signaling attenuates Abeta production by directly inhibiting gamma-secretase-mediated cleavage of amyloid precursor protein.
+23530929|a|Retinoic acid (RA)-elicited signaling has been shown to play critical roles in development, organogenesis, and the immune response. RA regulates expression of Alzheimer's disease (AD)-related genes and attenuates amyloid pathology in a transgenic mouse model. In this study, we investigated whether RA can suppress the production of amyloid-beta (Abeta) through direct inhibition of gamma-secretase activity. We report that RA treatment of cells results in significant inhibition of gamma-secretase-mediated processing of the amyloid precursor protein C-terminal fragment APP-C99, compared with DMSO-treated controls. RA-elicited signaling was found to significantly increase accumulation of APP-C99 and decrease production of secreted Abeta40. In addition, RA-induced inhibition of gamma-secretase activity was found to be mediated through significant activation of extracellular signal-regulated kinases (ERK1/2). Treatment of cells with the specific ERK inhibitor PD98059 completely abolished RA-mediated inhibition of gamma-secretase. Consistent with these findings, RA was observed to inhibit secretase-mediated proteolysis of full-length APP. Finally, we have established that RA inhibits gamma-secretase through nuclear retinoic acid receptor-alpha (RARalpha) and retinoid X receptor-alpha (RXRalpha). Our findings provide a new mechanistic explanation for the neuroprotective role of RA in AD pathology and add to the previous data showing the importance of RA signaling as a target for AD therapy. 
+23530929	0	13	Retinoic acid	Chemical	MESH:D014212
+23530929	23	31	RARalpha	Gene	19401
+23530929	32	40	RXRalpha	Gene	20181
+23530929	62	67	Abeta	Gene	11820
+23530929	139	164	amyloid precursor protein	Gene	11820
+23530929	166	179	Retinoic acid	Chemical	MESH:D014212
+23530929	181	183	RA	Chemical	MESH:D014212
+23530929	298	300	RA	Chemical	MESH:D014212
+23530929	325	344	Alzheimer's disease	Disease	MESH:D000544
+23530929	346	348	AD	Disease	MESH:D000544
+23530929	379	386	amyloid	Disease	MESH:C000718787
+23530929	413	418	mouse	Species	10090
+23530929	465	467	RA	Chemical	MESH:D014212
+23530929	513	518	Abeta	Gene	11820
+23530929	590	592	RA	Chemical	MESH:D014212
+23530929	692	717	amyloid precursor protein	Gene	11820
+23530929	761	765	DMSO	Chemical	MESH:D004121
+23530929	784	786	RA	Chemical	MESH:D014212
+23530929	924	926	RA	Chemical	MESH:D014212
+23530929	1073	1079	ERK1/2	Gene	26417;26413
+23530929	1119	1122	ERK	Gene	26413
+23530929	1133	1140	PD98059	Chemical	MESH:C093973
+23530929	1162	1164	RA	Chemical	MESH:D014212
+23530929	1237	1239	RA	Chemical	MESH:D014212
+23530929	1349	1351	RA	Chemical	MESH:D014212
+23530929	1393	1421	retinoic acid receptor-alpha	Gene	19401
+23530929	1423	1431	RARalpha	Gene	19401
+23530929	1437	1462	retinoid X receptor-alpha	Gene	20181
+23530929	1464	1472	RXRalpha	Gene	20181
+23530929	1558	1560	RA	Chemical	MESH:D014212
+23530929	1564	1566	AD	Disease	MESH:D000544
+23530929	1632	1634	RA	Chemical	MESH:D014212
+23530929	1661	1663	AD	Disease	MESH:D000544
+23530929	Association	MESH:D014212	26413
+23530929	Negative_Correlation	MESH:C093973	26413
+23530929	Negative_Correlation	MESH:C093973	MESH:D014212
+23530929	Negative_Correlation	MESH:D014212	MESH:C000718787
+23530929	Association	MESH:D014212	19401
+23530929	Association	MESH:D014212	MESH:D000544
+23530929	Association	MESH:D014212	20181
+23530929	Association	MESH:D014212	26417
+23530929	Association	MESH:D000544	11820
+23530929	Negative_Correlation	11820	19401
+23530929	Negative_Correlation	MESH:D014212	11820
+23530929	Negative_Correlation	11820	20181
+

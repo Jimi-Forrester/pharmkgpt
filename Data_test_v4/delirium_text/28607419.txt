@@ -1,0 +1,32 @@
+28607419|t|Two-step ATP-driven opening of cohesin head.
+28607419|a|The cohesin ring is a protein complex composed of four core subunits: Smc1A, Smc3, Rad21 and Stag1/2. It is involved in chromosome segregation, DNA repair, chromatin organization and transcription regulation. Opening of the ring occurs at the "head" structure, formed of the ATPase domains of Smc1A and Smc3 and Rad21. We investigate the mechanisms of the cohesin ring opening using techniques of free molecular dynamics (MD), steered MD and quantum mechanics/molecular mechanics MD (QM/MM MD). The study allows the thorough analysis of the opening events at the atomic scale: i) ATP hydrolysis at the Smc1A site, evaluating the role of the carboxy-terminal domain of Rad21 in the process; ii) the activation of the Smc3 site potentially mediated by the movement of specific amino acids; and iii) opening of the head domains after the two ATP hydrolysis events. Our study suggests that the cohesin ring opening is triggered by a sequential activation of the ATP sites in which ATP hydrolysis at the Smc1A site induces ATPase activity at the Smc3 site. Our analysis also provides an explanation for the effect of pathogenic variants related to cohesinopathies and cancer.
+28607419	9	12	ATP	Chemical	MESH:D000255
+28607419	115	120	Smc1A	Gene	8243
+28607419	122	126	Smc3	Gene	9126
+28607419	128	133	Rad21	Gene	5885
+28607419	138	145	Stag1/2	Gene	10274;10735
+28607419	320	326	ATPase	Gene	1769
+28607419	338	343	Smc1A	Gene	8243
+28607419	348	352	Smc3	Gene	9126
+28607419	357	362	Rad21	Gene	5885
+28607419	625	628	ATP	Chemical	MESH:D000255
+28607419	647	652	Smc1A	Gene	8243
+28607419	713	718	Rad21	Gene	5885
+28607419	761	765	Smc3	Gene	9126
+28607419	884	887	ATP	Chemical	MESH:D000255
+28607419	1003	1006	ATP	Chemical	MESH:D000255
+28607419	1022	1025	ATP	Chemical	MESH:D000255
+28607419	1044	1049	Smc1A	Gene	8243
+28607419	1063	1069	ATPase	Gene	1769
+28607419	1086	1090	Smc3	Gene	9126
+28607419	1188	1203	cohesinopathies	Disease	
+28607419	1208	1214	cancer	Disease	MESH:D009369
+28607419	Association	MESH:D000255	9126
+28607419	Association	1769	8243
+28607419	Association	MESH:D000255	8243
+28607419	Association	MESH:D009369	5885
+28607419	Association	1769	9126
+28607419	Association	MESH:D009369	9126
+28607419	Positive_Correlation	MESH:D000255	1769
+28607419	Association	MESH:D009369	8243
+

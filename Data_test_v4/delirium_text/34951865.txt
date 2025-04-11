@@ -1,0 +1,30 @@
+34951865|t|The Development and Validation of Simplified Machine Learning Algorithms to Predict Prognosis of Hospitalized Patients With COVID-19: Multicenter, Retrospective Study.
+34951865|a|BACKGROUND: The current COVID-19 pandemic is unprecedented; under resource-constrained settings, predictive algorithms can help to stratify disease severity, alerting physicians of high-risk patients; however, there are only few risk scores derived from a substantially large electronic health record (EHR) data set, using simplified predictors as input. OBJECTIVE: The objectives of this study were to develop and validate simplified machine learning algorithms that predict COVID-19 adverse outcomes; to evaluate the area under the receiver operating characteristic curve (AUC), sensitivity, specificity, and calibration of the algorithms; and to derive clinically meaningful thresholds. METHODS: We performed machine learning model development and validation via a cohort study using multicenter, patient-level, longitudinal EHRs from the Optum COVID-19 database that provides anonymized, longitudinal EHR from across the United States. The models were developed based on clinical characteristics to predict 28-day in-hospital mortality, intensive care unit (ICU) admission, respiratory failure, and mechanical ventilator usages at inpatient setting. Data from patients who were admitted from February 1, 2020, to September 7, 2020, were randomly sampled into development, validation, and test data sets; data collected from September 7, 2020, to November 15, 2020, were reserved as the postdevelopment prospective test data set. RESULTS: Of the 3.7 million patients in the analysis, 585,867 patients were diagnosed or tested positive for SARS-CoV-2, and 50,703 adult patients were hospitalized with COVID-19 between February 1 and November 15, 2020. Among the study cohort (n=50,703), there were 6204 deaths, 9564 ICU admissions, 6478 mechanically ventilated or EMCO patients, and 25,169 patients developed acute respiratory distress syndrome or respiratory failure within 28 days since hospital admission. The algorithms demonstrated high accuracy (AUC 0.89, 95% CI 0.89-0.89 on the test data set [n=10,752]), consistent prediction through the second wave of the pandemic from September to November (AUC 0.85, 95% CI 0.85-0.86) on the postdevelopment prospective test data set [n=14,863], great clinical relevance, and utility. Besides, a comprehensive set of 386 input covariates from baseline or at admission were included in the analysis; the end-to-end pipeline automates feature selection and model development. The parsimonious model with only 10 input predictors produced comparably accurate predictions; these 10 predictors (age, blood urea nitrogen, SpO2, systolic and diastolic blood pressures, respiration rate, pulse, temperature, albumin, and major cognitive disorder excluding stroke) are commonly measured and concordant with recognized risk factors for COVID-19. CONCLUSIONS: The systematic approach and rigorous validation demonstrate consistent model performance to predict even beyond the period of data collection, with satisfactory discriminatory power and great clinical utility. Overall, the study offers an accurate, validated, and reliable prediction model based on only 10 clinical features as a prognostic tool to stratifying patients with COVID-19 into intermediate-, high-, and very high-risk groups. This simple predictive tool is shared with a wider health care community, to enable service as an early warning system to alert physicians of possible high-risk patients, or as a resource triaging tool to optimize health care resources.
+34951865	110	118	Patients	Species	9606
+34951865	124	132	COVID-19	Disease	MESH:D000086382
+34951865	192	200	COVID-19	Disease	MESH:D000086382
+34951865	359	367	patients	Species	9606
+34951865	644	652	COVID-19	Disease	MESH:D000086382
+34951865	968	975	patient	Species	9606
+34951865	1016	1024	COVID-19	Disease	MESH:D000086382
+34951865	1246	1265	respiratory failure	Disease	MESH:D012131
+34951865	1303	1312	inpatient	Species	
+34951865	1332	1340	patients	Species	9606
+34951865	1629	1637	patients	Species	9606
+34951865	1663	1671	patients	Species	9606
+34951865	1710	1720	SARS-CoV-2	Species	2697049
+34951865	1739	1747	patients	Species	9606
+34951865	1771	1779	COVID-19	Disease	MESH:D000086382
+34951865	1873	1879	deaths	Disease	MESH:D003643
+34951865	1934	1938	EMCO	Disease	
+34951865	1939	1947	patients	Species	9606
+34951865	1960	1968	patients	Species	9606
+34951865	1979	2014	acute respiratory distress syndrome	Disease	MESH:D012128
+34951865	2018	2037	respiratory failure	Disease	MESH:D012131
+34951865	2835	2853	cognitive disorder	Disease	MESH:D003072
+34951865	2864	2870	stroke	Disease	MESH:D020521
+34951865	2942	2950	COVID-19	Disease	MESH:D000086382
+34951865	3326	3334	patients	Species	9606
+34951865	3340	3348	COVID-19	Disease	MESH:D000086382
+34951865	3564	3572	patients	Species	9606
+

@@ -1,0 +1,34 @@
+39322243|t|Putative Retina Metal/Metalloid-Binding Proteins: Molecular Functions, Biological Processes and Retina Disease Associations.
+39322243|a|BACKGROUND: The mammalian retina contains high amounts of metals/metalloid-selenium. Their dyshomeostases are associated with certain retinal diseases. We carried out this bioinformatics study to identify the relationships between putative retinal metal/selenium binding proteins, their molecular functions and biological processes. METHODS: Identification of putative mouse metal/selenium binding proteins was based on known binding motifs, domains, patterns, and profiles. Annotations were obtained from Uniprot keyword "metal binding", "metal ion co-factors", "selenium proteins". Protein functions were estimated by associative frequency with key words in UniProt annotations. The raw data of 5 mouse proteomics PRIDE datasets (available to date) were downloaded and processed with Mascot against the mouse taxa of Uniprot (SwissProt/Trembl) and MaxQuant (version 1.6.10.43) for qualitative and quantitative datasets, respectively. Clinically relevant variants were evaluated using archive and aggregates information in ClinVar. RESULTS: The 438 proteins common to all the retina proteomics datasets were used to identify over-represented Gene Ontology categories. The putative mouse retinal metal/metalloid binding proteins identified are mainly involved in: 1) metabolic processes (enzymes), 2) homeostasis, 3) transport (vesicle mediated, transmembrane, along microtubules), 4) cellular localisation, 5) regulation of signalling and exocytosis, 6) organelle organisation, 7) (de)phosphorylation and 8) complex assembly. Twenty-one proteins were identified as involved in response to light stimulus and/or visual system development. An association of metal ion binding proteins rhodopsin, photoreceptor specific nuclear receptor, calcium binding protein 4 with disease-related mutations in inherited retinal conditions was identified, where the mutations affected an area within or in close proximity to the metal binding site or domain. CONCLUSION: These findings suggest a functional role for the putative metal/metalloid binding site in retinal proteins in certain retinal disorders.
+39322243	96	110	Retina Disease	Disease	MESH:D019572
+39322243	190	199	metalloid	Chemical	MESH:D058955
+39322243	200	208	selenium	Chemical	MESH:D012643
+39322243	259	275	retinal diseases	Disease	MESH:D012164
+39322243	494	499	mouse	Species	10090
+39322243	648	653	metal	Chemical	MESH:D008670
+39322243	665	674	metal ion	Chemical	-
+39322243	689	697	selenium	Chemical	MESH:D012643
+39322243	824	829	mouse	Species	10090
+39322243	930	935	mouse	Species	10090
+39322243	1307	1312	mouse	Species	10090
+39322243	1782	1791	metal ion	Chemical	-
+39322243	1809	1818	rhodopsin	Gene	212541
+39322243	1820	1859	photoreceptor specific nuclear receptor	Gene	23958
+39322243	1861	1886	calcium binding protein 4	Gene	73660
+39322243	1921	1949	inherited retinal conditions	Disease	MESH:D057130
+39322243	2039	2044	metal	Chemical	MESH:D008670
+39322243	2139	2144	metal	Chemical	MESH:D008670
+39322243	2145	2154	metalloid	Chemical	MESH:D058955
+39322243	2199	2216	retinal disorders	Disease	MESH:D012173
+39322243	Association	MESH:D058955	MESH:D012173
+39322243	Association	MESH:D057130	73660
+39322243	Association	MESH:D057130	23958
+39322243	Association	MESH:D008670	212541
+39322243	Association	MESH:D008670	73660
+39322243	Association	MESH:D008670	23958
+39322243	Association	MESH:D008670	MESH:D057130
+39322243	Association	MESH:D058955	MESH:D012164
+39322243	Association	MESH:D008670	MESH:D012173
+39322243	Association	MESH:D057130	212541
+39322243	Association	MESH:D012643	MESH:D012164
+

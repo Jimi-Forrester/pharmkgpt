@@ -1,0 +1,14 @@
+39474046|t|Adding the third dimension: 3D convolutional neural network diagnosis of temporal lobe epilepsy.
+39474046|a|Convolutional neural networks (CNN) show great promise for translating decades of research on structural abnormalities in temporal lobe epilepsy into clinical practice. Three-dimensional CNNs typically outperform two-dimensional CNNs in medical imaging. Here we explore for the first time whether a three-dimensional CNN outperforms a two-dimensional CNN for identifying temporal lobe epilepsy-specific features on MRI. Using 1178 T1-weighted images (589 temporal lobe epilepsy, 589 healthy controls) from 12 surgical centres, we trained 3D and 2D CNNs for temporal lobe epilepsy versus healthy control classification, using feature visualization to identify important regions. The 3D CNN was compared to the 2D model and to a randomized model (comparison to chance). Further, we explored the effect of sample size with subsampling, examined model performance based on single-subject clinical characteristics, and tested the impact of image harmonization on model performance. Across 50 datapoints (10 runs with 5-folds each) the 3D CNN median accuracy was 86.4% (35.3% above chance) and the median F1-score was 86.1% (33.3% above chance). The 3D model yielded higher accuracy compared to the 2D model on 84% of datapoints (median 2D accuracy, 83.0%), a significant outperformance for the 3D model (binomial test: P < 0.001). This advantage of the 3D model was only apparent at the highest sample size. Saliency maps exhibited the importance of medial-ventral temporal, cerebellar, and midline subcortical regions across both models for classification. However, the 3D model had higher salience in the most important regions, the ventral-medial temporal and midline subcortical regions. Importantly, the model achieved high accuracy (82% accuracy) even in patients without MRI-identifiable hippocampal sclerosis. Finally, applying ComBat for harmonization did not improve performance. These findings highlight the value of 3D CNNs for identifying subtle structural abnormalities on MRI, especially in patients without clinically identified temporal lobe epilepsy lesions. Our findings also reveal that the advantage of 3D CNNs relies on large sample sizes for model training.
+39474046	73	95	temporal lobe epilepsy	Disease	MESH:D004833
+39474046	191	215	structural abnormalities	Disease	MESH:C566527
+39474046	219	241	temporal lobe epilepsy	Disease	MESH:D004833
+39474046	468	490	temporal lobe epilepsy	Disease	MESH:D004833
+39474046	552	574	temporal lobe epilepsy	Disease	MESH:D004833
+39474046	654	676	temporal lobe epilepsy	Disease	MESH:D004833
+39474046	1853	1861	patients	Species	9606
+39474046	1887	1908	hippocampal sclerosis	Disease	MESH:D000092223
+39474046	2051	2075	structural abnormalities	Disease	MESH:C566527
+39474046	2098	2106	patients	Species	9606
+39474046	2137	2167	temporal lobe epilepsy lesions	Disease	MESH:D004833
+

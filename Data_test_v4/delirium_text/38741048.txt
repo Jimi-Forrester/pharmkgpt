@@ -1,0 +1,35 @@
+38741048|t|Characterizing dysregulations via cell-cell communications in Alzheimer's brains using single-cell transcriptomes.
+38741048|a|BACKGROUND: Alzheimer's disease (AD) is a devastating neurodegenerative disorder affecting 44 million people worldwide, leading to cognitive decline, memory loss, and significant impairment in daily functioning. The recent single-cell sequencing technology has revolutionized genetic and genomic resolution by enabling scientists to explore the diversity of gene expression patterns at the finest resolution. Most existing studies have solely focused on molecular perturbations within each cell, but cells live in microenvironments rather than in isolated entities. Here, we leveraged the large-scale and publicly available single-nucleus RNA sequencing in the human prefrontal cortex to investigate cell-to-cell communication in healthy brains and their perturbations in AD. We uniformly processed the snRNA-seq with strict QCs and labeled canonical cell types consistent with the definitions from the BRAIN Initiative Cell Census Network. From ligand and receptor gene expression, we built a high-confidence cell-to-cell communication network to investigate signaling differences between AD and healthy brains. RESULTS: Specifically, we first performed broad communication pattern analyses to highlight that biologically related cell types in normal brains rely on largely overlapping signaling networks and that the AD brain exhibits the irregular inter-mixing of cell types and signaling pathways. Secondly, we performed a more focused cell-type-centric analysis and found that excitatory neurons in AD have significantly increased their communications to inhibitory neurons, while inhibitory neurons and other non-neuronal cells globally decreased theirs to all cells. Then, we delved deeper with a signaling-centric view, showing that canonical signaling pathways CSF, TGFbeta, and CX3C are significantly dysregulated in their signaling to the cell type microglia/PVM and from endothelial to neuronal cells for the WNT pathway. Finally, after extracting 23 known AD risk genes, our intracellular communication analysis revealed a strong connection of extracellular ligand genes APP, APOE, and PSEN1 to intracellular AD risk genes TREM2, ABCA1, and APP in the communication from astrocytes and microglia to neurons. CONCLUSIONS: In summary, with the novel advances in single-cell sequencing technologies, we show that cellular signaling is regulated in a cell-type-specific manner and that improper regulation of extracellular signaling genes is linked to intracellular risk genes, giving the mechanistic intra- and inter-cellular picture of AD.
+38741048	62	73	Alzheimer's	Disease	MESH:D000544
+38741048	127	146	Alzheimer's disease	Disease	MESH:D000544
+38741048	148	150	AD	Disease	MESH:D000544
+38741048	169	195	neurodegenerative disorder	Disease	MESH:D019636
+38741048	217	223	people	Species	9606
+38741048	246	263	cognitive decline	Disease	MESH:D003072
+38741048	265	276	memory loss	Disease	MESH:D008569
+38741048	294	325	impairment in daily functioning	Disease	MESH:D020773
+38741048	776	781	human	Species	9606
+38741048	887	889	AD	Disease	MESH:D000544
+38741048	1205	1207	AD	Disease	MESH:D000544
+38741048	1434	1436	AD	Disease	MESH:D000544
+38741048	1619	1621	AD	Disease	MESH:D000544
+38741048	1885	1888	CSF	Gene	1437
+38741048	1890	1897	TGFbeta	Gene	7040
+38741048	2084	2086	AD	Disease	MESH:D000544
+38741048	2199	2202	APP	Gene	351
+38741048	2204	2208	APOE	Gene	348
+38741048	2214	2219	PSEN1	Gene	5663
+38741048	2237	2239	AD	Disease	MESH:D000544
+38741048	2251	2256	TREM2	Gene	54209
+38741048	2258	2263	ABCA1	Gene	19
+38741048	2269	2272	APP	Gene	351
+38741048	2662	2664	AD	Disease	MESH:D000544
+38741048	Association	MESH:D000544	5663
+38741048	Association	54209	5663
+38741048	Association	MESH:D000544	54209
+38741048	Association	MESH:D000544	351
+38741048	Association	MESH:D000544	348
+38741048	Association	348	54209
+38741048	Association	19	5663
+38741048	Association	MESH:D000544	19
+

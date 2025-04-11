@@ -1,0 +1,47 @@
+37513946|t|Interactive Associations between PPARgamma and PPARGC1A and Bisphosphonate-Related Osteonecrosis of the Jaw in Patients with Osteoporosis.
+37513946|a|Bisphosphonate-related osteonecrosis of the jaw (BRONJ) is a rare but severe adverse effect that can occur as a result of bisphosphonate treatment. This study aimed to examine the relationship between PPARgamma and PPARGC1A polymorphisms and the BRONJ development in female osteoporosis patients undergoing bisphosphonate treatment. We prospectively conducted this nested case-control study at the Ewha Womans University Mokdong Hospital between 2014 and 2018. We assessed five single-nucleotide polymorphisms (SNPs) of PPARgamma and six SNPs of PPARGC1A and performed a multivariable logistic regression analysis to determine the independent risk factors for developing BRONJ. There were a total of 123 patients included in this study and 56 patients (45.5%) developed BRONJ. In the univariate analysis, PPARGC1A rs2946385 and rs10020457 polymorphisms were significantly associated with BRONJ (p = 0.034, p = 0.020, respectively), although the results were not statistically significant in the multivariable analysis. Patients with the combined genotypes of GG in both PPARgamma rs1151999 and PPARGC1A rs2946385 showed a 3.03-fold higher risk of BRONJ compared to individuals with other genotype combinations after adjusting for confounders (95% confidence interval (CI): 1.01-9.11). Old age (>=70 years) and duration of bisphosphonate use (>=60 months) increased the risk of BRONJ. The area under the receiver operating characteristic curve for the predicted probability was 0.78 (95% CI: 0.69-0.87, p < 0.001), demonstrating a satisfactory level of discriminatory power. Our study elucidated that PPARgamma and PPARGC1A polymorphisms were interactively associated with BRONJ development. These results have potential implications for tailoring personalized treatments for females undergoing bisphosphonate therapy for osteoporosis.
+37513946	33	42	PPARgamma	Gene	5468
+37513946	47	55	PPARGC1A	Gene	10891
+37513946	60	74	Bisphosphonate	Chemical	MESH:D004164
+37513946	83	107	Osteonecrosis of the Jaw	Disease	MESH:D059266
+37513946	125	137	Osteoporosis	Disease	MESH:D010024
+37513946	139	153	Bisphosphonate	Chemical	MESH:D004164
+37513946	162	186	osteonecrosis of the jaw	Disease	MESH:D059266
+37513946	188	193	BRONJ	Disease	
+37513946	261	275	bisphosphonate	Chemical	MESH:D004164
+37513946	340	349	PPARgamma	Gene	5468
+37513946	354	362	PPARGC1A	Gene	10891
+37513946	385	390	BRONJ	Disease	
+37513946	413	425	osteoporosis	Disease	MESH:D010024
+37513946	446	460	bisphosphonate	Chemical	MESH:D004164
+37513946	659	668	PPARgamma	Gene	5468
+37513946	685	693	PPARGC1A	Gene	10891
+37513946	810	815	BRONJ	Disease	
+37513946	909	914	BRONJ	Disease	
+37513946	944	952	PPARGC1A	Gene	10891
+37513946	953	962	rs2946385	SNP	tmVar:rs2946385;VariantGroup:0;CorrespondingGene:10891;RS#:2946385;CorrespondingSpecies:9606
+37513946	967	977	rs10020457	SNP	tmVar:rs10020457;VariantGroup:1;CorrespondingGene:10891;RS#:10020457;CorrespondingSpecies:9606
+37513946	1027	1032	BRONJ	Disease	
+37513946	1209	1218	PPARgamma	Gene	5468
+37513946	1219	1228	rs1151999	SNP	tmVar:rs1151999;VariantGroup:2;CorrespondingGene:5468;RS#:1151999;CorrespondingSpecies:9606
+37513946	1233	1241	PPARGC1A	Gene	10891
+37513946	1242	1251	rs2946385	SNP	tmVar:rs2946385;VariantGroup:0;CorrespondingGene:10891;RS#:2946385;CorrespondingSpecies:9606
+37513946	1286	1291	BRONJ	Disease	
+37513946	1461	1475	bisphosphonate	Chemical	MESH:D004164
+37513946	1516	1521	BRONJ	Disease	
+37513946	1739	1748	PPARgamma	Gene	5468
+37513946	1753	1761	PPARGC1A	Gene	10891
+37513946	1811	1816	BRONJ	Disease	
+37513946	1933	1947	bisphosphonate	Chemical	MESH:D004164
+37513946	1960	1972	osteoporosis	Disease	MESH:D010024
+37513946	Association	MESH:D004164	5468
+37513946	Positive_Correlation	MESH:D059266	RS#:2946385;CorrespondingGene:10891
+37513946	Association	10891	5468
+37513946	Association	MESH:D059266	10891
+37513946	Association	MESH:D010024	5468
+37513946	Association	MESH:D004164	10891
+37513946	Association	MESH:D010024	10891
+37513946	Positive_Correlation	MESH:D004164	MESH:D059266
+37513946	Negative_Correlation	MESH:D004164	MESH:D010024
+37513946	Association	MESH:D059266	5468
+

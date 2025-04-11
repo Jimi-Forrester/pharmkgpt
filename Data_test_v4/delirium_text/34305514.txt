@@ -1,0 +1,14 @@
+34305514|t|Three-Dimensional Convolutional Autoencoder Extracts Features of Structural Brain Images With a "Diagnostic Label-Free" Approach: Application to Schizophrenia Datasets.
+34305514|a|There has been increasing interest in performing psychiatric brain imaging studies using deep learning. However, most studies in this field disregard three-dimensional (3D) spatial information and targeted disease discrimination, without considering the genetic and clinical heterogeneity of psychiatric disorders. The purpose of this study was to investigate the efficacy of a 3D convolutional autoencoder (3D-CAE) for extracting features related to psychiatric disorders without diagnostic labels. The network was trained using a Kyoto University dataset including 82 patients with schizophrenia (SZ) and 90 healthy subjects (HS) and was evaluated using Center for Biomedical Research Excellence (COBRE) datasets, including 71 SZ patients and 71 HS. We created 16 3D-CAE models with different channels and convolutions to explore the effective range of hyperparameters for psychiatric brain imaging. The number of blocks containing two convolutional layers and one pooling layer was set, ranging from 1 block to 4 blocks. The number of channels in the extraction layer varied from 1, 4, 16, and 32 channels. The proposed 3D-CAEs were successfully reproduced into 3D structural magnetic resonance imaging (MRI) scans with sufficiently low errors. In addition, the features extracted using 3D-CAE retained the relation to clinical information. We explored the appropriate hyperparameter range of 3D-CAE, and it was suggested that a model with 3 blocks may be related to extracting features for predicting the dose of medication and symptom severity in schizophrenia.
+34305514	145	158	Schizophrenia	Disease	MESH:D012559
+34305514	218	229	psychiatric	Disease	MESH:D001523
+34305514	461	482	psychiatric disorders	Disease	MESH:D001523
+34305514	620	641	psychiatric disorders	Disease	MESH:D001523
+34305514	739	747	patients	Species	9606
+34305514	753	766	schizophrenia	Disease	MESH:D012559
+34305514	768	770	SZ	Disease	MESH:D012559
+34305514	898	900	SZ	Disease	MESH:D012559
+34305514	901	909	patients	Species	9606
+34305514	1044	1055	psychiatric	Disease	MESH:D001523
+34305514	1721	1734	schizophrenia	Disease	MESH:D012559
+

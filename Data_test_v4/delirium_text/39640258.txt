@@ -1,0 +1,37 @@
+39640258|t|Identification of key biomarkers related to fibrocartilage chondrocytes for osteoarthritis based on bulk, single-cell transcriptomic data.
+39640258|a|Introduction: Osteoarthritis (OA) is a prevalent joint disease that severely impacts patients' quality of life. Due to its unclear pathogenesis and lack of effective therapeutic targets, discovering new biomarkers for OA is essential. Recently, the role of chondrocyte subpopulations in OA progression has gained significant attention, offering potential insights into the disease. This study aimed to explore the role of fibrocartilage chondrocytes (FC) in the progression of OA and identify key biomarkers related to FC. Methods: We analyzed single-cell ribonucleic acid sequencing (scRNA-seq) data from samples of OA and normal cartilage, focusing on FC. Microarray data were integrated to identify differentially expressed genes (DEGs). We conducted functional-enrichment analyses, including Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO), and used weighted gene co-expression network analysis (WGCNA) and the least absolute shrinkage and selection operator (LASSO) algorithm to select biomarkers. A novel risk model for OA was constructed using these biomarkers. We then built a transcription factor (TF)-gene interaction network and performed immunohistochemistry (IHC) to validate protein expression levels of these biomarkers in cartilage samples. Results: The study identified 545 marker genes associated with FC in OA. GO and KEGG analyses revealed their biological functions; microarray analysis identified 243 DEGs on which functional-enrichment analysis were conducted. Using WGCNA and LASSO, we identified six hub genes, on the basis of which we constructed a risk model for OA. In addition, correlation analysis revealed a close association between Forkhead Box (FoxO)-mediated transcription and these these biomarkers. IHC showed significantly lower protein levels of ABCA5, ABCA6 and SLC7A8 in OA samples than in normal samples. Conclusion: This study used a multi-omics approach to identify six FC-related OA biomarkers (BCL6, ABCA5, ABCA6, CITED2, NR1D1, and SLC7A8) and developed an exploratory risk model. Functional enrichment analysis revealed that the FoxO pathway may be linked to these markers, particularly implicating ABCA5 and ABCA6 in cholesterol homeostasis within chondrocytes. These findings highlight ABCA family members as novel contributors to OA pathogenesis and suggest new therapeutic targets.
+39640258	76	90	osteoarthritis	Disease	MESH:D010003
+39640258	153	167	Osteoarthritis	Disease	MESH:D010003
+39640258	169	171	OA	Disease	MESH:D010003
+39640258	188	201	joint disease	Disease	MESH:D007592
+39640258	224	232	patients	Species	9606
+39640258	357	359	OA	Disease	MESH:D010003
+39640258	426	428	OA	Disease	MESH:D010003
+39640258	616	618	OA	Disease	MESH:D010003
+39640258	756	758	OA	Disease	MESH:D010003
+39640258	1187	1189	OA	Disease	MESH:D010003
+39640258	1487	1489	OA	Disease	MESH:D010003
+39640258	1751	1753	OA	Disease	MESH:D010003
+39640258	1946	1951	ABCA5	Gene	23461
+39640258	1953	1958	ABCA6	Gene	23460
+39640258	1963	1969	SLC7A8	Gene	23428
+39640258	1973	1975	OA	Disease	MESH:D010003
+39640258	2086	2088	OA	Disease	MESH:D010003
+39640258	2101	2105	BCL6	Gene	604
+39640258	2107	2112	ABCA5	Gene	23461
+39640258	2114	2119	ABCA6	Gene	23460
+39640258	2121	2127	CITED2	Gene	10370
+39640258	2129	2134	NR1D1	Gene	9572
+39640258	2140	2146	SLC7A8	Gene	23428
+39640258	2308	2313	ABCA5	Gene	23461
+39640258	2318	2323	ABCA6	Gene	23460
+39640258	2327	2338	cholesterol	Chemical	MESH:D002784
+39640258	2442	2444	OA	Disease	MESH:D010003
+39640258	Association	MESH:D010003	23428
+39640258	Association	MESH:D002784	23461
+39640258	Association	MESH:D010003	604
+39640258	Association	MESH:D002784	23460
+39640258	Negative_Correlation	MESH:D010003	23461
+39640258	Association	MESH:D010003	23460
+39640258	Association	MESH:D010003	9572
+

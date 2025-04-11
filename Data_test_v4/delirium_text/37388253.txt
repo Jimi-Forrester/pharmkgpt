@@ -1,0 +1,14 @@
+37388253|t|Acute stroke CDS: automatic retrieval of thrombolysis contraindications from unstructured clinical letters.
+37388253|a|Introduction: Thrombolysis treatment for acute ischaemic stroke can lead to better outcomes if administered early enough. However, contraindications exist which put the patient at greater risk of a bleed (e.g. recent major surgery, anticoagulant medication). Therefore, clinicians must check a patient's past medical history before proceeding with treatment. In this work we present a machine learning approach for accurate automatic detection of this information in unstructured text documents such as discharge letters or referral letters, to support the clinician in making a decision about whether to administer thrombolysis. Methods: We consulted local and national guidelines for thrombolysis eligibility, identifying 86 entities which are relevant to the thrombolysis decision. A total of 8,067 documents from 2,912 patients were manually annotated with these entities by medical students and clinicians. Using this data, we trained and validated several transformer-based named entity recognition (NER) models, focusing on transformer models which have been pre-trained on a biomedical corpus as these have shown most promise in the biomedical NER literature. Results: Our best model was a PubMedBERT-based approach, which obtained a lenient micro/macro F1 score of 0.829/0.723. Ensembling 5 variants of this model gave a significant boost to precision, obtaining micro/macro F1 of 0.846/0.734 which approaches the human annotator performance of 0.847/0.839. We further propose numeric definitions for the concepts of name regularity (similarity of all spans which refer to an entity) and context regularity (similarity of all context surrounding mentions of an entity), using these to analyse the types of errors made by the system and finding that the name regularity of an entity is a stronger predictor of model performance than raw training set frequency. Discussion: Overall, this work shows the potential of machine learning to provide clinical decision support (CDS) for the time-critical decision of thrombolysis administration in ischaemic stroke by quickly surfacing relevant information, leading to prompt treatment and hence to better patient outcomes.
+37388253	0	12	Acute stroke	Disease	MESH:D020521
+37388253	41	53	thrombolysis	Disease	
+37388253	122	134	Thrombolysis	Disease	
+37388253	149	154	acute	Disease	MESH:D000208
+37388253	155	171	ischaemic stroke	Disease	MESH:D002544
+37388253	306	311	bleed	Disease	MESH:D006470
+37388253	724	736	thrombolysis	Disease	
+37388253	794	806	thrombolysis	Disease	
+37388253	870	882	thrombolysis	Disease	
+37388253	2125	2137	thrombolysis	Disease	
+37388253	2156	2172	ischaemic stroke	Disease	MESH:D002544
+

@@ -1,0 +1,57 @@
+35548356|t|Integrated Network Pharmacology and Comprehensive Bioinformatics Identifying the Mechanisms and Molecular Targets of Yizhiqingxin Formula for Treatment of Comorbidity With Alzheimer's Disease and Depression.
+35548356|a|Background: The Yizhiqinxin formula (YZQX) has been used to treat Alzheimer's disease (AD) or major depression disorder (MDD). However, its specific underlying mechanisms and therapeutic targets remain unclear. Methods: The ingredients and putative targets of YZQX were screened using the TCMSP and Drugbank databases. Next, the GEO database was used to retrieve relevant differentially expressed genes (DEGs) in AD or MDD and normal tissues. The PPI network was established, merged, and further screened to identify the main ingredients and core targets of YZQX against AD and MDD comorbidities. We performed enrichment analysis of core targets to identify biological processes and pathways. Finally, AutoDock software was used to validate the binding affinity between the crucial targets of direct action and their corresponding ingredients. Results: A total of 43 ingredients were identified from YZQX, of which 43 were screened to yield 504 targets. By establishing the PPI network, 92 targets were regarded as targets of YZQX against AD and MDD comorbidities in the core network. Promising targets (HSP90AA1, ESR1, AKT1, VCAM1, EGFR, CDK1, MAPK1, CDK2, MYC, HSPB1, and HSPA5) and signaling pathways (PI3K-Akt signaling pathway, ubiquitin-mediated proteolysis, MAPK signaling pathway, etc.) were filtered and refined to elucidate the underlying mechanism of YZQX against AD and MDD comorbidities. Molecular docking confirmed the ingredients of YZQX (quercetin and kaempferol) could bind well to multiple crucial targets. Conclusion: The ingredients of YZQX, such as quercetin and kaempferol, might treat AD and MDD comorbidities by acting on multiple targets and pathways.
+35548356	117	129	Yizhiqingxin	Chemical	-
+35548356	155	166	Comorbidity	Disease	MESH:D004194
+35548356	172	191	Alzheimer's Disease	Disease	MESH:D000544
+35548356	196	206	Depression	Disease	MESH:D003866
+35548356	224	243	Yizhiqinxin formula	Chemical	-
+35548356	245	249	YZQX	Chemical	-
+35548356	274	293	Alzheimer's disease	Disease	MESH:D000544
+35548356	295	297	AD	Disease	MESH:D000544
+35548356	302	327	major depression disorder	Disease	MESH:D003865
+35548356	329	332	MDD	Disease	MESH:D003865
+35548356	468	472	YZQX	Chemical	-
+35548356	621	623	AD	Disease	MESH:D000544
+35548356	627	630	MDD	Disease	MESH:D003865
+35548356	766	770	YZQX	Chemical	-
+35548356	779	781	AD	Disease	MESH:D000544
+35548356	786	789	MDD	Disease	MESH:D003865
+35548356	1108	1112	YZQX	Chemical	-
+35548356	1234	1238	YZQX	Chemical	-
+35548356	1247	1249	AD	Disease	MESH:D000544
+35548356	1254	1257	MDD	Disease	MESH:D003865
+35548356	1312	1320	HSP90AA1	Gene	3320
+35548356	1322	1326	ESR1	Gene	2099
+35548356	1328	1332	AKT1	Gene	207
+35548356	1334	1339	VCAM1	Gene	7412
+35548356	1341	1345	EGFR	Gene	1956
+35548356	1347	1351	CDK1	Gene	983
+35548356	1353	1358	MAPK1	Gene	5594
+35548356	1360	1364	CDK2	Gene	1017
+35548356	1366	1369	MYC	Gene	4609
+35548356	1371	1376	HSPB1	Gene	3315
+35548356	1382	1387	HSPA5	Gene	3309
+35548356	1418	1421	Akt	Gene	207
+35548356	1570	1574	YZQX	Chemical	-
+35548356	1583	1585	AD	Disease	MESH:D000544
+35548356	1590	1593	MDD	Disease	MESH:D003865
+35548356	1656	1660	YZQX	Chemical	-
+35548356	1662	1671	quercetin	Chemical	MESH:D011794
+35548356	1676	1686	kaempferol	Chemical	MESH:C006552
+35548356	1764	1768	YZQX	Chemical	-
+35548356	1778	1787	quercetin	Chemical	MESH:D011794
+35548356	1792	1802	kaempferol	Chemical	MESH:C006552
+35548356	1816	1818	AD	Disease	MESH:D000544
+35548356	1823	1826	MDD	Disease	MESH:D003865
+35548356	Association	MESH:D000544	207
+35548356	Negative_Correlation	MESH:D011794	MESH:D003865
+35548356	Association	MESH:D000544	3320
+35548356	Association	MESH:D000544	7412
+35548356	Negative_Correlation	MESH:C006552	MESH:D003865
+35548356	Association	MESH:D003865	3320
+35548356	Association	MESH:D000544	5594
+35548356	Negative_Correlation	MESH:C006552	MESH:D000544
+35548356	Association	MESH:D000544	983
+35548356	Association	MESH:D003865	207
+35548356	Negative_Correlation	MESH:D011794	MESH:D000544
+

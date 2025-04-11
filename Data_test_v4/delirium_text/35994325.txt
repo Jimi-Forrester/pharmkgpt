@@ -1,0 +1,29 @@
+35994325|t|Virtual screening and molecular dynamics study of natural products against Rab10 for the treatment of Alzheimer's disease.
+35994325|a|Alzheimer's disease (AD) is a neurodegenerative disorder associated with aging. Various enzymatic targets have been and are still being studied in an attempt to discover new drugs for the treatment of AD; however, Rab GTPases are still relatively unexplored. These enzymes regulate cellular processes by alternating of GDP and GTP nucleotides. In vitro studies have shown that the knockdown of Rab10 reduces the production of Abeta40 and Abeta42 peptides, making it a promising target for the treatment of AD. In order to identify potential Rab10 inhibitors, the structure-based virtual screening (SBVS) was used considering a subset of 80763 natural products obtained from ZINC15 database. Tertiary structure of Rab10 was obtained from the Protein Data Bank and the Autodock Vina program was used in the SBVS to filter potential bioactive substances against this enzyme. The SBVS protocol was validated by redocking the co-crystallized GNP and the binding energies of the GDP and GTP were used as controls in the pharmacodynamic analysis. Thus, it was possible to select 45 compounds with binding energy less or equal -11 kcal.mol-1. ADME/T properties of these compounds were evaluated by the SwissADME program, where it was possible to identify 6 promising molecules. The resulting complexes were subjected to molecular dynamics simulations to analyze the pharmacodynamics over time. The results suggest that the compound ZINC4090657 (derived from quinolizidine) and the compounds ZINC4000106 and ZINC0630250 (derived from coumarin) have favorable pharmacological characteristics for the inhibition of Rab10, with ZINC4090657 being the most promising one. Communicated by Ramaswamy H. Sarma.
+35994325	75	80	Rab10	Gene	10890
+35994325	102	121	Alzheimer's disease	Disease	MESH:D000544
+35994325	123	142	Alzheimer's disease	Disease	MESH:D000544
+35994325	144	146	AD	Disease	MESH:D000544
+35994325	153	179	neurodegenerative disorder	Disease	MESH:D019636
+35994325	324	326	AD	Disease	MESH:D000544
+35994325	442	445	GDP	Chemical	MESH:D006153
+35994325	450	465	GTP nucleotides	Chemical	-
+35994325	517	522	Rab10	Gene	10890
+35994325	561	568	Abeta42	Gene	351
+35994325	629	631	AD	Disease	MESH:D000544
+35994325	664	669	Rab10	Gene	10890
+35994325	836	841	Rab10	Gene	10890
+35994325	1096	1099	GDP	Chemical	MESH:D006153
+35994325	1104	1107	GTP	Chemical	MESH:D006160
+35994325	1547	1558	ZINC4090657	Chemical	-
+35994325	1573	1586	quinolizidine	Chemical	MESH:D054837
+35994325	1606	1617	ZINC4000106	Chemical	-
+35994325	1622	1633	ZINC0630250	Chemical	-
+35994325	1648	1656	coumarin	Chemical	MESH:C030123
+35994325	1727	1732	Rab10	Gene	10890
+35994325	1739	1750	ZINC4090657	Chemical	-
+35994325	Association	MESH:D000544	10890
+35994325	Negative_Correlation	MESH:C030123	10890
+35994325	Negative_Correlation	MESH:D054837	10890
+35994325	Negative_Correlation	10890	351
+

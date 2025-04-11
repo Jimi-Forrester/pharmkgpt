@@ -1,0 +1,13 @@
+35360172|t|Low-Rank Plus Sparse Decomposition of fMRI Data With Application to Alzheimer's Disease.
+35360172|a|Studying functional brain connectivity plays an important role in understanding how human brain functions and neuropsychological diseases such as autism, attention-deficit hyperactivity disorder, and Alzheimer's disease (AD). Functional magnetic resonance imaging (fMRI) is one of the most popularly used tool to construct functional brain connectivity. However, the presence of noises and outliers in fMRI blood oxygen level dependent (BOLD) signals might lead to unreliable and unstable results in the construction of connectivity matrix. In this paper, we propose a pipeline that enables us to estimate robust and stable connectivity matrix, which increases the detectability of group differences. In particular, a low-rank plus sparse (L + S) matrix decomposition technique is adopted to decompose the original signals, where the low-rank matrix L recovers the essential common features from regions of interest, and the sparse matrix S catches the sparse individual variability and potential outliers. On the basis of decomposed signals, we construct connectivity matrix using the proposed novel concentration inequality-based sparse estimator. In order to facilitate the comparisons, we also consider correlation, partial correlation, and graphical Lasso-based methods. Hypothesis testing is then conducted to detect group differences. The proposed pipeline is applied to rs-fMRI data in Alzheimer's disease neuroimaging initiative to detect AD-related biomarkers, and we show that the proposed pipeline provides accurate yet more stable results than using the original BOLD signals.
+35360172	68	87	Alzheimer's Disease	Disease	MESH:D000544
+35360172	173	178	human	Species	9606
+35360172	199	226	neuropsychological diseases	Disease	MESH:D004194
+35360172	235	241	autism	Disease	MESH:D001321
+35360172	243	283	attention-deficit hyperactivity disorder	Disease	MESH:D001289
+35360172	289	308	Alzheimer's disease	Disease	MESH:D000544
+35360172	310	312	AD	Disease	MESH:D000544
+35360172	496	508	blood oxygen	Chemical	-
+35360172	1483	1502	Alzheimer's disease	Disease	MESH:D000544
+35360172	1537	1539	AD	Disease	MESH:D000544
+

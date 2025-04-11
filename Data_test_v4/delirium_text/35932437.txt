@@ -1,0 +1,16 @@
+35932437|t|Combined ligand-based and structure-based design of PDE 9A inhibitors against Alzheimer's disease.
+35932437|a|PDE9 enzyme hydrolyzes cGMP, which is involved in the regulation of synaptic plasticity through the NMDA pathway (a well-known excitotoxic target for AD) via activation of calcium/calmodulin-dependent neuronal NO synthases in the postsynaptic neurons. The inhibition of PDE9 leads to elevated cGMP levels, causing enhanced NMDA signaling and thus contributing to an increase in synaptic plasticity and stabilization. Therefore, it could be considered a pertinent target for AD drug discovery. PF-04447943 and BI-409306 targeting PDE9 are undergoing clinical trials (Phase II). The present study encompasses a pharmacophoric approach to identify potent PDE9 inhibitors using various computational methods. Pharmacophores generated from the PDB 6A3N yielded 37,554 virtual hits, which underwent drug likeliness and PAINS filtering to arrive at a few virtual leads. The leads were further subjected to extra precision docking, ADMET predictions, and molecular dynamics. The final hits, ZINC000001305675 and ZINC000000377099, showed superior docking scores of - 10.90 and - 10.30 kcal/mol and satisfactory predicted ADMET scores. The hits were subjected to molecular dynamics (MD) studies, wherein they formed stable complexes with PDE9 protein and had ligand RMSDs within acceptable limits. The processes involved in the combined ligand and structure-based strategies.
+35932437	52	58	PDE 9A	Gene	5152
+35932437	78	97	Alzheimer's disease	Disease	MESH:D000544
+35932437	122	126	cGMP	Chemical	MESH:D006152
+35932437	226	237	excitotoxic	Disease	
+35932437	249	251	AD	Disease	MESH:D000544
+35932437	271	278	calcium	Chemical	MESH:D002118
+35932437	279	289	calmodulin	Gene	801
+35932437	392	396	cGMP	Chemical	MESH:D006152
+35932437	573	575	AD	Disease	MESH:D000544
+35932437	592	603	PF-04447943	Chemical	MESH:C572323
+35932437	608	617	BI-409306	Chemical	MESH:C000630656
+35932437	Association	MESH:D006152	MESH:D000544
+35932437	Association	MESH:D000544	5152
+

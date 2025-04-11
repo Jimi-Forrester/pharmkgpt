@@ -1,0 +1,38 @@
+36959563|t|Potential biomarkers of aortic dissection based on expression network analysis.
+36959563|a|BACKGROUND: Aortic dissection (AD) is a rare disease with severe morbidity and high mortality. Presently, the pathogenesis of aortic dissection is still not completely clear, and studying its pathogenesis will have important clinical significance. METHODS: We downloaded 28 samples from the Gene Expression Omnibus (GEO) database (Accession numbers: GSE147026 and GSE190635), including 14 aortic dissection samples and 14 healthy controls (HC) samples. The Limma package was used to screen differentially expressed genes. The StarBasev2.0 tool was used to predict the upstream molecular circRNA of the selected miRNAs, and Cytoscape software was used to process the obtained data. STRING database was used to analyze the interacting protein pairs of differentially expressed genes under medium filtration conditions. The R package "org.hs.eg.db" was used for functional enrichment analysis. RESULTS: Two hundred genes associated with aortic dissection were screened. Functional enrichment analysis was performed based on these 200 genes. At the same time, 2720 paired miRNAs were predicted based on these 200 genes, among which hsa-miR-650, hsa-miR-625-5p, hsa-miR-491-5p and hsa-miR-760 paired mRNAs were the most. Based on these four miRNAs, 7106 pairs of circRNAs were predicted to be paired with them. The genes most related to these four miRNAs were screened from 200 differentially expressed genes (CDH2, AKT1, WNT5A, ADRB2, GNAI1, GNAI2, HGF, MCAM, DKK2, ISL1). CONCLUSIONS: The study demonstrates that miRNA-associated circRNA-mRNA networks are altered in AD, implying that miRNA may play a crucial role in regulating the onset and progression of AD. It may become a potential biomarker for the diagnosis and treatment of AD.
+36959563	24	41	aortic dissection	Disease	MESH:D000784
+36959563	92	109	Aortic dissection	Disease	MESH:D000784
+36959563	111	113	AD	Disease	MESH:D000784
+36959563	206	223	aortic dissection	Disease	MESH:D000784
+36959563	469	486	aortic dissection	Disease	MESH:D000784
+36959563	1014	1031	aortic dissection	Disease	MESH:D000784
+36959563	1208	1219	hsa-miR-650	Gene	723778
+36959563	1221	1232	hsa-miR-625	Gene	693210
+36959563	1237	1248	hsa-miR-491	Gene	574444
+36959563	1256	1267	hsa-miR-760	Gene	100126348
+36959563	1485	1489	CDH2	Gene	1000
+36959563	1491	1495	AKT1	Gene	207
+36959563	1497	1502	WNT5A	Gene	7474
+36959563	1504	1509	ADRB2	Gene	154
+36959563	1511	1516	GNAI1	Gene	2770
+36959563	1518	1523	GNAI2	Gene	2771
+36959563	1525	1528	HGF	Gene	3082
+36959563	1530	1534	MCAM	Gene	4162
+36959563	1536	1540	DKK2	Gene	27123
+36959563	1542	1546	ISL1	Gene	3670
+36959563	1644	1646	AD	Disease	MESH:D000784
+36959563	1735	1737	AD	Disease	MESH:D000784
+36959563	1810	1812	AD	Disease	MESH:D000784
+36959563	Association	MESH:D000784	723778
+36959563	Association	MESH:D000784	2771
+36959563	Association	MESH:D000784	574444
+36959563	Association	MESH:D000784	7474
+36959563	Association	MESH:D000784	2770
+36959563	Association	MESH:D000784	100126348
+36959563	Association	MESH:D000784	3670
+36959563	Association	MESH:D000784	154
+36959563	Association	MESH:D000784	1000
+36959563	Association	MESH:D000784	27123
+36959563	Association	MESH:D000784	207
+36959563	Association	MESH:D000784	693210
+

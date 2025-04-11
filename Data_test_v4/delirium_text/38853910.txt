@@ -1,0 +1,29 @@
+38853910|t|Enhancing the Diagnostic Utility of ASL Imaging in Temporal Lobe Epilepsy through FlowGAN: An ASL to PET Image Translation Framework.
+38853910|a|Background and Significance: Positron Emission Tomography (PET) using fluorodeoxyglucose (FDG-PET) is a standard imaging modality for detecting areas of hypometabolism associated with the seizure onset zone (SOZ) in temporal lobe epilepsy (TLE). However, FDG-PET is costly and involves the use of a radioactive tracer. Arterial Spin Labeling (ASL) offers an MRI-based quantification of cerebral blood flow (CBF) that could also help localize the SOZ, but its performance in doing so, relative to FDG-PET, is limited. In this study, we seek to improve ASL's diagnostic performance by developing a deep learning framework for synthesizing FDG-PET-like images from ASL and structural MRI inputs. Methods: We included 68 epilepsy patients, out of which 36 had well lateralized TLE. We compared the coupling between FDG-PET and ASL CBF values in different brain regions, as well as the asymmetry of these values across the brain. We additionally assessed each modality's ability to lateralize the SOZ across brain regions. Using our paired PET-ASL data, we developed FlowGAN, a generative adversarial neural network (GAN) that synthesizes PET-like images from ASL and T1-weighted MRI inputs. We tested our synthetic PET images against the actual PET images of subjects to assess their ability to reproduce clinically meaningful hypometabolism and asymmetries in TLE. Results: We found variable coupling between PET and ASL CBF values across brain regions. PET and ASL had high coupling in neocortical temporal and frontal brain regions (Spearman's r > 0.30, p < 0.05) but low coupling in mesial temporal structures (Spearman's r < 0.30, p > 0.05). Both whole brain PET and ASL CBF asymmetry values provided good separability between left and right TLE subjects, but PET (AUC = 0.96, 95% CI: [0.88, 1.00]) outperformed ASL (AUC = 0.81; 95% CI: [0.65, 0.96]). FlowGAN-generated images demonstrated high structural similarity to actual PET images (SSIM = 0.85). Globally, asymmetry values were better correlated between synthetic PET and original PET than between ASL CBF and original PET, with a mean correlation increase of 0.15 (95% CI: [0.07, 0.24], p<0.001, Cohen's d = 0.91). Furthermore, regions that had poor ASL-PET correlation (e.g. mesial temporal structures) showed the greatest improvement with synthetic PET images. Conclusions: FlowGAN improves ASL's diagnostic performance, generating synthetic PET images that closely mimic actual FDG-PET in depicting hypometabolism associated with TLE. This approach could improve non-invasive SOZ localization, offering a promising tool for epilepsy presurgical assessment. It potentially broadens the applicability of ASL in clinical practice and could reduce reliance on FDG-PET for epilepsy and other neurological disorders.
+38853910	51	73	Temporal Lobe Epilepsy	Disease	MESH:D004833
+38853910	204	222	fluorodeoxyglucose	Chemical	MESH:D019788
+38853910	224	227	FDG	Chemical	MESH:D019788
+38853910	287	301	hypometabolism	Disease	
+38853910	322	329	seizure	Disease	MESH:D012640
+38853910	350	372	temporal lobe epilepsy	Disease	MESH:D004833
+38853910	374	377	TLE	Disease	MESH:D004833
+38853910	389	392	FDG	Chemical	MESH:D019788
+38853910	630	633	FDG	Chemical	MESH:D019788
+38853910	771	774	FDG	Chemical	MESH:D019788
+38853910	851	859	epilepsy	Disease	MESH:D004827
+38853910	860	868	patients	Species	9606
+38853910	907	910	TLE	Disease	MESH:D004833
+38853910	945	948	FDG	Chemical	MESH:D019788
+38853910	1457	1471	hypometabolism	Disease	
+38853910	1491	1494	TLE	Disease	MESH:D004833
+38853910	1877	1880	TLE	Disease	MESH:D004833
+38853910	2574	2577	FDG	Chemical	MESH:D019788
+38853910	2595	2609	hypometabolism	Disease	
+38853910	2626	2629	TLE	Disease	MESH:D004833
+38853910	2720	2728	epilepsy	Disease	MESH:D004827
+38853910	2852	2855	FDG	Chemical	MESH:D019788
+38853910	2864	2872	epilepsy	Disease	MESH:D004827
+38853910	2883	2905	neurological disorders	Disease	MESH:D009461
+38853910	Negative_Correlation	MESH:D019788	MESH:D012640
+38853910	Negative_Correlation	MESH:D019788	MESH:D004833
+

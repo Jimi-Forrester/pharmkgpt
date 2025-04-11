@@ -1,0 +1,26 @@
+36532287|t|A zero-dose synthetic baseline for the personalized analysis of [18F]FDG-PET: Application in Alzheimer's disease.
+36532287|a|Purpose: Brain 2-Deoxy-2-[18F]fluoroglucose ([18F]FDG-PET) is widely used in the diagnostic workup of Alzheimer's disease (AD). Current tools for uptake analysis rely on non-personalized templates, which poses a challenge as decreased glucose uptake could reflect neuronal dysfunction, or heterogeneous brain morphology associated with normal aging. Overcoming this, we propose a deep learning method for synthesizing a personalized [18F]FDG-PET baseline from the patient's own MRI, and showcase its applicability in detecting AD pathology. Methods: We included [18F]FDG-PET/MRI data from 123 patients of a local cohort and 600 patients from ADNI. A supervised, adversarial model with two connected Generative Adversarial Networks (GANs) was trained on cognitive normal (CN) patients with transfer-learning to generate full synthetic baseline volumes (sbPET) (192 x 192 x 192) which reflect healthy uptake conditioned on brain anatomy. Synthetic accuracy was measured by absolute relative %-difference (Abs%), relative %-difference (RD%), and peak signal-to-noise ratio (PSNR). Lastly, we deployed the sbPET images in a fully personalized method for localizing metabolic abnormalities. Results: The model achieved a spatially uniform Abs% of 9.4%, RD% of 0.5%, and a PSNR of 26.3 for CN subjects. The sbPET images conformed to the anatomical information dictated by the MRI and proved robust in presence of atrophy. The personalized abnormality method correctly mapped the pathology of AD subjects while showing little to no anomalies for CN subjects. Conclusion: This work demonstrated the feasibility of synthesizing fully personalized, healthy-appearing [18F]FDG-PET images. Using these, we showcased a promising application in diagnosing AD, and theorized the potential value of sbPET images in other neuroimaging routines.
+36532287	64	72	[18F]FDG	Chemical	MESH:D019788
+36532287	93	112	Alzheimer's disease	Disease	MESH:D000544
+36532287	129	157	2-Deoxy-2-[18F]fluoroglucose	Chemical	-
+36532287	159	167	[18F]FDG	Chemical	MESH:D019788
+36532287	216	235	Alzheimer's disease	Disease	MESH:D000544
+36532287	237	239	AD	Disease	MESH:D000544
+36532287	349	356	glucose	Chemical	MESH:D005947
+36532287	378	398	neuronal dysfunction	Disease	MESH:D009461
+36532287	547	555	[18F]FDG	Chemical	MESH:D019788
+36532287	578	585	patient	Species	9606
+36532287	641	643	AD	Disease	MESH:D000544
+36532287	676	684	[18F]FDG	Chemical	MESH:D019788
+36532287	707	715	patients	Species	9606
+36532287	742	750	patients	Species	9606
+36532287	756	760	ADNI	Disease	
+36532287	889	897	patients	Species	9606
+36532287	1275	1298	metabolic abnormalities	Disease	MESH:D008659
+36532287	1521	1528	atrophy	Disease	MESH:D001284
+36532287	1600	1602	AD	Disease	MESH:D000544
+36532287	1771	1779	[18F]FDG	Chemical	MESH:D019788
+36532287	1856	1858	AD	Disease	MESH:D000544
+36532287	Association	MESH:D019788	MESH:D000544
+36532287	Negative_Correlation	MESH:D005947	MESH:D009461
+

@@ -1,0 +1,20 @@
+35051240|t|A full pipeline of diagnosis and prognosis the risk of chronic diseases using deep learning and Shapley values: The Ravansar county anthropometric cohort study.
+35051240|a|Anthropometry is a Greek word that consists of the two words "Anthropo" meaning human species and "metery" meaning measurement. It is a science that deals with the size of the body including the dimensions of different parts, the field of motion and the strength of the muscles of the body. Specific individual dimensions such as heights, widths, depths, distances, environments and curvatures are usually measured. In this article, we investigate the anthropometric characteristics of patients with chronic diseases (diabetes, hypertension, cardiovascular disease, heart attacks and strokes) and find the factors affecting these diseases and the extent of the impact of each to make the necessary planning. We have focused on cohort studies for 10047 qualified participants from Ravansar County. Machine learning provides opportunities to improve discrimination through the analysis of complex interactions between broad variables. Among the chronic diseases in this cohort study, we have used three deep neural network models for diagnosis and prognosis of the risk of type 2 diabetes mellitus (T2DM) as a case study. Usually in Artificial Intelligence for medicine tasks, Imbalanced data is an important issue in learning and ignoring that leads to false evaluation results. Also, the accuracy evaluation criterion was not appropriate for this task, because a simple model that is labeling all samples negatively has high accuracy. So, the evaluation criteria of precession, recall, AUC, and AUPRC were considered. Then, the importance of variables in general was examined to determine which features are more important in the risk of T2DM. Finally, personality feature was added, in which individual feature importance was examined. Performing by Shapley Values, the model is tuned for each patient so that it can be used for prognosis of T2DM risk for that patient. In this paper, we have focused and implemented a full pipeline of Data Creation, Data Preprocessing, Handling Imbalanced Data, Deep Learning model, true Evaluation method, Feature Importance and Individual Feature Importance. Through the results, the pipeline demonstrated competence in improving the Diagnosis and Prognosis the risk of T2DM with personalization capability.
+35051240	55	71	chronic diseases	Disease	MESH:D002908
+35051240	241	246	human	Species	9606
+35051240	647	655	patients	Species	9606
+35051240	661	677	chronic diseases	Disease	MESH:D002908
+35051240	679	687	diabetes	Disease	MESH:D003920
+35051240	689	701	hypertension	Disease	MESH:D006973
+35051240	703	725	cardiovascular disease	Disease	MESH:D002318
+35051240	727	740	heart attacks	Disease	MESH:D009203
+35051240	745	752	strokes	Disease	MESH:D020521
+35051240	1104	1120	chronic diseases	Disease	MESH:D002908
+35051240	1232	1256	type 2 diabetes mellitus	Disease	MESH:D003924
+35051240	1258	1262	T2DM	Disease	MESH:D003924
+35051240	1799	1803	T2DM	Disease	MESH:D003924
+35051240	1956	1963	patient	Species	9606
+35051240	2004	2008	T2DM	Disease	MESH:D003924
+35051240	2023	2030	patient	Species	9606
+35051240	2369	2373	T2DM	Disease	MESH:D003924
+

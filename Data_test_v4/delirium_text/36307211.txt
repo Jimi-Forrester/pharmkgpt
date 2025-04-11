@@ -1,0 +1,67 @@
+36307211|t|Autosomal recessive LRP1-related syndrome featuring cardiopulmonary dysfunction, bone dysmorphology, and corneal clouding.
+36307211|a|We provide the first study of two siblings with a novel autosomal recessive LRP1-related syndrome identified by rapid genome sequencing and overlapping multiple genetic models. The patients presented with respiratory distress, congenital heart defects, hypotonia, dysmorphology, and unique findings, including corneal clouding and ascites. Both siblings had compound heterozygous damaging variants, c.11420G > C (p.Cys3807Ser) and c.12407T > G (p.Val4136Gly) in LRP1, in which segregation analysis helped dismiss additional variants of interest. LRP1 analysis using multiple human/mouse data sets reveals a correlation to patient phenotypes of Peters plus syndrome with additional severe cardiomyopathy and blood vessel development complications linked to neural crest cells.
+36307211	0	41	Autosomal recessive LRP1-related syndrome	Disease	MESH:D019973
+36307211	52	79	cardiopulmonary dysfunction	Disease	MESH:D006323
+36307211	81	99	bone dysmorphology	Disease	MESH:D001847
+36307211	105	121	corneal clouding	Disease	MESH:C535990
+36307211	179	220	autosomal recessive LRP1-related syndrome	Disease	MESH:D019973
+36307211	304	312	patients	Species	9606
+36307211	328	348	respiratory distress	Disease	MESH:D012128
+36307211	350	374	congenital heart defects	Disease	MESH:D006330
+36307211	376	385	hypotonia	Disease	MESH:D009123
+36307211	387	400	dysmorphology	Disease	
+36307211	433	449	corneal clouding	Disease	MESH:C535990
+36307211	454	461	ascites	Disease	MESH:D001201
+36307211	522	534	c.11420G > C	DNAMutation	tmVar:c|SUB|G|11420|C;HGVS:c.11420G>C;VariantGroup:1;CorrespondingGene:4035;CorrespondingSpecies:9606
+36307211	536	548	p.Cys3807Ser	ProteinMutation	tmVar:p|SUB|C|3807|S;HGVS:p.C3807S;VariantGroup:1;CorrespondingGene:4035;CorrespondingSpecies:9606
+36307211	554	566	c.12407T > G	DNAMutation	tmVar:c|SUB|T|12407|G;HGVS:c.12407T>G;VariantGroup:0;CorrespondingGene:4035;CorrespondingSpecies:9606
+36307211	568	580	p.Val4136Gly	ProteinMutation	tmVar:p|SUB|V|4136|G;HGVS:p.V4136G;VariantGroup:0;CorrespondingGene:4035;CorrespondingSpecies:9606
+36307211	585	589	LRP1	Gene	4035
+36307211	669	673	LRP1	Gene	4035
+36307211	698	703	human	Species	9606
+36307211	704	709	mouse	Species	10090
+36307211	745	752	patient	Species	9606
+36307211	767	787	Peters plus syndrome	Disease	MESH:C537617
+36307211	811	825	cardiomyopathy	Disease	MESH:D009202
+36307211	830	868	blood vessel development complications	Disease	MESH:D009383
+36307211	Association	HGVS:c.12407T>G;CorrespondingGene:4035	HGVS:p.V4136G;CorrespondingGene:4035
+36307211	Positive_Correlation	MESH:D019973	HGVS:p.V4136G;CorrespondingGene:4035
+36307211	Positive_Correlation	HGVS:c.11420G>C;CorrespondingGene:4035	MESH:D019973
+36307211	Association	HGVS:p.C3807S;CorrespondingGene:4035	HGVS:p.V4136G;CorrespondingGene:4035
+36307211	Association	HGVS:c.12407T>G;CorrespondingGene:4035	HGVS:p.C3807S;CorrespondingGene:4035
+36307211	Association	HGVS:c.12407T>G;CorrespondingGene:4035	HGVS:p.C3807S;CorrespondingGene:4035
+36307211	Positive_Correlation	MESH:C535990	HGVS:p.V4136G;CorrespondingGene:4035
+36307211	Association	HGVS:c.11420G>C;CorrespondingGene:4035	HGVS:c.11420G>C;CorrespondingGene:4035
+36307211	Association	MESH:D001201	4035
+36307211	Association	HGVS:c.11420G>C;CorrespondingGene:4035	HGVS:c.12407T>G;CorrespondingGene:4035
+36307211	Positive_Correlation	HGVS:c.11420G>C;CorrespondingGene:4035	MESH:C535990
+36307211	Association	HGVS:c.12407T>G;CorrespondingGene:4035	HGVS:c.11420G>C;CorrespondingGene:4035
+36307211	Association	MESH:C535990	4035
+36307211	Association	HGVS:c.11420G>C;CorrespondingGene:4035	HGVS:c.12407T>G;CorrespondingGene:4035
+36307211	Association	HGVS:c.12407T>G;CorrespondingGene:4035	MESH:D001201
+36307211	Association	HGVS:c.11420G>C;CorrespondingGene:4035	HGVS:p.C3807S;CorrespondingGene:4035
+36307211	Positive_Correlation	MESH:C535990	HGVS:p.C3807S;CorrespondingGene:4035
+36307211	Positive_Correlation	HGVS:c.12407T>G;CorrespondingGene:4035	MESH:D019973
+36307211	Association	MESH:D009383	HGVS:p.V4136G;CorrespondingGene:4035
+36307211	Association	MESH:D001201	HGVS:c.12407T>G;CorrespondingGene:4035
+36307211	Association	MESH:D019973	4035
+36307211	Positive_Correlation	MESH:D019973	HGVS:c.11420G>C;CorrespondingGene:4035
+36307211	Association	HGVS:c.11420G>C;CorrespondingGene:4035	HGVS:c.11420G>C;CorrespondingGene:4035
+36307211	Association	MESH:C537617	4035
+36307211	Positive_Correlation	MESH:D019973	HGVS:p.C3807S;CorrespondingGene:4035
+36307211	Association	HGVS:c.11420G>C;CorrespondingGene:4035	HGVS:c.12407T>G;CorrespondingGene:4035
+36307211	Positive_Correlation	HGVS:c.12407T>G;CorrespondingGene:4035	MESH:C535990
+36307211	Association	MESH:D006323	4035
+36307211	Positive_Correlation	MESH:C535990	HGVS:c.11420G>C;CorrespondingGene:4035
+36307211	Association	MESH:D009383	4035
+36307211	Positive_Correlation	MESH:C535990	HGVS:c.12407T>G;CorrespondingGene:4035
+36307211	Association	HGVS:c.11420G>C;CorrespondingGene:4035	HGVS:p.V4136G;CorrespondingGene:4035
+36307211	Association	HGVS:c.11420G>C;CorrespondingGene:4035	HGVS:p.V4136G;CorrespondingGene:4035
+36307211	Association	MESH:D009202	4035
+36307211	Positive_Correlation	MESH:D019973	HGVS:c.12407T>G;CorrespondingGene:4035
+36307211	Association	MESH:D001847	4035
+36307211	Association	MESH:D019973	4035
+36307211	Association	MESH:C535990	4035
+36307211	Association	MESH:D001201	4035
+36307211	Association	MESH:D009383	4035
+

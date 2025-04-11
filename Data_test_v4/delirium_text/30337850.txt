@@ -1,0 +1,17 @@
+30337850|t|Topological Pattern Recognition of Severe Alzheimer's Disease via Regularized Supervised Learning of EEG Complexity.
+30337850|a|Alzheimer's disease (AD) is a progressive brain disorder with gradual memory loss that correlates to cognitive deficits in the elderly population. Recent studies have shown the potentials of machine learning algorithms to identify biomarkers and functional brain activity patterns across various AD stages using electroencephalography (EEG). In this study, we aim to discover the altered spatio-temporal patterns of EEG complexity associated with AD pathology in different severity levels. We employed the multiscale entropy (MSE), a complexity measure of time series signals, as the biomarkers to characterize the nonlinear complexity at multiple temporal scales. Two regularized logistic regression methods were applied to extracted MSE features to capture the topographic pattern of MSEs of AD cohorts compared to healthy baseline. Furthermore, canonical correlation analysis was performed to evaluate the multivariate correlation between EEG complexity and cognitive dysfunction measured by the Neuropsychiatric Inventory scores. 123 participants were recruited and each participant was examined in three sessions (length = 10 seconds) to collect resting-state EEG signals. MSE features were extracted across 20 time scale factors with pre-determined parameters (m = 2, r = 0.15). The results showed that comparing to logistic regression model, the regularized learning methods performed better for discriminating severe AD cohort from normal control, very mild and mild cohorts (test accuracy ~ 80%), as well as for selecting significant biomarkers arcoss the brain regions. It was found that temporal and occipitoparietal brain regions were more discriminative in regard to classifying severe AD cohort vs. normal controls, but more diverse and distributed patterns of EEG complexity in the brain were exhibited across individuals in early stages of AD.
+30337850	42	61	Alzheimer's Disease	Disease	MESH:D000544
+30337850	117	136	Alzheimer's disease	Disease	MESH:D000544
+30337850	138	140	AD	Disease	MESH:D000544
+30337850	159	173	brain disorder	Disease	MESH:D001927
+30337850	187	198	memory loss	Disease	MESH:D008569
+30337850	218	236	cognitive deficits	Disease	MESH:D003072
+30337850	413	415	AD	Disease	MESH:D000544
+30337850	564	566	AD	Disease	MESH:D000544
+30337850	911	913	AD	Disease	MESH:D000544
+30337850	1078	1099	cognitive dysfunction	Disease	MESH:D003072
+30337850	1192	1203	participant	Species	9606
+30337850	1542	1544	AD	Disease	MESH:D000544
+30337850	1816	1818	AD	Disease	MESH:D000544
+30337850	1973	1975	AD	Disease	MESH:D000544
+

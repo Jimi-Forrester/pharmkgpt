@@ -1,0 +1,11 @@
+37483342|t|A computer-aided diagnosis system for brain tumors based on artificial intelligence algorithms.
+37483342|a|The choice of treatment and prognosis evaluation depend on the accurate early diagnosis of brain tumors. Many brain tumors go undiagnosed or are overlooked by clinicians as a result of the challenges associated with manually evaluating magnetic resonance imaging (MRI) images in clinical practice. In this study, we built a computer-aided diagnosis (CAD) system for glioma detection, grading, segmentation, and knowledge discovery based on artificial intelligence algorithms. Neuroimages are specifically represented using a type of visual feature known as the histogram of gradients (HOG). Then, through a two-level classification framework, the HOG features are employed to distinguish between healthy controls and patients, or between different glioma grades. This CAD system also offers tumor visualization using a semi-automatic segmentation tool for better patient management and treatment monitoring. Finally, a knowledge base is created to offer additional advice for the diagnosis of brain tumors. Based on our proposed two-level classification framework, we train models for glioma detection and grading, achieving area under curve (AUC) of 0.921 and 0.806, respectively. Different from other systems, we integrate these diagnostic tools with a web-based interface, which provides the flexibility for system deployment.
+37483342	38	50	brain tumors	Disease	MESH:D001932
+37483342	187	199	brain tumors	Disease	MESH:D001932
+37483342	206	218	brain tumors	Disease	MESH:D001932
+37483342	462	468	glioma	Disease	MESH:D005910
+37483342	844	850	glioma	Disease	MESH:D005910
+37483342	887	892	tumor	Disease	MESH:D009369
+37483342	1089	1101	brain tumors	Disease	MESH:D001932
+37483342	1181	1187	glioma	Disease	MESH:D005910
+

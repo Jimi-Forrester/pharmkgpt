@@ -1,0 +1,18 @@
+35404271|t|Automatic Classification of Subjects of the PSEN1-E280A Family at Risk of Developing Alzheimer's Disease Using Machine Learning and Resting State Electroencephalography.
+35404271|a|BACKGROUND: The study of genetic variant carriers provides an opportunity to identify neurophysiological changes in preclinical stages. Electroencephalography (EEG) is a low-cost and minimally invasive technique which, together with machine learning, provide the possibility to construct systems that classify subjects that might develop Alzheimer's disease (AD). OBJECTIVE: The aim of this paper is to evaluate the capacity of the machine learning techniques to classify healthy Non-Carriers (NonCr) from Asymptomatic Carriers (ACr) of PSEN1-E280A variant for autosomal dominant Alzheimer's disease (ADAD), using spectral features from EEG channels and brain-related independent components (ICs) obtained using independent component analysis (ICA). METHODS: EEG was recorded in 27 ACr and 33 NonCr. Statistical significance analysis was applied to spectral information from channels and group ICA (gICA), standardized low-resolution tomography (sLORETA) analysis was applied over the IC as well. Strategies for feature selection and classification like Chi-square, mutual informationm and support vector machines (SVM) were evaluated over the dataset. RESULTS: A test accuracy up to 83% was obtained by implementing a SVM with spectral features derived from gICA. The main findings are related to theta and beta rhythms, generated in the parietal and occipital regions, like the precuneus and superior parietal lobule. CONCLUSION: Promising models for classification of preclinical AD due to PSEN-1-E280A variant can be trained using spectral features, and the importance of the beta band and precuneus region is highlighted in asymptomatic stages, opening up the possibility of its use as a screening methodology.
+35404271	44	49	PSEN1	Gene	5663
+35404271	50	55	E280A	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:0;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+35404271	85	104	Alzheimer's Disease	Disease	MESH:D000544
+35404271	508	527	Alzheimer's disease	Disease	MESH:D000544
+35404271	529	531	AD	Disease	MESH:D000544
+35404271	707	712	PSEN1	Gene	5663
+35404271	713	718	E280A	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:0;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+35404271	750	769	Alzheimer's disease	Disease	MESH:D000544
+35404271	771	775	ADAD	Disease	MESH:D000544
+35404271	1653	1655	AD	Disease	MESH:D000544
+35404271	1663	1669	PSEN-1	Gene	5663
+35404271	1670	1675	E280A	ProteinMutation	tmVar:p|SUB|E|280|A;HGVS:p.E280A;VariantGroup:0;CorrespondingGene:5663;RS#:63750231;CorrespondingSpecies:9606;CA#:341491
+35404271	Positive_Correlation	MESH:D000544	RS#:63750231;HGVS:p.E280A;CorrespondingGene:5663
+35404271	Association	MESH:D000544	5663
+35404271	Association	MESH:D000544	5663
+

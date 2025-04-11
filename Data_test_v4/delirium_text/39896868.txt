@@ -1,0 +1,28 @@
+39896868|t|An interpretable machine learning tool for in-home monitoring of agitation episodes in people living with dementia: a proof-of-concept study.
+39896868|a|Background: Agitation affects around 30% of people living with dementia (PLwD), increasing carer burden and straining care services. Agitation identification typically relies on subjective clinical scales and direct patient observation, which are resource-intensive and challenging to incorporate into routine care. Clinical applicability of data-driven methods for agitation monitoring is limited by constraints such as short observational periods, data granularity, and lack of interpretability and generalisation. Current interventions for agitation are primarily medication-based, which may lead to severe side effects and lack personalisation. Understanding how real-world factors interact with agitation within home settings offers a promising avenue towards identifying potential personalised non-pharmacological interventions. Methods: We used longitudinal data (32,896 person-days from n = 63 PLwD) collected using in-home monitoring devices between December 2020 and March 2023. Employing machine learning techniques, we developed a monitoring tool to identify the presence of agitation during the week. We incorporated a traffic-light system to stratify agitation probability estimates supporting clinical decision-making, and employed the SHapley Additive exPlanations (SHAP) framework to enhance interpretability. We designed an interactive tool that enables the exploration of personalised non-pharmacological interventions, such as modifying ambient light and temperature. Findings: Light Gradient-boosting Machine (LightGBM) achieved the highest performance in identifying agitation over an 8-day period with a sensitivity of 71.32% +- 7.38 and specificity of 75.28% +- 7.38. Implementing the traffic-light system for stratification increased specificity to 90.3% +- 7.55 and improved all metrics. Key features for identifying agitation included low nocturnal respiratory rate, heightened alertness during sleep, and increased indoor illuminance, as revealed by statistical and feature importance analysis. Using our interactive tool, we identified indoor lighting and temperature adjustments as the most promising and feasible intervention options within our cohort. Interpretation: Our interpretable framework for agitation monitoring, developed using data from a dementia care study, showcases significant clinical value. The accompanying interactive interface allows for the in-silico simulation of non-pharmacological interventions, facilitating the design of personalised interventions that can improve in-home dementia care. Funding: This study is funded by the UK Dementia Research Institute [award number UK DRI-7002] through UK DRI Ltd, principally funded by the Medical Research Council (MRC), and the UKRI Engineering and Physical Sciences Research Council (EPSRC) PROTECT Project (grant number: EP/W031892/1). Infrastructure support for this research was provided by the NIHR Imperial Biomedical Research Centre (BRC) and the UKRI Medical Research Council (MRC). P.B. is also funded by the Great Ormond Street Hospital and the Royal Academy of Engineering. C.S. is supported by the UK Dementia Research Institute [award number UK DRI-5209], a UKRI Future Leaders Fellowship [MR/MR/X032892/1] and the Edmond J. Safra Foundation. R.N. is funded by UK Dementia Research Institute [award number UK DRI-7002] and the UKRI Engineering and Physical Sciences Research Council (EPSRC) PROTECT Project (grant number: EP/W031892/1). M.B. and A.K.S. are funded by the UK Dementia Research Institute [award number UKDRI-7002 and UKDRI-5209]. N.F.L., A.C., C.W. and S.K. are funded by the UK Dementia Research Institute [award number UK DRI-7002].
+39896868	65	74	agitation	Disease	MESH:D011595
+39896868	87	93	people	Species	9606
+39896868	106	114	dementia	Disease	MESH:D003704
+39896868	154	163	Agitation	Disease	MESH:D011595
+39896868	186	192	people	Species	9606
+39896868	205	213	dementia	Disease	MESH:D003704
+39896868	215	219	PLwD	Disease	MESH:C000719191
+39896868	275	284	Agitation	Disease	MESH:D011595
+39896868	358	365	patient	Species	9606
+39896868	508	517	agitation	Disease	MESH:D011595
+39896868	685	694	agitation	Disease	MESH:D011595
+39896868	842	851	agitation	Disease	MESH:D011595
+39896868	1044	1048	PLwD	Disease	MESH:C000719191
+39896868	1229	1238	agitation	Disease	MESH:D011595
+39896868	1307	1316	agitation	Disease	MESH:D011595
+39896868	1731	1740	agitation	Disease	MESH:D011595
+39896868	1985	1994	agitation	Disease	MESH:D011595
+39896868	2374	2383	agitation	Disease	MESH:D011595
+39896868	2424	2432	dementia	Disease	MESH:D003704
+39896868	2675	2683	dementia	Disease	MESH:D003704
+39896868	2730	2738	Dementia	Disease	MESH:D003704
+39896868	3256	3264	Dementia	Disease	MESH:D003704
+39896868	3420	3428	Dementia	Disease	MESH:D003704
+39896868	3630	3638	Dementia	Disease	MESH:D003704
+39896868	3749	3757	Dementia	Disease	MESH:D003704
+

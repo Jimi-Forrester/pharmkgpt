@@ -1,0 +1,29 @@
+36030825|t|Oxidation of two cysteines within yeast Hsp70 impairs proteostasis while directly triggering an Hsf1-dependent cytoprotective response.
+36030825|a|Neurodegenerative diseases such as Alzheimer's, Parkinson's, and Huntington's diseases affect millions of Americans every year. One factor linked to the formation of aggregates associated with these diseases is damage sustained to proteins by oxidative stress. Management of protein misfolding by the ubiquitous Hsp70 chaperone family can be modulated by modification of two key cysteines in the ATPase domain by oxidizing or thiol-modifying compounds. To investigate the biological consequences of cysteine modification on the Hsp70 Ssa1 in budding yeast, we generated cysteine null (cysteine to serine) and oxidomimetic (cysteine to aspartic acid) mutant variants of both C264 and C303 and demonstrate reduced ATP binding, hydrolysis, and protein folding properties in both the oxidomimetic and hydrogen peroxide-treated Ssa1. In contrast, cysteine nullification rendered Ssa1 insensitive to oxidative inhibition. Additionally, we determined the oxidomimetic ssa1-2CD (C264D, C303D) allele was unable to function as the sole Ssa1 isoform in yeast cells and also exhibited dominant negative effects on cell growth and viability. Ssa1 binds to and represses Hsf1, the major transcription factor controlling the heat shock response, and we found the oxidomimetic Ssa1 failed to stably interact with Hsf1, resulting in constitutive activation of the heat shock response. Consistent with our in vitro findings, ssa1-2CD cells were compromised for de novo folding, post-stress protein refolding, and in regulated degradation of a model terminally misfolded protein. Together, these findings pinpoint Hsp70 as a key link between oxidative stress and proteostasis, information critical to understanding cytoprotective systems that prevent and manage cellular insults underlying complex disease states.
+36030825	34	39	yeast	Species	4932
+36030825	96	100	Hsf1	Gene	852806
+36030825	136	162	Neurodegenerative diseases	Disease	MESH:D019636
+36030825	171	182	Alzheimer's	Disease	MESH:D000544
+36030825	184	195	Parkinson's	Disease	MESH:D010300
+36030825	201	222	Huntington's diseases	Disease	MESH:D006816
+36030825	670	674	Ssa1	Gene	851259
+36030825	686	691	yeast	Species	4932
+36030825	721	739	cysteine to serine	ProteinMutation	tmVar:p|SUB|C||S;VariantGroup:2;OriginalGene:851259;CorrespondingGene:3305;CorrespondingSpecies:559292
+36030825	759	784	cysteine to aspartic acid	ProteinMutation	tmVar:p|SUB|C||D;VariantGroup:3;OriginalGene:851259;CorrespondingGene:3305;CorrespondingSpecies:559292
+36030825	848	851	ATP	Chemical	MESH:D000255
+36030825	933	950	hydrogen peroxide	Chemical	MESH:D006861
+36030825	959	963	Ssa1	Gene	851259
+36030825	1010	1014	Ssa1	Gene	851259
+36030825	1107	1112	C264D	ProteinMutation	tmVar:p|SUB|C|264|D;HGVS:p.C264D;VariantGroup:0;OriginalGene:851259;CorrespondingGene:3305;CorrespondingSpecies:559292
+36030825	1114	1119	C303D	ProteinMutation	tmVar:p|SUB|C|303|D;HGVS:p.C303D;VariantGroup:1;OriginalGene:851259;CorrespondingGene:3305;CorrespondingSpecies:559292
+36030825	1163	1167	Ssa1	Gene	851259
+36030825	1179	1184	yeast	Species	4932
+36030825	1266	1270	Ssa1	Gene	851259
+36030825	1294	1298	Hsf1	Gene	852806
+36030825	1398	1402	Ssa1	Gene	851259
+36030825	1434	1438	Hsf1	Gene	852806
+36030825	1544	1552	ssa1-2CD	CellLine	CVCL:5731
+36030825	Bind	MESH:D000255	851259
+36030825	Association	851259	852806
+36030825	Association	MESH:D006861	851259
+

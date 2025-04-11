@@ -1,0 +1,37 @@
+37599392|t|Identification and overcoming rituximab resistance in diffuse large B-cell lymphoma using next-generation sequencing.
+37599392|a|Background/Aims: Although rituximab, an antiCD20 monoclonal antibody, has dramatically improved the clinical outcomes of diffuse large B-cell lymphoma, rituximab resistance remains a challenge. Methods: We developed a rituximab-resistant cell line (RRCL) by sequential exposure to gradually increasing concentrations of rituximab in a rituximab-sensitive cell line (RSCL). When the same dose of rituximab was administered, RRCL showed a smaller decrease in cell viability and apoptosis than RSCL. To determine the differences in gene expression between RSCL and RRCL, we performed next-generation sequencing. Results: In total, 1,879 differentially expressed genes were identified, and in the over-representation analysis of Consensus- PathDB, mitogen-activated protein kinase (MAPK) signaling pathway showed statistical significance. MAPK13, which encodes the p38delta protein, was expressed more than four-fold in RRCL. Western blot analysis revealed that phosphop38 expression mainwas increased in RRCL, and when p38 inhibitor was administered, phosphop38 expression was significantly decreased. Therefore, we hypothesized that p38 MAPK activation was associated with rituximab resistance. Previous studies have suggested that p38 is associated with NF-kappaB activation. Deferasirox has been reported to inhibit NF-kappaB activity and suppress phosphorylation of the MAPK pathway. Furthermore, it also has cytotoxic effects on various cancers and synergistic effects in overcoming drug resistance. In this study, we confirmed that deferasirox induced dose-dependent cytotoxicity in both RSCL and RRCL, and the combination of deferasirox and rituximab showed a synergistic effect in RRCL at all combination concentrations. Conclusions: We suggest that p38 MAPK, especially p38delta, activation is associated with rituximab resistance, and deferasirox may be a candidate to overcome rituximab resistance.
+37599392	30	39	rituximab	Chemical	MESH:D000069283
+37599392	54	83	diffuse large B-cell lymphoma	Disease	MESH:D016403
+37599392	144	153	rituximab	Chemical	MESH:D000069283
+37599392	239	268	diffuse large B-cell lymphoma	Disease	MESH:D016403
+37599392	270	279	rituximab	Chemical	MESH:D000069283
+37599392	336	345	rituximab	Chemical	MESH:D000069283
+37599392	438	447	rituximab	Chemical	MESH:D000069283
+37599392	453	462	rituximab	Chemical	MESH:D000069283
+37599392	513	522	rituximab	Chemical	MESH:D000069283
+37599392	953	959	MAPK13	Gene	5603
+37599392	979	987	p38delta	Gene	5603
+37599392	1134	1137	p38	Gene	1432
+37599392	1289	1298	rituximab	Chemical	MESH:D000069283
+37599392	1348	1351	p38	Gene	1432
+37599392	1371	1380	NF-kappaB	Gene	4790
+37599392	1393	1404	Deferasirox	Chemical	MESH:D000077588
+37599392	1434	1443	NF-kappaB	Gene	4790
+37599392	1528	1537	cytotoxic	Disease	MESH:D064420
+37599392	1557	1564	cancers	Disease	MESH:D009369
+37599392	1653	1664	deferasirox	Chemical	MESH:D000077588
+37599392	1688	1700	cytotoxicity	Disease	MESH:D064420
+37599392	1747	1758	deferasirox	Chemical	MESH:D000077588
+37599392	1763	1772	rituximab	Chemical	MESH:D000069283
+37599392	1894	1902	p38delta	Gene	5603
+37599392	1934	1943	rituximab	Chemical	MESH:D000069283
+37599392	1960	1971	deferasirox	Chemical	MESH:D000077588
+37599392	2003	2012	rituximab	Chemical	MESH:D000069283
+37599392	Negative_Correlation	MESH:D000077588	4790
+37599392	Negative_Correlation	MESH:D000069283	MESH:D016403
+37599392	Negative_Correlation	MESH:D000077588	MESH:D009369
+37599392	Association	1432	4790
+37599392	Cotreatment	MESH:D000069283	MESH:D000077588
+37599392	Positive_Correlation	MESH:D000077588	MESH:D064420
+37599392	Association	MESH:D000069283	5603
+

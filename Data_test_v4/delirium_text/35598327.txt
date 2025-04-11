@@ -1,0 +1,10 @@
+35598327|t|VIPPID: a gene-specific single nucleotide variant pathogenicity prediction tool for primary immunodeficiency diseases.
+35598327|a|Distinguishing pathogenic variants from non-pathogenic ones remains a major challenge in clinical genetic testing of primary immunodeficiency (PID) patients. Most of the existing mutation pathogenicity prediction tools treat all mutations as homogeneous entities, ignoring the differences in characteristics of different genes, and use the same model for genes in different diseases. In this study, we developed a single nucleotide variant (SNV) pathogenicity prediction tool, Variant Impact Predictor for PIDs (VIPPID; https://mylab.shinyapps.io/VIPPID/), which was tailored for PIDs genes and used a specific model for each of the most prevalent PID known genes. It employed a Conditional Inference Forest model and utilized information of 85 features of SNVs and scores from 20 existing prediction tools. Evaluation of VIPPID showed that it had superior performance (area under the curve = 0.91) over non-specific conventional tools. In addition, we also showed that the gene-specific model outperformed the non-gene-specific models. Our study demonstrated that disease-specific and gene-specific models can improve SNV pathogenicity prediction performance. This observation supports the notion that each feature of mutations in the model can be potentially used, in a new algorithm, to investigate the characteristics and function of the encoded proteins.
+35598327	84	117	primary immunodeficiency diseases	Disease	MESH:D000081207
+35598327	236	260	primary immunodeficiency	Disease	MESH:D000081207
+35598327	262	265	PID	Disease	MESH:D000081207
+35598327	267	275	patients	Species	9606
+35598327	625	629	PIDs	Disease	
+35598327	699	703	PIDs	Disease	
+35598327	767	770	PID	Disease	MESH:D000081207
+

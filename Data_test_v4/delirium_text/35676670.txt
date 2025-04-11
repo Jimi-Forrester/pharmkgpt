@@ -1,0 +1,47 @@
+35676670|t|Transcriptomic analysis reveals pathophysiological relationship between chronic obstructive pulmonary disease (COPD) and periodontitis.
+35676670|a|BACKGROUND: The aim of this study was to detect potential crosstalk genes, pathways and immune cells between periodontitis and chronic obstructive pulmonary disease (COPD). METHODS: Chronic periodontitis (CP, GSE156993) and COPD (GSE42057, GSE94916) datasets were downloaded. Differential expressed genes (DEGs; p < 0.05) were assessed and screened for overlapping results, following functional pathway enrichment analyses (p < 0.05). The xCell method was used to assess immune cell infiltration relationship between CP and COPD. Features of the detected cross-talk genes were revealed using conventional Recursive Feature Elimination (RFE) algorithm in R project. Receiver-operating characteristic curves were applied to evaluate the predictive value of the genes. Furthermore, Pearson correlation analysis was performed on crosstalk markers and infiltrating immune cells in CP and COPD, respectively. RESULTS: A total of 904 DEGs of COPD and 763 DEGs of CP were acquired, showing 22 overlapping DEGs between the two diseases. Thereby 825 nodes and 923 edges were found in the related protein-protein-interaction network. Eight immune cell pairs were found to be highly correlated to both CP and COPD ( correlation coefficients  > 0.5 and p-value < 0.05). Most immune cells were differently expressed between COPD and CP. RFE identified three crosstalk genes, i.e. EPB41L4A-AS1, INSR and R3HDM1. In correlation analysis, INSR was positively correlated with Hepatocytes in CP (r = 0.6714, p = 0.01679) and COPD (r = 0.5209, p < 0.001). R3HDM was positively correlated with Th1 cells in CP (r = 0.6783, p = 0.0153) and COPD (r = 0.4120, p < 0.01). CONCLUSION: EPB41L4A-AS1, INSR and R3HDM1 are potential crosstalk genes between COPD and periodontitis. R3HDM was positively correlated with Th1 cells in both diseases, while INSR was positively correlated with Hepatocytes in periodontitis and COPD, supporting a potential pathophysiological relationship between periodontitis and COPD.
+35676670	72	109	chronic obstructive pulmonary disease	Disease	MESH:D029424
+35676670	111	115	COPD	Disease	MESH:D029424
+35676670	121	134	periodontitis	Disease	MESH:D010518
+35676670	245	258	periodontitis	Disease	MESH:D010518
+35676670	263	300	chronic obstructive pulmonary disease	Disease	MESH:D029424
+35676670	302	306	COPD	Disease	MESH:D029424
+35676670	318	339	Chronic periodontitis	Disease	MESH:D055113
+35676670	341	343	CP	Disease	MESH:D055113
+35676670	360	364	COPD	Disease	MESH:D029424
+35676670	660	664	COPD	Disease	MESH:D029424
+35676670	1012	1014	CP	Disease	MESH:D055113
+35676670	1019	1023	COPD	Disease	MESH:D029424
+35676670	1071	1075	COPD	Disease	MESH:D029424
+35676670	1092	1094	CP	Disease	MESH:D055113
+35676670	1326	1328	CP	Disease	MESH:D055113
+35676670	1333	1337	COPD	Disease	MESH:D029424
+35676670	1446	1450	COPD	Disease	MESH:D029424
+35676670	1455	1457	CP	Disease	MESH:D055113
+35676670	1502	1510	EPB41L4A	Gene	64097
+35676670	1516	1520	INSR	Gene	3643
+35676670	1525	1531	R3HDM1	Gene	23518
+35676670	1558	1562	INSR	Gene	3643
+35676670	1609	1611	CP	Disease	MESH:D055113
+35676670	1642	1646	COPD	Disease	MESH:D029424
+35676670	1672	1677	R3HDM	Gene	23518
+35676670	1722	1724	CP	Disease	MESH:D055113
+35676670	1754	1758	COPD	Disease	MESH:D029424
+35676670	1795	1803	EPB41L4A	Gene	64097
+35676670	1809	1813	INSR	Gene	3643
+35676670	1818	1824	R3HDM1	Gene	23518
+35676670	1863	1867	COPD	Disease	MESH:D029424
+35676670	1872	1885	periodontitis	Disease	MESH:D010518
+35676670	1887	1892	R3HDM	Gene	23518
+35676670	1958	1962	INSR	Gene	3643
+35676670	2009	2022	periodontitis	Disease	MESH:D010518
+35676670	2027	2031	COPD	Disease	MESH:D029424
+35676670	2096	2109	periodontitis	Disease	MESH:D010518
+35676670	2114	2118	COPD	Disease	MESH:D029424
+35676670	Association	MESH:D010518	64097
+35676670	Association	MESH:D055113	3643
+35676670	Association	MESH:D010518	23518
+35676670	Association	MESH:D055113	23518
+35676670	Association	MESH:D029424	3643
+35676670	Association	MESH:D010518	3643
+

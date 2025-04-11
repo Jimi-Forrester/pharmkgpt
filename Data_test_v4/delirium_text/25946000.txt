@@ -1,0 +1,50 @@
+25946000|t|Drug repositioning for diabetes based on 'omics' data mining.
+25946000|a|Drug repositioning has shorter developmental time, lower cost and less safety risk than traditional drug development process. The current study aims to repurpose marketed drugs and clinical candidates for new indications in diabetes treatment by mining clinical 'omics' data. We analyzed data from genome wide association studies (GWAS), proteomics and metabolomics studies and revealed a total of 992 proteins as potential anti-diabetic targets in human. Information on the drugs that target these 992 proteins was retrieved from the Therapeutic Target Database (TTD) and 108 of these proteins are drug targets with drug projects information. Research and preclinical drug targets were excluded and 35 of the 108 proteins were selected as druggable proteins. Among them, five proteins were known targets for treating diabetes. Based on the pathogenesis knowledge gathered from the OMIM and PubMed databases, 12 protein targets of 58 drugs were found to have a new indication for treating diabetes. CMap (connectivity map) was used to compare the gene expression patterns of cells treated by these 58 drugs and that of cells treated by known anti-diabetic drugs or diabetes risk causing compounds. As a result, 9 drugs were found to have the potential to treat diabetes. Among the 9 drugs, 4 drugs (diflunisal, nabumetone, niflumic acid and valdecoxib) targeting COX2 (prostaglandin G/H synthase 2) were repurposed for treating type 1 diabetes, and 2 drugs (phenoxybenzamine and idazoxan) targeting ADRA2A (Alpha-2A adrenergic receptor) had a new indication for treating type 2 diabetes. These findings indicated that 'omics' data mining based drug repositioning is a potentially powerful tool to discover novel anti-diabetic indications from marketed drugs and clinical candidates. Furthermore, the results of our study could be related to other disorders, such as Alzheimer's disease. 
+25946000	23	31	diabetes	Disease	MESH:D003920
+25946000	286	294	diabetes	Disease	MESH:D003920
+25946000	491	499	diabetic	Disease	MESH:D003920
+25946000	511	516	human	Species	9606
+25946000	880	888	diabetes	Disease	MESH:D003920
+25946000	1051	1059	diabetes	Disease	MESH:D003920
+25946000	1209	1223	diabetic drugs	Disease	MESH:D003920
+25946000	1227	1235	diabetes	Disease	MESH:D003920
+25946000	1323	1331	diabetes	Disease	MESH:D003920
+25946000	1361	1371	diflunisal	Chemical	MESH:D004061
+25946000	1373	1383	nabumetone	Chemical	MESH:D000077430
+25946000	1385	1398	niflumic acid	Chemical	MESH:D009544
+25946000	1403	1413	valdecoxib	Chemical	MESH:C406224
+25946000	1425	1429	COX2	Gene	4513
+25946000	1431	1459	prostaglandin G/H synthase 2	Gene	5743
+25946000	1490	1505	type 1 diabetes	Disease	MESH:D003922
+25946000	1520	1536	phenoxybenzamine	Chemical	MESH:D010643
+25946000	1541	1549	idazoxan	Chemical	MESH:D019329
+25946000	1561	1567	ADRA2A	Gene	150
+25946000	1569	1597	Alpha-2A adrenergic receptor	Gene	150
+25946000	1633	1648	type 2 diabetes	Disease	MESH:D003924
+25946000	1779	1787	diabetic	Disease	MESH:D003920
+25946000	1928	1947	Alzheimer's disease	Disease	MESH:D000544
+25946000	Negative_Correlation	MESH:D000077430	MESH:D003920
+25946000	Negative_Correlation	MESH:D000077430	MESH:D003922
+25946000	Negative_Correlation	MESH:C406224	4513
+25946000	Negative_Correlation	MESH:C406224	5743
+25946000	Negative_Correlation	MESH:D004061	5743
+25946000	Negative_Correlation	MESH:D000077430	5743
+25946000	Negative_Correlation	MESH:D009544	4513
+25946000	Negative_Correlation	MESH:C406224	MESH:D003922
+25946000	Negative_Correlation	MESH:D004061	4513
+25946000	Negative_Correlation	MESH:D000077430	4513
+25946000	Negative_Correlation	MESH:D019329	150
+25946000	Association	MESH:D003922	5743
+25946000	Negative_Correlation	MESH:D009544	MESH:D003920
+25946000	Negative_Correlation	MESH:D010643	MESH:D003924
+25946000	Negative_Correlation	MESH:C406224	MESH:D003920
+25946000	Negative_Correlation	MESH:D004061	MESH:D003922
+25946000	Negative_Correlation	MESH:D010643	150
+25946000	Association	MESH:D003924	150
+25946000	Negative_Correlation	MESH:D019329	MESH:D003920
+25946000	Association	MESH:D003922	4513
+25946000	Negative_Correlation	MESH:D019329	MESH:D003924
+25946000	Negative_Correlation	MESH:D009544	5743
+25946000	Negative_Correlation	MESH:D009544	MESH:D003922
+25946000	Negative_Correlation	MESH:D004061	MESH:D003920
+

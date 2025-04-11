@@ -1,0 +1,15 @@
+34040149|t|NEBULA is a fast negative binomial mixed model for differential or co-expression analysis of large-scale multi-subject single-cell data.
+34040149|a|The increasing availability of single-cell data revolutionizes the understanding of biological mechanisms at cellular resolution. For differential expression analysis in multi-subject single-cell data, negative binomial mixed models account for both subject-level and cell-level overdispersions, but are computationally demanding. Here, we propose an efficient NEgative Binomial mixed model Using a Large-sample Approximation (NEBULA). The speed gain is achieved by analytically solving high-dimensional integrals instead of using the Laplace approximation. We demonstrate that NEBULA is orders of magnitude faster than existing tools and controls false-positive errors in marker gene identification and co-expression analysis. Using NEBULA in Alzheimer's disease cohort data sets, we found that the cell-level expression of APOE correlated with that of other genetic risk factors (including CLU, CST3, TREM2, C1q, and ITM2B) in a cell-type-specific pattern and an isoform-dependent manner in microglia. NEBULA opens up a new avenue for the broad application of mixed models to large-scale multi-subject single-cell data.
+34040149	881	900	Alzheimer's disease	Disease	MESH:D000544
+34040149	962	966	APOE	Gene	348
+34040149	1029	1032	CLU	Gene	1191
+34040149	1034	1038	CST3	Gene	1471
+34040149	1040	1045	TREM2	Gene	54209
+34040149	1047	1050	C1q	Gene	712
+34040149	1056	1061	ITM2B	Gene	9445
+34040149	Association	1471	348
+34040149	Association	348	54209
+34040149	Association	1191	348
+34040149	Association	348	9445
+34040149	Association	348	712
+

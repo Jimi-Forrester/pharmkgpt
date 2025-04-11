@@ -1,0 +1,18 @@
+37851028|t|A dual-clock-driven model of lymphatic muscle cell pacemaking to emulate knock-out of Ano1 or IP3R.
+37851028|a|Lymphatic system defects are involved in a wide range of diseases, including obesity, cardiovascular disease, and neurological disorders, such as Alzheimer's disease. Fluid return through the lymphatic vascular system is primarily provided by contractions of muscle cells in the walls of lymphatic vessels, which are in turn driven by electrochemical oscillations that cause rhythmic action potentials and associated surges in intracellular calcium ion concentration. There is an incomplete understanding of the mechanisms involved in these repeated events, restricting the development of pharmacological treatments for dysfunction. Previously, we proposed a model where autonomous oscillations in the membrane potential (M-clock) drove passive oscillations in the calcium concentration (C-clock). In this paper, to model more accurately what is known about the underlying physiology, we extend this model to the case where the M-clock and the C-clock oscillators are both active but coupled together, thus both driving the action potentials. This extension results from modifications to the model's description of the IP3 receptor, a key C-clock mechanism. The synchronised dual-driving clock behaviour enables the model to match IP3 receptor knock-out data, thus resolving an issue with previous models. We also use phase-plane analysis to explain the mechanisms of coupling of the dual clocks. The model has the potential to help determine mechanisms and find targets for pharmacological treatment of some causes of lymphoedema.
+37851028	86	90	Ano1	Gene	55107
+37851028	94	99	IP3R.	Gene	3710
+37851028	177	184	obesity	Disease	MESH:D009765
+37851028	186	208	cardiovascular disease	Disease	MESH:D002318
+37851028	214	236	neurological disorders	Disease	MESH:D009461
+37851028	246	265	Alzheimer's disease	Disease	MESH:D000544
+37851028	541	552	calcium ion	Chemical	-
+37851028	865	872	calcium	Chemical	MESH:D002118
+37851028	1219	1231	IP3 receptor	Gene	3710
+37851028	1331	1343	IP3 receptor	Gene	3710
+37851028	1619	1630	lymphoedema	Disease	
+37851028	Association	MESH:D000544	3710
+37851028	Association	MESH:D002318	3710
+37851028	Association	MESH:D009765	3710
+37851028	Association	MESH:D009461	3710
+

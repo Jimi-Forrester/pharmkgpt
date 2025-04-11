@@ -1,0 +1,17 @@
+36694130|t|Gene targeting in amyotrophic lateral sclerosis using causality-based feature selection and machine learning.
+36694130|a|BACKGROUND: Amyotrophic lateral sclerosis (ALS) is a rare progressive neurodegenerative disease that affects upper and lower motor neurons. As the molecular basis of the disease is still elusive, the development of high-throughput sequencing technologies, combined with data mining techniques and machine learning methods, could provide remarkable results in identifying pathogenetic mechanisms. High dimensionality is a major problem when applying machine learning techniques in biomedical data analysis, since a huge number of features is available for a limited number of samples. The aim of this study was to develop a methodology for training interpretable machine learning models in the classification of ALS and ALS-subtypes samples, using gene expression datasets. METHODS: We performed dimensionality reduction in gene expression data using a semi-automated preprocessing systematic gene selection procedure using Statistically Equivalent Signature (SES), a causality-based feature selection algorithm, followed by Boosted Regression Trees (XGBoost) and Random Forest to train the machine learning classifiers. The SHapley Additive exPlanations (SHAP values) were used for interpretation of the machine learning classifiers. The methodology was developed and tested using two distinct publicly available ALS RNA-seq datasets. We evaluated the performance of SES as a dimensionality reduction method against: (a) Least Absolute Shrinkage and Selection Operator (LASSO), and (b) Local Outlier Factor (LOF). RESULTS: The proposed methodology achieved 85.18% accuracy for the classification of cerebellum or frontal cortex samples as C9orf72-related familial ALS, sporadic ALS or healthy samples. Importantly, the genes identified as the most determinative have also been reported as disease-associated in ALS literature. When tested in the evaluation dataset, the methodology achieved 88.89% accuracy for the classification of sporadic ALS motor neuron samples. When LASSO was used as feature selection method instead of SES, the accuracy of the machine learning classifiers ranged from 74.07 to 96.30%, depending on tissue assessed, while LOF underperformed significantly (77.78% accuracy for the classification of pooled cerebellum and frontal cortex samples). CONCLUSIONS: Using SES, we addressed the challenge of high dimensionality in gene expression data analysis, and we trained accurate machine learning ALS classifiers, specific for the gene expression patterns of different disease subtypes and tissue samples, while identifying disease-associated genes.
+36694130	18	47	amyotrophic lateral sclerosis	Disease	MESH:D000690
+36694130	122	151	Amyotrophic lateral sclerosis	Disease	MESH:D000690
+36694130	153	156	ALS	Disease	MESH:D000690
+36694130	180	205	neurodegenerative disease	Disease	MESH:D019636
+36694130	821	824	ALS	Disease	MESH:D000690
+36694130	829	832	ALS	Disease	MESH:D000690
+36694130	1423	1426	ALS	Disease	MESH:D000690
+36694130	1749	1756	C9orf72	Gene	203228
+36694130	1774	1777	ALS	Disease	MESH:D000690
+36694130	1788	1791	ALS	Disease	MESH:D000690
+36694130	1921	1924	ALS	Disease	MESH:D000690
+36694130	2052	2055	ALS	Disease	MESH:D000690
+36694130	2528	2531	ALS	Disease	MESH:D000690
+36694130	Association	MESH:D000690	203228
+

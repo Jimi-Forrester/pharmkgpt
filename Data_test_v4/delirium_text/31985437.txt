@@ -1,0 +1,14 @@
+31985437|t|AIEpred: An Ensemble Predictive Model of Classifier Chain to Identify Anti-Inflammatory Peptides.
+31985437|a|Anti-inflammatory peptides (AIEs) have recently emerged as promising therapeutic agent for treatment of various inflammatory diseases, such as rheumatoid arthritis and Alzheimer's disease. Therefore, detecting the correlation between amino acid sequence and its anti-inflammatory property is of great importance for the discovery of new AIEs. To address this issue, we propose a novel prediction tool for accurate identification of peptides as anti-inflammatory epitopes or non anti-inflammatory epitopes. Most of all, we encode the original peptide sequence for better mining and exploring the information and patterns, based on the three feature representations as amino acid contact, position specific scoring matrix, physicochemical property. At the same time, we exploit several feature extraction models and utilize one feature selection model, in order to construct many base classifiers from various feature representations. More specifically, we develop an effective classification model, with which we can extract and learn a set of informative features from the ensemble classifier chain model with different group of base classifiers. Furthermore, in order to test the predictive power of our model, we conduct the comparative experiments on the leave-one-out cross-validation and the independent test. It shows that our novel predictor performs great accurate for identification of AIEs as well as existing outstanding prediction tools. Source codes are available at https://github.com/guofei-tju/Ensemble-classifier-chain-model.
+31985437	70	96	Anti-Inflammatory Peptides	Chemical	-
+31985437	98	124	Anti-inflammatory peptides	Chemical	-
+31985437	126	130	AIEs	Chemical	-
+31985437	210	231	inflammatory diseases	Disease	MESH:D007249
+31985437	241	261	rheumatoid arthritis	Disease	MESH:D001172
+31985437	266	285	Alzheimer's disease	Disease	MESH:D000544
+31985437	365	377	inflammatory	Disease	MESH:D007249
+31985437	435	439	AIEs	Chemical	-
+31985437	547	559	inflammatory	Disease	MESH:D007249
+31985437	581	593	inflammatory	Disease	MESH:D007249
+31985437	1493	1497	AIEs	Chemical	-
+

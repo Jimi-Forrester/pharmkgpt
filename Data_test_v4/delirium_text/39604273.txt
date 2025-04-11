@@ -1,0 +1,86 @@
+39604273|t|Investigating gene expression datasets of hippocampus tissue to discover Alzheimer's disease-associated molecular markers.
+39604273|a|BACKGROUND: Alzheimer's disease (AD) is an advancing neurodegenerative disorder distinguished by the formation of amyloid plaques and neurofibrillary tangles in the human brain. Nevertheless, the lack of peripheral biomarkers that can detect the development of AD remains a significant limitation. OBJECTIVE: The main aim of this work was to discover the molecular markers associated with AD. METHODS: We conducted a comprehensive microarray analysis of gene expression data from hippocampus tissue in AD patients and control samples using three microarray datasets (GSE1297, GSE28146, and GSE29378) collected from Gene Expression Omnibus (GEO). The datasets were pre-processed and normalized, revealing 346 significant genes, 103 of which were upregulated and 243 downregulated. The PPI network of significant genes was constructed to detect the top 50 hub genes, which were then further analyzed using Gene Ontology (GO) terms, Kyoto Encyclopedia of Genes and Genomes pathway (KEGG), and GSEA, revealing 47 key genes involved in AD-related pathways. These key genes were then subjected to feed forward loop (FFL) motif analysis for the prediction of transcriptional factors (TFs) and microRNAs (miRNAs) mediated gene regulatory networks. RESULTS: The interaction of AD-associated TFs HNF4A, SPI1, EGR1, STAT3, and MYC and miRNAs hsa-miR-155-5p and hsa-miR-16-5p in the transcriptional and post-transcriptional events of 3 upregulated and 10 downregulated genes: H2AFZ, MCM3, MYO1C, AXIN1, CCND1, ETS2, MYH9, RELA, RHEB, SOCS3, TBL1X, TBP, TXNIP, and YWHAZ, respectively, has been identified. The miRNA/TF-mediated three types of the FFL motifs, i.e., miRNA-FFL, TF-FFL, and composite-FFL, were constructed, and seven common genes among these FFL were identified: CCND1, MYH9, SOCS3, RHEB, MYO1C, TXNIP, AXIN1, and TXNIP. CONCLUSIONS: These findings may provide insights into the development of potential molecular markers for therapeutic management of AD.
+39604273	73	92	Alzheimer's disease	Disease	MESH:D000544
+39604273	135	154	Alzheimer's disease	Disease	MESH:D000544
+39604273	156	158	AD	Disease	MESH:D000544
+39604273	176	202	neurodegenerative disorder	Disease	MESH:D019636
+39604273	237	252	amyloid plaques	Disease	MESH:D058225
+39604273	257	280	neurofibrillary tangles	Disease	MESH:D055956
+39604273	288	293	human	Species	9606
+39604273	384	386	AD	Disease	MESH:D000544
+39604273	512	514	AD	Disease	MESH:D000544
+39604273	625	627	AD	Disease	MESH:D000544
+39604273	628	636	patients	Species	9606
+39604273	1154	1156	AD	Disease	MESH:D000544
+39604273	1391	1393	AD	Disease	MESH:D000544
+39604273	1409	1414	HNF4A	Gene	3172
+39604273	1416	1420	SPI1	Gene	6688
+39604273	1422	1426	EGR1	Gene	1958
+39604273	1428	1433	STAT3	Gene	6774
+39604273	1439	1442	MYC	Gene	4609
+39604273	1458	1465	miR-155	Gene	406947
+39604273	1477	1483	miR-16	Gene	51573
+39604273	1587	1592	H2AFZ	Gene	3015
+39604273	1594	1598	MCM3	Gene	4172
+39604273	1600	1605	MYO1C	Gene	4641
+39604273	1607	1612	AXIN1	Gene	8312
+39604273	1614	1619	CCND1	Gene	595
+39604273	1621	1625	ETS2	Gene	2114
+39604273	1627	1631	MYH9	Gene	4627
+39604273	1633	1637	RELA	Gene	5970
+39604273	1639	1643	RHEB	Gene	6009
+39604273	1645	1650	SOCS3	Gene	9021
+39604273	1652	1657	TBL1X	Gene	6907
+39604273	1659	1662	TBP	Gene	6908
+39604273	1664	1669	TXNIP	Gene	10628
+39604273	1675	1680	YWHAZ	Gene	7534
+39604273	1888	1893	CCND1	Gene	595
+39604273	1895	1899	MYH9	Gene	4627
+39604273	1901	1906	SOCS3	Gene	9021
+39604273	1908	1912	RHEB	Gene	6009
+39604273	1914	1919	MYO1C	Gene	4641
+39604273	1921	1926	TXNIP	Gene	10628
+39604273	1928	1933	AXIN1	Gene	8312
+39604273	1939	1944	TXNIP	Gene	10628
+39604273	2077	2079	AD	Disease	MESH:D000544
+39604273	Association	MESH:D000544	6688
+39604273	Association	51573	7534
+39604273	Association	10628	51573
+39604273	Association	MESH:D000544	6908
+39604273	Association	MESH:D000544	4641
+39604273	Association	406947	595
+39604273	Association	MESH:D000544	10628
+39604273	Association	MESH:D000544	51573
+39604273	Association	3172	8312
+39604273	Association	51573	6908
+39604273	Association	MESH:D000544	6009
+39604273	Association	51573	595
+39604273	Association	MESH:D000544	406947
+39604273	Association	51573	6009
+39604273	Association	MESH:D000544	5970
+39604273	Association	4641	51573
+39604273	Association	3015	51573
+39604273	Association	4627	51573
+39604273	Association	MESH:D000544	6907
+39604273	Association	MESH:D000544	4609
+39604273	Association	MESH:D000544	595
+39604273	Association	MESH:D000544	2114
+39604273	Association	51573	8312
+39604273	Association	MESH:D000544	1958
+39604273	Association	2114	51573
+39604273	Association	MESH:D000544	3015
+39604273	Association	MESH:D000544	4627
+39604273	Association	51573	5970
+39604273	Association	3172	595
+39604273	Association	MESH:D000544	9021
+39604273	Association	406947	8312
+39604273	Association	MESH:D000544	6774
+39604273	Association	4172	51573
+39604273	Association	MESH:D000544	3172
+39604273	Association	51573	9021
+39604273	Association	MESH:D000544	4172
+39604273	Association	51573	6907
+39604273	Association	MESH:D000544	8312
+39604273	Association	406947	4609
+39604273	Association	MESH:D000544	7534
+

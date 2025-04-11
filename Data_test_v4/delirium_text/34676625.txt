@@ -1,0 +1,12 @@
+34676625|t|A parallel attention-augmented bilinear network for early magnetic resonance imaging-based diagnosis of Alzheimer's disease.
+34676625|a|Structural magnetic resonance imaging (sMRI) can capture the spatial patterns of brain atrophy in Alzheimer's disease (AD) and incipient dementia. Recently, many sMRI-based deep learning methods have been developed for AD diagnosis. Some of these methods utilize neural networks to extract high-level representations on the basis of handcrafted features, while others attempt to learn useful features from brain regions proposed by a separate module. However, these methods require considerable manual engineering. Their stepwise training procedures would introduce cascading errors. Here, we propose the parallel attention-augmented bilinear network, a novel deep learning framework for AD diagnosis. Based on a 3D convolutional neural network, the framework directly learns both global and local features from sMRI scans without any prior knowledge. The framework is lightweight and suitable for end-to-end training. We evaluate the framework on two public datasets (ADNI-1 and ADNI-2) containing 1,340 subjects. On both the AD classification and mild cognitive impairment conversion prediction tasks, our framework achieves competitive results. Furthermore, we generate heat maps that highlight discriminative areas for visual interpretation. Experiments demonstrate the effectiveness of the proposed framework when medical priors are unavailable or the computing resources are limited. The proposed framework is general for 3D medical image analysis with both efficiency and interpretability.
+34676625	104	123	Alzheimer's disease	Disease	MESH:D000544
+34676625	206	219	brain atrophy	Disease	MESH:C566985
+34676625	223	242	Alzheimer's disease	Disease	MESH:D000544
+34676625	244	246	AD	Disease	MESH:D000544
+34676625	262	270	dementia	Disease	MESH:D003704
+34676625	344	346	AD	Disease	MESH:D000544
+34676625	813	815	AD	Disease	MESH:D000544
+34676625	1152	1154	AD	Disease	MESH:D000544
+34676625	1179	1199	cognitive impairment	Disease	MESH:D003072
+

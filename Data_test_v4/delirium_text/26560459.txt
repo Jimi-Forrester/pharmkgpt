@@ -1,0 +1,13 @@
+26560459|t|Epoch-based Entropy for Early Screening of Alzheimer's Disease.
+26560459|a|In this paper, we introduce a novel entropy measure, termed epoch-based entropy. This measure quantifies disorder of EEG signals both at the time level and spatial level, using local density estimation by a Hidden Markov Model on inter-channel stationary epochs. The investigation is led on a multi-centric EEG database recorded from patients at an early stage of Alzheimer's disease (AD) and age-matched healthy subjects. We investigate the classification performances of this method, its robustness to noise, and its sensitivity to sampling frequency and to variations of hyperparameters. The measure is compared to two alternative complexity measures, Shannon's entropy and correlation dimension. The classification accuracies for the discrimination of AD patients from healthy subjects were estimated using a linear classifier designed on a development dataset, and subsequently tested on an independent test set. Epoch-based entropy reached a classification accuracy of 83% on the test dataset (specificity = 83.3%, sensitivity = 82.3%), outperforming the two other complexity measures. Furthermore, it was shown to be more stable to hyperparameter variations, and less sensitive to noise and sampling frequency disturbances than the other two complexity measures. 
+26560459	0	5	Epoch	Chemical	MESH:C079446
+26560459	43	62	Alzheimer's Disease	Disease	MESH:D000544
+26560459	124	129	epoch	Chemical	MESH:C079446
+26560459	398	406	patients	Species	9606
+26560459	428	447	Alzheimer's disease	Disease	MESH:D000544
+26560459	449	451	AD	Disease	MESH:D000544
+26560459	820	822	AD	Disease	MESH:D000544
+26560459	823	831	patients	Species	9606
+26560459	982	987	Epoch	Chemical	MESH:C079446
+26560459	Association	MESH:C079446	MESH:D000544
+

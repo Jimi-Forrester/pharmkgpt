@@ -1,0 +1,16 @@
+32513106|t|An improved clear cell renal cell carcinoma stage prediction model based on gene sets.
+32513106|a|BACKGROUND: Clear cell renal cell carcinoma (ccRCC) is the most common subtype of renal cell carcinoma and accounts for cancer-related deaths. Survival rates are very low when the tumor is discovered in the late-stage. Thus, developing an efficient strategy to stratify patients by the stage of the cancer and inner mechanisms that drive the development and progression of cancers is critical in early prevention and treatment. RESULTS: In this study, we developed new strategies to extract important gene features and trained machine learning-based classifiers to predict stages of ccRCC samples. The novelty of our approach is that (i) We improved the feature preprocessing procedure by binning and coding, and increased the stability of data and robustness of the classification model. (ii) We proposed a joint gene selection algorithm by combining the Fast-Correlation-Based Filter (FCBF) search with the information value, the linear correlation coefficient, and variance inflation factor, and removed irrelevant/redundant features. Then the logistic regression-based feature selection method was used to determine influencing factors. (iii) Classification models were developed using machine learning algorithms. This method is evaluated on RNA expression value of clear cell renal cell carcinoma derived from The Cancer Genome Atlas (TCGA). The results showed that the result on the testing set (accuracy of 81.15% and AUC 0.86) outperformed state-of-the-art models (accuracy of 72.64% and AUC 0.81) and a gene set FJL-set was developed, which contained 23 genes, far less than 64. Furthermore, a gene function analysis was used to explore molecular mechanisms that might affect cancer development. CONCLUSIONS: The results suggested that our model can extract more prognostic information, and is worthy of further investigation and validation in order to understand the progression mechanism.
+32513106	12	43	clear cell renal cell carcinoma	Disease	MESH:D002292
+32513106	99	130	Clear cell renal cell carcinoma	Disease	MESH:D002292
+32513106	132	137	ccRCC	Disease	MESH:D002292
+32513106	169	189	renal cell carcinoma	Disease	MESH:D002292
+32513106	207	213	cancer	Disease	MESH:D009369
+32513106	267	272	tumor	Disease	MESH:D009369
+32513106	357	365	patients	Species	9606
+32513106	386	392	cancer	Disease	MESH:D009369
+32513106	460	467	cancers	Disease	MESH:D009369
+32513106	670	675	ccRCC	Disease	MESH:D002292
+32513106	1358	1389	clear cell renal cell carcinoma	Disease	MESH:D002292
+32513106	1407	1413	Cancer	Disease	MESH:D009369
+32513106	1773	1779	cancer	Disease	MESH:D009369
+

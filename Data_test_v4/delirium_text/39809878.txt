@@ -1,0 +1,15 @@
+39809878|t|Differentiation between multiple sclerosis and neuromyelitis optic spectrum disorders with multilevel fMRI features: A machine learning analysis.
+39809878|a|The conventional statistical approach for analyzing resting state functional MRI (rs-fMRI) data struggles to accurately distinguish between patients with multiple sclerosis (MS) and those with neuromyelitis optic spectrum disorders (NMOSD), highlighting the need for improved diagnostic efficacy. In this study, multilevel functional metrics including resting state functional connectivity, amplitude of low frequency fluctuation (ALFF), and regional homogeneity (ReHo) were calculated and extracted from 116 regions of interest in the anatomical automatic labeling atlas. Subsequently, classifiers were developed using different combinations of these selected features to distinguish between MS and NMOSD. Compared to models based on individual MRI features, support vector machine (SVM) and logistic regression (LR) models that integrated multilevel functional features such as RSFC, ALFF, and ReHo demonstrated the highest levels of performance on the testing cohorts (SVM, AUC = 0.857; LR, AUC = 0.929). Adding structural features of gray matter volume (GMV) data did not notably improve the classification performance of the machine learning models using multilevel rs-fMRI features. Notably, similar trends were observed across different brain templates, with models based on RSFC, ALFF, and ReHo yielding optimal performance. These findings suggest that utilizing multilevel fMRI features can effectively differentiate between MS and NMOSD patients.
+39809878	24	42	multiple sclerosis	Disease	MESH:D009103
+39809878	47	85	neuromyelitis optic spectrum disorders	Disease	MESH:D009471
+39809878	286	294	patients	Species	9606
+39809878	300	318	multiple sclerosis	Disease	MESH:D009103
+39809878	320	322	MS	Disease	MESH:D009103
+39809878	339	377	neuromyelitis optic spectrum disorders	Disease	MESH:D009471
+39809878	379	384	NMOSD	Disease	MESH:D009471
+39809878	839	841	MS	Disease	MESH:D009103
+39809878	846	851	NMOSD	Disease	MESH:D009471
+39809878	1580	1582	MS	Disease	MESH:D009103
+39809878	1587	1592	NMOSD	Disease	MESH:D009471
+39809878	1593	1601	patients	Species	9606
+

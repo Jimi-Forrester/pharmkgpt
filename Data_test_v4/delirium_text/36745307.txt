@@ -1,0 +1,25 @@
+36745307|t|Integrated use of ligand and structure-based virtual screening, molecular dynamics, free energy calculation and ADME prediction for the identification of potential PTP1B inhibitors.
+36745307|a|Protein tyrosine phosphatases (PTPs) are the group of enzymes that control both cellular activity and the dephosphorylation of tyrosine (Tyr)-phosphorylated proteins. Dysregulation of PTP1B has contributed to numerous diseases including Diabetes Mellitus, Alzheimer's disease, and obesity rendering PTP1B as a legitimate target for therapeutic applications. It is highly challenging to target this enzyme because of its highly conserved and positively charged active-site pocket motivating researchers to find novel lead compounds against it. The present work makes use of an integrated approach combining ligand-based and structure-based virtual screening to find hit compounds targeting PTP1B. Initially, pharmacophore modeling was performed to find common features like two hydrogen bond acceptors, an aromatic ring and one hydrogen bond donor from the potent PTP1B inhibitors. The dataset of compounds matching with the common pharmacophoric features was filtered to remove Pan-Assay Interference substructure and to match the Lipinski criteria. Then, compounds were further prioritized using molecular docking and top fifty compounds with good binding affinity were selected for absorption, distribution, metabolism, and excretion (ADME) predictions. The top five compounds with high solubility, absorption and permeability holding score of - 10 to - 9.3 kcal/mol along with Ertiprotafib were submitted to all-atom molecular dynamic (MD) studies. The MD studies and binding free energy calculations showed that compound M4, M5 and M8 were having better binding affinity for PTP1B enzyme with  Gtotal score of - 24.25, - 31.47 and - 33.81 kcal/mol respectively than other compounds indicating that compound M8 could be a suitable lead compound as PTP1B inhibitor.
+36745307	164	169	PTP1B	Gene	5770
+36745307	309	317	tyrosine	Chemical	MESH:D014443
+36745307	319	322	Tyr	Chemical	MESH:D014443
+36745307	366	371	PTP1B	Gene	5770
+36745307	419	436	Diabetes Mellitus	Disease	MESH:D003920
+36745307	438	457	Alzheimer's disease	Disease	MESH:D000544
+36745307	463	470	obesity	Disease	MESH:D009765
+36745307	481	486	PTP1B	Gene	5770
+36745307	871	877	PTP1B.	Gene	5770
+36745307	959	967	hydrogen	Chemical	MESH:D006859
+36745307	1009	1017	hydrogen	Chemical	MESH:D006859
+36745307	1045	1050	PTP1B	Gene	5770
+36745307	1562	1574	Ertiprotafib	Chemical	MESH:C498182
+36745307	1718	1720	M8	Chemical	MESH:C017233
+36745307	1761	1766	PTP1B	Gene	5770
+36745307	1893	1895	M8	Chemical	MESH:C017233
+36745307	1933	1938	PTP1B	Gene	5770
+36745307	Negative_Correlation	MESH:C017233	5770
+36745307	Association	MESH:D000544	5770
+36745307	Association	MESH:D009765	5770
+36745307	Negative_Correlation	MESH:D006859	5770
+36745307	Association	MESH:D003920	5770
+

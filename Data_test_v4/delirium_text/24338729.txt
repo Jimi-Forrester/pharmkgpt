@@ -1,0 +1,16 @@
+24338729|t|Identifying informative imaging biomarkers via tree structured sparse learning for AD diagnosis.
+24338729|a|Neuroimaging provides a powerful tool to characterize neurodegenerative progression and therapeutic efficacy in Alzheimer's disease (AD) and its prodromal stage-mild cognitive impairment (MCI). However, since the disease pathology might cause different patterns of structural degeneration, which is not pre-known, it is still a challenging problem to identify the relevant imaging markers for facilitating disease interpretation and classification. Recently, sparse learning methods have been investigated in neuroimaging studies for selecting the relevant imaging biomarkers and have achieved very promising results on disease classification. However, in the standard sparse learning method, the spatial structure is often ignored, although it is important for identifying the informative biomarkers. In this paper, a sparse learning method with tree-structured regularization is proposed to capture patterns of pathological degeneration from fine to coarse scale, for helping identify the informative imaging biomarkers to guide the disease classification and interpretation. Specifically, we first develop a new tree construction method based on the hierarchical agglomerative clustering of voxel-wise imaging features in the whole brain, by taking into account their spatial adjacency, feature similarity and discriminability. In this way, the complexity of all possible multi-scale spatial configurations of imaging features can be reduced to a single tree of nested regions. Second, we impose the tree-structured regularization on the sparse learning to capture the imaging structures, and then use them for selecting the most relevant biomarkers. Finally, we train a support vector machine (SVM) classifier with the selected features to make the classification. We have evaluated our proposed method by using the baseline MR images of 830 subjects from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database, which includes 198 AD patients, 167 progressive MCI (pMCI), 236 stable MCI (sMCI), and 229 normal controls (NC). Our experimental results show that our method can achieve accuracies of 90.2 %, 87.2 %, and 70.7 % for classifications of AD vs. NC, pMCI vs. NC, and pMCI vs. sMCI, respectively, demonstrating promising performance compared with other state-of-the-art methods.
+24338729	83	85	AD	Disease	MESH:D000544
+24338729	209	228	Alzheimer's disease	Disease	MESH:D000544
+24338729	230	232	AD	Disease	MESH:D000544
+24338729	263	283	cognitive impairment	Disease	MESH:D003072
+24338729	285	288	MCI	Disease	MESH:D060825
+24338729	1961	1980	Alzheimer's Disease	Disease	MESH:D000544
+24338729	2041	2043	AD	Disease	MESH:D000544
+24338729	2044	2052	patients	Species	9606
+24338729	2070	2073	MCI	Disease	MESH:D060825
+24338729	2093	2096	MCI	Disease	MESH:D060825
+24338729	2098	2102	sMCI	Disease	MESH:D060825
+24338729	2257	2259	AD	Disease	MESH:D000544
+24338729	2294	2298	sMCI	Disease	MESH:D060825
+

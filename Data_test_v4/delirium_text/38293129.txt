@@ -1,0 +1,24 @@
+38293129|t|High-content phenotypic analysis of a C. elegans recombinant inbred population identifies genetic and molecular regulators of lifespan.
+38293129|a|Lifespan is influenced by complex interactions between genetic and environmental factors. Studying those factors in model organisms of a single genetic background limits their translational value for humans. Here, we mapped lifespan determinants in 85 genetically diverse C. elegans recombinant intercross advanced inbred lines (RIAILs). We assessed molecular profiles - transcriptome, proteome, and lipidome - and life-history traits, including lifespan, development, growth dynamics, and reproduction. RIAILs exhibited large variations in lifespan, which positively correlated with developmental time. Among the top candidates obtained from multi-omics data integration and QTL mapping, we validated known and novel longevity modulators, including rict-1, gfm-1 and mltn-1. We translated their relevance to humans using UK Biobank data and showed that variants in RICTOR and GFM1 are associated with an elevated risk of age-related heart disease, dementia, diabetes, kidney, and liver diseases. We organized our dataset as a resource (https://lisp-lms.shinyapps.io/RIAILs/) that allows interactive explorations for new longevity targets.
+38293129	38	48	C. elegans	Species	328850
+38293129	336	342	humans	Species	9606
+38293129	408	418	C. elegans	Species	328850
+38293129	886	892	rict-1	Gene	3565035
+38293129	894	899	gfm-1	Gene	174956
+38293129	904	910	mltn-1	Gene	3565295
+38293129	945	951	humans	Species	9606
+38293129	1002	1008	RICTOR	Gene	253260
+38293129	1013	1017	GFM1	Gene	85476
+38293129	1058	1083	age-related heart disease	Disease	MESH:D006331
+38293129	1085	1093	dementia	Disease	MESH:D003704
+38293129	1095	1103	diabetes	Disease	MESH:D003920
+38293129	1105	1131	kidney, and liver diseases	Disease	MESH:D008107
+38293129	Association	MESH:D008107	85476
+38293129	Association	MESH:D003704	85476
+38293129	Association	MESH:D003920	253260
+38293129	Association	MESH:D008107	253260
+38293129	Association	MESH:D003704	253260
+38293129	Association	MESH:D003920	85476
+38293129	Association	MESH:D006331	85476
+38293129	Association	MESH:D006331	253260
+

@@ -1,0 +1,59 @@
+36157217|t|Integrated Bioinformatics Analysis for the Screening of Hub Genes and Therapeutic Drugs in Androgen Receptor-Positive TNBC.
+36157217|a|As the most invasive and lethal subtype of breast cancer (BC), triple-negative breast carcinoma (TNBC) is of increasing interest. However, the androgen receptor (AR) still has an unclear role in TNBC. The current study is aimed at testing the diagnostic and therapeutic performance of novel biomarkers for AR-positive TNBC. The GSE76124 dataset was analyzed by combining WGCNA and other bioinformatics methods. Subsequently, function enrichment analysis was applied to identify the relationships between these differential expression genes (DEGs). Subsequently, the protein-protein interaction network was established, and the hub genes were identified by Cytoscape software. Eventually, the miRNA-hub gene modulate network was developed and the Drug-Gene Interaction Database (DGIdb) was applied to verify the potential drugs for AR-positive TNBC. In the current research, 88 DEGs in total were selected from the intersection of the purple module genes identified by WGCNA and limma package. TFF1, FOXA1, ESR1, AGR2, TFF3, AGR3, GATA3, XBP1, SPDEF, and TOX3 were selected as hub genes by the MCC method, which were all upregulated. The survival analysis suggested that TFF1 was the only one related to significant lower survival rate in TNBC. Ultimately, hsa-miR-520g-3p and hsa-miR-520h were found taking part in the regulation of TFF1, and 2 small molecules were identified as the potential targets for AR-positive TNBC treatment. As a result, our study suggested that hsa-miR-520g-3p, hsa-miR-520h, and TFF1 might have significant potential values for AR-positive TNBC diagnosis and prognosis prediction. TFF1, hsa-miR-520g-3, and hsa-miR-520h may serve as the novel therapeutic targets, and our findings offer further insights into the therapy of AR-positive TNBC.
+36157217	56	59	Hub	Gene	1993
+36157217	91	108	Androgen Receptor	Gene	367
+36157217	118	122	TNBC	Disease	MESH:D064726
+36157217	167	180	breast cancer	Disease	MESH:D001943
+36157217	182	184	BC	Disease	MESH:D001943
+36157217	187	219	triple-negative breast carcinoma	Disease	MESH:D064726
+36157217	221	225	TNBC	Disease	MESH:D064726
+36157217	267	284	androgen receptor	Gene	367
+36157217	286	288	AR	Gene	367
+36157217	319	323	TNBC	Disease	MESH:D064726
+36157217	430	432	AR	Gene	367
+36157217	442	446	TNBC	Disease	MESH:D064726
+36157217	751	754	hub	Gene	1993
+36157217	822	825	hub	Gene	1993
+36157217	955	957	AR	Gene	367
+36157217	967	971	TNBC	Disease	MESH:D064726
+36157217	1117	1121	TFF1	Gene	7031
+36157217	1123	1128	FOXA1	Gene	3169
+36157217	1130	1134	ESR1	Gene	2099
+36157217	1136	1140	AGR2	Gene	10551
+36157217	1142	1146	TFF3	Gene	7033
+36157217	1148	1152	AGR3	Gene	155465
+36157217	1154	1159	GATA3	Gene	2625
+36157217	1161	1165	XBP1	Gene	7494
+36157217	1167	1172	SPDEF	Gene	25803
+36157217	1178	1182	TOX3	Gene	27324
+36157217	1200	1203	hub	Gene	1993
+36157217	1294	1298	TFF1	Gene	7031
+36157217	1362	1366	TNBC	Disease	MESH:D064726
+36157217	1400	1412	hsa-miR-520h	Gene	574493
+36157217	1457	1461	TFF1	Gene	7031
+36157217	1530	1532	AR	Gene	367
+36157217	1542	1546	TNBC	Disease	MESH:D064726
+36157217	1613	1625	hsa-miR-520h	Gene	574493
+36157217	1631	1635	TFF1	Gene	7031
+36157217	1680	1682	AR	Gene	367
+36157217	1692	1696	TNBC	Disease	MESH:D064726
+36157217	1733	1737	TFF1	Gene	7031
+36157217	1759	1771	hsa-miR-520h	Gene	574493
+36157217	1876	1878	AR	Gene	367
+36157217	1888	1892	TNBC	Disease	MESH:D064726
+36157217	Association	MESH:D064726	7033
+36157217	Association	MESH:D064726	7031
+36157217	Association	MESH:D064726	7494
+36157217	Association	MESH:D064726	2625
+36157217	Association	367	574493
+36157217	Association	MESH:D064726	367
+36157217	Association	MESH:D064726	155465
+36157217	Association	MESH:D064726	574493
+36157217	Association	MESH:D064726	3169
+36157217	Association	367	7031
+36157217	Association	MESH:D064726	10551
+36157217	Association	MESH:D064726	1993
+36157217	Association	MESH:D064726	2099
+36157217	Association	MESH:D064726	27324
+36157217	Association	574493	7031
+

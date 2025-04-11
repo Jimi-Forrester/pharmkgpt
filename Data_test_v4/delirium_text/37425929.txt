@@ -1,0 +1,28 @@
+37425929|t|Genetically-regulated pathway-polygenic risk score (GRPa-PRS): A risk stratification method to identify genetically regulated pathways in polygenic diseases.
+37425929|a|Background: Alzheimer's disease (AD) is a common neurodegenerative disease in the elderly population, with genetic factors playing an important role. A considerable proportion of elderly people carry a high genetic AD risk but evade AD. On the other hand, some individuals with a low risk for AD eventually develop AD. We hypothesized that unknown counterfactors might be involved in reversing the polygenic risk scores (PRS) prediction, which might provide insights into AD pathogenesis, prevention, and early clinical intervention. Methods: We built a novel computational framework to identify genetically-regulated pathways (GRPa) using PRS-based stratification for each cohort. We curated two AD cohorts with genotyping data; the discovery and the replication dataset include 2722 and 2492 individuals, respectively. First, we calculated the optimized PRS model based on the three latest AD GWAS summary statistics for each cohort. Then, we sub-grouped the individuals by their PRS and clinical diagnosis into groups such as cognitively normal (CN) with high PRS for AD (resilient group), AD cases with low PRS (susceptible group), and AD/CNs participants with similar PRS backgrounds. Lastly, we imputed the individual genetically-regulated expression (GReX) and identified the differential GRPas between subgroups with gene-set enrichment analysis and gene-set variational analysis in 2 models with and without the effect of APOE . Results: For each subgroup, we conducted the same procedures in both the discovery and replication datasets across three PRS models for comparison. In Model 1 with the APOE region, we identified well-known AD-related pathways, including amyloid-beta clearance, tau protein binding, and astrocytes response to oxidative stress. In Model 2 without the APOE region, synapse function, microglia function, histidine metabolism, and thiolester hydrolase activity were significant, suggesting that they are pathways independent of the effect of APOE . Finally, our GRPa-PRS method reduces the false discovery rate in detecting differential pathways compared to another variants-based pathway PRS method. Conclusions: We developed a framework, GRPa-PRS , to systematically explore the differential GRPas among individuals stratified by their estimated PRS. The GReX-level comparison among those groups unveiled new insights into the pathways associated with AD risk and resilience. Our framework can be extended to other polygenic complex diseases.
+37425929	170	189	Alzheimer's disease	Disease	MESH:D000544
+37425929	191	193	AD	Disease	MESH:D000544
+37425929	207	232	neurodegenerative disease	Disease	MESH:D019636
+37425929	373	375	AD	Disease	MESH:D000544
+37425929	391	393	AD	Disease	MESH:D000544
+37425929	451	453	AD	Disease	MESH:D000544
+37425929	473	475	AD	Disease	MESH:D000544
+37425929	630	632	AD	Disease	MESH:D000544
+37425929	855	857	AD	Disease	MESH:D000544
+37425929	1050	1052	AD	Disease	MESH:D000544
+37425929	1229	1231	AD	Disease	MESH:D000544
+37425929	1251	1253	AD	Disease	MESH:D000544
+37425929	1298	1300	AD	Disease	MESH:D000544
+37425929	1589	1593	APOE	Gene	348
+37425929	1764	1768	APOE	Gene	348
+37425929	1802	1804	AD	Disease	MESH:D000544
+37425929	1833	1845	amyloid-beta	Gene	351
+37425929	1857	1860	tau	Gene	4137
+37425929	1946	1950	APOE	Gene	348
+37425929	1997	2006	histidine	Chemical	MESH:D006639
+37425929	2023	2033	thiolester	Chemical	-
+37425929	2134	2138	APOE	Gene	348
+37425929	2546	2548	AD	Disease	MESH:D000544
+37425929	Association	348	4137
+37425929	Association	348	351
+

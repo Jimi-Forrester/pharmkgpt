@@ -1,0 +1,12 @@
+33842932|t|A Bayesian Disease Progression Model for Clinical Trajectories.
+33842932|a|In this work, we consider the problem of predicting the course of a progressive disease, such as cancer or Alzheimer's. Progressive diseases often start with mild symptoms that might precede a diagnosis, and each patient follows their own trajectory. Patient trajectories exhibit wild variability, which can be associated with many factors such as geno-type, age, or sex. An additional layer of complexity is that, in real life, the amount and type of data available for each patient can differ significantly. For example, for one patient we might have no prior history, whereas for another patient we might have detailed clinical assessments obtained at multiple prior time-points. This paper presents a probabilistic model that can handle multiple modalities (including images and clinical assessments) and variable patient histories with irregular timings and missing entries, to predict clinical scores at future time-points. We use a sigmoidal function to model latent disease progression, which gives rise to clinical observations in our generative model. We implemented an approximate Bayesian inference strategy on the proposed model to estimate the parameters on data from a large population of subjects. Furthermore, the Bayesian framework enables the model to automatically fine-tune its predictions based on historical observations that might be available on the test subject. We applied our method to a longitudinal Alzheimer's disease dataset with more than 3,000 subjects [1] with comparisons against several benchmarks.
+33842932	161	167	cancer	Disease	MESH:D009369
+33842932	171	182	Alzheimer's	Disease	MESH:D000544
+33842932	277	284	patient	Species	9606
+33842932	315	322	Patient	Species	9606
+33842932	540	547	patient	Species	9606
+33842932	595	602	patient	Species	9606
+33842932	655	662	patient	Species	9606
+33842932	882	889	patient	Species	9606
+33842932	1493	1512	Alzheimer's disease	Disease	MESH:D000544
+

@@ -1,0 +1,74 @@
+39755103|t|Hederagenin ameliorates ferroptosis-induced damage by regulating PPARalpha/Nrf2/GPX4 signaling pathway in HT22 cells: An in vitro and in silico study.
+39755103|a|BACKGROUND: Hederagenin (HG), derived from ivy seeds, is known to offer protection against Alzheimer's disease (AD). However, the specific molecular pathways through which it counters ferroptosis-induced neurotoxicity are not fully elucidated. This investigation seeks to delineate the processes by which HG mitigates neurotoxic effects in HT22 cells subjected to glutamate (Glu)-induced ferroptosis. METHODS: HT22 cell ferroptosis was prompted by Glu exposure. Cell viability was assessed using CCK-8 and LDH assays, while Fe2+ fluorescence and assays of iron-related proteins served to gauge intracellular Fe2+ concentrations. Evaluations of mitochondrial structure and functionality employed JC-1 staining and transmission electron microscopy. Assessments of ROS, lipid peroxidation, MDA, 4-HNE, and the GSSG/GSH ratio were conducted to ascertain HG's antioxidative efficacy. The expression of proteins within the PPARalpha/Nrf2/GPX4 pathway was quantified via western blotting, with molecular docking (MD), and molecular dynamics simulations (MDS) used to explore protein interactions. RESULTS: HG diminished the cellular toxicity triggered by Glu in HT22 cells, lowered Fe2+ within cells, and rejuvenated mitochondrial morphology and performance. Concurrently, it modulated proteins critical to Fe2+ metabolism, diminished ROS and lipid peroxidation, and elevated GSH/GSSG ratios. Enhanced PPARalpha/Nrf2/GPX4 protein levels were corroborated by western blot results. Furthermore, molecular docking revealed favorable binding of HG to the proteins PPARalpha, Nrf2, and GPX4, with binding energies of -7.751, -7.535, and -7.414 kcal/mol, respectively. MDS confirmed robust interactions between HG and these pivotal targets. CONCLUSION: The evidence suggests that HG effectively mitigates Glu-induced ferroptosis in HT22 cells by activating the PPARalpha/Nrf2/GPX4 signaling pathway. These findings endorse HG's potential as a nutritional adjunct for AD management.
+39755103	0	11	Hederagenin	Chemical	MESH:C025763
+39755103	65	74	PPARalpha	Gene	19013
+39755103	75	79	Nrf2	Gene	18024
+39755103	80	84	GPX4	Gene	625249
+39755103	106	110	HT22	CellLine	CVCL:0321
+39755103	163	174	Hederagenin	Chemical	MESH:C025763
+39755103	176	178	HG	Chemical	MESH:C025763
+39755103	242	261	Alzheimer's disease	Disease	MESH:D000544
+39755103	263	265	AD	Disease	MESH:D000544
+39755103	355	368	neurotoxicity	Disease	MESH:D020258
+39755103	456	458	HG	Chemical	MESH:C025763
+39755103	469	479	neurotoxic	Disease	MESH:D020258
+39755103	491	495	HT22	CellLine	CVCL:0321
+39755103	515	524	glutamate	Chemical	MESH:D018698
+39755103	526	529	Glu	Chemical	MESH:D018698
+39755103	561	565	HT22	CellLine	CVCL:0321
+39755103	599	602	Glu	Chemical	MESH:D018698
+39755103	647	652	CCK-8	Chemical	MESH:D012844
+39755103	675	679	Fe2+	Chemical	-
+39755103	707	711	iron	Chemical	MESH:D007501
+39755103	759	763	Fe2+	Chemical	-
+39755103	846	850	JC-1	Chemical	MESH:C068624
+39755103	913	916	ROS	Chemical	-
+39755103	918	923	lipid	Chemical	MESH:D008055
+39755103	938	941	MDA	Chemical	MESH:D015104
+39755103	943	948	4-HNE	Chemical	-
+39755103	958	962	GSSG	Chemical	MESH:D019803
+39755103	963	966	GSH	Chemical	MESH:D005978
+39755103	1001	1003	HG	Chemical	MESH:C025763
+39755103	1068	1077	PPARalpha	Gene	19013
+39755103	1078	1082	Nrf2	Gene	18024
+39755103	1083	1087	GPX4	Gene	625249
+39755103	1250	1252	HG	Chemical	MESH:C025763
+39755103	1277	1285	toxicity	Disease	MESH:D064420
+39755103	1299	1302	Glu	Chemical	MESH:D018698
+39755103	1306	1310	HT22	CellLine	CVCL:0321
+39755103	1326	1330	Fe2+	Chemical	-
+39755103	1451	1455	Fe2+	Chemical	-
+39755103	1479	1482	ROS	Chemical	-
+39755103	1487	1492	lipid	Chemical	MESH:D008055
+39755103	1520	1523	GSH	Chemical	MESH:D005978
+39755103	1524	1528	GSSG	Chemical	MESH:D019803
+39755103	1546	1555	PPARalpha	Gene	19013
+39755103	1556	1560	Nrf2	Gene	18024
+39755103	1561	1565	GPX4	Gene	625249
+39755103	1685	1687	HG	Chemical	MESH:C025763
+39755103	1704	1713	PPARalpha	Gene	19013
+39755103	1715	1719	Nrf2	Gene	18024
+39755103	1725	1729	GPX4	Gene	625249
+39755103	1849	1851	HG	Chemical	MESH:C025763
+39755103	1918	1920	HG	Chemical	MESH:C025763
+39755103	1943	1946	Glu	Chemical	MESH:D018698
+39755103	1970	1974	HT22	CellLine	CVCL:0321
+39755103	1999	2008	PPARalpha	Gene	19013
+39755103	2009	2013	Nrf2	Gene	18024
+39755103	2014	2018	GPX4	Gene	625249
+39755103	2061	2063	HG	Chemical	MESH:C025763
+39755103	2105	2107	AD	Disease	MESH:D000544
+39755103	Positive_Correlation	MESH:C025763	MESH:D019803
+39755103	Negative_Correlation	MESH:C025763	MESH:D000544
+39755103	Positive_Correlation	MESH:C025763	18024
+39755103	Positive_Correlation	19013	625249
+39755103	Negative_Correlation	MESH:C025763	MESH:D018698
+39755103	Association	MESH:D018698	19013
+39755103	Negative_Correlation	MESH:C025763	MESH:D020258
+39755103	Association	MESH:D018698	625249
+39755103	Positive_Correlation	MESH:C025763	MESH:D005978
+39755103	Positive_Correlation	MESH:C025763	625249
+39755103	Negative_Correlation	MESH:C025763	MESH:D008055
+39755103	Positive_Correlation	MESH:C025763	19013
+39755103	Association	MESH:D018698	18024
+

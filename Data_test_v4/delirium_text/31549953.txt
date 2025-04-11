@@ -1,0 +1,19 @@
+31549953|t|Identifying Alzheimer's Disease-related miRNA Based on Semi-clustering.
+31549953|a|BACKGROUND: More and more scholars are trying to use it as a specific biomarker for Alzheimer's Disease (AD) and mild cognitive impairment (MCI). Multiple studies have indicated that miRNAs are associated with poor axonal growth and loss of synaptic structures, both of which are early events in AD. The overall loss of miRNA may be associated with aging, increasing the incidence of AD, and may also be involved in the disease through some specific molecular mechanisms. OBJECTIVE: Identifying Alzheimer's disease-related miRNA can help us find new drug targets, early diagnosis. MATERIALS AND METHODS: We used genes as a bridge to connect AD and miRNAs. Firstly, proteinprotein interaction network is used to find more AD-related genes by known AD-related genes. Then, each miRNA's correlation with these genes is obtained by miRNA-gene interaction. Finally, each miRNA could get a feature vector representing its correlation with AD. Unlike other studies, we do not generate negative samples randomly with using classification method to identify AD-related miRNAs. Here we use a semi-clustering method 'one-class SVM'. AD-related miRNAs are considered as outliers and our aim is to identify the miRNAs that are similar to known AD-related miRNAs (outliers). RESULTS AND CONCLUSION: We identified 257 novel AD-related miRNAs and compare our method with SVM which is applied by generating negative samples. The AUC of our method is much higher than SVM and we did case studies to prove that our results are reliable.
+31549953	12	31	Alzheimer's Disease	Disease	MESH:D000544
+31549953	156	175	Alzheimer's Disease	Disease	MESH:D000544
+31549953	177	179	AD	Disease	MESH:D000544
+31549953	190	210	cognitive impairment	Disease	MESH:D003072
+31549953	212	215	MCI	Disease	MESH:D060825
+31549953	368	370	AD	Disease	MESH:D000544
+31549953	456	458	AD	Disease	MESH:D000544
+31549953	567	586	Alzheimer's disease	Disease	MESH:D000544
+31549953	713	715	AD	Disease	MESH:D000544
+31549953	793	795	AD	Disease	MESH:D000544
+31549953	819	821	AD	Disease	MESH:D000544
+31549953	1005	1007	AD	Disease	MESH:D000544
+31549953	1121	1123	AD	Disease	MESH:D000544
+31549953	1194	1196	AD	Disease	MESH:D000544
+31549953	1303	1305	AD	Disease	MESH:D000544
+31549953	1381	1383	AD	Disease	MESH:D000544
+

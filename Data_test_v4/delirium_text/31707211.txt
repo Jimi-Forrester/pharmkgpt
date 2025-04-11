@@ -1,0 +1,48 @@
+31707211|t|Alpha7 nicotinic acetylcholine receptors and neural network synaptic transmission in human induced pluripotent stem cell-derived neurons.
+31707211|a|The alpha7 nicotinic acetylcholine receptor has been extensively researched as a target for treatment of cognitive impairment in Alzheimer's disease and schizophrenia. Investigation of the alpha7 receptor is commonly performed in animals but it is critical to increase the biologically relevance of the model systems to fully capture the physiological role of the alpha7 receptor in humans. For example most humans, in contrast to animals, express the hybrid gene CHRFAM7A, the product of which modulates alpha7 receptor activity. In the present study, we used human induced pluripotent stem cell (hiPSC) derived neurons to establish a humanized alpha7 model. We established a cryobank of neural stem cells (NSCs) that could reproducibly be matured into neurons expressing neuronal markers and CHRNA7 and CHRFAM7A. The neurons responded to NMDA, GABA, and acetylcholine and exhibited synchronized spontaneous calcium oscillations. Gene expression studies and application of a range of alpha7 positive allosteric modulators (PNU-120595, TQS, JNJ-39393406 and AF58801) together with the alpha7 agonist PNU-282987 during measurement of intracellular calcium levels demonstrated the presence of functional alpha7 receptors in matured hiPSC-derived neuronal cultures. Pharmacological alpha7 activation also resulted in intracellular signaling as measured by ERK 1/2 phosphorylation and c-Fos protein expression. Moreover, PNU-120596 increased the frequency of the spontaneous calcium oscillations demonstrating implication of alpha7 receptors in human synaptic networks activity. Overall, we show that hiPSC derived neurons are an advanced in vitro model for studying human alpha7 receptor pharmacology and the involvement of this receptor in cellular processes as intracellular signaling and synaptic transmission.
+31707211	85	90	human	Species	9606
+31707211	142	181	alpha7 nicotinic acetylcholine receptor	Gene	1139
+31707211	243	263	cognitive impairment	Disease	MESH:D003072
+31707211	267	286	Alzheimer's disease	Disease	MESH:D000544
+31707211	291	304	schizophrenia	Disease	MESH:D012559
+31707211	521	527	humans	Species	9606
+31707211	546	552	humans	Species	9606
+31707211	602	610	CHRFAM7A	Gene	89832
+31707211	699	704	human	Species	9606
+31707211	784	790	alpha7	Gene	28885
+31707211	932	938	CHRNA7	Gene	1139
+31707211	943	952	CHRFAM7A.	Gene	89832
+31707211	978	982	NMDA	Chemical	MESH:D016202
+31707211	984	988	GABA	Chemical	MESH:D005680
+31707211	994	1007	acetylcholine	Chemical	MESH:D000109
+31707211	1047	1054	calcium	Chemical	MESH:D002118
+31707211	1123	1129	alpha7	Gene	28885
+31707211	1162	1172	PNU-120595	Chemical	-
+31707211	1174	1177	TQS	Chemical	MESH:C061730
+31707211	1179	1191	JNJ-39393406	Chemical	MESH:C000630150
+31707211	1196	1203	AF58801	Chemical	-
+31707211	1223	1229	alpha7	Gene	28885
+31707211	1238	1248	PNU-282987	Chemical	MESH:C498513
+31707211	1285	1292	calcium	Chemical	MESH:D002118
+31707211	1417	1423	alpha7	Gene	28885
+31707211	1491	1498	ERK 1/2	Gene	5595;5594
+31707211	1519	1524	c-Fos	Gene	2353
+31707211	1555	1565	PNU-120596	Chemical	MESH:C508388
+31707211	1609	1616	calcium	Chemical	MESH:D002118
+31707211	1679	1684	human	Species	9606
+31707211	1801	1806	human	Species	9606
+31707211	Positive_Correlation	MESH:C498513	28885
+31707211	Association	MESH:D000109	89832
+31707211	Positive_Correlation	28885	5594
+31707211	Association	MESH:D000544	1139
+31707211	Association	MESH:C061730	28885
+31707211	Association	MESH:D016202	89832
+31707211	Positive_Correlation	28885	5595
+31707211	Association	MESH:D003072	1139
+31707211	Association	MESH:C000630150	28885
+31707211	Positive_Correlation	2353	28885
+31707211	Association	MESH:D005680	89832
+31707211	Association	MESH:D002118	89832
+31707211	Association	MESH:D012559	1139
+31707211	Association	MESH:C498513	MESH:D002118
+

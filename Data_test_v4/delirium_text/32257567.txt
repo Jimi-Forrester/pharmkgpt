@@ -1,0 +1,38 @@
+32257567|t|SNI case of the week: Initial concomitant use of gabapentin, clonidine, and prednisone may enhance suicidal ideation: A case report.
+32257567|a|BACKGROUND: Suicide cases are the end product of a combination of biological, clinical, psychological, social, and cultural risk/protective factors, and attempts to remain unpredictable. CASE DESCRIPTION: A 43-year-old male presented to the hospital with jaundiced skin/eyes of 7 days' duration. He had a history of a major depressive disorder and chronic alcohol consumption (e.g., 3-5 alcoholic drinks/day for the past 15 years). Studies documented acute hepatic disease (e.g., biopsy-documented hepatocellular alcoholic hepatitis), accompanied by a cholestatic disease. The patient was discharged on clonidine, iron multivitamin, folic acid, gabapentin, and prednisone. Eight days postdischarge from the hospital, he committed suicide (e.g., self- inflicted gunshot wound to the head). CONCLUSION: Concomitant administration of gabapentin, prednisone, and clonidine, especially if used for the first time, may play a synergistic effect in increasing a patient's suicide risk.
+32257567	0	3	SNI	Disease	
+32257567	49	59	gabapentin	Chemical	MESH:D000077206
+32257567	61	70	clonidine	Chemical	MESH:D003000
+32257567	76	86	prednisone	Chemical	MESH:D011241
+32257567	108	116	ideation	Disease	MESH:D001072
+32257567	145	152	Suicide	Disease	
+32257567	388	407	jaundiced skin/eyes	Disease	MESH:D007565
+32257567	457	476	depressive disorder	Disease	MESH:D003866
+32257567	489	496	alcohol	Chemical	MESH:D000438
+32257567	590	605	hepatic disease	Disease	MESH:D056486
+32257567	646	665	alcoholic hepatitis	Disease	MESH:D006519
+32257567	685	704	cholestatic disease	Disease	MESH:D002779
+32257567	710	717	patient	Species	9606
+32257567	736	745	clonidine	Chemical	MESH:D003000
+32257567	747	751	iron	Chemical	MESH:D007501
+32257567	766	776	folic acid	Chemical	MESH:D005492
+32257567	778	788	gabapentin	Chemical	MESH:D000077206
+32257567	794	804	prednisone	Chemical	MESH:D011241
+32257567	863	870	suicide	Disease	
+32257567	964	974	gabapentin	Chemical	MESH:D000077206
+32257567	976	986	prednisone	Chemical	MESH:D011241
+32257567	992	1001	clonidine	Chemical	MESH:D003000
+32257567	1088	1095	patient	Species	9606
+32257567	1098	1105	suicide	Disease	
+32257567	Negative_Correlation	MESH:D011241	MESH:D007565
+32257567	Positive_Correlation	MESH:D003000	MESH:D001072
+32257567	Cotreatment	MESH:D000077206	MESH:D011241
+32257567	Negative_Correlation	MESH:D000077206	MESH:D007565
+32257567	Positive_Correlation	MESH:D000438	MESH:D007565
+32257567	Positive_Correlation	MESH:D011241	MESH:D001072
+32257567	Positive_Correlation	MESH:D000077206	MESH:D001072
+32257567	Cotreatment	MESH:D000077206	MESH:D003000
+32257567	Cotreatment	MESH:D003000	MESH:D011241
+32257567	Positive_Correlation	MESH:D000438	MESH:D003866
+32257567	Negative_Correlation	MESH:D011241	MESH:D002779
+

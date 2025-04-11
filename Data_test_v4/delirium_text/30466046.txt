@@ -1,0 +1,27 @@
+30466046|t|Intrinsic-overlapping co-expression module detection with application to Alzheimer's Disease.
+30466046|a|Genes interact with each other and may cause perturbation in the molecular pathways leading to complex diseases. Often, instead of any single gene, a subset of genes interact, forming a network, to share common biological functions. Such a subnetwork is called a functional module or motif. Identifying such modules and central key genes in them, that may be responsible for a disease, may help design patient-specific drugs. In this study, we consider the neurodegenerative Alzheimer's Disease (AD) and identify potentially responsible genes from functional motif analysis. We start from the hypothesis that central genes in genetic modules are more relevant to a disease that is under investigation and identify hub genes from the modules as potential marker genes. Motifs or modules are often non-exclusive or overlapping in nature. Moreover, they sometimes show intrinsic or hierarchical distributions with overlapping functional roles. To the best of our knowledge, no prior work handles both the situations in an integrated way. We propose a non-exclusive clustering approach, CluViaN (Clustering Via Network) that can detect intrinsic as well as overlapping modules from gene co-expression networks constructed using microarray expression profiles. We compare our method with existing methods to evaluate the quality of modules extracted. CluViaN reports the presence of intrinsic and overlapping motifs in different species not reported by any other research. We further apply our method to extract significant AD specific modules using CluViaN and rank them based the number of genes from a module involved in the disease pathways. Finally, top central genes are identified by topological analysis of the modules. We use two different AD phenotype data for experimentation. We observe that central genes, namely PSEN1, APP, NDUFB2, NDUFA1, UQCR10, PPP3R1 and a few more, play significant roles in the AD. Interestingly, our experiments also find a hub gene, PML, which has recently been reported to play a role in plasticity, circadian rhythms and the response to proteins which can cause neurodegenerative disorders. MUC4, another hub gene that we find experimentally is yet to be investigated for its potential role in AD. A software implementation of CluViaN in Java is available for download at https://sites.google.com/site/swarupnehu/publications/resources/CluViaN Software.rar.
+30466046	73	92	Alzheimer's Disease	Disease	MESH:D000544
+30466046	496	503	patient	Species	9606
+30466046	551	568	neurodegenerative	Disease	MESH:D019636
+30466046	569	588	Alzheimer's Disease	Disease	MESH:D000544
+30466046	590	592	AD	Disease	MESH:D000544
+30466046	1613	1615	AD	Disease	MESH:D000544
+30466046	1838	1840	AD	Disease	MESH:D000544
+30466046	1915	1920	PSEN1	Gene	5663
+30466046	1927	1933	NDUFB2	Gene	4708
+30466046	1935	1941	NDUFA1	Gene	4694
+30466046	1943	1949	UQCR10	Gene	29796
+30466046	1951	1957	PPP3R1	Gene	5534
+30466046	2004	2006	AD	Disease	MESH:D000544
+30466046	2061	2064	PML	Gene	5371
+30466046	2192	2219	neurodegenerative disorders	Disease	MESH:D019636
+30466046	2221	2225	MUC4	Gene	4585
+30466046	2324	2326	AD	Disease	MESH:D000544
+30466046	Association	MESH:D000544	5371
+30466046	Association	MESH:D000544	5534
+30466046	Association	MESH:D000544	5663
+30466046	Association	MESH:D000544	4694
+30466046	Association	MESH:D000544	4708
+30466046	Association	MESH:D019636	5371
+30466046	Association	MESH:D000544	29796
+

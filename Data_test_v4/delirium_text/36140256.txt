@@ -1,0 +1,50 @@
+36140256|t|The Effects of H2S and Recombinant Human Hsp70 on Inflammation Induced by SARS and Other Agents In Vitro and In Vivo.
+36140256|a|The ongoing epidemic caused by SARS-CoV-2 infection led to the search for fundamentally new ways and means to combat inflammation and other pathologies caused by this virus. Using a cellular model of lipopolysaccharide (LPS)-induced sepsis (human promonocytes), we showed that both a hydrogen sulfide donor (sodium thiosulfate, STS) and a recombinant Heat shock protein 70 (rHsp70) effectively block all major inflammatory mediators when administrated before and after LPS challenge. The protective anti-inflammatory effect of rHsp70 and H2S was also confirmed in vivo using various animal models of pneumonia. Specifically, it was found that rHsp70 injections prevented the development of the acute respiratory distress syndrome in highly pathogenic pneumonia in mice, increased animal survival, and reduced the number of Programmed death-1 (PD-1)-positive T-lymphocytes in peripheral blood. Based on our model experiments we developed a combined two-phase therapeutic approach for the treatment of COVID-19 patients. This procedure includes the inhalation of hot helium-oxygen mixtures for induction of endogenous Hsp70 in the first phase and STS inhalation in the second phase. The use of this approach has yielded positive results in COVID-19 patients, reducing the area of lung lesions, restoring parameters of innate immunity and T-cell immune response against coronavirus infection, and preventing the development of pulmonary fibrosis and immune exhaustion syndrome.
+36140256	15	18	H2S	Chemical	MESH:D006862
+36140256	35	40	Human	Species	9606
+36140256	41	46	Hsp70	Gene	3308
+36140256	50	62	Inflammation	Disease	MESH:D007249
+36140256	74	78	SARS	Disease	MESH:D045169
+36140256	149	169	SARS-CoV-2 infection	Disease	MESH:D000086382
+36140256	235	247	inflammation	Disease	MESH:D007249
+36140256	318	336	lipopolysaccharide	Chemical	MESH:D008070
+36140256	338	341	LPS	Chemical	MESH:D008070
+36140256	351	357	sepsis	Disease	MESH:D018805
+36140256	359	364	human	Species	9606
+36140256	402	418	hydrogen sulfide	Chemical	MESH:D006862
+36140256	426	444	sodium thiosulfate	Chemical	MESH:C017717
+36140256	446	449	STS	Chemical	MESH:C017717
+36140256	528	540	inflammatory	Disease	MESH:D007249
+36140256	587	590	LPS	Chemical	MESH:D008070
+36140256	622	634	inflammatory	Disease	MESH:D007249
+36140256	656	659	H2S	Chemical	MESH:D006862
+36140256	718	727	pneumonia	Disease	MESH:D011014
+36140256	812	847	acute respiratory distress syndrome	Disease	MESH:D012128
+36140256	869	878	pneumonia	Disease	MESH:D011014
+36140256	882	886	mice	Species	10090
+36140256	941	959	Programmed death-1	Gene	18566
+36140256	961	965	PD-1	Gene	18566
+36140256	1118	1126	COVID-19	Disease	MESH:D000086382
+36140256	1127	1135	patients	Species	9606
+36140256	1183	1189	helium	Chemical	MESH:D006371
+36140256	1190	1196	oxygen	Chemical	MESH:D010100
+36140256	1234	1239	Hsp70	Gene	3308
+36140256	1263	1266	STS	Disease	MESH:D016114
+36140256	1356	1364	COVID-19	Disease	MESH:D000086382
+36140256	1365	1373	patients	Species	9606
+36140256	1396	1408	lung lesions	Disease	MESH:D008171
+36140256	1485	1506	coronavirus infection	Disease	MESH:D018352
+36140256	1542	1560	pulmonary fibrosis	Disease	MESH:D011658
+36140256	1565	1591	immune exhaustion syndrome	Disease	MESH:D006359
+36140256	Association	MESH:D045169	3308
+36140256	Positive_Correlation	MESH:C017717	MESH:D006862
+36140256	Association	MESH:D007249	3308
+36140256	Positive_Correlation	MESH:D008070	MESH:D007249
+36140256	Positive_Correlation	MESH:D006371	3308
+36140256	Negative_Correlation	MESH:C017717	MESH:D008070
+36140256	Negative_Correlation	MESH:D006862	MESH:D008070
+36140256	Positive_Correlation	MESH:D010100	3308
+36140256	Positive_Correlation	MESH:D008070	MESH:D018805
+36140256	Negative_Correlation	MESH:D006862	MESH:D007249
+36140256	Negative_Correlation	MESH:C017717	MESH:D007249
+

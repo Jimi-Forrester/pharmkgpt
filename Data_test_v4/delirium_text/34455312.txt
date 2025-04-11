@@ -1,0 +1,12 @@
+34455312|t|Random walks on B distributed resting-state functional connectivity to identify Alzheimer's disease and Mild Cognitive Impairment.
+34455312|a|OBJECTIVE: Resting-state functional connectivity reveals a promising way for the early detection of dementia. This study proposes a novel method to accurately classify Healthy Controls, Early Mild Cognitive Impairment, Late Mild Cognitive Impairment, and Alzheimer's Disease individuals. METHODS: A novel mapping function based on the B distribution has been developed to map correlation matrices to robust functional connectivity. The node2vec algorithm is applied to the functional connectivity to produce node embeddings. The concatenation of these embedding has been used to derive the patients' feature vectors for further feeding into the Support Vector Machine and Logistic Regression classifiers. RESULTS: The experimental results indicate promising results in the complex four-class classification problem with an accuracy rate of 97.73% and a quadratic kappa score of 96.86% for the Support Vector Machine. These values are 97.32% and 96.74% for Logistic Regression. CONCLUSION: This study presents an accurate automated method for dementia classification. Default Mode Network and Dorsal Attention Network have been found to demonstrate a significant role in the classification method. SIGNIFICANCE: A new mapping function is proposed in this study, the mapping function improves accuracy by 10-11% in the Alzheimer's Disease Neuroimaging Initiative (ADNI) database.
+34455312	80	99	Alzheimer's disease	Disease	MESH:D000544
+34455312	109	129	Cognitive Impairment	Disease	MESH:D003072
+34455312	231	239	dementia	Disease	MESH:D003704
+34455312	328	348	Cognitive Impairment	Disease	MESH:D003072
+34455312	360	380	Cognitive Impairment	Disease	MESH:D003072
+34455312	386	405	Alzheimer's Disease	Disease	MESH:D000544
+34455312	721	729	patients	Species	9606
+34455312	1173	1181	dementia	Disease	MESH:D003704
+34455312	1448	1467	Alzheimer's Disease	Disease	MESH:D000544
+

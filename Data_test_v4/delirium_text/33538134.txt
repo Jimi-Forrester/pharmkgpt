@@ -1,0 +1,30 @@
+33538134|t|Machine-Learning-Based Approach to Differential Diagnosis in Tuberculous and Viral Meningitis.
+33538134|a|BACKGROUND: Tuberculous meningitis (TBM) is the most severe form of tuberculosis, but differentiating between the diagnosis of TBM and viral meningitis (VM) is difficult. Thus, we have developed machine-learning modules for differentiating TBM from VM. MATERIAL AND METHODS: For the training data, confirmed or probable TBM and confirmed VM cases were retrospectively collected from five teaching hospitals in Korea between January 2000 - July 2018. Various machine-learning algorithms were used for training. The machine-learning algorithms were tested by the leave-one-out cross-validation. Four residents and two infectious disease specialists were tested using the summarized medical information. RESULTS: The training study comprised data from 60 patients with confirmed or probable TBM and 143 patients with confirmed VM. Older age, longer symptom duration before the visit, lower serum sodium, lower cerebrospinal fluid (CSF) glucose, higher CSF protein, and CSF adenosine deaminase were found in the TBM patients. Among the various machine-learning algorithms, the area under the curve (AUC) of the receiver operating characteristics of artificial neural network (ANN) with ImperativeImputer for matrix completion (0.85; 95% confidence interval 0.79 - 0.89) was found to be the highest. The AUC of the ANN model was statistically higher than those of all the residents (range 0.67 - 0.72, P <0.001) and an infectious disease specialist (AUC 0.76; P = 0.03). CONCLUSION: The machine-learning techniques may play a role in differentiating between TBM and VM. Specifically, the ANN model seems to have better diagnostic performance than the non-expert clinician.
+33538134	61	93	Tuberculous and Viral Meningitis	Disease	MESH:D008587
+33538134	107	129	Tuberculous meningitis	Disease	MESH:D014390
+33538134	131	134	TBM	Disease	MESH:D014390
+33538134	163	175	tuberculosis	Disease	MESH:D014376
+33538134	222	225	TBM	Disease	MESH:D014390
+33538134	230	246	viral meningitis	Disease	MESH:D008587
+33538134	248	250	VM	Disease	MESH:D008587
+33538134	335	338	TBM	Disease	MESH:D014390
+33538134	344	346	VM	Disease	MESH:D008587
+33538134	415	418	TBM	Disease	MESH:D014390
+33538134	433	435	VM	Disease	MESH:D008587
+33538134	711	729	infectious disease	Disease	MESH:D003141
+33538134	847	855	patients	Species	9606
+33538134	883	886	TBM	Disease	MESH:D014390
+33538134	895	903	patients	Species	9606
+33538134	919	921	VM	Disease	MESH:D008587
+33538134	988	994	sodium	Chemical	MESH:D012964
+33538134	1028	1035	glucose	Chemical	MESH:D005947
+33538134	1065	1084	adenosine deaminase	Gene	100
+33538134	1103	1106	TBM	Disease	MESH:D014390
+33538134	1107	1115	patients	Species	9606
+33538134	1509	1527	infectious disease	Disease	MESH:D003141
+33538134	1648	1651	TBM	Disease	MESH:D014390
+33538134	1656	1658	VM	Disease	MESH:D008587
+33538134	Negative_Correlation	MESH:D012964	MESH:D014390
+33538134	Negative_Correlation	MESH:D005947	MESH:D014390
+33538134	Association	MESH:D014390	100
+

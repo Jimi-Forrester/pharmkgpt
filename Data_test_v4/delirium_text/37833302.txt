@@ -1,0 +1,12 @@
+37833302|t|Differential diagnosis of neurodegenerative dementias with the explainable MRI based machine learning algorithm MUQUBIA.
+37833302|a|Biomarker-based differential diagnosis of the most common forms of dementia is becoming increasingly important. Machine learning (ML) may be able to address this challenge. The aim of this study was to develop and interpret a ML algorithm capable of differentiating Alzheimer's dementia, frontotemporal dementia, dementia with Lewy bodies and cognitively normal control subjects based on sociodemographic, clinical, and magnetic resonance imaging (MRI) variables. 506 subjects from 5 databases were included. MRI images were processed with FreeSurfer, LPA, and TRACULA to obtain brain volumes and thicknesses, white matter lesions and diffusion metrics. MRI metrics were used in conjunction with clinical and demographic data to perform differential diagnosis based on a Support Vector Machine model called MUQUBIA (Multimodal Quantification of Brain whIte matter biomArkers). Age, gender, Clinical Dementia Rating (CDR) Dementia Staging Instrument, and 19 imaging features formed the best set of discriminative features. The predictive model performed with an overall Area Under the Curve of 98%, high overall precision (88%), recall (88%), and F1 scores (88%) in the test group, and good Label Ranking Average Precision score (0.95) in a subset of neuropathologically assessed patients. The results of MUQUBIA were explained by the SHapley Additive exPlanations (SHAP) method. The MUQUBIA algorithm successfully classified various dementias with good performance using cost-effective clinical and MRI information, and with independent validation, has the potential to assist physicians in their clinical diagnosis.
+37833302	26	53	neurodegenerative dementias	Disease	MESH:D019636
+37833302	188	196	dementia	Disease	MESH:D003704
+37833302	387	407	Alzheimer's dementia	Disease	MESH:D000544
+37833302	409	432	frontotemporal dementia	Disease	MESH:D057180
+37833302	434	459	dementia with Lewy bodies	Disease	MESH:D020961
+37833302	731	751	white matter lesions	Disease	MESH:D056784
+37833302	1020	1028	Dementia	Disease	MESH:D003704
+37833302	1042	1050	Dementia	Disease	MESH:D003704
+37833302	1554	1563	dementias	Disease	MESH:D003704
+

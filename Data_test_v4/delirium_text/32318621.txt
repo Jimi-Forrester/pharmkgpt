@@ -1,0 +1,27 @@
+32318621|t|A precision medicine framework using artificial intelligence for the identification and confirmation of genomic biomarkers of response to an Alzheimer's disease therapy: Analysis of the blarcamesine (ANAVEX2-73) Phase 2a clinical study.
+32318621|a|INTRODUCTION: The search for drugs to treat Alzheimer's disease (AD) has failed to yield effective therapies. Here we report the first genome-wide search for biomarkers associated with therapeutic response in AD. Blarcamesine (ANAVEX2-73), a selective sigma-1 receptor (SIGMAR1) agonist, was studied in a 57-week Phase 2a trial (NCT02244541). The study was extended for a further 208 weeks (NCT02756858) after meeting its primary safety endpoint. METHODS: Safety, clinical features, pharmacokinetic, and efficacy, measured by changes in the Mini-Mental State Examination (MMSE) and the Alzheimer's Disease Cooperative Study-Activities of Daily Living scale (ADCS-ADL), were recorded. Whole exome and transcriptome sequences were obtained for 21 patients. The relationship between all available patient data and efficacy outcome measures was analyzed with unsupervised formal concept analysis (FCA), integrated in the Knowledge Extraction and Management (KEM) environment. RESULTS: Biomarkers with a significant impact on clinical outcomes were identified at week 57: mean plasma concentration of blarcamesine (slope MMSE:P < .041), genomic variants SIGMAR1 p.Gln2Pro (DeltaMMSE:P < .039; DeltaADCS-ADL:P < .063) and COMT p.Leu146fs (DeltaMMSE:P < .039; DeltaADCS-ADL:P < .063), and baseline MMSE score (slope MMSE:P < .015). Their combined impact on drug response was confirmed at week 148 with linear mixed effect models. DISCUSSION: Confirmatory Phase 2b/3 clinical studies of these patient selection markers are ongoing. This FCA/KEM analysis is a template for the identification of patient selection markers in early therapeutic development for neurologic disorders.
+32318621	141	160	Alzheimer's disease	Disease	MESH:D000544
+32318621	186	198	blarcamesine	Chemical	MESH:C568535
+32318621	200	210	ANAVEX2-73	Chemical	MESH:C568535
+32318621	281	300	Alzheimer's disease	Disease	MESH:D000544
+32318621	302	304	AD	Disease	MESH:D000544
+32318621	446	448	AD	Disease	MESH:D000544
+32318621	450	462	Blarcamesine	Chemical	MESH:C568535
+32318621	464	474	ANAVEX2-73	Chemical	MESH:C568535
+32318621	507	514	SIGMAR1	Gene	10280
+32318621	823	842	Alzheimer's Disease	Disease	MESH:D000544
+32318621	982	990	patients	Species	9606
+32318621	1031	1038	patient	Species	9606
+32318621	1333	1345	blarcamesine	Chemical	MESH:C568535
+32318621	1386	1393	SIGMAR1	Gene	10280
+32318621	1394	1403	p.Gln2Pro	ProteinMutation	tmVar:p|SUB|Q|2|P;HGVS:p.Q2P;VariantGroup:0;CorrespondingGene:10280;RS#:1800866;CorrespondingSpecies:9606;CA#:5035965
+32318621	1453	1457	COMT	Gene	1312
+32318621	1458	1468	p.Leu146fs	ProteinMutation	tmVar:p|FS|L|146||;HGVS:p.L146fsX;VariantGroup:1;CorrespondingGene:1312;CorrespondingSpecies:9606
+32318621	1722	1729	patient	Species	9606
+32318621	1823	1830	patient	Species	9606
+32318621	1886	1906	neurologic disorders	Disease	MESH:D009461
+32318621	Negative_Correlation	MESH:C568535	MESH:D000544
+32318621	Positive_Correlation	MESH:C568535	10280
+32318621	Association	MESH:D000544	RS#:1800866;HGVS:p.Q2P;CorrespondingGene:10280
+32318621	Association	MESH:D000544	10280
+

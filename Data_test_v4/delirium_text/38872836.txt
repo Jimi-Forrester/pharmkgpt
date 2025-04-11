@@ -1,0 +1,26 @@
+38872836|t|Seizure prediction in stroke survivors who experienced an infection at skilled nursing facilities-a machine learning approach.
+38872836|a|Background: Infections and seizures are some of the most common complications in stroke survivors. Infections are the most common risk factor for seizures and stroke survivors that experience an infection are at greater risk of experiencing seizures. A predictive model to determine which stroke survivors are at the greatest risk for a seizure after an infection can be used to help providers focus on prevention of seizures in higher risk residents that experience an infection. Methods: A predictive model was generated from a retrospective study of the Long-Term Care Minimum Data Set (MDS) 3.0 (2014-2018, n = 262,301). Techniques included three data balancing methods (SMOTE for up sampling, ENN for down sampling, and SMOTEENN for up and down sampling) and three feature selection methods (LASSO, Recursive Feature Elimination, and Principal Component Analysis). One balancing and one feature selection technique was applied, and the resulting dataset was then trained on four machine learning models (Logistic Regression, Random Forest, XGBoost, and Neural Network). Model performance was evaluated with AUC and accuracy, and interpretation used SHapley Additive exPlanations. Results: Using data balancing methods improved the prediction performances of the machine learning models, but feature selection did not remove any features and did not affect performance. With all models having a high accuracy (76.5%-99.9%), interpretation on all four models yielded the most holistic view. SHAP values indicated that therapy (speech, physical, occupational, and respiratory), independence (activities of daily living for walking, mobility, eating, dressing, and toilet use), and mood (severity score, anti-anxiety medications, antidepressants, and antipsychotics) features contributed the most. Meaning, stroke survivors who received fewer therapy hours, were less independent, had a worse overall mood were at a greater risk of having a seizure after an infection. Conclusion: The development of a tool to predict seizure following an infection in stroke survivors can be interpreted by providers to guide treatment and prevent complications long term. This promotes individualized treatment plans that can increase the quality of resident care.
+38872836	0	7	Seizure	Disease	MESH:D012640
+38872836	22	28	stroke	Disease	MESH:D020521
+38872836	58	67	infection	Disease	MESH:D007239
+38872836	139	149	Infections	Disease	MESH:D007239
+38872836	154	162	seizures	Disease	MESH:D012640
+38872836	208	214	stroke	Disease	MESH:D020521
+38872836	226	236	Infections	Disease	MESH:D007239
+38872836	273	281	seizures	Disease	MESH:D012640
+38872836	286	292	stroke	Disease	MESH:D020521
+38872836	322	331	infection	Disease	MESH:D007239
+38872836	368	376	seizures	Disease	MESH:D012640
+38872836	416	422	stroke	Disease	MESH:D020521
+38872836	464	471	seizure	Disease	MESH:D012640
+38872836	481	490	infection	Disease	MESH:D007239
+38872836	544	552	seizures	Disease	MESH:D012640
+38872836	597	606	infection	Disease	MESH:D007239
+38872836	1837	1856	anxiety medications	Disease	MESH:D001007
+38872836	1935	1941	stroke	Disease	MESH:D020521
+38872836	2069	2076	seizure	Disease	MESH:D012640
+38872836	2086	2095	infection	Disease	MESH:D007239
+38872836	2146	2153	seizure	Disease	MESH:D012640
+38872836	2167	2176	infection	Disease	MESH:D007239
+38872836	2180	2186	stroke	Disease	MESH:D020521
+

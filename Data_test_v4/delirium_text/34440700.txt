@@ -1,0 +1,41 @@
+34440700|t|Neuroinflammation and Alzheimer's Disease: A Machine Learning Approach to CSF Proteomics.
+34440700|a|In Alzheimer's disease (AD), the contribution of pathophysiological mechanisms other than amyloidosis and tauopathy is now widely recognized, although not clearly quantifiable by means of fluid biomarkers. We aimed to identify quantifiable protein biomarkers reflecting neuroinflammation in AD using multiplex proximity extension assay (PEA) testing. Cerebrospinal fluid (CSF) samples from patients with mild cognitive impairment due to AD (AD-MCI) and from controls, i.e., patients with other neurological diseases (OND), were analyzed with the Olink Inflammation PEA biomarker panel. A machine-learning approach was then used to identify biomarkers discriminating AD-MCI (n: 34) from OND (n: 25). On univariate analysis, SIRT2, HGF, MMP-10, and CXCL5 showed high discriminatory performance (AUC 0.809, p = 5.2 x 10-4, AUC 0.802, p = 6.4 x 10-4, AUC 0.793, p = 3.2 x 10-3, AUC 0.761, p = 2.3 x 10-3, respectively), with higher CSF levels in AD-MCI patients as compared to controls. These same proteins were the best contributors to the penalized logistic regression model discriminating AD-MCI from controls (AUC of the model 0.906, p = 2.97 x 10-7). The biological processes regulated by these proteins include astrocyte and microglia activation, amyloid, and tau misfolding modulation, and blood-brain barrier dysfunction. Using a high-throughput multiplex CSF analysis coupled with a machine-learning statistical approach, we identified novel biomarkers reflecting neuroinflammation in AD. Studies confirming these results by means of different assays are needed to validate PEA as a multiplex technique for CSF analysis and biomarker discovery in the field of neurological diseases.
+34440700	0	17	Neuroinflammation	Disease	MESH:D000090862
+34440700	22	41	Alzheimer's Disease	Disease	MESH:D000544
+34440700	93	112	Alzheimer's disease	Disease	MESH:D000544
+34440700	114	116	AD	Disease	MESH:D000544
+34440700	180	191	amyloidosis	Disease	MESH:D000686
+34440700	196	205	tauopathy	Disease	MESH:D024801
+34440700	360	377	neuroinflammation	Disease	MESH:D000090862
+34440700	381	383	AD	Disease	MESH:D000544
+34440700	480	488	patients	Species	9606
+34440700	499	519	cognitive impairment	Disease	MESH:D003072
+34440700	527	529	AD	Disease	MESH:D000544
+34440700	531	534	AD-	Disease	MESH:D000544
+34440700	534	537	MCI	Disease	
+34440700	564	572	patients	Species	9606
+34440700	584	605	neurological diseases	Disease	MESH:D020271
+34440700	607	610	OND	Disease	MESH:D009422
+34440700	636	654	Olink Inflammation	Disease	MESH:D007249
+34440700	756	758	AD	Disease	MESH:D000544
+34440700	759	762	MCI	Disease	
+34440700	776	779	OND	Disease	MESH:D009422
+34440700	813	818	SIRT2	Gene	22933
+34440700	820	823	HGF	Gene	3082
+34440700	825	831	MMP-10	Gene	4319
+34440700	837	842	CXCL5	Gene	6374
+34440700	1032	1034	AD	Disease	MESH:D000544
+34440700	1035	1038	MCI	Disease	
+34440700	1039	1047	patients	Species	9606
+34440700	1178	1180	AD	Disease	MESH:D000544
+34440700	1181	1184	MCI	Disease	
+34440700	1339	1346	amyloid	Disease	MESH:C000718787
+34440700	1352	1355	tau	Gene	4137
+34440700	1559	1576	neuroinflammation	Disease	MESH:D000090862
+34440700	1580	1582	AD	Disease	MESH:D000544
+34440700	1755	1776	neurological diseases	Disease	MESH:D020271
+34440700	Positive_Correlation	MESH:D000544	4319
+34440700	Association	MESH:D000544	3082
+34440700	Positive_Correlation	MESH:D000544	22933
+34440700	Positive_Correlation	MESH:D000544	6374
+

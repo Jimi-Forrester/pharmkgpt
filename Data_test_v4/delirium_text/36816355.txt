@@ -1,0 +1,51 @@
+36816355|t|Comprehensive Analysis of Transcriptomic Profiles Identified the Prediction of Prognosis and Drug Sensitivity of Aminopeptidase-Like 1 (NPEPL1) for Clear Cell Renal Cell Carcinoma.
+36816355|a|Aminopeptidase-like 1 (NPEPL1) is a member of the aminopeptidase group that plays a role in the development and progression of various diseases. Expression of NPEPL1 has been reported to be involved in prostate, breast, and colorectal cancers. However, the role and mechanism of NPEPL1 in clear cell renal cell carcinoma (ccRCC) are unclear. The Cancer Genome Atlas (TCGA) and Human Protein Atlas (HPA) databases were used to predict the relationship between clinicopathological features and NPEPL1 expression. Changes in immune status and drug sensitivity with NPEPL1 expression were analyzed by the "CIBERSORT" function in R software. The results found that NPEPL1 expression was upregulated in ccRCC tissues, with expression progressively increasing with ccRCC stage and grade. Patients with high NPEPL1 expression presented with a poor prognosis across different clinicopathological features. Univariate and multivariate Cox regression analyses indicated that aberrant NPEPL1 expression was an independent risk factor for ccRCC. The nomogram showed that NPEPL1 expression improved the accuracy of predicting the prognosis of ccRCC patients. The Gene Ontology (GO) term enrichment analysis and the Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis revealed that NPEPL1 may be involved in the development of ccRCC through the voltage-gated calcium channel complex, channel activity, cAMP signaling pathway, and oxytocin signaling pathway. The coexpression analysis found that NPEPL1 altered tumor characteristics by interacting with related genes. The "CIBERSORT" analysis showed that elevated NPEPL1 expression was followed by an enrichment of regulatory T cells and follicular helper T cells in the microenvironment. The drug sensitivity analysis found patients with high NPEPL1 expression had a higher benefit from axitinib, cisplatin, and GSK429286A. In conclusion, upregulation of NPEPL1 expression was involved in ccRCC prognosis and treatment. NPEPL1 could be used as a therapeutic target to guide clinical dosing.
+36816355	113	134	Aminopeptidase-Like 1	Gene	79716
+36816355	136	142	NPEPL1	Gene	79716
+36816355	148	179	Clear Cell Renal Cell Carcinoma	Disease	MESH:D002292
+36816355	181	202	Aminopeptidase-like 1	Gene	79716
+36816355	204	210	NPEPL1	Gene	79716
+36816355	340	346	NPEPL1	Gene	79716
+36816355	383	423	prostate, breast, and colorectal cancers	Disease	MESH:D001943
+36816355	460	466	NPEPL1	Gene	79716
+36816355	470	501	clear cell renal cell carcinoma	Disease	MESH:D002292
+36816355	503	508	ccRCC	Disease	MESH:D002292
+36816355	527	533	Cancer	Disease	MESH:D009369
+36816355	558	563	Human	Species	9606
+36816355	673	679	NPEPL1	Gene	79716
+36816355	743	749	NPEPL1	Gene	79716
+36816355	841	847	NPEPL1	Gene	79716
+36816355	878	883	ccRCC	Disease	MESH:D002292
+36816355	939	944	ccRCC	Disease	MESH:D002292
+36816355	962	970	Patients	Species	9606
+36816355	981	987	NPEPL1	Gene	79716
+36816355	1154	1160	NPEPL1	Gene	79716
+36816355	1207	1212	ccRCC	Disease	MESH:D002292
+36816355	1239	1245	NPEPL1	Gene	79716
+36816355	1310	1315	ccRCC	Disease	MESH:D002292
+36816355	1316	1324	patients	Species	9606
+36816355	1460	1466	NPEPL1	Gene	79716
+36816355	1505	1510	ccRCC	Disease	MESH:D002292
+36816355	1580	1584	cAMP	Chemical	-
+36816355	1608	1616	oxytocin	Gene	5020
+36816355	1673	1679	NPEPL1	Gene	79716
+36816355	1688	1693	tumor	Disease	MESH:D009369
+36816355	1791	1797	NPEPL1	Gene	79716
+36816355	1952	1960	patients	Species	9606
+36816355	1971	1977	NPEPL1	Gene	79716
+36816355	2015	2023	axitinib	Chemical	MESH:D000077784
+36816355	2025	2034	cisplatin	Chemical	MESH:D002945
+36816355	2040	2051	GSK429286A.	Chemical	-
+36816355	2083	2089	NPEPL1	Gene	79716
+36816355	2117	2122	ccRCC	Disease	MESH:D002292
+36816355	2148	2154	NPEPL1	Gene	79716
+36816355	Association	5020	79716
+36816355	Negative_Correlation	MESH:D000077784	MESH:D002292
+36816355	Association	MESH:D009369	79716
+36816355	Association	MESH:D002945	79716
+36816355	Negative_Correlation	MESH:D002945	MESH:D002292
+36816355	Association	MESH:D002292	5020
+36816355	Positive_Correlation	MESH:D002292	79716
+36816355	Association	MESH:D001943	79716
+36816355	Association	MESH:D000077784	79716
+

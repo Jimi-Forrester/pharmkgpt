@@ -1,0 +1,15 @@
+19603258|t|Predicting inhibitors of acetylcholinesterase by regression and classification machine learning approaches with combinations of molecular descriptors.
+19603258|a|PURPOSE: Acetylcholinesterase (AChE) is both a therapeutic target for Alzheimer's disease and a target for organophosphorus, carbamates and chemical warfare agents. Prediction of the likelihood of compounds interacting with this enzyme is therefore important from both therapeutic and toxicological perspectives. MATERIALS AND METHODS: Support vector machine classification and regression models with molecular descriptors derived from Shape Signatures and the Molecular Operating Environment (MOE) application software were built and tested using a set of piperidine AChE inhibitors (N = 110). RESULTS: The combination of the alignment free Shape Signatures and 2D MOE descriptors with the Support Vector Regression method outperforms the models based solely on 2D and internal 3D (i3D) MOE descriptors, and is comparable with the best previously reported PLS model based on CoMFA molecular descriptors (r(2)(test,SVR) = 0.48 vs. r(2)(test,PLS) = 0.47 from Sutherland et al. J Med Chem 47:5541-5554, 2004). Support Vector Classification algorithms proved superior to a classifier based on scores from the molecular docking program GOLD, with the overall prediction accuracies being Q(SVC(10CV)) = 74% and Q(SVC(LNO)) = 67% vs. Q(GOLD) = 56%. CONCLUSIONS: These new machine learning models with combined descriptor schemes may find utility for predicting novel AChE inhibitors.
+19603258	25	45	acetylcholinesterase	Gene	43
+19603258	160	180	Acetylcholinesterase	Gene	43
+19603258	182	186	AChE	Gene	43
+19603258	221	240	Alzheimer's disease	Disease	MESH:D000544
+19603258	258	274	organophosphorus	Chemical	-
+19603258	276	286	carbamates	Chemical	MESH:D002219
+19603258	708	718	piperidine	Chemical	MESH:C032727
+19603258	719	723	AChE	Gene	43
+19603258	1512	1516	AChE	Gene	43
+19603258	Negative_Correlation	MESH:C032727	43
+19603258	Positive_Correlation	MESH:D002219	43
+19603258	Association	MESH:D000544	43
+

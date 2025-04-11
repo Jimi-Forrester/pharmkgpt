@@ -1,0 +1,24 @@
+38341100|t|Longitudinal MRI analysis using a hybrid DenseNet-BiLSTM method for Alzheimer's disease prediction.
+38341100|a|Alzheimer's disease is a progressive neurological disorder characterized by brain atrophy and cell death, leading to cognitive decline and impaired functioning. Previous research has primarily focused on using cross-sectional data for Alzheimer's disease identification, but analyzing longitudinal sequential MR images is crucial for improved diagnostic accuracy and understanding disease progression. However, existing deep learning models face challenges in learning spatial and temporal features from such data. To address these challenges, this study presents a novel hybrid DenseNet-BiLSTM method for Alzheimer's disease prediction using longitudinal MRI analysis. The proposed framework combines Convolutional DenseNet for spatial information extraction and joined BiLSTM layers for capturing temporal characteristics and relationships between longitudinal images at different time points. This approach overcomes issues like overfitting, vanishing gradients, and incomplete patient data. We evaluated the model on 684 longitudinal MRI images from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database, including normal controls, individuals with mild cognitive impairment, and Alzheimer's disease patients. The results demonstrate high classification accuracy, with 95.28% for AD/CN, 88.19% for NC/MCI, 83.51% for sMCI/pMCI, and 92.14% for MCI/AD. These findings highlight the substantial improvement in Alzheimer's disease diagnosis achieved through the utilization of longitudinal MRI images. The contributions of this study lie in both the deep learning and medical domains. In the deep learning domain, our hybrid framework effectively learns spatial and temporal features from longitudinal data, addressing the challenges associated with multi-dimensional and sequential time series data. In the medical domain, our study emphasizes the importance of analyzing baseline and longitudinal MR images for accurate diagnosis and understanding disease progression.
+38341100	68	87	Alzheimer's disease	Disease	MESH:D000544
+38341100	100	119	Alzheimer's disease	Disease	MESH:D000544
+38341100	137	158	neurological disorder	Disease	MESH:D009461
+38341100	176	189	brain atrophy	Disease	MESH:C566985
+38341100	217	234	cognitive decline	Disease	MESH:D003072
+38341100	239	259	impaired functioning	Disease	MESH:D003072
+38341100	335	354	Alzheimer's disease	Disease	MESH:D000544
+38341100	706	725	Alzheimer's disease	Disease	MESH:D000544
+38341100	1081	1088	patient	Species	9606
+38341100	1158	1177	Alzheimer's Disease	Disease	MESH:D000544
+38341100	1268	1288	cognitive impairment	Disease	MESH:D003072
+38341100	1294	1313	Alzheimer's disease	Disease	MESH:D000544
+38341100	1314	1322	patients	Species	9606
+38341100	1394	1396	AD	Disease	MESH:D000544
+38341100	1412	1414	NC	Disease	OMIM:617025
+38341100	1415	1418	MCI	Disease	
+38341100	1431	1435	sMCI	Disease	
+38341100	1436	1440	pMCI	Disease	
+38341100	1457	1460	MCI	Disease	
+38341100	1461	1463	AD	Disease	MESH:D000544
+38341100	1521	1540	Alzheimer's disease	Disease	MESH:D000544
+

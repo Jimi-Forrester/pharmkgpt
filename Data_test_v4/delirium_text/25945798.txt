@@ -1,0 +1,25 @@
+25945798|t|Assembly of a comprehensive regulatory network for the mammalian circadian clock: a bioinformatics approach.
+25945798|a|By regulating the timing of cellular processes, the circadian clock provides a way to adapt physiology and behaviour to the geophysical time. In mammals, a light-entrainable master clock located in the suprachiasmatic nucleus (SCN) controls peripheral clocks that are present in virtually every body cell. Defective circadian timing is associated with several pathologies such as cancer and metabolic and sleep disorders. To better understand the circadian regulation of cellular processes, we developed a bioinformatics pipeline encompassing the analysis of high-throughput data sets and the exploitation of published knowledge by text-mining. We identified 118 novel potential clock-regulated genes and integrated them into an existing high-quality circadian network, generating the to-date most comprehensive network of circadian regulated genes (NCRG). To validate particular elements in our network, we assessed publicly available ChIP-seq data for BMAL1, REV-ERBalpha/beta and RORalpha/gamma proteins and found strong evidence for circadian regulation of Elavl1, Nme1, Dhx6, Med1 and Rbbp7 all of which are involved in the regulation of tumourigenesis. Furthermore, we identified Ncl and Ddx6, as targets of RORgamma and REV-ERBalpha, beta, respectively. Most interestingly, these genes were also reported to be involved in miRNA regulation; in particular, NCL regulates several miRNAs, all involved in cancer aggressiveness. Thus, NCL represents a novel potential link via which the circadian clock, and specifically RORgamma, regulates the expression of miRNAs, with particular consequences in breast cancer progression. Our findings bring us one step forward towards a mechanistic understanding of mammalian circadian regulation, and provide further evidence of the influence of circadian deregulation in cancer. 
+25945798	489	495	cancer	Disease	MESH:D009369
+25945798	500	529	metabolic and sleep disorders	Disease	MESH:D012893
+25945798	1063	1068	BMAL1	Gene	406
+25945798	1070	1087	REV-ERBalpha/beta	Gene	9975
+25945798	1092	1106	RORalpha/gamma	Gene	6095
+25945798	1170	1176	Elavl1	Gene	1994
+25945798	1178	1182	Nme1	Gene	4830
+25945798	1190	1194	Med1	Gene	5469
+25945798	1199	1204	Rbbp7	Gene	5931
+25945798	1252	1266	tumourigenesis	Disease	
+25945798	1295	1298	Ncl	Gene	4691
+25945798	1303	1307	Ddx6	Gene	1656
+25945798	1336	1354	REV-ERBalpha, beta	Gene	9975
+25945798	1472	1475	NCL	Gene	4691
+25945798	1518	1524	cancer	Disease	MESH:D009369
+25945798	1547	1550	NCL	Gene	4691
+25945798	1711	1724	breast cancer	Disease	MESH:D001943
+25945798	1923	1929	cancer	Disease	MESH:D009369
+25945798	Association	MESH:D009369	4691
+25945798	Association	1656	9975
+25945798	Association	4691	9975
+25945798	Association	MESH:D001943	4691
+

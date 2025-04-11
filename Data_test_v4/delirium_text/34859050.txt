@@ -1,0 +1,59 @@
+34859050|t|Combining Metabolomics and Interpretable Machine Learning to Reveal Plasma Metabolic Profiling and Biological Correlates of Alcohol-Dependent Inpatients: What About Tryptophan Metabolism Regulation?
+34859050|a|Alcohol dependence (AD) is a condition of alcohol use disorder in which the drinkers frequently develop emotional symptoms associated with a continuous alcohol intake. AD characterized by metabolic disturbances can be quantitatively analyzed by metabolomics to identify the alterations in metabolic pathways. This study aimed to: i) compare the plasma metabolic profiling between healthy and AD-diagnosed individuals to reveal the altered metabolic profiles in AD, and ii) identify potential biological correlates of alcohol-dependent inpatients based on metabolomics and interpretable machine learning. Plasma samples were obtained from healthy (n = 42) and AD-diagnosed individuals (n = 43). The plasma metabolic differences between them were investigated using liquid chromatography-tandem mass spectrometry (AB SCIEX  QTRAP 4500 system) in different electrospray ionization modes with scheduled multiple reaction monitoring scans. In total, 59 and 52 compounds were semi-quantitatively measured in positive and negative ionization modes, respectively. In addition, 39 metabolites were identified as important variables to contribute to the classifications using an orthogonal partial least squares-discriminant analysis (OPLS-DA) (VIP > 1) and also significantly different between healthy and AD-diagnosed individuals using univariate analysis (p-value < 0.05 and false discovery rate < 0.05). Among the identified metabolites, indole-3-carboxylic acid, quinolinic acid, hydroxy-tryptophan, and serotonin were involved in the tryptophan metabolism along the indole, kynurenine, and serotonin pathways. Metabolic pathway analysis revealed significant changes or imbalances in alanine, aspartate, glutamate metabolism, which was possibly the main altered pathway related to AD. Tryptophan metabolism interactively influenced other metabolic pathways, such as nicotinate and nicotinamide metabolism. Furthermore, among the OPLS-DA-identified metabolites, normetanephrine and ascorbic acid were demonstrated as suitable biological correlates of AD inpatients from our model using an interpretable, supervised decision tree classifier algorithm. These findings indicate that the discriminatory metabolic profiles between healthy and AD-diagnosed individuals may benefit researchers in illustrating the underlying molecular mechanisms of AD. This study also highlights the approach of combining metabolomics and interpretable machine learning as a valuable tool to uncover potential biological correlates. Future studies should focus on the global analysis of the possible roles of these differential metabolites and disordered metabolic pathways in the pathophysiology of AD.
+34859050	124	131	Alcohol	Chemical	MESH:D000438
+34859050	142	152	Inpatients	Disease	
+34859050	165	175	Tryptophan	Chemical	MESH:D014364
+34859050	199	217	Alcohol dependence	Disease	MESH:D000437
+34859050	219	221	AD	Disease	MESH:D000437
+34859050	241	261	alcohol use disorder	Disease	MESH:D000437
+34859050	303	321	emotional symptoms	Disease	MESH:D012816
+34859050	351	358	alcohol	Chemical	MESH:D000438
+34859050	367	369	AD	Disease	MESH:D000437
+34859050	591	593	AD	Disease	MESH:D000437
+34859050	660	662	AD	Disease	MESH:D000437
+34859050	716	723	alcohol	Chemical	MESH:D000438
+34859050	734	744	inpatients	Species	9606
+34859050	858	860	AD	Disease	MESH:D000437
+34859050	1496	1498	AD	Disease	MESH:D000437
+34859050	1631	1655	indole-3-carboxylic acid	Chemical	MESH:C012382
+34859050	1657	1672	quinolinic acid	Chemical	MESH:D017378
+34859050	1674	1692	hydroxy-tryptophan	Chemical	MESH:D006916
+34859050	1698	1707	serotonin	Chemical	MESH:D012701
+34859050	1729	1739	tryptophan	Chemical	MESH:D014364
+34859050	1761	1767	indole	Chemical	MESH:C030374
+34859050	1769	1779	kynurenine	Chemical	MESH:D007737
+34859050	1785	1794	serotonin	Chemical	MESH:D012701
+34859050	1878	1885	alanine	Chemical	MESH:D000409
+34859050	1887	1896	aspartate	Chemical	MESH:D001224
+34859050	1898	1907	glutamate	Chemical	MESH:D018698
+34859050	1975	1977	AD	Disease	MESH:D000437
+34859050	1979	1989	Tryptophan	Chemical	MESH:D014364
+34859050	2060	2070	nicotinate	Chemical	MESH:D009525
+34859050	2075	2087	nicotinamide	Chemical	MESH:D009536
+34859050	2155	2170	normetanephrine	Chemical	MESH:D009647
+34859050	2175	2188	ascorbic acid	Chemical	MESH:D001205
+34859050	2244	2246	AD	Disease	MESH:D000437
+34859050	2247	2257	inpatients	Species	9606
+34859050	2431	2433	AD	Disease	MESH:D000437
+34859050	2535	2537	AD	Disease	MESH:D000437
+34859050	2870	2872	AD	Disease	MESH:D000437
+34859050	Association	MESH:D006916	MESH:D007737
+34859050	Positive_Correlation	MESH:D000438	MESH:D000437
+34859050	Association	MESH:D009647	MESH:D000437
+34859050	Association	MESH:D007737	MESH:D017378
+34859050	Association	MESH:D000409	MESH:D000437
+34859050	Positive_Correlation	MESH:D000438	MESH:D012816
+34859050	Association	MESH:D001224	MESH:D000437
+34859050	Association	MESH:D018698	MESH:D000437
+34859050	Association	MESH:D014364	MESH:D000437
+34859050	Association	MESH:C012382	MESH:D007737
+34859050	Association	MESH:D009525	MESH:D014364
+34859050	Association	MESH:D001205	MESH:D000437
+34859050	Association	MESH:D009536	MESH:D014364
+34859050	Association	MESH:D012701	MESH:D014364
+34859050	Association	MESH:D007737	MESH:D014364
+34859050	Association	MESH:C012382	MESH:D014364
+34859050	Association	MESH:D006916	MESH:D014364
+34859050	Association	MESH:D012701	MESH:D000437
+34859050	Association	MESH:D014364	MESH:D017378
+

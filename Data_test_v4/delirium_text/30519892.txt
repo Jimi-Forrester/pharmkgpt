@@ -1,0 +1,17 @@
+30519892|t|eQTL of KCNK2 regionally influences the brain sulcal widening: evidence from 15,597 UK Biobank participants with neuroimaging data.
+30519892|a|The grey and white matter volumes are known to reduce with age. This cortical shrinkage is visible on magnetic resonance images and is conveniently identified by the increased volume of cerebrospinal fluid in the sulci between two gyri. Here, we replicated this finding using the UK Biobank dataset and studied the genetic influence on these cortical features of aging. We divided all individuals genetically confirmed of British ancestry into two sub-cohorts (12,162 and 3435 subjects for discovery and replication samples, respectively). We found that the heritability of the sulcal opening ranges from 15 to 45% (SE = 4.8%). We identified 4 new loci that contribute to this opening, including one that also affects the sulci grey matter thickness. We identified the most significant variant (rs864736) on this locus as being an expression quantitative trait locus (eQTL) for the KCNK2 gene. This gene regulates the immune-cell into the central nervous system (CNS) and controls the CNS inflammation, which is implicated in cortical atrophy and cognitive decline. These results expand our knowledge of the genetic contribution to cortical shrinking and promote further investigation into these variants and genes in pathological context such as Alzheimer's disease in which brain shrinkage is a key biomarker.
+30519892	8	13	KCNK2	Gene	3776
+30519892	927	935	rs864736	SNP	tmVar:rs864736;VariantGroup:0;RS#:864736
+30519892	1014	1019	KCNK2	Gene	3776
+30519892	1117	1133	CNS inflammation	Disease	MESH:D007249
+30519892	1158	1174	cortical atrophy	Disease	MESH:D001284
+30519892	1179	1196	cognitive decline	Disease	MESH:D003072
+30519892	1379	1398	Alzheimer's disease	Disease	MESH:D000544
+30519892	Positive_Correlation	MESH:D003072	RS#:864736
+30519892	Association	MESH:D000544	RS#:864736
+30519892	Association	MESH:D007249	3776
+30519892	Association	MESH:D001284	3776
+30519892	Association	MESH:D003072	3776
+30519892	Association	MESH:D007249	RS#:864736
+30519892	Association	MESH:D000544	3776
+

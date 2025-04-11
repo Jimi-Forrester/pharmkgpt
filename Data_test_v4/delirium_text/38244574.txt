@@ -1,0 +1,11 @@
+38244574|t|Conumee 2.0: enhanced copy-number variation analysis from DNA methylation arrays for humans and mice.
+38244574|a|MOTIVATION: Copy-number variations (CNVs) are common genetic alterations in cancer and their detection may impact tumor classification and therapeutic decisions. However, detection of clinically relevant large and focal CNVs remains challenging when sample material or resources are limited. This has motivated us to create a software tool to infer CNVs from DNA methylation arrays which are often generated as part of clinical routines and in research settings. RESULTS: We present our R package, conumee 2.0, that combines tangent normalization, an adjustable genomic binning heuristic, and weighted circular binary segmentation to utilize DNA methylation arrays for CNV analysis and mitigate technical biases and batch effects. Segmentation results were validated in a lung squamous cell carcinoma dataset from TCGA (n = 367 samples) by comparison to segmentations derived from genotyping arrays (Pearson's correlation coefficient of 0.91). We further introduce a segmented block bootstrapping approach to detect focal alternations that achieved 60.9% sensitivity and 98.6% specificity for deletions affecting CDKN2A/B (60.0% and 96.9% for RB1, respectively) in a low-grade glioma cohort from TCGA (n = 239 samples). Finally, our tool provides functionality to detect and summarize CNVs across large sample cohorts. AVAILABILITY AND IMPLEMENTATION: Conumee 2.0 is available under open-source license at: https://github.com/hovestadtlab/conumee2.
+38244574	85	91	humans	Species	9606
+38244574	96	100	mice	Species	10090
+38244574	178	184	cancer	Disease	MESH:D009369
+38244574	216	221	tumor	Disease	MESH:D009369
+38244574	874	902	lung squamous cell carcinoma	Disease	MESH:D002294
+38244574	1215	1223	CDKN2A/B	Gene	
+38244574	1245	1248	RB1	Gene	5925
+38244574	1279	1285	glioma	Disease	MESH:D005910
+

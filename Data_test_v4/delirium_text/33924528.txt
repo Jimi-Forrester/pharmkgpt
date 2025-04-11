@@ -1,0 +1,10 @@
+33924528|t|Research on Channel Selection and Multi-Feature Fusion of EEG Signals for Mental Fatigue Detection.
+33924528|a|With the rapid development of modern social science and technology, the pace of life is getting faster, and brain fatigue has become a sub-health state that seriously affects the normal life of people. Electroencephalogram (EEG) signals reflect changes in the central nervous system. Using EEG signals to assess mental fatigue is a research hotspot in related fields. Most existing fatigue detection methods are time-consuming or don't achieve satisfactory results due to insufficient features extracted from EEG signals. In this paper, a 2-back task is designed to induce fatigue. The weight value of each channel under a single feature is calculated by ReliefF algorithm. The classification accuracy of each channel under the corresponding features is analyzed. The classification accuracy of each single channel is combined to perform weighted summation to obtain the weight value of each channel. The first half channels sorted in descending order based on the weight value is chosen as the common channels. Multi-features in frequency and time domains are extracted from the common channel data, and the sparse representation method is used to perform feature fusion to obtain sparse fused features. Finally, the SRDA classifier is used to detect the fatigue state. Experimental results show that the proposed methods in our work effectively reduce the number of channels for computation and also improve the mental fatigue detection accuracy.
+33924528	74	88	Mental Fatigue	Disease	MESH:D005222
+33924528	208	221	brain fatigue	Disease	MESH:D005221
+33924528	412	426	mental fatigue	Disease	MESH:D005222
+33924528	482	489	fatigue	Disease	MESH:D005221
+33924528	673	680	fatigue	Disease	MESH:D005221
+33924528	1356	1363	fatigue	Disease	MESH:D005221
+33924528	1514	1528	mental fatigue	Disease	MESH:D005222
+

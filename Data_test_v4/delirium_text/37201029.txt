@@ -1,0 +1,52 @@
+37201029|t|The genetic polymorphisms at the promoter region of HLA-DQB1 gene, creating responsive elements for NF1/CTF and converting the TFII-D binding site to GR-alpha.
+37201029|a|Human leukocyte antigen-DQB1 (HLA-DQB1, OMIM: 604305) is the human major histocompatibility complex (MHC) system. HLA genes are classified into three classes (I, II, and III). The HLA-DQB1 belongs to class II, is mainly involved in the actions of the human immune system and plays a fundamental role in donor-recipient matching in transplantation and can be associated with most autoimmune diseases. In this study, the potential influence(s) of the G-71C (rs71542466) and T-80C (rs9274529) genetic polymorphisms were investigated. These polymorphisms, located in the HLA-DQB1 promoter region, have a significant frequency in the world population. The online software ALGGEN-PROMO.v8.3 was used in this work. The results indicate that the C allele at the -71 position actually creates a new potential binding site for NF1/CTF and the C allele at the -80 position changes the TFII-D binding site into a GR-alpha response element. The NF1/CTF plays the role of activator and the GR-alpha is the inhibitor; thus, according to the roles of these transcription factors, it is suggested that the above-mentioned polymorphisms alter the expression levels of HLA-DQB1. Therefore, this genetic variation is associated with autoimmune diseases; however, this cannot be generalized because this is the first report and more studies are needed in the future.
+37201029	52	60	HLA-DQB1	Gene	3119;3105
+37201029	100	103	NF1	Gene	4763
+37201029	104	107	CTF	Gene	4774
+37201029	127	133	TFII-D	Gene	6908
+37201029	150	158	GR-alpha	Gene	2908
+37201029	190	198	HLA-DQB1	Gene	3119;3105
+37201029	200	212	OMIM: 604305	Disease	
+37201029	221	226	human	Species	9606
+37201029	227	259	major histocompatibility complex	Gene	3107
+37201029	261	264	MHC	Gene	3107
+37201029	274	277	HLA	Gene	3105
+37201029	340	348	HLA-DQB1	Gene	3119;3105
+37201029	411	416	human	Species	9606
+37201029	539	558	autoimmune diseases	Disease	MESH:D001327
+37201029	609	614	G-71C	DNAMutation	tmVar:c|SUB|G|-71|C;HGVS:c.-71G>C;VariantGroup:0;CorrespondingGene:3119;RS#:71542466;CorrespondingSpecies:9606
+37201029	616	626	rs71542466	SNP	tmVar:rs71542466;VariantGroup:0;CorrespondingGene:3119;RS#:71542466;CorrespondingSpecies:9606
+37201029	632	637	T-80C	DNAMutation	tmVar:c|SUB|T|-80|C;HGVS:c.-80T>C;VariantGroup:1;CorrespondingGene:3119;RS#:9274529;CorrespondingSpecies:9606
+37201029	639	648	rs9274529	SNP	tmVar:rs9274529;VariantGroup:1;CorrespondingGene:3119;RS#:9274529;CorrespondingSpecies:9606
+37201029	727	735	HLA-DQB1	Gene	3119;3105
+37201029	898	917	C allele at the -71	DNAMutation	tmVar:c|ALLELE|-71|;VariantGroup:2;CorrespondingGene:4763;CorrespondingSpecies:9606
+37201029	977	980	NF1	Gene	4763
+37201029	981	984	CTF	Gene	4774
+37201029	993	1012	C allele at the -80	DNAMutation	tmVar:c|ALLELE|-80|;VariantGroup:3;CorrespondingGene:4774;CorrespondingSpecies:9606
+37201029	1034	1040	TFII-D	Gene	6908
+37201029	1061	1069	GR-alpha	Gene	2908
+37201029	1092	1095	NF1	Gene	4763
+37201029	1096	1099	CTF	Gene	4774
+37201029	1136	1144	GR-alpha	Gene	2908
+37201029	1310	1318	HLA-DQB1	Gene	3119;3105
+37201029	1373	1392	autoimmune diseases	Disease	MESH:D001327
+37201029	Positive_Correlation	MESH:D001327	RS#:71542466;HGVS:c.-71G>C;CorrespondingGene:3119
+37201029	Positive_Correlation	MESH:D001327	CorrespondingGene:4763;CorrespondingSpecies:9606;VariantGroup:2;tmVar:c
+37201029	Positive_Correlation	MESH:D001327	RS#:9274529;HGVS:c.-80T>C;CorrespondingGene:3119
+37201029	Association	3105	4763
+37201029	Positive_Correlation	MESH:D001327	CorrespondingGene:4774;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c
+37201029	Positive_Correlation	MESH:D001327	RS#:71542466;HGVS:c.-71G>C;CorrespondingGene:3119
+37201029	Association	MESH:D001327	3105
+37201029	Association	MESH:D001327	3119
+37201029	Association	2908	3119
+37201029	Association	3105	4774
+37201029	Association	2908	3105
+37201029	Association	MESH:D001327	RS#:9274529;HGVS:c.-80T>C;CorrespondingGene:3119
+37201029	Association	3119	4763
+37201029	Association	2908	6908
+37201029	Positive_Correlation	MESH:D001327	RS#:9274529;CorrespondingGene:3119
+37201029	Positive_Correlation	MESH:D001327	RS#:71542466;CorrespondingGene:3119
+37201029	Association	3119	4774
+37201029	Association	MESH:D001327	4763
+37201029	Association	MESH:D001327	4774
+

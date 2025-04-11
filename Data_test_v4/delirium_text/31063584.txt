@@ -1,0 +1,71 @@
+31063584|t|Activation of peroxisome proliferator-activated receptor delta suppresses BACE1 expression by up-regulating SOCS1 in a JAK2/STAT1-dependent manner.
+31063584|a|Neuronal expression of beta-secretase 1 (BACE1) has been implicated in the progression of Alzheimer's disease. However, the mechanisms that regulate BACE1 expression are unclear. Here, we show that peroxisome proliferator-activated receptor delta (PPARdelta) decreases BACE1 expression by up-regulating suppressor of cytokine signaling 1 (SOCS1) in SH-SY5Y neuroblastoma cells. The activation of PPARdelta by GW501516, a specific PPARdelta agonist, inhibited expression of BACE1. This effect was abrogated by shRNA-mediated knockdown of PPARdelta and by treatment with the PPARdelta antagonist GSK0660, indicating that PPARdelta is involved in GW501516-mediated suppression of BACE1 expression. On the other hand, GW501516-activated PPARdelta induced expression of SOCS1, which is a negative regulator of cytokine signal transduction, at the transcriptional level by binding to a PPAR response element in its promoter. This GW501516-mediated induction of SOCS1 expression led to down-regulation of BACE1 expression via inactivation of signal transducer and activator of transcription 1. GW501516-activated PPARdelta suppressed the generation of neurotoxic amyloid beta (Abeta) in accordance with the decrease in BACE1 expression. Taken together, these results indicate that PPARdelta attenuates BACE1 expression via SOCS1-mediated inhibition of signal transducer and activator of transcription 1 signaling, thereby suppressing BACE1-associated generation of neurotoxic Abeta.
+31063584	14	62	peroxisome proliferator-activated receptor delta	Gene	5467
+31063584	74	79	BACE1	Gene	23621
+31063584	108	113	SOCS1	Gene	8651
+31063584	119	123	JAK2	Gene	3717
+31063584	124	129	STAT1	Gene	6772
+31063584	171	187	beta-secretase 1	Gene	23621
+31063584	189	194	BACE1	Gene	23621
+31063584	238	257	Alzheimer's disease	Disease	MESH:D000544
+31063584	297	302	BACE1	Gene	23621
+31063584	346	394	peroxisome proliferator-activated receptor delta	Gene	5467
+31063584	396	405	PPARdelta	Gene	5467
+31063584	417	422	BACE1	Gene	23621
+31063584	451	485	suppressor of cytokine signaling 1	Gene	8651
+31063584	487	492	SOCS1	Gene	8651
+31063584	497	518	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+31063584	544	553	PPARdelta	Gene	5467
+31063584	557	565	GW501516	Chemical	MESH:C425931
+31063584	578	587	PPARdelta	Gene	5467
+31063584	621	626	BACE1	Gene	23621
+31063584	685	694	PPARdelta	Gene	5467
+31063584	721	730	PPARdelta	Gene	5467
+31063584	742	749	GSK0660	Chemical	MESH:C529769
+31063584	767	776	PPARdelta	Gene	5467
+31063584	792	800	GW501516	Chemical	MESH:C425931
+31063584	825	830	BACE1	Gene	23621
+31063584	862	870	GW501516	Chemical	MESH:C425931
+31063584	881	890	PPARdelta	Gene	5467
+31063584	913	918	SOCS1	Gene	8651
+31063584	1028	1032	PPAR	Gene	5465
+31063584	1072	1080	GW501516	Chemical	MESH:C425931
+31063584	1103	1108	SOCS1	Gene	8651
+31063584	1146	1151	BACE1	Gene	23621
+31063584	1183	1233	signal transducer and activator of transcription 1	Gene	6772
+31063584	1235	1243	GW501516	Chemical	MESH:C425931
+31063584	1254	1263	PPARdelta	Gene	5467
+31063584	1293	1303	neurotoxic	Disease	MESH:D020258
+31063584	1304	1316	amyloid beta	Gene	351
+31063584	1318	1323	Abeta	Gene	351
+31063584	1360	1365	BACE1	Gene	23621
+31063584	1422	1431	PPARdelta	Gene	5467
+31063584	1443	1448	BACE1	Gene	23621
+31063584	1464	1469	SOCS1	Gene	8651
+31063584	1493	1543	signal transducer and activator of transcription 1	Gene	6772
+31063584	1575	1580	BACE1	Gene	23621
+31063584	1606	1616	neurotoxic	Disease	MESH:D020258
+31063584	1617	1622	Abeta	Gene	351
+31063584	Negative_Correlation	MESH:C425931	351
+31063584	Association	MESH:C425931	5465
+31063584	Negative_Correlation	23621	5467
+31063584	Association	MESH:D020258	23621
+31063584	Bind	5465	5467
+31063584	Negative_Correlation	MESH:C425931	23621
+31063584	Association	5467	6772
+31063584	Association	6772	8651
+31063584	Negative_Correlation	MESH:D020258	5467
+31063584	Association	23621	6772
+31063584	Negative_Correlation	MESH:C529769	5467
+31063584	Negative_Correlation	23621	8651
+31063584	Association	5465	8651
+31063584	Association	MESH:D000544	23621
+31063584	Negative_Correlation	MESH:C425931	MESH:D020258
+31063584	Negative_Correlation	351	5467
+31063584	Positive_Correlation	MESH:C425931	8651
+31063584	Positive_Correlation	23621	351
+31063584	Positive_Correlation	MESH:C425931	5467
+31063584	Association	MESH:D020258	351
+31063584	Positive_Correlation	5467	8651
+31063584	Negative_Correlation	MESH:C425931	6772
+

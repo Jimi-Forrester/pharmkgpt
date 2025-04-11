@@ -1,0 +1,12 @@
+33891263|t|Machine learning-based modeling to predict inhibitors of acetylcholinesterase.
+33891263|a|Acetylcholinesterase enzyme is responsible for the degradation of acetylcholine and is an important drug target for the treatment of Alzheimer's disease. When this enzyme is inhibited, more acetylcholine is available in the synaptic cleft for the use, which leads to enhanced memory and cognitive ability. The aim of the present work is to create machine learning models for distinguishing between AChE inhibitors and non-inhibitors using algorithms like support vector machine (SVM), k-nearest neighbor (k-NN) and random forest (RF). The developed models were evaluated by 10-fold cross-validation and external dataset. Descriptor analysis was performed to identify most important features for the activity of molecules. Descriptors which were identified as important include maxssCH2, minHssNH, SaasC, minssCH2, bit 128 MACCS key, bit 104 MACCS key, bit 24 estate fingerprint and bit 18 estate fingerprints. The model developed using fingerprints based on random forest algorithm produced better results compared to other models. The overall accuracy of best model on test set was 85.38 percent. The developed model is available at http://14.139.57.41/achepredictor/ .
+33891263	57	77	acetylcholinesterase	Gene	43
+33891263	79	99	Acetylcholinesterase	Gene	43
+33891263	145	158	acetylcholine	Chemical	MESH:D000109
+33891263	212	231	Alzheimer's disease	Disease	MESH:D000544
+33891263	269	282	acetylcholine	Chemical	MESH:D000109
+33891263	477	481	AChE	Gene	43
+33891263	Association	MESH:D000544	43
+33891263	Association	MESH:D000109	MESH:D000544
+33891263	Negative_Correlation	MESH:D000109	43
+

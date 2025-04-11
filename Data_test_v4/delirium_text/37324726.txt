@@ -1,0 +1,15 @@
+37324726|t|Predicting Short-Term Mortality in Older Patients Discharged from Acute Hospitalizations Lasting Less Than 24 Hours.
+37324726|a|Purpose: Over coming decades, a rise in the number of short, acute hospitalizations of older people is to be expected. To help physicians identify high-risk patients prior to discharge, we aimed to develop a model capable of predicting the risk of 30-day mortality for older patients discharged from short, acute hospitalizations and to examine how model performance changed with an increasing amount of information. Methods: This registry-based study included acute hospitalizations in Denmark for 2016-2018 lasting <=24 hours where patients were permanent residents, >=65 years old, and discharged alive. Utilizing many different predictor variables, we developed random forest models with an increasing amount of information, compared their performance, and examined important variables. Results: We included 107,132 patients with a median age of 75 years. Of these, 3.3% (n=3575) died within 30 days of discharge. Model performance improved especially with the addition of laboratory results and information on prior acute admissions (AUROC 0.835), and again with comorbidities and number of prescription drugs (AUROC 0.860). Model performance did not improve with the addition of sociodemographic variables (AUROC 0.861), apart from age and sex. Important variables included age, dementia, number of prescription drugs, C-reactive protein, and eGFR. Conclusion: The best model accurately estimated the risk of short-term mortality for older patients following short, acute hospitalizations. Trained on a large and heterogeneous dataset, the model is applicable to most acute clinical settings and could be a useful tool for physicians prior to discharge.
+37324726	22	31	Mortality	Disease	MESH:D003643
+37324726	41	49	Patients	Species	9606
+37324726	274	282	patients	Species	9606
+37324726	372	381	mortality	Disease	MESH:D003643
+37324726	392	400	patients	Species	9606
+37324726	651	659	patients	Species	9606
+37324726	937	945	patients	Species	9606
+37324726	1001	1005	died	Disease	MESH:D003643
+37324726	1402	1410	dementia	Disease	MESH:D003704
+37324726	1442	1460	C-reactive protein	Gene	1401
+37324726	1543	1552	mortality	Disease	MESH:D003643
+37324726	1563	1571	patients	Species	9606
+

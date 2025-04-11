@@ -1,0 +1,22 @@
+33956800|t|Machine learning of EEG spectra classifies unconsciousness during GABAergic anesthesia.
+33956800|a|In current anesthesiology practice, anesthesiologists infer the state of unconsciousness without directly monitoring the brain. Drug- and patient-specific electroencephalographic (EEG) signatures of anesthesia-induced unconsciousness have been identified previously. We applied machine learning approaches to construct classification models for real-time tracking of unconscious state during anesthesia-induced unconsciousness. We used cross-validation to select and train the best performing models using 33,159 2s segments of EEG data recorded from 7 healthy volunteers who received increasing infusions of propofol while responding to stimuli to directly assess unconsciousness. Cross-validated models of unconsciousness performed very well when tested on 13,929 2s EEG segments from 3 left-out volunteers collected under the same conditions (median volunteer AUCs 0.99-0.99). Models showed strong generalization when tested on a cohort of 27 surgical patients receiving solely propofol collected in a separate clinical dataset under different circumstances and using different hardware (median patient AUCs 0.95-0.98), with model predictions corresponding with actions taken by the anesthesiologist during the cases. Performance was also strong for 17 patients receiving sevoflurane (alone or in addition to propofol) (median AUCs 0.88-0.92). These results indicate that EEG spectral features can predict unconsciousness, even when tested on a different anesthetic that acts with a similar neural mechanism. With high performance predictions of unconsciousness, we can accurately monitor anesthetic state, and this approach may be used to engineer infusion pumps to intelligibly respond to patients' neural activity.
+33956800	43	58	unconsciousness	Disease	MESH:D014474
+33956800	66	75	GABAergic	Chemical	-
+33956800	161	176	unconsciousness	Disease	MESH:D014474
+33956800	226	233	patient	Species	9606
+33956800	306	321	unconsciousness	Disease	MESH:D014474
+33956800	499	514	unconsciousness	Disease	MESH:D014474
+33956800	697	705	propofol	Chemical	MESH:D015742
+33956800	753	768	unconsciousness	Disease	MESH:D014474
+33956800	796	811	unconsciousness	Disease	MESH:D014474
+33956800	1043	1051	patients	Species	9606
+33956800	1069	1077	propofol	Chemical	MESH:D015742
+33956800	1186	1193	patient	Species	9606
+33956800	1344	1352	patients	Species	9606
+33956800	1363	1374	sevoflurane	Chemical	MESH:D000077149
+33956800	1400	1408	propofol	Chemical	MESH:D015742
+33956800	1497	1512	unconsciousness	Disease	MESH:D014474
+33956800	1637	1652	unconsciousness	Disease	MESH:D014474
+33956800	1782	1790	patients	Species	9606
+33956800	Positive_Correlation	MESH:D015742	MESH:D014474
+

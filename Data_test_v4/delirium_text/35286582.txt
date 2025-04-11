@@ -1,0 +1,95 @@
+35286582|t|SOCE-mediated NFAT1-NOX2-NLRP1 inflammasome involves in lipopolysaccharide-induced neuronal damage and Abeta generation.
+35286582|a|The level of lipopolysaccharide (LPS) is higher in the blood and brains of patients with Alzheimer's disease (AD), and this phenomenon is strongly linked to AD-related neuronal damage and beta-amyloid (Abeta) generation. However, the mechanism by which LPS causes neuronal damage has still not been fully clarified. Oxidative stress, neuroinflammation, and Ca2+ overload are regarded as important factors influencing AD. NADPH oxidase 2 (NOX2) and the NOD-like receptor family protein 1 (NLRP1) inflammasome play important roles in promoting oxidative stress and inflammation in neurons. Ca2+ overload can activate calcineurin (CN), which further dephosphorylates nuclear factor of activated T cells (NFAT), leading to its translocation into the nucleus to regulate gene transcription. In the present study, LPS (250 microg/kg) exposure for 14 days was used to induce cognitive dysfunction in mice and LPS (20 microg/ml) exposure for 48 h was used to induce neuronal damage in HT22 cells. The results showed that LPS exposure activated phospholipase C (PLC), CN, and NFAT1; increased the expressions of NOX2- and NLRP1-related proteins; and promoted neuronal damage and Abeta deposition in mice and HT22 cells. However, treatment with 2-APB (SOCE inhibitor), apocynin (NOX inhibitor), or tempol (reactive oxygen species scavenger) significantly reversed these LPS-induced changes, and improved neuronal damage and Abeta deposition. Moreover, LPS exposure promoted PLC phosphorylation, increased the level of inositol-1,4,5-triphosphate, elevated the intracellular Ca2+ concentration ([Ca2+]i), and disrupted [Ca2+]i homeostasis in HT22 cells. These data indicated that the activation of SOCE-mediated NFAT1-NOX2-NLRP1 inflammasome involves in LPS-induced neuronal damage and Abeta generation.
+35286582	14	19	NFAT1	Gene	18019
+35286582	20	24	NOX2	Gene	13058
+35286582	25	30	NLRP1	Gene	195046
+35286582	56	74	lipopolysaccharide	Chemical	MESH:D008070
+35286582	83	98	neuronal damage	Disease	MESH:D009410
+35286582	103	108	Abeta	Gene	351
+35286582	134	152	lipopolysaccharide	Chemical	MESH:D008070
+35286582	154	157	LPS	Chemical	MESH:D008070
+35286582	196	204	patients	Species	9606
+35286582	210	229	Alzheimer's disease	Disease	MESH:D000544
+35286582	231	233	AD	Disease	MESH:D000544
+35286582	278	280	AD	Disease	MESH:D000544
+35286582	289	304	neuronal damage	Disease	MESH:D009410
+35286582	323	328	Abeta	Gene	351
+35286582	374	377	LPS	Chemical	MESH:D008070
+35286582	385	400	neuronal damage	Disease	MESH:D009410
+35286582	455	472	neuroinflammation	Disease	MESH:D000090862
+35286582	478	482	Ca2+	Chemical	-
+35286582	538	540	AD	Disease	MESH:D000544
+35286582	542	557	NADPH oxidase 2	Gene	1536
+35286582	559	563	NOX2	Gene	1536
+35286582	573	607	NOD-like receptor family protein 1	Gene	22861
+35286582	609	614	NLRP1	Gene	22861
+35286582	684	696	inflammation	Disease	MESH:D007249
+35286582	709	713	Ca2+	Chemical	-
+35286582	929	932	LPS	Chemical	MESH:D008070
+35286582	989	1010	cognitive dysfunction	Disease	MESH:D003072
+35286582	1014	1018	mice	Species	10090
+35286582	1023	1026	LPS	Chemical	MESH:D008070
+35286582	1079	1094	neuronal damage	Disease	MESH:D009410
+35286582	1098	1102	HT22	CellLine	CVCL:0321
+35286582	1134	1137	LPS	Chemical	MESH:D008070
+35286582	1188	1193	NFAT1	Gene	18019
+35286582	1224	1228	NOX2	Gene	13058
+35286582	1234	1239	NLRP1	Gene	195046
+35286582	1271	1286	neuronal damage	Disease	MESH:D009410
+35286582	1291	1296	Abeta	Gene	11820
+35286582	1311	1315	mice	Species	10090
+35286582	1320	1324	HT22	CellLine	CVCL:0321
+35286582	1356	1361	2-APB	Chemical	MESH:C109986
+35286582	1380	1388	apocynin	Chemical	MESH:C056165
+35286582	1409	1415	tempol	Chemical	MESH:C001803
+35286582	1417	1440	reactive oxygen species	Chemical	MESH:D017382
+35286582	1481	1484	LPS	Chemical	MESH:D008070
+35286582	1515	1530	neuronal damage	Disease	MESH:D009410
+35286582	1535	1540	Abeta	Gene	11820
+35286582	1563	1566	LPS	Chemical	MESH:D008070
+35286582	1629	1656	inositol-1,4,5-triphosphate	Chemical	MESH:D015544
+35286582	1685	1689	Ca2+	Chemical	-
+35286582	1706	1710	Ca2+	Chemical	-
+35286582	1730	1734	Ca2+	Chemical	-
+35286582	1752	1756	HT22	CellLine	CVCL:0321
+35286582	1822	1827	NFAT1	Gene	18019
+35286582	1828	1832	NOX2	Gene	13058
+35286582	1833	1838	NLRP1	Gene	195046
+35286582	1864	1867	LPS	Chemical	MESH:D008070
+35286582	1876	1891	neuronal damage	Disease	MESH:D009410
+35286582	1896	1901	Abeta	Gene	11820
+35286582	Association	13058	18019
+35286582	Positive_Correlation	MESH:D008070	MESH:D003072
+35286582	Association	MESH:D007249	22861
+35286582	Association	MESH:D000544	351
+35286582	Association	18019	351
+35286582	Association	195046	351
+35286582	Positive_Correlation	MESH:C001803	11820
+35286582	Association	MESH:D009410	18019
+35286582	Association	13058	351
+35286582	Negative_Correlation	MESH:C001803	MESH:D009410
+35286582	Positive_Correlation	MESH:D008070	18019
+35286582	Negative_Correlation	MESH:C001803	MESH:D017382
+35286582	Association	18019	195046
+35286582	Positive_Correlation	MESH:D008070	MESH:D015544
+35286582	Positive_Correlation	MESH:D008070	MESH:D000544
+35286582	Association	11820	18019
+35286582	Negative_Correlation	MESH:C109986	MESH:D008070
+35286582	Association	MESH:D009410	195046
+35286582	Positive_Correlation	MESH:D008070	13058
+35286582	Positive_Correlation	MESH:D008070	351
+35286582	Negative_Correlation	MESH:C001803	MESH:D008070
+35286582	Association	MESH:D007249	1536
+35286582	Positive_Correlation	MESH:C109986	11820
+35286582	Positive_Correlation	MESH:D008070	11820
+35286582	Positive_Correlation	MESH:C056165	11820
+35286582	Association	11820	195046
+35286582	Negative_Correlation	MESH:C056165	MESH:D009410
+35286582	Association	13058	195046
+35286582	Negative_Correlation	MESH:C056165	MESH:D008070
+35286582	Association	11820	13058
+35286582	Negative_Correlation	MESH:C109986	MESH:D009410
+35286582	Positive_Correlation	MESH:D008070	MESH:D009410
+35286582	Positive_Correlation	MESH:D008070	195046
+35286582	Association	MESH:D009410	13058
+

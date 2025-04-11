@@ -1,0 +1,44 @@
+26840709|t|Gene expression profiling analysis of lung adenocarcinoma.
+26840709|a|The present study screened potential genes related to lung adenocarcinoma, with the aim of further understanding disease pathogenesis. The GSE2514 dataset including 20 lung adenocarcinoma and 19 adjacent normal tissue samples from 10 patients with lung adenocarcinoma aged 45-73 years was downloaded from Gene Expression Omnibus. Differentially expressed genes (DEGs) between the two groups were screened using the t-test. Potential gene functions were predicted using functional and pathway enrichment analysis, and protein-protein interaction (PPI) networks obtained from the STRING database were constructed with Cytoscape. Module analysis of PPI networks was performed through MCODE in Cytoscape. In total, 535 upregulated and 465 downregulated DEGs were identified. These included ATP5D, UQCRC2, UQCR11 and genes encoding nicotinamide adenine dinucleotide (NADH), which are mainly associated with mitochondrial ATP synthesis coupled electron transport, and which were enriched in the oxidative phosphorylation pathway. Other DEGs were associated with DNA replication (PRIM1, MCM3, and RNASEH2A), cell surface receptor-linked signal transduction and the enzyme-linked receptor protein signaling pathway (MAPK1, STAT3, RAF1, and JAK1), and regulation of the cytoskeleton and phosphatidylinositol signaling system (PIP5K1B, PIP5K1C, and PIP4K2B). Our findings suggest that DEGs encoding subunits of NADH, PRIM1, MCM3, MAPK1, STAT3, RAF1, and JAK1 might be associated with the development of lung adenocarcinoma. 
+26840709	38	57	lung adenocarcinoma	Disease	MESH:D000077192
+26840709	113	132	lung adenocarcinoma	Disease	MESH:D000077192
+26840709	227	246	lung adenocarcinoma	Disease	MESH:D000077192
+26840709	293	301	patients	Species	9606
+26840709	307	326	lung adenocarcinoma	Disease	MESH:D000077192
+26840709	845	850	ATP5D	Gene	513
+26840709	852	858	UQCRC2	Gene	7385
+26840709	860	866	UQCR11	Gene	10975
+26840709	975	978	ATP	Chemical	MESH:D000255
+26840709	1132	1137	PRIM1	Gene	5557
+26840709	1139	1143	MCM3	Gene	4172
+26840709	1149	1157	RNASEH2A	Gene	10535
+26840709	1160	1181	cell surface receptor	Gene	57126
+26840709	1267	1272	MAPK1	Gene	5594
+26840709	1274	1279	STAT3	Gene	6774
+26840709	1281	1285	RAF1	Gene	5894
+26840709	1291	1295	JAK1	Gene	3716
+26840709	1337	1357	phosphatidylinositol	Chemical	MESH:D010716
+26840709	1376	1383	PIP5K1B	Gene	8395
+26840709	1385	1392	PIP5K1C	Gene	23396
+26840709	1398	1405	PIP4K2B	Gene	8396
+26840709	1466	1471	PRIM1	Gene	5557
+26840709	1473	1477	MCM3	Gene	4172
+26840709	1479	1484	MAPK1	Gene	5594
+26840709	1486	1491	STAT3	Gene	6774
+26840709	1493	1497	RAF1	Gene	5894
+26840709	1503	1507	JAK1	Gene	3716
+26840709	1552	1571	lung adenocarcinoma	Disease	MESH:D000077192
+26840709	Association	MESH:D010716	8395
+26840709	Association	MESH:D000077192	8395
+26840709	Association	MESH:D000077192	3716
+26840709	Association	MESH:D000077192	6774
+26840709	Association	MESH:D000077192	5894
+26840709	Association	MESH:D000077192	5594
+26840709	Association	MESH:D000077192	23396
+26840709	Association	3716	57126
+26840709	Association	MESH:D000077192	8396
+26840709	Association	MESH:D010716	23396
+26840709	Association	MESH:D010716	8396
+26840709	Association	MESH:D000077192	4172
+26840709	Association	MESH:D000077192	5557
+

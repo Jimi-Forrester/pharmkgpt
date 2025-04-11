@@ -1,0 +1,40 @@
+37743471|t|Comprehensive analysis and validation of SNX7 as a novel biomarker for the diagnosis, prognosis, and prediction of chemotherapy and immunotherapy response in hepatocellular carcinoma.
+37743471|a|BACKGROUND: Studies have demonstrated that Sorting nexin 7 (SNX7) functions as an anti-apoptotic protein in liver tissue and plays a crucial role in the survival of hepatocytes during early embryonic development. However, its diagnostic and prognostic value as well as the predictive value of chemotherapy and immunotherapy have not been reported in hepatocellular carcinoma (HCC). METHODS: SNX7 mRNA expression and its diagnostic efficacy were examined in GEO datasets, and the findings were further confirmed in TCGA, ICGC cohorts, and cell lines. The protein level of SNX7 was determined using CPTAC and HPA databases, and the results were validated through immunohistochemistry (IHC). Survival analyses were performed in TCGA and ICGC cohorts, and the results were subsequently validated via Kaplan-Meier Plotter. The response to chemotherapy and immunotherapy was predicted via GDSC dataset and TIDE algorithm, respectively. R packages were employed to explore the relationship between SNX7 expression and immune infiltration, m6A modification, as well as the functional enrichment of differentially expressed genes (DEGs). RESULTS: The expression of SNX7 at both mRNA and protein levels was significantly upregulated in HCC tissues. SNX7 exhibited superior diagnostic efficacy compared to AFP alone for HCC detection, and combining it with AFP improved the diagnostic accuracy for HCC. High SNX7 was associated with unfavorable outcomes, including poor overall survival, disease-specific survival, progression-free survival, and advanced pathological stage, in patients with HCC, and SNX7 was identified as an independent risk factor for HCC. Moreover, elevated SNX7 expression was positively correlated with increased sensitivity to various chemotherapy drugs, including sorafenib, while it was associated with resistance to immunotherapy in HCC patients. Correlation analysis revealed a relationship between SNX7 and multiple m6A-related genes and various immune cells. Finally, enrichment analysis demonstrated strong associations of SNX7 with critical biological processes, such as cell cycle regulation, cellular senescence, cell adhesion, DNA replication, and mismatch repair pathway in HCC. CONCLUSIONS: Our study highlights the association of SNX7 with the immune microenvironment and its potential influence on HCC progression. SNX7 emerges as a promising novel biomarker for the diagnosis, prognosis, and prediction of response to chemotherapy and immunotherapy in patients with HCC.
+37743471	41	45	SNX7	Gene	51375
+37743471	158	182	hepatocellular carcinoma	Disease	MESH:D006528
+37743471	227	242	Sorting nexin 7	Gene	51375
+37743471	244	248	SNX7	Gene	51375
+37743471	534	558	hepatocellular carcinoma	Disease	MESH:D006528
+37743471	560	563	HCC	Disease	MESH:D006528
+37743471	575	579	SNX7	Gene	51375
+37743471	755	759	SNX7	Gene	51375
+37743471	1175	1179	SNX7	Gene	51375
+37743471	1216	1219	m6A	Chemical	MESH:C005955
+37743471	1340	1344	SNX7	Gene	51375
+37743471	1410	1413	HCC	Disease	MESH:D006528
+37743471	1423	1427	SNX7	Gene	51375
+37743471	1479	1482	AFP	Gene	174
+37743471	1493	1496	HCC	Disease	MESH:D006528
+37743471	1530	1533	AFP	Gene	174
+37743471	1571	1574	HCC	Disease	MESH:D006528
+37743471	1581	1585	SNX7	Gene	51375
+37743471	1765	1768	HCC	Disease	MESH:D006528
+37743471	1774	1778	SNX7	Gene	51375
+37743471	1828	1831	HCC	Disease	MESH:D006528
+37743471	1852	1856	SNX7	Gene	51375
+37743471	1962	1971	sorafenib	Chemical	MESH:D000077157
+37743471	2033	2036	HCC	Disease	MESH:D006528
+37743471	2100	2104	SNX7	Gene	51375
+37743471	2118	2121	m6A	Chemical	MESH:C005955
+37743471	2227	2231	SNX7	Gene	51375
+37743471	2383	2386	HCC	Disease	MESH:D006528
+37743471	2441	2445	SNX7	Gene	51375
+37743471	2510	2513	HCC	Disease	MESH:D006528
+37743471	2527	2531	SNX7	Gene	51375
+37743471	2679	2682	HCC	Disease	MESH:D006528
+37743471	Association	MESH:C005955	51375
+37743471	Positive_Correlation	MESH:D000077157	51375
+37743471	Association	MESH:D006528	174
+37743471	Positive_Correlation	MESH:D006528	51375
+37743471	Negative_Correlation	MESH:D000077157	MESH:D006528
+

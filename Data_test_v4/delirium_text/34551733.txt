@@ -1,0 +1,12 @@
+34551733|t|Non-small-cell lung cancer classification via RNA-Seq and histology imaging probability fusion.
+34551733|a|BACKGROUND: Adenocarcinoma and squamous cell carcinoma are the two most prevalent lung cancer types, and their distinction requires different screenings, such as the visual inspection of histology slides by an expert pathologist, the analysis of gene expression or computer tomography scans, among others. In recent years, there has been an increasing gathering of biological data for decision support systems in the diagnosis (e.g. histology imaging, next-generation sequencing technologies data, clinical information, etc.). Using all these sources to design integrative classification approaches may improve the final diagnosis of a patient, in the same way that doctors can use multiple types of screenings to reach a final decision on the diagnosis. In this work, we present a late fusion classification model using histology and RNA-Seq data for adenocarcinoma, squamous-cell carcinoma and healthy lung tissue. RESULTS: The classification model improves results over using each source of information separately, being able to reduce the diagnosis error rate up to a 64% over the isolate histology classifier and a 24% over the isolate gene expression classifier, reaching a mean F1-Score of 95.19% and a mean AUC of 0.991. CONCLUSIONS: These findings suggest that a classification model using a late fusion methodology can considerably help clinicians in the diagnosis between the aforementioned lung cancer cancer subtypes over using each source of information separately. This approach can also be applied to any cancer type or disease with heterogeneous sources of information.
+34551733	0	26	Non-small-cell lung cancer	Disease	MESH:D002289
+34551733	108	122	Adenocarcinoma	Disease	MESH:D000230
+34551733	127	150	squamous cell carcinoma	Disease	MESH:D002294
+34551733	178	189	lung cancer	Disease	MESH:D008175
+34551733	732	739	patient	Species	9606
+34551733	948	962	adenocarcinoma	Disease	MESH:D000230
+34551733	964	987	squamous-cell carcinoma	Disease	MESH:D002294
+34551733	1498	1516	lung cancer cancer	Disease	MESH:D009369
+34551733	1617	1623	cancer	Disease	MESH:D009369
+

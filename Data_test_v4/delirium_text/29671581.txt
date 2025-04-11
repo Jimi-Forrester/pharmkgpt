@@ -1,0 +1,28 @@
+29671581|t|Proposing Novel MAO-B Hit Inhibitors Using Multidimensional Molecular Modeling Approaches and Application of Binary QSAR Models for Prediction of Their Therapeutic Activity, Pharmacokinetic and Toxicity Properties.
+29671581|a|Monoamine oxidase (MAO) enzymes MAO-A and MAO-B play a critical role in the metabolism of monoamine neurotransmitters. Hence, MAO inhibitors are very important for the treatment of several neurodegenerative diseases such as Parkinson's disease (PD), Alzheimer's disease (AD), and amyotrophic lateral sclerosis (ALS). In this study, 256 750 molecules from Otava Green Chemical Collection were virtually screened for their binding activities as MAO-B inhibitors. Two hit molecules were identified after applying different filters such as high docking scores and selectivity to MAO-B, desired pharmacokinetic profile predictions with binary quantitative structure-activity relationship (QSAR) models. Therapeutic activity prediction as well as pharmacokinetic and toxicity profiles were investigated using MetaCore/MetaDrug platform which is based on a manually curated database of molecular interactions, molecular pathways, gene-disease associations, chemical metabolism, and toxicity information. Particular therapeutic activity and toxic effect predictions are based on the ChemTree ability to correlate structural descriptors to that property using recursive partitioning algorithm. Molecular dynamics (MD) simulations were also performed to make more detailed assessments beyond docking studies. All these calculations were made not only to determine if studied molecules possess the potential to be a MAO-B inhibitor but also to find out whether they carry MAO-B selectivity versus MAO-A. The evaluation of docking results and pharmacokinetic profile predictions together with the MD simulations enabled us to identify one hit molecule (ligand 1, Otava ID: 3463218) which displayed higher selectivity toward MAO-B than a positive control selegiline which is a commercially used drug for PD therapeutic purposes.
+29671581	16	21	MAO-B	Gene	4129
+29671581	194	202	Toxicity	Disease	MESH:D064420
+29671581	247	252	MAO-A	Gene	4128
+29671581	257	262	MAO-B	Gene	4129
+29671581	305	332	monoamine neurotransmitters	Chemical	-
+29671581	404	430	neurodegenerative diseases	Disease	MESH:D019636
+29671581	439	458	Parkinson's disease	Disease	MESH:D010300
+29671581	460	462	PD	Disease	MESH:D010300
+29671581	465	484	Alzheimer's disease	Disease	MESH:D000544
+29671581	486	488	AD	Disease	MESH:D000544
+29671581	495	524	amyotrophic lateral sclerosis	Disease	MESH:D000690
+29671581	526	529	ALS	Disease	MESH:D000690
+29671581	658	663	MAO-B	Gene	4129
+29671581	790	795	MAO-B	Gene	4129
+29671581	976	984	toxicity	Disease	MESH:D064420
+29671581	1190	1198	toxicity	Disease	MESH:D064420
+29671581	1620	1625	MAO-B	Gene	4129
+29671581	1676	1681	MAO-B	Gene	4129
+29671581	1701	1707	MAO-A.	Gene	4128
+29671581	1866	1874	Otava ID	Chemical	-
+29671581	1927	1932	MAO-B	Gene	4129
+29671581	1957	1967	selegiline	Chemical	MESH:D012642
+29671581	2006	2008	PD	Disease	MESH:D010300
+29671581	Association	MESH:D000690	4129
+29671581	Negative_Correlation	MESH:D012642	MESH:D010300
+

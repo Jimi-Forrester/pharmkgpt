@@ -1,0 +1,46 @@
+37550899|t|DHT inhibits REDOX damage and neuroinflammation to reduce PND occurrence in aged mice via mmu_circ_0001442/miR-125a-3p/NUFIP2 axis.
+37550899|a|BACKGROUND: Perioperative neurocognitive disorder (PND) is the main cause of poor postoperative recovery in elderly patients with age-related reductions in androgen levels. However, the underlying mechanisms have not been completely elucidated. METHODS: A mouse model of PND was constructed using abdominal surgery. Dihydrotestosterone (DHT), as the primary androgen, can improve the cognitive function of mice with PNDs by reducing REDOX damage. To clarify the role of circular RNA (circRNA) in DHT in improving cognitive function in mice with PND, circRNA sequencing was performed to analyze the expression of circRNA in the hippocampus of mice. RESULTS: We confirmed that mmu_circ_0001442 is the primary circRNA responsive to DHT stimulation in mice with PND. The mmu_circ_0001442/miR-125a-3p/NUFIP2 axis was predicted and constructed according to the analysis of databases, including pita, miRanda, TargetScan, miRDB, micro-CDS, PolymiRTS, and TarBase v.8. Subsequently, the axis was verified by qPCR and double-luciferase reporter gene assays. In vitro, we found that DHT rarely had an effect on the growth of BV2 cells using the CCK-8 assay, but it attenuated the cytotoxic effect of lipopolysaccharide (LPS) on BV2 cells. In addition, we found that LPS stimulation promoted the release of proinflammatory cytokines, including IL-6 and TNF-alpha, in BV2 cells, whereas mmu_circ_0001442 knockdown and NUFIP2 knockdown partially abrogated this effect. CONCLUSIONS: Taken together, DHT inhibited REDOX damage and neuroinflammation in the hippocampus to alleviate cognitive disorders in mice with PNDs via activation of the mmu_circ_0001442/miR-125a-3p/NUFIP2 axis. This study provides a novel rationale for developing DHT as a potential therapeutic agent for PND prevention.
+37550899	0	3	DHT	Chemical	MESH:D013196
+37550899	30	47	neuroinflammation	Disease	MESH:D000090862
+37550899	58	61	PND	Disease	MESH:D019965
+37550899	119	125	NUFIP2	Gene	68564
+37550899	158	181	neurocognitive disorder	Disease	MESH:D019965
+37550899	183	186	PND	Disease	MESH:D019965
+37550899	403	406	PND	Disease	MESH:D019965
+37550899	448	467	Dihydrotestosterone	Chemical	MESH:D013196
+37550899	469	472	DHT	Chemical	MESH:D013196
+37550899	628	631	DHT	Chemical	MESH:D013196
+37550899	677	680	PND	Disease	MESH:D019965
+37550899	861	864	DHT	Chemical	MESH:D013196
+37550899	890	893	PND	Disease	MESH:D019965
+37550899	928	934	NUFIP2	Gene	68564
+37550899	1205	1208	DHT	Chemical	MESH:D013196
+37550899	1247	1250	BV2	CellLine	CVCL:0182
+37550899	1302	1311	cytotoxic	Disease	MESH:D064420
+37550899	1322	1340	lipopolysaccharide	Chemical	MESH:D008070
+37550899	1342	1345	LPS	Chemical	MESH:D008070
+37550899	1350	1353	BV2	CellLine	CVCL:0182
+37550899	1388	1391	LPS	Chemical	MESH:D008070
+37550899	1465	1469	IL-6	Gene	16193
+37550899	1474	1483	TNF-alpha	Gene	21926
+37550899	1488	1491	BV2	CellLine	CVCL:0182
+37550899	1538	1544	NUFIP2	Gene	68564
+37550899	1617	1620	DHT	Chemical	MESH:D013196
+37550899	1648	1665	neuroinflammation	Disease	MESH:D000090862
+37550899	1698	1717	cognitive disorders	Disease	MESH:D003072
+37550899	1787	1793	NUFIP2	Gene	68564
+37550899	1853	1856	DHT	Chemical	MESH:D013196
+37550899	1894	1897	PND	Disease	MESH:D019965
+37550899	Negative_Correlation	MESH:D013196	MESH:D019965
+37550899	Association	MESH:D019965	68564
+37550899	Association	MESH:D003072	68564
+37550899	Positive_Correlation	MESH:D008070	MESH:D064420
+37550899	Negative_Correlation	MESH:D013196	MESH:D064420
+37550899	Association	MESH:D000090862	68564
+37550899	Negative_Correlation	MESH:D013196	MESH:D000090862
+37550899	Positive_Correlation	MESH:D008070	21926
+37550899	Negative_Correlation	MESH:D008070	MESH:D013196
+37550899	Positive_Correlation	MESH:D013196	68564
+37550899	Positive_Correlation	MESH:D008070	16193
+37550899	Negative_Correlation	MESH:D013196	MESH:D003072
+

@@ -1,0 +1,12 @@
+34799630|t|Effect of data leakage in brain MRI classification using 2D convolutional neural networks.
+34799630|a|In recent years, 2D convolutional neural networks (CNNs) have been extensively used to diagnose neurological diseases from magnetic resonance imaging (MRI) data due to their potential to discern subtle and intricate patterns. Despite the high performances reported in numerous studies, developing CNN models with good generalization abilities is still a challenging task due to possible data leakage introduced during cross-validation (CV). In this study, we quantitatively assessed the effect of a data leakage caused by 3D MRI data splitting based on a 2D slice-level using three 2D CNN models to classify patients with Alzheimer's disease (AD) and Parkinson's disease (PD). Our experiments showed that slice-level CV erroneously boosted the average slice level accuracy on the test set by 30% on Open Access Series of Imaging Studies (OASIS), 29% on Alzheimer's Disease Neuroimaging Initiative (ADNI), 48% on Parkinson's Progression Markers Initiative (PPMI) and 55% on a local de-novo PD Versilia dataset. Further tests on a randomly labeled OASIS-derived dataset produced about 96% of (erroneous) accuracy (slice-level split) and 50% accuracy (subject-level split), as expected from a randomized experiment. Overall, the extent of the effect of an erroneous slice-based CV is severe, especially for small datasets.
+34799630	187	208	neurological diseases	Disease	MESH:D020271
+34799630	699	707	patients	Species	9606
+34799630	713	732	Alzheimer's disease	Disease	MESH:D000544
+34799630	734	736	AD	Disease	MESH:D000544
+34799630	742	761	Parkinson's disease	Disease	MESH:D010300
+34799630	763	765	PD	Disease	MESH:D010300
+34799630	944	963	Alzheimer's Disease	Disease	MESH:D000544
+34799630	1003	1014	Parkinson's	Disease	MESH:D010300
+34799630	1080	1082	PD	Disease	MESH:D010300
+

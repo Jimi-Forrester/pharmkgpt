@@ -1,0 +1,69 @@
+36195636|t|Neurogenesis is disrupted in human hippocampal progenitor cells upon exposure to serum samples from hospitalized COVID-19 patients with neurological symptoms.
+36195636|a|Coronavirus disease 2019 (COVID-19), represents an enormous new threat to our healthcare system and particularly to the health of older adults. Although the respiratory symptoms of COVID-19 are well recognized, the neurological manifestations, and their underlying cellular and molecular mechanisms, have not been extensively studied yet. Our study is the first one to test the direct effect of serum from hospitalised COVID-19 patients on human hippocampal neurogenesis using a unique in vitro experimental assay with human hippocampal progenitor cells (HPC0A07/03 C). We identify the different molecular pathways activated by serum from COVID-19 patients with and without neurological symptoms (i.e., delirium), and their effects on neuronal proliferation, neurogenesis, and apoptosis. We collected serum sample twice, at time of hospital admission and approximately 5 days after hospitalization. We found that treatment with serum samples from COVID-19 patients with delirium (n = 18) decreased cell proliferation and neurogenesis, and increases apoptosis, when compared with serum samples of sex- and age-matched COVID-19 patients without delirium (n = 18). This effect was due to a higher concentration of interleukin 6 (IL6) in serum samples of patients with delirium (mean +- SD: 229.9 +- 79.1 pg/ml, vs. 32.5 +- 9.5 pg/ml in patients without delirium). Indeed, treatment of cells with an antibody against IL6 prevented the decreased cell proliferation and neurogenesis and the increased apoptosis. Moreover, increased concentration of IL6 in serum samples from delirium patients stimulated the hippocampal cells to produce IL12 and IL13, and treatment with an antibody against IL12 or IL13 also prevented the decreased cell proliferation and neurogenesis, and the increased apoptosis. Interestingly, treatment with the compounds commonly administered to acute COVID-19 patients (the Janus kinase inhibitors, baricitinib, ruxolitinib and tofacitinib) were able to restore normal cell viability, proliferation and neurogenesis by targeting the effects of IL12 and IL13. Overall, our results show that serum from COVID-19 patients with delirium can negatively affect hippocampal-dependent neurogenic processes, and that this effect is mediated by IL6-induced production of the downstream inflammatory cytokines IL12 and IL13, which are ultimately responsible for the detrimental cellular outcomes.
+36195636	29	34	human	Species	9606
+36195636	113	121	COVID-19	Disease	MESH:D000086382
+36195636	122	130	patients	Species	9606
+36195636	136	157	neurological symptoms	Disease	MESH:D009461
+36195636	159	183	Coronavirus disease 2019	Disease	MESH:D000086382
+36195636	185	193	COVID-19	Disease	MESH:D000086382
+36195636	340	348	COVID-19	Disease	MESH:D000086382
+36195636	578	586	COVID-19	Disease	MESH:D000086382
+36195636	587	595	patients	Species	9606
+36195636	599	604	human	Species	9606
+36195636	678	683	human	Species	9606
+36195636	714	726	HPC0A07/03 C	CellLine	CVCL:9T02
+36195636	798	806	COVID-19	Disease	MESH:D000086382
+36195636	807	815	patients	Species	9606
+36195636	833	854	neurological symptoms	Disease	MESH:D009461
+36195636	862	870	delirium	Disease	MESH:D003693
+36195636	1106	1114	COVID-19	Disease	MESH:D000086382
+36195636	1115	1123	patients	Species	9606
+36195636	1129	1137	delirium	Disease	MESH:D003693
+36195636	1276	1284	COVID-19	Disease	MESH:D000086382
+36195636	1285	1293	patients	Species	9606
+36195636	1302	1310	delirium	Disease	MESH:D003693
+36195636	1370	1383	interleukin 6	Gene	3569
+36195636	1385	1388	IL6	Gene	3569
+36195636	1410	1418	patients	Species	9606
+36195636	1424	1432	delirium	Disease	MESH:D003693
+36195636	1492	1500	patients	Species	9606
+36195636	1509	1517	delirium	Disease	MESH:D003693
+36195636	1572	1575	IL6	Gene	3569
+36195636	1702	1705	IL6	Gene	3569
+36195636	1728	1736	delirium	Disease	MESH:D003693
+36195636	1737	1745	patients	Species	9606
+36195636	1790	1794	IL12	Gene	3593
+36195636	1799	1803	IL13	Gene	3596
+36195636	1844	1848	IL12	Gene	3593
+36195636	1852	1856	IL13	Gene	3596
+36195636	2027	2035	COVID-19	Disease	MESH:D000086382
+36195636	2036	2044	patients	Species	9606
+36195636	2075	2086	baricitinib	Chemical	MESH:C000596027
+36195636	2088	2099	ruxolitinib	Chemical	MESH:C540383
+36195636	2104	2115	tofacitinib	Chemical	MESH:C479163
+36195636	2220	2224	IL12	Gene	3593
+36195636	2229	2233	IL13	Gene	3596
+36195636	2277	2285	COVID-19	Disease	MESH:D000086382
+36195636	2286	2294	patients	Species	9606
+36195636	2300	2308	delirium	Disease	MESH:D003693
+36195636	2411	2414	IL6	Gene	3569
+36195636	2452	2464	inflammatory	Disease	MESH:D007249
+36195636	2475	2479	IL12	Gene	3593
+36195636	2484	2488	IL13	Gene	3596
+36195636	Negative_Correlation	MESH:C000596027	3596
+36195636	Positive_Correlation	3569	3596
+36195636	Negative_Correlation	MESH:C540383	MESH:D003693
+36195636	Positive_Correlation	3569	3593
+36195636	Negative_Correlation	MESH:C479163	MESH:D003693
+36195636	Negative_Correlation	MESH:C000596027	3593
+36195636	Positive_Correlation	MESH:D003693	3569
+36195636	Negative_Correlation	MESH:C000596027	MESH:D003693
+36195636	Association	MESH:C479163	3593
+36195636	Negative_Correlation	MESH:C540383	3593
+36195636	Association	MESH:D003693	3593
+36195636	Negative_Correlation	MESH:C540383	MESH:D000086382
+36195636	Negative_Correlation	MESH:C540383	3596
+36195636	Association	MESH:D000086382	3569
+36195636	Association	MESH:D003693	3596
+36195636	Association	MESH:C479163	3596
+

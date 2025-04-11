@@ -1,0 +1,58 @@
+27221710|t|Platelets contribute to amyloid-beta aggregation in cerebral vessels through integrin alphaIIbbeta3-induced outside-in signaling and clusterin release.
+27221710|a|Cerebral amyloid angiopathy (CAA) is a vascular dysfunction disorder characterized by deposits of amyloid-beta (Abeta) in the walls of cerebral vessels. CAA and Abeta deposition in the brain parenchyma contribute to dementia and Alzheimer's disease (AD). We investigated the contribution of platelets, which accumulate at vascular Abeta deposits, to CAA. We found that synthetic monomeric Abeta40 bound through its RHDS (Arg-His-Asp-Ser) sequence to integrin alphaIIbbeta3, which is the receptor for the extracellular matrix protein fibrinogen, and stimulated the secretion of adenosine diphosphate (ADP) and the chaperone protein clusterin from platelets. Clusterin promoted the formation of fibrillar Abeta aggregates, and ADP acted through its receptors P2Y1 and P2Y12 on platelets to enhance integrin alphaIIbbeta3 activation, further increasing the secretion of clusterin and Abeta40 binding to platelets. Platelets from patients with Glanzmann's thrombasthenia, a bleeding disorder in which platelets have little or dysfunctional alphaIIbbeta3, indicated that the abundance of this integrin dictated Abeta-induced clusterin release and platelet-induced Abeta aggregation. The antiplatelet agent clopidogrel, which irreversibly inhibits P2Y12, inhibited Abeta aggregation in platelet cultures; in transgenic AD model mice, this drug reduced the amount of clusterin in the circulation and the incidence of CAA. Our findings indicate that activated platelets directly contribute to CAA by promoting the formation of Abeta aggregates and that Abeta, in turn, activates platelets, creating a feed-forward loop. Thus, antiplatelet therapy may alleviate fibril formation in cerebral vessels of AD patients.
+27221710	24	36	amyloid-beta	Gene	351
+27221710	133	142	clusterin	Gene	1191
+27221710	152	179	Cerebral amyloid angiopathy	Disease	MESH:D016657
+27221710	181	184	CAA	Disease	MESH:D016657
+27221710	191	220	vascular dysfunction disorder	Disease	MESH:D002561
+27221710	250	262	amyloid-beta	Gene	351
+27221710	264	269	Abeta	Gene	351
+27221710	305	308	CAA	Disease	MESH:D016657
+27221710	313	318	Abeta	Gene	351
+27221710	368	376	dementia	Disease	MESH:D003704
+27221710	381	400	Alzheimer's disease	Disease	MESH:D000544
+27221710	402	404	AD	Disease	MESH:D000544
+27221710	483	488	Abeta	Gene	351
+27221710	502	505	CAA	Disease	MESH:D016657
+27221710	685	695	fibrinogen	Gene	2244
+27221710	729	750	adenosine diphosphate	Chemical	MESH:D000244
+27221710	752	755	ADP	Chemical	MESH:D000244
+27221710	783	792	clusterin	Gene	1191
+27221710	809	818	Clusterin	Gene	1191
+27221710	855	860	Abeta	Gene	351
+27221710	877	880	ADP	Chemical	MESH:D000244
+27221710	909	913	P2Y1	Gene	5028
+27221710	918	923	P2Y12	Gene	64805
+27221710	1019	1028	clusterin	Gene	1191
+27221710	1078	1086	patients	Species	9606
+27221710	1092	1118	Glanzmann's thrombasthenia	Disease	MESH:D013915
+27221710	1122	1139	bleeding disorder	Disease	MESH:D006470
+27221710	1258	1263	Abeta	Gene	351
+27221710	1272	1281	clusterin	Gene	1191
+27221710	1353	1364	clopidogrel	Chemical	MESH:D000077144
+27221710	1394	1399	P2Y12	Gene	70839
+27221710	1465	1467	AD	Disease	MESH:D000544
+27221710	1474	1478	mice	Species	10090
+27221710	1512	1521	clusterin	Gene	12759
+27221710	1562	1565	CAA	Disease	MESH:D016657
+27221710	1637	1640	CAA	Disease	MESH:D016657
+27221710	1671	1676	Abeta	Gene	351
+27221710	1697	1702	Abeta	Gene	351
+27221710	1845	1847	AD	Disease	MESH:D000544
+27221710	1848	1856	patients	Species	9606
+27221710	Positive_Correlation	MESH:D000544	1191
+27221710	Negative_Correlation	MESH:D000077144	MESH:D016657
+27221710	Association	MESH:D000244	64805
+27221710	Positive_Correlation	MESH:D016657	1191
+27221710	Negative_Correlation	MESH:D000077144	70839
+27221710	Association	MESH:D000544	351
+27221710	Positive_Correlation	MESH:D000244	1191
+27221710	Association	MESH:D003704	351
+27221710	Negative_Correlation	MESH:D000077144	12759
+27221710	Positive_Correlation	1191	64805
+27221710	Association	MESH:D016657	351
+27221710	Positive_Correlation	1191	5028
+27221710	Association	MESH:D000244	5028
+27221710	Positive_Correlation	1191	351
+27221710	Association	MESH:D013915	1191
+

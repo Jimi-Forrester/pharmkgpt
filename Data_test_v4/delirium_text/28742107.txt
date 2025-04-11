@@ -1,0 +1,10 @@
+28742107|t|Analyzing the locomotory gaitprint of Caenorhabditis elegans on the basis of empirical mode decomposition.
+28742107|a|The locomotory gait analysis of the microswimmer, Caenorhabditis elegans, is a commonly adopted approach for strain recognition and examination of phenotypic defects. Gait is also a visible behavioral expression of worms under external stimuli. This study developed an adaptive data analysis method based on empirical mode decomposition (EMD) to reveal the biological cues behind intricate motion. The method was used to classify the strains of worms according to their gaitprints (i.e., phenotypic traits of locomotion). First, a norm of the locomotory pattern was created from the worm of interest. The body curvature of the worm was decomposed into four intrinsic mode functions (IMFs). A radar chart showing correlations between the predefined database and measured worm was then obtained by dividing each IMF into three parts, namely, head, mid-body, and tail. A comprehensive resemblance score was estimated after k-means clustering. Simulated data that use sinusoidal waves were generated to assess the feasibility of the algorithm. Results suggested that temporal frequency is the major factor in the process. In practice, five worm strains, including wild-type N2, TJ356 (zIs356), CL2070 (dvIs70), CB0061 (dpy-5), and CL2120 (dvIs14), were investigated. The overall classification accuracy of the gaitprint analyses of all the strains reached nearly 89%. The method can also be extended to classify some motor neuron-related locomotory defects of C. elegans in the same fashion.
+28742107	38	60	Caenorhabditis elegans	Species	6239
+28742107	157	179	Caenorhabditis elegans	Species	6239
+28742107	1277	1279	N2	CellLine	CVCL:0470
+28742107	1322	1327	dpy-5	Gene	172197
+28742107	1541	1559	locomotory defects	Disease	MESH:D000013
+28742107	1563	1573	C. elegans	Species	328850
+28742107	Association	MESH:D000013	172197
+

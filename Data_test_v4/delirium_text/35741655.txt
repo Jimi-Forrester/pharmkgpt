@@ -1,0 +1,31 @@
+35741655|t|Homology Modelling, Molecular Docking and Molecular Dynamics Simulation Studies of CALMH1 against Secondary Metabolites of Bauhinia variegata to Treat Alzheimer's Disease.
+35741655|a|Calcium homeostasis modulator 1 (CALHM1) is a protein responsible for causing Alzheimer's disease. In the absence of an experimentally designed protein molecule, homology modelling was performed. Through homology modelling, different CALHM1 models were generated and validated through Rampage. To carry out further in silico studies, through molecular docking and molecular dynamics simulation experiments, various flavonoids and alkaloids from Bauhinia variegata were utilised as inhibitors to target the protein (CALHM1). The sequence of CALHM1 was retrieved from UniProt and the secondary structure prediction of CALHM1 was done through CFSSP, GOR4, and SOPMA methods. The structure was identified through LOMETS, MUSTER, and MODELLER and finally, the structures were validated through Rampage. Bauhinia variegata plant was used to check the interaction of alkaloids and flavonoids against CALHM1. The protein and protein-ligand complex were also validated through molecular dynamics simulations studies. The model generated through MODELLER software with 6VAM A was used because this model predicted the best results in the Ramachandran plot. Further molecular docking was performed, quercetin was found to be the most appropriate candidate for the protein molecule with the minimum binding energy of -12.45 kcal/mol and their ADME properties were analysed through Molsoft and Molinspiration. Molecular dynamics simulations showed that CALHM1 and CALHM1-quercetin complex became stable at 2500 ps. It may be seen through the study that quercetin may act as a good inhibitor for treatment. With the help of an in silico study, it was easier to analyse the 3D structure of the protein, which may be scrutinized for the best-predicted model. Quercetin may work as a good inhibitor for treating Alzheimer's disease, according to in silico research using molecular docking and molecular dynamics simulations, and future in vitro and in vivo analysis may confirm its effectiveness.
+35741655	123	141	Bauhinia variegata	Species	167791
+35741655	151	170	Alzheimer's Disease	Disease	MESH:D000544
+35741655	172	203	Calcium homeostasis modulator 1	Gene	255022
+35741655	205	211	CALHM1	Gene	255022
+35741655	250	269	Alzheimer's disease	Disease	MESH:D000544
+35741655	406	412	CALHM1	Gene	255022
+35741655	587	597	flavonoids	Chemical	MESH:D005419
+35741655	602	611	alkaloids	Chemical	MESH:D000470
+35741655	617	635	Bauhinia variegata	Species	167791
+35741655	687	693	CALHM1	Gene	255022
+35741655	712	718	CALHM1	Gene	255022
+35741655	788	794	CALHM1	Gene	255022
+35741655	970	994	Bauhinia variegata plant	Species	
+35741655	1032	1041	alkaloids	Chemical	MESH:D000470
+35741655	1046	1056	flavonoids	Chemical	MESH:D005419
+35741655	1065	1071	CALHM1	Gene	255022
+35741655	1360	1369	quercetin	Chemical	MESH:D011794
+35741655	1612	1618	CALHM1	Gene	255022
+35741655	1623	1629	CALHM1	Gene	255022
+35741655	1630	1639	quercetin	Chemical	MESH:D011794
+35741655	1712	1721	quercetin	Chemical	MESH:D011794
+35741655	1915	1924	Quercetin	Chemical	MESH:D011794
+35741655	1967	1986	Alzheimer's disease	Disease	MESH:D000544
+35741655	Negative_Correlation	MESH:D000470	255022
+35741655	Association	MESH:D000544	255022
+35741655	Negative_Correlation	MESH:D011794	MESH:D000544
+35741655	Negative_Correlation	MESH:D011794	255022
+35741655	Negative_Correlation	MESH:D005419	255022
+

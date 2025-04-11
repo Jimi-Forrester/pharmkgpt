@@ -1,0 +1,38 @@
+29761043|t|Differential expression patterns of housekeeping genes increase diagnostic and prognostic value in lung cancer.
+29761043|a|BACKGROUND: Using DNA microarrays, we previously identified 451 genes expressed in 19 different human tissues. Although ubiquitously expressed, the variable expression patterns of these "housekeeping genes" (HKGs) could separate one normal human tissue type from another. Current focus on identifying "specific disease markers" is problematic as single gene expression in a given sample represents the specific cellular states of the sample at the time of collection. In this study, we examine the diagnostic and prognostic potential of the variable expressions of HKGs in lung cancers. METHODS: Microarray and RNA-seq data for normal lungs, lung adenocarcinomas (AD), squamous cell carcinomas of the lung (SQCLC), and small cell carcinomas of the lung (SCLC) were collected from online databases. Using 374 of 451 HKGs, differentially expressed genes between pairs of sample types were determined via two-sided, homoscedastic t-test. Principal component analysis and hierarchical clustering classified normal lung and lung cancers subtypes according to relative gene expression variations. We used uni- and multi-variate cox-regressions to identify significant predictors of overall survival in AD patients. Classifying genes were selected using a set of training samples and then validated using an independent test set. Gene Ontology was examined by PANTHER. RESULTS: This study showed that the differential expression patterns of 242, 245, and 99 HKGs were able to distinguish normal lung from AD, SCLC, and SQCLC, respectively. From these, 70 HKGs were common across the three lung cancer subtypes. These HKGs have low expression variation compared to current lung cancer markers (e.g., EGFR, KRAS) and were involved in the most common biological processes (e.g., metabolism, stress response). In addition, the expression pattern of 106 HKGs alone was a significant classifier of AD versus SQCLC. We further highlighted that a panel of 13 HKGs was an independent predictor of overall survival and cumulative risk in AD patients. DISCUSSION: Here we report HKG expression patterns may be an effective tool for evaluation of lung cancer states. For example, the differential expression pattern of 70 HKGs alone can separate normal lung tissue from various lung cancers while a panel of 106 HKGs was a capable class predictor of subtypes of non-small cell carcinomas. We also reported that HKGs have significantly lower variance compared to traditional cancer markers across samples, highlighting the robustness of a panel of genes over any one specific biomarker. Using RNA-seq data, we showed that the expression pattern of 13 HKGs is a significant, independent predictor of overall survival for AD patients. This reinforces the predictive power of a HKG panel across different gene expression measurement platforms. Thus, we propose the expression patterns of HKGs alone may be sufficient for the diagnosis and prognosis of individuals with lung cancer.
+29761043	99	110	lung cancer	Disease	MESH:D008175
+29761043	208	213	human	Species	9606
+29761043	352	357	human	Species	9606
+29761043	685	697	lung cancers	Disease	MESH:D008175
+29761043	754	774	lung adenocarcinomas	Disease	MESH:D000077192
+29761043	776	778	AD	Disease	MESH:D000230
+29761043	781	817	squamous cell carcinomas of the lung	Disease	MESH:D002294
+29761043	819	824	SQCLC	Disease	
+29761043	831	864	small cell carcinomas of the lung	Disease	MESH:D055752
+29761043	866	870	SCLC	Disease	MESH:D018288
+29761043	1122	1126	lung	Disease	MESH:D008171
+29761043	1131	1143	lung cancers	Disease	MESH:D008175
+29761043	1308	1310	AD	Disease	MESH:D000230
+29761043	1311	1319	patients	Species	9606
+29761043	1600	1604	lung	Disease	MESH:D008171
+29761043	1610	1612	AD	Disease	MESH:D000230
+29761043	1614	1618	SCLC	Disease	MESH:D018288
+29761043	1624	1629	SQCLC	Disease	
+29761043	1694	1705	lung cancer	Disease	MESH:D008175
+29761043	1777	1788	lung cancer	Disease	MESH:D008175
+29761043	1804	1808	EGFR	Gene	1956
+29761043	1810	1814	KRAS	Gene	3845
+29761043	1997	1999	AD	Disease	MESH:D000230
+29761043	2007	2012	SQCLC	Disease	
+29761043	2133	2135	AD	Disease	MESH:D000230
+29761043	2136	2144	patients	Species	9606
+29761043	2240	2251	lung cancer	Disease	MESH:D008175
+29761043	2346	2350	lung	Disease	MESH:D008171
+29761043	2371	2383	lung cancers	Disease	MESH:D008175
+29761043	2455	2480	non-small cell carcinomas	Disease	MESH:D002289
+29761043	2567	2573	cancer	Disease	MESH:D009369
+29761043	2812	2814	AD	Disease	MESH:D000230
+29761043	2815	2823	patients	Species	9606
+29761043	3058	3069	lung cancer	Disease	MESH:D008175
+29761043	Association	MESH:D008175	3845
+

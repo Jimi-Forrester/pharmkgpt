@@ -1,0 +1,33 @@
+39543745|t|Real-world research on beta-blocker usage trends in China and safety exploration based on the FDA Adverse Event Reporting System (FAERS).
+39543745|a|BACKGROUND: Beta-blockers are widely used, with continuously updated clinical recommendations. However, their application faces challenges in personalized treatment and safety. The study aimed to investigate the frequency and patterns of prescribing beta-blockers in China and to explore potential adverse event risk signals associated with beta-blockers, providing reference for rational medication use in clinical settings. METHODS: Prescription data for beta-blockers from January 2018 to June 2023 were extracted through the Hospital Prescription Analysis Collaborative Project in China to analyze clinical usage trends. While adverse drug reaction reports for beta-blockers were obtained from the FDA Adverse Event Reporting System (FAERS) database. The classification and standardization of adverse drug event (ADE) reports were based on the preferred terms (PT) and corresponding system organ classes (SOC) from the Medical Dictionary for Regulatory Activities (MedDRA). Signal detection utilized a proportion imbalance method. RESULTS: In clinical practice, metoprolol dominated beta-blocker prescriptions in China, accounting for 62.2%. Beta-blockers were primarily prescribed to the elderly (65.7%) and male patients (57.0%). However, off-label use of beta-blockers was relatively widespread. For instance, sotalol was prescribed for hypertension at 18.25%, while esmolol was used for angina and heart failure at rates of 12.94% and 14.98%, respectively. In addition, we identified newly discovered adverse reactions associated with beta-blockers, such as BRASH syndrome (metoprolol: n = 186, ROR = 391.285; carvedilol: n = 72, ROR = 256.459), acute kidney injury (bisoprolol: n = 247, ROR = 5.641), premature baby (labetalol: n = 110, ROR = 91.385), and sleep disorder (propranolol: n = 254, ROR = 10.98). CONCLUSIONS: Metoprolol led the beta-blocker market in China. Attention was warranted regarding the newly discovered adverse reactions, such as the risk of acute kidney injury with bisoprolol and the potential for BRASH syndrome with metoprolol and carvedilol.
+39543745	777	781	drug	Disease	MESH:D000081015
+39543745	943	947	drug	Disease	MESH:D000081015
+39543745	1204	1214	metoprolol	Chemical	MESH:D008790
+39543745	1356	1364	patients	Species	9606
+39543745	1455	1462	sotalol	Chemical	MESH:D013015
+39543745	1482	1494	hypertension	Disease	MESH:D006973
+39543745	1512	1519	esmolol	Chemical	MESH:C036604
+39543745	1533	1539	angina	Disease	MESH:D000787
+39543745	1544	1557	heart failure	Disease	MESH:D006333
+39543745	1704	1718	BRASH syndrome	Disease	MESH:D013577
+39543745	1720	1730	metoprolol	Chemical	MESH:D008790
+39543745	1756	1766	carvedilol	Chemical	MESH:D000077261
+39543745	1792	1811	acute kidney injury	Disease	MESH:D058186
+39543745	1813	1823	bisoprolol	Chemical	MESH:D017298
+39543745	1864	1873	labetalol	Chemical	MESH:D007741
+39543745	1903	1917	sleep disorder	Disease	MESH:D012893
+39543745	1919	1930	propranolol	Chemical	MESH:D011433
+39543745	1968	1978	Metoprolol	Chemical	MESH:D008790
+39543745	2111	2130	acute kidney injury	Disease	MESH:D058186
+39543745	2136	2146	bisoprolol	Chemical	MESH:D017298
+39543745	2169	2183	BRASH syndrome	Disease	MESH:D013577
+39543745	2189	2199	metoprolol	Chemical	MESH:D008790
+39543745	2204	2214	carvedilol	Chemical	MESH:D000077261
+39543745	Positive_Correlation	MESH:D000077261	MESH:D013577
+39543745	Positive_Correlation	MESH:D011433	MESH:D012893
+39543745	Negative_Correlation	MESH:C036604	MESH:D006333
+39543745	Negative_Correlation	MESH:D013015	MESH:D006973
+39543745	Negative_Correlation	MESH:C036604	MESH:D000787
+39543745	Positive_Correlation	MESH:D008790	MESH:D013577
+39543745	Positive_Correlation	MESH:D017298	MESH:D058186
+

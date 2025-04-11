@@ -1,0 +1,14 @@
+35771864|t|Integration of multidimensional splicing data and GWAS summary statistics for risk gene discovery.
+35771864|a|A common strategy for the functional interpretation of genome-wide association study (GWAS) findings has been the integrative analysis of GWAS and expression data. Using this strategy, many association methods (e.g., PrediXcan and FUSION) have been successful in identifying trait-associated genes via mediating effects on RNA expression. However, these approaches often ignore the effects of splicing, which can carry as much disease risk as expression. Compared to expression data, one challenge to detect associations using splicing data is the large multiple testing burden due to multidimensional splicing events within genes. Here, we introduce a multidimensional splicing gene (MSG) approach, which consists of two stages: 1) we use sparse canonical correlation analysis (sCCA) to construct latent canonical vectors (CVs) by identifying sparse linear combinations of genetic variants and splicing events that are maximally correlated with each other; and 2) we test for the association between the genetically regulated splicing CVs and the trait of interest using GWAS summary statistics. Simulations show that MSG has proper type I error control and substantial power gains over existing multidimensional expression analysis methods (i.e., S-MultiXcan, UTMOST, and sCCA+ACAT) under diverse scenarios. When applied to the Genotype-Tissue Expression Project data and GWAS summary statistics of 14 complex human traits, MSG identified on average 83%, 115%, and 223% more significant genes than sCCA+ACAT, S-MultiXcan, and UTMOST, respectively. We highlight MSG's applications to Alzheimer's disease, low-density lipoprotein cholesterol, and schizophrenia, and found that the majority of MSG-identified genes would have been missed from expression-based analyses. Our results demonstrate that aggregating splicing data through MSG can improve power in identifying gene-trait associations and help better understand the genetic risk of complex traits.
+35771864	784	787	MSG	Chemical	-
+35771864	1218	1221	MSG	Chemical	-
+35771864	1378	1382	ACAT	Gene	6646
+35771864	1511	1516	human	Species	9606
+35771864	1525	1528	MSG	Chemical	-
+35771864	1604	1608	ACAT	Gene	6646
+35771864	1662	1665	MSG	Chemical	-
+35771864	1684	1703	Alzheimer's disease	Disease	MESH:D000544
+35771864	1746	1759	schizophrenia	Disease	MESH:D012559
+35771864	1792	1795	MSG	Chemical	-
+35771864	1931	1934	MSG	Chemical	-
+

@@ -1,0 +1,44 @@
+36632701|t|A combined physiologically-based pharmacokinetic and quantitative systems pharmacology model for modeling amyloid aggregation in Alzheimer's disease.
+36632701|a|Antibody-mediated removal of aggregated beta-amyloid (Abeta) is the current, most clinically advanced potential disease-modifying treatment approach for Alzheimer's disease. We describe a quantitative systems pharmacology (QSP) approach of the dynamics of Abeta monomers, oligomers, protofibrils, and plaque using a detailed microscopic model of Abeta40 and Abeta42 aggregation and clearance of aggregated Abeta by activated microglia cells, which is enhanced by the interaction of antibody-bound Abeta. The model allows for the prediction of Abeta positron emission tomography (PET) imaging load as measured by a standardized uptake value ratio. A physiology-based pharmacokinetic model is seamlessly integrated to describe target exposure of monoclonal antibodies and simulate dynamics of cerebrospinal fluid (CSF) and plasma biomarkers, including CSF Abeta42 and plasma Abeta42 /Abeta40 ratio biomarkers. Apolipoprotein E genotype is implemented as a difference in microglia clearance. By incorporating antibody-bound, plaque-mediated macrophage activation in the perivascular compartment, the model also predicts the incidence of amyloid-related imaging abnormalities with edema (ARIA-E). The QSP platform is calibrated with pharmacological and clinical information on aducanumab, bapineuzumab, crenezumab, gantenerumab, lecanemab, and solanezumab, predicting adequately the change in PET imaging measured amyloid load and the changes in the plasma Abeta42 /Abeta40 ratio while slightly overestimating the change in CSF Abeta42 . ARIA-E is well predicted for all antibodies except bapineuzumab. This QSP model could support the clinical trial design of different amyloid-modulating interventions, define optimal titration and maintenance schedules, and provide a first step to understand the variability of biomarker response in clinical practice.
+36632701	106	125	amyloid aggregation	Disease	MESH:C000718787
+36632701	129	148	Alzheimer's disease	Disease	MESH:D000544
+36632701	204	209	Abeta	Gene	351
+36632701	303	322	Alzheimer's disease	Disease	MESH:D000544
+36632701	406	411	Abeta	Gene	351
+36632701	508	515	Abeta42	Gene	351
+36632701	556	561	Abeta	Gene	351
+36632701	647	652	Abeta	Gene	351
+36632701	693	698	Abeta	Gene	351
+36632701	1004	1011	Abeta42	Gene	351
+36632701	1023	1030	Abeta42	Gene	351
+36632701	1058	1074	Apolipoprotein E	Gene	348
+36632701	1284	1291	amyloid	Disease	MESH:C000718787
+36632701	1300	1321	imaging abnormalities	Disease	MESH:C564543
+36632701	1327	1332	edema	Disease	MESH:D004487
+36632701	1334	1340	ARIA-E	Disease	MESH:D004487
+36632701	1423	1433	aducanumab	Chemical	MESH:C000600266
+36632701	1435	1447	bapineuzumab	Chemical	MESH:C545458
+36632701	1449	1459	crenezumab	Chemical	MESH:C573372
+36632701	1461	1473	gantenerumab	Chemical	MESH:C571128
+36632701	1475	1484	lecanemab	Chemical	MESH:C000612089
+36632701	1490	1501	solanezumab	Chemical	MESH:C550616
+36632701	1560	1567	amyloid	Disease	MESH:C000718787
+36632701	1603	1610	Abeta42	Gene	351
+36632701	1674	1681	Abeta42	Gene	351
+36632701	1684	1690	ARIA-E	Disease	MESH:D004487
+36632701	1735	1747	bapineuzumab	Chemical	MESH:C545458
+36632701	Negative_Correlation	MESH:C573372	351
+36632701	Negative_Correlation	MESH:C000612089	351
+36632701	Association	MESH:C573372	MESH:C000718787
+36632701	Negative_Correlation	MESH:C545458	MESH:D004487
+36632701	Association	MESH:C000600266	MESH:C000718787
+36632701	Negative_Correlation	MESH:C550616	351
+36632701	Negative_Correlation	MESH:C571128	351
+36632701	Association	MESH:D000544	351
+36632701	Negative_Correlation	MESH:C000612089	MESH:C000718787
+36632701	Negative_Correlation	MESH:C545458	351
+36632701	Negative_Correlation	MESH:C000600266	351
+36632701	Association	MESH:C571128	MESH:C000718787
+36632701	Association	MESH:C545458	MESH:C000718787
+36632701	Association	MESH:C550616	MESH:C000718787
+

@@ -1,0 +1,29 @@
+33991132|t|Identifying frequent drug combinations associated with delirium in older adults: Application of association rules method to a case-time-control design.
+33991132|a|BACKGROUND: Older adults are at an increased risk of delirium because of age, polypharmacy, multiple comorbidities, frailty, and acute illness. Although medication-induced delirium in older adults is well understood, limited population-level evidence is available, particularly on combinations of medications associated with delirium in older adults. OBJECTIVES: We aimed to apply association rule analysis to identify drug combinations contributing to delirium risk in adults aged 65 and older using a case-time-control design. METHOD: We sourced a nationwide representative sample of New Zealander's aged >=65 years from the pharmaceutical collections and hospital discharge information. Prescription records (2005-2015) were obtained from New Zealand pharmaceutical collections (Pharms). Medication exposures were coded as binary variables (exposed vs. not exposed) at the individual drug level. All medications, including antimicrobials, antihistamines, diuretics, opioids, and nonsteroidal anti-inflammatory medications, were considered drugs of interest. The first-time coded diagnosis of delirium was extracted from the National Minimal Dataset (NMDS). A unique patient identifier linked the prescription dataset to the event dataset to set up a case-time-control cohort, indexed at the first delirium event. Association rules were then applied to identify frequent drug combinations in the case and the control periods (l-day with a 35-day washout period) that are statistically associated with delirium, and the association was tested by computing a time-trend adjusted matched odds-ratio (MOR) and its 95% confidence interval (CI). RESULTS: We identified 28 503 individuals (mean age 84.1 years) from 2005 to 2015 with delirium. Our combined association rule and case-time-control analysis identified several drug classes, including antipsychotics, benzodiazepines, opioids, and diuretics associated with delirium. Our analysis also identified frequently used drug combinations that are associated with delirium. Examples include combined exposures to quetiapine and furosemide (MOR = 6.17; 95%CI = [2.05-18.54]), haloperidol (MOR = 4.81; 95%CI = [3.16-6.69]), combined exposures to furosemide, omeprazole, and lorazepam (MOR = 3.94; 95%CI = [3.03-5.10]), and fentanyl exposure (MOR = 3.46; 95%CI [2.05-9.21]). CONCLUSION: The association rule method applied to a case-time-control design is a novel approach to identifying drug combinations contributing to delirium with adjustment for any temporal trends in exposures. The study provides new insight into the combination of medicines linked to delirium.
+33991132	55	63	delirium	Disease	MESH:D003693
+33991132	205	213	delirium	Disease	MESH:D003693
+33991132	230	242	polypharmacy	Disease	
+33991132	268	275	frailty	Disease	MESH:D000073496
+33991132	324	332	delirium	Disease	MESH:D003693
+33991132	477	485	delirium	Disease	MESH:D003693
+33991132	605	613	delirium	Disease	MESH:D003693
+33991132	1134	1176	nonsteroidal anti-inflammatory medications	Chemical	-
+33991132	1247	1255	delirium	Disease	MESH:D003693
+33991132	1321	1328	patient	Species	9606
+33991132	1452	1460	delirium	Disease	MESH:D003693
+33991132	1655	1663	delirium	Disease	MESH:D003693
+33991132	1881	1889	delirium	Disease	MESH:D003693
+33991132	2011	2026	benzodiazepines	Chemical	MESH:D001569
+33991132	2067	2075	delirium	Disease	MESH:D003693
+33991132	2165	2173	delirium	Disease	MESH:D003693
+33991132	2214	2224	quetiapine	Chemical	MESH:D000069348
+33991132	2229	2239	furosemide	Chemical	MESH:D005665
+33991132	2276	2287	haloperidol	Chemical	MESH:D006220
+33991132	2345	2355	furosemide	Chemical	MESH:D005665
+33991132	2357	2367	omeprazole	Chemical	MESH:D009853
+33991132	2373	2382	lorazepam	Chemical	MESH:D008140
+33991132	2422	2430	fentanyl	Chemical	MESH:D005283
+33991132	2620	2628	delirium	Disease	MESH:D003693
+33991132	2758	2766	delirium	Disease	MESH:D003693
+33991132	Cotreatment	MESH:D000069348	MESH:D005665
+

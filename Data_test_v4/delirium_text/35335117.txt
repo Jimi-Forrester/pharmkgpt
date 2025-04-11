@@ -1,0 +1,12 @@
+35335117|t|Identification of Pharmacophoric Fragments of DYRK1A Inhibitors Using Machine Learning Classification Models.
+35335117|a|Dual-specific tyrosine phosphorylation regulated kinase 1 (DYRK1A) has been regarded as a potential therapeutic target of neurodegenerative diseases, and considerable progress has been made in the discovery of DYRK1A inhibitors. Identification of pharmacophoric fragments provides valuable information for structure- and fragment-based design of potent and selective DYRK1A inhibitors. In this study, seven machine learning methods along with five molecular fingerprints were employed to develop qualitative classification models of DYRK1A inhibitors, which were evaluated by cross-validation, test set, and external validation set with four performance indicators of predictive classification accuracy (CA), the area under receiver operating characteristic (AUC), Matthews correlation coefficient (MCC), and balanced accuracy (BA). The PubChem fingerprint-support vector machine model (CA = 0.909, AUC = 0.933, MCC = 0.717, BA = 0.855) and PubChem fingerprint along with the artificial neural model (CA = 0.862, AUC = 0.911, MCC = 0.705, BA = 0.870) were considered as the optimal modes for training set and test set, respectively. A hybrid data balancing method SMOTETL, a combination of synthetic minority over-sampling technique (SMOTE) and Tomek link (TL) algorithms, was applied to explore the impact of balanced learning on the performance of models. Based on the frequency analysis and information gain, pharmacophoric fragments related to DYRK1A inhibition were also identified. All the results will provide theoretical supports and clues for the screening and design of novel DYRK1A inhibitors.
+35335117	46	52	DYRK1A	Gene	1859
+35335117	169	175	DYRK1A	Gene	1859
+35335117	232	258	neurodegenerative diseases	Disease	MESH:D019636
+35335117	320	326	DYRK1A	Gene	1859
+35335117	477	483	DYRK1A	Gene	1859
+35335117	643	649	DYRK1A	Gene	1859
+35335117	1558	1564	DYRK1A	Gene	1859
+35335117	1696	1702	DYRK1A	Gene	1859
+35335117	Association	MESH:D019636	1859
+

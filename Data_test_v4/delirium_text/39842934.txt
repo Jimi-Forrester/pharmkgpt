@@ -1,0 +1,27 @@
+39842934|t|Development and validation of machine-learning models for predicting the risk of hypertriglyceridemia in critically ill patients receiving propofol sedation using retrospective data: a protocol.
+39842934|a|INTRODUCTION: Propofol is a widely used sedative-hypnotic agent for critically ill patients requiring invasive mechanical ventilation (IMV). Despite its clinical benefits, propofol is associated with increased risks of hypertriglyceridemia. Early identification of patients at risk for propofol-associated hypertriglyceridemia is crucial for optimising sedation strategies and preventing adverse outcomes. Machine-learning (ML) models offer a promising approach for predicting individualised patient risks of propofol-associated hypertriglyceridemia. METHODS AND ANALYSIS: We propose the development of an ML model aimed at predicting the risk of propofol-associated hypertriglyceridemia in ICU patients receiving IMV. The study will use retrospective data from four Mayo Clinic sites. Nested cross validation (CV) will be employed, with a tenfold inner CV loop for model tuning and selection as well as an outer loop using leave-one-site-out CV for external validation. Feature selection will be conducted using Boruta and least absolute shrinkage and selection operator-penalised logistic regression. Data preprocessing steps include missing data imputation, feature scaling and dimensionality reduction techniques. Six ML algorithms will be tuned and evaluated. Bayesian optimisation will be used for hyperparameter selection. Global model explainability will be assessed using permutation importance, and local model explainability will be assessed using SHapley Additive exPlanations. ETHICS AND DISSEMINATION: The proposed ML model aims to provide a reliable and interpretable tool for clinicians to predict the risk of propofol-associated hypertriglyceridemia in ICU patients. The final model will be deployed in a web-based clinical risk calculator. The model development process and performance measures obtained during nested CV will be described in a study publication to be disseminated in a peer-reviewed journal. The proposed study has received ethics approval from the Mayo Clinic Institutional Review Board (IRB #23-0 07 416).
+39842934	81	101	hypertriglyceridemia	Disease	MESH:D015228
+39842934	105	119	critically ill	Disease	MESH:D016638
+39842934	120	128	patients	Species	9606
+39842934	139	147	propofol	Chemical	MESH:D015742
+39842934	209	217	Propofol	Chemical	MESH:D015742
+39842934	263	277	critically ill	Disease	MESH:D016638
+39842934	278	286	patients	Species	9606
+39842934	367	375	propofol	Chemical	MESH:D015742
+39842934	414	434	hypertriglyceridemia	Disease	MESH:D015228
+39842934	460	468	patients	Species	9606
+39842934	481	489	propofol	Chemical	MESH:D015742
+39842934	501	521	hypertriglyceridemia	Disease	MESH:D015228
+39842934	687	694	patient	Species	9606
+39842934	704	712	propofol	Chemical	MESH:D015742
+39842934	724	744	hypertriglyceridemia	Disease	MESH:D015228
+39842934	842	850	propofol	Chemical	MESH:D015742
+39842934	862	882	hypertriglyceridemia	Disease	MESH:D015228
+39842934	890	898	patients	Species	9606
+39842934	1685	1691	ETHICS	Disease	
+39842934	1821	1829	propofol	Chemical	MESH:D015742
+39842934	1841	1861	hypertriglyceridemia	Disease	MESH:D015228
+39842934	1869	1877	patients	Species	9606
+39842934	Negative_Correlation	MESH:D015742	MESH:D016638
+39842934	Positive_Correlation	MESH:D015742	MESH:D015228
+

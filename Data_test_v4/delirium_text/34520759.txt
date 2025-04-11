@@ -1,0 +1,59 @@
+34520759|t|The AKT modulator A-443654 reduces alpha-synuclein expression and normalizes ER stress and autophagy.
+34520759|a|Accumulation of alpha-synuclein is a main underlying pathological feature of Parkinson's disease and alpha-synucleinopathies, for which lowering expression of the alpha-synuclein gene (SNCA) is a potential therapeutic avenue. Using a cell-based luciferase reporter of SNCA expression we performed a quantitative high-throughput screen of 155,885 compounds and identified A-443654, an inhibitor of the multiple functional kinase AKT, as a potent inhibitor of SNCA. HEK-293 cells with CAG repeat expanded ATXN2 (ATXN2-Q58 cells) have increased levels of alpha-synuclein. We found that A-443654 normalized levels of both SNCA mRNA and alpha-synuclein monomers and oligomers in ATXN2-Q58 cells. A-443654 also normalized levels of alpha-synuclein in fibroblasts and iPSC-derived dopaminergic neurons from a patient carrying a triplication of the SNCA gene. Analysis of autophagy and endoplasmic reticulum stress markers showed that A-443654 successfully prevented alpha-synuclein toxicity and restored cell function in ATXN2-Q58 cells, normalizing the levels of mTOR, LC3-II, p62, STAU1, BiP, and CHOP. A-443654 also decreased the expression of DCLK1, an inhibitor of alpha-synuclein lysosomal degradation. Our study identifies A-443654 and AKT inhibition as a potential strategy for reducing SNCA expression and treating Parkinson's disease pathology.
+34520759	4	7	AKT	Gene	207
+34520759	18	26	A-443654	Chemical	MESH:C504035
+34520759	35	50	alpha-synuclein	Gene	6622
+34520759	118	133	alpha-synuclein	Gene	6622
+34520759	179	198	Parkinson's disease	Disease	MESH:D010300
+34520759	203	226	alpha-synucleinopathies	Disease	MESH:D000080874
+34520759	265	280	alpha-synuclein	Gene	6622
+34520759	287	291	SNCA	Gene	6622
+34520759	370	374	SNCA	Gene	6622
+34520759	473	481	A-443654	Chemical	MESH:C504035
+34520759	530	533	AKT	Gene	207
+34520759	560	564	SNCA	Gene	6622
+34520759	566	573	HEK-293	CellLine	CVCL:0045
+34520759	605	610	ATXN2	Gene	6311
+34520759	612	621	ATXN2-Q58	CellLine	CVCL:SE31
+34520759	654	669	alpha-synuclein	Gene	6622
+34520759	685	693	A-443654	Chemical	MESH:C504035
+34520759	720	724	SNCA	Gene	6622
+34520759	734	749	alpha-synuclein	Gene	6622
+34520759	776	785	ATXN2-Q58	CellLine	CVCL:SE31
+34520759	793	801	A-443654	Chemical	MESH:C504035
+34520759	828	843	alpha-synuclein	Gene	6622
+34520759	904	911	patient	Species	9606
+34520759	943	947	SNCA	Gene	6622
+34520759	1029	1037	A-443654	Chemical	MESH:C504035
+34520759	1061	1076	alpha-synuclein	Gene	6622
+34520759	1077	1085	toxicity	Disease	MESH:D064420
+34520759	1116	1125	ATXN2-Q58	CellLine	CVCL:SE31
+34520759	1159	1163	mTOR	Gene	2475
+34520759	1165	1168	LC3	Gene	84557
+34520759	1173	1176	p62	Gene	23636
+34520759	1178	1183	STAU1	Gene	6780
+34520759	1185	1188	BiP	Gene	2662
+34520759	1194	1198	CHOP	Gene	1649
+34520759	1200	1208	A-443654	Chemical	MESH:C504035
+34520759	1242	1247	DCLK1	Gene	9201
+34520759	1265	1280	alpha-synuclein	Gene	6622
+34520759	1338	1341	AKT	Gene	207
+34520759	1390	1394	SNCA	Gene	6622
+34520759	1419	1438	Parkinson's disease	Disease	MESH:D010300
+34520759	Association	MESH:D010300	207
+34520759	Association	MESH:D000080874	6622
+34520759	Negative_Correlation	MESH:C504035	MESH:D064420
+34520759	Association	MESH:C504035	6780
+34520759	Association	MESH:C504035	1649
+34520759	Association	MESH:D010300	6622
+34520759	Negative_Correlation	6622	9201
+34520759	Association	6311	6622
+34520759	Negative_Correlation	MESH:C504035	9201
+34520759	Negative_Correlation	MESH:C504035	207
+34520759	Association	MESH:C504035	84557
+34520759	Association	MESH:C504035	2475
+34520759	Association	207	6622
+34520759	Negative_Correlation	MESH:C504035	6622
+34520759	Association	MESH:C504035	23636
+34520759	Association	MESH:C504035	2662
+

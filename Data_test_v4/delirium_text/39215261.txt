@@ -1,0 +1,54 @@
+39215261|t|Network pharmacology-based mechanism analysis of dauricine on the alleviating Abeta-induced neurotoxicity in Caenorhabditis elegans.
+39215261|a|BACKGROUND: Dauricine (DAU), a benzyl tetrahydroisoquinoline alkaloid isolated from the root of Menispermum dauricum DC, exhibits promising anti-Alzheimer's disease (AD) effects, but its underlying mechanisms remain inadequately investigated. This paper aims to identify potential targets and molecular mechanisms of DAU in AD treatment. METHODS: Network pharmacology and molecular docking simulation method were used to screen and focus core targets. Various transgenic Caenorhabditis elegans models were chosen to validate the anti-AD efficacy and mechanism of DAU. RESULTS: There are 66 potential DAU-AD target intersections identified from 100 DAU and 3036 AD-related targets. Subsequent protein-protein interaction (PPI) network analysis identified 16 core targets of DAU for anti-AD. PIK3CA, AKT1 and mTOR were predicted to be the central targets with the best connectivity through the analysis of "compound-target-biological process-pathway network". Molecular docking revealed strong binding affinities between DAU and PIK3CA, AKT1, and mTOR. In vivo experiments demonstrated that DAU effectively reduced paralysis in AD nematodes caused by Abeta aggregation toxicity, downregulated expression of PIK3CA, AKT1, and mTOR homologues (age-1, akt-1, let-363), and upregulated expression of autophagy genes and the marker protein LGG-1. Simultaneously, DAU increased lysosomal content and enhanced degradation of the autophagy-related substrate protein P62. Thioflavin T(Th-T)staining experiment revealed that DAU decreased Abeta accumulation in AD nematodes. Further experiments also confirmed DAU's protein scavenging activity in polyglutamine (polyQ) aggregation nematodes. CONCLUSION: Collectively, the mechanism of DAU against AD may be related to the activation of the autophagy-lysosomal protein clearance pathway, which contributes to the decrease of Abeta aggregation and the restoration of protein homeostasis.
+39215261	49	58	dauricine	Chemical	MESH:C035934
+39215261	92	105	neurotoxicity	Disease	MESH:D020258
+39215261	109	131	Caenorhabditis elegans	Species	6239
+39215261	145	154	Dauricine	Chemical	MESH:C035934
+39215261	156	159	DAU	Chemical	MESH:C035934
+39215261	164	202	benzyl tetrahydroisoquinoline alkaloid	Chemical	-
+39215261	278	297	Alzheimer's disease	Disease	MESH:D000544
+39215261	299	301	AD	Disease	MESH:D000544
+39215261	450	453	DAU	Chemical	MESH:C035934
+39215261	457	459	AD	Disease	MESH:D000544
+39215261	604	626	Caenorhabditis elegans	Species	6239
+39215261	667	669	AD	Disease	MESH:D000544
+39215261	696	699	DAU	Chemical	MESH:C035934
+39215261	733	736	DAU	Chemical	MESH:C035934
+39215261	737	739	AD	Disease	MESH:D000544
+39215261	781	784	DAU	Chemical	MESH:C035934
+39215261	794	796	AD	Disease	MESH:D000544
+39215261	906	909	DAU	Chemical	MESH:C035934
+39215261	919	921	AD	Disease	MESH:D000544
+39215261	931	935	AKT1	Gene	179424
+39215261	1152	1155	DAU	Chemical	MESH:C035934
+39215261	1168	1172	AKT1	Gene	179424
+39215261	1222	1225	DAU	Chemical	MESH:C035934
+39215261	1246	1255	paralysis	Disease	MESH:D010243
+39215261	1259	1261	AD	Disease	MESH:D000544
+39215261	1300	1308	toxicity	Disease	MESH:D064420
+39215261	1346	1350	AKT1	Gene	179424
+39215261	1373	1378	age-1	Gene	174762
+39215261	1380	1385	akt-1	Gene	179424
+39215261	1387	1394	let-363	Gene	172167
+39215261	1466	1471	LGG-1	Gene	174050
+39215261	1489	1492	DAU	Chemical	MESH:C035934
+39215261	1594	1606	Thioflavin T	Chemical	MESH:C009462
+39215261	1607	1611	Th-T	Chemical	MESH:C121030
+39215261	1646	1649	DAU	Chemical	MESH:C035934
+39215261	1682	1684	AD	Disease	MESH:D000544
+39215261	1731	1734	DAU	Chemical	MESH:C035934
+39215261	1768	1781	polyglutamine	Chemical	MESH:C097188
+39215261	1783	1788	polyQ	Chemical	MESH:C097188
+39215261	1856	1859	DAU	Chemical	MESH:C035934
+39215261	1868	1870	AD	Disease	MESH:D000544
+39215261	Association	MESH:D000544	174762
+39215261	Positive_Correlation	MESH:C035934	174050
+39215261	Association	MESH:D000544	172167
+39215261	Negative_Correlation	MESH:C035934	179424
+39215261	Negative_Correlation	MESH:C035934	MESH:D010243
+39215261	Negative_Correlation	MESH:C035934	174762
+39215261	Negative_Correlation	MESH:C035934	MESH:D000544
+39215261	Negative_Correlation	MESH:C035934	172167
+39215261	Association	MESH:C035934	MESH:C097188
+39215261	Negative_Correlation	MESH:C035934	MESH:D020258
+

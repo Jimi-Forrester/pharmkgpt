@@ -1,0 +1,20 @@
+39006425|t|Contrastive Self-supervised Learning for Neurodegenerative Disorder Classification.
+39006425|a|Neurodegenerative diseases such as Alzheimer's disease (AD) or frontotemporal lobar degeneration (FTLD) involve specific loss of brain volume, detectable in vivo using T1-weighted MRI scans. Supervised machine learning approaches classifying neurodegenerative diseases require diagnostic-labels for each sample. However, it can be difficult to obtain expert labels for a large amount of data. Self-supervised learning (SSL) offers an alternative for training machine learning models without data-labels. We investigated if the SSL models can applied to distinguish between different neurodegenerative disorders in an interpretable manner. Our method comprises a feature extractor and a downstream classification head. A deep convolutional neural network trained in a contrastive self-supervised way serves as the feature extractor, learning latent representation, while the classifier head is a single-layer perceptron. We used N=2694 T1-weighted MRI scans from four data cohorts: two ADNI datasets, AIBL and FTLDNI, including cognitively normal controls (CN), cases with prodromal and clinical AD, as well as FTLD cases differentiated into its sub-types. Our results showed that the feature extractor trained in a self-supervised way provides generalizable and robust representations for the downstream classification. For AD vs. CN, our model achieves 82% balanced accuracy on the test subset and 80% on an independent holdout dataset. Similarly, the Behavioral variant of frontotemporal dementia (BV) vs. CN model attains an 88% balanced accuracy on the test subset. The average feature attribution heatmaps obtained by the Integrated Gradient method highlighted hallmark regions, i.e., temporal gray matter atrophy for AD, and insular atrophy for BV. In conclusion, our models perform comparably to state-of-the-art supervised deep learning approaches. This suggests that the SSL methodology can successfully make use of unannotated neuroimaging datasets as training data while remaining robust and interpretable.
+39006425	41	67	Neurodegenerative Disorder	Disease	MESH:D019636
+39006425	84	110	Neurodegenerative diseases	Disease	MESH:D019636
+39006425	119	138	Alzheimer's disease	Disease	MESH:D000544
+39006425	140	142	AD	Disease	MESH:D000544
+39006425	147	180	frontotemporal lobar degeneration	Disease	MESH:D057174
+39006425	182	186	FTLD	Disease	MESH:D057174
+39006425	326	352	neurodegenerative diseases	Disease	MESH:D019636
+39006425	667	694	neurodegenerative disorders	Disease	MESH:D019636
+39006425	1179	1181	AD	Disease	MESH:D000544
+39006425	1194	1198	FTLD	Disease	MESH:D057174
+39006425	1408	1410	AD	Disease	MESH:D000544
+39006425	1559	1582	frontotemporal dementia	Disease	MESH:D057180
+39006425	1584	1586	BV	Disease	
+39006425	1788	1802	matter atrophy	Disease	MESH:D001284
+39006425	1807	1809	AD	Disease	MESH:D000544
+39006425	1823	1830	atrophy	Disease	MESH:D001284
+39006425	1835	1837	BV	Disease	
+

@@ -1,0 +1,44 @@
+38082312|t|Transition of allele-specific DNA hydroxymethylation at regulatory loci is associated with phenotypic variation in monozygotic twins discordant for psychiatric disorders.
+38082312|a|BACKGROUND: Major psychiatric disorders such as schizophrenia (SCZ) and bipolar disorder (BPD) are complex genetic mental illnesses. Their non-Mendelian features, such as those observed in monozygotic twins discordant for SCZ or BPD, are likely complicated by environmental modifiers of genetic effects. 5-Hydroxymethylcytosine (5hmC) is an important epigenetic mark in gene regulation, and whether it is linked to genetic variants that contribute to non-Mendelian features remains largely unexplored. METHODS: We combined the 5hmC-selective chemical labeling method (5hmC-seq) and whole-genome sequencing (WGS) analysis of peripheral blood DNA obtained from monozygotic (MZ) twins discordant for SCZ or BPD to identify allelic imbalances in hydroxymethylome maps, and examined association of allele-specific hydroxymethylation (AShM) transition with disease susceptibility based on Bayes factors (BF) derived from the Bayesian generalized additive linear mixed model. We then performed multi-omics integrative analysis to determine the molecular pathogenic basis of those AShM sites. We finally employed luciferase reporter, CRISPR/Cas9 technology, electrophoretic mobility shift assay (EMSA), chromatin immunoprecipitation (ChIP), PCR, FM4-64 imaging analysis, and RNA sequencing to validate the function of interested AShM sites in the human neuroblastoma SK-N-SH cells and human embryonic kidney 293T (HEK293T) cells. RESULTS: We identified thousands of genetic variants associated with AShM imbalances that exhibited phenotypic variation-associated AShM changes at regulatory loci. These AShM marks showed plausible associations with SCZ or BPD based on their effects on interactions among transcription factors (TFs), DNA methylation levels, or other epigenomic marks and thus contributed to dysregulated gene expression, which ultimately increased disease susceptibility. We then validated that competitive binding of POU3F2 on the alternative allele at the AShM site rs4558409 (G/T) in PLLP-enhanced PLLP expression, while the hydroxymethylated alternative allele, which alleviated the POU3F2 binding activity at the rs4558409 site, might be associated with the downregulated PLLP expression observed in BPD or SCZ. Moreover, disruption of rs4558409 promoted neural development and vesicle trafficking. CONCLUSION: Our study provides a powerful strategy for prioritizing regulatory risk variants and contributes to our understanding of the interplay between genetic and epigenetic factors in mediating SCZ or BPD susceptibility.
+38082312	148	169	psychiatric disorders	Disease	MESH:D001523
+38082312	189	210	psychiatric disorders	Disease	MESH:D001523
+38082312	219	232	schizophrenia	Disease	MESH:D012559
+38082312	234	237	SCZ	Disease	MESH:D012559
+38082312	243	259	bipolar disorder	Disease	MESH:D001714
+38082312	261	264	BPD	Disease	MESH:D001714
+38082312	278	302	genetic mental illnesses	Disease	MESH:D001523
+38082312	393	396	SCZ	Disease	MESH:D012559
+38082312	400	403	BPD	Disease	MESH:D001714
+38082312	475	498	5-Hydroxymethylcytosine	Chemical	MESH:C011865
+38082312	500	504	5hmC	Chemical	MESH:C011865
+38082312	698	702	5hmC	Chemical	MESH:C011865
+38082312	739	743	5hmC	Chemical	MESH:C011865
+38082312	868	871	SCZ	Disease	MESH:D012559
+38082312	875	878	BPD	Disease	MESH:D001714
+38082312	1510	1515	human	Species	9606
+38082312	1516	1529	neuroblastoma	Disease	MESH:D009447
+38082312	1530	1537	SK-N-SH	CellLine	CVCL:0531
+38082312	1548	1553	human	Species	9606
+38082312	1564	1575	kidney 293T	CellLine	CVCL:0063
+38082312	1577	1584	HEK293T	CellLine	CVCL:0063
+38082312	1810	1813	SCZ	Disease	MESH:D012559
+38082312	1817	1820	BPD	Disease	MESH:D001714
+38082312	2096	2102	POU3F2	Gene	5454
+38082312	2146	2155	rs4558409	SNP	tmVar:rs4558409;VariantGroup:0;CorrespondingGene:51090;RS#:4558409;CorrespondingSpecies:9606
+38082312	2157	2160	G/T	DNAMutation	tmVar:c|SUB|G||T;VariantGroup:0;CorrespondingGene:51090;RS#:4558409;CorrespondingSpecies:9606
+38082312	2165	2169	PLLP	Gene	51090
+38082312	2179	2183	PLLP	Gene	51090
+38082312	2265	2271	POU3F2	Gene	5454
+38082312	2296	2305	rs4558409	SNP	tmVar:rs4558409;VariantGroup:0;CorrespondingGene:51090;RS#:4558409;CorrespondingSpecies:9606
+38082312	2355	2359	PLLP	Gene	51090
+38082312	2383	2386	BPD	Disease	MESH:D001714
+38082312	2390	2393	SCZ	Disease	MESH:D012559
+38082312	2419	2428	rs4558409	SNP	tmVar:rs4558409;VariantGroup:0;CorrespondingGene:51090;RS#:4558409;CorrespondingSpecies:9606
+38082312	2681	2684	SCZ	Disease	MESH:D012559
+38082312	2688	2691	BPD	Disease	MESH:D001714
+38082312	Positive_Correlation	MESH:D001714	RS#:4558409;CorrespondingGene:51090
+38082312	Bind	51090	5454
+38082312	Positive_Correlation	MESH:D012559	RS#:4558409;CorrespondingGene:51090
+38082312	Association	MESH:D012559	51090
+38082312	Association	MESH:D001714	51090
+

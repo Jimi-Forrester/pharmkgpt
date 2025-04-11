@@ -1,0 +1,39 @@
+34746237|t|Mechanistic Insight Into the Regulation of Immune-Related Genes Expression in Autism Spectrum Disorder.
+34746237|a|Autism spectrum disorder (ASD) is a severe neurodevelopmental disorder featuring impairment in verbal and non-verbal interactions, defects in social interactions, stereotypic behaviors as well as restricted interests. In recent times, the incidence of ASD is growing at a rapid pace. In spite of great endeavors devoted to explaining ASD pathophysiology, its precise etiology remains unresolved. ASD pathogenesis is related to different phenomena associated with the immune system; however, the mechanisms behind these immune phenomena as well as the potential contributing genes remain unclear. In the current work, we used a bioinformatics approach to describe the role of long non-coding RNA (lncRNA)-associated competing endogenous RNAs (ceRNAs) in the peripheral blood (PB) samples to figure out the molecular regulatory procedures involved in ASD better. The Gene Expression Omnibus database was used to obtain the PB microarray dataset (GSE89594) from the subjects suffering from ASD and control subjects, containing the data related to both mRNAs and lncRNAs. The list of immune-related genes was obtained from the ImmPort database. In order to determine the immune-related differentially expressed mRNAs (DEmRNAs) and lncRNAs (DElncRNAs), the limma package of R software was used. A protein-protein interaction network was developed for the immune-related DEmRNAs. By employing the Human MicroRNA Disease Database, DIANA-LncBase, and DIANA-TarBase databases, the RNA interaction pairs were determined. We used the Pearson correlation coefficient to discover the positive correlations between DElncRNAs and DEmRNAs within the ceRNA network. Finally, the lncRNA-associated ceRNA network was created based on DElncRNA-miRNA-DEmRNA interactions and co-expression interactions. In addition, the KEGG enrichment analysis was conducted for immune-related DEmRNAs found within the constructed network. This work found four potential DElncRNA-miRNA-DEmRNA axes in ASD pathogenesis, including, LINC00472/hsa-miR-221-3p/PTPN11, ANP32A-IT1/hsa-miR-182-5p/S100A2, LINC00472/hsa-miR-132-3p/S100A2, and RBM26-AS1/hsa-miR-182-5p/S100A2. According to pathway enrichment analysis, the immune-related DEmRNAs were enriched in the "JAK-STAT signaling pathway" and "Adipocytokine signaling pathway." An understanding of regulatory mechanisms of ASD-related immune genes would provide novel insights into the molecular mechanisms behind ASD pathogenesis.
+34746237	78	102	Autism Spectrum Disorder	Disease	MESH:D000067877
+34746237	104	128	Autism spectrum disorder	Disease	MESH:D000067877
+34746237	130	133	ASD	Disease	MESH:D000067877
+34746237	147	174	neurodevelopmental disorder	Disease	MESH:D002658
+34746237	185	198	impairment in	Disease	MESH:D060825
+34746237	235	265	defects in social interactions	Disease	MESH:C563663
+34746237	300	320	restricted interests	Disease	MESH:D002313
+34746237	356	359	ASD	Disease	MESH:D000067877
+34746237	438	441	ASD	Disease	MESH:D000067877
+34746237	500	503	ASD	Disease	MESH:D000067877
+34746237	953	956	ASD	Disease	MESH:D000067877
+34746237	1091	1094	ASD	Disease	MESH:D000067877
+34746237	1495	1500	Human	Species	9606
+34746237	1501	1517	MicroRNA Disease	Disease	MESH:D004194
+34746237	2068	2071	ASD	Disease	MESH:D000067877
+34746237	2097	2106	LINC00472	Gene	79940
+34746237	2122	2128	PTPN11	Gene	5781
+34746237	2130	2136	ANP32A	Gene	8125
+34746237	2137	2140	IT1	Gene	79441
+34746237	2141	2155	hsa-miR-182-5p	Gene	100302183
+34746237	2156	2162	S100A2	Gene	6273
+34746237	2164	2173	LINC00472	Gene	79940
+34746237	2174	2188	hsa-miR-132-3p	Gene	100302255
+34746237	2189	2195	S100A2	Gene	6273
+34746237	2201	2206	RBM26	Gene	64062
+34746237	2211	2225	hsa-miR-182-5p	Gene	100302183
+34746237	2226	2232	S100A2	Gene	6273
+34746237	2437	2440	ASD	Disease	MESH:D000067877
+34746237	2528	2531	ASD	Disease	MESH:D000067877
+34746237	Association	MESH:D000067877	79940
+34746237	Association	MESH:D000067877	100302183
+34746237	Association	MESH:D000067877	8125
+34746237	Association	MESH:D000067877	6273
+34746237	Association	MESH:D000067877	64062
+34746237	Association	MESH:D000067877	5781
+34746237	Association	MESH:D000067877	100302255
+

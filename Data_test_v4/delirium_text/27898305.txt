@@ -1,0 +1,12 @@
+27898305|t|View-aligned hypergraph learning for Alzheimer's disease diagnosis with incomplete multi-modality data.
+27898305|a|Effectively utilizing incomplete multi-modality data for the diagnosis of Alzheimer's disease (AD) and its prodrome (i.e., mild cognitive impairment, MCI) remains an active area of research. Several multi-view learning methods have been recently developed for AD/MCI diagnosis by using incomplete multi-modality data, with each view corresponding to a specific modality or a combination of several modalities. However, existing methods usually ignore the underlying coherence among views, which may lead to sub-optimal learning performance. In this paper, we propose a view-aligned hypergraph learning (VAHL) method to explicitly model the coherence among views. Specifically, we first divide the original data into several views based on the availability of different modalities and then construct a hypergraph in each view space based on sparse representation. A view-aligned hypergraph classification (VAHC) model is then proposed, by using a view-aligned regularizer to capture coherence among views. We further assemble the class probability scores generated from VAHC, via a multi-view label fusion method for making a final classification decision. We evaluate our method on the baseline ADNI-1 database with 807 subjects and three modalities (i.e., MRI, PET, and CSF). Experimental results demonstrate that our method outperforms state-of-the-art methods that use incomplete multi-modality data for AD/MCI diagnosis.
+27898305	37	56	Alzheimer's disease	Disease	MESH:D000544
+27898305	178	197	Alzheimer's disease	Disease	MESH:D000544
+27898305	199	201	AD	Disease	MESH:D000544
+27898305	232	252	cognitive impairment	Disease	MESH:D003072
+27898305	254	257	MCI	Disease	
+27898305	364	366	AD	Disease	MESH:D000544
+27898305	367	370	MCI	Disease	
+27898305	1511	1513	AD	Disease	MESH:D000544
+27898305	1514	1517	MCI	Disease	
+

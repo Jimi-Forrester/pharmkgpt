@@ -1,0 +1,55 @@
+19264123|t|Inhibition of gamma-secretase activity reduces Abeta production, reduces oxidative stress, increases mitochondrial activity and leads to reduced vulnerability to apoptosis: Implications for the treatment of Alzheimer's disease.
+19264123|a|It has been argued that gamma-secretase should be considered as a pharmacological target, as there are few mechanism-based experimental and clinical studies on gamma-secretase treatment. In this study, we found that N2a cells bearing APP695 or its Swedish mutant exhibited increased basal levels of ROS, nitric oxide (NO), protein carbonyls, MDA and intracellular calcium, as well as reduced level of the mitochondrial membrane potential and ATP. When the activity of gamma-secretase was inhibited by expression of the D385A PS1 variant, cells (N2a/Swe.D385A) showed reduced basal levels of ROS, nitric oxide (NO), protein carbonyls, MDA and intracellular calcium, as well as increased mitochondrial membrane potential and ATP level. In addition, N2a/Swe.D385A cells showed reduced vulnerability to H(2)O(2)-induced apoptosis. The Bcl-2 and JNK/ERK pathways were proven to be involved in the change of vulnerability to H(2)O(2)-induced apoptosis. Moreover, we discovered that inhibition of gamma-secretase by DAPT would lead to a reduction of ROS levels and stabilization of mitochondrial function in APP (N2a/APP695) and APP Swedish mutant (N2a/APPswe) transfected cells. At last, it was shown that Abeta antibody and antiserum prevented increase of ROS and reduction of mitochondrial membrane potential in N2a/Swe.DeltaE9 cells but not in N2a/Swe.D385A cells, which indicated that reduced formation of Abeta was the reason for reduction of ROS formation and increase of mitochondrial membrane potential when PS-1 activity was impaired in N2a/Swe.D385A cells. We concluded that neurotoxicity was positively correlated with the activity of gamma-secretase, which suggested inhibition of gamma-secretase is a rational pharmacological target for Alzheimer's disease treatment.
+19264123	47	52	Abeta	Gene	11820
+19264123	207	226	Alzheimer's disease	Disease	MESH:D000544
+19264123	444	447	N2a	CellLine	CVCL:0470
+19264123	527	530	ROS	Chemical	-
+19264123	532	544	nitric oxide	Chemical	MESH:D009569
+19264123	570	573	MDA	Chemical	MESH:D015104
+19264123	592	599	calcium	Chemical	MESH:D002118
+19264123	670	673	ATP	Chemical	MESH:D000255
+19264123	747	752	D385A	ProteinMutation	tmVar:p|SUB|D|385|A;HGVS:p.D385A;VariantGroup:0;OriginalGene:19164;CorrespondingGene:5663;CorrespondingSpecies:10090
+19264123	753	756	PS1	Gene	19164
+19264123	773	780	N2a/Swe	CellLine	CVCL:D650
+19264123	781	786	D385A	ProteinMutation	tmVar:p|SUB|D|385|A;HGVS:p.D385A;VariantGroup:0;OriginalGene:19164;CorrespondingGene:5663;CorrespondingSpecies:10090
+19264123	819	822	ROS	Chemical	-
+19264123	824	836	nitric oxide	Chemical	MESH:D009569
+19264123	862	865	MDA	Chemical	MESH:D015104
+19264123	884	891	calcium	Chemical	MESH:D002118
+19264123	951	954	ATP	Chemical	MESH:D000255
+19264123	975	982	N2a/Swe	CellLine	CVCL:D650
+19264123	983	988	D385A	ProteinMutation	tmVar:p|SUB|D|385|A;HGVS:p.D385A;VariantGroup:0;OriginalGene:19164;CorrespondingGene:5663;CorrespondingSpecies:10090
+19264123	1027	1035	H(2)O(2)	Chemical	MESH:D006861
+19264123	1059	1064	Bcl-2	Gene	12043
+19264123	1069	1072	JNK	Gene	26419
+19264123	1073	1076	ERK	Gene	26413
+19264123	1147	1155	H(2)O(2)	Chemical	MESH:D006861
+19264123	1237	1241	DAPT	Chemical	-
+19264123	1271	1274	ROS	Chemical	-
+19264123	1334	1337	N2a	CellLine	CVCL:0470
+19264123	1370	1373	N2a	CellLine	CVCL:0470
+19264123	1428	1433	Abeta	Gene	11820
+19264123	1479	1482	ROS	Chemical	-
+19264123	1536	1543	N2a/Swe	CellLine	CVCL:D650
+19264123	1544	1551	DeltaE9	CellLine	CVCL:B0UN
+19264123	1569	1576	N2a/Swe	CellLine	CVCL:D650
+19264123	1577	1582	D385A	ProteinMutation	tmVar:p|SUB|D|385|A;HGVS:p.D385A;VariantGroup:0;OriginalGene:19164;CorrespondingGene:5663;CorrespondingSpecies:10090
+19264123	1632	1637	Abeta	Gene	11820
+19264123	1670	1673	ROS	Chemical	-
+19264123	1738	1742	PS-1	Gene	19164
+19264123	1768	1775	N2a/Swe	CellLine	CVCL:D650
+19264123	1776	1781	D385A	ProteinMutation	tmVar:p|SUB|D|385|A;HGVS:p.D385A;VariantGroup:0;OriginalGene:19164;CorrespondingGene:5663;CorrespondingSpecies:10090
+19264123	1807	1820	neurotoxicity	Disease	MESH:D020258
+19264123	1972	1991	Alzheimer's disease	Disease	MESH:D000544
+19264123	Positive_Correlation	MESH:D000255	HGVS:p.D385A;CorrespondingGene:5663
+19264123	Association	MESH:D006861	12043
+19264123	Negative_Correlation	MESH:D015104	HGVS:p.D385A;CorrespondingGene:5663
+19264123	Negative_Correlation	MESH:D009569	HGVS:p.D385A;CorrespondingGene:5663
+19264123	Positive_Correlation	MESH:D020258	HGVS:p.D385A;CorrespondingGene:5663
+19264123	Negative_Correlation	MESH:D006861	HGVS:p.D385A;CorrespondingGene:5663
+19264123	Negative_Correlation	MESH:D002118	HGVS:p.D385A;CorrespondingGene:5663
+19264123	Association	MESH:D000544	11820
+19264123	Association	MESH:D006861	26413
+19264123	Association	11820	19164
+19264123	Association	MESH:D020258	5663
+

@@ -1,0 +1,38 @@
+34276768|t|Discovery and Validation of Key Biomarkers Based on Immune Infiltrates in Alzheimer's Disease.
+34276768|a|BACKGROUND: As the most common neurodegenerative disease, Alzheimer's disease (AD) leads to progressive loss of cognition and memory. Presently, the underlying pathogenic genes of AD patients remain elusive, and effective disease-modifying therapy is not available. This study explored novel biomarkers that can affect diagnosis and treatment in AD based on immune infiltration. METHODS: The gene expression profiles of 139 AD cases and 134 normal controls were obtained from the NCBI GEO public database. We applied the computational method CIBERSORT to bulk gene expression profiles of AD to quantify 22 subsets of immune cells. Besides, based on the use of the Least Absolute Shrinkage Selection Operator (LASSO), this study also applied SVM-RFE analysis to screen key genes. GO-based semantic similarity and logistic regression model analyses were applied to explore hub genes further. RESULTS: There was a remarkable significance in the infiltration of immune cells between the subgroups. The proportions for monocytes, M0 macrophages, and dendritic cells in the AD group were significantly higher than those in the normal group, while the proportion of some cells was lower than that of the normal group, such as NK cell resting, T-cell CD4 naive, T-cell CD4 memory activation, and eosinophils. Additionally, seven genes (ABCA2, CREBRF, CD72, CETN2, KCNG1, NDUFA2, and RPL36AL) were identified as hub genes. Then we performed the analysis of immune factor correlation, gene set enrichment analysis (GSEA), and GO based on seven hub genes. The AUC of ROC prediction model in test and validation sets were 0.845 and 0.839, respectively. Eventually, the mRNA expression analysis of ABCA2, NDUFA2, CREBRF, and CD72 revealed significant differences among the seven hub genes and then was confirmed by RT-PCR. CONCLUSION: A model based on immune cell infiltration might be used to forecast AD patients' diagnosis, and it provided a new perspective for AD treatment targets.
+34276768	74	93	Alzheimer's Disease	Disease	MESH:D000544
+34276768	126	151	neurodegenerative disease	Disease	MESH:D019636
+34276768	153	172	Alzheimer's disease	Disease	MESH:D000544
+34276768	174	176	AD	Disease	MESH:D000544
+34276768	199	227	loss of cognition and memory	Disease	MESH:D003072
+34276768	275	277	AD	Disease	MESH:D000544
+34276768	278	286	patients	Species	9606
+34276768	441	443	AD	Disease	MESH:D000544
+34276768	519	521	AD	Disease	MESH:D000544
+34276768	683	685	AD	Disease	MESH:D000544
+34276768	1163	1165	AD	Disease	MESH:D000544
+34276768	1338	1341	CD4	Gene	920
+34276768	1356	1359	CD4	Gene	920
+34276768	1423	1428	ABCA2	Gene	20
+34276768	1430	1436	CREBRF	Gene	153222
+34276768	1438	1442	CD72	Gene	971
+34276768	1444	1449	CETN2	Gene	1069
+34276768	1451	1456	KCNG1	Gene	3755
+34276768	1458	1464	NDUFA2	Gene	4695
+34276768	1470	1477	RPL36AL	Gene	6166
+34276768	1780	1785	ABCA2	Gene	20
+34276768	1787	1793	NDUFA2	Gene	4695
+34276768	1795	1801	CREBRF	Gene	153222
+34276768	1807	1811	CD72	Gene	971
+34276768	1985	1987	AD	Disease	MESH:D000544
+34276768	1988	1996	patients	Species	9606
+34276768	2047	2049	AD	Disease	MESH:D000544
+34276768	Association	MESH:D000544	1069
+34276768	Association	MESH:D000544	20
+34276768	Association	MESH:D000544	971
+34276768	Association	MESH:D000544	153222
+34276768	Association	MESH:D000544	6166
+34276768	Association	MESH:D000544	920
+34276768	Association	MESH:D000544	3755
+34276768	Association	MESH:D000544	4695
+

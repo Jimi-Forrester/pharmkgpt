@@ -1,0 +1,64 @@
+37129980|t|KATP channels are necessary for glucose-dependent increases in amyloid-beta and Alzheimer's disease-related pathology.
+37129980|a|Elevated blood glucose levels, or hyperglycemia, can increase brain excitability and amyloid-beta (Abeta) release, offering a mechanistic link between type 2 diabetes and Alzheimer's disease (AD). Since the cellular mechanisms governing this relationship are poorly understood, we explored whether ATP-sensitive potassium (KATP) channels, which couple changes in energy availability with cellular excitability, play a role in AD pathogenesis. First, we demonstrate that KATP channel subunits Kir6.2/KCNJ11 and SUR1/ABCC8 were expressed on excitatory and inhibitory neurons in the human brain, and cortical expression of KCNJ11 and ABCC8 changed with AD pathology in humans and mice. Next, we explored whether eliminating neuronal KATP channel activity uncoupled the relationship between metabolism, excitability, and Abeta pathology in a potentially novel mouse model of cerebral amyloidosis and neuronal KATP channel ablation (i.e., amyloid precursor protein [APP]/PS1 Kir6.2-/- mouse). Using both acute and chronic paradigms, we demonstrate that Kir6.2-KATP channels are metabolic sensors that regulate hyperglycemia-dependent increases in interstitial fluid levels of Abeta, amyloidogenic processing of APP, and amyloid plaque formation, which may be dependent on lactate release. These studies identify a potentially new role for Kir6.2-KATP channels in AD and suggest that pharmacological manipulation of Kir6.2-KATP channels holds therapeutic promise in reducing Abeta pathology in patients with diabetes or prediabetes.
+37129980	0	13	KATP channels	Gene	
+37129980	32	39	glucose	Chemical	MESH:D005947
+37129980	63	75	amyloid-beta	Gene	351
+37129980	80	99	Alzheimer's disease	Disease	MESH:D000544
+37129980	128	141	blood glucose	Chemical	MESH:D001786
+37129980	153	166	hyperglycemia	Disease	MESH:D006943
+37129980	204	216	amyloid-beta	Gene	351
+37129980	218	223	Abeta	Gene	351
+37129980	270	285	type 2 diabetes	Disease	MESH:D003924
+37129980	290	309	Alzheimer's disease	Disease	MESH:D000544
+37129980	311	313	AD	Disease	MESH:D000544
+37129980	417	456	ATP-sensitive potassium (KATP) channels	Gene	
+37129980	545	547	AD	Disease	MESH:D000544
+37129980	589	601	KATP channel	Gene	
+37129980	611	617	Kir6.2	Gene	3767
+37129980	618	624	KCNJ11	Gene	3767
+37129980	629	633	SUR1	Gene	6833
+37129980	634	639	ABCC8	Gene	6833
+37129980	699	704	human	Species	9606
+37129980	739	745	KCNJ11	Gene	3767
+37129980	750	755	ABCC8	Gene	6833
+37129980	769	771	AD	Disease	MESH:D000544
+37129980	785	791	humans	Species	9606
+37129980	796	800	mice	Species	10090
+37129980	936	941	Abeta	Gene	351
+37129980	975	980	mouse	Species	10090
+37129980	990	1010	cerebral amyloidosis	Disease	MESH:C538248
+37129980	1053	1078	amyloid precursor protein	Gene	11820
+37129980	1085	1088	PS1	Gene	19164
+37129980	1089	1095	Kir6.2	Gene	16514
+37129980	1099	1104	mouse	Species	10090
+37129980	1167	1173	Kir6.2	Gene	3767
+37129980	1174	1187	KATP channels	Gene	
+37129980	1224	1237	hyperglycemia	Disease	MESH:D006943
+37129980	1290	1295	Abeta	Gene	351
+37129980	1334	1348	amyloid plaque	Disease	MESH:D058225
+37129980	1386	1393	lactate	Chemical	MESH:D019344
+37129980	1453	1459	Kir6.2	Gene	16514
+37129980	1477	1479	AD	Disease	MESH:D000544
+37129980	1529	1535	Kir6.2	Gene	3767
+37129980	1588	1593	Abeta	Gene	351
+37129980	1607	1615	patients	Species	9606
+37129980	1621	1629	diabetes	Disease	MESH:D003920
+37129980	1633	1644	prediabetes	Disease	MESH:D011236
+37129980	Association	MESH:D006943	3767
+37129980	Association	MESH:D000544	351
+37129980	Association	MESH:D019344	351
+37129980	Association	MESH:D011236	3767
+37129980	Association	MESH:D000544	6833
+37129980	Association	MESH:D003920	3767
+37129980	Association	MESH:D005947	351
+37129980	Association	MESH:D058225	3767
+37129980	Association	351	3767
+37129980	Association	MESH:D019344	MESH:D006943
+37129980	Association	MESH:D000544	3767
+37129980	Positive_Correlation	MESH:D001786	351
+37129980	Association	MESH:D005947	MESH:D000544
+37129980	Association	MESH:D000544	16514
+37129980	Positive_Correlation	MESH:D006943	351
+37129980	Positive_Correlation	MESH:D001786	MESH:D000544
+37129980	Association	MESH:D019344	MESH:D058225
+

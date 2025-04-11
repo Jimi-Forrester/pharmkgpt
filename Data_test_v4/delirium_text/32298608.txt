@@ -1,0 +1,35 @@
+32298608|t|Drug-Target Interaction Network Analysis of Gene-Phenotype Connectivity Maintained by Genistein.
+32298608|a|Genistein is a type of isoflavone, which has been widely described as an antitumor agent in many cancers. The present study aimed to provide information on the mechanisms of genistein's activity and thus enable a wider range of targeted therapies in hepatitis B virus (HBV)-related liver cancer. We searched the DrugBank database for direct targets of genistein, which were then analyzed through the STRING (Search Tool for the Retrieval of Interacting Genes/Proteins) database to predict their secondary protein targets. Thirteen primary protein targets of genistein and 209 secondary protein targets-associated genes were identified. The data were integrated into the network of protein targets-associated genes and visualized with the Cytoscape software. We further carried out GO (Gene Ontology) analysis and KEGG (Kyoto Encyclopedia of Gene and Genome) pathway analysis using DAVID (database for annotation, visualization, and integrated discovery) tool. The top 14 KEGG pathways were further assessed, and 19 overlapping genes derived from pathways of hepatitis B and cancer were discovered. The overlapping targets were further mapped in the online tool UALCAN to evaluate the survival rate of hepatocellular carcinoma (HCC) patients. We found that the overexpression of Grb2 (growth factor receptor-binding protein 2) (p < 0.0001) was linked to poor overall survival for liver HCC patients, followed by AKT1 (p = 0.0015) and PIK3CA (p = 0.0088). The present study analyzes the drug-target-disease network and may prove to be a useful tool in gene-phenotype connectivity for genistein in HBV-related liver cancer. Our data also pave the way for further research on Grb2 during the development of chronic HBV infection in liver cancer.
+32298608	86	95	Genistein	Chemical	MESH:D019833
+32298608	97	106	Genistein	Chemical	MESH:D019833
+32298608	120	130	isoflavone	Chemical	MESH:D007529
+32298608	194	201	cancers	Disease	MESH:D009369
+32298608	271	280	genistein	Chemical	MESH:D019833
+32298608	347	364	hepatitis B virus	Species	10407
+32298608	366	369	HBV	Species	10407
+32298608	379	391	liver cancer	Disease	MESH:D006528
+32298608	449	458	genistein	Chemical	MESH:D019833
+32298608	655	664	genistein	Chemical	MESH:D019833
+32298608	1155	1166	hepatitis B	Disease	MESH:D006509
+32298608	1171	1177	cancer	Disease	MESH:D009369
+32298608	1298	1322	hepatocellular carcinoma	Disease	MESH:D006528
+32298608	1324	1327	HCC	Disease	MESH:D006528
+32298608	1329	1337	patients	Species	9606
+32298608	1375	1379	Grb2	Gene	2885
+32298608	1381	1421	growth factor receptor-binding protein 2	Gene	2885
+32298608	1476	1485	liver HCC	Disease	MESH:D006528
+32298608	1486	1494	patients	Species	9606
+32298608	1508	1512	AKT1	Gene	207
+32298608	1530	1536	PIK3CA	Gene	5290
+32298608	1679	1688	genistein	Chemical	MESH:D019833
+32298608	1692	1695	HBV	Species	10407
+32298608	1704	1716	liver cancer	Disease	MESH:D006528
+32298608	1769	1773	Grb2	Gene	2885
+32298608	1808	1821	HBV infection	Species	
+32298608	1825	1837	liver cancer	Disease	MESH:D006528
+32298608	Negative_Correlation	MESH:D019833	MESH:D009369
+32298608	Association	MESH:D006528	2885
+32298608	Association	MESH:D006528	207
+32298608	Negative_Correlation	MESH:D019833	MESH:D006528
+32298608	Association	MESH:D006528	5290
+

@@ -1,0 +1,30 @@
+35190763|t|Analysis of Sepsis Markers and Pathogenesis Based on Gene Differential Expression and Protein Interaction Network.
+35190763|a|OBJECTIVE: The purpose of the present study is to screen the hub genes associated with sepsis, comprehensively understand the occurrence and progress mechanism of sepsis, and provide new targets for clinical diagnosis and treatment of sepsis. METHODS: The microarray data of GSE9692 and GSE95233 were downloaded from the Gene Expression Omnibus (GEO) database. The dataset GSE9692 contained 29 children with sepsis and 16 healthy children, while the dataset GSE95233 included 102 septic subjects and 22 healthy volunteers. Differentially expressed genes (DEGs) were screened by GEO2R online analysis. The DAVID database was applied to conduct functional enrichment analysis of the DEGs. The STRING database was adopted to acquire protein-protein interaction (PPI) networks. RESULTS: We identified 286 DEGs (217 upregulated DEGs and 69 downregulated DEGs) in the dataset GSE9692 and 357 DEGs (236 upregulated DEGs and 121 downregulated DEGs) in the dataset GSE95233. After the intersection of DEGs of the two datasets, a total of 98 co-DEGs were obtained. DEGs associated with sepsis were involved in inflammatory responses such as T cell activation, leukocyte cell-cell adhesion, leukocyte-mediated immunity, cytokine production, immune effector process, lymphocyte-mediated immunity, defense response to fungus, and lymphocyte-mediated immunity. Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis suggested that sepsis was connected to bacterial and viral infections. Through PPI network analysis, we screened the most important hub genes, including ITK, CD247, MMP9, CD3D, MMP8, KLRK1, and GZMK. CONCLUSIONS: In conclusion, the present study revealed an unbalanced immune response at the transcriptome level of sepsis and identified genes for potential biomarkers of sepsis, such as ITK, CD247, MMP9, CD3D, MMP8, KLRK1, and GZMK.
+35190763	12	18	Sepsis	Disease	MESH:D018805
+35190763	202	208	sepsis	Disease	MESH:D018805
+35190763	278	284	sepsis	Disease	MESH:D018805
+35190763	350	356	sepsis	Disease	MESH:D018805
+35190763	523	529	sepsis	Disease	MESH:D018805
+35190763	1191	1197	sepsis	Disease	MESH:D018805
+35190763	1215	1227	inflammatory	Disease	MESH:D007249
+35190763	1552	1558	sepsis	Disease	MESH:D018805
+35190763	1576	1606	bacterial and viral infections	Disease	MESH:D014777
+35190763	1690	1693	ITK	Gene	3702
+35190763	1695	1700	CD247	Gene	919
+35190763	1702	1706	MMP9	Gene	4318
+35190763	1708	1712	CD3D	Gene	915
+35190763	1714	1718	MMP8	Gene	4317
+35190763	1720	1725	KLRK1	Gene	22914
+35190763	1731	1735	GZMK	Gene	3003
+35190763	1852	1858	sepsis	Disease	MESH:D018805
+35190763	1908	1914	sepsis	Disease	MESH:D018805
+35190763	1924	1927	ITK	Gene	3702
+35190763	1929	1934	CD247	Gene	919
+35190763	1936	1940	MMP9	Gene	4318
+35190763	1942	1946	CD3D	Gene	915
+35190763	1948	1952	MMP8	Gene	4317
+35190763	1954	1959	KLRK1	Gene	22914
+35190763	1965	1969	GZMK	Gene	3003
+35190763	Association	MESH:D018805	22914
+35190763	Association	MESH:D018805	3003
+

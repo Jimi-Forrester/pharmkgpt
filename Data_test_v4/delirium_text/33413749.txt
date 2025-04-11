@@ -1,0 +1,39 @@
+33413749|t|Identification of Potential Therapeutic Targets of Alzheimer's Disease By Weighted Gene Co-Expression Network Analysis.
+33413749|a|Objective Alzheimer's disease (AD) is the most common cause of dementia. The pathophysiology of the disease mostly remains unearthed, thereby challenging drug development for AD. This study aims to screen high throughput gene expression data using weighted co-expression network analysis (WGCNA) to explore the potential therapeutic targets.Methods The dataset of GSE36980 was obtained from the Gene Expression Omnibus (GEO) database. Normalization, quality control, filtration, and soft-threshold calculation were carried out before clustering the co-expressed genes into different modules. Furthermore, the correlation coefficients between the modules and clinical traits were computed to identify the key modules. Gene ontology and pathway enrichment analyses were performed on the key module genes. The STRING database was used to construct the protein-protein interaction (PPI) networks, which were further analyzed by Cytoscape app (MCODE). Finally, validation of hub genes was conducted by external GEO datasets of GSE 1297 and GSE 28146.Results Co-expressed genes were clustered into 27 modules, among which 6 modules were identified as the key module relating to AD occurrence. These key modules are primarily involved in chemical synaptic transmission (GO:0007268), the tricarboxylic acid (TCA) cycle and respiratory electron transport (R-HSA-1428517). WDR47, OXCT1, C3orf14, ATP6V1A, SLC25A14, NAPB were found as the hub genes and their expression were validated by external datasets.Conclusions Through modules co-expression network analyses and PPI network analyses, we identified the hub genes of AD, including WDR47, OXCT1, C3orf14, ATP6V1A, SLC25A14 and NAPB. Among them, three hub genes (ATP6V1A, SLC25A14, OXCT1) might contribute to AD pathogenesis through pathway of TCA cycle.
+33413749	51	70	Alzheimer's Disease	Disease	MESH:D000544
+33413749	130	149	Alzheimer's disease	Disease	MESH:D000544
+33413749	151	153	AD	Disease	MESH:D000544
+33413749	183	191	dementia	Disease	MESH:D003704
+33413749	295	297	AD	Disease	MESH:D000544
+33413749	1292	1294	AD	Disease	MESH:D000544
+33413749	1400	1418	tricarboxylic acid	Chemical	MESH:D014233
+33413749	1420	1423	TCA	Chemical	MESH:D014233
+33413749	1483	1488	WDR47	Gene	22911
+33413749	1490	1495	OXCT1	Gene	5019
+33413749	1497	1504	C3orf14	Gene	57415
+33413749	1506	1513	ATP6V1A	Gene	523
+33413749	1515	1523	SLC25A14	Gene	9016
+33413749	1525	1529	NAPB	Gene	63908
+33413749	1731	1733	AD	Disease	MESH:D000544
+33413749	1745	1750	WDR47	Gene	22911
+33413749	1752	1757	OXCT1	Gene	5019
+33413749	1759	1766	C3orf14	Gene	57415
+33413749	1768	1775	ATP6V1A	Gene	523
+33413749	1777	1785	SLC25A14	Gene	9016
+33413749	1790	1794	NAPB	Gene	63908
+33413749	1825	1832	ATP6V1A	Gene	523
+33413749	1834	1842	SLC25A14	Gene	9016
+33413749	1844	1849	OXCT1	Gene	5019
+33413749	1871	1873	AD	Disease	MESH:D000544
+33413749	1906	1909	TCA	Chemical	MESH:D014233
+33413749	Association	MESH:D014233	MESH:D000544
+33413749	Association	MESH:D000544	57415
+33413749	Association	MESH:D000544	9016
+33413749	Association	MESH:D000544	5019
+33413749	Association	MESH:D014233	523
+33413749	Association	MESH:D014233	9016
+33413749	Association	MESH:D000544	523
+33413749	Association	MESH:D000544	22911
+33413749	Association	MESH:D014233	5019
+33413749	Association	MESH:D000544	63908
+

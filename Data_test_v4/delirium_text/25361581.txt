@@ -1,0 +1,63 @@
+25361581|t|A genetic screen identifies Tor as an interactor of VAPB in a Drosophila model of amyotrophic lateral sclerosis.
+25361581|a|Amyotrophic Lateral Sclerosis (ALS) is a progressive neurodegenerative disorder characterized by selective death of motor neurons. In 5-10% of the familial cases, the disease is inherited because of mutations. One such mutation, P56S, was identified in human VAPB that behaves in a dominant negative manner, sequestering wild type protein into cytoplasmic inclusions. We have conducted a reverse genetic screen to identify interactors of Drosophila VAPB. We screened 2635 genes and identified 103 interactors, of which 45 were enhancers and 58 were suppressors of VAPB function. Interestingly, the screen identified known ALS loci - TBPH, alsin2 and SOD1. Also identified were genes involved in cellular energetics and homeostasis which were used to build a gene regulatory network of VAPB modifiers. One key modifier identified was Tor, whose knockdown reversed the large bouton phenotype associated with VAP(P58S) expression in neurons. A similar reversal was seen by over-expressing Tuberous Sclerosis Complex (Tsc1,2) that negatively regulates TOR signaling as also by reduction of S6K activity. In comparison, the small bouton phenotype associated with VAP(wt) expression was reversed with Tsc1 knock down as well as S6K-CA expression. Tor therefore interacts with both VAP(wt) and VAP(P58S), but in a contrasting manner. Reversal of VAP(P58S) bouton phenotypes in larvae fed with the TOR inhibitor Rapamycin suggests upregulation of TOR signaling in response to VAP(P58S) expression. The VAPB network and further mechanistic understanding of interactions with key pathways, such as the TOR cassette, will pave the way for a better understanding of the mechanisms of onset and progression of motor neuron disease. 
+25361581	28	31	Tor	Gene	47396
+25361581	52	56	VAPB	Gene	31349
+25361581	62	72	Drosophila	Species	7227
+25361581	82	111	amyotrophic lateral sclerosis	Disease	MESH:D000690
+25361581	113	142	Amyotrophic Lateral Sclerosis	Disease	MESH:D000690
+25361581	144	147	ALS	Disease	MESH:D000690
+25361581	166	192	neurodegenerative disorder	Disease	MESH:D019636
+25361581	342	346	P56S	ProteinMutation	tmVar:p|SUB|P|56|S;HGVS:p.P56S;VariantGroup:0;CorrespondingGene:9217;RS#:74315431;CorrespondingSpecies:9606;CA#:117096
+25361581	366	371	human	Species	9606
+25361581	372	376	VAPB	Gene	9217
+25361581	551	561	Drosophila	Species	7227
+25361581	562	566	VAPB	Gene	31349
+25361581	677	681	VAPB	Gene	31349
+25361581	735	738	ALS	Disease	MESH:D000690
+25361581	746	750	TBPH	Gene	37781
+25361581	752	758	alsin2	Gene	39956
+25361581	763	767	SOD1	Gene	39251
+25361581	898	902	VAPB	Gene	31349
+25361581	946	949	Tor	Gene	47396
+25361581	1019	1022	VAP	Gene	31349
+25361581	1023	1027	P58S	ProteinMutation	tmVar:p|SUB|P|58|S;HGVS:p.P58S;VariantGroup:1;OriginalGene:31349;CorrespondingGene:9217;CorrespondingSpecies:7227
+25361581	1127	1133	Tsc1,2	Gene	42862;40201
+25361581	1161	1164	TOR	Gene	6097
+25361581	1199	1202	S6K	Gene	38654
+25361581	1271	1274	VAP	Gene	31349
+25361581	1308	1312	Tsc1	Gene	42862
+25361581	1335	1338	S6K	Gene	38654
+25361581	1354	1357	Tor	Gene	47396
+25361581	1388	1391	VAP	Gene	31349
+25361581	1400	1403	VAP	Gene	31349
+25361581	1404	1408	P58S	ProteinMutation	tmVar:p|SUB|P|58|S;HGVS:p.P58S;VariantGroup:1;OriginalGene:31349;CorrespondingGene:9217;CorrespondingSpecies:7227
+25361581	1452	1455	VAP	Gene	31349
+25361581	1456	1460	P58S	ProteinMutation	tmVar:p|SUB|P|58|S;HGVS:p.P58S;VariantGroup:1;OriginalGene:31349;CorrespondingGene:9217;CorrespondingSpecies:7227
+25361581	1503	1506	TOR	Gene	47396
+25361581	1517	1526	Rapamycin	Chemical	MESH:D020123
+25361581	1552	1555	TOR	Gene	6097
+25361581	1581	1584	VAP	Gene	31349
+25361581	1585	1589	P58S	ProteinMutation	tmVar:p|SUB|P|58|S;HGVS:p.P58S;VariantGroup:1;OriginalGene:31349;CorrespondingGene:9217;CorrespondingSpecies:7227
+25361581	1607	1611	VAPB	Gene	9217
+25361581	1705	1708	TOR	Gene	6097
+25361581	1810	1830	motor neuron disease	Disease	MESH:D016472
+25361581	Negative_Correlation	42862	6097
+25361581	Association	MESH:D000690	9217
+25361581	Negative_Correlation	MESH:D020123	HGVS:p.P58S;CorrespondingGene:9217
+25361581	Association	MESH:D000690	39956
+25361581	Association	MESH:D000690	39251
+25361581	Association	31349	42862
+25361581	Association	MESH:D000690	37781
+25361581	Association	31349	47396
+25361581	Negative_Correlation	MESH:D020123	31349
+25361581	Association	MESH:D016472	6097
+25361581	Negative_Correlation	MESH:D020123	47396
+25361581	Negative_Correlation	MESH:D020123	6097
+25361581	Negative_Correlation	40201	6097
+25361581	Association	31349	38654
+25361581	Association	MESH:D000690	47396
+25361581	Association	31349	6097
+25361581	Association	MESH:D016472	9217
+25361581	Negative_Correlation	MESH:D020123	RS#:74315431;HGVS:p.P56S;CorrespondingGene:9217
+25361581	Negative_Correlation	38654	40201
+

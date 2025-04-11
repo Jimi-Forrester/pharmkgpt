@@ -1,0 +1,23 @@
+33144220|t|Dynamic brain fluctuations outperform connectivity measures and mirror pathophysiological profiles across dementia subtypes: A multicenter study.
+33144220|a|From molecular mechanisms to global brain networks, atypical fluctuations are the hallmark of neurodegeneration. Yet, traditional fMRI research on resting-state networks (RSNs) has favored static and average connectivity methods, which by overlooking the fluctuation dynamics triggered by neurodegeneration, have yielded inconsistent results. The present multicenter study introduces a data-driven machine learning pipeline based on dynamic connectivity fluctuation analysis (DCFA) on RS-fMRI data from 300 participants belonging to three groups: behavioral variant frontotemporal dementia (bvFTD) patients, Alzheimer's disease (AD) patients, and healthy controls. We considered non-linear oscillatory patterns across combined and individual resting-state networks (RSNs), namely: the salience network (SN), mostly affected in bvFTD; the default mode network (DMN), mostly affected in AD; the executive network (EN), partially compromised in both conditions; the motor network (MN); and the visual network (VN). These RSNs were entered as features for dementia classification using a recent robust machine learning approach (a Bayesian hyperparameter tuned Gradient Boosting Machines (GBM) algorithm), across four independent datasets with different MR scanners and recording parameters. The machine learning classification accuracy analysis revealed a systematic and unique tailored architecture of RSN disruption. The classification accuracy ranking showed that the most affected networks for bvFTD were the SN + EN network pair (mean accuracy = 86.43%, AUC = 0.91, sensitivity = 86.45%, specificity = 87.54%); for AD, the DMN + EN network pair (mean accuracy = 86.63%, AUC = 0.89, sensitivity = 88.37%, specificity = 84.62%); and for the bvFTD vs. AD classification, the DMN + SN network pair (mean accuracy = 82.67%, AUC = 0.86, sensitivity = 81.27%, specificity = 83.01%). Moreover, the DFCA classification systematically outperformed canonical connectivity approaches (including both static and linear dynamic connectivity). Our findings suggest that non-linear dynamical fluctuations surpass two traditional seed-based functional connectivity approaches and provide a pathophysiological characterization of global brain networks in neurodegenerative conditions (AD and bvFTD) across multicenter data.
+33144220	106	114	dementia	Disease	MESH:D003704
+33144220	240	257	neurodegeneration	Disease	MESH:D019636
+33144220	435	452	neurodegeneration	Disease	MESH:D019636
+33144220	712	735	frontotemporal dementia	Disease	MESH:D057180
+33144220	737	742	bvFTD	Disease	MESH:D057180
+33144220	744	752	patients	Species	9606
+33144220	754	773	Alzheimer's disease	Disease	MESH:D000544
+33144220	775	777	AD	Disease	MESH:D000544
+33144220	779	787	patients	Species	9606
+33144220	973	978	bvFTD	Disease	MESH:D057180
+33144220	1031	1033	AD	Disease	MESH:D000544
+33144220	1198	1206	dementia	Disease	MESH:D003704
+33144220	1546	1549	RSN	Disease	
+33144220	1641	1646	bvFTD	Disease	MESH:D057180
+33144220	1763	1765	AD	Disease	MESH:D000544
+33144220	1887	1892	bvFTD	Disease	MESH:D057180
+33144220	1897	1899	AD	Disease	MESH:D000544
+33144220	2385	2413	neurodegenerative conditions	Disease	MESH:D019636
+33144220	2415	2417	AD	Disease	MESH:D000544
+33144220	2422	2427	bvFTD	Disease	MESH:D057180
+

@@ -1,0 +1,44 @@
+15009509|t|Melatonin protects SH-SY5Y neuroblastoma cells from calyculin A-induced neurofilament impairment and neurotoxicity.
+15009509|a|Hyperphosphorylation of cytoskeletal proteins seen in Alzheimer's disease is most probably the result of an imbalanced regulation in protein kinases and protein phosphatases (PP) in the affected neurons. Previous studies have revealed that PP-2A and PP-1 play important roles in the pathogenesis. Employing human neuroblastoma cells, we found that 10 nM calyculin A (CA), a selective inhibitor of PP-2A and PP-1, significantly increased phosphorylation and accumulation of neurofilament (NF) in the cells. Levels of NF-M (middle chain) and NF-L (light chain) mRNA decreased after CA treatment. Additionally, CA led to a decreased cell viability determined by MTT and crystal violet assay. Melatonin efficiently protects the cell from CA-induced alterations in NF hyperphosphorylation and accumulation, suppressed NF gene expression as well as decreased cell viability. It is concluded that inhibition of PP-2A/PP-1 by CA induces abnormalities in NF metabolism and cell survival, and melatonin efficiently arrests the lesions.
+15009509	0	9	Melatonin	Chemical	MESH:D008550
+15009509	19	40	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+15009509	52	63	calyculin A	Chemical	MESH:C059041
+15009509	72	96	neurofilament impairment	Disease	MESH:D060825
+15009509	101	114	neurotoxicity	Disease	MESH:D020258
+15009509	116	136	Hyperphosphorylation	Disease	
+15009509	170	189	Alzheimer's disease	Disease	MESH:D000544
+15009509	356	361	PP-2A	Gene	5524
+15009509	366	370	PP-1	Gene	5540
+15009509	423	428	human	Species	9606
+15009509	429	442	neuroblastoma	Disease	MESH:D009447
+15009509	470	481	calyculin A	Chemical	MESH:C059041
+15009509	513	518	PP-2A	Gene	5524
+15009509	523	527	PP-1	Gene	5540
+15009509	589	602	neurofilament	Gene	23114
+15009509	604	606	NF	Gene	23114
+15009509	632	636	NF-M	Gene	4741
+15009509	656	660	NF-L	Gene	4747
+15009509	775	778	MTT	Chemical	MESH:C070243
+15009509	783	797	crystal violet	Chemical	MESH:D005840
+15009509	805	814	Melatonin	Chemical	MESH:D008550
+15009509	876	878	NF	Gene	23114
+15009509	879	899	hyperphosphorylation	Disease	
+15009509	929	931	NF	Gene	23114
+15009509	1020	1025	PP-2A	Gene	5524
+15009509	1026	1030	PP-1	Gene	5540
+15009509	1062	1064	NF	Gene	23114
+15009509	1099	1108	melatonin	Chemical	MESH:D008550
+15009509	Negative_Correlation	MESH:C059041	MESH:D008550
+15009509	Association	23114	5540
+15009509	Positive_Correlation	MESH:C059041	MESH:D020258
+15009509	Negative_Correlation	MESH:D008550	MESH:D020258
+15009509	Negative_Correlation	MESH:D008550	MESH:D060825
+15009509	Negative_Correlation	MESH:C059041	4747
+15009509	Positive_Correlation	MESH:C059041	MESH:D060825
+15009509	Negative_Correlation	MESH:C059041	MESH:D009447
+15009509	Negative_Correlation	MESH:D008550	23114
+15009509	Negative_Correlation	MESH:C059041	4741
+15009509	Negative_Correlation	MESH:C059041	5524
+15009509	Negative_Correlation	MESH:C059041	5540
+15009509	Positive_Correlation	MESH:C059041	23114
+

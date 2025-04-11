@@ -1,0 +1,26 @@
+35574296|t|A Pyroptosis-Related Gene Panel for Predicting the Prognosis and Immune Microenvironment of Cervical Cancer.
+35574296|a|Cervical cancer (CC) is one of the most common malignant tumors of the female reproductive system. And the immune system disorder in patients results in an increasing incidence rate and mortality rate. Pyroptosis is an immune system-related programmed cell death pathway that produces systemic inflammation by releasing pro-inflammatory intracellular components. However, the diagnostic significance of pyroptosis-related genes (PRGs) in CC is still unclear. Therefore, we identified 52 PRGs from the TCGA database and screened three Differentially Expressed Pyroptosis-Related Genes (DEPRGs) in the prognosis of cervical cancer: CHMP4C, GZMB, TNF. The least absolute shrinkage and selection operator (LASSO) regression analysis and multivariate COX regression analysis were then used to construct a gene panel based on the three prognostic DEPRGs. The patients were divided into high-and low-risk groups based on the median risk score of the panel. According to the Kaplan-Meier curve, there was a substantial difference in survival rates between the two groups, with the high-risk group's survival rate being significantly lower than the low-risk group's. The PCA and t-SNE analyses revealed that the panel was able to differentiate patients into high-and low-risk groups. The area under the ROC curve (AUC) shows that the prognostic panel has high sensitivity and specificity. The risk score could then be employed as an independent prognostic factor using univariate and multivariate COX regression analyses paired with clinical data. The analyses of GO and KEGG functional enrichment of differentially expressed genes (DEGs) in the high-and low-risk groups revealed that these genes were primarily engaged in immune response and inflammatory cell chemotaxis. To illustrate immune cell infiltration in CC patients further, we used ssGSEA to compare immune-related cells and immune pathway activation between the high-and low-risk groups. The link between three prognostic DEPRGs and immune-related cells was still being discussed after evaluating immune cell infiltration in the TCGA cohort with "CIBERSORT." In addition, the GEPIA database and qRT-PCR analysis were used to verify the expression levels of prognostic DEPRGs. In conclusion, PRGs are critical in tumor immunity and can be utilized to predict the prognosis of CC.
+35574296	92	107	Cervical Cancer	Disease	MESH:D002583
+35574296	109	124	Cervical cancer	Disease	MESH:D002583
+35574296	126	128	CC	Disease	MESH:D002583
+35574296	156	172	malignant tumors	Disease	MESH:D009369
+35574296	216	238	immune system disorder	Disease	MESH:D007154
+35574296	242	250	patients	Species	9606
+35574296	394	415	systemic inflammation	Disease	MESH:D007249
+35574296	433	445	inflammatory	Disease	MESH:D007249
+35574296	547	549	CC	Disease	MESH:D002583
+35574296	722	737	cervical cancer	Disease	MESH:D002583
+35574296	739	745	CHMP4C	Gene	92421
+35574296	747	751	GZMB	Gene	3002
+35574296	753	756	TNF	Gene	7124
+35574296	962	970	patients	Species	9606
+35574296	1344	1352	patients	Species	9606
+35574296	1843	1855	inflammatory	Disease	MESH:D007249
+35574296	1915	1917	CC	Disease	MESH:D002583
+35574296	1918	1926	patients	Species	9606
+35574296	2375	2380	tumor	Disease	MESH:D009369
+35574296	2438	2440	CC	Disease	MESH:D002583
+35574296	Association	MESH:D002583	7124
+35574296	Association	MESH:D002583	3002
+35574296	Association	MESH:D002583	92421
+

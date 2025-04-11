@@ -1,0 +1,16 @@
+33049726|t|Identifying potential gene biomarkers for Parkinson's disease through an information entropy based approach.
+33049726|a|Parkinson's disease (PD) is a chronic, progressive neurodegenerative disease and represents the most common disease of this type, after Alzheimer's dementia. It is characterized by motor and nonmotor features and by a long prodromal stage that lasts many years. Genetic research has shown that PD is a complex and multisystem disorder. To capture the molecular complexity of this disease we used a complex network approach. We maximized the information entropy of the gene co-expression matrix betweenness to obtain a gene adjacency matrix; then we used a fast greedy algorithm to detect communities. Finally we applied principal component analysis on the detected gene communities, with the ultimate purpose of discriminating between PD patients and healthy controls by means of a random forests classifier. We used a publicly available substantia nigra microarray dataset, GSE20163, from NCBI GEO database, containing gene expression profiles for 10 PD patients and 18 normal controls. With this methodology we identified two gene communities that discriminated between the two groups with mean accuracy of 0.88 +- 0.03 and 0.84 +- 0.03, respectively, and validated our results on an independent microarray experiment. The two gene communities presented a considerable reduction in size, over 100 times, compared to the initial network and were stable within a range of tested parameters. Further research focusing on the restricted number of genes belonging to the selected communities may reveal essential mechanisms responsible for PD at a network level and could contribute to the discovery of new biomarkers for PD.
+33049726	42	61	Parkinson's disease	Disease	MESH:D010300
+33049726	109	128	Parkinson's disease	Disease	MESH:D010300
+33049726	130	132	PD	Disease	MESH:D010300
+33049726	160	185	neurodegenerative disease	Disease	MESH:D019636
+33049726	245	265	Alzheimer's dementia	Disease	MESH:D000544
+33049726	403	405	PD	Disease	MESH:D010300
+33049726	844	846	PD	Disease	MESH:D010300
+33049726	847	855	patients	Species	9606
+33049726	958	963	nigra	Disease	MESH:C000656904
+33049726	1061	1063	PD	Disease	MESH:D010300
+33049726	1064	1072	patients	Species	9606
+33049726	1646	1648	PD	Disease	MESH:D010300
+33049726	1728	1730	PD	Disease	MESH:D010300
+

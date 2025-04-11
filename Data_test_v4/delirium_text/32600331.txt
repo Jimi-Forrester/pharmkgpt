@@ -1,0 +1,44 @@
+32600331|t|Analysis of the pharmacological mechanism of Banxia Xiexin decoction in treating depression and ulcerative colitis based on a biological network module.
+32600331|a|BACKGROUND: The network pharmacology method was used to predict the active components of Banxia Xiexin decoction, its targets and the key signalling pathways that are activated in the treatment of depression and ulcerative colitis to explore the common mechanism. METHODS: The active components and targets of Banxia Xiexin decoction were obtained by searching the ETCM,TCMSP and TCMIP database. The disease targets of depression and ulcerative colitis were obtained by combining the following the DisGeNET, OMIM,Drugbank,CTD and PharmGKB disease databases. The drug and disease target genes were obtained from the intersection of the herbal medicine targets and the disease targets and were imported into the STRING platform for the analysis of PPI network. The network modules were constructed using Cytoscape software. An analysis of the functional annotations of GO terms and KEGG signalling pathways was performed for each network module. Then, the tissue distribution, sub-cellular distribution and protein attributes of the key targets in the pathway were analysed by the BioGPS, Genecards and DisGeNET databases. RESULTS: The mechanism of Banxia Xiexin Decoction in the treatment of depression and ulcerative colitis is related to drug reaction, steroid metabolism, lipid metabolism, inflammatory response, oxidative stress response, cell response to lipopolysaccharide, insulin secretion regulation, estradiol response and other biological functions, mainly through the regulation of 5-hydroxytryptamine synaptic, arachidonic acid metabolism, HIF-1 signaling pathway and NF-kappa B signaling pathway can achieve the effect of same treatment for different diseases. CONCLUSIONS: The mechanism of Banxia Xiexin Decoction in treating different diseases involves direct or indirect correlation of multiple signal pathways, mainly involved in drug metabolism and lipid metabolism, but also through comprehensive intervention of the body's nervous system, immune system, digestive system and other systems. The effective components of Banxia Xiexin Decoction are mainly act on eight key target proteins (such as ALB, IL6, VEGFA, TNF, PTGS2, MAPK1, STAT3, EGFR) to carry out multi-target effect mechanism, biological mechanism of treating different diseases with the same treatment, and related mechanism of overall treatment, which provide theoretical reference for further research on the material basis and mechanism of Banxiaxiexin decoction on antidepressant and prevention and treatment of ulcerative colitis.
+32600331	81	91	depression	Disease	MESH:D003866
+32600331	96	114	ulcerative colitis	Disease	MESH:D003093
+32600331	350	360	depression	Disease	MESH:D003866
+32600331	365	383	ulcerative colitis	Disease	MESH:D003093
+32600331	572	582	depression	Disease	MESH:D003866
+32600331	587	605	ulcerative colitis	Disease	MESH:D003093
+32600331	1344	1354	depression	Disease	MESH:D003866
+32600331	1359	1377	ulcerative colitis	Disease	MESH:D003093
+32600331	1407	1414	steroid	Chemical	MESH:D013256
+32600331	1427	1432	lipid	Chemical	MESH:D008055
+32600331	1445	1457	inflammatory	Disease	MESH:D007249
+32600331	1512	1530	lipopolysaccharide	Chemical	MESH:D008070
+32600331	1532	1539	insulin	Gene	3630
+32600331	1562	1571	estradiol	Chemical	MESH:D004958
+32600331	1646	1665	5-hydroxytryptamine	Chemical	MESH:D012701
+32600331	1676	1692	arachidonic acid	Chemical	MESH:D016718
+32600331	1705	1710	HIF-1	Gene	3091
+32600331	1733	1743	NF-kappa B	Gene	4790
+32600331	2020	2025	lipid	Chemical	MESH:D008055
+32600331	2268	2271	ALB	Gene	213
+32600331	2273	2276	IL6	Gene	3569
+32600331	2278	2283	VEGFA	Gene	7422
+32600331	2285	2288	TNF	Gene	7124
+32600331	2290	2295	PTGS2	Gene	5743
+32600331	2297	2302	MAPK1	Gene	5594
+32600331	2304	2309	STAT3	Gene	6774
+32600331	2311	2315	EGFR	Gene	1956
+32600331	2651	2669	ulcerative colitis	Disease	MESH:D003093
+32600331	Association	MESH:D003093	3630
+32600331	Association	MESH:D008055	MESH:D003866
+32600331	Association	MESH:D003093	4790
+32600331	Association	MESH:D003866	4790
+32600331	Association	MESH:D012701	MESH:D013256
+32600331	Association	MESH:D013256	MESH:D003093
+32600331	Association	MESH:D004958	MESH:D003093
+32600331	Association	MESH:D012701	MESH:D003093
+32600331	Association	MESH:D008070	MESH:D003093
+32600331	Association	MESH:D013256	MESH:D003866
+32600331	Association	MESH:D008055	MESH:D003093
+32600331	Association	MESH:D003866	3630
+32600331	Association	MESH:D004958	MESH:D012701
+

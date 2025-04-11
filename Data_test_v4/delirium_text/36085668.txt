@@ -1,0 +1,19 @@
+36085668|t|A novel deep learning approach using AlexNet for the classification of electroencephalograms in Alzheimer's Disease and Mild Cognitive Impairment.
+36085668|a|Alzheimer's Disease (AD) is the most common form of dementia. Mild Cognitive Impairment (MCI) is the term given to the stage describing prodromal AD and represents a 'risk factor' in early-stage AD diagnosis from normal cognitive decline due to ageing. The electroencephalogram (EEG) has been studied extensively for AD characterization, but reliable early-stage diagnosis continues to present a challenge. The aim of this study was to introduce a novel way of classifying between AD patients, MCI subjects, and age-matched healthy control (HC) subjects using EEG-derived feature images and deep learning techniques. The EEG recordings of 141 age-matched subjects (52 AD, 37 MCI, 52 HC) were converted into 2D greyscale images representing the Pearson correlation coefficients and the distance Lempel-Ziv Complexity (dLZC) between the 21 EEG channels. Each feature type was computed from EEG epochs of 1s, 2s, 5s and 10s segmented from the original recording. The CNN architecture AlexNet was modified and employed for this three-way classification task and a 70/30 split was used for training and validation with each of the different epoch lengths and EEG-derived images. Whilst a maximum classification accuracy of 73.49% was obtained using dLZC-derived images from 10s epochs as input to the model, the classification accuracy reached 98.13% using the images obtained from Pearson correlation coefficients and 5s epochs. Clinical Relevance- The preliminary findings from this study show that deep learning applied to the analysis of the EEG can classify subjects with accuracies close to 100.
+36085668	96	115	Alzheimer's Disease	Disease	MESH:D000544
+36085668	120	145	Mild Cognitive Impairment	Disease	MESH:D060825
+36085668	147	166	Alzheimer's Disease	Disease	MESH:D000544
+36085668	168	170	AD	Disease	MESH:D000544
+36085668	199	207	dementia	Disease	MESH:D003704
+36085668	209	234	Mild Cognitive Impairment	Disease	MESH:D060825
+36085668	236	239	MCI	Disease	MESH:D060825
+36085668	293	295	AD	Disease	MESH:D000544
+36085668	342	344	AD	Disease	MESH:D000544
+36085668	367	384	cognitive decline	Disease	MESH:D003072
+36085668	464	466	AD	Disease	MESH:D000544
+36085668	628	630	AD	Disease	MESH:D000544
+36085668	631	639	patients	Species	9606
+36085668	641	644	MCI	Disease	MESH:D060825
+36085668	815	817	AD	Disease	MESH:D000544
+36085668	822	825	MCI	Disease	MESH:D060825
+

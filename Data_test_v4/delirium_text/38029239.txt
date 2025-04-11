@@ -1,0 +1,36 @@
+38029239|t|Crosstalk between septic shock and venous thromboembolism: a bioinformatics and immunoassay analysis.
+38029239|a|Background: Herein, we applied bioinformatics methods to analyze the crosstalk between septic shock (SS) and venous thromboembolism (VTE), focusing on the correlation with immune infiltrating cells. Methods: Expression data were obtained from the Gene Expression Omnibus (GEO) database, including blood samples from SS patients (datasets GSE64457, GSE95233, and GSE57065) and VTE patients (GSE19151). We used the R package "limma" for differential expression analysis (p value<0.05, logFC >=1). Venn plots were generated to identify intersected differential genes between SS and VTE and conducted Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) Enrichment analysis. The protein-protein interaction (PPI) network of intersected genes was constructed by Cytoscape software. The xCell analysis identified immune cells with significant changes in VTE and SS and correlated them with significant molecular pathways of crosstalk. Finally, we validated the mRNA expression of crosstalk genes by qPCR, while Matrix Metalloprotein-9 (MMP-9) protein levels were assessed through Western blotting (WB) and Immunohistochemistry (IHC) in human umbilical vein endothelial cells (HUVECs) and mice. Results: In the present study, we conducted a comparison between 88 patients with septic shock and 55 control subjects. Additionally, we compared 70 patients with venous thromboembolism to 63 control subjects. Twelve intersected genes and their corresponding three important molecular pathways were obtained: Metabolic, Estrogen, and FOXO signaling pathways. The resulting PPI network has 194 nodes and 388 edges. The immune microenvironment analysis of the two diseases showed that the infiltration levels of M2 macrophages and Class-switched memory B cells were correlated with the enrichment scores of metabolic, estrogen, and FOXO signaling pathways. Finally, qPCR confirmed that the expression of MMP9, S100A12, ARG1, SLPI, and ANXA3 mRNA in the SS with VTE group was significantly elevated. WB and IHC experiments revealed that MMP9 protein was significantly elevated in the experimental group. Conclusion: Metabolic, estrogen, and FOXO pathways play important roles in both SS and VTE and are related to the immune cell microenvironment of M2 macrophages and Class-switched memory B cells. MMP9 shows promise as a biomarker for diagnosing sepsis with venous thrombosis and a potential molecular target for treating this patient population.
+38029239	18	30	septic shock	Disease	MESH:D012772
+38029239	35	57	venous thromboembolism	Disease	MESH:D054556
+38029239	189	201	septic shock	Disease	MESH:D012772
+38029239	203	205	SS	Disease	MESH:D012772
+38029239	211	233	venous thromboembolism	Disease	MESH:D054556
+38029239	235	238	VTE	Disease	MESH:D054556
+38029239	418	420	SS	Disease	MESH:D012772
+38029239	478	481	VTE	Disease	MESH:D054556
+38029239	674	676	SS	Disease	MESH:D012772
+38029239	681	684	VTE	Disease	MESH:D054556
+38029239	967	970	VTE	Disease	MESH:D054556
+38029239	975	977	SS	Disease	MESH:D012772
+38029239	1124	1147	Matrix Metalloprotein-9	Gene	4318
+38029239	1149	1154	MMP-9	Gene	4318
+38029239	1389	1401	septic shock	Disease	MESH:D012772
+38029239	1470	1492	venous thromboembolism	Disease	MESH:D054556
+38029239	2009	2013	MMP9	Gene	4318
+38029239	2015	2022	S100A12	Gene	6283
+38029239	2024	2028	ARG1	Gene	383
+38029239	2030	2034	SLPI	Gene	6590
+38029239	2040	2045	ANXA3	Gene	306
+38029239	2058	2060	SS	Disease	MESH:D012772
+38029239	2066	2069	VTE	Disease	MESH:D054556
+38029239	2141	2145	MMP9	Gene	4318
+38029239	2288	2290	SS	Disease	MESH:D012772
+38029239	2295	2298	VTE	Disease	MESH:D054556
+38029239	2404	2408	MMP9	Gene	4318
+38029239	2453	2459	sepsis	Disease	MESH:D018805
+38029239	2465	2482	venous thrombosis	Disease	MESH:D020246
+38029239	Association	MESH:D012772	306
+38029239	Association	MESH:D012772	6590
+38029239	Association	MESH:D054556	306
+38029239	Association	MESH:D054556	6590
+

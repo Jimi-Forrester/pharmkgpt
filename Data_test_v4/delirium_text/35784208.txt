@@ -1,0 +1,14 @@
+35784208|t|SperoPredictor: An Integrated Machine Learning and Molecular Docking-Based Drug Repurposing Framework With Use Case of COVID-19.
+35784208|a|The global spread of the SARS coronavirus 2 (SARS-CoV-2), its manifestation in human hosts as a contagious disease, and its variants have induced a pandemic resulting in the deaths of over 6,000,000 people. Extensive efforts have been devoted to drug research to cure and refrain the spread of COVID-19, but only one drug has received FDA approval yet. Traditional drug discovery is inefficient, costly, and unable to react to pandemic threats. Drug repurposing represents an effective strategy for drug discovery and reduces the time and cost compared to de novo drug discovery. In this study, a generic drug repurposing framework (SperoPredictor) has been developed which systematically integrates the various types of drugs and disease data and takes the advantage of machine learning (Random Forest, Tree Ensemble, and Gradient Boosted Trees) to repurpose potential drug candidates against any disease of interest. Drug and disease data for FDA-approved drugs (n = 2,865), containing four drug features and three disease features, were collected from chemical and biological databases and integrated with the form of drug-disease association tables. The resulting dataset was split into 70% for training, 15% for testing, and the remaining 15% for validation. The testing and validation accuracies of the models were 99.3% for Random Forest and 99.03% for Tree Ensemble. In practice, SperoPredictor identified 25 potential drug candidates against 6 human host-target proteomes identified from a systematic review of journals. Literature-based validation indicated 12 of 25 predicted drugs (48%) have been already used for COVID-19 followed by molecular docking and re-docking which indicated 4 of 13 drugs (30%) as potential candidates against COVID-19 to be pre-clinically and clinically validated. Finally, SperoPredictor results illustrated the ability of the platform to be rapidly deployed to repurpose the drugs as a rapid response to emergent situations (like COVID-19 and other pandemics).
+35784208	119	127	COVID-19	Disease	MESH:D000086382
+35784208	154	172	SARS coronavirus 2	Species	2697049
+35784208	174	184	SARS-CoV-2	Species	2697049
+35784208	208	213	human	Species	9606
+35784208	303	309	deaths	Disease	MESH:D003643
+35784208	328	334	people	Species	9606
+35784208	423	431	COVID-19	Disease	MESH:D000086382
+35784208	1582	1587	human	Species	9606
+35784208	1755	1763	COVID-19	Disease	MESH:D000086382
+35784208	1877	1885	COVID-19	Disease	MESH:D000086382
+35784208	2100	2108	COVID-19	Disease	MESH:D000086382
+

@@ -1,0 +1,22 @@
+39820860|t|Epigenetics in Learning and Memory.
+39820860|a|In animals, memory formation and recall are essential for their survival and for adaptations to a complex and often dynamically changing environment. During memory formation, experiences prompt the activation of a selected and sparse population of cells (engram cells) that undergo persistent physical and/or chemical changes allowing long-term memory formation, which can last for decades. Over the past few decades, important progress has been made on elucidating signaling mechanisms by which synaptic transmission leads to the induction of activity-dependent gene regulation programs during the different phases of learning (acquisition, consolidation, and recall). But what are the molecular mechanisms that govern the expression of immediate-early genes (IEGs; c-fos, Npas4) and plasticity-related genes (PRGs; Dlg4/PSD95 and Grin2b/NR2B) in memory ensemble? Studies in relatively simple in vitro and in vivo neuronal model systems have demonstrated that synaptic activity during development, or when induced by chemical stimuli (i.e., cLTP, KCl, picrotoxin), activates the NMDAR-Ca2+-CREB signaling pathway that upregulates gene expression through changes in the epigenetic landscape (i.e., histone marks and DNA methylation) and/or 3D chromatin organization. The data support a model in which epigenetic modifications in promoters and enhancers facilitate the priming and activation of these regulatory regions, hence leading to the formation of enhancer-promoter interactions (EPIs) through chromatin looping. The exploration of whether similar molecular mechanisms drive gene expression in learning and memory has presented notable challenges due to the distinct phases of learning and the activation of only sparse population of cells (the engram). Consequently, such studies demand precise temporal and spatial control. By combining activity-dependent engram tagging strategies (i.e., TRAP mice) with multi-omics analyses (i.e., RNA-seq, ChiP-seq, ATAC-seq, and Hi-C), it has been recently possible to associate changes in the epigenomic landscape and/or 3D genome architecture with transcriptional waves in engram cells of mice subjected to contextual fear conditioning (CFC), a relevant one-shot Pavlovian learning task. These studies support the role of specific epigenetic mechanisms and of the 3D chromatin organization during the control of gene transcription waves in engram cells. Advancements in our comprehension of the molecular mechanisms driving memory ensemble will undoubtedly play a crucial role in the development of better-targeted strategies to tackle cognitive diseases, including Alzheimer's disease and frontotemporal dementia, among other information-processing disorders.
+39820860	803	808	c-fos	Gene	2353
+39820860	810	815	Npas4	Gene	266743
+39820860	853	857	Dlg4	Gene	1742
+39820860	858	863	PSD95	Gene	1742
+39820860	868	874	Grin2b	Gene	2904
+39820860	875	879	NR2B	Gene	2904
+39820860	1078	1082	cLTP	Chemical	-
+39820860	1084	1087	KCl	Chemical	MESH:D011189
+39820860	1089	1099	picrotoxin	Chemical	MESH:D010852
+39820860	1122	1126	Ca2+	Chemical	-
+39820860	1127	1131	CREB	Gene	1385
+39820860	1938	1942	mice	Species	10090
+39820860	2172	2176	mice	Species	10090
+39820860	2619	2637	cognitive diseases	Disease	MESH:D003072
+39820860	2649	2668	Alzheimer's disease	Disease	MESH:D000544
+39820860	2673	2696	frontotemporal dementia	Disease	MESH:D057180
+39820860	2710	2742	information-processing disorders	Disease	MESH:D001308
+39820860	Positive_Correlation	MESH:D011189	1385
+39820860	Positive_Correlation	MESH:D010852	1385
+

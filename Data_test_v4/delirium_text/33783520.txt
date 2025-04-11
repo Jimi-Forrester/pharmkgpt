@@ -1,0 +1,31 @@
+33783520|t|Use of Machine Learning to Develop and Evaluate Models Using Preoperative and Intraoperative Data to Identify Risks of Postoperative Complications.
+33783520|a|Importance: Postoperative complications can significantly impact perioperative care management and planning. Objectives: To assess machine learning (ML) models for predicting postoperative complications using independent and combined preoperative and intraoperative data and their clinically meaningful model-agnostic interpretations. Design, Setting, and Participants: This retrospective cohort study assessed 111 888 operations performed on adults at a single academic medical center from June 1, 2012, to August 31, 2016, with a mean duration of follow-up based on the length of postoperative hospital stay less than 7 days. Data analysis was performed from February 1 to September 31, 2020. Main Outcomes and Measures: Outcomes included 5 postoperative complications: acute kidney injury (AKI), delirium, deep vein thrombosis (DVT), pulmonary embolism (PE), and pneumonia. Patient and clinical characteristics available preoperatively, intraoperatively, and a combination of both were used as inputs for 5 candidate ML models: logistic regression, support vector machine, random forest, gradient boosting tree (GBT), and deep neural network (DNN). Model performance was compared using the area under the receiver operating characteristic curve (AUROC). Model interpretations were generated using Shapley Additive Explanations by transforming model features into clinical variables and representing them as patient-specific visualizations. Results: A total of 111 888 patients (mean [SD] age, 54.4 [16.8] years; 56 915 [50.9%] female; 82 533 [73.8%] White) were included in this study. The best-performing model for each complication combined the preoperative and intraoperative data with the following AUROCs: pneumonia (GBT), 0.905 (95% CI, 0.903-0.907); AKI (GBT), 0.848 (95% CI, 0.846-0.851); DVT (GBT), 0.881 (95% CI, 0.878-0.884); PE (DNN), 0.831 (95% CI, 0.824-0.839); and delirium (GBT), 0.762 (95% CI, 0.759-0.765). Performance of models that used only preoperative data or only intraoperative data was marginally lower than that of models that used combined data. When adding variables with missing data as input, AUROCs increased from 0.588 to 0.905 for pneumonia, 0.579 to 0.848 for AKI, 0.574 to 0.881 for DVT, 0.5 to 0.831 for PE, and 0.6 to 0.762 for delirium. The Shapley Additive Explanations analysis generated model-agnostic interpretation that illustrated significant clinical contributors associated with risks of postoperative complications. Conclusions and Relevance: The ML models for predicting postoperative complications with model-agnostic interpretation offer opportunities for integrating risk predictions for clinical decision support. Such real-time clinical decision support can mitigate patient risks and help in anticipatory management for perioperative contingency planning.
+33783520	119	146	Postoperative Complications	Disease	MESH:D011183
+33783520	160	187	Postoperative complications	Disease	MESH:D011183
+33783520	323	350	postoperative complications	Disease	MESH:D011183
+33783520	891	918	postoperative complications	Disease	MESH:D011183
+33783520	920	939	acute kidney injury	Disease	MESH:D058186
+33783520	941	944	AKI	Disease	MESH:D058186
+33783520	947	955	delirium	Disease	MESH:D003693
+33783520	957	977	deep vein thrombosis	Disease	MESH:D020246
+33783520	979	982	DVT	Disease	MESH:D020246
+33783520	985	1003	pulmonary embolism	Disease	MESH:D011655
+33783520	1005	1007	PE	Disease	MESH:D011655
+33783520	1014	1023	pneumonia	Disease	MESH:D011014
+33783520	1025	1032	Patient	Species	9606
+33783520	1558	1565	patient	Species	9606
+33783520	1619	1627	patients	Species	9606
+33783520	1862	1871	pneumonia	Disease	MESH:D011014
+33783520	1908	1911	AKI	Disease	MESH:D058186
+33783520	1948	1951	DVT	Disease	MESH:D020246
+33783520	1988	1990	PE	Disease	MESH:D011655
+33783520	2031	2039	delirium	Disease	MESH:D003693
+33783520	2316	2325	pneumonia	Disease	MESH:D011014
+33783520	2346	2349	AKI	Disease	MESH:D058186
+33783520	2370	2373	DVT	Disease	MESH:D020246
+33783520	2392	2394	PE	Disease	MESH:D011655
+33783520	2417	2425	delirium	Disease	MESH:D003693
+33783520	2586	2613	postoperative complications	Disease	MESH:D011183
+33783520	2671	2698	postoperative complications	Disease	MESH:D011183
+33783520	2872	2879	patient	Species	9606
+

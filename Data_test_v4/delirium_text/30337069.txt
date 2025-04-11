@@ -1,0 +1,17 @@
+30337069|t|A hybrid data mining model for diagnosis of patients with clinical suspicion of dementia.
+30337069|a|BACKGROUND AND OBJECTIVE: Given the phenomenon of aging population, dementias arise as a complex health problem throughout the world. Several methods of machine learning have been applied to the task of predicting dementias. Given its diagnostic complexity, the great challenge lies in distinguishing patients with some type of dementia from healthy people. Particularly in the early stages, the diagnosis positively impacts the quality of life of both the patient and the family. This work presents a hybrid data mining model, involving the mining of texts integrated to the mining of structured data. This model aims to assist specialists in the diagnosis of patients with clinical suspicion of dementia. METHODS: The experiments were conducted from a set of 605 medical records with 19 different attributes about patients with cognitive decline reports. Firstly, a new structured attribute was created from a text mining process. It was the result of clustering the patient's pathological history information stored in an unstructured textual attribute. Classification algorithms (naive bayes, bayesian belief networks and decision trees) were applied to obtain Alzheimer's disease and mild cognitive impairment predictive models. Ensemble methods (Bagging, Boosting and Random Forests) were used in order to improve the accuracy of the generated models. These methods were applied in two datasets: one containing only the original structured data; the other containing the original structured data with the inclusion of the new attribute resulting from the text mining (hybrid model). RESULTS: The models' accuracy metrics obtained from the two different datasets were compared. The results evidenced the greater effectiveness of the hybrid model in the diagnostic prediction for the pathologies of interest. CONCLUSIONS: When analysing the different methods of classification and clustering used, the better rates related to the precision and sensitivity of the pathologies under study were obtained with hybrid models with support of ensemble methods.
+30337069	44	52	patients	Species	9606
+30337069	80	88	dementia	Disease	MESH:D003704
+30337069	158	167	dementias	Disease	MESH:D003704
+30337069	304	313	dementias	Disease	MESH:D003704
+30337069	391	399	patients	Species	9606
+30337069	418	426	dementia	Disease	MESH:D003704
+30337069	547	554	patient	Species	9606
+30337069	751	759	patients	Species	9606
+30337069	787	795	dementia	Disease	MESH:D003704
+30337069	906	914	patients	Species	9606
+30337069	920	937	cognitive decline	Disease	MESH:D003072
+30337069	1059	1066	patient	Species	9606
+30337069	1255	1274	Alzheimer's disease	Disease	MESH:D000544
+30337069	1284	1304	cognitive impairment	Disease	MESH:D003072
+

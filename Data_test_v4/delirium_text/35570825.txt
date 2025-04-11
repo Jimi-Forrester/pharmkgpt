@@ -1,0 +1,26 @@
+35570825|t|Identification of microRNA-mRNA regulatory network associated with oxidative DNA damage in human astrocytes.
+35570825|a|The high lipid content of the brain, coupled with its heavy oxygen dependence and relatively weak antioxidant system, makes it highly susceptible to oxidative DNA damage that contributes to neurodegeneration. This study is aimed at identifying specific ROS-responsive miRNAs that modulate the expression and activity of the DNA repair proteins in human astrocytes, which could serve as potential biomarkers and lead to the development of targeted therapeutic strategies for neurological diseases. Oxidative DNA damage was established after treatment of human astrocytes with 10muM sodium dichromate for 16 h. Comet assay analysis indicated a significant increase in oxidized guanine lesions. RT-qPCR and ELISA assays confirmed that sodium dichromate reduced the mRNA and protein expression levels of the human base-excision repair enzyme, 8-deoxyguanosine DNA glycosylase 1 (hOGG1). Small RNAseq data were generated on an Ion Torrent  system and the differentially expressed miRNAs were identified using Partek Flow  software. The biologically significant miRNAs were selected using miRNet 2.0. Oxidative-stress-induced DNA damage was associated with a significant decrease in miRNA expression: 231 downregulated miRNAs and 2 upregulated miRNAs (p < 0.05; >2-fold). In addition to identifying multiple miRNA-mRNA pairs involved in DNA repair processes, this study uncovered a novel miRNA-mRNA pair interaction: miR-1248:OGG1. Inhibition of miR-1248 via the transfection of its inhibitor restored the expression levels of hOGG1. Therefore, targeting the identified microRNA candidates could ameliorate the nuclear DNA damage caused by the brain's exposure to mutagens, reduce the incidence and improve the treatment of cancer and neurodegenerative disorders.
+35570825	91	96	human	Species	9606
+35570825	118	123	lipid	Chemical	MESH:D008055
+35570825	169	175	oxygen	Chemical	MESH:D010100
+35570825	299	316	neurodegeneration	Disease	MESH:D019636
+35570825	362	365	ROS	Chemical	-
+35570825	456	461	human	Species	9606
+35570825	583	604	neurological diseases	Disease	MESH:D020271
+35570825	662	667	human	Species	9606
+35570825	690	707	sodium dichromate	Chemical	MESH:C016104
+35570825	784	791	guanine	Chemical	MESH:D006147
+35570825	841	858	sodium dichromate	Chemical	MESH:C016104
+35570825	913	918	human	Species	9606
+35570825	984	989	hOGG1	Gene	4968
+35570825	1520	1528	miR-1248	Gene	100302143
+35570825	1529	1533	OGG1	Gene	4968
+35570825	1549	1557	miR-1248	Gene	100302143
+35570825	1630	1635	hOGG1	Gene	4968
+35570825	1827	1833	cancer	Disease	MESH:D009369
+35570825	1838	1865	neurodegenerative disorders	Disease	MESH:D019636
+35570825	Association	MESH:D010100	MESH:D019636
+35570825	Negative_Correlation	MESH:C016104	4968
+35570825	Association	MESH:D008055	MESH:D019636
+35570825	Association	100302143	4968
+

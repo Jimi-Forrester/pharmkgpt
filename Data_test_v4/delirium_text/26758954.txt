@@ -1,0 +1,34 @@
+26758954|t|Role of Hexokinase and VDAC in Neurological Disorders.
+26758954|a|Several neurological diseases such as bipolar disorders and schizophrenia are linked to impaired brain energy metabolism. A key feature of brain bioenergetics is hexokinase (HK) binding to the outer mitochondrial membrane through the voltage dependent anion channel (VDAC). This has metabolic consequences, with phosphorylation of glucose by mitochondrially bound hexokinase being closely coupled to production of substrate ATP by intramitochondrial oxidative phosphorylation. Additionally, binding of HK to mitochondria inhibits Bax-induced cytochrome c release and apoptosis. Moreover VDAC1 expression level is elevated in cerebellum of patients with Down  s syndrome, while in Alzheimer  s disease, VDAC1 levels are decreased in frontal cortex and VDAC2 elevated in temporal cortex. Thus, understanding the roles of VDAC and HK, either separate or interacting in brain, provides new opportunities and challenges to elucidate pathophysiological mechanisms for future therapeutic strategies.
+26758954	8	18	Hexokinase	Gene	3098
+26758954	31	53	Neurological Disorders	Disease	MESH:D009461
+26758954	63	84	neurological diseases	Disease	MESH:D020271
+26758954	93	110	bipolar disorders	Disease	MESH:D001714
+26758954	115	128	schizophrenia	Disease	MESH:D012559
+26758954	143	175	impaired brain energy metabolism	Disease	MESH:D001928
+26758954	217	227	hexokinase	Gene	3098
+26758954	229	231	HK	Gene	3098
+26758954	386	393	glucose	Chemical	MESH:D005947
+26758954	419	429	hexokinase	Gene	3098
+26758954	479	482	ATP	Chemical	MESH:D000255
+26758954	557	559	HK	Gene	3098
+26758954	585	588	Bax	Gene	581
+26758954	597	609	cytochrome c	Gene	54205
+26758954	642	647	VDAC1	Gene	7416
+26758954	694	702	patients	Species	9606
+26758954	708	724	Down  s syndrome	Disease	MESH:D004314
+26758954	735	755	Alzheimer  s disease	Disease	MESH:D000544
+26758954	757	762	VDAC1	Gene	7416
+26758954	806	811	VDAC2	Gene	7417
+26758954	883	885	HK	Gene	3098
+26758954	Positive_Correlation	MESH:D000544	7417
+26758954	Association	MESH:D009461	3098
+26758954	Negative_Correlation	3098	581
+26758954	Association	MESH:D000255	3098
+26758954	Negative_Correlation	MESH:D000544	7416
+26758954	Association	MESH:D005947	3098
+26758954	Positive_Correlation	54205	581
+26758954	Negative_Correlation	3098	54205
+26758954	Association	MESH:D000255	MESH:D005947
+26758954	Positive_Correlation	MESH:D004314	7416
+

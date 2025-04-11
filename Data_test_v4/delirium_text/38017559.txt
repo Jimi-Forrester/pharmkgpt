@@ -1,0 +1,19 @@
+38017559|t|Identification of potential diagnostic biomarkers for tenosynovial giant cell tumour by integrating microarray and single-cell RNA sequencing data.
+38017559|a|PURPOSE: Tenosynovial giant cell tumour (TGCT) is a benign hyperplastic and inflammatory disease of the joint synovium or tendon sheaths, which may be misdiagnosed due to its atypical symptoms and imaging features. We aimed to identify biomarkers with high sensitivity and specificity to aid in diagnosing TGCT. METHODS: Two scRNA-seq datasets (GSE210750 and GSE152805) and two microarray datasets (GSE3698 and GSE175626) were downloaded from the Gene Expression Omnibus (GEO) database. By integrating the scRNA-seq datasets, we discovered that the osteoclasts are abundant in TGCT in contrast to the control. The single-sample gene set enrichment analysis (ssGSEA) further validated this discovery. Differentially expressed genes (DEGs) of the GSE3698 dataset were screened and the Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses of DEGs were conducted. Osteoclast-specific up-regulated genes (OCSURGs) were identified by intersecting the osteoclast marker genes in the scRNA-seq and the up-regulated DEGs in the microarray and by the least absolute shrinkage and selection operator (LASSO) regression algorithm. The expression levels of OCSURGs were validated by an external dataset GSE175626. Then, single gene GSEA, protein-protein interaction (PPI) network, and gene-drug network of OCSURGs were performed. RESULT: 22 seurat clusters were acquired and annotated into 10 cell types based on the scRNA-seq data. TGCT had a larger population of osteoclasts compared to the control. A total of 159 osteoclast marker genes and 104 DEGs (including 61 up-regulated genes and 43 down-regulated genes) were screened from the scRNA-seq analysis and the microarray analysis. Three OCSURGs (MMP9, SPP1, and TYROBP) were finally identified. The AUC of the ROC curve in the training and testing datasets suggested a favourable diagnostic capability. The PPI network results illustrated the protein-protein interaction of each OCSURG. Drugs that potentially target the OCSURGs were predicted by the DGIdb database. CONCLUSION: MMP9, SPP1, and TYROBP were identified as osteoclast-specific up-regulated genes of the tenosynovial giant cell tumour via bioinformatic analysis, which had a reasonable diagnostic efficiency and served as potential drug targets.
+38017559	54	84	tenosynovial giant cell tumour	Disease	MESH:D000070779
+38017559	157	187	Tenosynovial giant cell tumour	Disease	MESH:D000070779
+38017559	189	193	TGCT	Disease	MESH:D000070779
+38017559	224	251	inflammatory disease of the	Disease	MESH:D007249
+38017559	454	458	TGCT	Disease	MESH:D000070779
+38017559	725	729	TGCT	Disease	MESH:D000070779
+38017559	1613	1617	TGCT	Disease	MESH:D000070779
+38017559	1882	1886	MMP9	Gene	4318
+38017559	1888	1892	SPP1	Gene	6696
+38017559	1898	1904	TYROBP	Gene	7305
+38017559	2215	2219	MMP9	Gene	4318
+38017559	2221	2225	SPP1	Gene	6696
+38017559	2231	2237	TYROBP	Gene	7305
+38017559	2303	2333	tenosynovial giant cell tumour	Disease	MESH:D000070779
+38017559	Association	MESH:D000070779	6696
+38017559	Association	MESH:D000070779	4318
+

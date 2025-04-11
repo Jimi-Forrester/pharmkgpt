@@ -1,0 +1,42 @@
+39763548|t|Stratification of Alzheimer's Disease Patients Using Knowledge-Guided Unsupervised Latent Factor Clustering with Electronic Health Record Data.
+39763548|a|Background: People with Alzheimer's disease (AD) exhibit varying clinical trajectories. There is a need to predict future AD-related outcomes such as morbidity and mortality using clinical profile at the point of care. Objective: To stratify AD patients based on baseline clinical profiles (up to two years prior to AD diagnosis) and update the model after AD diagnosis to prognosticate future AD-related outcomes. Methods: Using the electronic health record (EHR) data of a large healthcare system (2011-2022), we first identified patients with >=1 diagnosis code for AD or related dementia and applied a validated unsupervised phenotyping algorithm to assign AD diagnosis status. Next, we applied an unsupervised latent factor clustering approach, guided by knowledge graph embeddings of relevant EHR features up to the baseline, to cluster patients into two groups at AD diagnosis. We then prognosticated the risk of two readily ascertainable and clinically relevant AD-related outcomes ( i.e., nursing home admission indicating greater need for assistance and mortality), adjusting for baseline confounders ( e.g., age, gender, race, ethnicity, healthcare utilization, and comorbidities). For patients remaining at risk one year post-diagnosis, we updated their group membership and repeated the prognostication. Results: We stratified 16,411 algorithm-identified AD patients into two groups based on their baseline clinical profiles (41% Group 1, 59% Group 2). Patients in Group 1 were marginally older at AD diagnosis (age Mean [SD]: 81.4 [9.3] vs 81.0 [8.7], p =.007), exhibited greater comorbidity burden (Elixhauser comorbidity index Mean [SD]: 11.3 [10.3] vs 7.5 [8.6], p <.0001), and more frequently received AD-related medications (47.7% vs 40.9%, p <.0001) than those in Group 2. Compared to Group 1, Group 2 had a lower risk of nursing home admission (HR [95% CI]=0.804 [0.765, 0.844], p <.001), while the two groups had similar mortality risk (HR [95% CI]=1.008 [0.963, 1.056], p =.733). One year after AD diagnosis, 12,606 patients remained at risk (45.7% Group 1, 54.3% Group 2). Consistent with baseline findings, Group 2 had a lower risk of nursing home admission than (HR [95% CI]=0.815 [0.766, 0.868], p <.001) and similar mortality risk as (HR [95% CI]=0.977 [0.922, 1.035], p =0.430) Group 1 in the updated model. Conclusions: It is feasible to stratify patients based on readily available clinical profiles before AD diagnosis and crucially to update the model one year after diagnosis to effectively prognosticate future AD-related outcomes. SHORT ABSTRACT: Prognostication for people with Alzheimer's disease (AD) at the point of care could improve clinical management. Applying a novel unsupervised latent factor clustering approach guided by knowledge graph embeddings of relevant clinical features from electronic health records, we stratified 16,411 AD patients into two groups at diagnosis and prognosticated their risk of AD-related outcomes ( i.e., nursing home admission, mortality), adjusting for baseline confounders. To reflect real-world evolution in clinical trajectories, we updated patient stratification for 12,606 AD patients remaining at risk 1-year post-diagnosis and repeated prognostication. At both timepoints, one group had a higher nursing home admission risk and exhibited characteristics suggesting greater symptom burden, but the mortality risk remained comparable between groups. This study supports that patient stratification can enable outcome prognosis for AD patients. While baseline prognostication can guide early treatment and tailored management, dynamic prognostication may inform more timely interventions to improve long-term outcomes.
+39763548	18	37	Alzheimer's Disease	Disease	MESH:D000544
+39763548	38	46	Patients	Species	9606
+39763548	168	187	Alzheimer's disease	Disease	MESH:D000544
+39763548	189	191	AD	Disease	MESH:D000544
+39763548	266	268	AD	Disease	MESH:D000544
+39763548	386	388	AD	Disease	MESH:D000544
+39763548	389	397	patients	Species	9606
+39763548	460	462	AD	Disease	MESH:D000544
+39763548	501	503	AD	Disease	MESH:D000544
+39763548	538	540	AD	Disease	MESH:D000544
+39763548	676	684	patients	Species	9606
+39763548	713	715	AD	Disease	MESH:D000544
+39763548	727	735	dementia	Disease	MESH:D003704
+39763548	805	807	AD	Disease	MESH:D000544
+39763548	987	995	patients	Species	9606
+39763548	1015	1017	AD	Disease	MESH:D000544
+39763548	1114	1116	AD	Disease	MESH:D000544
+39763548	1341	1349	patients	Species	9606
+39763548	1512	1514	AD	Disease	MESH:D000544
+39763548	1515	1523	patients	Species	9606
+39763548	1610	1618	Patients	Species	9606
+39763548	1655	1657	AD	Disease	MESH:D000544
+39763548	1864	1866	AD	Disease	MESH:D000544
+39763548	2162	2164	AD	Disease	MESH:D000544
+39763548	2183	2191	patients	Species	9606
+39763548	2521	2529	patients	Species	9606
+39763548	2582	2584	AD	Disease	MESH:D000544
+39763548	2690	2692	AD	Disease	MESH:D000544
+39763548	2759	2778	Alzheimer's disease	Disease	MESH:D000544
+39763548	2780	2782	AD	Disease	MESH:D000544
+39763548	3024	3026	AD	Disease	MESH:D000544
+39763548	3027	3035	patients	Species	9606
+39763548	3098	3100	AD	Disease	MESH:D000544
+39763548	3267	3274	patient	Species	9606
+39763548	3301	3303	AD	Disease	MESH:D000544
+39763548	3304	3312	patients	Species	9606
+39763548	3603	3610	patient	Species	9606
+39763548	3659	3661	AD	Disease	MESH:D000544
+39763548	3662	3670	patients	Species	9606
+

@@ -1,0 +1,13 @@
+22254735|t|Analysis of complexity based EEG features for the diagnosis of Alzheimer's disease.
+22254735|a|As life expectancy increases, particularly in the developed world, so does the prevalence of Alzheimer's Disease (AD). AD is a neurodegenerative disorder characterized by neurofibrillary plaques and tangles in the brain that leads to neuronal death and dementia. Early diagnosis of AD is still a major unresolved health concern: several biomarkers are being investigated, among which the electroencephalogram (EEG) provides the only option for an electrophysiological information. In this study, EEG signals obtained from 161 subjects--79 with AD, and 82 age-matched controls (CN)--are analyzed using several nonlinear signal complexity measures. These measures include: Higuchi fractal dimension (HFD), spectral entropy (SE), spectral centroid (SC), spectral roll-off (SR), and zero-crossing rate (ZCR). HFD is a quantitative measure of time series complexity derived from fractal theory. Among spectral measures, SE measures the level of disorder in the spectrum, SC is a measure of spectral shape, and SR is frequency sample below which a specified percent of the spectral magnitude distribution is contained. Lastly, ZCR is simply the rate at which the signal changes signs. A t-test was first applied to determine those features that provide significant differences between the groups. Those features were then used to train a neural network. The classification accuracies ranged from 60-66%, suggesting they contain some discriminatory information; however, not enough to be clinically useful alone. Combining these features and training a support vector machine (SVM) resulted in a diagnostic accuracy of 78%, indicating that these feature carry complementary information.
+22254735	63	82	Alzheimer's disease	Disease	MESH:D000544
+22254735	177	196	Alzheimer's Disease	Disease	MESH:D000544
+22254735	198	200	AD	Disease	MESH:D000544
+22254735	203	205	AD	Disease	MESH:D000544
+22254735	211	237	neurodegenerative disorder	Disease	MESH:D019636
+22254735	255	278	neurofibrillary plaques	Disease	MESH:D003773
+22254735	318	332	neuronal death	Disease	MESH:D009410
+22254735	337	345	dementia	Disease	MESH:D003704
+22254735	366	368	AD	Disease	MESH:D000544
+22254735	628	630	AD	Disease	MESH:D000544
+

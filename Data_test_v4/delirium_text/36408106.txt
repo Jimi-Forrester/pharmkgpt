@@ -1,0 +1,35 @@
+36408106|t|Automated differential diagnosis of dementia syndromes using FDG PET and machine learning.
+36408106|a|Background: Metabolic brain imaging with 2-[18F]fluoro-2-deoxy-D-glucose positron emission tomography (FDG PET) is a supportive diagnostic and differential diagnostic tool for neurodegenerative dementias. In the clinic, scans are usually visually interpreted. However, computer-aided approaches can improve diagnostic accuracy. We aimed to build two machine learning classifiers, based on two sets of FDG PET-derived features, for differential diagnosis of common dementia syndromes. Methods: We analyzed FDG PET scans from three dementia cohorts [63 dementia due to Alzheimer's disease (AD), 79 dementia with Lewy bodies (DLB) and 23 frontotemporal dementia (FTD)], and 41 normal controls (NCs). Patients' clinical diagnosis at follow-up (25 +- 20 months after scanning) or cerebrospinal fluid biomarkers for Alzheimer's disease was considered a gold standard. FDG PET scans were first visually evaluated. Scans were pre-processed, and two sets of features extracted: (1) the expressions of previously identified metabolic brain patterns, and (2) the mean uptake value in 95 regions of interest (ROIs). Two multi-class support vector machine (SVM) classifiers were tested and their diagnostic performance assessed and compared to visual reading. Class-specific regional feature importance was assessed with Shapley Additive Explanations. Results: Pattern- and ROI-based classifier achieved higher overall accuracy than expert readers (78% and 80% respectively, vs. 71%). Both SVM classifiers performed similarly to one another and to expert readers in AD (F1 = 0.74, 0.78, and 0.78) and DLB (F1 = 0.81, 0.81, and 0.78). SVM classifiers outperformed expert readers in FTD (F1 = 0.87, 0.83, and 0.63), but not in NC (F1 = 0.71, 0.75, and 0.92). Visualization of the SVM model showed bilateral temporal cortices and cerebellum to be the most important features for AD; occipital cortices, hippocampi and parahippocampi, amygdala, and middle temporal lobes for DLB; bilateral frontal cortices, middle and anterior cingulum for FTD; and bilateral angular gyri, pons, and vermis for NC. Conclusion: Multi-class SVM classifiers based on the expression of characteristic metabolic brain patterns or ROI glucose uptake, performed better than experts in the differential diagnosis of common dementias using FDG PET scans. Experts performed better in the recognition of normal scans and a combined approach may yield optimal results in the clinical setting.
+36408106	36	54	dementia syndromes	Disease	MESH:D003704
+36408106	61	64	FDG	Chemical	MESH:D019788
+36408106	132	163	2-[18F]fluoro-2-deoxy-D-glucose	Chemical	-
+36408106	194	197	FDG	Chemical	MESH:D019788
+36408106	267	294	neurodegenerative dementias	Disease	MESH:D019636
+36408106	492	495	FDG	Chemical	MESH:D019788
+36408106	555	573	dementia syndromes	Disease	MESH:D003704
+36408106	596	599	FDG	Chemical	MESH:D019788
+36408106	621	629	dementia	Disease	MESH:D003704
+36408106	642	650	dementia	Disease	MESH:D003704
+36408106	658	677	Alzheimer's disease	Disease	MESH:D000544
+36408106	679	681	AD	Disease	MESH:D000544
+36408106	687	712	dementia with Lewy bodies	Disease	MESH:D020961
+36408106	714	717	DLB	Disease	MESH:D020961
+36408106	726	749	frontotemporal dementia	Disease	MESH:D057180
+36408106	751	754	FTD	Disease	MESH:D057180
+36408106	788	796	Patients	Species	9606
+36408106	901	920	Alzheimer's disease	Disease	MESH:D000544
+36408106	953	956	FDG	Chemical	MESH:D019788
+36408106	1644	1646	AD	Disease	MESH:D000544
+36408106	1679	1682	DLB	Disease	MESH:D020961
+36408106	1759	1762	FTD	Disease	MESH:D057180
+36408106	1803	1805	NC	Disease	OMIM:617025
+36408106	1954	1956	AD	Disease	MESH:D000544
+36408106	2049	2052	DLB	Disease	MESH:D020961
+36408106	2115	2118	FTD	Disease	MESH:D057180
+36408106	2169	2171	NC	Disease	OMIM:617025
+36408106	2287	2294	glucose	Chemical	MESH:D005947
+36408106	2373	2382	dementias	Disease	MESH:D003704
+36408106	2389	2392	FDG	Chemical	MESH:D019788
+36408106	Association	MESH:D019788	MESH:D003704
+36408106	Association	MESH:D019788	MESH:D019636
+

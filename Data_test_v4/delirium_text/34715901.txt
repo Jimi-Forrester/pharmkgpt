@@ -1,0 +1,50 @@
+34715901|t|Integration of genetic, transcriptomic, and clinical data provides insight into 16p11.2 and 22q11.2 CNV genes.
+34715901|a|BACKGROUND: Deletions and duplications of the multigenic 16p11.2 and 22q11.2 copy number variant (CNV) regions are associated with brain-related disorders including schizophrenia, intellectual disability, obesity, bipolar disorder, and autism spectrum disorder (ASD). The contribution of individual CNV genes to each of these identified phenotypes is unknown, as well as the contribution of these CNV genes to other potentially subtler health implications for carriers. Hypothesizing that DNA copy number exerts most effects via impacts on RNA expression, we attempted a novel in silico fine-mapping approach in non-CNV carriers using both GWAS and biobank data. METHODS: We first asked whether gene expression level in any individual gene in the CNV region alters risk for a known CNV-associated behavioral phenotype(s). Using transcriptomic imputation, we performed association testing for CNV genes within large genotyped cohorts for schizophrenia, IQ, BMI, bipolar disorder, and ASD. Second, we used a biobank containing electronic health data to compare the medical phenome of CNV carriers to controls within 700,000 individuals in order to investigate the full spectrum of health effects of the CNVs. Third, we used genotypes for over 48,000 individuals within the biobank to perform phenome-wide association studies between imputed expressions of individual 16p11.2 and 22q11.2 genes and over 1500 health traits. RESULTS: Using large genotyped cohorts, we found individual genes within 16p11.2 associated with schizophrenia (TMEM219, INO80E, YPEL3), BMI (TMEM219, SPN, TAOK2, INO80E), and IQ (SPN), using conditional analysis to identify upregulation of INO80E as the driver of schizophrenia, and downregulation of SPN and INO80E as increasing BMI. We identified both novel and previously observed over-represented traits within the electronic health records of 16p11.2 and 22q11.2 CNV carriers. In the phenome-wide association study, we found seventeen significant gene-trait pairs, including psychosis (NPIPB11, SLX1B) and mood disorders (SCARF2), and overall enrichment of mental traits. CONCLUSIONS: Our results demonstrate how integration of genetic and clinical data aids in understanding CNV gene function and implicates pleiotropy and multigenicity in CNV biology.
+34715901	80	87	16p11.2	Chromosome	16
+34715901	92	99	22q11.2	Chromosome	22
+34715901	168	175	16p11.2	Chromosome	16
+34715901	180	187	22q11.2	Chromosome	22
+34715901	242	265	brain-related disorders	Disease	MESH:D001927
+34715901	276	289	schizophrenia	Disease	MESH:D012559
+34715901	291	314	intellectual disability	Disease	MESH:D008607
+34715901	316	323	obesity	Disease	MESH:D009765
+34715901	325	341	bipolar disorder	Disease	MESH:D001714
+34715901	347	371	autism spectrum disorder	Disease	MESH:D000067877
+34715901	373	376	ASD	Disease	MESH:D000067877
+34715901	1048	1061	schizophrenia	Disease	MESH:D012559
+34715901	1067	1070	BMI	Disease	
+34715901	1072	1088	bipolar disorder	Disease	MESH:D001714
+34715901	1094	1097	ASD	Disease	MESH:D000067877
+34715901	1476	1483	16p11.2	Chromosome	16
+34715901	1488	1495	22q11.2	Chromosome	22
+34715901	1604	1611	16p11.2	Chromosome	16
+34715901	1628	1641	schizophrenia	Disease	MESH:D012559
+34715901	1643	1650	TMEM219	Gene	124446
+34715901	1652	1658	INO80E	Gene	283899
+34715901	1660	1665	YPEL3	Gene	83719
+34715901	1668	1671	BMI	Disease	
+34715901	1673	1680	TMEM219	Gene	124446
+34715901	1682	1685	SPN	Gene	10522
+34715901	1687	1692	TAOK2	Gene	9344
+34715901	1694	1700	INO80E	Gene	283899
+34715901	1711	1714	SPN	Gene	10522
+34715901	1772	1778	INO80E	Gene	283899
+34715901	1796	1809	schizophrenia	Disease	MESH:D012559
+34715901	1833	1836	SPN	Gene	10522
+34715901	1841	1847	INO80E	Gene	283899
+34715901	1862	1865	BMI	Disease	
+34715901	1980	1987	16p11.2	Chromosome	16
+34715901	1992	1999	22q11.2	Chromosome	22
+34715901	2112	2121	psychosis	Disease	MESH:D011618
+34715901	2123	2130	NPIPB11	Gene	728888
+34715901	2132	2137	SLX1B	Gene	79008
+34715901	2143	2157	mood disorders	Disease	MESH:D019964
+34715901	2159	2165	SCARF2	Gene	91179
+34715901	Association	MESH:D012559	124446
+34715901	Association	MESH:D019964	91179
+34715901	Association	MESH:D012559	83719
+34715901	Association	MESH:D011618	728888
+34715901	Positive_Correlation	MESH:D012559	283899
+34715901	Association	MESH:D011618	79008
+34715901	Association	MESH:D011618	124446
+

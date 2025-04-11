@@ -1,0 +1,45 @@
+23785422|t|A loss-of-function screen for phosphatases that regulate neurite outgrowth identifies PTPN12 as a negative regulator of TrkB tyrosine phosphorylation.
+23785422|a|Alterations in function of the neurotrophin BDNF are associated with neurodegeneration, cognitive decline, and psychiatric disorders. BDNF promotes axonal outgrowth and branching, regulates dendritic tree morphology and is important for axonal regeneration after injury, responses that largely result from activation of its tyrosine kinase receptor TrkB. Although intracellular neurotrophin (NT) signaling presumably reflects the combined action of kinases and phosphatases, little is known about the contributions of the latter to TrkB regulation. The issue is complicated by the fact that phosphatases belong to multiple independently evolved families, which are rarely studied together. We undertook a loss-of-function RNA-interference-based screen of virtually all known (254) human phosphatases to understand their function in BDNF/TrkB-mediated neurite outgrowth in differentiated SH-SY5Y cells. This approach identified phosphatases from diverse families, which either positively or negatively modulate BDNF-TrkB-mediated neurite outgrowth, and most of which have little or no previously established function related to NT signaling. "Classical" protein tyrosine phosphatases (PTPs) accounted for 13% of the candidate regulatory phosphatases. The top classical PTP identified as a negative regulator of BDNF-TrkB-mediated neurite outgrowth was PTPN12 (also called PTP-PEST). Validation and follow-up studies showed that endogenous PTPN12 antagonizes tyrosine phosphorylation of TrkB itself, and the downstream activation of ERK1/2. We also found PTPN12 to negatively regulate phosphorylation of p130cas and FAK, proteins with previously described functions related to cell motility and growth cone behavior. Our data provide the first comprehensive survey of phosphatase function in NT signaling and neurite outgrowth. They reveal the complexity of phosphatase control, with several evolutionarily unrelated phosphatase families cooperating to affect this biological response, and hence the relevance of considering all phosphatase families when mining for potentially druggable targets.
+23785422	86	92	PTPN12	Gene	5782
+23785422	120	124	TrkB	Gene	4915
+23785422	182	194	neurotrophin	Gene	627
+23785422	195	199	BDNF	Gene	627
+23785422	220	237	neurodegeneration	Disease	MESH:D019636
+23785422	239	256	cognitive decline	Disease	MESH:D003072
+23785422	262	283	psychiatric disorders	Disease	MESH:D001523
+23785422	285	289	BDNF	Gene	627
+23785422	500	505	TrkB.	Gene	4915
+23785422	529	541	neurotrophin	Gene	627
+23785422	543	545	NT	Gene	627
+23785422	683	687	TrkB	Gene	4915
+23785422	932	937	human	Species	9606
+23785422	983	987	BDNF	Gene	627
+23785422	988	992	TrkB	Gene	4915
+23785422	1038	1045	SH-SY5Y	CellLine	CVCL:0019
+23785422	1161	1165	BDNF	Gene	627
+23785422	1166	1170	TrkB	Gene	4915
+23785422	1278	1280	NT	Gene	627
+23785422	1419	1422	PTP	Gene	10076
+23785422	1461	1465	BDNF	Gene	627
+23785422	1466	1470	TrkB	Gene	4915
+23785422	1502	1508	PTPN12	Gene	5782
+23785422	1522	1530	PTP-PEST	Gene	5782
+23785422	1589	1595	PTPN12	Gene	5782
+23785422	1636	1640	TrkB	Gene	4915
+23785422	1682	1688	ERK1/2	Gene	5595;5594
+23785422	1704	1710	PTPN12	Gene	5782
+23785422	1753	1760	p130cas	Gene	9564
+23785422	1765	1768	FAK	Gene	5747
+23785422	1941	1943	NT	Gene	627
+23785422	Negative_Correlation	5782	627
+23785422	Association	10076	627
+23785422	Association	MESH:D001523	627
+23785422	Association	MESH:D019636	627
+23785422	Association	4915	627
+23785422	Negative_Correlation	5594	5782
+23785422	Negative_Correlation	4915	5782
+23785422	Negative_Correlation	5782	9564
+23785422	Negative_Correlation	5747	5782
+23785422	Association	MESH:D003072	627
+23785422	Negative_Correlation	5595	5782
+

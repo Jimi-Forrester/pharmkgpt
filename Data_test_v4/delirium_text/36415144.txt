@@ -1,0 +1,29 @@
+36415144|t|Antidepressant drug-drug-drug interactions associated with unintentional traumatic injury: Screening for signals in real-world data.
+36415144|a|Antidepressants are associated with traumatic injury and are widely used with other medications. It remains unknown how drug-drug-drug interactions (3DIs) between antidepressants and two other drugs may impact potential injury risks associated with antidepressants. We aimed to generate hypotheses regarding antidepressant 3DI signals associated with elevated injury rates. Using 2000-2020 Optum's de-identified Clinformatics Data Mart, we performed a self-controlled case series study for each drug triad consisting of an antidepressant + codispensed drug (base-pair) with a candidate interacting medication (precipitant). We included persons aged greater than or equal to 16 years who (1) experienced an injury and (2) used a candidate precipitant, during base-pair therapy. We compared injury rates during observation time exposed to the drug triad versus the base-pair only, adjusting for time-varying covariates. We calculated adjusted rate ratios (RRs) using conditional Poisson regression and accounted for multiple comparisons via semi-Bayes shrinkage. Among 147,747 eligible antidepressant users with an injury, we studied 120,714 antidepressant triads, of which 334 (0.3%) were positively associated with elevated injury rates and thus considered potential 3DI signals. Adjusted RRs for signals ranged from 1.31 (1.04-1.65) for sertraline + levothyroxine with tramadol (vs. without tramadol) to 6.60 (3.23-13.46) for escitalopram + simvastatin with aripiprazole (vs. without aripiprazole). Nearly half of the signals (137, 41.0%) had adjusted RRs greater than or equal to 2, suggesting strong associations with injury. The identified signals may represent antidepressant 3DIs of potential clinical concern and warrant future etiologic studies to test these hypotheses.
+36415144	59	89	unintentional traumatic injury	Disease	MESH:D014947
+36415144	169	185	traumatic injury	Disease	MESH:D014947
+36415144	353	359	injury	Disease	MESH:D014947
+36415144	493	499	injury	Disease	MESH:D014947
+36415144	839	845	injury	Disease	MESH:D014947
+36415144	922	928	injury	Disease	MESH:D014947
+36415144	1246	1252	injury	Disease	MESH:D014947
+36415144	1357	1363	injury	Disease	MESH:D014947
+36415144	1471	1481	sertraline	Chemical	MESH:D020280
+36415144	1484	1497	levothyroxine	Chemical	MESH:D013974
+36415144	1503	1511	tramadol	Chemical	MESH:D014147
+36415144	1525	1533	tramadol	Chemical	MESH:D014147
+36415144	1560	1572	escitalopram	Chemical	MESH:D000089983
+36415144	1575	1586	simvastatin	Chemical	MESH:D019821
+36415144	1592	1604	aripiprazole	Chemical	MESH:D000068180
+36415144	1618	1630	aripiprazole	Chemical	MESH:D000068180
+36415144	1754	1760	injury	Disease	MESH:D014947
+36415144	Positive_Correlation	MESH:D013974	MESH:D014947
+36415144	Positive_Correlation	MESH:D000089983	MESH:D014947
+36415144	Positive_Correlation	MESH:D020280	MESH:D014947
+36415144	Association	MESH:D014147	MESH:D020280
+36415144	Association	MESH:D000068180	MESH:D000089983
+36415144	Positive_Correlation	MESH:D019821	MESH:D014947
+36415144	Association	MESH:D000068180	MESH:D019821
+36415144	Positive_Correlation	MESH:D014147	MESH:D014947
+36415144	Association	MESH:D013974	MESH:D014147
+

@@ -1,0 +1,12 @@
+30267791|t|MIA-QSAR based model for bioactivity prediction of flavonoid derivatives as acetylcholinesterase inhibitors.
+30267791|a|Alzheimer's disease is a common form of dementia, which considered to be a major health concern. Multivariate Image Analysis - Quantitative Structure-Activity Relationship (MIA-QSAR) is a simple and quite accessible QSAR method for predicting biological activities of unstudied compounds based on 2D image analysis. This study focuses on constructing an efficient QSAR model using a dataset of 52 flavonoid derivatives (substituted with amino-alkyl, alkoxy, alkyl-amines, and piperidine groups) as active compounds against acetylcholinesterase inhibitors (AChE). The model was constructed by PLS (Partial Least Square) using NIPALS (Non-Linear iterative Partial Least Square) algorithm. The comparable values obtained from calibration of training set using five latent variables (R2 = 0.955) and external validation of test set (Q2 = 0.948) confirmed the precision in the prediction of bioactivities for the set of flavonoid derivatives used in designing the model.
+30267791	51	60	flavonoid	Chemical	MESH:D005419
+30267791	76	96	acetylcholinesterase	Gene	43
+30267791	109	128	Alzheimer's disease	Disease	MESH:D000544
+30267791	149	157	dementia	Disease	MESH:D003704
+30267791	506	515	flavonoid	Chemical	MESH:D005419
+30267791	585	595	piperidine	Chemical	MESH:C032727
+30267791	632	652	acetylcholinesterase	Gene	43
+30267791	1024	1033	flavonoid	Chemical	MESH:D005419
+30267791	Negative_Correlation	MESH:D005419	43
+

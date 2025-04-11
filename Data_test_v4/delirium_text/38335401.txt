@@ -1,0 +1,48 @@
+38335401|t|Understanding the molecular mechanisms of Acori Tatarinowii Rhizoma: Nardostahyos Radix et Rhizoma in epilepsy treatment using network pharmacology and molecular docking.
+38335401|a|Acori Tatarinowii Rhizoma (ATR) and Nardostahyos Radix et Rhizoma (NRR) are well-known traditional Chinese medicines that have been extensively used for the treatment of epilepsy (EP). However, the precise molecular mechanism of ATR-NRR action remains unclear because of their intricate ingredients. This study aimed to investigate the underlying mechanism of ATR-NRR in EP treatment using network pharmacology and molecular docking techniques. Herbal medicine and disease gene databases were searched to determine active constituents and shared targets of ATR-NRR and EP. A protein-protein interaction network was constructed using the STRING database, while the Gene Ontology and the Kyoto Encyclopedia of Genes and Genome pathway enrichment were performed using R programming. An ingredient-target-pathway network map was constructed using the Cytoscape software, incorporating network topology calculations to predict active ingredients and hub targets. The binding abilities of active ingredients and hub targets were examined using molecular docking. Nine qualified compounds and 53 common targets were obtained. The prominent active compounds were kaempferol, acacetin, cryptotanshinone, 8-isopentenyl-kaempferol, naringenin, and eudesmin, while the primary targets were RELA, AKT1, CASP3, MAPK8, JUN, TNF, and TP53. Molecular docking analysis revealed that they have substantial binding abilities. These 53 targets were found to influence EP by manipulating PI3K-Akt, IL-17, TNF, and apoptosis signaling pathways. The findings of this study indicate that ATR-NRR functions against EP by acting upon multiple pathways and targets, offering a basis for future study.
+38335401	42	67	Acori Tatarinowii Rhizoma	Chemical	-
+38335401	69	98	Nardostahyos Radix et Rhizoma	Chemical	-
+38335401	102	110	epilepsy	Disease	MESH:D004827
+38335401	171	196	Acori Tatarinowii Rhizoma	Chemical	-
+38335401	198	201	ATR	Chemical	-
+38335401	207	236	Nardostahyos Radix et Rhizoma	Chemical	-
+38335401	238	241	NRR	Chemical	-
+38335401	270	287	Chinese medicines	Chemical	-
+38335401	341	349	epilepsy	Disease	MESH:D004827
+38335401	351	353	EP	Disease	MESH:D004827
+38335401	400	404	ATR-	Gene	545
+38335401	404	407	NRR	Chemical	-
+38335401	531	534	ATR	Chemical	-
+38335401	535	538	NRR	Chemical	-
+38335401	542	544	EP	Disease	MESH:D004827
+38335401	728	731	ATR	Chemical	-
+38335401	732	735	NRR	Chemical	-
+38335401	740	742	EP	Disease	MESH:D004827
+38335401	1326	1336	kaempferol	Chemical	MESH:C006552
+38335401	1338	1346	acacetin	Chemical	MESH:C023717
+38335401	1348	1364	cryptotanshinone	Chemical	MESH:C037886
+38335401	1366	1390	8-isopentenyl-kaempferol	Chemical	-
+38335401	1392	1402	naringenin	Chemical	MESH:C005273
+38335401	1408	1416	eudesmin	Chemical	MESH:C105875
+38335401	1449	1453	RELA	Gene	5970
+38335401	1455	1459	AKT1	Gene	207
+38335401	1461	1466	CASP3	Gene	836
+38335401	1468	1473	MAPK8	Gene	5599
+38335401	1480	1483	TNF	Gene	7124
+38335401	1489	1493	TP53	Gene	7157
+38335401	1618	1620	EP	Disease	MESH:D004827
+38335401	1642	1645	Akt	Gene	207
+38335401	1647	1652	IL-17	Gene	3605
+38335401	1654	1657	TNF	Gene	7124
+38335401	1734	1737	ATR	Chemical	-
+38335401	1738	1741	NRR	Chemical	-
+38335401	1760	1762	EP	Disease	MESH:D004827
+38335401	Association	MESH:D004827	207
+38335401	Negative_Correlation	MESH:C006552	MESH:D004827
+38335401	Association	MESH:D004827	7124
+38335401	Association	MESH:D004827	3605
+38335401	Negative_Correlation	MESH:C005273	MESH:D004827
+38335401	Negative_Correlation	MESH:D004827	545
+38335401	Negative_Correlation	MESH:C037886	MESH:D004827
+38335401	Negative_Correlation	MESH:C023717	MESH:D004827
+

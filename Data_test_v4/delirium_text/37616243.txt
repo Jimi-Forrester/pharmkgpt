@@ -1,0 +1,16 @@
+37616243|t|Segmenting white matter hyperintensities on isotropic three-dimensional Fluid Attenuated Inversion Recovery magnetic resonance images: Assessing deep learning tools on a Norwegian imaging database.
+37616243|a|An important step in the analysis of magnetic resonance imaging (MRI) data for neuroimaging is the automated segmentation of white matter hyperintensities (WMHs). Fluid Attenuated Inversion Recovery (FLAIR-weighted) is an MRI contrast that is particularly useful to visualize and quantify WMHs, a hallmark of cerebral small vessel disease and Alzheimer's disease (AD). In order to achieve high spatial resolution in each of the three voxel dimensions, clinical MRI protocols are evolving to a three-dimensional (3D) FLAIR-weighted acquisition. The current study details the deployment of deep learning tools to enable automated WMH segmentation and characterization from 3D FLAIR-weighted images acquired as part of a national AD imaging initiative. Based on data from the ongoing Norwegian Disease Dementia Initiation (DDI) multicenter study, two 3D models-one off-the-shelf from the NVIDIA nnU-Net framework and the other internally developed-were trained, validated, and tested. A third cutting-edge Deep Bayesian network model (HyperMapp3r) was implemented without any de-novo tuning to serve as a comparison architecture. The 2.5D in-house developed and 3D nnU-Net models were trained and validated in-house across five national collection sites among 441 participants from the DDI study, of whom 194 were men and whose average age was (64.91 +/- 9.32) years. Both an external dataset with 29 cases from a global collaborator and a held-out subset of the internal data from the 441 participants were used to test all three models. These test sets were evaluated independently. The ground truth human-in-the-loop segmentation was compared against five established WMH performance metrics. The 3D nnU-Net had the highest performance out of the three tested networks, outperforming both the internally developed 2.5D model and the SOTA Deep Bayesian network with an average dice similarity coefficient score of 0.76 +/- 0.16. Our findings demonstrate that WMH segmentation models can achieve high performance when trained exclusively on FLAIR input volumes that are 3D volumetric acquisitions. Single image input models are desirable for ease of deployment, as reflected in the current embedded clinical research project. The 3D nnU-Net had the highest performance, which suggests a way forward for our need to automate WMH segmentation while also evaluating performance metrics during on-going data collection and model retraining.
+37616243	11	40	white matter hyperintensities	Disease	MESH:D056784
+37616243	323	352	white matter hyperintensities	Disease	MESH:D056784
+37616243	354	358	WMHs	Disease	MESH:D056784
+37616243	487	491	WMHs	Disease	MESH:D056784
+37616243	507	536	cerebral small vessel disease	Disease	MESH:D059345
+37616243	541	560	Alzheimer's disease	Disease	MESH:D000544
+37616243	562	564	AD	Disease	MESH:D000544
+37616243	826	829	WMH	Disease	
+37616243	925	927	AD	Disease	MESH:D000544
+37616243	997	1005	Dementia	Disease	MESH:D003704
+37616243	1866	1869	WMH	Disease	
+37616243	2156	2159	WMH	Disease	
+37616243	2520	2523	WMH	Disease	
+

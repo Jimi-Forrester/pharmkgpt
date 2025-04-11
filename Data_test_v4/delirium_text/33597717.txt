@@ -1,0 +1,39 @@
+33597717|t|RCL1 copy number variants are associated with a range of neuropsychiatric phenotypes.
+33597717|a|Mendelian and early-onset severe psychiatric phenotypes often involve genetic variants having a large effect, offering opportunities for genetic discoveries and early therapeutic interventions. Here, the index case is an 18-year-old boy, who at 14 years of age had a decline in cognitive functioning over the course of a year and subsequently presented with catatonia, auditory and visual hallucinations, paranoia, aggression, mood dysregulation, and disorganized thoughts. Exome sequencing revealed a stop-gain mutation in RCL1 (NM_005772.4:c.370 C > T, p.Gln124Ter), encoding an RNA 3'-terminal phosphate cyclase-like protein that is highly conserved across eukaryotic species. Subsequent investigations across two academic medical centers identified eleven additional cases of RCL1 copy number variations (CNVs) with varying neurodevelopmental or psychiatric phenotypes. These findings suggest that dosage variation of RCL1 contributes to a range of neurological and clinical phenotypes.
+33597717	0	4	RCL1	Gene	10171
+33597717	57	84	neuropsychiatric phenotypes	Disease	MESH:C000631768
+33597717	119	130	psychiatric	Disease	MESH:D001523
+33597717	353	385	decline in cognitive functioning	Disease	MESH:D003072
+33597717	444	453	catatonia	Disease	MESH:D002389
+33597717	455	489	auditory and visual hallucinations	Disease	MESH:D006212
+33597717	491	499	paranoia	Disease	MESH:D010259
+33597717	501	511	aggression	Disease	MESH:D010554
+33597717	513	531	mood dysregulation	Disease	MESH:D019964
+33597717	537	558	disorganized thoughts	Disease	MESH:D012562
+33597717	610	614	RCL1	Gene	10171
+33597717	616	627	NM_005772.4	Species	
+33597717	628	639	c.370 C > T	DNAMutation	tmVar:c|SUB|C|370|T;HGVS:c.370C>T;VariantGroup:0;CorrespondingGene:10171;CorrespondingSpecies:9606
+33597717	641	652	p.Gln124Ter	ProteinMutation	tmVar:p|SUB|Q|124|X;HGVS:p.Q124X;VariantGroup:0;CorrespondingGene:10171;CorrespondingSpecies:9606
+33597717	667	713	RNA 3'-terminal phosphate cyclase-like protein	Gene	10171
+33597717	866	870	RCL1	Gene	10171
+33597717	936	947	psychiatric	Disease	MESH:D001523
+33597717	1008	1012	RCL1	Gene	10171
+33597717	Positive_Correlation	MESH:D001523	HGVS:p.Q124X;CorrespondingGene:10171
+33597717	Positive_Correlation	MESH:D001523	HGVS:c.370C>T;CorrespondingGene:10171
+33597717	Positive_Correlation	HGVS:c.370C>T;CorrespondingGene:10171	MESH:D001523
+33597717	Association	MESH:D019964	HGVS:p.Q124X;CorrespondingGene:10171
+33597717	Association	MESH:D012562	10171
+33597717	Association	MESH:D001523	10171
+33597717	Association	MESH:D012562	HGVS:c.370C>T;CorrespondingGene:10171
+33597717	Association	MESH:D012562	HGVS:p.Q124X;CorrespondingGene:10171
+33597717	Association	HGVS:c.370C>T;CorrespondingGene:10171	MESH:D019964
+33597717	Association	MESH:D002389	10171
+33597717	Association	MESH:D019964	HGVS:c.370C>T;CorrespondingGene:10171
+33597717	Association	HGVS:c.370C>T;CorrespondingGene:10171	MESH:D012562
+33597717	Association	MESH:C000631768	10171
+33597717	Association	MESH:D010259	10171
+33597717	Association	MESH:D019964	10171
+33597717	Association	MESH:D001523	10171
+33597717	Association	MESH:D019964	10171
+33597717	Association	MESH:D012562	10171
+

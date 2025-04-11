@@ -1,0 +1,29 @@
+35707703|t|Alzheimer's Disease Diagnosis and Biomarker Analysis Using Resting-State Functional MRI Functional Brain Network With Multi-Measures Features and Hippocampal Subfield and Amygdala Volume of Structural MRI.
+35707703|a|Accurate diagnosis of the initial phase of Alzheimer's disease (AD) is essential and crucial. The objective of this research was to employ efficient biomarkers for the diagnostic analysis and classification of AD based on combining structural MRI (sMRI) and resting-state functional MRI (rs-fMRI). So far, several anatomical MRI imaging markers for AD diagnosis have been identified. The use of cortical and subcortical volumes, the hippocampus, and amygdala volume, as well as genetic patterns, has proven to be beneficial in distinguishing patients with AD from the healthy population. The fMRI time series data have the potential for specific numerical information as well as dynamic temporal information. Voxel and graphical analyses have gained popularity for analyzing neurodegenerative diseases, such as Alzheimer's and its prodromal phase, mild cognitive impairment (MCI). So far, these approaches have been utilized separately for the diagnosis of AD. In recent studies, the classification of cases of MCI into those that are not converted for a certain period as stable MCI (MCIs) and those that converted to AD as MCIc has been less commonly reported with inconsistent results. In this study, we verified and validated the potency of a proposed diagnostic framework to identify AD and differentiate MCIs from MCIc by utilizing the efficient biomarkers obtained from sMRI, along with functional brain networks of the frequency range .01-.027 at the resting state and the voxel-based features. The latter mainly included default mode networks (amplitude of low-frequency fluctuation [ALFF], fractional ALFF [ALFF], and regional homogeneity [ReHo]), degree centrality (DC), and salience networks (SN). Pearson's correlation coefficient for measuring fMRI functional networks has proven to be an efficient means for disease diagnosis. We applied the graph theory to calculate nodal features (nodal degree [ND], nodal path length [NL], and between centrality [BC]) as a graphical feature and analyzed the connectivity link between different brain regions. We extracted three-dimensional (3D) patterns to calculate regional coherence and then implement a univariate statistical t-test to access a 3D mask that preserves voxels showing significant changes. Similarly, from sMRI, we calculated the hippocampal subfield and amygdala nuclei volume using Freesurfer (version 6). Finally, we implemented and compared the different feature selection algorithms to integrate the structural features, brain networks, and voxel features to optimize the diagnostic identifications of AD using support vector machine (SVM) classifiers. We also compared the performance of SVM with Random Forest (RF) classifiers. The obtained results demonstrated the potency of our framework, wherein a combination of the hippocampal subfield, the amygdala volume, and brain networks with multiple measures of rs-fMRI could significantly enhance the accuracy of other approaches in diagnosing AD. The accuracy obtained by the proposed method was reported for binary classification. More importantly, the classification results of the less commonly reported MCIs vs. MCIc improved significantly. However, this research involved only the AD Neuroimaging Initiative (ADNI) cohort to focus on the diagnosis of AD advancement by integrating sMRI and fMRI. Hence, the study's primary disadvantage is its small sample size. In this case, the dataset we utilized did not fully reflect the whole population. As a result, we cannot guarantee that our findings will be applicable to other populations.
+35707703	0	19	Alzheimer's Disease	Disease	MESH:D000544
+35707703	249	268	Alzheimer's disease	Disease	MESH:D000544
+35707703	270	272	AD	Disease	MESH:D000544
+35707703	416	418	AD	Disease	MESH:D000544
+35707703	555	557	AD	Disease	MESH:D000544
+35707703	748	756	patients	Species	9606
+35707703	762	764	AD	Disease	MESH:D000544
+35707703	981	1007	neurodegenerative diseases	Disease	MESH:D019636
+35707703	1017	1028	Alzheimer's	Disease	MESH:D000544
+35707703	1059	1079	cognitive impairment	Disease	MESH:D003072
+35707703	1081	1084	MCI	Disease	MESH:D060825
+35707703	1163	1165	AD	Disease	MESH:D000544
+35707703	1217	1220	MCI	Disease	MESH:D060825
+35707703	1286	1289	MCI	Disease	MESH:D060825
+35707703	1291	1295	MCIs	Disease	
+35707703	1325	1327	AD	Disease	MESH:D000544
+35707703	1331	1335	MCIc	Disease	
+35707703	1495	1497	AD	Disease	MESH:D000544
+35707703	1516	1520	MCIs	Disease	
+35707703	1526	1530	MCIc	Disease	
+35707703	2784	2786	AD	Disease	MESH:D000544
+35707703	3176	3178	AD	Disease	MESH:D000544
+35707703	3340	3344	MCIs	Disease	
+35707703	3349	3353	MCIc	Disease	
+35707703	3419	3421	AD	Disease	MESH:D000544
+35707703	3489	3491	AD	Disease	MESH:D000544
+

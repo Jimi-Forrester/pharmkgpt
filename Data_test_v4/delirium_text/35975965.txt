@@ -1,0 +1,14 @@
+35975965|t|Artifact suppression in readout-segmented consistent K-t space EPSI (RS-COKE) for fast 1 H spectroscopic imaging at 7 T.
+35975965|a|PURPOSE: Fast proton (1 H) MRSI is an important diagnostic tool for clinical investigations, providing metabolic and spatial information. MRSI at 7 T benefits from increased SNR and improved separation of peaks but requires larger spectral widths. RS-COKE (Readout-Segmented Consistent K-t space Epsi) is an echo planar spectroscopic imaging (Epsi) variant capable to support the spectral width required for human brain metabolites spectra at 7 T. However, mismatches between readout segments lead to artifacts, particularly when subcutaneous lipid signals are not suppressed. In this study, these mismatches and their effects are analyzed and reduced. METHODS: The following corrections to the data were performed: i) frequency-dependent phase corrections; ii) k-space trajectory corrections, derived from short reference scans; and iii) smoothing of data at segment transitions to mitigate the effect of residual mismatches. The improvement was evaluated by performing single-slice RS-COKE on a head-shaped phantom with a "lipid" layer and healthy subjects, using varying resolutions and durations ranging from 4.1 x 4.7 x 15 mm3 in 5:46 min to 3.1 x 3.3 x 15 mm3 in 13:07 min. RESULTS: Artifacts arising from the readout-segmented acquisition were substantially reduced, thus providing high-quality spectroscopic imaging in phantom and human scans. LCModel fitting of the human data resulted in a relative Cramer-Rao lower bounds within 6% for NAA, Cr, and Cho images in the majority of the voxels. CONCLUSION: Using the new reference scans and reconstruction steps, RS-COKE was able to deliver fast 1 H MRSI at 7 T, overcoming the spectral width limitation of standard EPSI at this field strength.
+35975965	87	90	1 H	Chemical	-
+35975965	143	146	1 H	Chemical	-
+35975965	529	534	human	Species	9606
+35975965	664	669	lipid	Chemical	MESH:D008055
+35975965	1146	1151	lipid	Chemical	MESH:D008055
+35975965	1460	1465	human	Species	9606
+35975965	1496	1501	human	Species	9606
+35975965	1568	1571	NAA	Chemical	-
+35975965	1573	1575	Cr	Chemical	MESH:D002857
+35975965	1581	1584	Cho	Chemical	MESH:C034482
+35975965	1724	1727	1 H	Chemical	-
+

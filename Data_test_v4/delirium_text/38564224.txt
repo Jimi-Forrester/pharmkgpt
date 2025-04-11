@@ -1,0 +1,19 @@
+38564224|t|A joint frailty model for recurrent and competing terminal events: Application to delirium in the ICU.
+38564224|a|Joint models linking longitudinal biomarkers or recurrent event processes with a terminal event, for example, mortality, have been studied extensively. Motivated by studies of recurrent delirium events in patients receiving care in an intensive care unit (ICU), we devise a joint model for a recurrent event process and multiple terminal events. Being discharged alive from the ICU or experiencing mortality may be associated with a patient's hazard of delirium, violating the assumption of independent censoring. Moreover, the direction of the association between the hazards of delirium and mortality may be opposite of the direction of association between the hazards of delirium and ICU discharge. Hence treating either terminal event as independent censoring may bias inferences. We propose a competing joint model that uses a latent frailty to link a patient's recurrent and competing terminal event processes. We fit our model to data from a completed placebo-controlled clinical trial, which studied whether Haloperidol could prevent death and delirium among ICU patients. The clinical trial served as a foundation for a simulation study, in which we evaluate the properties, for example, bias and confidence interval coverage, of the competing joint model. As part of the simulation study, we demonstrate the shortcomings of using a joint model with a recurrent delirium process and a single terminal event to study delirium in the ICU. Lastly, we discuss limitations and possible extensions for the competing joint model. The competing joint model has been added to frailtypack, an R package for fitting an assortment of joint models.
+38564224	82	90	delirium	Disease	MESH:D003693
+38564224	289	297	delirium	Disease	MESH:D003693
+38564224	308	316	patients	Species	9606
+38564224	536	543	patient	Species	9606
+38564224	556	564	delirium	Disease	MESH:D003693
+38564224	683	691	delirium	Disease	MESH:D003693
+38564224	777	785	delirium	Disease	MESH:D003693
+38564224	960	967	patient	Species	9606
+38564224	1119	1130	Haloperidol	Chemical	MESH:D006220
+38564224	1145	1150	death	Disease	MESH:D003643
+38564224	1155	1163	delirium	Disease	MESH:D003693
+38564224	1174	1182	patients	Species	9606
+38564224	1474	1482	delirium	Disease	MESH:D003693
+38564224	1528	1536	delirium	Disease	MESH:D003693
+38564224	Negative_Correlation	MESH:D006220	MESH:D003693
+38564224	Negative_Correlation	MESH:D006220	MESH:D003643
+

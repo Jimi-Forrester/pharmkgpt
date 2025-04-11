@@ -1,0 +1,10 @@
+38846640|t|PathFinder: a novel graph transformer model to infer multi-cell intra- and inter-cellular signaling pathways and communications.
+38846640|a|Recently, large-scale scRNA-seq datasets have been generated to understand the complex signaling mechanisms within the microenvironment of Alzheimer's Disease (AD), which are critical for identifying novel therapeutic targets and precision medicine. However, the background signaling networks are highly complex and interactive. It remains challenging to infer the core intra- and inter-multi-cell signaling communication networks using scRNA-seq data. In this study, we introduced a novel graph transformer model, PathFinder, to infer multi-cell intra- and inter-cellular signaling pathways and communications among multi-cell types. Compared with existing models, the novel and unique design of PathFinder is based on the divide-and-conquer strategy. This model divides complex signaling networks into signaling paths, which are then scored and ranked using a novel graph transformer architecture to infer intra- and inter-cell signaling communications. We evaluated the performance of PathFinder using two scRNA-seq data cohorts. The first cohort is an APOE4 genotype-specific AD, and the second is a human cirrhosis cohort. The evaluation confirms the promising potential of using PathFinder as a general signaling network inference model.
+38846640	268	287	Alzheimer's Disease	Disease	MESH:D000544
+38846640	289	291	AD	Disease	MESH:D000544
+38846640	1185	1190	APOE4	Gene	348
+38846640	1209	1211	AD	Disease	MESH:D000544
+38846640	1233	1238	human	Species	9606
+38846640	1239	1248	cirrhosis	Disease	MESH:D005355
+38846640	Association	MESH:D000544	348
+

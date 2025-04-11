@@ -1,0 +1,42 @@
+34426604|t|High-content image-based analysis and proteomic profiling identifies Tau phosphorylation inhibitors in a human iPSC-derived glutamatergic neuronal model of tauopathy.
+34426604|a|Mutations in MAPT (microtubule-associated protein tau) cause frontotemporal dementia (FTD). MAPT mutations are associated with abnormal tau phosphorylation levels and accumulation of misfolded tau protein that can propagate between neurons ultimately leading to cell death (tauopathy). Recently, a p.A152T tau variant was identified as a risk factor for FTD, Alzheimer's disease, and synucleinopathies. Here we used induced pluripotent stem cells (iPSC) from a patient carrying this p.A152T variant to create a robust, functional cellular assay system for probing pathophysiological tau accumulation and phosphorylation. Using stably transduced iPSC-derived neural progenitor cells engineered to enable inducible expression of the pro-neural transcription factor Neurogenin 2 (Ngn2), we generated disease-relevant, cortical-like glutamatergic neurons in a scalable, high-throughput screening compatible format. Utilizing automated confocal microscopy, and an advanced image-processing pipeline optimized for analysis of morphologically complex human neuronal cultures, we report quantitative, subcellular localization-specific effects of multiple kinase inhibitors on tau, including ones under clinical investigation not previously reported to affect tau phosphorylation. These results demonstrate the potential for using patient iPSC-derived ex vivo models of tauopathy as genetically accurate, disease-relevant systems to probe tau biochemistry and support the discovery of novel therapeutics for tauopathies.
+34426604	69	72	Tau	Gene	4137
+34426604	105	110	human	Species	9606
+34426604	156	165	tauopathy	Disease	MESH:D024801
+34426604	180	184	MAPT	Gene	4137
+34426604	186	220	microtubule-associated protein tau	Gene	4137
+34426604	228	251	frontotemporal dementia	Disease	MESH:D057180
+34426604	253	256	FTD	Disease	MESH:D057180
+34426604	259	263	MAPT	Gene	4137
+34426604	303	306	tau	Gene	4137
+34426604	360	363	tau	Gene	4137
+34426604	441	450	tauopathy	Disease	MESH:D024801
+34426604	465	472	p.A152T	ProteinMutation	tmVar:p|SUB|A|152|T;HGVS:p.A152T;VariantGroup:0;CorrespondingGene:4137;RS#:143624519;CorrespondingSpecies:9606;CA#:8617962
+34426604	473	476	tau	Gene	4137
+34426604	521	524	FTD	Disease	MESH:D057180
+34426604	526	545	Alzheimer's disease	Disease	MESH:D000544
+34426604	551	568	synucleinopathies	Disease	MESH:D000080874
+34426604	628	635	patient	Species	9606
+34426604	650	657	p.A152T	ProteinMutation	tmVar:p|SUB|A|152|T;HGVS:p.A152T;VariantGroup:0;CorrespondingGene:4137;RS#:143624519;CorrespondingSpecies:9606;CA#:8617962
+34426604	750	753	tau	Gene	4137
+34426604	930	942	Neurogenin 2	Gene	63973
+34426604	944	948	Ngn2	Gene	63973
+34426604	1211	1216	human	Species	9606
+34426604	1335	1338	tau	Gene	4137
+34426604	1418	1421	tau	Gene	4137
+34426604	1489	1496	patient	Species	9606
+34426604	1528	1537	tauopathy	Disease	MESH:D024801
+34426604	1597	1600	tau	Gene	4137
+34426604	1666	1677	tauopathies	Disease	MESH:D024801
+34426604	Positive_Correlation	MESH:D057180	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+34426604	Association	MESH:D000080874	4137
+34426604	Positive_Correlation	MESH:D000080874	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+34426604	Association	MESH:D000544	4137
+34426604	Association	MESH:D057180	4137
+34426604	Positive_Correlation	MESH:D000544	RS#:143624519;HGVS:p.A152T;CorrespondingGene:4137
+34426604	Association	4137	63973
+34426604	Association	MESH:D024801	4137
+34426604	Association	MESH:D057180	4137
+34426604	Association	MESH:D000080874	4137
+34426604	Association	MESH:D000544	4137
+

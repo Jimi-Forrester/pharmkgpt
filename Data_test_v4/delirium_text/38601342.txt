@@ -1,0 +1,25 @@
+38601342|t|Using a k-means clustering to identify novel phenotypes of acute ischemic stroke and development of its Clinlabomics models.
+38601342|a|Objective: Acute ischemic stroke (AIS) is a heterogeneous condition. To stratify the heterogeneity, identify novel phenotypes, and develop Clinlabomics models of phenotypes that can conduct more personalized treatments for AIS. Methods: In a retrospective analysis, consecutive AIS and non-AIS inpatients were enrolled. An unsupervised k-means clustering algorithm was used to classify AIS patients into distinct novel phenotypes. Besides, the intergroup comparisons across the phenotypes were performed in clinical and laboratory data. Next, the least absolute shrinkage and selection operator (LASSO) algorithm was used to select essential variables. In addition, Clinlabomics predictive models of phenotypes were established by a support vector machines (SVM) classifier. We used the area under curve (AUC), accuracy, sensitivity, and specificity to evaluate the performance of the models. Results: Of the three derived phenotypes in 909 AIS patients [median age 64 (IQR: 17) years, 69% male], in phenotype 1 (N = 401), patients were relatively young and obese and had significantly elevated levels of lipids. Phenotype 2 (N = 463) was associated with abnormal ion levels. Phenotype 3 (N = 45) was characterized by the highest level of inflammation, accompanied by mild multiple-organ dysfunction. The external validation cohort prospectively collected 507 AIS patients [median age 60 (IQR: 18) years, 70% male]. Phenotype characteristics were similar in the validation cohort. After LASSO analysis, Clinlabomics models of phenotype 1 and 2 were constructed by the SVM algorithm, yielding high AUC (0.977, 95% CI: 0.961-0.993 and 0.984, 95% CI: 0.971-0.997), accuracy (0.936, 95% CI: 0.922-0.956 and 0.952, 95% CI: 0.938-0.972), sensitivity (0.984, 95% CI: 0.968-0.998 and 0.958, 95% CI: 0.939-0.984), and specificity (0.892, 95% CI: 0.874-0.926 and 0.945, 95% CI: 0.923-0.969). Conclusion: In this study, three novel phenotypes that reflected the abnormal variables of AIS patients were identified, and the Clinlabomics models of phenotypes were established, which are conducive to individualized treatments.
+38601342	59	80	acute ischemic stroke	Disease	MESH:D000083242
+38601342	136	157	Acute ischemic stroke	Disease	MESH:D000083242
+38601342	159	162	AIS	Disease	MESH:D000083242
+38601342	348	351	AIS	Disease	MESH:D000083242
+38601342	403	406	AIS	Disease	MESH:D000083242
+38601342	415	418	AIS	Disease	MESH:D000083242
+38601342	419	429	inpatients	Species	9606
+38601342	511	514	AIS	Disease	MESH:D000083242
+38601342	515	523	patients	Species	9606
+38601342	1066	1069	AIS	Disease	MESH:D000083242
+38601342	1070	1078	patients	Species	9606
+38601342	1148	1156	patients	Species	9606
+38601342	1183	1188	obese	Disease	MESH:D009765
+38601342	1230	1236	lipids	Chemical	MESH:D008055
+38601342	1364	1376	inflammation	Disease	MESH:D007249
+38601342	1398	1424	multiple-organ dysfunction	Disease	MESH:D009102
+38601342	1485	1488	AIS	Disease	MESH:D000083242
+38601342	1489	1497	patients	Species	9606
+38601342	2098	2101	AIS	Disease	MESH:D000083242
+38601342	2102	2110	patients	Species	9606
+38601342	Positive_Correlation	MESH:D008055	MESH:D009765
+38601342	Positive_Correlation	MESH:D008055	MESH:D000083242
+

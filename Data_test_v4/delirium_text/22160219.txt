@@ -1,0 +1,48 @@
+22160219|t|beta-Amyloid carrying the Dutch mutation has diverse effects on calpain-mediated toxicity in hippocampal neurons.
+22160219|a|Hereditary cerebral hemorrhage with amyloidosis-Dutch type is a disorder associated with a missense mutation (E693Q) in the beta-amyloid (Abeta)-coding region of the amyloid precursor protein (APP). This familial disease is characterized by cognitive deficits secondary to intracerebral hemorrhage and, in some cases, progressive Alzheimer's disease (AD)-like dementia. Although this mutation was the first ever reported in the human APP gene, little is known about the molecular mechanisms underlying the direct toxic effects of this mutated Abeta on central neurons. In the present study, we assessed the role of calpain-mediated toxicity in such effects using an AD primary culture model system. Our results showed that Dutch mutant Abeta (E22Q) induced calpain-mediated cleavage of dynamin 1 and a significant decrease in synaptic contacts in mature hippocampal cultures. These synaptic deficits were similar to those induced by wild-type (WT) Abeta. In contrast, calpain-mediated tau cleavage leading to the generation of a 17-kDa neurotoxic fragment, as well as neuronal death, were significantly reduced in E22Q Abeta-treated neurons when compared with WT Abeta-treated ones. This complex regulation of the calpain-mediated toxicity pathway by E22Q Abeta could have some bearing in the pathobiology of this familial AD form.
+22160219	81	89	toxicity	Disease	MESH:D064420
+22160219	114	161	Hereditary cerebral hemorrhage with amyloidosis	Disease	MESH:D028243
+22160219	224	229	E693Q	ProteinMutation	tmVar:p|SUB|E|693|Q;HGVS:p.E693Q;VariantGroup:0;CorrespondingGene:351;RS#:63750579;CorrespondingSpecies:9606;CA#:127790
+22160219	252	257	Abeta	Gene	351
+22160219	280	305	amyloid precursor protein	Gene	351
+22160219	355	373	cognitive deficits	Disease	MESH:D003072
+22160219	387	411	intracerebral hemorrhage	Disease	MESH:D002543
+22160219	444	463	Alzheimer's disease	Disease	MESH:D000544
+22160219	465	467	AD	Disease	MESH:D000544
+22160219	474	482	dementia	Disease	MESH:D003704
+22160219	542	547	human	Species	9606
+22160219	657	662	Abeta	Gene	351
+22160219	746	754	toxicity	Disease	MESH:D064420
+22160219	780	782	AD	Disease	MESH:D000544
+22160219	850	855	Abeta	Gene	351
+22160219	857	861	E22Q	ProteinMutation	tmVar:p|SUB|E|22|Q;HGVS:p.E22Q;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+22160219	900	909	dynamin 1	Gene	1759
+22160219	1062	1067	Abeta	Gene	351
+22160219	1099	1102	tau	Gene	4137
+22160219	1150	1160	neurotoxic	Disease	MESH:D020258
+22160219	1182	1196	neuronal death	Disease	MESH:D009410
+22160219	1228	1232	E22Q	ProteinMutation	tmVar:p|SUB|E|22|Q;HGVS:p.E22Q;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+22160219	1233	1238	Abeta	Gene	351
+22160219	1277	1282	Abeta	Gene	351
+22160219	1345	1353	toxicity	Disease	MESH:D064420
+22160219	1365	1369	E22Q	ProteinMutation	tmVar:p|SUB|E|22|Q;HGVS:p.E22Q;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+22160219	1370	1375	Abeta	Gene	351
+22160219	1437	1439	AD	Disease	MESH:D000544
+22160219	Positive_Correlation	MESH:D028243	RS#:63750579;HGVS:p.E693Q;CorrespondingGene:351
+22160219	Association	351	4137
+22160219	Association	MESH:D064420	RS#:63750579;HGVS:p.E693Q;CorrespondingGene:351
+22160219	Positive_Correlation	MESH:D000544	RS#:63750579;HGVS:p.E693Q;CorrespondingGene:351
+22160219	Association	MESH:D009410	351
+22160219	Negative_Correlation	MESH:D009410	HGVS:p.E22Q;CorrespondingGene:351
+22160219	Positive_Correlation	MESH:D000544	HGVS:p.E22Q;CorrespondingGene:351
+22160219	Association	MESH:D028243	351
+22160219	Negative_Correlation	MESH:D009410	RS#:63750579;HGVS:p.E693Q;CorrespondingGene:351
+22160219	Association	MESH:D000544	351
+22160219	Association	MESH:D064420	HGVS:p.E22Q;CorrespondingGene:351
+22160219	Association	MESH:D020258	4137
+22160219	Association	1759	351
+22160219	Association	MESH:D028243	351
+22160219	Association	MESH:D064420	351
+22160219	Association	MESH:D000544	351
+22160219	Association	MESH:D009410	351
+

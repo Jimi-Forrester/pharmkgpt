@@ -1,0 +1,12 @@
+38434063|t|Improved neural network with multi-task learning for Alzheimer's disease classification.
+38434063|a|Alzheimer's disease(AD) poses a significant challenge due to its widespread prevalence and the lack of effective treatments, highlighting the urgent need for early detection. This research introduces an enhanced neural network, named ADnet, which is based on the VGG16 model, to detect Alzheimer's disease using two-dimensional MRI slices. ADNet incorporates several key improvements: it replaces traditional convolution with depthwise separable convolution to reduce model parameters, replaces the ReLU activation function with ELU to address potential issues with exploding gradients, and integrates the SE(Squeeze-and-Excitation) module to enhance feature extraction efficiency. In addition to the primary task of MRI feature extraction, ADnet is simultaneously trained on two auxiliary tasks: clinical dementia score regression and mental state score regression. Experimental results demonstrate that compared to the baseline VGG16, ADNet achieves a 4.18% accuracy improvement for AD vs. CN classification and a 6% improvement for MCI vs. CN classification. These findings highlight the effectiveness of ADnet in classifying Alzheimer's disease, providing crucial support for early diagnosis and intervention by medical professionals. The proposed enhancements represent advancements in neural network architecture and training strategies for improved AD classification.
+38434063	53	72	Alzheimer's disease	Disease	MESH:D000544
+38434063	89	108	Alzheimer's disease	Disease	MESH:D000544
+38434063	109	111	AD	Disease	MESH:D000544
+38434063	375	394	Alzheimer's disease	Disease	MESH:D000544
+38434063	895	903	dementia	Disease	MESH:D003704
+38434063	1074	1076	AD	Disease	MESH:D000544
+38434063	1124	1127	MCI	Disease	
+38434063	1218	1237	Alzheimer's disease	Disease	MESH:D000544
+38434063	1445	1447	AD	Disease	MESH:D000544
+

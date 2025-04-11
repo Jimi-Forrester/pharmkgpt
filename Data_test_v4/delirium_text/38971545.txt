@@ -1,0 +1,35 @@
+38971545|t|IGF1R and FLT1 in female endothelial cells and CHD2 in male microglia play important roles in Alzheimer's disease based on gender difference analysis.
+38971545|a|OBJECTIVE: This study investigated sex-specific pathogenesis mechanisms in Alzheimer's disease (AD) using single-nucleus RNA sequencing (snRNA-seq) data. METHODS: Data from the Gene Expression Omnibus (GEO) were searched using terms "Alzheimer's Disease", "single cell", and "Homo sapiens". Studies excluding APOE E4 and including comprehensive gender information with 10x sequencing methods were selected, resulting in GSE157827 and GSE174367 datasets from human prefrontal cortex samples. Sex-stratified analyses were conducted on these datasets, and the outcomes of the analysis for GSE157827 were compared with those of GSE174367. The findings were validated using expression profiling from the mouse dataset GSE85162. Furthermore, real-time PCR experiments in mice further confirmed these findings. The Seurat R package was used to identify cell types, and batch effects were mitigated using the Harmony R package. Cell proportions by sex were compared using the Mann-Whitney-Wilcoxon test, and gene expression variability was displayed with an empirical cumulative distribution plot. Differentially expressed genes were identified using the FindMarkers function with the MAST test. Transcription factors were analyzed using the RcisTarget R package. RESULTS: Seven cell types were identified: astrocytes, endothelial cells, excitatory neurons, inhibitory neurons, microglia, oligodendrocytes, and oligodendrocyte progenitor cells. Additionally, five distinct subpopulations of both endothelial and microglial cells were also identified, respectively. Key findings included: (1) In endothelial cells, genes involved in synapse organization, such as Insulin Like Growth Factor 1 Receptor (IGF1R) and Fms Related Receptor Tyrosine Kinase 1(FLT1), showed higher expression in females with AD. (2) In microglial cells, genes in the ribosome pathway exhibited higher expression in males without AD compared to females (with or without AD) and males with AD. (3) Chromodomain Helicase DNA Binding Protein 2 (CHD2) negatively regulated gene expression in the ribosome pathway in male microglia, suppressing AD, this finding was further validated in mice. (4) Differences between Asians and Caucasians were observed based on sex and disease status stratification. CONCLUSIONS: IGF1R and FLT1 in endothelial cells contribute to AD in females, while CHD2 negatively regulates ribosome pathway gene expression in male microglia, suppressing AD in humans and mice.
+38971545	0	5	IGF1R	Gene	3480
+38971545	10	14	FLT1	Gene	2321
+38971545	47	51	CHD2	Gene	1106
+38971545	94	113	Alzheimer's disease	Disease	MESH:D000544
+38971545	226	245	Alzheimer's disease	Disease	MESH:D000544
+38971545	247	249	AD	Disease	MESH:D000544
+38971545	385	404	Alzheimer's Disease	Disease	MESH:D000544
+38971545	427	439	Homo sapiens	Species	9606
+38971545	609	614	human	Species	9606
+38971545	850	855	mouse	Species	10090
+38971545	916	920	mice	Species	10090
+38971545	1805	1842	Insulin Like Growth Factor 1 Receptor	Gene	3480
+38971545	1844	1849	IGF1R	Gene	3480
+38971545	1894	1898	FLT1	Gene	2321
+38971545	1942	1944	AD	Disease	MESH:D000544
+38971545	2046	2048	AD	Disease	MESH:D000544
+38971545	2086	2088	AD	Disease	MESH:D000544
+38971545	2105	2107	AD	Disease	MESH:D000544
+38971545	2113	2156	Chromodomain Helicase DNA Binding Protein 2	Gene	1106
+38971545	2158	2162	CHD2	Gene	1106
+38971545	2256	2258	AD	Disease	MESH:D000544
+38971545	2298	2302	mice	Species	10090
+38971545	2425	2430	IGF1R	Gene	3480
+38971545	2435	2439	FLT1	Gene	2321
+38971545	2475	2477	AD	Disease	MESH:D000544
+38971545	2496	2500	CHD2	Gene	244059
+38971545	2586	2588	AD	Disease	MESH:D000544
+38971545	2592	2598	humans	Species	9606
+38971545	2603	2607	mice	Species	10090
+38971545	Association	MESH:D000544	1106
+38971545	Association	MESH:D000544	2321
+38971545	Association	MESH:D000544	3480
+

@@ -1,0 +1,29 @@
+37736681|t|Identification of key lipid metabolism-related genes in Alzheimer's disease.
+37736681|a|BACKGROUND: Alzheimer's disease (AD) represents profound degenerative conditions of the brain that cause significant deterioration in memory and cognitive function. Despite extensive research on the significant contribution of lipid metabolism to AD progression, the precise mechanisms remain incompletely understood. Hence, this study aimed to identify key differentially expressed lipid metabolism-related genes (DELMRGs) in AD progression. METHODS: Comprehensive analyses were performed to determine key DELMRGs in AD compared to controls in GSE122063 dataset from Gene Expression Omnibus. Additionally, the ssGSEA algorithm was utilized for estimating immune cell levels. Subsequently, correlations between key DELMRGs and each immune cell were calculated specifically in AD samples. The key DELMRGs expression levels were validated via two external datasets. Furthermore, gene set enrichment analysis (GSEA) was utilized for deriving associated pathways of key DELMRGs. Additionally, miRNA-TF regulatory networks of the key DELMRGs were constructed using the miRDB, NetworkAnalyst 3.0, and Cytoscape software. Finally, based on key DELMRGs, AD samples were further segmented into two subclusters via consensus clustering, and immune cell patterns and pathway differences between the two subclusters were examined. RESULTS: Seventy up-regulated and 100 down-regulated DELMRGs were identified. Subsequently, three key DELMRGs (DLD, PLPP2, and PLAAT4) were determined utilizing three algorithms [(i) LASSO, (ii) SVM-RFE, and (iii) random forest]. Specifically, PLPP2 and PLAAT4 were up-regulated, while DLD exhibited downregulation in AD cerebral cortex tissue. This was validated in two separate external datasets (GSE132903 and GSE33000). The AD group exhibited significantly altered immune cell composition compared to controls. In addition, GSEA identified various pathways commonly associated with three key DELMRGs. Moreover, the regulatory network of miRNA-TF for key DELMRGs was established. Finally, significant differences in immune cell levels and several pathways were identified between the two subclusters. CONCLUSION: This study identified DLD, PLPP2, and PLAAT4 as key DELMRGs in AD progression, providing novel insights for AD prevention/treatment.
+37736681	22	27	lipid	Chemical	MESH:D008055
+37736681	56	75	Alzheimer's disease	Disease	MESH:D000544
+37736681	89	108	Alzheimer's disease	Disease	MESH:D000544
+37736681	110	112	AD	Disease	MESH:D000544
+37736681	134	170	degenerative conditions of the brain	Disease	MESH:D019636
+37736681	194	240	deterioration in memory and cognitive function	Disease	MESH:D003072
+37736681	304	309	lipid	Chemical	MESH:D008055
+37736681	324	326	AD	Disease	MESH:D000544
+37736681	460	465	lipid	Chemical	MESH:D008055
+37736681	504	506	AD	Disease	MESH:D000544
+37736681	595	597	AD	Disease	MESH:D000544
+37736681	853	855	AD	Disease	MESH:D000544
+37736681	1223	1225	AD	Disease	MESH:D000544
+37736681	1507	1510	DLD	Gene	1738
+37736681	1512	1517	PLPP2	Gene	8612
+37736681	1640	1645	PLPP2	Gene	8612
+37736681	1682	1685	DLD	Gene	1738
+37736681	1714	1716	AD	Disease	MESH:D000544
+37736681	1824	1826	AD	Disease	MESH:D000544
+37736681	2234	2237	DLD	Gene	1738
+37736681	2239	2244	PLPP2	Gene	8612
+37736681	2275	2277	AD	Disease	MESH:D000544
+37736681	2320	2322	AD	Disease	MESH:D000544
+37736681	Association	MESH:D000544	8612
+37736681	Association	MESH:D000544	1738
+37736681	Association	MESH:D008055	MESH:D000544
+

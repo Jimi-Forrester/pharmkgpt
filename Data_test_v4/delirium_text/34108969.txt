@@ -1,0 +1,47 @@
+34108969|t|Integration of Immunome With Disease-Gene Network Reveals Common Cellular Mechanisms Between IMIDs and Drug Repurposing Strategies.
+34108969|a|Objective: Development and progression of immune-mediated inflammatory diseases (IMIDs) involve intricate dysregulation of the disease-associated genes (DAGs) and their expressing immune cells. Identifying the crucial disease-associated cells (DACs) in IMIDs has been challenging due to the underlying complex molecular mechanism. Methods: Using transcriptome profiles of 40 different immune cells, unsupervised machine learning, and disease-gene networks, we constructed the Disease-gene IMmune cell Expression (DIME) network and identified top DACs and DAGs of 12 phenotypically different IMIDs. We compared the DIME networks of IMIDs to identify common pathways between them. We used the common pathways and publicly available drug-gene network to identify promising drug repurposing targets. Results: We found CD4+Treg, CD4+Th1, and NK cells as top DACs in inflammatory arthritis such as ankylosing spondylitis (AS), psoriatic arthritis, and rheumatoid arthritis (RA); neutrophils, granulocytes, and BDCA1+CD14+ cells in systemic lupus erythematosus and systemic scleroderma; ILC2, CD4+Th1, CD4+Treg, and NK cells in the inflammatory bowel diseases (IBDs). We identified lymphoid cells (CD4+Th1, CD4+Treg, and NK) and their associated pathways to be important in HLA-B27 type diseases (psoriasis, AS, and IBDs) and in primary-joint-inflammation-based inflammatory arthritis (AS and RA). Based on the common cellular mechanisms, we identified lifitegrast as a potential drug repurposing candidate for Crohn's disease and other IMIDs. Conclusions: Existing methods are inadequate in capturing the intricate involvement of the crucial genes and cell types essential to IMIDs. Our approach identified the key DACs, DAGs, common mechanisms between IMIDs, and proposed potential drug repurposing targets using the DIME network. To extend our method to other diseases, we built the DIME tool (https://bitbucket.org/systemsimmunology/dime/) to help scientists uncover the etiology of complex and rare diseases to further drug development by better-determining drug targets, thereby mitigating the risk of failure in late clinical development.
+34108969	93	98	IMIDs	Disease	MESH:C567355
+34108969	174	211	immune-mediated inflammatory diseases	Disease	MESH:C567355
+34108969	213	218	IMIDs	Disease	MESH:C567355
+34108969	385	390	IMIDs	Disease	MESH:C567355
+34108969	723	728	IMIDs	Disease	MESH:C567355
+34108969	763	768	IMIDs	Disease	MESH:C567355
+34108969	946	949	CD4	Gene	920
+34108969	956	959	CD4	Gene	920
+34108969	993	1015	inflammatory arthritis	Disease	MESH:D001168
+34108969	1024	1046	ankylosing spondylitis	Disease	MESH:D013167
+34108969	1053	1072	psoriatic arthritis	Disease	MESH:D015535
+34108969	1078	1098	rheumatoid arthritis	Disease	MESH:D001172
+34108969	1100	1102	RA	Disease	MESH:D001172
+34108969	1136	1141	BDCA1	Gene	911
+34108969	1142	1146	CD14	Gene	929
+34108969	1157	1185	systemic lupus erythematosus	Disease	MESH:D008180
+34108969	1190	1210	systemic scleroderma	Disease	MESH:D012595
+34108969	1218	1221	CD4	Gene	920
+34108969	1227	1230	CD4	Gene	920
+34108969	1257	1284	inflammatory bowel diseases	Disease	MESH:D015212
+34108969	1286	1290	IBDs	Disease	MESH:D015212
+34108969	1323	1326	CD4	Gene	920
+34108969	1332	1335	CD4	Gene	920
+34108969	1399	1406	HLA-B27	Gene	3106
+34108969	1422	1431	psoriasis	Disease	MESH:D011565
+34108969	1441	1445	IBDs	Disease	MESH:D015212
+34108969	1462	1480	joint-inflammation	Disease	MESH:D007249
+34108969	1487	1509	inflammatory arthritis	Disease	MESH:D001168
+34108969	1518	1520	RA	Disease	MESH:D001172
+34108969	1636	1651	Crohn's disease	Disease	MESH:D003424
+34108969	1662	1667	IMIDs	Disease	MESH:C567355
+34108969	1802	1807	IMIDs	Disease	MESH:C567355
+34108969	1879	1884	IMIDs	Disease	MESH:C567355
+34108969	Association	MESH:D008180	911
+34108969	Association	3106	920
+34108969	Association	MESH:D007249	920
+34108969	Association	MESH:D001172	920
+34108969	Association	MESH:D012595	929
+34108969	Association	MESH:D013167	920
+34108969	Association	MESH:D008180	929
+34108969	Association	MESH:D015535	920
+34108969	Association	MESH:D015212	920
+34108969	Association	MESH:D011565	920
+34108969	Association	MESH:D001168	920
+

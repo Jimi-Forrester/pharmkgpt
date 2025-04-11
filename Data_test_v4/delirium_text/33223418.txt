@@ -1,0 +1,18 @@
+33223418|t|Automatic detection of COVID-19 from chest radiographs using deep learning.
+33223418|a|INTRODUCTION: The breakdown of a deadly infectious disease caused by a newly discovered coronavirus (named SARS n-CoV2) back in December 2019 has shown no respite to slow or stop in general. This contagious disease has spread across different lengths and breadths of the globe, taking a death toll to nearly 700 k by the start of August 2020. The number is well expected to rise even more significantly. In the absence of a thoroughly tested and approved vaccine, the onus primarily lies on obliging to standard operating procedures and timely detection and isolation of the infected persons. The detection of SARS n-CoV2 has been one of the core concerns during the fight against this pandemic. To keep up with the scale of the outbreak, testing needs to be scaled at par with it. With the conventional PCR testing, most of the countries have struggled to minimize the gap between the scale of outbreak and scale of testing. METHOD: One way of expediting the scale of testing is to shift to a rigorous computational model driven by deep neural networks, as proposed here in this paper. The proposed model is a non-contact process of determining whether a subject is infected or not and is achieved by using chest radiographs; one of the most widely used imaging technique for clinical diagnosis due to fast imaging and low cost. The dataset used in this work contains 1428 chest radiographs with confirmed COVID-19 positive, common bacterial pneumonia, and healthy cases (no infection). We explored the pre-trained VGG-16 model for classification tasks in this. Transfer learning with fine-tuning was used in this study to train the network on relatively small chest radiographs effectively. RESULTS: Initial experiments showed that the model achieved promising results and can be significantly used to expedite COVID-19 detection. The experimentation showed an accuracy of 96% and 92.5% in two and three output class cases, respectively. CONCLUSION: We believe that this study could be used as an initial screening, which can help healthcare professionals to treat the COVID patients by timely detecting better and screening the presence of disease. IMPLICATION FOR PRACTICE: Its simplicity drives the proposed deep neural network model, the capability to work on small image dataset, the non-contact method with acceptable accuracy is a potential alternative for rapid COVID-19 testing that can be adapted by the medical fraternity considering the criticality of the time along with the magnitudes of the outbreak.
+33223418	23	31	COVID-19	Disease	MESH:D000086382
+33223418	116	134	infectious disease	Disease	MESH:D003141
+33223418	164	175	coronavirus	Species	694013
+33223418	183	194	SARS n-CoV2	Disease	MESH:D045169
+33223418	363	368	death	Disease	MESH:D003643
+33223418	651	659	infected	Disease	MESH:D007239
+33223418	686	697	SARS n-CoV2	Species	
+33223418	1243	1251	infected	Disease	MESH:D007239
+33223418	1483	1491	COVID-19	Disease	MESH:D000086382
+33223418	1509	1528	bacterial pneumonia	Disease	MESH:D018410
+33223418	1552	1561	infection	Disease	MESH:D007239
+33223418	1889	1897	COVID-19	Disease	MESH:D000086382
+33223418	2147	2152	COVID	Disease	MESH:D000086382
+33223418	2153	2161	patients	Species	9606
+33223418	2448	2456	COVID-19	Disease	MESH:D000086382
+

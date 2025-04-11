@@ -1,0 +1,13 @@
+26958184|t|POETenceph - Automatic identification of clinical notes indicating encephalopathy using a realist ontology.
+26958184|a|Identifying inpatients with encephalopathy is important. The disorder is prevalent, often missed, and puts patients at risk. We describe POETenceph, natural language processing pipeline, which ranks clinical notes on the extent to which they indicate the patient had encephalopathy. We use a realist ontology of the entities and relationships indicative of encephalopathy in clinical notes. POETenceph includes a passage rank algorithm, which takes identified disorders; matches them to the ontology; calculates the diffuseness, centrality, and length of the matched entry; adds the scores; and returns the ranked documents. We evaluate it against a corpus of clinical documents annotated for evidence of delirium. Higher POETenceph are associated with increasing numbers of reviewer annotations. Detailed examination found that 65% of the bottom scoring documents contained little or no evidence and 70% of the top contained good evidence. POETenceph can effectively rank clinical documents for their evidence of encephalopathy as characterized by delirium.
+26958184	67	81	encephalopathy	Disease	MESH:D001927
+26958184	120	130	inpatients	Species	9606
+26958184	136	150	encephalopathy	Disease	MESH:D001927
+26958184	215	223	patients	Species	9606
+26958184	363	370	patient	Species	9606
+26958184	375	389	encephalopathy	Disease	MESH:D001927
+26958184	465	479	encephalopathy	Disease	MESH:D001927
+26958184	813	821	delirium	Disease	MESH:D003693
+26958184	1122	1136	encephalopathy	Disease	MESH:D001927
+26958184	1157	1165	delirium	Disease	MESH:D003693
+

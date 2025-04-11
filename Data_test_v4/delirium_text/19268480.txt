@@ -1,0 +1,52 @@
+19268480|t|Erythropoietin protects PC12 cells from beta-amyloid(25-35)-induced apoptosis via PI3K/Akt signaling pathway.
+19268480|a|Although the etiology of Alzheimer's disease (AD) is not fully understood, multiple lines of evidence suggests the importance of amyloid-beta (Abeta) in the initiation/progression of the disease. In this study, we investigated protective effects of erythropoietin (EPO) on Abeta(25-35)-induced cell death in cultured rat pheochromocytoma cells (PC12 cells). EPO (2U/ml) in combination with Abeta(25-35) increased the cell viability and reduced the number of apoptotic cells by MTT assay, Trypan blue dye exclusion method, TUNEL staining and Hoechst 33342 staining. In mechanistic study, EPO induced time-dependent phosphorylation of phosphatidylinositol 3-kinase (PI3K) substrate Akt. Treatment of PC12 cells with PI3K inhibitors LY294002 abolished the protective effects of EPO. EPO also induced the phosphorylation of glycogen synthase kinase-3beta (GSK-3beta), a downstream target of PI3K/Akt, and GSK-3beta inhibitors lithium chloride blocked Abeta(25-35)-induced cell apoptosis in a manner similar to EPO, suggesting that GSK-3beta inhibition is involved in EPO-mediated cytoprotection. Moreover, the expression of anti-apoptotic protein Bcl-2 was increased by EPO involving PI3K/Akt pathway. These studies demonstrate that EPO is an effective neuroprotective agent and is a viable candidate for treating AD.
+19268480	0	14	Erythropoietin	Gene	24335
+19268480	24	28	PC12	CellLine	CVCL:0481
+19268480	87	90	Akt	Gene	24185
+19268480	135	154	Alzheimer's disease	Disease	MESH:D000544
+19268480	156	158	AD	Disease	MESH:D000544
+19268480	253	258	Abeta	Gene	54226
+19268480	359	373	erythropoietin	Gene	24335
+19268480	375	378	EPO	Gene	24335
+19268480	383	395	Abeta(25-35)	Gene	54226
+19268480	427	430	rat	Species	10116
+19268480	455	459	PC12	CellLine	CVCL:0481
+19268480	468	471	EPO	Gene	24335
+19268480	500	512	Abeta(25-35)	Gene	54226
+19268480	587	590	MTT	Chemical	MESH:C070243
+19268480	598	609	Trypan blue	Chemical	MESH:D014343
+19268480	651	664	Hoechst 33342	Chemical	MESH:C017807
+19268480	697	700	EPO	Gene	24335
+19268480	743	772	phosphatidylinositol 3-kinase	Gene	85243
+19268480	790	793	Akt	Gene	24185
+19268480	808	812	PC12	CellLine	CVCL:0481
+19268480	840	848	LY294002	Chemical	MESH:C085911
+19268480	885	888	EPO	Gene	24335
+19268480	890	893	EPO	Gene	24335
+19268480	930	960	glycogen synthase kinase-3beta	Gene	84027
+19268480	962	971	GSK-3beta	Gene	84027
+19268480	1002	1005	Akt	Gene	24185
+19268480	1011	1020	GSK-3beta	Gene	84027
+19268480	1032	1048	lithium chloride	Chemical	MESH:D018021
+19268480	1057	1069	Abeta(25-35)	Gene	54226
+19268480	1116	1119	EPO	Gene	24335
+19268480	1137	1146	GSK-3beta	Gene	84027
+19268480	1173	1176	EPO	Gene	24335
+19268480	1253	1258	Bcl-2	Gene	24224
+19268480	1276	1279	EPO	Gene	24335
+19268480	1295	1298	Akt	Gene	24185
+19268480	1339	1342	EPO	Gene	24335
+19268480	1420	1422	AD	Disease	MESH:D000544
+19268480	Positive_Correlation	24335	84027
+19268480	Negative_Correlation	24335	54226
+19268480	Negative_Correlation	MESH:D018021	84027
+19268480	Negative_Correlation	MESH:D018021	54226
+19268480	Positive_Correlation	24185	24224
+19268480	Positive_Correlation	24335	85243
+19268480	Association	24185	84027
+19268480	Association	MESH:D000544	24335
+19268480	Association	24185	85243
+19268480	Positive_Correlation	24224	24335
+19268480	Association	24185	24335
+19268480	Association	MESH:C085911	24335
+

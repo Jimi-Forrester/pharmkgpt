@@ -1,0 +1,37 @@
+21572505|t|Extending the tissue microarray data exchange specification for inclusion of data analysis results.
+21572505|a|BACKGROUND: The Tissue Microarray Data Exchange Specification (TMA DES) is an eXtensible Markup Language (XML) specification for encoding TMA experiment data in a machine-readable format that is also human readable. TMA DES defines Common Data Elements (CDEs) that form a basic vocabulary for describing TMA data. TMA data are routinely subjected to univariate and multivariate statistical analysis to determine differences or similarities between pathologically distinct groups of tumors for one or more markers or between markers for different groups. Such statistical analysis tests include the t-test, ANOVA, Chi-square, Mann-Whitney U, and Kruskal-Wallis tests. All these generate output that needs to be recorded and stored with TMA data. MATERIALS AND METHODS: We propose extending the TMA DES to include syntactic and semantic definitions of CDEs for describing the results of statistical analyses performed upon TMA DES data. These CDEs are described in this paper and it is illustrated how they can be added to the TMA DES. We created a Document Type Definition (DTD) file defining the syntax for these CDEs, and a set of ISO 11179 entries providing semantic definitions for them. We describe how we wrote a program in R that read TMA DES data from an XML file, performed statistical analyses on that data, and created a new XML file containing both the original XML data and CDEs representing the results of our analyses. This XML file was submitted to XML parsers in order to confirm that they conformed to the syntax defined in our extended DTD file. TMA DES XML files with deliberately introduced errors were also parsed in order to verify that our new DTD file could perform error checking. Finally, we also validated an existing TMA DES XML file against our DTD file in order to demonstrate the backward compatibility of our DTD. RESULTS: Our experiments demonstrated the encoding of analysis results using our proposed CDEs. We used XML parsers to confirm that these XML data were syntactically correct and conformed to the rules specified in our extended TMA DES DTD. We also demonstrated that this extended DTD was capable of being used to successfully perform error checking, and was backward compatible with pre-existing TMA DES data which did not use our new CDEs. CONCLUSIONS: The TMA DES allows Tissue Microarray data to be shared. A variety of statistical tests are used to analyze such data. We have proposed a set of CDEs as an extension to the TMA DES which can be used to annotate TMA DES data with the results of statistical analyses performed on that data. We performed experiments which demonstrated the usage of TMA DES data containing our proposed CDEs.
+21572505	163	166	TMA	Disease	
+21572505	167	170	DES	Chemical	MESH:D004054
+21572505	238	241	TMA	Disease	
+21572505	300	305	human	Species	9606
+21572505	316	319	TMA	Disease	
+21572505	320	323	DES	Chemical	MESH:D004054
+21572505	404	407	TMA	Disease	
+21572505	414	417	TMA	Disease	
+21572505	582	588	tumors	Disease	MESH:D009369
+21572505	835	838	TMA	Disease	
+21572505	893	896	TMA	Disease	
+21572505	897	900	DES	Chemical	MESH:D004054
+21572505	1021	1024	TMA	Disease	
+21572505	1025	1028	DES	Chemical	MESH:D004054
+21572505	1125	1128	TMA	Chemical	MESH:C071868
+21572505	1129	1132	DES	Chemical	MESH:D004054
+21572505	1341	1344	TMA	Disease	
+21572505	1345	1348	DES	Chemical	MESH:D004054
+21572505	1664	1667	TMA	Disease	
+21572505	1668	1671	DES	Chemical	MESH:D004054
+21572505	1845	1848	TMA	Disease	
+21572505	1849	1852	DES	Chemical	MESH:D004054
+21572505	2173	2176	TMA	Disease	
+21572505	2177	2180	DES	Chemical	MESH:D004054
+21572505	2342	2345	TMA	Disease	
+21572505	2346	2349	DES	Chemical	MESH:D004054
+21572505	2404	2407	TMA	Disease	
+21572505	2408	2411	DES	Chemical	MESH:D004054
+21572505	2572	2575	TMA	Disease	
+21572505	2576	2579	DES	Chemical	MESH:D004054
+21572505	2610	2613	TMA	Disease	
+21572505	2614	2617	DES	Chemical	MESH:D004054
+21572505	2745	2748	TMA	Chemical	MESH:C071868
+21572505	2749	2752	DES	Chemical	MESH:D004054
+

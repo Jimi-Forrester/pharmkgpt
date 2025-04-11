@@ -1,0 +1,77 @@
+31454149|t|DYRK1A inhibition suppresses STAT3/EGFR/Met signalling and sensitizes EGFR wild-type NSCLC cells to AZD9291.
+31454149|a|DYRK1A is considered a potential cancer therapeutic target, but the role of DYRK1A in NSCLC oncogenesis and treatment requires further investigation. In our study, high DYRK1A expression was observed in tumour samples from patients with lung cancer compared with normal lung tissues, and the high levels of DYRK1A were related to a reduced survival time in patients with lung cancer. Meanwhile, the DYRK1A inhibitor harmine could suppress the proliferation of NSCLC cells compared to that of the control. As DYRK1A suppression might be effective in treating NSCLC, we next explored the possible specific molecular mechanisms that were involved. We showed that DYRK1A suppression by siRNA could suppress the levels of EGFR and Met in NSCLC cells. Furthermore, DYRK1A siRNA could inhibit the expression and nuclear translocation of STAT3. Meanwhile, harmine could also regulate the STAT3/EGFR/Met signalling pathway in human NSCLC cells. AZD9291 is effective to treat NSCLC patients with EGFR-sensitivity mutation and T790 M resistance mutation, but the clinical efficacy in patients with wild-type EGFR remains modest. We showed that DYRK1A repression could enhance the anti-cancer effect of AZD9291 by inducing apoptosis and suppressing cell proliferation in EGFR wild-type NSCLC cells. In addition, harmine could enhance the anti-NSCLC activity of AZD9291 by modulating STAT3 pathway. Finally, harmine could enhance the anti-cancer activity of AZD9291 in primary NSCLC cells. Collectively, targeting DYRK1A might be an attractive target for AZD9291 sensitization in EGFR wild-type NSCLC patients.
+31454149	0	6	DYRK1A	Gene	1859
+31454149	29	34	STAT3	Gene	6774
+31454149	35	39	EGFR	Gene	1956
+31454149	40	43	Met	Gene	79811
+31454149	70	74	EGFR	Gene	1956
+31454149	85	90	NSCLC	Disease	
+31454149	100	107	AZD9291	Chemical	MESH:C000596361
+31454149	109	115	DYRK1A	Gene	1859
+31454149	142	148	cancer	Disease	MESH:D009369
+31454149	185	191	DYRK1A	Gene	1859
+31454149	195	200	NSCLC	Disease	
+31454149	278	284	DYRK1A	Gene	1859
+31454149	312	318	tumour	Disease	MESH:D009369
+31454149	332	340	patients	Species	9606
+31454149	346	357	lung cancer	Disease	MESH:D008175
+31454149	416	422	DYRK1A	Gene	1859
+31454149	466	474	patients	Species	9606
+31454149	480	491	lung cancer	Disease	MESH:D008175
+31454149	508	514	DYRK1A	Gene	1859
+31454149	525	532	harmine	Chemical	MESH:D006247
+31454149	569	574	NSCLC	Disease	
+31454149	617	623	DYRK1A	Gene	1859
+31454149	667	672	NSCLC	Disease	
+31454149	769	775	DYRK1A	Gene	1859
+31454149	826	830	EGFR	Gene	1956
+31454149	835	838	Met	Gene	79811
+31454149	842	847	NSCLC	Disease	
+31454149	868	874	DYRK1A	Gene	1859
+31454149	939	944	STAT3	Gene	6774
+31454149	957	964	harmine	Chemical	MESH:D006247
+31454149	989	994	STAT3	Gene	6774
+31454149	995	999	EGFR	Gene	1956
+31454149	1000	1003	Met	Gene	79811
+31454149	1026	1031	human	Species	9606
+31454149	1032	1037	NSCLC	Disease	
+31454149	1045	1052	AZD9291	Chemical	MESH:C000596361
+31454149	1075	1080	NSCLC	Disease	
+31454149	1081	1089	patients	Species	9606
+31454149	1095	1099	EGFR	Gene	1956
+31454149	1125	1131	T790 M	ProteinMutation	tmVar:p|SUB|T|790|M;HGVS:p.T790M;VariantGroup:0;CorrespondingGene:1956;RS#:121434569;CorrespondingSpecies:9606;CA#:90928
+31454149	1182	1190	patients	Species	9606
+31454149	1206	1210	EGFR	Gene	1956
+31454149	1242	1248	DYRK1A	Gene	1859
+31454149	1283	1289	cancer	Disease	MESH:D009369
+31454149	1300	1307	AZD9291	Chemical	MESH:C000596361
+31454149	1368	1372	EGFR	Gene	1956
+31454149	1383	1388	NSCLC	Disease	
+31454149	1409	1416	harmine	Chemical	MESH:D006247
+31454149	1440	1445	NSCLC	Disease	
+31454149	1458	1465	AZD9291	Chemical	MESH:C000596361
+31454149	1480	1485	STAT3	Gene	6774
+31454149	1504	1511	harmine	Chemical	MESH:D006247
+31454149	1535	1541	cancer	Disease	MESH:D009369
+31454149	1554	1561	AZD9291	Chemical	MESH:C000596361
+31454149	1573	1578	NSCLC	Disease	
+31454149	1610	1616	DYRK1A	Gene	1859
+31454149	1651	1658	AZD9291	Chemical	MESH:C000596361
+31454149	1676	1680	EGFR	Gene	1956
+31454149	1691	1696	NSCLC	Disease	
+31454149	1697	1705	patients	Species	9606
+31454149	Negative_Correlation	MESH:C000596361	RS#:121434569;HGVS:p.T790M;CorrespondingGene:1956
+31454149	Association	MESH:D006247	79811
+31454149	Association	MESH:D009369	1859
+31454149	Association	MESH:C000596361	6774
+31454149	Positive_Correlation	1859	6774
+31454149	Association	MESH:D006247	6774
+31454149	Negative_Correlation	MESH:D006247	1859
+31454149	Negative_Correlation	MESH:C000596361	MESH:D009369
+31454149	Association	MESH:D008175	1859
+31454149	Positive_Correlation	MESH:C000596361	MESH:D006247
+31454149	Negative_Correlation	1859	1956
+31454149	Negative_Correlation	1859	79811
+31454149	Association	MESH:D006247	1956
+31454149	Association	MESH:C000596361	1859
+

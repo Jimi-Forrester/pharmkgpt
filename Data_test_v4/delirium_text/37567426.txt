@@ -1,0 +1,48 @@
+37567426|t|Study on the neuroprotective effect of Zhimu-Huangbo extract on mitochondrial dysfunction in HT22 cells induced by D-galactose by promoting mitochondrial autophagy.
+37567426|a|ETHNOPHARMACOLOGICAL RELEVANCE: Zhimu-Huangbo (ZB) herb pair is a common prescription drug used by physicians of all dynasties, and has significant neuroprotective effect, such as the ZB can significantly promote neuronal cell regeneration, repair neuronal damage, and improve cognitive disorders. However, its ingredients are urgently needed to be identified and mechanisms is remained unclear. AIM OF THE STUDY: Using ultra performance liquid chromatography-quadrupole-time of flight-mass spectrometry (UPLC-Q-TOF-MS), the study of neuroprotective mechanism of Zhimu-Huangbo extract (ZBE) is investigated, and the network pharmacology technology and experimental validation is also performed. MATERIAL AND METHODS: Firstly, UPLC-Q-TOF-MS technology was used to characterize the chemical components contained in the ZBE. After that, the TCMSP database and the Swiss Target Prediction method were used to search for potential target genes for ZBE compounds. At the same time, the OMIM and GeneCards disease databases were used to search for Alzheimer's disease (AD) targets and expanded with the GEO database. Then, GO and KEGG enrichment analysis was performed using OECloud tools. Subsequently, the potential mechanism of ZBE therapeutic AD predicted by network pharmacological analysis was experimentally studied and verified in vitro. RESULTS: In the UPLC-Q-TOF-MS analysis of the ZBE, a total of 39 compounds were characterized including Neomangiferin, Oxyberberine, Timosaponin D, Berberine, Timosaponin A-III, Anemarsaponin E, Timosaponin A-I, Smilagenin and so on. A total of 831 potential targets and 13995 AD-related target genes were screened. A further analysis revealed the number of common targets between ZBE and AD is 698. Through GO and KEGG enrichment analysis, we found that ZBE's anti-AD targets were significantly enriched in autophagy and mitochondrial autophagy related pathways. The results of cell experiments also confirmed that ZBE can promote mitochondrial autophagy induced by D-galactose (D-gal) HT22 cells through the PTEN-induced kinase 1/Parkin (PINK1/Parkin) pathway. CONCLUSION: ZBE can promote autophagy of mitochondria and play a protective role on damaged neurons.
+37567426	39	60	Zhimu-Huangbo extract	Chemical	-
+37567426	64	89	mitochondrial dysfunction	Disease	MESH:D028361
+37567426	93	97	HT22	CellLine	CVCL:0321
+37567426	115	126	D-galactose	Chemical	MESH:D005690
+37567426	197	210	Zhimu-Huangbo	Chemical	-
+37567426	212	214	ZB	Chemical	-
+37567426	349	351	ZB	Chemical	-
+37567426	413	428	neuronal damage	Disease	MESH:D009410
+37567426	442	461	cognitive disorders	Disease	MESH:D003072
+37567426	728	749	Zhimu-Huangbo extract	Chemical	-
+37567426	751	754	ZBE	Chemical	-
+37567426	982	985	ZBE	Chemical	-
+37567426	1108	1111	ZBE	Chemical	-
+37567426	1145	1149	OMIM	Disease	
+37567426	1206	1225	Alzheimer's disease	Disease	MESH:D000544
+37567426	1227	1229	AD	Disease	MESH:D000544
+37567426	1389	1392	ZBE	Chemical	-
+37567426	1405	1407	AD	Disease	MESH:D000544
+37567426	1550	1553	ZBE	Chemical	-
+37567426	1608	1621	Neomangiferin	Chemical	MESH:C442164
+37567426	1623	1635	Oxyberberine	Chemical	MESH:C103789
+37567426	1637	1650	Timosaponin D	Chemical	MESH:C553915
+37567426	1652	1661	Berberine	Chemical	MESH:D001599
+37567426	1663	1680	Timosaponin A-III	Chemical	-
+37567426	1682	1697	Anemarsaponin E	Chemical	-
+37567426	1699	1714	Timosaponin A-I	Chemical	-
+37567426	1716	1726	Smilagenin	Chemical	MESH:C046297
+37567426	1781	1783	AD	Disease	MESH:D000544
+37567426	1885	1888	ZBE	Chemical	-
+37567426	1893	1895	AD	Disease	MESH:D000544
+37567426	1959	1962	ZBE	Chemical	-
+37567426	1970	1972	AD	Disease	MESH:D000544
+37567426	2120	2123	ZBE	Chemical	-
+37567426	2171	2182	D-galactose	Chemical	MESH:D005690
+37567426	2184	2189	D-gal	Chemical	MESH:D005690
+37567426	2191	2195	HT22	CellLine	CVCL:0321
+37567426	2244	2249	PINK1	Gene	68943
+37567426	2279	2282	ZBE	Chemical	-
+37567426	Negative_Correlation	MESH:C046297	MESH:D000544
+37567426	Association	MESH:D000544	68943
+37567426	Negative_Correlation	MESH:D001599	MESH:D000544
+37567426	Positive_Correlation	MESH:D005690	MESH:D028361
+37567426	Association	MESH:C103789	MESH:D000544
+37567426	Negative_Correlation	MESH:C442164	MESH:D000544
+37567426	Negative_Correlation	MESH:C553915	MESH:D000544
+

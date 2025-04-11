@@ -1,0 +1,60 @@
+36994393|t|Shared peripheral blood biomarkers for Alzheimer's disease, major depressive disorder, and type 2 diabetes and cognitive risk factor analysis.
+36994393|a|Background: Alzheimer's disease (AD), type 2 diabetes mellitus (T2DM), and Major Depressive Disorder (MDD) have a higher incidence rate in modern society. Although increasing evidence supports close associations between the three, the mechanisms underlying their interrelationships remain elucidated. Objective: The primary purpose is to explore the shared pathogenesis and the potential peripheral blood biomarkers for AD, MDD, and T2DM. Methods: We downloaded the microarray data of AD, MDD, and T2DM from the Gene Expression Omnibus database and constructed co-expression networks by Weighted Gene Co-Expression Network Analysis to identify differentially expressed genes. We took the intersection of differentially expressed genes to obtain co-DEGs. Then, we performed GO and KEGG enrichment analysis on the common genes in the AD, MDD, and T2DM-related modules. Next, we utilized the STRING database to find the hub genes in the protein-protein interaction network. ROC curves were constructed for co-DEGs to obtain the most diagnostic valuable genes and to make drug predictions against the target genes. Finally, we conducted a present condition survey to verify the correlation between T2DM, MDD and AD. Results: Our findings indicated 127 diff co-DEGs, 19 upregulated co-DEGs, and 25 down-regulated co-DEGs. Functional enrichment analysis showed co-DEGs were mainly enriched in signaling pathways such as metabolic diseases and some neurodegeneration. Protein-protein interaction network construction identified hub genes in AD, MDD and T2DM shared genes. We identified seven hub genes of co-DEGs, namely, SMC4, CDC27, HNF1A, RHOD, CUX1, PDLIM5, and TTR. The current survey results suggest a correlation between T2DM, MDD and dementia. Moreover, logistic regression analysis showed that T2DM and depression increased the risk of dementia. Conclusion: Our work identified common pathogenesis of AD, T2DM, and MDD. These shared pathways might provide novel ideas for further mechanistic studies and hub genes that may serve as novel therapeutic targets for diagnosing and treating.
+36994393	39	58	Alzheimer's disease	Disease	MESH:D000544
+36994393	60	85	major depressive disorder	Disease	MESH:D003865
+36994393	91	106	type 2 diabetes	Disease	MESH:D003924
+36994393	155	174	Alzheimer's disease	Disease	MESH:D000544
+36994393	176	178	AD	Disease	MESH:D000544
+36994393	181	205	type 2 diabetes mellitus	Disease	MESH:D003924
+36994393	207	211	T2DM	Disease	MESH:D003924
+36994393	218	243	Major Depressive Disorder	Disease	MESH:D003865
+36994393	245	248	MDD	Disease	MESH:D003865
+36994393	563	565	AD	Disease	MESH:D000544
+36994393	567	570	MDD	Disease	MESH:D003865
+36994393	576	580	T2DM	Disease	MESH:D003924
+36994393	628	630	AD	Disease	MESH:D000544
+36994393	632	635	MDD	Disease	MESH:D003865
+36994393	641	645	T2DM	Disease	MESH:D003924
+36994393	975	977	AD	Disease	MESH:D000544
+36994393	979	982	MDD	Disease	MESH:D003865
+36994393	988	992	T2DM	Disease	MESH:D003924
+36994393	1337	1341	T2DM	Disease	MESH:D003924
+36994393	1343	1346	MDD	Disease	MESH:D003865
+36994393	1351	1353	AD	Disease	MESH:D000544
+36994393	1557	1575	metabolic diseases	Disease	MESH:D008659
+36994393	1585	1602	neurodegeneration	Disease	MESH:D019636
+36994393	1677	1679	AD	Disease	MESH:D000544
+36994393	1681	1684	MDD	Disease	MESH:D003865
+36994393	1689	1693	T2DM	Disease	MESH:D003924
+36994393	1758	1762	SMC4	Gene	10051
+36994393	1764	1769	CDC27	Gene	996
+36994393	1771	1776	HNF1A	Gene	6927
+36994393	1778	1782	RHOD	Gene	29984
+36994393	1784	1788	CUX1	Gene	1523
+36994393	1790	1796	PDLIM5	Gene	10611
+36994393	1802	1805	TTR	Gene	7276
+36994393	1864	1868	T2DM	Disease	MESH:D003924
+36994393	1870	1873	MDD	Disease	MESH:D003865
+36994393	1878	1886	dementia	Disease	MESH:D003704
+36994393	1939	1943	T2DM	Disease	MESH:D003924
+36994393	1948	1958	depression	Disease	MESH:D003866
+36994393	1981	1989	dementia	Disease	MESH:D003704
+36994393	2046	2048	AD	Disease	MESH:D000544
+36994393	2050	2054	T2DM	Disease	MESH:D003924
+36994393	2060	2063	MDD	Disease	MESH:D003865
+36994393	Association	MESH:D003865	10051
+36994393	Association	MESH:D003924	10611
+36994393	Association	MESH:D003924	10051
+36994393	Association	MESH:D003924	996
+36994393	Association	MESH:D000544	1523
+36994393	Association	MESH:D003865	10611
+36994393	Association	MESH:D003865	996
+36994393	Association	MESH:D003865	7276
+36994393	Association	MESH:D003865	1523
+36994393	Association	MESH:D003924	6927
+36994393	Association	MESH:D003865	6927
+36994393	Association	MESH:D003924	7276
+36994393	Association	MESH:D003924	29984
+36994393	Association	MESH:D003924	1523
+36994393	Association	MESH:D000544	7276
+

@@ -1,0 +1,17 @@
+29513742|t|Predicting urinary tract infections in the emergency department with machine learning.
+29513742|a|BACKGROUND: Urinary tract infection (UTI) is a common emergency department (ED) diagnosis with reported high diagnostic error rates. Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment. Previous research has demonstrated inadequate diagnostic performance for both individual laboratory tests and prediction tools. OBJECTIVE: Our aim, was to train, validate, and compare machine-learning based predictive models for UTI in a large diverse set of ED patients. METHODS: Single-center, multi-site, retrospective cohort analysis of 80,387 adult ED visits with urine culture results and UTI symptoms. We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings. Models were developed with both the full set of 211 variables and a reduced set of 10 variables. UTI predictions were compared between models and to proxies of provider judgment (documentation of UTI diagnosis and antibiotic administration). RESULTS: The machine learning models had an area under the curve ranging from 0.826-0.904, with extreme gradient boosting (XGBoost) the top performing algorithm for both full and reduced models. The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9). In the admission and discharge cohorts using the full XGboost model, approximately 1 in 4 patients (4109/15855) would be re-categorized from a false positive to a true negative and approximately 1 in 11 patients (1372/15855) would be re-categorized from a false negative to a true positive. CONCLUSION: The best performing machine learning algorithm, XGBoost, accurately diagnosed positive urine culture results, and outperformed previously developed models in the literature and several proxies for provider judgment. Future prospective validation is warranted.
+29513742	11	35	urinary tract infections	Disease	MESH:D014552
+29513742	99	122	Urinary tract infection	Disease	MESH:D014552
+29513742	124	127	UTI	Disease	MESH:D014552
+29513742	288	291	UTI	Disease	MESH:D014552
+29513742	774	777	UTI	Disease	MESH:D014552
+29513742	807	815	patients	Species	9606
+29513742	940	943	UTI	Disease	MESH:D014552
+29513742	978	981	UTI	Disease	MESH:D014552
+29513742	1292	1295	UTI	Disease	MESH:D014552
+29513742	1391	1394	UTI	Disease	MESH:D014552
+29513742	1758	1761	UTI	Disease	MESH:D014552
+29513742	1952	1955	UTI	Disease	MESH:D014552
+29513742	2127	2135	patients	Species	9606
+29513742	2240	2248	patients	Species	9606
+

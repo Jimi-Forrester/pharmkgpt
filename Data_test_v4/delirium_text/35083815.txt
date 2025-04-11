@@ -1,0 +1,14 @@
+35083815|t|Automatic deep learning multicontrast corpus callosum segmentation in multiple sclerosis.
+35083815|a|BACKGROUND AND PURPOSE: Corpus callosum (CC) atrophy is predictive of future disability in multiple sclerosis (MS). However, current segmentation methods are either labor- or computationally intensive. We therefore developed an automated deep learning-based CC segmentation tool and hypothesized that its output would correlate with disability. METHODS: A cohort of 631 MS patients (449 females, baseline age 41 +- 11 years) with both 3-dimensional T1-weighted and T2-weighted fluid-attenuated inversion recovery (FLAIR) MRI was used for the development. Data from 204 patients were manually segmented to train convolutional neural networks in extracting the midsagittal intracranial and CC areas. Remaining data were used to compare segmentations with FreeSurfer and benchmark the outputs with regard to clinical correlations. A 1.5 and 3 Tesla reproducibility cohort of 9 MS patients evaluated the segmentation robustness. RESULTS: The deep learning-based tool was accurate in selecting the appropriate slice for segmentation (98% accuracy within 3 mm of the manual ground truth) and segmenting the CC (Dice coefficient .88-.91) and intracranial areas (.97-.98). The accuracy was lower with higher atrophy. Reproducibility was excellent (intraclass correlation coefficient > .90) for T1-weighted scans and moderate-good for FLAIR (.74-.75). Segmentations were associated with baseline and future (average follow-up time 6-7 years) Expanded Disability Status Scale (rho = -.13 to -.24) and Symbol Digit Modalities Test (r = .18-.29) scores. CONCLUSIONS: We present a fully automatic deep learning-based CC segmentation tool optimized to modern imaging in MS with clinical correlations on par with computationally expensive alternatives.
+35083815	70	88	multiple sclerosis	Disease	MESH:D009103
+35083815	114	142	Corpus callosum (CC) atrophy	Disease	MESH:D061085
+35083815	181	199	multiple sclerosis	Disease	MESH:D009103
+35083815	201	203	MS	Disease	MESH:D009103
+35083815	460	462	MS	Disease	MESH:D009103
+35083815	463	471	patients	Species	9606
+35083815	659	667	patients	Species	9606
+35083815	964	966	MS	Disease	MESH:D009103
+35083815	967	975	patients	Species	9606
+35083815	1290	1297	atrophy	Disease	MESH:D001284
+35083815	1746	1748	MS	Disease	MESH:D009103
+

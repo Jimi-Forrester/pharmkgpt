@@ -1,0 +1,33 @@
+37187578|t|Identification and validation of biomarkers based on cellular senescence in mild cognitive impairment.
+37187578|a|Background: Mild cognitive impairment (MCI), a syndrome defined as decline of cognitive function greater than expected for an individual's age and education level, occurs in up to 22.7% of elderly patients in United States, causing the heavy psychological and economic burdens to families and society. Cellular senescence (CS) is a stress response that accompanies permanent cell-cycle arrest, which has been reported to be a fundamental pathological mechanism of many age-related diseases. This study aims to explore biomarkers and potential therapeutic targets in MCI based on CS. Methods: The mRNA expression profiles of peripheral blood samples from patients in MCI and non-MCI group were download from gene expression omnibus (GEO) database (GSE63060 for training and GSE18309 for external validation), CS-related genes were obtained from CellAge database. Weighted gene co-expression network analysis (WGCNA) was conducted to discover the key relationships behind the co-expression modules. The differentially expressed CS-related genes would be obtained through overlapping among the above datasets. Then, pathway and GO enrichment analyses were performed to further elucidate the mechanism of MCI. The protein-protein interaction network was used to extract hub genes and the logistic regression was performed to distinguish the MCI patients from controls. The hub gene-drug network, hub gene-miRNA network as well as transcription factor-gene regulatory network were used to analyze potential therapeutic targets for MCI. Results: Eight CS-related genes were identified as key gene signatures in MCI group, which were mainly enriched in the regulation of response to DNA damage stimulus, Sin3 complex and transcription corepressor activity. The receiver operating characteristic curves of logistic regression diagnostic model were constructed and presented great diagnostic value in both training and validation set. Conclusion: Eight CS-related hub genes - SMARCA4, GAPDH, SMARCB1, RUNX1, SRC, TRIM28, TXN, and PRPF19 - serve as candidate biomarkers for MCI and display the excellent diagnostic value. Furthermore, we also provide a theoretical basis for targeted therapy against MCI through the above hub genes.
+37187578	76	101	mild cognitive impairment	Disease	MESH:D060825
+37187578	115	140	Mild cognitive impairment	Disease	MESH:D060825
+37187578	142	145	MCI	Disease	MESH:D060825
+37187578	170	199	decline of cognitive function	Disease	MESH:D003072
+37187578	300	308	patients	Species	9606
+37187578	572	592	age-related diseases	Disease	MESH:D010024
+37187578	669	672	MCI	Disease	MESH:D060825
+37187578	757	765	patients	Species	9606
+37187578	769	772	MCI	Disease	MESH:D060825
+37187578	781	784	MCI	Disease	MESH:D060825
+37187578	1304	1307	MCI	Disease	MESH:D060825
+37187578	1440	1443	MCI	Disease	MESH:D060825
+37187578	1444	1452	patients	Species	9606
+37187578	1629	1632	MCI	Disease	MESH:D060825
+37187578	1708	1711	MCI	Disease	MESH:D060825
+37187578	2070	2077	SMARCA4	Gene	6597
+37187578	2079	2084	GAPDH	Gene	2597
+37187578	2086	2093	SMARCB1	Gene	6598
+37187578	2095	2100	RUNX1	Gene	861
+37187578	2102	2105	SRC	Gene	6714
+37187578	2107	2113	TRIM28	Gene	10155
+37187578	2115	2118	TXN	Gene	7295
+37187578	2124	2130	PRPF19	Gene	27339
+37187578	2167	2170	MCI	Disease	MESH:D060825
+37187578	2293	2296	MCI	Disease	MESH:D060825
+37187578	Association	MESH:D060825	6597
+37187578	Association	MESH:D060825	6598
+37187578	Association	MESH:D060825	27339
+37187578	Association	MESH:D060825	861
+37187578	Association	MESH:D060825	10155
+

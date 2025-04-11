@@ -1,0 +1,17 @@
+29643160|t|Using machine learning techniques to develop forecasting algorithms for postoperative complications: protocol for a retrospective study.
+29643160|a|INTRODUCTION: Mortality and morbidity following surgery are pressing public health concerns in the USA. Traditional prediction models for postoperative adverse outcomes demonstrate good discrimination at the population level, but the ability to forecast an individual patient's trajectory in real time remains poor. We propose to apply machine learning techniques to perioperative time-series data to develop algorithms for predicting adverse perioperative outcomes. METHODS AND ANALYSIS: This study will include all adult patients who had surgery at our tertiary care hospital over a 4-year period. Patient history, laboratory values, minute-by-minute intraoperative vital signs and medications administered will be extracted from the electronic medical record. Outcomes will include in-hospital mortality, postoperative acute kidney injury and postoperative respiratory failure. Forecasting algorithms for each of these outcomes will be constructed using density-based logistic regression after employing a Nadaraya-Watson kernel density estimator. Time-series variables will be analysed using first and second-order feature extraction, shapelet methods and convolutional neural networks. The algorithms will be validated through measurement of precision and recall. ETHICS AND DISSEMINATION: This study has been approved by the Human Research Protection Office at Washington University in St Louis. The successful development of these forecasting algorithms will allow perioperative healthcare clinicians to predict more accurately an individual patient's risk for specific adverse perioperative outcomes in real time. Knowledge of a patient's dynamic risk profile may allow clinicians to make targeted changes in the care plan that will alter the patient's outcome trajectory. This hypothesis will be tested in a future randomised controlled trial.
+29643160	72	99	postoperative complications	Disease	MESH:D011183
+29643160	275	288	postoperative	Disease	MESH:D019106
+29643160	405	412	patient	Species	9606
+29643160	660	668	patients	Species	9606
+29643160	737	744	Patient	Species	9606
+29643160	945	958	postoperative	Disease	MESH:D019106
+29643160	959	978	acute kidney injury	Disease	MESH:D058186
+29643160	983	996	postoperative	Disease	MESH:D019106
+29643160	997	1016	respiratory failure	Disease	MESH:D012131
+29643160	1406	1430	ETHICS AND DISSEMINATION	Disease	MESH:D009103
+29643160	1468	1473	Human	Species	9606
+29643160	1686	1693	patient	Species	9606
+29643160	1774	1781	patient	Species	9606
+29643160	1888	1895	patient	Species	9606
+

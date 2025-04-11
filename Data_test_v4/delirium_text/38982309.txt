@@ -1,0 +1,14 @@
+38982309|t|Predicting blood-brain barrier permeability of molecules with a large language model and machine learning.
+38982309|a|Predicting the blood-brain barrier (BBB) permeability of small-molecule compounds using a novel artificial intelligence platform is necessary for drug discovery. Machine learning and a large language model on artificial intelligence (AI) tools improve the accuracy and shorten the time for new drug development. The primary goal of this research is to develop artificial intelligence (AI) computing models and novel deep learning architectures capable of predicting whether molecules can permeate the human blood-brain barrier (BBB). The in silico (computational) and in vitro (experimental) results were validated by the Natural Products Research Laboratories (NPRL) at China Medical University Hospital (CMUH). The transformer-based MegaMolBART was used as the simplified molecular input line entry system (SMILES) encoder with an XGBoost classifier as an in silico method to check if a molecule could cross through the BBB. We used Morgan or Circular fingerprints to apply the Morgan algorithm to a set of atomic invariants as a baseline encoder also with an XGBoost classifier to compare the results. BBB permeability was assessed in vitro using three-dimensional (3D) human BBB spheroids (human brain microvascular endothelial cells, brain vascular pericytes, and astrocytes). Using multiple BBB databases, the results of the final in silico transformer and XGBoost model achieved an area under the receiver operating characteristic curve of 0.88 on the held-out test dataset. Temozolomide (TMZ) and 21 randomly selected BBB permeable compounds (Pred scores = 1, indicating BBB-permeable) from the NPRL penetrated human BBB spheroid cells. No evidence suggests that ferulic acid or five BBB-impermeable compounds (Pred scores < 1.29423E-05, which designate compounds that pass through the human BBB) can pass through the spheroid cells of the BBB. Our validation of in vitro experiments indicated that the in silico prediction of small-molecule permeation in the BBB model is accurate. Transformer-based models like MegaMolBART, leveraging the SMILES representations of molecules, show great promise for applications in new drug discovery. These models have the potential to accelerate the development of novel targeted treatments for disorders of the central nervous system.
+38982309	608	613	human	Species	9606
+38982309	1280	1285	human	Species	9606
+38982309	1301	1306	human	Species	9606
+38982309	1589	1601	Temozolomide	Chemical	MESH:D000077204
+38982309	1603	1606	TMZ	Chemical	MESH:D000077204
+38982309	1658	1662	Pred	Chemical	MESH:C036266
+38982309	1726	1731	human	Species	9606
+38982309	1778	1790	ferulic acid	Chemical	MESH:C004999
+38982309	1826	1830	Pred	Chemical	MESH:C036266
+38982309	1901	1906	human	Species	9606
+38982309	2347	2386	disorders of the central nervous system	Disease	MESH:D002493
+

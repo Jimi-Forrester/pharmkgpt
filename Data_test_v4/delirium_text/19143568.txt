@@ -1,0 +1,48 @@
+19143568|t|Crystal structure of the Homo sapiens kynureninase-3-hydroxyhippuric acid inhibitor complex: insights into the molecular basis of kynureninase substrate specificity.
+19143568|a|Homo sapiens kynureninase is a pyridoxal-5'-phosphate dependent enzyme that catalyzes the hydrolytic cleavage of 3-hydroxykynurenine to yield 3-hydroxyanthranilate and L-alanine as part of the tryptophan catabolic pathway leading to the de novo biosynthesis of NAD(+). This pathway results in quinolinate, an excitotoxin that is an NMDA receptor agonist. High levels of quinolinate have been correlated with the etiology of neurodegenerative disorders such as AIDS-related dementia and Alzheimer's disease. We have synthesized a novel kynureninase inhibitor, 3-hydroxyhippurate, cocrystallized it with human kynureninase, and solved the atomic structure. On the basis of an analysis of the complex, we designed a series of His-102, Ser-332, and Asn-333 mutants. The H102W/N333T and H102W/S332G/N333T mutants showed complete reversal of substrate specificity between 3-hydroxykynurenine and L-kynurenine, thus defining the primary residues contributing to substrate specificity in kynureninases.
+19143568	25	37	Homo sapiens	Species	9606
+19143568	38	50	kynureninase	Gene	8942
+19143568	51	73	3-hydroxyhippuric acid	Chemical	MESH:C535238
+19143568	130	142	kynureninase	Gene	8942
+19143568	166	178	Homo sapiens	Species	9606
+19143568	179	191	kynureninase	Gene	8942
+19143568	279	298	3-hydroxykynurenine	Chemical	MESH:C005045
+19143568	308	329	3-hydroxyanthranilate	Chemical	MESH:D015095
+19143568	334	343	L-alanine	Chemical	MESH:D000409
+19143568	359	369	tryptophan	Chemical	MESH:D014364
+19143568	427	433	NAD(+)	Chemical	MESH:D009243
+19143568	459	470	quinolinate	Chemical	MESH:D017378
+19143568	536	547	quinolinate	Chemical	MESH:D017378
+19143568	590	617	neurodegenerative disorders	Disease	MESH:D019636
+19143568	626	647	AIDS-related dementia	Disease	MESH:D015526
+19143568	652	671	Alzheimer's disease	Disease	MESH:D000544
+19143568	701	713	kynureninase	Gene	8942
+19143568	725	743	3-hydroxyhippurate	Chemical	-
+19143568	768	773	human	Species	9606
+19143568	774	786	kynureninase	Gene	8942
+19143568	932	937	H102W	ProteinMutation	tmVar:p|SUB|H|102|W;HGVS:p.H102W;VariantGroup:0;CorrespondingGene:8942;CorrespondingSpecies:9606
+19143568	938	943	N333T	ProteinMutation	tmVar:p|SUB|N|333|T;HGVS:p.N333T;VariantGroup:1;CorrespondingGene:8942;CorrespondingSpecies:9606
+19143568	948	953	H102W	ProteinMutation	tmVar:p|SUB|H|102|W;HGVS:p.H102W;VariantGroup:0;CorrespondingGene:8942;CorrespondingSpecies:9606
+19143568	954	959	S332G	ProteinMutation	tmVar:p|SUB|S|332|G;HGVS:p.S332G;VariantGroup:2;CorrespondingGene:8942;CorrespondingSpecies:9606
+19143568	960	965	N333T	ProteinMutation	tmVar:p|SUB|N|333|T;HGVS:p.N333T;VariantGroup:1;CorrespondingGene:8942;CorrespondingSpecies:9606
+19143568	1032	1051	3-hydroxykynurenine	Chemical	MESH:C005045
+19143568	1056	1068	L-kynurenine	Chemical	MESH:D007737
+19143568	Association	MESH:D009243	8942
+19143568	Positive_Correlation	MESH:D017378	MESH:D015526
+19143568	Association	MESH:C005045	HGVS:p.S332G;CorrespondingGene:8942
+19143568	Association	MESH:D007737	HGVS:p.S332G;CorrespondingGene:8942
+19143568	Association	HGVS:p.H102W;CorrespondingGene:8942	HGVS:p.S332G;CorrespondingGene:8942
+19143568	Association	MESH:D007737	HGVS:p.N333T;CorrespondingGene:8942
+19143568	Association	HGVS:p.H102W;CorrespondingGene:8942	HGVS:p.N333T;CorrespondingGene:8942
+19143568	Association	MESH:C005045	MESH:D015095
+19143568	Positive_Correlation	MESH:D017378	MESH:D019636
+19143568	Association	MESH:C005045	HGVS:p.H102W;CorrespondingGene:8942
+19143568	Association	MESH:D007737	HGVS:p.H102W;CorrespondingGene:8942
+19143568	Association	MESH:C005045	MESH:D000409
+19143568	Association	MESH:C005045	8942
+19143568	Association	MESH:D000409	8942
+19143568	Association	MESH:D015095	8942
+19143568	Negative_Correlation	MESH:C535238	8942
+19143568	Positive_Correlation	MESH:D017378	MESH:D000544
+19143568	Association	MESH:D017378	8942
+

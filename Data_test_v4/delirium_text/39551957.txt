@@ -1,0 +1,20 @@
+39551957|t|Comprehensive Analysis of the Gene Expression Profiles of Rat Brain Tissues under Environmental Exposure to Nicotine.
+39551957|a|<b>Background and Objective:</b> Nicotine-relevant smoking causes many serious issues of environmental pollution and complicated harm to human health. The present study aimed to evaluate the experimental effects of exposure to nicotine on the gene expression profiles of rat brain tissues with differentially expressed genes (DEGs). <b>Materials and Methods:</b> The rat gene expression profiles of environmental exposure to nicotine were initially screened and retrieved from the microarray dataset GSE59895 in the GEO database. Next, it was analyzed with an integrated bioinformatics pipeline. The DEGs were analyzed in Limma and functional enrichment analyses of GO terms and KEGG pathways were performed with clusterProfiler. The STRING online tools and Cytoscape StringApp were subsequently employed to construct the protein-protein interaction (PPI) network, whereas key modules and hub genes were finally explored and visualized. <b>Results:</b> There was total of 382 shared DEGs between different case groups in the experiment, whereas 9 common shared DEGs were found among all three groups. The significant enrichments of 28 GO terms and 3 KEGG pathways were comprehensively analyzed with corresponding functionally enriched genes. Then, 3 key modules and 10 hub genes were further identified and explored in the resulted PPI network. In the disease-related signaling pathways, eleven potential neuropathic disease-related genes may complement the treatment of neurodegenerative diseases. <b>Conclusion:</b> The study found that chronic exposure to nicotine would result in the differential expression of the disease-related genes, whereas these DEGs might increase the environmental risks of Huntington's disease, Alzheimer's disease and other multiple neurodegenerative diseases.
+39551957	58	61	Rat	Species	10116
+39551957	108	116	Nicotine	Chemical	MESH:D009538
+39551957	151	159	Nicotine	Chemical	MESH:D009538
+39551957	255	260	human	Species	9606
+39551957	345	353	nicotine	Chemical	MESH:D009538
+39551957	389	392	rat	Species	10116
+39551957	485	488	rat	Species	10116
+39551957	543	551	nicotine	Chemical	MESH:D009538
+39551957	1523	1542	neuropathic disease	Disease	MESH:D004194
+39551957	1589	1615	neurodegenerative diseases	Disease	MESH:D019636
+39551957	1677	1685	nicotine	Chemical	MESH:D009538
+39551957	1821	1841	Huntington's disease	Disease	MESH:D006816
+39551957	1843	1862	Alzheimer's disease	Disease	MESH:D000544
+39551957	1882	1908	neurodegenerative diseases	Disease	MESH:D019636
+39551957	Positive_Correlation	MESH:D009538	MESH:D019636
+39551957	Positive_Correlation	MESH:D009538	MESH:D006816
+39551957	Positive_Correlation	MESH:D009538	MESH:D000544
+

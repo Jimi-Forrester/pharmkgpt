@@ -1,0 +1,27 @@
+37936236|t|Subject classification and cross-time prediction based on functional connectivity and white matter microstructure features in a rat model of Alzheimer's using machine learning.
+37936236|a|BACKGROUND: The pathological process of Alzheimer's disease (AD) typically takes decades from onset to clinical symptoms. Early brain changes in AD include MRI-measurable features such as altered functional connectivity (FC) and white matter degeneration. The ability of these features to discriminate between subjects without a diagnosis, or their prognostic value, is however not established. METHODS: The main trigger mechanism of AD is still debated, although impaired brain glucose metabolism is taking an increasingly central role. Here, we used a rat model of sporadic AD, based on impaired brain glucose metabolism induced by an intracerebroventricular injection of streptozotocin (STZ). We characterized alterations in FC and white matter microstructure longitudinally using functional and diffusion MRI. Those MRI-derived measures were used to classify STZ from control rats using machine learning, and the importance of each individual measure was quantified using explainable artificial intelligence methods. RESULTS: Overall, combining all the FC and white matter metrics in an ensemble way was the best strategy to discriminate STZ rats, with a consistent accuracy over 0.85. However, the best accuracy early on was achieved using white matter microstructure features, and later on using FC. This suggests that consistent damage in white matter in the STZ group might precede FC. For cross-timepoint prediction, microstructure features also had the highest performance while, in contrast, that of FC was reduced by its dynamic pattern which shifted from early hyperconnectivity to late hypoconnectivity. CONCLUSIONS: Our study highlights the MRI-derived measures that best discriminate STZ vs control rats early in the course of the disease, with potential translation to humans.
+37936236	92	98	matter	Disease	MESH:D056784
+37936236	141	152	Alzheimer's	Disease	MESH:D000544
+37936236	217	236	Alzheimer's disease	Disease	MESH:D000544
+37936236	238	240	AD	Disease	MESH:D000544
+37936236	322	324	AD	Disease	MESH:D000544
+37936236	406	431	white matter degeneration	Disease	MESH:D056784
+37936236	611	613	AD	Disease	MESH:D000544
+37936236	656	663	glucose	Chemical	MESH:D005947
+37936236	753	755	AD	Disease	MESH:D000544
+37936236	781	788	glucose	Chemical	MESH:D005947
+37936236	851	865	streptozotocin	Chemical	MESH:D013311
+37936236	867	870	STZ	Chemical	MESH:D013311
+37936236	918	924	matter	Disease	MESH:D056784
+37936236	1040	1043	STZ	Chemical	MESH:D013311
+37936236	1247	1253	matter	Disease	MESH:D056784
+37936236	1319	1322	STZ	Chemical	MESH:D013311
+37936236	1428	1434	matter	Disease	MESH:D056784
+37936236	1529	1535	matter	Disease	MESH:D056784
+37936236	1543	1546	STZ	Chemical	MESH:D013311
+37936236	1877	1880	STZ	Chemical	MESH:D013311
+37936236	Association	MESH:D013311	MESH:D056784
+37936236	Association	MESH:D005947	MESH:D013311
+37936236	Positive_Correlation	MESH:D013311	MESH:D000544
+37936236	Negative_Correlation	MESH:D005947	MESH:D000544
+

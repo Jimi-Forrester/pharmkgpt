@@ -1,0 +1,36 @@
+21249229|t|Survivin mutant protects differentiated dopaminergic SK-N-SH cells against oxidative stress.
+21249229|a|Oxidative stress is due to an imbalance of antioxidant/pro-oxidant homeostasis and is associated with the progression of several neurological diseases, including Parkinson's and Alzheimer's disease and amyotrophic lateral sclerosis. Furthermore, oxidative stress is responsible for the neuronal loss and dysfunction associated with disease pathogenesis. Survivin is a member of the inhibitors of the apoptosis (IAP) family of proteins, but its neuroprotective effects have not been studied. Here, we demonstrate that SurR9-C84A, a survivin mutant, has neuroprotective effects against H2O2-induced neurotoxicity. Our results show that H2O2 toxicity is associated with an increase in cell death, mitochondrial membrane depolarisation, and the expression of cyclin D1 and caspases 9 and 3. In addition, pre-treatment with SurR9-C84A reduces cell death by decreasing both the level of mitochondrial depolarisation and the expression of cyclin D1 and caspases 9 and 3. We further show that SurR9-C84A increases the antioxidant activity of GSH-peroxidase and catalase, and effectively counteracts oxidant activity following exposure to H2O2. These results suggest for the first time that SurR9-C84A is a promising treatment to protect neuronal cells against H2O2-induced neurotoxicity.
+21249229	53	60	SK-N-SH	CellLine	CVCL:0531
+21249229	222	243	neurological diseases	Disease	MESH:D020271
+21249229	255	290	Parkinson's and Alzheimer's disease	Disease	MESH:D010300
+21249229	295	324	amyotrophic lateral sclerosis	Disease	MESH:D000690
+21249229	379	408	neuronal loss and dysfunction	Disease	MESH:D060825
+21249229	616	620	C84A	DNAMutation	tmVar:c|SUB|C|84|A;HGVS:c.84C>A;VariantGroup:0;CorrespondingGene:847;CorrespondingSpecies:9606
+21249229	677	681	H2O2	Chemical	MESH:D006861
+21249229	690	703	neurotoxicity	Disease	MESH:D020258
+21249229	727	731	H2O2	Chemical	MESH:D006861
+21249229	732	740	toxicity	Disease	MESH:D064420
+21249229	787	824	mitochondrial membrane depolarisation	Disease	MESH:D015433
+21249229	848	857	cyclin D1	Gene	595
+21249229	862	878	caspases 9 and 3	Gene	842;836
+21249229	918	922	C84A	DNAMutation	tmVar:c|SUB|C|84|A;HGVS:c.84C>A;VariantGroup:0;CorrespondingGene:847;CorrespondingSpecies:9606
+21249229	974	1002	mitochondrial depolarisation	Disease	MESH:D028361
+21249229	1025	1034	cyclin D1	Gene	595
+21249229	1039	1055	caspases 9 and 3	Gene	842;836
+21249229	1084	1088	C84A	DNAMutation	tmVar:c|SUB|C|84|A;HGVS:c.84C>A;VariantGroup:0;CorrespondingGene:847;CorrespondingSpecies:9606
+21249229	1146	1154	catalase	Gene	847
+21249229	1223	1227	H2O2	Chemical	MESH:D006861
+21249229	1281	1285	C84A	DNAMutation	tmVar:c|SUB|C|84|A;HGVS:c.84C>A;VariantGroup:0;CorrespondingGene:847;CorrespondingSpecies:9606
+21249229	1345	1349	H2O2	Chemical	MESH:D006861
+21249229	1358	1371	neurotoxicity	Disease	MESH:D020258
+21249229	Negative_Correlation	HGVS:c.84C>A;CorrespondingGene:847	MESH:D020258
+21249229	Association	MESH:D006861	842
+21249229	Negative_Correlation	HGVS:c.84C>A;CorrespondingGene:847	MESH:D028361
+21249229	Negative_Correlation	MESH:D006861	HGVS:c.84C>A;CorrespondingGene:847
+21249229	Positive_Correlation	MESH:D006861	MESH:D015433
+21249229	Positive_Correlation	MESH:D006861	MESH:D020258
+21249229	Association	MESH:D006861	836
+21249229	Positive_Correlation	MESH:D006861	595
+21249229	Association	MESH:D020258	847
+21249229	Association	MESH:D028361	847
+

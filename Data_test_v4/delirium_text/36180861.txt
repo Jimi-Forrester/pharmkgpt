@@ -1,0 +1,11 @@
+36180861|t|Mining on Alzheimer's diseases related knowledge graph to identity potential AD-related semantic triples for drug repurposing.
+36180861|a|BACKGROUND: To date, there are no effective treatments for most neurodegenerative diseases. Knowledge graphs can provide comprehensive and semantic representation for heterogeneous data, and have been successfully leveraged in many biomedical applications including drug repurposing. Our objective is to construct a knowledge graph from literature to study the relations between Alzheimer's disease (AD) and chemicals, drugs and dietary supplements in order to identify opportunities to prevent or delay neurodegenerative progression. We collected biomedical annotations and extracted their relations using SemRep via SemMedDB. We used both a BERT-based classifier and rule-based methods during data preprocessing to exclude noise while preserving most AD-related semantic triples. The 1,672,110 filtered triples were used to train with knowledge graph completion algorithms (i.e., TransE, DistMult, and ComplEx) to predict candidates that might be helpful for AD treatment or prevention. RESULTS: Among three knowledge graph completion models, TransE outperformed the other two (MR = 10.53, Hits@1 = 0.28). We leveraged the time-slicing technique to further evaluate the prediction results. We found supporting evidence for most highly ranked candidates predicted by our model which indicates that our approach can inform reliable new knowledge. CONCLUSION: This paper shows that our graph mining model can predict reliable new relationships between AD and other entities (i.e., dietary supplements, chemicals, and drugs). The knowledge graph constructed can facilitate data-driven knowledge discoveries and the generation of novel hypotheses.
+36180861	10	30	Alzheimer's diseases	Disease	MESH:D000544
+36180861	77	79	AD	Disease	MESH:D000544
+36180861	191	217	neurodegenerative diseases	Disease	MESH:D019636
+36180861	506	525	Alzheimer's disease	Disease	MESH:D000544
+36180861	527	529	AD	Disease	MESH:D000544
+36180861	880	882	AD	Disease	MESH:D000544
+36180861	1088	1090	AD	Disease	MESH:D000544
+36180861	1578	1580	AD	Disease	MESH:D000544
+

@@ -1,0 +1,34 @@
+24260478|t|Deep sequencing of small RNA repertoires in mice reveals metabolic disorders-associated hepatic miRNAs.
+24260478|a|Obesity and associated metabolic disorders contribute importantly to the metabolic syndrome. On the other hand, microRNAs (miRNAs) are a class of small non-coding RNAs that repress target gene expression by inducing mRNA degradation and/or translation repression. Dysregulation of specific miRNAs in obesity may influence energy metabolism and cause insulin resistance, which leads to dyslipidemia, steatosis hepatis and type 2 diabetes. In the present study, we comprehensively analyzed and validated dysregulated miRNAs in ob/ob mouse liver, as well as miRNA groups based on miRNA gene cluster and gene family by using deep sequencing miRNA datasets. We found that over 13.8% of the total analyzed miRNAs were dysregulated, of which 37 miRNA species showed significantly differential expression. Further RT-qPCR analysis in some selected miRNAs validated the similar expression patterns observed in deep sequencing. Interestingly, we found that miRNA gene cluster and family always showed consistent dysregulation patterns in ob/ob mouse liver, although they had various enrichment levels. Functional enrichment analysis revealed the versatile physiological roles (over six signal pathways and five human diseases) of these miRNAs. Biological studies indicated that overexpression of miR-126 or inhibition of miR-24 in AML-12 cells attenuated free fatty acids-induced fat accumulation. Taken together, our data strongly suggest that obesity and metabolic disturbance are tightly associated with functional miRNAs. We also identified hepatic miRNA candidates serving as potential biomarkers for the diagnose of the metabolic syndrome. 
+24260478	44	48	mice	Species	10090
+24260478	57	76	metabolic disorders	Disease	MESH:D008659
+24260478	104	111	Obesity	Disease	MESH:D009765
+24260478	127	146	metabolic disorders	Disease	MESH:D008659
+24260478	177	195	metabolic syndrome	Disease	MESH:D024821
+24260478	404	411	obesity	Disease	MESH:D009765
+24260478	454	472	insulin resistance	Disease	MESH:D007333
+24260478	489	501	dyslipidemia	Disease	MESH:D050171
+24260478	503	520	steatosis hepatis	Disease	MESH:D005234
+24260478	525	540	type 2 diabetes	Disease	MESH:D003924
+24260478	629	631	ob	Gene	16846
+24260478	632	634	ob	Gene	16846
+24260478	635	640	mouse	Species	10090
+24260478	1132	1134	ob	Gene	16846
+24260478	1135	1137	ob	Gene	16846
+24260478	1138	1143	mouse	Species	10090
+24260478	1305	1310	human	Species	9606
+24260478	1390	1397	miR-126	Gene	387145
+24260478	1415	1421	miR-24	Gene	387142
+24260478	1425	1431	AML-12	CellLine	CVCL:0140
+24260478	1449	1465	free fatty acids	Chemical	MESH:D005230
+24260478	1474	1490	fat accumulation	Disease	MESH:D004620
+24260478	1539	1546	obesity	Disease	MESH:D009765
+24260478	1551	1572	metabolic disturbance	Disease	MESH:D024821
+24260478	1720	1738	metabolic syndrome	Disease	MESH:D024821
+24260478	Negative_Correlation	MESH:D004620	387145
+24260478	Association	MESH:D005230	387142
+24260478	Negative_Correlation	MESH:D008659	387142
+24260478	Positive_Correlation	MESH:D005230	MESH:D004620
+24260478	Association	MESH:D005230	387145
+24260478	Association	MESH:D004620	387142
+

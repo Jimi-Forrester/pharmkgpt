@@ -1,0 +1,26 @@
+32161573|t|Personalizing Heart Rate-Based Seizure Detection Using Supervised SVM Transfer Learning.
+32161573|a|Objective: Automated seizure detection is a key aspect of wearable seizure warning systems. As a result, the quality of life of refractory epilepsy patients could be improved. Most state-of-the-art algorithms for heart rate-based seizure detection use a so-called patient-independent approach, which do not take into account patient-specific data during algorithm training. Although such systems are easy to use in practice, they lead to many false detections as the ictal heart rate changes are patient-dependent. In practice, only a limited amount of accurately annotated patient data is typically available, which makes it difficult to create fully patient-specific algorithms. Methods: In this context, this study proposes for the first time a new transfer learning approach that allows to personalize heart rate-based seizure detection by using only a couple of days of data per patient. The algorithm was evaluated on 2,172 h of single-lead ECG data from 24 temporal lobe epilepsy patients including 227 focal impaired awareness seizures. Results: The proposed personalized approach resulted in an overall sensitivity of 71% with 1.9 false detections per hour. This is an average decrease in false detection rate of 37% compared to the reference patient-independent algorithm using only a limited amount of personal seizure data. The proposed transfer learning approach adapts faster and more robustly to patient-specific characteristics than other alternatives for personalization in the literature. Conclusion: The proposed method allows an easy implementable solution to personalize heart rate-based seizure detection, which can improve the quality of life of refractory epilepsy patients when used as part of a multimodal seizure detection system.
+32161573	31	38	Seizure	Disease	MESH:D012640
+32161573	110	117	seizure	Disease	MESH:D012640
+32161573	156	163	seizure	Disease	MESH:D012640
+32161573	217	236	refractory epilepsy	Disease	MESH:D000069279
+32161573	237	245	patients	Species	9606
+32161573	319	326	seizure	Disease	MESH:D012640
+32161573	353	360	patient	Species	9606
+32161573	414	421	patient	Species	9606
+32161573	585	592	patient	Species	9606
+32161573	663	670	patient	Species	9606
+32161573	741	748	patient	Species	9606
+32161573	912	919	seizure	Disease	MESH:D012640
+32161573	973	980	patient	Species	9606
+32161573	1053	1075	temporal lobe epilepsy	Disease	MESH:D004833
+32161573	1076	1084	patients	Species	9606
+32161573	1099	1132	focal impaired awareness seizures	Disease	MESH:D004828
+32161573	1341	1348	patient	Species	9606
+32161573	1411	1418	seizure	Disease	MESH:D012640
+32161573	1500	1507	patient	Species	9606
+32161573	1698	1705	seizure	Disease	MESH:D012640
+32161573	1758	1777	refractory epilepsy	Disease	MESH:D000069279
+32161573	1778	1786	patients	Species	9606
+32161573	1821	1828	seizure	Disease	MESH:D012640
+

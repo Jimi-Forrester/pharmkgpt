@@ -1,0 +1,20 @@
+35580864|t|Identification of combined biomarkers for predicting the risk of osteoporosis using machine learning.
+35580864|a|Osteoporosis is a severe chronic skeletal disorder that affects older individuals, especially postmenopausal women. However, molecular biomarkers for predicting the risk of osteoporosis are not well characterized. The aim of this study was to identify combined biomarkers for predicting the risk of osteoporosis using machine learning methods. We merged three publicly available gene expression datasets (GSE56815, GSE13850, and GSE2208) to obtain expression data for 6354 unique genes in postmenopausal women (45 with high bone mineral density and 45 with low bone mineral density). All machine learning methods were implemented in R, with the GEOquery and limma packages, for dataset download and differentially expressed gene identification, and a nomogram for predicting the risk of osteoporosis was constructed. We detected 378 significant differentially expressed genes using the limma package, representing 15 major biological pathways. The performance of the predictive models based on combined biomarkers (two or three genes) was superior to that of models based on a single gene. The best predictive gene set among two-gene sets included PLA2G2A and WRAP73. The best predictive gene set among three-gene sets included LPN1, PFDN6, and DOHH. Overall, we demonstrated the advantages of using combined versus single biomarkers for predicting the risk of osteoporosis. Further, the predictive nomogram constructed using combined biomarkers could be used by clinicians to identify high-risk individuals and in the design of efficient clinical trials to reduce the incidence of osteoporosis.
+35580864	65	77	osteoporosis	Disease	MESH:D010024
+35580864	102	114	Osteoporosis	Disease	MESH:D010024
+35580864	135	152	skeletal disorder	Disease	MESH:C564967
+35580864	211	216	women	Species	9606
+35580864	275	287	osteoporosis	Disease	MESH:D010024
+35580864	401	413	osteoporosis	Disease	MESH:D010024
+35580864	606	611	women	Species	9606
+35580864	889	901	osteoporosis	Disease	MESH:D010024
+35580864	1250	1257	PLA2G2A	Gene	5320
+35580864	1262	1268	WRAP73	Gene	49856
+35580864	1336	1341	PFDN6	Gene	10471
+35580864	1347	1351	DOHH	Gene	83475
+35580864	1463	1475	osteoporosis	Disease	MESH:D010024
+35580864	1684	1696	osteoporosis	Disease	MESH:D010024
+35580864	Association	MESH:D010024	49856
+35580864	Association	MESH:D010024	5320
+35580864	Association	MESH:D010024	10471
+

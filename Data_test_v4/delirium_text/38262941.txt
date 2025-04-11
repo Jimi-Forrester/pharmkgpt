@@ -1,0 +1,29 @@
+38262941|t|Causal association between 637 human metabolites and ovarian cancer: a mendelian randomization study.
+38262941|a|BACKGROUND: Current evidence suggests a significant association between metabolites and ovarian cancer (OC); however, the causal relationship between the two remains unclear. This study employs Mendelian randomization (MR) to investigate the causal effects between different metabolites and OC. METHODS: In this study, a total of 637 metabolites were selected as the exposure variables from the Genome-wide Association Study (GWAS) database ( http://gwas.mrcieu.ac.uk/datasets/ ). The OC related GWAS dataset (ieu-b-4963) was chosen as the outcome variable. R software and the TwoSampleMR package were utilized for the analysis in this study. MR analysis employed the inverse variance-weighted method (IVW), MR-Egger and weighted median (WM) for regression fitting, taking into consideration potential biases caused by linkage disequilibrium and weak instrument variables. Metabolites that did not pass the tests for heterogeneity and horizontal pleiotropy were considered to have no significant causal effect on the outcome. Steiger's upstream test was used to determine the causal direction between the exposure and outcome variables. RESULTS: The results from IVW analysis revealed that a total of 31 human metabolites showed a significant causal effect on OC (P < 0.05). Among them, 9 metabolites exhibited consistent and stable causal effects, which were confirmed by Steiger's upstream test (P < 0.05). Among these 9 metabolites, Androsterone sulfate, Propionylcarnitine, 5alpha-androstan-3beta,17beta-diol disulfate, Total lipids in medium VLDL and Concentration of medium VLDL particles demonstrated a significant positive causal effect on OC, indicating that these metabolites promote the occurrence of OC. On the other hand, X-12,093, Octanoylcarnitine, N2,N2-dimethylguanosine, and Cis-4-decenoyl carnitine showed a significant negative causal association with OC, suggesting that these metabolites can inhibit the occurrence of OC. CONCLUSIONS: The study revealed the complex effect of metabolites on OC through Mendelian randomization. As promising biomarkers, these metabolites are worthy of further clinical validation.
+38262941	31	36	human	Species	9606
+38262941	53	67	ovarian cancer	Disease	MESH:D010051
+38262941	190	204	ovarian cancer	Disease	MESH:D010051
+38262941	206	208	OC	Disease	MESH:D010051
+38262941	393	395	OC	Disease	MESH:D010051
+38262941	587	589	OC	Disease	MESH:D010051
+38262941	1306	1311	human	Species	9606
+38262941	1362	1364	OC	Disease	MESH:D010051
+38262941	1538	1558	Androsterone sulfate	Chemical	MESH:C026905
+38262941	1560	1578	Propionylcarnitine	Chemical	MESH:C003223
+38262941	1580	1624	5alpha-androstan-3beta,17beta-diol disulfate	Chemical	-
+38262941	1632	1638	lipids	Chemical	MESH:D008055
+38262941	1750	1752	OC	Disease	MESH:D010051
+38262941	1814	1816	OC	Disease	MESH:D010051
+38262941	1837	1845	X-12,093	Chemical	-
+38262941	1847	1864	Octanoylcarnitine	Chemical	MESH:C008698
+38262941	1866	1889	N2,N2-dimethylguanosine	Chemical	MESH:C008940
+38262941	1895	1919	Cis-4-decenoyl carnitine	Chemical	-
+38262941	1974	1976	OC	Disease	MESH:D010051
+38262941	2042	2044	OC	Disease	MESH:D010051
+38262941	2115	2117	OC	Disease	MESH:D010051
+38262941	Positive_Correlation	MESH:D008055	MESH:D010051
+38262941	Positive_Correlation	MESH:C008940	MESH:D010051
+38262941	Positive_Correlation	MESH:C026905	MESH:D010051
+38262941	Positive_Correlation	MESH:C003223	MESH:D010051
+38262941	Positive_Correlation	MESH:C008698	MESH:D010051
+

@@ -1,0 +1,12 @@
+35949676|t|Developing a novel prediction model in opioid overdose using machine learning; a pilot analytical study.
+35949676|a|Background and Aims: The opioid epidemic has extended to many countries. Data regarding the accuracy of conventional prediction models including the Simplified Acute Physiologic Score (SAPS) II and acute physiology and chronic health evaluation (APACHE) II are scarce in opioid overdose cases. We evaluate the efficacy of adding quantitative electroencephalogram (qEEG) data to clinical and paraclinical data in the prediction of opioid overdose mortality using machine learning. Methods: In a prospective study, we collected clinical/paraclinical, and qEEG data of 32 opioid-poisoned patients. After preprocessing and Fast Fourier Transform analysis, absolute power was computed. Also, SAPS II was calculated. Eventually, data analysis was performed using SAPS II as a benchmark at three levels to predict the patient's course in comparison with SAPS II. First, the qEEG data set was used alone, secondly, the combination of the clinical/paraclinical, SAPS II, qEEG datasets, and the SAPS II-based model was included in the pool of classifier models. Results: Seven out of 32 (22%) died. SAPS II (cut-off of 50.5) had a sensitivity/specificity/positive/negative predictive values of 85.7%, 84.0%, 60.0%, and 95.5% in predicting mortality, respectively. Adding majority voting on random forest with qEEG and clinical data, improved the model sensitivity, specificity, and positive and negative predictive values to 71.4%, 96%, 83.3%, and 92.3% (not significant). The model fusion level has 40% less prediction error. Conclusion: Considering the higher specificity and negative predictive value in our proposed model, it could predict survival much better than mortality. The model would constitute an indicator for better care of opioid poisoned patients in low resources settings, where intensive care unit beds are limited.
+35949676	39	54	opioid overdose	Disease	MESH:D000083682
+35949676	130	136	opioid	Disease	MESH:D009293
+35949676	376	391	opioid overdose	Disease	MESH:D000083682
+35949676	535	550	opioid overdose	Disease	MESH:D000083682
+35949676	690	698	patients	Species	9606
+35949676	916	923	patient	Species	9606
+35949676	1188	1192	died	Disease	MESH:D003643
+35949676	1835	1841	opioid	Disease	MESH:D009293
+35949676	1851	1859	patients	Species	9606
+

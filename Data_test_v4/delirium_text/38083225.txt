@@ -1,0 +1,14 @@
+38083225|t|Attention-based 3D CNN with Multi-layer Features for Alzheimer's Disease Diagnosis using Brain Images.
+38083225|a|Structural MRI and PET imaging play an important role in the diagnosis of Alzheimer's disease (AD), showing the morphological changes and glucose metabolism changes in the brain respectively. The manifestations in the brain image of some cognitive impairment patients are relatively inconspicuous, for example, it still has difficulties in achieving accurate diagnosis through sMRI in clinical practice. With the emergence of deep learning, convolutional neural network (CNN) has become a valuable method in AD-aided diagnosis, but some CNN methods cannot effectively learn the features of brain image, making the diagnosis of AD still presents some challenges. In this work, we propose an end-to-end 3D CNN framework for AD diagnosis based on ResNet, which integrates multi-layer features obtained under the effect of the attention mechanism to better capture subtle differences in brain images. The attention maps showed our model can focus on key brain regions related to the disease diagnosis. Our method was verified in ablation experiments with two modality images on 792 subjects from the ADNI database, where AD diagnostic accuracies of 89.71% and 91.18% were achieved based on sMRI and PET respectively, and also outperformed some state-of-the-art methods.
+38083225	53	72	Alzheimer's Disease	Disease	MESH:D000544
+38083225	177	196	Alzheimer's disease	Disease	MESH:D000544
+38083225	198	200	AD	Disease	MESH:D000544
+38083225	241	248	glucose	Chemical	MESH:D005947
+38083225	341	361	cognitive impairment	Disease	MESH:D003072
+38083225	362	370	patients	Species	9606
+38083225	611	613	AD	Disease	MESH:D000544
+38083225	730	732	AD	Disease	MESH:D000544
+38083225	825	827	AD	Disease	MESH:D000544
+38083225	1220	1222	AD	Disease	MESH:D000544
+38083225	Association	MESH:D005947	MESH:D000544
+

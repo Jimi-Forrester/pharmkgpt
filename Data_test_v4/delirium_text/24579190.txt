@@ -1,0 +1,19 @@
+24579190|t|Multiple instance learning for classification of dementia in brain MRI.
+24579190|a|Machine learning techniques have been widely used to support the diagnosis of neurological diseases such as dementia. Recent approaches utilize local intensity patterns within patches to derive voxelwise grading measures of disease. However, the relationships among these patches are usually ignored. In addition, there is some ambiguity in assigning disease labels to the extracted patches. Not all of the patches extracted from patients with dementia are characteristic of morphology associated with disease. In this paper, we propose to use a multiple instance learning method to address the problem of assigning training labels to the patches. In addition, a graph is built for each image to exploit the relationships among these patches, which aids the classification work. We illustrate the proposed approach in an application for the detection of Alzheimer's disease (AD): Using the baseline MR images of 834 subjects from the ADNI study, the proposed method can achieve a classification accuracy of 88.8% between AD patients and healthy controls, and 69.6% between patients with stable Mild Cognitive Impairment (MCI) and progressive MCI. These results compare favourably with state-of-the-art classification methods.
+24579190	49	57	dementia	Disease	MESH:D003704
+24579190	150	171	neurological diseases	Disease	MESH:D020271
+24579190	180	188	dementia	Disease	MESH:D003704
+24579190	296	303	disease	Disease	MESH:D004194
+24579190	423	430	disease	Disease	MESH:D004194
+24579190	502	510	patients	Species	9606
+24579190	516	524	dementia	Disease	MESH:D003704
+24579190	574	581	disease	Disease	MESH:D004194
+24579190	926	945	Alzheimer's disease	Disease	MESH:D000544
+24579190	947	949	AD	Disease	MESH:D000544
+24579190	1093	1095	AD	Disease	MESH:D000544
+24579190	1096	1104	patients	Species	9606
+24579190	1145	1153	patients	Species	9606
+24579190	1171	1191	Cognitive Impairment	Disease	MESH:D003072
+24579190	1193	1196	MCI	Disease	MESH:D060825
+24579190	1214	1217	MCI	Disease	MESH:D060825
+

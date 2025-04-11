@@ -1,0 +1,26 @@
+26576771|t|Combined Genome-Wide CSF Abeta-42's Associations and Simple Network Properties Highlight New Risk Factors for Alzheimer's Disease.
+26576771|a|The abnormal deposition of amyloid-beta protein in the brain plays an important role in Alzheimer's disease (AD), being considered a potential clinical biomarker. To investigate genetic associations with amyloid-beta we used biomarker data and genome-wide variants from individuals with AD and mild cognitive impairment in the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. We used a standard linear model and retested the associations with a mixed linear model to correct the residual sample structure. Both methods' results showed two identical significant SNPs associated with the A beta-42 levels in CSF (rs2075650 at intron region TOMM40 with p-value >= 1 x 10-16 and rs439401 in the intergenic region of LOC100129500 and APOC1 with p-value >= 1 x 10-9) and highlighted APOC1 and TOMM40, which are well-known genes previously associated with AD. Extending our analysis, we considered possible candidate genes mapped to SNPs with p-value >= 1 x 10-6 to explore gene-set enrichment e gene-gene network analysis, which reveals genes related to synaptic transmission, transmission of nerve impulses, cell-cell signaling and neurological processes. These genes require fine mapping and replication studies to allow more detailed understanding of how they may contribute to the genetic architecture of AD.
+26576771	25	33	Abeta-42	Gene	351
+26576771	110	129	Alzheimer's Disease	Disease	MESH:D000544
+26576771	219	238	Alzheimer's disease	Disease	MESH:D000544
+26576771	240	242	AD	Disease	MESH:D000544
+26576771	335	347	amyloid-beta	Gene	351
+26576771	418	420	AD	Disease	MESH:D000544
+26576771	430	450	cognitive impairment	Disease	MESH:D003072
+26576771	458	477	Alzheimer's Disease	Disease	MESH:D000544
+26576771	729	738	A beta-42	Gene	351
+26576771	754	763	rs2075650	SNP	tmVar:rs2075650;VariantGroup:1;CorrespondingGene:10452;RS#:2075650;CorrespondingSpecies:9606
+26576771	781	787	TOMM40	Gene	10452
+26576771	818	826	rs439401	SNP	tmVar:rs439401;VariantGroup:0;RS#:439401
+26576771	872	877	APOC1	Gene	341
+26576771	920	925	APOC1	Gene	341
+26576771	930	936	TOMM40	Gene	10452
+26576771	992	994	AD	Disease	MESH:D000544
+26576771	1446	1448	AD	Disease	MESH:D000544
+26576771	Association	MESH:D000544	351
+26576771	Positive_Correlation	MESH:D000544	RS#:439401
+26576771	Association	MESH:D000544	RS#:2075650;CorrespondingGene:10452
+26576771	Association	MESH:D000544	10452
+26576771	Association	MESH:D000544	341
+26576771	Association	MESH:D000544	10452
+

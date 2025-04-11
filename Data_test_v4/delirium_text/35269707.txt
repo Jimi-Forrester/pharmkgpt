@@ -1,0 +1,24 @@
+35269707|t|A Hybrid Machine Learning and Network Analysis Approach Reveals Two Parkinson's Disease Subtypes from 115 RNA-Seq Post-Mortem Brain Samples.
+35269707|a|Precision medicine emphasizes fine-grained diagnostics, taking individual variability into account to enhance treatment effectiveness. Parkinson's disease (PD) heterogeneity among individuals proves the existence of disease subtypes, so subgrouping patients is vital for better understanding disease mechanisms and designing precise treatment. The purpose of this study was to identify PD subtypes using RNA-Seq data in a combined pipeline including unsupervised machine learning, bioinformatics, and network analysis. Two hundred and ten post mortem brain RNA-Seq samples from PD (n = 115) and normal controls (NCs, n = 95) were obtained with systematic data retrieval following PRISMA statements and a fully data-driven clustering pipeline was performed to identify PD subtypes. Bioinformatics and network analyses were performed to characterize the disease mechanisms of the identified PD subtypes and to identify target genes for drug repurposing. Two PD clusters were identified and 42 DEGs were found (p adjusted <= 0.01). PD clusters had significantly different gene network structures (p < 0.0001) and phenotype-specific disease mechanisms, highlighting the differential involvement of the Wnt/beta-catenin pathway regulating adult neurogenesis. NEUROD1 was identified as a key regulator of gene networks and ISX9 and PD98059 were identified as NEUROD1-interacting compounds with disease-modifying potential, reducing the effects of dopaminergic neurodegeneration. This hybrid data analysis approach could enable precision medicine applications by providing insights for the identification and characterization of pathological subtypes. This workflow has proven useful on PD brain RNA-Seq, but its application to other neurodegenerative diseases is encouraged.
+35269707	68	87	Parkinson's Disease	Disease	MESH:D010300
+35269707	276	295	Parkinson's disease	Disease	MESH:D010300
+35269707	297	299	PD	Disease	MESH:D010300
+35269707	390	398	patients	Species	9606
+35269707	527	529	PD	Disease	MESH:D010300
+35269707	719	721	PD	Disease	MESH:D010300
+35269707	909	911	PD	Disease	MESH:D010300
+35269707	1030	1032	PD	Disease	MESH:D010300
+35269707	1097	1099	PD	Disease	MESH:D010300
+35269707	1170	1172	PD	Disease	MESH:D010300
+35269707	1343	1355	beta-catenin	Gene	1499
+35269707	1395	1402	NEUROD1	Gene	4760
+35269707	1467	1474	PD98059	Chemical	MESH:C093973
+35269707	1494	1501	NEUROD1	Gene	4760
+35269707	1582	1612	dopaminergic neurodegeneration	Disease	MESH:D009422
+35269707	1821	1823	PD	Disease	MESH:D010300
+35269707	1868	1894	neurodegenerative diseases	Disease	MESH:D019636
+35269707	Negative_Correlation	MESH:C093973	MESH:D009422
+35269707	Association	MESH:D010300	1499
+35269707	Association	MESH:C093973	4760
+35269707	Association	MESH:D009422	4760
+

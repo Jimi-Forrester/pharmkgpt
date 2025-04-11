@@ -1,0 +1,57 @@
+24179750|t|Common folate gene variant, MTHFR C677T, is associated with brain structure in two independent cohorts of people with mild cognitive impairment.
+24179750|a|A commonly carried C677T polymorphism in a folate-related gene, MTHFR, is associated with higher plasma homocysteine, a well-known mediator of neuronal damage and brain atrophy. As homocysteine promotes brain atrophy, we set out to discover whether people carrying the C677T MTHFR polymorphism which increases homocysteine, might also show systematic differences in brain structure. Using tensor-based morphometry, we tested this association in 359 elderly Caucasian subjects with mild cognitive impairment (MCI) (mean age: 75 +- 7.1 years) scanned with brain MRI and genotyped as part of Alzheimer's Disease Neuroimaging Initiative. We carried out a replication study in an independent, non-overlapping sample of 51 elderly Caucasian subjects with MCI (mean age: 76 +- 5.5 years), scanned with brain MRI and genotyped for MTHFR, as part of the Cardiovascular Health Study. At each voxel in the brain, we tested to see where regional volume differences were associated with carrying one or more MTHFR 'T' alleles. In ADNI subjects, carriers of the MTHFR risk allele had detectable brain volume deficits, in the white matter, of up to 2-8% per risk T allele locally at baseline and showed accelerated brain atrophy of 0.5-1.5% per T allele at 1 year follow-up, after adjusting for age and sex. We replicated these brain volume deficits of up to 5-12% per MTHFR T allele in the independent cohort of CHS subjects. As expected, the associations weakened after controlling for homocysteine levels, which the risk gene affects. The MTHFR risk variant may thus promote brain atrophy by elevating homocysteine levels. This study aims to investigate the spatially detailed effects of this MTHFR polymorphism on brain structure in 3D, pointing to a causal pathway that may promote homocysteine-mediated brain atrophy in elderly people with MCI. 
+24179750	7	13	folate	Chemical	MESH:D005492
+24179750	28	33	MTHFR	Gene	4524
+24179750	34	39	C677T	DNAMutation	tmVar:c|SUB|C|677|T;HGVS:c.677C>T;VariantGroup:0;CorrespondingGene:4524;RS#:1801133;CorrespondingSpecies:9606;CA#:170990
+24179750	123	143	cognitive impairment	Disease	MESH:D003072
+24179750	164	169	C677T	DNAMutation	tmVar:c|SUB|C|677|T;HGVS:c.677C>T;VariantGroup:0;CorrespondingGene:4524;RS#:1801133;CorrespondingSpecies:9606;CA#:170990
+24179750	188	194	folate	Chemical	MESH:D005492
+24179750	209	214	MTHFR	Gene	4524
+24179750	249	261	homocysteine	Chemical	MESH:D006710
+24179750	288	303	neuronal damage	Disease	MESH:D009410
+24179750	308	321	brain atrophy	Disease	MESH:C566985
+24179750	326	338	homocysteine	Chemical	MESH:D006710
+24179750	348	361	brain atrophy	Disease	MESH:C566985
+24179750	414	419	C677T	DNAMutation	tmVar:c|SUB|C|677|T;HGVS:c.677C>T;VariantGroup:0;CorrespondingGene:4524;RS#:1801133;CorrespondingSpecies:9606;CA#:170990
+24179750	420	425	MTHFR	Gene	4524
+24179750	455	467	homocysteine	Chemical	MESH:D006710
+24179750	631	651	cognitive impairment	Disease	MESH:D003072
+24179750	653	656	MCI	Disease	MESH:D060825
+24179750	734	753	Alzheimer's Disease	Disease	MESH:D000544
+24179750	894	897	MCI	Disease	MESH:D060825
+24179750	968	973	MTHFR	Gene	4524
+24179750	1140	1145	MTHFR	Gene	4524
+24179750	1162	1166	ADNI	Disease	
+24179750	1193	1198	MTHFR	Gene	4524
+24179750	1226	1247	brain volume deficits	Disease	MESH:D001927
+24179750	1345	1358	brain atrophy	Disease	MESH:C566985
+24179750	1375	1388	T allele at 1	DNAMutation	tmVar:c|ALLELE|1|;VariantGroup:1;CorrespondingGene:4524;CorrespondingSpecies:9606
+24179750	1458	1479	brain volume deficits	Disease	MESH:D001927
+24179750	1499	1504	MTHFR	Gene	4524
+24179750	1543	1546	CHS	Disease	MESH:D002609
+24179750	1618	1630	homocysteine	Chemical	MESH:D006710
+24179750	1672	1677	MTHFR	Gene	4524
+24179750	1708	1721	brain atrophy	Disease	MESH:C566985
+24179750	1735	1747	homocysteine	Chemical	MESH:D006710
+24179750	1826	1831	MTHFR	Gene	4524
+24179750	1917	1929	homocysteine	Chemical	MESH:D006710
+24179750	1939	1952	brain atrophy	Disease	MESH:C566985
+24179750	1976	1979	MCI	Disease	MESH:D060825
+24179750	Positive_Correlation	RS#:1801133;HGVS:c.677C>T;CorrespondingGene:4524	MESH:D001927
+24179750	Association	RS#:1801133;HGVS:c.677C>T;CorrespondingGene:4524	MESH:D003072
+24179750	Positive_Correlation	CorrespondingGene:4524;CorrespondingSpecies:9606;VariantGroup:1;tmVar:c	MESH:C566985
+24179750	Positive_Correlation	RS#:1801133;HGVS:c.677C>T;CorrespondingGene:4524	MESH:C566985
+24179750	Association	MESH:D006710	MESH:D009410
+24179750	Positive_Correlation	MESH:D006710	RS#:1801133;HGVS:c.677C>T;CorrespondingGene:4524
+24179750	Positive_Correlation	CorrespondingGene:4524;CorrespondingSpecies:9606;VariantGroup:1;tmVar:c	MESH:D001927
+24179750	Association	MESH:D002609	4524
+24179750	Association	MESH:D006710	4524
+24179750	Association	MESH:D003072	4524
+24179750	Association	MESH:C566985	4524
+24179750	Association	MESH:D006710	MESH:D060825
+24179750	Association	MESH:D001927	4524
+24179750	Positive_Correlation	MESH:D006710	MESH:C566985
+24179750	Association	MESH:D001927	4524
+24179750	Association	MESH:D003072	4524
+24179750	Association	MESH:C566985	4524
+

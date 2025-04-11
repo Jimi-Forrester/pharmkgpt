@@ -1,0 +1,70 @@
+31539648|t|Insulin and adipokine signaling and their cross-regulation in postmortem human brain.
+31539648|a|Aberrant insulin and adipokine signaling has been implicated in cognitive decline associated with both type 2 diabetes mellitus and neurodegenerative diseases. We established methods that reliably measure insulin, adiponectin and leptin signaling, and their crosstalk, in thawed postmortem mid-frontal cortical tissue from cognitively normal older subjects with a short postmortem interval. Insulin-evoked insulin receptor (IR) activation increases activated, tyrosine-phosphorylated IRbeta on tyrosine residues 960, 1150, and 1151, insulin receptor substrate-1 recruitment to IRbeta and phosphorylated RAC-alpha-serine/threonine-protein kinase. Adiponectin augments, but leptin inhibits, insulin signaling. Adiponectin activates adiponectin receptors to induce APPL1 binding to adiponectin receptor 1 and 2 and T-cadherin and downstream adenosine monophosphate-dependent protein kinase phosphorylation. Insulin inhibited adiponectin-induced signaling. In addition, leptin-induced leptin receptor (OB-R) signaling promotes Janus kinase 2 recruitment to OB-R and Janus kinase 2 and downstream signal transducer and activator of transcription 3 phosphorylation. Insulin enhanced leptin signaling. These data demonstrate insulin and adipokine signaling interactions in human brain. Future studies can use these methods to examine insulin, adiponectin, and leptin metabolic dysregulation in aging and disease states, such as type 2 diabetes and Alzheimer's disease-related dementias.
+31539648	0	7	Insulin	Gene	3630
+31539648	73	78	human	Species	9606
+31539648	95	102	insulin	Gene	3630
+31539648	150	167	cognitive decline	Disease	MESH:D003072
+31539648	189	213	type 2 diabetes mellitus	Disease	MESH:D003924
+31539648	218	244	neurodegenerative diseases	Disease	MESH:D019636
+31539648	291	298	insulin	Gene	3630
+31539648	300	311	adiponectin	Gene	9370
+31539648	316	322	leptin	Gene	3952
+31539648	477	484	Insulin	Gene	3630
+31539648	492	508	insulin receptor	Gene	3643
+31539648	510	512	IR	Gene	3643
+31539648	580	601	tyrosine residues 960	ProteinMutation	tmVar:p|Allele|Y|960;VariantGroup:0;CorrespondingGene:3667;CorrespondingSpecies:9606
+31539648	619	647	insulin receptor substrate-1	Gene	3667
+31539648	689	730	RAC-alpha-serine/threonine-protein kinase	Gene	207
+31539648	732	743	Adiponectin	Gene	9370
+31539648	758	764	leptin	Gene	3952
+31539648	775	782	insulin	Gene	3630
+31539648	794	805	Adiponectin	Gene	9370
+31539648	848	853	APPL1	Gene	26060
+31539648	865	893	adiponectin receptor 1 and 2	Gene	51094;79602
+31539648	898	908	T-cadherin	Gene	1012
+31539648	990	997	Insulin	Gene	3630
+31539648	1008	1019	adiponectin	Gene	9370
+31539648	1052	1058	leptin	Gene	3952
+31539648	1067	1082	leptin receptor	Gene	3953
+31539648	1084	1088	OB-R	Gene	3953
+31539648	1109	1123	Janus kinase 2	Gene	3717
+31539648	1139	1143	OB-R	Gene	3953
+31539648	1148	1162	Janus kinase 2	Gene	3717
+31539648	1178	1228	signal transducer and activator of transcription 3	Gene	6774
+31539648	1246	1253	Insulin	Gene	3630
+31539648	1263	1269	leptin	Gene	3952
+31539648	1304	1311	insulin	Gene	3630
+31539648	1352	1357	human	Species	9606
+31539648	1413	1420	insulin	Gene	3630
+31539648	1422	1433	adiponectin	Gene	9370
+31539648	1439	1445	leptin	Gene	3952
+31539648	1507	1522	type 2 diabetes	Disease	MESH:D003924
+31539648	1527	1546	Alzheimer's disease	Disease	MESH:D000544
+31539648	1555	1564	dementias	Disease	MESH:D003704
+31539648	Positive_Correlation	26060	9370
+31539648	Association	26060	51094
+31539648	Positive_Correlation	3952	6774
+31539648	Positive_Correlation	1012	9370
+31539648	Bind	51094	9370
+31539648	Bind	79602	9370
+31539648	Association	MESH:D003704	3630
+31539648	Association	MESH:D000544	3952
+31539648	Negative_Correlation	3630	9370
+31539648	Association	MESH:D003704	9370
+31539648	Association	MESH:D003072	3630
+31539648	Positive_Correlation	207	3643
+31539648	Positive_Correlation	3717	3953
+31539648	Association	26060	79602
+31539648	Association	MESH:D000544	3630
+31539648	Association	3630	3667
+31539648	Negative_Correlation	3630	3952
+31539648	Association	MESH:D003924	3630
+31539648	Positive_Correlation	3717	3952
+31539648	Association	MESH:D019636	3630
+31539648	Positive_Correlation	3630	3643
+31539648	Association	207	3630
+31539648	Association	MESH:D000544	9370
+31539648	Association	1012	26060
+31539648	Association	MESH:D003704	3952
+31539648	Positive_Correlation	3952	3953
+

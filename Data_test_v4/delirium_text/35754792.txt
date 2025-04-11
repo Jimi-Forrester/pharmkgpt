@@ -1,0 +1,45 @@
+35754792|t|TMED2/9/10 Serve as Biomarkers for Poor Prognosis in Head and Neck Squamous Carcinoma.
+35754792|a|Background: Head and neck squamous carcinoma (HNSC) is one of the most common malignant tumors with high incidence and poor prognosis. Transmembrane emp24 structural domain (TMED) proteins are involved in protein transport and vesicle budding processes, which have implicated various malignancies' progression. However, the roles of TMEDs in HNSC, especially in terms of development and prognosis, have not been fully elucidated. Methods: We applied TIMER 2.0, UALCAN, GEPIA 2, Kaplan-Meier plotter, GEO, The Human Protein Atlas (HPA), cBioPortal, Linkedomics, Metascape, GRNdb, STRING, and Cytoscape to investigate the roles of TMED family members in HNSC. Results: Compared with normal tissues, the mRNA expression levels of TMED1/2/4/5/7/8/9/10 were significantly increased in the TCGA HNSC dataset. And we combined GEPIA 2 and Kaplan-Meier Plotter to select TMED2/9/10 with prognostic value. Then we detected the levels of mRNA in the GEO HNSC database and the protein expression in HPA. It was found that the mRNA and protein expression levels of TMED2/9/10 were increased in HNSC. Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analysis showed that TMED2/9/10 and their co-expressed genes promoted the malignant behavior of tumors by participating in biological processes such as intracellular transferase complex, protein transport, focal adhesion, intracellular protein processing. Single-cell analysis and immune infiltration analysis suggested that immune responses of cancer-associated fibroblasts and endothelial cells might be associated with prognosis. Finally, the transcription factors-genes network and protein-protein functional interaction network pointed to genes such as X-box binding protein 1 (XBP1) and TMED7, which might cooperate with TMED2/9/10 to change the progression of HNSC. Conclusions: Our study implied that TMED2/9/10 and related genes mightjointly affect the prognosis of HNSC, providing specific clues for further experimental research, personalized diagnosis strategies, and targeted clinical therapy for HNSC.
+35754792	0	10	TMED2/9/10	Gene	10959;54732;10972
+35754792	53	85	Head and Neck Squamous Carcinoma	Disease	MESH:D000077195
+35754792	99	131	Head and neck squamous carcinoma	Disease	MESH:D000077195
+35754792	133	137	HNSC	Disease	MESH:D000077195
+35754792	165	181	malignant tumors	Disease	MESH:D009369
+35754792	371	383	malignancies	Disease	MESH:D009369
+35754792	420	425	TMEDs	Disease	
+35754792	429	433	HNSC	Disease	MESH:D000077195
+35754792	596	601	Human	Species	9606
+35754792	739	743	HNSC	Disease	MESH:D000077195
+35754792	814	825	TMED1/2/4/5	Gene	11018;10959;222068;50999
+35754792	876	880	HNSC	Disease	MESH:D000077195
+35754792	949	959	TMED2/9/10	Gene	10959;54732;10972
+35754792	1030	1034	HNSC	Disease	MESH:D000077195
+35754792	1139	1149	TMED2/9/10	Gene	10959;54732;10972
+35754792	1168	1172	HNSC	Disease	MESH:D000077195
+35754792	1265	1275	TMED2/9/10	Gene	10959;54732;10972
+35754792	1340	1346	tumors	Disease	MESH:D009369
+35754792	1589	1595	cancer	Disease	MESH:D009369
+35754792	1802	1825	X-box binding protein 1	Gene	7494
+35754792	1827	1831	XBP1	Gene	7494
+35754792	1837	1842	TMED7	Gene	51014
+35754792	1871	1881	TMED2/9/10	Gene	10959;54732;10972
+35754792	1911	1915	HNSC	Disease	MESH:D000077195
+35754792	1953	1963	TMED2/9/10	Gene	10959;54732;10972
+35754792	2019	2023	HNSC	Disease	MESH:D000077195
+35754792	2154	2158	HNSC	Disease	MESH:D000077195
+35754792	Positive_Correlation	MESH:D000077195	54732
+35754792	Positive_Correlation	MESH:D009369	54732
+35754792	Bind	10959	51014
+35754792	Association	10972	7494
+35754792	Bind	51014	54732
+35754792	Positive_Correlation	MESH:D000077195	10972
+35754792	Positive_Correlation	MESH:D009369	10972
+35754792	Association	54732	7494
+35754792	Positive_Correlation	MESH:D000077195	50999
+35754792	Positive_Correlation	MESH:D000077195	10959
+35754792	Positive_Correlation	MESH:D009369	10959
+35754792	Positive_Correlation	MESH:D000077195	11018
+35754792	Positive_Correlation	MESH:D000077195	222068
+35754792	Bind	10972	51014
+35754792	Association	10959	7494
+

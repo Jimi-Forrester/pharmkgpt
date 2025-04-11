@@ -1,0 +1,18 @@
+31437902|t|Learning to Identify Severe Maternal Morbidity from Electronic Health Records.
+31437902|a|Severe maternal morbidity (SMM) is broadly defined as significant complications in pregnancy that have an adverse effect on women's health. Identifying women who experience SMM and reviewing their obstetric care can assist healthcare organizations in recognizing risk factors and best practices for management. Various definitions of SMM have been posited, but there is no consensus. Existing definitions are further limited in that they 1) are often rooted in existing clinical knowledge (which is problematic as many risk factors remain unknown), leading to poor positive predictive performance (PPV), and 2) have limited scalability as they often require substantial chart review. Thus, in this paper, a machine learning framework was introduced to automatically identify SMM and relevant risk factors from electronic health records (EHRs). We evaluated this framework with EHR data from 45,858 deliveries at a large academic medical center. The framework outperformed a state-of-the-art model from the U.S. Centers for Disease Control and Prevention (AUC of 0.94 vs. 0.80). Specially, it improved upon PPV by 59% (CDC: 0.22 vs. our model: 0.35). In the process, we revealed several novel SMM indicators, including disorders of fluid or electrolytes, systemic inflammatory response syndrome, and acidosis.
+31437902	21	46	Severe Maternal Morbidity	Disease	MESH:D045169
+31437902	79	104	Severe maternal morbidity	Disease	MESH:D045169
+31437902	106	109	SMM	Disease	MESH:D045169
+31437902	203	208	women	Species	9606
+31437902	231	236	women	Species	9606
+31437902	252	255	SMM	Disease	MESH:D045169
+31437902	410	412	of	Disease	
+31437902	413	416	SMM	Disease	MESH:D045169
+31437902	854	857	SMM	Disease	MESH:D045169
+31437902	1059	1061	of	Disease	
+31437902	1138	1140	of	Disease	
+31437902	1271	1274	SMM	Disease	MESH:D045169
+31437902	1307	1309	of	Disease	
+31437902	1333	1372	systemic inflammatory response syndrome	Disease	MESH:D018746
+31437902	1378	1386	acidosis	Disease	MESH:D000138
+

@@ -1,0 +1,48 @@
+21264320|t|Defects in very long chain fatty acid synthesis enhance alpha-synuclein toxicity in a yeast model of Parkinson's disease.
+21264320|a|We identified three S. cerevisiae lipid elongase null mutants (elo1Delta, elo2Delta, and elo3Delta) that enhance the toxicity of alpha-synuclein (alpha-syn). These elongases function in the endoplasmic reticulum (ER) to catalyze the elongation of medium chain fatty acids to very long chain fatty acids, which is a component of sphingolipids. Without alpha-syn expression, the various elo mutants showed no growth defects, no reactive oxygen species (ROS) accumulation, and a modest decrease in survival of aged cells compared to wild-type cells. With (WT, A53T or E46K) alpha-syn expression, the various elo mutants exhibited severe growth defects (although A30P had a negligible effect on growth), ROS accumulation, aberrant protein trafficking, and a dramatic decrease in survival of aged cells compared to wild-type cells. Inhibitors of ceramide synthesis, myriocin and FB1, were extremely toxic to wild-type yeast cells expressing (WT, A53T, or E46K) alpha-syn but much less toxic to cells expressing A30P. The elongase mutants and ceramide synthesis inhibitors enhance the toxicity of WT alpha-syn, A53T and E46K, which transit through the ER, but have a negligible effect on A30P, which does not transit through the ER. Disruption of ceramide-sphingolipid homeostasis in the ER dramatically enhances the toxicity of alpha-syn (WT, A53T, and E46K).
+21264320	27	37	fatty acid	Chemical	MESH:D005227
+21264320	72	80	toxicity	Disease	MESH:D064420
+21264320	86	91	yeast	Species	4932
+21264320	101	120	Parkinson's disease	Disease	MESH:D010300
+21264320	142	155	S. cerevisiae	Species	4932
+21264320	239	247	toxicity	Disease	MESH:D064420
+21264320	382	393	fatty acids	Chemical	MESH:D005227
+21264320	413	424	fatty acids	Chemical	MESH:D005227
+21264320	450	463	sphingolipids	Chemical	MESH:D013107
+21264320	548	571	reactive oxygen species	Chemical	MESH:D017382
+21264320	573	576	ROS	Chemical	MESH:D017382
+21264320	679	683	A53T	DNAMutation	tmVar:c|SUB|A|53|T;HGVS:c.53A>T;VariantGroup:0
+21264320	687	691	E46K	ProteinMutation	tmVar:p|SUB|E|46|K;HGVS:p.E46K;VariantGroup:1
+21264320	781	785	A30P	ProteinMutation	tmVar:p|SUB|A|30|P;HGVS:p.A30P;VariantGroup:2
+21264320	822	825	ROS	Chemical	MESH:D017382
+21264320	963	971	ceramide	Chemical	MESH:D002518
+21264320	983	991	myriocin	Chemical	MESH:C001996
+21264320	996	999	FB1	Chemical	MESH:C056933
+21264320	1035	1040	yeast	Species	4932
+21264320	1063	1067	A53T	DNAMutation	tmVar:c|SUB|A|53|T;HGVS:c.53A>T;VariantGroup:0
+21264320	1072	1076	E46K	ProteinMutation	tmVar:p|SUB|E|46|K;HGVS:p.E46K;VariantGroup:1
+21264320	1128	1132	A30P	ProteinMutation	tmVar:p|SUB|A|30|P;HGVS:p.A30P;VariantGroup:2
+21264320	1159	1167	ceramide	Chemical	MESH:D002518
+21264320	1201	1209	toxicity	Disease	MESH:D064420
+21264320	1227	1231	A53T	DNAMutation	tmVar:c|SUB|A|53|T;HGVS:c.53A>T;VariantGroup:0
+21264320	1236	1240	E46K	ProteinMutation	tmVar:p|SUB|E|46|K;HGVS:p.E46K;VariantGroup:1
+21264320	1304	1308	A30P	ProteinMutation	tmVar:p|SUB|A|30|P;HGVS:p.A30P;VariantGroup:2
+21264320	1363	1371	ceramide	Chemical	MESH:D002518
+21264320	1372	1384	sphingolipid	Chemical	MESH:D013107
+21264320	1433	1441	toxicity	Disease	MESH:D064420
+21264320	1460	1464	A53T	DNAMutation	tmVar:c|SUB|A|53|T;HGVS:c.53A>T;VariantGroup:0
+21264320	1470	1474	E46K	ProteinMutation	tmVar:p|SUB|E|46|K;HGVS:p.E46K;VariantGroup:1
+21264320	Negative_Correlation	MESH:C001996	HGVS:p.E46K
+21264320	Association	MESH:D005227	MESH:D013107
+21264320	Positive_Correlation	MESH:D064420	HGVS:p.E46K
+21264320	Association	MESH:D002518	HGVS:p.E46K
+21264320	Association	MESH:D013107	MESH:D064420
+21264320	Negative_Correlation	MESH:C056933	MESH:D002518
+21264320	Negative_Correlation	MESH:C056933	HGVS:p.A30P
+21264320	Association	MESH:D005227	MESH:D064420
+21264320	Negative_Correlation	MESH:C056933	HGVS:p.E46K
+21264320	Positive_Correlation	HGVS:c.53A>T	MESH:D064420
+21264320	Association	MESH:D002518	MESH:D064420
+21264320	Association	MESH:D002518	HGVS:c.53A>T
+21264320	Negative_Correlation	MESH:C001996	MESH:D002518
+

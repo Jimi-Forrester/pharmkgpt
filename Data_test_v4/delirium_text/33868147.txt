@@ -1,0 +1,16 @@
+33868147|t|Machine Learning-Enabled 30-Day Readmission Model for Stroke Patients.
+33868147|a|Background and Purpose: Hospital readmissions impose a substantial burden on the healthcare system. Reducing readmissions after stroke could lead to improved quality of care especially since stroke is associated with a high rate of readmission. The goal of this study is to enhance our understanding of the predictors of 30-day readmission after ischemic stroke and develop models to identify high-risk individuals for targeted interventions. Methods: We used patient-level data from electronic health records (EHR), five machine learning algorithms (random forest, gradient boosting machine, extreme gradient boosting-XGBoost, support vector machine, and logistic regression-LR), data-driven feature selection strategy, and adaptive sampling to develop 15 models of 30-day readmission after ischemic stroke. We further identified important clinical variables. Results: We included 3,184 patients with ischemic stroke (mean age: 71 +- 13.90 years, men: 51.06%). Among the 61 clinical variables included in the model, the National Institutes of Health Stroke Scale score above 24, insert indwelling urinary catheter, hypercoagulable state, and percutaneous gastrostomy had the highest importance score. The Model's AUC (area under the curve) for predicting 30-day readmission was 0.74 (95%CI: 0.64-0.78) with PPV of 0.43 when the XGBoost algorithm was used with ROSE-sampling. The balance between specificity and sensitivity improved through the sampling strategy. The best sensitivity was achieved with LR when optimized with feature selection and ROSE-sampling (AUC: 0.64, sensitivity: 0.53, specificity: 0.69). Conclusions: Machine learning-based models can be designed to predict 30-day readmission after stroke using structured data from EHR. Among the algorithms analyzed, XGBoost with ROSE-sampling had the best performance in terms of AUC while LR with ROSE-sampling and feature selection had the best sensitivity. Clinical variables highly associated with 30-day readmission could be targeted for personalized interventions. Depending on healthcare systems' resources and criteria, models with optimized performance metrics can be implemented to improve outcomes.
+33868147	54	60	Stroke	Disease	MESH:D020521
+33868147	61	69	Patients	Species	9606
+33868147	199	205	stroke	Disease	MESH:D020521
+33868147	262	268	stroke	Disease	MESH:D020521
+33868147	417	432	ischemic stroke	Disease	MESH:D002544
+33868147	531	538	patient	Species	9606
+33868147	863	878	ischemic stroke	Disease	MESH:D002544
+33868147	959	967	patients	Species	9606
+33868147	973	988	ischemic stroke	Disease	MESH:D002544
+33868147	1019	1022	men	Species	9606
+33868147	1122	1128	Stroke	Disease	MESH:D020521
+33868147	1187	1202	hypercoagulable	Disease	MESH:D019851
+33868147	1779	1785	stroke	Disease	MESH:D020521
+

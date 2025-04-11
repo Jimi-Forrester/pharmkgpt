@@ -1,0 +1,13 @@
+30271320|t|Automatic Segmentation of Corpus Callosum in Midsagittal Based on Bayesian Inference Consisting of Sparse Representation Error and Multi-Atlas Voting.
+30271320|a|In this paper, we introduce a novel automatic method for Corpus Callosum (CC) in midsagittal plane segmentation. The robust segmentation of CC in midsagittal plane is key role for quantitative study of structural features of CC associated with various neurological disorder such as epilepsy, autism, Alzheimer's disease, and so on. Our approach is based on Bayesian inference using sparse representation and multi-atlas voting which both methods are used in various medical imaging, and show outstanding performance. Prior information in the proposed Bayesian inference is obtained from probability map generated from multi-atlas voting. The probability map contains the information of shape and location of CC of target image. Likelihood in the proposed Bayesian inference is obtained from gamma distribution function, generated from reconstruction errors (or sparse representation error), which are calculated in sparse representation of target patch using foreground dictionary and background dictionary each. Unlike the usual sparse representation method, we added gradient magnitude and gradient direction information to the patches of dictionaries and target, which had better segmentation performance than when not added. We compared three main segmentation results as follow: (1) the joint label fusion (JLF) method which is state-of-art method in multi-atlas voting based segmentation for evaluation of our method; (2) prior information estimated from multi-atlas voting only; (3) likelihood estimated from comparison of the reconstruction errors from sparse representation error only; (4) the proposed Bayesian inference. The methods were evaluated using two data sets of T1-weighted images, which one data set consists of 100 normal young subjects and the other data set consist of 25 normal old subjects and 22 old subjects with heavy drinker. In both data sets, the proposed Bayesian inference method has significantly the best segmentation performance than using each method separately.
+30271320	26	41	Corpus Callosum	Disease	MESH:D061085
+30271320	208	223	Corpus Callosum	Disease	MESH:D061085
+30271320	225	227	CC	Disease	MESH:D061085
+30271320	291	293	CC	Disease	MESH:D061085
+30271320	376	378	CC	Disease	MESH:D061085
+30271320	403	424	neurological disorder	Disease	MESH:D009461
+30271320	433	441	epilepsy	Disease	MESH:D004827
+30271320	443	449	autism	Disease	MESH:D001321
+30271320	451	470	Alzheimer's disease	Disease	MESH:D000544
+30271320	859	861	CC	Disease	MESH:D061085
+

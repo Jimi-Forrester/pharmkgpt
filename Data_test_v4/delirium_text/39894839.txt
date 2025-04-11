@@ -1,0 +1,65 @@
+39894839|t|CCL21-CCR7 blockade prevents neuroinflammation and degeneration in Parkinson's disease models.
+39894839|a|Parkinson's disease (PD) is a progressive degenerative disease of the central nervous system associated with neuroinflammation and microglial cell activation. Chemokine signaling regulates neuron-glia communication and triggers a microglial inflammatory profile. Herein, we identified the neuronal chemokine CCL21 as a major cause of microglial cell imbalance through the CCR7 receptor pathway with therapeutic implications for PD. In humans, we found that CCL21 transcript expression was increased in dopaminergic neurons (DANs) of the substantia nigra in PD patients. CCL21 and CCR7 expressions were spatially associated with brain regional vulnerability to synucleinopathies, as well as with the expression of microglial activation, neuroinflammation, and degeneration-related genes. Also, in mouse models of PD, we showed that CCL21 was overexpressed in DANs in vivo and in vitro. Mechanistically, neuronal CCL21 was shown to regulate microglial cell migration, proliferation, and activation in a CCR7-dependent manner through both canonical (PI3K/AKT) and non-canonical (ERK1/2/JNK) signaling pathways. Finally, we demonstrated that navarixin, a clinically relevant chemokine inhibitor with high affinity for the CCR7 receptor, could block CCL21 effects on microglia and prevent neurodegeneration and behavioral deficits in two mouse models of PD induced with either alpha-synuclein oligomers (alphaSynO) or 3,4-dihydroxyphenylacetaldehyde (DOPAL). Altogether, our data indicate that navarixin blocks CCL21/CCR7-mediated neuron-microglia communication and could be used as a therapeutic strategy against PD.
+39894839	0	5	CCL21	Gene	6366
+39894839	6	10	CCR7	Gene	12775
+39894839	29	46	neuroinflammation	Disease	MESH:D000090862
+39894839	51	63	degeneration	Disease	MESH:D009410
+39894839	67	86	Parkinson's disease	Disease	MESH:D010300
+39894839	95	114	Parkinson's disease	Disease	MESH:D010300
+39894839	116	118	PD	Disease	MESH:D010300
+39894839	137	187	degenerative disease of the central nervous system	Disease	MESH:D019636
+39894839	204	221	neuroinflammation	Disease	MESH:D000090862
+39894839	336	348	inflammatory	Disease	MESH:D007249
+39894839	403	408	CCL21	Gene	6366
+39894839	523	525	PD	Disease	MESH:D010300
+39894839	530	536	humans	Species	9606
+39894839	552	557	CCL21	Gene	6366
+39894839	652	654	PD	Disease	MESH:D010300
+39894839	655	663	patients	Species	9606
+39894839	665	670	CCL21	Gene	6366
+39894839	675	679	CCR7	Gene	1236
+39894839	755	772	synucleinopathies	Disease	MESH:D000080874
+39894839	831	848	neuroinflammation	Disease	MESH:D000090862
+39894839	854	866	degeneration	Disease	MESH:D009410
+39894839	891	896	mouse	Species	10090
+39894839	907	909	PD	Disease	MESH:D010300
+39894839	926	931	CCL21	Gene	6366
+39894839	1006	1011	CCL21	Gene	6366
+39894839	1096	1100	CCR7	Gene	12775
+39894839	1142	1146	PI3K	Gene	18708
+39894839	1147	1150	AKT	Gene	11651
+39894839	1178	1181	JNK	Gene	26419
+39894839	1233	1242	navarixin	Chemical	MESH:C516686
+39894839	1340	1345	CCL21	Gene	6366
+39894839	1379	1396	neurodegeneration	Disease	MESH:D019636
+39894839	1401	1420	behavioral deficits	Disease	MESH:D019958
+39894839	1428	1433	mouse	Species	10090
+39894839	1444	1446	PD	Disease	MESH:D010300
+39894839	1467	1482	alpha-synuclein	Gene	20617
+39894839	1508	1539	3,4-dihydroxyphenylacetaldehyde	Chemical	MESH:C007430
+39894839	1541	1546	DOPAL	Chemical	MESH:C007430
+39894839	1584	1593	navarixin	Chemical	MESH:C516686
+39894839	1601	1606	CCL21	Gene	6366
+39894839	1607	1611	CCR7	Gene	12775
+39894839	1704	1706	PD	Disease	MESH:D010300
+39894839	Positive_Correlation	MESH:D010300	6366
+39894839	Positive_Correlation	MESH:D010300	20617
+39894839	Association	MESH:D009410	12775
+39894839	Negative_Correlation	MESH:C516686	6366
+39894839	Association	11651	6366
+39894839	Negative_Correlation	MESH:C516686	MESH:D019636
+39894839	Association	18708	6366
+39894839	Negative_Correlation	MESH:C516686	MESH:D010300
+39894839	Positive_Correlation	MESH:C007430	MESH:D010300
+39894839	Association	MESH:D000090862	12775
+39894839	Association	MESH:D000080874	6366
+39894839	Association	MESH:D000090862	1236
+39894839	Association	26419	6366
+39894839	Negative_Correlation	MESH:C516686	12775
+39894839	Association	MESH:D000080874	1236
+39894839	Association	MESH:D000090862	6366
+39894839	Association	MESH:D009410	6366
+39894839	Association	MESH:D009410	1236
+39894839	Negative_Correlation	MESH:C516686	MESH:D019958
+39894839	Association	12775	6366
+

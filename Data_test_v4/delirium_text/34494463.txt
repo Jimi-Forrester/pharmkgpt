@@ -1,0 +1,13 @@
+34494463|t|A modified binary particle swarm optimization with a machine learning algorithm and molecular docking for QSAR modelling of cholinesterase inhibitors.
+34494463|a|The acetylcholinesterase (AChE) and butyrylcholinesterase (BuChE) inhibitors play a key role in treating Alzheimer's disease. This study proposes an approach that integrates a modified binary particle swarm optimization (PSO) with a machine learning algorithm for building QSAR models to predict the activity of inhibitors for AChE and BuChE enzymes. More precisely, it uses a transfer function to convert the continuous search space of PSO to binary. Furthermore, it utilizes the concepts of catfish effect and chaotic map to improve exploration ability in searching for an optimum subset of descriptors for QSAR model constructions. Then, through a statistical method, it employs a machine learning algorithm to evaluate the fitness value of each candidate subset of features. Different combinations of four transfer functions with four machine learning algorithms, including K-nearest neighbour, multiple linear regression, support vector machine, and regression tree, were used to build several variants of the proposed algorithm. QSAR models constructed by each version were verified by internal and external validations. The best variants were selected based on a method called sum of ranking differences.
+34494463	124	138	cholinesterase	Gene	590
+34494463	155	175	acetylcholinesterase	Gene	43
+34494463	177	181	AChE	Gene	43
+34494463	187	208	butyrylcholinesterase	Gene	590
+34494463	210	215	BuChE	Gene	590
+34494463	256	275	Alzheimer's disease	Disease	MESH:D000544
+34494463	478	482	AChE	Gene	43
+34494463	487	492	BuChE	Gene	590
+34494463	Association	MESH:D000544	590
+34494463	Association	MESH:D000544	43
+

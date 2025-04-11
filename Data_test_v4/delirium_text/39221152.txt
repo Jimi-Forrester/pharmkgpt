@@ -1,0 +1,41 @@
+39221152|t|Bioinformatic analysis of hippocampal histopathology in Alzheimer's disease and the therapeutic effects of active components of traditional Chinese medicine.
+39221152|a|Background and aim: Pathological changes in the central nervous system (CNS) begin before the clinical symptoms of Alzheimer's Disease (AD) manifest, with the hippocampus being one of the first affected structures. Current treatments fail to alter AD progression. Traditional Chinese medicine (TCM) has shown potential in improving AD pathology through multi-target mechanisms. This study investigates pathological changes in AD hippocampal tissue and explores TCM active components that may alleviate these changes. Methods: GSE5281 and GSE173955 datasets were downloaded from GEO and normalized to identify differentially expressed genes (DEGs). Key functional modules and hub genes were analyzed using Cytoscape and R. Active TCM components were identified from literature and the Pharmacopoeia of the People's Republic of China. Enrichment analyses were performed on target genes overlapping with DEGs. Result: From the datasets, 76 upregulated and 363 downregulated genes were identified. Hub genes included SLAMF, CD34, ELN (upregulated) and ATP5F1B, VDAC1, VDAC2, HSPA8, ATP5F1C, PDHA1, UBB, SNCA, YWHAZ, PGK1 (downregulated). Literature review identified 33 active components from 23 herbal medicines. Target gene enrichment and analysis were performed for six components: dihydroartemisinin, berberine, naringenin, calycosin, echinacoside, and icariside II. Conclusion: Mitochondrial to synaptic vesicle dysfunction pathways were enriched in downregulated genes. Despite downregulation, UBB and SNCA proteins accumulate in AD brains. TCM studies suggest curcumin and echinacoside may improve hippocampal pathology and cognitive impairment in AD. Further investigation into their mechanisms is needed.
+39221152	56	75	Alzheimer's disease	Disease	MESH:D000544
+39221152	273	292	Alzheimer's Disease	Disease	MESH:D000544
+39221152	294	296	AD	Disease	MESH:D000544
+39221152	406	408	AD	Disease	MESH:D000544
+39221152	490	492	AD	Disease	MESH:D000544
+39221152	584	586	AD	Disease	MESH:D000544
+39221152	1178	1182	CD34	Gene	947
+39221152	1184	1187	ELN	Gene	2006
+39221152	1215	1220	VDAC1	Gene	7416
+39221152	1222	1227	VDAC2	Gene	7417
+39221152	1229	1234	HSPA8	Gene	3312
+39221152	1245	1250	PDHA1	Gene	5160
+39221152	1252	1255	UBB	Gene	7314
+39221152	1257	1261	SNCA	Gene	6622
+39221152	1263	1268	YWHAZ	Gene	7534
+39221152	1270	1274	PGK1	Gene	5230
+39221152	1439	1457	dihydroartemisinin	Chemical	MESH:C039060
+39221152	1459	1468	berberine	Chemical	MESH:D001599
+39221152	1470	1480	naringenin	Chemical	MESH:C005273
+39221152	1482	1491	calycosin	Chemical	MESH:C121707
+39221152	1493	1505	echinacoside	Chemical	MESH:C060297
+39221152	1511	1523	icariside II	Chemical	MESH:C060988
+39221152	1537	1550	Mitochondrial	Disease	MESH:D028361
+39221152	1554	1582	synaptic vesicle dysfunction	Disease	MESH:C567751
+39221152	1654	1657	UBB	Gene	7314
+39221152	1662	1666	SNCA	Gene	6622
+39221152	1690	1692	AD	Disease	MESH:D000544
+39221152	1721	1729	curcumin	Chemical	MESH:D003474
+39221152	1734	1746	echinacoside	Chemical	MESH:C060297
+39221152	1785	1805	cognitive impairment	Disease	MESH:D003072
+39221152	1809	1811	AD	Disease	MESH:D000544
+39221152	Negative_Correlation	MESH:D003474	MESH:D000544
+39221152	Negative_Correlation	MESH:D003474	MESH:D003072
+39221152	Association	MESH:D000544	2006
+39221152	Association	MESH:D000544	6622
+39221152	Negative_Correlation	MESH:C060297	MESH:D000544
+39221152	Association	MESH:D000544	7314
+39221152	Negative_Correlation	MESH:C060297	MESH:D003072
+

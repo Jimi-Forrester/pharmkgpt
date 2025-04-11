@@ -1,0 +1,16 @@
+26441619|t|Neurovascular coupling: a parallel implementation.
+26441619|a|A numerical model of neurovascular coupling (NVC) is presented based on neuronal activity coupled to vasodilation/contraction models via the astrocytic mediated perivascular K(+) and the smooth muscle cell (SMC) Ca(2+) pathway termed a neurovascular unit (NVU). Luminal agonists acting on P2Y receptors on the endothelial cell (EC) surface provide a flux of inositol trisphosphate (IP3) into the endothelial cytosol. This concentration of IP3 is transported via gap junctions between EC and SMC providing a source of sarcoplasmic derived Ca(2+) in the SMC. The model is able to relate a neuronal input signal to the corresponding vessel reaction (contraction or dilation). A tissue slice consisting of blocks, each of which contain an NVU is connected to a space filling H-tree, simulating a perfusing arterial tree (vasculature) The model couples the NVUs to the vascular tree via a stretch mediated Ca(2+) channel on both the EC and SMC. The SMC is induced to oscillate by increasing an agonist flux in the EC and hence increased IP3 induced Ca(2+) from the SMC stores with the resulting calcium-induced calcium release (CICR) oscillation inhibiting NVC thereby relating blood flow to vessel contraction and dilation following neuronal activation. The coupling between the vasculature and the set of NVUs is relatively weak for the case with agonist induced where only the Ca(2+) in cells inside the activated area becomes oscillatory however, the radii of vessels both inside and outside the activated area oscillate (albeit small for those outside). In addition the oscillation profile differs between coupled and decoupled states with the time required to refill the cytosol with decreasing Ca(2+) and increasing frequency with coupling. The solution algorithm is shown to have excellent weak and strong scaling. Results have been generated for tissue slices containing up to 4096 blocks. 
+26441619	263	269	Ca(2+)	Chemical	-
+26441619	409	431	inositol trisphosphate	Chemical	-
+26441619	433	436	IP3	Chemical	MESH:D015544
+26441619	490	493	IP3	Chemical	MESH:D015544
+26441619	589	595	Ca(2+)	Chemical	-
+26441619	952	958	Ca(2+)	Chemical	-
+26441619	1083	1086	IP3	Chemical	MESH:D015544
+26441619	1095	1101	Ca(2+)	Chemical	-
+26441619	1141	1148	calcium	Chemical	MESH:D002118
+26441619	1157	1164	calcium	Chemical	MESH:D002118
+26441619	1426	1432	Ca(2+)	Chemical	-
+26441619	1747	1753	Ca(2+)	Chemical	-
+26441619	Positive_Correlation	MESH:D002118	MESH:D015544
+

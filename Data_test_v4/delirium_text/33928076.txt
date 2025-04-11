@@ -1,0 +1,16 @@
+33928076|t|Optimizing Diffusion Imaging Protocols for Structural Connectomics in Mouse Models of Neurological Conditions.
+33928076|a|Network approaches provide sensitive biomarkers for neurological conditions, such as Alzheimer's disease (AD). Mouse models can help advance our understanding of underlying pathologies, by dissecting vulnerable circuits. While the mouse brain contains less white matter compared to the human brain, axonal diameters compare relatively well (e.g., ~0.6 mum in the mouse and ~0.65-1.05 mum in the human corpus callosum). This makes the mouse an attractive test bed for novel diffusion models and imaging protocols. Remaining questions on the accuracy and uncertainty of connectomes have prompted us to evaluate diffusion imaging protocols with various spatial and angular resolutions. We have derived structural connectomes by extracting gradient subsets from a high-spatial, high-angular resolution diffusion acquisition (120 directions, 43-mum-size voxels). We have simulated protocols with 12, 15, 20, 30, 45, 60, 80, 100, and 120 angles and at 43, 86, or 172-mum voxel sizes. The rotational stability of these schemes increased with angular resolution. The minimum condition number was achieved for 120 directions, followed by 60 and 45 directions. The percentage of voxels containing one dyad was exceeded by those with two dyads after 45 directions, and for the highest spatial resolution protocols. For the 86- or 172-mum resolutions, these ratios converged toward 55% for one and 39% for two dyads, respectively, with <7% from voxels with three dyads. Tractography errors, estimated through dyad dispersion, decreased most with angular resolution. Spatial resolution effects became noticeable at 172 mum. Smaller tracts, e.g., the fornix, were affected more than larger ones, e.g., the fimbria. We observed an inflection point for 45 directions, and an asymptotic behavior after 60 directions, corresponding to similar projection density maps. Spatially downsampling to 86 mum, while maintaining the angular resolution, achieved a subgraph similarity of 96% relative to the reference. Using 60 directions with 86- or 172-mum voxels resulted in 94% similarity. Node similarity metrics indicated that major white matter tracts were more robust to downsampling relative to cortical regions. Our study provides guidelines for new protocols in mouse models of neurological conditions, so as to achieve similar connectomes, while increasing efficiency.
+33928076	70	75	Mouse	Species	10090
+33928076	86	109	Neurological Conditions	Disease	MESH:D019636
+33928076	163	186	neurological conditions	Disease	MESH:D019636
+33928076	196	215	Alzheimer's disease	Disease	MESH:D000544
+33928076	217	219	AD	Disease	MESH:D000544
+33928076	222	227	Mouse	Species	10090
+33928076	342	347	mouse	Species	10090
+33928076	397	402	human	Species	9606
+33928076	474	479	mouse	Species	10090
+33928076	506	511	human	Species	9606
+33928076	545	550	mouse	Species	10090
+33928076	2356	2361	mouse	Species	10090
+33928076	2372	2395	neurological conditions	Disease	MESH:D019636
+

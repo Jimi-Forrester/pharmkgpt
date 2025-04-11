@@ -1,0 +1,44 @@
+38248795|t|DeepBiomarker2: Prediction of Alcohol and Substance Use Disorder Risk in Post-Traumatic Stress Disorder Patients Using Electronic Medical Records and Multiple Social Determinants of Health.
+38248795|a|Prediction of high-risk events amongst patients with mental disorders is critical for personalized interventions. We developed DeepBiomarker2 by leveraging deep learning and natural language processing to analyze lab tests, medication use, diagnosis, social determinants of health (SDoH) parameters, and psychotherapy for outcome prediction. To increase the model's interpretability, we further refined our contribution analysis to identify key features by scaling with a factor from a reference feature. We applied DeepBiomarker2 to analyze the EMR data of 38,807 patients from the University of Pittsburgh Medical Center diagnosed with post-traumatic stress disorder (PTSD) to determine their risk of developing alcohol and substance use disorder (ASUD). DeepBiomarker2 predicted whether a PTSD patient would have a diagnosis of ASUD within the following 3 months with an average c-statistic (receiver operating characteristic AUC) of 0.93 and average F1 score, precision, and recall of 0.880, 0.895, and 0.866 in the test sets, respectively. Our study found that the medications clindamycin, enalapril, penicillin, valacyclovir, Xarelto/rivaroxaban, moxifloxacin, and atropine and the SDoH parameters access to psychotherapy, living in zip codes with a high normalized vegetative index, Gini index, and low-income segregation may have potential to reduce the risk of ASUDs in PTSD. In conclusion, the integration of SDoH information, coupled with the refined feature contribution analysis, empowers DeepBiomarker2 to accurately predict ASUD risk. Moreover, the model can further identify potential indicators of increased risk along with medications with beneficial effects.
+38248795	30	64	Alcohol and Substance Use Disorder	Disease	MESH:D000437
+38248795	73	103	Post-Traumatic Stress Disorder	Disease	MESH:D013313
+38248795	104	112	Patients	Species	9606
+38248795	229	237	patients	Species	9606
+38248795	243	259	mental disorders	Disease	MESH:D001523
+38248795	755	763	patients	Species	9606
+38248795	828	858	post-traumatic stress disorder	Disease	MESH:D013313
+38248795	860	864	PTSD	Disease	MESH:D013313
+38248795	904	938	alcohol and substance use disorder	Disease	MESH:D000437
+38248795	940	944	ASUD	Disease	MESH:D019966
+38248795	982	986	PTSD	Disease	MESH:D013313
+38248795	987	994	patient	Species	9606
+38248795	1021	1025	ASUD	Disease	MESH:D019966
+38248795	1272	1283	clindamycin	Chemical	MESH:D002981
+38248795	1285	1294	enalapril	Chemical	MESH:D004656
+38248795	1296	1306	penicillin	Chemical	MESH:D010406
+38248795	1308	1320	valacyclovir	Chemical	MESH:D000077483
+38248795	1322	1329	Xarelto	Chemical	MESH:D000069552
+38248795	1330	1341	rivaroxaban	Chemical	MESH:D000069552
+38248795	1343	1355	moxifloxacin	Chemical	MESH:D000077266
+38248795	1361	1369	atropine	Chemical	MESH:D001285
+38248795	1560	1565	ASUDs	Disease	
+38248795	1569	1573	PTSD	Disease	MESH:D013313
+38248795	1729	1733	ASUD	Disease	MESH:D019966
+38248795	Negative_Correlation	MESH:D004656	MESH:D013313
+38248795	Negative_Correlation	MESH:D000077483	MESH:D019966
+38248795	Negative_Correlation	MESH:D010406	MESH:D019966
+38248795	Negative_Correlation	MESH:D000077266	MESH:D019966
+38248795	Negative_Correlation	MESH:D010406	MESH:D013313
+38248795	Negative_Correlation	MESH:D004656	MESH:D000437
+38248795	Negative_Correlation	MESH:D001285	MESH:D013313
+38248795	Negative_Correlation	MESH:D002981	MESH:D013313
+38248795	Negative_Correlation	MESH:D000069552	MESH:D013313
+38248795	Negative_Correlation	MESH:D000077483	MESH:D013313
+38248795	Negative_Correlation	MESH:D010406	MESH:D000437
+38248795	Negative_Correlation	MESH:D001285	MESH:D019966
+38248795	Negative_Correlation	MESH:D002981	MESH:D000437
+38248795	Negative_Correlation	MESH:D002981	MESH:D019966
+38248795	Negative_Correlation	MESH:D000069552	MESH:D019966
+38248795	Negative_Correlation	MESH:D004656	MESH:D019966
+38248795	Negative_Correlation	MESH:D000077266	MESH:D013313
+

@@ -1,0 +1,60 @@
+36299451|t|ECE2 is a prognostic biomarker associated with m6A modification and involved in immune infiltration of lung adenocarcinoma.
+36299451|a|Background: The targeted therapy for lung cancer relies on prognostic genes and requires further research. No research has been conducted to determine the effect of endothelin-converting enzyme 2 (ECE2) in lung cancer. Methods: We analyzed the expression of ECE2 in lung adenocarcinoma (LUAD) and normal adjacent tissues and its relationship with clinicopathological characteristics from The Cancer Genome Atlas (TCGA) and Gene Expression Omnibus database (GEO). Immunohistochemical staining was used to further validate the findings. GO/KEGG enrichment analysis and gene set enrichment analysis (GSEA) of ECE2 co-expression were performed using R software. Data from TIMER, the GEPIA database, and TCGA were analyzed to determine the relationship between ECE2 expression and LUAD immune infiltration. To investigate the relationship between ECE2 expression levels and LUAD m6A modification, TCGA data and GEO data were analyzed. Results: ECE2 is highly expressed in various cancers including LUAD. ECE2 showed high accuracy in distinguishing tumor and normal sample results. The expression level of ECE2 in LUAD was significantly correlated with tumor stage and prognosis. GO/KEGG enrichment analysis showed that ECE2 was closely related to mitochondrial gene expression, ATPase activity and cell cycle. GSEA analysis showed that ECE2-related differential gene enrichment pathways were related to mitotic cell cycle, MYC pathway, PLK1 pathway, DNA methylation pathway, HIF1A pathway and Oxidative stress-induced cellular senescence. Analysis of the TIMER, GEPIA database, and TCGA datasets showed that ECE2 expression levels were significantly negatively correlated with B cells, CD4+ cells, M2 macrophages, neutrophils, and dendritic cells. TCGA and GEO datasets showed that ECE2 was significantly associated with m6A modification-related genes HNRNPC, IGF2BP1, IGF2BP3 and RBM1. Conclusion: ECE2 is associated with m6A modification and immune infiltration and is a prognostic biomarker in LUAD.
+36299451	0	4	ECE2	Gene	9718
+36299451	47	50	m6A	Chemical	MESH:C005955
+36299451	103	122	lung adenocarcinoma	Disease	MESH:D000077192
+36299451	161	172	lung cancer	Disease	MESH:D008175
+36299451	289	319	endothelin-converting enzyme 2	Gene	9718
+36299451	321	325	ECE2	Gene	9718
+36299451	330	341	lung cancer	Disease	MESH:D008175
+36299451	382	386	ECE2	Gene	9718
+36299451	390	409	lung adenocarcinoma	Disease	MESH:D000077192
+36299451	411	415	LUAD	Disease	MESH:D000077192
+36299451	516	522	Cancer	Disease	MESH:D009369
+36299451	730	734	ECE2	Gene	9718
+36299451	880	884	ECE2	Gene	9718
+36299451	900	904	LUAD	Disease	MESH:D000077192
+36299451	966	970	ECE2	Gene	9718
+36299451	993	997	LUAD	Disease	MESH:D000077192
+36299451	998	1001	m6A	Chemical	MESH:C005955
+36299451	1063	1067	ECE2	Gene	9718
+36299451	1099	1106	cancers	Disease	MESH:D009369
+36299451	1117	1121	LUAD	Disease	MESH:D000077192
+36299451	1123	1127	ECE2	Gene	9718
+36299451	1167	1172	tumor	Disease	MESH:D009369
+36299451	1224	1228	ECE2	Gene	9718
+36299451	1232	1236	LUAD	Disease	MESH:D000077192
+36299451	1271	1276	tumor	Disease	MESH:D009369
+36299451	1338	1342	ECE2	Gene	9718
+36299451	1397	1403	ATPase	Gene	1769
+36299451	1455	1459	ECE2	Gene	9718
+36299451	1542	1545	MYC	Gene	4609
+36299451	1555	1559	PLK1	Gene	5347
+36299451	1594	1599	HIF1A	Gene	3091
+36299451	1727	1731	ECE2	Gene	9718
+36299451	1805	1808	CD4	Gene	920
+36299451	1901	1905	ECE2	Gene	9718
+36299451	1940	1943	m6A	Chemical	MESH:C005955
+36299451	1971	1977	HNRNPC	Gene	3183
+36299451	1979	1986	IGF2BP1	Gene	10642
+36299451	1988	1995	IGF2BP3	Gene	10643
+36299451	2000	2004	RBM1	Gene	494115
+36299451	2018	2022	ECE2	Gene	9718
+36299451	2042	2045	m6A	Chemical	MESH:C005955
+36299451	2116	2120	LUAD	Disease	MESH:D000077192
+36299451	Association	MESH:C005955	494115
+36299451	Association	1769	9718
+36299451	Association	MESH:C005955	10643
+36299451	Association	MESH:D009369	9718
+36299451	Association	MESH:C005955	9718
+36299451	Association	10642	9718
+36299451	Association	5347	9718
+36299451	Negative_Correlation	920	9718
+36299451	Association	MESH:C005955	10642
+36299451	Association	MESH:C005955	3183
+36299451	Association	494115	9718
+36299451	Association	4609	9718
+36299451	Association	3091	9718
+36299451	Association	MESH:D000077192	9718
+36299451	Association	10643	9718
+

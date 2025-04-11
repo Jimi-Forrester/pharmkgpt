@@ -1,0 +1,16 @@
+34159278|t|EEG signal analysis using classification techniques: Logistic regression, artificial neural networks, support vector machines, and convolutional neural networks.
+34159278|a|Epilepsy is a brain abnormality that leads its patients to suffer from seizures, which conditions their behavior and lifestyle. Neurologists use an electroencephalogram (EEG) to diagnose this disease. This test illustrates the signaling behavior of a person's brain, allowing, among other things, the diagnosis of epilepsy. From a visual analysis of these signals, neurologists identify patterns such as peaks or valleys, looking for any indication of brain disorder that leads to the diagnosis of epilepsy in a purely qualitative way. However, by applying a test based on Fourier signal analysis through rapid transformation in the frequency domain, patterns can be quantitatively identified to differentiate patients diagnosed with the disease and others who are not. In this article, an analysis of the EEG signal is performed to extract characteristics in patients already classified as epileptic and non-epileptic, which will be used in the training of models based on classification techniques such as logistic regression, artificial neural networks, support vector machines, and convolutional neural networks. Based on the results obtained with each technique, an analysis is performed to decide which of these behaves better. In this study traditional classification techniques were implemented that had as data frequency data in the channels with distinctive information of EEG examinations, this was done through a feature extraction obtained with Fourier analysis considering frequency bands. The techniques used for classification were implemented in Python and through a comparison of metrics and performance, it was concluded that the best classification technique to characterize epileptic patients are artificial neural networks with an accuracy of 86%.
+34159278	162	170	Epilepsy	Disease	MESH:D004827
+34159278	176	193	brain abnormality	Disease	MESH:D001927
+34159278	209	217	patients	Species	9606
+34159278	233	241	seizures	Disease	MESH:D012640
+34159278	476	484	epilepsy	Disease	MESH:D004827
+34159278	614	628	brain disorder	Disease	MESH:D001927
+34159278	660	668	epilepsy	Disease	MESH:D004827
+34159278	872	880	patients	Species	9606
+34159278	1022	1030	patients	Species	9606
+34159278	1053	1062	epileptic	Disease	MESH:D004827
+34159278	1071	1080	epileptic	Disease	MESH:D004827
+34159278	1857	1866	epileptic	Disease	MESH:D004827
+34159278	1867	1875	patients	Species	9606
+

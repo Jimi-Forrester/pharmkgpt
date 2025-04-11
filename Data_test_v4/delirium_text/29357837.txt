@@ -1,0 +1,69 @@
+29357837|t|Detecting TF-miRNA-gene network based modules for 5hmC and 5mC brain samples: a intra- and inter-species case-study between human and rhesus.
+29357837|a|BACKGROUND: Study of epigenetics is currently a high-impact research topic. Multi stage methylation is also an area of high-dimensional prospect. In this article, we provide a new study (intra and inter-species study) on brain tissue between human and rhesus on two methylation cytosine variants based data-profiles (viz., 5-hydroxymethylcytosine (5hmC) and 5-methylcytosine (5mC) samples) through TF-miRNA-gene network based module detection. RESULTS: First of all, we determine differentially 5hmC methylated genes for human as well as rhesus for intra-species analysis, and differentially multi-stage methylated genes for inter-species analysis. Thereafter, we utilize weighted topological overlap matrix (TOM) measure and average linkage clustering consecutively on these genesets for intra- and inter-species study.We identify co-methylated and multi-stage co-methylated gene modules by using dynamic tree cut, for intra-and inter-species cases, respectively. Each module is represented by individual color in the dendrogram. Gene Ontology and KEGG pathway based analysis are then performed to identify biological functionalities of the identified modules. Finally, top ten regulator TFs and targeter miRNAs that are associated with the maximum number of gene modules, are determined for both intra-and inter-species analysis. CONCLUSIONS: The novel TFs and miRNAs obtained from the analysis are: MYST3 and ZNF771 as TFs (for human intra-species analysis), BAZ2B, RCOR3 and ATF1 as TFs (for rhesus intra-species analysis), and mml-miR-768-3p and mml-miR-561 as miRs (for rhesus intra-species analysis); and MYST3 and ZNF771 as miRs(for inter-species study). Furthermore, the genes/TFs/miRNAs that are already found to be liable for several brain-related dreadful diseases as well as rare neglected diseases (e.g., wolf Hirschhorn syndrome, Joubarts Syndrome, Huntington's disease, Simian Immunodeficiency Virus(SIV) mediated enchaphilits, Parkinsons Disease, Bipolar disorder and Schizophenia etc.) are mentioned.
+29357837	10	12	TF	Gene	2152
+29357837	50	54	5hmC	Chemical	MESH:C011865
+29357837	59	62	5mC	Chemical	MESH:D044503
+29357837	124	129	human	Species	9606
+29357837	134	140	rhesus	Species	
+29357837	384	389	human	Species	9606
+29357837	394	400	rhesus	Species	
+29357837	465	488	5-hydroxymethylcytosine	Chemical	MESH:C011865
+29357837	490	494	5hmC	Chemical	MESH:C011865
+29357837	500	516	5-methylcytosine	Chemical	MESH:D044503
+29357837	518	521	5mC	Chemical	MESH:D044503
+29357837	540	542	TF	Gene	2152
+29357837	637	641	5hmC	Chemical	MESH:C011865
+29357837	663	668	human	Species	9606
+29357837	680	686	rhesus	Species	
+29357837	1544	1549	MYST3	Gene	7994
+29357837	1554	1560	ZNF771	Gene	51333
+29357837	1573	1578	human	Species	9606
+29357837	1604	1609	BAZ2B	Gene	29994
+29357837	1611	1616	RCOR3	Gene	55758
+29357837	1621	1625	ATF1	Gene	466
+29357837	1638	1644	rhesus	Species	
+29357837	1697	1704	miR-561	Gene	693146
+29357837	1718	1724	rhesus	Species	
+29357837	1754	1759	MYST3	Gene	7994
+29357837	1764	1770	ZNF771	Gene	51333
+29357837	1901	1918	dreadful diseases	Disease	MESH:D004194
+29357837	1966	1985	Hirschhorn syndrome	Disease	MESH:D054877
+29357837	1987	2004	Joubarts Syndrome	Disease	MESH:D013577
+29357837	2006	2026	Huntington's disease	Disease	MESH:D006816
+29357837	2028	2057	Simian Immunodeficiency Virus	Species	11723
+29357837	2058	2061	SIV	Species	39804
+29357837	2072	2084	enchaphilits	Disease	
+29357837	2086	2104	Parkinsons Disease	Disease	MESH:D010300
+29357837	2106	2122	Bipolar disorder	Disease	MESH:D001714
+29357837	2127	2139	Schizophenia	Disease	
+29357837	Association	MESH:C011865	2152
+29357837	Association	MESH:D044503	MESH:D001714
+29357837	Association	MESH:D013577	2152
+29357837	Association	MESH:D054877	693146
+29357837	Association	MESH:D006816	7994
+29357837	Association	MESH:C011865	MESH:D010300
+29357837	Association	MESH:D004194	51333
+29357837	Association	MESH:D013577	7994
+29357837	Association	MESH:D013577	51333
+29357837	Association	MESH:D004194	693146
+29357837	Association	MESH:C011865	MESH:D001714
+29357837	Association	MESH:D006816	2152
+29357837	Association	MESH:D054877	51333
+29357837	Association	MESH:D004194	7994
+29357837	Association	MESH:D010300	51333
+29357837	Association	MESH:D054877	2152
+29357837	Association	MESH:D010300	693146
+29357837	Association	MESH:D054877	29994
+29357837	Association	MESH:D013577	55758
+29357837	Association	MESH:D054877	55758
+29357837	Association	MESH:D006816	693146
+29357837	Association	MESH:D054877	7994
+29357837	Association	MESH:D004194	2152
+29357837	Association	MESH:D010300	7994
+29357837	Association	MESH:D010300	2152
+29357837	Association	MESH:D044503	2152
+29357837	Association	MESH:D013577	693146
+29357837	Association	MESH:D044503	MESH:D010300
+29357837	Association	MESH:C011865	MESH:D006816
+29357837	Association	MESH:D006816	51333
+

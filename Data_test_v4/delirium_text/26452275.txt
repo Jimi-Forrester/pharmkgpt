@@ -1,0 +1,16 @@
+26452275|t|CHIMERA: Clustering of Heterogeneous Disease Effects via Distribution Matching of Imaging Patterns.
+26452275|a|Many brain disorders and diseases exhibit heterogeneous symptoms and imaging characteristics. This heterogeneity is typically not captured by commonly adopted neuroimaging analyses that seek only a main imaging pattern when two groups need to be differentiated (e.g., patients and controls, or clinical progressors and non-progressors). We propose a novel probabilistic clustering approach, CHIMERA, modeling the pathological process by a combination of multiple regularized transformations from normal/control population to the patient population, thereby seeking to identify multiple imaging patterns that relate to disease effects and to better characterize disease heterogeneity. In our framework, normal and patient populations are considered as point distributions that are matched by a variant of the coherent point drift algorithm. We explain how the posterior probabilities produced during the MAP optimization of CHIMERA can be used for clustering the patients into groups and identifying disease subtypes. CHIMERA was first validated on a synthetic dataset and then on a clinical dataset mixing 317 control subjects and patients suffering from Alzheimer's Disease (AD) and Parkison's Disease (PD). CHIMERA produced better clustering results compared to two standard clustering approaches. We further analyzed 390 T1 MRI scans from Alzheimer's patients. We discovered two main and reproducible AD subtypes displaying significant differences in cognitive performance. 
+26452275	105	120	brain disorders	Disease	MESH:D001927
+26452275	368	376	patients	Species	9606
+26452275	629	636	patient	Species	9606
+26452275	813	820	patient	Species	9606
+26452275	1062	1070	patients	Species	9606
+26452275	1231	1239	patients	Species	9606
+26452275	1255	1274	Alzheimer's Disease	Disease	MESH:D000544
+26452275	1276	1278	AD	Disease	MESH:D000544
+26452275	1284	1302	Parkison's Disease	Disease	MESH:D004194
+26452275	1304	1306	PD	Disease	MESH:D004194
+26452275	1442	1453	Alzheimer's	Disease	MESH:D000544
+26452275	1454	1462	patients	Species	9606
+26452275	1504	1506	AD	Disease	MESH:D000544
+

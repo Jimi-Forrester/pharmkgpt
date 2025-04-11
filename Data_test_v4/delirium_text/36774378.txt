@@ -1,0 +1,15 @@
+36774378|t|Logistic regression technique is comparable to complex machine learning algorithms in predicting cognitive impairment related to post intensive care syndrome.
+36774378|a|To evaluate the performance of machine learning (ML) models and to compare it with logistic regression (LR) technique in predicting cognitive impairment related to post intensive care syndrome (PICS-CI). We conducted a prospective observational study of ICU patients at two tertiary hospitals. A cohort of 2079 patients was screened, and finally 481 patients were included. Seven different ML models were considered, decision tree (DT), random forest (RF), XGBoost, neural network (NN), naive bayes (NB), and support vector machine (SVM), and compared with logistic regression (LR). Discriminative ability was evaluated by area under the receiver operating characteristic curve (AUC), calibration belt plots, and Hosmer-Lemeshow test was used to assess calibration. Decision curve analysis was performed to quantify clinical utility. Duration of delirium, poor Richards-Campbell sleep questionnaire (RCSQ) score, advanced age, and sepsis were the most frequent and important candidates risk factors for PICS-CI. All ML models showed good performance (AUC range: 0.822-0.906). NN model had the highest AUC (0.906 [95% CI 0.857-0.955]), which was slightly higher than, but not significantly different from that of LR (0.898 [95% CI 0.847-0.949]) (P > 0.05, Delong test). Given the overfitting and complexity of some ML models, the LR model was then used to develop a web-based risk calculator to aid decision-making ( https://model871010.shinyapps.io/dynnomapp/ ). In a low dimensional data, LR may yield as good performance as other complex ML models to predict cognitive impairment after ICU hospitalization.
+36774378	97	117	cognitive impairment	Disease	MESH:D003072
+36774378	129	157	post intensive care syndrome	Disease	MESH:C000657744
+36774378	291	311	cognitive impairment	Disease	MESH:D003072
+36774378	323	351	post intensive care syndrome	Disease	MESH:C000657744
+36774378	353	360	PICS-CI	Disease	
+36774378	417	425	patients	Species	9606
+36774378	470	478	patients	Species	9606
+36774378	509	517	patients	Species	9606
+36774378	1005	1013	delirium	Disease	MESH:D003693
+36774378	1090	1096	sepsis	Disease	MESH:D018805
+36774378	1162	1169	PICS-CI	Disease	
+36774378	1720	1740	cognitive impairment	Disease	MESH:D003072
+

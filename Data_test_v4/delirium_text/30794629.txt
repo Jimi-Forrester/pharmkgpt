@@ -1,0 +1,19 @@
+30794629|t|Hybrid multivariate pattern analysis combined with extreme learning machine for Alzheimer's dementia diagnosis using multi-measure rs-fMRI spatial patterns.
+30794629|a|BACKGROUND: Early diagnosis of Alzheimer's disease (AD) and Mild Cognitive Impairment (MCI) is essential for timely treatment. Machine learning and multivariate pattern analysis (MVPA) for the diagnosis of brain disorders are explicitly attracting attention in the neuroimaging community. In this paper, we propose a voxel-wise discriminative framework applied to multi-measure resting-state fMRI (rs-fMRI) that integrates hybrid MVPA and extreme learning machine (ELM) for the automated discrimination of AD and MCI from the cognitive normal (CN) state. MATERIALS AND METHODS: We used two rs-fMRI cohorts: the public Alzheimer's disease Neuroimaging Initiative database (ADNI2) and an in-house Alzheimer's disease cohort from South Korea, both including individuals with AD, MCI, and normal controls. After extracting three-dimensional (3-D) patterns measuring regional coherence and functional connectivity during the resting state, we performed univariate statistical t-tests to generate a 3-D mask that retained only voxels showing significant changes. Given the initial univariate features, to enhance discriminative patterns, we implemented MVPA feature reduction using support vector machine-recursive feature elimination (SVM-RFE), and least absolute shrinkage and selection operator (LASSO), in combination with the univariate t-test. Classifications were performed by an ELM, and its efficiency was compared to linear and nonlinear (radial basis function) SVMs. RESULTS: The maximal accuracies achieved by the method in the ADNI2 cohort were 98.86% (p<0.001) and 98.57% (p<0.001) for AD and MCI vs. CN, respectively. In the in-house cohort, the same accuracies were 98.70% (p<0.001) and 94.16% (p<0.001). CONCLUSION: From a clinical perspective, combining extreme learning machine and hybrid MVPA applied on concatenations of multiple rs-fMRI biomarkers can potentially assist the clinicians in AD and MCI diagnosis.
+30794629	80	100	Alzheimer's dementia	Disease	MESH:D000544
+30794629	188	207	Alzheimer's disease	Disease	MESH:D000544
+30794629	209	211	AD	Disease	MESH:D000544
+30794629	217	242	Mild Cognitive Impairment	Disease	MESH:D060825
+30794629	244	247	MCI	Disease	MESH:D060825
+30794629	363	378	brain disorders	Disease	MESH:D001927
+30794629	663	665	AD	Disease	MESH:D000544
+30794629	670	673	MCI	Disease	MESH:D060825
+30794629	775	794	Alzheimer's disease	Disease	MESH:D000544
+30794629	852	871	Alzheimer's disease	Disease	MESH:D000544
+30794629	929	931	AD	Disease	MESH:D000544
+30794629	933	936	MCI	Disease	MESH:D060825
+30794629	1751	1753	AD	Disease	MESH:D000544
+30794629	1758	1761	MCI	Disease	MESH:D060825
+30794629	2062	2064	AD	Disease	MESH:D000544
+30794629	2069	2072	MCI	Disease	MESH:D060825
+

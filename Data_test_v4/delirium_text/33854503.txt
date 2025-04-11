@@ -1,0 +1,74 @@
+33854503|t|Lactic Acid Fermentation Is Required for NLRP3 Inflammasome Activation.
+33854503|a|Activation of the Nod-like receptor 3 (NLRP3) inflammasome is important for activation of innate immune responses, but improper and excessive activation can cause inflammatory disease. We previously showed that glycolysis, a metabolic pathway that converts glucose into pyruvate, is essential for NLRP3 inflammasome activation in macrophages. Here, we investigated the role of metabolic pathways downstream glycolysis - lactic acid fermentation and pyruvate oxidation-in activation of the NLRP3 inflammasome. Using pharmacological or genetic approaches, we show that decreasing lactic acid fermentation by inhibiting lactate dehydrogenase reduced caspase-1 activation and IL-1beta maturation in response to various NLRP3 inflammasome agonists such as nigericin, ATP, monosodium urate (MSU) crystals, or alum, indicating that lactic acid fermentation is required for NLRP3 inflammasome activation. Inhibition of lactate dehydrogenase with GSK2837808A reduced lactate production and activity of the NLRP3 inflammasome regulator, phosphorylated protein kinase R (PKR), but did not reduce the common trigger of NLRP3 inflammasome, potassium efflux, or reactive oxygen species (ROS) production. By contrast, decreasing the activity of pyruvate oxidation by depletion of either mitochondrial pyruvate carrier 2 (MPC2) or pyruvate dehydrogenase E1 subunit alpha 1 (PDHA1) enhanced NLRP3 inflammasome activation, suggesting that inhibition of mitochondrial pyruvate transport enhanced lactic acid fermentation. Moreover, treatment with GSK2837808A reduced MSU-mediated peritonitis in mice, a disease model used for studying the consequences of NLRP3 inflammasome activation. Our results suggest that lactic acid fermentation is important for NLRP3 inflammasome activation, while pyruvate oxidation is not. Thus, reprograming pyruvate metabolism in mitochondria and in the cytoplasm should be considered as a novel strategy for the treatment of NLRP3 inflammasome-associated diseases.
+33854503	0	11	Lactic Acid	Chemical	MESH:D019344
+33854503	41	46	NLRP3	Gene	216799
+33854503	90	109	Nod-like receptor 3	Gene	216799
+33854503	111	116	NLRP3	Gene	216799
+33854503	235	255	inflammatory disease	Disease	MESH:D007249
+33854503	329	336	glucose	Chemical	MESH:D005947
+33854503	342	350	pyruvate	Chemical	MESH:D019289
+33854503	369	374	NLRP3	Gene	216799
+33854503	492	503	lactic acid	Chemical	MESH:D019344
+33854503	521	529	pyruvate	Chemical	MESH:D019289
+33854503	561	566	NLRP3	Gene	216799
+33854503	650	661	lactic acid	Chemical	MESH:D019344
+33854503	719	728	caspase-1	Gene	12362
+33854503	744	752	IL-1beta	Gene	16176
+33854503	787	792	NLRP3	Gene	216799
+33854503	823	832	nigericin	Chemical	MESH:D009550
+33854503	834	837	ATP	Chemical	MESH:D000255
+33854503	839	855	monosodium urate	Chemical	MESH:D014527
+33854503	857	860	MSU	Chemical	MESH:D014527
+33854503	875	879	alum	Chemical	MESH:C041524
+33854503	897	908	lactic acid	Chemical	MESH:D019344
+33854503	938	943	NLRP3	Gene	216799
+33854503	1010	1021	GSK2837808A	Chemical	MESH:C000612070
+33854503	1030	1037	lactate	Chemical	MESH:D019344
+33854503	1069	1074	NLRP3	Gene	216799
+33854503	1114	1130	protein kinase R	Gene	19106
+33854503	1132	1135	PKR	Gene	19106
+33854503	1179	1184	NLRP3	Gene	216799
+33854503	1199	1208	potassium	Chemical	MESH:D011188
+33854503	1220	1243	reactive oxygen species	Chemical	MESH:D017382
+33854503	1245	1248	ROS	Chemical	MESH:D017382
+33854503	1302	1310	pyruvate	Chemical	MESH:D019289
+33854503	1378	1382	MPC2	Gene	70456
+33854503	1430	1435	PDHA1	Gene	18597
+33854503	1446	1451	NLRP3	Gene	216799
+33854503	1521	1529	pyruvate	Chemical	MESH:D019289
+33854503	1549	1560	lactic acid	Chemical	MESH:D019344
+33854503	1600	1611	GSK2837808A	Chemical	MESH:C000612070
+33854503	1620	1623	MSU	Chemical	MESH:D014527
+33854503	1633	1644	peritonitis	Disease	MESH:D010538
+33854503	1648	1652	mice	Species	10090
+33854503	1708	1713	NLRP3	Gene	216799
+33854503	1764	1775	lactic acid	Chemical	MESH:D019344
+33854503	1806	1811	NLRP3	Gene	216799
+33854503	1843	1851	pyruvate	Chemical	MESH:D019289
+33854503	1889	1897	pyruvate	Chemical	MESH:D019289
+33854503	2008	2013	NLRP3	Gene	216799
+33854503	Negative_Correlation	MESH:C000612070	19106
+33854503	Positive_Correlation	MESH:D014527	216799
+33854503	Positive_Correlation	MESH:D009550	16176
+33854503	Positive_Correlation	MESH:D019344	MESH:D007249
+33854503	Negative_Correlation	MESH:C000612070	MESH:D010538
+33854503	Positive_Correlation	MESH:D019289	216799
+33854503	Positive_Correlation	MESH:D000255	216799
+33854503	Positive_Correlation	MESH:D019344	216799
+33854503	Negative_Correlation	MESH:C000612070	MESH:D019344
+33854503	Association	216799	70456
+33854503	Positive_Correlation	MESH:D014527	MESH:D010538
+33854503	Association	MESH:D005947	MESH:D019289
+33854503	Association	MESH:D007249	216799
+33854503	Positive_Correlation	MESH:D009550	216799
+33854503	Positive_Correlation	MESH:D019344	12362
+33854503	Association	MESH:D019289	70456
+33854503	Association	MESH:D010538	216799
+33854503	Association	18597	216799
+33854503	Negative_Correlation	MESH:C000612070	MESH:D014527
+33854503	Positive_Correlation	MESH:D019344	16176
+33854503	Association	19106	216799
+33854503	Association	MESH:D011188	216799
+33854503	Association	MESH:D019289	18597
+33854503	Positive_Correlation	MESH:C041524	216799
+

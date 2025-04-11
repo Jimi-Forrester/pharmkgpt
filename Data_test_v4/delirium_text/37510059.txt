@@ -1,0 +1,10 @@
+37510059|t|Use Test of Automated Machine Learning in Cancer Diagnostics.
+37510059|a|Our aim is to investigate the added value of automated machine learning (AutoML) for potential future applications in cancer diagnostics. Using two important diagnostic questions, the non-invasive determination of IDH mutation status and ATRX status, we analyze whether it is possible to use AutoML to develop models that are comparable in performance to conventional machine learning models (ML) developed by experts. For this purpose, we develop AutoML models using different feature preselection methods and compare the results with previously developed conventional ML models. The cohort used for our study comprises T2-weighted MRI images of 124 patients with histologically confirmed gliomas. Using AutoML, we were able to develop sophisticated models in a very short time with only a few lines of computer code. In predicting IDH mutation status, we obtained a mean AUC of 0.7400 and a mean AUPRC of 0.8582. ATRX mutation status was predicted with very similar discriminatory power, with a mean AUC of 0.7810 and a mean AUPRC of 0.8511. In both cases, AutoML was even able to achieve a discriminatory power slightly above that of the respective conventionally developed models in a very short computing time, thus making such methods accessible to non-experts in the near future.
+37510059	42	48	Cancer	Disease	MESH:D009369
+37510059	180	186	cancer	Disease	MESH:D009369
+37510059	276	279	IDH	Gene	3417
+37510059	300	304	ATRX	Gene	546
+37510059	752	759	gliomas	Disease	MESH:D005910
+37510059	895	898	IDH	Gene	3417
+37510059	977	981	ATRX	Gene	546
+

@@ -1,0 +1,11 @@
+36769135|t|Employing Supervised Algorithms for the Prediction of Nanomaterial's Antioxidant Efficiency.
+36769135|a|Reactive oxygen species (ROS) are compounds that readily transform into free radicals. Excessive exposure to ROS depletes antioxidant enzymes that protect cells, leading to oxidative stress and cellular damage. Nanomaterials (NMs) exhibit free radical scavenging efficiency representing a potential solution for oxidative stress-induced disorders. This study aims to demonstrate the application of machine learning (ML) algorithms for predicting the antioxidant efficiency of NMs. We manually compiled a comprehensive dataset based on a literature review of 62 in vitro studies. We extracted NMs' physico-chemical (P-chem) properties, the NMs' synthesis technique and various experimental conditions as input features to predict the antioxidant efficiency measured by a 2,2-diphenyl-1-picrylhydrazyl (DPPH) assay. Following data pre-processing, various regression models were trained and validated. The random forest model showed the highest predictive performance reaching an R2 = 0.83. The attribute importance analysis revealed that the NM's type, core-size and dosage are the most important attributes influencing the prediction. Our findings corroborate with those of the prior research landscape regarding the importance of P-chem characteristics. This study expands the application of ML in the nano-domain beyond safety-related outcomes by capturing the functional performance. Accordingly, this study has two objectives: (1) to develop a model to forecast the antioxidant efficiency of NMs to complement conventional in vitro assays and (2) to underline the lack of a comprehensive database and the scarcity of relevant data and/or data management practices in the nanotechnology field, especially with regards to functionality assessments.
+36769135	93	116	Reactive oxygen species	Chemical	MESH:D017382
+36769135	118	121	ROS	Chemical	MESH:D017382
+36769135	165	178	free radicals	Chemical	MESH:D005609
+36769135	202	205	ROS	Chemical	MESH:D017382
+36769135	332	344	free radical	Chemical	MESH:D005609
+36769135	863	892	2,2-diphenyl-1-picrylhydrazyl	Chemical	MESH:C004931
+36769135	894	898	DPPH	Chemical	MESH:C004931
+36769135	1133	1135	NM	Disease	MESH:C536816
+

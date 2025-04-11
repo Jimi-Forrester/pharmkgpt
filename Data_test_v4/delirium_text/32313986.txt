@@ -1,0 +1,38 @@
+32313986|t|Stress-mediated generation of deleterious ROS in healthy individuals - role of cytochrome c oxidase.
+32313986|a|Psychosocial stress is known to cause an increased incidence of coronary heart disease. In addition, multiple other diseases like cancer and diabetes mellitus have been related to stress and are mainly based on excessive formation of reactive oxygen species (ROS) in mitochondria. The molecular interactions between stress and ROS, however, are still unknown. Here we describe the missing molecular link between stress and an increased cellular ROS, based on the regulation of cytochrome c oxidase (COX). In normal healthy cells, the "allosteric ATP inhibition of COX" decreases the oxygen uptake of mitochondria at high ATP/ADP ratios and keeps the mitochondrial membrane potential (DeltaPsim) low. Above DeltaPsim values of 140 mV, the production of ROS in mitochondria increases exponentially. Stress signals like hypoxia, stress hormones, and high glutamate or glucose in neurons increase the cytosolic Ca2+ concentration which activates a mitochondrial phosphatase that dephosphorylates COX. This dephosphorylated COX exhibits no allosteric ATP inhibition; consequently, an increase of DeltaPsim and ROS formation takes place. The excess production of mitochondrial ROS causes apoptosis or multiple diseases.
+32313986	42	45	ROS	Chemical	MESH:D017382
+32313986	165	187	coronary heart disease	Disease	MESH:D003327
+32313986	231	237	cancer	Disease	MESH:D009369
+32313986	242	259	diabetes mellitus	Disease	MESH:D003920
+32313986	335	358	reactive oxygen species	Chemical	MESH:D017382
+32313986	360	363	ROS	Chemical	MESH:D017382
+32313986	428	431	ROS	Chemical	MESH:D017382
+32313986	546	549	ROS	Chemical	MESH:D017382
+32313986	600	603	COX	Gene	1351
+32313986	647	650	ATP	Chemical	MESH:D000255
+32313986	665	668	COX	Gene	1351
+32313986	684	690	oxygen	Chemical	MESH:D010100
+32313986	722	725	ATP	Chemical	MESH:D000255
+32313986	726	729	ADP	Chemical	MESH:D000244
+32313986	853	856	ROS	Chemical	MESH:D017382
+32313986	918	925	hypoxia	Disease	MESH:D000860
+32313986	953	962	glutamate	Chemical	MESH:D018698
+32313986	966	973	glucose	Chemical	MESH:D005947
+32313986	1008	1012	Ca2+	Chemical	-
+32313986	1093	1096	COX	Gene	1351
+32313986	1120	1123	COX	Gene	1351
+32313986	1147	1150	ATP	Chemical	MESH:D000255
+32313986	1206	1209	ROS	Chemical	MESH:D017382
+32313986	1272	1275	ROS	Chemical	MESH:D017382
+32313986	Negative_Correlation	MESH:D000255	1351
+32313986	Negative_Correlation	MESH:D005947	1351
+32313986	Positive_Correlation	MESH:D005947	MESH:D017382
+32313986	Positive_Correlation	MESH:D017382	MESH:D003920
+32313986	Positive_Correlation	MESH:D017382	MESH:D009369
+32313986	Negative_Correlation	MESH:D000255	MESH:D010100
+32313986	Negative_Correlation	MESH:D000860	1351
+32313986	Negative_Correlation	MESH:D018698	1351
+32313986	Association	MESH:D017382	1351
+32313986	Positive_Correlation	MESH:D017382	MESH:D000860
+32313986	Positive_Correlation	MESH:D017382	MESH:D018698
+

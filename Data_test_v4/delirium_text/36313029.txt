@@ -1,0 +1,23 @@
+36313029|t|Machine-learning model predicting postoperative delirium in older patients using intraoperative frontal electroencephalographic signatures.
+36313029|a|Objective: In older patients receiving general anesthesia, postoperative delirium (POD) is the most frequent form of cerebral dysfunction. Early identification of patients at higher risk to develop POD could provide the opportunity to adapt intraoperative and postoperative therapy. We, therefore, propose a machine learning approach to predict the risk of POD in elderly patients, using routine intraoperative electroencephalography (EEG) and clinical data that are readily available in the operating room. Methods: We conducted a retrospective analysis of the data of a single-center study at the Charite-Universitatsmedizin Berlin, Department of Anesthesiology [ISRCTN 36437985], including 1,277 patients, older than 60 years with planned surgery and general anesthesia. To deal with the class imbalance, we used balanced ensemble methods, specifically Bagging and Random Forests and as a performance measure, the area under the ROC curve (AUC-ROC). We trained our models including basic clinical parameters and intraoperative EEG features in particular classical spectral and burst suppression signatures as well as multi-band covariance matrices, which were classified, taking advantage of the geometry of a Riemannian manifold. The models were validated with 10 repeats of a 10-fold cross-validation. Results: Including EEG data in the classification resulted in a robust and reliable risk evaluation for POD. The clinical parameters alone achieved an AUC-ROC score of 0.75. Including EEG signatures improved the classification when the patients were grouped by anesthetic agents and evaluated separately for each group. The spectral features alone showed an AUC-ROC score of 0.66; the covariance features showed an AUC-ROC score of 0.68. The AUC-ROC scores of EEG features relative to patient data differed by anesthetic group. The best performance was reached, combining both the EEG features and the clinical parameters. Overall, the AUC-ROC score was 0.77, for patients receiving Propofol it was 0.78, for those receiving Sevoflurane it was 0.8 and for those receiving Desflurane 0.73. Applying the trained prediction model to an independent data set of a different clinical study confirmed these results for the combined classification, while the classifier on clinical parameters alone did not generalize. Conclusion: A machine learning approach combining intraoperative frontal EEG signatures with clinical parameters could be an easily applicable tool to early identify patients at risk to develop POD.
+36313029	34	56	postoperative delirium	Disease	MESH:D000071257
+36313029	66	74	patients	Species	9606
+36313029	160	168	patients	Species	9606
+36313029	199	221	postoperative delirium	Disease	MESH:D000071257
+36313029	223	226	POD	Disease	MESH:D000071257
+36313029	257	277	cerebral dysfunction	Disease	MESH:D002547
+36313029	303	311	patients	Species	9606
+36313029	338	341	POD	Disease	MESH:D000071257
+36313029	497	500	POD	Disease	MESH:D000071257
+36313029	512	520	patients	Species	9606
+36313029	839	847	patients	Species	9606
+36313029	1551	1554	POD	Disease	MESH:D000071257
+36313029	1683	1691	patients	Species	9606
+36313029	1932	1939	patient	Species	9606
+36313029	2111	2119	patients	Species	9606
+36313029	2130	2138	Propofol	Chemical	MESH:D015742
+36313029	2172	2183	Sevoflurane	Chemical	MESH:D000077149
+36313029	2219	2229	Desflurane	Chemical	MESH:D000077335
+36313029	2624	2632	patients	Species	9606
+36313029	2652	2655	POD	Disease	MESH:D000071257
+

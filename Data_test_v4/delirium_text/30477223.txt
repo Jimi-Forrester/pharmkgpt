@@ -1,0 +1,77 @@
+30477223|t|TSPO Ligands Promote Cholesterol Efflux and Suppress Oxidative Stress and Inflammation in Choroidal Endothelial Cells.
+30477223|a|Choroidal endothelial cells supply oxygen and nutrients to retinal pigment epithelial (RPE) cells and photoreceptors, recycle metabolites, and dispose of metabolic waste through the choroidal blood circulation. Death of the endothelial cells of the choroid may cause abnormal deposits including unesterified and esterified cholesterol beneath RPE cells and within Bruch's membrane that contribute to the progression of age-related macular degeneration (AMD), the most prevalent cause of blindness in older people. Translocator protein (TSPO) is a cholesterol-binding protein that is involved in mitochondrial cholesterol transport and other cellular functions. We have investigated the role of TSPO in choroidal endothelial cells. Immunocytochemistry showed that TSPO was localized to the mitochondria of choroidal endothelial cells. Choroidal endothelial cells exposed to TSPO ligands (Etifoxine or XBD-173) had significantly increased cholesterol efflux, higher expression of cholesterol homeostasis genes (LXRalpha, CYP27A1, CYP46A1, ABCA1 and ABCG1), and reduced biosynthesis of cholesterol and phospholipids from [14C]acetate, when compared to untreated controls. Treatment with TSPO ligands also resulted in reduced production of reactive oxygen species (ROS), increased antioxidant capacity, and reduced release of pro-inflammatory cytokines (IL-1beta, IL-6, TNF-alpha and VEGF) induced by oxidized LDL. These data suggest TSPO ligands may offer promise for the treatment of AMD.
+30477223	0	4	TSPO	Gene	706
+30477223	21	32	Cholesterol	Chemical	MESH:D002784
+30477223	74	86	Inflammation	Disease	MESH:D007249
+30477223	154	160	oxygen	Chemical	MESH:D010100
+30477223	206	209	RPE	CellLine	CVCL:0145
+30477223	442	453	cholesterol	Chemical	MESH:D002784
+30477223	462	465	RPE	CellLine	CVCL:0145
+30477223	538	570	age-related macular degeneration	Disease	MESH:D008268
+30477223	572	575	AMD	Disease	MESH:D008268
+30477223	606	615	blindness	Disease	MESH:D001766
+30477223	633	653	Translocator protein	Gene	706
+30477223	655	659	TSPO	Gene	706
+30477223	728	739	cholesterol	Chemical	MESH:D002784
+30477223	813	817	TSPO	Gene	706
+30477223	882	886	TSPO	Gene	706
+30477223	992	996	TSPO	Gene	706
+30477223	1006	1015	Etifoxine	Chemical	MESH:C002125
+30477223	1019	1026	XBD-173	Chemical	MESH:C502525
+30477223	1056	1067	cholesterol	Chemical	MESH:D002784
+30477223	1097	1108	cholesterol	Chemical	MESH:D002784
+30477223	1128	1136	LXRalpha	Gene	10062
+30477223	1138	1145	CYP27A1	Gene	1593
+30477223	1147	1154	CYP46A1	Gene	10858
+30477223	1156	1161	ABCA1	Gene	19
+30477223	1166	1171	ABCG1	Gene	9619
+30477223	1202	1213	cholesterol	Chemical	MESH:D002784
+30477223	1218	1231	phospholipids	Chemical	MESH:D010743
+30477223	1237	1249	[14C]acetate	Chemical	-
+30477223	1303	1307	TSPO	Gene	706
+30477223	1355	1378	reactive oxygen species	Chemical	MESH:D017382
+30477223	1380	1383	ROS	Chemical	MESH:D017382
+30477223	1445	1457	inflammatory	Disease	MESH:D007249
+30477223	1469	1477	IL-1beta	Gene	3553
+30477223	1479	1483	IL-6	Gene	3569
+30477223	1485	1494	TNF-alpha	Gene	7124
+30477223	1499	1503	VEGF	Gene	7422
+30477223	1549	1553	TSPO	Gene	706
+30477223	1601	1604	AMD	Disease	MESH:D008268
+30477223	Negative_Correlation	MESH:C502525	MESH:D010743
+30477223	Association	MESH:D002784	10858
+30477223	Association	MESH:C002125	706
+30477223	Association	10858	706
+30477223	Association	MESH:D002784	10062
+30477223	Association	MESH:D002784	19
+30477223	Positive_Correlation	MESH:C002125	1593
+30477223	Positive_Correlation	MESH:C002125	9619
+30477223	Association	1593	706
+30477223	Association	10062	706
+30477223	Association	706	9619
+30477223	Association	MESH:C502525	706
+30477223	Positive_Correlation	MESH:C002125	10858
+30477223	Negative_Correlation	MESH:C502525	MESH:D002784
+30477223	Negative_Correlation	MESH:D010743	706
+30477223	Positive_Correlation	MESH:C002125	19
+30477223	Positive_Correlation	MESH:C502525	10062
+30477223	Association	19	706
+30477223	Negative_Correlation	706	7124
+30477223	Association	MESH:D002784	706
+30477223	Positive_Correlation	MESH:C502525	9619
+30477223	Negative_Correlation	MESH:D007249	706
+30477223	Negative_Correlation	MESH:C002125	MESH:D010743
+30477223	Negative_Correlation	3569	706
+30477223	Negative_Correlation	3553	706
+30477223	Negative_Correlation	MESH:C002125	MESH:D002784
+30477223	Association	MESH:D002784	1593
+30477223	Association	MESH:D002784	MESH:D008268
+30477223	Association	MESH:D002784	9619
+30477223	Positive_Correlation	MESH:C002125	10062
+30477223	Positive_Correlation	MESH:C502525	10858
+30477223	Positive_Correlation	MESH:C502525	1593
+30477223	Association	MESH:D008268	706
+30477223	Association	706	7422
+30477223	Positive_Correlation	MESH:C502525	19
+30477223	Negative_Correlation	MESH:D017382	706
+

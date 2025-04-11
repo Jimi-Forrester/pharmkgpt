@@ -1,0 +1,24 @@
+37022608|t|Artificial intelligence assisted identification of potential tau aggregation inhibitors: ligand- and structure-based virtual screening, in silico ADME, and molecular dynamics study.
+37022608|a|Alzheimer's disease (AD) is a severe, growing, multifactorial disorder affecting millions of people worldwide characterized by cognitive decline and neurodegeneration. The accumulation of tau protein into paired helical filaments is one of the major pathological hallmarks of AD and has gained the interest of researchers as a potential drug target to treat AD. Lately, Artificial Intelligence (AI) has revolutionized the drug discovery process by speeding it up and reducing the overall cost. As a part of our continuous effort to identify potential tau aggregation inhibitors, and leveraging the power of AI, in this study, we used a fully automated AI-assisted ligand-based virtual screening tool, PyRMD to screen a library of 12 million compounds from the ZINC database to identify potential tau aggregation inhibitors. The preliminary hits from virtual screening were filtered for similar compounds and pan-assay interference compounds (the compounds containing reactive functional groups which can interfere with the assays) using RDKit. Further, the selected compounds were prioritized based on their molecular docking score with the binding pocket of tau where the binding pockets were identified using replica exchange molecular dynamics simulation. Thirty-three compounds showing good docking scores for all the tau clusters were selected and were further subjected to in silico pharmacokinetic prediction. Finally, top 10 compounds were selected for molecular dynamics simulation and MMPBSA binding free energy calculations resulting in the identification of UNK_175, UNK_1027, UNK_1172, UNK_1173, UNK_1237, UNK_1518, and UNK_2181 as potential tau aggregation inhibitors.
+37022608	61	76	tau aggregation	Disease	MESH:C536599
+37022608	182	201	Alzheimer's disease	Disease	MESH:D000544
+37022608	203	205	AD	Disease	MESH:D000544
+37022608	309	326	cognitive decline	Disease	MESH:D003072
+37022608	331	348	neurodegeneration	Disease	MESH:D019636
+37022608	370	373	tau	Gene	4137
+37022608	458	460	AD	Disease	MESH:D000544
+37022608	540	542	AD	Disease	MESH:D000544
+37022608	733	748	tau aggregation	Disease	MESH:C536599
+37022608	978	993	tau aggregation	Disease	MESH:C536599
+37022608	1341	1344	tau	Gene	4137
+37022608	1504	1507	tau	Gene	4137
+37022608	1761	1764	UNK	Gene	85451
+37022608	1771	1774	UNK	Gene	85451
+37022608	1781	1784	UNK	Gene	85451
+37022608	1791	1794	UNK	Gene	85451
+37022608	1801	1804	UNK	Gene	85451
+37022608	1815	1819	UNK_	Gene	85451
+37022608	1837	1852	tau aggregation	Disease	MESH:C536599
+37022608	Association	MESH:C536599	85451
+37022608	Association	MESH:D000544	4137
+

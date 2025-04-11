@@ -1,0 +1,22 @@
+35527825|t|Use of connectivity index and simple topological parameters for estimating the inhibition potency of acetylcholinesterase.
+35527825|a|Acetylcholinesterase (AChE) has proven to be an effective drug target in the treatment of neurodegenerative diseases such as Alzheimer's, Parkinson's and dementia. We developed a novel QSAR regression model for estimating potency to inhibit AChE, pK i, on a set of 75 structurally different compounds including oximes, N-hydroxyiminoacetamides, 4-aminoquinolines and flavonoids. Although the model included only three simple descriptors, the valence molecular connectivity index of the zero-order, 0 chiv , the number of 10-membered rings (nR10) and the number of hydroxyl groups (nOH), it yielded excellent statistics (r = 0.937, S.E. = 0.51). The stability of the model was evaluated when an initial set of 75 compounds was broadened to 165 compounds in total, with the increase of the range of pK i (exp) from 6.0 to 10.2, yielding r = 0.882 and S.E. = 0.89. The predictive power of the model was evaluated by calculating pK i values for 55 randomly chosen compounds (S.E.test = 0.90) from the calibration model created on other 110 compounds (S.E. = 0.89), all taken from the pool of 165 compounds.
+35527825	101	121	acetylcholinesterase	Gene	43
+35527825	123	143	Acetylcholinesterase	Gene	43
+35527825	145	149	AChE	Gene	43
+35527825	213	239	neurodegenerative diseases	Disease	MESH:D019636
+35527825	248	259	Alzheimer's	Disease	MESH:D000544
+35527825	261	272	Parkinson's	Disease	MESH:D010300
+35527825	277	285	dementia	Disease	MESH:D003704
+35527825	364	368	AChE	Gene	43
+35527825	434	440	oximes	Chemical	MESH:D010091
+35527825	442	466	N-hydroxyiminoacetamides	Chemical	-
+35527825	468	485	4-aminoquinolines	Chemical	MESH:C001920
+35527825	490	500	flavonoids	Chemical	MESH:D005419
+35527825	Association	MESH:D003704	43
+35527825	Negative_Correlation	MESH:D010091	43
+35527825	Association	MESH:D010300	43
+35527825	Association	MESH:D019636	43
+35527825	Association	MESH:D000544	43
+35527825	Negative_Correlation	MESH:D005419	43
+35527825	Negative_Correlation	MESH:C001920	43
+

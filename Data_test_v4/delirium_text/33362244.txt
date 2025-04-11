@@ -1,0 +1,29 @@
+33362244|t|Assessing the risk of dengue severity using demographic information and laboratory test results with machine learning.
+33362244|a|BACKGROUND: Dengue virus causes a wide spectrum of disease, which ranges from subclinical disease to severe dengue shock syndrome. However, estimating the risk of severe outcomes using clinical presentation or laboratory test results for rapid patient triage remains a challenge. Here, we aimed to develop prognostic models for severe dengue using machine learning, according to demographic information and clinical laboratory data of patients with dengue. METHODOLOGY/PRINCIPAL FINDINGS: Out of 1,581 patients in the National Cheng Kung University Hospital with suspected dengue infections and subjected to NS1 antigen, IgM and IgG, and qRT-PCR tests, 798 patients including 138 severe cases were enrolled in the study. The primary target outcome was severe dengue. Machine learning models were trained and tested using the patient dataset that included demographic information and qualitative laboratory test results collected on day 1 when they sought medical advice. To develop prognostic models, we applied various machine learning methods, including logistic regression, random forest, gradient boosting machine, support vector classifier, and artificial neural network, and compared the performance of the methods. The artificial neural network showed the highest average discrimination area under the receiver operating characteristic curve (0.8324 +- 0.0268) and balance accuracy (0.7523 +- 0.0273). According to the model explainer that analyzed the contributions/co-contributions of the different factors, patient age and dengue NS1 antigenemia were the two most important risk factors associated with severe dengue. Additionally, co-existence of anti-dengue IgM and IgG in patients with dengue increased the probability of severe dengue. CONCLUSIONS/SIGNIFICANCE: We developed prognostic models for the prediction of dengue severity in patients, using machine learning. The discriminative ability of the artificial neural network exhibited good performance for severe dengue prognosis. This model could help clinicians obtain a rapid prognosis during dengue outbreaks. However, the model requires further validation using external cohorts in future studies.
+33362244	22	28	dengue	Disease	MESH:D003715
+33362244	131	143	Dengue virus	Species	12637
+33362244	227	248	dengue shock syndrome	Disease	MESH:D019595
+33362244	363	370	patient	Species	9606
+33362244	454	460	dengue	Disease	MESH:D003715
+33362244	554	562	patients	Species	9606
+33362244	568	574	dengue	Disease	MESH:D003715
+33362244	621	629	patients	Species	9606
+33362244	692	709	dengue infections	Disease	MESH:D003715
+33362244	727	730	NS1	Gene	10625
+33362244	776	784	patients	Species	9606
+33362244	878	884	dengue	Disease	MESH:D003715
+33362244	944	951	patient	Species	9606
+33362244	1636	1643	patient	Species	9606
+33362244	1652	1658	dengue	Species	
+33362244	1659	1662	NS1	Gene	10625
+33362244	1739	1745	dengue	Disease	MESH:D003715
+33362244	1782	1788	dengue	Species	
+33362244	1804	1812	patients	Species	9606
+33362244	1818	1824	dengue	Species	
+33362244	1861	1867	dengue	Species	
+33362244	1948	1954	dengue	Disease	MESH:D003715
+33362244	1967	1975	patients	Species	9606
+33362244	2099	2105	dengue	Disease	MESH:D003715
+33362244	2182	2188	dengue	Species	
+33362244	Association	MESH:D003715	10625
+

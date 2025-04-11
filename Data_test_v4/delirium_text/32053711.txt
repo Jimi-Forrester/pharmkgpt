@@ -1,0 +1,24 @@
+32053711|t|In-silico simulated prototype-patients using TPMS technology to study a potential adverse effect of sacubitril and valsartan.
+32053711|a|Unveiling the mechanism of action of a drug is key to understand the benefits and adverse reactions of a medication in an organism. However, in complex diseases such as heart diseases there is not a unique mechanism of action but a wide range of different responses depending on the patient. Exploring this collection of mechanisms is one of the clues for a future personalized medicine. The Therapeutic Performance Mapping System (TPMS) is a Systems Biology approach that generates multiple models of the mechanism of action of a drug. Each molecular mechanism generated could be associated to particular individuals, here defined as prototype-patients, hence the generation of models using TPMS technology may be used for detecting adverse effects to specific patients. TPMS operates by (1) modelling the responses in humans with an accurate description of a protein network and (2) applying a Multilayer Perceptron-like and sampling strategy to find all plausible solutions. In the present study, TPMS is applied to explore the diversity of mechanisms of action of the drug combination sacubitril/valsartan. We use TPMS to generate a wide range of models explaining the relationship between sacubitril/valsartan and heart failure (the indication), as well as evaluating their association with macular degeneration (a potential adverse effect). Among the models generated, we identify a set of mechanisms of action associated to a better response in terms of heart failure treatment, which could also be associated to macular degeneration development. Finally, a set of 30 potential biomarkers are proposed to identify mechanisms (or prototype-patients) more prone of suffering macular degeneration when presenting good heart failure response. All prototype-patients models generated are completely theoretical and therefore they do not necessarily involve clinical effects in real patients. Data and accession to software are available at http://sbi.upf.edu/data/tpms/.
+32053711	30	38	patients	Species	9606
+32053711	100	110	sacubitril	Chemical	MESH:C000717211
+32053711	115	124	valsartan	Chemical	MESH:D000068756
+32053711	295	309	heart diseases	Disease	MESH:D006331
+32053711	409	416	patient	Species	9606
+32053711	771	779	patients	Species	9606
+32053711	888	896	patients	Species	9606
+32053711	946	952	humans	Species	9606
+32053711	1215	1225	sacubitril	Chemical	MESH:C000717211
+32053711	1226	1235	valsartan	Chemical	MESH:D000068756
+32053711	1320	1330	sacubitril	Chemical	MESH:C000717211
+32053711	1331	1340	valsartan	Chemical	MESH:D000068756
+32053711	1345	1358	heart failure	Disease	MESH:D006333
+32053711	1587	1600	heart failure	Disease	MESH:D006333
+32053711	1772	1780	patients	Species	9606
+32053711	1848	1861	heart failure	Disease	MESH:D006333
+32053711	1886	1894	patients	Species	9606
+32053711	2010	2018	patients	Species	9606
+32053711	Association	MESH:C000717211	MESH:D006333
+32053711	Comparison	MESH:C000717211	MESH:D000068756
+32053711	Association	MESH:D000068756	MESH:D006333
+

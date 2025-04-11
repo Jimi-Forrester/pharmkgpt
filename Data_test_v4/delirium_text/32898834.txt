@@ -1,0 +1,23 @@
+32898834|t|Ligand-based pharmacophore modelling and virtual screening for the identification of amyloid-beta diagnostic molecules.
+32898834|a|Currently, only three molecules, flutemetamol, florbetaben and florbetapir, have been approved for clinical use towards the definitive diagnosis of Alzheimer's disease (AD). Despite the clinically approved drugs' advantages, there still exists a need for new diagnostic molecules with improved properties (physicochemical and pharmacokinetic) in comparison to the current molecules in clinical use and research. In this work, we report a pharmacophore model and a quantitative structure activity relationship (QSAR) model, constructed from a series of 166 amyloid beta diagnostic compounds (targeting Alzheimer's disease) with the purpose of identifying functional groups influencing and predicting bioactivity. Subsequently, pharmacophore based virtual screening and QSAR predictions were used to identify new amyloid beta diagnostic molecules. In addition, docking and molecular dynamics simulations were conducted to explore the type and nature of interactions required for ligands to bind effectively in the binding regions of amyloid beta fibrils (PDB 2MXU). In our findings, the highest-ranked 4 feature pharmacophore model possessed one hydrogen bond acceptor, one hydrophobic feature and two ring features (AHRR). Systematically, the same dataset of molecules used for pharmacophore modelling was used to generate an atom-based 3D QSAR hypothesis to illustrate the activity relationship of amyloid-beta diagnostic molecules. The partial least squares (PLS) 3D QSAR model obtained showed good correlation as indicated by respective statistical parameters, R^2, Q^2 and Pearson values of 0.76, 0.72 and 0.86 respectively. Virtual screening against ZINC15 database and the ChemBridge CNS-Set yielded 7 molecules, 4 of which had satisfactory ADME properties. Docking and molecular dynamics simulations showed that hydrogen bonding, hydrophobic and pi-pi interactions are crucial towards the binding of ligands (as predicted by our pharmacophore and QSAR models) to amyloid beta fibrils. In conclusion, the findings of this work present a wealth of information that can be useful in future research towards identifying and design of new amyloid diagnostic molecules. The pharmacophore presented here can be used to filter independent databases to identify new structurally related molecules with improved activity whereas the QSAR model can be useful in predicting bioactivities of the predicted hits.
+32898834	85	97	amyloid-beta	Gene	351
+32898834	153	165	flutemetamol	Chemical	MESH:C581552
+32898834	167	178	florbetaben	Chemical	MESH:C527756
+32898834	183	194	florbetapir	Chemical	MESH:C545186
+32898834	268	287	Alzheimer's disease	Disease	MESH:D000544
+32898834	289	291	AD	Disease	MESH:D000544
+32898834	676	688	amyloid beta	Gene	351
+32898834	721	740	Alzheimer's disease	Disease	MESH:D000544
+32898834	931	943	amyloid beta	Gene	351
+32898834	1151	1163	amyloid beta	Gene	351
+32898834	1264	1272	hydrogen	Chemical	MESH:D006859
+32898834	1518	1530	amyloid-beta	Gene	351
+32898834	1938	1946	hydrogen	Chemical	MESH:D006859
+32898834	2089	2101	amyloid beta	Gene	351
+32898834	2260	2267	amyloid	Disease	MESH:C000718787
+32898834	Negative_Correlation	MESH:C527756	MESH:D000544
+32898834	Negative_Correlation	MESH:C581552	MESH:D000544
+32898834	Association	MESH:D000544	351
+32898834	Negative_Correlation	MESH:C545186	MESH:D000544
+32898834	Association	MESH:D006859	351
+

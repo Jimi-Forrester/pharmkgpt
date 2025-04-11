@@ -1,0 +1,27 @@
+27275012|t|Mutation of TBCK causes a rare recessive developmental disorder.
+27275012|a|OBJECTIVE: To characterize the underlying genetic defect in a family with 3 siblings affected by a severe, yet viable, congenital disorder. METHODS: Extensive genetic and metabolic investigations were performed, and the affected children were imaged at different ages. Whole-genome genotyping and whole-exome sequencing were undertaken. A single large region (>8 Mb) of homozygosity in chromosome 4 (chr4:100,268,553-108,609,628) was identified that was shared only in affected siblings. Inspection of genetic variability within this region led to the identification of a novel mutation. Sanger sequencing confirmed segregation of the mutation with disease. RESULTS: All affected siblings share homozygosity for a novel 4-bp deletion in the gene TBCK (NM_033115:c.614_617del:p.205_206del). CONCLUSIONS: This finding provides the genetic cause of a severe inherited disease in a family and extends the number of mutations and phenotypes associated with this recently identified disease gene.
+27275012	12	16	TBCK	Gene	93627
+27275012	31	63	recessive developmental disorder	Disease	MESH:D002658
+27275012	107	121	genetic defect	Disease	MESH:D030342
+27275012	184	203	congenital disorder	Disease	MESH:D009358
+27275012	451	463	chromosome 4	Chromosome	4
+27275012	465	493	chr4:100,268,553-108,609,628	GenomicRegion	Chr4:100268553-108609628
+27275012	811	815	TBCK	Gene	93627
+27275012	817	826	NM_033115	RefSeq	NM_033115
+27275012	827	839	c.614_617del	DNAMutation	tmVar:c|DEL|614_617|;HGVS:c.614_617del;VariantGroup:4;CorrespondingGene:93627;CorrespondingSpecies:9606
+27275012	840	852	p.205_206del	ProteinMutation	tmVar:p|DEL|205_206|;HGVS:p.205_206del;VariantGroup:2;CorrespondingGene:93627;CorrespondingSpecies:9606
+27275012	920	937	inherited disease	Disease	MESH:D030342
+27275012	Positive_Correlation	MESH:D002658	HGVS:p.205_206del;CorrespondingGene:93627
+27275012	Positive_Correlation	MESH:D030342	HGVS:c.614_617del;CorrespondingGene:93627
+27275012	Association	MESH:D030342	93627
+27275012	Positive_Correlation	HGVS:c.614_617del;CorrespondingGene:93627	MESH:D002658
+27275012	Positive_Correlation	HGVS:c.614_617del;CorrespondingGene:93627	MESH:D030342
+27275012	Positive_Correlation	MESH:D030342	HGVS:p.205_206del;CorrespondingGene:93627
+27275012	Positive_Correlation	MESH:D009358	HGVS:c.614_617del;CorrespondingGene:93627
+27275012	Positive_Correlation	MESH:D002658	HGVS:c.614_617del;CorrespondingGene:93627
+27275012	Association	MESH:D009358	93627
+27275012	Association	MESH:D002658	93627
+27275012	Association	MESH:D002658	93627
+27275012	Association	MESH:D030342	93627
+27275012	Association	MESH:D009358	93627
+

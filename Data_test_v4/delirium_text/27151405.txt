@@ -1,0 +1,13 @@
+27151405|t|DrugGenEx-Net: a novel computational platform for systems pharmacology and gene expression-based drug repurposing.
+27151405|a|BACKGROUND: The targeting of disease-related proteins is important for drug discovery, and yet target-based discovery has not been fruitful. Contextualizing overall biological processes is critical to formulating successful drug-disease hypotheses. Network pharmacology helps to overcome target-based bottlenecks through systems biology analytics, such as protein-protein interaction (PPI) networks and pathway regulation. RESULTS: We present a systems polypharmacology platform entitled DrugGenEx-Net (DGE-NET). DGE-NET predicts empirical drug-target (DT) interactions, integrates interaction pairs into a multi-tiered network analysis, and ultimately predicts disease-specific drug polypharmacology through systems-based gene expression analysis. Incorporation of established biological network annotations for protein target-disease, -signaling pathway, -molecular function, and protein-protein interactions enhances predicted DT effects on disease pathophysiology. Over 50 drug-disease and 100 drug-pathway predictions are validated. For example, the predicted systems pharmacology of the cholesterol-lowering agent ezetimibe corroborates its potential carcinogenicity. When disease-specific gene expression analysis is integrated, DGE-NET prioritizes known therapeutics/experimental drugs as well as their contra-indications. Proof-of-concept is established for immune-related rheumatoid arthritis and inflammatory bowel disease, as well as neuro-degenerative Alzheimer's and Parkinson's diseases. CONCLUSIONS: DGE-NET is a novel computational method that predicting drug therapeutic and counter-therapeutic indications by uniquely integrating systems pharmacology with gene expression analysis. DGE-NET correctly predicts various drug-disease indications by linking the biological activity of drugs and diseases at multiple tiers of biological action, and is therefore a useful approach to identifying drug candidates for re-purposing.
+27151405	1208	1219	cholesterol	Chemical	MESH:D002784
+27151405	1235	1244	ezetimibe	Chemical	MESH:D000069438
+27151405	1272	1287	carcinogenicity	Disease	MESH:D011230
+27151405	1497	1517	rheumatoid arthritis	Disease	MESH:D001172
+27151405	1522	1548	inflammatory bowel disease	Disease	MESH:D015212
+27151405	1561	1579	neuro-degenerative	Disease	MESH:D019636
+27151405	1580	1616	Alzheimer's and Parkinson's diseases	Disease	MESH:D010300
+27151405	Association	MESH:D002784	MESH:D011230
+27151405	Positive_Correlation	MESH:D000069438	MESH:D011230
+27151405	Negative_Correlation	MESH:D000069438	MESH:D002784
+

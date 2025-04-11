@@ -1,0 +1,22 @@
+37158918|t|Detection of mild cognitive impairment in Parkinson's disease using gradient boosting decision tree models based on multilevel DTI indices.
+37158918|a|BACKGROUND: Cognitive dysfunction is the most common non-motor symptom in Parkinson's disease (PD), and timely detection of a slight cognitive decline is crucial for early treatment and prevention of dementia. This study aimed to build a machine learning model based on intra- and/or intervoxel metrics extracted from diffusion tensor imaging (DTI) to automatically classify PD patients without dementia into mild cognitive impairment (PD-MCI) and normal cognition (PD-NC) groups. METHODS: We enrolled PD patients without dementia (52 PD-NC and 68 PD-MCI subtypes) who were assigned to the training and test datasets in an 8:2 ratio. Four intravoxel metrics, including fractional anisotropy (FA), mean diffusivity (MD), axial diffusivity (AD), and radial diffusivity (RD), and two novel intervoxel metrics, local diffusion homogeneity (LDH) using Spearman's rank correlation coefficient (LDHs) and Kendall's coefficient concordance (LDHk), were extracted from the DTI data. Decision tree, random forest, and eXtreme gradient boosting (XGBoost) models based on individual and combined indices were built for classification, and model performance was assessed and compared via the area under the receiver operating characteristic curve (AUC). Finally, feature importance was evaluated using SHapley Additive exPlanation (SHAP) values. RESULTS: The XGBoost model based on a combination of the intra- and intervoxel indices achieved the best classification performance, with an accuracy of 91.67%, sensitivity of 92.86%, and AUC of 0.94 in the test dataset. SHAP analysis showed that the LDH of the brainstem and MD of the right cingulum (hippocampus) were important features. CONCLUSIONS: More comprehensive information on white matter changes can be obtained by combining intra- and intervoxel DTI indices, improving classification accuracy. Furthermore, machine learning methods based on DTI indices can be used as alternatives for the automatic identification of PD-MCI at the individual level.
+37158918	18	38	cognitive impairment	Disease	MESH:D003072
+37158918	42	61	Parkinson's disease	Disease	MESH:D010300
+37158918	152	173	Cognitive dysfunction	Disease	MESH:D003072
+37158918	214	233	Parkinson's disease	Disease	MESH:D010300
+37158918	235	237	PD	Disease	MESH:D010300
+37158918	273	290	cognitive decline	Disease	MESH:D003072
+37158918	340	348	dementia	Disease	MESH:D003704
+37158918	515	517	PD	Disease	MESH:D010300
+37158918	518	526	patients	Species	9606
+37158918	535	543	dementia	Disease	MESH:D003704
+37158918	554	574	cognitive impairment	Disease	MESH:D003072
+37158918	576	582	PD-MCI	Disease	MESH:D010300
+37158918	606	608	PD	Disease	MESH:D010300
+37158918	642	644	PD	Disease	MESH:D010300
+37158918	645	653	patients	Species	9606
+37158918	662	670	dementia	Disease	MESH:D003704
+37158918	675	677	PD	Disease	MESH:D010300
+37158918	688	694	PD-MCI	Disease	MESH:D010300
+37158918	2103	2109	PD-MCI	Disease	MESH:D010300
+

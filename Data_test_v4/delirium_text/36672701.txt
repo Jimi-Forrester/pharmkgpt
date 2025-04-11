@@ -1,0 +1,54 @@
+36672701|t|The Inflammatory Gene PYCARD of the Entorhinal Cortex as an Early Diagnostic Target for Alzheimer's Disease.
+36672701|a|The incidence of Alzheimer's disease (AD) is increasing year by year, which brings great challenges to human health. However, the pathogenesis of AD is still unclear, and it lacks early diagnostic targets. The entorhinal cortex (EC) is a key brain region for the occurrence of AD neurodegeneration, and neuroinflammation plays a significant role in EC degeneration in AD. This study aimed to reveal the close relationship between inflammation-related genes in the EC and AD by detecting key differentially expressed genes (DEGs) via gene function enrichment pathway analysis. GSE4757 and GSE21779 gene expression profiles of AD were downloaded from the Gene Expression Omnibus (GEO) database. R language was used for the standardization and differential analysis of DEGs. Then, significantly enriched Gene Ontology (GO) terms and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways were analyzed to predict the potential biological functions of the DEGs. Finally, the significant expressions of identified DEGs were verified, and the therapeutic values were detected by a receiver operating characteristic (ROC) curve. The results showed that eight up-regulated genes (SLC22A2, ITGB2-AS1, NIT1, FGF14-AS2, SEMA3E, PYCARD, PRORY, ADIRF) and two down-regulated genes (AKAIN1, TRMT2B) may have a potential diagnostic value for AD, and participate in inflammatory pathways. The area under curve (AUC) results of the ten genes showed that they had potential diagnostic value for AD. The AUC of PYCARD was 0.95, which had the most significant diagnostic value, and it is involved in inflammatory processes such as the inflammasome complex adaptor protein. The DEGs screened, and subsequent pathway analysis revealed a close relationship between inflammation-related PYCARD and AD, thus providing a new basis for an early diagnostic target for AD.
+36672701	4	16	Inflammatory	Disease	MESH:D007249
+36672701	22	28	PYCARD	Gene	29108
+36672701	88	107	Alzheimer's Disease	Disease	MESH:D000544
+36672701	126	145	Alzheimer's disease	Disease	MESH:D000544
+36672701	147	149	AD	Disease	MESH:D000544
+36672701	212	217	human	Species	9606
+36672701	255	257	AD	Disease	MESH:D000544
+36672701	386	406	AD neurodegeneration	Disease	MESH:D000544
+36672701	412	429	neuroinflammation	Disease	MESH:D000090862
+36672701	458	473	EC degeneration	Disease	MESH:D009410
+36672701	477	479	AD	Disease	MESH:D000544
+36672701	539	551	inflammation	Disease	MESH:D007249
+36672701	580	582	AD	Disease	MESH:D000544
+36672701	734	736	AD	Disease	MESH:D000544
+36672701	1282	1289	SLC22A2	Gene	6582
+36672701	1291	1296	ITGB2	Gene	3689
+36672701	1302	1306	NIT1	Gene	4817
+36672701	1308	1313	FGF14	Gene	2259
+36672701	1319	1325	SEMA3E	Gene	9723
+36672701	1327	1333	PYCARD	Gene	29108
+36672701	1335	1340	PRORY	Gene	100533178
+36672701	1342	1347	ADIRF	Gene	10974
+36672701	1379	1385	AKAIN1	Gene	642597
+36672701	1387	1393	TRMT2B	Gene	79979
+36672701	1437	1439	AD	Disease	MESH:D000544
+36672701	1460	1472	inflammatory	Disease	MESH:D007249
+36672701	1587	1589	AD	Disease	MESH:D000544
+36672701	1602	1608	PYCARD	Gene	29108
+36672701	1690	1702	inflammatory	Disease	MESH:D007249
+36672701	1852	1864	inflammation	Disease	MESH:D007249
+36672701	1873	1879	PYCARD	Gene	29108
+36672701	1884	1886	AD	Disease	MESH:D000544
+36672701	1950	1952	AD	Disease	MESH:D000544
+36672701	Association	MESH:D000544	10974
+36672701	Association	MESH:D007249	9723
+36672701	Association	MESH:D007249	79979
+36672701	Association	MESH:D000544	79979
+36672701	Association	MESH:D000544	100533178
+36672701	Association	MESH:D007249	2259
+36672701	Negative_Correlation	MESH:D000544	642597
+36672701	Association	MESH:D000544	6582
+36672701	Association	MESH:D000544	2259
+36672701	Association	MESH:D000544	29108
+36672701	Association	MESH:D007249	29108
+36672701	Association	MESH:D000544	3689
+36672701	Association	MESH:D007249	10974
+36672701	Association	MESH:D000544	4817
+36672701	Association	MESH:D007249	6582
+36672701	Association	MESH:D000544	9723
+36672701	Association	MESH:D007249	3689
+36672701	Association	MESH:D007249	642597
+

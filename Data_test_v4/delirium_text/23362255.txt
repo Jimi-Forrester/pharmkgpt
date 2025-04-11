@@ -1,0 +1,66 @@
+23362255|t|Isomerase Pin1 stimulates dephosphorylation of tau protein at cyclin-dependent kinase (Cdk5)-dependent Alzheimer phosphorylation sites.
+23362255|a|Neurodegenerative diseases associated with the pathological aggregation of microtubule-associated protein Tau are classified as tauopathies. Alzheimer disease, the most common tauopathy, is characterized by neurofibrillary tangles that are mainly composed of abnormally phosphorylated Tau. Similar hyperphosphorylated Tau lesions are found in patients with frontotemporal dementia with parkinsonism linked to chromosome 17 (FTDP-17) that is induced by mutations within the tau gene. To further understand the etiology of tauopathies, it will be important to elucidate the mechanism underlying Tau hyperphosphorylation. Tau phosphorylation occurs mainly at proline-directed Ser/Thr sites, which are targeted by protein kinases such as GSK3beta and Cdk5. We reported previously that dephosphorylation of Tau at Cdk5-mediated sites was enhanced by Pin1, a peptidyl-prolyl isomerase that stimulates dephosphorylation at proline-directed sites by protein phosphatase 2A. Pin1 deficiency is suggested to cause Tau hyperphosphorylation in Alzheimer disease. Up to the present, Pin1 binding was only shown for two Tau phosphorylation sites (Thr-212 and Thr-231) despite the presence of many more hyperphosphorylated sites. Here, we analyzed the interaction of Pin1 with Tau phosphorylated by Cdk5-p25 using a GST pulldown assay and Biacore approach. We found that Pin1 binds and stimulates dephosphorylation of Tau at all Cdk5-mediated sites (Ser-202, Thr-205, Ser-235, and Ser-404). Furthermore, FTDP-17 mutant Tau (P301L or R406W) showed slightly weaker Pin1 binding than non-mutated Tau, suggesting that FTDP-17 mutations induce hyperphosphorylation by reducing the interaction between Pin1 and Tau. Together, these results indicate that Pin1 is generally involved in the regulation of Tau hyperphosphorylation and hence the etiology of tauopathies.
+23362255	10	14	Pin1	Gene	5300
+23362255	87	91	Cdk5	Gene	1020
+23362255	103	112	Alzheimer	Disease	MESH:D000544
+23362255	136	162	Neurodegenerative diseases	Disease	MESH:D019636
+23362255	211	241	microtubule-associated protein	Gene	55177
+23362255	242	245	Tau	Gene	4137
+23362255	264	275	tauopathies	Disease	MESH:D024801
+23362255	277	294	Alzheimer disease	Disease	MESH:D000544
+23362255	312	321	tauopathy	Disease	MESH:D024801
+23362255	343	366	neurofibrillary tangles	Disease	MESH:D055956
+23362255	421	424	Tau	Gene	4137
+23362255	454	457	Tau	Gene	4137
+23362255	479	487	patients	Species	9606
+23362255	493	558	frontotemporal dementia with parkinsonism linked to chromosome 17	Disease	MESH:D057180
+23362255	560	567	FTDP-17	Disease	MESH:D057180
+23362255	609	612	tau	Gene	4137
+23362255	657	668	tauopathies	Disease	MESH:D024801
+23362255	755	758	Tau	Gene	4137
+23362255	809	816	Ser/Thr	ProteinMutation	tmVar:p|SUB|S||T;VariantGroup:3;CorrespondingGene:4137;CorrespondingSpecies:9606
+23362255	870	878	GSK3beta	Gene	2932
+23362255	883	887	Cdk5	Gene	1020
+23362255	938	941	Tau	Gene	4137
+23362255	945	949	Cdk5	Gene	1020
+23362255	981	985	Pin1	Gene	5300
+23362255	1102	1106	Pin1	Gene	5300
+23362255	1168	1185	Alzheimer disease	Disease	MESH:D000544
+23362255	1206	1210	Pin1	Gene	5300
+23362255	1242	1245	Tau	Gene	4137
+23362255	1388	1392	Pin1	Gene	5300
+23362255	1398	1401	Tau	Gene	4137
+23362255	1420	1424	Cdk5	Gene	1020
+23362255	1425	1428	p25	Gene	8851
+23362255	1492	1496	Pin1	Gene	5300
+23362255	1539	1542	Tau	Gene	4137
+23362255	1550	1554	Cdk5	Gene	1020
+23362255	1625	1632	FTDP-17	Disease	MESH:D057180
+23362255	1640	1643	Tau	Gene	4137
+23362255	1645	1650	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+23362255	1654	1659	R406W	ProteinMutation	tmVar:p|SUB|R|406|W;HGVS:p.R406W;VariantGroup:4;CorrespondingGene:4137;RS#:63750424;CorrespondingSpecies:9606;CA#:225495
+23362255	1684	1688	Pin1	Gene	5300
+23362255	1714	1717	Tau	Gene	4137
+23362255	1735	1742	FTDP-17	Disease	MESH:D057180
+23362255	1817	1821	Pin1	Gene	5300
+23362255	1826	1829	Tau	Gene	4137
+23362255	1869	1873	Pin1	Gene	5300
+23362255	1968	1979	tauopathies	Disease	MESH:D024801
+23362255	Association	2932	4137
+23362255	Positive_Correlation	MESH:D057180	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+23362255	Association	MESH:D019636	55177
+23362255	Association	5300	8851
+23362255	Positive_Correlation	MESH:D057180	RS#:63750424;HGVS:p.R406W;CorrespondingGene:4137
+23362255	Association	MESH:D057180	5300
+23362255	Association	MESH:D000544	1020
+23362255	Association	MESH:D024801	4137
+23362255	Association	4137	8851
+23362255	Positive_Correlation	MESH:D057180	CorrespondingGene:4137;CorrespondingSpecies:9606;VariantGroup:3;tmVar:p
+23362255	Association	MESH:D057180	4137
+23362255	Negative_Correlation	4137	5300
+23362255	Association	1020	4137
+23362255	Positive_Correlation	1020	5300
+23362255	Association	MESH:D000544	4137
+23362255	Association	MESH:D000544	5300
+23362255	Association	MESH:D057180	4137
+

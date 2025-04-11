@@ -1,0 +1,24 @@
+25383392|t|A Graph-Based Integration of Multimodal Brain Imaging Data for the Detection of Early Mild Cognitive Impairment (E-MCI).
+25383392|a|Alzheimer's disease (AD) is the most common cause of dementia in older adults. By the time an individual has been diagnosed with AD, it may be too late for potential disease modifying therapy to strongly influence outcome. Therefore, it is critical to develop better diagnostic tools that can recognize AD at early symptomatic and especially pre-symptomatic stages. Mild cognitive impairment (MCI), introduced to describe a prodromal stage of AD, is presently classified into early and late stages (E-MCI, L-MCI) based on severity. Using a graph-based semi-supervised learning (SSL) method to integrate multimodal brain imaging data and select valid imaging-based predictors for optimizing prediction accuracy, we developed a model to differentiate E-MCI from healthy controls (HC) for early detection of AD. Multimodal brain imaging scans (MRI and PET) of 174 E-MCI and 98 HC participants from the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort were used in this analysis. Mean targeted region-of-interest (ROI) values extracted from structural MRI (voxel-based morphometry (VBM) and FreeSurfer V5) and PET (FDG and Florbetapir) scans were used as features. Our results show that the graph-based SSL classifiers outperformed support vector machines for this task and the best performance was obtained with 66.8% cross-validated AUC (area under the ROC curve) when FDG and FreeSurfer datasets were integrated. Valid imaging-based phenotypes selected from our approach included ROI values extracted from temporal lobe, hippocampus, and amygdala. Employing a graph-based SSL approach with multimodal brain imaging data appears to have substantial potential for detecting E-MCI for early detection of prodromal AD warranting further investigation.
+25383392	86	111	Mild Cognitive Impairment	Disease	MESH:D060825
+25383392	115	118	MCI	Disease	MESH:D060825
+25383392	121	140	Alzheimer's disease	Disease	MESH:D000544
+25383392	142	144	AD	Disease	MESH:D000544
+25383392	174	182	dementia	Disease	MESH:D003704
+25383392	250	252	AD	Disease	MESH:D000544
+25383392	424	426	AD	Disease	MESH:D000544
+25383392	487	512	Mild cognitive impairment	Disease	MESH:D060825
+25383392	514	517	MCI	Disease	MESH:D060825
+25383392	564	566	AD	Disease	MESH:D000544
+25383392	622	625	MCI	Disease	MESH:D060825
+25383392	629	632	MCI	Disease	MESH:D060825
+25383392	872	875	MCI	Disease	MESH:D060825
+25383392	926	928	AD	Disease	MESH:D000544
+25383392	984	987	MCI	Disease	MESH:D060825
+25383392	1020	1039	Alzheimer's Disease	Disease	MESH:D000544
+25383392	1241	1244	FDG	Chemical	MESH:D019788
+25383392	1249	1260	Florbetapir	Chemical	MESH:C545186
+25383392	1497	1500	FDG	Chemical	MESH:D019788
+25383392	1803	1806	MCI	Disease	MESH:D060825
+25383392	1840	1842	AD	Disease	MESH:D000544
+

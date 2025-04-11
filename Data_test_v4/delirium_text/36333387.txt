@@ -1,0 +1,48 @@
+36333387|t|Pediatric delirium is associated with increased brain injury marker levels in cardiac surgery patients.
+36333387|a|Despite global consensus on the importance of screening pediatric delirium, correlations between pediatric delirium during acute brain injury and adult delirium are unclear. Therefore, we hypothesized that similar pediatric biomarkers reflect acute brain injury as in adult delirium. We observed pediatric cardiac surgery patients from neonatal age to 18 years, who were admitted to our pediatric intensive care unit after cardiovascular operations between October 2019 to June 2020, up to post-operative day 3 (4 days total). We recorded age, sex, risk score (Risk Adjustment in Congenital Heart Surgery [RACHS-1]), midazolam/dexmedetomidine/fentanyl dosage, and pediatric Sequential Organ Failure Assessment (pSOFA). Richmond Agitation-Sedation Scale (RASS), Cornell Assessment of Pediatric Delirium (CAPD), Face, Leg, Activity, Consolability (FLACC) behavioral scale, and Withdrawal Assessment Tool (WAT-1) scales were used and serum sampling for neuron specific enolase (NSE) was conducted. Consciousness status was considered hierarchical (coma > delirium > normal) and associations between conscious status and NSE were conducted by hierarchical Bayesian modeling. We analyzed 134 data points from 40 patients (median age 12 months). In the multi-regression model, NSE was positively associated with coma [posterior odds ratio (OR) = 1.1, 95% credible interval (CrI) 1.01-1.19] while pSOFA [posterior OR = 1.63, 95% CrI 1.17-2.5], midazolam [posterior OR = 1.02, 95% CrI 1.01-1.04], and dexmedetomidine [posterior OR = 9.52, 95% CrI 1.02-108.85] were also associated. We also evaluated consciousness state probability at each NSE concentration and confirmed both that consciousness was hierarchically sorted and CAPD scores were also associated with NSE [posterior OR = 1.32, 95% CrI 1.09-1.58]. "Eye contact" (r = 0.55) was the most correlated component with NSE within the pain, withdrawal syndrome, and PD items. PD within the hierarchy of consciousness (coma, delirium, normal) and CAPD scores are associated with brain injury marker levels. Using pediatric delirium assessment tools for monitoring brain injury, especially eye contact, is a reliable method for observing PD.
+36333387	10	18	delirium	Disease	MESH:D003693
+36333387	48	60	brain injury	Disease	MESH:D001930
+36333387	94	102	patients	Species	9606
+36333387	170	178	delirium	Disease	MESH:D003693
+36333387	211	219	delirium	Disease	MESH:D003693
+36333387	227	245	acute brain injury	Disease	MESH:D001930
+36333387	256	264	delirium	Disease	MESH:D003693
+36333387	347	365	acute brain injury	Disease	MESH:D001930
+36333387	378	386	delirium	Disease	MESH:D003693
+36333387	426	434	patients	Species	9606
+36333387	721	730	midazolam	Chemical	MESH:D008874
+36333387	731	746	dexmedetomidine	Chemical	MESH:D020927
+36333387	747	755	fentanyl	Chemical	MESH:D005283
+36333387	778	802	Sequential Organ Failure	Disease	MESH:D009102
+36333387	897	905	Delirium	Disease	MESH:D003693
+36333387	907	911	CAPD	Disease	MESH:D003693
+36333387	1054	1077	neuron specific enolase	Gene	2026
+36333387	1079	1082	NSE	Gene	2026
+36333387	1149	1153	coma	Disease	MESH:D003128
+36333387	1156	1164	delirium	Disease	MESH:D003693
+36333387	1221	1224	NSE	Gene	2026
+36333387	1311	1319	patients	Species	9606
+36333387	1375	1378	NSE	Gene	2026
+36333387	1410	1414	coma	Disease	MESH:D003128
+36333387	1541	1550	midazolam	Chemical	MESH:D008874
+36333387	1597	1612	dexmedetomidine	Chemical	MESH:D020927
+36333387	1736	1739	NSE	Gene	2026
+36333387	1822	1826	CAPD	Disease	MESH:D003693
+36333387	1860	1863	NSE	Gene	2026
+36333387	1970	1973	NSE	Gene	2026
+36333387	1985	2010	pain, withdrawal syndrome	Disease	MESH:C538101
+36333387	2016	2018	PD	Disease	MESH:D010300
+36333387	2026	2028	PD	Disease	MESH:D010300
+36333387	2068	2072	coma	Disease	MESH:D003128
+36333387	2074	2082	delirium	Disease	MESH:D003693
+36333387	2096	2100	CAPD	Disease	MESH:D003693
+36333387	2128	2140	brain injury	Disease	MESH:D001930
+36333387	2172	2180	delirium	Disease	MESH:D003693
+36333387	2213	2225	brain injury	Disease	MESH:D001930
+36333387	2286	2288	PD	Disease	MESH:D010300
+36333387	Association	MESH:D003693	2026
+36333387	Association	MESH:D003128	2026
+36333387	Association	MESH:D008874	2026
+36333387	Association	MESH:D020927	2026
+36333387	Positive_Correlation	MESH:D020927	MESH:D003693
+

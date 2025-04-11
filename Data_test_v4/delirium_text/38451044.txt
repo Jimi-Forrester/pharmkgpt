@@ -1,0 +1,37 @@
+38451044|t|Identification of key biomarkers for predicting CAD progression in inflammatory bowel disease via machine-learning and bioinformatics strategies.
+38451044|a|The study aimed to identify the biomarkers for predicting coronary atherosclerotic lesions progression in patients with inflammatory bowel disease (IBD). Related transcriptome datasets were seized from Gene Expression Omnibus database. IBD-related modules were identified via Weighted Gene Co-expression Network Analysis. The 'Limma' was applied to screen differentially expressed genes between stable coronary artery disease (CAD) and acute myocardial infarction (AMI). Subsequently, we employed protein-protein interaction (PPI) network and three machine-learning strategies to further screen for candidate hub genes. Application of the receiver operating characteristics curve to quantitatively evaluate candidates to determine key diagnostic biomarkers, followed by a nomogram construction. Ultimately, we performed immune landscape analysis, single-gene GSEA and prediction of target-drugs. 3227 IBD-related module genes and 570 DEGs accounting for AMI were recognized. Intersection yielded 85 shared genes and mostly enriched in immune and inflammatory pathways. After filtering through PPI network and multi-machine learning algorithms, five candidate genes generated. Upon validation, CTSD, CEBPD, CYP27A1 were identified as key diagnostic biomarkers with a superior sensitivity and specificity (AUC > 0.8). Furthermore, all three genes were negatively correlated with CD4+ T cells and positively correlated with neutrophils. Single-gene GSEA highlighted the importance of pathogen invasion, metabolism, immune and inflammation responses during the pathogenesis of AMI. Ten target-drugs were predicted. The discovery of three peripheral blood biomarkers capable of predicting the risk of CAD proceeding into AMI in IBD patients. These identified biomarkers were negatively correlated with CD4+ T cells and positively correlated with neutrophils, indicating a latent therapeutic target.
+38451044	48	51	CAD	Disease	MESH:D003324
+38451044	67	93	inflammatory bowel disease	Disease	MESH:D015212
+38451044	204	236	coronary atherosclerotic lesions	Disease	MESH:D003324
+38451044	252	260	patients	Species	9606
+38451044	266	292	inflammatory bowel disease	Disease	MESH:D015212
+38451044	294	297	IBD	Disease	MESH:D015212
+38451044	382	385	IBD	Disease	MESH:D015212
+38451044	548	571	coronary artery disease	Disease	MESH:D003324
+38451044	573	576	CAD	Disease	MESH:D003324
+38451044	582	609	acute myocardial infarction	Disease	MESH:D009203
+38451044	611	614	AMI	Disease	MESH:D009203
+38451044	1047	1050	IBD	Disease	MESH:D015212
+38451044	1100	1103	AMI	Disease	MESH:D009203
+38451044	1192	1204	inflammatory	Disease	MESH:D007249
+38451044	1339	1343	CTSD	Gene	1509
+38451044	1345	1350	CEBPD	Gene	1052
+38451044	1352	1359	CYP27A1	Gene	1593
+38451044	1523	1526	CD4	Gene	920
+38451044	1669	1681	inflammation	Disease	MESH:D007249
+38451044	1719	1722	AMI	Disease	MESH:D009203
+38451044	1842	1845	CAD	Disease	MESH:D003324
+38451044	1862	1865	AMI	Disease	MESH:D009203
+38451044	1869	1872	IBD	Disease	MESH:D015212
+38451044	1873	1881	patients	Species	9606
+38451044	1943	1946	CD4	Gene	920
+38451044	Association	MESH:D015212	1509
+38451044	Association	MESH:D009203	1593
+38451044	Association	MESH:D015212	1052
+38451044	Association	MESH:D003324	1052
+38451044	Association	MESH:D003324	1509
+38451044	Association	MESH:D003324	1593
+38451044	Association	MESH:D015212	1593
+38451044	Association	MESH:D009203	1509
+38451044	Association	MESH:D009203	1052
+

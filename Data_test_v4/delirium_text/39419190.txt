@@ -1,0 +1,34 @@
+39419190|t|Causal relationship between IgA nephropathy and common neuropsychiatric disorders: A two-sample Mendelian randomization analysis.
+39419190|a|OBJECTIVE: Utilizing two-sample Mendelian randomization (TSMR), this study seeks to determine the causal relationship between IgA nephropathy and five prevalent neuropsychiatric disorders. By exploring the genetic associations between IgA nephropathy and neuropsychiatric disorders, this research aims to contribute to the prevention of neuropsychiatric disorders in patients with IgA nephropathy. METHODS: Public genome-wide association study databases were searched, with IgA nephropathy as the exposure factor, including 15,587 patients with IgA nephropathy and 462,197 healthy controls. The outcome factors were five common neuropsychiatric disorders (bipolar disorder, depressive disorder, schizophrenia, anorexia nervosa, and Alzheimer's disease), with outcome data drawn from five datasets in the PGC and GWAScatalog databases. Inverse-variance weighting served as the primary method for causal effect estimation, supplemented by MR-Egger, weighted median, weighted mode, and simple mode methods. Heterogeneity was tested using Cochran's Q test, and sensitivity analysis was conducted using MR-Egger and MR-presso. RESULTS: MR analysis indicated a positive causal relationship between IgA nephropathy and depressive disorder (OR = 1.010, 95%CI: 1.003-1.017, P = 3.27 x 10-3), and a potential positive causal relationship between IgA nephropathy and anorexia nervosa (OR = 1.165, 95%CI: 1.030-1.319, P = 0.015). CONCLUSION: There is a positive causal relationship between IgA nephropathy and depressive disorder, and a potential positive causal relationship with anorexia nervosa. No causal relationship was found with schizophrenia, bipolar disorder, or Alzheimer's disease.
+39419190	28	43	IgA nephropathy	Gene	60498
+39419190	55	81	neuropsychiatric disorders	Disease	MESH:D001523
+39419190	256	271	IgA nephropathy	Gene	60498
+39419190	291	317	neuropsychiatric disorders	Disease	MESH:D001523
+39419190	365	380	IgA nephropathy	Gene	60498
+39419190	385	411	neuropsychiatric disorders	Disease	MESH:D001523
+39419190	467	493	neuropsychiatric disorders	Disease	MESH:D001523
+39419190	497	505	patients	Species	9606
+39419190	511	526	IgA nephropathy	Gene	60498
+39419190	604	619	IgA nephropathy	Gene	60498
+39419190	661	669	patients	Species	9606
+39419190	675	690	IgA nephropathy	Gene	60498
+39419190	758	784	neuropsychiatric disorders	Disease	MESH:D001523
+39419190	786	802	bipolar disorder	Disease	MESH:D001714
+39419190	804	823	depressive disorder	Disease	MESH:D003866
+39419190	825	838	schizophrenia	Disease	MESH:D012559
+39419190	840	856	anorexia nervosa	Disease	MESH:D000856
+39419190	862	881	Alzheimer's disease	Disease	MESH:D000544
+39419190	1322	1337	IgA nephropathy	Gene	60498
+39419190	1342	1361	depressive disorder	Disease	MESH:D003866
+39419190	1466	1481	IgA nephropathy	Gene	60498
+39419190	1486	1502	anorexia nervosa	Disease	MESH:D000856
+39419190	1608	1623	IgA nephropathy	Gene	60498
+39419190	1628	1647	depressive disorder	Disease	MESH:D003866
+39419190	1699	1715	anorexia nervosa	Disease	MESH:D000856
+39419190	1755	1768	schizophrenia	Disease	MESH:D012559
+39419190	1770	1786	bipolar disorder	Disease	MESH:D001714
+39419190	1791	1810	Alzheimer's disease	Disease	MESH:D000544
+39419190	Association	MESH:D001523	60498
+39419190	Positive_Correlation	MESH:D003866	60498
+39419190	Positive_Correlation	MESH:D000856	60498
+

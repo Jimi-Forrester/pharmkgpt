@@ -1,0 +1,40 @@
+37833700|t|c-Diadem: a constrained dual-input deep learning model to identify novel biomarkers in Alzheimer's disease.
+37833700|a|BACKGROUND: Alzheimer's disease (AD) is an incurable, debilitating neurodegenerative disorder. Current biomarkers for AD diagnosis require expensive neuroimaging or invasive cerebrospinal fluid sampling, thus precluding early detection. Blood-based biomarker discovery in Alzheimer's can facilitate less-invasive, routine diagnostic tests to aid early intervention. Therefore, we propose "c-Diadem" (constrained dual-input Alzheimer's disease model), a novel deep learning classifier which incorporates KEGG (Kyoto Encyclopedia of Genes and Genomes) pathway constraints on the input genotyping data to predict disease, i.e., mild cognitive impairment (MCI)/AD or cognitively normal (CN). SHAP (SHapley Additive exPlanations) was used to explain the model and identify novel, potential blood-based genetic markers of MCI/AD. METHODS: We developed a novel constrained deep learning neural network which utilizes SNPs (single nucleotide polymorphisms) and microarray data from ADNI (Alzheimer's Disease Neuroimaging Initiative) to predict the disease status of participants, i.e., CN or with disease (MCI/AD), and identify potential blood-based biomarkers for diagnosis and intervention. The dataset contains samples from 626 participants, of which 212 are CN (average age 74.6 +- 5.4 years) and 414 patients have MCI/AD (average age 72.7 +- 7.6 years). KEGG pathway information was used to generate constraints applied to the input tensors, thus enhancing the interpretability of the model. SHAP scores were used to identify genes which could potentially serve as biomarkers for diagnosis and targets for drug development. RESULTS: Our model's performance, with accuracy of 69% and AUC of 70% in the test dataset, is superior to previous models. The SHAP scores show that SNPs in PRKCZ, PLCB1 and ITPR2 as well as expression of HLA-DQB1, EIF1AY, HLA-DQA1, and ZFP57 have more impact on model predictions. CONCLUSIONS: In addition to predicting MCI/AD, our model has been interrogated for potential genetic biomarkers using SHAP. From our analysis, we have identified blood-based genetic markers related to Ca2+ ion release in affected regions of the brain, as well as depression. The findings from our study provides insights into disease mechanisms, and can facilitate innovation in less-invasive, cost-effective diagnostics. To the best of our knowledge, our model is the first to use pathway constraints in a multimodal neural network to identify potential genetic markers for AD.
+37833700	87	106	Alzheimer's disease	Disease	MESH:D000544
+37833700	120	139	Alzheimer's disease	Disease	MESH:D000544
+37833700	141	143	AD	Disease	MESH:D000544
+37833700	175	201	neurodegenerative disorder	Disease	MESH:D019636
+37833700	226	228	AD	Disease	MESH:D000544
+37833700	380	391	Alzheimer's	Disease	MESH:D000544
+37833700	531	550	Alzheimer's disease	Disease	MESH:D000544
+37833700	738	758	cognitive impairment	Disease	MESH:D003072
+37833700	760	763	MCI	Disease	MESH:D060825
+37833700	765	767	AD	Disease	MESH:D000544
+37833700	924	927	MCI	Disease	MESH:D060825
+37833700	928	930	AD	Disease	MESH:D000544
+37833700	1088	1107	Alzheimer's Disease	Disease	MESH:D000544
+37833700	1206	1209	MCI	Disease	MESH:D060825
+37833700	1210	1212	AD	Disease	MESH:D000544
+37833700	1419	1422	MCI	Disease	MESH:D060825
+37833700	1423	1425	AD	Disease	MESH:D000544
+37833700	1886	1891	PRKCZ	Gene	5590
+37833700	1893	1898	PLCB1	Gene	23236
+37833700	1903	1908	ITPR2	Gene	3709
+37833700	1934	1942	HLA-DQB1	Gene	3119;3105
+37833700	1944	1950	EIF1AY	Gene	9086
+37833700	1952	1960	HLA-DQA1	Gene	3117;3105
+37833700	1966	1971	ZFP57	Gene	346171
+37833700	2050	2053	MCI	Disease	MESH:D060825
+37833700	2054	2056	AD	Disease	MESH:D000544
+37833700	2212	2220	Ca2+ ion	Chemical	-
+37833700	2274	2284	depression	Disease	MESH:D003866
+37833700	2586	2588	AD	Disease	MESH:D000544
+37833700	Association	MESH:D000544	3119
+37833700	Association	MESH:D000544	3117
+37833700	Association	MESH:D000544	346171
+37833700	Association	MESH:D000544	23236
+37833700	Association	MESH:D000544	5590
+37833700	Association	MESH:D000544	9086
+37833700	Association	MESH:D060825	3105
+37833700	Association	MESH:D000544	3105
+

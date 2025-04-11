@@ -1,0 +1,35 @@
+36291153|t|Intracellular Metabolomics Identifies Efflux Transporter Inhibitors in a Routine Caco-2 Cell Permeability Assay-Biological Implications.
+36291153|a|Caco-2 screens are routinely used in laboratories to measure the permeability of compounds and can identify substrates of efflux transporters. In this study, we hypothesized that efflux transporter inhibition of a compound can be predicted by an intracellular metabolic signature in Caco-2 cells in the assay used to test intestinal permeability. Using selective inhibitors and transporter knock-out (KO) cells and a targeted Liquid Chromatography tandem Mass Spectrometry (LC-MS) method, we identified 11 metabolites increased in cells with depleted P-glycoprotein (Pgp) activity. Four metabolites were altered with Breast Cancer Resistance (BCRP) inhibition and nine metabolites were identified in the Multidrug Drug Resistance Protein 2 (MRP2) signature. A scoring system was created that could discriminate among the three transporters and validated with additional inhibitors. Pgp and MRP2 substrates did not score as inhibitors. In contrast, BCRP substrates and inhibitors showed a similar intracellular metabolomic signature. Network analysis of signature metabolites led us to investigate changes of enzymes in one-carbon metabolism (folate and methionine cycles). Our data shows that methylenetetrahydrofolate reductase (MTHFR) protein levels increased with Pgp inhibition and Thymidylate synthase (TS) protein levels were reduced with Pgp and MRP2 inhibition. In addition, the methionine cycle is also affected by both Pgp and MRP2 inhibition. In summary, we demonstrated that the routine Caco-2 assay has the potential to identify efflux transporter inhibitors in parallel with substrates in the assays currently used in many DMPK laboratories and that inhibition of efflux transporters has biological consequences.
+36291153	81	87	Caco-2	CellLine	CVCL:0025
+36291153	137	143	Caco-2	CellLine	CVCL:0025
+36291153	420	426	Caco-2	CellLine	CVCL:0025
+36291153	688	702	P-glycoprotein	Gene	5243
+36291153	704	707	Pgp	Gene	5243
+36291153	754	778	Breast Cancer Resistance	Disease	MESH:D001943
+36291153	780	784	BCRP	Gene	644079
+36291153	841	876	Multidrug Drug Resistance Protein 2	Gene	1244
+36291153	878	882	MRP2	Gene	1244
+36291153	1019	1022	Pgp	Gene	5243
+36291153	1027	1031	MRP2	Gene	1244
+36291153	1085	1089	BCRP	Gene	644079
+36291153	1279	1285	folate	Chemical	MESH:D005492
+36291153	1290	1300	methionine	Chemical	MESH:D008715
+36291153	1330	1365	methylenetetrahydrofolate reductase	Gene	4524
+36291153	1367	1372	MTHFR	Gene	4524
+36291153	1404	1407	Pgp	Gene	5243
+36291153	1423	1443	Thymidylate synthase	Gene	7298
+36291153	1445	1447	TS	Gene	7298
+36291153	1482	1485	Pgp	Gene	5243
+36291153	1490	1494	MRP2	Gene	1244
+36291153	1524	1534	methionine	Chemical	MESH:D008715
+36291153	1566	1569	Pgp	Gene	5243
+36291153	1574	1578	MRP2	Gene	1244
+36291153	1636	1642	Caco-2	CellLine	CVCL:0025
+36291153	1774	1778	DMPK	Gene	1760
+36291153	Association	MESH:D008715	1244
+36291153	Association	1244	7298
+36291153	Association	MESH:D008715	5243
+36291153	Positive_Correlation	4524	5243
+36291153	Association	MESH:D001943	644079
+36291153	Positive_Correlation	5243	7298
+

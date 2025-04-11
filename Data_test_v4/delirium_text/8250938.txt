@@ -1,0 +1,28 @@
+8250938|t|Phospholipase A2 activation influences the processing and secretion of the amyloid precursor protein.
+8250938|a|The phospholipase A2 (PLA2) inhibitors quinacrine, manoalide and scalaradial inhibit the carbachol-stimulated secretion of the amyloid precursor protein (APP) from cells transfected with the human m1 muscarinic receptor. Conversely, activation of PLA2 by melittin increases secretion of an apparently immature species of APP from these cells. These results implicate PLA2 in regulating APP processing and secretion, which may have important implications for understanding the pathogenesis of Alzheimer's Disease.
+8250938	0	16	Phospholipase A2	Gene	5319
+8250938	75	100	amyloid precursor protein	Gene	351
+8250938	106	122	phospholipase A2	Gene	5319
+8250938	124	128	PLA2	Gene	5319
+8250938	141	151	quinacrine	Chemical	MESH:D011796
+8250938	153	162	manoalide	Chemical	MESH:C045673
+8250938	167	178	scalaradial	Chemical	MESH:C071197
+8250938	191	200	carbachol	Chemical	MESH:D002217
+8250938	229	254	amyloid precursor protein	Gene	351
+8250938	293	298	human	Species	9606
+8250938	349	353	PLA2	Gene	5319
+8250938	469	473	PLA2	Gene	5319
+8250938	594	613	Alzheimer's Disease	Disease	MESH:D000544
+8250938	Negative_Correlation	MESH:D011796	351
+8250938	Negative_Correlation	MESH:C071197	351
+8250938	Negative_Correlation	MESH:C071197	5319
+8250938	Negative_Correlation	MESH:D011796	5319
+8250938	Negative_Correlation	MESH:C045673	MESH:D002217
+8250938	Association	MESH:D000544	5319
+8250938	Negative_Correlation	MESH:D002217	MESH:D011796
+8250938	Association	351	5319
+8250938	Negative_Correlation	MESH:C045673	351
+8250938	Positive_Correlation	MESH:D002217	351
+8250938	Negative_Correlation	MESH:C071197	MESH:D002217
+8250938	Negative_Correlation	MESH:C045673	5319
+

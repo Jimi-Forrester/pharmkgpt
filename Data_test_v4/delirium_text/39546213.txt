@@ -1,0 +1,21 @@
+39546213|t|An intelligent magnetic resonance imagining-based multistage Alzheimer's disease classification using swish-convolutional neural networks.
+39546213|a|Alzheimer's disease (AD) refers to a neurological disorder that causes damage to brain cells and results in decreasing cognitive abilities and memory. In brain scans, this degeneration can be seen in different ways. The disease can be classified into four stages: Non-demented (ND), moderate demented (MoD), mild demented (MiD), and very mild demented (VMD). To prepare the raw dataset for analysis, the collected magnetic resonance imaging (MRI) images are subjected to several pre-processing techniques in order to improve the performance accuracy of the proposed model. Medical images generally have poor contrast and get affected by noise, which ends up with inaccurate diagnosis. For the different phases of AD to be detected, a clear image is necessary. To address this issue, the influence of the artefacts must be reduced, enhance the contrast, and reduce the loss of information. A novel framework for image enhancement is suggested to increase the accuracy in the detection and identification of AD. In this study, the raw MRI dataset from the Alzheimer's disease neuroimaging initiative (ADNI) database is subjected to skull stripping, contrast enhancement, and image filtering followed by data augmentation to balance the dataset with four types of Alzheimer's classes. The pre-processed data are subjected to five different pre-trained models such as AlexNet, ResNet, VGG 16, EfficientNet, and Inceptionv3 achieving a testing accuracy rate of 91.2%, 88.21%, 92.34%, 93.45%, and 85.12%, respectively. These pre-trained models are compared with the proposed CNN (convolutional neural network) model designed with Adam optimizer and Flatten Swish activation function which reaches the highest accuracy of 96.5% with a learning rate of 0.000001. The five pre-trained CNN models along with the proposed swish-based AD-CNN were tested using various performance metrics to evaluate the model efficiency in classifying and identifying the AD classes. From the result analysis, it is evident that the proposed AD-CNN model outperforms all the other models.
+39546213	61	80	Alzheimer's disease	Disease	MESH:D000544
+39546213	139	158	Alzheimer's disease	Disease	MESH:D000544
+39546213	160	162	AD	Disease	MESH:D000544
+39546213	176	197	neurological disorder	Disease	MESH:D009461
+39546213	407	415	demented	Disease	
+39546213	431	439	demented	Disease	
+39546213	441	444	MoD	Disease	MESH:C565640
+39546213	452	460	demented	Disease	
+39546213	462	465	MiD	Disease	MESH:D001924
+39546213	482	490	demented	Disease	
+39546213	492	495	VMD	Disease	MESH:D001924
+39546213	852	854	AD	Disease	MESH:D000544
+39546213	1145	1147	AD	Disease	MESH:D000544
+39546213	1193	1212	Alzheimer's disease	Disease	MESH:D000544
+39546213	1400	1411	Alzheimer's	Disease	MESH:D000544
+39546213	1962	1964	AD	Disease	MESH:D000544
+39546213	2083	2085	AD	Disease	MESH:D000544
+39546213	2153	2155	AD	Disease	MESH:D000544
+

@@ -1,0 +1,12 @@
+34545335|t|ASGARD: A Single-cell Guided pipeline to Aid Repurposing of Drugs.
+34545335|a|Intercellular heterogeneity is a major obstacle to successful precision medicine. Single-cell RNA sequencing (scRNA-seq) technology has enabled in-depth analysis of intercellular heterogeneity in various diseases. However, its full potential for precision medicine has yet to be reached. Towards this, we propose a new drug recommendation system called: A Single-cell Guided Pipeline to Aid Repurposing of Drugs (ASGARD). ASGARD defines a novel drug score predicting drugs by considering all cell clusters to address the intercellular heterogeneity within each patient. We tested ASGARD on multiple diseases, including breast cancer, acute lymphoblastic leukemia, and coronavirus disease 2019 (COVID-19). On single-drug therapy, ASGARD shows significantly better average accuracy (AUC of 0.92) compared to two other bulk-cell-based drug repurposing methods (AUC of 0.80 and 0.76). It is also considerably better (AUC of 0.82) than other cell cluster level predicting methods (AUC of 0.67 and 0.55). In addition, ASGARD is also validated by the drug response prediction method TRANSACT with Triple-Negative-Breast-Cancer patient samples. Many top-ranked drugs are either approved by FDA or in clinical trials treating corresponding diseases. In silico cell-type specific drop-out experiments using triple-negative breast cancers show the importance of T cells in the tumor microenvironment in affecting drug predictions. In conclusion, ASGARD is a promising drug repurposing recommendation tool guided by single-cell RNA-seq for personalized medicine. ASGARD is free for educational use at https://github.com/lanagarmire/ASGARD.
+34545335	628	635	patient	Species	9606
+34545335	686	699	breast cancer	Disease	MESH:D001943
+34545335	701	729	acute lymphoblastic leukemia	Disease	MESH:D054198
+34545335	735	759	coronavirus disease 2019	Disease	MESH:D000086382
+34545335	761	769	COVID-19	Disease	MESH:D000086382
+34545335	1173	1186	Breast-Cancer	Disease	MESH:D001943
+34545335	1187	1194	patient	Species	9606
+34545335	1380	1394	breast cancers	Disease	MESH:D001943
+34545335	1433	1438	tumor	Disease	MESH:D009369
+

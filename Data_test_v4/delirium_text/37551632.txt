@@ -1,0 +1,43 @@
+37551632|t|Single-residue mutation in protein kinase C toggles between cancer and neurodegeneration.
+37551632|a|Conventional protein kinase C (cPKC) isozymes tune the signaling output of cells, with loss-of-function somatic mutations associated with cancer and gain-of-function germline mutations identified in neurodegeneration. PKC with impaired autoinhibition is removed from the cell by quality-control mechanisms to prevent accumulation of aberrantly active enzyme. Here, we examine how a highly conserved residue in the C1A domain of cPKC isozymes permits quality-control degradation when mutated to histidine in cancer (PKCbeta-R42H) and blocks downregulation when mutated to proline in the neurodegenerative disease spinocerebellar ataxia (PKCgamma-R41P). Using FRET-based biosensors, we determined that mutation of R42 to any residue, including lysine, resulted in reduced autoinhibition as indicated by higher basal activity and faster agonist-induced plasma membrane translocation. R42 is predicted to form a stabilizing salt bridge with E655 in the C-tail and mutation of E655, but not neighboring E657, also reduced autoinhibition. Western blot analysis revealed that whereas R42H had reduced stability, the R42P mutant was stable and insensitive to activator-induced ubiquitination and downregulation, an effect previously observed by deletion of the entire C1A domain. Molecular dynamics (MD) simulations and analysis of stable regions of the domain using local spatial pattern (LSP) alignment suggested that P42 interacts with Q66 to impair mobility and conformation of one of the ligand-binding loops. Additional mutation of Q66 to the smaller asparagine (R42P/Q66N), to remove conformational constraints, restored degradation sensitivity. Our results unveil how disease-associated mutations of the same residue in the C1A domain can toggle between gain- or loss-of-function of PKC.
+37551632	60	66	cancer	Disease	MESH:D009369
+37551632	71	88	neurodegeneration	Disease	MESH:D019636
+37551632	228	234	cancer	Disease	MESH:D009369
+37551632	289	306	neurodegeneration	Disease	MESH:D019636
+37551632	308	311	PKC	Gene	112476
+37551632	597	603	cancer	Disease	MESH:D009369
+37551632	605	612	PKCbeta	Gene	5579
+37551632	613	617	R42H	ProteinMutation	tmVar:p|SUB|R|42|H;HGVS:p.R42H;VariantGroup:1;CorrespondingGene:5579;CorrespondingSpecies:9606
+37551632	676	701	neurodegenerative disease	Disease	MESH:D019636
+37551632	702	724	spinocerebellar ataxia	Disease	MESH:D020754
+37551632	726	734	PKCgamma	Gene	5582
+37551632	735	739	R41P	ProteinMutation	tmVar:p|SUB|R|41|P;HGVS:p.R41P;VariantGroup:0;CorrespondingGene:5582;RS#:386134158;CorrespondingSpecies:9606
+37551632	802	805	R42	ProteinMutation	tmVar:p|Allele|R|42;VariantGroup:1;CorrespondingGene:5579;CorrespondingSpecies:9606
+37551632	971	974	R42	ProteinMutation	tmVar:p|Allele|R|42;VariantGroup:1;CorrespondingGene:5579;CorrespondingSpecies:9606
+37551632	1167	1171	R42H	ProteinMutation	tmVar:p|SUB|R|42|H;HGVS:p.R42H;VariantGroup:1;CorrespondingGene:5579;CorrespondingSpecies:9606
+37551632	1199	1203	R42P	ProteinMutation	tmVar:p|SUB|R|42|P;HGVS:p.R42P;VariantGroup:1;CorrespondingGene:5579;CorrespondingSpecies:9606
+37551632	1502	1505	P42	ProteinMutation	tmVar:p|Allele|P|42;VariantGroup:1;CorrespondingGene:5579;CorrespondingSpecies:9606
+37551632	1521	1524	Q66	ProteinMutation	tmVar:p|Allele|Q|66;VariantGroup:2;CorrespondingGene:5582;CorrespondingSpecies:9606
+37551632	1620	1623	Q66	ProteinMutation	tmVar:p|Allele|Q|66;VariantGroup:2;CorrespondingGene:5582;CorrespondingSpecies:9606
+37551632	1651	1655	R42P	ProteinMutation	tmVar:p|SUB|R|42|P;HGVS:p.R42P;VariantGroup:1;CorrespondingGene:5579;CorrespondingSpecies:9606
+37551632	1656	1660	Q66N	ProteinMutation	tmVar:p|SUB|Q|66|N;HGVS:p.Q66N;VariantGroup:2;CorrespondingGene:5582;CorrespondingSpecies:9606
+37551632	1873	1876	PKC	Gene	112476
+37551632	Bind	CorrespondingGene:5579;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p	HGVS:p.R42H;CorrespondingGene:5579
+37551632	Association	MESH:D009369	HGVS:p.R42H;CorrespondingGene:5579
+37551632	Association	MESH:D020754	HGVS:p.R42H;CorrespondingGene:5579
+37551632	Bind	CorrespondingGene:5582;CorrespondingSpecies:9606;VariantGroup:2;tmVar:p	HGVS:p.R42H;CorrespondingGene:5579
+37551632	Bind	HGVS:p.Q66N;CorrespondingGene:5582	HGVS:p.R42H;CorrespondingGene:5579
+37551632	Association	MESH:D020754	RS#:386134158;HGVS:p.R41P;CorrespondingGene:5582
+37551632	Bind	HGVS:p.R42H;CorrespondingGene:5579	RS#:386134158;HGVS:p.R41P;CorrespondingGene:5582
+37551632	Association	CorrespondingGene:5579;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p	CorrespondingGene:5582;CorrespondingSpecies:9606;VariantGroup:2;tmVar:p
+37551632	Bind	HGVS:p.R42H;CorrespondingGene:5579	HGVS:p.R42P;CorrespondingGene:5579
+37551632	Association	MESH:D019636	RS#:386134158;HGVS:p.R41P;CorrespondingGene:5582
+37551632	Association	MESH:D009369	5579
+37551632	Bind	CorrespondingGene:5579;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p	HGVS:p.R42H;CorrespondingGene:5579
+37551632	Association	MESH:D019636	HGVS:p.R42H;CorrespondingGene:5579
+37551632	Association	CorrespondingGene:5579;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p	RS#:386134158;HGVS:p.R41P;CorrespondingGene:5582
+37551632	Association	MESH:D019636	5582
+37551632	Association	MESH:D020754	5582
+37551632	Association	MESH:D020754	5579
+37551632	Association	MESH:D019636	5579
+

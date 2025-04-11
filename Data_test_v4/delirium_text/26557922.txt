@@ -1,0 +1,30 @@
+26557922|t|Histological transformation from non-small cell to small cell lung carcinoma after treatment with epidermal growth factor receptor-tyrosine kinase inhibitor.
+26557922|a|Several cases of acquired resistance in patients with activating epidermal growth factor receptor (EGFR) mutation have been reported. However, rare clinical cases exist of a transformation to small cell lung cancer (SCLC) following treatment with EGFR-tyrosine kinase inhibitors (TKIs). We report a case of non-small cell lung cancer (NSCLC) with L858R mutation at the time of diagnosis. After failure of EGFR-TKI therapy, we performed additional histopathologic examinations. We confirmed that the patient had a histological transformation from NSCLC to SCLC. We performed chemotherapy with etoposide and cisplatin against the SCLC and radiologic findings were improved. 
+26557922	33	76	non-small cell to small cell lung carcinoma	Disease	MESH:D002289
+26557922	198	206	patients	Species	9606
+26557922	223	255	epidermal growth factor receptor	Gene	1956
+26557922	257	261	EGFR	Gene	1956
+26557922	350	372	small cell lung cancer	Disease	MESH:D055752
+26557922	374	378	SCLC	Disease	MESH:D055752
+26557922	405	409	EGFR	Gene	1956
+26557922	410	425	tyrosine kinase	Gene	7294
+26557922	465	491	non-small cell lung cancer	Disease	MESH:D002289
+26557922	493	498	NSCLC	Disease	MESH:D002289
+26557922	505	510	L858R	ProteinMutation	tmVar:p|SUB|L|858|R;HGVS:p.L858R;VariantGroup:0;CorrespondingGene:1956;RS#:121434568;CorrespondingSpecies:9606;CA#:126713
+26557922	563	567	EGFR	Gene	1956
+26557922	657	664	patient	Species	9606
+26557922	704	709	NSCLC	Disease	MESH:D002289
+26557922	713	717	SCLC	Disease	MESH:D055752
+26557922	750	759	etoposide	Chemical	MESH:D005047
+26557922	764	773	cisplatin	Chemical	MESH:D002945
+26557922	786	790	SCLC	Disease	MESH:D055752
+26557922	Association	MESH:D002289	RS#:121434568;HGVS:p.L858R;CorrespondingGene:1956
+26557922	Negative_Correlation	MESH:D002945	MESH:D055752
+26557922	Association	MESH:D055752	1956
+26557922	Association	MESH:D055752	RS#:121434568;HGVS:p.L858R;CorrespondingGene:1956
+26557922	Negative_Correlation	MESH:D005047	MESH:D055752
+26557922	Cotreatment	MESH:D002945	MESH:D005047
+26557922	Negative_Correlation	MESH:D005047	MESH:D002289
+26557922	Association	MESH:D002289	1956
+26557922	Association	MESH:D055752	1956
+

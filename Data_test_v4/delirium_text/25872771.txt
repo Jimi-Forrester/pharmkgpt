@@ -1,0 +1,50 @@
+25872771|t|Ryanodine receptors are targeted by anti-apoptotic Bcl-XL involving its BH4 domain and Lys87 from its BH3 domain.
+25872771|a|Anti-apoptotic B-cell lymphoma 2 (Bcl-2) family members target several intracellular Ca(2+)-transport systems. Bcl-2, via its N-terminal Bcl-2 homology (BH) 4 domain, inhibits both inositol 1,4,5-trisphosphate receptors (IP3Rs) and ryanodine receptors (RyRs), while Bcl-XL, likely independently of its BH4 domain, sensitizes IP3Rs. It remains elusive whether Bcl-XL can also target and modulate RyRs. Here, Bcl-XL co-immunoprecipitated with RyR3 expressed in HEK293 cells. Mammalian protein-protein interaction trap (MAPPIT) and surface plasmon resonance (SPR) showed that Bcl-XL bound to the central domain of RyR3 via its BH4 domain, although to a lesser extent compared to the BH4 domain of Bcl-2. Consistent with the ability of the BH4 domain of Bcl-XL to bind to RyRs, loading the BH4-Bcl-XL peptide into RyR3-overexpressing HEK293 cells or in rat hippocampal neurons suppressed RyR-mediated Ca(2+) release. In silico superposition of the 3D-structures of Bcl-2 and Bcl-XL indicated that Lys87 of the BH3 domain of Bcl-XL could be important for interacting with RyRs. In contrast to Bcl-XL, the Bcl-XL(K87D) mutant displayed lower binding affinity for RyR3 and a reduced inhibition of RyR-mediated Ca(2+) release. These data suggest that Bcl-XL binds to RyR channels via its BH4 domain, but also its BH3 domain, more specific Lys87, contributes to the interaction. 
+25872771	51	57	Bcl-XL	Gene	598
+25872771	72	75	BH4	Chemical	MESH:C003402
+25872771	87	92	Lys87	ProteinMutation	tmVar:p|Allele|K|87;VariantGroup:0;CorrespondingGene:598;CorrespondingSpecies:9606
+25872771	148	153	Bcl-2	Gene	596
+25872771	199	205	Ca(2+)	Chemical	-
+25872771	225	230	Bcl-2	Gene	596
+25872771	251	256	Bcl-2	Gene	596
+25872771	380	386	Bcl-XL	Gene	598
+25872771	416	419	BH4	Chemical	MESH:C003402
+25872771	473	479	Bcl-XL	Gene	598
+25872771	521	527	Bcl-XL	Gene	598
+25872771	555	559	RyR3	Gene	6263
+25872771	573	579	HEK293	CellLine	CVCL:0045
+25872771	687	693	Bcl-XL	Gene	598
+25872771	725	729	RyR3	Gene	6263
+25872771	738	741	BH4	Chemical	MESH:C003402
+25872771	794	797	BH4	Chemical	MESH:C003402
+25872771	808	813	Bcl-2	Gene	596
+25872771	850	853	BH4	Chemical	MESH:C003402
+25872771	864	870	Bcl-XL	Gene	598
+25872771	900	903	BH4	Chemical	MESH:C003402
+25872771	904	910	Bcl-XL	Gene	598
+25872771	924	928	RyR3	Gene	6263
+25872771	944	950	HEK293	CellLine	CVCL:0045
+25872771	963	966	rat	Species	10116
+25872771	998	1001	RyR	Gene	689560
+25872771	1011	1017	Ca(2+)	Chemical	-
+25872771	1075	1080	Bcl-2	Gene	596
+25872771	1085	1091	Bcl-XL	Gene	598
+25872771	1107	1112	Lys87	ProteinMutation	tmVar:p|Allele|K|87;VariantGroup:0;CorrespondingGene:598;CorrespondingSpecies:9606
+25872771	1134	1140	Bcl-XL	Gene	598
+25872771	1202	1208	Bcl-XL	Gene	598
+25872771	1214	1220	Bcl-XL	Gene	598
+25872771	1221	1225	K87D	ProteinMutation	tmVar:p|SUB|K|87|D;HGVS:p.K87D;VariantGroup:0;CorrespondingGene:598;CorrespondingSpecies:9606
+25872771	1271	1275	RyR3	Gene	6263
+25872771	1304	1307	RyR	Gene	6262
+25872771	1317	1323	Ca(2+)	Chemical	-
+25872771	1357	1363	Bcl-XL	Gene	598
+25872771	1373	1376	RyR	Gene	6262
+25872771	1394	1397	BH4	Chemical	MESH:C003402
+25872771	1445	1450	Lys87	ProteinMutation	tmVar:p|Allele|K|87;VariantGroup:0;CorrespondingGene:598;CorrespondingSpecies:9606
+25872771	Association	MESH:C003402	598
+25872771	Association	598	6263
+25872771	Association	598	6262
+25872771	Association	6263	689560
+25872771	Negative_Correlation	598	689560
+25872771	Negative_Correlation	MESH:C003402	689560
+

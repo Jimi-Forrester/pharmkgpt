@@ -1,0 +1,15 @@
+31829182|t|Analysis of disease comorbidity patterns in a large-scale China population.
+31829182|a|BACKGROUND: Disease comorbidity is popular and has significant indications for disease progress and management. We aim to detect the general disease comorbidity patterns in Chinese populations using a large-scale clinical data set. METHODS: We extracted the diseases from a large-scale anonymized data set derived from 8,572,137 inpatients in 453 hospitals across China. We built a Disease Comorbidity Network (DCN) using correlation analysis and detected the topological patterns of disease comorbidity using both complex network and data mining methods. The comorbidity patterns were further validated by shared molecular mechanisms using disease-gene associations and pathways. To predict the disease occurrence during the whole disease progressions, we applied four machine learning methods to model the disease trajectories of patients. RESULTS: We obtained the DCN with 5702 nodes and 258,535 edges, which shows a power law distribution of the degree and weight. It further indicated that there exists high heterogeneity of comorbidities for different diseases and we found that the DCN is a hierarchical modular network with community structures, which have both homogeneous and heterogeneous disease categories. Furthermore, adhering to the previous work from US and Europe populations, we found that the disease comorbidities have their shared underlying molecular mechanisms. Furthermore, take hypertension and psychiatric disease as instance, we used four classification methods to predicte the disease occurrence using the comorbid disease trajectories and obtained acceptable performance, in which in particular, random forest obtained an overall best performance (with F1-score 0.6689 for hypertension and 0.6802 for psychiatric disease). CONCLUSIONS: Our study indicates that disease comorbidity is significant and valuable to understand the disease incidences and their interactions in real-world populations, which will provide important insights for detection of the patterns of disease classification, diagnosis and prognosis.
+31829182	12	31	disease comorbidity	Disease	MESH:D004194
+31829182	88	107	Disease comorbidity	Disease	MESH:D004194
+31829182	217	236	disease comorbidity	Disease	MESH:D004194
+31829182	405	415	inpatients	Species	9606
+31829182	458	477	Disease Comorbidity	Disease	MESH:D004194
+31829182	560	579	disease comorbidity	Disease	MESH:D004194
+31829182	908	916	patients	Species	9606
+31829182	1480	1492	hypertension	Disease	MESH:D006973
+31829182	1497	1516	psychiatric disease	Disease	MESH:D001523
+31829182	1779	1791	hypertension	Disease	MESH:D006973
+31829182	1807	1826	psychiatric disease	Disease	MESH:D001523
+31829182	1867	1886	disease comorbidity	Disease	MESH:D004194
+

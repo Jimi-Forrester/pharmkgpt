@@ -1,0 +1,56 @@
+36830577|t|SARS-CoV-2 Induces Epithelial-Enteric Neuronal Crosstalk Stimulating VIP Release.
+36830577|a|BACKGROUND: Diarrhea is present in up to 30-50% of patients with COVID-19. The mechanism of SARS-CoV-2-induced diarrhea remains unclear. We hypothesized that enterocyte-enteric neuron interactions were important in SARS-CoV-2-induced diarrhea. SARS-CoV-2 induces endoplasmic reticulum (ER) stress in enterocytes causing the release of damage associated molecular patterns (DAMPs). The DAMPs then stimulate the release of enteric neurotransmitters that disrupt gut electrolyte homeostasis. METHODS: Primary mouse enteric neurons (EN) were exposed to a conditioned medium from ACE2-expressing Caco-2 colonic epithelial cells infected with SARS-CoV-2 or treated with tunicamycin (ER stress inducer). Vasoactive intestinal peptides (VIP) expression and secretion by EN were assessed by RT-PCR and ELISA, respectively. Membrane expression of NHE3 was determined by surface biotinylation. RESULTS: SARS-CoV-2 infection led to increased expression of BiP/GRP78, a marker and key regulator for ER stress in Caco-2 cells. Infected cells secreted the DAMP protein, heat shock protein 70 (HSP70), into the culture media, as revealed by proteomic and Western analyses. The expression of VIP mRNA in EN was up-regulated after treatment with a conditioned medium of SARS-CoV-2-infected Caco-2 cells. CD91, a receptor for HSP70, is abundantly expressed in the cultured mouse EN. Tunicamycin, an inducer of ER stress, also induced the release of HSP70 and Xbp1s, mimicking SARS-CoV-2 infection. Co-treatment of Caco-2 with tunicamycin (apical) and VIP (basolateral) induced a synergistic decrease in membrane expression of Na+/H+ exchanger (NHE3), an important transporter that mediates intestinal Na+/fluid absorption. CONCLUSIONS: Our findings demonstrate that SARS-CoV-2 enterocyte infection leads to ER stress and the release of DAMPs that up-regulates the expression and release of VIP by EN. VIP in turn inhibits fluid absorption through the downregulation of brush-border membrane expression of NHE3 in enterocytes. These data highlight the role of epithelial-enteric neuronal crosstalk in COVID-19-related diarrhea.
+36830577	0	10	SARS-CoV-2	Species	2697049
+36830577	69	72	VIP	Gene	22353
+36830577	94	102	Diarrhea	Disease	MESH:D003967
+36830577	133	141	patients	Species	9606
+36830577	147	155	COVID-19	Disease	MESH:D000086382
+36830577	174	184	SARS-CoV-2	Species	2697049
+36830577	193	201	diarrhea	Disease	MESH:D003967
+36830577	297	307	SARS-CoV-2	Species	2697049
+36830577	316	324	diarrhea	Disease	MESH:D003967
+36830577	326	336	SARS-CoV-2	Species	2697049
+36830577	435	444	molecular	Chemical	-
+36830577	588	593	mouse	Species	10090
+36830577	657	661	ACE2	Gene	70008
+36830577	673	679	Caco-2	CellLine	CVCL:0025
+36830577	719	729	SARS-CoV-2	Species	2697049
+36830577	746	757	tunicamycin	Chemical	MESH:D014415
+36830577	779	809	Vasoactive intestinal peptides	Gene	22353
+36830577	811	814	VIP	Gene	22353
+36830577	919	923	NHE3	Gene	105243
+36830577	974	994	SARS-CoV-2 infection	Disease	MESH:D000086382
+36830577	1026	1029	BiP	Gene	3309
+36830577	1030	1035	GRP78	Gene	3309
+36830577	1081	1087	Caco-2	CellLine	CVCL:0025
+36830577	1123	1127	DAMP	Gene	
+36830577	1137	1158	heat shock protein 70	Gene	15511
+36830577	1160	1165	HSP70	Gene	3308
+36830577	1257	1260	VIP	Gene	7432
+36830577	1334	1344	SARS-CoV-2	Species	2697049
+36830577	1354	1360	Caco-2	CellLine	CVCL:0025
+36830577	1368	1372	CD91	Gene	16971
+36830577	1389	1394	HSP70	Gene	15511
+36830577	1436	1441	mouse	Species	10090
+36830577	1446	1457	Tunicamycin	Chemical	MESH:D014415
+36830577	1512	1517	HSP70	Gene	15511
+36830577	1539	1559	SARS-CoV-2 infection	Disease	MESH:D000086382
+36830577	1577	1583	Caco-2	CellLine	CVCL:0025
+36830577	1589	1600	tunicamycin	Chemical	MESH:D014415
+36830577	1614	1617	VIP	Gene	22353
+36830577	1707	1711	NHE3	Gene	105243
+36830577	1829	1839	SARS-CoV-2	Species	2697049
+36830577	1851	1860	infection	Disease	MESH:D007239
+36830577	1953	1956	VIP	Gene	22353
+36830577	1964	1967	VIP	Gene	22353
+36830577	2068	2072	NHE3	Gene	6550
+36830577	2163	2171	COVID-19	Disease	MESH:D000086382
+36830577	2180	2188	diarrhea	Disease	MESH:D003967
+36830577	Negative_Correlation	105243	22353
+36830577	Positive_Correlation	MESH:D007239	22353
+36830577	Positive_Correlation	MESH:D014415	15511
+36830577	Bind	15511	16971
+36830577	Negative_Correlation	MESH:D014415	105243
+36830577	Positive_Correlation	MESH:D014415	22353
+36830577	Positive_Correlation	MESH:D000086382	3309
+

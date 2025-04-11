@@ -1,0 +1,13 @@
+39406835|t|Accurate identification of locally aneuploid cells by incorporating cytogenetic information in single cell data analysis.
+39406835|a|Single-cell RNA sequencing is a powerful tool to investigate the cellular makeup of tumor samples. However, due to the sparse data and the complex tumor microenvironment, it can be challenging to identify neoplastic cells that play important roles in tumor growth and disease progression. This is especially relevant for blood cancers, where neoplastic cells may be highly similar to normal cells. To address this challenge, we have developed partCNV and partCNVH, two methods for rapid and accurate detection of aneuploid cells with local copy number deletion or amplification. PartCNV uses an expectation-maximization (EM) algorithm with mixtures of Poisson distributions and incorporates cytogenetic information to guide the classification. PartCNVH further improves partCNV by integrating a hidden Markov model for feature selection. We have thoroughly evaluated the performance of partCNV and partCNVH through simulation studies and real data analysis using three scRNA-seq datasets from blood cancer patients. Our results show that partCNV and partCNVH have favorable accuracy and provide more interpretable results compared to existing methods. In the real data analysis, we have identified multiple biological processes involved in the oncogenesis of myelodysplastic syndromes and acute myeloid leukemia.
+39406835	206	211	tumor	Disease	MESH:D009369
+39406835	269	274	tumor	Disease	MESH:D009369
+39406835	327	337	neoplastic	Disease	MESH:D009369
+39406835	373	378	tumor	Disease	MESH:D009369
+39406835	443	456	blood cancers	Disease	MESH:D019337
+39406835	464	474	neoplastic	Disease	MESH:D009369
+39406835	1121	1127	cancer	Disease	MESH:D009369
+39406835	1128	1136	patients	Species	9606
+39406835	1381	1406	myelodysplastic syndromes	Disease	MESH:D009190
+39406835	1411	1433	acute myeloid leukemia	Disease	MESH:D015470
+

@@ -1,0 +1,16 @@
+38566220|t|Association between stress hyperglycemia ratio and diabetes mellitus mortality in American adults: a retrospective cohort study and predictive model establishment based on machine learning algorithms (NHANES 2009-2018).
+38566220|a|BACKGROUND: Stress hyperglycemia is a physiological response of the body under stress to make adaptive adjustments in response to changes in the internal environment. The stress hyperglycemia ratio (SHR) is a new indicator after adjusting the basal blood glucose level of the population. Previous studies have shown that SHR is associated with poor prognosis in many diseases, such as cardiovascular and cerebrovascular diseases and delirium in elderly patients. However, there are currently no studies on the correlation between SHR and the general U.S. POPULATION: The purpose of this study was to examine the association between SHR and adverse outcomes among adults in the United States in general. METHODS: Data on 13,315 follow-up cohorts were extracted from NHANES. The study population was divided into four groups according to quartiles of SHR. The primary outcomes were all-cause mortality and diabetes mellitus mortality. The relationship between SHR and outcomes was explored using restricted cubic splines, COX proportional hazards regression, Kaplan-Meier curves, and mediation effects. SHR is incorporated into eight machine learning algorithms to establish a prediction model and verify the prediction performance. RESULTS: A total of 13,315 individual data were included in this study. Restricted cubic splines demonstrated a "U-shaped" association between SHR and all-cause mortality and diabetes mellitus mortality, indicating that increasing SHR is associated with an increased risk of adverse events. Compared with lower SHR, higher SHR was significantly associated with an increased risk of all cause mortality and diabetes mellitus mortality (HR > 1, P < 0.05). The mediating effect results showed that the positively mediated variables were segmented neutrophils and aspartate aminotransferase, and the negatively mediated variables were hemoglobin, red blood cell count, albumin, and alanine aminotransferase. The ROC of the eight machine learning algorithm models are XGBoost (0.8688), DT (0.8512), KNN (0.7966), RF (0.8417), Logistic regression (0.8633), ENET (0.8626), SVM (0.8327) and MLP (0.8662). CONCLUSION: SHR can be used as a predictor of all cause mortality and diabetes mellitus mortality in the general adult population in the United States. Higher SHR is significantly associated with an increased risk of poor prognosis, especially in those aged < 65 years and in women.
+38566220	27	40	hyperglycemia	Disease	MESH:D006943
+38566220	51	68	diabetes mellitus	Disease	MESH:D003920
+38566220	239	252	hyperglycemia	Disease	MESH:D006943
+38566220	398	411	hyperglycemia	Disease	MESH:D006943
+38566220	469	482	blood glucose	Chemical	MESH:D001786
+38566220	605	648	cardiovascular and cerebrovascular diseases	Disease	MESH:D002318
+38566220	653	661	delirium	Disease	MESH:D003693
+38566220	673	681	patients	Species	9606
+38566220	1124	1141	diabetes mellitus	Disease	MESH:D003920
+38566220	1626	1643	diabetes mellitus	Disease	MESH:D003920
+38566220	1857	1874	diabetes mellitus	Disease	MESH:D003920
+38566220	2418	2435	diabetes mellitus	Disease	MESH:D003920
+38566220	2624	2629	women	Species	9606
+

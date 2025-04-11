@@ -1,0 +1,14 @@
+35247546|t|Late combination shows that MEG adds to MRI in classifying MCI versus controls.
+35247546|a|Early detection of Alzheimer's disease (AD) is essential for developing effective treatments. Neuroimaging techniques like Magnetic Resonance Imaging (MRI) have the potential to detect brain changes before symptoms emerge. Structural MRI can detect atrophy related to AD, but it is possible that functional changes are observed even earlier. We therefore examined the potential of Magnetoencephalography (MEG) to detect differences in functional brain activity in people with Mild Cognitive Impairment (MCI) - a state at risk of early AD. We introduce a framework for multimodal combination to ask whether MEG data from a resting-state provides complementary information beyond structural MRI data in the classification of MCI versus controls. More specifically, we used multi-kernel learning of support vector machines to classify 163 MCI cases versus 144 healthy elderly controls from the BioFIND dataset. When using the covariance of planar gradiometer data in the low Gamma range (30-48 Hz), we found that adding a MEG kernel improved classification accuracy above kernels that captured several potential confounds (e.g., age, education, time-of-day, head motion). However, accuracy using MEG alone (68%) was worse than MRI alone (71%). When simply concatenating (normalized) features from MEG and MRI into one kernel (Early combination), there was no advantage of combining MEG with MRI versus MRI alone. When combining kernels of modality-specific features (Intermediate combination), there was an improvement in multimodal classification to 74%. The biggest multimodal improvement however occurred when we combined kernels from the predictions of modality-specific classifiers (Late combination), which achieved 77% accuracy (a reliable improvement in terms of permutation testing). We also explored other MEG features, such as the variance versus covariance of magnetometer versus planar gradiometer data within each of 6 frequency bands (delta, theta, alpha, beta, low gamma, or high gamma), and found that they generally provided complementary information for classification above MRI. We conclude that MEG can improve on the MRI-based classification of MCI.
+35247546	59	62	MCI	Disease	MESH:D060825
+35247546	99	118	Alzheimer's disease	Disease	MESH:D000544
+35247546	120	122	AD	Disease	MESH:D000544
+35247546	329	336	atrophy	Disease	MESH:D001284
+35247546	348	350	AD	Disease	MESH:D000544
+35247546	561	581	Cognitive Impairment	Disease	MESH:D003072
+35247546	583	586	MCI	Disease	MESH:D060825
+35247546	615	617	AD	Disease	MESH:D000544
+35247546	803	806	MCI	Disease	MESH:D060825
+35247546	916	919	MCI	Disease	MESH:D060825
+35247546	2244	2247	MCI	Disease	MESH:D060825
+

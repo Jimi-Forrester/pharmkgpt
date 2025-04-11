@@ -1,0 +1,15 @@
+39638888|t|Deep learning models can predict violence and threats against healthcare providers using clinical notes.
+39638888|a|Violence, verbal abuse, threats, and sexual harassment of healthcare providers by patients is a major challenge for healthcare organizations around the world, contributing to staff turnover, distress, absenteeism, reduced job satisfaction, and worsening mental and physical health. To enable interventions prior to possible violent episodes, we trained two deep learning models to predict violence against healthcare workers 3 days prior to violent events for case and control patients. The first model is a document classification model using clinical notes, and the second is a baseline regression model using largely structured data. Our document classification model achieved an F1 score of 0.75 while our model using structured data achieved an F1 of 0.72, both exceeding the predictive performance of a psychiatry team who reviewed the same documents (0.5 F1). To aid in the explainability and understanding of risk factors for violent events, we additionally trained a named entity recognition classifier on annotations of the same corpus, which achieved an overall F1 of 0.7. This study demonstrates the first deep learning model capable of predicting violent events within healthcare settings using clinical notes, surpassing the first published baseline of human experts. We anticipate our methods can be generalized and extended to enable intervention at other hospital systems.
+39638888	33	41	violence	Disease	
+39638888	105	113	Violence	Disease	
+39638888	115	127	verbal abuse	Disease	MESH:D001039
+39638888	142	159	sexual harassment	Disease	MESH:D050035
+39638888	187	195	patients	Species	9606
+39638888	429	436	violent	Disease	MESH:D001523
+39638888	494	502	violence	Disease	
+39638888	546	553	violent	Disease	MESH:D001523
+39638888	582	590	patients	Species	9606
+39638888	1039	1046	violent	Disease	MESH:D001523
+39638888	1265	1272	violent	Disease	MESH:D001523
+39638888	1372	1377	human	Species	9606
+

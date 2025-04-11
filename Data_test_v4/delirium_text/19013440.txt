@@ -1,0 +1,64 @@
+19013440|t|Role of human aldo-keto-reductase AKR1B10 in the protection against toxic aldehydes.
+19013440|a|Damage of cell membranes by reactive oxygen species results in the formation of toxic lipid peroxides which may ultimately lead to cell death. Among the best characterized intermediates of oxidative stress are the unsaturated aldehydes 4-hydroxynon-2-enal (4-HNE) and its oxidized counterpart 4-oxonon-2-enal (4-ONE). 4-HNE has been linked to various pathological conditions including atherosclerosis, Parkinson's and Alzheimer's disease. 4-Methylpentanal (4-MP) is a side-chain cleavage product formed endogenously during steroidogenesis from cholesterol. Like 4-HNE and 4-ONE, 4-MP is capable of binding covalently to and cross-linking of proteins. These aldehydes are also damaging DNA by the formation of adducts. We found that AKR1B10, a cytosolic member of the aldo-keto reductase superfamily, efficiently catalyzes the reduction of 4-HNE (K(m)=0.3mM, k(cat)=43 min(-1)), 4-ONE (K(m)=0.3mM, k(cat)=40 min(-1)) and 4-MP (K(m)=0.05 mM, k(cat)=25 min(-1)). AKR1B10 catalyzed 4-MP reduction with a 30-fold increase in activity using NADPH as cofactor compared with NADH. As was observed for aldose reductase (AKR1B1) 4-ONE rapidly inactivates AKR1B10, while this inactivation is not observed when the enzyme is pre-incubated with NADPH. It was shown that cysteine 298 of aldose reductase was protected by NADPH from the alpha,beta-unsaturated carbonyls of 4-ONE thus rendering resistance towards inactivation. We generated a mutant AKR1B10, changing the respective cysteine on position 299 of AKR1B10 into a serine. This C299S mutant is still active towards 4-HNE and 4-ONE, albeit at a somewhat lower catalytic efficiency. However, it is still inactivated by 4-ONE in the absence of NADPH.While the best substrates for AKR1B10 are retinals, the high catalytic efficiency together with the protection from inactivation by NADPH suggests a role of AKR1B10 in the detoxification of biogenic aldehydes.
+19013440	8	13	human	Species	9606
+19013440	34	41	AKR1B10	Gene	57016
+19013440	74	83	aldehydes	Chemical	MESH:D000447
+19013440	113	136	reactive oxygen species	Chemical	MESH:D017382
+19013440	171	176	lipid	Chemical	MESH:D008055
+19013440	177	186	peroxides	Chemical	MESH:D010545
+19013440	299	320	unsaturated aldehydes	Chemical	-
+19013440	321	340	4-hydroxynon-2-enal	Chemical	-
+19013440	342	347	4-HNE	Chemical	-
+19013440	378	393	4-oxonon-2-enal	Chemical	MESH:C403894
+19013440	395	400	4-ONE	Chemical	MESH:C403894
+19013440	403	408	4-HNE	Chemical	-
+19013440	470	485	atherosclerosis	Disease	MESH:D050197
+19013440	487	498	Parkinson's	Disease	MESH:D010300
+19013440	503	522	Alzheimer's disease	Disease	MESH:D000544
+19013440	524	540	4-Methylpentanal	Chemical	MESH:C018575
+19013440	542	546	4-MP	Chemical	MESH:C018575
+19013440	629	640	cholesterol	Chemical	MESH:D002784
+19013440	647	652	4-HNE	Chemical	-
+19013440	657	662	4-ONE	Chemical	MESH:C403894
+19013440	664	668	4-MP	Chemical	MESH:C018575
+19013440	742	751	aldehydes	Chemical	MESH:D000447
+19013440	817	824	AKR1B10	Gene	57016
+19013440	924	929	4-HNE	Chemical	-
+19013440	963	968	4-ONE	Chemical	MESH:C403894
+19013440	1005	1009	4-MP	Chemical	MESH:C018575
+19013440	1045	1052	AKR1B10	Gene	57016
+19013440	1063	1067	4-MP	Chemical	MESH:C018575
+19013440	1120	1125	NADPH	Chemical	MESH:D009249
+19013440	1152	1156	NADH	Chemical	MESH:D009243
+19013440	1178	1194	aldose reductase	Gene	231
+19013440	1196	1202	AKR1B1	Gene	231
+19013440	1204	1209	4-ONE	Chemical	MESH:C403894
+19013440	1230	1237	AKR1B10	Gene	57016
+19013440	1317	1322	NADPH	Chemical	MESH:D009249
+19013440	1342	1350	cysteine	Chemical	MESH:D003545
+19013440	1358	1374	aldose reductase	Gene	231
+19013440	1392	1397	NADPH	Chemical	MESH:D009249
+19013440	1443	1448	4-ONE	Chemical	MESH:C403894
+19013440	1519	1526	AKR1B10	Gene	57016
+19013440	1552	1560	cysteine	Chemical	MESH:D003545
+19013440	1580	1587	AKR1B10	Gene	57016
+19013440	1608	1613	C299S	ProteinMutation	tmVar:p|SUB|C|299|S;HGVS:p.C299S;VariantGroup:0;CorrespondingGene:231;RS#:779176563;CorrespondingSpecies:9606;CA#:4493243
+19013440	1645	1650	4-HNE	Chemical	-
+19013440	1655	1660	4-ONE	Chemical	MESH:C403894
+19013440	1747	1752	4-ONE	Chemical	MESH:C403894
+19013440	1771	1782	NADPH.While	Chemical	-
+19013440	1807	1814	AKR1B10	Gene	57016
+19013440	1819	1827	retinals	Chemical	MESH:D012172
+19013440	1909	1914	NADPH	Chemical	MESH:D009249
+19013440	1934	1941	AKR1B10	Gene	57016
+19013440	1976	1985	aldehydes	Chemical	MESH:D000447
+19013440	Association	MESH:C403894	RS#:779176563;HGVS:p.C299S;CorrespondingGene:231
+19013440	Positive_Correlation	MESH:C018575	MESH:D009249
+19013440	Association	MESH:C018575	MESH:D002784
+19013440	Positive_Correlation	MESH:D003545	MESH:D009249
+19013440	Association	MESH:D012172	231
+19013440	Association	MESH:D009249	57016
+19013440	Association	MESH:C018575	57016
+19013440	Association	MESH:C403894	MESH:D003545
+19013440	Association	MESH:C403894	57016
+

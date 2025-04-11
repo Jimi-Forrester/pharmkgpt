@@ -1,0 +1,52 @@
+15505374|t|Rodent Abeta(1-42) exhibits oxidative stress properties similar to those of human Abeta(1-42): Implications for proposed mechanisms of toxicity.
+15505374|a|Alzheimer's disease is a neurodegenerative disorder associated with aging and cognitive decline. Amyloid beta peptide (1-42) [Abeta(1-42)] is a primary constituent of senile plaques - a hallmark of Alzheimer's disease - and has been implicated in the pathogenesis of the disease. Previous studies have shown that methionine residue 35 of beta(1-42) may play a critical role in Abeta(1-42)-mediated oxidative stress and neurotoxicity. Several additional mechanisms of neurotoxicity have been proposed, including the role of Cu(II) binding and reduction to produce hydrogen peroxide and the role of peptide aggregation. It has been reported that rodent Abeta is less likely to form larger beta-sheet structures, and consequently, large aggregates. As a consequence of the lack of deposition of the peptide in rodent brain, rodent Abeta has been proposed to be non-toxic. Additionally, the sequence of the rodent variety of Abeta(1-42) contains three amino acid substitutions compared to the human sequence. These substitutions include the shift of arginine 5, trysosine 10, and histidine 13 to glycine, phenylalanine, and arginine, respectively. This shift in sequence within the Cu(II) binding region of the peptide results in a decrease in the ability of the rodent Abeta peptide to reduce Cu(II) to Cu(I) compared to the human Abeta peptide. As a result of the effect of the amino acid variations on the ability of the rodent peptide to reduce Cu(II) to Cu(I) compared to the human peptide, the rodent beta has been proposed to lack oxidative stress properties. In this study, the oxidative stress and neurotoxic properties of rodent beta(1-42) [Abeta(1-42)Rat] were evaluated and compared to those of human Abeta(1-42). Both human Abeta(1-42) and beta(1-42)Rat were found to have a significant effect on neuronal DNA fragmentation, loss of neuritic networks, and cell viability. beta(1-42) Rat was found to cause a significant increase in both protein oxidation and lipid peroxidation, similar to Abeta(1-42), both of which were inhibited by the lipid-soluble, chain breaking antioxidant vitamin E, suggesting that reactive oxygen species play a role in the Abeta-mediated toxicity. Taken together, these results suggest that Cu(II) reduction may not play a critical role inbeta(1-42)Rat-induced oxidative stress, and that the oxidative stress exhibited by this peptide may be a consequence of the presence of methionine 35, similar to the findings associated with the native human beta(1-42) peptide.
+15505374	76	81	human	Species	9606
+15505374	135	143	toxicity	Disease	MESH:D064420
+15505374	145	164	Alzheimer's disease	Disease	MESH:D000544
+15505374	170	196	neurodegenerative disorder	Disease	MESH:D019636
+15505374	223	240	cognitive decline	Disease	MESH:D003072
+15505374	343	362	Alzheimer's disease	Disease	MESH:D000544
+15505374	458	479	methionine residue 35	ProteinMutation	tmVar:p|Allele|M|35;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+15505374	564	577	neurotoxicity	Disease	MESH:D020258
+15505374	612	625	neurotoxicity	Disease	MESH:D020258
+15505374	668	674	Cu(II)	Chemical	-
+15505374	708	725	hydrogen peroxide	Chemical	MESH:D006861
+15505374	796	801	Abeta	Gene	351
+15505374	973	978	Abeta	Gene	351
+15505374	1134	1139	human	Species	9606
+15505374	1221	1244	histidine 13 to glycine	ProteinMutation	tmVar:p|SUB|H|13|G;HGVS:p.H13G;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+15505374	1323	1329	Cu(II)	Chemical	-
+15505374	1411	1416	Abeta	Gene	351
+15505374	1435	1441	Cu(II)	Chemical	-
+15505374	1445	1450	Cu(I)	Chemical	MESH:C073870
+15505374	1467	1472	human	Species	9606
+15505374	1473	1478	Abeta	Gene	351
+15505374	1590	1596	Cu(II)	Chemical	-
+15505374	1600	1605	Cu(I)	Chemical	MESH:C073870
+15505374	1622	1627	human	Species	9606
+15505374	1748	1758	neurotoxic	Disease	MESH:D020258
+15505374	1803	1806	Rat	Species	10116
+15505374	1848	1853	human	Species	9606
+15505374	1872	1877	human	Species	9606
+15505374	1904	1907	Rat	Species	10116
+15505374	2037	2040	Rat	Species	10116
+15505374	2113	2118	lipid	Chemical	MESH:D008055
+15505374	2193	2198	lipid	Chemical	MESH:D008055
+15505374	2235	2244	vitamin E	Chemical	MESH:D014810
+15505374	2262	2285	reactive oxygen species	Chemical	MESH:D017382
+15505374	2305	2310	Abeta	Gene	351
+15505374	2320	2328	toxicity	Disease	MESH:D064420
+15505374	2373	2379	Cu(II)	Chemical	-
+15505374	2623	2628	human	Species	9606
+15505374	Negative_Correlation	MESH:D008055	MESH:D064420
+15505374	Association	MESH:C073870	351
+15505374	Negative_Correlation	MESH:D008055	MESH:D019636
+15505374	Negative_Correlation	MESH:D008055	CorrespondingGene:351;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p
+15505374	Negative_Correlation	MESH:D008055	HGVS:p.H13G;CorrespondingGene:351
+15505374	Association	MESH:D020258	CorrespondingGene:351;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p
+15505374	Negative_Correlation	MESH:D008055	MESH:D014810
+15505374	Negative_Correlation	MESH:D008055	MESH:D017382
+15505374	Negative_Correlation	MESH:D006861	MESH:D008055
+15505374	Negative_Correlation	MESH:D008055	MESH:D003072
+15505374	Association	MESH:D020258	351
+

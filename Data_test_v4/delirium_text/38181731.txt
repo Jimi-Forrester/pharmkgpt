@@ -1,0 +1,21 @@
+38181731|t|omicSynth: An open multi-omic community resource for identifying druggable targets across neurodegenerative diseases.
+38181731|a|Treatments for neurodegenerative disorders remain rare, but recent FDA approvals, such as lecanemab and aducanumab for Alzheimer disease (MIM: 607822), highlight the importance of the underlying biological mechanisms in driving discovery and creating disease modifying therapies. The global population is aging, driving an urgent need for therapeutics that stop disease progression and eliminate symptoms. In this study, we create an open framework and resource for evidence-based identification of therapeutic targets for neurodegenerative disease. We use summary-data-based Mendelian randomization to identify genetic targets for drug discovery and repurposing. In parallel, we provide mechanistic insights into disease processes and potential network-level consequences of gene-based therapeutics. We identify 116 Alzheimer disease, 3 amyotrophic lateral sclerosis (MIM: 105400), 5 Lewy body dementia (MIM: 127750), 46 Parkinson disease (MIM: 605909), and 9 progressive supranuclear palsy (MIM: 601104) target genes passing multiple test corrections (pSMR_multi < 2.95 x 10-6 and pHEIDI > 0.01). We created a therapeutic scheme to classify our identified target genes into strata based on druggability and approved therapeutics, classifying 41 novel targets, 3 known targets, and 115 difficult targets (of these, 69.8% are expressed in the disease-relevant cell type from single-nucleus experiments). Our novel class of genes provides a springboard for new opportunities in drug discovery, development, and repurposing in the pre-competitive space. In addition, looking at drug-gene interaction networks, we identify previous trials that may require further follow-up such as riluzole in Alzheimer disease. We also provide a user-friendly web platform to help users explore potential therapeutic targets for neurodegenerative diseases, decreasing activation energy for the community.
+38181731	90	116	neurodegenerative diseases	Disease	MESH:D019636
+38181731	133	160	neurodegenerative disorders	Disease	MESH:D019636
+38181731	208	217	lecanemab	Chemical	MESH:C000612089
+38181731	222	232	aducanumab	Chemical	MESH:C000600266
+38181731	237	254	Alzheimer disease	Disease	MESH:D000544
+38181731	641	666	neurodegenerative disease	Disease	MESH:D019636
+38181731	935	952	Alzheimer disease	Disease	MESH:D000544
+38181731	956	985	amyotrophic lateral sclerosis	Disease	MESH:D000690
+38181731	1003	1021	Lewy body dementia	Disease	MESH:D020961
+38181731	1040	1057	Parkinson disease	Disease	MESH:D010300
+38181731	1079	1109	progressive supranuclear palsy	Disease	MESH:D013494
+38181731	1797	1805	riluzole	Chemical	MESH:D019782
+38181731	1809	1826	Alzheimer disease	Disease	MESH:D000544
+38181731	1929	1955	neurodegenerative diseases	Disease	MESH:D019636
+38181731	Negative_Correlation	MESH:C000612089	MESH:D019636
+38181731	Negative_Correlation	MESH:D019782	MESH:D000544
+38181731	Negative_Correlation	MESH:C000600266	MESH:D000544
+38181731	Negative_Correlation	MESH:C000612089	MESH:D000544
+

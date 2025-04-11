@@ -1,0 +1,49 @@
+39234102|t|Transcriptome analysis of the aged SAMP8 mouse model of Alzheimer's disease reveals novel molecular targets of formononetin protection.
+39234102|a|Background: Senescence-accelerated mouse prone 8 (SAMP8) and age-matched SAMR1 mice are used to study the pathogenesis and therapeutics of Alzheimer's disease (AD); however, the molecular mechanisms are not completely understood. Objective: This study aimed to examine the effects of the 5-month administration of formononetin in SAMP8 mice and used RNA-seq to explore the molecular targets. Methods: SAMP8 mice were orally administered formononetin (0, 8, and 16 mg/kg) from 4 months of age, and age-matched SAMR1 mice were used as controls. Behavioral tests were performed in 9-month-old mice, followed by histopathologic analysis. Total RNA from the hippocampus was isolated and subjected to RNA-seq, RT-qPCR, and bioinformatics analysis. Results: The 9-month-old SAMP8 mice exhibited cognition deficits, evidenced by novel object recognition, open-field test, elevated plus maze, and passive avoidance. Nissl bodies in the cortex and hippocampus were decreased. Formononetin treatments ameliorated behavioral deficits and improved morphological changes, which were evidenced by Nissl and H&E staining. RNA-seq revealed distinct gene expression patterns between SAMP8 and SAMR1 mice. Differentially expressed genes in SAMP8 mice were attenuated or normalized by formononetin. Ingenuity pathway analysis (IPA) of canonical pathway and upstream regulators revealed increases in proinflammatory factors and immune dysfunction and decreases in NRF2 and SIRT-1 signaling pathways, leading to neuroinflammation. Formononetin treatment attenuated or reversed these molecular changes. The transcriptome of SAMP8 mice was correlated with transcriptomic profiles of other AD mouse models in the GEO database. Conclusion: Neuroinflammation and decreased antioxidant and SIRT-1 signaling contributed to cognitive deficits in aged SAMP8 mice, which are potential therapeutic targets of formononetin in combination with other therapies.
+39234102	41	46	mouse	Species	10090
+39234102	56	75	Alzheimer's disease	Disease	MESH:D000544
+39234102	111	123	formononetin	Chemical	MESH:C007768
+39234102	171	176	mouse	Species	10090
+39234102	215	219	mice	Species	10090
+39234102	275	294	Alzheimer's disease	Disease	MESH:D000544
+39234102	296	298	AD	Disease	MESH:D000544
+39234102	450	462	formononetin	Chemical	MESH:C007768
+39234102	466	471	SAMP8	CellLine	CVCL:K252
+39234102	472	476	mice	Species	10090
+39234102	537	542	SAMP8	CellLine	CVCL:K252
+39234102	543	547	mice	Species	10090
+39234102	573	585	formononetin	Chemical	MESH:C007768
+39234102	651	655	mice	Species	10090
+39234102	726	730	mice	Species	10090
+39234102	909	913	mice	Species	10090
+39234102	924	942	cognition deficits	Disease	MESH:D003072
+39234102	1102	1114	Formononetin	Chemical	MESH:C007768
+39234102	1138	1157	behavioral deficits	Disease	MESH:D019958
+39234102	1228	1231	H&E	Chemical	MESH:D006371
+39234102	1317	1321	mice	Species	10090
+39234102	1363	1367	mice	Species	10090
+39234102	1401	1413	formononetin	Chemical	MESH:C007768
+39234102	1543	1561	immune dysfunction	Disease	MESH:D007154
+39234102	1579	1583	NRF2	Gene	18024
+39234102	1588	1594	SIRT-1	Gene	93759
+39234102	1626	1643	neuroinflammation	Disease	MESH:D000090862
+39234102	1645	1657	Formononetin	Chemical	MESH:C007768
+39234102	1743	1747	mice	Species	10090
+39234102	1801	1803	AD	Disease	MESH:D000544
+39234102	1804	1809	mouse	Species	10090
+39234102	1850	1867	Neuroinflammation	Disease	MESH:D000090862
+39234102	1898	1904	SIRT-1	Gene	93759
+39234102	1930	1948	cognitive deficits	Disease	MESH:D003072
+39234102	1963	1967	mice	Species	10090
+39234102	2012	2024	formononetin	Chemical	MESH:C007768
+39234102	Association	MESH:D003072	93759
+39234102	Negative_Correlation	MESH:C007768	18024
+39234102	Negative_Correlation	MESH:C007768	93759
+39234102	Association	MESH:D000090862	18024
+39234102	Association	MESH:D000090862	93759
+39234102	Negative_Correlation	MESH:C007768	MESH:D000544
+39234102	Negative_Correlation	MESH:C007768	MESH:D019958
+39234102	Association	MESH:C007768	MESH:D003072
+39234102	Association	MESH:C007768	MESH:D000090862
+39234102	Negative_Correlation	MESH:C007768	MESH:D007154
+

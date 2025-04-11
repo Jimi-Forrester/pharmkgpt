@@ -1,0 +1,34 @@
+32882410|t|Apolipoprotein E4 exhibits intermediates with domain interaction.
+32882410|a|ApoE4(C112R) is the strongest risk factor for Alzheimer's disease, while apoE3(C112) is considered normal. The C112R substitution is believed to alter the interactions between the N-terminal (NTD) and the C-terminal domain (CTD) leading to major functional differences. Here we investigate how the molecular property of the residue at position 112 affects domain interaction using an array of C112X substitutions with arginine, alanine, threonine, valine, leucine and isoleucine as 'X'. We attempt to determine the free energy of domain interaction ( GINT) from stabilities of the NTD ( GNTD) and CTD ( GCTD) in the full-length apoE, and the stabilities of fragments of the NTD ( GNTF) and CTD ( GCTF), using the relationship,  GINT =  GNTD +  GCTD -  GNTF -  GCTF. We find that although  GNTD is strongly dependent on the C112X substitutions,  GNTD -  GNTF is small. Furthermore,  GCTD remains nearly the same as  GCTF. Therefore,  GINT is estimated to be small and similar for the apoE isoforms. However, stability of domain interaction monitored by urea dependent changes in interdomain Forster Resonance Energy Transfer (FRET) is found to be strongly dependent on C112X substitutions. ApoE4 exhibits the highest mid-point of denaturation of interdomain FRET. To resolve the apparently contradictory observations, we hypothesize that higher interdomain FRET in apoE4 in urea may involve 'intermediate' states. Enhanced fluorescence of bis-ANS and susceptibility to proteolytic cleavage support that apoE4, specifically, the NTD of apoE4 harbor 'intermediates' in both native and mildly denaturing conditions. The intermediates could hold key to the pathological functions of apoE4.
+32882410	0	17	Apolipoprotein E4	Gene	348
+32882410	66	71	ApoE4	Gene	348
+32882410	72	77	C112R	ProteinMutation	tmVar:p|SUB|C|112|R;HGVS:p.C112R;VariantGroup:0;CorrespondingGene:348;CorrespondingSpecies:9606
+32882410	112	131	Alzheimer's disease	Disease	MESH:D000544
+32882410	139	144	apoE3	Gene	348
+32882410	145	149	C112	ProteinMutation	tmVar:c|Allele|C|112;VariantGroup:0;CorrespondingGene:348;CorrespondingSpecies:9606
+32882410	177	182	C112R	ProteinMutation	tmVar:p|SUB|C|112|R;HGVS:p.C112R;VariantGroup:0;CorrespondingGene:348;CorrespondingSpecies:9606
+32882410	459	464	C112X	ProteinMutation	tmVar:p|SUB|C|112|X;HGVS:p.C112X;VariantGroup:0;CorrespondingGene:348;CorrespondingSpecies:9606
+32882410	669	673	GCTD	Disease	
+32882410	694	698	apoE	Gene	348
+32882410	762	766	GCTF	Disease	
+32882410	810	814	GCTD	Disease	
+32882410	826	830	GCTF	Disease	
+32882410	889	894	C112X	ProteinMutation	tmVar:p|SUB|C|112|X;HGVS:p.C112X;VariantGroup:0;CorrespondingGene:348;CorrespondingSpecies:9606
+32882410	948	952	GCTD	Disease	
+32882410	981	985	GCTF	Disease	
+32882410	1049	1053	apoE	Gene	348
+32882410	1118	1122	urea	Chemical	MESH:D014508
+32882410	1234	1239	C112X	ProteinMutation	tmVar:p|SUB|C|112|X;HGVS:p.C112X;VariantGroup:0;CorrespondingGene:348;CorrespondingSpecies:9606
+32882410	1255	1260	ApoE4	Gene	348
+32882410	1430	1435	apoE4	Gene	348
+32882410	1439	1443	urea	Chemical	MESH:D014508
+32882410	1504	1511	bis-ANS	Chemical	MESH:C035763
+32882410	1568	1573	apoE4	Gene	348
+32882410	1600	1605	apoE4	Gene	348
+32882410	1744	1749	apoE4	Gene	348
+32882410	Positive_Correlation	MESH:D000544	HGVS:p.C112R;CorrespondingGene:348
+32882410	Association	MESH:D000544	348
+32882410	Association	MESH:D014508	HGVS:p.C112X;CorrespondingGene:348
+32882410	Association	MESH:D014508	HGVS:p.C112R;CorrespondingGene:348
+32882410	Association	MESH:D000544	348
+

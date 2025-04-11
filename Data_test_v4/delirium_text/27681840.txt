@@ -1,0 +1,76 @@
+27681840|t|Regulation of divalent metal transporter-1 by serine phosphorylation.
+27681840|a|Divalent metal transporter-1 (DMT1) mediates dietary iron uptake across the intestinal mucosa and facilitates peripheral delivery of iron released by transferrin in the endosome. Here, we report that classical cannabinoids (Delta9-tetrahydrocannabinol, Delta9-THC), nonclassical cannabinoids (CP 55,940), aminoalkylindoles (WIN 55,212-2) and endocannabinoids (anandamide) reduce 55Fe and 54Mn uptake by HEK293T(DMT1) cells stably expressing the transporter. siRNA knockdown of cannabinoid receptor type 2 (CB2) abrogated inhibition. CB2 is a G-protein (GTP-binding protein)-coupled receptor that negatively regulates signal transduction cascades involving serine/threonine kinases. Immunoprecipitation experiments showed that DMT1 is serine-phosphorylated under basal conditions, but that treatment with Delta9-THC reduced phosphorylation. Site-directed mutation of predicted DMT1 phosphosites further showed that substitution of serine with alanine at N-terminal position 43 (S43A) abolished basal phosphorylation. Concordantly, both the rate and extent of 55Fe uptake in cells expressing DMT1(S43A) was reduced compared with those expressing wild-type DMT1. Among kinase inhibitors that affected DMT1-mediated iron uptake, staurosporine also reduced DMT1 phosphorylation confirming a role for serine phosphorylation in iron transport regulation. These combined data indicate that phosphorylation at serine 43 of DMT1 promotes transport activity, whereas dephosphorylation is associated with loss of iron uptake. Since anti-inflammatory actions mediated through CB2 would be associated with reduced DMT1 phosphorylation, we postulate that this pathway provides a means to reduce oxidative stress by limiting iron uptake.
+27681840	46	52	serine	Chemical	MESH:D012694
+27681840	100	104	DMT1	Gene	4891
+27681840	123	127	iron	Chemical	MESH:D007501
+27681840	203	207	iron	Chemical	MESH:D007501
+27681840	220	231	transferrin	Gene	7018
+27681840	280	292	cannabinoids	Chemical	MESH:D002186
+27681840	294	321	Delta9-tetrahydrocannabinol	Chemical	MESH:D013759
+27681840	323	333	Delta9-THC	Chemical	MESH:D013759
+27681840	349	361	cannabinoids	Chemical	MESH:D002186
+27681840	363	372	CP 55,940	Chemical	MESH:C054649
+27681840	375	392	aminoalkylindoles	Chemical	-
+27681840	394	406	WIN 55,212-2	Chemical	MESH:C070417
+27681840	412	428	endocannabinoids	Chemical	MESH:D063388
+27681840	430	440	anandamide	Chemical	MESH:C078814
+27681840	449	453	55Fe	Chemical	MESH:C000615387
+27681840	458	462	54Mn	Chemical	MESH:C000615379
+27681840	473	480	HEK293T	CellLine	CVCL:0063
+27681840	481	485	DMT1	Gene	4891
+27681840	576	579	CB2	Gene	1269
+27681840	603	606	CB2	Gene	1269
+27681840	612	660	G-protein (GTP-binding protein)-coupled receptor	Gene	10663
+27681840	726	742	serine/threonine	ProteinMutation	tmVar:p|SUB|S||T;VariantGroup:1;CorrespondingGene:10663;CorrespondingSpecies:9606
+27681840	796	800	DMT1	Gene	4891
+27681840	804	810	serine	Chemical	MESH:D012694
+27681840	874	884	Delta9-THC	Chemical	MESH:D013759
+27681840	946	950	DMT1	Gene	4891
+27681840	1000	1019	serine with alanine	ProteinMutation	tmVar:p|SUB|S||A;VariantGroup:2;CorrespondingGene:4891;CorrespondingSpecies:9606
+27681840	1047	1051	S43A	ProteinMutation	tmVar:p|SUB|S|43|A;HGVS:p.S43A;VariantGroup:0;CorrespondingGene:4891;CorrespondingSpecies:9606
+27681840	1128	1132	55Fe	Chemical	MESH:C000615387
+27681840	1160	1164	DMT1	Gene	4891
+27681840	1165	1169	S43A	ProteinMutation	tmVar:p|SUB|S|43|A;HGVS:p.S43A;VariantGroup:0;CorrespondingGene:4891;CorrespondingSpecies:9606
+27681840	1224	1228	DMT1	Gene	4891
+27681840	1268	1272	DMT1	Gene	4891
+27681840	1282	1286	iron	Chemical	MESH:D007501
+27681840	1295	1308	staurosporine	Chemical	MESH:D019311
+27681840	1322	1326	DMT1	Gene	4891
+27681840	1365	1371	serine	Chemical	MESH:D012694
+27681840	1391	1395	iron	Chemical	MESH:D007501
+27681840	1471	1480	serine 43	ProteinMutation	tmVar:p|Allele|S|43;VariantGroup:0;CorrespondingGene:4891;CorrespondingSpecies:9606
+27681840	1484	1488	DMT1	Gene	4891
+27681840	1571	1575	iron	Chemical	MESH:D007501
+27681840	1595	1607	inflammatory	Disease	MESH:D007249
+27681840	1633	1636	CB2	Gene	1269
+27681840	1670	1674	DMT1	Gene	4891
+27681840	1779	1783	iron	Chemical	MESH:D007501
+27681840	Negative_Correlation	MESH:C000615379	MESH:C070417
+27681840	Negative_Correlation	MESH:C000615379	MESH:D063388
+27681840	Negative_Correlation	MESH:C070417	4891
+27681840	Negative_Correlation	MESH:C000615387	MESH:C078814
+27681840	Association	MESH:C000615387	CorrespondingGene:4891;CorrespondingSpecies:9606;VariantGroup:2;tmVar:p
+27681840	Association	MESH:D012694	4891
+27681840	Negative_Correlation	MESH:C000615387	MESH:C054649
+27681840	Association	MESH:C000615387	4891
+27681840	Association	1269	4891
+27681840	Association	MESH:D007501	7018
+27681840	Negative_Correlation	MESH:C000615387	MESH:D063388
+27681840	Negative_Correlation	MESH:D019311	4891
+27681840	Association	MESH:D007249	1269
+27681840	Association	MESH:C000615387	HGVS:p.S43A;CorrespondingGene:4891
+27681840	Negative_Correlation	MESH:C078814	4891
+27681840	Negative_Correlation	MESH:C000615379	MESH:D002186
+27681840	Negative_Correlation	MESH:C000615387	MESH:D013759
+27681840	Negative_Correlation	MESH:C000615379	MESH:C078814
+27681840	Association	MESH:D007501	MESH:D012694
+27681840	Negative_Correlation	MESH:C000615387	MESH:C070417
+27681840	Association	MESH:D007501	4891
+27681840	Negative_Correlation	MESH:C000615387	MESH:D002186
+27681840	Association	MESH:C000615387	CorrespondingGene:10663;CorrespondingSpecies:9606;VariantGroup:1;tmVar:p
+27681840	Association	MESH:D013759	4891
+27681840	Negative_Correlation	MESH:D063388	4891
+27681840	Negative_Correlation	MESH:C000615379	MESH:D013759
+27681840	Negative_Correlation	MESH:C000615379	MESH:C054649
+27681840	Association	MESH:D007249	4891
+

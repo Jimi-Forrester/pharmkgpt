@@ -1,0 +1,85 @@
+31315045|t|Deficiency in BDNF/TrkB Neurotrophic Activity Stimulates delta-Secretase by Upregulating C/EBPbeta in Alzheimer's Disease.
+31315045|a|BDNF/TrkB neurotrophic signaling regulates neuronal development, differentiation, and survival, and deficient BDNF/TrkB activity underlies neurodegeneration in Alzheimer's disease (AD). However, exactly how BDNF/TrkB participates in AD pathology remains unclear. Here, we show that deprivation of BDNF/TrkB increases inflammatory cytokines and activates the JAK2/STAT3 pathway, resulting in the upregulation of transcription factor C/EBPbeta. This, in turn, results in increased expression of delta-secretase, leading to both APP and Tau fragmentation by delta-secretase and neuronal loss, which can be blocked by expression of STAT3 Y705F, knockdown of C/EBPbeta, or the delta-secretase enzymatic-dead C189S mutant. Inhibition of this pathological cascade can also rescue impaired synaptic plasticity and cognitive dysfunctions. Importantly, reduction in BDNF/TrkB neurotrophic signaling is inversely coupled with an increase in JAK2/STAT3, C/EBPbeta, and delta-secretase escalation in human AD brains. Therefore, our findings provide a mechanistic link between BDNF/TrkB reduction, C/EBPbeta upregulation, delta-secretase activity, and Abeta and Tau alterations in murine brains.
+31315045	14	18	BDNF	Gene	12064
+31315045	19	23	TrkB	Gene	18212
+31315045	89	98	C/EBPbeta	Gene	12608
+31315045	102	121	Alzheimer's Disease	Disease	MESH:D000544
+31315045	123	127	BDNF	Gene	12064
+31315045	128	132	TrkB	Gene	4915
+31315045	233	237	BDNF	Gene	12064
+31315045	238	242	TrkB	Gene	4915
+31315045	262	279	neurodegeneration	Disease	MESH:D019636
+31315045	283	302	Alzheimer's disease	Disease	MESH:D000544
+31315045	304	306	AD	Disease	MESH:D000544
+31315045	330	334	BDNF	Gene	12064
+31315045	335	339	TrkB	Gene	18212
+31315045	356	358	AD	Disease	MESH:D000544
+31315045	420	424	BDNF	Gene	12064
+31315045	425	429	TrkB	Gene	18212
+31315045	440	452	inflammatory	Disease	MESH:D007249
+31315045	481	485	JAK2	Gene	16452
+31315045	486	491	STAT3	Gene	20848
+31315045	555	564	C/EBPbeta	Gene	12608
+31315045	657	660	Tau	Gene	4137
+31315045	698	711	neuronal loss	Disease	MESH:D009410
+31315045	751	756	STAT3	Gene	20848
+31315045	757	762	Y705F	ProteinMutation	tmVar:p|SUB|Y|705|F;HGVS:p.Y705F;VariantGroup:1;OriginalGene:20848;CorrespondingGene:6774;CorrespondingSpecies:10090
+31315045	777	786	C/EBPbeta	Gene	12608
+31315045	826	831	C189S	ProteinMutation	tmVar:p|SUB|C|189|S;HGVS:p.C189S;VariantGroup:0;OriginalGene:12608;CorrespondingGene:1051;CorrespondingSpecies:10090
+31315045	929	951	cognitive dysfunctions	Disease	MESH:D003072
+31315045	979	983	BDNF	Gene	12064
+31315045	984	988	TrkB	Gene	18212
+31315045	1053	1057	JAK2	Gene	16452
+31315045	1058	1063	STAT3	Gene	6774
+31315045	1065	1074	C/EBPbeta	Gene	1051
+31315045	1110	1115	human	Species	9606
+31315045	1116	1118	AD	Disease	MESH:D000544
+31315045	1186	1190	BDNF	Gene	12064
+31315045	1191	1195	TrkB	Gene	18212
+31315045	1207	1216	C/EBPbeta	Gene	12608
+31315045	1261	1266	Abeta	Gene	11820
+31315045	1271	1274	Tau	Gene	4137
+31315045	1290	1296	murine	Species	10090
+31315045	Negative_Correlation	MESH:D009410	HGVS:p.Y705F;CorrespondingGene:6774
+31315045	Association	MESH:D009410	4137
+31315045	Association	1051	12064
+31315045	Negative_Correlation	18212	6774
+31315045	Association	12608	16452
+31315045	Negative_Correlation	12064	12608
+31315045	Positive_Correlation	18212	20848
+31315045	Negative_Correlation	MESH:D007249	18212
+31315045	Negative_Correlation	1051	18212
+31315045	Association	MESH:D019636	4915
+31315045	Positive_Correlation	MESH:D009410	12608
+31315045	Positive_Correlation	12608	4137
+31315045	Negative_Correlation	11820	12064
+31315045	Association	MESH:D009410	HGVS:p.C189S;CorrespondingGene:1051
+31315045	Association	12064	6774
+31315045	Positive_Correlation	20848	4137
+31315045	Association	16452	20848
+31315045	Association	MESH:D003072	HGVS:p.C189S;CorrespondingGene:1051
+31315045	Association	12064	16452
+31315045	Positive_Correlation	16452	18212
+31315045	Negative_Correlation	MESH:D007249	12064
+31315045	Association	MESH:D009410	18212
+31315045	Negative_Correlation	MESH:D000544	12064
+31315045	Positive_Correlation	MESH:D009410	20848
+31315045	Association	MESH:D000544	6774
+31315045	Negative_Correlation	18212	4137
+31315045	Negative_Correlation	11820	18212
+31315045	Association	MESH:D000544	1051
+31315045	Association	MESH:D019636	12064
+31315045	Association	MESH:D000544	12608
+31315045	Association	MESH:D000544	16452
+31315045	Negative_Correlation	12064	18212
+31315045	Positive_Correlation	12064	20848
+31315045	Negative_Correlation	12608	18212
+31315045	Association	12608	20848
+31315045	Negative_Correlation	12064	4137
+31315045	Association	MESH:D009410	12064
+31315045	Association	MESH:D000544	18212
+31315045	Association	MESH:D000544	4915
+31315045	Association	MESH:D009410	6774
+31315045	Association	MESH:D009410	1051
+31315045	Association	MESH:D003072	1051
+

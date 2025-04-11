@@ -1,0 +1,24 @@
+30772652|t|Quantifying correlations between mutational sites in the catalytic subunit of gamma-secretase.
+30772652|a|Presenilin 1 (PS1) is the catalytic subunit of the gamma-secretase complex which is involved in the generation of amyloid-beta peptides (Abeta). Single point mutations in PS1 alter the cleavage pattern of the amyloid precursor protein (APP) and lead to the formation of aberrant Abeta peptides. To date, more than two hundred mutations distributed among almost a third of PS1's amino acids have been associated to the development of Alzheimer's disease (AD). Nevertheless, the mechanism by which mutations far from the catalytic site alter the gamma-secretase's cleavage pattern remains unclear. In this work we analyzed correlated motions between amino acids in the wild type (WT) enzyme and 13 gamma-secretase mutant models employing a multi-scale molecular dynamics approach. The effect of the protonation state of key catalytic residue Asp385 on the correlation networks was also evaluated. We observed that the strength and number of correlations is highly influenced in all mutant models in both protonation state models. The biggest changes were observed in mutants I83T, W165G, H214Y and L435F; the latest has been proved to drastically reduce gamma-secretase activity. Finally, we made a classification of the studied mutations according to their correlation networks with amino acids at: (1) the interfaces with the other gamma-secretase components, (2) the catalytic site, (3) the substrate entry site and (4) the substrate recognition site. Overall, this work provides insight into the allosteric communication networks of PS1.
+30772652	95	107	Presenilin 1	Gene	5663
+30772652	109	112	PS1	Gene	5663
+30772652	232	237	Abeta	Gene	351
+30772652	266	269	PS1	Gene	5663
+30772652	304	329	amyloid precursor protein	Gene	351
+30772652	374	379	Abeta	Gene	351
+30772652	467	470	PS1	Gene	5663
+30772652	528	547	Alzheimer's disease	Disease	MESH:D000544
+30772652	549	551	AD	Disease	MESH:D000544
+30772652	1168	1172	I83T	ProteinMutation	tmVar:p|SUB|I|83|T;HGVS:p.I83T;VariantGroup:3;CorrespondingGene:5663;CorrespondingSpecies:9606
+30772652	1174	1179	W165G	ProteinMutation	tmVar:p|SUB|W|165|G;HGVS:p.W165G;VariantGroup:2;CorrespondingGene:5663;RS#:63751010(Expired);CorrespondingSpecies:9606;CA#:225035
+30772652	1181	1186	H214Y	ProteinMutation	tmVar:p|SUB|H|214|Y;HGVS:p.H214Y;VariantGroup:0;CorrespondingGene:5663;RS#:63751003(Expired);CorrespondingSpecies:9606;CA#:225074
+30772652	1191	1196	L435F	ProteinMutation	tmVar:p|SUB|L|435|F;HGVS:p.L435F;VariantGroup:1;CorrespondingGene:5663;RS#:63750001(Expired);CorrespondingSpecies:9606;CA#:225184
+30772652	1630	1633	PS1	Gene	5663
+30772652	Positive_Correlation	MESH:D000544	RS#:63751003(Expired);HGVS:p.H214Y;CorrespondingGene:5663
+30772652	Association	MESH:D000544	RS#:63750001(Expired);HGVS:p.L435F;CorrespondingGene:5663
+30772652	Positive_Correlation	MESH:D000544	HGVS:p.I83T;CorrespondingGene:5663
+30772652	Association	351	5663
+30772652	Positive_Correlation	MESH:D000544	RS#:63751010(Expired);HGVS:p.W165G;CorrespondingGene:5663
+30772652	Association	MESH:D000544	5663
+30772652	Association	MESH:D000544	5663
+

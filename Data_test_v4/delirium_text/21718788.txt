@@ -1,0 +1,26 @@
+21718788|t|Local MRI analysis approach in the diagnosis of early and prodromal Alzheimer's disease.
+21718788|a|BACKGROUND: Medial temporal lobe (MTL) atrophy is one of the key biomarkers to detect early neurodegenerative changes in the course of Alzheimer's disease (AD). There is active research aimed at identifying automated methodologies able to extract accurate classification indexes from T1-weighted magnetic resonance images (MRI). Such indexes should be fit for identifying AD patients as early as possible. SUBJECTS: A reference group composed of 144AD patients and 189 age-matched controls was used to train and test the procedure. It was then applied on a study group composed of 302 MCI subjects, 136 having progressed to clinically probable AD (MCI-converters) and 166 having remained stable or recovered to normal condition after a 24month follow-up (MCI-non converters). All subjects came from the ADNI database. METHODS: We sampled the brain with 7 relatively small volumes, mainly centered on the MTL, and 2 control regions. These volumes were filtered to give intensity and textural MRI-based features. Each filtered region was analyzed with a Random Forest (RF) classifier to extract relevant features, which were subsequently processed with a Support Vector Machine (SVM) classifier. Once a prediction model was trained and tested on the reference group, it was used to compute a classification index (CI) on the MCI cohort and to assess its accuracy in predicting AD conversion in MCI patients. The performance of the classification based on the features extracted by the whole 9 volumes is compared with that derived from each single volume. All experiments were performed using a bootstrap sampling estimation, and classifier performance was cross-validated with a 20-fold paradigm. RESULTS: We identified a restricted set of image features correlated with the conversion to AD. It is shown that most information originate from a small subset of the total available features, and that it is enough to give a reliable assessment. We found multiple, highly localized image-based features which alone are responsible for the overall clinical diagnosis and prognosis. The classification index is able to discriminate Controls from AD with an Area Under Curve (AUC)=0.97 (sensitivity  89% at specificity  94%) and Controls from MCI-converters with an AUC=0.92 (sensitivity  89% at specificity  80%). MCI-converters are separated from MCI-non converters with AUC=0.74(sensitivity  72% at specificity  65%). FINDINGS: The present automated MRI-based technique revealed a strong relationship between highly localized baseline-MRI features and the baseline clinical assessment. In addition, the classification index was also used to predict the probability of AD conversion within a time frame of two years. The definition of a single index combining local analysis of several regions can be useful to detect AD neurodegeneration in a typical MCI population.
+21718788	68	87	Alzheimer's disease	Disease	MESH:D000544
+21718788	101	135	Medial temporal lobe (MTL) atrophy	Disease	MESH:D004833
+21718788	224	243	Alzheimer's disease	Disease	MESH:D000544
+21718788	245	247	AD	Disease	MESH:D000544
+21718788	461	463	AD	Disease	MESH:D000544
+21718788	464	472	patients	Species	9606
+21718788	541	549	patients	Species	9606
+21718788	674	677	MCI	Disease	
+21718788	733	735	AD	Disease	MESH:D000544
+21718788	737	740	MCI	Disease	
+21718788	844	847	MCI	Disease	
+21718788	1412	1415	MCI	Disease	
+21718788	1464	1466	AD	Disease	MESH:D000544
+21718788	1481	1484	MCI	Disease	
+21718788	1485	1493	patients	Species	9606
+21718788	1877	1879	AD	Disease	MESH:D000544
+21718788	2229	2231	AD	Disease	MESH:D000544
+21718788	2325	2328	MCI	Disease	
+21718788	2397	2400	MCI	Disease	
+21718788	2431	2434	MCI	Disease	
+21718788	2753	2755	AD	Disease	MESH:D000544
+21718788	2902	2922	AD neurodegeneration	Disease	MESH:D000544
+21718788	2936	2939	MCI	Disease	
+

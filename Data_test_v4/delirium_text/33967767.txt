@@ -1,0 +1,18 @@
+33967767|t|Emulated Clinical Trials from Longitudinal Real-World Data Efficiently Identify Candidates for Neurological Disease Modification: Examples from Parkinson's Disease.
+33967767|a|Real-world healthcare data hold the potential to identify therapeutic solutions for progressive diseases by efficiently pinpointing safe and efficacious repurposing drug candidates. This approach circumvents key early clinical development challenges, particularly relevant for neurological diseases, concordant with the vision of the 21st Century Cures Act. However, to-date, these data have been utilized mainly for confirmatory purposes rather than as drug discovery engines. Here, we demonstrate the usefulness of real-world data in identifying drug repurposing candidates for disease-modifying effects, specifically candidate marketed drugs that exhibit beneficial effects on Parkinson's disease (PD) progression. We performed an observational study in cohorts of ascertained PD patients extracted from two large medical databases, Explorys SuperMart (N = 88,867) and IBM MarketScan Research Databases (N = 106,395); and applied two conceptually different, well-established causal inference methods to estimate the effect of hundreds of drugs on delaying dementia onset as a proxy for slowing PD progression. Using this approach, we identified two drugs that manifested significant beneficial effects on PD progression in both datasets: rasagiline, narrowly indicated for PD motor symptoms; and zolpidem, a psycholeptic. Each confers its effects through distinct mechanisms, which we explored via a comparison of estimated effects within the drug classification ontology. We conclude that analysis of observational healthcare data, emulating otherwise costly, large, and lengthy clinical trials, can highlight promising repurposing candidates, to be validated in prospective registration trials, beneficial against common, late-onset progressive diseases for which disease-modifying therapeutic solutions are scarce.
+33967767	95	115	Neurological Disease	Disease	MESH:D020271
+33967767	144	163	Parkinson's Disease	Disease	MESH:D010300
+33967767	442	463	neurological diseases	Disease	MESH:D020271
+33967767	845	864	Parkinson's disease	Disease	MESH:D010300
+33967767	866	868	PD	Disease	MESH:D010300
+33967767	945	947	PD	Disease	MESH:D010300
+33967767	948	956	patients	Species	9606
+33967767	1224	1232	dementia	Disease	MESH:D003704
+33967767	1262	1264	PD	Disease	MESH:D010300
+33967767	1373	1375	PD	Disease	MESH:D010300
+33967767	1406	1416	rasagiline	Chemical	MESH:C031967
+33967767	1441	1443	PD	Disease	MESH:D010300
+33967767	1464	1472	zolpidem	Chemical	MESH:D000077334
+33967767	Negative_Correlation	MESH:D000077334	MESH:D010300
+33967767	Negative_Correlation	MESH:C031967	MESH:D010300
+

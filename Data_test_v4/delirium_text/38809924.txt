@@ -1,0 +1,46 @@
+38809924|t|Deciphering molecular bridges: Unveiling the interplay between metabolic syndrome and Alzheimer's disease through a systems biology approach and drug repurposing.
+38809924|a|The association between Alzheimer's disease and metabolic disorders as significant risk factors is widely acknowledged. However, the intricate molecular mechanism intertwining these conditions remains elusive. To address this knowledge gap, we conducted a thorough investigation using a bioinformatics method to illuminate the molecular connections and pathways that provide novel perspectives on these disorders' pathological and clinical features. Microarray datasets (GSE5281, GSE122063) from the Gene Expression Omnibus (GEO) database facilitated the way to identify genes with differential expression in Alzheimer's disease (141 genes). Leveraging CoreMine, CTD, and Gene Card databases, we extracted genes associated with metabolic conditions, including hypertension, non-alcoholic fatty liver disease, and diabetes. Subsequent analysis uncovered overlapping genes implicated in metabolic conditions and Alzheimer's disease, revealing shared molecular links. We utilized String and HIPPIE databases to visualize these shared genes' protein-protein interactions (PPI) and constructed a PPI network using Cytoscape and MCODE plugin. SPP1, CD44, IGF1, and FLT1 were identified as crucial molecules in the main cluster of Alzheimer's disease and metabolic syndrome. Enrichment analysis by the DAVID dataset was employed and highlighted the SPP1 as a novel target, with its receptor CD44 playing a significant role in the inflammatory cascade and disruption of insulin signaling, contributing to the neurodegenerative aspects of Alzheimer's disease. ECM-receptor interactions, focal adhesion, and the PI3K/Akt pathways may all mediate these effects. Additionally, we investigated potential medications by repurposing the molecular links using the DGIdb database, revealing Tacrolimus and Calcitonin as promising candidates, particularly since they possess binding sites on the SPP1 molecule. In conclusion, our study unveils crucial molecular bridges between metabolic syndrome and AD, providing insights into their pathophysiology for therapeutic interventions.
+38809924	63	81	metabolic syndrome	Disease	MESH:D024821
+38809924	86	105	Alzheimer's disease	Disease	MESH:D000544
+38809924	187	206	Alzheimer's disease	Disease	MESH:D000544
+38809924	211	230	metabolic disorders	Disease	MESH:D008659
+38809924	772	791	Alzheimer's disease	Disease	MESH:D000544
+38809924	923	935	hypertension	Disease	MESH:D006973
+38809924	937	970	non-alcoholic fatty liver disease	Disease	MESH:D065626
+38809924	976	984	diabetes	Disease	MESH:D003920
+38809924	1073	1092	Alzheimer's disease	Disease	MESH:D000544
+38809924	1300	1304	SPP1	Gene	6696
+38809924	1306	1310	CD44	Gene	960
+38809924	1312	1316	IGF1	Gene	3479
+38809924	1322	1326	FLT1	Gene	2321
+38809924	1387	1406	Alzheimer's disease	Disease	MESH:D000544
+38809924	1411	1429	metabolic syndrome	Disease	MESH:D024821
+38809924	1505	1509	SPP1	Gene	6696
+38809924	1547	1551	CD44	Gene	960
+38809924	1586	1598	inflammatory	Disease	MESH:D007249
+38809924	1625	1632	insulin	Gene	3630
+38809924	1664	1681	neurodegenerative	Disease	MESH:D019636
+38809924	1693	1712	Alzheimer's disease	Disease	MESH:D000544
+38809924	1765	1769	PI3K	Gene	5293
+38809924	1770	1773	Akt	Gene	207
+38809924	1937	1947	Tacrolimus	Chemical	MESH:D016559
+38809924	2041	2045	SPP1	Gene	6696
+38809924	2123	2141	metabolic syndrome	Disease	MESH:D024821
+38809924	2146	2148	AD	Disease	MESH:D000544
+38809924	Association	MESH:D000544	2321
+38809924	Association	MESH:D007249	960
+38809924	Association	MESH:D016559	6696
+38809924	Association	MESH:D024821	2321
+38809924	Association	MESH:D000544	3479
+38809924	Association	MESH:D024821	6696
+38809924	Association	MESH:D024821	960
+38809924	Association	MESH:D019636	6696
+38809924	Association	MESH:D019636	3630
+38809924	Bind	6696	960
+38809924	Association	MESH:D000544	6696
+38809924	Association	MESH:D000544	960
+38809924	Association	MESH:D024821	3479
+38809924	Association	MESH:D019636	960
+38809924	Association	MESH:D000544	3630
+38809924	Association	MESH:D007249	6696
+

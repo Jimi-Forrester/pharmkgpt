@@ -1,0 +1,42 @@
+35547362|t|Molecular Dynamics Simulation and Essential Dynamics of Deleterious Proline 12 Alanine Single-Nucleotide Polymorphism in PPARgamma2 Associated with Type 2 Diabetes, Cardiovascular Disease, and Nonalcoholic Fatty Liver Disease.
+35547362|a|Background. Peroxisome proliferator-activated receptor-gamma (PPARgamma) gene is located at 3p25 position. PPARgamma functions as the master regulator of glucose homeostasis and lipoprotein metabolism, and recent studies have reported that it is involved in various metabolic diseases such as diabetes mellitus, hyperlipidemia, coronary artery disease (CAD), and nonalcoholic fatty liver disease (NAFLD). PPARgamma1 and PPARgamma2 are necessary for the development of adipose tissue and insulin sensitivity regulation. But PPARgamma2 is the isoform that was controlled in response to nutrient intake and obesity. Methodology. In this study, we used computational techniques to show the impact of Pro12Ala polymorphism on PPARgamma2. The 3-D structure of PPARgamma2 was modeled using I-TASSER server. The modeled structure was validated with the ZLab server, and the mutation was created with SPDB viewer. Stability prediction tools were used. Molecular dynamics simulation (MDS) was used to understand the structural and functional behavior of the wild type and mutant. Essential dynamics was also applied. Results and Conclusions. Stability prediction tools were showed that this mutation has a destabilizing effect on the PPARgamma2 structure. The RMSD, RMSF, Rg, SASA, and DSSP were in line with H-bond results that showed less flexibility in the mutant structure. Essential dynamics was used to verify MDS results. Pro12Ala polymorphism leads to rigidity of the PPARgamma2 protein and might disturb the conformational changes and interactions of PPARgamma2 and results in type 2 diabetes mellitus (T2DM), CAD, and NAFLD. This study can help scientists to develop a drug therapy against these diseases.
+35547362	68	86	Proline 12 Alanine	ProteinMutation	tmVar:p|SUB|P|12|A;HGVS:p.P12A;VariantGroup:0;CorrespondingGene:5468;RS#:1801282;CorrespondingSpecies:9606
+35547362	148	163	Type 2 Diabetes	Disease	MESH:D003924
+35547362	165	187	Cardiovascular Disease	Disease	MESH:D002318
+35547362	193	225	Nonalcoholic Fatty Liver Disease	Disease	MESH:D065626
+35547362	239	287	Peroxisome proliferator-activated receptor-gamma	Gene	5468
+35547362	289	298	PPARgamma	Gene	5468
+35547362	319	323	3p25	Chromosome	3
+35547362	334	343	PPARgamma	Gene	5468
+35547362	381	388	glucose	Chemical	MESH:D005947
+35547362	493	511	metabolic diseases	Disease	MESH:D008659
+35547362	520	537	diabetes mellitus	Disease	MESH:D003920
+35547362	539	553	hyperlipidemia	Disease	MESH:D006949
+35547362	555	578	coronary artery disease	Disease	MESH:D003324
+35547362	580	583	CAD	Disease	MESH:D003324
+35547362	590	622	nonalcoholic fatty liver disease	Disease	MESH:D065626
+35547362	624	629	NAFLD	Disease	MESH:D065626
+35547362	714	721	insulin	Gene	3630
+35547362	831	838	obesity	Disease	MESH:D009765
+35547362	923	931	Pro12Ala	ProteinMutation	tmVar:p|SUB|P|12|A;HGVS:p.P12A;VariantGroup:0;CorrespondingGene:5468;RS#:1801282;CorrespondingSpecies:9606
+35547362	1646	1654	Pro12Ala	ProteinMutation	tmVar:p|SUB|P|12|A;HGVS:p.P12A;VariantGroup:0;CorrespondingGene:5468;RS#:1801282;CorrespondingSpecies:9606
+35547362	1803	1827	type 2 diabetes mellitus	Disease	MESH:D003924
+35547362	1829	1833	T2DM	Disease	MESH:D003924
+35547362	1836	1839	CAD	Disease	MESH:D003324
+35547362	1845	1850	NAFLD	Disease	MESH:D065626
+35547362	Positive_Correlation	MESH:D003324	RS#:1801282;HGVS:p.P12A;CorrespondingGene:5468
+35547362	Positive_Correlation	MESH:D003924	RS#:1801282;HGVS:p.P12A;CorrespondingGene:5468
+35547362	Association	MESH:D008659	5468
+35547362	Association	MESH:D002318	RS#:1801282;HGVS:p.P12A;CorrespondingGene:5468
+35547362	Association	MESH:D065626	5468
+35547362	Association	MESH:D009765	5468
+35547362	Association	MESH:D006949	5468
+35547362	Association	MESH:D065626	RS#:1801282;HGVS:p.P12A;CorrespondingGene:5468
+35547362	Association	MESH:D003324	5468
+35547362	Association	MESH:D005947	5468
+35547362	Association	MESH:D003920	5468
+35547362	Association	MESH:D003324	5468
+35547362	Association	MESH:D003924	5468
+35547362	Association	MESH:D002318	5468
+35547362	Association	MESH:D065626	5468
+

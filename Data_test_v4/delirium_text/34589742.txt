@@ -1,0 +1,58 @@
+34589742|t|Differentially expressed genes in Alzheimer's disease highlighting the roles of microglia genes including OLR1 and astrocyte gene CDK2AP1.
+34589742|a|BACKGROUND: Alzheimer's disease (AD) is associated with abnormal tau and amyloid-beta accumulation in the brain, leading to neurofibrillary tangles, neuropil threads and extracellular amyloid-beta plaques. Treatment is limited to symptom management, a disease-modifying therapy is not available. To advance search of therapy approaches, there is a continued need to identify targets for disease intervention both by confirming existing hypotheses and generating new hypotheses. METHODS: We conducted a mRNA-seq study to identify genes associated with AD in post-mortem brain samples from the superior temporal gyrus (STG, n = 76), and inferior frontal gyrus (IFG, n = 65) brain regions. Differentially expressed genes (DEGs) were identified correcting for gender and surrogate variables to capture hidden variation not accounted for by pre-planned covariates. The results from this study were compared with the transcriptome studies from the Accelerated Medicine Partnership - Alzheimer's Disease (AMP-AD) initiative. Over-representation and gene set enrichment analysis (GSEA) was used to identify disease-associated pathways. Protein-protein interaction (PPI) and weighted gene co-expression network analysis (WGCNA) analyses were carried out and co-expressed gene modules and their hub genes were identified and associated with additional phenotypic traits of interest. RESULTS: Several hundred mRNAs were differentially expressed between AD cases and cognitively normal controls in the STG, while no and few transcripts met the same criteria (adjusted p less than 0.05 and fold change greater than 1.2) in the IFG. The findings were consistent at the gene set level with two out of three cohorts from AMP-AD. PPI analysis suggested that the DEGs were enriched in protein-protein interactions than expected by random chance. Over-representation and GSEA analysis suggested genes playing roles in neuroinflammation, amyloid-beta, autophagy and trafficking being important for the AD disease process. At the gene level, 10 genes from the STG that were consistently differentially expressed in this study and in the MSBB study (one of the three cohorts within the AMP-AD initiative) were enriched in microglial genes (TREM2, C3AR1, ITGAX, OLR1, CD74, and HLA-DRA), but also included genes with a broader cell type expression pattern such as CDK2AP1. Among the DEGs with supporting evidence from an independent study, CDK2AP1 (most abundantly expressed in astrocyte) was the transcript with strongest association with antemortem cognitive measure (last Mini-Mental State Examination score) and neurofibril tangle burden but also associated with amyloid plaque burden, while OLR1 was the transcript with strongest association with amyloid plaque burden. GSEA and over-representation analyses revealed gene sets related to immune processes including neutrophil degranulation, interleukin 10 signaling, and interferon gamma signaling, complement and coagulation cascades, phosphatidylinositol signaling system, phagosome and neurotransmitter receptors and postsynaptic signal transmission were enriched from this study and replicated in an independent study. CONCLUSION: This study identified differential gene sets, common with two out of three AMP-AD cohorts (ROSMAP and MSBB) and highlights microglia and astrocyte as the key cell-types with DGEs associated with AD clinical diagnosis, and/or antemortem cognitive measure as well as neuropathological indices. Future meta-analysis and causal inferential analysis will be helpful in pinpointing the most relevant pathways and genes to intervene.
+34589742	34	53	Alzheimer's disease	Disease	MESH:D000544
+34589742	106	110	OLR1	Gene	4973
+34589742	130	137	CDK2AP1	Gene	8099
+34589742	151	170	Alzheimer's disease	Disease	MESH:D000544
+34589742	172	174	AD	Disease	MESH:D000544
+34589742	204	207	tau	Gene	4137
+34589742	212	224	amyloid-beta	Gene	351
+34589742	263	286	neurofibrillary tangles	Disease	MESH:D055956
+34589742	323	335	amyloid-beta	Gene	351
+34589742	690	692	AD	Disease	MESH:D000544
+34589742	1116	1135	Alzheimer's Disease	Disease	MESH:D000544
+34589742	1137	1140	AMP	Disease	
+34589742	1141	1143	AD	Disease	MESH:D000544
+34589742	1581	1583	AD	Disease	MESH:D000544
+34589742	1844	1848	AMP-	Disease	
+34589742	1848	1850	AD	Disease	MESH:D000544
+34589742	2038	2055	neuroinflammation	Disease	MESH:D000090862
+34589742	2057	2069	amyloid-beta	Gene	351
+34589742	2121	2131	AD disease	Disease	MESH:D000544
+34589742	2303	2306	AMP	Disease	
+34589742	2307	2309	AD	Disease	MESH:D000544
+34589742	2357	2362	TREM2	Gene	54209
+34589742	2364	2369	C3AR1	Gene	719
+34589742	2371	2376	ITGAX	Gene	3687
+34589742	2378	2382	OLR1	Gene	4973
+34589742	2384	2388	CD74	Gene	972
+34589742	2394	2401	HLA-DRA	Gene	3122
+34589742	2480	2487	CDK2AP1	Gene	8099
+34589742	2556	2563	CDK2AP1	Gene	8099
+34589742	2744	2750	tangle	Disease	MESH:D055956
+34589742	2783	2797	amyloid plaque	Disease	MESH:D058225
+34589742	2812	2816	OLR1	Gene	4973
+34589742	2868	2882	amyloid plaque	Disease	MESH:D058225
+34589742	3012	3026	interleukin 10	Gene	3586
+34589742	3042	3058	interferon gamma	Gene	3458
+34589742	3381	3384	AMP	Chemical	MESH:D000249
+34589742	3385	3387	AD	Disease	MESH:D000544
+34589742	3501	3503	AD	Disease	MESH:D000544
+34589742	Association	MESH:D000249	3586
+34589742	Association	MESH:D000544	4973
+34589742	Association	MESH:D000249	MESH:D058225
+34589742	Association	MESH:D058225	3586
+34589742	Association	MESH:D000544	3586
+34589742	Association	MESH:D000544	3122
+34589742	Association	MESH:D000544	972
+34589742	Association	MESH:D000544	3458
+34589742	Association	3458	3586
+34589742	Association	MESH:D000544	8099
+34589742	Association	MESH:D000544	54209
+34589742	Association	MESH:D000544	719
+34589742	Association	MESH:D058225	3458
+34589742	Association	MESH:D000544	3687
+34589742	Association	MESH:D000249	3458
+34589742	Association	MESH:D000544	4137
+34589742	Association	MESH:D000544	351
+

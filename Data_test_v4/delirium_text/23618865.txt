@@ -1,0 +1,54 @@
+23618865|t|A sigma-1 receptor antagonist (NE-100) prevents tunicamycin-induced cell death via GRP78 induction in hippocampal cells.
+23618865|a|Endoplasmic reticulum (ER) stress is involved in various diseases such as ischemia, Alzheimer's disease, and Parkinson's disease. The widely used selective sigma-1 receptor antagonist, N, N-dipropyl-2-[4-methoxy-3-(2-phenylethoxy)-phenyl]-ethylamine monohydrochloride (NE-100), has been shown to suppress ischemia-induced neuronal cell death in the murine hippocampus. In the present study, we investigated whether NE-100 might suppress neuronal cell death that is induced by ER stress in ischemic injury. These studies show that NE-100 protected the ER stress-induced cell death of murine hippocampal HT22 cells, but not the oxidative stress-induced cell death. This suggests that NE-100 may have a protective effect on the ER. However, another sigma-1 receptor antagonist (BD1047) did not suppress ER stress-induced cell death. In addition, NE-100 attenuated the upregulation of C/EBP homologous protein (CHOP) induced by ER stress and upregulated the expression of both the 50-kDa activating transcription factor 6 (p50ATF6) and the 78-kDa glucose-regulated protein (GRP78). However, NE-100 did not impact the expression of phosphorylated eukaryotic initiation factor 2alpha (p-eIF2alpha) nor splicing of X-box-binding protein 1 (XBP-1). These findings suggest that NE-100 suppresses ER stress-induced cell death via CHOP expression by the upregulation of GRP78 through ATF6 pathway, independent sigma-1 receptor antagonist effect.
+23618865	2	18	sigma-1 receptor	Gene	18391
+23618865	31	37	NE-100	Chemical	MESH:C083832
+23618865	48	59	tunicamycin	Chemical	MESH:D014415
+23618865	73	78	death	Disease	MESH:D003643
+23618865	83	88	GRP78	Gene	14828
+23618865	195	203	ischemia	Disease	MESH:D007511
+23618865	205	224	Alzheimer's disease	Disease	MESH:D000544
+23618865	230	249	Parkinson's disease	Disease	MESH:D010300
+23618865	277	293	sigma-1 receptor	Gene	18391
+23618865	306	388	N, N-dipropyl-2-[4-methoxy-3-(2-phenylethoxy)-phenyl]-ethylamine monohydrochloride	Chemical	MESH:C083832
+23618865	390	396	NE-100	Chemical	MESH:C083832
+23618865	426	434	ischemia	Disease	MESH:D007511
+23618865	443	451	neuronal	Disease	MESH:D009410
+23618865	457	462	death	Disease	MESH:D003643
+23618865	470	476	murine	Species	10090
+23618865	558	566	neuronal	Disease	MESH:D009410
+23618865	572	577	death	Disease	MESH:D003643
+23618865	610	625	ischemic injury	Disease	MESH:D017202
+23618865	651	657	NE-100	Chemical	MESH:C083832
+23618865	695	700	death	Disease	MESH:D003643
+23618865	704	710	murine	Species	10090
+23618865	723	727	HT22	CellLine	CVCL:0321
+23618865	777	782	death	Disease	MESH:D003643
+23618865	867	883	sigma-1 receptor	Gene	18391
+23618865	896	902	BD1047	Chemical	MESH:C097963
+23618865	944	949	death	Disease	MESH:D003643
+23618865	1002	1026	C/EBP homologous protein	Gene	13198
+23618865	1028	1032	CHOP	Gene	13198
+23618865	1157	1189	78-kDa glucose-regulated protein	Gene	14828
+23618865	1191	1196	GRP78	Gene	14828
+23618865	1302	1311	eIF2alpha	Gene	229317
+23618865	1329	1352	X-box-binding protein 1	Gene	22433
+23618865	1354	1359	XBP-1	Gene	22433
+23618865	1431	1436	death	Disease	MESH:D003643
+23618865	1441	1445	CHOP	Gene	13198
+23618865	1480	1485	GRP78	Gene	14828
+23618865	1494	1498	ATF6	Gene	226641
+23618865	1520	1536	sigma-1 receptor	Gene	18391
+23618865	Association	MESH:D003643	226641
+23618865	Negative_Correlation	MESH:C083832	18391
+23618865	Negative_Correlation	MESH:C083832	MESH:D007511
+23618865	Positive_Correlation	MESH:D014415	MESH:D003643
+23618865	Negative_Correlation	MESH:C083832	MESH:D009410
+23618865	Positive_Correlation	MESH:D014415	14828
+23618865	Negative_Correlation	MESH:C083832	MESH:D014415
+23618865	Negative_Correlation	MESH:C097963	18391
+23618865	Association	14828	226641
+23618865	Negative_Correlation	MESH:C083832	MESH:D003643
+23618865	Positive_Correlation	14828	18391
+23618865	Association	MESH:D003643	14828
+23618865	Negative_Correlation	MESH:C083832	14828
+

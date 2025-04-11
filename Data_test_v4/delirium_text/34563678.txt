@@ -1,0 +1,13 @@
+34563678|t|MRI-based Alzheimer's disease prediction via distilling the knowledge in multi-modal data.
+34563678|a|Mild cognitive impairment (MCI) conversion prediction, i.e., identifying MCI patients of high risks converting to Alzheimer's disease (AD), is essential for preventing or slowing the progression of AD. Although previous studies have shown that the fusion of multi-modal data can effectively improve the prediction accuracy, their applications are largely restricted by the limited availability or high cost of multi-modal data. Building an effective prediction model using only magnetic resonance imaging (MRI) remains a challenging research topic. In this work, we propose a multi-modal multi-instance distillation scheme, which aims to distill the knowledge learned from multi-modal data to an MRI-based network for MCI conversion prediction. In contrast to existing distillation algorithms, the proposed multi-instance probabilities demonstrate a superior capability of representing the complicated atrophy distributions, and can guide the MRI-based network to better explore the input MRI. To our best knowledge, this is the first study that attempts to improve an MRI-based prediction model by leveraging extra supervision distilled from multi-modal information. Experiments demonstrate the advantage of our framework, suggesting its potentials in the data-limited clinical settings.
+34563678	10	29	Alzheimer's disease	Disease	MESH:D000544
+34563678	91	116	Mild cognitive impairment	Disease	MESH:D060825
+34563678	118	121	MCI	Disease	MESH:D060825
+34563678	164	167	MCI	Disease	MESH:D060825
+34563678	168	176	patients	Species	9606
+34563678	205	224	Alzheimer's disease	Disease	MESH:D000544
+34563678	226	228	AD	Disease	MESH:D000544
+34563678	289	291	AD	Disease	MESH:D000544
+34563678	809	812	MCI	Disease	MESH:D060825
+34563678	993	1000	atrophy	Disease	MESH:D001284
+

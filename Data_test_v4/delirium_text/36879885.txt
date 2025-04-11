@@ -1,0 +1,13 @@
+36879885|t|AI-DrugNet: A network-based deep learning model for drug repurposing and combination therapy in neurological disorders.
+36879885|a|Discovering effective therapies is difficult for neurological and developmental disorders in that disease progression is often associated with a complex and interactive mechanism. Over the past few decades, few drugs have been identified for treating Alzheimer's disease (AD), especially for impacting the causes of cell death in AD. Although drug repurposing is gaining more success in developing therapeutic efficacy for complex diseases such as common cancer, the complications behind AD require further study. Here, we developed a novel prediction framework based on deep learning to identify potential repurposed drug therapies for AD, and more importantly, our framework is broadly applicable and may generalize to identifying potential drug combinations in other diseases. Our prediction framework is as follows: we first built a drug-target pair (DTP) network based on multiple drug features and target features, as well as the associations between DTP nodes where drug-target pairs are the DTP nodes and the associations between DTP nodes are represented as the edges in the AD disease network; furthermore, we incorporated the drug-target feature from the DTP network and the relationship information between drug-drug, target-target, drug-target within and outside of drug-target pairs, representing each drug-combination as a quartet to generate corresponding integrated features; finally, we developed an AI-based Drug discovery Network (AI-DrugNet), which exhibits robust predictive performance. The implementation of our network model help identify potential repurposed and combination drug options that may serve to treat AD and other diseases.
+36879885	96	118	neurological disorders	Disease	MESH:D009461
+36879885	169	209	neurological and developmental disorders	Disease	MESH:D009422
+36879885	371	390	Alzheimer's disease	Disease	MESH:D000544
+36879885	392	394	AD	Disease	MESH:D000544
+36879885	450	452	AD	Disease	MESH:D000544
+36879885	575	581	cancer	Disease	MESH:D009369
+36879885	608	610	AD	Disease	MESH:D000544
+36879885	757	759	AD	Disease	MESH:D000544
+36879885	1204	1214	AD disease	Disease	MESH:D000544
+36879885	1758	1760	AD	Disease	MESH:D000544
+

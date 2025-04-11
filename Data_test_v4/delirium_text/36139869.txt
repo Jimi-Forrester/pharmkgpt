@@ -1,0 +1,84 @@
+36139869|t|DHPA Protects SH-SY5Y Cells from Oxidative Stress-Induced Apoptosis via Mitochondria Apoptosis and the Keap1/Nrf2/HO-1 Signaling Pathway.
+36139869|a|Oxidative stress in the brain is highly related to the pathogenesis of Alzheimer's disease (AD). It could be induced by the overproduction of reactive oxygen species (ROS), produced by the amyloid beta (Abeta) peptide and excess copper (Cu) in senile plaques and cellular species, such as ascorbic acid (AA) and O2. In this study, the protective effect of 5-hydroxy-7-(4'-hydroxy-3'-methoxyphenyl)-1-phenyl-3-heptanone (DHPA) on Abeta(1-42)/Cu2+/AA mixture-treated SH-SY5Y cells was investigated via in vitro and in silico studies. The results showed that DHPA could inhibit Abeta/Cu2+/AA-induced SH-SY5Y apoptosis, OH  production, intracellular ROS accumulation, and malondialdehyde (MDA) production. Further research demonstrated that DHPA could decrease the ratio of Bax/Bcl-2 and repress the increase of mitochondrial membrane potential (MMP) of SH-SY5Y cells, to further suppress the activation of caspase-3, and inhibit cell apoptosis. Meanwhile, DHPA could inhibit the Abeta/Cu2+/AA-induced phosphorylation of Erk1/2 and P38 in SH-SY5Y cells, and increase the expression of P-AKT. Furthermore, DHPA could bind to Keap1 to promote the separation of Nrf2 to Keap1 and activate the Keap1/Nrf2/HO-1 signaling pathway to increase the expression of heme oxygenase-1 (HO-1), quinone oxidoreductase-1 (NQO1), glutathione (GSH), and superoxide dismutase (SOD). Thus, our results demonstrated that DHPA could inhibit Abeta/Cu2+/AA-induced SH-SY5Y apoptosis via scavenging OH , inhibit mitochondria apoptosis, and activate the Keap1/Nrf2/HO-1 signaling pathway.
+36139869	0	4	DHPA	Chemical	MESH:C016391
+36139869	14	21	SH-SY5Y	CellLine	CVCL:0019
+36139869	103	108	Keap1	Gene	9817
+36139869	109	113	Nrf2	Gene	4780
+36139869	114	118	HO-1	Gene	3162
+36139869	209	228	Alzheimer's disease	Disease	MESH:D000544
+36139869	230	232	AD	Disease	MESH:D000544
+36139869	280	303	reactive oxygen species	Chemical	MESH:D017382
+36139869	305	308	ROS	Chemical	MESH:D017382
+36139869	327	339	amyloid beta	Gene	351
+36139869	341	346	Abeta	Gene	351
+36139869	367	373	copper	Chemical	MESH:D003300
+36139869	375	377	Cu	Chemical	MESH:D003300
+36139869	427	440	ascorbic acid	Chemical	MESH:D001205
+36139869	450	452	O2	Chemical	-
+36139869	494	556	5-hydroxy-7-(4'-hydroxy-3'-methoxyphenyl)-1-phenyl-3-heptanone	Chemical	MESH:C488394
+36139869	558	562	DHPA	Chemical	MESH:C016391
+36139869	579	583	Cu2+	Chemical	-
+36139869	603	610	SH-SY5Y	CellLine	CVCL:0019
+36139869	694	698	DHPA	Chemical	MESH:C016391
+36139869	713	718	Abeta	Gene	351
+36139869	719	723	Cu2+	Chemical	-
+36139869	735	742	SH-SY5Y	CellLine	CVCL:0019
+36139869	784	787	ROS	Chemical	MESH:D017382
+36139869	806	821	malondialdehyde	Chemical	MESH:D008315
+36139869	823	826	MDA	Chemical	MESH:D008315
+36139869	875	879	DHPA	Chemical	MESH:C016391
+36139869	908	911	Bax	Gene	581
+36139869	912	917	Bcl-2	Gene	596
+36139869	988	995	SH-SY5Y	CellLine	CVCL:0019
+36139869	1041	1050	caspase-3	Gene	836
+36139869	1091	1095	DHPA	Chemical	MESH:C016391
+36139869	1114	1119	Abeta	Gene	351
+36139869	1120	1124	Cu2+	Chemical	-
+36139869	1155	1161	Erk1/2	Gene	5595;5594
+36139869	1166	1169	P38	Gene	5594
+36139869	1173	1180	SH-SY5Y	CellLine	CVCL:0019
+36139869	1221	1224	AKT	Gene	207
+36139869	1239	1243	DHPA	Chemical	MESH:C016391
+36139869	1258	1263	Keap1	Gene	9817
+36139869	1293	1297	Nrf2	Gene	4780
+36139869	1301	1306	Keap1	Gene	9817
+36139869	1324	1329	Keap1	Gene	9817
+36139869	1330	1334	Nrf2	Gene	4780
+36139869	1335	1339	HO-1	Gene	3162
+36139869	1388	1404	heme oxygenase-1	Gene	3162
+36139869	1406	1410	HO-1	Gene	3162
+36139869	1439	1443	NQO1	Gene	1728
+36139869	1469	1489	superoxide dismutase	Gene	6647
+36139869	1491	1494	SOD	Gene	6647
+36139869	1533	1537	DHPA	Chemical	MESH:C016391
+36139869	1552	1557	Abeta	Gene	351
+36139869	1558	1562	Cu2+	Chemical	-
+36139869	1574	1581	SH-SY5Y	CellLine	CVCL:0019
+36139869	1661	1666	Keap1	Gene	9817
+36139869	1667	1671	Nrf2	Gene	4780
+36139869	1672	1676	HO-1	Gene	3162
+36139869	Association	MESH:C488394	3162
+36139869	Association	MESH:D000544	3162
+36139869	Negative_Correlation	MESH:C016391	MESH:D017382
+36139869	Association	3162	9817
+36139869	Association	MESH:C016391	9817
+36139869	Association	MESH:D017382	3162
+36139869	Positive_Correlation	MESH:C016391	4780
+36139869	Bind	4780	9817
+36139869	Negative_Correlation	MESH:C016391	596
+36139869	Positive_Correlation	351	5594
+36139869	Positive_Correlation	MESH:C016391	207
+36139869	Positive_Correlation	351	5595
+36139869	Positive_Correlation	MESH:C016391	6647
+36139869	Association	3162	4780
+36139869	Negative_Correlation	MESH:C016391	836
+36139869	Positive_Correlation	MESH:D017382	351
+36139869	Positive_Correlation	MESH:C016391	3162
+36139869	Negative_Correlation	MESH:C016391	351
+36139869	Positive_Correlation	4780	6647
+36139869	Negative_Correlation	MESH:C016391	5594
+36139869	Negative_Correlation	MESH:C016391	5595
+36139869	Negative_Correlation	MESH:C016391	581
+36139869	Positive_Correlation	MESH:C016391	1728
+36139869	Negative_Correlation	MESH:C016391	MESH:D008315
+

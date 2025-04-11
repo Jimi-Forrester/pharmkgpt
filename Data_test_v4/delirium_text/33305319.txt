@@ -1,0 +1,17 @@
+33305319|t|Validation of human microRNA target pathways enables evaluation of target prediction tools.
+33305319|a|MicroRNAs are regulators of gene expression. A wide-spread, yet not validated, assumption is that the targetome of miRNAs is non-randomly distributed across the transcriptome and that targets share functional pathways. We developed a computational and experimental strategy termed high-throughput miRNA interaction reporter assay (HiTmIR) to facilitate the validation of target pathways. First, targets and target pathways are predicted and prioritized by computational means to increase the specificity and positive predictive value. Second, the novel webtool miRTaH facilitates guided designs of reporter assay constructs at scale. Third, automated and standardized reporter assays are performed. We evaluated HiTmIR using miR-34a-5p, for which TNF- and TGFB-signaling, and Parkinson's Disease (PD)-related categories were identified and repeated the pipeline for miR-7-5p. HiTmIR validated 58.9% of the target genes for miR-34a-5p and 46.7% for miR-7-5p. We confirmed the targeting by measuring the endogenous protein levels of targets in a neuronal cell model. The standardized positive and negative targets are collected in the new miRATBase database, representing a resource for training, or benchmarking new target predictors. Applied to 88 target predictors with different confidence scores, TargetScan 7.2 and miRanda outperformed other tools. Our experiments demonstrate the efficiency of HiTmIR and provide evidence for an orchestrated miRNA-gene targeting.
+33305319	14	19	human	Species	9606
+33305319	817	824	miR-34a	Gene	407040
+33305319	839	842	TNF	Gene	7124
+33305319	848	852	TGFB	Gene	7040
+33305319	868	887	Parkinson's Disease	Disease	MESH:D010300
+33305319	889	891	PD	Disease	MESH:D010300
+33305319	958	963	miR-7	Gene	10859
+33305319	964	966	5p	Chromosome	5
+33305319	1015	1022	miR-34a	Gene	407040
+33305319	1040	1045	miR-7	Gene	10859
+33305319	1046	1048	5p	Chromosome	5
+33305319	Association	MESH:D010300	407040
+33305319	Association	407040	7124
+33305319	Association	407040	7040
+

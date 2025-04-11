@@ -1,0 +1,38 @@
+23907387|t|An integrative characterization of recurrent molecular aberrations in glioblastoma genomes.
+23907387|a|Glioblastoma multiforme (GBM) is the most common and malignant primary brain tumor in adults. Decades of investigations and the recent effort of the Cancer Genome Atlas (TCGA) project have mapped many molecular alterations in GBM cells. Alterations on DNAs may dysregulate gene expressions and drive malignancy of tumors. It is thus important to uncover causal and statistical dependency between 'effector' molecular aberrations and 'target' gene expressions in GBMs. A rich collection of prior studies attempted to combine copy number variation (CNV) and mRNA expression data. However, systematic methods to integrate multiple types of cancer genomic data-gene mutations, single nucleotide polymorphisms, CNVs, DNA methylations, mRNA and microRNA expressions and clinical information-are relatively scarce. We proposed an algorithm to build 'association modules' linking effector molecular aberrations and target gene expressions and applied the module-finding algorithm to the integrated TCGA GBM data sets. The inferred association modules were validated by six tests using external information and datasets of central nervous system tumors: (i) indication of prognostic effects among patients; (ii) coherence of target gene expressions; (iii) retention of effector-target associations in external data sets; (iv) recurrence of effector molecular aberrations in GBM; (v) functional enrichment of target genes; and (vi) co-citations between effectors and targets. Modules associated with well-known molecular aberrations of GBM-such as chromosome 7 amplifications, chromosome 10 deletions, EGFR and NF1 mutations-passed the majority of the validation tests. Furthermore, several modules associated with less well-reported molecular aberrations-such as chromosome 11 CNVs, CD40, PLXNB1 and GSTM1 methylations, and mir-21 expressions-were also validated by external information. In particular, modules constituting trans-acting effects with chromosome 11 CNVs and cis-acting effects with chromosome 10 CNVs manifested strong negative and positive associations with survival times in brain tumors. By aligning the information of association modules with the established GBM subclasses based on transcription or methylation levels, we found each subclass possessed multiple concurrent molecular aberrations. Furthermore, the joint molecular characteristics derived from 16 association modules had prognostic power not explained away by the strong biomarker of CpG island methylator phenotypes. Functional and survival analyses indicated that immune/inflammatory responses and epithelial-mesenchymal transitions were among the most important determining processes of prognosis. Finally, we demonstrated that certain molecular aberrations uniquely recurred in GBM but were relatively rare in non-GBM glioma cells. These results justify the utility of an integrative analysis on cancer genomes and provide testable characterizations of driver aberration events in GBM. 
+23907387	70	82	glioblastoma	Disease	MESH:D005909
+23907387	92	115	Glioblastoma multiforme	Disease	MESH:D005909
+23907387	117	120	GBM	Disease	MESH:D005909
+23907387	155	174	primary brain tumor	Disease	MESH:D001932
+23907387	241	247	Cancer	Disease	MESH:D009369
+23907387	318	321	GBM	Disease	MESH:D005909
+23907387	392	412	malignancy of tumors	Disease	MESH:D009369
+23907387	554	558	GBMs	Disease	
+23907387	729	735	cancer	Disease	MESH:D009369
+23907387	1087	1090	GBM	Disease	MESH:D005909
+23907387	1206	1235	central nervous system tumors	Disease	MESH:D016543
+23907387	1280	1288	patients	Species	9606
+23907387	1457	1460	GBM	Disease	MESH:D005909
+23907387	1618	1621	GBM	Disease	MESH:D005909
+23907387	1630	1642	chromosome 7	Chromosome	7
+23907387	1659	1672	chromosome 10	Chromosome	10
+23907387	1684	1688	EGFR	Gene	1956
+23907387	1693	1696	NF1	Gene	4763
+23907387	1846	1859	chromosome 11	Chromosome	11
+23907387	1866	1870	CD40	Gene	958
+23907387	1872	1878	PLXNB1	Gene	5364
+23907387	1883	1888	GSTM1	Gene	2944
+23907387	1907	1913	mir-21	Gene	406991
+23907387	2033	2046	chromosome 11	Chromosome	11
+23907387	2080	2093	chromosome 10	Chromosome	10
+23907387	2175	2187	brain tumors	Disease	MESH:D001932
+23907387	2261	2264	GBM	Disease	MESH:D005909
+23907387	2639	2651	inflammatory	Disease	MESH:D007249
+23907387	2848	2851	GBM	Disease	MESH:D005909
+23907387	2884	2887	GBM	Disease	MESH:D005909
+23907387	2888	2894	glioma	Disease	MESH:D005910
+23907387	2966	2972	cancer	Disease	MESH:D009369
+23907387	3051	3054	GBM	Disease	MESH:D005909
+23907387	Association	MESH:D005909	4763
+23907387	Association	MESH:D005909	1956
+

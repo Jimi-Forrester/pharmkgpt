@@ -1,0 +1,23 @@
+38776213|t|Introducing a machine learning algorithm for delirium prediction-the Supporting SURgery with GEriatric Co-Management and AI project (SURGE-Ahead).
+38776213|a|INTRODUCTION: Post-operative delirium (POD) is a common complication in older patients, with an incidence of 14-56%. To implement preventative procedures, it is necessary to identify patients at risk for POD. In the present study, we aimed to develop a machine learning (ML) model for POD prediction in older patients, in close cooperation with the PAWEL (patient safety, cost-effectiveness and quality of life in elective surgery) project. METHODS: The model was trained on the PAWEL study's dataset of 878 patients (no intervention, age >= 70, 209 with POD). Presence of POD was determined by the Confusion Assessment Method and a chart review. We selected 15 features based on domain knowledge, ethical considerations and a recursive feature elimination. A logistic regression and a linear support vector machine (SVM) were trained, and evaluated using receiver operator characteristics (ROC). RESULTS: The selected features were American Society of Anesthesiologists score, multimorbidity, cut-to-suture time, estimated glomerular filtration rate, polypharmacy, use of cardio-pulmonary bypass, the Montreal cognitive assessment subscores 'memory', 'orientation' and 'verbal fluency', pre-existing dementia, clinical frailty scale, age, recent falls, post-operative isolation and pre-operative benzodiazepines. The linear SVM performed best, with an ROC area under the curve of 0.82 [95% CI 0.78-0.85] in the training set, 0.81 [95% CI 0.71-0.88] in the test set and 0.76 [95% CI 0.71-0.79] in a cross-centre validation. CONCLUSION: We present a clinically useful and explainable ML model for POD prediction. The model will be deployed in the Supporting SURgery with GEriatric Co-Management and AI project.
+38776213	45	53	delirium	Disease	MESH:D003693
+38776213	121	123	AI	Disease	
+38776213	161	184	Post-operative delirium	Disease	MESH:D000071257
+38776213	186	189	POD	Disease	MESH:D000071257
+38776213	225	233	patients	Species	9606
+38776213	330	338	patients	Species	9606
+38776213	351	354	POD	Disease	MESH:D000071257
+38776213	432	435	POD	Disease	MESH:D000071257
+38776213	456	464	patients	Species	9606
+38776213	503	510	patient	Species	9606
+38776213	655	663	patients	Species	9606
+38776213	702	705	POD	Disease	MESH:D000071257
+38776213	720	723	POD	Disease	MESH:D000071257
+38776213	1125	1139	multimorbidity	Disease	
+38776213	1199	1211	polypharmacy	Disease	
+38776213	1348	1356	dementia	Disease	MESH:D003704
+38776213	1367	1374	frailty	Disease	MESH:D000073496
+38776213	1444	1459	benzodiazepines	Chemical	MESH:D001569
+38776213	1743	1746	POD	Disease	MESH:D000071257
+38776213	1845	1847	AI	Disease	
+

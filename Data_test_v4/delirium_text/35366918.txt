@@ -1,0 +1,14 @@
+35366918|t|Explainable AI for CNN-based prostate tumor segmentation in multi-parametric MRI correlated to whole mount histopathology.
+35366918|a|Automatic prostate tumor segmentation is often unable to identify the lesion even if multi-parametric MRI data is used as input, and the segmentation output is difficult to verify due to the lack of clinically established ground truth images. In this work we use an explainable deep learning model to interpret the predictions of a convolutional neural network (CNN) for prostate tumor segmentation. The CNN uses a U-Net architecture which was trained on multi-parametric MRI data from 122 patients to automatically segment the prostate gland and prostate tumor lesions. In addition, co-registered ground truth data from whole mount histopathology images were available in 15 patients that were used as a test set during CNN testing. To be able to interpret the segmentation results of the CNN, heat maps were generated using the Gradient Weighted Class Activation Map (Grad-CAM) method. The CNN achieved a mean Dice Sorensen Coefficient 0.62 and 0.31 for the prostate gland and the tumor lesions -with the radiologist drawn ground truth and 0.32 with whole-mount histology ground truth for tumor lesions. Dice Sorensen Coefficient between CNN predictions and manual segmentations from MRI and histology data were not significantly different. In the prostate the Grad-CAM heat maps could differentiate between tumor and healthy prostate tissue, which indicates that the image information in the tumor was essential for the CNN segmentation.
+35366918	29	43	prostate tumor	Disease	MESH:D011472
+35366918	133	147	prostate tumor	Disease	MESH:D011472
+35366918	193	199	lesion	Disease	MESH:D009059
+35366918	494	508	prostate tumor	Disease	MESH:D011472
+35366918	613	621	patients	Species	9606
+35366918	670	692	prostate tumor lesions	Disease	MESH:D011469
+35366918	799	807	patients	Species	9606
+35366918	1106	1119	tumor lesions	Disease	MESH:D009369
+35366918	1214	1227	tumor lesions	Disease	MESH:D009369
+35366918	1433	1438	tumor	Disease	MESH:D009369
+35366918	1518	1523	tumor	Disease	MESH:D009369
+

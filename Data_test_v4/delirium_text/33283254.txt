@@ -1,0 +1,9 @@
+33283254|t|Modified distance regularized level set evolution for brain ventricles segmentation.
+33283254|a|Neurodegenerative disorders are commonly characterized by atrophy of the brain which is caused by neuronal loss. Ventricles are one of the prominent structures in the brain; their shape changes, due to their content, the cerebrospinal fluid. Analyzing the morphological changes of ventricles, aids in the diagnosis of atrophy, for which the region of interest needs to be separated from the background. This study presents a modified distance regularized level set evolution segmentation method, incorporating regional intensity information. The proposed method is implemented for segmenting ventricles from brain images for normal and atrophy subjects of magnetic resonance imaging and computed tomography images. Results of the proposed method were compared with ground truth images and produced sensitivity in the range of 65%-90%, specificity in the range of 98%-99%, and accuracy in the range of 95%-98%. Peak signal to noise ratio and structural similarity index were also used as performance measures for determining segmentation accuracy: 95% and 0.95, respectively. The parameters of level set formulation vary for different datasets. An optimization procedure was followed to fine tune parameters. The proposed method was found to be efficient and robust against noisy images. The proposed method is adaptive and multimodal.
+33283254	54	70	brain ventricles	Disease	MESH:D001927
+33283254	85	112	Neurodegenerative disorders	Disease	MESH:D019636
+33283254	143	163	atrophy of the brain	Disease	MESH:C566985
+33283254	183	196	neuronal loss	Disease	MESH:D009410
+33283254	403	410	atrophy	Disease	MESH:D001284
+33283254	721	728	atrophy	Disease	MESH:D001284
+

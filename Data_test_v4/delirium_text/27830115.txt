@@ -1,0 +1,13 @@
+27830115|t|Reliability of measuring regional callosal atrophy in neurodegenerative diseases.
+27830115|a|The Corpus Callosum (CC) is an important structure connecting the two brain hemispheres. As several neurodegenerative diseases are known to alter its shape, it is an interesting structure to assess as biomarker. Yet, currently, the CC-segmentation is often performed manually and is consequently an error prone and time-demanding procedure. In this paper, we present an accurate and automated method for corpus callosum segmentation based on T1-weighted MRI images. After the initial construction of a CC atlas based on healthy controls, a new image is subjected to a mid-sagittal plane (MSP) detection algorithm and a 3D affine registration in order to initialise the CC within the extracted MSP. Next, an active shape model is run to extract the CC. We calculated the reliability of most popular CC features (area, circularity, corpus callosum index and thickness profile) in healthy controls, Alzheimer's Disease patients and Multiple Sclerosis patients. Importantly, we also provide inter-scanner reliability estimates. We obtained an intra-class correlation coefficient (ICC) of over 0.95 for most features and most datasets. The inter-scanner reliability assessed on the MS patients was remarkably well and ranged from 0.77 to 0.97. In summary, we have constructed an algorithm that reliably detects the CC in 3D T1 images in a fully automated way in healthy controls and different neurodegenerative diseases. Although the CC area and the circularity are the most reliable features (ICC > 0.97); the reliability of the thickness profile (ICC > 0.90; excluding the tip) is sufficient to warrant its inclusion in future clinical studies.
+27830115	34	50	callosal atrophy	Disease	MESH:D001284
+27830115	54	80	neurodegenerative diseases	Disease	MESH:D019636
+27830115	182	208	neurodegenerative diseases	Disease	MESH:D019636
+27830115	978	997	Alzheimer's Disease	Disease	MESH:D000544
+27830115	998	1006	patients	Species	9606
+27830115	1011	1029	Multiple Sclerosis	Disease	MESH:D009103
+27830115	1030	1038	patients	Species	9606
+27830115	1259	1261	MS	Disease	MESH:D009103
+27830115	1262	1270	patients	Species	9606
+27830115	1470	1496	neurodegenerative diseases	Disease	MESH:D019636
+

@@ -1,0 +1,30 @@
+36072483|t|Repurposing food molecules as a potential BACE1 inhibitor for Alzheimer's disease.
+36072483|a|Alzheimer's disease (AD) is a severe neurodegenerative disorder of the brain that manifests as dementia, disorientation, difficulty in speech, and progressive cognitive and behavioral impairment. The emerging therapeutic approach to AD management is the inhibition of beta-site APP cleaving enzyme-1 (BACE1), known to be one of the two aspartyl proteases that cleave beta-amyloid precursor protein (APP). Studies confirmed the association of high BACE1 activity with the proficiency in the formation of beta-amyloid-containing neurotic plaques, the characteristics of AD. Only a few FDA-approved BACE1 inhibitors are available in the market, but their adverse off-target effects limit their usage. In this paper, we have used both ligand-based and target-based approaches for drug design. The QSAR study entails creating a multivariate GA-MLR (Genetic Algorithm-Multilinear Regression) model using 552 molecules with acceptable statistical performance (R 2 = 0.82, Q 2 loo = 0.81). According to the QSAR study, the activity has a strong link with various atoms such as aromatic carbons and ring Sulfur, acceptor atoms, sp2-hybridized oxygen, etc. Following that, a database of 26,467 food compounds was primarily used for QSAR-based virtual screening accompanied by the application of the Lipinski rule of five; the elimination of duplicates, salts, and metal derivatives resulted in a truncated dataset of 8,453 molecules. The molecular descriptor was calculated and a well-validated 6-parametric version of the QSAR model was used to predict the bioactivity of the 8,453 food compounds. Following this, the food compounds whose predicted activity (pKi) was observed above 7.0 M were further docked into the BACE1 receptor which gave rise to the Identification of 4-(3,4-Dihydroxyphenyl)-2-hydroxy-1H-phenalen-1-one (PubChem I.D: 4468; Food I.D: FDB017657) as a hit molecule (Binding Affinity = -8.9 kcal/mol, pKi = 7.97 nM, Ki = 10.715 M). Furthermore, molecular dynamics simulation for 150 ns and molecular mechanics generalized born and surface area (MMGBSA) study aided in identifying structural motifs involved in interactions with the BACE1 enzyme. Molecular docking and QSAR yielded complementary and congruent results. The validated analyses can be used to improve a drug/lead candidate's inhibitory efficacy against the BACE1. Thus, our approach is expected to widen the field of study of repurposing nutraceuticals into neuroprotective as well as anti-cancer and anti-viral therapeutic interventions.
+36072483	42	47	BACE1	Gene	23621
+36072483	62	81	Alzheimer's disease	Disease	MESH:D000544
+36072483	83	102	Alzheimer's disease	Disease	MESH:D000544
+36072483	104	106	AD	Disease	MESH:D000544
+36072483	120	159	neurodegenerative disorder of the brain	Disease	MESH:D019636
+36072483	178	186	dementia	Disease	MESH:D003704
+36072483	188	202	disorientation	Disease	MESH:D003221
+36072483	204	224	difficulty in speech	Disease	MESH:D013064
+36072483	242	277	cognitive and behavioral impairment	Disease	MESH:D003072
+36072483	316	318	AD	Disease	MESH:D000544
+36072483	351	382	beta-site APP cleaving enzyme-1	Gene	23621
+36072483	384	389	BACE1	Gene	23621
+36072483	450	480	beta-amyloid precursor protein	Gene	351
+36072483	530	535	BACE1	Gene	23621
+36072483	651	653	AD	Disease	MESH:D000544
+36072483	679	684	BACE1	Gene	23621
+36072483	1161	1168	carbons	Chemical	MESH:D002244
+36072483	1178	1184	Sulfur	Chemical	MESH:D013455
+36072483	1217	1223	oxygen	Chemical	MESH:D010100
+36072483	1792	1797	BACE1	Gene	23621
+36072483	1848	1899	4-(3,4-Dihydroxyphenyl)-2-hydroxy-1H-phenalen-1-one	Chemical	-
+36072483	1930	1939	FDB017657	Chemical	-
+36072483	2225	2230	BACE1	Gene	23621
+36072483	2413	2418	BACE1	Gene	23621
+36072483	2546	2552	cancer	Disease	MESH:D009369
+36072483	Association	MESH:D000544	23621
+36072483	Association	23621	351
+

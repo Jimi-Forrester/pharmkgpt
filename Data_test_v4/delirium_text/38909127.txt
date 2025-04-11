@@ -1,0 +1,20 @@
+38909127|t|Exploratory risk prediction of type II diabetes with isolation forests and novel biomarkers.
+38909127|a|Type II diabetes mellitus (T2DM) is a rising global health burden due to its rapidly increasing prevalence worldwide, and can result in serious complications. Therefore, it is of utmost importance to identify individuals at risk as early as possible to avoid long-term T2DM complications. In this study, we developed an interpretable machine learning model leveraging baseline levels of biomarkers of oxidative stress (OS), inflammation, and mitochondrial dysfunction (MD) for identifying individuals at risk of developing T2DM. In particular, Isolation Forest (iForest) was applied as an anomaly detection algorithm to address class imbalance. iForest was trained on the control group data to detect cases of high risk for T2DM development as outliers. Two iForest models were trained and evaluated through ten-fold cross-validation, the first on traditional biomarkers (BMI, blood glucose levels (BGL) and triglycerides) alone and the second including the additional aforementioned biomarkers. The second model outperformed the first across all evaluation metrics, particularly for F1 score and recall, which were increased from 0.61 +- 0.05 to 0.81 +- 0.05 and 0.57 +- 0.06 to 0.81 +- 0.08, respectively. The feature importance scores identified a novel combination of biomarkers, including interleukin-10 (IL-10), 8-isoprostane, humanin (HN), and oxidized glutathione (GSSG), which were revealed to be more influential than the traditional biomarkers in the outcome prediction. These results reveal a promising method for simultaneously predicting and understanding the risk of T2DM development and suggest possible pharmacological intervention to address inflammation and OS early in disease progression.
+38909127	31	47	type II diabetes	Disease	MESH:D003924
+38909127	93	118	Type II diabetes mellitus	Disease	MESH:D003924
+38909127	120	124	T2DM	Disease	
+38909127	362	366	T2DM	Disease	
+38909127	517	529	inflammation	Disease	MESH:D007249
+38909127	535	560	mitochondrial dysfunction	Disease	MESH:D028361
+38909127	562	564	MD	Disease	MESH:D028361
+38909127	616	620	T2DM	Disease	
+38909127	817	821	T2DM	Disease	
+38909127	970	983	blood glucose	Chemical	MESH:D001786
+38909127	1001	1014	triglycerides	Chemical	MESH:D014280
+38909127	1387	1401	interleukin-10	Gene	3586
+38909127	1403	1408	IL-10	Gene	3586
+38909127	1411	1424	8-isoprostane	Chemical	MESH:C075750
+38909127	1444	1464	oxidized glutathione	Chemical	MESH:D019803
+38909127	1675	1679	T2DM	Disease	
+38909127	1753	1765	inflammation	Disease	MESH:D007249
+

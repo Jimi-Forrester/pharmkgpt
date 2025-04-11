@@ -1,0 +1,15 @@
+26609373|t|New approach for automatic classification of Alzheimer's disease, mild cognitive impairment and healthy brain magnetic resonance images.
+26609373|a|Explored is the utility of modelling brain magnetic resonance images as a fractal object for the classification of healthy brain images against those with Alzheimer's disease (AD) or mild cognitive impairment (MCI). More precisely, fractal multi-scale analysis is used to build feature vectors from the derived Hurst's exponents. These are then classified by support vector machines (SVMs). Three experiments were conducted: in the first the SVM was trained to classify AD against healthy images. In the second experiment, the SVM was trained to classify AD against MCI and, in the third experiment, a multiclass SVM was trained to classify all three types of images. The experimental results, using the 10-fold cross-validation technique, indicate that the SVM achieved 97.08% +- 0.05 correct classification rate, 98.09% +- 0.04 sensitivity and 96.07% +- 0.07 specificity for the classification of healthy against MCI images, thus outperforming recent works found in the literature. For the classification of MCI against AD, the SVM achieved 97.5% +- 0.04 correct classification rate, 100% sensitivity and 94.93% +- 0.08 specificity. The third experiment also showed that the multiclass SVM provided highly accurate classification results. The processing time for a given image was 25 s. These findings suggest that this approach is efficient and may be promising for clinical applications. 
+26609373	45	64	Alzheimer's disease	Disease	MESH:D000544
+26609373	66	91	mild cognitive impairment	Disease	MESH:D060825
+26609373	292	311	Alzheimer's disease	Disease	MESH:D000544
+26609373	313	315	AD	Disease	MESH:D000544
+26609373	320	345	mild cognitive impairment	Disease	MESH:D060825
+26609373	347	350	MCI	Disease	MESH:D060825
+26609373	607	609	AD	Disease	MESH:D000544
+26609373	692	694	AD	Disease	MESH:D000544
+26609373	703	706	MCI	Disease	MESH:D060825
+26609373	1052	1055	MCI	Disease	MESH:D060825
+26609373	1147	1150	MCI	Disease	MESH:D060825
+26609373	1159	1161	AD	Disease	MESH:D000544
+

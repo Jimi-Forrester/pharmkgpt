@@ -1,0 +1,19 @@
+27426838|t|Bayesian longitudinal segmentation of hippocampal substructures in brain MRI using subject-specific atlases.
+27426838|a|The hippocampal formation is a complex, heterogeneous structure that consists of a number of distinct, interacting subregions. Atrophy of these subregions is implied in a variety of neurodegenerative diseases, most prominently in Alzheimer's disease (AD). Thanks to the increasing resolution of MR images and computational atlases, automatic segmentation of hippocampal subregions is becoming feasible in MRI scans. Here we introduce a generative model for dedicated longitudinal segmentation that relies on subject-specific atlases. The segmentations of the scans at the different time points are jointly computed using Bayesian inference. All time points are treated the same to avoid processing bias. We evaluate this approach using over 4700 scans from two publicly available datasets (ADNI and MIRIAD). In test-retest reliability experiments, the proposed method yielded significantly lower volume differences and significantly higher Dice overlaps than the cross-sectional approach for nearly every subregion (average across subregions: 4.5% vs. 6.5%, Dice overlap: 81.8% vs. 75.4%). The longitudinal algorithm also demonstrated increased sensitivity to group differences: in MIRIAD (69 subjects: 46 with AD and 23 controls), it found differences in atrophy rates between AD and controls that the cross sectional method could not detect in a number of subregions: right parasubiculum, left and right presubiculum, right subiculum, left dentate gyrus, left CA4, left HATA and right tail. In ADNI (836 subjects: 369 with AD, 215 with early cognitive impairment - eMCI - and 252 controls), all methods found significant differences between AD and controls, but the proposed longitudinal algorithm detected differences between controls and eMCI and differences between eMCI and AD that the cross sectional method could not find: left presubiculum, right subiculum, left and right parasubiculum, left and right HATA. Moreover, many of the differences that the cross-sectional method already found were detected with higher significance. The presented algorithm will be made available as part of the open-source neuroimaging package FreeSurfer. 
+27426838	236	243	Atrophy	Disease	MESH:D001284
+27426838	291	317	neurodegenerative diseases	Disease	MESH:D019636
+27426838	339	358	Alzheimer's disease	Disease	MESH:D000544
+27426838	360	362	AD	Disease	MESH:D000544
+27426838	908	914	MIRIAD	Disease	
+27426838	1291	1297	MIRIAD	Disease	
+27426838	1320	1322	AD	Disease	MESH:D000544
+27426838	1365	1372	atrophy	Disease	MESH:D001284
+27426838	1387	1389	AD	Disease	MESH:D000544
+27426838	1634	1636	AD	Disease	MESH:D000544
+27426838	1653	1673	cognitive impairment	Disease	MESH:D003072
+27426838	1676	1680	eMCI	Disease	
+27426838	1752	1754	AD	Disease	MESH:D000544
+27426838	1851	1855	eMCI	Disease	
+27426838	1880	1884	eMCI	Disease	
+27426838	1889	1891	AD	Disease	MESH:D000544
+

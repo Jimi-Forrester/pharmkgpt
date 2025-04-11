@@ -1,0 +1,32 @@
+37735259|t|Distinct subtypes of spatial brain metabolism patterns in Alzheimer's disease identified by deep learning-based FDG PET clusters.
+37735259|a|PURPOSE: Alzheimer's disease (AD) is a heterogeneous disease that presents a broad spectrum of clinicopathologic profiles. To date, objective subtyping of AD independent of disease progression using brain imaging has been required. Our study aimed to extract representations of unique brain metabolism patterns different from disease progression to identify objective subtypes of AD. METHODS: A total of 3620 FDG brain PET images with AD, mild cognitive impairment (MCI), and cognitively normal (CN) were obtained from the ADNI database from 1607 participants at enrollment and follow-up visits. A conditional variational autoencoder model was trained on FDG brain PET images of AD patients with the corresponding condition of AD severity score. The k-means algorithm was applied to generate clusters from the encoded representations. The trained deep learning-based cluster model was also transferred to FDG PET of MCI patients and predicted the prognosis of subtypes for conversion from MCI to AD. Spatial metabolism patterns, clinical and biological characteristics, and conversion rate from MCI to AD were compared across the subtypes. RESULTS: Four distinct subtypes of spatial metabolism patterns in AD with different brain pathologies and clinical profiles were identified: (i) angular, (ii) occipital, (iii) orbitofrontal, and (iv) minimal hypometabolic patterns. The deep learning model was also successfully transferred for subtyping MCI, and significant differences in frequency (P < 0.001) and risk of conversion (log-rank P < 0.0001) from MCI to AD were observed across the subtypes, highest in S2 (35.7%) followed by S1 (23.4%). CONCLUSION: We identified distinct subtypes of AD with different clinicopathologic features. The deep learning-based approach to distinguish AD subtypes on FDG PET could have implications for predicting individual outcomes and provide a clue to understanding the heterogeneous pathophysiology of AD.
+37735259	58	77	Alzheimer's disease	Disease	MESH:D000544
+37735259	112	115	FDG	Chemical	MESH:D019788
+37735259	139	158	Alzheimer's disease	Disease	MESH:D000544
+37735259	160	162	AD	Disease	MESH:D000544
+37735259	285	287	AD	Disease	MESH:D000544
+37735259	510	512	AD	Disease	MESH:D000544
+37735259	539	542	FDG	Chemical	MESH:D019788
+37735259	565	567	AD	Disease	MESH:D000544
+37735259	574	594	cognitive impairment	Disease	MESH:D003072
+37735259	596	599	MCI	Disease	MESH:D060825
+37735259	785	788	FDG	Chemical	MESH:D019788
+37735259	809	811	AD	Disease	MESH:D000544
+37735259	857	859	AD	Disease	MESH:D000544
+37735259	1035	1038	FDG	Chemical	MESH:D019788
+37735259	1046	1049	MCI	Disease	MESH:D060825
+37735259	1119	1122	MCI	Disease	MESH:D060825
+37735259	1126	1128	AD	Disease	MESH:D000544
+37735259	1225	1228	MCI	Disease	MESH:D060825
+37735259	1232	1234	AD	Disease	MESH:D000544
+37735259	1336	1338	AD	Disease	MESH:D000544
+37735259	1574	1577	MCI	Disease	MESH:D060825
+37735259	1682	1685	MCI	Disease	MESH:D060825
+37735259	1689	1691	AD	Disease	MESH:D000544
+37735259	1820	1822	AD	Disease	MESH:D000544
+37735259	1914	1916	AD	Disease	MESH:D000544
+37735259	1929	1932	FDG	Chemical	MESH:D019788
+37735259	2069	2071	AD	Disease	MESH:D000544
+37735259	Association	MESH:D019788	MESH:D000544
+37735259	Association	MESH:D019788	MESH:D003072
+

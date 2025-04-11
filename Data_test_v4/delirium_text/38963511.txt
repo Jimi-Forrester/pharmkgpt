@@ -1,0 +1,43 @@
+38963511|t|Exploring the Relationship Between Atorvastatin and Memory Loss: A Comprehensive Analysis Integrating Real-World Pharmacovigilance and Mendelian Randomization.
+38963511|a|BACKGROUND AND OBJECTIVE: Atorvastatin is a drug widely used to prevent cardiovascular and cerebrovascular diseases. Current observational studies suggest that atorvastatin may be associated with cognitive dysfunction (especially memory loss). However, some studies have suggested that dyslipidemia may be an important factor in cognitive dysfunction. The purpose of this study was to perform a pharmacovigilance analysis using real-world data from the US Food and Drug Administration's Adverse Event Reporting System (FAERS) to assess whether memory loss is an adverse effect of atorvastatin and to further clarify its causality through Mendelian randomization (MR). METHODS: We extracted real-world data from the FAERS database (Quarter 1 2004 to Quarter 1 2023). Disproportionality analysis methods and measures of association such as the reporting odds ratio (OR), proportional reporting ratio, Bayesian confidence interval progressive neural network, and polynomial Gamma Poisson distribution reduction were used to assess whether memory loss was an adverse effect of atorvastatin. In addition, we used MR to evaluate causality in depth. RESULTS: In the pharmacovigilance analysis of atorvastatin, we extracted four datasets of clinical symptoms associated with memory loss from the FAERS database [Amnesia (n = 1196), Memory impairment (n = 840), Transient global amnesia (n = 38), and Retrograde amnesia (n = 9)]. The reporting OR, proportional reporting ratio, Bayesian confidence interval progressive neural network, and Gamma Poisson distribution reduction all showed positive results for amnesia, transient global amnesia, and retrograde amnesia, while the reporting OR and Bayesian confidence interval progressive neural network also showed positive results for memory disorders. Thus, memory loss was a frequent side effect of atorvastatin. The MR analyses were used to further evaluate the association between statins and memory loss. The results of the MR analysis (statins and memory loss) are as follows: Ivw (mre) (beta = 0.11 [OR = 1.11], P = 0.01 < 0.05) and the OR and beta directions of MR-Egger and weighted mode were the same. The results of the MR analysis (statins and mitochondrial DNA copy number) are as follows: Ivw(mre) (beta = -0.03 [OR = 0.96], P < 0.01) and the OR and beta direction of MR-Egger and weighted mode are the same. The results of the MR analysis (DNA copy number and memory loss) are as follows: Ivw(beta = - 0.06 [OR = 0.94], P = 0.04 < 0.05) and the OR and beta direction of MR-Egger and weighted mode were the same. The pleiotropy test did not find horizontal diversity in our results. CONCLUSIONS: This study suggests that memory loss is a notable adverse event associated with atorvastatin and provides evidence indicating a potential causal relationship between atorvastatin and memory loss. We also found that statins may further affect memory by affecting mitochondrial function. Therefore, in the clinical use of atorvastatin, it is important to carefully monitor the changes in cognitive function of patients. Second, a pharmacovigilance analysis combined with MR was used in this study to provide a new approach for the study of adverse drug reactions. This comprehensive analysis method helps to evaluate the safety of drugs and the risk of adverse reactions more comprehensively and provides doctors with a more accurate clinical decision-making basis.
+38963511	35	47	Atorvastatin	Chemical	MESH:D000069059
+38963511	52	63	Memory Loss	Disease	MESH:D008569
+38963511	186	198	Atorvastatin	Chemical	MESH:D000069059
+38963511	232	275	cardiovascular and cerebrovascular diseases	Disease	MESH:D002318
+38963511	320	332	atorvastatin	Chemical	MESH:D000069059
+38963511	356	377	cognitive dysfunction	Disease	MESH:D003072
+38963511	390	401	memory loss	Disease	MESH:D008569
+38963511	446	458	dyslipidemia	Disease	MESH:D050171
+38963511	489	510	cognitive dysfunction	Disease	MESH:D003072
+38963511	704	715	memory loss	Disease	MESH:D008569
+38963511	740	752	atorvastatin	Chemical	MESH:D000069059
+38963511	1196	1207	memory loss	Disease	MESH:D008569
+38963511	1233	1245	atorvastatin	Chemical	MESH:D000069059
+38963511	1349	1361	atorvastatin	Chemical	MESH:D000069059
+38963511	1427	1438	memory loss	Disease	MESH:D008569
+38963511	1464	1471	Amnesia	Disease	MESH:D000647
+38963511	1484	1501	Memory impairment	Disease	MESH:D008569
+38963511	1523	1537	global amnesia	Disease	MESH:D000647
+38963511	1552	1570	Retrograde amnesia	Disease	MESH:D000648
+38963511	1759	1766	amnesia	Disease	MESH:D000647
+38963511	1778	1792	global amnesia	Disease	MESH:D000647
+38963511	1798	1816	retrograde amnesia	Disease	MESH:D000648
+38963511	1934	1950	memory disorders	Disease	MESH:D008569
+38963511	1958	1969	memory loss	Disease	MESH:D008569
+38963511	2000	2012	atorvastatin	Chemical	MESH:D000069059
+38963511	2096	2107	memory loss	Disease	MESH:D008569
+38963511	2153	2164	memory loss	Disease	MESH:D008569
+38963511	2574	2585	memory loss	Disease	MESH:D008569
+38963511	2834	2845	memory loss	Disease	MESH:D008569
+38963511	2889	2901	atorvastatin	Chemical	MESH:D000069059
+38963511	2975	2987	atorvastatin	Chemical	MESH:D000069059
+38963511	2992	3003	memory loss	Disease	MESH:D008569
+38963511	3129	3141	atorvastatin	Chemical	MESH:D000069059
+38963511	3217	3225	patients	Species	9606
+38963511	3347	3369	adverse drug reactions	Disease	MESH:D064420
+38963511	Positive_Correlation	MESH:D000069059	MESH:D000648
+38963511	Positive_Correlation	MESH:D000069059	MESH:D008569
+38963511	Positive_Correlation	MESH:D000069059	MESH:D003072
+38963511	Negative_Correlation	MESH:D000069059	MESH:D002318
+38963511	Positive_Correlation	MESH:D000069059	MESH:D000647
+

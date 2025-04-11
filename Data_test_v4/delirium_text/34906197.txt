@@ -1,0 +1,74 @@
+34906197|t|Flavonoids kaempferol and quercetin are nuclear receptor 4A1 (NR4A1, Nur77) ligands and inhibit rhabdomyosarcoma cell and tumor growth.
+34906197|a|BACKGROUND: Flavonoids exhibit both chemopreventive and chemotherapeutic activity for multiple tumor types, however, their mechanisms of action are not well defined. Based on some of their functional and gene modifying activities as anticancer agents, we hypothesized that kaempferol and quercetin were nuclear receptor 4A1 (NR4A1, Nur77) ligands and confirmed that both compounds directly bound NR4A1 with KD values of 3.1 and 0.93 muM, respectively. METHODS: The activities of kaempferol and quercetin were determined in direct binding to NR4A1 protein and in NR4A1-dependent transactivation assays in Rh30 and Rh41 rhabdomyosarcoma (RMS) cells. Flavonoid-dependent effects as inhibitors of cell growth, survival and invasion were determined in XTT and Boyden chamber assays respectively and changes in protein levels were determined by western blots. Tumor growth inhibition studies were carried out in athymic nude mice bearing Rh30 cells as xenografts. RESULTS: Kaempferol and quercetin bind NR4A1 protein and inhibit NR4A1-dependent transactivation in RMS cells. NR4A1 also regulates RMS cell growth, survival, mTOR signaling and invasion. The pro-oncogenic PAX3-FOXO1 and G9a genes are also regulated by NR4A1 and, these pathways and genes are all inhibited by kaempferol and quercetin. Moreover, at a dose of 50 mg/kg/d kaempferol and quercetin inhibited tumor growth in an athymic nude mouse xenograft model bearing Rh30 cells. CONCLUSION: These results demonstrate the clinical potential for repurposing kaempferol and quercetin for clinical applications as precision medicine for treating RMS patients that express NR4A1 in order to increase the efficacy and decrease dosages of currently used cytotoxic drugs.
+34906197	0	10	Flavonoids	Chemical	MESH:D005419
+34906197	11	21	kaempferol	Chemical	MESH:C006552
+34906197	26	35	quercetin	Chemical	MESH:D011794
+34906197	62	67	NR4A1	Gene	3164
+34906197	69	74	Nur77	Gene	3164
+34906197	96	112	rhabdomyosarcoma	Disease	MESH:D012208
+34906197	122	127	tumor	Disease	MESH:D009369
+34906197	148	158	Flavonoids	Chemical	MESH:D005419
+34906197	231	236	tumor	Disease	MESH:D009369
+34906197	409	419	kaempferol	Chemical	MESH:C006552
+34906197	424	433	quercetin	Chemical	MESH:D011794
+34906197	461	466	NR4A1	Gene	3164
+34906197	468	473	Nur77	Gene	3164
+34906197	532	537	NR4A1	Gene	3164
+34906197	615	625	kaempferol	Chemical	MESH:C006552
+34906197	630	639	quercetin	Chemical	MESH:D011794
+34906197	677	682	NR4A1	Gene	3164
+34906197	698	703	NR4A1	Gene	3164
+34906197	740	744	Rh30	CellLine	CVCL:0041
+34906197	749	770	Rh41 rhabdomyosarcoma	CellLine	CVCL:2176
+34906197	772	775	RMS	CellLine	CVCL:JB74
+34906197	784	793	Flavonoid	Chemical	MESH:D005419
+34906197	990	995	Tumor	Disease	MESH:D009369
+34906197	1055	1059	mice	Species	10090
+34906197	1068	1072	Rh30	CellLine	CVCL:0041
+34906197	1103	1113	Kaempferol	Chemical	MESH:C006552
+34906197	1118	1127	quercetin	Chemical	MESH:D011794
+34906197	1133	1138	NR4A1	Gene	3164
+34906197	1159	1164	NR4A1	Gene	3164
+34906197	1194	1197	RMS	CellLine	CVCL:JB74
+34906197	1205	1210	NR4A1	Gene	3164
+34906197	1226	1229	RMS	CellLine	CVCL:JB74
+34906197	1253	1257	mTOR	Gene	2475
+34906197	1300	1304	PAX3	Gene	5077
+34906197	1305	1310	FOXO1	Gene	2308
+34906197	1315	1318	G9a	Gene	10919
+34906197	1347	1352	NR4A1	Gene	3164
+34906197	1404	1414	kaempferol	Chemical	MESH:C006552
+34906197	1419	1428	quercetin	Chemical	MESH:D011794
+34906197	1464	1474	kaempferol	Chemical	MESH:C006552
+34906197	1479	1488	quercetin	Chemical	MESH:D011794
+34906197	1499	1504	tumor	Disease	MESH:D009369
+34906197	1531	1536	mouse	Species	10090
+34906197	1561	1565	Rh30	CellLine	CVCL:0041
+34906197	1650	1660	kaempferol	Chemical	MESH:C006552
+34906197	1665	1674	quercetin	Chemical	MESH:D011794
+34906197	1736	1739	RMS	CellLine	CVCL:JB74
+34906197	1740	1748	patients	Species	9606
+34906197	1762	1767	NR4A1	Gene	3164
+34906197	1841	1850	cytotoxic	Disease	MESH:D064420
+34906197	Positive_Correlation	3164	5077
+34906197	Negative_Correlation	MESH:D005419	MESH:D009369
+34906197	Negative_Correlation	MESH:D011794	3164
+34906197	Association	2475	3164
+34906197	Positive_Correlation	10919	3164
+34906197	Negative_Correlation	MESH:D011794	5077
+34906197	Negative_Correlation	MESH:D005419	MESH:D012208
+34906197	Association	2308	5077
+34906197	Association	MESH:C006552	3164
+34906197	Negative_Correlation	MESH:C006552	5077
+34906197	Bind	MESH:D005419	3164
+34906197	Negative_Correlation	MESH:D011794	2308
+34906197	Negative_Correlation	MESH:D011794	MESH:D012208
+34906197	Negative_Correlation	MESH:C006552	2308
+34906197	Negative_Correlation	MESH:C006552	10919
+34906197	Negative_Correlation	MESH:D011794	10919
+34906197	Negative_Correlation	MESH:C006552	MESH:D012208
+34906197	Positive_Correlation	2308	3164
+34906197	Association	MESH:D009369	3164
+34906197	Negative_Correlation	MESH:D011794	MESH:D009369
+34906197	Negative_Correlation	MESH:C006552	MESH:D009369
+

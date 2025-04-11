@@ -1,0 +1,20 @@
+30028716|t|Multilevel Feature Representation of FDG-PET Brain Images for Diagnosing Alzheimer's Disease.
+30028716|a|Using a single imaging modality to diagnose Alzheimer's disease (AD) or mild cognitive impairment (MCI) is a challenging task. FluoroDeoxyGlucose Positron Emission Tomography (FDG-PET) is an important and effective modality used for that purpose. In this paper, we develop a novel method by using single modality (FDG-PET) but multilevel feature, which considers both region properties and connectivities between regions to classify AD or MCI from normal control. First, three levels of features are extracted: statistical, connectivity, and graph-based features. Then, the connectivity features are decomposed into three different sets of features according to a proposed similarity-driven ranking method, which can not only reduce the feature dimension but also increase the classifier's diversity. Last, after feeding the three levels of features to different classifiers, a new classifier selection strategy, maximum Mean squared Error (mMsE), is developed to select a pair of classifiers with high diversity. In order to do the majority voting, a decision-making scheme, a nested cross validation technique is applied to choose another classifier according to the accuracy. Experiments on Alzheimer's Disease Neuroimaging Initiative database show that the proposed method outperforms most FDG-PET-based classification algorithms, especially for classifying progressive MCI (pMCI) from stable MCI (sMCI).
+30028716	37	40	FDG	Chemical	MESH:D019788
+30028716	73	92	Alzheimer's Disease	Disease	MESH:D000544
+30028716	138	157	Alzheimer's disease	Disease	MESH:D000544
+30028716	159	161	AD	Disease	MESH:D000544
+30028716	166	191	mild cognitive impairment	Disease	MESH:D060825
+30028716	193	196	MCI	Disease	MESH:D060825
+30028716	221	239	FluoroDeoxyGlucose	Chemical	MESH:D019788
+30028716	270	273	FDG	Chemical	MESH:D019788
+30028716	408	411	FDG	Chemical	MESH:D019788
+30028716	527	529	AD	Disease	MESH:D000544
+30028716	533	536	MCI	Disease	MESH:D060825
+30028716	1288	1307	Alzheimer's Disease	Disease	MESH:D000544
+30028716	1388	1391	FDG	Chemical	MESH:D019788
+30028716	1468	1471	MCI	Disease	MESH:D060825
+30028716	1491	1494	MCI	Disease	MESH:D060825
+30028716	Negative_Correlation	MESH:D019788	MESH:D000544
+30028716	Association	MESH:D019788	MESH:D060825
+

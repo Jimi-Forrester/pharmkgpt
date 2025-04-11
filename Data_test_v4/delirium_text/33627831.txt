@@ -1,0 +1,48 @@
+33627831|t|betaA1-crystallin regulates glucose metabolism and mitochondrial function in mouse retinal astrocytes by modulating PTP1B activity.
+33627831|a|betaA3/A1-crystallin, a lens protein that is also expressed in astrocytes, is produced as betaA3 and betaA1-crystallin isoforms by leaky ribosomal scanning. In a previous human proteome high-throughput array, we found that betaA3/A1-crystallin interacts with protein tyrosine phosphatase 1B (PTP1B), a key regulator of glucose metabolism. This prompted us to explore possible roles of betaA3/A1-crystallin in metabolism of retinal astrocytes. We found that betaA1-crystallin acts as an uncompetitive inhibitor of PTP1B, but betaA3-crystallin does not. Loss of betaA1-crystallin in astrocytes triggers metabolic abnormalities and inflammation. In CRISPR/cas9 gene-edited betaA1-knockdown (KD) mice, but not in betaA3-knockout (KO) mice, the streptozotocin (STZ)-induced diabetic retinopathy (DR)-like phenotype is exacerbated. Here, we have identified betaA1-crystallin as a regulator of PTP1B; loss of this regulation may be a new mechanism by which astrocytes contribute to DR. Interestingly, proliferative diabetic retinopathy (PDR) patients showed reduced betaA1-crystallin and higher levels of PTP1B in the vitreous humor.
+33627831	0	17	betaA1-crystallin	Gene	12957
+33627831	28	35	glucose	Chemical	MESH:D005947
+33627831	77	82	mouse	Species	10090
+33627831	116	121	PTP1B	Gene	19246
+33627831	222	228	betaA3	Gene	100035490
+33627831	233	250	betaA1-crystallin	Gene	12957
+33627831	303	308	human	Species	9606
+33627831	391	422	protein tyrosine phosphatase 1B	Gene	5770
+33627831	424	429	PTP1B	Gene	5770
+33627831	451	458	glucose	Chemical	MESH:D005947
+33627831	589	606	betaA1-crystallin	Gene	12957
+33627831	645	650	PTP1B	Gene	5770
+33627831	692	709	betaA1-crystallin	Gene	12957
+33627831	733	756	metabolic abnormalities	Disease	MESH:D008659
+33627831	761	773	inflammation	Disease	MESH:D007249
+33627831	778	784	CRISPR	Gene	70873
+33627831	802	808	betaA1	Gene	100035484
+33627831	824	828	mice	Species	10090
+33627831	841	847	betaA3	Gene	100035490
+33627831	862	866	mice	Species	10090
+33627831	872	886	streptozotocin	Chemical	MESH:D013311
+33627831	888	891	STZ	Chemical	MESH:D013311
+33627831	901	921	diabetic retinopathy	Disease	MESH:D003930
+33627831	923	925	DR	Disease	MESH:D003930
+33627831	983	1000	betaA1-crystallin	Gene	12957
+33627831	1019	1024	PTP1B	Gene	19246
+33627831	1107	1109	DR	Disease	MESH:D003930
+33627831	1126	1160	proliferative diabetic retinopathy	Disease	OMIM:603933
+33627831	1162	1165	PDR	Disease	OMIM:603933
+33627831	1167	1175	patients	Species	9606
+33627831	1191	1208	betaA1-crystallin	Gene	12957
+33627831	1230	1235	PTP1B	Gene	5770
+33627831	Association	OMIM:603933	5770
+33627831	Negative_Correlation	12957	5770
+33627831	Negative_Correlation	MESH:D007249	12957
+33627831	Association	12957	19246
+33627831	Association	100035484	70873
+33627831	Positive_Correlation	MESH:D013311	MESH:D003930
+33627831	Association	MESH:D005947	5770
+33627831	Association	MESH:D003930	100035484
+33627831	Association	MESH:D013311	100035484
+33627831	Negative_Correlation	MESH:D008659	12957
+33627831	Association	MESH:D005947	19246
+33627831	Negative_Correlation	OMIM:603933	12957
+33627831	Association	MESH:D005947	12957
+

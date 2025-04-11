@@ -1,0 +1,88 @@
+37305050|t|ZIP9 mediates the effects of DHT on learning, memory and hippocampal synaptic plasticity of male Tfm and APP/PS1 mice.
+37305050|a|Androgens are closely associated with functions of hippocampal learning, memory, and synaptic plasticity. The zinc transporter ZIP9 (SLC39A9) regulates androgen effects as a binding site distinct from the androgen receptor (AR). However, it is still unclear whether androgens regulate their functions in hippocampus of mice through ZIP9. Compared with wild-type (WT) male mice, we found that AR-deficient male testicular feminization mutation (Tfm) mice with low androgen levels had learning and memory impairment, decreased expression of hippocampal synaptic proteins PSD95, drebrin, SYP, and dendritic spine density. Dihydrotestosterone (DHT) supplementation significantly improved these conditions in Tfm male mice, although the beneficial effects disappeared after hippocampal ZIP9 knockdown. To explore the underlying mechanism, we first detected the phosphorylation of ERK1/2 and eIF4E in the hippocampus and found that it was lower in Tfm male mice than in WT male mice, it upregulated with DHT supplementation, and it downregulated after hippocampal ZIP9 knockdown. Next, we found that the expression of PSD95, p-ERK1/2, and p-eIF4E increased in DHT-treated mouse hippocampal neuron HT22 cells, and ZIP9 knockdown or overexpression inhibited or further enhanced these effects. Using the ERK1/2 specific inhibitor SCH772984 and eIF4E specific inhibitor eFT508, we found that DHT activated ERK1/2 through ZIP9, resulting in eIF4E phosphorylation, thus promoting PSD95 protein expression in HT22 cells. Finally, we found that ZIP9 mediated the effects of DHT on the expression of synaptic proteins PSD95, drebrin, SYP, and dendritic spine density in the hippocampus of APP/PS1 mice through the ERK1/2-eIF4E pathway and affected learning and memory. This study demonstrated that androgen affected learning and memory in mice through ZIP9, providing new experimental evidence for improvement in learning and memory in Alzheimer's disease with androgen supplementation.
+37305050	0	4	ZIP9	Gene	328133
+37305050	29	32	DHT	Chemical	MESH:D013196
+37305050	109	112	PS1	Gene	19164
+37305050	113	117	mice	Species	10090
+37305050	246	250	ZIP9	Gene	328133
+37305050	252	259	SLC39A9	Gene	328133
+37305050	324	341	androgen receptor	Gene	11835
+37305050	343	345	AR	Gene	11835
+37305050	438	442	mice	Species	10090
+37305050	451	455	ZIP9	Gene	328133
+37305050	491	495	mice	Species	10090
+37305050	511	513	AR	Gene	11835
+37305050	540	552	feminization	Disease	MESH:D005262
+37305050	568	572	mice	Species	10090
+37305050	602	632	learning and memory impairment	Disease	MESH:D007859
+37305050	688	693	PSD95	Gene	13385
+37305050	695	702	drebrin	Gene	56320
+37305050	704	707	SYP	Gene	20977
+37305050	738	757	Dihydrotestosterone	Chemical	MESH:D013196
+37305050	759	762	DHT	Chemical	MESH:D013196
+37305050	832	836	mice	Species	10090
+37305050	900	904	ZIP9	Gene	328133
+37305050	994	1000	ERK1/2	Gene	26417;26413
+37305050	1005	1010	eIF4E	Gene	13684
+37305050	1070	1074	mice	Species	10090
+37305050	1091	1095	mice	Species	10090
+37305050	1117	1120	DHT	Chemical	MESH:D013196
+37305050	1177	1181	ZIP9	Gene	328133
+37305050	1231	1236	PSD95	Gene	13385
+37305050	1240	1246	ERK1/2	Gene	26417;26413
+37305050	1254	1259	eIF4E	Gene	13684
+37305050	1273	1276	DHT	Chemical	MESH:D013196
+37305050	1285	1290	mouse	Species	10090
+37305050	1310	1314	HT22	CellLine	CVCL:0321
+37305050	1326	1330	ZIP9	Gene	328133
+37305050	1414	1420	ERK1/2	Gene	26417;26413
+37305050	1440	1449	SCH772984	Chemical	MESH:C587178
+37305050	1454	1459	eIF4E	Gene	13684
+37305050	1479	1485	eFT508	Chemical	MESH:C000630785
+37305050	1501	1504	DHT	Chemical	MESH:D013196
+37305050	1515	1521	ERK1/2	Gene	26417;26413
+37305050	1530	1534	ZIP9	Gene	328133
+37305050	1549	1554	eIF4E	Gene	13684
+37305050	1587	1592	PSD95	Gene	13385
+37305050	1615	1619	HT22	CellLine	CVCL:0321
+37305050	1650	1654	ZIP9	Gene	328133
+37305050	1679	1682	DHT	Chemical	MESH:D013196
+37305050	1722	1727	PSD95	Gene	13385
+37305050	1729	1736	drebrin	Gene	56320
+37305050	1738	1741	SYP	Gene	20977
+37305050	1797	1800	PS1	Gene	19164
+37305050	1801	1805	mice	Species	10090
+37305050	1818	1824	ERK1/2	Gene	26417;26413
+37305050	1825	1830	eIF4E	Gene	13684
+37305050	1943	1947	mice	Species	10090
+37305050	1956	1960	ZIP9	Gene	328133
+37305050	2040	2059	Alzheimer's disease	Disease	MESH:D000544
+37305050	Positive_Correlation	MESH:D013196	13385
+37305050	Negative_Correlation	MESH:C587178	26413
+37305050	Negative_Correlation	MESH:C000630785	13684
+37305050	Association	MESH:D000544	328133
+37305050	Association	MESH:D013196	56320
+37305050	Association	MESH:D013196	26413
+37305050	Positive_Correlation	26417	328133
+37305050	Association	13385	26417
+37305050	Association	MESH:D013196	20977
+37305050	Association	MESH:D005262	13385
+37305050	Association	20977	328133
+37305050	Association	328133	56320
+37305050	Association	MESH:D005262	11835
+37305050	Association	MESH:D005262	56320
+37305050	Negative_Correlation	MESH:C587178	26417
+37305050	Bind	11835	328133
+37305050	Positive_Correlation	13385	328133
+37305050	Positive_Correlation	13684	328133
+37305050	Positive_Correlation	11835	56320
+37305050	Association	MESH:D013196	13684
+37305050	Association	MESH:D005262	20977
+37305050	Positive_Correlation	26413	328133
+37305050	Positive_Correlation	11835	20977
+37305050	Association	MESH:D013196	26417
+37305050	Association	13385	13684
+37305050	Association	13385	26413
+37305050	Association	MESH:D007859	11835
+37305050	Association	MESH:D013196	328133
+

@@ -1,0 +1,25 @@
+37367077|t|Cymbopogon citratus Essential Oil: Extraction, GC-MS, Phytochemical Analysis, Antioxidant Activity, and In Silico Molecular Docking for Protein Targets Related to CNS.
+37367077|a|This study analyzed the chemical composition of Cymbopogon citratus essential oil from Puebla, Mexico, assessed its antioxidant activity, and evaluated in silico protein-compound interactions related to central nervous system (CNS) physiology. GC-MS analysis identified myrcene (8.76%), Z-geranial (27.58%), and E-geranial (38.62%) as the main components, with 45 other compounds present, which depends on the region and growing conditions. DPPH and Folin-Ciocalteu assays using the leaves extract show a promising antioxidant effect (EC50 = 48.5 microL EO/mL), reducing reactive oxygen species. The bioinformatic tool SwissTargetPrediction (STP) shows 10 proteins as potential targets associated with CNS physiology. Moreover, protein-protein interaction diagrams suggest that muscarinic and dopamine receptors are related to each other through a third party. Molecular docking reveals that Z-geranial has higher binding energy than M1 commercial blocker and blocks M2, but not M4 muscarinic acetylcholine receptors, whereas beta-pinene and myrcene block M1, M2, and M4 receptors. These actions may positively affect cardiovascular activity, memory, Alzheimer's disease, and schizophrenia. This study highlights the significance of understanding natural product interactions with physiological systems to uncover potential therapeutic agents and advanced knowledge on their benefits for human health.
+37367077	0	33	Cymbopogon citratus Essential Oil	Chemical	-
+37367077	216	249	Cymbopogon citratus essential oil	Chemical	-
+37367077	438	445	myrcene	Chemical	MESH:C509595
+37367077	455	465	Z-geranial	Chemical	-
+37367077	480	490	E-geranial	Chemical	-
+37367077	609	613	DPPH	Chemical	MESH:C004931
+37367077	618	633	Folin-Ciocalteu	Chemical	-
+37367077	739	762	reactive oxygen species	Chemical	MESH:D017382
+37367077	1060	1070	Z-geranial	Chemical	-
+37367077	1194	1205	beta-pinene	Chemical	MESH:C010789
+37367077	1210	1217	myrcene	Chemical	MESH:C509595
+37367077	1224	1248	M1, M2, and M4 receptors	Gene	1128;10687
+37367077	1319	1338	Alzheimer's disease	Disease	MESH:D000544
+37367077	1344	1357	schizophrenia	Disease	MESH:D012559
+37367077	Positive_Correlation	MESH:C509595	MESH:D000544
+37367077	Negative_Correlation	MESH:C010789	10687
+37367077	Negative_Correlation	MESH:C004931	MESH:D017382
+37367077	Negative_Correlation	MESH:C010789	1128
+37367077	Negative_Correlation	MESH:C509595	1128
+37367077	Positive_Correlation	MESH:C509595	MESH:D012559
+37367077	Association	MESH:C010789	MESH:D012559
+37367077	Negative_Correlation	MESH:C509595	10687
+

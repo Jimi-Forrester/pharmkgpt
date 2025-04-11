@@ -1,0 +1,15 @@
+32632601|t|An activity prediction model for steroidal and triterpenoidal inhibitors of Acetylcholinesterase enzyme.
+32632601|a|Nowadays, the importance of computational methods in the design of therapeutic agents in a more efficient way is indisputable. Particularly, these methods have been important in the design of novel acetylcholinesterase enzyme inhibitors related to Alzheimer's disease. In this sense, in this report a computational model of linear prediction of acetylcholinesterase inhibitory activity of steroids and triterpenes is presented. The model is based in a correlation between binding energies obtained from molecular dynamic simulations (after docking studies) and [Formula: see text] values of a training set. This set includes a family of natural and semi-synthetic structurally related alkaloids reported in bibliography. These types of compounds, with some structural complexity, could be used as building blocks for the synthesis of many important biologically active compounds Therefore, the present study proposes an alternative based on the use of conventional and easily accessible tools to make progress on the rational design of molecules with biological activity.
+32632601	33	42	steroidal	Chemical	-
+32632601	47	61	triterpenoidal	Chemical	-
+32632601	76	96	Acetylcholinesterase	Gene	43
+32632601	303	323	acetylcholinesterase	Gene	43
+32632601	353	372	Alzheimer's disease	Disease	MESH:D000544
+32632601	450	470	acetylcholinesterase	Gene	43
+32632601	494	502	steroids	Chemical	MESH:D013256
+32632601	507	518	triterpenes	Chemical	MESH:D014315
+32632601	790	799	alkaloids	Chemical	MESH:D000470
+32632601	Negative_Correlation	MESH:D014315	43
+32632601	Negative_Correlation	MESH:D013256	43
+32632601	Association	MESH:D000544	43
+

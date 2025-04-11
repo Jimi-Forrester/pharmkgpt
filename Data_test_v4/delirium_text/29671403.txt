@@ -1,0 +1,11 @@
+29671403|t|KDiamend: a package for detecting key drivers in a molecular ecological network of disease.
+29671403|a|BACKGROUND: Microbial abundance profiles are applied widely to understand diseases from the aspect of microbial communities. By investigating the abundance associations of species or genes, we can construct molecular ecological networks (MENs). The MENs are often constructed by calculating the Pearson correlation coefficient (PCC) between genes. In this work, we also applied multimodal mutual information (MMI) to construct MENs. The members which drive the concerned MENs are referred to as key drivers. RESULTS: We proposed a novel method to detect the key drivers. First, we partitioned the MEN into subnetworks. Then we identified the most pertinent subnetworks to the disease by measuring the correlation between the abundance pattern and the delegated phenotype-the variable representing the disease phenotypes. Last, for each identified subnetwork, we detected the key driver by PageRank. We developed a package named KDiamend and applied it to the gut and oral microbial data to detect key drivers for Type 2 diabetes (T2D) and Rheumatoid Arthritis (RA). We detected six T2D-relevant subnetworks and three key drivers of them are related to the carbohydrate metabolic process. In addition, we detected nine subnetworks related to RA, a disease caused by compromised immune systems. The extracted subnetworks include InterPro matches (IPRs) concerned with immunoglobulin, Sporulation, biofilm, Flaviviruses, bacteriophage, etc., while the development of biofilms is regarded as one of the drivers of persistent infections. CONCLUSION: KDiamend is feasible to detect key drivers and offers insights to uncover the development of diseases. The package is freely available at http://www.deepomics.org/pipelines/3DCD6955FEF2E64A/ .
+29671403	1105	1120	Type 2 diabetes	Disease	MESH:D003924
+29671403	1122	1125	T2D	Disease	MESH:D003924
+29671403	1131	1151	Rheumatoid Arthritis	Disease	MESH:D001172
+29671403	1153	1155	RA	Disease	MESH:D001172
+29671403	1174	1177	T2D	Disease	MESH:D003924
+29671403	1248	1260	carbohydrate	Chemical	MESH:D002241
+29671403	1333	1335	RA	Disease	MESH:D001172
+29671403	Association	MESH:D002241	MESH:D003924
+

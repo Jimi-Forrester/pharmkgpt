@@ -1,0 +1,49 @@
+18290843|t|Gene-gene interaction between 14-3-3 zeta and butyrylcholinesterase modulates Alzheimer's disease risk.
+18290843|a|A loss in the regulatory mechanism that controls tau phosphorylation in normal brain is suggested to cause tau hyperphosphorylation in Alzheimer's disease (AD) brain and the development of neurofibrillary tangles (NFT). 14-3-3 zeta protein and butyrylcholinesterase (BCHE) are associated with NFT in AD brain and stimulate tau phosphorylation. In a case-control study in 231 AD patients and 221 healthy controls, we examined whether the combined effects between 14-3-3 zeta (rs964917 and rs983583) and BCHE (K variant) polymorphisms might be responsible for susceptibility to AD. Subjects carrying both the BCHE K allele and the 14-3-3 zeta rs964917 G/G genotype (OR = 0.44, 95% CI = 0.20-0.95, P = 0.03), or 14-3-3 zeta rs983583 G/G genotype (OR = 0.46, 95% CI = 0.21-1.00, P = 0.05) had a lower risk of developing AD than subjects without these risk genotypes. Considering synergistic effects between polymorphisms in tau phosphorylation relate-genes may help in determining the risk profile for AD.
+18290843	30	41	14-3-3 zeta	Gene	7534
+18290843	46	67	butyrylcholinesterase	Gene	590
+18290843	78	97	Alzheimer's disease	Disease	MESH:D000544
+18290843	153	156	tau	Gene	4137
+18290843	239	258	Alzheimer's disease	Disease	MESH:D000544
+18290843	260	262	AD	Disease	MESH:D000544
+18290843	293	316	neurofibrillary tangles	Disease	MESH:D055956
+18290843	318	321	NFT	Disease	MESH:D055956
+18290843	324	335	14-3-3 zeta	Gene	7534
+18290843	348	369	butyrylcholinesterase	Gene	590
+18290843	371	375	BCHE	Gene	590
+18290843	397	400	NFT	Disease	MESH:D055956
+18290843	404	406	AD	Disease	MESH:D000544
+18290843	427	430	tau	Gene	4137
+18290843	479	481	AD	Disease	MESH:D000544
+18290843	482	490	patients	Species	9606
+18290843	566	577	14-3-3 zeta	Gene	7534
+18290843	579	587	rs964917	SNP	tmVar:rs964917;VariantGroup:0;CorrespondingGene:7534;RS#:964917;CorrespondingSpecies:9606
+18290843	592	600	rs983583	SNP	tmVar:rs983583;VariantGroup:1;CorrespondingGene:7534;RS#:983583;CorrespondingSpecies:9606
+18290843	606	610	BCHE	Gene	590
+18290843	680	682	AD	Disease	MESH:D000544
+18290843	711	715	BCHE	Gene	590
+18290843	733	744	14-3-3 zeta	Gene	7534
+18290843	745	753	rs964917	SNP	tmVar:rs964917;VariantGroup:0;CorrespondingGene:7534;RS#:964917;CorrespondingSpecies:9606
+18290843	754	757	G/G	DNAMutation	tmVar:c|SUB|G||G;VariantGroup:2;CorrespondingGene:7534;CorrespondingSpecies:9606
+18290843	813	824	14-3-3 zeta	Gene	7534
+18290843	825	833	rs983583	SNP	tmVar:rs983583;VariantGroup:1;CorrespondingGene:7534;RS#:983583;CorrespondingSpecies:9606
+18290843	834	837	G/G	DNAMutation	tmVar:c|SUB|G||G;VariantGroup:2;CorrespondingGene:7534;CorrespondingSpecies:9606
+18290843	920	922	AD	Disease	MESH:D000544
+18290843	1024	1027	tau	Gene	4137
+18290843	1102	1104	AD	Disease	MESH:D000544
+18290843	Association	MESH:D055956	7534
+18290843	Association	RS#:964917;CorrespondingGene:7534	RS#:983583;CorrespondingGene:7534
+18290843	Positive_Correlation	4137	590
+18290843	Association	590	7534
+18290843	Association	MESH:D000544	7534
+18290843	Association	MESH:D055956	4137
+18290843	Negative_Correlation	MESH:D000544	RS#:964917;CorrespondingGene:7534
+18290843	Negative_Correlation	RS#:964917;CorrespondingGene:7534	MESH:D000544
+18290843	Association	MESH:D000544	4137
+18290843	Negative_Correlation	MESH:D000544	RS#:983583;CorrespondingGene:7534
+18290843	Positive_Correlation	4137	7534
+18290843	Negative_Correlation	CorrespondingGene:7534;CorrespondingSpecies:9606;VariantGroup:2;tmVar:c	MESH:D000544
+18290843	Association	MESH:D000544	590
+18290843	Association	MESH:D055956	590
+18290843	Association	MESH:D000544	7534
+

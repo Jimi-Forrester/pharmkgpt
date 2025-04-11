@@ -1,0 +1,15 @@
+38413051|t|Projection-based two-sample inference for sparsely observed multivariate functional data.
+38413051|a|Modern longitudinal studies collect multiple outcomes as the primary endpoints to understand the complex dynamics of the diseases. Oftentimes, especially in clinical trials, the joint variation among the multidimensional responses plays a significant role in assessing the differential characteristics between two or more groups, rather than drawing inferences based on a single outcome. We develop a projection-based two-sample significance test to identify the population-level difference between the multivariate profiles observed under a sparse longitudinal design. The methodology is built upon widely adopted multivariate functional principal component analysis to reduce the dimension of the infinite-dimensional multi-modal functions while preserving the dynamic correlation between the components. The test applies to a wide class of (non-stationary) covariance structures of the response, and it detects a significant group difference based on a single p-value, thereby overcoming the issue of adjusting for multiple p-values that arise due to comparing the means in each of components separately. Finite-sample numerical studies demonstrate that the test maintains the type-I error, and is powerful to detect significant group differences, compared to the state-of-the-art testing procedures. The test is carried out on two significant longitudinal studies for Alzheimer's disease and Parkinson's disease (PD) patients, namely, TOMMORROW study of individuals at high risk of mild cognitive impairment to detect differences in the cognitive test scores between the pioglitazone and the placebo groups, and Azillect study to assess the efficacy of rasagiline as a potential treatment to slow down the progression of PD.
+38413051	1462	1481	Alzheimer's disease	Disease	MESH:D000544
+38413051	1486	1505	Parkinson's disease	Disease	MESH:D010300
+38413051	1507	1509	PD	Disease	MESH:D010300
+38413051	1511	1519	patients	Species	9606
+38413051	1581	1601	cognitive impairment	Disease	MESH:D003072
+38413051	1665	1677	pioglitazone	Chemical	MESH:D000077205
+38413051	1706	1714	Azillect	Chemical	-
+38413051	1747	1757	rasagiline	Chemical	MESH:C031967
+38413051	1815	1817	PD	Disease	MESH:D010300
+38413051	Negative_Correlation	MESH:D000077205	MESH:D000544
+38413051	Negative_Correlation	MESH:D000077205	MESH:D003072
+38413051	Negative_Correlation	MESH:C031967	MESH:D010300
+

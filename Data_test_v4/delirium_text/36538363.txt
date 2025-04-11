@@ -1,0 +1,17 @@
+36538363|t|Boosting Delirium Identification Accuracy With Sentiment-Based Natural Language Processing: Mixed Methods Study.
+36538363|a|BACKGROUND: Delirium is an acute neurocognitive disorder that affects up to half of older hospitalized medical patients and can lead to dementia, longer hospital stays, increased health costs, and death. Although delirium can be prevented and treated, it is difficult to identify and predict. OBJECTIVE: This study aimed to improve machine learning models that retrospectively identify the presence of delirium during hospital stays (eg, to measure the effectiveness of delirium prevention interventions) by using the natural language processing (NLP) technique of sentiment analysis (in this case a feature that identifies sentiment toward, or away from, a delirium diagnosis). METHODS: Using data from the General Medicine Inpatient Initiative, a Canadian hospital data and analytics network, a detailed manual review of medical records was conducted from nearly 4000 admissions at 6 Toronto area hospitals. Furthermore, 25.74% (994/3862) of the eligible hospital admissions were labeled as having delirium. Using the data set collected from this study, we developed machine learning models with, and without, the benefit of NLP methods applied to diagnostic imaging reports, and we asked the question "can NLP improve machine learning identification of delirium?" RESULTS: Among the eligible 3862 hospital admissions, 994 (25.74%) admissions were labeled as having delirium. Identification and calibration of the models were satisfactory. The accuracy and area under the receiver operating characteristic curve of the main model with NLP in the independent testing data set were 0.807 and 0.930, respectively. The accuracy and area under the receiver operating characteristic curve of the main model without NLP in the independent testing data set were 0.811 and 0.869, respectively. Model performance was also found to be stable over the 5-year period used in the experiment, with identification for a likely future holdout test set being no worse than identification for retrospective holdout test sets. CONCLUSIONS: Our machine learning model that included NLP (ie, sentiment analysis in medical image description text mining) produced valid identification of delirium with the sentiment analysis, providing significant additional benefit over the model without NLP.
+36538363	9	17	Delirium	Disease	MESH:D003693
+36538363	125	133	Delirium	Disease	MESH:D003693
+36538363	146	169	neurocognitive disorder	Disease	MESH:D019965
+36538363	224	232	patients	Species	9606
+36538363	249	257	dementia	Disease	MESH:D003704
+36538363	310	315	death	Disease	MESH:D003643
+36538363	326	334	delirium	Disease	MESH:D003693
+36538363	515	523	delirium	Disease	MESH:D003693
+36538363	583	591	delirium	Disease	MESH:D003693
+36538363	771	779	delirium	Disease	MESH:D003693
+36538363	1113	1121	delirium	Disease	MESH:D003693
+36538363	1369	1377	delirium	Disease	MESH:D003693
+36538363	1481	1489	delirium	Disease	MESH:D003693
+36538363	2279	2287	delirium	Disease	MESH:D003693
+

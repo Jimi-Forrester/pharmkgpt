@@ -1,0 +1,16 @@
+26572145|t|Label-aligned multi-task feature learning for multimodal classification of Alzheimer's disease and mild cognitive impairment.
+26572145|a|Multimodal classification methods using different modalities of imaging and non-imaging data have recently shown great advantages over traditional single-modality-based ones for diagnosis and prognosis of Alzheimer's disease (AD), as well as its prodromal stage, i.e., mild cognitive impairment (MCI). However, to the best of our knowledge, most existing methods focus on mining the relationship across multiple modalities of the same subjects, while ignoring the potentially useful relationship across different subjects. Accordingly, in this paper, we propose a novel learning method for multimodal classification of AD/MCI, by fully exploring the relationships across both modalities and subjects. Specifically, our proposed method includes two subsequent components, i.e., label-aligned multi-task feature selection and multimodal classification. In the first step, the feature selection learning from multiple modalities are treated as different learning tasks and a group sparsity regularizer is imposed to jointly select a subset of relevant features. Furthermore, to utilize the discriminative information among labeled subjects, a new label-aligned regularization term is added into the objective function of standard multi-task feature selection, where label-alignment means that all multi-modality subjects with the same class labels should be closer in the new feature-reduced space. In the second step, a multi-kernel support vector machine (SVM) is adopted to fuse the selected features from multi-modality data for final classification. To validate our method, we perform experiments on the Alzheimer's Disease Neuroimaging Initiative (ADNI) database using baseline MRI and FDG-PET imaging data. The experimental results demonstrate that our proposed method achieves better classification performance compared with several state-of-the-art methods for multimodal classification of AD/MCI.
+26572145	75	94	Alzheimer's disease	Disease	MESH:D000544
+26572145	104	124	cognitive impairment	Disease	MESH:D003072
+26572145	331	350	Alzheimer's disease	Disease	MESH:D000544
+26572145	352	354	AD	Disease	MESH:D000544
+26572145	400	420	cognitive impairment	Disease	MESH:D003072
+26572145	422	425	MCI	Disease	MESH:D060825
+26572145	745	747	AD	Disease	MESH:D000544
+26572145	748	751	MCI	Disease	MESH:D060825
+26572145	1732	1751	Alzheimer's Disease	Disease	MESH:D000544
+26572145	1815	1818	FDG	Chemical	MESH:D019788
+26572145	2022	2024	AD	Disease	MESH:D000544
+26572145	2025	2028	MCI	Disease	MESH:D060825
+26572145	Association	MESH:D019788	MESH:D000544
+

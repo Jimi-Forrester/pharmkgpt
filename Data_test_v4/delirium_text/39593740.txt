@@ -1,0 +1,17 @@
+39593740|t|HyMNet: A Multimodal Deep Learning System for Hypertension Prediction Using Fundus Images and Cardiometabolic Risk Factors.
+39593740|a|STUDY OBJECTIVES: This study aimed to develop a multimodal deep learning (MMDL) system called HyMNet, integrating fundus images and cardiometabolic factors (age and sex) to enhance hypertension (HTN) detection. METHODS: HyMNet employed RETFound, a model pretrained on 1.6 million retinal images, for the fundus data, in conjunction with a fully connected neural network for age and sex. The two pathways were jointly trained by joining their feature vectors into a fusion network. The system was trained on 5016 retinal images from 1243 individuals provided by the Saudi Ministry of National Guard Health Affairs. The influence of diabetes on HTN detection was also assessed. RESULTS: HyMNet surpassed the unimodal system, achieving an F1 score of 0.771 compared to 0.745 for the unimodal model. For diabetic patients, the F1 score was 0.796, while it was 0.466 for non-diabetic patients. CONCLUSIONS: HyMNet exhibited superior performance relative to unimodal approaches, with an F1 score of 0.771 for HyMNet compared to 0.752 for models trained on demographic data alone, underscoring the advantages of MMDL systems in HTN detection. The findings indicate that diabetes significantly impacts HTN prediction, enhancing detection accuracy among diabetic patients. Utilizing MMDL with diverse data sources could improve clinical applicability and generalization.
+39593740	46	58	Hypertension	Disease	MESH:D006973
+39593740	305	317	hypertension	Disease	MESH:D006973
+39593740	319	322	HTN	Disease	MESH:D006973
+39593740	755	763	diabetes	Disease	MESH:D003920
+39593740	767	770	HTN	Disease	MESH:D006973
+39593740	924	932	diabetic	Disease	MESH:D003920
+39593740	933	941	patients	Species	9606
+39593740	994	1002	diabetic	Disease	MESH:D003920
+39593740	1003	1011	patients	Species	9606
+39593740	1245	1248	HTN	Disease	MESH:D006973
+39593740	1287	1295	diabetes	Disease	MESH:D003920
+39593740	1318	1321	HTN	Disease	MESH:D006973
+39593740	1369	1377	diabetic	Disease	MESH:D003920
+39593740	1378	1386	patients	Species	9606
+

@@ -1,0 +1,24 @@
+39251364|t|Investigating the Mechanisms of Antibody Binding to Alpha-Synuclein for the Treatment of Parkinson's Disease.
+39251364|a|Parkinson's disease (PD) is an idiopathic neurodegenerative disorder with the second-highest prevalence rate behind Alzheimer's disease. The pathophysiological hallmarks of PD are both degeneration of dopaminergic neurons in the substantia nigra pars compacta and the inclusion of misfolded alpha-synuclein (alpha-syn) aggregates known as Lewy bodies. Despite decades of research for potential PD treatments, none have been developed, and developing new therapeutic agents is a time-consuming and expensive process. Computational methods can be used to investigate the properties of drug candidates currently undergoing clinical trials to determine their theoretical efficiency at targeting alpha-syn. Monoclonal antibodies (mAbs) are biological drugs with high specificity, and Prasinezumab (PRX002) is an mAb currently in Phase II, which targets the C-terminus (AA 118-126) of alpha-syn. We utilized BioLuminate and PyMol for the structure prediction and preparation of the fragment antigen-binding (Fab) region of PRX002 and 34 different conformations of alpha-syn. Protein-protein docking simulations were performed using PIPER, and 3 of the docking poses were selected based on the best fit. Molecular dynamics simulations were conducted on the docked protein structures in triplicate for 1000 ns, and hydrogen bonds and electrostatic and hydrophobic interactions were analyzed using MDAnalysis to determine which residues were interacting and how often. Hydrogen bonds were shown to form frequently between the HCDR2 region of PRX002 and alpha-syn. Free energy was calculated to determine the binding affinity. The predicted binding affinity shows a strong antibody-antigen attraction between PRX002 and alpha-syn. RMSD was calculated to determine the conformational change of these regions throughout the simulation. The mAb's developability was determined using computational screening methods. Our results demonstrate the efficiency and developability of this therapeutic agent.
+39251364	52	67	Alpha-Synuclein	Gene	6622
+39251364	89	108	Parkinson's Disease	Disease	MESH:D010300
+39251364	110	129	Parkinson's disease	Disease	MESH:D010300
+39251364	131	133	PD	Disease	MESH:D010300
+39251364	152	178	neurodegenerative disorder	Disease	MESH:D019636
+39251364	226	245	Alzheimer's disease	Disease	MESH:D000544
+39251364	283	285	PD	Disease	MESH:D010300
+39251364	295	331	degeneration of dopaminergic neurons	Disease	MESH:D009410
+39251364	401	416	alpha-synuclein	Gene	6622
+39251364	418	427	alpha-syn	Gene	6622
+39251364	449	460	Lewy bodies	Disease	MESH:D020961
+39251364	504	506	PD	Disease	MESH:D010300
+39251364	801	810	alpha-syn	Gene	6622
+39251364	889	901	Prasinezumab	Chemical	-
+39251364	903	909	PRX002	Chemical	-
+39251364	989	998	alpha-syn	Gene	6622
+39251364	1168	1177	alpha-syn	Gene	6622
+39251364	1654	1663	alpha-syn	Gene	6622
+39251364	1820	1829	alpha-syn	Gene	6622
+39251364	Association	MESH:D010300	6622
+39251364	Association	MESH:D020961	6622
+

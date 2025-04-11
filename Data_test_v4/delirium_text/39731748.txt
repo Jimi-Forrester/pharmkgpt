@@ -1,0 +1,30 @@
+39731748|t|Comparative analysis of backbone atom cross-correlation matrices and folding dynamics of amyloid fibril and its complexes with novel biosurfactants isolated from Bacillus strain: a binding free energy calculation (mM-PBSA) and MD simulation approach.
+39731748|a|In the relentless pursuit of unraveling the intricate pathophysiology of Alzheimer's disease (AD), amyloid beta (Abeta) proteins emerge as focal points due to their pivotal role in disease progression. The pathological hallmark of AD involves the aberrant aggregation of Abeta peptides into amyloid fibrils, precipitating a cascade of neurodegenerative events culminating in cognitive decline and neuronal loss. This study adopts a computational framework to investigate the potential therapeutic efficacy of novel biosurfactants (BS) in mitigating Abeta fibril formation. Initial analyses encompassing sequence alignment, structural elucidation, and functional characterization reveal distinctive attributes of the Abeta peptide and the identified BS candidates. Quantum chemical calculations, using the ORCA Program (v4.0) employed Density Functional Theory (DFT), specifically the Becke 3-parameter Lee-Yang-Parr (B3LYP) method, to investigate the electronic structure and energetics of novel isolates. Molecular docking through AutoDock Vina (version 1.1.2) employing advanced algorithms elucidates the binding affinities and interaction energies between Abeta fibrils and BS molecules. The observed binding energy of -7.0 kcal/mol for BG2A and -6.6 kcal/mol for BG2B, underscoring the robustness and stability of the formed complexes. The binding mechanism of docked complexes was predicted through molecular dynamics (MD) simulations using GROMACS 2021.3 and Charmm36 force field, capture complex dynamics over 100 nanoseconds. Analysis via RMSD, RMSF, Rg, PCA, and SASA offers insights into Abeta-BS complex stability and dynamics. These promising results highlight the potential of BG2A and BG2B as therapeutic candidates against AD. However, rigorous preclinical and clinical validation is crucial to ascertain their safety, efficacy, and translational relevance.
+39731748	97	103	fibril	Disease	MESH:D014693
+39731748	133	147	biosurfactants	Chemical	-
+39731748	162	170	Bacillus	Species	55087
+39731748	216	221	-PBSA	Chemical	MESH:C437084
+39731748	324	343	Alzheimer's disease	Disease	MESH:D000544
+39731748	345	347	AD	Disease	MESH:D000544
+39731748	350	362	amyloid beta	Gene	351
+39731748	364	369	Abeta	Gene	351
+39731748	482	484	AD	Disease	MESH:D000544
+39731748	522	527	Abeta	Gene	351
+39731748	626	643	cognitive decline	Disease	MESH:D003072
+39731748	648	661	neuronal loss	Disease	MESH:D009410
+39731748	766	780	biosurfactants	Chemical	-
+39731748	782	784	BS	Chemical	-
+39731748	800	805	Abeta	Gene	351
+39731748	806	812	fibril	Disease	MESH:D014693
+39731748	967	972	Abeta	Gene	351
+39731748	1000	1002	BS	Chemical	-
+39731748	1410	1415	Abeta	Gene	351
+39731748	1428	1430	BS	Chemical	-
+39731748	1849	1854	Abeta	Gene	351
+39731748	1855	1857	BS	Chemical	-
+39731748	1989	1991	AD	Disease	MESH:D000544
+39731748	Association	MESH:D000544	351
+39731748	Association	MESH:D003072	351
+39731748	Association	MESH:D009410	351
+39731748	Positive_Correlation	MESH:D014693	351
+

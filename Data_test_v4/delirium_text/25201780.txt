@@ -1,0 +1,43 @@
+25201780|t|Metabolic profiling of CHO-AbetaPP695 cells revealed mitochondrial dysfunction prior to amyloid-beta pathology and potential therapeutic effects of both PPARgamma and PPARalpha Agonisms for Alzheimer's disease.
+25201780|a|In this study, we performed gas chromatography time-of-flight mass spectrometry (GC-TOFMS)-based extracellular metabolic profiling on AbetaPP-transfected CHO cells (CHO-AbetaPP695) and its wildtype. Orthogonal partial least squares discriminant analysis (OPLS-DA) was then used to identify discriminant metabolites, which gave clues on the effects of AbetaPP transgene on cellular processes. To confirm the hypotheses generated based on the metabolic data, we performed biochemical assays to gather further evidence to support our findings. The OPLS-DA showed a robust differentiation following 24 h of incubation (Q2(cum) = 0.884) and 15 discriminant metabolites were identified. In contrast, extracellular Abeta42 was identified to increase significantly in CHO-AbetaPP695 only after incubation for 48 h. The observed 24-h metabolic fluxes were associated with increased mitochondrial AbetaPP and reduced mitochondrial viabilities, which occurred before extracellular Abeta accumulation. We also investigated the therapeutic potential of peroxisome proliferator-activated receptor gamma (PPARgamma) agonists, namely rosiglitazone (RSG) and pioglitazone (PIO), by employing the same approach to characterize the metabolic profiles of CHO-AbetaPP695 treated with RSG and PIO, with or without their respective receptor blockers. Treatment with PIO was found to reduce the perturbation of the discriminant metabolites in CHO-AbetaPP695 to a larger extent than treatment with RSG. We also attributed the PIO effects on the lowering of Abeta42, and restoration of mitochondrial activity to PPARgamma and PPARalpha agonism, respectively. Taken together, PIO was demonstrated to be therapeutically superior to RSG. Our findings provide further insights into early disease stages in this AbetaPP model, and support the advancement of PIO in AD therapy. 
+25201780	23	26	CHO	CellLine	CVCL:0213
+25201780	27	37	AbetaPP695	CellLine	CVCL:CX57
+25201780	53	78	mitochondrial dysfunction	Disease	MESH:D028361
+25201780	153	162	PPARgamma	Gene	100689245
+25201780	190	209	Alzheimer's disease	Disease	MESH:D000544
+25201780	345	352	AbetaPP	Gene	100689222
+25201780	365	368	CHO	CellLine	CVCL:0213
+25201780	376	379	CHO	CellLine	CVCL:0213
+25201780	380	390	AbetaPP695	CellLine	CVCL:CX57
+25201780	562	569	AbetaPP	Gene	100689222
+25201780	971	974	CHO	CellLine	CVCL:0213
+25201780	975	985	AbetaPP695	CellLine	CVCL:CX57
+25201780	1098	1105	AbetaPP	Gene	100689222
+25201780	1181	1186	Abeta	Gene	100689222
+25201780	1251	1299	peroxisome proliferator-activated receptor gamma	Gene	100689245
+25201780	1301	1310	PPARgamma	Gene	100689245
+25201780	1329	1342	rosiglitazone	Chemical	MESH:D000077154
+25201780	1344	1347	RSG	Chemical	MESH:D000077154
+25201780	1353	1365	pioglitazone	Chemical	MESH:D000077205
+25201780	1367	1370	PIO	Chemical	MESH:D000077205
+25201780	1446	1449	CHO	CellLine	CVCL:0213
+25201780	1450	1460	AbetaPP695	CellLine	CVCL:CX57
+25201780	1474	1477	RSG	Chemical	MESH:D000077154
+25201780	1482	1485	PIO	Chemical	MESH:D000077205
+25201780	1554	1557	PIO	Chemical	MESH:D000077205
+25201780	1630	1633	CHO	CellLine	CVCL:0213
+25201780	1634	1644	AbetaPP695	CellLine	CVCL:CX57
+25201780	1684	1687	RSG	Chemical	MESH:D000077154
+25201780	1712	1715	PIO	Chemical	MESH:D000077205
+25201780	1797	1806	PPARgamma	Gene	100689245
+25201780	1860	1863	PIO	Chemical	MESH:D000077205
+25201780	1915	1918	RSG	Chemical	MESH:D000077154
+25201780	1992	1999	AbetaPP	Gene	100689222
+25201780	2038	2041	PIO	Chemical	MESH:D000077205
+25201780	2045	2047	AD	Disease	MESH:D000544
+25201780	Positive_Correlation	MESH:D000077154	100689245
+25201780	Negative_Correlation	MESH:D000077205	MESH:D000544
+25201780	Association	MESH:D000544	100689245
+25201780	Positive_Correlation	MESH:D000077205	100689245
+25201780	Comparison	MESH:D000077154	MESH:D000077205
+

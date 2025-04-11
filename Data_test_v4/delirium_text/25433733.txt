@@ -1,0 +1,18 @@
+25433733|t|Computational prediction of protein interactions related to the invasion of erythrocytes by malarial parasites.
+25433733|a|BACKGROUND: The invasion of red blood cells (RBCs) by malarial parasites is an essential step in the life cycle of Plasmodium falciparum. Human-parasite surface protein interactions play a critical role in this process. Although several interactions between human and parasite proteins have been discovered, the mechanism related to invasion remains poorly understood because numerous human-parasite protein interactions have not yet been identified. High-throughput screening experiments are not feasible for malarial parasites due to difficulty in expressing the parasite proteins. Here, we performed computational prediction of the PPIs involved in malaria parasite invasion to elucidate the mechanism by which invasion occurs. RESULTS: In this study, an expectation maximization algorithm was used to estimate the probabilities of domain-domain interactions (DDIs). Estimates of DDI probabilities were then used to infer PPI probabilities. We found that our prediction performance was better than that based on the information of D. melanogaster alone when information related to the six species was used. Prediction performance was assessed using protein interaction data from S. cerevisiae, indicating that the predicted results were reliable. We then used the estimates of DDI probabilities to infer interactions between 490 parasite and 3,787 human membrane proteins. A small-scale dataset was used to illustrate the usability of our method in predicting interactions between human and parasite proteins. The positive predictive value (PPV) was lower than that observed in S. cerevisiae. We integrated gene expression data to improve prediction accuracy and to reduce false positives. We identified 80 membrane proteins highly expressed in the schizont stage by fast Fourier transform method. Approximately 221 erythrocyte membrane proteins were identified using published mass spectral datasets. A network consisting of 205 interactions was predicted. Results of network analysis suggest that SNARE proteins of parasites and APP of humans may function in the invasion of RBCs by parasites. CONCLUSIONS: We predicted a small-scale PPI network that may be involved in parasite invasion of RBCs by integrating DDI information and expression profiles. Experimental studies should be conducted to validate the predicted interactions. The predicted PPIs help elucidate the mechanism of parasite invasion and provide directions for future experimental investigations.
+25433733	92	110	malarial parasites	Disease	MESH:D010272
+25433733	166	184	malarial parasites	Disease	MESH:D010272
+25433733	227	248	Plasmodium falciparum	Species	5833
+25433733	250	255	Human	Species	9606
+25433733	370	375	human	Species	9606
+25433733	497	502	human	Species	9606
+25433733	622	640	malarial parasites	Disease	MESH:D010272
+25433733	764	780	malaria parasite	Disease	MESH:D008288
+25433733	1146	1161	D. melanogaster	Species	7227
+25433733	1294	1307	S. cerevisiae	Species	4932
+25433733	1463	1468	human	Species	9606
+25433733	1596	1601	human	Species	9606
+25433733	1693	1706	S. cerevisiae	Species	4932
+25433733	2114	2119	SNARE	Gene	100170220
+25433733	2153	2159	humans	Species	9606
+

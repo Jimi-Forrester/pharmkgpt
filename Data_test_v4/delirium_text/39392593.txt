@@ -1,0 +1,33 @@
+39392593|t|Proteomic Analysis Reveals Major Proteins and Pathways That Mediate the Effect of 17-beta-Estradiol in Cell Division and Apoptosis in Breast Cancer MCF7 Cells.
+39392593|a|Despite extensive research, the genes/proteins and pathways responsible for the physiological effects of estrogen remain elusive. In this study, we determined the effect of estrogen on global protein expression in breast cancer MCF7 cells using a proteomic method. The expression of 77 cytosolic, 74 nuclear, and 81 membrane/organelle proteins was significantly altered by 17-beta-estradiol (E2). Protein enrichment analyses suggest that E2 may stimulate cell division primarily by promoting the G1 to S phase transition and advancing the G2/M checkpoint. The effect of E2 on cell survival was complex, as it could simultaneously enhance and inhibit apoptosis. Bioinformatics analysis suggests that E2 may enhance apoptosis by promoting the accumulation of the pore-forming protein Bax in the mitochondria and inhibit apoptosis by activating the PI3K/AKT/mTOR signaling pathway. We verified the activation of the PI3K signaling and the accumulation of Bax in the membrane/organelle fraction in E2-treated cells using immunoblotting. Treatment of MCF7 cells with E2 and the PI3K inhibitor Ly294002 significantly enhanced apoptosis compared to those treated with E2 alone, suggesting that combining estrogen with a PI3K inhibitor could be a promising strategy for treating ERalpha-positive breast cancer. Interestingly, many of the E2-upregulated proteins contained the HEAT, KH, and RRM domains.
+39392593	82	99	17-beta-Estradiol	Chemical	MESH:D004958
+39392593	134	147	Breast Cancer	Disease	MESH:D001943
+39392593	148	152	MCF7	CellLine	CVCL:0031
+39392593	374	387	breast cancer	Disease	MESH:D001943
+39392593	388	392	MCF7	CellLine	CVCL:0031
+39392593	533	550	17-beta-estradiol	Chemical	MESH:D004958
+39392593	552	554	E2	Chemical	MESH:D004958
+39392593	730	732	E2	Chemical	MESH:D004958
+39392593	942	945	Bax	Gene	581
+39392593	1006	1010	PI3K	Gene	5293
+39392593	1011	1014	AKT	Gene	207
+39392593	1015	1019	mTOR	Gene	2475
+39392593	1073	1077	PI3K	Gene	5293
+39392593	1112	1115	Bax	Gene	581
+39392593	1154	1156	E2	Chemical	MESH:D004958
+39392593	1206	1210	MCF7	CellLine	CVCL:0031
+39392593	1222	1224	E2	Chemical	MESH:D004958
+39392593	1233	1237	PI3K	Gene	5293
+39392593	1248	1256	Ly294002	Chemical	MESH:C085911
+39392593	1321	1323	E2	Chemical	MESH:D004958
+39392593	1373	1377	PI3K	Gene	5293
+39392593	1431	1438	ERalpha	Gene	2099
+39392593	1448	1461	breast cancer	Disease	MESH:D001943
+39392593	Negative_Correlation	MESH:D004958	MESH:D001943
+39392593	Association	MESH:D001943	5293
+39392593	Association	MESH:D001943	2099
+39392593	Cotreatment	MESH:C085911	MESH:D004958
+39392593	Negative_Correlation	MESH:C085911	MESH:D001943
+39392593	Positive_Correlation	MESH:D004958	5293
+39392593	Negative_Correlation	MESH:C085911	5293
+

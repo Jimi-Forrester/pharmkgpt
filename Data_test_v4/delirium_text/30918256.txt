@@ -1,0 +1,48 @@
+30918256|t|Myoglobinopathy is an adult-onset autosomal dominant myopathy with characteristic sarcoplasmic inclusions.
+30918256|a|Myoglobin, encoded by MB, is a small cytoplasmic globular hemoprotein highly expressed in cardiac myocytes and oxidative skeletal myofibers. Myoglobin binds O2, facilitates its intracellular transport and serves as a controller of nitric oxide and reactive oxygen species. Here, we identify a recurrent c.292C>T (p.His98Tyr) substitution in MB in fourteen members of six European families suffering from an autosomal dominant progressive myopathy with highly characteristic sarcoplasmic inclusions in skeletal and cardiac muscle. Myoglobinopathy manifests in adulthood with proximal and axial weakness that progresses to involve distal muscles and causes respiratory and cardiac failure. Biochemical characterization reveals that the mutant myoglobin has altered O2 binding, exhibits a faster heme dissociation rate and has a lower reduction potential compared to wild-type myoglobin. Preliminary studies show that mutant myoglobin may result in elevated superoxide levels at the cellular level. These data define a recognizable muscle disease associated with MB mutation.
+30918256	0	15	Myoglobinopathy	Disease	
+30918256	34	61	autosomal dominant myopathy	Disease	MESH:D009135
+30918256	107	116	Myoglobin	Gene	4151
+30918256	248	257	Myoglobin	Gene	4151
+30918256	264	266	O2	Chemical	MESH:D013481
+30918256	338	350	nitric oxide	Chemical	MESH:D009569
+30918256	355	378	reactive oxygen species	Chemical	MESH:D017382
+30918256	410	418	c.292C>T	DNAMutation	tmVar:c|SUB|C|292|T;HGVS:c.292C>T;VariantGroup:0;CorrespondingGene:4151;CorrespondingSpecies:9606
+30918256	420	430	p.His98Tyr	ProteinMutation	tmVar:p|SUB|H|98|Y;HGVS:p.H98Y;VariantGroup:0;CorrespondingGene:4151;CorrespondingSpecies:9606
+30918256	514	553	autosomal dominant progressive myopathy	Disease	MESH:D020914
+30918256	637	652	Myoglobinopathy	Disease	
+30918256	694	708	axial weakness	Disease	MESH:D018908
+30918256	762	793	respiratory and cardiac failure	Disease	MESH:D012131
+30918256	848	857	myoglobin	Gene	4151
+30918256	870	872	O2	Chemical	MESH:D013481
+30918256	900	904	heme	Chemical	MESH:D006418
+30918256	981	990	myoglobin	Gene	4151
+30918256	1029	1038	myoglobin	Gene	4151
+30918256	1062	1072	superoxide	Chemical	MESH:D013481
+30918256	1136	1150	muscle disease	Disease	MESH:D009135
+30918256	1167	1169	MB	Disease	OMIM:613675
+30918256	Association	MESH:D017382	4151
+30918256	Positive_Correlation	MESH:D012131	HGVS:c.292C>T;CorrespondingGene:4151
+30918256	Association	MESH:D009569	4151
+30918256	Positive_Correlation	MESH:D009135	HGVS:c.292C>T;CorrespondingGene:4151
+30918256	Association	MESH:D020914	HGVS:c.292C>T;CorrespondingGene:4151
+30918256	Association	MESH:D018908	HGVS:p.H98Y;CorrespondingGene:4151
+30918256	Positive_Correlation	HGVS:c.292C>T;CorrespondingGene:4151	MESH:D009135
+30918256	Association	MESH:D020914	HGVS:p.H98Y;CorrespondingGene:4151
+30918256	Association	OMIM:613675	HGVS:p.H98Y;CorrespondingGene:4151
+30918256	Positive_Correlation	MESH:D012131	HGVS:p.H98Y;CorrespondingGene:4151
+30918256	Association	HGVS:c.292C>T;CorrespondingGene:4151	MESH:D020914
+30918256	Positive_Correlation	MESH:D009135	HGVS:p.H98Y;CorrespondingGene:4151
+30918256	Association	MESH:D009135	4151
+30918256	Association	MESH:D013481	OMIM:613675
+30918256	Association	HGVS:c.292C>T;CorrespondingGene:4151	MESH:D018908
+30918256	Association	OMIM:613675	HGVS:c.292C>T;CorrespondingGene:4151
+30918256	Association	MESH:D018908	HGVS:c.292C>T;CorrespondingGene:4151
+30918256	Association	MESH:D013481	4151
+30918256	Bind	MESH:D006418	4151
+30918256	Association	MESH:D012131	4151
+30918256	Association	MESH:D009135	4151
+30918256	Association	MESH:D020914	4151
+30918256	Association	MESH:D018908	4151
+30918256	Association	OMIM:613675	4151
+

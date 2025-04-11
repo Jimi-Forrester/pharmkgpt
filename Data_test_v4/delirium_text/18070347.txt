@@ -1,0 +1,22 @@
+18070347|t|Reconstruction and flux analysis of coupling between metabolic pathways of astrocytes and neurons: application to cerebral hypoxia.
+18070347|a|BACKGROUND: It is a daunting task to identify all the metabolic pathways of brain energy metabolism and develop a dynamic simulation environment that will cover a time scale ranging from seconds to hours. To simplify this task and make it more practicable, we undertook stoichiometric modeling of brain energy metabolism with the major aim of including the main interacting pathways in and between astrocytes and neurons. MODEL: The constructed model includes central metabolism (glycolysis, pentose phosphate pathway, TCA cycle), lipid metabolism, reactive oxygen species (ROS) detoxification, amino acid metabolism (synthesis and catabolism), the well-known glutamate-glutamine cycle, other coupling reactions between astrocytes and neurons, and neurotransmitter metabolism. This is, to our knowledge, the most comprehensive attempt at stoichiometric modeling of brain metabolism to date in terms of its coverage of a wide range of metabolic pathways. We then attempted to model the basal physiological behaviour and hypoxic behaviour of the brain cells where astrocytes and neurons are tightly coupled. RESULTS: The reconstructed stoichiometric reaction model included 217 reactions (184 internal, 33 exchange) and 216 metabolites (183 internal, 33 external) distributed in and between astrocytes and neurons. Flux balance analysis (FBA) techniques were applied to the reconstructed model to elucidate the underlying cellular principles of neuron-astrocyte coupling. Simulation of resting conditions under the constraints of maximization of glutamate/glutamine/GABA cycle fluxes between the two cell types with subsequent minimization of Euclidean norm of fluxes resulted in a flux distribution in accordance with literature-based findings. As a further validation of our model, the effect of oxygen deprivation (hypoxia) on fluxes was simulated using an FBA-derivative approach, known as minimization of metabolic adjustment (MOMA). The results show the power of the constructed model to simulate disease behaviour on the flux level, and its potential to analyze cellular metabolic behaviour in silico. CONCLUSION: The predictive power of the constructed model for the key flux distributions, especially central carbon metabolism and glutamate-glutamine cycle fluxes, and its application to hypoxia is promising. The resultant acceptable predictions strengthen the power of such stoichiometric models in the analysis of mammalian cell metabolism.
+18070347	114	130	cerebral hypoxia	Disease	MESH:D002534
+18070347	624	641	pentose phosphate	Chemical	MESH:D010428
+18070347	651	654	TCA	Chemical	MESH:D014238
+18070347	663	668	lipid	Chemical	MESH:D008055
+18070347	681	704	reactive oxygen species	Chemical	MESH:D017382
+18070347	706	709	ROS	Chemical	MESH:D017382
+18070347	792	801	glutamate	Chemical	MESH:D018698
+18070347	802	811	glutamine	Chemical	MESH:D005973
+18070347	1151	1158	hypoxic	Disease	MESH:D002534
+18070347	1676	1685	glutamate	Chemical	MESH:D018698
+18070347	1686	1695	glutamine	Chemical	MESH:D005973
+18070347	1696	1700	GABA	Chemical	MESH:D005680
+18070347	1928	1934	oxygen	Chemical	MESH:D010100
+18070347	1948	1955	hypoxia	Disease	MESH:D000860
+18070347	2348	2354	carbon	Chemical	MESH:D002244
+18070347	2370	2379	glutamate	Chemical	MESH:D018698
+18070347	2380	2389	glutamine	Chemical	MESH:D005973
+18070347	2427	2434	hypoxia	Disease	MESH:D000860
+18070347	Negative_Correlation	MESH:D010100	MESH:D000860
+

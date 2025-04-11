@@ -1,0 +1,17 @@
+38544037|t|Open Meter Duo: Low-Cost Instrument for Fluorimetric Determination of Cholinesterase Activity.
+38544037|a|Environmental screening is essential due to the increased occurrence of harmful substances in the environment. Open Meter Duo (OMD) is an open-source field photo/fluorimeter that uses an RGB diode that imitates a color according to the selected wavelength and uses a UV LED from the security kit diode as an excitation light source. The prepared PCB shield with a 3D-printed aperture was connected to Arduino UNO R4 WiFi. This system was used for the fluorescent detection of cholinesterase activity with the indoxyl acetate method. Carbofuran-a toxic pesticide-and donepezil-a drug used to treat Alzheimer's disease-were tested as model inhibitors of cholinesterase activity. The limit of detection of indoxyl acetate was 11.6 mumol/L, and the IC50 values of the inhibitors were evaluated. This system is optimized for wireless use in field analysis with added cloud support and power source. The time of analysis was 5 min for the fluorimetric assay and 20 min for the optional photometric assay. The time of field operation was approximately 4 h of continuous measurement. This system is ready to be used as a cheap and easy control platform for portable use in drug control and point-of-care testing.
+38544037	70	84	Cholinesterase	Gene	590
+38544037	441	444	PCB	Chemical	MESH:D011078
+38544037	571	585	cholinesterase	Gene	590
+38544037	604	619	indoxyl acetate	Chemical	MESH:C053640
+38544037	628	638	Carbofuran	Chemical	MESH:D002235
+38544037	661	670	donepezil	Chemical	MESH:D000077265
+38544037	692	711	Alzheimer's disease	Disease	MESH:D000544
+38544037	747	761	cholinesterase	Gene	590
+38544037	798	813	indoxyl acetate	Chemical	MESH:C053640
+38544037	Negative_Correlation	MESH:D000077265	590
+38544037	Negative_Correlation	MESH:D000077265	MESH:D000544
+38544037	Negative_Correlation	MESH:C053640	590
+38544037	Association	MESH:D000544	590
+38544037	Negative_Correlation	MESH:D002235	590
+

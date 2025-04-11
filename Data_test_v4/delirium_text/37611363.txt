@@ -1,0 +1,12 @@
+37611363|t|Analysis of neuropsychological and neuroradiological features for diagnosis of Alzheimer's disease and mild cognitive impairment.
+37611363|a|BACKGROUND: Age-related neurodegenerative diseases are constantly increasing with prediction that in 2050 over 60 % of population will suffer from some level of cognitive impairment. A cure for the Alzheimer's disease (AD) does not exist, so early diagnosis is of a great importance. Machine learning techniques can help in early diagnosis with deep medical data processing, disease understanding, intervention analysis and knowledge discovery for achieving better medical decision making. METHODS: In this paper, we analyze the dataset consisting of 90 individuals and 482 input features. We investigate the achieved AD prediction performances using seven classifiers and five feature selection algorithms. We pay special focus on analyzing performance by utilizing only a subset of best ranked attributes to establish the minimum amount of input features that ensure acceptable performance. We also investigate the significance of neuropsychological (NP) and neuroradiological (NR) attributes for the AD diagnosis. RESULTS: The accuracy for the whole set of attributes ranged between 66.22 % and 81.00 %, and the weighted average AUROC was between 76.3 % and 95.0 %. The best results were achieved by the naive Bayes classifier and the Relief feature selection algorithm. Additionally, Support Vector Machines classifier shows the most stable results since it depends the least on the feature selection algorithm which is used. As the main result of this paper, we compare the performance of models trained with automatically selected features to models trained with hand-selected features performed by medical experts (NP and NR features). CONCLUSIONS: The results reveal that unlike the NR attributes, the NP attributes achieve a good performance that is comparable to the full set of attributes, which suggests that they possess a high predictive power for AD diagnosis.
+37611363	79	98	Alzheimer's disease	Disease	MESH:D000544
+37611363	108	128	cognitive impairment	Disease	MESH:D003072
+37611363	142	180	Age-related neurodegenerative diseases	Disease	MESH:D019636
+37611363	291	311	cognitive impairment	Disease	MESH:D003072
+37611363	328	347	Alzheimer's disease	Disease	MESH:D000544
+37611363	349	351	AD	Disease	MESH:D000544
+37611363	748	750	AD	Disease	MESH:D000544
+37611363	1133	1135	AD	Disease	MESH:D000544
+37611363	1992	1994	AD	Disease	MESH:D000544
+

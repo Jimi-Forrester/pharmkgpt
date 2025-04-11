@@ -1,0 +1,37 @@
+39769215|t|Artificial Intelligence-Assisted Comparative Analysis of the Overlapping Molecular Pathophysiology of Alzheimer's Disease, Amyotrophic Lateral Sclerosis, and Frontotemporal Dementia.
+39769215|a|The overlapping molecular pathophysiology of Alzheimer's Disease (AD), Amyotrophic Lateral Sclerosis (ALS), and Frontotemporal Dementia (FTD) was analyzed using relationships from a knowledge graph of 33+ million biomedical journal articles. The unsupervised learning rank aggregation algorithm from SemNet 2.0 compared the most important amino acid, peptide, and protein (AAPP) nodes connected to AD, ALS, or FTD. FTD shared 99.9% of its nodes with ALS and AD; AD shared 64.2% of its nodes with FTD and ALS; and ALS shared 68.3% of its nodes with AD and FTD. The results were validated and mapped to functional biological processes using supervised human supervision and an external large language model. The overall percentages of mapped intersecting biological processes were as follows: inflammation and immune response, 19%; synapse and neurotransmission, 19%; cell cycle, 15%; protein aggregation, 12%; membrane regulation, 11%; stress response and regulation, 9%; and gene regulation, 4%. Once normalized for node count, biological mappings for cell cycle regulation and stress response were more prominent in the intersection of AD and FTD. Protein aggregation, gene regulation, and energetics were more prominent in the intersection of ALS and FTD. Synapse and neurotransmission, membrane regulation, and inflammation and immune response were greater at the intersection of AD and ALS. Given the extensive molecular pathophysiology overlap, small differences in regulation, genetic, or environmental factors likely shape the underlying expressed disease phenotype. The results help prioritize testable hypotheses for future clinical or experimental research.
+39769215	102	121	Alzheimer's Disease	Disease	MESH:D000544
+39769215	123	152	Amyotrophic Lateral Sclerosis	Disease	MESH:D000690
+39769215	158	181	Frontotemporal Dementia	Disease	MESH:D057180
+39769215	228	247	Alzheimer's Disease	Disease	MESH:D000544
+39769215	249	251	AD	Disease	MESH:D000544
+39769215	254	283	Amyotrophic Lateral Sclerosis	Disease	MESH:D000690
+39769215	285	288	ALS	Disease	MESH:D000690
+39769215	295	318	Frontotemporal Dementia	Disease	MESH:D057180
+39769215	320	323	FTD	Disease	MESH:D057180
+39769215	581	583	AD	Disease	MESH:D000544
+39769215	585	588	ALS	Disease	MESH:D000690
+39769215	593	596	FTD	Disease	MESH:D057180
+39769215	598	601	FTD	Disease	MESH:D057180
+39769215	633	636	ALS	Disease	MESH:D000690
+39769215	641	643	AD	Disease	MESH:D000544
+39769215	645	647	AD	Disease	MESH:D000544
+39769215	679	682	FTD	Disease	MESH:D057180
+39769215	687	690	ALS	Disease	MESH:D000690
+39769215	696	699	ALS	Disease	MESH:D000690
+39769215	731	733	AD	Disease	MESH:D000544
+39769215	738	741	FTD	Disease	MESH:D057180
+39769215	833	838	human	Species	9606
+39769215	974	986	inflammation	Disease	MESH:D007249
+39769215	998	1006	response	Disease	MESH:D018746
+39769215	1125	1133	response	Disease	MESH:D018746
+39769215	1268	1276	response	Disease	MESH:D018746
+39769215	1320	1322	AD	Disease	MESH:D000544
+39769215	1327	1330	FTD	Disease	MESH:D057180
+39769215	1428	1431	ALS	Disease	MESH:D000690
+39769215	1436	1439	FTD	Disease	MESH:D057180
+39769215	1497	1509	inflammation	Disease	MESH:D007249
+39769215	1521	1529	response	Disease	MESH:D018746
+39769215	1566	1568	AD	Disease	MESH:D000544
+39769215	1573	1576	ALS	Disease	MESH:D000690
+

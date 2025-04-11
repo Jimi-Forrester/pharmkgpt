@@ -1,0 +1,26 @@
+37920382|t|Bayesian workflow for the investigation of hierarchical classification models from tau-PET and structural MRI data across the Alzheimer's disease spectrum.
+37920382|a|Background: Alzheimer's disease (AD) diagnosis in its early stages remains difficult with current diagnostic approaches. Though tau neurofibrillary tangles (NFTs) generally follow the stereotypical pattern described by the Braak staging scheme, the network degeneration hypothesis (NDH) has suggested that NFTs spread selectively along functional networks of the brain. To evaluate this, we implemented a Bayesian workflow to develop hierarchical multinomial logistic regression models with increasing levels of complexity of the brain from tau-PET and structural MRI data to investigate whether it is beneficial to incorporate network-level information into an ROI-based predictive model for the presence/absence of AD. Methods: This study included data from the Translational Biomarkers in Aging and Dementia (TRIAD) longitudinal cohort from McGill University's Research Centre for Studies in Aging (MCSA). Baseline and 1 year follow-up structural MRI and [18F]MK-6240 tau-PET scans were acquired for 72 cognitive normal (CN), 23 mild cognitive impairment (MCI), and 18 Alzheimer's disease dementia subjects. We constructed the four following hierarchical Bayesian models in order of increasing complexity: (Model 1) a complete-pooling model with observations, (Model 2) a partial-pooling model with observations clustered within ROIs, (Model 3) a partial-pooling model with observations clustered within functional networks, and (Model 4) a partial-pooling model with observations clustered within ROIs that are also clustered within functional brain networks. We then investigated which of the models had better predictive performance given tau-PET or structural MRI data as an input, in the form of a relative annualized rate of change. Results: The Bayesian leave-one-out cross-validation (LOO-CV) estimate of the expected log pointwise predictive density (ELPD) results indicated that models 3 and 4 were substantially better than other models for both tau-PET and structural MRI inputs. For tau-PET data, model 3 was slightly better than 4 with an absolute difference in ELPD of 3.10 +- 1.30. For structural MRI data, model 4 was considerably better than other models with an absolute difference in ELPD of 29.83 +- 7.55 relative to model 3, the second-best model. Conclusion: Our results suggest that representing the data generating process in terms of a hierarchical model that encompasses both ROI-level and network-level heterogeneity leads to better predictive ability for both tau-PET and structural MRI inputs over all other model iterations.
+37920382	83	86	tau	Gene	4137
+37920382	126	145	Alzheimer's disease	Disease	MESH:D000544
+37920382	168	187	Alzheimer's disease	Disease	MESH:D000544
+37920382	189	191	AD	Disease	MESH:D000544
+37920382	284	311	tau neurofibrillary tangles	Disease	MESH:D055956
+37920382	313	317	NFTs	Disease	MESH:D055956
+37920382	413	425	degeneration	Disease	MESH:D009410
+37920382	462	466	NFTs	Disease	MESH:D055956
+37920382	697	700	tau	Gene	4137
+37920382	873	875	AD	Disease	MESH:D000544
+37920382	948	953	Aging	Disease	MESH:D019588
+37920382	958	966	Dementia	Disease	MESH:D003704
+37920382	1051	1056	Aging	Disease	MESH:D019588
+37920382	1115	1126	18F]MK-6240	Chemical	-
+37920382	1127	1130	tau	Gene	4137
+37920382	1193	1213	cognitive impairment	Disease	MESH:D003072
+37920382	1215	1218	MCI	Disease	MESH:D060825
+37920382	1228	1256	Alzheimer's disease dementia	Disease	MESH:D000544
+37920382	1801	1804	tau	Gene	4137
+37920382	2116	2119	tau	Gene	4137
+37920382	2155	2158	tau	Gene	4137
+37920382	2648	2651	tau	Gene	4137
+37920382	Association	MESH:D000544	4137
+

@@ -1,0 +1,11 @@
+38656865|t|Contrastive Graph Pooling for Explainable Classification of Brain Networks.
+38656865|a|Functional magnetic resonance imaging (fMRI) is a commonly used technique to measure neural activation. Its application has been particularly important in identifying underlying neurodegenerative conditions such as Parkinson's, Alzheimer's, and Autism. Recent analysis of fMRI data models the brain as a graph and extracts features by graph neural networks (GNNs). However, the unique characteristics of fMRI data require a special design of GNN. Tailoring GNN to generate effective and domain-explainable features remains challenging. In this paper, we propose a contrastive dual-attention block and a differentiable graph pooling method called ContrastPool to better utilize GNN for brain networks, meeting fMRI-specific requirements. We apply our method to 5 resting-state fMRI brain network datasets of 3 diseases and demonstrate its superiority over state-of-the-art baselines. Our case study confirms that the patterns extracted by our method match the domain knowledge in neuroscience literature, and disclose direct and interesting insights. Our contributions underscore the potential of ContrastPool for advancing the understanding of brain networks and neurodegenerative conditions. The source code is available at https://github.com/AngusMonroe/ContrastPool.
+38656865	254	282	neurodegenerative conditions	Disease	MESH:D019636
+38656865	291	302	Parkinson's	Disease	MESH:D010300
+38656865	304	315	Alzheimer's	Disease	MESH:D000544
+38656865	321	327	Autism	Disease	MESH:D001321
+38656865	518	521	GNN	Gene	253724
+38656865	533	536	GNN	Gene	253724
+38656865	753	756	GNN	Gene	253724
+38656865	1239	1267	neurodegenerative conditions	Disease	MESH:D019636
+

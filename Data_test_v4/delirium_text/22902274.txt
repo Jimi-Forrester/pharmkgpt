@@ -1,0 +1,32 @@
+22902274|t|A ternary complex consisting of AICD, FE65, and TIP60 down-regulates Stathmin1.
+22902274|a|The ternary complex consisting of AICD/FE65/TIP60 is thought to play a role in gene expression and was suggested to have a crucial impact in Alzheimer's disease. AICD is the intracellular subdomain of the amyloid precursor protein (APP) and able to bind the adapter protein FE65 and the histone acetyltransferase TIP60 setting up a nuclear dot-like phenotype. Within this work we readdressed the generation of the complex as a function of its compartments. Subsequently, we studied the proteome of AFT expressing cells vs. controls and identified Stathmin1 significantly down-regulated in AFT cells. Stathmin1 functions as an important regulatory protein of microtubule dynamics and was found associated with neurofibrillary tangles in brains of Alzheimer's disease patients. We validated our results using an independent label-free mass spectrometry based method using the same cell culture model. In a reversal model with diminished APP expression, caused by simultaneous knock-down of all three members of the APP family, we further confirmed our results, as Stathmin1 was regulated in an opposite fashion. We hypothesize that AICD-dependent deregulation of Stathmin1 causes microtubule disorganization, which might play an important role for the pathophysiology of Alzheimer's disease.
+22902274	38	42	FE65	Gene	322
+22902274	48	53	TIP60	Gene	10524
+22902274	69	78	Stathmin1	Gene	3925
+22902274	119	123	FE65	Gene	322
+22902274	124	129	TIP60	Gene	10524
+22902274	221	240	Alzheimer's disease	Disease	MESH:D000544
+22902274	242	246	AICD	Disease	
+22902274	285	310	amyloid precursor protein	Gene	351
+22902274	354	358	FE65	Gene	322
+22902274	393	398	TIP60	Gene	10524
+22902274	578	581	AFT	Gene	55783
+22902274	627	636	Stathmin1	Gene	3925
+22902274	669	672	AFT	Gene	55783
+22902274	680	689	Stathmin1	Gene	3925
+22902274	789	812	neurofibrillary tangles	Disease	MESH:D055956
+22902274	826	845	Alzheimer's disease	Disease	MESH:D000544
+22902274	846	854	patients	Species	9606
+22902274	1142	1151	Stathmin1	Gene	3925
+22902274	1210	1214	AICD	Disease	
+22902274	1241	1250	Stathmin1	Gene	3925
+22902274	1349	1368	Alzheimer's disease	Disease	MESH:D000544
+22902274	Association	MESH:D000544	322
+22902274	Association	MESH:D000544	10524
+22902274	Negative_Correlation	3925	55783
+22902274	Association	MESH:D055956	3925
+22902274	Bind	10524	322
+22902274	Negative_Correlation	322	3925
+22902274	Negative_Correlation	10524	3925
+22902274	Association	MESH:D000544	3925
+

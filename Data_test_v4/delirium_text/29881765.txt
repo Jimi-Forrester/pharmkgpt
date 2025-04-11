@@ -1,0 +1,20 @@
+29881765|t|Predicting Psychiatric Hospitalizations among Elderly Veterans with a History of Mental Health Disease.
+29881765|a|INTRODUCTION: Patient Aligned Care Team (PACT) care managers are tasked with identifying aging Veterans with psychiatric disease in attempt to prevent psychiatric crises. However, few resources exist that use real-time information on patient risk to prioritize coordinating appropriate care amongst a complex aging population. OBJECTIVE: To develop and validate a model to predict psychiatric hospital admission, during a 90-day risk window, in Veterans ages 65 or older with a history of mental health disease. METHODS: This study applied a cohort design to historical data available in the Veterans Affairs (VA) Corporate Data Warehouse (CDW). The Least Absolute Shrinkage and Selection Operator (LASSO) regularization regression technique was used for model development and variable selection. Individual predicted probabilities were estimated using logistic regression. A split-sample approach was used in performing external validation of the fitted model. The concordance statistic (C-statistic) was calculated to assess model performance. RESULTS: Prior to modeling, 61 potential candidate predictors were identified and 27 variables remained after applying the LASSO method. The final model's predictive accuracy is represented by a C-statistic of 0.903. The model's predictive accuracy during external validation is represented by a C-statistic of 0.935. Having a previous psychiatric hospitalization, psychosis, bipolar disorder, and the number of mental-health related social work encounters were strong predictors of a geriatric psychiatric hospitalization. CONCLUSION: This predictive model is capable of quantifying the risk of a geriatric psychiatric hospitalization with acceptable performance and allows for the development of interventions that could potentially reduce such risk.
+29881765	11	22	Psychiatric	Disease	MESH:D001523
+29881765	54	62	Veterans	Species	
+29881765	81	102	Mental Health Disease	Disease	OMIM:603663
+29881765	118	125	Patient	Species	9606
+29881765	199	207	Veterans	Species	
+29881765	213	232	psychiatric disease	Disease	MESH:D001523
+29881765	255	266	psychiatric	Disease	MESH:D001523
+29881765	338	345	patient	Species	9606
+29881765	485	496	psychiatric	Disease	MESH:D001523
+29881765	549	557	Veterans	Species	
+29881765	593	614	mental health disease	Disease	OMIM:603663
+29881765	696	704	Veterans	Species	
+29881765	1486	1497	psychiatric	Disease	MESH:D001523
+29881765	1515	1524	psychosis	Disease	MESH:D011618
+29881765	1526	1542	bipolar disorder	Disease	MESH:D001714
+29881765	1645	1656	psychiatric	Disease	MESH:D001523
+29881765	1758	1769	psychiatric	Disease	MESH:D001523
+

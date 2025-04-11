@@ -1,0 +1,36 @@
+35607920|t|De novo truncating NOVA2 variants affect alternative splicing and lead to heterogeneous neurodevelopmental phenotypes.
+35607920|a|Alternative splicing (AS) is crucial for cell-type-specific gene transcription and plays a critical role in neuronal differentiation and synaptic plasticity. De novo frameshift variants in NOVA2, encoding a neuron-specific key splicing factor, have been recently associated with a new neurodevelopmental disorder (NDD) with hypotonia, neurological features, and brain abnormalities. We investigated eight unrelated individuals by exome sequencing (ES) and identified seven novel pathogenic NOVA2 variants, including two with a novel localization at the KH1 and KH3 domains. In addition to a severe NDD phenotype, novel clinical features included psychomotor regression, attention deficit-hyperactivity disorder (ADHD), dyspraxia, and urogenital and endocrinological manifestations. To test the effect of the variants on splicing regulation, we transfected HeLa cells with wildtype and mutant NOVA2 complementary DNA (cDNA). The novel variants NM_002516.4:c.754_756delCTGinsTT p.(Leu252Phefs*144) and c.1329dup p.(Lys444Glnfs*82) all negatively affected AS events. The distal p.(Lys444Glnfs*82) variant, causing a partial removal of the KH3 domain, had a milder functional effect leading to an intermediate phenotype. Our findings expand the molecular and phenotypic spectrum of NOVA2-related NDD, supporting the pathogenic role of AS disruption by truncating variants and suggesting that this is a heterogeneous condition with variable clinical course.
+35607920	19	24	NOVA2	Gene	4858
+35607920	88	117	neurodevelopmental phenotypes	Disease	MESH:C537393
+35607920	308	313	NOVA2	Gene	4858
+35607920	404	431	neurodevelopmental disorder	Disease	MESH:D002658
+35607920	433	436	NDD	Disease	MESH:D002658
+35607920	443	452	hypotonia	Disease	MESH:D009123
+35607920	481	500	brain abnormalities	Disease	MESH:D001927
+35607920	609	614	NOVA2	Gene	4858
+35607920	717	720	NDD	Disease	MESH:D002658
+35607920	765	787	psychomotor regression	Disease	MESH:C537770
+35607920	789	829	attention deficit-hyperactivity disorder	Disease	MESH:D001289
+35607920	831	835	ADHD	Disease	MESH:D001289
+35607920	838	847	dyspraxia	Disease	MESH:D001072
+35607920	975	979	HeLa	CellLine	CVCL:0030
+35607920	1011	1016	NOVA2	Gene	4858
+35607920	1062	1073	NM_002516.4	RefSeq	NM_002516.4
+35607920	1062	1073	NM_002516.4	Disease	MESH:C536816
+35607920	1074	1094	c.754_756delCTGinsTT	DNAMutation	tmVar:p|INDEL|754_756|L,TT;HGVS:p.L,TT754_756delins;VariantGroup:2;CorrespondingGene:4858;CorrespondingSpecies:9606
+35607920	1194	1212	p.(Lys444Glnfs*82)	ProteinMutation	tmVar:p|FS|K|444|Q|82;HGVS:p.K444QfsX82;VariantGroup:0;CorrespondingGene:4858;CorrespondingSpecies:9606
+35607920	1397	1402	NOVA2	Gene	4858
+35607920	1411	1414	NDD	Disease	MESH:D002658
+35607920	Positive_Correlation	HGVS:p.L,TT754_756delins;CorrespondingGene:4858	MESH:D002658
+35607920	Positive_Correlation	MESH:D002658	HGVS:p.L,TT754_756delins;CorrespondingGene:4858
+35607920	Association	HGVS:p.L,TT754_756delins;CorrespondingGene:4858	MESH:C536816
+35607920	Positive_Correlation	MESH:D002658	HGVS:p.K444QfsX82;CorrespondingGene:4858
+35607920	Association	MESH:D001072	4858
+35607920	Association	MESH:D002658	4858
+35607920	Association	MESH:C537393	4858
+35607920	Association	MESH:D001289	4858
+35607920	Association	MESH:D001927	4858
+35607920	Association	MESH:D009123	4858
+35607920	Association	MESH:D002658	4858
+35607920	Association	MESH:C536816	4858
+

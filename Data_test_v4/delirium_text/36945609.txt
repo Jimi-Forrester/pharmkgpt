@@ -1,0 +1,24 @@
+36945609|t|Cellular dynamics across aged human brains uncover a multicellular cascade leading to Alzheimer's disease.
+36945609|a|Alzheimer's Disease (AD) is a progressive neurodegenerative disease seen with advancing age. Recent studies have revealed diverse AD-associated cell states, yet when and how they impact the causal chain leading to AD remains unknown. To reconstruct the dynamics of the brain's cellular environment along the disease cascade and to distinguish between AD and aging effects, we built a comprehensive cell atlas of the aged prefrontal cortex from 1.64 million single-nucleus RNA-seq profiles. We associated glial, vascular and neuronal subpopulations with AD-related traits for 424 aging individuals, and aligned them along the disease cascade using causal modeling. We identified two distinct lipid-associated microglial subpopulations, one contributed to amyloid-beta proteinopathy while the other mediated the effect of amyloid-beta in accelerating tau proteinopathy, as well as an astrocyte subpopulation that mediated the effect of tau on cognitive decline. To model the coordinated dynamics of the entire cellular environment we devised the BEYOND methodology which uncovered two distinct trajectories of brain aging that are defined by distinct sequences of changes in cellular communities. Older individuals are engaged in one of two possible trajectories, each associated with progressive changes in specific cellular communities that end with: (1) AD dementia or (2) alternative brain aging. Thus, we provide a cellular foundation for a new perspective of AD pathophysiology that could inform the development of new therapeutic interventions targeting cellular communities, while designing a different clinical management for those individuals on the path to AD or to alternative brain aging.
+36945609	30	35	human	Species	9606
+36945609	86	105	Alzheimer's disease	Disease	MESH:D000544
+36945609	107	126	Alzheimer's Disease	Disease	MESH:D000544
+36945609	128	130	AD	Disease	MESH:D000544
+36945609	149	174	neurodegenerative disease	Disease	MESH:D019636
+36945609	237	239	AD	Disease	MESH:D000544
+36945609	321	323	AD	Disease	MESH:D000544
+36945609	458	460	AD	Disease	MESH:D000544
+36945609	660	662	AD	Disease	MESH:D000544
+36945609	798	803	lipid	Chemical	MESH:D008055
+36945609	861	887	amyloid-beta proteinopathy	Disease	MESH:D057165
+36945609	927	939	amyloid-beta	Gene	351
+36945609	956	973	tau proteinopathy	Disease	MESH:D057165
+36945609	1041	1044	tau	Gene	4137
+36945609	1048	1065	cognitive decline	Disease	MESH:D003072
+36945609	1462	1473	AD dementia	Disease	MESH:D000544
+36945609	1570	1572	AD	Disease	MESH:D000544
+36945609	1773	1775	AD	Disease	MESH:D000544
+36945609	Association	MESH:D008055	MESH:D057165
+36945609	Association	MESH:D003072	4137
+36945609	Positive_Correlation	MESH:D057165	351
+

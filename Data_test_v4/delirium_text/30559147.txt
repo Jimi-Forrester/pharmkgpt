@@ -1,0 +1,44 @@
+30559147|t|Identification of candidate biomarkers associated with apoptosis in melanosis coli: GNG5, LPAR3, MAPK8, and PSMC6.
+30559147|a|Purpose: Melanosis coli (MC) is a disorder of pigmentation of the wall of the colon, often identified at the time of colonoscopy. The aim of the present study is to identify candidate biomarkers for MC. Methods: The transcriptome data for MC (GSE78933) with five MC tissues and five corresponding normal tissues is obtained from the NCBI Gene Expression Omnibus (GEO) database. R/Bioconductor package limma was used to screen differently expressed genes (DEGs). ClueGO of cytoscape was applied for Gene Ontology (GO) functional and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment. Based on STRING V10 database, protein-protein interaction (PPI) network was constructed. The pathological tissue and normal tissue from 23 MC patients and 23 controls were collected, respectively. The relative expression of hub nodes was detected by qRT-PCR and Western blot. For regulating the expression of these genes, overexpression vector was constructed or siRNA transfection was used. Finally, apoptosis was detected by flow cytometry. Results: Total 1342 DEGs were screened, including 786 up-regulated and 556 down-regulated genes. These genes were mainly enriched in stimulatory C-type lectin receptor signaling pathway, polysaccharide biosynthetic process, intracellular, and oxidative phosphorylation. PPI network was then constructed with 426 DEGs and 895 interactions. Thereinto, G-protein subunit gamma 5 (GNG5), lysophosphatidic acid receptor 3 (LPAR3), mitogen-activated protein kinase 8 (MAPK8), NHP2L1, proteasome 26S subunit, ATPase 6 (PSMC6), and phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta (PIK3CB) were hub nodes with higher degree. RT-PCR and Western blot results showed that GNG5, LPAR3, MAPK8, and PSMC6 were differently expressed with significance. The expression of these screened genes is also related with cell apoptosis. Conclusion: GNG5, LPAR3, MAPK8, and PSMC6 might be candidate biomarkers associated with apoptosis in MC.
+30559147	68	82	melanosis coli	Disease	MESH:D008548
+30559147	84	88	GNG5	Gene	2787
+30559147	90	95	LPAR3	Gene	23566
+30559147	97	102	MAPK8	Gene	5599
+30559147	108	113	PSMC6	Gene	5706
+30559147	124	138	Melanosis coli	Disease	MESH:D008548
+30559147	140	142	MC	Disease	MESH:D008548
+30559147	161	173	pigmentation	Disease	MESH:D010859
+30559147	314	316	MC	Disease	MESH:D008548
+30559147	354	356	MC	Disease	MESH:D008548
+30559147	378	380	MC	Disease	MESH:D008548
+30559147	853	855	MC	Disease	MESH:D008548
+30559147	856	864	patients	Species	9606
+30559147	1302	1324	C-type lectin receptor	Gene	338339
+30559147	1344	1358	polysaccharide	Chemical	MESH:D011134
+30559147	1507	1532	G-protein subunit gamma 5	Gene	2787
+30559147	1534	1538	GNG5	Gene	2787
+30559147	1541	1573	lysophosphatidic acid receptor 3	Gene	23566
+30559147	1575	1580	LPAR3	Gene	23566
+30559147	1583	1617	mitogen-activated protein kinase 8	Gene	5599
+30559147	1619	1624	MAPK8	Gene	5599
+30559147	1627	1633	NHP2L1	Gene	4809
+30559147	1659	1667	ATPase 6	Gene	4508
+30559147	1669	1674	PSMC6	Gene	5706
+30559147	1681	1750	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta	Gene	5291
+30559147	1752	1758	PIK3CB	Gene	5291
+30559147	1839	1843	GNG5	Gene	2787
+30559147	1845	1850	LPAR3	Gene	23566
+30559147	1852	1857	MAPK8	Gene	5599
+30559147	1863	1868	PSMC6	Gene	5706
+30559147	2003	2007	GNG5	Gene	2787
+30559147	2009	2014	LPAR3	Gene	23566
+30559147	2016	2021	MAPK8	Gene	5599
+30559147	2027	2032	PSMC6	Gene	5706
+30559147	2092	2094	MC	Disease	MESH:D008548
+30559147	Association	MESH:D008548	2787
+30559147	Association	MESH:D008548	5599
+30559147	Association	MESH:D008548	5291
+30559147	Association	MESH:D008548	4809
+30559147	Association	MESH:D008548	23566
+30559147	Association	MESH:D008548	5706
+

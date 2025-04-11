@@ -1,0 +1,21 @@
+39297151|t|HiMAL: Multimodal Hierarchical Multi-task Auxiliary Learning framework for predicting Alzheimer's disease progression.
+39297151|a|Objective: We aimed to develop and validate a novel multimodal framework Hierarchical Multi-task Auxiliary Learning (HiMAL) framework, for predicting cognitive composite functions as auxiliary tasks that estimate the longitudinal risk of transition from Mild Cognitive Impairment (MCI) to Alzheimer's Disease (AD). Materials and Methods: HiMAL utilized multimodal longitudinal visit data including imaging features, cognitive assessment scores, and clinical variables from MCI patients in the Alzheimer's Disease Neuroimaging Initiative dataset, to predict at each visit if an MCI patient will progress to AD within the next 6 months. Performance of HiMAL was compared with state-of-the-art single-task and multitask baselines using area under the receiver operator curve (AUROC) and precision recall curve (AUPRC) metrics. An ablation study was performed to assess the impact of each input modality on model performance. Additionally, longitudinal explanations regarding risk of disease progression were provided to interpret the predicted cognitive decline. Results: Out of 634 MCI patients (mean [IQR] age: 72.8 [67-78], 60% male), 209 (32%) progressed to AD. HiMAL showed better prediction performance compared to all state-of-the-art longitudinal single-modality singe-task baselines (AUROC = 0.923 [0.915-0.937]; AUPRC = 0.623 [0.605-0.644]; all P < .05). Ablation analysis highlighted that imaging and cognition scores with maximum contribution towards prediction of disease progression. Discussion: Clinically informative model explanations anticipate cognitive decline 6 months in advance, aiding clinicians in future disease progression assessment. HiMAL relies on routinely collected electronic health records (EHR) variables for proximal (6 months) prediction of AD onset, indicating its translational potential for point-of-care monitoring and managing of high-risk patients.
+39297151	86	105	Alzheimer's disease	Disease	MESH:D000544
+39297151	378	398	Cognitive Impairment	Disease	MESH:D003072
+39297151	400	403	MCI	Disease	MESH:D060825
+39297151	408	427	Alzheimer's Disease	Disease	MESH:D000544
+39297151	429	431	AD	Disease	MESH:D000544
+39297151	592	595	MCI	Disease	MESH:D060825
+39297151	596	604	patients	Species	9606
+39297151	612	631	Alzheimer's Disease	Disease	MESH:D000544
+39297151	696	699	MCI	Disease	MESH:D060825
+39297151	700	707	patient	Species	9606
+39297151	725	727	AD	Disease	MESH:D000544
+39297151	1160	1177	cognitive decline	Disease	MESH:D003072
+39297151	1199	1202	MCI	Disease	MESH:D060825
+39297151	1203	1211	patients	Species	9606
+39297151	1278	1280	AD	Disease	MESH:D000544
+39297151	1679	1696	cognitive decline	Disease	MESH:D003072
+39297151	1894	1896	AD	Disease	MESH:D000544
+39297151	1998	2006	patients	Species	9606
+

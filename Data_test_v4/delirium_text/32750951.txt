@@ -1,0 +1,9 @@
+32750951|t|StoCast: Stochastic Disease Forecasting With Progression Uncertainty.
+32750951|a|Forecasting patients' disease progressions with rich longitudinal clinical data has drawn much attention in recent years due to its impactful application in healthcare and the medical field. Researchers have tackled this problem by leveraging traditional machine learning, statistical techniques and deep learning based models. However, existing methods suffer from either deterministic internal structures or over-simplified stochastic components, failing to deal with complex uncertain scenarios such as progression uncertainty (i.e., multiple possible trajectories) and data uncertainty (i.e., imprecise observations and misdiagnosis). To overcome these major uncertainty issues, we propose a novel deep generative model, Stochastic Disease Forecasting Model (StoCast), along with an associated neural network architecture StoCastNet, that can be trained efficiently via stochastic optimization techniques. Our StoCast model uses internal stochastic components to deal with departures of observed data from patients' true health states, and more importantly, is able to produce a comprehensive estimate of future disease progression trajectories. Based on two public datasets related to Alzheimer's disease and Parkinson's disease, we demonstrate how our StoCast model achieves robust and superior performance than deterministic baseline approaches, and conveys richer information that can potentially assist doctors to make decisions with greater confidence in a complex uncertain scenario.
+32750951	9	27	Stochastic Disease	Disease	MESH:D004194
+32750951	82	90	patients	Species	9606
+32750951	795	813	Stochastic Disease	Disease	MESH:D004194
+32750951	1080	1088	patients	Species	9606
+32750951	1260	1279	Alzheimer's disease	Disease	MESH:D000544
+32750951	1284	1303	Parkinson's disease	Disease	MESH:D010300
+

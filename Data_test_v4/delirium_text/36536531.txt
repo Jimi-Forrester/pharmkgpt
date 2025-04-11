@@ -1,0 +1,29 @@
+36536531|t|Design and application of a customizable relational DataBase to assess clinicopathological correlations and concomitant pathology in neurodegenerative diseases.
+36536531|a|The diagnosis of neurodegenerative diseases is made complex by the heterogenous phenotype of the patients and the regular occurrence of concomitant pathology. Studying clinicopathological correlations in autopsy series is a central approach to improve pathological prediction in clinical practice. However, such method requires a wealth of information, and the use of standard spreadsheet software is hardly suitable. To overcome this constraint, we designed a customizable and freely available neuropathology form with 456 data entry fields driven by an open-source DataBase Management Systems (DBMS) using Structured Query Language (SQL). This approach allowed us to optimize the compilation of clinical and pathological data from our brain collection (264 autopsied patients, 22,885 data points). Information was then easily retrieved using general and specific queries, facilitating the analysis of demographics, clinicopathological correlations, and incidental and concomitant proteinopathies. Tau, amyloid-beta and alpha-synuclein incidental pathology was observed in respectively 78.1%, 42.8%, and 10.7% of all the patients. These proportions increased with age, reaching 100% for Tau pathology after 80. Concomitant proteinopathy was observed in 46.4% of the patients diagnosed with neurodegenerative diseases and prion disease. We observed a particularly high rate of co-pathology in patients with Dementia with Lewy bodies (81.3% of associated Tau and amyloid-beta pathology) and Creutzfeldt-Jakob disease (68.4% of associated Tau pathology). Finally, we used specific queries to identify old cases that could meet newly defined neuropathological criteria and revised the diagnosis of a 90-year-old patient to LATE Stage 2. Increasing our understanding of clinicopathological correlations in neurodegenerative diseases is crucial given the implications in clinical diagnosis, biomarker identification and targeted therapies assessment. The precise characterization of clinical and pathological data of autopsy series remains a central approach but the large amount of generated data should encourage a more systematic use of DBMS.
+36536531	133	159	neurodegenerative diseases	Disease	MESH:D019636
+36536531	178	204	neurodegenerative diseases	Disease	MESH:D019636
+36536531	258	266	patients	Species	9606
+36536531	930	938	patients	Species	9606
+36536531	1143	1158	proteinopathies	Disease	MESH:D057165
+36536531	1160	1163	Tau	Gene	4137
+36536531	1165	1177	amyloid-beta	Gene	351
+36536531	1182	1197	alpha-synuclein	Gene	6622
+36536531	1283	1291	patients	Species	9606
+36536531	1349	1352	Tau	Gene	4137
+36536531	1385	1398	proteinopathy	Disease	MESH:D057165
+36536531	1428	1436	patients	Species	9606
+36536531	1452	1478	neurodegenerative diseases	Disease	MESH:D019636
+36536531	1483	1496	prion disease	Disease	MESH:D017096
+36536531	1554	1562	patients	Species	9606
+36536531	1568	1593	Dementia with Lewy bodies	Disease	MESH:D020961
+36536531	1615	1618	Tau	Gene	4137
+36536531	1623	1635	amyloid-beta	Gene	351
+36536531	1651	1676	Creutzfeldt-Jakob disease	Disease	MESH:D007562
+36536531	1698	1701	Tau	Gene	4137
+36536531	1870	1877	patient	Species	9606
+36536531	1881	1893	LATE Stage 2	Disease	MESH:D062706
+36536531	1963	1989	neurodegenerative diseases	Disease	MESH:D019636
+36536531	Association	MESH:D020961	351
+36536531	Association	MESH:D020961	4137
+36536531	Association	MESH:D007562	4137
+

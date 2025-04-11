@@ -1,0 +1,11 @@
+36090283|t|A new classification network for diagnosing Alzheimer's disease in class-imbalance MRI datasets.
+36090283|a|Automatic identification of Alzheimer's Disease (AD) through magnetic resonance imaging (MRI) data can effectively assist to doctors diagnose and treat Alzheimer's. Current methods improve the accuracy of AD recognition, but they are insufficient to address the challenge of small interclass and large intraclass differences. Some studies attempt to embed patch-level structure in neural networks which enhance pathologic details, but the enormous size and time complexity render these methods unfavorable. Furthermore, several self-attention mechanisms fail to provide contextual information to represent discriminative regions, which limits the performance of these classifiers. In addition, the current loss function is adversely affected by outliers of class imbalance and may fall into local optimal values. Therefore, we propose a 3D Residual RepVGG Attention network (ResRepANet) stacked with several lightweight blocks to identify the MRI of brain disease, which can also trade off accuracy and flexibility. Specifically, we propose a Non-local Context Spatial Attention block (NCSA) and embed it in our proposed ResRepANet, which aggregates global contextual information in spatial features to improve semantic relevance in discriminative regions. In addition, in order to reduce the influence of outliers, we propose a Gradient Density Multiple-weighting Mechanism (GDMM) to automatically adjust the weights of each MRI image via a normalizing gradient norm. Experiments are conducted on datasets from the Alzheimer's Disease Neuroimaging Initiative (ADNI) and Australian Imaging, Biomarker and Lifestyle Flagship Study of Aging (AIBL). Experiments on both datasets show that the accuracy, sensitivity, specificity, and Area Under the Curve are consistently better than for state-of-the-art methods.
+36090283	44	63	Alzheimer's disease	Disease	MESH:D000544
+36090283	125	144	Alzheimer's Disease	Disease	MESH:D000544
+36090283	146	148	AD	Disease	MESH:D000544
+36090283	249	260	Alzheimer's	Disease	MESH:D000544
+36090283	302	304	AD	Disease	MESH:D000544
+36090283	1047	1060	brain disease	Disease	MESH:D001927
+36090283	1613	1632	Alzheimer's Disease	Disease	MESH:D000544
+36090283	1730	1735	Aging	Disease	MESH:D019588
+

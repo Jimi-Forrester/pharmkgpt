@@ -1,0 +1,26 @@
+33195269|t|Simplified Brain Organoids for Rapid and Robust Modeling of Brain Disease.
+33195269|a|Although brain organoids are an innovative technique for studying human brain development and disease by replicating the structural and functional properties of the developing human brain, some limitations such as heterogeneity and long-term differentiation (over 2 months) impede their application in disease modeling and drug discovery. In this study, we established simplified brain organoids (simBOs), composed of mature neurons and astroglial cells from expandable hPSC-derived primitive neural stem cells (pNSCs). simBOs can be rapidly generated in 2 weeks and have more homogeneous properties. Transcriptome analysis revealed that three-dimensional (3D) environment of simBOs facilitates the conversion of pNSCs to mature neuronal systems compared to a two-dimensional environment in the context of neurotransmitter release, synaptic vesicle formation, ion channels, calcium signaling, axonal guidance, extracellular matrix organization, and cell cycle. This result was correlated with the translocation of YAP1 into the cytoplasm by sensing matrix stiffness on the 3D models. Furthermore, we demonstrated that simBOs could easily be specified into midbrain-like simBOs by treatment with Shh and FGF8. Midbrain-like simBOs from a Parkinson's disease patient (LRRK2 G2019S)-derived pNSCs and gene-corrected (LRRK2 WT ) control pNSCs represented disease-associated phenotypes in terms of increased LRRK2 activity, decreased dopaminergic neurons, and increased autophagy. Treatment with the LRRK2 inhibitor, PFE-360, relieved the phenotype of Parkinson's disease in midbrain-like simBOs. Taken together, these approaches could be applied to large-scale disease models and alternative drug-testing platforms.
+33195269	60	73	Brain Disease	Disease	MESH:D001927
+33195269	141	146	human	Species	9606
+33195269	251	256	human	Species	9606
+33195269	500	507	neurons	Disease	MESH:D009410
+33195269	949	956	calcium	Chemical	MESH:D002118
+33195269	1089	1093	YAP1	Gene	10413
+33195269	1270	1273	Shh	Gene	6469
+33195269	1278	1282	FGF8	Gene	2253
+33195269	1312	1331	Parkinson's disease	Disease	MESH:D010300
+33195269	1332	1339	patient	Species	9606
+33195269	1341	1346	LRRK2	Gene	120892
+33195269	1347	1353	G2019S	ProteinMutation	tmVar:p|SUB|G|2019|S;HGVS:p.G2019S;VariantGroup:0;CorrespondingGene:120892;RS#:34637584;CorrespondingSpecies:9606;CA#:339926
+33195269	1389	1394	LRRK2	Gene	120892
+33195269	1478	1483	LRRK2	Gene	120892
+33195269	1517	1524	neurons	Disease	MESH:D009410
+33195269	1570	1575	LRRK2	Gene	120892
+33195269	1587	1594	PFE-360	Chemical	MESH:C000709230
+33195269	1622	1641	Parkinson's disease	Disease	MESH:D010300
+33195269	Association	MESH:D010300	RS#:34637584;HGVS:p.G2019S;CorrespondingGene:120892
+33195269	Negative_Correlation	MESH:C000709230	120892
+33195269	Association	MESH:D010300	120892
+33195269	Negative_Correlation	MESH:C000709230	MESH:D010300
+33195269	Association	MESH:D010300	120892
+

@@ -1,0 +1,33 @@
+37024814|t|Using machine learning methods to predict 28-day mortality in patients with hepatic encephalopathy.
+37024814|a|BACKGROUND: Hepatic encephalopathy (HE) is associated with marked increases in morbidity and mortality for cirrhosis patients. This study aimed to develop and validate machine learning (ML) models to predict 28-day mortality for patients with HE. METHODS: A retrospective cohort study was conducted in the Medical Information Mart for Intensive Care (MIMIC)-IV database. Patients from MIMIC-IV were randomized into training and validation cohorts in a ratio of 7:3. Training cohort was used for establishing the model while validation cohort was used for validation. The outcome was defined as 28-day mortality. Predictors were identified by recursive feature elimination (RFE) within 24 h of intensive care unit (ICU) admission. The area under the curve (AUC) and calibration curve were used to determine the predictive performance of different ML models. RESULTS: In the MIMIC-IV database, 601 patients were eventually diagnosed with HE. Of these, 112 (18.64%) experienced death within 28 days. Acute physiology score III (APSIII), sepsis related organ failure assessment (SOFA), international normalized ratio (INR), total bilirubin (TBIL), albumin, blood urea nitrogen (BUN), acute kidney injury (AKI) and mechanical ventilation were identified as independent risk factors. Validation set indicated that the artificial neural network (NNET) model had the highest AUC of 0.837 (95% CI:0.774-0.901). Furthermore, in the calibration curve, the NNET model was also well-calibrated (P = 0.323), which means that it can better predict the 28-day mortality in HE patients. Additionally, the performance of the NNET is superior to existing scores, including Model for End-Stage Liver Disease (MELD) and Model for End-Stage Liver Disease-Sodium (MELD-Na). CONCLUSIONS: In this study, the NNET model demonstrated better discrimination in predicting 28-day mortality as compared to other models. This developed model could potentially improve the early detection of HE with high mortality, subsequently improving clinical outcomes in these patients with HE, but further external prospective validation is still required.
+37024814	62	70	patients	Species	9606
+37024814	76	98	hepatic encephalopathy	Disease	MESH:D006501
+37024814	112	134	Hepatic encephalopathy	Disease	MESH:D006501
+37024814	136	138	HE	Disease	MESH:D006501
+37024814	207	216	cirrhosis	Disease	MESH:D005355
+37024814	217	225	patients	Species	9606
+37024814	329	337	patients	Species	9606
+37024814	343	345	HE	Disease	MESH:D006501
+37024814	471	479	Patients	Species	9606
+37024814	485	493	MIMIC-IV	Disease	MESH:C000657744
+37024814	973	981	MIMIC-IV	Disease	MESH:C000657744
+37024814	996	1004	patients	Species	9606
+37024814	1036	1038	HE	Disease	MESH:D006501
+37024814	1075	1080	death	Disease	MESH:D003643
+37024814	1097	1102	Acute	Disease	MESH:D000208
+37024814	1134	1140	sepsis	Disease	MESH:D018805
+37024814	1149	1162	organ failure	Disease	MESH:D009102
+37024814	1226	1235	bilirubin	Chemical	MESH:D001663
+37024814	1259	1263	urea	Chemical	MESH:D014508
+37024814	1264	1272	nitrogen	Chemical	MESH:D009584
+37024814	1280	1299	acute kidney injury	Disease	MESH:D058186
+37024814	1301	1304	AKI	Disease	MESH:D058186
+37024814	1657	1659	HE	Disease	MESH:D006501
+37024814	1660	1668	patients	Species	9606
+37024814	1760	1787	for End-Stage Liver Disease	Disease	MESH:D058625
+37024814	1805	1832	for End-Stage Liver Disease	Disease	MESH:D058625
+37024814	1833	1839	Sodium	Chemical	MESH:D012964
+37024814	2059	2061	HE	Disease	MESH:D006501
+37024814	2133	2141	patients	Species	9606
+37024814	2147	2149	HE	Disease	MESH:D006501
+

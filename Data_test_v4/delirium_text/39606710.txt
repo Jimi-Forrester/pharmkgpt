@@ -1,0 +1,19 @@
+39606710|t|High cell throughput, programmable fixation reveals the RNA and protein co-regulation with spatially resolved NFkappaB pseudo-signaling.
+39606710|a|RNA translation to protein is paramount to creating life, yet RNA and protein correlations vary widely across tissues, cells, and species. To investigate these perplexing results, we utilize a time-series fixation method that combines static stimulation and a programmable formaldehyde perfusion to map pseudo-Signaling with Omics signatures (pSigOmics) of single-cell data from hundreds of thousands of cells. Using the widely studied nuclear factor kappa B (NFkappaB) mammalian signaling pathway in mouse fibroblasts, we discovered a novel asynchronous pseudotime regulation (APR) between RNA and protein levels in the quintessential NFkappaB p65 protein using single molecule spatial imaging. Prototypical NFkappaB dynamics are successfully confirmed by the rise and fall of NFkappaB response as well as A20 negative inhibitor activity by 90 min. The observed p65 translational APR is evident in both statically sampled timepoints and dynamic response gradients from programmable formaldehyde fixation, which successfully creates continuous response measurements. Finally, we implement a graph neural network model capable of predicting APR cell subpopulations from GAPDH RNA spatial expression, which is strongly correlated with p65 RNA signatures. Successful decision tree classifiers on Potential of Heat-diffusion for Affinity-based Trajectory Embedding embeddings of our data, which illustrate partitions of APR cell subpopulations in latent space, further confirm the APR patterns. Together, our data suggest an RNA-protein regulatory framework in which translation adapts to signaling events and illuminates how immune signaling is timed across various cell subpopulations.
+39606710	110	118	NFkappaB	Gene	4790
+39606710	410	422	formaldehyde	Chemical	MESH:D005557
+39606710	573	595	nuclear factor kappa B	Gene	4790
+39606710	597	605	NFkappaB	Gene	18033
+39606710	638	643	mouse	Species	10090
+39606710	773	785	NFkappaB p65	Gene	5970
+39606710	846	854	NFkappaB	Gene	4790
+39606710	915	923	NFkappaB	Gene	4790
+39606710	944	947	A20	Gene	28935
+39606710	1000	1003	p65	Gene	5970
+39606710	1120	1132	formaldehyde	Chemical	MESH:D005557
+39606710	1306	1311	GAPDH	Gene	2597
+39606710	1370	1373	p65	Gene	5970
+39606710	Association	2597	5970
+39606710	Negative_Correlation	28935	4790
+39606710	Association	MESH:D005557	5970
+

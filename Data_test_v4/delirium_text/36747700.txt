@@ -1,0 +1,8 @@
+36747700|t|PolyAMiner-Bulk: A Machine Learning Based Bioinformatics Algorithm to Infer and Decode Alternative Polyadenylation Dynamics from bulk RNA-seq data.
+36747700|a|More than half of human genes exercise alternative polyadenylation (APA) and generate mRNA transcripts with varying 3' untranslated regions (UTR). However, current computational approaches for identifying cleavage and polyadenylation sites (C/PASs) and quantifying 3'UTR length changes from bulk RNA-seq data fail to unravel tissue- and disease-specific APA dynamics. Here, we developed a next-generation bioinformatics algorithm and application, PolyAMiner-Bulk, that utilizes an attention-based machine learning architecture and an improved vector projection-based engine to infer differential APA dynamics accurately. When applied to earlier studies, PolyAMiner-Bulk accurately identified more than twice the number of APA changes in an RBM17 knockdown bulk RNA-seq dataset compared to current generation tools. Moreover, on a separate dataset, PolyAMiner-Bulk revealed novel APA dynamics and pathways in scleroderma pathology and identified differential APA in a gene that was identified as being involved in scleroderma pathogenesis in an independent study. Lastly, we used PolyAMiner-Bulk to analyze the RNA-seq data of post-mortem prefrontal cortexes from the ROSMAP data consortium and unraveled novel APA dynamics in Alzheimer's Disease. Our method, PolyAMiner-Bulk, creates a paradigm for future alternative polyadenylation analysis from bulk RNA-seq data.
+36747700	166	171	human	Species	9606
+36747700	888	893	RBM17	Gene	84991
+36747700	1056	1067	scleroderma	Disease	MESH:D012595
+36747700	1161	1172	scleroderma	Disease	MESH:D012595
+36747700	1374	1393	Alzheimer's Disease	Disease	MESH:D000544
+

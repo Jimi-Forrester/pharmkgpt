@@ -1,0 +1,27 @@
+33338617|t|Analyzing the effect of APOE on Alzheimer's disease progression using an event-based model for stratified populations.
+33338617|a|Alzheimer's disease (AD) is the most common form of dementia and is phenotypically heterogeneous. APOE is a triallelic gene which correlates with phenotypic heterogeneity in AD. In this work, we determined the effect of APOE alleles on the disease progression timeline of AD using a discriminative event-based model (DEBM). Since DEBM is a data-driven model, stratification into smaller disease subgroups would lead to more inaccurate models as compared to fitting the model on the entire dataset. Hence our secondary aim is to propose and evaluate novel approaches in which we split the different steps of DEBM into group-aspecific and group-specific parts, where the entire dataset is used to train the group-aspecific parts and only the data from a specific group is used to train the group-specific parts of the DEBM. We performed simulation experiments to benchmark the accuracy of the proposed approaches and to select the optimal approach. Subsequently, the chosen approach was applied to the baseline data of 417 cognitively normal, 235 mild cognitively impaired who convert to AD within 3 years, and 342 AD patients from the Alzheimers Disease Neuroimaging Initiative (ADNI) dataset to gain new insights into the effect of APOE carriership on the disease progression timeline of AD. In the epsilon4 carrier group, the model predicted with high confidence that CSF Amyloidbeta42 and the cognitive score of Alzheimer's Disease Assessment Scale (ADAS) are early biomarkers. Hippocampus was the earliest volumetric biomarker to become abnormal, closely followed by the CSF Phosphorylated Tau181 (PTAU) biomarker. In the homozygous epsilon3 carrier group, the model predicted a similar ordering among CSF biomarkers. However, the volume of the fusiform gyrus was identified as one of the earliest volumetric biomarker. While the findings in the epsilon4 carrier and the homozygous epsilon3 carrier groups fit the current understanding of progression of AD, the finding in the epsilon2 carrier group did not. The model predicted, with relatively low confidence, CSF Neurogranin as one of the earliest biomarkers along with cognitive score of Mini-Mental State Examination (MMSE). Amyloid beta42 was found to become abnormal after PTAU. The presented models could aid understanding of the disease, and in selecting homogeneous group of presymptomatic subjects at-risk of developing symptoms for clinical trials.
+33338617	24	28	APOE	Gene	348
+33338617	32	51	Alzheimer's disease	Disease	MESH:D000544
+33338617	119	138	Alzheimer's disease	Disease	MESH:D000544
+33338617	140	142	AD	Disease	MESH:D000544
+33338617	171	179	dementia	Disease	MESH:D003704
+33338617	217	221	APOE	Gene	348
+33338617	293	295	AD	Disease	MESH:D000544
+33338617	339	343	APOE	Gene	348
+33338617	391	393	AD	Disease	MESH:D000544
+33338617	1140	1151	cognitively	Disease	MESH:D003072
+33338617	1169	1180	cognitively	Disease	MESH:D003072
+33338617	1205	1207	AD	Disease	MESH:D000544
+33338617	1232	1234	AD	Disease	MESH:D000544
+33338617	1235	1243	patients	Species	9606
+33338617	1253	1271	Alzheimers Disease	Disease	MESH:D000544
+33338617	1351	1355	APOE	Gene	348
+33338617	1407	1409	AD	Disease	MESH:D000544
+33338617	1533	1552	Alzheimer's Disease	Disease	MESH:D000544
+33338617	1712	1718	Tau181	Chemical	-
+33338617	1720	1724	PTAU	Chemical	-
+33338617	2076	2078	AD	Disease	MESH:D000544
+33338617	2188	2199	Neurogranin	Gene	4900
+33338617	2352	2356	PTAU	Chemical	-
+33338617	Association	MESH:D000544	348
+

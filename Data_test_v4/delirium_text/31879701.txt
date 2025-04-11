@@ -1,0 +1,12 @@
+31879701|t|Machine learning models to predict onset of dementia: A label learning approach.
+31879701|a|INTRODUCTION: The study objective was to build a machine learning model to predict incident mild cognitive impairment, Alzheimer's Disease, and related dementias from structured data using administrative and electronic health record sources. METHODS: A cohort of patients (n = 121,907) and controls (n = 5,307,045) was created for modeling using data within 2 years of patient's incident diagnosis date. Additional cohorts 3-8 years removed from index data are used for prediction. Training cohorts were matched on age, gender, index year, and utilization, and fit with a gradient boosting machine, lightGBM. RESULTS: Incident 2-year model quality on a held-out test set had a sensitivity of 47% and area-under-the-curve of 87%. In the 3-year model, the learned labels achieved 24% (71%), which dropped to 15% (72%) in year 8. DISCUSSION: The ability of the model to discriminate incident cases of dementia implies that it can be a worthwhile tool to screen patients for trial recruitment and patient management.
+31879701	44	52	dementia	Disease	MESH:D003704
+31879701	178	198	cognitive impairment	Disease	MESH:D003072
+31879701	200	219	Alzheimer's Disease	Disease	MESH:D000544
+31879701	233	242	dementias	Disease	MESH:D003704
+31879701	344	352	patients	Species	9606
+31879701	450	457	patient	Species	9606
+31879701	979	987	dementia	Disease	MESH:D003704
+31879701	1039	1047	patients	Species	9606
+31879701	1074	1081	patient	Species	9606
+

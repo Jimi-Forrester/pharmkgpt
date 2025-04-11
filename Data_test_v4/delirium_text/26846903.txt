@@ -1,0 +1,36 @@
+26846903|t|In silico based investigation of dynamic variations in neprilysin (NEP and NEP2) proteins for extracting the point of specificity.
+26846903|a|Neprilysin-2 (NEP2) in the central nervous system controls Alzheimer's protein (amyloid-beta) deposition, and prevents its occurrence. However, in the peripheral system, its closest homolog, neutral endopeptidase (NEP), regulates hypertension and heart related diseases. Inhibitors of NEP with a lesser degree of specificity can treat hypertension with an increased risk of cerebral deposition of amyloid-beta. In order to rationalize the point of selectivity, the dynamic behavior of human NEP and NEP2 proteins was monitored by conducting molecular dynamics (MD) simulations. A computationally reliable model of NEP2 was achieved with 79.9%, 19.1% and 0.2% residues in the allowed, additionally allowed and disallowed regions respectively, using as a reference protein. Additionally, molecular docking studies were carried out for a set of five already known inhibitors of NEP and modeled NEP2 to obtain the comparative behaviors of the complexes. MD results highlighted their different responses along with important residues having a part in ligand-protein binding. For substrate and inhibitor binding, Arg664/661 and Zn697/694 were identified as the most conserved residues. High degree flexible transitions during the MD simulations were also observed in loop areas along with active site residues. Energy calculations, hydrogen bonds and their occupancy rates helped to conclude each ligand's potency towards a particular target. In most complexes of hNEP2, the ligands showed weak interactions which might be due to its larger pocket size or huge conformational variations in active site residues upon complexation. In the case of inhibitors of a small size like thiorphan, Arg49 and Arg664 are found to be acting to support the ligand binding in NEP while only Arg661 is acting in NEP2.
+26846903	55	65	neprilysin	Gene	4311
+26846903	67	70	NEP	Gene	4311
+26846903	75	79	NEP2	Gene	79258
+26846903	131	143	Neprilysin-2	Gene	79258
+26846903	145	149	NEP2	Gene	79258
+26846903	190	209	Alzheimer's protein	Disease	MESH:D000544
+26846903	211	223	amyloid-beta	Gene	351
+26846903	322	343	neutral endopeptidase	Gene	4311
+26846903	345	348	NEP	Gene	4311
+26846903	361	373	hypertension	Disease	MESH:D006973
+26846903	378	400	heart related diseases	Disease	MESH:D006331
+26846903	416	419	NEP	Gene	4311
+26846903	466	478	hypertension	Disease	MESH:D006973
+26846903	505	540	cerebral deposition of amyloid-beta	Disease	MESH:D058225
+26846903	616	621	human	Species	9606
+26846903	622	625	NEP	Gene	4311
+26846903	630	634	NEP2	Gene	79258
+26846903	745	749	NEP2	Gene	79258
+26846903	1006	1009	NEP	Gene	4311
+26846903	1022	1026	NEP2	Gene	79258
+26846903	1802	1811	thiorphan	Chemical	MESH:D015244
+26846903	1886	1889	NEP	Gene	4311
+26846903	1921	1925	NEP2	Gene	79258
+26846903	Association	MESH:D058225	4311
+26846903	Negative_Correlation	MESH:D015244	4311
+26846903	Association	MESH:D000544	351
+26846903	Association	MESH:D000544	79258
+26846903	Association	MESH:D006973	4311
+26846903	Association	MESH:D006973	79258
+26846903	Negative_Correlation	MESH:D015244	79258
+26846903	Association	351	79258
+26846903	Association	MESH:D006331	4311
+26846903	Association	MESH:D006331	79258
+

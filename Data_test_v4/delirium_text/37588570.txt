@@ -1,0 +1,23 @@
+37588570|t|Network pharmacology based anti-diabetic attributes of bioactive compounds from Ocimum gratissimum L. through computational approach.
+37588570|a|The present research was framed to determine the key compounds present in the plant Ocimum gratissimum L. targeting protein molecules of Diabetes Mellitus (DM) by employing In-silico approaches. Phytochemicals previously reported to be present in this herb were collated through literature survey and public phytochemical databases, and their probable targets were anticipated using BindingDB (p >= 0.7). STRING and KEGG pathway databases were employed for pathway enrichment analysis. Homology modelling was executed to elucidate the structures of therapeutic targets. Further, Phytocompounds from O. gratissimum were subjected for docking with four therapeutic targets of DM by using AutoDock vina through POAP pipeline implementation. 30 compounds were predicted to target 136 protein molecules including aldose reductase, DPP4, alpha-amylase, and alpha-glucosidase. Neuroactive ligand-receptor interaction, MAPK, PI3K-Akt, starch and insulin resistance were predicted to have potentially modulation by phytocompounds. Based on the phytocompound's binding score with the four targets of DM, Rutin scored the lowest binding energy (-11 kcal/mol) with Aldose reductase by forming 17 intermolecular interactions. In conclusion, based on the network and binding score, phytocompounds from O. gratissimum have a synergistic and considerable effect in the management of DM via multi-compound, multi-target, and multi-pathway mechanisms.
+37588570	32	40	diabetic	Disease	MESH:D003920
+37588570	271	288	Diabetes Mellitus	Disease	MESH:D003920
+37588570	290	292	DM	Disease	MESH:D003920
+37588570	713	727	Phytocompounds	Chemical	-
+37588570	808	810	DM	Disease	MESH:D003920
+37588570	942	958	aldose reductase	Gene	231
+37588570	960	964	DPP4	Gene	1803
+37588570	985	1002	alpha-glucosidase	Gene	6476
+37588570	1056	1059	Akt	Gene	207
+37588570	1061	1067	starch	Chemical	MESH:D013213
+37588570	1072	1090	insulin resistance	Disease	MESH:D007333
+37588570	1140	1154	phytocompounds	Chemical	-
+37588570	1224	1226	DM	Disease	MESH:D003920
+37588570	1228	1233	Rutin	Chemical	MESH:D012431
+37588570	1287	1303	Aldose reductase	Gene	231
+37588570	1402	1416	phytocompounds	Chemical	-
+37588570	1501	1503	DM	Disease	MESH:D003920
+37588570	Association	MESH:D003920	231
+37588570	Negative_Correlation	MESH:D012431	MESH:D003920
+37588570	Association	MESH:D012431	231
+

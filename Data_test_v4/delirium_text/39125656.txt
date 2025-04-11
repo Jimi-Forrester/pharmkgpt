@@ -1,0 +1,53 @@
+39125656|t|Severe Hypothermia Induces Ferroptosis in Cerebral Cortical Nerve Cells.
+39125656|a|Abnormal shifts in global climate, leading to extreme weather, significantly threaten the safety of individuals involved in outdoor activities. Hypothermia-induced coma or death frequently occurs in clinical and forensic settings. Despite this, the precise mechanism of central nervous system injury due to hypothermia remains unclear, hindering the development of targeted clinical treatments and specific forensic diagnostic indicators. The GEO database was searched to identify datasets related to hypothermia. Post-bioinformatics analyses, DEGs, and ferroptosis-related DEGs (FerrDEGs) were intersected. GSEA was then conducted to elucidate the functions of the Ferr-related genes. Animal experiments conducted in this study demonstrated that hypothermia, compared to the control treatment, can induce significant alterations in iron death-related genes such as PPARG, SCD, ADIPOQ, SAT1, EGR1, and HMOX1 in cerebral cortex nerve cells. These changes lead to iron ion accumulation, lipid peroxidation, and marked expression of iron death-related proteins. The application of the iron death inhibitor Ferrostatin-1 (Fer-1) effectively modulates the expression of these genes, reduces lipid peroxidation, and improves the expression of iron death-related proteins. Severe hypothermia disrupts the metabolism of cerebral cortex nerve cells, causing significant alterations in ferroptosis-related genes. These genetic changes promote ferroptosis through multiple pathways.
+39125656	7	18	Hypothermia	Disease	MESH:D007035
+39125656	27	38	Ferroptosis	Disease	
+39125656	217	228	Hypothermia	Disease	MESH:D007035
+39125656	237	241	coma	Disease	MESH:D003128
+39125656	245	250	death	Disease	MESH:D003643
+39125656	343	372	central nervous system injury	Disease	MESH:D002493
+39125656	380	391	hypothermia	Disease	MESH:D007035
+39125656	574	585	hypothermia	Disease	MESH:D007035
+39125656	627	638	ferroptosis	Disease	
+39125656	820	831	hypothermia	Disease	MESH:D007035
+39125656	906	910	iron	Chemical	MESH:D007501
+39125656	911	916	death	Disease	MESH:D003643
+39125656	939	944	PPARG	Gene	5468
+39125656	946	949	SCD	Gene	6319
+39125656	951	957	ADIPOQ	Gene	9370
+39125656	959	963	SAT1	Gene	6303
+39125656	965	969	EGR1	Gene	1958
+39125656	975	980	HMOX1	Gene	3162
+39125656	1035	1039	iron	Chemical	MESH:D007501
+39125656	1058	1063	lipid	Chemical	MESH:D008055
+39125656	1155	1159	iron	Chemical	MESH:D007501
+39125656	1160	1165	death	Disease	MESH:D003643
+39125656	1176	1189	Ferrostatin-1	Chemical	MESH:C573944
+39125656	1191	1196	Fer-1	Chemical	MESH:C573944
+39125656	1259	1264	lipid	Chemical	MESH:D008055
+39125656	1346	1357	hypothermia	Disease	MESH:D007035
+39125656	1449	1460	ferroptosis	Disease	
+39125656	1506	1517	ferroptosis	Disease	
+39125656	Association	MESH:D003643	9370
+39125656	Association	MESH:D007501	5468
+39125656	Association	MESH:D007501	6319
+39125656	Association	MESH:D007035	1958
+39125656	Negative_Correlation	MESH:C573944	MESH:D007501
+39125656	Association	MESH:D007035	3162
+39125656	Association	MESH:D007501	6303
+39125656	Association	MESH:D003643	6319
+39125656	Negative_Correlation	MESH:C573944	MESH:D003643
+39125656	Association	MESH:D007501	3162
+39125656	Negative_Correlation	MESH:C573944	MESH:D008055
+39125656	Association	MESH:D007501	1958
+39125656	Association	MESH:D003643	6303
+39125656	Association	MESH:D007501	9370
+39125656	Association	MESH:D007035	6303
+39125656	Association	MESH:D003643	1958
+39125656	Association	MESH:D007035	6319
+39125656	Association	MESH:D007035	5468
+39125656	Association	MESH:D003643	5468
+39125656	Association	MESH:D007501	MESH:D007035
+39125656	Association	MESH:D003643	3162
+39125656	Association	MESH:D007035	9370
+

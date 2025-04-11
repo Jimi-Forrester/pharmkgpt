@@ -1,0 +1,55 @@
+22659089|t|Inhibition of human astrocyte and microglia neurotoxicity by calcium channel blockers.
+22659089|a|We examined the effects of L-type calcium channel blockers (CCBs) on toxicity exerted by activated human astrocytes and microglia towards SH-SY5Y human neuronal cells. The CCBs nimodipine (NDP) and verapamil (VPM) both significantly suppressed toxic secretions from human astrocytes and astrocytoma U-373 MG cells that were induced by interferon (IFN)-gamma. NDP also inhibited neurotoxic secretions of human microglia and monocytic THP-1 cells that were induced by the combination of lipopolysaccharide and IFN-gamma. In human astrocytes, both NDP and VPM reduced IFN-gamma-induced phosphorylation of signal transducer and activator of transcription (STAT) 3. They also inhibited the astrocytic production of IFN-gamma-inducible T cell alpha chemoattractant (I-TAC). These results suggest that CCBs attenuate IFN-gamma-induced neurotoxicity of human astrocytes through inhibition of the STAT3 signaling pathway. L-type CCBs, especially NDP, might be a useful treatment option for a broad spectrum of neurodegenerative diseases, including Alzheimer disease, where the pathology is believed to be exacerbated by neurotoxic glial activation.
+22659089	14	19	human	Species	9606
+22659089	44	57	neurotoxicity	Disease	MESH:D020258
+22659089	114	145	L-type calcium channel blockers	Chemical	-
+22659089	156	164	toxicity	Disease	MESH:D064420
+22659089	186	191	human	Species	9606
+22659089	225	232	SH-SY5Y	CellLine	CVCL:0019
+22659089	233	238	human	Species	9606
+22659089	264	274	nimodipine	Chemical	MESH:D009553
+22659089	276	279	NDP	Chemical	MESH:D009553
+22659089	285	294	verapamil	Chemical	MESH:D014700
+22659089	296	299	VPM	Chemical	MESH:D014700
+22659089	353	358	human	Species	9606
+22659089	374	385	astrocytoma	Disease	MESH:D001254
+22659089	386	394	U-373 MG	CellLine	CVCL:2818
+22659089	422	444	interferon (IFN)-gamma	Gene	3458
+22659089	446	449	NDP	Chemical	MESH:D009553
+22659089	465	475	neurotoxic	Disease	MESH:D020258
+22659089	490	495	human	Species	9606
+22659089	520	525	THP-1	CellLine	CVCL:0006
+22659089	572	590	lipopolysaccharide	Chemical	MESH:D008070
+22659089	595	604	IFN-gamma	Gene	3458
+22659089	609	614	human	Species	9606
+22659089	632	635	NDP	Chemical	MESH:D009553
+22659089	640	643	VPM	Chemical	MESH:D014700
+22659089	652	661	IFN-gamma	Gene	3458
+22659089	689	746	signal transducer and activator of transcription (STAT) 3	Gene	6774
+22659089	847	852	I-TAC	Gene	6373
+22659089	897	906	IFN-gamma	Gene	3458
+22659089	915	928	neurotoxicity	Disease	MESH:D020258
+22659089	932	937	human	Species	9606
+22659089	975	980	STAT3	Gene	6774
+22659089	1024	1027	NDP	Chemical	MESH:D009553
+22659089	1088	1114	neurodegenerative diseases	Disease	MESH:D019636
+22659089	1126	1143	Alzheimer disease	Disease	MESH:D000544
+22659089	1198	1208	neurotoxic	Disease	MESH:D020258
+22659089	Negative_Correlation	MESH:D014700	6774
+22659089	Negative_Correlation	MESH:D014700	MESH:D001254
+22659089	Negative_Correlation	MESH:D009553	3458
+22659089	Negative_Correlation	MESH:D014700	3458
+22659089	Negative_Correlation	MESH:D009553	MESH:D000544
+22659089	Negative_Correlation	MESH:D009553	MESH:D001254
+22659089	Negative_Correlation	MESH:D009553	6373
+22659089	Negative_Correlation	MESH:D009553	6774
+22659089	Positive_Correlation	MESH:D008070	MESH:D020258
+22659089	Negative_Correlation	MESH:D009553	MESH:D020258
+22659089	Negative_Correlation	MESH:D008070	MESH:D009553
+22659089	Positive_Correlation	MESH:D020258	3458
+22659089	Comparison	MESH:D009553	MESH:D014700
+22659089	Association	MESH:D020258	6774
+22659089	Negative_Correlation	MESH:D009553	MESH:D019636
+22659089	Negative_Correlation	MESH:D014700	6373
+22659089	Positive_Correlation	3458	6774
+

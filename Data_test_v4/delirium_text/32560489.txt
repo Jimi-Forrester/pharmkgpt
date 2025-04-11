@@ -1,0 +1,58 @@
+32560489|t|Identification of Prion Disease-Related Somatic Mutations in the Prion Protein Gene (PRNP) in Cancer Patients.
+32560489|a|Prion diseases are caused by misfolded prion protein (PrPSc) and are accompanied by spongiform vacuolation of brain lesions. Approximately three centuries have passed since prion diseases were first discovered around the world; however, the exact role of certain factors affecting the causative agent of prion diseases is still debatable. In recent studies, somatic mutations were assumed to be cause of several diseases. Thus, we postulated that genetically unstable cancer tissue may cause somatic mutations in the prion protein gene (PRNP), which could trigger the onset of prion diseases. To identify somatic mutations in the PRNP gene in cancer tissues, we analyzed somatic mutations in the PRNP gene in cancer patients using the Cancer Genome Atlas (TCGA) database. In addition, to evaluate whether the somatic mutations in the PRNP gene in cancer patients had a damaging effect, we performed in silico analysis using PolyPhen-2, PANTHER, PROVEAN, and AMYCO. We identified a total of 48 somatic mutations in the PRNP gene, including 8 somatic mutations that are known pathogenic mutations of prion diseases. We identified significantly different distributions among the types of cancer, the mutation counts, and the ages of diagnosis between the total cancer patient population and cancer patients carrying somatic mutations in the PRNP gene. Strikingly, although invasive breast carcinoma and glioblastoma accounted for a high percentage of the total cancer patient population (9.9% and 5.4%, respectively), somatic mutations in the PRNP gene have not been identified in these two cancer types. We suggested the possibility that somatic mutations of the PRNP gene in glioblastoma can be masked by a diagnosis of prion disease. In addition, we found four aggregation-prone somatic mutations, these being L125F, E146Q, R151C, and K204N. To the best of our knowledge, this is the first specific analysis of the somatic mutations in the PRNP gene in cancer patients.
+32560489	18	31	Prion Disease	Disease	MESH:D017096
+32560489	65	78	Prion Protein	Gene	5621
+32560489	94	100	Cancer	Disease	MESH:D009369
+32560489	101	109	Patients	Species	9606
+32560489	111	125	Prion diseases	Disease	MESH:D017096
+32560489	150	163	prion protein	Gene	5621
+32560489	221	234	brain lesions	Disease	MESH:D001927
+32560489	284	298	prion diseases	Disease	MESH:D017096
+32560489	415	429	prion diseases	Disease	MESH:D017096
+32560489	579	585	cancer	Disease	MESH:D009369
+32560489	628	641	prion protein	Gene	5621
+32560489	688	702	prion diseases	Disease	MESH:D017096
+32560489	754	760	cancer	Disease	MESH:D009369
+32560489	820	826	cancer	Disease	MESH:D009369
+32560489	827	835	patients	Species	9606
+32560489	846	852	Cancer	Disease	MESH:D009369
+32560489	958	964	cancer	Disease	MESH:D009369
+32560489	965	973	patients	Species	9606
+32560489	1209	1223	prion diseases	Disease	MESH:D017096
+32560489	1296	1302	cancer	Disease	MESH:D009369
+32560489	1369	1375	cancer	Disease	MESH:D009369
+32560489	1376	1383	patient	Species	9606
+32560489	1399	1405	cancer	Disease	MESH:D009369
+32560489	1406	1414	patients	Species	9606
+32560489	1481	1506	invasive breast carcinoma	Disease	MESH:D001943
+32560489	1511	1523	glioblastoma	Disease	MESH:D005909
+32560489	1569	1575	cancer	Disease	MESH:D009369
+32560489	1576	1583	patient	Species	9606
+32560489	1699	1705	cancer	Disease	MESH:D009369
+32560489	1785	1797	glioblastoma	Disease	MESH:D005909
+32560489	1830	1843	prion disease	Disease	MESH:D017096
+32560489	1921	1926	L125F	ProteinMutation	tmVar:p|SUB|L|125|F;HGVS:p.L125F;VariantGroup:2;CorrespondingGene:5621;CorrespondingSpecies:9606
+32560489	1928	1933	E146Q	ProteinMutation	tmVar:p|SUB|E|146|Q;HGVS:p.E146Q;VariantGroup:1;CorrespondingGene:5621;CorrespondingSpecies:9606
+32560489	1935	1940	R151C	ProteinMutation	tmVar:p|SUB|R|151|C;HGVS:p.R151C;VariantGroup:0;CorrespondingGene:5621;RS#:755417301;CorrespondingSpecies:9606;CA#:9752078
+32560489	1946	1951	K204N	ProteinMutation	tmVar:p|SUB|K|204|N;HGVS:p.K204N;VariantGroup:3;CorrespondingGene:5621;CorrespondingSpecies:9606
+32560489	2064	2070	cancer	Disease	MESH:D009369
+32560489	2071	2079	patients	Species	9606
+32560489	Association	MESH:D017096	5621
+32560489	Association	MESH:D005909	HGVS:p.L125F;CorrespondingGene:5621
+32560489	Association	MESH:D017096	HGVS:p.L125F;CorrespondingGene:5621
+32560489	Association	MESH:D009369	RS#:755417301;HGVS:p.R151C;CorrespondingGene:5621
+32560489	Association	MESH:D009369	HGVS:p.L125F;CorrespondingGene:5621
+32560489	Association	MESH:D017096	HGVS:p.K204N;CorrespondingGene:5621
+32560489	Association	MESH:D017096	RS#:755417301;HGVS:p.R151C;CorrespondingGene:5621
+32560489	Association	MESH:D005909	RS#:755417301;HGVS:p.R151C;CorrespondingGene:5621
+32560489	Association	MESH:D009369	HGVS:p.K204N;CorrespondingGene:5621
+32560489	Association	MESH:D005909	HGVS:p.E146Q;CorrespondingGene:5621
+32560489	Association	MESH:D009369	HGVS:p.E146Q;CorrespondingGene:5621
+32560489	Association	MESH:D017096	HGVS:p.E146Q;CorrespondingGene:5621
+32560489	Association	MESH:D009369	5621
+32560489	Association	MESH:D005909	HGVS:p.K204N;CorrespondingGene:5621
+32560489	Association	MESH:D001927	5621
+32560489	Association	MESH:D005909	5621
+32560489	Association	MESH:D017096	5621
+32560489	Association	MESH:D009369	5621
+

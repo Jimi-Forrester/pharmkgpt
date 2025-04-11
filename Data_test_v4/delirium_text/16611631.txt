@@ -1,0 +1,38 @@
+16611631|t|Distinct priming kinases contribute to differential regulation of collapsin response mediator proteins by glycogen synthase kinase-3 in vivo.
+16611631|a|Collapsin response mediator proteins (CRMPs) are a family of neuron-enriched proteins that regulate neurite outgrowth and growth cone dynamics. Here, we show that Cdk5 phosphorylates CRMP1, CRMP2, and CRMP4, priming for subsequent phosphorylation by GSK3 in vitro. In contrast, DYRK2 phosphorylates and primes CRMP4 only. The Cdk5 and DYRK2 inhibitor purvalanol decreases the phosphorylation of CRMP proteins in neurons, whereas CRMP1 and CRMP2, but not CRMP4, phosphorylation is decreased in Cdk5(-/-) cortices. Stimulation of neuroblastoma cells with IGF1 or TPA decreases GSK3 activity concomitantly with CRMP2 and CRMP4 phosphorylation. Conversely, increased GSK3 activity is not sufficient to increase CRMP phosphorylation. However, the growth cone collapse-inducing protein Sema3A increases Cdk5 activity and promotes phosphorylation of CRMP2 (but not CRMP4). Therefore, inhibition of GSK3 alters phosphorylation of all CRMP isoforms; however, individual isoforms can be differentially regulated by their respective priming kinase. This is the first GSK3 substrate found to be regulated in this manner and may explain the hyperphosphorylation of CRMP2 observed in Alzheimer's disease.
+16611631	305	309	Cdk5	Gene	1020
+16611631	325	330	CRMP1	Gene	1400
+16611631	332	337	CRMP2	Gene	1808
+16611631	343	348	CRMP4	Gene	1809
+16611631	420	425	DYRK2	Gene	8445
+16611631	452	457	CRMP4	Gene	1809
+16611631	468	472	Cdk5	Gene	1020
+16611631	477	482	DYRK2	Gene	8445
+16611631	493	503	purvalanol	Chemical	-
+16611631	571	576	CRMP1	Gene	1400
+16611631	581	586	CRMP2	Gene	1808
+16611631	596	601	CRMP4	Gene	1809
+16611631	635	639	Cdk5	Gene	1020
+16611631	670	683	neuroblastoma	Disease	MESH:D009447
+16611631	695	699	IGF1	Gene	3479
+16611631	703	706	TPA	Chemical	-
+16611631	750	755	CRMP2	Gene	1808
+16611631	760	765	CRMP4	Gene	1809
+16611631	922	928	Sema3A	Gene	10371
+16611631	939	943	Cdk5	Gene	1020
+16611631	985	990	CRMP2	Gene	1808
+16611631	1000	1005	CRMP4	Gene	1809
+16611631	1294	1299	CRMP2	Gene	1808
+16611631	1312	1331	Alzheimer's disease	Disease	MESH:D000544
+16611631	Association	MESH:D009447	3479
+16611631	Association	MESH:D009447	1809
+16611631	Association	1808	3479
+16611631	Association	1020	1809
+16611631	Association	1809	8445
+16611631	Positive_Correlation	10371	1808
+16611631	Association	1020	1808
+16611631	Positive_Correlation	1020	10371
+16611631	Positive_Correlation	1809	3479
+16611631	Association	1020	1400
+16611631	Association	MESH:D000544	1808
+

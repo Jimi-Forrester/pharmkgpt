@@ -1,0 +1,21 @@
+39804295|t|Preliminary Development and Validation of Automated Nociception Recognition Using Computer Vision in Perioperative Patients.
+39804295|a|BACKGROUND: Effective pain recognition and treatment in perioperative environments reduce length of stay and decrease risk of delirium and chronic pain. We sought to develop and validate preliminary computer vision-based approaches for nociception detection in hospitalized patients. METHODS: Prospective observational cohort study using red-green-blue camera detection of perioperative patients. Adults (>=18 years) admitted for surgical procedures to the San Francisco Veterans Affairs Medical Center (SFVAMC) were included across 2 study phases: (1) algorithm development phase and (2) internal validation phase. Continuous recordings occurred perioperatively across any postoperative setting. We inputted facial images into convolutional neural networks using a pretrained backbone, to detect (1) critical care pain observation tool (CPOT) and (2) numerical rating scale (NRS). Outcomes were binary pain/no-pain. We performed external validation for CPOT and NRS classification on data from University of Northern British Columbia-McMaster University (UNBC) and Delaware Pain Database. Perturbation models were used for explainability. RESULTS: We included 130 patients for development, 77 patients for validation cohort and 25 patients from UNBC and 229 patients from Delaware datasets for external validation. Model area under the curve of the receiver operating characteristic for CPOT models were 0.71 (95% confidence interval [CI] 0.70, 0.74) on the development cohort, 0.91 (95% CI 0.90, 0.92) on the SFVAMC validation cohort, 0.91 (0.89, 0.93) on UNBC and 0.80 (95% CI 0.75, 0.85) on Delaware. NRS model had lower performance (AUC 0.58 [95% CI 0.55, 0.61]). Brier scores improved following calibration across multiple different techniques. Perturbation models for CPOT models revealed eyebrows, nose, lips, and foreheads were most important for model prediction. CONCLUSIONS: Automated nociception detection using computer vision alone is feasible but requires additional testing and validation given small datasets used. Future multicenter observational studies are required to better understand the potential for automated continuous assessments for nociception detection in hospitalized patients.
+39804295	115	123	Patients	Species	9606
+39804295	147	151	pain	Disease	MESH:D010146
+39804295	251	259	delirium	Disease	MESH:D003693
+39804295	264	276	chronic pain	Disease	MESH:D059350
+39804295	399	407	patients	Species	9606
+39804295	512	520	patients	Species	9606
+39804295	940	944	pain	Disease	MESH:D010146
+39804295	1028	1032	pain	Disease	MESH:D010146
+39804295	1036	1040	pain	Disease	MESH:D010146
+39804295	1181	1185	UNBC	Disease	MESH:C563594
+39804295	1200	1204	Pain	Disease	MESH:D010146
+39804295	1290	1298	patients	Species	9606
+39804295	1319	1327	patients	Species	9606
+39804295	1357	1365	patients	Species	9606
+39804295	1371	1375	UNBC	Disease	MESH:C563594
+39804295	1384	1392	patients	Species	9606
+39804295	1683	1687	UNBC	Disease	MESH:C563594
+39804295	2326	2334	patients	Species	9606
+

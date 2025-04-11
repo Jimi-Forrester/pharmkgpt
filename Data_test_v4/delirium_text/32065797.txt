@@ -1,0 +1,57 @@
+32065797|t|ErbB4 Mutation that Decreased NRG1-ErbB4 Signaling Involved in the Pathogenesis of Amyotrophic Lateral Sclerosis/Frontotemporal Dementia.
+32065797|a|BACKGROUND: Amyotrophic lateral sclerosis/frontotemporal dementia (ALS/FTD) includes a large spectrum of neurodegenerative disorders. OBJECTIVE: To identify the relationship of ErbB4 mutation and ALS/FTD. METHODS: Here, we report an atypical case of frontal variant behavioral abnormalities at the initial stage, a stable plateau stage of 5 years, and paralysis involving both upper and lower motor neurons followed by progressive cognitive dysfunction at the advanced stage. The clinical findings suggested a diagnosis of ALS/FTD, and genetic testing revealed erb-b2 receptor tyrosine kinase 4 (ErbB4) heterozygous mutation (c.2136 T>G, p.I712M), identified in an ALS pedigree previously. We modeled mutant ErbB4 protein through the SWISS-MODEL Server, and speculated on the structural change caused by the mutation. We also identified that ErbB4 (I712M) mutation led to reduced auto-phosphorylation of ErbB4 upon neuregulin-1 (NRG1) stimulation. RESULTS: A functional analysis of ErbB4 mutation demonstrated an obviously decreased auto-phosphorylation of ErbB4 involving in the pathogenesis of ALS/FTD. CONCLUSION: We firstly found ErbB4 mutation to be identified in ALS/FTD.
+32065797	0	5	ErbB4	Gene	2066
+32065797	30	34	NRG1	Gene	3084
+32065797	35	40	ErbB4	Gene	2066
+32065797	83	112	Amyotrophic Lateral Sclerosis	Disease	MESH:D000690
+32065797	113	136	Frontotemporal Dementia	Disease	MESH:D057180
+32065797	150	179	Amyotrophic lateral sclerosis	Disease	MESH:D000690
+32065797	180	203	frontotemporal dementia	Disease	MESH:D057180
+32065797	205	208	ALS	Disease	MESH:D008113
+32065797	209	212	FTD	Disease	MESH:D057180
+32065797	243	270	neurodegenerative disorders	Disease	MESH:D019636
+32065797	315	320	ErbB4	Gene	2066
+32065797	334	337	ALS	Disease	MESH:D008113
+32065797	338	341	FTD	Disease	MESH:D057180
+32065797	404	428	behavioral abnormalities	Disease	MESH:D001523
+32065797	490	499	paralysis	Disease	MESH:D010243
+32065797	569	590	cognitive dysfunction	Disease	MESH:D003072
+32065797	661	664	ALS	Disease	MESH:D008113
+32065797	665	668	FTD	Disease	MESH:D057180
+32065797	699	732	erb-b2 receptor tyrosine kinase 4	Gene	2066
+32065797	734	739	ErbB4	Gene	2066
+32065797	764	774	c.2136 T>G	DNAMutation	tmVar:c|SUB|T|2136|G;HGVS:c.2136T>G;VariantGroup:0;CorrespondingGene:2066;RS#:777888859;CorrespondingSpecies:9606
+32065797	776	783	p.I712M	ProteinMutation	tmVar:p|SUB|I|712|M;HGVS:p.I712M;VariantGroup:0;CorrespondingGene:2066;RS#:777888859;CorrespondingSpecies:9606
+32065797	803	806	ALS	Disease	MESH:D008113
+32065797	846	851	ErbB4	Gene	2066
+32065797	980	985	ErbB4	Gene	2066
+32065797	987	992	I712M	ProteinMutation	tmVar:p|SUB|I|712|M;HGVS:p.I712M;VariantGroup:0;CorrespondingGene:2066;RS#:777888859;CorrespondingSpecies:9606
+32065797	1042	1047	ErbB4	Gene	2066
+32065797	1053	1065	neuregulin-1	Gene	3084
+32065797	1067	1071	NRG1	Gene	3084
+32065797	1120	1125	ErbB4	Gene	2066
+32065797	1195	1200	ErbB4	Gene	2066
+32065797	1234	1237	ALS	Disease	MESH:D008113
+32065797	1238	1241	FTD	Disease	MESH:D057180
+32065797	1272	1277	ErbB4	Gene	2066
+32065797	1307	1310	ALS	Disease	MESH:D008113
+32065797	1311	1314	FTD	Disease	MESH:D057180
+32065797	Positive_Correlation	MESH:D000690	RS#:777888859;HGVS:c.2136T>G;CorrespondingGene:2066
+32065797	Association	MESH:D057180	3084
+32065797	Association	RS#:777888859;HGVS:c.2136T>G;CorrespondingGene:2066	MESH:D008113
+32065797	Association	MESH:D057180	RS#:777888859;HGVS:c.2136T>G;CorrespondingGene:2066
+32065797	Association	MESH:D000690	2066
+32065797	Association	2066	3084
+32065797	Association	MESH:D008113	RS#:777888859;HGVS:c.2136T>G;CorrespondingGene:2066
+32065797	Association	MESH:D057180	RS#:777888859;HGVS:p.I712M;CorrespondingGene:2066
+32065797	Positive_Correlation	MESH:D000690	RS#:777888859;HGVS:p.I712M;CorrespondingGene:2066
+32065797	Positive_Correlation	RS#:777888859;HGVS:c.2136T>G;CorrespondingGene:2066	MESH:D000690
+32065797	Association	MESH:D008113	2066
+32065797	Association	MESH:D008113	RS#:777888859;HGVS:p.I712M;CorrespondingGene:2066
+32065797	Association	MESH:D000690	3084
+32065797	Association	RS#:777888859;HGVS:c.2136T>G;CorrespondingGene:2066	MESH:D057180
+32065797	Association	MESH:D057180	2066
+32065797	Association	MESH:D000690	2066
+32065797	Association	MESH:D008113	2066
+32065797	Association	MESH:D057180	2066
+

@@ -1,0 +1,26 @@
+37477961|t|A Neuro-Informatics Pipeline for Cerebrovascular Disease: Research Registry Development.
+37477961|a|BACKGROUND: Although stroke is well recognized as a critical disease, treatment options are often limited. Inpatient stroke encounters carry critical information regarding the mechanisms of stroke and patient outcomes; however, these data are typically formatted to support administrative functions instead of research. To support improvements in the care of patients with stroke, a substantive research data platform is needed. OBJECTIVE: To advance a stroke-oriented learning health care system, we sought to establish a comprehensive research repository of stroke data using the Houston Methodist electronic health record (EHR) system. METHODS: Dedicated processes were developed to import EHR data of patients with primary acute ischemic stroke, intracerebral hemorrhage (ICH), transient ischemic attack, and subarachnoid hemorrhage under a review board-approved protocol. Relevant patients were identified from discharge diagnosis codes and assigned registry patient identification numbers. For identified patients, extract, transform, and load processes imported EHR data of primary cerebrovascular disease admissions and available data from any previous or subsequent admissions. Data were loaded into patient-focused SQL objects to enable cross-sectional and longitudinal analyses. Primary data domains (admission details, comorbidities, laboratory data, medications, imaging data, and discharge characteristics) were loaded into separate relational tables unified by patient and encounter identification numbers. Computed tomography, magnetic resonance, and angiography images were retrieved. Imaging data from patients with ICH were assessed for hemorrhage characteristics and cerebral small vessel disease markers. Patient information needed to interface with other local and national databases was retained. Prospective patient outreach was established, with patients contacted via telephone to assess functional outcomes 30, 90, 180, and 365 days after discharge. Dashboards were constructed to provide investigators with data summaries to support access. RESULTS: The Registry of Neurological Endpoint Assessments among Patients with Ischemic and Hemorrhagic Stroke (REINAH) database was constructed as a series of relational category-specific SQL objects. Encounter summaries and dashboards were constructed to draw from these objects, providing visual data summaries for investigators seeking to build studies based on REINAH data. As of June 2022, the database contains 18,061 total patients, including 1809 (10.02%) with ICH, 13,444 (74.43%) with acute ischemic stroke, 1221 (6.76%) with subarachnoid hemorrhage, and 3165 (17.52%) with transient ischemic attack. Depending on the cohort, imaging data from computed tomography are available for 85.83% (1048/1221) to 98.4% (1780/1809) of patients, with magnetic resonance imaging available for 27.85% (340/1221) to 85.54% (11,500/13,444) of patients. Outcome assessment has successfully contacted 56.1% (240/428) of patients after ICH, with 71.3% (171/240) of responders providing consent for assessment. Responders reported a median modified Rankin Scale score of 3 at 90 days after discharge. CONCLUSIONS: A highly curated and clinically focused research platform for stroke data will establish a foundation for future research that may fundamentally improve poststroke patient care and outcomes.
+37477961	33	56	Cerebrovascular Disease	Disease	MESH:D002561
+37477961	110	116	stroke	Disease	MESH:D020521
+37477961	206	212	stroke	Disease	MESH:D020521
+37477961	279	285	stroke	Disease	MESH:D020521
+37477961	462	468	stroke	Disease	MESH:D020521
+37477961	542	548	stroke	Disease	MESH:D020521
+37477961	649	655	stroke	Disease	MESH:D020521
+37477961	816	837	acute ischemic stroke	Disease	MESH:D000083242
+37477961	839	863	intracerebral hemorrhage	Disease	MESH:D002543
+37477961	865	868	ICH	Disease	MESH:D002543
+37477961	871	896	transient ischemic attack	Disease	MESH:D002546
+37477961	902	925	subarachnoid hemorrhage	Disease	MESH:D013345
+37477961	1178	1201	cerebrovascular disease	Disease	MESH:D002561
+37477961	1723	1726	ICH	Disease	MESH:D002543
+37477961	1745	1755	hemorrhage	Disease	MESH:D006470
+37477961	1776	1805	cerebral small vessel disease	Disease	MESH:D059345
+37477961	2237	2268	Ischemic and Hemorrhagic Stroke	Disease	MESH:D002543
+37477961	2628	2631	ICH	Disease	MESH:D002543
+37477961	2654	2675	acute ischemic stroke	Disease	MESH:D000083242
+37477961	2695	2718	subarachnoid hemorrhage	Disease	MESH:D013345
+37477961	2743	2768	transient ischemic attack	Disease	MESH:D002546
+37477961	3087	3090	ICH	Disease	MESH:D002543
+37477961	3326	3332	stroke	Disease	MESH:D020521
+

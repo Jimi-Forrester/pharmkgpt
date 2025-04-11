@@ -1,0 +1,23 @@
+39571644|t|Multiclass Classification of Alzheimer's Disease Prodromal Stages using Sequential Feature Embeddings and Regularized Multikernel Support Vector Machine.
+39571644|a|The detection of patients in the cognitive normal (CN), mild cognitive impairment (MCI), and Alzheimer's disease (AD) stages of neurodegeneration is crucial for early treatment interventions. However, the heterogeneity of MCI data samples poses a challenge for CN vs. MCI vs. AD multiclass classification, as some samples are closer to AD while others are closer to CN in the feature space. Previous attempts to address this challenge produced inaccurate results, leading most frameworks to break the assessment into binary classification tasks such as AD vs. CN, AD vs. MCI, and CN vs. MCI. Other methods proposed sequential binary classifications such as CN vs. others and dividing others into AD vs. MCI. While those approaches may have yielded encouraging results, the sequential binary classification method makes interpretation and comparison with other frameworks challenging and subjective. Those frameworks exhibited varying accuracy scores for different binary tasks, making it unclear how to compare the model performance with other direct multiclass methods. Therefore, we introduce a classification framework comprising unsupervised ensemble manifold regularized sparse low-rank approximation and regularized multikernel support vector machine (SVM). This framework first extracts a joint feature embedding from MRI and PET neuroimaging features, which were then combined with the Apoe4, Adas11, MPACC digits, and Intracranial volume features using a regularized multikernel SVM. Using that framework, we achieved a state-of-the-art (SOTA) result in a CN vs. MCI vs. AD multiclass classification (mean accuracy: 84.87+-6.09, F1 score: 84.83+-6.12 vs 67.69). The methods generalize well to binary classification tasks, achieving SOTA results in all but the CN vs. MCI category, which was slightly lower than the best score by just 0.2%.
+39571644	29	48	Alzheimer's Disease	Disease	MESH:D000544
+39571644	171	179	patients	Species	9606
+39571644	210	235	mild cognitive impairment	Disease	MESH:D060825
+39571644	237	240	MCI	Disease	MESH:D060825
+39571644	247	266	Alzheimer's disease	Disease	MESH:D000544
+39571644	268	270	AD	Disease	MESH:D000544
+39571644	282	299	neurodegeneration	Disease	MESH:D019636
+39571644	376	379	MCI	Disease	MESH:D060825
+39571644	422	425	MCI	Disease	MESH:D060825
+39571644	430	432	AD	Disease	MESH:D000544
+39571644	490	492	AD	Disease	MESH:D000544
+39571644	707	709	AD	Disease	MESH:D000544
+39571644	718	720	AD	Disease	MESH:D000544
+39571644	725	728	MCI	Disease	MESH:D060825
+39571644	741	744	MCI	Disease	MESH:D060825
+39571644	850	852	AD	Disease	MESH:D000544
+39571644	857	860	MCI	Disease	MESH:D060825
+39571644	1726	1729	MCI	Disease	MESH:D060825
+39571644	1734	1736	AD	Disease	MESH:D000544
+39571644	1930	1933	MCI	Disease	MESH:D060825
+

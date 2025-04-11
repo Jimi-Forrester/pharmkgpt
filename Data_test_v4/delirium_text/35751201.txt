@@ -1,0 +1,19 @@
+35751201|t|Early detection of Alzheimer's disease using single nucleotide polymorphisms analysis based on gradient boosting tree.
+35751201|a|Alzheimer's disease (AD) is a degenerative disorder that attacks nerve cells in the brain. AD leads to memory loss and cognitive & intellectual impairments that can influence social activities and decision-making. The most common type of human genetic variation is single nucleotide polymorphisms (SNPs). SNPs are beneficial markers of complex gene-disease. Many common and serious diseases, such as AD, have associated SNPs. Detection of SNP biomarkers linked with AD could help in the early prediction and diagnosis of this disease. The main objective of this paper is to predict and diagnose AD based on SNPs biomarkers with high classification accuracy in the early stages. One of the most concerning problems is the high number of features. Thus, the paper proposes a comprehensive framework for early AD detection and detecting the most significant genes based on SNPs analysis. Usage of machine learning (ML) techniques to identify new biomarkers of AD is also suggested. In the proposed system, two feature selection techniques are separately checked: the information gain filter and Boruta wrapper. The two feature selection techniques were used to select the most significant genes related to AD in this system. Filter methods measure the relevance of features by their correlation with dependent variables, while wrapper methods measure the usefulness of a subset of features by training a model on it. Gradient boosting tree (GBT) has been applied on all AD genetic data of neuroimaging initiative phase 1 (ADNI-1) and Whole-Genome Sequencing (WGS) datasets by using two feature selection techniques. In the whole-genome approach ADNI-1, results revealed that the GBT learning algorithm scored an overall accuracy of 99.06% in the case of using Boruta feature selection. Using information gain feature selection, the proposed system achieved an average accuracy of 94.87%. The results show that the proposed system is preferable for the early detection of AD. Also, the results revealed that the Boruta wrapper feature selection is superior to the information gain filter technique.
+35751201	19	38	Alzheimer's disease	Disease	MESH:D000544
+35751201	119	138	Alzheimer's disease	Disease	MESH:D000544
+35751201	140	142	AD	Disease	MESH:D000544
+35751201	149	170	degenerative disorder	Disease	MESH:D019636
+35751201	210	212	AD	Disease	MESH:D000544
+35751201	222	233	memory loss	Disease	MESH:D008569
+35751201	238	274	cognitive & intellectual impairments	Disease	MESH:D003072
+35751201	357	362	human	Species	9606
+35751201	519	521	AD	Disease	MESH:D000544
+35751201	585	587	AD	Disease	MESH:D000544
+35751201	714	716	AD	Disease	MESH:D000544
+35751201	926	928	AD	Disease	MESH:D000544
+35751201	1076	1078	AD	Disease	MESH:D000544
+35751201	1322	1324	AD	Disease	MESH:D000544
+35751201	1586	1588	AD	Disease	MESH:D000544
+35751201	2087	2089	AD	Disease	MESH:D000544
+

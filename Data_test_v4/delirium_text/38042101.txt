@@ -1,0 +1,12 @@
+38042101|t|Hypergraph convolutional network for longitudinal data analysis in Alzheimer's disease.
+38042101|a|Alzheimer's disease (AD) is an irreversible and progressive neurodegenerative disease. Longitudinal structural magnetic resonance imaging (sMRI) data have been widely used for tracking AD pathogenesis and diagnosis. However, existing methods tend to treat each time point equally without considering the temporal characteristics of longitudinal data. In this paper, we propose a weighted hypergraph convolution network (WHGCN) to use the internal correlations among different time points and leverage high-order relationships between subjects for AD detection. Specifically, we construct hypergraphs for sMRI data at each time point using the K-nearest neighbor (KNN) method to represent relationships between subjects, and then fuse the hypergraphs according to the importance of the data at each time point to obtain the final hypergraph. Subsequently, we use hypergraph convolution to learn high-order information between subjects while performing feature dimensionality reduction. Finally, we conduct experiments on 518 subjects selected from the Alzheimer's disease neuroimaging initiative (ADNI) database, and the results show that the WHGCN can get higher AD detection performance and has the potential to improve our understanding of the pathogenesis of AD.
+38042101	67	86	Alzheimer's disease	Disease	MESH:D000544
+38042101	88	107	Alzheimer's disease	Disease	MESH:D000544
+38042101	109	111	AD	Disease	MESH:D000544
+38042101	148	173	neurodegenerative disease	Disease	MESH:D019636
+38042101	273	275	AD	Disease	MESH:D000544
+38042101	635	637	AD	Disease	MESH:D000544
+38042101	1139	1158	Alzheimer's disease	Disease	MESH:D000544
+38042101	1251	1253	AD	Disease	MESH:D000544
+38042101	1350	1352	AD	Disease	MESH:D000544
+

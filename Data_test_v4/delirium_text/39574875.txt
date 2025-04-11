@@ -1,0 +1,55 @@
+39574875|t|Genetic Contributions to Alzheimer's Disease and Frontotemporal Dementia in Admixed Latin American Populations.
+39574875|a|Background: Latin America's diverse genetic makeup, shaped by centuries of admixture, presents a unique opportunity to study Alzheimer's disease dementia (AD) and frontotemporal dementia (FTD). Our aim is to identify genetic variations associated with AD and FTD within this population. Methods: The Multi-Partner Consortium to Expand Dementia Research in Latin America (ReDLat) recruited 2,162 participants with AD, FTD, and healthy controls from six Latin American countries (Argentina, Brazil, Chile, Colombia, Mexico, and Peru). All participants underwent array, exome, and/or whole-genome sequencing. Population structure was analyzed using Principal Component Analysis and ADMIXTURE, projecting the ReDLat population onto the 1000 Genomes Project database. To identify genes associated with autosomal dominant, autosomal recessive, or X-linked forms of adult-onset dementia, we searched the Online Mendelian Inheritance in Man database and analyzed pedigree information. Variant interpretation followed guidelines from the American College of Medical Genetics and Genomics, and the Guerreiro algorithm was applied for the PSEN1 and PSEN2 genes. Results: Global ancestry analysis of the ReDLat cohort revealed a predominant mix of American, African, and European ancestries. Uniquely, Brazil displayed an additional East Asian component accurately reflecting the historical admixture patterns from this region. We identified 17 pathogenic variants, a pathogenic C9orf72 expansion, and 44 variants of uncertain significance. Among our cohort, 70 families exhibited autosomal dominant inheritance of neurodegenerative diseases, with 48 families affected by AD and 22 by FTD. In families with AD, We discovered a novel variant in the PSEN1 gene, c.519G>T (p.Leu173Phe), along with other previously described variants seen in the region, such as c.356C>T (p.Thr119Ile). In families with FTD, the most commonly associated gene was GRN , followed by MAPT . Notably, we identified a patient meeting criteria for FTD who carried a pathogenic variant in SOD1 , c.388G>A (p.Phe21Leu), which had previously been reported in another FTD patient from the same geographical region. Conclusions: This study provides the first snapshot of genetic contributors to AD and FTD in a multisite cohort across Latin America. It will be critical to evaluate the generalizability of genetic risk factors for AD and FTD across diverse ancestral backgrounds, considering distinct social determinants of health and accounting for modifiable risk factors that may influence disease risk and resilience across different cultures.
+39574875	25	44	Alzheimer's Disease	Disease	MESH:D000544
+39574875	49	72	Frontotemporal Dementia	Disease	MESH:D057180
+39574875	237	265	Alzheimer's disease dementia	Disease	MESH:D000544
+39574875	267	269	AD	Disease	MESH:D000544
+39574875	275	298	frontotemporal dementia	Disease	MESH:D057180
+39574875	300	303	FTD	Disease	MESH:D057180
+39574875	364	366	AD	Disease	MESH:D000544
+39574875	371	374	FTD	Disease	MESH:D057180
+39574875	447	455	Dementia	Disease	MESH:D003704
+39574875	525	527	AD	Disease	MESH:D000544
+39574875	529	532	FTD	Disease	MESH:D057180
+39574875	983	991	dementia	Disease	MESH:D003704
+39574875	1240	1245	PSEN1	Gene	5663
+39574875	1250	1255	PSEN2	Gene	5664
+39574875	1579	1586	C9orf72	Gene	203228
+39574875	1715	1741	neurodegenerative diseases	Disease	MESH:D019636
+39574875	1772	1774	AD	Disease	MESH:D000544
+39574875	1785	1788	FTD	Disease	MESH:D057180
+39574875	1807	1809	AD	Disease	MESH:D000544
+39574875	1848	1853	PSEN1	Gene	5663
+39574875	1860	1868	c.519G>T	DNAMutation	tmVar:c|SUB|G|519|T;HGVS:c.519G>T;VariantGroup:4;CorrespondingGene:5663;CorrespondingSpecies:9606
+39574875	1870	1881	p.Leu173Phe	ProteinMutation	tmVar:p|SUB|L|173|F;HGVS:p.L173F;VariantGroup:2;CorrespondingGene:5663;RS#:63749911(Expired);CorrespondingSpecies:9606;CA#:225055
+39574875	1959	1967	c.356C>T	DNAMutation	tmVar:c|SUB|C|356|T;HGVS:c.356C>T;VariantGroup:0;CorrespondingGene:4137;RS#:763728305;CorrespondingSpecies:9606
+39574875	1969	1980	p.Thr119Ile	ProteinMutation	tmVar:p|SUB|T|119|I;HGVS:p.T119I;VariantGroup:0;CorrespondingGene:4137;RS#:763728305;CorrespondingSpecies:9606
+39574875	2000	2003	FTD	Disease	MESH:D057180
+39574875	2043	2046	GRN	Gene	2896
+39574875	2061	2065	MAPT	Gene	4137
+39574875	2093	2100	patient	Species	9606
+39574875	2122	2125	FTD	Disease	MESH:D057180
+39574875	2162	2166	SOD1	Gene	6647
+39574875	2169	2177	c.388G>A	DNAMutation	tmVar:c|SUB|G|388|A;HGVS:c.388G>A;VariantGroup:1;CorrespondingGene:6647;RS#:1464048449;CorrespondingSpecies:9606
+39574875	2179	2189	p.Phe21Leu	ProteinMutation	tmVar:p|SUB|F|21|L;HGVS:p.F21L;VariantGroup:3;CorrespondingGene:6647;CorrespondingSpecies:9606
+39574875	2238	2241	FTD	Disease	MESH:D057180
+39574875	2242	2249	patient	Species	9606
+39574875	2364	2366	AD	Disease	MESH:D000544
+39574875	2371	2374	FTD	Disease	MESH:D057180
+39574875	2500	2502	AD	Disease	MESH:D000544
+39574875	2507	2510	FTD	Disease	MESH:D057180
+39574875	Association	MESH:D057180	2896
+39574875	Association	MESH:D057180	RS#:1464048449;HGVS:c.388G>A;CorrespondingGene:6647
+39574875	Positive_Correlation	MESH:D000544	RS#:63749911(Expired);HGVS:p.L173F;CorrespondingGene:5663
+39574875	Positive_Correlation	RS#:763728305;HGVS:c.356C>T;CorrespondingGene:4137	MESH:D000544
+39574875	Positive_Correlation	RS#:1464048449;HGVS:c.388G>A;CorrespondingGene:6647	MESH:D057180
+39574875	Association	MESH:D057180	HGVS:p.F21L;CorrespondingGene:6647
+39574875	Association	MESH:D057180	6647
+39574875	Positive_Correlation	MESH:D000544	RS#:763728305;HGVS:c.356C>T;CorrespondingGene:4137
+39574875	Association	MESH:D057180	4137
+39574875	Positive_Correlation	MESH:D000544	HGVS:c.519G>T;CorrespondingGene:5663
+39574875	Association	MESH:D000544	5663
+39574875	Positive_Correlation	HGVS:c.519G>T;CorrespondingGene:5663	MESH:D000544
+39574875	Positive_Correlation	MESH:D000544	RS#:763728305;HGVS:p.T119I;CorrespondingGene:4137
+39574875	Association	MESH:D000544	4137
+

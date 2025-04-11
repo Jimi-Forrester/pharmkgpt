@@ -1,0 +1,16 @@
+39556614|t|Rapid prediction of key residues for foldability by machine learning model enables the design of highly functional libraries with hyperstable constrained peptide scaffolds.
+39556614|a|Peptides are an emerging modality for developing therapeutics that can either agonize or antagonize cellular pathways associated with disease, yet peptides often suffer from poor chemical and physical stability, which limits their potential. However, naturally occurring disulfide-constrained peptides (DCPs) and de novo designed Hyperstable Constrained Peptides (HCPs) exhibiting highly stable and drug-like scaffolds, making them attractive therapeutic modalities. Previously, we established a robust platform for discovering peptide therapeutics by utilizing multiple DCPs as scaffolds. However, we realized that those libraries could be further improved by considering the foldability of peptide scaffolds for library design. We hypothesized that specific sequence patterns within the peptide scaffolds played a crucial role in spontaneous folding into a stable topology, and thus, these sequences should not be subject to randomization in the original library design. Therefore, we developed a method for designing highly diverse DCP libraries while preserving the inherent foldability of each scaffold. To achieve this, we first generated a large-scale dataset from yeast surface display (YSD) combined with shotgun alanine scan experiments to train a machine-learning (ML) model based on techniques used for natural language understanding. Then we validated the ML model with experiments, showing that it is able to not only predict the foldability of peptides with high accuracy across a broad range of sequences but also pinpoint residues critical for foldability. Using the insights gained from the alanine scanning experiment as well as prediction model, we designed a new peptide library based on a de novo-designed HCP, which was optimized for enhanced folding efficiency. Subsequent panning trials using this library yielded promising hits having good folding properties. In summary, this work advances peptide or small protein domain library design practices. These findings could pave the way for the efficient development of peptide-based therapeutics in the future.
+39556614	173	181	Peptides	Chemical	MESH:D010455
+39556614	320	328	peptides	Chemical	MESH:D010455
+39556614	444	453	disulfide	Chemical	MESH:D004220
+39556614	466	474	peptides	Chemical	MESH:D010455
+39556614	476	480	DCPs	Chemical	-
+39556614	527	535	Peptides	Chemical	MESH:D010455
+39556614	744	748	DCPs	Chemical	-
+39556614	1208	1211	DCP	Chemical	-
+39556614	1345	1350	yeast	Species	4932
+39556614	1395	1402	alanine	Chemical	MESH:D000409
+39556614	1632	1640	peptides	Chemical	MESH:D010455
+39556614	1782	1789	alanine	Chemical	MESH:D000409
+39556614	Association	MESH:D004220	MESH:D010455
+

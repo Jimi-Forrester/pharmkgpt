@@ -1,0 +1,29 @@
+29872297|t|Modeling the neuron as a nanocommunication system to identify spatiotemporal molecular events in neurodegenerative disease.
+29872297|a|AIM: In tauopathies such as Alzheimer's disease (AD), molecular changes spanning multiple subcellular compartments of the neuron contribute to neurodegeneration and altered axonal signaling. Computational modeling of end-to-end linked events benefit mechanistic analysis and can be informative to understand disease progression and accelerate development of effective therapies. In the calcium-amyloid beta model of AD, calcium ions that are an important regulator of neuronal function undergo dysregulated homeostasis that disrupts cargo loading for neurotrophic signaling along axonal microtubules (MTs). The aim of the present study was to develop a computational model of the neuron using a layered architecture simulation that enables us to evaluate the functionalities of several interlinked components in the calcium-amyloid beta model. METHODS: The elevation of intracellular calcium levels is modeled upon binding of amyloid beta oligomers (AbetaOs) to calcium channels or as a result of membrane insertion of oligomeric Abeta1-42 to form pores/channels. The resulting subsequent Ca2+ disruption of dense core vesicle (DCV)-kinesin cargo loading and transport of brain-derived neurotrophic factor (BDNF) on axonal MTs are then evaluated. Our model applies published experimental data on calcium channel manipulation of DCV-BDNF and incorporates organizational complexity of the axon as bundled polar and discontinuous MTs. The interoperability simulation is based on the Institute of Electrical and Electronics Engineers standard association P1906.1 framework for nanoscale and molecular communication. RESULTS: Our analysis provides new spatiotemporal insights into the end-to-end signaling events linking calcium dysregulation and BDNF transport and by simulation compares the relative impact of dysregulation of calcium levels by AbetaO-channel interactions, oligomeric Abeta1-42 pores/channel formation, and release of calcium by internal stores. The flexible platform of our model allows continued expansion of molecular details including mechanistic and morphological parameters of axonal cytoskeleton networks as they become available to test disease and treatment predictions. CONCLUSION: The present model will benefit future drug studies on calcium homeostasis and dysregulation linked to measurable neural functional outcomes. The algorithms used can also link to other multiscale multi-cellular modeling platforms to fill in molecular gaps that we believe will assist in broadening and refining multiscale computational maps of neurodegeneration.
+29872297	97	122	neurodegenerative disease	Disease	MESH:D019636
+29872297	132	143	tauopathies	Disease	MESH:D024801
+29872297	152	171	Alzheimer's disease	Disease	MESH:D000544
+29872297	173	175	AD	Disease	MESH:D000544
+29872297	267	284	neurodegeneration	Disease	MESH:D019636
+29872297	540	542	AD	Disease	MESH:D000544
+29872297	544	551	calcium	Chemical	MESH:D002118
+29872297	1008	1015	calcium	Chemical	MESH:D002118
+29872297	1050	1062	amyloid beta	Gene	351
+29872297	1086	1093	calcium	Chemical	MESH:D002118
+29872297	1213	1217	Ca2+	Chemical	-
+29872297	1252	1255	DCV	CellLine	CVCL:4820
+29872297	1296	1329	brain-derived neurotrophic factor	Gene	627
+29872297	1331	1335	BDNF	Gene	627
+29872297	1420	1427	calcium	Chemical	MESH:D002118
+29872297	1452	1455	DCV	CellLine	CVCL:4820
+29872297	1456	1460	BDNF	Gene	627
+29872297	1840	1847	calcium	Chemical	MESH:D002118
+29872297	1866	1870	BDNF	Gene	627
+29872297	1948	1955	calcium	Chemical	MESH:D002118
+29872297	2056	2063	calcium	Chemical	MESH:D002118
+29872297	2384	2391	calcium	Chemical	MESH:D002118
+29872297	2673	2690	neurodegeneration	Disease	MESH:D019636
+29872297	Association	MESH:D002118	351
+29872297	Association	MESH:D002118	627
+29872297	Association	MESH:D002118	MESH:D000544
+

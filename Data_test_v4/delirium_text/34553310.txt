@@ -1,0 +1,20 @@
+34553310|t|Developing a machine learning model to identify delirium risk in geriatric internal medicine inpatients.
+34553310|a|PURPOSE: To develop a machine learning model that predicts delirium risk in geriatric internal medicine inpatients. METHODS: A prospective cohort study of internal medicine wards in a tertiary care hospital in China. Blinded observers assessed delirium using the Confusion Assessment Method (CAM). The data set was randomly divided into a training set (70%) and a test set (30%). The model was trained on the training set using the decision tree and the five-fold cross-validation, and then the model performance was evaluated on the test set. Under-sampling was used to address the class imbalance. The discriminatory power of the model was measured by the area under the receiver operating characteristic curve (AUC) and F1 score. The data set comprised 740 patients from March 2016 to January 2017. RESULTS: The training set included 518 patients; the median (IQR) age was 84 (79-87) years; 364 (70.3%) were men; 71 (13.7%) with delirium. The test set included 222 patients; the median (IQR) age was 84.5 (79-87) years; 163 (73.4%) were men; 30 (13.5%) with delirium. In total, the data set included 740 hospital admissions with a median (IQR) age of 84 (79-87) years, 527 (71.2%) were men, and 101 (13.6%) with delirium. From 32 potential predictors, we included five variables in the predictive model: depression, cognitive impairment, types of drugs, nutritional status, and activity of daily life (ADL). The mean AUC on the training set was 0.967, the AUC and F1 score on the test set was 0.950 and 0.810, respectively. The model achieved 93.3% sensitivity, 94.3% specificity, 71.8% positive predictive value, 98.9% negative predictive value, and 94.1% accuracy on the test set. CONCLUSION: This machine learning model may allow more precise targeting of delirium prevention and could support clinical decision making in geriatric internal medicine wards.
+34553310	48	56	delirium	Disease	MESH:D003693
+34553310	93	103	inpatients	Species	9606
+34553310	164	172	delirium	Disease	MESH:D003693
+34553310	209	219	inpatients	Species	9606
+34553310	349	357	delirium	Disease	MESH:D003693
+34553310	865	873	patients	Species	9606
+34553310	946	954	patients	Species	9606
+34553310	1016	1019	men	Species	9606
+34553310	1037	1045	delirium	Disease	MESH:D003693
+34553310	1073	1081	patients	Species	9606
+34553310	1145	1148	men	Species	9606
+34553310	1166	1174	delirium	Disease	MESH:D003693
+34553310	1294	1297	men	Species	9606
+34553310	1320	1328	delirium	Disease	MESH:D003693
+34553310	1412	1422	depression	Disease	MESH:D003866
+34553310	1424	1444	cognitive impairment	Disease	MESH:D003072
+34553310	1867	1875	delirium	Disease	MESH:D003693
+

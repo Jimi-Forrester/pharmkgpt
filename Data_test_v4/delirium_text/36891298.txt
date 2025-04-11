@@ -1,0 +1,45 @@
+36891298|t|Identification of a novel senescence-associated signature to predict biochemical recurrence and immune microenvironment for prostate cancer.
+36891298|a|Background: Prostate cancer (PCa) is an age-associated malignancy with high morbidity and mortality rate, posing a severe threat to public health. Cellular senescence, a specialized cell cycle arrest form, results in the secretion of various inflammatory mediators. In recent studies, senescence has shown an essential role in tumorigenesis and tumor development, yet the extensive effects of senescence in PCa have not been systematically investigated. Here, we aimed to develop a feasible senescence-associated prognosis model for early identification and appropriate management in patients with PCa. Method: The RNA sequence results and clinical information available from The Cancer Genome Atlas (TCGA) and a list of experimentally validated senescence-related genes (SRGs) from the CellAge database were first obtained. Then, a senescence-risk signature related with prognosis was constructed using univariate Cox and LASSO regression analysis. We calculated the risk score of each patient and divided them into high-risk and low-risk groups in terms of the median value. Furthermore, two datasets (GSE70770 and GSE46602) were used to assess the effects of the risk model. A nomogram was built by integrating the risk score and clinical characteristics, which was further verified using ROC curves and calibrations. Finally, we compared the differences in the tumor microenvironment (TME) landscape, drug susceptibility, and the functional enrichment among the different risk groups. Results: We established a unique prognostic signature in PCa patients based on eight SRGs, including CENPA, ADCK5, FOXM1, TFAP4, MAPK, LGALS3, BAG3, and NOX4, and validated well prognosis-predictive power in independent datasets. The risk model was associated with age and TNM staging, and the calibration chart presented a high consistency in nomogram prediction. Additionally, the prognostic signature could serve as an independent prediction factor due to its high accuracy. Notably, we found that the risk score was positively associated with tumor mutation burden (TMB) and immune checkpoint, whereas negatively correlated with tumor immune dysfunction and exclusion (TIDE), suggesting that these patients with risk scores were more sensitive to immunotherapy. Drug susceptibility analysis revealed differences in the responses to general drugs (docetaxel, cyclophosphamide, 5-Fluorouracil, cisplatin, paclitaxel, and vincristine) were yielded between the two risk groups. Conclusion: Identifying the SRG-score signature may become a promising method for predicting the prognosis of patients with PCa and tailoring appropriate treatment strategies.
+36891298	124	139	prostate cancer	Disease	MESH:D011471
+36891298	153	168	Prostate cancer	Disease	MESH:D011471
+36891298	170	173	PCa	Disease	MESH:D011471
+36891298	196	206	malignancy	Disease	MESH:D009369
+36891298	383	395	inflammatory	Disease	MESH:D007249
+36891298	468	481	tumorigenesis	Disease	MESH:D063646
+36891298	486	491	tumor	Disease	MESH:D009369
+36891298	548	551	PCa	Disease	MESH:D011471
+36891298	725	733	patients	Species	9606
+36891298	739	742	PCa	Disease	MESH:D011471
+36891298	821	827	Cancer	Disease	MESH:D009369
+36891298	1128	1135	patient	Species	9606
+36891298	1506	1511	tumor	Disease	MESH:D009369
+36891298	1687	1690	PCa	Disease	MESH:D011471
+36891298	1691	1699	patients	Species	9606
+36891298	1731	1736	CENPA	Gene	1058
+36891298	1738	1743	ADCK5	Gene	203054
+36891298	1745	1750	FOXM1	Gene	2305
+36891298	1752	1757	TFAP4	Gene	7023
+36891298	1765	1771	LGALS3	Gene	3958
+36891298	1773	1777	BAG3	Gene	9531
+36891298	1783	1787	NOX4	Gene	50507
+36891298	1903	1906	TNM	Gene	10178
+36891298	2177	2182	tumor	Disease	MESH:D009369
+36891298	2263	2287	tumor immune dysfunction	Disease	MESH:D007154
+36891298	2332	2340	patients	Species	9606
+36891298	2481	2490	docetaxel	Chemical	MESH:D000077143
+36891298	2492	2508	cyclophosphamide	Chemical	MESH:D003520
+36891298	2510	2524	5-Fluorouracil	Chemical	MESH:D005472
+36891298	2526	2535	cisplatin	Chemical	MESH:D002945
+36891298	2537	2547	paclitaxel	Chemical	MESH:D017239
+36891298	2553	2564	vincristine	Chemical	MESH:D014750
+36891298	2636	2639	SRG	Gene	54897
+36891298	2718	2726	patients	Species	9606
+36891298	2732	2735	PCa	Disease	MESH:D011471
+36891298	Association	MESH:D011471	2305
+36891298	Association	MESH:D011471	50507
+36891298	Association	MESH:D011471	3958
+36891298	Association	MESH:D011471	9531
+36891298	Association	MESH:D011471	7023
+36891298	Association	MESH:D011471	1058
+36891298	Association	MESH:D011471	203054
+

@@ -1,0 +1,14 @@
+37771234|t|Diagnosis of Parkinson's disease based on voice signals using SHAP and hard voting ensemble method.
+37771234|a|Parkinson's disease (PD) is the second most common progressive neurological condition after Alzheimer's. The significant number of individuals afflicted with this illness makes it essential to develop a method to diagnose the conditions in their early phases. PD is typically identified from motor symptoms or via other Neuroimaging techniques. Expensive, time-consuming, and unavailable to the general public, these methods are not very accurate. Another issue to be addressed is the black-box nature of machine learning methods that needs interpretation. These issues encourage us to develop a novel technique using Shapley additive explanations (SHAP) and Hard Voting Ensemble Method based on voice signals to diagnose PD more accurately. Another purpose of this study is to interpret the output of the model and determine the most important features in diagnosing PD. The present article uses Pearson Correlation Coefficients to understand the relationship between input features and the output. Input features with high correlation are selected and then classified by the Extreme Gradient Boosting, Light Gradient Boosting Machine, Gradient Boosting, and Bagging. Moreover, the weights in Hard Voting Ensemble Method are determined based on the performance of the mentioned classifiers. At the final stage, it uses SHAP to determine the most important features in PD diagnosis. The effectiveness of the proposed method is validated using 'Parkinson Dataset with Replicated Acoustic Features' from the UCI machine learning repository. It has achieved an accuracy of 85.42%. The findings demonstrate that the proposed method outperformed state-of-the-art approaches and can assist physicians in diagnosing Parkinson's cases.
+37771234	13	32	Parkinson's disease	Disease	MESH:D010300
+37771234	100	119	Parkinson's disease	Disease	MESH:D010300
+37771234	121	123	PD	Disease	MESH:D010300
+37771234	163	185	neurological condition	Disease	MESH:D019636
+37771234	192	203	Alzheimer's	Disease	MESH:D000544
+37771234	360	362	PD	Disease	MESH:D010300
+37771234	822	824	PD	Disease	MESH:D010300
+37771234	968	970	PD	Disease	MESH:D010300
+37771234	1469	1471	PD	Disease	MESH:D010300
+37771234	1544	1553	Parkinson	Disease	MESH:D010302
+37771234	1809	1820	Parkinson's	Disease	MESH:D010300
+

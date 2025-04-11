@@ -1,0 +1,51 @@
+39726060|t|SARS-CoV-2 membrane protein induces neurodegeneration via affecting Golgi-mitochondria interaction.
+39726060|a|BACKGROUND: Neurological complications are a significant concern of Coronavirus Disease 2019 (COVID-19). However, the pathogenic mechanism of neurological symptoms associated with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection is poorly understood. METHODS: We used Drosophila as a model to systematically analyze SARS-CoV-2 genes encoding structural and accessory proteins and identified the membrane protein (M) that disrupted mitochondrial functions in vivo. The M protein was stereotaxically injected to further assess its effects in the brains of wild-type (WT) and 5 x FAD mice. Omics technologies, including RNA sequencing and interactome analysis, were performed to explore the mechanisms of the effects of M protein both in vitro and in vivo. RESULTS: Systematic analysis of SARS-CoV-2 structural and accessory proteins in Drosophila identified that the M protein induces mitochondrial fragmentation and dysfunction, leading to reduced ATP production, ROS overproduction, and eventually cell death in the indirect flight muscles. In WT mice, M caused hippocampal atrophy, neural apoptosis, glial activation, and mitochondrial damage. These changes were further aggravated in 5 x FAD mice. M was localized to the Golgi apparatus and genetically interacted with four wheel drive (FWD, a Drosophila homolog of mammalian PI4KIIIbeta) to regulate Golgi functions in flies. Fwd RNAi, but not PI4KIIIalpha RNAi, reversed the M-induced Golgi abnormality, mitochondrial fragmentation, and ATP reduction. Inhibition of PI4KIIIbeta activity suppressed the M-induced neuronal cell death. Therefore, M induced mitochondrial fragmentation and apoptosis likely through disruption of Golgi-derived PI(4)P-containing vesicles. CONCLUSIONS: M disturbs the distribution and function of Golgi, leading to mitochondrial abnormality and eventually neurodegeneration via a PI4KIIIbeta-mediated mechanism. This study reveals a potential mechanism for COVID-19 neurological symptoms and opens a new avenue for development of therapeutic strategies targeting SARS-CoV-2 M or mitochondria.
+39726060	11	27	membrane protein	Gene	34046
+39726060	36	53	neurodegeneration	Disease	MESH:D019636
+39726060	112	138	Neurological complications	Disease	MESH:D002493
+39726060	168	192	Coronavirus Disease 2019	Disease	MESH:D000086382
+39726060	194	202	COVID-19	Disease	MESH:D000086382
+39726060	242	263	neurological symptoms	Disease	MESH:D009461
+39726060	280	350	severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection	Disease	MESH:D000086382
+39726060	390	400	Drosophila	Species	7227
+39726060	517	533	membrane protein	Gene	34046
+39726060	590	599	M protein	Gene	9172
+39726060	699	702	FAD	Disease	MESH:D000544
+39726060	703	707	mice	Species	10090
+39726060	839	848	M protein	Gene	9172
+39726060	956	966	Drosophila	Species	7227
+39726060	987	996	M protein	Gene	9172
+39726060	1005	1048	mitochondrial fragmentation and dysfunction	Disease	MESH:D012892
+39726060	1069	1072	ATP	Chemical	MESH:D000255
+39726060	1085	1088	ROS	Chemical	-
+39726060	1169	1173	mice	Species	10090
+39726060	1184	1203	hippocampal atrophy	Disease	MESH:D001284
+39726060	1245	1265	mitochondrial damage	Disease	MESH:D028361
+39726060	1312	1315	FAD	Disease	MESH:D000544
+39726060	1316	1320	mice	Species	10090
+39726060	1411	1414	FWD	Gene	45374
+39726060	1418	1428	Drosophila	Species	7227
+39726060	1450	1461	PI4KIIIbeta	Gene	5298
+39726060	1501	1504	Fwd	Gene	45374
+39726060	1519	1531	PI4KIIIalpha	Gene	31247
+39726060	1561	1578	Golgi abnormality	Disease	MESH:D000014
+39726060	1580	1607	mitochondrial fragmentation	Disease	MESH:D012892
+39726060	1613	1616	ATP	Chemical	MESH:D000255
+39726060	1642	1653	PI4KIIIbeta	Gene	5298
+39726060	1688	1707	neuronal cell death	Disease	MESH:D009410
+39726060	1730	1757	mitochondrial fragmentation	Disease	MESH:D012892
+39726060	1815	1821	PI(4)P	Chemical	-
+39726060	1918	1943	mitochondrial abnormality	Disease	MESH:D028361
+39726060	1959	1976	neurodegeneration	Disease	MESH:D019636
+39726060	1983	1994	PI4KIIIbeta	Gene	5298
+39726060	2060	2090	COVID-19 neurological symptoms	Disease	MESH:D000086382
+39726060	Association	MESH:D028361	5298
+39726060	Association	MESH:D019636	5298
+39726060	Positive_Correlation	MESH:D012892	9172
+39726060	Association	MESH:D019636	34046
+39726060	Association	MESH:D000255	45374
+39726060	Negative_Correlation	MESH:D000255	9172
+39726060	Association	MESH:D000014	45374
+39726060	Association	MESH:D012892	45374
+39726060	Association	MESH:D009410	5298
+

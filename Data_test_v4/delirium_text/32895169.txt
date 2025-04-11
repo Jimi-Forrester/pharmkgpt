@@ -1,0 +1,43 @@
+32895169|t|[Effects of stachyine on apoptosis in an Abeta25-35-induced PC12 cell model of Alzheimer's disease].
+32895169|a|OBJECTIVE: To investigate the effects of stachydrine (STA) on apoptosis of Abeta25-35-induced PC12 cells mimicking Alzheimer's disease and explore the mechanisms. METHODS: The differential genes of STA were analyzed based on GSE85871 data, and the target genes of STA were identified using STITCH database. PC12 cells were treated with Abeta25-35 to establish a cell model of Alzheimer's disease, and the changes in cell viability and cell cycle in response to STA treatment were assessed using MTT assay and flow cytometry, respectively. RT-PCR and Western blotting were used to detect the relevant gene or protein expressions in the treated cells. RESULTS: GSE85871 data showed 37 up-regulated genes and 48 down-regulated genes in cells following treatment with STA. Analysis of the data from the STITCH database indicated that RPS8 and EED were the target genes of STA. Treatment of PC12 cells with Abeta25-35 significantly lowered the cell viability (P < 0.05) and the expressions of RPS8 and EED at both the mRNA and protein levels (P < 0.05), and obviously inhibited the expression of apoptosis-related proteins Bcl-2 and p53 (P < 0.05). STA treatment of the cells significantly reversed the effect of Abeta25-35 and induced cell cycle arrest in G2/M phase, causing also significantly increases in the expression levels of RPS8, EED, Bcl-2 and p53 (P < 0.05). CONCLUSIONS: STA plays an important role in inhibiting the apoptosis of PC12 cells induced by Abeta25-35 possibly by regulating RPS8 and EED expression to promote the expressions of Bcl-2 and p53.
+32895169	12	21	stachyine	Chemical	-
+32895169	41	51	Abeta25-35	CellLine	CVCL:TM36
+32895169	60	64	PC12	CellLine	CVCL:0481
+32895169	79	98	Alzheimer's disease	Disease	MESH:D000544
+32895169	142	153	stachydrine	Chemical	MESH:C003342
+32895169	155	158	STA	Chemical	MESH:C003342
+32895169	195	199	PC12	CellLine	CVCL:0481
+32895169	216	235	Alzheimer's disease	Disease	MESH:D000544
+32895169	299	302	STA	Chemical	MESH:C003342
+32895169	365	368	STA	Chemical	MESH:C003342
+32895169	408	412	PC12	CellLine	CVCL:0481
+32895169	477	496	Alzheimer's disease	Disease	MESH:D000544
+32895169	562	565	STA	Chemical	MESH:C003342
+32895169	596	599	MTT	Chemical	MESH:C070243
+32895169	865	868	STA	Chemical	MESH:C003342
+32895169	931	935	RPS8	Gene	65136
+32895169	940	943	EED	Gene	293104
+32895169	969	972	STA	Chemical	MESH:C003342
+32895169	987	991	PC12	CellLine	CVCL:0481
+32895169	1089	1093	RPS8	Gene	65136
+32895169	1098	1101	EED	Gene	293104
+32895169	1219	1224	Bcl-2	Gene	24224
+32895169	1229	1232	p53	Gene	301300
+32895169	1245	1248	STA	Chemical	MESH:C003342
+32895169	1430	1434	RPS8	Gene	65136
+32895169	1436	1439	EED	Gene	293104
+32895169	1441	1446	Bcl-2	Gene	24224
+32895169	1451	1454	p53	Gene	301300
+32895169	1480	1483	STA	Chemical	MESH:C003342
+32895169	1539	1543	PC12	CellLine	CVCL:0481
+32895169	1595	1599	RPS8	Gene	65136
+32895169	1604	1607	EED	Gene	293104
+32895169	1649	1654	Bcl-2	Gene	24224
+32895169	1659	1662	p53	Gene	301300
+32895169	Positive_Correlation	MESH:C003342	24224
+32895169	Positive_Correlation	MESH:C003342	65136
+32895169	Association	293104	301300
+32895169	Positive_Correlation	MESH:C003342	301300
+32895169	Association	301300	65136
+32895169	Association	MESH:C003342	293104
+

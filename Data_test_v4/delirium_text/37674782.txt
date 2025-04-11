@@ -1,0 +1,36 @@
+37674782|t|A holo-spectral EEG analysis provides an early detection of cognitive decline and predicts the progression to Alzheimer's disease.
+37674782|a|Aims: Our aim was to differentiate patients with mild cognitive impairment (MCI) and Alzheimer's disease (AD) from cognitively normal (CN) individuals and predict the progression from MCI to AD within a 3-year longitudinal follow-up. A newly developed Holo-Hilbert Spectral Analysis (HHSA) was applied to resting state EEG (rsEEG), and features were extracted and subjected to machine learning algorithms. Methods: A total of 205 participants were recruited from three hospitals, with CN (n = 51, MMSE > 26), MCI (n = 42, CDR = 0.5, MMSE >= 25), AD1 (n = 61, CDR = 1, MMSE < 25), AD2 (n = 35, CDR = 2, MMSE < 16), and AD3 (n = 16, CDR = 3, MMSE < 16). rsEEG was also acquired from all subjects. Seventy-two MCI patients (CDR = 0.5) were longitudinally followed up with two rsEEG recordings within 3 years and further subdivided into an MCI-stable group (MCI-S, n = 36) and an MCI-converted group (MCI-C, n = 36). The HHSA was then applied to the rsEEG data, and features were extracted and subjected to machine-learning algorithms. Results: (a) At the group level analysis, the HHSA contrast of MCI and different stages of AD showed augmented amplitude modulation (AM) power of lower-frequency oscillations (LFO; delta and theta bands) with attenuated AM power of higher-frequency oscillations (HFO; beta and gamma bands) compared with cognitively normal elderly controls. The alpha frequency oscillation showed augmented AM power across MCI to AD1 with a reverse trend at AD2. (b) At the individual level of cross-sectional analysis, implementation of machine learning algorithms discriminated between groups with good sensitivity (Sen) and specificity (Spec) as follows: CN elderly vs. MCI: 0.82 (Sen)/0.80 (Spec), CN vs. AD1: 0.94 (Sen)/0.80 (Spec), CN vs. AD2: 0.93 (Sen)/0.90 (Spec), and CN vs. AD3: 0.75 (Sen)/1.00 (Spec). (c) In the longitudinal MCI follow-up, the initial contrasted HHSA between MCI-S and MCI-C groups showed significantly attenuated AM power of alpha and beta band oscillations. (d) At the individual level analysis of longitudinal MCI groups, deploying machine learning algorithms with the best seven features resulted in a sensitivity of 0.9 by the support vector machine (SVM) classifier, with a specificity of 0.8 yielded by the decision tree classifier. Conclusion: Integrating HHSA into EEG signals and machine learning algorithms can differentiate between CN and MCI as well as also predict AD progression at the MCI stage.
+37674782	60	77	cognitive decline	Disease	MESH:D003072
+37674782	110	129	Alzheimer's disease	Disease	MESH:D000544
+37674782	185	205	cognitive impairment	Disease	MESH:D003072
+37674782	207	210	MCI	Disease	MESH:D060825
+37674782	216	235	Alzheimer's disease	Disease	MESH:D000544
+37674782	237	239	AD	Disease	MESH:D000544
+37674782	315	318	MCI	Disease	MESH:D060825
+37674782	322	324	AD	Disease	MESH:D000544
+37674782	640	643	MCI	Disease	MESH:D060825
+37674782	677	680	AD1	Disease	MESH:D000544
+37674782	711	714	AD2	Disease	MESH:C536595
+37674782	749	752	AD3	Disease	MESH:C564330
+37674782	838	841	MCI	Disease	MESH:D060825
+37674782	967	970	MCI	Disease	MESH:D060825
+37674782	985	990	MCI-S	Disease	MESH:D060825
+37674782	1007	1010	MCI	Disease	MESH:D060825
+37674782	1028	1033	MCI-C	Disease	MESH:D060825
+37674782	1226	1229	MCI	Disease	MESH:D060825
+37674782	1254	1256	AD	Disease	MESH:D000544
+37674782	1569	1572	MCI	Disease	MESH:D060825
+37674782	1576	1579	AD1	Disease	MESH:D000544
+37674782	1604	1607	AD2	Disease	MESH:C536595
+37674782	1819	1822	MCI	Disease	MESH:D060825
+37674782	1855	1858	AD1	Disease	MESH:D000544
+37674782	1891	1894	AD2	Disease	MESH:C536595
+37674782	1931	1934	AD3	Disease	MESH:C564330
+37674782	1984	1987	MCI	Disease	MESH:D060825
+37674782	2035	2040	MCI-S	Disease	MESH:D060825
+37674782	2045	2050	MCI-C	Disease	MESH:D060825
+37674782	2189	2192	MCI	Disease	MESH:D060825
+37674782	2527	2530	MCI	Disease	MESH:D060825
+37674782	2555	2557	AD	Disease	MESH:D000544
+37674782	2577	2580	MCI	Disease	MESH:D060825
+

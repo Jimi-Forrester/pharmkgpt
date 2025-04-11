@@ -1,0 +1,26 @@
+36345338|t|Mining the transcriptome of target tissues of autoimmune and degenerative pancreatic beta-cell and brain diseases to discover therapies.
+36345338|a|Target tissues of autoimmune and degenerative diseases show signals of inflammation. We used publicly available RNA-seq data to study whether pancreatic beta-cells in type 1 and type 2 diabetes and neuronal tissue in multiple sclerosis and Alzheimer's disease share inflammatory gene signatures. We observed concordantly upregulated genes in pairwise diseases, many of them related to signaling by interleukins and interferons. We next mined these signatures to identify therapies that could be re-purposed/shared among the diseases and identified the bromodomain inhibitors as potential perturbagens to revert the transcriptional signatures. We experimentally confirmed in human beta-cells that bromodomain inhibitors I-BET151 and GSK046 prevent the deleterious effects of the pro-inflammatory cytokines interleukin-1beta and interferon-gamma and at least some of the effects of the metabolic stressor palmitate. These results demonstrate that key inflammation-induced molecular mechanisms are shared between beta-cells and brain in autoimmune and degenerative diseases and that these signatures can be mined for drug discovery.
+36345338	46	90	autoimmune and degenerative pancreatic beta-	Disease	MESH:D000081012
+36345338	99	113	brain diseases	Disease	MESH:D001927
+36345338	155	191	autoimmune and degenerative diseases	Disease	MESH:D019636
+36345338	208	220	inflammation	Disease	MESH:D007249
+36345338	304	330	type 1 and type 2 diabetes	Disease	MESH:D003924
+36345338	354	372	multiple sclerosis	Disease	MESH:D009103
+36345338	377	396	Alzheimer's disease	Disease	MESH:D000544
+36345338	403	415	inflammatory	Disease	MESH:D007249
+36345338	811	816	human	Species	9606
+36345338	856	864	I-BET151	Chemical	MESH:C568713
+36345338	869	875	GSK046	Chemical	-
+36345338	919	931	inflammatory	Disease	MESH:D007249
+36345338	942	959	interleukin-1beta	Gene	3553
+36345338	964	980	interferon-gamma	Gene	3458
+36345338	1040	1049	palmitate	Chemical	MESH:D010168
+36345338	1086	1098	inflammation	Disease	MESH:D007249
+36345338	1171	1207	autoimmune and degenerative diseases	Disease	MESH:D019636
+36345338	Negative_Correlation	MESH:C568713	3553
+36345338	Negative_Correlation	MESH:C568713	MESH:D007249
+36345338	Positive_Correlation	MESH:D007249	3553
+36345338	Negative_Correlation	MESH:C568713	MESH:D010168
+36345338	Association	MESH:D007249	3458
+36345338	Negative_Correlation	MESH:C568713	3458
+

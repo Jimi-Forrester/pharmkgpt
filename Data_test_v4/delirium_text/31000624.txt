@@ -1,0 +1,48 @@
+31000624|t|Diacylglycerol kinase control of protein kinase C.
+31000624|a|The diacylglycerol kinases (DGK) are lipid kinases that transform diacylglycerol (DAG) into phosphatidic acid (PA) in a reaction that terminates DAG-based signals. DGK provide negative regulation to conventional and novel protein kinase C (PKC) enzymes, limiting local DAG availability in a tissue- and subcellular-restricted manner. Defects in the expression/activity of certain DGK isoforms contribute substantially to cognitive impairment and mental disorders. Abnormal DGK overexpression in tumors facilitates invasion and resistance to chemotherapy preventing tumor immune destruction by tumor-infiltrating lymphocytes. Effective translation of these findings into therapeutic approaches demands a better knowledge of the physical and functional interactions between the DGK and PKC families. DGKzeta is abundantly expressed in the nervous and immune system, where physically and functionally interacts with PKCalpha. The latest discoveries suggest that PDZ-mediated interaction facilitates spatial restriction of PKCalpha by DGKzeta at the cell-cell contact sites in a mechanism where the two enzymes regulate each other. In T lymphocytes, DGKzeta interaction with Sorting Nexin 27 (SNX27) guarantees the basal control of PKCalpha activation. SNX27 is a trafficking component required for normal brain function whose deficit has been linked to Alzheimer's disease (AD) pathogenesis. The enhanced PKCalpha activation as the result of SNX27 silencing in T lymphocytes aligns with the recent correlation found between gain-of-function PKCalpha mutations and AD and suggests that disruption of the mechanisms that provides a correct spatial organization of DGKzeta and PKCalpha may lie at the basis of immune and neuronal synapse impairment.
+31000624	33	49	protein kinase C	Gene	112476
+31000624	117	131	diacylglycerol	Chemical	MESH:D004075
+31000624	133	136	DAG	Chemical	MESH:D004075
+31000624	143	160	phosphatidic acid	Chemical	MESH:D010712
+31000624	162	164	PA	Chemical	MESH:D010712
+31000624	196	199	DAG	Chemical	MESH:D004075
+31000624	273	289	protein kinase C	Gene	112476
+31000624	291	294	PKC	Gene	112476
+31000624	320	323	DAG	Chemical	MESH:D004075
+31000624	472	492	cognitive impairment	Disease	MESH:D003072
+31000624	497	513	mental disorders	Disease	MESH:D001523
+31000624	546	552	tumors	Disease	MESH:D009369
+31000624	616	621	tumor	Disease	MESH:D009369
+31000624	644	649	tumor	Disease	MESH:D009369
+31000624	835	838	PKC	Gene	112476
+31000624	849	856	DGKzeta	Gene	8525
+31000624	964	972	PKCalpha	Gene	5578
+31000624	1070	1078	PKCalpha	Gene	5578
+31000624	1082	1089	DGKzeta	Gene	8525
+31000624	1197	1204	DGKzeta	Gene	8525
+31000624	1222	1238	Sorting Nexin 27	Gene	81609
+31000624	1240	1245	SNX27	Gene	81609
+31000624	1279	1287	PKCalpha	Gene	5578
+31000624	1300	1305	SNX27	Gene	81609
+31000624	1401	1420	Alzheimer's disease	Disease	MESH:D000544
+31000624	1422	1424	AD	Disease	MESH:D000544
+31000624	1453	1461	PKCalpha	Gene	5578
+31000624	1490	1495	SNX27	Gene	81609
+31000624	1589	1597	PKCalpha	Gene	5578
+31000624	1612	1614	AD	Disease	MESH:D000544
+31000624	1710	1717	DGKzeta	Gene	8525
+31000624	1722	1730	PKCalpha	Gene	5578
+31000624	1766	1793	neuronal synapse impairment	Disease	MESH:D009410
+31000624	Association	5578	8525
+31000624	Association	MESH:D009410	5578
+31000624	Association	MESH:D000544	81609
+31000624	Association	MESH:D009369	81609
+31000624	Association	MESH:D010712	MESH:D009369
+31000624	Association	MESH:D009369	8525
+31000624	Association	MESH:D000544	5578
+31000624	Positive_Correlation	5578	81609
+31000624	Association	MESH:D009410	8525
+31000624	Negative_Correlation	MESH:D004075	MESH:D009369
+31000624	Comparison	MESH:D004075	MESH:D010712
+31000624	Association	81609	8525
+

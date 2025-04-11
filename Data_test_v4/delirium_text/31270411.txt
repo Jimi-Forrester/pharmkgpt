@@ -1,0 +1,20 @@
+31270411|t|The Route to 'Chemobrain' - Computational probing of neuronal LTP pathway.
+31270411|a|Chemotherapy causes deleterious side effects during the course of cancer management. The toxic effects may be extended to CNS chronically resulting in altered cognitive function like learning and memory. The present study follows a computational assessment of 64 chemotherapeutic drugs for their off-target interactions against the major proteins involved in neuronal long term potentiation pathway. The cancer chemo-drugs were subjected to induced fit docking followed by scoring alignment and drug-targets interaction analysis. The results were further probed by electrostatic potential computation and ligand binding affinity prediction of the top complexes. The study identified novel off-target interactions by Dactinomycin, Temsirolimus, and Everolimus against NMDA, AMPA, PKA and ERK2, while Irinotecan, Bromocriptine and Dasatinib were top interacting drugs for CaMKII. This study presents with basic foundational knowledge regarding potential chemotherapeutic interference in LTP pathway which may modulate neurotransmission and synaptic plasticity in patient receiving these chemotherapies.
+31270411	141	147	cancer	Disease	MESH:D009369
+31270411	479	485	cancer	Disease	MESH:D009369
+31270411	791	803	Dactinomycin	Chemical	MESH:D003609
+31270411	805	817	Temsirolimus	Chemical	MESH:C401859
+31270411	823	833	Everolimus	Chemical	MESH:D000068338
+31270411	862	866	ERK2	Gene	5594
+31270411	874	884	Irinotecan	Chemical	MESH:D000077146
+31270411	886	899	Bromocriptine	Chemical	MESH:D001971
+31270411	904	913	Dasatinib	Chemical	MESH:D000069439
+31270411	945	951	CaMKII	Gene	818
+31270411	1136	1143	patient	Species	9606
+31270411	Negative_Correlation	MESH:D000068338	5594
+31270411	Association	MESH:D001971	818
+31270411	Negative_Correlation	MESH:D003609	5594
+31270411	Association	MESH:D000069439	818
+31270411	Negative_Correlation	MESH:C401859	5594
+31270411	Association	MESH:D000077146	818
+

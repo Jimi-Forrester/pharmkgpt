@@ -1,0 +1,72 @@
+33440601|t|Role of Annexin A1 in NLRP3 Inflammasome Activation in Murine Neutrophils.
+33440601|a|This study evaluated the role of endogenous and exogenous annexin A1 (AnxA1) in the activation of the NLRP3 inflammasome in isolated peritoneal neutrophils. C57BL/6 wild-type (WT) and AnxA1 knockout mice (AnxA1-/-) received 0.3% carrageenan intraperitoneally and, after 3 h, the peritoneal exudate was collected. WT and AnxA1-/- neutrophils were then stimulated with lipopolysaccharide, followed by the NLRP3 agonists nigericin or ATP. To determine the exogenous effect of AnxA1, the neutrophils were pretreated with the AnxA1-derived peptide Ac2-26 followed by the NLRP3 agonists. Ac2-26 administration reduced NLRP3-derived IL-1beta production by WT neutrophils after nigericin and ATP stimulation. However, IL-1beta release was impaired in AnxA1-/- neutrophils stimulated by both agonists, and there was no further impairment in IL-1beta release with Ac2-26 treatment before stimulation. Despite this, ATP- and nigericin-stimulated AnxA1-/- neutrophils had increased levels of cleaved caspase-1. The lipidomics of supernatants from nigericin-stimulated WT and AnxA1-/- neutrophils showed potential lipid biomarkers of cell stress and activation, including specific sphingolipids and glycerophospholipids. AnxA1 peptidomimetic treatment also increased the concentration of phosphatidylserines and oxidized phosphocholines, which are lipid biomarkers related to the inflammatory resolution pathway. Together, our results indicate that exogenous AnxA1 negatively regulates NLRP3-derived IL-1beta production by neutrophils, while endogenous AnxA1 is required for the activation of the NLRP3 machinery.
+33440601	8	18	Annexin A1	Gene	16952
+33440601	22	27	NLRP3	Gene	216799
+33440601	55	61	Murine	Species	10090
+33440601	133	143	annexin A1	Gene	16952
+33440601	145	150	AnxA1	Gene	16952
+33440601	177	182	NLRP3	Gene	216799
+33440601	232	239	C57BL/6	CellLine	CVCL:C0MU
+33440601	259	264	AnxA1	Gene	16952
+33440601	274	278	mice	Species	10090
+33440601	280	285	AnxA1	Gene	16952
+33440601	304	315	carrageenan	Chemical	MESH:D002351
+33440601	395	400	AnxA1	Gene	16952
+33440601	442	460	lipopolysaccharide	Chemical	MESH:D008070
+33440601	478	483	NLRP3	Gene	216799
+33440601	493	502	nigericin	Chemical	MESH:D009550
+33440601	506	509	ATP	Chemical	MESH:D000255
+33440601	548	553	AnxA1	Gene	16952
+33440601	596	601	AnxA1	Gene	16952
+33440601	618	624	Ac2-26	Chemical	-
+33440601	641	646	NLRP3	Gene	216799
+33440601	657	663	Ac2-26	Chemical	-
+33440601	687	692	NLRP3	Gene	216799
+33440601	701	709	IL-1beta	Gene	16176
+33440601	745	754	nigericin	Chemical	MESH:D009550
+33440601	759	762	ATP	Chemical	MESH:D000255
+33440601	785	793	IL-1beta	Gene	16176
+33440601	818	823	AnxA1	Gene	16952
+33440601	907	915	IL-1beta	Gene	16176
+33440601	929	935	Ac2-26	Chemical	-
+33440601	980	983	ATP	Chemical	MESH:D000255
+33440601	989	998	nigericin	Chemical	MESH:D009550
+33440601	1010	1015	AnxA1	Gene	16952
+33440601	1063	1072	caspase-1	Gene	12362
+33440601	1110	1119	nigericin	Chemical	MESH:D009550
+33440601	1138	1143	AnxA1	Gene	16952
+33440601	1176	1181	lipid	Chemical	MESH:D008055
+33440601	1243	1256	sphingolipids	Chemical	MESH:D013107
+33440601	1261	1281	glycerophospholipids	Chemical	MESH:D020404
+33440601	1283	1288	AnxA1	Gene	16952
+33440601	1350	1369	phosphatidylserines	Chemical	MESH:D010718
+33440601	1383	1398	phosphocholines	Chemical	MESH:D010767
+33440601	1410	1415	lipid	Chemical	MESH:D008055
+33440601	1442	1454	inflammatory	Disease	MESH:D007249
+33440601	1521	1526	AnxA1	Gene	16952
+33440601	1548	1553	NLRP3	Gene	216799
+33440601	1562	1570	IL-1beta	Gene	16176
+33440601	1615	1620	AnxA1	Gene	16952
+33440601	1659	1664	NLRP3	Gene	216799
+33440601	Association	MESH:D010767	MESH:D007249
+33440601	Positive_Correlation	MESH:D000255	12362
+33440601	Positive_Correlation	MESH:D010767	16952
+33440601	Association	MESH:D010718	MESH:D007249
+33440601	Positive_Correlation	MESH:D000255	216799
+33440601	Association	MESH:D009550	16952
+33440601	Positive_Correlation	MESH:D009550	16176
+33440601	Positive_Correlation	MESH:D010718	16952
+33440601	Association	MESH:D020404	16952
+33440601	Association	MESH:D009550	MESH:D020404
+33440601	Positive_Correlation	MESH:D009550	12362
+33440601	Association	MESH:D009550	MESH:D013107
+33440601	Positive_Correlation	MESH:D009550	216799
+33440601	Negative_Correlation	16176	16952
+33440601	Association	16176	216799
+33440601	Negative_Correlation	16952	216799
+33440601	Association	MESH:D000255	16952
+33440601	Positive_Correlation	MESH:D008070	216799
+33440601	Association	MESH:D013107	16952
+33440601	Association	12362	16952
+33440601	Positive_Correlation	MESH:D000255	16176
+

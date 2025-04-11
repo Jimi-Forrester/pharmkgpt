@@ -1,0 +1,20 @@
+39063562|t|Generating Complex Explanations for Artificial Intelligence Models: An Application to Clinical Data on Severe Mental Illness.
+39063562|a|We present an explainable artificial intelligence methodology for predicting mortality in patients. We combine clinical data from an electronic patient healthcare record system with factors relevant for severe mental illness and then apply machine learning. The machine learning model is used to predict mortality in patients with severe mental illness. Our methodology uses class-contrastive reasoning. We show how machine learning scientists can use class-contrastive reasoning to generate complex explanations that explain machine model predictions and data. An example of a complex class-contrastive explanation is the following: "The patient is predicted to have a low probability of death because the patient has self-harmed before, and was at some point on medications such as first-generation and second-generation antipsychotics. There are 11 other patients with these characteristics. If the patient did not have these characteristics, the prediction would be different". This can be used to generate new hypotheses, which can be tested in follow-up studies. Diuretics seemed to be associated with a lower probability of mortality (as predicted by the machine learning model) in a group of patients with cardiovascular disease. The combination of delirium and dementia in Alzheimer's disease may also predispose some patients towards a higher probability of predicted mortality. Our technique can be employed to create intricate explanations from healthcare data and possibly other areas where explainability is important. We hope this will be a step towards explainable AI in personalized medicine.
+39063562	110	124	Mental Illness	Disease	MESH:D001523
+39063562	216	224	patients	Species	9606
+39063562	270	277	patient	Species	9606
+39063562	336	350	mental illness	Disease	MESH:D001523
+39063562	443	451	patients	Species	9606
+39063562	464	478	mental illness	Disease	MESH:D001523
+39063562	765	772	patient	Species	9606
+39063562	815	820	death	Disease	MESH:D003643
+39063562	833	840	patient	Species	9606
+39063562	984	992	patients	Species	9606
+39063562	1028	1035	patient	Species	9606
+39063562	1326	1334	patients	Species	9606
+39063562	1340	1362	cardiovascular disease	Disease	MESH:D002318
+39063562	1383	1391	delirium	Disease	MESH:D003693
+39063562	1396	1404	dementia	Disease	MESH:D003704
+39063562	1408	1427	Alzheimer's disease	Disease	MESH:D000544
+39063562	1453	1461	patients	Species	9606
+

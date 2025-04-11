@@ -1,0 +1,28 @@
+35046766|t|Toward a Multimodal Computer-Aided Diagnostic Tool for Alzheimer's Disease Conversion.
+35046766|a|Alzheimer's disease (AD) is a progressive neurodegenerative disorder. It is one of the leading sources of morbidity and mortality in the aging population AD cardinal symptoms include memory and executive function impairment that profoundly alters a patient's ability to perform activities of daily living. People with mild cognitive impairment (MCI) exhibit many of the early clinical symptoms of patients with AD and have a high chance of converting to AD in their lifetime. Diagnostic criteria rely on clinical assessment and brain magnetic resonance imaging (MRI). Many groups are working to help automate this process to improve the clinical workflow. Current computational approaches are focused on predicting whether or not a subject with MCI will convert to AD in the future. To our knowledge, limited attention has been given to the development of automated computer-assisted diagnosis (CAD) systems able to provide an AD conversion diagnosis in MCI patient cohorts followed longitudinally. This is important as these CAD systems could be used by primary care providers to monitor patients with MCI. The method outlined in this paper addresses this gap and presents a computationally efficient pre-processing and prediction pipeline, and is designed for recognizing patterns associated with AD conversion. We propose a new approach that leverages longitudinal data that can be easily acquired in a clinical setting (e.g., T1-weighted magnetic resonance images, cognitive tests, and demographic information) to identify the AD conversion point in MCI subjects with AUC = 84.7. In contrast, cognitive tests and demographics alone achieved AUC = 80.6, a statistically significant difference (n = 669, p < 0.05). We designed a convolutional neural network that is computationally efficient and requires only linear registration between imaging time points. The model architecture combines Attention and Inception architectures while utilizing both cross-sectional and longitudinal imaging and clinical information. Additionally, the top brain regions and clinical features that drove the model's decision were investigated. These included the thalamus, caudate, planum temporale, and the Rey Auditory Verbal Learning Test. We believe our method could be easily translated into the healthcare setting as an objective AD diagnostic tool for patients with MCI.
+35046766	55	74	Alzheimer's Disease	Disease	MESH:D000544
+35046766	87	106	Alzheimer's disease	Disease	MESH:D000544
+35046766	108	110	AD	Disease	MESH:D000544
+35046766	129	155	neurodegenerative disorder	Disease	MESH:D019636
+35046766	241	243	AD	Disease	MESH:D000544
+35046766	270	310	memory and executive function impairment	Disease	MESH:D008569
+35046766	336	343	patient	Species	9606
+35046766	405	430	mild cognitive impairment	Disease	MESH:D060825
+35046766	432	435	MCI	Disease	MESH:D060825
+35046766	484	492	patients	Species	9606
+35046766	498	500	AD	Disease	MESH:D000544
+35046766	541	543	AD	Disease	MESH:D000544
+35046766	832	835	MCI	Disease	MESH:D060825
+35046766	852	854	AD	Disease	MESH:D000544
+35046766	1014	1016	AD	Disease	MESH:D000544
+35046766	1041	1044	MCI	Disease	MESH:D060825
+35046766	1045	1052	patient	Species	9606
+35046766	1176	1184	patients	Species	9606
+35046766	1190	1193	MCI	Disease	MESH:D060825
+35046766	1386	1388	AD	Disease	MESH:D000544
+35046766	1618	1620	AD	Disease	MESH:D000544
+35046766	1641	1644	MCI	Disease	MESH:D060825
+35046766	2407	2409	AD	Disease	MESH:D000544
+35046766	2430	2438	patients	Species	9606
+35046766	2444	2447	MCI	Disease	MESH:D060825
+

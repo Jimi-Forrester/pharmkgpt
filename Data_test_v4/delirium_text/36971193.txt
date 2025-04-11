@@ -1,0 +1,44 @@
+36971193|t|Updated insights on dementia-related risk of sacubitril/valsartan: A real-world pharmacovigilance analysis.
+36971193|a|AIM: Sacubitril/valsartan is a new cardiovascular agent characterized by its dual inhibition on the reninangiotensin system (RAS) and the neprilysin. As neprilysin also involved itself in the degradation of amyloid-beta, there is an ongoing concern about the effect of sacubitril/valsartan on cognition, especially in case of long-term administration. METHODS: The FDA Adverse Event Reporting System (FAERS) was mined between 2015Q3 and 2022Q4 to analyze the association between sacubitril/valsartan and adverse events (AEs) involving dementia. Standardized Medical Dictionary for Regulatory Activities (MedDRA) Queries (SMQs) with "broad" and "narrow" preferred terms (PTs) relevant to dementia was applied to systematically search demented AE reports. The Empirical Bayes Geometric Mean (EBGM) from Multi-Item Gamma Poisson Shrinker (MGPS) and proportional reporting ratio with Chi-square (PRR, chi2 ) were used to calculate the disproportionality. RESULTS: We filtered the query for indication and identified 80,316 reports with heart failure indication in FAERS during the analytical period. Among all the reports, sacubitril/valsartan was listed as primary suspected or secondary suspected drug in 29,269 cases. No significantly elevated reporting rates of narrow dementia were evident with sacubitril/valsartan. The EBGM05 for narrow dementia-related AEs associated with sacubitril/valsartan was 0.88 and the PRR (chi2 ) was 1.22 (2.40). Similarly, broad demented complications were not over-reported in the heart failure patients administrated with sacubitril/valsartan (EBGM05 1.11; PRR 1.31, chi2 109.36). CONCLUSION: The number of dementia-related cases reported to FAERS generate no safety signal attributable to sacubitril/valsartan in patients with heart failure for now. Further follow-ups are still warranted to address this question.
+36971193	20	28	dementia	Disease	MESH:D003704
+36971193	45	55	sacubitril	Chemical	MESH:C000717211
+36971193	56	65	valsartan	Chemical	MESH:D000068756
+36971193	113	123	Sacubitril	Chemical	MESH:C000717211
+36971193	124	133	valsartan	Chemical	MESH:D000068756
+36971193	158	163	agent	Chemical	-
+36971193	246	256	neprilysin	Gene	4311
+36971193	261	271	neprilysin	Gene	4311
+36971193	315	327	amyloid-beta	Gene	351
+36971193	377	387	sacubitril	Chemical	MESH:C000717211
+36971193	388	397	valsartan	Chemical	MESH:D000068756
+36971193	587	597	sacubitril	Chemical	MESH:C000717211
+36971193	598	607	valsartan	Chemical	MESH:D000068756
+36971193	643	651	dementia	Disease	MESH:D003704
+36971193	795	803	dementia	Disease	MESH:D003704
+36971193	841	849	demented	Disease	
+36971193	1140	1153	heart failure	Disease	MESH:D006333
+36971193	1227	1237	sacubitril	Chemical	MESH:C000717211
+36971193	1238	1247	valsartan	Chemical	MESH:D000068756
+36971193	1377	1385	dementia	Disease	MESH:D003704
+36971193	1404	1414	sacubitril	Chemical	MESH:C000717211
+36971193	1415	1424	valsartan	Chemical	MESH:D000068756
+36971193	1448	1468	dementia-related AEs	Disease	MESH:D002318
+36971193	1485	1495	sacubitril	Chemical	MESH:C000717211
+36971193	1496	1505	valsartan	Chemical	MESH:D000068756
+36971193	1569	1577	demented	Disease	
+36971193	1622	1635	heart failure	Disease	MESH:D006333
+36971193	1636	1644	patients	Species	9606
+36971193	1664	1674	sacubitril	Chemical	MESH:C000717211
+36971193	1675	1684	valsartan	Chemical	MESH:D000068756
+36971193	1749	1757	dementia	Disease	MESH:D003704
+36971193	1832	1842	sacubitril	Chemical	MESH:C000717211
+36971193	1843	1852	valsartan	Chemical	MESH:D000068756
+36971193	1856	1864	patients	Species	9606
+36971193	1870	1883	heart failure	Disease	MESH:D006333
+36971193	Association	MESH:C000717211	MESH:D002318
+36971193	Negative_Correlation	351	4311
+36971193	Association	MESH:D000068756	MESH:D002318
+36971193	Negative_Correlation	MESH:C000717211	4311
+36971193	Negative_Correlation	MESH:D000068756	4311
+36971193	Comparison	MESH:C000717211	MESH:D000068756
+

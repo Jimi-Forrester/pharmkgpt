@@ -1,0 +1,10 @@
+27022407|t|The Research of Feature Extraction Method of Liver Pathological Image Based on Multispatial Mapping and Statistical Properties.
+27022407|a|We propose a new feature extraction method of liver pathological image based on multispatial mapping and statistical properties. For liver pathological images of Hematein Eosin staining, the image of R and B channels can reflect the sensitivity of liver pathological images better, while the entropy space and Local Binary Pattern (LBP) space can reflect the texture features of the image better. To obtain the more comprehensive information, we map liver pathological images to the entropy space, LBP space, R space, and B space. The traditional Higher Order Local Autocorrelation Coefficients (HLAC) cannot reflect the overall information of the image, so we propose an average correction HLAC feature. We calculate the statistical properties and the average gray value of pathological images and then update the current pixel value as the absolute value of the difference between the current pixel gray value and the average gray value, which can be more sensitive to the gray value changes of pathological images. Lastly the HLAC template is used to calculate the features of the updated image. The experiment results show that the improved features of the multispatial mapping have the better classification performance for the liver cancer. 
+27022407	45	63	Liver Pathological	Disease	MESH:D017093
+27022407	174	192	liver pathological	Disease	MESH:D017093
+27022407	261	279	liver pathological	Disease	MESH:D017093
+27022407	290	304	Hematein Eosin	Chemical	-
+27022407	376	394	liver pathological	Disease	MESH:D017093
+27022407	578	596	liver pathological	Disease	MESH:D017093
+27022407	1361	1373	liver cancer	Disease	MESH:D006528
+

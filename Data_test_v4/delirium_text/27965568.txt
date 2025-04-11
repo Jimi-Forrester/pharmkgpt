@@ -1,0 +1,34 @@
+27965568|t|Regularized Linear Discriminant Analysis of EEG Features in Dementia Patients.
+27965568|a|The present study explores if EEG spectral parameters can discriminate between healthy elderly controls (HC), Alzheimer's disease (AD) and vascular dementia (VaD) using. We considered EEG data recorded during normal clinical routine with 114 healthy controls (HC), 114 AD, and 114 VaD patients. The spectral features extracted from the EEG were the absolute delta power, decay from lower to higher frequencies, amplitude, center and dispersion of the alpha power and baseline power of the entire frequency spectrum. For discrimination, we submitted these EEG features to regularized linear discriminant analysis algorithm with a 10-fold cross-validation. To check the consistency of the results obtained by our classifiers, we applied bootstrap statistics. Four binary classifiers were used to discriminate HC from AD, HC from VaD, AD from VaD, and HC from dementia patients (AD or VaD). For each model, we measured the discrimination performance using the area under curve (AUC) and the accuracy of the cross-validation (cv-ACC). We applied this procedure using two different sets of predictors. The first set considered all the features extracted from the 22 channels. For the second set of features, we automatically rejected features poorly correlated with their labels. Fairly good results were obtained when discriminating HC from dementia patients with AD or VaD (AUC = 0.84). We also obtained AUC = 0.74 for discrimination of AD from HC, AUC = 0.77 for discrimination of VaD from HC, and finally AUC = 0.61 for discrimination of AD from VaD. Our models were able to separate HC from dementia patients, and also and to discriminate AD from VaD above chance. Our results suggest that these features may be relevant for the clinical assessment of patients with dementia.
+27965568	60	68	Dementia	Disease	MESH:D003704
+27965568	69	77	Patients	Species	9606
+27965568	189	208	Alzheimer's disease	Disease	MESH:D000544
+27965568	210	212	AD	Disease	MESH:D000544
+27965568	218	235	vascular dementia	Disease	MESH:D015140
+27965568	237	240	VaD	Disease	MESH:D015140
+27965568	348	350	AD	Disease	MESH:D000544
+27965568	360	363	VaD	Disease	MESH:D015140
+27965568	364	372	patients	Species	9606
+27965568	894	896	AD	Disease	MESH:D000544
+27965568	906	909	VaD	Disease	MESH:D015140
+27965568	911	913	AD	Disease	MESH:D000544
+27965568	919	922	VaD	Disease	MESH:D015140
+27965568	936	944	dementia	Disease	MESH:D003704
+27965568	945	953	patients	Species	9606
+27965568	955	957	AD	Disease	MESH:D000544
+27965568	961	964	VaD	Disease	MESH:D015140
+27965568	1416	1424	dementia	Disease	MESH:D003704
+27965568	1425	1433	patients	Species	9606
+27965568	1439	1441	AD	Disease	MESH:D000544
+27965568	1445	1448	VaD	Disease	MESH:D015140
+27965568	1513	1515	AD	Disease	MESH:D000544
+27965568	1558	1561	VaD	Disease	MESH:D015140
+27965568	1616	1618	AD	Disease	MESH:D000544
+27965568	1624	1628	VaD.	Disease	MESH:D015140
+27965568	1670	1678	dementia	Disease	MESH:D003704
+27965568	1679	1687	patients	Species	9606
+27965568	1718	1720	AD	Disease	MESH:D000544
+27965568	1726	1729	VaD	Disease	MESH:D015140
+27965568	1831	1839	patients	Species	9606
+27965568	1845	1853	dementia	Disease	MESH:D003704
+

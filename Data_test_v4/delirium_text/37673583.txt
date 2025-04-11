@@ -1,0 +1,15 @@
+37673583|t|ADscreen: A speech processing-based screening system for automatic identification of patients with Alzheimer's disease and related dementia.
+37673583|a|Alzheimer's disease and related dementias (ADRD) present a looming public health crisis, affecting roughly 5 million people and 11 % of older adults in the United States. Despite nationwide efforts for timely diagnosis of patients with ADRD, >50 % of them are not diagnosed and unaware of their disease. To address this challenge, we developed ADscreen, an innovative speech-processing based ADRD screening algorithm for the protective identification of patients with ADRD. ADscreen consists of five major components: (i) noise reduction for reducing background noises from the audio-recorded patient speech, (ii) modeling the patient's ability in phonetic motor planning using acoustic parameters of the patient's voice, (iii) modeling the patient's ability in semantic and syntactic levels of language organization using linguistic parameters of the patient speech, (iv) extracting vocal and semantic psycholinguistic cues from the patient speech, and (v) building and evaluating the screening algorithm. To identify important speech parameters (features) associated with ADRD, we used the Joint Mutual Information Maximization (JMIM), an effective feature selection method for high dimensional, small sample size datasets. Modeling the relationship between speech parameters and the outcome variable (presence/absence of ADRD) was conducted using three different machine learning (ML) architectures with the capability of joining informative acoustic and linguistic with contextual word embedding vectors obtained from the DistilBERT (Bidirectional Encoder Representations from Transformers). We evaluated the performance of the ADscreen on an audio-recorded patients' speech (verbal description) for the Cookie-Theft picture description task, which is publicly available in the dementia databank. The joint fusion of acoustic and linguistic parameters with contextual word embedding vectors of DistilBERT achieved F1-score = 84.64 (standard deviation [std] = +-3.58) and AUC-ROC = 92.53 (std = +-3.34) for training dataset, and F1-score = 89.55 and AUC-ROC = 93.89 for the test dataset. In summary, ADscreen has a strong potential to be integrated with clinical workflow to address the need for an ADRD screening tool so that patients with cognitive impairment can receive appropriate and timely care.
+37673583	99	118	Alzheimer's disease	Disease	MESH:D000544
+37673583	131	139	dementia	Disease	MESH:D003704
+37673583	141	182	Alzheimer's disease and related dementias	Disease	MESH:D000544
+37673583	184	188	ADRD	Disease	MESH:D000544
+37673583	377	381	ADRD	Disease	MESH:D000544
+37673583	533	537	ADRD	Disease	MESH:D000544
+37673583	609	613	ADRD	Disease	MESH:D000544
+37673583	1215	1219	ADRD	Disease	MESH:D000544
+37673583	1465	1469	ADRD	Disease	MESH:D000544
+37673583	1923	1931	dementia	Disease	MESH:D003704
+37673583	2343	2347	ADRD	Disease	MESH:D000544
+37673583	2385	2405	cognitive impairment	Disease	MESH:D003072
+

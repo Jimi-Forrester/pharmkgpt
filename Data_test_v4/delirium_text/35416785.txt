@@ -1,0 +1,16 @@
+35416785|t|Predicting Sepsis Mortality in a Population-Based National Database: Machine Learning Approach.
+35416785|a|BACKGROUND: Although machine learning (ML) algorithms have been applied to point-of-care sepsis prognostication, ML has not been used to predict sepsis mortality in an administrative database. Therefore, we examined the performance of common ML algorithms in predicting sepsis mortality in adult patients with sepsis and compared it with that of the conventional context knowledge-based logistic regression approach. OBJECTIVE: The aim of this study is to examine the performance of common ML algorithms in predicting sepsis mortality in adult patients with sepsis and compare it with that of the conventional context knowledge-based logistic regression approach. METHODS: We examined inpatient admissions for sepsis in the US National Inpatient Sample using hospitalizations in 2010-2013 as the training data set. We developed four ML models to predict in-hospital mortality: logistic regression with least absolute shrinkage and selection operator regularization, random forest, gradient-boosted decision tree, and deep neural network. To estimate their performance, we compared our models with the Super Learner model. Using hospitalizations in 2014 as the testing data set, we examined the models' area under the receiver operating characteristic curve (AUC), confusion matrix results, and net reclassification improvement. RESULTS: Hospitalizations of 923,759 adults were included in the analysis. Compared with the reference logistic regression (AUC: 0.786, 95% CI 0.783-0.788), all ML models showed superior discriminative ability (P<.001), including logistic regression with least absolute shrinkage and selection operator regularization (AUC: 0.878, 95% CI 0.876-0.879), random forest (AUC: 0.878, 95% CI 0.877-0.880), xgboost (AUC: 0.888, 95% CI 0.886-0.889), and neural network (AUC: 0.893, 95% CI 0.891-0.895). All 4 ML models showed higher sensitivity, specificity, positive predictive value, and negative predictive value compared with the reference logistic regression model (P<.001). We obtained similar results from the Super Learner model (AUC: 0.883, 95% CI 0.881-0.885). CONCLUSIONS: ML approaches can improve sensitivity, specificity, positive predictive value, negative predictive value, discrimination, and calibration in predicting in-hospital mortality in patients hospitalized with sepsis in the United States. These models need further validation and could be applied to develop more accurate models to compare risk-standardized mortality rates across hospitals and geographic regions, paving the way for research and policy initiatives studying disparities in sepsis care.
+35416785	11	17	Sepsis	Disease	MESH:D018805
+35416785	185	191	sepsis	Disease	MESH:D018805
+35416785	241	247	sepsis	Disease	MESH:D018805
+35416785	366	372	sepsis	Disease	MESH:D018805
+35416785	392	400	patients	Species	9606
+35416785	406	412	sepsis	Disease	MESH:D018805
+35416785	614	620	sepsis	Disease	MESH:D018805
+35416785	640	648	patients	Species	9606
+35416785	654	660	sepsis	Disease	MESH:D018805
+35416785	806	812	sepsis	Disease	MESH:D018805
+35416785	2377	2385	patients	Species	9606
+35416785	2404	2410	sepsis	Disease	MESH:D018805
+35416785	2684	2690	sepsis	Disease	MESH:D018805
+

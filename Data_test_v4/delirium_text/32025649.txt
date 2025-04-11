@@ -1,0 +1,14 @@
+32025649|t|A rule-based approach to identify patient eligibility criteria for clinical trials from narrative longitudinal records.
+32025649|a|OBJECTIVE: Achieving unbiased recognition of eligible patients for clinical trials from their narrative longitudinal clinical records can be time consuming. We describe and evaluate a knowledge-driven method that identifies whether a patient meets a selected set of 13 eligibility clinical trial criteria from their longitudinal clinical records, which was one of the tasks of the 2018 National NLP Clinical Challenges. MATERIALS AND METHODS: The approach developed uses rules combined with manually crafted dictionaries that characterize the domain. The rules are based on common syntactical patterns observed in text indicating or describing explicitly a criterion. Certain criteria were classified as "met" only when they occurred within a designated time period prior to the most recent narrative of a patient record and were dealt through their position in text. RESULTS: The system was applied to an evaluation set of 86 unseen clinical records and achieved a microaverage F1-score of 89.1% (with a micro F1-score of 87.0% and 91.2% for the patients that met and did not meet the criteria, respectively). Most criteria returned reliable results (drug abuse, 92.5%; Hba1c, 91.3%) while few (eg, advanced coronary artery disease, 72.0%; myocardial infarction within 6 months of the most recent narrative, 47.5%) proved challenging enough. CONCLUSION: Overall, the results are encouraging and indicate that automated text mining methods can be used to process clinical records to recognize whether a patient meets a set of clinical trial criteria and could be leveraged to reduce the workload of humans screening patients for trials.
+32025649	34	41	patient	Species	9606
+32025649	174	182	patients	Species	9606
+32025649	354	361	patient	Species	9606
+32025649	926	933	patient	Species	9606
+32025649	1167	1175	patients	Species	9606
+32025649	1272	1282	drug abuse	Disease	MESH:D019966
+32025649	1329	1352	coronary artery disease	Disease	MESH:D003324
+32025649	1361	1382	myocardial infarction	Disease	MESH:D009203
+32025649	1623	1630	patient	Species	9606
+32025649	1719	1725	humans	Species	9606
+32025649	1736	1744	patients	Species	9606
+

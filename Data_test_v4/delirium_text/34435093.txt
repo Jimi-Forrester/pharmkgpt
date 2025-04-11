@@ -1,0 +1,28 @@
+34435093|t|Modeling a deep transfer learning framework for the classification of COVID-19 radiology dataset.
+34435093|a|Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-Coronavirus-2 or SARS-CoV-2), which came into existence in 2019, is a viral pandemic that caused coronavirus disease 2019 (COVID-19) illnesses and death. Research showed that relentless efforts had been made to improve key performance indicators for detection, isolation, and early treatment. This paper used Deep Transfer Learning Model (DTL) for the classification of a real-life COVID-19 dataset of chest X-ray images in both binary (COVID-19 or Normal) and three-class (COVID-19, Viral-Pneumonia or Normal) classification scenarios. Four experiments were performed where fine-tuned VGG-16 and VGG-19 Convolutional Neural Networks (CNNs) with DTL were trained on both binary and three-class datasets that contain X-ray images. The system was trained with an X-ray image dataset for the detection of COVID-19. The fine-tuned VGG-16 and VGG-19 DTL were modelled by employing a batch size of 10 in 40 epochs, Adam optimizer for weight updates, and categorical cross-entropy loss function. The results showed that the fine-tuned VGG-16 and VGG-19 models produced an accuracy of 99.23% and 98.00%, respectively, in the binary task. In contrast, in the multiclass (three-class) task, the fine-tuned VGG-16 and VGG-19 DTL models produced an accuracy of 93.85% and 92.92%, respectively. Moreover, the fine-tuned VGG-16 and VGG-19 models have MCC of 0.98 and 0.96 respectively in the binary classification, and 0.91 and 0.89 for multiclass classification. These results showed strong positive correlations between the models' predictions and the true labels. In the two classification tasks (binary and three-class), it was observed that the fine-tuned VGG-16 DTL model had stronger positive correlations in the MCC metric than the fine-tuned VGG-19 DTL model. The VGG-16 DTL model has a Kappa value of 0.98 as against 0.96 for the VGG-19 DTL model in the binary classification task, while in the three-class classification problem, the VGG-16 DTL model has a Kappa value of 0.91 as against 0.89 for the VGG-19 DTL model. This result is in agreement with the trend observed in the MCC metric. Hence, it was discovered that the VGG-16 based DTL model classified COVID-19 better than the VGG-19 based DTL model. Using the best performing fine-tuned VGG-16 DTL model, tests were carried out on 470 unlabeled image dataset, which was not used in the model training and validation processes. The test accuracy obtained for the model was 98%. The proposed models provided accurate diagnostics for both the binary and multiclass classifications, outperforming other existing models in the literature in terms of accuracy, as shown in this work.
+34435093	98	145	Severe Acute Respiratory Syndrome Coronavirus 2	Disease	MESH:D000086382
+34435093	147	165	SARS-Coronavirus-2	Species	2697049
+34435093	169	179	SARS-CoV-2	Species	2697049
+34435093	249	294	coronavirus disease 2019 (COVID-19) illnesses	Disease	MESH:D000086382
+34435093	299	304	death	Disease	MESH:D003643
+34435093	642	651	Pneumonia	Disease	MESH:D011014
+34435093	738	744	VGG-16	Gene	
+34435093	749	755	VGG-19	Gene	
+34435093	979	985	VGG-16	Gene	
+34435093	990	996	VGG-19	Gene	
+34435093	1180	1186	VGG-16	Gene	
+34435093	1191	1197	VGG-19	Gene	
+34435093	1348	1354	VGG-16	Gene	
+34435093	1359	1365	VGG-19	Gene	
+34435093	1459	1465	VGG-16	Gene	
+34435093	1470	1476	VGG-19	Gene	
+34435093	1799	1805	VGG-16	Gene	
+34435093	1889	1895	VGG-19	Gene	
+34435093	1911	1917	VGG-16	Gene	
+34435093	1978	1984	VGG-19	Gene	
+34435093	2083	2089	VGG-16	Gene	
+34435093	2150	2156	VGG-19	Gene	
+34435093	2273	2279	VGG-16	Gene	
+34435093	2332	2338	VGG-19	Gene	
+34435093	2393	2399	VGG-16	Gene	
+

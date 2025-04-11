@@ -1,0 +1,26 @@
+38109879|t|Engineering a Plant Polyketide Synthase for the Biosynthesis of Methylated Flavonoids.
+38109879|a|Homoeriodictyol and hesperetin are naturally occurring O-methylated flavonoids with many health-promoting properties. They are produced in plants in low abundance and as complex mixtures of similar compounds that are difficult to separate. Synthetic biology offers the opportunity to produce various flavonoids in a targeted, bottom-up approach in engineered microbes with high product titers. However, the production of O-methylated flavonoids is currently still highly inefficient. In this study, we investigated and engineered a combination of enzymes that had previously been shown to support homoeriodictyol and hesperetin production in Escherichia coli from fed O-methylated hydroxycinnamic acids. We determined the crystal structures of the enzyme catalyzing the first committed step of the pathway, chalcone synthase from Hordeum vulgare, in three ligand-bound states. Based on these structures and a multiple sequence alignment with other chalcone synthases, we constructed mutant variants and assessed their performance in E. coli toward producing methylated flavonoids. With our best mutant variant, HvCHS (Q232P, D234 V), we were able to produce homoeriodictyol and hesperetin at 2 times and 10 times higher titers than reported previously. Our findings will facilitate further engineering of this enzyme toward higher production of methylated flavonoids.
+38109879	64	85	Methylated Flavonoids	Chemical	-
+38109879	87	102	Homoeriodictyol	Chemical	MESH:C503231
+38109879	107	117	hesperetin	Chemical	MESH:C013015
+38109879	142	165	O-methylated flavonoids	Chemical	-
+38109879	387	397	flavonoids	Chemical	MESH:D005419
+38109879	508	531	O-methylated flavonoids	Chemical	-
+38109879	684	699	homoeriodictyol	Chemical	MESH:C503231
+38109879	704	714	hesperetin	Chemical	MESH:C013015
+38109879	729	745	Escherichia coli	Species	562
+38109879	755	789	O-methylated hydroxycinnamic acids	Chemical	-
+38109879	894	911	chalcone synthase	Gene	100191100
+38109879	917	932	Hordeum vulgare	Species	4513
+38109879	1120	1127	E. coli	Species	562
+38109879	1145	1166	methylated flavonoids	Chemical	-
+38109879	1205	1210	Q232P	ProteinMutation	tmVar:p|SUB|Q|232|P;HGVS:p.Q232P;VariantGroup:0;CorrespondingGene:100191100
+38109879	1212	1218	D234 V	ProteinMutation	tmVar:p|SUB|D|234|V;HGVS:p.D234V;VariantGroup:1;CorrespondingGene:100191100
+38109879	1245	1260	homoeriodictyol	Chemical	MESH:C503231
+38109879	1265	1275	hesperetin	Chemical	MESH:C013015
+38109879	1432	1453	methylated flavonoids	Chemical	-
+38109879	Association	MESH:C013015	HGVS:p.D234V;CorrespondingGene:100191100
+38109879	Association	MESH:C503231	HGVS:p.Q232P;CorrespondingGene:100191100
+38109879	Association	MESH:C013015	HGVS:p.Q232P;CorrespondingGene:100191100
+38109879	Association	MESH:C503231	HGVS:p.D234V;CorrespondingGene:100191100
+

@@ -1,0 +1,30 @@
+32741825|t|Validation of Random Forest Machine Learning Models to Predict Dementia-Related Neuropsychiatric Symptoms in Real-World Data.
+32741825|a|BACKGROUND: Neuropsychiatric symptoms (NPS) are the leading cause of the social burden of dementia but their role is underestimated. OBJECTIVE: The objective of the study was to validate predictive models to separately identify psychotic and depressive symptoms in patients diagnosed with dementia using clinical databases representing the whole population to inform decision-makers. METHODS: First, we searched the electronic health records of 4,003 patients with dementia to identify NPS. Second, machine learning (random forest) algorithms were applied to build separate predictive models for psychotic and depressive symptom clusters in the training set (N = 3,003). Third, calibration and discrimination were assessed in the test set (N = 1,000) to assess the performance of the models. RESULTS: Neuropsychiatric symptoms were noted in the electronic health record of 58% of patients. The area under the receiver operating curve reached 0.80 for the psychotic cluster model and 0.74 for the depressive cluster model. The Kappa index and accuracy also showed better discrimination in the psychotic model. Calibration plots indicated that both types of model had less predictive accuracy when the probability of neuropsychiatric symptoms was <25%. The most important variables in the psychotic cluster model were use of risperidone, level of sedation, use of quetiapine and haloperidol and the number of antipsychotics prescribed. In the depressive cluster model, the most important variables were number of antidepressants prescribed, escitalopram use, level of sedation, and age. CONCLUSION: Given their relatively good performance, the predictive models can be used to estimate prevalence of NPS in population databases.
+32741825	63	71	Dementia	Disease	MESH:D003704
+32741825	80	105	Neuropsychiatric Symptoms	Disease	MESH:D001523
+32741825	138	163	Neuropsychiatric symptoms	Disease	MESH:D001523
+32741825	165	168	NPS	Disease	MESH:D001523
+32741825	216	224	dementia	Disease	MESH:D003704
+32741825	354	387	psychotic and depressive symptoms	Disease	MESH:D003866
+32741825	391	399	patients	Species	9606
+32741825	415	423	dementia	Disease	MESH:D003704
+32741825	577	585	patients	Species	9606
+32741825	591	599	dementia	Disease	MESH:D003704
+32741825	612	615	NPS	Disease	MESH:D001523
+32741825	722	754	psychotic and depressive symptom	Disease	MESH:D003866
+32741825	927	952	Neuropsychiatric symptoms	Disease	MESH:D001523
+32741825	1006	1014	patients	Species	9606
+32741825	1081	1090	psychotic	Disease	MESH:D011618
+32741825	1122	1132	depressive	Disease	MESH:D003866
+32741825	1218	1227	psychotic	Disease	MESH:D011618
+32741825	1341	1366	neuropsychiatric symptoms	Disease	MESH:D001523
+32741825	1413	1422	psychotic	Disease	MESH:D011618
+32741825	1449	1460	risperidone	Chemical	MESH:D018967
+32741825	1488	1498	quetiapine	Chemical	MESH:D000069348
+32741825	1503	1514	haloperidol	Chemical	MESH:D006220
+32741825	1567	1577	depressive	Disease	MESH:D003866
+32741825	1665	1677	escitalopram	Chemical	MESH:D000089983
+32741825	1824	1827	NPS	Disease	MESH:D001523
+32741825	Association	MESH:D018967	MESH:D011618
+32741825	Association	MESH:D000089983	MESH:D003866
+

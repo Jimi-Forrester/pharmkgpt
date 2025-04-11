@@ -1,0 +1,29 @@
+29749529|t|alpha-synuclein induces apoptosis of astrocytes by causing dysfunction of the endoplasmic reticulum-Golgi compartment.
+29749529|a|Although previous work has demonstrated that the overexpression of wild-type or mutant alpha-synuclein (alpha-syn) can induce cell death via a number of different mechanisms, including oxidative stress, dysfunction of the ubiquitin-proteasome degradation system, mitochondrial damage and endoplasmic reticulum (ER) stress, research interest has primarily focused on neurons. However, there is accumulating evidence that suggests that astrocytes may be involved in the earliest changes, as well as the progression of Parkinson's disease (PD), though the role of alpha-syn in astrocytes has not been widely studied. In the present study, it was revealed that the mutant alpha-syn (A53T and A30P) in astrocytes triggered ER stress via the protein kinase RNA-like ER kinase/eukaryotic translation initiation factor 2alpha signaling pathway. Astrocyte apoptosis was induced through a CCAAT-enhancer-binding protein homologous protein-mediated pathway. In addition, Golgi fragmentation was observed in the process. On the other hand, it was also demonstrated, in a primary neuronal-astroglial co-culture system, that the overexpression of alpha-syn significantly decreased the levels of glia-derived neurotrophic factor (GDNF) and partly inhibited neurite outgrowth. Although direct evidence is currently lacking, it was proposed that dysfunction of the ER-Golgi compartment in astrocytes overexpressing alpha-syn may lead to a decline of GDNF levels, which in turn would suppress neurite outgrowth. Taken together, the results of the present study offer further insights into the pathogenesis of PD from the perspective of astrocytes, which may provide novel strategies for the diagnosis and treatment of PD in the future.
+29749529	0	15	alpha-synuclein	Gene	6622
+29749529	206	221	alpha-synuclein	Gene	6622
+29749529	223	232	alpha-syn	Gene	6622
+29749529	382	402	mitochondrial damage	Disease	MESH:D028361
+29749529	635	654	Parkinson's disease	Disease	MESH:D010300
+29749529	656	658	PD	Disease	MESH:D010300
+29749529	680	689	alpha-syn	Gene	6622
+29749529	787	796	alpha-syn	Gene	6622
+29749529	798	802	A53T	ProteinMutation	tmVar:p|SUB|A|53|T;HGVS:p.A53T;VariantGroup:1;CorrespondingGene:6622;RS#:104893877;CorrespondingSpecies:9606;CA#:257068
+29749529	807	811	A30P	ProteinMutation	tmVar:p|SUB|A|30|P;HGVS:p.A30P;VariantGroup:0;CorrespondingGene:6622;RS#:104893878;CorrespondingSpecies:9606;CA#:257069
+29749529	889	936	eukaryotic translation initiation factor 2alpha	Gene	83939
+29749529	998	1047	CCAAT-enhancer-binding protein homologous protein	Gene	1649
+29749529	1252	1261	alpha-syn	Gene	6622
+29749529	1300	1332	glia-derived neurotrophic factor	Gene	2668
+29749529	1334	1338	GDNF	Gene	2668
+29749529	1517	1526	alpha-syn	Gene	6622
+29749529	1552	1556	GDNF	Gene	2668
+29749529	1710	1712	PD	Disease	MESH:D010300
+29749529	1819	1821	PD	Disease	MESH:D010300
+29749529	Positive_Correlation	MESH:D010300	RS#:104893878;HGVS:p.A30P;CorrespondingGene:6622
+29749529	Positive_Correlation	MESH:D010300	RS#:104893877;HGVS:p.A53T;CorrespondingGene:6622
+29749529	Association	MESH:D010300	6622
+29749529	Association	MESH:D028361	6622
+29749529	Association	6622	83939
+29749529	Negative_Correlation	2668	6622
+29749529	Association	MESH:D010300	6622
+

@@ -1,0 +1,39 @@
+37274040|t|Late-onset mitochondrial encephalomyopathy with lactic acidosis and stroke-like episodes syndrome with mitochondrial DNA 3243A>G mutation masquerading as autoimmune encephalitis: A case report.
+37274040|a|BACKGROUND: Here, we present a unique case of mitochondrial encephalomyopathy with lactic acidosis and stroke-like episodes (MELAS) syndrome, which initially appeared to be autoimmune encephalitis and was ultimately confirmed as MELAS with the mitochondrial DNA 3243A>G mutation. CASE SUMMARY: A 58-year-old female presented with acute-onset speech impediment and auditory hallucinations, symmetrical bitemporal lobe abnormalities, clinical and laboratory findings, and a lack of relevant prodromal history, which suggested diagnosis of autoimmune encephalitis. Further work-up, in conjunction with the patient's medical history, family history, and lactate peak on brain lesions on magnetic resonance imaging, suggested a mitochondrial disorder. Mitochondrial genome analysis revealed the m.3243A>G variant in the MT-TL1 gene, which led to a diagnosis of MELAS syndrome. CONCLUSION: This case underscores the importance of considering MELAS as a potential cause of autoimmune encephalitis even if patients are over 40 years of age, as the symptoms and signs are atypical for MELAS syndrome.
+37274040	11	42	mitochondrial encephalomyopathy	Disease	MESH:D017237
+37274040	48	63	lactic acidosis	Disease	MESH:D000140
+37274040	68	79	stroke-like	Disease	MESH:D020521
+37274040	121	128	3243A>G	DNAMutation	tmVar:g|SUB|A|3243|G;HGVS:g.3243A>G;VariantGroup:0;CorrespondingGene:4567;CorrespondingSpecies:9606
+37274040	154	177	autoimmune encephalitis	Disease	MESH:D020274
+37274040	240	271	mitochondrial encephalomyopathy	Disease	MESH:D017237
+37274040	277	334	lactic acidosis and stroke-like episodes (MELAS) syndrome	Disease	MESH:D017241
+37274040	367	390	autoimmune encephalitis	Disease	MESH:D020274
+37274040	456	463	3243A>G	DNAMutation	tmVar:g|SUB|A|3243|G;HGVS:g.3243A>G;VariantGroup:0;CorrespondingGene:4567;CorrespondingSpecies:9606
+37274040	536	553	speech impediment	Disease	MESH:D013064
+37274040	558	581	auditory hallucinations	Disease	MESH:D006212
+37274040	595	624	bitemporal lobe abnormalities	Disease	MESH:D006423
+37274040	731	754	autoimmune encephalitis	Disease	MESH:D020274
+37274040	797	804	patient	Species	9606
+37274040	844	851	lactate	Chemical	MESH:D019344
+37274040	860	873	brain lesions	Disease	MESH:D001927
+37274040	917	939	mitochondrial disorder	Disease	MESH:D028361
+37274040	984	993	m.3243A>G	DNAMutation	tmVar:m|SUB|A|3243|G;VariantGroup:0;CorrespondingGene:4567;CorrespondingSpecies:9606
+37274040	1009	1015	MT-TL1	Gene	4567
+37274040	1050	1064	MELAS syndrome	Disease	MESH:D017241
+37274040	1160	1183	autoimmune encephalitis	Disease	MESH:D020274
+37274040	1192	1200	patients	Species	9606
+37274040	1270	1284	MELAS syndrome	Disease	MESH:D017241
+37274040	Positive_Correlation	MESH:D020274	HGVS:g.3243A>G;CorrespondingGene:4567
+37274040	Association	MESH:D000140	HGVS:g.3243A>G;CorrespondingGene:4567
+37274040	Positive_Correlation	MESH:D017241	HGVS:g.3243A>G;CorrespondingGene:4567
+37274040	Association	MESH:D017241	4567
+37274040	Association	MESH:D020521	HGVS:g.3243A>G;CorrespondingGene:4567
+37274040	Positive_Correlation	MESH:D017237	HGVS:g.3243A>G;CorrespondingGene:4567
+37274040	Association	MESH:D019344	MESH:D028361
+37274040	Association	MESH:D019344	MESH:D001927
+37274040	Positive_Correlation	MESH:D017241	CorrespondingGene:4567;CorrespondingSpecies:9606;VariantGroup:0;tmVar:m
+37274040	Association	MESH:D020274	4567
+37274040	Association	MESH:D000140	4567
+37274040	Association	MESH:D020521	4567
+37274040	Association	MESH:D017237	4567
+

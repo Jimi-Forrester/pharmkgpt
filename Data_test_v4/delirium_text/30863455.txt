@@ -1,0 +1,38 @@
+30863455|t|Computational Causal Modeling of the Dynamic Biomarker Cascade in Alzheimer's Disease.
+30863455|a|BACKGROUND: Alzheimer's disease (AD) is a major public health concern, and there is an urgent need to better understand its complex biology and develop effective therapies. AD progression can be tracked in patients through validated imaging and spinal fluid biomarkers of pathology and neuronal loss. We still, however, lack a coherent quantitative model that explains how these biomarkers interact and evolve over time. Such a model could potentially help identify the major drivers of disease in individual patients and simulate response to therapy prior to entry in clinical trials. A current theory of AD biomarker progression, known as the dynamic biomarker cascade model, hypothesizes AD biomarkers evolve in a sequential but temporally overlapping manner. A computational model incorporating assumptions about the underlying biology of this theory and its variations would be useful to test and refine its accuracy with longitudinal biomarker data from clinical trials. METHODS: We implemented a causal model to simulate time-dependent biomarker data under the descriptive assumptions of the dynamic biomarker cascade theory. We modeled pathologic biomarkers (beta-amyloid and tau), neuronal loss biomarkers, and cognitive impairment as nonlinear first-order ordinary differential equations (ODEs) to include amyloid-dependent and nondependent neurodegenerative cascades. We tested the feasibility of the model by adjusting its parameters to simulate three specific natural history scenarios in early-onset autosomal dominant AD and late-onset AD and determine whether computed biomarker trajectories agreed with current assumptions of AD biomarker progression. We also simulated the effects of antiamyloid therapy in late-onset AD. RESULTS: The computational model of early-onset AD demonstrated the initial appearance of amyloid, followed by biomarkers of tau and neurodegeneration and the onset of cognitive decline based on cognitive reserve, as predicted by the prior literature. Similarly, the late-onset AD computational models demonstrated the first appearance of amyloid or nonamyloid-related tauopathy, depending on the magnitude of comorbid pathology, and also closely matched the biomarker cascades predicted by the prior literature. Forward simulation of antiamyloid therapy in symptomatic late-onset AD failed to demonstrate any slowing in progression of cognitive decline, consistent with prior failed clinical trials in symptomatic patients. CONCLUSIONS: We have developed and computationally implemented a mathematical causal model of the dynamic biomarker cascade theory in AD. We demonstrate the feasibility of this model by simulating biomarker evolution and cognitive decline in early- and late-onset natural history scenarios, as well as in a treatment scenario targeted at core AD pathology. Models resulting from this causal approach can be further developed and refined using patient data from longitudinal biomarker studies and may in the future play a key role in personalizing approaches to treatment.
+30863455	66	85	Alzheimer's Disease	Disease	MESH:D000544
+30863455	99	118	Alzheimer's disease	Disease	MESH:D000544
+30863455	120	122	AD	Disease	MESH:D000544
+30863455	260	262	AD	Disease	MESH:D000544
+30863455	293	301	patients	Species	9606
+30863455	373	386	neuronal loss	Disease	MESH:D009410
+30863455	596	604	patients	Species	9606
+30863455	693	695	AD	Disease	MESH:D000544
+30863455	778	780	AD	Disease	MESH:D000544
+30863455	1271	1274	tau	Gene	4137
+30863455	1277	1290	neuronal loss	Disease	MESH:D009410
+30863455	1307	1327	cognitive impairment	Disease	MESH:D003072
+30863455	1403	1410	amyloid	Disease	MESH:C000718787
+30863455	1620	1622	AD	Disease	MESH:D000544
+30863455	1638	1640	AD	Disease	MESH:D000544
+30863455	1730	1732	AD	Disease	MESH:D000544
+30863455	1789	1800	antiamyloid	Chemical	-
+30863455	1823	1825	AD	Disease	MESH:D000544
+30863455	1875	1877	AD	Disease	MESH:D000544
+30863455	1917	1924	amyloid	Disease	MESH:C000718787
+30863455	1952	1955	tau	Gene	4137
+30863455	1960	1977	neurodegeneration	Disease	MESH:D019636
+30863455	1995	2012	cognitive decline	Disease	MESH:D003072
+30863455	2105	2107	AD	Disease	MESH:D000544
+30863455	2166	2173	amyloid	Disease	MESH:C000718787
+30863455	2196	2205	tauopathy	Disease	MESH:D024801
+30863455	2362	2373	antiamyloid	Chemical	-
+30863455	2408	2410	AD	Disease	MESH:D000544
+30863455	2463	2480	cognitive decline	Disease	MESH:D003072
+30863455	2542	2550	patients	Species	9606
+30863455	2686	2688	AD	Disease	MESH:D000544
+30863455	2773	2790	cognitive decline	Disease	MESH:D003072
+30863455	2895	2897	AD	Disease	MESH:D000544
+30863455	2995	3002	patient	Species	9606
+30863455	Association	MESH:D000544	4137
+

@@ -1,0 +1,25 @@
+39865251|t|Development and validation of an EHR-based risk prediction model for geriatric patients undergoing urgent and emergency surgery.
+39865251|a|BACKGROUND: Clinical determination of patients at high risk of poor surgical outcomes is complex and may be supported by clinical tools to summarize the patient's own personalized electronic health record (EHR) history and vitals data through predictive risk models. Since prior models were not readily available for EHR-integration, our objective was to develop and validate a risk stratification tool, named the Assessment of Geriatric Emergency Surgery (AGES) score, predicting risk of 30-day major postoperative complications in geriatric patients under consideration for urgent and emergency surgery using pre-surgical existing electronic health record (EHR) data. METHODS: Patients 65-years and older undergoing urgent or emergency non-cardiac surgery within 21 hospitals 2017-2021 were used to develop the model (randomly split: 80% training, 20% test). The primary outcome was a 30-day composite outcome including several postoperative major complications and mortality; secondary outcomes included common individual complications included in the primary composite outcome (sepsis, progressive renal insufficiency or renal failure, and mortality). Patients' EHR-based clinical history, vital signs, labs, and demographics were included in logistic regression, LASSO, decision tree, Random Forest, and XGBoost models. Area under the receiver operating characteristics curve (AUCROC) was used to compare model performance. RESULTS: Overall, 66,262 patients (median [IQR] age 78 [(70.9-84.0], female 53.9%, White race 68.5%) received urgent or emergency non-cardiac surgery (25.7% orthopedic cases, 21.9% general surgery cases). AUCROC ranged from 0.655 (Decision Tree) - 0.804 (XGBoost) for the primary composite outcome. XGBoost AUCROC was 0.823, 0.781, and 0.839 in predicting outcomes of sepsis, progressive renal insufficiency or renal failure, and mortality, respectively. CONCLUSIONS: We developed a model to accurately predict major postoperative complications in geriatric patients undergoing urgent or emergency surgery using the patient's own existing EHR data. EHR implementation of this model could efficiently support clinicians' surgical risk assessment and perioperative decision-making discussions in this vulnerable patient population.
+39865251	79	87	patients	Species	9606
+39865251	110	119	emergency	Disease	MESH:D004630
+39865251	167	175	patients	Species	9606
+39865251	282	289	patient	Species	9606
+39865251	567	576	Emergency	Disease	MESH:D004630
+39865251	631	658	postoperative complications	Disease	MESH:D011183
+39865251	672	680	patients	Species	9606
+39865251	716	725	emergency	Disease	MESH:D004630
+39865251	808	816	Patients	Species	9606
+39865251	857	866	emergency	Disease	MESH:D004630
+39865251	1211	1217	sepsis	Disease	MESH:D018805
+39865251	1231	1267	renal insufficiency or renal failure	Disease	MESH:D051437
+39865251	1285	1293	Patients	Species	9606
+39865251	1583	1591	patients	Species	9606
+39865251	1678	1687	emergency	Disease	MESH:D004630
+39865251	1926	1932	sepsis	Disease	MESH:D018805
+39865251	1946	1982	renal insufficiency or renal failure	Disease	MESH:D051437
+39865251	2075	2102	postoperative complications	Disease	MESH:D011183
+39865251	2116	2124	patients	Species	9606
+39865251	2146	2155	emergency	Disease	MESH:D004630
+39865251	2174	2181	patient	Species	9606
+39865251	2368	2375	patient	Species	9606
+

@@ -1,0 +1,21 @@
+33579858|t|Blinded Clinical Evaluation for Dementia of Alzheimer's Type Classification Using FDG-PET: A Comparison Between Feature-Engineered and Non-Feature-Engineered Machine Learning Methods.
+33579858|a|BACKGROUND: Advanced machine learning methods can aid in the identification of dementia risk using neuroimaging-derived features including FDG-PET. However, to enable the translation of these methods and test their usefulness in clinical practice, it is crucial to conduct independent validation on real clinical samples, which has yet to be properly delineated in the current literature. OBJECTIVE: In this paper, we present our efforts to enable such clinical translational through the evaluation and comparison of two machine-learning methods for discrimination between dementia of Alzheimer's type (DAT) and Non-DAT controls. METHODS: FDG-PET-based dementia scores were generated on an independent clinical sample whose clinical diagnosis was blinded to the algorithm designers. A feature-engineered approach (multi-kernel probability classifier) and a non-feature-engineered approach (3D convolutional neural network) were analyzed. Both classifiers were pre-trained on cognitively normal subjects as well as subjects with DAT. These two methods provided a probabilistic dementia score for this previously unseen clinical data. Performance of the algorithms were compared against ground-truth dementia rating assessed by experienced nuclear physicians. RESULTS: Blinded clinical evaluation on both classifiers showed good separation between the cognitively normal subjects and the patients diagnosed with DAT. The non-feature-engineered dementia score showed higher sensitivity among subjects whose diagnosis was in agreement between the machine-learning models, while the feature-engineered approach showed higher specificity in non-consensus cases. CONCLUSION: In this study, we demonstrated blinded evaluation using data from an independent clinical sample for assessing the performance in DAT classification models in a clinical setting. Our results showed good generalizability for two machine-learning approaches, marking an important step for the translation of pre-trained machine-learning models into clinical practice.
+33579858	32	60	Dementia of Alzheimer's Type	Disease	MESH:D000544
+33579858	82	85	FDG	Chemical	MESH:D019788
+33579858	263	271	dementia	Disease	MESH:D003704
+33579858	323	326	FDG	Chemical	MESH:D019788
+33579858	757	785	dementia of Alzheimer's type	Disease	MESH:D000544
+33579858	787	790	DAT	Disease	MESH:D000544
+33579858	800	803	DAT	Disease	MESH:D000544
+33579858	823	826	FDG	Chemical	MESH:D019788
+33579858	837	845	dementia	Disease	MESH:D003704
+33579858	1212	1215	DAT	Disease	MESH:D000544
+33579858	1260	1268	dementia	Disease	MESH:D003704
+33579858	1382	1390	dementia	Disease	MESH:D003704
+33579858	1570	1578	patients	Species	9606
+33579858	1594	1597	DAT	Disease	MESH:D000544
+33579858	1626	1634	dementia	Disease	MESH:D003704
+33579858	1982	1985	DAT	Disease	MESH:D000544
+33579858	Association	MESH:D019788	MESH:D003704
+33579858	Association	MESH:D019788	MESH:D000544
+

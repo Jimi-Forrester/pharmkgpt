@@ -1,0 +1,11 @@
+35328176|t|Development of Amyloid PET Analysis Pipeline Using Deep Learning-Based Brain MRI Segmentation-A Comparative Validation Study.
+35328176|a|Amyloid positron emission tomography (PET) scan is clinically essential for the non-invasive assessment of the presence and spatial distribution of amyloid-beta deposition in subjects with cognitive impairment suspected to have been a result of Alzheimer's disease. Quantitative assessment can enhance the interpretation reliability of PET scan; however, its clinical application has been limited due to the complexity of preprocessing. This study introduces a novel deep-learning-based approach for SUVR quantification that simplifies the preprocessing step and significantly reduces the analysis time. Using two heterogeneous amyloid ligands, our proposed method successfully distinguished standardized uptake value ratio (SUVR) between amyloidosis-positive and negative groups. The proposed method's intra-class correlation coefficients were 0.97 and 0.99 against PETSurfer and PMOD, respectively. The difference of global SUVRs between the proposed method and PETSurfer or PMOD were 0.04 and -0.02, which are clinically acceptable. The AUC-ROC exceeded 0.95 for three tools in the amyloid positive assessment. Moreover, the proposed method had the fastest processing time and had a low registration failure rate (1%). In conclusion, our proposed method calculates SUVR that is consistent with PETSurfer and PMOD, and has advantages of fast processing time and low registration failure rate. Therefore, PET quantification provided by our proposed method can be used in clinical practice.
+35328176	274	286	amyloid-beta	Gene	351
+35328176	315	335	cognitive impairment	Disease	MESH:D003072
+35328176	371	390	Alzheimer's disease	Disease	MESH:D000544
+35328176	754	761	amyloid	Disease	MESH:C000718787
+35328176	865	876	amyloidosis	Disease	MESH:D000686
+35328176	1211	1218	amyloid	Disease	MESH:C000718787
+35328176	Association	MESH:D000544	351
+35328176	Association	MESH:D003072	351
+

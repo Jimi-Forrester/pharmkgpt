@@ -1,0 +1,41 @@
+23451158|t|An intracellular threonine of amyloid-beta precursor protein mediates synaptic plasticity deficits and memory loss.
+23451158|a|Mutations in Amyloid-ss Precursor Protein (APP) and BRI2/ITM2b genes cause Familial Alzheimer and Danish Dementias (FAD/FDD), respectively. APP processing by BACE1, which is inhibited by BRI2, yields sAPPss and ss-CTF. ss-CTF is cleaved by gamma-secretase to produce Ass. A knock-in mouse model of FDD, called FDDKI, shows deficits in memory and synaptic plasticity, which can be attributed to sAPPss/ss-CTF but not Ass. We have investigated further the pathogenic function of ss-CTF focusing on Thr(668) of ss-CTF because phosphorylation of Thr(668) is increased in AD cases. We created a knock-in mouse bearing a Thr(668)Ala mutation (APP(TA) mice) that prevents phosphorylation at this site. This mutation prevents the development of memory and synaptic plasticity deficits in FDDKI mice. These data are consistent with a role for the carboxyl-terminal APP domain in the pathogenesis of dementia and suggest that averting the noxious role of Thr(668) is a viable therapeutic strategy for human dementias.
+23451158	70	98	synaptic plasticity deficits	Disease	MESH:D010411
+23451158	103	114	memory loss	Disease	MESH:D008569
+23451158	129	157	Amyloid-ss Precursor Protein	Gene	351
+23451158	168	172	BRI2	Gene	16432
+23451158	173	178	ITM2b	Gene	9445
+23451158	191	209	Familial Alzheimer	Disease	MESH:D000544
+23451158	214	230	Danish Dementias	Disease	MESH:C538209
+23451158	232	235	FAD	Disease	MESH:D000544
+23451158	236	239	FDD	Disease	MESH:C538209
+23451158	274	279	BACE1	Gene	23821
+23451158	303	307	BRI2	Gene	16432
+23451158	327	333	ss-CTF	Chemical	-
+23451158	383	386	Ass	Gene	11898
+23451158	399	404	mouse	Species	10090
+23451158	414	417	FDD	Disease	MESH:C538209
+23451158	426	431	FDDKI	Disease	
+23451158	532	535	Ass	Gene	11898
+23451158	683	685	AD	Disease	MESH:D000544
+23451158	715	720	mouse	Species	10090
+23451158	731	742	Thr(668)Ala	ProteinMutation	tmVar:p|SUB|T|668|A;HGVS:p.T668A;VariantGroup:0;CorrespondingGene:351;RS#:766455623;CorrespondingSpecies:9606;CA#:9987013
+23451158	761	765	mice	Species	10090
+23451158	853	892	memory and synaptic plasticity deficits	Disease	MESH:D008569
+23451158	896	901	FDDKI	Disease	
+23451158	902	906	mice	Species	10090
+23451158	1006	1014	dementia	Disease	MESH:D003704
+23451158	1107	1112	human	Species	9606
+23451158	1113	1122	dementias	Disease	MESH:D003704
+23451158	Positive_Correlation	MESH:D003704	RS#:766455623;HGVS:p.T668A;CorrespondingGene:351
+23451158	Association	MESH:C538209	351
+23451158	Negative_Correlation	MESH:D008569	RS#:766455623;HGVS:p.T668A;CorrespondingGene:351
+23451158	Association	MESH:C538209	9445
+23451158	Association	MESH:D000544	351
+23451158	Association	MESH:C538209	16432
+23451158	Association	MESH:D000544	9445
+23451158	Negative_Correlation	16432	23821
+23451158	Association	MESH:D000544	16432
+23451158	Association	MESH:D003704	351
+23451158	Association	MESH:D008569	351
+

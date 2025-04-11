@@ -1,0 +1,23 @@
+38620194|t|COVID-19 symptom identification using Deep Learning and hardware emulated systems.
+38620194|a|The COVID-19 pandemic disrupted regular global activities in every possible way. This pandemic, caused by the transmission of the infectious Coronavirus, is characterized by main symptoms such as fever, fatigue, cough, and loss of smell. A current key focus of the scientific community is to develop automated methods that can effectively identify COVID-19 patients and are also adaptable for foreseen future virus outbreaks. To classify COVID-19 suspects, it is required to use contactless automatic measurements of more than one symptom. This study explores the effectiveness of using Deep Learning combined with a hardware-emulated system to identify COVID-19 patients in Sri Lanka based on two main symptoms: cough and shortness of breath. To achieve this, a Convolutional Neural Network (CNN) based on Transfer Learning was employed to analyze and compare the features of a COVID-19 cough with other types of coughs. Real-time video footage was captured using a FLIR C2 thermal camera and a web camera and subsequently processed using OpenCV image processing algorithms. The objective was to detect the nasal cavities in the video frames and measure the breath cycles per minute, thereby identifying instances of shortness of breath. The proposed method was first tested on crowd-sourced datasets (Coswara, Coughvid, ESC-50, and a dataset from Kaggle) obtained online. It was then applied and verified using a dataset obtained from local hospitals in Sri Lanka. The accuracy of the developed methodologies in diagnosing cough resemblance and recognizing shortness of breath was found to be 94% and 95%, respectively.
+38620194	0	16	COVID-19 symptom	Disease	MESH:D000086382
+38620194	87	95	COVID-19	Disease	MESH:D000086382
+38620194	224	235	Coronavirus	Disease	MESH:D018352
+38620194	279	284	fever	Disease	MESH:D005334
+38620194	286	293	fatigue	Disease	MESH:D005221
+38620194	295	300	cough	Disease	MESH:D003371
+38620194	306	319	loss of smell	Disease	MESH:D000086582
+38620194	431	439	COVID-19	Disease	MESH:D000086382
+38620194	440	448	patients	Species	9606
+38620194	521	529	COVID-19	Disease	MESH:D000086382
+38620194	737	745	COVID-19	Disease	MESH:D000086382
+38620194	746	754	patients	Species	9606
+38620194	796	801	cough	Disease	MESH:D003371
+38620194	806	825	shortness of breath	Disease	MESH:D004417
+38620194	962	970	COVID-19	Disease	MESH:D000086382
+38620194	971	976	cough	Disease	MESH:D003371
+38620194	997	1003	coughs	Disease	MESH:D003371
+38620194	1301	1320	shortness of breath	Disease	MESH:D004417
+38620194	1608	1613	cough	Disease	MESH:D003371
+38620194	1642	1661	shortness of breath	Disease	MESH:D004417
+

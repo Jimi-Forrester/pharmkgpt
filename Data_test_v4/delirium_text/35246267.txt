@@ -1,0 +1,32 @@
+35246267|t|Circular RNA detection identifies circPSEN1 alterations in brain specific to autosomal dominant Alzheimer's disease.
+35246267|a|BACKGROUND: Autosomal-dominant Alzheimer's disease (ADAD) is caused by pathogenic mutations in APP, PSEN1, and PSEN2, which usually lead to an early age at onset (< 65). Circular RNAs are a family of non-coding RNAs highly expressed in the nervous system and especially in synapses. We aimed to investigate differences in brain gene expression of linear and circular transcripts from the three ADAD genes in controls, sporadic AD, and ADAD. METHODS: We obtained and sequenced RNA from brain cortex using standard protocols. Linear counts were obtained using the TOPMed pipeline; circular counts, using python package DCC. After stringent quality control (QC), we obtained the counts for PSEN1, PSEN2 and APP genes. Only circPSEN1 passed QC. We used DESeq2 to compare the counts across groups, correcting for biological and technical variables. Finally, we performed in-silico functional analyses using the Circular RNA interactome website and DIANA mirPath software. RESULTS: Our results show significant differences in gene counts of circPSEN1 in ADAD individuals, when compared to sporadic AD and controls (ADAD = 21, AD = 253, Controls = 23-ADADvsCO: log2FC = 0.794, p = 1.63 x 10-04, ADADvsAD: log2FC = 0.602, p = 8.22 x 10-04). The high gene counts are contributed by two circPSEN1 species (hsa_circ_0008521 and hsa_circ_0003848). No significant differences were observed in linear PSEN1 gene expression between cases and controls, indicating that this finding is specific to the circular forms. In addition, the high circPSEN1 levels do not seem to be specific to PSEN1 mutation carriers; the counts are also elevated in APP and PSEN2 mutation carriers. In-silico functional analyses suggest that circPSEN1 is involved in several pathways such as axon guidance (p = 3.39 x 10-07), hippo signaling pathway (p = 7.38 x 10-07), lysine degradation (p = 2.48 x 10-05) or Wnt signaling pathway (p = 5.58 x 10-04) among other KEGG pathways. Additionally, circPSEN1 counts were able to discriminate ADAD from sporadic AD and controls with an AUC above 0.70. CONCLUSIONS: Our findings show the differential expression of circPSEN1 is increased in ADAD. Given the biological function previously ascribed to circular RNAs and the results of our in-silico analyses, we hypothesize that this finding might be related to neuroinflammatory events that lead or that are caused by the accumulation of amyloid-beta.
+35246267	96	115	Alzheimer's disease	Disease	MESH:D000544
+35246267	129	167	Autosomal-dominant Alzheimer's disease	Disease	MESH:D000544
+35246267	169	173	ADAD	Disease	MESH:D000544
+35246267	217	222	PSEN1	Gene	5663
+35246267	228	233	PSEN2	Gene	5664
+35246267	511	515	ADAD	Disease	MESH:D000544
+35246267	544	546	AD	Disease	MESH:D000544
+35246267	552	556	ADAD	Disease	MESH:D000544
+35246267	804	809	PSEN1	Gene	5663
+35246267	811	816	PSEN2	Gene	5664
+35246267	1165	1169	ADAD	Disease	MESH:D000544
+35246267	1209	1211	AD	Disease	MESH:D000544
+35246267	1226	1230	ADAD	Disease	MESH:D000544
+35246267	1237	1239	AD	Disease	MESH:D000544
+35246267	1434	1437	hsa	Gene	213
+35246267	1504	1509	PSEN1	Gene	5663
+35246267	1687	1692	PSEN1	Gene	5663
+35246267	1752	1757	PSEN2	Gene	5664
+35246267	1948	1954	lysine	Chemical	MESH:D008239
+35246267	2114	2118	ADAD	Disease	MESH:D000544
+35246267	2133	2135	AD	Disease	MESH:D000544
+35246267	2261	2265	ADAD	Disease	MESH:D000544
+35246267	2430	2447	neuroinflammatory	Disease	MESH:D000090862
+35246267	2507	2519	amyloid-beta	Gene	351
+35246267	Association	MESH:D000544	5663
+35246267	Association	MESH:D000544	213
+35246267	Association	MESH:D000090862	351
+35246267	Association	MESH:D000544	351
+35246267	Association	MESH:D000544	5664
+

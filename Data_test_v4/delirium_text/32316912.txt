@@ -1,0 +1,26 @@
+32316912|t|Predicting MCI progression with FDG-PET and cognitive scores: a longitudinal study.
+32316912|a|BACKGROUND: Mild cognitive impairment (MCI) is an intermediate stage between normal aging and dementia. Studies on MCI progression are important for Alzheimer's disease (AD) prevention. 18F fluoro-deoxy-glucose positron emission tomography (FDG-PET) has been proven to be a powerful tool for measuring cerebral glucose metabolism. In this study, we proposed a classification framework for MCI prediction with both baseline and multiple follow-up FDG-PET scans as well as cognitive scores of 33 progressive MCI (pMCI) patients and 46 stable MCI (sMCI) patients from the Alzheimer's Disease Neuroimaging Initiative (ADNI). METHOD: First, PET images were normalized using the Yakushev normalization procedure and registered to the Brainnetome Atlas (BNA). The average metabolic intensities of brain regions were defined as static features. Dynamic features were the intensity variation between baseline and the other three time points and change ratios with the intensity obtained at baseline considered as reference. Mini-mental State Examination (MMSE) scores and Alzheimer's disease Assessment Scale-Cognitive section (ADAS-cog) scores of each time point were collected as cognitive features. And F-score was applied for feature selection. Finally, support vector machine (SVM) with radial basis function (RBF) kernel was used for the three above features. RESULTS: Dynamic features showed the best classification performance in accuracy of 88.61% than static features (accuracy of 78.48%). And the combination of cognitive features and dynamic features improved the classification performance in specificity of 95.65% and Area Under Curve (AUC) of 0.9308. CONCLUSION: Our results reported that dynamic features are more representative in longitudinal research for MCI prediction work. And dynamic features and cognitive scores complementarily enhance the classification performance in specificity and AUC. These findings may predict the disease course and clinical changes in individuals with mild cognitive impairment.
+32316912	11	14	MCI	Disease	MESH:D060825
+32316912	32	35	FDG	Chemical	MESH:D019788
+32316912	101	121	cognitive impairment	Disease	MESH:D003072
+32316912	123	126	MCI	Disease	MESH:D060825
+32316912	178	186	dementia	Disease	MESH:D003704
+32316912	199	202	MCI	Disease	MESH:D060825
+32316912	233	252	Alzheimer's disease	Disease	MESH:D000544
+32316912	254	256	AD	Disease	MESH:D000544
+32316912	270	294	18F fluoro-deoxy-glucose	Chemical	MESH:D019788
+32316912	325	328	FDG	Chemical	MESH:D019788
+32316912	395	402	glucose	Chemical	MESH:D005947
+32316912	473	476	MCI	Disease	MESH:D060825
+32316912	530	533	FDG	Chemical	MESH:D019788
+32316912	590	593	MCI	Disease	MESH:D060825
+32316912	601	609	patients	Species	9606
+32316912	624	627	MCI	Disease	MESH:D060825
+32316912	635	643	patients	Species	9606
+32316912	653	672	Alzheimer's Disease	Disease	MESH:D000544
+32316912	1147	1166	Alzheimer's disease	Disease	MESH:D000544
+32316912	1849	1852	MCI	Disease	MESH:D060825
+32316912	2083	2103	cognitive impairment	Disease	MESH:D003072
+32316912	Association	MESH:D005947	MESH:D019788
+32316912	Association	MESH:D019788	MESH:D060825
+

@@ -1,0 +1,56 @@
+38301889|t|Decreased pyruvate dehydrogenase activity in Tafazzin-deficient cells is caused by dysregulation of pyruvate dehydrogenase phosphatase 1 (PDP1).
+38301889|a|Cardiolipin (CL), the signature lipid of the mitochondrial inner membrane, is critical for maintaining optimal mitochondrial function and bioenergetics. Disruption of CL metabolism, caused by mutations in the CL remodeling enzyme TAFAZZIN, results in the life-threatening disorder Barth syndrome (BTHS). While the clinical manifestations of BTHS, such as dilated cardiomyopathy and skeletal myopathy, point to defects in mitochondrial bioenergetics, the disorder is also characterized by broad metabolic dysregulation, including abnormal levels of metabolites associated with the tricarboxylic acid (TCA) cycle. Recent studies have identified the inhibition of pyruvate dehydrogenase (PDH), the gatekeeper enzyme for TCA cycle carbon influx, as a key deficiency in various BTHS model systems. However, the molecular mechanisms linking aberrant CL remodeling, particularly the primary, direct consequence of reduced tetralinoleoyl-CL (TLCL) levels, to PDH activity deficiency are not yet understood. In the current study, we found that remodeled TLCL promotes PDH function by directly binding to and enhancing the activity of PDH phosphatase 1 (PDP1). This is supported by our findings that TLCL uniquely activates PDH in a dose-dependent manner, TLCL binds to PDP1 in vitro, TLCL-mediated PDH activation is attenuated in the presence of phosphatase inhibitor, and PDP1 activity is decreased in Tafazzin-knockout (TAZ-KO) C2C12 myoblasts. Additionally, we observed decreased mitochondrial calcium levels in TAZ-KO cells and treating TAZ-KO cells with calcium lactate (CaLac) increases mitochondrial calcium and restores PDH activity and mitochondrial oxygen consumption rate. Based on our findings, we conclude that reduced mitochondrial calcium levels and decreased binding of PDP1 to TLCL contribute to decreased PDP1 activity in TAZ-KO cells.
+38301889	10	32	pyruvate dehydrogenase	Gene	54704
+38301889	45	53	Tafazzin	Gene	6901
+38301889	138	142	PDP1	Gene	54704
+38301889	145	156	Cardiolipin	Chemical	MESH:D002308
+38301889	177	182	lipid	Chemical	MESH:D008055
+38301889	375	383	TAFAZZIN	Gene	6901
+38301889	426	440	Barth syndrome	Disease	MESH:D056889
+38301889	442	446	BTHS	Disease	MESH:D056889
+38301889	486	490	BTHS	Disease	MESH:D056889
+38301889	500	522	dilated cardiomyopathy	Disease	MESH:D002311
+38301889	527	544	skeletal myopathy	Disease	MESH:D009135
+38301889	725	743	tricarboxylic acid	Chemical	MESH:D014233
+38301889	745	748	TCA	Chemical	MESH:D014233
+38301889	806	828	pyruvate dehydrogenase	Gene	54704
+38301889	830	833	PDH	Gene	54704
+38301889	862	865	TCA	Chemical	MESH:D014233
+38301889	872	878	carbon	Chemical	MESH:D002244
+38301889	918	922	BTHS	Disease	MESH:D056889
+38301889	1096	1099	PDH	Gene	54704
+38301889	1204	1207	PDH	Gene	54704
+38301889	1270	1287	PDH phosphatase 1	Gene	54704
+38301889	1289	1293	PDP1	Gene	54704
+38301889	1359	1362	PDH	Gene	54704
+38301889	1405	1409	PDP1	Gene	54704
+38301889	1434	1437	PDH	Gene	54704
+38301889	1509	1513	PDP1	Gene	54704
+38301889	1539	1547	Tafazzin	Gene	6901
+38301889	1558	1561	TAZ	Gene	6901
+38301889	1566	1581	C2C12 myoblasts	CellLine	CVCL:0188
+38301889	1633	1640	calcium	Chemical	MESH:D002118
+38301889	1651	1654	TAZ	Gene	6901
+38301889	1677	1680	TAZ	Gene	6901
+38301889	1695	1710	calcium lactate	Chemical	MESH:C110051
+38301889	1712	1717	CaLac	Chemical	MESH:C110051
+38301889	1743	1750	calcium	Chemical	MESH:D002118
+38301889	1764	1767	PDH	Gene	54704
+38301889	1795	1801	oxygen	Chemical	MESH:D010100
+38301889	1882	1889	calcium	Chemical	MESH:D002118
+38301889	1922	1926	PDP1	Gene	54704
+38301889	1959	1963	PDP1	Gene	54704
+38301889	1976	1979	TAZ	Gene	6901
+38301889	Association	MESH:D002244	54704
+38301889	Association	MESH:D056889	6901
+38301889	Association	MESH:D002311	54704
+38301889	Association	MESH:D014233	MESH:D056889
+38301889	Association	MESH:D002118	6901
+38301889	Association	54704	6901
+38301889	Positive_Correlation	MESH:C110051	MESH:D010100
+38301889	Association	MESH:C110051	6901
+38301889	Association	MESH:D014233	54704
+38301889	Association	MESH:D056889	54704
+38301889	Negative_Correlation	MESH:C110051	54704
+38301889	Positive_Correlation	MESH:C110051	MESH:D002118
+

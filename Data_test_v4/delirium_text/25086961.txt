@@ -1,0 +1,42 @@
+25086961|t|Prediction of miRNA-mRNA associations in Alzheimer's disease mice using network topology.
+25086961|a|BACKGROUND: Little is known about the relationship between miRNA and mRNA expression in Alzheimer's disease (AD) at early- or late-symptomatic stages. Sequence-based target prediction algorithms and anti-correlation profiles have been applied to predict miRNA targets using omics data, but this approach often leads to false positive predictions. Here, we applied the joint profiling analysis of mRNA and miRNA expression levels to Tg6799 AD model mice at 4 and 8 months of age using a network topology-based method. We constructed gene regulatory networks and used the PageRank algorithm to predict significant interactions between miRNA and mRNA. RESULTS: In total, 8 cluster modules were predicted by the transcriptome data for co-expression networks of AD pathology. In total, 54 miRNAs were identified as being differentially expressed in AD. Among these, 50 significant miRNA-mRNA interactions were predicted by integrating sequence target prediction, expression analysis, and the PageRank algorithm. We identified a set of miRNA-mRNA interactions that were changed in the hippocampus of Tg6799 AD model mice. We determined the expression levels of several candidate genes and miRNA. For functional validation in primary cultured neurons from Tg6799 mice (MT) and littermate (LM) controls, the overexpression of ARRDC3 enhanced PPP1R3C expression. ARRDC3 overexpression showed the tendency to decrease the expression of miR139-5p and miR3470a in both LM and MT primary cells. Pathological environment created by Abeta treatment increased the gene expression of PPP1R3C and Sfpq but did not significantly alter the expression of miR139-5p or miR3470a. Abeta treatment increased the promoter activity of ARRDC3 gene in LM primary cells but not in MT primary cells. CONCLUSIONS: Our results demonstrate AD-specific changes in the miRNA regulatory system as well as the relationship between the expression levels of miRNAs and their targets in the hippocampus of Tg6799 mice. These data help further our understanding of the function and mechanism of various miRNAs and their target genes in the molecular pathology of AD.
+25086961	41	60	Alzheimer's disease	Disease	MESH:D000544
+25086961	61	65	mice	Species	10090
+25086961	178	197	Alzheimer's disease	Disease	MESH:D000544
+25086961	199	201	AD	Disease	MESH:D000544
+25086961	522	528	Tg6799	CellLine	CVCL:S723
+25086961	529	531	AD	Disease	MESH:D000544
+25086961	538	542	mice	Species	10090
+25086961	847	849	AD	Disease	MESH:D000544
+25086961	934	936	AD	Disease	MESH:D000544
+25086961	1184	1190	Tg6799	CellLine	CVCL:S723
+25086961	1191	1193	AD	Disease	MESH:D000544
+25086961	1200	1204	mice	Species	10090
+25086961	1339	1345	Tg6799	CellLine	CVCL:S723
+25086961	1346	1350	mice	Species	10090
+25086961	1352	1354	MT	Disease	
+25086961	1372	1374	LM	CellLine	
+25086961	1408	1414	ARRDC3	Gene	105171
+25086961	1424	1431	PPP1R3C	Gene	53412
+25086961	1444	1450	ARRDC3	Gene	105171
+25086961	1530	1538	miR3470a	Gene	100499518
+25086961	1547	1549	LM	CellLine	
+25086961	1554	1556	MT	Disease	
+25086961	1608	1613	Abeta	Gene	11820
+25086961	1657	1664	PPP1R3C	Gene	53412
+25086961	1669	1673	Sfpq	Gene	71514
+25086961	1737	1745	miR3470a	Gene	100499518
+25086961	1747	1752	Abeta	Gene	11820
+25086961	1798	1804	ARRDC3	Gene	105171
+25086961	1813	1815	LM	CellLine	
+25086961	1841	1843	MT	Disease	
+25086961	1896	1898	AD	Disease	MESH:D000544
+25086961	2055	2061	Tg6799	CellLine	CVCL:S723
+25086961	2062	2066	mice	Species	10090
+25086961	2211	2213	AD	Disease	MESH:D000544
+25086961	Positive_Correlation	105171	11820
+25086961	Negative_Correlation	100499518	105171
+25086961	Positive_Correlation	11820	71514
+25086961	Positive_Correlation	11820	53412
+25086961	Positive_Correlation	105171	53412
+

@@ -1,0 +1,35 @@
+38769382|t|Machine learning-based model to predict delirium in patients with advanced cancer treated with palliative care: a multicenter, patient-based registry cohort.
+38769382|a|This study aimed to present a new approach to predict to delirium admitted to the acute palliative care unit. To achieve this, this study employed machine learning model to predict delirium in patients in palliative care and identified the significant features that influenced the model. A multicenter, patient-based registry cohort study in South Korea between January 1, 2019, and December 31, 2020. Delirium was identified by reviewing the medical records based on the criteria of the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition. The study dataset included 165 patients with delirium among 2314 patients with advanced cancer admitted to the acute palliative care unit. Seven machine learning models, including extreme gradient boosting, adaptive boosting, gradient boosting, light gradient boosting, logistic regression, support vector machine, and random forest, were evaluated to predict delirium in patients with advanced cancer admitted to the acute palliative care unit. An ensemble approach was adopted to determine the optimal model. For k-fold cross-validation, the combination of extreme gradient boosting and random forest provided the best performance, achieving the following accuracy metrics: 68.83% sensitivity, 70.85% specificity, 69.84% balanced accuracy, and 74.55% area under the receiver operating characteristic curve. The performance of the isolated testing dataset was also validated, and the machine learning model was successfully deployed on a public website ( http://ai-wm.khu.ac.kr/Delirium/ ) to provide public access to delirium prediction results in patients with advanced cancer. Furthermore, using feature importance analysis, sex was determined to be the top contributor in predicting delirium, followed by a history of delirium, chemotherapy, smoking status, alcohol consumption, and living with family. Based on a large-scale, multicenter, patient-based registry cohort, a machine learning prediction model for delirium in patients with advanced cancer was developed in South Korea. We believe that this model will assist healthcare providers in treating patients with delirium and advanced cancer.
+38769382	40	48	delirium	Disease	MESH:D003693
+38769382	52	60	patients	Species	9606
+38769382	75	81	cancer	Disease	MESH:D009369
+38769382	127	134	patient	Species	9606
+38769382	215	223	delirium	Disease	MESH:D003693
+38769382	339	347	delirium	Disease	MESH:D003693
+38769382	351	359	patients	Species	9606
+38769382	461	468	patient	Species	9606
+38769382	560	568	Delirium	Disease	MESH:D003693
+38769382	683	699	Mental Disorders	Disease	MESH:D001523
+38769382	747	755	patients	Species	9606
+38769382	761	769	delirium	Disease	MESH:D003693
+38769382	781	789	patients	Species	9606
+38769382	804	810	cancer	Disease	MESH:D009369
+38769382	1076	1084	delirium	Disease	MESH:D003693
+38769382	1088	1096	patients	Species	9606
+38769382	1111	1117	cancer	Disease	MESH:D009369
+38769382	1695	1703	Delirium	Disease	MESH:D003693
+38769382	1735	1743	delirium	Disease	MESH:D003693
+38769382	1766	1774	patients	Species	9606
+38769382	1789	1795	cancer	Disease	MESH:D009369
+38769382	1904	1912	delirium	Disease	MESH:D003693
+38769382	1939	1947	delirium	Disease	MESH:D003693
+38769382	1979	1986	alcohol	Chemical	MESH:D000438
+38769382	2061	2068	patient	Species	9606
+38769382	2132	2140	delirium	Disease	MESH:D003693
+38769382	2144	2152	patients	Species	9606
+38769382	2167	2173	cancer	Disease	MESH:D009369
+38769382	2276	2284	patients	Species	9606
+38769382	2290	2298	delirium	Disease	MESH:D003693
+38769382	2312	2318	cancer	Disease	MESH:D009369
+38769382	Association	MESH:D000438	MESH:D003693
+

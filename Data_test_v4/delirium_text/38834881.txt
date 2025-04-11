@@ -1,0 +1,27 @@
+38834881|t|Development of a Prediction Model and Corresponding Scoring Table for Postherpetic Neuralgia Using Six Machine Learning Algorithms: A Retrospective Study.
+38834881|a|INTRODUCTION: Postherpetic neuralgia (PHN), a complication of herpes zoster, significantly impacts the quality of life of affected patients. Research indicates that early intervention for pain can reduce the occurrence or severity of PHN. This study aims to develop a predictive model and scoring table to identify patients at risk of developing PHN following acute herpetic neuralgia, facilitating informed clinical decision-making. METHODS: We conducted a retrospective review of 524 hospitalized patients with herpes zoster at The First Affiliated Hospital of Zhejiang Chinese Medical University from December 2020 to December 2023 and classified them according to whether they had PHN, collecting a comprehensive set of 30 patient characteristics and disease-related indicators, 5 comorbidity indicators, 2 disease score values, and 10 serological indicators. Relevant features associated with PHN were identified using the least absolute shrinkage and selection operator (LASSO). Then, the patients were divided into a training set and a test set in a 4:1 ratio, with comparability tested using univariate analysis. Six models were established in the training set using machine learning methods: support vector machines, logistic regression, random forest, k-nearest neighbor, gradient boosting, and neural network. The performance of these models was evaluated in the test set, and a nomogram based on logistic regression was used to create a PHN prediction score table. RESULTS: Eight non-zero characteristic variables selected from the LASSO regression results were included in the model, including age [area under the curve (AUC) = 0.812, p < 0.001], Numerical Rating Scale (NRS) (AUC = 0.792, p < 0.001), receiving treatment time (AUC = 0.612, p < 0.001), rash recovery time (AUC = 0.680, p < 0.001), history of malignant tumor (AUC = 0.539, p < 0.001), history of diabetes (AUC = 0.638, p < 0.001), varicella-zoster virus immunoglobulin M (AUC = 0.620, p < 0.001), and serum nerve-specific enolase (AUC = 0.659, p < 0,001). The gradient boosting model outperformed other classifier models on the test set with an AUC of 0.931, 95% confidence interval (CI) (0.882-0.980), accuracy of 0.886 (95% CI 0.809-0.940). In the test set, our predictive scoring table achieved an AUC of 0.820 (95% CI 0.869-0.970) with accuracy of 0.790 (95% CI 0.700-0.864). CONCLUSION: This study presents a methodology for predicting the development of postherpetic neuralgia in shingles patients by analyzing historical case data, employing various machine learning techniques, and selecting the optimal model through comparative analysis. In addition, a logistic regression model has been used to create a scoring table for predicting the postherpetic neuralgia.
+38834881	70	92	Postherpetic Neuralgia	Disease	MESH:D051474
+38834881	169	191	Postherpetic neuralgia	Disease	MESH:D051474
+38834881	193	196	PHN	Disease	MESH:D051474
+38834881	217	230	herpes zoster	Disease	MESH:D006562
+38834881	286	294	patients	Species	9606
+38834881	343	347	pain	Disease	MESH:D010146
+38834881	389	392	PHN	Disease	MESH:D051474
+38834881	470	478	patients	Species	9606
+38834881	501	504	PHN	Disease	MESH:D051474
+38834881	521	539	herpetic neuralgia	Disease	MESH:D009437
+38834881	654	662	patients	Species	9606
+38834881	668	681	herpes zoster	Disease	MESH:D006562
+38834881	840	843	PHN	Disease	MESH:D051474
+38834881	882	889	patient	Species	9606
+38834881	1053	1056	PHN	Disease	MESH:D051474
+38834881	1150	1158	patients	Species	9606
+38834881	1604	1607	PHN	Disease	MESH:D051474
+38834881	1921	1925	rash	Disease	MESH:D005076
+38834881	1977	1992	malignant tumor	Disease	MESH:D009369
+38834881	2030	2038	diabetes	Disease	MESH:D003920
+38834881	2065	2087	varicella-zoster virus	Species	10335
+38834881	2594	2616	postherpetic neuralgia	Disease	MESH:D051474
+38834881	2629	2637	patients	Species	9606
+38834881	2882	2904	postherpetic neuralgia	Disease	MESH:D051474
+

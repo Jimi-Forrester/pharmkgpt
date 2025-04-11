@@ -1,0 +1,17 @@
+38979503|t|Enhancing Alzheimer's disease diagnosis and staging: a multistage CNN framework using MRI.
+38979503|a|This study addresses the pervasive and debilitating impact of Alzheimer's disease (AD) on individuals and society, emphasizing the crucial need for timely diagnosis. We present a multistage convolutional neural network (CNN)-based framework for AD detection and sub-classification using brain magnetic resonance imaging (MRI). After preprocessing, a 26-layer CNN model was designed to differentiate between healthy individuals and patients with dementia. After detecting dementia, the 26-layer CNN model was reutilized using the concept of transfer learning to further subclassify dementia into mild, moderate, and severe dementia. Leveraging the frozen weights of the developed CNN on correlated medical images facilitated the transfer learning process for sub-classifying dementia classes. An online AD dataset is used to verify the performance of the proposed multistage CNN-based framework. The proposed approach yielded a noteworthy accuracy of 98.24% in identifying dementia classes, whereas it achieved 99.70% accuracy in dementia subclassification. Another dataset was used to further validate the proposed framework, resulting in 100% performance. Comparative evaluations against pre-trained models and the current literature were also conducted, highlighting the usefulness and superiority of the proposed framework and presenting it as a robust and effective AD detection and subclassification method.
+38979503	10	29	Alzheimer's disease	Disease	MESH:D000544
+38979503	153	172	Alzheimer's disease	Disease	MESH:D000544
+38979503	174	176	AD	Disease	MESH:D000544
+38979503	336	338	AD	Disease	MESH:D000544
+38979503	522	530	patients	Species	9606
+38979503	536	544	dementia	Disease	MESH:D003704
+38979503	562	570	dementia	Disease	MESH:D003704
+38979503	672	680	dementia	Disease	MESH:D003704
+38979503	713	721	dementia	Disease	MESH:D003704
+38979503	865	873	dementia	Disease	MESH:D003704
+38979503	893	895	AD	Disease	MESH:D000544
+38979503	1063	1071	dementia	Disease	MESH:D003704
+38979503	1120	1128	dementia	Disease	MESH:D003704
+38979503	1461	1463	AD	Disease	MESH:D000544
+

@@ -1,0 +1,13 @@
+39177597|t|A Study of Assisted Screening for Alzheimer's Disease Based on Handwriting and Gait Analysis.
+39177597|a|Background: Alzheimer's disease (AD) is a progressive neurodegenerative disease that is not easily detected in the early stage. Handwriting and walking have been shown to be potential indicators of cognitive decline and are often affected by AD. Objective: This study proposes an assisted screening framework for AD based on multimodal analysis of handwriting and gait and explores whether using a combination of multiple modalities can improve the accuracy of single modality classification. Methods: We recruited 90 participants (38 AD patients and 52 healthy controls). The handwriting data was collected under four handwriting tasks using dot-matrix digital pens, and the gait data was collected using an electronic trail. The two kinds of features were fused as inputs for several different machine learning models (Logistic Regression, SVM, XGBoost, Adaboost, LightGBM), and the model performance was compared. Results: The accuracy of each model ranged from 71.95% to 96.17%. Among them, the model constructed by LightGBM had the best performance, with an accuracy of 96.17%, sensitivity of 95.32%, specificity of 96.78%, PPV of 95.94%, NPV of 96.74%, and AUC of 0.991. However, the highest accuracy of a single modality was 93.53%, which was achieved by XGBoost in gait features. Conclusions: The research results show that the combination of handwriting features and gait features can achieve better classification results than a single modality. In addition, the assisted screening model proposed in this study can achieve effective classification of AD, which has development and application prospects.
+39177597	34	53	Alzheimer's Disease	Disease	MESH:D000544
+39177597	106	125	Alzheimer's disease	Disease	MESH:D000544
+39177597	127	129	AD	Disease	MESH:D000544
+39177597	148	173	neurodegenerative disease	Disease	MESH:D019636
+39177597	292	309	cognitive decline	Disease	MESH:D003072
+39177597	336	338	AD	Disease	MESH:D000544
+39177597	407	409	AD	Disease	MESH:D000544
+39177597	629	631	AD	Disease	MESH:D000544
+39177597	632	640	patients	Species	9606
+39177597	1655	1657	AD	Disease	MESH:D000544
+

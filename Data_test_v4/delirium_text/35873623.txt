@@ -1,0 +1,46 @@
+35873623|t|Active Compounds and Targets of Yuanzhi Powder in Treating Alzheimer's Disease and Its Relationship with Immune Infiltration Based on HPLC Fingerprint and Network Pharmacology.
+35873623|a|Background: Yuanzhi powder (YZP) has been extensively investigated as a natural prescription with therapeutic benefits for Alzheimer's disease (AD). However, its active compounds and underlying immune mechanism for treating AD are still unclear. This study aimed to investigate the immune mechanism of YZP against AD through high-performance liquid chromatography (HPLC)-based network pharmacology and gene chip technology. Methods: Active components of YZP were obtained from HPLC and public databases. Subsequently, GSE5281, GSE28146, GSE29378, and GSE97760 from the Gene Expression Omnibus (GEO) database were downloaded to extract AD difference genes (DEGs). The active components-targets network and protein interaction network were then constructed by Cytoscape. The biological processes and signaling pathways, which implicate the targets of YZP for AD, were analyzed using the ClueGo Cytoscape plug-in. Molecular docking experiments were performed to verify the affinity of targets and ligands. Ultimately, the link between the hub genes and immune cell infiltration was assessed via CIBERSORT. Results: 83 YZP active compounds and 641 DEGs associated with AD, including quercetin, berberine, 3,6'-disinapoylsucrose, coptisine, and palmatine, were evaluated. We showed that FOS, CCL2, and GJA1 were the core targets and that the gap junction is an essential signaling pathway in YZP for AD. Furthermore, the AD group had a higher infiltration level of naive B cells and resting CD4 memory T cells, as determined by the CIBERSORT. Notably, the immune cells-targets network demonstrates that GJA1 and GRM1 are intimately related to naive B cells and plasma cells. Conclusions: YZP may help treat AD by targeting proteins with key active compounds to regulate naive B cells and plasma cells. Our results demonstrate a new immune mechanism for treating AD with YZP.
+35873623	32	46	Yuanzhi Powder	Chemical	-
+35873623	59	78	Alzheimer's Disease	Disease	MESH:D000544
+35873623	189	203	Yuanzhi powder	Chemical	-
+35873623	205	208	YZP	Chemical	-
+35873623	300	319	Alzheimer's disease	Disease	MESH:D000544
+35873623	321	323	AD	Disease	MESH:D000544
+35873623	401	403	AD	Disease	MESH:D000544
+35873623	479	482	YZP	Chemical	-
+35873623	491	493	AD	Disease	MESH:D000544
+35873623	631	634	YZP	Chemical	-
+35873623	812	814	AD	Disease	MESH:D000544
+35873623	1026	1029	YZP	Chemical	-
+35873623	1034	1036	AD	Disease	MESH:D000544
+35873623	1292	1295	YZP	Chemical	-
+35873623	1342	1344	AD	Disease	MESH:D000544
+35873623	1356	1365	quercetin	Chemical	MESH:D011794
+35873623	1367	1376	berberine	Chemical	MESH:D001599
+35873623	1378	1400	3,6'-disinapoylsucrose	Chemical	MESH:C546986
+35873623	1402	1411	coptisine	Chemical	MESH:C034384
+35873623	1417	1426	palmatine	Chemical	MESH:C005413
+35873623	1459	1462	FOS	Gene	2353
+35873623	1464	1468	CCL2	Gene	6347
+35873623	1474	1478	GJA1	Gene	2697
+35873623	1564	1567	YZP	CellLine	CVCL:B6PU
+35873623	1572	1574	AD	Disease	MESH:D000544
+35873623	1593	1595	AD	Disease	MESH:D000544
+35873623	1663	1666	CD4	Gene	920
+35873623	1775	1779	GJA1	Gene	2697
+35873623	1784	1788	GRM1	Gene	2911
+35873623	1860	1863	YZP	Chemical	-
+35873623	1879	1881	AD	Disease	MESH:D000544
+35873623	2034	2036	AD	Disease	MESH:D000544
+35873623	2042	2045	YZP	Chemical	-
+35873623	Positive_Correlation	MESH:D000544	920
+35873623	Association	MESH:C546986	MESH:D000544
+35873623	Association	MESH:C005413	MESH:D000544
+35873623	Association	MESH:D000544	2911
+35873623	Association	MESH:D000544	6347
+35873623	Association	MESH:D000544	2697
+35873623	Association	MESH:D000544	2353
+35873623	Association	MESH:D001599	MESH:D000544
+35873623	Association	MESH:C034384	MESH:D000544
+35873623	Association	MESH:D011794	MESH:D000544
+

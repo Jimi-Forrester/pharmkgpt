@@ -1,0 +1,13 @@
+33250550|t|Patch-Based Surface Morphometry Feature Selection with Federated Group Lasso Regression.
+33250550|a|Collectively, vast quantities of brain imaging data exist across hospitals and research institutions, providing valuable resources to study brain disorders such as Alzheimer's disease (AD). However, in practice, putting all these distributed datasets into a centralized platform is infeasible due to patient privacy concerns, data restrictions and legal regulations. In this study, we propose a novel federated feature selection framework that can analyze the data at each individual institution without data-sharing or accessing private patient information. In this framework, we first propose a federated group lasso optimization method based on block coordinate descent. We employ stability selection to determine statistically significant features, by solving the group lasso problem with a sequence of regularization parameters. To accelerate the stability selection, we further propose a federated screening rule, which can identify and exclude the irrelevant features before solving the group lasso. Here, we use this framework for patch based feature selection on hippocampal morphometry. Shape is characterized through two different kinds of local measures, the radial distance and the surface area determined via tensor-based morphometry (TBM). The method is tested on 1,127 T1-weighted brain magnetic resonance images (MRI) of AD, mild cognitive impairment (MCI) and elderly control subjects, randomly assigned to five independent hypothetical institutions for testing purpose. We examine the association of MRI-based anatomical measures with general cognitive assessment and amyloid burden to identify the morphometry changes related to AD deterioration and plaque accumulation. Finally, we visualize the significance of the association on the hippocampal surfaces. Our experimental results successfully demonstrate the efficiency and effectiveness of our method.
+33250550	229	244	brain disorders	Disease	MESH:D001927
+33250550	253	272	Alzheimer's disease	Disease	MESH:D000544
+33250550	274	276	AD	Disease	MESH:D000544
+33250550	389	396	patient	Species	9606
+33250550	627	634	patient	Species	9606
+33250550	1427	1429	AD	Disease	MESH:D000544
+33250550	1436	1456	cognitive impairment	Disease	MESH:D003072
+33250550	1458	1461	MCI	Disease	MESH:D060825
+33250550	1676	1683	amyloid	Disease	MESH:C000718787
+33250550	1738	1740	AD	Disease	MESH:D000544
+

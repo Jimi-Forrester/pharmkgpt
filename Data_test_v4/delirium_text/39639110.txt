@@ -1,0 +1,13 @@
+39639110|t|AlzGenPred - CatBoost-based gene classifier for predicting Alzheimer's disease using high-throughput sequencing data.
+39639110|a|AD is a progressive neurodegenerative disorder characterized by memory loss. Due to the advancement in next-generation sequencing, an enormous amount of AD-associated genomics data is available. However, the information about the involvement of these genes in AD association is still a research topic. Therefore, AlzGenPred is developed to identify the AD-associated genes using machine-learning. A total of 13,504 features derived from eight sequence-encoding schemes were generated and evaluated using 16 machine learning algorithms. Network-based features significantly outperformed sequence-based features, effectively distinguishing AD-associated genes. In contrast, sequence-based features failed to classify accurately. To improve performance, we generated 24 fused features (6020 D) from sequence-based encodings, increasing accuracy by 5-7% using a two-step lightGBM-based recursive feature selection method. However, accuracy remained below 70% even after hyperparameter tuning. Therefore, network-based features were used to generate the CatBoost-based ML method AlzGenPred with 96.55% accuracy and 98.99% AUROC. The developed method is tested on the AlzGene dataset where it showed 96.43% accuracy. Then the model was validated using the transcriptomics dataset. AlzGenPred provides a reliable and user-friendly tool for identifying potential AD biomarkers, accelerating biomarker discovery, and advancing our understanding of AD. It is available at https://www.bioinfoindia.org/alzgenpred/ and https://github.com/shuklarohit815/AlzGenPred .
+39639110	59	78	Alzheimer's disease	Disease	MESH:D000544
+39639110	118	120	AD	Disease	MESH:D000544
+39639110	138	164	neurodegenerative disorder	Disease	MESH:D019636
+39639110	182	193	memory loss	Disease	MESH:D008569
+39639110	271	273	AD	Disease	MESH:D000544
+39639110	378	380	AD	Disease	MESH:D000544
+39639110	471	473	AD	Disease	MESH:D000544
+39639110	756	758	AD	Disease	MESH:D000544
+39639110	1473	1475	AD	Disease	MESH:D000544
+39639110	1557	1559	AD	Disease	MESH:D000544
+

@@ -1,0 +1,13 @@
+39911161|t|Automated karyogram analysis for early detection of genetic and neurodegenerative disorders: a hybrid machine learning approach.
+39911161|a|Anomalous chromosomes are the cause of genetic diseases such as cancer, Alzheimer's, Parkinson's, epilepsy, and autism. Karyotype analysis is the standard procedure for diagnosing genetic disorders. Identifying anomalies is often costly, time-consuming, heavily reliant on expert interpretation, and requires considerable manual effort. Efforts are being made to automate karyogram analysis. However, the unavailability of large datasets, particularly those including samples with chromosomal abnormalities, presents a significant challenge. The development of automated models requires extensive labeled and incredibly abnormal data to accurately identify and analyze abnormalities, which are difficult to obtain in sufficient quantities. Although the deep learning-based architecture has yielded state-of-the-art performance in medical image anomaly detection, it cannot be generalized well because of the lack of anomalous datasets. This study introduces a novel hybrid approach that combines unsupervised and supervised learning techniques to overcome the challenges of limited labeled data and scalability in chromosomal analysis. An Autoencoder-based system is initially trained with unlabeled data to identify chromosome patterns. It is fine-tuned on labeled data, followed by a classification step using a Convolutional Neural Network (CNN). A unique dataset of 234,259 chromosome images, including the training, validation, and test sets, was used. Marking a significant achievement in the scale of chromosomal analysis. The proposed hybrid system accurately detects structural anomalies in individual chromosome images, achieving 99.3% accuracy in classifying normal and abnormal chromosomes. We also used a structural similarity index measure and template matching to identify the part of the abnormal chromosome that differed from the normal one. This automated model has the potential to significantly contribute to the early detection and diagnosis of chromosome-related disorders that affect both genetic health and neurological behavior.
+39911161	52	91	genetic and neurodegenerative disorders	Disease	MESH:D019636
+39911161	168	184	genetic diseases	Disease	MESH:D030342
+39911161	193	199	cancer	Disease	MESH:D009369
+39911161	201	212	Alzheimer's	Disease	MESH:D000544
+39911161	214	225	Parkinson's	Disease	MESH:D010300
+39911161	227	235	epilepsy	Disease	MESH:D004827
+39911161	241	247	autism	Disease	MESH:D001321
+39911161	309	326	genetic disorders	Disease	MESH:D030342
+39911161	610	635	chromosomal abnormalities	Disease	MESH:D002869
+39911161	2095	2123	chromosome-related disorders	Disease	MESH:D025063
+

@@ -1,0 +1,12 @@
+25320785|t|Automatic clustering and thickness measurement of anatomical variants of the human perirhinal cortex.
+25320785|a|The entorhinal cortex (ERC) and the perirhinal cortex (PRC) are subregions of the medial temporal lobe (MTL) that play important roles in episodic memory representations, as well as serving as a conduit between other neocortical areas and the hippocampus. They are also the sites where neuronal damage first occurs in Alzheimer's disease (AD). The ability to automatically quantify the volume and thickness of the ERC and PRC is desirable because these localized measures can potentially serve as better imaging biomarkers for AD and other neurodegenerative diseases. However, large anatomical variation in the PRC makes it a challenging area for analysis. In order to address this problem, we propose an automatic segmentation, clustering, and thickness measurement approach that explicitly accounts for anatomical variation. The approach is targeted to highly anisotropic (0.4x0.4x2.0mm3 ) T2-weighted MRI scans that are preferred by many authors for detailed imaging of the MTL, but which pose challenges for segmentation and shape analysis. After automatically labeling MTL substructures using multi-atlas segmentation, our method clusters subjects into groups based on the shape of the PRC, constructs unbiased population templates for each group, and uses the smooth surface representations obtained during template construction to extract regional thickness measurements in the space of each subject. The proposed thickness measures are evaluated in the context of discrimination between patients with Mild Cognitive Impairment (MCI) and normal controls (NC).
+25320785	77	82	human	Species	9606
+25320785	388	403	neuronal damage	Disease	MESH:D009410
+25320785	420	439	Alzheimer's disease	Disease	MESH:D000544
+25320785	441	443	AD	Disease	MESH:D000544
+25320785	629	631	AD	Disease	MESH:D000544
+25320785	642	668	neurodegenerative diseases	Disease	MESH:D019636
+25320785	1597	1605	patients	Species	9606
+25320785	1616	1636	Cognitive Impairment	Disease	MESH:D003072
+25320785	1638	1641	MCI	Disease	MESH:D060825
+

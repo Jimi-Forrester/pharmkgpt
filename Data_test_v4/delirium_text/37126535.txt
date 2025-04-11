@@ -1,0 +1,25 @@
+37126535|t|Effect of alteplase, benzodiazepines and beta-blocker on post-stroke pneumonia: Exploration of VISTA-Acute.
+37126535|a|BACKGROUND: Post-stroke pneumonia is a frequent complication of stroke and is associated with high mortality. Investigators have described its associations with beta-blocker. However, there has been no evaluation of the role of recombinant tissue plasminogen activator (RTPA). We postulate that RTPA may modify the effect of stroke on pneumonia by reducing stroke disability. We explore this using data from neuroprotection trials in Virtual International Stroke Trials Archive (VISTA)-Acute. METHOD: We evaluated the impact of RTPA and other medications in random forest model. Random forest is a type of supervised ensemble tree-based machine learning method. We used the standard approach for performing random forest and partitioned the data into training (70%) and validation (30%) sets. This action enabled to the model developed on training data to be evaluated in the validation data. We borrowed idea from Coalition Game Theory on fair distribution of marginal profit (Shapley value) to determine proportional contribution of a covariate to the model. Consistent with other analysis using the VISTA-Acute data, the diagnosis of post-stroke pneumonia was based on reports of serious adverse events. RESULTS: The overall frequency of pneumonia was 10.9% (614/5652). It was present in 11.5% of the RTPA (270/2358) and 10.4% (344/3295) of the no RTPA groups. There was significant (p<0.05) imbalance in covariates (age, baseline National Institutes of Health Stroke Scale (NIHSS), diabetes, and sex). The AUC for training data was 0.70 (95% CI 0.65-0.76), validation data was 0.67 (95% CI 0.62-0.73). The Shapley value shows that baseline NIHSS (>=10) and age (>=80) made the largest contribution to the model of pneumonia while absence of benzodiazepine may protect against pneumonia. RTPA and beta-blocker had very low effect on frequency of pneumonia. CONCLUSION: In this cohort pneumonia was strongly associated with stroke severity and age whereas RTPA had a much lower effect. An intriguing finding is a possible association between benzodiazepine and pneumonia but this requires further evaluation.
+37126535	21	36	benzodiazepines	Chemical	MESH:D001569
+37126535	57	78	post-stroke pneumonia	Disease	MESH:D011014
+37126535	120	141	Post-stroke pneumonia	Disease	MESH:D011014
+37126535	172	178	stroke	Disease	MESH:D020521
+37126535	348	376	tissue plasminogen activator	Gene	5327
+37126535	433	439	stroke	Disease	MESH:D020521
+37126535	443	452	pneumonia	Disease	MESH:D011014
+37126535	465	482	stroke disability	Disease	MESH:D020521
+37126535	564	570	Stroke	Disease	MESH:D020521
+37126535	1245	1266	post-stroke pneumonia	Disease	MESH:D011014
+37126535	1349	1358	pneumonia	Disease	MESH:D011014
+37126535	1572	1578	Stroke	Disease	MESH:D020521
+37126535	1594	1602	diabetes	Disease	MESH:D003920
+37126535	1826	1835	pneumonia	Disease	MESH:D011014
+37126535	1853	1867	benzodiazepine	Chemical	MESH:D001569
+37126535	1888	1897	pneumonia	Disease	MESH:D011014
+37126535	1957	1966	pneumonia	Disease	MESH:D011014
+37126535	1995	2004	pneumonia	Disease	MESH:D011014
+37126535	2034	2040	stroke	Disease	MESH:D020521
+37126535	2152	2166	benzodiazepine	Chemical	MESH:D001569
+37126535	2171	2180	pneumonia	Disease	MESH:D011014
+37126535	Association	MESH:D001569	MESH:D011014
+

@@ -1,0 +1,44 @@
+30520571|t|Biallelic loss of function variants in PPP1R21 cause a neurodevelopmental syndrome with impaired endocytic function.
+30520571|a|Next-generation sequencing (NGS) has been instrumental in solving the genetic basis of rare inherited diseases, especially neurodevelopmental syndromes. However, functional workup is essential for precise phenotype definition and to understand the underlying disease mechanisms. Using whole exome (WES) and whole genome sequencing (WGS) in four independent families with hypotonia, neurodevelopmental delay, facial dysmorphism, loss of white matter, and thinning of the corpus callosum, we identified four previously unreported homozygous truncating PPP1R21 alleles: c.347delT p.(Ile116Lysfs*25), c.2170_2171insGGTA p.(Ile724Argfs*8), c.1607dupT p.(Leu536Phefs*7), c.2063delA p.(Lys688Serfs*26) and found that PPP1R21 was absent in fibroblasts of an affected individual, supporting the allele's loss of function effect. PPP1R21 function had not been studied except that a large scale affinity proteomics approach suggested an interaction with PIBF1 defective in Joubert syndrome. Our co-immunoprecipitation studies did not confirm this but in contrast defined the localization of PPP1R21 to the early endosome. Consistent with the subcellular expression pattern and the clinical phenotype exhibiting features of storage diseases, we found patient fibroblasts exhibited a delay in clearance of transferrin-488 while uptake was normal. In summary, we delineate a novel neurodevelopmental syndrome caused by biallelic PPP1R21 loss of function variants, and suggest a role of PPP1R21 within the endosomal sorting process or endosome maturation pathway.
+30520571	39	46	PPP1R21	Gene	129285
+30520571	55	82	neurodevelopmental syndrome	Disease	MESH:D008607
+30520571	209	227	inherited diseases	Disease	MESH:D030342
+30520571	240	268	neurodevelopmental syndromes	Disease	MESH:D008607
+30520571	488	497	hypotonia	Disease	MESH:D009123
+30520571	499	523	neurodevelopmental delay	Disease	MESH:D006968
+30520571	525	543	facial dysmorphism	Disease	MESH:C565579
+30520571	545	565	loss of white matter	Disease	MESH:D056784
+30520571	580	602	of the corpus callosum	Disease	MESH:D061085
+30520571	667	674	PPP1R21	Gene	129285
+30520571	684	693	c.347delT	DNAMutation	tmVar:c|DEL|347|T;HGVS:c.347delT;VariantGroup:4;CorrespondingGene:129285;CorrespondingSpecies:9606
+30520571	697	711	Ile116Lysfs*25	ProteinMutation	tmVar:p|FS|I|116|K|25;HGVS:p.I116KfsX25;VariantGroup:1;CorrespondingGene:129285;CorrespondingSpecies:9606
+30520571	714	732	c.2170_2171insGGTA	DNAMutation	tmVar:c|INS|2170_2171|GGTA;HGVS:c.2170_2171insGGTA;VariantGroup:3;CorrespondingGene:129285;CorrespondingSpecies:9606
+30520571	752	762	c.1607dupT	DNAMutation	tmVar:c|DUP|1607|T|;HGVS:c.1607dupT;VariantGroup:2;CorrespondingGene:129285;CorrespondingSpecies:9606
+30520571	782	792	c.2063delA	DNAMutation	tmVar:c|DEL|2063|A;HGVS:c.2063delA;VariantGroup:5;CorrespondingGene:129285;CorrespondingSpecies:9606
+30520571	796	810	Lys688Serfs*26	ProteinMutation	tmVar:p|FS|K|688|S|26;HGVS:p.K688SfsX26;VariantGroup:0;CorrespondingGene:129285;CorrespondingSpecies:9606
+30520571	827	834	PPP1R21	Gene	129285
+30520571	937	944	PPP1R21	Gene	129285
+30520571	1060	1065	PIBF1	Gene	10464
+30520571	1079	1095	Joubert syndrome	Disease	MESH:C536293
+30520571	1197	1204	PPP1R21	Gene	129285
+30520571	1329	1345	storage diseases	Disease	MESH:D016464
+30520571	1356	1363	patient	Species	9606
+30520571	1484	1511	neurodevelopmental syndrome	Disease	MESH:D008607
+30520571	1532	1539	PPP1R21	Gene	129285
+30520571	1589	1596	PPP1R21	Gene	129285
+30520571	Positive_Correlation	MESH:D008607	HGVS:p.I116KfsX25;CorrespondingGene:129285
+30520571	Association	MESH:C536293	129285
+30520571	Positive_Correlation	HGVS:c.2063delA;CorrespondingGene:129285	MESH:D008607
+30520571	Association	10464	129285
+30520571	Positive_Correlation	MESH:D008607	HGVS:p.K688SfsX26;CorrespondingGene:129285
+30520571	Association	MESH:D009123	129285
+30520571	Association	MESH:D056784	129285
+30520571	Positive_Correlation	HGVS:c.2170_2171insGGTA;CorrespondingGene:129285	MESH:D008607
+30520571	Positive_Correlation	HGVS:c.1607dupT;CorrespondingGene:129285	MESH:D008607
+30520571	Positive_Correlation	MESH:D008607	HGVS:c.347delT;CorrespondingGene:129285
+30520571	Positive_Correlation	HGVS:c.347delT;CorrespondingGene:129285	MESH:D008607
+30520571	Association	MESH:D008607	129285
+30520571	Association	MESH:C536293	10464
+30520571	Association	MESH:D016464	129285
+30520571	Association	MESH:D008607	129285
+

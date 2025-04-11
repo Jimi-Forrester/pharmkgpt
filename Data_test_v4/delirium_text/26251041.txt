@@ -1,0 +1,43 @@
+26251041|t|VPS35 pathogenic mutations confer no dominant toxicity but partial loss of function in Drosophila and genetically interact with parkin.
+26251041|a|Mutations in VPS35 (PARK17) cause autosomal dominant, late onset Parkinson's disease (PD). VPS35 forms a core component of the retromer complex that mediates the retrieval of membrane proteins from endosomes back to either the Golgi or plasma membrane. While aberrant endosomal protein sorting has been linked to several neurodegenerative diseases, the mechanisms by which VPS35 mutations and retromer function contribute to PD pathogenesis are not clear. To address this, we generated transgenic Drosophila that express variant forms of human VPS35 found in PD cases and the corresponding variants of the Drosophila ortholog. We did not find evidence of dominant toxicity from any variant form including the pathogenic D620N mutation, even with aging. However, assessing the ability of Vps35 variants to rescue multiple vps35-mutant phenotypes, we found that the D620N mutation confers a partial loss of function. Recently, VPS35 has been linked to the formation of mitochondria-derived vesicles, which mediate the degradation of mitochondrial proteins and contribute to mitochondrial quality control. This process is also promoted by two other PD-lined genes parkin (PARK2) and PINK1 (PARK6). We demonstrate here that vps35 genetically interacts with parkin but interestingly not with pink1. Strikingly, Vps35 overexpression is able to rescue several parkin-mutant phenotypes. Together these findings provide in vivo evidence that the D620N mutation likely confers pathogenicity through a partial loss of function mechanism and that this may be linked to other known pathogenic mechanisms such as mitochondrial dysfunction. 
+26251041	0	5	VPS35	Gene	55737
+26251041	46	54	toxicity	Disease	MESH:D064420
+26251041	87	97	Drosophila	Species	7227
+26251041	128	134	parkin	Gene	5071
+26251041	149	154	VPS35	Gene	55737
+26251041	156	162	PARK17	Gene	55737
+26251041	201	220	Parkinson's disease	Disease	MESH:D010300
+26251041	222	224	PD	Disease	MESH:D010300
+26251041	227	232	VPS35	Gene	55737
+26251041	457	483	neurodegenerative diseases	Disease	MESH:D019636
+26251041	509	514	VPS35	Gene	55737
+26251041	561	563	PD	Disease	MESH:D010300
+26251041	633	643	Drosophila	Species	7227
+26251041	674	679	human	Species	9606
+26251041	680	685	VPS35	Gene	55737
+26251041	695	697	PD	Disease	MESH:D010300
+26251041	742	752	Drosophila	Species	7227
+26251041	800	808	toxicity	Disease	MESH:D064420
+26251041	856	861	D620N	ProteinMutation	tmVar:p|SUB|D|620|N;HGVS:p.D620N;VariantGroup:0;OriginalGene:37536;CorrespondingGene:55737;RS#:188286943;CorrespondingSpecies:7227;CA#:259758
+26251041	923	928	Vps35	Gene	37536
+26251041	957	962	vps35	Gene	37536
+26251041	1000	1005	D620N	ProteinMutation	tmVar:p|SUB|D|620|N;HGVS:p.D620N;VariantGroup:0;OriginalGene:37536;CorrespondingGene:55737;RS#:188286943;CorrespondingSpecies:7227;CA#:259758
+26251041	1061	1066	VPS35	Gene	55737
+26251041	1282	1284	PD	Disease	MESH:D010300
+26251041	1297	1303	parkin	Gene	5071
+26251041	1316	1321	PINK1	Gene	31607
+26251041	1356	1361	vps35	Gene	37536
+26251041	1389	1395	parkin	Gene	5071
+26251041	1423	1428	pink1	Gene	31607
+26251041	1442	1447	Vps35	Gene	37536
+26251041	1489	1495	parkin	Gene	5071
+26251041	1573	1578	D620N	ProteinMutation	tmVar:p|SUB|D|620|N;HGVS:p.D620N;VariantGroup:0;OriginalGene:37536;CorrespondingGene:55737;RS#:188286943;CorrespondingSpecies:7227;CA#:259758
+26251041	1735	1760	mitochondrial dysfunction	Disease	MESH:D028361
+26251041	Association	5071	55737
+26251041	Association	MESH:D010300	5071
+26251041	Positive_Correlation	MESH:D028361	RS#:188286943;HGVS:p.D620N;CorrespondingGene:55737
+26251041	Association	37536	5071
+26251041	Association	MESH:D010300	31607
+26251041	Association	MESH:D010300	55737
+26251041	Association	MESH:D028361	55737
+

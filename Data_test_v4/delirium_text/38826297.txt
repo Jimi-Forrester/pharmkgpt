@@ -1,0 +1,10 @@
+38826297|t|Cell-type specific inference from bulk RNA-sequencing data by integrating single cell reference profiles via EPIC-unmix.
+38826297|a|Cell type specific (CTS) analysis is essential to reveal biological insights obscured in bulk tissue data. However, single-cell (sc) or single-nuclei (sn) resolution data are still cost-prohibitive for large-scale samples. Thus, computational methods to perform deconvolution from bulk tissue data are highly valuable. We here present EPIC-unmix, a novel two-step empirical Bayesian method integrating reference sc/sn RNA-seq data and bulk RNA-seq data from target samples to enhance the accuracy of CTS inference. We demonstrate through comprehensive simulations across three tissues that EPIC-unmix achieved 4.6% - 109.8% higher accuracy compared to alternative methods. By applying EPIC-unmix to human bulk brain RNA-seq data from the ROSMAP and MSBB cohorts, we identified multiple genes differentially expressed between Alzheimer's disease (AD) cases versus controls in a CTS manner, including 57.4% novel genes not identified using similar sample size sc/snRNA-seq data, indicating the power of our in-silico approach. Among the 6-69% overlapping, 83%-100% are in consistent direction with those from sc/snRNA-seq data, supporting the reliability of our findings. EPIC-unmix inferred CTS expression profiles similarly empowers CTS eQTL analysis. Among the novel eQTLs, we highlight a microglia eQTL for AD risk gene AP3B2, obscured in bulk and missed by sc/snRNA-seq based eQTL analysis. The variant resides in a microglia-specific cCRE, forming chromatin loop with AP3B2 promoter region in microglia. Taken together, we believe EPIC-unmix will be a valuable tool to enable more powerful CTS analysis.
+38826297	820	825	human	Species	9606
+38826297	946	965	Alzheimer's disease	Disease	MESH:D000544
+38826297	967	969	AD	Disease	MESH:D000544
+38826297	1430	1432	AD	Disease	MESH:D000544
+38826297	1443	1448	AP3B2	Gene	8120
+38826297	1593	1598	AP3B2	Gene	8120
+38826297	Association	MESH:D000544	8120
+

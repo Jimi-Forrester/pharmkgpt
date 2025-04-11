@@ -1,0 +1,14 @@
+36228463|t|Explanatory classification of CXR images into COVID-19, Pneumonia and Tuberculosis using deep learning and XAI.
+36228463|a|Chest X-ray (CXR) images are considered useful to monitor and investigate a variety of pulmonary disorders such as COVID-19, Pneumonia, and Tuberculosis (TB). With recent technological advancements, such diseases may now be recognized more precisely using computer-assisted diagnostics. Without compromising the classification accuracy and better feature extraction, deep learning (DL) model to predict four different categories is proposed in this study. The proposed model is validated with publicly available datasets of 7132 chest x-ray (CXR) images. Furthermore, results are interpreted and explained using Gradient-weighted Class Activation Mapping (Grad-CAM), Local Interpretable Modelagnostic Explanation (LIME), and SHapley Additive exPlanation (SHAP) for better understandably. Initially, convolution features are extracted to collect high-level object-based information. Next, shapely values from SHAP, predictability results from LIME, and heatmap from Grad-CAM are used to explore the black-box approach of the DL model, achieving average test accuracy of 94.31 +- 1.01% and validation accuracy of 94.54 +- 1.33 for 10-fold cross validation. Finally, in order to validate the model and qualify medical risk, medical sensations of classification are taken to consolidate the explanations generated from the eXplainable Artificial Intelligence (XAI) framework. The results suggest that XAI and DL models give clinicians/medical professionals persuasive and coherent conclusions related to the detection and categorization of COVID-19, Pneumonia, and TB.
+36228463	46	54	COVID-19	Disease	MESH:D000086382
+36228463	56	65	Pneumonia	Disease	MESH:D011014
+36228463	70	82	Tuberculosis	Disease	MESH:D014376
+36228463	199	218	pulmonary disorders	Disease	MESH:D008171
+36228463	227	235	COVID-19	Disease	MESH:D000086382
+36228463	237	246	Pneumonia	Disease	MESH:D011014
+36228463	252	264	Tuberculosis	Disease	MESH:D014376
+36228463	266	268	TB	Disease	MESH:D014376
+36228463	1648	1656	COVID-19	Disease	MESH:D000086382
+36228463	1658	1667	Pneumonia	Disease	MESH:D011014
+36228463	1673	1675	TB	Disease	MESH:D014376
+

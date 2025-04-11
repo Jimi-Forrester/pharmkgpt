@@ -1,0 +1,28 @@
+23094028|t|Genetic association analysis of complex diseases incorporating intermediate phenotype information.
+23094028|a|Genetic researchers often collect disease related quantitative traits in addition to disease status because they are interested in understanding the pathophysiology of disease processes. In genome-wide association (GWA) studies, these quantitative phenotypes may be relevant to disease development and serve as intermediate phenotypes or they could be behavioral or other risk factors that predict disease risk. Statistical tests combining both disease status and quantitative risk factors should be more powerful than case-control studies, as the former incorporates more information about the disease. In this paper, we proposed a modified inverse-variance weighted meta-analysis method to combine disease status and quantitative intermediate phenotype information. The simulation results showed that when an intermediate phenotype was available, the inverse-variance weighted method had more power than did a case-control study of complex diseases, especially in identifying susceptibility loci having minor effects. We further applied this modified meta-analysis to a study of imputed lung cancer genotypes with smoking data in 1154 cases and 1137 matched controls. The most significant SNPs came from the CHRNA3-CHRNA5-CHRNB4 region on chromosome 15q24-25.1, which has been replicated in many other studies. Our results confirm that this CHRNA region is associated with both lung cancer development and smoking behavior. We also detected three significant SNPs--rs1800469, rs1982072, and rs2241714--in the promoter region of the TGFB1 gene on chromosome 19 (p = 1.46x10(-5), 1.18x10(-5), and 6.57x10(-6), respectively). The SNP rs1800469 is reported to be associated with chronic obstructive pulmonary disease and lung cancer in cigarette smokers. The present study is the first GWA study to replicate this result. Signals in the 3q26 region were also identified in the meta-analysis. We demonstrate the intermediate phenotype can potentially enhance the power of complex disease association analysis and the modified meta-analysis method is robust to incorporate intermediate phenotype or other quantitative risk factor in the analysis.
+23094028	1188	1199	lung cancer	Disease	MESH:D008175
+23094028	1309	1315	CHRNA3	Gene	1136
+23094028	1316	1322	CHRNA5	Gene	1138
+23094028	1323	1329	CHRNB4	Gene	1143
+23094028	1340	1356	chromosome 15q24	Chromosome	15
+23094028	1442	1447	CHRNA	Gene	1134
+23094028	1479	1490	lung cancer	Disease	MESH:D008175
+23094028	1566	1575	rs1800469	SNP	tmVar:rs1800469;VariantGroup:0;CorrespondingGene:7040;RS#:1800469;CorrespondingSpecies:9606
+23094028	1577	1586	rs1982072	SNP	tmVar:rs1982072;VariantGroup:1;CorrespondingGene:641649;RS#:1982072;CorrespondingSpecies:9606
+23094028	1592	1601	rs2241714	SNP	tmVar:rs2241714;VariantGroup:2;CorrespondingGene:641649;RS#:2241714;CorrespondingSpecies:9606
+23094028	1633	1638	TGFB1	Gene	7040
+23094028	1647	1660	chromosome 19	Chromosome	19
+23094028	1732	1741	rs1800469	SNP	tmVar:rs1800469;VariantGroup:0;CorrespondingGene:7040;RS#:1800469;CorrespondingSpecies:9606
+23094028	1776	1813	chronic obstructive pulmonary disease	Disease	MESH:D029424
+23094028	1818	1829	lung cancer	Disease	MESH:D008175
+23094028	1934	1938	3q26	Chromosome	3
+23094028	Positive_Correlation	MESH:D029424	RS#:1800469;CorrespondingGene:7040
+23094028	Association	MESH:D008175	1134
+23094028	Positive_Correlation	MESH:D008175	RS#:1800469;CorrespondingGene:7040
+23094028	Association	MESH:D008175	1138
+23094028	Association	MESH:D008175	7040
+23094028	Association	MESH:D008175	1136
+23094028	Association	MESH:D008175	1143
+23094028	Association	MESH:D029424	7040
+23094028	Association	MESH:D008175	7040
+

@@ -1,0 +1,20 @@
+36730239|t|Artificial intelligence algorithms predict the efficacy of analgesic cocktails prescribed after orthopedic surgery.
+36730239|a|BACKGROUND: Mixtures ('cocktails') of various analgesics are more effective in controlling post-operative pain because of potential synergetic effects. Few studies have investigated such effects in large combinations of analgesics and no studies have determined the probabilities of effectiveness. METHODS: We used one-hot encoding of the categorical variables reported pain levels and the administered cocktails (from a total of eight analgesics) and then applied an unsupervised neural network and then the unsupervised DBSCAN algorithm to detect clusters of cocktails. We used Bayesian statistics to classify the effectiveness of these cocktails. RESULTS: Of the 61 different cocktails administered to 750 patients, we found that four combinations of three to four analgesics were by far the most effective. All these cocktails contained Metamizole and Paracetamol; three contained Hydromorphone and two contained Diclofenac and one Diclofenac-Orphenadrine. The ML probability that these cocktails decreased pain levels ranged from 0.965 to 0.981. Choice of a most effective cocktail involves choosing the optimum in a 4-dimensional parameter space: maximum probability of efficacy, confidence interval about maximum probability, fraction of patients with increase in pain levels, relative number of patients with successful pain level decrease. CONCLUSIONS: We observed that administering one analgesic or at most two is not effective. We found no statistical indicators that interactions between analgesics in the most effective cocktails decreased their effectiveness. Pairs of most effective cocktails differed by the addition of only one analgesic (Diclofenac-Orphenadrine for one pair and Hydromorphone for the other). We conclude that the listed cocktails are to be recommended.
+36730239	222	226	pain	Disease	MESH:D010146
+36730239	486	490	pain	Disease	MESH:D010146
+36730239	825	833	patients	Species	9606
+36730239	957	967	Metamizole	Chemical	MESH:D004177
+36730239	972	983	Paracetamol	Chemical	MESH:D000082
+36730239	1001	1014	Hydromorphone	Chemical	MESH:D004091
+36730239	1033	1043	Diclofenac	Chemical	MESH:D004008
+36730239	1052	1075	Diclofenac-Orphenadrine	Chemical	-
+36730239	1127	1131	pain	Disease	MESH:D010146
+36730239	1361	1369	patients	Species	9606
+36730239	1387	1391	pain	Disease	MESH:D010146
+36730239	1419	1427	patients	Species	9606
+36730239	1444	1448	pain	Disease	MESH:D010146
+36730239	1773	1796	Diclofenac-Orphenadrine	Chemical	-
+36730239	1814	1827	Hydromorphone	Chemical	MESH:D004091
+36730239	Negative_Correlation	MESH:D004177	MESH:D010146
+36730239	Negative_Correlation	MESH:D004008	MESH:D010146
+

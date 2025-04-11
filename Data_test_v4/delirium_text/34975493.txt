@@ -1,0 +1,15 @@
+34975493|t|Machine Learning Enables Accurate and Rapid Prediction of Active Molecules Against Breast Cancer Cells.
+34975493|a|Breast cancer (BC) has surpassed lung cancer as the most frequently occurring cancer, and it is the leading cause of cancer-related death in women. Therefore, there is an urgent need to discover or design new drug candidates for BC treatment. In this study, we first collected a series of structurally diverse datasets consisting of 33,757 active and 21,152 inactive compounds for 13 breast cancer cell lines and one normal breast cell line commonly used in in vitro antiproliferative assays. Predictive models were then developed using five conventional machine learning algorithms, including naive Bayesian, support vector machine, k-Nearest Neighbors, random forest, and extreme gradient boosting, as well as five deep learning algorithms, including deep neural networks, graph convolutional networks, graph attention network, message passing neural networks, and Attentive FP. A total of 476 single models and 112 fusion models were constructed based on three types of molecular representations including molecular descriptors, fingerprints, and graphs. The evaluation results demonstrate that the best model for each BC cell subtype can achieve high predictive accuracy for the test sets with AUC values of 0.689-0.993. Moreover, important structural fragments related to BC cell inhibition were identified and interpreted. To facilitate the use of the model, an online webserver called ChemBC (http://chembc.idruglab.cn/) and its local version software (https://github.com/idruglab/ChemBC) were developed to predict whether compounds have potential inhibitory activity against BC cells.
+34975493	83	96	Breast Cancer	Disease	MESH:D001943
+34975493	104	117	Breast cancer	Disease	MESH:D001943
+34975493	119	121	BC	Disease	MESH:D001943
+34975493	137	148	lung cancer	Disease	MESH:D008175
+34975493	182	188	cancer	Disease	MESH:D009369
+34975493	221	227	cancer	Disease	MESH:D009369
+34975493	245	250	women	Species	9606
+34975493	333	335	BC	Disease	MESH:D001943
+34975493	488	501	breast cancer	Disease	MESH:D001943
+34975493	1226	1228	BC	Disease	MESH:D001943
+34975493	1381	1383	BC	Disease	MESH:D001943
+34975493	1687	1689	BC	Disease	MESH:D001943
+

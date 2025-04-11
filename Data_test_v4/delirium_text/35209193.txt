@@ -1,0 +1,14 @@
+35209193|t|Computational Drug Repurposing Based on a Recommendation System and Drug-Drug Functional Pathway Similarity.
+35209193|a|Drug repurposing identifies new clinical indications for existing drugs. It can be used to overcome common problems associated with cancers, such as heterogeneity and resistance to established therapies, by rapidly adapting known drugs for new treatment. In this study, we utilized a recommendation system learning model to prioritize candidate cancer drugs. We designed a drug-drug pathway functional similarity by integrating multiple genetic and epigenetic alterations such as gene expression, copy number variation (CNV), and DNA methylation. When compared with other similarities, such as SMILES chemical structures and drug targets based on the protein-protein interaction network, our approach provided better interpretable models capturing drug response mechanisms. Furthermore, our approach can achieve comparable accuracy when evaluated with other learning models based on large public datasets (CCLE and GDSC). A case study about the Erlotinib and OSI-906 (Linsitinib) indicated that they have a synergistic effect to reduce the growth rate of tumors, which is an alternative targeted therapy option for patients. Taken together, our computational method characterized drug response from the viewpoint of a multi-omics pathway and systematically predicted candidate cancer drugs with similar therapeutic effects.
+35209193	241	248	cancers	Disease	MESH:D009369
+35209193	454	460	cancer	Disease	MESH:D009369
+35209193	1054	1063	Erlotinib	Chemical	MESH:D000069347
+35209193	1068	1075	OSI-906	Chemical	MESH:C551528
+35209193	1077	1087	Linsitinib	Chemical	MESH:C551528
+35209193	1164	1170	tumors	Disease	MESH:D009369
+35209193	1224	1232	patients	Species	9606
+35209193	1386	1392	cancer	Disease	MESH:D009369
+35209193	Negative_Correlation	MESH:C551528	MESH:D009369
+35209193	Negative_Correlation	MESH:D000069347	MESH:D009369
+35209193	Cotreatment	MESH:C551528	MESH:D000069347
+

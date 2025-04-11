@@ -1,0 +1,30 @@
+21479255|t|Differences in abundances of cell-signalling proteins in blood reveal novel biomarkers for early detection of clinical Alzheimer's disease.
+21479255|a|BACKGROUND: In November 2007 a study published in Nature Medicine proposed a simple test based on the abundance of 18 proteins in blood to predict the onset of clinical symptoms of Alzheimer's Disease (AD) two to six years before these symptoms manifest. Later, another study, published in PLoS ONE, showed that only five proteins (IL-1, IL-3, EGF, TNF- and G-CSF) have overall better prediction accuracy. These classifiers are based on the abundance of 120 proteins. Such values were standardised by a Z-score transformation, which means that their values are relative to the average of all others. METHODOLOGY: The original datasets from the Nature Medicine paper are further studied using methods from combinatorial optimisation and Information Theory. We expand the original dataset by also including all pair-wise differences of z-score values of the original dataset ("metafeatures"). Using an exact algorithm to solve the resulting Feature Set problem, used to tackle the feature selection problem, we found signatures that contain either only features, metafeatures or both, and evaluated their predictive performance on the independent test set. CONCLUSIONS: It was possible to show that a specific pattern of cell signalling imbalance in blood plasma has valuable information to distinguish between NDC and AD samples. The obtained signatures were able to predict AD in patients that already had a Mild Cognitive Impairment (MCI) with up to 84% of sensitivity, while maintaining also a strong prediction accuracy of 90% on a independent dataset with Non Demented Controls (NDC) and AD samples. The novel biomarkers uncovered with this method now confirms ANG-2, IL-11, PDGF-BB, CCL15/MIP-1; and supports the joint measurement of other signalling proteins not previously discussed: GM-CSF, NT-3, IGFBP-2 and VEGF-B.
+21479255	119	138	Alzheimer's disease	Disease	MESH:D000544
+21479255	321	340	Alzheimer's Disease	Disease	MESH:D000544
+21479255	342	344	AD	Disease	MESH:D000544
+21479255	472	476	IL-1	Gene	3552
+21479255	478	482	IL-3	Gene	3562
+21479255	484	487	EGF	Gene	1950
+21479255	489	492	TNF	Gene	7124
+21479255	498	503	G-CSF	Gene	1440
+21479255	1457	1459	AD	Disease	MESH:D000544
+21479255	1514	1516	AD	Disease	MESH:D000544
+21479255	1520	1528	patients	Species	9606
+21479255	1553	1573	Cognitive Impairment	Disease	MESH:D003072
+21479255	1575	1578	MCI	Disease	MESH:D060825
+21479255	1732	1734	AD	Disease	MESH:D000544
+21479255	1805	1810	ANG-2	Gene	285
+21479255	1812	1817	IL-11	Gene	3589
+21479255	1828	1833	CCL15	Gene	6359
+21479255	1834	1839	MIP-1	Gene	3842
+21479255	1931	1937	GM-CSF	Gene	1437
+21479255	1939	1943	NT-3	Gene	4877
+21479255	1945	1952	IGFBP-2	Gene	3485
+21479255	Association	MESH:D000544	3552
+21479255	Association	MESH:D000544	1950
+21479255	Association	MESH:D000544	7124
+21479255	Association	MESH:D000544	3562
+21479255	Association	MESH:D000544	3485
+21479255	Association	MESH:D000544	1440
+

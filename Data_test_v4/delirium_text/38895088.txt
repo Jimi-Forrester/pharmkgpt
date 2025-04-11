@@ -1,0 +1,64 @@
+38895088|t|Multiple myeloma, IL6, and risk of schizophrenia: A Mendelian randomization, transcriptome, and Bayesian colocalization study.
+38895088|a|Numerous clinical studies speculated the association between multiple myeloma (MM) and inflammatory diseases; however, there is limited validation of these claims via establishing a causal relationship and revealing the underlying mechanism. This exploratory study employed bidirectional Mendelian randomization (MR) analysis to investigate the causal relationships between MM and inflammatory diseases, including atherosclerosis, asthma, ankylosing spondylitis, Alzheimer's disease (AD), Parkinson's disease (PD), sarcoidosis, inflammatory bowel disease, nonalcoholic fatty liver disease, type II diabetes, and schizophrenia (SZ). Transcriptomic and genome-wide Bayesian colocalization analyses were further applied to reveal the underlying mechanism. A significant and previously unrecognized positive association was identified between genetic predisposition to MM and the risk of SZ. Two independent case reports showed that treatment-resistant psychosis is due to underlying MM and is resolved by treating MM. From our MR analyses, various statistical methods confirmed this association without detecting heterogeneity or pleiotropy effects. Transcriptomic analysis revealed shared inflammation-relevant pathways in MM and SZ patients, suggesting inflammation as a potential pathophysiological mediator of MM's causal effect on SZ. Bayesian colocalization analysis identified rs9273086, which maps to the protein-coding region of HLA-DRB1, as a common risk variant for both MM and SZ. Polymorphism of the HLA-DRB1 allele has been implicated in AD and PD, further highlighting the impact of our results. Additionally, we confirmed that interleukin-6 (IL-6) is a risk factor for SZ through secondary MR, reinforcing the role of neuroinflammation in SZ etiology. Overall, our findings showed that genetic predisposition to MM, HLA-DRB1 polymorphism, and enhanced IL-6 signaling are associated with the increased risk of SZ, providing evidence for a causal role for neuroinflammation in SZ etiology.
+38895088	0	16	Multiple myeloma	Disease	MESH:D009101
+38895088	18	21	IL6	Gene	3569
+38895088	35	48	schizophrenia	Disease	MESH:D012559
+38895088	188	204	multiple myeloma	Disease	MESH:D009101
+38895088	206	208	MM	Disease	MESH:D009101
+38895088	214	235	inflammatory diseases	Disease	MESH:D007249
+38895088	501	503	MM	Disease	MESH:D009101
+38895088	508	529	inflammatory diseases	Disease	MESH:D007249
+38895088	541	556	atherosclerosis	Disease	MESH:D050197
+38895088	558	564	asthma	Disease	MESH:D001249
+38895088	566	588	ankylosing spondylitis	Disease	MESH:D013167
+38895088	590	609	Alzheimer's disease	Disease	MESH:D000544
+38895088	611	613	AD	Disease	MESH:D000544
+38895088	616	635	Parkinson's disease	Disease	MESH:D010300
+38895088	637	639	PD	Disease	MESH:D010300
+38895088	642	653	sarcoidosis	Disease	MESH:D012507
+38895088	655	681	inflammatory bowel disease	Disease	MESH:D015212
+38895088	683	715	nonalcoholic fatty liver disease	Disease	MESH:D065626
+38895088	717	733	type II diabetes	Disease	MESH:D003924
+38895088	739	752	schizophrenia	Disease	MESH:D012559
+38895088	754	756	SZ	Disease	MESH:D012559
+38895088	992	994	MM	Disease	MESH:D009101
+38895088	1011	1013	SZ	Disease	MESH:D012559
+38895088	1076	1085	psychosis	Disease	MESH:D011618
+38895088	1107	1109	MM	Disease	MESH:D009101
+38895088	1138	1140	MM	Disease	MESH:D009101
+38895088	1314	1326	inflammation	Disease	MESH:D007249
+38895088	1348	1350	MM	Disease	MESH:D009101
+38895088	1355	1357	SZ	Disease	MESH:D012559
+38895088	1358	1366	patients	Species	9606
+38895088	1379	1391	inflammation	Disease	MESH:D007249
+38895088	1438	1440	MM	Disease	MESH:D009101
+38895088	1460	1462	SZ	Disease	MESH:D012559
+38895088	1508	1517	rs9273086	SNP	tmVar:rs9273086;VariantGroup:0;CorrespondingGene:3117;RS#:9273086;CorrespondingSpecies:9606
+38895088	1562	1570	HLA-DRB1	Gene	3123
+38895088	1606	1608	MM	Disease	MESH:D009101
+38895088	1613	1615	SZ	Disease	MESH:D012559
+38895088	1637	1645	HLA-DRB1	Gene	3123
+38895088	1676	1678	AD	Disease	MESH:D000544
+38895088	1683	1685	PD	Disease	MESH:D010300
+38895088	1767	1780	interleukin-6	Gene	3569
+38895088	1782	1786	IL-6	Gene	3569
+38895088	1809	1811	SZ	Disease	MESH:D012559
+38895088	1858	1875	neuroinflammation	Disease	MESH:D000090862
+38895088	1879	1881	SZ	Disease	MESH:D012559
+38895088	1952	1954	MM	Disease	MESH:D009101
+38895088	1956	1964	HLA-DRB1	Gene	3123
+38895088	1992	1996	IL-6	Gene	3569
+38895088	2049	2051	SZ	Disease	MESH:D012559
+38895088	2094	2111	neuroinflammation	Disease	MESH:D000090862
+38895088	2115	2117	SZ	Disease	MESH:D012559
+38895088	Positive_Correlation	MESH:D012559	RS#:9273086;CorrespondingGene:3117
+38895088	Association	MESH:D000090862	3569
+38895088	Positive_Correlation	MESH:D009101	RS#:9273086;CorrespondingGene:3117
+38895088	Association	MESH:D012559	3123
+38895088	Association	MESH:D009101	3123
+38895088	Association	MESH:D000544	3123
+38895088	Association	MESH:D010300	3123
+38895088	Association	MESH:D012559	3569
+38895088	Association	MESH:D012559	3117
+38895088	Association	MESH:D009101	3117
+

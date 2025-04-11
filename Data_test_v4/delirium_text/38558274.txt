@@ -1,0 +1,48 @@
+38558274|t|Assessing the Chemical Profile and Biological Potentials of Tamarix aphylla (L.) H.Karst. and Tamarix senegalensis DC. by In Vitro, In Silico, and Network Methodologies.
+38558274|a|The present study aimed to investigate the chemical profile, antioxidant, and enzyme inhibition properties of extracts from fruits and aerial parts (leaves and twigs) of Tamarix aphylla and T. senegalensis. Hexane, dichloromethane, ethyl acetate (EtOAc), and methanol extracts were prepared sequentially by maceration. Results revealed that EtOAc extracts of T. senegalensis and T. aphylla fruits contained the highest total phenolic content (113.74 and 111.21 mg GAE/g) while that of T. senegalensis (38.47 mg RE/g) recorded the highest total flavonoids content. Among the quantified compounds; ellagic, gallic, 3-hydroxybenzoic, caffeic, syringic, p-coumaric acids, isorhamnetin, procyanidin B2, and kaempferol were the most abundant compounds in the two species. EtOAc extracts of the two organs of T. senegalensis in addition to MeOH extract of T. aphylla aerial parts displayed the highest chelating power (21.00-21.30 mg EDTAE/g, p > 0.05). The highest anti-AChE (3.11 mg GALAE/g) and anti-BChE (3.62 mg GALAE/g) activities were recorded from the hexane and EtOAc extracts of T. senegalensis aerial parts and fruits, respectively. EtOAc extracts of the fruits of the two species exerted the highest anti-tyrosinase (anti-Tyr) activity (99.44 and 98.65 mg KAE/g, p > 0.05). Also, the EtOAc extracts of the both organs of the two species exhibited highest anti-glucosidase activity (0.88-0.90 mmol ACAE/g, p > 0.05) while the best anti-alpha-amylase activity was recorded from the dichloromethane extract of T. senegalensis fruits (0.74 mmol ACAE/g). In this study, network pharmacology was employed to examine the connection between compounds from Tamarix and their potential effectiveness against Alzheimer's disease. The compounds demonstrated potential interactions with pivotal genes including APP, GSK3B, and CDK5, indicating a therapeutic potential. Molecular docking was carried out to understand the binding mode and interaction of the compounds with the target enzymes. Key interactions observed, such as H-bonds, promoted the binding, and weaker ones, such as van der Waals attractions, reinforced it. These findings suggest that these two Tamarix species possess bioactive properties with health-promoting effects.
+38558274	60	88	Tamarix aphylla (L.) H.Karst	Species	189786
+38558274	340	355	Tamarix aphylla	Species	189786
+38558274	377	383	Hexane	Chemical	MESH:D006586
+38558274	385	400	dichloromethane	Chemical	MESH:D008752
+38558274	402	415	ethyl acetate	Chemical	MESH:C007650
+38558274	417	422	EtOAc	Chemical	-
+38558274	429	437	methanol	Chemical	MESH:D000432
+38558274	511	516	EtOAc	Chemical	-
+38558274	595	603	phenolic	Chemical	-
+38558274	634	637	GAE	Chemical	-
+38558274	681	683	RE	Chemical	MESH:D012211
+38558274	714	724	flavonoids	Chemical	MESH:D005419
+38558274	766	836	ellagic, gallic, 3-hydroxybenzoic, caffeic, syringic, p-coumaric acids	Chemical	-
+38558274	838	850	isorhamnetin	Chemical	MESH:C047368
+38558274	852	866	procyanidin B2	Chemical	MESH:C479580
+38558274	872	882	kaempferol	Chemical	MESH:C006552
+38558274	936	941	EtOAc	Chemical	-
+38558274	1003	1007	MeOH	Chemical	-
+38558274	1097	1102	EDTAE	Chemical	-
+38558274	1134	1138	AChE	Gene	43
+38558274	1148	1153	GALAE	Chemical	-
+38558274	1166	1170	BChE	Gene	590
+38558274	1180	1185	GALAE	Chemical	-
+38558274	1223	1229	hexane	Chemical	MESH:D006586
+38558274	1234	1239	EtOAc	Chemical	-
+38558274	1307	1312	EtOAc	Chemical	-
+38558274	1380	1390	tyrosinase	Gene	7299
+38558274	1397	1400	Tyr	Chemical	MESH:D014443
+38558274	1431	1434	KAE	Chemical	-
+38558274	1459	1464	EtOAc	Chemical	-
+38558274	1572	1576	ACAE	Chemical	-
+38558274	1655	1670	dichloromethane	Chemical	MESH:D008752
+38558274	1716	1720	ACAE	Chemical	-
+38558274	1873	1892	Alzheimer's disease	Disease	MESH:D000544
+38558274	1973	1976	APP	Gene	351
+38558274	1978	1983	GSK3B	Gene	2932
+38558274	1989	1993	CDK5	Gene	1020
+38558274	Association	1020	351
+38558274	Association	MESH:D000544	351
+38558274	Association	2932	351
+38558274	Association	1020	2932
+38558274	Negative_Correlation	MESH:D006586	590
+38558274	Association	MESH:D000544	2932
+38558274	Association	MESH:D000544	1020
+38558274	Negative_Correlation	MESH:D006586	43
+

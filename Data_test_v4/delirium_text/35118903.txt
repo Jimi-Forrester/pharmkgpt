@@ -1,0 +1,55 @@
+35118903|t|Identification of Hub Genes and Pathways Associated with Oxidative Stress of Cartilage in Osteonecrosis of Femoral Head Using Bioinformatics Analysis.
+35118903|a|OBJECTIVE: This study aimed to identify the hub genes and pathways of genes related to oxidative stress of cartilage in osteonecrosis of femoral head (ONFH), and to predict the transcription factors of the hub genes. METHODS: The GSE74089 was obtained from the Gene Expression Omnibus (GEO) database, including 4 necrotic tissues and 4 normal tissues, and the differentially expressed genes (DEGs) were identified by limma package in R language. Simultaneously, we searched for the genes related to oxidative stress in the Gene Ontology (GO) database. GO and signaling pathways analysis were performed using DAVID, Metascape, and GSEA. Protein-protein interaction (PPI) network was constructed using the STRING database, and the Degree algorithm of Cytoscape software was used to screen for hub genes. Finally, the NetworkAnalyst web tool was used to find the hub genes' transcriptional factors (TFs). RESULTS: In total, 440 oxidative stress-related genes were found in GSE74089 and GO database, and 88 of them were significantly differentially expressed. These genes were mainly involved in several signaling pathways, such as MAPK signaling pathway, PI3K-AKT-mTOR signaling pathway, FOXO signaling pathway. The top 10 hub genes were JUN, FOXO3, CASP3, JAK2, RELA, EZH2, ABL1, PTGS2, FBXW7, MCL1. Besides, TFAP2A, GATA2, SP1, and E2F1 may be the key regulatory factors of hub genes. CONCLUSIONS: We identified some hub genes and signaling pathways associated with oxidative stress in ONFH through a series of bioinformatics analyses.
+35118903	18	21	Hub	Gene	1993
+35118903	90	119	Osteonecrosis of Femoral Head	Disease	MESH:D000070603
+35118903	195	198	hub	Gene	1993
+35118903	271	300	osteonecrosis of femoral head	Disease	MESH:D000070603
+35118903	302	306	ONFH	Disease	MESH:D000070603
+35118903	357	360	hub	Gene	1993
+35118903	464	472	necrotic	Disease	MESH:D009336
+35118903	942	945	hub	Gene	1993
+35118903	1011	1014	hub	Gene	1993
+35118903	1308	1311	AKT	Gene	207
+35118903	1312	1316	mTOR	Gene	2475
+35118903	1371	1374	hub	Gene	1993
+35118903	1391	1396	FOXO3	Gene	2309
+35118903	1398	1403	CASP3	Gene	836
+35118903	1405	1409	JAK2	Gene	3717
+35118903	1411	1415	RELA	Gene	5970
+35118903	1417	1421	EZH2	Gene	2146
+35118903	1423	1427	ABL1	Gene	25
+35118903	1429	1434	PTGS2	Gene	5743
+35118903	1436	1441	FBXW7	Gene	55294
+35118903	1443	1447	MCL1	Gene	4170
+35118903	1458	1464	TFAP2A	Gene	7020
+35118903	1466	1471	GATA2	Gene	2624
+35118903	1482	1486	E2F1	Gene	1869
+35118903	1524	1527	hub	Gene	1993
+35118903	1567	1570	hub	Gene	1993
+35118903	1636	1640	ONFH	Disease	MESH:D000070603
+35118903	Association	MESH:D000070603	5743
+35118903	Association	1993	4170
+35118903	Association	MESH:D000070603	836
+35118903	Association	1993	2309
+35118903	Association	MESH:D000070603	4170
+35118903	Association	207	2475
+35118903	Association	1993	5970
+35118903	Association	1993	3717
+35118903	Association	MESH:D000070603	1869
+35118903	Association	MESH:D000070603	2309
+35118903	Association	MESH:D000070603	3717
+35118903	Association	1993	55294
+35118903	Association	MESH:D000070603	2146
+35118903	Association	1993	25
+35118903	Association	1993	2624
+35118903	Association	1993	2146
+35118903	Association	MESH:D000070603	1993
+35118903	Association	1869	1993
+35118903	Association	MESH:D000070603	25
+35118903	Association	1993	836
+35118903	Association	MESH:D000070603	7020
+35118903	Association	1993	5743
+35118903	Association	MESH:D000070603	2624
+35118903	Association	1993	7020
+35118903	Association	MESH:D000070603	55294
+

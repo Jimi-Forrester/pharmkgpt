@@ -1,0 +1,101 @@
+36674945|t|alpha-Synuclein Induces Neuroinflammation Injury through the IL6ST-AS/STAT3/HIF-1alpha Axis.
+36674945|a|The aggregation of alpha-synuclein (alpha-syn) promotes neuroinflammation and neuronal apoptosis, which eventually contribute to the pathogenesis of Parkinson's disease (PD). Our microarray analysis and experimental data indicated a significant expression difference of the long noncoding RNA IL6ST-AS and its anti-sense strand, IL6ST, in alpha-synuclein-induced microglia, compared with unstimulated microglia. IL6ST is a key component of the IL6R/IL6ST complex in the microglial membrane, which recognizes extracellular inflammatory factors, such as IL6. Studies have shown that the binding of IL6 to the IL6R/IL6ST complex could activate the JAK2-STAT3 pathway and promote an excessive immune response in glia cells. Meanwhile, the phosphorylation and activation of STAT3 could increase the transcription of HIF1A, encoding a hypoxia-inducible factor related to cytotoxic damage. Our results indicated that the overexpression of IL6ST-AS induced by exogenous alpha-synuclein could inhibit the expression of IL6ST and the activation of JAK2-STAT3 pathway in HMC3 cells. In addition, a reduction in STAT3 resulted in the transcription inhibition of HIF1A and the acceleration of oxidative stress injury in SH-SY5Y cells co-cultured with alpha-synuclein-induced HMC3 cells. Our findings indicate that IL6ST-AS is an important factor that regulates microglia activation and neuronal necrosis in the progression of PD. In the HMC3 and SH-SY5Y cell co-culture system, the overexpression of IL6ST-AS led to microglial dysfunction and neurotoxicology through the IL6ST-AS/STAT3/HIF-1alpha axis. Our research revealed the relationships among alpha-synuclein, IL6ST, STAT3, and HIF-1alpha in the pathological process of PD and provided a new inflammation hypothesis for the pathogenesis of PD.
+36674945	0	15	alpha-Synuclein	Gene	6622
+36674945	24	48	Neuroinflammation Injury	Disease	MESH:D000090862
+36674945	61	66	IL6ST	Gene	3572
+36674945	67	69	AS	Gene	112935892
+36674945	70	75	STAT3	Gene	6774
+36674945	76	86	HIF-1alpha	Gene	3091
+36674945	112	127	alpha-synuclein	Gene	6622
+36674945	129	138	alpha-syn	Gene	6622
+36674945	149	166	neuroinflammation	Disease	MESH:D000090862
+36674945	171	189	neuronal apoptosis	Disease	MESH:D065703
+36674945	242	261	Parkinson's disease	Disease	MESH:D010300
+36674945	263	265	PD	Disease	MESH:D010300
+36674945	386	391	IL6ST	Gene	3572
+36674945	392	394	AS	Gene	112935892
+36674945	422	427	IL6ST	Gene	3572
+36674945	432	447	alpha-synuclein	Gene	6622
+36674945	505	510	IL6ST	Gene	3572
+36674945	537	541	IL6R	Gene	3570
+36674945	542	547	IL6ST	Gene	3572
+36674945	615	627	inflammatory	Disease	MESH:D007249
+36674945	645	648	IL6	Gene	3569
+36674945	689	692	IL6	Gene	3569
+36674945	700	704	IL6R	Gene	3570
+36674945	705	710	IL6ST	Gene	3572
+36674945	738	742	JAK2	Gene	3717
+36674945	743	748	STAT3	Gene	6774
+36674945	862	867	STAT3	Gene	6774
+36674945	904	909	HIF1A	Gene	3091
+36674945	958	967	cytotoxic	Disease	MESH:D064420
+36674945	1025	1030	IL6ST	Gene	3572
+36674945	1031	1033	AS	Gene	112935892
+36674945	1055	1070	alpha-synuclein	Gene	6622
+36674945	1103	1108	IL6ST	Gene	3572
+36674945	1131	1135	JAK2	Gene	3717
+36674945	1136	1141	STAT3	Gene	6774
+36674945	1153	1157	HMC3	CellLine	CVCL:II76
+36674945	1193	1198	STAT3	Gene	6774
+36674945	1243	1248	HIF1A	Gene	3091
+36674945	1300	1307	SH-SY5Y	CellLine	CVCL:0019
+36674945	1331	1346	alpha-synuclein	Gene	6622
+36674945	1355	1359	HMC3	CellLine	CVCL:II76
+36674945	1394	1399	IL6ST	Gene	3572
+36674945	1400	1402	AS	Gene	112935892
+36674945	1466	1483	neuronal necrosis	Disease	MESH:D009336
+36674945	1506	1508	PD	Disease	MESH:D010300
+36674945	1517	1521	HMC3	CellLine	CVCL:II76
+36674945	1526	1533	SH-SY5Y	CellLine	CVCL:0019
+36674945	1580	1585	IL6ST	Gene	3572
+36674945	1586	1588	AS	Gene	112935892
+36674945	1596	1618	microglial dysfunction	Disease	MESH:D006331
+36674945	1623	1638	neurotoxicology	Disease	
+36674945	1651	1656	IL6ST	Gene	3572
+36674945	1657	1659	AS	Gene	112935892
+36674945	1660	1665	STAT3	Gene	6774
+36674945	1666	1676	HIF-1alpha	Gene	3091
+36674945	1729	1744	alpha-synuclein	Gene	6622
+36674945	1746	1751	IL6ST	Gene	3572
+36674945	1753	1758	STAT3	Gene	6774
+36674945	1764	1774	HIF-1alpha	Gene	3091
+36674945	1806	1808	PD	Disease	MESH:D010300
+36674945	1828	1840	inflammation	Disease	MESH:D007249
+36674945	1876	1878	PD	Disease	MESH:D010300
+36674945	Positive_Correlation	MESH:D006331	3572
+36674945	Association	MESH:D000090862	3091
+36674945	Association	MESH:D006331	3091
+36674945	Positive_Correlation	3091	3572
+36674945	Association	112935892	3091
+36674945	Negative_Correlation	112935892	3717
+36674945	Association	MESH:D009336	112935892
+36674945	Association	112935892	6774
+36674945	Association	6622	6774
+36674945	Association	MESH:D010300	3091
+36674945	Association	MESH:D000090862	6622
+36674945	Bind	3570	3572
+36674945	Positive_Correlation	3091	6774
+36674945	Positive_Correlation	3569	3717
+36674945	Association	MESH:D010300	3572
+36674945	Association	3570	6774
+36674945	Association	MESH:D000090862	6774
+36674945	Association	112935892	6622
+36674945	Association	MESH:D010300	6622
+36674945	Positive_Correlation	MESH:D006331	112935892
+36674945	Association	3572	6774
+36674945	Association	MESH:D007249	3572
+36674945	Bind	3569	3570
+36674945	Association	MESH:D010300	112935892
+36674945	Association	MESH:D009336	3572
+36674945	Association	MESH:D065703	6622
+36674945	Bind	3569	3572
+36674945	Negative_Correlation	112935892	3572
+36674945	Negative_Correlation	3572	3717
+36674945	Association	3717	6774
+36674945	Positive_Correlation	3569	6774
+36674945	Association	3570	3717
+36674945	Association	MESH:D000090862	3572
+36674945	Negative_Correlation	3572	6622
+36674945	Association	MESH:D064420	3091
+36674945	Association	3091	6622
+

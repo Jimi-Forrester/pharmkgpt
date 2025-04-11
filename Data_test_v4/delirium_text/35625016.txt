@@ -1,0 +1,10 @@
+35625016|t|A Depression Prediction Algorithm Based on Spatiotemporal Feature of EEG Signal.
+35625016|a|Depression has gradually become the most common mental disorder in the world. The accuracy of its diagnosis may be affected by many factors, while the primary diagnosis seems to be difficult to define. Finding a way to identify depression by satisfying both objective and effective conditions is an urgent issue. In this paper, a strategy for predicting depression based on spatiotemporal features is proposed, and is expected to be used in the auxiliary diagnosis of depression. Firstly, electroencephalogram (EEG) signals were denoised through the filter to obtain the power spectra of the three corresponding frequency ranges, Theta, Alpha and Beta. Using orthogonal projection, the spatial positions of the electrodes were mapped to the brainpower spectrum, thereby obtaining three brain maps with spatial information. Then, the three brain maps were superimposed on a new brain map with frequency domain and spatial characteristics. A Convolutional Neural Network (CNN) and Gated Recurrent Unit (GRU) were applied to extract the sequential feature. The proposed strategy was validated with a public EEG dataset, achieving an accuracy of 89.63% and an accuracy of 88.56% with the private dataset. The network had less complexity with only six layers. The results show that our strategy is credible, less complex and useful in predicting depression using EEG signals.
+35625016	2	12	Depression	Disease	MESH:D003866
+35625016	81	91	Depression	Disease	MESH:D003866
+35625016	129	144	mental disorder	Disease	MESH:D001523
+35625016	309	319	depression	Disease	MESH:D003866
+35625016	435	445	depression	Disease	MESH:D003866
+35625016	549	559	depression	Disease	MESH:D003866
+35625016	1422	1432	depression	Disease	MESH:D003866
+

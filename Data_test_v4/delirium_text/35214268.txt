@@ -1,0 +1,15 @@
+35214268|t|Convolutional Neural Networks for Segmenting Cerebellar Fissures from Magnetic Resonance Imaging.
+35214268|a|The human cerebellum plays an important role in coordination tasks. Diseases such as spinocerebellar ataxias tend to cause severe damage to the cerebellum, leading patients to a progressive loss of motor coordination. The detection of such damages can help specialists to approximate the state of the disease, as well as to perform statistical analysis, in order to propose treatment therapies for the patients. Manual segmentation of such patterns from magnetic resonance imaging is a very difficult and time-consuming task, and is not a viable solution if the number of images to process is relatively large. In recent years, deep learning techniques such as convolutional neural networks (CNNs or convnets) have experienced an increased development, and many researchers have used them to automatically segment medical images. In this research, we propose the use of convolutional neural networks for automatically segmenting the cerebellar fissures from brain magnetic resonance imaging. Three models are presented, based on the same CNN architecture, for obtaining three different binary masks: fissures, cerebellum with fissures, and cerebellum without fissures. The models perform well in terms of precision and efficiency. Evaluation results show that convnets can be trained for such purposes, and could be considered as additional tools in the diagnosis and characterization of neurodegenerative diseases.
+35214268	45	64	Cerebellar Fissures	Disease	MESH:D003750
+35214268	102	107	human	Species	9606
+35214268	108	118	cerebellum	Disease	MESH:D002526
+35214268	183	206	spinocerebellar ataxias	Disease	MESH:D020754
+35214268	242	252	cerebellum	Disease	MESH:D002526
+35214268	262	270	patients	Species	9606
+35214268	288	314	loss of motor coordination	Disease	MESH:D001259
+35214268	500	508	patients	Species	9606
+35214268	1031	1050	cerebellar fissures	Disease	MESH:D003750
+35214268	1208	1218	cerebellum	Disease	MESH:D002526
+35214268	1238	1248	cerebellum	Disease	MESH:D002526
+35214268	1486	1512	neurodegenerative diseases	Disease	MESH:D019636
+

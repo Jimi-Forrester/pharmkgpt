@@ -1,0 +1,65 @@
+31933109|t|Understanding the role of key amino acids in regulation of proline dehydrogenase/proline oxidase (prodh/pox)-dependent apoptosis/autophagy as an approach to targeted cancer therapy.
+31933109|a|In stress conditions, as neoplastic transformation, amino acids serve not only as nutrients to maintain the cell survival but also as mediators of several regulatory pathways which are involved in apoptosis and autophagy. Especially, under glucose deprivation, in order to maintain the cell survival, proline and glutamine together with other glutamine-derived products such as glutamate, alpha-ketoglutarate, and ornithine serve as alternative sources of energy. They are substrates for production of pyrroline-5-carboxylate which is the product of conversion of proline by proline dehydrogenase/ proline oxidase (PRODH/POX) to produce ATP for protective autophagy or reactive oxygen species for apoptosis. Interconversion of proline, ornithine, and glutamate may therefore regulate PRODH/POX-dependent apoptosis/autophagy. The key amino acid is proline, circulating between mitochondria and cytoplasm in the proline cycle. This shuttle is known as proline cycle. It is coupled to pentose phosphate pathway producing nucleotides for DNA biosynthesis. PRODH/POX is also linked to p53 and AMP-activated protein kinase (AMPK)-dependent pathways. Proline availability for PRODH/POX-dependent apoptosis/autophagy is regulated at the level of collagen biosynthesis (proline utilizing process) and prolidase activity (proline supporting process). In this review, we suggest that amino acid metabolism linking TCA and Urea cycles affect PRODH/POX-dependent apoptosis/autophagy and the knowledge might be useful to targeted cancer therapy.
+31933109	98	103	prodh	Gene	5625
+31933109	104	107	pox	Gene	5625
+31933109	166	172	cancer	Disease	MESH:D009369
+31933109	422	429	glucose	Chemical	MESH:D005947
+31933109	483	490	proline	Chemical	MESH:D011392
+31933109	495	504	glutamine	Chemical	MESH:D005973
+31933109	525	534	glutamine	Chemical	MESH:D005973
+31933109	560	569	glutamate	Chemical	MESH:D018698
+31933109	571	590	alpha-ketoglutarate	Chemical	MESH:D007656
+31933109	596	605	ornithine	Chemical	MESH:D009952
+31933109	684	707	pyrroline-5-carboxylate	Chemical	MESH:C015485
+31933109	746	753	proline	Chemical	MESH:D011392
+31933109	797	802	PRODH	Gene	5625
+31933109	803	806	POX	Gene	5625
+31933109	819	822	ATP	Chemical	MESH:D000255
+31933109	851	874	reactive oxygen species	Chemical	MESH:D017382
+31933109	909	916	proline	Chemical	MESH:D011392
+31933109	918	927	ornithine	Chemical	MESH:D009952
+31933109	933	942	glutamate	Chemical	MESH:D018698
+31933109	966	971	PRODH	Gene	5625
+31933109	972	975	POX	Gene	5625
+31933109	1029	1036	proline	Chemical	MESH:D011392
+31933109	1092	1099	proline	Chemical	MESH:D011392
+31933109	1132	1139	proline	Chemical	MESH:D011392
+31933109	1164	1181	pentose phosphate	Chemical	MESH:D010428
+31933109	1234	1239	PRODH	Gene	5625
+31933109	1240	1243	POX	Gene	5625
+31933109	1262	1265	p53	Gene	7157
+31933109	1270	1298	AMP-activated protein kinase	Gene	5564
+31933109	1300	1304	AMPK	Gene	5564
+31933109	1326	1333	Proline	Chemical	MESH:D011392
+31933109	1351	1356	PRODH	Gene	5625
+31933109	1357	1360	POX	Gene	5625
+31933109	1443	1450	proline	Chemical	MESH:D011392
+31933109	1474	1483	prolidase	Gene	5184
+31933109	1494	1501	proline	Chemical	MESH:D011392
+31933109	1585	1588	TCA	Chemical	MESH:D014238
+31933109	1593	1597	Urea	Chemical	MESH:D014508
+31933109	1612	1617	PRODH	Gene	5625
+31933109	1618	1621	POX	Gene	5625
+31933109	1698	1704	cancer	Disease	MESH:D009369
+31933109	Positive_Correlation	MESH:C015485	MESH:D009952
+31933109	Association	MESH:D005973	MESH:D009952
+31933109	Association	MESH:D011392	5625
+31933109	Positive_Correlation	MESH:C015485	MESH:D007656
+31933109	Association	5625	7157
+31933109	Association	MESH:D005973	MESH:D018698
+31933109	Positive_Correlation	MESH:C015485	MESH:D011392
+31933109	Association	5564	5625
+31933109	Association	MESH:D009369	5625
+31933109	Association	MESH:D014508	5625
+31933109	Association	MESH:D018698	5625
+31933109	Positive_Correlation	MESH:C015485	MESH:D018698
+31933109	Association	MESH:D009952	5625
+31933109	Association	MESH:D011392	5184
+31933109	Bind	MESH:D000255	5625
+31933109	Association	MESH:D011392	MESH:D009369
+31933109	Negative_Correlation	MESH:D005947	MESH:D005973
+31933109	Association	MESH:D011392	5564
+31933109	Association	MESH:D000255	MESH:D011392
+31933109	Positive_Correlation	MESH:C015485	MESH:D005973
+31933109	Positive_Correlation	MESH:D005973	MESH:D007656
+

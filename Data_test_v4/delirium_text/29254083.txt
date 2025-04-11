@@ -1,0 +1,45 @@
+29254083|t|Increased Foxo3a Nuclear Translocation and Activity is an Early Neuronal Response to betagamma-Secretase-Mediated Processing of the Amyloid-beta Protein Precursor: Utility of an AbetaPP-GAL4 Reporter Assay.
+29254083|a|Sequential cleavage of the amyloid-beta protein precursor (AbetaPP) by BACE1 (beta-secretase) followed by thegamma-secretase complex, is strongly implicated in Alzheimer's disease (AD) but the initial cellular responses to these cleavage events are not fully defined. beta-secretase-mediated AbetaPP processing yields an extracellular domain (sAbetaPPbeta) and a C-terminal fragment of AbetaPP of 99 amino acids (C99). Subsequent cleavage by gamma-secretase produces amyloid-beta (Abeta) and an AbetaPP intracellular domain (AICD). A cellular screen based on the generation of AICD from an AbetaPP-Gal4 fusion protein was adapted by introducing familial AD (FAD) mutations into the AbetaPP sequence and linking the assay to Gal4-UAS driven luciferase and GFP expression, to identify responses immediately downstream of AbetaPP processing in neurons with a focus on the transcription factor Foxo3a which has been implicated in neurodegeneration. The K670N/M671L, E682K, E693G, and V717I FAD mutations and the A673T protective mutation, were introduced into the AbetaPP sequence by site directed mutagenesis. When expressed in mouse cortical neurons, AbetaPP-Gal4-UAS driven luciferase and GFP expression was substantially reduced by gamma-secretase inhibitors, lowered by beta-secretase inhibitors, and enhanced by alpha-secretase inhibitors suggesting that AICD is a product of the betagamma-secretase pathway. AbetaPP-Gal4-UAS driven GFP expression was exploited to identify individual neurons undergoing amyloidogenic AbetaPP processing, revealing increased nuclear localization of Foxo3a and enhanced Foxo3a-mediated transcription downstream of AICD production. Foxo3a translocation was not driven by AICD directly but correlated with reduced Akt phosphorylation. Collectively this suggests that betagamma-secretase-mediated AbetaPP processing couples to Foxo3a which could be an early neuronal signaling response in AD.
+29254083	10	16	Foxo3a	Gene	56484
+29254083	186	190	GAL4	Gene	16855
+29254083	278	283	BACE1	Gene	23821
+29254083	367	386	Alzheimer's disease	Disease	MESH:D000544
+29254083	388	390	AD	Disease	MESH:D000544
+29254083	688	693	Abeta	Gene	11820
+29254083	805	809	Gal4	Gene	16855
+29254083	852	863	familial AD	Disease	MESH:D000544
+29254083	865	868	FAD	Disease	MESH:D000544
+29254083	931	935	Gal4	Gene	16855
+29254083	1097	1103	Foxo3a	Gene	56484
+29254083	1133	1150	neurodegeneration	Disease	MESH:D019636
+29254083	1156	1161	K670N	ProteinMutation	tmVar:p|SUB|K|670|N;HGVS:p.K670N;VariantGroup:0;OriginalGene:11820;CorrespondingGene:351;RS#:371425292;CorrespondingSpecies:10090;CA#:319103474
+29254083	1162	1167	M671L	ProteinMutation	tmVar:p|SUB|M|671|L;HGVS:p.M671L;VariantGroup:4;OriginalGene:11820;CorrespondingGene:351;RS#:572842823;CorrespondingSpecies:10090;CA#:319103456
+29254083	1169	1174	E682K	ProteinMutation	tmVar:p|SUB|E|682|K;HGVS:p.E682K;VariantGroup:5;OriginalGene:56484;CorrespondingGene:2309;CorrespondingSpecies:10090
+29254083	1176	1181	E693G	ProteinMutation	tmVar:p|SUB|E|693|G;HGVS:p.E693G;VariantGroup:2;OriginalGene:11820;CorrespondingGene:351;RS#:63751039;CorrespondingSpecies:10090;CA#:127801
+29254083	1187	1192	V717I	ProteinMutation	tmVar:p|SUB|V|717|I;HGVS:p.V717I;VariantGroup:3;OriginalGene:11820;CorrespondingGene:351;RS#:63750264;CorrespondingSpecies:10090;CA#:127791
+29254083	1193	1196	FAD	Disease	MESH:D000544
+29254083	1215	1220	A673T	ProteinMutation	tmVar:p|SUB|A|673|T;HGVS:p.A673T;VariantGroup:1;OriginalGene:11820;CorrespondingGene:351;RS#:63750847;CorrespondingSpecies:10090;CA#:130092
+29254083	1332	1337	mouse	Species	10090
+29254083	1364	1368	Gal4	Gene	16855
+29254083	1626	1630	Gal4	Gene	16855
+29254083	1791	1797	Foxo3a	Gene	56484
+29254083	1811	1817	Foxo3a	Gene	56484
+29254083	1872	1878	Foxo3a	Gene	56484
+29254083	1953	1956	Akt	Gene	11651
+29254083	2065	2071	Foxo3a	Gene	56484
+29254083	2127	2129	AD	Disease	MESH:D000544
+29254083	Positive_Correlation	HGVS:p.E682K;CorrespondingGene:2309	RS#:371425292;HGVS:p.K670N;CorrespondingGene:351
+29254083	Positive_Correlation	RS#:371425292;HGVS:p.K670N;CorrespondingGene:351	RS#:63751039;HGVS:p.E693G;CorrespondingGene:351
+29254083	Positive_Correlation	RS#:371425292;HGVS:p.K670N;CorrespondingGene:351	RS#:572842823;HGVS:p.M671L;CorrespondingGene:351
+29254083	Positive_Correlation	MESH:D000544	RS#:371425292;HGVS:p.K670N;CorrespondingGene:351
+29254083	Association	MESH:D019636	56484
+29254083	Positive_Correlation	MESH:D000544	RS#:572842823;HGVS:p.M671L;CorrespondingGene:351
+29254083	Positive_Correlation	MESH:D000544	RS#:63751039;HGVS:p.E693G;CorrespondingGene:351
+29254083	Positive_Correlation	MESH:D000544	RS#:63750264;HGVS:p.V717I;CorrespondingGene:351
+29254083	Association	11651	56484
+29254083	Positive_Correlation	MESH:D000544	HGVS:p.E682K;CorrespondingGene:2309
+29254083	Association	MESH:D000544	23821
+29254083	Association	MESH:D000544	16855
+29254083	Association	MESH:D000544	351
+29254083	Association	MESH:D000544	2309
+

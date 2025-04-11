@@ -1,0 +1,30 @@
+35979059|t|Machine learning for infection risk prediction in postoperative patients with non-mechanical ventilation and intravenous neurotargeted drugs.
+35979059|a|Drug efficacy can be improved by understanding the effects of anesthesia on the neurovascular system. In this study, we used machine learning algorithms to predict the risk of infection in postoperative intensive care unit (ICU) patients who are on non-mechanical ventilation and are receiving hydromorphone analgesia. In this retrospective study, 130 patients were divided into high and low dose groups of hydromorphone analgesic pump patients admitted after surgery. The white blood cells (WBC) count and incidence rate of infection was significantly higher in the high hydromorphone dosage group compared to the low hydromorphone dosage groups (p < 0.05). Furthermore, significant differences in age (P = 0.006), body mass index (BMI) (P = 0.001), WBC count (P = 0.019), C-reactive protein (CRP) (P = 0.038), hydromorphone dosage (P = 0.014), and biological sex (P = 0.024) were seen between the infected and non-infected groups. The infected group also had a longer hospital stay and an extended stay in the intensive care unit compared to the non-infected group. We identified important risk factors for the development of postoperative infections by using machine learning algorithms, including hydromorphone dosage, age, biological sex, BMI, and WBC count. Logistic regression analysis was applied to incorporate these variables to construct infection prediction models and nomograms. The area under curves (AUC) of the model were 0.835, 0.747, and 0.818 in the training group, validation group, and overall pairwise column group, respectively. Therefore, we determined that hydromorphone dosage, age, biological sex, BMI, WBC count, and CRP are significant risk factors in developing postoperative infections.
+35979059	21	30	infection	Disease	MESH:D007239
+35979059	64	72	patients	Species	9606
+35979059	318	327	infection	Disease	MESH:D007239
+35979059	371	379	patients	Species	9606
+35979059	436	449	hydromorphone	Chemical	MESH:D004091
+35979059	494	502	patients	Species	9606
+35979059	549	562	hydromorphone	Chemical	MESH:D004091
+35979059	578	586	patients	Species	9606
+35979059	667	676	infection	Disease	MESH:D007239
+35979059	714	727	hydromorphone	Chemical	MESH:D004091
+35979059	761	774	hydromorphone	Chemical	MESH:D004091
+35979059	916	934	C-reactive protein	Gene	1401
+35979059	936	939	CRP	Gene	1401
+35979059	954	967	hydromorphone	Chemical	MESH:D004091
+35979059	1041	1049	infected	Disease	MESH:D007239
+35979059	1058	1066	infected	Disease	MESH:D007239
+35979059	1079	1087	infected	Disease	MESH:D007239
+35979059	1194	1202	infected	Disease	MESH:D007239
+35979059	1270	1294	postoperative infections	Disease	MESH:D013530
+35979059	1343	1356	hydromorphone	Chemical	MESH:D004091
+35979059	1491	1500	infection	Disease	MESH:D007239
+35979059	1724	1737	hydromorphone	Chemical	MESH:D004091
+35979059	1787	1790	CRP	Gene	1401
+35979059	1834	1858	postoperative infections	Disease	MESH:D013530
+35979059	Positive_Correlation	MESH:D004091	MESH:D007239
+35979059	Association	MESH:D013530	1401
+35979059	Positive_Correlation	MESH:D004091	MESH:D013530
+

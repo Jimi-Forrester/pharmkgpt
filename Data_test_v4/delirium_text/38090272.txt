@@ -1,0 +1,51 @@
+38090272|t|Experimental verification and identifying biomarkers related to insomnia.
+38090272|a|Introduction: Insomnia is the most common form of sleep deprivation (SD) observed in clinics. Although there are differences between insomnia and SD, they have similar symptoms and the same animal model. Currently, there is a lack of microarray data on insomnia. Therefore, for now, we are going to apply the SD data to insomnia. Although many studies have explained the possible mechanisms associated with insomnia, no previous studies have considered the key genes associated with insomnia or the relationship between insomnia and immune cells. In this study, we analyzed the relationship between key genes and immune cells by identifying biomarkers for the diagnosis of insomnia. Next, we verified the efficacy of these biomarkers experimentally. Methods: First, we downloaded four microarrays (GSE11755, GSE12624, GSE28750, and GSE48080) from the Gene Expression Omnibus (GEO) database, which included data from 239 normal human blood samples and 365 blood specimens from patients with SD. Then, we analyzed two groups of differentially expressed genes (DEGs) and used Support Vector Machine Recursive Feature Elimination (SVM-RFE) analysis and the Least Absolute Shrinkage and Selection Operator (LASSO) regression model to investigate these key genes. Next, we used CIBERSORT to investigate the composition of 22 immune cell components of key genes in SD patients. Finally, the expression levels of key biomarkers in sleep-deprived patients were examined by quantitative real-time polymerase chain reaction (qRT-PCR). Results: A total of 50 DEGs were identified: six genes were significantly upregulated, and 44 genes were significantly downregulated. Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis showed that Salmonella infection, NOD-like receptor (NLR) signaling pathway, Kaposi sarcoma-associated herpesvirus infection, and Th17 cell differentiation were significant. Based on machine learning, we identified C2CD2L, SPINT2, APOL3, PKNOX1, and A2M as key genes for SD; these were confirmed by receiver operating characteristic (ROC) analysis. Immune cell infiltration analysis showed that C2CD2L, SPINT2, APOL3, PKNOX1, and A2M were related in different degrees to regulatory T cells (Tregs), follicular T helper cells, CD8 cells, and other immune cells. The qRT-PCR experiments confirmed that the expression levels of C2CD2L concurred with the results derived from machine learning, but PKNOX1 and APOL3 did not. Discussion: In summary, we identified a key gene (C2CD2L) that may facilitate the development of biomarkers for insomnia.
+38090272	64	72	insomnia	Disease	MESH:D007319
+38090272	88	96	Insomnia	Disease	MESH:D007319
+38090272	124	141	sleep deprivation	Disease	MESH:D012892
+38090272	143	145	SD	Disease	MESH:D012892
+38090272	207	215	insomnia	Disease	MESH:D007319
+38090272	220	222	SD	Disease	MESH:D012892
+38090272	327	335	insomnia	Disease	MESH:D007319
+38090272	383	385	SD	Disease	MESH:D012892
+38090272	394	402	insomnia	Disease	MESH:D007319
+38090272	481	489	insomnia	Disease	MESH:D007319
+38090272	557	565	insomnia	Disease	MESH:D007319
+38090272	594	602	insomnia	Disease	MESH:D007319
+38090272	747	755	insomnia	Disease	MESH:D007319
+38090272	1001	1006	human	Species	9606
+38090272	1050	1058	patients	Species	9606
+38090272	1064	1066	SD	Disease	MESH:D012892
+38090272	1432	1434	SD	Disease	MESH:D012892
+38090272	1435	1443	patients	Species	9606
+38090272	1512	1520	patients	Species	9606
+38090272	1873	1920	Kaposi sarcoma-associated herpesvirus infection	Disease	MESH:D012514
+38090272	2011	2017	C2CD2L	Gene	9854
+38090272	2019	2025	SPINT2	Gene	10653
+38090272	2027	2032	APOL3	Gene	80833
+38090272	2034	2040	PKNOX1	Gene	5316
+38090272	2046	2049	A2M	Gene	2
+38090272	2067	2069	SD	Disease	MESH:D012892
+38090272	2191	2197	C2CD2L	Gene	9854
+38090272	2199	2205	SPINT2	Gene	10653
+38090272	2207	2212	APOL3	Gene	80833
+38090272	2214	2220	PKNOX1	Gene	5316
+38090272	2226	2229	A2M	Gene	2
+38090272	2322	2325	CD8	Gene	925
+38090272	2421	2427	C2CD2L	Gene	9854
+38090272	2490	2496	PKNOX1	Gene	5316
+38090272	2501	2506	APOL3	Gene	80833
+38090272	2566	2572	C2CD2L	Gene	9854
+38090272	2628	2636	insomnia	Disease	MESH:D007319
+38090272	Association	925	9854
+38090272	Association	MESH:D012892	2
+38090272	Association	2	925
+38090272	Association	10653	925
+38090272	Association	MESH:D007319	5316
+38090272	Association	5316	925
+38090272	Association	MESH:D012892	5316
+38090272	Association	80833	925
+38090272	Association	MESH:D012892	10653
+38090272	Association	MESH:D012892	80833
+38090272	Association	MESH:D012892	9854
+

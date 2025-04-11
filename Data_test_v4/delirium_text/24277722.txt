@@ -1,0 +1,76 @@
+24277722|t|Fractalkine activates NRF2/NFE2L2 and heme oxygenase 1 to restrain tauopathy-induced microgliosis.
+24277722|a|The chemokine fractalkine modulates microglial responses in neurodegenerative diseases, including tauopathies, but the mechanistic processes and their relevance in human brain pathologies is not yet known. Here, we show that hippocampal HT22 cells expressing human TAU(P301L) mutant protein produce fractalkine, which in microglia activates AKT, inhibits glycogen synthase kinase-3beta and upregulates the transcription factor NRF2/NFE2L2 and its target genes including heme oxygenase 1. In a mouse model of tauopathy based on stereotaxic delivery in hippocampus of an adeno-associated viral vector for expression of TAU(P301L), we confirmed that tau-injured neurons express fractalkine. NRF2- and fractalkine receptor-knockout mice did not express heme oxygenase 1 in microglia and exhibited increased microgliosis and astrogliosis in response to neuronal TAU(P301L) expression, demonstrating a crucial role of the fractalkine/NRF2/heme oxygenase 1 pathway in attenuation of the pro-inflammatory phenotype. The hippocampus of patients with Alzheimer's disease also exhibits increased expression of fractalkine in TAU-injured neurons that recruit microglia. These events correlated with increased levels of NRF2 and heme oxygenase 1 proteins, suggesting an attempt of the diseased brain to limit microgliosis. Our combined results indicate that fractalkine mobilizes NRF2 to limit over-activation of microglia and identify this new target to control unremitting neuroinflammation in tauopathies. 
+24277722	0	11	Fractalkine	Gene	6376
+24277722	22	26	NRF2	Gene	18024
+24277722	27	33	NFE2L2	Gene	18024
+24277722	38	54	heme oxygenase 1	Gene	15368
+24277722	67	76	tauopathy	Disease	MESH:D024801
+24277722	85	97	microgliosis	Disease	
+24277722	113	124	fractalkine	Gene	6376
+24277722	159	185	neurodegenerative diseases	Disease	MESH:D019636
+24277722	197	208	tauopathies	Disease	MESH:D024801
+24277722	263	268	human	Species	9606
+24277722	336	340	HT22	CellLine	CVCL:0321
+24277722	358	363	human	Species	9606
+24277722	364	367	TAU	Gene	4137
+24277722	368	373	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+24277722	398	409	fractalkine	Gene	6376
+24277722	440	443	AKT	Gene	11651
+24277722	454	484	glycogen synthase kinase-3beta	Gene	56637
+24277722	526	530	NRF2	Gene	18024
+24277722	531	537	NFE2L2	Gene	4780
+24277722	569	585	heme oxygenase 1	Gene	15368
+24277722	592	597	mouse	Species	10090
+24277722	607	616	tauopathy	Disease	MESH:D024801
+24277722	716	719	TAU	Gene	4137
+24277722	720	725	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+24277722	746	749	tau	Gene	4137
+24277722	774	785	fractalkine	Gene	6376
+24277722	787	791	NRF2	Gene	18024
+24277722	797	817	fractalkine receptor	Gene	1524
+24277722	827	831	mice	Species	10090
+24277722	848	864	heme oxygenase 1	Gene	15368
+24277722	902	914	microgliosis	Disease	
+24277722	919	931	astrogliosis	Disease	MESH:D005911
+24277722	956	959	TAU	Gene	4137
+24277722	960	965	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+24277722	1015	1026	fractalkine	Gene	6376
+24277722	1027	1031	NRF2	Gene	18024
+24277722	1032	1048	heme oxygenase 1	Gene	15368
+24277722	1083	1095	inflammatory	Disease	MESH:D007249
+24277722	1126	1134	patients	Species	9606
+24277722	1140	1159	Alzheimer's disease	Disease	MESH:D000544
+24277722	1198	1209	fractalkine	Gene	6376
+24277722	1213	1216	TAU	Gene	4137
+24277722	1306	1310	NRF2	Gene	4780
+24277722	1315	1331	heme oxygenase 1	Gene	3162
+24277722	1395	1407	microgliosis	Disease	
+24277722	1444	1455	fractalkine	Gene	6376
+24277722	1466	1470	NRF2	Gene	4780
+24277722	1561	1578	neuroinflammation	Disease	MESH:D000090862
+24277722	1582	1593	tauopathies	Disease	MESH:D024801
+24277722	Positive_Correlation	MESH:D005911	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+24277722	Association	MESH:D000090862	4780
+24277722	Association	MESH:D024801	15368
+24277722	Association	MESH:D024801	18024
+24277722	Positive_Correlation	15368	18024
+24277722	Association	MESH:D024801	4137
+24277722	Negative_Correlation	MESH:D007249	18024
+24277722	Association	MESH:D024801	6376
+24277722	Positive_Correlation	11651	6376
+24277722	Association	MESH:D019636	6376
+24277722	Positive_Correlation	18024	6376
+24277722	Association	MESH:D005911	18024
+24277722	Positive_Correlation	MESH:D000544	6376
+24277722	Negative_Correlation	MESH:D007249	15368
+24277722	Association	15368	4780
+24277722	Positive_Correlation	4780	6376
+24277722	Positive_Correlation	15368	6376
+24277722	Association	MESH:D005911	4137
+24277722	Association	MESH:D000544	4137
+24277722	Negative_Correlation	56637	6376
+24277722	Association	MESH:D005911	1524
+24277722	Association	4137	6376
+24277722	Association	MESH:D000090862	6376
+24277722	Association	MESH:D005911	4137
+

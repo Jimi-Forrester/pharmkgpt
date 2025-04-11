@@ -1,0 +1,41 @@
+37214709|t|Appraisal of Pancreatic Lipase Inhibitory Potential of Ziziphus oenoplia (L.)Mill. Leaves by In Vitro and In Silico Approaches.
+37214709|a|Pancreatic lipase is one of the crucial lipolytic enzymes of the gut that actively facilitates the digestion and absorption of the dietary triglycerides and cholesteryl esters. Although it has been deemed as one of the most reliable targets for the treatment of obesity and/or dyslipidemia, to date, orlistat is the only known FDA-approved, effective, oral pancreatic lipase inhibitor available for clinical use apart from the centrally acting antiobesity agents. However, it is known to be associated with adverse gastrointestinal and renal complications. In this study, we attempted to assess the antioxidant and porcine pancreatic lipase inhibitory potentials of Ziziphus oenoplia (L.)Mill. leaves through a systematic combination of in vitro and in silico approaches. Among the four different extracts including petroleum ether extract, ethyl acetate extract, ethanolic extract, and aqueous extract obtained through successive solvent extraction, the ethyl acetate extract has outperformed the other extracts and orderly displayed competent peroxide scavenging (IC50 value: 267.30 mug/mL) and porcine pancreatic lipase inhibitory (IC50 value: 444.44 mug/mL) potentials compared to the selected reference compounds: ascorbic acid (IC50 value: 251.50 mug/mL) and orlistat (IC50 value: 502.51 mug/mL) in the selected in vitro assay models. In addition, based on the molecular docking simulations of the six essential phytoconstituents of the leaves of Ziziphus oenoplia (L.)Mill. and their respective chemical analogues against the crystal structure of pancreatic lipase-colipase complex (PDB ID: 1LPB), four best-ranked molecules (PubChem CIDs: 15515703, 132582306, 11260294, and 44440845) have been proposed. Further, among these, the interaction potentials of the two top-ranked molecules (PubChem CIDs: 132582306 and 15515703) were analyzed through molecular dynamics (MD) simulations at a trajectory of 100 ns. Finally, absorption, distribution, metabolism, excretion, and toxicity (ADMET) parameters were theoretically predicted for all of the molecules using Swiss ADME and ADMET lab2.0. In conclusion, Ziziphus oenoplia (L.)Mill. leaves could become a prominent source for various potent bioactive compounds that may serve as prospective leads for the development of clinically cognizable pancreatic lipase inhibitors, provided their pharmacokinetic and in particular toxicity properties are thoroughly optimized.
+37214709	13	30	Pancreatic Lipase	Gene	5406
+37214709	55	81	Ziziphus oenoplia (L.)Mill	Species	345151
+37214709	128	145	Pancreatic lipase	Gene	5406
+37214709	267	280	triglycerides	Chemical	MESH:D014280
+37214709	285	303	cholesteryl esters	Chemical	MESH:D002788
+37214709	390	397	obesity	Disease	MESH:D009765
+37214709	405	417	dyslipidemia	Disease	MESH:D050171
+37214709	428	436	orlistat	Chemical	MESH:D000077403
+37214709	485	502	pancreatic lipase	Gene	5406
+37214709	643	683	gastrointestinal and renal complications	Disease	MESH:D005767
+37214709	751	768	pancreatic lipase	Gene	5406
+37214709	794	820	Ziziphus oenoplia (L.)Mill	Species	345151
+37214709	944	959	petroleum ether	Chemical	MESH:C004544
+37214709	969	982	ethyl acetate	Chemical	MESH:C007650
+37214709	1083	1096	ethyl acetate	Chemical	MESH:C007650
+37214709	1173	1181	peroxide	Chemical	MESH:D010545
+37214709	1233	1250	pancreatic lipase	Gene	5406
+37214709	1347	1360	ascorbic acid	Chemical	MESH:D001205
+37214709	1393	1401	orlistat	Chemical	MESH:D000077403
+37214709	1581	1607	Ziziphus oenoplia (L.)Mill	Species	345151
+37214709	1682	1699	pancreatic lipase	Gene	5406
+37214709	1700	1708	colipase	Gene	1208
+37214709	2107	2115	toxicity	Disease	MESH:D064420
+37214709	2239	2265	Ziziphus oenoplia (L.)Mill	Species	345151
+37214709	2426	2443	pancreatic lipase	Gene	5406
+37214709	2505	2513	toxicity	Disease	MESH:D064420
+37214709	Association	MESH:D014280	5406
+37214709	Positive_Correlation	MESH:D000077403	MESH:D005767
+37214709	Positive_Correlation	MESH:C007650	MESH:D000077403
+37214709	Association	1208	5406
+37214709	Negative_Correlation	MESH:D000077403	MESH:D050171
+37214709	Association	MESH:D002788	5406
+37214709	Association	MESH:D009765	5406
+37214709	Negative_Correlation	MESH:C007650	5406
+37214709	Negative_Correlation	MESH:D001205	5406
+37214709	Negative_Correlation	MESH:D000077403	5406
+37214709	Positive_Correlation	MESH:C007650	MESH:D010545
+37214709	Association	MESH:D050171	5406
+

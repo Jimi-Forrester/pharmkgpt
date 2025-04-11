@@ -1,0 +1,50 @@
+29568862|t|Overexpression of appoptosin promotes mitochondrial damage in MIN6 cells.
+29568862|a|Damage to pancreatic beta-cells is closely associated with diabetes. However, the mechanism underlying injury to pancreatic beta-cells remains unclear, although hypoxia is considered as one of the leading causes. Appoptosin is a mitochondrial protein that promotes neuronal apoptosis. Studies conducted on appoptosin thus far have primarily focused on Alzheimer's disease, and have demonstrated that the expression of appoptosin is significantly increased in ischemic-reperfused rat brains, which indicates its close association with hypoxia. However, the role of appoptosin in pancreatic beta-cells, which are sensitive to hypoxia, remains unknown. Therefore, the current study aimed to investigate the function of appoptosin in pancreatic beta-cells in a hypoxic environment. Cobalt chloride (CoCl2) was used to mimic the hypoxic status of the cells. The results of a terminal deoxynucleotidyl transferase dUTP nick-end labeling assay demonstrated that CoCl2 promoted apoptosis in MIN6 mouse insulinoma cells, and western blotting and reverse transcription-quantitative polymerase chain reaction results demonstrated that the activation of appoptosin was induced, promoting mitochondrial damage and caspase 3 activation. Silencing of appoptosin using short hairpin RNA significantly reduced CoCl2-induced apoptosis in MIN6 cells. In conclusion, CoCl2 increased the expression of appoptosin, which aggravated mitochondrial damage in MIN6 cells. Therefore, inhibiting the expression of appoptosin may benefit pancreatic beta-cells survival during islet transplantation.
+29568862	18	28	appoptosin	Gene	208638
+29568862	38	58	mitochondrial damage	Disease	MESH:D028361
+29568862	62	66	MIN6	CellLine	CVCL:0431
+29568862	133	141	diabetes	Disease	MESH:D003920
+29568862	235	242	hypoxia	Disease	MESH:D000860
+29568862	287	297	Appoptosin	Gene	208638
+29568862	339	357	neuronal apoptosis	Disease	MESH:D065703
+29568862	380	390	appoptosin	Gene	208638
+29568862	426	445	Alzheimer's disease	Disease	MESH:D000544
+29568862	492	502	appoptosin	Gene	208638
+29568862	533	541	ischemic	Disease	MESH:D002545
+29568862	553	556	rat	Species	10116
+29568862	608	615	hypoxia	Disease	MESH:D000860
+29568862	638	648	appoptosin	Gene	208638
+29568862	698	705	hypoxia	Disease	MESH:D000860
+29568862	790	800	appoptosin	Gene	208638
+29568862	831	838	hypoxic	Disease	MESH:D002534
+29568862	852	867	Cobalt chloride	Chemical	MESH:C018021
+29568862	869	874	CoCl2	Chemical	MESH:C018021
+29568862	898	905	hypoxic	Disease	MESH:D002534
+29568862	944	981	terminal deoxynucleotidyl transferase	Gene	21673
+29568862	982	986	dUTP	Chemical	MESH:C027078
+29568862	1029	1034	CoCl2	Chemical	MESH:C018021
+29568862	1057	1061	MIN6	CellLine	CVCL:0431
+29568862	1062	1067	mouse	Species	10090
+29568862	1068	1078	insulinoma	Disease	MESH:D007340
+29568862	1216	1226	appoptosin	Gene	208638
+29568862	1250	1270	mitochondrial damage	Disease	MESH:D028361
+29568862	1275	1284	caspase 3	Gene	12367
+29568862	1310	1320	appoptosin	Gene	208638
+29568862	1367	1372	CoCl2	Chemical	MESH:C018021
+29568862	1394	1398	MIN6	CellLine	CVCL:0431
+29568862	1421	1426	CoCl2	Chemical	MESH:C018021
+29568862	1455	1465	appoptosin	Gene	208638
+29568862	1484	1504	mitochondrial damage	Disease	MESH:D028361
+29568862	1508	1512	MIN6	CellLine	CVCL:0431
+29568862	1560	1570	appoptosin	Gene	208638
+29568862	Positive_Correlation	MESH:C018021	208638
+29568862	Association	MESH:D000544	208638
+29568862	Positive_Correlation	MESH:D002545	208638
+29568862	Positive_Correlation	MESH:D065703	208638
+29568862	Positive_Correlation	MESH:C018021	MESH:D028361
+29568862	Positive_Correlation	MESH:D028361	208638
+29568862	Positive_Correlation	12367	208638
+29568862	Positive_Correlation	MESH:C018021	MESH:D002534
+29568862	Negative_Correlation	MESH:C018021	MESH:D007340
+29568862	Association	MESH:D000860	208638
+

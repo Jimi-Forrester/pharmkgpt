@@ -1,0 +1,19 @@
+35749214|t|Identifying Patients With Delirium Based on Unstructured Clinical Notes: Observational Study.
+35749214|a|BACKGROUND: Delirium in hospitalized patients is a syndrome of acute brain dysfunction. Diagnostic (International Classification of Diseases [ICD]) codes are often used in studies using electronic health records (EHRs), but they are inaccurate. OBJECTIVE: We sought to develop a more accurate method using natural language processing (NLP) to detect delirium episodes on the basis of unstructured clinical notes. METHODS: We collected 1.5 million notes from >10,000 patients from among 9 hospitals. Seven experts iteratively labeled 200,471 sentences. Using these, we trained three NLP classifiers: Support Vector Machine, Recurrent Neural Networks, and Transformer. Testing was performed using an external data set. We also evaluated associations with delirium billing (ICD) codes, medications, orders for restraints and sitters, direct assessments (Confusion Assessment Method [CAM] scores), and in-hospital mortality. F1 scores, confusion matrices, and areas under the receiver operating characteristic curve (AUCs) were used to compare NLP models. We used the phi coefficient to measure associations with other delirium indicators. RESULTS: The transformer NLP performed best on the following parameters: micro F1=0.978, macro F1=0.918, positive AUC=0.984, and negative AUC=0.992. NLP detections exhibited higher correlations (phi) than ICD codes with deliriogenic medications (0.194 vs 0.073 for ICD codes), restraints and sitter orders (0.358 vs 0.177), mortality (0.216 vs 0.000), and CAM scores (0.256 vs -0.028). CONCLUSIONS: Clinical notes are an attractive alternative to ICD codes for EHR delirium studies but require automated methods. Our NLP model detects delirium with high accuracy, similar to manual chart review. Our NLP approach can provide more accurate determination of delirium for large-scale EHR-based studies regarding delirium, quality improvement, and clinical trails.
+35749214	12	20	Patients	Species	9606
+35749214	26	34	Delirium	Disease	MESH:D003693
+35749214	106	114	Delirium	Disease	MESH:D003693
+35749214	131	139	patients	Species	9606
+35749214	163	180	brain dysfunction	Disease	MESH:D001927
+35749214	444	452	delirium	Disease	MESH:D003693
+35749214	560	568	patients	Species	9606
+35749214	847	855	delirium	Disease	MESH:D003693
+35749214	974	977	CAM	Disease	MESH:D020786
+35749214	1209	1217	delirium	Disease	MESH:D003693
+35749214	1450	1474	deliriogenic medications	Disease	MESH:D000069279
+35749214	1586	1589	CAM	Disease	MESH:D020786
+35749214	1695	1703	delirium	Disease	MESH:D003693
+35749214	1765	1773	delirium	Disease	MESH:D003693
+35749214	1886	1894	delirium	Disease	MESH:D003693
+35749214	1939	1947	delirium	Disease	MESH:D003693
+

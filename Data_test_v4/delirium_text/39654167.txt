@@ -1,0 +1,67 @@
+39654167|t|To explore the protective mechanism of promethazine against hippocampal neuron injury based on network pharmacology and experimental verification.
+39654167|a|This study aims to investigate the effect of promethazine (PMZ) on hippocampal neuronal injury through network pharmacology and in vivo experiments. Network pharmacology: The intersection genes of PMZ and Alzheimer Disease (AD) were obtained, and the core genes of PMZ in AD were screened. The intersection genes were enriched by Gene Ontology and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses. In the in vitro experiment, mouse hippocampal neurons (HT22) were divided into control, glutamate (GLU) model, and GLU + PMZ treatment groups. The control group was given a complete culture medium, the model group was given GLU for 24 hours, the treatment group was given PMZ pretreatment for 3 hours, and then GLU was administered for 24 hours. Cell viability was determined, cell morphology was observed by microscopy, reactive oxygen species levels and glutathione content were detected, and protein expression of P53, PTGS2, SLC7A11, and GPX4 was detected by western blotting. Network pharmacology: A total of 317 PMZ targets, 1934 AD genes, 125 intersection genes, and 18 core genes, including P53 and PTGS2. Gene Ontology enrichment analysis showed that the effect of PMZ on AD was mainly related to cell proliferation, inflammation, hypoxia, synaptic structure, plasma membrane, and oxidoreductase activity. Kyoto Encyclopedia of Genes and Genomes results showed neuroactive ligand-receptor interaction, cell senescence, cancer pathway, PI3K-AKT signal pathway, neurodegeneration, and HIF-1 signal pathway. In vitro experiments: PMZ improved the GLU-induced decrease in cell viability and morphological changes in hippocampal neurons. PMZ inhibited reactive oxygen species levels and increased glutathione content in injured hippocampal neurons. Up-regulated of P53, SLC7A11 and GPX4 expression, and inhibited expression of PTGS2. PMZ regulates the SLC7A11-GPX4 antioxidant system to protect hippocampal neurons from oxidative stress injury.
+39654167	39	51	promethazine	Chemical	MESH:D011398
+39654167	60	85	hippocampal neuron injury	Disease	MESH:D001930
+39654167	192	204	promethazine	Chemical	MESH:D011398
+39654167	206	209	PMZ	Chemical	MESH:D011398
+39654167	226	241	neuronal injury	Disease	MESH:D009410
+39654167	344	347	PMZ	Chemical	MESH:D011398
+39654167	352	369	Alzheimer Disease	Disease	MESH:D000544
+39654167	371	373	AD	Disease	MESH:D000544
+39654167	412	415	PMZ	Chemical	MESH:D011398
+39654167	419	421	AD	Disease	MESH:D000544
+39654167	599	604	mouse	Species	10090
+39654167	626	630	HT22	CellLine	CVCL:0321
+39654167	659	668	glutamate	Chemical	MESH:D018698
+39654167	670	673	GLU	Chemical	MESH:D018698
+39654167	686	689	GLU	Chemical	MESH:D018698
+39654167	692	695	PMZ	Chemical	MESH:D011398
+39654167	795	798	GLU	Chemical	MESH:D018698
+39654167	843	846	PMZ	Chemical	MESH:D011398
+39654167	882	885	GLU	Chemical	MESH:D018698
+39654167	992	1015	reactive oxygen species	Chemical	MESH:D017382
+39654167	1027	1038	glutathione	Chemical	MESH:D005978
+39654167	1088	1091	P53	Gene	22060
+39654167	1093	1098	PTGS2	Gene	19225
+39654167	1100	1107	SLC7A11	Gene	26570
+39654167	1113	1117	GPX4	Gene	625249
+39654167	1189	1192	PMZ	Chemical	MESH:D011398
+39654167	1207	1209	AD	Disease	MESH:D000544
+39654167	1270	1273	P53	Gene	22060
+39654167	1278	1283	PTGS2	Gene	19225
+39654167	1345	1348	PMZ	Chemical	MESH:D011398
+39654167	1352	1354	AD	Disease	MESH:D000544
+39654167	1397	1409	inflammation	Disease	MESH:D007249
+39654167	1411	1418	hypoxia	Disease	MESH:D000860
+39654167	1599	1605	cancer	Disease	MESH:D009369
+39654167	1615	1619	PI3K	Gene	18708
+39654167	1620	1623	AKT	Gene	11651
+39654167	1640	1657	neurodegeneration	Disease	MESH:D019636
+39654167	1707	1710	PMZ	Chemical	MESH:D011398
+39654167	1724	1727	GLU	Chemical	MESH:D018698
+39654167	1813	1816	PMZ	Chemical	MESH:D011398
+39654167	1827	1850	reactive oxygen species	Chemical	MESH:D017382
+39654167	1872	1883	glutathione	Chemical	MESH:D005978
+39654167	1940	1943	P53	Gene	22060
+39654167	1945	1952	SLC7A11	Gene	26570
+39654167	1957	1961	GPX4	Gene	625249
+39654167	2002	2007	PTGS2	Gene	19225
+39654167	2009	2012	PMZ	Chemical	MESH:D011398
+39654167	2027	2034	SLC7A11	Gene	26570
+39654167	2035	2039	GPX4	Gene	625249
+39654167	2112	2118	injury	Disease	MESH:D014947
+39654167	Positive_Correlation	MESH:D005978	MESH:D011398
+39654167	Association	MESH:D000544	22060
+39654167	Association	MESH:D011398	MESH:D000544
+39654167	Association	MESH:D014947	625249
+39654167	Positive_Correlation	MESH:D011398	625249
+39654167	Association	MESH:D011398	MESH:D000860
+39654167	Association	MESH:D011398	MESH:D007249
+39654167	Negative_Correlation	MESH:D011398	MESH:D017382
+39654167	Positive_Correlation	MESH:D011398	22060
+39654167	Negative_Correlation	MESH:D011398	MESH:D009410
+39654167	Negative_Correlation	MESH:D011398	MESH:D001930
+39654167	Negative_Correlation	MESH:D011398	MESH:D018698
+39654167	Association	MESH:D011398	19225
+39654167	Positive_Correlation	MESH:D011398	26570
+

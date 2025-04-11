@@ -1,0 +1,24 @@
+36704298|t|Data-driven approach to integrating genomic and behavioral preclinical traumatic brain injury research.
+36704298|a|Understanding recovery from TBI is complex, involving multiple systems and modalities. The current study applied modern data science tools to manage this complexity and harmonize large-scale data to understand relationships between gene expression and behavioral outcomes in a preclinical model of chronic TBI (cTBI). Data collected by the Moody Project for Translational TBI Research included rats with no injury (naive animals with similar amounts of anesthetic exposure to TBI and sham-injured animals), sham injury, or lateral fluid percussion TBI, followed by recovery periods up to 12 months. Behavioral measures included locomotor coordination (beam balance neuroscore) and memory and cognition assessments (Morris water maze: MWM) at multiple timepoints. Gene arrays were performed using hippocampal and cortical samples to probe 45,610 genes. To reduce the high dimensionality of molecular and behavioral domains and uncover gene-behavior associations, we performed non-linear principal components analyses (NL-PCA), which de-noised the data. Genomic NL-PCA unveiled three interpretable eigengene components (PC2, PC3, and PC4). Ingenuity pathway analysis (IPA) identified the PCs as an integrated stress response (PC2; EIF2-mTOR, corticotropin signaling, etc.), inflammatory factor translation (PC3; PI3K-p70S6K signaling), and neurite growth inhibition (PC4; Rho pathways). Behavioral PCA revealed three principal components reflecting the contribution of MWM overall speed and distance, neuroscore/beam walk, and MWM platform measures. Integrating the genomic and behavioral domains, we then performed a 'meta-PCA' on individual PC scores for each rat from genomic and behavioral PCAs. This meta-PCA uncovered three unique multimodal PCs, characterized by robust associations between inflammatory/stress response and neuroscore/beam walk performance (meta-PC1), stress response and MWM performance (meta-PC2), and stress response and neuroscore/beam walk performance (meta-PC3). Multivariate analysis of variance (MANOVA) on genomic-behavioral meta-PC scores tested separately on cortex and hippocampal samples revealed the main effects of TBI and recovery time. These findings are a proof of concept for the integration of disparate data domains for translational knowledge discovery, harnessing the full syndromic space of TBI.
+36704298	71	93	traumatic brain injury	Disease	MESH:D000070642
+36704298	132	135	TBI	Disease	MESH:D000070642
+36704298	402	413	chronic TBI	Disease	MESH:D000070642
+36704298	415	419	cTBI	Disease	MESH:D000070642
+36704298	476	479	TBI	Disease	MESH:D000070642
+36704298	498	502	rats	Species	10116
+36704298	580	583	TBI	Disease	MESH:D000070642
+36704298	652	655	TBI	Disease	MESH:D000070642
+36704298	1227	1230	PC3	CellLine	CVCL:0035
+36704298	1236	1239	PC4	CellLine	CVCL:7090
+36704298	1338	1342	mTOR	Gene	56718
+36704298	1376	1395	inflammatory factor	Disease	MESH:D007249
+36704298	1409	1412	PC3	CellLine	CVCL:0035
+36704298	1419	1425	p70S6K	Gene	83840
+36704298	1469	1472	PC4	CellLine	CVCL:7090
+36704298	1764	1767	rat	Species	10116
+36704298	1900	1912	inflammatory	Disease	MESH:D007249
+36704298	2089	2092	PC3	CellLine	CVCL:0035
+36704298	2256	2259	TBI	Disease	MESH:D000070642
+36704298	2441	2444	TBI	Disease	MESH:D000070642
+36704298	Association	MESH:D007249	83840
+

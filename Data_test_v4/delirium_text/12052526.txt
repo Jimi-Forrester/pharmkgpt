@@ -1,0 +1,25 @@
+12052526|t|Presenilin 1 overexpressions in Chinese hamster ovary (CHO) cells decreases the phosphorylation of retinoblastoma protein: relevance for neurodegeneration.
+12052526|a|Mutations in the presenilin 1 (PS1) gene have been associated to familial Alzheimer disease although the exact pathogenic mechanism is unclear. We report that stable overexpression of wild type PS1 led to a decrease in cyclin-dependent kinase 4 (CDK 4) activity and retinoblastoma tumor suppressor protein (pRb) phosphorylation that correlated with decreased levels of beta-catenin and cyclin D1. PS1 mutant D385A also precipitated a similar effect suggesting that gamma-secretase cleavage is not essential for PS1-mediated CDK 4 inhibition. We postulate that PS1 overexpression may balance the hyperphosphorylation of pRb associated with death of post mitotic neurons after injury.
+12052526	0	12	Presenilin 1	Gene	100770550
+12052526	32	53	Chinese hamster ovary	CellLine	CVCL:0213
+12052526	55	58	CHO	CellLine	CVCL:0213
+12052526	137	154	neurodegeneration	Disease	MESH:D019636
+12052526	173	185	presenilin 1	Gene	100770550
+12052526	187	190	PS1	Gene	100770550
+12052526	221	247	familial Alzheimer disease	Disease	MESH:D000544
+12052526	350	353	PS1	Gene	100770550
+12052526	375	400	cyclin-dependent kinase 4	Gene	100760122
+12052526	402	407	CDK 4	Gene	100760122
+12052526	542	551	cyclin D1	Gene	100689063
+12052526	553	556	PS1	Gene	100770550
+12052526	564	569	D385A	ProteinMutation	tmVar:p|SUB|D|385|A;HGVS:p.D385A;VariantGroup:0;OriginalGene:100770550;CorrespondingGene:5663;CorrespondingSpecies:10029
+12052526	667	670	PS1	Gene	100770550
+12052526	680	685	CDK 4	Gene	100760122
+12052526	716	719	PS1	Gene	100770550
+12052526	Negative_Correlation	100689063	100770550
+12052526	Association	MESH:D000544	100770550
+12052526	Association	MESH:D019636	100770550
+12052526	Negative_Correlation	100760122	100770550
+12052526	Positive_Correlation	MESH:D000544	HGVS:p.D385A;CorrespondingGene:5663
+12052526	Association	MESH:D000544	5663
+

@@ -1,0 +1,23 @@
+33646166|t|Deep Learning and Risk Score Classification of Mild Cognitive Impairment and Alzheimer's Disease.
+33646166|a|BACKGROUND: Many neurocognitive and neuropsychological tests are used to classify early mild cognitive impairment (EMCI), late mild cognitive impairment (LMCI), and Alzheimer's disease (AD) from cognitive normal (CN). This can make it challenging for clinicians to make efficient and objective clinical diagnoses. It is possible to reduce the number of variables needed to make a reasonably accurate classification using machine learning. OBJECTIVE: The goal of this study was to develop a deep learning algorithm to identify a few significant neurocognitive tests that can accurately classify these four groups. We also derived a simplified risk-stratification score model for diagnosis. METHODS: Over 100 variables that included neuropsychological/neurocognitive tests, demographics, genetic factors, and blood biomarkers were collected from 383 EMCI, 644 LMCI, 394 AD patients, and 516 cognitive normal from the Alzheimer's Disease Neuroimaging Initiative database. A neural network algorithm was trained on data split 90% for training and 10% testing using 10-fold cross-validation. Prediction performance used area under the curve (AUC) of the receiver operating characteristic analysis. We also evaluated five different feature selection methods. RESULTS: The five feature selection methods consistently yielded the top classifiers to be the Clinical Dementia Rating Scale - Sum of Boxes, Delayed total recall, Modified Preclinical Alzheimer Cognitive Composite with Trails test, Modified Preclinical Alzheimer Cognitive Composite with Digit test, and Mini-Mental State Examination. The best classification model yielded an AUC of 0.984, and the simplified risk-stratification score yielded an AUC of 0.963 on the test dataset. CONCLUSION: The deep-learning algorithm and simplified risk score accurately classifies EMCI, LMCI, AD and CN patients using a few common neurocognitive tests.
+33646166	47	72	Mild Cognitive Impairment	Disease	MESH:D060825
+33646166	77	96	Alzheimer's Disease	Disease	MESH:D000544
+33646166	186	211	mild cognitive impairment	Disease	MESH:D060825
+33646166	213	217	EMCI	Disease	MESH:D060825
+33646166	220	250	late mild cognitive impairment	Disease	MESH:D060825
+33646166	252	256	LMCI	Disease	MESH:D060825
+33646166	263	282	Alzheimer's disease	Disease	MESH:D000544
+33646166	284	286	AD	Disease	MESH:D000544
+33646166	946	950	EMCI	Disease	MESH:D060825
+33646166	956	960	LMCI	Disease	MESH:D060825
+33646166	966	968	AD	Disease	MESH:D000544
+33646166	969	977	patients	Species	9606
+33646166	1013	1032	Alzheimer's Disease	Disease	MESH:D000544
+33646166	1455	1463	Dementia	Disease	MESH:D003704
+33646166	1536	1545	Alzheimer	Disease	MESH:D000544
+33646166	1605	1614	Alzheimer	Disease	MESH:D000544
+33646166	1920	1924	EMCI	Disease	MESH:D060825
+33646166	1926	1930	LMCI	Disease	MESH:D060825
+33646166	1932	1934	AD	Disease	MESH:D000544
+33646166	1942	1950	patients	Species	9606
+

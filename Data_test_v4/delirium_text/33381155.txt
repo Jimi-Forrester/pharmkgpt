@@ -1,0 +1,27 @@
+33381155|t|Revealing the Interactions Between Diabetes, Diabetes-Related Diseases, and Cancers Based on the Network Connectivity of Their Related Genes.
+33381155|a|Diabetes-related diseases (DRDs), especially cancers pose a big threat to public health. Although people have explored pathological pathways of a few common DRDs, there is a lack of systematic studies on important biological processes (BPs) connecting diabetes and its related diseases/cancers. We have proposed and compared 10 protein-protein interaction (PPI)-based computational methods to study the connections between diabetes and 254 diseases, among which a method called DIconnectivity_eDMN performs the best in the sense that it infers a disease rank (according to its relation with diabetes) most consistent with that by literature mining. DIconnectivity_eDMN takes diabetes-related genes, other disease-related genes, a PPI network, and genes in BPs as input. It first maps genes in a BP into the PPI network to construct a BP-related subnetwork, which is expanded (in the whole PPI network) by a random walk with restart (RWR) process to generate a so-called expanded modularized network (eMN). Since the numbers of known disease genes are not high, an RWR process is also performed to generate an expanded disease-related gene list. For each eMN and disease, the expanded diabetes-related genes and disease-related genes are mapped onto the eMN. The association between diabetes and the disease is measured by the reachability of their genes on all eMNs, in which the reachability is estimated by a method similar to the Kolmogorov-Smirnov (KS) test. DIconnectivity_eDMN achieves an area under receiver operating characteristic curve (AUC) of 0.71 for predicting both Type 1 DRDs and Type 2 DRDs. In addition, DIconnectivity_eDMN reveals important BPs connecting diabetes and DRDs. For example, "respiratory system development" and "regulation of mRNA metabolic process" are critical in associating Type 1 diabetes (T1D) and many Type 1 DRDs. It is also found that the average proportion of diabetes-related genes interacting with DRDs is higher than that of non-DRDs.
+33381155	35	43	Diabetes	Disease	MESH:D003920
+33381155	45	70	Diabetes-Related Diseases	Disease	MESH:D048909
+33381155	76	83	Cancers	Disease	MESH:D009369
+33381155	142	167	Diabetes-related diseases	Disease	MESH:D048909
+33381155	169	173	DRDs	Disease	MESH:D048909
+33381155	187	194	cancers	Disease	MESH:D009369
+33381155	299	303	DRDs	Disease	MESH:D048909
+33381155	394	402	diabetes	Disease	MESH:D003920
+33381155	428	435	cancers	Disease	MESH:D009369
+33381155	565	573	diabetes	Disease	MESH:D003920
+33381155	733	741	diabetes	Disease	MESH:D003920
+33381155	817	825	diabetes	Disease	MESH:D003920
+33381155	1326	1334	diabetes	Disease	MESH:D003920
+33381155	1424	1432	diabetes	Disease	MESH:D003920
+33381155	1722	1733	Type 1 DRDs	Disease	MESH:D003922
+33381155	1738	1749	Type 2 DRDs	Disease	MESH:D003924
+33381155	1817	1825	diabetes	Disease	MESH:D003920
+33381155	1830	1834	DRDs	Disease	MESH:D048909
+33381155	1953	1968	Type 1 diabetes	Disease	MESH:D003922
+33381155	1970	1973	T1D	Disease	MESH:D003922
+33381155	1984	1995	Type 1 DRDs	Disease	MESH:D003922
+33381155	2045	2053	diabetes	Disease	MESH:D003920
+33381155	2085	2089	DRDs	Disease	MESH:D048909
+33381155	2117	2121	DRDs	Disease	MESH:D048909
+

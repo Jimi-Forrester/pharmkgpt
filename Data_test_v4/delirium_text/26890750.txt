@@ -1,0 +1,40 @@
+26890750|t|Integrated Analysis of Alzheimer's Disease and Schizophrenia Dataset Revealed Different Expression Pattern in Learning and Memory.
+26890750|a|Alzheimer's disease (AD) and schizophrenia (SZ) are both accompanied by impaired learning and memory functions. This study aims to explore the expression profiles of learning or memory genes between AD and SZ. We downloaded 10 AD and 10 SZ datasets from GEO-NCBI for integrated analysis. These datasets were processed using RMA algorithm and a global renormalization for all studies. Then Empirical Bayes algorithm was used to find the differentially expressed genes between patients and controls. The results showed that most of the differentially expressed genes were related to AD whereas the gene expression profile was little affected in the SZ. Furthermore, in the aspects of the number of differentially expressed genes, the fold change and the brain region, there was a great difference in the expression of learning or memory related genes between AD and SZ. In AD, the CALB1, GABRA5, and TAC1 were significantly downregulated in whole brain, frontal lobe, temporal lobe, and hippocampus. However, in SZ, only two genes CRHBP and CX3CR1 were downregulated in hippocampus, and other brain regions were not affected. The effect of these genes on learning or memory impairment has been widely studied. It was suggested that these genes may play a crucial role in AD or SZ pathogenesis. The different gene expression patterns between AD and SZ on learning and memory functions in different brain regions revealed in our study may help to understand the different mechanism between two diseases. 
+26890750	23	42	Alzheimer's Disease	Disease	MESH:D000544
+26890750	47	60	Schizophrenia	Disease	MESH:D012559
+26890750	131	150	Alzheimer's disease	Disease	MESH:D000544
+26890750	152	154	AD	Disease	MESH:D000544
+26890750	160	173	schizophrenia	Disease	MESH:D012559
+26890750	175	177	SZ	Disease	MESH:D012559
+26890750	203	241	impaired learning and memory functions	Disease	MESH:D003072
+26890750	330	332	AD	Disease	MESH:D000544
+26890750	337	339	SZ	Disease	MESH:D012559
+26890750	358	360	AD	Disease	MESH:D000544
+26890750	368	370	SZ	Disease	MESH:D012559
+26890750	606	614	patients	Species	9606
+26890750	712	714	AD	Disease	MESH:D000544
+26890750	778	780	SZ	Disease	MESH:D012559
+26890750	988	990	AD	Disease	MESH:D000544
+26890750	995	997	SZ	Disease	MESH:D012559
+26890750	1002	1004	AD	Disease	MESH:D000544
+26890750	1010	1015	CALB1	Gene	793
+26890750	1017	1023	GABRA5	Gene	2558
+26890750	1029	1033	TAC1	Gene	6863
+26890750	1141	1143	SZ	Disease	MESH:D012559
+26890750	1160	1165	CRHBP	Gene	1393
+26890750	1170	1176	CX3CR1	Gene	1524
+26890750	1284	1313	learning or memory impairment	Disease	MESH:D007859
+26890750	1400	1402	AD	Disease	MESH:D000544
+26890750	1406	1408	SZ	Disease	MESH:D012559
+26890750	1470	1472	AD	Disease	MESH:D000544
+26890750	1477	1479	SZ	Disease	MESH:D012559
+26890750	Association	MESH:D007859	2558
+26890750	Negative_Correlation	MESH:D000544	2558
+26890750	Association	MESH:D007859	1393
+26890750	Association	MESH:D007859	793
+26890750	Negative_Correlation	MESH:D000544	793
+26890750	Association	MESH:D007859	6863
+26890750	Association	MESH:D012559	1524
+26890750	Association	MESH:D012559	1393
+26890750	Negative_Correlation	MESH:D000544	6863
+

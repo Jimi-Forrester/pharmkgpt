@@ -1,0 +1,40 @@
+26118928|t|HMG-CoA Reductase Inhibitors Bind to PPARalpha to Upregulate Neurotrophin Expression in the Brain and Improve Memory in Mice.
+26118928|a|Neurotrophins are important for neuronal health and function. Here, statins, inhibitors of HMG-CoA reductase and cholesterol lowering drugs, were found to stimulate expression of neurotrophins in brain cells independent of the mevalonate pathway. Time-resolved fluorescence resonance energy transfer (FRET) analyses, computer-derived simulation, site-directed mutagenesis, thermal shift assay, and de novo binding followed by electrospray ionization tandem mass spectrometry (ESI-MS) demonstrates that statins serve as ligands of PPARalpha and that Leu331 and Tyr 334 residues of PPARalpha are important for statin binding. Upon binding, statins upregulate neurotrophins via PPARalpha-mediated transcriptional activation of cAMP-response element binding protein (CREB). Accordingly, simvastatin increases CREB and brain-derived neurotrophic factor (BDNF) in the hippocampus of Ppara null mice receiving full-length lentiviral PPARalpha, but not L331M/Y334D statin-binding domain-mutated lentiviral PPARalpha. This study identifies statins as ligands of PPARalpha, describes neurotrophic function of statins via the PPARalpha-CREB pathway, and analyzes the importance of PPARalpha in the therapeutic success of simvastatin in an animal model of Alzheimer's disease. 
+26118928	0	17	HMG-CoA Reductase	Gene	15357
+26118928	37	46	PPARalpha	Gene	19013
+26118928	120	124	Mice	Species	10090
+26118928	217	234	HMG-CoA reductase	Gene	15357
+26118928	239	250	cholesterol	Chemical	MESH:D002784
+26118928	353	363	mevalonate	Chemical	MESH:D008798
+26118928	656	665	PPARalpha	Gene	19013
+26118928	675	681	Leu331	ProteinMutation	tmVar:p|Allele|L|331;VariantGroup:1;OriginalGene:19013;CorrespondingGene:5465;CorrespondingSpecies:10090
+26118928	686	693	Tyr 334	ProteinMutation	tmVar:p|Allele|Y|334;VariantGroup:0;OriginalGene:19013;CorrespondingGene:5465;CorrespondingSpecies:10090
+26118928	706	715	PPARalpha	Gene	19013
+26118928	801	810	PPARalpha	Gene	19013
+26118928	850	887	cAMP-response element binding protein	Gene	12912
+26118928	889	893	CREB	Gene	12912
+26118928	909	920	simvastatin	Chemical	MESH:D019821
+26118928	931	935	CREB	Gene	12912
+26118928	940	973	brain-derived neurotrophic factor	Gene	12064
+26118928	975	979	BDNF	Gene	12064
+26118928	1003	1008	Ppara	Gene	19013
+26118928	1014	1018	mice	Species	10090
+26118928	1052	1061	PPARalpha	Gene	19013
+26118928	1071	1076	L331M	ProteinMutation	tmVar:p|SUB|L|331|M;HGVS:p.L331M;VariantGroup:1;OriginalGene:19013;CorrespondingGene:5465;CorrespondingSpecies:10090
+26118928	1077	1082	Y334D	ProteinMutation	tmVar:p|SUB|Y|334|D;HGVS:p.Y334D;VariantGroup:0;OriginalGene:19013;CorrespondingGene:5465;CorrespondingSpecies:10090
+26118928	1124	1133	PPARalpha	Gene	19013
+26118928	1179	1188	PPARalpha	Gene	19013
+26118928	1241	1250	PPARalpha	Gene	19013
+26118928	1251	1255	CREB	Gene	12912
+26118928	1296	1305	PPARalpha	Gene	19013
+26118928	1336	1347	simvastatin	Chemical	MESH:D019821
+26118928	1370	1389	Alzheimer's disease	Disease	MESH:D000544
+26118928	Positive_Correlation	12912	19013
+26118928	Association	12064	19013
+26118928	Association	CorrespondingGene:5465;CorrespondingSpecies:10090;OriginalGene:19013;VariantGroup:0;tmVar:p	HGVS:p.L331M;CorrespondingGene:5465
+26118928	Positive_Correlation	MESH:D019821	12912
+26118928	Positive_Correlation	MESH:D019821	12064
+26118928	Association	15357	19013
+26118928	Association	MESH:D019821	19013
+26118928	Negative_Correlation	MESH:D019821	MESH:D000544
+

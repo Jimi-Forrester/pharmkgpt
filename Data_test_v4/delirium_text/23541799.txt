@@ -1,0 +1,22 @@
+23541799|t|Voxel-based classification of FDG PET in dementia using inter-scanner normalization.
+23541799|a|Statistical mapping of FDG PET brain images has become a common tool in differential diagnosis of patients with dementia. We present a voxel-based classification system of neurodegenerative dementias based on partial least squares (PLS). Such a classifier relies on image databases of normal controls and dementia cases as training data. Variations in PET image characteristics can be expected between databases, for example due to differences in instrumentation, patient preparation, and image reconstruction. This study evaluates (i) the impact of databases from different scanners on classification accuracy and (ii) a method to improve inter-scanner classification. Brain FDG PET databases from three scanners (A, B, C) at two clinical sites were evaluated. Diagnostic categories included normal controls (NC, nA=26, nB=20, nC=24 for each scanner respectively), Alzheimer's disease (AD, nA=44, nB=11, nC=16), and frontotemporal dementia (FTD, nA=13, nB=13, nC=5). Spatially normalized images were classified as NC, AD, or FTD using partial least squares. Supervised learning was employed to determine classifier parameters, whereby available data is sub-divided into training and test sets. Four different database setups were evaluated: (i) "in-scanner": training and test data from the same scanner, (ii) "x-scanner": training and test data from different scanners, (iii) "train other": train on both x-scanners, and (iv) "train all": train on all scanners. In order to moderate the impact of inter-scanner variations on image evaluation, voxel-by-voxel scaling was applied based on "ratio images". Good classification accuracy of on average 94% was achieved for the in-scanner setups. Accuracy deteriorated for setups with mismatched scanners (79-91%). Ratio-image normalization improved all results with mismatched scanners (85-92%). In conclusion, automatic classification of individual FDG PET in differential diagnosis of dementia is feasible. Accuracy can vary with respect to scanner or acquisition characteristics of the training image data. The adopted approach of ratio-image normalization has been demonstrated to effectively moderate these effects.
+23541799	30	33	FDG	Chemical	MESH:D019788
+23541799	41	49	dementia	Disease	MESH:D003704
+23541799	108	111	FDG	Chemical	MESH:D019788
+23541799	183	191	patients	Species	9606
+23541799	197	205	dementia	Disease	MESH:D003704
+23541799	257	284	neurodegenerative dementias	Disease	MESH:D019636
+23541799	390	398	dementia	Disease	MESH:D003704
+23541799	549	556	patient	Species	9606
+23541799	761	764	FDG	Chemical	MESH:D019788
+23541799	951	970	Alzheimer's disease	Disease	MESH:D000544
+23541799	972	974	AD	Disease	MESH:D000544
+23541799	1002	1025	frontotemporal dementia	Disease	MESH:D057180
+23541799	1027	1030	FTD	Disease	MESH:D057180
+23541799	1104	1106	AD	Disease	MESH:D000544
+23541799	1111	1114	FTD	Disease	MESH:D057180
+23541799	1981	1984	FDG	Chemical	MESH:D019788
+23541799	2018	2026	dementia	Disease	MESH:D003704
+23541799	Association	MESH:D019788	MESH:D003704
+23541799	Association	MESH:D019788	MESH:D057180
+

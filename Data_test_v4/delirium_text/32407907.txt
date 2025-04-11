@@ -1,0 +1,26 @@
+32407907|t|Radiological classification of dementia from anatomical MRI assisted by machine learning-derived maps.
+32407907|a|BACKGROUND AND PURPOSE: Many artificial intelligence tools are currently being developed to assist diagnosis of dementia from magnetic resonance imaging (MRI). However, these tools have so far been difficult to integrate in the clinical routine workflow. In this work, we propose a new simple way to use them and assess their utility for improving diagnostic accuracy. MATERIALS AND METHODS: We studied 34 patients with early-onset Alzheimer's disease (EOAD), 49 with late-onset AD (LOAD), 39 with frontotemporal dementia (FTD) and 24 with depression from the pre-existing cohort CLIN-AD. Support vector machine (SVM) automatic classifiers using 3D T1 MRI were trained to distinguish: LOAD vs. Depression, FTD vs. LOAD, EOAD vs. Depression, EOAD vs. FTD. We extracted SVM weight maps, which are tridimensional representations of discriminant atrophy patterns used by the classifier to take its decisions and we printed posters of these maps. Four radiologists (2 senior neuroradiologists and 2 unspecialized junior radiologists) performed a visual classification of the 4 diagnostic pairs using 3D T1 MRI. Classifications were performed twice: first with standard radiological reading and then using SVM weight maps as a guide. RESULTS: Diagnostic performance was significantly improved by the use of the weight maps for the two junior radiologists in the case of FTD vs. EOAD. Improvement was over 10 points of diagnostic accuracy. CONCLUSION: This tool can improve the diagnostic accuracy of junior radiologists and could be integrated in the clinical routine workflow.
+32407907	31	39	dementia	Disease	MESH:D003704
+32407907	215	223	dementia	Disease	MESH:D003704
+32407907	509	517	patients	Species	9606
+32407907	535	554	Alzheimer's disease	Disease	MESH:D000544
+32407907	556	560	EOAD	Disease	MESH:D000544
+32407907	582	584	AD	Disease	MESH:D000544
+32407907	586	590	LOAD	Disease	MESH:D000544
+32407907	601	624	frontotemporal dementia	Disease	MESH:D057180
+32407907	626	629	FTD	Disease	MESH:D057180
+32407907	643	653	depression	Disease	MESH:D003866
+32407907	683	687	CLIN	Disease	
+32407907	688	690	AD	Disease	MESH:D000544
+32407907	788	792	LOAD	Disease	MESH:D000544
+32407907	797	807	Depression	Disease	MESH:D003866
+32407907	809	812	FTD	Disease	MESH:D057180
+32407907	817	821	LOAD	Disease	MESH:D000544
+32407907	823	827	EOAD	Disease	MESH:D000544
+32407907	832	842	Depression	Disease	MESH:D003866
+32407907	844	848	EOAD	Disease	MESH:D000544
+32407907	853	856	FTD	Disease	MESH:D057180
+32407907	945	952	atrophy	Disease	MESH:D001284
+32407907	1467	1470	FTD	Disease	MESH:D057180
+32407907	1475	1479	EOAD	Disease	MESH:D000544
+

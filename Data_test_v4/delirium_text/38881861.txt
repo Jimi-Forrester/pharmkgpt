@@ -1,0 +1,18 @@
+38881861|t|Use of machine learning to identify protective factors for death from COVID-19 in the ICU: a retrospective study.
+38881861|a|Background: Patients in serious condition due to COVID-19 often require special care in intensive care units (ICUs). This disease has affected over 758 million people and resulted in 6.8 million deaths worldwide. Additionally, the progression of the disease may vary from individual to individual, that is, it is essential to identify the clinical parameters that indicate a good prognosis for the patient. Machine learning (ML) algorithms have been used for analyzing complex medical data and identifying prognostic indicators. However, there is still an urgent need for a model to elucidate the predictors related to patient outcomes. Therefore, this research aimed to verify, through ML, the variables involved in the discharge of patients admitted to the ICU due to COVID-19. Methods: In this study, 126 variables were collected with information on demography, hospital length stay and outcome, chronic diseases and tumors, comorbidities and risk factors, complications and adverse events, health care, and vital indicators of patients admitted to an ICU in southern Brazil. These variables were filtered and then selected by a ML algorithm known as decision trees to identify the optimal set of variables for predicting patient discharge using logistic regression. Finally, a confusion matrix was performed to evaluate the model's performance for the selected variables. Results: Of the 532 patients evaluated, 180 were discharged: female (16.92%), with a central venous catheter (23.68%), with a bladder catheter (26.13%), and with an average of 8.46- and 23.65-days using bladder catheter and submitted to mechanical ventilation, respectively. In addition, the chances of discharge increase by 14% for each additional day in the hospital, by 136% for female patients, 716% when there is no bladder catheter, and 737% when no central venous catheter is used. However, the chances of discharge decrease by 3% for each additional year of age and by 9% for each other day of mechanical ventilation. The performance of the training data presented a balanced accuracy of 0.81, sensitivity of 0.74, specificity of 0.88, and the kappa value was 0.64. The test performance had a balanced accuracy of 0.85, sensitivity 0.75, specificity 0.95, and kappa value of 0.73. The McNemar test found that there were no significant differences in the error rates in the training and test data, suggesting good classification. This work showed that female, the absence of a central venous catheter and bladder catheter, shorter mechanical ventilation, and bladder catheter duration were associated with a greater chance of hospital discharge. These results may help develop measures that lead to a good prognosis for the patient.
+38881861	59	69	death from	Disease	MESH:D003643
+38881861	70	78	COVID-19	Disease	MESH:D000086382
+38881861	126	134	Patients	Species	9606
+38881861	163	171	COVID-19	Disease	MESH:D000086382
+38881861	309	315	deaths	Disease	MESH:D003643
+38881861	512	519	patient	Species	9606
+38881861	733	740	patient	Species	9606
+38881861	848	856	patients	Species	9606
+38881861	884	892	COVID-19	Disease	MESH:D000086382
+38881861	1034	1040	tumors	Disease	MESH:D009369
+38881861	1145	1153	patients	Species	9606
+38881861	1339	1346	patient	Species	9606
+38881861	1510	1518	patients	Species	9606
+38881861	1879	1887	patients	Species	9606
+38881861	2821	2828	patient	Species	9606
+

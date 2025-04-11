@@ -1,0 +1,51 @@
+37781246|t|Molecular landscapes of glioblastoma cell lines revealed a group of patients that do not benefit from WWOX tumor suppressor expression.
+37781246|a|Introduction: Glioblastoma (GBM) is notorious for its clinical and molecular heterogeneity, contributing to therapeutic failure and a grim prognosis. WWOX is one of the tumor suppressor genes important in nervous tissue or related pathologies, which was scarcely investigated in GBM for reliable associations with prognosis or disease progression despite known alterations. Recently, we observed a phenotypic heterogeneity between GBM cell lines (U87MG, T98G, U251MG, DBTRG-05MG), among which the anti-GBM activity of WWOX was generally corresponding, but colony growth and formation were inconsistent in DBTRG-05MG. This prompted us to investigate the molecular landscapes of these cell lines, intending to translate them into the clinical context. Methods: U87MG/T98G/U251MG/DBTRG-05MG were subjected to high-throughput sequencing, and obtained data were explored via weighted gene co-expression network analysis, differential expression analysis, functional annotation, and network building. Following the identification of the most relevant DBTRG-distinguishing driver genes, data from GBM patients were employed for, e.g., differential expression analysis, survival analysis, and principal component analysis. Results: Although most driver genes were unique for each cell line, some were inversely regulated in DBTRG-05MG. Alongside driver genes, the differentially-expressed genes were used to build a WWOX-related network depicting protein-protein interactions in U87MG/T98G/U251MG/DBTRG-05MG. This network revealed processes distinctly regulated in DBTRG-05MG, e.g., microglia proliferation or neurofibrillary tangle assembly. POLE4 and HSF2BP were selected as DBTRG-discriminating driver genes based on the gene significance, module membership, and fold-change. Alongside WWOX, POLE4 and HSF2BP expression was used to stratify patients into cell lines-resembling groups that differed in, e.g., prognosis and treatment response. Some differences from a WWOX-related network were certified in patients, revealing genes that clarify clinical outcomes. Presumably, WWOX overexpression in DBTRG-05MG resulted in expression profile change resembling that of patients with inferior prognosis and drug response. Among these patients, WWOX may be inaccessible for its partners and does not manifest its anti-cancer activity, which was proposed in the literature but not regarding glioblastoma or concerning POLE4 and HSF2BP. Conclusion: Cell lines data enabled the identification of patients among which, despite high expression of WWOX tumor suppressor, no advantageous outcomes were noted due to the cancer-promoting profile ensured by other genes.
+37781246	24	36	glioblastoma	Disease	MESH:D005909
+37781246	102	106	WWOX	Gene	51741
+37781246	107	112	tumor	Disease	MESH:D009369
+37781246	150	162	Glioblastoma	Disease	MESH:D005909
+37781246	164	167	GBM	Disease	MESH:D005909
+37781246	286	290	WWOX	Gene	51741
+37781246	305	310	tumor	Disease	MESH:D009369
+37781246	415	418	GBM	Disease	MESH:D005909
+37781246	567	570	GBM	Disease	MESH:D005909
+37781246	583	588	U87MG	CellLine	CVCL:0022
+37781246	590	594	T98G	CellLine	CVCL:0556
+37781246	596	602	U251MG	CellLine	CVCL:0021
+37781246	604	614	DBTRG-05MG	CellLine	CVCL:1169
+37781246	638	641	GBM	Disease	MESH:D005909
+37781246	654	658	WWOX	Gene	51741
+37781246	741	751	DBTRG-05MG	CellLine	CVCL:1169
+37781246	895	900	U87MG	CellLine	CVCL:0022
+37781246	901	905	T98G	CellLine	CVCL:0556
+37781246	906	912	U251MG	CellLine	CVCL:0021
+37781246	913	923	DBTRG-05MG	CellLine	CVCL:1169
+37781246	1226	1229	GBM	Disease	MESH:D005909
+37781246	1452	1462	DBTRG-05MG	CellLine	CVCL:1169
+37781246	1544	1548	WWOX	Gene	51741
+37781246	1607	1612	U87MG	CellLine	CVCL:0022
+37781246	1613	1617	T98G	CellLine	CVCL:0556
+37781246	1618	1624	U251MG	CellLine	CVCL:0021
+37781246	1625	1635	DBTRG-05MG	CellLine	CVCL:1169
+37781246	1693	1703	DBTRG-05MG	CellLine	CVCL:1169
+37781246	1771	1776	POLE4	Gene	56655
+37781246	1781	1787	HSF2BP	Gene	11077
+37781246	1917	1921	WWOX	Gene	51741
+37781246	1923	1928	POLE4	Gene	56655
+37781246	1933	1939	HSF2BP	Gene	11077
+37781246	2097	2101	WWOX	Gene	51741
+37781246	2206	2210	WWOX	Gene	51741
+37781246	2229	2239	DBTRG-05MG	CellLine	CVCL:1169
+37781246	2371	2375	WWOX	Gene	51741
+37781246	2444	2450	cancer	Disease	MESH:D009369
+37781246	2516	2528	glioblastoma	Disease	MESH:D005909
+37781246	2543	2548	POLE4	Gene	56655
+37781246	2553	2559	HSF2BP	Gene	11077
+37781246	2668	2672	WWOX	Gene	51741
+37781246	2673	2678	tumor	Disease	MESH:D009369
+37781246	2738	2744	cancer	Disease	MESH:D009369
+37781246	Negative_Correlation	MESH:D009369	51741
+37781246	Association	MESH:D005909	51741
+37781246	Association	MESH:D005909	11077
+37781246	Association	MESH:D005909	56655
+

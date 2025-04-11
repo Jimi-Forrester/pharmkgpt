@@ -1,0 +1,49 @@
+34735466|t|Characterizing the distributions of IDO-1 expressing macrophages/microglia in human and murine brains and evaluating the immunological and physiological roles of IDO-1 in RAW264.7/BV-2 cells.
+34735466|a|Indoleamine 2,3-dioxygenase 1 (IDO-1) is an immunosuppressive enzyme expressed in the placenta, neoplastic cells, and macrophages to reject T cells by converting tryptophan into kynurenine. However, the role of IDO-1 in brain immunity, especially in the meninges, is unclear. We aim to elucidate the distribution pattern of IDO-1+ macrophages/microglia in the human brain tissues, human glioblastoma, APP/PS1 mouse brains, and quinolinic acid model brains and explore the physiological and immunological roles of IDO-1+ macrophages/microglia. Here, we find that both human and mouse macrophages/microglia of the perivascular and subarachnoid space and in glioblastoma (GBM) expressed IDO-1 but not macrophages/microglia of parenchyma. Using IDO-1 inhibitors including 1-MT and INCB24360, we observed that inhibiting IDO-1 reduced the cellular size and filopodia growth, fluid uptake, and the macropinocytic and phagocytic abilities of human blood monocytes and RAW264.7/BV-2 cells. Inhibiting IDO-1 with 1-MT or INCB24360 increased IL-1beta secretion and suppressed NLRP3 expression in RAW264.7/BV-2 cells. Our data collectively show that IDO-1 expression in perivascular and meninges macrophages/microglia increases cellular phagocytic capacity and might suppress overactivation of inflammatory reaction.
+34735466	36	41	IDO-1	Gene	3620
+34735466	78	83	human	Species	9606
+34735466	88	94	murine	Species	10090
+34735466	162	167	IDO-1	Gene	15930
+34735466	171	184	RAW264.7/BV-2	CellLine	CVCL:0493
+34735466	192	221	Indoleamine 2,3-dioxygenase 1	Gene	3620
+34735466	223	228	IDO-1	Gene	3620
+34735466	354	364	tryptophan	Chemical	MESH:D014364
+34735466	370	380	kynurenine	Chemical	MESH:D007737
+34735466	403	408	IDO-1	Gene	3620
+34735466	516	521	IDO-1	Gene	3620
+34735466	552	557	human	Species	9606
+34735466	573	578	human	Species	9606
+34735466	579	591	glioblastoma	Disease	MESH:D005909
+34735466	597	600	PS1	Gene	19164
+34735466	601	606	mouse	Species	10090
+34735466	619	634	quinolinic acid	Chemical	MESH:D017378
+34735466	705	710	IDO-1	Gene	3620
+34735466	759	764	human	Species	9606
+34735466	769	774	mouse	Species	10090
+34735466	847	859	glioblastoma	Disease	MESH:D005909
+34735466	861	864	GBM	Disease	MESH:D005909
+34735466	876	881	IDO-1	Gene	3620
+34735466	933	938	IDO-1	Gene	3620
+34735466	960	964	1-MT	Chemical	MESH:C525396
+34735466	969	978	INCB24360	Chemical	-
+34735466	1008	1013	IDO-1	Gene	3620
+34735466	1127	1132	human	Species	9606
+34735466	1153	1166	RAW264.7/BV-2	CellLine	CVCL:0493
+34735466	1185	1190	IDO-1	Gene	3620
+34735466	1196	1200	1-MT	Chemical	MESH:C525396
+34735466	1204	1213	INCB24360	Chemical	-
+34735466	1224	1232	IL-1beta	Gene	16176
+34735466	1258	1263	NLRP3	Gene	216799
+34735466	1278	1291	RAW264.7/BV-2	CellLine	CVCL:0493
+34735466	1331	1336	IDO-1	Gene	3620
+34735466	1475	1487	inflammatory	Disease	MESH:D007249
+34735466	Association	MESH:D007737	MESH:D014364
+34735466	Association	MESH:D005909	3620
+34735466	Positive_Correlation	216799	3620
+34735466	Positive_Correlation	MESH:C525396	16176
+34735466	Negative_Correlation	MESH:C525396	3620
+34735466	Association	MESH:D007737	3620
+34735466	Negative_Correlation	MESH:C525396	216799
+34735466	Negative_Correlation	MESH:D007249	3620
+34735466	Positive_Correlation	16176	3620
+

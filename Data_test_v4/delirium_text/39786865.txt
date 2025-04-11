@@ -1,0 +1,27 @@
+39786865|t|Development and Validation of a Routine Electronic Health Record-Based Delirium Prediction Model for Surgical Patients Without Dementia: Retrospective Case-Control Study.
+39786865|a|BACKGROUND: Postoperative delirium (POD) is a common complication after major surgery and is associated with poor outcomes in older adults. Early identification of patients at high risk of POD can enable targeted prevention efforts. However, existing POD prediction models require inpatient data collected during the hospital stay, which delays predictions and limits scalability. OBJECTIVE: This study aimed to develop and externally validate a machine learning-based prediction model for POD using routine electronic health record (EHR) data. METHODS: We identified all surgical encounters from 2014 to 2021 for patients aged 50 years and older who underwent an operation requiring general anesthesia, with a length of stay of at least 1 day at 3 Indiana hospitals. Patients with preexisting dementia or mild cognitive impairment were excluded. POD was identified using Confusion Assessment Method records and delirium International Classification of Diseases (ICD) codes. Controls without delirium or nurse-documented confusion were matched to cases by age, sex, race, and year of admission. We trained logistic regression, random forest, extreme gradient boosting (XGB), and neural network models to predict POD using 143 features derived from routine EHR data available at the time of hospital admission. Separate models were developed for each hospital using surveillance periods of 3 months, 6 months, and 1 year before admission. Model performance was evaluated using the area under the receiver operating characteristic curve (AUROC). Each model was internally validated using holdout data and externally validated using data from the other 2 hospitals. Calibration was assessed using calibration curves. RESULTS: The study cohort included 7167 delirium cases and 7167 matched controls. XGB outperformed all other classifiers. AUROCs were highest for XGB models trained on 12 months of preadmission data. The best-performing XGB model achieved a mean AUROC of 0.79 (SD 0.01) on the holdout set, which decreased to 0.69-0.74 (SD 0.02) when externally validated on data from other hospitals. CONCLUSIONS: Our routine EHR-based POD prediction models demonstrated good predictive ability using a limited set of preadmission and surgical variables, though their generalizability was limited. The proposed models could be used as a scalable, automated screening tool to identify patients at high risk of POD at the time of hospital admission.
+39786865	71	79	Delirium	Disease	MESH:D003693
+39786865	110	118	Patients	Species	9606
+39786865	127	135	Dementia	Disease	MESH:D003704
+39786865	183	205	Postoperative delirium	Disease	MESH:D000071257
+39786865	207	210	POD	Disease	MESH:D000071257
+39786865	335	343	patients	Species	9606
+39786865	360	363	POD	Disease	MESH:D000071257
+39786865	422	425	POD	Disease	MESH:D000071257
+39786865	661	664	POD	Disease	MESH:D000071257
+39786865	785	793	patients	Species	9606
+39786865	939	947	Patients	Species	9606
+39786865	965	973	dementia	Disease	MESH:D003704
+39786865	982	1002	cognitive impairment	Disease	MESH:D003072
+39786865	1018	1021	POD	Disease	MESH:D000071257
+39786865	1043	1052	Confusion	Disease	MESH:D003221
+39786865	1083	1091	delirium	Disease	MESH:D003693
+39786865	1124	1132	Diseases	Disease	MESH:D004194
+39786865	1163	1171	delirium	Disease	MESH:D003693
+39786865	1192	1201	confusion	Disease	MESH:D003221
+39786865	1383	1386	POD	Disease	MESH:D000071257
+39786865	1925	1933	delirium	Disease	MESH:D003693
+39786865	2305	2308	POD	Disease	MESH:D000071257
+39786865	2553	2561	patients	Species	9606
+39786865	2578	2581	POD	Disease	MESH:D000071257
+

@@ -1,0 +1,16 @@
+27649031|t|Estimating the brain pathological age of Alzheimer's disease patients from MR image data based on the separability distance criterion.
+27649031|a|Traditional age estimation methods are based on the same idea that uses the real age as the training label. However, these methods ignore that there is a deviation between the real age and the brain age due to accelerated brain aging. This paper considers this deviation and searches for it by maximizing the separability distance value rather than by minimizing the difference between the estimated brain age and the real age. Firstly, set the search range of the deviation as the deviation candidates according to prior knowledge. Secondly, use the support vector regression (SVR) as the age estimation model to minimize the difference between the estimated age and the real age plus deviation rather than the real age itself. Thirdly, design the fitness function based on the separability distance criterion. Fourthly, conduct age estimation on the validation dataset using the trained age estimation model, put the estimated age into the fitness function, and obtain the fitness value of the deviation candidate. Fifthly, repeat the iteration until all the deviation candidates are involved and get the optimal deviation with maximum fitness values. The real age plus the optimal deviation is taken as the brain pathological age. The experimental results showed that the separability was apparently improved. For normal control-Alzheimer's disease (NC-AD), normal control-mild cognition impairment (NC-MCI), and MCI-AD, the average improvements were 0.178 (35.11%), 0.033 (14.47%), and 0.017 (39.53%), respectively. For NC-MCI-AD, the average improvement was 0.2287 (64.22%). The estimated brain pathological age could be not only more helpful to the classification of AD but also more precisely reflect accelerated brain aging. In conclusion, this paper offers a new method for brain age estimation that can distinguish different states of AD and can better reflect the extent of accelerated aging.
+27649031	41	60	Alzheimer's disease	Disease	MESH:D000544
+27649031	61	69	patients	Species	9606
+27649031	357	368	brain aging	Disease	MESH:D001927
+27649031	1467	1486	Alzheimer's disease	Disease	MESH:D000544
+27649031	1491	1493	AD	Disease	MESH:D000544
+27649031	1516	1536	cognition impairment	Disease	MESH:D003072
+27649031	1541	1544	MCI	Disease	
+27649031	1551	1554	MCI	Disease	
+27649031	1555	1557	AD	Disease	MESH:D000544
+27649031	1659	1668	NC-MCI-AD	Disease	MESH:D060825
+27649031	1808	1810	AD	Disease	MESH:D000544
+27649031	1855	1866	brain aging	Disease	MESH:D001927
+27649031	1980	1982	AD	Disease	MESH:D000544
+

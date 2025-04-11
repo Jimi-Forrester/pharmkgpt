@@ -1,0 +1,11 @@
+38622164|t|Repurposing non-pharmacological interventions for Alzheimer's disease through link prediction on biomedical literature.
+38622164|a|Non-pharmaceutical interventions (NPI) have great potential to improve cognitive function but limited investigation to discover NPI repurposing for Alzheimer's Disease (AD). This is the first study to develop an innovative framework to extract and represent NPI information from biomedical literature in a knowledge graph (KG), and train link prediction models to repurpose novel NPIs for AD prevention. We constructed a comprehensive KG, called ADInt, by extracting NPI information from biomedical literature. We used the previously-created SuppKG and NPI lexicon to identify NPI entities. Four KG embedding models (i.e., TransE, RotatE, DistMult and ComplEX) and two novel graph convolutional network models (i.e., R-GCN and CompGCN) were trained and compared to learn the representation of ADInt. Models were evaluated and compared on two test sets (time slice and clinical trial ground truth) and the best performing model was used to predict novel NPIs for AD. Discovery patterns were applied to generate mechanistic pathways for high scoring candidates. The ADInt has 162,212 nodes and 1,017,284 edges. R-GCN performed best in time slice (MR = 5.2054, Hits@10 = 0.8496) and clinical trial ground truth (MR = 3.4996, Hits@10 = 0.9192) test sets. After evaluation by domain experts, 10 novel dietary supplements and 10 complementary and integrative health were proposed from the score table calculated by R-GCN. Among proposed novel NPIs, we found plausible mechanistic pathways for photodynamic therapy and Choerospondias axillaris to prevent AD, and validated psychotherapy and manual therapy techniques using real-world data analysis. The proposed framework shows potential for discovering new NPIs for AD prevention and understanding their mechanistic pathways.
+38622164	50	69	Alzheimer's disease	Disease	MESH:D000544
+38622164	268	287	Alzheimer's Disease	Disease	MESH:D000544
+38622164	289	291	AD	Disease	MESH:D000544
+38622164	509	511	AD	Disease	MESH:D000544
+38622164	1082	1084	AD	Disease	MESH:D000544
+38622164	1632	1656	Choerospondias axillaris	Disease	
+38622164	1668	1670	AD	Disease	MESH:D000544
+38622164	1830	1832	AD	Disease	MESH:D000544
+

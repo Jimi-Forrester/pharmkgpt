@@ -1,0 +1,65 @@
+12820876|t|Generation of hydrogen peroxide from mutant forms of the prion protein fragment PrP121-231.
+12820876|a|By means of electron spin resonance spectroscopy, in conjunction with the spin trapping technique, we have shown previously that Abeta and alpha-synuclein (aggregating proteins that accumulate in the brain in Alzheimer's disease, Parkinson's disease, and related disorders) both induce the formation of hydroxyl radicals following incubation in solution, upon addition of Fe(II). These hydroxyl radicals are apparently formed from hydrogen peroxide, via Fenton's reaction. An N-terminally truncated fragment of the mouse prion protein (termed PrP121-231) is toxic to cerebellar cells in culture, and certain human mutations, responsible for inherited prion disease, enhance this toxicity. Here we report that PrP121-231 containing three such mutations (E200K, D178N, and F198S) also generated hydroxyl radicals, upon addition of Fe(II). The formation of these radicals was blocked by catalase, or by metal chelators, each of which also reduced the toxicity of the PrP121-231 fragments to cultured normal mouse cerebellar cells. Wild-type PrP121-231, full-length cellular PrP, and its homologue doppel did not generate any detectable hydroxyl radicals. We conclude that the additional cytotoxic effects of the mutant forms of PrP121-231 could be due to their ability to generate hydrogen peroxide, by a metal-dependent mechanism. Thus, one effect of these (and possibly other) prion mutations could be production of a particularly toxic form of the prion protein, with an enhanced capacity to induce oxidative damage, neurodegeneration, and cell loss.
+12820876	14	31	hydrogen peroxide	Chemical	MESH:D006861
+12820876	57	70	prion protein	Gene	19122
+12820876	221	226	Abeta	Gene	11820
+12820876	231	246	alpha-synuclein	Gene	6622
+12820876	301	320	Alzheimer's disease	Disease	MESH:D000544
+12820876	322	341	Parkinson's disease	Disease	MESH:D010300
+12820876	395	412	hydroxyl radicals	Chemical	MESH:D017665
+12820876	464	470	Fe(II)	Chemical	-
+12820876	478	495	hydroxyl radicals	Chemical	MESH:D017665
+12820876	523	540	hydrogen peroxide	Chemical	MESH:D006861
+12820876	607	612	mouse	Species	10090
+12820876	613	626	prion protein	Gene	19122
+12820876	700	705	human	Species	9606
+12820876	733	756	inherited prion disease	Disease	MESH:D017096
+12820876	771	779	toxicity	Disease	MESH:D064420
+12820876	845	850	E200K	ProteinMutation	tmVar:p|SUB|E|200|K;HGVS:p.E200K;VariantGroup:1;OriginalGene:19122;CorrespondingGene:5621;RS#:28933385;CorrespondingSpecies:10090;CA#:256778
+12820876	852	857	D178N	ProteinMutation	tmVar:p|SUB|D|178|N;HGVS:p.D178N;VariantGroup:0;OriginalGene:12359;CorrespondingGene:847;RS#:529144536;CorrespondingSpecies:10090
+12820876	863	868	F198S	ProteinMutation	tmVar:p|SUB|F|198|S;HGVS:p.F198S;VariantGroup:2;OriginalGene:19122;CorrespondingGene:5621;RS#:74315405;CorrespondingSpecies:10090;CA#:256779
+12820876	885	902	hydroxyl radicals	Chemical	MESH:D017665
+12820876	921	927	Fe(II)	Chemical	-
+12820876	976	984	catalase	Gene	12359
+12820876	992	997	metal	Chemical	MESH:D008670
+12820876	1040	1048	toxicity	Disease	MESH:D064420
+12820876	1096	1101	mouse	Species	10090
+12820876	1163	1166	PrP	Gene	19122
+12820876	1186	1192	doppel	Gene	26434
+12820876	1225	1242	hydroxyl radicals	Chemical	MESH:D017665
+12820876	1276	1285	cytotoxic	Disease	MESH:D064420
+12820876	1370	1387	hydrogen peroxide	Chemical	MESH:D006861
+12820876	1394	1399	metal	Chemical	MESH:D008670
+12820876	1468	1473	prion	Disease	MESH:D017096
+12820876	1540	1553	prion protein	Gene	19122
+12820876	1609	1626	neurodegeneration	Disease	MESH:D019636
+12820876	1637	1641	loss	Disease	MESH:D016388
+12820876	Positive_Correlation	MESH:D017665	RS#:28933385;HGVS:p.E200K;CorrespondingGene:5621
+12820876	Association	MESH:D016388	RS#:28933385;HGVS:p.E200K;CorrespondingGene:5621
+12820876	Positive_Correlation	MESH:D017665	RS#:74315405;HGVS:p.F198S;CorrespondingGene:5621
+12820876	Association	MESH:D000544	11820
+12820876	Positive_Correlation	MESH:D017096	RS#:28933385;HGVS:p.E200K;CorrespondingGene:5621
+12820876	Positive_Correlation	MESH:D019636	RS#:529144536;HGVS:p.D178N;CorrespondingGene:847
+12820876	Association	MESH:D010300	6622
+12820876	Positive_Correlation	MESH:D006861	MESH:D064420
+12820876	Association	MESH:D000544	6622
+12820876	Positive_Correlation	MESH:D017665	RS#:529144536;HGVS:p.D178N;CorrespondingGene:847
+12820876	Positive_Correlation	MESH:D017096	RS#:529144536;HGVS:p.D178N;CorrespondingGene:847
+12820876	Positive_Correlation	MESH:D019636	RS#:28933385;HGVS:p.E200K;CorrespondingGene:5621
+12820876	Association	MESH:D019636	RS#:74315405;HGVS:p.F198S;CorrespondingGene:5621
+12820876	Association	MESH:D008670	MESH:D064420
+12820876	Positive_Correlation	MESH:D006861	MESH:D017665
+12820876	Association	MESH:D016388	19122
+12820876	Association	MESH:D016388	RS#:529144536;HGVS:p.D178N;CorrespondingGene:847
+12820876	Association	MESH:D019636	19122
+12820876	Association	MESH:D006861	MESH:D008670
+12820876	Association	MESH:D006861	19122
+12820876	Positive_Correlation	MESH:D017665	11820
+12820876	Positive_Correlation	MESH:D017665	6622
+12820876	Association	MESH:D016388	5621
+12820876	Association	MESH:D017096	5621
+12820876	Association	MESH:D019636	847
+12820876	Association	MESH:D017096	847
+12820876	Association	MESH:D019636	5621
+12820876	Association	MESH:D016388	847
+

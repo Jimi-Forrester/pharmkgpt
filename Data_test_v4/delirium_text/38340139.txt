@@ -1,0 +1,60 @@
+38340139|t|Causal relationship between inflammatory factors and cerebral small vessel disease: Univariate, multivariate, and summary-data-based mendelian randomization analysis.
+38340139|a|OBJECTIVE: To explore the impact of inflammatory factors on the incidence of cerebral small vessel disease (CSVD), we performed a mendelian randomization (MR) study to analyze the causal relationship between multiple inflammatory factors and CSVD imaging markers and utilized summary-data-based mendelian randomization (SMR) analysis to infer whether the impact of instrumental variables (IVs) on disease is mediated by gene expression or DNA methylation. METHODS: Using public databases such as UKB and IEU, and original genome-wide association studies, we obtained IVs related to exposure (inflammatory factors) and outcome (CSVD imaging markers). We performed the inverse variance weighted, weighted median, and MR-Egger methods to assess causal effects between exposure and outcome in univariate MR analysis. To evaluate their heterogeneity, a series of sensitivity analyses were conducted, including the Cochrane Q test, MR-Egger intercept test, MR-Presso, and leave-one-out analysis. We also applied mediation and multivariate MR analysis to explore the interactions between positive exposures on the same outcome. Additionally, we conducted the SMR, which utilizes instruments within or near relevant genes in blood or brain tissues, to elucidate the causal associations with CSVD markers. RESULTS: ABO Univariate MR of multiple cohorts revealed that the risk of small vessel stroke (SVS) increases with elevated levels of TNF-related apoptosis-inducing ligand (TRAIL, OR, 1.23, 95% CI, 1.08-1.39) and interleukin-1 receptor-like 2, (IL-1RL2, OR, 1.29, 95% CI, 1.04-1.61). IL-18 was a potential risk factor for extensive basal ganglia perivascular space burden (BGPVS, OR, 1.02, 95% CI, 1.00-1.05). Moreover, the risk of extensive white matter perivascular space burden (WMPVS) decreased with rising levels of E-selectin (OR, .98, 95% CI, .97-1.00), IL-1RL2 (OR, .97, 95% CI, .95-1.00), IL-3 receptor subunit alpha (IL-3Ra, OR, .98, 95% CI, .97-1.00), and IL-5 receptor subunit alpha (IL-5Ra, OR, .98, 95% CI, .97-1.00). Mediation and multivariate MR analysis indicated that E-selectin and IL-3Ra might interact during the pathogenesis of WMPVS. SMR estimates showed that TRAIL-related IVs rs5030044 and rs2304456 increased the risk of SVS by increasing the expression of gene Kininogen-1 (KNG1) in the cerebral cortex, particularly in the frontal cortex (betasmr = .10, Psmr = .003, FDR = .04). Instruments (rs507666 and rs2519093) related to E-selectin and IL-3Ra could increase the risk of WMPVS by enhancing DNA methylation of the gene ABO in blood tissue (betasmr = .01-.02, Psmr = .001, FDR = .01-.03). CONCLUSION: According to MR and SMR analysis, higher levels of TRAIL increased the risk of SVS by upregulating gene expression of KNG1 in brain cortex tissues. In addition, protective effects of E-selectin and IL-3a levels on WMPVS were regulated by increased DNA methylation of gene ABO in blood tissue.
+38340139	28	40	inflammatory	Disease	MESH:D007249
+38340139	53	82	cerebral small vessel disease	Disease	MESH:D059345
+38340139	203	215	inflammatory	Disease	MESH:D007249
+38340139	244	273	cerebral small vessel disease	Disease	MESH:D059345
+38340139	275	279	CSVD	Disease	MESH:D059345
+38340139	384	396	inflammatory	Disease	MESH:D007249
+38340139	409	413	CSVD	Disease	MESH:D059345
+38340139	759	771	inflammatory	Disease	MESH:D007249
+38340139	794	798	CSVD	Disease	MESH:D059345
+38340139	1450	1454	CSVD	Disease	MESH:D059345
+38340139	1473	1476	ABO	Gene	28
+38340139	1537	1556	small vessel stroke	Disease	MESH:D059345
+38340139	1558	1561	SVS	Disease	MESH:D059345
+38340139	1636	1641	TRAIL	Gene	8743
+38340139	1676	1705	interleukin-1 receptor-like 2	Gene	8808
+38340139	1708	1715	IL-1RL2	Gene	8808
+38340139	1747	1752	IL-18	Gene	3606
+38340139	1984	1994	E-selectin	Gene	6401
+38340139	2024	2031	IL-1RL2	Gene	8808
+38340139	2061	2088	IL-3 receptor subunit alpha	Gene	3563
+38340139	2090	2096	IL-3Ra	Gene	3563
+38340139	2130	2157	IL-5 receptor subunit alpha	Gene	3568
+38340139	2159	2165	IL-5Ra	Gene	3568
+38340139	2249	2259	E-selectin	Gene	6401
+38340139	2264	2270	IL-3Ra	Gene	3563
+38340139	2346	2351	TRAIL	Gene	8743
+38340139	2364	2373	rs5030044	SNP	tmVar:rs5030044;VariantGroup:1;CorrespondingGene:3827;RS#:5030044;CorrespondingSpecies:9606
+38340139	2378	2387	rs2304456	SNP	tmVar:rs2304456;VariantGroup:0;CorrespondingGene:3827;RS#:2304456;CorrespondingSpecies:9606
+38340139	2410	2413	SVS	Disease	MESH:D059345
+38340139	2451	2462	Kininogen-1	Gene	3827
+38340139	2464	2468	KNG1	Gene	3827
+38340139	2583	2591	rs507666	SNP	tmVar:rs507666;VariantGroup:3;CorrespondingGene:28;RS#:507666;CorrespondingSpecies:9606
+38340139	2596	2605	rs2519093	SNP	tmVar:rs2519093;VariantGroup:2;CorrespondingGene:28;RS#:2519093;CorrespondingSpecies:9606
+38340139	2618	2628	E-selectin	Gene	6401
+38340139	2633	2639	IL-3Ra	Gene	3563
+38340139	2714	2717	ABO	Gene	28
+38340139	2846	2851	TRAIL	Gene	8743
+38340139	2874	2877	SVS	Disease	MESH:D059345
+38340139	2913	2917	KNG1	Gene	3827
+38340139	2978	2988	E-selectin	Gene	6401
+38340139	3067	3070	ABO	Gene	28
+38340139	Association	RS#:5030044;CorrespondingGene:3827	RS#:507666;CorrespondingGene:28
+38340139	Association	RS#:2304456;CorrespondingGene:3827	RS#:2519093;CorrespondingGene:28
+38340139	Association	RS#:2304456;CorrespondingGene:3827	RS#:5030044;CorrespondingGene:3827
+38340139	Association	RS#:2519093;CorrespondingGene:28	RS#:5030044;CorrespondingGene:3827
+38340139	Association	RS#:2304456;CorrespondingGene:3827	RS#:507666;CorrespondingGene:28
+38340139	Association	MESH:D059345	3568
+38340139	Association	3568	3827
+38340139	Association	RS#:2519093;CorrespondingGene:28	RS#:507666;CorrespondingGene:28
+38340139	Association	MESH:D059345	3563
+38340139	Association	MESH:D059345	6401
+38340139	Association	MESH:D059345	3827
+38340139	Association	MESH:D059345	8808
+38340139	Positive_Correlation	MESH:D059345	8743
+38340139	Association	MESH:D007249	3568
+38340139	Association	MESH:D007249	3563
+38340139	Association	MESH:D059345	3606
+

@@ -1,0 +1,18 @@
+35727732|t|Self-Supervised Longitudinal Neighbourhood Embedding.
+35727732|a|Longitudinal MRIs are often used to capture the gradual deterioration of brain structure and function caused by aging or neurological diseases. Analyzing this data via machine learning generally requires a large number of ground-truth labels, which are often missing or expensive to obtain. Reducing the need for labels, we propose a self-supervised strategy for representation learning named Longitudinal Neighborhood Embedding (LNE). Motivated by concepts in contrastive learning, LNE explicitly models the similarity between trajectory vectors across different subjects. We do so by building a graph in each training iteration defining neighborhoods in the latent space so that the progression direction of a subject follows the direction of its neighbors. This results in a smooth trajectory field that captures the global morphological change of the brain while maintaining the local continuity. We apply LNE to longitudinal T1w MRIs of two neuroimaging studies: a dataset composed of 274 healthy subjects, and Alzheimer's Disease Neuroimaging Initiative (ADNI, N = 632). The visualization of the smooth trajectory vector field and superior performance on downstream tasks demonstrate the strength of the proposed method over existing self-supervised methods in extracting information associated with normal aging and in revealing the impact of neurodegenerative disorders. The code is available at https://github.com/ouyangjiahong/longitudinal-neighbourhood-embedding.
+35727732	124	126	of	Disease	
+35727732	133	155	structure and function	Disease	MESH:D020914
+35727732	175	196	neurological diseases	Disease	MESH:D020271
+35727732	273	275	of	Disease	
+35727732	761	763	of	Disease	
+35727732	796	798	of	Disease	
+35727732	902	904	of	Disease	
+35727732	993	995	of	Disease	
+35727732	1041	1043	of	Disease	
+35727732	1070	1089	Alzheimer's Disease	Disease	MESH:D000544
+35727732	1115	1119	ADNI	Disease	MESH:D000544
+35727732	1149	1151	of	Disease	
+35727732	1257	1259	of	Disease	
+35727732	1401	1403	of	Disease	
+35727732	1404	1431	neurodegenerative disorders	Disease	MESH:D019636
+

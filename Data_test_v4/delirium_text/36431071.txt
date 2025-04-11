@@ -1,0 +1,50 @@
+36431071|t|A Polymorphism in the Gene Encoding Heat Shock Factor 1 (HSF1) Increases the Risk of Type 2 Diabetes: A Pilot Study Supports a Role for Impaired Protein Folding in Disease Pathogenesis.
+36431071|a|The aim of this pilot study was to investigate whether polymorphisms in the gene encoding heat shock factor 1 (HSF1), a transcriptional activator of molecular chaperones, play a role in the development of type 2 diabetes (T2D). A total of 3229 unrelated individuals of Slavic origin, including 1569 T2D patients and 1660 age- and sex-matched healthy controls, were enrolled for the study. Five common single nucleotide polymorphisms (SNPs) of the HSF1 gene were genotyped using the MassArray-4 system. SNPs rs7838717 (p = 0.002) and rs3757971 (p = 0.005) showed an association with an increased risk of T2D in females with a body mass index >= 25 kg/m2. The rs7838717T-rs4279640T-rs3757971C and rs7838717T-rs4279640T-rs3757971T haplotypes were associated with increased and decreased disease risk in overweight or obese females, respectively. The associations were replicated as disease susceptibility genes in large cohorts from the UK Biobank (p = 0.008), DIAMANTE (p = 2.7 x 10-13), and DIAGRAM (p = 0.0004) consortiums. The functional annotation of the SNPs revealed that the rs7838717-T and rs3757971C alleles correlated with increased expression of the genes involved in unfolded protein response. The present study showed, for the first time, that genetic variation of HSF1 is associated with the risk of type 2 diabetes, supporting a role for impaired protein folding in disease pathogenesis.
+36431071	36	55	Heat Shock Factor 1	Gene	3297
+36431071	57	61	HSF1	Gene	3297
+36431071	85	100	Type 2 Diabetes	Disease	MESH:D003924
+36431071	276	295	heat shock factor 1	Gene	3297
+36431071	297	301	HSF1	Gene	3297
+36431071	391	406	type 2 diabetes	Disease	MESH:D003924
+36431071	408	411	T2D	Disease	MESH:D003924
+36431071	485	488	T2D	Disease	MESH:D003924
+36431071	489	497	patients	Species	9606
+36431071	633	637	HSF1	Gene	3297
+36431071	693	702	rs7838717	SNP	tmVar:rs7838717;VariantGroup:2;CorrespondingGene:23246;RS#:7838717;CorrespondingSpecies:9606
+36431071	719	728	rs3757971	SNP	tmVar:rs3757971;VariantGroup:0;CorrespondingGene:8694;RS#:3757971;CorrespondingSpecies:9606
+36431071	789	792	T2D	Disease	MESH:D003924
+36431071	844	853	rs7838717	SNP	tmVar:rs7838717;VariantGroup:2;CorrespondingGene:23246;RS#:7838717;CorrespondingSpecies:9606
+36431071	853	855	T-	DNAMutation	tmVar:c|Allele|T|;VariantGroup:3;CorrespondingGene:3297;CorrespondingSpecies:9606
+36431071	855	864	rs4279640	SNP	tmVar:rs4279640;VariantGroup:1;CorrespondingGene:3297;RS#:4279640;CorrespondingSpecies:9606
+36431071	881	890	rs7838717	SNP	tmVar:rs7838717;VariantGroup:2;CorrespondingGene:23246;RS#:7838717;CorrespondingSpecies:9606
+36431071	890	892	T-	DNAMutation	tmVar:c|Allele|T|;VariantGroup:3;CorrespondingGene:3297;CorrespondingSpecies:9606
+36431071	892	901	rs4279640	SNP	tmVar:rs4279640;VariantGroup:1;CorrespondingGene:3297;RS#:4279640;CorrespondingSpecies:9606
+36431071	986	996	overweight	Disease	MESH:D050177
+36431071	1000	1005	obese	Disease	MESH:D009765
+36431071	1266	1275	rs7838717	SNP	tmVar:rs7838717;VariantGroup:2;CorrespondingGene:23246;RS#:7838717;CorrespondingSpecies:9606
+36431071	1282	1291	rs3757971	SNP	tmVar:rs3757971;VariantGroup:0;CorrespondingGene:8694;RS#:3757971;CorrespondingSpecies:9606
+36431071	1462	1466	HSF1	Gene	3297
+36431071	1498	1513	type 2 diabetes	Disease	MESH:D003924
+36431071	Positive_Correlation	MESH:D050177	RS#:4279640;CorrespondingGene:3297
+36431071	Negative_Correlation	CorrespondingGene:3297;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c	MESH:D003924
+36431071	Positive_Correlation	MESH:D003924	RS#:7838717;CorrespondingGene:23246
+36431071	Negative_Correlation	MESH:D050177	RS#:7838717;CorrespondingGene:23246
+36431071	Negative_Correlation	MESH:D003924	RS#:4279640;CorrespondingGene:3297
+36431071	Association	CorrespondingGene:3297;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c	RS#:7838717;CorrespondingGene:23246
+36431071	Positive_Correlation	MESH:D003924	RS#:3757971;CorrespondingGene:8694
+36431071	Negative_Correlation	MESH:D009765	RS#:7838717;CorrespondingGene:23246
+36431071	Association	MESH:D009765	RS#:4279640;CorrespondingGene:3297
+36431071	Association	MESH:D009765	CorrespondingGene:3297;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c
+36431071	Association	CorrespondingGene:3297;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c	MESH:D009765
+36431071	Association	CorrespondingGene:3297;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c	MESH:D050177
+36431071	Association	MESH:D003924	3297
+36431071	Positive_Correlation	MESH:D003924	CorrespondingGene:3297;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c
+36431071	Positive_Correlation	MESH:D050177	CorrespondingGene:3297;CorrespondingSpecies:9606;VariantGroup:3;tmVar:c
+36431071	Association	MESH:D050177	3297
+36431071	Association	MESH:D003924	3297
+36431071	Association	MESH:D003924	23246
+36431071	Association	MESH:D050177	23246
+36431071	Association	MESH:D003924	8694
+36431071	Association	MESH:D009765	23246
+36431071	Association	MESH:D009765	3297
+

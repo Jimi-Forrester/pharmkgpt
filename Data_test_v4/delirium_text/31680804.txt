@@ -1,0 +1,30 @@
+31680804|t|Quantitative Proteomic and Network Analysis of Differentially Expressed Proteins in PBMC of Friedreich's Ataxia (FRDA) Patients.
+31680804|a|Friedreich's ataxia (FRDA) is an autosomal recessive neurodegenerative disorder caused by an expanded (GAA) trinucleotide repeat in the FXN gene. The extended repeats expansion results in reduced transcription and, thereby, decreased expression of the mitochondrial protein, frataxin. Given the ongoing drug trials, identification of reliable and easily accessible biomarkers for monitoring disease progression and therapeutic intervention is a foremost requirement. In this study, comparative proteomic profiling of PBMC proteins from FRDA patients and age- and gender-matched healthy controls was done using 2D-Differential in-Gel Electrophoresis (2D-DIGE). Protein-protein interaction (PPI) was analyzed using BioGRID and STRING pathway analysis tools. Using biological variance analysis (BVA) and LC/MS, we found eight differentially expressed proteins with fold change >=1.5; p <= 0.05. Based on their cellular function, the identified proteins showed a strong pathological role in neuroinflammation, cardiomyopathy, compromised glucose metabolism, and iron transport, which are the major clinical manifestations of FRDA. Protein-protein network analysis of differentially expressed proteins with frataxin further supports their involvement in the pathophysiology of FRDA. Considering their crucial role in the cardiac and neurological complications, respectively, the two down-regulated proteins, actin alpha cardiac muscle 1 (ACTC1) and pyruvate dehydrogenase E1 component subunit beta (PDHE1), are suggested as potential prognostic markers for FRDA.
+31680804	92	111	Friedreich's Ataxia	Disease	MESH:D005621
+31680804	113	117	FRDA	Disease	MESH:D005621
+31680804	119	127	Patients	Species	9606
+31680804	129	148	Friedreich's ataxia	Disease	MESH:D005621
+31680804	150	154	FRDA	Disease	MESH:D005621
+31680804	162	208	autosomal recessive neurodegenerative disorder	Disease	MESH:D020271
+31680804	265	268	FXN	Gene	2395
+31680804	404	412	frataxin	Gene	2395
+31680804	665	669	FRDA	Disease	MESH:D005621
+31680804	670	678	patients	Species	9606
+31680804	1116	1133	neuroinflammation	Disease	MESH:D000090862
+31680804	1135	1149	cardiomyopathy	Disease	MESH:D009202
+31680804	1163	1170	glucose	Chemical	MESH:D005947
+31680804	1187	1191	iron	Chemical	MESH:D007501
+31680804	1250	1254	FRDA	Disease	MESH:D005621
+31680804	1331	1339	frataxin	Gene	2395
+31680804	1401	1405	FRDA	Disease	MESH:D005621
+31680804	1445	1483	cardiac and neurological complications	Disease	MESH:D009422
+31680804	1532	1560	actin alpha cardiac muscle 1	Gene	70
+31680804	1562	1567	ACTC1	Gene	70
+31680804	1681	1685	FRDA	Disease	MESH:D005621
+31680804	Association	MESH:D009422	2395
+31680804	Association	MESH:D005947	MESH:D005621
+31680804	Association	MESH:D007501	MESH:D005621
+31680804	Negative_Correlation	MESH:D005621	70
+31680804	Association	MESH:D009422	70
+31680804	Association	MESH:D005621	2395
+

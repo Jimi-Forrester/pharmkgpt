@@ -1,0 +1,39 @@
+37199269|t|Combination of the gut microbiota and clinical indicators as a potential index for differentiating idiopathic membranous nephropathy and minimal change disease.
+37199269|a|Objectives: Membranous nephropathy (MN) and minimal change disease (MCD) are two common types of nephrotic syndrome that have similar clinical presentations but require different treatment strategies. Currently, the definitive diagnosis for these conditions relies on invasive renal biopsy, which can be limited in clinical practice.Methods: In this study, we aimed to differentiate idiopathic MN (IMN) from MCD using clinical data and gut microbiota. We collected clinical data and stool samples from 115 healthy individuals, 115 IMN, and 45 MCD at the onset of disease and performed 16S rRNA sequencing. Through machine learning methods including random forest, logistic regression, and support vector machine, a classifier to differentiate IMN from MCD was constructed.Results: Baseline clinical data comparing the IMN and MCD groups showed that the MCD had higher levels of hemoglobin, uric acid, cystatin C, beta2-microglobulin, alpha1-microglobulin, total cholesterol, and low-density lipoprotein and lower levels of albumin and CD4+ T-cell counts. The gut microbiota of the two groups differed at all levels of the phylum and genus. Differential gut microbiota may disturb the integrity of the intestinal wall and lead to the passage of inflammatory mediators through the intestinal barrier, causing kidney injury. We constructed a noninvasive classifier with a discrimination efficacy of 0.939 that combined the clinical data and gut microbiota information to identify IMN and MCD.Conclusions: The classifier of the gut microbiota combined with clinical indicators has achieved good performance in identifying IMN and MCD, which provides a new approach for the noninvasive discrimination of different pathological types of kidney disease.
+37199269	99	132	idiopathic membranous nephropathy	Disease	MESH:D015433
+37199269	137	159	minimal change disease	Disease	MESH:D009402
+37199269	173	195	Membranous nephropathy	Disease	MESH:D015433
+37199269	197	199	MN	Disease	MESH:D015433
+37199269	205	227	minimal change disease	Disease	MESH:D009402
+37199269	229	232	MCD	Disease	MESH:D009402
+37199269	258	276	nephrotic syndrome	Disease	MESH:D009404
+37199269	544	557	idiopathic MN	Disease	MESH:D015433
+37199269	559	562	IMN	Disease	MESH:D015433
+37199269	569	572	MCD	Disease	MESH:D009402
+37199269	692	695	IMN	Disease	MESH:D015433
+37199269	704	707	MCD	Disease	MESH:D009402
+37199269	904	907	IMN	Disease	MESH:D015433
+37199269	913	916	MCD	Disease	MESH:D009402
+37199269	979	982	IMN	Disease	MESH:D015433
+37199269	987	990	MCD	Disease	MESH:D009402
+37199269	1014	1017	MCD	Disease	MESH:D009402
+37199269	1051	1060	uric acid	Chemical	MESH:D014527
+37199269	1062	1072	cystatin C	Gene	1471
+37199269	1074	1093	beta2-microglobulin	Gene	3135
+37199269	1123	1134	cholesterol	Chemical	MESH:D002784
+37199269	1184	1191	albumin	Gene	213
+37199269	1196	1199	CD4	Gene	920
+37199269	1405	1417	inflammatory	Disease	MESH:D007249
+37199269	1468	1481	kidney injury	Disease	MESH:D007674
+37199269	1638	1641	IMN	Disease	MESH:D015433
+37199269	1646	1661	MCD.Conclusions	Disease	MESH:D009402
+37199269	1779	1782	IMN	Disease	MESH:D015433
+37199269	1787	1790	MCD	Disease	MESH:D009402
+37199269	1892	1906	kidney disease	Disease	MESH:D007674
+37199269	Positive_Correlation	MESH:D002784	MESH:D009402
+37199269	Negative_Correlation	MESH:D009402	920
+37199269	Positive_Correlation	MESH:D009402	1471
+37199269	Positive_Correlation	MESH:D014527	MESH:D009402
+37199269	Positive_Correlation	MESH:D009402	3135
+37199269	Negative_Correlation	MESH:D009402	213
+

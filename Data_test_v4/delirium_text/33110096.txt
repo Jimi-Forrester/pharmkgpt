@@ -1,0 +1,46 @@
+33110096|t|Structural modeling of GSK3beta implicates the inactive (DFG-out) conformation as the target bound by TDZD analogs.
+33110096|a|Glycogen synthase kinase-3beta (GSK3beta) controls many physiological pathways, and is implicated in many diseases including Alzheimer's and several cancers. GSK3beta-mediated phosphorylation of target residues in microtubule-associated protein tau (MAPTAU) contributes to MAPTAU hyperphosphorylation and subsequent formation of neurofibrillary tangles. Inhibitors of GSK3beta protect against Alzheimer's disease and are therapeutic for several cancers. A thiadiazolidinone drug, TDZD-8, is a non-ATP-competitive inhibitor targeting GSK3beta with demonstrated efficacy against multiple diseases. However, no experimental data or models define the binding mode of TDZD-8 with GSK3beta, which chiefly reflects our lack of an established inactive conformation for this protein. Here, we used metadynamic simulation to predict the three-dimensional structure of the inactive conformation of GSK3beta. Our model predicts that phosphorylation of GSK3beta Serine9 would hasten the DFG-flip to an inactive state. Molecular docking and simulation predict the TDZD-8 binding conformation of GSK3beta to be inactive, and are consistent with biochemical evidence for the TDZD-8-interacting residues of GSK3beta. We also identified the pharmacophore and assessed binding efficacy of second-generation TDZD analogs (TDZD-10 and Tideglusib) that bind GSK3beta as non-ATP-competitive inhibitors. Based on these results, the predicted inactive conformation of GSK3beta can facilitate the identification of novel GSK3beta inhibitors of high potency and specificity.
+33110096	23	31	GSK3beta	Gene	2932
+33110096	57	60	DFG	Chemical	-
+33110096	102	106	TDZD	Chemical	-
+33110096	116	146	Glycogen synthase kinase-3beta	Gene	2932
+33110096	148	156	GSK3beta	Gene	2932
+33110096	241	252	Alzheimer's	Disease	MESH:D000544
+33110096	265	272	cancers	Disease	MESH:D009369
+33110096	274	282	GSK3beta	Gene	2932
+33110096	330	364	microtubule-associated protein tau	Gene	4137
+33110096	366	372	MAPTAU	Gene	4137
+33110096	389	395	MAPTAU	Gene	4137
+33110096	445	468	neurofibrillary tangles	Disease	MESH:D055956
+33110096	484	492	GSK3beta	Gene	2932
+33110096	509	528	Alzheimer's disease	Disease	MESH:D000544
+33110096	561	568	cancers	Disease	MESH:D009369
+33110096	572	589	thiadiazolidinone	Chemical	-
+33110096	596	602	TDZD-8	Chemical	MESH:C494356
+33110096	613	616	ATP	Chemical	MESH:D000255
+33110096	649	657	GSK3beta	Gene	2932
+33110096	779	785	TDZD-8	Chemical	MESH:C494356
+33110096	791	799	GSK3beta	Gene	2932
+33110096	1003	1011	GSK3beta	Gene	2932
+33110096	1056	1064	GSK3beta	Gene	2932
+33110096	1090	1093	DFG	Chemical	-
+33110096	1166	1172	TDZD-8	Chemical	MESH:C494356
+33110096	1197	1205	GSK3beta	Gene	2932
+33110096	1275	1281	TDZD-8	Chemical	MESH:C494356
+33110096	1306	1314	GSK3beta	Gene	2932
+33110096	1404	1408	TDZD	Chemical	-
+33110096	1418	1425	TDZD-10	Chemical	-
+33110096	1430	1440	Tideglusib	Chemical	MESH:C520571
+33110096	1452	1460	GSK3beta	Gene	2932
+33110096	1468	1471	ATP	Chemical	MESH:D000255
+33110096	1559	1567	GSK3beta	Gene	2932
+33110096	1611	1619	GSK3beta	Gene	2932
+33110096	Negative_Correlation	MESH:C494356	2932
+33110096	Association	MESH:D055956	2932
+33110096	Negative_Correlation	MESH:C520571	MESH:D000255
+33110096	Association	MESH:D000544	2932
+33110096	Association	2932	4137
+33110096	Association	MESH:D055956	4137
+33110096	Negative_Correlation	MESH:C520571	2932
+33110096	Association	MESH:D009369	2932
+

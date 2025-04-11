@@ -1,0 +1,37 @@
+35237298|t|A New Prognostic Risk Score: Based on the Analysis of Autophagy-Related Genes and Renal Cell Carcinoma.
+35237298|a|Introduction: Clear cell renal cell carcinoma (ccRCC) patients suffer from its high recurrence and metastasis rate, and a new prognostic risk score to predict individuals with high possibility of recurrence or metastasis is in urgent need. Autophagy has been found to have a dual influence on tumorigenesis. In this study we aim to analyze autophagy related genes (ATGs) and ccRCC patients and find a new prognostic risk score. Method: Analyzing differential expression genes (DEGs) in TCGA-KIRC dataset, and took intersection with ATGs. Through lasso, univariate, and multivariate cox regression, DEGs were chosen, and the coefficients and expression levels of them were components constructing the formula of risk score. We analyzed mRNA expression of DEGs in tumor and normal tissue in ONCOMINE database and TCGA-KIRC dataset. The Human Protein Atlas (HPA) was used to analyze protein levels of DEGs. The protein-protein interaction (PPI) network was examined in STRING and visualized in cytoscape. Functional enrichment analysis was performed in RStudio. To prove the ability and practicibility of risk score, we analyzed univariate and multivariate cox regression, Kaplan-Meier curve (K-M curve), risk factor association diagram, receiver operating characteristic curve (ROC curve) of survival and nomogram, and the performance of nomogram was evaluated by calibration curve. Then we further explored functional enrichment related to risk groups through Gene Set Enrichment Analysis (GSEA), weighted gene co-expression network analysis (WGCNA), and Metascape database. At last, we investigated immune cell infiltration of DEGs and two risk groups through TIMER database and "Cibersort" algorithm. Result: We identified 7 DEGs (BIRC5, CAPS, CLDN7, CLVS1, GMIP, IFI16, and TCIRG1) as components of construction of risk score. All 7 DEGs were differently expressed in ccRCC and normal tissue according to ONCOMINE database and TCGA-KIRC dataset. Functional enrichment analysis indicated DEGs, and their most associated genes were shown to be abundant in autophagy-related pathways and played roles in tumorigenesis and progression processes. A serious analysis proved that this risk score is independent from the risk signature of ccRCC patients. Conclusion: The risk score constructed by 7 DEGs had the ability of predicting prognosis of ccRCC patients and was conducive to the identification of novel prognostic molecular markers. However, further experiment is still needed to verify its ability and practicability.
+35237298	82	102	Renal Cell Carcinoma	Disease	MESH:D002292
+35237298	118	149	Clear cell renal cell carcinoma	Disease	MESH:D002292
+35237298	151	156	ccRCC	Disease	MESH:D002292
+35237298	158	166	patients	Species	9606
+35237298	203	213	metastasis	Disease	MESH:D009362
+35237298	314	324	metastasis	Disease	MESH:D009362
+35237298	397	410	tumorigenesis	Disease	MESH:D063646
+35237298	479	484	ccRCC	Disease	MESH:D002292
+35237298	485	493	patients	Species	9606
+35237298	595	599	KIRC	Disease	
+35237298	866	871	tumor	Disease	MESH:D009369
+35237298	920	924	KIRC	Disease	
+35237298	938	943	Human	Species	9606
+35237298	1836	1841	BIRC5	Gene	332
+35237298	1843	1847	CAPS	Gene	828
+35237298	1849	1854	CLDN7	Gene	1366
+35237298	1856	1861	CLVS1	Gene	157807
+35237298	1863	1867	GMIP	Gene	51291
+35237298	1869	1874	IFI16	Gene	3428
+35237298	1880	1886	TCIRG1	Gene	10312
+35237298	1974	1979	ccRCC	Disease	MESH:D002292
+35237298	2038	2042	KIRC	Disease	
+35237298	2207	2220	tumorigenesis	Disease	MESH:D063646
+35237298	2337	2342	ccRCC	Disease	MESH:D002292
+35237298	2343	2351	patients	Species	9606
+35237298	2445	2450	ccRCC	Disease	MESH:D002292
+35237298	2451	2459	patients	Species	9606
+35237298	Association	MESH:D002292	3428
+35237298	Association	MESH:D002292	51291
+35237298	Association	MESH:D002292	332
+35237298	Association	MESH:D002292	828
+35237298	Association	MESH:D002292	157807
+35237298	Association	MESH:D002292	10312
+35237298	Association	MESH:D002292	1366
+

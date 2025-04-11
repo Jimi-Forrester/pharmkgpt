@@ -1,0 +1,29 @@
+39504053|t|PINK1/Parkin-Mediated Mitophagy Ameliorates Mitochondrial Dysfunction in Lacrimal Gland Acinar Cells During Aging.
+39504053|a|Purpose: Aging alters the function of the lacrimal gland and disrupts the balance of the microenvironment on the ocular surface, eventually leading to aqueous-tear-deficient dry eye. Mitophagy has been reported to play an important role in aging, but the underlying mechanism remains unclear. Methods: The young (6 weeks) and middle-aged (12 months) male C57BL/6J mice were used in this study, and mitophagy agonist rapamycin and inhibitor Mdivi-1 were used in in vivo experiments. Hematoxylin and eosin, Masson, Oil Red O, and reactive oxygen species (ROS) staining were used to detect histological changes and lipids in lacrimal gland. Changes in the expression of proteins were identified by Western blotting of lacrimal gland lysates. Transmission electron microscopy and immunofluorescence staining were used to assess mitophagy. The single-cell RNA sequencing (scRNA-seq) and bioinformatics analyses were used to detect transcription signature changes during aging. Results: In this study, we discovered that aging increased oxidative stress, which increased apoptosis, and generated ROS in acinar epithelial cells. Furthermore, activation of PINK1/Parkin-mediated mitophagy by rapamycin reduced lacrimal gland ROS concentrations and prevented aging-induced apoptosis of acinar cells, thereby causing histological alterations, microstructural degradation, and increasing tear secretion associated with ROS accumulation. By contrast, Mdivi-1 aggregates mitochondrial function and thereafter leads to lacrimal gland function impairment by inhibiting mitochondrial fission and giving rise to mitophagy. Conclusions: Overall, our findings suggested that aging could impair mitochondrial function of acinar cells, and age-related alterations may be treated with therapeutic approaches that enhance mitophagy while maintaining mitochondrial function.
+39504053	0	5	PINK1	Gene	65018
+39504053	6	12	Parkin	Gene	5071
+39504053	44	69	Mitochondrial Dysfunction	Disease	MESH:D028361
+39504053	266	296	aqueous-tear-deficient dry eye	Disease	MESH:D015352
+39504053	470	478	C57BL/6J	CellLine	CVCL:C0MW
+39504053	479	483	mice	Species	10090
+39504053	531	540	rapamycin	Chemical	MESH:D020123
+39504053	597	608	Hematoxylin	Chemical	MESH:D006416
+39504053	628	637	Oil Red O	Chemical	MESH:C011049
+39504053	643	666	reactive oxygen species	Chemical	MESH:D017382
+39504053	668	671	ROS	Chemical	MESH:D017382
+39504053	727	733	lipids	Chemical	MESH:D008055
+39504053	1205	1208	ROS	Chemical	MESH:D017382
+39504053	1264	1269	PINK1	Gene	65018
+39504053	1270	1276	Parkin	Gene	5071
+39504053	1299	1308	rapamycin	Chemical	MESH:D020123
+39504053	1332	1335	ROS	Chemical	MESH:D017382
+39504053	1523	1526	ROS	Chemical	MESH:D017382
+39504053	1620	1654	lacrimal gland function impairment	Disease	MESH:C562407
+39504053	Positive_Correlation	MESH:D020123	65018
+39504053	Association	MESH:D028361	65018
+39504053	Association	MESH:D028361	5071
+39504053	Negative_Correlation	MESH:D017382	MESH:D020123
+39504053	Association	MESH:D017382	5071
+39504053	Positive_Correlation	MESH:D020123	5071
+39504053	Association	MESH:D017382	65018
+

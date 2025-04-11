@@ -1,0 +1,10 @@
+23296188|t|Maximizing power to track Alzheimer's disease and MCI progression by LDA-based weighting of longitudinal ventricular surface features.
+23296188|a|We propose a new method to maximize biomarker efficiency for detecting anatomical change over time in serial MRI. Drug trials using neuroimaging become prohibitively costly if vast numbers of subjects must be assessed, so it is vital to develop efficient measures of brain change. A popular measure of efficiency is the minimal sample size (n80) needed to detect 25% change in a biomarker, with 95% confidence and 80% power. For multivariate measures of brain change, we can directly optimize n80 based on a Linear Discriminant Analysis (LDA). Here we use a supervised learning framework to optimize n80, offering two alternative solutions. With a new medial surface modeling method, we track 3D dynamic changes in the lateral ventricles in 2065 ADNI scans. We apply our LDA-based weighting to the results. Our best average n80-in two-fold nested cross-validation-is 104 MCI subjects (95% CI: [94,139]) for a 1-year drug trial, and 75AD subjects [64,102]. This compares favorably with other MRI analysis methods. The standard "statistical ROI" approach applied to the same ventricular surfaces requires 165 MCI or 94AD subjects. At 2 years, the best LDA measure needs only 67 MCI and 52AD subjects, versus 119 MCI and 80AD subjects for the stat-ROI method. Our surface-based measures are unbiased: they give no artifactual additive atrophy over three time points. Our results suggest that statistical weighting may boost efficiency of drug trials that use brain maps.
+23296188	26	45	Alzheimer's disease	Disease	MESH:D000544
+23296188	50	53	MCI	Disease	
+23296188	1006	1009	MCI	Disease	
+23296188	1242	1245	MCI	Disease	
+23296188	1311	1314	MCI	Disease	
+23296188	1345	1348	MCI	Disease	
+23296188	1467	1474	atrophy	Disease	MESH:D001284
+

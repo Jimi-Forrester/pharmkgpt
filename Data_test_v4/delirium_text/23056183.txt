@@ -1,0 +1,32 @@
+23056183|t|Implementation of a high-throughput screen for identifying small molecules to activate the Keap1-Nrf2-ARE pathway.
+23056183|a|Nuclear factor erythroid 2-related factor 2 (Nrf2) is a transcription factor that induces a battery of cytoprotective genes involved in antioxidant defense through binding to Antioxidant Response Elements (ARE) located in the promoter regions of these genes. To identify Nrf2 activators for the treatment of oxidative/electrophilic stress-induced diseases, the present study developed a high-throughput assay to evaluate Nrf2 activation using AREc32 cells that contain a luciferase gene under the control of ARE promoters. Of the 47,000 compounds screened, 238 (top 0.5% hits) of the chemicals increased the luminescent signal more than 14.4-fold and were re-tested at eleven concentrations in a range of 0.01-30 microM. Of these 238 compounds, 231 (96%) increased the luminescence signal in a concentration-dependent manner. Chemical structure relationship analysis of these 231 compounds indicated enrichment of four chemical scaffolds (diaryl amides and diaryl ureas, oxazoles and thiazoles, pyranones and thiapyranones, and pyridinones and pyridazinones). In addition, 30 of these 231 compounds were highly effective and/or potent in activating Nrf2, with a greater than 80-fold increase in luminescence, or an EC50 lower than 1.6 microM. These top 30 compounds were also screened in Hepa1c1c7 cells for an increase in Nqo1 mRNA, the prototypical Nrf2-target gene. Of these 30 compounds, 17 increased Nqo1 mRNA in a concentration-dependent manner. In conclusion, the present study documents the development, implementation, and validation of a high-throughput screen to identify activators of the Keap1-Nrf2-ARE pathway. Results from this screening identified Nrf2 activators, and provide novel insights into chemical scaffolds that might prevent oxidative/electrophilic stress-induced toxicity and carcinogenesis.
+23056183	91	96	Keap1	Gene	9817
+23056183	97	101	Nrf2	Gene	4780
+23056183	115	158	Nuclear factor erythroid 2-related factor 2	Gene	4780
+23056183	160	164	Nrf2	Gene	4780
+23056183	386	390	Nrf2	Gene	4780
+23056183	536	540	Nrf2	Gene	4780
+23056183	558	564	AREc32	CellLine	CVCL:1D32
+23056183	1054	1067	diaryl amides	Chemical	-
+23056183	1079	1084	ureas	Chemical	MESH:D014508
+23056183	1086	1094	oxazoles	Chemical	MESH:D010080
+23056183	1099	1108	thiazoles	Chemical	MESH:D013844
+23056183	1110	1119	pyranones	Chemical	-
+23056183	1124	1137	thiapyranones	Chemical	-
+23056183	1143	1154	pyridinones	Chemical	MESH:D011728
+23056183	1159	1172	pyridazinones	Chemical	-
+23056183	1264	1268	Nrf2	Gene	4780
+23056183	1403	1412	Hepa1c1c7	CellLine	CVCL:0328
+23056183	1438	1442	Nqo1	Gene	18104
+23056183	1466	1470	Nrf2	Gene	4780
+23056183	1520	1524	Nqo1	Gene	18104
+23056183	1716	1721	Keap1	Gene	9817
+23056183	1722	1726	Nrf2	Gene	4780
+23056183	1779	1783	Nrf2	Gene	4780
+23056183	1905	1913	toxicity	Disease	MESH:D064420
+23056183	1918	1932	carcinogenesis	Disease	MESH:D063646
+23056183	Association	4780	9817
+23056183	Bind	18104	4780
+23056183	Positive_Correlation	MESH:D011728	4780
+23056183	Association	MESH:D063646	4780
+

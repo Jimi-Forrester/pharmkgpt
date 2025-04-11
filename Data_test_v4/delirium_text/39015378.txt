@@ -1,0 +1,22 @@
+39015378|t|Comparison of deep learning architectures for predicting amyloid positivity in Alzheimer's disease, mild cognitive impairment, and healthy aging, from T1-weighted brain structural MRI.
+39015378|a|Abnormal beta-amyloid (Abeta) accumulation in the brain is an early indicator of Alzheimer's disease (AD) and is typically assessed through invasive procedures such as PET (positron emission tomography) or CSF (cerebrospinal fluid) assays. As new anti-Alzheimer's treatments can now successfully target amyloid pathology, there is a growing interest in predicting Abeta positivity (Abeta+) from less invasive, more widely available types of brain scans, such as T1-weighted (T1w) MRI. Here we compare multiple approaches to infer Abeta + from standard anatomical MRI: (1) classical machine learning algorithms, including logistic regression, XGBoost, and shallow artificial neural networks, (2) deep learning models based on 2D and 3D convolutional neural networks (CNNs), (3) a hybrid ANN-CNN, combining the strengths of shallow and deep neural networks, (4) transfer learning models based on CNNs, and (5) 3D Vision Transformers. All models were trained on paired MRI/PET data from 1,847 elderly participants (mean age: 75.1 yrs. +- 7.6SD; 863 females/984 males; 661 healthy controls, 889 with mild cognitive impairment (MCI), and 297 with Dementia), scanned as part of the Alzheimer's Disease Neuroimaging Initiative. We evaluated each model's balanced accuracy and F1 scores. While further tests on more diverse data are warranted, deep learning models trained on standard MRI showed promise for estimating Abeta + status, at least in people with MCI. This may offer a potential screening option before resorting to more invasive procedures.
+39015378	57	64	amyloid	Disease	MESH:C000718787
+39015378	79	98	Alzheimer's disease	Disease	MESH:D000544
+39015378	105	125	cognitive impairment	Disease	MESH:D003072
+39015378	208	213	Abeta	Gene	351
+39015378	266	285	Alzheimer's disease	Disease	MESH:D000544
+39015378	287	289	AD	Disease	MESH:D000544
+39015378	437	448	Alzheimer's	Disease	MESH:D000544
+39015378	488	495	amyloid	Disease	MESH:C000718787
+39015378	549	554	Abeta	Gene	351
+39015378	567	572	Abeta	Gene	351
+39015378	715	722	Abeta +	Gene	351
+39015378	1286	1306	cognitive impairment	Disease	MESH:D003072
+39015378	1308	1311	MCI	Disease	
+39015378	1327	1335	Dementia	Disease	MESH:D003704
+39015378	1361	1380	Alzheimer's Disease	Disease	MESH:D000544
+39015378	1596	1603	Abeta +	Gene	351
+39015378	1636	1639	MCI	Disease	
+39015378	Association	MESH:D000544	351
+39015378	Association	MESH:D003704	351
+

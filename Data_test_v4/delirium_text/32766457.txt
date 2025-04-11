@@ -1,0 +1,23 @@
+32766457|t|Could dementia be detected from UK primary care patients' records by simple automated methods earlier than by the treating physician? A retrospective case-control study.
+32766457|a|Background: Timely diagnosis of dementia is a policy priority in the United Kingdom (UK). Primary care physicians receive incentives to diagnose dementia; however, 33% of patients are still not receiving a diagnosis. We explored automating early detection of dementia using data from patients' electronic health records (EHRs). We investigated: a) how early a machine-learning model could accurately identify dementia before the physician; b) if models could be tuned for dementia subtype; and c) what the best clinical features were for achieving detection. Methods: Using EHRs from Clinical Practice Research Datalink in a case-control design, we selected patients aged >65y with a diagnosis of dementia recorded 2000-2012 (cases) and matched them 1:1 to controls; we also identified subsets of Alzheimer's and vascular dementia patients. Using 77 coded concepts recorded in the 5 years before diagnosis, we trained random forest classifiers, and evaluated models using Area Under the Receiver Operating Characteristic Curve (AUC). We examined models by year prior to diagnosis, subtype, and the most important features contributing to classification. Results: 95,202 patients (median age 83y; 64.8% female) were included (50% dementia cases). Classification of dementia cases and controls was poor 2-5 years prior to physician-recorded diagnosis (AUC range 0.55-0.65) but good in the year before (AUC: 0.84). Features indicating increasing cognitive and physical frailty dominated models 2-5 years before diagnosis; in the final year, initiation of the dementia diagnostic pathway (symptoms, screening and referral) explained the sudden increase in accuracy. No substantial differences were seen between all-cause dementia and subtypes. Conclusions: Automated detection of dementia earlier than the treating physician may be problematic, if using only primary care data. Future work should investigate more complex modelling, benefits of linking multiple sources of healthcare data and monitoring devices, or contextualising the algorithm to those cases that the GP would need to investigate.
+32766457	6	14	dementia	Disease	MESH:D003704
+32766457	48	56	patients	Species	9606
+32766457	202	210	dementia	Disease	MESH:D003704
+32766457	315	323	dementia	Disease	MESH:D003704
+32766457	341	349	patients	Species	9606
+32766457	429	437	dementia	Disease	MESH:D003704
+32766457	454	462	patients	Species	9606
+32766457	579	587	dementia	Disease	MESH:D003704
+32766457	642	650	dementia	Disease	MESH:D003704
+32766457	828	836	patients	Species	9606
+32766457	867	875	dementia	Disease	MESH:D003704
+32766457	967	1000	Alzheimer's and vascular dementia	Disease	MESH:D000544
+32766457	1001	1009	patients	Species	9606
+32766457	1340	1348	patients	Species	9606
+32766457	1399	1407	dementia	Disease	MESH:D003704
+32766457	1434	1442	dementia	Disease	MESH:D003704
+32766457	1613	1622	cognitive	Disease	MESH:D003072
+32766457	1726	1734	dementia	Disease	MESH:D003704
+32766457	1887	1895	dementia	Disease	MESH:D003704
+32766457	1946	1954	dementia	Disease	MESH:D003704
+

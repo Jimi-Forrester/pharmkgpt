@@ -1,0 +1,53 @@
+36082704|t|Resveratrol inhibits development of colorectal adenoma via suppression of LEF1; comprehensive analysis with connectivity map.
+36082704|a|Although many chemopreventive studies on colorectal tumors have been reported, no effective and safe preventive agent is currently available. We searched for candidate preventive compounds against colorectal tumor comprehensively from United States Food and Drug Administration (FDA)-approved compounds by using connectivity map (CMAP) analysis coupled with in vitro screening with colorectal adenoma (CRA) patient-derived organoids (PDOs). We generated CRA-specific gene signatures based on the DNA microarray analysis of CRA and normal epithelial specimens, applied them to CMAP analysis with 1309 FDA-approved compounds, and identified 121 candidate compounds that should cancel the gene signatures. We narrowed them down to 15 compounds, and evaluated their inhibitory effects on the growth of CRA-PDOs in vitro. We finally identified resveratrol, one of the polyphenolic phytochemicals, as a compound showing the strongest inhibitory effect on the growth of CRA-PDOs compared with normal epithelial PDOs. When resveratrol was administered to ApcMin/+ mice at 15 or 30 mg/kg, the number of polyps (adenomas) was significantly reduced in both groups compared with control mice. Similarly, the number of polyps (adenomas) was significantly reduced in azoxymethane-injected rats treated with 10 or 100 mg/resveratrol compared with control rats. Microarray analysis of adenomas from resveratrol-treated rats revealed the highest change (downregulation) in expression of LEF1, a key molecule in the Wnt signaling pathway. Treatment with resveratrol significantly downregulated the Wnt-target gene (MYC) in CRA-PDOs. Our data demonstrated that resveratrol can be the most effective compound for chemoprevention of colorectal tumors, the efficacy of which is mediated through suppression of LEF1 expression in the Wnt signaling pathway.
+36082704	0	11	Resveratrol	Chemical	MESH:D000077185
+36082704	36	54	colorectal adenoma	Disease	MESH:D000236
+36082704	74	78	LEF1	Gene	161452
+36082704	167	184	colorectal tumors	Disease	MESH:D015179
+36082704	323	339	colorectal tumor	Disease	MESH:D015179
+36082704	508	526	colorectal adenoma	Disease	MESH:D000236
+36082704	528	531	CRA	Disease	MESH:D000236
+36082704	533	540	patient	Species	9606
+36082704	580	583	CRA	Disease	MESH:D000236
+36082704	649	652	CRA	Disease	MESH:D000236
+36082704	924	932	CRA-PDOs	CellLine	CVCL:ZV97
+36082704	965	976	resveratrol	Chemical	MESH:D000077185
+36082704	1089	1097	CRA-PDOs	CellLine	CVCL:ZV97
+36082704	1141	1152	resveratrol	Chemical	MESH:D000077185
+36082704	1182	1186	mice	Species	10090
+36082704	1220	1226	polyps	Disease	MESH:D011127
+36082704	1228	1236	adenomas	Disease	MESH:D000236
+36082704	1301	1305	mice	Species	10090
+36082704	1332	1338	polyps	Disease	MESH:D011127
+36082704	1340	1348	adenomas	Disease	MESH:D000236
+36082704	1379	1391	azoxymethane	Chemical	MESH:D001397
+36082704	1401	1405	rats	Species	10116
+36082704	1432	1443	resveratrol	Chemical	MESH:D000077185
+36082704	1466	1470	rats	Species	10116
+36082704	1495	1503	adenomas	Disease	MESH:D000236
+36082704	1509	1520	resveratrol	Chemical	MESH:D000077185
+36082704	1529	1533	rats	Species	10116
+36082704	1596	1600	LEF1	Gene	161452
+36082704	1624	1627	Wnt	Gene	114487
+36082704	1662	1673	resveratrol	Chemical	MESH:D000077185
+36082704	1706	1709	Wnt	Gene	114487
+36082704	1723	1726	MYC	Gene	24577
+36082704	1731	1739	CRA-PDOs	CellLine	CVCL:ZV97
+36082704	1768	1779	resveratrol	Chemical	MESH:D000077185
+36082704	1838	1855	colorectal tumors	Disease	MESH:D015179
+36082704	1914	1918	LEF1	Gene	161452
+36082704	1937	1940	Wnt	Gene	114487
+36082704	Negative_Correlation	MESH:D000077185	MESH:D015179
+36082704	Association	114487	161452
+36082704	Negative_Correlation	MESH:D000077185	MESH:D011127
+36082704	Negative_Correlation	MESH:D000077185	MESH:D000236
+36082704	Association	114487	24577
+36082704	Positive_Correlation	MESH:D001397	MESH:D000236
+36082704	Negative_Correlation	MESH:D000077185	114487
+36082704	Association	MESH:D000236	161452
+36082704	Association	MESH:D015179	114487
+36082704	Negative_Correlation	MESH:D000077185	161452
+36082704	Negative_Correlation	MESH:D000077185	24577
+36082704	Negative_Correlation	MESH:D000077185	MESH:D001397
+36082704	Association	MESH:D000236	114487
+

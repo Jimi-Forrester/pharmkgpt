@@ -1,0 +1,30 @@
+37801482|t|Novel diagnostic biomarkers of oxidative stress, immunological characterization and experimental validation in Alzheimer's disease.
+37801482|a|Alzheimer's disease (AD) is a neurodegenerative condition causing cognitive decline. Oxidative stress (OS) is believed to contribute to neuronal death and dysfunction in AD. We conducted a study to identify differentially expressed OS-related genes (DEOSGs) through bioinformatics analysis and experimental validation, aiming to develop a diagnostic model for AD. We analyzed the GSE33000 dataset to identify OS regulator expression profiles and create molecular clusters (C1 and C2) associated with immune cell infiltration using 310 AD samples. Cluster analysis revealed significant heterogeneity in immune infiltration. The 'WGCNA' algorithm identified cluster-specific and disease-specific differentially expressed genes (DGEs). Four machine learning models (random forest (RF), support vector machine (SVM), generalized linear model (GLM) and extreme gradient boosting (XGB)) were compared, with GLM performing the best (AUC = 0.812). Five DEOSGs (NFKBIA, PLCE1, CLIC1, SLCO4A1, TRAF3IP2) were identified based on the GLM model. AD subtype prediction accuracy was validated using nomograms and calibration curves. External datasets (GSE122063 and GSE106241) confirmed the expression levels and clinical significance of important genes. Experimental validation through RT-qPCR showed increased expression of NFKBIA, CLIC1, SLCO4A1, TRAF3IP2, and decreased expression of PLCE1 in the temporal cortex of AD mice. This study provides insights for AD research and treatment, particularly focusing on the five model-related DEOSGs.
+37801482	111	130	Alzheimer's disease	Disease	MESH:D000544
+37801482	132	151	Alzheimer's disease	Disease	MESH:D000544
+37801482	153	155	AD	Disease	MESH:D000544
+37801482	162	189	neurodegenerative condition	Disease	MESH:D019636
+37801482	198	215	cognitive decline	Disease	MESH:D003072
+37801482	268	298	neuronal death and dysfunction	Disease	MESH:D003643
+37801482	302	304	AD	Disease	MESH:D000544
+37801482	492	494	AD	Disease	MESH:D000544
+37801482	667	669	AD	Disease	MESH:D000544
+37801482	1085	1091	NFKBIA	Gene	18035
+37801482	1093	1098	PLCE1	Gene	74055
+37801482	1100	1105	CLIC1	Gene	114584
+37801482	1107	1114	SLCO4A1	Gene	108115
+37801482	1116	1124	TRAF3IP2	Gene	103213
+37801482	1166	1168	AD	Disease	MESH:D000544
+37801482	1444	1450	NFKBIA	Gene	18035
+37801482	1452	1457	CLIC1	Gene	114584
+37801482	1459	1466	SLCO4A1	Gene	108115
+37801482	1468	1476	TRAF3IP2	Gene	103213
+37801482	1506	1511	PLCE1	Gene	74055
+37801482	1538	1540	AD	Disease	MESH:D000544
+37801482	1580	1582	AD	Disease	MESH:D000544
+37801482	Association	MESH:D000544	114584
+37801482	Association	MESH:D000544	108115
+37801482	Association	MESH:D000544	74055
+37801482	Positive_Correlation	MESH:D000544	18035
+37801482	Association	MESH:D000544	103213
+

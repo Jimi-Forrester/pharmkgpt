@@ -1,0 +1,22 @@
+34881055|t|Structural Predictive Model of Presenilin-2 Protein and Analysis of Structural Effects of Familial Alzheimer's Disease Mutations.
+34881055|a|Alzheimer's disease manifests itself in brain tissue by neuronal death, due to aggregation of beta-amyloid, produced by senile plaques, and hyperphosphorylation of the tau protein, which produces neurofibrillary tangles. One of the genetic markers of the disease is the gene that translates the presenilin-2 protein, which has mutations that favor the appearance of the disease and has no reported crystallographic structure. In view of this, protein modeling is performed using prediction and structural refinement tools followed by an energetic and stereochemical characterization for its validation. For the simulation, four reported mutations are chosen, which are Met239Ile, Met239Val, Ser130Leu, and Thr122Arg, all associated with various functional responses. From a theoretical analysis, a preliminary bioinformatic study is made to find the phosphorylation patterns in the protein and the hydropathic index according to the polarity and chemical environment. Molecular visualization was carried out with the Chimera 1.14 software, and the theoretical calculation with the hybrid quantum mechanics/molecular mechanics system from the semi-empirical method, with Spartan18 software and an AustinModel1 basis. These relationships allow for studying the system from a structural approach with the determination of small distance changes, potential surfaces, electrostatic maps, and angle changes, which favor the comparison between wild-type and mutant systems. With the results obtained, it is expected to complement experimental data reported in the literature from models that would allow us to understand the effects of the selected mutations.
+34881055	31	43	Presenilin-2	Gene	5664
+34881055	90	118	Familial Alzheimer's Disease	Disease	MESH:D000544
+34881055	130	149	Alzheimer's disease	Disease	MESH:D000544
+34881055	186	200	neuronal death	Disease	MESH:D009410
+34881055	298	301	tau	Gene	4137
+34881055	326	349	neurofibrillary tangles	Disease	MESH:D055956
+34881055	425	437	presenilin-2	Gene	5664
+34881055	799	808	Met239Ile	ProteinMutation	tmVar:p|SUB|M|239|I;HGVS:p.M239I;VariantGroup:0;CorrespondingGene:5664;RS#:63749884;CorrespondingSpecies:9606;CA#:224958
+34881055	810	819	Met239Val	ProteinMutation	tmVar:p|SUB|M|239|V;HGVS:p.M239V;VariantGroup:3;CorrespondingGene:5664;RS#:28936379;CorrespondingSpecies:9606;CA#:224957
+34881055	821	830	Ser130Leu	ProteinMutation	tmVar:p|SUB|S|130|L;HGVS:p.S130L;VariantGroup:1;CorrespondingGene:5664;RS#:63750197;CorrespondingSpecies:9606;CA#:224951
+34881055	836	845	Thr122Arg	ProteinMutation	tmVar:p|SUB|T|122|R;HGVS:p.T122R;VariantGroup:2;CorrespondingGene:5664;RS#:28936380;CorrespondingSpecies:9606;CA#:225516
+34881055	Positive_Correlation	MESH:D000544	RS#:63749884;HGVS:p.M239I;CorrespondingGene:5664
+34881055	Positive_Correlation	MESH:D000544	RS#:63750197;HGVS:p.S130L;CorrespondingGene:5664
+34881055	Positive_Correlation	MESH:D000544	RS#:28936380;HGVS:p.T122R;CorrespondingGene:5664
+34881055	Positive_Correlation	MESH:D000544	RS#:28936379;HGVS:p.M239V;CorrespondingGene:5664
+34881055	Association	MESH:D000544	5664
+34881055	Association	MESH:D055956	4137
+34881055	Association	MESH:D000544	4137
+34881055	Association	MESH:D000544	5664
+

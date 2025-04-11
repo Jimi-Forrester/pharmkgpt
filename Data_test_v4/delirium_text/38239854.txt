@@ -1,0 +1,41 @@
+38239854|t|Exploiting in silico structural analysis to introduce emerging genotype-phenotype correlations in DHCR24-related sterol biosynthesis disorder: a case study.
+38239854|a|Desmosterolosis is a rare sterol biosynthesis disorder characterized by multiple congenital anomalies, failure to thrive, severe developmental delay, progressive epileptic encephalopathy, and elevated levels of desmosterol caused by biallelic mutations of DHCR24 encoding 3-beta-hydroxysterol Delta-24-reductase. DHCR24 is regarded as the key enzyme of cholesterol synthesis in the metabolism of brain cholesterol as it catalyzes the reduction of the Delta-24 double bond of sterol intermediates during cholesterol biosynthesis. To date, 15 DHCR24 variants, detected in 2 related and 14 unrelated patients, have been associated with the desmosterolosis disorder. Here, we describe a proband harboring the never-described DHCR24 homozygous missense variant NM_014762.4:c.506T>C, NP_055577.1:p.M169T, whose functional validation was confirmed through biochemical assay. By using molecular dynamics simulation techniques, we investigated the impact of this variant on the protein stability and interaction network with the flavin adenine dinucleotide cofactor, thereby providing a preliminary assessment of its mechanistic role in comparison to all known pathogenic variants, the wild-type protein, and a known benign DHCR24 variant. This report expands the clinical and molecular spectra of the DHCR24-related disorder, reports on a novel DHCR24 deleterious variant associated with desmosterolosis, and gives new insights into genotype-phenotype correlations.
+38239854	98	104	DHCR24	Gene	1718
+38239854	113	141	sterol biosynthesis disorder	Disease	MESH:C537345
+38239854	157	172	Desmosterolosis	Disease	MESH:C566555
+38239854	183	211	sterol biosynthesis disorder	Disease	MESH:C537345
+38239854	238	258	congenital anomalies	Disease	MESH:D000013
+38239854	260	277	failure to thrive	Disease	MESH:D005183
+38239854	286	305	developmental delay	Disease	MESH:D002658
+38239854	319	343	epileptic encephalopathy	Disease	MESH:D001927
+38239854	368	379	desmosterol	Chemical	MESH:D003897
+38239854	413	419	DHCR24	Gene	1718
+38239854	429	468	3-beta-hydroxysterol Delta-24-reductase	Gene	1718
+38239854	470	476	DHCR24	Gene	1718
+38239854	510	521	cholesterol	Chemical	MESH:D002784
+38239854	559	570	cholesterol	Chemical	MESH:D002784
+38239854	632	638	sterol	Chemical	MESH:D013261
+38239854	660	671	cholesterol	Chemical	MESH:D002784
+38239854	698	704	DHCR24	Gene	1718
+38239854	754	762	patients	Species	9606
+38239854	794	818	desmosterolosis disorder	Disease	MESH:C566555
+38239854	878	884	DHCR24	Gene	1718
+38239854	913	924	NM_014762.4	RefSeq	NM_014762.4
+38239854	925	933	c.506T>C	DNAMutation	tmVar:c|SUB|T|506|C;HGVS:c.506T>C;VariantGroup:0;CorrespondingGene:1718;RS#:200580464;CorrespondingSpecies:9606
+38239854	935	946	NP_055577.1	RefSeq	NP_055577.1
+38239854	947	954	p.M169T	ProteinMutation	tmVar:p|SUB|M|169|T;HGVS:p.M169T;VariantGroup:0;CorrespondingGene:1718;RS#:200580464;CorrespondingSpecies:9606
+38239854	1177	1204	flavin adenine dinucleotide	Chemical	MESH:D005182
+38239854	1372	1378	DHCR24	Gene	1718
+38239854	1494	1500	DHCR24	Gene	1718
+38239854	1537	1552	desmosterolosis	Disease	MESH:C566555
+38239854	Positive_Correlation	MESH:C566555	RS#:200580464;HGVS:p.M169T;CorrespondingGene:1718
+38239854	Association	MESH:D002784	RS#:200580464;HGVS:c.506T>C;CorrespondingGene:1718
+38239854	Positive_Correlation	MESH:C566555	RS#:200580464;HGVS:c.506T>C;CorrespondingGene:1718
+38239854	Association	MESH:D002784	1718
+38239854	Association	MESH:D002784	RS#:200580464;HGVS:c.506T>C;CorrespondingGene:1718
+38239854	Association	MESH:C566555	1718
+38239854	Positive_Correlation	RS#:200580464;HGVS:c.506T>C;CorrespondingGene:1718	MESH:C566555
+38239854	Association	MESH:C537345	1718
+38239854	Association	MESH:D002784	RS#:200580464;HGVS:p.M169T;CorrespondingGene:1718
+38239854	Positive_Correlation	MESH:D003897	MESH:C566555
+

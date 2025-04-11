@@ -1,0 +1,31 @@
+39880473|t|Persistent low concentrations of antiepileptics in a critically ill paediatric patient: an example of multiple potential drug interactions.
+39880473|a|A middle childhood boy with epilepsy exhibited persistent low concentrations of valproic acid, lamotrigine and topiramate for over 1 month, primarily due to pharmacokinetic interactions involving fosphenytoin, meropenem and phenobarbital. Awareness of these clinically significant interactions is crucial for ensuring effective seizure control. However, further research is needed to establish optimal evidence-based treatment strategies in complex paediatric cases.
+39880473	53	67	critically ill	Disease	MESH:D016638
+39880473	79	86	patient	Species	9606
+39880473	168	176	epilepsy	Disease	MESH:D004827
+39880473	220	233	valproic acid	Chemical	MESH:D014635
+39880473	235	246	lamotrigine	Chemical	MESH:D000077213
+39880473	251	261	topiramate	Chemical	MESH:D000077236
+39880473	336	348	fosphenytoin	Chemical	MESH:C043114
+39880473	350	359	meropenem	Chemical	MESH:D000077731
+39880473	364	377	phenobarbital	Chemical	MESH:D010634
+39880473	468	475	seizure	Disease	MESH:D012640
+39880473	Association	MESH:C043114	MESH:D000077213
+39880473	Association	MESH:D000077731	MESH:D014635
+39880473	Negative_Correlation	MESH:D014635	MESH:D004827
+39880473	Negative_Correlation	MESH:D000077213	MESH:D004827
+39880473	Negative_Correlation	MESH:D000077236	MESH:D004827
+39880473	Association	MESH:D000077236	MESH:D000077731
+39880473	Association	MESH:D010634	MESH:D014635
+39880473	Negative_Correlation	MESH:D010634	MESH:D004827
+39880473	Negative_Correlation	MESH:D000077731	MESH:D012640
+39880473	Association	MESH:D000077213	MESH:D010634
+39880473	Negative_Correlation	MESH:D000077213	MESH:D012640
+39880473	Association	MESH:D000077236	MESH:D010634
+39880473	Negative_Correlation	MESH:D000077731	MESH:D004827
+39880473	Negative_Correlation	MESH:C043114	MESH:D004827
+39880473	Association	MESH:C043114	MESH:D000077236
+39880473	Negative_Correlation	MESH:D010634	MESH:D012640
+39880473	Association	MESH:C043114	MESH:D014635
+39880473	Association	MESH:D000077213	MESH:D000077731
+

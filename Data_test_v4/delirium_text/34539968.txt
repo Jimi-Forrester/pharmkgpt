@@ -1,0 +1,38 @@
+34539968|t|Screening and Identification of Antidepressant Active Ingredients from Puerariae Radix Extract and Study on Its Mechanism.
+34539968|a|Objective. Depression is a common mental disease with long course and high recurrence rate. Previous studies showed that Puerariae Radix and its extracts have powerful antidepressant effects in recent years. The study proposed an integrated strategy, combining network pharmacology and molecular pharmacology experiment to investigate the mechanisms of the antidepressant active ingredients from Puerariae Radix. Methods. TCMSP database, GeneCards database, Venny 2.1, UniProt database, STRING database, Cytoscape 3.7.2, and Metascape database were used to screen the active chemical components, antidepressant-related genes, and core targets, convert the abbreviated gene names in batch, search and predict the interaction between proteins, and construct the PPI network of Puerariae Radix. KEGG pathway and GO biological process enrichment and biological annotation were used to select antidepressant core gene targets. The MTT method was used to detect the effect of puerarin on the damage of PC12 cells induced by corticosterone. The DCFH-DA probe and ROS assay kit were utilized to detect the production of ROS in PC12 cells. PI/Annexin V was used to detect the apoptotic rate of puerarin on PC12 cells. Western blotting was used to verify the regulation of puerarin on the key targets of AKT1, FOS, CASP3, STAT3, and TNF-alpha in PC12 cells. Results and Conclusion. Eight main active components, 64 potential antidepressant gene targets, and 15 core antidepressant gene targets were obtained. 35 signaling pathways and 52 biological processes related to antidepressant effect of Puerariae Radix were identified. Puerarin was the active ingredient derived from Puerariae Radix which exhibited the antidepression effect by improving the viability of cell, reducing cell apoptosis, regulating ROS production, increasing protein expressions of AKT1 and FOS, and reducing protein expressions of CASP3, STAT3, and TNF-alpha. The study revealed the pharmacodynamic material basis and possible antidepressant mechanism of Puerariae Radix and provided new theoretical basis and ideas for antidepressant research.
+34539968	134	144	Depression	Disease	MESH:D003866
+34539968	157	171	mental disease	Disease	MESH:D008607
+34539968	898	913	Puerariae Radix	Species	
+34539968	1049	1052	MTT	Chemical	MESH:C070243
+34539968	1093	1101	puerarin	Chemical	MESH:C033607
+34539968	1119	1123	PC12	CellLine	CVCL:0481
+34539968	1141	1155	corticosterone	Chemical	MESH:D003345
+34539968	1161	1168	DCFH-DA	Chemical	MESH:C029569
+34539968	1179	1182	ROS	Chemical	-
+34539968	1235	1238	ROS	Chemical	-
+34539968	1242	1246	PC12	CellLine	CVCL:0481
+34539968	1257	1266	Annexin V	Gene	25673
+34539968	1308	1316	puerarin	Chemical	MESH:C033607
+34539968	1320	1324	PC12	CellLine	CVCL:0481
+34539968	1386	1394	puerarin	Chemical	MESH:C033607
+34539968	1417	1421	AKT1	Gene	24185
+34539968	1423	1426	FOS	Gene	314322
+34539968	1428	1433	CASP3	Gene	25402
+34539968	1435	1440	STAT3	Gene	25125
+34539968	1446	1455	TNF-alpha	Gene	24835
+34539968	1459	1463	PC12	CellLine	CVCL:0481
+34539968	1741	1749	Puerarin	Chemical	MESH:C033607
+34539968	1919	1922	ROS	Chemical	-
+34539968	1969	1973	AKT1	Gene	24185
+34539968	1978	1981	FOS	Gene	314322
+34539968	2019	2024	CASP3	Gene	25402
+34539968	2026	2031	STAT3	Gene	25125
+34539968	2037	2046	TNF-alpha	Gene	24835
+34539968	Negative_Correlation	MESH:C033607	MESH:D003345
+34539968	Negative_Correlation	MESH:C033607	25125
+34539968	Positive_Correlation	MESH:C033607	314322
+34539968	Association	MESH:C033607	25673
+34539968	Negative_Correlation	MESH:C033607	25402
+34539968	Negative_Correlation	MESH:C033607	24835
+34539968	Positive_Correlation	MESH:C033607	24185
+

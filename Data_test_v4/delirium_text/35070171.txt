@@ -1,0 +1,10 @@
+35070171|t|Violations of proportional hazard assumption in Cox regression model of transcriptomic data in TCGA pan-cancer cohorts.
+35070171|a|BACKGROUND: Cox proportional hazard regression (CPH) model relies on the proportional hazard (PH) assumption: the hazard of variables is independent of time. CPH has been widely used to identify prognostic markers of the transcriptome. However, the comprehensive investigation on PH assumption in transcriptomic data has lacked. RESULTS: The whole transcriptomic data of the 9,056 patients from 32 cohorts of The Cancer Genome Atlas and the 3 lung cancer cohorts from Gene Expression Omnibus were collected to construct CPH model for each gene separately for fitting the overall survival. An average of 8.5% gene CPH models violated the PH assumption in TCGA pan-cancer cohorts. In the gene interaction networks, both hub and non-hub genes in CPH models were likely to have non-proportional hazards. Violations of PH assumption for the same gene models were not consistent in 5 non-small cell lung cancer datasets (all kappa coefficients < 0.2), indicating that the non-proportionality of gene CPH models depended on the datasets. Furthermore, the introduction of log(t) or sqrt(t) time-functions into CPH improved the performance of gene models on overall survival fitting in most tumors. The time-dependent CPH changed the significance of log hazard ratio of the 31.9% gene variables. CONCLUSIONS: Our analysis resulted that non-proportional hazards should not be ignored in transcriptomic data. Introducing time interaction term ameliorated performance and interpretability of non-proportional hazards of transcriptome data in CPH.
+35070171	104	110	cancer	Disease	MESH:D009369
+35070171	501	509	patients	Species	9606
+35070171	533	539	Cancer	Disease	MESH:D009369
+35070171	563	574	lung cancer	Disease	MESH:D008175
+35070171	783	789	cancer	Disease	MESH:D009369
+35070171	998	1024	non-small cell lung cancer	Disease	MESH:D002289
+35070171	1302	1308	tumors	Disease	MESH:D009369
+

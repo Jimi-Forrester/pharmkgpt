@@ -1,0 +1,12 @@
+35095453|t|Multi-Scale Graph Representation Learning for Autism Identification With Functional MRI.
+35095453|a|Resting-state functional MRI (rs-fMRI) has been widely used for the early diagnosis of autism spectrum disorder (ASD). With rs-fMRI, the functional connectivity networks (FCNs) are usually constructed for representing each subject, with each element representing the pairwise relationship between brain region-of-interests (ROIs). Previous studies often first extract handcrafted network features (such as node degree and clustering coefficient) from FCNs and then construct a prediction model for ASD diagnosis, which largely requires expert knowledge. Graph convolutional networks (GCNs) have recently been employed to jointly perform FCNs feature extraction and ASD identification in a data-driven manner. However, existing studies tend to focus on the single-scale topology of FCNs by using one single atlas for ROI partition, thus ignoring potential complementary topology information of FCNs at different spatial scales. In this paper, we develop a multi-scale graph representation learning (MGRL) framework for rs-fMRI based ASD diagnosis. The MGRL consists of three major components: (1) multi-scale FCNs construction using multiple brain atlases for ROI partition, (2) FCNs representation learning via multi-scale GCNs, and (3) multi-scale feature fusion and classification for ASD diagnosis. The proposed MGRL is evaluated on 184 subjects from the public Autism Brain Imaging Data Exchange (ABIDE) database with rs-fMRI scans. Experimental results suggest the efficacy of our MGRL in FCN feature extraction and ASD identification, compared with several state-of-the-art methods.
+35095453	46	52	Autism	Disease	MESH:D001321
+35095453	176	200	autism spectrum disorder	Disease	MESH:D000067877
+35095453	202	205	ASD	Disease	MESH:D000067877
+35095453	587	590	ASD	Disease	MESH:D000067877
+35095453	754	757	ASD	Disease	MESH:D000067877
+35095453	1121	1124	ASD	Disease	MESH:D000067877
+35095453	1376	1379	ASD	Disease	MESH:D000067877
+35095453	1454	1460	Autism	Disease	MESH:D001321
+35095453	1610	1613	ASD	Disease	MESH:D000067877
+

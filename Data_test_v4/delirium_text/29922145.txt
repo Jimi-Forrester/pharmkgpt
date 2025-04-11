@@ -1,0 +1,20 @@
+29922145|t|Data-Driven Differential Diagnosis of Dementia Using Multiclass Disease State Index Classifier.
+29922145|a|Clinical decision support systems (CDSSs) hold potential for the differential diagnosis of neurodegenerative diseases. We developed a novel CDSS, the PredictND tool, designed for differential diagnosis of different types of dementia. It combines information obtained from multiple diagnostic tests such as neuropsychological tests, MRI and cerebrospinal fluid samples. Here we evaluated how the classifier used in it performs in differentiating between controls with subjective cognitive decline, dementia due to Alzheimer's disease, vascular dementia, frontotemporal lobar degeneration and dementia with Lewy bodies. We used the multiclass Disease State Index classifier, which is the classifier used by the PredictND tool, to differentiate between controls and patients with the four different types of dementia. The multiclass Disease State Index classifier is an extension of a previously developed two-class Disease State Index classifier. As the two-class Disease State Index classifier, the multiclass Disease State Index classifier also offers a visualization of its decision making process, which makes it especially suitable for medical decision support where interpretability of the results is highly important. A subset of the Amsterdam Dementia cohort, consisting of 504 patients (age 65 +- 8 years, 44% females) with data from neuropsychological tests, cerebrospinal fluid samples and both automatic and visual MRI quantifications, was used for the evaluation. The Disease State Index classifier was highly accurate in separating the five classes from each other (balanced accuracy 82.3%). Accuracy was highest for vascular dementia and lowest for dementia with Lewy bodies. For the 50% of patients for which the classifier was most confident on the classification the balanced accuracy was 93.6%. Data-driven CDSSs can be of aid in differential diagnosis in clinical practice. The decision support system tested in this study was highly accurate in separating the different dementias and controls from each other. In addition to the predicted class, it also provides a confidence measure for the classification.
+29922145	38	46	Dementia	Disease	MESH:D003704
+29922145	187	213	neurodegenerative diseases	Disease	MESH:D019636
+29922145	320	328	dementia	Disease	MESH:D003704
+29922145	574	591	cognitive decline	Disease	MESH:D003072
+29922145	593	601	dementia	Disease	MESH:D003704
+29922145	609	628	Alzheimer's disease	Disease	MESH:D000544
+29922145	630	647	vascular dementia	Disease	MESH:D015140
+29922145	649	682	frontotemporal lobar degeneration	Disease	MESH:D057174
+29922145	687	712	dementia with Lewy bodies	Disease	MESH:D020961
+29922145	859	867	patients	Species	9606
+29922145	901	909	dementia	Disease	MESH:D003704
+29922145	1345	1353	Dementia	Disease	MESH:D003704
+29922145	1380	1388	patients	Species	9606
+29922145	1725	1742	vascular dementia	Disease	MESH:D015140
+29922145	1758	1783	dementia with Lewy bodies	Disease	MESH:D020961
+29922145	1800	1808	patients	Species	9606
+29922145	2085	2094	dementias	Disease	MESH:D003704
+

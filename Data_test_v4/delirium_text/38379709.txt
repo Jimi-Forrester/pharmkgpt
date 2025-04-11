@@ -1,0 +1,36 @@
+38379709|t|Association of peripheral B cells and delirium: combined single-cell sequencing and Mendelian randomization analysis.
+38379709|a|Background: Delirium seriously affects the prognosis of patients and greatly reduces the ability to work and live. Peripheral inflammatory events may contribute to the development of delirium, the mechanism of which is still unclear. There is a lack of effective diagnostic and treatments for delirium in clinical practice. The study aims to investigate alterations in peripheral immune cell subsets under inflammatory stress and to explore causal associations with delirium. Methods: Single-cell transcriptional sequencing data of human peripheral blood mononuclear cells (PBMC) before and after lipopolysaccharide (LPS) intervention were processed by the Seurat package in R software. PBMC subsets and cellular markers were defined after downscaling and clustering by the Harmony algorithm to identify characteristic subsets in the context of inflammatory stress. Subsequently, a two-sample Mendelian randomization (MR) study was used to explore the causal associations of these inflammation-related PBMC subsets and their molecular phenotypes with delirium. Based on publicly available genetic data, the study incorporated 70 PBMC-associated immune traits, including 8 types of circulating immune cells, 33 B cell subsets and molecular phenotypes, 13 T cell subsets, and 16 B cell-associated cytokines. The results were also validated for robustness, heterogeneity, and horizontal pleiotropy. Results: Under LPS-induced inflammatory stress, B cells, T cells, monocytes, and dendritic cells in human PBMC showed significant activation and quantitative changes. Of these, only lymphocyte and B cell counts were causally associated with delirium risk. This risk link is also seen in the TNF pathway. Further studies of B cells and their subsets revealed that this association may be related to unswitched memory B cells and CD27 expressed on memory B cells. Annotation of the screened SNPs revealed significant polymorphisms in CD27 and CD40 annotated by rs25680 and rs9883798, respectively. The functions of the key annotated genes may be related to the regulation of immune responses, cell differentiation, proliferation, and intercellular interactions. Conclusion: The present study revealed the potential possibility that B cell, memory B cell subset, and TNF-related molecules may be involved in the development of delirium due to peripheral inflammation, which can provide clues for further investigation of delirium prevention and treatment strategies.
+38379709	38	46	delirium	Disease	MESH:D003693
+38379709	130	138	Delirium	Disease	MESH:D003693
+38379709	174	182	patients	Species	9606
+38379709	244	256	inflammatory	Disease	MESH:D007249
+38379709	301	309	delirium	Disease	MESH:D003693
+38379709	411	419	delirium	Disease	MESH:D003693
+38379709	524	536	inflammatory	Disease	MESH:D007249
+38379709	584	592	delirium	Disease	MESH:D003693
+38379709	650	655	human	Species	9606
+38379709	715	733	lipopolysaccharide	Chemical	MESH:D008070
+38379709	735	738	LPS	Chemical	MESH:D008070
+38379709	963	975	inflammatory	Disease	MESH:D007249
+38379709	1099	1111	inflammation	Disease	MESH:D007249
+38379709	1169	1177	delirium	Disease	MESH:D003693
+38379709	1529	1532	LPS	Chemical	MESH:D008070
+38379709	1541	1553	inflammatory	Disease	MESH:D007249
+38379709	1614	1619	human	Species	9606
+38379709	1755	1763	delirium	Disease	MESH:D003693
+38379709	1805	1808	TNF	Gene	7124
+38379709	1942	1946	CD27	Gene	939
+38379709	2046	2050	CD27	Gene	939
+38379709	2055	2059	CD40	Gene	958
+38379709	2073	2080	rs25680	SNP	tmVar:rs25680;VariantGroup:1;CorrespondingGene:939;RS#:25680;CorrespondingSpecies:9606
+38379709	2085	2094	rs9883798	SNP	tmVar:rs9883798;VariantGroup:0;CorrespondingGene:23180;RS#:9883798;CorrespondingSpecies:9606
+38379709	2378	2381	TNF	Gene	7124
+38379709	2438	2446	delirium	Disease	MESH:D003693
+38379709	2465	2477	inflammation	Disease	MESH:D007249
+38379709	2532	2540	delirium	Disease	MESH:D003693
+38379709	Positive_Correlation	MESH:D003693	RS#:9883798;CorrespondingGene:23180
+38379709	Positive_Correlation	MESH:D003693	RS#:25680;CorrespondingGene:939
+38379709	Positive_Correlation	MESH:D008070	MESH:D007249
+38379709	Association	MESH:D003693	23180
+38379709	Association	MESH:D003693	939
+

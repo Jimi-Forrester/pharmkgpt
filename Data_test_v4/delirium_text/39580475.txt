@@ -1,0 +1,79 @@
+39580475|t|Dysregulated RBM24 phosphorylation impairs APOE translation underlying psychological stress-induced cardiovascular disease.
+39580475|a|Psychological stress contributes to cardiovascular disease (CVD) and sudden cardiac death, yet its molecular basis remains obscure. RNA binding protein RBM24 plays a critical role in cardiac development, rhythm regulation, and cellular stress. Here, we show that psychological stress activates RBM24 S181 phosphorylation through eIF4E2-GSK3beta signaling, which causally links psychological stress to CVD by promoting APOE translation (apolipoprotein E). Using an Rbm24 S181A KI mouse model, we show that impaired S181 phosphorylation leads to cardiac contractile dysfunction, atrial fibrillation, dyslipidemia, reduced muscle strength, behavioral abnormalities, and sudden death under acute and chronic psychological stressors. The impaired S181 phosphorylation of RBM24 inhibits cardiac translation, including APOE translation. Notably, cardiomyocyte-specific expression of APOE rescues cardiac electrophysiological abnormalities and contractile dysfunction, through preventing ROS stress and mitochondrial dysfunction. Moreover, RBM24-S181 phosphorylation acts as a serum marker for chronic stress in human. These results provide a functional link between RBM24 phosphorylation, eIF4E-regulated APOE translation, and psychological-stress-induced CVD.
+39580475	13	18	RBM24	Gene	666794
+39580475	43	47	APOE	Gene	348
+39580475	100	122	cardiovascular disease	Disease	MESH:D002318
+39580475	160	182	cardiovascular disease	Disease	MESH:D002318
+39580475	184	187	CVD	Disease	MESH:D002318
+39580475	193	213	sudden cardiac death	Disease	MESH:D016757
+39580475	256	275	RNA binding protein	Gene	27303
+39580475	276	281	RBM24	Gene	221662
+39580475	418	423	RBM24	Gene	666794
+39580475	424	428	S181	ProteinMutation	tmVar:p|Allele|S|181;VariantGroup:0;OriginalGene:666794;CorrespondingGene:221662;CorrespondingSpecies:10090
+39580475	453	459	eIF4E2	Gene	26987
+39580475	460	468	GSK3beta	Gene	56637
+39580475	525	528	CVD	Disease	MESH:D002318
+39580475	542	546	APOE	Gene	348
+39580475	560	576	apolipoprotein E	Gene	348
+39580475	588	593	Rbm24	Gene	666794
+39580475	594	599	S181A	ProteinMutation	tmVar:p|SUB|S|181|A;HGVS:p.S181A;VariantGroup:0;OriginalGene:666794;CorrespondingGene:221662;CorrespondingSpecies:10090
+39580475	603	608	mouse	Species	10090
+39580475	638	642	S181	ProteinMutation	tmVar:p|Allele|S|181;VariantGroup:0;OriginalGene:666794;CorrespondingGene:221662;CorrespondingSpecies:10090
+39580475	668	699	cardiac contractile dysfunction	Disease	MESH:D006331
+39580475	701	720	atrial fibrillation	Disease	MESH:D001281
+39580475	722	734	dyslipidemia	Disease	MESH:D050171
+39580475	744	750	muscle	Disease	MESH:D019042
+39580475	761	785	behavioral abnormalities	Disease	MESH:D001523
+39580475	791	803	sudden death	Disease	MESH:D003645
+39580475	866	870	S181	ProteinMutation	tmVar:p|Allele|S|181;VariantGroup:0;OriginalGene:666794;CorrespondingGene:221662;CorrespondingSpecies:10090
+39580475	890	895	RBM24	Gene	666794
+39580475	936	940	APOE	Gene	348
+39580475	1000	1004	APOE	Gene	348
+39580475	1013	1055	cardiac electrophysiological abnormalities	Disease	MESH:D018376
+39580475	1060	1083	contractile dysfunction	Disease	MESH:D006331
+39580475	1104	1107	ROS	Chemical	-
+39580475	1119	1144	mitochondrial dysfunction	Disease	MESH:D028361
+39580475	1156	1161	RBM24	Gene	221662
+39580475	1162	1166	S181	ProteinMutation	tmVar:p|Allele|S|181;VariantGroup:0;OriginalGene:666794;CorrespondingGene:221662;CorrespondingSpecies:10090
+39580475	1228	1233	human	Species	9606
+39580475	1283	1288	RBM24	Gene	666794
+39580475	1306	1311	eIF4E	Gene	13684
+39580475	1322	1326	APOE	Gene	348
+39580475	1373	1376	CVD	Disease	MESH:D002318
+39580475	Association	MESH:D050171	HGVS:p.S181A;CorrespondingGene:221662
+39580475	Association	MESH:D006331	HGVS:p.S181A;CorrespondingGene:221662
+39580475	Association	26987	666794
+39580475	Association	MESH:D019042	CorrespondingGene:221662;CorrespondingSpecies:10090;OriginalGene:666794;VariantGroup:0;tmVar:p
+39580475	Association	MESH:D001281	CorrespondingGene:221662;CorrespondingSpecies:10090;OriginalGene:666794;VariantGroup:0;tmVar:p
+39580475	Association	MESH:D050171	CorrespondingGene:221662;CorrespondingSpecies:10090;OriginalGene:666794;VariantGroup:0;tmVar:p
+39580475	Association	MESH:D002318	13684
+39580475	Association	MESH:D001523	HGVS:p.S181A;CorrespondingGene:221662
+39580475	Association	MESH:D001523	CorrespondingGene:221662;CorrespondingSpecies:10090;OriginalGene:666794;VariantGroup:0;tmVar:p
+39580475	Association	MESH:D002318	CorrespondingGene:221662;CorrespondingSpecies:10090;OriginalGene:666794;VariantGroup:0;tmVar:p
+39580475	Association	26987	56637
+39580475	Association	MESH:D002318	666794
+39580475	Association	13684	348
+39580475	Association	MESH:D003645	CorrespondingGene:221662;CorrespondingSpecies:10090;OriginalGene:666794;VariantGroup:0;tmVar:p
+39580475	Negative_Correlation	348	666794
+39580475	Association	MESH:D018376	348
+39580475	Association	56637	666794
+39580475	Association	MESH:D006331	666794
+39580475	Positive_Correlation	348	CorrespondingGene:221662;CorrespondingSpecies:10090;OriginalGene:666794;VariantGroup:0;tmVar:p
+39580475	Association	MESH:D003645	HGVS:p.S181A;CorrespondingGene:221662
+39580475	Association	MESH:D001281	HGVS:p.S181A;CorrespondingGene:221662
+39580475	Association	MESH:D001523	666794
+39580475	Association	MESH:D006331	CorrespondingGene:221662;CorrespondingSpecies:10090;OriginalGene:666794;VariantGroup:0;tmVar:p
+39580475	Association	MESH:D050171	666794
+39580475	Association	MESH:D001281	666794
+39580475	Association	MESH:D006331	348
+39580475	Association	MESH:D002318	348
+39580475	Association	MESH:D028361	348
+39580475	Association	MESH:D003645	666794
+39580475	Association	MESH:D050171	221662
+39580475	Association	MESH:D006331	221662
+39580475	Association	MESH:D019042	221662
+39580475	Association	MESH:D001281	221662
+39580475	Association	MESH:D001523	221662
+39580475	Association	MESH:D002318	221662
+39580475	Association	MESH:D003645	221662
+

@@ -1,0 +1,17 @@
+21158320|t|Feature selection using factor analysis for Alzheimer's diagnosis using 18F-FDG PET images.
+21158320|a|PURPOSE: This article presents a computer-aided diagnosis technique for improving the accuracy of the early diagnosis of Alzheimer's disease (AD). Two hundred and ten 18F-FDG PET images from the ADNI initiative [52 normal controls (NC), 114 mild cognitive impairment (MCI), and 53 AD subjects] are studied. METHODS: The proposed methodology is based on the selection of voxels of interest using the t-test and a posterior reduction of the feature dimension using factor analysis. Factor loadings are used as features for three different classifiers: Two multivariate Gaussian mixture model, with linear and quadratic discriminant function, and a support vector machine with linear kernel. RESULTS: An accuracy rate up to 95% when NC and AD are considered and an accuracy rate up to 88% and 86% for NC-MCI and NC-MCI,AD, respectively, are obtained using SVM with linear kernel. CONCLUSIONS: Results are compared to the voxel-as-features and a PCA- based approach and the proposed methodology achieves better classification performance.
+21158320	44	55	Alzheimer's	Disease	MESH:D000544
+21158320	72	79	18F-FDG	Chemical	MESH:D019788
+21158320	213	232	Alzheimer's disease	Disease	MESH:D000544
+21158320	234	236	AD	Disease	MESH:D000544
+21158320	259	266	18F-FDG	Chemical	MESH:D019788
+21158320	338	358	cognitive impairment	Disease	MESH:D003072
+21158320	360	363	MCI	Disease	MESH:D060825
+21158320	373	375	AD	Disease	MESH:D000544
+21158320	829	831	AD	Disease	MESH:D000544
+21158320	890	896	NC-MCI	Disease	MESH:D060825
+21158320	901	907	NC-MCI	Disease	MESH:D060825
+21158320	908	910	AD	Disease	MESH:D000544
+21158320	Association	MESH:D019788	MESH:D000544
+21158320	Association	MESH:D019788	MESH:D003072
+

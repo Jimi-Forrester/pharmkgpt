@@ -1,0 +1,23 @@
+37303235|t|Aggregation prone Tau impairs mitochondrial import, which affects organelle morphology and neuronal complexity.
+37303235|a|Mitochondrial protein import is essential for organellar biogenesis, and thereby for the sufficient supply of cytosolic ATP-particularly important for cells with high energy demands like neurons. This study explores the prospect of import machinery perturbation as a cause of neurodegeneration instigated by the accumulation of aggregating proteins linked to disease. The aggregation-prone Tau variant (TauP301L) reduces the levels of components of the import machinery of the outer (TOM20) and inner membrane (TIM23) while associating with TOM40. Intriguingly, this interaction affects mitochondrial morphology, but not protein import or respiratory function; raising the prospect of an intrinsic rescue mechanism. Indeed, TauP301L induced the formation of tunnelling nanotubes (TNTs), potentially for the recruitment of healthy mitochondria from neighbouring cells and/or the disposal of mitochondria incapacitated by aggregated Tau. Consistent with this, inhibition of TNT formation (and rescue) reveals Tau-induced import impairment. In primary neuronal cultures, TauP301L induced morphological changes characteristic of neurodegeneration. Interestingly, these effects were mirrored in cells where the import sites were blocked artificially. Our results reveal a link between aggregation-prone Tau and defective mitochondrial import machinery relevant to disease.
+37303235	18	21	Tau	Gene	4137
+37303235	232	235	ATP	Chemical	MESH:D000255
+37303235	388	405	neurodegeneration	Disease	MESH:D019636
+37303235	502	505	Tau	Gene	4137
+37303235	518	523	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+37303235	596	601	TOM20	Gene	9804
+37303235	623	628	TIM23	Gene	100287932
+37303235	653	658	TOM40	Gene	10452
+37303235	839	844	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+37303235	1043	1046	Tau	Gene	4137
+37303235	1084	1087	TNT	Gene	162083
+37303235	1119	1122	Tau	Gene	4137
+37303235	1183	1188	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+37303235	1237	1254	neurodegeneration	Disease	MESH:D019636
+37303235	1410	1413	Tau	Gene	4137
+37303235	Positive_Correlation	MESH:D019636	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+37303235	Negative_Correlation	100287932	4137
+37303235	Association	10452	4137
+37303235	Negative_Correlation	4137	9804
+37303235	Association	MESH:D019636	4137
+

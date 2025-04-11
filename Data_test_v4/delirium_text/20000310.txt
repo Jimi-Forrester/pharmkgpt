@@ -1,0 +1,29 @@
+20000310|t|FPIN's Clinical Inquiries. Aspirin use in children for fever or viral syndromes.
+20000310|a|Aspirin should not be used to treat acute febrile viral illness in children. (Strength of Recommendation [SOR]: C, based on case-control studies). Although no causal link has been proven, data from case-control and historic cohort studies demonstrate an association between aspirin use and Reye syndrome. The risk of Reye syndrome decreases with age, becoming extremely rare by the late teenage years. Other nonsteroidal anti-inflammatory drugs are effective antipyretics and are not associated with the constellation of symptoms seen in Reye syndrome, which includes nausea, vomiting, headache, excitability, delirium, combativeness, and coma. Aspirin use in children younger than 19 years should be limited to diseases in which aspirin has a proven benefit, such as Kawasaki disease and the juvenile arthritides. (SOR: C, based on expert opinion).
+20000310	0	4	FPIN	Disease	
+20000310	27	34	Aspirin	Chemical	MESH:D001241
+20000310	55	60	fever	Disease	MESH:D005334
+20000310	64	79	viral syndromes	Disease	MESH:D014777
+20000310	81	88	Aspirin	Chemical	MESH:D001241
+20000310	117	122	acute	Disease	MESH:D000208
+20000310	123	144	febrile viral illness	Disease	MESH:D014777
+20000310	355	362	aspirin	Chemical	MESH:D001241
+20000310	371	384	Reye syndrome	Disease	MESH:D012202
+20000310	398	411	Reye syndrome	Disease	MESH:D012202
+20000310	619	632	Reye syndrome	Disease	MESH:D012202
+20000310	649	655	nausea	Disease	MESH:D009325
+20000310	657	665	vomiting	Disease	MESH:D014839
+20000310	667	675	headache	Disease	MESH:D006261
+20000310	691	699	delirium	Disease	MESH:D003693
+20000310	720	724	coma	Disease	MESH:D003128
+20000310	726	733	Aspirin	Chemical	MESH:D001241
+20000310	811	818	aspirin	Chemical	MESH:D001241
+20000310	849	865	Kawasaki disease	Disease	MESH:D009080
+20000310	874	894	juvenile arthritides	Disease	MESH:D001168
+20000310	Negative_Correlation	MESH:D001241	MESH:D014777
+20000310	Negative_Correlation	MESH:D001241	MESH:D005334
+20000310	Negative_Correlation	MESH:D001241	MESH:D001168
+20000310	Negative_Correlation	MESH:D001241	MESH:D009080
+20000310	Negative_Correlation	MESH:D001241	MESH:D000208
+20000310	Positive_Correlation	MESH:D001241	MESH:D012202
+

@@ -1,0 +1,14 @@
+32760248|t|A Radiomics Approach to Predicting Parkinson's Disease by Incorporating Whole-Brain Functional Activity and Gray Matter Structure.
+32760248|a|Parkinson's disease (PD) is a progressive, chronic, and neurodegenerative disorder that is primarily diagnosed by clinical examinations and magnetic resonance imaging (MRI). In this study, we proposed a machine learning based radiomics method to predict PD. Fifty healthy controls (HC) along with 70 PD patients underwent resting-state magnetic resonance imaging (rs-fMRI). For all subjects, we extracted five types of 6664 features, including mean amplitude of low-frequency fluctuation (mALFF), mean regional homogeneity (mReHo), resting-state functional connectivity (RSFC), voxel-mirrored homotopic connectivity (VMHC) and gray matter (GM) volume. After conducting dimension reduction utilizing Least absolute shrinkage and selection operator (LASSO), fifty-three radiomic features including 46 RSFCs, 1 mALFF, 3 mReHos, 1 VMHC, 2 GM volumes and 1 clinical factor were retained. The selected features also indicated the most discriminative regions for PD. We further conducted model fitting procedure for classifying subjects in the training set employing random forest and support volume machine (SVM) to evaluate the performance of the two methods. After cross-validation, both methods achieved 100% accuracy and area under curve (AUC) for distinguishing between PD and HC in the training set. In the testing set, SVM performed better than random forest with the accuracy, true positive rate (TPR) and AUC being 85%, 1 and 0.97, respectively. These findings demonstrate the radiomics technique has the potential to support radiological diagnosis and to achieve high classification accuracy for clinical diagnostic systems for patients with PD.
+32760248	35	54	Parkinson's Disease	Disease	MESH:D010300
+32760248	131	150	Parkinson's disease	Disease	MESH:D010300
+32760248	152	154	PD	Disease	MESH:D010300
+32760248	187	213	neurodegenerative disorder	Disease	MESH:D019636
+32760248	385	387	PD	Disease	MESH:D010300
+32760248	431	433	PD	Disease	MESH:D010300
+32760248	434	442	patients	Species	9606
+32760248	1087	1089	PD	Disease	MESH:D010300
+32760248	1400	1402	PD	Disease	MESH:D010300
+32760248	1763	1771	patients	Species	9606
+32760248	1777	1779	PD	Disease	MESH:D010300
+

@@ -1,0 +1,48 @@
+34824300|t|Mechanism of quercetin therapeutic targets for Alzheimer disease and type 2 diabetes mellitus.
+34824300|a|Quercetin has demonstrated antioxidant, anti-inflammatory, hypoglycemic, and hypolipidemic activities, suggesting therapeutic potential against type 2 diabetes mellitus (T2DM) and Alzheimer's disease (AD). In this study, potential molecular targets of quercetin were first identified using the Swiss Target Prediction platform and pathogenic targets of T2DM and AD were identified using online Mendelian inheritance in man (OMIM), DisGeNET, TTD, DrugBank, and GeneCards databases. The 95 targets shared among quercetin, T2DM, and AD were used to establish a protein-protein interaction (PPI) network, top 25 core genes, and protein functional modules using MCODE. Metascape was then used for gene ontology and kyoto encyclopedia of genes and genomes (KEGG) pathway enrichment analysis. A protein functional module with best score was obtained from the PPI network using CytoHubba, and 6 high-probability quercetin targets (AKT1, JUN, MAPK, TNF, VEGFA, and EGFR) were confirmed by docking simulations. Molecular dynamics simulation was carried out according to the molecular docking results. KEGG pathway enrichment analysis suggested that the major shared mechanisms for T2DM and AD include "AGE-RAGE signaling pathway in diabetic complications," "pathways in cancer," and "MAPK signaling pathway" (the key pathway). We speculate that quercetin may have therapeutic applications in T2DM and AD by targeting MAPK signaling, providing a theoretical foundation for future clinical research.
+34824300	13	22	quercetin	Chemical	MESH:D011794
+34824300	47	64	Alzheimer disease	Disease	MESH:D000544
+34824300	69	93	type 2 diabetes mellitus	Disease	MESH:D003924
+34824300	95	104	Quercetin	Chemical	MESH:D011794
+34824300	140	152	inflammatory	Disease	MESH:D007249
+34824300	239	263	type 2 diabetes mellitus	Disease	MESH:D003924
+34824300	265	269	T2DM	Disease	MESH:D003924
+34824300	275	294	Alzheimer's disease	Disease	MESH:D000544
+34824300	296	298	AD	Disease	MESH:D000544
+34824300	347	356	quercetin	Chemical	MESH:D011794
+34824300	448	452	T2DM	Disease	MESH:D003924
+34824300	457	459	AD	Disease	MESH:D000544
+34824300	489	517	Mendelian inheritance in man	Disease	MESH:D030342
+34824300	519	523	OMIM	Disease	MESH:D030342
+34824300	604	613	quercetin	Chemical	MESH:D011794
+34824300	615	619	T2DM	Disease	MESH:D003924
+34824300	625	627	AD	Disease	MESH:D000544
+34824300	999	1008	quercetin	Chemical	MESH:D011794
+34824300	1018	1022	AKT1	Gene	207
+34824300	1035	1038	TNF	Gene	7124
+34824300	1040	1045	VEGFA	Gene	7422
+34824300	1051	1055	EGFR	Gene	1956
+34824300	1266	1270	T2DM	Disease	MESH:D003924
+34824300	1275	1277	AD	Disease	MESH:D000544
+34824300	1287	1290	AGE	Gene	5973
+34824300	1291	1295	RAGE	Gene	5891
+34824300	1317	1339	diabetic complications	Disease	MESH:D048909
+34824300	1355	1361	cancer	Disease	MESH:D009369
+34824300	1430	1439	quercetin	Chemical	MESH:D011794
+34824300	1477	1481	T2DM	Disease	MESH:D003924
+34824300	1486	1488	AD	Disease	MESH:D000544
+34824300	Association	MESH:D011794	207
+34824300	Association	MESH:D011794	7124
+34824300	Association	MESH:D011794	7422
+34824300	Negative_Correlation	MESH:D011794	MESH:D000544
+34824300	Association	MESH:D048909	5973
+34824300	Association	MESH:D000544	5891
+34824300	Negative_Correlation	MESH:D011794	MESH:D007249
+34824300	Association	MESH:D048909	5891
+34824300	Negative_Correlation	MESH:D011794	MESH:D003924
+34824300	Association	MESH:D000544	5973
+34824300	Association	MESH:D011794	1956
+34824300	Association	MESH:D003924	5973
+34824300	Association	5891	5973
+34824300	Association	MESH:D003924	5891
+

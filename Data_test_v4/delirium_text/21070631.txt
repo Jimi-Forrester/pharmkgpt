@@ -1,0 +1,59 @@
+21070631|t|The dopamine beta-hydroxylase -1021C/T polymorphism is associated with the risk of Alzheimer's disease in the Epistasis Project.
+21070631|a|BACKGROUND: The loss of noradrenergic neurones of the locus coeruleus is a major feature of Alzheimer's disease (AD). Dopamine beta-hydroxylase (DBH) catalyses the conversion of dopamine to noradrenaline. Interactions have been reported between the low-activity -1021T allele (rs1611115) of DBH and polymorphisms of the pro-inflammatory cytokine genes, IL1A and IL6, contributing to the risk of AD. We therefore examined the associations with AD of the DBH -1021T allele and of the above interactions in the Epistasis Project, with 1757 cases of AD and 6294 elderly controls. METHODS: We genotyped eight single nucleotide polymorphisms (SNPs) in the three genes, DBH, IL1A and IL6. We used logistic regression models and synergy factor analysis to examine potential interactions and associations with AD. RESULTS: We found that the presence of the -1021T allele was associated with AD: odds ratio = 1.2 (95% confidence interval: 1.06-1.4, p = 0.005). This association was nearly restricted to men < 75 years old: odds ratio = 2.2 (1.4-3.3, 0.0004). We also found an interaction between the presence of DBH -1021T and the -889TT genotype (rs1800587) of IL1A: synergy factor = 1.9 (1.2-3.1, 0.005). All these results were consistent between North Europe and North Spain. CONCLUSIONS: Extensive, previous evidence (reviewed here) indicates an important role for noradrenaline in the control of inflammation in the brain. Thus, the -1021T allele with presumed low activity may be associated with misregulation of inflammation, which could contribute to the onset of AD. We suggest that such misregulation is the predominant mechanism of the association we report here.
+21070631	4	29	dopamine beta-hydroxylase	Gene	1621
+21070631	30	38	-1021C/T	DNAMutation	tmVar:c|SUB|C|-1021|T;HGVS:c.-1021C>T;VariantGroup:0;CorrespondingGene:1621;RS#:1611115;CorrespondingSpecies:9606;CA#:347658
+21070631	83	102	Alzheimer's disease	Disease	MESH:D000544
+21070631	221	240	Alzheimer's disease	Disease	MESH:D000544
+21070631	242	244	AD	Disease	MESH:D000544
+21070631	247	272	Dopamine beta-hydroxylase	Gene	1621
+21070631	274	277	DBH	Gene	1621
+21070631	307	315	dopamine	Chemical	MESH:D004298
+21070631	319	332	noradrenaline	Chemical	MESH:D009638
+21070631	391	397	-1021T	DNAMutation	tmVar:c|Allele|T|-1021;VariantGroup:0;CorrespondingGene:1621;RS#:1611115;CorrespondingSpecies:9606
+21070631	406	415	rs1611115	SNP	tmVar:rs1611115;VariantGroup:0;CorrespondingGene:1621;RS#:1611115;CorrespondingSpecies:9606
+21070631	420	423	DBH	Gene	1621
+21070631	453	465	inflammatory	Disease	MESH:D007249
+21070631	482	486	IL1A	Gene	3552
+21070631	491	494	IL6	Gene	3569
+21070631	524	526	AD	Disease	MESH:D000544
+21070631	572	574	AD	Disease	MESH:D000544
+21070631	582	585	DBH	Gene	1621
+21070631	586	592	-1021T	DNAMutation	tmVar:c|Allele|T|-1021;VariantGroup:0;CorrespondingGene:1621;RS#:1611115;CorrespondingSpecies:9606
+21070631	675	677	AD	Disease	MESH:D000544
+21070631	792	795	DBH	Gene	1621
+21070631	797	801	IL1A	Gene	3552
+21070631	806	809	IL6	Gene	3569
+21070631	930	932	AD	Disease	MESH:D000544
+21070631	977	983	-1021T	DNAMutation	tmVar:c|Allele|T|-1021;VariantGroup:0;CorrespondingGene:1621;RS#:1611115;CorrespondingSpecies:9606
+21070631	1011	1013	AD	Disease	MESH:D000544
+21070631	1122	1125	men	Species	9606
+21070631	1231	1234	DBH	Gene	1621
+21070631	1235	1241	-1021T	DNAMutation	tmVar:c|Allele|T|-1021;VariantGroup:0;CorrespondingGene:1621;RS#:1611115;CorrespondingSpecies:9606
+21070631	1267	1276	rs1800587	SNP	tmVar:rs1800587;VariantGroup:1;CorrespondingGene:3552;RS#:1800587;CorrespondingSpecies:9606
+21070631	1281	1285	IL1A	Gene	3552
+21070631	1488	1501	noradrenaline	Chemical	MESH:D009638
+21070631	1520	1532	inflammation	Disease	MESH:D007249
+21070631	1557	1563	-1021T	DNAMutation	tmVar:c|Allele|T|-1021;VariantGroup:0;CorrespondingGene:1621;RS#:1611115;CorrespondingSpecies:9606
+21070631	1638	1650	inflammation	Disease	MESH:D007249
+21070631	1691	1693	AD	Disease	MESH:D000544
+21070631	Association	MESH:D009638	1621
+21070631	Negative_Correlation	MESH:D009638	MESH:D007249
+21070631	Association	MESH:D000544	3569
+21070631	Association	RS#:1611115;HGVS:c.-1021C>T;CorrespondingGene:1621	MESH:D007249
+21070631	Positive_Correlation	RS#:1611115;CorrespondingGene:1621	MESH:D000544
+21070631	Comparison	MESH:D004298	MESH:D009638
+21070631	Association	MESH:D007249	3569
+21070631	Association	1621	3569
+21070631	Positive_Correlation	RS#:1611115;HGVS:c.-1021C>T;CorrespondingGene:1621	MESH:D000544
+21070631	Association	MESH:D007249	3552
+21070631	Association	MESH:D000544	3552
+21070631	Association	MESH:D004298	1621
+21070631	Association	MESH:D000544	1621
+21070631	Association	1621	3552
+21070631	Association	MESH:D009638	MESH:D000544
+21070631	Positive_Correlation	MESH:D000544	RS#:1611115;CorrespondingGene:1621
+21070631	Association	MESH:D007249	1621
+21070631	Association	RS#:1611115;CorrespondingGene:1621	MESH:D007249
+21070631	Association	MESH:D007249	1621
+21070631	Association	MESH:D000544	1621
+

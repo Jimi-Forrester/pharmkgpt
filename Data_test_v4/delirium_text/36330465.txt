@@ -1,0 +1,31 @@
+36330465|t|The endosomal sorting complex required for transport repairs the membrane to delay cell death.
+36330465|a|The endosomal sorting complex required for transport (ESCRT) machinery plays a key role in the repair of damaged plasma membranes with puncta form and removes pores from the plasma membrane in regulated cell death, apoptosis, necroptosis, pyroptosis, ferroptosis, and autophagy. ESCRT-I overexpression and ESCRT-III-associated charged multivesicular body protein (CHMP) 4B participate in apoptosis, and the ESCRT-1 protein TSG 101 maintains low levels of ALIX and ALG-2 and prevents predisposition to apoptosis. The ESCRT-III components CHMP2A and CHMP4B are recruited to broken membrane bubble sites with the requirement of extracellular Ca2+, remove membrane vesicles from cells, and delay the time required for active MLKL to mediate necroptosis, thus preserving cell survival. CHMP4B disturbed pyroptosis by recruiting around the plasma membrane neck to remove the GSDMD pores and preserve plasma membrane integrity depending on Ca2+ influx. The accumulation of the ESCRT-III subunits CHMP5 and CHMP6 in the plasma membrane is increased by the classical ferroptosis activators erastin-1 and ras-selective lethal small molecule 3 (RSL3) upon cytosolic calcium influx and repairs the ferroptotic plasma membrane. ESCRT-III- and VPS4-induced macroautophagy, ESCRT-0-initiated microautophagy. ESCRT-I, ESCRT-II, ESCRT-III, ALIX, and VPS4A are recruited to damaged lysosomes and precede lysophagy, indicating that ESCRT is a potential target to overcome drug resistance during tumor therapy.
+36330465	334	344	pyroptosis	Disease	
+36330465	518	525	TSG 101	Gene	7251
+36330465	550	554	ALIX	Gene	10015
+36330465	559	564	ALG-2	Gene	85365
+36330465	632	638	CHMP2A	Gene	27243
+36330465	643	649	CHMP4B	Gene	128866
+36330465	734	738	Ca2+	Chemical	-
+36330465	816	820	MLKL	Gene	197259
+36330465	876	882	CHMP4B	Gene	128866
+36330465	893	903	pyroptosis	Disease	
+36330465	964	969	GSDMD	Disease	
+36330465	1028	1032	Ca2+	Chemical	-
+36330465	1084	1089	CHMP5	Gene	51510
+36330465	1094	1099	CHMP6	Gene	79643
+36330465	1190	1227	ras-selective lethal small molecule 3	Chemical	-
+36330465	1229	1233	RSL3	Chemical	-
+36330465	1250	1257	calcium	Chemical	MESH:D002118
+36330465	1325	1329	VPS4	Gene	27183
+36330465	1418	1422	ALIX	Gene	10015
+36330465	1428	1433	VPS4A	Gene	27183
+36330465	1571	1576	tumor	Disease	MESH:D009369
+36330465	Negative_Correlation	128866	197259
+36330465	Positive_Correlation	MESH:D002118	51510
+36330465	Positive_Correlation	MESH:D002118	79643
+36330465	Association	MESH:D009369	27183
+36330465	Negative_Correlation	7251	85365
+36330465	Association	197259	27243
+36330465	Negative_Correlation	10015	7251
+

@@ -1,0 +1,14 @@
+38238677|t|A machine learning-based prediction model for postoperative delirium in cardiac valve surgery using electronic health records.
+38238677|a|BACKGROUND: Previous models for predicting delirium after cardiac surgery remained inadequate. This study aimed to develop and validate a machine learning-based prediction model for postoperative delirium (POD) in cardiac valve surgery patients. METHODS: The electronic medical information of the cardiac surgical intensive care unit (CSICU) was extracted from a tertiary and major referral hospital in southern China over 1 year, from June 2019 to June 2020. A total of 507 patients admitted to the CSICU after cardiac valve surgery were included in this study. Seven classical machine learning algorithms (Random Forest Classifier, Logistic Regression, Support Vector Machine Classifier, K-nearest Neighbors Classifier, Gaussian Naive Bayes, Gradient Boosting Decision Tree, and Perceptron.) were used to develop delirium prediction models under full (q = 31) and selected (q = 19) feature sets, respectively. RESULT: The Random Forest classifier performs exceptionally well in both feature datasets, with an Area Under the Curve (AUC) of 0.92 for the full feature dataset and an AUC of 0.86 for the selected feature dataset. Additionally, it achieves a relatively lower Expected Calibration Error (ECE) and the highest Average Precision (AP), with an AP of 0.80 for the full feature dataset and an AP of 0.73 for the selected feature dataset. To further evaluate the best-performing Random Forest classifier, SHAP (Shapley Additive Explanations) was used, and the importance matrix plot, scatter plots, and summary plots were generated. CONCLUSIONS: We established machine learning-based prediction models to predict POD in patients undergoing cardiac valve surgery. The random forest model has the best predictive performance in prediction and can help improve the prognosis of patients with POD.
+38238677	46	68	postoperative delirium	Disease	MESH:D000071257
+38238677	170	178	delirium	Disease	MESH:D003693
+38238677	309	331	postoperative delirium	Disease	MESH:D000071257
+38238677	333	336	POD	Disease	MESH:D000071257
+38238677	363	371	patients	Species	9606
+38238677	602	610	patients	Species	9606
+38238677	942	950	delirium	Disease	MESH:D003693
+38238677	1747	1750	POD	Disease	MESH:D000071257
+38238677	1754	1762	patients	Species	9606
+38238677	1909	1917	patients	Species	9606
+38238677	1923	1926	POD	Disease	MESH:D000071257
+

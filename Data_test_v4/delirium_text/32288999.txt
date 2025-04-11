@@ -1,0 +1,19 @@
+32288999|t|Hospitalized Patients with Acute Pneumonia.
+32288999|a|Pneumonia is one of the leading causes of mortality and hospitalization among US adults. The decision to admit patients from the emergency department is a major one because of its impact on patients and the hospital. The diagnosis of pneumonia is often clinical and based on symptoms and signs combined with radiographic findings. There are multiple severity assessments available that can guide treatment, prognosis, and disposition. Viruses are an important cause of pneumonia and require early recognition and treatment. The recommended treatment for community-acquired pneumonia includes a beta lactam plus a macrolide or a respiratory fluoroquinolone.
+32288999	13	21	Patients	Species	9606
+32288999	33	42	Pneumonia	Disease	MESH:D011014
+32288999	44	53	Pneumonia	Disease	MESH:D011014
+32288999	155	163	patients	Species	9606
+32288999	234	242	patients	Species	9606
+32288999	278	287	pneumonia	Disease	MESH:D011014
+32288999	513	522	pneumonia	Disease	MESH:D011014
+32288999	617	626	pneumonia	Disease	MESH:D011014
+32288999	638	649	beta lactam	Chemical	MESH:D047090
+32288999	657	666	macrolide	Chemical	MESH:D018942
+32288999	684	699	fluoroquinolone	Chemical	MESH:D024841
+32288999	Negative_Correlation	MESH:D018942	MESH:D011014
+32288999	Cotreatment	MESH:D024841	MESH:D047090
+32288999	Negative_Correlation	MESH:D047090	MESH:D011014
+32288999	Cotreatment	MESH:D018942	MESH:D047090
+32288999	Negative_Correlation	MESH:D024841	MESH:D011014
+

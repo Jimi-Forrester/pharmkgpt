@@ -1,0 +1,50 @@
+36918909|t|Mechanism of action deconvolution of the small-molecule pathological tau aggregation inhibitor Anle138b.
+36918909|a|BACKGROUND: A key histopathological hallmark of Alzheimer's disease (AD) is the presence of neurofibrillary tangles of aggregated microtubule-associated protein tau in neurons. Anle138b is a small molecule which has previously shown efficacy in mice in reducing tau aggregates and rescuing AD disease phenotypes. METHODS: In this work, we employed bioinformatics analysis-including pathway enrichment and causal reasoning-of an in vitro tauopathy model. The model consisted of cultured rat cortical neurons either unseeded or seeded with tau aggregates derived from human AD patients, both of which were treated with Anle138b to generate hypotheses for its mode of action. In parallel, we used a collection of human target prediction models to predict direct targets of Anle138b based on its chemical structure. RESULTS: Combining the different approaches, we found evidence supporting the hypothesis that the action of Anle138b involves several processes which are key to AD progression, including cholesterol homeostasis and neuroinflammation. On the pathway level, we found significantly enriched pathways related to these two processes including those entitled "Superpathway of cholesterol biosynthesis" and "Granulocyte adhesion and diapedesis". With causal reasoning, we inferred differential activity of SREBF1/2 (involved in cholesterol regulation) and mediators of the inflammatory response such as NFKB1 and RELA. Notably, our findings were also observed in Anle138b-treated unseeded neurons, meaning that the inferred processes are independent of tau pathology and thus represent the direct action of the compound in the cellular system. Through structure-based ligand-target prediction, we predicted the intracellular cholesterol carrier NPC1 as well as NF-kappaB subunits as potential targets of Anle138b, with structurally similar compounds in the model training set known to target the same proteins. CONCLUSIONS: This study has generated feasible hypotheses for the potential mechanism of action of Anle138b, which will enable the development of future molecular interventions aiming to reduce tau pathology in AD patients.
+36918909	56	84	pathological tau aggregation	Disease	MESH:C536599
+36918909	95	103	Anle138b	Chemical	MESH:C000593290
+36918909	153	172	Alzheimer's disease	Disease	MESH:D000544
+36918909	174	176	AD	Disease	MESH:D000544
+36918909	197	220	neurofibrillary tangles	Disease	MESH:D055956
+36918909	235	265	microtubule-associated protein	Gene	51115
+36918909	266	269	tau	Gene	4137
+36918909	282	290	Anle138b	Chemical	MESH:C000593290
+36918909	350	354	mice	Species	10090
+36918909	367	370	tau	Gene	4137
+36918909	395	405	AD disease	Disease	MESH:D000544
+36918909	542	551	tauopathy	Disease	MESH:D024801
+36918909	591	594	rat	Species	10116
+36918909	643	646	tau	Gene	4137
+36918909	671	676	human	Species	9606
+36918909	677	679	AD	Disease	MESH:D000544
+36918909	680	688	patients	Species	9606
+36918909	722	730	Anle138b	Chemical	MESH:C000593290
+36918909	815	820	human	Species	9606
+36918909	1078	1080	AD	Disease	MESH:D000544
+36918909	1104	1115	cholesterol	Chemical	MESH:D002784
+36918909	1132	1149	neuroinflammation	Disease	MESH:D000090862
+36918909	1287	1298	cholesterol	Chemical	MESH:D002784
+36918909	1416	1424	SREBF1/2	Gene	78968;300095
+36918909	1438	1449	cholesterol	Chemical	MESH:D002784
+36918909	1483	1495	inflammatory	Disease	MESH:D007249
+36918909	1513	1518	NFKB1	Gene	4790
+36918909	1523	1527	RELA	Gene	5970
+36918909	1573	1581	Anle138b	Chemical	MESH:C000593290
+36918909	1663	1666	tau	Gene	4137
+36918909	1835	1846	cholesterol	Chemical	MESH:D002784
+36918909	1855	1859	NPC1	Gene	4864
+36918909	1871	1880	NF-kappaB	Gene	4790
+36918909	2215	2218	tau	Gene	4137
+36918909	2232	2234	AD	Disease	MESH:D000544
+36918909	2235	2243	patients	Species	9606
+36918909	Association	MESH:D000544	51115
+36918909	Negative_Correlation	MESH:C000593290	MESH:D000544
+36918909	Association	MESH:D055956	51115
+36918909	Association	MESH:D055956	4137
+36918909	Negative_Correlation	MESH:C000593290	4137
+36918909	Association	MESH:D007249	4790
+36918909	Association	MESH:D000544	4137
+36918909	Negative_Correlation	MESH:C000593290	MESH:C536599
+36918909	Association	MESH:D002784	300095
+36918909	Association	MESH:D002784	78968
+36918909	Association	MESH:D007249	5970
+

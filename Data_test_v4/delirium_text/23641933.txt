@@ -1,0 +1,67 @@
+23641933|t|Plasma metabolomics identifies lipid abnormalities linked to markers of inflammation, microbial translocation, and hepatic function in HIV patients receiving protease inhibitors.
+23641933|a|BACKGROUND: Metabolic abnormalities are common in HIV-infected individuals on antiretroviral therapy (ART), but the biochemical details and underlying mechanisms of these disorders have not been defined. METHODS: Untargeted metabolomic profiling of plasma was performed for 32 HIV patients with low nadir CD4 counts (<300 cells/ul) on protease inhibitor (PI)-based ART and 20 healthy controls using liquid or gas chromatography and mass spectrometry. Effects of Hepatitis C (HCV) co-infection and relationships between altered lipid metabolites and markers of inflammation, microbial translocation, and hepatic function were examined. Unsupervised hierarchical clustering, principal component analysis (PCA), partial least squares discriminant analysis (PLS-DA), Random forest, pathway mapping, and metabolite set enrichment analysis (MSEA) were performed using dChip, Metaboanalyst, and MSEA software. RESULTS: A 35-metabolite signature mapping to lipid, amino acid, and nucleotide metabolism distinguished HIV patients with advanced disease on PI-based ART from controls regardless of HCV serostatus (p<0.05, false discovery rate (FDR)<0.1). Many altered lipids, including bile acids, sulfated steroids, polyunsaturated fatty acids, and eicosanoids, were ligands of nuclear receptors that regulate metabolism and inflammation. Distinct clusters of altered lipids correlated with markers of inflammation (interferon-alpha and interleukin-6), microbial translocation (lipopolysaccharide (LPS) and LPS-binding protein), and hepatic function (bilirubin) (p<0.05). Lipid alterations showed substantial overlap with those reported in non-alcoholic fatty liver disease (NALFD). Increased bile acids were associated with noninvasive markers of hepatic fibrosis (FIB-4, APRI, and YKL-40) and correlated with acylcarnitines, a marker of mitochondrial dysfunction. CONCLUSIONS: Lipid alterations in HIV patients receiving PI-based ART are linked to markers of inflammation, microbial translocation, and hepatic function, suggesting that therapeutic strategies attenuating dysregulated innate immune activation and hepatic dysfunction may be beneficial for prevention and treatment of metabolic disorders in HIV patients.
+23641933	31	50	lipid abnormalities	Disease	MESH:D011017
+23641933	72	84	inflammation	Disease	MESH:D007249
+23641933	135	138	HIV	Disease	MESH:D015658
+23641933	139	147	patients	Species	9606
+23641933	191	214	Metabolic abnormalities	Disease	MESH:D008659
+23641933	229	241	HIV-infected	Disease	MESH:D015658
+23641933	456	459	HIV	Disease	MESH:D015658
+23641933	460	468	patients	Species	9606
+23641933	484	487	CD4	Gene	920
+23641933	641	671	Hepatitis C (HCV) co-infection	Disease	MESH:D006526
+23641933	706	711	lipid	Chemical	MESH:D008055
+23641933	739	751	inflammation	Disease	MESH:D007249
+23641933	1128	1133	lipid	Chemical	MESH:D008055
+23641933	1187	1190	HIV	Species	11676
+23641933	1191	1199	patients	Species	9606
+23641933	1266	1269	HCV	Species	
+23641933	1336	1342	lipids	Chemical	MESH:D008055
+23641933	1354	1364	bile acids	Chemical	MESH:D001647
+23641933	1375	1383	steroids	Chemical	MESH:D013256
+23641933	1385	1412	polyunsaturated fatty acids	Chemical	MESH:D005231
+23641933	1418	1429	eicosanoids	Chemical	MESH:D015777
+23641933	1494	1506	inflammation	Disease	MESH:D007249
+23641933	1537	1543	lipids	Chemical	MESH:D008055
+23641933	1571	1583	inflammation	Disease	MESH:D007249
+23641933	1606	1619	interleukin-6	Gene	3569
+23641933	1647	1665	lipopolysaccharide	Chemical	MESH:D008070
+23641933	1667	1670	LPS	Chemical	MESH:D008070
+23641933	1676	1695	LPS-binding protein	Gene	3929
+23641933	1720	1729	bilirubin	Chemical	MESH:D001663
+23641933	1741	1746	Lipid	Chemical	MESH:D008055
+23641933	1809	1842	non-alcoholic fatty liver disease	Disease	MESH:D065626
+23641933	1844	1849	NALFD	Disease	MESH:D065626
+23641933	1862	1872	bile acids	Chemical	MESH:D001647
+23641933	1917	1933	hepatic fibrosis	Disease	MESH:D008103
+23641933	1952	1958	YKL-40	Gene	1116
+23641933	1980	1994	acylcarnitines	Chemical	MESH:C116917
+23641933	2008	2033	mitochondrial dysfunction	Disease	MESH:D028361
+23641933	2048	2053	Lipid	Chemical	MESH:D008055
+23641933	2069	2072	HIV	Disease	MESH:D015658
+23641933	2073	2081	patients	Species	9606
+23641933	2130	2142	inflammation	Disease	MESH:D007249
+23641933	2284	2303	hepatic dysfunction	Disease	MESH:D008107
+23641933	2354	2373	metabolic disorders	Disease	MESH:D008659
+23641933	2377	2380	HIV	Disease	MESH:D015658
+23641933	2381	2389	patients	Species	9606
+23641933	Association	MESH:D015777	MESH:D007249
+23641933	Association	MESH:D001647	MESH:D007249
+23641933	Association	MESH:C116917	MESH:D028361
+23641933	Association	MESH:D005231	MESH:D007249
+23641933	Association	MESH:D008055	MESH:D008107
+23641933	Association	MESH:D008055	3569
+23641933	Association	MESH:D008055	MESH:D065626
+23641933	Association	MESH:D007249	3569
+23641933	Association	MESH:D008055	MESH:D015658
+23641933	Association	MESH:D001663	MESH:D008055
+23641933	Association	MESH:D001647	MESH:D028361
+23641933	Association	MESH:D008055	MESH:D007249
+23641933	Association	MESH:D013256	MESH:D007249
+23641933	Association	MESH:D008055	3929
+23641933	Association	MESH:D001647	1116
+23641933	Association	MESH:D005231	MESH:D008055
+23641933	Positive_Correlation	MESH:D001647	MESH:D008103
+23641933	Association	MESH:C116917	MESH:D001647
+23641933	Association	MESH:D008055	MESH:D008070
+

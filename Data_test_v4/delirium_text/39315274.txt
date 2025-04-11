@@ -1,0 +1,27 @@
+39315274|t|Automated Medical Records Review for Mild Cognitive Impairment and Dementia.
+39315274|a|Objectives : Unstructured and structured data in electronic health records (EHR) are a rich source of information for research and quality improvement studies. However, extracting accurate information from EHR is labor-intensive. Here we introduce an automated EHR phenotyping model to identify patients with Alzheimer's Disease, related dementias (ADRD), or mild cognitive impairment (MCI). Methods : We assembled medical notes and associated International Classification of Diseases (ICD) codes and medication prescriptions from 3,626 outpatient adults from two hospitals seen between February 2015 and June 2022. Ground truth annotations regarding the presence vs. absence of a diagnosis of MCI or ADRD were determined through manual chart review. Indicators extracted from notes included the presence of keywords and phrases in unstructured clinical notes, prescriptions of medications associated with MCI/ADRD, and ICD codes associated with MCI/ADRD. We trained a regularized logistic regression model to predict the ground truth annotations. Model performance was evaluated using area under the receiver operating curve (AUROC), area under the precision-recall curve (AUPRC), accuracy, specificity, precision/positive predictive value, recall/sensitivity, and F1 score (harmonic mean of precision and recall). Results : Thirty percent of patients in the cohort carried diagnoses of MCI/ADRD based on manual review. When evaluated on a held-out test set, the best model using clinical notes, ICDs, and medications, achieved an AUROC of 0.98, an AUPRC of 0.98, an accuracy of 0.93, a sensitivity (recall) of 0.91, a specificity of 0.96, a precision of 0.96, and an F1 score of 0.93 The estimated overall accuracy for patients randomly selected from EHRs was 99.88%. Conclusion : Automated EHR phenotyping accurately identifies patients with MCI/ADRD based on clinical notes, ICD codes, and medication records. This approach holds potential for large-scale MCI/ADRD research utilizing EHR databases.
+39315274	42	62	Cognitive Impairment	Disease	MESH:D003072
+39315274	67	75	Dementia	Disease	MESH:D003704
+39315274	372	380	patients	Species	9606
+39315274	386	405	Alzheimer's Disease	Disease	MESH:D000544
+39315274	415	424	dementias	Disease	MESH:D003704
+39315274	426	430	ADRD	Disease	MESH:D000544
+39315274	441	461	cognitive impairment	Disease	MESH:D003072
+39315274	463	466	MCI	Disease	MESH:D060825
+39315274	614	624	outpatient	Species	9606
+39315274	771	774	MCI	Disease	MESH:D060825
+39315274	778	782	ADRD	Disease	MESH:D000544
+39315274	983	986	MCI	Disease	MESH:D060825
+39315274	987	991	ADRD	Disease	MESH:D000544
+39315274	1023	1026	MCI	Disease	MESH:D060825
+39315274	1027	1031	ADRD	Disease	MESH:D000544
+39315274	1421	1429	patients	Species	9606
+39315274	1465	1468	MCI	Disease	MESH:D060825
+39315274	1469	1473	ADRD	Disease	MESH:D000544
+39315274	1798	1806	patients	Species	9606
+39315274	1908	1916	patients	Species	9606
+39315274	1922	1925	MCI	Disease	MESH:D060825
+39315274	1926	1930	ADRD	Disease	MESH:D000544
+39315274	2037	2040	MCI	Disease	MESH:D060825
+39315274	2041	2045	ADRD	Disease	MESH:D000544
+

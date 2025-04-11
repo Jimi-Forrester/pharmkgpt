@@ -1,0 +1,30 @@
+23470700|t|ABCDEs of ICU: Choice of sedative.
+23470700|a|When the clinical picture of a patient in the intensive care unit necessitates placement of an artificial airway supported by mechanical ventilation, a regimen of sedation and analgesia is initiated with the goal of providing anxiolysis and pain control to facilitate ventilation and therapeutic and diagnostic intervention. However, some of the most commonly used sedative agents, such as benzodiazepines, may have profound long-term effects on patients' health, including neuropsychological functioning. With more patients now surviving intensive care, more patients are suffering from these negative health consequences. A review of recent research on the subject suggests that more novel, non-benzodiazepine agents such as dexmedetomidine, fluorinated ether gases, and remifentanil function effectively as sedative agents in intubated patients in the intensive care unit, and are less likely to lead to delirium, agitation, aggression, psychosis, and other complications; in addition, use of these alternatives is associated with shorter times to awakening, extubation, and ICU discharge, as well as shorter overall length of stay and decreased cost of care.
+23470700	66	73	patient	Species	9606
+23470700	276	280	pain	Disease	MESH:D010146
+23470700	425	440	benzodiazepines	Chemical	MESH:D001569
+23470700	481	489	patients	Species	9606
+23470700	551	559	patients	Species	9606
+23470700	595	603	patients	Species	9606
+23470700	732	746	benzodiazepine	Chemical	MESH:D001569
+23470700	762	777	dexmedetomidine	Chemical	MESH:D020927
+23470700	791	796	ether	Chemical	MESH:D004986
+23470700	808	820	remifentanil	Chemical	MESH:D000077208
+23470700	874	882	patients	Species	9606
+23470700	942	950	delirium	Disease	MESH:D003693
+23470700	952	961	agitation	Disease	MESH:D011595
+23470700	963	973	aggression	Disease	MESH:D010554
+23470700	975	984	psychosis	Disease	MESH:D011618
+23470700	Negative_Correlation	MESH:D004986	MESH:D010554
+23470700	Negative_Correlation	MESH:D004986	MESH:D011618
+23470700	Negative_Correlation	MESH:D020927	MESH:D010554
+23470700	Negative_Correlation	MESH:D020927	MESH:D011618
+23470700	Negative_Correlation	MESH:D020927	MESH:D003693
+23470700	Negative_Correlation	MESH:D000077208	MESH:D011595
+23470700	Negative_Correlation	MESH:D004986	MESH:D011595
+23470700	Negative_Correlation	MESH:D004986	MESH:D003693
+23470700	Negative_Correlation	MESH:D000077208	MESH:D010554
+23470700	Negative_Correlation	MESH:D000077208	MESH:D011618
+23470700	Negative_Correlation	MESH:D000077208	MESH:D003693
+23470700	Negative_Correlation	MESH:D020927	MESH:D011595
+

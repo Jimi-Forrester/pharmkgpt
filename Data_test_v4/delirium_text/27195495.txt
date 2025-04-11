@@ -1,0 +1,9 @@
+27195495|t|PredHSP: Sequence Based Proteome-Wide Heat Shock Protein Prediction and Classification Tool to Unlock the Stress Biology.
+27195495|a|Heat shock proteins are chaperonic proteins, which are present in every domain of life. They play a crucial role in folding/unfolding of proteins, their sorting and assembly into multi-protein complex, cell cycle control and also protect the cell during stress. Considering the fact that no web-based predictor is available for simultaneous prediction and classification of HSPs, it is imperative to develop a method, which can predict and classify them efficiently. In this study, we have developed coupled amino acid composition and support vector machine based two-tier method, PredHSP that identifies heat shock proteins (1st tier) and classifies it to different families (at 2nd tier). At 1st tier, we achieved maximum accuracy 76.66% with MCC 0.43, while at 2nd tier we achieved maximum accuracy 96.36% with MCC 0.87 for HSP20, 91.91% with MCC 0.83 for HSP40, 95.96% with MCC 0.72 for HSP60, 91.87% with MCC 0.71 for HSP70, 98.43% with MCC 0.70 for HSP90 and 97.48% with MCC 0.71 for HSP100. We have also developed a webserver, as well as standalone package for the use of scientific community, which can be accessed at http://14.139.227.92/mkumar/predhsp/index.html.
+27195495	496	500	HSPs	Disease	MESH:C537483
+27195495	949	954	HSP20	Gene	126393
+27195495	981	986	HSP40	Gene	171221
+27195495	1013	1018	HSP60	Gene	3329
+27195495	1045	1050	HSP70	Gene	3308
+27195495	1077	1082	HSP90	Gene	3320
+

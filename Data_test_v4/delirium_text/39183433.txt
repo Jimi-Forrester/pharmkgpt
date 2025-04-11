@@ -1,0 +1,39 @@
+39183433|t|Mechanism of inhibition of TLR4/NFkappaB/NLRP3 inflammatory pathway against AD based on the network pharmacology of Erjing Pills.
+39183433|a|Alzheimer disease is an irreversible neurodegenerative disease, and its pathogenesis involves various mechanisms such as neuroinflammation and beta-amyloid deposition. Erjing Pills can inhibit neuroinflammation by inhibiting toll-like receptor 4/nuclear factor kappa-B/nucleotide-binding domain leucine-rich repeat and pyrin domain-containing protein 3; however, qualitative analysis of the material basis is lacking. Therefore, it is necessary to analyze and explore the material basis of network pharmacology research. This study employed a multifaceted approach, including drug-like screening, molecular docking, and bioinformatic analysis. Preliminary screening identified 59 drug ingredients in Erjing Pills that met the Absorption, Distribution, Metabolism, Excretion and Toxicity screening criteria. Among these, 7 ingredients, including diosgenin, exhibited superior binding properties compared with the positive drugs in molecular docking. Gene ontology annotation and pathway analysis revealed their involvement in crucial biological processes, such as hormone response, insulin resistance, and steroid hormone biosynthesis signaling pathways, which are known for their anti-inflammatory and cognitive enhancement effects. A meta-analysis of relevant literature corroborated the anti-inflammatory activities of diosgenin and 5 other ingredients. These 5 ingredients, with diosgenin as a prominent candidate, exert anti-inflammatory effects by targeting key components of the toll-like receptor 4/nuclear factor kappa-B/nucleotide-binding domain leucine-rich repeat and pyrin domain-containing protein 3 inflammatory pathway, thereby presenting potential efficacy in the treatment of Alzheimer disease.
+39183433	27	31	TLR4	Gene	7099
+39183433	32	40	NFkappaB	Gene	4790
+39183433	41	46	NLRP3	Gene	114548
+39183433	47	59	inflammatory	Disease	MESH:D007249
+39183433	76	78	AD	Disease	MESH:D000544
+39183433	116	128	Erjing Pills	Chemical	-
+39183433	130	147	Alzheimer disease	Disease	MESH:D000544
+39183433	167	192	neurodegenerative disease	Disease	MESH:D019636
+39183433	251	268	neuroinflammation	Disease	MESH:D000090862
+39183433	298	310	Erjing Pills	Chemical	-
+39183433	323	340	neuroinflammation	Disease	MESH:D000090862
+39183433	355	375	toll-like receptor 4	Gene	7099
+39183433	830	842	Erjing Pills	Chemical	-
+39183433	908	916	Toxicity	Disease	MESH:D064420
+39183433	975	984	diosgenin	Chemical	MESH:D004144
+39183433	1211	1229	insulin resistance	Disease	MESH:D007333
+39183433	1235	1250	steroid hormone	Chemical	MESH:D013256
+39183433	1315	1327	inflammatory	Disease	MESH:D007249
+39183433	1424	1436	inflammatory	Disease	MESH:D007249
+39183433	1451	1460	diosgenin	Chemical	MESH:D004144
+39183433	1512	1521	diosgenin	Chemical	MESH:D004144
+39183433	1559	1571	inflammatory	Disease	MESH:D007249
+39183433	1615	1635	toll-like receptor 4	Gene	7099
+39183433	1743	1755	inflammatory	Disease	MESH:D007249
+39183433	1823	1840	Alzheimer disease	Disease	MESH:D000544
+39183433	Association	MESH:D000544	114548
+39183433	Negative_Correlation	MESH:D004144	MESH:D000544
+39183433	Negative_Correlation	MESH:D004144	MESH:D007249
+39183433	Association	MESH:D013256	MESH:D007249
+39183433	Association	MESH:D000090862	7099
+39183433	Association	MESH:D007249	114548
+39183433	Negative_Correlation	MESH:D004144	7099
+39183433	Association	MESH:D007249	7099
+39183433	Association	MESH:D007249	4790
+39183433	Association	MESH:D000544	7099
+39183433	Association	MESH:D000544	4790
+

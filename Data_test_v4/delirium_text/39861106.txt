@@ -1,0 +1,62 @@
+39861106|t|Multi-Omics and Network-Based Drug Repurposing for Septic Cardiomyopathy.
+39861106|a|BACKGROUND/OBJECTIVES: Septic cardiomyopathy (SCM) is a severe cardiac complication of sepsis, characterized by cardiac dysfunction with limited effective treatments. This study aimed to identify repurposable drugs for SCM by integrated multi-omics and network analyses. METHODS: We generated a mouse model of SCM induced by lipopolysaccharide (LPS) and then obtained comprehensive metabolic and genetic data from SCM mouse hearts using ultra-performance liquid chromatography-tandem mass spectrometry (UPLC-MS/MS) and RNA sequencing (RNA-seq). Using network proximity analysis, we screened for FDA-approved drugs that interact with SCM-associated pathways. Additionally, we tested the cardioprotective effects of two drug candidates in the SCM mouse model and explored their mechanism-of-action in H9c2 cells. RESULTS: Network analysis identified 129 drugs associated with SCM, which were refined to 14 drug candidates based on strong network predictions, proven anti-infective effects, suitability for ICU use, and minimal side effects. Among them, acetaminophen and pyridoxal phosphate significantly improved cardiac function in SCM moues, as demonstrated by the increased ejection fraction (EF) and fractional shortening (FS), and the reduced levels of cardiac injury biomarkers: B-type natriuretic peptide (BNP) and cardiac troponin I (cTn-I). In vitro assays revealed that acetaminophen inhibited prostaglandin synthesis, reducing inflammation, while pyridoxal phosphate restored amino acid balance, supporting cellular function. These findings suggest that both drugs possess protective effects against SCM. CONCLUSIONS: This study provides a robust platform for drug repurposing in SCM, identifying acetaminophen and pyridoxal phosphate as promising candidates for clinical translation, with the potential to improve treatment outcomes in septic patients with cardiac complications.
+39861106	51	72	Septic Cardiomyopathy	Disease	MESH:D009202
+39861106	97	118	Septic cardiomyopathy	Disease	MESH:D009202
+39861106	120	123	SCM	Disease	MESH:D009202
+39861106	137	157	cardiac complication	Disease	MESH:D006331
+39861106	161	167	sepsis	Disease	MESH:D018805
+39861106	186	205	cardiac dysfunction	Disease	MESH:D006331
+39861106	293	296	SCM	Disease	MESH:D009202
+39861106	369	374	mouse	Species	10090
+39861106	384	387	SCM	Disease	MESH:D009202
+39861106	399	417	lipopolysaccharide	Chemical	MESH:D008070
+39861106	419	422	LPS	Chemical	MESH:D008070
+39861106	488	491	SCM	Disease	MESH:D009202
+39861106	492	497	mouse	Species	10090
+39861106	707	710	SCM	Disease	MESH:D009202
+39861106	815	818	SCM	Disease	MESH:D009202
+39861106	819	824	mouse	Species	10090
+39861106	873	877	H9c2	CellLine	CVCL:0286
+39861106	948	951	SCM	Disease	MESH:D009202
+39861106	1043	1052	infective	Disease	MESH:D007239
+39861106	1125	1138	acetaminophen	Chemical	MESH:D000082
+39861106	1143	1162	pyridoxal phosphate	Chemical	MESH:D011732
+39861106	1206	1209	SCM	Disease	MESH:D009202
+39861106	1331	1345	cardiac injury	Disease	MESH:D006331
+39861106	1358	1384	B-type natriuretic peptide	Gene	18158
+39861106	1386	1389	BNP	Gene	18158
+39861106	1395	1413	cardiac troponin I	Gene	21954
+39861106	1415	1420	cTn-I	Gene	29248
+39861106	1453	1466	acetaminophen	Chemical	MESH:D000082
+39861106	1477	1490	prostaglandin	Chemical	MESH:D011453
+39861106	1511	1523	inflammation	Disease	MESH:D007249
+39861106	1531	1550	pyridoxal phosphate	Chemical	MESH:D011732
+39861106	1560	1570	amino acid	Chemical	MESH:D000596
+39861106	1684	1687	SCM	Disease	MESH:D009202
+39861106	1764	1767	SCM	Disease	MESH:D009202
+39861106	1781	1794	acetaminophen	Chemical	MESH:D000082
+39861106	1799	1818	pyridoxal phosphate	Chemical	MESH:D011732
+39861106	1921	1927	septic	Disease	MESH:D001170
+39861106	1928	1936	patients	Species	9606
+39861106	1942	1963	cardiac complications	Disease	MESH:D006331
+39861106	Negative_Correlation	MESH:D000082	18158
+39861106	Association	MESH:D009202	21954
+39861106	Positive_Correlation	MESH:D008070	MESH:D009202
+39861106	Negative_Correlation	MESH:D000082	MESH:D009202
+39861106	Negative_Correlation	MESH:D011732	MESH:D009202
+39861106	Negative_Correlation	MESH:D000082	21954
+39861106	Negative_Correlation	MESH:D011732	MESH:D006331
+39861106	Negative_Correlation	MESH:D011732	18158
+39861106	Negative_Correlation	MESH:D011732	MESH:D001170
+39861106	Association	MESH:D006331	18158
+39861106	Negative_Correlation	MESH:D000082	MESH:D001170
+39861106	Negative_Correlation	MESH:D011732	29248
+39861106	Negative_Correlation	MESH:D000082	MESH:D006331
+39861106	Association	MESH:D006331	29248
+39861106	Negative_Correlation	MESH:D000082	MESH:D011453
+39861106	Negative_Correlation	MESH:D011732	21954
+39861106	Negative_Correlation	MESH:D000082	MESH:D007249
+39861106	Association	MESH:D000596	MESH:D011732
+39861106	Association	MESH:D006331	21954
+39861106	Negative_Correlation	MESH:D000082	29248
+

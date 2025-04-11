@@ -1,0 +1,14 @@
+38877887|t|AITeQ: a machine learning framework for Alzheimer's prediction using a distinctive five-gene signature.
+38877887|a|Neurodegenerative diseases, such as Alzheimer's disease, pose a significant global health challenge with their complex etiology and elusive biomarkers. In this study, we developed the Alzheimer's Identification Tool (AITeQ) using ribonucleic acid-sequencing (RNA-seq), a machine learning (ML) model based on an optimized ensemble algorithm for the identification of Alzheimer's from RNA-seq data. Analysis of RNA-seq data from several studies identified 87 differentially expressed genes. This was followed by a ML protocol involving feature selection, model training, performance evaluation, and hyperparameter tuning. The feature selection process undertaken in this study, employing a combination of four different methodologies, culminated in the identification of a compact yet impactful set of five genes. Twelve diverse ML models were trained and tested using these five genes (CNKSR1, EPHA2, CLSPN, OLFML3, and TARBP1). Performance metrics, including precision, recall, F1 score, accuracy, Matthew's correlation coefficient, and receiver operating characteristic area under the curve were assessed for the finally selected model. Overall, the ensemble model consisting of logistic regression, naive Bayes classifier, and support vector machine with optimized hyperparameters was identified as the best and was used to develop AITeQ. AITeQ is available at: https://github.com/ishtiaque-ahammad/AITeQ.
+38877887	40	51	Alzheimer's	Disease	MESH:D000544
+38877887	104	130	Neurodegenerative diseases	Disease	MESH:D019636
+38877887	140	159	Alzheimer's disease	Disease	MESH:D000544
+38877887	288	299	Alzheimer's	Disease	MESH:D000544
+38877887	470	481	Alzheimer's	Disease	MESH:D000544
+38877887	989	995	CNKSR1	Gene	10256
+38877887	997	1002	EPHA2	Gene	1969
+38877887	1004	1009	CLSPN	Gene	63967
+38877887	1011	1017	OLFML3	Gene	56944
+38877887	1023	1029	TARBP1	Gene	6894
+38877887	Association	MESH:D000544	56944
+

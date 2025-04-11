@@ -1,0 +1,38 @@
+31298717|t|Development and Validation of a Deep Learning Algorithm for Mortality Prediction in Selecting Patients With Dementia for Earlier Palliative Care Interventions.
+31298717|a|Importance: Early palliative care interventions drive high-value care but currently are underused. Health care professionals face challenges in identifying patients who may benefit from palliative care. Objective: To develop a deep learning algorithm using longitudinal electronic health records to predict mortality risk as a proxy indicator for identifying patients with dementia who may benefit from palliative care. Design, Setting, and Participants: In this retrospective cohort study, 6-month, 1-year, and 2-year mortality prediction models with recurrent neural networks used patient demographic information and topics generated from clinical notes within Partners HealthCare System, an integrated health care delivery system in Boston, Massachusetts. This study included 26 921 adult patients with dementia who visited the health care system from January 1, 2011, through December 31, 2017. The models were trained using a data set of 24 229 patients and validated using another data set of 2692 patients. Data were analyzed from September 18, 2018, to May 15, 2019. Main Outcomes and Measures: The area under the receiver operating characteristic curve (AUC) for 6-month and 1- and 2-year mortality prediction models and the factors contributing to the predictions. Results: The study cohort included 26 921 patients (16 263 women [60.4%]; mean [SD] age, 74.6 [13.5] years). For the 24 229 patients in the training data set, mean (SD) age was 74.8 (13.2) years and 14 632 (60.4%) were women. For the 2692 patients in the validation data set, mean (SD) age was 75.0 (12.6) years and 1631 (60.6%) were women. The 6-month model reached an AUC of 0.978 (95% CI, 0.977-0.978); the 1-year model, 0.956 (95% CI, 0.955-0.956); and the 2-year model, 0.943 (95% CI, 0.942-0.944). The top-ranked latent topics associated with 6-month and 1- and 2-year mortality in patients with dementia include palliative and end-of-life care, cognitive function, delirium, testing of cholesterol levels, cancer, pain, use of health care services, arthritis, nutritional status, skin care, family meeting, shock, respiratory failure, and swallowing function. Conclusions and Relevance: A deep learning algorithm based on patient demographic information and longitudinal clinical notes appeared to show promising results in predicting mortality among patients with dementia in different time frames. Further research is necessary to determine the feasibility of applying this algorithm in clinical settings for identifying unmet palliative care needs earlier.
+31298717	60	69	Mortality	Disease	MESH:D003643
+31298717	94	102	Patients	Species	9606
+31298717	108	116	Dementia	Disease	MESH:D003704
+31298717	316	324	patients	Species	9606
+31298717	467	476	mortality	Disease	MESH:D003643
+31298717	519	527	patients	Species	9606
+31298717	533	541	dementia	Disease	MESH:D003704
+31298717	601	613	Participants	Species	9606
+31298717	679	688	mortality	Disease	MESH:D003643
+31298717	743	750	patient	Species	9606
+31298717	952	960	patients	Species	9606
+31298717	966	974	dementia	Disease	MESH:D003704
+31298717	1110	1118	patients	Species	9606
+31298717	1164	1172	patients	Species	9606
+31298717	1358	1367	mortality	Disease	MESH:D003643
+31298717	1477	1485	patients	Species	9606
+31298717	1494	1499	women	Species	9606
+31298717	1559	1567	patients	Species	9606
+31298717	1654	1659	women	Species	9606
+31298717	1674	1682	patients	Species	9606
+31298717	1769	1774	women	Species	9606
+31298717	2010	2019	mortality	Disease	MESH:D003643
+31298717	2023	2031	patients	Species	9606
+31298717	2037	2045	dementia	Disease	MESH:D003704
+31298717	2107	2115	delirium	Disease	MESH:D003693
+31298717	2128	2139	cholesterol	Chemical	MESH:D002784
+31298717	2148	2154	cancer	Disease	MESH:D009369
+31298717	2156	2160	pain	Disease	MESH:D010146
+31298717	2191	2200	arthritis	Disease	MESH:D001168
+31298717	2249	2254	shock	Disease	MESH:D012769
+31298717	2256	2275	respiratory failure	Disease	MESH:D012131
+31298717	2364	2371	patient	Species	9606
+31298717	2477	2486	mortality	Disease	MESH:D003643
+31298717	2493	2501	patients	Species	9606
+31298717	2507	2515	dementia	Disease	MESH:D003704
+

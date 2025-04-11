@@ -1,0 +1,17 @@
+37482057|t|Predicting Alzheimer's Disease with Interpretable Machine Learning.
+37482057|a|INTRODUCTION: This study aimed to develop novel machine learning models for predicting Alzheimer's disease (AD) and identify key factors for targeted prevention. METHODS: We included 1219, 863, and 482 participants aged 60+ years with only sociodemographic, both sociodemographic and self-reported health, both the former two and blood biomarkers information from Alzheimer's Disease Neuroimaging Initiative (ADNI) database. Machine learning models were constructed for predicting the risk of AD for the above three populations. Model performance was evaluated by discrimination, calibration, and clinical usefulness. Shapley additive explanations (SHAP) was applied to identify key predictors of optimal models. RESULTS: The mean age was 73.49, 74.52, and 74.29 years for the three populations, respectively. Models with sociodemographic information and models with both sociodemographic and self-reported health information showed modest performance. For models with sociodemographic and self-reported health, and blood biomarker information, their overall performance improved substantially, specifically, LR performed best, with an AUC value of 0.818. Blood biomarkers of ptau protein and plasma neurofilament light, age, blood tau protein and education level were top five significant predictors. In addition, taurine, inosine, xanthine, marital status, and L.Glutamine also showed importance to AD prediction. CONCLUSION: Interpretable machine learning showed promise in screening high-risk AD individual, and could further identify key predictors for targeted prevention.
+37482057	11	30	Alzheimer's Disease	Disease	MESH:D000544
+37482057	155	174	Alzheimer's disease	Disease	MESH:D000544
+37482057	176	178	AD	Disease	MESH:D000544
+37482057	432	451	Alzheimer's Disease	Disease	MESH:D000544
+37482057	561	563	AD	Disease	MESH:D000544
+37482057	1300	1303	tau	Gene	4137
+37482057	1383	1390	taurine	Chemical	MESH:D013654
+37482057	1392	1399	inosine	Chemical	MESH:D007288
+37482057	1401	1409	xanthine	Chemical	MESH:D019820
+37482057	1469	1471	AD	Disease	MESH:D000544
+37482057	1565	1567	AD	Disease	MESH:D000544
+37482057	Positive_Correlation	MESH:D007288	MESH:D000544
+37482057	Association	MESH:D013654	MESH:D000544
+37482057	Positive_Correlation	MESH:D019820	MESH:D000544
+

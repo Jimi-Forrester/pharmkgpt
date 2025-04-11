@@ -1,0 +1,42 @@
+30382081|t|Src-family kinase-Cbl axis negatively regulates NLRP3 inflammasome activation.
+30382081|a|Activation of the NLRP3 inflammasome is crucial for immune defense, but improper and excessive activation causes inflammatory diseases. We previously reported that Pyk2 is essential for NLRP3 inflammasome activation. Here we show that the Src-family kinases (SFKs)-Cbl axis plays a pivotal role in suppressing NLRP3 inflammasome activation in response to stimulation by nigericin or ATP, as assessed using gene knockout and gene knockdown cells, dominant active/negative mutants, and pharmacological inhibition. We reveal that the phosphorylation of Cbl is regulated by SFKs, and that phosphorylation of Cbl at Tyr371 suppresses NLRP3 inflammasome activation. Mechanistically, Cbl decreases the level of phosphorylated Pyk2 (p-Pyk2) through ubiquitination-mediated proteasomal degradation and reduces mitochondrial ROS (mtROS) production by contributing to the maintenance of mitochondrial size. The lower levels of p-Pyk2 and mtROS dampen NLRP3 inflammasome activation. In vivo, inhibition of Cbl with an analgesic drug, hydrocotarnine, increases inflammasome-mediated IL-18 secretion in the colon, and protects mice from dextran sulphate sodium-induced colitis. Together, our novel findings provide new insights into the role of the SFK-Cbl axis in suppressing NLRP3 inflammasome activation and identify a novel clinical utility of hydrocortanine for disease treatment.
+30382081	18	21	Cbl	Gene	12402
+30382081	48	53	NLRP3	Gene	216799
+30382081	97	102	NLRP3	Gene	216799
+30382081	192	213	inflammatory diseases	Disease	MESH:D007249
+30382081	243	247	Pyk2	Gene	19229
+30382081	265	270	NLRP3	Gene	216799
+30382081	344	347	Cbl	Gene	12402
+30382081	389	394	NLRP3	Gene	216799
+30382081	449	458	nigericin	Chemical	MESH:D009550
+30382081	462	465	ATP	Chemical	MESH:D000255
+30382081	629	632	Cbl	Gene	12402
+30382081	683	686	Cbl	Gene	12402
+30382081	708	713	NLRP3	Gene	216799
+30382081	756	759	Cbl	Gene	12402
+30382081	798	802	Pyk2	Gene	19229
+30382081	806	810	Pyk2	Gene	19229
+30382081	894	897	ROS	Chemical	-
+30382081	997	1001	Pyk2	Gene	19229
+30382081	1019	1024	NLRP3	Gene	216799
+30382081	1073	1076	Cbl	Gene	12402
+30382081	1101	1115	hydrocotarnine	Chemical	MESH:C024594
+30382081	1149	1154	IL-18	Gene	16173
+30382081	1192	1196	mice	Species	10090
+30382081	1202	1225	dextran sulphate sodium	Chemical	-
+30382081	1234	1241	colitis	Disease	MESH:D003092
+30382081	1318	1321	Cbl	Gene	12402
+30382081	1342	1347	NLRP3	Gene	216799
+30382081	1413	1427	hydrocortanine	Chemical	-
+30382081	Positive_Correlation	MESH:D009550	216799
+30382081	Negative_Correlation	12402	19229
+30382081	Association	MESH:C024594	12402
+30382081	Association	MESH:D007249	216799
+30382081	Positive_Correlation	MESH:D000255	216799
+30382081	Positive_Correlation	MESH:C024594	16173
+30382081	Association	MESH:D003092	12402
+30382081	Negative_Correlation	MESH:C024594	MESH:D003092
+30382081	Negative_Correlation	12402	16173
+30382081	Negative_Correlation	12402	216799
+30382081	Association	19229	216799
+

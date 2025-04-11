@@ -1,0 +1,11 @@
+34854319|t|Real-Time Arrhythmia Detection Using Hybrid Convolutional Neural Networks.
+34854319|a|Background Accurate detection of arrhythmic events in the intensive care units (ICU) is of paramount significance in providing timely care. However, traditional ICU monitors generate a high rate of false alarms causing alarm fatigue. In this work, we develop an algorithm to improve life threatening arrhythmia detection in the ICUs using a deep learning approach. Methods and Results This study involves a total of 953 independent life-threatening arrhythmia alarms generated from the ICU bedside monitors of 410 patients. Specifically, we used the ECG (4 channels), arterial blood pressure, and photoplethysmograph signals to accurately detect the onset and offset of various arrhythmias, without prior knowledge of the alarm type. We used a hybrid convolutional neural network based classifier that fuses traditional handcrafted features with features automatically learned using convolutional neural networks. Further, the proposed architecture remains flexible to be adapted to various arrhythmic conditions as well as multiple physiological signals. Our hybrid- convolutional neural network approach achieved superior performance compared with methods which only used convolutional neural network. We evaluated our algorithm using 5-fold cross-validation for 5 times and obtained an accuracy of 87.5%+-0.5%, and a score of 81%+-0.9%. Independent evaluation of our algorithm on the publicly available PhysioNet 2015 Challenge database resulted in overall classification accuracy and score of 93.9% and 84.3%, respectively, indicating its efficacy and generalizability. Conclusions Our method accurately detects multiple arrhythmic conditions. Suitable translation of our algorithm may significantly improve the quality of care in ICUs by reducing the burden of false alarms.
+34854319	10	20	Arrhythmia	Disease	MESH:D001145
+34854319	108	118	arrhythmic	Disease	OMIM:212500
+34854319	375	385	arrhythmia	Disease	MESH:D001145
+34854319	524	534	arrhythmia	Disease	MESH:D001145
+34854319	589	597	patients	Species	9606
+34854319	753	764	arrhythmias	Disease	MESH:D001145
+34854319	1066	1087	arrhythmic conditions	Disease	OMIM:212500
+34854319	1700	1721	arrhythmic conditions	Disease	OMIM:212500
+

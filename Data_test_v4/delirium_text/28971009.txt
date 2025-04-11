@@ -1,0 +1,33 @@
+28971009|t|Refining diagnosis of Parkinson's disease with deep learning-based interpretation of dopamine transporter imaging.
+28971009|a|Dopaminergic degeneration is a pathologic hallmark of Parkinson's disease (PD), which can be assessed by dopamine transporter imaging such as FP-CIT SPECT. Until now, imaging has been routinely interpreted by human though it can show interobserver variability and result in inconsistent diagnosis. In this study, we developed a deep learning-based FP-CIT SPECT interpretation system to refine the imaging diagnosis of Parkinson's disease. This system trained by SPECT images of PD patients and normal controls shows high classification accuracy comparable with the experts' evaluation referring quantification results. Its high accuracy was validated in an independent cohort composed of patients with PD and nonparkinsonian tremor. In addition, we showed that some patients clinically diagnosed as PD who have scans without evidence of dopaminergic deficit (SWEDD), an atypical subgroup of PD, could be reclassified by our automated system. Our results suggested that the deep learning-based model could accurately interpret FP-CIT SPECT and overcome variability of human evaluation. It could help imaging diagnosis of patients with uncertain Parkinsonism and provide objective patient group classification, particularly for SWEDD, in further clinical studies.
+28971009	22	41	Parkinson's disease	Disease	MESH:D010300
+28971009	85	105	dopamine transporter	Gene	6531
+28971009	115	140	Dopaminergic degeneration	Disease	MESH:D009410
+28971009	169	188	Parkinson's disease	Disease	MESH:D010300
+28971009	190	192	PD	Disease	MESH:D010300
+28971009	220	240	dopamine transporter	Gene	6531
+28971009	257	263	FP-CIT	Chemical	MESH:C087552
+28971009	324	329	human	Species	9606
+28971009	463	469	FP-CIT	Chemical	MESH:C087552
+28971009	533	552	Parkinson's disease	Disease	MESH:D010300
+28971009	593	595	PD	Disease	MESH:D010300
+28971009	596	604	patients	Species	9606
+28971009	803	811	patients	Species	9606
+28971009	817	819	PD	Disease	MESH:D010300
+28971009	840	846	tremor	Disease	MESH:D014202
+28971009	881	889	patients	Species	9606
+28971009	914	916	PD	Disease	MESH:D010300
+28971009	952	972	dopaminergic deficit	Disease	MESH:D009461
+28971009	974	979	SWEDD	Disease	MESH:D004401
+28971009	1006	1008	PD	Disease	MESH:D010300
+28971009	1141	1147	FP-CIT	Chemical	MESH:C087552
+28971009	1182	1187	human	Species	9606
+28971009	1235	1243	patients	Species	9606
+28971009	1259	1271	Parkinsonism	Disease	MESH:D010302
+28971009	1294	1301	patient	Species	9606
+28971009	1341	1346	SWEDD	Disease	MESH:D004401
+28971009	Negative_Correlation	MESH:C087552	MESH:D009410
+28971009	Negative_Correlation	MESH:C087552	MESH:D010300
+28971009	Association	MESH:D010300	6531
+28971009	Association	MESH:D009410	6531
+

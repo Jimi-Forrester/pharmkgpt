@@ -1,0 +1,35 @@
+20591644|t|A novel organotypic tauopathy model on a new microcavity chip for bioelectronic label-free and real time monitoring.
+20591644|a|Herewith we developed a novel 3D in vitro Alzheimer's disease (AD) model, based on the human neuroblastoma cell line SH-SY5Y, which is well differentiated without the application of any agents. Furthermore AD-like pathological neurodegeneration can be induced by okadaic acid (OA) mediated hyperphosphorylation of the microtubule associated protein tau. Moreover, we established stable "rapid tauopathy cell lines" expressing additional EGFP-fused (enhanced green fluorescent protein) wildtype or a pathology-promoting mutant tau variant (P301L) by lentiviral transduction. For the sensitive and feasible quantitative detection of pathological effects on neuronal 3D-cultures by electrochemical impedance spectroscopy (EIS) we optimized and redesigned a microcavity array (MCA). The cellular contribution to impedance could be increased by the factor of 2.5 and the variance decreased by 40%. Using our optimized MCA and impedance measurement setup we were able to detect quantitatively an OA concentration- and time-dependent decrease of the impedance in 3D SH-SY5Y cultures. Moreover, we were able to detect and quantify distinct, AD-related effects triggered by tau-mutant (P301L) expression and hyperphosphorylation in our organotypic 3D-cultures with the help of impedance spectroscopy.
+20591644	8	29	organotypic tauopathy	Disease	MESH:D024801
+20591644	159	178	Alzheimer's disease	Disease	MESH:D000544
+20591644	180	182	AD	Disease	MESH:D000544
+20591644	204	209	human	Species	9606
+20591644	210	223	neuroblastoma	Disease	MESH:D009447
+20591644	234	241	SH-SY5Y	CellLine	CVCL:0019
+20591644	323	325	AD	Disease	MESH:D000544
+20591644	331	361	pathological neurodegeneration	Disease	MESH:D005598
+20591644	380	392	okadaic acid	Chemical	MESH:D019319
+20591644	394	396	OA	Chemical	MESH:D019319
+20591644	435	465	microtubule associated protein	Gene	51115
+20591644	466	469	tau	Gene	4137
+20591644	510	519	tauopathy	Disease	MESH:D024801
+20591644	643	646	tau	Gene	4137
+20591644	656	661	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+20591644	1107	1109	OA	Chemical	MESH:D019319
+20591644	1176	1183	SH-SY5Y	CellLine	CVCL:0019
+20591644	1250	1252	AD	Disease	MESH:D000544
+20591644	1282	1285	tau	Gene	4137
+20591644	1294	1299	P301L	ProteinMutation	tmVar:p|SUB|P|301|L;HGVS:p.P301L;VariantGroup:0;CorrespondingGene:4137;RS#:63751273;CorrespondingSpecies:9606;CA#:225444
+20591644	Association	MESH:D024801	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+20591644	Positive_Correlation	MESH:D019319	51115
+20591644	Positive_Correlation	MESH:D019319	MESH:D005598
+20591644	Positive_Correlation	MESH:D000544	RS#:63751273;HGVS:p.P301L;CorrespondingGene:4137
+20591644	Positive_Correlation	MESH:D019319	4137
+20591644	Association	MESH:D024801	4137
+20591644	Association	MESH:D000544	4137
+20591644	Positive_Correlation	MESH:D019319	MESH:D000544
+20591644	Association	MESH:D005598	4137
+20591644	Association	MESH:D005598	51115
+20591644	Association	MESH:D024801	4137
+20591644	Association	MESH:D000544	4137
+

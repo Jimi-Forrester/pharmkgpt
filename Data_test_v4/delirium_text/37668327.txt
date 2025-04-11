@@ -1,0 +1,11 @@
+37668327|t|Unsupervised contrastive graph learning for resting-state functional MRI analysis and brain disorder detection.
+37668327|a|Resting-state functional magnetic resonance imaging (rs-fMRI) helps characterize regional interactions that occur in the human brain at a resting state. Existing research often attempts to explore fMRI biomarkers that best predict brain disease progression using machine/deep learning techniques. Previous fMRI studies have shown that learning-based methods usually require a large amount of labeled training data, limiting their utility in clinical practice where annotating data is often time-consuming and labor-intensive. To this end, we propose an unsupervised contrastive graph learning (UCGL) framework for fMRI-based brain disease analysis, in which a pretext model is designed to generate informative fMRI representations using unlabeled training data, followed by model fine-tuning to perform downstream disease identification tasks. Specifically, in the pretext model, we first design a bi-level fMRI augmentation strategy to increase the sample size by augmenting blood-oxygen-level-dependent (BOLD) signals, and then employ two parallel graph convolutional networks for fMRI feature extraction in an unsupervised contrastive learning manner. This pretext model can be optimized on large-scale fMRI datasets, without requiring labeled training data. This model is further fine-tuned on to-be-analyzed fMRI data for downstream disease detection in a task-oriented learning manner. We evaluate the proposed method on three rs-fMRI datasets for cross-site and cross-dataset learning tasks. Experimental results suggest that the UCGL outperforms several state-of-the-art approaches in automated diagnosis of three brain diseases (i.e., major depressive disorder, autism spectrum disorder, and Alzheimer's disease) with rs-fMRI data.
+37668327	86	100	brain disorder	Disease	MESH:D001927
+37668327	343	356	brain disease	Disease	MESH:D001927
+37668327	737	750	brain disease	Disease	MESH:D001927
+37668327	1094	1100	oxygen	Chemical	MESH:D010100
+37668327	1734	1748	brain diseases	Disease	MESH:D001927
+37668327	1762	1781	depressive disorder	Disease	MESH:D003866
+37668327	1783	1807	autism spectrum disorder	Disease	MESH:D000067877
+37668327	1813	1832	Alzheimer's disease	Disease	MESH:D000544
+

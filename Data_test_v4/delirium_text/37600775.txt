@@ -1,0 +1,41 @@
+37600775|t|Risk factors and outcome of Chimeric Antigen Receptor T-Cell patients admitted to Pediatric Intensive Care Unit: CART-PICU study.
+37600775|a|Introduction: Chimeric antigen receptor (CAR)T-cell CD19 therapy is an effective treatment for relapsed/refractory B-cell acute lymphoblastic leukemia. It can be associated with life-threatening toxicities which often require PICU admission. Purpose: to describe clinical characteristics, treatment and outcome of these patients. Methods: Prospective observational cohort study conducted in a tertiary pediatric hospital from 2016-2021. Children who received CAR-T admitted to PICU were included. We collected epidemiological, clinical characteristics, cytokine release syndrome (CRS) and immune effector cell-associated neurotoxicity syndrome (ICANS), treatment, length of stay and mortality. Results: CAR T-cells (4-1BB constructs) were infused in 59 patients. Twenty-four (40.7%) required PICU admission, length of stay was 4 days (IQR 3-6). Median age was 8.3 years (range 4-24). Patients admitted to PICU presented higher disease burden before infusion: 24% blasts in bone marrow (IQR 5-72) vs. 0 (0-6.9), p<0.001. No patients with <5% blasts were admitted to PICU. Main reasons for admissions were CRS (n=20, 83.3%) and ICANS (n=3, 12.5%). Fourteen patients (58.3%) required inotropic support, 14(58.3%) respiratory. Sixteen patients (66.6%) received tocilizumab, 10(41.6%) steroids, 6(25.0%) anakinra, and 5(20.8%) siltuximab. Ten patients (41.6%) presented neurotoxicity, six of them severe (ICANS 3-4). Two patients died at PICU (8.3%) because of refractory CRS-hemophagocytic lymphohistyocitosis (carHLH) syndrome. There were no significant differences in relapse rate after CAR-T in patients requiring PICU, it was more frequently CD19 negative (p=0.344). Discussion: PICU admission after CAR-T therapy was mainly due to CRS. Supportive treatment allowed effective management and high survival. Some patients presenting with carHLH, can suffer a fulminant course.
+37600775	171	174	CAR	Gene	653108
+37600775	182	186	CD19	Gene	930
+37600775	252	280	acute lymphoblastic leukemia	Disease	MESH:D054198
+37600775	325	335	toxicities	Disease	MESH:D064420
+37600775	589	592	CAR	Gene	653108
+37600775	683	708	cytokine release syndrome	Disease	MESH:D000080424
+37600775	710	713	CRS	Disease	MESH:D000080424
+37600775	719	773	immune effector cell-associated neurotoxicity syndrome	Disease	MESH:C000722498
+37600775	775	780	ICANS	Disease	MESH:C000722498
+37600775	833	836	CAR	Gene	653108
+37600775	846	851	4-1BB	Chemical	-
+37600775	1234	1237	CRS	Disease	MESH:D000080424
+37600775	1256	1261	ICANS	Disease	MESH:C000722498
+37600775	1387	1398	tocilizumab	Chemical	MESH:C502936
+37600775	1410	1418	steroids	Chemical	MESH:D013256
+37600775	1452	1462	siltuximab	Chemical	MESH:C504234
+37600775	1495	1508	neurotoxicity	Disease	MESH:D020258
+37600775	1530	1539	ICANS 3-4	Disease	MESH:C000722498
+37600775	1597	1601	CRS-	Disease	MESH:D000080424
+37600775	1601	1635	hemophagocytic lymphohistyocitosis	Disease	MESH:D051359
+37600775	1637	1643	carHLH	Disease	
+37600775	1715	1718	CAR	Gene	653108
+37600775	1772	1776	CD19	Gene	930
+37600775	1830	1833	CAR	Gene	653108
+37600775	1862	1865	CRS	Disease	MESH:D000080424
+37600775	1966	1972	carHLH	Disease	
+37600775	Positive_Correlation	MESH:C502936	MESH:D020258
+37600775	Negative_Correlation	MESH:D054198	930
+37600775	Positive_Correlation	MESH:C504234	MESH:D020258
+37600775	Positive_Correlation	MESH:D064420	930
+37600775	Positive_Correlation	MESH:D013256	MESH:D020258
+37600775	Negative_Correlation	MESH:D013256	MESH:C000722498
+37600775	Negative_Correlation	MESH:D054198	653108
+37600775	Negative_Correlation	MESH:D013256	MESH:D000080424
+37600775	Negative_Correlation	MESH:C504234	MESH:C000722498
+37600775	Negative_Correlation	MESH:C502936	MESH:D051359
+37600775	Negative_Correlation	MESH:C502936	MESH:D000080424
+37600775	Negative_Correlation	MESH:C502936	MESH:C000722498
+

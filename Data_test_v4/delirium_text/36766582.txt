@@ -1,0 +1,17 @@
+36766582|t|An Approach toward Artificial Intelligence Alzheimer's Disease Diagnosis Using Brain Signals.
+36766582|a|BACKGROUND: Electroencephalography (EEG) signal analysis is a rapid, low-cost, and practical method for diagnosing the early stages of dementia, including mild cognitive impairment (MCI) and Alzheimer's disease (AD). The extraction of appropriate biomarkers to assess a subject's cognitive impairment has attracted a lot of attention in recent years. The aberrant progression of AD leads to cortical detachment. Due to the interaction of several brain areas, these disconnections may show up as abnormalities in functional connectivity and complicated behaviors. METHODS: This work suggests a novel method for differentiating between AD, MCI, and HC in two-class and three-class classifications based on EEG signals. To solve the class imbalance, we employ EEG data augmentation techniques, such as repeating minority classes using variational autoencoders (VAEs), as well as traditional noise-addition methods and hybrid approaches. The power spectrum density (PSD) and temporal data employed in this study's feature extraction from EEG signals were combined, and a support vector machine (SVM) classifier was used to distinguish between three categories of problems. RESULTS: Insufficient data and unbalanced datasets are two common problems in AD datasets. This study has shown that it is possible to generate comparable data using noise addition and VAE, train the model using these data, and, to some extent, overcome the aforementioned issues with an increase in classification accuracy of 2 to 7%. CONCLUSION: In this work, using EEG data, we were able to successfully detect three classes: AD, MCI, and HC. In comparison to the pre-augmentation stage, the accuracy gained in the classification of the three classes increased by 3% when the VAE model added additional data. As a result, it is clear how useful EEG data augmentation methods are for classes with smaller sample numbers.
+36766582	43	62	Alzheimer's Disease	Disease	MESH:D000544
+36766582	229	237	dementia	Disease	MESH:D003704
+36766582	254	274	cognitive impairment	Disease	MESH:D003072
+36766582	276	279	MCI	Disease	MESH:D060825
+36766582	285	304	Alzheimer's disease	Disease	MESH:D000544
+36766582	306	308	AD	Disease	MESH:D000544
+36766582	374	394	cognitive impairment	Disease	MESH:D003072
+36766582	473	475	AD	Disease	MESH:D000544
+36766582	589	616	abnormalities in functional	Disease	MESH:D000014
+36766582	728	730	AD	Disease	MESH:D000544
+36766582	732	735	MCI	Disease	MESH:D060825
+36766582	1341	1343	AD	Disease	MESH:D000544
+36766582	1692	1694	AD	Disease	MESH:D000544
+36766582	1696	1699	MCI	Disease	MESH:D060825
+

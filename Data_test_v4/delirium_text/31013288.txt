@@ -1,0 +1,37 @@
+31013288|t|Identification of key regulatory genes connected to NF-kappaB family of proteins in visceral adipose tissues using gene expression and weighted protein interaction network.
+31013288|a|Obesity is connected to the activation of chronic inflammatory pathways in both adipocytes and macrophages located in adipose tissues. The nuclear factor (NF)-kappaB is a central molecule involved in inflammatory pathways linked to the pathology of different complex metabolic disorders. Investigating the gene expression data in the adipose tissue would potentially unravel disease relevant gene interactions. The present study is aimed at creating a signature molecular network and at prioritizing the potential biomarkers interacting with NF-kappaB family of proteins in obesity using system biology approaches. The dataset GSE88837 associated with obesity was downloaded from Gene Expression Omnibus (GEO) database. Statistical analysis represented the differential expression of a total of 2650 genes in adipose tissues (p = <0.05). Using concepts like correlation, semantic similarity, and theoretical graph parameters we narrowed down genes to a network of 23 genes strongly connected with NF-kappaB family with higher significance. Functional enrichment analysis revealed 21 of 23 target genes of NF-kappaB were found to have a critical role in the pathophysiology of obesity. Interestingly, GEM and PPP1R13L were predicted as novel genes which may act as potential target or biomarkers of obesity as they occur with other 21 target genes with known obesity relationship. Our study concludes that NF-kappaB and prioritized target genes regulate the inflammation in adipose tissues through several molecular signaling pathways like NF-kappaB, PI3K-Akt, glucocorticoid receptor regulatory network, angiogenesis and cytokine pathways. This integrated system biology approaches can be applied for elucidating functional protein interaction networks of NF-kappaB protein family in different complex diseases. Our integrative and network-based approach for finding therapeutic targets in genomic data could accelerate the identification of novel drug targets for obesity.
+31013288	52	61	NF-kappaB	Gene	4790
+31013288	173	180	Obesity	Disease	MESH:D009765
+31013288	223	235	inflammatory	Disease	MESH:D007249
+31013288	312	338	nuclear factor (NF)-kappaB	Gene	4790
+31013288	373	385	inflammatory	Disease	MESH:D007249
+31013288	440	459	metabolic disorders	Disease	MESH:D008659
+31013288	715	724	NF-kappaB	Gene	4790
+31013288	747	754	obesity	Disease	MESH:D009765
+31013288	825	832	obesity	Disease	MESH:D009765
+31013288	1170	1179	NF-kappaB	Gene	4790
+31013288	1278	1287	NF-kappaB	Gene	4790
+31013288	1349	1356	obesity	Disease	MESH:D009765
+31013288	1373	1376	GEM	Gene	2669
+31013288	1381	1389	PPP1R13L	Gene	10848
+31013288	1471	1478	obesity	Disease	MESH:D009765
+31013288	1531	1538	obesity	Disease	MESH:D009765
+31013288	1578	1587	NF-kappaB	Gene	4790
+31013288	1630	1642	inflammation	Disease	MESH:D007249
+31013288	1712	1721	NF-kappaB	Gene	4790
+31013288	1728	1731	Akt	Gene	207
+31013288	1733	1756	glucocorticoid receptor	Gene	2908
+31013288	1929	1938	NF-kappaB	Gene	4790
+31013288	2138	2145	obesity	Disease	MESH:D009765
+31013288	Association	MESH:D007249	2908
+31013288	Association	2669	4790
+31013288	Association	MESH:D008659	4790
+31013288	Association	10848	4790
+31013288	Association	207	4790
+31013288	Association	MESH:D009765	4790
+31013288	Association	MESH:D009765	2669
+31013288	Association	MESH:D007249	207
+31013288	Association	MESH:D007249	4790
+31013288	Association	MESH:D009765	10848
+31013288	Association	2908	4790
+

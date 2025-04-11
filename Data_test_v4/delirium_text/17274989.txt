@@ -1,0 +1,30 @@
+17274989|t|TAT-BH4 counteracts Abeta toxicity on capillary endothelium.
+17274989|a|Oxidative stress is one of the factor contributing to blood brain barrier degeneration. This phenomenon is observed during pathological conditions such as Alzheimer's disease or cerebral amyloid angiopathy in which brain haemorrhages are very frequent. Both diseases are characterized by beta amyloid peptide deposition either in neurons or in vessels. Oxidative stress leads to impairment of mitochondrial functions and apoptotic cell death subsequent to caspases activation. In this paper we demonstrate that BH4 domain of Bcl-xl administrated to endothelial cells as the conjugated form with TAT peptide, reverts Abeta-induced apoptotic cell death by activating a survival programme which is Akt/endothelial nitric oxide synthase dependent.
+17274989	0	3	TAT	Gene	6898
+17274989	4	7	BH4	Chemical	MESH:C003402
+17274989	20	25	Abeta	Gene	351
+17274989	26	34	toxicity	Disease	MESH:D064420
+17274989	216	235	Alzheimer's disease	Disease	MESH:D000544
+17274989	239	266	cerebral amyloid angiopathy	Disease	MESH:D016657
+17274989	276	294	brain haemorrhages	Disease	MESH:D020300
+17274989	349	369	beta amyloid peptide	Gene	351
+17274989	454	467	mitochondrial	Disease	MESH:D028361
+17274989	572	575	BH4	Chemical	MESH:C003402
+17274989	586	592	Bcl-xl	Gene	598
+17274989	656	659	TAT	Gene	6898
+17274989	677	682	Abeta	Gene	351
+17274989	756	759	Akt	Gene	207
+17274989	760	793	endothelial nitric oxide synthase	Gene	4846
+17274989	Association	598	6898
+17274989	Negative_Correlation	MESH:C003402	351
+17274989	Association	351	598
+17274989	Bind	MESH:C003402	6898
+17274989	Association	MESH:D064420	6898
+17274989	Positive_Correlation	207	598
+17274989	Association	4846	598
+17274989	Negative_Correlation	351	6898
+17274989	Association	MESH:D064420	351
+17274989	Association	MESH:C003402	598
+17274989	Association	207	351
+17274989	Negative_Correlation	MESH:C003402	MESH:D064420
+

@@ -1,0 +1,39 @@
+25312773|t|Machine learning framework for early MRI-based Alzheimer's conversion prediction in MCI subjects.
+25312773|a|Mild cognitive impairment (MCI) is a transitional stage between age-related cognitive decline and Alzheimer's disease (AD). For the effective treatment of AD, it would be important to identify MCI patients at high risk for conversion to AD. In this study, we present a novel magnetic resonance imaging (MRI)-based method for predicting the MCI-to-AD conversion from one to three years before the clinical diagnosis. First, we developed a novel MRI biomarker of MCI-to-AD conversion using semi-supervised learning and then integrated it with age and cognitive measures about the subjects using a supervised learning algorithm resulting in what we call the aggregate biomarker. The novel characteristics of the methods for learning the biomarkers are as follows: 1) We used a semi-supervised learning method (low density separation) for the construction of MRI biomarker as opposed to more typical supervised methods; 2) We performed a feature selection on MRI data from AD subjects and normal controls without using data from MCI subjects via regularized logistic regression; 3) We removed the aging effects from the MRI data before the classifier training to prevent possible confounding between AD and age related atrophies; and 4) We constructed the aggregate biomarker by first learning a separate MRI biomarker and then combining it with age and cognitive measures about the MCI subjects at the baseline by applying a random forest classifier. We experimentally demonstrated the added value of these novel characteristics in predicting the MCI-to-AD conversion on data obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. With the ADNI data, the MRI biomarker achieved a 10-fold cross-validated area under the receiver operating characteristic curve (AUC) of 0.7661 in discriminating progressive MCI patients (pMCI) from stable MCI patients (sMCI). Our aggregate biomarker based on MRI data together with baseline cognitive measurements and age achieved a 10-fold cross-validated AUC score of 0.9020 in discriminating pMCI from sMCI. The results presented in this study demonstrate the potential of the suggested approach for early AD diagnosis and an important role of MRI in the MCI-to-AD conversion prediction. However, it is evident based on our results that combining MRI data with cognitive test results improved the accuracy of the MCI-to-AD conversion prediction. 
+25312773	47	58	Alzheimer's	Disease	MESH:D000544
+25312773	84	87	MCI	Disease	MESH:D060825
+25312773	103	123	cognitive impairment	Disease	MESH:D003072
+25312773	125	128	MCI	Disease	MESH:D060825
+25312773	162	191	age-related cognitive decline	Disease	MESH:D003072
+25312773	196	215	Alzheimer's disease	Disease	MESH:D000544
+25312773	217	219	AD	Disease	MESH:D000544
+25312773	253	255	AD	Disease	MESH:D000544
+25312773	291	294	MCI	Disease	MESH:D060825
+25312773	295	303	patients	Species	9606
+25312773	335	337	AD	Disease	MESH:D000544
+25312773	438	441	MCI	Disease	MESH:D060825
+25312773	445	447	AD	Disease	MESH:D000544
+25312773	559	562	MCI	Disease	MESH:D060825
+25312773	566	568	AD	Disease	MESH:D000544
+25312773	1067	1069	AD	Disease	MESH:D000544
+25312773	1123	1126	MCI	Disease	MESH:D060825
+25312773	1294	1296	AD	Disease	MESH:D000544
+25312773	1301	1322	age related atrophies	Disease	MESH:D001284
+25312773	1477	1480	MCI	Disease	MESH:D060825
+25312773	1642	1645	MCI	Disease	MESH:D060825
+25312773	1649	1651	AD	Disease	MESH:D000544
+25312773	1689	1708	Alzheimer's Disease	Disease	MESH:D000544
+25312773	1924	1927	MCI	Disease	MESH:D060825
+25312773	1928	1936	patients	Species	9606
+25312773	1938	1942	pMCI	Disease	MESH:D060825
+25312773	1956	1959	MCI	Disease	MESH:D060825
+25312773	1960	1968	patients	Species	9606
+25312773	1970	1974	sMCI	Disease	MESH:D060825
+25312773	2146	2150	pMCI	Disease	MESH:D060825
+25312773	2156	2160	sMCI	Disease	MESH:D060825
+25312773	2260	2262	AD	Disease	MESH:D000544
+25312773	2309	2312	MCI	Disease	MESH:D060825
+25312773	2316	2318	AD	Disease	MESH:D000544
+25312773	2467	2470	MCI	Disease	MESH:D060825
+25312773	2474	2476	AD	Disease	MESH:D000544
+

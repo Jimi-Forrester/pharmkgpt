@@ -1,0 +1,14 @@
+21195778|t|Novel Fast Marching for Automated Segmentation of the Hippocampus (FMASH): method and validation on clinical data.
+21195778|a|With hippocampal atrophy both a clinical biomarker for early Alzheimer's Disease (AD) and implicated in many other neurological and psychiatric diseases, there is much interest in the accurate, reproducible delineation of this region of interest (ROI) in structural MR images. Here we present Fast Marching for Automated Segmentation of the Hippocampus (FMASH): a novel approach using the Sethian Fast Marching (FM) technique to grow a hippocampal ROI from an automatically-defined seed point. Segmentation performance is assessed on two separate clinical datasets, utilising expert manual labels as gold standard to quantify Dice coefficients, false positive rates (FPR) and false negative rates (FNR). The first clinical dataset (denoted CMA) contains normal controls (NC) and atrophied AD patients, whilst the second is a collection of NC and bipolar (BP) patients (denoted BPSA). An optimal and robust stopping criterion is established for the propagating FM front and the final FMASH segmentation estimates compared to two commonly-used methods: FIRST/FSL and Freesurfer (FS). Results show that FMASH outperforms both FIRST and FS on the BPSA data, with significantly higher Dice coefficients (0.80+-0.01) and lower FPR. Despite some intrinsic bias for FIRST and FS on the CMA data, due to their training, FMASH performs comparably well on the CMA data, with an average bilateral Dice coefficient of 0.82+-0.01. Furthermore, FMASH most accurately captures the hippocampal volume difference between NC and AD, and provides a more accurate estimation of the problematic hippocampus-amygdala border on both clinical datasets. The consistency in performance across the two datasets suggests that FMASH is applicable to a range of clinical data with differing image quality and demographics.
+21195778	120	139	hippocampal atrophy	Disease	MESH:D001284
+21195778	176	195	Alzheimer's Disease	Disease	MESH:D000544
+21195778	197	199	AD	Disease	MESH:D000544
+21195778	230	267	neurological and psychiatric diseases	Disease	MESH:D001523
+21195778	904	906	AD	Disease	MESH:D000544
+21195778	907	915	patients	Species	9606
+21195778	961	973	bipolar (BP)	Disease	MESH:D001714
+21195778	974	982	patients	Species	9606
+21195778	992	996	BPSA	Disease	
+21195778	1258	1262	BPSA	Disease	
+21195778	1625	1627	AD	Disease	MESH:D000544
+

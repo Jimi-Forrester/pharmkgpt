@@ -1,0 +1,60 @@
+35646058|t|Placental Gene Transcript Proportions are Altered in the Presence of In Utero Arsenic and Cadmium Exposures, Genetic Variants, and Birth Weight Differences.
+35646058|a|Background: In utero arsenic and cadmium exposures are linked with reduced birth weight as well as alterations in placental molecular features. However, studies thus far have focused on summarizing transcriptional activity at the gene level and do not capture transcript specification, an important resource during fetal development to enable adaptive responses to the rapidly changing in utero physiological conditions. In this study, we conducted a genome-wide analysis of the placental transcriptome to evaluate the role of differential transcript usage (DTU) as a potential marker of in utero arsenic and cadmium exposure and fetal growth restriction. Methods: Transcriptome-wide RNA sequencing was performed in placenta samples from the Rhode Island Child Health Study (RICHS, n = 199). Arsenic and cadmium levels were measured in maternal toenails using ICP-MS. Differential transcript usage (DTU) contrasting small (SGA) and appropriate (AGA) for gestational age infants as well as above vs. below median exposure to arsenic and cadmium were assessed using the DRIMSeq R package. Genetic variants that influence transcript usage were determined using the sQTLseeker R package. Results: We identified 82 genes demonstrating DTU in association with SGA status at an FDR <0.05. Among these, one gene, ORMDL1, also demonstrated DTU in association with arsenic exposure, and fifteen genes (CSNK1E, GBA, LAMTOR4, MORF4L1, PIGO, PSG1, PSG3, PTMA, RBMS1, SLC38A2, SMAD4, SPCS2, TUBA1B, UBE2A, YIPF5) demonstrated DTU in association with cadmium exposure. In addition to cadmium exposure and SGA status, proportions of the LAMTOR4 transcript ENST00000474141.5 also differed by genetic variants (rs10231604, rs12878, and rs3736591), suggesting a pathway by which an in utero exposure and genetic variants converge to impact fetal growth through perturbations of placental processes. Discussion: We report the first genome-wide characterization of placental transcript usage and associations with intrauterine metal exposure and fetal growth restriction. These results highlight the utility of interrogating the transcriptome at finer-scale transcript-level resolution to identify novel placental biomarkers of exposure-induced outcomes.
+35646058	78	85	Arsenic	Chemical	MESH:D001151
+35646058	90	97	Cadmium	Chemical	MESH:D002104
+35646058	178	185	arsenic	Chemical	MESH:D001151
+35646058	190	197	cadmium	Chemical	MESH:D002104
+35646058	754	761	arsenic	Chemical	MESH:D001151
+35646058	766	773	cadmium	Chemical	MESH:D002104
+35646058	787	811	fetal growth restriction	Disease	MESH:D005317
+35646058	949	956	Arsenic	Chemical	MESH:D001151
+35646058	961	968	cadmium	Chemical	MESH:D002104
+35646058	1181	1188	arsenic	Chemical	MESH:D001151
+35646058	1193	1200	cadmium	Chemical	MESH:D002104
+35646058	1462	1468	ORMDL1	Gene	94101
+35646058	1512	1519	arsenic	Chemical	MESH:D001151
+35646058	1549	1555	CSNK1E	Gene	1454
+35646058	1557	1560	GBA	Gene	2629
+35646058	1562	1569	LAMTOR4	Gene	389541
+35646058	1571	1578	MORF4L1	Gene	10933
+35646058	1580	1584	PIGO	Gene	84720
+35646058	1586	1590	PSG1	Gene	5669
+35646058	1592	1596	PSG3	Gene	5671
+35646058	1598	1602	PTMA	Gene	5757
+35646058	1604	1609	RBMS1	Gene	5937
+35646058	1611	1618	SLC38A2	Gene	54407
+35646058	1620	1625	SMAD4	Gene	4089
+35646058	1627	1632	SPCS2	Gene	9789
+35646058	1634	1640	TUBA1B	Gene	10376
+35646058	1642	1647	UBE2A	Gene	7319
+35646058	1649	1654	YIPF5	Gene	81555
+35646058	1693	1700	cadmium	Chemical	MESH:D002104
+35646058	1726	1733	cadmium	Chemical	MESH:D002104
+35646058	1778	1785	LAMTOR4	Gene	389541
+35646058	1850	1860	rs10231604	SNP	tmVar:rs10231604;VariantGroup:1;CorrespondingGene:389541;RS#:10231604;CorrespondingSpecies:9606
+35646058	1862	1869	rs12878	SNP	tmVar:rs12878;VariantGroup:2;CorrespondingGene:389541;RS#:12878;CorrespondingSpecies:9606
+35646058	1875	1884	rs3736591	SNP	tmVar:rs3736591;VariantGroup:0;CorrespondingGene:389541;RS#:3736591;CorrespondingSpecies:9606
+35646058	2182	2206	fetal growth restriction	Disease	MESH:D005317
+35646058	Association	MESH:D002104	4089
+35646058	Association	MESH:D002104	81555
+35646058	Association	MESH:D002104	RS#:12878;CorrespondingGene:389541
+35646058	Association	MESH:D001151	94101
+35646058	Positive_Correlation	MESH:D002104	RS#:3736591;CorrespondingGene:389541
+35646058	Association	MESH:D002104	5937
+35646058	Association	MESH:D002104	10933
+35646058	Association	MESH:D002104	RS#:10231604;CorrespondingGene:389541
+35646058	Association	MESH:D002104	5757
+35646058	Association	MESH:D001151	MESH:D005317
+35646058	Association	MESH:D002104	84720
+35646058	Association	MESH:D002104	7319
+35646058	Association	MESH:D002104	5671
+35646058	Association	MESH:D002104	2629
+35646058	Association	MESH:D002104	389541
+35646058	Association	MESH:D002104	9789
+35646058	Association	MESH:D002104	10376
+35646058	Association	MESH:D002104	5669
+35646058	Association	MESH:D002104	54407
+35646058	Association	MESH:D002104	94101
+35646058	Association	MESH:D002104	1454
+35646058	Positive_Correlation	MESH:D002104	MESH:D005317
+

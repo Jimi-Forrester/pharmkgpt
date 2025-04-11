@@ -1,0 +1,54 @@
+35818398|t|Systems biology models to identify the influence of SARS-CoV-2 infections to the progression of human autoimmune diseases.
+35818398|a|Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has been circulating since 2019, and its global dominance is rising. Evidences suggest the respiratory illness SARS-CoV-2 has a sensitive affect on causing organ damage and other complications to the patients with autoimmune diseases (AD), posing a significant risk factor. The genetic interrelationships and molecular appearances between SARS-CoV-2 and AD are yet unknown. We carried out the transcriptomic analytical framework to delve into the SARS-CoV-2 impacts on AD progression. We analyzed both gene expression microarray and RNA-Seq datasets from SARS-CoV-2 and AD affected tissues. With neighborhood-based benchmarks and multilevel network topology, we obtained dysfunctional signaling and ontological pathways, gene disease (diseasesome) association network and protein-protein interaction network (PPIN), uncovered essential shared infection recurrence connectivities with biological insights underlying between SARS-CoV-2 and AD. We found a total of 77, 21, 9, 54 common DEGs for SARS-CoV-2 and inflammatory bowel disorder (IBD), SARS-CoV-2 and rheumatoid arthritis (RA), SARS-CoV-2 and systemic lupus erythematosus (SLE) and SARS-CoV-2 and type 1 diabetes (T1D). The enclosure of these common DEGs with bimolecular networks revealed 10 hub proteins (FYN, VEGFA, CTNNB1, KDR, STAT1, B2M, CD3G, ITGAV, TGFB3). Drugs such as amlodipine besylate, vorinostat, methylprednisolone, and disulfiram have been identified as a common ground between SARS-CoV-2 and AD from drug repurposing investigation which will stimulate the optimal selection of medications in the battle against this ongoing pandemic triggered by COVID-19.
+35818398	52	73	SARS-CoV-2 infections	Disease	MESH:D000086382
+35818398	96	101	human	Species	9606
+35818398	102	121	autoimmune diseases	Disease	MESH:D001327
+35818398	123	170	Severe acute respiratory syndrome coronavirus 2	Species	2697049
+35818398	172	182	SARS-CoV-2	Species	2697049
+35818398	295	305	SARS-CoV-2	Species	2697049
+35818398	340	352	organ damage	Disease	MESH:D000092124
+35818398	384	392	patients	Species	9606
+35818398	398	417	autoimmune diseases	Disease	MESH:D001327
+35818398	419	421	AD	Disease	MESH:D001327
+35818398	523	533	SARS-CoV-2	Species	2697049
+35818398	538	540	AD	Disease	MESH:D001327
+35818398	631	641	SARS-CoV-2	Species	2697049
+35818398	653	655	AD	Disease	MESH:D001327
+35818398	739	749	SARS-CoV-2	Species	2697049
+35818398	754	756	AD	Disease	MESH:D001327
+35818398	1027	1036	infection	Disease	MESH:D007239
+35818398	1107	1117	SARS-CoV-2	Species	2697049
+35818398	1122	1124	AD	Disease	MESH:D001327
+35818398	1176	1186	SARS-CoV-2	Species	2697049
+35818398	1191	1218	inflammatory bowel disorder	Disease	MESH:D015212
+35818398	1220	1223	IBD	Disease	MESH:D015212
+35818398	1226	1236	SARS-CoV-2	Species	2697049
+35818398	1241	1261	rheumatoid arthritis	Disease	MESH:D001172
+35818398	1263	1265	RA	Disease	MESH:D001172
+35818398	1268	1278	SARS-CoV-2	Species	2697049
+35818398	1283	1311	systemic lupus erythematosus	Disease	MESH:D008180
+35818398	1313	1316	SLE	Disease	MESH:D008180
+35818398	1322	1332	SARS-CoV-2	Species	2697049
+35818398	1337	1352	type 1 diabetes	Disease	MESH:D003922
+35818398	1354	1357	T1D	Disease	MESH:D003922
+35818398	1447	1450	FYN	Gene	2534
+35818398	1452	1457	VEGFA	Gene	7422
+35818398	1459	1465	CTNNB1	Gene	1499
+35818398	1467	1470	KDR	Gene	3791
+35818398	1472	1477	STAT1	Gene	6772
+35818398	1479	1482	B2M	Gene	567
+35818398	1484	1488	CD3G	Gene	917
+35818398	1490	1495	ITGAV	Gene	3685
+35818398	1497	1502	TGFB3	Gene	7043
+35818398	1519	1538	amlodipine besylate	Chemical	MESH:D017311
+35818398	1540	1550	vorinostat	Chemical	MESH:D000077337
+35818398	1552	1570	methylprednisolone	Chemical	MESH:D008775
+35818398	1576	1586	disulfiram	Chemical	MESH:D004221
+35818398	1635	1645	SARS-CoV-2	Species	2697049
+35818398	1650	1652	AD	Disease	MESH:D001327
+35818398	1804	1812	COVID-19	Disease	MESH:D000086382
+35818398	Negative_Correlation	MESH:D004221	MESH:D001327
+35818398	Negative_Correlation	MESH:D008775	MESH:D001327
+35818398	Negative_Correlation	MESH:D017311	MESH:D001327
+35818398	Negative_Correlation	MESH:D000077337	MESH:D001327
+

@@ -1,0 +1,41 @@
+35681322|t|Catechin Mediates Ferroptosis to Exert an Anti-Inflammatory Effect on RAW 264.7 Cells.
+35681322|a|Catechin possesses a potential anti-inflammatory activity, but its anti-inflammatory mechanism is still unclear. Herein, the analysis of network pharmacology showed that catechin might mediate ferroptosis on macrophages to exhibit a significant anti-inflammatory effect on RAW264.7. The metabolomics further indicated that catechin might influence ferroptosis by activating two pathways of cysteine and methionine metabolism and glutathione metabolism, and inhibiting the pathway of ferroptosis to promote the reduction of l-methionine-s-oxide and s-glutathionyl-l-cysteine, and the reduction and synthesis of gamma-glutamylcysteine. Furthermore, related proteins (MSRA, CDR, GSR and GCL) in three metabolic pathways and ferroptosis-related proteins (GPX4 and SLC7A11) might be relevant to catechin through molecular docking. Thus, we speculate that catechin plays an anti-inflammatory effect through mediating ferroptosis on RAW264.7, which still needs further focus on the detailed molecular mechanism.
+35681322	0	8	Catechin	Chemical	MESH:D002392
+35681322	18	29	Ferroptosis	Disease	
+35681322	47	59	Inflammatory	Disease	MESH:D007249
+35681322	70	79	RAW 264.7	CellLine	CVCL:0493
+35681322	87	95	Catechin	Chemical	MESH:D002392
+35681322	123	135	inflammatory	Disease	MESH:D007249
+35681322	159	171	inflammatory	Disease	MESH:D007249
+35681322	257	265	catechin	Chemical	MESH:D002392
+35681322	280	291	ferroptosis	Disease	
+35681322	337	349	inflammatory	Disease	MESH:D007249
+35681322	360	368	RAW264.7	CellLine	CVCL:0493
+35681322	410	418	catechin	Chemical	MESH:D002392
+35681322	435	446	ferroptosis	Disease	
+35681322	477	485	cysteine	Chemical	MESH:D003545
+35681322	490	500	methionine	Chemical	MESH:D008715
+35681322	516	527	glutathione	Chemical	MESH:D005978
+35681322	570	581	ferroptosis	Disease	
+35681322	610	630	l-methionine-s-oxide	Chemical	MESH:C013111
+35681322	635	660	s-glutathionyl-l-cysteine	Chemical	-
+35681322	697	719	gamma-glutamylcysteine	Chemical	MESH:C017341
+35681322	771	774	GCL	Gene	23885
+35681322	808	819	ferroptosis	Disease	
+35681322	838	842	GPX4	Gene	625249
+35681322	847	854	SLC7A11	Gene	26570
+35681322	877	885	catechin	Chemical	MESH:D002392
+35681322	937	945	catechin	Chemical	MESH:D002392
+35681322	960	972	inflammatory	Disease	MESH:D007249
+35681322	998	1009	ferroptosis	Disease	
+35681322	1013	1021	RAW264.7	CellLine	CVCL:0493
+35681322	Association	MESH:D002392	26570
+35681322	Negative_Correlation	MESH:C017341	MESH:D002392
+35681322	Positive_Correlation	MESH:D002392	MESH:D003545
+35681322	Positive_Correlation	MESH:D002392	MESH:D008715
+35681322	Negative_Correlation	MESH:C013111	MESH:D002392
+35681322	Association	MESH:D002392	625249
+35681322	Negative_Correlation	MESH:D002392	MESH:D007249
+35681322	Association	MESH:D002392	23885
+35681322	Association	MESH:D002392	MESH:D005978
+

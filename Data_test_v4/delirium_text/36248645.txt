@@ -1,0 +1,16 @@
+36248645|t|Brain state transition analysis using ultra-fast fMRI differentiates MCI from cognitively normal controls.
+36248645|a|Purpose: Conventional resting-state fMRI studies indicate that many cortical and subcortical regions have altered function in Alzheimer's disease (AD) but the nature of this alteration has remained unclear. Ultrafast fMRIs with sub-second acquisition times have the potential to improve signal contrast and enable advanced analyses to understand temporal interactions between brain regions as opposed to spatial interactions. In this work, we leverage such fast fMRI acquisitions from Alzheimer's disease Neuroimaging Initiative to understand temporal differences in the interactions between resting-state networks in 55 older adults with mild cognitive impairment (MCI) and 50 cognitively normal healthy controls. Methods: We used a sliding window approach followed by k-means clustering. At each window, we computed connectivity i.e., correlations within and across the regions of the default mode, salience, dorsal attention, and frontoparietal network. Visual and somatosensory networks were excluded due to their lack of association with AD. Using the Davies-Bouldin index, we identified clusters of windows with distinct connectivity patterns, also referred to as brain states. The fMRI time courses were converted into time courses depicting brain state transition. From these state time course, we calculated the dwell time for each state i.e., how long a participant spent in each state. We determined how likely a participant transitioned between brain states. Both metrics were compared between MCI participants and controls using a false discovery rate correction of multiple comparisons at a threshold of. 0.05. Results: We identified 8 distinct brain states representing connectivity within and between the resting state networks. We identified three transitions that were different between controls and MCI, all involving transitions in connectivity between frontoparietal, dorsal attention, and default mode networks (p<0.04). Conclusion: We show that ultra-fast fMRI paired with dynamic functional connectivity analysis allows us to capture temporal transitions between brain states. Most changes were associated with transitions between the frontoparietal and dorsal attention networks connectivity and their interaction with the default mode network. Although future work needs to validate these findings, the brain networks identified in our work are known to interact with each other and play an important role in cognitive function and memory impairment in AD.
+36248645	69	72	MCI	Disease	MESH:D060825
+36248645	233	252	Alzheimer's disease	Disease	MESH:D000544
+36248645	254	256	AD	Disease	MESH:D000544
+36248645	592	611	Alzheimer's disease	Disease	MESH:D000544
+36248645	751	771	cognitive impairment	Disease	MESH:D003072
+36248645	773	776	MCI	Disease	MESH:D060825
+36248645	1150	1152	AD	Disease	MESH:D000544
+36248645	1471	1482	participant	Species	9606
+36248645	1531	1542	participant	Species	9606
+36248645	1613	1616	MCI	Disease	MESH:D060825
+36248645	1925	1928	MCI	Disease	MESH:D060825
+36248645	2565	2582	memory impairment	Disease	MESH:D008569
+36248645	2586	2588	AD	Disease	MESH:D000544
+

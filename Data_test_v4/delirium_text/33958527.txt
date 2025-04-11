@@ -1,0 +1,35 @@
+33958527|t|Preoperative laboratory testing in elderly patients.
+33958527|a|PURPOSE OF REVIEW: Preoperative testing in elderly patients is performed to examine the patient's current medical condition in the context of evaluating vulnerabilities and predicting postoperative complications to ensure that all functions recover before surgery. This review focused on preoperative laboratory tests in geriatric patients. RECENT FINDINGS: Preoperative complete blood count, electrolyte testing, and blood chemistry can predict postoperative complications. Preoperative elevated morning/evening salivary cortisol secretion ratio, C-reactive protein/albumin ratio (CAR), neutrophil/lymphocyte ratios, and preoperative decreased serum albumin level or 25-hydroxyvitamin D levels can predict postoperative cognitive dysfunction. Elevated brain-type natriuretic peptide or serum alkaline phosphatase levels can be biomarkers of major postoperative adverse cardiac events. Decreased preoperative estimated glomerular filtration rates and serum albumin levels can predict acute kidney injury. Hyponatremia, hypocalcemia, and low albumin/fibrinogen ratio predict postoperative complications. Hypoalbuminemia can predict surgical site infection or postoperative mortality after hip fracture surgery. A high CAR can predict anastomotic site leakage and is a risk factor for one-year mortality after hip surgery. SUMMARY: Preoperative laboratory testing helps predict postoperative adverse complications; thus, a plan of care can be initiated.
+33958527	43	51	patients	Species	9606
+33958527	104	112	patients	Species	9606
+33958527	141	148	patient	Species	9606
+33958527	237	264	postoperative complications	Disease	MESH:D011183
+33958527	384	392	patients	Species	9606
+33958527	499	526	postoperative complications	Disease	MESH:D011183
+33958527	575	583	cortisol	Chemical	MESH:D006854
+33958527	601	619	C-reactive protein	Gene	1401
+33958527	620	627	albumin	Gene	213
+33958527	704	711	albumin	Gene	213
+33958527	721	740	25-hydroxyvitamin D	Chemical	MESH:C104450
+33958527	774	795	cognitive dysfunction	Disease	MESH:D003072
+33958527	806	836	brain-type natriuretic peptide	Gene	4879
+33958527	901	937	postoperative adverse cardiac events	Disease	MESH:D002318
+33958527	1010	1017	albumin	Gene	213
+33958527	1037	1056	acute kidney injury	Disease	MESH:D058186
+33958527	1058	1070	Hyponatremia	Disease	MESH:D007010
+33958527	1072	1084	hypocalcemia	Disease	MESH:D006996
+33958527	1094	1101	albumin	Gene	213
+33958527	1102	1112	fibrinogen	Gene	2244
+33958527	1127	1154	postoperative complications	Disease	MESH:D011183
+33958527	1156	1171	Hypoalbuminemia	Disease	MESH:D034141
+33958527	1198	1207	infection	Disease	MESH:D007239
+33958527	1241	1253	hip fracture	Disease	MESH:D006620
+33958527	1303	1310	leakage	Disease	MESH:D003763
+33958527	Association	MESH:D011183	2244
+33958527	Positive_Correlation	MESH:D002318	4879
+33958527	Association	MESH:D003072	1401
+33958527	Negative_Correlation	MESH:C104450	MESH:D003072
+33958527	Association	MESH:D003072	213
+33958527	Positive_Correlation	MESH:D006854	MESH:D003072
+33958527	Association	MESH:D058186	213
+

@@ -1,0 +1,15 @@
+36086432|t|Fair and Privacy-Preserving Alzheimer's Disease Diagnosis Based on Spontaneous Speech Analysis via Federated Learning.
+36086432|a|As the most common neurodegenerative disease among older adults, Alzheimer's disease (AD) would lead to loss of memory, impaired language and judgment, gait disorders, and other cognitive deficits severe enough to interfere with daily activities and significantly diminish quality of life. Recent research has shown promising results in automatic AD diagnosis via speech, leveraging the advances of deep learning in the audio domain. However, most existing studies rely on a centralized learning framework which requires subjects' voice data to be gathered to a central server, raising severe privacy concerns. To resolve this, in this paper, we propose the first federated-learning-based approach for achieving automatic AD diagnosis via spontaneous speech analysis while ensuring the subjects' data privacy. Extensive experiments under various federated learning settings on the ADReSS challenge dataset show that the proposed model can achieve high accuracy for AD detection while achieving privacy preservation. To ensure fairness of the model performance across clients in federated settings, we further deploy fair aggregation mechanisms, particularly q-FEDAvg and q-FEDSgd, which greatly reduces the algorithmic biases due to the data heterogeneity among the clients. Clinical Relevance -The experiments were conducted on publicly available clinical datasets. No humans or animals were involved.
+36086432	28	47	Alzheimer's Disease	Disease	MESH:D000544
+36086432	138	163	neurodegenerative disease	Disease	MESH:D019636
+36086432	184	203	Alzheimer's disease	Disease	MESH:D000544
+36086432	205	207	AD	Disease	MESH:D000544
+36086432	223	237	loss of memory	Disease	MESH:D008569
+36086432	239	269	impaired language and judgment	Disease	MESH:D007806
+36086432	271	285	gait disorders	Disease	MESH:D020233
+36086432	297	315	cognitive deficits	Disease	MESH:D003072
+36086432	466	468	AD	Disease	MESH:D000544
+36086432	841	843	AD	Disease	MESH:D000544
+36086432	1084	1086	AD	Disease	MESH:D000544
+36086432	1489	1495	humans	Species	9606
+

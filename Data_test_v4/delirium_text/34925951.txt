@@ -1,0 +1,26 @@
+34925951|t|Prediction of Postoperative Delirium in Geriatric Hip Fracture Patients: A Clinical Prediction Model Using Machine Learning Algorithms.
+34925951|a|INTRODUCTION: Postoperative delirium in geriatric hip fracture patients adversely affects clinical and functional outcomes and increases costs. A preoperative prediction tool to identify high-risk patients may facilitate optimal use of preventive interventions. The purpose of this study was to develop a clinical prediction model using machine learning algorithms for preoperative prediction of postoperative delirium in geriatric hip fracture patients. MATERIALS & METHODS: Geriatric patients undergoing operative hip fracture fixation were queried in the American College of Surgeons National Surgical Quality Improvement Program database (ACS NSQIP) from 2016 through 2019. A total of 28 207 patients were included, of which 8030 (28.5%) developed a postoperative delirium. First, the dataset was randomly split 80:20 into a training and testing subset. Then, a random forest (RF) algorithm was used to identify the variables predictive for a postoperative delirium. The machine learning-model was developed on the training set and the performance was assessed in the testing set. Performance was assessed by discrimination (c-statistic), calibration (slope and intercept), overall performance (Brier-score), and decision curve analysis. RESULTS: The included variables identified using RF algorithms were (1) age, (2) ASA class, (3) functional status, (4) preoperative dementia, (5) preoperative delirium, and (6) preoperative need for mobility-aid. The clinical prediction model reached good discrimination (c-statistic = .79), almost perfect calibration (intercept = -.01, slope = 1.02), and excellent overall model performance (Brier score = .15). The clinical prediction model was deployed as an open-access web-application: https://sorg-apps.shinyapps.io/hipfxdelirium/. DISCUSSION & CONCLUSIONS: We developed a clinical prediction model that shows promise in estimating the risk of postoperative delirium in geriatric hip fracture patients. The clinical prediction model can play a beneficial role in decision-making for preventative measures for patients at risk of developing a delirium. If found to be externally valid, clinicians might use the available web-based application to help incorporate the model into clinical practice to aid decision-making and optimize preoperative prevention efforts.
+34925951	14	36	Postoperative Delirium	Disease	MESH:D000071257
+34925951	50	62	Hip Fracture	Disease	MESH:D006620
+34925951	63	71	Patients	Species	9606
+34925951	150	172	Postoperative delirium	Disease	MESH:D000071257
+34925951	186	198	hip fracture	Disease	MESH:D006620
+34925951	199	207	patients	Species	9606
+34925951	333	341	patients	Species	9606
+34925951	532	554	postoperative delirium	Disease	MESH:D000071257
+34925951	568	580	hip fracture	Disease	MESH:D006620
+34925951	581	589	patients	Species	9606
+34925951	622	630	patients	Species	9606
+34925951	652	664	hip fracture	Disease	MESH:D006620
+34925951	832	840	patients	Species	9606
+34925951	890	912	postoperative delirium	Disease	MESH:D000071257
+34925951	1083	1105	postoperative delirium	Disease	MESH:D000071257
+34925951	1510	1518	dementia	Disease	MESH:D003704
+34925951	1537	1545	delirium	Disease	MESH:D003693
+34925951	1901	1914	hipfxdelirium	Disease	
+34925951	2029	2051	postoperative delirium	Disease	MESH:D000071257
+34925951	2065	2077	hip fracture	Disease	MESH:D006620
+34925951	2078	2086	patients	Species	9606
+34925951	2194	2202	patients	Species	9606
+34925951	2227	2235	delirium	Disease	MESH:D003693
+

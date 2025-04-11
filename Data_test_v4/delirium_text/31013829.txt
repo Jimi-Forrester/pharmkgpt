@@ -1,0 +1,41 @@
+31013829|t|Crosstalk between p38 and Erk 1/2 in Downregulation of FGF1-Induced Signaling.
+31013829|a|Mitogen-activated protein kinases (MAPK): Erk1 and Erk2 are key players in negative-feedback regulation of fibroblast growth factor (FGF) signaling. Upon activation, Erk1 and Erk2 directly phosphorylate FGF receptor 1 (FGFR1) at a specific serine residue in the C-terminal part of the receptor, substantially reducing the tyrosine phosphorylation in the receptor kinase domain and its signaling. Similarly, active Erks can also phosphorylate multiple threonine residues in the docking protein FGF receptor substrate 2 (FRS2), a major mediator of FGFR signaling. Here, we demonstrate that in NIH3T3 mouse fibroblasts and human osteosarcoma U2OS cells stably expressing FGFR1, in addition to Erk1 and Erk2, p38 kinase is able to phosphorylate FRS2. Simultaneous inhibition of Erk1/2 and p38 kinase led to a significant change in the phosphorylation pattern of FRS2 that in turn resulted in prolonged tyrosine phosphorylation of FGFR1 and FRS2 and in sustained signaling, as compared to the selective inhibition of Erks. Furthermore, excessive activation of p38 with anisomycin partially compensated the lack of Erks activity. These experiments reveal a novel crosstalk between p38 and Erk1/2 in downregulation of FGF-induced signaling.
+31013829	18	21	p38	Gene	26416
+31013829	26	33	Erk 1/2	Gene	26417;26413
+31013829	55	59	FGF1	Gene	14164
+31013829	121	125	Erk1	Gene	5595
+31013829	130	134	Erk2	Gene	5594
+31013829	245	249	Erk1	Gene	26417
+31013829	254	258	Erk2	Gene	26413
+31013829	282	296	FGF receptor 1	Gene	14182
+31013829	298	303	FGFR1	Gene	14182
+31013829	572	596	FGF receptor substrate 2	Gene	10818
+31013829	598	602	FRS2	Gene	10818
+31013829	670	694	NIH3T3 mouse fibroblasts	CellLine	CVCL:0594
+31013829	699	704	human	Species	9606
+31013829	705	717	osteosarcoma	Disease	MESH:D012516
+31013829	718	722	U2OS	CellLine	CVCL:0042
+31013829	747	752	FGFR1	Gene	2260
+31013829	769	773	Erk1	Gene	5595
+31013829	778	782	Erk2	Gene	5594
+31013829	820	824	FRS2	Gene	10818
+31013829	853	859	Erk1/2	Gene	26417;26413
+31013829	937	941	FRS2	Gene	10818
+31013829	1005	1010	FGFR1	Gene	2260
+31013829	1015	1019	FRS2	Gene	10818
+31013829	1134	1137	p38	Gene	26416
+31013829	1143	1153	anisomycin	Chemical	MESH:D000841
+31013829	1254	1257	p38	Gene	26416
+31013829	1262	1268	Erk1/2	Gene	26417;26413
+31013829	Association	26413	26416
+31013829	Association	14164	26417
+31013829	Association	26416	26417
+31013829	Association	10818	26417
+31013829	Negative_Correlation	14164	26416
+31013829	Association	10818	26413
+31013829	Bind	10818	2260
+31013829	Positive_Correlation	MESH:D000841	26416
+31013829	Association	14182	26417
+31013829	Association	14182	26413
+31013829	Association	14164	26413
+

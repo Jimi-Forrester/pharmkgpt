@@ -1,0 +1,24 @@
+36121183|t|Ensemble of convolutional neural networks and multilayer perceptron for the diagnosis of mild cognitive impairment and Alzheimer's disease.
+36121183|a|BACKGROUND: Structural magnetic resonance imaging (sMRI) can provide morphological information about the structure and function of the brain in the same scanning process. It has been widely used in the diagnosis of Alzheimer's disease (AD) and mild cognitive impairment (MCI). PURPOSE: To capture the anatomical changes in the brain caused by AD/MCI, deep learning-based MRI image analysis methods have been proposed in recent years. However, it is observed that the performance of most existing methods is limited as they only construct a single type of deep network and ignore the significance of other clinical information. METHODS: To make up for these defects, an ensemble framework that incorporates three types of dedicatedly-designed convolutional neural networks (CNNs) and a multilayer perceptron (MLP) network is proposed, where three CNNs with entropy-based multi-instance learning pooling layers have more reliable feature selection abilities. The dedicatedly-designed base classifiers can make use of the heterogeneous data, and empower the framework with enhanced diversity and robustness. In particular, to consider the interactions among the base classifiers, a novel multi-head self-attention voting scheme is designed. Moreover, considering the chance that MCI can be transformed to AD, the proposed framework is designed to diagnose AD and predict MCI conversion simultaneously, with the aid of the transfer learning technique. RESULTS: For performance evaluation and comparison, extensive experiments are conducted on the public dataset of the Alzheimer's Disease Neuroimaging Initiative (ADNI). The results show that the proposed ensemble framework provides superior performance under most of the evaluation metrics. Especially, the proposed framework achieves state-of-the-art diagnostic accuracy (98.61% for the AD diagnosis task, and 84.49% for the MCI conversion prediction task). CONCLUSIONS: These promising results demonstrate the proposed ensemble framework can accurately diagnose AD patients and predict the conversion of MCI patients, which has the potential of clinical practice for diagnosing AD and MCI.
+36121183	89	114	mild cognitive impairment	Disease	MESH:D060825
+36121183	119	138	Alzheimer's disease	Disease	MESH:D000544
+36121183	355	374	Alzheimer's disease	Disease	MESH:D000544
+36121183	376	378	AD	Disease	MESH:D000544
+36121183	384	409	mild cognitive impairment	Disease	MESH:D060825
+36121183	411	414	MCI	Disease	MESH:D060825
+36121183	483	485	AD	Disease	MESH:D000544
+36121183	486	489	MCI	Disease	MESH:D060825
+36121183	1416	1419	MCI	Disease	MESH:D060825
+36121183	1442	1444	AD	Disease	MESH:D000544
+36121183	1493	1495	AD	Disease	MESH:D000544
+36121183	1508	1511	MCI	Disease	MESH:D060825
+36121183	1705	1724	Alzheimer's Disease	Disease	MESH:D000544
+36121183	1976	1978	AD	Disease	MESH:D000544
+36121183	2014	2017	MCI	Disease	MESH:D060825
+36121183	2152	2154	AD	Disease	MESH:D000544
+36121183	2155	2163	patients	Species	9606
+36121183	2194	2197	MCI	Disease	MESH:D060825
+36121183	2198	2206	patients	Species	9606
+36121183	2268	2270	AD	Disease	MESH:D000544
+36121183	2275	2278	MCI	Disease	MESH:D060825
+

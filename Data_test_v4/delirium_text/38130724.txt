@@ -1,0 +1,39 @@
+38130724|t|Identification of driver genes in lupus nephritis based on comprehensive bioinformatics and machine learning.
+38130724|a|Background: Lupus nephritis (LN) is a common and severe glomerulonephritis that often occurs as an organ manifestation of systemic lupus erythematosus (SLE). However, the complex pathological mechanisms associated with LN have hindered the progress of targeted therapies. Methods: We analyzed glomerular tissues from 133 patients with LN and 51 normal controls using data obtained from the GEO database. Differentially expressed genes (DEGs) were identified and subjected to enrichment analysis. Weighted gene co-expression network analysis (WGCNA) was utilized to identify key gene modules. The least absolute shrinkage and selection operator (LASSO) and random forest were used to identify hub genes. We also analyzed immune cell infiltration using CIBERSORT. Additionally, we investigated the relationships between hub genes and clinicopathological features, as well as examined the distribution and expression of hub genes in the kidney. Results: A total of 270 DEGs were identified in LN. Using weighted gene co-expression network analysis (WGCNA), we clustered these DEGs into 14 modules. Among them, the turquoise module displayed a significant correlation with LN (cor=0.88, p<0.0001). Machine learning techniques identified four hub genes, namely CD53 (AUC=0.995), TGFBI (AUC=0.997), MS4A6A (AUC=0.994), and HERC6 (AUC=0.999), which are involved in inflammation response and immune activation. CIBERSORT analysis suggested that these hub genes may contribute to immune cell infiltration. Furthermore, these hub genes exhibited strong correlations with the classification, renal function, and proteinuria of LN. Interestingly, the highest hub gene expression score was observed in macrophages. Conclusion: CD53, TGFBI, MS4A6A, and HERC6 have emerged as promising candidate driver genes for LN. These hub genes hold the potential to offer valuable insights into the molecular diagnosis and treatment of LN.
+38130724	34	49	lupus nephritis	Disease	MESH:D008181
+38130724	122	137	Lupus nephritis	Disease	MESH:D008181
+38130724	139	141	LN	Disease	MESH:D008181
+38130724	166	184	glomerulonephritis	Disease	MESH:D005921
+38130724	232	260	systemic lupus erythematosus	Disease	MESH:D008180
+38130724	262	265	SLE	Disease	MESH:D008180
+38130724	329	331	LN	Disease	MESH:D008181
+38130724	431	439	patients	Species	9606
+38130724	445	447	LN	Disease	MESH:D008181
+38130724	1100	1102	LN	Disease	MESH:D008181
+38130724	1279	1281	LN	Disease	MESH:D008181
+38130724	1366	1370	CD53	Gene	963
+38130724	1384	1389	TGFBI	Gene	7045
+38130724	1403	1409	MS4A6A	Gene	64231
+38130724	1427	1432	HERC6	Gene	55008
+38130724	1468	1480	inflammation	Disease	MESH:D007249
+38130724	1711	1722	proteinuria	Disease	MESH:D011507
+38130724	1726	1728	LN	Disease	MESH:D008181
+38130724	1824	1828	CD53	Gene	963
+38130724	1830	1835	TGFBI	Gene	7045
+38130724	1837	1843	MS4A6A	Gene	64231
+38130724	1849	1854	HERC6	Gene	55008
+38130724	1908	1910	LN	Disease	MESH:D008181
+38130724	2020	2022	LN	Disease	MESH:D008181
+38130724	Association	MESH:D008181	64231
+38130724	Association	MESH:D011507	55008
+38130724	Association	MESH:D007249	7045
+38130724	Association	MESH:D008181	963
+38130724	Association	MESH:D011507	64231
+38130724	Association	MESH:D007249	55008
+38130724	Association	MESH:D008181	7045
+38130724	Association	MESH:D008181	55008
+38130724	Association	MESH:D007249	64231
+38130724	Association	MESH:D011507	963
+38130724	Association	MESH:D007249	963
+38130724	Association	MESH:D011507	7045
+

@@ -1,0 +1,58 @@
+39306020|t|Astrocyte-derived lactoferrin inhibits neuronal ferroptosis by reducing iron content and GPX4 degradation in APP/PS1 transgenic mice.
+39306020|a|Increased astrocytic lactoferrin (Lf) expression was observed in the brains of elderly individuals and Alzheimer's disease (AD) patients. Our previous study revealed that astrocytic Lf overexpression improved cognitive capacity by facilitating Lf secretion to neurons to inhibit beta-amyloid protein (Abeta) production in APP/PS1 mice. Here, we further discovered that astrocytic Lf overexpression inhibited neuronal loss by decreasing iron accumulation and increasing glutathione peroxidase 4 (GPX4) expression in neurons within APP/PS1 mice. Furthermore, human Lf (hLf) treatment inhibited ammonium ferric citrate (FAC)-induced ferroptosis by chelating intracellular iron. Additionally, machine learning analysis uncovered a correlation between Lf and GPX4. hLf treatment boosted low-density lipoprotein receptor-related protein 1 (LRP1) internalization and facilitated its interaction with heat shock cognate 70 (HSC70), thereby inhibiting HSC70 binds to GPX4, and eventually attenuating GPX4 degradation and FAC-induced ferroptosis. Overall, astrocytic Lf overexpression inhibited neuronal ferroptosis through two pathways: reducing intracellular iron accumulation and promoting GPX4 expression via inhibiting chaperone-mediated autophagy (CMA)-mediated GPX4 degradation. Hence, upregulating astrocytic Lf expression is a promising strategy for combating AD.
+39306020	18	29	lactoferrin	Gene	17002
+39306020	48	59	ferroptosis	Disease	
+39306020	72	76	iron	Chemical	MESH:D007501
+39306020	89	93	GPX4	Gene	625249
+39306020	113	116	PS1	Gene	19164
+39306020	128	132	mice	Species	10090
+39306020	155	166	lactoferrin	Gene	17002
+39306020	237	256	Alzheimer's disease	Disease	MESH:D000544
+39306020	258	260	AD	Disease	MESH:D000544
+39306020	262	270	patients	Species	9606
+39306020	316	318	Lf	Gene	17002
+39306020	378	380	Lf	Gene	17002
+39306020	435	440	Abeta	Gene	11820
+39306020	460	463	PS1	Gene	19164
+39306020	464	468	mice	Species	10090
+39306020	542	555	neuronal loss	Disease	MESH:D009410
+39306020	570	574	iron	Chemical	MESH:D007501
+39306020	603	627	glutathione peroxidase 4	Gene	625249
+39306020	629	633	GPX4	Gene	625249
+39306020	668	671	PS1	Gene	19164
+39306020	672	676	mice	Species	10090
+39306020	691	696	human	Species	9606
+39306020	701	704	hLf	Gene	3131
+39306020	726	749	ammonium ferric citrate	Chemical	MESH:C013531
+39306020	764	775	ferroptosis	Disease	
+39306020	803	807	iron	Chemical	MESH:D007501
+39306020	888	892	GPX4	Gene	625249
+39306020	894	897	hLf	Gene	3131
+39306020	916	966	low-density lipoprotein receptor-related protein 1	Gene	4035
+39306020	968	972	LRP1	Gene	4035
+39306020	1027	1048	heat shock cognate 70	Gene	15481
+39306020	1050	1055	HSC70	Gene	15481
+39306020	1077	1082	HSC70	Gene	15481
+39306020	1092	1096	GPX4	Gene	625249
+39306020	1125	1129	GPX4	Gene	625249
+39306020	1146	1149	FAC	CellLine	
+39306020	1158	1169	ferroptosis	Disease	
+39306020	1228	1239	ferroptosis	Disease	
+39306020	1285	1289	iron	Chemical	MESH:D007501
+39306020	1317	1321	GPX4	Gene	625249
+39306020	1392	1396	GPX4	Gene	625249
+39306020	1441	1443	Lf	Gene	17002
+39306020	1493	1495	AD	Disease	MESH:D000544
+39306020	Association	15481	3131
+39306020	Association	15481	625249
+39306020	Positive_Correlation	3131	625249
+39306020	Positive_Correlation	MESH:D000544	17002
+39306020	Association	MESH:D007501	3131
+39306020	Positive_Correlation	17002	3131
+39306020	Negative_Correlation	17002	625249
+39306020	Positive_Correlation	MESH:D007501	MESH:D009410
+39306020	Negative_Correlation	11820	17002
+39306020	Negative_Correlation	MESH:D007501	17002
+39306020	Association	3131	4035
+39306020	Negative_Correlation	MESH:C013531	3131
+

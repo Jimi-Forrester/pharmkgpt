@@ -1,0 +1,16 @@
+29265413|t|Integrating genome-wide association study summaries and element-gene interaction datasets identified multiple associations between elements and complex diseases.
+29265413|a|Chemical elements are closely related to human health. Extensive genomic profile data of complex diseases offer us a good opportunity to systemically investigate the relationships between elements and complex diseases/traits. In this study, we applied gene set enrichment analysis (GSEA) approach to detect the associations between elements and complex diseases/traits though integrating element-gene interaction datasets and genome-wide association study (GWAS) data of complex diseases/traits. To illustrate the performance of GSEA, the element-gene interaction datasets of 24 elements were extracted from the comparative toxicogenomics database (CTD). GWAS summary datasets of 24 complex diseases or traits were downloaded from the dbGaP or GEFOS websites. We observed significant associations between 7 elements and 13 complex diseases or traits (all false discovery rate (FDR) < 0.05), including reported relationships such as aluminum vs. Alzheimer's disease (FDR = 0.042), calcium vs. bone mineral density (FDR = 0.031), magnesium vs. systemic lupus erythematosus (FDR = 0.012) as well as novel associations, such as nickel vs. hypertriglyceridemia (FDR = 0.002) and bipolar disorder (FDR = 0.027). Our study results are consistent with previous biological studies, supporting the good performance of GSEA. Our analyzing results based on GSEA framework provide novel clues for discovering causal relationships between elements and complex diseases.
+29265413	203	208	human	Species	9606
+29265413	1094	1102	aluminum	Chemical	MESH:D000535
+29265413	1107	1126	Alzheimer's disease	Disease	MESH:D000544
+29265413	1142	1149	calcium	Chemical	MESH:D002118
+29265413	1190	1199	magnesium	Chemical	MESH:D008274
+29265413	1204	1232	systemic lupus erythematosus	Disease	MESH:D008180
+29265413	1286	1292	nickel	Chemical	MESH:D009532
+29265413	1297	1317	hypertriglyceridemia	Disease	MESH:D015228
+29265413	1336	1352	bipolar disorder	Disease	MESH:D001714
+29265413	Association	MESH:D009532	MESH:D015228
+29265413	Association	MESH:D008274	MESH:D008180
+29265413	Association	MESH:D009532	MESH:D001714
+29265413	Association	MESH:D000535	MESH:D000544
+

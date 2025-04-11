@@ -1,0 +1,38 @@
+34401075|t|Inverse molecular docking reveals a novel function of thymol: Inhibition of fat deposition induced by high-dose glucose in Caenorhabditis elegans.
+34401075|a|As a natural product isolated from thyme oil in thyme, thymol (2-isopropyl-5-methylphenol) harbors antiviral, antioxidant, and other properties, and thus could be potentially used for the treatment of various diseases. However, the function of thymol has not been comprehensively studied. Here, we applied an inverse molecular docking approach to identify unappreciated functions of thymol. Potential targets of thymol in humans were identified by the server of DRAR-CPI, and targets of interest were then assessed by GO and KEGG pathway analysis. Subsequently, homologous proteins of these targets in Caenorhabditis elegans were identified by Blast tool, and their three-dimensional structures were achieved using Swiss-Model workspace. Interaction between thymol and the targeted proteins in worms was verified using AutoDock 4.0. Analyses of the targets revealed that thymol could be potentially involved in the glycolysis/gluconeogenesis and fatty acid degradation pathways. To verify the activity of thymol on lipid deposition in vivo, the C. elegans model was established. The lipid content of nematodes induced by high-dose glucose was determined by Oil Red O and Nile Red staining, and gene expression was assessed by qRT-PCR. The results showed that thymol might lead to the acceleration of beta-oxidation by upregulating cpt-1, aco, fabp, and tph-1, causing the descent of lipid content in nematodes. Our findings indicated that thymol could be potentially used for the treatment of chronic metabolic diseases associated with increased fatty acid deposition.
+34401075	54	60	thymol	Chemical	MESH:D013943
+34401075	112	119	glucose	Chemical	MESH:D005947
+34401075	123	145	Caenorhabditis elegans	Species	6239
+34401075	182	191	thyme oil	Chemical	MESH:C000713830
+34401075	202	208	thymol	Chemical	MESH:D013943
+34401075	391	397	thymol	Chemical	MESH:D013943
+34401075	530	536	thymol	Chemical	MESH:D013943
+34401075	559	565	thymol	Chemical	MESH:D013943
+34401075	569	575	humans	Species	9606
+34401075	749	771	Caenorhabditis elegans	Species	6239
+34401075	905	911	thymol	Chemical	MESH:D013943
+34401075	1018	1024	thymol	Chemical	MESH:D013943
+34401075	1093	1103	fatty acid	Chemical	MESH:D005227
+34401075	1152	1158	thymol	Chemical	MESH:D013943
+34401075	1162	1167	lipid	Chemical	MESH:D008055
+34401075	1192	1202	C. elegans	Species	328850
+34401075	1230	1235	lipid	Chemical	MESH:D008055
+34401075	1278	1285	glucose	Chemical	MESH:D005947
+34401075	1304	1313	Oil Red O	Chemical	MESH:C011049
+34401075	1318	1326	Nile Red	Chemical	MESH:C044808
+34401075	1406	1412	thymol	Chemical	MESH:D013943
+34401075	1478	1483	cpt-1	Gene	174912
+34401075	1500	1505	tph-1	Gene	174227
+34401075	1530	1535	lipid	Chemical	MESH:D008055
+34401075	1586	1592	thymol	Chemical	MESH:D013943
+34401075	1648	1666	metabolic diseases	Disease	MESH:D008659
+34401075	1693	1703	fatty acid	Chemical	MESH:D005227
+34401075	Positive_Correlation	MESH:D013943	174227
+34401075	Negative_Correlation	MESH:D008055	MESH:D013943
+34401075	Positive_Correlation	MESH:D013943	174912
+34401075	Positive_Correlation	MESH:D005947	MESH:D008055
+34401075	Association	MESH:D005227	MESH:D008659
+34401075	Negative_Correlation	MESH:D013943	MESH:D008659
+34401075	Negative_Correlation	MESH:D005947	MESH:D013943
+34401075	Negative_Correlation	MESH:D005227	MESH:D013943
+

@@ -1,0 +1,17 @@
+35761274|t|A machine-learning model to predict postoperative delirium following knee arthroplasty using electronic health records.
+35761274|a|BACKGROUND: Postoperative delirium is a challenging complication due to its adverse outcome such as long hospital stay. The aims of this study were: 1) to identify preoperative risk factors of postoperative delirium following knee arthroplasty, and 2) to develop a machine-learning prediction model. METHOD: A total of 3,980 patients from two hospitals were included in this study. The model was developed and trained with 1,931 patients from one hospital and externally validated with 2,049 patients from another hospital. Twenty preoperative variables were collected using electronic hospital records. Feature selection was conducted using the sequential feature selection (SFS). Extreme Gradient Boosting algorithm (XGBoost) model as a machine-learning classifier was applied to predict delirium. A tenfold-stratified area under the curve (AUC) served as the metric for variable selection and internal validation. RESULTS: The incidence rate of delirium was 4.9% (n = 196). The following seven key predictors of postoperative delirium were selected: age, serum albumin, number of hypnotics and sedatives drugs taken preoperatively, total number of drugs (any kinds of oral medication) taken preoperatively, neurologic disorders, depression, and fall-down risk (all p < 0.05). The predictive performance of our model was good for the developmental cohort (AUC: 0.80, 95% CI: 0.77-0.84). It was also good for the external validation cohort (AUC: 0.82, 95% CI: 0.80-0.83). Our model can be accessed at https://safetka.connecteve.com . CONCLUSIONS: A web-based predictive model for delirium after knee arthroplasty was developed using a machine-learning algorithm featuring seven preoperative variables. This model can be used only with information that can be obtained from pre-operative electronic hospital records. Thus, this model could be used to predict delirium before surgery and may assist physician's effort on delirium prevention.
+35761274	36	58	postoperative delirium	Disease	MESH:D000071257
+35761274	132	154	Postoperative delirium	Disease	MESH:D000071257
+35761274	313	335	postoperative delirium	Disease	MESH:D000071257
+35761274	445	453	patients	Species	9606
+35761274	549	557	patients	Species	9606
+35761274	612	620	patients	Species	9606
+35761274	910	918	delirium	Disease	MESH:D003693
+35761274	1068	1076	delirium	Disease	MESH:D003693
+35761274	1135	1157	postoperative delirium	Disease	MESH:D000071257
+35761274	1330	1350	neurologic disorders	Disease	MESH:D009461
+35761274	1352	1362	depression	Disease	MESH:D003866
+35761274	1701	1709	delirium	Disease	MESH:D003693
+35761274	1979	1987	delirium	Disease	MESH:D003693
+35761274	2040	2048	delirium	Disease	MESH:D003693
+

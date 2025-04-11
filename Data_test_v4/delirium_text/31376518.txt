@@ -1,0 +1,30 @@
+31376518|t|Automated lesion segmentation with BIANCA: Impact of population-level features, classification algorithm and locally adaptive thresholding.
+31376518|a|White matter hyperintensities (WMH) or white matter lesions exhibit high variability in their characteristics both at population- and subject-level, making their detection a challenging task. Population-level factors such as age, vascular risk factors and neurodegenerative diseases affect lesion load and spatial distribution. At the individual level, WMH vary in contrast, amount and distribution in different white matter regions. In this work, we aimed to improve BIANCA, the FSL tool for WMH segmentation, in order to better deal with these sources of variability. We worked on two stages of BIANCA by improving the lesion probability map estimation (classification stage) and making the lesion probability map thresholding stage automated and adaptive to local lesion probabilities. Firstly, in order to take into account the effect of population-level factors, we included population-level lesion probabilities, modelled with respect to a parametric factor (e.g. age), in the classification stage. Secondly, we tested BIANCA performance when using four alternative classifiers commonly used in the literature with respect to K-nearest neighbour algorithm (currently used for lesion probability map estimation in BIANCA). Finally, we propose LOCally Adaptive Threshold Estimation (LOCATE), a supervised method for determining optimal local thresholds to apply to the estimated lesion probability map, as an alternative option to global thresholding (i.e. applying the same threshold to the entire lesion probability map). For these experiments we used data from a neurodegenerative cohort, a vascular cohort and the cohorts available publicly as a part of a segmentation challenge. We observed that including population-level parametric lesion probabilities with respect to age and using alternative machine learning techniques provided negligible improvement. However, LOCATE provided a substantial improvement in the lesion segmentation performance, when compared to the global thresholding. It allowed to detect more deep lesions and provided better segmentation of periventricular lesion boundaries, despite the differences in the lesion spatial distribution and load across datasets. We further validated LOCATE on a cohort of CADASIL (Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy) patients, a genetic form of cerebral small vessel disease, and healthy controls, showing that LOCATE adapts well to wide variations in lesion load and spatial distribution.
+31376518	10	16	lesion	Disease	MESH:D009059
+31376518	140	169	White matter hyperintensities	Disease	MESH:D056784
+31376518	171	174	WMH	Disease	MESH:D056784
+31376518	179	199	white matter lesions	Disease	MESH:D056784
+31376518	396	422	neurodegenerative diseases	Disease	MESH:D019636
+31376518	430	436	lesion	Disease	MESH:D009059
+31376518	493	496	WMH	Disease	MESH:D056784
+31376518	633	636	WMH	Disease	MESH:D056784
+31376518	761	767	lesion	Disease	MESH:D009059
+31376518	833	839	lesion	Disease	MESH:D009059
+31376518	907	913	lesion	Disease	MESH:D009059
+31376518	1037	1043	lesion	Disease	MESH:D009059
+31376518	1322	1328	lesion	Disease	MESH:D009059
+31376518	1523	1529	lesion	Disease	MESH:D009059
+31376518	1643	1649	lesion	Disease	MESH:D009059
+31376518	1710	1727	neurodegenerative	Disease	MESH:D019636
+31376518	1883	1889	lesion	Disease	MESH:D009059
+31376518	2065	2071	lesion	Disease	MESH:D009059
+31376518	2231	2237	lesion	Disease	MESH:D009059
+31376518	2281	2287	lesion	Disease	MESH:D009059
+31376518	2378	2385	CADASIL	Disease	MESH:D046589
+31376518	2387	2427	Cerebral autosomal dominant arteriopathy	Disease	MESH:D020943
+31376518	2433	2453	subcortical infarcts	Disease	MESH:D002544
+31376518	2458	2477	leukoencephalopathy	Disease	MESH:D056784
+31376518	2479	2487	patients	Species	9606
+31376518	2507	2536	cerebral small vessel disease	Disease	MESH:D059345
+31376518	2614	2620	lesion	Disease	MESH:D009059
+

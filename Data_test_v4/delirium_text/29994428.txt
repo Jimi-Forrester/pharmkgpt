@@ -1,0 +1,16 @@
+29994428|t|Permutation Jaccard Distance-Based Hierarchical Clustering to Estimate EEG Network Density Modifications in MCI Subjects.
+29994428|a|In this paper, a novel electroencephalographic (EEG)-based method is introduced for the quantification of brain-electrical connectivity changes over a longitudinal evaluation of mild cognitive impaired (MCI) subjects. In the proposed method, a dissimilarity matrix is constructed by estimating the coupling strength between every pair of EEG signals, Hierarchical clustering is then applied to group the related electrodes according to the dissimilarity estimated on pairs of EEG recordings. Subsequently, the connectivity density of the electrodes network is calculated. The technique was tested over two different coupling strength descriptors: wavelet coherence (WC) and permutation Jaccard distance (PJD), a novel metric of coupling strength between time series introduced in this paper. Twenty-five MCI patients were enrolled within a follow-up program that consisted of two successive evaluations, at time T0 and at time T1, three months later. At T1, four subjects were diagnosed to have converted to Alzheimer's Disease (AD). When applying the PJD-based method, the converted patients exhibited a significantly increased PJD (p < 0.05), i.e., a reduced overall coupling strength, specifically in delta and theta bands and in the overall range (0.5-32 Hz). In addition, in contrast to stable MCI patients, converted patients exhibited a network density reduction in every subband (delta, theta, alpha, and beta). When WC was used as coupling strength descriptor, the method resulted in a less sensitive and specific outcome. The proposed method, mixing nonlinear analysis to a machine learning approach, appears to provide an objective evaluation of the connectivity density modifications associated to the MCI-AD conversion, just processing noninvasive EEG signals.
+29994428	108	111	MCI	Disease	MESH:D060825
+29994428	305	323	cognitive impaired	Disease	MESH:D003072
+29994428	325	328	MCI	Disease	MESH:D060825
+29994428	926	929	MCI	Disease	MESH:D060825
+29994428	930	938	patients	Species	9606
+29994428	1130	1149	Alzheimer's Disease	Disease	MESH:D000544
+29994428	1151	1153	AD	Disease	MESH:D000544
+29994428	1206	1214	patients	Species	9606
+29994428	1421	1424	MCI	Disease	MESH:D060825
+29994428	1425	1433	patients	Species	9606
+29994428	1445	1453	patients	Species	9606
+29994428	1836	1839	MCI	Disease	MESH:D060825
+29994428	1840	1842	AD	Disease	MESH:D000544
+

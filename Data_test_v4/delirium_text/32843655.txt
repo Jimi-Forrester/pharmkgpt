@@ -1,0 +1,47 @@
+32843655|t|The alpha2 Na+/K+-ATPase isoform mediates LPS-induced neuroinflammation.
+32843655|a|Na+/K+-ATPase is a transmembrane ion pump that is essential for the maintenance of ion gradients and regulation of multiple cellular functions. Na+/K+-ATPase has been associated with nuclear factor kappa B (NFkappaB) signalling, a signal associated with lipopolysaccharides (LPSs)-induced immune response in connection with activated Toll-like receptor 4 (TLR4) signalling. However, the contribution of Na+/K+-ATPase to regulating inflammatory responses remains elusive. We report that mice haploinsufficient for the astrocyte-enriched alpha2Na+/K+-ATPase isoform (alpha2+/G301R mice) have a reduced proinflammatory response to LPS, accompanied by a reduced hypothermic reaction compared to wild type litter mates. Following intraperitoneal injection of LPS, gene expressions of Tnf-alpha, Il-1beta, and Il-6 was reduced in the hypothalamus and hippocampus from alpha2+/G301R mice compared to alpha2+/+ littermates. The alpha2+/G301R mice experienced increased expression of the gene encoding an antioxidant enzyme, NRF2, in hippocampal astrocytes. Our findings indicate that alpha2Na+/K+-ATPase haploinsufficiency negatively modulates LPS-induced immune responses, highlighting a rational pharmacological target for reducing LPS-induced inflammation.
+32843655	42	45	LPS	Chemical	MESH:D008070
+32843655	54	71	neuroinflammation	Disease	MESH:D000090862
+32843655	256	278	nuclear factor kappa B	Gene	18033
+32843655	280	288	NFkappaB	Gene	18033
+32843655	327	346	lipopolysaccharides	Chemical	MESH:D008070
+32843655	348	352	LPSs	Chemical	MESH:D008070
+32843655	407	427	Toll-like receptor 4	Gene	21898
+32843655	429	433	TLR4	Gene	21898
+32843655	504	516	inflammatory	Disease	MESH:D007249
+32843655	559	563	mice	Species	10090
+32843655	638	645	alpha2+	Gene	14788
+32843655	646	651	G301R	ProteinMutation	tmVar:p|SUB|G|301|R;HGVS:p.G301R;VariantGroup:0;OriginalGene:14788;CorrespondingGene:27239;CorrespondingSpecies:10090
+32843655	652	656	mice	Species	10090
+32843655	673	688	proinflammatory	Disease	
+32843655	701	704	LPS	Chemical	MESH:D008070
+32843655	731	742	hypothermic	Disease	
+32843655	827	830	LPS	Chemical	MESH:D008070
+32843655	852	861	Tnf-alpha	Gene	21926
+32843655	863	871	Il-1beta	Gene	16176
+32843655	877	881	Il-6	Gene	16193
+32843655	935	942	alpha2+	Gene	14788
+32843655	943	948	G301R	ProteinMutation	tmVar:p|SUB|G|301|R;HGVS:p.G301R;VariantGroup:0;OriginalGene:14788;CorrespondingGene:27239;CorrespondingSpecies:10090
+32843655	949	953	mice	Species	10090
+32843655	966	973	alpha2+	Gene	14788
+32843655	993	1000	alpha2+	Gene	14788
+32843655	1001	1006	G301R	ProteinMutation	tmVar:p|SUB|G|301|R;HGVS:p.G301R;VariantGroup:0;OriginalGene:14788;CorrespondingGene:27239;CorrespondingSpecies:10090
+32843655	1007	1011	mice	Species	10090
+32843655	1089	1093	NRF2	Gene	18024
+32843655	1209	1212	LPS	Chemical	MESH:D008070
+32843655	1299	1302	LPS	Chemical	MESH:D008070
+32843655	1311	1323	inflammation	Disease	MESH:D007249
+32843655	Negative_Correlation	MESH:D008070	HGVS:p.G301R;CorrespondingGene:27239
+32843655	Positive_Correlation	MESH:D008070	16176
+32843655	Association	MESH:D008070	18033
+32843655	Positive_Correlation	MESH:D008070	MESH:D007249
+32843655	Association	MESH:D008070	14788
+32843655	Negative_Correlation	14788	21926
+32843655	Positive_Correlation	MESH:D008070	21926
+32843655	Negative_Correlation	14788	16193
+32843655	Positive_Correlation	MESH:D008070	MESH:D000090862
+32843655	Positive_Correlation	MESH:D008070	16193
+32843655	Negative_Correlation	14788	16176
+32843655	Association	14788	18024
+32843655	Association	MESH:D008070	21898
+

@@ -1,0 +1,51 @@
+31091472|t|NQO1: A target for the treatment of cancer and neurological diseases, and a model to understand loss of function disease mechanisms.
+31091472|a|NAD(P)H quinone oxidoreductase 1 (NQO1) is a multi-functional protein that catalyses the reduction of quinones (and other molecules), thus playing roles in xenobiotic detoxification and redox balance, and also has roles in stabilising apoptosis regulators such as p53. The structure and enzymology of NQO1 is well-characterised, showing a substituted enzyme mechanism in which NAD(P)H binds first and reduces an FAD cofactor in the active site, assisted by a charge relay system involving Tyr-155 and His-161. Protein dynamics play important role in physio-pathological aspects of this protein. NQO1 is a good target to treat cancer due to its overexpression in cancer cells. A polymorphic form of NQO1 (p.P187S) is associated with increased cancer risk and certain neurological disorders (such as multiple sclerosis and Alzheimer s disease), possibly due to its roles in the antioxidant defence. p.P187S has greatly reduced FAD affinity and stability, due to destabilization of the flavin binding site and the C-terminal domain, which leading to reduced activity and enhanced degradation. Suppressor mutations partially restore the activity of p.P187S by local stabilization of these regions, and showing long-range allosteric communication within the protein. Consequently, the correction of NQO1 misfolding by pharmacological chaperones is a viable strategy, which may be useful to treat cancer and some neurological conditions, targeting structural spots linked to specific disease-mechanisms. Thus, NQO1 emerges as a good model to investigate loss of function mechanisms in genetic diseases as well as to improve strategies to discriminate between neutral and pathogenic variants in genome-wide sequencing studies.
+31091472	0	4	NQO1	Gene	1728
+31091472	36	42	cancer	Disease	MESH:D009369
+31091472	47	68	neurological diseases	Disease	MESH:D020271
+31091472	133	165	NAD(P)H quinone oxidoreductase 1	Gene	1728
+31091472	167	171	NQO1	Gene	1728
+31091472	235	243	quinones	Chemical	MESH:D011809
+31091472	397	400	p53	Gene	7157
+31091472	434	438	NQO1	Gene	1728
+31091472	510	517	NAD(P)H	Chemical	-
+31091472	545	548	FAD	Chemical	MESH:D005182
+31091472	728	732	NQO1	Gene	1728
+31091472	759	765	cancer	Disease	MESH:D009369
+31091472	795	801	cancer	Disease	MESH:D009369
+31091472	831	835	NQO1	Gene	1728
+31091472	837	844	p.P187S	ProteinMutation	tmVar:p|SUB|P|187|S;HGVS:p.P187S;VariantGroup:0;CorrespondingGene:1728;RS#:1800566;CorrespondingSpecies:9606;CA#:126904
+31091472	875	881	cancer	Disease	MESH:D009369
+31091472	899	921	neurological disorders	Disease	MESH:D009461
+31091472	931	949	multiple sclerosis	Disease	MESH:D009103
+31091472	954	973	Alzheimer s disease	Disease	MESH:D000544
+31091472	1030	1037	p.P187S	ProteinMutation	tmVar:p|SUB|P|187|S;HGVS:p.P187S;VariantGroup:0;CorrespondingGene:1728;RS#:1800566;CorrespondingSpecies:9606;CA#:126904
+31091472	1058	1061	FAD	Chemical	MESH:D005182
+31091472	1116	1122	flavin	Chemical	MESH:C024132
+31091472	1278	1285	p.P187S	ProteinMutation	tmVar:p|SUB|P|187|S;HGVS:p.P187S;VariantGroup:0;CorrespondingGene:1728;RS#:1800566;CorrespondingSpecies:9606;CA#:126904
+31091472	1427	1431	NQO1	Gene	1728
+31091472	1524	1530	cancer	Disease	MESH:D009369
+31091472	1540	1563	neurological conditions	Disease	MESH:D019636
+31091472	1637	1641	NQO1	Gene	1728
+31091472	1712	1728	genetic diseases	Disease	MESH:D030342
+31091472	Positive_Correlation	MESH:D009103	RS#:1800566;HGVS:p.P187S;CorrespondingGene:1728
+31091472	Association	MESH:D019636	1728
+31091472	Positive_Correlation	MESH:D000544	RS#:1800566;HGVS:p.P187S;CorrespondingGene:1728
+31091472	Positive_Correlation	MESH:D009369	RS#:1800566;HGVS:p.P187S;CorrespondingGene:1728
+31091472	Association	MESH:C024132	RS#:1800566;HGVS:p.P187S;CorrespondingGene:1728
+31091472	Positive_Correlation	MESH:D009461	RS#:1800566;HGVS:p.P187S;CorrespondingGene:1728
+31091472	Negative_Correlation	MESH:D011809	1728
+31091472	Association	MESH:D009103	1728
+31091472	Association	MESH:D005182	RS#:1800566;HGVS:p.P187S;CorrespondingGene:1728
+31091472	Association	MESH:D020271	1728
+31091472	Association	MESH:D009461	1728
+31091472	Association	MESH:D000544	1728
+31091472	Association	1728	7157
+31091472	Association	MESH:D030342	1728
+31091472	Positive_Correlation	MESH:D009369	1728
+31091472	Association	MESH:D005182	1728
+31091472	Association	MESH:D009103	1728
+31091472	Association	MESH:D000544	1728
+31091472	Association	MESH:D009369	1728
+31091472	Association	MESH:D009461	1728
+

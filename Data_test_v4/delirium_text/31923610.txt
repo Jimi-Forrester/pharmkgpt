@@ -1,0 +1,11 @@
+31923610|t|Hypergraph based multi-task feature selection for multimodal classification of Alzheimer's disease.
+31923610|a|Multi-modality based classification methods are superior to the single modality based approaches for the automatic diagnosis of the Alzheimer's disease (AD) and mild cognitive impairment (MCI). However, most of the multi-modality based methods usually ignore the structure information of data and simply squeeze them to pairwise relationships. In real-world applications, the relationships among subjects are much more complex than pairwise, and the high-order structure containing more discriminative information will be intuitively beneficial to our learning tasks. In light of this, a hypergraph based multi-task feature selection method for AD/MCI classification is proposed in this paper. Specifically, we first perform feature selection on each modality as a single task and incorporate group-sparsity regularizer to jointly select common features across multiple modalities. Then, we introduce a hypergraph based regularization term for the standard multi-task feature selection to model the high-order structure relationship among subjects. Finally, a multi-kernel support vector machine is adopted to fuse the features selected from different modalities for the final classification. The experimental results on the Alzheimer's Disease Neuroimaging Initiative (ADNI) demonstrate that our proposed method achieves better classification performance than the start-of-art multi-modality based methods.
+31923610	79	98	Alzheimer's disease	Disease	MESH:D000544
+31923610	232	251	Alzheimer's disease	Disease	MESH:D000544
+31923610	253	255	AD	Disease	MESH:D000544
+31923610	261	286	mild cognitive impairment	Disease	MESH:D060825
+31923610	288	291	MCI	Disease	MESH:D060825
+31923610	745	747	AD	Disease	MESH:D000544
+31923610	748	751	MCI	Disease	MESH:D060825
+31923610	1325	1344	Alzheimer's Disease	Disease	MESH:D000544
+

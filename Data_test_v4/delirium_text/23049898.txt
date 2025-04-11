@@ -1,0 +1,23 @@
+23049898|t|Effect of SNPs on creatine kinase structure and function: identifying potential molecular mechanisms for possible creatine kinase deficiency diseases.
+23049898|a|Single-nucleotide polymorphisms (SNPs) are common genetic material changes that often occur naturally. SNPs can cause amino acid replacements that may lead to severe diseases, such as the well-known sickle-cell anemia. We constructed eight SNP mutants of human brain-type creatine kinase (CKB) based on bioinformatics predictions. The biochemical and biophysical characteristics of these SNP mutants were determined and compared to those of the wild-type creatine kinase to explore the potential molecular mechanisms of possible creatine kinase SNP-induced diseases. While the reactivation of six SNP mutants after heat shock dropped more than 45%, only three of them showed notable increases in ANS fluorescence intensity and decreases in catalytic efficiency. Among them, H26Y and P36T bind substrates as well as the wild-type form does, but the melting temperatures (T(m)) dropped below body temperature, while the T59I mutant exhibited decreased catalytic activity that was most likely due to the much reduced binding affinity of this mutant for substrates. These findings indicate that SNPs such as H26Y, P36T and T59I have the potential to induce genetic diseases by different mechanisms.
+23049898	114	149	creatine kinase deficiency diseases	Disease	MESH:C535598
+23049898	350	368	sickle-cell anemia	Disease	MESH:D000755
+23049898	406	411	human	Species	9606
+23049898	440	443	CKB	Gene	1152
+23049898	847	850	ANS	Chemical	MESH:C027132
+23049898	925	929	H26Y	ProteinMutation	tmVar:p|SUB|H|26|Y;HGVS:p.H26Y;VariantGroup:1;CorrespondingGene:1152;RS#:11545352;CorrespondingSpecies:9606;CA#:7364724
+23049898	934	938	P36T	ProteinMutation	tmVar:p|SUB|P|36|T;HGVS:p.P36T;VariantGroup:2;CorrespondingGene:1152;RS#:11545350;CorrespondingSpecies:9606
+23049898	1069	1073	T59I	ProteinMutation	tmVar:p|SUB|T|59|I;HGVS:p.T59I;VariantGroup:0;CorrespondingGene:1152;RS#:11545344;CorrespondingSpecies:9606
+23049898	1255	1259	H26Y	ProteinMutation	tmVar:p|SUB|H|26|Y;HGVS:p.H26Y;VariantGroup:1;CorrespondingGene:1152;RS#:11545352;CorrespondingSpecies:9606;CA#:7364724
+23049898	1261	1265	P36T	ProteinMutation	tmVar:p|SUB|P|36|T;HGVS:p.P36T;VariantGroup:2;CorrespondingGene:1152;RS#:11545350;CorrespondingSpecies:9606
+23049898	1270	1274	T59I	ProteinMutation	tmVar:p|SUB|T|59|I;HGVS:p.T59I;VariantGroup:0;CorrespondingGene:1152;RS#:11545344;CorrespondingSpecies:9606
+23049898	1304	1320	genetic diseases	Disease	MESH:D030342
+23049898	Positive_Correlation	MESH:D030342	RS#:11545344;HGVS:p.T59I;CorrespondingGene:1152
+23049898	Association	MESH:C535598	RS#:11545344;HGVS:p.T59I;CorrespondingGene:1152
+23049898	Association	MESH:C535598	RS#:11545350;HGVS:p.P36T;CorrespondingGene:1152
+23049898	Association	MESH:C535598	RS#:11545352;HGVS:p.H26Y;CorrespondingGene:1152
+23049898	Positive_Correlation	MESH:D030342	RS#:11545352;HGVS:p.H26Y;CorrespondingGene:1152
+23049898	Positive_Correlation	MESH:D030342	RS#:11545350;HGVS:p.P36T;CorrespondingGene:1152
+23049898	Association	MESH:D030342	1152
+23049898	Association	MESH:C535598	1152
+

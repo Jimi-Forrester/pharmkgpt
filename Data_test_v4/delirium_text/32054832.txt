@@ -1,0 +1,48 @@
+32054832|t|FMN reduces Amyloid-beta toxicity in yeast by regulating redox status and cellular metabolism.
+32054832|a|Alzheimer's disease (AD) is defined by progressive neurodegeneration, with oligomerization and aggregation of amyloid-beta peptides (Abeta) playing a pivotal role in its pathogenesis. In recent years, the yeast Saccharomyces cerevisiae has been successfully used to clarify the roles of different human proteins involved in neurodegeneration. Here, we report a genome-wide synthetic genetic interaction array to identify toxicity modifiers of Abeta42, using yeast as the model organism. We find that FMN1, the gene encoding riboflavin kinase, and its metabolic product flavin mononucleotide (FMN) reduce Abeta42 toxicity. Classic experimental analyses combined with RNAseq show the effects of FMN supplementation to include reducing misfolded protein load, altering cellular metabolism, increasing NADH/(NADH + NAD+) and NADPH/(NADPH + NADP+) ratios and increasing resistance to oxidative stress. Additionally, FMN supplementation modifies Htt103QP toxicity and alpha-synuclein toxicity in the humanized yeast. Our findings offer insights for reducing cytotoxicity of Abeta42, and potentially other misfolded proteins, via FMN-dependent cellular pathways.
+32054832	0	3	FMN	Chemical	MESH:D005486
+32054832	12	24	Amyloid-beta	Gene	351
+32054832	25	33	toxicity	Disease	MESH:D064420
+32054832	37	42	yeast	Species	4932
+32054832	95	114	Alzheimer's disease	Disease	MESH:D000544
+32054832	116	118	AD	Disease	MESH:D000544
+32054832	146	163	neurodegeneration	Disease	MESH:D019636
+32054832	205	217	amyloid-beta	Gene	351
+32054832	300	305	yeast	Species	4932
+32054832	306	330	Saccharomyces cerevisiae	Species	4932
+32054832	392	397	human	Species	9606
+32054832	419	436	neurodegeneration	Disease	MESH:D019636
+32054832	516	524	toxicity	Disease	MESH:D064420
+32054832	538	545	Abeta42	Gene	351
+32054832	553	558	yeast	Species	4932
+32054832	595	599	FMN1	Gene	851822
+32054832	619	636	riboflavin kinase	Gene	55312
+32054832	664	685	flavin mononucleotide	Chemical	MESH:D005486
+32054832	687	690	FMN	Chemical	MESH:D005486
+32054832	699	706	Abeta42	Gene	351
+32054832	707	715	toxicity	Disease	MESH:D064420
+32054832	788	791	FMN	Chemical	MESH:D005486
+32054832	893	897	NADH	Chemical	MESH:D009243
+32054832	899	903	NADH	Chemical	MESH:D009243
+32054832	906	910	NAD+	Chemical	MESH:D009243
+32054832	916	921	NADPH	Chemical	MESH:D009249
+32054832	923	928	NADPH	Chemical	MESH:D009249
+32054832	931	936	NADP+	Chemical	MESH:D009249
+32054832	1006	1009	FMN	Chemical	MESH:D005486
+32054832	1044	1052	toxicity	Disease	MESH:D064420
+32054832	1073	1081	toxicity	Disease	MESH:D064420
+32054832	1099	1104	yeast	Species	4932
+32054832	1147	1159	cytotoxicity	Disease	MESH:D064420
+32054832	1163	1170	Abeta42	Gene	351
+32054832	1218	1221	FMN	Chemical	MESH:D005486
+32054832	Association	MESH:D064420	55312
+32054832	Association	MESH:D000544	351
+32054832	Positive_Correlation	MESH:D005486	MESH:D009243
+32054832	Negative_Correlation	351	851822
+32054832	Negative_Correlation	MESH:D064420	851822
+32054832	Negative_Correlation	MESH:D005486	MESH:D064420
+32054832	Association	MESH:D005486	55312
+32054832	Negative_Correlation	MESH:D005486	351
+32054832	Association	MESH:D064420	351
+32054832	Positive_Correlation	MESH:D005486	MESH:D009249
+

@@ -1,0 +1,12 @@
+26379415|t|Matrix-Similarity Based Loss Function and Feature Selection for Alzheimer's Disease Diagnosis.
+26379415|a|Recent studies on Alzheimer's Disease (AD) or its prodromal stage, Mild Cognitive Impairment (MCI), diagnosis presented that the tasks of identifying brain disease status and predicting clinical scores based on neuroimaging features were highly related to each other. However, these tasks were often conducted independently in the previous studies. Regarding the feature selection, to our best knowledge, most of the previous work considered a loss function defined as an element-wise difference between the target values and the predicted ones. In this paper, we consider the problems of joint regression and classification for AD/MCI diagnosis and propose a novel matrix-similarity based loss function that uses high-level information inherent in the target response matrix and imposes the information to be preserved in the predicted response matrix. The newly devised loss function is combined with a group lasso method for joint feature selection across tasks, i.e., clinical scores prediction and disease status identification. We conducted experiments on the Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset, and showed that the newly devised loss function was effective to enhance the performances of both clinical score prediction and disease status identification, outperforming the state-of-the-art methods.
+26379415	64	83	Alzheimer's Disease	Disease	MESH:D000544
+26379415	113	132	Alzheimer's Disease	Disease	MESH:D000544
+26379415	134	136	AD	Disease	MESH:D000544
+26379415	167	187	Cognitive Impairment	Disease	MESH:D003072
+26379415	189	192	MCI	Disease	MESH:D060825
+26379415	245	258	brain disease	Disease	MESH:D001927
+26379415	724	726	AD	Disease	MESH:D000544
+26379415	727	730	MCI	Disease	MESH:D060825
+26379415	1161	1180	Alzheimer's Disease	Disease	MESH:D000544
+

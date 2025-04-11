@@ -1,0 +1,14 @@
+30050430|t|Predicting Aging of Brain Metabolic Topography Using Variational Autoencoder.
+30050430|a|Predicting future brain topography can give insight into neural correlates of aging and neurodegeneration. Due to variability in the aging process, it has been challenging to precisely estimate brain topographical change according to aging. Here, we predict age-related brain metabolic change by generating future brain 18F-Fluorodeoxyglucose PET. A cross-sectional PET dataset of cognitively normal subjects with different age was used to develop a generative model. The model generated PET images using age information and characteristic individual features. Predicted regional metabolic changes were correlated with the real changes obtained by follow-up data. This model was applied to produce a brain metabolism aging movie by generating PET at different ages. Normal population distribution of brain metabolic topography at each age was estimated as well. In addition, a generative model using APOE4 status as well as age as inputs revealed a significant effect of APOE4 status on age-related metabolic changes particularly in the calcarine, lingual cortex, hippocampus, and amygdala. It suggested APOE4 could be a factor affecting individual variability in age-related metabolic degeneration in normal elderly. This predictive model may not only be extended to understanding the cognitive aging process, but apply to the development of a preclinical biomarker for various brain disorders.
+30050430	166	183	neurodegeneration	Disease	MESH:D019636
+30050430	398	420	18F-Fluorodeoxyglucose	Chemical	MESH:D019788
+30050430	784	794	metabolism	Disease	MESH:D008659
+30050430	978	983	APOE4	Gene	348
+30050430	1049	1054	APOE4	Gene	348
+30050430	1182	1187	APOE4	Gene	348
+30050430	1242	1246	age-	Disease	MESH:D019588
+30050430	1254	1276	metabolic degeneration	Disease	MESH:D008659
+30050430	1457	1472	brain disorders	Disease	MESH:D001927
+30050430	Association	MESH:D019588	348
+30050430	Association	MESH:D008659	348
+

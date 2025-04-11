@@ -1,0 +1,30 @@
+33020939|t|Derivation and validation of a novel comorbidity-based delirium risk index to predict postoperative delirium using national administrative healthcare database.
+33020939|a|OBJECTIVE: To derive and validate a comorbidity-based delirium risk index (DRI) to predict postoperative delirium. DATA SOURCE/STUDY SETTING: Data of 506 438 hip fracture repair surgeries from 2006 to 2016 were collected to derive DRI and perform internal validation from the Premier Healthcare Database, which provided billing information on 20-25 percent of hospitalizations in the USA. Additionally, data of 1 130 569 knee arthroplasty surgeries were retrieved for external validation. STUDY DESIGN: Thirty-six commonly seen comorbidities were evaluated by logistic regression with the outcome of postoperative delirium. The hip fracture repair surgery cohort was separated into a training dataset (60 percent) and an internal validation (40 percent) dataset. The least absolute shrinkage and selection operator (LASSO) procedure was applied for variable selection, and weights were assigned to selected comorbidities to quantify corresponding risks. The newly developed DRI was then compared to the Charlson-Deyo Index for goodness-of-fit and predictive ability, using the Akaike information criterion (AIC), Bayesian information criterion (BIC), area under the ROC curve (AUC) for goodness-of-fit, and odds ratios for predictive performance. Additional internal validation was performed by splitting the data by four regions and in 4 randomly selected hospitals. External validation was conducted in patients with knee arthroplasty surgeries. DATA COLLECTION: Hip fracture repair surgeries, knee arthroplasty surgeries, and comorbidities were identified by using ICD-9 codes. Postoperative delirium was defined by using ICD-9 codes and analyzing billing information for antipsychotics (specifically haloperidol, olanzapine, and quetiapine) typically recommended to treat delirium. PRINCIPAL FINDINGS: The derived DRI includes 14 comorbidities and assigns comorbidities weights ranging from 1 to 6. The DRI outperformed the Charlson-Deyo Comorbidity Index with better goodness-of-fit and predictive performance. CONCLUSIONS: Delirium risk index is a valid comorbidity index for covariate adjustment and risk prediction in the context of postoperative delirium. Future work is needed to test its performance in different patient populations and varying definitions of delirium.
+33020939	55	63	delirium	Disease	MESH:D003693
+33020939	86	108	postoperative delirium	Disease	MESH:D000071257
+33020939	214	222	delirium	Disease	MESH:D003693
+33020939	251	273	postoperative delirium	Disease	MESH:D000071257
+33020939	318	330	hip fracture	Disease	MESH:D006620
+33020939	581	585	knee	Disease	MESH:D007718
+33020939	760	782	postoperative delirium	Disease	MESH:D000071257
+33020939	788	800	hip fracture	Disease	MESH:D006620
+33020939	1565	1573	patients	Species	9606
+33020939	1579	1583	knee	Disease	MESH:D007718
+33020939	1625	1637	Hip fracture	Disease	MESH:D006620
+33020939	1656	1660	knee	Disease	MESH:D007718
+33020939	1741	1763	Postoperative delirium	Disease	MESH:D000071257
+33020939	1864	1875	haloperidol	Chemical	MESH:D006220
+33020939	1877	1887	olanzapine	Chemical	MESH:D000077152
+33020939	1893	1903	quetiapine	Chemical	MESH:D000069348
+33020939	1936	1944	delirium	Disease	MESH:D003693
+33020939	2189	2197	Delirium	Disease	MESH:D003693
+33020939	2301	2323	postoperative delirium	Disease	MESH:D000071257
+33020939	2384	2391	patient	Species	9606
+33020939	2431	2439	delirium	Disease	MESH:D003693
+33020939	Positive_Correlation	MESH:D006220	MESH:D000071257
+33020939	Positive_Correlation	MESH:D000077152	MESH:D000071257
+33020939	Positive_Correlation	MESH:D000069348	MESH:D000071257
+33020939	Negative_Correlation	MESH:D000077152	MESH:D003693
+33020939	Negative_Correlation	MESH:D000069348	MESH:D003693
+33020939	Negative_Correlation	MESH:D006220	MESH:D003693
+

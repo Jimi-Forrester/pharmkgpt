@@ -1,0 +1,29 @@
+38553504|t|Signal mining and risk analysis of Alprazolam adverse events based on the FAERS database.
+38553504|a|This study aims to evaluate the safety of Alprazolam by analyzing the FAERS database, provide data analysis for monitoring adverse drug reactions. This research encompasses adverse event (AE) reports related to Alprazolam from the first quarter of 2004 to the second quarter of 2023. Four signal mining and analysis methods were utilized, including Reporting Odds Ratio (ROR), Proportional Reporting Ratio (PRR), Bayesian Confidence Propagation Neural Network (BCPNN), and Empirical Bayesian Geometric Mean (EBGM). Further exploration was conducted regarding patient characteristics and types of AEs. A total of 23,575 AE reports in which Alprazolam was the primary suspect drug were collected, identifying 347 Preferred Term (PT) signals and 27 System Organ Classes (SOCs). The number of AE reports increased annually, especially in 2015, 2018, 2019, and 2020. The main affected groups were females and the age range of 18 to 45. Psychiatric disorders, Nervous system disorders, and Gastrointestinal disorders were the most common the organ system in which the AEs occurred. There is a certain risk of drug abuse and suicide with Alprazolam. Most notably, several AEs not recorded in the Alprazolam leaflet appeared among the top 30 PTs in signal strength, including but not limited to Benzodiazepine drug level abnormal, Acquired amegakaryocytic thrombocytopenia, Cutaneous T-cell dyscrasia, and Coronary No-reflow Phenomenon. For the first time, AEs related to the cardiovascular system and platelet function were unveiled. The severe AE reports that resulted in "hospitalization" and "death" accounted for 30.96% and 21.86%. This study highlights the risks of suicide and misuse of Alprazolam. Other potential severe or fatal AEs, such as those related to the cardiovascular system, platelet function, and others, require further research to determine their precise mechanisms and risk factors.
+38553504	35	45	Alprazolam	Chemical	MESH:D000525
+38553504	132	142	Alprazolam	Chemical	MESH:D000525
+38553504	213	235	adverse drug reactions	Disease	MESH:D064420
+38553504	301	311	Alprazolam	Chemical	MESH:D000525
+38553504	649	656	patient	Species	9606
+38553504	729	739	Alprazolam	Chemical	MESH:D000525
+38553504	1021	1042	Psychiatric disorders	Disease	MESH:D001523
+38553504	1044	1068	Nervous system disorders	Disease	MESH:D009422
+38553504	1074	1100	Gastrointestinal disorders	Disease	MESH:D005767
+38553504	1193	1203	drug abuse	Disease	MESH:D019966
+38553504	1208	1215	suicide	Disease	
+38553504	1221	1231	Alprazolam	Chemical	MESH:D000525
+38553504	1279	1289	Alprazolam	Chemical	MESH:D000525
+38553504	1377	1391	Benzodiazepine	Chemical	MESH:D001569
+38553504	1422	1454	amegakaryocytic thrombocytopenia	Disease	MESH:C535982
+38553504	1456	1482	Cutaneous T-cell dyscrasia	Disease	MESH:D010265
+38553504	1497	1506	No-reflow	Disease	MESH:D054318
+38553504	1679	1684	death	Disease	MESH:D003643
+38553504	1754	1761	suicide	Disease	
+38553504	1776	1786	Alprazolam	Chemical	MESH:D000525
+38553504	Positive_Correlation	MESH:D000525	MESH:D009422
+38553504	Association	MESH:D000525	MESH:C535982
+38553504	Association	MESH:D000525	MESH:D019966
+38553504	Association	MESH:D000525	MESH:D010265
+38553504	Association	MESH:D000525	MESH:D054318
+38553504	Positive_Correlation	MESH:D000525	MESH:D005767
+

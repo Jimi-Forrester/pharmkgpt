@@ -1,0 +1,38 @@
+33101163|t|Identification of White Matter Lesions in Patients With Acute Ischemic Lesions Using U-net.
+33101163|a|Background: White matter lesions (WML) have been proved to be significantly associated with many brain diseases. Precise evaluation of burden of WML at early stage could provide insights in the prognosis and assist in intervention. However, acute ischemic lesions (AIL) exhibit hyperintensities on FLAIR images either, and are detected by diffusion weighted imaging (DWI). It is challenging to identify and segment WML in the patients with WML and AIL. Convolutional neural network (CNN) based architecture has been validated as an efficient tool for automatic segmentation. This study aimed to evaluate the performance of U-net in evaluation of WML in the patients with WML and AIL. Methods: A total of 208 cases from Chinese Atherosclerosis Risk Evaluation (CARE II) study were recruited in the present study. All subjects underwent imaging of FLAIR and DWI on 3.0 Tesla scanners. The contours of WML delineated by the observer and its scores rated by the observer were considered as gold standard. Among all 208 cases, 108 were randomly selected as train set, and the remaining 100 cases were used as test set. The performance of lesion segmentation toolbox (LST) and three U-net models were evaluated on three levels: pixel, lesion, and subject levels. The performance of all methods in WML identification and segmentation was also evaluated among the cases with different lesion volumes and between the cases with and without AIL. Results: All U-net models outperformed LST on pixel, lesion, and subject levels, while no differences were found among three U-net models. All segmentation methods performed best in the cases with WML volume (WMLV) > 20 ml but worst in those with WMLV < 5 ml. In addition, all methods showed similar performance between the cases with and without AIL. The scores determined by U-net exhibited a strong correlation with the gold standard (all Spearman correlation coefficients >0.89, ICCs >0.88, p-values <0.001). Conclusion: U-net performs well on identification and segmentation of WML in the patients with WML and AIL. The performance of U-net is validated by a dataset of multicenter study. Our results indicate that U-net has an advantage in assessing the burden of WML in the patients suffered from both WML and AIL.
+33101163	18	38	White Matter Lesions	Disease	MESH:D056784
+33101163	42	50	Patients	Species	9606
+33101163	56	78	Acute Ischemic Lesions	Disease	MESH:D000208
+33101163	104	124	White matter lesions	Disease	MESH:D056784
+33101163	126	129	WML	Disease	MESH:D056784
+33101163	189	203	brain diseases	Disease	MESH:D001927
+33101163	237	240	WML	Disease	MESH:D056784
+33101163	333	355	acute ischemic lesions	Disease	MESH:D000208
+33101163	357	360	AIL	Disease	MESH:D000208
+33101163	507	510	WML	Disease	MESH:D056784
+33101163	518	526	patients	Species	9606
+33101163	532	535	WML	Disease	MESH:D056784
+33101163	540	543	AIL	Disease	MESH:D000208
+33101163	738	741	WML	Disease	MESH:D056784
+33101163	749	757	patients	Species	9606
+33101163	763	766	WML	Disease	MESH:D056784
+33101163	771	774	AIL	Disease	MESH:D000208
+33101163	819	834	Atherosclerosis	Disease	MESH:D050197
+33101163	991	994	WML	Disease	MESH:D056784
+33101163	1225	1231	lesion	Disease	MESH:D009059
+33101163	1321	1327	lesion	Disease	MESH:D009059
+33101163	1383	1386	WML	Disease	MESH:D056784
+33101163	1469	1475	lesion	Disease	MESH:D009059
+33101163	1523	1526	AIL	Disease	MESH:D000208
+33101163	1581	1587	lesion	Disease	MESH:D009059
+33101163	1725	1728	WML	Disease	MESH:D056784
+33101163	1875	1878	AIL	Disease	MESH:D000208
+33101163	2111	2114	WML	Disease	MESH:D056784
+33101163	2122	2130	patients	Species	9606
+33101163	2136	2139	WML	Disease	MESH:D056784
+33101163	2144	2147	AIL	Disease	MESH:D000208
+33101163	2298	2301	WML	Disease	MESH:D056784
+33101163	2309	2317	patients	Species	9606
+33101163	2337	2340	WML	Disease	MESH:D056784
+33101163	2345	2348	AIL	Disease	MESH:D000208
+

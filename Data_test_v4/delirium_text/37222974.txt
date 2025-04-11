@@ -1,0 +1,43 @@
+37222974|t|Human platelets release amyloid peptides beta1-40 and beta1-42 in response to haemostatic, immune, and hypoxic stimuli.
+37222974|a|Background: Platelets contain high levels of amyloid beta (Abeta) peptides and have been suggested to participate in the deposition of amyloid plaques in Alzheimer's Disease (AD). Objectives: This study aimed to determine whether human platelets release pathogenic Abeta peptides Abeta1-42 and Abeta1-40 and to characterise the mechanisms regulating this phenomenon. Methods and Results: Enzyme-linked immunosorbent assays (ELISAs) revealed that the haemostatic stimulus thrombin and the pro-inflammatory molecule lipopolysaccharide (LPS) induce platelet release of both Abeta1-42 and Abeta1-40. Notably, LPS preferentially induced the release of Abeta1-42, which was potentiated by the reduction of oxygen from atmospheric levels to physiological hypoxia. The selective beta secretase (BACE) inhibitor LY2886721 showed no effect on the release of either Abeta1-40 or Abeta1-42 in our ELISA experiments. This suggested a store-and-release mechanism that was confirmed in immunostaining experiments showing co-localisation of cleaved Abeta peptides with platelet alpha granules. Conclusions: Taken together, our data suggest that human platelets release pathogenic Abeta peptides as a result of a store-and-release mechanism rather than a de novo proteolytic event. Although further studies are required to fully characterise this phenomenon, we suggest the possibility of a role for platelets in the deposition of Abeta peptides and the formation of amyloid plaques. Interestingly, the combination of hypoxia and inflammation that we simulated in vitro with reduced oxygen tension and LPS may increase the release of fibrillogenic Abeta1-42 and, consequently, exacerbate amyloid plaque deposition in the brain of AD patients.
+37222974	0	5	Human	Species	9606
+37222974	103	110	hypoxic	Disease	MESH:D002534
+37222974	165	177	amyloid beta	Gene	351
+37222974	179	184	Abeta	Gene	351
+37222974	255	270	amyloid plaques	Disease	MESH:D058225
+37222974	274	293	Alzheimer's Disease	Disease	MESH:D000544
+37222974	295	297	AD	Disease	MESH:D000544
+37222974	350	355	human	Species	9606
+37222974	385	390	Abeta	Gene	351
+37222974	591	599	thrombin	Gene	2147
+37222974	612	624	inflammatory	Disease	MESH:D007249
+37222974	634	652	lipopolysaccharide	Chemical	MESH:D008070
+37222974	654	657	LPS	Chemical	MESH:D008070
+37222974	725	728	LPS	Chemical	MESH:D008070
+37222974	820	826	oxygen	Chemical	MESH:D010100
+37222974	868	875	hypoxia	Disease	MESH:D000860
+37222974	907	911	BACE	Gene	23621
+37222974	923	932	LY2886721	Chemical	MESH:C000596181
+37222974	1153	1158	Abeta	Gene	351
+37222974	1249	1254	human	Species	9606
+37222974	1284	1289	Abeta	Gene	351
+37222974	1534	1539	Abeta	Gene	351
+37222974	1570	1585	amyloid plaques	Disease	MESH:D058225
+37222974	1621	1628	hypoxia	Disease	MESH:D000860
+37222974	1633	1645	inflammation	Disease	MESH:D007249
+37222974	1686	1692	oxygen	Chemical	MESH:D010100
+37222974	1705	1708	LPS	Chemical	MESH:D008070
+37222974	1791	1816	amyloid plaque deposition	Disease	MESH:D058225
+37222974	1833	1835	AD	Disease	MESH:D000544
+37222974	1836	1844	patients	Species	9606
+37222974	Negative_Correlation	MESH:C000596181	23621
+37222974	Association	MESH:D000544	351
+37222974	Association	MESH:D008070	MESH:D000860
+37222974	Negative_Correlation	MESH:D010100	MESH:D007249
+37222974	Association	MESH:D008070	MESH:D010100
+37222974	Positive_Correlation	MESH:D008070	MESH:D058225
+37222974	Association	MESH:D058225	351
+37222974	Positive_Correlation	MESH:D008070	MESH:D000544
+37222974	Positive_Correlation	MESH:D008070	MESH:D007249
+37222974	Negative_Correlation	MESH:D010100	MESH:D000860
+

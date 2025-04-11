@@ -1,0 +1,15 @@
+36277022|t|Alzheimer's Disease Prediction Algorithm Based on Group Convolution and a Joint Loss Function.
+36277022|a|Alzheimer's disease (AD) can effectively predict by 18F-fluorodeoxyglucose positron emission tomography (18F-FDG PET) of the brain, but current PET images still suffer from indistinct lesion features, low signal-to-noise ratios, and severe artefacts, resulting in poor prediction accuracy for patients with mild cognitive impairment (MCI) and unclear lesion features. In this paper, an AD prediction algorithm based on group convolution and a joint loss function is proposed. First, a group convolutional backbone network based on ResNet18 is designed to extract lesion features from multiple channels, which makes the expression ability of the network improved to a great extent. Then, a hybrid attention mechanism is presented, which enables the network to focus on target regions and learn feature weights, so as to enhance the network's learning ability of the lesion regions that are relevant to disease diagnosis. Finally, a joint loss function, that avoids the overfitting phenomenon, increases the generalization of the model, and improves prediction accuracy by adding a regularization loss function to the conventional cross-entropy function, is proposed. Experiments conducted on the public Alzheimer's Disease Neuroimaging Initiative (ADNI) dataset show that the algorithm we proposed gives a prediction accuracy improvement of 2.4% over that of the current AD prediction algorithm, thus proving the effectiveness and availability of the new algorithm.
+36277022	0	19	Alzheimer's Disease	Disease	MESH:D000544
+36277022	95	114	Alzheimer's disease	Disease	MESH:D000544
+36277022	116	118	AD	Disease	MESH:D000544
+36277022	147	169	18F-fluorodeoxyglucose	Chemical	MESH:D019788
+36277022	200	207	18F-FDG	Chemical	MESH:D019788
+36277022	388	396	patients	Species	9606
+36277022	407	427	cognitive impairment	Disease	MESH:D003072
+36277022	429	432	MCI	Disease	MESH:D060825
+36277022	481	483	AD	Disease	MESH:D000544
+36277022	1297	1316	Alzheimer's Disease	Disease	MESH:D000544
+36277022	1465	1467	AD	Disease	MESH:D000544
+36277022	Association	MESH:D019788	MESH:D000544
+

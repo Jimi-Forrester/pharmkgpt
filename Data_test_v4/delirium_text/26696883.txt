@@ -1,0 +1,37 @@
+26696883|t|Discrimination between Alzheimer's Disease and Late Onset Bipolar Disorder Using Multivariate Analysis.
+26696883|a|BACKGROUND: Late onset bipolar disorder (LOBD) is often difficult to distinguish from degenerative dementias, such as Alzheimer disease (AD), due to comorbidities and common cognitive symptoms. Moreover, LOBD prevalence in the elder population is not negligible and it is increasing. Both pathologies share pathophysiological neuroinflammation features. Improvements in differential diagnosis of LOBD and AD will help to select the best personalized treatment. OBJECTIVE: The aim of this study is to assess the relative significance of clinical observations, neuropsychological tests, and specific blood plasma biomarkers (inflammatory and neurotrophic), separately and combined, in the differential diagnosis of LOBD versus AD. It was carried out evaluating the accuracy achieved by classification-based computer-aided diagnosis (CAD) systems based on these variables. MATERIALS: A sample of healthy controls (HC) (n = 26), AD patients (n = 37), and LOBD patients (n = 32) was recruited at the Alava University Hospital. Clinical observations, neuropsychological tests, and plasma biomarkers were measured at recruitment time. METHODS: We applied multivariate machine learning classification methods to discriminate subjects from HC, AD, and LOBD populations in the study. We analyzed, for each classification contrast, feature sets combining clinical observations, neuropsychological measures, and biological markers, including inflammation biomarkers. Furthermore, we analyzed reduced feature sets containing variables with significative differences determined by a Welch's t-test. Furthermore, a battery of classifier architectures were applied, encompassing linear and non-linear Support Vector Machines (SVM), Random Forests (RF), Classification and regression trees (CART), and their performance was evaluated in a leave-one-out (LOO) cross-validation scheme. Post hoc analysis of Gini index in CART classifiers provided a measure of each variable importance. RESULTS: Welch's t-test found one biomarker (Malondialdehyde) with significative differences (p < 0.001) in LOBD vs. AD contrast. Classification results with the best features are as follows: discrimination of HC vs. AD patients reaches accuracy 97.21% and AUC 98.17%. Discrimination of LOBD vs. AD patients reaches accuracy 90.26% and AUC 89.57%. Discrimination of HC vs LOBD patients achieves accuracy 95.76% and AUC 88.46%. CONCLUSION: It is feasible to build CAD systems for differential diagnosis of LOBD and AD on the basis of a reduced set of clinical variables. Clinical observations provide the greatest discrimination. Neuropsychological tests are improved by the addition of biomarkers, and both contribute significantly to improve the overall predictive performance.
+26696883	23	42	Alzheimer's Disease	Disease	MESH:D000544
+26696883	58	74	Bipolar Disorder	Disease	MESH:D001714
+26696883	127	143	bipolar disorder	Disease	MESH:D001714
+26696883	145	149	LOBD	Disease	MESH:D001714
+26696883	190	212	degenerative dementias	Disease	MESH:D000544
+26696883	222	239	Alzheimer disease	Disease	MESH:D000544
+26696883	241	243	AD	Disease	MESH:D000544
+26696883	308	312	LOBD	Disease	MESH:D001714
+26696883	430	447	neuroinflammation	Disease	MESH:D000090862
+26696883	500	504	LOBD	Disease	MESH:D001714
+26696883	509	511	AD	Disease	MESH:D000544
+26696883	727	739	inflammatory	Disease	MESH:D007249
+26696883	817	821	LOBD	Disease	MESH:D001714
+26696883	829	831	AD	Disease	MESH:D000544
+26696883	1029	1031	AD	Disease	MESH:D000544
+26696883	1032	1040	patients	Species	9606
+26696883	1055	1059	LOBD	Disease	MESH:D001714
+26696883	1060	1068	patients	Species	9606
+26696883	1339	1341	AD	Disease	MESH:D000544
+26696883	1347	1351	LOBD	Disease	MESH:D001714
+26696883	1534	1546	inflammation	Disease	MESH:D007249
+26696883	2116	2131	Malondialdehyde	Chemical	MESH:D008315
+26696883	2179	2183	LOBD	Disease	MESH:D001714
+26696883	2188	2190	AD	Disease	MESH:D000544
+26696883	2288	2290	AD	Disease	MESH:D000544
+26696883	2291	2299	patients	Species	9606
+26696883	2358	2362	LOBD	Disease	MESH:D001714
+26696883	2367	2369	AD	Disease	MESH:D000544
+26696883	2370	2378	patients	Species	9606
+26696883	2443	2447	LOBD	Disease	MESH:D001714
+26696883	2448	2456	patients	Species	9606
+26696883	2576	2580	LOBD	Disease	MESH:D001714
+26696883	2585	2587	AD	Disease	MESH:D000544
+26696883	Association	MESH:D008315	MESH:D001714
+

@@ -1,0 +1,34 @@
+37208478|t|Comparing the effects of four common drug classes on the progression of mild cognitive impairment to dementia using electronic health records.
+37208478|a|The objective of this study was to investigate the potential association between the use of four frequently prescribed drug classes, namely antihypertensive drugs, statins, selective serotonin reuptake inhibitors, and proton-pump inhibitors, and the likelihood of disease progression from mild cognitive impairment (MCI) to dementia using electronic health records (EHRs). We conducted a retrospective cohort study using observational EHRs from a cohort of approximately 2 million patients seen at a large, multi-specialty urban academic medical center in New York City, USA between 2008 and 2020 to automatically emulate the randomized controlled trials. For each drug class, two exposure groups were identified based on the prescription orders documented in the EHRs following their MCI diagnosis. During follow-up, we measured drug efficacy based on the incidence of dementia and estimated the average treatment effect (ATE) of various drugs. To ensure the robustness of our findings, we confirmed the ATE estimates via bootstrapping and presented associated 95% confidence intervals (CIs). Our analysis identified 14,269 MCI patients, among whom 2501 (17.5%) progressed to dementia. Using average treatment estimation and bootstrapping confirmation, we observed that drugs including rosuvastatin (ATE = - 0.0140 [- 0.0191, - 0.0088], p value < 0.001), citalopram (ATE = - 0.1128 [- 0.125, - 0.1005], p value < 0.001), escitalopram (ATE = - 0.0560 [- 0.0615, - 0.0506], p value < 0.001), and omeprazole (ATE = - 0.0201 [- 0.0299, - 0.0103], p value < 0.001) have a statistically significant association in slowing the progression from MCI to dementia. The findings from this study support the commonly prescribed drugs in altering the progression from MCI to dementia and warrant further investigation.
+37208478	77	97	cognitive impairment	Disease	MESH:D003072
+37208478	101	109	dementia	Disease	MESH:D003704
+37208478	437	457	cognitive impairment	Disease	MESH:D003072
+37208478	459	462	MCI	Disease	MESH:D060825
+37208478	467	475	dementia	Disease	MESH:D003704
+37208478	624	632	patients	Species	9606
+37208478	928	931	MCI	Disease	MESH:D060825
+37208478	1013	1021	dementia	Disease	MESH:D003704
+37208478	1268	1271	MCI	Disease	MESH:D060825
+37208478	1272	1280	patients	Species	9606
+37208478	1320	1328	dementia	Disease	MESH:D003704
+37208478	1430	1442	rosuvastatin	Chemical	MESH:D000068718
+37208478	1499	1509	citalopram	Chemical	MESH:D015283
+37208478	1565	1577	escitalopram	Chemical	MESH:D000089983
+37208478	1638	1648	omeprazole	Chemical	MESH:D009853
+37208478	1781	1784	MCI	Disease	MESH:D060825
+37208478	1788	1796	dementia	Disease	MESH:D003704
+37208478	1898	1901	MCI	Disease	MESH:D060825
+37208478	1905	1913	dementia	Disease	MESH:D003704
+37208478	Negative_Correlation	MESH:D009853	MESH:D003072
+37208478	Negative_Correlation	MESH:D015283	MESH:D003704
+37208478	Negative_Correlation	MESH:D000068718	MESH:D003704
+37208478	Negative_Correlation	MESH:D015283	MESH:D060825
+37208478	Negative_Correlation	MESH:D000089983	MESH:D003072
+37208478	Negative_Correlation	MESH:D000068718	MESH:D060825
+37208478	Negative_Correlation	MESH:D000089983	MESH:D060825
+37208478	Negative_Correlation	MESH:D009853	MESH:D003704
+37208478	Negative_Correlation	MESH:D009853	MESH:D060825
+37208478	Negative_Correlation	MESH:D000089983	MESH:D003704
+37208478	Negative_Correlation	MESH:D000068718	MESH:D003072
+37208478	Negative_Correlation	MESH:D015283	MESH:D003072
+

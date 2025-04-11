@@ -1,0 +1,34 @@
+35656471|t|Pharmacological Mechanism of Shen Huang Chong Ji for Treating Alzheimer's Disease Based on Network Pharmacology and Experimental Validation.
+35656471|a|The traditional Chinese medicine (TCM) formula, Sheng Huang Chong Ji (SHCJ) is largely applied for treating Alzheimer's disease (AD), but not much is known regarding its active compounds, molecular targets, and mechanism of action. The current study aimed to predict the potential molecular mechanism of SHCJ against AD based on network pharmacology combined with in vitro validation. Using public databases, SHCJ's active compounds, their potential targets, and AD-related genes were screened, while Cytoscape Version 3.7.2 was used to build protein-protein interaction (PPI) and compound-disease-target (C-D-T) networks. Analysis of enriched Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways and Gene Ontology (GO) terms was then carried out in R 4.0.2, including associated packages. Subsequently, molecular docking analysis was performed with AutoDock Vina 1.1.2, with intro experiments involving SH-SY5Y cells used to further investigate the mechanism of SHCJ against AD. Finally, a total of 56 active compounds of SHCJ and 192 SHCJ-AD-related targets were identified. Quercetin was identified as the top potential candidate agent. HSP90AA1, AKT1, and MAPK1 represent potential therapeutic targets. The PI3K-Akt signaling pathway potentially represents a core one mediating the effects of SHCJ against AD. Additionally, molecular docking analysis indicated that quercetin could combine well with AKT1 and multiple apoptosis-related target genes. During cell experiments, a significant increase in cell viability along with a decrease in Abeta 25-35-induced apoptosis was observed after treatment with SHCJ. Furthermore, SHCJ significantly increased the phosphorylation of PI3K and Akt while reversing Abeta 25-35-induced apoptosis-related protein expression downregulation.
+35656471	29	48	Shen Huang Chong Ji	Chemical	-
+35656471	62	81	Alzheimer's Disease	Disease	MESH:D000544
+35656471	189	209	Sheng Huang Chong Ji	Chemical	-
+35656471	211	215	SHCJ	Chemical	-
+35656471	249	268	Alzheimer's disease	Disease	MESH:D000544
+35656471	270	272	AD	Disease	MESH:D000544
+35656471	445	449	SHCJ	Chemical	-
+35656471	458	460	AD	Disease	MESH:D000544
+35656471	550	554	SHCJ	Chemical	-
+35656471	604	606	AD	Disease	MESH:D000544
+35656471	1048	1055	SH-SY5Y	CellLine	CVCL:0019
+35656471	1107	1111	SHCJ	Chemical	-
+35656471	1120	1122	AD	Disease	MESH:D000544
+35656471	1167	1171	SHCJ	Chemical	-
+35656471	1180	1185	SHCJ-	Chemical	-
+35656471	1185	1187	AD	Disease	MESH:D000544
+35656471	1221	1230	Quercetin	Chemical	MESH:D011794
+35656471	1284	1292	HSP90AA1	Gene	3320
+35656471	1294	1298	AKT1	Gene	207
+35656471	1304	1309	MAPK1	Gene	5594
+35656471	1360	1363	Akt	Gene	207
+35656471	1441	1445	SHCJ	Chemical	-
+35656471	1454	1456	AD	Disease	MESH:D000544
+35656471	1514	1523	quercetin	Chemical	MESH:D011794
+35656471	1548	1552	AKT1	Gene	207
+35656471	1753	1757	SHCJ	Chemical	-
+35656471	1772	1776	SHCJ	Chemical	-
+35656471	1833	1836	Akt	Gene	207
+35656471	Association	MESH:D011794	207
+35656471	Negative_Correlation	MESH:D011794	MESH:D000544
+35656471	Association	MESH:D000544	207
+

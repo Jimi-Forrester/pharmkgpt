@@ -1,0 +1,40 @@
+35433310|t|Endotracheal intubation sedation in the intensive care unit.
+35433310|a|Endotracheal intubation is one of the most common, yet most dangerous procedure performed in the intensive care unit (ICU). Complications of ICU intubations include severe hypotension, hypoxemia, and cardiac arrest. Multiple observational studies have evaluated risk factors associated with these complications. Among the risk factors identified, the choice of sedative agents administered, a modifiable risk factor, has been reported to affect these complications (hypotension). Propofol, etomidate, and ketamine or in combination with benzodiazepines and opioids are commonly used sedative agents administered for endotracheal intubation. Propofol demonstrates rapid onset and offset, however, has drawbacks of profound vasodilation and associated cardiac depression. Etomidate is commonly used in the critically ill population. However, it is known to cause reversible inhibition of 11 beta-hydroxylase which suppresses the adrenal production of cortisol for at least 24 h. This added organ impairment with the use of etomidate has been a potential contributing factor for the associated increased morbidity and mortality observed with its use. Ketamine is known to provide analgesia with sedation and has minimal respiratory and cardiovascular effects. However, its use can lead to tachycardia and hypertension which may be deleterious in a patient with heart disease or cause unpleasant hallucinations. Moreover, unlike propofol or etomidate, ketamine requires organ dependent elimination by the liver and kidney which may be problematic in the critically ill. Lately, a combination of ketamine and propofol, "Ketofol", has been increasingly used as it provides a balancing effect on hemodynamics without any of the side effects known to be associated with the parent drugs. Furthermore, the doses of both drugs are reduced. In situations where a difficult airway is anticipated, awake intubation with the help of a fiberoptic scope or video laryngoscope is considered. Dexmedetomidine is a commonly used sedative agent for these procedures.
+35433310	233	244	hypotension	Disease	MESH:D007022
+35433310	246	255	hypoxemia	Disease	MESH:D000860
+35433310	261	275	cardiac arrest	Disease	MESH:D006323
+35433310	527	538	hypotension	Disease	MESH:D007022
+35433310	541	549	Propofol	Chemical	MESH:D015742
+35433310	551	560	etomidate	Chemical	MESH:D005045
+35433310	566	574	ketamine	Chemical	MESH:D007649
+35433310	598	613	benzodiazepines	Chemical	MESH:D001569
+35433310	702	710	Propofol	Chemical	MESH:D015742
+35433310	811	829	cardiac depression	Disease	MESH:D006331
+35433310	831	840	Etomidate	Chemical	MESH:D005045
+35433310	865	879	critically ill	Disease	MESH:D016638
+35433310	1010	1018	cortisol	Chemical	MESH:D006854
+35433310	1049	1065	organ impairment	Disease	MESH:D019965
+35433310	1082	1091	etomidate	Chemical	MESH:D005045
+35433310	1209	1217	Ketamine	Chemical	MESH:D007649
+35433310	1347	1358	tachycardia	Disease	MESH:D013610
+35433310	1363	1375	hypertension	Disease	MESH:D006973
+35433310	1406	1413	patient	Species	9606
+35433310	1419	1432	heart disease	Disease	MESH:D006331
+35433310	1453	1467	hallucinations	Disease	MESH:D006212
+35433310	1486	1494	propofol	Chemical	MESH:D015742
+35433310	1498	1507	etomidate	Chemical	MESH:D005045
+35433310	1509	1517	ketamine	Chemical	MESH:D007649
+35433310	1611	1625	critically ill	Disease	MESH:D016638
+35433310	1652	1660	ketamine	Chemical	MESH:D007649
+35433310	1665	1673	propofol	Chemical	MESH:D015742
+35433310	1676	1683	Ketofol	Chemical	-
+35433310	2036	2051	Dexmedetomidine	Chemical	MESH:D020927
+35433310	Positive_Correlation	MESH:D007649	MESH:D006212
+35433310	Negative_Correlation	MESH:D005045	MESH:D016638
+35433310	Positive_Correlation	MESH:D005045	MESH:D019965
+35433310	Positive_Correlation	MESH:D015742	MESH:D006331
+35433310	Positive_Correlation	MESH:D007649	MESH:D006973
+35433310	Positive_Correlation	MESH:D007649	MESH:D013610
+35433310	Comparison	MESH:D007649	MESH:D015742
+35433310	Negative_Correlation	MESH:D005045	MESH:D006854
+

@@ -1,0 +1,24 @@
+33187537|t|DLDTI: a learning-based framework for drug-target interaction identification using neural networks and network representation.
+33187537|a|BACKGROUND: Drug repositioning, the strategy of unveiling novel targets of existing drugs could reduce costs and accelerate the pace of drug development. To elucidate the novel molecular mechanism of known drugs, considering the long time and high cost of experimental determination, the efficient and feasible computational methods to predict the potential associations between drugs and targets are of great aid. METHODS: A novel calculation model for drug-target interaction (DTI) prediction based on network representation learning and convolutional neural networks, called DLDTI, was generated. The proposed approach simultaneously fused the topology of complex networks and diverse information from heterogeneous data sources, and coped with the noisy, incomplete, and high-dimensional nature of large-scale biological data by learning the low-dimensional and rich depth features of drugs and proteins. The low-dimensional feature vectors were used to train DLDTI to obtain the optimal mapping space and to infer new DTIs by ranking candidates according to their proximity to the optimal mapping space. More specifically, based on the results from the DLDTI, we experimentally validated the predicted targets of tetramethylpyrazine (TMPZ) on atherosclerosis progression in vivo. RESULTS: The experimental results showed that the DLDTI model achieved promising performance under fivefold cross-validations with AUC values of 0.9172, which was higher than the methods using different classifiers or different feature combination methods mentioned in this paper. For the validation study of TMPZ on atherosclerosis, a total of 288 targets were identified and 190 of them were involved in platelet activation. The pathway analysis indicated signaling pathways, namely PI3K/Akt, cAMP and calcium pathways might be the potential targets. Effects and molecular mechanism of TMPZ on atherosclerosis were experimentally confirmed in animal models. CONCLUSIONS: DLDTI model can serve as a useful tool to provide promising DTI candidates for experimental validation. Based on the predicted results of DLDTI model, we found TMPZ could attenuate atherosclerosis by inhibiting signal transductions in platelets. The source code and datasets explored in this work are available at https://github.com/CUMTzackGit/DLDTI .
+33187537	0	5	DLDTI	Chemical	-
+33187537	705	710	DLDTI	Chemical	-
+33187537	1091	1096	DLDTI	Chemical	-
+33187537	1285	1290	DLDTI	Chemical	-
+33187537	1345	1364	tetramethylpyrazine	Chemical	MESH:C017953
+33187537	1366	1370	TMPZ	Chemical	MESH:C017953
+33187537	1375	1390	atherosclerosis	Disease	MESH:D050197
+33187537	1462	1467	DLDTI	Chemical	-
+33187537	1721	1725	TMPZ	Chemical	MESH:C017953
+33187537	1729	1744	atherosclerosis	Disease	MESH:D050197
+33187537	1902	1905	Akt	Gene	207
+33187537	1907	1911	cAMP	Chemical	-
+33187537	1916	1923	calcium	Chemical	MESH:D002118
+33187537	2000	2004	TMPZ	Chemical	MESH:C017953
+33187537	2008	2023	atherosclerosis	Disease	MESH:D050197
+33187537	2085	2090	DLDTI	Chemical	-
+33187537	2223	2228	DLDTI	Chemical	-
+33187537	2245	2249	TMPZ	Chemical	MESH:C017953
+33187537	2266	2281	atherosclerosis	Disease	MESH:D050197
+33187537	2430	2435	DLDTI	Chemical	-
+33187537	Negative_Correlation	MESH:C017953	MESH:D050197
+

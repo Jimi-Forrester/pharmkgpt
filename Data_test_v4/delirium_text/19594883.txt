@@ -1,0 +1,19 @@
+19594883|t|Annotating the human genome with Disease Ontology.
+19594883|a|BACKGROUND: The human genome has been extensively annotated with Gene Ontology for biological functions, but minimally computationally annotated for diseases. RESULTS: We used the Unified Medical Language System (UMLS) MetaMap Transfer tool (MMTx) to discover gene-disease relationships from the GeneRIF database. We utilized a comprehensive subset of UMLS, which is disease-focused and structured as a directed acyclic graph (the Disease Ontology), to filter and interpret results from MMTx. The results were validated against the Homayouni gene collection using recall and precision measurements. We compared our results with the widely used Online Mendelian Inheritance in Man (OMIM) annotations. CONCLUSION: The validation data set suggests a 91% recall rate and 97% precision rate of disease annotation using GeneRIF, in contrast with a 22% recall and 98% precision using OMIM. Our thesaurus-based approach allows for comparisons to be made between disease containing databases and allows for increased accuracy in disease identification through synonym matching. The much higher recall rate of our approach demonstrates that annotating human genome with Disease Ontology and GeneRIF for diseases dramatically increases the coverage of the disease annotation of human genome.
+19594883	15	20	human	Species	9606
+19594883	33	40	Disease	Disease	MESH:D004194
+19594883	67	72	human	Species	9606
+19594883	316	323	disease	Disease	MESH:D004194
+19594883	418	425	disease	Disease	MESH:D004194
+19594883	482	489	Disease	Disease	MESH:D004194
+19594883	712	730	Inheritance in Man	Disease	MESH:D016750
+19594883	732	736	OMIM	Disease	MESH:D030342
+19594883	840	847	disease	Disease	MESH:D004194
+19594883	928	932	OMIM	Disease	MESH:D030342
+19594883	1005	1012	disease	Disease	MESH:D004194
+19594883	1071	1078	disease	Disease	MESH:D004194
+19594883	1193	1198	human	Species	9606
+19594883	1211	1218	Disease	Disease	MESH:D004194
+19594883	1296	1303	disease	Disease	MESH:D004194
+19594883	1318	1323	human	Species	9606
+

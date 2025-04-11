@@ -1,0 +1,45 @@
+33226994|t|A phenome-wide association study of 26 mendelian genes reveals phenotypic expressivity of common and rare variants within the general population.
+33226994|a|The clinical evaluation of a genetic syndrome relies upon recognition of a characteristic pattern of signs or symptoms to guide targeted genetic testing for confirmation of the diagnosis. However, individuals displaying a single phenotype of a complex syndrome may not meet criteria for clinical diagnosis or genetic testing. Here, we present a phenome-wide association study (PheWAS) approach to systematically explore the phenotypic expressivity of common and rare alleles in genes associated with four well-described syndromic diseases (Alagille (AS), Marfan (MS), DiGeorge (DS), and Noonan (NS) syndromes) in the general population. Using human phenotype ontology (HPO) terms, we systematically mapped 60 phenotypes related to AS, MS, DS and NS in 337,198 unrelated white British from the UK Biobank (UKBB) based on their hospital admission records, self-administrated questionnaires, and physiological measurements. We performed logistic regression adjusting for age, sex, and the first 5 genetic principal components, for each phenotype and each variant in the target genes (JAG1, NOTCH2 FBN1, PTPN1 and RAS-opathy genes, and genes in the 22q11.2 locus) and performed a gene burden test. Overall, we observed multiple phenotype-genotype correlations, such as the association between variation in JAG1, FBN1, PTPN11 and SOS2 with diastolic and systolic blood pressure; and pleiotropy among multiple variants in syndromic genes. For example, rs11066309 in PTPN11 was significantly associated with a lower body mass index, an increased risk of hypothyroidism and a smaller size for gestational age, all in concordance with NS-related phenotypes. Similarly, rs589668 in FBN1 was associated with an increase in body height and blood pressure, and a reduced body fat percentage as observed in Marfan syndrome. Our findings suggest that the spectrum of associations of common and rare variants in genes involved in syndromic diseases can be extended to individual phenotypes within the general population.
+33226994	175	191	genetic syndrome	Disease	MESH:D030342
+33226994	666	684	syndromic diseases	Disease	MESH:D004194
+33226994	686	694	Alagille	Disease	MESH:D016738
+33226994	701	707	Marfan	Disease	MESH:D008382
+33226994	709	711	MS	Disease	MESH:D009103
+33226994	714	722	DiGeorge	Disease	MESH:D004062
+33226994	724	726	DS	Disease	
+33226994	733	754	Noonan (NS) syndromes	Disease	MESH:D056770
+33226994	789	794	human	Species	9606
+33226994	881	883	MS	Disease	MESH:D009103
+33226994	885	887	DS	Disease	
+33226994	892	894	NS	Disease	MESH:D056770
+33226994	1227	1231	JAG1	Gene	182
+33226994	1233	1239	NOTCH2	Gene	4853
+33226994	1240	1244	FBN1	Gene	2200
+33226994	1246	1251	PTPN1	Gene	5770
+33226994	1260	1266	opathy	Disease	
+33226994	1291	1298	22q11.2	Chromosome	22
+33226994	1448	1452	JAG1	Gene	182
+33226994	1454	1458	FBN1	Gene	2200
+33226994	1460	1466	PTPN11	Gene	5781
+33226994	1471	1475	SOS2	Gene	6655
+33226994	1592	1602	rs11066309	SNP	tmVar:rs11066309;VariantGroup:0;CorrespondingGene:5781;RS#:11066309;CorrespondingSpecies:9606
+33226994	1606	1612	PTPN11	Gene	5781
+33226994	1693	1707	hypothyroidism	Disease	MESH:D007037
+33226994	1772	1774	NS	Disease	MESH:D056770
+33226994	1806	1814	rs589668	SNP	tmVar:rs589668;VariantGroup:1;CorrespondingGene:2200;RS#:589668;CorrespondingSpecies:9606
+33226994	1818	1822	FBN1	Gene	2200
+33226994	1939	1954	Marfan syndrome	Disease	MESH:D008382
+33226994	2060	2078	syndromic diseases	Disease	MESH:D004194
+33226994	Positive_Correlation	MESH:D056770	RS#:11066309;CorrespondingGene:5781
+33226994	Association	MESH:D004194	5781
+33226994	Association	MESH:D008382	RS#:589668;CorrespondingGene:2200
+33226994	Positive_Correlation	MESH:D007037	RS#:11066309;CorrespondingGene:5781
+33226994	Association	MESH:D008382	2200
+33226994	Association	MESH:D007037	5781
+33226994	Association	MESH:D008382	RS#:11066309;CorrespondingGene:5781
+33226994	Association	MESH:D056770	5781
+33226994	Association	MESH:D056770	5781
+33226994	Association	MESH:D008382	2200
+33226994	Association	MESH:D007037	5781
+33226994	Association	MESH:D008382	5781
+

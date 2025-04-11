@@ -1,0 +1,14 @@
+39593736|t|MRI-Driven Alzheimer's Disease Diagnosis Using Deep Network Fusion and Optimal Selection of Feature.
+39593736|a|Alzheimer's disease (AD) is a degenerative neurological condition characterized by cognitive decline, memory loss, and reduced everyday function, which eventually causes dementia. Symptoms develop years after the disease begins, making early detection difficult. While AD remains incurable, timely detection and prompt treatment can substantially slow its progression. This study presented a framework for automated AD detection using brain MRIs. Firstly, the deep network information (i.e., features) were extracted using various deep-learning networks. The information extracted from the best deep networks (EfficientNet-b0 and MobileNet-v2) were merged using the canonical correlation approach (CCA). The CCA-based fused features resulted in an enhanced classification performance of 94.7% with a large feature vector size (i.e., 2532). To remove the redundant features from the CCA-based fused feature vector, the binary-enhanced WOA was utilized for optimal feature selection, which yielded an average accuracy of 98.12 +- 0.52 (mean +- standard deviation) with only 953 features. The results were compared with other optimal feature selection techniques, showing that the binary-enhanced WOA results are statistically significant (p < 0.01). The ablation study was also performed to show the significance of each step of the proposed methodology. Furthermore, the comparison shows the superiority and high classification performance of the proposed automated AD detection approach, suggesting that the hybrid approach may help doctors with dementia detection and staging.
+39593736	11	30	Alzheimer's Disease	Disease	MESH:D000544
+39593736	101	120	Alzheimer's disease	Disease	MESH:D000544
+39593736	122	124	AD	Disease	MESH:D000544
+39593736	131	166	degenerative neurological condition	Disease	MESH:D019636
+39593736	184	201	cognitive decline	Disease	MESH:D003072
+39593736	203	214	memory loss	Disease	MESH:D008569
+39593736	271	279	dementia	Disease	MESH:D003704
+39593736	370	372	AD	Disease	MESH:D000544
+39593736	517	519	AD	Disease	MESH:D000544
+39593736	1566	1568	AD	Disease	MESH:D000544
+39593736	1647	1655	dementia	Disease	MESH:D003704
+

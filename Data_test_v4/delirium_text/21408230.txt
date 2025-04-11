@@ -1,0 +1,38 @@
+21408230|t|Unfolding of the amyloid beta-peptide central helix: mechanistic insights from molecular dynamics simulations.
+21408230|a|Alzheimer's disease (AD) pathogenesis is associated with formation of amyloid fibrils caused by polymerization of the amyloid beta-peptide (Abeta), which is a process that requires unfolding of the native helical structure of Abeta. According to recent experimental studies, stabilization of the Abeta central helix is effective in preventing Abeta polymerization into toxic assemblies. To uncover the fundamental mechanism of unfolding of the Abeta central helix, we performed molecular dynamics simulations for wild-type (WT), V18A/F19A/F20A mutant (MA), and V18L/F19L/F20L mutant (ML) models of the Abeta central helix. It was quantitatively demonstrated that the stability of the alpha-helical conformation of both MA and ML is higher than that of WT, indicating that the alpha-helical propensity of the three nonpolar residues (18, 19, and 20) is the main factor for the stability of the whole Abeta central helix and that their hydrophobicity plays a secondary role. WT was found to completely unfold by a three-step mechanism: 1) loss of alpha-helical backbone hydrogen bonds, 2) strong interactions between nonpolar sidechains, and 3) strong interactions between polar sidechains. WT did not completely unfold in cases when any of the three steps was omitted. MA and ML did not completely unfold mainly due to the lack of the first step. This suggests that disturbances in any of the three steps would be effective in inhibiting the unfolding of the Abeta central helix. Our findings would pave the way for design of new drugs to prevent or retard AD.
+21408230	111	130	Alzheimer's disease	Disease	MESH:D000544
+21408230	132	134	AD	Disease	MESH:D000544
+21408230	251	256	Abeta	Gene	351
+21408230	337	342	Abeta	Gene	351
+21408230	407	412	Abeta	Gene	351
+21408230	454	459	Abeta	Gene	351
+21408230	555	560	Abeta	Gene	351
+21408230	640	644	V18A	ProteinMutation	tmVar:p|SUB|V|18|A;HGVS:p.V18A;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+21408230	645	649	F19A	ProteinMutation	tmVar:p|SUB|F|19|A;HGVS:p.F19A;VariantGroup:2;CorrespondingGene:351;CorrespondingSpecies:9606
+21408230	650	654	F20A	ProteinMutation	tmVar:p|SUB|F|20|A;HGVS:p.F20A;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+21408230	663	665	MA	Disease	MESH:D016115
+21408230	672	676	V18L	ProteinMutation	tmVar:p|SUB|V|18|L;HGVS:p.V18L;VariantGroup:0;CorrespondingGene:351;CorrespondingSpecies:9606
+21408230	677	681	F19L	ProteinMutation	tmVar:p|SUB|F|19|L;HGVS:p.F19L;VariantGroup:2;CorrespondingGene:351;CorrespondingSpecies:9606
+21408230	682	686	F20L	ProteinMutation	tmVar:p|SUB|F|20|L;HGVS:p.F20L;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+21408230	695	697	ML	Disease	MESH:C537366
+21408230	713	718	Abeta	Gene	351
+21408230	1010	1015	Abeta	Gene	351
+21408230	1379	1381	MA	Disease	MESH:D016115
+21408230	1386	1388	ML	Disease	MESH:C537366
+21408230	1569	1574	Abeta	Gene	351
+21408230	1667	1669	AD	Disease	MESH:D000544
+21408230	Association	HGVS:p.F20L;CorrespondingGene:351	HGVS:p.V18L;CorrespondingGene:351
+21408230	Association	HGVS:p.F20A;CorrespondingGene:351	HGVS:p.V18A;CorrespondingGene:351
+21408230	Association	MESH:C537366	HGVS:p.F20L;CorrespondingGene:351
+21408230	Association	HGVS:p.F19A;CorrespondingGene:351	HGVS:p.F20A;CorrespondingGene:351
+21408230	Association	MESH:D016115	351
+21408230	Association	MESH:C537366	HGVS:p.F19L;CorrespondingGene:351
+21408230	Association	MESH:C537366	351
+21408230	Association	HGVS:p.F19A;CorrespondingGene:351	HGVS:p.V18A;CorrespondingGene:351
+21408230	Positive_Correlation	MESH:D000544	HGVS:p.V18A;CorrespondingGene:351
+21408230	Association	MESH:D000544	351
+21408230	Association	MESH:C537366	HGVS:p.V18A;CorrespondingGene:351
+21408230	Association	MESH:C537366	HGVS:p.V18L;CorrespondingGene:351
+21408230	Association	MESH:C537366	351
+21408230	Association	MESH:D000544	351
+

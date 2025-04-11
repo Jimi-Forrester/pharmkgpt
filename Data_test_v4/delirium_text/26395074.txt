@@ -1,0 +1,26 @@
+26395074|t|Leveraging existing data sets to generate new insights into Alzheimer's disease biology in specific patient subsets.
+26395074|a|To generate new insights into the biology of Alzheimer's Disease (AD), we developed methods to combine and reuse a wide variety of existing data sets in new ways. We first identified genes consistently associated with AD in each of four separate expression studies, and confirmed this result using a fifth study. We next developed algorithms to search hundreds of thousands of Gene Expression Omnibus (GEO) data sets, identifying a link between an AD-associated gene (NEUROD6) and gender. We therefore stratified patients by gender along with APOE4 status, and analyzed multiple SNP data sets to identify variants associated with AD. SNPs in either the region of NEUROD6 or SNAP25 were significantly associated with AD, in APOE4+ females and APOE4+ males, respectively. We developed algorithms to search Connectivity Map (CMAP) data for medicines that modulate AD-associated genes, identifying hypotheses that warrant further investigation for treating specific AD patient subsets. In contrast to other methods, this approach focused on integrating multiple gene expression datasets across platforms in order to achieve a robust intersection of disease-affected genes, and then leveraging these results in combination with genetic studies in order to prioritize potential genes for targeted therapy. 
+26395074	60	79	Alzheimer's disease	Disease	MESH:D000544
+26395074	100	107	patient	Species	9606
+26395074	162	181	Alzheimer's Disease	Disease	MESH:D000544
+26395074	183	185	AD	Disease	MESH:D000544
+26395074	335	337	AD	Disease	MESH:D000544
+26395074	565	567	AD	Disease	MESH:D000544
+26395074	585	592	NEUROD6	Gene	63974
+26395074	630	638	patients	Species	9606
+26395074	660	665	APOE4	Gene	348
+26395074	747	749	AD	Disease	MESH:D000544
+26395074	780	787	NEUROD6	Gene	63974
+26395074	791	797	SNAP25	Gene	6616
+26395074	833	835	AD	Disease	MESH:D000544
+26395074	840	845	APOE4	Gene	348
+26395074	859	864	APOE4	Gene	348
+26395074	978	980	AD	Disease	MESH:D000544
+26395074	1079	1081	AD	Disease	MESH:D000544
+26395074	1082	1089	patient	Species	9606
+26395074	Association	MESH:D000544	63974
+26395074	Association	348	6616
+26395074	Association	MESH:D000544	6616
+26395074	Association	MESH:D000544	348
+26395074	Association	348	63974
+

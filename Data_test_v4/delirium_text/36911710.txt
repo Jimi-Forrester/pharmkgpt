@@ -1,0 +1,48 @@
+36911710|t|Potential diagnostic markers and therapeutic targets for rheumatoid arthritis with comorbid depression based on bioinformatics analysis.
+36911710|a|Background: Rheumatoid arthritis (RA) and depression are prevalent diseases that have a negative impact on the quality of life and place a significant economic burden on society. There is increasing evidence that the two diseases are closely related, which could make the disease outcomes worse. In this study, we aimed to identify diagnostic markers and analyzed the therapeutic potential of key genes. Methods: We assessed the differentially expressed genes (DEGs) specific for RA and Major depressive disorder (MDD) and used weighted gene co-expression network analysis (WGCNA) to identify co-expressed gene modules by obtaining the Gene expression profile data from Gene Expression Omnibus (GEO) database. By using the STRING database, a protein-protein interaction (PPI) network constructed and identified key genes. We also employed two types of machine learning techniques to derive diagnostic markers, which were assessed for their association with immune cells and potential therapeutic effects. Molecular docking and in vitro experiments were used to validate these analytical results. Results: In total, 48 DEGs were identified in RA with comorbid MDD. The PPI network was combined with WGCNA to identify 26 key genes of RA with comorbid MDD. Machine learning-based methods indicated that RA combined with MDD is likely related to six diagnostic markers: AURKA, BTN3A2, CXCL10, ERAP2, MARCO, and PLA2G7. CXCL10 and MARCO are closely associated with diverse immune cells in RA. However, apart from PLA2G7, the expression levels of the other five genes were associated with the composition of the majority of immune cells in MDD. Molecular docking and in vitro studies have revealed that Aucubin (AU) exerts the therapeutic effect through the downregulation of CXCL10 and BTN3A2 gene expression in PC12 cells. Conclusion: Our study indicates that six diagnostic markers were the basis of the comorbidity mechanism of RA and MDD and may also be potential therapeutic targets. Further mechanistic studies of the pathogenesis and treatment of RA and MDD may be able to identify new targets using these shared pathways.
+36911710	57	77	rheumatoid arthritis	Disease	MESH:D001172
+36911710	92	102	depression	Disease	MESH:D003866
+36911710	149	169	Rheumatoid arthritis	Disease	MESH:D001172
+36911710	171	173	RA	Disease	MESH:D001172
+36911710	179	189	depression	Disease	MESH:D003866
+36911710	617	619	RA	Disease	MESH:D001172
+36911710	624	649	Major depressive disorder	Disease	MESH:D003865
+36911710	651	654	MDD	Disease	MESH:D003865
+36911710	1279	1281	RA	Disease	MESH:D001172
+36911710	1296	1299	MDD	Disease	MESH:D003865
+36911710	1369	1371	RA	Disease	MESH:D001172
+36911710	1386	1389	MDD	Disease	MESH:D003865
+36911710	1437	1439	RA	Disease	MESH:D001172
+36911710	1454	1457	MDD	Disease	MESH:D003865
+36911710	1503	1508	AURKA	Gene	261730
+36911710	1510	1516	BTN3A2	Gene	294268
+36911710	1518	1524	CXCL10	Gene	245920
+36911710	1533	1538	MARCO	Gene	367391
+36911710	1544	1550	PLA2G7	Gene	301265
+36911710	1552	1558	CXCL10	Gene	245920
+36911710	1563	1568	MARCO	Gene	367391
+36911710	1621	1623	RA	Disease	MESH:D001172
+36911710	1645	1651	PLA2G7	Gene	301265
+36911710	1771	1774	MDD	Disease	MESH:D003865
+36911710	1834	1841	Aucubin	Chemical	MESH:C006650
+36911710	1843	1845	AU	Chemical	MESH:C006650
+36911710	1907	1913	CXCL10	Gene	245920
+36911710	1918	1924	BTN3A2	Gene	294268
+36911710	1944	1948	PC12	CellLine	CVCL:0481
+36911710	2063	2065	RA	Disease	MESH:D001172
+36911710	2070	2073	MDD	Disease	MESH:D003865
+36911710	2186	2188	RA	Disease	MESH:D001172
+36911710	2193	2196	MDD	Disease	MESH:D003865
+36911710	Association	MESH:D001172	294268
+36911710	Association	MESH:D003865	301265
+36911710	Association	MESH:D003865	367391
+36911710	Association	MESH:D003865	245920
+36911710	Association	MESH:D001172	245920
+36911710	Negative_Correlation	MESH:C006650	245920
+36911710	Association	MESH:D003865	294268
+36911710	Association	MESH:D001172	261730
+36911710	Association	MESH:D001172	301265
+36911710	Association	MESH:D003865	261730
+36911710	Negative_Correlation	MESH:C006650	294268
+36911710	Association	MESH:D001172	367391
+

@@ -1,0 +1,28 @@
+25697071|t|[Severe bradycardia in general anaesthesia in a patient treated with cholinesterase inhibitors for dementia].
+25697071|a|Patients suffering from Alzheimer's disease, Parkinson's disease and dementia with Lewy bodies can be treated well with the cholinesterase inhibitors rivastigmine or donepezil, and because of the increasing number of these patients undergoing surgery in general anaesthesia we find it urgent to draw attention to possible complications such as severe bradycardia or third-degree heart block when propofol and remifentanil are being used. 
+25697071	8	19	bradycardia	Disease	MESH:D001919
+25697071	48	55	patient	Species	9606
+25697071	99	107	dementia	Disease	MESH:D003704
+25697071	110	118	Patients	Species	9606
+25697071	134	153	Alzheimer's disease	Disease	MESH:D000544
+25697071	155	174	Parkinson's disease	Disease	MESH:D010300
+25697071	179	204	dementia with Lewy bodies	Disease	MESH:D020961
+25697071	260	272	rivastigmine	Chemical	MESH:D000068836
+25697071	276	285	donepezil	Chemical	MESH:D000077265
+25697071	333	341	patients	Species	9606
+25697071	461	472	bradycardia	Disease	MESH:D001919
+25697071	489	500	heart block	Disease	MESH:D006327
+25697071	506	514	propofol	Chemical	MESH:D015742
+25697071	519	531	remifentanil	Chemical	MESH:D000077208
+25697071	Negative_Correlation	MESH:D000068836	MESH:D020961
+25697071	Negative_Correlation	MESH:D000077265	MESH:D000544
+25697071	Positive_Correlation	MESH:D000077208	MESH:D001919
+25697071	Positive_Correlation	MESH:D000077265	MESH:D001919
+25697071	Negative_Correlation	MESH:D000068836	MESH:D010300
+25697071	Negative_Correlation	MESH:D000068836	MESH:D000544
+25697071	Positive_Correlation	MESH:D015742	MESH:D001919
+25697071	Positive_Correlation	MESH:D000077208	MESH:D006327
+25697071	Negative_Correlation	MESH:D000077265	MESH:D020961
+25697071	Positive_Correlation	MESH:D015742	MESH:D006327
+25697071	Negative_Correlation	MESH:D000077265	MESH:D010300
+

@@ -1,0 +1,48 @@
+33962640|t|A prognostic model based on seven immune-related genes predicts the overall survival of patients with hepatocellular carcinoma.
+33962640|a|BACKGROUND: Hepatocellular carcinoma (HCC) is a disease with a high incidence and a poor prognosis. Growing amounts of evidence have shown that the immune system plays a critical role in the biological processes of HCC such as progression, recurrence, and metastasis, and some have discussed using it as a weapon against a variety of cancers. However, the impact of immune-related genes (IRGs) on the prognosis of HCC remains unclear. METHODS: Based on The Cancer Gene Atlas (TCGA) and Immunology Database and Analysis Portal (ImmPort) datasets, we integrated the ribonucleic acid (RNA) sequencing profiles of 424 HCC patients with IRGs to calculate immune-related differentially expressed genes (DEGs). Survival analysis was used to establish a prognostic model of survival- and immune-related DEGs. Based on genomic and clinicopathological data, we constructed a nomogram to predict the prognosis of HCC patients. Gene set enrichment analysis further clarified the signalling pathways of the high-risk and low-risk groups constructed based on the IRGs in HCC. Next, we evaluated the correlation between the risk score and the infiltration of immune cells, and finally, we validated the prognostic performance of this model in the GSE14520 dataset. RESULTS: A total of 100 immune-related DEGs were significantly associated with the clinical outcomes of patients with HCC. We performed univariate and multivariate least absolute shrinkage and selection operator (Lasso) regression analyses on these genes to construct a prognostic model of seven IRGs (Fatty Acid Binding Protein 6 (FABP6), Microtubule-Associated Protein Tau (MAPT), Baculoviral IAP Repeat Containing 5 (BIRC5), Plexin-A1 (PLXNA1), Secreted Phosphoprotein 1 (SPP1), Stanniocalcin 2 (STC2) and Chondroitin Sulfate Proteoglycan 5 (CSPG5)), which showed better prognostic performance than the tumour/node/metastasis (TNM) staging system. Moreover, we constructed a regulatory network related to transcription factors (TFs) that further unravelled the regulatory mechanisms of these genes. According to the median value of the risk score, the entire TCGA cohort was divided into high-risk and low-risk groups, and the low-risk group had a better overall survival (OS) rate. To predict the OS rate of HCC, we established a gene- and clinical factor-related nomogram. The receiver operating characteristic (ROC) curve, concordance index (C-index) and calibration curve showed that this model had moderate accuracy. The correlation analysis between the risk score and the infiltration of six common types of immune cells showed that the model could reflect the state of the immune microenvironment in HCC tumours. CONCLUSION: Our IRG prognostic model was shown to have value in the monitoring, treatment, and prognostic assessment of HCC patients and could be used as a survival prediction tool in the near future.
+33962640	88	96	patients	Species	9606
+33962640	102	126	hepatocellular carcinoma	Disease	MESH:D006528
+33962640	140	164	Hepatocellular carcinoma	Disease	MESH:D006528
+33962640	166	169	HCC	Disease	MESH:D006528
+33962640	343	346	HCC	Disease	MESH:D006528
+33962640	384	394	metastasis	Disease	MESH:D009362
+33962640	462	469	cancers	Disease	MESH:D009369
+33962640	542	545	HCC	Disease	MESH:D006528
+33962640	585	591	Cancer	Disease	MESH:D009369
+33962640	742	745	HCC	Disease	MESH:D006528
+33962640	746	754	patients	Species	9606
+33962640	1030	1033	HCC	Disease	MESH:D006528
+33962640	1034	1042	patients	Species	9606
+33962640	1185	1188	HCC	Disease	MESH:D006528
+33962640	1360	1368	GSE14520	CellLine	CVCL:6F81
+33962640	1482	1490	patients	Species	9606
+33962640	1496	1499	HCC	Disease	MESH:D006528
+33962640	1680	1708	Fatty Acid Binding Protein 6	Gene	2172
+33962640	1710	1715	FABP6	Gene	2172
+33962640	1718	1752	Microtubule-Associated Protein Tau	Gene	4137
+33962640	1754	1758	MAPT	Gene	4137
+33962640	1761	1796	Baculoviral IAP Repeat Containing 5	Gene	332
+33962640	1798	1803	BIRC5	Gene	332
+33962640	1806	1815	Plexin-A1	Gene	5361
+33962640	1817	1823	PLXNA1	Gene	5361
+33962640	1826	1851	Secreted Phosphoprotein 1	Gene	6696
+33962640	1853	1857	SPP1	Gene	6696
+33962640	1860	1875	Stanniocalcin 2	Gene	8614
+33962640	1877	1881	STC2	Gene	8614
+33962640	1887	1921	Chondroitin Sulfate Proteoglycan 5	Gene	10675
+33962640	1923	1928	CSPG5	Gene	10675
+33962640	1984	1990	tumour	Disease	MESH:D009369
+33962640	1995	2006	/metastasis	Disease	MESH:D009362
+33962640	2008	2011	TNM	Disease	MESH:D009362
+33962640	2390	2393	HCC	Disease	MESH:D006528
+33962640	2788	2799	HCC tumours	Disease	MESH:D009369
+33962640	2921	2924	HCC	Disease	MESH:D006528
+33962640	2925	2933	patients	Species	9606
+33962640	Association	MESH:D006528	10675
+33962640	Association	MESH:D006528	332
+33962640	Association	MESH:D006528	4137
+33962640	Association	MESH:D006528	8614
+33962640	Association	MESH:D006528	5361
+33962640	Association	MESH:D006528	2172
+33962640	Association	MESH:D006528	6696
+

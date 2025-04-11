@@ -1,0 +1,19 @@
+37798720|t|Increased MRI-based Brain Age in chronic migraine patients.
+37798720|a|INTRODUCTION: Neuroimaging has revealed that migraine is linked to alterations in both the structure and function of the brain. However, the relationship of these changes with aging has not been studied in detail. Here we employ the Brain Age framework to analyze migraine, by building a machine-learning model that predicts age from neuroimaging data. We hypothesize that migraine patients will exhibit an increased Brain Age Gap (the difference between the predicted age and the chronological age) compared to healthy participants. METHODS: We trained a machine learning model to predict Brain Age from 2,771 T1-weighted magnetic resonance imaging scans of healthy subjects. The processing pipeline included the automatic segmentation of the images, the extraction of 1,479 imaging features (both morphological and intensity-based), harmonization, feature selection and training inside a 10-fold cross-validation scheme. Separate models based only on morphological and intensity features were also trained, and all the Brain Age models were later applied to a discovery cohort composed of 247 subjects, divided into healthy controls (HC, n=82), episodic migraine (EM, n=91), and chronic migraine patients (CM, n=74). RESULTS: CM patients showed an increased Brain Age Gap compared to HC (4.16 vs -0.56 years, P=0.01). A smaller Brain Age Gap was found for EM patients, not reaching statistical significance (1.21 vs -0.56 years, P=0.19). No associations were found between the Brain Age Gap and headache or migraine frequency, or duration of the disease. Brain imaging features that have previously been associated with migraine were among the main drivers of the differences in the predicted age. Also, the separate analysis using only morphological or intensity-based features revealed different patterns in the Brain Age biomarker in patients with migraine. CONCLUSION: The brain-predicted age has shown to be a sensitive biomarker of CM patients and can help reveal distinct aging patterns in migraine.
+37798720	33	49	chronic migraine	Disease	MESH:D008881
+37798720	105	113	migraine	Disease	MESH:D008881
+37798720	324	332	migraine	Disease	MESH:D008881
+37798720	433	441	migraine	Disease	MESH:D008881
+37798720	1207	1224	episodic migraine	Disease	MESH:D008881
+37798720	1226	1228	EM	Disease	MESH:D008881
+37798720	1241	1257	chronic migraine	Disease	MESH:D008881
+37798720	1268	1270	CM	Disease	MESH:D008881
+37798720	1288	1290	CM	Disease	MESH:D008881
+37798720	1418	1420	EM	Disease	MESH:D008881
+37798720	1557	1565	headache	Disease	MESH:D006261
+37798720	1569	1577	migraine	Disease	MESH:D008881
+37798720	1682	1690	migraine	Disease	MESH:D008881
+37798720	1913	1921	migraine	Disease	MESH:D008881
+37798720	2000	2002	CM	Disease	MESH:D008881
+37798720	2059	2067	migraine	Disease	MESH:D008881
+

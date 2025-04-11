@@ -1,0 +1,44 @@
+39841296|t|Exploring the molecular characterization of PANoptosis-related genes with features of immune dysregulation in Alzheimer's disease based on bulk and single-nuclei RNA sequencing.
+39841296|a|The immune system has emerged as a major factor in the pathogenesis of Alzheimer's disease (AD). PANoptosis is a newly defined programmed cell death mechanism related to many inflammatory diseases. This study aimed to identify the differentially expressed (DE) PANoptosis-related genes with characteristics of immune dysregulation (PRGIDs) in AD using bioinformatics analysis of bulk RNA-seq and single-nuclei RNA sequencing (snRNA-seq) data. To improve the robustness of gene selection, we integrated 3 microarray and 6 snRNA-seq datasets from the Gene Expression Omnibus (GEO), which allowed us to not only examine overall gene expression patterns but also assess the cellular specificity of gene expression at the single-cell level. This approach helped to identify cell-type-specific gene alterations that may be masked in bulk RNA-seq analyses. Relevant PANoptosis, immune dysregulation, and AD-related genes were obtained from the Genecards database. The AlzData database was also used in this study. Expression validation, the least absolute shrinkage and selection operator (LASSO) regression model, and CytoHubba algorithms were applied for key DE-PRGIDs selection. LASSO, Logistic, and Cox regressions were used to construct prognostic models. The receiver operating characteristic (ROC) curve and correlation analyses were conducted on key DE-PRGIDs. The Seurat package in R software was employed for performing snRNA-seq data processing. Uniform manifold approximation and projection (UMAP) was utilized for cell type annotation and PRGID cell visualization. The violin plot was applied for displaying expression levels of PRGIDs. High-dimensional consensus weighted gene co-expression network analysis (hdWGCNA) was conducted on microglia to identify gene modules and hub genes. Venn diagram analysis identified 250 PRGIDs and 39 DE-PRGIDs. NFKBIA was identified as the key gene. Prognostic models based on the expression level of NFKBIA were obtained. ROC curve analysis revealed its area under the curve (AUC) value: 0.661 in training set and 0.836 in validation set. The heatmap displayed the result of correlation analysis. SnRNA-seq data analysis identified 7 cell types. The UMAP and violin plots revealed highly expressed PRGIDs in microglia with remarkable differences between healthy controls and AD. hdWGCNA identified PVT1 and APOE as hub genes associated with microglia. In conclusion, our findings provide evidence that PANoptosis may play a role in the immune dysregulation observed in AD. PVT1 has been implicated in AD pathogenesis, potentially exerting its effects through the miR-488-3p/FOXD3/SCN2A axis.
+39841296	86	106	immune dysregulation	Disease	OMIM:614878
+39841296	110	129	Alzheimer's disease	Disease	MESH:D000544
+39841296	249	268	Alzheimer's disease	Disease	MESH:D000544
+39841296	270	272	AD	Disease	MESH:D000544
+39841296	275	285	PANoptosis	Disease	
+39841296	353	374	inflammatory diseases	Disease	MESH:D007249
+39841296	488	508	immune dysregulation	Disease	OMIM:614878
+39841296	510	516	PRGIDs	Disease	
+39841296	521	523	AD	Disease	MESH:D000544
+39841296	1037	1047	PANoptosis	Disease	
+39841296	1049	1069	immune dysregulation	Disease	OMIM:614878
+39841296	1075	1077	AD	Disease	MESH:D000544
+39841296	1335	1341	PRGIDs	Disease	
+39841296	1532	1538	PRGIDs	Disease	
+39841296	1813	1819	PRGIDs	Disease	
+39841296	2007	2013	PRGIDs	Disease	
+39841296	2024	2030	PRGIDs	Disease	
+39841296	2032	2038	NFKBIA	Gene	4792
+39841296	2122	2128	NFKBIA	Gene	4792
+39841296	2420	2426	PRGIDs	Disease	
+39841296	2497	2499	AD	Disease	MESH:D000544
+39841296	2520	2524	PVT1	Gene	5820
+39841296	2529	2533	APOE	Gene	348
+39841296	2658	2678	immune dysregulation	Disease	OMIM:614878
+39841296	2691	2693	AD	Disease	MESH:D000544
+39841296	2695	2699	PVT1	Gene	5820
+39841296	2723	2725	AD	Disease	MESH:D000544
+39841296	2796	2801	FOXD3	Gene	27022
+39841296	2802	2807	SCN2A	Gene	6326
+39841296	Association	348	5820
+39841296	Association	348	6326
+39841296	Association	OMIM:614878	4792
+39841296	Association	27022	348
+39841296	Association	27022	5820
+39841296	Association	27022	6326
+39841296	Association	MESH:D000544	348
+39841296	Association	5820	6326
+39841296	Association	MESH:D000544	6326
+39841296	Association	OMIM:614878	27022
+39841296	Association	MESH:D000544	4792
+39841296	Association	MESH:D000544	27022
+

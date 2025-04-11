@@ -1,0 +1,11 @@
+39693851|t|A knowledge graph approach to drug repurposing for Alzheimer's, Parkinson's and Glioma using drug-disease-gene associations.
+39693851|a|Drug Repurposing gives us facility to find the new uses of previously developed drugs rather than developing new drugs from start. Particularly during pandemic, drug repurposing caught much attention to provide new applications of the previously approved drugs. In our research, we provide a novel method for drug repurposing based on feature learning process from drug-disease-gene network. In our research, we aimed at finding drug candidates which can be repurposed under neurodegenerative diseases and glioma. We collected association data between drugs, diseases and genes from public resources and primarily examined the data related to Alzheimer's, Parkinson's and Glioma diseases. We created a Knowledge Graph using neo4j by integrating all these datasets and applied scalable feature learning algorithm known as node2vec to create node embeddings. These embeddings were later used to predict the unknown associations between disease and their candidate drugs by finding cosine similarity between disease and drug nodes embedding. We obtained a definitive set of candidate drugs for repurposing. These results were validated from the literature and CodReS online tool to rank the candidate drugs. Additionally, we verified the status of candidate drugs from pharmaceutical knowledge databases to confirm their significance.
+39693851	51	62	Alzheimer's	Disease	MESH:D000544
+39693851	64	75	Parkinson's	Disease	MESH:D010300
+39693851	80	86	Glioma	Disease	MESH:D005910
+39693851	600	626	neurodegenerative diseases	Disease	MESH:D019636
+39693851	631	637	glioma	Disease	MESH:D005910
+39693851	768	779	Alzheimer's	Disease	MESH:D000544
+39693851	781	792	Parkinson's	Disease	MESH:D010300
+39693851	797	812	Glioma diseases	Disease	MESH:D005910
+

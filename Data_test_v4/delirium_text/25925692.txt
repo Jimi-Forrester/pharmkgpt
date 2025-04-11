@@ -1,0 +1,39 @@
+25925692|t|Diagnosis of Cognitive Impairment Compatible with Early Diagnosis of Alzheimer's Disease. A Bayesian Network Model based on the Analysis of Oral Definitions of Semantic Categories.
+25925692|a|BACKGROUND: Early detection of Alzheimer's disease (AD) has become one of the principal focuses of research in medicine, particularly when the disease is incipient or even prodromic, because treatments are more effective in these stages. Lexical-semantic-conceptual deficit (LSCD) in the oral definitions of semantic categories for basic objects is an important early indicator in the evaluation of the cognitive state of patients. OBJECTIVES: The objective of this research is to define an economic procedure for cognitive impairment (CI) diagnosis, which may be associated with early stages of AD, by analysing cognitive alterations affecting declarative semantic memory. Because of its low cost, it could be used for routine clinical evaluations or screenings, leading to more expensive and selective tests that confirm or rule out the disease accurately. It should necessarily be an explanatory procedure, which would allow us to study the evolution of the disease in relation to CI, the irregularities in different semantic categories, and other neurodegenerative diseases. On the basis of these requirements, we hypothesise that Bayesian networks (BNs) are the most appropriate tool for this purpose. METHODS: We have developed a BN for CI diagnosis in mild and moderate AD patients by analysing the oral production of semantic features. The BN causal model represents LSCD in certain semantic categories, both of living things (dog, pine, and apple) and non-living things (chair, car, and trousers), as symptoms of CI. The model structure, the qualitative part of the model, uses domain knowledge obtained from psychology experts and epidemiological studies. Further, the model parameters, the quantitative part of the model, are learnt automatically from epidemiological studies and Peraita and Grasso's linguistic corpus of oral definitions. This corpus was prepared with an incidental sampling and included the analysis of the oral linguistic production of 81 participants (42 cognitively healthy elderly people and 39 mild and moderate AD patients) from Madrid region's hospitals. Experienced neurologists diagnosed these cases following the National Institute of Neurological and Communicative Disorders and Stroke/Alzheimer's Disease and Related Disorders Association (NINCDS-ADRDA)'s Alzheimer's criteria, performing, among other explorations and tests, a minimum neuropsychological exploration that included the Mini-Mental State Examination test. RESULTS: BN's classification performance is remarkable compared with other machine learning methods, achieving 91% accuracy and 94% precision in mild and moderate AD patients. Apart from this, the BN model facilitates the explanation of the reasoning process and the validation of the conclusions and allows the study of uncommon declarative semantic memory impairments. CONCLUSIONS: Our method is able to analyse LSCD in a wide set of semantic categories throughout the progression of CI, being a valuable first screening method in AD diagnosis in its early stages. Because of its low cost, it can be used for routine clinical evaluations or screenings to detect AD in its early stages. Besides, due to its knowledge-based structure, it can be easily extended to provide an explanation of the diagnosis and to the study of other neurodegenerative diseases. Further, this is a key advantage of BNs over other machine learning methods with similar performance: it is a recognisable and explanatory model that allows one to study irregularities in different semantic categories.
+25925692	13	33	Cognitive Impairment	Disease	MESH:D003072
+25925692	69	88	Alzheimer's Disease	Disease	MESH:D000544
+25925692	212	231	Alzheimer's disease	Disease	MESH:D000544
+25925692	233	235	AD	Disease	MESH:D000544
+25925692	419	454	Lexical-semantic-conceptual deficit	Disease	MESH:D008569
+25925692	456	460	LSCD	Disease	MESH:D008569
+25925692	603	611	patients	Species	9606
+25925692	695	715	cognitive impairment	Disease	MESH:D003072
+25925692	717	719	CI	Disease	MESH:D003072
+25925692	777	779	AD	Disease	MESH:D000544
+25925692	794	815	cognitive alterations	Disease	MESH:D003072
+25925692	1165	1167	CI	Disease	MESH:D003072
+25925692	1232	1258	neurodegenerative diseases	Disease	MESH:D019636
+25925692	1424	1426	CI	Disease	MESH:D003072
+25925692	1458	1460	AD	Disease	MESH:D000544
+25925692	1461	1469	patients	Species	9606
+25925692	1556	1560	LSCD	Disease	MESH:D008569
+25925692	1616	1619	dog	Species	9615
+25925692	1621	1625	pine	Species	
+25925692	1631	1636	apple	Species	3750
+25925692	1703	1705	CI	Disease	MESH:D003072
+25925692	2196	2202	people	Species	9606
+25925692	2228	2230	AD	Disease	MESH:D000544
+25925692	2231	2239	patients	Species	9606
+25925692	2356	2396	Neurological and Communicative Disorders	Disease	MESH:D003147
+25925692	2401	2407	Stroke	Disease	MESH:D020521
+25925692	2408	2449	Alzheimer's Disease and Related Disorders	Disease	MESH:D000544
+25925692	2479	2490	Alzheimer's	Disease	MESH:D000544
+25925692	2807	2809	AD	Disease	MESH:D000544
+25925692	2810	2818	patients	Species	9606
+25925692	2974	3013	declarative semantic memory impairments	Disease	MESH:D008569
+25925692	3058	3062	LSCD	Disease	MESH:D008569
+25925692	3130	3132	CI	Disease	MESH:D003072
+25925692	3177	3179	AD	Disease	MESH:D000544
+25925692	3308	3310	AD	Disease	MESH:D000544
+25925692	3474	3500	neurodegenerative diseases	Disease	MESH:D019636
+

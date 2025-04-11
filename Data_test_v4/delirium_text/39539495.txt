@@ -1,0 +1,51 @@
+39539495|t|Case report: Double mutations in a patient with early-onset Alzheimer's disease in China, PSEN2 and IDE variants.
+39539495|a|Alzheimer's disease (AD) is a progressive neurodegenerative disease characterized by gradual cognitive decline. Early-onset Alzheimer's disease (EOAD) is defined as AD occurring before age 65. The main pathogenic gene variants associated with EOAD include PSEN1, PSEN2, and APP. IDE gene has been identified as a risk factor in the pathogenesis of AD. In this study, we report a 33-year-old male with mutations in the PSEN2 gene (c.640G > T, p.V214L) and IDE gene (c.782G > A, p.R261Q). PSEN2 V214L has been reported in five previous cases, and no reported cases have carried IDE R261Q. He had progressive memory decline, his sister carried the same gene mutations but had no clinical manifestations. Neuroimaging revealed mild cortical atrophy. The concentration of Abeta42 in cerebrospinal fluid (CSF) was obviously decreased. In silico predictive models suggested that these mutations are damaging. Our findings indicate that mutations in the PSEN2 and IDE genes may disrupt the normal functioning of their respective proteins, contributing to the pathogenesis of AD.
+39539495	35	42	patient	Species	9606
+39539495	60	79	Alzheimer's disease	Disease	MESH:D000544
+39539495	90	95	PSEN2	Gene	5664
+39539495	100	103	IDE	Gene	3416
+39539495	114	133	Alzheimer's disease	Disease	MESH:D000544
+39539495	135	137	AD	Disease	MESH:D000544
+39539495	156	181	neurodegenerative disease	Disease	MESH:D019636
+39539495	207	224	cognitive decline	Disease	MESH:D003072
+39539495	238	257	Alzheimer's disease	Disease	MESH:D000544
+39539495	259	263	EOAD	Disease	MESH:D000544
+39539495	279	281	AD	Disease	MESH:D000544
+39539495	357	361	EOAD	Disease	MESH:D000544
+39539495	370	375	PSEN1	Gene	5663
+39539495	377	382	PSEN2	Gene	5664
+39539495	388	391	APP	Gene	351
+39539495	393	396	IDE	Gene	3416
+39539495	462	464	AD	Disease	MESH:D000544
+39539495	532	537	PSEN2	Gene	5664
+39539495	544	554	c.640G > T	DNAMutation	tmVar:c|SUB|G|640|T;HGVS:c.640G>T;VariantGroup:0;CorrespondingGene:5664;RS#:574125890;CorrespondingSpecies:9606;CA#:1424605
+39539495	556	563	p.V214L	ProteinMutation	tmVar:p|SUB|V|214|L;HGVS:p.V214L;VariantGroup:0;CorrespondingGene:5664;RS#:574125890;CorrespondingSpecies:9606;CA#:1424605
+39539495	569	572	IDE	Gene	3416
+39539495	579	589	c.782G > A	DNAMutation	tmVar:c|SUB|G|782|A;HGVS:c.782G>A;VariantGroup:1;CorrespondingGene:3416;RS#:776221550;CorrespondingSpecies:9606;CA#:5603674
+39539495	591	598	p.R261Q	ProteinMutation	tmVar:p|SUB|R|261|Q;HGVS:p.R261Q;VariantGroup:1;CorrespondingGene:3416;RS#:776221550;CorrespondingSpecies:9606;CA#:5603674
+39539495	601	606	PSEN2	Gene	5664
+39539495	607	612	V214L	ProteinMutation	tmVar:p|SUB|V|214|L;HGVS:p.V214L;VariantGroup:0;CorrespondingGene:5664;RS#:574125890;CorrespondingSpecies:9606;CA#:1424605
+39539495	690	693	IDE	Gene	3416
+39539495	694	699	R261Q	ProteinMutation	tmVar:p|SUB|R|261|Q;HGVS:p.R261Q;VariantGroup:1;CorrespondingGene:3416;RS#:776221550;CorrespondingSpecies:9606;CA#:5603674
+39539495	720	734	memory decline	Disease	MESH:D060825
+39539495	842	858	cortical atrophy	Disease	MESH:D001284
+39539495	881	888	Abeta42	Gene	351
+39539495	1060	1065	PSEN2	Gene	5664
+39539495	1070	1073	IDE	Gene	3416
+39539495	1181	1183	AD	Disease	MESH:D000544
+39539495	Positive_Correlation	MESH:D000544	RS#:776221550;HGVS:p.R261Q;CorrespondingGene:3416
+39539495	Association	MESH:D001284	5664
+39539495	Positive_Correlation	MESH:D001284	RS#:574125890;HGVS:p.V214L;CorrespondingGene:5664
+39539495	Positive_Correlation	MESH:D001284	RS#:574125890;HGVS:c.640G>T;CorrespondingGene:5664
+39539495	Positive_Correlation	MESH:D000544	RS#:776221550;HGVS:c.782G>A;CorrespondingGene:3416
+39539495	Positive_Correlation	MESH:D000544	RS#:574125890;HGVS:c.640G>T;CorrespondingGene:5664
+39539495	Association	MESH:D000544	3416
+39539495	Positive_Correlation	RS#:776221550;HGVS:c.782G>A;CorrespondingGene:3416	MESH:D000544
+39539495	Positive_Correlation	MESH:D060825	RS#:574125890;HGVS:c.640G>T;CorrespondingGene:5664
+39539495	Association	MESH:D000544	5663
+39539495	Association	MESH:D060825	5664
+39539495	Positive_Correlation	MESH:D060825	RS#:574125890;HGVS:p.V214L;CorrespondingGene:5664
+39539495	Positive_Correlation	RS#:574125890;HGVS:c.640G>T;CorrespondingGene:5664	MESH:D000544
+39539495	Association	MESH:D000544	5664
+39539495	Positive_Correlation	MESH:D000544	RS#:574125890;HGVS:p.V214L;CorrespondingGene:5664
+

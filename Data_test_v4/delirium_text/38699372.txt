@@ -1,0 +1,9 @@
+38699372|t|CWAS-Plus: Estimating category-wide association of rare noncoding variation from whole-genome sequencing data with cell-type-specific functional data.
+38699372|a|Variants in cis-regulatory elements link the noncoding genome to human brain pathology; however, detailed analytic tools for understanding the association between cell-level brain pathology and noncoding variants are lacking. CWAS-Plus, adapted from a Python package for category-wide association testing (CWAS) employs both whole-genome sequencing and user-provided functional data to enhance noncoding variant analysis, with a faster and more efficient execution of the CWAS workflow. Here, we used single-nuclei assay for transposase-accessible chromatin with sequencing to facilitate CWAS-guided noncoding variant analysis at cell-type specific enhancers and promoters. Examining autism spectrum disorder whole-genome sequencing data (n = 7,280), CWAS-Plus identified noncoding de novo variant associations in transcription factor binding sites within conserved loci. Independently, in Alzheimer's disease whole-genome sequencing data (n = 1,087), CWAS-Plus detected rare noncoding variant associations in microglia-specific regulatory elements. These findings highlight CWAS-Plus's utility in genomic disorders and scalability for processing large-scale whole-genome sequencing data and in multiple-testing corrections. CWAS-Plus and its user manual are available at https://github.com/joonan-lab/cwas/ and https://cwas-plus.readthedocs.io/en/latest/, respectively.
+38699372	216	221	human	Species	9606
+38699372	222	237	brain pathology	Disease	MESH:D005598
+38699372	325	340	brain pathology	Disease	MESH:D005598
+38699372	835	859	autism spectrum disorder	Disease	MESH:D000067877
+38699372	1041	1060	Alzheimer's disease	Disease	MESH:D000544
+38699372	1249	1266	genomic disorders	Disease	MESH:D042822
+

@@ -1,0 +1,43 @@
+36698894|t|Novel heterozygous mutation in alpha-2-macroglobulin (A2M) suppressing the binding of amyloid-beta (Abeta).
+36698894|a|Introduction: Many studies have suggested that the alpha-2-macroglobulin (A2M) gene may be involved in the pathogenesis of Alzheimer's disease (AD). A2M encoded by the A2M gene can specifically bind to the beta-amyloid peptide and prevent fiber formation. Methods: The patient in this study had progressive memory loss at the age of 60 years and underwent a series of neuropsychological tests, cranial magnetic resonance imaging (MRI), cerebrospinal fluid (CSF) biomarker analysis, and whole-exome sequencing (WES) to evaluate possible mutations. We used in silico tools and three-dimensional (3D) protein structure prediction to analyze the pathogenicity of the mutation and used a co-immunoprecipitation experiment to study the effect of mutations on amyloid-beta (Abeta) binding. Results: Based on neuropsychological tests, cranial MRI, and CSF biomarker analysis, the patient was diagnosed with AD. WES showed that there was a missense mutation in A2M (c.1229A>C, p.N410T). Bioinformatics analysis showed that this mutation was pathogenic. Moreover, 3D protein structure analysis showed that the A2M Asn410 residue was an N-glycosylation site, which was necessary for A2M activation to bind to Abeta. Missense mutations led to the loss of glycosylation at this site, which suppressed the binding of Abeta. The functional experiment also confirmed the prediction: the interaction between A2M and Abeta from the patient's plasma was weakened. Conclusions: Our results demonstrate that this novel A2M p.N410T mutation may have a pathogenic role in AD, by altering the binding interactions between A2M and Abeta.
+36698894	31	52	alpha-2-macroglobulin	Gene	2
+36698894	54	57	A2M	Gene	2
+36698894	86	98	amyloid-beta	Gene	351
+36698894	100	105	Abeta	Gene	351
+36698894	159	180	alpha-2-macroglobulin	Gene	2
+36698894	182	185	A2M	Gene	2
+36698894	231	250	Alzheimer's disease	Disease	MESH:D000544
+36698894	252	254	AD	Disease	MESH:D000544
+36698894	257	260	A2M	Gene	2
+36698894	276	279	A2M	Gene	2
+36698894	314	334	beta-amyloid peptide	Gene	351
+36698894	377	384	patient	Species	9606
+36698894	415	426	memory loss	Disease	MESH:D008569
+36698894	861	873	amyloid-beta	Gene	351
+36698894	875	880	Abeta	Gene	351
+36698894	980	987	patient	Species	9606
+36698894	1007	1009	AD	Disease	MESH:D000544
+36698894	1060	1063	A2M	Gene	2
+36698894	1065	1074	c.1229A>C	DNAMutation	tmVar:c|SUB|A|1229|C;HGVS:c.1229A>C;VariantGroup:0;CorrespondingGene:2;RS#:766284551;CorrespondingSpecies:9606
+36698894	1076	1083	p.N410T	ProteinMutation	tmVar:p|SUB|N|410|T;HGVS:p.N410T;VariantGroup:0;CorrespondingGene:2;RS#:766284551;CorrespondingSpecies:9606
+36698894	1208	1211	A2M	Gene	2
+36698894	1212	1218	Asn410	ProteinMutation	tmVar:p|Allele|N|410;VariantGroup:0;CorrespondingGene:2;RS#:766284551;CorrespondingSpecies:9606
+36698894	1280	1283	A2M	Gene	2
+36698894	1306	1311	Abeta	Gene	351
+36698894	1411	1416	Abeta	Gene	351
+36698894	1499	1502	A2M	Gene	2
+36698894	1507	1512	Abeta	Gene	351
+36698894	1522	1529	patient	Species	9606
+36698894	1606	1609	A2M	Gene	2
+36698894	1610	1617	p.N410T	ProteinMutation	tmVar:p|SUB|N|410|T;HGVS:p.N410T;VariantGroup:0;CorrespondingGene:2;RS#:766284551;CorrespondingSpecies:9606
+36698894	1657	1659	AD	Disease	MESH:D000544
+36698894	1706	1709	A2M	Gene	2
+36698894	1714	1719	Abeta	Gene	351
+36698894	Positive_Correlation	MESH:D000544	RS#:766284551;HGVS:p.N410T;CorrespondingGene:2
+36698894	Positive_Correlation	MESH:D000544	RS#:766284551;HGVS:c.1229A>C;CorrespondingGene:2
+36698894	Association	MESH:D000544	2
+36698894	Association	MESH:D008569	2
+36698894	Bind	2	351
+36698894	Positive_Correlation	RS#:766284551;HGVS:c.1229A>C;CorrespondingGene:2	MESH:D000544
+36698894	Association	MESH:D000544	2
+

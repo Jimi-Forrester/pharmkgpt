@@ -1,0 +1,16 @@
+23786662|t|Systematic identification of DNA variants associated with ultraviolet radiation using a novel Geographic-Wide Association Study (GeoWAS).
+23786662|a|BACKGROUND: Long-term environmental variables are widely understood to play important roles in DNA variation. Previously, clinical studies examining the impacts of these variables on the human genome were localized to a single country, and used preselected DNA variants. Furthermore, clinical studies or surveys are either not available or difficult to carry out for developing countries. A systematic approach utilizing bioinformatics to identify associations among environmental variables, genetic variation, and diseases across various geographical locations is needed but has been lacking. METHODS: Using a novel Geographic-Wide Association Study (GeoWAS) methodology, we identified Single Nucleotide Polymorphisms (SNPs) in the Human Genome Diversity Project (HGDP) with population allele frequencies associated geographical ultraviolet radiation exposure, and then assessed the diseases known to be assigned with these SNPs. RESULTS: 2,857 radiation SNPs were identified from over 650,000 SNPs in 52 indigenous populations across the world. Using a quantitative disease-SNP database curated from 5,065 human genetic papers, we identified disease associations with those radiation SNPs. The correlation of the rs16891982 SNP in the SLC45A2 gene with melanoma was used as a case study for analysis of disease risk, and the results were consistent with the incidence and mortality rates of melanoma in published scientific literature. Finally, by analyzing the ontology of genes in which the radiation SNPs were significantly enriched, potential associations between SNPs and neurological disorders such as Alzheimer's disease were hypothesized. CONCLUSION: A systematic approach using GeoWAS has enabled us to identify DNA variation associated with ultraviolet radiation and their connections to diseases such as skin cancers. Our analyses have led to a better understating at the genetic level of why certain diseases are more predominant in specific geographical locations, due to the interactions between environmental variables such as ultraviolet radiation and the population types in those regions. The hypotheses proposed in GeoWAS can lead to future testing and interdisciplinary research.
+23786662	325	330	human	Species	9606
+23786662	871	876	Human	Species	9606
+23786662	1246	1251	human	Species	9606
+23786662	1353	1363	rs16891982	SNP	tmVar:rs16891982;VariantGroup:0;CorrespondingGene:51151;RS#:16891982;CorrespondingSpecies:9606
+23786662	1375	1382	SLC45A2	Gene	51151
+23786662	1393	1401	melanoma	Disease	MESH:D008545
+23786662	1531	1539	melanoma	Disease	MESH:D008545
+23786662	1717	1739	neurological disorders	Disease	MESH:D009461
+23786662	1748	1767	Alzheimer's disease	Disease	MESH:D000544
+23786662	1955	1967	skin cancers	Disease	MESH:D012878
+23786662	Association	MESH:D008545	51151
+23786662	Positive_Correlation	MESH:D008545	RS#:16891982;CorrespondingGene:51151
+23786662	Association	MESH:D008545	51151
+

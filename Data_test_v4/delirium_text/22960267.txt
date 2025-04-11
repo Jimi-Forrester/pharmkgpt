@@ -1,0 +1,28 @@
+22960267|t|Exploration of deleterious single nucleotide polymorphisms in late-onset Alzheimer disease susceptibility genes.
+22960267|a|Non-synonymous single nucleotide polymorphisms (nsSNPs) are considered as biomarkers to disease susceptibility. In the present study, nsSNPs in CLU, PICALM and BIN1 genes were screened for their functional impact on concerned proteins and their plausible role in Alzheimer disease (AD) susceptibility. Initially, SNPs were retrieved from dbSNP database, followed by identification of potentially deleterious nsSNPs and prediction of their effect on proteins by PolyPhen and SIFT. Protein stability and the probability of mutation occurrence were predicted using I-Mutant and PANTHER respectively. SNPs3D and FASTSNP were used for the functional analysis of nsSNPs. The functional impact on the 3D structure of proteins was evaluated by SWISSPDB viewer and NOMAD-Ref server. On analysis, 3 nsSNPs with IDs rs12800974 (T158P) of PICALM and rs11554585 (R397C) and rs11554585 (N106D) of BIN1 were predicted to be functionally significant with higher scores of I-Mutant, SIFT, PolyPhen, PANTHER, FASTSNP and SNPs3D. The mutant models of these nsSNPs also showed very high energies and RMSD values compared to their native structures. Current study proposes that the three nsSNPs identified in this study constitute a unique resource of potential genetic factors for AD susceptibility.
+22960267	73	90	Alzheimer disease	Disease	MESH:D000544
+22960267	257	260	CLU	Gene	1191
+22960267	262	268	PICALM	Gene	8301
+22960267	273	277	BIN1	Gene	274
+22960267	376	393	Alzheimer disease	Disease	MESH:D000544
+22960267	395	397	AD	Disease	MESH:D000544
+22960267	918	928	rs12800974	SNP	tmVar:rs12800974;VariantGroup:2;CorrespondingGene:8301;RS#:12800974;CorrespondingSpecies:9606
+22960267	930	935	T158P	ProteinMutation	tmVar:p|SUB|T|158|P;HGVS:p.T158P;VariantGroup:2;CorrespondingGene:8301;RS#:12800974;CorrespondingSpecies:9606;CA#:225313104
+22960267	940	946	PICALM	Gene	8301
+22960267	951	961	rs11554585	SNP	tmVar:rs11554585;VariantGroup:0;RS#:11554585
+22960267	963	968	R397C	ProteinMutation	tmVar:p|SUB|R|397|C;HGVS:p.R397C;VariantGroup:3;RS#:11554585(Expired)
+22960267	974	984	rs11554585	SNP	tmVar:rs11554585;VariantGroup:0;RS#:11554585
+22960267	986	991	N106D	ProteinMutation	tmVar:p|SUB|N|106|D;HGVS:p.N106D;VariantGroup:4;RS#:11554585(Expired)
+22960267	996	1000	BIN1	Gene	274
+22960267	1374	1376	AD	Disease	MESH:D000544
+22960267	Positive_Correlation	MESH:D000544	RS#:12800974;CorrespondingGene:8301
+22960267	Positive_Correlation	MESH:D000544	RS#:11554585(Expired);HGVS:p.N106D
+22960267	Positive_Correlation	MESH:D000544	RS#:11554585(Expired);HGVS:p.R397C
+22960267	Association	MESH:D000544	274
+22960267	Association	MESH:D000544	8301
+22960267	Positive_Correlation	MESH:D000544	RS#:12800974;HGVS:p.T158P;CorrespondingGene:8301
+22960267	Association	MESH:D000544	1191
+22960267	Positive_Correlation	MESH:D000544	RS#:11554585
+22960267	Positive_Correlation	MESH:D000544	RS#:12800974;CorrespondingGene:8301
+22960267	Association	MESH:D000544	8301
+

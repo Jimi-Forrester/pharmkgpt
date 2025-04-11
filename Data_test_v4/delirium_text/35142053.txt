@@ -1,0 +1,12 @@
+35142053|t|Deep residual inception encoder-decoder network for amyloid PET harmonization.
+35142053|a|INTRODUCTION: Multiple positron emission tomography (PET) tracers are available for amyloid imaging, posing a significant challenge to consensus interpretation and quantitative analysis. We accordingly developed and validated a deep learning model as a harmonization strategy. METHOD: A Residual Inception Encoder-Decoder Neural Network was developed to harmonize images between amyloid PET image pairs made with Pittsburgh Compound-B and florbetapir tracers. The model was trained using a dataset with 92 subjects with 10-fold cross validation and its generalizability was further examined using an independent external dataset of 46 subjects. RESULTS: Significantly stronger between-tracer correlations (P < .001) were observed after harmonization for both global amyloid burden indices and voxel-wise measurements in the training cohort and the external testing cohort. DISCUSSION: We proposed and validated a novel encoder-decoder based deep model to harmonize amyloid PET imaging data from different tracers. Further investigation is ongoing to improve the model and apply to additional tracers.
+35142053	52	63	amyloid PET	Disease	MESH:C000718787
+35142053	163	170	amyloid	Disease	MESH:C000718787
+35142053	458	469	amyloid PET	Disease	MESH:C000718787
+35142053	492	513	Pittsburgh Compound-B	Chemical	MESH:C475519
+35142053	518	529	florbetapir	Chemical	MESH:C545186
+35142053	845	852	amyloid	Disease	MESH:C000718787
+35142053	1044	1055	amyloid PET	Disease	MESH:C000718787
+35142053	Positive_Correlation	MESH:C475519	MESH:C000718787
+35142053	Positive_Correlation	MESH:C545186	MESH:C000718787
+

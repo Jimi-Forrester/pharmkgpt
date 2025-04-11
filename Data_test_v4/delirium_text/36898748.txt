@@ -1,0 +1,41 @@
+36898748|t|Protocol and statistical analysis plan for the Antibiotic Choice On ReNal outcomes (ACORN) randomised clinical trial.
+36898748|a|INTRODUCTION: Antibiotics are time-critical in the management of sepsis. When infectious organisms are unknown, patients are treated with empiric antibiotics to include coverage for gram-negative organisms, such as antipseudomonal cephalosporins and penicillins. However, in observational studies, some antipseudomonal cephalosporins (eg, cefepime) are associated with neurologic dysfunction while the most common antipseudomonal penicillin (piperacillin-tazobactam) is associated with acute kidney injury (AKI). No randomised control trials have compared these regimens. This manuscript describes the protocol and analysis plan for a trial designed to compare the effects of antipseudomonal cephalosporins and antipseudomonal penicillins among acutely ill patients receiving empiric antibiotics. METHODS AND ANALYSIS: The Antibiotic Choice On ReNal outcomes trial is a prospective, single-centre, non-blinded randomised trial being conducted at Vanderbilt University Medical Center. The trial will enrol 2500 acutely ill adults receiving gram-negative coverage for treatment of infection. Eligible patients are randomised 1:1 to receive cefepime or piperacillin-tazobactam on first order entry of a broad-spectrum antibiotic covering gram-negative organisms. The primary outcome is the highest stage of AKI and death occurring between enrolment and 14 days after enrolment. This will be compared between patients randomised to cefepime and randomised to piperacillin-tazobactam using an unadjusted proportional odds regression model. The secondary outcomes are major adverse kidney events through day 14 and number of days alive and free of delirium and coma in 14 days after enrolment. Enrolment began on 10 November 2021 and is expected to be completed in December 2022. ETHICS AND DISSEMINATION: The trial was approved by the Vanderbilt University Medical Center institutional review board (IRB#210591) with a waiver of informed consent. Results will be submitted to a peer-reviewed journal and presented at scientific conferences. TRIAL REGISTRATION NUMBER: NCT05094154.
+36898748	183	189	sepsis	Disease	MESH:D018805
+36898748	230	238	patients	Species	9606
+36898748	349	363	cephalosporins	Chemical	MESH:D002511
+36898748	368	379	penicillins	Chemical	MESH:D010406
+36898748	437	451	cephalosporins	Chemical	MESH:D002511
+36898748	457	465	cefepime	Chemical	MESH:D000077723
+36898748	487	509	neurologic dysfunction	Disease	MESH:D009461
+36898748	548	558	penicillin	Chemical	MESH:D010406
+36898748	560	583	piperacillin-tazobactam	Chemical	MESH:D000077725
+36898748	604	623	acute kidney injury	Disease	MESH:D058186
+36898748	625	628	AKI	Disease	MESH:D058186
+36898748	810	824	cephalosporins	Chemical	MESH:D002511
+36898748	845	856	penicillins	Chemical	MESH:D010406
+36898748	863	874	acutely ill	Disease	MESH:D000208
+36898748	875	883	patients	Species	9606
+36898748	1128	1139	acutely ill	Disease	MESH:D000208
+36898748	1197	1206	infection	Disease	MESH:D007239
+36898748	1217	1225	patients	Species	9606
+36898748	1256	1264	cefepime	Chemical	MESH:D000077723
+36898748	1268	1291	piperacillin-tazobactam	Chemical	MESH:D000077725
+36898748	1422	1425	AKI	Disease	MESH:D058186
+36898748	1430	1435	death	Disease	MESH:D003643
+36898748	1523	1531	patients	Species	9606
+36898748	1546	1554	cefepime	Chemical	MESH:D000077723
+36898748	1573	1596	piperacillin-tazobactam	Chemical	MESH:D000077725
+36898748	1760	1768	delirium	Disease	MESH:D003693
+36898748	1773	1777	coma	Disease	MESH:D003128
+36898748	1892	1916	ETHICS AND DISSEMINATION	Disease	MESH:D009103
+36898748	Positive_Correlation	MESH:D000077725	MESH:D058186
+36898748	Negative_Correlation	MESH:D002511	MESH:D000208
+36898748	Positive_Correlation	MESH:D010406	MESH:D058186
+36898748	Positive_Correlation	MESH:D000077723	MESH:D009461
+36898748	Positive_Correlation	MESH:D002511	MESH:D009461
+36898748	Comparison	MESH:D000077723	MESH:D000077725
+36898748	Positive_Correlation	MESH:D000077723	MESH:D003128
+36898748	Negative_Correlation	MESH:D000077725	MESH:D000208
+36898748	Negative_Correlation	MESH:D000077723	MESH:D000208
+36898748	Negative_Correlation	MESH:D010406	MESH:D000208
+

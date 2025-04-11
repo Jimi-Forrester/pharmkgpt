@@ -1,0 +1,34 @@
+35992596|t|Molecular Mechanism of Xingnao Kaiqiao Pill for Perioperative Neurocognitive Disorder and Its Correlation With Immune and Inflammatory Signaling Pathways Based on Network Pharmacology and Molecular Docking.
+35992596|a|To investigate the molecular mechanism of Xingnao Kaiqiao Pill in the treatment of perioperative neurocognitive disorder (PND) from the perspective of network pharmacology and molecular docking technology. Active ingredients of Xingnao Kaiqiao Pill were screened from the traditional Chinese medicine database and analysis platform, and the putative targets were predicted. The GeneCards database was searched to obtain PND-related targets. The genes corresponding to the targets were searched and annotated on the UniProt database. The VennDiagram package in R was employed to obtain common target genes. The overlap genes were introduced into STRING to obtain a protein-protein interaction (PPI) network; thus, key targets were screened. The target relationship network of "Xingnao Kaiqiao Pill-traditional Chinese medicine-compound-common target" was constructed by Cytoscape software. Using R language package Bioconductor, Gene Ontology (GO) and pathway enrichment analysis (Kyoto Encyclopedia of Genes and Genomes Pathway, KEGG Pathway) were performed on the common target genes. A total of 45 active ingredients of Xingnao Kaiqiao Pill were screened, with 182 potential targets, and 1,579 PND-related targets were retrieved from the GeneCards databases (Score >= 1). Using VennDiagram, 132 overlap genes were gotten. Xingnao Kaiqiao Pill mainly acted on targets, such as MAPK and JUN. GO enrichment analysis displayed G protein-coupled amine receptor activity, nuclear receptor activity, ligand-activated transcription factor activity, G protein-coupled neurotransmitter receptor activity, steroid hormone receptor activity, and cytokine receptor activity. KEGG enrichment analysis exhibited 157 signaling pathways. The regulation of interleukin 17, tumor necrosis factor, hypoxia-inducible factor-1, and MAPK signaling pathways affected central nervous system (CNS) inflammatory response, cellular immunity, tumor-related signaling pathways, protected neurons, and inhibited PND. The active ingredients of Xingnao Kaiqiao Pill adjust interleukin 17, tumor necrosis factor, hypoxia-inducible factor-1, and MAPK signaling pathways by acting on cell targets, such as JUN, MAPK, AKT1, etc., and finally exert a therapeutic effect on PND.
+35992596	23	43	Xingnao Kaiqiao Pill	Chemical	-
+35992596	62	85	Neurocognitive Disorder	Disease	MESH:D019965
+35992596	122	134	Inflammatory	Disease	MESH:D007249
+35992596	249	269	Xingnao Kaiqiao Pill	Chemical	-
+35992596	304	327	neurocognitive disorder	Disease	MESH:D019965
+35992596	329	332	PND	Disease	MESH:D019965
+35992596	435	455	Xingnao Kaiqiao Pill	Chemical	-
+35992596	491	507	Chinese medicine	Chemical	-
+35992596	627	630	PND	Disease	MESH:D019965
+35992596	983	1003	Xingnao Kaiqiao Pill	Disease	MESH:D014202
+35992596	1016	1032	Chinese medicine	Chemical	-
+35992596	1329	1349	Xingnao Kaiqiao Pill	Chemical	-
+35992596	1403	1406	PND	Disease	MESH:D019965
+35992596	1531	1551	Xingnao Kaiqiao Pill	Chemical	-
+35992596	1964	1985	tumor necrosis factor	Gene	7124
+35992596	2060	2074	nervous system	Disease	MESH:D009422
+35992596	2076	2080	CNS)	Disease	MESH:D002493
+35992596	2081	2093	inflammatory	Disease	MESH:D007249
+35992596	2123	2128	tumor	Disease	MESH:D009369
+35992596	2190	2193	PND	Disease	MESH:D019965
+35992596	2221	2241	Xingnao Kaiqiao Pill	Chemical	-
+35992596	2265	2286	tumor necrosis factor	Gene	7124
+35992596	2390	2394	AKT1	Gene	207
+35992596	2444	2447	PND	Disease	MESH:D019965
+35992596	Association	207	7124
+35992596	Association	MESH:D014202	207
+35992596	Association	MESH:D009369	7124
+35992596	Association	MESH:D007249	7124
+35992596	Association	MESH:D014202	7124
+35992596	Association	MESH:D009422	7124
+35992596	Association	MESH:D002493	7124
+

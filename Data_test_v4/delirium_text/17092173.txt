@@ -1,0 +1,12 @@
+17092173|t|Time-domain fluorescent plate reader for cell based protein-protein interaction and protein conformation assays.
+17092173|a|Fluorescence lifetime measurement is widely used in the biological sciences due to its inherent sensitivity and concentration independence. Frequency domain high-throughput plate readers and time-resolved energy transfer (TRET) plate readers are in common use and have been successful in a variety of applications ranging from basic biochemistry to drug discovery. Time-domain systems would have advantages due to their ability to distinguish both FRETing and non-FRETing populations, but have been difficult to develop due to inherent difficulties with background autofluorescence and lifetime component separation. Using a modified commercial lifetime plate reader, we demonstrate a method for removal of the complex auto-fluorescent background decay, described using a stretched exponential function (StrEF). We develop a generalized multi-exponential fitting algorithm (GeMEF), which progressively accounts for confounding lifetime components in FRET-based assays using a series of control experiments. We demonstrate the separability of FRET strength and efficiency and apply the technique to protein-protein interactions and protein conformational assays in a cell-based format. Presenilin 1 (PS1) is known to be important in Amyloid Precursor Protein (APP) processing in Alzheimer's disease. Using transfected cells, we demonstrate APP-PS1 interactions by FRET in a cell-based, 96-well plate format.
+17092173	678	694	autofluorescence	Disease	
+17092173	1298	1310	Presenilin 1	Gene	5663
+17092173	1312	1315	PS1	Gene	5663
+17092173	1345	1370	Amyloid Precursor Protein	Gene	351
+17092173	1391	1410	Alzheimer's disease	Disease	MESH:D000544
+17092173	1456	1459	PS1	Gene	5663
+17092173	Association	MESH:D000544	351
+17092173	Association	MESH:D000544	5663
+17092173	Association	351	5663
+

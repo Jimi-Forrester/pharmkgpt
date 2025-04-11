@@ -1,0 +1,42 @@
+36532735|t|HIF-1 signalling pathway was identified as a potential new pathway for Icariin's treatment against Alzheimer's disease based on preclinical evidence and bioinformatics.
+36532735|a|Aim: Alzheimer's disease (AD) is a neurodegenerative condition that is characterized by the gradual loss of memory and cognitive function. Icariin, which is a natural chemical isolated from Epimedii herba, has been shown to protect against AD. This research examined the potential mechanisms of Icariin's treatment against AD via a comprehensive review of relevant preclinical studies coupled with network pharmacology. Methods: The PubMed, Web of Science, CNKI, WANFANG, and VIP databases were used to identify the relevant studies. The pharmacological characteristics of Icariin were determined using the SwissADME and TCMSP databases. The overlapping targets of Icariin and AD were then utilized to conduct disease oncology (DO) analysis to identify possible hub targets of Icariin in the treatment of AD. The hub targets were then used for Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analyses, and the interactions of the targets and Icariin were assessed via molecular docking and molecular dynamics simulation (MDS). Results: According to the literature review, Icariin alleviates cognitive impairment by regulating the expression of Abeta1-42, Abeta1-40, BACE1, tau, hyperphosphorylated tau, and inflammatory mediators. DO analysis revealed 35 AD-related hub targets, and the HIF-1 signalling pathway was ranked first according to the KEGG pathway analysis. Icariin effectively docked with the 35 hub targets and HIF-1alpha, and the dynamic binding of the HIF-1-Icariin complex within 100 ns indicated that Icariin contributed to the stability of HIF-1alpha. Conclusion: In conclusion, our research used a literature review and network pharmacology methods to identify the HIF-1 signalling pathway as a potential pathway for Icariin's treatment against AD.
+36532735	0	5	HIF-1	Gene	3091
+36532735	71	78	Icariin	Chemical	MESH:C056599
+36532735	99	118	Alzheimer's disease	Disease	MESH:D000544
+36532735	174	193	Alzheimer's disease	Disease	MESH:D000544
+36532735	195	197	AD	Disease	MESH:D000544
+36532735	204	231	neurodegenerative condition	Disease	MESH:D019636
+36532735	269	287	loss of memory and	Disease	MESH:D008569
+36532735	308	315	Icariin	Chemical	MESH:C056599
+36532735	359	373	Epimedii herba	Species	
+36532735	409	411	AD	Disease	MESH:D000544
+36532735	464	471	Icariin	Chemical	MESH:C056599
+36532735	492	494	AD	Disease	MESH:D000544
+36532735	742	749	Icariin	Chemical	MESH:C056599
+36532735	846	848	AD	Disease	MESH:D000544
+36532735	974	976	AD	Disease	MESH:D000544
+36532735	1282	1289	Icariin	Chemical	MESH:C056599
+36532735	1301	1321	cognitive impairment	Disease	MESH:D003072
+36532735	1376	1381	BACE1	Gene	23621
+36532735	1383	1386	tau	Gene	4137
+36532735	1408	1411	tau	Gene	4137
+36532735	1417	1429	inflammatory	Disease	MESH:D007249
+36532735	1465	1467	AD	Disease	MESH:D000544
+36532735	1497	1502	HIF-1	Gene	3091
+36532735	1579	1586	Icariin	Chemical	MESH:C056599
+36532735	1634	1644	HIF-1alpha	Gene	3091
+36532735	1677	1682	HIF-1	Gene	3091
+36532735	1683	1690	Icariin	Chemical	MESH:C056599
+36532735	1728	1735	Icariin	Chemical	MESH:C056599
+36532735	1768	1778	HIF-1alpha	Gene	3091
+36532735	1894	1899	HIF-1	Gene	3091
+36532735	1946	1953	Icariin	Chemical	MESH:C056599
+36532735	1974	1976	AD	Disease	MESH:D000544
+36532735	Negative_Correlation	MESH:C056599	MESH:D003072
+36532735	Association	MESH:C056599	3091
+36532735	Association	MESH:C056599	MESH:D007249
+36532735	Association	MESH:C056599	23621
+36532735	Negative_Correlation	MESH:C056599	MESH:D000544
+36532735	Association	MESH:D000544	3091
+36532735	Association	MESH:C056599	4137
+

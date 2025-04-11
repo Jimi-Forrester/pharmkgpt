@@ -1,0 +1,21 @@
+35755813|t|Chemical Genetic Validation of CSNK2 Substrates Using an Inhibitor-Resistant Mutant in Combination with Triple SILAC Quantitative Phosphoproteomics.
+35755813|a|Casein Kinase 2 (CSNK2) is an extremely pleiotropic, ubiquitously expressed protein kinase involved in the regulation of numerous key biological processes. Mapping the CSNK2-dependent phosphoproteome is necessary for better characterization of its fundamental role in cellular signalling. While ATP-competitive inhibitors have enabled the identification of many putative kinase substrates, compounds targeting the highly conserved ATP-binding pocket often exhibit off-target effects limiting their utility for definitive kinase-substrate assignment. To overcome this limitation, we devised a strategy combining chemical genetics and quantitative phosphoproteomics to identify and validate CSNK2 substrates. We engineered U2OS cells expressing exogenous wild type CSNK2A1 (WT) or a triple mutant (TM, V66A/H160D/I174A) with substitutions at residues important for inhibitor binding. These cells were treated with CX-4945, a clinical-stage inhibitor of CSNK2, and analyzed using large-scale triple SILAC (Stable Isotope Labelling of Amino Acids in Cell Culture) quantitative phosphoproteomics. In contrast to wild-type CSNK2A1, CSNK2A1-TM retained activity in the presence of CX-4945 enabling identification and validation of several CSNK2 substrates on the basis of their increased phosphorylation in cells expressing CSNK2A1-TM. Based on high conservation within the kinase family, we expect that this strategy can be broadly adapted for identification of other kinase-substrate relationships.
+35755813	444	447	ATP	Chemical	MESH:D000255
+35755813	580	583	ATP	Chemical	MESH:D000255
+35755813	870	874	U2OS	CellLine	CVCL:0042
+35755813	912	919	CSNK2A1	Gene	1457
+35755813	945	947	TM	Disease	MESH:C536008
+35755813	949	953	V66A	ProteinMutation	tmVar:p|SUB|V|66|A;HGVS:p.V66A;VariantGroup:1;CorrespondingGene:1457;CorrespondingSpecies:9606
+35755813	954	959	H160D	ProteinMutation	tmVar:p|SUB|H|160|D;HGVS:p.H160D;VariantGroup:0;CorrespondingGene:1457;CorrespondingSpecies:9606
+35755813	960	965	I174A	ProteinMutation	tmVar:p|SUB|I|174|A;HGVS:p.I174A;VariantGroup:2;CorrespondingGene:1457;CorrespondingSpecies:9606
+35755813	1061	1068	CX-4945	Chemical	MESH:C555142
+35755813	1266	1273	CSNK2A1	Gene	1457
+35755813	1275	1282	CSNK2A1	Gene	1457
+35755813	1283	1285	TM	Disease	MESH:C536008
+35755813	1323	1330	CX-4945	Chemical	MESH:C555142
+35755813	1466	1473	CSNK2A1	Gene	1457
+35755813	1474	1476	TM	Disease	MESH:C536008
+35755813	Association	HGVS:p.H160D;CorrespondingGene:1457	HGVS:p.V66A;CorrespondingGene:1457
+35755813	Association	MESH:C555142	1457
+35755813	Negative_Correlation	MESH:C555142	MESH:C536008
+

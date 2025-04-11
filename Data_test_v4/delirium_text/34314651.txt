@@ -1,0 +1,12 @@
+34314651|t|Data-driven identification of complex disease phenotypes.
+34314651|a|Disease interaction in multimorbid patients is relevant to treatment and prognosis, yet poorly understood. In the present work, we combine approaches from network science, machine learning and computational phenotyping to assess interactions between two or more diseases in a transparent way across the full diagnostic spectrum. We demonstrate that health states of hospitalized patients can be better characterized by including higher-order features capturing interactions between more than two diseases. We identify a meaningful set of higher-order diagnosis features that account for synergistic disease interactions in a population-wide (N = 9 M) medical claims dataset. We construct a generalized disease network where (higher-order) diagnosis features are linked if they predict similar diagnoses across the whole diagnostic spectrum. The fact that specific diagnoses are generally represented multiple times in the network allows for the identification of putatively different disease phenotypes that may reflect different disease aetiologies. At the example of obesity, we demonstrate the purely data-driven detection of two complex phenotypes of obesity. As indicated by a matched comparison between patients having these phenotypes, we show that these phenotypes show specific characteristics of what has been controversially discussed in the medical literature as metabolically healthy and unhealthy obesity, respectively. The findings also suggest that metabolically healthy patients show some progression towards more unhealthy obesity over time, a finding that is consistent with longitudinal studies indicating a transient nature of metabolically healthy obesity. The disease network is available for exploration at https://disease.network/.
+34314651	93	101	patients	Species	9606
+34314651	437	445	patients	Species	9606
+34314651	1127	1134	obesity	Disease	MESH:D009765
+34314651	1213	1220	obesity	Disease	MESH:D009765
+34314651	1267	1275	patients	Species	9606
+34314651	1469	1476	obesity	Disease	MESH:D009765
+34314651	1545	1553	patients	Species	9606
+34314651	1599	1606	obesity	Disease	MESH:D009765
+34314651	1728	1735	obesity	Disease	MESH:D009765
+

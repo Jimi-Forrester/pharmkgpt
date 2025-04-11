@@ -1,0 +1,71 @@
+39800682|t|N6-methyladenosine RNA modification regulates the transcription of SLC7A11 through KDM6B and GATA3 to modulate ferroptosis.
+39800682|a|BACKGROUND: Recent studies indicate that N6-methyladenosine (m6A) RNA modification may regulate ferroptosis in cancer cells, while its molecular mechanisms require further investigation. METHODS: Liquid Chromatography-Tandem Mass Spectrometry (HPLC/MS/MS) was used to detect changes in m6A levels in cells. Transmission electron microscopy and flow cytometry were used to detect mitochondrial reactive oxygen species (ROS). RNA sequencing (RNA-seq) was employed to analyze the factors regulating ferroptosis. Chromatin immunoprecipitation (ChIP) was used to assess the binding of regulatory factors to the SLC7A11 promoter, and a Dual-Luciferase reporter assay measured promoter activity of SLC7A11. The dm6ACRISPR system was utilized for the demethylation of specific transcripts. The Cancer Genome Atlas Program (TCGA) database and immunohistochemistry validated the role of the METTL3/SLC7A11 axis in cancer progression. RESULTS: The m6A methyltransferase METTL3 was upregulated during cancer cell ferroptosis and facilitated erastin-induced ferroptosis by enhancing mitochondrial ROS. Mechanistic studies showed that METTL3 negatively regulated the transcription and promoter activity of SLC7A11. Specifically, METTL3 induced H3K27 trimethylation of the SLC7A11 promoter by suppressing the mRNA stability of H3K27 demethylases KDM6B. Furthermore, METTL3 suppressed the expression of GATA3, which regulated SLC7A11 transcription by binding to the putative site at - 597 to - 590 of the SLC7A11 promoter. METTL3 decreased the precursor mRNA stability of GATA3 through m6A/YTHDF2-dependent recruitment of the 3'-5' exoribonuclease Dis3L2. Targeted demethylation of KDM6B and GATA3 m6A using the dm6ACRISPR system significantly increased the expression of SLC7A11. Moreover, the transcription factor YY1 was responsible for erastin-induced upregulation of METTL3 by binding to its promoter-proximal site. In vivo and clinical data supported the positive roles of the METTL3/SLC7A11 axis in tumor growth and progression. CONCLUSIONS: METTL3 regulated the transcription of SLC7A11 through GATA3 and KDM6B to modulate ferroptosis in an m6A-dependent manner. This study provides a novel potential strategy and experimental support for the future treatment of cancer.
+39800682	0	18	N6-methyladenosine	Chemical	MESH:C010223
+39800682	67	74	SLC7A11	Gene	23657
+39800682	83	88	KDM6B	Gene	23135
+39800682	93	98	GATA3	Gene	2625
+39800682	165	183	N6-methyladenosine	Chemical	MESH:C010223
+39800682	185	188	m6A	Gene	56339
+39800682	235	241	cancer	Disease	MESH:D009369
+39800682	410	413	m6A	Gene	56339
+39800682	517	540	reactive oxygen species	Chemical	MESH:D017382
+39800682	542	545	ROS	Chemical	MESH:D017382
+39800682	730	737	SLC7A11	Gene	23657
+39800682	815	822	SLC7A11	Gene	23657
+39800682	910	916	Cancer	Disease	MESH:D009369
+39800682	1005	1011	METTL3	Gene	56339
+39800682	1012	1019	SLC7A11	Gene	23657
+39800682	1028	1034	cancer	Disease	MESH:D009369
+39800682	1083	1089	METTL3	Gene	56339
+39800682	1113	1119	cancer	Disease	MESH:D009369
+39800682	1208	1211	ROS	Chemical	MESH:D017382
+39800682	1245	1251	METTL3	Gene	56339
+39800682	1316	1323	SLC7A11	Gene	23657
+39800682	1339	1345	METTL3	Gene	56339
+39800682	1382	1389	SLC7A11	Gene	23657
+39800682	1455	1461	KDM6B.	Gene	23135
+39800682	1475	1481	METTL3	Gene	56339
+39800682	1511	1516	GATA3	Gene	2625
+39800682	1534	1541	SLC7A11	Gene	23657
+39800682	1613	1620	SLC7A11	Gene	23657
+39800682	1631	1637	METTL3	Gene	56339
+39800682	1680	1685	GATA3	Gene	2625
+39800682	1694	1697	m6A	Gene	56339
+39800682	1698	1704	YTHDF2	Gene	51441
+39800682	1756	1762	Dis3L2	Gene	129563
+39800682	1790	1795	KDM6B	Gene	23135
+39800682	1800	1805	GATA3	Gene	2625
+39800682	1806	1809	m6A	Gene	56339
+39800682	1820	1830	dm6ACRISPR	Chemical	-
+39800682	1880	1887	SLC7A11	Gene	23657
+39800682	1924	1927	YY1	Gene	7528
+39800682	1948	1955	erastin	Chemical	MESH:C477224
+39800682	1980	1986	METTL3	Gene	56339
+39800682	2091	2097	METTL3	Gene	56339
+39800682	2098	2105	SLC7A11	Gene	23657
+39800682	2114	2119	tumor	Disease	MESH:D009369
+39800682	2157	2163	METTL3	Gene	56339
+39800682	2195	2202	SLC7A11	Gene	23657
+39800682	2211	2216	GATA3	Gene	2625
+39800682	2221	2226	KDM6B	Gene	23135
+39800682	2257	2260	m6A	Gene	56339
+39800682	2379	2385	cancer	Disease	MESH:D009369
+39800682	Association	MESH:D017382	56339
+39800682	Association	23135	23657
+39800682	Association	MESH:C477224	23657
+39800682	Association	MESH:C010223	23657
+39800682	Association	51441	56339
+39800682	Association	129563	56339
+39800682	Association	MESH:D009369	56339
+39800682	Association	MESH:C477224	56339
+39800682	Association	23657	2625
+39800682	Association	MESH:C010223	2625
+39800682	Association	129563	51441
+39800682	Association	MESH:C010223	MESH:D009369
+39800682	Association	23135	56339
+39800682	Association	MESH:D009369	23657
+39800682	Negative_Correlation	2625	56339
+39800682	Negative_Correlation	23657	56339
+39800682	Association	MESH:C010223	23135
+39800682	Association	MESH:C477224	7528
+

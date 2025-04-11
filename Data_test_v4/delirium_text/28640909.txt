@@ -1,0 +1,58 @@
+28640909|t|HIV-Tat regulates macrophage gene expression in the context of neuroAIDS.
+28640909|a|Despite the success of cART, greater than 50% of HIV infected people develop cognitive and motor deficits termed HIV-associated neurocognitive disorders (HAND). Macrophages are the major cell type infected in the CNS. Unlike for T cells, the virus does not kill macrophages and these long-lived cells may become HIV reservoirs in the brain. They produce cytokines/chemokines and viral proteins that promote inflammation and neuronal damage, playing a key role in HIV neuropathogenesis. HIV Tat is the transactivator of transcription that is essential for replication and transcriptional regulation of the virus and is the first protein to be produced after HIV infection. Even with successful cART, Tat is produced by infected cells. In this study we examined the role of the HIV Tat protein in the regulation of gene expression in human macrophages. Using THP-1 cells, a human monocyte/macrophage cell line, and their infection with lentivirus, we generated stable cell lines that express Tat-Flag. We performed ChIP-seq analysis of these cells and found 66 association sites of Tat in promoter or coding regions. Among these are C5, CRLF2/TSLPR, BDNF, and APBA1/Mint1, genes associated with inflammation/damage. We confirmed the association of Tat with these sequences by ChIP assay and expression of these genes in our THP-1 cell lines by qRT-PCR. We found that HIV Tat increased expression of C5, APBA1, and BDNF, and decreased CRLF2. The K50A Tat-mutation dysregulated expression of these genes without affecting the binding of the Tat complex to their gene sequences. Our data suggest that HIV Tat, produced by macrophage HIV reservoirs in the brain despite successful cART, contributes to neuropathogenesis in HIV-infected people.
+28640909	0	4	HIV-	Species	11676
+28640909	4	7	Tat	Gene	6898
+28640909	63	72	neuroAIDS	Disease	
+28640909	123	135	HIV infected	Disease	MESH:D015658
+28640909	151	179	cognitive and motor deficits	Disease	MESH:D003072
+28640909	187	226	HIV-associated neurocognitive disorders	Disease	MESH:D016263
+28640909	228	232	HAND	Disease	MESH:D016263
+28640909	271	279	infected	Disease	MESH:D007239
+28640909	386	389	HIV	Species	11676
+28640909	481	493	inflammation	Disease	MESH:D007249
+28640909	498	513	neuronal damage	Disease	MESH:D009410
+28640909	537	540	HIV	Disease	MESH:D015658
+28640909	560	563	HIV	Species	11676
+28640909	564	567	Tat	Gene	6898
+28640909	731	744	HIV infection	Disease	MESH:D015658
+28640909	773	776	Tat	Gene	6898
+28640909	792	800	infected	Disease	MESH:D007239
+28640909	850	853	HIV	Species	11676
+28640909	854	857	Tat	Gene	6898
+28640909	906	911	human	Species	9606
+28640909	931	936	THP-1	CellLine	CVCL:0006
+28640909	946	951	human	Species	9606
+28640909	1064	1067	Tat	Gene	6898
+28640909	1154	1157	Tat	Gene	6898
+28640909	1209	1214	CRLF2	Gene	64109
+28640909	1215	1220	TSLPR	Gene	64109
+28640909	1222	1226	BDNF	Gene	627
+28640909	1232	1237	APBA1	Gene	320
+28640909	1238	1243	Mint1	Gene	320
+28640909	1267	1279	inflammation	Disease	MESH:D007249
+28640909	1320	1323	Tat	Gene	6898
+28640909	1396	1401	THP-1	CellLine	CVCL:0006
+28640909	1439	1442	HIV	Species	11676
+28640909	1443	1446	Tat	Gene	6898
+28640909	1475	1480	APBA1	Gene	320
+28640909	1486	1490	BDNF	Gene	627
+28640909	1506	1511	CRLF2	Gene	64109
+28640909	1517	1521	K50A	ProteinMutation	tmVar:p|SUB|K|50|A;HGVS:p.K50A;VariantGroup:0;CorrespondingGene:6898;CorrespondingSpecies:9606
+28640909	1522	1525	Tat	Gene	6898
+28640909	1611	1614	Tat	Gene	6898
+28640909	1670	1673	HIV	Species	11676
+28640909	1674	1677	Tat	Gene	6898
+28640909	1702	1705	HIV	Species	11676
+28640909	1791	1803	HIV-infected	Disease	MESH:D015658
+28640909	Positive_Correlation	MESH:D016263	HGVS:p.K50A;CorrespondingGene:6898
+28640909	Association	MESH:D015658	6898
+28640909	Association	MESH:D007249	64109
+28640909	Association	MESH:D007249	627
+28640909	Association	MESH:D016263	6898
+28640909	Positive_Correlation	320	6898
+28640909	Association	MESH:D007239	6898
+28640909	Positive_Correlation	627	6898
+28640909	Association	MESH:D007249	320
+28640909	Negative_Correlation	64109	6898
+28640909	Association	MESH:D016263	6898
+

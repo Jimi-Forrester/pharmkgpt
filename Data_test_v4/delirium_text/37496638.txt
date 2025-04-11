@@ -1,0 +1,18 @@
+37496638|t|The value of machine learning for prognosis prediction of diphenhydramine exposure: National analysis of 50,000 patients in the United States.
+37496638|a|Background: Diphenhydramine (DPH) is an antihistamine medication that in overdose can result in anticholinergic symptoms and serious complications, including arrhythmia and coma. We aimed to compare the value of various machine learning (ML) models, including light gradient boosting machine (LGBM), logistic regression (LR), and random forest (RF), in the outcome prediction of DPH poisoning. Materials and Methods: We used the National Poison Data System database and included all of the human exposures of DPH from January 01, 2017 to December 31, 2017, and excluded those cases with missing information, duplicated cases, and those who reported co-ingestion. Data were split into training and test datasets, and three ML models were compared. We developed confusion matrices for each, and standard performance metrics were calculated. Results: Our study population included 53,761 patients with DPH exposure. The most common reasons for exposure, outcome, chronicity of exposure, and formulation were captured. Our results showed that the average precision-recall area under the curve (AUC) of 0.84. LGBM and RF had the highest performance (average AUC of 0.91), followed by LR (average AUC of 0.90). The specificity of the models was 87.0% in the testing groups. The precision of models was 75.0%. Recall (sensitivity) of models ranged between 73% and 75% with an F1 score of 75.0%. The overall accuracy of LGBM, LR, and RF models in the test dataset was 74.8%, 74.0%, and 75.1%, respectively. In total, just 1.1% of patients (mostly those with major outcomes) received physostigmine. Conclusion: Our study demonstrates the application of ML in the prediction of DPH poisoning.
+37496638	58	73	diphenhydramine	Chemical	MESH:D004155
+37496638	155	170	Diphenhydramine	Chemical	MESH:D004155
+37496638	172	175	DPH	Chemical	MESH:D004155
+37496638	216	224	overdose	Disease	MESH:D062787
+37496638	301	311	arrhythmia	Disease	MESH:D001145
+37496638	316	320	coma	Disease	MESH:D003128
+37496638	522	535	DPH poisoning	Chemical	-
+37496638	581	587	Poison	Disease	MESH:D011041
+37496638	652	655	DPH	Chemical	MESH:D004155
+37496638	1042	1045	DPH	Chemical	MESH:D004155
+37496638	1718	1731	physostigmine	Chemical	MESH:D010830
+37496638	1811	1824	DPH poisoning	Chemical	-
+37496638	Positive_Correlation	MESH:D004155	MESH:D003128
+37496638	Positive_Correlation	MESH:D004155	MESH:D001145
+37496638	Positive_Correlation	MESH:D004155	MESH:D062787
+

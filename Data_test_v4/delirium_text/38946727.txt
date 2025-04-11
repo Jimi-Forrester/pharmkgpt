@@ -1,0 +1,77 @@
+38946727|t|Scutellarin alleviates microglia-mediated neuroinflammation and apoptosis after ischemic stroke through the PI3K/AKT/GSK3beta signaling pathway.
+38946727|a|Microglia are resident immune cells in the central nervous system that are rapidly activated to mediate neuroinflammation and apoptosis, thereby aggravating brain tissue damage after ischemic stroke (IS). Although scutellarin has a specific therapeutic effect on IS, the potential target mechanism of its treatment has not been fully elucidated. In this study, we explored the potential mechanism of scutellarin in treating IS using network pharmacology. Lipopolysaccharide (LPS) was used to induce an in vitro BV-2 microglial cell model, while middle cerebral artery occlusion (MCAO) was used to induce an in vivo animal model. Our findings indicated that scutellarin promoted the recovery of cerebral blood flow in MCAO rats at 3 days, significantly different from that in the MCAO group. Western blotting and immunofluorescence revealed that scutellarin treatment of BV-2 microglial cells resulted in a significant reduction in the protein expression levels and incidence of cells immunopositive for p-NF-kappaB, TNF-alpha, IL-1beta, Bax, and C-caspase-3. In contrast, the expression levels of p-PI3K, p-AKT, p-GSK3beta, and Bcl-2 were further increased, significantly different from those in the LPS group. The PI3K inhibitor LY294002 had similar effects to scutellarin by inhibiting neuroinflammation and apoptosis in activated microglia. The results of the PI3K/AKT/GSK3beta signaling pathway and NF-kappaB pathway in vivo in MCAO models induced microglia at 3 days were consistent with those obtained from in vitro cells. These findings indicate that scutellarin plays a neuroprotective role by reducing microglial neuroinflammation and apoptosis mediated by the activated PI3K/AKT/GSK3beta/NF-kappaB signaling pathway.
+38946727	42	59	neuroinflammation	Disease	MESH:D000090862
+38946727	80	95	ischemic stroke	Disease	MESH:D002544
+38946727	108	112	PI3K	Gene	18708
+38946727	113	116	AKT	Gene	11651
+38946727	117	125	GSK3beta	Gene	56637
+38946727	249	266	neuroinflammation	Disease	MESH:D000090862
+38946727	302	321	brain tissue damage	Disease	MESH:D017695
+38946727	328	343	ischemic stroke	Disease	MESH:D002544
+38946727	345	347	IS	Disease	MESH:D002544
+38946727	408	410	IS	Disease	MESH:D002544
+38946727	545	556	scutellarin	Chemical	MESH:C484876
+38946727	569	571	IS	Disease	MESH:D002544
+38946727	600	618	Lipopolysaccharide	Chemical	MESH:D008070
+38946727	620	623	LPS	Chemical	MESH:D008070
+38946727	656	660	BV-2	CellLine	CVCL:0182
+38946727	690	722	middle cerebral artery occlusion	Disease	MESH:D020244
+38946727	724	728	MCAO	Disease	MESH:D020244
+38946727	802	813	scutellarin	Chemical	MESH:C484876
+38946727	862	866	MCAO	Disease	MESH:D020244
+38946727	867	871	rats	Species	10116
+38946727	924	928	MCAO	Disease	MESH:D020244
+38946727	990	1001	scutellarin	Chemical	MESH:C484876
+38946727	1015	1019	BV-2	CellLine	CVCL:0182
+38946727	1150	1159	NF-kappaB	Gene	18033
+38946727	1161	1170	TNF-alpha	Gene	21926
+38946727	1172	1180	IL-1beta	Gene	16176
+38946727	1182	1185	Bax	Gene	12028
+38946727	1244	1248	PI3K	Gene	18708
+38946727	1252	1255	AKT	Gene	11651
+38946727	1259	1267	GSK3beta	Gene	56637
+38946727	1273	1278	Bcl-2	Gene	12043
+38946727	1345	1348	LPS	Chemical	MESH:D008070
+38946727	1360	1364	PI3K	Gene	18708
+38946727	1375	1383	LY294002	Chemical	MESH:C085911
+38946727	1407	1418	scutellarin	Chemical	MESH:C484876
+38946727	1433	1450	neuroinflammation	Disease	MESH:D000090862
+38946727	1508	1512	PI3K	Gene	18708
+38946727	1513	1516	AKT	Gene	11651
+38946727	1517	1525	GSK3beta	Gene	56637
+38946727	1548	1557	NF-kappaB	Gene	18033
+38946727	1577	1581	MCAO	Disease	MESH:D020244
+38946727	1703	1714	scutellarin	Chemical	MESH:C484876
+38946727	1767	1784	neuroinflammation	Disease	MESH:D000090862
+38946727	1825	1829	PI3K	Gene	18708
+38946727	1830	1833	AKT	Gene	11651
+38946727	1834	1842	GSK3beta	Gene	56637
+38946727	1843	1852	NF-kappaB	Gene	18033
+38946727	Association	11651	18033
+38946727	Negative_Correlation	MESH:C484876	MESH:D002544
+38946727	Association	18033	18708
+38946727	Negative_Correlation	MESH:C484876	12028
+38946727	Association	MESH:C484876	56637
+38946727	Negative_Correlation	MESH:C484876	21926
+38946727	Positive_Correlation	MESH:D008070	18708
+38946727	Association	MESH:C484876	11651
+38946727	Association	11651	18708
+38946727	Negative_Correlation	MESH:C085911	18708
+38946727	Association	MESH:D000090862	18033
+38946727	Negative_Correlation	MESH:C484876	18033
+38946727	Association	MESH:D000090862	56637
+38946727	Positive_Correlation	MESH:C484876	12043
+38946727	Negative_Correlation	MESH:C085911	MESH:D000090862
+38946727	Association	MESH:D000090862	11651
+38946727	Negative_Correlation	MESH:C484876	16176
+38946727	Positive_Correlation	MESH:D008070	56637
+38946727	Negative_Correlation	MESH:C484876	MESH:D000090862
+38946727	Association	MESH:D008070	11651
+38946727	Negative_Correlation	MESH:C085911	MESH:C484876
+38946727	Association	18708	56637
+38946727	Association	18033	56637
+38946727	Association	MESH:C484876	18708
+38946727	Negative_Correlation	MESH:C484876	MESH:D020244
+38946727	Positive_Correlation	MESH:D008070	12043
+38946727	Association	MESH:D000090862	18708
+

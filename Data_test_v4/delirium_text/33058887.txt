@@ -1,0 +1,16 @@
+33058887|t|How the CORAL software can be used to select compounds for efficient treatment of neurodegenerative diseases?
+33058887|a|Recommendations on the efficient application of CORAL software (http://www.insilico.eu/coral) to establish quantitative structure-property/activity relationships (QSPRs/QSARs) are provided. The predictive potential of the approach has been demonstrated for QSAR models developed for inhibitor concentrations (negative decimal logarithm of IC50) of derivatives of N-methyl-d-aspartate (NMDA) receptor, leucine-rich repeat kinase 2 (LRRK2), and tropomyosin receptor kinase A (TrkA). The above three protein targets are related to various neurodegenerative diseases such as Alzheimer's and Parkinson's. Each model was checked using several splits of the data for the training and the validation sets. The index of ideality of correlation (IIC) represents a tool to improve the predictive potential for an arbitrary model. However, the use of the IIC should be carried out according to rules, described in this work.
+33058887	82	108	neurodegenerative diseases	Disease	MESH:D019636
+33058887	511	539	leucine-rich repeat kinase 2	Gene	120892
+33058887	541	546	LRRK2	Gene	120892
+33058887	553	582	tropomyosin receptor kinase A	Gene	4914
+33058887	584	588	TrkA	Gene	4914
+33058887	646	672	neurodegenerative diseases	Disease	MESH:D019636
+33058887	681	692	Alzheimer's	Disease	MESH:D000544
+33058887	697	708	Parkinson's	Disease	MESH:D010300
+33058887	Association	MESH:D010300	120892
+33058887	Association	MESH:D010300	4914
+33058887	Association	MESH:D019636	120892
+33058887	Association	MESH:D019636	4914
+33058887	Association	MESH:D000544	4914
+

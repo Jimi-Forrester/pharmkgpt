@@ -1,0 +1,9 @@
+39452416|t|Clinician and Visitor Activity Patterns in an Intensive Care Unit Room: A Study to Examine How Ambient Monitoring Can Inform the Measurement of Delirium Severity and Escalation of Care.
+39452416|a|The early detection of the acute deterioration of escalating illness severity is crucial for effective patient management and can significantly impact patient outcomes. Ambient sensing technology, such as computer vision, may provide real-time information that could impact early recognition and response. This study aimed to develop a computer vision model to quantify the number and type (clinician vs. visitor) of people in an intensive care unit (ICU) room, study the trajectory of their movement, and preliminarily explore its relationship with delirium as a marker of illness severity. To quantify the number of people present, we implemented a counting-by-detection supervised strategy using images from ICU rooms. This was accomplished through developing three methods: single-frame, multi-frame, and tracking-to-count. We then explored how the type of person and distribution in the room corresponded to the presence of delirium. Our designed pipeline was tested with a different set of detection models. We report model performance statistics and preliminary insights into the relationship between the number and type of persons in the ICU room and delirium. We evaluated our method and compared it with other approaches, including density estimation, counting by detection, regression methods, and their adaptability to ICU environments.
+39452416	144	152	Delirium	Disease	MESH:D003693
+39452416	289	296	patient	Species	9606
+39452416	337	344	patient	Species	9606
+39452416	736	744	delirium	Disease	MESH:D003693
+39452416	1115	1123	delirium	Disease	MESH:D003693
+39452416	1345	1353	delirium	Disease	MESH:D003693
+

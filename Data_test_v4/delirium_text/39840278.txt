@@ -1,0 +1,47 @@
+39840278|t|Dual disease co-expression analysis reveals potential roles of estrogen-related genes in postmenopausal osteoporosis and Parkinson's disease.
+39840278|a|Introduction: The deficiency of estrogen correlates with a range of diseases, notably Postmenopausal osteoporosis (PMO) and Parkinson's disease (PD). There is a possibility that PMO and PD may share underlying molecular mechanisms that are pivotal in their development and progression. The objective of this study was to identify critical genes and potential mechanisms associated with PMO by examining co-expressed genes linked to PD. Methods: Initially, pertinent data concerning PMO and PD were obtained from the GWAS database, followed by conducting a Bayesian colocalization analysis. Subsequently, co-expressed genes from the PMO dataset (GSE35956) and the PD dataset (GSE20164) were identified and cross-referenced with estrogen-related genes (ERGs). Differentially expressed genes (DEGs) among PMO, PD, and ERGs were subjected to an array of bioinformatics analyses, including Kyoto Encyclopedia of Genes and Genomes (KEGG) and Gene Ontology (GO) enrichment analyses, in addition to protein-protein interaction (PPI) network analysis. The study also involved constructing TF-gene interactions, TF-microRNA coregulatory networks, interactions of hub genes with diseases, and validation through quantitative reverse transcription polymerase chain reaction (qRT-PCR). Results: The colocalization analysis uncovered shared genetic variants between PD and osteoporosis, with a posterior probability of colocalization (PPH4) measured at 0.967. Notably, rs3796661 was recognized as a shared genetic variant. A total of 11 genes were classified as DEGs across PMO, PD, and ERGs. Five principal KEGG pathways were identified, which include the p53 signaling pathway, TGF-beta signaling pathway, cell cycle, FoxO signaling pathway, and cellular senescence. Additionally, three hub genes-WT1, CCNB1, and SMAD7-were selected from the PPI network utilizing Cytoscape software. These three hub genes, which possess significant diagnostic value for PMO and PD, were further validated using GEO datasets. Interactions between transcription factors and genes, as well as between microRNAs and hub genes, were established. Ultimately, the expression trends of the identified hub genes were confirmed through qRT-PCR validation. Conclusions: This study is anticipated to offer innovative approaches for identifying potential biomarkers and important therapeutic targets for both PMO and PD.
+39840278	89	116	postmenopausal osteoporosis	Disease	MESH:D010024
+39840278	121	140	Parkinson's disease	Disease	MESH:D010300
+39840278	174	182	estrogen	Disease	MESH:D056828
+39840278	228	255	Postmenopausal osteoporosis	Disease	MESH:D010024
+39840278	257	260	PMO	Disease	MESH:D010024
+39840278	266	285	Parkinson's disease	Disease	MESH:D010300
+39840278	287	289	PD	Disease	MESH:D010300
+39840278	320	323	PMO	Disease	MESH:D010024
+39840278	328	330	PD	Disease	MESH:D010300
+39840278	528	531	PMO	Disease	MESH:D010024
+39840278	574	576	PD	Disease	MESH:D010300
+39840278	624	627	PMO	Disease	MESH:D010024
+39840278	632	634	PD	Disease	MESH:D010300
+39840278	774	777	PMO	Disease	MESH:D010024
+39840278	805	807	PD	Disease	MESH:D010300
+39840278	944	947	PMO	Disease	MESH:D010024
+39840278	949	951	PD	Disease	MESH:D010300
+39840278	1494	1496	PD	Disease	MESH:D010300
+39840278	1501	1513	osteoporosis	Disease	MESH:D010024
+39840278	1563	1567	PPH4	Gene	3777
+39840278	1597	1606	rs3796661	SNP	tmVar:rs3796661;VariantGroup:0;CorrespondingGene:6622;RS#:3796661;CorrespondingSpecies:9606
+39840278	1702	1705	PMO	Disease	MESH:D010024
+39840278	1707	1709	PD	Disease	MESH:D010300
+39840278	1785	1788	p53	Gene	7157
+39840278	1808	1816	TGF-beta	Gene	7040
+39840278	1927	1930	WT1	Gene	7490
+39840278	1932	1937	CCNB1	Gene	891
+39840278	1943	1948	SMAD7	Gene	4092
+39840278	2084	2087	PMO	Disease	MESH:D010024
+39840278	2092	2094	PD	Disease	MESH:D010300
+39840278	2510	2513	PMO	Disease	MESH:D010024
+39840278	2518	2520	PD	Disease	MESH:D010300
+39840278	Association	MESH:D010300	891
+39840278	Association	MESH:D010024	RS#:3796661;CorrespondingGene:6622
+39840278	Association	MESH:D010024	4092
+39840278	Association	MESH:D010300	4092
+39840278	Association	MESH:D010300	3777
+39840278	Association	MESH:D010024	7157
+39840278	Association	MESH:D010300	RS#:3796661;CorrespondingGene:6622
+39840278	Association	MESH:D010024	7040
+39840278	Association	MESH:D010300	7040
+39840278	Association	MESH:D010024	891
+39840278	Association	MESH:D010024	6622
+39840278	Association	MESH:D010300	6622
+

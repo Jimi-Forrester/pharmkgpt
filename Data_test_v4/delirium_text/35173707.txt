@@ -1,0 +1,44 @@
+35173707|t|Gut Microbiota Composition Is Related to AD Pathology.
+35173707|a|Introduction: Several studies have reported alterations in gut microbiota composition of Alzheimer's disease (AD) patients. However, the observed differences are not consistent across studies. We aimed to investigate associations between gut microbiota composition and AD biomarkers using machine learning models in patients with AD dementia, mild cognitive impairment (MCI) and subjective cognitive decline (SCD). Materials and Methods: We included 170 patients from the Amsterdam Dementia Cohort, comprising 33 with AD dementia (66 +- 8 years, 46%F, mini-mental state examination (MMSE) 21[19-24]), 21 with MCI (64 +- 8 years, 43%F, MMSE 27[25-29]) and 116 with SCD (62 +- 8 years, 44%F, MMSE 29[28-30]). Fecal samples were collected and gut microbiome composition was determined using 16S rRNA sequencing. Biomarkers of AD included cerebrospinal fluid (CSF) amyloid-beta 1-42 (amyloid) and phosphorylated tau (p-tau), and MRI visual scores (medial temporal atrophy, global cortical atrophy, white matter hyperintensities). Associations between gut microbiota composition and dichotomized AD biomarkers were assessed with machine learning classification models. The two models with the highest area under the curve (AUC) were selected for logistic regression, to assess associations between the 20 best predicting microbes and the outcome measures from these machine learning models while adjusting for age, sex, BMI, diabetes, medication use, and MMSE. Results: The machine learning prediction for amyloid and p-tau from microbiota composition performed best with AUCs of 0.64 and 0.63. Highest ranked microbes included several short chain fatty acid (SCFA)-producing species. Higher abundance of [Clostridium] leptum and lower abundance of [Eubacterium] ventriosum group spp., Lachnospiraceae spp., Marvinbryantia spp., Monoglobus spp., [Ruminococcus] torques group spp., Roseburia hominis, and Christensenellaceae R-7 spp., was associated with higher odds of amyloid positivity. We found associations between lower abundance of Lachnospiraceae spp., Lachnoclostridium spp., Roseburia hominis and Bilophila wadsworthia and higher odds of positive p-tau status. Conclusions: Gut microbiota composition was associated with amyloid and p-tau status. We extend on recent studies that observed associations between SCFA levels and AD CSF biomarkers by showing that lower abundances of SCFA-producing microbes were associated with higher odds of positive amyloid and p-tau status.
+35173707	41	43	AD	Disease	MESH:D000544
+35173707	144	163	Alzheimer's disease	Disease	MESH:D000544
+35173707	165	167	AD	Disease	MESH:D000544
+35173707	169	177	patients	Species	9606
+35173707	324	326	AD	Disease	MESH:D000544
+35173707	371	379	patients	Species	9606
+35173707	385	396	AD dementia	Disease	MESH:D000544
+35173707	403	423	cognitive impairment	Disease	MESH:D003072
+35173707	425	428	MCI	Disease	MESH:D060825
+35173707	445	462	cognitive decline	Disease	MESH:D003072
+35173707	464	467	SCD	Disease	MESH:D003072
+35173707	509	517	patients	Species	9606
+35173707	537	545	Dementia	Disease	MESH:D003704
+35173707	573	584	AD dementia	Disease	MESH:D000544
+35173707	664	667	MCI	Disease	MESH:D060825
+35173707	719	722	SCD	Disease	MESH:D003072
+35173707	878	880	AD	Disease	MESH:D000544
+35173707	963	966	tau	Gene	4137
+35173707	1015	1022	atrophy	Disease	MESH:D001284
+35173707	1040	1047	atrophy	Disease	MESH:D001284
+35173707	1049	1078	white matter hyperintensities	Disease	MESH:D056784
+35173707	1146	1148	AD	Disease	MESH:D000544
+35173707	1475	1483	diabetes	Disease	MESH:D003920
+35173707	1686	1708	short chain fatty acid	Chemical	MESH:D005232
+35173707	1710	1714	SCFA	Chemical	MESH:D005232
+35173707	1755	1775	[Clostridium] leptum	Species	1535
+35173707	1799	1823	[Eubacterium] ventriosum	Species	39496
+35173707	1858	1876	Marvinbryantia spp	Species	
+35173707	1879	1889	Monoglobus	Species	2039302
+35173707	1897	1909	Ruminococcus	Species	1263
+35173707	1931	1948	Roseburia hominis	Species	301301
+35173707	1974	1981	R-7 spp	Species	
+35173707	2110	2131	Lachnoclostridium spp	Species	
+35173707	2134	2151	Roseburia hominis	Species	301301
+35173707	2156	2177	Bilophila wadsworthia	Species	35833
+35173707	2369	2373	SCFA	Chemical	MESH:D005232
+35173707	2385	2387	AD	Disease	MESH:D000544
+35173707	2439	2443	SCFA	Chemical	MESH:D005232
+35173707	Association	MESH:D000544	4137
+35173707	Association	MESH:D005232	MESH:D003072
+35173707	Association	MESH:D005232	MESH:D000544
+

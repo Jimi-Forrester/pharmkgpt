@@ -1,0 +1,21 @@
+37555147|t|Using transfer learning for automated microbleed segmentation.
+37555147|a|Introduction: Cerebral microbleeds are small perivascular hemorrhages that can occur in both gray and white matter brain regions. Microbleeds are a marker of cerebrovascular pathology and are associated with an increased risk of cognitive decline and dementia. Microbleeds can be identified and manually segmented by expert radiologists and neurologists, usually from susceptibility-contrast MRI. The latter is hard to harmonize across scanners, while manual segmentation is laborious, time-consuming, and subject to interrater and intrarater variability. Automated techniques so far have shown high accuracy at a neighborhood ("patch") level at the expense of a high number of false positive voxel-wise lesions. We aimed to develop an automated, more precise microbleed segmentation tool that can use standardizable MRI contrasts. Methods: We first trained a ResNet50 network on another MRI segmentation task (cerebrospinal fluid vs. background segmentation) using T1-weighted, T2-weighted, and T2* MRIs. We then used transfer learning to train the network for the detection of microbleeds with the same contrasts. As a final step, we employed a combination of morphological operators and rules at the local lesion level to remove false positives. Manual segmentation of microbleeds from 78 participants was used to train and validate the system. We assessed the impact of patch size, freezing weights of the initial layers, mini-batch size, learning rate, and data augmentation on the performance of the Microbleed ResNet50 network. Results: The proposed method achieved high performance, with a patch-level sensitivity, specificity, and accuracy of 99.57, 99.16, and 99.93%, respectively. At a per lesion level, sensitivity, precision, and Dice similarity index values were 89.1, 20.1, and 0.28% for cortical GM; 100, 100, and 1.0% for deep GM; and 91.1, 44.3, and 0.58% for WM, respectively. Discussion: The proposed microbleed segmentation method is more suitable for the automated detection of microbleeds with high sensitivity.
+37555147	38	48	microbleed	Disease	
+37555147	77	97	Cerebral microbleeds	Disease	MESH:D002547
+37555147	121	132	hemorrhages	Disease	MESH:D006470
+37555147	193	204	Microbleeds	Disease	
+37555147	221	246	cerebrovascular pathology	Disease	MESH:D002561
+37555147	292	309	cognitive decline	Disease	MESH:D003072
+37555147	314	322	dementia	Disease	MESH:D003704
+37555147	324	335	Microbleeds	Disease	
+37555147	767	774	lesions	Disease	MESH:D009059
+37555147	823	833	microbleed	Disease	
+37555147	1142	1153	microbleeds	Disease	
+37555147	1335	1346	microbleeds	Disease	
+37555147	1569	1579	Microbleed	Disease	
+37555147	1875	1877	GM	Disease	MESH:C562602
+37555147	1907	1909	GM	Disease	MESH:C562602
+37555147	1941	1943	WM	Disease	
+37555147	1984	1994	microbleed	Disease	
+37555147	2063	2074	microbleeds	Disease	
+

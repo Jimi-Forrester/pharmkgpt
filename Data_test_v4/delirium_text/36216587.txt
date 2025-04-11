@@ -1,0 +1,8 @@
+36216587|t|Sequences of Events from the Electronic Medical Record and the Onset of Infection.
+36216587|a|We present a novel model of time-series analysis to learn from electronic health record (EHR) data when infection occurred in the intensive care unit (ICU) by translating methods from proteomics and Bayesian statistics. Using 48,536 patients hospitalized in an ICU, we describe each hospital course as an 'alphabet' of 23 physician actions ('events') in temporal order. We analyze these as k-mers of length 3-12 events and apply a Bayesian model of (cumulative) relative risk (RR). The log2-transformed RR (median=0.248, mean=0.226) supported the conclusion that the events selected were individually associated with increased risk of infection. Selecting from all possible cutoffs of maximum gain (MG), MG>0.0244 predicts administration of antibiotics with PPV 82.0 %, NPV 44.4 %, and AUC 0.706. Our approach holds value for retrospective analysis of other clinical syndromes for which time-of-onset is critical to analysis but poorly marked in EHRs, including delirium and decompensation.
+36216587	72	81	Infection	Disease	MESH:D007239
+36216587	187	196	infection	Disease	MESH:D007239
+36216587	316	324	patients	Species	9606
+36216587	718	727	infection	Disease	MESH:D007239
+36216587	1045	1053	delirium	Disease	MESH:D003693
+

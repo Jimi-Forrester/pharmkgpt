@@ -1,0 +1,22 @@
+34719488|t|PET Imaging of Tau Pathology and Amyloid-beta, and MRI for Alzheimer's Disease Feature Fusion and Multimodal Classification.
+34719488|a|BACKGROUND: Machine learning is a promising tool for biomarker-based diagnosis of Alzheimer's disease (AD). Performing multimodal feature selection and studying the interaction between biological and clinical AD can help to improve the performance of the diagnosis models. OBJECTIVE: This study aims to formulate a feature ranking metric based on the mutual information index to assess the relevance and redundancy of regional biomarkers and improve the AD classification accuracy. METHODS: From the Alzheimer's Disease Neuroimaging Initiative (ADNI), 722 participants with three modalities, including florbetapir-PET, flortaucipir-PET, and MRI, were studied. The multivariate mutual information metric was utilized to capture the redundancy and complementarity of the predictors and develop a feature ranking approach. This was followed by evaluating the capability of single-modal and multimodal biomarkers in predicting the cognitive stage. RESULTS: Although amyloid-beta deposition is an earlier event in the disease trajectory, tau PET with feature selection yielded a higher early-stage classification F1-score (65.4%) compared to amyloid-beta PET (63.3%) and MRI (63.2%). The SVC multimodal scenario with feature selection improved the F1-score to 70.0% and 71.8% for the early and late-stage, respectively. When age and risk factors were included, the scores improved by 2 to 4%. The Amyloid-Tau-Neurodegeneration [AT(N)] framework helped to interpret the classification results for different biomarker categories. CONCLUSION: The results underscore the utility of a novel feature selection approach to reduce the dimensionality of multimodal datasets and enhance model performance. The AT(N) biomarker framework can help to explore the misclassified cases by revealing the relationship between neuropathological biomarkers and cognition.
+34719488	15	18	Tau	Gene	4137
+34719488	33	45	Amyloid-beta	Gene	351
+34719488	59	78	Alzheimer's Disease	Disease	MESH:D000544
+34719488	207	226	Alzheimer's disease	Disease	MESH:D000544
+34719488	228	230	AD	Disease	MESH:D000544
+34719488	334	336	AD	Disease	MESH:D000544
+34719488	579	581	AD	Disease	MESH:D000544
+34719488	625	644	Alzheimer's Disease	Disease	MESH:D000544
+34719488	727	738	florbetapir	Chemical	MESH:C545186
+34719488	744	756	flortaucipir	Chemical	MESH:C000591008
+34719488	1087	1099	amyloid-beta	Gene	351
+34719488	1158	1161	tau	Gene	4137
+34719488	1262	1274	amyloid-beta	Gene	351
+34719488	1308	1311	SVC	Disease	MESH:D013479
+34719488	1517	1546	Amyloid-Tau-Neurodegeneration	Disease	MESH:C536599
+34719488	Association	MESH:C545186	MESH:D000544
+34719488	Association	MESH:D000544	351
+34719488	Association	MESH:D013479	4137
+34719488	Association	MESH:D000544	4137
+

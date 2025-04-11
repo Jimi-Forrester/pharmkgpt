@@ -1,0 +1,31 @@
+20542124|t|Automatic classification of patients with Alzheimer's disease from structural MRI: a comparison of ten methods using the ADNI database.
+20542124|a|Recently, several high dimensional classification methods have been proposed to automatically discriminate between patients with Alzheimer's disease (AD) or mild cognitive impairment (MCI) and elderly controls (CN) based on T1-weighted MRI. However, these methods were assessed on different populations, making it difficult to compare their performance. In this paper, we evaluated the performance of ten approaches (five voxel-based methods, three methods based on cortical thickness and two methods based on the hippocampus) using 509 subjects from the ADNI database. Three classification experiments were performed: CN vs AD, CN vs MCIc (MCI who had converted to AD within 18 months, MCI converters - MCIc) and MCIc vs MCInc (MCI who had not converted to AD within 18 months, MCI non-converters - MCInc). Data from 81 CN, 67 MCInc, 39 MCIc and 69 AD were used for training and hyperparameters optimization. The remaining independent samples of 81 CN, 67 MCInc, 37 MCIc and 68 AD were used to obtain an unbiased estimate of the performance of the methods. For AD vs CN, whole-brain methods (voxel-based or cortical thickness-based) achieved high accuracies (up to 81% sensitivity and 95% specificity). For the detection of prodromal AD (CN vs MCIc), the sensitivity was substantially lower. For the prediction of conversion, no classifier obtained significantly better results than chance. We also compared the results obtained using the DARTEL registration to that using SPM5 unified segmentation. DARTEL significantly improved six out of 20 classification experiments and led to lower results in only two cases. Overall, the use of feature selection did not improve the performance but substantially increased the computation times.
+20542124	28	36	patients	Species	9606
+20542124	42	61	Alzheimer's disease	Disease	MESH:D000544
+20542124	251	259	patients	Species	9606
+20542124	265	284	Alzheimer's disease	Disease	MESH:D000544
+20542124	286	288	AD	Disease	MESH:D000544
+20542124	298	318	cognitive impairment	Disease	MESH:D003072
+20542124	320	323	MCI	Disease	MESH:D060825
+20542124	761	763	AD	Disease	MESH:D000544
+20542124	771	775	MCIc	Disease	
+20542124	777	780	MCI	Disease	MESH:D060825
+20542124	802	804	AD	Disease	MESH:D000544
+20542124	823	826	MCI	Disease	MESH:D060825
+20542124	840	844	MCIc	Disease	
+20542124	850	854	MCIc	Disease	
+20542124	858	863	MCInc	Disease	
+20542124	865	868	MCI	Disease	MESH:D060825
+20542124	894	896	AD	Disease	MESH:D000544
+20542124	915	918	MCI	Disease	MESH:D060825
+20542124	936	941	MCInc	Disease	
+20542124	964	969	MCInc	Disease	
+20542124	974	978	MCIc	Disease	
+20542124	986	988	AD	Disease	MESH:D000544
+20542124	1093	1098	MCInc	Disease	
+20542124	1103	1107	MCIc	Disease	
+20542124	1115	1117	AD	Disease	MESH:D000544
+20542124	1198	1200	AD	Disease	MESH:D000544
+20542124	1371	1373	AD	Disease	MESH:D000544
+20542124	1381	1385	MCIc	Disease	
+

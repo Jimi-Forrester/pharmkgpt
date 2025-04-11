@@ -1,0 +1,33 @@
+39850621|t|Prediction of delirium occurrence using machine learning in acute stroke patients in intensive care unit.
+39850621|a|Introduction: Delirium, frequently experienced by ischemic stroke patients, is one of the most common neuropsychiatric syndromes reported in the Intensive Care Unit (ICU). Stroke patients with delirium have a high mortality rate and lengthy hospitalization. For these reasons, early diagnosis of delirium in the ICU is critical for better patient prognosis. Therefore, we developed and validated prediction models to classify the real-time delirium status in patients admitted to the ICU or Stroke Unit (SU) with ischemic stroke. Methods: A total of 84 delirium patients and 336 non-delirium patients in the ICU of Ajou University Hospital were included. The 8 fixed features [Age, Sex, Alcohol Intake, National Institute of Health Stroke Scale (NIHSS), HbA1c, Prothrombin time, D-dimer, and Hemoglobin] identified at admission and 12 dynamic features [Mean or Variability indexes calculated from Body Temperature (BT), Heart Rate (HR), Respiratory Rate (RR), Oxygen saturation (SpO2), Systolic Blood Pressure (SBP), and Diastolic Blood Pressure (DBP)] based on vital signs were used for developing prediction models using the ensemble method. Results: The Area Under the Receiver Operating Characteristic curve (AUROC) for delirium-state classification was 0.80. In simulation-based evaluation, AUROC was 0.71, and the predicted probability increased closer to the time of delirium occurrence. We observed that the patterns of dynamic features, including BT, SpO2, RR, and Heart Rate Variability (HRV) kept changing as the time points were getting closer to the delirium occurrence time. Therefore, the model that employed these patterns showed increasing prediction performance. Conclusion: Our model can predict the real-time possibility of delirium in patients with ischemic stroke and will be helpful to monitor high-risk patients.
+39850621	14	22	delirium	Disease	MESH:D003693
+39850621	60	72	acute stroke	Disease	MESH:D020521
+39850621	73	81	patients	Species	9606
+39850621	120	128	Delirium	Disease	MESH:D003693
+39850621	156	171	ischemic stroke	Disease	MESH:D002544
+39850621	172	180	patients	Species	9606
+39850621	208	234	neuropsychiatric syndromes	Disease	MESH:C000631768
+39850621	278	284	Stroke	Disease	MESH:D020521
+39850621	285	293	patients	Species	9606
+39850621	299	307	delirium	Disease	MESH:D003693
+39850621	402	410	delirium	Disease	MESH:D003693
+39850621	445	452	patient	Species	9606
+39850621	546	554	delirium	Disease	MESH:D003693
+39850621	565	573	patients	Species	9606
+39850621	597	603	Stroke	Disease	MESH:D020521
+39850621	619	634	ischemic stroke	Disease	MESH:D002544
+39850621	659	667	delirium	Disease	MESH:D003693
+39850621	668	676	patients	Species	9606
+39850621	689	697	delirium	Disease	MESH:D003693
+39850621	698	706	patients	Species	9606
+39850621	793	800	Alcohol	Chemical	MESH:D000438
+39850621	838	844	Stroke	Disease	MESH:D020521
+39850621	1066	1072	Oxygen	Chemical	MESH:D010100
+39850621	1330	1338	delirium	Disease	MESH:D003693
+39850621	1480	1488	delirium	Disease	MESH:D003693
+39850621	1669	1677	delirium	Disease	MESH:D003693
+39850621	1850	1858	delirium	Disease	MESH:D003693
+39850621	1862	1870	patients	Species	9606
+39850621	1876	1891	ischemic stroke	Disease	MESH:D002544
+39850621	1933	1941	patients	Species	9606
+

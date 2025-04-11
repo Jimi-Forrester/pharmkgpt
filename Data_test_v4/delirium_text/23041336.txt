@@ -1,0 +1,17 @@
+23041336|t|Random forest-based similarity measures for multi-modal classification of Alzheimer's disease.
+23041336|a|Neurodegenerative disorders, such as Alzheimer's disease, are associated with changes in multiple neuroimaging and biological measures. These may provide complementary information for diagnosis and prognosis. We present a multi-modality classification framework in which manifolds are constructed based on pairwise similarity measures derived from random forest classifiers. Similarities from multiple modalities are combined to generate an embedding that simultaneously encodes information about all the available features. Multi-modality classification is then performed using coordinates from this joint embedding. We evaluate the proposed framework by application to neuroimaging and biological data from the Alzheimer's Disease Neuroimaging Initiative (ADNI). Features include regional MRI volumes, voxel-based FDG-PET signal intensities, CSF biomarker measures, and categorical genetic information. Classification based on the joint embedding constructed using information from all four modalities out-performs the classification based on any individual modality for comparisons between Alzheimer's disease patients and healthy controls, as well as between mild cognitive impairment patients and healthy controls. Based on the joint embedding, we achieve classification accuracies of 89% between Alzheimer's disease patients and healthy controls, and 75% between mild cognitive impairment patients and healthy controls. These results are comparable with those reported in other recent studies using multi-kernel learning. Random forests provide consistent pairwise similarity measures for multiple modalities, thus facilitating the combination of different types of feature data. We demonstrate this by application to data in which the number of features differs by several orders of magnitude between modalities. Random forest classifiers extend naturally to multi-class problems, and the framework described here could be applied to distinguish between multiple patient groups in the future.
+23041336	74	93	Alzheimer's disease	Disease	MESH:D000544
+23041336	95	122	Neurodegenerative disorders	Disease	MESH:D019636
+23041336	132	151	Alzheimer's disease	Disease	MESH:D000544
+23041336	808	827	Alzheimer's Disease	Disease	MESH:D000544
+23041336	911	914	FDG	Chemical	MESH:D019788
+23041336	1188	1207	Alzheimer's disease	Disease	MESH:D000544
+23041336	1208	1216	patients	Species	9606
+23041336	1263	1283	cognitive impairment	Disease	MESH:D003072
+23041336	1284	1292	patients	Species	9606
+23041336	1397	1416	Alzheimer's disease	Disease	MESH:D000544
+23041336	1417	1425	patients	Species	9606
+23041336	1469	1489	cognitive impairment	Disease	MESH:D003072
+23041336	1490	1498	patients	Species	9606
+23041336	2065	2072	patient	Species	9606
+

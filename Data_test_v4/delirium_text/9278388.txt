@@ -1,0 +1,44 @@
+9278388|t|Nerve growth factor-independent reduction in choline acetyltransferase activity in PC12 cells expressing mutant presenilin-1.
+9278388|a|Mutations in the presenilin genes (PS-1 and PS-2) are linked to early onset familial Alzheimer's disease (AD), but the mechanisms by which these mutations cause the cognitive impairment characteristic of AD are unknown. Basal forebrain cholinergic neurons are involved in learning and memory processes, and reductions in choline acetyl-transferase (ChAT) activity are a characteristic feature of AD brain. We therefore hypothesized that presenilin mutations suppress expression of the cholinergic phenotype. In rat PC12 cells stably transfected with the human PS-1 gene containing the Leu --> Val mutation at codon 286 (L286V), we observed a drastic reduction (>90%) in basal ChAT activity compared with cells transfected with vector alone. By immunocytochemistry, a similar decrease in ChAT protein levels was found in the mutant transfectants. In cells differentiated with nerve growth factor, ChAT activity was again markedly lower in L286V-expressing cells than in control cells. We also observed reductions in ChAT activity in PC12 cells expressing the wild-type human PS-1 gene but to a lesser extent than in L286V-expressing cells. The viability of cells transfected with either the wild-type or the mutant PS-1 gene was not compromised. Our results suggest that PS-1 mutations may contribute to the cognitive impairment in AD by causing a nontoxic suppression of the cholinergic phenotype.
+9278388	0	19	Nerve growth factor	Gene	310738
+9278388	45	70	choline acetyltransferase	Gene	290567
+9278388	83	87	PC12	CellLine	CVCL:0481
+9278388	112	124	presenilin-1	Gene	29192
+9278388	161	165	PS-1	Gene	5663
+9278388	170	174	PS-2	Gene	5664
+9278388	211	230	Alzheimer's disease	Disease	MESH:D000544
+9278388	232	234	AD	Disease	MESH:D000544
+9278388	291	311	cognitive impairment	Disease	MESH:D003072
+9278388	330	332	AD	Disease	MESH:D000544
+9278388	447	473	choline acetyl-transferase	Gene	290567
+9278388	475	479	ChAT	Gene	290567
+9278388	522	524	AD	Disease	MESH:D000544
+9278388	637	640	rat	Species	10116
+9278388	641	645	PC12	CellLine	CVCL:0481
+9278388	680	685	human	Species	9606
+9278388	686	690	PS-1	Gene	5663
+9278388	711	744	Leu --> Val mutation at codon 286	ProteinMutation	tmVar:p|SUB|L|286|V;HGVS:p.L286V;VariantGroup:0;CorrespondingGene:5663;RS#:63751235;CorrespondingSpecies:9606;CA#:225141
+9278388	746	751	L286V	ProteinMutation	tmVar:p|SUB|L|286|V;HGVS:p.L286V;VariantGroup:0;CorrespondingGene:5663;RS#:63751235;CorrespondingSpecies:9606;CA#:225141
+9278388	802	806	ChAT	Gene	290567
+9278388	913	917	ChAT	Gene	290567
+9278388	1001	1020	nerve growth factor	Gene	310738
+9278388	1022	1026	ChAT	Gene	290567
+9278388	1064	1069	L286V	ProteinMutation	tmVar:p|SUB|L|286|V;HGVS:p.L286V;VariantGroup:0;CorrespondingGene:5663;RS#:63751235;CorrespondingSpecies:9606;CA#:225141
+9278388	1141	1145	ChAT	Gene	290567
+9278388	1158	1162	PC12	CellLine	CVCL:0481
+9278388	1194	1199	human	Species	9606
+9278388	1200	1204	PS-1	Gene	5663
+9278388	1241	1246	L286V	ProteinMutation	tmVar:p|SUB|L|286|V;HGVS:p.L286V;VariantGroup:0;CorrespondingGene:5663;RS#:63751235;CorrespondingSpecies:9606;CA#:225141
+9278388	1340	1344	PS-1	Gene	5663
+9278388	1396	1400	PS-1	Gene	5663
+9278388	1433	1453	cognitive impairment	Disease	MESH:D003072
+9278388	1457	1459	AD	Disease	MESH:D000544
+9278388	Association	MESH:D003072	5663
+9278388	Negative_Correlation	290567	310738
+9278388	Positive_Correlation	MESH:D003072	RS#:63751235;HGVS:p.L286V;CorrespondingGene:5663
+9278388	Association	MESH:D000544	5663
+9278388	Negative_Correlation	290567	5663
+9278388	Negative_Correlation	MESH:D000544	290567
+9278388	Association	MESH:D000544	5664
+9278388	Association	MESH:D003072	5663
+

@@ -1,0 +1,9 @@
+30604048|t|Cortical Signal Suppression (CSS) for Detection of Subcortical Activity Using MEG and EEG.
+30604048|a|Magnetoencephalography (MEG) and electroencephalography (EEG) use non-invasive sensors to detect neural currents. Since the contribution of superficial neural sources to the measured M/EEG signals are orders-of-magnitude stronger than the contribution of subcortical sources, most MEG and EEG studies have focused on cortical activity. Subcortical structures, however, are centrally involved in both healthy brain function as well as in many neurological disorders such as Alzheimer's disease and Parkinson's disease. In this paper, we present a method that can separate and suppress the cortical signals while preserving the subcortical contributions to the M/EEG data. The resulting signal subspace of the data mainly originates from subcortical structures. Our method works by utilizing short-baseline planar gradiometers with short-sighted sensitivity distributions as reference sensors for cortical activity. Since the method is completely data-driven, forward and inverse modeling are not required. In this study, we use simulations and auditory steady state response experiments in a human subject to demonstrate that the method can remove the cortical signals while sparing the subcortical signals. We also test our method on MEG data recorded in an essential tremor patient with a deep brain stimulation implant and show how it can be used to reduce the DBS artifact in the MEG data by ~ 99.9% without affecting low frequency brain rhythms.
+30604048	533	555	neurological disorders	Disease	MESH:D009461
+30604048	564	583	Alzheimer's disease	Disease	MESH:D000544
+30604048	588	607	Parkinson's disease	Disease	MESH:D010300
+30604048	1182	1187	human	Species	9606
+30604048	1349	1365	essential tremor	Disease	MESH:D020329
+30604048	1366	1373	patient	Species	9606
+

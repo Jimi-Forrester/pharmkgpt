@@ -1,0 +1,12 @@
+39282456|t|A Deep Dive into Statistical Modeling of RNA Splicing QTLs Reveals New Variants that Explain Neurodegenerative Disease.
+39282456|a|Genome-wide association studies (GWAS) have identified thousands of putative disease causing variants with unknown regulatory effects. Efforts to connect these variants with splicing quantitative trait loci (sQTLs) have provided functional insights, yet sQTLs reported by existing methods cannot explain many GWAS signals. We show current sQTL modeling approaches can be improved by considering alternative splicing representation, model calibration, and covariate integration. We then introduce MAJIQTL, a new pipeline for sQTL discovery. MAJIQTL includes two new statistical methods: a weighted multiple testing approach for sGene discovery and a model for sQTL effect size inference to improve variant prioritization. By applying MAJIQTL to GTEx, we find significantly more sGenes harboring sQTLs with functional significance. Notably, our analysis implicates the novel variant rs582283 in Alzheimer's disease. Using antisense oligonucleotides, we validate this variant's effect by blocking the implicated YBX3 binding site, leading to exon skipping in the gene MS4A3.
+39282456	93	118	Neurodegenerative Disease	Disease	MESH:D019636
+39282456	1001	1009	rs582283	SNP	tmVar:rs582283;VariantGroup:0;CorrespondingGene:729732;RS#:582283;CorrespondingSpecies:9606
+39282456	1013	1032	Alzheimer's disease	Disease	MESH:D000544
+39282456	1129	1133	YBX3	Gene	8531
+39282456	1185	1190	MS4A3	Gene	932
+39282456	Association	MESH:D000544	8531
+39282456	Positive_Correlation	MESH:D000544	RS#:582283;CorrespondingGene:729732
+39282456	Association	8531	932
+39282456	Association	MESH:D000544	729732
+

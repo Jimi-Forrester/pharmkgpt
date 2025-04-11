@@ -1,0 +1,24 @@
+37986841|t|Comparing a pre-defined versus deep learning approach for extracting brain atrophy patterns to predict cognitive decline due to Alzheimer's disease in patients with mild cognitive symptoms.
+37986841|a|Background : Predicting future Alzheimer's disease (AD)-related cognitive decline among individuals with subjective cognitive decline (SCD) or mild cognitive impairment (MCI) is an important task for healthcare. Structural brain imaging as measured by magnetic resonance imaging (MRI) could potentially contribute when making such predictions. It is unclear if the predictive performance of MRI can be improved using entire brain images in deep learning (DL) models compared to using pre-defined brain regions. Methods: A cohort of 332 individuals with SCD/MCI were included from the Swedish BioFINDER-1 study. The goal was to predict longitudinal SCD/MCI-to-AD dementia progression and change in Mini-Mental State Examination (MMSE) over four years. Four models were evaluated using different predictors: 1) clinical data only, including demographics, cognitive tests and APOE e4 status, 2) clinical data plus hippocampal volume, 3) clinical data plus all regional MRI gray matter volumes (N=68) extracted using FreeSurfer software, 4) a DL model trained using multi-task learning with MRI images, Jacobian determinant images and baseline cognition as input. Models were developed on 80% of subjects (N=267) and tested on the remaining 20% (N=65). Mann-Whitney U-test was used to determine statistically significant differences in performance, with p-values less than 0.05 considered significant. Results: In the test set, 21 patients (32.3%) progressed to AD dementia. The performance of the clinical data model for prediction of progression to AD dementia was area under the curve (AUC)=0.87 and four-year cognitive decline was R 2 =0.17. The performance was significantly improved for both outcomes when adding hippocampal volume (AUC=0.91, R 2 =0.26, p-values <0.05) or FreeSurfer brain regions (AUC=0.90, R 2 =0.27, p-values <0.05). Conversely, the DL model did not show any significant difference from the clinical data model (AUC=0.86, R 2 =0.13). A sensitivity analysis showed that the Jacobian determinant image was more informative than the MRI image, but that performance was maximized when both were included. Conclusions: The DL model did not significantly improve the prediction of clinical disease progression in AD, compared to regression models with a single pre-defined brain region.
+37986841	69	82	brain atrophy	Disease	MESH:C566985
+37986841	103	120	cognitive decline	Disease	MESH:D003072
+37986841	128	147	Alzheimer's disease	Disease	MESH:D000544
+37986841	170	188	cognitive symptoms	Disease	MESH:D019954
+37986841	221	240	Alzheimer's disease	Disease	MESH:D000544
+37986841	242	244	AD	Disease	MESH:D000544
+37986841	254	271	cognitive decline	Disease	MESH:D003072
+37986841	306	323	cognitive decline	Disease	MESH:D003072
+37986841	325	328	SCD	Disease	MESH:D003072
+37986841	338	358	cognitive impairment	Disease	MESH:D003072
+37986841	360	363	MCI	Disease	MESH:D060825
+37986841	743	746	SCD	Disease	MESH:D003072
+37986841	747	750	MCI	Disease	MESH:D060825
+37986841	838	841	SCD	Disease	MESH:D003072
+37986841	842	845	MCI	Disease	MESH:D060825
+37986841	849	860	AD dementia	Disease	MESH:D000544
+37986841	1063	1067	APOE	Gene	348
+37986841	1648	1659	AD dementia	Disease	MESH:D000544
+37986841	1737	1748	AD dementia	Disease	MESH:D000544
+37986841	1799	1816	cognitive decline	Disease	MESH:D003072
+37986841	2419	2421	AD	Disease	MESH:D000544
+

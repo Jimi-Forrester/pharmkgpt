@@ -1,0 +1,18 @@
+39901050|t|Predicting the hub interactome of COVID-19 and oral squamous cell carcinoma: uncovering ALDH-mediated Wnt/beta-catenin pathway activation via salivary inflammatory proteins.
+39901050|a|Understanding shared pathways and mechanisms involved in the pathogenesis of diseases like oral squamous cell carcinoma (OSCC) and COVID-19 could lead to the development of novel therapeutic strategies and diagnostic biomarkers. This study aims to predict the interactome of OSCC and COVID-19 based on salivary inflammatory proteins. Datasets for OSCC and COVID-19 were obtained from https://www.salivaryproteome.org/differential-expression and selected for differential gene expression analysis. Differential gene expression analysis was performed using log transformation and a fold change of two. Hub proteins were identified using Cytoscape and Cytohubba, and machine learning algorithms including naive Bayes, neural networks, gradient boosting, and random forest were used to predict hub genes. Top hub genes identified included ALDH1A1, MT-CO2, SERPINC1, FGB, and TF. The random forest model achieved the highest accuracy (93%) and class accuracy (84%). The naive Bayes model had lower accuracy (63%) and class accuracy (66%), while the neural network model showed 55% accuracy and class accuracy, possibly due to data pre-processing issues. The gradient boosting model outperformed all models with an accuracy of 95% and class accuracy of 95%. Salivary proteomic interactome analysis revealed novel hub proteins as potential common biomarkers.
+39901050	34	42	COVID-19	Disease	MESH:D000086382
+39901050	47	75	oral squamous cell carcinoma	Disease	MESH:D000077195
+39901050	106	118	beta-catenin	Gene	1499
+39901050	265	293	oral squamous cell carcinoma	Disease	MESH:D000077195
+39901050	295	299	OSCC	Disease	MESH:D000077195
+39901050	305	313	COVID-19	Disease	MESH:D000086382
+39901050	449	453	OSCC	Disease	MESH:D000077195
+39901050	458	466	COVID-19	Disease	MESH:D000086382
+39901050	521	525	OSCC	Disease	MESH:D000077195
+39901050	530	538	COVID-19	Disease	MESH:D000086382
+39901050	1009	1016	ALDH1A1	Gene	216
+39901050	1018	1024	MT-CO2	Gene	4513
+39901050	1026	1034	SERPINC1	Gene	462
+39901050	1036	1039	FGB	Gene	2244
+39901050	1045	1047	TF	Gene	2152
+

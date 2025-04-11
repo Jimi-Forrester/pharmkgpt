@@ -1,0 +1,23 @@
+33596259|t|Targeting oncogenic mutations in colorectal cancer using cryptotanshinone.
+33596259|a|Colorectal cancer (CRC) is one of the most prevalent types of cancer in the world and ranks second in cancer deaths in the US. Despite the recent improvements in screening and treatment, the number of deaths associated with CRC is still very significant. The complexities involved in CRC therapy stem from multiple oncogenic mutations and crosstalk between abnormal pathways. This calls for using advanced molecular genetics to understand the underlying pathway interactions responsible for this cancer. In this paper, we construct the CRC pathway from the literature and using an existing public dataset on healthy vs tumor colon cells, we identify the genes and pathways that are mutated and are possibly responsible for the disease progression. We then introduce drugs in the CRC pathway, and using a boolean modeling technique, we deduce the drug combinations that produce maximum cell death. Our theoretical simulations demonstrate the effectiveness of Cryptotanshinone, a traditional Chinese herb derivative, achieved by targeting critical oncogenic mutations and enhancing cell death. Finally, we validate our theoretical results using wet lab experiments on HT29 and HCT116 human colorectal carcinoma cell lines.
+33596259	33	50	colorectal cancer	Disease	MESH:D015179
+33596259	57	73	cryptotanshinone	Chemical	MESH:C037886
+33596259	75	92	Colorectal cancer	Disease	MESH:D015179
+33596259	94	97	CRC	Disease	MESH:D015179
+33596259	137	143	cancer	Disease	MESH:D009369
+33596259	177	183	cancer	Disease	MESH:D009369
+33596259	184	190	deaths	Disease	MESH:D003643
+33596259	276	282	deaths	Disease	MESH:D003643
+33596259	299	302	CRC	Disease	MESH:D015179
+33596259	359	362	CRC	Disease	MESH:D015179
+33596259	571	577	cancer	Disease	MESH:D009369
+33596259	611	614	CRC	Disease	MESH:D015179
+33596259	694	699	tumor	Disease	MESH:D009369
+33596259	854	857	CRC	Disease	MESH:D015179
+33596259	1033	1049	Cryptotanshinone	Chemical	MESH:C037886
+33596259	1241	1245	HT29	CellLine	CVCL:0320
+33596259	1250	1256	HCT116	CellLine	CVCL:0291
+33596259	1257	1262	human	Species	9606
+33596259	1263	1283	colorectal carcinoma	Disease	MESH:D015179
+33596259	Negative_Correlation	MESH:C037886	MESH:D015179
+

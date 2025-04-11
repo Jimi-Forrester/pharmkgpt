@@ -1,0 +1,27 @@
+33453392|t|Bisindolylmaleimide IX: A novel anti-SARS-CoV2 agent targeting viral main protease 3CLpro demonstrated by virtual screening pipeline and in-vitro validation assays.
+33453392|a|SARS-CoV-2, the virus that causes COVID-19 consists of several enzymes with essential functions within its proteome. Here, we focused on repurposing approved and investigational drugs/compounds. We targeted seven proteins with enzymatic activities known to be essential at different stages of the viral cycle including PLpro, 3CLpro, RdRP, Helicase, ExoN, NendoU, and 2'-O-MT. For virtual screening, energy minimization of a crystal structure of the modeled protein was carried out using the Protein Preparation Wizard (Schrodinger LLC 2020-1). Following active site selection based on data mining and COACH predictions, we performed a high-throughput virtual screen of drugs and investigational molecules (n = 5903). The screening was performed against viral targets using three sequential docking modes (i.e., HTVS, SP, and XP). Virtual screening identified ~290 potential inhibitors based on the criteria of energy, docking parameters, ligand, and binding site strain and score. Drugs specific to each target protein were further analyzed for binding free energy perturbation by molecular mechanics (prime MM-GBSA) and pruning the hits to the top 32 candidates. The top lead from each target pool was further subjected to molecular dynamics simulation using the Desmond module. The resulting top eight hits were tested for their SARS-CoV-2 anti-viral activity in-vitro. Among these, a known inhibitor of protein kinase C isoforms, Bisindolylmaleimide IX (BIM IX), was found to be a potent inhibitor of SARS-CoV-2. Further, target validation through enzymatic assays confirmed 3CLpro to be the target. This is the first study that has showcased BIM IX as a COVID-19 inhibitor thereby validating our pipeline.
+33453392	0	22	Bisindolylmaleimide IX	Chemical	MESH:C467001
+33453392	37	46	SARS-CoV2	Disease	MESH:D045169
+33453392	83	89	3CLpro	Gene	43740578
+33453392	165	175	SARS-CoV-2	Species	2697049
+33453392	199	207	COVID-19	Disease	MESH:D000086382
+33453392	484	489	PLpro	Gene	43740578
+33453392	491	497	3CLpro	Gene	43740578
+33453392	499	503	RdRP	Gene	43740578
+33453392	505	513	Helicase	Gene	164045
+33453392	515	519	ExoN	Gene	
+33453392	521	527	NendoU	Gene	
+33453392	533	540	2'-O-MT	Gene	
+33453392	1497	1507	SARS-CoV-2	Disease	MESH:D000086382
+33453392	1572	1588	protein kinase C	Gene	
+33453392	1599	1621	Bisindolylmaleimide IX	Chemical	MESH:C467001
+33453392	1623	1629	BIM IX	Chemical	MESH:C467001
+33453392	1670	1680	SARS-CoV-2	Species	2697049
+33453392	1744	1750	3CLpro	Gene	43740578
+33453392	1812	1818	BIM IX	Chemical	MESH:C467001
+33453392	1824	1832	COVID-19	Disease	MESH:D000086382
+33453392	Negative_Correlation	MESH:C467001	MESH:D045169
+33453392	Negative_Correlation	MESH:C467001	MESH:D000086382
+33453392	Association	MESH:D045169	43740578
+33453392	Negative_Correlation	MESH:C467001	43740578
+

@@ -1,0 +1,30 @@
+32013938|t|Limited utility of qPCR-based detection of tumor-specific circulating mRNAs in whole blood from clear cell renal cell carcinoma patients.
+32013938|a|BACKGROUND: RNA sequencing data is providing abundant information about the levels of dysregulation of genes in various tumors. These data, as well as data based on older microarray technologies have enabled the identification of many genes which are upregulated in clear cell renal cell carcinoma (ccRCC) compared to matched normal tissue. Here we use RNA sequencing data in order to construct a panel of highly overexpressed genes in ccRCC so as to evaluate their RNA levels in whole blood and determine any diagnostic potential of these levels for renal cell carcinoma patients. METHODS: A bioinformatics analysis with Python was performed using TCGA, GEO and other databases to identify genes which are upregulated in ccRCC while being absent in the blood of healthy individuals. Quantitative Real Time PCR (RT-qPCR) was subsequently used to measure the levels of candidate genes in whole blood (PAX gene) of 16 ccRCC patients versus 11 healthy individuals. PCR results were processed in qBase and GraphPadPrism and statistics was done with Mann-Whitney U test. RESULTS: While most analyzed genes were either undetectable or did not show any dysregulated expression, two genes, CDK18 and CCND1, were paradoxically downregulated in the blood of ccRCC patients compared to healthy controls. Furthermore, LOX showed a tendency towards upregulation in metastatic ccRCC samples compared to non-metastatic. CONCLUSIONS: This analysis illustrates the difficulty of detecting tumor regulated genes in blood and the possible influence of interference from expression in blood cells even for genes conditionally absent in normal blood. Testing in plasma samples indicated that tumor specific mRNAs were not detectable. While CDK18, CCND1 and LOX mRNAs might carry biomarker potential, this would require validation in an independent, larger patient cohort.
+32013938	43	48	tumor	Disease	MESH:D009369
+32013938	96	127	clear cell renal cell carcinoma	Disease	MESH:D002292
+32013938	128	136	patients	Species	9606
+32013938	258	264	tumors	Disease	MESH:D009369
+32013938	404	435	clear cell renal cell carcinoma	Disease	MESH:D002292
+32013938	437	442	ccRCC	Disease	MESH:D002292
+32013938	574	579	ccRCC	Disease	MESH:D002292
+32013938	689	709	renal cell carcinoma	Disease	MESH:D002292
+32013938	710	718	patients	Species	9606
+32013938	860	865	ccRCC	Disease	MESH:D002292
+32013938	1054	1059	ccRCC	Disease	MESH:D002292
+32013938	1060	1068	patients	Species	9606
+32013938	1320	1325	CDK18	Gene	5129
+32013938	1330	1335	CCND1	Gene	595
+32013938	1386	1391	ccRCC	Disease	MESH:D002292
+32013938	1392	1400	patients	Species	9606
+32013938	1444	1447	LOX	Gene	4015
+32013938	1501	1506	ccRCC	Disease	MESH:D002292
+32013938	1610	1615	tumor	Disease	MESH:D009369
+32013938	1809	1814	tumor	Disease	MESH:D009369
+32013938	1857	1862	CDK18	Gene	5129
+32013938	1864	1869	CCND1	Gene	595
+32013938	1874	1877	LOX	Gene	4015
+32013938	1973	1980	patient	Species	9606
+32013938	Negative_Correlation	MESH:D002292	5129
+32013938	Association	MESH:D002292	4015
+32013938	Negative_Correlation	MESH:D002292	595
+

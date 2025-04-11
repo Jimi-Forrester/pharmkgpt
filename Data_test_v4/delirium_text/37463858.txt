@@ -1,0 +1,23 @@
+37463858|t|Using artificial intelligence to learn optimal regimen plan for Alzheimer's disease.
+37463858|a|BACKGROUND: Alzheimer's disease (AD) is a progressive neurological disorder with no specific curative medications. Sophisticated clinical skills are crucial to optimize treatment regimens given the multiple coexisting comorbidities in the patient population. OBJECTIVE: Here, we propose a study to leverage reinforcement learning (RL) to learn the clinicians' decisions for AD patients based on the longitude data from electronic health records. METHODS: In this study, we selected 1736 patients from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. We focused on the two most frequent concomitant diseases-depression, and hypertension, thus creating 5 data cohorts (ie, Whole Data, AD, AD-Hypertension, AD-Depression, and AD-Depression-Hypertension). We modeled the treatment learning into an RL problem by defining states, actions, and rewards. We built a regression model and decision tree to generate multiple states, used six combinations of medications (ie, cholinesterase inhibitors, memantine, memantine-cholinesterase inhibitors, hypertension drugs, supplements, or no drugs) as actions, and Mini-Mental State Exam (MMSE) scores as rewards. RESULTS: Given the proper dataset, the RL model can generate an optimal policy (regimen plan) that outperforms the clinician's treatment regimen. Optimal policies (ie, policy iteration and Q-learning) had lower rewards than the clinician's policy (mean -3.03 and -2.93 vs. -2.93, respectively) for smaller datasets but had higher rewards for larger datasets (mean -4.68 and -2.82 vs. -4.57, respectively). CONCLUSIONS: Our results highlight the potential of using RL to generate the optimal treatment based on the patients' longitude records. Our work can lead the path towards developing RL-based decision support systems that could help manage AD with comorbidities.
+37463858	64	83	Alzheimer's disease	Disease	MESH:D000544
+37463858	97	116	Alzheimer's disease	Disease	MESH:D000544
+37463858	118	120	AD	Disease	MESH:D000544
+37463858	139	160	neurological disorder	Disease	MESH:D009461
+37463858	459	461	AD	Disease	MESH:D000544
+37463858	590	609	Alzheimer's Disease	Disease	MESH:D000544
+37463858	708	718	depression	Disease	MESH:D003866
+37463858	724	736	hypertension	Disease	MESH:D006973
+37463858	784	786	AD	Disease	MESH:D000544
+37463858	788	790	AD	Disease	MESH:D000544
+37463858	791	803	Hypertension	Disease	MESH:D006973
+37463858	805	807	AD	Disease	MESH:D000544
+37463858	808	818	Depression	Disease	MESH:D003866
+37463858	824	826	AD	Disease	MESH:D000544
+37463858	827	837	Depression	Disease	MESH:D003866
+37463858	838	850	Hypertension	Disease	MESH:D006973
+37463858	1092	1101	memantine	Chemical	MESH:D008559
+37463858	1103	1112	memantine	Chemical	MESH:D008559
+37463858	1140	1152	hypertension	Disease	MESH:D006973
+37463858	1897	1899	AD	Disease	MESH:D000544
+

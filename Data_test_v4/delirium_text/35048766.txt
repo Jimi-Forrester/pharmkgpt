@@ -1,0 +1,15 @@
+35048766|t|Ligand-based discovery of new potential acetylcholinesterase inhibitors for Alzheimer's disease treatment.
+35048766|a|The enzyme acetylcholinesterase (AChE) is currently a therapeutic target for the treatment of neurodegenerative diseases. These diseases have highly variable causes but irreversible evolutions. Although the treatments are palliative, they help relieve symptoms and allow a better quality of life, so the search for new therapeutic alternatives is the focus of many scientists worldwide. In this study, a QSAR-SVM classification model was developed by using the MATLAB numerical computation system and the molecular descriptors implemented in the Dragon software. The obtained parameters are adequate with accuracy of 88.63% for training set, 81.13% for cross-validation experiment and 81.15% for prediction set. In addition, its application domain was determined to guarantee the reliability of the predictions. Finally, the model was used to predict AChE inhibition by a group of quinazolinones and benzothiadiazine 1,1-dioxides obtained by chemical synthesis, resulting in 14 drug candidates with in silico activity comparable to acetylcholine.
+35048766	40	60	acetylcholinesterase	Gene	43
+35048766	76	95	Alzheimer's disease	Disease	MESH:D000544
+35048766	118	138	acetylcholinesterase	Gene	43
+35048766	140	144	AChE	Gene	43
+35048766	201	227	neurodegenerative diseases	Disease	MESH:D019636
+35048766	958	962	AChE	Gene	43
+35048766	988	1002	quinazolinones	Chemical	MESH:D052999
+35048766	1007	1036	benzothiadiazine 1,1-dioxides	Chemical	-
+35048766	1139	1152	acetylcholine	Chemical	MESH:D000109
+35048766	Association	MESH:D019636	43
+35048766	Association	MESH:D000544	43
+35048766	Negative_Correlation	MESH:D052999	43
+

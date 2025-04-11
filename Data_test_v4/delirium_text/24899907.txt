@@ -1,0 +1,35 @@
+24899907|t|Ligand-based and structure-based investigation for Alzheimer's disease from traditional chinese medicine.
+24899907|a|Alzheimer's disease is a neurodegenerative disease that was conventionally thought to be related to the sedimentation of beta-amyloids, but drugs designed according to this hypothesis have generally failed. That FKBP52 can reduce the accumulation of tau proteins, and that Tacrolimus can reduce the pathological changes of tau proteins are new directions away from the long held amyloid-beta-centric concept. Therefore, the screening of traditional Chinese medicine compounds for those with higher affinity towards FKBP52 than Tacrolimus may be a new direction for treating Alzheimer's disease. This study utilizes ligand-based and structure-based methods as the foundation. By utilizing dock scores and the predicted pIC50 from SVM, MLR, and Bayesian Network, several TCM compounds were selected for further analysis of their protein-ligand interactions. Daphnetoxin has higher affinity and complex structure stability than Tacrolimus; Lythrancine II exhibits the most identical trends in FKBP52 interactions as Tacrolimus, and 20-O-(2'E,4'E-decadienoyl)ingenol may be further modified at its hydrocarbon chain to promote interaction with FKBP52. In addition, we observed the residue Tyr113 of FKBP52 may play a key role in protein-ligand interaction. Our results indicate that Daphnetoxin, 20-O-(2'E,4'E-decadienoyl)ingenol, and Lythrancine II may be starting points for further modification as a new type of non-amyloid-beta-centric drug for Alzheimer's disease. 
+24899907	51	70	Alzheimer's disease	Disease	MESH:D000544
+24899907	106	125	Alzheimer's disease	Disease	MESH:D000544
+24899907	131	156	neurodegenerative disease	Disease	MESH:D019636
+24899907	318	324	FKBP52	Gene	2288
+24899907	356	359	tau	Gene	4137
+24899907	379	389	Tacrolimus	Chemical	MESH:D016559
+24899907	429	432	tau	Gene	4137
+24899907	485	497	amyloid-beta	Gene	351
+24899907	621	627	FKBP52	Gene	2288
+24899907	633	643	Tacrolimus	Chemical	MESH:D016559
+24899907	680	699	Alzheimer's disease	Disease	MESH:D000544
+24899907	962	973	Daphnetoxin	Chemical	MESH:C452759
+24899907	1031	1041	Tacrolimus	Chemical	MESH:D016559
+24899907	1043	1057	Lythrancine II	Chemical	-
+24899907	1096	1102	FKBP52	Gene	2288
+24899907	1119	1129	Tacrolimus	Chemical	MESH:D016559
+24899907	1135	1168	20-O-(2'E,4'E-decadienoyl)ingenol	Chemical	-
+24899907	1200	1211	hydrocarbon	Chemical	MESH:D006838
+24899907	1246	1252	FKBP52	Gene	2288
+24899907	1301	1307	FKBP52	Gene	2288
+24899907	1385	1396	Daphnetoxin	Chemical	MESH:C452759
+24899907	1398	1431	20-O-(2'E,4'E-decadienoyl)ingenol	Chemical	-
+24899907	1437	1451	Lythrancine II	Chemical	-
+24899907	1521	1533	amyloid-beta	Gene	351
+24899907	1551	1570	Alzheimer's disease	Disease	MESH:D000544
+24899907	Bind	MESH:D016559	2288
+24899907	Negative_Correlation	MESH:D016559	4137
+24899907	Negative_Correlation	MESH:C452759	MESH:D000544
+24899907	Negative_Correlation	MESH:D016559	MESH:D000544
+24899907	Association	MESH:D000544	2288
+24899907	Comparison	MESH:C452759	MESH:D016559
+24899907	Negative_Correlation	2288	4137
+

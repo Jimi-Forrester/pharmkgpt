@@ -1,0 +1,50 @@
+26092426|t|PPAR-alpha agonist regulates amyloid-beta generation via inhibiting BACE-1 activity in human neuroblastoma SH-SY5Y cells transfected with APPswe gene.
+26092426|a|Alzheimer's disease is a neuroinflammatory disease and is the most common cause of dementia in the elderly. Studies have shown the beneficial effects of the peroxisome proliferator-activated receptor alpha (PPAR-alpha) agonists on the treatment of neuroinflammatory diseases. The aim of the present study is to examine the ability of GW7647 (a PPAR-alpha agonist) to regulate amyloid precursor protein (APP) amyloidogenic processing in human neuroblastoma SH-SY5Y cells transfected with APPswe gene. After administration of GW7647 for 24 h, the levels of APP, soluble APPbeta (sAPPbeta), and presenilin 1 (PS-1) were assessed by Western blot. Cellular culture medium levels of amyloid-beta 42 (Abeta42) were analyzed by ELISA, and the activity of beta-site APP cleaving enzyme 1 (BACE-1) was measured by fluorometric assay. We found that GW7647 decreased the expression of sAPPbeta and the activity of BACE-1, and also reduced Abeta42 release. However, GW7647 did not modify the levels of APP and PS-1. Furthermore, LY294002, the phosphoinositide 3-kinase (PI3-K) inhibitor, reversed the effects of GW7647 on the BACE-1 activity and the levels of sAPPbeta and Abeta42. Our data demonstrate that GW7647 may reduce Abeta production via inhibiting BACE-1 activity, and this may involve in PI3-K pathway. 
+26092426	0	10	PPAR-alpha	Gene	5465
+26092426	29	41	amyloid-beta	Gene	351
+26092426	68	74	BACE-1	Gene	23621
+26092426	87	92	human	Species	9606
+26092426	93	106	neuroblastoma	Disease	MESH:D009447
+26092426	107	114	SH-SY5Y	CellLine	CVCL:0019
+26092426	151	170	Alzheimer's disease	Disease	MESH:D000544
+26092426	176	201	neuroinflammatory disease	Disease	MESH:D000090862
+26092426	234	242	dementia	Disease	MESH:D003704
+26092426	308	356	peroxisome proliferator-activated receptor alpha	Gene	5465
+26092426	358	368	PPAR-alpha	Gene	5465
+26092426	399	425	neuroinflammatory diseases	Disease	MESH:D000090862
+26092426	485	491	GW7647	Chemical	MESH:C453899
+26092426	495	505	PPAR-alpha	Gene	5465
+26092426	527	552	amyloid precursor protein	Gene	351
+26092426	587	592	human	Species	9606
+26092426	593	606	neuroblastoma	Disease	MESH:D009447
+26092426	607	614	SH-SY5Y	CellLine	CVCL:0019
+26092426	675	681	GW7647	Chemical	MESH:C453899
+26092426	743	755	presenilin 1	Gene	5663
+26092426	757	761	PS-1	Gene	5663
+26092426	845	852	Abeta42	Gene	351
+26092426	898	929	beta-site APP cleaving enzyme 1	Gene	23621
+26092426	931	937	BACE-1	Gene	23621
+26092426	989	995	GW7647	Chemical	MESH:C453899
+26092426	1053	1059	BACE-1	Gene	23621
+26092426	1078	1085	Abeta42	Gene	351
+26092426	1104	1110	GW7647	Chemical	MESH:C453899
+26092426	1148	1152	PS-1	Gene	5663
+26092426	1167	1175	LY294002	Chemical	MESH:C085911
+26092426	1181	1206	phosphoinositide 3-kinase	Gene	5295
+26092426	1250	1256	GW7647	Chemical	MESH:C453899
+26092426	1264	1270	BACE-1	Gene	23621
+26092426	1311	1318	Abeta42	Gene	351
+26092426	1346	1352	GW7647	Chemical	MESH:C453899
+26092426	1364	1369	Abeta	Gene	351
+26092426	1396	1402	BACE-1	Gene	23621
+26092426	Negative_Correlation	23621	5465
+26092426	Association	23621	351
+26092426	Negative_Correlation	MESH:C453899	351
+26092426	Negative_Correlation	MESH:C453899	23621
+26092426	Negative_Correlation	MESH:C085911	351
+26092426	Positive_Correlation	MESH:C453899	5465
+26092426	Negative_Correlation	MESH:C085911	MESH:C453899
+26092426	Negative_Correlation	MESH:C085911	5295
+26092426	Negative_Correlation	MESH:C085911	23621
+26092426	Positive_Correlation	351	5465
+

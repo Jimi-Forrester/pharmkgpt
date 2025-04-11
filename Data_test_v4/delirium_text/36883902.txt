@@ -1,0 +1,39 @@
+36883902|t|Silmitasertib (CX-4945), a Clinically Used CK2-Kinase Inhibitor with Additional Effects on GSK3beta and DYRK1A Kinases: A Structural Perspective.
+36883902|a|A clinical casein kinase 2 inhibitor, CX-4945 (silmitasertib), shows significant affinity toward the DYRK1A and GSK3beta kinases, involved in down syndrome phenotypes, Alzheimer's disease, circadian clock regulation, and diabetes. This off-target activity offers an opportunity for studying the effect of the DYRK1A/GSK3beta kinase system in disease biology and possible line extension. Motivated by the dual inhibition of these kinases, we solved and analyzed the crystal structures of DYRK1A and GSK3beta with CX-4945. We built a quantum-chemistry-based model to rationalize the compound affinity for CK2alpha, DYRK1A, and GSK3beta kinases. Our calculations identified a key element for CK2alpha's subnanomolar affinity to CX-4945. The methodology is expandable to other kinase selectivity modeling. We show that the inhibitor limits DYRK1A- and GSK3beta-mediated cyclin D1 phosphorylation and reduces kinase-mediated NFAT signaling in the cell. Given the CX-4945's clinical and pharmacological profile, this inhibitory activity makes it an interesting candidate with potential for application in additional disease areas.
+36883902	0	13	Silmitasertib	Chemical	MESH:C555142
+36883902	15	22	CX-4945	Chemical	MESH:C555142
+36883902	91	99	GSK3beta	Gene	2932
+36883902	104	110	DYRK1A	Gene	1859
+36883902	184	191	CX-4945	Chemical	MESH:C555142
+36883902	193	206	silmitasertib	Chemical	MESH:C555142
+36883902	247	253	DYRK1A	Gene	1859
+36883902	258	266	GSK3beta	Gene	2932
+36883902	314	333	Alzheimer's disease	Disease	MESH:D000544
+36883902	367	375	diabetes	Disease	MESH:D003920
+36883902	455	461	DYRK1A	Gene	1859
+36883902	462	470	GSK3beta	Gene	2932
+36883902	633	639	DYRK1A	Gene	1859
+36883902	644	652	GSK3beta	Gene	2932
+36883902	658	665	CX-4945	Chemical	MESH:C555142
+36883902	749	757	CK2alpha	Gene	1459
+36883902	759	765	DYRK1A	Gene	1859
+36883902	771	779	GSK3beta	Gene	2932
+36883902	835	843	CK2alpha	Gene	1459
+36883902	871	878	CX-4945	Chemical	MESH:C555142
+36883902	982	988	DYRK1A	Gene	1859
+36883902	994	1002	GSK3beta	Gene	2932
+36883902	1012	1021	cyclin D1	Gene	595
+36883902	1104	1111	CX-4945	Chemical	MESH:C555142
+36883902	Positive_Correlation	2932	595
+36883902	Association	MESH:C555142	1459
+36883902	Association	MESH:C555142	1859
+36883902	Positive_Correlation	1859	595
+36883902	Bind	MESH:C555142	2932
+36883902	Negative_Correlation	MESH:C555142	595
+36883902	Association	MESH:D000544	2932
+36883902	Association	MESH:D003920	1859
+36883902	Negative_Correlation	MESH:C555142	MESH:D000544
+36883902	Association	MESH:C555142	MESH:D003920
+36883902	Association	MESH:D003920	2932
+36883902	Association	MESH:D000544	1859
+

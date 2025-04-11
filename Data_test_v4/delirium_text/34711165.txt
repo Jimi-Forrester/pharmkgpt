@@ -1,0 +1,30 @@
+34711165|t|Classification of Patients with Alzheimer's Disease and Dementia with Lewy Bodies using Resting EEG Selected Features at Sensor and Source Levels: A Proof-of-Concept Study.
+34711165|a|BACKGROUND: Early differentiation between Alzheimer's disease (AD) and Dementia with Lewy Bodies (DLB) is important for accurate prognosis, as DLB patients typically show faster disease progression. Cortical neural networks, necessary for human cognitive function, may be disrupted differently in DLB and AD patients, allowing diagnostic differentiation between AD and DLB. OBJECTIVE: This proof-of-concept study assessed whether the application of machine learning techniques to data derived from resting-state electroencephalographic (rsEEG) rhythms (discriminant sensor power, 19 electrodes) and source connectivity (between five cortical regions of interest) allowed differentiation between DLB and AD. METHODS: Clinical, demographic, and rsEEG datasets from DLB patients (N=30), AD patients (N=30), and control seniors (NOld, N=30), matched for age, sex, and education, were taken from our international database. Individual (delta, theta, alpha) and fixed (beta) rsEEG frequency bands were included. The rsEEG features for the classification task were computed at both sensor and source levels. The source level was based on eLORETA freeware toolboxes for estimating cortical source activity and linear lagged connectivity. Fluctuations of rsEEG recordings (band-pass waveform envelopes of each EEG rhythm) were also computed at both sensor and source levels. After blind feature reduction, rsEEG features served as input to support vector machine (SVM) classifiers. Discrimination of individuals from the three groups was measured with standard performance metrics (accuracy, sensitivity, and specificity). RESULTS: The trained SVM two-class classifiers showed classification accuracies of 97.6% for NOld vs. AD, 99.7% for NOld vs. DLB, and 97.8% for AD vs. DLB. Three-class classifiers (AD vs. DLB vs. NOld) showed classification accuracy of 94.79%. CONCLUSION: These promising preliminary results should encourage future prospective and longitudinal cross-validation studies using higher resolution EEG techniques and harmonized clinical procedures to enable the clinical application of these machine learning techniques.
+34711165	18	26	Patients	Species	9606
+34711165	32	51	Alzheimer's Disease	Disease	MESH:D000544
+34711165	56	81	Dementia with Lewy Bodies	Disease	MESH:D020961
+34711165	215	234	Alzheimer's disease	Disease	MESH:D000544
+34711165	236	238	AD	Disease	MESH:D000544
+34711165	244	269	Dementia with Lewy Bodies	Disease	MESH:D020961
+34711165	271	274	DLB	Disease	MESH:D020961
+34711165	316	319	DLB	Disease	MESH:D020961
+34711165	320	328	patients	Species	9606
+34711165	412	417	human	Species	9606
+34711165	470	473	DLB	Disease	MESH:D020961
+34711165	478	480	AD	Disease	MESH:D000544
+34711165	481	489	patients	Species	9606
+34711165	535	537	AD	Disease	MESH:D000544
+34711165	542	545	DLB	Disease	MESH:D020961
+34711165	868	871	DLB	Disease	MESH:D020961
+34711165	876	878	AD	Disease	MESH:D000544
+34711165	936	939	DLB	Disease	MESH:D020961
+34711165	940	948	patients	Species	9606
+34711165	957	959	AD	Disease	MESH:D000544
+34711165	960	968	patients	Species	9606
+34711165	1889	1891	AD	Disease	MESH:D000544
+34711165	1912	1915	DLB	Disease	MESH:D020961
+34711165	1931	1933	AD	Disease	MESH:D000544
+34711165	1938	1941	DLB	Disease	MESH:D020961
+34711165	1968	1970	AD	Disease	MESH:D000544
+34711165	1975	1978	DLB	Disease	MESH:D020961
+

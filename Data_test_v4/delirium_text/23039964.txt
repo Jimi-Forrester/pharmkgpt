@@ -1,0 +1,16 @@
+23039964|t|GeneFriends: an online co-expression analysis tool to identify novel gene targets for aging and complex diseases.
+23039964|a|BACKGROUND: Although many diseases have been well characterized at the molecular level, the underlying mechanisms are often unknown. Nearly half of all human genes remain poorly studied, yet these genes may contribute to a number of disease processes. Genes involved in common biological processes and diseases are often co-expressed. Using known disease-associated genes in a co-expression analysis may help identify and prioritize novel candidate genes for further study. RESULTS: We have created an online tool, called GeneFriends, which identifies co-expressed genes in over 1,000 mouse microarray datasets. GeneFriends can be used to assign putative functions to poorly studied genes. Using a seed list of disease-associated genes and a guilt-by-association method, GeneFriends allows users to quickly identify novel genes and transcription factors associated with a disease or process. We tested GeneFriends using seed lists for aging, cancer, and mitochondrial complex I disease. We identified several candidate genes that have previously been predicted as relevant targets. Some of the genes identified are already being tested in clinical trials, indicating the effectiveness of this approach. Co-expressed transcription factors were investigated, identifying C/ebp genes as candidate regulators of aging. Furthermore, several novel candidate genes, that may be suitable for experimental or clinical follow-up, were identified. Two of the novel candidates of unknown function that were co-expressed with cancer-associated genes were selected for experimental validation. Knock-down of their human homologs (C1ORF112 and C12ORF48) in HeLa cells slowed growth, indicating that these genes of unknown function, identified by GeneFriends, may be involved in cancer. CONCLUSIONS: GeneFriends is a resource for biologists to identify and prioritize novel candidate genes involved in biological processes and complex diseases. It is an intuitive online resource that will help drive experimentation. GeneFriends is available online at: http://genefriends.org/.
+23039964	266	271	human	Species	9606
+23039964	699	704	mouse	Species	10090
+23039964	1056	1062	cancer	Disease	MESH:D009369
+23039964	1068	1099	mitochondrial complex I disease	Disease	MESH:C537475
+23039964	1385	1388	ebp	Gene	10682
+23039964	1627	1633	cancer	Disease	MESH:D009369
+23039964	1714	1719	human	Species	9606
+23039964	1730	1738	C1ORF112	Gene	55732
+23039964	1743	1751	C12ORF48	Gene	55010
+23039964	1756	1760	HeLa	CellLine	CVCL:0030
+23039964	1877	1883	cancer	Disease	MESH:D009369
+23039964	Association	MESH:D009369	55732
+23039964	Association	MESH:D009369	55010
+

@@ -1,0 +1,21 @@
+38100335|t|RClaNet: An explainable Alzheimer's disease diagnosis framework by joint registration and classification.
+38100335|a|Alzheimer's disease (AD) is a degenerative mental disorder of the central nervous system that affects people's ability of daily life. Unfortunately, there is currently no known cure for AD. Thus, the early detection of AD plays a key role in preventing and controlling its progression. Magnetic resonance imaging (MRI)-based measures of cerebral atrophy are regarded as valid markers of the AD state. As one of representative methods for measuring brain atrophy, image registration technique has been widely adopted for AD diagnosis. However, AD detection is sensitive to the accuracy of image registration. To address this problem, an AD assistant diagnosis framework based on joint registration and classification is proposed. Specifically, in order to capture more local deformation information, we propose a novel patch-based joint brain image registration and classification network (RClaNet) to estimate the local dense deformation fields (DDF) and disease risk probability maps that explain high-risk areas for AD patients. RClaNet consists of a registration network and a classification network, in which the deformation field from registration network is fed into the classification network to enhance the prediction accuracy of the disease. Then, the exponential distance weighting method is used to obtain the global DDF and the global disease risk probability map, and it can remove grid-like artifacts by uniformly weighting method. Finally, the global classification network uses the global disease risk probability map for the early detection of AD. We evaluate the proposed method on the OASIS-3, AIBL and ADNI datasets, and experimental results show that the proposed RClaNet achieves superior registration performances than several state-of-the-art methods. Early diagnosis of AD using the global disease risk probability map also yielded competitive results. To demonstrate the generality, we also evaluate the proposed method on a COVID-19 dataset and achieve decent registration and classification results. These experiments prove that the deformation information in the registration process can be used to characterize subtle changes of degenerative diseases and further assist clinicians in diagnosis.
+38100335	24	43	Alzheimer's disease	Disease	MESH:D000544
+38100335	106	125	Alzheimer's disease	Disease	MESH:D000544
+38100335	127	129	AD	Disease	MESH:D000544
+38100335	136	194	degenerative mental disorder of the central nervous system	Disease	MESH:D019636
+38100335	292	294	AD	Disease	MESH:D000544
+38100335	325	327	AD	Disease	MESH:D000544
+38100335	443	459	cerebral atrophy	Disease	MESH:D001284
+38100335	497	499	AD	Disease	MESH:D000544
+38100335	554	567	brain atrophy	Disease	MESH:C566985
+38100335	626	628	AD	Disease	MESH:D000544
+38100335	649	651	AD	Disease	MESH:D000544
+38100335	742	744	AD	Disease	MESH:D000544
+38100335	1124	1126	AD	Disease	MESH:D000544
+38100335	1127	1135	patients	Species	9606
+38100335	1667	1669	AD	Disease	MESH:D000544
+38100335	1901	1903	AD	Disease	MESH:D000544
+38100335	2057	2065	COVID-19	Disease	MESH:D000086382
+38100335	2265	2286	degenerative diseases	Disease	MESH:D019636
+

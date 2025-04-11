@@ -1,0 +1,49 @@
+28349780|t|Ganoderic acid targeting nuclear factor erythroid 2-related factor 2 in lung cancer.
+28349780|a|Lung cancer causes huge mortality worldwide, and targeting new pathway may provide an alternative in modulating signaling in cancer. Nuclear factor erythroid 2-related factor 2 is the major regulator of endogenous and exogenous stress by activating numerous antioxidant genes critical in cancer, Alzheimer's, Parkinson's, and inflammatory bowel diseases. Ganoderic acid is a triterpene from basiodiomycetes fungus Ganoderma lucidum with numerous therapeutic effects. In this study, ganoderic acid and its 50 isomers and natural activators were docked by receptor-based molecular docking using Maestro 9.6 (Schrodinger Inc.) in the Kelch-like ECH-associated protein 1-nuclear factor erythroid 2-related factor 2 signaling pathway. The receptor-based molecular docking reveals the best binding interaction of nuclear factor erythroid 2-related factor 2 and ganoderic acid A with GScore (-9.69) (kcal/mol), Lipophilic EvdW (-1.83), Electro (-0.72), Glide emodel (-73.369), H bond (-1.1), molecular mechanics/generalized Born surface area (-75.541) with Leu 718, Asp 800, Cys 797 residues involved in hydrogen bonding. The calculated docking energy highlights the lipophilic, hydrogen bonding, pi-pi stacking interactions, and non-covalent bonding. Analysis showed the involvement of cysteine and serine residues which were crucial in the activation and translocation from cytoplasm to the nucleus in the nuclear factor erythroid 2-related factor 2 signaling process. The molecular docking tool QikProp analyzed the absorption, distribution, metabolism, excretion, and toxicity but needs some modifications in their structure to satisfy Lipinski's rule. Ganoderic acid A is a best docked isoform which inhibits the cell proliferation, viability, migration, and reactive oxygen species and messenger RNA expression of nuclear factor erythroid 2-related factor 2 in H460 cells.
+28349780	0	14	Ganoderic acid	Chemical	MESH:C556862
+28349780	25	68	nuclear factor erythroid 2-related factor 2	Gene	4780
+28349780	72	83	lung cancer	Disease	MESH:D008175
+28349780	85	96	Lung cancer	Disease	MESH:D008175
+28349780	210	216	cancer	Disease	MESH:D009369
+28349780	218	261	Nuclear factor erythroid 2-related factor 2	Gene	4780
+28349780	373	379	cancer	Disease	MESH:D009369
+28349780	381	392	Alzheimer's	Disease	MESH:D000544
+28349780	394	405	Parkinson's	Disease	MESH:D010300
+28349780	411	438	inflammatory bowel diseases	Disease	MESH:D015212
+28349780	440	454	Ganoderic acid	Chemical	MESH:C556862
+28349780	460	470	triterpene	Chemical	MESH:D014315
+28349780	499	516	Ganoderma lucidum	Species	5315
+28349780	567	581	ganoderic acid	Chemical	MESH:C556862
+28349780	716	751	Kelch-like ECH-associated protein 1	Gene	9817
+28349780	752	795	nuclear factor erythroid 2-related factor 2	Gene	4780
+28349780	892	935	nuclear factor erythroid 2-related factor 2	Gene	4780
+28349780	940	956	ganoderic acid A	Chemical	MESH:C515005
+28349780	1135	1147	Leu 718, Asp	ProteinMutation	tmVar:p|SUB|L|718|D;HGVS:p.L718D;VariantGroup:0;CorrespondingGene:4780;CorrespondingSpecies:9606
+28349780	1153	1156	Cys	Chemical	MESH:D003545
+28349780	1182	1190	hydrogen	Chemical	MESH:D006859
+28349780	1257	1265	hydrogen	Chemical	MESH:D006859
+28349780	1486	1529	nuclear factor erythroid 2-related factor 2	Gene	4780
+28349780	1650	1658	toxicity	Disease	MESH:D064420
+28349780	1735	1751	Ganoderic acid A	Chemical	MESH:C515005
+28349780	1842	1865	reactive oxygen species	Chemical	MESH:D017382
+28349780	1898	1941	nuclear factor erythroid 2-related factor 2	Gene	4780
+28349780	1945	1949	H460	CellLine	CVCL:0459
+28349780	Association	MESH:D003545	MESH:D006859
+28349780	Association	MESH:D006859	HGVS:p.L718D;CorrespondingGene:4780
+28349780	Association	MESH:C515005	HGVS:p.L718D;CorrespondingGene:4780
+28349780	Negative_Correlation	MESH:C515005	MESH:D017382
+28349780	Negative_Correlation	MESH:C515005	4780
+28349780	Association	MESH:C515005	MESH:D003545
+28349780	Association	MESH:C515005	MESH:D008175
+28349780	Association	MESH:D000544	4780
+28349780	Association	MESH:D003545	4780
+28349780	Bind	4780	9817
+28349780	Association	MESH:C515005	MESH:D006859
+28349780	Association	MESH:D010300	4780
+28349780	Association	MESH:D009369	4780
+28349780	Association	MESH:C556862	4780
+28349780	Association	MESH:D006859	4780
+28349780	Association	MESH:C556862	MESH:D008175
+28349780	Association	MESH:D015212	4780
+28349780	Association	MESH:D008175	4780
+

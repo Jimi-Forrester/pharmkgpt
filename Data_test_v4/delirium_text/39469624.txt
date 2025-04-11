@@ -1,0 +1,47 @@
+39469624|t|Psychiatric disorders associated with fluoroquinolones: a pharmacovigilance analysis of the FDA adverse event reporting system database.
+39469624|a|Background: Fluoroquinolones are broad-spectrum antibiotics with significant antimicrobial activity. Despite their therapeutic benefits, they are associated with a range of adverse drug reactions (ADRs), particularly those affecting the central nervous system (CNS). This study aimed to analyze the psychiatric ADRs linked to fluoroquinolones using data from the FDA Adverse Event Reporting System (FAERS) database. Methods: A retrospective pharmacovigilance study was conducted using FAERS data from Q1 2004 to Q4 2023. The data processing phase involved the FDA-recommended deduplication method, and ADRs were classified according to Medical Dictionary for Regulatory Activities (MedDRA). Disproportionality analysis was performed using the reporting odds ratio (ROR), and statistical significance was assessed using the Chi-square test or Fisher's exact test. Results: The study identified 84,777 reports associated with fluoroquinolones, with 359,480 Preferred Terms-annotated entries, 27,816 of these reports were psychiatric ADRs. Mood disorders were the most frequently reported, including anxiety, depression, and delirium, with some reports escalating to suicidal ideation and behaviors. The Standardized MedDRA Query classification system was used to categorize these ADRs into Depression, Suicide/self-injury, Psychosis and psychotic disorders, and Non-infectious encephalopathy/delirium. Ciprofloxacin was most frequently linked to depression and suicidal ideation, while moxifloxacin showed a robust correlation with delirium. The risk of psychiatric ADRs varied by age group, with affective disorders more prevalent in adults under 65 and psychosis and delirium in those over 65. Conclusion: Fluoroquinolones are associated with a range of psychiatric ADRs, with notable differences between the drugs in the class. The study highlights the need for caution in prescribing fluoroquinolones, particularly for patients with pre-existing mental health conditions or those in higher risk age groups. The findings also underscore the importance of considering age-specific preventive strategies when administering these antibiotics.
+39469624	0	21	Psychiatric disorders	Disease	MESH:D001523
+39469624	38	54	fluoroquinolones	Chemical	MESH:D024841
+39469624	149	165	Fluoroquinolones	Chemical	MESH:D024841
+39469624	310	332	adverse drug reactions	Disease	MESH:D064420
+39469624	334	338	ADRs	Disease	MESH:D064420
+39469624	436	452	psychiatric ADRs	Disease	MESH:D064420
+39469624	463	479	fluoroquinolones	Chemical	MESH:D024841
+39469624	739	743	ADRs	Disease	MESH:D064420
+39469624	1061	1077	fluoroquinolones	Chemical	MESH:D024841
+39469624	1156	1172	psychiatric ADRs	Disease	MESH:D064420
+39469624	1174	1188	Mood disorders	Disease	MESH:D019964
+39469624	1234	1241	anxiety	Disease	MESH:D001007
+39469624	1243	1253	depression	Disease	MESH:D003866
+39469624	1259	1267	delirium	Disease	MESH:D003693
+39469624	1301	1318	suicidal ideation	Disease	MESH:D001072
+39469624	1415	1419	ADRs	Disease	MESH:D064420
+39469624	1425	1435	Depression	Disease	MESH:D003866
+39469624	1437	1444	Suicide	Disease	
+39469624	1445	1456	self-injury	Disease	MESH:D012652
+39469624	1458	1467	Psychosis	Disease	MESH:D011618
+39469624	1472	1491	psychotic disorders	Disease	MESH:D011618
+39469624	1497	1526	Non-infectious encephalopathy	Disease	MESH:D000073296
+39469624	1527	1535	delirium	Disease	MESH:D003693
+39469624	1537	1550	Ciprofloxacin	Chemical	MESH:D002939
+39469624	1581	1591	depression	Disease	MESH:D003866
+39469624	1596	1613	suicidal ideation	Disease	MESH:D001072
+39469624	1621	1633	moxifloxacin	Chemical	MESH:D000077266
+39469624	1667	1675	delirium	Disease	MESH:D003693
+39469624	1689	1705	psychiatric ADRs	Disease	MESH:D064420
+39469624	1732	1751	affective disorders	Disease	MESH:D019964
+39469624	1790	1799	psychosis	Disease	MESH:D011618
+39469624	1804	1812	delirium	Disease	MESH:D003693
+39469624	1843	1859	Fluoroquinolones	Chemical	MESH:D024841
+39469624	1891	1907	psychiatric ADRs	Disease	MESH:D064420
+39469624	2023	2039	fluoroquinolones	Chemical	MESH:D024841
+39469624	2058	2066	patients	Species	9606
+39469624	2085	2091	mental	Disease	MESH:D008607
+39469624	Positive_Correlation	MESH:D002939	MESH:D001072
+39469624	Positive_Correlation	MESH:D024841	MESH:D001007
+39469624	Positive_Correlation	MESH:D002939	MESH:D003866
+39469624	Positive_Correlation	MESH:D024841	MESH:D001523
+39469624	Positive_Correlation	MESH:D024841	MESH:D064420
+39469624	Association	MESH:D024841	MESH:D008607
+39469624	Positive_Correlation	MESH:D000077266	MESH:D003693
+

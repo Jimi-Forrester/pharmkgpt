@@ -1,0 +1,45 @@
+35431536|t|Could anakinra outmatch dexamethasone/tocilizumab in COVID-19?
+35431536|a|The hyperinflammatory state leading to an aberrant cytokine production, culminating in acute respiratory distress syndrome, sepsis and multi-organ dysfunction contribute much to the pathophysiologies of severe COVID-19. These severe patients have similar clinical manifestations with patients suffering from certain auto-inflammatory disorders and cytokine storm syndromes. Interestingly, anakinra (blocking both IL-1alpha and IL-1beta) has shown promises in treating these patients with hyperinflammatory disorders, sepsis with multiorgan failures. Another inflammasome, AIM2, involved in production of IL-1 has also been found to be implicated in COVID-19. IL-1beta, a known procoagulant, causes induction of tissue factor with increasing vascular endothelial permeability loss ensuing in hypercoagulability-one of the cardinal features of the disease. Hence, anakinra a 17kD recombinant human IL-1 receptor antagonist, used widely in Rheumatoid Arthritis treatments might prove efficacious in attenuating the hyperinflammatory state of the disease. Indeed, some of the controlled clinical trials have shown anakinra to effectively decrease mortality and hospital stay. Targeted cytokine blocking are always preferable in comparison with non-specific blocking (steroids) as it is more restrained with the chances of dampening of systemic immune system being much less. Early cell death and neutrophil migration have been one of the pivotal events in COVID-19 pathogenesis. Hence, suPAR levels which measures IL-1alpha (necroptosis) and S100A8/A9 (neutrophil migration) can perhaps be a good early biomarker predicting the disease progression. Lastly and importantly, as the vaccines are raised against spike protein and the different variants of concern are known to evade the neutralizing antibodies by varying degrees, it will be deserving to assess anakinra, against the variants of concern as an immunomodulatory drug.
+35431536	24	37	dexamethasone	Chemical	MESH:D003907
+35431536	38	49	tocilizumab	Chemical	MESH:C502936
+35431536	53	61	COVID-19	Disease	MESH:D000086382
+35431536	67	84	hyperinflammatory	Disease	
+35431536	150	185	acute respiratory distress syndrome	Disease	MESH:D012128
+35431536	187	193	sepsis	Disease	MESH:D018805
+35431536	198	221	multi-organ dysfunction	Disease	MESH:D009102
+35431536	273	281	COVID-19	Disease	MESH:D000086382
+35431536	296	304	patients	Species	9606
+35431536	347	355	patients	Species	9606
+35431536	379	406	auto-inflammatory disorders	Disease	MESH:D018467
+35431536	411	435	cytokine storm syndromes	Disease	MESH:D000080424
+35431536	476	485	IL-1alpha	Gene	3552
+35431536	490	498	IL-1beta	Gene	3553
+35431536	537	545	patients	Species	9606
+35431536	551	578	hyperinflammatory disorders	Disease	MESH:D009358
+35431536	580	586	sepsis	Disease	MESH:D018805
+35431536	592	611	multiorgan failures	Disease	MESH:D051437
+35431536	635	639	AIM2	Gene	9447
+35431536	667	671	IL-1	Gene	3552
+35431536	712	720	COVID-19	Disease	MESH:D000086382
+35431536	722	730	IL-1beta	Gene	3553
+35431536	854	872	hypercoagulability	Disease	MESH:D019851
+35431536	953	958	human	Species	9606
+35431536	959	983	IL-1 receptor antagonist	Gene	3557
+35431536	1000	1020	Rheumatoid Arthritis	Disease	MESH:D001172
+35431536	1075	1092	hyperinflammatory	Disease	
+35431536	1326	1334	steroids	Chemical	MESH:D013256
+35431536	1515	1523	COVID-19	Disease	MESH:D000086382
+35431536	1573	1582	IL-1alpha	Gene	3552
+35431536	1601	1610	S100A8/A9	Gene	6279;28899
+35431536	Association	MESH:D009358	3553
+35431536	Association	MESH:D000086382	9447
+35431536	Association	MESH:D009358	3552
+35431536	Negative_Correlation	MESH:D001172	3557
+35431536	Association	MESH:D019851	3553
+35431536	Association	3552	9447
+35431536	Association	MESH:D018805	3553
+35431536	Negative_Correlation	MESH:D003907	MESH:D000086382
+35431536	Negative_Correlation	MESH:C502936	MESH:D000086382
+35431536	Association	MESH:D051437	3553
+35431536	Association	MESH:D000086382	3552
+

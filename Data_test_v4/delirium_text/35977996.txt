@@ -1,0 +1,50 @@
+35977996|t|Identification of potential targets of the curcumin analog CCA-1.1 for glioblastoma treatment : integrated computational analysis and in vitro study.
+35977996|a|The treatment of glioblastoma multiforme (GBM) is challenging owing to its localization in the brain, the limited capacity of brain cells to repair, resistance to conventional therapy, and its aggressiveness. Curcumin has anticancer activity against aggressive cancers, such as leukemia, and GBM; however, its application is limited by its low solubility and bioavailability. Chemoprevention curcumin analog 1.1 (CCA-1.1), a curcumin analog, has better solubility and stability than those of curcumin. In this study, we explored potential targets of CCA-1.1 in GBM (PTCGs) by an integrated computational analysis and in vitro study. Predicted targets of CCA-1.1 obtained using various databases were subjected to comprehensive downstream analyses, including functional annotation, disease and drug association analyses, protein-protein interaction network analyses, analyses of genetic alterations, expression, and associations with survival and immune cell infiltration. Our integrative bioinformatics analysis revealed four candidate targets of CCA-1.1 in GBM: TP53, EGFR, AKT1, and CASP3. In addition to targeting specific proteins with regulatory effects in GBM, CCA-1.1 has the capacity to modulate the immunological milieu. Cytotoxicity of CCA-1.1 was lower than TMZ with an IC50 value of 9.8 muM compared to TMZ with an IC50 of 40 muM. mRNA sequencing revealed EGFR transcript variant 8 was upregulated, whereas EGFRvIII was downregulated in U87 cells after treatment with CCA-1.1. Furthermore, a molecular docking analysis suggested that CCA-1.1 inhibits EGFR with various mutations in GBM, which was confirmed using molecular dynamics simulation, wherein the binding between CCA-1.1 with the mutant EGFR L861Q was stable. For successful clinical translation, the effects of CCA-1.1 need to be confirmed in laboratory studies and clinical trials.
+35977996	43	51	curcumin	Chemical	MESH:D003474
+35977996	59	66	CCA-1.1	Chemical	-
+35977996	71	83	glioblastoma	Disease	MESH:D005909
+35977996	167	190	glioblastoma multiforme	Disease	MESH:D005909
+35977996	192	195	GBM	Disease	MESH:D005909
+35977996	359	367	Curcumin	Chemical	MESH:D003474
+35977996	411	418	cancers	Disease	MESH:D009369
+35977996	428	436	leukemia	Disease	MESH:D007938
+35977996	442	445	GBM	Disease	MESH:D005909
+35977996	542	561	curcumin analog 1.1	Chemical	-
+35977996	563	570	CCA-1.1	Chemical	-
+35977996	575	583	curcumin	Chemical	MESH:D003474
+35977996	642	650	curcumin	Chemical	MESH:D003474
+35977996	700	707	CCA-1.1	Chemical	-
+35977996	711	714	GBM	Disease	MESH:D005909
+35977996	716	721	PTCGs	Disease	
+35977996	804	811	CCA-1.1	Chemical	-
+35977996	1197	1204	CCA-1.1	Chemical	-
+35977996	1208	1211	GBM	Disease	MESH:D005909
+35977996	1213	1217	TP53	Gene	7157
+35977996	1219	1223	EGFR	Gene	1956
+35977996	1225	1229	AKT1	Gene	207
+35977996	1235	1240	CASP3	Gene	836
+35977996	1312	1315	GBM	Disease	MESH:D005909
+35977996	1317	1324	CCA-1.1	Chemical	-
+35977996	1380	1392	Cytotoxicity	Disease	MESH:D064420
+35977996	1396	1403	CCA-1.1	CellLine	CVCL:C7RB
+35977996	1419	1422	TMZ	Chemical	MESH:D000077204
+35977996	1465	1468	TMZ	Chemical	MESH:D000077204
+35977996	1518	1522	EGFR	Gene	1956
+35977996	1599	1602	U87	CellLine	CVCL:0022
+35977996	1630	1637	CCA-1.1	CellLine	CVCL:C7RB
+35977996	1696	1703	CCA-1.1	Chemical	-
+35977996	1713	1717	EGFR	Gene	1956
+35977996	1744	1747	GBM	Disease	MESH:D005909
+35977996	1834	1841	CCA-1.1	Chemical	-
+35977996	1858	1862	EGFR	Gene	1956
+35977996	1863	1868	L861Q	ProteinMutation	tmVar:p|SUB|L|861|Q;HGVS:p.L861Q;VariantGroup:0;CorrespondingGene:1956;RS#:121913444;CorrespondingSpecies:9606;CA#:176021
+35977996	1933	1940	CCA-1.1	Chemical	-
+35977996	Association	MESH:D005909	7157
+35977996	Association	MESH:D005909	207
+35977996	Negative_Correlation	MESH:D003474	MESH:D005909
+35977996	Negative_Correlation	MESH:D000077204	MESH:D064420
+35977996	Negative_Correlation	MESH:D003474	MESH:D009369
+35977996	Association	MESH:D005909	1956
+35977996	Negative_Correlation	MESH:D003474	MESH:D007938
+35977996	Association	MESH:D005909	836
+

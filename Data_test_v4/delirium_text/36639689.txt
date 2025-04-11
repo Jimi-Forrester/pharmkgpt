@@ -1,0 +1,13 @@
+36639689|t|Investigation of early molecular alterations in tauopathy with generative adversarial networks.
+36639689|a|The recent advances in deep learning-based approaches hold great promise for unravelling biological mechanisms, discovering biomarkers, and predicting gene function. Here, we deployed a deep generative model for simulating the molecular progression of tauopathy and dissecting its early features. We applied generative adversarial networks (GANs) for bulk RNA-seq analysis in a mouse model of tauopathy (TPR50-P301S). The union set of differentially expressed genes from four comparisons (two phenotypes with two time points) was used as input training data. We devised four-way transition curves for a virtual simulation of disease progression, clustered and grouped the curves by patterns, and identified eight distinct pattern groups showing different biological features from Gene Ontology enrichment analyses. Genes that were upregulated in early tauopathy were associated with vasculature development, and these changes preceded immune responses. We confirmed significant disease-associated differences in the public human data for the genes of the different pattern groups. Validation with weighted gene co-expression network analysis suggested that our GAN-based approach can be used to detect distinct patterns of early molecular changes during disease progression, which may be extremely difficult in in vivo experiments. The generative model is a valid systematic approach for exploring the sequential cascades of mechanisms and targeting early molecular events related to dementia.
+36639689	48	57	tauopathy	Disease	MESH:D024801
+36639689	348	357	tauopathy	Disease	MESH:D024801
+36639689	474	479	mouse	Species	10090
+36639689	489	498	tauopathy	Disease	MESH:D024801
+36639689	506	511	P301S	ProteinMutation	tmVar:p|SUB|P|301|S;HGVS:p.P301S;VariantGroup:0
+36639689	948	957	tauopathy	Disease	MESH:D024801
+36639689	1119	1124	human	Species	9606
+36639689	1580	1588	dementia	Disease	MESH:D003704
+36639689	Association	MESH:D024801	HGVS:p.P301S
+36639689	Association	MESH:D003704	HGVS:p.P301S
+

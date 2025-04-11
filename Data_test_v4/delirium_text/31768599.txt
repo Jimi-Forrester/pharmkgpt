@@ -1,0 +1,41 @@
+31768599|t|Cognitive signature of brain FDG PET based on deep learning: domain transfer from Alzheimer's disease to Parkinson's disease.
+31768599|a|PURPOSE: Although functional brain imaging has been used for the early and objective assessment of cognitive dysfunction, there is a lack of generalized image-based biomarker which can evaluate individual's cognitive dysfunction in various disorders. To this end, we developed a deep learning-based cognitive signature of FDG brain PET adaptable for Parkinson's disease (PD) as well as Alzheimer's disease (AD). METHODS: A deep learning model for discriminating AD from normal controls (NCs) was built by a training set consisting of 636 FDG PET obtained from Alzheimer's Disease Neuroimaging Initiative database. The model was directly transferred to images of mild cognitive impairment (MCI) patients (n = 666) for identifying who would rapidly convert to AD and another independent cohort consisting of 62 PD patients to differentiate PD patients with dementia. The model accuracy was measured by area under curve (AUC) of receiver operating characteristic (ROC) analysis. The relationship between all images was visualized by two-dimensional projection of the deep learning-based features. The model was also designed to predict cognitive score of the subjects and validated in PD patients. Cognitive dysfunction-related regions were visualized by feature maps of the deep CNN model. RESULTS: AUC of ROC for differentiating AD from NC was 0.94 (95% CI 0.89-0.98). The transfer of the model could differentiate MCI patients who would convert to AD (AUC = 0.82) and PD with dementia (AUC = 0.81). The two-dimensional projection mapping visualized the degree of cognitive dysfunction compared with normal brains regardless of different disease cohorts. Predicted cognitive score, an output of the model, was highly correlated with the mini-mental status exam scores. Individual cognitive dysfunction-related regions included cingulate and high frontoparietal cortices, while they showed individual variability. CONCLUSION: The deep learning-based cognitive function evaluation model could be successfully transferred to multiple disease domains. We suggest that this approach might be extended to an objective cognitive signature that provides quantitative biomarker for cognitive dysfunction across various neurodegenerative disorders.
+31768599	29	32	FDG	Chemical	MESH:D019788
+31768599	82	101	Alzheimer's disease	Disease	MESH:D000544
+31768599	105	124	Parkinson's disease	Disease	MESH:D010300
+31768599	225	246	cognitive dysfunction	Disease	MESH:D003072
+31768599	333	354	cognitive dysfunction	Disease	MESH:D003072
+31768599	448	451	FDG	Chemical	MESH:D019788
+31768599	476	495	Parkinson's disease	Disease	MESH:D010300
+31768599	497	499	PD	Disease	MESH:D010300
+31768599	512	531	Alzheimer's disease	Disease	MESH:D000544
+31768599	533	535	AD	Disease	MESH:D000544
+31768599	588	590	AD	Disease	MESH:D000544
+31768599	664	667	FDG	Chemical	MESH:D019788
+31768599	686	705	Alzheimer's Disease	Disease	MESH:D000544
+31768599	793	813	cognitive impairment	Disease	MESH:D003072
+31768599	815	818	MCI	Disease	MESH:D060825
+31768599	820	828	patients	Species	9606
+31768599	884	886	AD	Disease	MESH:D000544
+31768599	935	937	PD	Disease	MESH:D010300
+31768599	938	946	patients	Species	9606
+31768599	964	966	PD	Disease	MESH:D010300
+31768599	967	975	patients	Species	9606
+31768599	981	989	dementia	Disease	MESH:D003704
+31768599	1308	1310	PD	Disease	MESH:D010300
+31768599	1311	1319	patients	Species	9606
+31768599	1321	1342	Cognitive dysfunction	Disease	MESH:D003072
+31768599	1454	1456	AD	Disease	MESH:D000544
+31768599	1462	1464	NC	Disease	OMIM:617025
+31768599	1540	1543	MCI	Disease	MESH:D060825
+31768599	1544	1552	patients	Species	9606
+31768599	1574	1576	AD	Disease	MESH:D000544
+31768599	1594	1596	PD	Disease	MESH:D010300
+31768599	1602	1610	dementia	Disease	MESH:D003704
+31768599	1689	1710	cognitive dysfunction	Disease	MESH:D003072
+31768599	1905	1926	cognitive dysfunction	Disease	MESH:D003072
+31768599	2298	2319	cognitive dysfunction	Disease	MESH:D003072
+31768599	2335	2362	neurodegenerative disorders	Disease	MESH:D019636
+31768599	Association	MESH:D019788	MESH:D010300
+31768599	Association	MESH:D019788	MESH:D000544
+

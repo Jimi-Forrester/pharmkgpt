@@ -1,0 +1,46 @@
+33098688|t|A missense mutation in a patient with developmental delay affects the activity and structure of the hexosamine biosynthetic pathway enzyme AGX1.
+33098688|a|O-GlcNAcylation is a post-translational modification catalysed by O-GlcNAc transferase (OGT). Missense mutations in OGT have been associated with developmental disorders, OGT-linked congenital disorder of glycosylation (OGT-CDG), which are characterized by intellectual disability. OGT relies on the hexosamine biosynthetic pathway (HBP) for provision of its UDP-GlcNAc donor. We considered whether mutations in UDP-N-acetylhexosamine pyrophosphorylase (UAP1), which catalyses the final step in the HBP, would phenocopy OGT-CDG mutations. A de novo mutation in UAP1 (NM_001324114:c.G685A:p.A229T) was reported in a patient with intellectual disability. We show that this mutation is pathogenic and decreases the stability and activity of the UAP1 isoform AGX1 in vitro. X-ray crystallography reveals a structural shift proximal to the mutation, leading to a conformational change of the N-terminal domain. These data suggest that the UAP1A229T missense mutation could be a contributory factor to the patient phenotype.
+33098688	25	32	patient	Species	9606
+33098688	38	57	developmental delay	Disease	MESH:D002658
+33098688	100	110	hexosamine	Chemical	MESH:D006595
+33098688	139	143	AGX1	Gene	6675
+33098688	211	231	O-GlcNAc transferase	Gene	8473
+33098688	233	236	OGT	Gene	8473
+33098688	261	264	OGT	Gene	8473
+33098688	291	314	developmental disorders	Disease	MESH:D002658
+33098688	365	368	OGT	Gene	8473
+33098688	369	372	CDG	Disease	MESH:C567859
+33098688	402	425	intellectual disability	Disease	MESH:D008607
+33098688	427	430	OGT	Gene	8473
+33098688	445	455	hexosamine	Chemical	MESH:D006595
+33098688	504	514	UDP-GlcNAc	Chemical	-
+33098688	557	597	UDP-N-acetylhexosamine pyrophosphorylase	Gene	6675
+33098688	599	603	UAP1	Gene	6675
+33098688	665	668	OGT	Gene	8473
+33098688	669	672	CDG	Disease	MESH:C567859
+33098688	706	710	UAP1	Gene	6675
+33098688	712	724	NM_001324114	RefSeq	NM_001324114
+33098688	725	732	c.G685A	DNAMutation	tmVar:c|SUB|G|685|A;HGVS:c.685G>A;VariantGroup:0;CorrespondingGene:6675;CorrespondingSpecies:9606
+33098688	733	740	p.A229T	ProteinMutation	tmVar:p|SUB|A|229|T;HGVS:p.A229T;VariantGroup:0;CorrespondingGene:6675;CorrespondingSpecies:9606
+33098688	760	767	patient	Species	9606
+33098688	773	796	intellectual disability	Disease	MESH:D008607
+33098688	887	891	UAP1	Gene	6675
+33098688	900	904	AGX1	Gene	6675
+33098688	1083	1088	A229T	DNAMutation	tmVar:c|SUB|A|229|T;HGVS:c.229A>T;VariantGroup:0;CorrespondingGene:6675;CorrespondingSpecies:9606
+33098688	1145	1152	patient	Species	9606
+33098688	Association	HGVS:c.229A>T;CorrespondingGene:6675	MESH:D002658
+33098688	Association	MESH:D008607	6675
+33098688	Association	HGVS:c.685G>A;CorrespondingGene:6675	MESH:D008607
+33098688	Association	MESH:D002658	8473
+33098688	Association	HGVS:c.229A>T;CorrespondingGene:6675	MESH:D008607
+33098688	Positive_Correlation	HGVS:c.229A>T;CorrespondingGene:6675	MESH:C567859
+33098688	Association	MESH:C567859	8473
+33098688	Association	MESH:D006595	6675
+33098688	Association	MESH:D002658	6675
+33098688	Association	MESH:D006595	8473
+33098688	Association	MESH:D008607	HGVS:p.A229T;CorrespondingGene:6675
+33098688	Association	MESH:D008607	8473
+33098688	Association	MESH:D002658	6675
+33098688	Association	MESH:D008607	6675
+33098688	Association	MESH:C567859	6675
+

@@ -1,0 +1,43 @@
+39580621|t|An ADPRS variant disrupts ARH3 stability and subcellular localization in children with neurodegeneration and respiratory failure.
+39580621|a|ADP-ribosylation is a post-translational modification involving the transfer of one or more ADP-ribose units from NAD+ to target proteins. Dysregulation of ADP-ribosylation is implicated in neurodegenerative diseases. In this study, genetic testing via exome sequencing was used to identify the underlying disease in two siblings with developmental delay, seizures, progressive muscle weakness, and respiratory failure following an episodic course. This identified a novel homozygous variant in the ADPRS gene (c.545A>G, p.His182Arg) encoding the mono(ADP-ribosyl) hydrolase ARH3, confirming the diagnosis of childhood-onset neurodegeneration with stress-induced ataxia and seizures (CONDSIAS) in these 2 children. Mechanistically, the ARH3H182R variant affects a highly conserved residue in the active site of ARH3, leading to protein instability, degradation, and subsequently, reduced protein expression. The ARH3H182R mutant additionally fails to localize to the nucleus, which further resulted in accumulated mono-ADP ribosylated species in cells. The children's clinical course combined with the biochemical characterization of their genetic variant develops our understanding of the pathogenic mechanisms driving CONDSIAS and highlights a critical role for ARH3-regulated ADP ribosylation in nervous system integrity.
+39580621	26	30	ARH3	Gene	54936
+39580621	87	104	neurodegeneration	Disease	MESH:D019636
+39580621	109	128	respiratory failure	Disease	MESH:D012131
+39580621	130	133	ADP	Chemical	MESH:D000244
+39580621	222	232	ADP-ribose	Chemical	MESH:D000246
+39580621	244	248	NAD+	Chemical	MESH:D009243
+39580621	286	289	ADP	Chemical	MESH:D000244
+39580621	320	346	neurodegenerative diseases	Disease	MESH:D019636
+39580621	465	484	developmental delay	Disease	MESH:D002658
+39580621	486	494	seizures	Disease	MESH:D012640
+39580621	508	523	muscle weakness	Disease	MESH:D018908
+39580621	529	548	respiratory failure	Disease	MESH:D012131
+39580621	641	649	c.545A>G	DNAMutation	tmVar:c|SUB|A|545|G;HGVS:c.545A>G;VariantGroup:0;CorrespondingGene:54936;CorrespondingSpecies:9606
+39580621	651	662	p.His182Arg	ProteinMutation	tmVar:p|SUB|H|182|R;HGVS:p.H182R;VariantGroup:0;CorrespondingGene:54936;CorrespondingSpecies:9606
+39580621	705	709	ARH3	Gene	54936
+39580621	755	772	neurodegeneration	Disease	MESH:D019636
+39580621	778	812	stress-induced ataxia and seizures	Disease	MESH:D000079225
+39580621	814	822	CONDSIAS	Disease	MESH:D000079225
+39580621	870	875	H182R	ProteinMutation	tmVar:p|SUB|H|182|R;HGVS:p.H182R;VariantGroup:0;CorrespondingGene:54936;CorrespondingSpecies:9606
+39580621	941	945	ARH3	Gene	54936
+39580621	1046	1051	H182R	ProteinMutation	tmVar:p|SUB|H|182|R;HGVS:p.H182R;VariantGroup:0;CorrespondingGene:54936;CorrespondingSpecies:9606
+39580621	1144	1152	mono-ADP	Chemical	-
+39580621	1350	1358	CONDSIAS	Disease	MESH:D000079225
+39580621	1394	1398	ARH3	Gene	54936
+39580621	1409	1412	ADP	Chemical	MESH:D000244
+39580621	Association	MESH:D012131	HGVS:c.545A>G;CorrespondingGene:54936
+39580621	Association	HGVS:c.545A>G;CorrespondingGene:54936	MESH:D019636
+39580621	Association	MESH:D000079225	HGVS:p.H182R;CorrespondingGene:54936
+39580621	Association	MESH:D012131	HGVS:p.H182R;CorrespondingGene:54936
+39580621	Association	HGVS:c.545A>G;CorrespondingGene:54936	MESH:D012131
+39580621	Association	MESH:D019636	HGVS:c.545A>G;CorrespondingGene:54936
+39580621	Association	MESH:D000079225	54936
+39580621	Association	MESH:D012131	54936
+39580621	Association	MESH:D000244	MESH:D019636
+39580621	Association	MESH:D000079225	HGVS:c.545A>G;CorrespondingGene:54936
+39580621	Association	MESH:D000244	54936
+39580621	Positive_Correlation	HGVS:c.545A>G;CorrespondingGene:54936	MESH:D000079225
+39580621	Association	MESH:D000246	MESH:D009243
+39580621	Association	MESH:D019636	HGVS:p.H182R;CorrespondingGene:54936
+39580621	Association	MESH:D019636	54936
+

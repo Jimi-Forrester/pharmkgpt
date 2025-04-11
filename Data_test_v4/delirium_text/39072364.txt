@@ -1,0 +1,24 @@
+39072364|t|Applying Spatial Metabolomics To Investigate Age- and Drug-Induced Neurochemical Changes.
+39072364|a|In an era when population aging is increasing the burden of neurodegenerative conditions, deciphering the mechanisms underlying brain senescence is more important than ever. Here, we present a spatial metabolomics analysis of age-induced neurochemical alterations in the mouse brain using negative ionization mode mass spectrometry imaging. The age-dependent effects of the acetylcholinesterase inhibitor tacrine were simultaneously examined. For ultrahigh mass resolution analysis, we utilized a Fourier-transform ion cyclotron resonance spectrometer. To complement this, a trapped ion mobility spectrometry time-of-flight analyzer provided high speed and lateral resolution. The chosen approach facilitated the detection and identification of a wide range of metabolites, from amino acids to sphingolipids. We reported significant, age-dependent alterations in brain lipids which were most evident for sulfatides and lysophosphatidic acids. Sulfatide species, which are mainly localized to white matter, either increased or decreased with age, depending on the carbon chain length and hydroxylation stage. Lysophosphatidic acids were found to decrease with age in the detailed cortical and hippocampal subregions. An age-dependent increase in the glutamine/glutamate ratio, an indicator of glia-neuron interconnection and neurotoxicity, was detected after tacrine administration. The presented metabolic mapping approach was able to provide visualizations of the lipid signaling and neurotransmission alterations induced by early aging and can thus be beneficial to further elucidating age-related neurochemical pathways.
+39072364	150	178	neurodegenerative conditions	Disease	MESH:D019636
+39072364	361	366	mouse	Species	10090
+39072364	464	484	acetylcholinesterase	Gene	11423
+39072364	495	502	tacrine	Chemical	MESH:D013619
+39072364	869	880	amino acids	Chemical	MESH:D000596
+39072364	884	897	sphingolipids	Chemical	MESH:D013107
+39072364	959	965	lipids	Chemical	MESH:D008055
+39072364	994	1004	sulfatides	Chemical	MESH:D013433
+39072364	1009	1031	lysophosphatidic acids	Chemical	MESH:D008246
+39072364	1033	1042	Sulfatide	Chemical	MESH:D013433
+39072364	1153	1159	carbon	Chemical	MESH:D002244
+39072364	1198	1220	Lysophosphatidic acids	Chemical	MESH:D008246
+39072364	1339	1358	glutamine/glutamate	ProteinMutation	tmVar:p|Allele|Q,E|;VariantGroup:0;OriginalGene:11423;CorrespondingGene:43;CorrespondingSpecies:10090
+39072364	1414	1427	neurotoxicity	Disease	MESH:D020258
+39072364	1448	1455	tacrine	Chemical	MESH:D013619
+39072364	1555	1560	lipid	Chemical	MESH:D008055
+39072364	Association	MESH:D020258	CorrespondingGene:43;CorrespondingSpecies:10090;OriginalGene:11423;VariantGroup:0;tmVar:p
+39072364	Positive_Correlation	MESH:D013619	CorrespondingGene:43;CorrespondingSpecies:10090;OriginalGene:11423;VariantGroup:0;tmVar:p
+39072364	Negative_Correlation	MESH:D013619	11423
+39072364	Positive_Correlation	MESH:D013619	MESH:D020258
+39072364	Association	MESH:D020258	43
+

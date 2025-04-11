@@ -1,0 +1,40 @@
+33168053|t|Tauopathy-associated tau modifications selectively impact neurodegeneration and mitophagy in a novel C. elegans single-copy transgenic model.
+33168053|a|BACKGROUND: A defining pathological hallmark of the progressive neurodegenerative disorder Alzheimer's disease (AD) is the accumulation of misfolded tau with abnormal post-translational modifications (PTMs). These include phosphorylation at Threonine 231 (T231) and acetylation at Lysine 274 (K274) and at Lysine 281 (K281). Although tau is recognized to play a central role in pathogenesis of AD, the precise mechanisms by which these abnormal PTMs contribute to the neural toxicity of tau is unclear. METHODS: Human 0N4R tau (wild type) was expressed in touch receptor neurons of the genetic model organism C. elegans through single-copy gene insertion. Defined mutations were then introduced into the single-copy tau transgene through CRISPR-Cas9 genome editing. These mutations included T231E, to mimic phosphorylation of a commonly observed pathological epitope, and K274/281Q, to mimic disease-associated lysine acetylation - collectively referred as "PTM-mimetics" - as well as a T231A phosphoablation mutant. Stereotypical touch response assays were used to assess behavioral defects in the transgenic strains as a function of age. Genetically-encoded fluorescent biosensors were expressed in touch neurons and used to measure neuronal morphology, mitochondrial morphology, mitophagy, and macro autophagy. RESULTS: Unlike existing tau overexpression models, C. elegans single-copy expression of tau did not elicit overt pathological phenotypes at baseline. However, strains expressing disease associated PTM-mimetics (T231E and K274/281Q) exhibited reduced touch sensation and neuronal morphological abnormalities that increased with age. In addition, the PTM-mimetic mutants lacked the ability to engage neuronal mitophagy in response to mitochondrial stress. CONCLUSIONS: Limiting the expression of tau results in a genetic model where modifications that mimic pathologic tauopathy-associated PTMs contribute to cryptic, stress-inducible phenotypes that evolve with age. These findings and their relationship to mitochondrial stress provides a new perspective into the pathogenic mechanisms underlying AD.
+33168053	0	9	Tauopathy	Disease	MESH:D024801
+33168053	21	24	tau	Gene	4137
+33168053	58	75	neurodegeneration	Disease	MESH:D019636
+33168053	101	111	C. elegans	Species	328850
+33168053	206	232	neurodegenerative disorder	Disease	MESH:D019636
+33168053	233	252	Alzheimer's disease	Disease	MESH:D000544
+33168053	254	256	AD	Disease	MESH:D000544
+33168053	291	294	tau	Gene	4137
+33168053	383	396	Threonine 231	ProteinMutation	tmVar:p|Allele|T|231;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+33168053	398	402	T231	DNAMutation	tmVar:c|Allele|T|231;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+33168053	476	479	tau	Gene	4137
+33168053	536	538	AD	Disease	MESH:D000544
+33168053	617	625	toxicity	Disease	MESH:D064420
+33168053	629	632	tau	Gene	4137
+33168053	654	659	Human	Species	9606
+33168053	665	668	tau	Gene	4137
+33168053	751	761	C. elegans	Species	328850
+33168053	858	861	tau	Gene	4137
+33168053	933	938	T231E	ProteinMutation	tmVar:p|SUB|T|231|E;HGVS:p.T231E;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+33168053	1129	1134	T231A	DNAMutation	tmVar:c|SUB|T|231|A;HGVS:c.231T>A;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+33168053	1481	1484	tau	Gene	4137
+33168053	1508	1518	C. elegans	Species	328850
+33168053	1545	1548	tau	Gene	4137
+33168053	1668	1673	T231E	ProteinMutation	tmVar:p|SUB|T|231|E;HGVS:p.T231E;VariantGroup:0;CorrespondingGene:4137;CorrespondingSpecies:9606
+33168053	1678	1687	K274/281Q	DNAMutation	tmVar:|Allele|K,Q|274_281;VariantGroup:1;CorrespondingGene:4137;CorrespondingSpecies:9606
+33168053	1727	1763	neuronal morphological abnormalities	Disease	MESH:D000013
+33168053	1951	1954	tau	Gene	4137
+33168053	2024	2033	tauopathy	Disease	MESH:D024801
+33168053	2254	2256	AD	Disease	MESH:D000544
+33168053	Positive_Correlation	CorrespondingGene:4137;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p	MESH:D000013
+33168053	Positive_Correlation	MESH:D000013	HGVS:p.T231E;CorrespondingGene:4137
+33168053	Positive_Correlation	MESH:D000013	CorrespondingGene:4137;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+33168053	Association	MESH:D000544	4137
+33168053	Positive_Correlation	CorrespondingGene:4137;CorrespondingSpecies:9606;VariantGroup:1;tmVar:	MESH:D000013
+33168053	Association	MESH:D024801	4137
+33168053	Association	MESH:D019636	4137
+33168053	Association	MESH:D000013	4137
+

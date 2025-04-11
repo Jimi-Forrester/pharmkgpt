@@ -1,0 +1,14 @@
+37789969|t|Escitalopram Personalized Dosing: A Population Pharmacokinetics Repository Method.
+37789969|a|Escitalopram (SCIT) represents a first-line antidepressant and antianxiety medication. Pharmacokinetic studies of SCIT have demonstrated considerable interindividual variability, emphasizing the need for personalized dosing. Accordingly, we aimed to create a repository of parametric population pharmacokinetic (PPK) models of SCIT to facilitate model-informed precision dosing. In November 2022, we searched PubMed, Embase, and Web of Science for published PPK models and identified eight models. All the structural models reported in the literature were either one- or two-compartment models. In order to investigate the variances in model performance, the parameters of all PPK models were derived from the literature published. A representative virtual population, characterized by an age of 30, a body weight of 70 kg, and a BMI of 23 kg/m2, was generated for the purpose of replicating these models. To accomplish this, the rxode2 package in the R programming language was employed. Subsequently, we compared simulated concentration-time profiles and evaluated the impact of covariates on clearance. The most significant covariates were CYP2C19 phenotype, weight, and age, indicating that dosing regimens should be tailored accordingly. Additionally, among Chinese psychiatric patients, SCIT showed nearly double the exposure compared to other populations, specifically when considering the same CYP2C19 population restriction, which is a knowledge gap that needs further investigation. Furthermore, this repository of parametric PPK models for SCIT has a wide range of potential applications, like design miss or delay dose remedy strategies and external PPK model validation.
+37789969	0	12	Escitalopram	Chemical	MESH:D000089983
+37789969	83	95	Escitalopram	Chemical	MESH:D000089983
+37789969	97	101	SCIT	Chemical	-
+37789969	197	201	SCIT	Disease	
+37789969	410	414	SCIT	Disease	
+37789969	1226	1233	CYP2C19	Gene	1557
+37789969	1354	1365	psychiatric	Disease	MESH:D001523
+37789969	1376	1380	SCIT	Disease	
+37789969	1485	1492	CYP2C19	Gene	1557
+37789969	1634	1638	SCIT	Disease	
+37789969	Association	MESH:D001523	1557
+

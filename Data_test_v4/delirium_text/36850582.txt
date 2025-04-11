@@ -1,0 +1,21 @@
+36850582|t|Identification of a Gait Pattern for Detecting Mild Cognitive Impairment in Parkinson's Disease.
+36850582|a|The aim of this study was to determine a gait pattern, i.e., a subset of spatial and temporal parameters, through a supervised machine learning (ML) approach, which could be used to reliably distinguish Parkinson's Disease (PD) patients with and without mild cognitive impairment (MCI). Thus, 80 PD patients underwent gait analysis and spatial-temporal parameters were acquired in three different conditions (normal gait, motor dual task and cognitive dual task). Statistical analysis was performed to investigate the data and, then, five ML algorithms and the wrapper method were implemented: Decision Tree (DT), Random Forest (RF), Naive Bayes (NB), Support Vector Machine (SVM) and K-Nearest Neighbour (KNN). First, the algorithms for classifying PD patients with MCI were trained and validated on an internal dataset (sixty patients) and, then, the performance was tested by using an external dataset (twenty patients). Specificity, sensitivity, precision, accuracy and area under the receiver operating characteristic curve were calculated. SVM and RF showed the best performance and detected MCI with an accuracy of over 80.0%. The key features emerging from this study are stance phase, mean velocity, step length and cycle length; moreover, the major number of features selected by the wrapper belonged to the cognitive dual task, thus, supporting the close relationship between gait dysfunction and MCI in PD.
+36850582	52	72	Cognitive Impairment	Disease	MESH:D003072
+36850582	76	95	Parkinson's Disease	Disease	MESH:D010300
+36850582	300	319	Parkinson's Disease	Disease	MESH:D010300
+36850582	321	323	PD	Disease	MESH:D010300
+36850582	325	333	patients	Species	9606
+36850582	356	376	cognitive impairment	Disease	MESH:D003072
+36850582	378	381	MCI	Disease	MESH:D060825
+36850582	393	395	PD	Disease	MESH:D010300
+36850582	396	404	patients	Species	9606
+36850582	847	849	PD	Disease	MESH:D010300
+36850582	850	858	patients	Species	9606
+36850582	864	867	MCI	Disease	MESH:D060825
+36850582	925	933	patients	Species	9606
+36850582	1010	1018	patients	Species	9606
+36850582	1195	1198	MCI	Disease	MESH:D060825
+36850582	1484	1500	gait dysfunction	Disease	MESH:D020233
+36850582	1505	1508	MCI	Disease	MESH:D060825
+36850582	1512	1514	PD	Disease	MESH:D010300
+

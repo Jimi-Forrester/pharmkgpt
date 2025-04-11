@@ -1,0 +1,25 @@
+36328490|t|Fast and Accurate Amyloid Brain PET Quantification Without MRI Using Deep Neural Networks.
+36328490|a|This paper proposes a novel method for automatic quantification of amyloid PET using deep learning-based spatial normalization (SN) of PET images, which does not require MRI or CT images of the same patient. The accuracy of the method was evaluated for 3 different amyloid PET radiotracers compared with MRI-parcellation-based PET quantification using FreeSurfer. Methods: A deep neural network model used for the SN of amyloid PET images was trained using 994 multicenter amyloid PET images (367 18F-flutemetamol and 627 18F-florbetaben) and the corresponding 3-dimensional MR images of subjects who had Alzheimer disease or mild cognitive impairment or were cognitively normal. For comparison, PET SN was also conducted using version 12 of the Statistical Parametric Mapping program (SPM-based SN). The accuracy of deep learning-based and SPM-based SN and SUV ratio quantification relative to the FreeSurfer-based estimation in individual brain spaces was evaluated using 148 other amyloid PET images (64 18F-flutemetamol and 84 18F-florbetaben). Additional external validation was performed using an unseen independent external dataset (30 18F-flutemetamol, 67 18F-florbetaben, and 39 18F-florbetapir). Results: Quantification results using the proposed deep learning-based method showed stronger correlations with the FreeSurfer estimates than SPM-based SN using MRI did. For example, the slope, y-intercept, and R 2 values between SPM and FreeSurfer for the global cortex were 0.869, 0.113, and 0.946, respectively. In contrast, the slope, y-intercept, and R 2 values between the proposed deep learning-based method and FreeSurfer were 1.019, -0.016, and 0.986, respectively. The external validation study also demonstrated better performance for the proposed method without MR images than for SPM with MRI. In most brain regions, the proposed method outperformed SPM SN in terms of linear regression parameters and intraclass correlation coefficients. Conclusion: We evaluated a novel deep learning-based SN method that allows quantitative analysis of amyloid brain PET images without structural MRI. The quantification results using the proposed method showed a strong correlation with MRI-parcellation-based quantification using FreeSurfer for all clinical amyloid radiotracers. Therefore, the proposed method will be useful for investigating Alzheimer disease and related brain disorders using amyloid PET scans.
+36328490	158	165	amyloid	Disease	MESH:C000718787
+36328490	290	297	patient	Species	9606
+36328490	356	363	amyloid	Disease	MESH:C000718787
+36328490	511	518	amyloid	Disease	MESH:C000718787
+36328490	564	571	amyloid	Disease	MESH:C000718787
+36328490	588	604	18F-flutemetamol	Chemical	MESH:C581552
+36328490	613	628	18F-florbetaben	Chemical	MESH:C527756
+36328490	696	713	Alzheimer disease	Disease	MESH:D000544
+36328490	722	742	cognitive impairment	Disease	MESH:D003072
+36328490	1075	1082	amyloid	Disease	MESH:C000718787
+36328490	1098	1114	18F-flutemetamol	Chemical	MESH:C581552
+36328490	1122	1137	18F-florbetaben	Chemical	MESH:C527756
+36328490	1234	1250	18F-flutemetamol	Chemical	MESH:C581552
+36328490	1255	1270	18F-florbetaben	Chemical	MESH:C527756
+36328490	1279	1294	18F-florbetapir	Chemical	MESH:C545186
+36328490	2149	2156	amyloid	Disease	MESH:C000718787
+36328490	2356	2363	amyloid	Disease	MESH:C000718787
+36328490	2442	2459	Alzheimer disease	Disease	MESH:D000544
+36328490	2472	2487	brain disorders	Disease	MESH:D001927
+36328490	2494	2501	amyloid	Disease	MESH:C000718787
+36328490	Positive_Correlation	MESH:C527756	MESH:C000718787
+36328490	Positive_Correlation	MESH:C581552	MESH:C000718787
+

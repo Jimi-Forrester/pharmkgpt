@@ -1,0 +1,16 @@
+39079537|t|Omnibus proteome-wide association study identifies 43 risk genes for Alzheimer disease dementia.
+39079537|a|Transcriptome-wide association study (TWAS) tools have been applied to conduct proteome-wide association studies (PWASs) by integrating proteomics data with genome-wide association study (GWAS) summary data. The genetic effects of PWAS-identified significant genes are potentially mediated through genetically regulated protein abundance, thus informing the underlying disease mechanisms better than GWAS loci. However, existing TWAS/PWAS tools are limited by considering only one statistical model. We propose an omnibus PWAS pipeline to account for multiple statistical models and demonstrate improved performance by simulation and application studies of Alzheimer disease (AD) dementia. We employ the Aggregated Cauchy Association Test to derive omnibus PWAS (PWAS-O) p values from PWAS p values obtained by three existing tools assuming complementary statistical models-TIGAR, PrediXcan, and FUSION. Our simulation studies demonstrated improved power, with well-calibrated type I error, for PWAS-O over all three individual tools. We applied PWAS-O to studying AD dementia with reference proteomic data profiled from dorsolateral prefrontal cortex of postmortem brains from individuals of European ancestry. We identified 43 risk genes, including 5 not identified by previous studies, which are interconnected through a protein-protein interaction network that includes the well-known AD risk genes TOMM40, APOC1, and APOC2. We also validated causal genetic effects mediated through the proteome for 27 (63%) PWAS-O risk genes, providing insights into the underlying biological mechanisms of AD dementia and highlighting promising targets for therapeutic development. PWAS-O can be easily applied to studying other complex diseases.
+39079537	69	95	Alzheimer disease dementia	Disease	MESH:D000544
+39079537	754	771	Alzheimer disease	Disease	MESH:D000544
+39079537	773	775	AD	Disease	MESH:D000544
+39079537	777	785	dementia	Disease	MESH:D003704
+39079537	1162	1173	AD dementia	Disease	MESH:D000544
+39079537	1486	1488	AD	Disease	MESH:D000544
+39079537	1500	1506	TOMM40	Gene	10452
+39079537	1508	1513	APOC1	Gene	341
+39079537	1519	1524	APOC2	Gene	344
+39079537	1693	1704	AD dementia	Disease	MESH:D000544
+39079537	Association	MESH:D000544	341
+39079537	Association	MESH:D000544	344
+39079537	Association	MESH:D000544	10452
+

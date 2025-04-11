@@ -1,0 +1,40 @@
+12540143|t|Management of the violent patient.
+12540143|a|Emergency medical services (EMS) providers must often manage violent or combative patients. The data regarding violence against EMS personnel are poor, but according to studies conducted thus far, between 0.8% and 5.0% of incidents to which EMS personnel respond involve violence or the threat of violence. Physical or chemical restraint is usually the only option available to emergency care providers to control violent patients. Physical restraint, however, can lead to sudden death in otherwise healthy patients, possibly as a result of positional asphyxia, severe acidosis, or a patient's excited delirium. Chemical restraint has traditionally consisted of either neuroleptics or benzodiazepines, but those drugs also have drawbacks. Haloperidol and droperidol, the neuroleptics most frequently used for restraint, can cause serious side effects such as extrapyramidal symptoms or QTc (QT interval corrected for heart rate) prolongation. The Food and Drug Administration recently issued a black box warning regarding the use of droperidol, because the QTc prolongation associated with the drug has led to fatal torsades de pointes in some patients. Benzodiazepines are also associated with adverse effects, such as sedation and respiratory depression, especially when the drugs are mixed with alcohol. The atypical antipsychotics, a new option that may be available soon, are less likely to cause such effects and therefore may be preferred over the neuroleptics. Liquid and injectable formulations of various atypical antipsychotics are currently in clinical trials. Because few options are currently available to EMS personnel for managing violent patients outside of the hospital, more research regarding violence against emergency care providers is necessary.
+12540143	26	33	patient	Species	9606
+12540143	117	125	patients	Species	9606
+12540143	146	154	violence	Disease	
+12540143	306	314	violence	Disease	
+12540143	332	340	violence	Disease	
+12540143	457	465	patients	Species	9606
+12540143	508	520	sudden death	Disease	MESH:D003645
+12540143	542	550	patients	Species	9606
+12540143	587	595	asphyxia	Disease	MESH:D001237
+12540143	604	612	acidosis	Disease	MESH:D000138
+12540143	619	626	patient	Species	9606
+12540143	637	645	delirium	Disease	MESH:D003693
+12540143	720	735	benzodiazepines	Chemical	MESH:D001569
+12540143	774	785	Haloperidol	Chemical	MESH:D006220
+12540143	790	800	droperidol	Chemical	MESH:D004329
+12540143	894	917	extrapyramidal symptoms	Disease	MESH:D001480
+12540143	921	924	QTc	Disease	
+12540143	926	937	QT interval	Disease	OMIM:610141
+12540143	962	976	) prolongation	Disease	MESH:D008133
+12540143	1068	1078	droperidol	Chemical	MESH:D004329
+12540143	1092	1108	QTc prolongation	Disease	MESH:D008133
+12540143	1151	1170	torsades de pointes	Disease	MESH:D016171
+12540143	1179	1187	patients	Species	9606
+12540143	1189	1204	Benzodiazepines	Chemical	MESH:D001569
+12540143	1268	1290	respiratory depression	Disease	MESH:D012131
+12540143	1333	1340	alcohol	Chemical	MESH:D000438
+12540143	1690	1698	patients	Species	9606
+12540143	1748	1756	violence	Disease	
+12540143	Positive_Correlation	MESH:D004329	MESH:D016171
+12540143	Association	MESH:D000438	MESH:D001569
+12540143	Positive_Correlation	MESH:D004329	MESH:D001480
+12540143	Positive_Correlation	MESH:D006220	OMIM:610141
+12540143	Positive_Correlation	MESH:D001569	MESH:D012131
+12540143	Positive_Correlation	MESH:D004329	OMIM:610141
+12540143	Positive_Correlation	MESH:D004329	MESH:D008133
+12540143	Positive_Correlation	MESH:D006220	MESH:D008133
+12540143	Positive_Correlation	MESH:D006220	MESH:D001480
+

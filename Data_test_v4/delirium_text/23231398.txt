@@ -1,0 +1,16 @@
+23231398|t|Predicting monoamine oxidase inhibitory activity through ligand-based models.
+23231398|a|The evolution of bio- and cheminformatics associated with the development of specialized software and increasing computer power has produced a great interest in theoretical in silico methods applied in drug rational design. These techniques apply the concept that "similar molecules have similar biological properties" that has been exploited in Medicinal Chemistry for years to design new molecules with desirable pharmacological profiles. Ligand-based methods are not dependent on receptor structural data and take into account two and three-dimensional molecular properties to assess similarity of new compounds in regards to the set of molecules with the biological property under study. Depending on the complexity of the calculation, there are different types of ligand-based methods, such as QSAR (Quantitative Structure- Activity Relationship) with 2D and 3D descriptors, CoMFA (Comparative Molecular Field Analysis) or pharmacophoric approaches. This work provides a description of a series of ligand-based models applied in the prediction of the inhibitory activity of monoamine oxidase (MAO) enzymes. The controlled regulation of the enzymes' function through the use of MAO inhibitors is used as a treatment in many psychiatric and neurological disorders, such as depression, anxiety, Alzheimer's and Parkinson's disease. For this reason, multiple scaffolds, such as substituted coumarins, indolylmethylamine or pyridazine derivatives were synthesized and assayed toward MAO-A and MAO-B inhibition. Our intention is to focus on the description of ligand-based models to provide new insights in the relationship between the MAO inhibitory activity and the molecular structure of the different inhibitors, and further study enzyme selectivity and possible mechanisms of action.
+23231398	1306	1344	psychiatric and neurological disorders	Disease	MESH:D001523
+23231398	1354	1364	depression	Disease	MESH:D003866
+23231398	1366	1373	anxiety	Disease	MESH:D001007
+23231398	1375	1410	Alzheimer's and Parkinson's disease	Disease	MESH:D010300
+23231398	1469	1478	coumarins	Chemical	MESH:D003374
+23231398	1480	1498	indolylmethylamine	Chemical	-
+23231398	1502	1512	pyridazine	Chemical	MESH:C062482
+23231398	1561	1566	MAO-A	Gene	4128
+23231398	1571	1576	MAO-B	Gene	4129
+23231398	Negative_Correlation	MESH:C062482	4129
+23231398	Negative_Correlation	MESH:D003374	4128
+23231398	Negative_Correlation	MESH:D003374	4129
+23231398	Negative_Correlation	MESH:C062482	4128
+

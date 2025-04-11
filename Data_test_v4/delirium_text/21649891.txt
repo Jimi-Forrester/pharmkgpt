@@ -1,0 +1,52 @@
+21649891|t|The metabolic advantage of tumor cells.
+21649891|a|1- Oncogenes express proteins of "Tyrosine kinase receptor pathways", a receptor family including insulin or IGF-Growth Hormone receptors. Other oncogenes alter the PP2A phosphatase brake over these kinases. 2- Experiments on pancreatectomized animals; treated with pure insulin or total pancreatic extracts, showed that choline in the extract, preserved them from hepatomas. Since choline is a methyle donor, and since methylation regulates PP2A, the choline protection may result from PP2A methylation, which then attenuates kinases. 3- Moreover, kinases activated by the boosted signaling pathway inactivate pyruvate kinase and pyruvate dehydrogenase. In addition, demethylated PP2A would no longer dephosphorylate these enzymes. A "bottleneck" between glycolysis and the oxidative-citrate cycle interrupts the glycolytic pyruvate supply now provided via proteolysis and alanine transamination. This pyruvate forms lactate (Warburg effect) and NAD+ for glycolysis. Lipolysis and fatty acids provide acetyl CoA; the citrate condensation increases, unusual oxaloacetate sources are available. ATP citrate lyase follows, supporting aberrant transaminations with glutaminolysis and tumor lipogenesis. Truncated urea cycles, increased polyamine synthesis, consume the methyl donor SAM favoring carcinogenesis. 4- The decrease of butyrate, a histone deacetylase inhibitor, elicits epigenic changes (PETEN, P53, IGFBP decrease; hexokinase, fetal-genes-M2, increase). 5- IGFBP stops binding the IGF - IGFR complex, it is perhaps no longer inherited by a single mitotic daughter cell; leading to two daughter cells with a mitotic capability. 6- An excess of IGF induces a decrease of the major histocompatibility complex MHC1, Natural killer lymphocytes should eliminate such cells that start the tumor, unless the fever prostaglandin PGE2 or inflammation, inhibit them...
+21649891	27	32	tumor	Disease	MESH:D009369
+21649891	138	145	insulin	Gene	3630
+21649891	205	209	PP2A	Gene	5524
+21649891	311	318	insulin	Gene	3630
+21649891	361	368	choline	Chemical	MESH:D002794
+21649891	405	414	hepatomas	Disease	MESH:D006528
+21649891	422	429	choline	Chemical	MESH:D002794
+21649891	482	486	PP2A	Gene	5524
+21649891	492	499	choline	Chemical	MESH:D002794
+21649891	527	531	PP2A	Gene	5524
+21649891	721	725	PP2A	Gene	5524
+21649891	825	832	citrate	Chemical	MESH:D019343
+21649891	865	873	pyruvate	Chemical	MESH:D019289
+21649891	914	921	alanine	Chemical	MESH:D000409
+21649891	943	951	pyruvate	Chemical	MESH:D019289
+21649891	958	965	lactate	Chemical	MESH:D019344
+21649891	987	991	NAD+	Chemical	MESH:D009243
+21649891	1022	1033	fatty acids	Chemical	MESH:D005227
+21649891	1042	1052	acetyl CoA	Chemical	MESH:D000105
+21649891	1058	1065	citrate	Chemical	MESH:D019343
+21649891	1098	1110	oxaloacetate	Chemical	MESH:D062907
+21649891	1134	1151	ATP citrate lyase	Gene	47
+21649891	1221	1226	tumor	Disease	MESH:D009369
+21649891	1250	1254	urea	Chemical	MESH:D014508
+21649891	1273	1282	polyamine	Chemical	MESH:D011073
+21649891	1332	1346	carcinogenesis	Disease	MESH:D063646
+21649891	1367	1375	butyrate	Chemical	MESH:D002087
+21649891	1443	1446	P53	Gene	7157
+21649891	1464	1474	hexokinase	Gene	3098
+21649891	1536	1540	IGFR	Gene	3480
+21649891	1831	1836	tumor	Disease	MESH:D009369
+21649891	1849	1854	fever	Disease	MESH:D005334
+21649891	1869	1873	PGE2	Chemical	MESH:D015232
+21649891	1877	1889	inflammation	Disease	MESH:D007249
+21649891	Positive_Correlation	MESH:D000105	MESH:D005227
+21649891	Positive_Correlation	MESH:D009243	MESH:D019289
+21649891	Association	MESH:D000409	MESH:D019343
+21649891	Association	MESH:D019343	MESH:D062907
+21649891	Negative_Correlation	MESH:D002794	MESH:D006528
+21649891	Positive_Correlation	MESH:D011073	MESH:D063646
+21649891	Association	MESH:D000409	MESH:D019289
+21649891	Association	MESH:D002087	7157
+21649891	Negative_Correlation	MESH:D015232	MESH:D009369
+21649891	Association	MESH:D019289	MESH:D019343
+21649891	Association	MESH:D002087	3098
+21649891	Positive_Correlation	MESH:D014508	MESH:D063646
+21649891	Positive_Correlation	MESH:D011073	MESH:D014508
+21649891	Association	MESH:D002794	5524
+21649891	Association	MESH:D009369	47
+

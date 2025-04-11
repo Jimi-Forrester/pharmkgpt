@@ -1,0 +1,21 @@
+38352937|t|Large language models assisted multi-effect variants mining on cerebral cavernous malformation familial whole genome sequencing.
+38352937|a|Cerebral cavernous malformation (CCM) is a polygenic disease with intricate genetic interactions contributing to quantitative pathogenesis across multiple factors. The principal pathogenic genes of CCM, specifically KRIT1, CCM2, and PDCD10, have been reported, accompanied by a growing wealth of genetic data related to mutations. Furthermore, numerous other molecules associated with CCM have been unearthed. However, tackling such massive volumes of unstructured data remains challenging until the advent of advanced large language models. In this study, we developed an automated analytical pipeline specialized in single nucleotide variants (SNVs) related biomedical text analysis called BRLM. To facilitate this, BioBERT was employed to vectorize the rich information of SNVs, while a deep residue network was used to discriminate the classes of the SNVs. BRLM was initially constructed on mutations from 12 different types of TCGA cancers, achieving an accuracy exceeding 99%. It was further examined for CCM mutations in familial sequencing data analysis, highlighting an upstream master regulator gene fibroblast growth factor 1 (FGF1). With multi-omics characterization and validation in biological function, FGF1 demonstrated to play a significant role in the development of CCMs, which proved the effectiveness of our model. The BRLM web server is available at http://1.117.230.196.
+38352937	63	94	cerebral cavernous malformation	Disease	MESH:D020786
+38352937	129	160	Cerebral cavernous malformation	Disease	MESH:D020786
+38352937	162	165	CCM	Disease	MESH:D020786
+38352937	327	330	CCM	Disease	MESH:D020786
+38352937	345	350	KRIT1	Gene	889
+38352937	352	356	CCM2	Gene	83605
+38352937	362	368	PDCD10	Gene	11235
+38352937	514	517	CCM	Disease	MESH:D020786
+38352937	1066	1073	cancers	Disease	MESH:D009369
+38352937	1140	1143	CCM	Disease	MESH:D020786
+38352937	1239	1265	fibroblast growth factor 1	Gene	2246
+38352937	1267	1271	FGF1	Gene	2246
+38352937	1347	1351	FGF1	Gene	2246
+38352937	1414	1418	CCMs	Disease	
+38352937	Association	MESH:D020786	11235
+38352937	Association	MESH:D020786	83605
+38352937	Association	MESH:D020786	2246
+38352937	Association	MESH:D020786	889
+

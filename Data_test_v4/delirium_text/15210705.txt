@@ -1,0 +1,50 @@
+15210705|t|Co-expression of nicastrin and presenilin rescues a loss of function mutant of APH-1.
+15210705|a|gamma-Secretase is an intramembrane-cleaving aspartyl protease complex that mediates the final cleavage of beta-amyloid precursor protein to liberate the neurotoxic amyloid-beta peptide implicated in Alzheimer's disease. The four proteins presenilin (PS), nicastrin (NCT), APH-1, and PEN-2 are sufficient to reconstitute gamma-secretase activity in yeast. Although PS seems to contribute the catalytic core of the gamma-secretase complex, no distinct function could be attributed to the other components so far. In Caenorhabditis elegans, mutation of a glycine to an aspartic acid within a conserved GXXXG motif in the fourth transmembrane domain of APH-1 causes a loss of function phenotype. Surprisingly, we now found that the human homologue APH-1a carrying the equivalent mutation G122D is fully active in yeast co-expressing PS1, NCT, and PEN-2. To address this discrepancy, we expressed APH-1a G122D in HEK293 cells. As reported previously, overexpressed APH-1a G122D was not incorporated into the gamma-secretase complex. Separate overexpression of PS1, NCT, or PEN-2 together with APH-1a G122D allowed the formation of heterodimers lacking the other endogenous components. Only the combined overexpression of PS1 and NCT together with APH-1a G122D facilitated the formation of a fully active gamma-secretase complex. Under these conditions, APH-1a G122D supported the production of normal amounts of Abeta. We conclude that cooperative effects may stabilize a trim-eric complex of APH-1a G122D together with PS1 and NCT. Upon successful complex assembly, the GXXXG motif becomes dispensable for gamma-secretase activity.
+15210705	17	26	nicastrin	Gene	23385
+15210705	79	84	APH-1	Gene	51107
+15210705	193	223	beta-amyloid precursor protein	Gene	351
+15210705	240	271	neurotoxic amyloid-beta peptide	Disease	MESH:C565529
+15210705	286	305	Alzheimer's disease	Disease	MESH:D000544
+15210705	342	351	nicastrin	Gene	23385
+15210705	353	356	NCT	Gene	23385
+15210705	359	364	APH-1	Gene	51107
+15210705	370	375	PEN-2	Gene	55851
+15210705	435	440	yeast	Species	4932
+15210705	601	623	Caenorhabditis elegans	Species	6239
+15210705	639	666	glycine to an aspartic acid	ProteinMutation	tmVar:p|SUB|G||D;VariantGroup:1;CorrespondingGene:51107;CorrespondingSpecies:9606
+15210705	736	741	APH-1	Gene	51107
+15210705	815	820	human	Species	9606
+15210705	831	837	APH-1a	Gene	51107
+15210705	871	876	G122D	ProteinMutation	tmVar:p|SUB|G|122|D;HGVS:p.G122D;VariantGroup:0;CorrespondingGene:51107;CorrespondingSpecies:9606
+15210705	896	901	yeast	Species	4932
+15210705	916	919	PS1	Gene	5663
+15210705	921	924	NCT	Gene	23385
+15210705	930	935	PEN-2	Gene	55851
+15210705	979	985	APH-1a	Gene	51107
+15210705	986	991	G122D	ProteinMutation	tmVar:p|SUB|G|122|D;HGVS:p.G122D;VariantGroup:0;CorrespondingGene:51107;CorrespondingSpecies:9606
+15210705	995	1001	HEK293	CellLine	CVCL:0045
+15210705	1047	1053	APH-1a	Gene	51107
+15210705	1054	1059	G122D	ProteinMutation	tmVar:p|SUB|G|122|D;HGVS:p.G122D;VariantGroup:0;CorrespondingGene:51107;CorrespondingSpecies:9606
+15210705	1142	1145	PS1	Gene	5663
+15210705	1147	1150	NCT	Gene	23385
+15210705	1155	1160	PEN-2	Gene	55851
+15210705	1175	1181	APH-1a	Gene	51107
+15210705	1182	1187	G122D	ProteinMutation	tmVar:p|SUB|G|122|D;HGVS:p.G122D;VariantGroup:0;CorrespondingGene:51107;CorrespondingSpecies:9606
+15210705	1303	1306	PS1	Gene	5663
+15210705	1311	1314	NCT	Gene	23385
+15210705	1329	1335	APH-1a	Gene	51107
+15210705	1336	1341	G122D	ProteinMutation	tmVar:p|SUB|G|122|D;HGVS:p.G122D;VariantGroup:0;CorrespondingGene:51107;CorrespondingSpecies:9606
+15210705	1435	1441	APH-1a	Gene	51107
+15210705	1442	1447	G122D	ProteinMutation	tmVar:p|SUB|G|122|D;HGVS:p.G122D;VariantGroup:0;CorrespondingGene:51107;CorrespondingSpecies:9606
+15210705	1494	1499	Abeta	Gene	351
+15210705	1575	1581	APH-1a	Gene	51107
+15210705	1582	1587	G122D	ProteinMutation	tmVar:p|SUB|G|122|D;HGVS:p.G122D;VariantGroup:0;CorrespondingGene:51107;CorrespondingSpecies:9606
+15210705	1602	1605	PS1	Gene	5663
+15210705	1610	1613	NCT	Gene	23385
+15210705	Bind	23385	51107
+15210705	Association	MESH:C565529	351
+15210705	Association	51107	55851
+15210705	Positive_Correlation	351	51107
+15210705	Association	MESH:D000544	351
+15210705	Bind	51107	5663
+

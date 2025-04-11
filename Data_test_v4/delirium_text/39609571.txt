@@ -1,0 +1,23 @@
+39609571|t|Machine learning-based diagnostic model for stroke in non-neurological intensive care unit patients with acute neurological manifestations.
+39609571|a|Stroke is a neurological complication that can occur in patients admitted to the intensive care unit (ICU) for non-neurological conditions, leading to increased mortality and prolonged hospital stays. The incidence of stroke in ICU settings is notably higher compared to the general population, and delays in diagnosis can lead to irreversible neurological damage. Early diagnosis of stroke is critical to protect brain tissue and treat neurological defects. Therefore, we developed a machine learning model to diagnose stroke in patients with acute neurological manifestations in the ICU. We retrospectively collected data on patients' underlying diseases, blood coagulation tests, procedures, and medications before neurological symptom onset from 206 patients at the Chungbuk National University Hospital ICU (July 2020-July 2022) and 45 patients at Chungnam National University Hospital between (July 2020-March 2023). Using the Categorical Boosting (CatBoost) algorithm with Bayesian optimization for hyperparameter selection and k-fold cross-validation to mitigate overfitting, we analyzed model-feature relationships with SHapley Additive exPlanations (SHAP) values. Internal model validation yielded an average accuracy of 0.7560, sensitivity of 0.8959, specificity of 0.7000, and area under the receiver operating characteristic curve (AUROC) of 0.8201. External validation yielded an accuracy of 0.7778, sensitivity of 0.7500, specificity of 0.7931, and an AUROC of 0.7328. These results demonstrated the model's effectiveness in diagnosing stroke in non-neurological ICU patients with acute neurological manifestations using their electronic health records, making it valuable for the early detection of stroke in ICU patients.
+39609571	44	50	stroke	Disease	MESH:D020521
+39609571	91	99	patients	Species	9606
+39609571	140	146	Stroke	Disease	MESH:D020521
+39609571	152	177	neurological complication	Disease	MESH:D002493
+39609571	196	204	patients	Species	9606
+39609571	358	364	stroke	Disease	MESH:D020521
+39609571	484	503	neurological damage	Disease	MESH:D020196
+39609571	524	530	stroke	Disease	MESH:D020521
+39609571	577	597	neurological defects	Disease	MESH:D009421
+39609571	660	666	stroke	Disease	MESH:D020521
+39609571	670	678	patients	Species	9606
+39609571	767	775	patients	Species	9606
+39609571	798	815	blood coagulation	Disease	MESH:D001778
+39609571	858	878	neurological symptom	Disease	MESH:D009461
+39609571	894	902	patients	Species	9606
+39609571	981	989	patients	Species	9606
+39609571	1691	1697	stroke	Disease	MESH:D020521
+39609571	1722	1730	patients	Species	9606
+39609571	1855	1861	stroke	Disease	MESH:D020521
+39609571	1869	1877	patients	Species	9606
+

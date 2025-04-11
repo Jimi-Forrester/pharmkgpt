@@ -1,0 +1,21 @@
+34055238|t|Prediction of repurposed drugs for Coronaviruses using artificial intelligence and machine learning.
+34055238|a|The world is facing the COVID-19 pandemic caused by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). Likewise, other viruses of the Coronaviridae family were responsible for causing epidemics earlier. To tackle these viruses, there is a lack of approved antiviral drugs. Therefore, we have developed robust computational methods to predict the repurposed drugs using machine learning techniques namely Support Vector Machine, Random Forest, k-Nearest Neighbour, Artificial Neural Network, and Deep Learning. We used the experimentally validated drugs/chemicals with anticorona activity (IC50/EC50) from 'DrugRepV' repository. The unique entries of SARS-CoV-2 (142), SARS (221), MERS (123), and overall Coronaviruses (414) were subdivided into the training/testing and independent validation datasets, followed by the extraction of chemical/structural descriptors and fingerprints (17968). The highly relevant features were filtered using the recursive feature selection algorithm. The selected chemical descriptors were used to develop prediction models with Pearson's correlation coefficients ranging from 0.60 to 0.90 on training/testing. The robustness of the predictive models was further ensured using external independent validation datasets, decoy datasets, applicability domain, and chemical analyses. The developed models were used to predict promising repurposed drug candidates against coronaviruses after scanning the DrugBank. Top predicted molecules for SARS-CoV-2 were further validated by molecular docking against the spike protein complex with ACE receptor. We found potential repurposed drugs namely Verteporfin, Alatrofloxacin, Metergoline, Rescinnamine, Leuprolide, and Telotristat ethyl with high binding affinity. These 'anticorona' computational models would assist in antiviral drug discovery against SARS-CoV-2 and other Coronaviruses.
+34055238	35	48	Coronaviruses	Disease	
+34055238	125	133	COVID-19	Disease	MESH:D000086382
+34055238	153	200	Severe Acute Respiratory Syndrome Coronavirus 2	Species	2697049
+34055238	202	212	SARS-CoV-2	Species	2697049
+34055238	762	772	SARS-CoV-2	Species	2697049
+34055238	780	784	SARS	Disease	MESH:D045169
+34055238	792	796	MERS	Disease	MESH:D018352
+34055238	816	829	Coronaviruses	Species	
+34055238	1511	1524	coronaviruses	Disease	
+34055238	1582	1592	SARS-CoV-2	Species	2697049
+34055238	1676	1688	ACE receptor	Gene	
+34055238	1733	1744	Verteporfin	Chemical	MESH:D000077362
+34055238	1746	1760	Alatrofloxacin	Chemical	MESH:C106856
+34055238	1762	1773	Metergoline	Chemical	MESH:D008711
+34055238	1775	1787	Rescinnamine	Chemical	MESH:C084826
+34055238	1805	1822	Telotristat ethyl	Chemical	MESH:C000621725
+34055238	1940	1950	SARS-CoV-2	Species	2697049
+34055238	1961	1974	Coronaviruses	Species	
+

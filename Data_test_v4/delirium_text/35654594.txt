@@ -1,0 +1,45 @@
+35654594|t|Genetic Variation in Targets of Antidiabetic Drugs and Alzheimer Disease Risk: A Mendelian Randomization Study.
+35654594|a|BACKGROUND AND OBJECTIVES: Previous studies have highlighted antidiabetic drugs as repurposing candidates for Alzheimer disease (AD), but the disease-modifying effects are still unclear. METHODS: A 2-sample mendelian randomization study design was applied to examine the association between genetic variation in the targets of 4 antidiabetic drug classes and AD risk. Genetic summary statistics for blood glucose were analyzed using UK Biobank data of 326,885 participants, whereas summary statistics for AD were retrieved from previous genome-wide association studies comprising 24,087 clinically diagnosed AD cases and 55,058 controls. Positive control analysis on type 2 diabetes mellitus (T2DM), insulin secretion, insulin resistance, and obesity-related traits was conducted to validate the selection of instrumental variables. RESULTS: In the positive control analysis, genetic variation in sulfonylurea targets was associated with higher insulin secretion, a lower risk of T2DM, and an increment in body mass index, waist circumference, and hip circumference, consistent with drug mechanistic actions and previous trial evidence. In the primary analysis, genetic variation in sulfonylurea targets was associated with a lower risk of AD (odds ratio [OR] = 0.38 per 1 mmol/L decrement in blood glucose, 95% CI 0.19-0.72, p = 0.0034). These results for sulfonylureas were largely unchanged in the sensitivity analysis using a genetic variant, rs757110, that has been validated to modulate the target proteins of sulfonylureas (OR = 0.35 per 1 mmol/L decrement in blood glucose, 95% CI 0.15-0.82, p = 0.016). An association between genetic variations in the glucagon-like peptide 1 (GLP-1) analogue target and a lower risk of AD was also observed (OR = 0.32 per 1 mmol/L decrement in blood glucose, 95% CI 0.13-0.79, p = 0.014). However, this result should be interpreted with caution because the positive control analyses for GLP-1 analogues did not comply with a weight-loss effect as shown in previous clinical trials. Results regarding other drug classes were inconclusive. DISCUSSION: Genetic variation in sulfonylurea targets was associated with a lower risk of AD, and future studies are warranted to clarify the underlying mechanistic pathways between sulfonylureas and AD.
+35654594	55	72	Alzheimer Disease	Disease	MESH:D000544
+35654594	222	239	Alzheimer disease	Disease	MESH:D000544
+35654594	241	243	AD	Disease	MESH:D000544
+35654594	471	473	AD	Disease	MESH:D000544
+35654594	511	524	blood glucose	Chemical	MESH:D001786
+35654594	617	619	AD	Disease	MESH:D000544
+35654594	720	722	AD	Disease	MESH:D000544
+35654594	779	803	type 2 diabetes mellitus	Disease	MESH:D003924
+35654594	805	809	T2DM	Disease	MESH:D003924
+35654594	812	819	insulin	Gene	3630
+35654594	831	849	insulin resistance	Disease	MESH:D007333
+35654594	855	862	obesity	Disease	MESH:D009765
+35654594	1009	1021	sulfonylurea	Chemical	MESH:D013453
+35654594	1057	1064	insulin	Gene	3630
+35654594	1092	1096	T2DM	Disease	MESH:D003924
+35654594	1295	1307	sulfonylurea	Chemical	MESH:D013453
+35654594	1352	1354	AD	Disease	MESH:D000544
+35654594	1405	1418	blood glucose	Chemical	MESH:D001786
+35654594	1469	1482	sulfonylureas	Chemical	MESH:D013453
+35654594	1559	1567	rs757110	SNP	tmVar:rs757110;VariantGroup:0;CorrespondingGene:6833;RS#:757110;CorrespondingSpecies:9606
+35654594	1628	1641	sulfonylureas	Chemical	MESH:D013453
+35654594	1679	1692	blood glucose	Chemical	MESH:D001786
+35654594	1773	1796	glucagon-like peptide 1	Gene	2641
+35654594	1798	1803	GLP-1	Gene	2641
+35654594	1841	1843	AD	Disease	MESH:D000544
+35654594	1899	1912	blood glucose	Chemical	MESH:D001786
+35654594	2042	2047	GLP-1	Gene	2641
+35654594	2080	2091	weight-loss	Disease	MESH:D015431
+35654594	2226	2238	sulfonylurea	Chemical	MESH:D013453
+35654594	2283	2285	AD	Disease	MESH:D000544
+35654594	2375	2388	sulfonylureas	Chemical	MESH:D013453
+35654594	2393	2395	AD	Disease	MESH:D000544
+35654594	Association	MESH:D013453	RS#:757110;CorrespondingGene:6833
+35654594	Association	MESH:D001786	RS#:757110;CorrespondingGene:6833
+35654594	Association	MESH:D001786	2641
+35654594	Negative_Correlation	MESH:D000544	RS#:757110;CorrespondingGene:6833
+35654594	Negative_Correlation	MESH:D013453	MESH:D003924
+35654594	Association	MESH:D013453	3630
+35654594	Negative_Correlation	MESH:D000544	2641
+35654594	Association	MESH:D015431	2641
+35654594	Negative_Correlation	MESH:D013453	MESH:D000544
+35654594	Association	MESH:D000544	6833
+

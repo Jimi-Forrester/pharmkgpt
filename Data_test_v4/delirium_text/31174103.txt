@@ -1,0 +1,24 @@
+31174103|t|Brain ventricle parcellation using a deep neural network: Application to patients with ventriculomegaly.
+31174103|a|Numerous brain disorders are associated with ventriculomegaly, including both neuro-degenerative diseases and cerebrospinal fluid disorders. Detailed evaluation of the ventricular system is important for these conditions to help understand the pathogenesis of ventricular enlargement and elucidate novel patterns of ventriculomegaly that can be associated with different diseases. One such disease is normal pressure hydrocephalus (NPH), a chronic form of hydrocephalus in older adults that causes dementia. Automatic parcellation of the ventricular system into its sub-compartments in patients with ventriculomegaly is quite challenging due to the large variation of the ventricle shape and size. Conventional brain labeling methods are time-consuming and often fail to identify the boundaries of the enlarged ventricles. We propose a modified 3D U-Net method to perform accurate ventricular parcellation, even with grossly enlarged ventricles, from magnetic resonance images (MRIs). We validated our method on a data set of healthy controls as well as a cohort of 95 patients with NPH with mild to severe ventriculomegaly and compared with several state-of-the-art segmentation methods. On the healthy data set, the proposed network achieved mean Dice similarity coefficient (DSC) of 0.895 +- 0.03 for the ventricular system. On the NPH data set, we achieved mean DSC of 0.973 +- 0.02, which is significantly (p < 0.005) higher than four state-of-the-art segmentation methods we compared with. Furthermore, the typical processing time on CPU-base implementation of the proposed method is 2 min, which is much lower than the several hours required by the other methods. Results indicate that our method provides: 1) highly robust parcellation of the ventricular system that is comparable in accuracy to state-of-the-art methods on healthy controls; 2) greater robustness and significantly more accurate results on cases of ventricular enlargement; and 3) a tool that enables computation of novel imaging biomarkers for dilated ventricular spaces that characterize the ventricular system.
+31174103	6	15	ventricle	Disease	MESH:D002551
+31174103	73	81	patients	Species	9606
+31174103	87	103	ventriculomegaly	Disease	MESH:D006849
+31174103	114	129	brain disorders	Disease	MESH:D001927
+31174103	150	166	ventriculomegaly	Disease	MESH:D006849
+31174103	183	210	neuro-degenerative diseases	Disease	MESH:D019636
+31174103	215	244	cerebrospinal fluid disorders	Disease	MESH:D002559
+31174103	365	388	ventricular enlargement	Disease	MESH:D006332
+31174103	421	437	ventriculomegaly	Disease	MESH:D006849
+31174103	506	535	normal pressure hydrocephalus	Disease	MESH:D006850
+31174103	537	540	NPH	Disease	MESH:D006850
+31174103	561	574	hydrocephalus	Disease	MESH:D006849
+31174103	603	611	dementia	Disease	MESH:D003704
+31174103	691	699	patients	Species	9606
+31174103	705	721	ventriculomegaly	Disease	MESH:D006849
+31174103	777	786	ventricle	Disease	MESH:D002551
+31174103	1174	1182	patients	Species	9606
+31174103	1188	1191	NPH	Disease	MESH:D006850
+31174103	1212	1228	ventriculomegaly	Disease	MESH:D006849
+31174103	1440	1443	NPH	Disease	MESH:D006850
+31174103	2029	2052	ventricular enlargement	Disease	MESH:D006332
+

@@ -1,0 +1,25 @@
+31722481|t|Gene Expressions, Hippocampal Volume Loss, and MMSE Scores in Computation of Progression and Pharmacologic Therapy Effects for Alzheimer's Disease.
+31722481|a|We build personalized relevance parameterization method (prep-ad) based on artificial intelligence (ai) techniques to compute Alzheimer's disease (ad) progression for patients at the mild cognitive impairment (mci) stage. Expressions of ad related genes, mini mental state examination (mmse) scores, and hippocampal volume measurements of mci patients are obtained from the Alzheimer's Disease Neuroimaging Initiative (adni) database. In evaluation of cognitive changes under pharmacological therapies, patients are grouped based on available clinical measurements and the type of therapy administered, namely donepezil monotherapy and polytherapy of donepezil with memantine. Average leave one out cross validation (loocv) error rates are calculated for prep-ad results as less than 8 percent when mmse scores are used to compute disease progression for a 60 month period, and 3 percent with hippocampal volume measurements for 12 months. Statistical significance is calculated as p = 0.003 for using ad related genes in disease progression and as for the results computed by prep-ad. These relatively small average loocv errors and p-values suggest that our prep-ad methods employing gene expressions, mmse scores and hippocampal volume loss measurements can be useful in supporting pharmacologic therapy decisions during early stages of ad.
+31722481	18	41	Hippocampal Volume Loss	Disease	MESH:D000092223
+31722481	127	146	Alzheimer's Disease	Disease	MESH:D000544
+31722481	210	212	ad	Disease	MESH:D000544
+31722481	274	293	Alzheimer's disease	Disease	MESH:D000544
+31722481	295	297	ad	Disease	MESH:D000544
+31722481	315	323	patients	Species	9606
+31722481	336	356	cognitive impairment	Disease	MESH:D003072
+31722481	385	387	ad	Disease	MESH:D000544
+31722481	491	499	patients	Species	9606
+31722481	522	541	Alzheimer's Disease	Disease	MESH:D000544
+31722481	651	659	patients	Species	9606
+31722481	758	767	donepezil	Chemical	MESH:D000077265
+31722481	799	808	donepezil	Chemical	MESH:D000077265
+31722481	814	823	memantine	Chemical	MESH:D008559
+31722481	908	910	ad	Disease	MESH:D000544
+31722481	1150	1152	ad	Disease	MESH:D000544
+31722481	1230	1232	ad	Disease	MESH:D000544
+31722481	1313	1315	ad	Disease	MESH:D000544
+31722481	1368	1391	hippocampal volume loss	Disease	MESH:D000092223
+31722481	1488	1490	ad	Disease	MESH:D000544
+31722481	Negative_Correlation	MESH:D000077265	MESH:D000544
+31722481	Cotreatment	MESH:D000077265	MESH:D008559
+

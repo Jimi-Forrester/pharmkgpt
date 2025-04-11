@@ -1,0 +1,76 @@
+30872401|t|Proteolytic shedding of the prion protein via activation of metallopeptidase ADAM10 reduces cellular binding and toxicity of amyloid-beta oligomers.
+30872401|a|The cellular prion protein (PrPC) is a key neuronal receptor for beta-amyloid oligomers (AbetaO), mediating their neurotoxicity, which contributes to the neurodegeneration in Alzheimer's disease (AD). Similarly to the amyloid precursor protein (APP), PrPC is proteolytically cleaved from the cell surface by a disintegrin and metalloprotease, ADAM10. We hypothesized that ADAM10-modulated PrPC shedding would alter the cellular binding and cytotoxicity of AbetaO. Here, we found that in human neuroblastoma cells, activation of ADAM10 with the muscarinic agonist carbachol promotes PrPC shedding and reduces the binding of AbetaO to the cell surface, which could be blocked with an ADAM10 inhibitor. Conversely, siRNA-mediated ADAM10 knockdown reduced PrPC shedding and increased AbetaO binding, which was blocked by the PrPC-specific antibody 6D11. The retinoic acid receptor analog acitretin, which up-regulates ADAM10, also promoted PrPC shedding and decreased AbetaO binding in the neuroblastoma cells and in human induced pluripotent stem cell (iPSC)-derived cortical neurons. Pretreatment with acitretin abolished activation of Fyn kinase and prevented an increase in reactive oxygen species caused by AbetaO binding to PrPC Besides blocking AbetaO binding and toxicity, acitretin also increased the nonamyloidogenic processing of APP. However, in the iPSC-derived neurons, Abeta and other amyloidogenic processing products did not exhibit a reciprocal decrease upon acitretin treatment. These results indicate that by promoting the shedding of PrPC in human neurons, ADAM10 activation prevents the binding and cytotoxicity of AbetaO, revealing a potential therapeutic benefit of ADAM10 activation in AD.
+30872401	28	41	prion protein	Gene	5621
+30872401	77	83	ADAM10	Gene	102
+30872401	113	121	toxicity	Disease	MESH:D064420
+30872401	125	137	amyloid-beta	Gene	351
+30872401	177	181	PrPC	Gene	5621
+30872401	238	244	AbetaO	Gene	28
+30872401	263	276	neurotoxicity	Disease	MESH:D020258
+30872401	303	320	neurodegeneration	Disease	MESH:D019636
+30872401	324	343	Alzheimer's disease	Disease	MESH:D000544
+30872401	345	347	AD	Disease	MESH:D000544
+30872401	367	392	amyloid precursor protein	Gene	351
+30872401	400	404	PrPC	Gene	5621
+30872401	492	498	ADAM10	Gene	102
+30872401	521	527	ADAM10	Gene	102
+30872401	538	542	PrPC	Gene	5621
+30872401	589	601	cytotoxicity	Disease	MESH:D064420
+30872401	605	612	AbetaO.	Gene	28
+30872401	636	641	human	Species	9606
+30872401	642	655	neuroblastoma	Disease	MESH:D009447
+30872401	677	683	ADAM10	Gene	102
+30872401	712	721	carbachol	Chemical	MESH:D002217
+30872401	731	735	PrPC	Gene	5621
+30872401	772	778	AbetaO	Gene	28
+30872401	831	837	ADAM10	Gene	102
+30872401	876	882	ADAM10	Gene	102
+30872401	901	905	PrPC	Gene	5621
+30872401	929	935	AbetaO	Gene	28
+30872401	970	974	PrPC	Gene	5621
+30872401	993	997	6D11	Chemical	-
+30872401	1033	1042	acitretin	Chemical	MESH:D017255
+30872401	1063	1069	ADAM10	Gene	102
+30872401	1085	1089	PrPC	Gene	5621
+30872401	1113	1119	AbetaO	Gene	28
+30872401	1135	1148	neuroblastoma	Disease	MESH:D009447
+30872401	1162	1167	human	Species	9606
+30872401	1249	1258	acitretin	Chemical	MESH:D017255
+30872401	1323	1346	reactive oxygen species	Chemical	MESH:D017382
+30872401	1357	1363	AbetaO	Gene	28
+30872401	1375	1379	PrPC	Gene	5621
+30872401	1397	1403	AbetaO	Gene	28
+30872401	1416	1424	toxicity	Disease	MESH:D064420
+30872401	1426	1435	acitretin	Chemical	MESH:D017255
+30872401	1529	1534	Abeta	Gene	351
+30872401	1622	1631	acitretin	Chemical	MESH:D017255
+30872401	1700	1704	PrPC	Gene	5621
+30872401	1708	1713	human	Species	9606
+30872401	1723	1729	ADAM10	Gene	102
+30872401	1766	1778	cytotoxicity	Disease	MESH:D064420
+30872401	1782	1788	AbetaO	Gene	28
+30872401	1835	1841	ADAM10	Gene	102
+30872401	1856	1858	AD	Disease	MESH:D000544
+30872401	Positive_Correlation	MESH:D002217	102
+30872401	Association	102	5621
+30872401	Positive_Correlation	MESH:D002217	5621
+30872401	Association	351	5621
+30872401	Negative_Correlation	102	28
+30872401	Association	MESH:D000544	102
+30872401	Negative_Correlation	MESH:D017255	351
+30872401	Negative_Correlation	MESH:D017255	MESH:D064420
+30872401	Association	MESH:D017382	28
+30872401	Association	MESH:D064420	28
+30872401	Association	MESH:D064420	5621
+30872401	Association	MESH:D000544	5621
+30872401	Negative_Correlation	MESH:D017255	28
+30872401	Negative_Correlation	MESH:D002217	28
+30872401	Association	28	5621
+30872401	Negative_Correlation	MESH:D064420	102
+30872401	Negative_Correlation	MESH:D017255	MESH:D009447
+30872401	Negative_Correlation	MESH:D017255	5621
+30872401	Association	MESH:D000544	28
+30872401	Negative_Correlation	MESH:D017255	MESH:D017382
+30872401	Positive_Correlation	MESH:D017255	102
+30872401	Negative_Correlation	102	351
+

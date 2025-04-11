@@ -1,0 +1,22 @@
+34604758|t|Real-time machine learning-based intensive care unit alarm classification without prior knowledge of the underlying rhythm.
+34604758|a|AIMS: This work attempts to develop a standalone heart rhythm alerting system for the intensive care unit (ICU), where life-threatening arrhythmias have to be identified/alerted more precisely and more instantaneously (i.e. with lower latency) than existing bedside monitors. METHODS AND RESULTS: We use the dataset from the PhysioNet 2015 Challenge, which contains records that led to true and false arrhythmic alarms in the ICU. These records have been re-annotated as one of eight classes, namely (i) asystole, (ii) extreme bradycardia, (iii) extreme tachycardia, (iv) ventricular fibrillation (VF), (v) ventricular tachycardia (VT), (vi) normal sinus rhythm, (vii) sinus tachycardia, and (viii) noise/artefacts. Arrhythmia-specific features and features that measure the signal quality were extracted from all the records. To improve VF detection, an improved, over an existing, single-lead R-wave detection was developed that takes into account the R-waves detected in all electrocardiographic (ECG) leads. To avoid false R-wave detection due to pacing spikes, ECG signals were filtered with a low pass filter prior to R-wave detection, while the raw signals were used for feature extraction. Random forest was used as the classifier, and 10-time five-fold cross-validation, resulted in a macro-average sensitivity of 81.54%. CONCLUSIONS: In conclusion, comparing with the bedside monitors used in the PhysioNet 2015 competition, we find that our method achieves higher positive predictive values for asystole, extreme bradycardia, VT, and VF; furthermore, our method is able to alert the presence of arrhythmia instantaneously, i.e. up to 4 s earlier.
+34604758	43	47	care	Disease	MESH:D003428
+34604758	220	224	care	Disease	MESH:D003428
+34604758	260	271	arrhythmias	Disease	MESH:D001145
+34604758	525	535	arrhythmic	Disease	OMIM:212500
+34604758	628	636	asystole	Disease	MESH:D006323
+34604758	651	662	bradycardia	Disease	MESH:D001919
+34604758	678	689	tachycardia	Disease	MESH:D013610
+34604758	696	720	ventricular fibrillation	Disease	MESH:D014693
+34604758	722	724	VF	Disease	MESH:D014693
+34604758	731	754	ventricular tachycardia	Disease	MESH:D017180
+34604758	756	758	VT	Disease	MESH:D017180
+34604758	793	810	sinus tachycardia	Disease	MESH:D013616
+34604758	840	850	Arrhythmia	Disease	MESH:D001145
+34604758	962	964	VF	Disease	MESH:D014693
+34604758	1630	1638	asystole	Disease	MESH:D006323
+34604758	1648	1659	bradycardia	Disease	MESH:D001919
+34604758	1661	1663	VT	Disease	MESH:D017180
+34604758	1669	1671	VF	Disease	MESH:D014693
+34604758	1730	1740	arrhythmia	Disease	MESH:D001145
+

@@ -1,0 +1,18 @@
+35242449|t|Machine Learning Quantification of Amyloid Deposits in Histological Images of Ligamentum Flavum.
+35242449|a|Wild-type transthyretin amyloidosis (ATTRwt) is an underdiagnosed and potentially fatal disease. Interestingly, ATTRwt deposits have been found to deposit in the ligamentum flavum (LF) of patients with lumbar spinal stenosis before the development of systemic and cardiac amyloidosis. In order to study this phenomenon and its possible relationship with LF thickening and systemic amyloidosis, a precise method of quantifying amyloid deposits in histological slides of LF is critical. However, such a method is currently unavailable. Here, we present a machine learning quantification method with Trainable Weka Segmentation (TWS) to assess amyloid deposition in histological slides of LF. Images of ligamentum flavum specimens stained with Congo red are obtained from spinal stenosis patients undergoing laminectomies and confirmed to be positive for ATTRwt. Amyloid deposits in these specimens are classified and quantified by TWS through training the algorithm via user-directed annotations on images of LF. TWS can also be automated through exposure to a set of training images with user-directed annotations, and then applied] to a set of new images without additional annotations. Additional methods of color thresholding and manual segmentation are also used on these images for comparison to TWS. We develop the use of TWS in images of LF and demonstrate its potential for automated quantification. TWS is strongly correlated with manual segmentation in the training set of images with user-directed annotations (R = 0.98; p = 0.0033) as well as in the application set of images where TWS was automated (R = 0.94; p = 0.016). Color thresholding was weakly correlated with manual segmentation in the training set of images (R = 0.78; p = 0.12) and in the application set of images (R = 0.65; p = 0.23). TWS machine learning closely correlates with the gold-standard comparator of manual segmentation and outperforms the color thresholding method. This novel machine learning method to quantify amyloid deposition in histological slides of ligamentum flavum is a precise, objective, accessible, high throughput, and powerful tool that will hopefully pave the way towards future research and clinical applications.
+35242449	35	42	Amyloid	Disease	MESH:C000718787
+35242449	97	132	Wild-type transthyretin amyloidosis	Disease	MESH:C567782
+35242449	134	140	ATTRwt	Disease	
+35242449	285	293	patients	Species	9606
+35242449	299	321	lumbar spinal stenosis	Disease	MESH:C563613
+35242449	348	380	systemic and cardiac amyloidosis	Disease	MESH:D009101
+35242449	469	489	systemic amyloidosis	Disease	MESH:D009101
+35242449	523	530	amyloid	Disease	MESH:C000718787
+35242449	738	756	amyloid deposition	Disease	MESH:D058225
+35242449	838	847	Congo red	Chemical	MESH:D003224
+35242449	866	881	spinal stenosis	Disease	MESH:D013130
+35242449	882	890	patients	Species	9606
+35242449	949	955	ATTRwt	Chemical	-
+35242449	957	964	Amyloid	Disease	MESH:C000718787
+35242449	2098	2116	amyloid deposition	Disease	MESH:D058225
+

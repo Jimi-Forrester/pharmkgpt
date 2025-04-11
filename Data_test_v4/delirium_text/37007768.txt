@@ -1,0 +1,39 @@
+37007768|t|Nomogram for predicting disseminated intravascular coagulation in heatstroke patients: A 10 years retrospective study.
+37007768|a|Background: Disseminated intravascular coagulation (DIC) can lead to multiple organ failure and death in patients with heatstroke. This study aimed to identify independent risk factors of DIC and construct a predictive model for clinical application. Methods: This retrospective study included 87 patients with heatstroke who were treated in the intensive care unit of our hospital from May 2012 to October 2022. Patients were divided into those with DIC (n = 23) or without DIC (n = 64). Clinical and hematological factors associated with DIC were identified using a random forest model, least absolute shrinkage and selection operator (LASSO) regression and support vector machine-recursive feature elimination (SVM-RFE). Overlapping factors were used to develop a nomogram model, which was diagnostically validated. Survival at 30 days after admission was compared between patients with or without DIC using Kaplan-Meier analysis. Results: Random forest, LASSO, and SVM-RFE identified a low maximum amplitude, decreased albumin level, high creatinine level, increased total bilirubin, and aspartate transaminase (AST) level as risk factors for DIC. Principal component analysis confirmed that these independent variables differentiated between patients who experienced DIC or not, so they were used to construct a nomogram. The nomogram showed good predictive power, with an area under the receiver operating characteristic curve of 0.976 (95% CI 0.948-1.000) and 0.971 (95% CI, 0.914-0.989) in the internal validation. Decision curve analysis indicated clinical utility for the nomogram. DIC was associated with significantly lower 30 days survival for heatstroke patients. Conclusion: A nomogram incorporating coagulation-related risk factors can predict DIC in patients with heatstroke and may be useful in clinical decision-making.
+37007768	24	62	disseminated intravascular coagulation	Disease	MESH:D004211
+37007768	66	76	heatstroke	Disease	MESH:D018883
+37007768	77	85	patients	Species	9606
+37007768	131	169	Disseminated intravascular coagulation	Disease	MESH:D004211
+37007768	171	174	DIC	Disease	MESH:D004211
+37007768	188	210	multiple organ failure	Disease	MESH:D009102
+37007768	215	220	death	Disease	MESH:D003643
+37007768	224	232	patients	Species	9606
+37007768	238	248	heatstroke	Disease	MESH:D018883
+37007768	307	310	DIC	Disease	MESH:D004211
+37007768	416	424	patients	Species	9606
+37007768	430	440	heatstroke	Disease	MESH:D018883
+37007768	532	540	Patients	Species	9606
+37007768	570	573	DIC	Disease	MESH:D004211
+37007768	594	597	DIC	Disease	MESH:D004211
+37007768	659	662	DIC	Disease	MESH:D004211
+37007768	995	1003	patients	Species	9606
+37007768	1020	1023	DIC	Disease	MESH:D004211
+37007768	1142	1149	albumin	Gene	213
+37007768	1162	1172	creatinine	Chemical	MESH:D003404
+37007768	1196	1205	bilirubin	Chemical	MESH:D001663
+37007768	1211	1233	aspartate transaminase	Gene	26503
+37007768	1235	1238	AST	Gene	26503
+37007768	1266	1269	DIC	Disease	MESH:D004211
+37007768	1366	1374	patients	Species	9606
+37007768	1391	1394	DIC	Disease	MESH:D004211
+37007768	1711	1714	DIC	Disease	MESH:D004211
+37007768	1776	1786	heatstroke	Disease	MESH:D018883
+37007768	1787	1795	patients	Species	9606
+37007768	1879	1882	DIC	Disease	MESH:D004211
+37007768	1886	1894	patients	Species	9606
+37007768	1900	1910	heatstroke	Disease	MESH:D018883
+37007768	Association	MESH:D004211	26503
+37007768	Positive_Correlation	MESH:D001663	MESH:D004211
+37007768	Association	MESH:D004211	213
+37007768	Positive_Correlation	MESH:D003404	MESH:D004211
+

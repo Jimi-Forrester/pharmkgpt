@@ -1,0 +1,28 @@
+31430595|t|Multiscale spatial gradient features for 18F-FDG PET image-guided diagnosis of Alzheimer's disease.
+31430595|a|BACKGROUND AND OBJECTIVE: 18F-FluoroDeoxyGlucose Positron Emission Tomography (18F-FDG PET) is one of the imaging biomarkers to diagnose Alzheimer's Disease (AD). In 18F-FDG PET images, the changes of voxels' intensities reflect the differences of glucose rates, therefore voxel intensity is usually used as a feature to distinguish AD from Normal Control (NC), or at earlier stage to distinguish between progressive and stable Mild Cognitive Impairment (pMCI and sMCI). In this paper, 18F-FDG PET images are characterized in an alternative way-the spatial gradient, which is motivated by the observation that the changes of 18F-FDG rates also cause gradient changes. METHODS: We improve Histogram of Oriented Gradient (HOG) descriptor to quantify spatial gradients, thereby achieving the goal of diagnosing AD. First, the spatial gradient of 18F-FDG PET image is computed, and then each subject is segmented into different regions by using an anatomical atlas. Second, two types of improved HOG features are extracted from each region, namely Small Scale HOG and Large Scale HOG, then some relevant regions are selected based on a classifier fed with spatial gradient features. Last, an ensemble classification framework is designed to make a decision, which considers the performance of both individual and concatenated selected regions. RESULTS: the evaluation is done on ADNI dataset. The proposed method outperforms other state-of-the-art 18F-FDG PET-based algorithms for AD vs. NC with an accuracy, a sensitivity and a specificity values of 93.65%, 91.22% and 96.25%, respectively. For the case of pMCI vs. sMCI, the three metrics are 75.38%, 74.84% and 77.11%, which is significantly better than most existing methods. Besides, promising results are also achieved for multiple classifications under 18F-FDG PET modality. CONCLUSIONS: 18F-FDG PET images can be characterized by spatial gradient features for diagnosing AD and its early stage, and the proposed ensemble framework can enhance the classification performance.
+31430595	41	48	18F-FDG	Chemical	MESH:D019788
+31430595	79	98	Alzheimer's disease	Disease	MESH:D000544
+31430595	126	148	18F-FluoroDeoxyGlucose	Chemical	MESH:D019788
+31430595	179	186	18F-FDG	Chemical	MESH:D019788
+31430595	237	256	Alzheimer's Disease	Disease	MESH:D000544
+31430595	258	260	AD	Disease	MESH:D000544
+31430595	266	273	18F-FDG	Chemical	MESH:D019788
+31430595	348	355	glucose	Chemical	MESH:D005947
+31430595	433	435	AD	Disease	MESH:D000544
+31430595	533	553	Cognitive Impairment	Disease	MESH:D003072
+31430595	555	559	pMCI	Disease	
+31430595	564	568	sMCI	Disease	
+31430595	586	593	18F-FDG	Chemical	MESH:D019788
+31430595	725	732	18F-FDG	Chemical	MESH:D019788
+31430595	908	910	AD	Disease	MESH:D000544
+31430595	943	950	18F-FDG	Chemical	MESH:D019788
+31430595	1544	1551	18F-FDG	Chemical	MESH:D019788
+31430595	1577	1579	AD	Disease	MESH:D000544
+31430595	1704	1708	pMCI	Disease	
+31430595	1713	1717	sMCI	Disease	
+31430595	1906	1913	18F-FDG	Chemical	MESH:D019788
+31430595	1941	1948	18F-FDG	Chemical	MESH:D019788
+31430595	2025	2027	AD	Disease	MESH:D000544
+31430595	Association	MESH:D019788	MESH:D000544
+31430595	Association	MESH:D005947	MESH:D019788
+

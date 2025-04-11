@@ -1,0 +1,23 @@
+38533418|t|Association between SpO2 and the risk of death in elderly T2DM patients with cerebral infarction: a retrospective cohort study.
+38533418|a|Objective: This study aimed to evaluate the SpO2 (transcutaneous oxygen saturation) -mortality link in elderly T2DM (diabetes mellitus type 2) patients with cerebral infarction and identify their optimal SpO2 range. Methods: In this investigation, we employed a comprehensive approach. Initially, we screened the MIMIC-IV database, identifying elderly T2DM patients with cerebral infarction, utilizing specific ICD-9 and ICD-10 codes. We then harnessed the power of restricted cubic splines to craft a visual representation of the correlation between SpO2 and 1-year mortality. To enhance our analysis, we harnessed Cox multivariate regression, allowing us to compute adjusted hazard ratios (HR) accompanied by 95% confidence intervals (CIs). Additionally, we crafted Cumulative Mortality Curve analyses, augmenting our study by engaging in rigorous subgroup analyses, stratifying our observations based on pertinent covariates. Results: In this study, 448 elderly T2DM patients with cerebral infarction were included. Within 1-year post-discharge, 161 patients (35.94%) succumbed. Employing Restricted Cubic Spline analysis, a statistically significant U-shaped non-linear relationship between admission ICU SpO2 levels and 1-year mortality was observed (P-value < 0.05). Further analysis indicated that both low and high SpO2 levels increased the mortality risk. Cox multivariate regression analysis, adjusting for potential confounding factors, confirmed the association of low (<=94.5%) and high SpO2 levels (96.5-98.5%) with elevated 1-year mortality risk, particularly notably high SpO2 levels (>98.5%) [HR = 2.06, 95% CI: 1.29-3.29, P-value = 0.002]. The cumulative mortality curves revealed the following SpO2 subgroups from high to low cumulative mortality at the 365th day: normal levels (94.5% < SpO2 <= 96.5%), low levels (SpO2 <= 94.5%), high levels (96.5% < SpO2 <= 98.5%), and notably high levels (>98.5%). Subgroup analysis demonstrated no significant interaction between SpO2 and grouping variables, including Sex, Age, Congestive heart failure, Temperature, and ICU length of stay (LOS-ICU; P-values for interaction were >0.05). Conclusions: Striking an optimal balance is paramount, as fixating solely on lower SpO2 limits or neglecting high SpO2 levels may contribute to increased mortality rates. To mitigate mortality risk in elderly T2DM patients with cerebral infarction, we recommend maintaining SpO2 levels within the range of 94.5-96.5%.
+38533418	41	46	death	Disease	MESH:D003643
+38533418	58	62	T2DM	Disease	
+38533418	63	71	patients	Species	9606
+38533418	77	96	cerebral infarction	Disease	MESH:D002544
+38533418	193	199	oxygen	Chemical	MESH:D010100
+38533418	239	243	T2DM	Disease	
+38533418	245	269	diabetes mellitus type 2	Disease	MESH:D003924
+38533418	271	279	patients	Species	9606
+38533418	285	304	cerebral infarction	Disease	MESH:D002544
+38533418	480	484	T2DM	Disease	
+38533418	485	493	patients	Species	9606
+38533418	499	518	cerebral infarction	Disease	MESH:D002544
+38533418	1093	1097	T2DM	Disease	
+38533418	1098	1106	patients	Species	9606
+38533418	1112	1131	cerebral infarction	Disease	MESH:D002544
+38533418	1181	1189	patients	Species	9606
+38533418	2176	2189	heart failure	Disease	MESH:D006333
+38533418	2484	2488	T2DM	Disease	
+38533418	2489	2497	patients	Species	9606
+38533418	2503	2522	cerebral infarction	Disease	MESH:D002544
+

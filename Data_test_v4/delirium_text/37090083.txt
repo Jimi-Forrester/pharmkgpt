@@ -1,0 +1,66 @@
+37090083|t|Cerebrospinal fluid cytokines and chemokines exhibit distinct profiles in bacterial meningitis and viral meningitis.
+37090083|a|Differential diagnosis of bacterial meningitis (BM) and viral meningitis (VM) is a critical clinical challenge, as the early and accurate identification of the causative agent determines the appropriate treatment regimen and markedly improves patient outcomes. Clinical and experimental studies have demonstrated that the pathogen and the host immune response contribute to mortality and neurological sequelae. As BM is associated with the activation of an inflammatory cascade, the patterns of pro- and anti-inflammatory cytokines/chemokines (CTs/CKs) present in the cerebrospinal fluid (CSF) in response to the immune assault may be useful as sensitive markers for differentiating BM from VM. In the present study, the ability of CTs/CKs in the CSF to differentiate between BM and VM was investigated. For this, biochemical markers and CT/CK profiles were analysed in 145 CSF samples, divided into three groups: BM (n=61), VM (n=58) and the control group (C; n=26) comprising patients with meningism. The CSF concentrations of monocyte chemoattractant protein-1, interleukin (IL)-8, IL-1beta, IL-6, macrophage inflammatory protein-1alpha (MIP-1alpha), epithelial-neutrophil activating peptide, IL-10, tumour necrosis factor-alpha (TNF-alpha), proteins and white blood cells were significantly higher and the CSF glucose level was significantly lower in the BM group compared with the VM and C groups (P<0.01). Correlation analysis identified 28 significant correlations between various CTs/CKs in the BM group (P<0.01), with the strongest positive correlations being for TNF-alpha/IL-6 (r=0.75), TNF-alpha/MIP-1alpha (r=0.69), TNF-alpha/IL-1beta (r=0.64) and IL-1beta/MIP-1alpha (r=0.64). To identify the optimum CT/CK patterns for predicting and classifying BM and VM, a dataset of 119 BM and VM samples was divided into training (n=90) and testing (n=29) subsets for use as input for a Random Forest (RF) machine learning algorithm. For the 29 test samples (15 BM and 14 VM), the RF algorithm correctly classified 28 samples, with 92% sensitivity and 93% specificity. The results show that the patterns of CT/CK levels in the CSF can be used to aid discrimination of BM and VM.
+37090083	74	94	bacterial meningitis	Disease	MESH:D016920
+37090083	99	115	viral meningitis	Disease	MESH:D008587
+37090083	143	163	bacterial meningitis	Disease	MESH:D016920
+37090083	165	167	BM	Disease	MESH:D016920
+37090083	173	189	viral meningitis	Disease	MESH:D008587
+37090083	191	193	VM	Disease	MESH:D008587
+37090083	360	367	patient	Species	9606
+37090083	505	526	neurological sequelae	Disease	MESH:D009422
+37090083	531	533	BM	Disease	MESH:D016920
+37090083	574	586	inflammatory	Disease	MESH:D007249
+37090083	626	638	inflammatory	Disease	MESH:D007249
+37090083	800	802	BM	Disease	MESH:D016920
+37090083	808	810	VM	Disease	MESH:D008587
+37090083	893	895	BM	Disease	MESH:D016920
+37090083	900	902	VM	Disease	MESH:D008587
+37090083	958	960	CK	Gene	51727
+37090083	1031	1033	BM	Disease	MESH:D016920
+37090083	1042	1044	VM	Disease	MESH:D008587
+37090083	1095	1103	patients	Species	9606
+37090083	1109	1118	meningism	Disease	MESH:D008580
+37090083	1146	1180	monocyte chemoattractant protein-1	Gene	6347
+37090083	1182	1200	interleukin (IL)-8	Gene	3576
+37090083	1202	1210	IL-1beta	Gene	3553
+37090083	1212	1216	IL-6	Gene	3569
+37090083	1218	1256	macrophage inflammatory protein-1alpha	Gene	6348
+37090083	1258	1268	MIP-1alpha	Gene	6348
+37090083	1313	1318	IL-10	Gene	3586
+37090083	1350	1359	TNF-alpha	Gene	7124
+37090083	1431	1438	glucose	Chemical	MESH:D005947
+37090083	1476	1478	BM	Disease	MESH:D016920
+37090083	1503	1505	VM	Disease	MESH:D008587
+37090083	1620	1622	BM	Disease	MESH:D016920
+37090083	1690	1699	TNF-alpha	Gene	7124
+37090083	1700	1704	IL-6	Gene	3569
+37090083	1715	1724	TNF-alpha	Gene	7124
+37090083	1725	1735	MIP-1alpha	Gene	6348
+37090083	1746	1755	TNF-alpha	Gene	7124
+37090083	1756	1764	IL-1beta	Gene	3553
+37090083	1778	1786	IL-1beta	Gene	3553
+37090083	1787	1797	MIP-1alpha	Gene	6348
+37090083	1835	1837	CK	Gene	51727
+37090083	1878	1880	BM	Disease	MESH:D016920
+37090083	1885	1887	VM	Disease	MESH:D008587
+37090083	1906	1908	BM	Disease	MESH:D016920
+37090083	1913	1915	VM	Disease	MESH:D008587
+37090083	2082	2084	BM	Disease	MESH:D016920
+37090083	2092	2094	VM	Disease	MESH:D008587
+37090083	2230	2232	CK	Gene	51727
+37090083	2288	2290	BM	Disease	MESH:D016920
+37090083	2295	2297	VM	Disease	MESH:D008587
+37090083	Positive_Correlation	MESH:D016920	6347
+37090083	Positive_Correlation	MESH:D016920	3569
+37090083	Positive_Correlation	MESH:D016920	3553
+37090083	Positive_Correlation	MESH:D016920	3576
+37090083	Negative_Correlation	MESH:D005947	MESH:D008587
+37090083	Negative_Correlation	MESH:D005947	MESH:D016920
+37090083	Association	3553	6348
+37090083	Positive_Correlation	MESH:D008587	6348
+37090083	Positive_Correlation	MESH:D016920	6348
+37090083	Association	6348	7124
+37090083	Positive_Correlation	MESH:D016920	7124
+37090083	Positive_Correlation	MESH:D016920	3586
+37090083	Positive_Correlation	MESH:D008587	3576
+

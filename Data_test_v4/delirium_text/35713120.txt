@@ -1,0 +1,30 @@
+35713120|t|Glucocorticoids enhance chemotherapy-driven stress granule assembly and impair granule dynamics, leading to cell death.
+35713120|a|Stress granules (SGs) can assemble in cancer cells upon chemotoxic stress. Glucocorticoids function during stress responses and are administered with chemotherapies. The roles of glucocorticoids in SG assembly and disassembly pathways are unknown. We examined whether combining glucocorticoids such as cortisone with chemotherapies from the vinca alkaloid family, which dismantle the microtubule network, affects SG assembly and disassembly pathways and influences cell viability in cancer cells and human-derived organoids. Cortisone augmented SG formation when combined with vinorelbine (VRB). Live-cell imaging showed that cortisone increased SG assembly rates but reduced SG clearance rates after stress, by increasing protein residence times within the SGs. Mechanistically, VRB and cortisone signaled through the integrated stress response mediated by eIF2alpha (also known as EIF2S1), yet induced different kinases, with cortisone activating the GCN2 kinase (also known as EIF2AK4). Cortisone increased VRB-induced cell death and reduced the population of cells trapped in mitotic catastrophe. These effects were mediated by the core SG proteins G3BP1 and G3BP2. In conclusion, glucocorticoids induce SG assembly and cell death when administered with chemotherapies, suggesting that combining glucocorticoids with chemotherapies can enhance cancer cell chemosensitivity.
+35713120	158	164	cancer	Disease	MESH:D009369
+35713120	422	431	cortisone	Chemical	MESH:D003348
+35713120	461	475	vinca alkaloid	Chemical	MESH:D014748
+35713120	603	609	cancer	Disease	MESH:D009369
+35713120	620	625	human	Species	9606
+35713120	645	654	Cortisone	Chemical	MESH:D003348
+35713120	697	708	vinorelbine	Chemical	MESH:D000077235
+35713120	710	713	VRB	Chemical	MESH:D000077235
+35713120	746	755	cortisone	Chemical	MESH:D003348
+35713120	900	903	VRB	Chemical	MESH:D000077235
+35713120	908	917	cortisone	Chemical	MESH:D003348
+35713120	978	987	eIF2alpha	Gene	83939
+35713120	1003	1009	EIF2S1	Gene	1965
+35713120	1048	1057	cortisone	Chemical	MESH:D003348
+35713120	1073	1077	GCN2	Gene	440275
+35713120	1100	1107	EIF2AK4	Gene	440275
+35713120	1110	1119	Cortisone	Chemical	MESH:D003348
+35713120	1130	1133	VRB	Chemical	MESH:D000077235
+35713120	1273	1278	G3BP1	Gene	10146
+35713120	1283	1288	G3BP2	Gene	9908
+35713120	1468	1474	cancer	Disease	MESH:D009369
+35713120	Association	MESH:D000077235	83939
+35713120	Association	MESH:D000077235	1965
+35713120	Cotreatment	MESH:D000077235	MESH:D003348
+35713120	Association	MESH:D003348	1965
+35713120	Association	MESH:D003348	83939
+35713120	Positive_Correlation	MESH:D003348	440275
+

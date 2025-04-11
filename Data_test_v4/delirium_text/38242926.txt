@@ -1,0 +1,16 @@
+38242926|t|Annotated dataset for training deep learning models to detect astrocytes in human brain tissue.
+38242926|a|Astrocytes, a type of glial cell, significantly influence neuronal function, with variations in morphology and density linked to neurological disorders. Traditional methods for their accurate detection and density measurement are laborious and unsuited for large-scale operations. We introduce a dataset from human brain tissues stained with aldehyde dehydrogenase 1 family member L1 (ALDH1L1) and glial fibrillary acidic protein (GFAP). The digital whole slide images of these tissues were partitioned into 8730 patches of 500 x 500 pixels, comprising 2323 ALDH1L1 and 4714 GFAP patches at a pixel size of 0.5019/pixel, furthermore 1382 ADHD1L1 and 311 GFAP patches at 0.3557/pixel. Sourced from 16 slides and 8 patients our dataset promotes the development of tools for glial cell detection and quantification, offering insights into their density distribution in various brain areas, thereby broadening neuropathological study horizons. These samples hold value for automating detection methods, including deep learning. Derived from human samples, our dataset provides a platform for exploring astrocyte functionality, potentially guiding new diagnostic and treatment strategies for neurological disorders.
+38242926	76	81	human	Species	9606
+38242926	225	247	neurological disorders	Disease	MESH:D009461
+38242926	405	410	human	Species	9606
+38242926	438	479	aldehyde dehydrogenase 1 family member L1	Gene	10840
+38242926	481	488	ALDH1L1	Gene	10840
+38242926	494	525	glial fibrillary acidic protein	Gene	2670
+38242926	527	531	GFAP	Gene	2670
+38242926	654	661	ALDH1L1	Gene	10840
+38242926	671	675	GFAP	Gene	2670
+38242926	750	754	GFAP	Gene	2670
+38242926	809	817	patients	Species	9606
+38242926	1133	1138	human	Species	9606
+38242926	1283	1305	neurological disorders	Disease	MESH:D009461
+

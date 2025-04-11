@@ -1,0 +1,40 @@
+31797597|t|Modulation of p53 Transactivation Domain Conformations by Ligand Binding and Cancer-Associated Mutations.
+31797597|a|Intrinsically disordered proteins (IDPs) are important functional proteins, and their deregulation are linked to numerous human diseases including cancers. Understanding how disease-associated mutations or drug molecules can perturb the sequence-disordered ensemble-function-disease relationship of IDPs remains challenging, because it requires detailed characterization of the heterogeneous structural ensembles of IDPs. In this work, we combine the latest atomistic force field a99SB-disp, enhanced sampling technique replica exchange with solute tempering, and GPU-accelerated molecular dynamics simulations to investigate how four cancer-associated mutations, K24N, N29K/N30D, D49Y, and W53G, and binding of an anti-cancer molecule, epigallocatechin gallate (EGCG), modulate the disordered ensemble of the transactivation domain (TAD) of tumor suppressor p53. Through extensive sampling, in excess of 1.0 mus per replica, well-converged structural ensembles of wild-type and mutant p53-TAD as well as WT p53-TAD in the presence of EGCG were generated. The results reveal that mutants could induce local structural changes and affect secondary structural properties. Interestingly, both EGCG binding and N29K/N30D could also induce long-range structural reorganizations and lead to more compact structures that could shield key binding sites of p53-TAD regulators. Further analysis reveals that the effects of EGCG binding are mainly achieved through nonspecific interactions. These observations are generally consistent with on-going NMR studies and binding assays. Our studies suggest that induced conformational collapse of IDPs may be a general mechanism for shielding functional sites, thus inhibiting recognition of their targets. The current study also demonstrates that atomistic simulations provide a viable approach for studying the sequence-disordered ensemble-function-disease relationships of IDPs and developing new drug design strategies targeting regulatory IDPs.
+31797597	14	17	p53	Gene	7157
+31797597	77	83	Cancer	Disease	MESH:D009369
+31797597	228	233	human	Species	9606
+31797597	253	260	cancers	Disease	MESH:D009369
+31797597	741	747	cancer	Disease	MESH:D009369
+31797597	770	774	K24N	ProteinMutation	tmVar:p|SUB|K|24|N;HGVS:p.K24N;VariantGroup:3;CorrespondingGene:7157;CorrespondingSpecies:9606
+31797597	776	780	N29K	ProteinMutation	tmVar:p|SUB|N|29|K;HGVS:p.N29K;VariantGroup:0;CorrespondingGene:7157;RS#:1011445550;CorrespondingSpecies:9606;CA#:287489276
+31797597	781	785	N30D	ProteinMutation	tmVar:p|SUB|N|30|D;HGVS:p.N30D;VariantGroup:4;CorrespondingGene:7157;CorrespondingSpecies:9606
+31797597	787	791	D49Y	ProteinMutation	tmVar:p|SUB|D|49|Y;HGVS:p.D49Y;VariantGroup:2;CorrespondingGene:7157;CorrespondingSpecies:9606
+31797597	797	801	W53G	ProteinMutation	tmVar:p|SUB|W|53|G;HGVS:p.W53G;VariantGroup:1;CorrespondingGene:7157;CorrespondingSpecies:9606
+31797597	826	832	cancer	Disease	MESH:D009369
+31797597	843	867	epigallocatechin gallate	Chemical	MESH:C045651
+31797597	869	873	EGCG	Chemical	MESH:C045651
+31797597	948	964	tumor suppressor	Disease	OMIM:601308
+31797597	965	968	p53	Gene	7157
+31797597	1092	1095	p53	Gene	7157
+31797597	1114	1117	p53	Gene	7157
+31797597	1141	1145	EGCG	Chemical	MESH:C045651
+31797597	1296	1300	EGCG	Chemical	MESH:C045651
+31797597	1313	1317	N29K	ProteinMutation	tmVar:p|SUB|N|29|K;HGVS:p.N29K;VariantGroup:0;CorrespondingGene:7157;RS#:1011445550;CorrespondingSpecies:9606;CA#:287489276
+31797597	1318	1322	N30D	ProteinMutation	tmVar:p|SUB|N|30|D;HGVS:p.N30D;VariantGroup:4;CorrespondingGene:7157;CorrespondingSpecies:9606
+31797597	1454	1457	p53	Gene	7157
+31797597	1519	1523	EGCG	Chemical	MESH:C045651
+31797597	Association	MESH:D009369	HGVS:p.W53G;CorrespondingGene:7157
+31797597	Association	MESH:D009369	RS#:1011445550;HGVS:p.N29K;CorrespondingGene:7157
+31797597	Association	MESH:D009369	HGVS:p.N30D;CorrespondingGene:7157
+31797597	Association	MESH:D009369	HGVS:p.K24N;CorrespondingGene:7157
+31797597	Association	OMIM:601308	HGVS:p.D49Y;CorrespondingGene:7157
+31797597	Association	MESH:D009369	HGVS:p.D49Y;CorrespondingGene:7157
+31797597	Bind	MESH:C045651	HGVS:p.N30D;CorrespondingGene:7157
+31797597	Bind	MESH:C045651	RS#:1011445550;HGVS:p.N29K;CorrespondingGene:7157
+31797597	Association	MESH:D009369	7157
+31797597	Negative_Correlation	MESH:C045651	MESH:D009369
+31797597	Association	MESH:C045651	7157
+31797597	Bind	MESH:C045651	HGVS:p.K24N;CorrespondingGene:7157
+31797597	Association	MESH:D009369	7157
+31797597	Association	OMIM:601308	7157
+

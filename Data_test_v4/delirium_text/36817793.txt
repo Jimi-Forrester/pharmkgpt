@@ -1,0 +1,20 @@
+36817793|t|Validation of depression determinants in caregivers of dementia patients with machine learning algorithms and statistical model.
+36817793|a|Introduction: Due to its increasing prevalence, dementia is currently one of the most extensively studied health issues. Although it represents a comparatively less-addressed issue, the caregiving burden for dementia patients is likewise receiving attention. Methods: To identify determinants of depression in dementia caregivers, using Community Health Survey (CHS) data collected by the Korea Disease Control and Prevention Agency (KDCA). By setting "dementia caregiver's status of residence with patient" as a standard variable, we selected corresponding CHS data from 2011 to 2019. After refining the data, we split dementia caregiver and general population groups among the dataset (n = 15,708; common variables = 34). We then applied three machine learning algorithms: Extreme Gradient Boosting (XGBoost), Logistic Regression (LR), and Support Vector Classifier (SVC). Subsequently, we selected XGBoost, as it exhibited superior performance to the other algorithms. On the feature importance of XGBoost, we performed a multivariate hierarchical regression analysis to validate the depression causes experienced in each group. We validated the results of the statistical model analysis by performing Welch's t-test on the main determinants exhibited within each group. Results: By verifying the results from machine learning via statistical model analysis, we found "sex" to highly impact depression in dementia caregivers, whereas "status of economic activities" is significantly associated with depression in the general population. Discussion: The evident difference in causes of depression between the two groups may serve as a basis for policy development to improve the mental health of dementia caregivers.
+36817793	14	24	depression	Disease	MESH:D003866
+36817793	55	63	dementia	Disease	MESH:D003704
+36817793	64	72	patients	Species	9606
+36817793	177	185	dementia	Disease	MESH:D003704
+36817793	337	345	dementia	Disease	MESH:D003704
+36817793	346	354	patients	Species	9606
+36817793	425	435	depression	Disease	MESH:D003866
+36817793	439	447	dementia	Disease	MESH:D003704
+36817793	582	590	dementia	Disease	MESH:D003704
+36817793	628	635	patient	Species	9606
+36817793	749	757	dementia	Disease	MESH:D003704
+36817793	1216	1226	depression	Disease	MESH:D003866
+36817793	1523	1533	depression	Disease	MESH:D003866
+36817793	1537	1545	dementia	Disease	MESH:D003704
+36817793	1631	1641	depression	Disease	MESH:D003866
+36817793	1717	1727	depression	Disease	MESH:D003866
+36817793	1827	1835	dementia	Disease	MESH:D003704
+

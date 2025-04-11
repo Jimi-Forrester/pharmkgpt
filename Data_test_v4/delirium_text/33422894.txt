@@ -1,0 +1,22 @@
+33422894|t|Transfer learning for predicting conversion from mild cognitive impairment to dementia of Alzheimer's type based on a three-dimensional convolutional neural network.
+33422894|a|Dementia of Alzheimer's type (DAT) is associated with devastating and irreversible cognitive decline. Predicting which patients with mild cognitive impairment (MCI) will progress to DAT is an ongoing challenge in the field. We developed a deep learning model to predict conversion from MCI to DAT. Structural magnetic resonance imaging scans were used as input to a 3-dimensional convolutional neural network. The 3-dimensional convolutional neural network was trained using transfer learning; in the source task, normal control and DAT scans were used to pretrain the model. This pretrained model was then retrained on the target task of classifying which MCI patients converted to DAT. Our model resulted in 82.4% classification accuracy at the target task, outperforming current models in the field. Next, we visualized brain regions that significantly contribute to the prediction of MCI conversion using an occlusion map approach. Contributory regions included the pons, amygdala, and hippocampus. Finally, we showed that the model's prediction value is significantly correlated with rates of change in clinical assessment scores, indicating that the model is able to predict an individual patient's future cognitive decline. This information, in conjunction with the identified anatomical features, will aid in building a personalized therapeutic strategy for individuals with MCI.
+33422894	49	74	mild cognitive impairment	Disease	MESH:D060825
+33422894	78	106	dementia of Alzheimer's type	Disease	MESH:D000544
+33422894	166	194	Dementia of Alzheimer's type	Disease	MESH:D000544
+33422894	196	199	DAT	Disease	MESH:D000544
+33422894	249	266	cognitive decline	Disease	MESH:D003072
+33422894	285	293	patients	Species	9606
+33422894	299	324	mild cognitive impairment	Disease	MESH:D060825
+33422894	326	329	MCI	Disease	MESH:D060825
+33422894	348	351	DAT	Disease	MESH:D000544
+33422894	452	455	MCI	Disease	MESH:D060825
+33422894	459	462	DAT	Disease	MESH:D000544
+33422894	699	702	DAT	Disease	MESH:D000544
+33422894	823	826	MCI	Disease	MESH:D060825
+33422894	827	835	patients	Species	9606
+33422894	849	852	DAT	Disease	MESH:D000544
+33422894	1054	1057	MCI	Disease	MESH:D060825
+33422894	1361	1368	patient	Species	9606
+33422894	1378	1395	cognitive decline	Disease	MESH:D003072
+33422894	1549	1552	MCI	Disease	MESH:D060825
+

@@ -1,0 +1,73 @@
+36716821|t|Phosphoethanolamine cytidylyltransferase ameliorates mitochondrial function and apoptosis in hepatocytes in T2DM in vitro.
+36716821|a|Liver function indicators are often impaired in patients with type 2 diabetes mellitus (T2DM), who present higher concentrations of aspartate aminotransferase, alanine aminotransferase, and gamma-glutamyl transferase than individuals without diabetes. However, the mechanism of liver injury in patients with T2DM has not been clearly elucidated. In this study, we performed a lipidomics analysis on the liver of T2DM mice, and we found that phosphatidylethanolamine (PE) levels were low in T2DM, along with an increase in diglyceride, which may be due to a decrease in the levels of phosphoethanolamine cytidylyltransferase (Pcyt2), thus likely affecting the de novo synthesis of PE. The phosphatidylserine decarboxylase pathway did not change significantly in the T2DM model, although both pathways are critical sources of PE. Supplementation with CDP-ethanolamine (CDP-etn) to increase the production of PE from the CDP-etn pathway reversed high glucose and FFA (HG&FFA)-induced mitochondrial damage including increased apoptosis, decreased ATP synthesis, decreased mitochondrial membrane potential, and increased reactive oxygen species, whereas supplementation with lysophosphatidylethanolamine, which can increase PE production in the phosphatidylserine decarboxylase pathway, did not. Additionally, we found that overexpression of PCYT2 significantly ameliorated ATP synthesis and abnormal mitochondrial morphology induced by HG&FFA. Finally, the BAX/Bcl-2/caspase3 apoptosis pathway was activated in hepatocytes of the T2DM model, which could also be reversed by CDP-etn supplements and PCYT2 overexpression. In summary, in the liver of T2DM mice, Pcyt2 reduction may lead to a decrease in the levels of PE, whereas CDP-etn supplementation and PCYT2 overexpression ameliorate partial mitochondrial function and apoptosis in HG&FFA-stimulated L02 cells.
+36716821	108	112	T2DM	Disease	MESH:D003924
+36716821	171	179	patients	Species	9606
+36716821	185	209	type 2 diabetes mellitus	Disease	MESH:D003924
+36716821	211	215	T2DM	Disease	MESH:D003924
+36716821	313	339	gamma-glutamyl transferase	Gene	2678
+36716821	365	373	diabetes	Disease	MESH:D003920
+36716821	401	413	liver injury	Disease	MESH:D017093
+36716821	417	425	patients	Species	9606
+36716821	431	435	T2DM	Disease	MESH:D003924
+36716821	535	539	T2DM	Disease	MESH:D003924
+36716821	540	544	mice	Species	10090
+36716821	564	588	phosphatidylethanolamine	Chemical	MESH:C483858
+36716821	590	592	PE	Chemical	MESH:C483858
+36716821	613	617	T2DM	Disease	MESH:D003924
+36716821	645	656	diglyceride	Chemical	MESH:D004075
+36716821	748	753	Pcyt2	Gene	68671
+36716821	803	805	PE	Chemical	MESH:C483858
+36716821	811	843	phosphatidylserine decarboxylase	Gene	320951
+36716821	888	892	T2DM	Disease	MESH:D003924
+36716821	947	949	PE	Chemical	MESH:C483858
+36716821	972	988	CDP-ethanolamine	Chemical	MESH:C006933
+36716821	990	997	CDP-etn	Chemical	-
+36716821	1029	1031	PE	Chemical	MESH:C483858
+36716821	1041	1048	CDP-etn	Chemical	-
+36716821	1071	1078	glucose	Chemical	MESH:D005947
+36716821	1083	1086	FFA	Chemical	MESH:D005230
+36716821	1088	1094	HG&FFA	Chemical	-
+36716821	1104	1124	mitochondrial damage	Disease	MESH:D028361
+36716821	1166	1169	ATP	Chemical	MESH:D000255
+36716821	1239	1262	reactive oxygen species	Chemical	MESH:D017382
+36716821	1293	1321	lysophosphatidylethanolamine	Chemical	MESH:C008301
+36716821	1342	1344	PE	Chemical	MESH:C483858
+36716821	1363	1395	phosphatidylserine decarboxylase	Gene	320951
+36716821	1460	1465	PCYT2	Gene	68671
+36716821	1492	1495	ATP	Chemical	MESH:D000255
+36716821	1555	1561	HG&FFA	Chemical	-
+36716821	1576	1579	BAX	Gene	581
+36716821	1580	1585	Bcl-2	Gene	596
+36716821	1586	1594	caspase3	Gene	836
+36716821	1649	1653	T2DM	Disease	MESH:D003924
+36716821	1693	1700	CDP-etn	Chemical	-
+36716821	1717	1722	PCYT2	Gene	68671
+36716821	1767	1771	T2DM	Disease	MESH:D003924
+36716821	1772	1776	mice	Species	10090
+36716821	1778	1783	Pcyt2	Gene	68671
+36716821	1834	1836	PE	Chemical	MESH:C483858
+36716821	1846	1853	CDP-etn	Chemical	-
+36716821	1874	1879	PCYT2	Gene	68671
+36716821	1954	1960	HG&FFA	Chemical	-
+36716821	1972	1975	L02	CellLine	CVCL:6926
+36716821	Negative_Correlation	MESH:C483858	MESH:D003924
+36716821	Positive_Correlation	MESH:D005230	MESH:D028361
+36716821	Negative_Correlation	MESH:C483858	MESH:D028361
+36716821	Positive_Correlation	68671	836
+36716821	Positive_Correlation	MESH:C008301	320951
+36716821	Negative_Correlation	MESH:C006933	MESH:D028361
+36716821	Negative_Correlation	MESH:C006933	MESH:D005947
+36716821	Positive_Correlation	MESH:D003924	581
+36716821	Positive_Correlation	MESH:D003924	836
+36716821	Positive_Correlation	MESH:D004075	MESH:D003924
+36716821	Positive_Correlation	MESH:C006933	MESH:C483858
+36716821	Association	MESH:D003924	596
+36716821	Positive_Correlation	581	68671
+36716821	Association	MESH:D003924	68671
+36716821	Association	MESH:D000255	68671
+36716821	Positive_Correlation	MESH:D005947	MESH:D028361
+36716821	Positive_Correlation	MESH:C008301	MESH:C483858
+36716821	Positive_Correlation	596	68671
+36716821	Positive_Correlation	MESH:D003924	2678
+36716821	Negative_Correlation	MESH:C483858	68671
+

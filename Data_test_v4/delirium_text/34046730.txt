@@ -1,0 +1,19 @@
+34046730|t|A dual-time-window protocol to reduce acquisition time of dynamic tau PET imaging using [18F]MK-6240.
+34046730|a|BACKGROUND: [18F]MK-6240 is a PET tracer with sub-nanomolar affinity for neurofibrillary tangles. Therefore, tau quantification is possible with [18F]MK-6240 PET/CT scans, and it can be used for assessment of Alzheimer's disease. However, long acquisition scans are required to provide fully quantitative estimates of pharmacokinetic parameters. Therefore, on the present study, dual-time-window (DTW) acquisitions was simulated to reduce PET/CT acquisition time, while taking into consideration perfusion changes and possible scanning protocol non-compliance. To that end, time activity curves (TACs) representing a 120-min acquisition (TAC120) were simulated using a two-tissue compartment model with metabolite corrected arterial input function from 90-min dynamic [18F]MK-6240 PET scans of three healthy control subjects and five subjects with mild cognitive impairment or Alzheimer's disease. Therefore, TACs corresponding to different levels of specific binding were generated and then various perfusion changes were simulated. Next, DTW acquisitions were simulated consisting of an acquisition starting at tracer injection, a break and a second acquisition starting at 90 min post-injection. Finally, non-compliance with the PET/CT scanning protocol were simulated to assess its impact on quantification. All TACs were quantified using reference Logan's distribution volume ratio (DVR) and standardized uptake value ratio (SUVR90) using the cerebellar cortex as reference region. RESULTS: It was found that DVR from a DTW protocol with a 60-min break between two 30-min dynamic scans closely approximates the DVR from the uninterrupted TAC120, with a regional bias smaller than 2.5%. Moreover, SUVR90 estimates were more susceptible (regional bias <= 19%) to changes in perfusion compared to DVR from a DTW TAC (regional bias <= 10%). Similarly, SUVR90 was affected by late-time scanning protocol delays reaching an increase of 8% for a 20-min delay, while DVR was not affected (regional bias < 1.5%) by DTW protocol non-compliance. CONCLUSIONS: Therefore, such DTW protocol has the potential to increase patient comfort and throughput without compromising quantitative accuracy and is more reliable against SUVR in terms of perfusion changes and protocol deviations, which could prove beneficial for drug effect assessment and patient follow-up using longitudinal [18F]MK-6240 PET imaging.
+34046730	66	69	tau	Gene	4137
+34046730	88	100	[18F]MK-6240	Chemical	-
+34046730	114	126	[18F]MK-6240	Chemical	-
+34046730	175	198	neurofibrillary tangles	Disease	MESH:D055956
+34046730	211	214	tau	Gene	4137
+34046730	247	259	[18F]MK-6240	Chemical	-
+34046730	311	330	Alzheimer's disease	Disease	MESH:D000544
+34046730	740	746	TAC120	Chemical	-
+34046730	870	882	[18F]MK-6240	Chemical	-
+34046730	955	975	cognitive impairment	Disease	MESH:D003072
+34046730	979	998	Alzheimer's disease	Disease	MESH:D000544
+34046730	1745	1751	TAC120	Chemical	-
+34046730	2214	2221	patient	Species	9606
+34046730	2437	2444	patient	Species	9606
+34046730	2474	2486	[18F]MK-6240	Chemical	-
+34046730	Association	MESH:D000544	4137
+

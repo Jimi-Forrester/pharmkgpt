@@ -1,0 +1,53 @@
+35688208|t|The neurosteroid pregnenolone is synthesized by a mitochondrial P450 enzyme other than CYP11A1 in human glial cells.
+35688208|a|Neurosteroids, modulators of neuronal and glial cell functions, are synthesized in the nervous system from cholesterol. In peripheral steroidogenic tissues, cholesterol is converted to the major steroid precursor pregnenolone by the CYP11A1 enzyme. Although pregnenolone is one of the most abundant neurosteroids in the brain, expression of CYP11A1 is difficult to detect. We found that human glial cells produced pregnenolone, detectable by mass spectrometry and ELISA, despite the absence of observable immunoreactive CYP11A1 protein. Unlike testicular and adrenal cortical cells, pregnenolone production in glial cells was not inhibited by CYP11A1 inhibitors DL-aminoglutethimide and ketoconazole. Furthermore, addition of hydroxycholesterols increased pregnenolone synthesis, suggesting desmolase activity that was not blocked by DL-aminoglutethimide or ketoconazole. We explored three different possibilities for an alternative pathway for glial cell pregnenolone synthesis: (1) regulation by reactive oxygen species, (2) metabolism via a different CYP11A1 isoform, and (3) metabolism via another CYP450 enzyme. First, we found oxidants and antioxidants had no significant effects on pregnenolone synthesis, suggesting it is not regulated by reactive oxygen species. Second, overexpression of CYP11A1 isoform b did not alter synthesis, indicating use of another CYP11A1 isoform is unlikely. Finally, we show nitric oxide and iron chelators deferoxamine and deferiprone significantly inhibited pregnenolone production, indicating involvement of another CYP450 enzyme. Ultimately, knockdown of endoplasmic reticulum cofactor NADPH-cytochrome P450 reductase had no effect, while knockdown of mitochondrial CYP450 cofactor ferredoxin reductase inhibited pregnenolone production. These data suggest that pregnenolone is synthesized by a mitochondrial cytochrome P450 enzyme other than CYP11A1 in human glial cells.
+35688208	17	29	pregnenolone	Chemical	MESH:D011284
+35688208	87	94	CYP11A1	Gene	1583
+35688208	98	103	human	Species	9606
+35688208	224	235	cholesterol	Chemical	MESH:D002784
+35688208	274	285	cholesterol	Chemical	MESH:D002784
+35688208	312	319	steroid	Chemical	MESH:D013256
+35688208	330	342	pregnenolone	Chemical	MESH:D011284
+35688208	350	357	CYP11A1	Gene	1583
+35688208	375	387	pregnenolone	Chemical	MESH:D011284
+35688208	458	465	CYP11A1	Gene	1583
+35688208	504	509	human	Species	9606
+35688208	531	543	pregnenolone	Chemical	MESH:D011284
+35688208	637	644	CYP11A1	Gene	1583
+35688208	700	712	pregnenolone	Chemical	MESH:D011284
+35688208	760	767	CYP11A1	Gene	1583
+35688208	779	799	DL-aminoglutethimide	Chemical	MESH:D000616
+35688208	804	816	ketoconazole	Chemical	MESH:D007654
+35688208	843	862	hydroxycholesterols	Chemical	MESH:D006888
+35688208	873	885	pregnenolone	Chemical	MESH:D011284
+35688208	951	971	DL-aminoglutethimide	Chemical	MESH:D000616
+35688208	975	987	ketoconazole	Chemical	MESH:D007654
+35688208	1073	1085	pregnenolone	Chemical	MESH:D011284
+35688208	1115	1138	reactive oxygen species	Chemical	MESH:D017382
+35688208	1171	1178	CYP11A1	Gene	1583
+35688208	1306	1318	pregnenolone	Chemical	MESH:D011284
+35688208	1364	1387	reactive oxygen species	Chemical	MESH:D017382
+35688208	1415	1422	CYP11A1	Gene	1583
+35688208	1484	1491	CYP11A1	Gene	1583
+35688208	1530	1542	nitric oxide	Chemical	MESH:D009569
+35688208	1547	1551	iron	Chemical	MESH:D007501
+35688208	1562	1574	deferoxamine	Chemical	MESH:D003676
+35688208	1579	1590	deferiprone	Chemical	MESH:D000077543
+35688208	1615	1627	pregnenolone	Chemical	MESH:D011284
+35688208	1745	1776	NADPH-cytochrome P450 reductase	Gene	5447
+35688208	1841	1861	ferredoxin reductase	Gene	2232
+35688208	1872	1884	pregnenolone	Chemical	MESH:D011284
+35688208	1921	1933	pregnenolone	Chemical	MESH:D011284
+35688208	2002	2009	CYP11A1	Gene	1583
+35688208	2013	2018	human	Species	9606
+35688208	Association	MESH:D002784	MESH:D013256
+35688208	Negative_Correlation	MESH:D000077543	MESH:D011284
+35688208	Association	MESH:D007501	MESH:D011284
+35688208	Association	MESH:D003676	MESH:D007501
+35688208	Negative_Correlation	MESH:D003676	MESH:D011284
+35688208	Association	MESH:D002784	MESH:D011284
+35688208	Association	MESH:D011284	2232
+35688208	Negative_Correlation	MESH:D000077543	MESH:D007501
+35688208	Negative_Correlation	MESH:D009569	MESH:D011284
+35688208	Positive_Correlation	MESH:D006888	MESH:D011284
+35688208	Negative_Correlation	MESH:D007654	1583
+

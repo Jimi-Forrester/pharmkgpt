@@ -1,0 +1,15 @@
+33902457|t|MADGAN: unsupervised medical anomaly detection GAN using multiple adjacent brain MRI slice reconstruction.
+33902457|a|BACKGROUND: Unsupervised learning can discover various unseen abnormalities, relying on large-scale unannotated medical images of healthy subjects. Towards this, unsupervised methods reconstruct a 2D/3D single medical image to detect outliers either in the learned feature space or from high reconstruction loss. However, without considering continuity between multiple adjacent slices, they cannot directly discriminate diseases composed of the accumulation of subtle anatomical anomalies, such as Alzheimer's disease (AD). Moreover, no study has shown how unsupervised anomaly detection is associated with either disease stages, various (i.e., more than two types of) diseases, or multi-sequence magnetic resonance imaging (MRI) scans. RESULTS: We propose unsupervised medical anomaly detection generative adversarial network (MADGAN), a novel two-step method using GAN-based multiple adjacent brain MRI slice reconstruction to detect brain anomalies at different stages on multi-sequence structural MRI: (Reconstruction) Wasserstein loss with Gradient Penalty + 100 [Formula: see text] loss-trained on 3 healthy brain axial MRI slices to reconstruct the next 3 ones-reconstructs unseen healthy/abnormal scans; (Diagnosis) Average [Formula: see text] loss per scan discriminates them, comparing the ground truth/reconstructed slices. For training, we use two different datasets composed of 1133 healthy T1-weighted (T1) and 135 healthy contrast-enhanced T1 (T1c) brain MRI scans for detecting AD and brain metastases/various diseases, respectively. Our self-attention MADGAN can detect AD on T1 scans at a very early stage, mild cognitive impairment (MCI), with area under the curve (AUC) 0.727, and AD at a late stage with AUC 0.894, while detecting brain metastases on T1c scans with AUC 0.921. CONCLUSIONS: Similar to physicians' way of performing a diagnosis, using massive healthy training data, our first multiple MRI slice reconstruction approach, MADGAN, can reliably predict the next 3 slices from the previous 3 ones only for unseen healthy images. As the first unsupervised various disease diagnosis, MADGAN can reliably detect the accumulation of subtle anatomical anomalies and hyper-intense enhancing lesions, such as (especially late-stage) AD and brain metastases on multi-sequence MRI scans.
+33902457	606	625	Alzheimer's disease	Disease	MESH:D000544
+33902457	627	629	AD	Disease	MESH:D000544
+33902457	1044	1059	brain anomalies	Disease	MESH:D001927
+33902457	1602	1604	AD	Disease	MESH:D000544
+33902457	1615	1625	metastases	Disease	MESH:D009362
+33902457	1695	1697	AD	Disease	MESH:D000544
+33902457	1738	1758	cognitive impairment	Disease	MESH:D003072
+33902457	1760	1763	MCI	Disease	MESH:D060825
+33902457	1809	1811	AD	Disease	MESH:D000544
+33902457	1866	1876	metastases	Disease	MESH:D009362
+33902457	2365	2367	AD	Disease	MESH:D000544
+33902457	2378	2388	metastases	Disease	MESH:D009362
+

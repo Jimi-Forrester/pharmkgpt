@@ -1,0 +1,29 @@
+33938131|t|Systematic in silico analysis of clinically tested drugs for reducing amyloid-beta plaque accumulation in Alzheimer's disease.
+33938131|a|INTRODUCTION: Despite strong evidence linking amyloid beta (Abeta) to Alzheimer's disease, most clinical trials have shown no clinical efficacy for reasons that remain unclear. To understand why, we developed a quantitative systems pharmacology (QSP) model for seven therapeutics: aducanumab, crenezumab, solanezumab, bapineuzumab, elenbecestat, verubecestat, and semagacestat. METHODS: Ordinary differential equations were used to model the production, transport, and aggregation of Abeta; pharmacology of the drugs; and their impact on plaque. RESULTS: The calibrated model predicts that endogenous plaque turnover is slow, with an estimated half-life of 2.75 years. This is likely why beta-secretase inhibitors have a smaller effect on plaque reduction. Of the mechanisms tested, the model predicts binding to plaque and inducing antibody-dependent cellular phagocytosis is the best approach for plaque reduction. DISCUSSION: A QSP model can provide novel insights to clinical results. Our model explains the results of clinical trials and provides guidance for future therapeutic development.
+33938131	70	82	amyloid-beta	Gene	351
+33938131	106	125	Alzheimer's disease	Disease	MESH:D000544
+33938131	173	185	amyloid beta	Gene	351
+33938131	187	192	Abeta	Gene	351
+33938131	197	216	Alzheimer's disease	Disease	MESH:D000544
+33938131	408	418	aducanumab	Chemical	MESH:C000600266
+33938131	420	430	crenezumab	Chemical	MESH:C573372
+33938131	432	443	solanezumab	Chemical	MESH:C550616
+33938131	445	457	bapineuzumab	Chemical	MESH:C545458
+33938131	459	471	elenbecestat	Chemical	-
+33938131	473	485	verubecestat	Chemical	MESH:C000613570
+33938131	491	503	semagacestat	Chemical	MESH:C484278
+33938131	611	616	Abeta	Gene	351
+33938131	Negative_Correlation	MESH:C550616	MESH:D000544
+33938131	Negative_Correlation	MESH:C000600266	351
+33938131	Negative_Correlation	MESH:C545458	351
+33938131	Negative_Correlation	MESH:C000613570	351
+33938131	Negative_Correlation	MESH:C000600266	MESH:D000544
+33938131	Negative_Correlation	MESH:C484278	351
+33938131	Negative_Correlation	MESH:C484278	MESH:D000544
+33938131	Negative_Correlation	MESH:C545458	MESH:D000544
+33938131	Negative_Correlation	MESH:C573372	351
+33938131	Negative_Correlation	MESH:C550616	351
+33938131	Negative_Correlation	MESH:C000613570	MESH:D000544
+33938131	Association	MESH:D000544	351
+33938131	Negative_Correlation	MESH:C573372	MESH:D000544
+

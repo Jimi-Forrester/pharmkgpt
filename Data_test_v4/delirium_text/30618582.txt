@@ -1,0 +1,13 @@
+30618582|t|Improving Sparsity and Modularity of High-Order Functional Connectivity Networks for MCI and ASD Identification.
+30618582|a|High-order correlation has recently been proposed to model brain functional connectivity network (FCN) for identifying neurological disorders, such as mild cognitive impairment (MCI) and autism spectrum disorder (ASD). In practice, the high-order FCN (HoFCN) can be derived from multiple low-order FCNs that are estimated separately in a series of sliding windows, and thus it in fact provides a way of integrating dynamic information encoded in a sequence of low-order FCNs. However, the estimation of low-order FCN may be unreliable due to the fact that the use of limited volumes/samples in a sliding window can significantly reduce the statistical power, which in turn affects the reliability of the resulted HoFCN. To address this issue, we propose to enhance HoFCN based on a regularized learning framework. More specifically, we first calculate an initial HoFCN using a recently developed method based on maximum likelihood estimation. Then, we learn an optimal neighborhood network of the initially estimated HoFCN with sparsity and modularity priors as regularizers. Finally, based on the improved HoFCNs, we conduct experiments to identify MCI and ASD patients from their corresponding normal controls. Experimental results show that the proposed methods outperform the baseline methods, and the improved HoFCNs with modularity prior consistently achieve the best performance.
+30618582	85	88	MCI	Disease	MESH:D060825
+30618582	93	96	ASD	Disease	MESH:D000067877
+30618582	232	254	neurological disorders	Disease	MESH:D009461
+30618582	269	289	cognitive impairment	Disease	MESH:D003072
+30618582	291	294	MCI	Disease	MESH:D060825
+30618582	300	324	autism spectrum disorder	Disease	MESH:D000067877
+30618582	326	329	ASD	Disease	MESH:D000067877
+30618582	1263	1266	MCI	Disease	MESH:D060825
+30618582	1271	1274	ASD	Disease	MESH:D000067877
+30618582	1275	1283	patients	Species	9606
+

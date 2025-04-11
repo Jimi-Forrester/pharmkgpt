@@ -1,0 +1,29 @@
+35027645|t|Single-cell transcriptomics of human iPSC differentiation dynamics reveal a core molecular network of Parkinson's disease.
+35027645|a|Parkinson's disease (PD) is the second-most prevalent neurodegenerative disorder, characterized by the loss of dopaminergic neurons (mDA) in the midbrain. The underlying mechanisms are only partly understood and there is no treatment to reverse PD progression. Here, we investigated the disease mechanism using mDA neurons differentiated from human induced pluripotent stem cells (hiPSCs) carrying the ILE368ASN mutation within the PINK1 gene, which is strongly associated with PD. Single-cell RNA sequencing (RNAseq) and gene expression analysis of a PINK1-ILE368ASN and a control cell line identified genes differentially expressed during mDA neuron differentiation. Network analysis revealed that these genes form a core network, members of which interact with all known 19 protein-coding Parkinson's disease-associated genes. This core network encompasses key PD-associated pathways, including ubiquitination, mitochondrial function, protein processing, RNA metabolism, and vesicular transport. Proteomics analysis showed a consistent alteration in proteins of dopamine metabolism, indicating a defect of dopaminergic metabolism in PINK1-ILE368ASN neurons. Our findings suggest the existence of a network onto which pathways associated with PD pathology converge, and offers an inclusive interpretation of the phenotypic heterogeneity of PD.
+35027645	31	36	human	Species	9606
+35027645	102	121	Parkinson's disease	Disease	MESH:D010300
+35027645	123	142	Parkinson's disease	Disease	MESH:D010300
+35027645	144	146	PD	Disease	MESH:D010300
+35027645	177	203	neurodegenerative disorder	Disease	MESH:D019636
+35027645	256	259	mDA	Disease	
+35027645	368	370	PD	Disease	MESH:D010300
+35027645	434	437	mDA	Disease	
+35027645	466	471	human	Species	9606
+35027645	525	534	ILE368ASN	ProteinMutation	tmVar:p|SUB|I|368|N;HGVS:p.I368N;VariantGroup:0;CorrespondingGene:65018;RS#:774647122;CorrespondingSpecies:9606;CA#:660689
+35027645	555	560	PINK1	Gene	65018
+35027645	601	603	PD	Disease	MESH:D010300
+35027645	675	680	PINK1	Gene	65018
+35027645	681	690	ILE368ASN	ProteinMutation	tmVar:p|SUB|I|368|N;HGVS:p.I368N;VariantGroup:0;CorrespondingGene:65018;RS#:774647122;CorrespondingSpecies:9606;CA#:660689
+35027645	764	767	mDA	Disease	
+35027645	915	934	Parkinson's disease	Disease	MESH:D010300
+35027645	987	989	PD	Disease	MESH:D010300
+35027645	1188	1196	dopamine	Chemical	MESH:D004298
+35027645	1259	1264	PINK1	Gene	65018
+35027645	1265	1274	ILE368ASN	ProteinMutation	tmVar:p|SUB|I|368|N;HGVS:p.I368N;VariantGroup:0;CorrespondingGene:65018;RS#:774647122;CorrespondingSpecies:9606;CA#:660689
+35027645	1368	1370	PD	Disease	MESH:D010300
+35027645	1465	1467	PD	Disease	MESH:D010300
+35027645	Positive_Correlation	MESH:D010300	RS#:774647122;HGVS:p.I368N;CorrespondingGene:65018
+35027645	Association	MESH:D010300	65018
+35027645	Association	MESH:D004298	65018
+35027645	Association	MESH:D010300	65018
+

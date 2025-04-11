@@ -1,0 +1,65 @@
+36561300|t|Hippocampal gene expression patterns in Sevoflurane anesthesia associated neurocognitive disorders: A bioinformatic analysis.
+36561300|a|Background: Several studies indicate general anesthetics can produce lasting effects on cognitive function. The commonly utilized anesthetic agent Sevoflurane has been implicated in neurodegenerative processes. The present study aimed to identify molecular underpinnings of Sevoflurane anesthesia linked neurocognitive changes by leveraging publically available datasets for bioinformatics analysis. Methods: A Sevoflurane anesthesia related gene expression dataset was obtained. Sevoflurane related genes were obtained from the CTD database. Neurocognitive disorders (NCD) related genes were downloaded from DisGeNET and CTD. Intersecting differentially expressed genes between Sevoflurane and NCD were identified as cross-talk genes. A protein-protein interaction (PPI) network was constructed. Hub genes were selected using LASSO regression. Single sample gene set enrichment analysis; functional network analysis, pathway correlations, composite network analysis and drug sensitivity analysis were performed. Results: Fourteen intersecting cross-talk genes potentially were identified. These were mainly involved in biological processes including peptidyl-serine phosphorylation, cellular response to starvation, and response to gamma radiation, regulation of p53 signaling pathway, AGE-RAGE signaling pathway and FoxO signaling. Egr1 showed a central role in the PPI network. Cdkn1a, Egr1, Gadd45a, Slc2a1, and Slc3a2 were identified as important or hub cross-talk genes. Among the interacting pathways, Interleukin-10 signaling and NF-kappa B signaling enriched among Sevoflurane-related DEGs were highly correlated with HIF-1 signaling enriched in NCD-related genes. Composite network analysis showed Egr1 interacted with AGE-RAGE signaling and Apelin signaling pathways, Cdkn1a, and Gadd45a. Cdkn1a was implicated in in FoxO signaling, PI3K-Akt signaling, ErbB signaling, and Oxytocin signaling pathways, and Gadd45a. Gadd45a was involved in NF-kappa B signaling and FoxO signaling pathways. Drug sensitivity analysis showed Egr1 was highly sensitive to GENIPIN. Conclusion: A suite of bioinformatics analysis revealed several key candidate hippocampal genes and associated functional signaling pathways that could underlie Sevoflurane associated neurodegenerative processes.
+36561300	40	51	Sevoflurane	Chemical	MESH:D000077149
+36561300	74	98	neurocognitive disorders	Disease	MESH:D019965
+36561300	273	284	Sevoflurane	Chemical	MESH:D000077149
+36561300	308	325	neurodegenerative	Disease	MESH:D019636
+36561300	400	411	Sevoflurane	Chemical	MESH:D000077149
+36561300	537	548	Sevoflurane	Chemical	MESH:D000077149
+36561300	606	617	Sevoflurane	Chemical	MESH:D000077149
+36561300	655	658	CTD	Disease	
+36561300	669	693	Neurocognitive disorders	Disease	MESH:D019965
+36561300	695	698	NCD	Disease	MESH:D019965
+36561300	748	751	CTD	Disease	
+36561300	805	816	Sevoflurane	Chemical	MESH:D000077149
+36561300	821	824	NCD	Disease	MESH:D019965
+36561300	1390	1393	p53	Gene	7157
+36561300	1413	1416	AGE	Gene	5973
+36561300	1417	1421	RAGE	Gene	177
+36561300	1460	1464	Egr1	Gene	1958
+36561300	1507	1513	Cdkn1a	Gene	1026
+36561300	1515	1519	Egr1	Gene	1958
+36561300	1521	1528	Gadd45a	Gene	1647
+36561300	1530	1536	Slc2a1	Gene	6513
+36561300	1542	1548	Slc3a2	Gene	6520
+36561300	1635	1649	Interleukin-10	Gene	3586
+36561300	1664	1674	NF-kappa B	Gene	4790
+36561300	1700	1711	Sevoflurane	Chemical	MESH:D000077149
+36561300	1753	1758	HIF-1	Gene	3091
+36561300	1781	1784	NCD	Disease	MESH:D019965
+36561300	1834	1838	Egr1	Gene	1958
+36561300	1855	1858	AGE	Gene	5973
+36561300	1859	1863	RAGE	Gene	177
+36561300	1878	1884	Apelin	Gene	8862
+36561300	1905	1911	Cdkn1a	Gene	1026
+36561300	1917	1924	Gadd45a	Gene	1647
+36561300	1926	1932	Cdkn1a	Gene	1026
+36561300	1975	1978	Akt	Gene	207
+36561300	1990	1994	ErbB	Gene	1956
+36561300	2010	2018	Oxytocin	Gene	5020
+36561300	2043	2050	Gadd45a	Gene	1647
+36561300	2052	2059	Gadd45a	Gene	1647
+36561300	2076	2086	NF-kappa B	Gene	4790
+36561300	2159	2163	Egr1	Gene	1958
+36561300	2188	2195	GENIPIN	Chemical	MESH:C007834
+36561300	2358	2369	Sevoflurane	Chemical	MESH:D000077149
+36561300	2381	2398	neurodegenerative	Disease	MESH:D019636
+36561300	Association	1647	4790
+36561300	Association	MESH:D019965	1958
+36561300	Association	1026	207
+36561300	Association	MESH:D019965	4790
+36561300	Association	1958	8862
+36561300	Association	MESH:D000077149	3586
+36561300	Association	MESH:C007834	1958
+36561300	Positive_Correlation	MESH:D000077149	MESH:D019636
+36561300	Association	1026	5020
+36561300	Association	1026	1956
+36561300	Association	MESH:D019965	3586
+36561300	Association	1647	1958
+36561300	Association	MESH:D019965	3091
+36561300	Association	MESH:D000077149	4790
+36561300	Association	177	1958
+36561300	Association	MESH:D000077149	MESH:D019965
+36561300	Association	177	5973
+36561300	Association	1026	1958
+

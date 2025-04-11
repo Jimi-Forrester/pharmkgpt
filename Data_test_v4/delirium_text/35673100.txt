@@ -1,0 +1,5 @@
+35673100|t|Accuracies of Training Labels and Machine Learning Models: Experiments on Delirium and Simulated Data.
+35673100|a|Supervised predictive models require labeled data for training purposes. Complete and accurate labeled data is not always available, and imperfectly labeled data may need to serve as an alternative. An important question is if the accuracy of the labeled data creates a performance ceiling for the trained model. In this study, we trained several models to recognize the presence of delirium in clinical documents using data with annotations that are not completely accurate. In the external evaluation, the support vector machine model with a linear kernel performed best, achieving an area under the curve of 89.3% and accuracy of 88%, surpassing the 80% accuracy of the training sample. We then generated a set of simulated data and carried out a series of experiments which demonstrated that models trained on imperfect data can (but do not always) outperform the accuracy of the training data.
+35673100	74	82	Delirium	Disease	MESH:D003693
+35673100	486	494	delirium	Disease	MESH:D003693
+

@@ -1,0 +1,31 @@
+33398303|t|An atlas connecting shared genetic architecture of human diseases and molecular phenotypes provides insight into COVID-19 susceptibility.
+33398303|a|While genome-wide associations studies (GWAS) have successfully elucidated the genetic architecture of complex human traits and diseases, understanding mechanisms that lead from genetic variation to pathophysiology remains an important challenge. Methods are needed to systematically bridge this crucial gap to facilitate experimental testing of hypotheses and translation to clinical utility. Here, we leveraged cross-phenotype associations to identify traits with shared genetic architecture, using linkage disequilibrium (LD) information to accurately capture shared SNPs by proxy, and calculate significance of enrichment. This shared genetic architecture was examined across differing biological scales through incorporating data from catalogs of clinical, cellular, and molecular GWAS. We have created an interactive web database (interactive Cross-Phenotype Analysis of GWAS database (iCPAGdb); http://cpag.oit.duke.edu ) to facilitate exploration and allow rapid analysis of user-uploaded GWAS summary statistics. This database revealed well-known relationships among phenotypes, as well as the generation of novel hypotheses to explain the pathophysiology of common diseases. Application of iCPAGdb to a recent GWAS of severe COVID-19 demonstrated unexpected overlap of GWAS signals between COVID-19 and human diseases, including with idiopathic pulmonary fibrosis driven by the DPP9 locus. Transcriptomics from peripheral blood of COVID-19 patients demonstrated that DPP9 was induced in SARS-CoV-2 compared to healthy controls or those with bacterial infection. Further investigation of cross-phenotype SNPs with severe COVID-19 demonstrated colocalization of the GWAS signal of the ABO locus with plasma protein levels of a reported receptor of SARS-CoV-2, CD209 (DC-SIGN), pointing to a possible mechanism whereby glycosylation of CD209 by ABO may regulate COVID-19 disease severity. Thus, connecting genetically related traits across phenotypic scales links human diseases to molecular and cellular measurements that can reveal mechanisms and lead to novel biomarkers and therapeutic approaches.
+33398303	51	56	human	Species	9606
+33398303	113	121	COVID-19	Disease	MESH:D000086382
+33398303	249	254	human	Species	9606
+33398303	1373	1381	COVID-19	Disease	MESH:D000086382
+33398303	1438	1446	COVID-19	Disease	MESH:D000086382
+33398303	1451	1456	human	Species	9606
+33398303	1482	1511	idiopathic pulmonary fibrosis	Disease	MESH:D054990
+33398303	1526	1530	DPP9	Gene	91039
+33398303	1579	1587	COVID-19	Disease	MESH:D000086382
+33398303	1588	1596	patients	Species	9606
+33398303	1615	1619	DPP9	Gene	91039
+33398303	1635	1645	SARS-CoV-2	Species	2697049
+33398303	1689	1708	bacterial infection	Disease	MESH:D001424
+33398303	1768	1776	COVID-19	Disease	MESH:D000086382
+33398303	1831	1834	ABO	Gene	28
+33398303	1894	1904	SARS-CoV-2	Species	2697049
+33398303	1906	1911	CD209	Gene	30835
+33398303	1913	1920	DC-SIGN	Gene	30835
+33398303	1981	1986	CD209	Gene	30835
+33398303	1990	1993	ABO	Gene	28
+33398303	2007	2023	COVID-19 disease	Disease	MESH:D000086382
+33398303	2109	2114	human	Species	9606
+33398303	Association	MESH:D000086382	91039
+33398303	Association	MESH:D054990	91039
+33398303	Association	28	30835
+33398303	Association	MESH:D000086382	28
+33398303	Association	MESH:D000086382	30835
+33398303	Association	MESH:D001424	91039
+

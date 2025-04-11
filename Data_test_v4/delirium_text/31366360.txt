@@ -1,0 +1,43 @@
+31366360|t|Effects of a high protein diet and liver disease in an in silico model of human ammonia metabolism.
+31366360|a|BACKGROUND: After proteolysis, the majority of released amino acids from dietary protein are transported to the liver for gluconeogenesis or to peripheral tissues where they are used for protein synthesis and eventually catabolized, producing ammonia as a byproduct. High ammonia levels in the brain are a major contributor to the decreased neural function that occurs in several pathological conditions such as hepatic encephalopathy when liver urea cycle function is compromised. Therefore, it is important to gain a deeper understanding of human ammonia metabolism. The objective of this study was to predict changes in blood ammonia levels resulting from alterations in dietary protein intake, from liver disease, or from partial loss of urea cycle function. METHODS: A simple mathematical model was created using MATLAB SimBiology and data from published studies. Simulations were performed and results analyzed to determine steady state changes in ammonia levels resulting from varying dietary protein intake and varying liver enzyme activity levels to simulate liver disease. As a toxicity reference, viability was measured in SH-SY5Y neuroblastoma cells following differentiation and ammonium chloride treatment. RESULTS: Results from control simulations yielded steady state blood ammonia levels within normal physiological limits. Increasing dietary protein intake by 72% resulted in a 59% increase in blood ammonia levels. Simulations of liver cirrhosis increased blood ammonia levels by 41 to 130% depending upon the level of dietary protein intake. Simulations of heterozygous individuals carrying a loss of function allele of the urea cycle carbamoyl phosphate synthetase I (CPS1) gene resulted in more than a tripling of blood ammonia levels (from roughly 18 to 60 muM depending on dietary protein intake). The viability of differentiated SH-SY5Y cells was decreased by 14% by the addition of a slightly higher amount of ammonium chloride (90 muM). CONCLUSIONS: Data from the model suggest decreasing protein consumption may be one simple strategy to decrease blood ammonia levels and minimize the risk of developing hepatic encephalopathy for many liver disease patients. In addition, the model suggests subjects who are known carriers of disease-causing CPS1 alleles may benefit from monitoring blood ammonia levels and limiting the level of protein intake if ammonia levels are high.
+31366360	35	48	liver disease	Disease	MESH:D008107
+31366360	74	79	human	Species	9606
+31366360	80	87	ammonia	Chemical	MESH:D000641
+31366360	343	350	ammonia	Chemical	MESH:D000641
+31366360	372	379	ammonia	Chemical	MESH:D000641
+31366360	512	534	hepatic encephalopathy	Disease	MESH:D006501
+31366360	546	550	urea	Chemical	MESH:D014508
+31366360	643	648	human	Species	9606
+31366360	649	656	ammonia	Chemical	MESH:D000641
+31366360	729	736	ammonia	Chemical	MESH:D000641
+31366360	803	816	liver disease	Disease	MESH:D008107
+31366360	842	846	urea	Chemical	MESH:D014508
+31366360	1054	1061	ammonia	Chemical	MESH:D000641
+31366360	1168	1181	liver disease	Disease	MESH:D008107
+31366360	1188	1196	toxicity	Disease	MESH:D064420
+31366360	1234	1255	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+31366360	1292	1309	ammonium chloride	Chemical	MESH:D000643
+31366360	1390	1397	ammonia	Chemical	MESH:D000641
+31366360	1518	1525	ammonia	Chemical	MESH:D000641
+31366360	1549	1564	liver cirrhosis	Disease	MESH:D008103
+31366360	1581	1588	ammonia	Chemical	MESH:D000641
+31366360	1744	1748	urea	Chemical	MESH:D014508
+31366360	1755	1787	carbamoyl phosphate synthetase I	Gene	1373
+31366360	1789	1793	CPS1	Gene	1373
+31366360	1842	1849	ammonia	Chemical	MESH:D000641
+31366360	1954	1961	SH-SY5Y	CellLine	CVCL:0019
+31366360	2036	2053	ammonium chloride	Chemical	MESH:D000643
+31366360	2181	2188	ammonia	Chemical	MESH:D000641
+31366360	2232	2254	hepatic encephalopathy	Disease	MESH:D006501
+31366360	2264	2277	liver disease	Disease	MESH:D008107
+31366360	2278	2286	patients	Species	9606
+31366360	2371	2375	CPS1	Gene	1373
+31366360	2418	2425	ammonia	Chemical	MESH:D000641
+31366360	2477	2484	ammonia	Chemical	MESH:D000641
+31366360	Association	MESH:D014508	MESH:D006501
+31366360	Positive_Correlation	MESH:D000641	MESH:D008103
+31366360	Association	MESH:D000641	1373
+31366360	Association	MESH:D008107	1373
+31366360	Association	MESH:D014508	1373
+31366360	Positive_Correlation	MESH:D000641	MESH:D006501
+

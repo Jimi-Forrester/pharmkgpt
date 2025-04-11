@@ -1,0 +1,49 @@
+37964835|t|Analysis of medication rules and application characteristics of Chinese patent medicine containing borneol based on data mining.
+37964835|a|Background: In this study, the regularity of drug containing borneol proprietary Chinese medicine was mined, to provide reference for the clinical application and new drug research and development of borneol. Methods: The database of proprietary Chinese medicines on Pharmaceutical Intelligence Network was searched for internal and external prescriptions that contained borneols and the diseases they treat. Microsoft Office Excel 2019 and SPSS Modeler 18.0 were used to analyze the properties, flavors, meridians tropisms and association rule analysis of the medicines, and Origin 21.0 software was used to draw the association rules diagram. Results: Among them, 528 prescriptions of internal Chinese patent medicine containing borneol and 387 prescriptions of external Chinese patent medicine were included. The diseases treated by internal prescription were mainly neurological diseases and heart diseases, among which Chinese medicines with higher frequency of compatibility with borneol were bezoar, licorice, cinnabar, musk and scutellaria. The diseases treated by external prescription were mainly physical disabilities, paralysis diseases, sore and ulcer diseases and so on. Among them, menthol, camphor, frankincense, angelica, and carthami flos and so on are the most frequently combined with borneol. Conclusion: The prescription of Chinese patent medicine containing borneol is composed of cold or warm, pungent or bitter Chinese medicine. Internal prescription primarily targets the meridians of the heart, liver, and lungs, and is often combined with sedative, antipyretic and detoxicating drugs to treat stroke, infantile convulsion and angina pectoris. External prescription mainly acts on liver, heart and spleen meridian, and is often combined with drugs for clearing heat, promoting blood circulation and removing blood stasis to treat rheumatic arthralgia syndrome and sore and ulcer diseases.
+37964835	64	87	Chinese patent medicine	Chemical	-
+37964835	99	106	borneol	Chemical	MESH:C022871
+37964835	190	197	borneol	Chemical	MESH:C022871
+37964835	210	226	Chinese medicine	Chemical	-
+37964835	329	336	borneol	Chemical	MESH:C022871
+37964835	375	392	Chinese medicines	Chemical	-
+37964835	500	508	borneols	Chemical	MESH:C022871
+37964835	825	848	Chinese patent medicine	Chemical	-
+37964835	860	867	borneol	Chemical	MESH:C022871
+37964835	902	925	Chinese patent medicine	Chemical	-
+37964835	999	1020	neurological diseases	Disease	MESH:D020271
+37964835	1025	1039	heart diseases	Disease	MESH:D006331
+37964835	1053	1070	Chinese medicines	Chemical	-
+37964835	1115	1122	borneol	Chemical	MESH:C022871
+37964835	1146	1154	cinnabar	Chemical	MESH:C034211
+37964835	1156	1160	musk	Chemical	MESH:C008563
+37964835	1236	1257	physical disabilities	Disease	MESH:D059445
+37964835	1259	1277	paralysis diseases	Disease	MESH:D010243
+37964835	1279	1302	sore and ulcer diseases	Disease	MESH:D014456
+37964835	1326	1333	menthol	Chemical	MESH:D008610
+37964835	1335	1342	camphor	Chemical	MESH:D002164
+37964835	1344	1356	frankincense	Chemical	MESH:D065260
+37964835	1434	1441	borneol	Chemical	MESH:C022871
+37964835	1475	1498	Chinese patent medicine	Chemical	-
+37964835	1510	1517	borneol	Chemical	MESH:C022871
+37964835	1565	1581	Chinese medicine	Chemical	-
+37964835	1750	1756	stroke	Disease	MESH:D020521
+37964835	1758	1778	infantile convulsion	Disease	MESH:D020936
+37964835	1783	1798	angina pectoris	Disease	MESH:D000787
+37964835	1964	1976	blood stasis	Disease	MESH:D014647
+37964835	1986	2015	rheumatic arthralgia syndrome	Disease	MESH:D018771
+37964835	2020	2043	sore and ulcer diseases	Disease	MESH:D014456
+37964835	Negative_Correlation	MESH:C034211	MESH:D006331
+37964835	Negative_Correlation	MESH:C022871	MESH:D059445
+37964835	Association	MESH:C022871	MESH:C034211
+37964835	Negative_Correlation	MESH:C022871	MESH:D006331
+37964835	Cotreatment	MESH:C022871	MESH:D065260
+37964835	Negative_Correlation	MESH:C022871	MESH:D020271
+37964835	Negative_Correlation	MESH:C022871	MESH:D000787
+37964835	Negative_Correlation	MESH:C022871	MESH:D010243
+37964835	Negative_Correlation	MESH:C022871	MESH:D020521
+37964835	Association	MESH:C008563	MESH:C022871
+37964835	Negative_Correlation	MESH:C022871	MESH:D020936
+37964835	Cotreatment	MESH:C022871	MESH:D002164
+37964835	Negative_Correlation	MESH:C008563	MESH:D006331
+37964835	Cotreatment	MESH:C022871	MESH:D008610
+

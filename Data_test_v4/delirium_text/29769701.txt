@@ -1,0 +1,41 @@
+29769701|t|A Drosophila Model of Essential Tremor.
+29769701|a|Essential Tremor (ET) is one of the most common neurological diseases, with an estimated 7 million affected individuals in the US; the pathophysiology of the disorder is poorly understood. Recently, we identified a mutation (KCNS2 (Kv9.2), c.1137 T > A, p.(D379E) in an electrically silent voltage-gated K+ channel alpha-subunit, Kv9.2, in a family with ET, that modulates the activity of Kv2 channels. We have produced transgenic Drosophila lines that express either the human wild type Kv9.2 (hKv9.2) or the ET causing mutant Kv9.2 (hKv9.2-D379E) subunit in all neurons. We show that the hKv9.2 subunit modulates activity of endogenous Drosophila K+ channel Shab. The mutant hKv9.2-D379E subunit showed significantly higher levels of Shab inactivation and a higher frequency of spontaneous firing rate consistent with neuronal hyperexcitibility. We also observed behavioral manifestations of nervous system dysfunction including effects on night time activity and sleep. This functional data further supports the pathogenicity of the KCNS2 (p.D379E) mutation, consistent with our prior observations including co-segregation with ET in a family, a likely pathogenic change in the channel pore domain and absence from population databases. The Drosophila hKv9.2 transgenic model recapitulates several features of ET and may be employed to advance our understanding of ET disease pathogenesis.
+29769701	2	12	Drosophila	Species	7227
+29769701	22	38	Essential Tremor	Disease	MESH:D020329
+29769701	40	56	Essential Tremor	Disease	MESH:D020329
+29769701	58	60	ET	Disease	MESH:D020329
+29769701	88	109	neurological diseases	Disease	MESH:D020271
+29769701	265	270	KCNS2	Gene	3788
+29769701	272	277	Kv9.2	Gene	3788
+29769701	280	292	c.1137 T > A	DNAMutation	tmVar:c|SUB|T|1137|A;HGVS:c.1137T>A;VariantGroup:1;CorrespondingGene:3788;CorrespondingSpecies:9606
+29769701	294	303	p.(D379E)	ProteinMutation	tmVar:p|SUB|D|379|E;HGVS:p.D379E;VariantGroup:0;CorrespondingGene:3788;CorrespondingSpecies:9606
+29769701	370	375	Kv9.2	Gene	3788
+29769701	394	396	ET	Disease	MESH:D020329
+29769701	471	481	Drosophila	Species	7227
+29769701	512	517	human	Species	9606
+29769701	528	533	Kv9.2	Gene	3788
+29769701	550	552	ET	Disease	MESH:D020329
+29769701	568	573	Kv9.2	Gene	3788
+29769701	582	587	D379E	ProteinMutation	tmVar:p|SUB|D|379|E;HGVS:p.D379E;VariantGroup:0;CorrespondingGene:3788;CorrespondingSpecies:9606
+29769701	678	688	Drosophila	Species	7227
+29769701	700	704	Shab	Gene	38352
+29769701	724	729	D379E	ProteinMutation	tmVar:p|SUB|D|379|E;HGVS:p.D379E;VariantGroup:0;CorrespondingGene:3788;CorrespondingSpecies:9606
+29769701	776	780	Shab	Gene	38352
+29769701	860	886	neuronal hyperexcitibility	Disease	MESH:D009410
+29769701	934	960	nervous system dysfunction	Disease	MESH:D009422
+29769701	1076	1081	KCNS2	Gene	3788
+29769701	1083	1090	p.D379E	ProteinMutation	tmVar:p|SUB|D|379|E;HGVS:p.D379E;VariantGroup:0;CorrespondingGene:3788;CorrespondingSpecies:9606
+29769701	1171	1173	ET	Disease	MESH:D020329
+29769701	1284	1294	Drosophila	Species	7227
+29769701	1353	1355	ET	Disease	MESH:D020329
+29769701	1408	1410	ET	Disease	MESH:D020329
+29769701	Positive_Correlation	MESH:D009410	HGVS:p.D379E;CorrespondingGene:3788
+29769701	Association	MESH:D020329	3788
+29769701	Positive_Correlation	MESH:D020329	HGVS:c.1137T>A;CorrespondingGene:3788
+29769701	Positive_Correlation	MESH:D020329	HGVS:p.D379E;CorrespondingGene:3788
+29769701	Positive_Correlation	MESH:D009410	HGVS:c.1137T>A;CorrespondingGene:3788
+29769701	Positive_Correlation	HGVS:c.1137T>A;CorrespondingGene:3788	MESH:D020329
+29769701	Association	MESH:D009422	3788
+29769701	Association	MESH:D009410	3788
+29769701	Association	MESH:D020329	3788
+

@@ -1,0 +1,10 @@
+38591194|t|Prediction of LncRNA-protein Interactions Using Auto-Encoder, SE-ResNet Models and Transfer Learning.
+38591194|a|BACKGROUND: Long non-coding RNA (lncRNA) plays a crucial role in various biolog-ical processes, and mutations or imbalances of lncRNAs can lead to several diseases, including cancer, Prader-Willi syndrome, autism, Alzheimer's disease, cartilage-hair hypoplasia, and hear-ing loss. Understanding lncRNA-protein interactions (LPIs) is vital for elucidating basic cellular processes, human diseases, viral replication, transcription, and plant pathogen resistance. Despite the development of several LPI calculation methods, predicting LPI remains challenging, with the selection of variables and deep learning structure being the focus of LPI research. METHODS: We propose a deep learning framework called AR-LPI, which extracts sequence and secondary structure features of proteins and lncRNAs. The framework utilizes an auto-encoder for feature extraction and employs SE-ResNet for prediction. Additionally, we apply transfer learning to the deep neural network SE-ResNet for predicting small-sample datasets. RESULTS: Through comprehensive experimental comparison, we demonstrate that the AR-LPI ar-chitecture performs better in LPI prediction. Specifically, the accuracy of AR-LPI increases by 2.86% to 94.52%, while the F-value of AR-LPI increases by 2.71% to 94.73%. CONCLUSION: Our experimental results show that the overall performance of AR-LPI is better than that of other LPI prediction tools.
+38591194	277	283	cancer	Disease	MESH:D009369
+38591194	285	306	Prader-Willi syndrome	Disease	MESH:D011218
+38591194	308	314	autism	Disease	MESH:D001321
+38591194	316	335	Alzheimer's disease	Disease	MESH:D000544
+38591194	337	362	cartilage-hair hypoplasia	Disease	MESH:C535916
+38591194	368	381	hear-ing loss	Disease	MESH:D034381
+38591194	483	488	human	Species	9606
+

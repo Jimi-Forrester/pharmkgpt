@@ -1,0 +1,14 @@
+39604499|t|A lightweight deep learning method to identify different types of cervical cancer.
+39604499|a|Cervical cancer is the second most common cancer in women's bodies after breast cancer. Cervical cancer develops from dysplasia or cervical intraepithelial neoplasm (CIN), the early stage of the disease, and is characterized by the aberrant growth of cells in the cervix lining. It is primarily caused by Human Papillomavirus (HPV) infection, which spreads through sexual activity. This study focuses on detecting cervical cancer types efficiently using a novel lightweight deep learning model named CCanNet, which combines squeeze block, residual blocks, and skip layer connections. SipakMed, which is not only popular but also publicly available dataset, was used in this study. We conducted a comparative analysis between several transfer learning and transformer models such as VGG19, VGG16, MobileNetV2, AlexNet, ConvNeXT, DeiT_tiny, MobileViT, and Swin Transformer with the proposed CCanNet. Our proposed model outperformed other state-of-the-art models, with 98.53% accuracy and the lowest number of parameters, which is 1,274,663. In addition, accuracy, precision, recall, and the F1 score were used to evaluate the performance of the models. Finally, explainable AI (XAI) was applied to analyze the performance of CCanNet and ensure the results were trustworthy.
+39604499	66	81	cervical cancer	Disease	MESH:D002583
+39604499	83	98	Cervical cancer	Disease	MESH:D002583
+39604499	125	131	cancer	Disease	MESH:D009369
+39604499	135	140	women	Species	9606
+39604499	156	169	breast cancer	Disease	MESH:D001943
+39604499	171	186	Cervical cancer	Disease	MESH:D002583
+39604499	201	210	dysplasia	Disease	MESH:D015792
+39604499	214	247	cervical intraepithelial neoplasm	Disease	MESH:D002578
+39604499	249	252	CIN	Disease	MESH:D002578
+39604499	388	424	Human Papillomavirus (HPV) infection	Disease	MESH:D030361
+39604499	497	512	cervical cancer	Disease	MESH:D002583
+

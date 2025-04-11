@@ -1,0 +1,14 @@
+28850894|t|Protocol for fast screening of multi-target drug candidates: Application to Alzheimer's disease.
+28850894|a|The treatment of many diseases may require drugs that are capable to attack multiple targets simultaneously. Obviously, the virtual screening of multi-target drug candidates is much more time consuming compared to the single-target case. This, in particular, concerns the last step of virtual screening where the binding free energy is computed by conventional molecular dynamics simulation. To overcome this difficulty we propose a simple protocol which is relied on the fast steered molecular dynamics simulation and on available experimental data on binding affinity of reference ligand to a given target. Namely, first we compute non-equilibrium works generated during pulling ligands from the binding site using the steered molecular dynamics method. Then as top leads we choose only those compounds that have the non-equilibrium work larger than that of a reference compound for which the binding free energy has been already known from experiment. Despite many efforts no cures for AD (Alzheimer's disease) have been found. One of possible reasons for this failure is that drug candidates were developed for a single target, while there are exist many possible pathways to AD. Applying our new protocol to five targets including amyloid beta fibril, peroxisome proliferator-activated receptor gamma, retinoic X receptor alpha, beta- and gamma-secretases, we have found two potential drugs (CID 16040294 and CID 9998128) for AD from the large PubChem database. We have also shown that these two ligands can interfere with the activity of popular Acetylcholinesterase target through strong binding towards it.
+28850894	76	95	Alzheimer's disease	Disease	MESH:D000544
+28850894	1086	1088	AD	Disease	MESH:D000544
+28850894	1090	1109	Alzheimer's disease	Disease	MESH:D000544
+28850894	1277	1279	AD	Disease	MESH:D000544
+28850894	1333	1345	amyloid beta	Gene	351
+28850894	1354	1402	peroxisome proliferator-activated receptor gamma	Gene	5468
+28850894	1494	1506	CID 16040294	Chemical	-
+28850894	1511	1522	CID 9998128	Chemical	MESH:C000656169
+28850894	1528	1530	AD	Disease	MESH:D000544
+28850894	1649	1669	Acetylcholinesterase	Gene	43
+28850894	Negative_Correlation	MESH:C000656169	MESH:D000544
+

@@ -1,0 +1,40 @@
+39133252|t|Assessment of EMR ML Mining Methods for Measuring Association between Metal Mixture and Mortality for Hypertension.
+39133252|a|INTRODUCTION: There are limited data available regarding the connection between heavy metal exposure and mortality among hypertension patients. AIM: We intend to establish an interpretable machine learning (ML) model with high efficiency and robustness that monitors mortality based on heavy metal exposure among hypertension patients. METHODS: Our datasets were obtained from the US National Health and Nutrition Examination Survey (NHANES, 2013-2018). We developed 5 ML models for mortality prediction among hypertension patients by heavy metal exposure, and tested them by 10 discrimination characteristics. Further, we chose the optimally performing model after parameter adjustment by genetic algorithm (GA) for prediction. Finally, in order to visualize the model's ability to make decisions, we used SHapley Additive exPlanation (SHAP) and Local Interpretable Model-Agnostic Explanations (LIME) algorithm to illustrate the features. The study included 2347 participants in total. RESULTS: A best-performing eXtreme Gradient Boosting (XGB) with GA for mortality prediction among hypertension patients by 13 heavy metals was selected (AUC 0.959; 95% CI 0.953-0.965; accuracy 96.8%). According to sum of SHAP values, cadmium (0.094), cobalt (2.048), lead (1.12), tungsten (0.129) in urine, and lead (2.026), mercury (1.703) in blood positively influenced the model, while barium (- 0.001), molybdenum (- 2.066), antimony (- 0.398), tin (- 0.498), thallium (- 2.297) in urine, and selenium (- 0.842), manganese (- 1.193) in blood negatively influenced the model. CONCLUSIONS: Hypertension patients' mortality associated with heavy metal exposure was predicted by an efficient, robust, and interpretable GA-XGB model with SHAP and LIME. Cadmium, cobalt, lead, tungsten in urine, and mercury in blood are positively correlated with mortality, while barium, molybdenum, antimony, tin, thallium in urine, and lead, selenium, manganese in blood is negatively correlated with mortality.
+39133252	70	75	Metal	Chemical	MESH:D008670
+39133252	196	207	heavy metal	Chemical	MESH:D019216
+39133252	250	258	patients	Species	9606
+39133252	402	413	heavy metal	Chemical	MESH:D019216
+39133252	442	450	patients	Species	9606
+39133252	639	647	patients	Species	9606
+39133252	651	662	heavy metal	Chemical	MESH:D019216
+39133252	1214	1222	patients	Species	9606
+39133252	1229	1241	heavy metals	Chemical	MESH:D019216
+39133252	1337	1344	cadmium	Chemical	MESH:D002104
+39133252	1354	1360	cobalt	Chemical	MESH:D003035
+39133252	1370	1374	lead	Chemical	MESH:D007854
+39133252	1383	1391	tungsten	Chemical	MESH:D014414
+39133252	1414	1418	lead	Chemical	MESH:D007854
+39133252	1428	1435	mercury	Chemical	MESH:D008628
+39133252	1492	1498	barium	Chemical	MESH:D001464
+39133252	1510	1520	molybdenum	Chemical	MESH:D008982
+39133252	1532	1540	antimony	Chemical	MESH:D000965
+39133252	1552	1555	tin	Chemical	MESH:D014001
+39133252	1567	1575	thallium	Chemical	MESH:D013793
+39133252	1600	1608	selenium	Chemical	MESH:D012643
+39133252	1620	1629	manganese	Chemical	MESH:D008345
+39133252	1708	1716	patients	Species	9606
+39133252	1744	1755	heavy metal	Chemical	MESH:D019216
+39133252	1855	1862	Cadmium	Chemical	MESH:D002104
+39133252	1864	1870	cobalt	Chemical	MESH:D003035
+39133252	1872	1876	lead	Chemical	MESH:D007854
+39133252	1878	1886	tungsten	Chemical	MESH:D014414
+39133252	1901	1908	mercury	Chemical	MESH:D008628
+39133252	1966	1972	barium	Chemical	MESH:D001464
+39133252	1974	1984	molybdenum	Chemical	MESH:D008982
+39133252	1986	1994	antimony	Chemical	MESH:D000965
+39133252	1996	1999	tin	Chemical	MESH:D014001
+39133252	2001	2009	thallium	Chemical	MESH:D013793
+39133252	2024	2028	lead	Chemical	MESH:D007854
+39133252	2030	2038	selenium	Chemical	MESH:D012643
+39133252	2040	2049	manganese	Chemical	MESH:D008345
+

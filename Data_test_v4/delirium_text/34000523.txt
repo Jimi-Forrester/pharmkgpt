@@ -1,0 +1,15 @@
+34000523|t|Multiclass diagnosis of stages of Alzheimer's disease using linear discriminant analysis scoring for multimodal data.
+34000523|a|Alzheimer's disease (AD) is a progressive neurodegenerative disease, and mild cognitive impairment (MCI) is a transitional stage between normal control (NC) and AD. A multiclass classification of AD is a difficult task because there are multiple similarities between neighboring groups. The performance of classification can be improved by using multimodal data, but the improvement could be limited with inefficient fusion of multimodal data. This study aims to develop a framework for AD multiclass diagnosis with a linear discriminant analysis (LDA) scoring method to fuse multimodal data more efficiently. Magnetic resonance imaging, positron emission tomography, cerebrospinal fluid biomarkers, and genetic features were first preprocessed by performing age correction, feature selection, and feature reduction. Then, they were individually scored using LDA, and the scores that represent the AD pathological progress in different modalities were obtained. Finally, an extreme learning machine-based decision tree was established to perform multiclass diagnosis using these scores. The experiments were conducted on the AD Neuroimaging Initiative dataset, and accuracies of 66.7% and 57.3% and F1-scores of 64.9% and 55.7% were achieved in three- and four-way classifications, respectively. The results also showed that the proposed framework achieved a better performance than the method that did not score multimodal data and the methods in previous studies, thereby indicating that the LDA scoring strategy is an efficient way for multimodalities fusion in AD multiclass classification.
+34000523	34	53	Alzheimer's disease	Disease	MESH:D000544
+34000523	118	137	Alzheimer's disease	Disease	MESH:D000544
+34000523	139	141	AD	Disease	MESH:D000544
+34000523	160	185	neurodegenerative disease	Disease	MESH:D019636
+34000523	191	216	mild cognitive impairment	Disease	MESH:D060825
+34000523	218	221	MCI	Disease	MESH:D060825
+34000523	279	281	AD	Disease	MESH:D000544
+34000523	314	316	AD	Disease	MESH:D000544
+34000523	605	607	AD	Disease	MESH:D000544
+34000523	1016	1018	AD	Disease	MESH:D000544
+34000523	1243	1245	AD	Disease	MESH:D000544
+34000523	1683	1685	AD	Disease	MESH:D000544
+

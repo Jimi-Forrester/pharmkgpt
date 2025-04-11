@@ -1,0 +1,19 @@
+29899525|t|Genome-wide association study of habitual physical activity in over 377,000 UK Biobank participants identifies multiple variants including CADM2 and APOE.
+29899525|a|BACKGROUND/OBJECTIVES: Physical activity (PA) protects against a wide range of diseases. Habitual PA appears to be heritable, motivating the search for specific genetic variants that may inform efforts to promote PA and target the best type of PA for each individual. SUBJECTS/METHODS: We used data from the UK Biobank to perform the largest genome-wide association study of PA to date, using three measures based on self-report (nmax = 377,234) and two measures based on wrist-worn accelerometry data (nmax = 91,084). We examined genetic correlations of PA with other traits and diseases, as well as tissue-specific gene expression patterns. With data from the Atherosclerosis Risk in Communities (ARIC; n = 8,556) study, we performed a meta-analysis of our top hits for moderate-to-vigorous PA (MVPA). RESULTS: We identified ten loci across all PA measures that were significant in both a basic and a fully adjusted model (p < 5 x 10-9). Upon meta-analysis of the nine top hits for MVPA with results from ARIC, eight were genome-wide significant. Interestingly, among these, the rs429358 variant in the APOE gene was the most strongly associated with MVPA, whereby the allele associated with higher Alzheimer's risk was associated with greater MVPA. However, we were not able to rule out possible selection bias underlying this result. Variants in CADM2, a gene previously implicated in obesity, risk-taking behavior and other traits, were found to be associated with habitual PA. We also identified three loci consistently associated (p < 5 x 10-5) with PA across both self-report and accelerometry, including CADM2. We found genetic correlations of PA with educational attainment, chronotype, psychiatric traits, and obesity-related traits. Tissue enrichment analyses implicate the brain and pituitary gland as locations where PA-associated loci may exert their actions. CONCLUSIONS: These results provide new insight into the genetic basis of habitual PA, and the genetic links connecting PA with other traits and diseases.
+29899525	139	144	CADM2	Gene	253559
+29899525	149	153	APOE	Gene	348
+29899525	817	832	Atherosclerosis	Disease	MESH:D050197
+29899525	1236	1244	rs429358	SNP	tmVar:rs429358;VariantGroup:0;CorrespondingGene:348;RS#:429358;CorrespondingSpecies:9606
+29899525	1260	1264	APOE	Gene	348
+29899525	1356	1367	Alzheimer's	Disease	MESH:D000544
+29899525	1505	1510	CADM2	Gene	253559
+29899525	1544	1551	obesity	Disease	MESH:D009765
+29899525	1768	1773	CADM2	Gene	253559
+29899525	1852	1863	psychiatric	Disease	MESH:D001523
+29899525	1876	1883	obesity	Disease	MESH:D009765
+29899525	Positive_Correlation	MESH:D000544	RS#:429358;CorrespondingGene:348
+29899525	Association	MESH:D009765	253559
+29899525	Association	MESH:D000544	253559
+29899525	Association	MESH:D000544	348
+29899525	Association	MESH:D000544	348
+

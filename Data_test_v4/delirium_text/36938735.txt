@@ -1,0 +1,25 @@
+36938735|t|Predicting Conversion from Subjective Cognitive Decline to Mild Cognitive Impairment and Alzheimer's Disease Dementia Using Ensemble Machine Learning.
+36938735|a|BACKGROUND: Subjective cognitive decline (SCD) may represent a preclinical stage of Alzheimer's disease (AD). Predicting progression of SCD patients is of great importance in AD-related research but remains a challenge. OBJECTIVE: To develop and implement an ensemble machine learning (ML) algorithm to identify SCD subjects at risk of conversion to mild cognitive impairment (MCI) or AD. METHODS: Ninety-nine SCD patients were included. Thirty-two progressed to MCI/AD, while 67 remained stable. To minimize the effect of class imbalance, both classes were balanced, and sensitivity was taken as evaluation metric. Bagging and boosting ML models were developed by using socio-demographic and clinical information, Mini-Mental State Examination and Geriatric Depression Scale (GDS) scores (feature-set 1a); socio-demographic characteristics and neuropsychological tests scores (feature-set 1b) and regional magnetic resonance imaging grey matter volumes (feature-set 2). The most relevant variables were combined to find the best model. RESULTS: Good prediction performances were obtained with feature-sets 1a and 2. The most relevant variables (variable importance exceeding 20%) were: Age, GDS, and grey matter volumes measured in four cortical regions of interests. Their combination provided the optimal classification performance (highest sensitivity and specificity) ensemble ML model, Extreme Gradient Boosting with over-sampling of the minority class, with performance metrics: sensitivity = 1.00, specificity = 0.92 and area-under-the-curve = 0.96. The median values based on fifty random train/test splits were sensitivity = 0.83 (interquartile range (IQR) = 0.17), specificity = 0.77 (IQR = 0.23) and area-under-the-curve = 0.75 (IQR = 0.11). CONCLUSION: A high-performance algorithm that could be translatable into practice was able to predict SCD conversion to MCI/AD by using only six predictive variables.
+36938735	38	55	Cognitive Decline	Disease	MESH:D003072
+36938735	64	84	Cognitive Impairment	Disease	MESH:D003072
+36938735	89	117	Alzheimer's Disease Dementia	Disease	MESH:D000544
+36938735	174	191	cognitive decline	Disease	MESH:D003072
+36938735	193	196	SCD	Disease	MESH:D003072
+36938735	235	254	Alzheimer's disease	Disease	MESH:D000544
+36938735	256	258	AD	Disease	MESH:D000544
+36938735	287	290	SCD	Disease	MESH:D003072
+36938735	291	299	patients	Species	9606
+36938735	326	328	AD	Disease	MESH:D000544
+36938735	463	466	SCD	Disease	MESH:D003072
+36938735	506	526	cognitive impairment	Disease	MESH:D003072
+36938735	528	531	MCI	Disease	MESH:D060825
+36938735	536	538	AD	Disease	MESH:D000544
+36938735	561	564	SCD	Disease	MESH:D003072
+36938735	565	573	patients	Species	9606
+36938735	614	617	MCI	Disease	MESH:D060825
+36938735	618	620	AD	Disease	MESH:D000544
+36938735	910	920	Depression	Disease	MESH:D003866
+36938735	2007	2010	SCD	Disease	MESH:D003072
+36938735	2025	2028	MCI	Disease	MESH:D060825
+36938735	2029	2031	AD	Disease	MESH:D000544
+

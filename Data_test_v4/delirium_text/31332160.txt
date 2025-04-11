@@ -1,0 +1,50 @@
+31332160|t|ERbeta promotes Abeta degradation via the modulation of autophagy.
+31332160|a|Alzheimer's Disease (AD) is the most common neurodegenerative disorder in the elderly. Beta-amyloid (Abeta) peptide accumulation is considered as a primary cause of AD pathogenesis, with defective autophagy in patients' brains. Enhanced autophagic activity has been reported to promote Abeta clearance in vitro and in vivo models. Meanwhile, there is growing evidence that estrogen receptor beta (ERbeta) is a viable therapeutic target that can ameliorate the pathological features associated with AD. Very little is known about the detailed molecular mechanisms underlying the relationship between ERbeta, autophagy, and Abeta degradation in AD. This study aims to uncover whether ERbeta participates in autophagy and promotes extracellular Abeta1-42 degradation through the autophagy-lysosome system. Here we find that overexpression of ERbeta caused autophagic activation as seen by increased microtubule-associated protein 1 light chain 3-II (LC3-II), SQSTM1 (sequestosome 1) degradation, LC3 punctate distribution, autophagosome, and autolysosome accumulation. In addition, we show that ERbeta could induce autophagy through direct protein-protein interaction with ATG7 (E1-like enzyme). Furthermore, ERbeta-mediated decrease in Abeta1-42 was blocked by the autophagy inhibitor chloroquine (CQ) in SH-SY5Y cells and the HEK293T (AbetaPPsw) model. Abeta1-42 or CQ induced cytotoxicity was restored by a selective ERbeta activator diarylpropionitrile (DPN). Collectively, these data indicate that overexpression of ERbeta exerts a neuroprotective effect through interacting with ATG7 protein and further enhances autophagy-lysosomal activity for Abeta1-42 clearance at the cellular level.
+31332160	0	6	ERbeta	Gene	2100
+31332160	16	21	Abeta	Gene	351
+31332160	67	86	Alzheimer's Disease	Disease	MESH:D000544
+31332160	88	90	AD	Disease	MESH:D000544
+31332160	111	137	neurodegenerative disorder	Disease	MESH:D019636
+31332160	168	173	Abeta	Gene	351
+31332160	232	234	AD	Disease	MESH:D000544
+31332160	277	285	patients	Species	9606
+31332160	353	358	Abeta	Gene	351
+31332160	440	462	estrogen receptor beta	Gene	2100
+31332160	464	470	ERbeta	Gene	2100
+31332160	565	567	AD	Disease	MESH:D000544
+31332160	666	672	ERbeta	Gene	2100
+31332160	689	694	Abeta	Gene	351
+31332160	710	712	AD	Disease	MESH:D000544
+31332160	749	755	ERbeta	Gene	2100
+31332160	906	912	ERbeta	Gene	2100
+31332160	1014	1017	LC3	Gene	84557
+31332160	1023	1029	SQSTM1	Gene	8878
+31332160	1031	1045	sequestosome 1	Gene	8878
+31332160	1060	1063	LC3	Gene	84557
+31332160	1159	1165	ERbeta	Gene	2100
+31332160	1237	1241	ATG7	Gene	10533
+31332160	1273	1279	ERbeta	Gene	2100
+31332160	1350	1361	chloroquine	Chemical	MESH:D002738
+31332160	1363	1365	CQ	Chemical	MESH:D002738
+31332160	1370	1377	SH-SY5Y	CellLine	CVCL:0019
+31332160	1392	1399	HEK293T	CellLine	CVCL:0063
+31332160	1401	1410	AbetaPPsw	Gene	351
+31332160	1432	1434	CQ	Chemical	MESH:D002738
+31332160	1443	1455	cytotoxicity	Disease	MESH:D064420
+31332160	1484	1490	ERbeta	Gene	2100
+31332160	1501	1520	diarylpropionitrile	Chemical	MESH:C486182
+31332160	1522	1525	DPN	Chemical	MESH:C486182
+31332160	1585	1591	ERbeta	Gene	2100
+31332160	1649	1653	ATG7	Gene	10533
+31332160	Negative_Correlation	2100	351
+31332160	Positive_Correlation	MESH:C486182	2100
+31332160	Negative_Correlation	MESH:C486182	MESH:D064420
+31332160	Positive_Correlation	MESH:D002738	MESH:D064420
+31332160	Association	10533	2100
+31332160	Association	2100	84557
+31332160	Association	MESH:D064420	2100
+31332160	Association	MESH:C486182	MESH:D002738
+31332160	Association	MESH:D002738	2100
+31332160	Association	MESH:D000544	2100
+31332160	Negative_Correlation	2100	8878
+

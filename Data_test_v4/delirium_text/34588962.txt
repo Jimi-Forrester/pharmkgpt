@@ -1,0 +1,22 @@
+34588962|t|Machine Learning Models to Predict Cognitive Impairment of Rodents Subjected to Space Radiation.
+34588962|a|This research uses machine-learned computational analyses to predict the cognitive performance impairment of rats induced by irradiation. The experimental data in the analyses is from a rodent model exposed to <=15 cGy of individual galactic cosmic radiation (GCR) ions: 4He, 16O, 28Si, 48Ti, or 56Fe, expected for a Lunar or Mars mission. This work investigates rats at a subject-based level and uses performance scores taken before irradiation to predict impairment in attentional set-shifting (ATSET) data post-irradiation. Here, the worst performing rats of the control group define the impairment thresholds based on population analyses via cumulative distribution functions, leading to the labeling of impairment for each subject. A significant finding is the exhibition of a dose-dependent increasing probability of impairment for 1 to 10 cGy of 28Si or 56Fe in the simple discrimination (SD) stage of the ATSET, and for 1 to 10 cGy of 56Fe in the compound discrimination (CD) stage. On a subject-based level, implementing machine learning (ML) classifiers such as the Gaussian naive Bayes, support vector machine, and artificial neural networks identifies rats that have a higher tendency for impairment after GCR exposure. The algorithms employ the experimental prescreen performance scores as multidimensional input features to predict each rodent's susceptibility to cognitive impairment due to space radiation exposure. The receiver operating characteristic and the precision-recall curves of the ML models show a better prediction of impairment when 56Fe is the ion in question in both SD and CD stages. They, however, do not depict impairment due to 4He in SD and 28Si in CD, suggesting no dose-dependent impairment response in these cases. One key finding of our study is that prescreen performance scores can be used to predict the ATSET performance impairments. This result is significant to crewed space missions as it supports the potential of predicting an astronaut's impairment in a specific task before spaceflight through the implementation of appropriately trained ML tools. Future research can focus on constructing ML ensemble methods to integrate the findings from the methodologies implemented in this study for more robust predictions of cognitive decrements due to space radiation exposure.
+34588962	35	55	Cognitive Impairment	Disease	MESH:D003072
+34588962	170	202	cognitive performance impairment	Disease	MESH:D003072
+34588962	206	210	rats	Species	10116
+34588962	368	371	4He	Chemical	MESH:D006371
+34588962	373	376	16O	Chemical	-
+34588962	378	382	28Si	Chemical	-
+34588962	384	388	48Ti	Chemical	-
+34588962	393	397	56Fe	Chemical	-
+34588962	460	464	rats	Species	10116
+34588962	651	655	rats	Species	10116
+34588962	950	954	28Si	Chemical	-
+34588962	958	962	56Fe	Chemical	-
+34588962	1040	1044	56Fe	Chemical	-
+34588962	1261	1265	rats	Species	10116
+34588962	1475	1495	cognitive impairment	Disease	MESH:D003072
+34588962	1660	1664	56Fe	Chemical	-
+34588962	1761	1764	4He	Chemical	MESH:D006371
+34588962	1775	1779	28Si	Chemical	-
+34588962	2365	2385	cognitive decrements	Disease	MESH:D003072
+

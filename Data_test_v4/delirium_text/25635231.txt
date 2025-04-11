@@ -1,0 +1,55 @@
+25635231|t|Tyrosine Kinase Inhibition Regulates Early Systemic Immune Changes and Modulates the Neuroimmune Response in alpha-Synucleinopathy.
+25635231|a|OBJECTIVES: Neuro-inflammation is common in alpha-Synucleinopathies and Tauopathies; and evidence suggests a link between the tyrosine kinase Abl and neurodegeneration. Abl upregulates alpha-Synuclein and promotes Tau hyper-phosphorylation (p-Tau), while Abl inhibitors facilitate autophagic clearance. METHODS: A model of alpha-Synucleinopathy harboring human mutant A53T alpha-Synuclein and exhibits concomitant increase in murine p-Tau was used to determine the immunological response to Abl inhibition. RESULTS: Age-dependent alterations of brain immunity, including loss of IL-10 and decreased levels of IL-2 and IL-3 were observed in old A53T mice. Brain CCL2 and CCL5 were decreased, but CX3CL1 remained constantly elevated. Young A53T mice exhibited differential systemic and central immune profiles in parallel with increased blood markers of adaptive immunity, suggesting an early systemic immune response. Tyrosine kinase inhibitors (TKIs), including nilotinib and bosutinib reduced brain and peripheral alpha-Synuclein and p-Tau and modulated blood immunological responses. TKIs did not affect brain IL-10, but they changed the levels of all measured blood immune markers, except CX3CL1. TKIs altered microglia morphology and reduced the number of astrocyte and dendritic cells, suggesting beneficial regulation of microglia. CONCLUSIONS: These data indicate that tyrosine kinase inhibition affects neuro-inflammation via early changes of the peripheral immune profile, leading to modulation of the neuro-immune response to alpha-Synuclein and p-Tau.
+25635231	0	15	Tyrosine Kinase	Gene	7294
+25635231	109	130	alpha-Synucleinopathy	Disease	MESH:D000080874
+25635231	144	162	Neuro-inflammation	Disease	MESH:D007249
+25635231	176	199	alpha-Synucleinopathies	Disease	MESH:D000080874
+25635231	204	215	Tauopathies	Disease	MESH:D024801
+25635231	258	273	tyrosine kinase	Gene	7294
+25635231	274	277	Abl	Gene	25
+25635231	282	299	neurodegeneration	Disease	MESH:D019636
+25635231	301	304	Abl	Gene	25
+25635231	317	332	alpha-Synuclein	Gene	6622
+25635231	387	390	Abl	Gene	25
+25635231	455	476	alpha-Synucleinopathy	Disease	MESH:D000080874
+25635231	487	492	human	Species	9606
+25635231	500	504	A53T	ProteinMutation	tmVar:p|SUB|A|53|T;HGVS:p.A53T;VariantGroup:0;CorrespondingGene:6622;RS#:104893877;CorrespondingSpecies:9606;CA#:257068
+25635231	505	520	alpha-Synuclein	Gene	6622
+25635231	558	564	murine	Species	10090
+25635231	623	626	Abl	Gene	11350
+25635231	711	716	IL-10	Gene	16153
+25635231	741	745	IL-2	Gene	16183
+25635231	750	754	IL-3	Gene	16187
+25635231	776	780	A53T	ProteinMutation	tmVar:p|SUB|A|53|T;HGVS:p.A53T;VariantGroup:0;CorrespondingGene:6622;RS#:104893877;CorrespondingSpecies:9606;CA#:257068
+25635231	781	785	mice	Species	10090
+25635231	793	797	CCL2	Gene	20296
+25635231	802	806	CCL5	Gene	20304
+25635231	827	833	CX3CL1	Gene	20312
+25635231	870	874	A53T	ProteinMutation	tmVar:p|SUB|A|53|T;HGVS:p.A53T;VariantGroup:0;CorrespondingGene:6622;RS#:104893877;CorrespondingSpecies:9606;CA#:257068
+25635231	875	879	mice	Species	10090
+25635231	1049	1064	Tyrosine kinase	Gene	7294
+25635231	1094	1103	nilotinib	Chemical	MESH:C498826
+25635231	1108	1117	bosutinib	Chemical	MESH:C471992
+25635231	1147	1162	alpha-Synuclein	Gene	6622
+25635231	1244	1249	IL-10	Gene	16153
+25635231	1324	1330	CX3CL1	Gene	20312
+25635231	1508	1523	tyrosine kinase	Gene	7294
+25635231	1543	1561	neuro-inflammation	Disease	MESH:D007249
+25635231	1668	1683	alpha-Synuclein	Gene	6622
+25635231	Negative_Correlation	MESH:C471992	7294
+25635231	Negative_Correlation	MESH:C498826	RS#:104893877;HGVS:p.A53T;CorrespondingGene:6622
+25635231	Association	MESH:D000080874	RS#:104893877;HGVS:p.A53T;CorrespondingGene:6622
+25635231	Negative_Correlation	MESH:C471992	RS#:104893877;HGVS:p.A53T;CorrespondingGene:6622
+25635231	Association	MESH:D019636	7294
+25635231	Association	MESH:D000080874	7294
+25635231	Association	MESH:D019636	25
+25635231	Association	MESH:D007249	7294
+25635231	Negative_Correlation	MESH:C498826	7294
+25635231	Association	MESH:D000080874	6622
+25635231	Negative_Correlation	MESH:C498826	6622
+25635231	Negative_Correlation	MESH:C471992	6622
+25635231	Association	MESH:D007249	25
+25635231	Association	6622	7294
+25635231	Positive_Correlation	25	6622
+25635231	Association	MESH:D000080874	6622
+

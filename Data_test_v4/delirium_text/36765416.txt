@@ -1,0 +1,25 @@
+36765416|t|Integrated analysis of RNA methylation regulators crosstalk and immune infiltration for predictive and personalized therapy of diabetic nephropathy.
+36765416|a|BACKGROUND: RNA methylation is a widely known post-transcriptional regulation which exists in many cancer and immune system diseases. However, the potential role and crosstalk of five types RNA methylation regulators in diabetic nephropathy (DN) and immune microenvironment remain unclear. METHODS: The mRNA expression of 37 RNA modification regulators and RNA modification regulators related genes were identified in 112 samples from 5 Gene Expression Omnibus datasets. Nonnegative Matrix Factorization clustering method was performed to determine RNA modification patterns. The ssGSEA algorithms and the expression of human leukocyte antigen were employed to assess the immune microenvironment characteristics. Risk model based on differentially expression genes responsible for the modification regulators was constructed to evaluate its predictive capability in DN patients. Furthermore, the results were validated by using immunofluorescence co-localizations and protein experiments in vitro. RESULTS: We found 24 RNA methylation regulators were significant differently expressed in glomeruli in DN group compared with control group. Four methylation-related genes and six RNA regulators were introduced into riskScore model using univariate Logistic regression and integrated LASSO regression, which could precisely distinguish the DN and healthy individuals. Group with high-risk score was associated with high immune infiltration. Three distinct RNA modification patterns were identified, which has significant differences in immune microenvironment, biological pathway and eGFR. Validation analyses showed the METTL3, ADAR1, DNMT1 were upregulated whereas YTHDC1 was downregulated in DN podocyte cell lines comparing with cells cultured by the normal glucose. CONCLUSION: Our study reveals that RNA methylation regulators and immune infiltration regulation play critical roles in the pathogenesis of DN. The bioinformatic analyses combine with verification in vitro could provide robust evidence for identification of predictive RNA methylation regulators in DN.
+36765416	127	147	diabetic nephropathy	Disease	MESH:D003928
+36765416	248	254	cancer	Disease	MESH:D009369
+36765416	259	281	immune system diseases	Disease	MESH:D007154
+36765416	369	389	diabetic nephropathy	Disease	MESH:D003928
+36765416	391	393	DN	Disease	MESH:D003928
+36765416	769	774	human	Species	9606
+36765416	1015	1017	DN	Disease	MESH:D003928
+36765416	1018	1026	patients	Species	9606
+36765416	1250	1252	DN	Disease	MESH:D003928
+36765416	1487	1489	DN	Disease	MESH:D003928
+36765416	1768	1774	METTL3	Gene	56339
+36765416	1776	1781	ADAR1	Gene	103
+36765416	1783	1788	DNMT1	Gene	1786
+36765416	1814	1820	YTHDC1	Gene	91746
+36765416	1842	1844	DN	Disease	MESH:D003928
+36765416	1909	1916	glucose	Chemical	MESH:D005947
+36765416	2058	2060	DN	Disease	MESH:D003928
+36765416	2217	2219	DN	Disease	MESH:D003928
+36765416	Positive_Correlation	MESH:D003928	103
+36765416	Association	MESH:D003928	56339
+36765416	Association	MESH:D003928	91746
+36765416	Positive_Correlation	MESH:D003928	1786
+

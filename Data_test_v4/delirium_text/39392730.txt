@@ -1,0 +1,14 @@
+39392730|t|Alzheimer's Disease Detection in EEG Sleep Signals.
+39392730|a|Alzheimer's disease (AD) and sleep disorders exhibit a close association, where disruptions in sleep patterns often precede the onset of Mild Cognitive Impairment (MCI) and early-stage AD. This study delves into the potential of utilizing sleep-related electroencephalography (EEG) signals acquired through polysomnography (PSG) for the early detection of AD. Our primary focus is on exploring semi-supervised Deep Learning techniques for the classification of EEG signals due to the clinical scenario characterized by the limited data availability. The methodology entails testing and comparing the performance of semi-supervised models, benchmarked against an unsupervised and a supervised model. The study highlights the significance of spatial and temporal analysis capabilities, conducting independent analyses of each sleep stage. Results demonstrate the effectiveness of one semi-supervised model in leveraging limited labeled data, achieving stable metrics across all sleep stages, and reaching 90% accuracy in its supervised form. Comparative analyses reveal this superior performance over the unsupervised model, while the supervised model ranges between 92-94% . These findings underscore the potential of semi-supervised models in early AD detection, particularly in overcoming the challenges associated with the scarcity of labeled data. Ablation tests affirm the critical role of spatio-temporal feature extraction in semi-supervised predictive performance, and t-SNE visualizations validate the model's proficiency in distinguishing AD patterns. Overall, this research contributes to the advancement of AD detection through innovative Deep Learning approaches, highlighting the crucial role of semi-supervised learning in addressing data limitations.
+39392730	0	19	Alzheimer's Disease	Disease	MESH:D000544
+39392730	52	71	Alzheimer's disease	Disease	MESH:D000544
+39392730	73	75	AD	Disease	MESH:D000544
+39392730	81	96	sleep disorders	Disease	MESH:D012893
+39392730	194	214	Cognitive Impairment	Disease	MESH:D003072
+39392730	216	219	MCI	Disease	MESH:D060825
+39392730	237	239	AD	Disease	MESH:D000544
+39392730	408	410	AD	Disease	MESH:D000544
+39392730	1301	1303	AD	Disease	MESH:D000544
+39392730	1600	1602	AD	Disease	MESH:D000544
+39392730	1670	1672	AD	Disease	MESH:D000544
+

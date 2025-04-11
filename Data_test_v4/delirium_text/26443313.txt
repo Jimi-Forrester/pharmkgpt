@@ -1,0 +1,64 @@
+26443313|t|Ciliary neurotrophic factor protects SH-SY5Y neuroblastoma cells against Abeta1-42-induced neurotoxicity via activating the JAK2/STAT3 axis.
+26443313|a|The neurotoxicity of aggregated amyloid beta (Abeta) has been implicated as a critical cause in the pathogenesis of Alzheimer's disease (AD), which leads to neuronal cell damage by inducing oxidative stress and consequently triggering cell apoptosis. Recently, Abeta-dependent inactivation of the Janus tyrosine kinase 2/signal transducer and activator of transcription 3 (JAK2/STAT3) signaling pathway was found to play a critical role in the memory impairment related to AD. Previous research indicated that JAK2/STAT3 axis inactivation might be the result of aberrant reactive oxygen species (ROS) generation induced by Abeta in neurons. As the JAK2/STAT3 axis is a major transducer of ciliary neurotrophic factor (CNTF)-mediated neuroprotective activity, this study extensively evaluated whether activation of the JAK2/STAT3 axis by CNTF was responsible for the neuroprotective effect of this protein against Abeta1-42-induced cytotoxicity, oxidative injury and cell apoptosis in human SH-SY5Y neuroblastoma cells. Our data showed that CNTF could attenuate or restore cell injury induced by Abeta1-42 in human SH-SY5Y neuroblastoma cells through activating the JAK2/STAT3 signaling pathway. Furthermore, CNTF strikingly prevented Abeta1-42-induced mitochondrial dysfunction and activation of mitogen-activated protein kinases (MAPKs), an effect that could be potently attenuated by the specific JAK2 inhibitor AG490. In summary, this study confirmed the detailed mechanism accounting for CNTF's protective effect against Abeta1-42-induced cytotoxic events in human SH-SY5Y neuroblastoma cells - information which might significantly contribute to better understanding of the mechanism of action of CNTF as well as providing a novel target in AD therapy. 
+26443313	0	27	Ciliary neurotrophic factor	Gene	1270
+26443313	37	58	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+26443313	91	104	neurotoxicity	Disease	MESH:D020258
+26443313	124	128	JAK2	Gene	3717
+26443313	129	134	STAT3	Gene	6774
+26443313	145	158	neurotoxicity	Disease	MESH:D020258
+26443313	162	185	aggregated amyloid beta	Chemical	-
+26443313	257	276	Alzheimer's disease	Disease	MESH:D000544
+26443313	278	280	AD	Disease	MESH:D000544
+26443313	298	318	neuronal cell damage	Disease	MESH:D009410
+26443313	462	512	signal transducer and activator of transcription 3	Gene	6774
+26443313	514	518	JAK2	Gene	3717
+26443313	519	524	STAT3	Gene	6774
+26443313	585	602	memory impairment	Disease	MESH:D008569
+26443313	614	616	AD	Disease	MESH:D000544
+26443313	651	655	JAK2	Gene	3717
+26443313	656	661	STAT3	Gene	6774
+26443313	712	735	reactive oxygen species	Chemical	MESH:D017382
+26443313	737	740	ROS	Chemical	MESH:D017382
+26443313	789	793	JAK2	Gene	3717
+26443313	794	799	STAT3	Gene	6774
+26443313	830	857	ciliary neurotrophic factor	Gene	1270
+26443313	859	863	CNTF	Gene	1270
+26443313	959	963	JAK2	Gene	3717
+26443313	964	969	STAT3	Gene	6774
+26443313	978	982	CNTF	Gene	1270
+26443313	1072	1084	cytotoxicity	Disease	MESH:D064420
+26443313	1125	1130	human	Species	9606
+26443313	1131	1152	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+26443313	1181	1185	CNTF	Gene	1270
+26443313	1249	1254	human	Species	9606
+26443313	1255	1276	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+26443313	1306	1310	JAK2	Gene	3717
+26443313	1311	1316	STAT3	Gene	6774
+26443313	1349	1353	CNTF	Gene	1270
+26443313	1393	1418	mitochondrial dysfunction	Disease	MESH:D028361
+26443313	1540	1544	JAK2	Gene	3717
+26443313	1555	1560	AG490	Chemical	MESH:C095512
+26443313	1633	1637	CNTF	Gene	1270
+26443313	1684	1693	cytotoxic	Disease	MESH:D064420
+26443313	1704	1709	human	Species	9606
+26443313	1710	1731	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+26443313	1843	1847	CNTF	Gene	1270
+26443313	1887	1889	AD	Disease	MESH:D000544
+26443313	Association	MESH:D020258	3717
+26443313	Association	MESH:D000544	1270
+26443313	Positive_Correlation	1270	6774
+26443313	Association	MESH:D020258	6774
+26443313	Association	MESH:D028361	3717
+26443313	Positive_Correlation	1270	3717
+26443313	Association	MESH:D000544	3717
+26443313	Association	MESH:D008569	3717
+26443313	Negative_Correlation	MESH:C095512	3717
+26443313	Negative_Correlation	MESH:D028361	1270
+26443313	Association	MESH:D008569	6774
+26443313	Association	MESH:D017382	3717
+26443313	Negative_Correlation	MESH:D064420	1270
+26443313	Association	3717	6774
+26443313	Association	MESH:D020258	1270
+26443313	Association	MESH:D000544	6774
+26443313	Association	MESH:D017382	6774
+

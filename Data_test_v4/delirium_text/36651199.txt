@@ -1,0 +1,42 @@
+36651199|t|Acetylcholinesterase inhibition of Alzheimer's disease: identification of potential phytochemicals and designing more effective derivatives to manage disease condition.
+36651199|a|Alzheimer's disease (AD) is a brain disease characterized by gradual memory loss and cognitive impairments. Acetylcholinesterase (AChE) inhibitors-such as donepezil, memantine, and tacrine-are FDA-approved medications for AD treatment. Due to the lack of their efficacy and higher side effects, many researchers have been searching for effective and safer alternatives. In this study, experimentally proved phytochemicals against brain diseases were screened based on their binding energies to the target site of AChE, pharmacokinetic properties, and drug-likeness. Although some phytochemicals showed higher binding affinities than the control drug (donepezil), they did not show permeability across the blood-brain barrier (BBB). However, berberine, anthocyanin, and diterpene alkaloid can cross the BBB and showed good binding affinities of -10.3, -10.1, and -10.2 kcal/mol, respectively. MD simulation and PCA of the simulation data of the protein and protein-ligand complexes proved that the complexes are stable in the biological environment. A total of 16 derivatives of berberine and 3 derivatives of anthocyanin also showed higher binding energies compared to the binding affinity (-11.5 kcal/mol) of the donepezil. The derivatives were designed by substituting -F, -CF3, -CN, and -NH2, and provided higher docking scores due to increasing of nonbonding interactions. MM/GBSA calculations show that the binding free energies of the best predicted derivatives of diterpene alkaloid, anthocyanin, and berberine (DA22, AC11, and BB40) are -100.4 +- 8.4, -79.3 +- 8.7, and -78.3 +- 10.7 kcal/mol, respectively, with the protein. Overall, this study was successful in finding new, highly effective, and possibly safer inhibitors of AChE. Communicated by Ramaswamy H. Sarma.
+36651199	0	20	Acetylcholinesterase	Gene	43
+36651199	35	54	Alzheimer's disease	Disease	MESH:D000544
+36651199	169	188	Alzheimer's disease	Disease	MESH:D000544
+36651199	190	192	AD	Disease	MESH:D000544
+36651199	199	212	brain disease	Disease	MESH:D001927
+36651199	238	249	memory loss	Disease	MESH:D008569
+36651199	254	275	cognitive impairments	Disease	MESH:D003072
+36651199	277	297	Acetylcholinesterase	Gene	43
+36651199	299	303	AChE	Gene	43
+36651199	324	333	donepezil	Chemical	MESH:D000077265
+36651199	335	344	memantine	Chemical	MESH:D008559
+36651199	350	357	tacrine	Chemical	MESH:D013619
+36651199	391	393	AD	Disease	MESH:D000544
+36651199	599	613	brain diseases	Disease	MESH:D001927
+36651199	682	686	AChE	Gene	43
+36651199	820	829	donepezil	Chemical	MESH:D000077265
+36651199	910	919	berberine	Chemical	MESH:D001599
+36651199	921	932	anthocyanin	Chemical	MESH:D000872
+36651199	938	956	diterpene alkaloid	Chemical	MESH:D000077743
+36651199	1247	1256	berberine	Chemical	MESH:D001599
+36651199	1278	1289	anthocyanin	Chemical	MESH:D000872
+36651199	1383	1392	donepezil	Chemical	MESH:D000077265
+36651199	1640	1658	diterpene alkaloid	Chemical	MESH:D000077743
+36651199	1660	1671	anthocyanin	Chemical	MESH:D000872
+36651199	1677	1686	berberine	Chemical	MESH:D001599
+36651199	1688	1692	DA22	Chemical	-
+36651199	1694	1698	AC11	Chemical	-
+36651199	1704	1708	BB40	Chemical	-
+36651199	1905	1910	AChE.	Gene	43
+36651199	Association	MESH:D000077265	MESH:D001599
+36651199	Association	MESH:D000544	43
+36651199	Negative_Correlation	MESH:D000077265	MESH:D000544
+36651199	Negative_Correlation	MESH:D008559	MESH:D000544
+36651199	Negative_Correlation	MESH:D000077265	43
+36651199	Negative_Correlation	MESH:D008559	43
+36651199	Negative_Correlation	MESH:D013619	MESH:D000544
+36651199	Negative_Correlation	MESH:D001599	43
+36651199	Negative_Correlation	MESH:D000077265	MESH:D000872
+36651199	Negative_Correlation	MESH:D013619	43
+

@@ -1,0 +1,45 @@
+36588689|t|Ginsenoside Rd protects transgenic Caenorhabditis elegans from beta-amyloid toxicity by activating oxidative resistant.
+36588689|a|Alzheimer's disease (AD) is a serious public health issue but few drugs are currently available for the disease, and these only target the symptoms. It is well established that oxidative stress plays a crucial role in AD, and there is compelling evidence linking oxidative stress to beta-amyloid (Abeta). An exciting source of potential new AD therapeutic medication possibilities is medicinal plants. Ginsenoside Rd (GS-Rd) is one of the main bioactive substances in ginseng extracts. In our study, we used a network pharmacology analysis to identify overlapping GS-Rd (therapeutic) and AD (disease)-relevant protein targets, gene ontology (GO) and bio-process annotation, and the KEGG pathway analysis data predicted that GS-Rd impacts multiple targets and pathways, such as the MAPK signal pathway and the JAT-STAT3 signaling pathway. We then assessed the role of GS-Rd in C. elegans and found that GS-Rd prolongs lifespan, improves resistance to heat stress, delays physical paralysis and increases oxidative stress responses. Overall, these results suggest that GS-Rd protects against the toxicity of Abeta. The RNA-seq analysis revealed that GS-Rd achieves its effects by regulating gene expressions like daf-16 and skn-1, as well as by participating in many AD-related pathways like the MAPK signaling pathway. In addition, in CL4176 worms, GS-Rd decreased reactive oxygen species (ROS) levels and increased SOD activity. Additional research with transgenic worms showed that GS-Rd aided in the movement of DAF-16 from the cytoplasm to the nucleus. Taken together, the results indicate that GS-Rd significantly reduces Abeta aggregation by targeting the MAPK signal pathway, induces nuclear translocation of DAF-16 to activate downstream signaling pathways and increases resistance to oxidative stress in C. elegans to protect against Abeta-induced toxicity.
+36588689	0	14	Ginsenoside Rd	Chemical	MESH:C049863
+36588689	35	57	Caenorhabditis elegans	Species	6239
+36588689	63	84	beta-amyloid toxicity	Disease	MESH:D017772
+36588689	120	139	Alzheimer's disease	Disease	MESH:D000544
+36588689	141	143	AD	Disease	MESH:D000544
+36588689	338	340	AD	Disease	MESH:D000544
+36588689	461	463	AD	Disease	MESH:D000544
+36588689	522	536	Ginsenoside Rd	Chemical	MESH:C049863
+36588689	538	543	GS-Rd	Chemical	MESH:C049863
+36588689	588	595	ginseng	Species	4054
+36588689	684	689	GS-Rd	Chemical	MESH:C049863
+36588689	708	710	AD	Disease	MESH:D000544
+36588689	844	849	GS-Rd	Chemical	MESH:C049863
+36588689	987	992	GS-Rd	Chemical	MESH:C049863
+36588689	996	1006	C. elegans	Species	328850
+36588689	1022	1027	GS-Rd	Chemical	MESH:C049863
+36588689	1099	1108	paralysis	Disease	MESH:D010243
+36588689	1187	1192	GS-Rd	Chemical	MESH:C049863
+36588689	1214	1222	toxicity	Disease	MESH:D064420
+36588689	1268	1273	GS-Rd	Chemical	MESH:C049863
+36588689	1331	1337	daf-16	Gene	172981
+36588689	1342	1347	skn-1	Gene	177343
+36588689	1385	1387	AD	Disease	MESH:D000544
+36588689	1454	1460	CL4176	CellLine	CVCL:3872
+36588689	1461	1466	worms	Species	
+36588689	1468	1473	GS-Rd	Chemical	MESH:C049863
+36588689	1484	1507	reactive oxygen species	Chemical	MESH:D017382
+36588689	1509	1512	ROS	Chemical	MESH:D017382
+36588689	1585	1590	worms	Species	
+36588689	1603	1608	GS-Rd	Chemical	MESH:C049863
+36588689	1634	1640	DAF-16	Gene	172981
+36588689	1718	1723	GS-Rd	Chemical	MESH:C049863
+36588689	1835	1841	DAF-16	Gene	172981
+36588689	1932	1942	C. elegans	Species	328850
+36588689	1976	1984	toxicity	Disease	MESH:D064420
+36588689	Negative_Correlation	MESH:C049863	MESH:D017382
+36588689	Negative_Correlation	MESH:C049863	MESH:D010243
+36588689	Positive_Correlation	MESH:C049863	172981
+36588689	Association	MESH:C049863	177343
+36588689	Negative_Correlation	MESH:C049863	MESH:D064420
+36588689	Negative_Correlation	MESH:C049863	MESH:D017772
+36588689	Association	MESH:C049863	MESH:D000544
+

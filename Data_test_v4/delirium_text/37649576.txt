@@ -1,0 +1,53 @@
+37649576|t|Theophylline-based hybrids as acetylcholinesterase inhibitors endowed with anti-inflammatory activity: synthesis, bioevaluation, in silico and preliminary kinetic studies.
+37649576|a|In this study, we investigated the conjugation of theophylline with different compounds of natural origin hoping to construct new hybrids with dual activity against cholinergic and inflammatory pathways as potential agents for the treatment of Alzheimer's disease (AD). Out of 28 tested hybrids, two hybrids, acefylline-eugenol 6d and acefylline-isatin 19, were able to inhibit acetylcholinesterase (AChE) at low micromolar concentration displaying IC50 values of 1.8 and 3.3 muM, respectively, when compared to the galantamine standard AChE inhibitor. Moreover, the prepared hybrids exhibited a significant anti-inflammatory effect against lipopolysaccharide induced inflammation in RAW 264.7 and reduced nitric oxide (NO), tumor necrosis alpha (TNF-alpha), interleukin-1beta (IL-1beta), and interleukin-6 (IL-6) levels in a dose dependent manner. These hybrids demonstrated significant reductions in nitric oxide (NO), tumor necrosis alpha (TNF-alpha), interleukin-1beta (IL-1beta), and interleukin-6 (IL-6) levels in RAW 264.7 cells induced by lipopolysaccharide (LPS). The findings of this study were further explained in light of network pharmacology analysis which suggested that AChE and nitric oxide synthase were the main targets of the most active compounds. Molecular docking studies revealed their ability to bind to the heme binding site of nitric oxide synthase 3 (NOS-3) and effectively occupy the active site of AChE, interacting with both the peripheral aromatic subsite and catalytic triad. Finally, the compounds demonstrated stability in simulated gastric and intestinal environments, suggesting potential absorption into the bloodstream without significant hydrolysis. These findings highlight the possible therapeutic potential of acefylline-eugenol 6d and acefylline-isatin 19 hybrids in targeting multiple pathological mechanisms involved in AD, offering promising avenues for further development as potential treatments for this devastating disease.
+37649576	0	12	Theophylline	Chemical	MESH:D013806
+37649576	30	50	acetylcholinesterase	Gene	11423
+37649576	80	92	inflammatory	Disease	MESH:D007249
+37649576	222	234	theophylline	Chemical	MESH:D013806
+37649576	353	365	inflammatory	Disease	MESH:D007249
+37649576	416	435	Alzheimer's disease	Disease	MESH:D000544
+37649576	437	439	AD	Disease	MESH:D000544
+37649576	481	502	acefylline-eugenol 6d	Chemical	-
+37649576	507	527	acefylline-isatin 19	Chemical	-
+37649576	550	570	acetylcholinesterase	Gene	11423
+37649576	572	576	AChE	Gene	11423
+37649576	688	699	galantamine	Chemical	MESH:D005702
+37649576	709	713	AChE	Gene	11423
+37649576	785	797	inflammatory	Disease	MESH:D007249
+37649576	813	831	lipopolysaccharide	Chemical	MESH:D008070
+37649576	840	852	inflammation	Disease	MESH:D007249
+37649576	856	865	RAW 264.7	CellLine	CVCL:0493
+37649576	878	890	nitric oxide	Chemical	MESH:D009569
+37649576	919	928	TNF-alpha	Gene	21926
+37649576	931	948	interleukin-1beta	Gene	16176
+37649576	950	958	IL-1beta	Gene	16176
+37649576	965	978	interleukin-6	Gene	16193
+37649576	980	984	IL-6	Gene	16193
+37649576	1074	1086	nitric oxide	Chemical	MESH:D009569
+37649576	1115	1124	TNF-alpha	Gene	21926
+37649576	1127	1144	interleukin-1beta	Gene	16176
+37649576	1146	1154	IL-1beta	Gene	16176
+37649576	1161	1174	interleukin-6	Gene	16193
+37649576	1176	1180	IL-6	Gene	16193
+37649576	1192	1201	RAW 264.7	CellLine	CVCL:0493
+37649576	1219	1237	lipopolysaccharide	Chemical	MESH:D008070
+37649576	1239	1242	LPS	Chemical	MESH:D008070
+37649576	1358	1362	AChE	Gene	11423
+37649576	1505	1509	heme	Chemical	MESH:D006418
+37649576	1526	1549	nitric oxide synthase 3	Gene	18127
+37649576	1551	1556	NOS-3	Gene	18127
+37649576	1600	1604	AChE	Gene	11423
+37649576	1925	1946	acefylline-eugenol 6d	Chemical	-
+37649576	1951	1971	acefylline-isatin 19	Chemical	-
+37649576	2038	2040	AD	Disease	MESH:D000544
+37649576	Negative_Correlation	MESH:D013806	11423
+37649576	Negative_Correlation	MESH:D013806	MESH:D007249
+37649576	Negative_Correlation	MESH:D005702	11423
+37649576	Association	MESH:D008070	16176
+37649576	Positive_Correlation	MESH:D008070	MESH:D007249
+37649576	Association	MESH:D013806	18127
+37649576	Association	MESH:D007249	11423
+37649576	Association	MESH:D008070	16193
+37649576	Negative_Correlation	MESH:D013806	MESH:D000544
+37649576	Association	MESH:D006418	18127
+

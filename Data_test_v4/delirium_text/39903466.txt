@@ -1,0 +1,21 @@
+39903466|t|Interoperable Models for Identifying Critically Ill Children at Risk of Neurologic Morbidity.
+39903466|a|Importance: Decreasing mortality in the field of pediatric critical care medicine has shifted practicing clinicians' attention to preserving patients' neurodevelopmental potential as a main objective. Earlier identification of critically ill children at risk for incurring neurologic morbidity would facilitate heightened surveillance that could lead to timelier clinical detection, earlier interventions, and preserved neurodevelopmental trajectory. Objectives: To develop machine-learning models for identifying acquired neurologic morbidity in hospitalized pediatric patients with critical illness and assess correlation with contemporary serum-based, brain injury-derived biomarkers. Design, Setting, and Participants: This prognostic study used data from all children admitted to a quaternary pediatric intensive care unit in a large, freestanding children's hospital in Western Pennsylvania between January 1, 2010, and December 31, 2022. External model validation used data from children admitted between January 1, 2018, and December 31, 2023, to a quaternary pediatric intensive care unit in a large, freestanding children's hospital that serves as a referral center for the 5-state region of Washington, Wyoming, Alaska, Montana, and Idaho. Exposures: Critical illness. Main Outcomes and Measures: The outcome was neurologic morbidity, defined according to a computable, composite definition at the development site or an order for neurocritical care consultation at the validation site. Models were developed using varying time windows for temporal feature engineering and varying censored time horizons between the last feature and the identified neurologic morbidity. A generalizable model created at the development site was optimized and assessed at an external validation site. Correlation was assessed between development site model predictions and measurements of brain biomarkers from a convenience cohort. Results: After exclusions, there were 18 568 encounters from 2010 to 2022 in the development site generalizable model cohort (median age, 70 [IQR, 18-161] months; 8325 [45%] female). There were 6825 encounters from 2018 to 2021 at the external validation site (median age, 96 [IQR 18-171] months; 3159 [46%] female). A generalizable extreme gradient boosted model with a 24-hour time horizon and 48-hour feature engineering window demonstrated an F1 score of 0.37 (95% CI, 0.33-0.40), area under the receiver operating characteristics curve of 0.81 (95% CI, 0.78-0.83), and number needed to alert of 4 at the validation site. After recalibration at the validation site, the Brier score was 0.04. Serum levels of the brain injury biomarker glial fibrillary acidic protein significantly correlated with model output (rs = 0.34; P = .007). Conclusions and Relevance: This prognostic study of prediction models for detecting neurologic morbidity in critically ill children demonstrated a well-performing ensemble of models with biomolecular corroboration. Prospective assessment and refinement of biomarker-coupled risk models in pediatric critical illness are warranted.
+39903466	37	51	Critically Ill	Disease	MESH:D016638
+39903466	72	92	Neurologic Morbidity	Disease	MESH:D009461
+39903466	235	243	patients	Species	9606
+39903466	321	335	critically ill	Disease	MESH:D016638
+39903466	367	387	neurologic morbidity	Disease	MESH:D009461
+39903466	617	637	neurologic morbidity	Disease	MESH:D009461
+39903466	664	672	patients	Species	9606
+39903466	678	694	critical illness	Disease	MESH:D016638
+39903466	749	761	brain injury	Disease	MESH:D001930
+39903466	1356	1372	Critical illness	Disease	MESH:D016638
+39903466	1418	1438	neurologic morbidity	Disease	MESH:D009461
+39903466	1753	1773	neurologic morbidity	Disease	MESH:D009461
+39903466	2736	2748	brain injury	Disease	MESH:D001930
+39903466	2759	2790	glial fibrillary acidic protein	Gene	2670
+39903466	2941	2961	neurologic morbidity	Disease	MESH:D009461
+39903466	2965	2979	critically ill	Disease	MESH:D016638
+39903466	3156	3172	critical illness	Disease	MESH:D016638
+39903466	Association	MESH:D009461	2670
+

@@ -1,0 +1,16 @@
+39726986|t|Identifying Symptoms of Delirium from Clinical Narratives Using Natural Language Processing.
+39726986|a|Delirium is an acute decline or fluctuation in attention, awareness, or other cognitive function that can lead to serious adverse outcomes. Despite the severe outcomes, delirium is frequently unrecognized and uncoded in patients' electronic health records (EHRs) due to its transient and diverse nature. Natural language processing (NLP), a key technology that extracts medical concepts from clinical narratives, has shown great potential in studies of delirium outcomes and symptoms. To assist in the diagnosis and phenotyping of delirium, we formed an expert panel to categorize diverse delirium symptoms, composed annotation guidelines, created a delirium corpus with diverse delirium symptoms, and developed NLP methods to extract delirium symptoms from clinical notes. We compared 5 state-of-the-art transformer models including 2 models (BERT and RoBERTa) from the general domain and 3 models (BERT_MIMIC, RoBERTa_MIMIC, and GatorTron) from the clinical domain. GatorTron achieved the best strict and lenient F1 scores of 0.8055 and 0.8759, respectively. We conducted an error analysis to identify challenges in annotating delirium symptoms and developing NLP systems. To the best of our knowledge, this is the first large language model-based delirium symptom extraction system. Our study lays the foundation for the future development of computable phenotypes and diagnosis methods for delirium.
+39726986	24	32	Delirium	Disease	MESH:D003693
+39726986	93	101	Delirium	Disease	MESH:D003693
+39726986	262	270	delirium	Disease	MESH:D003693
+39726986	313	321	patients	Species	9606
+39726986	546	554	delirium	Disease	MESH:D003693
+39726986	624	632	delirium	Disease	MESH:D003693
+39726986	682	690	delirium	Disease	MESH:D003693
+39726986	743	751	delirium	Disease	MESH:D003693
+39726986	772	780	delirium	Disease	MESH:D003693
+39726986	828	836	delirium	Disease	MESH:D003693
+39726986	1222	1230	delirium	Disease	MESH:D003693
+39726986	1343	1351	delirium	Disease	MESH:D003693
+39726986	1487	1495	delirium	Disease	MESH:D003693
+

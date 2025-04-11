@@ -1,0 +1,26 @@
+34555052|t|Analysis of potential genetic biomarkers and molecular mechanism of smoking-related postmenopausal osteoporosis using weighted gene co-expression network analysis and machine learning.
+34555052|a|OBJECTIVES: Smoking is a significant independent risk factor for postmenopausal osteoporosis, leading to genome variations in postmenopausal smokers. This study investigates potential biomarkers and molecular mechanisms of smoking-related postmenopausal osteoporosis (SRPO). MATERIALS AND METHODS: The GSE13850 microarray dataset was downloaded from Gene Expression Omnibus (GEO). Gene modules associated with SRPO were identified using weighted gene co-expression network analysis (WGCNA), protein-protein interaction (PPI) analysis, and pathway and functional enrichment analyses. Feature genes were selected using two machine learning methods: support vector machine-recursive feature elimination (SVM-RFE) and random forest (RF). The diagnostic efficiency of the selected genes was assessed by gene expression analysis and receiver operating characteristic curve. RESULTS: Eight highly conserved modules were detected in the WGCNA network, and the genes in the module that was strongly correlated with SRPO were used for constructing the PPI network. A total of 113 hub genes were identified in the core network using topological network analysis. Enrichment analysis results showed that hub genes were closely associated with the regulation of RNA transcription and translation, ATPase activity, and immune-related signaling. Six genes (HNRNPC, PFDN2, PSMC5, RPS16, TCEB2, and UBE2V2) were selected as genetic biomarkers for SRPO by integrating the feature selection of SVM-RFE and RF. CONCLUSION: The present study identified potential genetic biomarkers and provided a novel insight into the underlying molecular mechanism of SRPO.
+34555052	84	111	postmenopausal osteoporosis	Disease	MESH:D010024
+34555052	250	277	postmenopausal osteoporosis	Disease	MESH:D010024
+34555052	424	451	postmenopausal osteoporosis	Disease	MESH:D010024
+34555052	453	457	SRPO	Disease	MESH:D015208
+34555052	595	599	SRPO	Disease	MESH:D015208
+34555052	1191	1195	SRPO	Disease	MESH:D015208
+34555052	1469	1475	ATPase	Gene	1769
+34555052	1527	1533	HNRNPC	Gene	3183
+34555052	1535	1540	PFDN2	Gene	5202
+34555052	1542	1547	PSMC5	Gene	5705
+34555052	1549	1554	RPS16	Gene	6217
+34555052	1556	1561	TCEB2	Gene	6923
+34555052	1567	1573	UBE2V2	Gene	7336
+34555052	1615	1619	SRPO	Disease	MESH:D015208
+34555052	1818	1822	SRPO	Disease	MESH:D015208
+34555052	Association	MESH:D015208	5202
+34555052	Association	MESH:D010024	7336
+34555052	Association	MESH:D015208	6217
+34555052	Association	MESH:D010024	6217
+34555052	Association	MESH:D015208	6923
+34555052	Association	MESH:D015208	5705
+34555052	Association	MESH:D015208	3183
+34555052	Association	MESH:D015208	7336
+

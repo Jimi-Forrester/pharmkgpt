@@ -1,0 +1,76 @@
+36781081|t|Acute IL-6 exposure triggers canonical IL6Ra signaling in hiPSC microglia, but not neural progenitor cells.
+36781081|a|BACKGROUND: Prenatal exposure to elevated interleukin (IL)-6 levels is associated with increased risk for psychiatric disorders with a putative neurodevelopmental origin, such as schizophrenia (SZ), autism spectrum condition (ASC) and bipolar disorder (BD). Although rodent models provide causal evidence for this association, we lack a detailed understanding of the cellular and molecular mechanisms in human model systems. To close this gap, we characterized the response of human induced pluripotent stem cell (hiPSC-)derived microglia-like cells (MGL) and neural progenitor cells (NPCs) to IL-6 in monoculture. RESULTS: We observed that human forebrain NPCs did not respond to acute IL-6 exposure in monoculture at both protein and transcript levels due to the absence of IL6R expression and soluble (s)IL6Ra secretion. By contrast, acute IL-6 exposure resulted in STAT3 phosphorylation and increased IL6, JMJD3 and IL10 expression in MGL, confirming activation of canonical IL6Ra signaling. Bulk RNAseq identified 156 up-regulated genes (FDR < 0.05) in MGL following acute IL-6 exposure, including IRF8, REL, HSPA1A/B and OXTR, which significantly overlapped with an up-regulated gene set from human post-mortem brain tissue from individuals with schizophrenia. Acute IL-6 stimulation significantly increased MGL motility, consistent with gene ontology pathways highlighted from the RNAseq data and replicating rodent model indications that IRF8 regulates microglial motility. Finally, IL-6 induces MGLs to secrete CCL1, CXCL1, MIP-1alpha/beta, IL-8, IL-13, IL-16, IL-18, MIF and Serpin-E1 after 3 h and 24 h. CONCLUSION: Our data provide evidence for cell specific effects of acute IL-6 exposure in a human model system, ultimately suggesting that microglia-NPC co-culture models are required to study how IL-6 influences human cortical neural progenitor cell development in vitro.
+36781081	6	10	IL-6	Gene	3569
+36781081	39	44	IL6Ra	Gene	3570
+36781081	150	168	interleukin (IL)-6	Gene	3569
+36781081	214	235	psychiatric disorders	Disease	MESH:D001523
+36781081	287	300	schizophrenia	Disease	MESH:D012559
+36781081	302	304	SZ	Disease	MESH:D012559
+36781081	307	332	autism spectrum condition	Disease	MESH:D000067877
+36781081	334	337	ASC	Disease	MESH:D000067877
+36781081	343	359	bipolar disorder	Disease	MESH:D001714
+36781081	361	363	BD	Disease	MESH:D001714
+36781081	512	517	human	Species	9606
+36781081	585	590	human	Species	9606
+36781081	659	662	MGL	CellLine	CVCL:II76
+36781081	702	706	IL-6	Gene	3569
+36781081	749	754	human	Species	9606
+36781081	795	799	IL-6	Gene	3569
+36781081	884	888	IL6R	Gene	3570
+36781081	915	920	IL6Ra	Gene	3570
+36781081	951	955	IL-6	Gene	3569
+36781081	977	982	STAT3	Gene	6774
+36781081	1013	1016	IL6	Gene	3569
+36781081	1018	1023	JMJD3	Gene	23135
+36781081	1028	1032	IL10	Gene	3586
+36781081	1047	1050	MGL	CellLine	CVCL:II76
+36781081	1087	1092	IL6Ra	Gene	3570
+36781081	1166	1169	MGL	CellLine	CVCL:II76
+36781081	1186	1190	IL-6	Gene	3569
+36781081	1211	1215	IRF8	Gene	3394
+36781081	1222	1230	HSPA1A/B	Gene	3303
+36781081	1235	1239	OXTR	Gene	5021
+36781081	1307	1312	human	Species	9606
+36781081	1360	1373	schizophrenia	Disease	MESH:D012559
+36781081	1381	1385	IL-6	Gene	3569
+36781081	1422	1425	MGL	CellLine	CVCL:II76
+36781081	1554	1558	IRF8	Gene	3394
+36781081	1599	1603	IL-6	Gene	3569
+36781081	1628	1632	CCL1	Gene	6346
+36781081	1634	1639	CXCL1	Gene	2919
+36781081	1641	1656	MIP-1alpha/beta	Gene	6348
+36781081	1658	1662	IL-8	Gene	3576
+36781081	1664	1669	IL-13	Gene	3596
+36781081	1671	1676	IL-16	Gene	3603
+36781081	1678	1683	IL-18	Gene	3606
+36781081	1685	1688	MIF	Gene	4282
+36781081	1693	1702	Serpin-E1	Gene	5054
+36781081	1796	1800	IL-6	Gene	3569
+36781081	1815	1820	human	Species	9606
+36781081	1872	1875	NPC	Disease	MESH:D052556
+36781081	1920	1924	IL-6	Gene	3569
+36781081	1936	1941	human	Species	9606
+36781081	Positive_Correlation	3569	6348
+36781081	Positive_Correlation	3569	4282
+36781081	Association	MESH:D012559	3569
+36781081	Positive_Correlation	3569	3586
+36781081	Positive_Correlation	3569	3596
+36781081	Association	MESH:D001714	3569
+36781081	Positive_Correlation	3394	3569
+36781081	Positive_Correlation	3569	3576
+36781081	Positive_Correlation	3569	6774
+36781081	Positive_Correlation	2919	3569
+36781081	Positive_Correlation	3569	3570
+36781081	Positive_Correlation	MESH:D001523	3569
+36781081	Positive_Correlation	3569	3603
+36781081	Positive_Correlation	23135	3569
+36781081	Association	MESH:D012559	3303
+36781081	Association	MESH:D012559	3394
+36781081	Positive_Correlation	3569	5021
+36781081	Positive_Correlation	3569	5054
+36781081	Positive_Correlation	3303	3569
+36781081	Positive_Correlation	3569	6346
+36781081	Positive_Correlation	3569	3606
+36781081	Positive_Correlation	MESH:D000067877	3569
+36781081	Association	MESH:D012559	5021
+

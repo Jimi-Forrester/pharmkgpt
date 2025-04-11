@@ -1,0 +1,67 @@
+39500626|t|Lysine Acetyltransferase TIP60 Restricts Nerve Injury by Activating IKKbeta/SNAP23 Axis-Mediated Autophagosome-Lysosome Fusion in Alzheimer's Disease.
+39500626|a|OBJECTIVE: The hyperphosphorylation of Tau protein is considered an important cause of neuronal degeneration in Alzheimer's disease (AD). The disruption of neuronal histone acetylation homeostasis mediated by Tip60 HAT is a common early event in neurodegenerative diseases, but the deeper regulatory mechanism on beta-amyloid peptide (Abeta)-induced neurotoxicity and autophagic function in AD is still unclear. METHODS: AD models were established both in APP/PS1 mice and Abeta1-42-treated SH-SY5Y cells. The Morris water maze test (MWM) was performed to examine mouse cognitive function. Neurological damage in the hippocampus was observed by hematoxylin-eosin (H&E), Nissl's, terminal deoxynucleotidyl transferase dUTP nick end labeling (TUNEL), and NeuN staining. Autophagosome-lysosome fusion was detected by immunohistochemistry, immunofluorescence, and Lyso-Tracker Red staining. Cell viability and apoptosis were evaluated by CCK-8 assay and flow cytometry. The molecular interactions were verified by co-immunoprecipitation (Co-IP), dual luciferase assays, and ChIP detections. The RNA and autophagy-lysosome-related proteins were assessed by Western blot and RT-qPCR. RESULTS: TIP60 overexpression improved cognitive deficits and neurological damage and restored the impairment of autophagy-lysosomes fusion in vivo. Similarly, the upregulation of TIP60 in Abeta1-42-treated SH-SY5Y cells suppressed neuronal apoptosis and tau phosphorylation through the activating autophagy-lysosome pathway. Mechanistically, TIP60 activated IKKbeta transcription by promoting SOX4 acetylation, thus leading to the translocation of SNAP23 to STX17-contained autophagosomes. Moreover, the protective roles of TIP60 in neuron damage were abolished by the inhibition of SOX4/IKKbeta signaling. CONCLUSION: Collectively, our results highlighted the potential of the TIP60 target for AD and provided new insights into the mechanisms underlying neuroprotection in this disorder.
+39500626	25	30	TIP60	Gene	81601
+39500626	41	53	Nerve Injury	Disease	MESH:D000080902
+39500626	68	75	IKKbeta	Gene	16150
+39500626	76	82	SNAP23	Gene	8773
+39500626	130	149	Alzheimer's Disease	Disease	MESH:D000544
+39500626	190	193	Tau	Gene	4137
+39500626	238	259	neuronal degeneration	Disease	MESH:D009410
+39500626	263	282	Alzheimer's disease	Disease	MESH:D000544
+39500626	284	286	AD	Disease	MESH:D000544
+39500626	397	423	neurodegenerative diseases	Disease	MESH:D019636
+39500626	486	491	Abeta	Gene	11820
+39500626	501	514	neurotoxicity	Disease	MESH:D020258
+39500626	542	544	AD	Disease	MESH:D000544
+39500626	572	574	AD	Disease	MESH:D000544
+39500626	611	614	PS1	Gene	19164
+39500626	615	619	mice	Species	10090
+39500626	642	649	SH-SY5Y	CellLine	CVCL:0019
+39500626	715	720	mouse	Species	10090
+39500626	741	760	Neurological damage	Disease	MESH:D020196
+39500626	796	807	hematoxylin	Chemical	MESH:D006416
+39500626	830	867	terminal deoxynucleotidyl transferase	Gene	1791
+39500626	868	872	dUTP	Chemical	MESH:C027078
+39500626	904	908	NeuN	Gene	52897
+39500626	1011	1027	Lyso-Tracker Red	Chemical	-
+39500626	1338	1343	TIP60	Gene	81601
+39500626	1368	1386	cognitive deficits	Disease	MESH:D003072
+39500626	1391	1410	neurological damage	Disease	MESH:D020196
+39500626	1509	1514	TIP60	Gene	10524
+39500626	1536	1543	SH-SY5Y	CellLine	CVCL:0019
+39500626	1561	1579	neuronal apoptosis	Disease	MESH:D065703
+39500626	1584	1587	tau	Gene	4137
+39500626	1672	1677	TIP60	Gene	81601
+39500626	1688	1695	IKKbeta	Gene	3551
+39500626	1723	1727	SOX4	Gene	6659
+39500626	1778	1784	SNAP23	Gene	8773
+39500626	1788	1793	STX17	Gene	55014
+39500626	1854	1859	TIP60	Gene	81601
+39500626	1863	1876	neuron damage	Disease	MESH:D009410
+39500626	1913	1917	SOX4	Gene	6659
+39500626	1918	1925	IKKbeta	Gene	16150
+39500626	2008	2013	TIP60	Gene	81601
+39500626	2025	2027	AD	Disease	MESH:D000544
+39500626	Association	MESH:D000544	16150
+39500626	Association	MESH:D009410	4137
+39500626	Association	55014	81601
+39500626	Positive_Correlation	6659	81601
+39500626	Association	MESH:D000544	81601
+39500626	Association	MESH:D000080902	8773
+39500626	Positive_Correlation	MESH:D020258	11820
+39500626	Positive_Correlation	MESH:D003072	81601
+39500626	Association	10524	4137
+39500626	Association	MESH:D009410	6659
+39500626	Bind	55014	8773
+39500626	Positive_Correlation	3551	81601
+39500626	Negative_Correlation	MESH:D009410	81601
+39500626	Association	MESH:D000544	11820
+39500626	Association	MESH:D000544	8773
+39500626	Association	81601	8773
+39500626	Association	MESH:D020196	81601
+39500626	Association	MESH:D000544	4137
+39500626	Positive_Correlation	16150	81601
+39500626	Association	MESH:D009410	16150
+39500626	Association	MESH:D000080902	81601
+39500626	Negative_Correlation	MESH:D065703	10524
+

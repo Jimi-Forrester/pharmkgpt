@@ -1,0 +1,64 @@
+39917625|t|A post-marketing pharmacovigilance study of triazole antifungals: adverse event data mining and analysis based on the FDA adverse event reporting system database.
+39917625|a|Background: To explore and analyze post-marketing adverse drug event (ADE) signals for voriconazole, posaconazole, and isavuconazole, and to compare the safety differences among the three drugs, aiming to provide insights for rational clinical use. Methods: Using the Open Vigil 2.1 online tool, extract adverse drug event (ADE) report data for voriconazole, posaconazole, and isavuconazole from the U.S. Food and Drug Administration's Adverse Event Reporting System (FAERS) database from the time the drugs were marketed up to the third quarter of 2023. Employ the Reporting Odds Ratio (ROR) and Proportional Reporting Ratio (PRR) methods for data mining. Filter out ADE signals detected by both the ROR and PRR methods, and categorize these ADE signals by System Organ Class (SOC) according to the Medical Dictionary for Regulatory Activities (MedDRA 26.0). Results: A total of 8,898 ADE reports with voriconazole as the primary suspect drug were retrieved, 1,948 for posaconazole, and 944 for isavuconazole. From the basic analysis of the adverse event reports, male patients (50.31%) outnumber female patients (32.11%). In terms of age, the majority of patients are over 45 years old (52.72%). The reports primarily come from the United States, Japan, France, China, and other countries. A total of 607 ADE signals were identified, with 402 for voriconazole, 159 for posaconazole, and 46 for isavuconazole. Voriconazole ADEs primarily involved the following SOCs: Investigations (9.45%), Eye Disorders (8.46%), and Nervous System Disorders (7.21%); Posaconazole ADEs primarily involved the following SOCs: Investigations (13.84%), General Disorders and Administration Site Conditions (11.95%), and Nervous System Disorders (6.29%); Isavuconazole ADEs primarily involved the following SOCs: General Disorders and Administration Site Conditions (15.22%), Hepatobiliary Disorders (10.87%), and Blood and Lymphatic System Disorders (10.87%). Conclusion: Voriconazole, posaconazole, and isavuconazole all potentially pose safety risks related to hepatobiliary disorders and cardiac disorders. Additionally, voriconazole carries a higher safety risk for eye disorders and nervous system disorders. Newly discovered ADE signals not mentioned in the drug package inserts include voriconazole-induced rhabdomyolysis, posaconazole-induced peripheral neuropathy, and isavuconazole-induced visual impairment and mental confusion. These findings are significant for guiding rational clinical use of these medications.
+39917625	44	64	triazole antifungals	Chemical	-
+39917625	213	231	adverse drug event	Disease	MESH:D064420
+39917625	233	236	ADE	Disease	MESH:D064420
+39917625	250	262	voriconazole	Chemical	MESH:D065819
+39917625	264	276	posaconazole	Chemical	MESH:C101425
+39917625	282	295	isavuconazole	Chemical	MESH:C508735
+39917625	467	485	adverse drug event	Disease	MESH:D064420
+39917625	487	490	ADE	Disease	MESH:D064420
+39917625	508	520	voriconazole	Chemical	MESH:D065819
+39917625	522	534	posaconazole	Chemical	MESH:C101425
+39917625	540	553	isavuconazole	Chemical	MESH:C508735
+39917625	577	581	Drug	Disease	MESH:D000081015
+39917625	831	834	ADE	Disease	MESH:D064420
+39917625	906	909	ADE	Disease	MESH:D064420
+39917625	1049	1052	ADE	Disease	MESH:D064420
+39917625	1066	1078	voriconazole	Chemical	MESH:D065819
+39917625	1102	1106	drug	Disease	MESH:D000081015
+39917625	1133	1145	posaconazole	Chemical	MESH:C101425
+39917625	1159	1172	isavuconazole	Chemical	MESH:C508735
+39917625	1233	1241	patients	Species	9606
+39917625	1268	1276	patients	Species	9606
+39917625	1320	1328	patients	Species	9606
+39917625	1470	1473	ADE	Disease	MESH:D064420
+39917625	1512	1524	voriconazole	Chemical	MESH:D065819
+39917625	1534	1546	posaconazole	Chemical	MESH:C101425
+39917625	1559	1572	isavuconazole	Chemical	MESH:C508735
+39917625	1574	1586	Voriconazole	Chemical	MESH:D065819
+39917625	1655	1668	Eye Disorders	Disease	MESH:D005128
+39917625	1682	1706	Nervous System Disorders	Disease	MESH:D009422
+39917625	1716	1728	Posaconazole	Chemical	MESH:C101425
+39917625	1865	1889	Nervous System Disorders	Disease	MESH:D009422
+39917625	1899	1912	Isavuconazole	Chemical	MESH:C508735
+39917625	2020	2043	Hepatobiliary Disorders	Disease	MESH:D004066
+39917625	2058	2094	Blood and Lymphatic System Disorders	Disease	MESH:D006425
+39917625	2117	2129	Voriconazole	Chemical	MESH:D065819
+39917625	2131	2143	posaconazole	Chemical	MESH:C101425
+39917625	2149	2162	isavuconazole	Chemical	MESH:C508735
+39917625	2208	2231	hepatobiliary disorders	Disease	MESH:D004066
+39917625	2236	2253	cardiac disorders	Disease	MESH:D006331
+39917625	2269	2281	voriconazole	Chemical	MESH:D065819
+39917625	2315	2328	eye disorders	Disease	MESH:D005128
+39917625	2333	2357	nervous system disorders	Disease	MESH:D009422
+39917625	2376	2379	ADE	Disease	MESH:D064420
+39917625	2409	2413	drug	Disease	MESH:D000081015
+39917625	2438	2450	voriconazole	Chemical	MESH:D065819
+39917625	2459	2473	rhabdomyolysis	Disease	MESH:D012206
+39917625	2475	2487	posaconazole	Chemical	MESH:C101425
+39917625	2496	2517	peripheral neuropathy	Disease	MESH:D010523
+39917625	2523	2536	isavuconazole	Chemical	MESH:C508735
+39917625	2545	2562	visual impairment	Disease	MESH:D014786
+39917625	2574	2583	confusion	Disease	MESH:D003221
+39917625	Positive_Correlation	MESH:D065819	MESH:D064420
+39917625	Positive_Correlation	MESH:C508735	MESH:D014786
+39917625	Positive_Correlation	MESH:C508735	MESH:D004066
+39917625	Positive_Correlation	MESH:C508735	MESH:D006331
+39917625	Positive_Correlation	MESH:D065819	MESH:D005128
+39917625	Positive_Correlation	MESH:D065819	MESH:D006331
+39917625	Positive_Correlation	MESH:C101425	MESH:D064420
+39917625	Positive_Correlation	MESH:D065819	MESH:D009422
+39917625	Positive_Correlation	MESH:C508735	MESH:D064420
+39917625	Positive_Correlation	MESH:C508735	MESH:D010523
+

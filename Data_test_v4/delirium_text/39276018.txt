@@ -1,0 +1,16 @@
+39276018|t|AlzDiscovery: A computational tool to identify Alzheimer's disease-causing missense mutations using protein structure information.
+39276018|a|Alzheimer's disease (AD) is one of the most common forms of dementia and neurodegenerative diseases, characterized by the formation of neuritic plaques and neurofibrillary tangles. Many different proteins participate in this complicated pathogenic mechanism, and missense mutations can alter the folding and functions of these proteins, significantly increasing the risk of AD. However, many methods to identify AD-causing variants did not consider the effect of mutations from the perspective of a protein three-dimensional environment. Here, we present a machine learning-based analysis to classify the AD-causing mutations from their benign counterparts in 21 AD-related proteins leveraging both sequence- and structure-based features. Using computational tools to estimate the effect of mutations on protein stability, we first observed a bias of the pathogenic mutations with significant destabilizing effects on family AD-related proteins. Combining this insight, we built a generic predictive model, and improved the performance by tuning the sample weights in the training process. Our final model achieved the performance on area under the receiver operating characteristic curve up to 0.95 in the blind test and 0.70 in an independent clinical validation, outperforming all the state-of-the-art methods. Feature interpretation indicated that the hydrophobic environment and polar interaction contacts were crucial to the decision on pathogenic phenotypes of missense mutations. Finally, we presented a user-friendly web server, AlzDiscovery, for researchers to browse the predicted phenotypes of all possible missense mutations on these 21 AD-related proteins. Our study will be a valuable resource for AD screening and the development of personalized treatment.
+39276018	47	66	Alzheimer's disease	Disease	MESH:D000544
+39276018	131	150	Alzheimer's disease	Disease	MESH:D000544
+39276018	152	154	AD	Disease	MESH:D000544
+39276018	191	199	dementia	Disease	MESH:D003704
+39276018	204	230	neurodegenerative diseases	Disease	MESH:D019636
+39276018	275	282	plaques	Disease	MESH:D003773
+39276018	287	310	neurofibrillary tangles	Disease	MESH:D055956
+39276018	505	507	AD	Disease	MESH:D000544
+39276018	543	545	AD	Disease	MESH:D000544
+39276018	736	738	AD	Disease	MESH:D000544
+39276018	794	796	AD	Disease	MESH:D000544
+39276018	1781	1783	AD	Disease	MESH:D000544
+39276018	1844	1846	AD	Disease	MESH:D000544
+

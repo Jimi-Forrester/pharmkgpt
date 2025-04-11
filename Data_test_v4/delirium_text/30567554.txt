@@ -1,0 +1,18 @@
+30567554|t|Neuropsychological predictors of conversion from mild cognitive impairment to Alzheimer's disease: a feature selection ensemble combining stability and predictability.
+30567554|a|BACKGROUND: Predicting progression from Mild Cognitive Impairment (MCI) to Alzheimer's Disease (AD) is an utmost open issue in AD-related research. Neuropsychological assessment has proven to be useful in identifying MCI patients who are likely to convert to dementia. However, the large battery of neuropsychological tests (NPTs) performed in clinical practice and the limited number of training examples are challenge to machine learning when learning prognostic models. In this context, it is paramount to pursue approaches that effectively seek for reduced sets of relevant features. Subsets of NPTs from which prognostic models can be learnt should not only be good predictors, but also stable, promoting generalizable and explainable models. METHODS: We propose a feature selection (FS) ensemble combining stability and predictability to choose the most relevant NPTs for prognostic prediction in AD. First, we combine the outcome of multiple (filter and embedded) FS methods. Then, we use a wrapper-based approach optimizing both stability and predictability to compute the number of selected features. We use two large prospective studies (ADNI and the Portuguese Cognitive Complaints Cohort, CCC) to evaluate the approach and assess the predictive value of a large number of NPTs. RESULTS: The best subsets of features include approximately 30 and 20 (from the original 79 and 40) features, for ADNI and CCC data, respectively, yielding stability above 0.89 and 0.95, and AUC above 0.87 and 0.82. Most NPTs learnt using the proposed feature selection ensemble have been identified in the literature as strong predictors of conversion from MCI to AD. CONCLUSIONS: The FS ensemble approach was able to 1) identify subsets of stable and relevant predictors from a consensus of multiple FS methods using baseline NPTs and 2) learn reliable prognostic models of conversion from MCI to AD using these subsets of features. The machine learning models learnt from these features outperformed the models trained without FS and achieved competitive results when compared to commonly used FS algorithms. Furthermore, the selected features are derived from a consensus of methods thus being more robust, while releasing users from choosing the most appropriate FS method to be used in their classification task.
+30567554	54	74	cognitive impairment	Disease	MESH:D003072
+30567554	78	97	Alzheimer's disease	Disease	MESH:D000544
+30567554	213	233	Cognitive Impairment	Disease	MESH:D003072
+30567554	235	238	MCI	Disease	MESH:D060825
+30567554	243	262	Alzheimer's Disease	Disease	MESH:D000544
+30567554	264	266	AD	Disease	MESH:D000544
+30567554	295	297	AD	Disease	MESH:D000544
+30567554	385	388	MCI	Disease	MESH:D060825
+30567554	389	397	patients	Species	9606
+30567554	427	435	dementia	Disease	MESH:D003704
+30567554	1071	1073	AD	Disease	MESH:D000544
+30567554	1816	1819	MCI	Disease	MESH:D060825
+30567554	1823	1825	AD	Disease	MESH:D000544
+30567554	2050	2053	MCI	Disease	MESH:D060825
+30567554	2057	2059	AD	Disease	MESH:D000544
+

@@ -1,0 +1,16 @@
+36106446|t|Convolutional Neural Networks-Based Framework for Early Identification of Dementia Using MRI of Brain Asymmetry.
+36106446|a|Computer-aided diagnosis of health problems and pathological conditions has become a substantial part of medical, biomedical, and computer science research. This paper focuses on the diagnosis of early and progressive dementia, building on the potential of deep learning (DL) models. The proposed computational framework exploits a magnetic resonance imaging (MRI) brain asymmetry biomarker, which has been associated with early dementia, and employs DL architectures for MRI image classification. Identification of early dementia is accomplished by an eight-layered convolutional neural network (CNN) as well as transfer learning of pretrained CNNs from ImageNet. Different instantiations of the proposed CNN architecture are tested. These are equipped with Softmax, support vector machine (SVM), linear discriminant (LD), or [Formula: see text] -nearest neighbor (KNN) classification layers, assembled as a separate classification module, which are attached to the core CNN architecture. The initial imaging data were obtained from the MRI directory of the Alzheimer's disease neuroimaging initiative 3 (ADNI3) database. The independent testing dataset was created using image preprocessing and segmentation algorithms applied to unseen patients' imaging data. The proposed approach demonstrates a 90.12% accuracy in distinguishing patients who are cognitively normal subjects from those who have Alzheimer's disease (AD), and an 86.40% accuracy in detecting early mild cognitive impairment (EMCI).
+36106446	74	82	Dementia	Disease	MESH:D003704
+36106446	96	111	Brain Asymmetry	Disease	MESH:D005146
+36106446	331	339	dementia	Disease	MESH:D003704
+36106446	478	493	brain asymmetry	Disease	MESH:D005146
+36106446	542	550	dementia	Disease	MESH:D003704
+36106446	635	643	dementia	Disease	MESH:D003704
+36106446	1172	1191	Alzheimer's disease	Disease	MESH:D000544
+36106446	1352	1360	patients	Species	9606
+36106446	1447	1455	patients	Species	9606
+36106446	1512	1531	Alzheimer's disease	Disease	MESH:D000544
+36106446	1533	1535	AD	Disease	MESH:D000544
+36106446	1585	1605	cognitive impairment	Disease	MESH:D003072
+36106446	1607	1611	EMCI	Disease	MESH:D060825
+

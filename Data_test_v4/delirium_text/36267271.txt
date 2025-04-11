@@ -1,0 +1,24 @@
+36267271|t|Development of a drug risk analysis and assessment system and its application in signal excavation and analysis of 263 cases of fluoroquinolone-induced adverse reactions.
+36267271|a|Background: Adverse drug reaction (ADR) signal mining is essential for assessing drug safety. However, the currently available methods for this are rather cumbersome. Objective: We aimed to develop a drug risk analysis and assessment system using Java language and conduct pharmacovigilance data mining for fluoroquinolones at our hospital. Methods: We used ADR data reported by Shandong Provincial Third Hospital between July 2007 and August 2021. The signal detection methods included proportional reporting ratio (PRR), reporting odds ratio (ROR), Bayesian Confidence Propagation Neural Network (BCPNN), Medicines and Healthcare products Regulatory Agency (MHRA). The BCPNN method was used as the reference standard for comparing the remaining three signal detection methods based on sensitivity, specificity, positive predictive value, negative predictive value, and Jorden index. Results: The hospital database contained a total of 2,621 ADR reports, among which 263 were attributed to fluoroquinolones. There were 391 fluoroquinolone-ADR pairs. Using the PRR, ROR, MHRA, and BCPNN method, we detected 13 signals, 13 signals, 10 signals, and 11 weak signals, respectively. After signal detection, levofloxacin and moxifloxacin were shown to induce high risk signals for mental and sleep disorders, with the signal intensity of moxifloxacin being the most significant. Compared with BCPNN, the PRR and ROR methods showed better sensitivity, whereas the MHRA method showed better specificity. Conclusion: We developed a drug risk analysis and assessment system that can help hospitals and other medical institutions to detect and analyse ADR signals in the self-reporting system database, and thus improve drug safety. Further, it indicates that the central nervous system damage caused by fluoroquinolones should be monitored closely, and thus provides a reference for the clinical application of these drugs.
+36267271	128	143	fluoroquinolone	Chemical	MESH:D024841
+36267271	152	169	adverse reactions	Disease	MESH:D064420
+36267271	183	204	Adverse drug reaction	Disease	MESH:D064420
+36267271	206	209	ADR	Disease	MESH:D064420
+36267271	478	494	fluoroquinolones	Chemical	MESH:D024841
+36267271	529	532	ADR	Disease	MESH:D064420
+36267271	1114	1117	ADR	Disease	MESH:D064420
+36267271	1162	1178	fluoroquinolones	Chemical	MESH:D024841
+36267271	1195	1210	fluoroquinolone	Chemical	MESH:D024841
+36267271	1211	1214	ADR	Disease	MESH:D064420
+36267271	1373	1385	levofloxacin	Chemical	MESH:D064704
+36267271	1390	1402	moxifloxacin	Chemical	MESH:D000077266
+36267271	1446	1472	mental and sleep disorders	Disease	MESH:D001523
+36267271	1503	1515	moxifloxacin	Chemical	MESH:D000077266
+36267271	1812	1815	ADR	Disease	MESH:D064420
+36267271	1924	1953	central nervous system damage	Disease	MESH:D002493
+36267271	1964	1980	fluoroquinolones	Chemical	MESH:D024841
+36267271	Positive_Correlation	MESH:D064704	MESH:D001523
+36267271	Positive_Correlation	MESH:D000077266	MESH:D001523
+36267271	Positive_Correlation	MESH:D024841	MESH:D002493
+36267271	Positive_Correlation	MESH:D024841	MESH:D064420
+

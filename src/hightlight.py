@@ -2,6 +2,7 @@ from langchain.output_parsers import PydanticOutputParser
 from langchain_core.exceptions import OutputParserException
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import BaseModel, Field
+from typing import List, Dict, Set, Tuple
 from langchain_core.prompts import PromptTemplate
 from langchain.prompts import PromptTemplate
 from typing import List
@@ -72,27 +73,26 @@ def format_docs(docs):
     return formatted_docs
 
 
-# def highlight_segments(output_abtract, lookup_response):
-#     keyword_list = lookup_response.keyword
-#     for keyword in keyword_list:
-#         if len(keyword) <=1:
-#             continue
-#         for source in output_abtract:
-#             highlighted_context = output_abtract[source]['abstract']
-#             if keyword in output_abtract[source]['abstract']:
-#                 logging.info(f"找到 keyword: '{keyword}', 正在执行替换...")
-#                 output_abtract[source]['abstract'] = highlighted_context.replace(keyword, f"<mark>{keyword}</mark>")
-            
-#             elif keyword.lower() in output_abtract[source]['abstract']:
-#                 output_abtract[source]['abstract'] = highlighted_context.replace(keyword.lower(), f"<mark>{keyword.lower()}</mark>")
-#             else:
-#                 # logging.info(f"警告: 在 {source} context 中未找到 segment: '{keyword}'。未执行替换。")
-#                 pass
-#     return output_abtract
+def detect_all_entity_name(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
+    keyword_dict = {}
+    for pmid in pmid_list:
+        for en in kg_dict[pmid]['entities']:
+            if en.label != "abstract":
+                keyword_dict[en.name] = en.label
+    return keyword_dict
 
-def highlight_segments(output_abstract, lookup_response):
-    keyword_list = lookup_response.keyword
-    for keyword in keyword_list:
+
+def highlight_segments(output_abstract, keyword_dict):
+    """_summary_
+
+    Args:
+        output_abstract (_type_): _description_
+        keyword_dict (_type_): {entity:group,entity:group}
+
+    Returns:
+        _type_: _description_
+    """
+    for keyword, group in keyword_dict.items():
         if len(keyword) <= 1:
             continue
         # 构造正则，忽略大小写，匹配整词（可选）
@@ -100,14 +100,29 @@ def highlight_segments(output_abstract, lookup_response):
 
         for source in output_abstract:
             original_text = output_abstract[source]['abstract']
-            if re.search(pattern, original_text):
-                logging.info(f"找到 keyword: '{keyword}', 正在执行替换...")
-
-                # 替换匹配内容，保留原始大小写
-                highlighted = pattern.sub(r'<mark>\1</mark>', original_text)
+            def replace_func(match):
+                # 获取第一个捕获组匹配到的文本 (即原始大小写的关键词)
+                matched_keyword = match.group(1)
+                # 使用 f-string 和外部变量 group 构建替换字符串
+                return f'<mark class="{group}">{matched_keyword}</mark>'
+            
+            highlighted = pattern.sub(replace_func, original_text)
+            if highlighted != original_text:
+                logging.info(f"在 '{source}' 中找到并高亮 keyword: '{keyword}' with class '{group}'")
                 output_abstract[source]['abstract'] = highlighted
+            
+            # if re.search(pattern, original_text):
+            #     logging.info(f"找到 keyword: '{keyword}', 正在执行替换...")
+
+            #     # 替换匹配内容，保留原始大小写
+                
+            #     highlighted = pattern.sub(r'f"<mark class="{group}">\1</mark>"', original_text)
+            #     output_abstract[source]['abstract'] = highlighted
 
     return output_abstract
+
+
+
 
 
 def hallucination_test(llm_model, input_data):

@@ -1,0 +1,52 @@
+34830301|t|Hypoglycemia, Vascular Disease and Cognitive Dysfunction in Diabetes: Insights from Text Mining-Based Reconstruction and Bioinformatics Analysis of the Gene Networks.
+34830301|a|Hypoglycemia has been recognized as a risk factor for diabetic vascular complications and cognitive decline, but the molecular mechanisms of the effect of hypoglycemia on target organs are not fully understood. In this work, gene networks of hypoglycemia and cardiovascular disease, diabetic retinopathy, diabetic nephropathy, diabetic neuropathy, cognitive decline, and Alzheimer's disease were reconstructed using ANDSystem, a text-mining-based tool. The gene network of hypoglycemia included 141 genes and 2467 interactions. Enrichment analysis of Gene Ontology (GO) biological processes showed that the regulation of insulin secretion, glucose homeostasis, apoptosis, nitric oxide biosynthesis, and cell signaling are significantly enriched for hypoglycemia. Among the network hubs, INS, IL6, LEP, TNF, IL1B, EGFR, and FOS had the highest betweenness centrality, while GPR142, MBOAT4, SLC5A4, IGFBP6, PPY, G6PC1, SLC2A2, GYS2, GCGR, and AQP7 demonstrated the highest cross-talk specificity. Hypoglycemia-related genes were overrepresented in the gene networks of diabetic complications and comorbidity; moreover, 14 genes were mutual for all studied disorders. Eleven GO biological processes (glucose homeostasis, nitric oxide biosynthesis, smooth muscle cell proliferation, ERK1 and ERK2 cascade, etc.) were overrepresented in all reconstructed networks. The obtained results expand our understanding of the molecular mechanisms underlying the deteriorating effects of hypoglycemia in diabetes-associated vascular disease and cognitive dysfunction.
+34830301	0	12	Hypoglycemia	Disease	MESH:D007003
+34830301	14	30	Vascular Disease	Disease	MESH:D014652
+34830301	35	56	Cognitive Dysfunction	Disease	MESH:D003072
+34830301	60	68	Diabetes	Disease	MESH:D003920
+34830301	167	179	Hypoglycemia	Disease	MESH:D007003
+34830301	221	252	diabetic vascular complications	Disease	MESH:D003925
+34830301	257	274	cognitive decline	Disease	MESH:D003072
+34830301	322	334	hypoglycemia	Disease	MESH:D007003
+34830301	409	421	hypoglycemia	Disease	MESH:D007003
+34830301	426	448	cardiovascular disease	Disease	MESH:D002318
+34830301	450	470	diabetic retinopathy	Disease	MESH:D003930
+34830301	472	492	diabetic nephropathy	Disease	MESH:D003928
+34830301	494	513	diabetic neuropathy	Disease	MESH:D003929
+34830301	515	532	cognitive decline	Disease	MESH:D003072
+34830301	538	557	Alzheimer's disease	Disease	MESH:D000544
+34830301	640	652	hypoglycemia	Disease	MESH:D007003
+34830301	788	795	insulin	Gene	3630
+34830301	807	814	glucose	Chemical	MESH:D005947
+34830301	839	851	nitric oxide	Chemical	MESH:D009569
+34830301	916	928	hypoglycemia	Disease	MESH:D007003
+34830301	959	962	IL6	Gene	3569
+34830301	964	967	LEP	Gene	3952
+34830301	969	972	TNF	Gene	7124
+34830301	974	978	IL1B	Gene	3553
+34830301	980	984	EGFR	Gene	1956
+34830301	990	993	FOS	Gene	2353
+34830301	1040	1046	GPR142	Gene	350383
+34830301	1048	1054	MBOAT4	Gene	619373
+34830301	1056	1062	SLC5A4	Gene	6527
+34830301	1064	1070	IGFBP6	Gene	3489
+34830301	1072	1075	PPY	Gene	5539
+34830301	1077	1082	G6PC1	Gene	2538
+34830301	1084	1090	SLC2A2	Gene	6514
+34830301	1092	1096	GYS2	Gene	2998
+34830301	1098	1102	GCGR	Gene	2642
+34830301	1108	1112	AQP7	Gene	364
+34830301	1162	1174	Hypoglycemia	Disease	MESH:D007003
+34830301	1234	1256	diabetic complications	Disease	MESH:D048909
+34830301	1364	1371	glucose	Chemical	MESH:D005947
+34830301	1385	1397	nitric oxide	Chemical	MESH:D009569
+34830301	1446	1450	ERK1	Gene	5595
+34830301	1455	1459	ERK2	Gene	5594
+34830301	1641	1653	hypoglycemia	Disease	MESH:D007003
+34830301	1657	1665	diabetes	Disease	MESH:D003920
+34830301	1677	1693	vascular disease	Disease	MESH:D014652
+34830301	1698	1719	cognitive dysfunction	Disease	MESH:D003072
+34830301	Association	MESH:D007003	3630
+34830301	Association	MESH:D009569	MESH:D007003
+34830301	Association	MESH:D005947	MESH:D007003
+

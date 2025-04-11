@@ -1,0 +1,20 @@
+30909211|t|Multivariate Prediction of Hippocampal Atrophy in Alzheimer's Disease.
+30909211|a|BACKGROUND: Hippocampal atrophy (HA) is one of the biomarkers for Alzheimer's disease (AD). OBJECTIVE: To identify the best biomarkers and develop models for prediction of HA over 24 months using baseline data. METHODS: The study included healthy elderly controls, subjects with mild cognitive impairment, and subjects with AD, obtained from the Alzheimer's Disease Neuroimaging Initiative (ADNI 1) and the Australian Imaging Biomarkers and Lifestyle Flagship Study of Ageing (AIBL) databases. Predictor variables included cognitive and neuropsychological tests, amyloid-beta, tau, and p-tau from cerebrospinal fluid samples, apolipoprotein E, and features extracted from magnetic resonance images (MRI). Least-mean-squares regression with elastic net regularization and least absolute deviation regression models were tested using cross-validation in ADNI 1. The generalizability of the models including only MRI features was evaluated by training the models with ADNI 1 and testing them with AIBL. The models including the full set of variables were not evaluated with AIBL because not all needed variables were available in it. RESULTS: The models including the full set of variables performed better than the models including only MRI features (root-mean-square error (RMSE) 1.76-1.82 versus 1.93-2.08). The MRI-only models performed well when applied to the independent validation cohort (RMSE 1.66-1.71). In the prediction of dichotomized HA (fast versus slow), the models achieved a reasonable prediction accuracy (0.79-0.87). CONCLUSIONS: These models can potentially help identifying subjects predicted to have a faster HA rate. This can help in selection of suitable patients into clinical trials testing disease-modifying drugs for AD.
+30909211	39	46	Atrophy	Disease	MESH:D001284
+30909211	50	69	Alzheimer's Disease	Disease	MESH:D000544
+30909211	95	102	atrophy	Disease	MESH:D001284
+30909211	104	106	HA	Disease	MESH:D001284
+30909211	137	156	Alzheimer's disease	Disease	MESH:D000544
+30909211	158	160	AD	Disease	MESH:D000544
+30909211	243	245	HA	Disease	MESH:D001284
+30909211	355	375	cognitive impairment	Disease	MESH:D003072
+30909211	395	397	AD	Disease	MESH:D000544
+30909211	417	436	Alzheimer's Disease	Disease	MESH:D000544
+30909211	634	646	amyloid-beta	Gene	351
+30909211	648	651	tau	Gene	4137
+30909211	697	713	apolipoprotein E	Gene	348
+30909211	1516	1518	HA	Disease	MESH:D001284
+30909211	1700	1702	HA	Disease	MESH:D001284
+30909211	1748	1756	patients	Species	9606
+30909211	1814	1816	AD	Disease	MESH:D000544
+

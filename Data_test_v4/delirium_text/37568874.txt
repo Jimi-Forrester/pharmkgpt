@@ -1,0 +1,33 @@
+37568874|t|Radiomics and Hybrid Models Based on Machine Learning to Predict Levodopa-Induced Dyskinesia of Parkinson's Disease in the First 6 Years of Levodopa Treatment.
+37568874|a|BACKGROUND: Current research on the prediction of movement complications associated with levodopa therapy in Parkinson's disease (PD) is limited. levodopa-induced dyskinesia (LID) is a movement complication that seriously affects the life quality of PD patients. One-third of PD patients develop LID within 1 to 6 years of levodopa treatment. This study aimed to construct models based on radiomics and machine learning to predict early LID in PD. METHODS: We extracted radiomics features from the T1-weighted MRI obtained in the baseline of 49 PD control and 54 PD with LID in the first 6 years of levodopa therapy. Six brain regions related to the onset of PD were segmented as regions of interest (ROIs). The least absolute shrinkage and selection operator (LASSO) was used for feature selection. Using the machine learning methods of support vector machine (SVM), random forest (RF), and AdaBoost, we constructed radiomics models and hybrid models. The hybrid models combined the radiomics features and the Unified Parkinson's Disease Rating Scale part III (UPDRS III) total score. The five-fold cross-validation was performed and repeated 20 times to validate the stability of the classifiers. We used sensitivity, specificity, accuracy, receiver operating characteristic (ROC) curves, and area under the ROC curve (AUC) for model validation. RESULTS: We selected 33 out of 6138 radiomics features. In the testing set of the radiomics model, the AUC values of the SVM, RF, and AdaBoost classifiers were 0.905, 0.808, and 0.778, respectively, and the accuracies were 0.839, 0.742, and 0.710. The hybrid models had better prediction performance. In the testing set, the AUC values of SVM, RF, and AdaBoost classifiers were 0.958, 0.861, and 0.832, respectively, and the accuracies were 0.903, 0.806, and 0.774. CONCLUSIONS: Our results indicate that T1-weighted MRI is valuable in predicting early LID in PD. This work demonstrates that the combination of radiomics features and clinical features has good potential and value for identifying early LID in PD.
+37568874	65	73	Levodopa	Chemical	MESH:D007980
+37568874	82	92	Dyskinesia	Disease	MESH:D004409
+37568874	96	115	Parkinson's Disease	Disease	MESH:D010300
+37568874	140	148	Levodopa	Chemical	MESH:D007980
+37568874	210	232	movement complications	Disease	MESH:D008107
+37568874	249	257	levodopa	Chemical	MESH:D007980
+37568874	269	288	Parkinson's disease	Disease	MESH:D010300
+37568874	290	292	PD	Disease	MESH:D010300
+37568874	306	314	levodopa	Chemical	MESH:D007980
+37568874	323	333	dyskinesia	Disease	MESH:D004409
+37568874	335	338	LID	Disease	MESH:D004409
+37568874	345	366	movement complication	Disease	MESH:D008107
+37568874	410	412	PD	Disease	MESH:D010300
+37568874	436	438	PD	Disease	MESH:D010300
+37568874	456	459	LID	Disease	MESH:D004409
+37568874	483	491	levodopa	Chemical	MESH:D007980
+37568874	597	600	LID	Disease	MESH:D004409
+37568874	604	606	PD	Disease	MESH:D010300
+37568874	705	707	PD	Disease	MESH:D010300
+37568874	723	725	PD	Disease	MESH:D010300
+37568874	731	734	LID	Disease	MESH:D004409
+37568874	759	767	levodopa	Chemical	MESH:D007980
+37568874	819	821	PD	Disease	MESH:D010300
+37568874	1179	1198	Parkinson's Disease	Disease	MESH:D010300
+37568874	2061	2064	LID	Disease	MESH:D004409
+37568874	2068	2070	PD	Disease	MESH:D010300
+37568874	2211	2214	LID	Disease	MESH:D004409
+37568874	2218	2220	PD	Disease	MESH:D010300
+37568874	Positive_Correlation	MESH:D007980	MESH:D004409
+37568874	Negative_Correlation	MESH:D007980	MESH:D010300
+

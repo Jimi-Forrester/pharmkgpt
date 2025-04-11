@@ -1,0 +1,79 @@
+39269701|t|Safety analysis of fluoroquinolone drugs in elderly patients over 65 based on FAERS.
+39269701|a|OBJECTIVE: This study investigates adverse drug event (ADE) reports from the FAERS related to FQs drugs (ciprofloxacin, levofloxacin, moxifloxacin, and ofloxacin) in patients aged 65 and older. The findings aim to guide the rational clinical use of these drugs in elderly patients. METHODS: We employed Reporting Odds Ratio (ROR) and Proportional Reporting Ratio (PRR) methods to analyze ADE reports for the representative FQ drugs from Q1 2015 to Q4 2023, covering 36 quarters. RESULTS: The analysis identified 6883 ADE cases for ciprofloxacin, 5866 for levofloxacin, 1498 for moxifloxacin, and 317 for ofloxacin. Moxifloxacin showed higher incidences of Cardiac disorders and Psychiatric disorders ADEs (4.01%, 23.11%).The strongly associated ADEs were Torsade de pointes(X2:255.69),Delirium(X2:4600.04),Dysphoria(X2:11802.38),Mental disorder(X2:3584.69);Vascular disorders ADEs were similar among FQs.Ciprofloxacin and levofloxacin showed higher ADE rates in musculoskeletal and connective tissue diseases (20.18% and 26.97%) compared to moxifloxacin(3.62%) and ofloxacin(9.25%),The most frequently reported and strongly associated ADEs were tendinitis (X2: 13383.57, X2: 31499.01), tendon pain (X2: 18730.22, X2: 40313.79), and tendon disorders (X2: 9534.69, X2: 13143.72).Additionally, moxifloxacin and ofloxacin showed higher ADE rates for eye disorders (10.61% and 15.03%). Significant ADEs included iridocyclitis (X2: 10931.34) and corneal erosion (X2: 1348.35). CONCLUSION: Different FQs exhibit varying ADE profiles across cardiovascular, vascular and lymphatic, renal and urinary, psychiatric, musculoskeletal and connective tissue, and ocular systems. Patients with underlying systemic diseases should avoid FQs with higher ADE risks for their conditions. Enhanced monitoring and evaluation of FQs are crucial for promptly identifying and managing adverse reactions. Personalized medication plans for elderly patients should also be strengthened.
+39269701	19	34	fluoroquinolone	Chemical	MESH:D024841
+39269701	52	60	patients	Species	9606
+39269701	120	138	adverse drug event	Disease	MESH:D064420
+39269701	140	143	ADE	Disease	MESH:D064420
+39269701	179	182	FQs	Chemical	-
+39269701	190	203	ciprofloxacin	Chemical	MESH:D002939
+39269701	205	217	levofloxacin	Chemical	MESH:D064704
+39269701	219	231	moxifloxacin	Chemical	MESH:D000077266
+39269701	237	246	ofloxacin	Chemical	MESH:D015242
+39269701	251	259	patients	Species	9606
+39269701	357	365	patients	Species	9606
+39269701	473	476	ADE	Disease	MESH:D064420
+39269701	508	510	FQ	Chemical	-
+39269701	602	605	ADE	Disease	MESH:D064420
+39269701	616	629	ciprofloxacin	Chemical	MESH:D002939
+39269701	640	652	levofloxacin	Chemical	MESH:D064704
+39269701	663	675	moxifloxacin	Chemical	MESH:D000077266
+39269701	689	698	ofloxacin	Chemical	MESH:D015242
+39269701	700	712	Moxifloxacin	Chemical	MESH:D000077266
+39269701	741	758	Cardiac disorders	Disease	MESH:D006331
+39269701	763	784	Psychiatric disorders	Disease	MESH:D001523
+39269701	785	789	ADEs	Disease	
+39269701	830	834	ADEs	Disease	
+39269701	840	858	Torsade de pointes	Disease	MESH:D016171
+39269701	870	878	Delirium	Disease	MESH:D003693
+39269701	891	900	Dysphoria	Disease	MESH:D019052
+39269701	914	929	Mental disorder	Disease	MESH:D001523
+39269701	942	960	Vascular disorders	Disease	MESH:D002561
+39269701	961	965	ADEs	Disease	
+39269701	985	988	FQs	Chemical	-
+39269701	989	1002	Ciprofloxacin	Chemical	MESH:D002939
+39269701	1007	1019	levofloxacin	Chemical	MESH:D064704
+39269701	1034	1037	ADE	Disease	MESH:D064420
+39269701	1047	1093	musculoskeletal and connective tissue diseases	Disease	MESH:D003240
+39269701	1126	1138	moxifloxacin	Chemical	MESH:D000077266
+39269701	1150	1159	ofloxacin	Chemical	MESH:D015242
+39269701	1220	1224	ADEs	Disease	
+39269701	1230	1240	tendinitis	Disease	MESH:D052256
+39269701	1271	1282	tendon pain	Disease	MESH:D010146
+39269701	1317	1333	tendon disorders	Disease	MESH:D052256
+39269701	1376	1388	moxifloxacin	Chemical	MESH:D000077266
+39269701	1393	1402	ofloxacin	Chemical	MESH:D015242
+39269701	1417	1420	ADE	Disease	MESH:D064420
+39269701	1431	1444	eye disorders	Disease	MESH:D005128
+39269701	1478	1482	ADEs	Disease	
+39269701	1492	1505	iridocyclitis	Disease	MESH:D015863
+39269701	1525	1540	corneal erosion	Disease	MESH:C565155
+39269701	1578	1581	FQs	Chemical	-
+39269701	1598	1601	ADE	Disease	MESH:D064420
+39269701	1749	1757	Patients	Species	9606
+39269701	1774	1791	systemic diseases	Disease	MESH:D034721
+39269701	1805	1808	FQs	Chemical	-
+39269701	1821	1824	ADE	Disease	MESH:D064420
+39269701	1891	1894	FQs	Chemical	-
+39269701	2006	2014	patients	Species	9606
+39269701	Positive_Correlation	MESH:D064704	MESH:D003240
+39269701	Positive_Correlation	MESH:D015242	MESH:D052256
+39269701	Positive_Correlation	MESH:D000077266	MESH:D015863
+39269701	Positive_Correlation	MESH:D000077266	MESH:C565155
+39269701	Positive_Correlation	MESH:D064704	MESH:D064420
+39269701	Positive_Correlation	MESH:D002939	MESH:D064420
+39269701	Positive_Correlation	MESH:D000077266	MESH:D006331
+39269701	Positive_Correlation	MESH:D000077266	MESH:D019052
+39269701	Positive_Correlation	MESH:D000077266	MESH:D003693
+39269701	Positive_Correlation	MESH:D000077266	MESH:D016171
+39269701	Positive_Correlation	MESH:D000077266	MESH:D052256
+39269701	Positive_Correlation	MESH:D015242	MESH:D015863
+39269701	Positive_Correlation	MESH:D000077266	MESH:D064420
+39269701	Positive_Correlation	MESH:D000077266	MESH:D005128
+39269701	Positive_Correlation	MESH:D000077266	MESH:D001523
+39269701	Positive_Correlation	MESH:D015242	MESH:D005128
+39269701	Positive_Correlation	MESH:D015242	MESH:C565155
+39269701	Positive_Correlation	MESH:D015242	MESH:D064420
+39269701	Positive_Correlation	MESH:D015242	MESH:D010146
+39269701	Positive_Correlation	MESH:D002939	MESH:D003240
+39269701	Positive_Correlation	MESH:D000077266	MESH:D010146
+

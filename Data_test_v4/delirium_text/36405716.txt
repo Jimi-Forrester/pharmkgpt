@@ -1,0 +1,44 @@
+36405716|t|Identification of diagnostic genes for both Alzheimer's disease and Metabolic syndrome by the machine learning algorithm.
+36405716|a|Background: Alzheimer's disease is the most common neurodegenerative disease worldwide. Metabolic syndrome is the most common metabolic and endocrine disease in the elderly. Some studies have suggested a possible association between MetS and AD, but few studied genes that have a co-diagnostic role in both diseases. Methods: The microarray data of AD (GSE63060 and GSE63061 were merged after the batch effect was removed) and MetS (GSE98895) in the GEO database were downloaded. The WGCNA was used to identify the co-expression modules related to AD and MetS. RF and LASSO were used to identify the candidate genes. Machine learning XGBoost improves the diagnostic effect of hub gene in AD and MetS. The CIBERSORT algorithm was performed to assess immune cell infiltration MetS and AD samples and to investigate the relationship between biomarkers and infiltrating immune cells. The peripheral blood mononuclear cells (PBMCs) single-cell RNA (scRNA) sequencing data from patients with AD and normal individuals were visualized with the Seurat standard flow dimension reduction clustering the metabolic pathway activity changes each cell with ssGSEA. Results: The brown module was identified as the significant module with AD and MetS. GO analysis of shared genes showed that intracellular transport and establishment of localization in cell and organelle organization were enriched in the pathophysiology of AD and MetS. By using RF and Lasso learning methods, we finally obtained eight diagnostic genes, namely ARHGAP4, SNRPG, UQCRB, PSMA3, DPM1, MED6, RPL36AL and RPS27A. Their AUC were all greater than 0.7. Higher immune cell infiltrations expressions were found in the two diseases and were positively linked to the characteristic genes. The scRNA-seq datasets finally obtained seven cell clusters. Seven major cell types including CD8 T cell, monocytes, T cells, NK cell, B cells, dendritic cells and macrophages were clustered according to immune cell markers. The ssGSEA revealed that immune-related gene (SNRPG) was significantly regulated in the glycolysis-metabolic pathway. Conclusion: We identified genes with common diagnostic effects on both MetS and AD, and found genes involved in multiple metabolic pathways associated with various immune cells.
+36405716	44	63	Alzheimer's disease	Disease	MESH:D000544
+36405716	68	86	Metabolic syndrome	Disease	MESH:D024821
+36405716	134	153	Alzheimer's disease	Disease	MESH:D000544
+36405716	173	198	neurodegenerative disease	Disease	MESH:D019636
+36405716	210	228	Metabolic syndrome	Disease	MESH:D024821
+36405716	248	279	metabolic and endocrine disease	Disease	MESH:D004700
+36405716	355	359	MetS	Disease	
+36405716	364	366	AD	Disease	MESH:D000544
+36405716	471	473	AD	Disease	MESH:D000544
+36405716	549	553	MetS	Disease	
+36405716	670	672	AD	Disease	MESH:D000544
+36405716	677	682	MetS.	Disease	
+36405716	810	812	AD	Disease	MESH:D000544
+36405716	817	822	MetS.	Disease	
+36405716	896	900	MetS	Disease	
+36405716	905	907	AD	Disease	MESH:D000544
+36405716	1094	1102	patients	Species	9606
+36405716	1108	1110	AD	Disease	MESH:D000544
+36405716	1345	1347	AD	Disease	MESH:D000544
+36405716	1352	1357	MetS.	Disease	
+36405716	1531	1533	AD	Disease	MESH:D000544
+36405716	1538	1543	MetS.	Disease	
+36405716	1635	1642	ARHGAP4	Gene	393
+36405716	1644	1649	SNRPG	Gene	6637
+36405716	1651	1656	UQCRB	Gene	7381
+36405716	1658	1663	PSMA3	Gene	5684
+36405716	1665	1669	DPM1	Gene	8813
+36405716	1671	1675	MED6	Gene	10001
+36405716	1677	1684	RPL36AL	Gene	6166
+36405716	1689	1696	RPS27A.	Gene	6233
+36405716	2137	2142	SNRPG	Gene	6637
+36405716	2280	2284	MetS	Disease	
+36405716	2289	2291	AD	Disease	MESH:D000544
+36405716	Association	MESH:D000544	6233
+36405716	Association	MESH:D000544	10001
+36405716	Association	MESH:D000544	8813
+36405716	Association	MESH:D000544	5684
+36405716	Association	MESH:D000544	393
+36405716	Association	MESH:D000544	6166
+36405716	Association	MESH:D000544	7381
+36405716	Association	MESH:D000544	6637
+

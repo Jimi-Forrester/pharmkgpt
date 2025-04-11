@@ -1,0 +1,48 @@
+28743963|t|A non-canonical pathway regulates ER stress signaling and blocks ER stress-induced apoptosis and heart failure.
+28743963|a|Endoplasmic reticulum stress is an evolutionarily conserved cell stress response associated with numerous diseases, including cardiac hypertrophy and heart failure. The major endoplasmic reticulum stress signaling pathway causing cardiac hypertrophy involves endoplasmic reticulum stress sensor PERK (protein kinase-like kinase) and eIF2alpha-ATF4-CHOP signaling. Here, we describe a non-canonical, AGGF1-mediated regulatory system for endoplasmic reticulum stress signaling associated with increased p-eIF2alpha and ATF4 and decreased sXBP1 and CHOP. Specifically, we see a reduced AGGF1 level consistently associated with induction of endoplasmic reticulum stress signaling in mouse models and human patients with heart failure. Mechanistically, AGGF1 regulates endoplasmic reticulum stress signaling by inhibiting ERK1/2 activation, which reduces the level of transcriptional repressor ZEB1, leading to induced expression of miR-183-5p. miR-183-5p post-transcriptionally downregulates CHOP and inhibits endoplasmic reticulum stress-induced apoptosis. AGGF1 protein therapy and miR-183-5p regulate endoplasmic reticulum stress signaling and block endoplasmic reticulum stress-induced apoptosis, cardiac hypertrophy, and heart failure, providing an attractive paradigm for treatment of cardiac hypertrophy and heart failure.Endoplasmic reticulum (ER) stress promotes cardiac dysfunction. Here the authors uncover a pathway whereby AGGF1 blocks ER stress by inhibiting ERK1/2 activation and the transcriptional repressor ZEB1, leading to induction of miR-183-5p and down-regulation of CHOP, and show that AGGF1 can effectively treat cardiac hypertrophy and heart failure.
+28743963	97	110	heart failure	Disease	MESH:D006333
+28743963	238	257	cardiac hypertrophy	Disease	MESH:D006332
+28743963	262	275	heart failure	Disease	MESH:D006333
+28743963	342	361	cardiac hypertrophy	Disease	MESH:D006332
+28743963	407	411	PERK	Gene	13666
+28743963	445	454	eIF2alpha	Gene	229317
+28743963	460	464	CHOP	Gene	1649
+28743963	511	516	AGGF1	Gene	66549
+28743963	615	624	eIF2alpha	Gene	229317
+28743963	658	662	CHOP	Gene	13198
+28743963	695	700	AGGF1	Gene	66549
+28743963	791	796	mouse	Species	10090
+28743963	808	813	human	Species	9606
+28743963	814	822	patients	Species	9606
+28743963	828	841	heart failure	Disease	MESH:D006333
+28743963	860	865	AGGF1	Gene	66549
+28743963	929	935	ERK1/2	Gene	26417;26413
+28743963	1001	1005	ZEB1	Gene	21417
+28743963	1048	1050	5p	Chromosome	5
+28743963	1100	1104	CHOP	Gene	13198
+28743963	1166	1171	AGGF1	Gene	55109
+28743963	1309	1328	cardiac hypertrophy	Disease	MESH:D006332
+28743963	1334	1347	heart failure	Disease	MESH:D006333
+28743963	1399	1418	cardiac hypertrophy	Disease	MESH:D006332
+28743963	1423	1436	heart failure	Disease	MESH:D006333
+28743963	1480	1499	cardiac dysfunction	Disease	MESH:D006331
+28743963	1544	1549	AGGF1	Gene	66549
+28743963	1581	1587	ERK1/2	Gene	26417;26413
+28743963	1633	1637	ZEB1	Gene	21417
+28743963	1697	1701	CHOP	Gene	13198
+28743963	1717	1722	AGGF1	Gene	55109
+28743963	1745	1764	cardiac hypertrophy	Disease	MESH:D006332
+28743963	1769	1782	heart failure	Disease	MESH:D006333
+28743963	Negative_Correlation	MESH:D006332	55109
+28743963	Negative_Correlation	13198	66549
+28743963	Negative_Correlation	26417	66549
+28743963	Association	1649	229317
+28743963	Association	MESH:D006332	66549
+28743963	Association	MESH:D006332	1649
+28743963	Negative_Correlation	MESH:D006333	66549
+28743963	Association	MESH:D006332	229317
+28743963	Negative_Correlation	21417	66549
+28743963	Negative_Correlation	26413	66549
+28743963	Positive_Correlation	229317	66549
+28743963	Negative_Correlation	MESH:D006333	55109
+

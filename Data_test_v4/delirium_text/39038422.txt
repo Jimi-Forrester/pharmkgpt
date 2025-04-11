@@ -1,0 +1,32 @@
+39038422|t|Identification of imidazole-based small molecules to combat cognitive disability caused by Alzheimer's disease: A molecular docking and MD simulations based approach.
+39038422|a|Alzheimer's disease (AD) is a chronic neurodegenerative disorder that is the primary cause of dementia. It is characterised by the gradual loss of brain cells, which results in memory loss and cognitive dysfunction. One of the hallmarks of AD is an abnormally upregulated glutaminyl-peptide cyclotransferase (QPCT or QC) enzyme. Not only AD, but QC has also been implicated with pathological conditions like Huntington's disease (HD), melanomas, carcinomas, atherosclerosis, and septic arthritis. Therefore, the inhibition of QC emerged as a potential strategy for preventing multiple pathological conditions. Considering this, we screened a library of 153,536 imidazole-based compounds against a doubly mutant (Y115E-Y117E) QC target. Molecular docking based virtual screening and absorption, distribution, metabolism, excretion/toxicity (ADME/T) predictions identified five compounds, namely 118981836, 136459842, 139388116, 139388226, and 139958725. Furthermore, molecular dynamics (MD) simulations of 500 ns were conducted to investigate the behaviour of the identified compounds with the target receptor. The results were compared to the co-ligand by analysing RMSD, RMSF, and SASA parameters. To our knowledge, this is the first computational study that employed a protein with double mutation to identify new imidazole-based QC-inhibitors.
+39038422	18	27	imidazole	Chemical	MESH:C029899
+39038422	60	80	cognitive disability	Disease	MESH:D003072
+39038422	91	110	Alzheimer's disease	Disease	MESH:D000544
+39038422	167	186	Alzheimer's disease	Disease	MESH:D000544
+39038422	188	190	AD	Disease	MESH:D000544
+39038422	205	231	neurodegenerative disorder	Disease	MESH:D019636
+39038422	261	269	dementia	Disease	MESH:D003704
+39038422	344	355	memory loss	Disease	MESH:D008569
+39038422	360	381	cognitive dysfunction	Disease	MESH:D003072
+39038422	407	409	AD	Disease	MESH:D000544
+39038422	439	474	glutaminyl-peptide cyclotransferase	Gene	25797
+39038422	476	480	QPCT	Gene	25797
+39038422	505	507	AD	Disease	MESH:D000544
+39038422	575	595	Huntington's disease	Disease	MESH:D006816
+39038422	597	599	HD	Disease	MESH:D006816
+39038422	602	611	melanomas	Disease	MESH:D008545
+39038422	613	623	carcinomas	Disease	MESH:D009369
+39038422	625	640	atherosclerosis	Disease	MESH:D050197
+39038422	646	662	septic arthritis	Disease	MESH:D001170
+39038422	828	837	imidazole	Chemical	MESH:C029899
+39038422	879	884	Y115E	ProteinMutation	tmVar:p|SUB|Y|115|E;HGVS:p.Y115E;VariantGroup:1;CorrespondingGene:25797;CorrespondingSpecies:9606
+39038422	885	890	Y117E	ProteinMutation	tmVar:p|SUB|Y|117|E;HGVS:p.Y117E;VariantGroup:0;CorrespondingGene:25797;CorrespondingSpecies:9606
+39038422	997	1005	toxicity	Disease	MESH:D064420
+39038422	1483	1492	imidazole	Chemical	MESH:C029899
+39038422	Association	HGVS:p.Y115E;CorrespondingGene:25797	HGVS:p.Y117E;CorrespondingGene:25797
+39038422	Positive_Correlation	MESH:D000544	25797
+39038422	Negative_Correlation	MESH:C029899	MESH:D003072
+39038422	Negative_Correlation	MESH:C029899	HGVS:p.Y115E;CorrespondingGene:25797
+39038422	Negative_Correlation	MESH:C029899	MESH:D000544
+

@@ -1,0 +1,45 @@
+34628897|t|Comparing different algorithms for the course of Alzheimer's disease using machine learning.
+34628897|a|BACKGROUND: Alzheimer's disease (AD) is one of the most influential nervous system diseases in the world. It is accompanied by symptoms such as loss of memory, thinking, and language ability. This paper discusses the characteristic indexes of brain magnetic resonance imaging (MRI) in mild cognitive impairment (MCI) and AD. It applies the MRI characteristic indexes in machine learning to classify and predict the course of AD to select the best model for classification and prediction auxiliary diagnosis of AD. METHODS: In this study, 560 eligible subjects numbered 0-15,000 in the AD Neuroimaging Initiative (ADNI) database were randomly selected. According to the ADNI diagnostic criteria, the subjects were divided into four groups: the cognitive normal (CN) group (n=140), 230 cases in the early MCI (EMCI) group, 110 cases in the late MCI (LMCI) group, and 80 patients in the AD group. Random forest (RF), decision tree (DT), support vector machine (SVM) algorithms were used to classify and predict the different disease progress of AD. Next, different MRI indexes were input into the three machine learning algorithms to predict CN-EMCI-LMCI-AD. We compared the prediction accuracy, sensitivity, specificity, and area under the receiver operating characteristic (ROC) curve (AUC). RESULTS: This study found that CN-AD had the highest classification accuracy, followed by EMCI-AD, CN-LMCI, LMCI-AD, EMCI-LMCI, and CN-EMCI. In the prediction of CN-AD, the AUC of 0.92 of the RF classifier was higher than the AUCs of the SVM and DT classifiers. Of the three machine learning algorithms, RF was better than the SVM and DT at predicting different MRI features. The accuracy of RF, SVM, and DT was 73.8%, 60.7%, and 59.5%, respectively. CONCLUSIONS: The RF classifier had the best prediction effect on different disease processes of AD. Five MRI indexes (used as classification features) had the best prediction effects. CN-AD had the best classification effect. Overall, the classification accuracy of the RF classifier for CN-EMCI-LMCI-AD was higher than those of the other models. The RF classifier can be used to classify different stages of AD in the early stages of the disease to assist in diagnosing AD.
+34628897	49	68	Alzheimer's disease	Disease	MESH:D000544
+34628897	105	124	Alzheimer's disease	Disease	MESH:D000544
+34628897	126	128	AD	Disease	MESH:D000544
+34628897	161	184	nervous system diseases	Disease	MESH:D009422
+34628897	237	252	loss of memory,	Disease	MESH:D008569
+34628897	263	266	and	Disease	
+34628897	383	403	cognitive impairment	Disease	MESH:D003072
+34628897	405	408	MCI	Disease	MESH:D060825
+34628897	410	413	and	Disease	
+34628897	414	416	AD	Disease	MESH:D000544
+34628897	492	495	and	Disease	
+34628897	518	520	AD	Disease	MESH:D000544
+34628897	565	568	and	Disease	
+34628897	603	605	AD	Disease	MESH:D000544
+34628897	678	680	AD	Disease	MESH:D000544
+34628897	896	899	MCI	Disease	MESH:D060825
+34628897	901	905	EMCI	Disease	MESH:D060825
+34628897	936	939	MCI	Disease	MESH:D060825
+34628897	954	957	and	Disease	
+34628897	961	969	patients	Species	9606
+34628897	977	979	AD	Disease	MESH:D000544
+34628897	1089	1092	and	Disease	
+34628897	1135	1137	AD	Disease	MESH:D000544
+34628897	1235	1247	EMCI-LMCI-AD	Disease	MESH:D060825
+34628897	1312	1315	and	Disease	
+34628897	1418	1420	AD	Disease	MESH:D000544
+34628897	1474	1478	EMCI	Disease	MESH:D060825
+34628897	1479	1481	AD	Disease	MESH:D000544
+34628897	1492	1499	LMCI-AD	Disease	MESH:D060825
+34628897	1501	1505	EMCI	Disease	MESH:D060825
+34628897	1512	1515	and	Disease	
+34628897	1519	1523	EMCI	Disease	MESH:D060825
+34628897	1549	1551	AD	Disease	MESH:D000544
+34628897	1626	1629	and	Disease	
+34628897	1715	1718	and	Disease	
+34628897	1785	1788	and	Disease	
+34628897	1810	1813	and	Disease	
+34628897	1931	1933	AD	Disease	MESH:D000544
+34628897	2022	2024	AD	Disease	MESH:D000544
+34628897	2126	2138	EMCI-LMCI-AD	Disease	MESH:D060825
+34628897	2244	2246	AD	Disease	MESH:D000544
+34628897	2306	2308	AD	Disease	MESH:D000544
+

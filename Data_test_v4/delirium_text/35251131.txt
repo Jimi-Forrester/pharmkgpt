@@ -1,0 +1,23 @@
+35251131|t|Fusion Gene Detection Using Whole-Exome Sequencing Data in Cancer Patients.
+35251131|a|Several fusion genes are directly involved in the initiation and progression of cancers. Numerous bioinformatics tools have been developed to detect fusion events, but they are mainly based on RNA-seq data. The whole-exome sequencing (WES) represents a powerful technology that is widely used for disease-related DNA variant detection. In this study, we build a novel analysis pipeline called Fuseq-WES to detect fusion genes at DNA level based on the WES data. The same method applies also for targeted panel sequencing data. We assess the method to real datasets of acute myeloid leukemia (AML) and prostate cancer patients. The result shows that two of the main AML fusion genes discovered in RNA-seq data, PML-RARA and CBFB-MYH11, are detected in the WES data in 36 and 63% of the available samples, respectively. For the targeted deep-sequencing of prostate cancer patients, detection of the TMPRSS2-ERG fusion, which is the most frequent chimeric alteration in prostate cancer, is 91% concordant with a manually curated procedure based on four other methods. In summary, the overall results indicate that it is challenging to detect fusion genes in WES data with a standard coverage of ~ 15-30x, where fusion candidates discovered in the RNA-seq data are often not detected in the WES data and vice versa. A subsampling study of the prostate data suggests that a coverage of at least 75x is necessary to achieve high accuracy.
+35251131	59	65	Cancer	Disease	MESH:D009369
+35251131	66	74	Patients	Species	9606
+35251131	156	163	cancers	Disease	MESH:D009369
+35251131	644	666	acute myeloid leukemia	Disease	MESH:D015470
+35251131	668	671	AML	Disease	MESH:D015470
+35251131	677	692	prostate cancer	Disease	MESH:D011471
+35251131	693	701	patients	Species	9606
+35251131	741	744	AML	Disease	MESH:D015470
+35251131	799	803	CBFB	Gene	865
+35251131	804	809	MYH11	Gene	4629
+35251131	930	945	prostate cancer	Disease	MESH:D011471
+35251131	946	954	patients	Species	9606
+35251131	973	980	TMPRSS2	Gene	7113
+35251131	981	984	ERG	Gene	2078
+35251131	1043	1058	prostate cancer	Disease	MESH:D011471
+35251131	Association	MESH:D011471	7113
+35251131	Association	MESH:D015470	4629
+35251131	Association	2078	7113
+35251131	Association	MESH:D011471	2078
+35251131	Association	MESH:D015470	865
+

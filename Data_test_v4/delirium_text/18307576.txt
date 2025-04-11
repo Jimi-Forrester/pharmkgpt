@@ -1,0 +1,13 @@
+18307576|t|EMK: a novel program for family-based allelic and genotypic association tests on quantitative traits.
+18307576|a|The QTDT program is a widely-used program for analyzing quantitative trait data, but the methods mainly test allelic association. Since the genotype of a marker is a direct observation for an individual, it is of interest to assess association at the genotypic level. In this study, we extended the allele-based association method developed by Monks and Kaplan (MK method) to genotype-based association tests for quantitative traits. We implemented a novel extended MK (EMK) program that can perform both allele- and genotype- based association tests in any pedigree structure. To evaluate the performance of EMK, we utilized simulated pedigree data and real data from our previous report of GSTO1 and GSTO2 genes in Alzheimer disease (AD). Both allele- and genotype-based EMK methods (allele-EMK and geno-EMK) showed correct type I error for various pedigree structures and admixture populations. The geno-EMK method showed comparable power to the allele-EMK test. By treating age-at-onset (AAO) as a quantitative trait, the EMK program was able to detect significant associations for rs4925 in GSTO1 (P= 0.006 for allele-EMK and P= 0.009 for geno-EMK), and rs2297235 in GSTO2 (P= 0.005 for allele-EMK and P= 0.009 for geno-EMK), which are consistent with our previous findings.
+18307576	794	799	GSTO1	Gene	9446
+18307576	804	809	GSTO2	Gene	119391
+18307576	819	836	Alzheimer disease	Disease	MESH:D000544
+18307576	838	840	AD	Disease	MESH:D000544
+18307576	1188	1194	rs4925	SNP	tmVar:rs4925;VariantGroup:0;CorrespondingGene:9446;RS#:4925;CorrespondingSpecies:9606
+18307576	1198	1203	GSTO1	Gene	9446
+18307576	1261	1270	rs2297235	SNP	tmVar:rs2297235;VariantGroup:1;CorrespondingGene:119391;RS#:2297235;CorrespondingSpecies:9606
+18307576	1274	1279	GSTO2	Gene	119391
+18307576	Association	MESH:D000544	9446
+18307576	Association	MESH:D000544	119391
+

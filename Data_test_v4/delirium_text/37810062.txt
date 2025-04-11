@@ -1,0 +1,49 @@
+37810062|t|Angong niuhuang wan attenuates LPS-induced acute lung injury by inhibiting PIK3CG/p65/MMP9 signaling in mice based on proteomics.
+37810062|a|Acute lung injury (ALI) is a serious pulmonary complication that often arises from pneumonia, respiratory tract infections caused by bacteria or viruses, and other factors. It is characterized by acute onset and high mortality. Angong Niuhuang Wan (AGNHW) is a renowned emergency medicine in traditional Chinese medicine, known as the "cool open (febrile disease) three treasures" and regarded as the first of the "three treasures". Previously studies have confirmed that AGNHW has anti-inflammatory effects, improves cerebral circulation, reduces brain edema, and protects vascular endothelium. However, the active components and pharmacological mechanisms of AGNHW in treating ALI remain unclear. In this study, we confirmed that AGNHW can inhibit cytokine storm activity and reduce inflammation induced by LPS in ALI mice. We then analyzed differential proteins using proteomic technology and identified 741 differential proteins. By combining network pharmacological analysis, we deeply discussed the key active components and mechanism of AGNHW in treating ALI. By constructing the interaction network between disease and drug, we identified 21 key active components (such as Quercetin, Kaempferol, and Crocetin) and 25 potential core targets (such as PIK3CG, p65, and MMP9). These candidate targets play an important role in anti-inflammation and immune regulation. Through enrichment analysis of core targets, we found several pathways related to ALI, such as the NF-kappaB signaling pathway, TNF signaling pathway, and Toll-like receptor signaling pathway. This indicates that AGNHW plays a therapeutic role in ALI through multi-components, multi-targets, and multi-pathways.
+37810062	31	34	LPS	Chemical	MESH:D008070
+37810062	43	60	acute lung injury	Disease	MESH:D055371
+37810062	75	81	PIK3CG	Gene	30955
+37810062	82	85	p65	Gene	19697
+37810062	86	90	MMP9	Gene	17395
+37810062	130	147	Acute lung injury	Disease	MESH:D055371
+37810062	149	152	ALI	Disease	MESH:D055371
+37810062	167	189	pulmonary complication	Disease	MESH:D008171
+37810062	213	222	pneumonia	Disease	MESH:D011014
+37810062	224	252	respiratory tract infections	Disease	MESH:D012141
+37810062	379	384	AGNHW	Disease	
+37810062	477	492	febrile disease	Disease	MESH:D004194
+37810062	602	607	AGNHW	Disease	
+37810062	617	629	inflammatory	Disease	MESH:D007249
+37810062	678	689	brain edema	Disease	MESH:D001929
+37810062	791	796	AGNHW	Disease	
+37810062	809	812	ALI	Disease	MESH:D055371
+37810062	862	867	AGNHW	Disease	
+37810062	915	927	inflammation	Disease	MESH:D007249
+37810062	939	942	LPS	Chemical	MESH:D008070
+37810062	946	949	ALI	Disease	MESH:D055371
+37810062	1174	1179	AGNHW	Disease	
+37810062	1192	1195	ALI	Disease	MESH:D055371
+37810062	1311	1320	Quercetin	Chemical	MESH:D011794
+37810062	1322	1332	Kaempferol	Chemical	MESH:C006552
+37810062	1338	1346	Crocetin	Chemical	MESH:C487773
+37810062	1387	1393	PIK3CG	Gene	30955
+37810062	1395	1398	p65	Gene	19697
+37810062	1404	1408	MMP9	Gene	17395
+37810062	1466	1478	inflammation	Disease	MESH:D007249
+37810062	1584	1587	ALI	Disease	MESH:D055371
+37810062	1601	1610	NF-kappaB	Gene	18033
+37810062	1630	1633	TNF	Gene	21926
+37810062	1715	1720	AGNHW	Disease	
+37810062	1749	1752	ALI	Disease	MESH:D055371
+37810062	Association	MESH:D008070	19697
+37810062	Positive_Correlation	MESH:D008070	17395
+37810062	Positive_Correlation	MESH:D008070	MESH:D007249
+37810062	Association	MESH:D055371	30955
+37810062	Association	MESH:D007249	19697
+37810062	Association	MESH:D007249	30955
+37810062	Association	MESH:D055371	17395
+37810062	Association	MESH:D055371	18033
+37810062	Positive_Correlation	MESH:D008070	MESH:D055371
+37810062	Association	MESH:D055371	21926
+37810062	Association	MESH:D055371	19697
+

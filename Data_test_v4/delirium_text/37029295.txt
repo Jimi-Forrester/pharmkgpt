@@ -1,0 +1,40 @@
+37029295|t|Scientific rationale for the use of alpha2A-adrenoceptor agonists in treating neuroinflammatory cognitive disorders.
+37029295|a|Neuroinflammatory disorders preferentially impair the higher cognitive and executive functions of the prefrontal cortex (PFC). This includes such challenging disorders as delirium, perioperative neurocognitive disorder, and the sustained cognitive deficits from "long-COVID" or traumatic brain injury. There are no FDA-approved treatments for these symptoms; thus, understanding their etiology is important for generating therapeutic strategies. The current review describes the molecular rationale for why PFC circuits are especially vulnerable to inflammation, and how alpha2A-adrenoceptor (alpha2A-AR) actions throughout the nervous and immune systems can benefit the circuits in PFC needed for higher cognition. The layer III circuits in the dorsolateral PFC (dlPFC) that generate and sustain the mental representations needed for higher cognition have unusual neurotransmission and neuromodulation. They are wholly dependent on NMDAR neurotransmission, with little AMPAR contribution, and thus are especially vulnerable to kynurenic acid inflammatory signaling which blocks NMDAR. Layer III dlPFC spines also have unusual neuromodulation, with cAMP magnification of calcium signaling in spines, which opens nearby potassium channels to rapidly weaken connectivity and reduce neuronal firing. This process must be tightly regulated, e.g. by mGluR3 or alpha2A-AR on spines, to prevent loss of firing. However, the production of GCPII inflammatory signaling reduces mGluR3 actions and markedly diminishes dlPFC network firing. Both basic and clinical studies show that alpha2A-AR agonists such as guanfacine can restore dlPFC network firing and cognitive function, through direct actions in the dlPFC, but also by reducing the activity of stress-related circuits, e.g. in the locus coeruleus and amygdala, and by having anti-inflammatory actions in the immune system. This information is particularly timely, as guanfacine is currently the focus of large clinical trials for the treatment of delirium, and in open label studies for the treatment of cognitive deficits from long-COVID.
+37029295	78	95	neuroinflammatory	Disease	MESH:D000090862
+37029295	96	115	cognitive disorders	Disease	MESH:D003072
+37029295	117	144	Neuroinflammatory disorders	Disease	MESH:D000090862
+37029295	288	296	delirium	Disease	MESH:D003693
+37029295	312	335	neurocognitive disorder	Disease	MESH:D019965
+37029295	355	373	cognitive deficits	Disease	MESH:D003072
+37029295	380	390	long-COVID	Disease	MESH:D000094024
+37029295	395	417	traumatic brain injury	Disease	MESH:D000070642
+37029295	666	678	inflammation	Disease	MESH:D007249
+37029295	688	708	alpha2A-adrenoceptor	Gene	150
+37029295	710	720	alpha2A-AR	Gene	150
+37029295	1145	1159	kynurenic acid	Chemical	MESH:D007736
+37029295	1160	1172	inflammatory	Disease	MESH:D007249
+37029295	1266	1270	cAMP	Chemical	-
+37029295	1288	1295	calcium	Chemical	MESH:D002118
+37029295	1462	1468	mGluR3	Gene	2913
+37029295	1472	1482	alpha2A-AR	Gene	150
+37029295	1548	1553	GCPII	Gene	2346
+37029295	1554	1566	inflammatory	Disease	MESH:D007249
+37029295	1585	1591	mGluR3	Gene	2913
+37029295	1688	1698	alpha2A-AR	Gene	150
+37029295	1716	1726	guanfacine	Chemical	MESH:D016316
+37029295	1944	1956	inflammatory	Disease	MESH:D007249
+37029295	2031	2041	guanfacine	Chemical	MESH:D016316
+37029295	2111	2119	delirium	Disease	MESH:D003693
+37029295	2168	2186	cognitive deficits	Disease	MESH:D003072
+37029295	2192	2202	long-COVID	Disease	MESH:D000094024
+37029295	Association	MESH:D007736	MESH:D007249
+37029295	Association	MESH:D007249	2346
+37029295	Negative_Correlation	MESH:D016316	MESH:D003072
+37029295	Association	MESH:D007249	150
+37029295	Negative_Correlation	MESH:D016316	MESH:D003693
+37029295	Negative_Correlation	MESH:D016316	MESH:D007249
+37029295	Positive_Correlation	MESH:D016316	150
+37029295	Negative_Correlation	MESH:D016316	MESH:D000094024
+37029295	Negative_Correlation	MESH:D007249	2913
+37029295	Negative_Correlation	2346	2913
+

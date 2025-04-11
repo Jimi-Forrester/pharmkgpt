@@ -1,0 +1,65 @@
+38572380|t|Diabetes mellitus with severe insulin resistance in a young male patient with a heterozygous pathogenic IRS1 frameshift variant.
+38572380|a|We present the case of a young male patient (height, 158.1 cm [+3.3 standard deviation (SD)]; weight, 63.7 kg [body mass index, 25.5]) with diabetes mellitus and severe insulin resistance associated with a heterozygous pathogenic insulin receptor substrate 1 (IRS1) frameshift mutation. The patient also had severe acanthosis nigricans. Notably, the patient's father was undergoing treatment with high doses of insulin for diabetes mellitus, and had been experiencing angina pectoris. Laboratory data showed a fasting plasma glucose level of 88 mg/dL, hemoglobin A1C (HbA1c) of 7.4%, fasting insulin level of 43.1 microg/mL, and a homeostasis model assessment-insulin resistance (HOMA-IR) score of 9.36, indicating hyperinsulinism. Oral glucose tolerance test revealed a diabetic pattern and insulin hypersecretion. In addition, the patient had hyperlipidemia. Genetic studies revealed a heterozygous frameshift variant of IRS1 [NM_005544.3:c.1791dupG:p.(His598Alafs*13)] in the patient and his father, which can impair the binding and activation of phosphoinositide 3 (PI-3) kinase and defectively mediate the translocation of glucose transporter type 4 (GLUT4) in adipose tissues, possibly leading to glucose intolerance. Therefore, this variant may be disease causing. After confirming IRS1 mutation, metformin was administered, and physical exercise and dietary management were initiated; metformin was well tolerated, and optimal glycemic control was maintained.
+38572380	0	17	Diabetes mellitus	Disease	MESH:D003920
+38572380	30	48	insulin resistance	Disease	MESH:D007333
+38572380	65	72	patient	Species	9606
+38572380	104	108	IRS1	Gene	3667
+38572380	165	172	patient	Species	9606
+38572380	269	286	diabetes mellitus	Disease	MESH:D003920
+38572380	298	316	insulin resistance	Disease	MESH:D007333
+38572380	359	387	insulin receptor substrate 1	Gene	3667
+38572380	389	393	IRS1	Gene	3667
+38572380	420	427	patient	Species	9606
+38572380	444	464	acanthosis nigricans	Disease	MESH:D000052
+38572380	479	486	patient	Species	9606
+38572380	540	547	insulin	Gene	3630
+38572380	552	569	diabetes mellitus	Disease	MESH:D003920
+38572380	597	612	angina pectoris	Disease	MESH:D000787
+38572380	654	661	glucose	Chemical	MESH:D005947
+38572380	692	695	A1C	DNAMutation	tmVar:c|SUB|A|1|C;HGVS:c.1A>C;VariantGroup:2;CorrespondingGene:3630;CorrespondingSpecies:9606
+38572380	721	728	insulin	Gene	3630
+38572380	789	807	insulin resistance	Disease	MESH:D007333
+38572380	844	859	hyperinsulinism	Disease	MESH:D006946
+38572380	866	873	glucose	Chemical	MESH:D005947
+38572380	900	908	diabetic	Disease	MESH:D003920
+38572380	921	928	insulin	Gene	3630
+38572380	962	969	patient	Species	9606
+38572380	974	988	hyperlipidemia	Disease	MESH:D006949
+38572380	1052	1056	IRS1	Gene	3667
+38572380	1058	1069	NM_005544.3	RefSeq	NM_005544.3
+38572380	1070	1080	c.1791dupG	DNAMutation	tmVar:c|DUP|1791|G|;HGVS:c.1791dupG;VariantGroup:3;CorrespondingGene:3667;CorrespondingSpecies:9606
+38572380	1081	1099	p.(His598Alafs*13)	ProteinMutation	tmVar:p|FS|H|598|A|13;HGVS:p.H598AfsX13;VariantGroup:0;CorrespondingGene:3667;RS#:761880048;CorrespondingSpecies:9606
+38572380	1108	1115	patient	Species	9606
+38572380	1257	1283	glucose transporter type 4	Gene	6517
+38572380	1285	1290	GLUT4	Gene	6517
+38572380	1332	1351	glucose intolerance	Disease	MESH:D018149
+38572380	1418	1422	IRS1	Gene	3667
+38572380	1433	1442	metformin	Chemical	MESH:D008687
+38572380	1522	1531	metformin	Chemical	MESH:D008687
+38572380	Association	MESH:D000787	3667
+38572380	Positive_Correlation	HGVS:c.1791dupG;CorrespondingGene:3667	MESH:D003920
+38572380	Positive_Correlation	MESH:D006949	HGVS:c.1A>C;CorrespondingGene:3630
+38572380	Positive_Correlation	MESH:D018149	RS#:761880048;HGVS:p.H598AfsX13;CorrespondingGene:3667
+38572380	Negative_Correlation	MESH:D008687	MESH:D003920
+38572380	Association	MESH:D003920	3667
+38572380	Positive_Correlation	HGVS:c.1791dupG;CorrespondingGene:3667	MESH:D007333
+38572380	Positive_Correlation	MESH:D003920	RS#:761880048;HGVS:p.H598AfsX13;CorrespondingGene:3667
+38572380	Positive_Correlation	HGVS:c.1791dupG;CorrespondingGene:3667	MESH:D018149
+38572380	Positive_Correlation	MESH:D003920	HGVS:c.1A>C;CorrespondingGene:3630
+38572380	Positive_Correlation	MESH:D007333	RS#:761880048;HGVS:p.H598AfsX13;CorrespondingGene:3667
+38572380	Positive_Correlation	MESH:D006946	3630
+38572380	Positive_Correlation	MESH:D007333	HGVS:c.1A>C;CorrespondingGene:3630
+38572380	Association	3667	6517
+38572380	Association	MESH:D003920	3630
+38572380	Positive_Correlation	MESH:D018149	HGVS:c.1A>C;CorrespondingGene:3630
+38572380	Association	MESH:D006949	3667
+38572380	Positive_Correlation	MESH:D003920	HGVS:c.1791dupG;CorrespondingGene:3667
+38572380	Association	MESH:D006946	3667
+38572380	Association	MESH:D007333	3667
+38572380	Positive_Correlation	MESH:D007333	HGVS:c.1791dupG;CorrespondingGene:3667
+38572380	Positive_Correlation	MESH:D018149	HGVS:c.1791dupG;CorrespondingGene:3667
+38572380	Association	MESH:D018149	3667
+38572380	Association	MESH:D006949	3630
+38572380	Association	MESH:D007333	3630
+38572380	Association	MESH:D018149	3630
+

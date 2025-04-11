@@ -1,0 +1,15 @@
+38532612|t|Sequential Contrastive and Deep Learning Models to Identify Selective Butyrylcholinesterase Inhibitors.
+38532612|a|Butyrylcholinesterase (BChE) is a target of interest in late-stage Alzheimer's Disease (AD) where selective BChE inhibitors (BIs) may offer symptomatic treatment without the harsh side effects of acetylcholinesterase (AChE) inhibitors. In this study, we explore multiple machine learning strategies to identify BIs in silico, optimizing for precision over all other metrics. We compare state-of-the-art supervised contrastive learning (CL) with deep learning (DL) and Random Forest (RF) machine learning, across single and sequential modeling configurations, to identify the best models for BChE selectivity. We used these models to virtually screen a vendor library of 5 million compounds for BIs and tested 20 of these compounds in vitro. Seven of the 20 compounds displayed selectivity for BChE over AChE, reflecting a hit rate of 35% for our model predictions, suggesting a highly efficient strategy for modeling selective inhibition.
+38532612	70	91	Butyrylcholinesterase	Gene	590
+38532612	104	125	Butyrylcholinesterase	Gene	590
+38532612	127	131	BChE	Gene	590
+38532612	171	190	Alzheimer's Disease	Disease	MESH:D000544
+38532612	192	194	AD	Disease	MESH:D000544
+38532612	212	216	BChE	Gene	590
+38532612	300	320	acetylcholinesterase	Gene	43
+38532612	322	326	AChE	Gene	43
+38532612	695	699	BChE	Gene	590
+38532612	897	901	BChE	Gene	590
+38532612	907	911	AChE	Gene	43
+38532612	Association	MESH:D000544	590
+

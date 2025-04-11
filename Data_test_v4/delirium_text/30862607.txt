@@ -1,0 +1,19 @@
+30862607|t|Extraction of Geriatric Syndromes From Electronic Health Record Clinical Notes: Assessment of Statistical Natural Language Processing Methods.
+30862607|a|BACKGROUND: Geriatric syndromes in older adults are associated with adverse outcomes. However, despite being reported in clinical notes, these syndromes are often poorly captured by diagnostic codes in the structured fields of electronic health records (EHRs) or administrative records. OBJECTIVE: We aim to automatically determine if a patient has any geriatric syndromes by mining the free text of associated EHR clinical notes. We assessed which statistical natural language processing (NLP) techniques are most effective. METHODS: We applied conditional random fields (CRFs), a widely used machine learning algorithm, to identify each of 10 geriatric syndrome constructs in a clinical note. We assessed three sets of features and attributes for CRF operations: a base set, enhanced token, and contextual features. We trained the CRF on 3901 manually annotated notes from 85 patients, tuned the CRF on a validation set of 50 patients, and evaluated it on 50 held-out test patients. These notes were from a group of US Medicare patients over 65 years of age enrolled in a Medicare Advantage Health Maintenance Organization and cared for by a large group practice in Massachusetts. RESULTS: A final feature set was formed through comprehensive feature ablation experiments. The final CRF model performed well at patient-level determination (macroaverage F1=0.834, microaverage F1=0.851); however, performance varied by construct. For example, at phrase-partial evaluation, the CRF model worked well on constructs such as absence of fecal control (F1=0.857) and vision impairment (F1=0.798) but poorly on malnutrition (F1=0.155), weight loss (F1=0.394), and severe urinary control issues (F1=0.532). Errors were primarily due to previously unobserved words (ie, out-of-vocabulary) and a lack of context. CONCLUSIONS: This study shows that statistical NLP can be used to identify geriatric syndromes from EHR-extracted clinical notes. This creates new opportunities to identify patients with geriatric syndromes and study their health outcomes.
+30862607	14	33	Geriatric Syndromes	Disease	MESH:D013577
+30862607	155	174	Geriatric syndromes	Disease	MESH:D013577
+30862607	480	487	patient	Species	9606
+30862607	496	515	geriatric syndromes	Disease	MESH:D013577
+30862607	788	806	geriatric syndrome	Disease	MESH:D013577
+30862607	1021	1029	patients	Species	9606
+30862607	1071	1079	patients	Species	9606
+30862607	1118	1126	patients	Species	9606
+30862607	1173	1181	patients	Species	9606
+30862607	1456	1463	patient	Species	9606
+30862607	1705	1722	vision impairment	Disease	MESH:D014786
+30862607	1748	1760	malnutrition	Disease	MESH:D044342
+30862607	1773	1784	weight loss	Disease	MESH:D015431
+30862607	2022	2041	geriatric syndromes	Disease	MESH:D013577
+30862607	2120	2128	patients	Species	9606
+30862607	2134	2153	geriatric syndromes	Disease	MESH:D013577
+

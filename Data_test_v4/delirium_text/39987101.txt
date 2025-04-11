@@ -1,0 +1,14 @@
+39987101|t|Machine learning-based prediction of post-induction hypotension: identifying risk factors and enhancing anesthesia management.
+39987101|a|BACKGROUND: Post-induction hypotension (PIH) increases surgical complications including myocardial injury, acute kidney injury, delirium, stroke, prolonged hospitalization, and endangerment of the patient's life. Machine learning is an effective tool to analyze large amounts of data and identify perioperative complication factors. This study aims to identify risk factors for PIH and develop predictive models to support anesthesia management. METHODS: A dataset of 5406 patients was analyzed using machine learning methods. Logistic regression, random forest, XGBoost, and neural network models were compared. Model performance was evaluated using the area under the receiver operating characteristic curve (AUROC), calibration curves, and decision curve analysis (DCA). RESULTS: The logistic regression model achieved an AUROC of 0.74 (95% CI: 0.71-0.77), outperforming the random forest (AUROC: 0.71), XGBoost (AUROC: 0.72), and neural network (AUROC: 0.72) models. In terms of calibration, logistic regression demonstrated superior performance, as reflected by Brier Scores and calibration curves, followed by XGBoost, random forest, and neural network. Decision curve analysis indicated that the logistic regression model provided the greatest clinical utility among all models. Baseline blood pressure, age, sex, type of surgery, platelet count, and certain anesthesia-inducing drugs were identified as important features. CONCLUSIONS: This study provides a valuable tool for personalized preoperative risk assessment and customized anesthesia management, allowing for early intervention and improved patient outcomes. Integration of machine learning models into electronic medical record systems can facilitate real-time risk assessment and prediction.
+39987101	52	63	hypotension	Disease	MESH:D007022
+39987101	154	165	hypotension	Disease	MESH:D007022
+39987101	167	170	PIH	Disease	MESH:D057774
+39987101	215	232	myocardial injury	Disease	MESH:D009202
+39987101	234	253	acute kidney injury	Disease	MESH:D058186
+39987101	255	263	delirium	Disease	MESH:D003693
+39987101	265	271	stroke	Disease	MESH:D020521
+39987101	324	331	patient	Species	9606
+39987101	505	508	PIH	Disease	MESH:D057774
+39987101	600	608	patients	Species	9606
+39987101	1736	1743	patient	Species	9606
+

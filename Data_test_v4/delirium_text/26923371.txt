@@ -1,0 +1,30 @@
+26923371|t|HYDRA: Revealing heterogeneity of imaging and genetic patterns through a multiple max-margin discriminative analysis framework.
+26923371|a|Multivariate pattern analysis techniques have been increasingly used over the past decade to derive highly sensitive and specific biomarkers of diseases on an individual basis. The driving assumption behind the vast majority of the existing methodologies is that a single imaging pattern can distinguish between healthy and diseased populations, or between two subgroups of patients (e.g., progressors vs. non-progressors). This assumption effectively ignores the ample evidence for the heterogeneous nature of brain diseases. Neurodegenerative, neuropsychiatric and neurodevelopmental disorders are largely characterized by high clinical heterogeneity, which likely stems in part from underlying neuroanatomical heterogeneity of various pathologies. Detecting and characterizing heterogeneity may deepen our understanding of disease mechanisms and lead to patient-specific treatments. However, few approaches tackle disease subtype discovery in a principled machine learning framework. To address this challenge, we present a novel non-linear learning algorithm for simultaneous binary classification and subtype identification, termed HYDRA (Heterogeneity through Discriminative Analysis). Neuroanatomical subtypes are effectively captured by multiple linear hyperplanes, which form a convex polytope that separates two groups (e.g., healthy controls from pathologic samples); each face of this polytope effectively defines a disease subtype. We validated HYDRA on simulated and clinical data. In the latter case, we applied the proposed method independently to the imaging and genetic datasets of the Alzheimer's Disease Neuroimaging Initiative (ADNI 1) study. The imaging dataset consisted of T1-weighted volumetric magnetic resonance images of 123 AD patients and 177 controls. The genetic dataset consisted of single nucleotide polymorphism information of 103 AD patients and 139 controls. We identified 3 reproducible subtypes of atrophy in AD relative to controls: (1) diffuse and extensive atrophy, (2) precuneus and extensive temporal lobe atrophy, as well some prefrontal atrophy, (3) atrophy pattern very much confined to the hippocampus and the medial temporal lobe. The genetics dataset yielded two subtypes of AD characterized mainly by the presence/absence of the apolipoprotein E (APOE) epsilon4 genotype, but also involving differential presence of risk alleles of CD2AP, SPON1 and LOC39095 SNPs that were associated with differences in the respective patterns of brain atrophy, especially in the precuneus. The results demonstrate the potential of the proposed approach to map disease heterogeneity in neuroimaging and genetic studies.
+26923371	502	510	patients	Species	9606
+26923371	639	653	brain diseases	Disease	MESH:D001927
+26923371	655	723	Neurodegenerative, neuropsychiatric and neurodevelopmental disorders	Disease	MESH:D019636
+26923371	985	992	patient	Species	9606
+26923371	1732	1751	Alzheimer's Disease	Disease	MESH:D000544
+26923371	1881	1883	AD	Disease	MESH:D000544
+26923371	1884	1892	patients	Species	9606
+26923371	1994	1996	AD	Disease	MESH:D000544
+26923371	1997	2005	patients	Species	9606
+26923371	2065	2072	atrophy	Disease	MESH:D001284
+26923371	2076	2078	AD	Disease	MESH:D000544
+26923371	2127	2134	atrophy	Disease	MESH:D001284
+26923371	2178	2185	atrophy	Disease	MESH:D001284
+26923371	2211	2218	atrophy	Disease	MESH:D001284
+26923371	2224	2231	atrophy	Disease	MESH:D001284
+26923371	2266	2277	hippocampus	Disease	
+26923371	2353	2355	AD	Disease	MESH:D000544
+26923371	2408	2440	apolipoprotein E (APOE) epsilon4	Gene	348
+26923371	2511	2516	CD2AP	Gene	23607
+26923371	2518	2523	SPON1	Gene	10418
+26923371	2610	2623	brain atrophy	Disease	MESH:C566985
+26923371	Association	MESH:D001284	10418
+26923371	Association	MESH:C566985	23607
+26923371	Association	MESH:C566985	10418
+26923371	Association	MESH:D001284	23607
+26923371	Association	MESH:D000544	23607
+26923371	Association	MESH:D000544	348
+

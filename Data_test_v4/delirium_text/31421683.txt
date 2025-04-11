@@ -1,0 +1,24 @@
+31421683|t|Prediction of amyloid pathology in cognitively unimpaired individuals using voxel-wise analysis of longitudinal structural brain MRI.
+31421683|a|BACKGROUND: Magnetic resonance imaging (MRI) has unveiled specific alterations at different stages of Alzheimer's disease (AD) pathophysiologic continuum constituting what has been established as "AD signature". To what extent MRI can detect amyloid-related cerebral changes from structural MRI in cognitively unimpaired individuals is still an area open for exploration. METHOD: Longitudinal 3D-T1 MRI scans were acquired from a subset of the ADNI cohort comprising 403 subjects: 79 controls (Ctrls), 50 preclinical AD (PreAD), and 274 MCI and dementia due to AD (MCI/AD). Amyloid CSF was used as gold-standard measure with established cutoffs (< 192 pg/mL) to establish diagnostic categories. Cognitively unimpaired individuals were defined as Ctrls if were amyloid negative and PreAD otherwise. The MCI/AD group was amyloid positive. Only subjects with the same diagnostic category at baseline and follow-up visits were considered for the study. Longitudinal morphometric analysis was performed using SPM12 to calculate Jacobian determinant maps. Statistical analysis was carried out on these Jacobian maps to identify structural changes that were significantly different between diagnostic categories. A machine learning classifier was applied on Jacobian determinant maps to predict the presence of abnormal amyloid levels in cognitively unimpaired individuals. The performance of this classifier was evaluated using receiver operating characteristic curve analysis and as a function of the follow-up time between MRI scans. We applied a cost function to assess the benefit of using this classifier in the triaging of individuals in a clinical trial-recruitment setting. RESULTS: The optimal follow-up time for classification of Ctrls vs PreAD was Deltat > 2.5 years, and hence, only subjects within this temporal span are used for evaluation (15 Ctrls, 10 PreAD). The longitudinal voxel-based classifier achieved an AUC = 0.87 (95%CI 0.72-0.97). The brain regions that showed the highest discriminative power to detect amyloid abnormalities were the medial, inferior, and lateral temporal lobes; precuneus; caudate heads; basal forebrain; and lateral ventricles. CONCLUSIONS: Our work supports that machine learning applied to longitudinal brain volumetric changes can be used to predict, with high precision, the presence of amyloid abnormalities in cognitively unimpaired subjects. Used as a triaging method to identify a fixed number of amyloid-positive individuals, this longitudinal voxel-wise classifier is expected to avoid 55% of unnecessary CSF and/or PET scans and reduce economic cost by 40%.
+31421683	14	21	amyloid	Disease	MESH:C000718787
+31421683	236	255	Alzheimer's disease	Disease	MESH:D000544
+31421683	257	259	AD	Disease	MESH:D000544
+31421683	331	333	AD	Disease	MESH:D000544
+31421683	376	383	amyloid	Disease	MESH:C000718787
+31421683	651	653	AD	Disease	MESH:D000544
+31421683	655	660	PreAD	Disease	MESH:D000544
+31421683	671	674	MCI	Disease	
+31421683	679	687	dementia	Disease	MESH:D003704
+31421683	695	697	AD	Disease	MESH:D000544
+31421683	699	702	MCI	Disease	
+31421683	703	705	AD	Disease	MESH:D000544
+31421683	915	920	PreAD	Disease	MESH:D000544
+31421683	936	939	MCI	Disease	
+31421683	940	942	AD	Disease	MESH:D000544
+31421683	953	960	amyloid	Disease	MESH:C000718787
+31421683	1877	1882	PreAD	Disease	MESH:D000544
+31421683	1996	2001	PreAD	Disease	MESH:D000544
+31421683	2159	2180	amyloid abnormalities	Disease	MESH:C000718787
+31421683	2466	2487	amyloid abnormalities	Disease	MESH:C000718787
+31421683	2580	2587	amyloid	Disease	MESH:C000718787
+

@@ -1,0 +1,15 @@
+33665002|t|Comparison of machine learning approaches for enhancing Alzheimer's disease classification.
+33665002|a|Alzheimer's disease (AD) is a progressive neurodegenerative disorder, accounting for nearly 60% of all dementia cases. The occurrence of the disease has been increasing rapidly in recent years. Presently about 46.8 million individuals suffer from AD worldwide. The current absence of effective treatment to reverse or stop AD progression highlights the importance of disease prevention and early diagnosis. Brain structural Magnetic Resonance Imaging (MRI) has been widely used for AD detection as it can display morphometric differences and cerebral structural changes. In this study, we built three machine learning-based MRI data classifiers to predict AD and infer the brain regions that contribute to disease development and progression. We then systematically compared the three distinct classifiers, which were constructed based on Support Vector Machine (SVM), 3D Very Deep Convolutional Network (VGGNet) and 3D Deep Residual Network (ResNet), respectively. To improve the performance of the deep learning classifiers, we applied a transfer learning strategy. The weights of a pre-trained model were transferred and adopted as the initial weights of our models. Transferring the learned features significantly reduced training time and increased network efficiency. The classification accuracy for AD subjects from elderly control subjects was 90%, 95%, and 95% for the SVM, VGGNet and ResNet classifiers, respectively. Gradient-weighted Class Activation Mapping (Grad-CAM) was employed to show discriminative regions that contributed most to the AD classification by utilizing the learned spatial information of the 3D-VGGNet and 3D-ResNet models. The resulted maps consistently highlighted several disease-associated brain regions, particularly the cerebellum which is a relatively neglected brain region in the present AD study. Overall, our comparisons suggested that the ResNet model provided the best classification performance as well as more accurate localization of disease-associated regions in the brain compared to the other two approaches.
+33665002	56	75	Alzheimer's disease	Disease	MESH:D000544
+33665002	92	111	Alzheimer's disease	Disease	MESH:D000544
+33665002	113	115	AD	Disease	MESH:D000544
+33665002	134	160	neurodegenerative disorder	Disease	MESH:D019636
+33665002	195	203	dementia	Disease	MESH:D003704
+33665002	339	341	AD	Disease	MESH:D000544
+33665002	415	417	AD	Disease	MESH:D000544
+33665002	574	576	AD	Disease	MESH:D000544
+33665002	748	750	AD	Disease	MESH:D000544
+33665002	1398	1400	AD	Disease	MESH:D000544
+33665002	1647	1649	AD	Disease	MESH:D000544
+33665002	1922	1924	AD	Disease	MESH:D000544
+

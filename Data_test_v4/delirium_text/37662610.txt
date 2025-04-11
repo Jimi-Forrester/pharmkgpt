@@ -1,0 +1,30 @@
+37662610|t|Identifying Suitable Targets for Alzheimer's Disease and Other Eight Common Neurological Disorders Using the Human Plasma Proteome: A Mendelian Randomization Study.
+37662610|a|Background: Neurological disorders, such as Alzheimer's disease (AD), comprise a major cause of health-related disabilities in human. However, biomarkers towards pathogenesis or novel targets are still limited. Objective: To identify the causality between plasma proteins and the risk of AD and other eight common neurological diseases using a Mendelian randomization (MR) study. Methods: Exposure data were obtained from a genome-wide association study (GWAS) of 2,994 plasma proteins in 3,301 healthy adults, and outcome datasets included GWAS summary statistics of nine neurological disorders. Inverse variance-weighted MR method as the primary analysis was used to estimate causal effects. Results: Higher genetically proxied plasma myeloid cell surface antigen CD33 level was found to be associated with increased risk of AD (odds ratio [OR] 1.079, 95% confidence interval [CI] 1.047-1.112, p = 8.39x10-7). We also discovered the causality between genetically proxied elevated prolactin and higher risk of epilepsy (OR = 1.068, 95% CI = 1.034-1.102; p = 5.46x10-5). Negative associations were identified between cyclin-dependent kinase 8 and ischemic stroke (OR = 0.927, 95% CI = 0.896-0.959, p = 9.32x10-6), between neuralized E3 ubiquitin-protein ligase 1 and migraine (OR = 0.914, 95% CI = 0.878-0.952, p = 1.48x10-5), and between Fc receptor-like protein 4 and multiple sclerosis (MS) (OR = 0.929, 95% CI = 0.897-0.963, p = 4.27x10-5). Conclusion: The findings identified MR-level protein-disease associations for AD, epilepsy, ischemic stroke, migraine, and MS.
+37662610	33	52	Alzheimer's Disease	Disease	MESH:D000544
+37662610	76	98	Neurological Disorders	Disease	MESH:D009461
+37662610	177	199	Neurological disorders	Disease	MESH:D009461
+37662610	209	228	Alzheimer's disease	Disease	MESH:D000544
+37662610	230	232	AD	Disease	MESH:D000544
+37662610	453	455	AD	Disease	MESH:D000544
+37662610	479	500	neurological diseases	Disease	MESH:D020271
+37662610	738	760	neurological disorders	Disease	MESH:D009461
+37662610	931	935	CD33	Gene	945
+37662610	992	994	AD	Disease	MESH:D000544
+37662610	1147	1156	prolactin	Gene	5617
+37662610	1176	1184	epilepsy	Disease	MESH:D004827
+37662610	1282	1307	cyclin-dependent kinase 8	Gene	1024
+37662610	1312	1327	ischemic stroke	Disease	MESH:D002544
+37662610	1432	1440	migraine	Disease	MESH:D008881
+37662610	1504	1530	Fc receptor-like protein 4	Gene	83417
+37662610	1535	1553	multiple sclerosis	Disease	MESH:D009103
+37662610	1555	1557	MS	Disease	MESH:D009103
+37662610	1688	1690	AD	Disease	MESH:D000544
+37662610	1692	1700	epilepsy	Disease	MESH:D004827
+37662610	1702	1717	ischemic stroke	Disease	MESH:D002544
+37662610	1719	1727	migraine	Disease	MESH:D008881
+37662610	1733	1735	MS	Disease	MESH:D009103
+37662610	Negative_Correlation	MESH:D002544	1024
+37662610	Positive_Correlation	MESH:D000544	945
+37662610	Association	MESH:D009103	83417
+37662610	Positive_Correlation	MESH:D004827	5617
+

@@ -1,0 +1,40 @@
+33074527|t|Precision medicine in acute lymphoblastic leukemia.
+33074527|a|The cure rate of childhood acute lymphoblastic leukemia (ALL) has exceeded 90% in some contemporary clinical trials. However, the dose intensity of conventional chemotherapy has been pushed to its limit. Further improvement in outcome will need to rely more heavily on molecular therapeutic as well as immuno-and cellular-therapy approaches together with precise risk stratification. Children with ETV6-RUNX1 or hyperdiploid > 50 ALL who achieve negative minimal residual disease during early remission induction are suitable candidates for reduction in treatment. Patients with Philadelphia chromosome (Ph)-positive or Ph-like ALL with ABL-class fusion should be treated with dasatinib. BH3 profiling and other preclinical methods have identified several high-risk subtypes, such as hypodiplod, early T-cell precursor, immature T-cell, KMT2A-rearranged, Ph-positive and TCF-HLF-positive ALL, that may respond to BCL-2 inhibitor venetoclax. There are other fusions or mutations that may serve as putative targets, but effective targeted therapy has yet to be established. For other high-risk patients or poor early treatment responders who do not have targetable genetic lesions, current approaches that offer hope include blinatumomab, inotuzumab and CAR-T cell therapy for B-ALL, and daratumumab and nelarabine for T-ALL. With the expanding therapeutic armamentarium, we should start focus on rational combinations of targeted therapy with non-overlapping toxicities.
+33074527	22	50	acute lymphoblastic leukemia	Disease	MESH:D054198
+33074527	79	107	acute lymphoblastic leukemia	Disease	MESH:D054198
+33074527	450	454	ETV6	Gene	2120
+33074527	455	460	RUNX1	Gene	861
+33074527	617	625	Patients	Species	9606
+33074527	631	654	Philadelphia chromosome	Disease	MESH:D010677
+33074527	656	658	Ph	Disease	MESH:D010677
+33074527	672	674	Ph	Disease	MESH:D010677
+33074527	689	692	ABL	Gene	25
+33074527	729	738	dasatinib	Chemical	MESH:D000069439
+33074527	740	743	BH3	Chemical	MESH:C006008
+33074527	889	894	KMT2A	Gene	4297
+33074527	907	909	Ph	Disease	MESH:D010677
+33074527	923	926	TCF	Gene	3172
+33074527	927	930	HLF	Gene	3131
+33074527	965	970	BCL-2	Gene	596
+33074527	981	991	venetoclax	Chemical	MESH:C579720
+33074527	1144	1152	patients	Species	9606
+33074527	1215	1230	genetic lesions	Disease	MESH:D020022
+33074527	1275	1287	blinatumomab	Chemical	MESH:C510808
+33074527	1289	1299	inotuzumab	Chemical	-
+33074527	1327	1332	B-ALL	Disease	MESH:D054198
+33074527	1338	1349	daratumumab	Chemical	MESH:C556306
+33074527	1354	1364	nelarabine	Chemical	MESH:C104457
+33074527	1369	1374	T-ALL	Disease	MESH:D054198
+33074527	1510	1520	toxicities	Disease	MESH:D064420
+33074527	Negative_Correlation	MESH:D000069439	MESH:D010677
+33074527	Negative_Correlation	MESH:C579720	3131
+33074527	Negative_Correlation	MESH:C579720	3172
+33074527	Association	2120	861
+33074527	Association	MESH:D010677	25
+33074527	Negative_Correlation	MESH:C579720	596
+33074527	Association	MESH:C579720	4297
+33074527	Negative_Correlation	MESH:D000069439	25
+33074527	Negative_Correlation	MESH:C579720	MESH:D010677
+33074527	Negative_Correlation	MESH:C104457	MESH:D054198
+33074527	Negative_Correlation	MESH:C556306	MESH:D054198
+

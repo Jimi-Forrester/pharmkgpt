@@ -1,0 +1,17 @@
+33659028|t|Repositioning Drugs to the Mitochondrial Fusion Protein 2 by Three-Tunnel Deep Neural Network for Alzheimer's Disease.
+33659028|a|Alzheimer's disease (AD) is a common neurodegenerative dementia in the elderly. Although there is no effective drug to treat AD, proteins associated with AD have been discovered in related studies. One of the proteins is mitochondrial fusion protein 2 (Mfn2), and its regulation presumably be related to AD. However, there is no specific drug for Mfn2 regulation. In this study, a three-tunnel deep neural network (3-Tunnel DNN) model is constructed and trained on the extended Davis dataset. In the prediction of drug-target binding affinity values, the accuracy of the model is up to 88.82% and the loss value is 0.172. By ranking the binding affinity values of 1,063 approved drugs and small molecular compounds in the DrugBank database, the top 15 drug molecules are recommended by the 3-Tunnel DNN model. After removing molecular weight <200 and topical drugs, a total of 11 drug molecules are selected for literature mining. The results show that six drugs have effect on AD, which are reported in references. Meanwhile, molecular docking experiments are implemented on the 11 drugs. The results show that all of the 11 drug molecules could dock with Mfn2 successfully, and 5 of them have great binding effect.
+33659028	27	57	Mitochondrial Fusion Protein 2	Gene	9927
+33659028	98	117	Alzheimer's Disease	Disease	MESH:D000544
+33659028	119	138	Alzheimer's disease	Disease	MESH:D000544
+33659028	140	142	AD	Disease	MESH:D000544
+33659028	156	182	neurodegenerative dementia	Disease	MESH:D019636
+33659028	244	246	AD	Disease	MESH:D000544
+33659028	273	275	AD	Disease	MESH:D000544
+33659028	340	370	mitochondrial fusion protein 2	Gene	9927
+33659028	372	376	Mfn2	Gene	9927
+33659028	423	425	AD	Disease	MESH:D000544
+33659028	466	470	Mfn2	Gene	9927
+33659028	1097	1099	AD	Disease	MESH:D000544
+33659028	1276	1280	Mfn2	Gene	9927
+33659028	Association	MESH:D000544	9927
+

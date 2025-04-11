@@ -1,0 +1,28 @@
+36142566|t|Machine Learning-Based Virtual Screening for the Identification of Cdk5 Inhibitors.
+36142566|a|Cyclin-dependent kinase 5 (Cdk5) is an atypical proline-directed serine/threonine protein kinase well-characterized for its role in the central nervous system rather than in the cell cycle. Indeed, its dysregulation has been strongly implicated in the progression of synaptic dysfunction and neurodegenerative diseases, such as Alzheimer's disease (AD) and Parkinson's disease (PD), and also in the development and progression of a variety of cancers. For this reason, Cdk5 is considered as a promising target for drug design, and the discovery of novel small-molecule Cdk5 inhibitors is of great interest in the medicinal chemistry field. In this context, we employed a machine learning-based virtual screening protocol with subsequent molecular docking, molecular dynamics simulations and binding free energy evaluations. Our virtual screening studies resulted in the identification of two novel Cdk5 inhibitors, highlighting an experimental hit rate of 50% and thus validating the reliability of the in silico workflow. Both identified ligands, compounds CPD1 and CPD4, showed a promising enzyme inhibitory activity and CPD1 also demonstrated a remarkable antiproliferative activity in ovarian and colon cancer cells. These ligands represent a valuable starting point for structure-based hit-optimization studies aimed at identifying new potent Cdk5 inhibitors.
+36142566	67	71	Cdk5	Gene	1020
+36142566	84	109	Cyclin-dependent kinase 5	Gene	1020
+36142566	111	115	Cdk5	Gene	1020
+36142566	351	371	synaptic dysfunction	Disease	MESH:C536122
+36142566	376	402	neurodegenerative diseases	Disease	MESH:D019636
+36142566	412	431	Alzheimer's disease	Disease	MESH:D000544
+36142566	433	435	AD	Disease	MESH:D000544
+36142566	441	460	Parkinson's disease	Disease	MESH:D010300
+36142566	462	464	PD	Disease	MESH:D010300
+36142566	527	534	cancers	Disease	MESH:D009369
+36142566	553	557	Cdk5	Gene	1020
+36142566	653	657	Cdk5	Gene	1020
+36142566	982	986	Cdk5	Gene	1020
+36142566	1142	1146	CPD1	Gene	1167
+36142566	1151	1155	CPD4	Gene	56623
+36142566	1207	1211	CPD1	Gene	1167
+36142566	1273	1297	ovarian and colon cancer	Disease	MESH:D010051
+36142566	1432	1436	Cdk5	Gene	1020
+36142566	Association	MESH:D000544	1020
+36142566	Negative_Correlation	1020	1167
+36142566	Association	MESH:D019636	1020
+36142566	Association	MESH:D009369	1020
+36142566	Association	MESH:D010300	1020
+36142566	Negative_Correlation	MESH:D010051	1167
+36142566	Association	MESH:C536122	1020
+

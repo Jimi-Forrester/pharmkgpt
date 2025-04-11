@@ -1,0 +1,12 @@
+21791408|t|Generative-discriminative basis learning for medical imaging.
+21791408|a|This paper presents a novel dimensionality reduction method for classification in medical imaging. The goal is to transform very high-dimensional input (typically, millions of voxels) to a low-dimensional representation (small number of constructed features) that preserves discriminative signal and is clinically interpretable. We formulate the task as a constrained optimization problem that combines generative and discriminative objectives and show how to extend it to the semi-supervised learning (SSL) setting. We propose a novel large-scale algorithm to solve the resulting optimization problem. In the fully supervised case, we demonstrate accuracy rates that are better than or comparable to state-of-the-art algorithms on several datasets while producing a representation of the group difference that is consistent with prior clinical reports. Effectiveness of the proposed algorithm for SSL is evaluated with both benchmark and medical imaging datasets. In the benchmark datasets, the results are better than or comparable to the state-of-the-art methods for SSL. For evaluation of the SSL setting in medical datasets, we use images of subjects with mild cognitive impairment (MCI), which is believed to be a precursor to Alzheimer's disease (AD), as unlabeled data. AD subjects and normal control (NC) subjects are used as labeled data, and we try to predict conversion from MCI to AD on follow-up. The semi-supervised extension of this method not only improves the generalization accuracy for the labeled data (AD/NC) slightly but is also able to predict subjects which are likely to converge to AD.
+21791408	1228	1248	cognitive impairment	Disease	MESH:D003072
+21791408	1250	1253	MCI	Disease	MESH:D060825
+21791408	1295	1314	Alzheimer's disease	Disease	MESH:D000544
+21791408	1316	1318	AD	Disease	MESH:D000544
+21791408	1340	1342	AD	Disease	MESH:D000544
+21791408	1449	1452	MCI	Disease	MESH:D060825
+21791408	1456	1458	AD	Disease	MESH:D000544
+21791408	1586	1588	AD	Disease	MESH:D000544
+21791408	1671	1673	AD	Disease	MESH:D000544
+

@@ -1,0 +1,18 @@
+39815147|t|Exploring Brain Imaging and Genetic Risk Factors in Different Progression States of Alzheimer's Disease Through OSnetNMF-Based Methods.
+39815147|a|Alzheimer's disease (AD) is a neurodegenerative disease with no effective treatment, often preceded by mild cognitive impairment (MCI). Multimodal imaging genetics integrates imaging and genetic data to gain a deeper understanding of disease progression and individual variations. This study focuses on exploring the mechanisms that drive the transition from normal cognition to MCI and ultimately to AD. As an effective joint feature extraction and dimensionality reduction method, non-negative matrix factorization (NMF) and its improved variants, particularly the network-based non-negative matrix factorization (netNMF), have been widely used in multimodal analysis to mine brain imaging and genetic data by considering the interactions between different features. However, many of these methods overlook the importance of the coefficient matrix and do not address issues related to data accuracy and feature redundancy. To address these limitations, we propose an orthogonal sparse network non-negative matrix factorization (OSnetNMF) algorithm, which introduces orthogonal and sparse constraints based on netNMF. By establishing linear relationships between structural magnetic resonance imaging (sMRI) and corresponding gene expression data, OSnetNMF reduces feature redundancy and decreases correlation between data, resulting in more accurate and reliable biomarker extraction. Experiments demonstrate that the OSnetNMF algorithm can accurately identify risk regions of interest (ROIs) and key genes that characterize AD progression, revealing significant trends in ROI pairs such as l4thVen-HIF1A, rBst-MPO, and rBst-PTK2B. Comparative experiments show that the improved algorithm outperforms traditional methods, identifying more disease-related biomarkers and achieving better reconstruction performance.
+39815147	84	103	Alzheimer's Disease	Disease	MESH:D000544
+39815147	136	155	Alzheimer's disease	Disease	MESH:D000544
+39815147	157	159	AD	Disease	MESH:D000544
+39815147	166	191	neurodegenerative disease	Disease	MESH:D019636
+39815147	244	264	cognitive impairment	Disease	MESH:D003072
+39815147	266	269	MCI	Disease	MESH:D060825
+39815147	515	518	MCI	Disease	MESH:D060825
+39815147	537	539	AD	Disease	MESH:D000544
+39815147	1663	1665	AD	Disease	MESH:D000544
+39815147	1737	1742	HIF1A	Gene	3091
+39815147	1749	1752	MPO	Gene	4353
+39815147	1763	1769	PTK2B.	Gene	2185
+39815147	Association	MESH:D000544	3091
+39815147	Association	MESH:D000544	4353
+39815147	Association	MESH:D000544	2185
+

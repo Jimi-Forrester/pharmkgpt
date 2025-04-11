@@ -1,0 +1,23 @@
+38524804|t|A drug prescription recommendation system based on novel DIAKID ontology and extensive semantic rules.
+38524804|a|According to the World Health Organization (WHO) data from 2000 to 2019, the number of people living with Diabetes Mellitus and Chronic Kidney Disease (CKD) is increasing rapidly. It is observed that Diabetes Mellitus increased by 70% and ranked in the top 10 among all causes of death, while the rate of those who died from CKD increased by 63% and rose from the 13th place to the 10th place. In this work, we combined the drug dose prediction model, drug-drug interaction warnings and drugs that potassium raising (K-raising) warnings to create a novel and effective ontology-based assistive prescription recommendation system for patients having both Type-2 Diabetes Mellitus (T2DM) and CKD. Although there are several computational solutions that use ontology-based systems for treatment plans for these type of diseases, none of them combine information analysis and treatment plans prediction for T2DM and CKD. The proposed method is novel: (1) We develop a new drug-drug interaction model and drug dose ontology called DIAKID (for drugs of T2DM and CKD). (2) Using comprehensive Semantic Web Rule Language (SWRL) rules, we automatically extract the correct drug dose, K-raising drugs, and drug-drug interaction warnings based on the Glomerular Filtration Rate (GFR) value of T2DM and CKD patients. The proposed work achieves very competitive results, and this is the first time such a study conducted on both diseases. The proposed system will guide clinicians in preparing prescriptions by giving necessary warnings about drug-drug interactions and doses.
+38524804	209	226	Diabetes Mellitus	Disease	MESH:D003920
+38524804	231	253	Chronic Kidney Disease	Disease	MESH:D051436
+38524804	255	258	CKD	Disease	MESH:D051436
+38524804	303	320	Diabetes Mellitus	Disease	MESH:D003920
+38524804	383	388	death	Disease	MESH:D003643
+38524804	418	422	died	Disease	MESH:D003643
+38524804	428	431	CKD	Disease	MESH:D051436
+38524804	601	610	potassium	Chemical	MESH:D011188
+38524804	620	621	K	Chemical	MESH:D011188
+38524804	736	744	patients	Species	9606
+38524804	757	781	Type-2 Diabetes Mellitus	Disease	MESH:D003924
+38524804	783	787	T2DM	Disease	MESH:D003924
+38524804	793	796	CKD	Disease	MESH:D051436
+38524804	1006	1010	T2DM	Disease	MESH:D003924
+38524804	1015	1018	CKD	Disease	MESH:D051436
+38524804	1150	1154	T2DM	Disease	MESH:D003924
+38524804	1159	1162	CKD	Disease	MESH:D051436
+38524804	1385	1389	T2DM	Disease	MESH:D003924
+38524804	1394	1397	CKD	Disease	MESH:D051436
+38524804	1398	1406	patients	Species	9606
+

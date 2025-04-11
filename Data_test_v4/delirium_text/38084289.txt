@@ -1,0 +1,29 @@
+38084289|t|Identification of Dopachrome Tautomerase (DCT) and Kinesin Family Member 1A (KIF1A) as Related Biomarkers and Immune Infiltration Characteristics of Vitiligo Based on Lasso-SVM Algorithms.
+38084289|a|Objective: To identify potential diagnostic markers for vitiligo and determine the significance of immune cell infiltration in pathology. Methods: Three publicly available gene expression profiles (GSE53146, GSE75819 and GSE65127 datasets) from human vitiligo and control samples were downloaded from the GEO database. Differentially expressed genes (DEGs) were screened between 20 vitiligo and 20 control samples. Logical regression of the selection operator (LASSO) model and support vector machine recursive feature elimination (SVM-RFE) analysis were performed to identify candidate biomarkers. The area under the receiver operating characteristic curve (AUC) value was obtained and was used to evaluate the discriminatory ability. The expression level and diagnostic value of the biomarkers in vitiligo were further validated in the GSE65127 dataset (10 vitiligo patients and 10 healthy controls). Finally, the immune cell infiltration of vitiligo was evaluated by CIBERSORT, and the correlation between biomarkers and infiltrating immune cells was analyzed. The compositional patterns of the 22 types of immune cell fractions in vitiligo were estimated from the pooled cohorts using CIBERSORT. In addition, we established a mouse model of vitiligo with monobenzone and validated the screened biomarkers. Results: A total of 23 associated DEGs were identified, including 9 up-regulated and 14 down-regulated genes. Subsequently, 17 genes meeting prognostic criteria and 2 common genes (DCT and KIF1A) were obtained by SVM and Venn diagram screening. Immunodifferential analysis showed that microenvironment of vitiligo patients was altered. Finally, the different expression was verified by polymerase chain reaction (PCR). Conclusion: Biomarkers associated with vitiligo can be screened by comprehensive strategies, and immune cell infiltration plays a key role in the development of vitiligo.
+38084289	18	40	Dopachrome Tautomerase	Gene	1638
+38084289	42	45	DCT	Gene	1638
+38084289	51	75	Kinesin Family Member 1A	Gene	547
+38084289	77	82	KIF1A	Gene	547
+38084289	149	157	Vitiligo	Disease	MESH:D014820
+38084289	245	253	vitiligo	Disease	MESH:D014820
+38084289	434	439	human	Species	9606
+38084289	440	448	vitiligo	Disease	MESH:D014820
+38084289	571	579	vitiligo	Disease	MESH:D014820
+38084289	988	996	vitiligo	Disease	MESH:D014820
+38084289	1048	1056	vitiligo	Disease	MESH:D014820
+38084289	1057	1065	patients	Species	9606
+38084289	1133	1141	vitiligo	Disease	MESH:D014820
+38084289	1324	1332	vitiligo	Disease	MESH:D014820
+38084289	1419	1424	mouse	Species	10090
+38084289	1434	1442	vitiligo	Disease	MESH:D014820
+38084289	1448	1459	monobenzone	Chemical	MESH:C006429
+38084289	1680	1683	DCT	Gene	1638
+38084289	1688	1693	KIF1A	Gene	547
+38084289	1804	1812	vitiligo	Disease	MESH:D014820
+38084289	1813	1821	patients	Species	9606
+38084289	1957	1965	vitiligo	Disease	MESH:D014820
+38084289	2079	2087	vitiligo	Disease	MESH:D014820
+38084289	Association	MESH:D014820	1638
+38084289	Negative_Correlation	MESH:C006429	MESH:D014820
+38084289	Association	MESH:D014820	547
+

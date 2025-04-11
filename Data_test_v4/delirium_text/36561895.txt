@@ -1,0 +1,33 @@
+36561895|t|Recognizing novel drugs against Keap1 in Alzheimer's disease using machine learning grounded computational studies.
+36561895|a|Alzheimer's disease (AD) is the most common neurodegenerative disorder in the world, affecting an estimated 50 million individuals. The nerve cells become impaired and die due to the formation of amyloid-beta (Abeta) plaques and neurofibrillary tangles (NFTs). Dementia is one of the most common symptoms seen in people with AD. Genes, lifestyle, mitochondrial dysfunction, oxidative stress, obesity, infections, and head injuries are some of the factors that can contribute to the development and progression of AD. There are just a few FDA-approved treatments without side effects in the market, and their efficacy is restricted due to their narrow target in the etiology of AD. Therefore, our aim is to identify a safe and potent treatment for Alzheimer's disease. We chose the ursolic acid (UA) and its similar compounds as a compounds' library. And the ChEMBL database was adopted to obtain the active and inactive chemicals against Keap1. The best Quantitative structure-activity relationship (QSAR) model was created by evaluating standard machine learning techniques, and the best model has the lowest RMSE and greatest R2 (Random Forest Regressor). We chose pIC50 of 6.5 as threshold, where the top five potent medicines (DB06841, DB04310, DB11784, DB12730, and DB12677) with the highest predicted pIC50 (7.091184, 6.900866, 6.800155, 6.768965, and 6.756439) based on QSAR analysis. Furthermore, the top five medicines utilize as ligand molecules were docked in Keap1's binding region. The structural stability of the nominated medications was then evaluated using molecular dynamics simulations, RMSD, RMSF, Rg, and hydrogen bonding. All models are stable at 20 ns during simulation, with no major fluctuations observed. Finally, the top five medications are shown as prospective inhibitors of Keap1 and are the most promising to battle AD.
+36561895	32	37	Keap1	Gene	9817
+36561895	41	60	Alzheimer's disease	Disease	MESH:D000544
+36561895	116	135	Alzheimer's disease	Disease	MESH:D000544
+36561895	137	139	AD	Disease	MESH:D000544
+36561895	160	186	neurodegenerative disorder	Disease	MESH:D019636
+36561895	312	324	amyloid-beta	Gene	351
+36561895	326	331	Abeta	Gene	351
+36561895	345	368	neurofibrillary tangles	Disease	MESH:D055956
+36561895	370	374	NFTs	Disease	MESH:D055956
+36561895	377	385	Dementia	Disease	MESH:D003704
+36561895	441	443	AD	Disease	MESH:D000544
+36561895	463	488	mitochondrial dysfunction	Disease	MESH:D028361
+36561895	508	515	obesity	Disease	MESH:D009765
+36561895	517	527	infections	Disease	MESH:D007239
+36561895	533	546	head injuries	Disease	MESH:D006259
+36561895	629	631	AD	Disease	MESH:D000544
+36561895	793	795	AD	Disease	MESH:D000544
+36561895	863	882	Alzheimer's disease	Disease	MESH:D000544
+36561895	897	909	ursolic acid	Chemical	MESH:C005466
+36561895	911	913	UA	Chemical	MESH:C005466
+36561895	1054	1059	Keap1	Gene	9817
+36561895	1347	1354	DB06841	Chemical	-
+36561895	1356	1363	DB04310	Chemical	-
+36561895	1365	1372	DB11784	Chemical	-
+36561895	1374	1381	DB12730	Chemical	-
+36561895	1387	1394	DB12677	Chemical	-
+36561895	1587	1592	Keap1	Gene	9817
+36561895	1920	1925	Keap1	Gene	9817
+36561895	1963	1965	AD	Disease	MESH:D000544
+36561895	Association	MESH:D000544	9817
+

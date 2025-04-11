@@ -1,0 +1,18 @@
+37058755|t|Early prediction of delirium upon intensive care unit admission: Model development, validation, and deployment.
+37058755|a|STUDY OBJECTIVE: To develop, validate, and deploy models for predicting delirium in critically ill adult patients as early as upon intensive care unit (ICU) admission. DESIGN: Retrospective cohort study. SETTING: Single university teaching hospital in Taipei, Taiwan. PATIENTS: 6238 critically ill patients from August 2020 to August 2021. MEASUREMENTS: Data were extracted, pre-processed, and split into training and testing datasets based on the time period. Eligible variables included demographic characteristics, Glasgow Coma Scale, vital signs parameters, treatments, and laboratory data. The predicted outcome was delirium, defined as any positive result (a score >= 4) of the Intensive Care Delirium Screening Checklist that was assessed by primary care nurses in each 8-h shift within 48 h after ICU admission. We trained models to predict delirium upon ICU admission (ADM) and at 24 h (24H) after ICU admission by using logistic regression (LR), gradient boosted trees (GBT), and deep learning (DL) algorithms and compared the models' performance. MAIN RESULTS: Eight features were extracted from the eligible features to train the ADM models, including age, body mass index, medical history of dementia, postoperative intensive monitoring, elective surgery, pre-ICU hospital stays, and GCS score and initial respiratory rate upon ICU admission. In the ADM testing dataset, the incidence of ICU delirium occurred within 24 h and 48 h was 32.9% and 36.2%, respectively. The area under the receiver operating characteristic curve (AUROC) (0.858, 95% CI 0.835-0.879) and area under the precision-recall curve (AUPRC) (0.814, 95% CI 0.780-0.844) for the ADM GBT model were the highest. The Brier scores of the ADM LR, GBT, and DL models were 0.149, 0.140, and 0.145, respectively. The AUROC (0.931, 95% CI 0.911-0.949) was the highest for the 24H DL model and the AUPRC (0.842, 95% CI 0.792-0.886) was the highest for the 24H LR model. CONCLUSION: Our early prediction models based on data obtained upon ICU admission could achieve good performance in predicting delirium occurred within 48 h after ICU admission. Our 24-h models can improve delirium prediction for patients discharged >1 day after ICU admission.
+37058755	20	28	delirium	Disease	MESH:D003693
+37058755	184	192	delirium	Disease	MESH:D003693
+37058755	196	210	critically ill	Disease	MESH:D016638
+37058755	217	225	patients	Species	9606
+37058755	380	388	PATIENTS	Species	9606
+37058755	395	409	critically ill	Disease	MESH:D016638
+37058755	410	418	patients	Species	9606
+37058755	733	741	delirium	Disease	MESH:D003693
+37058755	811	819	Delirium	Disease	MESH:D003693
+37058755	961	969	delirium	Disease	MESH:D003693
+37058755	1317	1325	dementia	Disease	MESH:D003704
+37058755	1513	1525	ICU delirium	Disease	MESH:C000657744
+37058755	2181	2189	delirium	Disease	MESH:D003693
+37058755	2260	2268	delirium	Disease	MESH:D003693
+37058755	2284	2292	patients	Species	9606
+

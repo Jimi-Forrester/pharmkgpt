@@ -1,0 +1,21 @@
+20541286|t|Boosting power for clinical trials using classifiers based on multiple biomarkers.
+20541286|a|Machine learning methods pool diverse information to perform computer-assisted diagnosis and predict future clinical decline. We introduce a machine learning method to boost power in clinical trials. We created a Support Vector Machine algorithm that combines brain imaging and other biomarkers to classify 737 Alzheimer's disease Neuroimaging initiative (ADNI) subjects as having Alzheimer's disease (AD), mild cognitive impairment (MCI), or normal controls. We trained our classifiers based on example data including: MRI measures of hippocampal, ventricular, and temporal lobe volumes, a PET-FDG numerical summary, CSF biomarkers (t-tau, p-tau, and Abeta(42)), ApoE genotype, age, sex, and body mass index. MRI measures contributed most to Alzheimer's disease (AD) classification; PET-FDG and CSF biomarkers, particularly Abeta(42), contributed more to MCI classification. Using all biomarkers jointly, we used our classifier to select the one-third of the subjects most likely to decline. In this subsample, fewer than 40 AD and MCI subjects would be needed to detect a 25% slowing in temporal lobe atrophy rates with 80% power--a substantial boosting of power relative to standard imaging measures.
+20541286	394	413	Alzheimer's disease	Disease	MESH:D000544
+20541286	464	483	Alzheimer's disease	Disease	MESH:D000544
+20541286	485	487	AD	Disease	MESH:D000544
+20541286	495	515	cognitive impairment	Disease	MESH:D003072
+20541286	517	520	MCI	Disease	MESH:D060825
+20541286	678	681	FDG	Chemical	MESH:D019788
+20541286	735	744	Abeta(42)	Gene	351
+20541286	747	751	ApoE	Gene	348
+20541286	826	845	Alzheimer's disease	Disease	MESH:D000544
+20541286	847	849	AD	Disease	MESH:D000544
+20541286	871	874	FDG	Chemical	MESH:D019788
+20541286	908	917	Abeta(42)	Gene	351
+20541286	939	942	MCI	Disease	MESH:D060825
+20541286	1109	1111	AD	Disease	MESH:D000544
+20541286	1116	1119	MCI	Disease	MESH:D060825
+20541286	1172	1193	temporal lobe atrophy	Disease	MESH:D004833
+20541286	Association	MESH:D060825	351
+20541286	Association	MESH:D019788	MESH:D060825
+

@@ -1,0 +1,19 @@
+39372875|t|Using Machine Learning and Electronic Health Records to Identify Neuropsychiatric Risk Scores for Delirium in ICU and General Hospital Settings.
+39372875|a|Objective: Delirium is a common and acute neuropsychiatric syndrome that requires timely intervention to prevent its associated morbidity and mortality. Yet, its diagnosis and symptoms are often overlooked due to its variable clinical presentation and fluctuating nature. Thus, in this study, we address the barriers to delirium diagnosis by utilizing a machine learning-based predictive algorithm for incident delirium that relies on archived electronic health records (EHRs) data. Methods: We used the Medical Information Mart for Intensive Care (MIMIC) database to create a detailed dataset for identifying delirium in intensive care unit (ICU) patients. Our approach involved training machine learning models on this dataset to pinpoint critical clinical features for delirium detection. These features were then refined and applied to non-ICU patients using EHRs from the American University of Beirut Medical Center (AUBMC). Results: Our study assessed machine learning models like Extreme Gradient Boosting (XGBoost), Categorical Boosting (CatBoost), Classification and Regression Trees (CART), Random Forest (RF), Neural Oblivious Decision Ensembles (NODE), and Logistic Regression (LR), highlighting superior delirium detection in diverse clinical settings. The CatBoost model excelled in ICU environments with an F1 Score of 89.2%, while XGBoost performed best in general hospital settings with a 75.4% F1 Score. Interpretations using Tabular Local Interpretable Model-agnostic Explanations (LIME) revealed critical indicators such as prothrombin time and hematocrit levels, enhancing model transparency and clinical applicability. These clinical insights help differentiate the delirium predictors between ICU patients, who are often sensitive to various factors. Conclusion: The proposed predictive algorithm improves delirium detection rates and streamlines efficiency in hospital electronic systems, thereby enabling prompt interventions to prevent delirium progression and associated complications. The clinical indicators for delirium that we identified in general hospital settings and ICU can greatly help healthcare professionals identify potential causes of delirium and reduce misdiagnosis.
+39372875	98	106	Delirium	Disease	MESH:D003693
+39372875	156	164	Delirium	Disease	MESH:D003693
+39372875	187	212	neuropsychiatric syndrome	Disease	MESH:C000631768
+39372875	465	473	delirium	Disease	MESH:D003693
+39372875	556	564	delirium	Disease	MESH:D003693
+39372875	755	763	delirium	Disease	MESH:D003693
+39372875	793	801	patients	Species	9606
+39372875	917	925	delirium	Disease	MESH:D003693
+39372875	993	1001	patients	Species	9606
+39372875	1363	1371	delirium	Disease	MESH:D003693
+39372875	1834	1842	delirium	Disease	MESH:D003693
+39372875	1866	1874	patients	Species	9606
+39372875	1975	1983	delirium	Disease	MESH:D003693
+39372875	2108	2116	delirium	Disease	MESH:D003693
+39372875	2187	2195	delirium	Disease	MESH:D003693
+39372875	2323	2331	delirium	Disease	MESH:D003693
+

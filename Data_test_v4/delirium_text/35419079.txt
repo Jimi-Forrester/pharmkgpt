@@ -1,0 +1,16 @@
+35419079|t|Neurogenerative Disease Diagnosis in Cepstral Domain Using MFCC with Deep Learning.
+35419079|a|Because underlying cognitive and neuromuscular activities regulate speech signals, biomarkers in the human voice can provide insight into neurological illnesses. Multiple motor and nonmotor aspects of neurologic voice disorders arise from an underlying neurologic condition such as Parkinson's disease, multiple sclerosis, myasthenia gravis, or ALS. Voice problems can be caused by disorders that affect the corticospinal system, cerebellum, basal ganglia, and upper or lower motoneurons. According to a new study, voice pathology detection technologies can successfully aid in the assessment of voice irregularities and enable the early diagnosis of voice pathology. In this paper, we offer two deep-learning-based computational models, 1-dimensional convolutional neural network (1D CNN) and 2-dimensional convolutional neural network (2D CNN), that simultaneously detect voice pathologies caused by neurological illnesses or other causes. From the German corpus Saarbruecken Voice Database (SVD), we used voice recordings of sustained vowel /a/ generated at normal pitch. The collected voice signals are padded and segmented to maintain homogeneity and increase the number of samples. Convolutional layers are applied to raw data, and MFCC features are extracted in this project. Although the 1D CNN had the maximum accuracy of 93.11% on test data, model training produced overfitting and 2D CNN, which generalized the data better and had lower train and validation loss despite having an accuracy of 84.17% on test data. Also, 2D CNN outperforms state-of-the-art studies in the field, implying that a model trained on handcrafted features is better for speech processing than a model that extracts features directly.
+35419079	0	23	Neurogenerative Disease	Disease	MESH:D001750
+35419079	185	190	human	Species	9606
+35419079	222	244	neurological illnesses	Disease	MESH:D009461
+35419079	285	311	neurologic voice disorders	Disease	MESH:D014832
+35419079	337	357	neurologic condition	Disease	MESH:D019636
+35419079	366	385	Parkinson's disease	Disease	MESH:D010300
+35419079	387	405	multiple sclerosis	Disease	MESH:D009103
+35419079	407	424	myasthenia gravis	Disease	MESH:D009157
+35419079	429	432	ALS	Disease	MESH:D008113
+35419079	434	448	Voice problems	Disease	MESH:D014832
+35419079	680	700	voice irregularities	Disease	MESH:D014832
+35419079	958	975	voice pathologies	Disease	MESH:D014832
+35419079	986	1008	neurological illnesses	Disease	MESH:D009461
+

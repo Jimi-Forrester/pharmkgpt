@@ -1,0 +1,25 @@
+33246424|t|Risk factors and socio-economic burden in pancreatic ductal adenocarcinoma operation: a machine learning based analysis.
+33246424|a|BACKGROUND: Surgical resection is the major way to cure pancreatic ductal adenocarcinoma (PDAC). However, this operation is complex, and the peri-operative risk is high, making patients more likely to be admitted to the intensive care unit (ICU). Therefore, establishing a risk model that predicts admission to ICU is meaningful in preventing patients from post-operation deterioration and potentially reducing socio-economic burden. METHODS: We retrospectively collected 120 clinical features from 1242 PDAC patients, including demographic data, pre-operative and intra-operative blood tests, in-hospital duration, and ICU status. Machine learning pipelines, including Supporting Vector Machine (SVM), Logistic Regression, and Lasso Regression, were employed to choose an optimal model in predicting ICU admission. Ordinary least-squares regression (OLS) and Lasso Regression were adopted in the correlation analysis of post-operative bleeding, total in-hospital duration, and discharge costs. RESULTS: SVM model achieved higher performance than the other two models, resulted in an AU-ROC of 0.80. The features, such as age, duration of operation, monocyte count, and intra-operative partial arterial pressure of oxygen (PaO2), are risk factors in the ICU admission. The protective factors include RBC count, analgesic pump dexmedetomidine (DEX), and intra-operative maintenance of DEX. Basophil percentage, duration of the operation, and total infusion volume were risk variables for staying in ICU. The bilirubin, CA125, and pre-operative albumin were associated with the post-operative bleeding volume. The operation duration was the most important factor for discharge costs, while pre-lymphocyte percentage and the absolute count are responsible for less cost. CONCLUSIONS: We observed that several new indicators such as DEX, monocyte count, basophil percentage, and intra-operative PaO2 showed a good predictive effect on the possibility of admission to ICU and duration of stay in ICU. This work provided an essential reference for indication in advance to PDAC operation.
+33246424	42	74	pancreatic ductal adenocarcinoma	Disease	MESH:D021441
+33246424	177	209	pancreatic ductal adenocarcinoma	Disease	MESH:D021441
+33246424	211	215	PDAC	Disease	MESH:D021441
+33246424	298	306	patients	Species	9606
+33246424	464	472	patients	Species	9606
+33246424	625	629	PDAC	Disease	MESH:D021441
+33246424	630	638	patients	Species	9606
+33246424	1057	1065	bleeding	Disease	MESH:D006470
+33246424	1336	1342	oxygen	Chemical	MESH:D010100
+33246424	1447	1462	dexmedetomidine	Chemical	MESH:D020927
+33246424	1464	1467	DEX	Chemical	MESH:D020927
+33246424	1505	1508	DEX	Chemical	MESH:D020927
+33246424	1628	1637	bilirubin	Chemical	MESH:D001663
+33246424	1639	1644	CA125	Gene	94025
+33246424	1664	1671	albumin	Gene	213
+33246424	1712	1720	bleeding	Disease	MESH:D006470
+33246424	1950	1953	DEX	Chemical	MESH:D020927
+33246424	2188	2192	PDAC	Disease	MESH:D021441
+33246424	Association	MESH:D006470	94025
+33246424	Negative_Correlation	MESH:D020927	MESH:D021441
+33246424	Association	MESH:D001663	MESH:D006470
+33246424	Association	MESH:D006470	213
+

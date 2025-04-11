@@ -1,0 +1,34 @@
+31994886|t|Impact of A2T and D23N Mutations on Tetrameric Abeta42 Barrel within a Dipalmitoylphosphatidylcholine Lipid Bilayer Membrane by Replica Exchange Molecular Dynamics.
+31994886|a|In Alzheimer's disease (AD), many experimental and computational studies support the amyloid pore hypothesis of the Abeta42 peptide. We recently designed a beta-barrel tetramer in a membrane-mimicking environment consistent with some low-resolution experimental data. In this earlier study, by using extensive replica exchange molecular dynamics simulations, we found that the wild-type (WT) Abeta42 peptides have a high propensity to form beta-barrels, while the WT Abeta40 peptides do not. In this work, we have investigated the effect of mutations D23N and A2T on the Abeta42 barrel tetramer by using the same enhanced conformational sampling technique. It is known that the D23N mutation leads to early onset AD, while the A2T mutation protects from AD. This computational study in a dipalmitoylphosphatidylcholine (DPPC) lipid bilayer membrane shows that the WT sequence and its A2T variant have similar beta-barrel populations and the three-dimensional model is slightly destabilized for D23N compared to its WT sequence. These extensive modeling calculations indicate that the lower and higher induced toxicity of these two mutations in AD cannot be correlated to their beta-barrel tetramer stabilities in a DPPC lipid bilayer membrane.
+31994886	10	13	A2T	DNAMutation	tmVar:c|SUB|A|2|T;HGVS:c.2A>T;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+31994886	18	22	D23N	ProteinMutation	tmVar:p|SUB|D|23|N;HGVS:p.D23N;VariantGroup:0;CorrespondingGene:351;RS#:1297968881;CorrespondingSpecies:9606
+31994886	47	54	Abeta42	Gene	351
+31994886	71	101	Dipalmitoylphosphatidylcholine	Chemical	MESH:D015060
+31994886	102	107	Lipid	Chemical	MESH:D008055
+31994886	168	187	Alzheimer's disease	Disease	MESH:D000544
+31994886	189	191	AD	Disease	MESH:D000544
+31994886	250	257	amyloid	Disease	MESH:C000718787
+31994886	281	288	Abeta42	Gene	351
+31994886	557	564	Abeta42	Gene	351
+31994886	716	720	D23N	ProteinMutation	tmVar:p|SUB|D|23|N;HGVS:p.D23N;VariantGroup:0;CorrespondingGene:351;RS#:1297968881;CorrespondingSpecies:9606
+31994886	725	728	A2T	DNAMutation	tmVar:c|SUB|A|2|T;HGVS:c.2A>T;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+31994886	736	743	Abeta42	Gene	351
+31994886	843	847	D23N	ProteinMutation	tmVar:p|SUB|D|23|N;HGVS:p.D23N;VariantGroup:0;CorrespondingGene:351;RS#:1297968881;CorrespondingSpecies:9606
+31994886	878	880	AD	Disease	MESH:D000544
+31994886	892	895	A2T	DNAMutation	tmVar:c|SUB|A|2|T;HGVS:c.2A>T;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+31994886	919	921	AD	Disease	MESH:D000544
+31994886	953	983	dipalmitoylphosphatidylcholine	Chemical	MESH:D015060
+31994886	985	989	DPPC	Chemical	MESH:D015060
+31994886	991	996	lipid	Chemical	MESH:D008055
+31994886	1049	1052	A2T	DNAMutation	tmVar:c|SUB|A|2|T;HGVS:c.2A>T;VariantGroup:1;CorrespondingGene:351;CorrespondingSpecies:9606
+31994886	1159	1163	D23N	ProteinMutation	tmVar:p|SUB|D|23|N;HGVS:p.D23N;VariantGroup:0;CorrespondingGene:351;RS#:1297968881;CorrespondingSpecies:9606
+31994886	1274	1282	toxicity	Disease	MESH:D064420
+31994886	1309	1311	AD	Disease	MESH:D000544
+31994886	1380	1384	DPPC	Chemical	MESH:D015060
+31994886	1385	1390	lipid	Chemical	MESH:D008055
+31994886	Positive_Correlation	MESH:D000544	RS#:1297968881;HGVS:p.D23N;CorrespondingGene:351
+31994886	Positive_Correlation	MESH:D000544	HGVS:c.2A>T;CorrespondingGene:351
+31994886	Association	MESH:D000544	351
+31994886	Negative_Correlation	HGVS:c.2A>T;CorrespondingGene:351	MESH:D000544
+31994886	Association	MESH:D000544	351
+

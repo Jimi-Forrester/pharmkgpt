@@ -1,0 +1,33 @@
+32839459|t|Integration of postmortem amygdala expression profiling, GWAS, and functional cell culture assays: neuroticism-associated synaptic vesicle glycoprotein 2A (SV2A) gene is regulated by miR-133a and miR-218.
+32839459|a|Recent genome-wide studies have begun to identify gene variants, expression profiles, and regulators associated with neuroticism, anxiety disorders, and depression. We conducted a set of experimental cell culture studies of gene regulation by micro RNAs (miRNAs), based on genome-wide transcriptome, proteome, and miRNA expression data from twenty postmortem samples of lateral amygdala from donors with known neuroticism scores. Using Ingenuity Pathway Analysis and TargetScan, we identified a list of mRNA-protein-miRNA sets whose expression patterns were consistent with miRNA-based translational repression, as a function of trait anxiety. Here, we focused on one gene from that list, which is of particular translational significance in Psychiatry: synaptic vesicle glycoprotein 2A (SV2A) is the binding site of the anticonvulsant drug levetiracetam ((S)-alpha-Ethyl-2-oxo-1-pyrrolidineacetamide), which has shown promise in anxiety disorder treatments. We confirmed that SV2A is associated with neuroticism or anxiety using an original GWAS of a community cohort (N = 1,706), and cross-referencing a published GWAS of multiple cohorts (Ns ranging from 340,569 to 390,278). Postmortem amygdala expression profiling implicated three putative regulatory miRNAs to target SV2A: miR-133a, miR-138, and miR-218. Moving from association to experimental causal testing in cell culture, we used a luciferase assay to demonstrate that miR-133a and miR-218, but not miR-138, significantly decreased relative luciferase activity from the SV2A dual-luciferase construct. In human neuroblastoma cells, transfection with miR-133a and miR-218 reduced both endogenous SV2A mRNA and protein levels, confirming miRNA targeting of the SV2A gene. This study illustrates the utility of combining postmortem gene expression data with GWAS to guide experimental cell culture assays examining gene regulatory mechanisms that may contribute to complex human traits. Identifying specific molecular mechanisms of gene regulation may be useful for future clinical applications in anxiety disorders or other forms of psychopathology.
+32839459	99	110	neuroticism	Disease	
+32839459	122	154	synaptic vesicle glycoprotein 2A	Gene	9900
+32839459	156	160	SV2A	Gene	9900
+32839459	322	333	neuroticism	Disease	
+32839459	335	352	anxiety disorders	Disease	MESH:D001008
+32839459	358	368	depression	Disease	MESH:D003866
+32839459	615	626	neuroticism	Disease	
+32839459	840	847	anxiety	Disease	MESH:D001007
+32839459	959	991	synaptic vesicle glycoprotein 2A	Gene	9900
+32839459	993	997	SV2A	Gene	9900
+32839459	1046	1059	levetiracetam	Chemical	MESH:D000077287
+32839459	1061	1105	(S)-alpha-Ethyl-2-oxo-1-pyrrolidineacetamide	Chemical	MESH:D000077287
+32839459	1135	1151	anxiety disorder	Disease	MESH:D001008
+32839459	1182	1186	SV2A	Gene	9900
+32839459	1206	1217	neuroticism	Disease	
+32839459	1221	1228	anxiety	Disease	MESH:D001007
+32839459	1479	1483	SV2A	Gene	9900
+32839459	1737	1741	SV2A	Gene	9900
+32839459	1772	1777	human	Species	9606
+32839459	1778	1791	neuroblastoma	Disease	MESH:D009447
+32839459	1862	1866	SV2A	Gene	9900
+32839459	1926	1930	SV2A	Gene	9900
+32839459	2137	2142	human	Species	9606
+32839459	2262	2279	anxiety disorders	Disease	MESH:D001008
+32839459	Association	MESH:D001008	9900
+32839459	Negative_Correlation	MESH:D000077287	MESH:D001008
+32839459	Association	MESH:D009447	9900
+32839459	Association	MESH:D000077287	9900
+32839459	Association	MESH:D003866	9900
+32839459	Association	MESH:D001007	9900
+

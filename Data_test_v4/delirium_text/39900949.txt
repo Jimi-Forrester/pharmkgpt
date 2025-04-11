@@ -1,0 +1,24 @@
+39900949|t|Using computer modeling to find new LRRK2 inhibitors for parkinson's disease.
+39900949|a|Parkinson's disease (PD) is a complex neurodegenerative disorder that affects multiple neurotransmitters, and its exact cause is still unknown. Developing new drugs for PD is a lengthy and expensive process, making it difficult to find new treatments. This study aims to create a detailed dataset to build strong predictive models with various machine learning algorithms. An ensemble modeling approach was employed to screen the DrugBank database, aiming to repurpose approved medications as potential treatments for Parkinson's disease (PD). The dataset was constructed using pIC50 values of various compounds targeting the inhibition of leucine-rich repeat kinase 2 (LRRK2). The best ensemble model showed exceptional predictive performance, with five-fold cross-validation and external validation metrics exceeding 0.8 (Q2cv = 0.864 and Q2ext = 0.873). The DrugBank screening resulted in three promising drugs-triamterene, phenazopyridine, and CRA_1801-with predicted pIC50 values greater than 7, warranting further investigation as novel PD treatments. Molecular docking and molecular dynamics simulations were performed to provide a comprehensive understanding of the interactions between LRRK2 and the inhibitors in the data set and best molecules of the screening. Free energy of binding calculation along with hydrogen bond occupancy analysis and RMSD of the ligand in the pocket show CRA_1801 as the best candidate to be repurposed as LRRK2 inhibitor.
+39900949	36	41	LRRK2	Gene	120892
+39900949	57	76	parkinson's disease	Disease	MESH:D010300
+39900949	78	97	Parkinson's disease	Disease	MESH:D010300
+39900949	99	101	PD	Disease	MESH:D010300
+39900949	116	142	neurodegenerative disorder	Disease	MESH:D019636
+39900949	247	249	PD	Disease	MESH:D010300
+39900949	596	615	Parkinson's disease	Disease	MESH:D010300
+39900949	617	619	PD	Disease	MESH:D010300
+39900949	718	746	leucine-rich repeat kinase 2	Gene	120892
+39900949	748	753	LRRK2	Gene	120892
+39900949	992	1003	triamterene	Chemical	MESH:D014223
+39900949	1005	1020	phenazopyridine	Chemical	MESH:D010621
+39900949	1026	1034	CRA_1801	Chemical	-
+39900949	1121	1123	PD	Disease	MESH:D010300
+39900949	1273	1278	LRRK2	Gene	120892
+39900949	1397	1405	hydrogen	Chemical	MESH:D006859
+39900949	1472	1480	CRA_1801	Chemical	-
+39900949	1523	1528	LRRK2	Gene	120892
+39900949	Negative_Correlation	MESH:D014223	MESH:D010300
+39900949	Negative_Correlation	MESH:D010621	MESH:D010300
+39900949	Association	MESH:D010300	120892
+

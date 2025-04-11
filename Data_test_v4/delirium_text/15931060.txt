@@ -1,0 +1,34 @@
+15931060|t|24S-hydroxycholesterol induces inflammatory gene expression in primary human neural cells.
+15931060|a|24S-hydroxycholesterol, the primary oxidation product of cholesterol in the brain, plays a key role in cholesterol elimination and homeostasis. While the concentration of this neurotoxic oxysterol decreases with age, 24S-hydroxycholesterol is elevated in Alzheimer's disease. In this study, we examined the effects of 24S-hydroxycholesterol on gene expression in human neural cells, a primary coculture of neurons and glia useful for studying pathogenic mechanisms in Alzheimer's disease. DNA array and Western analysis revealed elevations in the expression of a pro-inflammatory gene family that included beta-amyloid precursor protein, cyclooxygenase-2, cytosolic phospholipase A2 and heat shock protein 70, an effect that was partially suppressed by simvastatin. These data indicate that cholesterol oxides induce atypical gene expression in neural cells that may contribute to the etiology or pathogenesis of inflammatory brain disease.
+15931060	0	22	24S-hydroxycholesterol	Chemical	MESH:C044563
+15931060	31	43	inflammatory	Disease	MESH:D007249
+15931060	71	76	human	Species	9606
+15931060	91	113	24S-hydroxycholesterol	Chemical	MESH:C044563
+15931060	148	159	cholesterol	Chemical	MESH:D002784
+15931060	194	205	cholesterol	Chemical	MESH:D002784
+15931060	267	277	neurotoxic	Disease	MESH:D020258
+15931060	278	287	oxysterol	Chemical	MESH:D000072376
+15931060	308	330	24S-hydroxycholesterol	Chemical	MESH:C044563
+15931060	346	365	Alzheimer's disease	Disease	MESH:D000544
+15931060	409	431	24S-hydroxycholesterol	Chemical	MESH:C044563
+15931060	454	459	human	Species	9606
+15931060	559	578	Alzheimer's disease	Disease	MESH:D000544
+15931060	658	670	inflammatory	Disease	MESH:D007249
+15931060	697	727	beta-amyloid precursor protein	Gene	351
+15931060	729	745	cyclooxygenase-2	Gene	5743
+15931060	747	773	cytosolic phospholipase A2	Gene	5321
+15931060	844	855	simvastatin	Chemical	MESH:D019821
+15931060	882	900	cholesterol oxides	Chemical	-
+15931060	1004	1030	inflammatory brain disease	Disease	MESH:D001927
+15931060	Negative_Correlation	MESH:D019821	351
+15931060	Positive_Correlation	MESH:C044563	5743
+15931060	Negative_Correlation	MESH:D019821	MESH:D007249
+15931060	Negative_Correlation	MESH:D019821	5743
+15931060	Association	MESH:D007249	5321
+15931060	Association	MESH:D007249	5743
+15931060	Association	MESH:C044563	MESH:D002784
+15931060	Positive_Correlation	MESH:C044563	MESH:D000544
+15931060	Negative_Correlation	MESH:D019821	5321
+15931060	Association	MESH:D007249	351
+15931060	Positive_Correlation	MESH:C044563	MESH:D007249
+

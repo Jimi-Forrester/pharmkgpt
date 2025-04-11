@@ -1,0 +1,15 @@
+39697232|t|DenseIncepS115: a novel network-level fusion framework for Alzheimer's disease prediction using MRI images.
+39697232|a|One of the most prevalent disorders relating to neurodegenerative conditions and dementia is Alzheimer's disease (AD). In the age group 65 and older, the prevalence of Alzheimer's disease is increasing. Before symptoms showed up, the disease had grown to a severe stage and resulted in an irreversible brain disorder that is not treatable with medication or other therapies. Therefore, early prediction is essential to slow down AD progression. Computer-aided diagnosis systems can be used as a second opinion by radiologists in their clinics to predict AD using MRI scans. In this work, we proposed a novel deep learning architecture named DenseIncepS115for for AD prediction from MRI scans. The proposed architecture is based on the Inception Module with Self-Attention (InceptionSA) and the Dense Module with Self-Attention (DenseSA). Both modules are fused at the network level using a depth concatenation layer. The proposed architecture hyperparameters are initialized using Bayesian Optimization, which impacts the better learning of the selected datasets. In the testing phase, features are extracted from the depth concatenation layer, which is further optimized using the Catch Fish Optimization (CFO) algorithm and passed to shallow wide neural network classifiers for the final prediction. In addition, the proposed DenseIncepS115 architecture is interpreted through Lime and Gradcam explainable techniques. Two publicly available datasets were employed in the experimental process: Alzheimer's ADNI and Alzheimer's classes MRI. On both datasets, the proposed architecture obtained an accuracy level of 99.5% and 98.5%, respectively. Detailed ablation studies and comparisons with state-of-the-art techniques show that the proposed architecture outperforms.
+39697232	59	78	Alzheimer's disease	Disease	MESH:D000544
+39697232	156	184	neurodegenerative conditions	Disease	MESH:D019636
+39697232	189	197	dementia	Disease	MESH:D003704
+39697232	201	220	Alzheimer's disease	Disease	MESH:D000544
+39697232	222	224	AD	Disease	MESH:D000544
+39697232	276	295	Alzheimer's disease	Disease	MESH:D000544
+39697232	410	424	brain disorder	Disease	MESH:D001927
+39697232	537	539	AD	Disease	MESH:D000544
+39697232	662	664	AD	Disease	MESH:D000544
+39697232	771	773	AD	Disease	MESH:D000544
+39697232	1603	1614	Alzheimer's	Disease	MESH:D000544
+39697232	1624	1635	Alzheimer's	Disease	MESH:D000544
+

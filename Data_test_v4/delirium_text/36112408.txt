@@ -1,0 +1,15 @@
+36112408|t|Automatically Identifying Twitter Users for Interventions to Support Dementia Family Caregivers: Annotated Data Set and Benchmark Classification Models.
+36112408|a|BACKGROUND: More than 6 million people in the United States have Alzheimer disease and related dementias, receiving help from more than 11 million family or other informal caregivers. A range of traditional interventions has been developed to support family caregivers; however, most of them have not been implemented in practice and remain largely inaccessible. While recent studies have shown that family caregivers of people with dementia use Twitter to discuss their experiences, methods have not been developed to enable the use of Twitter for interventions. OBJECTIVE: The objective of this study is to develop an annotated data set and benchmark classification models for automatically identifying a cohort of Twitter users who have a family member with dementia. METHODS: Between May 4 and May 20, 2021, we collected 10,733 tweets, posted by 8846 users, that mention a dementia-related keyword, a linguistic marker that potentially indicates a diagnosis, and a select familial relationship. Three annotators annotated 1 random tweet per user to distinguish those that indicate having a family member with dementia from those that do not. Interannotator agreement was 0.82 (Fleiss kappa). We used the annotated tweets to train and evaluate support vector machine and deep neural network classifiers. To assess the scalability of our approach, we then deployed automatic classification on unlabeled tweets that were continuously collected between May 4, 2021, and March 9, 2022. RESULTS: A deep neural network classifier based on a BERT (bidirectional encoder representations from transformers) model pretrained on tweets achieved the highest F1-score of 0.962 (precision=0.946 and recall=0.979) for the class of tweets indicating that the user has a family member with dementia. The classifier detected 128,838 tweets that indicate having a family member with dementia, posted by 74,290 users between May 4, 2021, and March 9, 2022-that is, approximately 7500 users per month. CONCLUSIONS: Our annotated data set can be used to automatically identify Twitter users who have a family member with dementia, enabling the use of Twitter on a large scale to not only explore family caregivers' experiences but also directly target interventions at these users.
+36112408	69	77	Dementia	Disease	MESH:D003704
+36112408	185	191	people	Species	9606
+36112408	218	235	Alzheimer disease	Disease	MESH:D000544
+36112408	248	257	dementias	Disease	MESH:D003704
+36112408	574	580	people	Species	9606
+36112408	586	594	dementia	Disease	MESH:D003704
+36112408	914	922	dementia	Disease	MESH:D003704
+36112408	1030	1038	dementia	Disease	MESH:D003704
+36112408	1266	1274	dementia	Disease	MESH:D003704
+36112408	1929	1937	dementia	Disease	MESH:D003704
+36112408	2020	2028	dementia	Disease	MESH:D003704
+36112408	2255	2263	dementia	Disease	MESH:D003704
+

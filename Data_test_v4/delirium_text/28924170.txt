@@ -1,0 +1,65 @@
+28924170|t|The tyrosine phosphatase PTPN13/FAP-1 links calpain-2, TBI and tau tyrosine phosphorylation.
+28924170|a|Traumatic brain injury (TBI) increases the risk of Alzheimer's disease (AD). Calpain activation and tau hyperphosphorylation have been implicated in both TBI and AD. However, the link between calpain and tau phosphorylation has not been fully identified. We recently discovered that the two major calpain isoforms in the brain, calpain-1 and calpain-2, play opposite functions in synaptic plasticity and neuronal survival/death, which may be related to their different C-terminal PDZ binding motifs. Here, we identify the tyrosine phosphatase PTPN13 as a key PDZ binding partner of calpain-2. PTPN13 is cleaved by calpain-2, which inactivates its phosphatase activity and generates stable breakdown products (P13BPs). We also found that PTPN13 dephosphorylates and inhibits c-Abl. Following TBI, calpain-2 activation cleaved PTPN13, activated c-Abl and triggered tau tyrosine phosphorylation. The activation of this pathway was responsible for the accumulation of tau oligomers after TBI, as post-TBI injection of a calpain-2 selective inhibitor inhibited c-Abl activation and tau oligomer accumulation. Thus, the calpain-2-PTPN13-c-Abl pathway provides a direct link between calpain-2 activation and abnormal tau aggregation, which may promote tangle formation and accelerate the development of AD pathology after repeated concussions or TBI. This study suggests that P13BPs could be potential biomarkers to diagnose mTBI or AD.
+28924170	25	31	PTPN13	Gene	5783
+28924170	32	37	FAP-1	Gene	5783
+28924170	44	53	calpain-2	Gene	824
+28924170	55	58	TBI	Disease	MESH:D000070642
+28924170	63	66	tau	Gene	4137
+28924170	93	115	Traumatic brain injury	Disease	MESH:D000070642
+28924170	117	120	TBI	Disease	MESH:D000070642
+28924170	144	163	Alzheimer's disease	Disease	MESH:D000544
+28924170	165	167	AD	Disease	MESH:D000544
+28924170	193	196	tau	Gene	4137
+28924170	247	250	TBI	Disease	MESH:D000070642
+28924170	255	257	AD	Disease	MESH:D000544
+28924170	297	300	tau	Gene	4137
+28924170	421	430	calpain-1	Gene	823
+28924170	435	444	calpain-2	Gene	824
+28924170	497	505	neuronal	Disease	MESH:D009410
+28924170	515	520	death	Disease	MESH:D003643
+28924170	636	642	PTPN13	Gene	5783
+28924170	675	684	calpain-2	Gene	824
+28924170	686	692	PTPN13	Gene	5783
+28924170	707	716	calpain-2	Gene	824
+28924170	802	808	P13BPs	Chemical	-
+28924170	830	836	PTPN13	Gene	5783
+28924170	867	872	c-Abl	Gene	25
+28924170	884	887	TBI	Disease	MESH:D000070642
+28924170	889	898	calpain-2	Gene	824
+28924170	918	924	PTPN13	Gene	5783
+28924170	936	941	c-Abl	Gene	25
+28924170	956	959	tau	Gene	4137
+28924170	1077	1080	TBI	Disease	MESH:D000070642
+28924170	1090	1093	TBI	Disease	MESH:D000070642
+28924170	1109	1118	calpain-2	Gene	824
+28924170	1149	1154	c-Abl	Gene	25
+28924170	1207	1216	calpain-2	Gene	824
+28924170	1217	1223	PTPN13	Gene	5783
+28924170	1224	1229	c-Abl	Gene	25
+28924170	1269	1278	calpain-2	Gene	824
+28924170	1303	1306	tau	Gene	4137
+28924170	1389	1391	AD	Disease	MESH:D000544
+28924170	1417	1428	concussions	Disease	MESH:D001924
+28924170	1432	1435	TBI	Disease	MESH:D000070642
+28924170	1511	1515	mTBI	Disease	
+28924170	1519	1521	AD	Disease	MESH:D000544
+28924170	Association	MESH:D000070642	824
+28924170	Association	4137	5783
+28924170	Association	5783	824
+28924170	Association	MESH:D000070642	25
+28924170	Association	MESH:D000544	4137
+28924170	Association	25	4137
+28924170	Association	MESH:D000070642	5783
+28924170	Association	MESH:D009410	823
+28924170	Association	MESH:D001924	4137
+28924170	Association	MESH:D000544	824
+28924170	Negative_Correlation	25	5783
+28924170	Association	MESH:D003643	823
+28924170	Association	MESH:D009410	824
+28924170	Association	MESH:D000544	25
+28924170	Association	MESH:D003643	824
+28924170	Positive_Correlation	25	824
+28924170	Association	MESH:D000070642	4137
+28924170	Association	MESH:D000544	5783
+28924170	Positive_Correlation	4137	824
+

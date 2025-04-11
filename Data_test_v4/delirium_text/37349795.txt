@@ -1,0 +1,51 @@
+37349795|t|A genome-wide search for pleiotropy in more than 100,000 harmonized longitudinal cognitive domain scores.
+37349795|a|BACKGROUND: More than 75 common variant loci account for only a portion of the heritability for Alzheimer's disease (AD). A more complete understanding of the genetic basis of AD can be deduced by exploring associations with AD-related endophenotypes. METHODS: We conducted genome-wide scans for cognitive domain performance using harmonized and co-calibrated scores derived by confirmatory factor analyses for executive function, language, and memory. We analyzed 103,796 longitudinal observations from 23,066 members of community-based (FHS, ACT, and ROSMAP) and clinic-based (ADRCs and ADNI) cohorts using generalized linear mixed models including terms for SNP, age, SNP x age interaction, sex, education, and five ancestry principal components. Significance was determined based on a joint test of the SNP's main effect and interaction with age. Results across datasets were combined using inverse-variance meta-analysis. Genome-wide tests of pleiotropy for each domain pair as the outcome were performed using PLACO software. RESULTS: Individual domain and pleiotropy analyses revealed genome-wide significant (GWS) associations with five established loci for AD and AD-related disorders (BIN1, CR1, GRN, MS4A6A, and APOE) and eight novel loci. ULK2 was associated with executive function in the community-based cohorts (rs157405, P = 2.19 x 10-9). GWS associations for language were identified with CDK14 in the clinic-based cohorts (rs705353, P = 1.73 x 10-8) and LINC02712 in the total sample (rs145012974, P = 3.66 x 10-8). GRN (rs5848, P = 4.21 x 10-8) and PURG (rs117523305, P = 1.73 x 10-8) were associated with memory in the total and community-based cohorts, respectively. GWS pleiotropy was observed for language and memory with LOC107984373 (rs73005629, P = 3.12 x 10-8) in the clinic-based cohorts, and with NCALD (rs56162098, P = 1.23 x 10-9) and PTPRD (rs145989094, P = 8.34 x 10-9) in the community-based cohorts. GWS pleiotropy was also found for executive function and memory with OSGIN1 (rs12447050, P = 4.09 x 10-8) and PTPRD (rs145989094, P = 3.85 x 10-8) in the community-based cohorts. Functional studies have previously linked AD to ULK2, NCALD, and PTPRD. CONCLUSION: Our results provide some insight into biological pathways underlying processes leading to domain-specific cognitive impairment and AD, as well as a conduit toward a syndrome-specific precision medicine approach to AD. Increasing the number of participants with harmonized cognitive domain scores will enhance the discovery of additional genetic factors of cognitive decline leading to AD and related dementias.
+37349795	202	221	Alzheimer's disease	Disease	MESH:D000544
+37349795	223	225	AD	Disease	MESH:D000544
+37349795	282	284	AD	Disease	MESH:D000544
+37349795	331	333	AD	Disease	MESH:D000544
+37349795	1272	1274	AD	Disease	MESH:D000544
+37349795	1279	1299	AD-related disorders	Disease	MESH:D000544
+37349795	1301	1305	BIN1	Gene	274
+37349795	1307	1310	CR1	Gene	1378
+37349795	1312	1315	GRN	Gene	2896
+37349795	1317	1323	MS4A6A	Gene	64231
+37349795	1329	1333	APOE	Gene	348
+37349795	1357	1361	ULK2	Gene	9706
+37349795	1433	1441	rs157405	SNP	tmVar:rs157405;VariantGroup:1;CorrespondingGene:9706;RS#:157405;CorrespondingSpecies:9606
+37349795	1512	1517	CDK14	Gene	5218
+37349795	1547	1555	rs705353	SNP	tmVar:rs705353;VariantGroup:4;CorrespondingGene:5218;RS#:705353;CorrespondingSpecies:9606
+37349795	1609	1620	rs145012974	SNP	tmVar:rs145012974;VariantGroup:7;RS#:145012974
+37349795	1640	1643	GRN	Gene	2896
+37349795	1645	1651	rs5848	SNP	tmVar:rs5848;VariantGroup:5;CorrespondingGene:2896;RS#:5848;CorrespondingSpecies:9606
+37349795	1674	1678	PURG	Gene	29942
+37349795	1680	1691	rs117523305	SNP	tmVar:rs117523305;VariantGroup:8;RS#:117523305
+37349795	1865	1875	rs73005629	SNP	tmVar:rs73005629;VariantGroup:3;RS#:73005629
+37349795	1932	1937	NCALD	Gene	83988
+37349795	1939	1949	rs56162098	SNP	tmVar:rs56162098;VariantGroup:0;CorrespondingGene:83988;RS#:56162098;CorrespondingSpecies:9606
+37349795	1972	1977	PTPRD	Gene	5789
+37349795	1979	1990	rs145989094	SNP	tmVar:rs145989094;VariantGroup:6;CorrespondingGene:5789;RS#:145989094;CorrespondingSpecies:9606
+37349795	2110	2116	OSGIN1	Gene	29948
+37349795	2118	2128	rs12447050	SNP	tmVar:rs12447050;VariantGroup:2;CorrespondingGene:29948;RS#:12447050;CorrespondingSpecies:9606
+37349795	2151	2156	PTPRD	Gene	5789
+37349795	2158	2169	rs145989094	SNP	tmVar:rs145989094;VariantGroup:6;CorrespondingGene:5789;RS#:145989094;CorrespondingSpecies:9606
+37349795	2262	2264	AD	Disease	MESH:D000544
+37349795	2268	2272	ULK2	Gene	9706
+37349795	2274	2279	NCALD	Gene	83988
+37349795	2285	2290	PTPRD	Gene	5789
+37349795	2410	2430	cognitive impairment	Disease	MESH:D003072
+37349795	2435	2437	AD	Disease	MESH:D000544
+37349795	2518	2520	AD	Disease	MESH:D000544
+37349795	2660	2677	cognitive decline	Disease	MESH:D003072
+37349795	2689	2691	AD	Disease	MESH:D000544
+37349795	2704	2713	dementias	Disease	MESH:D003704
+37349795	Positive_Correlation	MESH:D000544	RS#:117523305
+37349795	Association	MESH:D003704	29948
+37349795	Association	MESH:D003072	29948
+37349795	Positive_Correlation	MESH:D000544	RS#:5848;CorrespondingGene:2896
+37349795	Association	MESH:D000544	274
+37349795	Association	MESH:D000544	1378
+37349795	Association	MESH:D000544	64231
+37349795	Association	MESH:D000544	2896
+37349795	Association	MESH:D000544	348
+

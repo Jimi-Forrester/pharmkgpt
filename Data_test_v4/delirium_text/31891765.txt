@@ -1,0 +1,19 @@
+31891765|t|Unsupervised machine learning for the discovery of latent disease clusters and patient subgroups using electronic health records.
+31891765|a|Machine learning has become ubiquitous and a key technology on mining electronic health records (EHRs) for facilitating clinical research and practice. Unsupervised machine learning, as opposed to supervised learning, has shown promise in identifying novel patterns and relations from EHRs without using human created labels. In this paper, we investigate the application of unsupervised machine learning models in discovering latent disease clusters and patient subgroups based on EHRs. We utilized Latent Dirichlet Allocation (LDA), a generative probabilistic model, and proposed a novel model named Poisson Dirichlet Model (PDM), which extends the LDA approach using a Poisson distribution to model patients' disease diagnoses and to alleviate age and sex factors by considering both observed and expected observations. In the empirical experiments, we evaluated LDA and PDM on three patient cohorts, namely Osteoporosis, Delirium/Dementia, and Chronic Obstructive Pulmonary Disease (COPD)/Bronchiectasis Cohorts, with their EHR data retrieved from the Rochester Epidemiology Project (REP) medical records linkage system, for the discovery of latent disease clusters and patient subgroups. We compared the effectiveness of LDA and PDM in identifying disease clusters through the visualization of disease representations. We tested the performance of LDA and PDM in differentiating patient subgroups through survival analysis, as well as statistical analysis of demographics and Elixhauser Comorbidity Index (ECI) scores in those subgroups. The experimental results show that the proposed PDM could effectively identify distinguished disease clusters based on the latent patterns hidden in the EHR data by alleviating the impact of age and sex, and that LDA could stratify patients into differentiable subgroups with larger p-values than PDM. However, those subgroups identified by LDA are highly associated with patients' age and sex. The subgroups discovered by PDM might imply the underlying patterns of diseases of greater interest in epidemiology research due to the alleviation of age and sex. Both unsupervised machine learning approaches could be leveraged to discover patient subgroups using EHRs but with different foci.
+31891765	79	86	patient	Species	9606
+31891765	434	439	human	Species	9606
+31891765	585	592	patient	Species	9606
+31891765	832	840	patients	Species	9606
+31891765	1017	1024	patient	Species	9606
+31891765	1041	1053	Osteoporosis	Disease	MESH:D010024
+31891765	1055	1063	Delirium	Disease	MESH:D003693
+31891765	1064	1072	Dementia	Disease	MESH:D003704
+31891765	1078	1115	Chronic Obstructive Pulmonary Disease	Disease	MESH:D029424
+31891765	1117	1121	COPD	Disease	MESH:D029424
+31891765	1123	1137	Bronchiectasis	Disease	MESH:D001987
+31891765	1304	1311	patient	Species	9606
+31891765	1514	1521	patient	Species	9606
+31891765	1905	1913	patients	Species	9606
+31891765	2045	2053	patients	Species	9606
+31891765	2309	2316	patient	Species	9606
+

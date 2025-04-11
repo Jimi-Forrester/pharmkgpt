@@ -1,0 +1,50 @@
+35432485|t|Integrative Analysis of Biomarkers and Mechanisms in Adamantinomatous Craniopharyngioma.
+35432485|a|Craniopharyngioma is a benign tumor, and the predominant treatment methods are surgical resection and radiotherapy. However, both treatments may lead to complex complications, seriously affecting patients' survival rate and quality of life. Adamantinomatous craniopharyngioma (ACP), as one of the histological subtypes of craniopharyngioma, is associated with a high incidence and poor prognosis, and there is a gap in the targeted therapy of immune-related genes for ACP. In this study, two gene expression profiles of ACP, namely GSE68015 and GSE94349, were downloaded from the Gene Expression Omnibus (GEO) database. The differentially expressed genes (DEGs) were identified by the Limma package, and 271 differentially expressed immune-related genes (DEIRGs) were obtained from the Immport database. The gene ontology (GO), Kyoto Encyclopedia of Genes and Genomes (KEGG), and Gene Set Enrichment Analysis (GSEA) were performed for annotation, visualization, and integrated discovery. Five hub genes, including CXCL6, CXCL10, CXCL11, CXCL13, and SAA1, were screened out through protein-protein interaction (PPI) network interaction construction. Two diagnostic markers, namely S100A2 and SDC1 (both of which have the Area Under Curve value of 1), were screened by the machine learning algorithm. CIBERSORT analysis showed that M2 macrophages, activated NK cells, and gamma delta T cells had higher abundance in ACP infiltration, while CD8+ T cells, regulatory T cells, and Neutrophils had less abundance in ACP infiltration. The expression of gamma delta T cells was positively correlated with CXCL6, S100A2, SDC1, and SAA1, while CD8+ T cells expression was negatively correlated with CXCL6, S100A2, SDC1, and CXCL10. ACP with high CXCL6 showed remarkable drug sensitivity to Pentostatin and Wortmannin via CellMiner database analysis. Our results deepened the understanding of the molecular immune mechanism in ACP and provided potential biomarkers for the precisely targeted therapy for ACP.
+35432485	53	87	Adamantinomatous Craniopharyngioma	Disease	MESH:D003397
+35432485	89	106	Craniopharyngioma	Disease	MESH:D003397
+35432485	112	124	benign tumor	Disease	MESH:D009369
+35432485	285	293	patients	Species	9606
+35432485	330	364	Adamantinomatous craniopharyngioma	Disease	MESH:D003397
+35432485	366	369	ACP	Disease	MESH:D003397
+35432485	411	428	craniopharyngioma	Disease	MESH:D003397
+35432485	557	560	ACP	Disease	MESH:D003397
+35432485	609	612	ACP	Disease	MESH:D003397
+35432485	1103	1108	CXCL6	Gene	6372
+35432485	1110	1116	CXCL10	Gene	3627
+35432485	1118	1124	CXCL11	Gene	6373
+35432485	1126	1132	CXCL13	Gene	10563
+35432485	1138	1142	SAA1	Gene	6288
+35432485	1269	1275	S100A2	Gene	6273
+35432485	1280	1284	SDC1	Gene	6382
+35432485	1503	1506	ACP	Disease	MESH:D003397
+35432485	1527	1530	CD8	Gene	925
+35432485	1599	1602	ACP	Disease	MESH:D003397
+35432485	1686	1691	CXCL6	Gene	6372
+35432485	1693	1699	S100A2	Gene	6273
+35432485	1701	1705	SDC1	Gene	6382
+35432485	1711	1715	SAA1	Gene	6288
+35432485	1723	1726	CD8	Gene	925
+35432485	1778	1783	CXCL6	Gene	6372
+35432485	1785	1791	S100A2	Gene	6273
+35432485	1793	1797	SDC1	Gene	6382
+35432485	1803	1809	CXCL10	Gene	3627
+35432485	1811	1814	ACP	Disease	MESH:D003397
+35432485	1825	1830	CXCL6	Gene	6372
+35432485	1869	1880	Pentostatin	Chemical	MESH:D015649
+35432485	1885	1895	Wortmannin	Chemical	MESH:D000077191
+35432485	2005	2008	ACP	Disease	MESH:D003397
+35432485	2082	2085	ACP	Disease	MESH:D003397
+35432485	Association	MESH:D003397	6373
+35432485	Association	MESH:D003397	3627
+35432485	Association	MESH:D003397	925
+35432485	Association	MESH:D015649	6372
+35432485	Association	MESH:D003397	6273
+35432485	Association	MESH:D003397	6372
+35432485	Association	MESH:D000077191	6372
+35432485	Association	MESH:D000077191	MESH:D003397
+35432485	Association	MESH:D003397	10563
+35432485	Association	MESH:D003397	6288
+35432485	Association	MESH:D003397	6382
+35432485	Association	MESH:D015649	MESH:D003397
+35432485	Association	3627	925
+

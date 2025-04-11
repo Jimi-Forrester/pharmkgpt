@@ -1,0 +1,56 @@
+29787821|t|SLC25A13 c.1610_1612delinsAT mutation in an Indian patient and literature review of 79 cases of citrin deficiency for genotype-phenotype associations.
+29787821|a|Here, we report SLC25A13 c.1610_1612delinsAT mutation from India in a 13-year old boy who presented with recurrent episodes of delirium and hyperammonemia. This is the second case with this mutation; the first case was of Pakistani origin. The boy responded to diet modification, sodium benzoate and arginine supplementation. Furthermore, we have aimed to establish genotype-phenotype correlation of 79 cases of citrin deficiency (46 males and 33 females) reported in 24 studies from all over the world. Inverse association was observed between age of onset and jaundice (r = -0.73). Late age of onset was associated with delirium (r = 0.61), aggressive behaviour (r = 0.67), altered sensorium (r = 0.67) and tremors (r = 0.65). The most common mutations associated with citrin deficiency were c.851_854del4, IVS16ins3kb, 1638-1660dup with a frequency of 42.41%, 16.46% and 6.33%, respectively. The c.851_854del4 mutation showed positive association with alpha feto protein (r = 0.40), ammonia (r = 0.50) and tyrosine (r = 0.40) while showing inverse association with threonine (r = -0.55). The IVS16ins3kb mutation was associated with high total (r = 0.65) and conjugated bilirubin (r = 0.54) along with high aspartate transaminase (r = 0.49) while citrulline levels are lower (r = -0.36). To conclude, all cases of intrahepatic cholestasis and neuropsychiatric abnormalities should be evaluated for citrin deficiency. However, the ethnic group-specific mutation frequencies should be considered in implementing screening.
+29787821	0	8	SLC25A13	Gene	10165
+29787821	9	28	c.1610_1612delinsAT	DNAMutation	tmVar:c|INDEL|1610_1612|AT;HGVS:c.1610_1612delinsAT;VariantGroup:1;CorrespondingGene:10165;CorrespondingSpecies:9606
+29787821	51	58	patient	Species	9606
+29787821	96	113	citrin deficiency	Disease	MESH:C538053
+29787821	167	175	SLC25A13	Gene	10165
+29787821	176	195	c.1610_1612delinsAT	DNAMutation	tmVar:c|INDEL|1610_1612|AT;HGVS:c.1610_1612delinsAT;VariantGroup:1;CorrespondingGene:10165;CorrespondingSpecies:9606
+29787821	278	286	delirium	Disease	MESH:D003693
+29787821	291	305	hyperammonemia	Disease	MESH:D022124
+29787821	431	446	sodium benzoate	Chemical	MESH:D020160
+29787821	451	459	arginine	Chemical	MESH:D001120
+29787821	563	580	citrin deficiency	Disease	MESH:C538053
+29787821	713	721	jaundice	Disease	MESH:D007565
+29787821	773	781	delirium	Disease	MESH:D003693
+29787821	794	814	aggressive behaviour	Disease	MESH:D010554
+29787821	860	867	tremors	Disease	MESH:D014202
+29787821	922	939	citrin deficiency	Disease	MESH:C538053
+29787821	945	958	c.851_854del4	DNAMutation	tmVar:c|DEL|851_854|4;HGVS:c.851_854del4;VariantGroup:2;CorrespondingGene:174;CorrespondingSpecies:9606
+29787821	973	985	1638-1660dup	DNAMutation	tmVar:c|DUP|1638_1660||;HGVS:c.1638_1660dup;VariantGroup:0;CorrespondingGene:10165;RS#:80338725;CorrespondingSpecies:9606
+29787821	1050	1063	c.851_854del4	DNAMutation	tmVar:c|DEL|851_854|4;HGVS:c.851_854del4;VariantGroup:2;CorrespondingGene:174;CorrespondingSpecies:9606
+29787821	1106	1124	alpha feto protein	Gene	174
+29787821	1137	1144	ammonia	Chemical	MESH:D000641
+29787821	1160	1168	tyrosine	Chemical	MESH:D014443
+29787821	1219	1228	threonine	Chemical	MESH:D013912
+29787821	1324	1333	bilirubin	Chemical	MESH:D001663
+29787821	1401	1411	citrulline	Chemical	MESH:D002956
+29787821	1468	1492	intrahepatic cholestasis	Disease	MESH:D002780
+29787821	1497	1527	neuropsychiatric abnormalities	Disease	MESH:D025063
+29787821	1552	1569	citrin deficiency	Disease	MESH:C538053
+29787821	Association	HGVS:c.1610_1612delinsAT;CorrespondingGene:10165	MESH:D003693
+29787821	Association	MESH:D014443	HGVS:c.851_854del4;CorrespondingGene:174
+29787821	Association	HGVS:c.1610_1612delinsAT;CorrespondingGene:10165	MESH:D022124
+29787821	Positive_Correlation	HGVS:c.851_854del4;CorrespondingGene:174	MESH:C538053
+29787821	Association	MESH:D014443	MESH:C538053
+29787821	Positive_Correlation	RS#:80338725;HGVS:c.1638_1660dup;CorrespondingGene:10165	MESH:C538053
+29787821	Positive_Correlation	HGVS:c.1610_1612delinsAT;CorrespondingGene:10165	MESH:C538053
+29787821	Association	MESH:D000641	HGVS:c.1610_1612delinsAT;CorrespondingGene:10165
+29787821	Association	MESH:D000641	HGVS:c.851_854del4;CorrespondingGene:174
+29787821	Negative_Correlation	MESH:D020160	MESH:D022124
+29787821	Association	MESH:D007565	10165
+29787821	Negative_Correlation	MESH:D020160	MESH:C538053
+29787821	Association	MESH:D001663	MESH:C538053
+29787821	Negative_Correlation	MESH:D001120	MESH:D003693
+29787821	Association	MESH:C538053	174
+29787821	Negative_Correlation	MESH:D001120	MESH:D022124
+29787821	Association	MESH:D014443	HGVS:c.1610_1612delinsAT;CorrespondingGene:10165
+29787821	Association	MESH:D003693	10165
+29787821	Association	MESH:D022124	10165
+29787821	Association	MESH:C538053	10165
+29787821	Negative_Correlation	MESH:D001120	MESH:C538053
+29787821	Association	MESH:D003693	10165
+29787821	Association	MESH:D022124	10165
+29787821	Association	MESH:C538053	174
+29787821	Association	MESH:C538053	10165
+

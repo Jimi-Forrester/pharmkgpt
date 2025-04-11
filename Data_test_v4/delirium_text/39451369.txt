@@ -1,0 +1,19 @@
+39451369|t|A Novel Detection and Classification Framework for Diagnosing of Cerebral Microbleeds Using Transformer and Language.
+39451369|a|The detection of Cerebral Microbleeds (CMBs) is crucial for diagnosing cerebral small vessel disease. However, due to the small size and subtle appearance of CMBs in susceptibility-weighted imaging (SWI), manual detection is both time-consuming and labor-intensive. Meanwhile, the presence of similar-looking features in SWI images demands significant expertise from clinicians, further complicating this process. Recently, there has been a significant advancement in automated detection of CMBs using a Convolutional Neural Network (CNN) structure, aiming at enhancing diagnostic efficiency for neurologists. However, existing methods still show discrepancies when compared to the actual clinical diagnostic process. To bridge this gap, we introduce a novel multimodal detection and classification framework for CMBs' diagnosis, termed MM-UniCMBs. This framework includes a light-weight detection model and a multi-modal classification network. Specifically, we proposed a new CMBs detection network, CMBs-YOLO, designed to capture the salient features of CMBs in SWI images. Additionally, we design an innovative language-vision classification network, CMBsFormer (CF), which integrates patient textual descriptions-such as gender, age, and medical history-with image data. The MM-UniCMBs framework is designed to closely align with the diagnostic workflow of clinicians, offering greater interpretability and flexibility compared to existing methods. Extensive experimental results show that MM-UniCMBs achieves a sensitivity of 94% in CMBs' classification and can process a patient's data within 5 s.
+39451369	65	85	Cerebral Microbleeds	Disease	MESH:D002547
+39451369	135	155	Cerebral Microbleeds	Disease	MESH:D002547
+39451369	157	161	CMBs	Disease	MESH:D002547
+39451369	189	218	cerebral small vessel disease	Disease	MESH:D059345
+39451369	276	280	CMBs	Disease	MESH:D002547
+39451369	609	613	CMBs	Disease	MESH:D002547
+39451369	931	935	CMBs	Disease	MESH:D002547
+39451369	955	957	MM	Disease	
+39451369	1096	1100	CMBs	Disease	MESH:D002547
+39451369	1120	1124	CMBs	Disease	MESH:D002547
+39451369	1175	1179	CMBs	Disease	MESH:D002547
+39451369	1307	1314	patient	Species	9606
+39451369	1398	1400	MM	Disease	
+39451369	1613	1615	MM	Disease	
+39451369	1657	1661	CMBs	Disease	MESH:D002547
+39451369	1696	1703	patient	Species	9606
+

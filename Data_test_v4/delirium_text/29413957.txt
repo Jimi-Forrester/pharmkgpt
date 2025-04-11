@@ -1,0 +1,67 @@
+29413957|t|2-Chlorohexadecanoic acid induces ER stress and mitochondrial dysfunction in brain microvascular endothelial cells.
+29413957|a|Peripheral leukocytes induce blood-brain barrier (BBB) dysfunction through the release of cytotoxic mediators. These include hypochlorous acid (HOCl) that is formed via the myeloperoxidase-H2O2-chloride system of activated phagocytes. HOCl targets the endogenous pool of ether phospholipids (plasmalogens) generating chlorinated inflammatory mediators like e.g. 2-chlorohexadecanal and its conversion product 2-chlorohexadecanoic acid (2-ClHA). In the cerebrovasculature these compounds inflict damage to brain microvascular endothelial cells (BMVEC) that form the morphological basis of the BBB. To follow subcellular trafficking of 2-ClHA we synthesized a 'clickable' alkyne derivative (2-ClHyA) that phenocopied the biological activity of the parent compound. Confocal and superresolution structured illumination microscopy revealed accumulation of 2-ClHyA in the endoplasmic reticulum (ER) and mitochondria of human BMVEC (hCMEC/D3 cell line). 2-ClHA and its alkyne analogue interfered with protein palmitoylation, induced ER-stress markers, reduced the ER ATP content, and activated transcription and secretion of interleukin (IL)-6 as well as IL-8. 2-ClHA disrupted the mitochondrial membrane potential and induced procaspase-3 and PARP cleavage. The protein kinase R-like ER kinase (PERK) inhibitor GSK2606414 suppressed 2-ClHA-mediated activating transcription factor 4 synthesis and IL-6/8 secretion, but showed no effect on endothelial barrier dysfunction and cleavage of procaspase-3. Our data indicate that 2-ClHA induces potent lipotoxic responses in brain endothelial cells and could have implications in inflammation-induced BBB dysfunction.
+29413957	0	25	2-Chlorohexadecanoic acid	Chemical	MESH:C532464
+29413957	48	73	mitochondrial dysfunction	Disease	MESH:D028361
+29413957	150	182	-brain barrier (BBB) dysfunction	Disease	MESH:C536830
+29413957	241	258	hypochlorous acid	Chemical	MESH:D006997
+29413957	260	264	HOCl	Chemical	MESH:D006997
+29413957	289	304	myeloperoxidase	Gene	4353
+29413957	305	309	H2O2	Chemical	MESH:D006861
+29413957	310	318	chloride	Chemical	MESH:D002712
+29413957	351	355	HOCl	Chemical	MESH:D006997
+29413957	387	406	ether phospholipids	Chemical	MESH:D010742
+29413957	408	420	plasmalogens	Chemical	MESH:D010955
+29413957	445	457	inflammatory	Disease	MESH:D007249
+29413957	478	497	2-chlorohexadecanal	Chemical	MESH:C432398
+29413957	525	550	2-chlorohexadecanoic acid	Chemical	MESH:C532464
+29413957	552	558	2-ClHA	Chemical	MESH:C532464
+29413957	660	665	BMVEC	CellLine	CVCL:A1BE
+29413957	750	756	2-ClHA	Chemical	MESH:C532464
+29413957	786	792	alkyne	Chemical	MESH:D000480
+29413957	1030	1035	human	Species	9606
+29413957	1036	1041	BMVEC	CellLine	CVCL:A1BE
+29413957	1043	1051	hCMEC/D3	CellLine	CVCL:U985
+29413957	1064	1070	2-ClHA	Chemical	MESH:C532464
+29413957	1079	1085	alkyne	Chemical	MESH:D000480
+29413957	1177	1180	ATP	Chemical	MESH:D000255
+29413957	1235	1253	interleukin (IL)-6	Gene	3569
+29413957	1265	1269	IL-8	Gene	3576
+29413957	1271	1277	2-ClHA	Chemical	MESH:C532464
+29413957	1337	1349	procaspase-3	Gene	836
+29413957	1354	1358	PARP	Gene	142
+29413957	1373	1404	protein kinase R-like ER kinase	Gene	9451
+29413957	1406	1410	PERK	Gene	9451
+29413957	1422	1432	GSK2606414	Chemical	MESH:C576403
+29413957	1444	1450	2-ClHA	Chemical	MESH:C532464
+29413957	1471	1493	transcription factor 4	Gene	6925
+29413957	1508	1514	IL-6/8	Gene	3569;3576
+29413957	1598	1610	procaspase-3	Gene	836
+29413957	1635	1641	2-ClHA	Chemical	MESH:C532464
+29413957	1657	1666	lipotoxic	Disease	
+29413957	1735	1747	inflammation	Disease	MESH:D007249
+29413957	1756	1771	BBB dysfunction	Disease	MESH:C536830
+29413957	Negative_Correlation	MESH:C532464	MESH:D000255
+29413957	Negative_Correlation	MESH:C576403	3569
+29413957	Positive_Correlation	MESH:D002712	MESH:D006997
+29413957	Negative_Correlation	MESH:C576403	6925
+29413957	Positive_Correlation	MESH:C432398	MESH:D007249
+29413957	Positive_Correlation	MESH:D000480	3569
+29413957	Positive_Correlation	MESH:D006997	4353
+29413957	Positive_Correlation	MESH:D000480	3576
+29413957	Association	MESH:C532464	MESH:C536830
+29413957	Negative_Correlation	MESH:C576403	9451
+29413957	Positive_Correlation	MESH:C432398	MESH:D006997
+29413957	Negative_Correlation	MESH:C576403	3576
+29413957	Negative_Correlation	MESH:D000255	MESH:D000480
+29413957	Positive_Correlation	MESH:D006997	MESH:D007249
+29413957	Positive_Correlation	MESH:C532464	3569
+29413957	Association	MESH:C532464	6925
+29413957	Negative_Correlation	MESH:C532464	MESH:C576403
+29413957	Association	MESH:C532464	9451
+29413957	Positive_Correlation	MESH:C532464	3576
+29413957	Positive_Correlation	MESH:C532464	MESH:D007249
+29413957	Association	MESH:C532464	836
+29413957	Association	MESH:C532464	142
+29413957	Positive_Correlation	MESH:C532464	MESH:D028361
+29413957	Association	MESH:D006997	MESH:D010742
+

@@ -1,0 +1,15 @@
+37838818|t|Continuous visualization and validation of pain in critically ill patients using artificial intelligence: a retrospective observational study.
+37838818|a|Machine learning tools have demonstrated viability in visualizing pain accurately using vital sign data; however, it remains uncertain whether incorporating individual patient baselines could enhance accuracy. This study aimed to investigate improving the accuracy by incorporating deviations from baseline patient vital signs and the concurrence of the predicted artificial intelligence values with the probability of critical care pain observation tool (CPOT) >= 3 after fentanyl administration. The study included adult patients in intensive care who underwent multiple pain-related assessments. We employed a random forest model, utilizing arterial pressure, heart rate, respiratory rate, gender, age, and Richmond Agitation-Sedation Scale score as explanatory variables. Pain was measured as the probability of CPOT scores of >= 3, and subsequently adjusted based on each patient's baseline. The study included 10,299 patients with 117,190 CPOT assessments. Of these, 3.3% had CPOT scores of >= 3. The random forest model demonstrated strong accuracy with an area under the receiver operating characteristic curve of 0.903. Patients treated with fentanyl were grouped based on CPOT score improvement. Those with >= 1-h of improvement after fentanyl administration had a significantly lower pain index (P = 0.020). Therefore, incorporating deviations from baseline patient vital signs improved the accuracy of pain visualization using machine learning techniques.
+37838818	43	47	pain	Disease	MESH:D010146
+37838818	51	65	critically ill	Disease	MESH:D016638
+37838818	209	213	pain	Disease	MESH:D010146
+37838818	576	580	pain	Disease	MESH:D010146
+37838818	616	624	fentanyl	Chemical	MESH:D005283
+37838818	716	720	pain	Disease	MESH:D010146
+37838818	919	923	Pain	Disease	MESH:D010146
+37838818	1294	1302	fentanyl	Chemical	MESH:D005283
+37838818	1388	1396	fentanyl	Chemical	MESH:D005283
+37838818	1438	1442	pain	Disease	MESH:D010146
+37838818	1557	1561	pain	Disease	MESH:D010146
+37838818	Negative_Correlation	MESH:D005283	MESH:D010146
+

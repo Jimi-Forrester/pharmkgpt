@@ -1,0 +1,56 @@
+21375738|t|TRPM8 and Nav1.8 sodium channels are required for transthyretin-induced calcium influx in growth cones of small-diameter TrkA-positive sensory neurons.
+21375738|a|BACKGROUND: Familial amyloidotic polyneuropathy (FAP) is a peripheral neuropathy caused by the extracellular accumulation and deposition of insoluble transthyretin (TTR) aggregates. However the molecular mechanism that underlies TTR toxicity in peripheral nerves is unclear. Previous studies have suggested that amyloidogenic proteins can aggregate into oligomers which disrupt intracellular calcium homeostasis by increasing the permeability of the plasma membrane to extracellular calcium. The aim of the present study was to examine the effect of TTR on calcium influx in dorsal root ganglion neurons. RESULTS: Levels of intracellular cytosolic calcium were monitored in dorsal root ganglion (DRG) neurons isolated from embryonic rats using the calcium-sensitive fluorescent indicator Fluo4. An amyloidogenic mutant form of TTR, L55P, induced calcium influx into the growth cones of DRG neurons, whereas wild-type TTR had no significant effect. Atomic force microscopy and dynamic light scattering studies confirmed that the L55P TTR contained oligomeric species of TTR. The effect of L55P TTR was decreased by blockers of voltage-gated calcium channels (VGCC), as well as by blockers of Nav1.8 voltage-gated sodium channels and transient receptor potential M8 (TRPM8) channels. siRNA knockdown of TRPM8 channels using three different TRPM8 siRNAs strongly inhibited calcium influx in DRG growth cones. CONCLUSIONS: These data suggest that activation of TRPM8 channels triggers the activation of Nav1.8 channels which leads to calcium influx through VGCC. We suggest that TTR-induced calcium influx into DRG neurons may contribute to the pathophysiology of FAP. Furthermore, we speculate that similar mechanisms may mediate the toxic effects of other amyloidogenic proteins such as the beta-amyloid protein of Alzheimer's disease.
+21375738	0	5	TRPM8	Gene	171384
+21375738	10	16	Nav1.8	Gene	29571
+21375738	50	63	transthyretin	Gene	24856
+21375738	72	79	calcium	Chemical	MESH:D002118
+21375738	121	125	TrkA	Gene	59109
+21375738	164	199	Familial amyloidotic polyneuropathy	Disease	MESH:D028227
+21375738	201	204	FAP	Disease	MESH:D028227
+21375738	211	232	peripheral neuropathy	Disease	MESH:D010523
+21375738	302	315	transthyretin	Gene	24856
+21375738	317	320	TTR	Gene	24856
+21375738	381	384	TTR	Gene	24856
+21375738	385	393	toxicity	Disease	MESH:D064420
+21375738	544	551	calcium	Chemical	MESH:D002118
+21375738	635	642	calcium	Chemical	MESH:D002118
+21375738	702	705	TTR	Gene	24856
+21375738	709	716	calcium	Chemical	MESH:D002118
+21375738	800	807	calcium	Chemical	MESH:D002118
+21375738	885	889	rats	Species	10116
+21375738	900	907	calcium	Chemical	MESH:D002118
+21375738	940	945	Fluo4	Chemical	MESH:C409648
+21375738	979	982	TTR	Gene	24856
+21375738	984	988	L55P	ProteinMutation	tmVar:p|SUB|L|55|P;HGVS:p.L55P;VariantGroup:0;OriginalGene:24856;CorrespondingGene:7276;CorrespondingSpecies:10116
+21375738	998	1005	calcium	Chemical	MESH:D002118
+21375738	1069	1072	TTR	Gene	24856
+21375738	1180	1184	L55P	ProteinMutation	tmVar:p|SUB|L|55|P;HGVS:p.L55P;VariantGroup:0;OriginalGene:24856;CorrespondingGene:7276;CorrespondingSpecies:10116
+21375738	1185	1188	TTR	Gene	24856
+21375738	1221	1224	TTR	Gene	24856
+21375738	1240	1244	L55P	ProteinMutation	tmVar:p|SUB|L|55|P;HGVS:p.L55P;VariantGroup:0;OriginalGene:24856;CorrespondingGene:7276;CorrespondingSpecies:10116
+21375738	1245	1248	TTR	Gene	24856
+21375738	1343	1349	Nav1.8	Gene	29571
+21375738	1384	1415	transient receptor potential M8	Gene	171384
+21375738	1417	1422	TRPM8	Gene	171384
+21375738	1453	1458	TRPM8	Gene	171384
+21375738	1490	1495	TRPM8	Gene	171384
+21375738	1522	1529	calcium	Chemical	MESH:D002118
+21375738	1609	1614	TRPM8	Gene	171384
+21375738	1682	1689	calcium	Chemical	MESH:D002118
+21375738	1727	1730	TTR	Gene	24856
+21375738	1739	1746	calcium	Chemical	MESH:D002118
+21375738	1812	1815	FAP	Disease	MESH:D028227
+21375738	1965	1984	Alzheimer's disease	Disease	MESH:D000544
+21375738	Association	MESH:D002118	MESH:D028227
+21375738	Positive_Correlation	MESH:D002118	HGVS:p.L55P;CorrespondingGene:7276
+21375738	Association	171384	24856
+21375738	Association	MESH:D064420	24856
+21375738	Positive_Correlation	MESH:D002118	24856
+21375738	Association	24856	29571
+21375738	Association	MESH:D002118	171384
+21375738	Association	MESH:D028227	171384
+21375738	Association	MESH:D002118	29571
+21375738	Association	MESH:D028227	24856
+21375738	Association	MESH:C409648	MESH:D002118
+21375738	Association	24856	59109
+

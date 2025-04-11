@@ -1,0 +1,52 @@
+38953409|t|Mecp2 promotes the anti-inflammatory effect of alpinetin via epigenetic modification crosstalk.
+38953409|a|In recent years, inflammatory disorders have emerged as a significant concern for human health. Through ongoing research on anti-inflammatory agents, alpinetin has shown promising anti-inflammatory properties, including involvement in epigenetic modification pathways. As a crucial regulator of epigenetic modifications, Mecp2 may play a role in modulating the epigenetic effects of alpinetin, potentially impacting its anti-inflammatory properties. To test this hypothesis, two key components, p65 (a member of NF-KB family) and p300 (a type of co-activator), were screened by the expression profiling microarray, which exhibited a strong correlation with the intensity of LPS stimulation in mouse macrophages. Meanwhile, alpinetin demonstrates the anti-inflammatory properties through its ability to disrupt the synthesis of p65 and its interaction with promoters of inflammatory genes, yet it did not exhibit similar effects on p300. Additionally, Mecp2 can inhibit the binding of p300 by attaching to the methylated inflammatory gene promoter induced by alpinetin, leading to obstacles in promoter acetylation and subsequently impacting the binding of p65, ultimately enhancing the anti-inflammatory capabilities of alpinetin. Similarly, in a sepsis mouse model, it was observed that homozygotes overexpressing Mecp2 showed a greater reduction in organ damage and improved survival rates compared to heterozygotes when administered by alpinetin. However, blocking the expression of DNA methyltransferase 3A (DNMT3A) resulted in the loss of Mecp2's anti-inflammatory assistance. In conclusion, Mecp2 may augment the anti-inflammatory effects of alpinetin through epigenetic 'crosstalk', highlighting the potential efficacy of a combined therapeutic strategy involving Mecp2 and alpinetin for anti-inflammatory intervention.
+38953409	0	5	Mecp2	Gene	17257
+38953409	24	36	inflammatory	Disease	MESH:D007249
+38953409	113	135	inflammatory disorders	Disease	MESH:D007249
+38953409	178	183	human	Species	9606
+38953409	225	237	inflammatory	Disease	MESH:D007249
+38953409	281	293	inflammatory	Disease	MESH:D007249
+38953409	417	422	Mecp2	Gene	17257
+38953409	521	533	inflammatory	Disease	MESH:D007249
+38953409	591	594	p65	Gene	19697
+38953409	626	630	p300	Gene	328572
+38953409	770	773	LPS	Chemical	MESH:D008070
+38953409	789	794	mouse	Species	10090
+38953409	819	828	alpinetin	Chemical	MESH:C436748
+38953409	851	863	inflammatory	Disease	MESH:D007249
+38953409	923	926	p65	Gene	19697
+38953409	965	977	inflammatory	Disease	MESH:D007249
+38953409	1027	1031	p300	Gene	328572
+38953409	1047	1052	Mecp2	Gene	17257
+38953409	1080	1084	p300	Gene	328572
+38953409	1116	1128	inflammatory	Disease	MESH:D007249
+38953409	1252	1255	p65	Gene	19697
+38953409	1287	1299	inflammatory	Disease	MESH:D007249
+38953409	1343	1349	sepsis	Disease	MESH:D018805
+38953409	1350	1355	mouse	Species	10090
+38953409	1411	1416	Mecp2	Gene	17257
+38953409	1447	1459	organ damage	Disease	MESH:D000092124
+38953409	1535	1544	alpinetin	Chemical	MESH:C436748
+38953409	1582	1606	DNA methyltransferase 3A	Gene	13435
+38953409	1608	1614	DNMT3A	Gene	13435
+38953409	1640	1645	Mecp2	Gene	17257
+38953409	1653	1665	inflammatory	Disease	MESH:D007249
+38953409	1693	1698	Mecp2	Gene	17257
+38953409	1720	1732	inflammatory	Disease	MESH:D007249
+38953409	1867	1872	Mecp2	Gene	17257
+38953409	1896	1908	inflammatory	Disease	MESH:D007249
+38953409	Association	MESH:C436748	17257
+38953409	Association	17257	19697
+38953409	Negative_Correlation	MESH:C436748	MESH:D000092124
+38953409	Association	MESH:D007249	17257
+38953409	Association	13435	17257
+38953409	Association	MESH:D007249	19697
+38953409	Negative_Correlation	17257	328572
+38953409	Association	MESH:D008070	328572
+38953409	Negative_Correlation	MESH:D000092124	17257
+38953409	Negative_Correlation	MESH:C436748	MESH:D007249
+38953409	Association	MESH:D008070	19697
+38953409	Negative_Correlation	MESH:C436748	MESH:D018805
+38953409	Negative_Correlation	MESH:C436748	19697
+38953409	Association	MESH:D018805	17257
+

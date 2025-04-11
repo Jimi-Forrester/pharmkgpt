@@ -1,0 +1,37 @@
+23471985|t|Genome-wide scan of healthy human connectome discovers SPON1 gene variant influencing dementia severity.
+23471985|a|Aberrant connectivity is implicated in many neurological and psychiatric disorders, including Alzheimer's disease and schizophrenia. However, other than a few disease-associated candidate genes, we know little about the degree to which genetics play a role in the brain networks; we know even less about specific genes that influence brain connections. Twin and family-based studies can generate estimates of overall genetic influences on a trait, but genome-wide association scans (GWASs) can screen the genome for specific variants influencing the brain or risk for disease. To identify the heritability of various brain connections, we scanned healthy young adult twins with high-field, high-angular resolution diffusion MRI. We adapted GWASs to screen the brain's connectivity pattern, allowing us to discover genetic variants that affect the human brain's wiring. The association of connectivity with the SPON1 variant at rs2618516 on chromosome 11 (11p15.2) reached connectome-wide, genome-wide significance after stringent statistical corrections were enforced, and it was replicated in an independent subsample. rs2618516 was shown to affect brain structure in an elderly population with varying degrees of dementia. Older people who carried the connectivity variant had significantly milder clinical dementia scores and lower risk of Alzheimer's disease. As a posthoc analysis, we conducted GWASs on several organizational and topological network measures derived from the matrices to discover variants in and around genes associated with autism (MACROD2), development (NEDD4), and mental retardation (UBE2A) significantly associated with connectivity. Connectome-wide, genome-wide screening offers substantial promise to discover genes affecting brain connectivity and risk for brain diseases.
+23471985	28	33	human	Species	9606
+23471985	55	60	SPON1	Gene	10418
+23471985	86	94	dementia	Disease	MESH:D003704
+23471985	149	187	neurological and psychiatric disorders	Disease	MESH:D001523
+23471985	199	218	Alzheimer's disease	Disease	MESH:D000544
+23471985	223	236	schizophrenia	Disease	MESH:D012559
+23471985	952	957	human	Species	9606
+23471985	1015	1020	SPON1	Gene	10418
+23471985	1032	1041	rs2618516	SNP	tmVar:rs2618516;VariantGroup:0;CorrespondingGene:10418;RS#:2618516;CorrespondingSpecies:9606
+23471985	1045	1058	chromosome 11	Chromosome	11
+23471985	1060	1067	11p15.2	Chromosome	11
+23471985	1225	1234	rs2618516	SNP	tmVar:rs2618516;VariantGroup:0;CorrespondingGene:10418;RS#:2618516;CorrespondingSpecies:9606
+23471985	1320	1328	dementia	Disease	MESH:D003704
+23471985	1414	1422	dementia	Disease	MESH:D003704
+23471985	1448	1467	Alzheimer's disease	Disease	MESH:D000544
+23471985	1653	1659	autism	Disease	MESH:D001321
+23471985	1661	1668	MACROD2	Gene	140733
+23471985	1684	1689	NEDD4	Gene	4734
+23471985	1696	1714	mental retardation	Disease	MESH:D008607
+23471985	1716	1721	UBE2A	Gene	7319
+23471985	1893	1907	brain diseases	Disease	MESH:D001927
+23471985	Association	MESH:D003704	RS#:2618516;CorrespondingGene:10418
+23471985	Negative_Correlation	MESH:D000544	RS#:2618516;CorrespondingGene:10418
+23471985	Association	MESH:D008607	7319
+23471985	Association	MESH:D012559	10418
+23471985	Association	MESH:D001321	RS#:2618516;CorrespondingGene:10418
+23471985	Association	MESH:D001321	4734
+23471985	Association	MESH:D000544	10418
+23471985	Association	MESH:D001321	140733
+23471985	Association	MESH:D001321	7319
+23471985	Association	MESH:D003704	10418
+23471985	Association	MESH:D003704	10418
+23471985	Association	MESH:D000544	10418
+23471985	Association	MESH:D001321	10418
+

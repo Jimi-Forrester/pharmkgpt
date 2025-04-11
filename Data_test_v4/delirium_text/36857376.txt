@@ -1,0 +1,20 @@
+36857376|t|Machine learning-based prediction of intraoperative hypoxemia for pediatric patients.
+36857376|a|BACKGROUND: Reducing the duration of intraoperative hypoxemia in pediatric patients by means of rapid detection and early intervention is considered crucial by clinicians. We aimed to develop and validate a machine learning model that can predict intraoperative hypoxemia events 1 min ahead in children undergoing general anesthesia. METHODS: This retrospective study used prospectively collected intraoperative vital signs and parameters from the anesthesia ventilator machine extracted every 2 s in pediatric patients undergoing surgery under general anesthesia between January 2019 and October 2020 in a tertiary academic hospital. Intraoperative hypoxemia was defined as oxygen saturation <95% at any point during surgery. Three common machine learning techniques were employed to develop models using the training dataset: gradient-boosting machine (GBM), long short-term memory (LSTM), and transformer. The performances of the models were compared using the area under the receiver operating characteristics curve using randomly assigned internal testing dataset. We also validated the developed models using temporal holdout dataset. Pediatric patient surgery cases between November 2020 and January 2021 were used. The performances of the models were compared using the area under the receiver operating characteristic curve (AUROC). RESULTS: In total, 1,540 (11.73%) patients with intraoperative hypoxemia out of 13,130 patients' records with 2,367 episodes were included for developing the model dataset. After model development, 200 (13.25%) of the 1,510 patients' records with 289 episodes were used for holdout validation. Among the models developed, the GBM had the highest AUROC of 0.904 (95% confidence interval [CI] 0.902 to 0.906), which was significantly higher than that of the LSTM (0.843, 95% CI 0.840 to 0.846 P < .001) and the transformer model (0.885, 95% CI, 0.882-0.887, P < .001). In holdout validation, GBM also demonstrated best performance with an AUROC of 0.939 (95% CI 0.936 to 0.941) which was better than LSTM (0.904, 95% CI 0.900 to 0.907, P < .001) and the transformer model (0.929, 95% CI 0.926 to 0.932, P < .001). CONCLUSIONS: Machine learning models can be used to predict upcoming intraoperative hypoxemia in real-time based on the biosignals acquired by patient monitors, which can be useful for clinicians for prediction and proactive treatment of hypoxemia in an intraoperative setting.
+36857376	52	61	hypoxemia	Disease	MESH:D000860
+36857376	76	84	patients	Species	9606
+36857376	138	147	hypoxemia	Disease	MESH:D000860
+36857376	161	169	patients	Species	9606
+36857376	348	357	hypoxemia	Disease	MESH:D000860
+36857376	597	605	patients	Species	9606
+36857376	736	745	hypoxemia	Disease	MESH:D000860
+36857376	761	767	oxygen	Chemical	MESH:D010100
+36857376	1237	1244	patient	Species	9606
+36857376	1462	1470	patients	Species	9606
+36857376	1491	1500	hypoxemia	Disease	MESH:D000860
+36857376	1515	1523	patients	Species	9606
+36857376	1652	1660	patients	Species	9606
+36857376	2324	2333	hypoxemia	Disease	MESH:D000860
+36857376	2383	2390	patient	Species	9606
+36857376	2478	2487	hypoxemia	Disease	MESH:D000860
+36857376	Association	MESH:D010100	MESH:D000860
+

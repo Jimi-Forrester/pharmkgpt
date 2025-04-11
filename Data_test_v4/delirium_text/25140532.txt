@@ -1,0 +1,16 @@
+25140532|t|An efficient approach for differentiating Alzheimer's disease from normal elderly based on multicenter MRI using gray-level invariant features.
+25140532|a|Machine learning techniques, along with imaging markers extracted from structural magnetic resonance images, have been shown to increase the accuracy to differentiate patients with Alzheimer's disease (AD) from normal elderly controls. Several forms of anatomical features, such as cortical volume, shape, and thickness, have demonstrated discriminative capability. These approaches rely on accurate non-linear image transformation, which could invite several nuisance factors, such as dependency on transformation parameters and the degree of anatomical abnormality, and an unpredictable influence of residual registration errors. In this study, we tested a simple method to extract disease-related anatomical features, which is suitable for initial stratification of the heterogeneous patient populations often encountered in clinical data. The method employed gray-level invariant features, which were extracted from linearly transformed images, to characterize AD-specific anatomical features. The intensity information from a disease-specific spatial masking, which was linearly registered to each patient, was used to capture the anatomical features. We implemented a two-step feature selection for anatomic recognition. First, a statistic-based feature selection was implemented to extract AD-related anatomical features while excluding non-significant features. Then, seven knowledge-based ROIs were used to capture the local discriminative powers of selected voxels within areas that were sensitive to AD or mild cognitive impairment (MCI). The discriminative capability of the proposed feature was measured by its performance in differentiating AD or MCI from normal elderly controls (NC) using a support vector machine. The statistic-based feature selection, together with the knowledge-based masks, provided a promising solution for capturing anatomical features of the brain efficiently. For the analysis of clinical populations, which are inherently heterogeneous, this approach could stratify the large amount of data rapidly and could be combined with more detailed subsequent analyses based on non-linear transformation. 
+25140532	42	61	Alzheimer's disease	Disease	MESH:D000544
+25140532	311	319	patients	Species	9606
+25140532	325	344	Alzheimer's disease	Disease	MESH:D000544
+25140532	346	348	AD	Disease	MESH:D000544
+25140532	931	938	patient	Species	9606
+25140532	1109	1111	AD	Disease	MESH:D000544
+25140532	1247	1254	patient	Species	9606
+25140532	1441	1443	AD	Disease	MESH:D000544
+25140532	1655	1657	AD	Disease	MESH:D000544
+25140532	1666	1686	cognitive impairment	Disease	MESH:D003072
+25140532	1688	1691	MCI	Disease	MESH:D060825
+25140532	1799	1801	AD	Disease	MESH:D000544
+25140532	1805	1808	MCI	Disease	MESH:D060825
+

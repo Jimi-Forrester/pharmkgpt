@@ -1,0 +1,26 @@
+29234599|t|Selecting the most relevant brain regions to discriminate Alzheimer's disease patients from healthy controls using multiple kernel learning: A comparison across functional and structural imaging modalities and atlases.
+29234599|a|BACKGROUND: Machine learning techniques such as support vector machine (SVM) have been applied recently in order to accurately classify individuals with neuropsychiatric disorders such as Alzheimer's disease (AD) based on neuroimaging data. However, the multivariate nature of the SVM approach often precludes the identification of the brain regions that contribute most to classification accuracy. Multiple kernel learning (MKL) is a sparse machine learning method that allows the identification of the most relevant sources for the classification. By parcelating the brain into regions of interest (ROI) it is possible to use each ROI as a source to MKL (ROI-MKL). METHODS: We applied MKL to multimodal neuroimaging data in order to: 1) compare the diagnostic performance of ROI-MKL and whole-brain SVM in discriminating patients with AD from demographically matched healthy controls and 2) identify the most relevant brain regions to the classification. We used two atlases (AAL and Brodmann's) to parcelate the brain into ROIs and applied ROI-MKL to structural (T1) MRI, 18F-FDG-PET and regional cerebral blood flow SPECT (rCBF-SPECT) data acquired from the same subjects (20 patients with early AD and 18 controls). In ROI-MKL, each ROI received a weight (ROI-weight) that indicated the region's relevance to the classification. For each ROI, we also calculated whether there was a predominance of voxels indicating decreased or increased regional activity (for 18F-FDG-PET and rCBF-SPECT) or volume (for T1-MRI) in AD patients. RESULTS: Compared to whole-brain SVM, the ROI-MKL approach resulted in better accuracies (with either atlas) for classification using 18F-FDG-PET (92.5% accuracy for ROI-MKL versus 84% for whole-brain), but not when using rCBF-SPECT or T1-MRI. Although several cortical and subcortical regions contributed to discrimination, high ROI-weights and predominance of hypometabolism and atrophy were identified specially in medial parietal and temporo-limbic cortical regions. Also, the weight of discrimination due to a pattern of increased voxel-weight values in AD individuals was surprisingly high (ranging from approximately 20% to 40% depending on the imaging modality), located mainly in primary sensorimotor and visual cortices and subcortical nuclei. CONCLUSION: The MKL-ROI approach highlights the high discriminative weight of a subset of brain regions of known relevance to AD, the selection of which contributes to increased classification accuracy when applied to 18F-FDG-PET data. Moreover, the MKL-ROI approach demonstrates that brain regions typically spared in mild stages of AD also contribute substantially in the individual discrimination of AD patients from controls.
+29234599	58	77	Alzheimer's disease	Disease	MESH:D000544
+29234599	78	86	patients	Species	9606
+29234599	372	398	neuropsychiatric disorders	Disease	MESH:D001523
+29234599	407	426	Alzheimer's disease	Disease	MESH:D000544
+29234599	428	430	AD	Disease	MESH:D000544
+29234599	1042	1050	patients	Species	9606
+29234599	1056	1058	AD	Disease	MESH:D000544
+29234599	1294	1301	18F-FDG	Chemical	MESH:D019788
+29234599	1399	1407	patients	Species	9606
+29234599	1419	1421	AD	Disease	MESH:D000544
+29234599	1686	1693	18F-FDG	Chemical	MESH:D019788
+29234599	1740	1742	AD	Disease	MESH:D000544
+29234599	1743	1751	patients	Species	9606
+29234599	1887	1894	18F-FDG	Chemical	MESH:D019788
+29234599	2115	2129	hypometabolism	Disease	
+29234599	2134	2141	atrophy	Disease	MESH:D001284
+29234599	2312	2314	AD	Disease	MESH:D000544
+29234599	2633	2635	AD	Disease	MESH:D000544
+29234599	2725	2732	18F-FDG	Chemical	MESH:D019788
+29234599	2841	2843	AD	Disease	MESH:D000544
+29234599	2910	2912	AD	Disease	MESH:D000544
+29234599	2913	2921	patients	Species	9606
+29234599	Association	MESH:D019788	MESH:D000544
+

@@ -1,0 +1,12 @@
+34335114|t|Improved Estimation of Parkinsonian Vowel Quality through Acoustic Feature Assimilation.
+34335114|a|This paper investigated the performance of a number of acoustic measures, both individually and in combination, in predicting the perceived quality of sustained vowels produced by people impaired with Parkinson's disease (PD). Sustained vowel recordings were collected from 51 PD patients before and after the administration of the Levodopa medication. Subjective ratings of the overall vowel quality were garnered using a visual analog scale. These ratings served to benchmark the effectiveness of the acoustic measures. Acoustic predictors of the perceived vowel quality included the harmonics-to-noise ratio (HNR), smoothed cepstral peak prominence (CPP), recurrence period density entropy (RPDE), Gammatone frequency cepstral coefficients (GFCCs), linear prediction (LP) coefficients and their variants, and modulation spectrogram features. Linear regression (LR) and support vector regression (SVR) models were employed to assimilate multiple features. Different feature dimensionality reduction methods were investigated to avoid model overfitting and enhance the prediction capabilities for the test dataset. Results showed that the RPDE measure performed the best among all individual features, while a regression model incorporating a subset of features produced the best overall correlation of 0.80 between the predicted and actual vowel quality ratings. This model may therefore serve as a surrogate for auditory-perceptual assessment of Parkinsonian vowel quality. Furthermore, the model may offer the clinician a tool to predict who may benefit from Levodopa medication in terms of enhanced voice quality.
+34335114	23	35	Parkinsonian	Disease	MESH:D010300
+34335114	290	309	Parkinson's disease	Disease	MESH:D010300
+34335114	311	313	PD	Disease	MESH:D010300
+34335114	366	368	PD	Disease	MESH:D010300
+34335114	369	377	patients	Species	9606
+34335114	421	429	Levodopa	Chemical	MESH:D007980
+34335114	1538	1550	Parkinsonian	Disease	MESH:D010300
+34335114	1652	1660	Levodopa	Chemical	MESH:D007980
+34335114	Negative_Correlation	MESH:D007980	MESH:D010300
+

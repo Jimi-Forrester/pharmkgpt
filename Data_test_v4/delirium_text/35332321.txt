@@ -1,0 +1,37 @@
+35332321|t|Tau modification by the norepinephrine metabolite DOPEGAL stimulates its pathology and propagation.
+35332321|a|The noradrenergic locus ceruleus (LC) is the first site of detectable tau pathology in Alzheimer's disease (AD), but the mechanisms underlying the selective vulnerability of the LC in AD have not been completely identified. In the present study, we show that DOPEGAL, a monoamine oxidase A (MAO-A) metabolite of norepinephrine (NE), reacts directly with the primary amine on the Lys353 residue of tau to stimulate its aggregation and facilitate its propagation. Inhibition of MAO-A or mutation of the Lys353 residue to arginine (Lys353Arg) decreases tau Lys353-DOPEGAL levels and diminishes tau pathology spreading. Wild-type tau preformed fibrils (PFFs) trigger Lys353-DOPEGAL formation, tau pathology propagation and cognitive impairment in MAPT transgenic mice, all of which are attenuated with PFFs made from the Lys353Arg mutant. Thus, the selective vulnerability of LC neurons in AD may be explained, in part, by NE oxidation via MAO-A into DOPEGAL, which covalently modifies tau and accelerates its aggregation, toxicity and propagation.
+35332321	24	38	norepinephrine	Chemical	MESH:D009638
+35332321	50	57	DOPEGAL	Chemical	MESH:C000715615
+35332321	187	206	Alzheimer's disease	Disease	MESH:D000544
+35332321	208	210	AD	Disease	MESH:D000544
+35332321	284	286	AD	Disease	MESH:D000544
+35332321	359	366	DOPEGAL	Chemical	MESH:C000715615
+35332321	370	389	monoamine oxidase A	Gene	17161
+35332321	391	396	MAO-A	Gene	17161
+35332321	412	426	norepinephrine	Chemical	MESH:D009638
+35332321	466	471	amine	Chemical	MESH:D000588
+35332321	479	485	Lys353	ProteinMutation	tmVar:p|Allele|K|353;VariantGroup:0;OriginalGene:17161;CorrespondingGene:4128;CorrespondingSpecies:10090
+35332321	576	581	MAO-A	Gene	17161
+35332321	601	627	Lys353 residue to arginine	ProteinMutation	tmVar:p|SUB|K|353|R;HGVS:p.K353R;VariantGroup:0;OriginalGene:17161;CorrespondingGene:4128;CorrespondingSpecies:10090
+35332321	629	638	Lys353Arg	ProteinMutation	tmVar:p|SUB|K|353|R;HGVS:p.K353R;VariantGroup:0;OriginalGene:17161;CorrespondingGene:4128;CorrespondingSpecies:10090
+35332321	763	777	Lys353-DOPEGAL	Chemical	-
+35332321	819	839	cognitive impairment	Disease	MESH:D003072
+35332321	848	863	transgenic mice	Species	10090
+35332321	917	926	Lys353Arg	ProteinMutation	tmVar:p|SUB|K|353|R;HGVS:p.K353R;VariantGroup:0;OriginalGene:17161;CorrespondingGene:4128;CorrespondingSpecies:10090
+35332321	986	988	AD	Disease	MESH:D000544
+35332321	1036	1041	MAO-A	Gene	17161
+35332321	1047	1054	DOPEGAL	Chemical	MESH:C000715615
+35332321	1119	1127	toxicity	Disease	MESH:D064420
+35332321	Association	MESH:D009638	17161
+35332321	Negative_Correlation	MESH:D003072	CorrespondingGene:4128;CorrespondingSpecies:10090;OriginalGene:17161;VariantGroup:0;tmVar:p
+35332321	Association	MESH:C000715615	CorrespondingGene:4128;CorrespondingSpecies:10090;OriginalGene:17161;VariantGroup:0;tmVar:p
+35332321	Association	MESH:D000588	CorrespondingGene:4128;CorrespondingSpecies:10090;OriginalGene:17161;VariantGroup:0;tmVar:p
+35332321	Association	MESH:D000544	17161
+35332321	Association	MESH:C000715615	17161
+35332321	Association	MESH:D064420	17161
+35332321	Positive_Correlation	MESH:C000715615	MESH:D064420
+35332321	Negative_Correlation	MESH:D003072	HGVS:p.K353R;CorrespondingGene:4128
+35332321	Association	MESH:C000715615	MESH:D000544
+35332321	Association	MESH:C000715615	MESH:D000588
+35332321	Association	MESH:D003072	4128
+

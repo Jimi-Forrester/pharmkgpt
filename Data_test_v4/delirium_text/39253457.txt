@@ -1,0 +1,9 @@
+39253457|t|Predicting Alzheimer's Cognitive Resilience Score: A Comparative Study of Machine Learning Models Using RNA-seq Data.
+39253457|a|Alzheimer's disease (AD) is an important research topic. While amyloid plaques and neurofibrillary tangles are hallmark pathological features of AD, cognitive resilience (CR) is a phenomenon where cognitive function remains preserved despite the presence of these pathological features. This study aimed to construct and compare predictive machine learning models for CR scores using RNA-seq data from the Religious Orders Study and Memory and Aging Project (ROSMAP) and Mount Sinai Brain Bank (MSBB) cohorts. We evaluated support vector regression (SVR), random forest, XGBoost, linear, and transformer-based models. The SVR model exhibited the best performance, with contributing genes identified using Shapley additive explanations (SHAP) scores, providing insights into biological pathways associated with CR. Finally, we developed a tool called the resilience gene analyzer (REGA), which visualizes SHAP scores to interpret the contributions of individual genes to CR. REGA is available at https://igcore.cloud/GerOmics/REsilienceGeneAnalyzer/ .
+39253457	11	22	Alzheimer's	Disease	MESH:D000544
+39253457	118	137	Alzheimer's disease	Disease	MESH:D000544
+39253457	139	141	AD	Disease	MESH:D000544
+39253457	181	196	amyloid plaques	Disease	MESH:D058225
+39253457	201	224	neurofibrillary tangles	Disease	MESH:D055956
+39253457	263	265	AD	Disease	MESH:D000544
+

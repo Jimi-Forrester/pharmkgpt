@@ -1,0 +1,42 @@
+36926659|t|Insulin: A connection between pancreatic beta cells and the hypothalamus.
+36926659|a|Insulin is a hormone secreted by pancreatic beta cells. The concentration of glucose in circulation is proportional to the secretion of insulin by these cells. In target cells, insulin binds to its receptors and activates phosphatidylinositol-3-kinase/protein kinase B, inducing different mechanisms depending on the cell type. In the liver it activates the synthesis of glycogen, in adipose tissue and muscle it allows the capture of glucose, and in the hypothalamus, it regulates thermogenesis and appetite. Defects in insulin function [insulin resistance (IR)] are related to the development of neurodegenerative diseases in obese people. Furthermore, in obesity and diabetes, its role as an anorexigenic hormone in the hypothalamus is diminished during IR. Therefore, hyperphagia prevails, which aggravates hyper-glycemia and IR further, becoming a vicious circle in which the patient cannot regulate their need to eat. Uncontrolled calorie intake induces an increase in reactive oxygen species, overcoming cellular antioxidant defenses (oxidative stress). Reactive oxygen species activate stress-sensitive kinases, such as c-Jun N-terminal kinase and p38 mitogen-activated protein kinase, that induce phos-phorylation in serine residues in the insulin receptor, which blocks the insulin signaling pathway, continuing the mechanism of IR. The brain and pancreas are organs mainly affected by oxidative stress. The use of drugs that regulate food intake and improve glucose metabolism is the conventional therapy to improve the quality of life of these patients. Currently, the use of antioxidants that regulate oxidative stress has given good results because they reduce oxidative stress and inflammatory processes, and they also have fewer side effects than synthetic drugs.
+36926659	0	7	Insulin	Gene	3630
+36926659	74	81	Insulin	Gene	3630
+36926659	151	158	glucose	Chemical	MESH:D005947
+36926659	210	217	insulin	Gene	3630
+36926659	251	258	insulin	Gene	3630
+36926659	296	325	phosphatidylinositol-3-kinase	Gene	5295
+36926659	326	342	protein kinase B	Gene	2185
+36926659	445	453	glycogen	Chemical	MESH:D006003
+36926659	509	516	glucose	Chemical	MESH:D005947
+36926659	584	594	Defects in	Disease	MESH:D000013
+36926659	613	631	insulin resistance	Disease	MESH:D007333
+36926659	633	635	IR	Disease	MESH:C537629
+36926659	672	698	neurodegenerative diseases	Disease	MESH:D019636
+36926659	702	707	obese	Disease	MESH:D009765
+36926659	732	739	obesity	Disease	MESH:D009765
+36926659	744	752	diabetes	Disease	MESH:D003920
+36926659	831	833	IR	Disease	MESH:C537629
+36926659	846	857	hyperphagia	Disease	MESH:D006963
+36926659	885	899	hyper-glycemia	Disease	MESH:D007589
+36926659	904	906	IR	Disease	MESH:C537629
+36926659	955	962	patient	Species	9606
+36926659	1049	1072	reactive oxygen species	Chemical	MESH:D017382
+36926659	1135	1158	Reactive oxygen species	Chemical	MESH:D017382
+36926659	1230	1266	p38 mitogen-activated protein kinase	Gene	1432
+36926659	1323	1339	insulin receptor	Gene	3643
+36926659	1358	1365	insulin	Gene	3630
+36926659	1413	1415	IR	Disease	MESH:C537629
+36926659	1543	1550	glucose	Chemical	MESH:D005947
+36926659	1630	1638	patients	Species	9606
+36926659	1770	1782	inflammatory	Disease	MESH:D007249
+36926659	Association	MESH:C537629	3643
+36926659	Positive_Correlation	2185	3630
+36926659	Negative_Correlation	3630	3643
+36926659	Positive_Correlation	MESH:D006003	3630
+36926659	Positive_Correlation	MESH:D017382	1432
+36926659	Association	MESH:C537629	3630
+36926659	Association	MESH:C537629	1432
+36926659	Positive_Correlation	3630	5295
+36926659	Association	MESH:D005947	3630
+

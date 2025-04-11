@@ -1,0 +1,16 @@
+31254120|t|Predicting the course of Alzheimer's progression.
+31254120|a|Alzheimer's disease is the most common neurodegenerative disease and is characterized by the accumulation of amyloid-beta peptides leading to the formation of plaques and tau protein tangles in brain. These neuropathological features precede cognitive impairment and Alzheimer's dementia by many years. To better understand and predict the course of disease from early-stage asymptomatic to late-stage dementia, it is critical to study the patterns of progression of multiple markers. In particular, we aim to predict the likely future course of progression for individuals given only a single observation of their markers. Improved individual-level prediction may lead to improved clinical care and clinical trials. We propose a two-stage approach to modeling and predicting measures of cognition, function, brain imaging, fluid biomarkers, and diagnosis of individuals using multiple domains simultaneously. In the first stage, joint (or multivariate) mixed-effects models are used to simultaneously model multiple markers over time. In the second stage, random forests are used to predict categorical diagnoses (cognitively normal, mild cognitive impairment, or dementia) from predictions of continuous markers based on the first-stage model. The combination of the two models allows one to leverage their key strengths in order to obtain improved accuracy. We characterize the predictive accuracy of this two-stage approach using data from the Alzheimer's Disease Neuroimaging Initiative. The two-stage approach using a single joint mixed-effects model for all continuous outcomes yields better diagnostic classification accuracy compared to using separate univariate mixed-effects models for each of the continuous outcomes. Overall prediction accuracy above 80% was achieved over a period of 2.5 years. The results further indicate that overall accuracy is improved when markers from multiple assessment domains, such as cognition, function, and brain imaging, are used in the prediction algorithm as compared to the use of markers from a single domain only.
+31254120	25	36	Alzheimer's	Disease	MESH:D000544
+31254120	50	69	Alzheimer's disease	Disease	MESH:D000544
+31254120	89	114	neurodegenerative disease	Disease	MESH:D019636
+31254120	159	171	amyloid-beta	Gene	351
+31254120	221	224	tau	Gene	4137
+31254120	292	312	cognitive impairment	Disease	MESH:D003072
+31254120	317	337	Alzheimer's dementia	Disease	MESH:D000544
+31254120	452	460	dementia	Disease	MESH:D003704
+31254120	1190	1210	cognitive impairment	Disease	MESH:D003072
+31254120	1215	1223	dementia	Disease	MESH:D003704
+31254120	1498	1517	Alzheimer's Disease	Disease	MESH:D000544
+31254120	Association	MESH:D000544	4137
+31254120	Positive_Correlation	MESH:D000544	351
+

@@ -1,0 +1,16 @@
+24110229|t|Classification of Alzheimer's disease from FDG-PET images using favourite class ensembles.
+24110229|a|Classification of Alzheimer's disease (AD) and Mild Cognitive Impairment (MCI) from brain images using machine learning methods has become popular. Although the large majority of the existing techniques rely on a single classifier such as the Support Vector Machine (SVM), several ensemble methods such as Adaboost or Random Forests (RF) have also been explored. The ensemble methods combine the outputs of several classifiers and aim to increase performance by exploring the diversity of the base classifiers in terms of features or examples, which are usually randomly selected. In this paper we propose using a different kind of ensemble to address the three class problem of classifying AD, MCI and Control Normals (CN) from PET brain images. We propose the favourite class ensemble of classifiers where each base classifier in the ensemble uses a different feature subset which is optimized for a given class. Since different image features correspond to different sets of brain voxels, the proposed favourite class classifiers are able to take into account the fact that the spatial pattern of brain degeneration in AD changes in time as the disease progresses. We tested this approach on FDG-PET images from The Alzheimer's Disease Neuroimaging Initiative (ADNI) database using as base classifiers both Support Vector Machines (SVM) and Random Forests (RF). The ensembles systematically outperformed the corresponding single classifier with the best result (66.78%) being obtained by the SVM ensemble. 
+24110229	18	37	Alzheimer's disease	Disease	MESH:D000544
+24110229	43	46	FDG	Chemical	MESH:D019788
+24110229	109	128	Alzheimer's disease	Disease	MESH:D000544
+24110229	130	132	AD	Disease	MESH:D000544
+24110229	138	163	Mild Cognitive Impairment	Disease	MESH:D060825
+24110229	165	168	MCI	Disease	MESH:D060825
+24110229	782	784	AD	Disease	MESH:D000544
+24110229	786	789	MCI	Disease	MESH:D060825
+24110229	1191	1209	brain degeneration	Disease	MESH:D001927
+24110229	1213	1215	AD	Disease	MESH:D000544
+24110229	1286	1289	FDG	Chemical	MESH:D019788
+24110229	1310	1329	Alzheimer's Disease	Disease	MESH:D000544
+24110229	Association	MESH:D019788	MESH:D000544
+

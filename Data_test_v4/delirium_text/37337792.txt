@@ -1,0 +1,34 @@
+37337792|t|Art2 mediates selective endocytosis of methionine transporters during adaptation to sphingolipid depletion.
+37337792|a|Accumulating evidence in several model organisms indicates that reduced sphingolipid biosynthesis promotes longevity, although underlying mechanisms remain unclear. In yeast, sphingolipid depletion induces a state resembling amino acid restriction, which we hypothesized may be due to altered stability of amino acid transporters at the plasma membrane. To test this, we measured surface abundance for a diverse panel of membrane proteins in the presence of myriocin, a sphingolipid biosynthesis inhibitor. Unexpectedly, we found that surface levels of most proteins examined were either unaffected or increased during myriocin treatment, consistent with an observed decrease in bulk endocytosis. In contrast, sphingolipid depletion triggered selective endocytosis of the methionine transporter Mup1. Unlike methionine-induced Mup1 endocytosis, myriocin triggers Mup1 endocytosis that requires the Rsp5 adaptor Art2, C-terminal lysine residues, and the formation of K63-linked ubiquitin polymers. These findings reveal cellular adaptation to sphingolipid depletion by ubiquitin-mediated remodeling of nutrient transporter composition at the cell surface.
+37337792	0	4	Art2	Gene	852173
+37337792	84	96	sphingolipid	Chemical	MESH:D013107
+37337792	180	192	sphingolipid	Chemical	MESH:D013107
+37337792	276	281	yeast	Species	4932
+37337792	283	295	sphingolipid	Chemical	MESH:D013107
+37337792	333	355	amino acid restriction	Disease	MESH:D002313
+37337792	566	574	myriocin	Chemical	MESH:C001996
+37337792	578	590	sphingolipid	Chemical	MESH:D013107
+37337792	727	735	myriocin	Chemical	MESH:C001996
+37337792	818	830	sphingolipid	Chemical	MESH:D013107
+37337792	880	890	methionine	Chemical	MESH:D008715
+37337792	903	907	Mup1	Gene	852946
+37337792	916	926	methionine	Chemical	MESH:D008715
+37337792	935	939	Mup1	Gene	852946
+37337792	953	961	myriocin	Chemical	MESH:C001996
+37337792	971	975	Mup1	Gene	852946
+37337792	1006	1010	Rsp5	Gene	856862
+37337792	1019	1023	Art2	Gene	852173
+37337792	1036	1042	lysine	Chemical	MESH:D008239
+37337792	1085	1094	ubiquitin	Gene	850620
+37337792	1150	1162	sphingolipid	Chemical	MESH:D013107
+37337792	1176	1185	ubiquitin	Gene	850620
+37337792	Positive_Correlation	MESH:C001996	852946
+37337792	Association	MESH:D013107	850620
+37337792	Negative_Correlation	MESH:D008715	MESH:D013107
+37337792	Negative_Correlation	MESH:D013107	MESH:D002313
+37337792	Negative_Correlation	MESH:C001996	MESH:D013107
+37337792	Association	MESH:C001996	850620
+37337792	Negative_Correlation	MESH:D013107	852946
+37337792	Association	MESH:D008715	852946
+37337792	Association	MESH:D013107	852173
+

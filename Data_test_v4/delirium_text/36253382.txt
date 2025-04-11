@@ -1,0 +1,18 @@
+36253382|t|Generalizable deep learning model for early Alzheimer's disease detection from structural MRIs.
+36253382|a|Early diagnosis of Alzheimer's disease plays a pivotal role in patient care and clinical trials. In this study, we have developed a new approach based on 3D deep convolutional neural networks to accurately differentiate mild Alzheimer's disease dementia from mild cognitive impairment and cognitively normal individuals using structural MRIs. For comparison, we have built a reference model based on the volumes and thickness of previously reported brain regions that are known to be implicated in disease progression. We validate both models on an internal held-out cohort from The Alzheimer's Disease Neuroimaging Initiative (ADNI) and on an external independent cohort from The National Alzheimer's Coordinating Center (NACC). The deep-learning model is accurate, achieved an area-under-the-curve (AUC) of 85.12 when distinguishing between cognitive normal subjects and subjects with either MCI or mild Alzheimer's dementia. In the more challenging task of detecting MCI, it achieves an AUC of 62.45. It is also significantly faster than the volume/thickness model in which the volumes and thickness need to be extracted beforehand. The model can also be used to forecast progression: subjects with mild cognitive impairment misclassified as having mild Alzheimer's disease dementia by the model were faster to progress to dementia over time. An analysis of the features learned by the proposed model shows that it relies on a wide range of regions associated with Alzheimer's disease. These findings suggest that deep neural networks can automatically learn to identify imaging biomarkers that are predictive of Alzheimer's disease, and leverage them to achieve accurate early detection of the disease.
+36253382	44	63	Alzheimer's disease	Disease	MESH:D000544
+36253382	115	134	Alzheimer's disease	Disease	MESH:D000544
+36253382	159	166	patient	Species	9606
+36253382	321	349	Alzheimer's disease dementia	Disease	MESH:D000544
+36253382	360	380	cognitive impairment	Disease	MESH:D003072
+36253382	679	698	Alzheimer's Disease	Disease	MESH:D000544
+36253382	786	795	Alzheimer	Disease	MESH:D000544
+36253382	990	993	MCI	Disease	
+36253382	1002	1022	Alzheimer's dementia	Disease	MESH:D000544
+36253382	1066	1069	MCI	Disease	
+36253382	1303	1323	cognitive impairment	Disease	MESH:D003072
+36253382	1353	1381	Alzheimer's disease dementia	Disease	MESH:D000544
+36253382	1422	1430	dementia	Disease	MESH:D003704
+36253382	1564	1583	Alzheimer's disease	Disease	MESH:D000544
+36253382	1712	1731	Alzheimer's disease	Disease	MESH:D000544
+

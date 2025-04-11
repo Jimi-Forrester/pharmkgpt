@@ -1,0 +1,18 @@
+26450611|t|The human disease network in terms of dysfunctional regulatory mechanisms.
+26450611|a|BACKGROUND: Elucidation of human disease similarities has emerged as an active research area, which is highly relevant to etiology, disease classification, and drug repositioning. In pioneer studies, disease similarity was commonly estimated according to clinical manifestation. Subsequently, scientists started to investigate disease similarity based on gene-phenotype knowledge, which were inevitably biased to well-studied diseases. In recent years, estimating disease similarity according to transcriptomic behavior significantly enhances the probability of finding novel disease relationships, while the currently available studies usually mine expression data through differential expression analysis that has been considered to have little chance of unraveling dysfunctional regulatory relationships, the causal pathogenesis of diseases. METHODS: We developed a computational approach to measure human disease similarity based on expression data. Differential coexpression analysis, instead of differential expression analysis, was employed to calculate differential coexpression level of every gene for each disease, which was then summarized to the pathway level. Disease similarity was eventually calculated as the partial correlation coefficients of pathways' differential coexpression values between any two diseases. The significance of disease relationships were evaluated by permutation test. RESULTS: Based on mRNA expression data and a differential coexpression analysis based method, we built a human disease network involving 1326 significant Disease-Disease links among 108 diseases. Compared with disease relationships captured by differential expression analysis based method, our disease links shared known disease genes and drugs more significantly. Some novel disease relationships were discovered, for example, Obesity and cancer, Obesity and Psoriasis, lung adenocarcinoma and S. pneumonia, which had been commonly regarded as unrelated to each other, but recently found to share similar molecular mechanisms. Additionally, it was found that both the type of disease and the type of affected tissue influenced the degree of disease similarity. A sub-network including Allergic asthma, Type 2 diabetes and Chronic kidney disease was extracted to demonstrate the exploration of their common pathogenesis. CONCLUSION: The present study produces a global view of human diseasome for the first time from the viewpoint of regulation mechanisms, which therefore could provide insightful clues to etiology and pathogenesis, and help to perform drug repositioning and design novel therapeutic interventions.
+26450611	4	9	human	Species	9606
+26450611	102	107	human	Species	9606
+26450611	978	983	human	Species	9606
+26450611	1588	1593	human	Species	9606
+26450611	1912	1919	Obesity	Disease	MESH:D009765
+26450611	1924	1930	cancer	Disease	MESH:D009369
+26450611	1932	1939	Obesity	Disease	MESH:D009765
+26450611	1944	1953	Psoriasis	Disease	MESH:D011565
+26450611	1955	1974	lung adenocarcinoma	Disease	MESH:D000077192
+26450611	1979	1991	S. pneumonia	Disease	MESH:D011014
+26450611	2279	2285	asthma	Disease	MESH:D001249
+26450611	2287	2302	Type 2 diabetes	Disease	MESH:D003924
+26450611	2307	2329	Chronic kidney disease	Disease	MESH:D051436
+26450611	2461	2466	human	Species	9606
+26450611	2467	2476	diseasome	Disease	
+

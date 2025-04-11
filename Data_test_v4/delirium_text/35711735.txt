@@ -1,0 +1,50 @@
+35711735|t|Machine Learning Analysis Reveals Biomarkers for the Detection of Neurological Diseases.
+35711735|a|It is critical to identify biomarkers for neurological diseases (NLDs) to accelerate drug discovery for effective treatment of patients of diseases that currently lack such treatments. In this work, we retrieved genotyping and clinical data from 1,223 UK Biobank participants to identify genetic and clinical biomarkers for NLDs, including Alzheimer's disease (AD), Parkinson's disease (PD), motor neuron disease (MND), and myasthenia gravis (MG). Using a machine learning modeling approach with Monte Carlo randomization, we identified a panel of informative diagnostic biomarkers for predicting AD, PD, MND, and MG, including classical liver disease markers such as alanine aminotransferase, alkaline phosphatase, and bilirubin. A multinomial model trained on accessible clinical markers could correctly predict an NLD diagnosis with an accuracy of 88.3%. We also explored genetic biomarkers. In a genome-wide association study of AD, PD, MND, and MG patients, we identified single nucleotide polymorphisms (SNPs) implicated in several craniofacial disorders such as apnoea and branchiootic syndrome. We found evidence for shared genetic risk loci among NLDs, including SNPs in cancer-related genes and SNPs known to be associated with non-brain cancers such as Wilms tumor, leukemia, and colon cancer. This indicates overlapping genetic characterizations among NLDs which challenges current clinical definitions of the neurological disorders. Taken together, this work demonstrates the value of data-driven approaches to identify novel biomarkers in the absence of any known or promising biomarkers.
+35711735	66	87	Neurological Diseases	Disease	MESH:D020271
+35711735	131	152	neurological diseases	Disease	MESH:D020271
+35711735	154	158	NLDs	Disease	MESH:D020271
+35711735	216	224	patients	Species	9606
+35711735	413	417	NLDs	Disease	MESH:D020271
+35711735	429	448	Alzheimer's disease	Disease	MESH:D000544
+35711735	450	452	AD	Disease	MESH:D000544
+35711735	455	474	Parkinson's disease	Disease	MESH:D010300
+35711735	476	478	PD	Disease	MESH:D010300
+35711735	481	501	motor neuron disease	Disease	MESH:D016472
+35711735	503	506	MND	Disease	MESH:D016472
+35711735	513	530	myasthenia gravis	Disease	MESH:D009157
+35711735	532	534	MG	Disease	MESH:D009157
+35711735	686	688	AD	Disease	MESH:D000544
+35711735	690	692	PD	Disease	MESH:D010300
+35711735	694	697	MND	Disease	MESH:D016472
+35711735	703	705	MG	Disease	MESH:D009157
+35711735	727	740	liver disease	Disease	MESH:D008107
+35711735	757	781	alanine aminotransferase	Gene	2875
+35711735	809	818	bilirubin	Chemical	MESH:D001663
+35711735	906	909	NLD	Disease	
+35711735	1022	1024	AD	Disease	MESH:D000544
+35711735	1026	1028	PD	Disease	MESH:D010300
+35711735	1030	1033	MND	Disease	MESH:D016472
+35711735	1039	1041	MG	Disease	MESH:D009157
+35711735	1042	1050	patients	Species	9606
+35711735	1127	1149	craniofacial disorders	Disease	MESH:D019465
+35711735	1158	1164	apnoea	Disease	MESH:D001049
+35711735	1169	1190	branchiootic syndrome	Disease	MESH:C537104
+35711735	1245	1249	NLDs	Disease	MESH:D020271
+35711735	1269	1275	cancer	Disease	MESH:D009369
+35711735	1327	1344	non-brain cancers	Disease	MESH:D001932
+35711735	1353	1364	Wilms tumor	Disease	MESH:D009396
+35711735	1366	1374	leukemia	Disease	MESH:D007938
+35711735	1380	1392	colon cancer	Disease	MESH:D015179
+35711735	1453	1457	NLDs	Disease	MESH:D020271
+35711735	1511	1533	neurological disorders	Disease	MESH:D009461
+35711735	Association	MESH:D001663	MESH:D009157
+35711735	Association	MESH:D008107	2875
+35711735	Association	MESH:D010300	2875
+35711735	Association	MESH:D001663	MESH:D010300
+35711735	Association	MESH:D001663	MESH:D008107
+35711735	Association	MESH:D001663	MESH:D000544
+35711735	Association	MESH:D001663	MESH:D016472
+35711735	Association	MESH:D016472	2875
+35711735	Association	MESH:D009157	2875
+35711735	Association	MESH:D000544	2875
+

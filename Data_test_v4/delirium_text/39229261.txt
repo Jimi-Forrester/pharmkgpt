@@ -1,0 +1,64 @@
+39229261|t|IL6 receptor inhibitors: exploring the therapeutic potential across multiple diseases through drug target Mendelian randomization.
+39229261|a|Background: High interleukin-6 levels correlate with diseases like cancer, autoimmune disorders, and infections. IL-6 receptor inhibitors (IL-6Ri), used for rheumatoid arthritis and COVID-19, may have wider uses. We apply drug-target Mendelian Randomization (MR) to study IL-6Ri's effects. Method: To simulate the effects of genetically blocking the IL-6R, we selected single nucleotide polymorphisms (SNPs) within or near the IL6R gene that show significant genome-wide associations with C-reactive protein. Using rheumatoid arthritis and COVID-19 as positive controls, our primary research outcomes included the risk of asthma, asthmatic pneumonia, cor pulmonale, non-small cell lung cancer, small cell lung cancer, Parkinson's disease, Alzheimer's disease, ulcerative colitis, Crohn's disease, systemic lupus erythematosus, type 1 diabetes, and type 2 diabetes. The Inverse Variance Weighted (IVW) method served as our principal analytical approach, with the hypotheses of MR being evaluated through sensitivity and colocalization analyses. Additionally, we conducted Bayesian Mendelian Randomization analyses to minimize confounding and reverse causation biases to the greatest extent possible. Results: IL-6 inhibitors significantly reduced the risk of idiopathic pulmonary fibrosis (OR= 0.278, 95% [CI], 0.138-0.558; P <0.001), Parkinson's disease (OR = 0.354, 95% CI, 0.215-0.582; P <0.001), and positively influenced the causal relationship with Type 2 diabetes (OR = 0.759, 95% CI, 0.637-0.905; P = 0.002). However, these inhibitors increased the risk for asthma (OR = 1.327, 95% CI, 1.118-1.576; P = 0.001) and asthmatic pneumonia (OR = 1.823, 95% CI, 1.246-2.666; P = 0.002). The causal effect estimates obtained via the BWMR method are consistent with those based on the IVW approach. Similarly, sIL-6R also exerts a significant influence on these diseases.Diseases such as Alzheimer's disease, Crohn's disease, pulmonary heart disease, systemic lupus erythematosus, Type 1 diabetes, Non-small cell lung cancer and ulcerative colitis showed non-significant associations (p > 0.05) and were excluded from further analysis. Similarly, Small cell lung cancer were excluded due to inconsistent results. Notably, the colocalization evidence for asthmatic pneumonia (coloc.abf-PPH4 = 0.811) robustly supports its association with CRP. The colocalization evidence for Parkinson's disease (coloc.abf-PPH4 = 0.725) moderately supports its association with CRP. Conclusion: IL-6Ri may represent a promising therapeutic avenue for idiopathic pulmonary fibrosis, Parkinson's disease, and Type 2 diabetes.
+39229261	148	161	interleukin-6	Gene	3569
+39229261	198	204	cancer	Disease	MESH:D009369
+39229261	206	226	autoimmune disorders	Disease	MESH:D001327
+39229261	232	242	infections	Disease	MESH:D007239
+39229261	244	248	IL-6	Gene	3569
+39229261	270	276	IL-6Ri	Chemical	-
+39229261	288	308	rheumatoid arthritis	Disease	MESH:D001172
+39229261	313	321	COVID-19	Disease	MESH:D000086382
+39229261	403	409	IL-6Ri	Chemical	-
+39229261	481	486	IL-6R	Gene	3570
+39229261	558	562	IL6R	Gene	3570
+39229261	620	638	C-reactive protein	Gene	1401
+39229261	646	666	rheumatoid arthritis	Disease	MESH:D001172
+39229261	671	679	COVID-19	Disease	MESH:D000086382
+39229261	753	759	asthma	Disease	MESH:D001249
+39229261	761	780	asthmatic pneumonia	Disease	MESH:D011014
+39229261	782	795	cor pulmonale	Disease	MESH:D011660
+39229261	797	823	non-small cell lung cancer	Disease	MESH:D002289
+39229261	825	847	small cell lung cancer	Disease	MESH:D055752
+39229261	849	868	Parkinson's disease	Disease	MESH:D010300
+39229261	870	889	Alzheimer's disease	Disease	MESH:D000544
+39229261	891	909	ulcerative colitis	Disease	MESH:D003093
+39229261	911	926	Crohn's disease	Disease	MESH:D003424
+39229261	928	956	systemic lupus erythematosus	Disease	MESH:D008180
+39229261	958	973	type 1 diabetes	Disease	MESH:D003922
+39229261	979	994	type 2 diabetes	Disease	MESH:D003924
+39229261	1339	1343	IL-6	Gene	3569
+39229261	1389	1418	idiopathic pulmonary fibrosis	Disease	MESH:D054990
+39229261	1465	1484	Parkinson's disease	Disease	MESH:D010300
+39229261	1585	1600	Type 2 diabetes	Disease	MESH:D003924
+39229261	1696	1702	asthma	Disease	MESH:D001249
+39229261	1752	1771	asthmatic pneumonia	Disease	MESH:D011014
+39229261	2017	2036	Alzheimer's disease	Disease	MESH:D000544
+39229261	2038	2053	Crohn's disease	Disease	MESH:D003424
+39229261	2055	2078	pulmonary heart disease	Disease	MESH:D011660
+39229261	2080	2108	systemic lupus erythematosus	Disease	MESH:D008180
+39229261	2110	2125	Type 1 diabetes	Disease	MESH:D003922
+39229261	2127	2153	Non-small cell lung cancer	Disease	MESH:D002289
+39229261	2158	2176	ulcerative colitis	Disease	MESH:D003093
+39229261	2276	2298	Small cell lung cancer	Disease	MESH:D055752
+39229261	2383	2402	asthmatic pneumonia	Disease	MESH:D011014
+39229261	2414	2418	PPH4	Gene	3777
+39229261	2467	2470	CRP	Gene	1401
+39229261	2504	2523	Parkinson's disease	Disease	MESH:D010300
+39229261	2535	2539	PPH4	Gene	3777
+39229261	2590	2593	CRP	Gene	1401
+39229261	2607	2613	IL-6Ri	Chemical	-
+39229261	2663	2692	idiopathic pulmonary fibrosis	Disease	MESH:D054990
+39229261	2694	2713	Parkinson's disease	Disease	MESH:D010300
+39229261	2719	2734	Type 2 diabetes	Disease	MESH:D003924
+39229261	Association	MESH:D054990	3569
+39229261	Association	MESH:D001249	3569
+39229261	Association	MESH:D011014	3569
+39229261	Association	MESH:D001327	3569
+39229261	Association	MESH:D007239	3569
+39229261	Association	MESH:D010300	3569
+39229261	Association	MESH:D003924	3569
+39229261	Association	MESH:D000086382	3569
+39229261	Association	MESH:D009369	3569
+39229261	Association	MESH:D001172	3569
+39229261	Association	1401	3570
+

@@ -1,0 +1,9 @@
+22903144|t|PREDICTING TEMPORAL LOBE VOLUME ON MRI FROM GENOTYPES USING L(1)-L(2) REGULARIZED REGRESSION.
+22903144|a|Penalized or sparse regression methods are gaining increasing attention in imaging genomics, as they can select optimal regressors from a large set of predictors whose individual effects are small or mostly zero. We applied a multivariate approach, based on L(1)-L(2)-regularized regression (elastic net) to predict a magnetic resonance imaging (MRI) tensor-based morphometry-derived measure of temporal lobe volume from a genome-wide scan in 740 Alzheimer's Disease Neuroimaging Initiative (ADNI) subjects. We tuned the elastic net model's parameters using internal crossvalidation and evaluated the model on independent test sets. Compared to 100,000 permutations performed with randomized imaging measures, the predictions were found to be statistically significant (p ~ 0.001). The rs9933137 variant in the RBFOX1 gene was a highly contributory genotype, along with rs10845840 in GRIN2B and rs2456930, discovered previously in a univariate genomewide search.
+22903144	541	560	Alzheimer's Disease	Disease	MESH:D000544
+22903144	880	889	rs9933137	SNP	tmVar:rs9933137;VariantGroup:0;CorrespondingGene:54715;RS#:9933137;CorrespondingSpecies:9606
+22903144	905	911	RBFOX1	Gene	54715
+22903144	964	974	rs10845840	SNP	tmVar:rs10845840;VariantGroup:2;CorrespondingGene:2904;RS#:10845840;CorrespondingSpecies:9606
+22903144	978	984	GRIN2B	Gene	2904
+22903144	989	998	rs2456930	SNP	tmVar:rs2456930;VariantGroup:1;CorrespondingGene:83660;RS#:2456930;CorrespondingSpecies:9606
+

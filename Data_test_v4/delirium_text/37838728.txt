@@ -1,0 +1,31 @@
+37838728|t|Copper metabolism-related Genes in entorhinal cortex for Alzheimer's disease.
+37838728|a|The pathological features of Alzheimer's disease are the formation of amyloid plaques and entanglement of nerve fibers. Studies have shown that Cu may be involved in the formation of amyloid plaques. However, their role has been controversial. The aim of this study was to explore the role of Cu in AD. We applied the "R" software for our differential analysis. Differentially expressed genes were screened using the limma package. Copper metabolism-related genes and the intersection set of differential genes with GSE5281 were searched; functional annotation was performed. The protein-protein interaction network was constructed using several modules to analyse the most significant hub genes. The hub genes were then qualified, and a database was used to screen for small-molecule AD drugs. We identified 87 DEGs. gene ontology analysis focused on homeostatic processes, response to toxic substances, positive regulation of transport, and secretion. The enriched molecular functions are mainly related to copper ion binding, molecular function regulators, protein-containing complex binding, identical protein binding and signalling receptor binding. The KEGG database is mainly involved in central carbon metabolism in various cancers, Parkinson's disease and melanoma. We identified five hub genes, FGF2, B2M, PTPRC, CD44 and SPP1, and identified the corresponding small molecule drugs. Our study identified key genes possibly related to energy metabolism in the pathological mechanism of AD and explored potential targets for AD treatment by establishing interaction networks.
+37838728	0	6	Copper	Chemical	MESH:D003300
+37838728	57	76	Alzheimer's disease	Disease	MESH:D000544
+37838728	107	126	Alzheimer's disease	Disease	MESH:D000544
+37838728	148	163	amyloid plaques	Disease	MESH:D058225
+37838728	222	224	Cu	Chemical	MESH:D003300
+37838728	261	276	amyloid plaques	Disease	MESH:D058225
+37838728	371	373	Cu	Chemical	MESH:D003300
+37838728	377	379	AD	Disease	MESH:D000544
+37838728	510	516	Copper	Chemical	MESH:D003300
+37838728	863	865	AD	Disease	MESH:D000544
+37838728	1087	1093	copper	Chemical	MESH:D003300
+37838728	1281	1287	carbon	Chemical	MESH:D002244
+37838728	1310	1317	cancers	Disease	MESH:D009369
+37838728	1319	1338	Parkinson's disease	Disease	MESH:D010300
+37838728	1343	1351	melanoma	Disease	MESH:D008545
+37838728	1383	1387	FGF2	Gene	2247
+37838728	1389	1392	B2M	Gene	567
+37838728	1394	1399	PTPRC	Gene	5788
+37838728	1401	1405	CD44	Gene	960
+37838728	1410	1414	SPP1	Gene	6696
+37838728	1573	1575	AD	Disease	MESH:D000544
+37838728	1611	1613	AD	Disease	MESH:D000544
+37838728	Association	MESH:D002244	MESH:D008545
+37838728	Positive_Correlation	MESH:D003300	MESH:D058225
+37838728	Association	MESH:D003300	MESH:D000544
+37838728	Association	MESH:D002244	MESH:D009369
+37838728	Association	MESH:D000544	2247
+37838728	Association	MESH:D002244	MESH:D010300
+

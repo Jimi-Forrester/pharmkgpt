@@ -1,0 +1,58 @@
+38496547|t|Pan-cancer molecular signatures connecting aspartate transaminase (AST) to cancer prognosis, metabolic and immune signatures.
+38496547|a|Background: Serum aspartate transaminase (sAST) level is used routinely in conjunction with other clinical assays to assess liver health and disease. Increasing evidence suggests that sAST is associated with all-cause mortality and has prognostic value in several cancers, including gastrointestinal and urothelial cancers. Here, we undertake a systems approach to unravel molecular connections between AST and cancer prognosis, metabolism, and immune signatures at the transcriptomic and proteomic levels. Methods: We mined public gene expression data across multiple normal and cancerous tissues using the Genotype Tissue Expression (GTEX) resource and The Cancer Genome Atlas (TCGA) to assess the expression of genes encoding AST isoenzymes (GOT1 and GOT2) and their association with disease prognosis and immune infiltration signatures across multiple tumors. We examined the associations between AST and previously reported pan-cancer molecular subtypes characterized by distinct metabolic and immune signatures. We analyzed human protein-protein interaction networks for interactions between GOT1 and GOT2 with cancer-associated proteins. Using public databases and protein-protein interaction networks, we determined whether the subset of proteins that interact with AST (GOT1 and GOT2 interactomes) are enriched with proteins associated with specific diseases, miRNAs and transcription factors. Results: We show that AST transcript isoforms (GOT1 and GOT2) are expressed across a wide range of normal tissues. AST isoforms are upregulated in tumors of the breast, lung, uterus, and thymus relative to normal tissues but downregulated in tumors of the liver, colon, brain, kidney and skeletal sarcomas. At the proteomic level, we find that the expression of AST is associated with distinct pan-cancer molecular subtypes with an enrichment of specific metabolic and immune signatures. Based on human protein-protein interaction data, AST physically interacts with multiple proteins involved in tumor initiation, suppression, progression, and treatment. We find enrichments in the AST interactomes for proteins associated with liver and lung cancer and dermatologic diseases. At the regulatory level, the GOT1 interactome is enriched with the targets of cancer-associated miRNAs, specifically mir34a - a promising cancer therapeutic, while the GOT2 interactome is enriched with proteins that interact with cancer-associated transcription factors. Conclusions: Our findings suggest that perturbations in the levels of AST within specific tissues reflect pathophysiological changes beyond tissue damage and have implications for cancer metabolism, immune infiltration, prognosis, and treatment personalization.
+38496547	0	10	Pan-cancer	Disease	MESH:D009369
+38496547	43	65	aspartate transaminase	Gene	26503
+38496547	67	70	AST	Gene	26503
+38496547	75	81	cancer	Disease	MESH:D009369
+38496547	144	166	aspartate transaminase	Gene	26503
+38496547	390	397	cancers	Disease	MESH:D009369
+38496547	409	448	gastrointestinal and urothelial cancers	Disease	MESH:D005770
+38496547	529	532	AST	Gene	26503
+38496547	537	543	cancer	Disease	MESH:D009369
+38496547	785	791	Cancer	Disease	MESH:D009369
+38496547	855	858	AST	Gene	26503
+38496547	871	875	GOT1	Gene	2805
+38496547	880	884	GOT2	Gene	2806
+38496547	982	988	tumors	Disease	MESH:D009369
+38496547	1027	1030	AST	Gene	26503
+38496547	1055	1065	pan-cancer	Disease	MESH:D009369
+38496547	1156	1161	human	Species	9606
+38496547	1224	1228	GOT1	Gene	2805
+38496547	1233	1237	GOT2	Gene	2806
+38496547	1243	1249	cancer	Disease	MESH:D009369
+38496547	1400	1403	AST	Gene	26503
+38496547	1405	1409	GOT1	Gene	2805
+38496547	1414	1418	GOT2	Gene	2806
+38496547	1551	1554	AST	Gene	26503
+38496547	1576	1580	GOT1	Gene	2805
+38496547	1585	1589	GOT2	Gene	2806
+38496547	1644	1647	AST	Gene	26503
+38496547	1676	1682	tumors	Disease	MESH:D009369
+38496547	1690	1696	breast	Disease	MESH:D061325
+38496547	1771	1834	tumors of the liver, colon, brain, kidney and skeletal sarcomas	Disease	MESH:D003110
+38496547	1891	1894	AST	Gene	26503
+38496547	1923	1933	pan-cancer	Disease	MESH:D009369
+38496547	2026	2031	human	Species	9606
+38496547	2066	2069	AST	Gene	26503
+38496547	2126	2131	tumor	Disease	MESH:D009369
+38496547	2212	2215	AST	Gene	26503
+38496547	2258	2279	liver and lung cancer	Disease	MESH:D008175
+38496547	2284	2305	dermatologic diseases	Disease	MESH:D000168
+38496547	2336	2340	GOT1	Gene	2805
+38496547	2385	2391	cancer	Disease	MESH:D009369
+38496547	2424	2430	mir34a	Gene	407040
+38496547	2445	2451	cancer	Disease	MESH:D009369
+38496547	2475	2479	GOT2	Gene	2806
+38496547	2537	2543	cancer	Disease	MESH:D009369
+38496547	2648	2651	AST	Gene	26503
+38496547	2758	2764	cancer	Disease	MESH:D009369
+38496547	Association	MESH:D000168	2806
+38496547	Association	2805	407040
+38496547	Negative_Correlation	MESH:D003110	26503
+38496547	Association	MESH:D005770	26503
+38496547	Association	26503	407040
+38496547	Association	MESH:D000168	2805
+38496547	Association	MESH:D009369	26503
+38496547	Association	MESH:D009369	2806
+38496547	Positive_Correlation	MESH:D061325	26503
+

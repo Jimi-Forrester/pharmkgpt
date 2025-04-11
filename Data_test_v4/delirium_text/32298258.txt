@@ -1,0 +1,30 @@
+32298258|t|Insights into adenosine A2A receptor activation through cooperative modulation of agonist and allosteric lipid interactions.
+32298258|a|The activation process of G protein-coupled receptors (GPCRs) has been extensively studied, both experimentally and computationally. In particular, Molecular Dynamics (MD) simulations have proven useful in exploring GPCR conformational space. The typical behaviour of class A GPCRs, when subjected to unbiased MD simulations from their crystallized inactive state, is to fluctuate between inactive and intermediate(s) conformations, even with bound agonist. Fully active conformation(s) are rarely stabilized unless a G protein is also bound. Despite several crystal structures of the adenosine A2a receptor (A2aR) having been resolved in complex with co-crystallized agonists and Gs protein, its agonist-mediated activation process is still not completely understood. In order to thoroughly examine the conformational landscape of A2aR activation, we performed unbiased microsecond-length MD simulations in quadruplicate, starting from the inactive conformation either in apo or with bound agonists: endogenous adenosine or synthetic NECA, embedded in two homogeneous phospholipid membranes: 1,2-dioleoyl-sn-glycerol-3-phosphoglycerol (DOPG) or 1,2-dioleoyl-sn-glycerol-3-phosphocholine (DOPC). In DOPC with bound adenosine or NECA, we observe transition to an intermediate receptor conformation consistent with the known adenosine-bound crystal state. In apo state in DOPG, two different intermediate conformations are obtained. One is similar to that observed with bound adenosine in DOPC, while the other is closer to the active state but not yet fully active. Exclusively, in DOPG with bound adenosine or NECA, we reproducibly identify receptor conformations with fully active features, which are able to dock Gs protein. These different receptor conformations can be attributed to the action/absence of agonist and phospholipid-mediated allosteric effects on the intracellular side of the receptor.
+32298258	27	36	 receptor	Gene	135
+32298258	24	27	A2A	DNAMutation	tmVar:c|SUB|A|2|A;HGVS:c.2A>A;VariantGroup:0;CorrespondingGene:135;CorrespondingSpecies:9606
+32298258	105	110	lipid	Chemical	MESH:D008055
+32298258	710	732	adenosine A2a receptor	Gene	135
+32298258	734	738	A2aR	Gene	135
+32298258	957	961	A2aR	Gene	135
+32298258	1137	1146	adenosine	Chemical	MESH:D000241
+32298258	1160	1164	NECA	Chemical	MESH:D019830
+32298258	1194	1206	phospholipid	Chemical	MESH:D010743
+32298258	1218	1260	1,2-dioleoyl-sn-glycerol-3-phosphoglycerol	Chemical	-
+32298258	1262	1266	DOPG	Chemical	-
+32298258	1271	1312	1,2-dioleoyl-sn-glycerol-3-phosphocholine	Chemical	-
+32298258	1314	1318	DOPC	Chemical	-
+32298258	1324	1328	DOPC	Chemical	-
+32298258	1340	1349	adenosine	Chemical	MESH:D000241
+32298258	1353	1357	NECA	Chemical	MESH:D019830
+32298258	1448	1457	adenosine	Chemical	MESH:D000241
+32298258	1495	1499	DOPG	Chemical	-
+32298258	1599	1608	adenosine	Chemical	MESH:D000241
+32298258	1612	1616	DOPC	Chemical	-
+32298258	1706	1710	DOPG	Chemical	-
+32298258	1722	1731	adenosine	Chemical	MESH:D000241
+32298258	1735	1739	NECA	Chemical	MESH:D019830
+32298258	1946	1958	phospholipid	Chemical	MESH:D010743
+32298258	Positive_Correlation	MESH:D000241	135
+32298258	Association	MESH:D008055	135
+32298258	Association	MESH:D008055	HGVS:c.2A>A;CorrespondingGene:135
+

@@ -1,0 +1,16 @@
+39985621|t|Phenotyping to predict 12-month health outcomes of older general medicine patients.
+39985621|a|BACKGROUND: A variety of unsupervised learning algorithms have been used to phenotype older patients, enabling directed care and personalised treatment plans. However, the ability of the clusters to accurately discriminate for the risk of older patients, may vary depending on the methods employed. AIMS: To compare seven clustering algorithms in their ability to develop patient phenotypes that accurately predict health outcomes. METHODS: Data was collected for N = 737 older medical inpatients during their hospital stay for five different types of medical data (ICD-10 codes, ATC drug codes, laboratory, clinic and frailty data). We trialled five unsupervised learning algorithms (K-means, K-modes, hierarchical clustering, latent class analysis (LCA), and DBSCAN) and two graph-based approaches to create separate clusters for each method and datatype. These were used as input for a random forest classifier to predict eleven health outcomes: mortality at one, three, six and 12 months, in-hospital falls and delirium, length-of-stay, outpatient visits, and readmissions at one, three and six months. RESULTS: The overall median area-under-the-curve (AUC) across the eleven outcomes for the seven methods were (from highest to lowest) 0.758 (hierarchical), 0.739 (K-means), 0.722 (KG-Louvain), 0.704 (KNN-Louvain), 0.698 (LCA), 0.694 (DBSCAN) and 0.656 (K-modes). Overall, frailty data was most important data type for predicting mortality, ICD-10 disease codes for predicting readmissions, and laboratory data the most important for predicting falls. CONCLUSIONS: Clusters created using hierarchical, K-means and Louvain community detection algorithms identified well-separated patient phenotypes that were consistently associated with age-related adverse health outcomes. Frailty data was the most valuable data type for predicting most health outcomes.
+39985621	74	82	patients	Species	9606
+39985621	176	184	patients	Species	9606
+39985621	329	337	patients	Species	9606
+39985621	456	463	patient	Species	9606
+39985621	570	580	inpatients	Species	9606
+39985621	703	710	frailty	Disease	MESH:D000073496
+39985621	1089	1094	falls	Disease	MESH:C537863
+39985621	1099	1107	delirium	Disease	MESH:D003693
+39985621	1125	1135	outpatient	Species	9606
+39985621	1463	1470	frailty	Disease	MESH:D000073496
+39985621	1635	1640	falls	Disease	MESH:C537863
+39985621	1769	1776	patient	Species	9606
+39985621	1864	1871	Frailty	Disease	MESH:D000073496
+

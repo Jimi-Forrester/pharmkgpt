@@ -1,0 +1,59 @@
+21955788|t|Identifying Tmem59 related gene regulatory network of mouse neural stem cell from a compendium of expression profiles.
+21955788|a|BACKGROUND: Neural stem cells offer potential treatment for neurodegenerative disorders, such like Alzheimer's disease (AD). While much progress has been made in understanding neural stem cell function, a precise description of the molecular mechanisms regulating neural stem cells is not yet established. This lack of knowledge is a major barrier holding back the discovery of therapeutic uses of neural stem cells. In this paper, the regulatory mechanism of mouse neural stem cell (NSC) differentiation by tmem59 is explored on the genome-level. RESULTS: We identified regulators of tmem59 during the differentiation of mouse NSCs from a compendium of expression profiles. Based on the microarray experiment, we developed the parallelized SWNI algorithm to reconstruct gene regulatory networks of mouse neural stem cells. From the inferred tmem59 related gene network including 36 genes, pou6f1 was identified to regulate tmem59 significantly and might play an important role in the differentiation of NSCs in mouse brain. There are four pathways shown in the gene network, indicating that tmem59 locates in the downstream of the signalling pathway. The real-time RT-PCR results shown that the over-expression of pou6f1 could significantly up-regulate tmem59 expression in C17.2 NSC line. 16 out of 36 predicted genes in our constructed network have been reported to be AD-related, including Ace, aqp1, arrdc3, cd14, cd59a, cds1, cldn1, cox8b, defb11, folr1, gdi2, mmp3, mgp, myrip, Ripk4, rnd3, and sncg. The localization of tmem59 related genes and functional-related gene groups based on the Gene Ontology (GO) annotation was also identified. CONCLUSIONS: Our findings suggest that the expression of tmem59 is an important factor contributing to AD. The parallelized SWNI algorithm increased the efficiency of network reconstruction significantly. This study enables us to highlight novel genes that may be involved in NSC differentiation and provides a shortcut to identifying genes for AD.
+21955788	12	18	Tmem59	Gene	56374
+21955788	54	59	mouse	Species	10090
+21955788	179	206	neurodegenerative disorders	Disease	MESH:D019636
+21955788	218	237	Alzheimer's disease	Disease	MESH:D000544
+21955788	239	241	AD	Disease	MESH:D000544
+21955788	579	584	mouse	Species	10090
+21955788	627	633	tmem59	Gene	56374
+21955788	704	710	tmem59	Gene	56374
+21955788	741	746	mouse	Species	10090
+21955788	918	923	mouse	Species	10090
+21955788	961	967	tmem59	Gene	56374
+21955788	1009	1015	pou6f1	Gene	19009
+21955788	1043	1049	tmem59	Gene	56374
+21955788	1131	1136	mouse	Species	10090
+21955788	1211	1217	tmem59	Gene	56374
+21955788	1334	1340	pou6f1	Gene	19009
+21955788	1373	1379	tmem59	Gene	56374
+21955788	1394	1399	C17.2	CellLine	CVCL:4511
+21955788	1491	1493	AD	Disease	MESH:D000544
+21955788	1518	1522	aqp1	Gene	11826
+21955788	1524	1530	arrdc3	Gene	105171
+21955788	1532	1536	cd14	Gene	12475
+21955788	1538	1543	cd59a	Gene	12509
+21955788	1545	1549	cds1	Gene	74596
+21955788	1551	1556	cldn1	Gene	12737
+21955788	1558	1563	cox8b	Gene	12869
+21955788	1565	1571	defb11	Gene	246081
+21955788	1573	1578	folr1	Gene	14275
+21955788	1580	1584	gdi2	Gene	14569
+21955788	1586	1590	mmp3	Gene	17392
+21955788	1592	1595	mgp	Gene	17313
+21955788	1597	1602	myrip	Gene	245049
+21955788	1604	1609	Ripk4	Gene	72388
+21955788	1611	1615	rnd3	Gene	74194
+21955788	1621	1625	sncg	Gene	20618
+21955788	1647	1653	tmem59	Gene	56374
+21955788	1824	1830	tmem59	Gene	56374
+21955788	1870	1872	AD	Disease	MESH:D000544
+21955788	2112	2114	AD	Disease	MESH:D000544
+21955788	Association	MESH:D000544	72388
+21955788	Association	MESH:D000544	74596
+21955788	Association	MESH:D000544	12737
+21955788	Association	MESH:D000544	246081
+21955788	Association	MESH:D000544	12509
+21955788	Association	MESH:D000544	12869
+21955788	Association	MESH:D000544	20618
+21955788	Association	MESH:D000544	105171
+21955788	Association	MESH:D000544	14569
+21955788	Association	MESH:D000544	17392
+21955788	Positive_Correlation	19009	56374
+21955788	Association	MESH:D000544	17313
+21955788	Association	MESH:D000544	14275
+21955788	Association	MESH:D000544	74194
+21955788	Association	MESH:D000544	11826
+21955788	Association	MESH:D000544	245049
+21955788	Association	MESH:D000544	12475
+

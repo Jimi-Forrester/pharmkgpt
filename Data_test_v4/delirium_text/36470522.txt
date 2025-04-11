@@ -1,0 +1,21 @@
+36470522|t|Modeling digestion, absorption, and ketogenesis after administration of tricaprilin formulations to humans.
+36470522|a|At present, tricaprilin is used as a ketogenic source for the management of mild to moderate Alzheimer's disease. After administration of the medium-chain triglyceride, tricaprilin is hydrolyzed to octanoic acid and further metabolized to ketones, acting as an alternative energy substrate for the brain. In this investigation, we developed a physiologically-based biopharmaceutics model simulating in vivo processes following the peroral administration of tricaprilin. The model includes multiple data sources to establish a partially verified framework for the simulation of plasma profiles. The input parameters were identified based on existing literature data and in vitro digestion studies. Model validation was conducted using the data from a phase I clinical trial. A partial parameter sensitivity analysis elucidated various influences on the plasma ketone levels that are mainly responsible for the therapeutic effects of tricaprilin. Based on our findings, we concluded that dispersibility and lipolysis of tricaprilin together with the gastric emptying patterns are limiting ketogenesis, while other steps such as the conversion of octanoic acid to ketone bodies play a minor role only.
+36470522	72	83	tricaprilin	Chemical	MESH:C003637
+36470522	100	106	humans	Species	9606
+36470522	120	131	tricaprilin	Chemical	MESH:C003637
+36470522	201	220	Alzheimer's disease	Disease	MESH:D000544
+36470522	263	275	triglyceride	Chemical	MESH:D014280
+36470522	277	288	tricaprilin	Chemical	MESH:C003637
+36470522	306	319	octanoic acid	Chemical	MESH:C031492
+36470522	347	354	ketones	Chemical	MESH:D007659
+36470522	565	576	tricaprilin	Chemical	MESH:C003637
+36470522	967	973	ketone	Chemical	MESH:D007659
+36470522	1040	1051	tricaprilin	Chemical	MESH:C003637
+36470522	1126	1137	tricaprilin	Chemical	MESH:C003637
+36470522	1252	1265	octanoic acid	Chemical	MESH:C031492
+36470522	1269	1282	ketone bodies	Chemical	MESH:D007657
+36470522	Negative_Correlation	MESH:C003637	MESH:D000544
+36470522	Association	MESH:C003637	MESH:C031492
+36470522	Association	MESH:C031492	MESH:D007657
+36470522	Association	MESH:C003637	MESH:D007659
+

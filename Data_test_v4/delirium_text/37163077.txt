@@ -1,0 +1,12 @@
+37163077|t|CRISPRi-based screens in iAssembloids to elucidate neuron-glia interactions.
+37163077|a|The sheer complexity of the brain has complicated our ability to understand its cellular mechanisms in health and disease. Genome-wide association studies have uncovered genetic variants associated with specific neurological phenotypes and diseases. In addition, single-cell transcriptomics have provided molecular descriptions of specific brain cell types and the changes they undergo during disease. Although these approaches provide a giant leap forward towards understanding how genetic variation can lead to functional changes in the brain, they do not establish molecular mechanisms. To address this need, we developed a 3D co-culture system termed iAssembloids (induced multi-lineage assembloids) that enables the rapid generation of homogenous neuron-glia spheroids. We characterize these iAssembloids with immunohistochemistry and single-cell transcriptomics and combine them with large-scale CRISPRi-based screens. In our first application, we ask how glial and neuronal cells interact to control neuronal death and survival. Our CRISPRi-based screens identified that GSK3beta inhibits the protective NRF2-mediated oxidative stress response in the presence of reactive oxygen species elicited by high neuronal activity, which was not previously found in 2D monoculture neuron screens. We also apply the platform to investigate the role of APOE-chi4, a risk variant for Alzheimer's Disease, in its effect on neuronal survival. This platform expands the toolbox for the unbiased identification of mechanisms of cell-cell interactions in brain health and disease.
+37163077	1084	1098	neuronal death	Disease	MESH:D009410
+37163077	1155	1163	GSK3beta	Gene	2932
+37163077	1188	1192	NRF2	Gene	4780
+37163077	1247	1270	reactive oxygen species	Chemical	MESH:D017382
+37163077	1426	1430	APOE	Gene	348
+37163077	1456	1475	Alzheimer's Disease	Disease	MESH:D000544
+37163077	Association	MESH:D017382	2932
+37163077	Negative_Correlation	2932	4780
+37163077	Association	MESH:D000544	348
+

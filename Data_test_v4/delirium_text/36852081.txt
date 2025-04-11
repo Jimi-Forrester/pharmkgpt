@@ -1,0 +1,7 @@
+36852081|t|A new method for disease diagnosis based on hierarchical BRB with power set.
+36852081|a|Disease diagnosis occupies an important position in the medical field. The diagnosis of the disease is the basis for choosing the right treatment plan. Doctors must first diagnose what the patient has based on the clinical characteristics of various diseases, and then they can administer the right medicine. When building models for disease diagnosis, models are required to be able to handle various uncertainty information. The belief rule base (BRB) can effectively handle various information under uncertainty by introducing belief distributions. However, in current research, BRB-based disease diagnosis models still have problems of combinatorial rule explosion and inability to deal with local ignorance effectively. Therefore, a hierarchical BRB with power set (H-BRBp)-based disease diagnosis model is proposed in this paper. First, the physiological indexes and data of the patients were analyzed, and the data were preprocessed using the principal component regression (PCR) algorithm. Second, the H-BRBp disease diagnosis model was constructed to solve the deficiencies in the above BRB disease diagnosis model. Finally, the validity and advantages of the model were verified by experiments on lumbar spine disease diagnosis and a large number of comparison experiments.
+36852081	266	273	patient	Species	9606
+36852081	962	970	patients	Species	9606
+36852081	1173	1184	BRB disease	Disease	MESH:D019292
+36852081	1284	1304	lumbar spine disease	Disease	MESH:C535531
+

@@ -1,0 +1,29 @@
+36388077|t|Use of Electronic Health Records to Identify Exposure-Response Relationships in Critically Ill Children: An Example of Midazolam and Delirium.
+36388077|a|Adverse drug events are common in critically ill children and often result from systemic or target organ drug exposure. Methods of drug dosing and titration that consider pharmacokinetic alterations may improve our ability to optimally dose critically ill patients and reduce the risk for drug-related adverse events. To demonstrate this possibility, we explored the exposure-response relationship between midazolam and delirium in critically ill children. We retrospectively examined electronic health records (EHRs) of critically ill children <18 years of age hospitalized in the pediatric intensive care unit at Duke University; these children were administered midazolam during mechanical ventilation and had >=1 Cornell Assessment of Pediatric Delirium (CAPD) score. We used individual-level data extracted from the EHR and a previously published population pharmacokinetic (PK) model developed in critically ill children to simulate plasma concentrations at the time of CAPD scores in 1,000 representative datasets. We used multilevel repeated measures models, with clustering at patient and simulation levels, to evaluate the associations between measures of drug exposure (e.g., concentration and area under concentration time curve) and delirium scores. We included 61 children, median age 1.5 years (range = 0.1-16.3), with 181 CAPD assessments. We identified similarities between simulated Empirical Bayesian parameter estimates from the EHR cohort and those from the PK model population. We identified a stronger association between drug concentration at the time of score and CAPD scores (coefficient 1.78; 95% confidence interval: 1.66-1.90) compared with cumulative dose per kilogram and CAPD scores (coefficient -0.01; 95% confidence interval: -0.01 to -0.01). EHR and PK models can be leveraged to investigate exposure-response relationships in critically ill children.
+36388077	80	94	Critically Ill	Disease	MESH:D016638
+36388077	95	103	Children	Species	9606
+36388077	119	128	Midazolam	Chemical	MESH:D008874
+36388077	133	141	Delirium	Disease	MESH:D003693
+36388077	177	191	critically ill	Disease	MESH:D016638
+36388077	192	200	children	Species	9606
+36388077	384	398	critically ill	Disease	MESH:D016638
+36388077	399	407	patients	Species	9606
+36388077	549	558	midazolam	Chemical	MESH:D008874
+36388077	563	571	delirium	Disease	MESH:D003693
+36388077	575	589	critically ill	Disease	MESH:D016638
+36388077	590	598	children	Species	9606
+36388077	664	678	critically ill	Disease	MESH:D016638
+36388077	679	687	children	Species	9606
+36388077	781	789	children	Species	9606
+36388077	808	817	midazolam	Chemical	MESH:D008874
+36388077	892	900	Delirium	Disease	MESH:D003693
+36388077	1046	1060	critically ill	Disease	MESH:D016638
+36388077	1061	1069	children	Species	9606
+36388077	1229	1236	patient	Species	9606
+36388077	1389	1397	delirium	Disease	MESH:D003693
+36388077	1421	1429	children	Species	9606
+36388077	2005	2019	critically ill	Disease	MESH:D016638
+36388077	2020	2028	children	Species	9606
+36388077	Negative_Correlation	MESH:D008874	MESH:D016638
+36388077	Positive_Correlation	MESH:D008874	MESH:D003693
+

@@ -1,0 +1,61 @@
+9614221|t|Increased sensitivity to mitochondrial toxin-induced apoptosis in neural cells expressing mutant presenilin-1 is linked to perturbed calcium homeostasis and enhanced oxyradical production.
+9614221|a|Many cases of autosomal dominant early onset Alzheimer's disease (AD) result from mutations in the gene encoding presenilin-1 (PS-1). PS-1 is an integral membrane protein expressed ubiquitously in neurons throughout the brain in which it is located primarily in endoplasmic reticulum (ER). Although the pathogenic mechanism of PS-1 mutations is unknown, recent findings suggest that PS mutations render neurons vulnerable to apoptosis. Because increasing evidence indicates that mitochondrial alterations contribute to neuronal death in AD, we tested the hypothesis that PS-1 mutations sensitize neurons to mitochondrial failure. PC12 cell lines expressing a PS-1 mutation (L286V) exhibited increased sensitivity to apoptosis induced by 3-nitropropionic acid (3-NP) and malonate, inhibitors of succinate dehydrogenase, compared with control cell lines and lines overexpressing wild-type PS-1. The apoptosis-enhancing action of mutant PS-1 was prevented by antioxidants (propyl gallate and glutathione), zVAD-fmk, and cyclosporin A, indicating requirements of reactive oxygen species (ROS), caspases, and mitochondrial permeability transition in the cell death process. 3-NP induced a rapid elevation of [Ca2+]i, which was followed by caspase activation, accumulation of ROS, and decreases in mitochondrial reducing potential and transmembrane potential in cells expressing mutant PS-1. The calcium chelator BAPTA AM and agents that block calcium release from ER and influx through voltage-dependent channels prevented mitochondrial ROS accumulation and membrane depolarization and apoptosis. Our data suggest that by perturbing subcellular calcium homeostasis presenilin mutations sensitize neurons to mitochondria-based forms of apoptosis that involve oxidative stress.
+9614221	25	44	mitochondrial toxin	Chemical	-
+9614221	97	109	presenilin-1	Gene	29192
+9614221	133	140	calcium	Chemical	MESH:D002118
+9614221	234	253	Alzheimer's disease	Disease	MESH:D000544
+9614221	255	257	AD	Disease	MESH:D000544
+9614221	302	314	presenilin-1	Gene	29192
+9614221	316	320	PS-1	Gene	29192
+9614221	323	327	PS-1	Gene	29192
+9614221	516	520	PS-1	Gene	29192
+9614221	668	681	mitochondrial	Disease	MESH:D028361
+9614221	708	722	neuronal death	Disease	MESH:D009410
+9614221	726	728	AD	Disease	MESH:D000544
+9614221	760	764	PS-1	Gene	29192
+9614221	796	817	mitochondrial failure	Disease	MESH:D051437
+9614221	819	823	PC12	CellLine	CVCL:0481
+9614221	848	852	PS-1	Gene	29192
+9614221	863	868	L286V	ProteinMutation	tmVar:p|SUB|L|286|V;HGVS:p.L286V;VariantGroup:0;OriginalGene:29192;CorrespondingGene:5663;RS#:63751235;CorrespondingSpecies:10116;CA#:225141
+9614221	926	947	3-nitropropionic acid	Chemical	MESH:C015392
+9614221	949	953	3-NP	Chemical	MESH:C015392
+9614221	959	967	malonate	Chemical	MESH:C030290
+9614221	1076	1080	PS-1	Gene	29192
+9614221	1123	1127	PS-1	Gene	29192
+9614221	1159	1173	propyl gallate	Chemical	MESH:D011435
+9614221	1178	1189	glutathione	Chemical	MESH:D005978
+9614221	1192	1200	zVAD-fmk	Chemical	MESH:C096713
+9614221	1206	1219	cyclosporin A	Chemical	MESH:D016572
+9614221	1248	1271	reactive oxygen species	Chemical	MESH:D017382
+9614221	1273	1276	ROS	Chemical	MESH:D017382
+9614221	1293	1306	mitochondrial	Disease	MESH:D028361
+9614221	1358	1362	3-NP	Chemical	MESH:C015392
+9614221	1393	1397	Ca2+	Chemical	-
+9614221	1459	1462	ROS	Chemical	MESH:D017382
+9614221	1481	1494	mitochondrial	Disease	MESH:D028361
+9614221	1569	1573	PS-1	Gene	29192
+9614221	1579	1586	calcium	Chemical	MESH:D002118
+9614221	1596	1604	BAPTA AM	Chemical	MESH:C070379
+9614221	1627	1634	calcium	Chemical	MESH:D002118
+9614221	1707	1720	mitochondrial	Disease	MESH:D028361
+9614221	1721	1724	ROS	Chemical	MESH:D017382
+9614221	1829	1836	calcium	Chemical	MESH:D002118
+9614221	Positive_Correlation	MESH:C015392	RS#:63751235;HGVS:p.L286V;CorrespondingGene:5663
+9614221	Negative_Correlation	MESH:C070379	MESH:D028361
+9614221	Association	MESH:C015392	29192
+9614221	Positive_Correlation	MESH:C030290	RS#:63751235;HGVS:p.L286V;CorrespondingGene:5663
+9614221	Association	MESH:D016572	29192
+9614221	Association	MESH:D011435	29192
+9614221	Association	MESH:D000544	29192
+9614221	Negative_Correlation	MESH:C015392	MESH:D028361
+9614221	Association	MESH:C070379	MESH:D002118
+9614221	Positive_Correlation	MESH:C015392	MESH:D017382
+9614221	Association	MESH:D002118	29192
+9614221	Association	MESH:D028361	29192
+9614221	Association	MESH:C030290	29192
+9614221	Association	MESH:C096713	29192
+9614221	Association	MESH:D005978	29192
+9614221	Negative_Correlation	MESH:C070379	MESH:D017382
+9614221	Association	MESH:D051437	29192
+9614221	Association	MESH:D017382	29192
+

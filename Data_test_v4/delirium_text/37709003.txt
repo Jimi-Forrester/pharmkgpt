@@ -1,0 +1,20 @@
+37709003|t|Improving Alzheimer Diagnoses with an interpretable Deep Learning Framework: including Neuropsychiatric Symptoms.
+37709003|a|Alzheimer's disease (AD) is a prevalent neurodegenerative disorder characterized by the progressive cognitive decline. Among the various clinical symptoms, neuropsychiatric symptoms (NPS) commonly occur during the course of AD. Previous researches have demonstrated a strong association between NPS and severity of AD, while the research methods are not sufficiently intuitive. Here, we report a hybrid deep learning framework for AD diagnosis using multimodal inputs such as structural MRI, behavioral scores, age, and gender information. The framework uses a 3D convolutional neural network (CNN) to automatically extract features from MRI. The imaging features are passed to the Principal Component Analysis (PCA) for dimensionality reduction, which fuse with non-imaging information to improve the diagnosis of AD. According to the experimental results, our model achieves an accuracy (ACC) of 0.91 and an area under the curve (AUC) of 0.97 in the task of classifying AD and cognitively normal (CN) individuals. SHapley Additive exPlanations (SHAP) are used to visually exhibit the contribution of specific NPS in the proposed model. Among all behavioral symptoms, apathy plays a particularly important role in the diagnosis of AD, which can be considered a valuable factor in further studies, as well as clinical trials.
+37709003	10	19	Alzheimer	Disease	MESH:D000544
+37709003	87	112	Neuropsychiatric Symptoms	Disease	MESH:D001523
+37709003	114	133	Alzheimer's disease	Disease	MESH:D000544
+37709003	135	137	AD	Disease	MESH:D000544
+37709003	154	180	neurodegenerative disorder	Disease	MESH:D019636
+37709003	214	231	cognitive decline	Disease	MESH:D003072
+37709003	270	295	neuropsychiatric symptoms	Disease	MESH:D001523
+37709003	297	300	NPS	Disease	MESH:D001523
+37709003	338	340	AD	Disease	MESH:D000544
+37709003	409	412	NPS	Disease	MESH:D001523
+37709003	429	431	AD	Disease	MESH:D000544
+37709003	545	547	AD	Disease	MESH:D000544
+37709003	929	931	AD	Disease	MESH:D000544
+37709003	1086	1088	AD	Disease	MESH:D000544
+37709003	1225	1228	NPS	Disease	MESH:D001523
+37709003	1283	1289	apathy	Disease	
+37709003	1346	1348	AD	Disease	MESH:D000544
+

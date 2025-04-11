@@ -1,0 +1,47 @@
+39641322|t|Single-microglia transcriptomic transition network-based prediction and real-world patient data validation identifies ketorolac as a repurposable drug for Alzheimer's disease.
+39641322|a|INTRODUCTION: High microglial heterogeneities hinder the development of microglia-targeted treatment for Alzheimer's disease (AD). METHODS: We integrated 0.7 million single-nuclei RNA-sequencing transcriptomes from human brains using a variational autoencoder. We predicted AD-relevant microglial subtype-specific transition networks for disease-associated microglia (DAM), tau microglia, and neuroinflammation-like microglia (NIM). We prioritized drugs by specifically targeting microglia-specific transition networks and validated drugs using two independent real-world patient databases. RESULTS: We identified putative AD molecular drivers (e.g., SYK, CTSB, and INPP5D) in transition networks of DAM and NIM. Via specifically targeting NIM, we identified that usage of ketorolac was associated with reduced AD incidence in both MarketScan (hazard ratio [HR] = 0.89) and INSIGHT (HR = 0.83) Clinical Research Network databases, mechanistically supported by ketorolac-treated transcriptomic data from AD patient induced pluripotent stem cell-derived microglia. DISCUSSION: This study offers insights into the pathobiology of AD-relevant microglial subtypes and identifies ketorolac as a potential anti-inflammatory treatment for AD. HIGHLIGHTS: An integrative analysis of   0.7 million single-nuclei RNA-sequencing transcriptomes from human brains identified Alzheimer's disease (AD)-relevant microglia subtypes. Network-based analysis identified putative molecular drivers (e.g., SYK, CTSB, INPP5D) of transition networks between disease-associated microglia (DAM) and neuroinflammation-like microglia (NIM). Via network-based prediction and population-based validation, we identified that usage of ketorolac (a US Food and Drug Administration-approved anti-inflammatory medicine) was associated with reduced AD incidence in two independent patient databases. Mechanistic observation showed that ketorolac treatment downregulated the Type-I interferon signaling in patient induced pluripotent stem cell-derived microglia, mechanistically supporting its protective effects in real-world patient databases.
+39641322	83	90	patient	Species	9606
+39641322	118	127	ketorolac	Chemical	MESH:D020910
+39641322	155	174	Alzheimer's disease	Disease	MESH:D000544
+39641322	281	300	Alzheimer's disease	Disease	MESH:D000544
+39641322	302	304	AD	Disease	MESH:D000544
+39641322	391	396	human	Species	9606
+39641322	450	452	AD	Disease	MESH:D000544
+39641322	550	553	tau	Gene	4137
+39641322	569	586	neuroinflammation	Disease	MESH:D000090862
+39641322	748	755	patient	Species	9606
+39641322	799	801	AD	Disease	MESH:D000544
+39641322	827	830	SYK	Gene	6850
+39641322	832	836	CTSB	Gene	1508
+39641322	842	848	INPP5D	Gene	3635
+39641322	949	958	ketorolac	Chemical	MESH:D020910
+39641322	987	989	AD	Disease	MESH:D000544
+39641322	1136	1145	ketorolac	Chemical	MESH:D020910
+39641322	1179	1181	AD	Disease	MESH:D000544
+39641322	1182	1189	patient	Species	9606
+39641322	1303	1305	AD	Disease	MESH:D000544
+39641322	1350	1359	ketorolac	Chemical	MESH:D020910
+39641322	1380	1392	inflammatory	Disease	MESH:D007249
+39641322	1407	1409	AD	Disease	MESH:D000544
+39641322	1513	1518	human	Species	9606
+39641322	1537	1556	Alzheimer's disease	Disease	MESH:D000544
+39641322	1558	1560	AD	Disease	MESH:D000544
+39641322	1659	1662	SYK	Gene	6850
+39641322	1664	1668	CTSB	Gene	1508
+39641322	1670	1676	INPP5D	Gene	3635
+39641322	1748	1765	neuroinflammation	Disease	MESH:D000090862
+39641322	1878	1887	ketorolac	Chemical	MESH:D020910
+39641322	1937	1949	inflammatory	Disease	MESH:D007249
+39641322	1988	1990	AD	Disease	MESH:D000544
+39641322	2020	2027	patient	Species	9606
+39641322	2075	2084	ketorolac	Chemical	MESH:D020910
+39641322	2144	2151	patient	Species	9606
+39641322	2265	2272	patient	Species	9606
+39641322	Association	MESH:D000090862	6850
+39641322	Association	MESH:D000544	6850
+39641322	Negative_Correlation	MESH:D020910	MESH:D000544
+39641322	Association	MESH:D000090862	1508
+39641322	Negative_Correlation	MESH:D020910	MESH:D007249
+39641322	Association	MESH:D000544	3635
+39641322	Association	MESH:D000544	1508
+

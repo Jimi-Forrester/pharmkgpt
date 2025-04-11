@@ -1,0 +1,40 @@
+36747733|t|Using Artificial Intelligence to Learn Optimal Regimen Plan for Alzheimer's Disease.
+36747733|a|Background: Alzheimer's Disease (AD) is a progressive neurological disorder with no specific curative medications. While only a few medications are approved by FDA (i.e., donepezil, galantamine, rivastigmine, and memantine) to relieve symptoms (e.g., cognitive decline), sophisticated clinical skills are crucial to optimize the appropriate regimens given the multiple coexisting comorbidities in this patient population. Objective: Here, we propose a study to leverage reinforcement learning (RL) to learn the clinicians' decisions for AD patients based on the longitude records from Electronic Health Records (EHR). Methods: In this study, we withdraw 1,736 patients fulfilling our criteria, from the Alzheimer's Disease Neuroimaging Initiative(ADNI) database. We focused on the two most frequent concomitant diseases, depression, and hypertension, thus resulting in five main cohorts, 1) whole data, 2) AD-only, 3) AD-hypertension, 4) AD-depression, and 5) AD-hypertension-depression. We modeled the treatment learning into an RL problem by defining the three factors (i.e., states, action, and reward) in RL in multiple strategies, where a regression model and a decision tree are developed to generate states, six main medications extracted (i.e., no drugs, cholinesterase inhibitors, memantine, hypertension drugs, a combination of cholinesterase inhibitors and memantine, and supplements or other drugs) are for action, and Mini-Mental State Exam (MMSE) scores are for reward. Results: Given the proper dataset, the RL model can generate an optimal policy (regimen plan) that outperforms the clinician's treatment regimen. With the smallest data samples, the optimal-policy (i.e., policy iteration and Q-learning) gained a lesser reward than the clinician's policy (mean -2.68 and -2.76 vs . -2.66, respectively), but it gained more reward once the data size increased (mean -3.56 and -2.48 vs . -3.57, respectively). Conclusions: Our results highlight the potential of using RL to generate the optimal treatment based on the patients' longitude records. Our work can lead the path toward the development of RL-based decision support systems which could facilitate the daily practice to manage Alzheimer's disease with comorbidities.
+36747733	64	83	Alzheimer's Disease	Disease	MESH:D000544
+36747733	97	116	Alzheimer's Disease	Disease	MESH:D000544
+36747733	118	120	AD	Disease	MESH:D000544
+36747733	139	160	neurological disorder	Disease	MESH:D009461
+36747733	256	265	donepezil	Chemical	MESH:D000077265
+36747733	267	278	galantamine	Chemical	MESH:D005702
+36747733	280	292	rivastigmine	Chemical	MESH:D000068836
+36747733	298	307	memantine	Chemical	MESH:D008559
+36747733	336	353	cognitive decline	Disease	MESH:D003072
+36747733	487	494	patient	Species	9606
+36747733	622	624	AD	Disease	MESH:D000544
+36747733	625	633	patients	Species	9606
+36747733	745	753	patients	Species	9606
+36747733	788	807	Alzheimer's Disease	Disease	MESH:D000544
+36747733	906	916	depression	Disease	MESH:D003866
+36747733	922	934	hypertension	Disease	MESH:D006973
+36747733	991	993	AD	Disease	MESH:D000544
+36747733	1003	1005	AD	Disease	MESH:D000544
+36747733	1006	1018	hypertension	Disease	MESH:D006973
+36747733	1023	1025	AD	Disease	MESH:D000544
+36747733	1026	1036	depression	Disease	MESH:D003866
+36747733	1045	1047	AD	Disease	MESH:D000544
+36747733	1048	1060	hypertension	Disease	MESH:D006973
+36747733	1061	1071	depression	Disease	MESH:D003866
+36747733	1375	1384	memantine	Chemical	MESH:D008559
+36747733	1386	1398	hypertension	Disease	MESH:D006973
+36747733	1453	1462	memantine	Chemical	MESH:D008559
+36747733	2118	2126	patients	Species	9606
+36747733	2286	2305	Alzheimer's disease	Disease	MESH:D000544
+36747733	Negative_Correlation	MESH:D008559	MESH:D000544
+36747733	Negative_Correlation	MESH:D000068836	MESH:D003072
+36747733	Negative_Correlation	MESH:D000077265	MESH:D003072
+36747733	Negative_Correlation	MESH:D000068836	MESH:D000544
+36747733	Negative_Correlation	MESH:D000077265	MESH:D000544
+36747733	Negative_Correlation	MESH:D005702	MESH:D003072
+36747733	Negative_Correlation	MESH:D008559	MESH:D003072
+36747733	Negative_Correlation	MESH:D005702	MESH:D000544
+

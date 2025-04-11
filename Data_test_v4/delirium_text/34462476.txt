@@ -1,0 +1,30 @@
+34462476|t|Myocarditis occurrence with cancer immunotherapy across indications in clinical trial and post-marketing data.
+34462476|a|Antibodies targeting the PD-1, PD-L1, and CTLA-4 immune checkpoint axis have been used in a variety of tumor types. They achieve anti-tumor activity through activating the patient's own immune system to target immune response evading cancer cells. However, this unique mechanism of action may cause immune-related adverse events, irAEs. One of these irAEs is myocarditis which is associated with an alarming mortality rate. In this study we presented clinical cases of myocarditis from safety trial datasets submitted to the U.S. Food and Drug Administration, FDA. Additionally, we analyzed over fourteen million FDA Adverse Event Reporting System, FAERS, submissions. The statistical analysis of the FAERS data provided evidence of significantly increased reporting of myocarditis in patients administered immune checkpoint inhibitors alone, in combination with another immune checkpoint inhibitor, the kinase inhibitor axitinib, or chemotherapy, for all cancer types, when compared to patients administered chemotherapy. All combination therapies led to further increased reporting odds ratios of myocarditis. We further analyzed the occurrence of myocarditis by stratifying the reports into sub-cohorts based on specific cancer types and treatment/control groups in major cancer immunotherapy efficacy trials and confirmed the observed trend for each cohort.
+34462476	0	11	Myocarditis	Disease	MESH:D009205
+34462476	28	34	cancer	Disease	MESH:D009369
+34462476	136	140	PD-1	Gene	5133
+34462476	142	147	PD-L1	Gene	29126
+34462476	153	159	CTLA-4	Gene	1493
+34462476	214	219	tumor	Disease	MESH:D009369
+34462476	245	250	tumor	Disease	MESH:D009369
+34462476	283	290	patient	Species	9606
+34462476	345	351	cancer	Disease	MESH:D009369
+34462476	441	446	irAEs	Disease	
+34462476	461	466	irAEs	Disease	
+34462476	470	481	myocarditis	Disease	MESH:D009205
+34462476	580	591	myocarditis	Disease	MESH:D009205
+34462476	881	892	myocarditis	Disease	MESH:D009205
+34462476	896	904	patients	Species	9606
+34462476	1032	1040	axitinib	Chemical	MESH:D000077784
+34462476	1067	1073	cancer	Disease	MESH:D009369
+34462476	1098	1106	patients	Species	9606
+34462476	1210	1221	myocarditis	Disease	MESH:D009205
+34462476	1261	1272	myocarditis	Disease	MESH:D009205
+34462476	1335	1341	cancer	Disease	MESH:D009369
+34462476	1386	1392	cancer	Disease	MESH:D009369
+34462476	Association	MESH:D009369	5133
+34462476	Association	MESH:D009369	1493
+34462476	Positive_Correlation	MESH:D000077784	MESH:D009205
+34462476	Association	MESH:D009369	29126
+34462476	Negative_Correlation	MESH:D000077784	MESH:D009369
+

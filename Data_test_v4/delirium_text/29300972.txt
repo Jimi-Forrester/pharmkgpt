@@ -1,0 +1,78 @@
+29300972|t|A recurrent de novo missense mutation in UBTF causes developmental neuroregression.
+29300972|a|UBTF (upstream binding transcription factor) exists as two isoforms; UBTF1 regulates rRNA transcription by RNA polymerase 1, whereas UBTF2 regulates mRNA transcription by RNA polymerase 2. Herein, we describe 4 patients with very similar patterns of neuroregression due to recurrent de novo mutations in UBTF (GRCh37/hg19, NC_000017.10: g.42290219C > T, NM_014233.3: c.628G > A) resulting in the same amino acid change in both UBTF1 and UBTF2 (p.Glu210Lys [p.E210K]). Disease onset in our cohort was at 2.5 to 3 years and characterized by slow progression of global motor, cognitive and behavioral dysfunction. Notable early features included hypotonia with a floppy gait, high-pitched dysarthria and hyperactivity. Later features included aphasia, dystonia, and spasticity. Speech and ambulatory ability were lost by the early teens. Magnetic resonance imaging showed progressive generalized cerebral atrophy (supratentorial > infratentorial) with involvement of both gray and white matter. Patient fibroblasts showed normal levels of UBTF transcripts, increased expression of pre-rRNA and 18S rRNA, nucleolar abnormalities, markedly increased numbers of DNA breaks, defective cell-cycle progression, and apoptosis. Expression of mutant human UBTF1 in Drosophila neurons was lethal. Although no loss-of-function variants are reported in the Exome Aggregation Consortium (ExAC) database and Ubtf-/- is early embryonic lethal in mice, Ubtf+/- mice displayed only mild motor and behavioral dysfunction in adulthood. Our data underscore the importance of including UBTF E210K in the differential diagnosis of neuroregression and suggest that mainly gain-of-function mechanisms contribute to the pathogenesis of the UBTF E210K neuroregression syndrome.
+29300972	41	45	UBTF	Gene	7343
+29300972	53	82	developmental neuroregression	Disease	MESH:C567924
+29300972	84	88	UBTF	Gene	7343
+29300972	295	303	patients	Species	9606
+29300972	334	349	neuroregression	Disease	
+29300972	388	392	UBTF	Gene	7343
+29300972	407	419	NC_000017.10	RefSeq	NC_000017.10
+29300972	421	436	g.42290219C > T	DNAMutation	tmVar:g|SUB|C|42290219|T;HGVS:g.42290219C>T;VariantGroup:1;CorrespondingGene:7343;CorrespondingSpecies:9606
+29300972	438	449	NM_014233.3	Species	
+29300972	451	461	c.628G > A	DNAMutation	tmVar:c|SUB|G|628|A;HGVS:c.628G>A;VariantGroup:0;CorrespondingGene:7343;CorrespondingSpecies:9606
+29300972	528	539	p.Glu210Lys	ProteinMutation	tmVar:p|SUB|E|210|K;HGVS:p.E210K;VariantGroup:0;CorrespondingGene:7343;CorrespondingSpecies:9606
+29300972	541	548	p.E210K	ProteinMutation	tmVar:p|SUB|E|210|K;HGVS:p.E210K;VariantGroup:0;CorrespondingGene:7343;CorrespondingSpecies:9606
+29300972	650	693	motor, cognitive and behavioral dysfunction	Disease	MESH:D003072
+29300972	727	736	hypotonia	Disease	MESH:D009123
+29300972	744	755	floppy gait	Disease	MESH:D009123
+29300972	770	780	dysarthria	Disease	MESH:D004401
+29300972	785	798	hyperactivity	Disease	MESH:D006948
+29300972	824	831	aphasia	Disease	MESH:D001037
+29300972	833	841	dystonia	Disease	MESH:D004421
+29300972	847	857	spasticity	Disease	MESH:D009128
+29300972	977	993	cerebral atrophy	Disease	MESH:D001284
+29300972	1076	1083	Patient	Species	9606
+29300972	1120	1124	UBTF	Gene	7343
+29300972	1185	1208	nucleolar abnormalities	Disease	MESH:D000014
+29300972	1322	1327	human	Species	9606
+29300972	1337	1347	Drosophila	Species	7227
+29300972	1475	1479	Ubtf	Gene	21429
+29300972	1492	1508	embryonic lethal	Disease	MESH:D020964
+29300972	1512	1516	mice	Species	10090
+29300972	1518	1522	Ubtf	Gene	21429
+29300972	1526	1530	mice	Species	10090
+29300972	1551	1583	motor and behavioral dysfunction	Disease	MESH:D001523
+29300972	1651	1656	E210K	ProteinMutation	tmVar:p|SUB|E|210|K;HGVS:p.E210K;VariantGroup:0;CorrespondingGene:7343;CorrespondingSpecies:9606
+29300972	1690	1705	neuroregression	Disease	
+29300972	1801	1806	E210K	ProteinMutation	tmVar:p|SUB|E|210|K;HGVS:p.E210K;VariantGroup:0;CorrespondingGene:7343;CorrespondingSpecies:9606
+29300972	1807	1831	neuroregression syndrome	Disease	MESH:D013577
+29300972	Association	MESH:D006948	7343
+29300972	Positive_Correlation	MESH:D003072	HGVS:c.628G>A;CorrespondingGene:7343
+29300972	Positive_Correlation	MESH:D009123	HGVS:g.42290219C>T;CorrespondingGene:7343
+29300972	Positive_Correlation	MESH:D003072	HGVS:p.E210K;CorrespondingGene:7343
+29300972	Positive_Correlation	HGVS:g.42290219C>T;CorrespondingGene:7343	MESH:D013577
+29300972	Positive_Correlation	MESH:C567924	HGVS:p.E210K;CorrespondingGene:7343
+29300972	Association	MESH:D003072	7343
+29300972	Positive_Correlation	MESH:D009123	HGVS:p.E210K;CorrespondingGene:7343
+29300972	Positive_Correlation	HGVS:c.628G>A;CorrespondingGene:7343	MESH:D009123
+29300972	Positive_Correlation	HGVS:g.42290219C>T;CorrespondingGene:7343	MESH:C567924
+29300972	Positive_Correlation	MESH:D001284	HGVS:g.42290219C>T;CorrespondingGene:7343
+29300972	Positive_Correlation	MESH:D013577	HGVS:c.628G>A;CorrespondingGene:7343
+29300972	Positive_Correlation	MESH:D013577	HGVS:p.E210K;CorrespondingGene:7343
+29300972	Association	MESH:D004421	7343
+29300972	Positive_Correlation	HGVS:c.628G>A;CorrespondingGene:7343	MESH:C567924
+29300972	Positive_Correlation	MESH:D003072	HGVS:g.42290219C>T;CorrespondingGene:7343
+29300972	Positive_Correlation	MESH:D013577	HGVS:g.42290219C>T;CorrespondingGene:7343
+29300972	Positive_Correlation	MESH:C567924	HGVS:g.42290219C>T;CorrespondingGene:7343
+29300972	Positive_Correlation	MESH:D006948	HGVS:p.E210K;CorrespondingGene:7343
+29300972	Positive_Correlation	HGVS:g.42290219C>T;CorrespondingGene:7343	MESH:D009123
+29300972	Association	MESH:D013577	21429
+29300972	Positive_Correlation	MESH:D004421	HGVS:g.42290219C>T;CorrespondingGene:7343
+29300972	Positive_Correlation	MESH:D009123	HGVS:c.628G>A;CorrespondingGene:7343
+29300972	Positive_Correlation	HGVS:c.628G>A;CorrespondingGene:7343	MESH:D013577
+29300972	Positive_Correlation	MESH:C567924	HGVS:c.628G>A;CorrespondingGene:7343
+29300972	Association	MESH:D009123	7343
+29300972	Association	MESH:D020964	21429
+29300972	Association	MESH:D013577	7343
+29300972	Association	MESH:C567924	21429
+29300972	Association	MESH:C567924	7343
+29300972	Association	MESH:D001523	21429
+29300972	Association	MESH:D009128	7343
+29300972	Association	MESH:D003072	7343
+29300972	Association	MESH:D009123	7343
+29300972	Association	MESH:D013577	7343
+29300972	Association	MESH:C567924	7343
+29300972	Association	MESH:D001284	7343
+29300972	Association	MESH:D006948	7343
+29300972	Association	MESH:D004421	7343
+

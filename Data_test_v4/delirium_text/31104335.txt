@@ -1,0 +1,30 @@
+31104335|t|Integrated analysis of genomics, longitudinal metabolomics, and Alzheimer's risk factors among 1,111 cohort participants.
+31104335|a|Although Alzheimer's disease (AD) is highly heritable, genetic variants are known to be associated with AD only explain a small proportion of its heritability. Genetic factors may only convey disease risk in individuals with certain environmental exposures, suggesting that a multiomics approach could reveal underlying mechanisms contributing to complex traits, such as AD. We developed an integrated network to investigate relationships between metabolomics, genomics, and AD risk factors using Wisconsin Registry for Alzheimer's Prevention participants. Analyses included 1,111 non-Hispanic Caucasian participants with whole blood expression for 11,376 genes (imputed from dense genome-wide genotyping), 1,097 fasting plasma metabolites, and 17 AD risk factors. A subset of 155 individuals also had 364 fastings cerebral spinal fluid (CSF) metabolites. After adjusting each of these 12,854 variables for potential confounders, we developed an undirected graphical network, representing all significant pairwise correlations upon adjusting for multiple testing. There were many instances of genes being indirectly linked to AD risk factors through metabolites, suggesting that genes may influence AD risk through particular metabolites. Follow-up analyses suggested that glycine mediates the relationship between carbamoyl-phosphate synthase 1 and measures of cardiovascular and diabetes risk, including body mass index, waist-hip ratio, inflammation, and insulin resistance. Further, 38 CSF metabolites explained more than 60% of the variance of CSF levels of tau, a detrimental protein that accumulates in the brain of AD patients and is necessary for its diagnosis. These results further our understanding of underlying mechanisms contributing to AD risk while demonstrating the utility of generating and integrating multiple omics data types.
+31104335	64	75	Alzheimer's	Disease	MESH:D000544
+31104335	131	150	Alzheimer's disease	Disease	MESH:D000544
+31104335	152	154	AD	Disease	MESH:D000544
+31104335	226	228	AD	Disease	MESH:D000544
+31104335	493	495	AD	Disease	MESH:D000544
+31104335	597	599	AD	Disease	MESH:D000544
+31104335	642	653	Alzheimer's	Disease	MESH:D000544
+31104335	870	872	AD	Disease	MESH:D000544
+31104335	1248	1250	AD	Disease	MESH:D000544
+31104335	1321	1323	AD	Disease	MESH:D000544
+31104335	1395	1402	glycine	Chemical	MESH:D005998
+31104335	1437	1467	carbamoyl-phosphate synthase 1	Gene	1373
+31104335	1484	1511	cardiovascular and diabetes	Disease	MESH:D002318
+31104335	1562	1574	inflammation	Disease	MESH:D007249
+31104335	1580	1598	insulin resistance	Disease	MESH:D007333
+31104335	1685	1688	tau	Gene	4137
+31104335	1745	1747	AD	Disease	MESH:D000544
+31104335	1748	1756	patients	Species	9606
+31104335	1874	1876	AD	Disease	MESH:D000544
+31104335	Association	MESH:D000544	4137
+31104335	Association	MESH:D007333	1373
+31104335	Association	MESH:D002318	1373
+31104335	Association	MESH:D005998	MESH:D007333
+31104335	Association	MESH:D005998	MESH:D002318
+31104335	Association	MESH:D007249	1373
+31104335	Association	MESH:D005998	1373
+31104335	Association	MESH:D005998	MESH:D007249
+

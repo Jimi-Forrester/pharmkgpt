@@ -1,0 +1,26 @@
+29618902|t|Screening of Human Proteins for Fluoride and Aluminum Binding.
+29618902|a|Previous studies showed that prolonged exposure to fluoride (F-) and aluminum (Al3+) ions is associated with numerous diseases including neurological disorders. They don't have any known biological function. But they can bind with proteins that interact with ions similar to them. Such unwanted interactions affect the normal biological function of the target proteins, as well as their downstream protein-protein interactions. Several studies show the detrimental effects posed by them including Alzheimer's disease. However, their target proteins have never been reported. Here, we have screened for the human protein targets subjected to F- and Al3+ interactions by using data-driven prediction tools. We have identified 20 different proteins that directly bind with them (10 interact with fluoride and 10 with aluminum). In addition, protein-protein interaction has been explored to find the proteins that indirectly interact with F- and Al3+. We have found 86 indirect targets for F- and 90 for Al3+. Furthermore, 19 common protein targets have been identified, including proteins (9 out of 19) associated with neurodegenerative disorders. However, wet lab experiments are beyond our scopes to validate the binding networks. Additional studies must be warranted.
+29618902	13	18	Human	Species	9606
+29618902	32	40	Fluoride	Chemical	MESH:D005459
+29618902	45	53	Aluminum	Chemical	MESH:D000535
+29618902	114	122	fluoride	Chemical	MESH:D005459
+29618902	124	126	F-	Chemical	MESH:D005461
+29618902	132	140	aluminum	Chemical	MESH:D000535
+29618902	142	146	Al3+	Chemical	-
+29618902	200	222	neurological disorders	Disease	MESH:D009461
+29618902	560	579	Alzheimer's disease	Disease	MESH:D000544
+29618902	669	674	human	Species	9606
+29618902	704	706	F-	Chemical	MESH:D005461
+29618902	711	715	Al3+	Chemical	-
+29618902	856	864	fluoride	Chemical	MESH:D005459
+29618902	877	885	aluminum	Chemical	MESH:D000535
+29618902	998	1000	F-	Chemical	MESH:D005461
+29618902	1005	1009	Al3+	Chemical	-
+29618902	1049	1051	F-	Chemical	MESH:D005461
+29618902	1063	1067	Al3+	Chemical	-
+29618902	1179	1206	neurodegenerative disorders	Disease	MESH:D019636
+29618902	Positive_Correlation	MESH:D000535	MESH:D009461
+29618902	Positive_Correlation	MESH:D005459	MESH:D000544
+29618902	Positive_Correlation	MESH:D005461	MESH:D009461
+29618902	Positive_Correlation	MESH:D005459	MESH:D009461
+

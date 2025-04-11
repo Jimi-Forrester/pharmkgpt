@@ -1,0 +1,24 @@
+29445429|t|Classification of MRI and psychological testing data based on support vector machine.
+29445429|a|Alzheimer's disease (AD) is a progressive, and often fatal, brain disease that causes neurodegeneration, resulting in memory loss as well as other cognitive and behavioral problems. Here, we propose a novel multimodal method combining independent components from MRI measures and clinical assessments to distinguish Alzheimer's patients or mild cognitive impairment (MCI) subjects from healthy elderly controls. 70 AD subjects (mean age: 77.15 +- 6.2 years), 98 MCI subjects (mean age: 76.91 +- 5.7 years), and 150 HC subjects (mean age: 75.69 +- 3.8 years) were analyzed. Our method includes the following steps: pre-processing, estimating the number of independent components from the MR image data, extracting effective voxels for classification, and classification using a support vector machine (SVM)-based classifier. As a result, with regards to classifying AD from healthy controls, we achieved a classification accuracy of 97.7%, sensitivity of 99.2%, and specificity of 96.7%; for differentiating MCI from healthy controls, we achieved a classification accuracy of 87.8%, a sensitivity of 86.0%, and a specificity of 89.6; these results are better than those obtained with clinical measurements alone (accuracy of 79.5%, sensitivity of 74.0%, and specificity of 85.1%). We found that (1) both AD patients and MCI subjects showed brain tissue loss, but the volumes of gray matter loss in MCI subjects was far less, supporting the notion that MCI is a prodromal stage of AD; and (2) combining gray matter features from MRI and three commonly used measures of mental status, cognitive function improved classification accuracy, sensitivity, and specificity compared with classification using only independent components or clinical measurements.
+29445429	86	105	Alzheimer's disease	Disease	MESH:D000544
+29445429	107	109	AD	Disease	MESH:D000544
+29445429	146	159	brain disease	Disease	MESH:D001927
+29445429	172	189	neurodegeneration	Disease	MESH:D019636
+29445429	204	215	memory loss	Disease	MESH:D008569
+29445429	233	266	cognitive and behavioral problems	Disease	MESH:D003072
+29445429	402	413	Alzheimer's	Disease	MESH:D000544
+29445429	414	422	patients	Species	9606
+29445429	431	451	cognitive impairment	Disease	MESH:D003072
+29445429	453	456	MCI	Disease	MESH:D060825
+29445429	501	503	AD	Disease	MESH:D000544
+29445429	548	551	MCI	Disease	MESH:D060825
+29445429	951	953	AD	Disease	MESH:D000544
+29445429	1093	1096	MCI	Disease	MESH:D060825
+29445429	1389	1391	AD	Disease	MESH:D000544
+29445429	1392	1400	patients	Species	9606
+29445429	1405	1408	MCI	Disease	MESH:D060825
+29445429	1425	1442	brain tissue loss	Disease	MESH:D001927
+29445429	1483	1486	MCI	Disease	MESH:D060825
+29445429	1537	1540	MCI	Disease	MESH:D060825
+29445429	1565	1567	AD	Disease	MESH:D000544
+

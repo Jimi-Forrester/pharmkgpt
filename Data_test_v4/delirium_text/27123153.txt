@@ -1,0 +1,15 @@
+27123153|t|Use of Self-Matching to Control for Stable Patient Characteristics While Addressing Time-Varying Confounding on Treatment Effect: A Case Study of Older Intensive Care Patients.
+27123153|a|Exposure-crossover design offers a non-experimental option to control for stable baseline confounding through self-matching while examining causal effect of an exposure on an acute outcome. This study extends this approach to longitudinal data with repeated measures of exposure and outcome using data from a cohort of 340 older medical patients in an intensive care unit (ICU). The analytic sample included 92 patients who received >=1 dose of haloperidol, an antipsychotic medication often used for patients with delirium. Exposure-crossover design was implemented by sampling the 3-day time segments prior (Induction) and posterior (Subsequent) to each treatment episode of receiving haloperidol. In the full cohort, there was a trend of increasing delirium severity scores (Mean+-SD: 4.4+-1.7) over the course of the ICU stay. After exposure-crossover sampling, the delirium severity score decreased from the Induction (4.9) to the Subsequent (4.1) intervals, with the treatment episode falling in-between (4.5). Based on a GEE Poisson model accounting for self-matching and within-subject correlation, the unadjusted mean delirium severity scores was -0.55 (95% CI: -1.10, -0.01) points lower for the Subsequent than the Induction intervals. The association diminished by 32% (-0.38, 95%CI: -0.99, 0.24) after adjusting only for ICU confounding, while being slightly increased by 7% (-0.60, 95%CI: -1.15, -0.04) when adjusting only for baseline characteristics. These results suggest that longitudinal exposure-crossover design is feasible and capable of partially removing stable baseline confounding through self-matching. Loss of power due to eliminating treatment-irrelevant person-time and uncertainty around allocating person-time to comparison intervals remain methodological challenges.
+27123153	43	50	Patient	Species	9606
+27123153	167	175	Patients	Species	9606
+27123153	514	522	patients	Species	9606
+27123153	588	596	patients	Species	9606
+27123153	622	633	haloperidol	Chemical	MESH:D006220
+27123153	678	686	patients	Species	9606
+27123153	692	700	delirium	Disease	MESH:D003693
+27123153	864	875	haloperidol	Chemical	MESH:D006220
+27123153	929	937	delirium	Disease	MESH:D003693
+27123153	1047	1055	delirium	Disease	MESH:D003693
+27123153	1304	1312	delirium	Disease	MESH:D003693
+27123153	Negative_Correlation	MESH:D006220	MESH:D003693
+

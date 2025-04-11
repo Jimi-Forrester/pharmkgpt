@@ -1,0 +1,46 @@
+16040805|t|Docosahexaenoic acid: a positive modulator of Akt signaling in neuronal survival.
+16040805|a|Phosphatidylinositol 3-kinase [PI (3)K]/Akt signaling is a critical pathway in cell survival. Here, we demonstrate a mechanism where membrane alteration by the n-3 fatty acid status affects Akt signaling, impacting neuronal survival. Docosahexaenoic acid (DHA), an n-3 polyunsaturated fatty acid highly enriched in neuronal membranes, promotes neuronal survival by facilitating membrane translocation/activation of Akt through its capacity to increase phosphatidylserine (PS), the major acidic phospholipid in cell membranes. The activation of PI (3)K and phosphatidylsinositol triphosphate formation were not affected by DHA, indicating that membrane interaction of Akt is the event responsible for the DHA effect. Docosapentaenoic acid, which replaces DHA during n-3 fatty acid deficiency, was less effective in accumulating PS and translocating Akt and thus less effective in preventing apoptosis. Consistently, in vivo reduction of DHA by dietary depletion of n-3 fatty acids decreased hippocampal PS and increased neuronal susceptibility to apoptosis in cultures. This mechanism may contribute to neurological deficits associated with n-3 fatty acid deficiency and support protective effects of DHA in pathological models such as brain ischemia or Alzheimer's disease.
+16040805	0	20	Docosahexaenoic acid	Chemical	MESH:D004281
+16040805	46	49	Akt	Gene	207
+16040805	82	111	Phosphatidylinositol 3-kinase	Gene	5295
+16040805	122	125	Akt	Gene	207
+16040805	242	256	n-3 fatty acid	Chemical	MESH:D015525
+16040805	272	275	Akt	Gene	207
+16040805	316	336	Docosahexaenoic acid	Chemical	MESH:D004281
+16040805	338	341	DHA	Chemical	MESH:D004281
+16040805	347	377	n-3 polyunsaturated fatty acid	Chemical	MESH:D015525
+16040805	497	500	Akt	Gene	207
+16040805	534	552	phosphatidylserine	Chemical	MESH:D010718
+16040805	554	556	PS	Chemical	MESH:D010718
+16040805	576	588	phospholipid	Chemical	MESH:D010743
+16040805	638	672	phosphatidylsinositol triphosphate	Chemical	-
+16040805	704	707	DHA	Chemical	MESH:D004281
+16040805	749	752	Akt	Gene	207
+16040805	786	789	DHA	Chemical	MESH:D004281
+16040805	798	819	Docosapentaenoic acid	Chemical	MESH:C026219
+16040805	836	839	DHA	Chemical	MESH:D004281
+16040805	847	872	n-3 fatty acid deficiency	Disease	MESH:C537153
+16040805	909	911	PS	Chemical	MESH:D010718
+16040805	930	933	Akt	Gene	207
+16040805	1018	1021	DHA	Chemical	MESH:D004281
+16040805	1046	1061	n-3 fatty acids	Chemical	MESH:D015525
+16040805	1084	1086	PS	Chemical	MESH:D010718
+16040805	1184	1205	neurological deficits	Disease	MESH:D009461
+16040805	1222	1247	n-3 fatty acid deficiency	Chemical	-
+16040805	1282	1285	DHA	Chemical	MESH:D004281
+16040805	1317	1331	brain ischemia	Disease	MESH:D002545
+16040805	1335	1354	Alzheimer's disease	Disease	MESH:D000544
+16040805	Positive_Correlation	MESH:D004281	207
+16040805	Positive_Correlation	MESH:D004281	MESH:D010718
+16040805	Negative_Correlation	MESH:D004281	MESH:D002545
+16040805	Association	MESH:C537153	207
+16040805	Positive_Correlation	MESH:C026219	207
+16040805	Association	MESH:D010718	MESH:C537153
+16040805	Association	MESH:C026219	MESH:C537153
+16040805	Association	MESH:D010718	207
+16040805	Association	207	5295
+16040805	Negative_Correlation	MESH:D004281	MESH:D000544
+16040805	Association	MESH:D004281	MESH:C537153
+16040805	Comparison	MESH:C026219	MESH:D010718
+16040805	Negative_Correlation	MESH:D004281	MESH:D009461
+

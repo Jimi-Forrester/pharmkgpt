@@ -1,0 +1,29 @@
+35226120|t|Image-level trajectory inference of tau pathology using variational autoencoder for Flortaucipir PET.
+35226120|a|PURPOSE: Alzheimer's disease (AD) studies revealed that abnormal deposition of tau spreads in a specific spatial pattern, namely Braak stage. However, Braak staging is based on post mortem brains, each of which represents the cross section of the tau trajectory in disease progression, and numerous studies were reported that do not conform to that model. This study thus aimed to identify the tau trajectory and quantify the tau progression in a data-driven approach with the continuous latent space learned by variational autoencoder (VAE). METHODS: A total of 1080 [18F]Flortaucipir brain positron emission tomography (PET) images were collected from the Alzheimer's Disease Neuroimaging Initiative (ADNI) database. VAE was built to compress the hidden features from tau images in latent space. Hierarchical agglomerative clustering and minimum spanning tree (MST) were applied to organize the features and calibrate them to the tau progression, thus deriving pseudo-time. The image-level tau trajectory was inferred by continuously sampling across the calibrated latent features. We assessed the pseudo-time with regard to tau standardized uptake value ratio (SUVr) in AD-vulnerable regions, amyloid deposit, glucose metabolism, cognitive scores, and clinical diagnosis. RESULTS: We identified four clusters that plausibly capture certain stages of AD and organized the clusters in the latent space. The inferred tau trajectory agreed with the Braak staging. According to the derived pseudo-time, tau first deposits in the parahippocampal and amygdala, and then spreads to the fusiform, inferior temporal lobe, and posterior cingulate. Prior to the regional tau deposition, amyloid accumulates first. CONCLUSION: The spatiotemporal trajectory of tau progression inferred in this study was consistent with Braak staging. The profile of other biomarkers in disease progression agreed well with previous findings. We addressed that this approach additionally has the potential to quantify tau progression as a continuous variable by taking a whole-brain tau image into account.
+35226120	36	39	tau	Gene	4137
+35226120	111	130	Alzheimer's disease	Disease	MESH:D000544
+35226120	132	134	AD	Disease	MESH:D000544
+35226120	181	184	tau	Gene	4137
+35226120	349	352	tau	Gene	4137
+35226120	496	499	tau	Gene	4137
+35226120	528	531	tau	Gene	4137
+35226120	670	687	[18F]Flortaucipir	Chemical	MESH:C000591008
+35226120	760	779	Alzheimer's Disease	Disease	MESH:D000544
+35226120	872	875	tau	Gene	4137
+35226120	1034	1037	tau	Gene	4137
+35226120	1094	1097	tau	Gene	4137
+35226120	1229	1232	tau	Gene	4137
+35226120	1275	1277	AD	Disease	MESH:D000544
+35226120	1298	1313	amyloid deposit	Disease	MESH:D058225
+35226120	1315	1322	glucose	Chemical	MESH:D005947
+35226120	1455	1457	AD	Disease	MESH:D000544
+35226120	1519	1522	tau	Gene	4137
+35226120	1603	1606	tau	Gene	4137
+35226120	1764	1767	tau	Gene	4137
+35226120	1780	1787	amyloid	Disease	MESH:C000718787
+35226120	1852	1855	tau	Gene	4137
+35226120	2092	2095	tau	Gene	4137
+35226120	2157	2160	tau	Gene	4137
+35226120	Association	MESH:D000544	4137
+35226120	Association	MESH:C000718787	4137
+

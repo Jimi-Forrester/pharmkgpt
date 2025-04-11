@@ -1,0 +1,59 @@
+25531836|t|Mutational analysis of the ability of resveratrol to inhibit amyloid formation by islet amyloid polypeptide: critical evaluation of the importance of aromatic-inhibitor and histidine-inhibitor interactions.
+25531836|a|The process of amyloid formation by the normally soluble hormone islet amyloid polypeptide (IAPP) contributes to beta-cell death in type 2 diabetes and in islet transplants. There are no clinically approved inhibitors of islet amyloidosis, and the mode of action of existing inhibitors is not well-understood. Resveratrol, a natural polyphenol, has been reported to inhibit amyloid formation by IAPP and by the Alzheimer's disease Abeta peptide. The mechanism of action of this compound is not known, nor is its mode of interaction with IAPP. In this study, we use a series of IAPP variants to examine possible interactions between resveratrol and IAPP. Fluorescence assays, transmission electron microscopy, and mass spectrometry demonstrate that resveratrol is much less effective as an inhibitor of IAPP amyloid formation than the polyphenol (-)-epigallocatechin 3-gallate (EGCG) and, unlike EGCG, does not significantly disaggregate preformed IAPP amyloid fibrils. Resveratrol is also shown to interfere with thioflavin-T assays. His-18 mutants, a truncation mutant, mutants of each of the aromatic residues, and mutants of Arg-11 of IAPP were examined. Mutation of His to Gln or Leu weakens the ability of resveratrol to inhibit amyloid formation by IAPP, as do mutations of Arg-11, Phe-15, or Tyr-37 to Leu, and truncation to form the variant Ac 8-37-IAPP, which removes the first seven residues to eliminate Lys-1 and the N-terminal amino group. In contrast, replacement of Phe-23 with Leu has a smaller effect. The data highlight Phe-15, His-18, and Tyr-37 as being important for IAPP-resveratrol interactions and are consistent with a potential role of the N-terminus and Arg-11 in polypeptide-resveratrol interactions. 
+25531836	38	49	resveratrol	Chemical	MESH:D000077185
+25531836	61	78	amyloid formation	Disease	MESH:D058426
+25531836	82	107	islet amyloid polypeptide	Gene	3375
+25531836	222	239	amyloid formation	Disease	MESH:D058426
+25531836	272	297	islet amyloid polypeptide	Gene	3375
+25531836	299	303	IAPP	Gene	3375
+25531836	339	354	type 2 diabetes	Disease	MESH:D003924
+25531836	428	445	islet amyloidosis	Disease	MESH:D000686
+25531836	517	528	Resveratrol	Chemical	MESH:D000077185
+25531836	540	550	polyphenol	Chemical	MESH:D059808
+25531836	581	598	amyloid formation	Disease	MESH:D058426
+25531836	602	606	IAPP	Gene	3375
+25531836	618	637	Alzheimer's disease	Disease	MESH:D000544
+25531836	638	643	Abeta	Gene	351
+25531836	744	748	IAPP	Gene	3375
+25531836	784	788	IAPP	Gene	3375
+25531836	839	850	resveratrol	Chemical	MESH:D000077185
+25531836	855	859	IAPP	Gene	3375
+25531836	955	966	resveratrol	Chemical	MESH:D000077185
+25531836	1009	1013	IAPP	Gene	3375
+25531836	1014	1031	amyloid formation	Disease	MESH:D058426
+25531836	1041	1051	polyphenol	Chemical	MESH:D059808
+25531836	1052	1082	(-)-epigallocatechin 3-gallate	Chemical	MESH:C045651
+25531836	1084	1088	EGCG	Chemical	MESH:C045651
+25531836	1102	1106	EGCG	Chemical	MESH:C045651
+25531836	1154	1158	IAPP	Gene	3375
+25531836	1159	1166	amyloid	Disease	MESH:C000718787
+25531836	1176	1187	Resveratrol	Chemical	MESH:D000077185
+25531836	1220	1232	thioflavin-T	Chemical	MESH:C009462
+25531836	1345	1349	IAPP	Gene	3375
+25531836	1377	1387	His to Gln	ProteinMutation	tmVar:p|SUB|H||Q;VariantGroup:2;CorrespondingGene:3375;CorrespondingSpecies:9606
+25531836	1418	1429	resveratrol	Chemical	MESH:D000077185
+25531836	1441	1458	amyloid formation	Disease	MESH:D058426
+25531836	1462	1466	IAPP	Gene	3375
+25531836	1487	1519	Arg-11, Phe-15, or Tyr-37 to Leu	ProteinMutation	tmVar:p|SUB|R,F,Y|11,15,37|L;HGVS:p.R,F,Y11,15,37L;VariantGroup:0;CorrespondingGene:3375;CorrespondingSpecies:9606
+25531836	1556	1568	Ac 8-37-IAPP	Gene	3375
+25531836	1688	1703	Phe-23 with Leu	ProteinMutation	tmVar:p|SUB|F|23|L;HGVS:p.F23L;VariantGroup:1;CorrespondingGene:3375;CorrespondingSpecies:9606
+25531836	1795	1799	IAPP	Gene	3375
+25531836	1800	1811	resveratrol	Chemical	MESH:D000077185
+25531836	1910	1921	resveratrol	Chemical	MESH:D000077185
+25531836	Negative_Correlation	MESH:D000077185	351
+25531836	Association	MESH:D058426	HGVS:p.R,F,Y11,15,37L;CorrespondingGene:3375
+25531836	Association	MESH:D000077185	CorrespondingGene:3375;CorrespondingSpecies:9606;VariantGroup:2;tmVar:p
+25531836	Association	MESH:C000718787	3375
+25531836	Negative_Correlation	MESH:C045651	3375
+25531836	Negative_Correlation	MESH:D058426	CorrespondingGene:3375;CorrespondingSpecies:9606;VariantGroup:2;tmVar:p
+25531836	Negative_Correlation	MESH:D000077185	MESH:D058426
+25531836	Negative_Correlation	MESH:D059808	MESH:D000544
+25531836	Association	MESH:D058426	3375
+25531836	Association	MESH:D003924	3375
+25531836	Negative_Correlation	MESH:D000077185	MESH:D000544
+25531836	Association	MESH:D000686	3375
+25531836	Association	MESH:C009462	MESH:D000077185
+25531836	Negative_Correlation	MESH:D000077185	3375
+25531836	Association	MESH:D000544	351
+25531836	Association	MESH:D058426	3375
+

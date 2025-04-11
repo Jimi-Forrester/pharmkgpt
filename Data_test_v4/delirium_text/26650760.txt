@@ -1,0 +1,48 @@
+26650760|t|Uncovering the Molecular Mechanism of Actions between Pharmaceuticals and Proteins on the AD Network.
+26650760|a|This study begins with constructing the mini metabolic networks (MMNs) of beta amyloid (Abeta) and acetylcholine (ACh) which stimulate the Alzheimer's Disease (AD). Then we generate the AD network by incorporating MMNs of Abeta and ACh, and other MMNs of stimuli of AD. The panel of proteins contains 49 enzymes/receptors on the AD network which have the 3D-structure in PDB. The panel of drugs is formed by 5 AD drugs and 5 AD nutraceutical drugs, and 20 non-AD drugs. All of these complexes formed by these 30 drugs and 49 proteins are transformed into dyadic arrays. Utilizing the prior knowledge learned from the drug panel, we propose a statistical classification (dry-lab). According to the wet-lab for the complex of amiloride and insulin degrading enzyme, and the complex of amiloride and neutral endopeptidase, we are confident that this dry-lab is reliable. As the consequences of the dry-lab, we discover many interesting implications. Especially, we show that possible causes of Tacrine, donepezil, galantamine and huperzine A cannot improve the level of ACh which is against to their original design purpose but they still prevent AD to be worse as Abeta deposition appeared. On the other hand, we recommend Miglitol and Atenolol as the safe and potent drugs to improve the level of ACh before Abeta deposition appearing. Moreover, some nutrients such as NADH and Vitamin E should be controlled because they may harm health if being used in wrong way and wrong time. Anyway, the insights shown in this study are valuable to be developed further.
+26650760	90	92	AD	Disease	MESH:D000544
+26650760	190	195	Abeta	Gene	351
+26650760	201	214	acetylcholine	Chemical	MESH:D000109
+26650760	216	219	ACh	Chemical	MESH:D000109
+26650760	241	260	Alzheimer's Disease	Disease	MESH:D000544
+26650760	262	264	AD	Disease	MESH:D000544
+26650760	288	290	AD	Disease	MESH:D000544
+26650760	324	329	Abeta	Gene	351
+26650760	334	337	ACh	Chemical	MESH:D000109
+26650760	368	370	AD	Disease	MESH:D000544
+26650760	431	433	AD	Disease	MESH:D000544
+26650760	512	514	AD	Disease	MESH:D000544
+26650760	527	529	AD	Disease	MESH:D000544
+26650760	562	564	AD	Disease	MESH:D000544
+26650760	826	835	amiloride	Chemical	MESH:D000584
+26650760	840	864	insulin degrading enzyme	Gene	3416
+26650760	885	894	amiloride	Chemical	MESH:D000584
+26650760	1093	1100	Tacrine	Chemical	MESH:D013619
+26650760	1102	1111	donepezil	Chemical	MESH:D000077265
+26650760	1113	1124	galantamine	Chemical	MESH:D005702
+26650760	1129	1140	huperzine A	Chemical	MESH:C050426
+26650760	1169	1172	ACh	Chemical	MESH:D000109
+26650760	1246	1248	AD	Disease	MESH:D000544
+26650760	1264	1269	Abeta	Gene	351
+26650760	1323	1331	Miglitol	Chemical	MESH:C045621
+26650760	1336	1344	Atenolol	Chemical	MESH:D001262
+26650760	1398	1401	ACh	Chemical	MESH:D000109
+26650760	1409	1414	Abeta	Gene	351
+26650760	1470	1474	NADH	Chemical	MESH:D009243
+26650760	1479	1488	Vitamin E	Chemical	MESH:D014810
+26650760	Negative_Correlation	MESH:D005702	351
+26650760	Negative_Correlation	MESH:D001262	351
+26650760	Positive_Correlation	MESH:C045621	MESH:D000109
+26650760	Negative_Correlation	MESH:C045621	351
+26650760	Positive_Correlation	MESH:D000109	MESH:D000544
+26650760	Negative_Correlation	MESH:D000077265	351
+26650760	Negative_Correlation	MESH:D005702	MESH:D000544
+26650760	Negative_Correlation	MESH:C050426	MESH:D000544
+26650760	Negative_Correlation	MESH:D000077265	MESH:D000544
+26650760	Negative_Correlation	MESH:D013619	MESH:D000544
+26650760	Negative_Correlation	MESH:C050426	351
+26650760	Association	MESH:D000584	3416
+26650760	Negative_Correlation	MESH:D013619	351
+26650760	Association	MESH:D000544	351
+26650760	Positive_Correlation	MESH:D000109	MESH:D001262
+

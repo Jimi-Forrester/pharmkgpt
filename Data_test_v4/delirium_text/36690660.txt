@@ -1,0 +1,65 @@
+36690660|t|Catechol-O-methyl transferase suppresses cell invasion and interplays with MET signaling in estrogen dependent breast cancer.
+36690660|a|Catechol-O-methyl transferase (COMT) is involved in detoxification of catechol estrogens, playing cancer-protective role in cells producing or utilizing estrogen. Moreover, COMT suppressed migration potential of breast cancer (BC) cells. To delineate COMT role in metastasis of estrogen receptor (ER) dependent BC, we investigated the effect of COMT overexpression on invasion, transcriptome, proteome and interactome of MCF7 cells, a luminal A BC model, stably transduced with lentiviral vector carrying COMT gene (MCF7-COMT). 2D and 3D assays revealed that COMT overexpression associates with decreased cell invasion (p < 0.0001 for Transwell assay, p < 0.05 for spheroid formation). RNA-Seq and LC-DIA-MS/MS proteomics identified genes associated with invasion (FTO, PIR, TACSTD2, ANXA3, KRT80, S100P, PREX1, CLEC3A, LCP1) being downregulated in MCF7-COMT cells, while genes associated with less aggressive phenotype (RBPMS, ROBO2, SELENBP, EPB41L2) were upregulated both at transcript ( log2FC > 1, adj. p < 0.05) and protein ( log2FC > 0.58, q < 0.05) levels. Importantly, proteins driving MET signaling were less abundant in COMT overexpressing cells, and pull-down confirmed interaction between COMT and Kunitz-type protease inhibitor 2 (SPINT2), a negative regulator of MET (log2FC = 5.10, q = 1.04-7). In conclusion, COMT may act as tumor suppressor in ER dependent BC not only by detoxification of catechol estrogens but also by suppressing cell invasion and interplay with MET pathway.
+36690660	0	29	Catechol-O-methyl transferase	Gene	1312
+36690660	75	78	MET	Gene	79811
+36690660	111	124	breast cancer	Disease	MESH:D001943
+36690660	126	155	Catechol-O-methyl transferase	Gene	1312
+36690660	157	161	COMT	Gene	1312
+36690660	196	214	catechol estrogens	Chemical	MESH:D002393
+36690660	224	230	cancer	Disease	MESH:D009369
+36690660	299	303	COMT	Gene	1312
+36690660	338	351	breast cancer	Disease	MESH:D001943
+36690660	353	355	BC	Disease	MESH:D001943
+36690660	377	381	COMT	Gene	1312
+36690660	390	400	metastasis	Disease	MESH:D009362
+36690660	404	421	estrogen receptor	Gene	2099
+36690660	423	425	ER	Gene	2099
+36690660	437	439	BC	Disease	MESH:D001943
+36690660	471	475	COMT	Gene	1312
+36690660	547	551	MCF7	CellLine	CVCL:0031
+36690660	631	635	COMT	Gene	1312
+36690660	642	651	MCF7-COMT	CellLine	CVCL:L845
+36690660	685	689	COMT	Gene	1312
+36690660	891	894	FTO	Gene	79068
+36690660	896	899	PIR	Gene	8544
+36690660	901	908	TACSTD2	Gene	4070
+36690660	910	915	ANXA3	Gene	306
+36690660	917	922	KRT80	Gene	144501
+36690660	924	929	S100P	Gene	6286
+36690660	931	936	PREX1	Gene	57580
+36690660	938	944	CLEC3A	Gene	10143
+36690660	946	950	LCP1	Gene	3936
+36690660	975	984	MCF7-COMT	CellLine	CVCL:L845
+36690660	1047	1052	RBPMS	Gene	11030
+36690660	1054	1059	ROBO2	Gene	6092
+36690660	1070	1077	EPB41L2	Gene	2037
+36690660	1221	1224	MET	Gene	79811
+36690660	1257	1261	COMT	Gene	1312
+36690660	1328	1332	COMT	Gene	1312
+36690660	1337	1369	Kunitz-type protease inhibitor 2	Gene	10653
+36690660	1371	1377	SPINT2	Gene	10653
+36690660	1404	1407	MET	Gene	79811
+36690660	1452	1456	COMT	Gene	1312
+36690660	1468	1473	tumor	Disease	MESH:D009369
+36690660	1488	1490	ER	Gene	2099
+36690660	1501	1503	BC	Disease	MESH:D001943
+36690660	1534	1552	catechol estrogens	Chemical	MESH:D002393
+36690660	1610	1613	MET	Gene	79811
+36690660	Negative_Correlation	MESH:D002393	1312
+36690660	Association	1312	57580
+36690660	Association	1312	3936
+36690660	Association	MESH:D001943	1312
+36690660	Negative_Correlation	MESH:D009369	1312
+36690660	Association	MESH:D001943	2099
+36690660	Association	MESH:D009362	1312
+36690660	Negative_Correlation	1312	306
+36690660	Positive_Correlation	1312	4070
+36690660	Association	1312	2099
+36690660	Association	10653	1312
+36690660	Association	1312	6092
+36690660	Negative_Correlation	10653	79811
+36690660	Negative_Correlation	1312	79811
+36690660	Association	MESH:D001943	79811
+36690660	Negative_Correlation	1312	144501
+36690660	Association	10143	1312
+

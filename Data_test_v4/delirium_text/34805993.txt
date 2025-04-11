@@ -1,0 +1,28 @@
+34805993|t|Posterior cortical atrophy phenotypic heterogeneity revealed by decoding 18F-FDG-PET.
+34805993|a|Posterior cortical atrophy is a neurodegenerative syndrome with a heterogeneous clinical presentation due to variable involvement of the left, right, dorsal and ventral parts of the visual system, as well as inconsistent involvement of other cognitive domains and systems. 18F-fluorodeoxyglucose (FDG)-PET is a sensitive marker for regional brain damage or dysfunction, capable of capturing the pattern of neurodegeneration at the single-participant level. We aimed to leverage these inter-individual differences on FDG-PET imaging to better understand the associations of heterogeneity of posterior cortical atrophy. We identified 91 posterior cortical atrophy participants with FDG-PET data and abstracted demographic, neurologic, neuropsychological and Alzheimer's disease biomarker data. The mean age at reported symptom onset was 59.3 (range: 45-72 years old), with an average disease duration of 4.2 years prior to FDG-PET scan, and a mean education of 15.0 years. Females were more common than males at 1.6:1. After standard preprocessing steps, the FDG-PET scans for the cohort were entered into an unsupervised machine learning algorithm which first creates a high-dimensional space of inter-individual covariance before performing an eigen-decomposition to arrive at a low-dimensional representation. Participant values ('eigenbrains' or latent vectors which represent principle axes of inter-individual variation) were then compared to the clinical and biomarker data. Eight eigenbrains explained over 50% of the inter-individual differences in FDG-PET uptake with left (eigenbrain 1) and right (eigenbrain 2) hemispheric lateralization representing 24% of the variance. Furthermore, eigenbrain-loads mapped onto clinical and neuropsychological data (i.e. aphasia, apraxia and global cognition were associated with the left hemispheric eigenbrain 1 and environmental agnosia and apperceptive prosopagnosia were associated with the right hemispheric eigenbrain 2), suggesting that they captured important axes of normal and abnormal brain function. We used NeuroSynth to characterize the eigenbrains through topic-based decoding, which supported the idea that the eigenbrains map onto a diverse set of cognitive functions. These eigenbrains captured important biological and pathophysiologic data (i.e. limbic predominant eigenbrain 4 patterns being associated with older age of onset compared to frontoparietal eigenbrain 7 patterns being associated with younger age of onset), suggesting that approaches that focus on inter-individual differences may be important to better understand the variability observed within a neurodegenerative syndrome like posterior cortical atrophy.
+34805993	0	26	Posterior cortical atrophy	Disease	MESH:D001284
+34805993	73	80	18F-FDG	Chemical	-
+34805993	86	112	Posterior cortical atrophy	Disease	MESH:D001284
+34805993	118	144	neurodegenerative syndrome	Disease	MESH:D020271
+34805993	359	381	18F-fluorodeoxyglucose	Chemical	MESH:D019788
+34805993	383	386	FDG	Chemical	MESH:D019788
+34805993	427	454	brain damage or dysfunction	Disease	MESH:D001927
+34805993	492	509	neurodegeneration	Disease	MESH:D019636
+34805993	602	605	FDG	Chemical	MESH:D019788
+34805993	676	702	posterior cortical atrophy	Disease	MESH:D001284
+34805993	721	747	posterior cortical atrophy	Disease	MESH:D001284
+34805993	766	769	FDG	Chemical	MESH:D019788
+34805993	842	861	Alzheimer's disease	Disease	MESH:D000544
+34805993	1007	1010	FDG	Chemical	MESH:D019788
+34805993	1143	1146	FDG	Chemical	MESH:D019788
+34805993	1642	1645	FDG	Chemical	MESH:D019788
+34805993	1853	1860	aphasia	Disease	MESH:D001037
+34805993	1862	1869	apraxia	Disease	MESH:D001072
+34805993	1964	1971	agnosia	Disease	MESH:D000377
+34805993	1989	2002	prosopagnosia	Disease	MESH:D020238
+34805993	2717	2743	neurodegenerative syndrome	Disease	MESH:D020271
+34805993	2749	2775	posterior cortical atrophy	Disease	MESH:D001284
+34805993	Association	MESH:D019788	MESH:D019636
+34805993	Association	MESH:D019788	MESH:D001927
+34805993	Association	MESH:D019788	MESH:D001284
+

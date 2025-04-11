@@ -1,0 +1,36 @@
+36569892|t|Identification of immune microenvironment subtypes and signature genes for Alzheimer's disease diagnosis and risk prediction based on explainable machine learning.
+36569892|a|Background: Using interpretable machine learning, we sought to define the immune microenvironment subtypes and distinctive genes in AD. Methods: ssGSEA, LASSO regression, and WGCNA algorithms were used to evaluate immune state in AD patients. To predict the fate of AD and identify distinctive genes, six machine learning algorithms were developed. The output of machine learning models was interpreted using the SHAP and LIME algorithms. For external validation, four separate GEO databases were used. We estimated the subgroups of the immunological microenvironment using unsupervised clustering. Further research was done on the variations in immunological microenvironment, enhanced functions and pathways, and therapeutic medicines between these subtypes. Finally, the expression of characteristic genes was verified using the AlzData and pan-cancer databases and RT-PCR analysis. Results: It was determined that AD is connected to changes in the immunological microenvironment. WGCNA revealed 31 potential immune genes, of which the greenyellow and blue modules were shown to be most associated with infiltrated immune cells. In the testing set, the XGBoost algorithm had the best performance with an AUC of 0.86 and a P-R value of 0.83. Following the screening of the testing set by machine learning algorithms and the verification of independent datasets, five genes (CXCR4, PPP3R1, HSP90AB1, CXCL10, and S100A12) that were closely associated with AD pathological biomarkers and allowed for the accurate prediction of AD progression were found to be immune microenvironment-related genes. The feature gene-based nomogram may provide clinical advantages to patients. Two immune microenvironment subgroups for AD patients were identified, subtype2 was linked to a metabolic phenotype, subtype1 belonged to the immune-active kind. MK-866 and arachidonyltrifluoromethane were identified as the top treatment agents for subtypes 1 and 2, respectively. These five distinguishing genes were found to be intimately linked to the development of the disease, according to the Alzdata database, pan-cancer research, and RT-PCR analysis. Conclusion: The hub genes associated with the immune microenvironment that are most strongly associated with the progression of pathology in AD are CXCR4, PPP3R1, HSP90AB1, CXCL10, and S100A12. The hypothesized molecular subgroups might offer novel perceptions for individualized AD treatment.
+36569892	75	94	Alzheimer's disease	Disease	MESH:D000544
+36569892	296	298	AD	Disease	MESH:D000544
+36569892	394	396	AD	Disease	MESH:D000544
+36569892	397	405	patients	Species	9606
+36569892	430	432	AD	Disease	MESH:D000544
+36569892	1012	1018	cancer	Disease	MESH:D009369
+36569892	1082	1084	AD	Disease	MESH:D000544
+36569892	1540	1545	CXCR4	Gene	7852
+36569892	1547	1553	PPP3R1	Gene	5534
+36569892	1555	1563	HSP90AB1	Gene	3326
+36569892	1565	1571	CXCL10	Gene	3627
+36569892	1577	1584	S100A12	Gene	6283
+36569892	1620	1622	AD	Disease	MESH:D000544
+36569892	1690	1692	AD	Disease	MESH:D000544
+36569892	1828	1836	patients	Species	9606
+36569892	1880	1882	AD	Disease	MESH:D000544
+36569892	1883	1891	patients	Species	9606
+36569892	2000	2006	MK-866	Chemical	-
+36569892	2011	2038	arachidonyltrifluoromethane	Chemical	MESH:C081565
+36569892	2260	2266	cancer	Disease	MESH:D009369
+36569892	2439	2441	AD	Disease	MESH:D000544
+36569892	2446	2451	CXCR4	Gene	7852
+36569892	2453	2459	PPP3R1	Gene	5534
+36569892	2461	2469	HSP90AB1	Gene	3326
+36569892	2471	2477	CXCL10	Gene	3627
+36569892	2483	2490	S100A12	Gene	6283
+36569892	2578	2580	AD	Disease	MESH:D000544
+36569892	Association	MESH:D000544	3627
+36569892	Association	MESH:D000544	3326
+36569892	Association	MESH:C081565	MESH:D000544
+36569892	Association	MESH:D000544	6283
+36569892	Association	MESH:D000544	5534
+36569892	Association	MESH:D000544	7852
+

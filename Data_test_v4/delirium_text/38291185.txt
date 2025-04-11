@@ -1,0 +1,25 @@
+38291185|t|A genome-wide association study reveals the relationship between human genetic variation and the nasal microbiome.
+38291185|a|The nasal cavity harbors diverse microbiota that contributes to human health and respiratory diseases. However, whether and to what extent the host genome shapes the nasal microbiome remains largely unknown. Here, by dissecting the human genome and nasal metagenome data from 1401 healthy individuals, we demonstrated that the top three host genetic principal components strongly correlated with the nasal microbiota diversity and composition. The genetic association analyses identified 63 genome-wide significant loci affecting the nasal microbial taxa and functions, of which 2 loci reached study-wide significance (p < 1.7 x 10-10): rs73268759 within CAMK2A associated with genus Actinomyces and family Actinomycetaceae; and rs35211877 near POM121L12 with Gemella asaccharolytica. In addition to respiratory-related diseases, the associated loci are mainly implicated in cardiometabolic or neuropsychiatric diseases. Functional analysis showed the associated genes were most significantly expressed in the nasal airway epithelium tissue and enriched in the calcium signaling and hippo signaling pathway. Further observational correlation and Mendelian randomization analyses consistently suggested the causal effects of Serratia grimesii and Yokenella regensburgei on cardiometabolic biomarkers (cystine, glutamic acid, and creatine). This study suggested that the host genome plays an important role in shaping the nasal microbiome.
+38291185	65	70	human	Species	9606
+38291185	179	184	human	Species	9606
+38291185	196	216	respiratory diseases	Disease	MESH:D012140
+38291185	347	352	human	Species	9606
+38291185	752	762	rs73268759	SNP	tmVar:rs73268759;VariantGroup:0;CorrespondingGene:815;RS#:73268759;CorrespondingSpecies:9606
+38291185	770	776	CAMK2A	Gene	815
+38291185	799	810	Actinomyces	Species	1654
+38291185	844	854	rs35211877	SNP	tmVar:rs35211877;VariantGroup:1;RS#:35211877
+38291185	860	869	POM121L12	Gene	285877
+38291185	875	898	Gemella asaccharolytica	Species	502393
+38291185	915	943	respiratory-related diseases	Disease	MESH:D012140
+38291185	990	1034	cardiometabolic or neuropsychiatric diseases	Disease	MESH:D024821
+38291185	1176	1183	calcium	Chemical	MESH:D002118
+38291185	1339	1356	Serratia grimesii	Species	82995
+38291185	1361	1383	Yokenella regensburgei	Species	158877
+38291185	1415	1422	cystine	Chemical	MESH:D003553
+38291185	1424	1437	glutamic acid	Chemical	MESH:D018698
+38291185	1443	1451	creatine	Chemical	MESH:D003401
+38291185	Positive_Correlation	MESH:D024821	RS#:35211877
+38291185	Positive_Correlation	MESH:D024821	RS#:73268759;CorrespondingGene:815
+38291185	Association	MESH:D024821	815
+38291185	Association	MESH:D024821	285877
+

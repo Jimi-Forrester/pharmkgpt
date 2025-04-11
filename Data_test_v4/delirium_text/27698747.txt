@@ -1,0 +1,41 @@
+27698747|t|Co-expressed differentially expressed genes and long non-coding RNAs involved in the celecoxib treatment of gastric cancer: An RNA sequencing analysis.
+27698747|a|The aim of the present study was to investigate the mechanisms of long non-coding RNAs (lncRNAs) in a gastric cancer cell line treated with celecoxib. The human gastric carcinoma cell line NCI-N87 was treated with 15 microM celecoxib for 72 h (celecoxib group) and an equal volume of dimethylsulfoxide (control group), respectively. Libraries were constructed by NEBNext Ultra RNA Library Prep kit for Illumina. Paired-end RNA sequencing reads were aligned to a human hg19 reference genome using TopHat2. Differentially expressed genes (DEGs) and lncRNAs were identified using Cuffdiff. Enrichment analysis was performed using GO-function package and KEGG profile in Bioconductor. A protein-protein interaction network was constructed using STRING database and module analysis was performed using ClusterONE plugin of Cytoscape. ATP5G1, ATP5G3, COX8A, CYC1, NDUFS3, UQCRC1, UQCRC2 and UQCRFS1 were enriched in the oxidative phosphorylation pathway. CXCL1, CXCL3, CXCL5 and CXCL8 were enriched in the chemokine signaling and cytokine-cytokine receptor interaction pathways. ITGA3, ITGA6, ITGB4, ITGB5, ITGB6 and ITGB8 were enriched in the integrin-mediated signaling pathway. DEGs co-expressed with lnc-SCD-1:13, lnc-LRR1-1:2, lnc-PTMS-1:3, lnc-S100P-3:1, lnc-AP000974.1-1:1 and lnc-RAB3IL1-2:1 were enriched in the pathways associated with cancer, such as the basal cell carcinoma pathway in cancer. In conclusion, these DEGs and differentially expressed lncRNAs may be important in the celecoxib treatment of gastric cancer.
+27698747	85	94	celecoxib	Chemical	MESH:D000068579
+27698747	108	122	gastric cancer	Disease	MESH:D013274
+27698747	254	268	gastric cancer	Disease	MESH:D013274
+27698747	292	301	celecoxib	Chemical	MESH:D000068579
+27698747	307	312	human	Species	9606
+27698747	313	330	gastric carcinoma	Disease	MESH:D013274
+27698747	341	348	NCI-N87	CellLine	CVCL:1603
+27698747	376	385	celecoxib	Chemical	MESH:D000068579
+27698747	396	405	celecoxib	Chemical	MESH:D000068579
+27698747	436	453	dimethylsulfoxide	Chemical	MESH:D004121
+27698747	614	619	human	Species	9606
+27698747	981	987	ATP5G1	Gene	516
+27698747	989	995	ATP5G3	Gene	518
+27698747	997	1002	COX8A	Gene	1351
+27698747	1004	1008	CYC1	Gene	1537
+27698747	1010	1016	NDUFS3	Gene	4722
+27698747	1018	1024	UQCRC1	Gene	7384
+27698747	1026	1032	UQCRC2	Gene	7385
+27698747	1037	1044	UQCRFS1	Gene	7386
+27698747	1101	1106	CXCL1	Gene	2919
+27698747	1108	1113	CXCL3	Gene	2921
+27698747	1115	1120	CXCL5	Gene	6374
+27698747	1125	1130	CXCL8	Gene	3576
+27698747	1225	1230	ITGA3	Gene	3675
+27698747	1232	1237	ITGA6	Gene	3655
+27698747	1239	1244	ITGB4	Gene	3691
+27698747	1246	1251	ITGB5	Gene	3693
+27698747	1253	1258	ITGB6	Gene	3694
+27698747	1263	1268	ITGB8	Gene	3696
+27698747	1492	1498	cancer	Disease	MESH:D009369
+27698747	1512	1532	basal cell carcinoma	Disease	MESH:D002280
+27698747	1544	1550	cancer	Disease	MESH:D009369
+27698747	1639	1648	celecoxib	Chemical	MESH:D000068579
+27698747	1662	1676	gastric cancer	Disease	MESH:D013274
+27698747	Association	MESH:D000068579	3694
+27698747	Association	MESH:D000068579	3693
+27698747	Negative_Correlation	MESH:D000068579	MESH:D013274
+27698747	Association	MESH:D000068579	3696
+

@@ -1,0 +1,11 @@
+36042792|t|A generic optimization and learning framework for Parkinson disease via speech and handwritten records.
+36042792|a|Parkinson's disease (PD) is a neurodegenerative disorder with slow progression whose symptoms can be identified at late stages. Early diagnosis and treatment of PD can help to relieve the symptoms and delay progression. However, this is very challenging due to the similarities between the symptoms of PD and other diseases. The current study proposes a generic framework for the diagnosis of PD using handwritten images and (or) speech signals. For the handwriting images, 8 pre-trained convolutional neural networks (CNN) via transfer learning tuned by Aquila Optimizer were trained on the NewHandPD dataset to diagnose PD. For the speech signals, features from the MDVR-KCL dataset are extracted numerically using 16 feature extraction algorithms and fed to 4 different machine learning algorithms tuned by Grid Search algorithm, and graphically using 5 different techniques and fed to the 8 pretrained CNN structures. The authors propose a new technique in extracting the features from the voice dataset based on the segmentation of variable speech-signal-segment-durations, i.e., the use of different durations in the segmentation phase. Using the proposed technique, 5 datasets with 281 numerical features are generated. Results from different experiments are collected and recorded. For the NewHandPD dataset, the best-reported metric is 99.75% using the VGG19 structure. For the MDVR-KCL dataset, the best-reported metrics are 99.94% using the KNN and SVM ML algorithms and the combined numerical features; and 100% using the combined the mel-specgram graphical features and VGG19 structure. These results are better than other state-of-the-art researches.
+36042792	50	67	Parkinson disease	Disease	MESH:D010300
+36042792	104	123	Parkinson's disease	Disease	MESH:D010300
+36042792	125	127	PD	Disease	MESH:D010300
+36042792	134	160	neurodegenerative disorder	Disease	MESH:D019636
+36042792	265	267	PD	Disease	MESH:D010300
+36042792	406	408	PD	Disease	MESH:D010300
+36042792	497	499	PD	Disease	MESH:D010300
+36042792	726	728	PD	Disease	MESH:D010300
+

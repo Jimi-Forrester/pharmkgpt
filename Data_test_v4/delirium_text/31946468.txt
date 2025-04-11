@@ -1,0 +1,21 @@
+31946468|t|Study of Tissue Variation and Analysis of MR Brain Images using Optimized Multilevel Threshold and Deep CNN Features in Neurodegenerative Disorders.
+31946468|a|Dementia is a degenerative irreversible disorder that globally causes a high socio-economic burden. The pathology progression of mild cognitive impairment (MCI) and Alzheimer diseases (AD) are correlated with each other. There is a need to examine the pathology variation to discriminate the disorder to provide appropriate treatment strategies. This study investigates about the brain tissue variations to identify the subtle change in progression. The considered normal, MCI and AD magnetic resonance (MR) images are obtained from Alzheimer's disease Neuroimaging Initiative (ADNI). In this work, multilevel Tsallis based grey wolf optimization (GWO) is used to segment the brain tissues. Then the feature is extracted from segmented white matter (WM), grey matter (GM) and cerebro spinal fluid (CSF) using convolution neural network (CNN). The obtained deep features are given to principal component analysis (PCA) to obtain a prominent feature set for normal, MCI and AD. Further the tissue variation of optimized deep features is analyzed using support vector machine (SVM). The results shows that Tsallis based GWO perform reliable tissue segmentation for normal, MCI and AD. The deep features are able to observe discrimination than the fully considered feature set. Finally, the classifier result shows distinct tissue variation among normal, MCI and AD subjects. Further the prominent features give a classification accuracy of 77%, 80.22% and 78.7% for WM, GM and CSF respectively. This concludes that GM variation is a close biological substrate of dementia progressive condition than the effects of time or aging. Thus, the proposed framework can be used as an effective system for diagnosis of progression in neurodegenerative disorders.
+31946468	120	147	Neurodegenerative Disorders	Disease	MESH:D019636
+31946468	149	157	Dementia	Disease	MESH:D003704
+31946468	163	197	degenerative irreversible disorder	Disease	MESH:D001926
+31946468	278	303	mild cognitive impairment	Disease	MESH:D060825
+31946468	305	308	MCI	Disease	MESH:D060825
+31946468	314	332	Alzheimer diseases	Disease	MESH:D000544
+31946468	334	336	AD	Disease	MESH:D000544
+31946468	622	625	MCI	Disease	MESH:D060825
+31946468	630	632	AD	Disease	MESH:D000544
+31946468	682	701	Alzheimer's disease	Disease	MESH:D000544
+31946468	1113	1116	MCI	Disease	MESH:D060825
+31946468	1121	1123	AD	Disease	MESH:D000544
+31946468	1319	1322	MCI	Disease	MESH:D060825
+31946468	1327	1329	AD	Disease	MESH:D000544
+31946468	1500	1503	MCI	Disease	MESH:D060825
+31946468	1508	1510	AD	Disease	MESH:D000544
+31946468	1709	1717	dementia	Disease	MESH:D003704
+31946468	1871	1898	neurodegenerative disorders	Disease	MESH:D019636
+

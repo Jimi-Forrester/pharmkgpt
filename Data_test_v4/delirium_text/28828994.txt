@@ -1,0 +1,44 @@
+28828994|t|Computational Chemistry Study of Natural Alkaloids and Homemade Databank to Predict Inhibitory Potential Against Key Enzymes in Neurodegenerative Diseases.
+28828994|a|Cissampelos sympodialis Eichl is used in folk medicine for the treatment of various inflammatory diseases; several alkaloids have been isolated from this species and some of them have anti-allergic, immunomodulatory and spasmolytic activities. Treatment of rats with the total tertiary alkaloid fraction showed an antidepressant effect. One of the depression causes can be the deficiency of monoamines, which is a factor displayed in patients with Alzheimer's disease. Theoretical studies using in silico methods have aided in the process of drug discovery. From this perspective, we applied ligand-based-virtual associated with structure-based-virtual screening of alkaloids from C. sympodialis Eichl and 101 derivatives proposed by us are promising leads against some important targets (BACE, GSK-3beta and MAO-A). From the ChEMBL database, we selected a diverse set of 724, 1898 and 1934 structures, which had been tested against BACE, GSK-3beta and MAO-A, to create Random Forest (RF) models with good overall prediction rate, over 78%, for cross-validation and test set. Compounds 24 and 47 presented activity against GSK-3beta and MAO-A simultaneously. The natural alkaloids roraimine and simpodialine-beta-N-oxide presented activity against BACE and liriodenine against MAO-A. The top 20 compounds with best docking performance per enzyme were selected and validated through the RF model. All 9 compounds classified as active in RF model for BACE are bisbenzylisoquinoline alkaloids and were present in the top docking scoring, demonstrating a consensus on results. Affinities of bisbenzylisoquinoline alkaloids, including two secondary metabolites (roraimine and simpodialine-beta-N-oxide), with BACE suggest that this skeleton can be used as a model to design new antagonists of this enzyme.
+28828994	41	50	Alkaloids	Chemical	MESH:D000470
+28828994	128	154	Neurodegenerative Diseases	Disease	MESH:D019636
+28828994	156	185	Cissampelos sympodialis Eichl	Species	
+28828994	240	261	inflammatory diseases	Disease	MESH:D007249
+28828994	271	280	alkaloids	Chemical	MESH:D000470
+28828994	345	353	allergic	Disease	MESH:D004342
+28828994	376	387	spasmolytic	Disease	
+28828994	413	417	rats	Species	10116
+28828994	433	450	tertiary alkaloid	Chemical	-
+28828994	504	514	depression	Disease	MESH:D003866
+28828994	547	557	monoamines	Disease	
+28828994	590	598	patients	Species	9606
+28828994	604	623	Alzheimer's disease	Disease	MESH:D000544
+28828994	822	831	alkaloids	Chemical	MESH:D000470
+28828994	837	857	C. sympodialis Eichl	Species	
+28828994	945	949	BACE	Gene	23621
+28828994	951	960	GSK-3beta	Gene	2932
+28828994	965	970	MAO-A	Gene	4128
+28828994	1089	1093	BACE	Gene	23621
+28828994	1095	1104	GSK-3beta	Gene	2932
+28828994	1109	1114	MAO-A	Gene	4128
+28828994	1279	1288	GSK-3beta	Gene	84027
+28828994	1293	1298	MAO-A	Gene	4128
+28828994	1327	1336	alkaloids	Chemical	MESH:D000470
+28828994	1337	1346	roraimine	Chemical	MESH:C467119
+28828994	1351	1376	simpodialine-beta-N-oxide	Chemical	-
+28828994	1404	1408	BACE	Gene	29392
+28828994	1413	1424	liriodenine	Chemical	MESH:C026980
+28828994	1433	1439	MAO-A.	Gene	4128
+28828994	1605	1609	BACE	Gene	29392
+28828994	1614	1645	bisbenzylisoquinoline alkaloids	Chemical	-
+28828994	1743	1774	bisbenzylisoquinoline alkaloids	Chemical	-
+28828994	1813	1822	roraimine	Chemical	MESH:C467119
+28828994	1827	1852	simpodialine-beta-N-oxide	Chemical	-
+28828994	1860	1864	BACE	Gene	29392
+28828994	Negative_Correlation	MESH:C026980	4128
+28828994	Association	MESH:D000470	2932
+28828994	Negative_Correlation	MESH:D000470	MESH:D019636
+28828994	Negative_Correlation	MESH:D000470	4128
+28828994	Negative_Correlation	MESH:D000470	MESH:D004342
+28828994	Negative_Correlation	MESH:C467119	29392
+

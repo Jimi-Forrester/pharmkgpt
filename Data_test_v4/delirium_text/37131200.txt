@@ -1,0 +1,18 @@
+37131200|t|Pharmacophenotype identification of intensive care unit medications using unsupervised cluster analysis of the ICURx common data model.
+37131200|a|BACKGROUND: Identifying patterns within ICU medication regimens may help artificial intelligence algorithms to better predict patient outcomes; however, machine learning methods incorporating medications require further development, including standardized terminology. The Common Data Model for Intensive Care Unit (ICU) Medications (CDM-ICURx) may provide important infrastructure to clinicians and researchers to support artificial intelligence analysis of medication-related outcomes and healthcare costs. Using an unsupervised cluster analysis approach in combination with this common data model, the objective of this evaluation was to identify novel patterns of medication clusters (termed 'pharmacophenotypes') correlated with ICU adverse events (e.g., fluid overload) and patient-centered outcomes (e.g., mortality). METHODS: This was a retrospective, observational cohort study of 991 critically ill adults. To identify pharmacophenotypes, unsupervised machine learning analysis with automated feature learning using restricted Boltzmann machine and hierarchical clustering was performed on the medication administration records of each patient during the first 24 h of their ICU stay. Hierarchical agglomerative clustering was applied to identify unique patient clusters. Distributions of medications across pharmacophenotypes were described, and differences among patient clusters were compared using signed rank tests and Fisher's exact tests, as appropriate. RESULTS: A total of 30,550 medication orders for the 991 patients were analyzed; five unique patient clusters and six unique pharmacophenotypes were identified. For patient outcomes, compared to patients in Clusters 1 and 3, patients in Cluster 5 had a significantly shorter duration of mechanical ventilation and ICU length of stay (p < 0.05); for medications, Cluster 5 had a higher distribution of Pharmacophenotype 1 and a smaller distribution of Pharmacophenotype 2, compared to Clusters 1 and 3. For outcomes, patients in Cluster 2, despite having the highest severity of illness and greatest medication regimen complexity, had the lowest overall mortality; for medications, Cluster 2 also had a comparably higher distribution of Pharmacophenotype 6. CONCLUSION: The results of this evaluation suggest that patterns among patient clusters and medication regimens may be observed using empiric methods of unsupervised machine learning in combination with a common data model. These results have potential because while phenotyping approaches have been used to classify heterogenous syndromes in critical illness to better define treatment response, the entire medication administration record has not been incorporated in those analyses. Applying knowledge of these patterns at the bedside requires further algorithm development and clinical application but may have the future potential to be leveraged in guiding medication-related decision making to improve treatment outcomes.
+37131200	262	269	patient	Species	9606
+37131200	896	910	fluid overload	Disease	MESH:D019190
+37131200	916	923	patient	Species	9606
+37131200	1030	1044	critically ill	Disease	MESH:D016638
+37131200	1282	1289	patient	Species	9606
+37131200	1400	1407	patient	Species	9606
+37131200	1511	1518	patient	Species	9606
+37131200	1665	1673	patients	Species	9606
+37131200	1701	1708	patient	Species	9606
+37131200	1773	1780	patient	Species	9606
+37131200	1803	1811	patients	Species	9606
+37131200	1833	1841	patients	Species	9606
+37131200	2124	2132	patients	Species	9606
+37131200	2436	2443	patient	Species	9606
+37131200	2708	2724	critical illness	Disease	MESH:D016638
+

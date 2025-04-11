@@ -1,0 +1,51 @@
+18299458|t|Cooperation between NOD2 and Toll-like receptor 2 ligands in the up-regulation of mouse mFPR2, a G-protein-coupled Abeta42 peptide receptor, in microglial cells.
+18299458|a|Human G-protein-coupled formyl peptide receptor-like 1 and its mouse homologue formyl peptide receptor 2 (mFPR2) mediate the chemotactic activity of a variety of pathogen and host-derived peptides, including amyloid beta(42), a key causative factor in Alzheimer's disease. In mouse microglia, mFPR2 is up-regulated by pathogen-associated molecular patterns and proinflammatory cytokines, as shown, for instance, in our previous study using peptidoglycan (PGN) of Gram(+) bacteria. As PGN and its components have been reported to use TLR2 and an intracellular receptor nucleotide-binding oligomerization domain 2 (NOD2), we investigated the capacity of palmitoyl-cys[(RS)-2, 3-di(palmitoyloxy)-propyl]-Ala-Gly-OH (PamCAG), a specific TLR2 ligand, and muramyl dipeptide (MDP), a NOD2 ligand, to cooperatively regulate the expression and function of mFPR2 in microglia. We found that MDP and PamCAG as well as another TLR2-specific agonist palmitoyl-3-cysteine-serine-lysine-4 (Pam3CSK4), when used alone, each increased the expression of functional mFPR2 in microglial cells, and the combination of MDP and PamCAG or Pam3CSK4 exhibited an additive effect. Mechanistic studies revealed that MDP increased the levels of TLR2 expression on the microglial cell surface and enhanced the levels of MAPKs p-38, ERK1/2, and NF-kappaB activated by PamCAG. Our results suggest that TLR2 and NOD2 cooperate to up-regulate the expression of mFPR2 and therefore, may actively participate in the pathogenic processes of brain inflammation and neurodegenerative diseases.
+18299458	20	24	NOD2	Gene	257632
+18299458	29	49	Toll-like receptor 2	Gene	24088
+18299458	82	87	mouse	Species	10090
+18299458	162	167	Human	Species	9606
+18299458	225	230	mouse	Species	10090
+18299458	241	266	formyl peptide receptor 2	Gene	14289
+18299458	414	433	Alzheimer's disease	Disease	MESH:D000544
+18299458	438	443	mouse	Species	10090
+18299458	523	548	proinflammatory cytokines	Disease	MESH:D000080424
+18299458	695	699	TLR2	Gene	24088
+18299458	730	773	nucleotide-binding oligomerization domain 2	Gene	257632
+18299458	775	779	NOD2	Gene	257632
+18299458	814	873	palmitoyl-cys[(RS)-2, 3-di(palmitoyloxy)-propyl]-Ala-Gly-OH	Chemical	-
+18299458	875	881	PamCAG	Chemical	-
+18299458	895	899	TLR2	Gene	24088
+18299458	912	929	muramyl dipeptide	Chemical	MESH:D000119
+18299458	931	934	MDP	Chemical	MESH:D000119
+18299458	939	943	NOD2	Gene	257632
+18299458	1043	1046	MDP	Chemical	MESH:D000119
+18299458	1051	1057	PamCAG	Chemical	-
+18299458	1077	1081	TLR2	Gene	24088
+18299458	1120	1135	serine-lysine-4	ProteinMutation	tmVar:p|SUB|S|4|K;HGVS:p.S4K;VariantGroup:0;OriginalGene:24088;CorrespondingGene:7097;CorrespondingSpecies:10090
+18299458	1137	1145	Pam3CSK4	Chemical	-
+18299458	1259	1262	MDP	Chemical	MESH:D000119
+18299458	1267	1273	PamCAG	Chemical	-
+18299458	1277	1285	Pam3CSK4	Chemical	-
+18299458	1350	1353	MDP	Chemical	MESH:D000119
+18299458	1378	1382	TLR2	Gene	24088
+18299458	1458	1462	p-38	Gene	26416
+18299458	1464	1470	ERK1/2	Gene	26417;26413
+18299458	1476	1485	NF-kappaB	Gene	18033
+18299458	1499	1505	PamCAG	Chemical	-
+18299458	1532	1536	TLR2	Gene	24088
+18299458	1541	1545	NOD2	Gene	257632
+18299458	1666	1684	brain inflammation	Disease	MESH:D004660
+18299458	1689	1715	neurodegenerative diseases	Disease	MESH:D019636
+18299458	Positive_Correlation	MESH:D000119	26416
+18299458	Association	MESH:D000119	257632
+18299458	Bind	24088	257632
+18299458	Positive_Correlation	MESH:D000119	26413
+18299458	Positive_Correlation	MESH:D000119	18033
+18299458	Positive_Correlation	MESH:D000119	24088
+18299458	Association	MESH:D004660	257632
+18299458	Association	MESH:D019636	24088
+18299458	Association	MESH:D000544	14289
+18299458	Association	MESH:D019636	257632
+18299458	Positive_Correlation	MESH:D000119	26417
+18299458	Association	MESH:D004660	24088
+

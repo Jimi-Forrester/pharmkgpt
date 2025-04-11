@@ -1,0 +1,14 @@
+37962707|t|An automatic pipeline for PET/MRI attenuation correction validation in the brain.
+37962707|a|PURPOSE: Challenges in PET/MRI quantitative accuracy for neurological uses arise from PET attenuation correction accuracy. We proposed and evaluated an automatic pipeline to assess the quantitative accuracy of four MRI-derived PET AC methods using analytically simulated PET brain lesions and ROIs as ground truth for PET activity. METHODS: Our proposed pipeline, integrating a synthetic lesion insertion tool and the FreeSurfer neuroimaging framework, inserts simulated spherical and brain ROIs into PET projection space, reconstructing them via four PET MRAC techniques. Utilizing an 11-patient brain PET dataset, we compared the quantitative accuracy of four MRACs (DIXON, DIXONbone, UTE AC, and DL-DIXON) against the gold standard PET CTAC, evaluating MRAC to CTAC activity bias in spherical lesions and brain ROIs with and without background activity against original (lesion free) PET reconstructed images. RESULTS: The proposed pipeline yielded accurate results for spherical lesions and brain ROIs, adhering to the MRAC to CTAC pattern of original brain PET images. Among the MRAC methods, DIXON AC exhibited the highest bias, followed by UTE, DIXONBone, and DL-DIXON showing the least. DIXON, DIXONbone, UTE, and DL-DIXON showed MRAC to CTAC biases of - 5.41%, - 1.85%, - 2.74%, and 0.08% respectively for ROIs inserted in background activity; - 7.02%, - 2.46%, - 3.56%, and - 0.05% for lesion ROIs without background; and - 6.82%, - 2.08%, - 2.29%, and 0.22% for the original brain PET images' 16 FreeSurfer brain ROIs. CONCLUSION: The proposed pipeline delivers accurate results for synthetic spherical lesions and brain ROIs, with and without background activity consideration, enabling the evaluation of new attenuation correction approaches without utilizing measured PET emission data. Additionally, it offers a consistent method to generate realistic lesion ROIs, potentially applicable in assessing further PET correction techniques.
+37962707	357	370	brain lesions	Disease	MESH:D001927
+37962707	470	476	lesion	Disease	MESH:D009059
+37962707	751	756	DIXON	Chemical	-
+37962707	784	789	DIXON	Chemical	-
+37962707	956	962	lesion	Disease	MESH:D009059
+37962707	1180	1185	DIXON	Chemical	-
+37962707	1252	1257	DIXON	Chemical	-
+37962707	1277	1282	DIXON	Chemical	-
+37962707	1307	1312	DIXON	Chemical	-
+37962707	1478	1484	lesion	Disease	MESH:D009059
+37962707	1949	1955	lesion	Disease	MESH:D009059
+

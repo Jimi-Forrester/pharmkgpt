@@ -1,0 +1,17 @@
+37600061|t|Improvement of a prediction model for heart failure survival through explainable artificial intelligence.
+37600061|a|Cardiovascular diseases and their associated disorder of heart failure (HF) are major causes of death globally, making it a priority for doctors to detect and predict their onset and medical consequences. Artificial Intelligence (AI) allows doctors to discover clinical indicators and enhance their diagnoses and treatments. Specifically, "eXplainable AI" (XAI) offers tools to improve the clinical prediction models that experience poor interpretability of their results. This work presents an explainability analysis and evaluation of two HF survival prediction models using a dataset that includes 299 patients who have experienced HF. The first model utilizes survival analysis, considering death events and time as target features, while the second model approaches the problem as a classification task to predict death. The model employs an optimization data workflow pipeline capable of selecting the best machine learning algorithm as well as the optimal collection of features. Moreover, different post hoc techniques have been used for the explainability analysis of the model. The main contribution of this paper is an explainability-driven approach to select the best HF survival prediction model balancing prediction performance and explainability. Therefore, the most balanced explainable prediction models are Survival Gradient Boosting model for the survival analysis and Random Forest for the classification approach with a c-index of 0.714 and balanced accuracy of 0.74 (std 0.03) respectively. The selection of features by the SCI-XAI in the two models is similar where "serum_creatinine", "ejection_fraction", and "sex" are selected in both approaches, with the addition of "diabetes" for the survival analysis model. Moreover, the application of post hoc XAI techniques also confirm common findings from both approaches by placing the "serum_creatinine" as the most relevant feature for the predicted outcome, followed by "ejection_fraction". The explainable prediction models for HF survival presented in this paper would improve the further adoption of clinical prediction models by providing doctors with insights to better understand the reasoning behind usually "black-box" AI clinical solutions and make more reasonable and data-driven decisions.
+37600061	38	51	heart failure	Disease	MESH:D006333
+37600061	106	129	Cardiovascular diseases	Disease	MESH:D002318
+37600061	163	176	heart failure	Disease	MESH:D006333
+37600061	178	180	HF	Disease	MESH:D006333
+37600061	202	207	death	Disease	MESH:D003643
+37600061	647	649	HF	Disease	MESH:D006333
+37600061	741	743	HF	Disease	MESH:D006333
+37600061	801	806	death	Disease	MESH:D003643
+37600061	925	930	death	Disease	MESH:D003643
+37600061	1286	1288	HF	Disease	MESH:D006333
+37600061	1702	1712	creatinine	Chemical	MESH:D003404
+37600061	1801	1809	diabetes	Disease	MESH:D003920
+37600061	1969	1979	creatinine	Chemical	MESH:D003404
+37600061	2108	2110	HF	Disease	MESH:D006333
+

@@ -1,0 +1,28 @@
+35753349|t|A new deep learning technique reveals the exclusive functional contributions of individual cancer mutations.
+35753349|a|Cancers are caused by genomic alterations that may be inherited, induced by environmental carcinogens, or caused due to random replication errors. Postinduction of carcinogenicity, mutations further propagate and drastically alter the cancer genomes. Although a subset of driver mutations has been identified and characterized to date, most cancer-related somatic mutations are indistinguishable from germline variants or other noncancerous somatic mutations. Thus, such overlap impedes appreciation of many deleterious but previously uncharacterized somatic mutations. The major bottleneck arises due to patient-to-patient variability in mutational profiles, making it difficult to associate specific mutations with a given disease outcome. Here, we describe a newly developed technique Continuous Representation of Codon Switches (CRCS), a deep learning-based method that allows us to generate numerical vector representations of mutations, thereby enabling numerous machine learning-based tasks. We demonstrate three major applications of CRCS; first, we show how CRCS can help detect cancer-related somatic mutations in the absence of matched normal samples, which has applications in cell-free DNA-based assessment of tumor mutation burden. Second, the proposed approach also enables identification and exploration of driver genes; our analyses implicate DMD, RSK4, OFD1, WDR44, and AFF2 as potential cancer drivers. Finally, we used CRCS to score individual mutations in a tumor sample, which was found to be predictive of patient survival in bladder urothelial carcinoma, hepatocellular carcinoma, and lung adenocarcinoma. Taken together, we propose CRCS as a valuable computational tool for analysis of the functional significance of individual cancer mutations.
+35753349	91	97	cancer	Disease	MESH:D009369
+35753349	109	116	Cancers	Disease	MESH:D009369
+35753349	344	350	cancer	Disease	MESH:D009369
+35753349	450	456	cancer	Disease	MESH:D009369
+35753349	714	721	patient	Species	9606
+35753349	725	732	patient	Species	9606
+35753349	1197	1203	cancer	Disease	MESH:D009369
+35753349	1332	1337	tumor	Disease	MESH:D009369
+35753349	1469	1472	DMD	Gene	1756
+35753349	1474	1478	RSK4	Gene	27330
+35753349	1480	1484	OFD1	Gene	8481
+35753349	1486	1491	WDR44	Gene	54521
+35753349	1497	1501	AFF2	Gene	2334
+35753349	1515	1521	cancer	Disease	MESH:D009369
+35753349	1588	1593	tumor	Disease	MESH:D009369
+35753349	1638	1645	patient	Species	9606
+35753349	1658	1686	bladder urothelial carcinoma	Disease	MESH:D001749
+35753349	1688	1712	hepatocellular carcinoma	Disease	MESH:D006528
+35753349	1718	1737	lung adenocarcinoma	Disease	MESH:D000077192
+35753349	1862	1868	cancer	Disease	MESH:D009369
+35753349	Association	MESH:D009369	2334
+35753349	Association	MESH:D009369	54521
+35753349	Association	MESH:D009369	1756
+35753349	Association	MESH:D009369	27330
+35753349	Association	MESH:D009369	8481
+

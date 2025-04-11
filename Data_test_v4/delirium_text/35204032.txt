@@ -1,0 +1,16 @@
+35204032|t|Semantic Feature Extraction Using SBERT for Dementia Detection.
+35204032|a|Dementia is a neurodegenerative disease that leads to the development of cognitive deficits, such as aphasia, apraxia, and agnosia. It is currently considered one of the most significant major medical problems worldwide, primarily affecting the elderly. This condition gradually impairs the patient's cognition, eventually leading to the inability to perform everyday tasks without assistance. Since dementia is an incurable disease, early detection plays an important role in delaying its progression. Because of this, tools and methods have been developed to help accurately diagnose patients in their early stages. State-of-the-art methods have shown that the use of syntactic-type linguistic features provides a sensitive and noninvasive tool for detecting dementia in its early stages. However, these methods lack relevant semantic information. In this work, we propose a novel methodology, based on the semantic features approach, by using sentence embeddings computed by Siamese BERT networks (SBERT), along with support vector machine (SVM), K-nearest neighbors (KNN), random forest, and an artificial neural network (ANN) as classifiers. Our methodology extracted 17 features that provide demographic, lexical, syntactic, and semantic information from 550 oral production samples of elderly controls and people with Alzheimer's disease, provided by the DementiaBank Pitt Corpus database. To quantify the relevance of the extracted features for the dementia classification task, we calculated the mutual information score, which demonstrates a dependence between our features and the MMSE score. The experimental classification performance metrics, such as the accuracy, precision, recall, and F1 score (77, 80, 80, and 80%, respectively), validate that our methodology performs better than syntax-based methods and the BERT approach when only the linguistic features are used.
+35204032	44	52	Dementia	Disease	MESH:D003704
+35204032	64	72	Dementia	Disease	MESH:D003704
+35204032	78	103	neurodegenerative disease	Disease	MESH:D019636
+35204032	137	155	cognitive deficits	Disease	MESH:D003072
+35204032	165	172	aphasia	Disease	MESH:D001037
+35204032	174	181	apraxia	Disease	MESH:D001072
+35204032	187	194	agnosia	Disease	MESH:D000377
+35204032	355	362	patient	Species	9606
+35204032	464	472	dementia	Disease	MESH:D003704
+35204032	650	658	patients	Species	9606
+35204032	825	833	dementia	Disease	MESH:D003704
+35204032	1389	1408	Alzheimer's disease	Disease	MESH:D000544
+35204032	1521	1529	dementia	Disease	MESH:D003704
+

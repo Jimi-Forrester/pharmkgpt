@@ -1,0 +1,41 @@
+39396099|t|Revealing disease subtypes and heterogeneity in common variable immunodeficiency through transcriptomic analysis.
+39396099|a|Common Variable Immunodeficiency (CVID) is a primary immunodeficiency characterized by reduced levels of specific immunoglobulins, resulting in frequent infections, autoimmune disorders, increased cancer risk, and diminished antibody production despite an adequate B cell count. With its clinical manifestations being highly variable, the classification of CVID, including the widely recognized Freiburg classification, is primarily based on clinical symptoms and genetic variations. Our study aims to refine the classification of CVID by analyzing transcriptomics data to identify distinct disease subtypes. We utilized the GSE51405 dataset, examining transcriptomic profiles from 30 CVID patients without complications. Employing a combination of clustering techniques-KMeans, hierarchical agglomerative clustering, spectral clustering, and Gaussian Mixture models-and differential gene expression analysis with R's limma package, we integrated molecular findings with demographic data (age and gender) through correlation analysis and identified common genes among clusters. Three distinct clusters of CVID patients were identified using KMeans, Agglomerative Clustering, and Gaussian Mixture Models, highlighting the disease's heterogeneity. Differential expression analysis unveiled 31 genes with variable expression levels across these clusters. Notably, nine genes (EIF5A, RPL21, ANP32A, DTX3L, NCF2, CDC42EP3, CHP1, FOLR3, and DEFA4) exhibited consistent differential expression across all clusters, independent of demographic factors. The study recommends categorizing patients based on the four genes, NCF2, CHP1, FOLR3, and DEFA4-as they may assist in prognostic prediction. Transcriptomic analysis of common variable immunodeficiency (CVID) patients identified three distinct clusters based on gene expression, independent of age and gender. Nine differentially expressed genes were identified across these clusters, suggesting potential biomarkers for CVID subtype classification. These findings highlight the genetic heterogeneity of CVID and provide novel insights into disease classification and potential personalized treatment approaches.
+39396099	48	80	common variable immunodeficiency	Disease	MESH:D017074
+39396099	114	146	Common Variable Immunodeficiency	Disease	MESH:D017074
+39396099	148	152	CVID	Disease	MESH:D017074
+39396099	167	183	immunodeficiency	Disease	MESH:D007153
+39396099	267	277	infections	Disease	MESH:D007239
+39396099	279	299	autoimmune disorders	Disease	MESH:D001327
+39396099	311	317	cancer	Disease	MESH:D009369
+39396099	471	475	CVID	Disease	MESH:D017074
+39396099	645	649	CVID	Disease	MESH:D017074
+39396099	799	803	CVID	Disease	MESH:D017074
+39396099	804	812	patients	Species	9606
+39396099	1219	1223	CVID	Disease	MESH:D017074
+39396099	1224	1232	patients	Species	9606
+39396099	1487	1492	EIF5A	Gene	1984
+39396099	1494	1499	RPL21	Gene	6144
+39396099	1501	1507	ANP32A	Gene	8125
+39396099	1509	1514	DTX3L	Gene	151636
+39396099	1516	1520	NCF2	Gene	4688
+39396099	1522	1530	CDC42EP3	Gene	10602
+39396099	1538	1543	FOLR3	Gene	2352
+39396099	1549	1554	DEFA4	Gene	1669
+39396099	1692	1700	patients	Species	9606
+39396099	1726	1730	NCF2	Gene	4688
+39396099	1738	1743	FOLR3	Gene	2352
+39396099	1749	1754	DEFA4	Gene	1669
+39396099	1827	1859	common variable immunodeficiency	Disease	MESH:D017074
+39396099	1861	1865	CVID	Disease	MESH:D017074
+39396099	1867	1875	patients	Species	9606
+39396099	2079	2083	CVID	Disease	MESH:D017074
+39396099	2162	2166	CVID	Disease	MESH:D017074
+39396099	Association	MESH:D017074	151636
+39396099	Association	MESH:D017074	8125
+39396099	Association	MESH:D017074	1984
+39396099	Association	MESH:D017074	6144
+39396099	Association	MESH:D017074	10602
+39396099	Association	MESH:D017074	2352
+39396099	Association	MESH:D017074	4688
+39396099	Association	MESH:D017074	1669
+

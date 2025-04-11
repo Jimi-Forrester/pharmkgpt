@@ -1,0 +1,52 @@
+33569547|t|Hsp90 inhibition protects the brain microvascular endothelium against oxidative stress.
+33569547|a|The brain endothelium is an integral element of the blood-brain barrier (BBB). Dysfunction of this formation due to increased generation of reactive oxygen species (ROS) progresses the establishment of neurological disorders including stroke and traumatic brain injury. Heat shock protein 90 inhibitors are anti-inflammatory agents, and their activities are mediated, at least in part, by P53. This is a tumor suppressor protein which regulates the opposing activities of Rac1 and RhoA in the cellular cytoskeleton. In the present study we investigated the role of Hsp90 inhibitors in the H2O2-induced brain endothelium breakdown, by employing human cerebral microvascular endothelial cells (hCMEC/D3). Our findings suggest that H2O2 downregulates P53 by enhancing the P53 suppressor mouse double minute 2 homolog (MDM2), as well as by increasing the apyrimidinic endonuclease 1/redox factor 1 (APE1/Ref1). The H2O2 - triggered violation of the brain endothelium barrier was reflected in measurements of transendothelial resistance, and the increased expression of the key cytoskeletal modulators cofilin and myosin light chain 2 (MLC2). Treatment of the hCMEC/D3 cells with Hsp90 inhibitors counteracted those events, and reduced the generation of the hydrogen peroxide - induced reactive oxygen species. Hence, our study suggests that Hsp90 inhibition supports the BBB integrity, and may represent a promising therapeutic approach for disorders associated with brain endothelium breakdown; including COVID-19.
+33569547	0	5	Hsp90	Gene	3320
+33569547	228	251	reactive oxygen species	Chemical	MESH:D017382
+33569547	253	256	ROS	Chemical	MESH:D017382
+33569547	290	312	neurological disorders	Disease	MESH:D009461
+33569547	323	329	stroke	Disease	MESH:D020521
+33569547	334	356	traumatic brain injury	Disease	MESH:D000070642
+33569547	400	412	inflammatory	Disease	MESH:D007249
+33569547	477	480	P53	Gene	7157
+33569547	492	497	tumor	Disease	MESH:D009369
+33569547	560	564	Rac1	Gene	5879
+33569547	569	573	RhoA	Gene	387
+33569547	653	658	Hsp90	Gene	3320
+33569547	677	681	H2O2	Chemical	MESH:D006861
+33569547	732	737	human	Species	9606
+33569547	780	788	hCMEC/D3	CellLine	CVCL:U985
+33569547	817	821	H2O2	Chemical	MESH:D006861
+33569547	836	839	P53	Gene	7157
+33569547	857	860	P53	Gene	7157
+33569547	872	901	mouse double minute 2 homolog	Gene	4193
+33569547	903	907	MDM2	Gene	4193
+33569547	967	981	redox factor 1	Gene	328
+33569547	983	987	APE1	Gene	328
+33569547	988	992	Ref1	Gene	328
+33569547	999	1003	H2O2	Chemical	MESH:D006861
+33569547	1185	1192	cofilin	Gene	1072
+33569547	1197	1217	myosin light chain 2	Gene	4633
+33569547	1219	1223	MLC2	Gene	4633
+33569547	1243	1251	hCMEC/D3	CellLine	CVCL:U985
+33569547	1263	1268	Hsp90	Gene	3320
+33569547	1341	1358	hydrogen peroxide	Chemical	MESH:D006861
+33569547	1369	1392	reactive oxygen species	Chemical	MESH:D017382
+33569547	1425	1430	Hsp90	Gene	3320
+33569547	1590	1598	COVID-19	Disease	MESH:D000086382
+33569547	Positive_Correlation	MESH:D017382	MESH:D009461
+33569547	Association	MESH:D017382	MESH:D000070642
+33569547	Negative_Correlation	4193	7157
+33569547	Association	MESH:D006861	3320
+33569547	Association	5879	7157
+33569547	Positive_Correlation	MESH:D006861	328
+33569547	Association	MESH:D017382	3320
+33569547	Association	MESH:D000086382	3320
+33569547	Negative_Correlation	MESH:D006861	7157
+33569547	Positive_Correlation	MESH:D006861	1072
+33569547	Association	MESH:D017382	MESH:D020521
+33569547	Positive_Correlation	MESH:D006861	MESH:D017382
+33569547	Positive_Correlation	MESH:D006861	4193
+33569547	Association	387	7157
+33569547	Positive_Correlation	MESH:D006861	4633
+33569547	Negative_Correlation	MESH:D009369	387
+

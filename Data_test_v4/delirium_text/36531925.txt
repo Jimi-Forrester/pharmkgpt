@@ -1,0 +1,16 @@
+36531925|t|An Explainable Statistical Method for Seizure Prediction Using Brain Functional Connectivity from EEG.
+36531925|a|Background: Epilepsy is a group of chronic neurological disorders characterized by recurrent and abrupt seizures. The accurate prediction of seizures can reduce the burdens of this disorder. Now, existing studies use brain network features to classify patients' preictal or interictal states, enabling seizure prediction. However, most predicting methods are based on deep learning techniques, which have weak interpretability and high computational complexity. To address these issues, in this study, we proposed a novel two-stage statistical method that is interpretable and easy to compute. Methods: We used two datasets to evaluate the performance of the proposed method, including the well-known public dataset CHB-MIT. In the first stage, we estimated the dynamic brain functional connectivity network for each epoch. Then, in the second stage, we used the derived network predictor for seizure prediction. Results: We illustrated the results of our method in seizure prediction in two datasets separately. For the FH-PKU dataset, our approach achieved an AUC value of 0.963, a prediction sensitivity of 93.1%, and a false discovery rate of 7.7%. For the CHB-MIT dataset, our approach achieved an AUC value of 0.940, a prediction sensitivity of 93.0%, and a false discovery rate of 11.1%, outperforming existing state-of-the-art methods. Significance. This study proposed an explainable statistical method, which can estimate the brain network using the scalp EEG method and use the net-work predictor to predict epileptic seizures. Availability and Implementation. R Source code is available at https://github.com/HaoChen1994/Seizure-Prediction.
+36531925	38	45	Seizure	Disease	MESH:D012640
+36531925	115	123	Epilepsy	Disease	MESH:D004827
+36531925	146	168	neurological disorders	Disease	MESH:D009461
+36531925	207	215	seizures	Disease	MESH:D012640
+36531925	244	252	seizures	Disease	MESH:D012640
+36531925	355	363	patients	Species	9606
+36531925	405	412	seizure	Disease	MESH:D012640
+36531925	996	1003	seizure	Disease	MESH:D012640
+36531925	1069	1076	seizure	Disease	MESH:D012640
+36531925	1124	1127	FH-	Disease	OMIM:143890
+36531925	1127	1130	PKU	Disease	MESH:D010661
+36531925	1622	1640	epileptic seizures	Disease	MESH:D004827
+36531925	1736	1743	Seizure	Disease	MESH:D012640
+

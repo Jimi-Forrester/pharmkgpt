@@ -1,0 +1,49 @@
+29858571|t|Tet1 and Tet2 maintain mesenchymal stem cell homeostasis via demethylation of the P2rX7 promoter.
+29858571|a|Ten-eleven translocation (Tet) family-mediated DNA oxidation represents an epigenetic modification capable of converting 5-methylcytosine (5-mC) to 5-hydroxymethylcytosine (5-hmC), which regulates various biological processes. However, it is unknown whether Tet family affects mesenchymal stem cells (MSCs) or the skeletal system. Here we show that depletion of Tet1 and Tet2 results in impaired self-renewal and differentiation of bone marrow MSCs (BMMSCs) and a significant osteopenia phenotype. Tet1 and Tet2 deficiency reduces demethylation of the P2rX7 promoter and downregulates exosome release, leading to intracellular accumulation of miR-297a-5p, miR-297b-5p, and miR-297c-5p. These miRNAs inhibit Runx2 signaling to impair BMMSC function. We show that overexpression of P2rX7 rescues the impaired BMMSCs and osteoporotic phenotype in Tet1 and Tet2 double knockout mice. These results indicate that Tet1 and Tet2 play a critical role in maintaining BMMSC and bone homeostasis through demethylation of P2rX7 to control exosome and miRNA release. This Tet/P2rX7/Runx2 cascade may serve as a target for the development of novel therapies for osteopenia disorders.
+29858571	0	4	Tet1	Gene	52463
+29858571	9	13	Tet2	Gene	214133
+29858571	82	87	P2rX7	Gene	18439
+29858571	219	235	5-methylcytosine	Chemical	MESH:D044503
+29858571	237	241	5-mC	Chemical	MESH:D044503
+29858571	246	269	5-hydroxymethylcytosine	Chemical	MESH:C011865
+29858571	271	276	5-hmC	Chemical	MESH:C011865
+29858571	460	464	Tet1	Gene	52463
+29858571	469	473	Tet2	Gene	214133
+29858571	574	584	osteopenia	Disease	MESH:D001851
+29858571	596	600	Tet1	Gene	52463
+29858571	605	609	Tet2	Gene	214133
+29858571	650	655	P2rX7	Gene	18439
+29858571	754	762	miR-297b	Gene	735281
+29858571	771	779	miR-297c	Gene	100124483
+29858571	780	782	5p	Chromosome	5
+29858571	805	810	Runx2	Gene	12393
+29858571	878	883	P2rX7	Gene	18439
+29858571	916	928	osteoporotic	Disease	MESH:D058866
+29858571	942	946	Tet1	Gene	52463
+29858571	951	955	Tet2	Gene	214133
+29858571	972	976	mice	Species	10090
+29858571	1006	1010	Tet1	Gene	52463
+29858571	1015	1019	Tet2	Gene	214133
+29858571	1108	1113	P2rX7	Gene	18439
+29858571	1161	1166	P2rX7	Gene	18439
+29858571	1167	1172	Runx2	Gene	12393
+29858571	1246	1266	osteopenia disorders	Disease	MESH:D001851
+29858571	Association	18439	735281
+29858571	Association	MESH:D058866	18439
+29858571	Association	100124483	18439
+29858571	Association	100124483	12393
+29858571	Association	MESH:D001851	214133
+29858571	Association	MESH:D058866	214133
+29858571	Positive_Correlation	100124483	52463
+29858571	Positive_Correlation	214133	735281
+29858571	Positive_Correlation	100124483	214133
+29858571	Positive_Correlation	52463	735281
+29858571	Association	MESH:D001851	18439
+29858571	Association	MESH:D001851	52463
+29858571	Association	MESH:D058866	52463
+29858571	Positive_Correlation	18439	52463
+29858571	Negative_Correlation	18439	214133
+29858571	Association	12393	735281
+29858571	Association	MESH:D001851	12393
+29858571	Comparison	MESH:C011865	MESH:D044503
+

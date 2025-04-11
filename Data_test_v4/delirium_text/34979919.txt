@@ -1,0 +1,24 @@
+34979919|t|Postoperative delirium prediction using machine learning models and preoperative electronic health record data.
+34979919|a|BACKGROUND: Accurate, pragmatic risk stratification for postoperative delirium (POD) is necessary to target preventative resources toward high-risk patients. Machine learning (ML) offers a novel approach to leveraging electronic health record (EHR) data for POD prediction. We sought to develop and internally validate a ML-derived POD risk prediction model using preoperative risk features, and to compare its performance to models developed with traditional logistic regression. METHODS: This was a retrospective analysis of preoperative EHR data from 24,885 adults undergoing a procedure requiring anesthesia care, recovering in the main post-anesthesia care unit, and staying in the hospital at least overnight between December 2016 and December 2019 at either of two hospitals in a tertiary care health system. One hundred fifteen preoperative risk features including demographics, comorbidities, nursing assessments, surgery type, and other preoperative EHR data were used to predict postoperative delirium (POD), defined as any instance of Nursing Delirium Screening Scale >=2 or positive Confusion Assessment Method for the Intensive Care Unit within the first 7 postoperative days. Two ML models (Neural Network and XGBoost), two traditional logistic regression models ("clinician-guided" and "ML hybrid"), and a previously described delirium risk stratification tool (AWOL-S) were evaluated using the area under the receiver operating characteristic curve (AUC-ROC), sensitivity, specificity, positive likelihood ratio, and positive predictive value. Model calibration was assessed with a calibration curve. Patients with no POD assessments charted or at least 20% of input variables missing were excluded. RESULTS: POD incidence was 5.3%. The AUC-ROC for Neural Net was 0.841 [95% CI 0. 816-0.863] and for XGBoost was 0.851 [95% CI 0.827-0.874], which was significantly better than the clinician-guided (AUC-ROC 0.763 [0.734-0.793], p < 0.001) and ML hybrid (AUC-ROC 0.824 [0.800-0.849], p < 0.001) regression models and AWOL-S (AUC-ROC 0.762 [95% CI 0.713-0.812], p < 0.001). Neural Net, XGBoost, and ML hybrid models demonstrated excellent calibration, while calibration of the clinician-guided and AWOL-S models was moderate; they tended to overestimate delirium risk in those already at highest risk. CONCLUSION: Using pragmatically collected EHR data, two ML models predicted POD in a broad perioperative population with high discrimination. Optimal application of the models would provide automated, real-time delirium risk stratification to improve perioperative management of surgical patients at risk for POD.
+34979919	0	22	Postoperative delirium	Disease	MESH:D000071257
+34979919	168	190	postoperative delirium	Disease	MESH:D000071257
+34979919	192	195	POD	Disease	MESH:D000071257
+34979919	260	268	patients	Species	9606
+34979919	370	373	POD	Disease	MESH:D000071257
+34979919	444	447	POD	Disease	MESH:D000071257
+34979919	1102	1124	postoperative delirium	Disease	MESH:D000071257
+34979919	1126	1129	POD	Disease	MESH:D000071257
+34979919	1167	1175	Delirium	Disease	MESH:D003693
+34979919	1455	1463	delirium	Disease	MESH:D003693
+34979919	1490	1496	AWOL-S	Disease	MESH:D018455
+34979919	1730	1738	Patients	Species	9606
+34979919	1747	1750	POD	Disease	MESH:D000071257
+34979919	1838	1841	POD	Disease	MESH:D000071257
+34979919	2144	2150	AWOL-S	Disease	MESH:D018455
+34979919	2324	2330	AWOL-S	Disease	MESH:D018455
+34979919	2380	2388	delirium	Disease	MESH:D003693
+34979919	2504	2507	POD	Disease	MESH:D000071257
+34979919	2639	2647	delirium	Disease	MESH:D003693
+34979919	2716	2724	patients	Species	9606
+34979919	2737	2740	POD	Disease	MESH:D000071257
+

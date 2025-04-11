@@ -1,0 +1,50 @@
+39484999|t|Hidden liver-joint axis: HBV infection causes rheumatoid arthritis via TRAFD1 with imbalance of HBV X protein and trans-ferulic acid.
+39484999|a|Liver metabolites are involved in the progression of rheumatoid arthritis (RA), indicating a connection between the liver and joints. However, the impact and mechanism of Hepatitis B virus (HBV), a hepatotropic virus, on RA are still unclear. We investigated the correlation between HBV and RA using Mendelian randomization analysis. Single-cell transcriptome analysis was conducted to investigate changes in cell subtypes in synovial tissue of HBV-RA patients. Fibroblast-like synoviocytes (FLS) were used to create a cell model, and the transcriptome was examined to identify the key downstream molecules of FMT regulated by HBx. CIA model was constructed using HBV transgenic, HBx transgenic, and TRADF1 knockout mice to investigate the impact and mechanism of HBV on CIA. The results of our study revealed a significant positive correlation between HBV and RA. The functional studies identified a crucial role of fibroblast-myofibroblast transition (FMT) in the progression of RA. The results suggest that HBV-encoded HBx may promote FMT in RA by upregulating TRAFD1. Furthermore, trans-ferulic acid (TFA) was identified by screening for common metabolites in the liver, joints, and peripheral blood using the metabolome and WGCNA. Interestingly, we found that TFA ameliorated HBx-induced RA by suppressing TRAFD1 expression. Our study demonstrates that hidden liver-joint axis, an imbalance between TFA and HBx, plays a critical role in HBV-induced RA, which could be a potential strategy for preventing RA development.
+39484999	25	38	HBV infection	Disease	MESH:D006509
+39484999	46	66	rheumatoid arthritis	Disease	MESH:D001172
+39484999	71	77	TRAFD1	Gene	10906
+39484999	114	132	trans-ferulic acid	Chemical	MESH:C004999
+39484999	187	207	rheumatoid arthritis	Disease	MESH:D001172
+39484999	209	211	RA	Disease	MESH:D001172
+39484999	305	322	Hepatitis B virus	Species	10407
+39484999	324	327	HBV	Species	10407
+39484999	355	357	RA	Disease	MESH:D001172
+39484999	417	420	HBV	Species	10407
+39484999	425	427	RA	Disease	MESH:D001172
+39484999	579	582	HBV	Species	10407
+39484999	583	585	RA	Disease	MESH:D001172
+39484999	586	594	patients	Species	9606
+39484999	761	764	HBx	Gene	944566
+39484999	766	769	CIA	Disease	
+39484999	798	801	HBV	Species	10407
+39484999	814	817	HBx	Gene	944566
+39484999	850	854	mice	Species	10090
+39484999	898	901	HBV	Species	10407
+39484999	905	908	CIA	Disease	
+39484999	987	990	HBV	Species	10407
+39484999	995	997	RA	Disease	MESH:D001172
+39484999	1115	1117	RA	Disease	MESH:D001172
+39484999	1144	1147	HBV	Species	10407
+39484999	1156	1159	HBx	Gene	944566
+39484999	1179	1181	RA	Disease	MESH:D001172
+39484999	1198	1204	TRAFD1	Gene	10906
+39484999	1219	1237	trans-ferulic acid	Chemical	MESH:C004999
+39484999	1239	1242	TFA	Chemical	MESH:C004999
+39484999	1399	1402	TFA	Chemical	MESH:C004999
+39484999	1415	1418	HBx	Gene	944566
+39484999	1427	1429	RA	Disease	MESH:D001172
+39484999	1445	1451	TRAFD1	Gene	10906
+39484999	1538	1541	TFA	Chemical	MESH:C004999
+39484999	1546	1549	HBx	Gene	944566
+39484999	1576	1579	HBV	Species	10407
+39484999	1588	1590	RA	Disease	MESH:D001172
+39484999	1643	1645	RA	Disease	MESH:D001172
+39484999	Negative_Correlation	MESH:C004999	10906
+39484999	Association	MESH:C004999	MESH:D006509
+39484999	Negative_Correlation	MESH:C004999	MESH:D001172
+39484999	Positive_Correlation	10906	944566
+39484999	Association	MESH:C004999	944566
+39484999	Association	MESH:D001172	10906
+39484999	Positive_Correlation	MESH:D001172	944566
+39484999	Association	MESH:D006509	10906
+

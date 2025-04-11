@@ -1,0 +1,32 @@
+34951135|t|Development and validation of prediction models for neurocognitive disorders in adult patients admitted to the ICU with sleep disturbance.
+34951135|a|BACKGROUND: Neurocognitive disorders (NCDs) and sleep disturbance are highly prevalent in the perioperative period and intensive care unit (ICU). There has been a lack of individualized evaluation tools designed for the high-risk NCDs in critically ill patients with sleep disturbance. OBJECTIVES: The aim of this study was to develop and validate prediction models for NCDs among adult patients with sleep disturbance. METHODS: The R software was used to analyze the dataset of adult patients admitted to the ICU with sleep disturbance, who were diagnosed following the codes of the International Classification of Diseases, 9th Revision (ICD-9) and 10th Revision (ICD-10) using the MIMIC-IV database. We used logistic regression and LASSO analyses to identify important risk factors associated with NCDs and develop nomograms for NCDs predictions. We measured the performances of the nomograms using the bootstrap resampling procedure, sensitivity, specificity of the receiver operating characteristic (ROC), area under the ROC curves (AUC), and decision curve analysis (DCA). RESULTS: The prediction models shared the 10 risk factors (age, gender, midazolam, morphine, glucose, diabetes diseases, potassium, international normalized ratio, partial thromboplastin time, and respiratory rate). Cardiovascular diseases were included in the logistic regression, the sensitivity was 74.1%, and specificity was 64.6%. When platelet and Glasgow Coma Score (GCS) were included and cardiovascular diseases were removed in the LASSO prediction model, the sensitivity was 86.1% and specificity was 82.8%. Discriminative abilities of the logistic prediction and LASSO prediction models for NCDs in the validation set were evaluated as the AUC scores, which were 0.730 (95% CI 0.716-0.743) and 0.920 (95% CI 0.912-0.927). Net benefits of the prediction models were observed at threshold probabilities of 0.567 and 0.914. CONCLUSIONS: The LASSO prediction model showed better performance than the logistic prediction model and should be preferred for nomogram-assisted decisions on clinical risk management of NCDs among adult patients with sleep disturbance in the ICU.
+34951135	52	76	neurocognitive disorders	Disease	MESH:D019965
+34951135	86	94	patients	Species	9606
+34951135	120	137	sleep disturbance	Disease	MESH:D012893
+34951135	151	175	Neurocognitive disorders	Disease	MESH:D019965
+34951135	177	181	NCDs	Disease	MESH:D019965
+34951135	187	204	sleep disturbance	Disease	MESH:D012893
+34951135	369	373	NCDs	Disease	MESH:D019965
+34951135	377	391	critically ill	Disease	MESH:D016638
+34951135	392	400	patients	Species	9606
+34951135	406	423	sleep disturbance	Disease	MESH:D012893
+34951135	509	513	NCDs	Disease	MESH:D019965
+34951135	526	534	patients	Species	9606
+34951135	540	557	sleep disturbance	Disease	MESH:D012893
+34951135	624	632	patients	Species	9606
+34951135	658	675	sleep disturbance	Disease	MESH:D012893
+34951135	940	944	NCDs	Disease	MESH:D019965
+34951135	971	975	NCDs	Disease	MESH:D019965
+34951135	1290	1299	midazolam	Chemical	MESH:D008874
+34951135	1301	1309	morphine	Chemical	MESH:D009020
+34951135	1311	1318	glucose	Chemical	MESH:D005947
+34951135	1320	1337	diabetes diseases	Disease	MESH:D003920
+34951135	1339	1348	potassium	Chemical	MESH:D011188
+34951135	1434	1457	Cardiovascular diseases	Disease	MESH:D002318
+34951135	1580	1584	Coma	Disease	MESH:D003128
+34951135	1615	1638	cardiovascular diseases	Disease	MESH:D002318
+34951135	1820	1824	NCDs	Disease	MESH:D019965
+34951135	2238	2242	NCDs	Disease	MESH:D019965
+34951135	2255	2263	patients	Species	9606
+34951135	2269	2286	sleep disturbance	Disease	MESH:D012893
+

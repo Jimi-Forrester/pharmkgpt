@@ -1,0 +1,17 @@
+38098478|t|Predicting pediatric emergence delirium using data-driven machine learning applied to electronic health record dataset at a quaternary care pediatric hospital.
+38098478|a|Objectives: Pediatric emergence delirium is an undesirable outcome that is understudied. Development of a predictive model is an initial step toward reducing its occurrence. This study aimed to apply machine learning (ML) methods to a large clinical dataset to develop a predictive model for pediatric emergence delirium. Materials and Methods: We performed a single-center retrospective cohort study using electronic health record data from February 2015 to December 2019. We built and evaluated 4 commonly used ML models for predicting emergence delirium: least absolute shrinkage and selection operator, ridge regression, random forest, and extreme gradient boosting. The primary outcome was the occurrence of emergence delirium, defined as a Watcha score of 3 or 4 recorded at any time during recovery. Results: The dataset included 54 776 encounters across 43 830 patients. The 4 ML models performed similarly with performance assessed by the area under the receiver operating characteristic curves ranging from 0.74 to 0.75. Notable variables associated with increased risk included adenoidectomy with or without tonsillectomy, decreasing age, midazolam premedication, and ondansetron administration, while intravenous induction and ketorolac were associated with reduced risk of emergence delirium. Conclusions: Four different ML models demonstrated similar performance in predicting postoperative emergence delirium using a large pediatric dataset. The prediction performance of the models draws attention to our incomplete understanding of this phenomenon based on the studied variables. The results from our modeling could serve as a first step in designing a predictive clinical decision support system, but further optimization and validation are needed. Clinical trial number and registry URL: Not applicable.
+38098478	21	39	emergence delirium	Disease	MESH:D000071257
+38098478	182	200	emergence delirium	Disease	MESH:D000071257
+38098478	462	480	emergence delirium	Disease	MESH:D000071257
+38098478	698	716	emergence delirium	Disease	MESH:D000071257
+38098478	873	891	emergence delirium	Disease	MESH:D000071257
+38098478	1029	1037	patients	Species	9606
+38098478	1310	1319	midazolam	Chemical	MESH:D008874
+38098478	1339	1350	ondansetron	Chemical	MESH:D017294
+38098478	1399	1408	ketorolac	Chemical	MESH:D020910
+38098478	1446	1464	emergence delirium	Disease	MESH:D000071257
+38098478	1551	1583	postoperative emergence delirium	Disease	MESH:D000071257
+38098478	Negative_Correlation	MESH:D020910	MESH:D000071257
+38098478	Positive_Correlation	MESH:D008874	MESH:D000071257
+38098478	Positive_Correlation	MESH:D017294	MESH:D000071257
+

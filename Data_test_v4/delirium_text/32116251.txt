@@ -1,0 +1,36 @@
+32116251|t|Impact of Vitamin D Binding Protein Levels on Alzheimer's Disease: A Mendelian Randomization Study.
+32116251|a|Until now, observational studies, randomized controlled trials (RCTs), and Mendelian randomization (MR) studies have explored the impact of vitamin D on Alzheimer's disease (AD), and reported inconsistent findings. In MR studies, the sensitivity analysis by removing GC rs2282679 variant highlighted no association of 25OHD levels with AD risk, which indicates that vitamin D-binding protein (DBP) encoded by GC may have distinct effects on AD risk. Here, we aim to clarify this assumption. We selected the GC rs2282679 variant associated with DBP levels (p = 3.30E-76) as the instrumental variable, and extracted the summary statistics of rs2282679 variant in multiple AD GWAS datasets from IGAP, Complex Trait Genetics (CTG) lab, and UK Biobank. We then performed a MR study to investigate the causal association between DBP levels and AD. In IGAP, MR analysis showed that the genetically DBP levels (per 1 standard deviation (SD) increase 50 mg/L) were significantly associated with reduced AD risk (OR = 0.63, 95% CI: 0.45-0.89, p = 0.009). Importantly, the estimates from two sensitivity analyses were consistent with the main estimate in terms of direction and magnitude. Meanwhile, we found no causal association between DBP levels and other four AD phenotypes in CTG lab and UK Biobank. In summary, we highlight the role of DBP levels in AD risk, and provide strong support evidence that DBP may be the therapeutic agent for the treatment of AD. Meanwhile, our findings clarify the assumption that DBP may drive the observed relationship between 25OHD levels and AD.
+32116251	10	35	Vitamin D Binding Protein	Gene	2638
+32116251	46	65	Alzheimer's Disease	Disease	MESH:D000544
+32116251	240	249	vitamin D	Chemical	MESH:D014807
+32116251	253	272	Alzheimer's disease	Disease	MESH:D000544
+32116251	274	276	AD	Disease	MESH:D000544
+32116251	370	379	rs2282679	SNP	tmVar:rs2282679;VariantGroup:0;CorrespondingGene:2638;RS#:2282679;CorrespondingSpecies:9606
+32116251	418	423	25OHD	Chemical	-
+32116251	436	438	AD	Disease	MESH:D000544
+32116251	466	491	vitamin D-binding protein	Gene	2638
+32116251	493	496	DBP	Gene	1628
+32116251	541	543	AD	Disease	MESH:D000544
+32116251	610	619	rs2282679	SNP	tmVar:rs2282679;VariantGroup:0;CorrespondingGene:2638;RS#:2282679;CorrespondingSpecies:9606
+32116251	644	647	DBP	Gene	1628
+32116251	740	749	rs2282679	SNP	tmVar:rs2282679;VariantGroup:0;CorrespondingGene:2638;RS#:2282679;CorrespondingSpecies:9606
+32116251	770	772	AD	Disease	MESH:D000544
+32116251	792	796	IGAP	Disease	
+32116251	923	926	DBP	Gene	1628
+32116251	938	940	AD	Disease	MESH:D000544
+32116251	945	949	IGAP	Disease	
+32116251	991	994	DBP	Gene	1628
+32116251	1094	1096	AD	Disease	MESH:D000544
+32116251	1328	1331	DBP	Gene	1628
+32116251	1354	1356	AD	Disease	MESH:D000544
+32116251	1432	1435	DBP	Gene	1628
+32116251	1446	1448	AD	Disease	MESH:D000544
+32116251	1496	1499	DBP	Gene	1628
+32116251	1550	1552	AD	Disease	MESH:D000544
+32116251	1606	1609	DBP	Gene	1628
+32116251	1654	1659	25OHD	Chemical	-
+32116251	1671	1673	AD	Disease	MESH:D000544
+32116251	Negative_Correlation	MESH:D000544	1628
+32116251	Association	MESH:D000544	2638
+32116251	Association	MESH:D014807	MESH:D000544
+

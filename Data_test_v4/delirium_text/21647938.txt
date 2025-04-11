@@ -1,0 +1,50 @@
+21647938|t|ERK1/2 and ERK5 have distinct roles in the regulation of brain-derived neurotrophic factor expression.
+21647938|a|Neurotrophins play essential roles in the development, differentiation, and survival of neuronal and nonneuronal cells. Alterations in neurotrophin expression have been implicated in a variety of neurodegenerative disorders. Dysregulation of brain-derived neurotrophic factor (BDNF) has been implicated in deficits of long-term potentiation and cognition and may contribute to the development of Alzheimer's disease (AD). In this study, we used complementary pharmacological and molecular approaches to evaluate the role of ERK1/2 and ERK5, two members of the MAPK pathway associated with neuroprotection, in regulating BDNF expression in C6 glial cells and primary astrocytes. Our data revealed that U0126, an inhibitor of both ERK5 and ERK1/2, increased the levels of BDNF mRNA, whereas the MEK1/2-specific inhibitor PD184352 did not, suggesting that ERK5 exerts negative control over BDNF expression. This was supported by experiments in which RNAi-mediated depletion of ERK5 led to an increase in BDNF. In contrast, transfection with constitutively active MEK5 resulted in an inhibition of BDNF expression, confirming the inhibitory role of ERK5 in the regulation of BDNF. Interestingly, transfection with the dominant active mutant of MEK1 (MEKR4F), the upstream activator of ERK1/2, resulted in a modest increase in BDNF levels. Collectively, our data suggest that ERK5 and ERK1/2 exert opposite effects on BDNF expression and support the hypothesis that an imbalance of these two signaling pathways may contribute to the pathology of diseases in which neurotrophin dysregulation is noted.
+21647938	0	6	ERK1/2	Gene	5595;5594
+21647938	11	15	ERK5	Gene	5598
+21647938	57	90	brain-derived neurotrophic factor	Gene	627
+21647938	299	326	neurodegenerative disorders	Disease	MESH:D019636
+21647938	345	378	brain-derived neurotrophic factor	Gene	627
+21647938	380	384	BDNF	Gene	627
+21647938	409	443	deficits of long-term potentiation	Disease	MESH:D000088562
+21647938	499	518	Alzheimer's disease	Disease	MESH:D000544
+21647938	520	522	AD	Disease	MESH:D000544
+21647938	627	633	ERK1/2	Gene	5595;5594
+21647938	638	642	ERK5	Gene	5598
+21647938	723	727	BDNF	Gene	627
+21647938	742	744	C6	CellLine	CVCL:0194
+21647938	804	809	U0126	Chemical	MESH:C113580
+21647938	832	836	ERK5	Gene	5598
+21647938	841	847	ERK1/2	Gene	5595;5594
+21647938	873	877	BDNF	Gene	627
+21647938	896	902	MEK1/2	Gene	5604;5605
+21647938	922	930	PD184352	Chemical	MESH:C120227
+21647938	956	960	ERK5	Gene	5598
+21647938	990	994	BDNF	Gene	627
+21647938	1077	1081	ERK5	Gene	5598
+21647938	1104	1108	BDNF	Gene	627
+21647938	1163	1167	MEK5	Gene	5607
+21647938	1197	1201	BDNF	Gene	627
+21647938	1248	1252	ERK5	Gene	5598
+21647938	1274	1278	BDNF	Gene	627
+21647938	1343	1347	MEK1	Gene	5604
+21647938	1384	1390	ERK1/2	Gene	5595;5594
+21647938	1425	1429	BDNF	Gene	627
+21647938	1474	1478	ERK5	Gene	5598
+21647938	1483	1489	ERK1/2	Gene	5595;5594
+21647938	1516	1520	BDNF	Gene	627
+21647938	Negative_Correlation	MESH:C113580	5595
+21647938	Negative_Correlation	MESH:C120227	5604
+21647938	Association	5595	5604
+21647938	Association	MESH:D000088562	627
+21647938	Association	MESH:D000544	627
+21647938	Positive_Correlation	MESH:C113580	627
+21647938	Negative_Correlation	MESH:C120227	5605
+21647938	Association	5594	5604
+21647938	Association	5595	627
+21647938	Negative_Correlation	5607	627
+21647938	Negative_Correlation	MESH:C113580	5598
+21647938	Association	5594	627
+21647938	Positive_Correlation	5598	627
+21647938	Negative_Correlation	MESH:C113580	5594
+

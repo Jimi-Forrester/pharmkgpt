@@ -1,0 +1,30 @@
+30828660|t|Robust, atlas-free, automatic segmentation of brain MRI in health and disease.
+30828660|a|BACKGROUND: Brain- and lesion-volumes derived from magnetic resonance images (MRI) serve as important imaging markers of disease progression in neurodegenerative diseases and aging. While manual segmentation of these volumes is both tedious and impractical in large cohorts of subjects, automated segmentation methods often fail in accurate segmentation of brains with severe atrophy or high lesion loads. The purpose of this study was to develop an atlas-free brain Classification using DErivative-based Features (C-DEF), which utilizes all scans that may be acquired during the course of a routine MRI study at any center. METHODS: Proton-density, T2-weighted, T1-weighted, brain-free water, 3D FLAIR, 3D T2-weighted, and 3D T2*-weighted images, collected routinely on patients with neuroinflammatory diseases at the NIH, were used to optimize the C-DEF algorithm on healthy volunteers and HIV + subjects (cohort 1). First, manually marked lesions and eroded FreeSurfer brain segmentation masks (compiled into gray and white matter, globus pallidus, CSF labels) were used in training. Next, the optimized C-DEF was applied on a separate cohort of HIV + subjects (cohort two), and the results were compared with that of FreeSurfer and Lesion-TOADS. Finally, C-DEF segmentation was evaluated on subjects clinically diagnosed with various other neurological diseases (cohort three). RESULTS: C-DEF algorithm was optimized using leave-one-out cross validation on five healthy subjects (age 36 +- 11 years), and five subjects infected with HIV (age 57 +- 2.6 years) in cohort one. The optimized C-DEF algorithm outperformed FreeSurfer and Lesion-TOADS segmentation in 49 other subjects infected with HIV (cohort two, age 54 +- 6 years) in qualitative and quantitative comparisons. Although trained only on HIV brains, sensitivity to detect lesions using C-DEF increased by 45% in HTLV-I-associated myelopathy/tropical spastic paraparesis (n = 5; age 58 +- 7 years), 33% in multiple sclerosis (n = 5; 42 +- 9 years old), and 4% in subjects with polymorphism of the cytotoxic T-lymphocyte-associated protein 4 gene (n = 5; age 24 +- 12 years) compared to Lesion-TOADS. CONCLUSION: C-DEF outperformed other segmentation algorithms in the various neurological diseases explored herein, especially in lesion segmentation. While the results reported are from routine images acquired at the NIH, the algorithm can be easily trained and optimized for any set of contrasts and protocols for wider application. We are currently exploring various technical aspects of optimal implementation of CDEF in a clinical setting and evaluating a larger cohort of patients with other neurological diseases. Improving the accuracy of brain segmentation methodology will help better understand the relationship of imaging abnormalities to clinical and neuropsychological markers in disease.
+30828660	223	249	neurodegenerative diseases	Disease	MESH:D019636
+30828660	455	462	atrophy	Disease	MESH:D001284
+30828660	766	771	water	Chemical	MESH:D014867
+30828660	850	858	patients	Species	9606
+30828660	864	890	neuroinflammatory diseases	Disease	MESH:D000090862
+30828660	971	974	HIV	Disease	MESH:D015658
+30828660	1021	1028	lesions	Disease	MESH:D009059
+30828660	1228	1231	HIV	Species	11676
+30828660	1315	1327	Lesion-TOADS	Disease	MESH:D009059
+30828660	1423	1444	neurological diseases	Disease	MESH:D020271
+30828660	1602	1610	infected	Disease	MESH:D007239
+30828660	1616	1619	HIV	Disease	MESH:D015658
+30828660	1715	1727	Lesion-TOADS	Disease	MESH:D009059
+30828660	1762	1770	infected	Disease	MESH:D007239
+30828660	1776	1779	HIV	Disease	MESH:D015658
+30828660	1882	1885	HIV	Species	11676
+30828660	1916	1923	lesions	Disease	MESH:D009059
+30828660	1956	1962	HTLV-I	Species	11908
+30828660	1974	1984	myelopathy	Disease	MESH:D013118
+30828660	1985	2013	tropical spastic paraparesis	Disease	MESH:D015493
+30828660	2049	2067	multiple sclerosis	Disease	MESH:D009103
+30828660	2140	2183	cytotoxic T-lymphocyte-associated protein 4	Gene	1493
+30828660	2229	2241	Lesion-TOADS	Disease	MESH:D009059
+30828660	2319	2340	neurological diseases	Disease	MESH:D020271
+30828660	2720	2728	patients	Species	9606
+30828660	2740	2761	neurological diseases	Disease	MESH:D020271
+30828660	2876	2889	abnormalities	Disease	MESH:D000014
+

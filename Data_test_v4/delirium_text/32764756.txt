@@ -1,0 +1,13 @@
+32764756|t|A machine learning and network framework to discover new indications for small molecules.
+32764756|a|Drug repurposing, identifying novel indications for drugs, bypasses common drug development pitfalls to ultimately deliver therapies to patients faster. However, most repurposing discoveries have been led by anecdotal observations (e.g. Viagra) or experimental-based repurposing screens, which are costly, time-consuming, and imprecise. Recently, more systematic computational approaches have been proposed, however these rely on utilizing the information from the diseases a drug is already approved to treat. This inherently limits the algorithms, making them unusable for investigational molecules. Here, we present a computational approach to drug repurposing, CATNIP, that requires only biological and chemical information of a molecule. CATNIP is trained with 2,576 diverse small molecules and uses 16 different drug similarity features, such as structural, target, or pathway based similarity. This model obtains significant predictive power (AUC = 0.841). Using our model, we created a repurposing network to identify broad scale repurposing opportunities between drug types. By exploiting this network, we identified literature-supported repurposing candidates, such as the use of systemic hormonal preparations for the treatment of respiratory illnesses. Furthermore, we demonstrated that we can use our approach to identify novel uses for defined drug classes. We found that adrenergic uptake inhibitors, specifically amitriptyline and trimipramine, could be potential therapies for Parkinson's disease. Additionally, using CATNIP, we predicted the kinase inhibitor, vandetanib, as a possible treatment for Type 2 Diabetes. Overall, this systematic approach to drug repurposing lays the groundwork to streamline future drug development efforts.
+32764756	226	234	patients	Species	9606
+32764756	1332	1353	respiratory illnesses	Disease	MESH:D012140
+32764756	1519	1532	amitriptyline	Chemical	MESH:D000639
+32764756	1537	1549	trimipramine	Chemical	MESH:D014299
+32764756	1584	1603	Parkinson's disease	Disease	MESH:D010300
+32764756	1668	1678	vandetanib	Chemical	MESH:C452423
+32764756	1708	1723	Type 2 Diabetes	Disease	MESH:D003924
+32764756	Negative_Correlation	MESH:D000639	MESH:D010300
+32764756	Negative_Correlation	MESH:C452423	MESH:D003924
+32764756	Negative_Correlation	MESH:D014299	MESH:D010300
+

@@ -1,0 +1,35 @@
+36572121|t|The transcriptomic landscape of neurons carrying PSEN1 mutations reveals changes in extracellular matrix components and non-coding gene expression.
+36572121|a|Alzheimer's disease (AD) is a progressive and irreversible brain disorder, which can occur either sporadically, due to a complex combination of environmental, genetic, and epigenetic factors, or because of rare genetic variants in specific genes (familial AD, or fAD). A key hallmark of AD is the accumulation of amyloid beta (Abeta) and Tau hyperphosphorylated tangles in the brain, but the underlying pathomechanisms and interdependencies remain poorly understood. Here, we identify and characterise gene expression changes related to two fAD mutations (A79V and L150P) in the Presenilin-1 (PSEN1) gene. We do this by comparing the transcriptomes of glutamatergic forebrain neurons derived from fAD-mutant human induced pluripotent stem cells (hiPSCs) and their individual isogenic controls generated via precision CRISPR/Cas9 genome editing. Our analysis of Poly(A) RNA-seq data detects 1111 differentially expressed coding and non-coding genes significantly altered in fAD. Functional characterisation and pathway analysis of these genes reveal profound expression changes in constituents of the extracellular matrix, important to maintain the morphology, structural integrity, and plasticity of neurons, and in genes involved in calcium homeostasis and mitochondrial oxidative stress. Furthermore, by analysing total RNA-seq data we reveal that 30 out of 31 differentially expressed circular RNA genes are significantly upregulated in the fAD lines, and that these may contribute to the observed protein-coding gene expression changes. The results presented in this study contribute to a better understanding of the cellular mechanisms impacted in AD neurons, ultimately leading to neuronal damage and death.
+36572121	49	54	PSEN1	Gene	5663
+36572121	148	167	Alzheimer's disease	Disease	MESH:D000544
+36572121	169	171	AD	Disease	MESH:D000544
+36572121	207	221	brain disorder	Disease	MESH:D001927
+36572121	404	406	AD	Disease	MESH:D000544
+36572121	411	414	fAD	Gene	5663
+36572121	435	437	AD	Disease	MESH:D000544
+36572121	461	473	amyloid beta	Gene	351
+36572121	475	480	Abeta	Gene	351
+36572121	486	489	Tau	Gene	4137
+36572121	689	692	fAD	Gene	5663
+36572121	704	708	A79V	ProteinMutation	tmVar:p|SUB|A|79|V;HGVS:p.A79V;VariantGroup:0;CorrespondingGene:5663;RS#:63749824;CorrespondingSpecies:9606;CA#:224983
+36572121	713	718	L150P	ProteinMutation	tmVar:p|SUB|L|150|P;HGVS:p.L150P;VariantGroup:1;CorrespondingGene:5663;CorrespondingSpecies:9606
+36572121	727	739	Presenilin-1	Gene	5663
+36572121	741	746	PSEN1	Gene	5663
+36572121	845	848	fAD	Gene	5663
+36572121	856	861	human	Species	9606
+36572121	1009	1016	Poly(A)	Chemical	MESH:D011061
+36572121	1121	1124	fAD	Gene	5663
+36572121	1382	1389	calcium	Chemical	MESH:D002118
+36572121	1592	1595	fAD	Gene	5663
+36572121	1801	1803	AD	Disease	MESH:D000544
+36572121	1835	1860	neuronal damage and death	Disease	MESH:D009410
+36572121	Association	MESH:D011061	5663
+36572121	Positive_Correlation	MESH:D000544	HGVS:p.L150P;CorrespondingGene:5663
+36572121	Association	351	5663
+36572121	Association	MESH:D000544	5663
+36572121	Association	MESH:D000544	4137
+36572121	Positive_Correlation	MESH:D009410	RS#:63749824;HGVS:p.A79V;CorrespondingGene:5663
+36572121	Positive_Correlation	MESH:D000544	351
+36572121	Association	MESH:D000544	5663
+36572121	Association	MESH:D009410	5663
+

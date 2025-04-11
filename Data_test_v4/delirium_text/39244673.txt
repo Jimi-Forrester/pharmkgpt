@@ -1,0 +1,78 @@
+39244673|t|Single-cell analysis reveals the disparities in immune profiles between younger and elder patients.
+39244673|a|PURPOSE: The immune profiles of elder patients with non-small cell lung cancer (NSCLC) differ significantly from those of younger patients. The tumor microenvironment (TME) is a crucial factor in cancer progression and therapeutic responses. The present study aims to decipher the difference in TME between younger and elderly patients with lung cancers. METHODS: We downloaded single-cell RNA data from public databases. The algorithm of uniform manifold approximation and projection (UMAP) was applied to cluster and visualize single-cell sequencing data. Gene set variation analysis (GSVA) and gene set enrichment analysis (GSEA) analysis were performed to evaluate the physiological functional characteristics in sub-group cells. CellPhoneDB was used to identify cell-cell interactions between immune cells within TME. RESULTS: We conducted single-cell RNA sequencing on 96,491 cells from elderly patients and 169,207 cells from younger patients, respectively. We observed that epithelial cells were the predominant component of the TME in younger patients, whereas T/NK cells were the predominant cell type in the TME of elderly patients. We also found that there was a higher proportion of Tregs and a lower proportion of NK, effector CD8+T and gammadeltaT cells in elder patients compared with younger patients. In addition, a comparative GSEA analysis of NK cells between older and younger patients revealed that the pathways of Parkinson's disease, Alzheimer's disease, mismatch repair, and base excision repair were up-regulated in NK cells from elderly patients, while the pathways related to natural killer cell-mediated cytotoxicity and allograft rejection were downregulated. Furthermore, we identified tumor-associated neutrophils (TANs) in elder patients, and GSVA analysis demonstrated that the pathway of angiogenesis was upregulated, and the pathway of interferon_gamma_response, inflammatory_response, TNFalpha_signaling_via_NFkappaB pathways were downregulated. Importantly, the pro-inflammatory response scores of complement C1q C chain positive (C1QC+) macrophages, tissue-resident macrophages (TRM), non-classical monocytes (NCM), secreted phosphoprotein 1 positive (SPP1+) macrophages, and classical monocytes (CM) in elder patients were significantly lower compared to those in younger patients. Finally, cell-to-cell communication analyses unveiled the disparities in regulatory patterns between elder and younger patients, namely the pairs of CXCL13-ACKR4 and CSF1-SIRPA in elder patients and the pairs of CTLA4-CD86 and TIGIT-NECTIN2 in younger patients. CONCLUSION: This study reveals the distinct immune profiles between younger and elder NSCLC patients, and the elder patients were likely to exhibit a more immunosuppressive TME and attenuated tumor-killing capability compared with younger patients.
+39244673	90	98	patients	Species	9606
+39244673	138	146	patients	Species	9606
+39244673	152	178	non-small cell lung cancer	Disease	MESH:D002289
+39244673	180	185	NSCLC	Disease	MESH:D002289
+39244673	230	238	patients	Species	9606
+39244673	244	249	tumor	Disease	MESH:D009369
+39244673	296	302	cancer	Disease	MESH:D009369
+39244673	427	435	patients	Species	9606
+39244673	441	453	lung cancers	Disease	MESH:D008175
+39244673	1001	1009	patients	Species	9606
+39244673	1041	1049	patients	Species	9606
+39244673	1152	1160	patients	Species	9606
+39244673	1234	1242	patients	Species	9606
+39244673	1341	1344	CD8	Gene	925
+39244673	1378	1386	patients	Species	9606
+39244673	1409	1417	patients	Species	9606
+39244673	1498	1506	patients	Species	9606
+39244673	1537	1556	Parkinson's disease	Disease	MESH:D010300
+39244673	1558	1577	Alzheimer's disease	Disease	MESH:D000544
+39244673	1664	1672	patients	Species	9606
+39244673	1817	1822	tumor	Disease	MESH:D009369
+39244673	1862	1870	patients	Species	9606
+39244673	1972	1988	interferon_gamma	Gene	3458
+39244673	1999	2011	inflammatory	Disease	MESH:D007249
+39244673	2022	2030	TNFalpha	Gene	7124
+39244673	2045	2053	NFkappaB	Gene	4790
+39244673	2104	2116	inflammatory	Disease	MESH:D007249
+39244673	2136	2158	complement C1q C chain	Gene	714
+39244673	2169	2173	C1QC	Gene	714
+39244673	2255	2280	secreted phosphoprotein 1	Gene	6696
+39244673	2291	2295	SPP1	Gene	6696
+39244673	2349	2357	patients	Species	9606
+39244673	2412	2420	patients	Species	9606
+39244673	2541	2549	patients	Species	9606
+39244673	2571	2577	CXCL13	Gene	10563
+39244673	2578	2583	ACKR4	Gene	51554
+39244673	2588	2592	CSF1	Gene	1435
+39244673	2593	2598	SIRPA	Gene	140885
+39244673	2608	2616	patients	Species	9606
+39244673	2634	2639	CTLA4	Gene	1493
+39244673	2640	2644	CD86	Gene	942
+39244673	2649	2654	TIGIT	Gene	201633
+39244673	2655	2662	NECTIN2	Gene	5819
+39244673	2674	2682	patients	Species	9606
+39244673	2770	2775	NSCLC	Disease	MESH:D002289
+39244673	2776	2784	patients	Species	9606
+39244673	2800	2808	patients	Species	9606
+39244673	2876	2881	tumor	Disease	MESH:D009369
+39244673	2923	2931	patients	Species	9606
+39244673	Association	140885	1493
+39244673	Association	MESH:D009369	140885
+39244673	Association	MESH:D007249	714
+39244673	Association	1435	1493
+39244673	Association	140885	5819
+39244673	Association	140885	1435
+39244673	Association	MESH:D009369	51554
+39244673	Association	201633	5819
+39244673	Association	MESH:D009369	1493
+39244673	Association	MESH:D009369	1435
+39244673	Association	MESH:D009369	5819
+39244673	Association	10563	5819
+39244673	Association	MESH:D009369	10563
+39244673	Association	1435	942
+39244673	Association	1493	201633
+39244673	Association	5819	942
+39244673	Association	1493	51554
+39244673	Association	MESH:D009369	201633
+39244673	Association	MESH:D007249	6696
+39244673	Association	1493	5819
+39244673	Association	1435	201633
+39244673	Association	MESH:D009369	942
+39244673	Association	1435	5819
+39244673	Association	1493	942
+39244673	Association	10563	1493
+39244673	Association	51554	5819
+

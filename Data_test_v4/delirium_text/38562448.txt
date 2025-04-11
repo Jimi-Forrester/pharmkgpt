@@ -1,0 +1,20 @@
+38562448|t|Comprehensive Lipidomic Automation Workflow using Large Language Models.
+38562448|a|Lipidomics generates large data that makes manual annotation and interpretation challenging. Lipid chemical and structural diversity with structural isomers further complicates annotation. Although, several commercial and open-source software for targeted lipid identification exists, it lacks automated method generation workflows and integration with statistical and bioinformatics tools. We have developed the Comprehensive Lipidomic Automated Workflow (CLAW) platform with integrated workflow for parsing, detailed statistical analysis and lipid annotations based on custom multiple reaction monitoring (MRM) precursor and product ion pair transitions. CLAW contains several modules including identification of carbon-carbon double bond position(s) in unsaturated lipids when combined with ozone electrospray ionization (OzESI)-MRM methodology. To demonstrate the utility of the automated workflow in CLAW, large-scale lipidomics data was collected with traditional and OzESI-MRM profiling on biological and non-biological samples. Specifically, a total of 1497 transitions organized into 10 MRM-based mass spectrometry methods were used to profile lipid droplets isolated from different brain regions of 18-24 month-old Alzheimer's disease mice and age-matched wild-type controls. Additionally, triacyclglycerols (TGs) profiles with carbon-carbon double bond specificity were generated from canola oil samples using OzESI-MRM profiling. We also developed an integrated language user interface with large language models using artificially intelligent (AI) agents that permits users to interact with the CLAW platform using a chatbot terminal to perform statistical and bioinformatic analyses. We envision CLAW pipeline to be used in high-throughput lipid structural identification tasks aiding users to generate automated lipidomics workflows ranging from data acquisition to AI agent-based bioinformatic analysis.
+38562448	166	171	Lipid	Chemical	MESH:D008055
+38562448	329	334	lipid	Chemical	MESH:D008055
+38562448	617	622	lipid	Chemical	MESH:D008055
+38562448	788	794	carbon	Chemical	MESH:D002244
+38562448	795	801	carbon	Chemical	MESH:D002244
+38562448	829	847	unsaturated lipids	Chemical	-
+38562448	867	872	ozone	Chemical	MESH:D010126
+38562448	1226	1231	lipid	Chemical	MESH:D008055
+38562448	1298	1317	Alzheimer's disease	Disease	MESH:D000544
+38562448	1318	1322	mice	Species	10090
+38562448	1373	1390	triacyclglycerols	Chemical	-
+38562448	1392	1395	TGs	Chemical	-
+38562448	1411	1417	carbon	Chemical	MESH:D002244
+38562448	1418	1424	carbon	Chemical	MESH:D002244
+38562448	1469	1479	canola oil	Chemical	MESH:D000074262
+38562448	1827	1832	lipid	Chemical	MESH:D008055
+38562448	Association	MESH:D008055	MESH:D000544
+

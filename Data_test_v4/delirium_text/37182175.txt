@@ -1,0 +1,31 @@
+37182175|t|An anoikis-related gene signature predicts prognosis and reveals immune infiltration in hepatocellular carcinoma.
+37182175|a|Background: Hepatocellular carcinoma (HCC) is a global health burden with poor prognosis. Anoikis, a novel programmed cell death, has a close interaction with metastasis and progression of cancer. In this study, we aimed to construct a novel bioinformatics model for evaluating the prognosis of HCC based on anoikis-related gene signatures as well as exploring the potential mechanisms. Materials and methods: We downloaded the RNA expression profiles and clinical data of liver hepatocellular carcinoma from TCGA database, ICGC database and GEO database. DEG analysis was performed using TCGA and verified in the GEO database. The anoikis-related risk score was developed via univariate Cox regression, LASSO Cox regression and multivariate Cox regression, which was then used to categorize patients into high- and low-risk groups. Then GO and KEGG enrichment analyses were performed to investigate the function between the two groups. CIBERSORT was used for determining the fractions of 22 immune cell types, while the ssGSEA analyses was used to estimate the differential immune cell infiltrations and related pathways. The "pRRophetic" R package was applied to predict the sensitivity of administering chemotherapeutic and targeted drugs. Results: A total of 49 anoikis-related DEGs in HCC were detected and 3 genes (EZH2, KIF18A and NQO1) were selected out to build a prognostic model. Furthermore, GO and KEGG functional enrichment analyses indicated that the difference in overall survival between risk groups was closely related to cell cycle pathway. Notably, further analyses found the frequency of tumor mutations, immune infiltration level and expression of immune checkpoints were significantly different between the two risk groups, and the results of the immunotherapy cohort showed that patients in the high-risk group have a better immune response. Additionally, the high-risk group was found to have higher sensitivity to 5-fluorouracil, doxorubicin and gemcitabine. Conclusion: The novel signature of 3 anoikis-related genes (EZH2, KIF18A and NQO1) can predict the prognosis of patients with HCC, and provide a revealing insight into personalized treatments in HCC.
+37182175	88	112	hepatocellular carcinoma	Disease	MESH:D006528
+37182175	126	150	Hepatocellular carcinoma	Disease	MESH:D006528
+37182175	152	155	HCC	Disease	MESH:D006528
+37182175	273	283	metastasis	Disease	MESH:D009362
+37182175	303	309	cancer	Disease	MESH:D009369
+37182175	409	412	HCC	Disease	MESH:D006528
+37182175	587	617	liver hepatocellular carcinoma	Disease	MESH:D006528
+37182175	906	914	patients	Species	9606
+37182175	1404	1407	HCC	Disease	MESH:D006528
+37182175	1435	1439	EZH2	Gene	2146
+37182175	1441	1447	KIF18A	Gene	81930
+37182175	1452	1456	NQO1	Gene	1728
+37182175	1723	1728	tumor	Disease	MESH:D009369
+37182175	1917	1925	patients	Species	9606
+37182175	2054	2068	5-fluorouracil	Chemical	MESH:D005472
+37182175	2070	2081	doxorubicin	Chemical	MESH:D004317
+37182175	2086	2097	gemcitabine	Chemical	MESH:D000093542
+37182175	2159	2163	EZH2	Gene	2146
+37182175	2165	2171	KIF18A	Gene	81930
+37182175	2176	2180	NQO1	Gene	1728
+37182175	2211	2219	patients	Species	9606
+37182175	2225	2228	HCC	Disease	MESH:D006528
+37182175	2294	2297	HCC	Disease	MESH:D006528
+37182175	Negative_Correlation	MESH:D005472	MESH:D006528
+37182175	Association	MESH:D006528	81930
+37182175	Negative_Correlation	MESH:D004317	MESH:D006528
+37182175	Association	MESH:D006528	2146
+37182175	Association	MESH:D006528	1728
+

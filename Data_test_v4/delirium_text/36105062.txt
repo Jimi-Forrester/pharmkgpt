@@ -1,0 +1,76 @@
+36105062|t|Role of the N6-methyladenosine regulatory factor in reducing the risk of cardiovascular disease: subtype diagnosis following aerobic exercise-assisted weight loss.
+36105062|a|OBJECTIVES: This study aimed to construct a model based on different N6-methyladenosine (m6A) regulatory factors involved in reducing the risk of the development of cardiovascular diseases under conditions of aerobic exercise. METHODS: We screened for significantly different expressions of m6A regulators from the GSE66175 dataset. Five candidate m6A regulators were identified using the random forest model to predict aerobic exercise-mediated fat loss and reduction of the risk of cardiovascular disease. A nomogram model was established for analysis, and the consensus clustering method was used to distinguish between the two m6A clusters (clusters A and B). The single-sample gene set-enrichment analysis method was used to assess the abundance of immune cells in the samples related to cardiovascular anomalies. We determined the relationship between the functions of 29 immune cells and m6A clusters. RESULTS: Twelve significantly and differentially expressed m6A regulators in the control and aerobic exercise groups were screened out, and it was observed that METTL13 correlated positively with the expression levels of the YTH domain containing 1 (YTHDC1), YTH N (6)-methyl adenosine RNA binding protein 1, and leucine-rich pentatricopeptide repeat-containing. The fat mass and obesity-associated gene negatively correlated with YTHDC1 and the fragile X mental retardation 1 protein. The random forest and support vector machine models were used to screen the ELAV-like RNA binding protein 1 (ELAVL1), RNA binding motif protein 15B (RBM15B), insulin-like growth factor binding protein 1 (IGFBP1), Wilms tumor 1-associated protein (WTAP), and zinc finger CCCH-type containing 13 (ZC3H13) genes. Analysis of the line graph model and the results obtained using decision curve analysis revealed the efficiency of the model. Gene ontology enrichment analysis was used to analyze the m6A regulatory gene model, and the results suggested that it was associated with RNA splicing. The results obtained using the Kyoto Encyclopedia of Genes and Genomes enrichment analysis method suggests that the genes were associated with Alzheimer's disease and neurodegeneration pathways associated with multiple diseases. The m6A regulatory gene model was associated with most of the immune cells infiltrating tumors and was also closely related to genes associated with lipid metabolism. CONCLUSIONS: The m6A regulatory factor plays an important role in reducing the risk of cardiovascular disease under conditions of aerobic exercise-assisted weight loss. It is also associated with the metabolic pathways of low-density lipoprotein, high-density lipoprotein, and triglyceride.
+36105062	12	30	N6-methyladenosine	Chemical	MESH:C010223
+36105062	73	95	cardiovascular disease	Disease	MESH:D002318
+36105062	151	162	weight loss	Disease	MESH:D015431
+36105062	233	251	N6-methyladenosine	Chemical	MESH:C010223
+36105062	253	256	m6A	Chemical	MESH:C005955
+36105062	329	352	cardiovascular diseases	Disease	MESH:D002318
+36105062	455	458	m6A	Chemical	MESH:C005955
+36105062	512	515	m6A	Chemical	MESH:C005955
+36105062	610	618	fat loss	Disease	MESH:D004620
+36105062	648	670	cardiovascular disease	Disease	MESH:D002318
+36105062	795	798	m6A	Chemical	MESH:C005955
+36105062	957	981	cardiovascular anomalies	Disease	MESH:D018376
+36105062	1059	1062	m6A	Chemical	MESH:C005955
+36105062	1132	1135	m6A	Chemical	MESH:C005955
+36105062	1234	1241	METTL13	Gene	51603
+36105062	1298	1321	YTH domain containing 1	Gene	91746
+36105062	1323	1329	YTHDC1	Gene	91746
+36105062	1386	1434	leucine-rich pentatricopeptide repeat-containing	Gene	10128
+36105062	1453	1460	obesity	Disease	MESH:D009765
+36105062	1504	1510	YTHDC1	Gene	91746
+36105062	1519	1549	fragile X mental retardation 1	Gene	2332
+36105062	1635	1666	ELAV-like RNA binding protein 1	Gene	1994
+36105062	1668	1674	ELAVL1	Gene	1994
+36105062	1677	1706	RNA binding motif protein 15B	Gene	29890
+36105062	1708	1714	RBM15B	Gene	29890
+36105062	1717	1761	insulin-like growth factor binding protein 1	Gene	3484
+36105062	1763	1769	IGFBP1	Gene	3484
+36105062	1772	1804	Wilms tumor 1-associated protein	Gene	9589
+36105062	1806	1810	WTAP	Gene	9589
+36105062	1817	1852	zinc finger CCCH-type containing 13	Gene	23091
+36105062	1854	1860	ZC3H13	Gene	23091
+36105062	2053	2056	m6A	Chemical	MESH:C005955
+36105062	2291	2310	Alzheimer's disease	Disease	MESH:D000544
+36105062	2315	2332	neurodegeneration	Disease	MESH:D019636
+36105062	2381	2384	m6A	Chemical	MESH:C005955
+36105062	2465	2471	tumors	Disease	MESH:D009369
+36105062	2526	2531	lipid	Chemical	MESH:D008055
+36105062	2561	2564	m6A	Chemical	MESH:C005955
+36105062	2631	2653	cardiovascular disease	Disease	MESH:D002318
+36105062	2700	2711	weight loss	Disease	MESH:D015431
+36105062	2821	2833	triglyceride	Chemical	MESH:D014280
+36105062	Association	MESH:D019636	91746
+36105062	Association	MESH:D019636	1994
+36105062	Association	MESH:D019636	29890
+36105062	Association	MESH:D000544	91746
+36105062	Association	MESH:C005955	3484
+36105062	Association	MESH:D000544	1994
+36105062	Association	MESH:D000544	29890
+36105062	Association	MESH:D002318	23091
+36105062	Association	MESH:D009765	91746
+36105062	Association	MESH:C005955	MESH:D000544
+36105062	Association	MESH:D019636	51603
+36105062	Association	MESH:C010223	MESH:D009765
+36105062	Association	MESH:D000544	51603
+36105062	Association	MESH:D000544	3484
+36105062	Association	MESH:D008055	MESH:D009765
+36105062	Association	MESH:C005955	MESH:D009765
+36105062	Association	MESH:D009765	2332
+36105062	Association	MESH:C005955	MESH:D004620
+36105062	Positive_Correlation	51603	91746
+36105062	Association	MESH:D019636	2332
+36105062	Association	MESH:D019636	23091
+36105062	Association	MESH:D000544	2332
+36105062	Association	10128	51603
+36105062	Association	MESH:D000544	23091
+36105062	Negative_Correlation	MESH:C005955	MESH:D002318
+36105062	Association	MESH:C005955	MESH:D014280
+36105062	Association	MESH:C005955	9589
+36105062	Association	MESH:D009765	51603
+36105062	Negative_Correlation	MESH:C010223	MESH:D002318
+36105062	Association	MESH:D009765	1994
+36105062	Association	MESH:D000544	10128
+36105062	Association	MESH:C005955	23091
+

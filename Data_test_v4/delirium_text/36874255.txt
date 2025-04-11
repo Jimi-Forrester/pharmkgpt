@@ -1,0 +1,14 @@
+36874255|t|Feature Extraction and Small-Sample Learning of Dexmedetomidine for Neurosurgery on Postoperative Agitation in Patients with Craniocerebral Injury.
+36874255|a|Objective. To observe the controlled effect of dexmedetomidine for neurosurgery and the effect on postoperative cognitive function. The main task of this paper is to use data from a small sample. The proposed feature extraction algorithm based on the bilinear convolutional neurological network (BCNN) is based on a small sample of data. BCNN involves the simultaneous extraction of highly discriminative cross-sectional features from the input image using two parallel subnetworks. By optimizing the algorithm to minimize losses, the two subnetworks can be supervised by each other, improving the performance of the network and obtaining accurate recognition results without spending a lot of time adjusting parameters. The mean arterial pressure (MAP) and heart rate (HR) levels of cerebral oxygen metabolism were compared between the two groups before (T0), after (T1), immediately after (T2), and after intubation (T3). In the observation group, MAP and HR values at T3, arterial-internal jugular vein bulb oxygen difference [D(a - jv)O 2] at T1, T2, and T3, cerebral oxygen uptake (CEO2) levels, and postawakening agitation scores were lower than those of the control group during the same period (P < 0.05).
+36874255	48	63	Dexmedetomidine	Chemical	MESH:D020927
+36874255	84	107	Postoperative Agitation	Disease	MESH:D011595
+36874255	111	119	Patients	Species	9606
+36874255	125	146	Craniocerebral Injury	Disease	MESH:D006259
+36874255	195	210	dexmedetomidine	Chemical	MESH:D020927
+36874255	941	947	oxygen	Chemical	MESH:D010100
+36874255	1159	1165	oxygen	Chemical	MESH:D010100
+36874255	1220	1226	oxygen	Chemical	MESH:D010100
+36874255	1267	1276	agitation	Disease	MESH:D011595
+36874255	Negative_Correlation	MESH:D020927	MESH:D006259
+36874255	Negative_Correlation	MESH:D020927	MESH:D011595
+

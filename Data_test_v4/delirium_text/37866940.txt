@@ -1,0 +1,42 @@
+37866940|t|[Identification of Peripheral Blood GZMK + CD8 + T Cells As Biomarkers of Alzheimer's Disease Based on Single-Cell Transcriptome].
+37866940|a|Objective: Based on single-cell RNA sequencing (scRNA-seq) to explore immune characteristics in the peripheral blood of patients with Alzheimer's disease (AD) as biomarkers. Methods: GSE168522, the scRNA-seq dataset of AD peripheral blood immune cells, was downloaded from the Gene Expression Omnibus (GEO) database and was analyzed in the RAD-Blood web server (http://www.bioinform.cn/RAD-Blood/). The changes in blood cell composition in AD patients were analyzed. The abnormal communications between different types of cells in AD patients were investigated by the CellChat R package. Results: There were two kinds of CD8 + T cells in the blood of AD patients and healthy individuals, one of which highly expressed granzyme K ( GZMK) (false discovery rate [FDR]<0.05), and the other highly expressed GZMA, GZMB, and GZMH (FDR<0.05). In the blood of AD patients, the content of GZMK + CD8 + T cells was increased by 32.9% ( P=5.15E-21), their interactions with other cell types were increased, and they might be associated with AD through the abnormal signal transduction of major histocompatibility complex class I (MHC-I). Erythrocyte provided the main ligands, that are, human leukocyte antigen (HLA) class I molecules, including HLA- A, HLA- B, HLA- C, and HLA- E, for the abnormal MHC-I signaling pathway of GZMK + CD8 + T cells. The RESISTIN signaling pathway was specifically enriched in the blood of AD patients. Conclusion: The increased content of peripheral blood GZMK + CD8 + T cells, the increased interaction between GZMK + CD8 + T cells and erythrocytes, and the enhanced RESISTIN pathway are potential blood biomarkers of AD.
+37866940	36	40	GZMK	Gene	3003
+37866940	43	46	CD8	Gene	925
+37866940	74	93	Alzheimer's Disease	Disease	MESH:D000544
+37866940	265	284	Alzheimer's disease	Disease	MESH:D000544
+37866940	286	288	AD	Disease	MESH:D000544
+37866940	350	352	AD	Disease	MESH:D000544
+37866940	571	573	AD	Disease	MESH:D000544
+37866940	662	664	AD	Disease	MESH:D000544
+37866940	752	755	CD8	Gene	925
+37866940	782	784	AD	Disease	MESH:D000544
+37866940	849	859	granzyme K	Gene	3003
+37866940	862	866	GZMK	Gene	3003
+37866940	934	938	GZMA	Gene	3001
+37866940	940	944	GZMB	Gene	3002
+37866940	950	954	GZMH	Gene	2999
+37866940	983	985	AD	Disease	MESH:D000544
+37866940	1011	1015	GZMK	Gene	3003
+37866940	1018	1021	CD8	Gene	925
+37866940	1161	1163	AD	Disease	MESH:D000544
+37866940	1366	1372	HLA- A	Gene	3105
+37866940	1374	1380	HLA- B	Gene	3106
+37866940	1382	1388	HLA- C	Gene	3107
+37866940	1394	1400	HLA- E	Gene	3133
+37866940	1446	1450	GZMK	Gene	3003
+37866940	1453	1456	CD8	Gene	925
+37866940	1472	1480	RESISTIN	Gene	56729
+37866940	1541	1543	AD	Disease	MESH:D000544
+37866940	1608	1612	GZMK	Gene	3003
+37866940	1615	1618	CD8	Gene	925
+37866940	1664	1668	GZMK	Gene	3003
+37866940	1671	1674	CD8	Gene	925
+37866940	1720	1728	RESISTIN	Gene	56729
+37866940	1771	1773	AD	Disease	MESH:D000544
+37866940	Association	MESH:D000544	925
+37866940	Association	MESH:D000544	56729
+37866940	Positive_Correlation	MESH:D000544	3003
+37866940	Association	MESH:D000544	3001
+37866940	Association	MESH:D000544	3002
+37866940	Association	MESH:D000544	2999
+

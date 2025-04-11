@@ -1,0 +1,21 @@
+38828741|t|Network pharmacology and experimental verification to explore the effect of Hedyotis diffusa on Alzheimer's disease.
+38828741|a|This study aimed to explore the active components and the effect of Hedyotis diffusa (HD) against Alzheimer's disease (AD) via network pharmacology, molecular docking, and experimental evaluations. We conducted a comprehensive screening process using the TCMSP, Swiss Target Prediction, and PharmMapper databases to identify the active components and their related targets in HD. In addition, we collected potential therapeutic targets of AD from the Gene Cards, Drugbank, and OMIM databases. Afterward, we utilized Cytoscape to establish both protein-protein interaction (PPI) networks and compound-target (C-T) networks. To gain further insights into the functional aspect, we performed GO and KEGG pathway analyses using the David database. Next, we employed Autodock vina to estimate the binding force between the components and the hub genes. To validate our network pharmacology findings, we conducted relevant experiments on Caenorhabditis elegans, further confirming the reliability of our results. Then a total of six active compounds and 149 therapeutic targets were detected. Through the analysis of the association between active compounds, therapeutic targets, and signaling pathways, it was observed that the therapeutic effect of HD primarily encompassed the inhibition of Abeta, suppression of AChE activity, and mitigating oxidative stress. Additionally, our investigation revealed that the key active compounds in HD primarily consisted of iridoids, which exhibited resistance against AD by acting on the Alzheimer's disease pathway and the AGE-RAGE signaling pathway in diabetic complications.
+38828741	76	92	Hedyotis diffusa	Species	254027
+38828741	96	115	Alzheimer's disease	Disease	MESH:D000544
+38828741	185	201	Hedyotis diffusa	Chemical	-
+38828741	203	205	HD	Chemical	-
+38828741	215	234	Alzheimer's disease	Disease	MESH:D000544
+38828741	236	238	AD	Disease	MESH:D000544
+38828741	493	495	HD	Chemical	-
+38828741	556	558	AD	Disease	MESH:D000544
+38828741	594	598	OMIM	Disease	
+38828741	1049	1071	Caenorhabditis elegans	Species	6239
+38828741	1362	1364	HD	Chemical	-
+38828741	1549	1551	HD	Chemical	-
+38828741	1575	1583	iridoids	Chemical	MESH:D039823
+38828741	1620	1622	AD	Disease	MESH:D000544
+38828741	1640	1659	Alzheimer's disease	Disease	MESH:D000544
+38828741	1706	1728	diabetic complications	Disease	MESH:D048909
+38828741	Negative_Correlation	MESH:D039823	MESH:D000544
+38828741	Association	MESH:D039823	MESH:D048909
+

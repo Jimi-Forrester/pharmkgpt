@@ -1,0 +1,48 @@
+29987362|t|A126 in the active site and TI167/168 in the TI loop are essential determinants of the substrate specificity of PTEN.
+29987362|a|PTEN prevents tumor genesis by antagonizing the PI3 kinase/Akt pathway through D3 site phosphatase activity toward PI(3,4)P2 and PI(3,4,5)P3. The structural determinants of this important specificity remain unknown. Interestingly, PTEN shares remarkable homology to voltage-sensitive phosphatases (VSPs) that dephosphorylate D5 and D3 sites of PI(4,5)P2, PI(3,4)P2, and PI(3,4,5)P3. Since the catalytic center of PTEN and VSPs differ markedly only in TI/gating loop and active site motif, we wondered whether these differences explained the variation of their substrate specificity. Therefore, we introduced mutations into PTEN to mimic corresponding sequences of VSPs and studied phosphatase activity in living cells utilizing engineered, voltage switchable PTENCiV, a Ci-VSP/PTEN chimera that retains D3 site activity of the native enzyme. Substrate specificity of this enzyme was analyzed with whole-cell patch clamp in combination with total internal reflection fluorescence microscopy and genetically encoded phosphoinositide sensors. In PTENCiV, mutating TI167/168 in the TI loop into the corresponding ET pair of VSPs induced VSP-like D5 phosphatase activity toward PI(3,4,5)P3, but not toward PI(4,5)P2. Combining TI/ET mutations with an A126G exchange in the active site removed major sequence variations between PTEN and VSPs and resulted in D5 activity toward PI(4,5)P2 and PI(3,4,5)P3 of PTENCiV. This PTEN mutant thus fully reproduced the substrate specificity of native VSPs. Importantly, the same combination of mutations also induced D5 activity toward PI(3,4,5)P3 in native PTEN demonstrating that the same residues determine the substrate specificity of the tumor suppressor in living cells. Reciprocal mutations in VSPs did not alter their substrate specificity, but reduced phosphatase activity. In summary, A126 in the active site and TI167/168 in the TI loop are essential determinants of PTEN's substrate specificity, whereas additional features might contribute to the enzymatic activity of VSPs.
+29987362	45	47	TI	Disease	
+29987362	112	116	PTEN	Gene	5728
+29987362	118	122	PTEN	Gene	5728
+29987362	132	137	tumor	Disease	MESH:D009369
+29987362	166	176	PI3 kinase	Gene	5295
+29987362	177	180	Akt	Gene	207
+29987362	233	242	PI(3,4)P2	Chemical	MESH:C118301
+29987362	247	258	PI(3,4,5)P3	Chemical	MESH:C118303
+29987362	349	353	PTEN	Gene	5728
+29987362	462	471	PI(4,5)P2	Chemical	-
+29987362	473	482	PI(3,4)P2	Chemical	MESH:C118301
+29987362	488	499	PI(3,4,5)P3	Chemical	MESH:C118303
+29987362	531	535	PTEN	Gene	5728
+29987362	569	571	TI	Disease	
+29987362	741	745	PTEN	Gene	5728
+29987362	877	884	PTENCiV	Species	
+29987362	891	894	VSP	Chemical	-
+29987362	895	899	PTEN	Gene	5728
+29987362	1132	1148	phosphoinositide	Chemical	MESH:D010716
+29987362	1161	1168	PTENCiV	Species	
+29987362	1196	1198	TI	Disease	
+29987362	1227	1229	ET	Disease	MESH:D016751
+29987362	1251	1254	VSP	Chemical	-
+29987362	1291	1302	PI(3,4,5)P3	Chemical	MESH:C118303
+29987362	1319	1328	PI(4,5)P2	Chemical	-
+29987362	1340	1342	TI	Disease	
+29987362	1343	1345	ET	Disease	MESH:D016751
+29987362	1364	1369	A126G	DNAMutation	tmVar:c|SUB|A|126|G;HGVS:c.126A>G;VariantGroup:0;CorrespondingGene:5728;RS#:1276049428;CorrespondingSpecies:9606
+29987362	1440	1444	PTEN	Gene	5728
+29987362	1489	1498	PI(4,5)P2	Chemical	-
+29987362	1503	1514	PI(3,4,5)P3	Chemical	MESH:C118303
+29987362	1532	1536	PTEN	Gene	5728
+29987362	1687	1698	PI(3,4,5)P3	Chemical	MESH:C118303
+29987362	1709	1713	PTEN	Gene	5728
+29987362	1794	1810	tumor suppressor	Disease	OMIM:601308
+29987362	1946	1950	A126	DNAMutation	tmVar:c|Allele|A|126;VariantGroup:0;CorrespondingGene:5728;RS#:1276049428;CorrespondingSpecies:9606
+29987362	1991	1993	TI	Disease	
+29987362	2029	2033	PTEN	Gene	5728
+29987362	Association	MESH:C118303	5728
+29987362	Association	MESH:C118303	MESH:D016751
+29987362	Association	MESH:C118301	5728
+29987362	Negative_Correlation	207	5728
+29987362	Negative_Correlation	MESH:C118301	MESH:D009369
+29987362	Negative_Correlation	MESH:D009369	5728
+29987362	Negative_Correlation	5295	5728
+

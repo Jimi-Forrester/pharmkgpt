@@ -1,0 +1,16 @@
+35404822|t|Diagnosis of Mild Cognitive Impairment With Ordinal Pattern Kernel.
+35404822|a|Mild cognitive impairment (MCI) belongs to the prodromal stage of Alzheimer's disease (AD). Accurate diagnosis of MCI is very important for possibly deferring AD progression. Graph kernels, which measure the similarity between paired brain connectivity networks, have been widely used to diagnose brain diseases (e.g., MCI) and yielded promising classification performance. However, most of the existing graph kernels are based on unweighted graphs, and neglect the valuable weighted information of the edges in brain connectivity networks where edge weights convey the strengths of fiber connection or temporal correlation between paired brain regions. Accordingly, in this paper, we propose a new graph kernel called ordinal pattern kernel for measuring brain connectivity network similarity and apply it to brain disease classification tasks. Different from the existing graph kernels which measure the topological similarity of the unweighted graphs, our proposed ordinal pattern kernel can not only calculate the similarity of paired brain connectivity networks, but also capture the ordinal pattern relationship of edge weights in brain connectivity networks. To appraise the effectiveness of our proposed method, we perform extensive experiments in functional magnetic resonance imaging data of brain disease from Alzheimer's Disease Neuroimaging Initiative database. The experimental results show that our proposed ordinal pattern kernel outperforms the state-of-the-art graph kernels in the classification tasks of MCI.
+35404822	13	38	Mild Cognitive Impairment	Disease	MESH:D060825
+35404822	68	93	Mild cognitive impairment	Disease	MESH:D060825
+35404822	95	98	MCI	Disease	MESH:D060825
+35404822	134	153	Alzheimer's disease	Disease	MESH:D000544
+35404822	155	157	AD	Disease	MESH:D000544
+35404822	182	185	MCI	Disease	MESH:D060825
+35404822	227	229	AD	Disease	MESH:D000544
+35404822	365	379	brain diseases	Disease	MESH:D001927
+35404822	387	390	MCI	Disease	MESH:D060825
+35404822	878	891	brain disease	Disease	MESH:D001927
+35404822	1370	1383	brain disease	Disease	MESH:D001927
+35404822	1389	1408	Alzheimer's Disease	Disease	MESH:D000544
+35404822	1592	1595	MCI	Disease	MESH:D060825
+

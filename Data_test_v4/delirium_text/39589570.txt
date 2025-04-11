@@ -1,0 +1,35 @@
+39589570|t|Analysis of Alzheimer's disease associated deleterious non-synonymous single nucleotide polymorphisms and their impacts on protein structure and function by performing in-silico methods.
+39589570|a|Alzheimer's disease (AD) is a neurodegenerative disorder that is presented with a progressive loss of memory, a decline in cognitive abilities and multiple changes in behavior. Its pathogenicity has been linked to genetic factors in approximately 60-80% of the cases specifically APOE gene family and as well as other gene families. This study utilized advanced computational biology methods to analyze AD-associated nsSNPs extracted from the NHGRI-EBI GWAS Catalog. Ensembl Variant Effect Predictor (VEP) is used to annotate the variants associated with AD. Annotated missense variants were subjected to PolyPhen-2, SNPs&Go, PredictSNP servers which were used to predict pathogenicity of selected missense variants by protein sequence information. DynaMut and DUET servers were applied to determine protein stability due to the amino acid change by integrating protein structure information. Missense variations associated with AD were annotated to 26 proteins and further analyzed in our study. Following rigorous data filtration steps, 15 candidate variants (13 proteins) were identified and subjected to sequence and structure-based analysis. Finally in this in-silico study, five deleterious non-synonymous single nucleotide polymorphisms (nsSNPs) were identified in ACKR2(V41A), APOE(R176C), ATP8B4(G395S), LAMB2(E987K), and TOMM40(R239W), and these findings were subsequently backed-up by existing in-vivo and in-vitro literature. This study not only provides invaluable insight into the intricate pathogenic mechanisms underlying AD but also offers a distinctive perspective that paves the way for future, more comprehensive investigations aimed at unraveling the molecular intricacies responsible for the development and progression of AD. Nonetheless, it is imperative that further rigorous in vivo and in vitro experiments are conducted to validate and expand upon the findings presented here.
+39589570	12	31	Alzheimer's disease	Disease	MESH:D000544
+39589570	187	206	Alzheimer's disease	Disease	MESH:D000544
+39589570	208	210	AD	Disease	MESH:D000544
+39589570	217	243	neurodegenerative disorder	Disease	MESH:D019636
+39589570	281	295	loss of memory	Disease	MESH:D008569
+39589570	299	329	decline in cognitive abilities	Disease	MESH:D003072
+39589570	467	471	APOE	Gene	348
+39589570	590	592	AD	Disease	MESH:D000544
+39589570	742	744	AD	Disease	MESH:D000544
+39589570	1116	1118	AD	Disease	MESH:D000544
+39589570	1459	1464	ACKR2	Gene	1238
+39589570	1465	1469	V41A	ProteinMutation	tmVar:p|SUB|V|41|A;HGVS:p.V41A;VariantGroup:3;CorrespondingGene:1238;RS#:2228467;CorrespondingSpecies:9606;CA#:2338634
+39589570	1472	1476	APOE	Gene	348
+39589570	1477	1482	R176C	ProteinMutation	tmVar:p|SUB|R|176|C;HGVS:p.R176C;VariantGroup:0;CorrespondingGene:348;RS#:7412;CorrespondingSpecies:9606;CA#:127498
+39589570	1485	1491	ATP8B4	Gene	79895
+39589570	1492	1497	G395S	ProteinMutation	tmVar:p|SUB|G|395|S;HGVS:p.G395S;VariantGroup:4;CorrespondingGene:79895;RS#:138799625;CorrespondingSpecies:9606;CA#:7553458
+39589570	1500	1505	LAMB2	Gene	3913
+39589570	1506	1511	E987K	ProteinMutation	tmVar:p|SUB|E|987|K;HGVS:p.E987K;VariantGroup:2;CorrespondingGene:3913;RS#:34759087;CorrespondingSpecies:9606;CA#:2394153
+39589570	1518	1524	TOMM40	Gene	10452
+39589570	1525	1530	R239W	ProteinMutation	tmVar:p|SUB|R|239|W;HGVS:p.R239W;VariantGroup:1;CorrespondingGene:10452;RS#:142412517;CorrespondingSpecies:9606;CA#:9505763
+39589570	1725	1727	AD	Disease	MESH:D000544
+39589570	1932	1934	AD	Disease	MESH:D000544
+39589570	Positive_Correlation	MESH:D000544	RS#:142412517;HGVS:p.R239W;CorrespondingGene:10452
+39589570	Positive_Correlation	MESH:D000544	RS#:34759087;HGVS:p.E987K;CorrespondingGene:3913
+39589570	Positive_Correlation	MESH:D000544	RS#:7412;HGVS:p.R176C;CorrespondingGene:348
+39589570	Positive_Correlation	MESH:D000544	RS#:2228467;HGVS:p.V41A;CorrespondingGene:1238
+39589570	Positive_Correlation	MESH:D000544	RS#:138799625;HGVS:p.G395S;CorrespondingGene:79895
+39589570	Association	MESH:D000544	79895
+39589570	Association	MESH:D000544	348
+39589570	Association	MESH:D000544	1238
+39589570	Association	MESH:D000544	10452
+39589570	Association	MESH:D000544	3913
+

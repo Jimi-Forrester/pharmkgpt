@@ -1,0 +1,22 @@
+36209412|t|Data-driven patient stratification of UK Biobank cohort suggests five endotypes of multimorbidity.
+36209412|a|Multimorbidity generally refers to concurrent occurrence of multiple chronic conditions. These patients are inherently at high risk and often lead a poor quality of life due to delayed treatments. With the emergence of personalized medicine and stratified healthcare, there is a need to stratify patients right at the primary care setting. Here we developed multimorbidity analysis pipeline (MulMorPip), which can stratify patients into multimorbid subgroups or endotypes based on their lifetime disease diagnosis and characterize them based on demographic features and underlying disease-disease interaction networks. By implementing MulMorPip on UK Biobank cohort, we report five distinct molecular subclasses or endotypes of multimorbidity. For each patient, we calculated the existence of broad disease classes defined by Charlson's comorbidity classification using the International Classification of Diseases-10 encoding. We then applied multiple correspondence analysis in 77 524 patients from UK Biobank, who had multimorbidity of more than one disease, which resulted in five multimorbid clusters. We further validated these clusters using machine learning and were able to classify 20% model-blind test set patients with an accuracy of 97% and an average Jaccard similarity of 84%. This was followed by demographic characterization and development of interlinking disease network for each cluster to understand disease-disease interactions. Our identified five endotypes of multimorbidity draw attention to dementia, stroke and paralysis as important drivers of multimorbidity stratification. Inclusion of such patient stratification at the primary care setting can help general practitioners to better observe patients' multiple chronic conditions, their risk stratification and personalization of treatment strategies.
+36209412	12	19	patient	Species	9606
+36209412	83	97	multimorbidity	Disease	
+36209412	99	113	Multimorbidity	Disease	
+36209412	194	202	patients	Species	9606
+36209412	395	403	patients	Species	9606
+36209412	457	471	multimorbidity	Disease	
+36209412	522	530	patients	Species	9606
+36209412	827	841	multimorbidity	Disease	
+36209412	852	859	patient	Species	9606
+36209412	1086	1094	patients	Species	9606
+36209412	1120	1134	multimorbidity	Disease	
+36209412	1316	1324	patients	Species	9606
+36209412	1583	1597	multimorbidity	Disease	
+36209412	1616	1624	dementia	Disease	MESH:D003704
+36209412	1626	1632	stroke	Disease	MESH:D020521
+36209412	1637	1646	paralysis	Disease	MESH:D010243
+36209412	1671	1685	multimorbidity	Disease	
+36209412	1720	1727	patient	Species	9606
+36209412	1820	1828	patients	Species	9606
+

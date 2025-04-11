@@ -1,0 +1,15 @@
+36699527|t|A transfer learning approach for multiclass classification of Alzheimer's disease using MRI images.
+36699527|a|Alzheimer's is an acute degenerative disease affecting the elderly population all over the world. The detection of disease at an early stage in the absence of a large-scale annotated dataset is crucial to the clinical treatment for the prevention and early detection of Alzheimer's disease (AD). In this study, we propose a transfer learning base approach to classify various stages of AD. The proposed model can distinguish between normal control (NC), early mild cognitive impairment (EMCI), late mild cognitive impairment (LMCI), and AD. In this regard, we apply tissue segmentation to extract the gray matter from the MRI scans obtained from the Alzheimer's Disease National Initiative (ADNI) database. We utilize this gray matter to tune the pre-trained VGG architecture while freezing the features of the ImageNet database. It is achieved through the addition of a layer with step-wise freezing of the existing blocks in the network. It not only assists transfer learning but also contributes to learning new features efficiently. Extensive experiments are conducted and results demonstrate the superiority of the proposed approach.
+36699527	62	81	Alzheimer's disease	Disease	MESH:D000544
+36699527	100	111	Alzheimer's	Disease	MESH:D000544
+36699527	124	144	degenerative disease	Disease	MESH:D019636
+36699527	370	389	Alzheimer's disease	Disease	MESH:D000544
+36699527	391	393	AD	Disease	MESH:D000544
+36699527	486	488	AD	Disease	MESH:D000544
+36699527	560	585	mild cognitive impairment	Disease	MESH:D060825
+36699527	587	591	EMCI	Disease	MESH:D060825
+36699527	594	624	late mild cognitive impairment	Disease	MESH:D060825
+36699527	626	630	LMCI	Disease	MESH:D060825
+36699527	637	639	AD	Disease	MESH:D000544
+36699527	750	769	Alzheimer's Disease	Disease	MESH:D000544
+

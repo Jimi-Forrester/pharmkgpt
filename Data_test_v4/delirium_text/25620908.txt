@@ -1,0 +1,19 @@
+25620908|t|Computational deconvolution of genome wide expression data from Parkinson's and Huntington's disease brain tissues using population-specific expression analysis.
+25620908|a|The characterization of molecular changes in diseased tissues gives insight into pathophysiological mechanisms and is important for therapeutic development. Genome-wide gene expression analysis has proven valuable for identifying biological processes in neurodegenerative diseases using post mortem human brain tissue and numerous datasets are publically available. However, many studies utilize heterogeneous tissue samples consisting of multiple cell types, all of which contribute to global gene expression values, confounding biological interpretation of the data. In particular, changes in numbers of neuronal and glial cells occurring in neurodegeneration confound transcriptomic analyses, particularly in human brain tissues where sample availability and controls are limited. To identify cell specific gene expression changes in neurodegenerative disease, we have applied our recently published computational deconvolution method, population specific expression analysis (PSEA). PSEA estimates cell-type-specific expression values using reference expression measures, which in the case of brain tissue comprises mRNAs with cell-type-specific expression in neurons, astrocytes, oligodendrocytes and microglia. As an exercise in PSEA implementation and hypothesis development regarding neurodegenerative diseases, we applied PSEA to Parkinson's and Huntington's disease (PD, HD) datasets. Genes identified as differentially expressed in substantia nigra pars compacta neurons by PSEA were validated using external laser capture microdissection data. Network analysis and Annotation Clustering (DAVID) identified molecular processes implicated by differential gene expression in specific cell types. The results of these analyses provided new insights into the implementation of PSEA in brain tissues and additional refinement of molecular signatures in human HD and PD. 
+25620908	64	75	Parkinson's	Disease	MESH:D010300
+25620908	80	100	Huntington's disease	Disease	MESH:D006816
+25620908	416	442	neurodegenerative diseases	Disease	MESH:D019636
+25620908	461	466	human	Species	9606
+25620908	806	823	neurodegeneration	Disease	MESH:D019636
+25620908	874	879	human	Species	9606
+25620908	999	1024	neurodegenerative disease	Disease	MESH:D019636
+25620908	1454	1480	neurodegenerative diseases	Disease	MESH:D019636
+25620908	1501	1512	Parkinson's	Disease	MESH:D010300
+25620908	1517	1537	Huntington's disease	Disease	MESH:D006816
+25620908	1539	1541	PD	Disease	MESH:D010300
+25620908	1543	1545	HD	Disease	MESH:D006816
+25620908	1605	1635	substantia nigra pars compacta	CellLine	
+25620908	2021	2026	human	Species	9606
+25620908	2027	2029	HD	Disease	MESH:D006816
+25620908	2034	2036	PD	Disease	MESH:D010300
+

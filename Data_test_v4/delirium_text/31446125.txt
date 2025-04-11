@@ -1,0 +1,11 @@
+31446125|t|Toward an interpretable Alzheimer's disease diagnostic model with regional abnormality representation via deep learning.
+31446125|a|In this paper, we propose a novel method for magnetic resonance imaging based Alzheimer's disease (AD) or mild cognitive impairment (MCI) diagnosis that systematically integrates voxel-based, region-based, and patch-based approaches into a unified framework. Specifically, we parcellate the brain into predefined regions based on anatomical knowledge (i.e., templates) and derive complex nonlinear relationships among voxels, whose intensities denote volumetric measurements, within each region. Unlike existing methods that use cubical or rectangular shapes, we consider the anatomical shapes of regions as atypical patches. Using complex nonlinear relationships among voxels in each region learned by deep neural networks, we extract a "regional abnormality representation." We then make a final clinical decision by integrating the regional abnormality representations over the entire brain. It is noteworthy that the regional abnormality representations allow us to interpret and understand the symptomatic observations of a subject with AD or MCI by mapping and visualizing these observations in the brain space. On the baseline MRI dataset from the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort, our method achieves state-of-the-art performance for four binary classification tasks and one three-class classification task. Additionally, we conducted exhaustive experiments and analysis to validate the efficacy and potential of our method.
+31446125	24	43	Alzheimer's disease	Disease	MESH:D000544
+31446125	199	218	Alzheimer's disease	Disease	MESH:D000544
+31446125	220	222	AD	Disease	MESH:D000544
+31446125	232	252	cognitive impairment	Disease	MESH:D003072
+31446125	254	257	MCI	Disease	MESH:D060825
+31446125	1163	1165	AD	Disease	MESH:D000544
+31446125	1169	1172	MCI	Disease	MESH:D060825
+31446125	1276	1295	Alzheimer's Disease	Disease	MESH:D000544
+

@@ -1,0 +1,10 @@
+36207347|t|Towards a comprehensive approach for characterizing cell activity in bright-field microscopic images.
+36207347|a|When studying physical cellular response observed by light microscopy, variations in cell behavior are difficult to quantitatively measure and are often only discussed on a subjective level. Hence, cell properties are described qualitatively based on a researcher's impressions. In this study, we aim to define a comprehensive approach to estimate the physical cell activity based on migration and morphology based on statistical analysis of a cell population within a predefined field of view and timespan. We present quantitative measurements of the influence of drugs such as cytochalasin D and taxol on human neuroblastoma, SH-SY5Y cell populations. Both chemicals are well known to interact with the cytoskeleton and affect the cell morphology and motility. Being able to compute the physical properties of each cell for a given observation time, requires precise localization of each cell even when in an adhesive state, where cells are not visually differentiable. Also, the risk of confusion through contaminants is desired to be minimized. In relation to the cell detection process, we have developed a customized encoder-decoder based deep learning cell detection and tracking procedure. Further, we discuss the accuracy of our approach to quantify cell activity and its viability in regard to the cell detection accuracy.
+36207347	681	695	cytochalasin D	Chemical	MESH:D015638
+36207347	700	705	taxol	Chemical	MESH:D017239
+36207347	709	714	human	Species	9606
+36207347	715	728	neuroblastoma	Disease	MESH:D009447
+36207347	730	737	SH-SY5Y	CellLine	CVCL:0019
+36207347	Negative_Correlation	MESH:D015638	MESH:D009447
+36207347	Negative_Correlation	MESH:D017239	MESH:D009447
+

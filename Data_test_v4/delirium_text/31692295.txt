@@ -1,0 +1,18 @@
+31692295|t|Rapid Discovery of Potential Drugs for Osteonecrosis of Femoral Head Based on Gene Expression Omnibus Database and Connectivity Map.
+31692295|a|OBJECTIVE: To use Gene Expression Omnibus (GEO) database coupled with Connectivity Map (CMap) databases to screen potential therapeutic drugs for osteonecrosis of femoral head (ONFH) rapidly. METHODS: Raw genetic data with accession number GSE74089 that contained eight hip articular cartilage specimens from four ONFH patients and four healthy controls were obtained from the Gene Expression Omnibus (GEO) database and were then integrated using R to identify differentially expressed genes (DEGs). Subsequently, to identify several potential small molecular compounds that were most strongly negatively correlated with ONFH, a search query of DEGs was explored by using CMap. RESULTS: Filtering revealed 1937 DEGs with log (fold-change) >=1 and adjust P value < 0.001. Finally, a network of candidate targets for ONFH with 135 nodes and 660 edges was constructed through network topology analysis, including 96 up-regulated genes and 39 down-regulated genes. Several significant gene functions and signaling pathways associated with pathological processes of ONFH were identified via gene enrichment analysis. Based on the CMap database, some potential small molecular components that may be possible to counteract the effects of molecular signal imbalance for ONFH were identified. Neostigmine bromide with low CMap score and P value and specificity score was predicted to be the most candidate compound, involved in the "positive regulation of stem cell proliferation," "regulation of protein autophosphorylation," "VEGF signaling pathway," and "ECM-receptor interaction." CONCLUSIONS: The GEO and CMap databases can be effectively used in understanding the molecular changes in ONFH and provide a systematic manner to identify potential drugs for ONFH prevention and treatment. However, additional clinical and experimental research of the candidate compound is warranted.
+31692295	39	68	Osteonecrosis of Femoral Head	Disease	MESH:D000070603
+31692295	279	308	osteonecrosis of femoral head	Disease	MESH:D000070603
+31692295	310	314	ONFH	Disease	MESH:D000070603
+31692295	447	451	ONFH	Disease	MESH:D000070603
+31692295	452	460	patients	Species	9606
+31692295	754	758	ONFH	Disease	MESH:D000070603
+31692295	948	952	ONFH	Disease	MESH:D000070603
+31692295	1194	1198	ONFH	Disease	MESH:D000070603
+31692295	1396	1400	ONFH	Disease	MESH:D000070603
+31692295	1418	1437	Neostigmine bromide	Chemical	MESH:D009388
+31692295	1653	1657	VEGF	Gene	7422
+31692295	1816	1820	ONFH	Disease	MESH:D000070603
+31692295	1885	1889	ONFH	Disease	MESH:D000070603
+31692295	Negative_Correlation	MESH:D009388	MESH:D000070603
+31692295	Association	MESH:D009388	7422
+

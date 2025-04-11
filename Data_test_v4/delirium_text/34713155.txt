@@ -1,0 +1,29 @@
+34713155|t|Sleep Diagnostics for Home Monitoring of Sleep Apnea Patients.
+34713155|a|Objectives: Sleep time information is essential for monitoring of obstructive sleep apnea (OSA), as the severity assessment depends on the number of breathing disturbances per hour of sleep. However, clinical procedures for sleep monitoring rely on numerous uncomfortable sensors, which could affect sleeping patterns. Therefore, an automated method to identify sleep intervals from unobtrusive data is required. However, most unobtrusive sensors suffer from data loss and sensitivity to movement artifacts. Thus, current sleep detection methods are inadequate, as these require long intervals of good quality. Moreover, sleep monitoring of OSA patients is often less reliable due to heart rate disturbances, movement and sleep fragmentation. The primary aim was to develop a sleep-wake classifier for sleep time estimation of suspected OSA patients, based on single short-term segments of their cardiac and respiratory signals. The secondary aim was to define metrics to detect OSA patients directly from their predicted sleep-wake pattern and prioritize them for clinical diagnosis. Methods: This study used a dataset of 183 suspected OSA patients, of which 36 test subjects. First, a convolutional neural network was designed for sleep-wake classification based on healthier patients (AHI < 10). It employed single 30 s epochs of electrocardiograms and respiratory inductance plethysmograms. Sleep information and Total Sleep Time (TST) was derived for all patients using the short-term segments. Next, OSA patients were detected based on the average confidence of sleep predictions and the percentage of sleep-wake transitions in the predicted sleep architecture. Results: Sleep-wake classification on healthy, mild and moderate patients resulted in moderate kappa scores of 0.51, 0.49, and 0.48, respectively. However, TST estimates decreased in accuracy with increasing AHI. Nevertheless, severe patients were detected with a sensitivity of 78% and specificity of 89%, and prioritized for clinical diagnosis. As such, their inaccurate TST estimate becomes irrelevant. Excluding detected OSA patients resulted in an overall estimated TST with a mean bias error of 21.9 (+- 55.7) min and Pearson correlation of 0.74 to the reference. Conclusion: The presented framework offered a realistic tool for unobtrusive sleep monitoring of suspected OSA patients. Moreover, it enabled fast prioritization of severe patients for clinical diagnosis.
+34713155	41	52	Sleep Apnea	Disease	MESH:D012891
+34713155	53	61	Patients	Species	9606
+34713155	129	152	obstructive sleep apnea	Disease	MESH:D020181
+34713155	154	157	OSA	Disease	MESH:D020181
+34713155	212	234	breathing disturbances	Disease	MESH:D004417
+34713155	704	707	OSA	Disease	MESH:D020181
+34713155	708	716	patients	Species	9606
+34713155	747	770	heart rate disturbances	Disease	MESH:D006331
+34713155	785	804	sleep fragmentation	Disease	MESH:D012892
+34713155	900	903	OSA	Disease	MESH:D020181
+34713155	904	912	patients	Species	9606
+34713155	1042	1045	OSA	Disease	MESH:D020181
+34713155	1046	1054	patients	Species	9606
+34713155	1200	1203	OSA	Disease	MESH:D020181
+34713155	1204	1212	patients	Species	9606
+34713155	1341	1349	patients	Species	9606
+34713155	1523	1531	patients	Species	9606
+34713155	1569	1572	OSA	Disease	MESH:D020181
+34713155	1573	1581	patients	Species	9606
+34713155	1796	1804	patients	Species	9606
+34713155	1965	1973	patients	Species	9606
+34713155	2156	2159	OSA	Disease	MESH:D020181
+34713155	2160	2168	patients	Species	9606
+34713155	2408	2411	OSA	Disease	MESH:D020181
+34713155	2412	2420	patients	Species	9606
+34713155	2473	2481	patients	Species	9606
+

@@ -1,0 +1,25 @@
+29997503|t|A Computational Systems Pharmacology Approach to Investigate Molecular Mechanisms of Herbal Formula Tian-Ma-Gou-Teng-Yin for Treatment of Alzheimer's Disease.
+29997503|a|Traditional Chinese medicine (TCM) is typically prescribed as formula to treat certain symptoms. A TCM formula contains hundreds of chemical components, which makes it complicated to elucidate the molecular mechanisms of TCM. Here, we proposed a computational systems pharmacology approach consisting of network link prediction, statistical analysis, and bioinformatics tools to investigate the molecular mechanisms of TCM formulae. Taking formula Tian-Ma-Gou-Teng-Yin as an example, which shows pharmacological effects on Alzheimer's disease (AD) and its mechanism is unclear, we first identified 494 formula components together with corresponding 178 known targets, and then predicted 364 potential targets for these components with our balanced substructure-drug-target network-based inference method. With Fisher's exact test and statistical analysis we identified 12 compounds to be most significantly related to AD. The target genes of these compounds were further enriched onto pathways involved in AD, such as neuroactive ligand-receptor interaction, serotonergic synapse, inflammatory mediator regulation of transient receptor potential channel and calcium signaling pathway. By regulating key target genes, such as ACHE, HTR2A, NOS2, and TRPA1, the formula could have neuroprotective and anti-neuroinflammatory effects against the progression of AD. Our approach provided a holistic perspective to study the relevance between TCM formulae and diseases, and implied possible pharmacological effects of TCM components.
+29997503	85	99	Herbal Formula	Chemical	-
+29997503	138	157	Alzheimer's Disease	Disease	MESH:D000544
+29997503	171	187	Chinese medicine	Chemical	-
+29997503	682	701	Alzheimer's disease	Disease	MESH:D000544
+29997503	703	705	AD	Disease	MESH:D000544
+29997503	1077	1079	AD	Disease	MESH:D000544
+29997503	1165	1167	AD	Disease	MESH:D000544
+29997503	1240	1252	inflammatory	Disease	MESH:D007249
+29997503	1317	1324	calcium	Chemical	MESH:D002118
+29997503	1390	1395	HTR2A	Gene	3356
+29997503	1397	1401	NOS2	Gene	4843
+29997503	1407	1412	TRPA1	Gene	8989
+29997503	1462	1479	neuroinflammatory	Disease	MESH:D000090862
+29997503	1515	1517	AD	Disease	MESH:D000544
+29997503	Association	MESH:D000090862	4843
+29997503	Association	MESH:D002118	MESH:D000544
+29997503	Association	MESH:D000090862	3356
+29997503	Association	MESH:D002118	MESH:D007249
+29997503	Association	MESH:D000544	8989
+29997503	Association	MESH:D000544	3356
+29997503	Association	MESH:D000544	4843
+29997503	Association	MESH:D000090862	8989
+

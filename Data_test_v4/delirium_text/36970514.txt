@@ -1,0 +1,56 @@
+36970514|t|Identification of key genes and signaling pathways associated with dementia with Lewy bodies and Parkinson's disease dementia using bioinformatics.
+36970514|a|Objective: Dementia with Lewy bodies (DLB) and Parkinson's disease dementia (PDD) are collectively known as Lewy body dementia (LBD). Considering the heterogeneous nature of LBD and the different constellations of symptoms with which patients can present, the exact molecular mechanism underlying the differences between these two isoforms is still unknown. Therefore, this study aimed to explore the biomarkers and potential mechanisms that distinguish between PDD and DLB. Methods: The mRNA expression profile dataset of GSE150696 was acquired from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) between 12 DLB and 12 PDD were identified from Brodmann area 9 of human postmortem brains using GEO2R. A series of bioinformatics methods were applied to identify the potential signaling pathways involved, and a protein-protein interaction (PPI) network was constructed. Weighted gene co-expression network analysis (WGCNA) was used to further investigate the relationship between gene co-expression and different LBD subtypes. Hub genes that are strongly associated with PDD and DLB were obtained from the intersection of DEGs and selected modules by WGCNA. Results: A total of 1,864 DEGs between PDD and DLB were filtered by the online analysis tool GEO2R. We found that the most significant GO- and KEGG-enriched terms are involved in the establishment of the vesicle localization and pathways of neurodegeneration-multiple diseases. Glycerolipid metabolism and viral myocarditis were enriched in the PDD group. A B-cell receptor signaling pathway and one carbon pool by folate correlated with DLB in the results obtained from the GSEA. We found several clusters of co-expressed genes which we designated by colors in our WGCNA analysis. Furthermore, we identified seven upregulated genes, namely, SNAP25, GRIN2A, GABRG2, GABRA1, GRIA1, SLC17A6, and SYN1, which are significantly correlated with PDD. Conclusion: The seven hub genes and the signaling pathways we identified may be involved in the heterogeneous pathogenesis of PDD and DLB.
+36970514	67	92	dementia with Lewy bodies	Disease	MESH:D020961
+36970514	97	125	Parkinson's disease dementia	Disease	MESH:D010300
+36970514	159	184	Dementia with Lewy bodies	Disease	MESH:D020961
+36970514	186	189	DLB	Disease	MESH:D020961
+36970514	195	223	Parkinson's disease dementia	Disease	MESH:D010300
+36970514	225	228	PDD	Disease	MESH:D010300
+36970514	256	274	Lewy body dementia	Disease	MESH:D020961
+36970514	276	279	LBD	Disease	MESH:D020961
+36970514	322	325	LBD	Disease	MESH:D020961
+36970514	382	390	patients	Species	9606
+36970514	610	613	PDD	Disease	MESH:D010300
+36970514	618	621	DLB	Disease	MESH:D020961
+36970514	792	795	DLB	Disease	MESH:D020961
+36970514	803	806	PDD	Disease	MESH:D010300
+36970514	847	852	human	Species	9606
+36970514	1195	1198	LBD	Disease	MESH:D020961
+36970514	1253	1256	PDD	Disease	MESH:D010300
+36970514	1261	1264	DLB	Disease	MESH:D020961
+36970514	1379	1382	PDD	Disease	MESH:D010300
+36970514	1387	1390	DLB	Disease	MESH:D020961
+36970514	1581	1598	neurodegeneration	Disease	MESH:D019636
+36970514	1618	1630	Glycerolipid	Chemical	-
+36970514	1646	1663	viral myocarditis	Disease	MESH:D014777
+36970514	1685	1688	PDD	Disease	MESH:D010300
+36970514	1740	1746	carbon	Chemical	MESH:D002244
+36970514	1755	1761	folate	Chemical	MESH:D005492
+36970514	1778	1781	DLB	Disease	MESH:D020961
+36970514	1982	1988	SNAP25	Gene	6616
+36970514	1990	1996	GRIN2A	Gene	2903
+36970514	1998	2004	GABRG2	Gene	2566
+36970514	2006	2012	GABRA1	Gene	2554
+36970514	2014	2019	GRIA1	Gene	2890
+36970514	2021	2028	SLC17A6	Gene	57084
+36970514	2034	2038	SYN1	Gene	6853
+36970514	2080	2083	PDD	Disease	MESH:D010300
+36970514	2211	2214	PDD	Disease	MESH:D010300
+36970514	2219	2222	DLB	Disease	MESH:D020961
+36970514	Association	MESH:D002244	MESH:D020961
+36970514	Association	MESH:D020961	2903
+36970514	Association	MESH:D020961	2566
+36970514	Association	MESH:D020961	2554
+36970514	Association	MESH:D020961	2890
+36970514	Association	MESH:D010300	2566
+36970514	Association	MESH:D010300	57084
+36970514	Association	MESH:D010300	2903
+36970514	Association	MESH:D010300	2890
+36970514	Association	MESH:D010300	2554
+36970514	Positive_Correlation	MESH:D010300	6616
+36970514	Association	MESH:D005492	MESH:D020961
+36970514	Association	MESH:D020961	6853
+36970514	Association	MESH:D020961	6616
+36970514	Association	MESH:D002244	MESH:D005492
+36970514	Association	MESH:D020961	57084
+

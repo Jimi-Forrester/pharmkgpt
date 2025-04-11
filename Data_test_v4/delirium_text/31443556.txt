@@ -1,0 +1,16 @@
+31443556|t|Classification of Alzheimer's Disease with and without Imagery using Gradient Boosted Machines and ResNet-50.
+31443556|a|BACKGROUND: Alzheimer's is a disease for which there is no cure. Diagnosing Alzheimer's disease (AD) early facilitates family planning and cost control. The purpose of this study is to predict the presence of AD using socio-demographic, clinical, and magnetic resonance imaging (MRI) data. Early detection of AD enables family planning and may reduce costs by delaying long-term care. Accurate, non-imagery methods also reduce patient costs. The Open Access Series of Imaging Studies (OASIS-1) cross-sectional MRI data were analyzed. A gradient boosted machine (GBM) predicted the presence of AD as a function of gender, age, education, socioeconomic status (SES), and a mini-mental state exam (MMSE). A residual network with 50 layers (ResNet-50) predicted the clinical dementia rating (CDR) presence and severity from MRI's (multi-class classification). The GBM achieved a mean 91.3% prediction accuracy (10-fold stratified cross validation) for dichotomous CDR using socio-demographic and MMSE variables. MMSE was the most important feature. ResNet-50 using image generation techniques based on an 80% training set resulted in 98.99% three class prediction accuracy on 4139 images (20% validation set) at Epoch 133 and nearly perfect multi-class predication accuracy on the training set (99.34%). Machine learning methods classify AD with high accuracy. GBM models may help provide initial detection based on non-imagery analysis, while ResNet-50 network models might help identify AD patients automatically prior to provider review.
+31443556	18	37	Alzheimer's Disease	Disease	MESH:D000544
+31443556	122	133	Alzheimer's	Disease	MESH:D000544
+31443556	186	205	Alzheimer's disease	Disease	MESH:D000544
+31443556	207	209	AD	Disease	MESH:D000544
+31443556	319	321	AD	Disease	MESH:D000544
+31443556	419	421	AD	Disease	MESH:D000544
+31443556	537	544	patient	Species	9606
+31443556	703	705	AD	Disease	MESH:D000544
+31443556	881	889	dementia	Disease	MESH:D003704
+31443556	1318	1323	Epoch	Chemical	MESH:C079446
+31443556	1444	1446	AD	Disease	MESH:D000544
+31443556	1595	1597	AD	Disease	MESH:D000544
+31443556	1598	1606	patients	Species	9606
+

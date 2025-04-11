@@ -1,0 +1,27 @@
+39454514|t|Retrospective analysis of COVID-19 clinical and laboratory data: Constructing a multivariable model across different comorbidities.
+39454514|a|BACKGROUND: The clinical pathogenesis of COVID-19 necessitates a comprehensive and homogeneous study to understand the disease mechanisms. Identifying clinical symptoms and laboratory parameters as key predictors can guide prognosis and inform effective treatment strategies. This study analyzed comorbidities and laboratory metrics to predict COVID-19 mortality using a homogeneous model. METHOD: A retrospective cohort study was conducted on 7500 COVID-19 patients admitted to Rasoul Akram Hospital between 2022 and 2022. Clinical and laboratory data, along with comorbidity information, were collected and analyzed using advanced coding, data alignment, and regression analyses. Machine learning algorithms were employed to identify relevant features and calculate predictive probability scores. RESULTS: The frequency and mortality rates of COVID-19 among males (19.3 %) were higher than those among females (17 %) (p = 0.01, OR = 0.85, 95 % CI = 0.76-0.96). Cancer (p < 0.05, OR = 1.9, 95 % CI = 1.48-2.4) and Alzheimer's (p < 0.05, OR = 2.36, 95 % CI = 1.89-2.9) were the two most common comorbidities associated with long-term hospitalization (LTH). Kidney disease (KD) was identified as the most lethal comorbidity (45 % of KD patients) (OR = 5.6, 95 % CI = 5.05-6.04, p < 0.001). Age > 55 was the most predictive parameter for mortality (p < 0.001, OR = 6.5, 95 % CI = 1.03-1.04), and the CT scan score showed no predictive value for death (p > 0.05). WBC, Cr, CRP, ALP, and VBG-HCO3 were the most significant critical data associated with death prediction across all comorbidities (p < 0.05). CONCLUSION: COVID-19 is particularly lethal for elderly adults; thus, age plays a crucial role in disease prognosis. Regarding death prediction, various comorbidities rank differently, with KD having a significant impact on mortality outcomes.
+39454514	26	34	COVID-19	Disease	MESH:D000086382
+39454514	173	181	COVID-19	Disease	MESH:D000086382
+39454514	476	484	COVID-19	Disease	MESH:D000086382
+39454514	581	589	COVID-19	Disease	MESH:D000086382
+39454514	590	598	patients	Species	9606
+39454514	977	985	COVID-19	Disease	MESH:D000086382
+39454514	1095	1101	Cancer	Disease	MESH:D009369
+39454514	1147	1158	Alzheimer's	Disease	MESH:D000544
+39454514	1289	1303	Kidney disease	Disease	MESH:D007674
+39454514	1305	1307	KD	Disease	MESH:D007674
+39454514	1364	1366	KD	Disease	MESH:D007674
+39454514	1367	1375	patients	Species	9606
+39454514	1575	1580	death	Disease	MESH:D003643
+39454514	1602	1605	CRP	Gene	1401
+39454514	1607	1610	ALP	Gene	470
+39454514	1616	1619	VBG	Chemical	-
+39454514	1620	1624	HCO3	Chemical	MESH:D001639
+39454514	1681	1686	death	Disease	MESH:D003643
+39454514	1747	1755	COVID-19	Disease	MESH:D000086382
+39454514	1862	1867	death	Disease	MESH:D003643
+39454514	1925	1927	KD	Disease	MESH:D007674
+39454514	Association	MESH:D003643	470
+39454514	Association	MESH:D001639	MESH:D003643
+39454514	Association	MESH:D003643	1401
+

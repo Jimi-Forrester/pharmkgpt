@@ -1,0 +1,17 @@
+35090342|t|Annotating whole genome variants and constructing a multi-classifier based on samples of ADNI.
+35090342|a|INTRODUCTION: Alzheimer's disease (AD) is the most common progressive neurodegenerative disorder in the elderly, which will eventually lead to dementia without an effective precaution and treatment. As a typical complex disease, the mechanism of AD's occurrence and development still lacks sufficient understanding. RESEARCH DESIGN AND METHODS: In this study, we aim to directly analyze the relationship between DNA variants and phenotypes based on the whole genome sequencing data. Firstly, to enhance the biological meanings of our study, we annotate the deleterious variants and mapped them to nearest protein coding genes. Then, to eliminate the redundant features and reduce the burden of downstream analysis, a multi-objective evaluation strategy based on entropy theory is applied for ranking all candidate genes. Finally, we use multi-classifier XGBoost for classifying unbalanced data composed with 46 AD samples, 483 mild cognitive impairment (MCI) samples and 279 cognitive normal (CN) samples. RESULTS: The experimental results on real whole genome sequencing data from Alzheimer's Disease Neuroimaging Initiative (ADNI) show that our method not only has satisfactory classification performance but also finds significance correlation between AD and RIN3, a known susceptibility gene of AD. In addition, pathway enrichment analysis was carried out using the top 20 feature genes, and three pathways were confirmed to be significantly related to the formation of AD. CONCLUSIONS: From the experimental results, we demonstrated that the efficacy of our proposed method has practical significance.
+35090342	109	128	Alzheimer's disease	Disease	MESH:D000544
+35090342	130	132	AD	Disease	MESH:D000544
+35090342	165	191	neurodegenerative disorder	Disease	MESH:D019636
+35090342	238	246	dementia	Disease	MESH:D003704
+35090342	341	343	AD	Disease	MESH:D000544
+35090342	1006	1008	AD	Disease	MESH:D000544
+35090342	1027	1047	cognitive impairment	Disease	MESH:D003072
+35090342	1049	1052	MCI	Disease	MESH:D060825
+35090342	1177	1196	Alzheimer's Disease	Disease	MESH:D000544
+35090342	1350	1352	AD	Disease	MESH:D000544
+35090342	1357	1361	RIN3	Gene	79890
+35090342	1394	1396	AD	Disease	MESH:D000544
+35090342	1569	1571	AD	Disease	MESH:D000544
+35090342	Association	MESH:D000544	79890
+

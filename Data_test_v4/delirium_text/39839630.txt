@@ -1,0 +1,22 @@
+39839630|t|Deep learning captures the effect of epistasis in multifactorial diseases.
+39839630|a|Background: Polygenic risk score (PRS) prediction is widely used to assess the risk of diagnosis and progression of many diseases. Routinely, the weights of individual SNPs are estimated by the linear regression model that assumes independent and linear contribution of each SNP to the phenotype. However, for complex multifactorial diseases such as Alzheimer's disease, diabetes, cardiovascular disease, cancer, and others, association between individual SNPs and disease could be non-linear due to epistatic interactions. The aim of the presented study is to explore the power of non-linear machine learning algorithms and deep learning models to predict the risk of multifactorial diseases with epistasis. Methods: Simulated data with 2- and 3-loci interactions and tested three different models of epistasis: additive, multiplicative and threshold, were generated using the GAMETES. Penetrance tables were generated using PyTOXO package. For machine learning methods we used multilayer perceptron (MLP), convolutional neural network (CNN) and recurrent neural network (RNN), Lasso regression, random forest and gradient boosting models. Performance of machine learning models were assessed using accuracy, AUC-ROC, AUC-PR, recall, precision, and F1 score. Results: First, we tested ensemble tree methods and deep learning neural networks against LASSO linear regression model on simulated data with different types and strength of epistasis. The results showed that with the increase of strength of epistasis effect, non-linear models significantly outperform linear. Then the higher performance of non-linear models over linear was confirmed on real genetic data for multifactorial phenotypes such as obesity, type 1 diabetes, and psoriasis. From non-linear models, gradient boosting appeared to be the best model in obesity and psoriasis while deep learning methods significantly outperform linear approaches in type 1 diabetes. Conclusion: Overall, our study underscores the efficacy of non-linear models and deep learning approaches in more accurately accounting for the effects of epistasis in simulations with specific configurations and in the context of certain diseases.
+39839630	37	46	epistasis	Disease	
+39839630	50	73	multifactorial diseases	Disease	MESH:D004194
+39839630	393	416	multifactorial diseases	Disease	MESH:D004194
+39839630	425	444	Alzheimer's disease	Disease	MESH:D000544
+39839630	446	454	diabetes	Disease	MESH:D003920
+39839630	456	478	cardiovascular disease	Disease	MESH:D002318
+39839630	480	486	cancer	Disease	MESH:D009369
+39839630	744	767	multifactorial diseases	Disease	MESH:D004194
+39839630	773	782	epistasis	Disease	
+39839630	877	886	epistasis	Disease	
+39839630	1510	1519	epistasis	Disease	
+39839630	1578	1587	epistasis	Disease	
+39839630	1781	1788	obesity	Disease	MESH:D009765
+39839630	1790	1805	type 1 diabetes	Disease	MESH:D003922
+39839630	1811	1820	psoriasis	Disease	MESH:D011565
+39839630	1897	1904	obesity	Disease	MESH:D009765
+39839630	1909	1918	psoriasis	Disease	MESH:D011565
+39839630	1993	2008	type 1 diabetes	Disease	MESH:D003922
+39839630	2165	2174	epistasis	Disease	
+

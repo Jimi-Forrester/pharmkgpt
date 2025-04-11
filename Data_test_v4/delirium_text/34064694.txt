@@ -1,0 +1,11 @@
+34064694|t|A Deep Learning Strategy for Automatic Sleep Staging Based on Two-Channel EEG Headband Data.
+34064694|a|Sleep disturbances are common in Alzheimer's disease and other neurodegenerative disorders, and together represent a potential therapeutic target for disease modification. A major barrier for studying sleep in patients with dementia is the requirement for overnight polysomnography (PSG) to achieve formal sleep staging. This is not only costly, but also spending a night in a hospital setting is not always advisable in this patient group. As an alternative to PSG, portable electroencephalography (EEG) headbands (HB) have been developed, which reduce cost, increase patient comfort, and allow sleep recordings in a person's home environment. However, naive applications of current automated sleep staging systems tend to perform inadequately with HB data, due to their relatively lower quality. Here we present a deep learning (DL) model for automated sleep staging of HB EEG data to overcome these critical limitations. The solution includes a simple band-pass filtering, a data augmentation step, and a model using convolutional (CNN) and long short-term memory (LSTM) layers. With this model, we have achieved 74% (+-10%) validation accuracy on low-quality two-channel EEG headband data and 77% (+-10%) on gold-standard PSG. Our results suggest that DL approaches achieve robust sleep staging of both portable and in-hospital EEG recordings, and may allow for more widespread use of ambulatory sleep assessments across clinical conditions, including neurodegenerative disorders.
+34064694	93	111	Sleep disturbances	Disease	MESH:D012893
+34064694	126	145	Alzheimer's disease	Disease	MESH:D000544
+34064694	156	183	neurodegenerative disorders	Disease	MESH:D019636
+34064694	303	311	patients	Species	9606
+34064694	317	325	dementia	Disease	MESH:D003704
+34064694	519	526	patient	Species	9606
+34064694	662	669	patient	Species	9606
+34064694	1549	1576	neurodegenerative disorders	Disease	MESH:D019636
+

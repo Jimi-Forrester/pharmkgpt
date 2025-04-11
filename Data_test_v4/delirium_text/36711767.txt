@@ -1,0 +1,23 @@
+36711767|t|Predictive Models and Features of Patient Mortality across Dementia Types.
+36711767|a|Dementia care is challenging due to the divergent trajectories in disease progression and outcomes. Predictive models are needed to identify patients at risk of near-term mortality. Here, we developed machine learning models predicting survival using a dataset of 45,275 unique participants and 163,782 visit records from the U.S. National Alzheimera$ s Coordinating Center (NACC). Our models achieved an AUC-ROC of over 0.82 utilizing nine parsimonious features for all one-, three-, five-, and ten-year thresholds. The trained models mainly consisted of dementia-related predictors such as specific neuropsychological tests and were minimally affected by other age-related causes of death, e.g., stroke and cardiovascular conditions. Notably, stratified analyses revealed shared and distinct predictors of mortality across eight dementia types. Unsupervised clustering of mortality predictors grouped vascular dementia with depression and Lewy body dementia with frontotemporal lobar dementia. This study demonstrates the feasibility of flagging dementia patients at risk of mortality for personalized clinical management.
+36711767	34	41	Patient	Species	9606
+36711767	42	51	Mortality	Disease	MESH:D003643
+36711767	59	67	Dementia	Disease	MESH:D003704
+36711767	75	83	Dementia	Disease	MESH:D003704
+36711767	216	224	patients	Species	9606
+36711767	246	255	mortality	Disease	MESH:D003643
+36711767	631	639	dementia	Disease	MESH:D003704
+36711767	760	765	death	Disease	MESH:D003643
+36711767	773	779	stroke	Disease	MESH:D020521
+36711767	784	809	cardiovascular conditions	Disease	MESH:D002318
+36711767	883	892	mortality	Disease	MESH:D003643
+36711767	906	914	dementia	Disease	MESH:D003704
+36711767	949	958	mortality	Disease	MESH:D003643
+36711767	978	995	vascular dementia	Disease	MESH:D015140
+36711767	1001	1011	depression	Disease	MESH:D003866
+36711767	1016	1034	Lewy body dementia	Disease	MESH:D020961
+36711767	1040	1069	frontotemporal lobar dementia	Disease	MESH:D057180
+36711767	1123	1131	dementia	Disease	MESH:D003704
+36711767	1132	1140	patients	Species	9606
+36711767	1152	1161	mortality	Disease	MESH:D003643
+

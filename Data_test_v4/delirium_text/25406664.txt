@@ -1,0 +1,31 @@
+25406664|t|Temporal-logic analysis of microglial phenotypic conversion with exposure to amyloid-beta.
+25406664|a|Alzheimer Disease (AD) remains a leading killer with no adequate treatment. Ongoing research increasingly implicates the brain's immune system as a critical contributor to AD pathogenesis, but the complexity of the immune contribution poses a barrier to understanding. Here I use temporal logic to analyze a computational specification of the immune component of AD. Temporal logic is an extension of logic to propositions expressed in terms of time. It has traditionally been used to analyze computational specifications of complex engineered systems but applications to complex biological systems are now appearing. The inflammatory component of AD involves the responses of microglia to the peptide amyloid-beta (Abeta), which is an inflammatory stimulus and a likely causative AD agent. Temporal-logic analysis of the model provides explanations for the puzzling findings that Abeta induces an anti-inflammatory and well as a pro-inflammatory response, and that Abeta is phagocytized by microglia in young but not in old animals. To potentially explain the first puzzle, the model suggests that interferon-gamma acts as an "autocrine bridge" over which an Abeta-induced increase in pro-inflammatory cytokines leads to an increase in anti-inflammatory mediators also. To potentially explain the second puzzle, the model identifies a potential instability in signaling via insulin-like growth factor 1 that could explain the failure of old microglia to phagocytize Abeta. The model predicts that augmentation of insulin-like growth factor 1 signaling, and activation of protein kinase C in particular, could move old microglia from a neurotoxic back toward a more neuroprotective and phagocytic phenotype. 
+25406664	77	89	amyloid-beta	Gene	351
+25406664	91	108	Alzheimer Disease	Disease	MESH:D000544
+25406664	110	112	AD	Disease	MESH:D000544
+25406664	263	265	AD	Disease	MESH:D000544
+25406664	454	456	AD	Disease	MESH:D000544
+25406664	713	725	inflammatory	Disease	MESH:D007249
+25406664	739	741	AD	Disease	MESH:D000544
+25406664	793	805	amyloid-beta	Gene	351
+25406664	807	812	Abeta	Gene	351
+25406664	827	839	inflammatory	Disease	MESH:D007249
+25406664	872	874	AD	Disease	MESH:D000544
+25406664	972	977	Abeta	Gene	351
+25406664	994	1006	inflammatory	Disease	MESH:D007249
+25406664	1025	1037	inflammatory	Disease	MESH:D007249
+25406664	1057	1062	Abeta	Gene	351
+25406664	1190	1206	interferon-gamma	Gene	3458
+25406664	1251	1256	Abeta	Gene	351
+25406664	1281	1293	inflammatory	Disease	MESH:D007249
+25406664	1333	1345	inflammatory	Disease	MESH:D007249
+25406664	1466	1494	insulin-like growth factor 1	Gene	3479
+25406664	1558	1563	Abeta	Gene	351
+25406664	1605	1633	insulin-like growth factor 1	Gene	3479
+25406664	1727	1737	neurotoxic	Disease	MESH:D020258
+25406664	Association	MESH:D007249	3458
+25406664	Positive_Correlation	MESH:D007249	351
+25406664	Association	MESH:D000544	351
+25406664	Association	MESH:D020258	3479
+25406664	Association	3458	351
+

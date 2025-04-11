@@ -1,0 +1,26 @@
+33826656|t|Physiologically based metformin pharmacokinetics model of mice and scale-up to humans for the estimation of concentrations in various tissues.
+33826656|a|Metformin is the primary drug for type 2 diabetes treatment and a promising candidate for other disease treatment. It has significant deviations between individuals in therapy efficiency and pharmacokinetics, leading to the administration of an unnecessary overdose or an insufficient dose. There is a lack of data regarding the concentration-time profiles in various human tissues that limits the understanding of pharmacokinetics and hinders the development of precision therapies for individual patients. The physiologically based pharmacokinetic (PBPK) model developed in this study is based on humans' known physiological parameters (blood flow, tissue volume, and others). The missing tissue-specific pharmacokinetics parameters are estimated by developing a PBPK model of metformin in mice where the concentration time series in various tissues have been measured. Some parameters are adapted from human intestine cell culture experiments. The resulting PBPK model for metformin in humans includes 21 tissues and body fluids compartments and can simulate metformin concentration in the stomach, small intestine, liver, kidney, heart, skeletal muscle adipose, and brain depending on the body weight, dose, and administration regimen. Simulations for humans with a bodyweight of 70kg have been analyzed for doses in the range of 500-1500mg. Most tissues have a half-life (T1/2) similar to plasma (3.7h) except for the liver and intestine with shorter T1/2 and muscle, kidney, and red blood cells that have longer T1/2. The highest maximal concentrations (Cmax) turned out to be in the intestine (absorption process) and kidney (excretion process), followed by the liver. The developed metformin PBPK model for mice does not have a compartment for red blood cells and consists of 20 compartments. The developed human model can be personalized by adapting measurable values (tissue volumes, blood flow) and measuring metformin concentration time-course in blood and urine after a single dose of metformin. The personalized model can be used as a decision support tool for precision therapy development for individuals.
+33826656	22	31	metformin	Chemical	MESH:D008687
+33826656	58	62	mice	Species	10090
+33826656	79	85	humans	Species	9606
+33826656	143	152	Metformin	Chemical	MESH:D008687
+33826656	177	192	type 2 diabetes	Disease	MESH:D003924
+33826656	400	408	overdose	Disease	MESH:D062787
+33826656	511	516	human	Species	9606
+33826656	641	649	patients	Species	9606
+33826656	742	748	humans	Species	9606
+33826656	922	931	metformin	Chemical	MESH:D008687
+33826656	935	939	mice	Species	10090
+33826656	1048	1053	human	Species	9606
+33826656	1119	1128	metformin	Chemical	MESH:D008687
+33826656	1132	1138	humans	Species	9606
+33826656	1205	1214	metformin	Chemical	MESH:D008687
+33826656	1399	1405	humans	Species	9606
+33826656	1833	1842	metformin	Chemical	MESH:D008687
+33826656	1858	1862	mice	Species	10090
+33826656	1958	1963	human	Species	9606
+33826656	2063	2072	metformin	Chemical	MESH:D008687
+33826656	2141	2150	metformin	Chemical	MESH:D008687
+33826656	Positive_Correlation	MESH:D008687	MESH:D062787
+33826656	Negative_Correlation	MESH:D008687	MESH:D003924
+

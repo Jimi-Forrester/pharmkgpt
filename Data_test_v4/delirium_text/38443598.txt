@@ -1,0 +1,31 @@
+38443598|t|The Mst1/2-BNIP3 axis is required for mitophagy induction and neuronal viability under mitochondrial stress.
+38443598|a|Mitophagy induction upon mitochondrial stress is critical for maintaining mitochondrial homeostasis and cellular function. Here, we found that Mst1/2 (Stk3/4), key regulators of the Hippo pathway, are required for the induction of mitophagy under various mitochondrial stress conditions. Knockdown of Mst1/2 or pharmacological inhibition by XMU-MP-1 treatment led to impaired mitophagy induction upon CCCP and DFP treatment. Mechanistically, Mst1/2 induces mitophagy independently of the PINK1-Parkin pathway and the canonical Hippo pathway. Moreover, our results suggest the essential involvement of BNIP3 in Mst1/2-mediated mitophagy induction upon mitochondrial stress. Notably, Mst1/2 knockdown diminishes mitophagy induction, exacerbates mitochondrial dysfunction, and reduces cellular survival upon neurotoxic stress in both SH-SY5Y cells and Drosophila models. Conversely, Mst1 and Mst2 expression enhances mitophagy induction and cell survival. In addition, AAV-mediated Mst1 expression reduced the loss of TH-positive neurons, ameliorated behavioral deficits, and improved mitochondrial function in an MPTP-induced Parkinson's disease mouse model. Our findings reveal the Mst1/2-BNIP3 regulatory axis as a novel mediator of mitophagy induction under conditions of mitochondrial stress and suggest that Mst1/2 play a pivotal role in maintaining mitochondrial function and neuronal viability in response to neurotoxic treatment.
+38443598	11	16	BNIP3	Gene	12176
+38443598	450	458	XMU-MP-1	Chemical	MESH:C000625617
+38443598	510	514	CCCP	Chemical	MESH:D002258
+38443598	519	522	DFP	Chemical	MESH:D007531
+38443598	597	602	PINK1	Gene	65018
+38443598	603	609	Parkin	Gene	5071
+38443598	710	715	BNIP3	Gene	12176
+38443598	852	877	mitochondrial dysfunction	Disease	MESH:D028361
+38443598	914	924	neurotoxic	Disease	MESH:D020258
+38443598	940	947	SH-SY5Y	CellLine	CVCL:0019
+38443598	958	968	Drosophila	Species	7227
+38443598	989	993	Mst1	Gene	47954
+38443598	998	1002	Mst2	Gene	47898
+38443598	1088	1092	Mst1	Gene	15235
+38443598	1124	1126	TH	Gene	21823
+38443598	1157	1176	behavioral deficits	Disease	MESH:D019958
+38443598	1220	1224	MPTP	Chemical	MESH:D015632
+38443598	1233	1252	Parkinson's disease	Disease	MESH:D010300
+38443598	1253	1258	mouse	Species	10090
+38443598	1297	1302	BNIP3	Gene	12176
+38443598	1523	1533	neurotoxic	Disease	MESH:D020258
+38443598	Positive_Correlation	MESH:D015632	MESH:D010300
+38443598	Negative_Correlation	MESH:D019958	15235
+38443598	Association	MESH:C000625617	MESH:D002258
+38443598	Association	MESH:C000625617	MESH:D007531
+38443598	Association	5071	65018
+38443598	Negative_Correlation	15235	21823
+38443598	Association	MESH:D010300	15235
+

@@ -1,0 +1,21 @@
+37131675|t|Integrative Rare Disease Biomedical Profile based Network Supporting Drug Repurposing, a case study of Glioblastoma.
+37131675|a|Background Glioblastoma (GBM) is the most aggressive and common malignant primary brain tumor; however, treatment remains a significant challenge. This study aims to identify drug repurposing candidates for GBM by developing an integrative rare disease profile network containing heterogeneous types of biomedical data. Methods We developed a Glioblastoma-based Biomedical Profile Network (GBPN) by extracting and integrating biomedical information pertinent to GBM-related diseases from the NCATS GARD Knowledge Graph (NGKG). We further clustered the GBPN based on modularity classes which resulted in multiple focused subgraphs, named mc_GBPN. We then identified high-influence nodes by performing network analysis over the mc_GBPN and validated those nodes that could be potential drug repositioning candidates for GBM. Results We developed the GBPN with 1,466 nodes and 107,423 edges and consequently the mc_GBPN with forty-one modularity classes. A list of the ten most influential nodes were identified from the mc_GBPN. These notably include Riluzole, stem cell therapy, cannabidiol, and VK-0214, with proven evidence for treating GBM. Conclusion Our GBM-targeted network analysis allowed us to effectively identify potential candidates for drug repurposing. This could lead to less invasive treatments for glioblastoma while significantly reducing research costs by shortening the drug development timeline. Furthermore, this workflow can be extended to other disease areas.
+37131675	12	24	Rare Disease	Disease	MESH:D035583
+37131675	103	115	Glioblastoma	Disease	MESH:D005909
+37131675	128	140	Glioblastoma	Disease	MESH:D005909
+37131675	142	145	GBM	Disease	MESH:D005909
+37131675	199	210	brain tumor	Disease	MESH:D001932
+37131675	324	327	GBM	Disease	MESH:D005909
+37131675	357	369	rare disease	Disease	MESH:D035583
+37131675	460	472	Glioblastoma	Disease	MESH:D005909
+37131675	579	582	GBM	Disease	MESH:D005909
+37131675	935	938	GBM	Disease	MESH:D005909
+37131675	1166	1174	Riluzole	Chemical	MESH:D019782
+37131675	1195	1206	cannabidiol	Chemical	MESH:D002185
+37131675	1212	1219	VK-0214	Chemical	-
+37131675	1255	1258	GBM	Disease	MESH:D005909
+37131675	1275	1278	GBM	Disease	MESH:D005909
+37131675	1431	1443	glioblastoma	Disease	MESH:D005909
+37131675	Negative_Correlation	MESH:D019782	MESH:D005909
+37131675	Negative_Correlation	MESH:D002185	MESH:D005909
+

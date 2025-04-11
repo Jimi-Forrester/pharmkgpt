@@ -1,0 +1,7 @@
+35514182|t|A Markov random field model-based approach for differentially expressed gene detection from single-cell RNA-seq data.
+35514182|a|The development of single-cell RNA-sequencing (scRNA-seq) technologies has offered insights into complex biological systems at the single-cell resolution. In particular, these techniques facilitate the identifications of genes showing cell-type-specific differential expressions (DE). In this paper, we introduce MARBLES, a novel statistical model for cross-condition DE gene detection from scRNA-seq data. MARBLES employs a Markov Random Field model to borrow information across similar cell types and utilizes cell-type-specific pseudobulk count to account for sample-level variability. Our simulation results showed that MARBLES is more powerful than existing methods to detect DE genes with an appropriate control of false positive rate. Applications of MARBLES to real data identified novel disease-related DE genes and biological pathways from both a single-cell lipopolysaccharide mouse dataset with 24 381 cells and 11 076 genes and a Parkinson's disease human data set with 76 212 cells and 15 891 genes. Overall, MARBLES is a powerful tool to identify cell-type-specific DE genes across conditions from scRNA-seq data.
+35514182	987	1005	lipopolysaccharide	Chemical	MESH:D008070
+35514182	1006	1011	mouse	Species	10090
+35514182	1061	1080	Parkinson's disease	Disease	MESH:D010300
+35514182	1081	1086	human	Species	9606
+

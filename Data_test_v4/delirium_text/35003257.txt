@@ -1,0 +1,28 @@
+35003257|t|Identification of Latent Diagnostic Biomarkers and Biological Pathways in Dermatomyositis Based on WGCNA.
+35003257|a|INTRODUCTION: Dermatomyositis (DM) is a chronic autoimmune disease of predominantly lymphocytic infiltration mainly involving the transverse muscle. Its pathogenesis is remaining unknown. This research is designed to probe the latent pathogenesis of dermatomyositis, identify potential biomarkers, and reveal the pathogenesis of dermatomyositis through information biology analysis of gene chips. METHODS: In this study, we utilised the GSE14287 and GSE11971 datasets rooted in the Gene Expression Omnibus (GEO) databank, which included a total of 62 DM samples and 9 normal samples. The datasets were combined, and the differentially expressed gene sets were subjected to weighted gene coexpression network analysis, and the hub gene was screened using a protein interaction network from genes in modules highly correlated with dermatomyositis progression. RESULTS: A total of 3 key genes-myxovirus resistance-2 (MX2), oligoadenylate synthetase 1 (OAS1), and oligoadenylate synthetase 2 (OAS2)-were identified in combination with cell line samples, and the expressions of the 3 genes were verified separately. The results showed that MX2, OAS1, and OAS2 were highly expressed in LPS-treated cell lines compared to normal cell lines. The results of pathway enrichment analysis of the genes indicated that all 3 genes were enriched in the cytosolic DNA signalling and cytokine and cytokine receptor interaction signalling pathways; the results of functional enrichment analysis showed that all 3 were enriched in interferon-alpha response and interferon-gamma response functions. CONCLUSIONS: This is important for the study of the pathogenesis and objective treatment of dermatomyositis and provides important reference information for the targeted therapy of dermatomyositis.
+35003257	74	89	Dermatomyositis	Disease	MESH:D003882
+35003257	120	135	Dermatomyositis	Disease	MESH:D003882
+35003257	137	139	DM	Disease	MESH:D003882
+35003257	154	172	autoimmune disease	Disease	MESH:D001327
+35003257	356	371	dermatomyositis	Disease	MESH:D003882
+35003257	435	450	dermatomyositis	Disease	MESH:D003882
+35003257	657	659	DM	Disease	MESH:D003882
+35003257	935	950	dermatomyositis	Disease	MESH:D003882
+35003257	1020	1023	MX2	Gene	4600
+35003257	1055	1059	OAS1	Gene	4938
+35003257	1095	1099	OAS2	Gene	4939
+35003257	1241	1244	MX2	Gene	4600
+35003257	1246	1250	OAS1	Gene	4938
+35003257	1256	1260	OAS2	Gene	4939
+35003257	1286	1289	LPS	Chemical	MESH:D008070
+35003257	1648	1664	interferon-gamma	Gene	3458
+35003257	1777	1792	dermatomyositis	Disease	MESH:D003882
+35003257	1866	1881	dermatomyositis	Disease	MESH:D003882
+35003257	Association	MESH:D003882	4939
+35003257	Association	MESH:D003882	3458
+35003257	Positive_Correlation	MESH:D008070	4938
+35003257	Association	MESH:D003882	4938
+35003257	Association	MESH:D003882	4600
+35003257	Positive_Correlation	MESH:D008070	4939
+35003257	Positive_Correlation	MESH:D008070	4600
+

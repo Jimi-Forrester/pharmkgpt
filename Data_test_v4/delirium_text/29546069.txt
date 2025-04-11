@@ -1,0 +1,45 @@
+29546069|t|Involvement of P2X7 Receptor in Proliferation and Migration of Human Glioma Cells.
+29546069|a|Previous studies have demonstrated that activation of P2X7 receptors (P2X7R) results in the proliferation and migration of some types of tumor. Here, we asked whether and how the activated P2X7R contribute to proliferation and migration of human glioma cells. Results showed that the number of P2X7R positive cells was increasing with grade of tumor. In U87 and U251 human glioma cell lines, both expressed P2X7R and the expression was enhanced by 3'-O-(4-benzoylbenzoyl) ATP (BzATP), the agonist of P2X7R, and siRNA. Our results also showed that 10 muM BzATP was sufficient to induce the proliferation of glioma cell significantly, while the cell proliferation reached the peak with 100 muM BzATP. Also, the migration of U87 and U251 cells was significantly increased upon BzATP treatment. However, the number of apoptotic cells of U87 and U251 was not significantly changed by BzATP. In addition, the expression of ERK, p-ERK, and proliferating cell nuclear antigen (PCNA) protein was increased in BzATP-treated U87 and U251 glioma cells. PD98059, an inhibitor of the MEK/ERK pathway, blocked the increased proliferation and migration of glioma cells activated by BzATP. These results suggest that ERK pathway is involved in the proliferation and migration of glioma cells induced by P2X7R activation.
+29546069	15	28	P2X7 Receptor	Gene	5027
+29546069	63	75	Human Glioma	Species	
+29546069	220	225	tumor	Disease	MESH:D009369
+29546069	323	335	human glioma	Species	
+29546069	427	432	tumor	Disease	MESH:D009369
+29546069	437	440	U87	CellLine	CVCL:0022
+29546069	445	449	U251	CellLine	CVCL:0021
+29546069	450	462	human glioma	Species	
+29546069	531	558	3'-O-(4-benzoylbenzoyl) ATP	Chemical	MESH:C033901
+29546069	560	565	BzATP	Chemical	MESH:C033901
+29546069	637	642	BzATP	Chemical	MESH:C033901
+29546069	689	695	glioma	Disease	MESH:D005910
+29546069	775	780	BzATP	Chemical	MESH:C033901
+29546069	805	808	U87	CellLine	CVCL:0022
+29546069	813	817	U251	CellLine	CVCL:0021
+29546069	857	862	BzATP	Chemical	MESH:C033901
+29546069	916	919	U87	CellLine	CVCL:0022
+29546069	924	928	U251	CellLine	CVCL:0021
+29546069	962	967	BzATP	Chemical	MESH:C033901
+29546069	1000	1003	ERK	Gene	5594
+29546069	1007	1010	ERK	Gene	5594
+29546069	1016	1050	proliferating cell nuclear antigen	Gene	5111
+29546069	1052	1056	PCNA	Gene	5111
+29546069	1083	1088	BzATP	Chemical	MESH:C033901
+29546069	1097	1100	U87	CellLine	CVCL:0022
+29546069	1105	1116	U251 glioma	CellLine	CVCL:0021
+29546069	1124	1131	PD98059	Chemical	MESH:C093973
+29546069	1153	1156	MEK	Gene	5609
+29546069	1157	1160	ERK	Gene	5594
+29546069	1223	1229	glioma	Disease	MESH:D005910
+29546069	1249	1254	BzATP	Chemical	MESH:C033901
+29546069	1283	1286	ERK	Gene	5594
+29546069	1345	1351	glioma	Disease	MESH:D005910
+29546069	Negative_Correlation	MESH:C093973	MESH:D005910
+29546069	Association	MESH:D005910	5594
+29546069	Positive_Correlation	MESH:C033901	5111
+29546069	Positive_Correlation	MESH:C033901	5594
+29546069	Negative_Correlation	MESH:C093973	5609
+29546069	Association	5594	5609
+29546069	Positive_Correlation	MESH:C033901	MESH:D005910
+29546069	Negative_Correlation	MESH:C033901	MESH:C093973
+29546069	Negative_Correlation	MESH:C093973	5594
+

@@ -1,0 +1,14 @@
+30908241|t|Leveraging Coupled Interaction for Multimodal Alzheimer's Disease Diagnosis.
+30908241|a|As the population becomes older worldwide, accurate computer-aided diagnosis for Alzheimer's disease (AD) in the early stage has been regarded as a crucial step for neurodegeneration care in recent years. Since it extracts the low-level features from the neuroimaging data, previous methods regarded this computer-aided diagnosis as a classification problem that ignored latent featurewise relation. However, it is known that multiple brain regions in the human brain are anatomically and functionally interlinked according to the current neuroscience perspective. Thus, it is reasonable to assume that the extracted features from different brain regions are related to each other to some extent. Also, the complementary information between different neuroimaging modalities could benefit multimodal fusion. To this end, we consider leveraging the coupled interactions in the feature level and modality level for diagnosis in this paper. First, we propose capturing the feature-level coupled interaction using a coupled feature representation. Then, to model the modality-level coupled interaction, we present two novel methods: 1) the coupled boosting (CB) that models the correlation of pairwise coupled-diversity on both inconsistently and incorrectly classified samples between different modalities and 2) the coupled metric ensemble (CME) that learns an informative feature projection from different modalities by integrating the intrarelation and interrelation of training samples. We systematically evaluated our methods with the AD neuroimaging initiative data set. By comparison with the baseline learning-based methods and the state-of-the-art methods that are specially developed for AD/MCI (mild cognitive impairment) diagnosis, our methods achieved the best performance with accuracy of 95.0% and 80.7% (CB), 94.9% and 79.9% (CME) for AD/NC (normal control), and MCI/NC identification, respectively.
+30908241	46	65	Alzheimer's Disease	Disease	MESH:D000544
+30908241	158	177	Alzheimer's disease	Disease	MESH:D000544
+30908241	179	181	AD	Disease	MESH:D000544
+30908241	242	259	neurodegeneration	Disease	MESH:D019636
+30908241	533	538	human	Species	9606
+30908241	1614	1616	AD	Disease	MESH:D000544
+30908241	1772	1774	AD	Disease	MESH:D000544
+30908241	1775	1778	MCI	Disease	
+30908241	1780	1805	mild cognitive impairment	Disease	MESH:D060825
+30908241	1925	1927	AD	Disease	MESH:D000544
+30908241	1953	1956	MCI	Disease	
+

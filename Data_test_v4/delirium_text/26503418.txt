@@ -1,0 +1,26 @@
+26503418|t|Pharmaceutical screen identifies novel target processes for activation of autophagy with a broad translational potential.
+26503418|a|Autophagy is a conserved homeostatic process active in all human cells and affecting a spectrum of diseases. Here we use a pharmaceutical screen to discover new mechanisms for activation of autophagy. We identify a subset of pharmaceuticals inducing autophagic flux with effects in diverse cellular systems modelling specific stages of several human diseases such as HIV transmission and hyperphosphorylated tau accumulation in Alzheimer's disease. One drug, flubendazole, is a potent inducer of autophagy initiation and flux by affecting acetylated and dynamic microtubules in a reciprocal way. Disruption of dynamic microtubules by flubendazole results in mTOR deactivation and dissociation from lysosomes leading to TFEB (transcription factor EB) nuclear translocation and activation of autophagy. By inducing microtubule acetylation, flubendazole activates JNK1 leading to Bcl-2 phosphorylation, causing release of Beclin1 from Bcl-2-Beclin1 complexes for autophagy induction, thus uncovering a new approach to inducing autophagic flux that may be applicable in disease treatment. 
+26503418	181	186	human	Species	9606
+26503418	466	471	human	Species	9606
+26503418	489	492	HIV	Species	11676
+26503418	530	533	tau	Disease	MESH:C536599
+26503418	550	569	Alzheimer's disease	Disease	MESH:D000544
+26503418	581	593	flubendazole	Chemical	MESH:C018945
+26503418	756	768	flubendazole	Chemical	MESH:C018945
+26503418	780	784	mTOR	Gene	2475
+26503418	841	845	TFEB	Gene	7942
+26503418	847	870	transcription factor EB	Gene	7942
+26503418	960	972	flubendazole	Chemical	MESH:C018945
+26503418	983	987	JNK1	Gene	5599
+26503418	999	1004	Bcl-2	Gene	596
+26503418	1041	1048	Beclin1	Gene	8678
+26503418	1054	1059	Bcl-2	Gene	596
+26503418	1060	1067	Beclin1	Gene	8678
+26503418	Negative_Correlation	MESH:C018945	2475
+26503418	Association	MESH:C018945	596
+26503418	Association	596	8678
+26503418	Association	5599	596
+26503418	Positive_Correlation	MESH:C018945	5599
+26503418	Association	MESH:C018945	7942
+26503418	Positive_Correlation	MESH:C018945	8678
+

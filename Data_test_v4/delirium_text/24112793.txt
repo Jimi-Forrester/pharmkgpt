@@ -1,0 +1,43 @@
+24112793|t|Interactions between GSK3beta and amyloid genes explain variance in amyloid burden.
+24112793|a|The driving theoretical framework of Alzheimer's disease (AD) has been built around the amyloid-beta (Abeta) cascade in which amyloid pathology precedes and drives tau pathology. Other evidence has suggested that tau and amyloid pathology may arise independently. Both lines of research suggest that there may be epistatic relationships between genes involved in amyloid and tau pathophysiology. In the current study, we hypothesized that genes coding glycogen synthase kinase 3 (GSK-3) and comparable tau kinases would modify genetic risk for amyloid plaque pathology. Quantitative amyloid positron emission tomography data from the Alzheimer's Disease Neuroimaging Initiative served as the quantitative outcome in regression analyses, covarying for age, gender, and diagnosis. Three interactions reached statistical significance, all involving the GSK3beta single nucleotide polymorphism rs334543-2 with APBB2 (rs2585590, rs3098914) and 1 with APP (rs457581). These interactions explained 1.2%, 1.5%, and 1.5% of the variance in amyloid deposition respectively. Our results add to a growing literature on the role of GSK-3 activity in amyloid processing and suggest that combined variation in GSK3beta and APP-related genes may result in increased amyloid burden. 
+24112793	21	29	GSK3beta	Gene	2932
+24112793	34	41	amyloid	Disease	MESH:C000718787
+24112793	68	82	amyloid burden	Disease	MESH:C000718787
+24112793	121	140	Alzheimer's disease	Disease	MESH:D000544
+24112793	142	144	AD	Disease	MESH:D000544
+24112793	172	184	amyloid-beta	Gene	351
+24112793	186	191	Abeta	Gene	351
+24112793	210	217	amyloid	Disease	MESH:C000718787
+24112793	248	251	tau	Gene	4137
+24112793	297	300	tau	Gene	4137
+24112793	305	312	amyloid	Disease	MESH:C000718787
+24112793	447	454	amyloid	Disease	MESH:C000718787
+24112793	459	462	tau	Gene	4137
+24112793	628	642	amyloid plaque	Disease	MESH:D058225
+24112793	718	737	Alzheimer's Disease	Disease	MESH:D000544
+24112793	934	942	GSK3beta	Gene	2932
+24112793	974	982	rs334543	SNP	tmVar:rs334543;VariantGroup:0;RS#:334543
+24112793	990	995	APBB2	Gene	323
+24112793	997	1006	rs2585590	SNP	tmVar:rs2585590;VariantGroup:1;CorrespondingGene:323;RS#:2585590;CorrespondingSpecies:9606
+24112793	1008	1017	rs3098914	SNP	tmVar:rs3098914;VariantGroup:3;CorrespondingGene:323;RS#:3098914;CorrespondingSpecies:9606
+24112793	1035	1043	rs457581	SNP	tmVar:rs457581;VariantGroup:2;RS#:457581
+24112793	1115	1133	amyloid deposition	Disease	MESH:D058225
+24112793	1221	1228	amyloid	Disease	MESH:C000718787
+24112793	1279	1287	GSK3beta	Gene	2932
+24112793	1334	1348	amyloid burden	Disease	MESH:C000718787
+24112793	Positive_Correlation	MESH:D058225	RS#:2585590;CorrespondingGene:323
+24112793	Association	MESH:D058225	2932
+24112793	Association	MESH:D000544	351
+24112793	Positive_Correlation	MESH:C000718787	RS#:2585590;CorrespondingGene:323
+24112793	Positive_Correlation	MESH:C000718787	RS#:457581
+24112793	Positive_Correlation	MESH:D058225	RS#:457581
+24112793	Positive_Correlation	MESH:D058225	RS#:334543
+24112793	Positive_Correlation	MESH:C000718787	RS#:3098914;CorrespondingGene:323
+24112793	Association	2932	323
+24112793	Positive_Correlation	MESH:D058225	RS#:3098914;CorrespondingGene:323
+24112793	Positive_Correlation	MESH:C000718787	RS#:334543
+24112793	Association	MESH:C000718787	4137
+24112793	Association	MESH:C000718787	2932
+24112793	Association	MESH:D058225	323
+24112793	Association	MESH:C000718787	323
+

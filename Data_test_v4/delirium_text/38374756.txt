@@ -1,0 +1,47 @@
+38374756|t|Integrated Bioinformatic Analysis and Validation Identifies Immune Microenvironment-Related Potential Biomarkers in Alzheimer's Disease.
+38374756|a|BACKGROUND: Alzheimer's disease (AD) is one of the most common neurodegenerative diseases, accompanied by cognitive and memory impairment, accounting for about 60% - 80% of dementia types. The pathogenesis of AD has not been clarified, and there is no effective therapy to prevent or treat AD. In this study, we aimed to identify the potential biomarkers involved in the brain immune microenvironment in AD. METHODS: AD datasets from GEO database were obtained to identify the differentially expressed disease-related genes (DEDRGs) in AD through weighted gene co-expression network analysis (WGCNA) and differential expression analysis. Functional Enrichment analysis was performed to explore the potential biological function of DEDRGs. The hub DEDRGs were identified through the protein-protein interaction (PPI) network. Furthermore, the CIBERSORT algorithm was employed to bulk gene expression profiles of AD to depict the immune microenvironment characteristics in AD. Pearson's correlation analysis was utilized to depict the correlation between each of immune cells and hub DEDRGs. RESULTS: A total of 27 DEDRGs were identified through WGCNA and differential expression analysis. Functional enrichment analysis of 27 DEDRGs indicated that chemokine signaling pathway was the most significantly enriched KEGG pathway, response to biotic stimulus was the most significantly enriched GO term, and most of DEDRGs were enriched into urinary system cancer in DO analysis. 6 hub DEDRGs, ANGPT1, CCL2, CD44, CXCR4, GJA1 and VCAM1, were screened through PPI network and all of them were up-regulated in AD. Immune infiltration analysis revealed that there were higher infiltration levels of T cells CD4 memory activated, T cells gamma delta, NK cells resting and macrophages M0, and lower infiltration level of NK cell activated in AD, and macrophages M2 owned the highest positively association with VCAM1 and CXCR4, but VCAM1 was statistically and negatively correlated to T cells CD8. CONCLUSION: Our study identified 6 hub DEDRGs, ANGPT1, CCL2, CD44, CXCR4, GJA1 and VCAM1, were statistically associated with immune infiltrating cells, and were significantly related to the pathological development of AD, which may provide a theoretical basis for developing potential biomarkers and implementing effective therapies against AD.
+38374756	116	135	Alzheimer's Disease	Disease	MESH:D000544
+38374756	149	168	Alzheimer's disease	Disease	MESH:D000544
+38374756	170	172	AD	Disease	MESH:D000544
+38374756	200	226	neurodegenerative diseases	Disease	MESH:D019636
+38374756	243	274	cognitive and memory impairment	Disease	MESH:D003072
+38374756	310	318	dementia	Disease	MESH:D003704
+38374756	346	348	AD	Disease	MESH:D000544
+38374756	427	429	AD	Disease	MESH:D000544
+38374756	541	543	AD	Disease	MESH:D000544
+38374756	554	556	AD	Disease	MESH:D000544
+38374756	673	675	AD	Disease	MESH:D000544
+38374756	1048	1050	AD	Disease	MESH:D000544
+38374756	1108	1110	AD	Disease	MESH:D000544
+38374756	1573	1594	urinary system cancer	Disease	MESH:D009369
+38374756	1625	1631	ANGPT1	Gene	284
+38374756	1633	1637	CCL2	Gene	6347
+38374756	1639	1643	CD44	Gene	960
+38374756	1645	1650	CXCR4	Gene	7852
+38374756	1652	1656	GJA1	Gene	2697
+38374756	1661	1666	VCAM1	Gene	7412
+38374756	1739	1741	AD	Disease	MESH:D000544
+38374756	1835	1838	CD4	Gene	920
+38374756	1968	1970	AD	Disease	MESH:D000544
+38374756	2037	2042	VCAM1	Gene	7412
+38374756	2047	2052	CXCR4	Gene	7852
+38374756	2058	2063	VCAM1	Gene	7412
+38374756	2119	2122	CD8	Gene	925
+38374756	2171	2177	ANGPT1	Gene	284
+38374756	2179	2183	CCL2	Gene	6347
+38374756	2185	2189	CD44	Gene	960
+38374756	2191	2196	CXCR4	Gene	7852
+38374756	2198	2202	GJA1	Gene	2697
+38374756	2207	2212	VCAM1	Gene	7412
+38374756	2342	2344	AD	Disease	MESH:D000544
+38374756	2465	2467	AD	Disease	MESH:D000544
+38374756	Association	MESH:D000544	925
+38374756	Association	MESH:D000544	920
+38374756	Positive_Correlation	MESH:D000544	7412
+38374756	Association	MESH:D000544	2697
+38374756	Positive_Correlation	MESH:D000544	6347
+38374756	Association	MESH:D000544	7852
+38374756	Association	MESH:D000544	960
+38374756	Positive_Correlation	MESH:D000544	284
+38374756	Association	7412	925
+

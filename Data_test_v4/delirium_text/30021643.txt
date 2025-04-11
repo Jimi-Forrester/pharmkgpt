@@ -1,0 +1,37 @@
+30021643|t|Discovery and validation of autosomal dominant Alzheimer's disease mutations.
+30021643|a|BACKGROUND: Alzheimer's disease (AD) is a neurodegenerative disease that is clinically characterized by progressive cognitive decline. Mutations in amyloid-beta precursor protein (APP), presenilin 1 (PSEN1), and presenilin 2 (PSEN2) are the pathogenic cause of autosomal dominant AD (ADAD). However, polymorphisms also exist within these genes. METHODS: In order to distinguish polymorphisms from pathogenic mutations, the DIAN Expanded Registry has implemented an algorithm for determining ADAD pathogenicity using available information from multiple domains, including genetic, bioinformatic, clinical, imaging, and biofluid measures and in vitro analyses. RESULTS: We propose that PSEN1 M84V, PSEN1 A396T, PSEN2 R284G, and APP T719N are likely pathogenic mutations, whereas PSEN1 c.379_382delXXXXinsG and PSEN2 L238F have uncertain pathogenicity. CONCLUSIONS: In defining a subset of these variants as pathogenic, individuals from these families can now be enrolled in observational and clinical trials. This study outlines a critical approach for translating genetic data into meaningful clinical outcomes.
+30021643	47	66	Alzheimer's disease	Disease	MESH:D000544
+30021643	90	109	Alzheimer's disease	Disease	MESH:D000544
+30021643	111	113	AD	Disease	MESH:D000544
+30021643	120	145	neurodegenerative disease	Disease	MESH:D019636
+30021643	194	211	cognitive decline	Disease	MESH:D003072
+30021643	226	256	amyloid-beta precursor protein	Gene	351
+30021643	264	276	presenilin 1	Gene	5663
+30021643	278	283	PSEN1	Gene	5663
+30021643	290	302	presenilin 2	Gene	5664
+30021643	304	309	PSEN2	Gene	5664
+30021643	339	360	autosomal dominant AD	Disease	MESH:D000544
+30021643	362	366	ADAD	Disease	MESH:D000544
+30021643	569	573	ADAD	Disease	MESH:D000544
+30021643	762	767	PSEN1	Gene	5663
+30021643	768	772	M84V	ProteinMutation	tmVar:p|SUB|M|84|V;HGVS:p.M84V;VariantGroup:3;CorrespondingGene:5663;CorrespondingSpecies:9606
+30021643	774	779	PSEN1	Gene	5663
+30021643	780	785	A396T	DNAMutation	tmVar:c|SUB|A|396|T;HGVS:c.396A>T;VariantGroup:0;CorrespondingGene:5663;RS#:1446915570;CorrespondingSpecies:9606
+30021643	787	792	PSEN2	Gene	5664
+30021643	793	798	R284G	ProteinMutation	tmVar:p|SUB|R|284|G;HGVS:p.R284G;VariantGroup:1;CorrespondingGene:5664;RS#:1208742830;CorrespondingSpecies:9606
+30021643	808	813	T719N	ProteinMutation	tmVar:p|SUB|T|719|N;HGVS:p.T719N;VariantGroup:4;CorrespondingGene:351;CorrespondingSpecies:9606
+30021643	855	860	PSEN1	Gene	5663
+30021643	886	891	PSEN2	Gene	5664
+30021643	892	897	L238F	ProteinMutation	tmVar:p|SUB|L|238|F;HGVS:p.L238F;VariantGroup:2;CorrespondingGene:5664;RS#:367855127;CorrespondingSpecies:9606;CA#:1424616
+30021643	Positive_Correlation	MESH:D000544	HGVS:p.T719N;CorrespondingGene:351
+30021643	Positive_Correlation	MESH:D000544	HGVS:p.M84V;CorrespondingGene:5663
+30021643	Positive_Correlation	HGVS:p.M84V;CorrespondingGene:5663	MESH:D000544
+30021643	Positive_Correlation	RS#:1446915570;HGVS:c.396A>T;CorrespondingGene:5663	MESH:D000544
+30021643	Association	MESH:D000544	5663
+30021643	Association	MESH:D000544	5664
+30021643	Association	MESH:D000544	351
+30021643	Positive_Correlation	MESH:D000544	RS#:1208742830;HGVS:p.R284G;CorrespondingGene:5664
+30021643	Association	MESH:D000544	351
+30021643	Association	MESH:D000544	5663
+30021643	Association	MESH:D000544	5664
+

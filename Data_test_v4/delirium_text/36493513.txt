@@ -1,0 +1,53 @@
+36493513|t|Identification of galectin-1 and other cellular targets of alpha,beta-unsaturated carbonyl compounds, including dimethylfumarate, by use of click-chemistry probes.
+36493513|a|alpha,beta-Unsaturated carbonyls are a common motif in environmental toxins (e.g. acrolein) as well as therapeutic drugs, including dimethylfumarate (DMFU) and monomethylfumarate (MMFU), which are used to treat multiple sclerosis and psoriasis. These compounds form adducts with protein Cys residues as well as other nucleophiles. The specific targets ('adductome') that give rise to their therapeutic or toxic activities are poorly understood. This is due, at least in part, to the absence of antigens or chromophores/fluorophores in these compounds. We have recently reported click-chemistry probes of DMFU and MMFU (Redox Biol., 2022, 52, 102299) that allow adducted proteins to be visualized and enriched for further characterization. In the current study, we hypothesized that adducted proteins could be 'clicked' to agarose beads and thereby isolated for LC-MS analysis of DMFU/MMFU targets in primary human coronary artery smooth muscle cells. We show that the probes react with thiols with similar rate constants to the parent drugs, and give rise to comparable patterns of gene induction, confirming similar biological actions. LC-MS proteomic analysis identified ~2970 cellular targets of DMFU, ~1440 for MMFU, and ~140 for the control (succinate-probe) treated samples. The most extensively modified proteins were galectin-1, annexin-A2, voltage dependent anion channel-2 and vimentin. Other previously postulated DMFU targets, including glyceraldehyde-3-phosphate dehydrogenase (GAPDH), cofilin, p65 (RELA) and Keap1 were also identified as adducted species, though at lower levels with the exception of GAPDH. These data demonstrate the utility of the click-chemistry approach to the identification of cellular protein targets of both exogenous and endogenous compounds.
+36493513	18	28	galectin-1	Gene	3956
+36493513	59	100	alpha,beta-unsaturated carbonyl compounds	Chemical	-
+36493513	112	128	dimethylfumarate	Chemical	MESH:D000069462
+36493513	246	254	acrolein	Chemical	MESH:D000171
+36493513	296	312	dimethylfumarate	Chemical	MESH:D000069462
+36493513	314	318	DMFU	Chemical	MESH:D000069462
+36493513	324	342	monomethylfumarate	Chemical	MESH:C073341
+36493513	344	348	MMFU	Chemical	MESH:C073341
+36493513	375	393	multiple sclerosis	Disease	MESH:D009103
+36493513	398	407	psoriasis	Disease	MESH:D011565
+36493513	451	454	Cys	Chemical	MESH:D003545
+36493513	768	772	DMFU	Chemical	MESH:D000069462
+36493513	777	781	MMFU	Chemical	MESH:C073341
+36493513	986	993	agarose	Chemical	MESH:D012685
+36493513	1043	1047	DMFU	Chemical	MESH:D000069462
+36493513	1048	1052	MMFU	Chemical	MESH:C073341
+36493513	1072	1077	human	Species	9606
+36493513	1150	1156	thiols	Chemical	MESH:D013438
+36493513	1363	1367	DMFU	Chemical	MESH:D000069462
+36493513	1379	1383	MMFU	Chemical	MESH:C073341
+36493513	1411	1420	succinate	Chemical	MESH:D019802
+36493513	1489	1499	galectin-1	Gene	3956
+36493513	1501	1511	annexin-A2	Gene	302
+36493513	1513	1546	voltage dependent anion channel-2	Gene	7417
+36493513	1551	1559	vimentin	Gene	7431
+36493513	1589	1593	DMFU	Chemical	MESH:D000069462
+36493513	1613	1653	glyceraldehyde-3-phosphate dehydrogenase	Gene	2597
+36493513	1655	1660	GAPDH	Gene	2597
+36493513	1663	1670	cofilin	Gene	1072
+36493513	1672	1675	p65	Gene	5970
+36493513	1677	1681	RELA	Gene	5970
+36493513	1687	1692	Keap1	Gene	9817
+36493513	1780	1785	GAPDH	Gene	2597
+36493513	Association	MESH:D000069462	5970
+36493513	Association	MESH:D000069462	302
+36493513	Association	MESH:C073341	302
+36493513	Association	MESH:D000069462	1072
+36493513	Association	MESH:C073341	7417
+36493513	Association	MESH:D000069462	2597
+36493513	Association	MESH:C073341	7431
+36493513	Positive_Correlation	MESH:C073341	MESH:D003545
+36493513	Association	MESH:D000069462	7417
+36493513	Association	MESH:D000069462	7431
+36493513	Negative_Correlation	MESH:D000069462	MESH:D009103
+36493513	Association	MESH:D000069462	3956
+36493513	Association	MESH:C073341	3956
+36493513	Negative_Correlation	MESH:C073341	MESH:D009103
+36493513	Association	MESH:D000069462	9817
+36493513	Negative_Correlation	MESH:D000069462	MESH:D011565
+36493513	Negative_Correlation	MESH:C073341	MESH:D011565
+

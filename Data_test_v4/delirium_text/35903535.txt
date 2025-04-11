@@ -1,0 +1,16 @@
+35903535|t|Classification of Alzheimer's Disease Based on Deep Learning of Brain Structural and Metabolic Data.
+35903535|a|To improve the diagnosis and classification of Alzheimer's disease (AD), a modeling method is proposed based on the combining magnetic resonance images (MRI) brain structural data with metabolite levels of the frontal and parietal regions. First, multi-atlas brain segmentation technology based on T1-weighted images and edited magnetic resonance spectroscopy (MRS) were used to extract data of 279 brain regions and levels of 12 metabolites from regions of interest (ROIs) in the frontal and parietal regions. The t-test combined with false discovery rate (FDR) correction was used to reduce the dimensionality in the data, and MRI structural data of 54 brain regions and levels of 4 metabolites that obviously correlated with AD were screened out. Lastly, the stacked auto-encoder neural network (SAE) was used to classify AD and healthy controls (HCs), which judged the effect of classification method by fivefold cross validation. The results indicated that the mean accuracy of the five experimental model increased from 96 to 100%, the AUC value increased from 0.97 to 1, specificity increased from 90 to 100%, and F1 value increased from 0.97 to 1. Comparing the effect of each metabolite on model performance revealed that the gamma-aminobutyric acid (GABA) + levels in the parietal region resulted in the most significant improvement in model performance, with the accuracy rate increasing from 96 to 98%, the AUC value increased from 0.97 to 0.99 and the specificity increasing from 90 to 95%. Moreover, the GABA + levels in the parietal region was significantly correlated with Mini Mental State Examination (MMSE) scores of patients with AD (r = 0.627), and the F statistics were largest (F = 25.538), which supports the hypothesis that dysfunctional GABAergic system play an important role in the pathogenesis of AD. Overall, our findings support that a comprehensive method that combines MRI structural and metabolic data of brain regions can improve model classification efficiency of AD.
+35903535	18	37	Alzheimer's Disease	Disease	MESH:D000544
+35903535	148	167	Alzheimer's disease	Disease	MESH:D000544
+35903535	169	171	AD	Disease	MESH:D000544
+35903535	829	831	AD	Disease	MESH:D000544
+35903535	926	928	AD	Disease	MESH:D000544
+35903535	1336	1361	gamma-aminobutyric acid (	Chemical	MESH:D005680
+35903535	1361	1366	GABA)	Chemical	MESH:D005680
+35903535	1619	1625	GABA +	Chemical	MESH:D005680
+35903535	1737	1745	patients	Species	9606
+35903535	1751	1753	AD	Disease	MESH:D000544
+35903535	1927	1929	AD	Disease	MESH:D000544
+35903535	2101	2103	AD	Disease	MESH:D000544
+35903535	Positive_Correlation	MESH:D005680	MESH:D000544
+

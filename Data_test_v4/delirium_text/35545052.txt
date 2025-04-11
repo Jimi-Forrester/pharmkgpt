@@ -1,0 +1,24 @@
+35545052|t|Functional genome-wide short hairpin RNA library screening identifies key molecules for extracellular vesicle secretion from microglia.
+35545052|a|Activated microglia release extracellular vesicles (EVs) as modulators of brain homeostasis and innate immunity. However, the molecules critical for regulating EV production from microglia are poorly understood. Here we establish a murine microglial cell model to monitor EV secretion by measuring the fluorescence signal of tdTomato, which is linked to tetraspanin CD63. Stimulation of tdTomato+ cells with ATP induces rapid secretion of EVs and a reduction in cellular tdTomato intensity, reflecting EV secretion. We generate a GFP+ tdTomato+ cell library expressing TurboGFP and barcoded short hairpin RNAs for genome-wide screening using next-generation sequencing. We identify Mcfd2, Sepp1, and Sdc1 as critical regulators of ATP-induced EV secretion from murine microglia. Small interfering RNA (siRNA-based) silencing of each of these genes suppresses lipopolysaccharide- and ATP-induced inflammasome activation, as determined by interleukin-1beta release from primary cultured murine microglia. These molecules are critical for microglial EV secretion and are potential therapeutic targets for neuroinflammatory disorders.
+35545052	368	374	murine	Species	10090
+35545052	502	506	CD63	Gene	12512
+35545052	544	547	ATP	Chemical	MESH:D000255
+35545052	818	823	Mcfd2	Gene	193813
+35545052	825	830	Sepp1	Gene	20363
+35545052	836	840	Sdc1	Gene	20969
+35545052	867	870	ATP	Chemical	MESH:D000255
+35545052	897	903	murine	Species	10090
+35545052	995	1013	lipopolysaccharide	Chemical	MESH:D008070
+35545052	1019	1022	ATP	Chemical	MESH:D000255
+35545052	1073	1090	interleukin-1beta	Gene	16176
+35545052	1121	1127	murine	Species	10090
+35545052	1238	1265	neuroinflammatory disorders	Disease	MESH:D000090862
+35545052	Association	MESH:D000255	20969
+35545052	Association	MESH:D000090862	20969
+35545052	Positive_Correlation	MESH:D000255	16176
+35545052	Positive_Correlation	MESH:D008070	16176
+35545052	Association	MESH:D000090862	20363
+35545052	Association	MESH:D000255	20363
+35545052	Association	MESH:D000090862	193813
+35545052	Association	MESH:D000255	193813
+

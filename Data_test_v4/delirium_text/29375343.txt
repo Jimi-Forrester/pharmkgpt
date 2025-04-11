@@ -1,0 +1,13 @@
+29375343|t|A Novel Early Diagnosis System for Mild Cognitive Impairment Based on Local Region Analysis: A Pilot Study.
+29375343|a|Alzheimer's disease (AD) is an irreversible neurodegenerative disorder that accounts for 60-70% of cases of dementia in the elderly. An early diagnosis of AD is usually hampered for many reasons including the variable clinical and pathological features exhibited among affected individuals. This paper presents a computer-aided diagnosis (CAD) system with the primary goal of improving the accuracy, specificity, and sensitivity of diagnosis. In this system, PiB-PET scans, which were obtained from the ADNI database, underwent five essential stages. First, the scans were standardized and de-noised. Second, an Automated Anatomical Labeling (AAL) atlas was utilized to partition the brain into 116 regions or labels that served for local (region-based) diagnosis. Third, scale-invariant Laplacian of Gaussian (LoG) was used, per brain label, to detect the discriminant features. Fourth, the regions' features were analyzed using a general linear model in the form of a two-sample t-test. Fifth, the support vector machines (SVM) and their probabilistic variant (pSVM) were constructed to provide local, followed by global diagnosis. The system was evaluated on scans of normal control (NC) vs. mild cognitive impairment (MCI) (19 NC and 65 MCI scans). The proposed system showed superior accuracy, specificity, and sensitivity as compared to other related work.
+29375343	40	60	Cognitive Impairment	Disease	MESH:D003072
+29375343	108	127	Alzheimer's disease	Disease	MESH:D000544
+29375343	129	131	AD	Disease	MESH:D000544
+29375343	152	178	neurodegenerative disorder	Disease	MESH:D019636
+29375343	216	224	dementia	Disease	MESH:D003704
+29375343	263	265	AD	Disease	MESH:D000544
+29375343	567	570	PiB	Chemical	MESH:C069442
+29375343	1308	1328	cognitive impairment	Disease	MESH:D003072
+29375343	1330	1333	MCI	Disease	MESH:D060825
+29375343	1349	1352	MCI	Disease	MESH:D060825
+

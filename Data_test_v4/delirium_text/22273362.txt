@@ -1,0 +1,35 @@
+22273362|t|Data mining of high density genomic variant data for prediction of Alzheimer's disease risk.
+22273362|a|BACKGROUND: The discovery of genetic associations is an important factor in the understanding of human illness to derive disease pathways. Identifying multiple interacting genetic mutations associated with disease remains challenging in studying the etiology of complex diseases. And although recently new single nucleotide polymorphisms (SNPs) at genes implicated in immune response, cholesterol/lipid metabolism, and cell membrane processes have been confirmed by genome-wide association studies (GWAS) to be associated with late-onset Alzheimer's disease (LOAD), a percentage of AD heritability continues to be unexplained. We try to find other genetic variants that may influence LOAD risk utilizing data mining methods. METHODS: Two different approaches were devised to select SNPs associated with LOAD in a publicly available GWAS data set consisting of three cohorts. In both approaches, single-locus analysis (logistic regression) was conducted to filter the data with a less conservative p-value than the Bonferroni threshold; this resulted in a subset of SNPs used next in multi-locus analysis (random forest (RF)). In the second approach, we took into account prior biological knowledge, and performed sample stratification and linkage disequilibrium (LD) in addition to logistic regression analysis to preselect loci to input into the RF classifier construction step. RESULTS: The first approach gave 199 SNPs mostly associated with genes in calcium signaling, cell adhesion, endocytosis, immune response, and synaptic function. These SNPs together with APOE and GAB2 SNPs formed a predictive subset for LOAD status with an average error of 9.8% using 10-fold cross validation (CV) in RF modeling. Nineteen variants in LD with ST5, TRPC1, ATG10, ANO3, NDUFA12, and NISCH respectively, genes linked directly or indirectly with neurobiology, were identified with the second approach. These variants were part of a model that included APOE and GAB2 SNPs to predict LOAD risk which produced a 10-fold CV average error of 17.5% in the classification modeling. CONCLUSIONS: With the two proposed approaches, we identified a large subset of SNPs in genes mostly clustered around specific pathways/functions and a smaller set of SNPs, within or in proximity to five genes not previously reported, that may be relevant for the prediction/understanding of AD.
+22273362	67	86	Alzheimer's disease	Disease	MESH:D000544
+22273362	190	195	human	Species	9606
+22273362	478	489	cholesterol	Chemical	MESH:D002784
+22273362	490	495	lipid	Chemical	MESH:D008055
+22273362	631	650	Alzheimer's disease	Disease	MESH:D000544
+22273362	652	656	LOAD	Disease	MESH:D000544
+22273362	675	677	AD	Disease	MESH:D000544
+22273362	777	781	LOAD	Disease	MESH:D000544
+22273362	896	900	LOAD	Disease	MESH:D000544
+22273362	1547	1554	calcium	Chemical	MESH:D002118
+22273362	1659	1663	APOE	Gene	348
+22273362	1668	1672	GAB2	Gene	9846
+22273362	1709	1713	LOAD	Disease	MESH:D000544
+22273362	1832	1835	ST5	Gene	6764
+22273362	1837	1842	TRPC1	Gene	7220
+22273362	1844	1849	ATG10	Gene	83734
+22273362	1851	1855	ANO3	Gene	63982
+22273362	1857	1864	NDUFA12	Gene	55967
+22273362	1870	1875	NISCH	Gene	11188
+22273362	2037	2041	APOE	Gene	348
+22273362	2046	2050	GAB2	Gene	9846
+22273362	2067	2071	LOAD	Disease	MESH:D000544
+22273362	2451	2453	AD	Disease	MESH:D000544
+22273362	Association	MESH:D008055	MESH:D000544
+22273362	Association	MESH:D000544	83734
+22273362	Association	MESH:D000544	63982
+22273362	Association	MESH:D000544	9846
+22273362	Association	MESH:D000544	348
+22273362	Association	MESH:D002784	MESH:D000544
+22273362	Association	MESH:D000544	55967
+22273362	Association	MESH:D000544	7220
+22273362	Association	MESH:D000544	6764
+

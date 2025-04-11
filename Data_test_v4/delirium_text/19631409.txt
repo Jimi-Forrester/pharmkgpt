@@ -1,0 +1,59 @@
+19631409|t|Astrocytes produce the antiinflammatory and neuroprotective agent hydrogen sulfide.
+19631409|a|Hydrogen sulfide (H(2)S) is an essential physiological product in brain. We investigated the expression of cystathionine-beta-synthase (CBS) and cystathionine-gamma-lyase (CGL), the two H(2)S synthesizing enzymes, in human cell lines and in human brain. Only astrocytes were strongly immunostained for CBS. Cultured astrocytes synthesized H(2)S at the rate of 15.06 micromol/g protein/h, which was 7.57 fold higher than microglial cells, 10.27 fold higher than SH-SY5Y cells and 11.32 fold higher than NT-2 cells. The H(2)S synthesis in all these cell types was inhibited by the CBS inhibitor hydroxylamine, but not by the CGL inhibitor propargylglycine (PAG). Synthesis of H(2)S by HUVEC cells was inhibited by PAG but not by hydroxylamine indicating that these vascular cells utilize CGL but not CBS. Inflammatory activation of microglia and astrocytes caused induction of NFkappaB, release of the inflammatory mediators TNFalpha, IL-6 and nitrite ions, down-regulation of CBS, and down-regulation of H(2)S synthesis. There was no effect of such treatment on HUVEC cells. The effects were partially reversed by pretreatment of cells with the H(2)S releasing agent NaSH. These data indicate that H(2)S is an endogenous antiinflammatory and neuroprotective agent under the synthetic control of CBS. H(2)S releasing drugs may have therapeutic potential in neurodegenerative disorders of aging such as Alzheimer disease and Parkinson disease.
+19631409	66	82	hydrogen sulfide	Chemical	MESH:D006862
+19631409	84	100	Hydrogen sulfide	Chemical	MESH:D006862
+19631409	102	107	H(2)S	Chemical	MESH:D006862
+19631409	191	218	cystathionine-beta-synthase	Gene	875
+19631409	220	223	CBS	Gene	875
+19631409	229	254	cystathionine-gamma-lyase	Gene	1491
+19631409	256	259	CGL	Gene	1491
+19631409	270	275	H(2)S	Chemical	MESH:D006862
+19631409	301	306	human	Species	9606
+19631409	325	330	human	Species	9606
+19631409	386	389	CBS	Gene	875
+19631409	423	428	H(2)S	Chemical	MESH:D006862
+19631409	545	552	SH-SY5Y	CellLine	CVCL:0019
+19631409	586	590	NT-2	CellLine	CVCL:JA57
+19631409	602	607	H(2)S	Chemical	MESH:D006862
+19631409	663	666	CBS	Gene	875
+19631409	677	690	hydroxylamine	Chemical	MESH:D019811
+19631409	707	710	CGL	Gene	1491
+19631409	721	737	propargylglycine	Chemical	MESH:C009055
+19631409	739	742	PAG	Chemical	MESH:C009055
+19631409	758	763	H(2)S	Chemical	MESH:D006862
+19631409	796	799	PAG	Chemical	MESH:C009055
+19631409	811	824	hydroxylamine	Chemical	MESH:D019811
+19631409	870	873	CGL	Gene	1491
+19631409	882	885	CBS	Gene	875
+19631409	887	899	Inflammatory	Disease	MESH:D007249
+19631409	959	967	NFkappaB	Gene	4790
+19631409	984	996	inflammatory	Disease	MESH:D007249
+19631409	1007	1015	TNFalpha	Gene	7124
+19631409	1017	1021	IL-6	Gene	3569
+19631409	1026	1033	nitrite	Chemical	MESH:D009573
+19631409	1059	1062	CBS	Gene	875
+19631409	1087	1092	H(2)S	Chemical	MESH:D006862
+19631409	1228	1233	H(2)S	Chemical	MESH:D006862
+19631409	1281	1286	H(2)S	Chemical	MESH:D006862
+19631409	1378	1381	CBS	Gene	875
+19631409	1383	1388	H(2)S	Chemical	MESH:D006862
+19631409	1439	1466	neurodegenerative disorders	Disease	MESH:D019636
+19631409	1484	1501	Alzheimer disease	Disease	MESH:D000544
+19631409	1506	1523	Parkinson disease	Disease	MESH:D010300
+19631409	Negative_Correlation	MESH:D007249	875
+19631409	Negative_Correlation	MESH:C009055	MESH:D006862
+19631409	Association	MESH:D006862	MESH:D010300
+19631409	Positive_Correlation	MESH:D007249	4790
+19631409	Negative_Correlation	7124	875
+19631409	Association	MESH:D009573	MESH:D007249
+19631409	Negative_Correlation	MESH:D019811	875
+19631409	Negative_Correlation	MESH:D006862	MESH:D007249
+19631409	Association	MESH:D006862	MESH:D000544
+19631409	Association	MESH:D006862	875
+19631409	Positive_Correlation	MESH:D007249	7124
+19631409	Negative_Correlation	MESH:C009055	1491
+19631409	Negative_Correlation	MESH:D006862	MESH:D019811
+19631409	Association	MESH:D006862	MESH:D019636
+19631409	Positive_Correlation	MESH:D007249	3569
+19631409	Negative_Correlation	3569	875
+

@@ -1,0 +1,17 @@
+33750375|t|A novel model to label delirium in an intensive care unit from clinician actions.
+33750375|a|BACKGROUND: In the intensive care unit (ICU), delirium is a common, acute, confusional state associated with high risk for short- and long-term morbidity and mortality. Machine learning (ML) has promise to address research priorities and improve delirium outcomes. However, due to clinical and billing conventions, delirium is often inconsistently or incompletely labeled in electronic health record (EHR) datasets. Here, we identify clinical actions abstracted from clinical guidelines in electronic health records (EHR) data that indicate risk of delirium among intensive care unit (ICU) patients. We develop a novel prediction model to label patients with delirium based on a large data set and assess model performance. METHODS: EHR data on 48,451 admissions from 2001 to 2012, available through Medical Information Mart for Intensive Care-III database (MIMIC-III), was used to identify features to develop our prediction models. Five binary ML classification models (Logistic Regression; Classification and Regression Trees; Random Forests; Naive Bayes; and Support Vector Machines) were fit and ranked by Area Under the Curve (AUC) scores. We compared our best model with two models previously proposed in the literature for goodness of fit, precision, and through biological validation. RESULTS: Our best performing model with threshold reclassification for predicting delirium was based on a multiple logistic regression using the 31 clinical actions (AUC 0.83). Our model out performed other proposed models by biological validation on clinically meaningful, delirium-associated outcomes. CONCLUSIONS: Hurdles in identifying accurate labels in large-scale datasets limit clinical applications of ML in delirium. We developed a novel labeling model for delirium in the ICU using a large, public data set. By using guideline-directed clinical actions independent from risk factors, treatments, and outcomes as model predictors, our classifier could be used as a delirium label for future clinically targeted models.
+33750375	23	31	delirium	Disease	MESH:D003693
+33750375	128	136	delirium	Disease	MESH:D003693
+33750375	157	168	confusional	Disease	MESH:D003221
+33750375	328	336	delirium	Disease	MESH:D003693
+33750375	397	405	delirium	Disease	MESH:D003693
+33750375	631	639	delirium	Disease	MESH:D003693
+33750375	672	680	patients	Species	9606
+33750375	727	735	patients	Species	9606
+33750375	741	749	delirium	Disease	MESH:D003693
+33750375	1458	1466	delirium	Disease	MESH:D003693
+33750375	1650	1658	delirium	Disease	MESH:D003693
+33750375	1793	1801	delirium	Disease	MESH:D003693
+33750375	1843	1851	delirium	Disease	MESH:D003693
+33750375	2051	2059	delirium	Disease	MESH:D003693
+

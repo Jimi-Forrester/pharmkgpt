@@ -1,0 +1,48 @@
+27200222|t|Functional Profiling of Human MeCP2 by Automated Data Comparison Analysis and Computerized Expression Pathway Modeling.
+27200222|a|OBJECTIVES: Methyl-CpG binding protein 2 (MeCP2) is a ubiquitous epigenetic factor that represses gene expression by modifying chromatin. Mutations in the MeCP2 gene cause Rett syndrome, a progressive neurodevelopmental disorder. Recent studies also have shown that MeCP2 plays a role in carcinogenesis. Specifically, functional ablation of MeCP2 suppresses cell growth and leads to the proliferation of cancer cells. However, MeCP2's function in adult tissues remains poorly understood. We utilized a weight matrix-based comparison software to identify transcription factor binding site (TFBS) of MeCP2-regulated genes, which were recognized by cDNA microarray analysis. METHODS: MeCP2 expression was silenced using annealed siRNA in HEK293 cells, and then a cDNA microarray analysis was performed. Functional analysis was carried out, and transcriptional levels in target genes regulated by MeCP2 were investigated. TFBS analysis was done within genes selected by the cDNA microarray analysis, using a weight matrix-based program and the TRANSFAC 6.0 database. RESULTS: Among the differentially expressed genes with a change in expression greater than two-fold, 189 genes were up-regulated and 91 genes were down-regulated. Genes related to apoptosis and cell proliferation (JUN, FOSL2, CYR61, SKIL, ATF3, BMABI, BMPR2, RERE, and FALZ) were highly up-regulated. Genes with anti-apoptotic and anti-proliferative functions (HNRPA0, HIS1, and FOXC1) were down-regulated. Using TFBS analysis within putative promoters of novel candidate target genes of MeCP2, disease-related transcription factors were identified. CONCLUSIONS: The present results provide insights into the new target genes regulated by MeCP2 under epigenetic control. This information will be valuable for further studies aimed at clarifying the pathogenesis of Rett syndrome and neoplastic diseases.
+27200222	24	29	Human	Species	9606
+27200222	30	35	MeCP2	Gene	4204
+27200222	132	160	Methyl-CpG binding protein 2	Gene	4204
+27200222	162	167	MeCP2	Gene	4204
+27200222	275	280	MeCP2	Gene	4204
+27200222	292	305	Rett syndrome	Disease	MESH:D015518
+27200222	321	348	neurodevelopmental disorder	Disease	MESH:D002658
+27200222	386	391	MeCP2	Gene	4204
+27200222	408	422	carcinogenesis	Disease	MESH:D063646
+27200222	461	466	MeCP2	Gene	4204
+27200222	524	530	cancer	Disease	MESH:D009369
+27200222	547	552	MeCP2	Gene	4204
+27200222	718	723	MeCP2	Gene	4204
+27200222	801	806	MeCP2	Gene	4204
+27200222	855	861	HEK293	CellLine	CVCL:0045
+27200222	1013	1018	MeCP2	Gene	4204
+27200222	1402	1407	FOSL2	Gene	2355
+27200222	1409	1414	CYR61	Gene	3491
+27200222	1416	1420	SKIL	Gene	6498
+27200222	1422	1426	ATF3	Gene	467
+27200222	1435	1440	BMPR2	Gene	659
+27200222	1442	1446	RERE	Gene	473
+27200222	1452	1456	FALZ	Gene	2186
+27200222	1544	1550	HNRPA0	Gene	10949
+27200222	1552	1556	HIS1	Gene	7435
+27200222	1562	1567	FOXC1	Gene	2296
+27200222	1671	1676	MeCP2	Gene	4204
+27200222	1822	1827	MeCP2	Gene	4204
+27200222	1948	1961	Rett syndrome	Disease	MESH:D015518
+27200222	1966	1985	neoplastic diseases	Disease	MESH:D004194
+27200222	Negative_Correlation	MESH:D009369	4204
+27200222	Association	MESH:D063646	4204
+27200222	Association	MESH:D002658	4204
+27200222	Association	MESH:D015518	4204
+27200222	Association	4204	467
+27200222	Association	4204	659
+27200222	Association	MESH:D004194	4204
+27200222	Association	4204	6498
+27200222	Association	2296	4204
+27200222	Association	4204	7435
+27200222	Association	2355	4204
+27200222	Association	3491	4204
+27200222	Association	4204	473
+27200222	Association	2186	4204
+27200222	Association	10949	4204
+

@@ -1,0 +1,16 @@
+35813016|t|Cluster-based analysis of COVID-19 cases using self-organizing map neural network and K-means methods to improve medical decision-making.
+35813016|a|In this study, we utilized unsupervised machine learning techniques to examine the relationship between different symptoms in cases who died of COVID-19 and cases who recovered from it. First, our data was cleared of redundancies, and the ten most important variables were selected using a filter-based technique (extra-tree classifier). Next, we calculated the Silhouette, Davis Boldin (DB), and the mean intra-cluster distance measures to select the optimal number of clusters, then clustered the data using both the K-means and hierarchical clustering based on Self Organizing Map (SOM) neural network. Our results revealed that patients who died of COVID-19 had high mean values in different symptoms, but not all patients with this characteristic necessarily died. Besides, our result indicated that the patient's age is directly related to the hospital duration, and elderly patients are more likely to be assigned to the intensive care unit (ICU). However, the patient's sex has the same distribution in different groups and does not correlate with other symptoms. In conclusion, our results confirmed past studies. Also, this research helps physicians improve medical services by considering other important factors for treating different groups of COVID-19 patients.
+35813016	26	34	COVID-19	Disease	MESH:D000086382
+35813016	274	278	died	Disease	MESH:D003643
+35813016	282	290	COVID-19	Disease	MESH:D000086382
+35813016	770	778	patients	Species	9606
+35813016	783	787	died	Disease	MESH:D003643
+35813016	791	799	COVID-19	Disease	MESH:D000086382
+35813016	856	864	patients	Species	9606
+35813016	902	906	died	Disease	MESH:D003643
+35813016	947	954	patient	Species	9606
+35813016	1019	1027	patients	Species	9606
+35813016	1106	1113	patient	Species	9606
+35813016	1395	1403	COVID-19	Disease	MESH:D000086382
+35813016	1404	1412	patients	Species	9606
+

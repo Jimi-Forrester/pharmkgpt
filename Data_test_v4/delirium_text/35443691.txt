@@ -1,0 +1,21 @@
+35443691|t|Comparison and aggregation of event sequences across ten cohorts to describe the consensus biomarker evolution in Alzheimer's disease.
+35443691|a|BACKGROUND: Previous models of Alzheimer's disease (AD) progression were primarily hypothetical or based on data originating from single cohort studies. However, cohort datasets are subject to specific inclusion and exclusion criteria that influence the signals observed in their collected data. Furthermore, each study measures only a subset of AD-relevant variables. To gain a comprehensive understanding of AD progression, the heterogeneity and robustness of estimated progression patterns must be understood, and complementary information contained in cohort datasets be leveraged. METHODS: We compared ten event-based models that we fit to ten independent AD cohort datasets. Additionally, we designed and applied a novel rank aggregation algorithm that combines partially overlapping, individual event sequences into a meta-sequence containing the complementary information from each cohort. RESULTS: We observed overall consistency across the ten event-based model sequences (average pairwise Kendall's tau correlation coefficient of 0.69 +- 0.28), despite variance in the positioning of mainly imaging variables. The changes described in the aggregated meta-sequence are broadly consistent with the current understanding of AD progression, starting with cerebrospinal fluid amyloid beta, followed by tauopathy, memory impairment, FDG-PET, and ultimately brain deterioration and impairment of visual memory. CONCLUSION: Overall, the event-based models demonstrated similar and robust disease cascades across independent AD cohorts. Aggregation of data-driven results can combine complementary strengths and information of patient-level datasets. Accordingly, the derived meta-sequence draws a more complete picture of AD pathology compared to models relying on single cohorts.
+35443691	114	133	Alzheimer's disease	Disease	MESH:D000544
+35443691	166	185	Alzheimer's disease	Disease	MESH:D000544
+35443691	187	189	AD	Disease	MESH:D000544
+35443691	481	483	AD	Disease	MESH:D000544
+35443691	545	547	AD	Disease	MESH:D000544
+35443691	796	798	AD	Disease	MESH:D000544
+35443691	1367	1369	AD	Disease	MESH:D000544
+35443691	1417	1429	amyloid beta	Gene	351
+35443691	1443	1452	tauopathy	Disease	MESH:D024801
+35443691	1454	1471	memory impairment	Disease	MESH:D008569
+35443691	1473	1476	FDG	Chemical	MESH:D019788
+35443691	1497	1516	brain deterioration	Disease	MESH:D001927
+35443691	1521	1548	impairment of visual memory	Disease	MESH:D014786
+35443691	1662	1664	AD	Disease	MESH:D000544
+35443691	1764	1771	patient	Species	9606
+35443691	1860	1862	AD	Disease	MESH:D000544
+35443691	Association	MESH:D000544	351
+35443691	Association	MESH:D019788	MESH:D000544
+

@@ -1,0 +1,45 @@
+21570469|t|ERK1-independent alpha-secretase cut of beta-amyloid precursor protein via M1 muscarinic receptors and PKCalpha/epsilon.
+21570469|a|The amyloid precursor protein (betaAPP) undergoes several proteolytic cleavages. While beta- and gamma-secretases are responsible for the production of the 40-43 amino-acid long amyloid beta peptide (Abeta), the alpha-secretase cut performed by the disintegrins ADAM10 and ADAM17, occurs in the middle of the Abeta sequence, thereby preventing its formation and leading to the secretion of the large sAPPalpha neuroprotective fragment. Here we showed that a series of M1 muscarinic receptor agonists dose-dependently stimulated sAPPalpha secretion without interfering with betaAPP subcellular distribution. Carbachol- and PDBu-induced sAPPalpha secretions were blocked by the general PKC inhibitor GF109203X. We established that HEK293 and rhabdhomyosarcoma cells overexpressing constitutively active (CA) PKCalpha or PKCepsilon secrete increased amounts of sAPPalpha while those expressing PKCdelta were unable to modify sAPPalpha recovery. Conversely, the overexpression of PKCalpha or PKCepsilon dominant negative (DN) constructs abolished PDBU-stimulated sAPPalpha secretion, whereas DN-PKCdelta remained inert. In agreement, PKCalpha knockout lowered sAPPalpha recovery in primary cultured fibroblasts. We also demonstrated that the regulated alpha-secretase processing of betaAPP is not controlled by the Extracellular-Regulated Kinase-1/MAP-ERK Kinase (ERK1/MEK) cascade and likely does not require ADAM17 phosphorylation on its threonine735 residue. Because the muscarinic-dependent alpha-secretase-like processing of PrP(c) is fully dependent on ADAM17 phosphorylation on its threonine735 residue by ERK1, these results indicate that a single extracellular signal triggers ADAM17-dependent regulated cleavages of betaAPP and PrP(c) through distinct signalling cascades. This opens new potential therapeutic strategies aimed, in the context of Alzheimer's disease, at selectively activating ADAM17 towards betaAPP without affecting the cleavages of its numerous other substrates.
+21570469	0	4	ERK1	Gene	5595
+21570469	40	70	beta-amyloid precursor protein	Gene	351
+21570469	103	119	PKCalpha/epsilon	Gene	5578;5581
+21570469	125	150	amyloid precursor protein	Gene	351
+21570469	321	326	Abeta	Gene	351
+21570469	383	389	ADAM10	Gene	102
+21570469	394	400	ADAM17	Gene	6868
+21570469	430	435	Abeta	Gene	351
+21570469	728	737	Carbachol	Chemical	MESH:D002217
+21570469	743	747	PDBu	Chemical	MESH:D015240
+21570469	805	808	PKC	Gene	112476
+21570469	819	829	GF109203X.	Chemical	MESH:C070515
+21570469	850	856	HEK293	CellLine	CVCL:0045
+21570469	861	878	rhabdhomyosarcoma	Disease	
+21570469	927	935	PKCalpha	Gene	5578
+21570469	939	949	PKCepsilon	Gene	5581
+21570469	1012	1020	PKCdelta	Gene	5580
+21570469	1097	1105	PKCalpha	Gene	5578
+21570469	1109	1119	PKCepsilon	Gene	5581
+21570469	1164	1168	PDBU	Chemical	MESH:D015240
+21570469	1212	1220	PKCdelta	Gene	5580
+21570469	1251	1259	PKCalpha	Gene	5578
+21570469	1481	1485	ERK1	Gene	5595
+21570469	1486	1489	MEK	Gene	5609
+21570469	1527	1533	ADAM17	Gene	6868
+21570469	1647	1653	PrP(c)	Gene	5621
+21570469	1676	1682	ADAM17	Gene	6868
+21570469	1730	1734	ERK1	Gene	5595
+21570469	1803	1809	ADAM17	Gene	6868
+21570469	1855	1861	PrP(c)	Gene	5621
+21570469	1973	1992	Alzheimer's disease	Disease	MESH:D000544
+21570469	2020	2026	ADAM17	Gene	6868
+21570469	Association	MESH:D015240	5578
+21570469	Negative_Correlation	MESH:C070515	MESH:D015240
+21570469	Association	351	5581
+21570469	Association	5595	6868
+21570469	Association	351	6868
+21570469	Negative_Correlation	MESH:C070515	112476
+21570469	Association	5621	6868
+21570469	Negative_Correlation	MESH:C070515	MESH:D002217
+21570469	Association	MESH:D000544	6868
+21570469	Association	102	351
+

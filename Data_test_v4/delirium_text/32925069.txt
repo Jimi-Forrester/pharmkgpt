@@ -1,0 +1,32 @@
+32925069|t|Data-Driven Modeling of Knowledge Assemblies in Understanding Comorbidity Between Type 2 Diabetes Mellitus and Alzheimer's Disease.
+32925069|a|BACKGROUND: Recent studies have suggested comorbid association between Alzheimer's disease (AD) and type 2 diabetes mellitus (T2DM) through identification of shared molecular mechanisms. However, the inference is pre-dominantly literature-based and lacks interpretation of pre-disposed genomic variants and transcriptomic measurables. OBJECTIVE: In this study, we aim to identify shared genetic variants and dysregulated genes in AD and T2DM and explore their functional roles in the comorbidity between the diseases. METHODS: The genetic variants for AD and T2DM were retrieved from GWAS catalog, GWAS central, dbSNP, and DisGeNet and subjected to linkage disequilibrium analysis. Next, shared variants were prioritized using RegulomeDB and Polyphen-2. Afterwards, a knowledge assembly embedding prioritized variants and their corresponding genes was created by mining relevant literature using Biological Expression Language. Finally, coherently perturbed genes from gene expression meta-analysis were mapped to the knowledge assembly to pinpoint biological entities and processes and depict a mechanistic link between AD and T2DM. RESULTS: Our analysis identified four genes (i.e., ABCG1, COMT, MMP9, and SOD2) that could have dual roles in both AD and T2DM. Using cartoon representation, we have illustrated a set of causal events surrounding these genes which are associated to biological processes such as oxidative stress, insulin resistance, apoptosis and cognition. CONCLUSION: Our approach of using data as the driving force for unraveling disease etiologies eliminates literature bias and enables identification of novel entities that serve as the bridge between comorbid conditions.
+32925069	62	73	Comorbidity	Disease	MESH:D004194
+32925069	82	106	Type 2 Diabetes Mellitus	Disease	MESH:D003924
+32925069	111	130	Alzheimer's Disease	Disease	MESH:D000544
+32925069	203	222	Alzheimer's disease	Disease	MESH:D000544
+32925069	224	226	AD	Disease	MESH:D000544
+32925069	232	256	type 2 diabetes mellitus	Disease	MESH:D003924
+32925069	258	262	T2DM	Disease	MESH:D003924
+32925069	562	564	AD	Disease	MESH:D000544
+32925069	569	573	T2DM	Disease	MESH:D003924
+32925069	616	627	comorbidity	Disease	MESH:D004194
+32925069	684	686	AD	Disease	MESH:D000544
+32925069	691	695	T2DM	Disease	MESH:D003924
+32925069	1253	1255	AD	Disease	MESH:D000544
+32925069	1260	1264	T2DM	Disease	MESH:D003924
+32925069	1317	1322	ABCG1	Gene	9619
+32925069	1324	1328	COMT	Gene	1312
+32925069	1330	1334	MMP9	Gene	4318
+32925069	1340	1344	SOD2	Gene	6648
+32925069	1381	1383	AD	Disease	MESH:D000544
+32925069	1388	1392	T2DM	Disease	MESH:D003924
+32925069	1562	1580	insulin resistance	Disease	MESH:D007333
+32925069	Association	MESH:D000544	4318
+32925069	Association	MESH:D003924	9619
+32925069	Association	MESH:D003924	4318
+32925069	Association	MESH:D000544	6648
+32925069	Association	MESH:D000544	9619
+32925069	Association	MESH:D003924	6648
+32925069	Association	MESH:D003924	1312
+32925069	Association	MESH:D000544	1312
+

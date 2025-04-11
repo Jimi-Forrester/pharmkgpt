@@ -1,0 +1,35 @@
+36459652|t|Age-related brain atrophy is not a homogenous process: Different functional brain networks associate differentially with aging and blood factors.
+36459652|a|Aging is characterized by a progressive loss of brain volume at an estimated rate of 5% per decade after age 40. While these morphometric changes, especially those affecting gray matter and atrophy of the temporal lobe, are predictors of cognitive performance, the strong association with aging obscures the potential parallel, but more specific role, of individual subject physiology. Here, we studied a cohort of 554 human subjects who were monitored using structural MRI scans and blood immune protein concentrations. Using machine learning, we derived a cytokine clock (CyClo), which predicted age with good accuracy (Mean Absolute Error = 6 y) based on the expression of a subset of immune proteins. These proteins included, among others, Placenta Growth Factor (PLGF) and Vascular Endothelial Growth Factor (VEGF), both involved in angiogenesis, the chemoattractant vascular cell adhesion molecule 1 (VCAM-1), the canonical inflammatory proteins interleukin-6 (IL-6) and tumor necrosis factor alpha (TNFalpha), the chemoattractant IP-10 (CXCL10), and eotaxin-1 (CCL11), previously involved in brain disorders. Age, sex, and the CyClo were independently associated with different functionally defined cortical networks in the brain. While age was mostly correlated with changes in the somatomotor system, sex was associated with variability in the frontoparietal, ventral attention, and visual networks. Significant canonical correlation was observed for the CyClo and the default mode, limbic, and dorsal attention networks, indicating that immune circulating proteins preferentially affect brain processes such as focused attention, emotion, memory, response to social stress, internal evaluation, and access to consciousness. Thus, we identified immune biomarkers of brain aging which could be potential therapeutic targets for the prevention of age-related cognitive decline.
+36459652	0	4	Age-	Disease	MESH:D019588
+36459652	12	25	brain atrophy	Disease	MESH:C566985
+36459652	186	206	loss of brain volume	Disease	MESH:D001927
+36459652	336	364	atrophy of the temporal lobe	Disease	MESH:D004833
+36459652	565	570	human	Species	9606
+36459652	890	912	Placenta Growth Factor	Gene	5228
+36459652	914	918	PLGF	Gene	5228
+36459652	924	958	Vascular Endothelial Growth Factor	Gene	7422
+36459652	960	964	VEGF	Gene	7422
+36459652	1018	1051	vascular cell adhesion molecule 1	Gene	7412
+36459652	1053	1059	VCAM-1	Gene	7412
+36459652	1076	1088	inflammatory	Disease	MESH:D007249
+36459652	1098	1111	interleukin-6	Gene	3569
+36459652	1113	1117	IL-6	Gene	3569
+36459652	1123	1150	tumor necrosis factor alpha	Gene	7124
+36459652	1152	1160	TNFalpha	Gene	7124
+36459652	1183	1188	IP-10	Gene	3627
+36459652	1190	1196	CXCL10	Gene	3627
+36459652	1203	1212	eotaxin-1	Gene	6356
+36459652	1214	1219	CCL11	Gene	6356
+36459652	1245	1260	brain disorders	Disease	MESH:D001927
+36459652	2000	2004	age-	Disease	MESH:D019588
+36459652	2012	2029	cognitive decline	Disease	MESH:D003072
+36459652	Association	MESH:D007249	7124
+36459652	Association	MESH:D001927	6356
+36459652	Association	MESH:D003072	3627
+36459652	Association	MESH:D001927	3569
+36459652	Association	MESH:D001927	3627
+36459652	Association	MESH:D007249	6356
+36459652	Association	MESH:D007249	3569
+36459652	Association	MESH:D003072	7412
+36459652	Association	MESH:D003072	6356
+

@@ -1,0 +1,31 @@
+34309567|t|A Machine Learning-Based Algorithm for the Prediction of Intensive Care Unit Delirium (PRIDE): Retrospective Study.
+34309567|a|BACKGROUND: Delirium frequently occurs among patients admitted to the intensive care unit (ICU). There is limited evidence to support interventions to treat or resolve delirium in patients who have already developed delirium. Therefore, the early recognition and prevention of delirium are important in the management of critically ill patients. OBJECTIVE: This study aims to develop and validate a delirium prediction model within 24 hours of admission to the ICU using electronic health record data. The algorithm was named the Prediction of ICU Delirium (PRIDE). METHODS: This is a retrospective cohort study performed at a tertiary referral hospital with 120 ICU beds. We only included patients who were 18 years or older at the time of admission and who stayed in the medical or surgical ICU. Patients were excluded if they lacked a Confusion Assessment Method for the ICU record from the day of ICU admission or if they had a positive Confusion Assessment Method for the ICU record at the time of ICU admission. The algorithm to predict delirium was developed using patient data from the first 2 years of the study period and validated using patient data from the last 6 months. Random forest (RF), Extreme Gradient Boosting (XGBoost), deep neural network (DNN), and logistic regression (LR) were used. The algorithms were externally validated using MIMIC-III data, and the algorithm with the largest area under the receiver operating characteristics (AUROC) curve in the external data set was named the PRIDE algorithm. RESULTS: A total of 37,543 cases were collected. After patient exclusion, 12,409 remained as our study population, of which 3816 (30.8%) patients experienced delirium incidents during the study period. Based on the exclusion criteria, out of the 96,016 ICU admission cases in the MIMIC-III data set, 2061 cases were included, and 272 (13.2%) delirium incidents occurred. The average AUROCs and 95% CIs for internal validation were 0.916 (95% CI 0.916-0.916) for RF, 0.919 (95% CI 0.919-0.919) for XGBoost, 0.881 (95% CI 0.878-0.884) for DNN, and 0.875 (95% CI 0.875-0.875) for LR. Regarding the external validation, the best AUROC were 0.721 (95% CI 0.72-0.721) for RF, 0.697 (95% CI 0.695-0.699) for XGBoost, 0.655 (95% CI 0.654-0.657) for DNN, and 0.631 (95% CI 0.631-0.631) for LR. The Brier score of the RF model is 0.168, indicating that it is well-calibrated. CONCLUSIONS: A machine learning approach based on electronic health record data can be used to predict delirium within 24 hours of ICU admission. RF, XGBoost, DNN, and LR models were used, and they effectively predicted delirium. However, with the potential to advise ICU physicians and prevent ICU delirium, prospective studies are required to verify the algorithm's performance.
+34309567	77	85	Delirium	Disease	MESH:D003693
+34309567	87	92	PRIDE	Disease	MESH:C000657744
+34309567	128	136	Delirium	Disease	MESH:D003693
+34309567	161	169	patients	Species	9606
+34309567	284	292	delirium	Disease	MESH:D003693
+34309567	296	304	patients	Species	9606
+34309567	332	340	delirium	Disease	MESH:D003693
+34309567	393	401	delirium	Disease	MESH:D003693
+34309567	437	451	critically ill	Disease	MESH:D016638
+34309567	452	460	patients	Species	9606
+34309567	515	523	delirium	Disease	MESH:D003693
+34309567	664	672	Delirium	Disease	MESH:D003693
+34309567	674	679	PRIDE	Disease	MESH:C000657744
+34309567	806	814	patients	Species	9606
+34309567	914	922	Patients	Species	9606
+34309567	1159	1167	delirium	Disease	MESH:D003693
+34309567	1188	1195	patient	Species	9606
+34309567	1264	1271	patient	Species	9606
+34309567	1472	1481	MIMIC-III	Disease	MESH:C537189
+34309567	1626	1631	PRIDE	Disease	MESH:C000657744
+34309567	1698	1705	patient	Species	9606
+34309567	1780	1788	patients	Species	9606
+34309567	1801	1809	delirium	Disease	MESH:D003693
+34309567	1923	1932	MIMIC-III	Disease	MESH:C537189
+34309567	1985	1993	delirium	Disease	MESH:D003693
+34309567	2612	2620	delirium	Disease	MESH:D003693
+34309567	2729	2737	delirium	Disease	MESH:D003693
+34309567	2808	2816	delirium	Disease	MESH:D003693
+

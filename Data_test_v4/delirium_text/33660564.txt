@@ -1,0 +1,69 @@
+33660564|t|Biallelic ELMO3 mutations and loss of function for DOCK-mediated RAC1 activation result in intellectual disability.
+33660564|a|The engulfment and cell motility 3 (ELMO3) protein belongs to the ELMO-family of proteins. ELMO proteins form a tight complex with the DOCK1-5 guanine nucleotide exchange factors that regulate RAC1 spatiotemporal activation and signalling. DOCK proteins and RAC1 are known to have fundamental roles in central nervous system development. Here, we searched for homozygous or compound heterozygous mutations in the ELMO3 gene in 390 whole exomes sequenced in trio in individuals with neurodevelopmental disorders compatible with a genetic origin. We found a compound heterozygous mutation in ELMO3 (c.1153A>T, p.Ser385Cys and c.1009 G > A, p.Val337Ile) in a 5 year old male child with autism spectrum disorder (ASD) and developmental delay. These mutations did not interfere with the formation of an ELMO3/DOCK1 complex, but markedly impaired the ability of the complex to promote RAC1-GTP-loading. Consequently, cells expressing DOCK1 and either of the ELMO3 mutants displayed impaired migration and invasion. Collectively, our results suggest that biallelic loss-of-function mutations in ELMO3 may cause a developmental delay and provide new insight into the role of ELMO3 in neurodevelopmental as well as the pathological consequences of ELMO3 mutations.
+33660564	10	15	ELMO3	Gene	79767
+33660564	65	69	RAC1	Gene	5879
+33660564	91	114	intellectual disability	Disease	MESH:D008607
+33660564	120	150	engulfment and cell motility 3	Gene	79767
+33660564	152	157	ELMO3	Gene	79767
+33660564	251	258	DOCK1-5	Gene	1793;1794;1795;9732;80005
+33660564	309	313	RAC1	Gene	5879
+33660564	374	378	RAC1	Gene	5879
+33660564	529	534	ELMO3	Gene	79767
+33660564	598	626	neurodevelopmental disorders	Disease	MESH:D002658
+33660564	706	711	ELMO3	Gene	79767
+33660564	713	722	c.1153A>T	DNAMutation	tmVar:c|SUB|A|1153|T;HGVS:c.1153A>T;VariantGroup:1;CorrespondingGene:9732;RS#:375983845;CorrespondingSpecies:9606;CA#:4442503
+33660564	724	735	p.Ser385Cys	ProteinMutation	tmVar:p|SUB|S|385|C;HGVS:p.S385C;VariantGroup:1;CorrespondingGene:9732;RS#:375983845;CorrespondingSpecies:9606
+33660564	740	752	c.1009 G > A	DNAMutation	tmVar:c|SUB|G|1009|A;HGVS:c.1009G>A;VariantGroup:0;CorrespondingGene:79767;RS#:183146864;CorrespondingSpecies:9606;CA#:8104476
+33660564	754	765	p.Val337Ile	ProteinMutation	tmVar:p|SUB|V|337|I;HGVS:p.V337I;VariantGroup:0;CorrespondingGene:79767;RS#:183146864;CorrespondingSpecies:9606;CA#:8104476
+33660564	799	823	autism spectrum disorder	Disease	MESH:D000067877
+33660564	825	828	ASD	Disease	MESH:D000067877
+33660564	834	853	developmental delay	Disease	MESH:D002658
+33660564	914	919	ELMO3	Gene	79767
+33660564	920	925	DOCK1	Gene	1793
+33660564	995	999	RAC1	Gene	5879
+33660564	1000	1003	GTP	Chemical	MESH:D006160
+33660564	1044	1049	DOCK1	Gene	1793
+33660564	1068	1073	ELMO3	Gene	79767
+33660564	1204	1209	ELMO3	Gene	79767
+33660564	1222	1241	developmental delay	Disease	MESH:D002658
+33660564	1283	1288	ELMO3	Gene	79767
+33660564	1355	1360	ELMO3	Gene	79767
+33660564	Association	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732	RS#:183146864;HGVS:c.1009G>A;CorrespondingGene:79767
+33660564	Positive_Correlation	MESH:D002658	RS#:375983845;HGVS:p.S385C;CorrespondingGene:9732
+33660564	Association	RS#:183146864;HGVS:c.1009G>A;CorrespondingGene:79767	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732
+33660564	Positive_Correlation	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732	RS#:375983845;HGVS:p.S385C;CorrespondingGene:9732
+33660564	Association	MESH:D000067877	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732
+33660564	Association	MESH:D006160	5879
+33660564	Positive_Correlation	MESH:D002658	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732
+33660564	Positive_Correlation	MESH:D002658	RS#:183146864;HGVS:c.1009G>A;CorrespondingGene:79767
+33660564	Association	RS#:183146864;HGVS:p.V337I;CorrespondingGene:79767	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732
+33660564	Positive_Correlation	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732	MESH:D002658
+33660564	Association	RS#:183146864;HGVS:c.1009G>A;CorrespondingGene:79767	MESH:D000067877
+33660564	Association	MESH:D008607	79767
+33660564	Association	1793	79767
+33660564	Association	MESH:D000067877	RS#:183146864;HGVS:p.V337I;CorrespondingGene:79767
+33660564	Association	MESH:D000067877	RS#:183146864;HGVS:c.1009G>A;CorrespondingGene:79767
+33660564	Positive_Correlation	MESH:D002658	RS#:183146864;HGVS:p.V337I;CorrespondingGene:79767
+33660564	Association	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732
+33660564	Positive_Correlation	5879	79767
+33660564	Association	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732	MESH:D000067877
+33660564	Association	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732
+33660564	Positive_Correlation	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732	RS#:183146864;HGVS:p.V337I;CorrespondingGene:79767
+33660564	Association	MESH:D002658	79767
+33660564	Association	MESH:D008607	5879
+33660564	Association	MESH:D000067877	RS#:375983845;HGVS:p.S385C;CorrespondingGene:9732
+33660564	Positive_Correlation	RS#:183146864;HGVS:c.1009G>A;CorrespondingGene:79767	MESH:D002658
+33660564	Association	RS#:183146864;HGVS:c.1009G>A;CorrespondingGene:79767	RS#:183146864;HGVS:p.V337I;CorrespondingGene:79767
+33660564	Association	5879	9732
+33660564	Positive_Correlation	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732	RS#:375983845;HGVS:c.1153A>T;CorrespondingGene:9732
+33660564	Association	RS#:183146864;HGVS:c.1009G>A;CorrespondingGene:79767	RS#:375983845;HGVS:p.S385C;CorrespondingGene:9732
+33660564	Association	MESH:D000067877	79767
+33660564	Association	1794	5879
+33660564	Positive_Correlation	1793	5879
+33660564	Association	5879	80005
+33660564	Association	1795	5879
+33660564	Association	MESH:D002658	9732
+33660564	Association	MESH:D000067877	9732
+33660564	Association	MESH:D002658	79767
+33660564	Association	MESH:D000067877	79767
+

@@ -1,0 +1,17 @@
+31268542|t|Machine Learning Approach to Inpatient Violence Risk Assessment Using Routinely Collected Clinical Notes in Electronic Health Records.
+31268542|a|Importance: Inpatient violence remains a significant problem despite existing risk assessment methods. The lack of robustness and the high degree of effort needed to use current methods might be mitigated by using routinely registered clinical notes. Objective: To develop and validate a multivariable prediction model for assessing inpatient violence risk based on machine learning techniques applied to clinical notes written in patients' electronic health records. Design, Setting, and Participants: This prognostic study used retrospective clinical notes registered in electronic health records during admission at 2 independent psychiatric health care institutions in the Netherlands. No exclusion criteria for individual patients were defined. At site 1, all adults admitted between January 2013 and August 2018 were included, and at site 2 all adults admitted to general psychiatric wards between June 2016 and August 2018 were included. Data were analyzed between September 2018 and February 2019. Main Outcomes and Measures: Predictive validity and generalizability of prognostic models measured using area under the curve (AUC). Results: Clinical notes recorded during a total of 3189 admissions of 2209 unique individuals at site 1 (mean [SD] age, 34.0 [16.6] years; 1536 [48.2%] male) and 3253 admissions of 1919 unique individuals at site 2 (mean [SD] age, 45.9 [16.6] years; 2097 [64.5%] male) were analyzed. Violent outcome was determined using the Staff Observation Aggression Scale-Revised. Nested cross-validation was used to train and evaluate models that assess violence risk during the first 4 weeks of admission based on clinical notes available after 24 hours. The predictive validity of models was measured at site 1 (AUC = 0.797; 95% CI, 0.771-0.822) and site 2 (AUC = 0.764; 95% CI, 0.732-0.797). The validation of pretrained models in the other site resulted in AUCs of 0.722 (95% CI, 0.690-0.753) at site 1 and 0.643 (95% CI, 0.610-0.675) at site 2; the difference in AUCs between the internally trained model and the model trained on other-site data was significant at site 1 (AUC difference = 0.075; 95% CI, 0.045-0.105; P < .001) and site 2 (AUC difference = 0.121; 95% CI, 0.085-0.156; P < .001). Conclusions and Relevance: Internally validated predictions resulted in AUC values with good predictive validity, suggesting that automatic violence risk assessment using routinely registered clinical notes is possible. The validation of trained models using data from other sites corroborates previous findings that violence risk assessment generalizes modestly to different populations.
+31268542	29	38	Inpatient	Species	
+31268542	39	47	Violence	Disease	
+31268542	147	156	Inpatient	Disease	
+31268542	157	165	violence	Disease	
+31268542	468	477	inpatient	Species	
+31268542	478	486	violence	Disease	
+31268542	566	574	patients	Species	9606
+31268542	768	779	psychiatric	Disease	MESH:D001523
+31268542	862	870	patients	Species	9606
+31268542	1013	1024	psychiatric	Disease	MESH:D001523
+31268542	1617	1627	Aggression	Disease	MESH:D010554
+31268542	1717	1725	violence	Disease	
+31268542	2504	2512	violence	Disease	
+31268542	2681	2689	violence	Disease	
+

@@ -1,0 +1,29 @@
+38812098|t|Automated deep learning segmentation of neuritic plaques and neurofibrillary tangles in Alzheimer disease brain sections using a proprietary software.
+38812098|a|Neuropathological diagnosis of Alzheimer disease (AD) relies on semiquantitative analysis of phosphorylated tau-positive neurofibrillary tangles (NFTs) and neuritic plaques (NPs), without consideration of lesion heterogeneity in individual cases. We developed a deep learning workflow for automated annotation and segmentation of NPs and NFTs from AT8-immunostained whole slide images (WSIs) of AD brain sections. Fifteen WSIs of frontal cortex from 4 biobanks with varying tissue quality, staining intensity, and scanning formats were analyzed. We established an artificial intelligence (AI)-driven iterative procedure to improve the generation of expert-validated annotation datasets for NPs and NFTs thereby increasing annotation quality by >50%. This strategy yielded an expert-validated annotation database with 5013 NPs and 5143 NFTs. We next trained two U-Net convolutional neural networks for detection and segmentation of NPs or NFTs, achieving high accuracy and consistency (mean Dice similarity coefficient: NPs, 0.77; NFTs, 0.81). The workflow showed high generalization performance across different cases. This study serves as a proof-of-concept for the utilization of proprietary image analysis software (Visiopharm) in the automated deep learning segmentation of NPs and NFTs, demonstrating that AI can significantly improve the annotation quality of complex neuropathological features and enable the creation of highly precise models for identifying these markers in AD brain sections.
+38812098	40	56	neuritic plaques	Disease	MESH:D058225
+38812098	61	84	neurofibrillary tangles	Disease	MESH:D055956
+38812098	88	105	Alzheimer disease	Disease	MESH:D000544
+38812098	182	199	Alzheimer disease	Disease	MESH:D000544
+38812098	201	203	AD	Disease	MESH:D000544
+38812098	259	262	tau	Gene	4137
+38812098	272	295	neurofibrillary tangles	Disease	MESH:D055956
+38812098	297	301	NFTs	Disease	MESH:D055956
+38812098	307	323	neuritic plaques	Disease	MESH:D058225
+38812098	325	328	NPs	Disease	MESH:D058225
+38812098	481	484	NPs	Disease	MESH:D058225
+38812098	489	493	NFTs	Disease	MESH:D055956
+38812098	546	548	AD	Disease	MESH:D000544
+38812098	841	844	NPs	Disease	MESH:D058225
+38812098	849	853	NFTs	Disease	MESH:D055956
+38812098	973	976	NPs	Disease	MESH:D058225
+38812098	986	990	NFTs	Disease	MESH:D055956
+38812098	1082	1085	NPs	Disease	MESH:D058225
+38812098	1089	1093	NFTs	Disease	MESH:D055956
+38812098	1170	1173	NPs	Disease	MESH:D058225
+38812098	1181	1185	NFTs	Disease	MESH:D055956
+38812098	1429	1432	NPs	Disease	MESH:D058225
+38812098	1437	1441	NFTs	Disease	MESH:D055956
+38812098	1634	1636	AD	Disease	MESH:D000544
+38812098	Association	MESH:D000544	4137
+38812098	Association	MESH:D055956	4137
+

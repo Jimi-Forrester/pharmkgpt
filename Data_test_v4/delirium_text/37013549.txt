@@ -1,0 +1,35 @@
+37013549|t|Filter exchange imaging with crusher gradient modelling detects increased blood-brain barrier water permeability in response to mild lung infection.
+37013549|a|Blood-brain barrier (BBB) dysfunction occurs in many brain diseases, and there is increasing evidence to suggest that it is an early process in dementia which may be exacerbated by peripheral infection. Filter-exchange imaging (FEXI) is an MRI technique for measuring trans-membrane water exchange. FEXI data is typically analysed using the apparent exchange rate (AXR) model, yielding estimates of the AXR. Crusher gradients are commonly used to remove unwanted coherence pathways arising from longitudinal storage pulses during the mixing period. We first demonstrate that when using thin slices, as is needed for imaging the rodent brain, crusher gradients result in underestimation of the AXR. To address this, we propose an extended crusher-compensated exchange rate (CCXR) model to account for diffusion-weighting introduced by the crusher gradients, which is able to recover ground truth values of BBB water exchange (kin) in simulated data. When applied to the rat brain, kin estimates obtained using the CCXR model were 3.10 s-1 and 3.49 s-1 compared to AXR estimates of 1.24 s-1 and 0.49 s-1 for slice thicknesses of 4.0 mm and 2.5 mm respectively. We then validated our approach using a clinically relevant Streptococcus pneumoniae lung infection. We observed a significant 70 +- 10% increase in BBB water exchange in rats during active infection (kin = 3.78 +- 0.42 s-1) compared to before infection (kin = 2.72 +- 0.30 s-1; p = 0.02). The BBB water exchange rate during infection was associated with higher levels of plasma von Willebrand factor (VWF), a marker of acute vascular inflammation. We also observed 42% higher expression of perivascular aquaporin-4 (AQP4) in infected animals compared to non-infected controls, while levels of tight junction proteins remain consistent between groups. In summary, we propose a modelling approach for FEXI data which removes the bias in estimated water-exchange rates associated with the use of crusher gradients. Using this approach, we demonstrate the impact of peripheral infection on BBB water exchange, which appears to be mediated by endothelial dysfunction and associated with an increase in perivascular AQP4.
+37013549	94	99	water	Chemical	MESH:D014867
+37013549	133	147	lung infection	Disease	MESH:D012141
+37013549	149	186	Blood-brain barrier (BBB) dysfunction	Disease	MESH:C536830
+37013549	202	216	brain diseases	Disease	MESH:D001927
+37013549	293	301	dementia	Disease	MESH:D003704
+37013549	341	350	infection	Disease	MESH:D007239
+37013549	432	437	water	Chemical	MESH:D014867
+37013549	1058	1063	water	Chemical	MESH:D014867
+37013549	1118	1121	rat	Species	10116
+37013549	1367	1391	Streptococcus pneumoniae	Species	1313
+37013549	1392	1406	lung infection	Disease	MESH:D012141
+37013549	1460	1465	water	Chemical	MESH:D014867
+37013549	1478	1482	rats	Species	10116
+37013549	1497	1506	infection	Disease	MESH:D007239
+37013549	1551	1560	infection	Disease	MESH:D007239
+37013549	1605	1610	water	Chemical	MESH:D014867
+37013549	1632	1641	infection	Disease	MESH:D007239
+37013549	1686	1707	von Willebrand factor	Gene	116669
+37013549	1709	1712	VWF	Gene	116669
+37013549	1733	1754	vascular inflammation	Disease	MESH:D007249
+37013549	1811	1822	aquaporin-4	Gene	25293
+37013549	1824	1828	AQP4	Gene	25293
+37013549	2053	2058	water	Chemical	MESH:D014867
+37013549	2181	2190	infection	Disease	MESH:D007239
+37013549	2198	2203	water	Chemical	MESH:D014867
+37013549	2246	2269	endothelial dysfunction	Disease	MESH:D014652
+37013549	2318	2322	AQP4	Gene	25293
+37013549	Association	MESH:D007249	116669
+37013549	Positive_Correlation	MESH:D007239	116669
+37013549	Association	MESH:D014867	MESH:D012141
+37013549	Association	MESH:D014867	MESH:D007249
+37013549	Association	MESH:D014867	116669
+

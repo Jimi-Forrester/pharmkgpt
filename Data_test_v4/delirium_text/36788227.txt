@@ -1,0 +1,58 @@
+36788227|t|Targeting PSAT1 to mitigate metastasis in tumors with p53-72Pro variant.
+36788227|a|The single-nucleotide polymorphism (SNP) of p53, in particular the codon 72 variants, has recently been implicated as a critical regulator in tumor progression. However, the underlying mechanism remains elusive. Here we found that cancer cells carrying codon 72-Pro variant of p53 showed impaired metastatic potential upon serine supplementation. Proteome-wide mapping of p53-interacting proteins uncovered a specific interaction of the codon 72 proline variant (but not p5372R) with phosphoserine aminotransferase 1 (PSAT1). Interestingly, p5372P-PSAT1 interaction resulted in dissociation of peroxisome proliferator-activated receptor-gamma coactivator 1alpha (PGC-1alpha) that otherwise bound to p5372P, leading to subsequent nuclear translocation of PGC-1alpha and activation of oxidative phosphorylation (OXPHOS) and tricarboxylic acid (TCA) cycle. Depletion of PSAT1 restored p5372P-PGC-1alpha interaction and impeded the OXPHOS and TCA function, resulting in mitochondrial dysfunction and metastasis suppression. Notably, pharmacological targeting the PSAT1-p5372P interaction by aminooxyacetic acid (AOA) crippled the growth of liver cancer cells carrying the p5372P variant in both in vitro and patient-derived xenograft models. Moreover, AOA plus regorafenib, an FDA-proved drug for hepatocellular carcinoma and colorectal cancer, achieved a better anti-tumor effect on tumors carrying the p5372P variant. Therefore, our findings identified a gain of function of the p5372P variant on mitochondrial function and provided a promising precision strategy to treat tumors vulnerable to p5372P-PSAT1 perturbation.
+36788227	10	15	PSAT1	Gene	29968
+36788227	28	38	metastasis	Disease	MESH:D009362
+36788227	42	48	tumors	Disease	MESH:D009369
+36788227	54	57	p53	Gene	7157
+36788227	117	120	p53	Gene	7157
+36788227	215	220	tumor	Disease	MESH:D009369
+36788227	304	310	cancer	Disease	MESH:D009369
+36788227	350	353	p53	Gene	7157
+36788227	396	402	serine	Chemical	MESH:D012694
+36788227	445	448	p53	Gene	7157
+36788227	557	589	phosphoserine aminotransferase 1	Gene	29968
+36788227	591	596	PSAT1	Gene	29968
+36788227	621	626	PSAT1	Gene	29968
+36788227	667	734	peroxisome proliferator-activated receptor-gamma coactivator 1alpha	Gene	10891
+36788227	736	746	PGC-1alpha	Gene	10891
+36788227	827	837	PGC-1alpha	Gene	10891
+36788227	895	913	tricarboxylic acid	Chemical	MESH:D014233
+36788227	915	918	TCA	Chemical	MESH:D014233
+36788227	940	945	PSAT1	Gene	29968
+36788227	962	972	PGC-1alpha	Gene	10891
+36788227	1012	1015	TCA	Chemical	MESH:D014233
+36788227	1039	1064	mitochondrial dysfunction	Disease	MESH:D028361
+36788227	1069	1079	metastasis	Disease	MESH:D009362
+36788227	1132	1137	PSAT1	Gene	29968
+36788227	1160	1179	aminooxyacetic acid	Chemical	MESH:D000625
+36788227	1181	1184	AOA	Chemical	MESH:D000625
+36788227	1209	1221	liver cancer	Disease	MESH:D006528
+36788227	1277	1284	patient	Species	9606
+36788227	1321	1324	AOA	Chemical	MESH:D000625
+36788227	1330	1341	regorafenib	Chemical	MESH:C559147
+36788227	1366	1390	hepatocellular carcinoma	Disease	MESH:D006528
+36788227	1395	1412	colorectal cancer	Disease	MESH:D015179
+36788227	1437	1442	tumor	Disease	MESH:D009369
+36788227	1453	1459	tumors	Disease	MESH:D009369
+36788227	1644	1650	tumors	Disease	MESH:D009369
+36788227	1672	1677	PSAT1	Gene	29968
+36788227	Association	MESH:D014233	MESH:D009362
+36788227	Association	MESH:D006528	29968
+36788227	Negative_Correlation	MESH:C559147	MESH:D009369
+36788227	Association	MESH:D000625	29968
+36788227	Association	MESH:D028361	29968
+36788227	Association	MESH:D009362	7157
+36788227	Cotreatment	MESH:C559147	MESH:D000625
+36788227	Association	MESH:D009362	29968
+36788227	Negative_Correlation	MESH:C559147	MESH:D006528
+36788227	Association	10891	29968
+36788227	Negative_Correlation	MESH:D000625	MESH:D009369
+36788227	Negative_Correlation	MESH:D000625	MESH:D006528
+36788227	Association	29968	7157
+36788227	Association	MESH:D012694	7157
+36788227	Association	MESH:D014233	29968
+36788227	Negative_Correlation	MESH:D000625	MESH:D015179
+36788227	Association	MESH:D009369	7157
+36788227	Negative_Correlation	MESH:C559147	MESH:D015179
+36788227	Association	MESH:D009369	29968
+

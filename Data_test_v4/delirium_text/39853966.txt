@@ -1,0 +1,33 @@
+39853966|t|Tau Pathology Drives Disease-Associated Astrocyte Reactivity in Salt-Induced Neurodegeneration.
+39853966|a|Dietary high salt intake is increasingly recognized as a risk factor for cognitive decline and dementia, including Alzheimer's disease (AD). Recent studies have identified a population of disease-associated astrocytes (DAA)-like astrocytes closely linked to amyloid deposition and tau pathology in an AD mouse model. However, the presence and role of these astrocytes in high-salt diet (HSD) models remain unexplored. In this study, it is demonstrated that HSD significantly induces enhanced reactivity of DAA-like astrocytes in the hippocampal CA3 region of mice, with this reactivity being critically dependent on neuronal tau pathology. Neuronal tau pathology activates adenosine A1R signaling, exacerbating tau pathology by inhibiting the Cers1 pathway, which sustains astrocyte reactivity. Additionally, neurons burdened with tau pathology promote astrocyte reactivity via releasing Proteins Associated with Promoting DAA-like Astrocyte Reactivity (PAPD), with Lcn2 playing a pivotal role. Knockout of Lcn2 or its receptor 24p3R significantly mitigates HSD-induced DAA reactivity and neuroinflammation. These findings suggest a vicious cycle between tau pathology and A1R signaling, driving DAA-like astrocyte reactivity. Targeting the Tau-A1R axis may provide a novel therapeutic strategy for reducing HSD-induced neuroinflammation and cognitive deficits.
+39853966	64	68	Salt	Chemical	MESH:D012492
+39853966	77	94	Neurodegeneration	Disease	MESH:D019636
+39853966	109	113	salt	Chemical	MESH:D012492
+39853966	169	186	cognitive decline	Disease	MESH:D003072
+39853966	191	199	dementia	Disease	MESH:D003704
+39853966	211	230	Alzheimer's disease	Disease	MESH:D000544
+39853966	232	234	AD	Disease	MESH:D000544
+39853966	354	372	amyloid deposition	Disease	MESH:D058225
+39853966	397	399	AD	Disease	MESH:D000544
+39853966	400	405	mouse	Species	10090
+39853966	472	476	salt	Chemical	MESH:D012492
+39853966	655	659	mice	Species	10090
+39853966	839	844	Cers1	Gene	93898
+39853966	1062	1066	Lcn2	Gene	16819
+39853966	1103	1107	Lcn2	Gene	16819
+39853966	1124	1129	24p3R	Gene	59049
+39853966	1185	1202	neuroinflammation	Disease	MESH:D000090862
+39853966	1269	1272	A1R	Gene	11539
+39853966	1341	1344	A1R	Gene	11539
+39853966	1416	1433	neuroinflammation	Disease	MESH:D000090862
+39853966	1438	1456	cognitive deficits	Disease	MESH:D003072
+39853966	Association	MESH:D000090862	11539
+39853966	Positive_Correlation	MESH:D012492	MESH:D003704
+39853966	Positive_Correlation	MESH:D012492	MESH:D019636
+39853966	Positive_Correlation	MESH:D012492	MESH:D003072
+39853966	Association	MESH:D000090862	16819
+39853966	Bind	16819	59049
+39853966	Association	MESH:D000090862	59049
+39853966	Association	MESH:D003072	11539
+39853966	Positive_Correlation	MESH:D012492	MESH:D000544
+

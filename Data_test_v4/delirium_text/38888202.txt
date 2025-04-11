@@ -1,0 +1,34 @@
+38888202|t|Unveiling metabolic patterns in dementia: Insights from high-resolution quantitative blood-oxygenation-level-dependent MRI.
+38888202|a|BACKGROUND: Oxygen extraction fraction (OEF) and deoxyhemoglobin (DoHb) levels reflect variations in cerebral oxygen metabolism in demented patients. PURPOSE: Delineating the metabolic profiles evident throughout different phases of dementia necessitates an integrated analysis of OEF and DoHb levels. This is enabled by leveraging high-resolution quantitative blood oxygenation level dependent (qBOLD) analysis of magnitude images obtained from a multi-echo gradient-echo MRI (mGRE) scan performed on a 3.0 Tesla scanner. METHODS: Achieving superior spatial resolution in qBOLD necessitates the utilization of an mGRE scan with only four echoes, which in turn limits the number of measurements compared to the parameters within the qBOLD model. Consequently, it becomes imperative to discard non-essential parameters to facilitate further analysis. This process entails transforming the qBOLD model into a format suitable for fitting the log-magnitude difference (L-MDif) profiles of the four echo magnitudes present in each brain voxel. In order to bolster spatial specificity, the log-difference qBOLD model undergoes refinement into a representative form, termed as r-qBOLD, particularly when applied to class-averaged L-MDif signals derived through k-means clustering of L-MDif signals from all brain voxels into a predetermined number of clusters. The agreement between parameters estimated using r-qBOLD for different cluster sizes is validated using Bland-Altman analysis, and the model's goodness-of-fit is evaluated using a  chi 2 ${ chi ^2}$  -test. Retrospective MRI data of Alzheimer's disease (AD), mild cognitive impairment (MCI), and non-demented patients without neuropathological disorders, pacemakers, other implants, or psychiatric disorders, who completed a minimum of three visits prior to MRI enrolment, are utilized for the study. RESULTS: Utilizing a cohort comprising 30 demented patients aged 65-83 years in stages 4-6 representing mild, moderate, and severe stages according to the clinical dementia rating (CDR), matched with an age-matched non-demented control group of 18 individuals, we conducted joint observations of OEF and DoHb levels estimated using r-qBOLD. The observations elucidate metabolic signatures in dementia based on OEF and DoHb levels in each voxel. Our principal findings highlight the significance of spatial patterns of metabolic profiles (metabolic patterns) within two distinct regimes: OEF levels exceeding the normal range (S1-regime), and OEF levels below the normal range (S2-regime). The S1-regime, accompanied by low DoHb levels, predominantly manifests in fronto-parietal and perivascular regions with increase in dementia severity. Conversely, the S2-regime, accompanied by low DoHb levels, is observed in medial temporal (MTL) regions. Other regions with abnormal metabolic patterns included the orbitofrontal cortex (OFC), medial-orbital prefrontal cortex (MOPFC), hypothalamus, ventro-medial prefrontal cortex (VMPFC), and retrosplenial cortex (RSP). Dysfunction in the OFC and MOPFC indicated cognitive and emotional impairment, while hypothalamic involvement potentially indicated preclinical dementia. Reduced metabolic activity in the RSP suggested early-stage AD related functional abnormalities. CONCLUSIONS: Integrated analysis of OEF and DoHb levels using r-qBOLD reveals distinct metabolic signatures across dementia phases, highlighting regions susceptible to neuronal loss, vascular involvement, and preclinical indicators.
+38888202	32	40	dementia	Disease	MESH:D003704
+38888202	136	142	Oxygen	Chemical	MESH:D010100
+38888202	234	240	oxygen	Chemical	MESH:D010100
+38888202	264	272	patients	Species	9606
+38888202	357	365	dementia	Disease	MESH:D003704
+38888202	1711	1730	Alzheimer's disease	Disease	MESH:D000544
+38888202	1732	1734	AD	Disease	MESH:D000544
+38888202	1737	1762	mild cognitive impairment	Disease	MESH:D060825
+38888202	1764	1767	MCI	Disease	MESH:D060825
+38888202	1787	1795	patients	Species	9606
+38888202	1804	1831	neuropathological disorders	Disease	MESH:D009422
+38888202	1864	1885	psychiatric disorders	Disease	MESH:D001523
+38888202	2030	2038	patients	Species	9606
+38888202	2143	2151	dementia	Disease	MESH:D003704
+38888202	2371	2379	dementia	Disease	MESH:D003704
+38888202	2656	2658	S2	CellLine	CVCL:Z232
+38888202	2800	2808	dementia	Disease	MESH:D003704
+38888202	2835	2837	S2	CellLine	CVCL:Z232
+38888202	3141	3163	Dysfunction in the OFC	Disease	MESH:D001480
+38888202	3184	3218	cognitive and emotional impairment	Disease	MESH:D003072
+38888202	3285	3293	dementia	Disease	MESH:D003704
+38888202	3355	3357	AD	Disease	MESH:D000544
+38888202	3366	3390	functional abnormalities	Disease	MESH:D000014
+38888202	3507	3515	dementia	Disease	MESH:D003704
+38888202	3560	3573	neuronal loss	Disease	MESH:D009410
+38888202	Association	MESH:D010100	MESH:D060825
+38888202	Association	MESH:D010100	MESH:D009410
+38888202	Association	MESH:D010100	MESH:D000014
+38888202	Association	MESH:D010100	MESH:D000544
+38888202	Association	MESH:D010100	MESH:D003704
+38888202	Association	MESH:D010100	MESH:D003072
+

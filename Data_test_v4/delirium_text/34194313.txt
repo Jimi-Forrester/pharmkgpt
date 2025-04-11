@@ -1,0 +1,14 @@
+34194313|t|Temporal Integration of Text Transcripts and Acoustic Features for Alzheimer's Diagnosis Based on Spontaneous Speech.
+34194313|a|Background: Advances in machine learning (ML) technology have opened new avenues for detection and monitoring of cognitive decline. In this study, a multimodal approach to Alzheimer's dementia detection based on the patient's spontaneous speech is presented. This approach was tested on a standard, publicly available Alzheimer's speech dataset for comparability. The data comprise voice samples from 156 participants (1:1 ratio of Alzheimer's to control), matched by age and gender. Materials and Methods: A recently developed Active Data Representation (ADR) technique for voice processing was employed as a framework for fusion of acoustic and textual features at sentence and word level. Temporal aspects of textual features were investigated in conjunction with acoustic features in order to shed light on the temporal interplay between paralinguistic (acoustic) and linguistic (textual) aspects of Alzheimer's speech. Combinations between several configurations of ADR features and more traditional bag-of-n-grams approaches were used in an ensemble of classifiers built and evaluated on a standardised dataset containing recorded speech of scene descriptions and textual transcripts. Results: Employing only semantic bag-of-n-grams features, an accuracy of 89.58% was achieved in distinguishing between Alzheimer's patients and healthy controls. Adding temporal and structural information by combining bag-of-n-grams features with ADR audio/textual features, the accuracy could be improved to 91.67% on the test set. An accuracy of 93.75% was achieved through late fusion of the three best feature configurations, which corresponds to a 4.7% improvement over the best result reported in the literature for this dataset. Conclusion: The proposed combination of ADR audio and textual features is capable of successfully modelling temporal aspects of the data. The machine learning approach toward dementia detection achieves best performance when ADR features are combined with strong semantic bag-of-n-grams features. This combination leads to state-of-the-art performance on the AD classification task.
+34194313	67	78	Alzheimer's	Disease	MESH:D000544
+34194313	231	248	cognitive decline	Disease	MESH:D003072
+34194313	290	310	Alzheimer's dementia	Disease	MESH:D000544
+34194313	334	341	patient	Species	9606
+34194313	436	447	Alzheimer's	Disease	MESH:D000544
+34194313	550	561	Alzheimer's	Disease	MESH:D000544
+34194313	1022	1033	Alzheimer's	Disease	MESH:D000544
+34194313	1428	1439	Alzheimer's	Disease	MESH:D000544
+34194313	1440	1448	patients	Species	9606
+34194313	2020	2028	dementia	Disease	MESH:D003704
+34194313	2204	2206	AD	Disease	MESH:D000544
+

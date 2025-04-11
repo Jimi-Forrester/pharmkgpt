@@ -1,0 +1,33 @@
+38395835|t|Identifying functional subtypes of IgA nephropathy based on three machine learning algorithms and WGCNA.
+38395835|a|BACKGROUND: IgA nephropathy (IgAN) is one of the most common primary glomerulonephritis, which is a significant cause of renal failure. At present, the classification of IgAN is often limited to pathology, and its molecular mechanism has not been established. Therefore we aim to identify subtypes of IgAN at the molecular level and explore the heterogeneity of subtypes in terms of immune cell infiltration, functional level. METHODS: Two microarray datasets (GSE116626 and GSE115857) were downloaded from GEO. Differential expression genes (DEGs) for IgAN were screened with limma. Three unsupervised clustering algorithms (hclust, PAM, and ConsensusClusterPlus) were combined to develop a single-sample subtype random forest classifier (SSRC). Functional subtypes of IgAN were defined based on functional analysis and current IgAN findings. Then the correlation between IgAN subtypes and clinical features such as eGFR and proteinuria was evaluated by using Pearson method. Subsequently, subtype heterogeneity was verified by subtype-specific modules identification based on weighted gene co-expression network analysis(WGCNA) and immune cell infiltration analysis based on CIBERSORT algorithm. RESULTS: We identified 102 DEGs as marker genes for IgAN and three functional subtypes namely: viral-hormonal, bacterial-immune and mixed type. We screened seventeen genes specific to viral hormonal type (ATF3, JUN and FOS etc.), and seven genes specific to bacterial immune type (LIF, C19orf51 and SLPI etc.). The subtype-specific genes showed significantly high correlation with proteinuria and eGFR. The WGCNA modules were in keeping with functions of the IgAN subtypes where the MEcyan module was specific to the viral-hormonal type and the MElightgreen module was specific to the bacterial-immune type. The results of immune cell infiltration revealed subtype-specific cell heterogeneity which included significant differences in T follicular helper cells, resting NK cells between viral-hormone type and control group; significant differences in eosinophils, monocytes, macrophages, mast cells and other cells between bacterial-immune type and control. CONCLUSION: In this study, we identified three functional subtypes of IgAN for the first time and specific expressed genes for each subtype. Then we constructed a subtype classifier and classify IgAN patients into specific subtypes, which may be benefit for the precise treatment of IgAN patients in future.
+38395835	35	50	IgA nephropathy	Disease	MESH:D005922
+38395835	117	132	IgA nephropathy	Disease	MESH:D005922
+38395835	134	138	IgAN	Disease	MESH:D005922
+38395835	174	192	glomerulonephritis	Disease	MESH:D005921
+38395835	226	239	renal failure	Disease	MESH:D051437
+38395835	275	279	IgAN	Disease	MESH:D005922
+38395835	406	410	IgAN	Disease	MESH:D005922
+38395835	658	662	IgAN	Disease	MESH:D005922
+38395835	875	879	IgAN	Disease	MESH:D005922
+38395835	934	938	IgAN	Disease	MESH:D005922
+38395835	978	982	IgAN	Disease	MESH:D005922
+38395835	1031	1042	proteinuria	Disease	MESH:D011507
+38395835	1355	1359	IgAN	Disease	MESH:D005922
+38395835	1508	1512	ATF3	Gene	467
+38395835	1522	1525	FOS	Gene	2353
+38395835	1584	1587	LIF	Gene	3976
+38395835	1589	1597	C19orf51	Gene	352909
+38395835	1602	1606	SLPI	Gene	6590
+38395835	1684	1695	proteinuria	Disease	MESH:D011507
+38395835	1762	1766	IgAN	Disease	MESH:D005922
+38395835	2332	2336	IgAN	Disease	MESH:D005922
+38395835	2457	2461	IgAN	Disease	MESH:D005922
+38395835	2462	2470	patients	Species	9606
+38395835	2545	2549	IgAN	Disease	MESH:D005922
+38395835	2550	2558	patients	Species	9606
+38395835	Association	MESH:D005922	6590
+38395835	Association	MESH:D005922	2353
+38395835	Association	MESH:D005922	467
+38395835	Association	MESH:D005922	3976
+38395835	Association	MESH:D005922	352909
+

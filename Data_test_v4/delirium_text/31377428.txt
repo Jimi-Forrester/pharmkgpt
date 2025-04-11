@@ -1,0 +1,77 @@
+31377428|t|Identification of molecular signatures and pathways to identify novel therapeutic targets in Alzheimer's disease: Insights from a systems biomedicine perspective.
+31377428|a|Alzheimer's disease (AD) is a progressive neurodegenerative disease characterized by the accumulation of amyloid plaques and neurofibrillary tangles in the brain. However, there are no peripheral biomarkers available that can detect AD onset. This study aimed to identify the molecular signatures in AD through an integrative analysis of blood gene expression data. We used two microarray datasets (GSE4226 and GSE4229) comparing peripheral blood transcriptomes of AD patients and controls to identify differentially expressed genes (DEGs). Gene set and protein overrepresentation analysis, protein-protein interaction (PPI), DEGs-Transcription Factors (TFs) interactions, DEGs-microRNAs (miRNAs) interactions, protein-drug interactions, and protein subcellular localizations analyses were performed on DEGs common to the datasets. We identified 25 common DEGs between the two datasets. Integration of genome scale transcriptome datasets with biomolecular networks revealed hub genes (NOL6, ATF3, TUBB, UQCRC1, CASP2, SND1, VCAM1, BTF3, VPS37B), common transcription factors (FOXC1, GATA2, NFIC, PPARG, USF2, YY1) and miRNAs (mir-20a-5p, mir-93-5p, mir-16-5p, let-7b-5p, mir-708-5p, mir-24-3p, mir-26b-5p, mir-17-5p, mir-193-3p, mir-186-5p). Evaluation of histone modifications revealed that hub genes possess several histone modification sites associated with AD. Protein-drug interactions revealed 10 compounds that affect the identified AD candidate biomolecules, including anti-neoplastic agents (Vinorelbine, Vincristine, Vinblastine, Epothilone D, Epothilone B, CYT997, and ZEN-012), a dermatological (Podofilox) and an immunosuppressive agent (Colchicine). The subcellular localization of molecular signatures varied, including nuclear, plasma membrane and cytosolic proteins. In the present study, it was identified blood-cell derived molecular signatures that might be useful as candidate peripheral biomarkers in AD. It was also identified potential drugs and epigenetic data associated with these molecules that may be useful in designing therapeutic approaches to ameliorate AD.
+31377428	93	112	Alzheimer's disease	Disease	MESH:D000544
+31377428	163	182	Alzheimer's disease	Disease	MESH:D000544
+31377428	184	186	AD	Disease	MESH:D000544
+31377428	205	230	neurodegenerative disease	Disease	MESH:D019636
+31377428	268	283	amyloid plaques	Disease	MESH:D058225
+31377428	288	311	neurofibrillary tangles	Disease	MESH:D055956
+31377428	396	398	AD	Disease	MESH:D000544
+31377428	463	465	AD	Disease	MESH:D000544
+31377428	628	630	AD	Disease	MESH:D000544
+31377428	631	639	patients	Species	9606
+31377428	1148	1152	NOL6	Gene	65083
+31377428	1154	1158	ATF3	Gene	467
+31377428	1160	1164	TUBB	Gene	203068
+31377428	1166	1172	UQCRC1	Gene	7384
+31377428	1174	1179	CASP2	Gene	835
+31377428	1181	1185	SND1	Gene	27044
+31377428	1187	1192	VCAM1	Gene	7412
+31377428	1194	1198	BTF3	Gene	689
+31377428	1200	1206	VPS37B	Gene	79720
+31377428	1239	1244	FOXC1	Gene	2296
+31377428	1246	1251	GATA2	Gene	2624
+31377428	1253	1257	NFIC	Gene	4782
+31377428	1259	1264	PPARG	Gene	5468
+31377428	1266	1270	USF2	Gene	7392
+31377428	1272	1275	YY1	Gene	7528
+31377428	1301	1310	mir-93-5p	Gene	100126325
+31377428	1323	1330	let-7b-	Gene	406884
+31377428	1334	1342	mir-708-	Gene	100126333
+31377428	1357	1364	mir-26b	Gene	407017
+31377428	1369	1376	mir-17-	Gene	406952
+31377428	1392	1400	mir-186-	Gene	406962
+31377428	1524	1526	AD	Disease	MESH:D000544
+31377428	1603	1605	AD	Disease	MESH:D000544
+31377428	1645	1655	neoplastic	Disease	MESH:D009369
+31377428	1664	1675	Vinorelbine	Chemical	MESH:D000077235
+31377428	1677	1688	Vincristine	Chemical	MESH:D014750
+31377428	1690	1701	Vinblastine	Chemical	MESH:D014747
+31377428	1703	1715	Epothilone D	Chemical	MESH:C114026
+31377428	1717	1729	Epothilone B	Chemical	MESH:C093788
+31377428	1731	1737	CYT997	Chemical	MESH:C543949
+31377428	1743	1750	ZEN-012	Chemical	-
+31377428	1771	1780	Podofilox	Chemical	MESH:D011034
+31377428	1814	1824	Colchicine	Chemical	MESH:D003078
+31377428	2086	2088	AD	Disease	MESH:D000544
+31377428	2250	2252	AD	Disease	MESH:D000544
+31377428	Association	MESH:D000544	7384
+31377428	Association	MESH:C114026	MESH:D000544
+31377428	Association	MESH:D000544	203068
+31377428	Association	MESH:D000544	100126325
+31377428	Association	MESH:D000544	7412
+31377428	Negative_Correlation	MESH:C543949	MESH:D009369
+31377428	Association	MESH:C543949	MESH:D000544
+31377428	Negative_Correlation	MESH:C114026	MESH:D009369
+31377428	Association	MESH:C093788	MESH:D000544
+31377428	Association	MESH:D000544	100126333
+31377428	Association	MESH:D000544	835
+31377428	Association	MESH:D000544	406884
+31377428	Negative_Correlation	MESH:C093788	MESH:D009369
+31377428	Association	MESH:D000077235	MESH:D000544
+31377428	Association	MESH:D014750	MESH:D000544
+31377428	Association	MESH:D011034	MESH:D000544
+31377428	Association	MESH:D000544	2624
+31377428	Association	MESH:D000544	27044
+31377428	Association	MESH:D000544	467
+31377428	Association	MESH:D000544	406962
+31377428	Negative_Correlation	MESH:D014747	MESH:D009369
+31377428	Association	MESH:D000544	689
+31377428	Negative_Correlation	MESH:D014750	MESH:D009369
+31377428	Association	MESH:D014747	MESH:D000544
+31377428	Association	MESH:D000544	407017
+31377428	Association	MESH:D000544	2296
+31377428	Association	MESH:D000544	79720
+31377428	Negative_Correlation	MESH:D000077235	MESH:D009369
+31377428	Association	MESH:D000544	406952
+

@@ -1,0 +1,68 @@
+22984562|t|Mining gene expression signature for the detection of pre-malignant melanocytes and early melanomas with risk for metastasis.
+22984562|a|BACKGROUND: Metastatic melanoma is a highly aggressive skin cancer and currently resistant to systemic therapy. Melanomas may involve genetic, epigenetic and metabolic abnormalities. Evidence is emerging that epigenetic changes might play a significant role in tumor cell plasticity and metastatic phenotype of melanoma cells. PRINCIPAL FINDINGS: In this study, we developed a systematic approach to identify genes implicated in melanoma progression. To do this, we used the Affymetrix GeneChip Arrays to screen 34,000 mouse transcripts in melan-a melanocytes, 4C pre-malignant melanocytes, 4C11- non-metastatic and 4C11+ metastatic melanoma cell lines. The genome-wide association studies revealed pathways commonly over-represented in the transition from immortalized to pre-malignant stage, and under-represented in the transition from non-metastatic to metastatic stage. Additionally, the treatment of cells with 10 microM 5-aza-2'-deoxycytidine (5AzaCdR) for 48 hours allowed us to identify genes differentially re-expressed at specific stages of melan-a malignant transformation. Treatment of human primary melanocytes with the demethylating agent 5AzaCdR in combination to the histone deacetylase inhibitor Trichostatin A (TSA) revealed changes on melanocyte morphology and gene expression which could be an indicator of epigenetic flexibility in normal melanocytes. Moreover, changes on gene expression recognized by affecting the melanocyte biology (NDRG2 and VDR), phenotype of metastatic melanoma cells (HSPB1 and SERPINE1) and response to cancer therapy (CTCF, NSD1 and SRC) were found when Mel-2 and/or Mel-3-derived patient metastases were exposed to 5AzaCdR plus TSA treatment. Hierarchical clustering and network analyses in a panel of five patient-derived metastatic melanoma cells showed gene interactions that have never been described in melanomas. SIGNIFICANCE: Despite the heterogeneity observed in melanomas, this study demonstrates the utility of our murine melanoma progression model to identify molecular markers commonly perturbed in metastasis. Additionally, the novel gene expression signature identified here may be useful in the future into a model more closely related to translational research.
+22984562	90	99	melanomas	Disease	MESH:D008545
+22984562	114	124	metastasis	Disease	MESH:D009362
+22984562	138	157	Metastatic melanoma	Disease	MESH:D008545
+22984562	181	192	skin cancer	Disease	MESH:D012878
+22984562	238	247	Melanomas	Disease	MESH:D008545
+22984562	284	307	metabolic abnormalities	Disease	MESH:D008659
+22984562	387	392	tumor	Disease	MESH:D009369
+22984562	437	445	melanoma	Disease	MESH:D008545
+22984562	555	563	melanoma	Disease	MESH:D008545
+22984562	645	650	mouse	Species	10090
+22984562	666	673	melan-a	Gene	2315
+22984562	717	721	4C11	CellLine	CVCL:ZJ85
+22984562	742	746	4C11	CellLine	CVCL:ZJ85
+22984562	748	767	metastatic melanoma	Disease	MESH:D008545
+22984562	1053	1075	5-aza-2'-deoxycytidine	Chemical	MESH:D000077209
+22984562	1077	1084	5AzaCdR	Chemical	-
+22984562	1178	1185	melan-a	Gene	2315
+22984562	1225	1230	human	Species	9606
+22984562	1280	1287	5AzaCdR	Chemical	-
+22984562	1340	1354	Trichostatin A	Chemical	MESH:C012589
+22984562	1356	1359	TSA	Chemical	MESH:C012589
+22984562	1585	1590	NDRG2	Gene	57447
+22984562	1595	1598	VDR	Gene	7421
+22984562	1614	1633	metastatic melanoma	Disease	MESH:D008545
+22984562	1641	1646	HSPB1	Gene	3315
+22984562	1651	1659	SERPINE1	Gene	5054
+22984562	1677	1683	cancer	Disease	MESH:D009369
+22984562	1693	1697	CTCF	Gene	10664
+22984562	1699	1703	NSD1	Gene	64324
+22984562	1708	1711	SRC	Gene	6714
+22984562	1729	1734	Mel-2	CellLine	CVCL:A759
+22984562	1742	1747	Mel-3	CellLine	CVCL:IS48
+22984562	1756	1763	patient	Species	9606
+22984562	1764	1774	metastases	Disease	MESH:D009362
+22984562	1791	1798	5AzaCdR	Chemical	-
+22984562	1804	1807	TSA	Chemical	MESH:C012589
+22984562	1883	1890	patient	Species	9606
+22984562	1899	1918	metastatic melanoma	Disease	MESH:D008545
+22984562	1984	1993	melanomas	Disease	MESH:D008545
+22984562	2047	2056	melanomas	Disease	MESH:D008545
+22984562	2101	2107	murine	Species	10090
+22984562	2108	2116	melanoma	Disease	MESH:D008545
+22984562	2187	2197	metastasis	Disease	MESH:D009362
+22984562	Association	MESH:D009362	10664
+22984562	Association	MESH:C012589	MESH:D008545
+22984562	Association	MESH:D008545	3315
+22984562	Association	MESH:D008545	64324
+22984562	Association	MESH:D009362	64324
+22984562	Negative_Correlation	MESH:C012589	6714
+22984562	Association	MESH:D008545	5054
+22984562	Association	MESH:D008545	57447
+22984562	Negative_Correlation	MESH:C012589	3315
+22984562	Negative_Correlation	MESH:C012589	64324
+22984562	Association	MESH:D008545	7421
+22984562	Association	MESH:D009362	6714
+22984562	Negative_Correlation	MESH:C012589	5054
+22984562	Negative_Correlation	MESH:C012589	MESH:D009362
+22984562	Negative_Correlation	MESH:D000077209	2315
+22984562	Association	MESH:C012589	57447
+22984562	Association	MESH:D009369	64324
+22984562	Association	MESH:D009369	10664
+22984562	Negative_Correlation	MESH:C012589	10664
+22984562	Association	MESH:C012589	7421
+22984562	Negative_Correlation	MESH:C012589	MESH:D009369
+22984562	Association	MESH:D009369	6714
+

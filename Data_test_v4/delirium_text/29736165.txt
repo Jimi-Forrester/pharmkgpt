@@ -1,0 +1,18 @@
+29736165|t|Classification of Alzheimer's and MCI Patients from Semantically Parcelled PET Images: A Comparison between AV45 and FDG-PET.
+29736165|a|Early identification of dementia in the early or late stages of mild cognitive impairment (MCI) is crucial for a timely diagnosis and slowing down the progression of Alzheimer's disease (AD). Positron emission tomography (PET) is considered a highly powerful diagnostic biomarker, but few approaches investigated the efficacy of focusing on localized PET-active areas for classification purposes. In this work, we propose a pipeline using learned features from semantically labelled PET images to perform group classification. A deformable multimodal PET-MRI registration method is employed to fuse an annotated MNI template to each patient-specific PET scan, generating a fully labelled volume from which 10 common regions of interest used for AD diagnosis are extracted. The method was evaluated on 660 subjects from the ADNI database, yielding a classification accuracy of 91.2% for AD versus NC when using random forests combining features from cross-sectional and follow-up exams. A considerable improvement in the early versus late MCI classification accuracy was achieved using FDG-PET compared to the AV-45 compound, yielding a 72.5% rate. The pipeline demonstrates the potential of exploiting longitudinal multiregion PET features to improve cognitive assessment.
+29736165	18	37	Alzheimer's and MCI	Disease	MESH:D060825
+29736165	38	46	Patients	Species	9606
+29736165	117	120	FDG	Chemical	MESH:D019788
+29736165	150	158	dementia	Disease	MESH:D003704
+29736165	190	215	mild cognitive impairment	Disease	MESH:D060825
+29736165	217	220	MCI	Disease	MESH:D060825
+29736165	292	311	Alzheimer's disease	Disease	MESH:D000544
+29736165	313	315	AD	Disease	MESH:D000544
+29736165	759	766	patient	Species	9606
+29736165	871	873	AD	Disease	MESH:D000544
+29736165	1012	1014	AD	Disease	MESH:D000544
+29736165	1164	1167	MCI	Disease	MESH:D060825
+29736165	1211	1214	FDG	Chemical	MESH:D019788
+29736165	1235	1240	AV-45	Chemical	MESH:C545186
+29736165	Positive_Correlation	MESH:D019788	MESH:D060825
+

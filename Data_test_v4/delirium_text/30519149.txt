@@ -1,0 +1,31 @@
+30519149|t|The plasma peptidome.
+30519149|a|BACKGROUND: It may be possible to discover new diagnostic or therapeutic peptides or proteins from blood plasma using LC-ESI-MS/MS to identify, with a linear quadrupole ion trap to identify, quantify and compare the statistical distributions of peptides cleaved ex vivo from plasma samples from different clinical populations. METHODS: A systematic method for the organic fractionation of plasma peptides was applied to identify and quantify the endogenous tryptic peptides from human plasma from multiple institutions by C18 HPLC followed nano electrospray ionization and tandem mass spectrometry (LC-ESI-MS/MS) with a linear quadrupole ion trap. The endogenous tryptic peptides, or tryptic phospho peptides (i.e. without exogenous digestion), were extracted in a mixture of organic solvent and water, dried and collected by preparative C18. The tryptic peptides from 6 institutions with 12 different disease and normal EDTA plasma populations, alongside ice cold controls for pre-analytical variation, were characterized by mass spectrometry. Each patient plasma was precipitated in 90% acetonitrile and the endogenous tryptic peptides extracted by a stepwise gradient of increasing water and then formic acid resulting in 10 sub-fractions. The fractionated peptides were manually collected over preparative C18 and injected for 1508 LC-ESI-MS/MS experiments analyzed in SQL Server R. RESULTS: Peptides that were cleaved in human plasma by a tryptic activity ex vivo provided convenient and sensitive access to most human proteins in plasma that show differences in the frequency or intensity of proteins observed across populations that may have clinical significance. Combination of step wise organic extraction of 200 muL of plasma with nano electrospray resulted in the confident identification and quantification ~ 14,000 gene symbols by X!TANDEM that is the largest number of blood proteins identified to date and shows that you can monitor the ex vivo proteolysis of most human proteins, including interleukins, from blood. A total of 15,968,550 MS/MS spectra >= E4 intensity counts were correlated by the SEQUEST and X!TANDEM algorithms to a federated library of 157,478 protein sequences that were filtered for best charge state (2+ or 3+) and peptide sequence in SQL Server resulting in 1,916,672 distinct best-fit peptide correlations for analysis with the R statistical system. SEQUEST identified some 140,054 protein accessions, or some ~ 26,000 gene symbols, proteins or loci, with at least 5 independent correlations. The X!TANDEM algorithm made at least 5 best fit correlations to more than 14,000 protein gene symbols with p-values and FDR corrected q-values of ~ 0.001 or less. Log10 peptide intensity values showed a Gaussian distribution from E8 to E4 arbitrary counts by quantile plot, and significant variation in average precursor intensity across the disease and controls treatments by ANOVA with means compared by the Tukey-Kramer test. STRING analysis of the top 2000 gene symbols showed a tight association of cellular proteins that were apparently present in the plasma as protein complexes with related cellular components, molecular functions and biological processes. CONCLUSIONS: The random and independent sampling of pre-fractionated blood peptides by LC-ESI-MS/MS with SQL Server-R analysis revealed the largest plasma proteome to date and was a practical method to quantify and compare the frequency or log10 intensity of individual proteins cleaved ex vivo across populations of plasma samples from multiple clinical locations to discover treatment-specific variation using classical statistics suitable for clinical science. It was possible to identify and quantify nearly all human proteins from EDTA plasma and compare the results of thousands of LC-ESI-MS/MS experiments from multiple clinical populations using standard database methods in SQL Server and classical statistical strategies in the R data analysis system.
+30519149	95	103	peptides	Chemical	MESH:D010455
+30519149	267	275	peptides	Chemical	MESH:D010455
+30519149	418	426	peptides	Chemical	MESH:D010455
+30519149	487	495	peptides	Chemical	MESH:D010455
+30519149	501	506	human	Species	9606
+30519149	544	547	C18	Chemical	MESH:C109760
+30519149	693	701	peptides	Chemical	MESH:D010455
+30519149	714	730	phospho peptides	Chemical	MESH:D010748
+30519149	818	823	water	Chemical	MESH:D014867
+30519149	860	863	C18	Chemical	MESH:C109760
+30519149	877	885	peptides	Chemical	MESH:D010455
+30519149	1072	1079	patient	Species	9606
+30519149	1111	1123	acetonitrile	Chemical	MESH:C032159
+30519149	1151	1159	peptides	Chemical	MESH:D010455
+30519149	1207	1212	water	Chemical	MESH:D014867
+30519149	1222	1233	formic acid	Chemical	MESH:C030544
+30519149	1282	1290	peptides	Chemical	MESH:D010455
+30519149	1332	1335	C18	Chemical	MESH:C109760
+30519149	1418	1426	Peptides	Chemical	MESH:D010455
+30519149	1448	1453	human	Species	9606
+30519149	1540	1545	human	Species	9606
+30519149	2003	2008	human	Species	9606
+30519149	3298	3306	peptides	Chemical	MESH:D010455
+30519149	3739	3744	human	Species	9606
+30519149	Association	MESH:D010455	MESH:D014867
+30519149	Association	MESH:C030544	MESH:D010455
+30519149	Association	MESH:D010748	MESH:D014867
+30519149	Association	MESH:C109760	MESH:D010455
+

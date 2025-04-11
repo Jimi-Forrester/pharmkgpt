@@ -1,0 +1,71 @@
+38257800|t|Investigating the Potential Shared Molecular Mechanisms between COVID-19 and Alzheimer's Disease via Transcriptomic Analysis.
+38257800|a|SARS-CoV-2 caused the COVID-19 pandemic. COVID-19 may elevate the risk of cognitive impairment and even cause dementia in infected individuals; it may accelerate cognitive decline in elderly patients with dementia, possibly in Alzheimer's disease (AD) patients. However, the mechanisms underlying the interplay between AD and COVID-19 are still unclear. To investigate the underlying mechanisms and associations between AD progression and SARS-CoV-2 infection, we conducted a series of bioinformatics research into SARS-CoV-2-infected cells, COVID-19 patients, AD patients, and SARS-CoV-2-infected AD patients. We identified the common differentially expressed genes (DEGs) in COVID-19 patients, AD patients, and SARS-CoV-2-infected cells, and these DEGs are enriched in certain pathways, such as immune responses and cytokine storms. We constructed the gene interaction network with the signaling transduction module in the center and identified IRF7, STAT1, STAT2, and OAS1 as the hub genes. We also checked the correlations between several key transcription factors and the SARS-CoV-2 and COVID-19 pathway-related genes. We observed that ACE2 expression is positively correlated with IRF7 expression in AD and coronavirus infections, and interestingly, IRF7 is significantly upregulated in response to different RNA virus infections. Further snRNA-seq analysis indicates that NRGN neurons or endothelial cells may be responsible for the increase in ACE2 and IRF7 expression after SARS-CoV-2 infection. The positive correlation between ACE2 and IRF7 expressions is confirmed in the hippocampal formation (HF) of SARS-CoV-2-infected AD patients. Our findings could contribute to the investigation of the molecular mechanisms underlying the interplay between AD and COVID-19 and to the development of effective therapeutic strategies for AD patients with COVID-19.
+38257800	64	72	COVID-19	Disease	MESH:D000086382
+38257800	77	96	Alzheimer's Disease	Disease	MESH:D000544
+38257800	126	136	SARS-CoV-2	Species	2697049
+38257800	148	156	COVID-19	Disease	MESH:D000086382
+38257800	167	175	COVID-19	Disease	MESH:D000086382
+38257800	200	220	cognitive impairment	Disease	MESH:D003072
+38257800	236	244	dementia	Disease	MESH:D003704
+38257800	248	256	infected	Disease	MESH:D007239
+38257800	288	305	cognitive decline	Disease	MESH:D003072
+38257800	317	325	patients	Species	9606
+38257800	331	339	dementia	Disease	MESH:D003704
+38257800	353	372	Alzheimer's disease	Disease	MESH:D000544
+38257800	374	376	AD	Disease	MESH:D000544
+38257800	378	386	patients	Species	9606
+38257800	445	447	AD	Disease	MESH:D000544
+38257800	452	460	COVID-19	Disease	MESH:D000086382
+38257800	546	548	AD	Disease	MESH:D000544
+38257800	641	651	SARS-CoV-2	Species	2697049
+38257800	652	660	infected	Disease	MESH:D007239
+38257800	668	676	COVID-19	Disease	MESH:D000086382
+38257800	677	685	patients	Species	9606
+38257800	687	689	AD	Disease	MESH:D000544
+38257800	690	698	patients	Species	9606
+38257800	704	714	SARS-CoV-2	Disease	MESH:D000086382
+38257800	715	723	infected	Disease	MESH:D007239
+38257800	724	726	AD	Disease	MESH:D000544
+38257800	727	735	patients	Species	9606
+38257800	803	811	COVID-19	Disease	MESH:D000086382
+38257800	812	820	patients	Species	9606
+38257800	822	824	AD	Disease	MESH:D000544
+38257800	825	833	patients	Species	9606
+38257800	839	849	SARS-CoV-2	Species	2697049
+38257800	850	858	infected	Disease	MESH:D007239
+38257800	1073	1077	IRF7	Gene	3665
+38257800	1079	1084	STAT1	Gene	6772
+38257800	1086	1091	STAT2	Gene	6773
+38257800	1097	1101	OAS1	Gene	4938
+38257800	1203	1213	SARS-CoV-2	Species	2697049
+38257800	1218	1226	COVID-19	Disease	MESH:D000086382
+38257800	1267	1271	ACE2	Gene	59272
+38257800	1313	1317	IRF7	Gene	3665
+38257800	1332	1334	AD	Disease	MESH:D000544
+38257800	1339	1361	coronavirus infections	Disease	MESH:D018352
+38257800	1382	1386	IRF7	Gene	3665
+38257800	1441	1461	RNA virus infections	Disease	MESH:D012327
+38257800	1505	1509	NRGN	CellLine	
+38257800	1578	1582	ACE2	Gene	59272
+38257800	1587	1591	IRF7	Gene	3665
+38257800	1609	1629	SARS-CoV-2 infection	Disease	MESH:D000086382
+38257800	1664	1668	ACE2	Gene	59272
+38257800	1673	1677	IRF7	Gene	3665
+38257800	1740	1750	SARS-CoV-2	Species	2697049
+38257800	1751	1759	infected	Disease	MESH:D007239
+38257800	1760	1762	AD	Disease	MESH:D000544
+38257800	1763	1771	patients	Species	9606
+38257800	1885	1887	AD	Disease	MESH:D000544
+38257800	1892	1900	COVID-19	Disease	MESH:D000086382
+38257800	1964	1966	AD	Disease	MESH:D000544
+38257800	1967	1975	patients	Species	9606
+38257800	1981	1989	COVID-19	Disease	MESH:D000086382
+38257800	Association	MESH:D000544	3665
+38257800	Association	3665	59272
+38257800	Association	MESH:D000544	59272
+38257800	Association	MESH:D018352	3665
+38257800	Association	MESH:D000086382	3665
+38257800	Positive_Correlation	MESH:D012327	3665
+38257800	Association	MESH:D018352	59272
+38257800	Positive_Correlation	MESH:D000086382	59272
+

@@ -1,0 +1,36 @@
+35450027|t|Transcriptomic Analysis Reveals Genetic Cross-Talk between Periodontitis and Hypothyroidism.
+35450027|a|Background: Aim of this bioinformatics study based on transcriptomic analysis was to reveal the cross-talk between periodontitis (PD) and hypothyroidism (HT). Methods: The gene expression datasets GSE18152 and GSE176153 of HT and GSE10334, GSE16134, and GSE173078 of PD were downloaded through the Gene Expression Omnibus (GEO) database. Differential Expression Genes (DEG) between cases and controls in each microarray were assessed by using the "limma" (linear models for microarray data) R package ( log2 fold change (FC)  >0 and P-value <0.05). To analyze the cross-talk effect between HT and PD, the intersection of DEG of HT and PD was selected. To investigate the biological function of cross-talk genes, the gene ontology (GO) functional enrichment analysis and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway analysis were applied. Protein-Protein Interaction (PPI) network was constructed using Cytoscape software. Top 10 cross-talk genes were screened, and the expression values of these 10 genes were extracted. ROC analysis was performed by using the pROC package and GGplot2 package of R language to predict the classification accuracy. Results: The overlapping DEG between HT and PD were 107 cross-talk genes. The results revealed that developmental process (P-value =1.06E-21) was the most significantly enriched biological process, followed by cell differentiation (P-value =8.49E-18) and immune system process (P-value =6.78E-11). KEGG analysis showed that Complement and coagulation cascades (P-value =2.29E-05), Hematopoietic cell lineage (P-value =2.66E-05), Phospholipase D signaling pathway (P-value =0.034367878) and Chemokine signaling pathway (P-value =0.04946333) were significantly enriched. The top 10 genes with most connections were LCE1B, LCE2B, LCE2A, LCE2C, LCE1C, LCE1F, ITGAM, C1QB, TREM2, and CD19. The AUC values of the two datasets of HT were both greater than 65% (GSE18152 = 81.42%, GSE176153 = 68.75%). AUC values of three datasets of PD were all greater than 60% (GSE10334 = 69.23%, GSE16134 = 73.72%, GSE173078 = 81.6%). Conclusions: A genetic cross-talk between HT and PD was detected, whereby LCE family genes appeared to play the most important role.
+35450027	59	72	Periodontitis	Disease	MESH:D010518
+35450027	77	91	Hypothyroidism	Disease	MESH:D007037
+35450027	208	221	periodontitis	Disease	MESH:D010518
+35450027	223	225	PD	Disease	MESH:D010518
+35450027	231	245	hypothyroidism	Disease	MESH:D007037
+35450027	247	249	HT	Disease	MESH:D007037
+35450027	316	318	HT	Disease	MESH:D007037
+35450027	360	362	PD	Disease	MESH:D010518
+35450027	683	685	HT	Disease	MESH:D007037
+35450027	690	692	PD	Disease	MESH:D010518
+35450027	721	723	HT	Disease	MESH:D007037
+35450027	728	730	PD	Disease	MESH:D010518
+35450027	1288	1290	HT	Disease	MESH:D007037
+35450027	1295	1297	PD	Disease	MESH:D010518
+35450027	1590	1601	coagulation	Disease	MESH:D001778
+35450027	1864	1869	LCE1B	Gene	353132
+35450027	1871	1876	LCE2B	Gene	26239
+35450027	1878	1883	LCE2A	Gene	353139
+35450027	1885	1890	LCE2C	Gene	353140
+35450027	1892	1897	LCE1C	Gene	353133
+35450027	1899	1904	LCE1F	Gene	353137
+35450027	1906	1911	ITGAM	Gene	3684
+35450027	1913	1917	C1QB	Gene	713
+35450027	1919	1924	TREM2	Gene	54209
+35450027	1930	1934	CD19	Gene	930
+35450027	1974	1976	HT	Disease	MESH:D007037
+35450027	2077	2079	PD	Disease	MESH:D010518
+35450027	2207	2209	HT	Disease	MESH:D007037
+35450027	2214	2216	PD	Disease	MESH:D010518
+35450027	2239	2242	LCE	Gene	79071
+35450027	Association	MESH:D007037	54209
+35450027	Association	MESH:D007037	713
+35450027	Association	MESH:D010518	54209
+

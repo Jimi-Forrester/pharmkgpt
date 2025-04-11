@@ -1,0 +1,29 @@
+33688499|t|Glial Cell-Derived Neurotrophic Factor Functions as a Potential Candidate Gene in Obstructive Sleep Apnea Based on a Combination of Bioinformatics and Targeted Capture Sequencing Analyses.
+33688499|a|BACKGROUND: Obstructive sleep apnea (OSA) is a prevalent chronic disease that increases the risk of cardiovascular disease and metabolic and neuropsychiatric disorders, resulting in a considerable socioeconomic burden. The present study was aimed at identifying potential key genes influencing the mechanisms and consequences of OSA. METHODS: Gene expression profiles associated with OSA were obtained from the Gene Expression Omnibus (GEO) database. Differentially expressed genes (DEGs) in subcutaneous adipose tissues from patients with OSA and normal tissues were screened using R software, followed by gene ontology and pathway enrichment analyses. Subsequently, a protein-protein interaction (PPI) network was constructed and hub genes were extracted using Cytoscape plugins. The intersected core genes derived from different topological algorithms were considered hub genes, and the potential candidate gene was selected from them for further analyses of expression variations using another GEO dataset and targeted capture sequencing in 100 subjects (50 with severe OSA and 50 without OSA). RESULTS: A total of 373 DEGs were identified in OSA samples relative to normal controls, which were primarily associated with olfactory transduction and neuroactive ligand-receptor interaction. Upon analyses of nine topological algorithms and available literature, we finally focused on glial cell-derived neurotrophic factor (GDNF) as the candidate gene and validated its low expression in OSA samples. Two rare nonsynonymous variants (p.D56N and p.R93Q) were identified among the 100 cases through targeted sequencing of GDNF, which could be potentially deleterious based on pathogenicity prediction programs; however, no significant association was detected in single nucleotide polymorphisms. CONCLUSION: The present study identified GDNF as a promising candidate gene for OSA and its two rare and potentially deleterious mutations through a combination of bioinformatics and targeted capture sequencing analyses.
+33688499	0	38	Glial Cell-Derived Neurotrophic Factor	Gene	2668
+33688499	82	105	Obstructive Sleep Apnea	Disease	MESH:D020181
+33688499	201	224	Obstructive sleep apnea	Disease	MESH:D020181
+33688499	226	229	OSA	Disease	MESH:D020181
+33688499	254	261	disease	Disease	MESH:D004194
+33688499	289	311	cardiovascular disease	Disease	MESH:D002318
+33688499	316	356	metabolic and neuropsychiatric disorders	Disease	MESH:D001523
+33688499	518	521	OSA	Disease	MESH:D020181
+33688499	573	576	OSA	Disease	MESH:D020181
+33688499	715	723	patients	Species	9606
+33688499	729	732	OSA	Disease	MESH:D020181
+33688499	1263	1266	OSA	Disease	MESH:D020181
+33688499	1282	1285	OSA	Disease	MESH:D020181
+33688499	1336	1339	OSA	Disease	MESH:D020181
+33688499	1575	1613	glial cell-derived neurotrophic factor	Gene	2668
+33688499	1615	1619	GDNF	Gene	2668
+33688499	1679	1682	OSA	Disease	MESH:D020181
+33688499	1725	1731	p.D56N	ProteinMutation	tmVar:p|SUB|D|56|N;HGVS:p.D56N;VariantGroup:1;CorrespondingGene:2668;RS#:1172870630;CorrespondingSpecies:9606
+33688499	1736	1742	p.R93Q	ProteinMutation	tmVar:p|SUB|R|93|Q;HGVS:p.R93Q;VariantGroup:0;CorrespondingGene:2668;RS#:771970145;CorrespondingSpecies:9606;CA#:3241208
+33688499	1811	1815	GDNF	Gene	2668
+33688499	2026	2030	GDNF	Gene	2668
+33688499	2065	2068	OSA	Disease	MESH:D020181
+33688499	Association	MESH:D020181	RS#:1172870630;HGVS:p.D56N;CorrespondingGene:2668
+33688499	Negative_Correlation	MESH:D020181	2668
+33688499	Association	MESH:D020181	RS#:771970145;HGVS:p.R93Q;CorrespondingGene:2668
+33688499	Association	MESH:D020181	2668
+

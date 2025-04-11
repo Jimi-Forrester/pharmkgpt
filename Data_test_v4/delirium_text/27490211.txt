@@ -1,0 +1,82 @@
+27490211|t|Tideglusib induces apoptosis in human neuroblastoma IMR32 cells, provoking sub-G0/G1 accumulation and ROS generation.
+27490211|a|Neuroblastoma is the most common tumor amongst children amounting to nearly 15% of cancer deaths. This cancer is peculiar in its characteristics, exhibiting differentiation, maturation and metastatic transformation leading to poor prognosis and low survival rates among children. Chemotherapy, though toxic to normal cells, has shown to improve the survival of the patient with emphasis given more towards targeting angiogenesis. Recently, Tideglusib was designed as an 'Orphan Drug' to target the neurodegenerative Alzheimer's disease and gained significant momentum in its function during clinical trials. Duffy et al. recently reported a reduction in cell viability of human IMR32 neuroblastoma cells when treated with Tideglusib at varying concentrations. We investigated the effects of Tideglusib, at various concentrations, compared to Lithium chloride at various concentrations, on IMR32 cells. Lithium, a known GSK-3 inhibitor, was used as a standard to compare the efficiency of Tideglusib in a dose-dependent manner. Cell viability was assessed by MTT assay. The stages of apoptosis were evaluated by AO/EB staining and nuclear damage was determined by Hoechst 33258 staining. Reactive oxygen species (ROS) and mitochondrial membrane potential (DeltaPsim) were assessed by DCFDA dye and Rhodamine-123 dye, respectively. Tideglusib reported a significant dose-dependent increase in pro-apoptotic proteins (PARP, Caspase-9, Caspase-7, Caspase-3) and tumor-related genes (FasL, TNF-alpha, Cox-2, IL-8, Caspase-3). Anti-GSK3 beta, pGSK3 beta, Bcl-2, Akt-1, p-Akt1 protein levels were observed with cells exposed to Tideglusib and Lithium chloride. No significant dose-dependent changes were observed for the mRNA expression of collagenase MMP-2, the tumor suppressor p53, or the cell cycle protein p21. Our study also reports Tideglusib reducing colony formation and increasing the level of sub-G0/G1 population in IMR32 cells. Our investigations report the significance of Tideglusib as a promising apoptotic inducer in human neuroblastoma IMR32 cells. Our study also reports that LiCl reduced cell viability in IMR32 cells inducing apoptosis mediated by ROS generation. 
+27490211	32	37	human	Species	9606
+27490211	38	51	neuroblastoma	Disease	MESH:D009447
+27490211	52	57	IMR32	CellLine	CVCL:0346
+27490211	102	105	ROS	Chemical	MESH:D017382
+27490211	118	131	Neuroblastoma	Disease	MESH:D009447
+27490211	151	156	tumor	Disease	MESH:D009369
+27490211	201	207	cancer	Disease	MESH:D009369
+27490211	221	227	cancer	Disease	MESH:D009369
+27490211	483	490	patient	Species	9606
+27490211	558	568	Tideglusib	Chemical	MESH:C520571
+27490211	634	653	Alzheimer's disease	Disease	MESH:D000544
+27490211	790	795	human	Species	9606
+27490211	796	801	IMR32	CellLine	CVCL:0346
+27490211	802	815	neuroblastoma	Disease	MESH:D009447
+27490211	840	850	Tideglusib	Chemical	MESH:C520571
+27490211	909	919	Tideglusib	Chemical	MESH:C520571
+27490211	960	976	Lithium chloride	Chemical	MESH:D018021
+27490211	1007	1012	IMR32	CellLine	CVCL:0346
+27490211	1020	1027	Lithium	Chemical	MESH:D008094
+27490211	1106	1116	Tideglusib	Chemical	MESH:C520571
+27490211	1176	1179	MTT	Chemical	MESH:C070243
+27490211	1232	1234	EB	Chemical	MESH:C478160
+27490211	1281	1294	Hoechst 33258	Chemical	MESH:D006690
+27490211	1305	1328	Reactive oxygen species	Chemical	MESH:D017382
+27490211	1330	1333	ROS	Chemical	MESH:D017382
+27490211	1401	1406	DCFDA	Chemical	MESH:C029569
+27490211	1415	1428	Rhodamine-123	Chemical	MESH:D020112
+27490211	1448	1458	Tideglusib	Chemical	MESH:C520571
+27490211	1533	1537	PARP	Gene	1302
+27490211	1539	1548	Caspase-9	Gene	842
+27490211	1550	1559	Caspase-7	Gene	840
+27490211	1561	1570	Caspase-3	Gene	836
+27490211	1576	1581	tumor	Disease	MESH:D009369
+27490211	1597	1601	FasL	Gene	356
+27490211	1603	1612	TNF-alpha	Gene	7124
+27490211	1614	1619	Cox-2	Gene	4513
+27490211	1621	1625	IL-8	Gene	3576
+27490211	1627	1636	Caspase-3	Gene	836
+27490211	1644	1653	GSK3 beta	Gene	2932
+27490211	1667	1672	Bcl-2	Gene	596
+27490211	1674	1679	Akt-1	Gene	207
+27490211	1683	1687	Akt1	Gene	207
+27490211	1739	1749	Tideglusib	Chemical	MESH:C520571
+27490211	1754	1770	Lithium chloride	Chemical	MESH:D018021
+27490211	1863	1868	MMP-2	Gene	4313
+27490211	1874	1879	tumor	Disease	MESH:D009369
+27490211	1891	1894	p53	Gene	7157
+27490211	1922	1925	p21	Gene	644914
+27490211	2039	2044	IMR32	CellLine	CVCL:0346
+27490211	2145	2150	human	Species	9606
+27490211	2151	2164	neuroblastoma	Disease	MESH:D009447
+27490211	2165	2170	IMR32	CellLine	CVCL:0346
+27490211	2206	2210	LiCl	Chemical	MESH:D018021
+27490211	2237	2242	IMR32	CellLine	CVCL:0346
+27490211	2280	2283	ROS	Chemical	MESH:D017382
+27490211	Negative_Correlation	MESH:C520571	MESH:D009369
+27490211	Positive_Correlation	MESH:C520571	3576
+27490211	Negative_Correlation	MESH:D018021	2932
+27490211	Negative_Correlation	MESH:C520571	MESH:D009447
+27490211	Association	MESH:D009369	7157
+27490211	Negative_Correlation	MESH:D018021	596
+27490211	Positive_Correlation	MESH:C520571	842
+27490211	Association	MESH:C520571	207
+27490211	Association	MESH:D009369	7124
+27490211	Association	MESH:D009369	3576
+27490211	Negative_Correlation	MESH:C520571	2932
+27490211	Negative_Correlation	MESH:C520571	MESH:D000544
+27490211	Positive_Correlation	MESH:C520571	840
+27490211	Positive_Correlation	MESH:C520571	4513
+27490211	Negative_Correlation	MESH:D018021	207
+27490211	Association	MESH:D009369	836
+27490211	Positive_Correlation	MESH:C520571	356
+27490211	Association	MESH:D009369	356
+27490211	Negative_Correlation	MESH:C520571	596
+27490211	Association	MESH:D009369	4513
+27490211	Positive_Correlation	MESH:C520571	7124
+27490211	Positive_Correlation	MESH:C520571	1302
+27490211	Positive_Correlation	MESH:C520571	836
+27490211	Association	MESH:D017382	MESH:D009447
+

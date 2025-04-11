@@ -1,0 +1,12 @@
+38608510|t|Anat-SFSeg: Anatomically-guided superficial fiber segmentation with point-cloud deep learning.
+38608510|a|Diffusion magnetic resonance imaging (dMRI) tractography is a critical technique to map the brain's structural connectivity. Accurate segmentation of white matter, particularly the superficial white matter (SWM), is essential for neuroscience and clinical research. However, it is challenging to segment SWM due to the short adjacent gyri connection in a U-shaped pattern. In this work, we propose an Anatomically-guided Superficial Fiber Segmentation (Anat-SFSeg) framework to improve the performance on SWM segmentation. The framework consists of a unique fiber anatomical descriptor (named FiberAnatMap) and a deep learning network based on point-cloud data. The spatial coordinates of fibers represented as point clouds, as well as the anatomical features at both the individual and group levels, are fed into a neural network. The network is trained on Human Connectome Project (HCP) datasets and tested on the subjects with a range of cognitive impairment levels. One new metric named fiber anatomical region proportion (FARP), quantifies the ratio of fibers in the defined brain regions and enables the comparison with other methods. Another metric named anatomical region fiber count (ARFC), represents the average fiber number in each cluster for the assessment of inter-subject differences. The experimental results demonstrate that Anat-SFSeg achieves the highest accuracy on HCP datasets and exhibits great generalization on clinical datasets. Diffusion tensor metrics and ARFC show disorder severity associated alterations in patients with Alzheimer's disease (AD) and mild cognitive impairments (MCI). Correlations with cognitive grades show that these metrics are potential neuroimaging biomarkers for AD. Furthermore, Anat-SFSeg could be utilized to explore other neurodegenerative, neurodevelopmental or psychiatric disorders.
+38608510	953	958	Human	Species	9606
+38608510	1036	1056	cognitive impairment	Disease	MESH:D003072
+38608510	1634	1642	patients	Species	9606
+38608510	1648	1667	Alzheimer's disease	Disease	MESH:D000544
+38608510	1669	1671	AD	Disease	MESH:D000544
+38608510	1682	1703	cognitive impairments	Disease	MESH:D003072
+38608510	1705	1708	MCI	Disease	MESH:D060825
+38608510	1812	1814	AD	Disease	MESH:D000544
+38608510	1875	1937	neurodegenerative, neurodevelopmental or psychiatric disorders	Disease	MESH:D019636
+

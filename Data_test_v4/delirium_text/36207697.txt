@@ -1,0 +1,54 @@
+36207697|t|Multi-dimensional relationships among dementia, depression and prescribed drugs in England and Wales hospitals.
+36207697|a|BACKGROUND: Dementia is a group of symptoms that largely affects older people. The majority of patients face behavioural and psychological symptoms (BPSD) during the course of their illness. Alzheimer's disease (AD) and vascular dementia (VaD) are two of the most prevalent types of dementia. Available medications provide symptomatic benefits and provide relief from BPSD and associated health issues. However, it is unclear how specific dementia, antidepressant, antipsychotic, antianxiety, and mood stabiliser drugs, used in the treatment of depression and dementia subtypes are prescribed in hospital admission, during hospital stay, and at the time of discharge. To address this, we apply multi-dimensional data analytical approaches to understand drug prescribing practices within hospitals in England and Wales. METHODS: We made use of the UK National Audit of Dementia (NAD) dataset and pre-processed the dataset. We evaluated the pairwise Pearson correlation of the dataset and selected key data features which are highly correlated with dementia subtypes. After that, we selected drug prescribing behaviours (e.g. specific medications at the time of admission, during the hospital stay, and upon discharge), drugs and disorders. Then to shed light on the relations across multiple features or dimensions, we carried out multiple regression analyses, considering the number of dementia, antidepressant, antipsychotic, antianxiety, mood stabiliser, and antiepileptic/anticonvulsant drug prescriptions as dependent variables, and the prescription of other drugs, number of patients with dementia subtypes (AD/VaD), and depression as independent variables. RESULTS: In terms of antidepressant drugs prescribed in hospital admission, during stay and discharge, the number of sertraline and venlafaxine prescriptions were associated with the number of VaD patients whilst the number of mirtazapine prescriptions was associated with frontotemporal dementia patients. During admission, the number of lamotrigine prescriptions was associated with frontotemporal dementia patients, and with the number of valproate and dosulepin prescriptions. During discharge, the number of mirtazapine prescriptions was associated with the number of donepezil prescriptions in conjunction with frontotemporal dementia patients. Finally, the number of prescriptions of donepezil/memantine at admission, during hospital stay and at discharge exhibited positive association with AD patients. CONCLUSION: Our analyses reveal a complex, multifaceted set of interactions among prescribed drug types, dementia subtypes, and depression.
+36207697	38	46	dementia	Disease	MESH:D003704
+36207697	48	58	depression	Disease	MESH:D003866
+36207697	124	132	Dementia	Disease	MESH:D003704
+36207697	207	215	patients	Species	9606
+36207697	221	259	behavioural and psychological symptoms	Disease	MESH:D000067073
+36207697	261	265	BPSD	Disease	
+36207697	303	322	Alzheimer's disease	Disease	MESH:D000544
+36207697	324	326	AD	Disease	MESH:D000544
+36207697	332	349	vascular dementia	Disease	MESH:D015140
+36207697	351	354	VaD	Disease	MESH:D015140
+36207697	395	403	dementia	Disease	MESH:D003704
+36207697	480	484	BPSD	Disease	
+36207697	551	559	dementia	Disease	MESH:D003704
+36207697	657	667	depression	Disease	MESH:D003866
+36207697	672	680	dementia	Disease	MESH:D003704
+36207697	980	988	Dementia	Disease	MESH:D003704
+36207697	990	993	NAD	Disease	MESH:D003704
+36207697	1159	1167	dementia	Disease	MESH:D003704
+36207697	1498	1506	dementia	Disease	MESH:D003704
+36207697	1692	1700	patients	Species	9606
+36207697	1706	1714	dementia	Disease	MESH:D003704
+36207697	1725	1727	AD	Disease	MESH:D000544
+36207697	1728	1731	VaD	Disease	MESH:D015140
+36207697	1738	1748	depression	Disease	MESH:D003866
+36207697	1892	1902	sertraline	Chemical	MESH:D020280
+36207697	1907	1918	venlafaxine	Chemical	MESH:D000069470
+36207697	1968	1971	VaD	Disease	MESH:D015140
+36207697	1972	1980	patients	Species	9606
+36207697	2002	2013	mirtazapine	Chemical	MESH:D000078785
+36207697	2048	2071	frontotemporal dementia	Disease	MESH:D057180
+36207697	2072	2080	patients	Species	9606
+36207697	2114	2125	lamotrigine	Chemical	MESH:D000077213
+36207697	2160	2183	frontotemporal dementia	Disease	MESH:D057180
+36207697	2184	2192	patients	Species	9606
+36207697	2217	2226	valproate	Chemical	MESH:D014635
+36207697	2231	2240	dosulepin	Chemical	MESH:D004308
+36207697	2288	2299	mirtazapine	Chemical	MESH:D000078785
+36207697	2348	2357	donepezil	Chemical	MESH:D000077265
+36207697	2392	2415	frontotemporal dementia	Disease	MESH:D057180
+36207697	2416	2424	patients	Species	9606
+36207697	2466	2475	donepezil	Chemical	MESH:D000077265
+36207697	2476	2485	memantine	Chemical	MESH:D008559
+36207697	2574	2576	AD	Disease	MESH:D000544
+36207697	2577	2585	patients	Species	9606
+36207697	2692	2700	dementia	Disease	MESH:D003704
+36207697	2715	2725	depression	Disease	MESH:D003866
+36207697	Association	MESH:D000077213	MESH:D057180
+36207697	Association	MESH:D000069470	MESH:D015140
+36207697	Association	MESH:D020280	MESH:D015140
+36207697	Association	MESH:D000078785	MESH:D057180
+36207697	Association	MESH:D000077265	MESH:D000078785
+

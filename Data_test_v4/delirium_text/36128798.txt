@@ -1,0 +1,16 @@
+36128798|t|Development and validation of interpretable machine learning models for inpatient fall events and electronic medical record integration.
+36128798|a|OBJECTIVE: Falls are one of the most frequently occurring adverse events among hospitalized patients. The Morse Fall Scale, which has been widely used for fall risk assessment, has the two limitations of low specificity and difficulty in practical implementation. The aim of this study was to develop and validate an interpretable machine learning model for prediction of falls to be integrated in an electronic medical record (EMR) system. METHODS: This was a retrospective study involving a tertiary teaching hospital in Seoul, Korea. Based on the literature, 83 known predictors were grouped into seven categories. Interpretable fall event prediction models were developed using multiple machine learning models including gradient boosting and Shapley values. RESULTS: Overall, 191,778 cases with 272 fall events (0.1%) were included in the analysis. With the validation cohort of 2020, the area under the receiver operating curve (AUROC) of the gradient boosting model was 0.817 (95% confidence interval [CI], 0.720-0.904), better performance than random forest (AUROC, 0.801; 95% CI, 0.708-0.890), logistic regression (AUROC, 0.802; 95% CI, 0.721-0.878), artificial neural net (AUROC, 0.736; 95% CI, 0.650-0.821), and conventional Morse fall score (AUROC, 0.652; 95% CI, 0.570-0.715). The model's interpretability was enhanced at both the population and patient levels. The algorithm was later integrated into the current EMR system. CONCLUSION: We developed an interpretable machine learning prediction model for inpatient fall events using EMR integration formats.
+36128798	72	81	inpatient	Species	
+36128798	82	86	fall	Disease	MESH:C537863
+36128798	148	153	Falls	Disease	MESH:C537863
+36128798	229	237	patients	Species	9606
+36128798	249	253	Fall	Disease	MESH:C537863
+36128798	292	296	fall	Disease	MESH:C537863
+36128798	509	514	falls	Disease	MESH:C537863
+36128798	769	773	fall	Disease	MESH:C537863
+36128798	941	945	fall	Disease	MESH:C537863
+36128798	1379	1383	fall	Disease	MESH:C537863
+36128798	1496	1503	patient	Species	9606
+36128798	1656	1665	inpatient	Species	
+36128798	1666	1670	fall	Disease	MESH:C537863
+

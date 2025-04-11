@@ -1,0 +1,10 @@
+29888090|t|The Data Gap in the EHR for Clinical Research Eligibility Screening.
+29888090|a|Much effort has been devoted to leverage EHR data for matching patients into clinical trials. However, EHRs may not contain all important data elements for clinical research eligibility screening. To better design research-friendly EHRs, an important step is to identify data elements frequently used for eligibility screening but not yet available in EHRs. This study fills this knowledge gap. Using the Alzheimer's disease domain as an example, we performed text mining on the eligibility criteria text in Clinicaltrials.gov to identify frequently used eligibility criteria concepts. We compared them to the EHR data elements of a cohort of Alzheimer's Disease patients to assess the data gap by usingthe OMOP Common Data Model to standardize the representations for both criteria concepts and EHR data elements. We identified the most common SNOMED CT concepts used in Alzheimer 's Disease trials, andfound 40% of common eligibility criteria concepts were not even defined in the concept space in the EHR dataset for a cohort of Alzheimer 'sDisease patients, indicating a significant data gap may impede EHR-based eligibility screening. The results of this study can be useful for designing targeted research data collection forms to help fill the data gap in the EHR.
+29888090	132	140	patients	Species	9606
+29888090	474	493	Alzheimer's disease	Disease	MESH:D000544
+29888090	712	731	Alzheimer's Disease	Disease	MESH:D000544
+29888090	732	740	patients	Species	9606
+29888090	941	961	Alzheimer 's Disease	Disease	MESH:D000544
+29888090	1101	1120	Alzheimer 'sDisease	Disease	MESH:D000544
+29888090	1121	1129	patients	Species	9606
+

@@ -1,0 +1,20 @@
+37216716|t|An extensible hierarchical graph convolutional network for early Alzheimer's disease identification.
+37216716|a|BACKGROUND AND OBJECTIVE: For early identification of Alzheimer's disease (AD) based on multi-modal magnetic resonance imaging (MRI) data, it is important to make comprehensive use of image features and non-image information to analyze the gray matter atrophy and the structural/functional connectivity abnormalities for different courses of AD. METHODS: In this study, we propose an extensible hierarchical graph convolutional network (EH-GCN) for early AD identification. Based on the extracted image features from multi-modal MRI data using the presented multi-branch residual network (ResNet), the brain regions-of-interests (ROIs) based GCN is built to extract structural and functional connectivity features between different ROIs of the brain. In order to further improve the performance of AD identification, an optimized spatial GCN is proposed as convolution operator in the population-based GCN to avoid rebuilding the graph network and take advantage of relationships between subjects. Finally, the proposed EH-GCN is built by embedding the image features and internal brain connectivity features into the spatial population-based GCN, which provides an extensible way to improve early AD identification performance by adding imaging features and non-image information from multi-modal data. RESULTS: Experiments are performed on two datasets, which illustrate the effectiveness of the extracted structural/functional connectivity features and the high computational efficiency of the proposed method. The classification accuracy of AD vs NC, AD vs MCI and MCI vs NC classification tasks reaches 88.71%, 82.71% and 79.68% respectively. The extracted connectivity features between ROIs indicate that functional abnormalities are earlier than gray matter atrophy and abnormalities of structural connections, which is consistent with the clinical manifestations. The proposed method allows for the addition of other modal image features and non-image information from multi-modal data to continuously improve the performance of clinical data analysis. CONCLUSIONS: The proposed method can help us comprehensively analyze the role of gray matter atrophy, the damage of white matter nerve fiber tracts and the degradation of functional connectivity for different courses of AD, which could be useful for further extraction of clinical biomarkers for early AD identification.
+37216716	65	84	Alzheimer's disease	Disease	MESH:D000544
+37216716	155	174	Alzheimer's disease	Disease	MESH:D000544
+37216716	176	178	AD	Disease	MESH:D000544
+37216716	341	360	gray matter atrophy	Disease	MESH:D002549
+37216716	443	445	AD	Disease	MESH:D000544
+37216716	556	558	AD	Disease	MESH:D000544
+37216716	899	901	AD	Disease	MESH:D000544
+37216716	1299	1301	AD	Disease	MESH:D000544
+37216716	1646	1648	AD	Disease	MESH:D000544
+37216716	1656	1658	AD	Disease	MESH:D000544
+37216716	1662	1665	MCI	Disease	
+37216716	1670	1673	MCI	Disease	
+37216716	1812	1836	functional abnormalities	Disease	MESH:D000014
+37216716	1854	1873	gray matter atrophy	Disease	MESH:D002549
+37216716	2243	2262	gray matter atrophy	Disease	MESH:D002549
+37216716	2382	2384	AD	Disease	MESH:D000544
+37216716	2464	2466	AD	Disease	MESH:D000544
+

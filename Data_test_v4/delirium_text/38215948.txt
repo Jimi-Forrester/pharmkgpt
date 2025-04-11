@@ -1,0 +1,17 @@
+38215948|t|Deep insights into MCI diagnosis: A comparative deep learning analysis of EEG time series.
+38215948|a|BACKGROUND: Individuals in the early stages of Alzheimer's Disease (AD) are typically diagnosed with Mild Cognitive Impairment (MCI). MCI represents a transitional phase between normal cognitive function and AD. Electroencephalography (EEG) records carry valuable insights into cerebral cortex brain activities to analyze neuronal degeneration. To enhance the precision of dementia diagnosis, automatic and intelligent methods are required for the analysis and processing of EEG signals. NEW METHODS: This paper aims to address the challenges associated with MCI diagnosis by leveraging EEG signals and deep learning techniques. The analysis in this study focuses on processing the information embedded within the sequence of raw EEG time series data. EEG recordings are collected from 10 Healthy Controls (HC) and 10 MCI participants using 19 electrodes during a 30 min eyes-closed session. EEG time series are transformed into 2 separate formats of input tensors and applied to deep neural network architectures. Convolutional Neural Network (CNN) and ResNet from scratch are performed with 2D time series with different segment lengths. Furthermore, EEGNet and DeepConvNet architectures are utilized for 1D time series. RESULTS: ResNet demonstrates superior effectiveness in detecting MCI when compared to CNN architecture. Complete discrimination is achieved using EEGNet and DeepConvNet for noisy segments. COMPARISON WITH EXISTING METHODS: ResNet has yielded a 3 % higher accuracy rate compared to CNN. None of the architectures in the literature have achieved 100 % accuracy except proposed EEGNet and DeepConvnet. CONCLUSION: Deep learning architectures hold great promise in enhancing the accuracy of early MCI detection.
+38215948	19	22	MCI	Disease	MESH:D060825
+38215948	138	157	Alzheimer's Disease	Disease	MESH:D000544
+38215948	159	161	AD	Disease	MESH:D000544
+38215948	197	217	Cognitive Impairment	Disease	MESH:D003072
+38215948	219	222	MCI	Disease	MESH:D060825
+38215948	225	228	MCI	Disease	MESH:D060825
+38215948	299	301	AD	Disease	MESH:D000544
+38215948	413	434	neuronal degeneration	Disease	MESH:D009410
+38215948	464	472	dementia	Disease	MESH:D003704
+38215948	650	653	MCI	Disease	MESH:D060825
+38215948	909	912	MCI	Disease	MESH:D060825
+38215948	913	925	participants	Species	9606
+38215948	1379	1382	MCI	Disease	MESH:D060825
+38215948	1807	1810	MCI	Disease	MESH:D060825
+

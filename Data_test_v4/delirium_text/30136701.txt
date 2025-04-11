@@ -1,0 +1,66 @@
+30136701|t|Mitogen-activated protein kinase phosphatase 1 protects PC12 cells from amyloid beta-induced neurotoxicity.
+30136701|a|The mitogen-activated protein kinase (MAPK) signaling pathway plays an important role in the regulation of cell growth, proliferation, differentiation, transformation and death. Mitogen-activated protein kinase phosphatase 1 (MKP1) has an inhibitory effect on the p38MAPK and JNK pathways, but it is unknown whether it plays a role in Abeta-induced oxidative stress and neuronal inflammation. In this study, PC12 cells were infected with MKP1 shRNA, MKP1 lentivirus or control lentivirus for 12 hours, and then treated with 0.1, 1, 10 or 100 muM amyloid beta 42 (Abeta42). The cell survival rate was measured using the cell counting kit-8 assay. MKP1, tumor necrosis factor-alpha (TNF-alpha) and interleukin-1beta (IL-1beta) mRNA expression levels were analyzed using quantitative real time-polymerase chain reaction. MKP1 and phospho-c-Jun N-terminal kinase (JNK) expression levels were assessed using western blot assay. Reactive oxygen species (ROS) levels were detected using 2',7'-dichlorofluorescein diacetate. Mitochondrial membrane potential was measured using flow cytometry. Superoxide dismutase activity and malondialdehyde levels were evaluated using the colorimetric method. Lactate dehydrogenase activity was measured using a microplate reader. Caspase-3 expression levels were assessed by enzyme-linked immunosorbent assay. Apoptosis was evaluated using the terminal deoxynucleotidyl transferase dUTP nick end labeling method. MKP1 overexpression inhibited Abeta-induced JNK phosphorylation and the increase in ROS levels. It also suppressed the Abeta-induced increase in TNF-alpha and IL-1beta levels as well as apoptosis in PC12 cells. In contrast, MKP1 knockdown by RNA interference aggravated Abeta-induced oxidative stress, inflammation and cell damage in PC12 cells. Furthermore, the JNK-specific inhibitor SP600125 abolished this effect of MKP1 knockdown on Abeta-induced neurotoxicity. Collectively, these results show that MKP1 mitigates Abeta-induced apoptosis, oxidative stress and neuroinflammation by inhibiting the JNK signaling pathway, thereby playing a neuroprotective role.
+30136701	0	46	Mitogen-activated protein kinase phosphatase 1	Gene	114856
+30136701	56	60	PC12	CellLine	CVCL:0481
+30136701	93	106	neurotoxicity	Disease	MESH:D020258
+30136701	286	332	Mitogen-activated protein kinase phosphatase 1	Gene	114856
+30136701	334	338	MKP1	Gene	114856
+30136701	384	387	JNK	Gene	116554
+30136701	443	448	Abeta	Gene	54226
+30136701	478	499	neuronal inflammation	Disease	MESH:D007249
+30136701	516	520	PC12	CellLine	CVCL:0481
+30136701	546	550	MKP1	Gene	114856
+30136701	558	562	MKP1	Gene	114856
+30136701	754	758	MKP1	Gene	114856
+30136701	760	787	tumor necrosis factor-alpha	Gene	24835
+30136701	789	798	TNF-alpha	Gene	24835
+30136701	804	821	interleukin-1beta	Gene	24494
+30136701	823	831	IL-1beta	Gene	24494
+30136701	926	930	MKP1	Gene	114856
+30136701	968	971	JNK	Gene	116554
+30136701	1031	1054	Reactive oxygen species	Chemical	MESH:D017382
+30136701	1056	1059	ROS	Chemical	MESH:D017382
+30136701	1088	1123	2',7'-dichlorofluorescein diacetate	Chemical	MESH:C029569
+30136701	1227	1242	malondialdehyde	Chemical	MESH:D008315
+30136701	1367	1376	Caspase-3	Gene	25402
+30136701	1481	1518	terminal deoxynucleotidyl transferase	Gene	294051
+30136701	1519	1523	dUTP	Chemical	MESH:C027078
+30136701	1550	1554	MKP1	Gene	114856
+30136701	1580	1585	Abeta	Gene	54226
+30136701	1594	1597	JNK	Gene	116554
+30136701	1634	1637	ROS	Chemical	MESH:D017382
+30136701	1669	1674	Abeta	Gene	54226
+30136701	1695	1704	TNF-alpha	Gene	24835
+30136701	1709	1717	IL-1beta	Gene	24494
+30136701	1749	1753	PC12	CellLine	CVCL:0481
+30136701	1774	1778	MKP1	Gene	114856
+30136701	1820	1825	Abeta	Gene	54226
+30136701	1852	1864	inflammation	Disease	MESH:D007249
+30136701	1884	1888	PC12	CellLine	CVCL:0481
+30136701	1913	1916	JNK	Gene	116554
+30136701	1936	1944	SP600125	Chemical	MESH:C432165
+30136701	1970	1974	MKP1	Gene	114856
+30136701	1988	1993	Abeta	Gene	54226
+30136701	2002	2015	neurotoxicity	Disease	MESH:D020258
+30136701	2055	2059	MKP1	Gene	114856
+30136701	2070	2075	Abeta	Gene	54226
+30136701	2116	2133	neuroinflammation	Disease	MESH:D000090862
+30136701	2152	2155	JNK	Gene	116554
+30136701	Positive_Correlation	24835	54226
+30136701	Association	MESH:C432165	114856
+30136701	Positive_Correlation	MESH:D007249	54226
+30136701	Association	MESH:D020258	114856
+30136701	Positive_Correlation	MESH:D020258	54226
+30136701	Association	MESH:D000090862	54226
+30136701	Association	MESH:D007249	114856
+30136701	Negative_Correlation	MESH:D017382	114856
+30136701	Association	MESH:C029569	MESH:D017382
+30136701	Negative_Correlation	114856	24494
+30136701	Positive_Correlation	24494	54226
+30136701	Negative_Correlation	MESH:C432165	MESH:D020258
+30136701	Negative_Correlation	MESH:C432165	116554
+30136701	Positive_Correlation	116554	54226
+30136701	Negative_Correlation	114856	24835
+30136701	Negative_Correlation	114856	116554
+30136701	Negative_Correlation	114856	54226
+

@@ -1,0 +1,7 @@
+37427961|t|DeepS: Accelerating 3D Mass Spectrometry Imaging via a Deep Neural Network.
+37427961|a|Mass spectrometry imaging (MSI) is a powerful methodology that enables the visualization of the spatial distribution of biomolecules, including lipids, peptides, and proteins, from biological tissue sections. While two-dimensional (2D) MSI has been widely reported in various applications, three-dimensional (3D) MSI can enable the mapping of biomolecule distribution in complex biological structures (e.g., organs) with an added dimension. However, traditional 3D MSI techniques are time-consuming since 3D MS images are constructed from 2D MSI analyses of a series of tissue sections. In this study, we propose a 3D MSI workflow, termed DeepS, which uses a 3D sparse sampling network (3D-SSNet) and a sparse sampling strategy to significantly accelerate 3D MSI analyses. Sparsely sampled tissue sections are reconstructed using 3D-SSNet, yielding results comparable to those using full sampling MSI, even at a sampling ratio of 20-30%. The workflow performed well when applied to 3D imaging of a mouse brain with Alzheimer's disease, and combined with transfer learning, it is successfully used for the 3D MSI analyses of more heterogeneous samples, e.g., a mouse brain with glioblastoma and a mouse kidney.
+37427961	220	226	lipids	Chemical	MESH:D008055
+37427961	228	236	peptides	Chemical	MESH:D010455
+37427961	1091	1110	Alzheimer's disease	Disease	MESH:D000544
+37427961	1253	1265	glioblastoma	Disease	MESH:D005909
+

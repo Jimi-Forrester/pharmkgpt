@@ -1,0 +1,11 @@
+36291282|t|Multi-Perspective Feature Extraction and Fusion Based on Deep Latent Space for Diagnosis of Alzheimer's Diseases.
+36291282|a|Resting-state functional magnetic resonance imaging (rs-fMRI) has been used to construct functional connectivity (FC) in the brain for the diagnosis and analysis of brain disease. Current studies typically use the Pearson correlation coefficient to construct dynamic FC (dFC) networks, and then use this as a network metric to obtain the necessary features for brain disease diagnosis and analysis. This simple observational approach makes it difficult to extract potential high-level FC features from the representations, and also ignores the rich information on spatial and temporal variability in FC. In this paper, we construct the Latent Space Representation Network (LSRNet) and use two stages to train the network. In the first stage, an autoencoder is used to extract potential high-level features and inner connections in the dFC representations. In the second stage, high-level features are extracted using two perspective feature parses. Long Short-Term Memory (LSTM) networks are used to extract spatial and temporal features from the local perspective. Convolutional neural networks extract global high-level features from the global perspective. Finally, the fusion of spatial and temporal features with global high-level features is used to diagnose brain disease. In this paper, the proposed method is applied to the ANDI rs-fMRI dataset, and the classification accuracy reaches 84.6% for NC/eMCI, 95.1% for NC/AD, 80.6% for eMCI/lMCI, 84.2% for lMCI/AD and 57.3% for NC/eMCI/lMCI/AD. The experimental results show that the method has a good classification performance and provides a new approach to the diagnosis of other brain diseases.
+36291282	92	112	Alzheimer's Diseases	Disease	MESH:D000544
+36291282	279	292	brain disease	Disease	MESH:D001927
+36291282	475	488	brain disease	Disease	MESH:D001927
+36291282	1379	1392	brain disease	Disease	MESH:D001927
+36291282	1541	1543	AD	Disease	MESH:D000544
+36291282	1581	1583	AD	Disease	MESH:D000544
+36291282	1611	1613	AD	Disease	MESH:D000544
+36291282	1753	1767	brain diseases	Disease	MESH:D001927
+

@@ -1,0 +1,19 @@
+29060753|t|11C-PIB PET image analysis for Alzheimer's diagnosis using weighted voting ensembles.
+29060753|a|Alzheimer's Disease (AD) is one of the leading causes of death and dementia worldwide. Early diagnosis confers many benefits, including improved care and access to effective treatment. However, it is still a medical challenge due to the lack of an efficient and inexpensive way to assess cognitive function [1]. Although research on data from Neuroimaging and Brain Initiative and the advancement in data analytics has greatly enhanced our understanding of the underlying disease process, there is still a lack of complete knowledge regarding the indicative biomarkers of Alzheimer's Disease. Recently, computer aided diagnosis of mild cognitive impairment and AD with functional brain images using machine learning methods has become popular. However, the prediction accuracy remains unoptimistic, with prediction accuracy ranging from 60% to 88% [2,3,6]. Among them, support vector machine is the most popular classifier. However, because of the relatively small sample size and the amount of noise in functional brain imaging data, a single classifier cannot achieve high classification performance. Instead of using a global classifier, in this work, we aim to improve AD prediction accuracy by combining three different classifiers using weighted and unweighted schemes. We rank image-derived features according to their importance to the classification performance and show that the top ranked features are localized in the brain areas which have been found to associate with the progression of AD. We test the proposed approach on 11C-PIB PET scans from The Alzheimer's Disease Neuroimaging Initiative (ADNI) database and demonstrated that the weighted ensemble models outperformed individual models of K-Nearest Neighbors, Random Forests, Neural Nets with overall cross validation accuracy of 86.1% +- 8.34%, specificity of 90.6% +- 12.9% and test accuracy of 80.9% and specificity 85.76% in classification of AD, mild cognitive impairment and healthy elder adults.
+29060753	0	7	11C-PIB	Chemical	MESH:C475519
+29060753	31	42	Alzheimer's	Disease	MESH:D000544
+29060753	86	105	Alzheimer's Disease	Disease	MESH:D000544
+29060753	107	109	AD	Disease	MESH:D000544
+29060753	143	148	death	Disease	MESH:D003643
+29060753	153	161	dementia	Disease	MESH:D003704
+29060753	658	677	Alzheimer's Disease	Disease	MESH:D000544
+29060753	722	742	cognitive impairment	Disease	MESH:D003072
+29060753	747	749	AD	Disease	MESH:D000544
+29060753	1259	1261	AD	Disease	MESH:D000544
+29060753	1587	1589	AD	Disease	MESH:D000544
+29060753	1624	1631	11C-PIB	Chemical	MESH:C475519
+29060753	1651	1670	Alzheimer's Disease	Disease	MESH:D000544
+29060753	2004	2006	AD	Disease	MESH:D000544
+29060753	2013	2033	cognitive impairment	Disease	MESH:D003072
+29060753	Association	MESH:C475519	MESH:D000544
+

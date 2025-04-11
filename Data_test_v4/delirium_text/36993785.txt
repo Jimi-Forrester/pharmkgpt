@@ -1,0 +1,47 @@
+36993785|t|Machine learning-based predictive models and drug prediction for schizophrenia in multiple programmed cell death patterns.
+36993785|a|Background: Schizophrenia (SC) is one of the most common mental illnesses. However, the underlying genes that cause it and its effective treatments are unknown. Programmed cell death (PCD) is associated with many immune diseases and plays an important role in schizophrenia, which may be a diagnostic indicator of the disease. Methods: Two groups as training and validation groups were chosen for schizophrenia datasets from the Gene Expression Omnibus Database (GEO). Furthermore, the PCD-related genes of the 12 patterns were extracted from databases such as KEGG. Limma analysis was performed for differentially expressed genes (DEG) identification and functional enrichment analysis. Machine learning was employed to identify minimum absolute contractions and select operator (LASSO) regression to determine candidate immune-related center genes, construct protein-protein interaction networks (PPI), establish artificial neural networks (ANN), and validate with consensus clustering (CC) analysis, then Receiver operating characteristic curve (ROC curve) was drawn for diagnosis of schizophrenia. Immune cell infiltration was developed to investigate immune cell dysregulation in schizophrenia, and finally, related drugs with candidate genes were collected via the Network analyst online platform. Results: In schizophrenia, 263 genes were crossed between DEG and PCD-related genes, and machine learning was used to select 42 candidate genes. Ten genes with the most significant differences were selected to establish a diagnostic prediction model by differential expression profiling. It was validated using artificial neural networks (ANN) and consensus clustering (CC), while ROC curves were plotted to assess diagnostic value. According to the findings, the predictive model had a high diagnostic value. Immune infiltration analysis revealed significant differences in Cytotoxic and NK cells in schizophrenia patients. Six candidate gene-related drugs were collected from the Network analyst online platform. Conclusion: Our study systematically discovered 10 candidate hub genes (DPF2, ATG7, GSK3A, TFDP2, ACVR1, CX3CR1, AP4M1, DEPDC5, NR4A2, and IKBKB). A good diagnostic prediction model was obtained through comprehensive analysis in the training (AUC 0.91, CI 0.95-0.86) and validation group (AUC 0.94, CI 1.00-0.85). Furthermore, drugs that may be useful in the treatment of schizophrenia have been obtained (Valproic Acid, Epigallocatechin gallate).
+36993785	65	78	schizophrenia	Disease	MESH:D012559
+36993785	91	112	programmed cell death	Disease	MESH:D003643
+36993785	135	148	Schizophrenia	Disease	MESH:D012559
+36993785	150	152	SC	Disease	MESH:D012559
+36993785	180	196	mental illnesses	Disease	MESH:D001523
+36993785	284	305	Programmed cell death	Disease	MESH:D003643
+36993785	307	310	PCD	Disease	MESH:D003643
+36993785	336	351	immune diseases	Disease	MESH:D007154
+36993785	383	396	schizophrenia	Disease	MESH:D012559
+36993785	520	533	schizophrenia	Disease	MESH:D012559
+36993785	609	612	PCD	Disease	MESH:D003643
+36993785	1210	1223	schizophrenia	Disease	MESH:D012559
+36993785	1308	1321	schizophrenia	Disease	MESH:D012559
+36993785	1439	1452	schizophrenia	Disease	MESH:D012559
+36993785	1493	1496	PCD	Disease	MESH:D003643
+36993785	2028	2041	schizophrenia	Disease	MESH:D012559
+36993785	2042	2050	patients	Species	9606
+36993785	2214	2218	DPF2	Gene	5977
+36993785	2220	2224	ATG7	Gene	10533
+36993785	2226	2231	GSK3A	Gene	2931
+36993785	2233	2238	TFDP2	Gene	7029
+36993785	2240	2245	ACVR1	Gene	90
+36993785	2247	2253	CX3CR1	Gene	1524
+36993785	2255	2260	AP4M1	Gene	9179
+36993785	2262	2268	DEPDC5	Gene	9681
+36993785	2270	2275	NR4A2	Gene	4929
+36993785	2281	2286	IKBKB	Gene	3551
+36993785	2514	2527	schizophrenia	Disease	MESH:D012559
+36993785	2548	2561	Valproic Acid	Chemical	MESH:D014635
+36993785	2563	2587	Epigallocatechin gallate	Chemical	MESH:C045651
+36993785	Association	MESH:D003643	7029
+36993785	Association	MESH:D012559	90
+36993785	Association	MESH:D012559	1524
+36993785	Association	MESH:C045651	MESH:D003643
+36993785	Association	MESH:D003643	9179
+36993785	Association	MESH:D012559	4929
+36993785	Association	MESH:D012559	7029
+36993785	Association	MESH:D003643	90
+36993785	Association	MESH:D003643	5977
+36993785	Association	MESH:D012559	10533
+36993785	Association	MESH:D003643	2931
+36993785	Association	MESH:D003643	10533
+36993785	Association	MESH:D012559	9179
+36993785	Association	MESH:D012559	3551
+

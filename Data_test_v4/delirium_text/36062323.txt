@@ -1,0 +1,33 @@
+36062323|t|New regulators of the tetracycline-inducible gene expression system identified by chemical and genetic screens.
+36062323|a|The tetracycline repressor (tetR)-regulated system is a widely used tool to specifically control gene expression in mammalian cells. Based on this system, we generated a human osteosarcoma cell line, which allows for the inducible expression of an EGFP fusion of the TAR DNA-binding protein 43 (TDP-43), which has been linked to neurodegenerative diseases. Consistent with previous findings, TDP-43 overexpression led to the accumulation of aggregates and limited the viability of U2OS. Using this inducible system, we conducted a chemical screen with a library that included FDA-approved drugs. While the primary screen identified several compounds that prevented TDP-43 toxicity, further experiments revealed that these chemicals abrogated the doxycycline-dependent TDP-43 expression. This antagonistic effect was observed with both doxycycline and tetracycline, and in several Tet-On cell lines expressing different genes, confirming the general effect of these compounds as inhibitors of the tetR system. Using the same cell line, a genome-wide CRISPR/Cas9 screen identified epigenetic regulators such as the G9a methyltransferase and TRIM28 as potential modifiers of TDP-43 toxicity. Yet again, further experiments revealed that G9a inhibition or TRIM28 loss prevented doxycycline-dependent expression of TDP-43. In summary, we have identified new chemical and genetic regulators of the tetR system, thereby raising awareness of the limitations of this approach to conduct chemical or genetic screening in mammalian cells.
+36062323	22	34	tetracycline	Chemical	MESH:D013752
+36062323	282	287	human	Species	9606
+36062323	288	300	osteosarcoma	Disease	MESH:D012516
+36062323	379	405	TAR DNA-binding protein 43	Gene	23435
+36062323	407	413	TDP-43	Gene	23435
+36062323	441	467	neurodegenerative diseases	Disease	MESH:D019636
+36062323	504	510	TDP-43	Gene	23435
+36062323	593	597	U2OS	CellLine	CVCL:0042
+36062323	777	783	TDP-43	Gene	23435
+36062323	784	792	toxicity	Disease	MESH:D064420
+36062323	858	869	doxycycline	Chemical	MESH:D004318
+36062323	880	886	TDP-43	Gene	23435
+36062323	947	958	doxycycline	Chemical	MESH:D004318
+36062323	963	975	tetracycline	Chemical	MESH:D013752
+36062323	1251	1257	TRIM28	Gene	10155
+36062323	1284	1290	TDP-43	Gene	23435
+36062323	1291	1299	toxicity	Disease	MESH:D064420
+36062323	1346	1349	G9a	Gene	10919
+36062323	1364	1370	TRIM28	Gene	10155
+36062323	1386	1397	doxycycline	Chemical	MESH:D004318
+36062323	1422	1428	TDP-43	Gene	23435
+36062323	Positive_Correlation	MESH:D004318	23435
+36062323	Association	MESH:D064420	10155
+36062323	Association	10919	23435
+36062323	Association	MESH:D064420	23435
+36062323	Association	MESH:D004318	10155
+36062323	Comparison	MESH:D004318	MESH:D013752
+36062323	Association	MESH:D004318	10919
+36062323	Association	10155	23435
+36062323	Association	MESH:D019636	23435
+

@@ -1,0 +1,11 @@
+30405975|t|Classification of Alzheimer's Disease, Mild Cognitive Impairment and Normal Control Subjects Using Resting-State fMRI Based Network Connectivity Analysis.
+30405975|a|This paper proposes a robust method for the Alzheimer's disease (AD), mild cognitive impairment (MCI), and normal control subject classification under size limited fMRI data samples by exploiting the brain network connectivity pattern analysis. First, we select the regions of interest (ROIs) within the default mode network and calculate the correlation coefficients between all possible ROI pairs to form a feature vector for each subject. Second, we propose a regularized linear discriminant analysis (LDA) approach to reduce the noise effect due to the limited sample size. The feature vectors are then projected onto a one-dimensional axis using the proposed regularized LDA. Finally, an AdaBoost classifier is applied to carry out the classification task. The numerical analysis demonstrates that the purposed approach can increase the classification accuracy significantly. Our analysis confirms the previous findings that the hippocampus and the isthmus of the cingulate cortex are closely involved in the development of AD and MCI.
+30405975	18	37	Alzheimer's Disease	Disease	MESH:D000544
+30405975	39	64	Mild Cognitive Impairment	Disease	MESH:D060825
+30405975	199	218	Alzheimer's disease	Disease	MESH:D000544
+30405975	220	222	AD	Disease	MESH:D000544
+30405975	225	250	mild cognitive impairment	Disease	MESH:D060825
+30405975	252	255	MCI	Disease	MESH:D060825
+30405975	1184	1186	AD	Disease	MESH:D000544
+30405975	1191	1194	MCI	Disease	MESH:D060825
+

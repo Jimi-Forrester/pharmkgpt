@@ -1,0 +1,36 @@
+37720047|t|Disentangling accelerated cognitive decline from the normal aging process and unraveling its genetic components: A neuroimaging-based deep learning approach.
+37720047|a|Background The progressive cognitive decline that is an integral component of AD unfolds in tandem with the natural aging process. Neuroimaging features have demonstrated the capacity to distinguish cognitive decline changes stemming from typical brain aging and Alzheimer's disease between different chronological points. Methods We developed a deep-learning framework based on dual-loss Siamese ResNet network to extract fine-grained information from the longitudinal structural magnetic resonance imaging (MRI) data from the Alzheimer's Disease Neuroimaging Initiative (ADNI) study. We then conducted genome-wide association studies (GWAS) and post-GWAS analyses to reveal the genetic basis of AD-related accelerated cognitive decline. Results We used our model to process data from 1,313 individuals, training it on 414 cognitively normal people and predicting cognitive assessment for all participants. In our analysis of accelerated cognitive decline GWAS, we identified two genome-wide significant loci: APOE locus (chromosome 19 p13.32) and rs144614292 (chromosome 11 p15.1). Variant rs144614292 (G>T) has not been reported in previous AD GWA studies. It is within the intronic region of NELL1 , which is expressed in neuron and plays a role in controlling cell growth and differentiation. In addition, MUC7 and PROL1 / OPRPN on chromosome 4 were significant at the gene level. The cell-type-specific enrichment analysis and functional enrichment of GWAS signals highlighted the microglia and immune-response pathways. Furthermore, we found that the cognitive decline slope GWAS was positively correlated with previous AD GWAS. Conclusion Our deep learning model was demonstrated effective on extracting relevant neuroimaging features and predicting individual cognitive decline. We reported a novel variant (rs144614292) within the NELL1 gene. Our approach has the potential to disentangle accelerated cognitive decline from the normal aging process and to determine its related genetic factors, leveraging opportunities for early intervention.
+37720047	26	43	cognitive decline	Disease	MESH:D003072
+37720047	185	202	cognitive decline	Disease	MESH:D003072
+37720047	236	238	AD	Disease	MESH:D000544
+37720047	357	374	cognitive decline	Disease	MESH:D003072
+37720047	405	410	brain	Disease	MESH:D001927
+37720047	421	440	Alzheimer's disease	Disease	MESH:D000544
+37720047	686	705	Alzheimer's Disease	Disease	MESH:D000544
+37720047	855	857	AD	Disease	MESH:D000544
+37720047	878	895	cognitive decline	Disease	MESH:D003072
+37720047	1097	1114	cognitive decline	Disease	MESH:D003072
+37720047	1169	1173	APOE	Gene	348
+37720047	1181	1194	chromosome 19	Chromosome	19
+37720047	1207	1218	rs144614292	SNP	tmVar:rs144614292;VariantGroup:0;CorrespondingGene:4745;RS#:144614292;CorrespondingSpecies:9606
+37720047	1220	1233	chromosome 11	Chromosome	11
+37720047	1250	1261	rs144614292	SNP	tmVar:rs144614292;VariantGroup:0;CorrespondingGene:4745;RS#:144614292;CorrespondingSpecies:9606
+37720047	1263	1266	G>T	DNAMutation	tmVar:c|SUB|G||T;VariantGroup:0;CorrespondingGene:4745;RS#:144614292;CorrespondingSpecies:9606
+37720047	1302	1304	AD	Disease	MESH:D000544
+37720047	1354	1359	NELL1	Gene	4745
+37720047	1469	1473	MUC7	Gene	4589
+37720047	1478	1483	PROL1	Gene	58503
+37720047	1486	1491	OPRPN	Gene	58503
+37720047	1495	1507	chromosome 4	Chromosome	4
+37720047	1716	1733	cognitive decline	Disease	MESH:D003072
+37720047	1785	1787	AD	Disease	MESH:D000544
+37720047	1927	1944	cognitive decline	Disease	MESH:D003072
+37720047	1975	1986	rs144614292	SNP	tmVar:rs144614292;VariantGroup:0;CorrespondingGene:4745;RS#:144614292;CorrespondingSpecies:9606
+37720047	1999	2004	NELL1	Gene	4745
+37720047	2069	2086	cognitive decline	Disease	MESH:D003072
+37720047	Positive_Correlation	MESH:D003072	RS#:144614292;CorrespondingGene:4745
+37720047	Positive_Correlation	MESH:D003072	RS#:144614292;CorrespondingGene:4745
+37720047	Association	MESH:D000544	4745
+37720047	Association	MESH:D003072	348
+37720047	Association	MESH:D003072	4745
+

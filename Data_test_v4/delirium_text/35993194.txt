@@ -1,0 +1,16 @@
+35993194|t|Identification of key predictors of hospital mortality in critically ill patients with embolic stroke using machine learning.
+35993194|a|Embolic stroke (ES) is characterized by high morbidity and mortality. Its mortality predictors remain unclear. The present study aimed to use machine learning (ML) to identify the key predictors of mortality for ES patients in the intensive care unit (ICU). Data were extracted from two large ICU databases: Medical Information Mart for Intensive Care (MIMIC)-IV for training and internal validation, and eICU Collaborative Research Database (eICU-CRD) for external validation. We developed predictive models of ES mortality based on 15 ML algorithms. We relied on the synthetic minority oversampling technique (SMOTE) to address class imbalance. Our main performance metric was area under the receiver operating characteristic (AUROC). We adopted recursive feature elimination (RFE) for feature selection. We assessed model performance using three disease-severity scoring systems as benchmarks. Of the 1566 and 207 ES patients enrolled in the two databases, there were 173 (15.70%), 73 (15.57%), and 36 (17.39%) hospital mortality in the training, internal validation, and external validation cohort, respectively. The random forest (RF) model had the largest AUROC (0.806) in the internal validation phase and was chosen as the best model. The AUROC of the RF compact (RF-COM) model containing the top six features identified by RFE was 0.795. In the external validation phase, the AUROC of the RF model was 0.838, and the RF-COM model was 0.830, outperforming other models. Our findings suggest that the RF model was the best model and the top six predictors of ES hospital mortality were Glasgow Coma Scale, white blood cell, blood urea nitrogen, bicarbonate, age, and mechanical ventilation.
+35993194	73	81	patients	Species	9606
+35993194	87	101	embolic stroke	Disease	MESH:D000083262
+35993194	126	140	Embolic stroke	Disease	MESH:D000083262
+35993194	142	144	ES	Disease	MESH:D000083262
+35993194	338	340	ES	Disease	MESH:D000083262
+35993194	341	349	patients	Species	9606
+35993194	638	640	ES	Disease	MESH:D000083262
+35993194	1043	1045	ES	Disease	MESH:D000083262
+35993194	1046	1054	patients	Species	9606
+35993194	1692	1694	ES	Disease	MESH:D000083262
+35993194	1727	1731	Coma	Disease	MESH:D003128
+35993194	1763	1776	urea nitrogen	Chemical	MESH:C530477
+35993194	1778	1789	bicarbonate	Chemical	MESH:D001639
+

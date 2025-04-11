@@ -1,0 +1,34 @@
+27282658|t|Chemical screening identifies the beta-Carboline alkaloid harmine to be synergistically lethal with doxorubicin.
+27282658|a|Despite being an invaluable chemotherapeutic agent for several types of cancer, the clinical utility of doxorubicin is hampered by its age-related and dose-dependent cardiotoxicity. Co-administration of dexrazoxane as a cardioprotective agent has been proposed, however recent studies suggest that it attenuates doxorubicin-induced antitumor activity. Since compounds of natural origin present a rich territory for drug discovery, we set out to identify putative natural compounds with the view to mitigate or minimize doxorubicin cardiotoxicity. We identify the DYRK1A kinase inhibitor harmine, which phosphorylates Tau that is deregulated in Alzheimer's disease, as a potentiator of cell death induced by non-toxic doses of doxorubicin. These observations suggest that harmine or other compounds that target the DYRK1A kinase my offer a new therapeutic opportunity to suppress doxorubicin age-related and dose-dependent cardiotoxicity.
+27282658	34	48	beta-Carboline	Chemical	MESH:C010262
+27282658	58	65	harmine	Chemical	MESH:D006247
+27282658	100	111	doxorubicin	Chemical	MESH:D004317
+27282658	185	191	cancer	Disease	MESH:D009369
+27282658	217	228	doxorubicin	Chemical	MESH:D004317
+27282658	279	293	cardiotoxicity	Disease	MESH:D066126
+27282658	316	327	dexrazoxane	Chemical	MESH:D064730
+27282658	425	436	doxorubicin	Chemical	MESH:D004317
+27282658	632	643	doxorubicin	Chemical	MESH:D004317
+27282658	644	658	cardiotoxicity	Disease	MESH:D066126
+27282658	676	682	DYRK1A	Gene	1859
+27282658	700	707	harmine	Chemical	MESH:D006247
+27282658	730	733	Tau	Gene	4137
+27282658	757	776	Alzheimer's disease	Disease	MESH:D000544
+27282658	839	850	doxorubicin	Chemical	MESH:D004317
+27282658	884	891	harmine	Chemical	MESH:D006247
+27282658	927	933	DYRK1A	Gene	1859
+27282658	992	1003	doxorubicin	Chemical	MESH:D004317
+27282658	1035	1049	cardiotoxicity	Disease	MESH:D066126
+27282658	Negative_Correlation	MESH:D006247	1859
+27282658	Negative_Correlation	MESH:D004317	MESH:D009369
+27282658	Association	MESH:D004317	4137
+27282658	Negative_Correlation	MESH:D006247	MESH:D066126
+27282658	Positive_Correlation	MESH:D004317	MESH:D000544
+27282658	Association	MESH:D000544	4137
+27282658	Positive_Correlation	MESH:D006247	4137
+27282658	Positive_Correlation	MESH:D004317	MESH:D066126
+27282658	Association	MESH:D006247	MESH:D000544
+27282658	Positive_Correlation	MESH:D004317	MESH:D006247
+27282658	Association	MESH:D004317	1859
+27282658	Negative_Correlation	MESH:D004317	MESH:D064730
+

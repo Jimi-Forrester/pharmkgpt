@@ -1,0 +1,29 @@
+35185510|t|Genetic Algorithms for Optimized Diagnosis of Alzheimer's Disease and Frontotemporal Dementia Using Fluorodeoxyglucose Positron Emission Tomography Imaging.
+35185510|a|Genetic algorithms have a proven capability to explore a large space of solutions, and deal with very large numbers of input features. We hypothesized that the application of these algorithms to 18F-Fluorodeoxyglucose Positron Emission Tomography (FDG-PET) may help in diagnosis of Alzheimer's disease (AD) and Frontotemporal Dementia (FTD) by selecting the most meaningful features and automating diagnosis. We aimed to develop algorithms for the three main issues in the diagnosis: discrimination between patients with AD or FTD and healthy controls (HC), differential diagnosis between behavioral FTD (bvFTD) and AD, and differential diagnosis between primary progressive aphasia (PPA) variants. Genetic algorithms, customized with K-Nearest Neighbor and BayesNet Naives as the fitness function, were developed and compared with Principal Component Analysis (PCA). K-fold cross validation within the same sample and external validation with ADNI-3 samples were performed. External validation was performed for the algorithms distinguishing AD and HC. Our study supports the use of FDG-PET imaging, which allowed a very high accuracy rate for the diagnosis of AD, FTD, and related disorders. Genetic algorithms identified the most meaningful features with the minimum set of features, which may be relevant for automated assessment of brain FDG-PET images. Overall, our study contributes to the development of an automated, and optimized diagnosis of neurodegenerative disorders using brain metabolism.
+35185510	46	65	Alzheimer's Disease	Disease	MESH:D000544
+35185510	70	93	Frontotemporal Dementia	Disease	MESH:D057180
+35185510	100	118	Fluorodeoxyglucose	Chemical	MESH:D019788
+35185510	352	374	18F-Fluorodeoxyglucose	Chemical	MESH:D019788
+35185510	405	408	FDG	Chemical	MESH:D019788
+35185510	439	458	Alzheimer's disease	Disease	MESH:D000544
+35185510	460	462	AD	Disease	MESH:D000544
+35185510	468	491	Frontotemporal Dementia	Disease	MESH:D057180
+35185510	493	496	FTD	Disease	MESH:D057180
+35185510	664	672	patients	Species	9606
+35185510	678	680	AD	Disease	MESH:D000544
+35185510	684	687	FTD	Disease	MESH:D057180
+35185510	746	760	behavioral FTD	Disease	MESH:D057180
+35185510	762	767	bvFTD	Disease	MESH:D057180
+35185510	773	775	AD	Disease	MESH:D000544
+35185510	812	839	primary progressive aphasia	Disease	MESH:D018888
+35185510	841	844	PPA	Disease	MESH:D018888
+35185510	1101	1105	ADNI	CellLine	
+35185510	1200	1202	AD	Disease	MESH:D000544
+35185510	1241	1244	FDG	Chemical	MESH:D019788
+35185510	1319	1321	AD	Disease	MESH:D000544
+35185510	1323	1326	FTD	Disease	MESH:D057180
+35185510	1500	1503	FDG	Chemical	MESH:D019788
+35185510	1610	1637	neurodegenerative disorders	Disease	MESH:D019636
+35185510	Association	MESH:D019788	MESH:D057180
+35185510	Association	MESH:D019788	MESH:D000544
+

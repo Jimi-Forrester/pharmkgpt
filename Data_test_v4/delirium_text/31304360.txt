@@ -1,0 +1,10 @@
+31304360|t|A computer vision system for deep learning-based detection of patient mobilization activities in the ICU.
+31304360|a|Early and frequent patient mobilization substantially mitigates risk for post-intensive care syndrome and long-term functional impairment. We developed and tested computer vision algorithms to detect patient mobilization activities occurring in an adult ICU. Mobility activities were defined as moving the patient into and out of bed, and moving the patient into and out of a chair. A data set of privacy-safe-depth-video images was collected in the Intermountain LDS Hospital ICU, comprising 563 instances of mobility activities and 98,801 total frames of video data from seven wall-mounted depth sensors. In all, 67% of the mobility activity instances were used to train algorithms to detect mobility activity occurrence and duration, and the number of healthcare personnel involved in each activity. The remaining 33% of the mobility instances were used for algorithm evaluation. The algorithm for detecting mobility activities attained a mean specificity of 89.2% and sensitivity of 87.2% over the four activities; the algorithm for quantifying the number of personnel involved attained a mean accuracy of 68.8%.
+31304360	62	69	patient	Species	9606
+31304360	125	132	patient	Species	9606
+31304360	179	207	post-intensive care syndrome	Disease	MESH:C000657744
+31304360	212	243	long-term functional impairment	Disease	MESH:D000088562
+31304360	306	313	patient	Species	9606
+31304360	412	419	patient	Species	9606
+31304360	456	463	patient	Species	9606
+

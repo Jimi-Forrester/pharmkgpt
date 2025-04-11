@@ -1,0 +1,38 @@
+32812532|t|Screening and Identification of Potential Peripheral Blood Biomarkers for Alzheimer's Disease Based on Bioinformatics Analysis.
+32812532|a|BACKGROUND Alzheimer's disease (AD) is the leading cause of dementia worldwide; however, the molecular mechanisms underlying its pathogenesis remain unclear. The present study aimed to discover some potential peripheral blood biomarkers for early detection of patients with AD. MATERIAL AND METHODS Publicly available AD datasets - GSE18309 and GSE97760 - were obtained from the Gene Expression Omnibus database, and limma package from Bioconductor was employed to search for differently expressed genes (DEGs). Weighted correlation network analysis was performed to identify DEGs with highly synergistic changes, and functional annotation of DEGs was performed using gene set enrichment analysis and Metascape. STRING and Cytoscape were used to construct protein-protein interaction networks and analyze the most significant hub genes. Thereafter, the Comparative Toxicogenomics Database (CTD) was used to identify hub genes associated with AD pathology, and Connectivity Map was used to screen small molecule drugs for AD. Finally, hub genes coupled with corresponding predicted miRNAs involved in AD were assessed via TargetScan, and functional annotation of predicted miRNAs was performed using DIANA database. RESULTS Our analyses revealed 5042 DEGs; based on functional analyses, these DEGs were mainly associated with oligosaccharide lipid intermediate biosynthetic process, cyclin binding, signaling pathways regulating pluripotency of ubiquitin mediated proteolysis, and extracellular matrix-receptor interaction. UBB, UBA52, SRC, MMP9, VWF, GP6, and PF4 were identified as the hub genes. The CTD showed that these hub genes are closely related with AD or cognition impairment. CONCLUSIONS The identified hub genes and corresponding miRNAs might be useful as potential peripheral blood biomarkers of AD.
+32812532	74	93	Alzheimer's Disease	Disease	MESH:D000544
+32812532	139	158	Alzheimer's disease	Disease	MESH:D000544
+32812532	160	162	AD	Disease	MESH:D000544
+32812532	188	196	dementia	Disease	MESH:D003704
+32812532	388	396	patients	Species	9606
+32812532	402	404	AD	Disease	MESH:D000544
+32812532	446	448	AD	Disease	MESH:D000544
+32812532	1070	1072	AD	Disease	MESH:D000544
+32812532	1149	1151	AD	Disease	MESH:D000544
+32812532	1228	1230	AD	Disease	MESH:D000544
+32812532	1453	1474	oligosaccharide lipid	Chemical	-
+32812532	1651	1654	UBB	Gene	7314
+32812532	1656	1661	UBA52	Gene	7311
+32812532	1663	1666	SRC	Gene	6714
+32812532	1668	1672	MMP9	Gene	4318
+32812532	1674	1677	VWF	Gene	7450
+32812532	1679	1682	GP6	Gene	51206
+32812532	1688	1691	PF4	Gene	5196
+32812532	1787	1789	AD	Disease	MESH:D000544
+32812532	1793	1813	cognition impairment	Disease	MESH:D003072
+32812532	1937	1939	AD	Disease	MESH:D000544
+32812532	Association	MESH:D003072	6714
+32812532	Association	MESH:D000544	4318
+32812532	Association	MESH:D000544	5196
+32812532	Association	MESH:D000544	7450
+32812532	Association	MESH:D003072	7311
+32812532	Association	MESH:D000544	6714
+32812532	Association	MESH:D003072	51206
+32812532	Association	MESH:D003072	5196
+32812532	Association	MESH:D000544	7311
+32812532	Association	MESH:D003072	7314
+32812532	Association	MESH:D003072	4318
+32812532	Association	MESH:D000544	51206
+32812532	Association	MESH:D003072	7450
+32812532	Association	MESH:D000544	7314
+

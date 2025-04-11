@@ -1,0 +1,14 @@
+34449727|t|Evaluating a Machine Learning Tool for the Classification of Pathological Uptake in Whole-Body PSMA-PET-CT Scans.
+34449727|a|The importance of machine learning (ML) in the clinical environment increases constantly. Differentiation of pathological from physiological tracer-uptake in positron emission tomography/computed tomography (PET/CT) images is considered time-consuming and attention intensive, hence crucial for diagnosis and treatment planning. This study aimed at comparing and validating supervised ML algorithms to classify pathological uptake in prostate cancer (PC) patients based on prostate-specific membrane antigen (PSMA)-PET/CT. Retrospective analysis of 68Ga-PSMA-PET/CTs of 72 PC patients resulted in a total of 77 radiomics features from 2452 manually delineated hotspots for training and labeled pathological (1629) or physiological (823) as ground truth (GT). As the held-out test dataset, 331 hotspots (path.:128, phys.: 203) were delineated in 15 other patients. Three ML classifiers were trained and ranked to assess classification performance. As a result, a high overall average performance (area under the curve (AUC) of 0.98) was achieved, especially to detect pathological uptake (0.97 mean sensitivity). However, there is still room for improvement to detect physiological uptake (0.82 mean specificity), especially for glands. The ML algorithm applied to manually delineated lesions predicts hotspot labels with high accuracy on unseen data and may be an important tool to assist in clinical diagnosis.
+34449727	95	99	PSMA	Gene	2346
+34449727	548	563	prostate cancer	Disease	MESH:D011471
+34449727	565	567	PC	Disease	MESH:D011471
+34449727	569	577	patients	Species	9606
+34449727	587	621	prostate-specific membrane antigen	Gene	2346
+34449727	623	627	PSMA	Gene	2346
+34449727	668	672	PSMA	Gene	2346
+34449727	687	689	PC	Disease	MESH:D011471
+34449727	690	698	patients	Species	9606
+34449727	968	976	patients	Species	9606
+34449727	Association	MESH:D011471	2346
+

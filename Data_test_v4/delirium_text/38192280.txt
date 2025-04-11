@@ -1,0 +1,74 @@
+38192280|t|O-GlcNAc regulates the mitochondrial integrated stress response by regulating ATF4.
+38192280|a|Background: Accumulation of mitochondrial dysfunctional is a hallmark of age-related neurodegeneration including Alzheimer's disease (AD). Impairment of mitochondrial quality control mechanisms leading to the accumulation of damaged mitochondria and increasing neuronal stress. Therefore, investigating the basic mechanisms of how mitochondrial homeostasis is regulated is essential. Herein, we investigate the role of O-GlcNAcylation, a single sugar post-translational modification, in controlling mitochondrial stress-induced transcription factor Activating Transcription Factor 4 (ATF4). Mitochondrial dysfunction triggers the integrated stress response (ISRmt), in which the phosphorylation of eukaryotic translation initiation factor 2alpha results in the translation of ATF4. Methods: We used patient-derived induced pluripotent stem cells, a transgenic mouse model of AD, SH-SY5Y neuroblastoma and HeLa cell-lines to examine the effect of sustained O-GlcNAcase inhibition by Thiamet-G (TMG) on ISRmt using biochemical analyses. Results: We show that TMG elevates ATF4 protein levels upon mitochondrial stress in SH-SY5Y neuroblastoma and HeLa cell-lines. An indirect downstream target of ATF4 mitochondrial chaperone glucose-regulated protein 75 (GRP75) is significantly elevated. Interestingly, knock-down of O-GlcNAc transferase (OGT), the enzyme that adds O-GlcNAc, in SH-SY5Y increases ATF4 protein and mRNA expression. Additionally, ATF4 target gene Activating Transcription Factor 5 (ATF5) is significantly elevated at both the protein and mRNA level. Brains isolated from TMG treated mice show elevated levels of ATF4 and GRP75. Importantly, ATF4 occupancy increases at the ATF5 promoter site in brains isolated from TMG treated mice suggesting that O-GlcNAc is regulating ATF4 targeted gene expression. Interestingly, ATF4 and GRP75 are not induced in TMG treated familial Alzheimer's Disease mice model. The same results are seen in a human in vitro model of AD. Conclusion: Together, these results indicate that in healthy conditions, O-GlcNAc regulates the ISRmt through regulating ATF4, while manipulating O-GlcNAc in AD has no effect on ISRmt.
+38192280	0	8	O-GlcNAc	Gene	8473
+38192280	78	82	ATF4	Gene	468
+38192280	112	139	mitochondrial dysfunctional	Disease	MESH:D028361
+38192280	157	186	age-related neurodegeneration	Disease	MESH:D010024
+38192280	197	216	Alzheimer's disease	Disease	MESH:D000544
+38192280	218	220	AD	Disease	MESH:D000544
+38192280	529	534	sugar	Chemical	MESH:D000073893
+38192280	633	666	Activating Transcription Factor 4	Gene	468
+38192280	668	672	ATF4	Gene	468
+38192280	675	700	Mitochondrial dysfunction	Disease	MESH:D028361
+38192280	782	829	eukaryotic translation initiation factor 2alpha	Gene	83939
+38192280	860	864	ATF4	Gene	468
+38192280	883	890	patient	Species	9606
+38192280	944	949	mouse	Species	10090
+38192280	959	961	AD	Disease	MESH:D000544
+38192280	963	984	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+38192280	989	993	HeLa	CellLine	CVCL:0030
+38192280	1040	1051	O-GlcNAcase	Gene	10724
+38192280	1066	1075	Thiamet-G	Chemical	MESH:C572247
+38192280	1077	1080	TMG	Chemical	MESH:C572247
+38192280	1141	1144	TMG	Chemical	MESH:C572247
+38192280	1154	1158	ATF4	Gene	468
+38192280	1203	1224	SH-SY5Y neuroblastoma	CellLine	CVCL:0019
+38192280	1229	1233	HeLa	CellLine	CVCL:0030
+38192280	1279	1283	ATF4	Gene	468
+38192280	1308	1336	glucose-regulated protein 75	Gene	3313
+38192280	1338	1343	GRP75	Gene	3313
+38192280	1401	1421	O-GlcNAc transferase	Gene	8473
+38192280	1423	1426	OGT	Gene	8473
+38192280	1450	1458	O-GlcNAc	Gene	8473
+38192280	1463	1470	SH-SY5Y	CellLine	CVCL:0019
+38192280	1481	1485	ATF4	Gene	468
+38192280	1529	1533	ATF4	Gene	468
+38192280	1546	1579	Activating Transcription Factor 5	Gene	22809
+38192280	1581	1585	ATF5	Gene	22809
+38192280	1670	1673	TMG	Chemical	MESH:C572247
+38192280	1682	1686	mice	Species	10090
+38192280	1711	1715	ATF4	Gene	468
+38192280	1720	1725	GRP75	Gene	15526
+38192280	1740	1744	ATF4	Gene	468
+38192280	1772	1776	ATF5	Gene	107503
+38192280	1815	1818	TMG	Chemical	MESH:C572247
+38192280	1827	1831	mice	Species	10090
+38192280	1848	1856	O-GlcNAc	Gene	8473
+38192280	1871	1875	ATF4	Gene	468
+38192280	1917	1921	ATF4	Gene	468
+38192280	1926	1931	GRP75	Gene	15526
+38192280	1951	1954	TMG	Chemical	MESH:C572247
+38192280	1972	1991	Alzheimer's Disease	Disease	MESH:D000544
+38192280	1992	1996	mice	Species	10090
+38192280	2035	2040	human	Species	9606
+38192280	2059	2061	AD	Disease	MESH:D000544
+38192280	2136	2144	O-GlcNAc	Gene	8473
+38192280	2184	2188	ATF4	Gene	468
+38192280	2209	2217	O-GlcNAc	Gene	8473
+38192280	2221	2223	AD	Disease	MESH:D000544
+38192280	Positive_Correlation	MESH:C572247	468
+38192280	Association	468	8473
+38192280	Association	22809	468
+38192280	Negative_Correlation	MESH:C572247	10724
+38192280	Association	10724	8473
+38192280	Association	107503	468
+38192280	Negative_Correlation	MESH:C572247	MESH:D000544
+38192280	Association	15526	8473
+38192280	Association	MESH:D028361	468
+38192280	Positive_Correlation	MESH:C572247	15526
+38192280	Association	22809	8473
+38192280	Association	3313	468
+38192280	Association	MESH:D028361	8473
+38192280	Association	468	83939
+38192280	Association	MESH:C572247	8473
+

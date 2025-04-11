@@ -1,0 +1,23 @@
+1394426|t|The structure of human mitochondrial manganese superoxide dismutase reveals a novel tetrameric interface of two 4-helix bundles.
+1394426|a|The 2.2 A resolution crystal structure of recombinant human manganese superoxide dismutase, a homotetrameric enzyme that protects mitochondria against oxygen-mediated free radical damage, has been determined. Within each subunit, both the N-terminal helical hairpin and C-terminal alpha/beta domains contribute ligands to the catalytic manganese site. Two identical 4-helix bundles, symmetrically assembled from the N-terminal helical hairpins, form novel tetrameric interfaces that stabilize the active sites. Structurally altered polymorphic variants with reduced activity, such as tetrameric interface mutant Ile-58 to Thr, may produce not only an early selective advantage, through enhanced cytotoxicity of tumor necrosis factor for virus-infected cells, but also detrimental effects from increased mitochondrial oxidative damage, contributing to degenerative conditions, including diabetes, aging, and Parkinson's and Alzheimer's diseases.
+1394426	17	22	human	Species	9606
+1394426	37	67	manganese superoxide dismutase	Gene	6648
+1394426	183	188	human	Species	9606
+1394426	189	219	manganese superoxide dismutase	Gene	6648
+1394426	280	286	oxygen	Chemical	MESH:D010100
+1394426	296	308	free radical	Chemical	MESH:D005609
+1394426	465	474	manganese	Chemical	MESH:D008345
+1394426	741	754	Ile-58 to Thr	ProteinMutation	tmVar:p|SUB|I|58|T;HGVS:p.I58T;VariantGroup:0;CorrespondingGene:6648;CorrespondingSpecies:9606
+1394426	824	836	cytotoxicity	Disease	MESH:D064420
+1394426	840	861	tumor necrosis factor	Gene	7124
+1394426	1015	1023	diabetes	Disease	MESH:D003920
+1394426	1036	1072	Parkinson's and Alzheimer's diseases	Disease	MESH:D010300
+1394426	Positive_Correlation	MESH:D064420	HGVS:p.I58T;CorrespondingGene:6648
+1394426	Association	MESH:D003920	HGVS:p.I58T;CorrespondingGene:6648
+1394426	Association	MESH:D005609	MESH:D010100
+1394426	Association	MESH:D010300	HGVS:p.I58T;CorrespondingGene:6648
+1394426	Association	MESH:D010300	6648
+1394426	Association	MESH:D064420	6648
+1394426	Association	MESH:D003920	6648
+1394426	Association	MESH:D010300	6648
+

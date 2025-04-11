@@ -1,0 +1,13 @@
+28150897|t|Connectivity strength-weighted sparse group representation-based brain network construction for MCI classification.
+28150897|a|Brain functional network analysis has shown great potential in understanding brain functions and also in identifying biomarkers for brain diseases, such as Alzheimer's disease (AD) and its early stage, mild cognitive impairment (MCI). In these applications, accurate construction of biologically meaningful brain network is critical. Sparse learning has been widely used for brain network construction; however, its l1 -norm penalty simply penalizes each edge of a brain network equally, without considering the original connectivity strength which is one of the most important inherent linkwise characters. Besides, based on the similarity of the linkwise connectivity, brain network shows prominent group structure (i.e., a set of edges sharing similar attributes). In this article, we propose a novel brain functional network modeling framework with a "connectivity strength-weighted sparse group constraint." In particular, the network modeling can be optimized by considering both raw connectivity strength and its group structure, without losing the merit of sparsity. Our proposed method is applied to MCI classification, a challenging task for early AD diagnosis. Experimental results based on the resting-state functional MRI, from 50 MCI patients and 49 healthy controls, show that our proposed method is more effective (i.e., achieving a significantly higher classification accuracy, 84.8%) than other competing methods (e.g., sparse representation, accuracy = 65.6%). Post hoc inspection of the informative features further shows more biologically meaningful brain functional connectivities obtained by our proposed method. Hum Brain Mapp 38:2370-2383, 2017.   2017 Wiley Periodicals, Inc.
+28150897	96	99	MCI	Disease	MESH:D060825
+28150897	248	262	brain diseases	Disease	MESH:D001927
+28150897	272	291	Alzheimer's disease	Disease	MESH:D000544
+28150897	293	295	AD	Disease	MESH:D000544
+28150897	323	343	cognitive impairment	Disease	MESH:D003072
+28150897	345	348	MCI	Disease	MESH:D060825
+28150897	1225	1228	MCI	Disease	MESH:D060825
+28150897	1274	1276	AD	Disease	MESH:D000544
+28150897	1360	1363	MCI	Disease	MESH:D060825
+28150897	1364	1372	patients	Species	9606
+

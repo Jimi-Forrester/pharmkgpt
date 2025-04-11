@@ -1,0 +1,47 @@
+37508478|t|CXCR2 Is Deregulated in ALS Spinal Cord and Its Activation Triggers Apoptosis in Motor Neuron-Like Cells Overexpressing hSOD1-G93A.
+37508478|a|Amyotrophic lateral sclerosis (ALS) is a multifactorial neurodegenerative disease characterized by progressive depletion of motor neurons (MNs). Recent evidence suggests a role in ALS pathology for the C-X-C motif chemokine receptor 2 (CXCR2), whose expression was found increased at both mRNA and protein level in cortical neurons of sporadic ALS patients. Previous findings also showed that the receptor inhibition is able to prevent iPSC-derived MNs degeneration in vitro and improve neuromuscular function in SOD1-G93A mice. Here, by performing transcriptional analysis and immunofluorescence studies, we detailed the increased expression and localization of CXCR2 and its main ligand CXCL8 in the human lumbar spinal cord of sporadic ALS patients. We further investigated the functional role of CXCR2/ligands axis in NSC-34 motor neuron-like cells expressing human wild-type (WT) or mutant (G93A) SOD1. A significant expression of CXCR2 was found in doxycycline-induced G93A-SOD1-expressing cells, but not in WT cells. In vitro assays showed CXCR2 activation by GROalpha and MIP2alpha, two murine endogenous ligands and functional homologs of CXCL8, reduces cellular viability and triggers apoptosis in a dose dependent manner, while treatment with reparixin, a non-competitive allosteric CXCR2 inhibitor, effectively counteracts GROalpha and MIP2alpha toxicity, significantly inhibiting the chemokine-induced cell death. Altogether, data further support a role of CXCR2 axis in ALS etiopathogenesis and confirm its pharmacological modulation as a candidate therapeutic strategy.
+37508478	0	5	CXCR2	Gene	3579
+37508478	24	27	ALS	Disease	MESH:D000690
+37508478	120	125	hSOD1	Gene	6647
+37508478	126	130	G93A	ProteinMutation	tmVar:p|SUB|G|93|A;HGVS:p.G93A;VariantGroup:0;CorrespondingGene:6647;RS#:121912438;CorrespondingSpecies:9606;CA#:257327
+37508478	132	161	Amyotrophic lateral sclerosis	Disease	MESH:D000690
+37508478	163	166	ALS	Disease	MESH:D000690
+37508478	188	213	neurodegenerative disease	Disease	MESH:D019636
+37508478	312	315	ALS	Disease	MESH:D000690
+37508478	334	366	C-X-C motif chemokine receptor 2	Gene	3579
+37508478	368	373	CXCR2	Gene	3579
+37508478	476	479	ALS	Disease	MESH:D000690
+37508478	581	597	MNs degeneration	Disease	MESH:D009410
+37508478	645	649	SOD1	Gene	6647
+37508478	650	654	G93A	ProteinMutation	tmVar:p|SUB|G|93|A;HGVS:p.G93A;VariantGroup:0;CorrespondingGene:6647;RS#:121912438;CorrespondingSpecies:9606;CA#:257327
+37508478	795	800	CXCR2	Gene	3579
+37508478	821	826	CXCL8	Gene	3576
+37508478	871	874	ALS	Disease	MESH:D000690
+37508478	932	937	CXCR2	Gene	3579
+37508478	954	960	NSC-34	CellLine	CVCL:D356
+37508478	1028	1032	G93A	ProteinMutation	tmVar:p|SUB|G|93|A;HGVS:p.G93A;VariantGroup:0;CorrespondingGene:6647;RS#:121912438;CorrespondingSpecies:9606;CA#:257327
+37508478	1034	1038	SOD1	Gene	6647
+37508478	1068	1073	CXCR2	Gene	3579
+37508478	1087	1098	doxycycline	Chemical	MESH:D004318
+37508478	1107	1112	G93A-	CellLine	CVCL:B0K0
+37508478	1112	1116	SOD1	Gene	6647
+37508478	1179	1184	CXCR2	Gene	12765
+37508478	1212	1221	MIP2alpha	Gene	20310
+37508478	1280	1285	CXCL8	Gene	3576
+37508478	1386	1395	reparixin	Chemical	MESH:C490707
+37508478	1426	1431	CXCR2	Gene	12765
+37508478	1480	1489	MIP2alpha	Gene	20310
+37508478	1490	1498	toxicity	Disease	MESH:D064420
+37508478	1602	1607	CXCR2	Gene	3579
+37508478	1616	1619	ALS	Disease	MESH:D000690
+37508478	Association	3579	6647
+37508478	Negative_Correlation	MESH:C490707	12765
+37508478	Negative_Correlation	MESH:C490707	20310
+37508478	Bind	3576	3579
+37508478	Association	MESH:D000690	3576
+37508478	Positive_Correlation	12765	20310
+37508478	Association	MESH:D004318	3579
+37508478	Association	MESH:D000690	3579
+37508478	Positive_Correlation	MESH:D004318	6647
+37508478	Negative_Correlation	MESH:C490707	MESH:D064420
+

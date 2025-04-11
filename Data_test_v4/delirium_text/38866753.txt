@@ -1,0 +1,82 @@
+38866753|t|Decoding the inflammatory signature of the major depressive episode: insights from peripheral immunophenotyping in active and remitted condition, a case-control study.
+38866753|a|Depression is a prevalent and incapacitating condition with a significant impact on global morbidity and mortality. Although the immune system's role in its pathogenesis is increasingly recognized, there is a lack of comprehensive understanding regarding the involvement of innate and adaptive immune cells. To address this gap, we conducted a multicenter case-control study involving 121 participants matched for sex and age. These participants had either an active (or current) major depressive episode (MDE) (39 cases) or a remitted MDE (40 cases), including individuals with major depressive disorder or bipolar disorder. We compared these 79 patients to 42 healthy controls (HC), analyzing their immunological profiles. In blood samples, we determined the complete cell count and the monocyte subtypes and lymphocyte T-cell populations using flow cytometry. Additionally, we measured a panel of cytokines, chemokines, and neurotrophic factors in the plasma. Compared with HC, people endorsing a current MDE showed monocytosis (p = 0.001), increased high-sensitivity C-reactive protein (p = 0.002), and erythrocyte sedimentation rate (p = 0.003), and an altered proportion of specific monocyte subsets. CD4 lymphocytes presented increased median percentages of activation markers CD69+ (p = 0.007) and exhaustion markers PD1+ (p = 0.013) and LAG3+ (p = 0.014), as well as a higher frequency of CD4+CD25+FOXP3+ regulatory T cells (p = 0.003). Additionally, patients showed increased plasma levels of sTREM2 (p = 0.0089). These changes are more likely state markers, indicating the presence of an ongoing inflammatory response during an active MDE. The Random Forest model achieved remarkable classification accuracies of 83.8% for MDE vs. HC and 70% for differentiating active and remitted MDE. Interestingly, the cluster analysis identified three distinct immunological profiles among MDE patients. Cluster 1 has the highest number of leukocytes, mainly given by the increment in lymphocyte count and the lowest proinflammatory cytokine levels. Cluster 3 displayed the most robust inflammatory pattern, with high levels of TNFalpha, CX3CL1, IL-12p70, IL-17A, IL-23, and IL-33, associated with the highest level of IL-10, as well as beta-NGF and the lowest level for BDNF. This profile is also associated with the highest absolute number and percentage of circulating monocytes and the lowest absolute number and percentage of circulating lymphocytes, denoting an active inflammatory process. Cluster 2 has some cardinal signs of more acute inflammation, such as elevated levels of CCL2 and increased levels of proinflammatory cytokines such as IL-1beta, IFNgamma, and CXCL8. Similarly, the absolute number of monocytes is closer to a HC value, as well as the percentage of lymphocytes, suggesting a possible initiation of the inflammatory process. The study provides new insights into the immune system's role in MDE, paving the ground for replication prospective studies targeting the development of diagnostic and prognostic tools and new therapeutic targets.
+38866753	13	25	inflammatory	Disease	MESH:D007249
+38866753	43	67	major depressive episode	Disease	MESH:D003865
+38866753	168	178	Depression	Disease	MESH:D003866
+38866753	648	672	major depressive episode	Disease	MESH:D003865
+38866753	674	677	MDE	Disease	MESH:D003865
+38866753	704	707	MDE	Disease	MESH:D003865
+38866753	747	772	major depressive disorder	Disease	MESH:D003865
+38866753	776	792	bipolar disorder	Disease	MESH:D001714
+38866753	815	823	patients	Species	9606
+38866753	1176	1179	MDE	Disease	MESH:D003865
+38866753	1187	1198	monocytosis	Disease	MESH:C538328
+38866753	1239	1257	C-reactive protein	Gene	1401
+38866753	1375	1378	CD4	Gene	920
+38866753	1452	1456	CD69	Gene	969
+38866753	1493	1496	PD1	Gene	5133
+38866753	1514	1518	LAG3	Gene	3902
+38866753	1566	1569	CD4	Gene	920
+38866753	1570	1574	CD25	Gene	3559
+38866753	1575	1580	FOXP3	Gene	50943
+38866753	1628	1636	patients	Species	9606
+38866753	1775	1787	inflammatory	Disease	MESH:D007249
+38866753	1814	1817	MDE	Disease	MESH:D003865
+38866753	1902	1905	MDE	Disease	MESH:D003865
+38866753	1961	1964	MDE	Disease	MESH:D003865
+38866753	2057	2060	MDE	Disease	MESH:D003865
+38866753	2061	2069	patients	Species	9606
+38866753	2253	2265	inflammatory	Disease	MESH:D007249
+38866753	2295	2303	TNFalpha	Gene	7124
+38866753	2305	2311	CX3CL1	Gene	6376
+38866753	2316	2321	12p70	Chromosome	12
+38866753	2323	2329	IL-17A	Gene	3605
+38866753	2331	2336	IL-23	Gene	51561
+38866753	2342	2347	IL-33	Gene	90865
+38866753	2386	2391	IL-10	Gene	3586
+38866753	2404	2412	beta-NGF	Gene	4803
+38866753	2438	2442	BDNF	Gene	627
+38866753	2642	2654	inflammatory	Disease	MESH:D007249
+38866753	2712	2724	inflammation	Disease	MESH:D007249
+38866753	2753	2757	CCL2	Gene	6347
+38866753	2816	2824	IL-1beta	Gene	3553
+38866753	2826	2834	IFNgamma	Gene	3458
+38866753	2840	2845	CXCL8	Gene	3576
+38866753	2998	3010	inflammatory	Disease	MESH:D007249
+38866753	3085	3088	MDE	Disease	MESH:D003865
+38866753	Association	4803	6347
+38866753	Association	MESH:D003865	3553
+38866753	Association	3553	4803
+38866753	Positive_Correlation	MESH:D003865	1401
+38866753	Association	920	969
+38866753	Association	3553	3576
+38866753	Association	MESH:D003865	6376
+38866753	Association	MESH:D003865	3576
+38866753	Association	MESH:D003865	51561
+38866753	Association	MESH:D003865	3586
+38866753	Association	MESH:D003865	3458
+38866753	Association	3902	920
+38866753	Association	627	6347
+38866753	Association	4803	627
+38866753	Association	3458	3586
+38866753	Association	3576	4803
+38866753	Association	3458	3553
+38866753	Association	3458	6347
+38866753	Association	MESH:D003865	4803
+38866753	Association	3576	3586
+38866753	Association	5133	920
+38866753	Association	3458	627
+38866753	Association	MESH:D003865	3902
+38866753	Association	3553	3586
+38866753	Association	MESH:D003865	3605
+38866753	Association	MESH:D003865	920
+38866753	Association	3576	627
+38866753	Association	3458	3576
+38866753	Association	3586	4803
+38866753	Association	3553	627
+38866753	Association	3553	6347
+38866753	Association	MESH:D003865	6347
+38866753	Association	MESH:D003865	7124
+38866753	Association	3458	4803
+38866753	Association	MESH:D003865	90865
+

@@ -1,0 +1,29 @@
+35576007|t|Performance of a Machine Learning Algorithm Using Electronic Health Record Data to Predict Postoperative Complications and Report on a Mobile Platform.
+35576007|a|Importance: Predicting postoperative complications has the potential to inform shared decisions regarding the appropriateness of surgical procedures, targeted risk-reduction strategies, and postoperative resource use. Realizing these advantages requires that accurate real-time predictions be integrated with clinical and digital workflows; artificial intelligence predictive analytic platforms using automated electronic health record (EHR) data inputs offer an intriguing possibility for achieving this, but there is a lack of high-level evidence from prospective studies supporting their use. Objective: To examine whether the MySurgeryRisk artificial intelligence system has stable predictive performance between development and prospective validation phases and whether it is feasible to provide automated outputs directly to surgeons' mobile devices. Design, Setting, and Participants: In this prognostic study, the platform used automated EHR data inputs and machine learning algorithms to predict postoperative complications and provide predictions to surgeons, previously through a web portal and currently through a mobile device application. All patients 18 years or older who were admitted for any type of inpatient surgical procedure (74 417 total procedures involving 58 236 patients) between June 1, 2014, and September 20, 2020, were included. Models were developed using retrospective data from 52 117 inpatient surgical procedures performed between June 1, 2014, and November 27, 2018. Validation was performed using data from 22 300 inpatient surgical procedures collected prospectively from November 28, 2018, to September 20, 2020. Main Outcomes and Measures: Algorithms for generalized additive models and random forest models were developed and validated using real-time EHR data. Model predictive performance was evaluated primarily using area under the receiver operating characteristic curve (AUROC) values. Results: Among 58 236 total adult patients who received 74 417 major inpatient surgical procedures, the mean (SD) age was 57 (17) years; 29 226 patients (50.2%) were male. Results reported in this article focus primarily on the validation cohort. The validation cohort included 22 300 inpatient surgical procedures involving 19 132 patients (mean [SD] age, 58 [17] years; 9672 [50.6%] male). A total of 2765 patients (14.5%) were Black or African American, 14 777 (77.2%) were White, 1235 (6.5%) were of other races (including American Indian or Alaska Native, Asian, Native Hawaiian or Pacific Islander, and multiracial), and 355 (1.9%) were of unknown race because of missing data; 979 patients (5.1%) were Hispanic, 17 663 (92.3%) were non-Hispanic, and 490 (2.6%) were of unknown ethnicity because of missing data. A greater number of input features was associated with stable or improved model performance. For example, the random forest model trained with 135 input features had the highest AUROC values for predicting acute kidney injury (0.82; 95% CI, 0.82-0.83); cardiovascular complications (0.81; 95% CI, 0.81-0.82); neurological complications, including delirium (0.87; 95% CI, 0.87-0.88); prolonged intensive care unit stay (0.89; 95% CI, 0.88-0.89); prolonged mechanical ventilation (0.91; 95% CI, 0.90-0.91); sepsis (0.86; 95% CI, 0.85-0.87); venous thromboembolism (0.82; 95% CI, 0.81-0.83); wound complications (0.78; 95% CI, 0.78-0.79); 30-day mortality (0.84; 95% CI, 0.82-0.86); and 90-day mortality (0.84; 95% CI, 0.82-0.85), with accuracy similar to surgeons' predictions. Compared with the original web portal, the mobile device application allowed efficient fingerprint login access and loaded data approximately 10 times faster. The application output displayed patient information, risk of postoperative complications, top 3 risk factors for each complication, and patterns of complications for individual surgeons compared with their colleagues. Conclusions and Relevance: In this study, automated real-time predictions of postoperative complications with mobile device outputs had good performance in clinical settings with prospective validation, matching surgeons' predictive accuracy.
+35576007	91	118	Postoperative Complications	Disease	MESH:D011183
+35576007	175	202	postoperative complications	Disease	MESH:D011183
+35576007	1157	1184	postoperative complications	Disease	MESH:D011183
+35576007	1309	1317	patients	Species	9606
+35576007	1370	1379	inpatient	Species	
+35576007	1441	1449	patients	Species	9606
+35576007	1571	1580	inpatient	Species	
+35576007	1704	1713	inpatient	Species	
+35576007	2120	2128	patients	Species	9606
+35576007	2155	2164	inpatient	Species	
+35576007	2230	2238	patients	Species	9606
+35576007	2371	2380	inpatient	Species	
+35576007	2418	2426	patients	Species	9606
+35576007	2494	2502	patients	Species	9606
+35576007	2774	2782	patients	Species	9606
+35576007	3111	3130	acute kidney injury	Disease	MESH:D058186
+35576007	3158	3186	cardiovascular complications	Disease	MESH:D002318
+35576007	3214	3240	neurological complications	Disease	MESH:D002493
+35576007	3252	3260	delirium	Disease	MESH:D003693
+35576007	3360	3382	mechanical ventilation	Disease	MESH:D053717
+35576007	3410	3416	sepsis	Disease	MESH:D018805
+35576007	3444	3466	venous thromboembolism	Disease	MESH:D054556
+35576007	3494	3513	wound complications	Disease	MESH:D014947
+35576007	3873	3880	patient	Species	9606
+35576007	3902	3929	postoperative complications	Disease	MESH:D011183
+35576007	4136	4163	postoperative complications	Disease	MESH:D011183
+

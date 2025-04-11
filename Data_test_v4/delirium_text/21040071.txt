@@ -1,0 +1,47 @@
+21040071|t|Oleic acid ameliorates amyloidosis in cellular and mouse models of Alzheimer's disease.
+21040071|a|Several lines of evidence support protective as well as deleterious effects of oleic acid (OA) on Alzheimer's disease (AD) and other neurological disorders; however, the bases of these effects are unclear. Our investigation demonstrates that amyloid precursor protein (APP) 695 transfected Cos-7 cells supplemented with OA have reduced secreted amyloid-beta (Abeta) levels. An early-onset AD transgenic mouse model expressing the double-mutant form of human APP, Swedish (K670N/M671L) and Indiana (V717F), corroborated our in vitro findings when they were fed a high-protein, low-fat (18% reduction), cholesterol-free diet enriched with OA. These mice exhibited an increase in Abeta40/Abeta42 ratio, reduced levels of beta-site APP cleaving enzyme (BACE) and reduced presenilin levels along with reduced amyloid plaques in the brain. The decrease in BACE levels was accompanied by increased levels of a non-amyloidogenic soluble form of APP (sAPPalpha). Furthermore, the low-fat/+OA diet resulted in an augmentation of insulin-degrading enzyme and insulin-like growth factor-II. These results suggest that OA supplementation and cholesterol intake restriction in a mouse model of AD reduce AD-type neuropathology.
+21040071	0	10	Oleic acid	Chemical	MESH:D019301
+21040071	23	34	amyloidosis	Disease	MESH:D000686
+21040071	51	56	mouse	Species	10090
+21040071	67	86	Alzheimer's disease	Disease	MESH:D000544
+21040071	167	177	oleic acid	Chemical	MESH:D019301
+21040071	179	181	OA	Chemical	MESH:D019301
+21040071	186	205	Alzheimer's disease	Disease	MESH:D000544
+21040071	207	209	AD	Disease	MESH:D000544
+21040071	221	243	neurological disorders	Disease	MESH:D009461
+21040071	378	383	Cos-7	CellLine	CVCL:0224
+21040071	408	410	OA	Chemical	MESH:D019301
+21040071	477	479	AD	Disease	MESH:D000544
+21040071	491	496	mouse	Species	10090
+21040071	540	545	human	Species	9606
+21040071	560	565	K670N	ProteinMutation	tmVar:p|SUB|K|670|N;HGVS:p.K670N;VariantGroup:0;CorrespondingGene:351;RS#:371425292;CorrespondingSpecies:9606;CA#:319103474
+21040071	566	571	M671L	ProteinMutation	tmVar:p|SUB|M|671|L;HGVS:p.M671L;VariantGroup:1;CorrespondingGene:351;RS#:572842823;CorrespondingSpecies:9606;CA#:319103456
+21040071	586	591	V717F	ProteinMutation	tmVar:p|SUB|V|717|F;HGVS:p.V717F;VariantGroup:2;CorrespondingGene:351;RS#:63750264;CorrespondingSpecies:9606;CA#:127792
+21040071	689	700	cholesterol	Chemical	MESH:D002784
+21040071	725	727	OA	Chemical	MESH:D019301
+21040071	735	739	mice	Species	10090
+21040071	837	841	BACE	Gene	23821
+21040071	892	907	amyloid plaques	Disease	MESH:D058225
+21040071	938	942	BACE	Gene	23821
+21040071	1068	1070	OA	Chemical	MESH:D019301
+21040071	1107	1131	insulin-degrading enzyme	Gene	15925
+21040071	1136	1165	insulin-like growth factor-II	Gene	16002
+21040071	1194	1196	OA	Chemical	MESH:D019301
+21040071	1217	1228	cholesterol	Chemical	MESH:D002784
+21040071	1253	1258	mouse	Species	10090
+21040071	1268	1270	AD	Disease	MESH:D000544
+21040071	1278	1280	AD	Disease	MESH:D000544
+21040071	Negative_Correlation	MESH:D019301	MESH:D000544
+21040071	Negative_Correlation	MESH:D000544	RS#:572842823;HGVS:p.M671L;CorrespondingGene:351
+21040071	Negative_Correlation	MESH:D000544	RS#:63750264;HGVS:p.V717F;CorrespondingGene:351
+21040071	Association	RS#:371425292;HGVS:p.K670N;CorrespondingGene:351	RS#:572842823;HGVS:p.M671L;CorrespondingGene:351
+21040071	Positive_Correlation	MESH:D019301	16002
+21040071	Negative_Correlation	MESH:D019301	23821
+21040071	Negative_Correlation	MESH:D000544	RS#:371425292;HGVS:p.K670N;CorrespondingGene:351
+21040071	Negative_Correlation	MESH:D019301	MESH:D000686
+21040071	Negative_Correlation	MESH:D019301	MESH:D058225
+21040071	Negative_Correlation	MESH:D002784	MESH:D000544
+21040071	Positive_Correlation	MESH:D019301	15925
+21040071	Negative_Correlation	MESH:D019301	MESH:D009461
+21040071	Association	MESH:D000544	351
+

@@ -1,0 +1,59 @@
+31822686|t|Plasma metabolomics in tuberculosis patients with and without concurrent type 2 diabetes at diagnosis and during antibiotic treatment.
+31822686|a|Tuberculosis (TB) and type 2 diabetes mellitus (DM), a major TB risk factor, are both accompanied by marked alterations in metabolic processes. Dissecting the specific metabolic changes induced by disease through metabolomics has shown potential to improve our understanding of relevant pathophysiological mechanisms of disease, which could lead to improved treatment. Targeted tandem liquid chromatography-mass spectrometry (LC-MS/MS) was used to compare amine and acylcarnitine levels in plasma samples of patients with TB or TB-DM from Indonesia at time of diagnosis and during antibiotic treatment. Partial least squares discrimination analysis (PLS-DA) showed good separation of patient groups. Amine levels were strongly altered in both disease groups compared to healthy controls, including low concentrations of citrulline and ornithine. Several amino acid ratios discriminated TB from controls (phenylalanine/histidine; citrulline/arginine; kynurenine/tryptophan), possibly reflecting changes in indoleamine-pyrrole 2,3-dioxygenase (IDO) and nitric oxide synthase (NOS) activity. Choline, glycine, serine, threonine and homoserine levels were lower in TB-DM compared to TB, and, in contrast to other analytes, did not normalize to healthy control levels during antibiotic treatment. Our results not only provide important validation of previous studies but also identify novel biomarkers, and significantly enhance our understanding of metabolic changes in human TB and TB-DM.
+31822686	23	35	tuberculosis	Disease	MESH:D014376
+31822686	36	44	patients	Species	9606
+31822686	73	88	type 2 diabetes	Disease	MESH:D003924
+31822686	135	147	Tuberculosis	Disease	MESH:D014376
+31822686	149	151	TB	Disease	MESH:D014376
+31822686	157	181	type 2 diabetes mellitus	Disease	MESH:D003924
+31822686	183	185	DM	Disease	MESH:D003920
+31822686	196	198	TB	Disease	MESH:D014376
+31822686	591	596	amine	Chemical	MESH:D000588
+31822686	601	614	acylcarnitine	Chemical	MESH:C116917
+31822686	643	651	patients	Species	9606
+31822686	657	659	TB	Disease	MESH:D014376
+31822686	663	666	TB-	Disease	MESH:D014376
+31822686	666	668	DM	Disease	MESH:D003920
+31822686	819	826	patient	Species	9606
+31822686	835	840	Amine	Chemical	MESH:D000588
+31822686	955	965	citrulline	Chemical	MESH:D002956
+31822686	970	979	ornithine	Chemical	MESH:D009952
+31822686	1021	1023	TB	Disease	MESH:D014376
+31822686	1039	1062	phenylalanine/histidine	ProteinMutation	tmVar:p|SUB|F||H;VariantGroup:0;CorrespondingGene:3620;CorrespondingSpecies:9606
+31822686	1064	1074	citrulline	Chemical	MESH:D002956
+31822686	1075	1083	arginine	Chemical	MESH:D001120
+31822686	1085	1095	kynurenine	Chemical	MESH:D007737
+31822686	1096	1106	tryptophan	Chemical	MESH:D014364
+31822686	1140	1175	indoleamine-pyrrole 2,3-dioxygenase	Gene	3620
+31822686	1177	1180	IDO	Gene	3620
+31822686	1186	1207	nitric oxide synthase	Gene	4843
+31822686	1224	1231	Choline	Chemical	MESH:D002794
+31822686	1233	1240	glycine	Chemical	MESH:D005998
+31822686	1242	1248	serine	Chemical	MESH:D012694
+31822686	1250	1259	threonine	Chemical	MESH:D013912
+31822686	1264	1274	homoserine	Chemical	MESH:D006714
+31822686	1296	1299	TB-	Disease	MESH:D014376
+31822686	1299	1301	DM	Disease	MESH:D003920
+31822686	1314	1316	TB	Disease	MESH:D014376
+31822686	1601	1606	human	Species	9606
+31822686	1607	1609	TB	Disease	MESH:D014376
+31822686	1614	1616	TB	Disease	MESH:D014376
+31822686	1617	1619	DM	Disease	MESH:D003920
+31822686	Association	MESH:D014364	MESH:D014376
+31822686	Negative_Correlation	MESH:D005998	MESH:D003920
+31822686	Association	MESH:D014376	3620
+31822686	Negative_Correlation	MESH:D002794	MESH:D014376
+31822686	Association	MESH:D007737	MESH:D014376
+31822686	Association	MESH:D014376	4843
+31822686	Negative_Correlation	MESH:D002794	MESH:D003920
+31822686	Negative_Correlation	MESH:D013912	MESH:D014376
+31822686	Association	MESH:D014376	CorrespondingGene:3620;CorrespondingSpecies:9606;VariantGroup:0;tmVar:p
+31822686	Negative_Correlation	MESH:D012694	MESH:D003920
+31822686	Negative_Correlation	MESH:D006714	MESH:D003920
+31822686	Negative_Correlation	MESH:D013912	MESH:D003920
+31822686	Association	MESH:D001120	MESH:D014376
+31822686	Negative_Correlation	MESH:D012694	MESH:D014376
+31822686	Negative_Correlation	MESH:D005998	MESH:D014376
+31822686	Negative_Correlation	MESH:D006714	MESH:D014376
+31822686	Association	MESH:D014376	3620
+
