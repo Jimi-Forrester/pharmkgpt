@@ -46,7 +46,6 @@ def hightLight_context(
         partial_variables={"format_instructions": parser.get_format_instructions()},
     )
     
-
     chain = prompt | llm_model | parser
     
     try:
@@ -85,15 +84,15 @@ def detect_all_entity_name(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
 def highlight_segments_prioritized(output_abstract, keyword_dict):
     """
     Highlights keywords in abstract texts, robustly prioritizing longer keywords
-    over shorter ones when they overlap (e.g., 'kynurenine pathway' vs 'kynurenine').
-    Avoids nested highlighting.
+    over shorter ones when they overlap. Handles variations in separators
+    (space vs. hyphen) between keyword parts. Avoids nested highlighting.
 
     Args:
         output_abstract (dict): A dictionary where keys are source identifiers
                                 and values are dicts containing an 'abstract' string.
-                                Example: {'source1': {'abstract': 'Text here...'}, ...}
         keyword_dict (dict): A dictionary mapping keywords to their group/class.
-                             Example: {'kynurenine pathway': 'pathway', 'kynurenine': 'chemical'}
+                             Keywords can contain spaces (e.g., 'ifn gamma') which
+                             should match text variations like 'IFN-gamma'.
 
     Returns:
         dict: The modified output_abstract dictionary with keywords highlighted correctly.
@@ -101,40 +100,69 @@ def highlight_segments_prioritized(output_abstract, keyword_dict):
     # Process each source abstract individually
     for source, data in output_abstract.items():
         original_text = data['abstract']
-        
+
         # 1. Find all potential matches with their positions and info for ALL keywords
         all_potential_matches = []
         logging.debug(f"--- Processing source: {source} ---")
         for keyword, group in keyword_dict.items():
-            if len(keyword) <= 1:
+            if not keyword or keyword.strip() == "": # Skip empty or whitespace-only keywords
                 continue
+
+            # --- Start: Modified Regex Construction ---
             try:
-                pattern = re.compile(rf'\b({re.escape(keyword)})\b', re.IGNORECASE)
-                for match in pattern.finditer(original_text):
-                    match_info = {
-                        'start': match.start(1), # Start index of the matched keyword
-                        'end': match.end(1),     # End index of the matched keyword
-                        'keyword': match.group(1), # The actual matched string (original case)
-                        'group': group,
-                        'length': len(match.group(1)) # Length of the keyword
-                    }
-                    all_potential_matches.append(match_info)
-                    logging.debug(f"Found potential match: {match_info}")
+                # Split the keyword into parts based on whitespace
+                parts = [re.escape(part) for part in keyword.split() if part] # Escape each part
+
+                if not parts: # Should not happen with the check above, but safety first
+                    continue
+
+                # Define the flexible separator pattern: matches one or more spaces or hyphens
+                # Allows variations like ' ', '-', ' - ', '   ', etc. between parts
+                separator_pattern = r'[\s-]+'
+
+                # Join the parts with the flexible separator pattern
+                # Example: "ifn gamma" -> "ifn[\s-]+gamma"
+                regex_core = separator_pattern.join(parts)
+
+                # Build the final pattern: word boundaries around the whole sequence, case-insensitive
+                # Capture the whole matched sequence (including the actual separators found in text)
+                # Example: r'\b(ifn[\s-]+gamma)\b'
+                pattern_string = rf'\b({regex_core})\b'
+                pattern = re.compile(pattern_string, re.IGNORECASE)
+                logging.debug(f"Keyword: '{keyword}', Regex: '{pattern_string}'")
+
             except re.error as e:
-                logging.error(f"Regex error for keyword '{keyword}' in source '{source}': {e}")
-                continue
+                logging.error(f"Regex compilation error for keyword '{keyword}' in source '{source}': {e}")
+                continue # Skip this keyword if regex is invalid
+            # --- End: Modified Regex Construction ---
+
+
+            # Use finditer with the new flexible pattern
+            for match in pattern.finditer(original_text):
+                # match.group(1) now captures the text as it appeared, e.g., "IFN-gamma"
+                match_info = {
+                    'start': match.start(1),       # Start index of the matched sequence
+                    'end': match.end(1),         # End index of the matched sequence
+                    'keyword_matched': match.group(1), # The actual matched string (original format)
+                    'dict_keyword': keyword,     # The original keyword from the dict
+                    'group': group,
+                    'length': len(match.group(1)) # Length of the matched sequence
+                }
+                all_potential_matches.append(match_info)
+                logging.debug(f"Found potential match: {match_info}")
+
 
         if not all_potential_matches:
             logging.debug(f"No potential matches found in {source}")
-            continue # No keywords found in this abstract
+            continue
 
+        # 2. Resolve overlaps (same logic as before: prioritize longer matches)
+        # Sort by length descending, then by start index ascending.
         sorted_matches = sorted(all_potential_matches, key=lambda x: (-x['length'], x['start']))
         logging.debug(f"\nSorted potential matches for {source}:")
         for m in sorted_matches: logging.debug(m)
 
-
         selected_matches = []
-        # Keep track of character indices that are already covered by a selected (longer) match
         covered_indices = set()
 
         logging.debug(f"\nFiltering overlaps for {source}:")
@@ -144,33 +172,29 @@ def highlight_segments_prioritized(output_abstract, keyword_dict):
                 selected_matches.append(match)
                 covered_indices.update(match_indices)
                 logging.debug(f"  -> Selecting match: {match}")
-                logging.debug(f"     Covered indices now: {covered_indices}")
-            else:
-                logging.debug(f"  -> Discarding match (overlaps with selected longer): {match}")
+                logging.debug(f"     Covered indices now (first/last 5): {sorted(list(covered_indices))[:5]}...{sorted(list(covered_indices))[-5:]}")
 
+            else:
+                 logging.debug(f"  -> Discarding match (overlaps with selected longer): {match}")
+
+        # 3. Apply highlighting based on selected matches (same logic as before)
         selected_matches.sort(key=lambda x: x['start'])
         logging.debug(f"\nFinal selected matches for highlighting (sorted by start):")
         for m in selected_matches: logging.debug(m)
 
-
         highlighted_parts = []
         last_end = 0
         for match in selected_matches:
-            # Append text before the current match
             highlighted_parts.append(original_text[last_end:match['start']])
-            # Append the highlighted keyword
-            highlighted_parts.append(f'<mark class="{match["group"]}">{match["keyword"]}</mark>')
-            # Update the position after the current match
+            # Use match['keyword_matched'] which contains the original text (e.g., "IFN-gamma")
+            highlighted_parts.append(f'<mark class="{match["group"]}">{match["keyword_matched"]}</mark>')
             last_end = match['end']
 
-        # Append any remaining text after the last match
         highlighted_parts.append(original_text[last_end:])
-
-        # Join the parts to form the final highlighted abstract
         final_highlighted_text = "".join(highlighted_parts)
 
         if final_highlighted_text != original_text:
-             logging.info(f"在 '{source}' 中完成高亮处理 (长优先, 无重叠)")
+             logging.info(f"在 '{source}' 中完成高亮处理 (长优先, 无重叠, 支持分隔符变化)")
              output_abstract[source]['abstract'] = final_highlighted_text
         else:
              logging.debug(f"No changes made to {source} after highlighting logic.")
