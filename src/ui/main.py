@@ -11,7 +11,7 @@ def ui():
     base_dir = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
     with open(f"{base_dir}/gradio.css", "r", encoding="utf-8") as f:
         custom_css = f.read()
-    logo_img = Image.open(r"E:\project\delirium-rag\src\ui\static\logo.png")  # 确保路径正确
+    logo_img = Image.open(f"{base_dir}/static/logo.png")  # 确保路径正确
     icon = """<link rel="icon" type="image/png" href="/file=src/ui/static/PharmKGPT.png">"""
     with gr.Blocks(theme=Kotaemon(text_size="lg").set(body_background_fill='white',background_fill_primary='white', section_header_text_weight=700),title="PharmKGPT", css=custom_css, fill_width=True, head=icon) as demo:
     # with gr.Tab("KG2RAG",elem_id="chat-tab"):
