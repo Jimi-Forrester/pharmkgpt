@@ -2,7 +2,7 @@ import pytest
 
 from src.rag import RAGEngine
 
-TEST_DATA_PATH = "/home/mindrank/fuli/delirium-rag/Data_test_v3"  
+TEST_DATA_PATH = "/home/mindrank/fuli/delirium-rag/Data_test_v4"  
 
 
 def test_qa():

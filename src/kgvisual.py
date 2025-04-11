@@ -2,6 +2,7 @@ from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import List, Dict, Set, Tuple
 import logging
+import math
 
 # --- 日志配置 ---
 logging.basicConfig(
@@ -11,7 +12,7 @@ logging.basicConfig(
 
 # 实体类型到颜色的映射 V1
 en_color = {
-    'abstract': {"background": '#5A98D0', "border": '#1B3B6F'},  # 赛博蓝/深海蓝
+    'article': {"background": '#A7CBFC', "border": '#1B3B6F'},  # 赛博蓝/深海蓝
     'chemical': {"background": '#35A29F', "border": '#1F6F78'},  # 青绿/深青蓝
     'disease': {"background": '#FF3864', "border": '#A30052'},  # 霓虹红/暗紫红 (主色)
     'gene': {"background": '#FFCE4F', "border": '#D48C00'},  # 明亮黄/金黄
@@ -36,18 +37,20 @@ en_color = {
 # }
 
 cont = {
-    'disease': 196769,
-    'gene': 8802,
-    'chemical': 39106,
-    'abstract': 46835,
-    'metabolite': 156,
-    'protein': 435,
-    'processes': 225
-}
+    'disease': 7895,
+    'gene': 19549,
+    'article': 153060,
+    'chemical': 10295,
+    'protein': 7062,
+    'region': 3419,
+    'processes': 5170,
+    'pathway': 3128,
+    'metabolite': 2170
+    }
 
 def scale_entity_size_log(entity_relation_counts):
-    max_size = 65
-    min_size=25
+    max_size = 100
+    min_size=45
     
     scaled_counts = {}
     if not entity_relation_counts:
@@ -100,19 +103,19 @@ def scale_edge_length(head_entity, tail_entity, entity_relation_counts):
         int: 缩放后的边长度，四舍五入到最近的整数，范围在 [min_length, max_length] 内。
             如果无法确定计数值或所有计数值都相同，则返回中间值。
     """
-    min_length = 300  # 边的最小长度
-    max_length = 700  # 边的最大长度
+    min_length = 100  # 边的最小长度
+    max_length = 1000  # 边的最大长度
 
     # --- 基本检查 ---
     if not entity_relation_counts:
         # 无法确定计数或范围，返回默认的中间长度
         logging.info("警告: entity_relation_counts 为空。返回默认长度。")
-        return 300
+        return min_length
     all_counts = list(entity_relation_counts.values())
     if not all_counts:
         # 如果 entity_relation_counts 不为空但没有值（理论上不太可能），进行安全检查
         logging.info("警告: entity_relation_counts 有键但没有值？返回默认长度。")
-        return 300
+        return min_length
 
 
     actual_min_count = min(all_counts)
@@ -124,13 +127,26 @@ def scale_edge_length(head_entity, tail_entity, entity_relation_counts):
     # 边的长度取决于具有 *较大* 计数的实体
     relevant_count = max(head_count, tail_count)
 
+    min_weight=0.7  # 头实体的默认权重
+    max_weight=0.3
+    total_weight = min_weight + max_weight
+    
+    if math.isclose(total_weight, 0.0): # 检查权重和是否为零
+        # Handle zero weight sum case
+        return min_length
+    
+    if head_count > tail_count:
+        relevant_count = (head_count * max_weight + tail_count * min_weight) / total_weight
+    else:
+        relevant_count = (head_count * min_weight + tail_count * max_weight) / total_weight
+
     # --- 处理缩放 ---
     output_range = float(max_length - min_length) 
     input_range = float(actual_max_count - actual_min_count) # 输入范围
 
     # 处理所有原始实体计数值都相同的情况
     if input_range == 0:
-        return 300
+        return min_length
 
     # --- 执行线性缩放 ---
     clamped_count = max(actual_min_count, min(relevant_count, actual_max_count))
@@ -146,8 +162,6 @@ def scale_edge_length(head_entity, tail_entity, entity_relation_counts):
 
     # 返回四舍五入后的整数值
     return int(round(scaled_length_float))
-
-
 
 
 def format_dict_to_html_br(input_dict: Dict) -> str:
@@ -200,6 +214,8 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
     relations_list: List[Dict] = []
 
     entity_relation_counts = {}
+    
+    related_pairs = set()
     for pmid in pmid_list:
         for en in kg_dict[pmid]['entities']:
             # 如果实体名称不在 entities_dict 中, 则创建新的 Entity 对象
@@ -209,15 +225,23 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                 en_title['name']= en.name
                 en_title['label']= en.label
                 if en.label == "abstract":
-                    en_title = {"name": en.name, "label": en.label}
+                    en_title = {"name": en.name, "label": "article"}
 
-                entities_dict[en.name] = {
-                    "id": entities_dict[en.name]["id"], 
-                    "label": entity.name, 
-                    "color": entity.color,
-                    "title": format_dict_to_html_br(en_title),
-                    "group": en.label
-                    }
+                    entities_dict[en.name] = {
+                        "id": entities_dict[en.name]["id"], 
+                        "label": entity.name, 
+                        "color": entity.color,
+                        "title": format_dict_to_html_br(en_title),
+                        "group": "article"
+                        }
+                else:
+                    entities_dict[en.name] = {
+                        "id": entities_dict[en.name]["id"], 
+                        "label": entity.name, 
+                        "color": entity.color,
+                        "title": format_dict_to_html_br(en_title),
+                        "group": en.label
+                        }
                 
         
         for rel in kg_dict[pmid]['relations']:
@@ -235,9 +259,15 @@ def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
                 })
             
             # 计算每个实体连接的关系的数量
-            entity_relation_counts[rel.startEntity.name] = entity_relation_counts.get(rel.startEntity.name,0) + 1
-            entity_relation_counts[rel.endEntity.name] = entity_relation_counts.get(rel.endEntity.name, 0) + 1
-        
+            related_pairs1 = f"{rel.startEntity.name}_{rel.endEntity.name}"
+            related_pairs2 = f"{rel.endEntity.name}_{rel.startEntity.name}"
+            
+            if related_pairs1 not in related_pairs and related_pairs2 not in related_pairs:
+                related_pairs.add(related_pairs1)
+                related_pairs.add(related_pairs2)
+                entity_relation_counts[rel.startEntity.name] = entity_relation_counts.get(rel.startEntity.name, 0) + 1
+                entity_relation_counts[rel.endEntity.name] = entity_relation_counts.get(rel.endEntity.name, 0) + 1
+    
     entity_relation_counts = scale_entity_size_log(entity_relation_counts)
     for en_name, _ in entities_dict.items():
         if en_name in entity_relation_counts:

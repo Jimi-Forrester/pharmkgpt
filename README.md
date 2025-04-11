@@ -2,7 +2,7 @@
 
 This project implements a RAG system focused on disease of delirium, using Ollama for local LLMs.
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 ## Table of Contents
 
@@ -151,3 +151,4 @@ pytest test/test_QA.py
 *   **Data_v3:** Refactored data structure (led to retrieval issues, deprecated).
 *   **Data_v4:** Rebuilt based on v2 structure; current primary dataset.
 *   **Data_test_v3:** A smaller test dataset corresponding to the structure of Data_v4.
+*   **Data_v5:** Contains 150,000 literature abstracts for a Knowledge Graph (KG), covering Alzheimer's Disease (AD) and delirium. Last updated: April 9, 2025.
