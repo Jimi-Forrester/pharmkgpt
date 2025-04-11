@@ -5,12 +5,53 @@ mark {
     background-color: #10B981;
     color: #ffffff;
 }
+.chemical {
+    background-color: #d1f5f4;
+    color: #35A29F;
+}
+.disease {
+    background-color: #ffc4d0;
+    color: #FF3864;
+}
+.gene {
+    background-color: #ffeec4;
+    color: #b0871d;
+}
+.metabolite {
+    background-color: #f8d1e7;
+    color: #E457A6;
+}
+.pathway {
+    background-color: #e0d6fc;
+    color: #8A5CF6;
+}
+.processes {
+    background-color: #d9f6f0;
+    color: #2db692;
+}
+.protein {
+    background-color: #c0e2fa;
+    color: #1E88E5;
+}
+.region {
+    background-color: #e8e0da;
+    color: #9E7A65;
+}
 gradio-app {
     background: #ffffff;
 }
 ul li {
-    list-style-type: disc !important; /* 'disc' is the solid circle */
+    list-style-type: none !important; /* 'disc' is the solid circle */
+
 }
+
+#logo-img-container {
+    overflow: visible !important;
+}
+#logo-img-container img {
+    max-height: none !important;
+}
+
 #toggle-button {
     background-color: #ffffff !important;
 }
@@ -33,6 +74,55 @@ ul li {
     width: 80%;
     align-items: left;
   }
+#top-k input[type="number"] {
+    margin-top: 8px !important;
+}
+#run-settings > button,
+#entity-counter > button,
+#highlight > button,
+#announcement > button {
+    justify-content: flex-start;
+    text-align: left
+}
+#run-settings > button span.icon,
+#entity-counter > button span.icon,
+#highlight > button span.icon,
+#announcement > button span.icon {
+    margin-left: auto;
+}
+
+/* 按钮图标基础样式 */
+#run-settings> button::before,
+#entity-counter> button::before,
+#highlight> button::before,
+#announcement> button::before {
+    content: "";
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px;
+    margin-right: 20px;
+}
+
+/* 各个按钮的特定图标 */
+#run-settings> button::before {
+    background-image: url("/file=src/ui/static/set.png");
+}
+
+#entity-counter> button::before {
+    background-image: url("/file=src/ui/static/sta.png");
+}
+
+#highlight> button::before {
+    background-image: url("/file=src/ui/static/hig.png");
+}
+
+#announcement> button::before {
+    background-image: url("/file=src/ui/static/ano.png");
+}
 
 #styled-btn,
 #parameter-btn {

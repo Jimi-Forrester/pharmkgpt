@@ -269,10 +269,10 @@ def load_and_display(output):
         pmid = ref['pmid']
         accordion_html += f"""
         <details style='margin:10px 0; border:1px solid #FFFFFF; border-radius:5px;'>
-            <summary style='cursor:pointer; padding:10px; background:#FFFFFF;'>
+            <summary style='cursor:pointer; padding:10px; background:#FFFFFF;font-weight:700;'>
                 {title}<a href="https://pubmed.ncbi.nlm.nih.gov/{pmid}/" target="_blank">[PMID: {pmid}]</a>
             </summary>
-            <div style='padding:15px; background:white;'>
+            <div style='padding-left:15px; background:white;'>
                 <b>Relevance score:</b> {score:.3f}
             </div>
             <div style='padding:15px; background:white;'>

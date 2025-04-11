@@ -4,21 +4,22 @@ from src.ui.theme import Kotaemon
 import gradio as gr
 from src.ui.config import *
 import os
-
+from PIL import Image
 os.environ["GRADIO_ANALYTICS"] = "False"
-
 
 def ui():
     base_dir = os.path.dirname(os.path.abspath(__file__)).replace("\\", "/")
     with open(f"{base_dir}/gradio.css", "r", encoding="utf-8") as f:
         custom_css = f.read()
-    icon = """<link rel="icon" type="image/png" href="/file=src/ui/PharmKGPT.png">"""
+    logo_img = Image.open(r"E:\project\delirium-rag\src\ui\static\logo.png")  # 确保路径正确
+    icon = """<link rel="icon" type="image/png" href="/file=src/ui/static/PharmKGPT.png">"""
     with gr.Blocks(theme=Kotaemon(text_size="lg").set(body_background_fill='white',background_fill_primary='white', section_header_text_weight=700),title="PharmKGPT", css=custom_css, fill_width=True, head=icon) as demo:
     # with gr.Tab("KG2RAG",elem_id="chat-tab"):
         with gr.Row():
             # 左侧设置面板 
             with gr.Column(scale=1,elem_id="left-column", min_width=300) as sidebar_column:
-                gr.Markdown("# PharmKGPT",height="15vh")
+                # gr.Markdown("# PharmKGPT",height="15vh")
+                gr.Image(value=logo_img, height=100, show_label=False, show_download_button=False, show_fullscreen_button=False, elem_id="logo-img-container")
                 new_chat = gr.Button(
                         value="New chat",
                         min_width=120,
@@ -31,7 +32,7 @@ def ui():
                         gr.Markdown("### Confirm to reset conversation?",)
                     confirm_btn = gr.Button("Confirm", variant="stop")
                     cancel_btn = gr.Button("Cancel")
-                with gr.Accordion(label="Model parameter") as model_parameter:
+                with gr.Accordion(label="Run settings", elem_id="run-settings") as model_parameter:
                     current_model_selector, current_top_k, current_hops = gr.State(None), gr.State(None), gr.State(None)
                     query_result = gr.State(None)
                     is_parameter_set = gr.State(False)
@@ -62,30 +63,30 @@ def ui():
                     )
                     with gr.Row(visible=False) as confirm_set_dialog:
                         with gr.Row():
-                            gr.Markdown("### Confirm to set model parameters?",)
+                            gr.Markdown("### Confirm to set parameters?",)
                         confirm_set_btn = gr.Button("Confirm", variant="stop")
                         cancel_set_btn = gr.Button("Cancel")
                     waiting_text = gr.Markdown(
-                        "### Waiting for model parameters to be set...",
+                        "### Waiting for parameters to be set...",
                         visible=False, 
                     )
-                with gr.Accordion(label="Entity Statistics", open=True) as entity_counter:
+                with gr.Accordion(label="Entity statistics", open=True, elem_id="entity-counter") as entity_counter:
                     with gr.Row():
                         plot = gr.Plot(show_label=False)
-                with gr.Accordion(label="Highlight", open=True):
+                with gr.Accordion(label="Highlight", open=True, elem_id="highlight"):
                     gr.Markdown("""                      
-                        * ✨ **Accurate Answering**: Reliable, source-backed responses specifically addressing Delirium & AD inquiries.
-                        * ✨ **Explore Complex Relationships**: Visualize links across disease concepts, proteomics, metabolomics, genetics and pathways using our knowledge graph.
-                        * ✨ **Efficient Information Synthesis**: Rapidly extract key insights and data from extensive research literature.
+                        *  **Accurate Answering**: Reliable, source-backed responses specifically addressing Delirium & AD inquiries.
+                        *  **Explore Complex Relationships**: Visualize links across disease concepts, proteomics, metabolomics, genetics and pathways using our knowledge graph.
+                        *  **Efficient Information Synthesis**: Rapidly extract key insights and data from extensive research literature.
                         """
                     )
-                with gr.Accordion(label="Announcement", open=True):
+                with gr.Accordion(label="Announcement", open=True, elem_id="announcement"):
                     gr.Markdown(
                             """
-                    * 📚 **Knowledge Base Update**: Delirium & Alzheimer's literature updated through March 2025.
-                    * 🗣️ **Example**: How does kynurenic acid contribute to delirium?
-                    * 💡 **Tip**: Search results might be better when *Max Retrieved* is set to 5 or less.
-                    * ❓ **Feedback Welcome**: Please share your thoughts or report any issues to mindrank@mindrank.ai.
+                    *  **Knowledge Base Update**: Delirium & Alzheimer's literature updated through March 2025.
+                    *  **Example**: How does kynurenic acid contribute to delirium?
+                    *  **Tip**: Search results might be better when *Max Retrieved* is set to 5 or less.
+                    *  **Feedback Welcome**: Please share your thoughts or report any issues to xianglu@mindrank.ai.
                     """  
                         )
                     
