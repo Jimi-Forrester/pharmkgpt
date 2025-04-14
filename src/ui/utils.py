@@ -565,7 +565,7 @@ def plot_interactive_hbar():
     norm = plt.Normalize(df['count'].min(), df['count'].max())
     
     # 创建图表 
-    fig, ax = plt.subplots(figsize=(8,  8))  # 增加画布高度 
+    fig, ax = plt.subplots(figsize=(8,  7))  # 增加画布高度 
     bars = ax.barh(df['category'],  df['count'], color=cmap(norm(df['count'])))
     
     # 标签设置 

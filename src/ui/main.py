@@ -12,6 +12,7 @@ def ui():
     with open(f"{base_dir}/gradio.css", "r", encoding="utf-8") as f:
         custom_css = f.read()
     logo_img = Image.open(f"{base_dir}/static/logo.png")  # 确保路径正确
+    statistics_img = Image.open(f"{base_dir}/static/statistics.png")  # 确保路径正确
     icon = """<link rel="icon" type="image/png" href="/file=src/ui/static/PharmKGPT.png">"""
     with gr.Blocks(theme=Kotaemon(text_size="lg").set(body_background_fill='white',background_fill_primary='white', section_header_text_weight=700),title="PharmKGPT", css=custom_css, fill_width=True, head=icon) as demo:
     # with gr.Tab("KG2RAG",elem_id="chat-tab"):
@@ -19,7 +20,7 @@ def ui():
             # 左侧设置面板 
             with gr.Column(scale=1,elem_id="left-column", min_width=300) as sidebar_column:
                 # gr.Markdown("# PharmKGPT",height="15vh")
-                gr.Image(value=logo_img, height=100, show_label=False, show_download_button=False, show_fullscreen_button=False, elem_id="logo-img-container")
+                gr.Image(value=logo_img, height=100, interactive=False, show_label=False, show_download_button=False, show_fullscreen_button=False, elem_classes="img-container")
                 new_chat = gr.Button(
                         value="New chat",
                         min_width=120,
@@ -72,15 +73,15 @@ def ui():
                     )
                 with gr.Accordion(label="Entity statistics", open=True, elem_id="entity-counter") as entity_counter:
                     with gr.Row():
-                        plot = gr.Plot(show_label=False)
-                with gr.Accordion(label="Highlight", open=True, elem_id="highlight"):
+                        statistics = gr.Image(value=statistics_img, height='auto',interactive=False, show_label=False, show_download_button=False, show_fullscreen_button=False,elem_classes="img-container")
+                with gr.Accordion(label="Highlights", open=True, elem_id="highlight"):
                     gr.Markdown("""                      
                         *  **Accurate Answering**: Reliable, source-backed responses specifically addressing Delirium & AD inquiries.
                         *  **Explore Complex Relationships**: Visualize links across disease concepts, proteomics, metabolomics, genetics and pathways using our knowledge graph.
                         *  **Efficient Information Synthesis**: Rapidly extract key insights and data from extensive research literature.
                         """
                     )
-                with gr.Accordion(label="Announcement", open=True, elem_id="announcement"):
+                with gr.Accordion(label="Announcements", open=True, elem_id="announcement"):
                     gr.Markdown(
                             """
                     *  **Knowledge Base Update**: Delirium & Alzheimer's literature updated through March 2025.
@@ -235,7 +236,7 @@ def ui():
                 return [];
             }
             """)
-        demo.load(fn=plot_interactive_hbar,  outputs=plot)
+        # demo.load(fn=plot_interactive_hbar,  outputs=statistics)
 
         msg.change( 
             fn=None,
