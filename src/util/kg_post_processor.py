@@ -569,21 +569,37 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         logging.info(f"** scores: {scores}")
         logging.info(f"** sorted_seqs: {sorted_seqs}")
         
+        # for seq in sorted_seqs:
+        #     logging.info(f"** seq: {seq}")
+        #     logging.info(f"** set(wanted_ctxs): {set(wanted_ctxs)}")
+        #     logging.info(f"** set(cand_ids_lists[seq]): {set(cand_ids_lists[seq])}")
+            
+        #     if len(set(wanted_ctxs)|set(cand_ids_lists[seq]))>self.topk:
+        #         logging.info(f"** {len(set(wanted_ctxs)|set(cand_ids_lists[seq]))} > self.topk")
+        #         break
+        #     wanted_ctxs.extend(cand_ids_lists[seq])
+        #     wanted_ctxs = list(set(wanted_ctxs))
+
+
         for seq in sorted_seqs:
             logging.info(f"** seq: {seq}")
             logging.info(f"** set(wanted_ctxs): {set(wanted_ctxs)}")
             logging.info(f"** set(cand_ids_lists[seq]): {set(cand_ids_lists[seq])}")
             
-            if len(set(wanted_ctxs)|set(cand_ids_lists[seq]))>self.topk:
-                logging.info(f"** {len(set(wanted_ctxs)|set(cand_ids_lists[seq]))} > self.topk")
+            new_ents = [eid for eid in cand_ids_lists[seq] if eid not in wanted_ctxs]
+            for eid in new_ents:
+                wanted_ctxs.append(eid)
+                if len(wanted_ctxs) >= self.topk:
+                    break
+            if len(wanted_ctxs) >= self.topk:
                 break
-            wanted_ctxs.extend(cand_ids_lists[seq])
-            wanted_ctxs = list(set(wanted_ctxs))
-
+    
+    
+    
         logging.info(f"** wanted_ctxs: {wanted_ctxs}")
         
-        if len(wanted_ctxs)<self.topk//2:
-            logging.info("**len(wanted_ctxs)<self.topk//2")
+        if len(wanted_ctxs) < max(1, self.topk // 2):
+            logging.info("**len(wanted_ctxs)<max(1, self.topk // 2)")
             cands = [(query_bundle.query_str,node.node.text,) for node in nodes if node.node.id_ not in wanted_ctxs]
             
             if len(cands)>0:
