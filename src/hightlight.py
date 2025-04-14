@@ -266,22 +266,25 @@ def hallucination_test(llm_model, input_data):
     ## Generated Answer:
     <generation>{generation}</generation>
 
-    # Evaluation Criteria & Scoring Guide
-    Evaluate based on the following criteria and provide an integer score from 1 to 5:
 
-    *   **Score 1 (Fully Grounded & Relevant):** All key information and logical connections presented in the answer are explicitly supported by the 'Retrieved Context'. This includes answers that accurately **synthesize multiple pieces of information explicitly present** in the context to directly address the query's core question. The answer is highly relevant to the 'Original Query'.
-    *   **Score 2 (Mostly Grounded & Relevant):** The majority of key information is supported by the context. May involve minor, **reasonable paraphrasing or logical synthesis clearly based on information stated in the context**. No introduction of core facts or strong causal claims not directly supported by the building blocks within the context. Generally relevant to the query.
-    *   **Score 3 (Partially Grounded / Mild Hallucination):** The answer contains a mix of information supported by the context and details or inferences not found there. Alternatively, the answer might be based on the context but has low relevance to the 'Original Query'.
-    *   **Score 4 (Largely Hallucinated / Poorly Grounded):** Most of the key information in the answer cannot be verified from the 'Retrieved Context'. It appears largely fabricated by the model. This also applies if the context is irrelevant to the query, but the answer attempts to derive meaning from it anyway.
-    *   **Score 5 (Completely Hallucinated / Fabricated / Irrelevant):** The information in the answer finds almost no support in the 'Retrieved Context'. This includes cases where the context is empty, but the answer provides specific information, or the answer is completely unrelated to both the context and the query.
+    ## Evaluate based on the following criteria and provide an integer score from 1 to 5:
+    *   **Score 1 (Fully Grounded & Relevant)**: All key information and logical connections presented in the answer are explicitly supported by the 'Retrieved Context'. This includes answers that accurately synthesize multiple pieces of information explicitly present in the context to directly address the query's core question. The answer is highly relevant to the 'Original Query'.
+    *   **Score 2 (Mostly Grounded & Relevant)**: The majority of key information is supported by the context. May involve minor, reasonable paraphrasing or logical synthesis clearly based on information stated in the context. No introduction of core facts or strong causal claims not directly supported by the building blocks within the context. Generally relevant to the query.
+    *   **Score 3 (Partially Grounded / Mild Hallucination / Incomplete Context Use)**:
+        - The answer contains a mix of information supported by the context and details or inferences not found there.
+        - Alternatively, when the 'Retrieved Context' contains multiple relevant documents/passages, the answer might be accurately based on only one (or a limited subset) of these, while demonstrably ignoring other provided documents/passages containing significant relevant information that could enrich, qualify, or contradict the answer. This indicates a failure to fully utilize the provided evidence.
+        - Alternatively, the answer might be based on the context but has low relevance to the 'Original Query'.
+    *   **Score 4 (Largely Hallucinated / Poorly Grounded)**: Most of the key information in the answer cannot be verified from the 'Retrieved Context'. It appears largely fabricated by the model. This also applies if the context is irrelevant to the query, but the answer attempts to derive meaning from it anyway.
+    *   **Score 5 (Completely Hallucinated / Fabricated / Irrelevant)**: The information in the answer finds almost no support in the 'Retrieved Context'. This includes cases where the context is empty, but the answer provides specific information, or the answer is completely unrelated to both the context and the query.
+    
+    ## Specific Handling Notes:
+    * If the 'Retrieved Context' is empty or completely irrelevant... high score (4 or 5).
+    * If the 'Original Query' itself is nonsensical... high score (4 or 5).
+    [REVISED RULE v4] Handling Answers Discussing Information Availability & Synthesis:
+    * If the 'Generated Answer' explicitly states that the core subject or essential information needed to answer the 'Original Query' is missing or not mentioned in the 'Retrieved Context', AND the answer subsequently provides no relevant, grounded information about the query's topic from the context, assign Score 5.
+    * However, if the 'Generated Answer' accurately notes the absence of specific details, a direct causal statement, or uses cautious phrasing (e.g., "appears to be," "likely contributes," "suggests a role") reflecting the nuance or limitations of the context, this is NOT grounds for a high score by itself.
+    * Furthermore, if the answer synthesizes information by logically connecting multiple facts that are each individually supported by the provided 'Retrieved Context' to answer the query, this should be considered grounded (Scores 1-2), provided the synthesis itself is logical and doesn't introduce unsupported claims. Do NOT assign Score 5 simply because the synthesized conclusion wasn't stated verbatim as a single sentence in the context. Evaluate the accuracy and grounding of the synthesis based on the context.
 
-    ***Specific Handling Notes:**
-    *   If the 'Retrieved Context' is **empty** or **completely irrelevant**... **high score (4 or 5)**.
-    *   If the 'Original Query' itself is **nonsensical**... **high score (4 or 5)**.
-    *   **[REVISED RULE v4] Handling Answers Discussing Information Availability & Synthesis:**
-        *   If the 'Generated Answer' explicitly states that the **core subject** or **essential information** needed to answer the 'Original Query' is **missing** or **not mentioned** in the 'Retrieved Context', AND the answer subsequently provides **no relevant, grounded information** about the query's topic from the context, assign **Score 5**.
-        *   However, if the 'Generated Answer' accurately notes the absence of *specific details*, a *direct causal statement*, or uses cautious phrasing (e.g., "appears to be," "likely contributes," "suggests a role") reflecting the nuance or limitations of the context, **this is NOT grounds for a high score by itself.**
-        *   Furthermore, if the answer **synthesizes** information by logically connecting **multiple facts that are *each individually supported* by the provided 'Retrieved Context'** to answer the query, this should be considered **grounded (Scores 1-2)**, provided the synthesis itself is logical and doesn't introduce unsupported claims. **Do NOT assign Score 5 simply because the synthesized conclusion wasn't stated verbatim as a single sentence in the context.** Evaluate the *accuracy and grounding of the synthesis* based on the context.
     Output format:
         <format_instruction>
         {format_instructions}
