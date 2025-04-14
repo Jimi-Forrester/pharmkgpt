@@ -376,19 +376,34 @@ class RAGEngine:
             except:
                 logging.error(">>>Highlighting has some problem!")
                 context_ = context
-                
-            output_dict = {
-                "Question": question,
-                "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
-                "Supporting literature": sps,
-                "Context": context_,
-                "KG": self.query_kg(sps),
-            }
-            logging.info(f"**Question:** {question}")
-            logging.info(f"**Answer:** {answer}")
-            logging.info(f"**Supporting literature:** {sps}")
-            yield {"type": "result", "data": output_dict}
-            return
+            
+            try:
+                output_dict = {
+                    "Question": question,
+                    "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
+                    "Supporting literature": sps,
+                    "Context": context_,
+                    "KG": self.query_kg(sps),
+                }
+                logging.info(f"**Question:** {question}")
+                logging.info(f"**Answer:** {answer}")
+                logging.info(f"**Supporting literature:** {sps}")
+                yield {"type": "result", "data": output_dict}
+                return
+            
+            except Exception as e:
+                logging.error(f"An error occurred while generating the output: {e}")
+                yield {
+                    "type": "result",
+                    "data": {
+                        "Question": question,
+                        "Answer": answer,
+                        "Supporting literature": sps,
+                        "Context": context_,
+                        "KG": None,
+                    }
+                }
+                return
 
     def query(self, question):
         """查询"""
