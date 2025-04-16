@@ -308,7 +308,7 @@ def kg_visualization(pmid_list: List[str], kg_dict: Dict[str, Dict[str, List[Any
     Args:
         pmid_list: 要包含的 PMID 列表。
         kg_dict: 包含知识图谱数据的字典，键是 PMID，值是包含 'entities' 和 'relations' 键的字典。
-                 'entities' 是 Entity 对象列表, 'relations' 是 Relation 对象列表。
+                'entities' 是 Entity 对象列表, 'relations' 是 Relation 对象列表。
 
     Returns:
         包含 'nodes' 和 'edges' 键的字典，用于可视化。
@@ -336,7 +336,7 @@ def kg_visualization(pmid_list: List[str], kg_dict: Dict[str, Dict[str, List[Any
             else:
                 # No unique_id, the name is its own canonical name (unless already mapped by unique_id elsewhere)
                 if original_name not in entity_name_mapping:
-                     entity_name_mapping[original_name] = original_name
+                    entity_name_mapping[original_name] = original_name
 
 
     # --- Step 2: Build nodes and edges using canonical names ---
@@ -362,8 +362,8 @@ def kg_visualization(pmid_list: List[str], kg_dict: Dict[str, Dict[str, List[Any
                 entity_label_type = en.label
                 entity_color = en_color.get(entity_label_type, {}).get("background", "gray")
                 en_title_props = en.properties_info.copy() # Important: copy properties
-                en_title_props['original_name'] = original_name # Optionally add original name
-                en_title_props['canonical_name'] = canonical_name # Add canonical name
+                #en_title_props['original_name'] = original_name # Optionally add original name
+                en_title_props['name'] = canonical_name # Add canonical name
                 en_title_props['label'] = entity_label_type
 
                 node_group = entity_label_type
@@ -374,11 +374,11 @@ def kg_visualization(pmid_list: List[str], kg_dict: Dict[str, Dict[str, List[Any
                     en_title = {"name": canonical_name, "label": "article"}
                     node_group = "article"
                     node_label = canonical_name # Ensure label is canonical here too
+
                 else:
                     # Prepare title dictionary using potentially modified props
                     en_title = en_title_props
-
-
+                    
                 entities_dict[canonical_name] = {
                     "id": entities_dict[canonical_name]["id"], # Get the auto-generated ID
                     "label": node_label,
@@ -402,9 +402,8 @@ def kg_visualization(pmid_list: List[str], kg_dict: Dict[str, Dict[str, List[Any
             if relation_tuple not in relations_set:
                 relations_set.add(relation_tuple)
                 re_title = rel.properties_info.copy() # Copy properties
-                re_title['edge_type'] = rel.name # Use a different key than 'edges' maybe?
-                re_title['original_start'] = original_start_name
-                re_title['original_end'] = original_end_name
+                re_title['relationship'] = rel.name # Use a different key than 'edges' maybe?
+
 
                 relations_list.append({
                     "from": canonical_start_name, # Store canonical name temporarily

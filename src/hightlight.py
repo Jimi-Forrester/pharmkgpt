@@ -280,6 +280,7 @@ def hallucination_test(llm_model, input_data):
     ## Specific Handling Notes:
     * If the 'Retrieved Context' is empty or completely irrelevant... high score (4 or 5).
     * If the 'Original Query' itself is nonsensical... high score (4 or 5).
+    * If the 'Generated Answer' explicitly states that the information required to answer the 'Original Query' **is not mentioned**, **not present**, **not found**, or **not discussed** within the 'Retrieved Context' (using phrases like "is not mentioned", "are not mentioned", "does not state", "no information found", "the context does not discuss", etc.), assign **Score 5** immediately. This rule takes precedence over other considerations below.
     [REVISED RULE v4] Handling Answers Discussing Information Availability & Synthesis:
     * If the 'Generated Answer' explicitly states that the core subject or essential information needed to answer the 'Original Query' is missing or not mentioned in the 'Retrieved Context', AND the answer subsequently provides no relevant, grounded information about the query's topic from the context, assign Score 5.
     * However, if the 'Generated Answer' accurately notes the absence of specific details, a direct causal statement, or uses cautious phrasing (e.g., "appears to be," "likely contributes," "suggests a role") reflecting the nuance or limitations of the context, this is NOT grounds for a high score by itself.
