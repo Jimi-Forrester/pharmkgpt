@@ -360,6 +360,7 @@ def interaction_false(*args):
 def parameters_embedding_live_update(model_type='gemma3', api_key=None, top_k=5, hops=1):
     model_type_map = {
         'MindGPT': 'gemma3',
+        'Gemini': 'gemini',
         'OpenAI': 'openai',
     }
     if model_type in model_type_map:
