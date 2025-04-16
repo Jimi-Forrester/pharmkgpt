@@ -14,6 +14,7 @@ from llama_index.core.retrievers import VectorIndexRetriever
 from llama_index.core.query_engine import RetrieverQueryEngine
 from llama_index.core.response_synthesizers import ResponseMode
 from llama_index.embeddings.ollama import OllamaEmbedding
+from llama_index.embeddings.google_genai import GoogleGenAIEmbedding
 
 from langchain_openai import ChatOpenAI
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -87,13 +88,13 @@ class RAGEngine:
         self.doc2kg = loaded_dict["doc2kg"]
 
     def load_index(self):
-        logging.info("Initializing OllamaEmbedding...")
-        emd = OllamaEmbedding(
-            model_name=self.embed_model, 
-            base_url=self.ollama_url
-            )
-        emd.get_query_embedding("hello world!")
-        Settings.embed_model = emd
+        # logging.info("Initializing OllamaEmbedding...")
+        # emd = OllamaEmbedding(
+        #     model_name=self.embed_model, 
+        #     base_url=self.ollama_url
+        #     )
+        # emd.get_query_embedding("hello world!")
+        # Settings.embed_model = emd
         
         logging.info("Loading index...")
         sc = StorageContext.from_defaults(persist_dir=f"{self.data_root}/derilirum_index")
@@ -108,9 +109,12 @@ class RAGEngine:
         )
         self.qa_rag_prompt_template = PromptTemplate(qa_rag_template_str)
 
-        device="cuda:0"
-        self.bge_reranker = FlagReranker(model_name_or_path=self.reranker_path, device=device)
-        self.bge_reranker.model.to(device)
+        # device="cuda:0"
+        self.bge_reranker = FlagReranker(
+            model_name_or_path=self.reranker_path, 
+            # device=device
+                                )
+        # self.bge_reranker.model.to(device)
 
         
     def setup_query_engine(self,         
@@ -138,7 +142,23 @@ class RAGEngine:
                     google_api_key=api_key, 
                     temperature=0
                     )
+
+                embed_model = GoogleGenAIEmbedding(
+                    model_name="text-embedding-004",
+                    embed_batch_size=100,
+                    api_key=api_key,
+                    # or pass in a vertexai_config
+                    # vertexai_config={
+                    #     "project": "...",
+                    #     "location": "...",
+                    # }
+                    # can also pass in an embedding_config
+                    # embedding_config=EmbedContentConfig(...)
+                )
+
+                embed_model.get_text_embedding("Google Gemini Embeddings.")
                 
+                                
             elif model_type == "openai":
                 logging.info("Initializing Openai...")
                 llm = OpenAI(api_key=api_key, model="gpt-4o")
@@ -160,6 +180,14 @@ class RAGEngine:
                 model = model_map[model_type],
                 base_url = self.ollama_url
             )
+                
+                emd = OllamaEmbedding(
+                    model_name=self.embed_model, 
+                    base_url=self.ollama_url
+                    )
+                emd.get_query_embedding("hello world!")
+                Settings.embed_model = emd
+                
             else:
                 logging.info(f"Initializing {model_type}...")
                 llm = Ollama(
@@ -172,12 +200,20 @@ class RAGEngine:
                     base_url = self.ollama_url
                 )
                 
+                emd = OllamaEmbedding(
+                    model_name=self.embed_model, 
+                    base_url=self.ollama_url
+                    )
+                emd.get_query_embedding("hello world!")
+                Settings.embed_model = emd
+                
+                
             self.llm.invoke("hello world!")
 
             llm.complete("hello world!")
             
             Settings.llm =llm
-
+            Settings.embed_model = embed_model
 
             self.response_synthesizer = get_response_synthesizer(
                 response_mode=ResponseMode.COMPACT, text_qa_template=self.qa_rag_prompt_template

@@ -5,4 +5,4 @@ LASTET_MESSAGE = ""
 MODELS = ["MindGPT", "DeepSeek-R1", "Qwen2.5", "Gemini", "OpenAI"]
 MODELS_REQUIRING_KEY = ["Gemini", "OpenAI"]
 CHOICES = ["Drugs", "Diseases", "Gene", "Protein", "Metabolite", "SNP", "Clinical"]
-BASE_URL = "http://192.168.110.64:5000/api"
+BASE_URL = "http://127.0.0.1:5000/api"
