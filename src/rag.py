@@ -2,6 +2,7 @@ import pickle
 import logging
 import re
 import os
+import torch
 from FlagEmbedding import FlagReranker
 from llama_index.llms.gemini import Gemini
 from llama_index.llms.ollama import Ollama
@@ -108,16 +109,18 @@ class RAGEngine:
         )
         self.qa_rag_prompt_template = PromptTemplate(qa_rag_template_str)
 
-        device="cuda:0"
-        self.bge_reranker = FlagReranker(model_name_or_path=self.reranker_path, device=device)
-        self.bge_reranker.model.to(device)
-
-        
+        if torch.cuda.is_available():
+            device = "cuda:0" # Or simply "cuda" to use the default CUDA device
+            self.bge_reranker = FlagReranker(model_name_or_path=self.reranker_path, device=device)
+            self.bge_reranker.model.to(device)
+        else:
+            self.bge_reranker = FlagReranker(model_name_or_path=self.reranker_path)
+    
     def setup_query_engine(self,         
                 model_type,
                 api_key,
                 top_k,
-                hops,
+                hops=1,
                 model_map=MODEL_DICT,
                 ):
         """初始化RAG引擎"""
@@ -129,104 +132,108 @@ class RAGEngine:
         llm = None 
         self.llm = None
         
-        try:
-            if model_type == "gemini":
-                logging.info("Initializing Gemini...")
-                llm = Gemini(api_key=api_key, model="models/gemini-2.0-flash")
-                self.llm = ChatGoogleGenerativeAI(
-                    model="gemini-2.0-flash", 
-                    google_api_key=api_key, 
-                    temperature=0
-                    )
-                
-            elif model_type == "openai":
-                logging.info("Initializing Openai...")
-                llm = OpenAI(api_key=api_key, model="gpt-4o")
-                
-                self.llm = ChatOpenAI(
-                    api_key=api_key,
-                    model="gpt-4o", 
-                    temperature=0,
-                    max_retries=2
-                    )
-
-            elif model_type in MODEL_DICT:
-                logging.info(f"Initializing {model_type}...")
-                llm = Ollama(
-                model = model_map[model_type],
-                base_url = self.ollama_url
+        # try:
+        if model_type == "gemini":
+            logging.info("Initializing Gemini...")
+            llm = Gemini(api_key=api_key, model="models/gemini-1.5-flash-latest")
+            self.llm = ChatGoogleGenerativeAI(
+                model="gemini-1.5-flash-latest",  # 1.5-flash-latest 是官方推荐的稳定 Flash 模型
+                google_api_key=api_key, 
+                temperature=0,
                 )
-                self.llm = lc_Ollama(
-                model = model_map[model_type],
-                base_url = self.ollama_url
-            )
-            else:
-                logging.info(f"Initializing {model_type}...")
-                llm = Ollama(
-                    model = "gemma3:27b",
-                    base_url = self.ollama_url
-                )
-                
-                self.llm = lc_Ollama(
-                    model = "gemma3:27b",
-                    base_url = self.ollama_url
-                )
-                
-            self.llm.invoke("hello world!")
-
-            llm.complete("hello world!")
             
-            Settings.llm =llm
+        elif model_type == "openai":
+            logging.info("Initializing Openai...")
+            llm = OpenAI(api_key=api_key, model="gpt-4o")
+            
+            self.llm = ChatOpenAI(
+                api_key=api_key,
+                model="gpt-4o", 
+                temperature=0,
+                max_retries=2
+                )
 
-
-            self.response_synthesizer = get_response_synthesizer(
-                response_mode=ResponseMode.COMPACT, text_qa_template=self.qa_rag_prompt_template
+        elif model_type in MODEL_DICT:
+            logging.info(f"Initializing {model_type}...")
+            llm = Ollama(
+                model = model_map[model_type],
+                base_url = self.ollama_url,
+                request_timeout=300.0,  # 解决 deepseek-r1，timeout 问题
             )
+            self.llm = lc_Ollama(
+                model = model_map[model_type],
+                base_url = self.ollama_url,
+                timeout=300.0,  # 解决 deepseek-r1，timeout 问题
+            )
+        else:
+            logging.info(f"Initializing {model_type}...")
+            llm = Ollama(
+                model = "gemma3:27b",
+                base_url = self.ollama_url,
+                request_timeout=60.0,
+            )
+            
+            self.llm = lc_Ollama(
+                model = "gemma3:27b",
+                base_url = self.ollama_url,
+                timeout=60.0,
+            )
+            
+        self.llm.invoke("hello world!")
+
+        llm.complete("hello world!")
         
-            # 基于pmid 和关系的图检索
-            kg_post_processor1 = KGRetrievePostProcessor(
-                ents=self.ents, 
-                doc2kg=self.doc2kg, 
-                chunks_index=self.chunks_index,
-                chunk_index_embed=self.chunk_index_embed,
-                hops=hops,
-                top_k=top_k,
-            )
-            
-            # 基于节点和 query 覆盖率的图过滤
-            kg_post_processor2 = GraphFilterPostProcessor(
-                topk=top_k,
-                ents=self.ents,
-                doc2kg=self.doc2kg,
-                use_tpt=True,
-                chunks_index=self.chunks_index,
-                reranker=self.bge_reranker,
+        Settings.llm =llm
+
+
+        self.response_synthesizer = get_response_synthesizer(
+            response_mode=ResponseMode.COMPACT, text_qa_template=self.qa_rag_prompt_template
+        )
+    
+        # 基于pmid 和关系的图检索
+        kg_post_processor1 = KGRetrievePostProcessor(
+            ents=self.ents, 
+            doc2kg=self.doc2kg, 
+            chunks_index=self.chunks_index,
+            chunk_index_embed=self.chunk_index_embed,
+            hops=hops,
+            top_k=top_k,
+        )
+        
+        # 基于节点和 query 覆盖率的图过滤
+        kg_post_processor2 = GraphFilterPostProcessor(
+            topk=top_k,
+            ents=self.ents,
+            doc2kg=self.doc2kg,
+            use_tpt=True,
+            chunks_index=self.chunks_index,
+            reranker=self.bge_reranker,
+        )
+
+        Simpostprocessor = SimilarityPostprocessor(
+            similarity_cutoff=0.5
             )
 
-            Simpostprocessor = SimilarityPostprocessor(
-                similarity_cutoff=0.5
-                )
-
-            self.engine = RetrieverQueryEngine(
-                retriever=self.retriever,
-                response_synthesizer=self.response_synthesizer,
-                node_postprocessors=[
-                    kg_post_processor1,
-                    kg_post_processor2,
-                    Simpostprocessor,
-                    NaivePostprocessor(),
-                ],
-            )
+        self.engine = RetrieverQueryEngine(
+            retriever=self.retriever,
+            response_synthesizer=self.response_synthesizer,
+            node_postprocessors=[
+                kg_post_processor1,
+                kg_post_processor2,
+                Simpostprocessor,
+                NaivePostprocessor(),
+            ],
+        )
+        
+        self._configured = True
+        logging.info("RAG engine initialized successfully.")
+        
             
-            self._configured = True
-            logging.info("RAG engine initialized successfully.")
-            
-            
-        except FileNotFoundError as e:
-            logging.error(f"File not found: {e}")
-            raise  # 重新抛出异常，以便上层处理
-        except Exception as e:
-            logging.error(f"An error occurred during initialization: {e}")
+        # except FileNotFoundError as e:
+        #     logging.error(f"File not found: {e}")
+        #     raise  # 重新抛出异常，以便上层处理
+        # except Exception as e:
+        #     logging.error(f"An error occurred during initialization: {e}")
     
     def is_configured(self):
         return self._configured
@@ -253,12 +260,15 @@ class RAGEngine:
     def query_kg(self, pmid_list):
         return kg_visualization(pmid_list, self.kg_dict)
     
-    
     def entity_dict(self,pmid_list):
         return detect_all_entity_name(pmid_list, self.kg_dict)
     
     def format_context(self, context):
         return format_scientific_text_with_colon(context)
+    
+    def remove_deepseek_think(self, response):
+        cleaned_text = re.sub(r"<think>.*?</think>", "", response, flags=re.DOTALL)
+        return cleaned_text.strip()
     
     def _query(self, question):
         """执行查询"""
@@ -311,6 +321,9 @@ class RAGEngine:
                 logging.info(s.node)
             
             answer = response.response
+            if self.model_type == "DeepSeek-R1":
+                answer = self.remove_deepseek_think(answer)
+                
             sps = [source_node.node.id_ for source_node in response.source_nodes]
             sps_score = [source_node.score for source_node in response.source_nodes]
             context = {}
@@ -359,14 +372,7 @@ class RAGEngine:
             yield {"type": "progress", "message": "Knowledge Retrieved.\nFacts Verified.\nGenerating Answer"}
             
             logging.info(">>>>>Highlighting documents...>>>>>")
-            # HighlightDocuments_dict = hightLight_context(
-            #     input_data ={
-            #     "documents": format_docs(context),
-            #     "question": question,
-            #     "generation": answer
-            #                 }, 
-            #     llm_model=self.llm
-            #     )
+
             try:
                 HighlightDocuments_dict = self.entity_dict(sps)
 

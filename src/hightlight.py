@@ -21,8 +21,8 @@ class HighlightDocuments(BaseModel):
 
 
 class GradeHallucinations(BaseModel):
-    """Binary score for hallucination present in 'generation' answer."""
-    Faithfulness_score: int = Field(..., description="Faithfulness_score like 1, 2, 3, 4, 5")
+    """Faithfulness score for hallucination present in 'generation' answer."""
+    Faithfulness_score: int = Field(..., description="Faithfulness score:1, 2, 3, 4, 5")
 
     
 def hightLight_context(
@@ -194,10 +194,10 @@ def highlight_segments_prioritized(output_abstract, keyword_dict):
         final_highlighted_text = "".join(highlighted_parts)
 
         if final_highlighted_text != original_text:
-             logging.info(f"在 '{source}' 中完成高亮处理 (长优先, 无重叠, 支持分隔符变化)")
-             output_abstract[source]['abstract'] = final_highlighted_text
+            logging.info(f"在 '{source}' 中完成高亮处理 (长优先, 无重叠, 支持分隔符变化)")
+            output_abstract[source]['abstract'] = final_highlighted_text
         else:
-             logging.debug(f"No changes made to {source} after highlighting logic.")
+            logging.debug(f"No changes made to {source} after highlighting logic.")
         logging.debug(f"--- Finished processing source: {source} ---\n")
 
 

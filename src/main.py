@@ -24,6 +24,8 @@ from fastapi.responses import StreamingResponse, JSONResponse
 from pydantic import BaseModel, Field
 import uvicorn
 
+from google.api_core import exceptions
+from langchain_community.llms.ollama import OllamaEndpointNotFoundError
 
 # --- Logging Setup ---
 logging.basicConfig(
@@ -203,13 +205,17 @@ async def update_engine_config_endpoint(
 
             except (ValueError, FileNotFoundError) as config_err:
                 logger.error(f"Configuration failed: {config_err}", exc_info=True)
-                raise HTTPException(status_code=400, detail=f"Configuration Error: {str(config_err)}") from config_err
+                raise HTTPException(status_code=500, detail=f"Configuration Error: {str(config_err)}") from config_err
             except RuntimeError as setup_err: # Catch the generic setup error
                 logger.error(f"Runtime error during engine setup: {setup_err}", exc_info=True)
                 raise HTTPException(status_code=500, detail=f"Engine Setup Failed: {str(setup_err)}") from setup_err
+            except exceptions.GoogleAPIError as e:
+                raise HTTPException(
+                    status_code=500, 
+                    detail = f"API key not valid. Please pass a valid API key. ")
             except Exception as e:
                 logger.exception("Unexpected error during engine setup within lock.") # Use logger.exception to include traceback
-                raise HTTPException(status_code=500, detail=f"Internal Server Error during configuration: {str(e)}") from e
+                raise HTTPException(status_code=500, detail=f"{str(e)}") from e
 
         # Return success response outside the lock
         return JSONResponse(
