@@ -176,11 +176,13 @@ def format_dict_to_html_br(input_dict: Dict) -> str:
     """
     lines = []
     for key, value in input_dict.items():
-        # 使用 HTML 实体 ' 替代单引号，以避免在 HTML 中出现问题
-        # 同时处理 value 中可能出现的单引号
-        safe_key = str(key).replace("'", "'")
-        safe_value = str(value).replace("'", "'")
-        lines.append(f"{safe_key}: {safe_value}")
+        if key == "unique_id":
+            safe_value = str(value).replace("'", "'")
+            lines.append(f"{safe_value}")
+        else:
+            safe_key = str(key).replace("'", "'")
+            safe_value = str(value).replace("'", "'")
+            lines.append(f"{safe_key}: {safe_value}")
 
     return "<br>".join(lines) + "<br>"
 
