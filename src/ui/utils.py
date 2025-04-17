@@ -67,6 +67,13 @@ def kg_to_visjs(json_input): # 修改函数签名以接收输入
             height: 100vh; /* 视口高度 */
             overflow: hidden; /* 防止滚动条 */
           }}
+          div.vis-tooltip {{
+            background-color: #DCEAFD;
+            color: #26569C;
+            border: none;
+            padding: 10px;
+            border-radius: 12px;
+          }}
           #network {{
             /* width: calc(100% - 200px); /* 减去图例宽度 */
             flex-grow: 1; /* 让网络图占据剩余空间 */
@@ -179,9 +186,9 @@ def kg_to_visjs(json_input): # 修改函数签名以接收输入
                 }},
             physics: {{
               enabled: true,
-              stabilization: {{iterations:1000}}, // 减少稳定迭代次数可能加快加载
+              stabilization: {{iterations:2000}}, // 减少稳定迭代次数可能加快加载
               barnesHut: {{
-                gravitationalConstant: -8000, // 增加斥力
+                gravitationalConstant: -3000, // 增加斥力
                 springConstant: 0.05,
                 springLength: 300, // 增加弹簧长度
                 damping: 0.2,
@@ -381,11 +388,16 @@ def parameters_embedding_live_update(model_type='gemma3', api_key=None, top_k=5,
         print("Update request successful:")
         print(response.json())
     except requests.exceptions.RequestException as e:
-        print(f"Error sending update request: {e}")
-        if e.response is not None:
-            print("Server response:", e.response.text)
+        if e.response.status_code == 500:
+            print(f"Error sending update request: {e}")
+            if e.response is not None:
+                print("Server response:", e.response.json())
+            raise gr.Error(f"{e.response.json()['detail']}")
+        else:
+            raise gr.Error("Update request failed, please check the server status.")
     except Exception as e:
         print(f"An unexpected error occurred during update: {e}")
+        raise gr.Error("Update request failed, please check the server status.")
 
 def api_check(selected_model, api_key):
     print(f"Model: {selected_model}")
@@ -506,6 +518,7 @@ def model_type_converter(model_type):
     model_type_map = {
         'gemma3': 'MindGPT',
         'openai': 'OpenAI',
+        'gemini': 'Gemini'
     }
     if model_type in model_type_map:
         model_type = model_type_map[model_type]
