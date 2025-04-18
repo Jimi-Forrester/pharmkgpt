@@ -135,9 +135,9 @@ class RAGEngine:
         # try:
         if model_type == "gemini":
             logging.info("Initializing Gemini...")
-            llm = Gemini(api_key=api_key, model="models/gemini-1.5-flash-latest")
+            llm = Gemini(api_key=api_key, model="models/gemini-2.0-flash")
             self.llm = ChatGoogleGenerativeAI(
-                model="gemini-1.5-flash-latest",  # 1.5-flash-latest 是官方推荐的稳定 Flash 模型
+                model="gemini-2.0-flash",  # 1.5-flash-latest 是官方推荐的稳定 Flash 模型
                 google_api_key=api_key, 
                 temperature=0,
                 )
