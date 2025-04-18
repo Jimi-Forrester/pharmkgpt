@@ -177,6 +177,7 @@ def format_dict_to_html_br(input_dict: Dict) -> str:
     lines = []
     for key, value in input_dict.items():
         if key == "unique_id":
+            value = value.replace("MESH", "MeSH")
             safe_value = str(value).replace("'", "'")
             lines.append(f"{safe_value}")
         else:
