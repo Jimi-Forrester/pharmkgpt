@@ -17,5 +17,6 @@ EMBED_MODEL = "nomic-embed-text:latest"
 MODEL_DICT = {
     "gemma3": "gemma3:27b",
     "DeepSeek-R1": "deepseek-r1:32b",
-    "Qwen2.5": "Qwen2.5:0.5b"
+    "Qwen2.5": "Qwen2.5:0.5b",
+    "MindGPT": "Qwen2.5:0.5b"
 }

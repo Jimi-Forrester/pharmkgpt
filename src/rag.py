@@ -133,7 +133,7 @@ class RAGEngine:
         self.llm = None
         
         # try:
-        if model_type == "gemini":
+        if model_type == "Gemini":
             logging.info("Initializing Gemini...")
             llm = Gemini(api_key=api_key, model="models/gemini-2.0-flash")
             self.llm = ChatGoogleGenerativeAI(
@@ -142,7 +142,7 @@ class RAGEngine:
                 temperature=0,
                 )
             
-        elif model_type == "openai":
+        elif model_type == "OpenAI":
             logging.info("Initializing Openai...")
             llm = OpenAI(api_key=api_key, model="gpt-4o")
             
