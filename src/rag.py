@@ -168,13 +168,13 @@ class RAGEngine:
         else:
             logging.info(f"Initializing {model_type}...")
             llm = Ollama(
-                model = "gemma3:27b",
+                model = model_map['MindGPT'],
                 base_url = self.ollama_url,
                 request_timeout=60.0,
             )
             
             self.llm = lc_Ollama(
-                model = "gemma3:27b",
+                model = model_map['MindGPT'],
                 base_url = self.ollama_url,
                 timeout=60.0,
             )

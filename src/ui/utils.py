@@ -364,14 +364,7 @@ def interaction_false(*args):
     updates = [gr.update(interactive=False) for _ in args]
     # Return as a tuple, which is standard for multiple Gradio outputs
     return tuple(updates)
-def parameters_embedding_live_update(model_type='gemma3', api_key=None, top_k=5, hops=1):
-    model_type_map = {
-        'MindGPT': 'gemma3',
-        'Gemini': 'gemini',
-        'OpenAI': 'openai',
-    }
-    if model_type in model_type_map:
-        model_type = model_type_map[model_type]
+def parameters_embedding_live_update(model_type='MindGPT', api_key=None, top_k=5, hops=1):
     payload = {
         "model_type": model_type,
         "api_key": api_key,
@@ -514,17 +507,7 @@ def get_parameter():
     except Exception as e:
         print(f"处理后端响应时发生未知错误: {e}")
         return "UNKNOWN_ERROR" # 未知错误
-def model_type_converter(model_type):
-    model_type_map = {
-        'gemma3': 'MindGPT',
-        'openai': 'OpenAI',
-        'gemini': 'Gemini'
-    }
-    if model_type in model_type_map:
-        model_type = model_type_map[model_type]
-        return model_type
-    else:
-        return model_type
+
 def update_placeholder_in_load():
     status = get_parameter()
     if status:
@@ -535,7 +518,7 @@ def update_placeholder_in_load():
         elif status == "UNKNOWN_ERROR":
             return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Server error, please check the server status.</p>"), gr.update(value=False), gr.update(value=MODELS[0]), gr.update(value=5)
         else:
-            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold'>You can ask questions.</p>"), gr.update(value=True), gr.update(value=model_type_converter(status['params']['model_type'])), gr.update(value=status['params']['top_k'])
+            return gr.update(placeholder="<p style='font-size:18px; font-weight:bold'>You can ask questions.</p>"), gr.update(value=True), gr.update(value=status['params']['model_type']), gr.update(value=status['params']['top_k'])
     else:
         return gr.update(placeholder="<p style='font-size:18px; font-weight:bold; color:red'>Set parameters before Chat.</p>"), gr.update(value=False), gr.update(value=MODELS[0]), gr.update(value=5)
 def get_parameter_in_send():
