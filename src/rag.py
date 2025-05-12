@@ -71,7 +71,7 @@ class RAGEngine:
 
     def load_kg(self):
         logging.info("Loading KG...")
-        with open(f"{self.data_root}/delirium_kg.pkl", "rb") as f:
+        with open(f"{self.data_root}/delirium_kg_v2.pkl", "rb") as f:
             self.kg_dict = pickle.load(f)
         
         logging.info("Loading entities and doc2kg...")

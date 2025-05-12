@@ -201,109 +201,6 @@ class Relation:
     name: str
 
 
-# def kg_visualization(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
-#     """
-#     从 kg_dict 构建用于可视化的知识图谱数据。
-
-#     Args:
-#         kg_dict: 包含知识图谱数据的字典，键是 PMID，值是包含 'entities' 和 'relations' 键的字典。
-#         en_color: 实体类型到颜色的映射。
-
-#     Returns:
-#         包含 'nodes' 和 'edges' 键的字典，用于可视化。
-#     """
-#     entities_dict = defaultdict(lambda: {"id": len(entities_dict) + 1})  # 自动生成 ID
-#     relations_set: Set[Tuple[str, str, str]] = set()  # 使用集合存储关系，避免重复
-#     relations_list: List[Dict] = []
-
-#     entity_relation_counts = {}
-    
-#     related_pairs = set()
-#     entity_name_mapping = {}
-#     for pmid in pmid_list:
-#         for en in kg_dict[pmid]['entities']:
-            
-                
-                
-#             if en.name not in entities_dict:
-                
-#                 entity = Entity(name=en.name, label=en.label, color=en_color.get(en.label, {}).get("background", "gray"))
-#                 en_title = en.properties_info
-#                 en_title['name']= en.name
-#                 en_title['label']= en.label
-#                 if en.label == "abstract":
-#                     en_title = {"name": en.name, "label": "article"}
-
-#                     entities_dict[en.name] = {
-#                         "id": entities_dict[en.name]["id"], 
-#                         "label": entity.name, 
-#                         "color": entity.color,
-#                         "title": format_dict_to_html_br(en_title),
-#                         "group": "article"
-#                         }
-#                 else:
-#                     entities_dict[en.name] = {
-#                         "id": entities_dict[en.name]["id"], 
-#                         "label": entity.name, 
-#                         "color": entity.color,
-#                         "title": format_dict_to_html_br(en_title),
-#                         "group": en.label
-#                         }
-                
-        
-#         for rel in kg_dict[pmid]['relations']:
-#             relation_tuple = (rel.startEntity.name, rel.endEntity.name, rel.name)
-#             if relation_tuple not in relations_set:
-#                 relations_set.add(relation_tuple)
-#                 re_title = rel.properties_info
-#                 re_title['edges'] = rel.name
-#                 relations_list.append({
-#                     "from": rel.startEntity.name,
-#                     "to": rel.endEntity.name,
-#                     "label": rel.name,
-#                     "title": format_dict_to_html_br(re_title),
-#                     "length": 300 
-#                 })
-            
-#             # 计算每个实体连接的关系的数量
-#             related_pairs1 = f"{rel.startEntity.name}_{rel.endEntity.name}"
-#             related_pairs2 = f"{rel.endEntity.name}_{rel.startEntity.name}"
-            
-#             if related_pairs1 not in related_pairs and related_pairs2 not in related_pairs:
-#                 related_pairs.add(related_pairs1)
-#                 related_pairs.add(related_pairs2)
-#                 entity_relation_counts[rel.startEntity.name] = entity_relation_counts.get(rel.startEntity.name, 0) + 1
-#                 entity_relation_counts[rel.endEntity.name] = entity_relation_counts.get(rel.endEntity.name, 0) + 1
-    
-#     entity_relation_counts = scale_entity_size_log(entity_relation_counts)
-#     for en_name, _ in entities_dict.items():
-#         if en_name in entity_relation_counts:
-#             entities_dict[en_name]["size"] = entity_relation_counts[en_name]
-#         else:
-#             entities_dict[en_name]["size"] = 25
-    
-#     # 计算边的长度
-#     relations_list_length = []
-
-#     for re in relations_list:
-#         head_entity = re["from"]
-#         tail_entity = re["to"]
-#         re["length"] = scale_edge_length(
-#             head_entity, 
-#             tail_entity, 
-#             entity_relation_counts
-#             )
-#         re["from"] = entities_dict[head_entity]["id"]
-#         re["to"] = entities_dict[tail_entity]["id"]
-#         relations_list_length.append(re)
-    
-#     output_kg = {
-#         'nodes': list(entities_dict.values()),
-#         'edges': relations_list_length
-#     }
-#     return output_kg
-
-
 def kg_visualization(pmid_list: List[str], kg_dict: Dict[str, Dict[str, List[Any]]]) -> Dict:
     """
     从 kg_dict 构建用于可视化的知识图谱数据, 并根据 unique_id 统一实体名称。
@@ -323,8 +220,8 @@ def kg_visualization(pmid_list: List[str], kg_dict: Dict[str, Dict[str, List[Any
     for pmid in pmid_list:
         if pmid not in kg_dict: continue # Skip if pmid not in kg_dict
         for en in kg_dict[pmid].get('entities', []):
-            original_name = en.name
-            unique_id = en.properties_info.get('unique_id')
+            original_name = en['name']
+            unique_id = en['properties_info'].get('unique_id')
 
             if unique_id:
                 if unique_id in unique_id_to_canonical_name:
@@ -356,15 +253,15 @@ def kg_visualization(pmid_list: List[str], kg_dict: Dict[str, Dict[str, List[Any
 
         # Process entities to populate entities_dict using canonical names
         for en in kg_dict[pmid].get('entities', []):
-            original_name = en.name
+            original_name = en['name']
             # Get the canonical name using the mapping, default to original if somehow not mapped
             canonical_name = entity_name_mapping.get(original_name, original_name)
 
             if canonical_name not in entities_dict:
                 # Fetch properties from the original entity object 'en'
-                entity_label_type = en.label
+                entity_label_type = en['label']
                 entity_color = en_color.get(entity_label_type, {}).get("background", "gray")
-                en_title_props = en.properties_info.copy() # Important: copy properties
+                en_title_props = en['properties_info'].copy() # Important: copy properties
                 #en_title_props['original_name'] = original_name # Optionally add original name
                 en_title_props['name'] = canonical_name # Add canonical name
                 en_title_props['label'] = entity_label_type
@@ -392,26 +289,26 @@ def kg_visualization(pmid_list: List[str], kg_dict: Dict[str, Dict[str, List[Any
 
         # Process relations using canonical names
         for rel in kg_dict[pmid].get('relations', []):
-            original_start_name = rel.startEntity.name
-            original_end_name = rel.endEntity.name
+            original_start_name = rel['startEntity']
+            original_end_name = rel['endEntity']
 
             # Get canonical names for relation endpoints
             canonical_start_name = entity_name_mapping.get(original_start_name, original_start_name)
             canonical_end_name = entity_name_mapping.get(original_end_name, original_end_name)
 
             # Use canonical names for relation tuple and processing
-            relation_tuple = (canonical_start_name, canonical_end_name, rel.name)
+            relation_tuple = (canonical_start_name, canonical_end_name, rel['name'])
 
             if relation_tuple not in relations_set:
                 relations_set.add(relation_tuple)
-                re_title = rel.properties_info.copy() # Copy properties
-                re_title['relationship'] = rel.name # Use a different key than 'edges' maybe?
+                re_title = rel['properties_info'].copy() # Copy properties
+                re_title['relationship'] = rel['name'] # Use a different key than 'edges' maybe?
 
 
                 relations_list.append({
                     "from": canonical_start_name, # Store canonical name temporarily
                     "to": canonical_end_name,   # Store canonical name temporarily
-                    "label": rel.name,
+                    "label": rel['name'],
                     "title": format_dict_to_html_br(re_title),
                     # "length": 300 # Length will be calculated later
                 })
