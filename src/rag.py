@@ -2,6 +2,7 @@ import pickle
 import logging
 import re
 import os
+import time
 import torch
 from FlagEmbedding import FlagReranker
 from llama_index.llms.gemini import Gemini
@@ -270,6 +271,23 @@ class RAGEngine:
         cleaned_text = re.sub(r"<think>.*?</think>", "", response, flags=re.DOTALL)
         return cleaned_text.strip()
     
+    def stream_tokens(self, context):
+        delay_char=0.01
+        tokens = re.split(r'(\s+)', context)
+        tokens = [t for t in tokens if t] # 过滤掉可能产生的空字符串
+
+        for token in tokens:
+            yield {
+                "type": "text",
+                "text": token
+            }
+            # 对实际的词语应用完整延迟，对空白符应用较短延迟或无延迟
+            if token.strip(): # 如果token不是纯空白
+                time.sleep(delay_char)
+            else:
+                time.sleep(delay_char / 5) # 空白符可以快一点
+        return
+    
     def _query(self, question):
         """执行查询"""
         if self.engine is None:
@@ -379,18 +397,34 @@ class RAGEngine:
                 context_ = highlight_segments_prioritized(
                     context, HighlightDocuments_dict
                 )
-            except:
-                logging.error(">>>Highlighting has some problem!")
+            except Exception as e:
+                logging.error(f">>>Highlighting has some problem! {e}")
                 context_ = context
             
             try:
+                #   self.stream_tokens(answer + "\n**Supporting literature**: " + ", ".join(sps).upper())
+                delay_char=0.01
+                tokens = re.split(r'(\s+)', answer + "\n**Supporting literature**: " + ", ".join(sps).upper())
+                tokens = [t for t in tokens if t] # 过滤掉可能产生的空字符串
+
+                for token in tokens:
+                    yield {
+                        "type": "text",
+                        "text": token
+                    }
+                    # 对实际的词语应用完整延迟，对空白符应用较短延迟或无延迟
+                    if token.strip(): # 如果token不是纯空白
+                        time.sleep(delay_char)
+                    else:
+                        time.sleep(delay_char / 5) # 空白符可以快一点
                 output_dict = {
                     "Question": question,
-                    "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
+                    # "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
                     "Supporting literature": sps,
                     "Context": context_,
                     "KG": self.query_kg(sps),
                 }
+                
                 logging.info(f"**Question:** {question}")
                 logging.info(f"**Answer:** {answer}")
                 logging.info(f"**Supporting literature:** {sps}")
@@ -399,11 +433,27 @@ class RAGEngine:
             
             except Exception as e:
                 logging.error(f"An error occurred while generating the output: {e}")
+                # self.stream_tokens(answer )
+                delay_char=0.01
+                tokens = re.split(r'(\s+)', answer)
+                tokens = [t for t in tokens if t] # 过滤掉可能产生的空字符串
+
+                for token in tokens:
+                    yield {
+                        "type": "text",
+                        "text": token
+                    }
+                    # 对实际的词语应用完整延迟，对空白符应用较短延迟或无延迟
+                    if token.strip(): # 如果token不是纯空白
+                        time.sleep(delay_char)
+                    else:
+                        time.sleep(delay_char / 5) # 空白符可以快一点
+                
                 yield {
                     "type": "result",
                     "data": {
                         "Question": question,
-                        "Answer": answer,
+                        # "Answer": answer,
                         "Supporting literature": sps,
                         "Context": context_,
                         "KG": None,

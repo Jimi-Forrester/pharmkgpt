@@ -76,8 +76,8 @@ def detect_all_entity_name(pmid_list: List, kg_dict: Dict[str, Dict]) -> Dict:
     keyword_dict = {}
     for pmid in pmid_list:
         for en in kg_dict[pmid]['entities']:
-            if en.label != "abstract":
-                keyword_dict[en.name] = en.label
+            if en['label'] != "abstract":
+                keyword_dict[en['name']] = en['label']
     return keyword_dict
 
 
