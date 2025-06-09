@@ -98,7 +98,11 @@ class RAGEngine:
         Settings.embed_model = emd
         
         logging.info("Loading index...")
-        sc = StorageContext.from_defaults(persist_dir=f"{self.data_root}/derilirum_index")
+        sc = StorageContext.from_defaults(
+            persist_dir=f"{self.data_root}/derilirum_index"
+            # persist_dir="/home/mindrank/fuli/mcq_generator/retrieval/benchmark_data2"
+            )
+        
         self.index = load_index_from_storage(sc)
         
         self.retriever = VectorIndexRetriever(
@@ -376,9 +380,9 @@ class RAGEngine:
                             "data": {
                                 "Question": question,
                                 "Answer": "Sorry, the initial answer I generated did not fully pass verification when checked against the reference documents. To ensure accuracy, I cannot provide a reliable answer right now.",
-                                "Supporting literature": None, # Or maybe provide sps but indicate failure?
-                                "Context": None,
-                                "KG": None,
+                                "Supporting literature": sps, # Or maybe provide sps but indicate failure?
+                                # "Context": None,
+                                # "KG": None,
                             }
                                     }
                     return # Stop the generator
@@ -386,43 +390,44 @@ class RAGEngine:
             except:
                 logging.info(">>>hallucination detect has some problem!")
             
-            # 高亮
-            yield {"type": "progress", "message": "Knowledge Retrieved.\nFacts Verified.\nGenerating Answer"}
+            # # 高亮
+            # yield {"type": "progress", "message": "Knowledge Retrieved.\nFacts Verified.\nGenerating Answer"}
             
-            logging.info(">>>>>Highlighting documents...>>>>>")
+            # logging.info(">>>>>Highlighting documents...>>>>>")
 
-            try:
-                HighlightDocuments_dict = self.entity_dict(sps)
+            # try:
+            #     HighlightDocuments_dict = self.entity_dict(sps)
 
-                context_ = highlight_segments_prioritized(
-                    context, HighlightDocuments_dict
-                )
-            except Exception as e:
-                logging.error(f">>>Highlighting has some problem! {e}")
-                context_ = context
+            #     context_ = highlight_segments_prioritized(
+            #         context, HighlightDocuments_dict
+            #     )
+            # except Exception as e:
+            #     logging.error(f">>>Highlighting has some problem! {e}")
+            #     context_ = context
             
             try:
                 #   self.stream_tokens(answer + "\n**Supporting literature**: " + ", ".join(sps).upper())
-                delay_char=0.01
-                tokens = re.split(r'(\s+)', answer + "\n**Supporting literature**: " + ", ".join(sps).upper())
-                tokens = [t for t in tokens if t] # 过滤掉可能产生的空字符串
+                # delay_char=0.01
+                # tokens = re.split(r'(\s+)', answer + "\n**Supporting literature**: " + ", ".join(sps).upper())
+                # tokens = [t for t in tokens if t] # 过滤掉可能产生的空字符串
 
-                for token in tokens:
-                    yield {
-                        "type": "text",
-                        "text": token
-                    }
-                    # 对实际的词语应用完整延迟，对空白符应用较短延迟或无延迟
-                    if token.strip(): # 如果token不是纯空白
-                        time.sleep(delay_char)
-                    else:
-                        time.sleep(delay_char / 5) # 空白符可以快一点
+                # for token in tokens:
+                #     yield {
+                #         "type": "text",
+                #         "text": token
+                #     }
+                #     # 对实际的词语应用完整延迟，对空白符应用较短延迟或无延迟
+                #     if token.strip(): # 如果token不是纯空白
+                #         time.sleep(delay_char)
+                #     else:
+                #         time.sleep(delay_char / 5) # 空白符可以快一点
                 output_dict = {
                     "Question": question,
                     # "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
+                    "Answer": answer,
                     "Supporting literature": sps,
-                    "Context": context_,
-                    "KG": self.query_kg(sps),
+                    # "Context": context_,
+                    # "KG": self.query_kg(sps),
                 }
                 
                 logging.info(f"**Question:** {question}")
@@ -434,62 +439,63 @@ class RAGEngine:
             except Exception as e:
                 logging.error(f"An error occurred while generating the output: {e}")
                 # self.stream_tokens(answer )
-                delay_char=0.01
-                tokens = re.split(r'(\s+)', answer)
-                tokens = [t for t in tokens if t] # 过滤掉可能产生的空字符串
+                # delay_char=0.01
+                # tokens = re.split(r'(\s+)', answer)
+                # tokens = [t for t in tokens if t] # 过滤掉可能产生的空字符串
 
-                for token in tokens:
-                    yield {
-                        "type": "text",
-                        "text": token
-                    }
-                    # 对实际的词语应用完整延迟，对空白符应用较短延迟或无延迟
-                    if token.strip(): # 如果token不是纯空白
-                        time.sleep(delay_char)
-                    else:
-                        time.sleep(delay_char / 5) # 空白符可以快一点
+                # for token in tokens:
+                #     yield {
+                #         "type": "text",
+                #         "text": token
+                #     }
+                #     # 对实际的词语应用完整延迟，对空白符应用较短延迟或无延迟
+                #     if token.strip(): # 如果token不是纯空白
+                #         time.sleep(delay_char)
+                #     else:
+                #         time.sleep(delay_char / 5) # 空白符可以快一点
                 
                 yield {
                     "type": "result",
                     "data": {
                         "Question": question,
-                        # "Answer": answer,
+                        "Answer": answer,
                         "Supporting literature": sps,
-                        "Context": context_,
-                        "KG": None,
+                        # "Context": context_,
+                        # "KG": None,
                     }
                 }
                 return
 
     def query(self, question):
         """查询"""
-        if is_likely_junk_input(question, self.ents):
-            yield {"type": "result", 
-                        "data":{
-                            "Question": question,
-                            "Answer": f"It looks like you entered some random characters:\n\n{question}\n\nThis doesn't seem to be a specific question or request.\n\nCould you please clarify what you need help with or ask your question again?",
-                            "Supporting literature": None,
-                            "Context":  None,
-                            "KG":  None,
-                            }
-                        }
+        # if is_likely_junk_input(question, self.ents):
+            
+        #     yield {"type": "result", 
+        #                 "data":{
+        #                     "Question": question,
+        #                     "Answer": f"It looks like you entered some random characters:\n\n{question}\n\nThis doesn't seem to be a specific question or request.\n\nCould you please clarify what you need help with or ask your question again?",
+        #                     "Supporting literature": None,
+        #                     "Context":  None,
+        #                     "KG":  None,
+        #                     }
+        #                 }
 
-        else:
-            try:
-                output_dict = self._query(question)
-                yield from self._query(question)
-            except Exception as e:
-                logging.info(f"the error is {e}")
-                output_dict = self._query(question)
-                yield {"type": "result", "data": output_dict}
-            except Exception as e:
-                logging.error(f"An error occurred during query: {e}")
-                yield {"type": "result", 
-                        "data":{
-                            "Question": None,
-                            "Answer": None,
-                            "Supporting literature": None,
-                            "Context":  None,
-                            "KG":  None,
-                            }
+        # else:
+        try:
+            output_dict = self._query(question)
+            yield from self._query(question)
+        except Exception as e:
+            logging.info(f"the error is {e}")
+            output_dict = self._query(question)
+            yield {"type": "result", "data": output_dict}
+        except Exception as e:
+            logging.error(f"An error occurred during query: {e}")
+            yield {"type": "result", 
+                    "data":{
+                        "Question": None,
+                        "Answer": None,
+                        "Supporting literature": None,
+                        "Context":  None,
+                        "KG":  None,
                         }
+                    }

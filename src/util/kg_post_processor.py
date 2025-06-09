@@ -381,7 +381,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         logging.info(f">>>>>> KGRetrieve output: {len(nodes)}")
         logging.info(f">>>>>> KGRetrieve output nodes: {[node.id_ for node in nodes if nodes]}")
         logging.info(f">>>>>> KGRetrieve output score: {[node.score for node in nodes if nodes]}")
-        
+        nodes = nodes[:10]
         return nodes
 
 class GraphFilterPostProcessor(BaseNodePostprocessor):
