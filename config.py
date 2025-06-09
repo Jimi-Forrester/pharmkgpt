@@ -8,7 +8,7 @@ print(f"Attempting to load .env from: {dotenv_path}")
 load_dotenv(dotenv_path=dotenv_path)
 
 
-DATA_ROOT = os.getenv("DATA_ROOT") # 容器内数据根目录
+DATA_ROOT = "/home/mindrank/fuli/delirium-rag/Data_v7_0509" # 容器内数据根目录
 RERANK_PATH= os.getenv("RERANKER_PATH")
 
 EMBED_MODEL = "nomic-embed-text:latest"

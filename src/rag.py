@@ -38,7 +38,7 @@ from src.kgvisual import kg_visualization
 from src.hightlight import detect_all_entity_name, format_docs, highlight_segments_prioritized, hallucination_test
 from src.hightlight import format_scientific_text_with_colon 
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+os.environ['CUDA_VISIBLE_DEVICES'] = '8'
 
 # --- 日志配置 ---
 logging.basicConfig(
