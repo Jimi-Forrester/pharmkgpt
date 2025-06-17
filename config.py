@@ -1,12 +1,8 @@
 import os
 from dotenv import load_dotenv
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-dotenv_path = os.path.join(script_dir, '.env')
-print(f"Attempting to load .env from: {dotenv_path}")
 
-load_dotenv(dotenv_path=dotenv_path)
-
+load_dotenv()
 
 DATA_ROOT = "/home/mindrank/fuli/delirium-rag/benchmark_data2" 
 RERANK_PATH= os.getenv("RERANKER_PATH")

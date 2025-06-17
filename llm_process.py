@@ -7,18 +7,13 @@ import os
 import re
 from tqdm import tqdm
 import logging
+from langchain_community.llms import Ollama
 
 
-engine = RAGEngine(
-    data_root="/home/mindrank/fuli/delirium-rag/benchmark_data2"
-)
-engine.setup_query_engine(
-    model_type='MindGPT',
-    api_key=None,
-    top_k=10,
-    hops=1,
-)
-
+llm = Ollama(
+            model = 'gemma3:27b',
+            timeout=60.0,
+            )
 
 def process_pmid(pmid_string):
     pmid_string = pmid_string.strip()  # 去除空格
@@ -53,33 +48,21 @@ def extract_specific_answer_option(text: str) -> str:
     return None
 
 
-with open(f'/home/mindrank/fuli/mcq_generator/QA_Data/pharmkgpt_answer_retrieve.json', 'r', encoding='utf-8') as f:
+with open(f'pharmkgpt_smi_answer.json', 'r', encoding='utf-8') as f:
     answer_dict = json.load(f)
-with open(f'/home/mindrank/fuli/mcq_generator/QA_Data/QA.json', 'r', encoding='utf-8') as f:
+with open(f'QA.json', 'r', encoding='utf-8') as f:
     QA_list = json.load(f)
     
 
 for group_name, group_dict in QA_list.items():
     for k, qa_dict in tqdm(group_dict.items()):
-        #if extract_specific_answer_option(answer_dict[group_name][k]['answer']) != qa_dict['correct_option']:
-            # print(qa_dict['options'])
-            # print(qa_dict['question'])
-            
-        response_generator = engine.query(
-            question= qa_dict['question'],
-            option= qa_dict['options']
-            )
-        
-        for data in response_generator:
-            if data['type'] == 'result':
-                print(k,data['data']['Answer'])
-                answer_dict[group_name][k] = {
-                    "question": qa_dict['question'],
-                    "answer": data['data']['Answer'],
-                    "pmid": data['data']['Supporting literature']
-                }
+        if extract_specific_answer_option(answer_dict[group_name][k]['answer']) != qa_dict['correct_option']:
+            print('id:', k)
+            answer = llm.invoke(
+                f"According to the content:\n question: {qa_dict['question']}\n{answer_dict[group_name][k]['answer']}\noption: {qa_dict['options']}, The correct answer should be:")
+            answer_dict[group_name][k]['answer'] =answer
 
-with open(f'pharmkgpt_answer.json', 'w', encoding='utf-8') as f:
+with open(f'pharmkgpt_smi_answer_porcess.json', 'w', encoding='utf-8') as f:
     json.dump(answer_dict, f, ensure_ascii=False, indent=4)
 
 

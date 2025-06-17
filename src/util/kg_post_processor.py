@@ -58,10 +58,10 @@ def has_pmid(text):
     return bool(match)
 
 # --- 日志配置 ---
-logging.basicConfig(
-    level=logging.INFO,  # 设置日志级别 (DEBUG, INFO, WARNING, ERROR, CRITICAL)
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",  # 设置日志格式
-)
+# logging.basicConfig(
+#     level=logging.info,  # 设置日志级别 (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+#     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",  # 设置日志格式
+# )
 
 import string
 def ngram_overlap(span,sent,n=3):
@@ -97,9 +97,9 @@ class NaivePostprocessor(BaseNodePostprocessor):
         """Postprocess nodes"""
         entity_order = {}
         sorted_nodes = []
-        logging.info("----------------NaivePostprocessor------------")
-        logging.info(f">>初始节点: {len(nodes)}")
-        logging.info(f"排序前的节点: {[i.id_ for i in nodes]}")
+        # logging.info("----------------NaivePostprocessor------------")
+        # logging.info(f">>初始节点: {len(nodes)}")
+        # logging.info(f"排序前的节点: {[i.id_ for i in nodes]}")
         for i, node in enumerate(nodes):
             node_id = node.node.id_
             ent = node_id
@@ -109,7 +109,7 @@ class NaivePostprocessor(BaseNodePostprocessor):
             sorted_nodes.append((ent,ctx_seq,node))
         sorted_nodes.sort(key=lambda x:(entity_order[x[0]],x[1]))
         sorted_nodes = [node for _,_,node in sorted_nodes]
-        logging.info(f"排序后的节点: {[i.id_ for i in sorted_nodes]}")
+        # logging.info(f"排序后的节点: {[i.id_ for i in sorted_nodes]}")
 
         prev_ent = ''
         for i in range(0,len(sorted_nodes)):
@@ -122,7 +122,7 @@ class NaivePostprocessor(BaseNodePostprocessor):
                     sorted_nodes[i].node.text += '\n'
             prev_ent = temp_ent
             
-        logging.info(f">> NaivePostprocessor output: {len(sorted_nodes)}")
+        # logging.info(f">> NaivePostprocessor output: {len(sorted_nodes)}")
         return sorted_nodes
     
 class KGRetrievePostProcessor(BaseNodePostprocessor):
@@ -150,7 +150,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
     ) -> List[NodeWithScore]: 
         query_context_embedding = query_bundle.embedding 
         
-        logging.info("------------KGRetrievePostProcessor------------")
+        # logging.info("------------KGRetrievePostProcessor------------")
         # top_k = len(nodes)
         top_k = self.top_k
         retrieved_ids = set()
@@ -159,7 +159,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         related_ents = set()
         textid2score = dict()
         
-        logging.info(">> 拿到初始节点信息")
+        # logging.info(">> 拿到初始节点信息")
         highly_related_ents = set()
         ent_count = dict()
         ent_score = dict()
@@ -189,11 +189,11 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
             highly_related_ents.add(sorted_ents[i])
 
                     
-        logging.info(f"** 初始节点: {retrieved_ents}")
-        logging.info(f"** 初始节点得分: {textid2score}")
-        logging.info(f"** highly_related_ents: {highly_related_ents}")
+        # logging.info(f"** 初始节点: {retrieved_ents}")
+        # logging.info(f"** 初始节点得分: {textid2score}")
+        # logging.info(f"** highly_related_ents: {highly_related_ents}")
         
-        logging.info(">>>>>>>>>>>>>> 检索初始节点相邻的节点，作为additional_ents")
+        # logging.info(">>>>>>>>>>>>>> 检索初始节点相邻的节点，作为additional_ents")
         
         additional_ents = set()
         
@@ -201,7 +201,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
             node_id = node.node.id_
             entity = node_id
             
-            logging.info(f">>>>>>>>>>>>>> 找初始节点{entity} 对应的 pmid")
+            # logging.info(f">>>>>>>>>>>>>> 找初始节点{entity} 对应的 pmid")
             if len(self.doc2kg[entity].keys()) > 50:
                 continue
             for idx_seq_str in self.doc2kg[entity]:
@@ -229,7 +229,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
                     combined_score = node.score*0.5 + similarity_score * 0.5
                     
                 ent_score[idx_seq_str] = max(ent_score.get(idx_seq_str, 0), combined_score)
-                logging.info(f"** {idx_seq_str}: {ent_score[idx_seq_str]}")
+                # logging.info(f"** {idx_seq_str}: {ent_score[idx_seq_str]}")
                 
                 
                 # for triplet in self.doc2kg[entity][idx_seq_str]:
@@ -271,7 +271,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
                 #         logging.info(f"** 尾实体{t}: {node.score*0.9} + {similarity_score * 0.1}")
         
         additional_ents = additional_ents.union(retrieved_ents)
-        logging.info(f"** additional_ents: {additional_ents}")
+        # logging.info(f"** additional_ents: {additional_ents}")
         
         
         # ----------------------多跳扩展----------------------
@@ -334,8 +334,8 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         for node in nodes:
             ent = node.node.id_
             if ent in self.chunks_index:
-                logging.info(f"** {ent}: {len(self.chunks_index[ent].keys())}")
-                logging.info(f"** {ent}: {self.chunks_index[ent].keys()}")
+                # logging.info(f"** {ent}: {len(self.chunks_index[ent].keys())}")
+                # logging.info(f"** {ent}: {self.chunks_index[ent].keys()}")
                 
                 if len(self.chunks_index[ent].keys()) > 50:
                     continue
@@ -343,15 +343,15 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
                 for idx_seq_str in self.chunks_index[ent]:
                     additional_ids.add(idx_seq_str)
                     if idx_seq_str in similarity_score_set:
-                        logging.info(f"similarity_score_set:{similarity_score_set}")
+                        # logging.info(f"similarity_score_set:{similarity_score_set}")
                         continue
                     else:
                         similarity_score_set.append(idx_seq_str)
                         textid2score[idx_seq_str] = ent_score[idx_seq_str]
-                        logging.info(f"**{idx_seq_str} score: {ent_score[idx_seq_str]}")
+                        # logging.info(f"**{idx_seq_str} score: {ent_score[idx_seq_str]}")
                     
 
-        logging.info(f"** additional_ids: {len(additional_ids)}")
+        # logging.info(f"** additional_ids: {len(additional_ids)}")
         
         logging.info(f">>>>> 通过初始节点找到新的节点")
         
@@ -371,7 +371,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
                     
         added_nodes = sorted(added_nodes,key=lambda x:x.score,reverse=True)
         # added_nodes = added_nodes[:10]
-        logging.info(f"**added_nodes: {[node.id_ for node in added_nodes]}")
+        # logging.info(f"**added_nodes: {[node.id_ for node in added_nodes]}")
         
         nodes = added_nodes
         nodes = [node for node in nodes if node.id_[:4].lower() == "pmid"]
@@ -405,21 +405,21 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         query_bundle: Optional[QueryBundle] = None,
     ) -> List[NodeWithScore]:
         """Postprocess nodes"""
-        logging.info("------------------GraphFilterPostprocessor------------------")
+        # logging.info("------------------GraphFilterPostprocessor------------------")
         
         ents = set()
         rels = set()
 
         g = nx.MultiGraph()
         
-        logging.info('>> 写入初始节点')
+        # logging.info('>> 写入初始节点')
         init_ent = []
         for node in nodes:
             ent = node.node.id_
             ents.add(ent)
             init_ent.append(ent)
             
-        logging.info(">> 开始构建子图")
+        # logging.info(">> 开始构建子图")
         for node in nodes:
             ent = node.node.id_
             idx_seq_str = node.node.id_
@@ -436,7 +436,7 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                 rels.add(r)
                 g.add_edge(h,t,rel=r,source=node.node.id_,weight=node.score)
 
-        logging.info(">> 找到与初始实体相邻切重叠度大于 0.9 的实体")
+        # logging.info(">> 找到与初始实体相邻切重叠度大于 0.9 的实体")
         mentioned_ents = set()
         mentioned_rels = set()
 
@@ -450,7 +450,7 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                 mentioned_rels.add(rel)
 
 
-        logging.info(">>>>>>> mentioned_rels 扩展")
+        # logging.info(">>>>>>> mentioned_rels 扩展")
         for node in nodes:
             ent = node.node.id_
             for idx_seq_str in self.doc2kg[ent]:
@@ -464,7 +464,7 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                     if (t in mentioned_ents) and (r in mentioned_rels) and (not h in mentioned_ents):
                         mentioned_ents.add(h)
 
-        logging.info(">>>>>> mentioned_ents_list 加入到图谱")
+        # logging.info(">>>>>> mentioned_ents_list 加入到图谱")
         mentioned_ents_list = list(mentioned_ents)
         for i in range(len(mentioned_ents_list)):
             for j in range(i+1,len(mentioned_ents_list)):
@@ -477,12 +477,12 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         sorted_wccs = sorted(wccs,key=len,reverse=True)
         cand_ctxs_lists = list()
         
-        logging.info(f"Total connected components: {len(wccs)}")
+        # logging.info(f"Total connected components: {len(wccs)}")
         MAX_CONTEXTS_PER_WCC = 4 # 定义每个 WCC 最多贡献多少 Context
 
         for i in range(len(sorted_wccs)):
             wcc = sorted_wccs[i]
-            logging.info(f"** Processing WCC {i} (size {len(wcc)}): {wcc}")
+            # logging.info(f"** Processing WCC {i} (size {len(wcc)}): {wcc}")
 
             cand_ctx_list_for_this_wcc = []
 
@@ -527,7 +527,7 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
             if cand_ctx_list_for_this_wcc: # Only add if we found contexts for this WCC
                 cand_ctxs_lists.append(cand_ctx_list_for_this_wcc)
 
-        logging.info(f"Final number of context lists: {len(cand_ctxs_lists)}")
+        # logging.info(f"Final number of context lists: {len(cand_ctxs_lists)}")
         cand_ids_lists = list()
         for cand_ctxs_list in cand_ctxs_lists:
             cand_ids_lists.append(cand_ctxs_list)
@@ -536,7 +536,7 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
         
         cand_tpts = []
         cand_strs = []
-        logging.info(f"cand_ids_lists: {cand_ids_lists}")
+        # logging.info(f"cand_ids_lists: {cand_ids_lists}")
         
         if len(cand_ids_lists) > 0:
             for cand_ids_list in cand_ids_lists:
@@ -561,66 +561,50 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
             wanted_nodes = [nodes[sorted_seqs[i]] for i in range(min(self.topk,len(sorted_seqs)))]
             return wanted_nodes
         
-        logging.info(">>>>>>> 根据得分reranker")
-        wanted_ctxs = []
-        scores = self.reranker.compute_score([(query_bundle.query_str,cand_str) for cand_str in cand_strs])
-        sorted_seqs = sorted(range(len(scores)),key=lambda x:scores[x],reverse=True)
-        
-        logging.info(f"** scores: {scores}")
-        logging.info(f"** sorted_seqs: {sorted_seqs}")
-        
-        # for seq in sorted_seqs:
-        #     logging.info(f"** seq: {seq}")
-        #     logging.info(f"** set(wanted_ctxs): {set(wanted_ctxs)}")
-        #     logging.info(f"** set(cand_ids_lists[seq]): {set(cand_ids_lists[seq])}")
-            
-        #     if len(set(wanted_ctxs)|set(cand_ids_lists[seq]))>self.topk:
-        #         logging.info(f"** {len(set(wanted_ctxs)|set(cand_ids_lists[seq]))} > self.topk")
-        #         break
-        #     wanted_ctxs.extend(cand_ids_lists[seq])
-        #     wanted_ctxs = list(set(wanted_ctxs))
+        # logging.info(">>>>>>> 根据得分reranker")
+        wanted_ctxs = set()
 
+        # 1. rerank cand_strs（来自cand_ids_lists）
+        scores = self.reranker.compute_score([
+            (query_bundle.query_str, cand_str) for cand_str in cand_strs
+        ])
+        sorted_seqs = sorted(range(len(scores)), key=lambda x: scores[x], reverse=True)
 
         for seq in sorted_seqs:
-            logging.info(f"** seq: {seq}")
-            logging.info(f"** set(wanted_ctxs): {set(wanted_ctxs)}")
-            logging.info(f"** set(cand_ids_lists[seq]): {set(cand_ids_lists[seq])}")
-            
-            new_ents = [eid for eid in cand_ids_lists[seq] if eid not in wanted_ctxs]
-            for eid in new_ents:
-                wanted_ctxs.append(eid)
+            for eid in cand_ids_lists[seq]:
+                if eid not in wanted_ctxs:
+                    wanted_ctxs.add(eid)
                 if len(wanted_ctxs) >= self.topk:
                     break
             if len(wanted_ctxs) >= self.topk:
                 break
-    
-    
-    
-        logging.info(f"** wanted_ctxs: {wanted_ctxs}")
-        
-        if len(wanted_ctxs) < max(1, self.topk // 2):
-            logging.info("**len(wanted_ctxs)<max(1, self.topk // 2)")
-            cands = [(query_bundle.query_str,node.node.text,) for node in nodes if node.node.id_ not in wanted_ctxs]
-            
-            if len(cands)>0:
-                scores = self.reranker.compute_score(cands)
-                
-                logging.info(f"** scores: {scores}")
-                sorted_seqs = sorted(range(len(scores)),key=lambda x:scores[x],reverse=True)
-                logging.info(f"** sorted_seqs: {sorted_seqs}")
-                
-                for seq in sorted_seqs[:self.topk]:
-                    logging.info(f"** seq: {seq}")
-                    logging.info(f"** nodes[seq].node.id_: {nodes[seq].node.id_}")
-                    if nodes[seq].node.id_ not in wanted_ctxs:
-                        wanted_ctxs.append(nodes[seq].node.id_)
-                        if len(wanted_ctxs)>=self.topk:
-                            break
-        
-        logging.info(f"wanted_ctxs:{wanted_ctxs}")
-        wanted_nodes = []
-        for node in nodes:
-            if node.node.id_ in wanted_ctxs:
-                wanted_nodes.append(node)
 
-        return wanted_nodes
+        # 2. 如果还不够 topk，尝试从原始 nodes 中按 reranker 得分补足
+        if len(wanted_ctxs) < self.topk:
+            # logging.info(f"补充节点，当前 wanted_ctxs 数量: {len(wanted_ctxs)}")
+            
+            remaining_nodes = [node for node in nodes if node.node.id_ not in wanted_ctxs]
+            if remaining_nodes:
+                scores = self.reranker.compute_score([
+                    (query_bundle.query_str, node.node.text) for node in remaining_nodes
+                ])
+                sorted_seqs = sorted(range(len(scores)), key=lambda x: scores[x], reverse=True)
+                for i in sorted_seqs:
+                    eid = remaining_nodes[i].node.id_
+                    if eid not in wanted_ctxs:
+                        wanted_ctxs.add(eid)
+                    if len(wanted_ctxs) >= self.topk:
+                        break
+
+        # 3. 最终保留 topk 节点
+        final_nodes = []
+        added = set()
+        for node in nodes:
+            if node.node.id_ in wanted_ctxs and node.node.id_ not in added:
+                final_nodes.append(node)
+                added.add(node.node.id_)
+            if len(final_nodes) >= self.topk:
+                break
+
+        logging.info(f"最终输出节点数量: {len(final_nodes)} / topk={self.topk}")
+        return final_nodes

@@ -10,7 +10,7 @@ from llama_index.llms.ollama import Ollama
 from llama_index.llms.openai import OpenAI
 from llama_index.core.postprocessor import SimilarityPostprocessor
 from langchain_community.llms import Ollama as lc_Ollama
-
+from llama_index.core.schema import QueryBundle
 from llama_index.core import Settings, PromptTemplate, StorageContext, load_index_from_storage
 from llama_index.core.retrievers import VectorIndexRetriever
 from llama_index.core.query_engine import RetrieverQueryEngine
@@ -42,7 +42,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '7'
 
 # --- 日志配置 ---
 logging.basicConfig(
-    level=logging.INFO,  # 设置日志级别 (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+    level=logging.info,  # 设置日志级别 (DEBUG, INFO, WARNING, ERROR, CRITICAL)
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",  # 设置日志格式
 )
 
@@ -99,15 +99,15 @@ class RAGEngine:
         
         logging.info("Loading index...")
         sc = StorageContext.from_defaults(
-            persist_dir=f"{self.data_root}/derilirum_index"
-            # persist_dir="/home/mindrank/fuli/mcq_generator/retrieval/benchmark_data2"
+            # persist_dir=f"{self.data_root}/derilirum_index"
+            persist_dir="/home/mindrank/fuli/mcq_generator/retrieval/benchmark_data2"
             )
         
         self.index = load_index_from_storage(sc)
         
         self.retriever = VectorIndexRetriever(
             index=self.index, 
-            similarity_top_k=20)
+            similarity_top_k=10)
 
         qa_rag_template_str = (
             "Context information is below.\n{context_str}\nQ: {query_str}\nA: "
@@ -127,12 +127,14 @@ class RAGEngine:
                 top_k,
                 hops=1,
                 model_map=MODEL_DICT,
+                option=None,
                 ):
         """初始化RAG引擎"""
         self.model_type=model_type
         self.api_key=api_key
         self.top_k=top_k
         self.hops=hops
+        self.option=option
     
         llm = None 
         self.llm = None
@@ -192,7 +194,8 @@ class RAGEngine:
 
 
         self.response_synthesizer = get_response_synthesizer(
-            response_mode=ResponseMode.COMPACT, text_qa_template=self.qa_rag_prompt_template
+            response_mode=ResponseMode.COMPACT, 
+            text_qa_template=self.qa_rag_prompt_template
         )
     
         # 基于pmid 和关系的图检索
@@ -223,13 +226,14 @@ class RAGEngine:
             retriever=self.retriever,
             response_synthesizer=self.response_synthesizer,
             node_postprocessors=[
-                kg_post_processor1,
-                kg_post_processor2,
-                Simpostprocessor,
+                # kg_post_processor1,
+                # kg_post_processor2,
+                # Simpostprocessor,
                 NaivePostprocessor(),
             ],
         )
         
+
         self._configured = True
         logging.info("RAG engine initialized successfully.")
         
@@ -292,14 +296,23 @@ class RAGEngine:
                 time.sleep(delay_char / 5) # 空白符可以快一点
         return
     
-    def _query(self, question):
-        """执行查询"""
+    def _query(self, question, option=None):
+        # 1. 检索
         if self.engine is None:
             raise Exception("RAG engine is not initialized.")
         
         yield {"type": "progress", "message": "Retrieving Knowledge"}
         
         response = None
+
+        new_summary_tmpl_str = (
+            f"Context information is below.\n{{context_str}}\nQuestion: {{query_str}}\nOptions: {option}\n Based on the contextual information provided above, please select the most appropriate answer options A./B./C./D.\nAnswer: "
+        )
+        new_summary_tmpl = PromptTemplate(new_summary_tmpl_str)
+        self.engine.update_prompts(
+            {"response_synthesizer:text_qa_template": new_summary_tmpl}
+        )
+
         try:
             response = self.engine.query(question)
 
@@ -343,130 +356,50 @@ class RAGEngine:
                 logging.info(s.node)
             
             answer = response.response
-            if self.model_type == "DeepSeek-R1":
-                answer = self.remove_deepseek_think(answer)
+        #     if self.model_type == "DeepSeek-R1":
+        #         answer = self.remove_deepseek_think(answer)
                 
-            sps = [source_node.node.id_ for source_node in response.source_nodes]
-            sps_score = [source_node.score for source_node in response.source_nodes]
-            context = {}
-            for s, _score in zip(sps, sps_score):
-                with open(f"{self.data_root}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
-                    text_line = f.readlines()
-                    title = self._remove_brackets(text_line[0].strip().split("|")[-1])
-                    abstract = text_line[1].strip().split("|")[-1]
-                    if 'BACKGROUND' in abstract:
-                        abstract = self.format_context(abstract)
-                context[s] = {"title": title, "abstract": abstract, "score": _score, "pmid": s.replace('pmid', '')}
-            
-            yield {"type": "progress", "message": "Knowledge Retrieved.\nVerifying Facts"}
-            
-            # 幻觉检测
-            logging.info(">>>hallucination detect>>>>>")
-            logging.info(f"answer: {answer}")
-            try:
-                faithfulness_score = hallucination_test(
-                    llm_model=self.llm,
-                    input_data={'documents':format_docs(context), "generation": answer}
-                ).Faithfulness_score
-                logging.info(f"Faithfulness_score: {faithfulness_score}")
-                if faithfulness_score <= 2:
-                    pass
-    
-                elif faithfulness_score == 3:
-                    answer +="\n While based on relevant documents, this answer might only partially address your specific query or could include details beyond the direct scope of the provided context."
-                else:
-                    yield {
-                            "type": "result", # Keep type result, content indicates failure
-                            "data": {
-                                "Question": question,
-                                "Answer": "Sorry, the initial answer I generated did not fully pass verification when checked against the reference documents. To ensure accuracy, I cannot provide a reliable answer right now.",
-                                "Supporting literature": sps, # Or maybe provide sps but indicate failure?
-                                # "Context": None,
-                                # "KG": None,
+        #     sps = [source_node.node.id_ for source_node in response.source_nodes]
+        #     sps_score = [source_node.score for source_node in response.source_nodes]
+        #     context = []
+        #     for s, _score in zip(sps, sps_score):
+        #         with open(f"{self.data_root}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
+        #             text_line = f.readlines()
+        #             title = self._remove_brackets(text_line[0].strip().split("|")[-1])
+        #             abstract = text_line[1].strip().split("|")[-1]
+        #             if 'BACKGROUND' in abstract:
+        #                 abstract = self.format_context(abstract)
+        #         context.append(f"pmid: {s.replace('pmid', '')}, title: {title}, abstract: {abstract}")
+                
+        # context = "\n".join(context)
+        sps = [source_node.node.id_ for source_node in response.source_nodes]
+        # 2. 构造 prompt
+        # prompt = (
+        #     "Given the following response and a set of Options, please answer the Query.\n"
+        #     "---------------------\n"
+        #     f"Response:\n{answer}\n"
+        #     "---------------------\n"
+        #     f"Options:\n{option}\n"
+        #     f"Query: {question}\n"
+        #     "---------------------\n"
+        #     "Please carefully analyze the Response and the Query. Select the single most accurate option (A/B/C/D)\n"
+        #     "Please format your answer as follows:\n"
+        #     "Correct Option: <A./B./C./D.>\n"
+        #     "Reason: <Your detailed explanation>\n"
+        # )
+        # # 3. 让 LLM 生成答案
+        # option = self.llm.predict(prompt)
+        yield {"type": "result", 
+                        "data":{
+                            "Question": question,
+                            "Answer": answer,
+                            # "option":option,
+                            "Supporting literature": sps,
                             }
-                                    }
-                    return # Stop the generator
+                        }
 
-            except:
-                logging.info(">>>hallucination detect has some problem!")
-            
-            # # 高亮
-            # yield {"type": "progress", "message": "Knowledge Retrieved.\nFacts Verified.\nGenerating Answer"}
-            
-            # logging.info(">>>>>Highlighting documents...>>>>>")
 
-            # try:
-            #     HighlightDocuments_dict = self.entity_dict(sps)
-
-            #     context_ = highlight_segments_prioritized(
-            #         context, HighlightDocuments_dict
-            #     )
-            # except Exception as e:
-            #     logging.error(f">>>Highlighting has some problem! {e}")
-            #     context_ = context
-            
-            try:
-                #   self.stream_tokens(answer + "\n**Supporting literature**: " + ", ".join(sps).upper())
-                # delay_char=0.01
-                # tokens = re.split(r'(\s+)', answer + "\n**Supporting literature**: " + ", ".join(sps).upper())
-                # tokens = [t for t in tokens if t] # 过滤掉可能产生的空字符串
-
-                # for token in tokens:
-                #     yield {
-                #         "type": "text",
-                #         "text": token
-                #     }
-                #     # 对实际的词语应用完整延迟，对空白符应用较短延迟或无延迟
-                #     if token.strip(): # 如果token不是纯空白
-                #         time.sleep(delay_char)
-                #     else:
-                #         time.sleep(delay_char / 5) # 空白符可以快一点
-                output_dict = {
-                    "Question": question,
-                    # "Answer": answer + "\n**Supporting literature**: " + ", ".join(sps).upper(),
-                    "Answer": answer,
-                    "Supporting literature": sps,
-                    # "Context": context_,
-                    # "KG": self.query_kg(sps),
-                }
-                
-                logging.info(f"**Question:** {question}")
-                logging.info(f"**Answer:** {answer}")
-                logging.info(f"**Supporting literature:** {sps}")
-                yield {"type": "result", "data": output_dict}
-                return
-            
-            except Exception as e:
-                logging.error(f"An error occurred while generating the output: {e}")
-                # self.stream_tokens(answer )
-                # delay_char=0.01
-                # tokens = re.split(r'(\s+)', answer)
-                # tokens = [t for t in tokens if t] # 过滤掉可能产生的空字符串
-
-                # for token in tokens:
-                #     yield {
-                #         "type": "text",
-                #         "text": token
-                #     }
-                #     # 对实际的词语应用完整延迟，对空白符应用较短延迟或无延迟
-                #     if token.strip(): # 如果token不是纯空白
-                #         time.sleep(delay_char)
-                #     else:
-                #         time.sleep(delay_char / 5) # 空白符可以快一点
-                
-                yield {
-                    "type": "result",
-                    "data": {
-                        "Question": question,
-                        "Answer": answer,
-                        "Supporting literature": sps,
-                        # "Context": context_,
-                        # "KG": None,
-                    }
-                }
-                return
-
-    def query(self, question):
+    def query(self, question, option=None):
         """查询"""
         # if is_likely_junk_input(question, self.ents):
             
@@ -482,11 +415,11 @@ class RAGEngine:
 
         # else:
         try:
-            output_dict = self._query(question)
-            yield from self._query(question)
+            output_dict = self._query(question, option=option)
+            yield from self._query(question, option=option)
         except Exception as e:
             logging.info(f"the error is {e}")
-            output_dict = self._query(question)
+            output_dict = self._query(question, option=option)
             yield {"type": "result", "data": output_dict}
         except Exception as e:
             logging.error(f"An error occurred during query: {e}")
@@ -499,3 +432,4 @@ class RAGEngine:
                         "KG":  None,
                         }
                     }
+

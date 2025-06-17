@@ -53,33 +53,28 @@ def extract_specific_answer_option(text: str) -> str:
     return None
 
 
-with open(f'/home/mindrank/fuli/mcq_generator/QA_Data/pharmkgpt_answer_retrieve.json', 'r', encoding='utf-8') as f:
-    answer_dict = json.load(f)
+
 with open(f'/home/mindrank/fuli/mcq_generator/QA_Data/QA.json', 'r', encoding='utf-8') as f:
     QA_list = json.load(f)
     
-
+answer_dict = {}
 for group_name, group_dict in QA_list.items():
+    answer_dict[group_name] = {}
     for k, qa_dict in tqdm(group_dict.items()):
-        #if extract_specific_answer_option(answer_dict[group_name][k]['answer']) != qa_dict['correct_option']:
-            # print(qa_dict['options'])
-            # print(qa_dict['question'])
-            
         response_generator = engine.query(
-            question= qa_dict['question'],
+            question= f"{qa_dict['question']} select the best answer from the following options",
             option= qa_dict['options']
             )
         
         for data in response_generator:
             if data['type'] == 'result':
-                print(k,data['data']['Answer'])
                 answer_dict[group_name][k] = {
                     "question": qa_dict['question'],
                     "answer": data['data']['Answer'],
                     "pmid": data['data']['Supporting literature']
                 }
 
-with open(f'pharmkgpt_answer.json', 'w', encoding='utf-8') as f:
+with open(f'pharmkgpt_smi_answer2.json', 'w', encoding='utf-8') as f:
     json.dump(answer_dict, f, ensure_ascii=False, indent=4)
 
 
