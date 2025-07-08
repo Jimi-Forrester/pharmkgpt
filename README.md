@@ -63,7 +63,7 @@ tar -zxvf bge-reranker-large.tar.gz
 
 ```sh
 # Extract the delirium data (latest version)
-tar -zxvf Data_v5.tar.gz
+tar -zxvf Data_v7_0509.tar.gz
 ```
 *Use `Data_v5` for the full dataset*
 
@@ -71,48 +71,7 @@ tar -zxvf Data_v5.tar.gz
 
 Choose either Docker or Local setup.
 
-### 2.1 Docker (Recommended)
-
-1.  **Build Image:**
-    ```sh
-    docker build -t mindresilience:v1 .
-    ```
-
-2.  **Run Container (using Full Data):**
-    ```sh
-    # Adjust volume paths (-v) to match your local machine
-    docker run -d -p 5000:5000 \
-        -v "/path/to/your/Data_v5:/app/data" \
-        -v "/path/to/your/bge-reranker-large:/app/bge-reranker-large" \
-        -e OLLAMA_BASE_URL="http://host.docker.internal:11434" \
-        --name mindresilience-app mindresilience:v1
-    ```
-
-3.  **Configure Model (Optional, sets defaults):**
-    ```sh
-    curl -X GET http://localhost:5000/
-
-    curl -X POST http://localhost:5000/api/update_config \
-         -H "Content-Type: application/json" \
-         -d '{
-               "model_type": "gemma3",
-               "api_key": "NA",
-               "top_k": 5,
-               "hops": 1
-             }'
-
-    curl -X GET http://localhost:5001
-    ```
-
-4.  **Query:**
-    ```sh
-    curl -X POST http://localhost:5000/api/query \
-         -H "Content-Type: application/json" \
-         -d '{"question": "What are the main symptoms of delirium?"}' \
-         -N
-    ```
-
-### 2.2 Local (Conda)
+### 2.1 Local (Conda)
 
 1.  **Create Environment & Install Dependencies:**
     ```sh
@@ -132,8 +91,8 @@ Choose either Docker or Local setup.
     RERANKER_PATH=/path/to/your/bge-reranker-large
 
     # Path to the root directory of the dataset you want to use
-    # Example: /path/to/your/Data_v5 or /path/to/your/Data_test_v4
-    DATA_ROOT=/path/to/your/Data_v5
+    # Example: /path/to/your/Data_v7_0509 or /path/to/your/Data_test_v4
+    DATA_ROOT=/path/to/your/Data
     ```
 
 3.  **Run the Application Servers:**
@@ -177,17 +136,3 @@ To run the automated tests:
     pytest test/test_QA.py
     ```
 
-## Data Version History
-
-This project uses different versions of datasets. Here's a summary:
-
-*   **Data_v1:** Initial version used for basic demo functionality.
-*   **Data_v2:** Version with entries containing empty abstracts removed.
-*   **Data_v3:** Refactored data structure. (Deprecated due to retrieval issues).
-*   **Data_v4:** Rebuilt based on the v2 structure; serves as the primary dataset for QA functionality.
-*   **Data_test_v4:** A smaller dataset matching the `Data_v4` structure, intended for testing purposes.
-*   **Data_v5:** Contains approximately 150,000 literature abstracts focused on Alzheimer's Disease (AD) and delirium, primarily intended for Knowledge Graph (KG) construction. Last updated: April 9, 2025.
-
-## Release History
-
-*   **v0.1.0** (2025-04-11): Initial public pre-release. Functionality may be unstable.
