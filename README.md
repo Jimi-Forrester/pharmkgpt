@@ -23,8 +23,7 @@ To combat the issue of large language model "hallucinations" in specialized fiel
     *   [1.2 Download Reranker Model](#12-download-reranker-model)
     *   [1.3 Prepare Data](#13-prepare-data)
 2.  [Setup & Run](#2-setup--run)
-    *   [2.1 Docker (Recommended)](#21-docker-recommended)
-    *   [2.2 Local (Conda)](#22-local-conda)
+    *   [2.2 Local (Conda)](#21-local-conda)
 3.  [Test](#3-test)
 4.  [Data Version History](#4-data-version-history)
 
