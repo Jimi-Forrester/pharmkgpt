@@ -64,7 +64,7 @@ tar -zxvf bge-reranker-large.tar.gz
 # Extract the delirium data (latest version)
 tar -zxvf Data_v7_0509.tar.gz
 ```
-*Use `Data_v5` for the full dataset*
+*Use `Data_v7_0509` for the full dataset*
 
 ## 2. Setup & Run
 
