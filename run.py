@@ -2,7 +2,7 @@ from src.rag import RAGEngine
 
 
 engine = RAGEngine(
-    data_root="/home/mindrank/fuli/delirium-rag/Data_test_v4"
+    data_root="/home/mindrank/fuli/delirium-rag/benchmark_data2"
 )
 engine.setup_query_engine(
     model_type='gemma3',
@@ -11,7 +11,7 @@ engine.setup_query_engine(
     hops=1,
 )
 
-response_generator = engine.query("How does kynurenic acid contribute to dilirium?")
+response_generator = engine.query("Did the patient experience symptoms resembling delirium after receiving low-dose cyclophosphamide chemotherapy?")
 collected_results_loop = []
 for piece in response_generator:
     collected_results_loop.append(piece)
