@@ -2,7 +2,7 @@ from src.rag import RAGEngine
 
 
 engine = RAGEngine(
-    data_root="/home/mindrank/fuli/delirium-rag/benchmark_data2"
+    data_root="/home/mindrank/fuli/delirium-rag/benchmark_data2",
 )
 engine.setup_query_engine(
     model_type='gemma3',
