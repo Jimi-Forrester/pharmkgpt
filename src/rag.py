@@ -99,15 +99,15 @@ class RAGEngine:
         
         logging.info("Loading index...")
         sc = StorageContext.from_defaults(
-            # persist_dir=f"{self.data_root}/derilirum_index"
-            persist_dir="/home/mindrank/fuli/mcq_generator/retrieval/benchmark_data2"
+            persist_dir=f"{self.data_root}/derilirum_index"
+            # persist_dir="/home/mindrank/fuli/mcq_generator/retrieval/benchmark_data2"
             )
         
         self.index = load_index_from_storage(sc)
         
         self.retriever = VectorIndexRetriever(
             index=self.index, 
-            similarity_top_k=10)
+            similarity_top_k=20)
 
         qa_rag_template_str = (
             "Context information is below.\n{context_str}\nQ: {query_str}\nA: "
@@ -205,12 +205,12 @@ class RAGEngine:
             chunks_index=self.chunks_index,
             chunk_index_embed=self.chunk_index_embed,
             hops=hops,
-            top_k=top_k,
+            top_k=10,
         )
         
         # 基于节点和 query 覆盖率的图过滤
         kg_post_processor2 = GraphFilterPostProcessor(
-            topk=top_k,
+            topk=10,
             ents=self.ents,
             doc2kg=self.doc2kg,
             use_tpt=True,
@@ -226,9 +226,9 @@ class RAGEngine:
             retriever=self.retriever,
             response_synthesizer=self.response_synthesizer,
             node_postprocessors=[
-                # kg_post_processor1,
-                # kg_post_processor2,
-                # Simpostprocessor,
+                kg_post_processor1,
+                kg_post_processor2,
+                Simpostprocessor,
                 NaivePostprocessor(),
             ],
         )
@@ -306,8 +306,27 @@ class RAGEngine:
         response = None
 
         new_summary_tmpl_str = (
-            f"Context information is below.\n{{context_str}}\nQuestion: {{query_str}}\nOptions: {option}\n Based on the contextual information provided above, please select the most appropriate answer options A./B./C./D.\nAnswer: "
+            f"""Please refer to the following context to answer the question below.
+
+            Context:
+            {{context_str}}
+
+            Question:
+            {{query_str}}
+
+            Options:
+            {option}
+            
+            # Instruction:
+            First, identify the most relevant portion of the context that directly addresses the question.
+            Then, based on this relevant portion, choose the best answer from the options.
+
+            # Output Format
+            <Correct Answer>: [A/B/C/D]
+            <Why>: [Provide a brief explanation grounded in the context]
+            """
         )
+        
         new_summary_tmpl = PromptTemplate(new_summary_tmpl_str)
         self.engine.update_prompts(
             {"response_synthesizer:text_qa_template": new_summary_tmpl}

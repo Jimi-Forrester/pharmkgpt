@@ -24,36 +24,52 @@ def process_pmid(pmid_string):
     pmid_string = pmid_string.strip()  # 去除空格
     return [s.replace("pmid", "") for s in pmid_string.split(", ")]
     
+import re
+
 def extract_specific_answer_option(text: str) -> str:
     """
-    从文本中提取表示答案选项的单个大写字母 (A, B, C, 或 D)。
-    具有不同的优先级来处理不同格式的答案指示。
+    从文本中提取单个大写字母选项 (A, B, C, 或 D)，优先处理 'Answer:' 和 'Answer is' 等格式。
+    只使用 '</think>' 标签之后的部分作为有效输入。
+    匹配顺序如下：
+    1. 'Answer:' 后的选项
+    2. 'Answer is' 后的选项
+    3. 显式描述句式（例如 'the correct option is'）
+    4. 格式如 A.、B:、C)
+    5. 独立大写选项字母
     """
-    answer_prefix_pattern = r"(?i)\bAnswer(?: is)?\s*[:\s]*\W*([A-D])(?:[\.:\s]|\b)"
-    match = re.search(answer_prefix_pattern, text)
-    if match:
-        return match.group(1)
 
-    explicit_phrase_pattern = r"(?i)(?:the answer is|the correct option is|option is|the choice is|choice is|is:)\s+\W*([A-D])(?:[\.:\s]|\b)"
-    match = re.search(explicit_phrase_pattern, text)
-    if match:
-        return match.group(1)
+    # Step 0: 仅保留 </think> 后的文本（若存在）
+    # if "</think>" in text:
+    #     text = text.split("</think>", 1)[-1].strip()
 
-    general_pattern = r"(?<![A-Za-z0-9])\W*([A-D])[\.:](?![A-Za-z0-9])"
-    match = re.search(general_pattern, text)
+    # Priority 1: 明确的 "Answer:"
+    match = re.search(r"(?i)\bCorrect Answer\s*>:\s*\W*([A-D])\b", text)
     if match:
-        return match.group(1)
+        return match.group(1).upper()
 
-    # Priority 4: 单独的大写字母 A, B, C, 或 D (作为一个完整的词，前后是单词边界)
-    standalone_letter_pattern = r"\b([A-D])\b"
-    match = re.search(standalone_letter_pattern, text)
+    # Priority 2: "Answer is" 或 "Answer is:"
+    match = re.search(r"(?i)\bAnswer\s+is\s*[:\-]?\s*\W*([A-D])\b", text)
     if match:
-        return match.group(1)
-        
+        return match.group(1).upper()
+
+    # Priority 3: 显式描述
+    match = re.search(r"(?i)\b(?:the answer is|the correct option is|option is|the choice is|choice is|is)\s*[:\-]?\s*\W*([A-D])\b", text)
+    if match:
+        return match.group(1).upper()
+
+    # Priority 4: 常见格式 A. B: C)
+    match = re.search(r"(?<![A-Za-z0-9])\b([A-D])[\.:)](?![A-Za-z0-9])", text)
+    if match:
+        return match.group(1).upper()
+
+    # Priority 5: 独立的大写选项字母
+    match = re.search(r"\b([A-D])\b", text)
+    if match:
+        return match.group(1).upper()
+
     return None
 
-
-with open(f'/home/mindrank/fuli/mcq_generator/QA_Data/pharmkgpt_answer_retrieve.json', 'r', encoding='utf-8') as f:
+with open(f'/home/mindrank/fuli/delirium-rag/pharmkgpt_answer_processor1_and_2_path_DR_gemma3.json', 'r', encoding='utf-8') as f:
     answer_dict = json.load(f)
 with open(f'/home/mindrank/fuli/mcq_generator/QA_Data/QA.json', 'r', encoding='utf-8') as f:
     QA_list = json.load(f)
@@ -61,28 +77,21 @@ with open(f'/home/mindrank/fuli/mcq_generator/QA_Data/QA.json', 'r', encoding='u
 
 for group_name, group_dict in QA_list.items():
     for k, qa_dict in tqdm(group_dict.items()):
-        #if extract_specific_answer_option(answer_dict[group_name][k]['answer']) != qa_dict['correct_option']:
-            # print(qa_dict['options'])
-            # print(qa_dict['question'])
-            
-        response_generator = engine.query(
-            question= qa_dict['question'],
-            option= qa_dict['options']
-            )
+        # if extract_specific_answer_option(answer_dict[group_name][k]['answer']) != qa_dict['correct_option']:
+        if extract_specific_answer_option(answer_dict[group_name][k]['answer']) == None:
+            response_generator = engine.query(
+                question= qa_dict['question'],
+                option= qa_dict['options']
+                )
         
-        for data in response_generator:
-            if data['type'] == 'result':
-                print(k,data['data']['Answer'])
-                answer_dict[group_name][k] = {
-                    "question": qa_dict['question'],
-                    "answer": data['data']['Answer'],
-                    "pmid": data['data']['Supporting literature']
-                }
+            for data in response_generator:
+                if data['type'] == 'result':
+                    print('Answer:\n', data['data']['Answer'])
+                    answer_dict[group_name][k]['answer'] = data['data']['Answer']
 
-with open(f'pharmkgpt_answer.json', 'w', encoding='utf-8') as f:
+
+with open(f'pharmkgpt_answer_processor1_and_2_path_DR_gemma3_change_prompt.json', 'w', encoding='utf-8') as f:
     json.dump(answer_dict, f, ensure_ascii=False, indent=4)
-
-
 
 
 
