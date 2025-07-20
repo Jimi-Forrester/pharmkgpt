@@ -48,32 +48,32 @@ def extract_specific_answer_option(text: str) -> str:
         return match.group(1).upper()
 
     # Priority 2: "Answer is" 或 "Answer is:"
-    match = re.search(r"(?i)\bAnswer\s+is\s*[:\-]?\s*\W*([A-D])\b", text)
-    if match:
-        return match.group(1).upper()
+    # match = re.search(r"(?i)\bAnswer\s+is\s*[:\-]?\s*\W*([A-D])\b", text)
+    # if match:
+    #     return match.group(1).upper()
 
-    # Priority 3: 显式描述
-    match = re.search(r"(?i)\b(?:the answer is|the correct option is|option is|the choice is|choice is|is)\s*[:\-]?\s*\W*([A-D])\b", text)
-    if match:
-        return match.group(1).upper()
+    # # Priority 3: 显式描述
+    # match = re.search(r"(?i)\b(?:the answer is|the correct option is|option is|the choice is|choice is|is)\s*[:\-]?\s*\W*([A-D])\b", text)
+    # if match:
+    #     return match.group(1).upper()
 
-    # Priority 4: 常见格式 A. B: C)
-    match = re.search(r"(?<![A-Za-z0-9])\b([A-D])[\.:)](?![A-Za-z0-9])", text)
-    if match:
-        return match.group(1).upper()
+    # # Priority 4: 常见格式 A. B: C)
+    # match = re.search(r"(?<![A-Za-z0-9])\b([A-D])[\.:)](?![A-Za-z0-9])", text)
+    # if match:
+    #     return match.group(1).upper()
 
-    # Priority 5: 独立的大写选项字母
-    match = re.search(r"\b([A-D])\b", text)
-    if match:
-        return match.group(1).upper()
+    # # Priority 5: 独立的大写选项字母
+    # match = re.search(r"\b([A-D])\b", text)
+    # if match:
+    #     return match.group(1).upper()
 
     return None
 
-with open(f'/home/mindrank/fuli/delirium-rag/pharmkgpt_answer_processor1_and_2_path_DR_gemma3.json', 'r', encoding='utf-8') as f:
+with open(f'/home/mindrank/fuli/delirium-rag/pharmkgpt_answer_processor1_and_2_path_DR_gemma3_only_answer.json', 'r', encoding='utf-8') as f:
     answer_dict = json.load(f)
+    
 with open(f'/home/mindrank/fuli/mcq_generator/QA_Data/QA.json', 'r', encoding='utf-8') as f:
     QA_list = json.load(f)
-    
 
 for group_name, group_dict in QA_list.items():
     for k, qa_dict in tqdm(group_dict.items()):
@@ -89,11 +89,8 @@ for group_name, group_dict in QA_list.items():
                     print('Answer:\n', data['data']['Answer'])
                     answer_dict[group_name][k]['answer'] = data['data']['Answer']
 
-
-with open(f'pharmkgpt_answer_processor1_and_2_path_DR_gemma3_change_prompt.json', 'w', encoding='utf-8') as f:
+with open(f'pharmkgpt_answer_processor1_and_2_path_DR_gemma3_only_answer_fix_2.json', 'w', encoding='utf-8') as f:
     json.dump(answer_dict, f, ensure_ascii=False, indent=4)
-
-
 
 
 # response_generator = engine.query(
