@@ -1,3 +1,4 @@
+from sympy import group
 from src.rag import RAGEngine
 
 
@@ -75,21 +76,45 @@ with open(f'/home/mindrank/fuli/delirium-rag/pharmkgpt_answer_processor1_and_2_p
 with open(f'/home/mindrank/fuli/mcq_generator/QA_Data/QA.json', 'r', encoding='utf-8') as f:
     QA_list = json.load(f)
 
+answer_dict = {}
+
+
 for group_name, group_dict in QA_list.items():
+    answer_dict[group_name] = {}
     for k, qa_dict in tqdm(group_dict.items()):
         # if extract_specific_answer_option(answer_dict[group_name][k]['answer']) != qa_dict['correct_option']:
-        if extract_specific_answer_option(answer_dict[group_name][k]['answer']) == None:
-            response_generator = engine.query(
-                question= qa_dict['question'],
-                option= qa_dict['options']
-                )
+        #if extract_specific_answer_option(answer_dict[group_name][k]['answer']) == None:
+        # if QA_list[group_name][k]["pmid"] in qa_dict['pmid'] and extract_specific_answer_option(answer_dict[group_name][k]['answer']) == None:
+        response_generator = engine.query(
+            question= qa_dict['question'],
+            option= qa_dict['options']
+            )
         
-            for data in response_generator:
-                if data['type'] == 'result':
-                    print('Answer:\n', data['data']['Answer'])
+        answer_dict[group_name][k] = {
+            'question': qa_dict['question'],
+            'options': qa_dict['options'],
+            'pmid': qa_dict['pmid'],
+            'answer': None
+        }
+        
+        for data in response_generator:
+            if data['type'] == 'result':
+                if extract_specific_answer_option(data['data']['Answer']) == None:
+                    response_generator = engine.query(
+                        question= qa_dict['question'],
+                        option= qa_dict['options']
+                        )
+                    for data in response_generator:
+                        if data['type'] == 'result':
+                            answer_dict[group_name][k]['answer'] = data['data']['Answer']
+                            answer_dict[group_name][k]['pmid'] = data['data']['Supporting literature']
+                            answer_dict[group_name][k]['pharmkgpt_option'] = extract_specific_answer_option(data['data']['Answer'])
+                else:
                     answer_dict[group_name][k]['answer'] = data['data']['Answer']
+                    answer_dict[group_name][k]['pmid'] = data['data']['Supporting literature']
+                    answer_dict[group_name][k]['pharmkgpt_option'] = extract_specific_answer_option(data['data']['Answer'])
 
-with open(f'pharmkgpt_answer_processor1_and_2_path_DR_gemma3_only_answer_fix_2.json', 'w', encoding='utf-8') as f:
+with open(f'pharmkgpt_processor1_and_2_gemma3.json', 'w', encoding='utf-8') as f:
     json.dump(answer_dict, f, ensure_ascii=False, indent=4)
 
 

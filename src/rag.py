@@ -210,7 +210,7 @@ class RAGEngine:
         
         # 基于节点和 query 覆盖率的图过滤
         kg_post_processor2 = GraphFilterPostProcessor(
-            topk=3,
+            topk=10,
             ents=self.ents,
             doc2kg=self.doc2kg,
             use_tpt=True,
