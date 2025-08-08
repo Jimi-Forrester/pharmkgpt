@@ -16,4 +16,5 @@ MODEL_DICT = {
     "MindGPT": "gemma3:27b",
     "llama2-7b": "llama2:7b",
     "llama3-8b": "llama3:8b",
+    "VLLM": "/home/mindrank/fuli/DS-32B",
 }

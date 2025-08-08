@@ -4,10 +4,12 @@ import re
 import os
 import time
 import torch
+from openai import OpenAI as OpenAI_
 from FlagEmbedding import FlagReranker
 from llama_index.llms.gemini import Gemini
 from llama_index.llms.ollama import Ollama
 from llama_index.llms.openai import OpenAI
+from llama_index.llms.vllm import VllmServer
 from llama_index.core.postprocessor import SimilarityPostprocessor
 from langchain_community.llms import Ollama as lc_Ollama
 from llama_index.core.schema import QueryBundle
@@ -159,6 +161,29 @@ class RAGEngine:
                 temperature=0,
                 max_retries=2
                 )
+        elif model_type == "VLLM":
+            logging.info("Initializing VLLM...")
+            llm = VllmServer(
+                api_url="http://localhost:8102/v1/completions",
+                max_new_tokens=20000,
+            )
+            self.client = OpenAI_(
+                # defaults to os.environ.get("OPENAI_API_KEY")
+                api_key="empty",
+                base_url="http://localhost:8102/v1",
+            )
+
+
+            completion = self.client.completions.create(
+                    model="/home/mindrank/fuli/DS-32B",
+                    prompt="Hi",
+                    echo=False,
+                    n=2,
+                    stream=False,
+                    logprobs=3,
+                )
+            print(completion.choices[0].text)
+
 
         elif model_type in MODEL_DICT:
             logging.info(f"Initializing {model_type}...")
@@ -185,11 +210,9 @@ class RAGEngine:
                 base_url = self.ollama_url,
                 timeout=60.0,
             )
-            
-        self.llm.invoke("hello world!")
+            self.llm.invoke("hello world!")
 
         llm.complete("hello world!")
-        
         Settings.llm =llm
 
 
@@ -318,12 +341,10 @@ class RAGEngine:
             {option}
             
             # Instruction:
-            First, identify the most relevant portion of the context that directly addresses the question.
-            Then, based on this relevant portion, choose the best answer from the options.
-
-            # Output Format
-            <Correct Answer>: [A/B/C/D]
-            <Why>: [Provide a brief explanation grounded in the context]
+            Think step by step.
+            You MUST follow this output format exactly:
+            <Correct Option>: [The single correct option letter. For example: A]
+            <Why>: [A brief explanation based only on the provided context]
             """
         )
         
@@ -375,8 +396,8 @@ class RAGEngine:
                 logging.info(s.node)
             
             answer = response.response
-        #     if self.model_type == "DeepSeek-R1":
-        #         answer = self.remove_deepseek_think(answer)
+            if self.model_type == "DeepSeek-R1":
+                answer = self.remove_deepseek_think(answer)
                 
         #     sps = [source_node.node.id_ for source_node in response.source_nodes]
         #     sps_score = [source_node.score for source_node in response.source_nodes]
@@ -392,6 +413,7 @@ class RAGEngine:
                 
         # context = "\n".join(context)
         sps = [source_node.node.id_ for source_node in response.source_nodes]
+        score = [source_node.score for source_node in response.source_nodes]
         # 2. 构造 prompt
         # prompt = (
         #     "Given the following response and a set of Options, please answer the Query.\n"
@@ -409,12 +431,13 @@ class RAGEngine:
         # # 3. 让 LLM 生成答案
         # option = self.llm.predict(prompt)
         yield {"type": "result", 
-                        "data":{
-                            "Question": question,
-                            "Answer": answer,
-                            # "option":option,
-                            "Supporting literature": sps,
-                            }
+                "data":{
+                    "Question": question,
+                    "Answer": answer,
+                    "score": score,
+                    # "option":option,
+                    "Supporting literature": sps,
+                    }
                         }
 
 
