@@ -40,7 +40,7 @@ from src.kgvisual import kg_visualization
 from src.hightlight import detect_all_entity_name, format_docs, highlight_segments_prioritized, hallucination_test
 from src.hightlight import format_scientific_text_with_colon 
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '7'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 # --- 日志配置 ---
 logging.basicConfig(
@@ -109,7 +109,7 @@ class RAGEngine:
         
         self.retriever = VectorIndexRetriever(
             index=self.index, 
-            similarity_top_k=20)
+            similarity_top_k=10)
 
         qa_rag_template_str = (
             "Context information is below.\n{context_str}\nQ: {query_str}\nA: "
@@ -180,9 +180,9 @@ class RAGEngine:
                     echo=False,
                     n=2,
                     stream=False,
-                    logprobs=3,
+                    # logprobs=3,
                 )
-            print(completion.choices[0].text)
+
 
 
         elif model_type in MODEL_DICT:
@@ -328,30 +328,29 @@ class RAGEngine:
         
         response = None
 
-        new_summary_tmpl_str = (
-            f"""Please refer to the following context to answer the question below.
+        # new_summary_tmpl_str = (
+        #     f"""
+        #     Based on the context provided, choose the correct answer (A, B, C, or D) based only on the given context.
 
-            Context:
-            {{context_str}}
+        #     Context:
+        #     {{context_str}}
 
-            Question:
-            {{query_str}}
+        #     Question:
+        #     {{query_str}}
 
-            Options:
-            {option}
+        #     Options:
+        #     {option}
             
-            # Instruction:
-            Think step by step.
-            You MUST follow this output format exactly:
-            <Correct Option>: [The single correct option letter. For example: A]
-            <Why>: [A brief explanation based only on the provided context]
-            """
-        )
+        #     You MUST follow this output format exactly:
+        #     <Correct Option>: [The single correct option letter. For example: A]
+        #     <Why>: [A brief explanation based only on the provided context]
+        #     """
+        # )
         
-        new_summary_tmpl = PromptTemplate(new_summary_tmpl_str)
-        self.engine.update_prompts(
-            {"response_synthesizer:text_qa_template": new_summary_tmpl}
-        )
+        # new_summary_tmpl = PromptTemplate(new_summary_tmpl_str)
+        # self.engine.update_prompts(
+        #     {"response_synthesizer:text_qa_template": new_summary_tmpl}
+        # )
 
         try:
             response = self.engine.query(question)
@@ -367,6 +366,7 @@ class RAGEngine:
                     "Answer": "I'm sorry, an unexpected error occurred while processing your question. Please try again later.",
                     "Supporting literature": None,
                     "Context": None,
+                    "score": None,
                     "KG": None,
                 }
             }
@@ -381,6 +381,7 @@ class RAGEngine:
                     "Answer": "I'm sorry, I cannot find a specific answer based on the information currently available.",
                     "Supporting literature": getattr(response, 'source_nodes', None),
                     "Context": None,
+                    "score": None,
                     "KG": None,
                 }
             }
@@ -390,52 +391,74 @@ class RAGEngine:
             num_source_nodes = len(response.source_nodes) 
             logging.info(f"源节点数量：{num_source_nodes}") 
 
-            # 循环遍历源节点并打印元数据
-            for s in response.source_nodes: 
-                logging.info(f"节点分数：{s.score}") 
-                logging.info(s.node)
+            # # 循环遍历源节点并打印元数据
+            # for s in response.source_nodes: 
+            #     logging.info(f"节点分数：{s.score}") 
+            #     logging.info(s.node)
             
             answer = response.response
             if self.model_type == "DeepSeek-R1":
                 answer = self.remove_deepseek_think(answer)
                 
-        #     sps = [source_node.node.id_ for source_node in response.source_nodes]
-        #     sps_score = [source_node.score for source_node in response.source_nodes]
-        #     context = []
-        #     for s, _score in zip(sps, sps_score):
-        #         with open(f"{self.data_root}/delirium_text/{s.replace('pmid', '')}.txt", "r") as f:
-        #             text_line = f.readlines()
-        #             title = self._remove_brackets(text_line[0].strip().split("|")[-1])
-        #             abstract = text_line[1].strip().split("|")[-1]
-        #             if 'BACKGROUND' in abstract:
-        #                 abstract = self.format_context(abstract)
-        #         context.append(f"pmid: {s.replace('pmid', '')}, title: {title}, abstract: {abstract}")
-                
-        # context = "\n".join(context)
-        sps = [source_node.node.id_ for source_node in response.source_nodes]
-        score = [source_node.score for source_node in response.source_nodes]
-        # 2. 构造 prompt
-        # prompt = (
-        #     "Given the following response and a set of Options, please answer the Query.\n"
-        #     "---------------------\n"
-        #     f"Response:\n{answer}\n"
-        #     "---------------------\n"
-        #     f"Options:\n{option}\n"
-        #     f"Query: {question}\n"
-        #     "---------------------\n"
-        #     "Please carefully analyze the Response and the Query. Select the single most accurate option (A/B/C/D)\n"
-        #     "Please format your answer as follows:\n"
-        #     "Correct Option: <A./B./C./D.>\n"
-        #     "Reason: <Your detailed explanation>\n"
-        # )
-        # # 3. 让 LLM 生成答案
-        # option = self.llm.predict(prompt)
+            context = []
+            for source_node in response.source_nodes:
+                with open(f"{self.data_root}/delirium_text/{source_node.node.id_.replace('pmid', '')}.txt", "r") as f:
+                    text_line = f.readlines()
+                    title = self._remove_brackets(text_line[0].strip().split("|")[-1])
+                    abstract = text_line[1].strip().split("|")[-1]
+                    if 'BACKGROUND' in abstract:
+                        abstract = self.format_context(abstract)
+                context.append(f"pmid: {source_node.node.id_.replace('pmid', '')}\ntitle: {title}\nabstract: {abstract}")
+
+        context = "\n\n".join(context)
+#         sps = [source_node.node.id_ for source_node in response.source_nodes]
+#         score = [source_node.score for source_node in response.source_nodes]
+#         # 2. 构造 prompt
+#         messages = [
+#                 {
+#                     "role": "system",
+#                     "content": "You are a knowledgeable medical assistant specializing in neurology. Answer multiple-choice medical questions clearly and concisely. When answering, follow this output format:\n\n<Correct Answer>: [A/B/C/D]\n<Why>: [Provide a brief explanation based on the context of the question]",
+#                 },
+#                 {
+#                     "role": "user",
+#                     "content": f"""
+# Read the supporting literature, question and options carefully.
+# Choose the correct options (A, B, C, or D) based only on the given context.
+# Then briefly explain why that option is correct.
+
+# supporting literature:
+# {context}
+
+# Question:
+# {question}
+
+# Options:
+# {option}
+
+# You MUST follow this output format exactly:
+# <Correct Option>: [The single correct option letter. For example: A]
+# <Why>: [A brief explanation based only on the provided context]"""
+#         }
+#             ]
+
+#         # # 3. 让 LLM 生成答案
+#         chat_completion = self.client.chat.completions.create(
+#                     model="/home/mindrank/fuli/DS-32B",
+#                     messages=messages,
+#                     stream=False,
+
+#                 )
+
+#         output = chat_completion.choices[0].message.content
+
+
         yield {"type": "result", 
                 "data":{
                     "Question": question,
                     "Answer": answer,
-                    "score": score,
+                    # "score": score,
                     # "option":option,
+                    "Context": context,
                     "Supporting literature": sps,
                     }
                         }
@@ -443,19 +466,6 @@ class RAGEngine:
 
     def query(self, question, option=None):
         """查询"""
-        # if is_likely_junk_input(question, self.ents):
-            
-        #     yield {"type": "result", 
-        #                 "data":{
-        #                     "Question": question,
-        #                     "Answer": f"It looks like you entered some random characters:\n\n{question}\n\nThis doesn't seem to be a specific question or request.\n\nCould you please clarify what you need help with or ask your question again?",
-        #                     "Supporting literature": None,
-        #                     "Context":  None,
-        #                     "KG":  None,
-        #                     }
-        #                 }
-
-        # else:
         try:
             output_dict = self._query(question, option=option)
             yield from self._query(question, option=option)

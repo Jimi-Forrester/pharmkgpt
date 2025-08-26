@@ -1,3 +1,25 @@
+
+# ---- RAG tracing logger (file + console) ----
+
+import logging
+
+TRACE_LOGGER_NAME = "rag.trace"
+raglog = logging.getLogger(TRACE_LOGGER_NAME)
+if not raglog.handlers:
+    raglog.setLevel(logging.INFO)
+    fmt = logging.Formatter("[%(asctime)s] %(levelname)s %(name)s: %(message)s")
+    # 控制台
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.INFO)
+    ch.setFormatter(fmt)
+    raglog.addHandler(ch)
+    # 文件
+    fh = logging.FileHandler("rag_trace.log", encoding="utf-8")
+    fh.setLevel(logging.INFO)
+    fh.setFormatter(fmt)
+    raglog.addHandler(fh)
+
+
 import logging
 import networkx as nx
 import numpy as np
@@ -189,12 +211,11 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
             highly_related_ents.add(sorted_ents[i])
 
                     
-        # logging.info(f"** 初始节点: {retrieved_ents}")
-        # logging.info(f"** 初始节点得分: {textid2score}")
-        # logging.info(f"** highly_related_ents: {highly_related_ents}")
-        
-        # logging.info(">>>>>>>>>>>>>> 检索初始节点相邻的节点，作为additional_ents")
-        
+        # === LOG: 初始节点清单 ===
+        raglog.info("KGRetrieve | INIT %d nodes", len(nodes))
+        for node in nodes:
+            raglog.info("KGRetrieve | INIT node id=%s score=%.4f", node.node.id_, node.score)
+                
         additional_ents = set()
         
         for node in nodes:
@@ -229,6 +250,15 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
                     combined_score = node.score*0.5 + similarity_score * 0.5
                     
                 ent_score[idx_seq_str] = max(ent_score.get(idx_seq_str, 0), combined_score)
+                
+                
+                # === LOG: KG 邻接边与分数组成 ===
+                raglog.info(
+                    "KGRetrieve | LINK %s -> %s | sim=%.4f, prior=%.4f, combined=%.4f, in_retrieved=%s",
+                    entity, idx_seq_str, similarity_score, ent_score.get(idx_seq_str, 0.0), combined_score,
+                    idx_seq_str in retrieved_ents
+                )
+                                
                 # logging.info(f"** {idx_seq_str}: {ent_score[idx_seq_str]}")
                 
                 
@@ -334,8 +364,8 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         for node in nodes:
             ent = node.node.id_
             if ent in self.chunks_index:
-                # logging.info(f"** {ent}: {len(self.chunks_index[ent].keys())}")
-                # logging.info(f"** {ent}: {self.chunks_index[ent].keys()}")
+                logging.info(f"** {ent}: {len(self.chunks_index[ent].keys())}")
+                logging.info(f"** {ent}: {self.chunks_index[ent].keys()}")
                 
                 if len(self.chunks_index[ent].keys()) > 50:
                     continue
@@ -349,7 +379,14 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
                         similarity_score_set.append(idx_seq_str)
                         textid2score[idx_seq_str] = ent_score[idx_seq_str]
                         # logging.info(f"**{idx_seq_str} score: {ent_score[idx_seq_str]}")
-                    
+        
+        # === LOG: 初始实体 -> 候选 chunk 映射 ===
+        for node in nodes:
+            ent = node.node.id_
+            if ent in self.chunks_index:
+                linked = list(self.chunks_index[ent].keys())
+                raglog.info("KGRetrieve | MAP %s -> %d chunks: %s", ent, len(linked), linked[:10])
+
 
         # logging.info(f"** additional_ids: {len(additional_ids)}")
         
@@ -357,7 +394,7 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         
         added_nodes = []
         for ctx_id in additional_ids:
-            # logging.info(f"ctx_id: {ctx_id}")
+            logging.info(f"ctx_id: {ctx_id}")
             ent = ctx_id
             seq_str = ctx_id
             idx_seq_str = seq_str
@@ -373,11 +410,27 @@ class KGRetrievePostProcessor(BaseNodePostprocessor):
         # added_nodes = added_nodes[:10]
         # logging.info(f"**added_nodes: {[node.id_ for node in added_nodes]}")
         
-        nodes = added_nodes
-        nodes = [node for node in nodes if node.id_[:4].lower() == "pmid"]
-        
+        # === LOG: Reranked 候选 (按 combined score) ===
+        raglog.info("KGRetrieve | CAND sorted=%d", len(added_nodes))
+        for rank, n in enumerate(added_nodes[:min(50, len(added_nodes))], 1):
+            raglog.info("KGRetrieve | CAND #%02d id=%s score=%.4f", rank, n.node.id_, n.score)
+
         if len(nodes) > top_k:
             nodes = nodes[:top_k]
+            
+        # === LOG: 最终输出及支撑三元组 ===
+        raglog.info("KGRetrieve | FINAL %d (top_k=%d)", len(nodes), top_k)
+        for i, n in enumerate(nodes, 1):
+            eid = n.node.id_
+            raglog.info("KGRetrieve | FINAL #%02d id=%s score=%.4f", i, eid, n.score)
+            # 打印该 ctx 的 KG 证据（三元组来源）
+            ent = eid
+            if ent in self.doc2kg and eid in self.doc2kg[ent]:
+                triples = self.doc2kg[ent][eid]
+                for t in triples[:10]:
+                    h, r, t_ = t
+                    raglog.info("KGRetrieve |   EVIDENCE %s --%s--> %s (source=%s)", h, r, t_, eid)
+
         logging.info(f">>>>>> KGRetrieve output: {len(nodes)}")
         logging.info(f">>>>>> KGRetrieve output nodes: {[node.id_ for node in nodes if nodes]}")
         logging.info(f">>>>>> KGRetrieve output score: {[node.score for node in nodes if nodes]}")
@@ -417,7 +470,9 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
             ent = node.node.id_
             ents.add(ent)
             init_ent.append(ent)
-            
+        
+        raglog.info("GraphFilter | INIT %d nodes: %s", len(init_ent), init_ent)
+
         # logging.info(">> 开始构建子图")
         for node in nodes:
             ent = node.node.id_
@@ -434,6 +489,12 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                 ents.add(t)
                 rels.add(r)
                 g.add_edge(h,t,rel=r,source=node.node.id_,weight=node.score)
+                raglog.info(
+    "GraphFilter | EDGE %s -[%s]-> %s | source_ctx=%s weight=%.4f",
+    h, r, t, node.node.id_, node.score
+)
+
+                
 
         # logging.info(">> 找到与初始实体相邻切重叠度大于 0.9 的实体")
         mentioned_ents = set()
@@ -493,9 +554,15 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                     for u, v, data in mst.edges(data=True):
                         if data.get('source') and data['source'] != 'query':
                             mst_edges_with_context.append(data) # Store edge data
-
+                   
                     # Sort edges by weight to select the top ones
                     mst_edges_with_context.sort(key=lambda x: x.get('weight', 0), reverse=True)
+                    
+                    
+                    raglog.info("GraphFilter | WCC #%d size=%d | MST edges(with ctx)=%d",
+                                i, len(wcc), len(mst_edges_with_context))
+                    for e in mst_edges_with_context[:10]:
+                        raglog.info("GraphFilter |   MST keep ctx=%s weight=%.4f", e.get('source'), e.get('weight', 0.0))
 
                     added_ctx_count = 0
                     seen_ctxs_in_wcc = set()
@@ -568,6 +635,11 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
             (query_bundle.query_str, cand_str) for cand_str in cand_strs
         ])
         sorted_seqs = sorted(range(len(scores)), key=lambda x: scores[x], reverse=True)
+        
+        raglog.info("GraphFilter | RERANK %d candidate-context-groups", len(cand_strs))
+        for order, idx in enumerate(sorted_seqs, 1):
+            raglog.info("GraphFilter |   GROUP #%02d score=%.4f ctx_ids=%s",
+                        order, scores[idx], cand_ids_lists[idx])
 
         for seq in sorted_seqs:
             for eid in cand_ids_lists[seq]:
@@ -579,6 +651,8 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                 break
 
         # 2. 如果还不够 topk，尝试从原始 nodes 中按 reranker 得分补足
+        # ……补足后：
+        raglog.info("GraphFilter | AFTER backfill: %s", list(wanted_ctxs))
         if len(wanted_ctxs) < self.topk:
             # logging.info(f"补充节点，当前 wanted_ctxs 数量: {len(wanted_ctxs)}")
             
@@ -594,6 +668,9 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                         wanted_ctxs.add(eid)
                     if len(wanted_ctxs) >= self.topk:
                         break
+        
+        raglog.info("GraphFilter | PICK from groups: %s", list(wanted_ctxs))
+            
 
         # 3. 最终保留 topk 节点
         final_nodes = []
@@ -604,6 +681,16 @@ class GraphFilterPostProcessor(BaseNodePostprocessor):
                 added.add(node.node.id_)
             if len(final_nodes) >= self.topk:
                 break
+            
 
         logging.info(f"最终输出节点数量: {len(final_nodes)} / topk={self.topk}")
+        
+        raglog.info("GraphFilter | FINAL %d / topk=%d", len(final_nodes), self.topk)
+        for i, n in enumerate(final_nodes, 1):
+            raglog.info("GraphFilter | FINAL #%02d id=%s", i, n.node.id_)
+            ent = n.node.id_
+            if ent in self.doc2kg and ent in self.doc2kg[ent]:
+                for (h, r, t) in self.doc2kg[ent][ent][:10]:
+                    raglog.info("GraphFilter |   EVIDENCE %s -[%s]-> %s (ctx=%s)", h, r, t, ent)
+
         return final_nodes

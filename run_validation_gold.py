@@ -40,7 +40,7 @@ for qa_dict in QA_list:
                         rag_dict["question"][qa_dict["_id"]] = qa_dict['question']
                         rag_dict['answer'][qa_dict["_id"]] = data['data']['Answer'].split('**Supporting literature**:')[0]
                         rag_dict['sp'][qa_dict["_id"]] = process_pmid(data['data']['Answer'].split('**Supporting literature**:')[1])
-                        print('yes')
+
     else:
         print(f"Error {response.status_code}: {response.text}")
 

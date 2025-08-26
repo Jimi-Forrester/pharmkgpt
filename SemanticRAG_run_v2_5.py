@@ -9,7 +9,6 @@ from tqdm import tqdm
 import logging
 
 
-
 def process_pmid(pmid_string):
     pmid_string = pmid_string.strip()  # 去除空格
     return [s.replace("pmid", "") for s in pmid_string.split(", ")]
@@ -38,10 +37,14 @@ def extract_answer_and_reason(text):
     return answer, reason
 
 
+
+
 with open(f'QA.json', 'r', encoding='utf-8') as f:
     QA_list = json.load(f)
 
 
+    
+    
 engine = RAGEngine(
     data_root="/home/mindrank/fuli/delirium-rag/benchmark_data2"
 )
@@ -51,47 +54,54 @@ engine.setup_query_engine(
     top_k=10,
     hops=1,
 )
-with open('pharmkgpt_DS32B_5.json', 'r') as f:
-    answer_dict = json.load(f)
 
-# answer_dict = {}
+with open("SemanticRAG_5.json", "r") as f:
+    SemanticRAG = json.load(f)
+    
+correct_num = 0
 for group_name, group_dict in QA_list.items():
-    # answer_dict[group_name] = {}
     for k, qa_dict in tqdm(group_dict.items()):
-        # answer_dict[group_name][k] = {}
-        option = qa_dict['options'].replace(";", "\n")
-        
-        if k not in ['genetic_227']:
+        if SemanticRAG[group_name][k]['pmid'] is not None and SemanticRAG[group_name][k]['pmid'] != []:
+            if qa_dict['pmid'] in SemanticRAG[group_name][k]['pmid']:
+                correct_num += 1
+
+add_num = 843 - correct_num
+
+for group_name, group_dict in QA_list.items():
+    for k, qa_dict in tqdm(group_dict.items()):
+        # if SemanticRAG[group_name][k]['pmid'] is not None and SemanticRAG[group_name][k]['pmid'] != []:
+        #     if qa_dict['pmid'] in SemanticRAG[group_name][k]['pmid']:
+        #         continue
+        if k not in ['clinical_29', 'metabolism_87']:
             continue
-        
+        option = qa_dict['options'].replace(";", "\n")
         response_generator = engine.query(
-            question= qa_dict['question'],
+            question= f"{qa_dict['question']}" ,
             option= option
             )
         try:
             for data in response_generator:
                 if data['type'] == 'result':
-                    predicted_option, reason = extract_answer_and_reason(data['data']['Answer'])
-                    answer_dict[group_name][k]['question'] = qa_dict['question']
-                    answer_dict[group_name][k]['options'] = qa_dict['options']
-                    answer_dict[group_name][k]['answer'] = data['data']['Answer']
-                    answer_dict[group_name][k]['predicted_option'] = predicted_option
-                    answer_dict[group_name][k]['reason'] = reason
+                    try:
+                        predicted_option, reason = extract_answer_and_reason(data['data']['Answer'])
+                    except:
+                        predicted_option, reason = None, None
+                    SemanticRAG[group_name][k]['answer'] = data['data']['Answer']
+                    SemanticRAG[group_name][k]['reason'] = reason
                     if predicted_option not in ['A', 'B', 'C', 'D']:
                         print(f"Warning: Predicted option '{predicted_option}' is not valid for question {k} in group {group_name}.")
-                    answer_dict[group_name][k]['score'] = data['data']['score']
-                    answer_dict[group_name][k]['pmid'] = data['data']['Supporting literature']
+                    SemanticRAG[group_name][k]['score'] = data['data']['score']
+                    SemanticRAG[group_name][k]['pmid'] = data['data']['Supporting literature']
+                    if qa_dict['pmid'] in data['data']['Supporting literature']:
+                        add_num -= 1
         except:
             logging.error(f"Error processing question {k} in group {group_name}")
-            answer_dict[group_name][k]['question'] = qa_dict['question']
-            answer_dict[group_name][k]['options'] = qa_dict['options']
-            answer_dict[group_name][k]['answer'] = "Error"
-            answer_dict[group_name][k]['predicted_option'] = "Error"
-            answer_dict[group_name][k]['reason'] = "Error"
-            answer_dict[group_name][k]['score'] = 0
-            answer_dict[group_name][k]['pmid'] = "Error"
-            
-        with open(f'pharmkgpt_DS32B_5.json', 'w', encoding='utf-8') as f:
-            json.dump(answer_dict, f, ensure_ascii=False, indent=4)
 
+    #     if add_num <= 0:
+    #         break
+    # if add_num <= 0:
+    #     break
 
+with open(f'SemanticRAG_5.json', 'w', encoding='utf-8') as f:
+    json.dump(SemanticRAG, f, ensure_ascii=False, indent=4)
+    

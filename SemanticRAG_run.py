@@ -38,6 +38,8 @@ def extract_answer_and_reason(text):
     return answer, reason
 
 
+
+
 with open(f'QA.json', 'r', encoding='utf-8') as f:
     QA_list = json.load(f)
 
@@ -51,21 +53,15 @@ engine.setup_query_engine(
     top_k=10,
     hops=1,
 )
-with open('pharmkgpt_DS32B_5.json', 'r') as f:
-    answer_dict = json.load(f)
 
-# answer_dict = {}
+answer_dict = {}
 for group_name, group_dict in QA_list.items():
-    # answer_dict[group_name] = {}
+    answer_dict[group_name] = {}
     for k, qa_dict in tqdm(group_dict.items()):
-        # answer_dict[group_name][k] = {}
+        answer_dict[group_name][k] = {}
         option = qa_dict['options'].replace(";", "\n")
-        
-        if k not in ['genetic_227']:
-            continue
-        
         response_generator = engine.query(
-            question= qa_dict['question'],
+            question= f"Question:{qa_dict['question']}, Option:{option}" ,
             option= option
             )
         try:
@@ -91,7 +87,5 @@ for group_name, group_dict in QA_list.items():
             answer_dict[group_name][k]['score'] = 0
             answer_dict[group_name][k]['pmid'] = "Error"
             
-        with open(f'pharmkgpt_DS32B_5.json', 'w', encoding='utf-8') as f:
+        with open(f'SemanticRAG_5.json', 'w', encoding='utf-8') as f:
             json.dump(answer_dict, f, ensure_ascii=False, indent=4)
-
-

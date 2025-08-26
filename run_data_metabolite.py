@@ -14,46 +14,46 @@ engine.setup_query_engine(
     hops=1,
 )
 
-df = pd.read_csv('proteins_50_rf.csv')
-protein_list = df['protein']
+df = pd.read_csv('metabolites_all.csv')
+metabolite_list = df['metabolite']
 
 output_query = {}
-for gene in tqdm(protein_list):
-    response_generator = engine.query(f"Is there research on the protein {gene}?")
+for metabolite in tqdm(metabolite_list):
+    response_generator = engine.query(f"Is there research on the metabolites {metabolite}?")
     for term in response_generator:
         if term['type'] =='result':
             results_dict = term['data']
             if results_dict["Context"]:
-                output_query[f"{gene}_Q1"] = {
+                output_query[f"{metabolite}_Q1"] = {
                     "Question":results_dict["Question"],
                     "Answer":results_dict["Answer"],
                     "Context":results_dict["Context"],
                     "Supporting literature":results_dict["Supporting literature"]
                     }
     
-    response_generator = engine.query(f"What is the role of {gene} in the delirium?")
+    response_generator = engine.query(f"What is the role of {metabolite} in the delirium?")
     for term in response_generator:
         if term['type'] =='result':
             results_dict = term['data']
             if results_dict["Context"]:
-                output_query[f"{gene}_Q2"] = {
+                output_query[f"{metabolite}_Q2"] = {
                     "Question":results_dict["Question"],
                     "Answer":results_dict["Answer"],
                     "Context":results_dict["Context"],
                     "Supporting literature":results_dict["Supporting literature"]
                     }
 
-    response_generator = engine.query(f"What is the role of {gene} in the alzheimer's disease?")
+    response_generator = engine.query(f"What is the role of {metabolite} in the alzheimer's disease?")
     for term in response_generator:
         if term['type'] =='result':
             results_dict = term['data']
             if results_dict["Context"]:
-                output_query[f"{gene}_Q3"] = {
+                output_query[f"{metabolite}_Q3"] = {
                     "Question":results_dict["Question"],
                     "Answer":results_dict["Answer"],
                     "Context":results_dict["Context"],
                     "Supporting literature":results_dict["Supporting literature"]
                     }
 
-    with open('case_study/proteins_50_rf.json', 'w', encoding='utf-8')as f:
-        json.dump(output_query, f, ensure_ascii=False, indent=4)
+with open(f'case_study/metabolites_all.json', 'w', encoding='utf-8')as f:
+    json.dump(output_query, f, ensure_ascii=False, indent=4)
