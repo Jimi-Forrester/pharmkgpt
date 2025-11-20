@@ -26,6 +26,7 @@ To combat the issue of large language model "hallucinations" in specialized fiel
     *   [2.2 Local (Conda)](#21-local-conda)
 3.  [Test](#3-test)
 4.  [Data Version History](#4-data-version-history)
+5.  [Tsuru Deployment](#5-tsuru-deployment)
 
 ## 1. Prerequisites
 
@@ -134,4 +135,29 @@ To run the automated tests:
     ```bash
     pytest test/test_QA.py
     ```
+
+## 5. Tsuru Deployment
+
+Use the GitHub Actions workflow in `.github/workflows/deploy.yml` to build, test, and deploy automatically to the Department of Computing Tsuru cluster.
+
+1.  **Set Repository Secrets:**  
+    - `TSURU_HOST` → `https://impaas.uk` (or the custom Tsuru endpoint you were given)  
+    - `TSURU_TOKEN` → the token emailed to your group. Keep this private; never commit it.
+
+2.  **Set Repository Variable:**  
+    - `TSURU_APP_NAME` → the Tsuru app name assigned to your project (e.g., `my-app-name`). We store this as a GitHub *variable* (not secret) so the workflow can resolve it without hard-coding.
+
+3.  **Trigger the Workflow:**  
+    - Push to `main` or run the workflow manually (`Actions → Deploy to Tsuru → Run workflow`). The job will:
+        * check out code
+        * install Python dependencies
+        * run `pytest` (skips automatically if there is no tests directory)
+        * bundle the repo
+        * install the Tsuru CLI and log in with `TSURU_TOKEN`
+        * run `tsuru app-deploy -a $TSURU_APP_NAME release.tar.gz`
+
+4.  **Verify Deployment:**  
+    - Wait ~60 seconds, then open `https://<TSURU_APP_NAME>.impaas.uk/` (or the path your FastAPI router exposes) to confirm the service is live.
+
+If the workflow fails with authentication errors, double-check that both secrets are populated and that the token hasn’t expired. For application-specific issues (missing environment variables, data folders, etc.), replicate the failure locally with the same commands listed in the workflow logs, fix the problem, and push again.
 

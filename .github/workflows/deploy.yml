@@ -1,0 +1,72 @@
+name: Deploy to Tsuru
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  PYTHON_VERSION: "3.10"
+  TSURU_APP_NAME: ${{ vars.TSURU_APP_NAME }}
+
+jobs:
+  deploy:
+    name: Build, Test, and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: |
+          if [ -d "tests" ] || [ -d "test" ]; then
+            pytest
+          else
+            echo "No tests directory found. Skipping pytest."
+          fi
+
+      - name: Create deploy bundle
+        run: |
+          git ls-files -z | tar -czf release.tar.gz --null -T -
+
+      - name: Install Tsuru client
+        run: |
+          curl -sSL https://github.com/tsuru/tsuru-client/releases/download/1.1.1/tsuru-1.1.1-linux_amd64.tar.gz -o tsuru-client.tar.gz
+          tar -xzf tsuru-client.tar.gz
+          sudo mv tsuru /usr/local/bin/tsuru
+
+      - name: Deploy to Tsuru
+        env:
+          TSURU_HOST: ${{ secrets.TSURU_HOST }}
+          TSURU_TOKEN: ${{ secrets.TSURU_TOKEN }}
+          TSURU_APP_NAME: ${{ env.TSURU_APP_NAME }}
+        run: |
+          if [ -z "$TSURU_HOST" ]; then
+            echo "TSURU_HOST secret is not set." >&2
+            exit 1
+          fi
+          if [ -z "$TSURU_TOKEN" ]; then
+            echo "TSURU_TOKEN secret is not set." >&2
+            exit 1
+          fi
+          if [ -z "$TSURU_APP_NAME" ]; then
+            echo "TSURU_APP_NAME repository variable is not set." >&2
+            exit 1
+          fi
+
+          tsuru target-add tsuru "$TSURU_HOST" --set-current
+          tsuru login --token "$TSURU_TOKEN"
+          tsuru app-deploy -a "$TSURU_APP_NAME" release.tar.gz
+
