@@ -46,7 +46,6 @@ jobs:
       - name: Install Tsuru client
         run: |
           curl -fsSL https://tsuru.io/get | bash
-          tsuru version
 
       - name: Deploy to Tsuru
         env:
