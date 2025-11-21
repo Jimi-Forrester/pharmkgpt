@@ -9,7 +9,6 @@ on:
 env:
   PYTHON_VERSION: "3.10"
   TSURU_APP_NAME: ${{ vars.TSURU_APP_NAME }}
-  TSURU_CLIENT_VERSION: "1.15.1"
 
 jobs:
   deploy:
@@ -46,16 +45,14 @@ jobs:
 
       - name: Install Tsuru client
         run: |
-          curl -sSL "https://github.com/tsuru/tsuru-client/releases/download/${TSURU_CLIENT_VERSION}/tsuru-${TSURU_CLIENT_VERSION}-linux_amd64.tar.gz" -o tsuru-client.tar.gz
-          tar -xzf tsuru-client.tar.gz
-          sudo mv tsuru /usr/local/bin/tsuru
+          curl -fsSL https://tsuru.io/get | bash
+          tsuru version
 
       - name: Deploy to Tsuru
         env:
           TSURU_HOST: ${{ secrets.TSURU_HOST }}
           TSURU_TOKEN: ${{ secrets.TSURU_TOKEN }}
           TSURU_APP_NAME: ${{ env.TSURU_APP_NAME }}
-          TSURU_CLIENT_VERSION: ${{ env.TSURU_CLIENT_VERSION }}
         run: |
           if [ -z "$TSURU_HOST" ]; then
             echo "TSURU_HOST secret is not set." >&2
