@@ -53,6 +53,7 @@ jobs:
         env:
           TSURU_HOST: ${{ secrets.TSURU_HOST }}
           TSURU_TOKEN: ${{ secrets.TSURU_TOKEN }}
+          TSURU_USER: ${{ secrets.TSURU_USER }}
           TSURU_APP_NAME: ${{ env.TSURU_APP_NAME }}
         run: |
           if [ -z "$TSURU_HOST" ]; then
@@ -67,8 +68,12 @@ jobs:
             echo "TSURU_APP_NAME repository variable is not set." >&2
             exit 1
           fi
+          if [ -z "$TSURU_USER" ]; then
+            echo "TSURU_USER secret is not set." >&2
+            exit 1
+          fi
 
           tsuru target-add tsuru "$TSURU_HOST" --set-current
-          export TSURU_TOKEN="$TSURU_TOKEN"
+          printf '%s\n' "$TSURU_TOKEN" | tsuru login "$TSURU_USER"
           tsuru app-deploy -a "$TSURU_APP_NAME" release.tar.gz
 
