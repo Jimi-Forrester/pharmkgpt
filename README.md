@@ -133,8 +133,9 @@ To run the automated tests:
 2.  **Configure Environment:** Verify that the `DATA_ROOT` variable in your `.env` file points to the *test* dataset directory (or ensure it's correctly mounted if using Docker).
 3.  **Execute Pytest:**
     ```bash
-    pytest test/test_QA.py
+    RUN_HEAVY_RAG_TESTS=1 pytest tests/test_QA.py
     ```
+    The RAG integration tests are skipped by default in CI/local runs because they require `FlagEmbedding`, the KG pickles, and external LLM endpoints. Set `RUN_HEAVY_RAG_TESTS=1` when you have all prerequisites available.
 
 ## 5. Tsuru Deployment
 

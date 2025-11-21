@@ -1,13 +1,19 @@
+import os
 import pytest
 import time
+
+if os.getenv("RUN_HEAVY_RAG_TESTS", "0") != "1":
+    pytest.skip(
+        "Skipping RAG integration tests because RUN_HEAVY_RAG_TESTS is disabled.",
+        allow_module_level=True,
+    )
+
 from src.rag import RAGEngine
 
-TEST_DATA_PATH = "/home/mindrank/fuli/delirium-rag/Data_test_v4"  
-model_type_list = ['gemma3','DeepSeek-R1','Qwen2.5',]
+TEST_DATA_PATH = "/home/mindrank/fuli/delirium-rag/Data_test_v4"
+model_type_list = ["gemma3", "DeepSeek-R1", "Qwen2.5"]
 
-engine = RAGEngine(
-    data_root=TEST_DATA_PATH
-)
+engine = RAGEngine(data_root=TEST_DATA_PATH)
     
 
 def test_qa():
