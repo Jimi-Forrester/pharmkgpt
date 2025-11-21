@@ -9,6 +9,7 @@ on:
 env:
   PYTHON_VERSION: "3.10"
   TSURU_APP_NAME: ${{ vars.TSURU_APP_NAME }}
+  TSURU_CLIENT_VERSION: "1.15.1"
 
 jobs:
   deploy:
@@ -45,7 +46,7 @@ jobs:
 
       - name: Install Tsuru client
         run: |
-          curl -sSL https://github.com/tsuru/tsuru-client/releases/download/1.1.1/tsuru-1.1.1-linux_amd64.tar.gz -o tsuru-client.tar.gz
+          curl -sSL "https://github.com/tsuru/tsuru-client/releases/download/${TSURU_CLIENT_VERSION}/tsuru-${TSURU_CLIENT_VERSION}-linux_amd64.tar.gz" -o tsuru-client.tar.gz
           tar -xzf tsuru-client.tar.gz
           sudo mv tsuru /usr/local/bin/tsuru
 
@@ -53,8 +54,8 @@ jobs:
         env:
           TSURU_HOST: ${{ secrets.TSURU_HOST }}
           TSURU_TOKEN: ${{ secrets.TSURU_TOKEN }}
-          TSURU_USER: ${{ secrets.TSURU_USER }}
           TSURU_APP_NAME: ${{ env.TSURU_APP_NAME }}
+          TSURU_CLIENT_VERSION: ${{ env.TSURU_CLIENT_VERSION }}
         run: |
           if [ -z "$TSURU_HOST" ]; then
             echo "TSURU_HOST secret is not set." >&2
@@ -68,12 +69,7 @@ jobs:
             echo "TSURU_APP_NAME repository variable is not set." >&2
             exit 1
           fi
-          if [ -z "$TSURU_USER" ]; then
-            echo "TSURU_USER secret is not set." >&2
-            exit 1
-          fi
-
           tsuru target-add tsuru "$TSURU_HOST" --set-current
-          printf '%s\n' "$TSURU_TOKEN" | tsuru login "$TSURU_USER"
+          tsuru login --token "$TSURU_TOKEN"
           tsuru app-deploy -a "$TSURU_APP_NAME" release.tar.gz
 
