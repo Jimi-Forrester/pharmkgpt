@@ -69,6 +69,6 @@ jobs:
           fi
 
           tsuru target-add tsuru "$TSURU_HOST" --set-current
-          tsuru login --token "$TSURU_TOKEN"
+          export TSURU_TOKEN="$TSURU_TOKEN"
           tsuru app-deploy -a "$TSURU_APP_NAME" release.tar.gz
 
